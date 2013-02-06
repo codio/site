@@ -1,0 +1,68 @@
+---
+title: "Gettin' Crafty: Application Development articles and news"
+per_page: 4
+class_name: blog
+full_width: true
+---
+
+<header>
+  <div class="container">
+    <div>
+      <h1>Gettin' Crafty</h1>
+      <h2>A Blog written by Application Craft - the Visual IDE people</h2>
+    </div>
+  </div>
+</header>
+
+<div class="container clearfix">
+
+  <section class="posts all">
+
+    <% year, month = nil, nil %>
+    <% blog.articles.each do |article| %>
+
+      <% if year != article.date.year %>
+        <h2><%= link_to article.date.year, "/blog/#{article.date.year}" %></h2>
+      <% end %>
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <% if month != article.date.month %>
+              <%= link_to article.date.strftime('%B'), "/blog/#{article.date.year}/#{article.date.strftime('%m')}" %>
+            <% end %>
+          </p>
+        </section>
+
+        <h3><%= link_to article.title, article %></h3>
+      </article>
+
+      <% year, month = article.date.year, article.date.month %>
+    <% end %>
+  </section>
+
+  <aside>
+    <section class="all-posts">
+      <h4><a href="/blog/all">all posts &raquo;</a></h4>
+      <h5><a href="http://feeds.feedburner.com/ApplicationCraft" target="_blank"><%= image_tag 'feed-icon.png', :size => '14x14' %>Subscribe</a></h5>
+    </section>
+
+    <section class="latest-posts">
+      <h4>Latest posts...</h4>
+      <ul>
+        <% blog.articles[0...5].each do |post| %>
+          <li><%= link_to post.title, post %></li>
+        <% end %>
+      </ul>
+    </section>
+
+
+    <div style="margin:35px 0 0 25px;">
+      <a href="https://twitter.com/appcrafty" class="twitter-follow-button" data-size="medium" data-show-count="false" data-lang="en">Follow us @appcrafty</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+
+    <a href="https://chrome.google.com/webstore/detail/application-craft/fnbfgfpielckjhdohmkacklnnjkdpkdc" target="_blank"><img src="https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_BadgeWBorder_v2_206x58.png" style="margin:15px 0 0 25px;width:88%;"></a>
+  </aside>
+
+</div>

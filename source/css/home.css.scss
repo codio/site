@@ -1,0 +1,75 @@
+body.home {
+  background: $cream image-url('graphbg.gif') repeat;
+
+  @import 'home/slides';
+  @import 'home/content';
+}
+
+
+  // -webkit-animation: cloudAnim 3s infinite ease both;
+  // -moz-animation: cloudAnim 3s infinite ease both;
+  // -ms-animation: cloudAnim 3s infinite ease both;
+  // -o-animation: cloudAnim 3s infinite ease both;
+  // animation: cloudAnim 3s infinite ease both;
+
+
+/* Icons */
+@-webkit-keyframes cloudAnim {
+  /* line 8, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  50% {
+    -webkit-transform: translate(0, 10px);
+  }
+
+  /* line 11, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  100% {
+    -webkit-transform: translate(0, 0);
+  }
+}
+
+@-moz-keyframes cloudAnim {
+  /* line 17, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  50% {
+    -moz-transform: translate(0, 10px);
+  }
+
+  /* line 20, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  100% {
+    -moz-transform: translate(0, 0);
+  }
+}
+
+@-o-keyframes cloudAnim {
+  /* line 26, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  50% {
+    -o-transform: translate(0, 10px);
+  }
+
+  /* line 29, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  100% {
+    -o-transform: translate(0, 0);
+  }
+}
+
+@-ms-keyframes cloudAnim {
+  /* line 35, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  50% {
+    -ms-transform: translate(0, 10px);
+  }
+
+  /* line 38, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  100% {
+    -ms-transform: translate(0, 0);
+  }
+}
+
+@keyframes cloudAnim {
+  /* line 44, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  50% {
+    -webkit-transform: translate(0, 10px);
+  }
+
+  /* line 47, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
+  100% {
+    -webkit-transform: translate(0, 0);
+  }
+}

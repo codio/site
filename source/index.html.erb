@@ -1,0 +1,148 @@
+---
+title: Visual IDE in the Cloud
+class_name: home
+full_width: true
+active_menu_item: home
+---
+
+<header>
+  <div class="container">
+    <div class="carousel" data-paginate data-autoplay data-transition="flip">
+
+      <section id="slide1" class="clearfix">
+        <div>
+          <div>
+            <p>Visual</p>
+            <p>Development</p>
+            <p>in the Cloud</p>
+            <p>for Everyone</p>
+          </div>
+          <div>
+            <p>Build amazing mobile and desktop applications with our web based, drag-and-drop IDE</p>
+          </div>
+          <div>
+            <%= image_tag 'flourish.gif', :width => 174, :height => 28 %>
+          </div>
+        </div>
+        <div>
+          <%= image_tag "home/slides/slide1.gif", :width => 428, :height => 447, :alt => "Visual Development in the Cloud" %>
+        </div>
+      </section>
+
+      <section id="slide2" class="clearfix">
+        <div>
+          <div>
+            <p>Build</p>
+            <p>Once</p>
+            <p>Run Everywhere</p>
+          </div>
+          <div>
+            <p>Run your app on Desktops, Tablets and Mobile, and deploy to the App Stores</p>
+          </div>
+          <div>
+            <%= image_tag 'flourish.gif', :width => 174, :height => 28 %>
+          </div>
+        </div>
+        <div>
+          <%= image_tag 'home/slides/slide2.gif', :width => 423, :height => 404, :alt => "Build Once, Run Everywhere" %>
+        </div>
+      </section>
+
+      <section id="slide3" class="clearfix">
+        <div>
+          <div>
+            <p>For</p>
+            <p>Developers</p>
+            <p>of all</p>
+            <p>Skill Levels</p>
+          </div>
+          <div>
+            <p>There is no easier way to build real, cross-platform apps</p>
+          </div>
+          <div>
+            <%= image_tag 'flourish.gif', :width => 174, :height => 28 %>
+          </div>
+        </div>
+        <div>
+          <%= image_tag 'home/slides/slide3.gif', :width => 477, :height => 419, :alt => "For Developers of all Skill Levels" %>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</header>
+
+
+<section id="price-banner" class="clearfix">
+  <div class="container">
+    <div>only <span>$14</span> per month</div>
+    <div class="nofade"><a href="/get-started">
+      <p>Try it for Free!</p>
+      <p><span>&#x2605;</span> <span class="trial-period">14</span> day free trial <span>&#x2605;</span></p>
+    </a></div>
+    <div>
+      <a href="http://www.youtube.com/v/XcGx6F7Wql0?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe">
+        Watch the intro video...
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<section id="content">
+  <div class="container">
+
+    <section class="feature clearfix">
+      <div><%= image_tag "home/feature1.png", :width => 513, :height => 638, :alt => '100% cloud based visual development' %></div>
+      <div>
+        <h2><strong>100%</strong> Browser Based</h2>
+        <p>Drag-and-drop UI design, coding, deployment - you do everything in your browser. You can choose from our Cloud based platform or AC Enterprise, which you can install anywhere. <a href="/product">Learn more &raquo;</a></p>
+      </div>
+    </section>
+
+    <!-- <div class="track">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div> -->
+
+    <section class="feature clearfix">
+      <div>
+        <h2>Build Prototypes, Front-Ends &amp; Full-Blown Apps</h2>
+        <p>There is absolutely no faster, easier way of getting fully functional prototypes up and running. And mobile or desktop front-ends for your web services or database are a doddle. But you should see some of the full-strength solutions our users have built! <a href="/product">Learn more &raquo;</a></p>
+      </div>
+      <div><%= image_tag "home/feature2.png", :width => 493, :height => 347, :alt => 'Build prototypes, front-ends and full-blown apps' %></div>
+    </section>
+
+    <section class="feature clearfix">
+      <div><%= image_tag "home/feature3.png", :width => 498, :height => 409, :alt => 'Deploy as a web app and to the App Stores' %></div>
+      <div>
+        <h2>Web Apps to Mobile App Stores?</h2>
+        <p>All Application Craft Apps will run in your desktop or mobile browser. But AC Mobile Build incorporates PhoneGap/Cordova technology so you can deploy to App Stores. <a href="/product">Learn more &raquo;</a></p>
+      </div>
+    </section>
+
+    <section class="feature clearfix">
+      <div>
+        <h2>Everything is HTML5, CSS and Javascript</h2>
+        <p>Application Craft was developed using pure web technologies. And your Apps are too. If ‘cross-platform’ matters and your budget is not effectively unlimited, then let Application Craft take the strain. <a href="/product">Learn more &raquo;</a></p>
+      </div>
+      <div><%= image_tag "home/feature4.png", :width => 461, :height => 419, :alt => 'Everything is HTML5, CSS and Javascript' %></div>
+    </section>
+
+    <section class="feature clearfix">
+      <div>
+        <h2>You’d be crazy to go Native!</h2>
+        <p>Building Native Apps means you have to write each App 2, 3 or even 4 times! If you have the skills and you can afford it, then Native may well be the right choice. But for at least 80% of cases, it is simply not an option. <a href="/product">Learn more &raquo;</a></p>
+      </div>
+      <div id="latest">
+        <article>
+          <h2>From our Blog...</h2>
+          <h3><a href="<%= blog.articles.first.url %>"><%= blog.articles.first.title %></a></h3>
+          <p><%= truncate strip_tags(blog.articles.first.body), :length => 220, :strip_tags => true %> <a href="<%= blog.articles.first.url %>"><nobr>read more &raquo;</nobr></a></p>
+        </article>
+      </div>
+    </section>
+
+  </div>
+</section>

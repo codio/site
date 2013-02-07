@@ -1,17 +1,189 @@
 body.home {
   background: $cream image-url('graphbg.gif') repeat;
 
-  @import 'home/slides';
-  @import 'home/content';
+  header {
+    background: #666 image-url('bgcloth.png') repeat;
+
+    .container {
+      #headline {
+        padding: 60px 0 0 0;
+        text-align: center;
+      }
+
+      #qualifier {
+        > div {
+          float: left;
+
+          &:first-child {
+            position: relative;
+            left: 30px;
+            width: 430px;
+          }
+
+          &:last-child {
+            width: 400px;
+            margin: 15px 0 0 115px;
+
+            p {
+              font-size: 18px;
+              color: $cream;
+              font-family: gotham_thinregular;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #nav-banner {
+    background-color: #eee;
+    color: #777;
+    font: 14px gotham_lightregular;
+    @include box-shadow(0 1px 8px #CCC);
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+
+        a {
+          font-size: 24px;
+        }
+
+        i {
+          margin-top: 6px;
+        }
+
+        &.active {
+          font-family: gotham_mediumregular;
+
+          &:before {
+            content: '';
+            display: inline-block;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: 15px solid #cccccc;
+            border-top-color: rgba(0, 0, 0, 0.15);
+            position: absolute;
+            top: 57px;
+            left: 121px;
+          }
+          &:after {
+            content: '';
+            display: inline-block;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: 15px solid #eee;
+            position: absolute;
+            top: 56px;
+            left: 121px;
+          }
+        }
+
+        &:nth-child(1) {
+          text-align: left;
+          width: 300px;
+        }
+
+        &:nth-child(2),
+        &:nth-child(4) {
+          width: 36px;
+          font-size: 24px;
+          color: #CCC;
+          text-align: center;
+        }
+
+        &:nth-child(3) {
+          width: 37%;
+          font-size: 21px;
+          color: #666;
+          padding: 36px 0 31px;
+        }
+
+        &:nth-child(5) {
+          text-align: right;
+          width: 210px;
+
+          &:before, &:after {
+            left: 103px;
+          }
+        }
+      }
+    }
+  }
+
+  #features .container {
+    #future-features {
+      display: none;
+    }
+
+    > ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      &#future-features {
+        li:first-child {
+          margin: 38px 0 0 0;
+          font-style: italic;
+          font-size: 18px;
+        }
+      }
+
+      > li {
+        padding: 10px 20px 0 20px;
+        width: 212px;
+        display: inline-block;
+        vertical-align: top;
+
+        &:first-child {
+          padding-left: 0;
+        }
+
+        &:last-child {
+          padding-right: 0;
+        }
+
+        > ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+
+          h4 {
+            font-family: gotham_bookregular;
+            font-size: 18px;
+            margin: 50px 0 0;
+            color: #222;
+
+            i {
+              margin-top: 4px;
+              color: darken($red, 25%);
+            }
+          }
+
+          p {
+            font-size: 13px;
+            color: #777;
+          }
+        }
+      }
+    }
+  }
 }
 
 
-  // -webkit-animation: cloudAnim 3s infinite ease both;
-  // -moz-animation: cloudAnim 3s infinite ease both;
-  // -ms-animation: cloudAnim 3s infinite ease both;
-  // -o-animation: cloudAnim 3s infinite ease both;
-  // animation: cloudAnim 3s infinite ease both;
 
+// -webkit-animation: cloudAnim 3s infinite ease both;
+// -moz-animation: cloudAnim 3s infinite ease both;
+// -ms-animation: cloudAnim 3s infinite ease both;
+// -o-animation: cloudAnim 3s infinite ease both;
+// animation: cloudAnim 3s infinite ease both;
 
 /* Icons */
 @-webkit-keyframes cloudAnim {

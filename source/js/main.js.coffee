@@ -22,6 +22,25 @@ $ ->
   )
 
 
+# Home page feature lists
+$ ->
+  (links = $('body.home #nav-banner a')).on 'click', ->
+    $this = $(this)
+    type = $(this).attr('href').slice(1)
+
+    $('#features .container > ul').fadeOut ->
+      do $("##{type}").fadeIn
+
+    links.parent().removeClass 'active'
+    $this.parent().addClass 'active'
+
+    $(document.body).animate({
+      scrollTop: $('#nav-banner').offset().top
+    }, 1000)
+
+    false
+
+
 # Handles the hidden submenu.
 $ ->
   $('#content-body h1 button').click ->

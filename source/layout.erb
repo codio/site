@@ -51,48 +51,7 @@
       </div>
     </nav>
 
-    <%= yield_content :submenu %>
-
-    <% unless current_page.data.full_width %>
-
-      <div id="content-body" class="container">
-        <h1 class="<%= 'no-border' if current_page.data.hide_title %>">
-          <button type="button" class="btn btn-navbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <%= current_page.data.title unless current_page.data.hide_title %>
-        </h1>
-
-        <div class="clearfix">
-          <aside>
-            <%= yield_content :above_aside %>
-
-            <% if current_page.data.active_submenu %>
-              <ul id="submenu" <% if current_page.data.class_name != 'training_videos' %>data-spy="affix" data-offset-top="200"<% end %>>
-                <% data.send(current_page.data.active_submenu).submenu.each do |f| %>
-                  <li class="<%= 'active' if current_page.data.active_submenu_item == f.url %>">
-                    <a href="<%= f.url %>"><%= f.text %></a>
-                  </li>
-                <% end %>
-              </ul>
-            <% end %>
-
-            <%= yield_content :below_aside %>
-            &nbsp;
-          </aside>
-
-          <article>
-            <%= yield %>
-          </article>
-        </div>
-      </div>
-
-    <% else %>
-      <%= yield %>
-    <% end %>
-
+    <%= yield %>
     <%= partial :footer %>
 
   </body>

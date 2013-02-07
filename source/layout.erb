@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
-    <title><%= current_page.data.title %> - Crafted</title>
+    <title><%= current_page.data.title %> - Crafted.io</title>
 
     <% if content_for?(:meta_description) %>
       <meta name="description" content="<%= yield_content :meta_description %>">
@@ -27,30 +27,26 @@
 
     <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
   </head>
-  <body class="<%= current_page.data.class_name || 'standard' %>" data-spy="scroll" data-target="#submenu">
+  <body class="<%= current_page.data.class_name || 'standard' %>">
     <a id="top"></a>
 
-    <nav class="main">
+    <nav>
       <div class="container">
 
         <div id="blog-ribbon" class="nofade">
           <a href="/blog" title="Check out our blog">Blog</a>
         </div>
 
-        <ul class="clearfix">
-          <li><a href="/"><%= image_tag 'crafted-logo1.png' %></a></li>
-          <li class="clearfix">
-            <ul class="clearfix">
-              <li class="<%= 'active' if current_page.data.active_menu_item == 'product' %>"><a href="/product">Pricing
-              </a></li>
-              <li class="<%= 'active' if current_page.data.active_menu_item == 'services' %>"><a href="/services" class="active">Examples</a></li>
-              <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>"><a href="/developers">Documentation</a></li>
-              <li class="nofade <%= 'active' if current_page.data.active_menu_item == 'sign-up' %>">
-                <a href="/get-started">Play Now</a></br><a href="/get-started">Sign Up</a></br><a href="/get-started">Login</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+        <nav class="clearfix">
+          <ul>
+            <li class="<%= 'active' if current_page.data.active_menu_item == 'product' %>"><a href="/product">Pricing
+            </a></li>
+            <li class="<%= 'active' if current_page.data.active_menu_item == 'services' %>"><a href="/services" class="active">Examples</a></li>
+            <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>"><a href="/developers">Documentation</a></li>
+          </ul>
+
+          <a href="/"><%= image_tag 'crafted-logo1.png' %></a>
+        </nav>
 
       </div>
     </nav>

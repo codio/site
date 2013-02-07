@@ -9,7 +9,7 @@ header {
   }
 
   section {
-    height: 485px;
+    height: 425px;
     @include apply-to(more-than, iphone-landscape) {
       height: 640px;
     }
@@ -17,7 +17,7 @@ header {
       height: 314px;
     }
     @include apply-to(more-than, ipad-landscape) {
-      height: 430px;
+      height: 340px;
     }
 
     > div {
@@ -80,7 +80,7 @@ header {
           margin: 0;
         }
         @include apply-to(more-than, ipad-portrait) {
-          width: 44%;
+          width: 36%;
         }
 
         img {
@@ -92,7 +92,7 @@ header {
             max-width: 80%;
           }
           @include apply-to(more-than, ipad-landscape) {
-            max-width: 100%;
+            max-width: 90%;
           }
         }
       }
@@ -110,8 +110,8 @@ section#slide1 {
         width: 56%;
       }
       @include apply-to(more-than, ipad-landscape) {
-        margin-top: 50px;
-        width: 52%;
+        margin-top: 10px;
+        width: 60%;
         padding-right: 38px;
       }
 
@@ -136,194 +136,42 @@ section#slide1 {
         img {
           margin: 0 auto;
         }
+
 
         // Line 1
         p:first-child {
           margin-bottom: 3px;
-          font-size: 24px;
+          font-size: 12px;
+          line-height: 1.8em;
 
           @include apply-to(more-than, iphone-landscape) {
-            font-size: 34px;
+            font-size: 12px;
           }
           @include apply-to(more-than, ipad-landscape) {
-            font-size: 54px;
-          }
-        }
-
-        // Line 3
-        p:nth-child(3) {
-          font-size: 40px;
-
-          @include apply-to(more-than, iphone-landscape) {
-            font-size: 54px;
-          }
-          @include apply-to(more-than, ipad-landscape) {
-            font-size: 66px;
-          }
-        }
-
-        // Line 4
-        p:last-child {
-          font-size: 24px;
-
-          @include apply-to(more-than, iphone-landscape) {
-            font-size: 30px;
-          }
-          @include apply-to(more-than, ipad-landscape) {
-            font-size: 40px;
-          }
-        }
-      }
-    }
-  }
-}
-
-// Slide2
-// -------------------------------------------------------------------------------------------------
-section#slide2 {
-  > div {
-
-    &:first-child {
-      @include apply-to(more-than, ipad-portrait) {
-        width: 56%;
-      }
-      @include apply-to(more-than, ipad-landscape) {
-        margin-top: 25px;
-        width: 52%;
-        padding-right: 38px;
-      }
-
-      // Qualifing text
-      div:nth-child(2) p {
-        width: 320px;
-        text-align: center;
-        margin: 20px auto;
-        @include apply-to(more-than, iphone-landscape) {
-          font-size: 16px;
-          margin: 14px auto;
-        }
-        @include apply-to(more-than, ipad-landscape) {
-          width: 450px;
-          margin: 25px auto;
-        }
-      }
-
-      // Strapline
-      div:first-child {
-        img {
-          margin: 0 auto;
-        }
-
-        // Line 1
-        p:first-child {
-          font-size: 24px;
-
-          @include apply-to(more-than, iphone-landscape) {
-            font-size: 34px;
-          }
-          @include apply-to(more-than, ipad-landscape) {
-            font-size: 44px;
-          }
-        }
-
-        p:nth-child(2) {
-          line-height: 0.8em;
-          font-size: 94px;
-
-          @include apply-to(more-than, iphone-landscape) {
-            font-size: 132px;
-          }
-          @include apply-to(more-than, ipad-landscape) {
-            font-size: 166px;
-          }
-        }
-
-        // Line 3
-        p:last-child {
-          font-size: 26px;
-          margin-top: 5px;
-
-          @include apply-to(more-than, iphone-landscape) {
-            font-size: 38px;
-          }
-          @include apply-to(more-than, ipad-landscape) {
-            font-size: 46px;
-          }
-        }
-      }
-    }
-  }
-}
-
-// Slide3
-// -------------------------------------------------------------------------------------------------
-section#slide3 {
-  > div {
-
-    &:first-child {
-      @include apply-to(more-than, ipad-portrait) {
-        width: 52%;
-      }
-      @include apply-to(more-than, ipad-landscape) {
-        margin: 25px 0;
-        width: 52%;
-        padding-right: 38px;
-      }
-
-      // Qualifing text
-      div:nth-child(2) p {
-        width: 320px;
-        text-align: center;
-        margin: 20px auto;
-        @include apply-to(more-than, iphone-landscape) {
-          font-size: 16px;
-          margin: 14px auto;
-        }
-        @include apply-to(more-than, ipad-landscape) {
-          width: 450px;
-          margin: 25px auto;
-        }
-      }
-
-      // Strapline
-      div:first-child {
-        img {
-          margin: 0 auto;
-        }
-
-        // Line 1
-        p:first-child {
-          font-size: 22px;
-
-          @include apply-to(more-than, iphone-landscape) {
-            font-size: 34px;
-          }
-          @include apply-to(more-than, ipad-landscape) {
-            font-size: 44px;
+            font-size: 24px;
           }
         }
 
         // Line 2
         p:nth-child(2) {
-          font-size: 44px;
+          font-size: 12px;
+          line-height: 1.2em;
 
           @include apply-to(more-than, iphone-landscape) {
-            font-size: 64px;
-          }
-          @include apply-to(more-than, ipad-portrait) {
-            font-size: 54px;
+            font-size: 12px;
           }
           @include apply-to(more-than, ipad-landscape) {
-            font-size: 72px;
+            font-size: 44px;
           }
-        }
+        }      
 
         // Line 3
         p:nth-child(3) {
-          font-size: 22px;
+          font-size: 12px;
+          line-height: 1.2em;
 
           @include apply-to(more-than, iphone-landscape) {
-            font-size: 34px;
+            font-size: 12px;
           }
           @include apply-to(more-than, ipad-landscape) {
             font-size: 44px;
@@ -331,40 +179,30 @@ section#slide3 {
         }
 
         // Line 4
-        p:last-child {
-          font-size: 42px;
+        p:nth-child(4) {
+          font-size: 12px;
+          line-height: 1.2em;
 
           @include apply-to(more-than, iphone-landscape) {
-            font-size: 62px;
-          }
-          @include apply-to(more-than, ipad-portrait) {
-            font-size: 50px;
+            font-size: 12px;
           }
           @include apply-to(more-than, ipad-landscape) {
-            font-size: 68px;
+            font-size: 44px;
+          }
+        }        
+
+        // Line 5
+        p:last-child {
+          font-size: 12px;
+          line-height: 2.0em;
+
+          @include apply-to(more-than, iphone-landscape) {
+            font-size: 12px;
+          }
+          @include apply-to(more-than, ipad-landscape) {
+            font-size: 20px;
           }
         }
-      }
-    }
-
-    &:last-child {
-      img {
-        max-width: 90%;
-
-        @include apply-to(more-than, iphone-landscape) {
-          max-width: 80%;
-        }
-        @include apply-to(more-than, ipad-portrait) {
-          max-width: 100%;
-        }
-      }
-
-      @include apply-to(more-than, ipad-portrait) {
-        width: 366px;
-        margin: 0;
-      }
-      @include apply-to(more-than, ipad-landscape) {
-        width: 430px;
       }
     }
   }

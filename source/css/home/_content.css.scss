@@ -71,11 +71,10 @@ section#content {
       }
     }
 
-    // Feature 1 - 100% Cloud Based
+    // Features Current
     &:nth-child(1) {
       div:first-child {
         display: none;
-
         @include apply-to(more-than, ipad-portrait) {
           display: block;
         }
@@ -83,17 +82,17 @@ section#content {
 
       strong {
         line-height: 1em;
-        font-size: 70px;
+        font-size: 30px;
         color: $blue;
         display: block;
 
         @include apply-to(more-than, ipad-landscape) {
-          font-size: 120px;
+          font-size: 60px;
         }
       }
     }
 
-    // Feature 2 - Build Prototypes, Front-Ends & Full-Blown Apps
+    // Features coming soon
     &:nth-child(2) {
       div:last-child {
         display: none;
@@ -106,7 +105,7 @@ section#content {
       }
     }
 
-    // Feature 3 - Web App or App Store?
+    // Benefits
     &:nth-child(3) {
       div:first-child {
         display: none;
@@ -124,7 +123,7 @@ section#content {
       }
     }
 
-    // Feature 4 - Everything is HTML5, CSS and Javascript
+    // Examples
     &:nth-child(4) {
       div:last-child {
         display: none;

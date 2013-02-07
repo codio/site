@@ -154,7 +154,7 @@ nav.main {
           // Navigation - Sign up
           // ---------------------------------------------------------------------------------------
           &:last-child {
-            height: 100px;
+            height: 30px;
             text-align: center;
 
             a {
@@ -165,14 +165,14 @@ nav.main {
               display: none;
               font: 12px 'museo_sans_rounded_300regular';
               margin: 0;
-              padding: 0 0 22px;
+              padding: 0 0 0 0;
               text-align: center;
             }
 
             @include apply-to(more-than, ipad-portrait) {
-              margin: 0 0 0 10px !important;
+              margin: 0 0 0 0 !important;
               background-color: $red;
-              height: 68px;
+              height: 20px;
 
               a {
                 color: #FFF;
@@ -186,13 +186,13 @@ nav.main {
             }
 
             @include apply-to(more-than, ipad-landscape) {
-              margin: 0 0 0 20px !important;
-              height: 100px;
+              margin: 0 0 0 0 !important;
+              
 
               a {
                 background-color: $red;
-                padding: 33px 18px 4px;
-                font-size: 23px;
+                padding: 0 0 0 0;
+                font-size: 15px;
               }
             }
           }

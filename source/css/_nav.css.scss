@@ -187,7 +187,6 @@ nav.main {
 
             @include apply-to(more-than, ipad-landscape) {
               margin: 0 0 0 0 !important;
-              
 
               a {
                 background-color: $red;

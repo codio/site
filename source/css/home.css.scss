@@ -5,7 +5,15 @@ body.home {
     background: #666 image-url('bgcloth.png') repeat;
 
     .container {
-      > div {
+      #public-stamp {
+        img {
+          position: absolute;
+          margin-left: 452px;
+          margin-top: -52px;
+        }
+      }
+
+      > .clearfix > div {
         float: left;
 
         // Headline
@@ -24,7 +32,7 @@ body.home {
             color: $cream;
             font: 16px gotham_thinregular;
             text-align: center;
-            margin: 0 auto 20px;
+            margin: 0 auto 10px;
             line-height: 1.5em;
           }
         }

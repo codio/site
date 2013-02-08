@@ -16,7 +16,7 @@ body.home {
 
           &:first-child {
             position: relative;
-            left: 73px;
+            left: 53px;
             width: 370px;
             top: -14px;
             height: 300px;
@@ -41,12 +41,13 @@ body.home {
     background-color: $cream;
     color: #777;
     font: 14px gotham_lightregular;
-    @include box-shadow(0 1px 8px #CCC);
+    @include box-shadow(0 1px 5px #CCC);
+    height: 72px;
 
     ul {
       list-style: none;
       padding: 0;
-      margin: 0;
+      margin: 24px 0 0 0;
 
       li {
         display: inline-block;
@@ -56,6 +57,7 @@ body.home {
 
         a {
           font-size: 24px;
+          padding: 18px 20px 15px;
         }
 
         i {
@@ -65,6 +67,12 @@ body.home {
         &.active {
           font-family: gotham_mediumregular;
 
+          a {
+            background-color: #f36050;
+            color: #F8F7EF;
+            @include border-radius(6px);
+          }
+
           &:before {
             content: '';
             display: inline-block;
@@ -73,7 +81,7 @@ body.home {
             border-top: 15px solid #cccccc;
             border-top-color: rgba(0, 0, 0, 0.15);
             position: absolute;
-            top: 57px;
+            top: 49px;
             left: 121px;
           }
           &:after {
@@ -83,38 +91,42 @@ body.home {
             border-right: 15px solid transparent;
             border-top: 15px solid $cream;
             position: absolute;
-            top: 56px;
+            top: 48px;
             left: 121px;
           }
         }
 
         &:nth-child(1) {
           text-align: left;
-          width: 300px;
+          width: 350px;
+
+          &:before, &:after {
+            left: 135px;
+          }
         }
 
         &:nth-child(2),
         &:nth-child(4) {
-          width: 36px;
+          width: 50px;
           font-size: 24px;
           color: #CCC;
           text-align: center;
         }
 
         &:nth-child(3) {
-          width: 37%;
-          font-size: 21px;
-          color: $cream;
-          background-color: $red;
-          padding: 36px 0 31px;
+          width: 260px;
+
+          &:before, &:after {
+            left: 115px;
+          }
         }
 
         &:nth-child(5) {
           text-align: right;
-          width: 210px;
+          width: 250px;
 
           &:before, &:after {
-            left: 103px;
+            left: 120px;
           }
         }
       }

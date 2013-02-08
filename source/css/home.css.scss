@@ -3,6 +3,7 @@ body.home {
 
   header {
     background: #666 image-url('bgcloth.png') repeat;
+    color: $cream;
 
     .container {
       #public-stamp {
@@ -23,14 +24,49 @@ body.home {
           padding-right: 45px;
           text-align: center;
 
-          img {
-            margin: 0 auto 30px;
+          > div {
+            text-transform: uppercase;
+
+            > p {
+              margin: 0;
+              line-height: 1em !important;
+
+              &:nth-child(1) {
+                font: 30px gotham_bookregular;
+              }
+
+              &:nth-child(2) {
+                font: 96px gotham_boldregular;
+              }
+            }
+
+            > div {
+              font: 38px gotham_bookregular;
+              margin: -33px 0 0 45px;
+
+              span {
+                float: left;
+
+                &:nth-child(2) {
+                  background: transparent image-url('home/love.gif') no-repeat;
+                  text-indent: -9999px;
+                  display: block;
+                  width: 98px;
+                  height: 84px;
+                  position: relative;
+                  top: -16px;
+                }
+              }
+            }
+
+            img {
+              margin-top: -100px;
+            }
           }
 
-          p {
-            width: 450px;
-            color: $cream;
-            font: 16px gotham_thinregular;
+          > p {
+            width: 530px;
+            font: 17px gotham_thinregular;
             text-align: center;
             margin: 0 auto 10px;
             line-height: 1.5em;

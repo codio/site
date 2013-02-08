@@ -20,7 +20,7 @@ body.home {
         // Headline
         &:first-child {
           width: 596px;
-          margin: 75px auto 35px;
+          margin: 75px auto 0;
           padding-right: 45px;
           text-align: center;
 
@@ -37,6 +37,7 @@ body.home {
 
               &:nth-child(2) {
                 font: 96px gotham_boldregular;
+                text-shadow: 0 0 100px #000;
               }
             }
 
@@ -52,9 +53,8 @@ body.home {
                   text-indent: -9999px;
                   display: block;
                   width: 98px;
-                  height: 84px;
-                  position: relative;
-                  top: -16px;
+                  height: 99px;
+                  margin-top: -16px;
                 }
               }
             }
@@ -75,7 +75,7 @@ body.home {
 
         // Illustration
         &:last-child {
-          margin: 90px 0;
+          margin: 90px 0 80px;
         }
       }
     }

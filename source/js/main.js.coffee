@@ -28,7 +28,7 @@ $ ->
     $this = $(this)
     type = $(this).attr('href').slice(1)
 
-    $('#features .container > ul').fadeOut ->
+    $('#features .container > ul:visible').fadeOut ->
       do $("##{type}").fadeIn
 
     links.parent().removeClass 'active'

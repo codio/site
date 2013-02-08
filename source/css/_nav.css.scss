@@ -1,100 +1,35 @@
-// Sub Navigation (aside)
-// =================================================================================================
-
-aside ul#submenu {
-  list-style: none;
-  padding: 0;
-  border-right: 1px solid #ddd;
-  width: 230px;
-
-  @include apply-to(less-than, ipad-landscape) {
-    width: 165px;
-  }
-
-  li {
-    margin: 4px 0 4px 6px;
-
-    a {
-      display: block;
-      padding: 8px 16px 8px 14px;
-      text-transform: uppercase;
-      font-size: 14px;
-      text-align: right;
-      font-family: gotham_mediumregular;
-    }
-
-    &.active a {
-      background-color: #F9FAF7;
-      border: 1px solid #ddd;
-      @include border-radius(8px 0 0 8px);
-      border-color: #ddd transparent #ddd #ddd;
-      left: 1px;
-      position: relative;
-    }
-  }
-}
-
-
 // Navigation bar
 // =================================================================================================
 
-nav.main {
+nav {
   background-color: $cream;
   text-transform: uppercase;
   font: 14px 'museo_sans_rounded_300regular';
   position: relative;
   height: 90px;
-  @include box-shadow(0px 0px 6px #888);
 
-  @include apply-to(more-than, ipad-portrait) {
-    height: 68px;
-  }
-  @include apply-to(more-than, ipad-landscape) {
-    height: 100px;
-  }
+  nav {
+    // Logo
+    > a {
+      display: block;
+      margin: 20px 0 0 0;
+      width: 213px;
+    }
 
-  ul {
-    position: relative;
-    z-index: 9;
-    margin: 0 auto;
-    padding: 0;
+    // Navigation items
+    > ul {
+      float: right;
+      padding: 0;
+      margin: 38px 0 0 0;
 
-    > li {
-      @include apply-to(more-than, ipad-portrait) {
-        float: left;
-      }
+      li {
+        display: inline-block;
 
-      a {
-        display: block;
-      }
-
-      // Logo
-      &:first-child {
-        margin: 8px auto;
-        text-align: center;
-
-        @include apply-to(more-than, ipad-portrait) {
-          margin: 25px 0 0 10px !important;
-        }
-
-        @include apply-to(more-than, ipad-landscape) {
-          margin: 24px 0 0 0 !important;
-        }
-      }
-
-      // Navigation items
-      // -------------------------------------------------------------------------------------------
-      &:last-child {
-        @include apply-to(more-than, ipad-portrait) {
-          float: right;
-        }
-      }
-
-      ul {
-        display: table;
-        border-top: 1px solid #ccc;
-        @include apply-to(more-than, ipad-portrait) {
-          border: none;
+        a {
+          color: #3e3e3e;
+          padding: 0 18px;
+          font-size: 16px;
+          display: block;
         }
 
         li {
@@ -200,75 +135,17 @@ nav.main {
     }
   }
 
-  // Navigation pointer
-  .active {
-    background: $cream image-url('home/nav-pointer.gif') no-repeat center 16px;
-    @include apply-to(more-than, ipad-portrait) {
-      background-position: center 28px;
-    }
-    @include apply-to(more-than, ipad-landscape) {
-      background-position: center 47px;
-    }
-  }
-}
-
-// Navigation pointer (home)
-body.home nav.main {
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-
-  .active {
-    background-image: image-url('home/nav-pointer.gif');
-  }
-}
-
-
-// Sub menu
-// -------------------------------------------------------------------------------------------------
-nav.sub {
-  background-color: #EFEDE7;
-  padding: 12px 0 10px;
-  box-shadow: 0px 0px 6px #888;
-  font-family: 'museo_sans_rounded_300regular';
-
-  ul, li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .container {
-    display: table;
-  }
-
-  ul {
-    text-align: center;
-    margin: 0 auto;
-
-    li {
-      display: inline;
-      margin: 0 12px;
-
-      @include apply-to(more-than, iphone-portrait) {
-        margin: 0 6px;
-      }
-      @include apply-to(more-than, ipad-portrait) {
-        margin: 0 20px;
-      }
-
-      &.active {
-        font-family: museo_sans_rounded_700regular;
-        a {
-          color: $red;
-        }
-      }
-
-      a {
-        font-size: 15px;
-        color: #3e3e3e;
-        text-transform: uppercase;
-      }
+  // Blog Ribbon
+  #blog-ribbon {
+    a {
+      background: image-url('blog-ribbon.png') no-repeat scroll top left;
+      text-indent: -9999px;
+      display: block;
+      width: 51px;
+      height: 106px;
+      position: absolute;
+      top: 83px;
+      z-index: 99;
     }
   }
 }

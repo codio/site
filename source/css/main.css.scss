@@ -67,6 +67,7 @@ $btnInverseBackgroundHighlight:     $grayDarker !default;
 @import 'lib/fancybox';
 @import 'lib/buttons';
 @import 'lib/labels';
+@import 'lib/font-awesome';
 
 
 
@@ -164,24 +165,6 @@ input[type=text] {
         color: $linkColorHover;
       }
     }
-  }
-}
-
-// Blog Ribbon
-#blog-ribbon {
-  @include apply-to(less-than, ipad-landscape) {
-    display: none;
-  }
-
-  a {
-    background: image-url('blog-ribbon.png') no-repeat scroll top left;
-    text-indent: -9999px;
-    display: block;
-    width: 51px;
-    height: 106px;
-    position: absolute;
-    top: 94px;
-    z-index: 99;
   }
 }
 

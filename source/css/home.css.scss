@@ -5,33 +5,32 @@ body.home {
     background: #666 image-url('bgcloth.png') repeat;
 
     .container {
-      #headline {
-        padding: 60px 0 0 0;
-        text-align: center;
-      }
+      > div {
+        float: left;
 
-      #qualifier {
-        > div {
-          float: left;
+        // Headline
+        &:first-child {
+          width: 600px;
+          margin: 0 auto;
+          text-align: center;
 
-          &:first-child {
-            position: relative;
-            left: 53px;
-            width: 370px;
-            top: -14px;
-            height: 300px;
+          img {
+            margin: 70px auto 30px;
           }
 
-          &:last-child {
-            width: 504px;
-            margin: 15px 0 0 60px;
-
-            p {
-              font-size: 18px;
-              color: $cream;
-              font-family: gotham_thinregular;
-            }
+          p {
+            width: 450px;
+            color: $cream;
+            font: 16px gotham_thinregular;
+            text-align: center;
+            margin: 0 auto 20px;
+            line-height: 1.5em;
           }
+        }
+
+        // Illustration
+        &:last-child {
+          margin: 60px 0;
         }
       }
     }

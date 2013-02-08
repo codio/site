@@ -10,12 +10,13 @@ body.home {
 
         // Headline
         &:first-child {
-          width: 633px;
-          margin: 0 auto;
+          width: 596px;
+          margin: 75px auto 35px;
+          padding-right: 45px;
           text-align: center;
 
           img {
-            margin: 70px auto 30px;
+            margin: 0 auto 30px;
           }
 
           p {
@@ -30,7 +31,7 @@ body.home {
 
         // Illustration
         &:last-child {
-          margin: 60px 0;
+          margin: 90px 0;
         }
       }
     }

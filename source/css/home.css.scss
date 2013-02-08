@@ -181,6 +181,16 @@ body.home {
     display: none;
   }
 
+  #examples li {
+    p {
+      margin-bottom: 4px;
+    }
+
+    a {
+      font-size: 12px;
+    }
+  }
+
   #benefits .container {
     margin: 45px auto 60px;
     border-top: 1px solid #CCC;

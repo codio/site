@@ -14,13 +14,22 @@ nav {
       display: block;
       margin: 20px 0 0 0;
       width: 213px;
+      float: left;
+    }
+
+    // "Free for public projects"
+    > div {
+      float: right;
+      position: relative;
+      top: -4px;
+      right: 57px;
     }
 
     // Navigation items
     > ul {
-      float: right;
       padding: 0;
       margin: 38px 0 0 0;
+      float: right;
 
       li {
         display: inline-block;

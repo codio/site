@@ -177,130 +177,64 @@ body.home {
     }
   }
 
-  #features .container {
-    #future-features {
-      display: none;
+  #future-features, #examples {
+    display: none;
+  }
+
+  #benefits .container {
+    margin: 45px auto 60px;
+    border-top: 1px solid #CCC;
+
+    h3 {
+      font: 28px gotham_bookregular;
+      margin-top: 10px;
     }
+  }
 
-    > ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+  .columned {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
-      &#future-features {
-        li:first-child {
-          margin: 38px 0 0 0;
-          font-style: italic;
+    > li {
+      padding: 10px 20px 0 20px;
+      width: 212px;
+      display: inline-block;
+      vertical-align: top;
+
+      &:first-child {
+        padding-left: 0;
+        margin: 38px 0 0 0;
+        font-style: italic;
+        font-size: 18px;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+
+      > ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        h4 {
+          font-family: gotham_bookregular;
           font-size: 18px;
-        }
-      }
+          margin: 50px 0 0;
+          color: #222;
 
-      > li {
-        padding: 10px 20px 0 20px;
-        width: 212px;
-        display: inline-block;
-        vertical-align: top;
-
-        &:first-child {
-          padding-left: 0;
-        }
-
-        &:last-child {
-          padding-right: 0;
-        }
-
-        > ul {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-
-          h4 {
-            font-family: gotham_bookregular;
-            font-size: 18px;
-            margin: 50px 0 0;
-            color: #222;
-
-            i {
-              margin-top: 4px;
-              color: darken($red, 25%);
-            }
+          i {
+            margin-top: 4px;
+            color: darken($red, 25%);
           }
+        }
 
-          p {
-            font-size: 13px;
-            color: #777;
-          }
+        p {
+          font-size: 13px;
+          color: #777;
         }
       }
     }
-  }
-}
-
-
-
-// -webkit-animation: cloudAnim 3s infinite ease both;
-// -moz-animation: cloudAnim 3s infinite ease both;
-// -ms-animation: cloudAnim 3s infinite ease both;
-// -o-animation: cloudAnim 3s infinite ease both;
-// animation: cloudAnim 3s infinite ease both;
-
-/* Icons */
-@-webkit-keyframes cloudAnim {
-  /* line 8, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -webkit-transform: translate(0, 10px);
-  }
-
-  /* line 11, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -webkit-transform: translate(0, 0);
-  }
-}
-
-@-moz-keyframes cloudAnim {
-  /* line 17, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -moz-transform: translate(0, 10px);
-  }
-
-  /* line 20, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -moz-transform: translate(0, 0);
-  }
-}
-
-@-o-keyframes cloudAnim {
-  /* line 26, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -o-transform: translate(0, 10px);
-  }
-
-  /* line 29, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -o-transform: translate(0, 0);
-  }
-}
-
-@-ms-keyframes cloudAnim {
-  /* line 35, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -ms-transform: translate(0, 10px);
-  }
-
-  /* line 38, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -ms-transform: translate(0, 0);
-  }
-}
-
-@keyframes cloudAnim {
-  /* line 44, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -webkit-transform: translate(0, 10px);
-  }
-
-  /* line 47, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -webkit-transform: translate(0, 0);
   }
 }

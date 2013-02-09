@@ -29,7 +29,7 @@ body.home {
 
             > p {
               margin: 0;
-              line-height: 1em !important;
+              line-height: 1.1em !important;
 
               &:nth-child(1) {
                 font: 30px gotham_bookregular;
@@ -43,7 +43,7 @@ body.home {
 
             > div {
               font: 38px gotham_bookregular;
-              margin: -33px 0 0 45px;
+              margin: -22px 0 0 45px;
 
               span {
                 float: left;
@@ -60,7 +60,7 @@ body.home {
             }
 
             img {
-              margin-top: -100px;
+              margin-top: -30px;
             }
           }
 
@@ -68,7 +68,7 @@ body.home {
             width: 530px;
             font: 17px gotham_thinregular;
             text-align: center;
-            margin: 0 auto 10px;
+            margin: 36px auto 43px;
             line-height: 1.5em;
           }
         }

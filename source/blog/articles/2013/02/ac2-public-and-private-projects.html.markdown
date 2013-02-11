@@ -1,11 +1,11 @@
 ---
 title: "Collaboration in AC2: Public and Private Projects"
 author: Joel Moss
-date: 2013-02-06
+date: 2013-02-11
 tags: AC2, something BIG, collaboration, open source
 class_name: blog
 full_width: true
-published: false
+published: true
 ---
 
 [Yesterday](/blog/2013/02/ac2-and-collaboration/) I spoke about what collaboration is, and why it is so important to us all. Today I will take that further with the first in a series of posts introducing the collaborative features of **[AC2](http://crafted.applicationcraft.com/)**.

@@ -1,4 +1,3 @@
 *.sublime*
-build
 .sass-cache
 *.DS_Store

@@ -92,7 +92,7 @@ body.home {
     color: #777;
     font: 14px gotham_lightregular;
     @include box-shadow(0 1px 5px #CCC);
-    height: 72px;
+    height: 78px;
 
     ul {
       margin: 24px 0 0 0;
@@ -104,7 +104,7 @@ body.home {
         position: relative;
 
         a {
-          font-size: 24px;
+          font-size: 18px;
           padding: 18px 20px 15px;
         }
 
@@ -146,7 +146,7 @@ body.home {
 
         &:nth-child(1) {
           text-align: left;
-          width: 350px;
+          width: 240px;
 
           &:before, &:after {
             left: 135px;
@@ -154,15 +154,16 @@ body.home {
         }
 
         &:nth-child(2),
-        &:nth-child(4) {
-          width: 50px;
+        &:nth-child(4),
+        &:nth-child(6) {
+          width: 30px;
           font-size: 24px;
           color: #CCC;
           text-align: center;
         }
 
         &:nth-child(3) {
-          width: 260px;
+          width: 160px;
 
           &:before, &:after {
             left: 115px;
@@ -171,12 +172,21 @@ body.home {
 
         &:nth-child(5) {
           text-align: right;
-          width: 250px;
+          width: 180px;
 
           &:before, &:after {
             left: 120px;
           }
         }
+
+        &:nth-child(7) {
+          text-align: right;
+          width: 250px;
+
+          &:before, &:after {
+            left: 120px;
+          }
+        }        
       }
     }
   }

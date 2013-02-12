@@ -92,7 +92,7 @@ body.home {
     color: #777;
     font: 14px gotham_lightregular;
     @include box-shadow(0 1px 5px #CCC);
-    height: 78px;
+    height: 72px;
 
     ul {
       margin: 24px 0 0 0;
@@ -172,7 +172,7 @@ body.home {
 
         &:nth-child(5) {
           text-align: right;
-          width: 180px;
+          width: 200px;
 
           &:before, &:after {
             left: 120px;

@@ -1,4 +1,29 @@
 helpers do
+  # Overrides the built-in #link_to helper to allow us to prepend /s to links.
+  def link_to(*args, &block)
+    return super unless build?
+
+    url_arg_index = block_given? ? 0 : 1
+
+    if url = args[url_arg_index]
+      # Handle Resources, which define their own url method
+      if url.respond_to? :url
+        url = args[url_arg_index] = url.url
+      end
+
+      # Ignore external links, root, and anchors (hashes).
+      if !url.include?('://') && url != '/' && !url.start_with?('#')
+        url = args[url_arg_index] = "/s" + url
+      end
+    end
+
+    super
+  end
+
+  def asset_path(kind, source)
+    build? ? "/s#{super}" : super
+  end
+
   def link_to_author(name)
     first, last = name.split(' ')
     mail_to "#{first[0]}#{last}@applicationcraft.com".downcase, name

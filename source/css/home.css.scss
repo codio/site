@@ -15,7 +15,7 @@ body.home {
       #public-stamp {
         img {
           position: absolute;
-          margin: 320px 0px 0px 275px;
+          margin: 350px 0px 0px 275px;
         }
       }
 
@@ -34,19 +34,19 @@ body.home {
 
             > p {
               margin: 0;
-              line-height: 1.2em !important;
+              line-height: 1.1em !important;
 
               &:nth-child(1) {
-                font: 45px gotham_bookregular;
+                font: 40px gotham_bookregular;
               }
 
               &:nth-child(2) {
-                font: 36px gotham_bookregular;
+                font: 55px gotham_boldregular;
                 text-shadow: 0 0 100px #000;
               }
 
               &:nth-child(3) {
-                font: 55px gotham_bookregular;
+                font: 92px gotham_boldregular;
                 text-shadow: 0 0 100px #000;
               }
 

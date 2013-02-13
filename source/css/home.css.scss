@@ -15,8 +15,7 @@ body.home {
       #public-stamp {
         img {
           position: absolute;
-          margin-left: 46px;
-          margin-top: -70px;
+          margin: 320px 0px 0px 275px;
         }
       }
 
@@ -26,7 +25,7 @@ body.home {
         // Headline
         &:first-child {
           width: 596px;
-          margin: 30px auto 0;
+          margin: 25px auto 0;
           padding-right: 45px;
           text-align: center;
 
@@ -35,7 +34,7 @@ body.home {
 
             > p {
               margin: 0;
-              line-height: 1.4em !important;
+              line-height: 1.2em !important;
 
               &:nth-child(1) {
                 font: 45px gotham_bookregular;
@@ -58,7 +57,7 @@ body.home {
             }
 
             img {
-              margin-top: 10px;
+              margin-top: 30px;
             }
           }
 
@@ -73,7 +72,7 @@ body.home {
 
         // Illustration
         &:last-child {
-          margin: 90px 0 80px;
+          margin: 20px 0 80px;
         }
       }
     }

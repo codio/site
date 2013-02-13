@@ -4,40 +4,40 @@
       <ul>
         <li>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/product">Product</a></li>
-            <li><a href="/product/enterprise">Enterprise</a></li>
-            <li><a href="/product/testimonials">Testimonials</a></li>
+            <li><%= link_to 'Home', '#' %></li>
+            <li><%= link_to 'Product', '#' %></li>
+            <li><%= link_to 'Enterprise', '#' %></li>
+            <li><%= link_to 'Testimonials', '#' %></li>
           </ul>
         </li>
         <li>
           <ul>
-            <li><a href="/developers">Developers</a></li>
-            <li><a href="/developers">Support</a></li>
-            <li><a href="/services">Services</a></li>
+            <li><%= link_to 'Developers', '#' %></li>
+            <li><%= link_to 'Support', '#' %></li>
+            <li><%= link_to 'Services', '#' %></li>
           </ul>
         </li>
         <li>
           <ul>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/webinars">Webinars</a></li>
-            <li><a href="/legal/faqs">FAQ's</a></li>
+            <li><%= link_to 'Blog', '#' %></li>
+            <li><%= link_to 'Webinars', '#' %></li>
+            <li><%= link_to 'FAQs', '#' %></li>
           </ul>
         </li>
         <li>
           <ul>
-            <li><a href="/company">About us</a></li>
-            <li><a href="/company/contact-us">Contact us</a></li>
-            <li><a href="/legal">Legal</a></li>
+            <li><%= link_to 'About us', '#' %></li>
+            <li><%= link_to 'Contact us', '#' %></li>
+            <li><%= link_to 'Legalize', '#' %></li>
           </ul>
         </li>
       </ul>
 
       <ul id="social-icons">
-        <li><a href="http://twitter.com/appcrafty"><span></span>Twitter</a></li>
-        <li><a href="https://www.facebook.com/ApplicationCraft"><span></span>Facebook</a></li>
-        <li><a href="https://plus.google.com/b/114193155177577005539/?prsrc=3"><span></span>Google+</a></li>
-        <li><a href="http://www.youtube.com/user/appcrafty"><span></span>Youtube</a></li>
+        <li><%= link_to '<span></span>Twitter', 'http://twitter.com/appcrafty' %></li>
+        <li><%= link_to '<span></span>Facebook', 'https://www.facebook.com/ApplicationCraft' %></li>
+        <li><%= link_to '<span></span>Google+', 'https://plus.google.com/b/114193155177577005539/?prsrc=3' %></li>
+        <li><%= link_to '<span></span>Youtube', 'http://www.youtube.com/user/appcrafty' %></li>
       </ul>
     </div>
   </section>
@@ -45,11 +45,11 @@
   <section>
     <div class="container clearfix">
       <div>
-        <a href="https://github.com/ApplicationCraft/crafted-site" target="_blank">This site is open source... Fork it!</a>
+        <%= link_to 'This site is open source... Fork it!', 'https://github.com/ApplicationCraft/crafted-site', :target => "_blank" %>
       </div>
 
       Copyright &copy; <%= Date.today.year %> Application Craft Ltd. All rights reserved.
-      Read our <a href="/legal/privacy">Privacy policy</a>.
+      Read our <%= link_to 'Privacy policy', '/legal/privacy' %>.
     </div>
   </section>
 </footer>
@@ -58,7 +58,7 @@
   <div id="old-browser-inner">
     <%= image_tag 'logo.png', :width => 309, :height => 23 %>
     <h1>Your browser is very old and will not work correctly with ApplicationCraft.</h1>
-    <p>Please upgrade Internet Explorer or use a modern browser, and <a href="http://browsehappy.com/" target="_blank">Browse Happy!</a></p>
+    <p>Please upgrade Internet Explorer or use a modern browser, and <%= link_to 'Browse Happy!', 'http://browsehappy.com/', :target => "_blank" %></p>
   </div>
 </div>
 

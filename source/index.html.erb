@@ -39,13 +39,13 @@ class_name: home
 <section id="nav-banner" class="clearfix">
   <div class="container">
     <ul>
-      <li class="active"><a href="#current-features">Current Features</a></li>
+      <li class="active"><%= link_to 'Current Features', '#current-features' %></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#examples">Examples</a></li>
+      <li><%= link_to 'Examples', '#examples' %></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#future-features">Coming Soon</a></li>
+      <li><%= link_to 'Coming Soon', '#future-features' %></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#benefits">Why it's awesome</a></li>      
+      <li><%= link_to "Why it's Awesome", '#benefits' %></li>
     </ul>
   </div>
 </section>
@@ -194,17 +194,17 @@ class_name: home
               <li>
                 <h4><i class="icon-th-large"></i> ToDoMVC</h4>
                 <p>This is the ToDoMVC project for understanding and choosing an MVC Framework. It is a large project showing several MVC frameworks in action.</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
               <li>
                 <h4><i class="icon-eye-open"></i> A Web Site</h4>
                 <p>This is a copy of the Crafted.io web site. We actually built ours using SCSS and YAML, which are being added to Crafted.io soon.</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
               <li>
                 <h4><i class="icon-desktop"></i> Backbone.js</h4>
                 <p>A simple backbone.js application. </p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
             </ul>
           </li>
@@ -213,36 +213,36 @@ class_name: home
               <li>
                 <h4><i class="icon-star"></i> jquerymobile</h4>
                 <p>This shows an application built using jquerymobile. You can run this on the desktop or in a mobile browser.</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
               <li>
                 <h4><i class="icon-step-backward"></i> Sencha Touch</h4>
                 <p>Sencha Touch is an HTML5 mobile framework. This is one of their demo applications ready to play with and run.</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
               <li>
                 <h4><i class="icon-picture"></i> KendoUI</h4>
                 <p>And yet one more mobile HTML5 framework to show you there is some choice. </p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
             </ul>
-          </li>          
+          </li>
           <li>
             <ul>
               <li>
                 <h4><i class="icon-star"></i> three.js</h4>
                 <p>Very cool 3D graphics demo using WebGL. Make sure your browser supports WebGL though.</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
               <li>
                 <h4><i class="icon-step-backward"></i> HTML5 Physics</h4>
                 <p>A nice little demo of an HTML5 physics engine. http://cocos2d-javascript.org/downloads</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
               <li>
                 <h4><i class="icon-picture"></i> HTML5 Boilerplate</h4>
                 <p>View and edit the HTML5 Bioulderplate</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
             </ul>
           </li>
@@ -251,17 +251,17 @@ class_name: home
               <li>
                 <h4><i class="icon-cloud-upload"></i> Pixelate</h4>
                 <p>Shows a piece of text being pixelated and then exploding the pixels under gravity. http://codepen.io/Francext/pen/frFIh</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
               <li>
                 <h4><i class="icon-tablet"></i> Analog Clock</h4>
                 <p>by Ilia Draznin. Shows what can be achieved with just HTML and CSS. Not a crumb of javascript used here. http://codepen.io/iliadraznin/pen/JcqbE </p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
               <li>
                 <h4><i class="icon-group"></i> HTML5+CSS+JS How Tos</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
-                <a href="#"><i class="icon-play"></i> run and play...</a>
+                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
               </li>
             </ul>
           </li>
@@ -278,7 +278,7 @@ class_name: home
     <ul class="columned">
       <li>
         <h3>Why is Crafted awesome?</h3>
-        <p>Crafted has everything you need in one place to build and run HTML5+CSS+JS applications of any size. No need to set up servers for development or deployment. You'll have your first app up and running in minutes! <a href="/product">Learn more &raquo;</a></p>
+        <p>Crafted has everything you need in one place to build and run HTML5+CSS+JS applications of any size. No need to set up servers for development or deployment. You'll have your first app up and running in minutes!</p>
       </li>
       <li>
         <ul>

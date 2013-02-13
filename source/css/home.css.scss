@@ -34,31 +34,34 @@ body.home {
 
             > p {
               margin: 0;
-              line-height: 1.0em !important;
 
               &:nth-child(1) {
-                font: 40px gotham_bookregular;
+                font: 26px gotham_bookregular;
+                line-height: 1.5em !important;                
               }
 
               &:nth-child(2) {
                 font: 72px gotham_boldregular;
                 text-shadow: 0 0 100px #000;
+                line-height: 1.0em !important;                
               }
 
               &:nth-child(3) {
                 font: 110px gotham_boldregular;
                 text-shadow: 0 0 100px #000;
+                line-height: 0.8em !important;                    
               }
 
               &:nth-child(4) {
-                font: 45px gotham_bookregular;
+                font: 26px gotham_bookregular;
                 text-shadow: 0 0 100px #000;
+                line-height: 2.3em !important;
               }   
 
               &:nth-child(5) {
                 font: 26px gotham_bookregular;
                 text-shadow: 0 0 100px #000;
-                line-height: 2.2em !important;
+                line-height: 0.5em !important;
               }                 
             }
 

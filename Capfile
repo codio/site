@@ -1,7 +1,7 @@
 load 'deploy'
 require 'capistrano/ext/multistage'
 
-set :application, "site"
+set :application, "crafted"
 set :scm, :git
 set :repository, "git@github.com:ApplicationCraft/crafted-site.git"
 set :use_sudo, false

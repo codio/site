@@ -1,50 +1,101 @@
 body.home {
   background: $cream image-url('graphbg.gif') repeat;
 
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
   header {
     background: #666 image-url('bgcloth.png') repeat;
+    color: $cream;
 
     .container {
-      #headline {
-        padding: 60px 0 0 0;
-        text-align: center;
+      #public-stamp {
+        img {
+          position: absolute;
+          margin-left: 452px;
+          margin-top: -52px;
+        }
       }
 
-      #qualifier {
-        > div {
-          float: left;
+      > .clearfix > div {
+        float: left;
 
-          &:first-child {
-            position: relative;
-            left: 30px;
-            width: 430px;
-          }
+        // Headline
+        &:first-child {
+          width: 596px;
+          margin: 75px auto 0;
+          padding-right: 45px;
+          text-align: center;
 
-          &:last-child {
-            width: 400px;
-            margin: 15px 0 0 115px;
+          > div {
+            text-transform: uppercase;
 
-            p {
-              font-size: 18px;
-              color: $cream;
-              font-family: gotham_thinregular;
+            > p {
+              margin: 0;
+              line-height: 1.1em !important;
+
+              &:nth-child(1) {
+                font: 30px gotham_bookregular;
+              }
+
+              &:nth-child(2) {
+                font: 96px gotham_boldregular;
+                text-shadow: 0 0 100px #000;
+              }
+            }
+
+            > div {
+              font: 38px gotham_bookregular;
+              margin: -22px 0 0 45px;
+
+              span {
+                float: left;
+
+                &:nth-child(2) {
+                  background: transparent image-url('home/love.gif') no-repeat;
+                  text-indent: -9999px;
+                  display: block;
+                  width: 98px;
+                  height: 99px;
+                  margin-top: -16px;
+                }
+              }
+            }
+
+            img {
+              margin-top: -30px;
             }
           }
+
+          > p {
+            width: 530px;
+            font: 17px gotham_thinregular;
+            text-align: center;
+            margin: 36px auto 43px;
+            line-height: 1.5em;
+          }
+        }
+
+        // Illustration
+        &:last-child {
+          margin: 90px 0 80px;
         }
       }
     }
   }
 
   #nav-banner {
-    background-color: #eee;
+    background-color: $cream;
     color: #777;
     font: 14px gotham_lightregular;
-    @include box-shadow(0 1px 8px #CCC);
+    @include box-shadow(0 1px 5px #CCC);
+    height: 72px;
 
     ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+      margin: 24px 0 0 0;
 
       li {
         display: inline-block;
@@ -53,7 +104,8 @@ body.home {
         position: relative;
 
         a {
-          font-size: 24px;
+          font-size: 18px;
+          padding: 18px 20px 15px;
         }
 
         i {
@@ -63,6 +115,12 @@ body.home {
         &.active {
           font-family: gotham_mediumregular;
 
+          a {
+            background-color: #f36050;
+            color: #F8F7EF;
+            @include border-radius(6px);
+          }
+
           &:before {
             content: '';
             display: inline-block;
@@ -71,7 +129,7 @@ body.home {
             border-top: 15px solid #cccccc;
             border-top-color: rgba(0, 0, 0, 0.15);
             position: absolute;
-            top: 57px;
+            top: 49px;
             left: 121px;
           }
           &:after {
@@ -79,169 +137,131 @@ body.home {
             display: inline-block;
             border-left: 15px solid transparent;
             border-right: 15px solid transparent;
-            border-top: 15px solid #eee;
+            border-top: 15px solid $cream;
             position: absolute;
-            top: 56px;
+            top: 48px;
             left: 121px;
           }
         }
 
         &:nth-child(1) {
           text-align: left;
-          width: 300px;
+          width: 240px;
+
+          &:before, &:after {
+            left: 135px;
+          }
         }
 
         &:nth-child(2),
-        &:nth-child(4) {
-          width: 36px;
+        &:nth-child(4),
+        &:nth-child(6) {
+          width: 30px;
           font-size: 24px;
           color: #CCC;
           text-align: center;
         }
 
         &:nth-child(3) {
-          width: 37%;
-          font-size: 21px;
-          color: #666;
-          padding: 36px 0 31px;
+          width: 160px;
+
+          &:before, &:after {
+            left: 115px;
+          }
         }
 
         &:nth-child(5) {
           text-align: right;
-          width: 210px;
+          width: 200px;
 
           &:before, &:after {
-            left: 103px;
+            left: 120px;
           }
         }
+
+        &:nth-child(7) {
+          text-align: right;
+          width: 250px;
+
+          &:before, &:after {
+            left: 120px;
+          }
+        }        
       }
     }
   }
 
-  #features .container {
-    #future-features {
-      display: none;
+  #future-features, #examples {
+    display: none;
+  }
+
+  #examples li {
+    p {
+      margin-bottom: 4px;
     }
 
-    > ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+    a {
+      font-size: 12px;
+    }
+  }
 
-      &#future-features {
-        li:first-child {
-          margin: 38px 0 0 0;
-          font-style: italic;
-          font-size: 18px;
-        }
+  #benefits .container {
+    margin: 45px auto 60px;
+    border-top: 1px solid #CCC;
+
+    h3 {
+      font: 28px gotham_mediumregular;
+      margin-top: 10px;
+    }
+  }
+
+  .columned {
+    > li {
+      padding: 0px;
+      vertical-align: top;
+      display: inline-block;
+
+      &:first-child {
+        width: 212px;
+        margin: 38px 0 0 0;
+        font-style: italic;
+        font-size: 18px;
       }
 
-      > li {
-        padding: 10px 20px 0 20px;
-        width: 212px;
-        display: inline-block;
-        vertical-align: top;
+      &:last-child {
+        width: 720px;
+        margin: 15px 0 0 40px;
 
-        &:first-child {
-          padding-left: 0;
-        }
+        > ul > li {
+          > ul > li {
+            display: inline-block;
+            width: 212px;
+            vertical-align: top;
+            padding-right: 36px;
 
-        &:last-child {
-          padding-right: 0;
-        }
+            &:last-child {
+              padding-right: 0;
+            }
 
-        > ul {
-          list-style: none;
-          padding: 0;
-          margin: 0;
+            h4 {
+              font-family: gotham_bookregular;
+              font-size: 18px;
+              margin: 10px 0 0;
+              color: #222;
 
-          h4 {
-            font-family: gotham_bookregular;
-            font-size: 18px;
-            margin: 50px 0 0;
-            color: #222;
+              i {
+                margin-top: 4px;
+                color: darken($red, 25%);
+              }
+            }
 
-            i {
-              margin-top: 4px;
-              color: darken($red, 25%);
+            p {
+              font-size: 13px;
+              color: #777;
             }
           }
-
-          p {
-            font-size: 13px;
-            color: #777;
-          }
         }
       }
     }
-  }
-}
-
-
-
-// -webkit-animation: cloudAnim 3s infinite ease both;
-// -moz-animation: cloudAnim 3s infinite ease both;
-// -ms-animation: cloudAnim 3s infinite ease both;
-// -o-animation: cloudAnim 3s infinite ease both;
-// animation: cloudAnim 3s infinite ease both;
-
-/* Icons */
-@-webkit-keyframes cloudAnim {
-  /* line 8, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -webkit-transform: translate(0, 10px);
-  }
-
-  /* line 11, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -webkit-transform: translate(0, 0);
-  }
-}
-
-@-moz-keyframes cloudAnim {
-  /* line 17, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -moz-transform: translate(0, 10px);
-  }
-
-  /* line 20, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -moz-transform: translate(0, 0);
-  }
-}
-
-@-o-keyframes cloudAnim {
-  /* line 26, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -o-transform: translate(0, 10px);
-  }
-
-  /* line 29, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -o-transform: translate(0, 0);
-  }
-}
-
-@-ms-keyframes cloudAnim {
-  /* line 35, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -ms-transform: translate(0, 10px);
-  }
-
-  /* line 38, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -ms-transform: translate(0, 0);
-  }
-}
-
-@keyframes cloudAnim {
-  /* line 44, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  50% {
-    -webkit-transform: translate(0, 10px);
-  }
-
-  /* line 47, /Users/nikolaionken/dev/bonsai/_sass/_animate.scss */
-  100% {
-    -webkit-transform: translate(0, 0);
   }
 }

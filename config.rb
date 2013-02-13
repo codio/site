@@ -20,6 +20,10 @@ helpers do
     super
   end
 
+  def asset_path(kind, source)
+    build? ? "/s#{super}" : super
+  end
+
   def link_to_author(name)
     first, last = name.split(' ')
     mail_to "#{first[0]}#{last}@applicationcraft.com".downcase, name

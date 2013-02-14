@@ -42,18 +42,28 @@ body.home {
                 font: 110px gotham_boldregular;
                 line-height: 0.8em !important;
               }
-
-              &:nth-child(4) {
-                line-height: 2.3em !important;
-              }
-
-              &:nth-child(5) {
-                line-height: 0.5em !important;
-              }
             }
 
-            img {
-              margin-top: 15px;
+            > div {
+              font: 28px gotham_bookregular;
+              margin: 16px 0 0 55px;
+
+              p {
+                margin: 0;
+              }
+
+              span {
+                float: left;
+
+                &:nth-child(2) {
+                  background: transparent image-url('home/love.gif') no-repeat;
+                  text-indent: -9999px;
+                  display: block;
+                  width: 98px;
+                  height: 99px;
+                  margin-top: -16px;
+                }
+              }
             }
           }
 

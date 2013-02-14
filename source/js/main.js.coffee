@@ -24,13 +24,13 @@ $ ->
 
 # Home page feature lists
 $ ->
-  (links = $('body.home #nav-banner a')).on 'click', (e)->
+  (links = $('#nav-banner a')).on 'click', (e)->
     do e.preventDefault
 
     $this = $(this)
     type = $(this).attr('href').slice(1)
 
-    $('#features .container > ul:visible').fadeOut ->
+    $('.switched-lists .container > ul:visible').fadeOut ->
       do $("##{type}").fadeIn
 
     links.parent().removeClass 'active'

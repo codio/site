@@ -3,12 +3,13 @@ body.home {
   header {
     background: #666 image-url('bgcloth.png') repeat;
     color: $cream;
+    padding: 30px 0;
 
     .container {
       #public-stamp {
         img {
           position: absolute;
-          margin: 367px 0px 0px 275px;
+          margin: 366px 0px 0px 687px;
         }
       }
 
@@ -24,6 +25,7 @@ body.home {
           > div {
             text-transform: uppercase;
 
+            // Top three Headline lines of text.
             > p {
               margin: 0;
               text-shadow: 0 0 100px #000;
@@ -44,6 +46,7 @@ body.home {
               }
             }
 
+            // "You'll love to use every day" + love heart
             > div {
               font: 28px gotham_bookregular;
               margin: 16px 0 0 55px;
@@ -65,23 +68,29 @@ body.home {
                 }
               }
             }
+
+            // Flourish
+            > img {
+              position: relative;
+              top: -10px;
+            }
           }
 
           > p {
             width: 530px;
             font: 17px gotham_thinregular;
             text-align: center;
-            margin: 36px auto 43px;
+            margin: 26px auto 43px;
             line-height: 1.5em;
           }
         }
 
         // Illustration
         &:last-child {
-          background: transparent image-url('seal.png') no-repeat;
-          width: 378px;
-          height: 360px;
-          background-size: 100%;
+          background: transparent image-url('seal.png') no-repeat -60px -20px;
+          width: 380px;
+          height: 400px;
+          background-size: 130%;
           text-indent: -9999px;
         }
       }

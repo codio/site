@@ -1,4 +1,4 @@
-body.home {
+body.pricing {
   background: $cream image-url('graphbg.gif') repeat;
 
   ul {
@@ -33,25 +33,27 @@ body.home {
 
             > p {
               margin: 0;
-              text-shadow: 0 0 100px #000;
+              text-shadow: 0 0 80px #000;
               font: 26px gotham_bookregular;
 
               &:nth-child(1) {
+                font: 80px gotham_bookregular;
                 line-height: 1.5em !important;
               }
 
               &:nth-child(2) {
-                font: 72px gotham_boldregular;
+                font: 32px gotham_bookregular;
                 line-height: 1.0em !important;
               }
 
               &:nth-child(3) {
-                font: 110px gotham_boldregular;
-                line-height: 0.8em !important;
+                font: 100px gotham_boldregular;
+                line-height: 1.0em !important;
               }
 
               &:nth-child(4) {
-                line-height: 2.3em !important;
+                font: 32px gotham_bookregular;              
+                line-height: 1.0em !important;
               }
 
               &:nth-child(5) {
@@ -148,7 +150,7 @@ body.home {
     }
   }
 
-  #benefits {
+  #free {
     display: block;
 
     > li:first-child {
@@ -179,7 +181,7 @@ body.home {
     }
   }
 
-  #examples li {
+  #private li {
     p {
       margin-bottom: 4px;
     }

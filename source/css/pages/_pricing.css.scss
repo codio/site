@@ -10,14 +10,24 @@ body.pricing {
     #public-stamp {
       float: right;
       position: relative;
-      top: -27px;
-      left: -247px;
+      top: 40px;
+      width: 300px;
+      left: 55px;
     }
 
-    h1 {
-      font: 40px gotham_boldregular;
-      margin: 0;
+    > div > div:last-child {
       padding: 30px 0 30px 100px;
+
+      h1 {
+        font: 40px gotham_boldregular;
+        margin: 0;
+      }
+
+      h2 {
+        font: 20px gotham_bookregular;
+        text-transform: none;
+        line-height: 1.4em;
+      }
     }
   }
 

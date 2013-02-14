@@ -4,15 +4,6 @@
 exports = this
 
 
-# Handle IE users - who are stupid!
-$ ->
-  if $.browser.msie?
-    if parseInt($.browser.version, 10) < 9
-      html = $('#old-browser').html()
-      $('body :not(#old-browser,#old-browser-inner)').remove()
-      $.fancybox.open html
-
-
 $ ->
   $(':not(.nofade) > a').hover(
     ->

@@ -87,10 +87,10 @@ body.home {
 
         // Illustration
         &:last-child {
-          background: transparent image-url('seal.png') no-repeat -60px -20px;
+          background: transparent image-url('seal.png') no-repeat 20px 26px;
           width: 380px;
           height: 400px;
-          background-size: 130%;
+          background-size: 92%;
           text-indent: -9999px;
         }
       }

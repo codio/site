@@ -1,1 +1,1 @@
-set :deploy_to, "/home/middleman/www/#{application}/staging"
+server 'ec2-184-73-104-247.compute-1.amazonaws.com', :app, :web, :db, :primary => true

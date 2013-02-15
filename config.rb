@@ -20,9 +20,9 @@ helpers do
     super
   end
 
-  def asset_path(kind, source)
-    build? ? "/s/#{super}" : super
-  end
+  # def asset_path(kind, source)
+  #   build? ? "/s/#{super}" : super
+  # end
 
   def link_to_author(name)
     first, last = name.split(' ')
@@ -104,13 +104,14 @@ end
 
 activate :directory_indexes
 
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # activate :gzip
   # activate :asset_hash

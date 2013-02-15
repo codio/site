@@ -113,9 +113,9 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
-  # activate :gzip
-  # activate :asset_hash
-  # activate :cache_buster
+  activate :gzip
+  activate :asset_hash
+  activate :cache_buster
 
   # activate :favicon_maker
 

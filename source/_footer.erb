@@ -60,15 +60,15 @@
 <%= javascript_include_tag 'main' %>
 <%= yield_content :foot %>
 
-<script src="//client-built.ac2/plugins/sitebar.js"></script>
-
-<!-- 7TH LOADING STEP: AC.start() -->
-<script>
-    $(document).ready(function () {
-        AC.start();
-        AC.get("repository").get("sitebar").start();
-    });
-</script>
+<% if !current_page.app.development? %>
+  <script src="/plugins/sitebar-min.js"></script>
+  <script>
+      $(document).ready(function () {
+          AC.start();
+          AC.get("repository").get("sitebar").start();
+      });
+  </script>
+<% end %>
 
 <% if !current_page.app.development? && !current_page.path.start_with?('developers/documentation') %>
   <script>

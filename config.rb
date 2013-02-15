@@ -21,7 +21,7 @@ helpers do
   end
 
   def asset_path(kind, source)
-    build? ? "/s#{super}" : super
+    build? ? "/s/#{super}" : super
   end
 
   def link_to_author(name)

@@ -9,7 +9,7 @@ body.home {
       #public-stamp {
         img {
           position: absolute;
-          margin: 366px 0px 0px 687px;
+          margin: 333px 0px 0px 687px;
         }
       }
 
@@ -72,7 +72,7 @@ body.home {
             // Flourish
             > img {
               position: relative;
-              top: -10px;
+              top: 23px;
             }
           }
 
@@ -80,14 +80,14 @@ body.home {
             width: 530px;
             font: 17px gotham_thinregular;
             text-align: center;
-            margin: 26px auto 43px;
+            margin: 48px auto 15px;
             line-height: 1.5em;
           }
         }
 
         // Illustration
         &:last-child {
-          background: transparent image-url('seal.png') no-repeat 20px 26px;
+          background: transparent image-url('x.png') no-repeat 21px 14px;
           width: 380px;
           height: 400px;
           background-size: 92%;

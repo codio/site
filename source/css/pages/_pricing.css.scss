@@ -46,10 +46,11 @@ body.pricing {
         display: inline-block;
         vertical-align: top;
 
+
         &:first-child {
           width: 200px;
           margin: 13px 0 0 0;
-
+        
           h3 {
             margin: 0 0 15px;
           }
@@ -58,6 +59,7 @@ body.pricing {
         &:last-child {
           width: 700px;
           margin: 0 0 0 40px;
+
         }
       }
     }

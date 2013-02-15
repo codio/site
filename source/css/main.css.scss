@@ -75,8 +75,8 @@ $btnInverseBackgroundHighlight:     $grayDarker !default;
 body {
   font-family: Helvetica, Arial;
   color: #555;
-  background-color: #F9FAF7;
   font-size: 0.96em;
+  background: #F9FAF7 image-url('graphbg.gif') repeat;
 }
 
 h1, h2, h3, h4 {
@@ -98,101 +98,20 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-// For Affix plugin
-.affix {
-  position: fixed;
-  top: 10px;
-}
-
 .container {
   margin: 0 auto;
-
-  @include apply-to(more-than, ipad-landscape) {
-    width: 980px;
-  }
+  width: 980px;
 }
 
 
-// Input styling
-input[type=text] {
-  font-size: 13px;
-  color: #8e8d8d;
-  padding: 11px 15px 10px 6px;
-  background-color: #fdfdfd;
-  margin: 0;
-  line-height: 20px;
-  box-shadow: inset 2px 2px 4px #f1f1f1;
-  @include border-radius(3px);
-  height: 20px;
-  border: 1px solid #cccccc;
-  @include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075));
-  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
-  transition: border linear 0.2s, box-shadow linear 0.2s;
-}
 
+// Import partials
+@import 'partials/nav';
+@import 'partials/nav-banner';
+@import 'partials/columned';
+@import 'partials/footer';
 
-// Modals
-.modal {
-  max-width: 500px;
-
-  h2 {
-    margin: 0;
-    border-bottom: 1px solid #CCC;
-  }
-}
-
-// Sign in modal
-#sign-in {
-  display: none;
-
-  .btn {
-    margin-left: 20px;
-  }
-
-  .waDomainLogins {
-    margin-bottom: 18px;
-
-    span {
-      color: $red;
-      display: block;
-      padding: 2px 0 2px 15px;
-      font-size: 14px;
-      cursor: pointer;
-
-      &:hover {
-        color: $linkColorHover;
-      }
-    }
-  }
-}
-
-
-// Stupid Browser message
-#old-browser {
-  display: none;
-}
-
-#old-browser-inner {
-  text-align: center;
-  padding: 30px 0;
-
-  h1 {
-    width: 500px;
-    font-size: 26px;
-    margin: 28px auto 20px;
-  }
-
-  p {
-    width: 400px;
-    margin: 0 auto;
-  }
-}
-
-
-@import 'nav';
-@import 'home';
-@import 'footer';
-@import 'standard';
-@import 'blog';
+// Import pages
+@import 'pages/home';
+@import 'pages/pricing';
+@import 'pages/blog';

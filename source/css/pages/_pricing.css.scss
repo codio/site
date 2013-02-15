@@ -1,0 +1,81 @@
+// Pricing page
+// ============================================================================
+
+body.pricing {
+
+  header {
+    background: #666 image-url('bgcloth.png') repeat;
+    color: $cream;
+
+    #public-stamp {
+      float: right;
+      position: relative;
+      top: 40px;
+      width: 300px;
+      left: 55px;
+    }
+
+    > div > div:last-child {
+      padding: 30px 0 30px 100px;
+
+      h1 {
+        font: 40px gotham_boldregular;
+        margin: 0;
+      }
+
+      h2 {
+        font: 20px gotham_bookregular;
+        text-transform: none;
+        line-height: 1.4em;
+      }
+    }
+  }
+
+  #nav-banner a {
+    padding-left: 53px;
+    padding-right: 53px;
+  }
+
+  #free {
+    display: block;
+
+    > li:first-child {
+      width: 980px;
+
+      li {
+        display: inline-block;
+        vertical-align: top;
+
+
+        &:first-child {
+          width: 200px;
+          margin: 13px 0 0 0;
+        
+          h3 {
+            margin: 0 0 15px;
+          }
+        }
+
+        &:last-child {
+          width: 700px;
+          margin: 0 0 0 40px;
+
+        }
+      }
+    }
+
+    > li:nth-child(2) {
+      width: 200px;
+    }
+  }
+
+  #private li {
+    p {
+      margin-bottom: 4px;
+    }
+
+    a {
+      font-size: 12px;
+    }
+  }
+}

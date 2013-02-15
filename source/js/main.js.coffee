@@ -4,15 +4,6 @@
 exports = this
 
 
-# Handle IE users - who are stupid!
-$ ->
-  if $.browser.msie?
-    if parseInt($.browser.version, 10) < 9
-      html = $('#old-browser').html()
-      $('body :not(#old-browser,#old-browser-inner)').remove()
-      $.fancybox.open html
-
-
 $ ->
   $(':not(.nofade) > a').hover(
     ->
@@ -24,11 +15,13 @@ $ ->
 
 # Home page feature lists
 $ ->
-  (links = $('body.home #nav-banner a')).on 'click', ->
+  (links = $('#nav-banner a')).on 'click', (e)->
+    do e.preventDefault
+
     $this = $(this)
     type = $(this).attr('href').slice(1)
 
-    $('#features .container > ul:visible').fadeOut ->
+    $('.switched-lists .container > ul:visible').fadeOut ->
       do $("##{type}").fadeIn
 
     links.parent().removeClass 'active'
@@ -37,8 +30,6 @@ $ ->
     $(document.body).animate({
       scrollTop: $('#nav-banner').offset().top
     }, 1000)
-
-    false
 
 
 # Handles the hidden submenu.

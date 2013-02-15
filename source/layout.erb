@@ -40,15 +40,12 @@
 
         <nav class="clearfix">
           <ul>
-            <li class="<%= 'active' if current_page.data.active_menu_item == 'product' %>">
-              <%= link_to 'Pricing', "/pricing" %>
-            </li>
-            <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>">
-              <%= link_to 'Documentation', "/docs" %>
-            </li>
+            <li class="<%= 'active' if current_page.data.active_menu_item == 'pricing' %>"><a href="/pricing">Pricing
+            </a></li>
+            <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>"><a href="/developers">Documentation</a></li>
           </ul>
 
-          <%= link_to image_tag('crafted-logo1.png'), "/" %>
+          <a href="/"><%= image_tag 'logo.png', :width => 298, :height => 44 %></a>
         </nav>
 
       </div>

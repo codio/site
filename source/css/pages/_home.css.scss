@@ -1,0 +1,141 @@
+body.home {
+
+  header {
+    background: #666 image-url('bgcloth.png') repeat;
+    color: $cream;
+    padding: 30px 0;
+
+    .container {
+      #public-stamp {
+        img {
+          position: absolute;
+          margin: 333px 0px 0px 687px;
+        }
+      }
+
+      > .clearfix > div {
+        float: left;
+
+        // Headline
+        &:first-child {
+          width: 600px;
+          margin: 30px auto 0;
+          text-align: center;
+
+          > div {
+            text-transform: uppercase;
+
+            // Top three Headline lines of text.
+            > p {
+              margin: 0;
+              text-shadow: 0 0 100px #000;
+              font: 26px gotham_bookregular;
+
+              &:nth-child(1) {
+                line-height: 1.5em !important;
+              }
+
+              &:nth-child(2) {
+                font: 72px gotham_boldregular;
+                line-height: 1.0em !important;
+              }
+
+              &:nth-child(3) {
+                font: 110px gotham_boldregular;
+                line-height: 0.8em !important;
+              }
+            }
+
+            // "You'll love to use every day" + love heart
+            > div {
+              font: 28px gotham_bookregular;
+              margin: 16px 0 0 55px;
+
+              p {
+                margin: 0;
+              }
+
+              span {
+                float: left;
+
+                &:nth-child(2) {
+                  background: transparent image-url('home/love.gif') no-repeat;
+                  text-indent: -9999px;
+                  display: block;
+                  width: 98px;
+                  height: 99px;
+                  margin-top: -16px;
+                }
+              }
+            }
+
+            // Flourish
+            > img {
+              position: relative;
+              top: 23px;
+            }
+          }
+
+          > p {
+            width: 530px;
+            font: 17px gotham_thinregular;
+            text-align: center;
+            margin: 48px auto 15px;
+            line-height: 1.5em;
+          }
+        }
+
+        // Illustration
+        &:last-child {
+          background: transparent image-url('x.png') no-repeat 21px 14px;
+          width: 380px;
+          height: 400px;
+          background-size: 92%;
+          text-indent: -9999px;
+        }
+      }
+    }
+  }
+
+  #benefits {
+    display: block;
+
+    > li:first-child {
+      width: 980px;
+
+      li {
+        display: inline-block;
+        vertical-align: top;
+
+        &:first-child {
+          width: 200px;
+          margin: 13px 0 0 0;
+
+          h3 {
+            margin: 0 0 15px;
+          }
+        }
+
+        &:last-child {
+          width: 700px;
+          margin: 0 0 0 40px;
+        }
+      }
+    }
+
+    > li:nth-child(2) {
+      width: 200px;
+    }
+  }
+
+  #examples li {
+    p {
+      margin-bottom: 4px;
+    }
+
+    a {
+      font-size: 12px;
+    }
+  }
+
+}

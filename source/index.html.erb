@@ -13,23 +13,21 @@ class_name: home
     <div class="clearfix">
       <div>
         <div>
-          <p>The World's First</p>
-          <p>Cloud IDE</p>
+          <p>We're building</p>
+          <p>an amazing</p>
+          <p>Web IDE</p>
           <div>
             <p class="clearfix">
-              <!-- </span> <span>Love</span> <span> -->
-              <span>That You'll Love To Use</span>
+              <span>You'll love to Use every day</span>
             </p>
           </div>
           <%= image_tag 'flourish.gif', :width => 174, :height => 28 %>
         </div>
         <%# image_tag "home/headline2.png", :width => 545, :alt => "Visual Development in the Cloud" %>
-        <p>A web platform dedicated to web applications. Build full blown applications, front-ends and projects or do cool stuff like Codepen or jsfiddle. Check out some examples below.</p>
+        <p>Crafted.io is so much more than a code editor. It covers the complete web development lifecycle; from prototype to deployment, and a hell of a lot in between.</p>
       </div>
 
-      <div>
-        <%= image_tag "home/wheel.png", :width => 320, :alt => "Visual Development in the Cloud" %>
-      </div>
+      <div>Crafted.io</div>
     </div>
 
   </div>
@@ -39,20 +37,70 @@ class_name: home
 <section id="nav-banner" class="clearfix">
   <div class="container">
     <ul>
-      <li class="active"><%= link_to 'Current Features', '#current-features' %></li>
+      <li class="active"><a href="#benefits">Why it's Awesome</a></li>
       <li><i class="icon-star"></i></li>
       <li><%= link_to 'Examples', '#examples' %></li>
       <li><i class="icon-star"></i></li>
-      <li><%= link_to 'Coming Soon', '#future-features' %></li>
+      <li><a href="#current-features">Features</a></li>
       <li><i class="icon-star"></i></li>
-      <li><%= link_to "Why it's Awesome", '#benefits' %></li>
+      <li><a href="#future-features">Coming Soon</a></li>
     </ul>
   </div>
 </section>
 
 
-<section id="features">
+<section id="features" class="switched-lists">
   <div class="container">
+
+    <ul id="benefits" class="columned">
+      <li>
+        <ul>
+          <li>
+            <h3>Why is Crafted awesome?</h3>
+          </li>
+          <li>
+            <p>Crafted has everything you need in one place to build and run HTML5+CSS+JS applications of any size. No need to set up servers for development or deployment. You'll have your first app up and running in minutes! <a href="/product">Learn more &raquo;</a></p>
+          </li>
+        </ul>
+      </li>
+      <li><p></p></li>
+      <li>
+        <ul>
+          <li>
+            <ul>
+              <li>
+                <h4><i class="icon-thumbs-up"></i> No sign up needed</h4>
+                <p>You can use our IDE without even having to sign up. Cick here to start using it right away.</p>
+              </li>
+              <li>
+                <h4><i class="icon-unlock"></i> Collaborate in real time</h4>
+                <p>Collaboration is at the heart of what we do. Currently Google Docs style but very soon fully Git support, developer chat</p>
+              </li>
+              <li>
+                <h4><i class="icon-road"></i> Tiny or Huge</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li>
+                <h4><i class="icon-eye-open"></i> If it's public, it's free</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
+              </li>
+              <li>
+                <h4><i class="icon-tasks"></i> A complete stack</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
+              </li>
+              <li>
+                <h4><i class="icon-fire"></i> Blazingly fast</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
 
     <ul id="current-features" class="columned">
       <li>
@@ -71,7 +119,7 @@ class_name: home
                 <p>Like many others, we're eternally grateful to the ACE project for the best web-based code editor in existence.</p>
               </li>
               <li>
-                <h4><i class="icon-cloud-upload"></i> Develop AND Run</h4>
+                <h4><i class="icon-cloud-upload"></i> Develop, Run, Host</h4>
                 <p>Crafted is not just an IDE. It also lets you run and deploy your applications on the Crafted platform. Manage multiple environments such as development, staging, and production.</p>
               </li>
             </ul>
@@ -241,8 +289,8 @@ class_name: home
               </li>
               <li>
                 <h4><i class="icon-picture"></i> HTML5 Boilerplate</h4>
-                <p>View and edit the HTML5 Bioulderplate</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
+                <p>View and edit the HTML5 Biolerplate</p>
+                <a href="#"><i class="icon-play"></i> run and play...</a>
               </li>
             </ul>
           </li>
@@ -262,55 +310,6 @@ class_name: home
                 <h4><i class="icon-group"></i> HTML5+CSS+JS How Tos</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
                 <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-  </div>
-</section>
-
-<section id="benefits">
-  <div class="container">
-
-    <ul class="columned">
-      <li>
-        <h3>Why is Crafted awesome?</h3>
-        <p>Crafted has everything you need in one place to build and run HTML5+CSS+JS applications of any size. No need to set up servers for development or deployment. You'll have your first app up and running in minutes!</p>
-      </li>
-      <li>
-        <ul>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-thumbs-up"></i> No sign up needed</h4>
-                <p>You can use our IDE without even having to sign up. Cick here to start using it right away.</p>
-              </li>
-              <li>
-                <h4><i class="icon-unlock"></i> Collaborate in real time</h4>
-                <p>Collaboration is at the heart of what we do. Currently Google Docs style but very soon fully Git support, developer chat</p>
-              </li>
-              <li>
-                <h4><i class="icon-road"></i> Tiny or Huge</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-eye-open"></i> If it's public, it's free</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
-              </li>
-              <li>
-                <h4><i class="icon-tasks"></i> A complete stack</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
-              </li>
-              <li>
-                <h4><i class="icon-fire"></i> Blazingly fast</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
               </li>
             </ul>
           </li>

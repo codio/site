@@ -1,0 +1,159 @@
+// Navigation bar
+// =================================================================================================
+
+nav {
+  background-color: $cream;
+  text-transform: uppercase;
+  font: 18px 'museo_sans_rounded_300regular';
+  position: relative;
+  height: 90px;
+
+  nav {
+    // Logo
+    > a {
+      display: block;
+      margin: 20px 0 0 0;
+      width: 400px;
+      float: left;
+    }
+
+    // "Free for public projects"
+    > div {
+      float: right;
+      position: relative;
+      top: -4px;
+      right: 57px;
+    }
+
+    // Navigation items
+    > ul {
+      padding: 0;
+      margin: 38px 0 0 0 !important;
+      float: right;
+
+      li {
+        display: inline-block;
+
+        a {
+          color: #3e3e3e;
+          padding: 0 18px;
+          display: block;
+        }
+
+        li {
+          float: left;
+          margin: 19px 0 0 0 !important;
+          height: 35px;
+
+          @include apply-to(more-than, ipad-portrait) {
+            margin-top: 25px !important;
+            height: 47px;
+          }
+
+          @include apply-to(more-than, ipad-landscape) {
+            margin-top: 38px !important;
+            height: 66px;
+          }
+
+          &:first-child {
+            @include apply-to(more-than, ipad-landscape) {
+              margin-top: 38px !important;
+            }
+          }
+
+          &:nth-child(4) {
+            @include apply-to(less-than, ipad-landscape) {
+              display: none;
+            }
+          }
+
+          &:nth-child(5) a:first-child {
+            @include apply-to(less-than, iphone-portrait) {
+              display: none;
+            }
+          }
+
+          a {
+            color: #3e3e3e;
+            padding: 0 10px;
+
+            @include apply-to(more-than, iphone-landscape) {
+              padding: 0 10px;
+            }
+
+            @include apply-to(more-than, ipad-portrait) {
+              padding: 0 12px;
+            }
+
+            @include apply-to(more-than, ipad-landscape) {
+              font-size: 16px;
+            }
+          }
+
+          &.active a {
+            color: $red;
+          }
+
+          // Navigation - Sign up
+          // ---------------------------------------------------------------------------------------
+          &:last-child {
+            height: 30px;
+            text-align: center;
+
+            a {
+              color: $red;
+            }
+
+            #cws-sign-up {
+              display: none;
+              font: 12px 'museo_sans_rounded_300regular';
+              margin: 0;
+              padding: 0 0 0 0;
+              text-align: center;
+            }
+
+            @include apply-to(more-than, ipad-portrait) {
+              margin: 0 0 0 0 !important;
+              background-color: $red;
+              height: 20px;
+
+              a {
+                color: #FFF;
+                padding: 24px 12px 28px;
+                font-family: 'gotham_mediumregular';
+
+                &:hover {
+                  color: #000;
+                }
+              }
+            }
+
+            @include apply-to(more-than, ipad-landscape) {
+              margin: 0 0 0 0 !important;
+
+              a {
+                background-color: $red;
+                padding: 0 0 0 0;
+                font-size: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Blog Ribbon
+  #blog-ribbon {
+    a {
+      background: image-url('blog-ribbon.png') no-repeat scroll top left;
+      text-indent: -9999px;
+      display: block;
+      width: 51px;
+      height: 106px;
+      position: absolute;
+      top: 83px;
+      z-index: 99;
+    }
+  }
+}

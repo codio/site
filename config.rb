@@ -1,4 +1,65 @@
+# Extension namespace
+module Middleman
+  module Extensions
+
+    # Relative Assets extension
+    module RelativeAssets
+
+      # Relative Assets instance method
+      module InstanceMethods
+
+        # asset_url override for relative assets
+        # @param [String] path
+        # @param [String] prefix
+        # @return [String]
+        def asset_url(path, prefix="")
+          path = super(path, prefix)
+
+          if path.include?("//")
+            path
+          else
+            if current_resource.path == 'index.html'
+              path = "/s" + path
+            end
+
+            current_dir = Pathname('/' + current_resource.destination_path)
+            Pathname(path).relative_path_from(current_dir.dirname)
+          end
+        end
+      end
+    end
+  end
+end
+
+
+
+
 helpers do
+  # Overrides the built-in #link_to helper to allow us to prepend /s to links.
+  def link_to(*args, &block)
+    return super unless build?
+
+    url_arg_index = block_given? ? 0 : 1
+
+    if url = args[url_arg_index]
+      # Handle Resources, which define their own url method
+      if url.respond_to? :url
+        url = args[url_arg_index] = url.url
+      end
+
+      # Ignore external links, root, and anchors (hashes).
+      if !url.include?('://') && url != '/' && !url.start_with?('#')
+        url = args[url_arg_index] = "/s" + url
+      end
+    end
+
+    super
+  end
+
+  # def asset_path(kind, source)
+  #   build? ? "/s/#{super}" : super
+  # end
+
   def link_to_author(name)
     first, last = name.split(' ')
     mail_to "#{first[0]}#{last}@applicationcraft.com".downcase, name
@@ -79,6 +140,7 @@ end
 
 activate :directory_indexes
 
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -94,7 +156,7 @@ configure :build do
   # activate :favicon_maker
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Compress PNGs after build
   # First: gem install middleman-smusher

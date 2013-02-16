@@ -1,1 +1,1 @@
-set :deploy_to, "/home/middleman/www/#{application}/production"
+server 'ec2-54-234-79-66.compute-1.amazonaws.com', :app, :web, :db, :primary => true

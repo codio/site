@@ -36,6 +36,42 @@ body.pricing {
     padding-right: 53px;
   }
 
+
+  .columned {
+
+    > li {
+
+      &:last-child {
+
+        > ul > li > ul > li {
+          background: #f6f5eb;
+          border:2px solid;
+          border-radius:10px;
+          border-color:#999999;
+          width: 195px;
+          height: 185px;
+          vertical-align: top;
+          padding: 0px 10px 5px 10px;
+          margin: 0px 5px 10px 0px;
+          p {
+            line-height: 1.4em;
+          }
+          ul {
+           margin-top: 10px;
+          }
+          li {
+            list-style-type: square;
+            list-style-position:inside;
+            color: #777;
+          }
+          h4 {
+            text-transform:none;
+          }          
+        }
+      }
+    }
+  }
+
   #free {
     display: block;
 

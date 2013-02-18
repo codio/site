@@ -27,8 +27,10 @@ $ ->
     links.parent().removeClass 'active'
     $this.parent().addClass 'active'
 
+    pusher = $('#ac-sitebar-pusher')
+    pushHeight = if pusher.length > 0 then pusher.height() else 0
     $(document.body).animate({
-      scrollTop: $('#nav-banner').offset().top
+      scrollTop: $('#nav-banner').offset().top - pushHeight
     }, 1000)
 
 

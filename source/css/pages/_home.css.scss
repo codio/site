@@ -97,13 +97,17 @@ body.home {
     }
   }
 
+  #benefits {
+      display: block;
+  }
+
   #benefits, #widgets {
 
     > li:first-child {
       width: 980px;
 
       li {
-        display: inline-block;
+
         vertical-align: top;
 
         &:first-child {
@@ -202,7 +206,6 @@ body.home {
   }
 
   #roadmap {
-    display: block;
 
 
     > li {

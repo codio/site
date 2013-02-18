@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Application Craft</title>
+  <subtitle>A Blog written by Application Craft - the Visual IDE people</subtitle>
+  <id>http://www.applicationcraft.com/blog</id>
+  <link href="http://www.applicationcraft.com/blog"/>
+  <link href="http://www.applicationcraft.com/blog/feed.xml" rel="self"/>
+  <updated>2013-02-11T00:00:00Z</updated>
+  <author>
+    <name>Application Craft</name>
+  </author>
+  <entry>
+    <title>Collaboration in AC2: Public and Private Projects</title>
+    <link rel="alternate" href="/blog/2013/02/ac2-public-and-private-projects/"/>
+    <id>/blog/2013/02/ac2-public-and-private-projects/</id>
+    <published>2013-02-11T00:00:00Z</published>
+    <updated>2013-02-11T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;a href="/s/blog/2013/02/ac2-and-collaboration/"&gt;Yesterday&lt;/a&gt; I spoke about what collaboration is, and why it is so important to us all. Today I will take that further with the first in a series of posts introducing the collaborative features of &lt;strong&gt;&lt;a href="http://crafted.applicationcraft.com/"&gt;AC2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;a href="/s/blog/2013/02/ac2-and-collaboration/"&gt;Yesterday&lt;/a&gt; I spoke about what collaboration is, and why it is so important to us all. Today I will take that further with the first in a series of posts introducing the collaborative features of &lt;strong&gt;&lt;a href="http://crafted.applicationcraft.com/"&gt;AC2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id="toc_0"&gt;People like sharing!&lt;/h3&gt;
+
+&lt;p&gt;Which is why, in AC2, you will be able to create as many public projects as you like, and every project in AC2 will either be public or private.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;private&lt;/strong&gt; project is one which only you can see and edit. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public&lt;/strong&gt; projects are open and visible to everyone.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Regardless of which type of project you have; as the owner, you have full control over who and what can read, write and administrate your project. You can assign permissions to any other AC2 users, to allow them to view or edit your private project, or even give them full administrative permissions.&lt;/p&gt;
+
+&lt;p&gt;You can also create teams of users, each with its own permissions. So if you want to allow a team of people to only edit your project, you can do that. Or perhaps you want to ensure that your best mate can administer your project.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s all fast and easy to do.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://crafted.applicationcraft.com/"&gt;AC2&lt;/a&gt;&lt;/strong&gt; is an all new cloud based software development platform. And it will be the very first cloud based IDE that every developer will love to use, day in and day out. Please &lt;a href="http://crafted.applicationcraft.com/"&gt;register your interest&lt;/a&gt; and we&amp;#39;ll let you in on the first public beta.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

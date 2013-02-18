@@ -43,7 +43,7 @@ class_name: home
       <li><i class="icon-star"></i></li>
       <li><a href="#current-features">Features</a></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#future-features">Coming Soon</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
       <li><i class="icon-star"></i></li>
       <li><a href="#widgets">Widgets</a></li>      
     </ul>
@@ -174,60 +174,61 @@ class_name: home
       </li>
     </ul>
 
-    <ul id="future-features" class="columned">
+    <ul id="roadmap" class="columned">
       <li>
-        <p>These are just some of the features that we are working hard to make available in Crafted.</p>
+        <p>We are working like crazy to make Crafted.io the sort of environment where building any HTML+CSS+JS applications is an absolute pleasure. We think we've made a pretty good start but there is a way to go before we arrive at Nirvana.</p><p>Take a look at the plans we've got and feel free to let us know what we should add to make it perfect for you.</p>
       </li>
       <li>
         <ul>
           <li>
             <ul>
               <li>
-                <h4><i class="icon-th-large"></i> Multi-Pane Code Editing</h4>
-                <p>You can have up to 3 panes for side-by-side editing of any of your project files.</p>
+                <h4><i class="icon-th-large"></i> Code Editing</h4>
+                <ul>
+                  <li>Multi pane code editing</li>
+                  <li>Instant preview window</li> 
+                  <li>Rich Find, Search &amp; Replace etc. including regex support</li>
+                  <li>Code completion linked to function help</li>
+                  <li>Hyperlink to function defined at cursor location</li>
+                </ul>
               </li>
               <li>
-                <h4><i class="icon-eye-open"></i> Instant Preview</h4>
-                <p>This is a great click-saving feature</p>
+                <h4><i class="icon-th-large"></i> HTML, CSS, JS Preprocessor support</h4>
+                <ul>
+                  <li>HAML, Markdown</li>
+                  <li>LESS, SCSS</li>
+                  <li>Coffeescript</li>
+                </ul>
               </li>
               <li>
-                <h4><i class="icon-desktop"></i> Server-Side Javascript</h4>
-                <p>For those who want secure server-side javascript execution but with complete ease-of-use. Think of it as syncronous NodeJS. </p>
+                <h4><i class="icon-th-large"></i> Crafted.io Collaboration</h4>
+                <ul>
+                  <li>Tight integration with Git and Mercurial</li>
+                  <li>Chat windows with recording for real-time code editing</li>
+                  <li>Voice chat for real-time editing</li>
+                  <li>Star, watch, rate and explore</li>
+                </ul>
               </li>
+              <li>
+                <h4><i class="icon-th-large"></i> Deployment</h4>
+                <ul>
+                  <li>Define multiple deployment points within the Crafted.io platform (staging, production etc.)</li>
+                  <li>FTP, SFTP</li>
+                  <li>Heroku etc.</li>
+                </ul>
+              </li>    
+              <li>
+                <h4><i class="icon-th-large"></i> Widgets &amp; UI Builder</h4>
+                <ul>
+                  <li>Open Widget framework allowing HTML widgets to be mapped to Property &amp; Event toolbars</li>
+                  <li>Widget definition to be done as a standard Crafted.io project, making them shareable</li>
+                  <li>Automatic tie-in between selected HTML and Property &amp; Event toolbars</li>
+                  <li>Drag and Drop UI Builder</li>
+                </ul>
+              </li>                            
             </ul>
           </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-star"></i> Project Starring</h4>
-                <p>Just like you get on Github, it let's you flag other people's public projects so you can come back to them quickly and easily.</p>
-              </li>
-              <li>
-                <h4><i class="icon-step-backward"></i> Version Control</h4>
-                <p>Crafted's version control leverages your Github account. You press a button in the IDE and a version gets created.</p>
-              </li>
-              <li>
-                <h4><i class="icon-picture"></i> Resource Browser</h4>
-                <p>This let's you explore and manage your project files and is especially useful for images with multi-file upload and other cool features.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-cloud-upload"></i> External Deployment</h4>
-                <p>We are adding in single button press deployment to multiple Crafted.io production locations as well as FTP and SFTP. Great for Development, Staging and Production scenarios. </p>
-              </li>
-              <li>
-                <h4><i class="icon-tablet"></i> Mobile Build</h4>
-                <p>If you're familiar with Phonegap:Build, then this is our own equivalent for converting HTML5 mobile apps into Appstore ready binaries. Comes with Certificate management, too.</p>
-              </li>
-              <li>
-                <h4><i class="icon-group"></i> Team Accounts</h4>
-                <p>Create Organizations and Teams for assigning Read/Write/Admin permissions as well as single-point billing.</p>
-              </li>
-            </ul>
-          </li>
+          
         </ul>
       </li>
     </ul>
@@ -337,7 +338,7 @@ class_name: home
             <ul>
               <li>
                 <h4><i class="icon-thumbs-up"></i> Gold Seal</h4>
-                <%= image_tag "seal.png", :width => 180, :alt => "Visual Development in the Cloud" %> 
+                <%=link_to (image_tag "seal.png"), :width => 180, :alt => "Visual Development in the Cloud", :href => "https://crafted.io/fmay/Boxes", :target => "_blank"  %>
                 <p>The Gold Seal displays an image only in your site. When someone clicks on it, an IDE window will open up with your project loaded and ready to run simply by pressing the Play button in the IDE.</p>
                 <pre><code>
                   &lt;script src="http://crafted.io/widgets/embed.js" type="text/javascript" class="crafted-seal" width="200" c-project="Y7gT6" c-user="anon" c-mode="panels"&gt;</script>                 

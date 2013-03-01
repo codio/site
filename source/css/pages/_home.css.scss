@@ -9,7 +9,7 @@ body.home {
       #public-stamp {
         img {
           position: absolute;
-          margin: 333px 0px 0px 687px;
+          margin: 325px 0px 0px 681px;
         }
       }
 
@@ -19,7 +19,7 @@ body.home {
         // Headline
         &:first-child {
           width: 600px;
-          margin: 30px auto 0;
+          margin: 30px auto 20px;
           text-align: center;
 
           > div {
@@ -87,7 +87,7 @@ body.home {
 
         // Illustration
         &:last-child {
-          background: transparent image-url('seal.png') no-repeat 21px 14px;
+          background: transparent image-url('seal.png') no-repeat 21px 0;
           width: 380px;
           height: 400px;
           background-size: 92%;

@@ -35,10 +35,23 @@ $ ->
       scrollTop: $('#nav-banner').offset().top - pushHeight
     }, 1000)
 
+
   # Handle the "features" click in main navigation
-  $('body > nav nav ul a').on 'click', (e)->
+  $('#navigation a:last').on 'click', (e)->
     do e.preventDefault
     navBannerClick.call $('#nav-banner a:first')[0]
+
+
+  # Try it link
+  $('#navigation a:first').on 'click', (e)->
+    do e.preventDefault
+
+    pusher = $('#ac-sitebar-pusher')
+    pushHeight = if pusher.length > 0 then pusher.height() else 0
+    $(document.body).animate({
+      scrollTop: $('#tryit').offset().top - pushHeight
+    }, 1000)
+
 
 
 # Handles the hidden submenu.

@@ -15,8 +15,8 @@ $ ->
 
 # Home page feature lists
 $ ->
-  (links = $('#nav-banner a')).on 'click', (e)->
-    do e.preventDefault
+  navBannerClick = (e)->
+    e && e.preventDefault()
 
     $this = $(this)
     type = $(this).attr('href').slice(1)
@@ -32,6 +32,26 @@ $ ->
     $(document.body).animate({
       scrollTop: $('#nav-banner').offset().top - pushHeight
     }, 1000)
+
+  (links = $('#nav-banner a')).on 'click', navBannerClick
+
+
+  # Handle the "features" click in main navigation
+  $('#navigation a:last').on 'click', (e)->
+    do e.preventDefault
+    navBannerClick.call $('#nav-banner [href=#current-features]')[0]
+
+
+  # Try it link
+  $('#navigation a:first').on 'click', (e)->
+    do e.preventDefault
+
+    pusher = $('#ac-sitebar-pusher')
+    pushHeight = if pusher.length > 0 then pusher.height() else 0
+    $(document.body).animate({
+      scrollTop: $('#tryit').offset().top - pushHeight
+    }, 1000)
+
 
 
 # Handles the hidden submenu.

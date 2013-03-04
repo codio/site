@@ -1,51 +1,8 @@
 <footer>
   <section>
     <div class="container clearfix">
-      <ul>
-        <li>
-          <ul>
-            <li><%= link_to 'Home', '#' %></li>
-            <li><%= link_to 'Product', '#' %></li>
-            <li><%= link_to 'Enterprise', '#' %></li>
-            <li><%= link_to 'Testimonials', '#' %></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><%= link_to 'Developers', '#' %></li>
-            <li><%= link_to 'Support', '#' %></li>
-            <li><%= link_to 'Services', '#' %></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><%= link_to 'Blog', '#' %></li>
-            <li><%= link_to 'Webinars', '#' %></li>
-            <li><%= link_to 'FAQs', '#' %></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><%= link_to 'About us', '#' %></li>
-            <li><%= link_to 'Contact us', '#' %></li>
-            <li><%= link_to 'Legalize', '#' %></li>
-          </ul>
-        </li>
-      </ul>
-
-      <ul id="social-icons">
-        <li><%= link_to '<span></span>Twitter', 'http://twitter.com/appcrafty' %></li>
-        <li><%= link_to '<span></span>Facebook', 'https://www.facebook.com/ApplicationCraft' %></li>
-        <li><%= link_to '<span></span>Google+', 'https://plus.google.com/b/114193155177577005539/?prsrc=3' %></li>
-        <li><%= link_to '<span></span>Youtube', 'http://www.youtube.com/user/appcrafty' %></li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <div class="container clearfix">
       <div>
-        <%= link_to 'This site is open source... Fork it!', 'https://github.com/ApplicationCraft/crafted-site', :target => "_blank" %>
+        <%= link_to 'This site is open source... Fork it!', 'https://github.com/codio/site', :target => "_blank" %>
       </div>
 
       Copyright &copy; <%= Date.today.year %> Application Craft Ltd. All rights reserved.
@@ -61,16 +18,6 @@
 <%= yield_content :foot %>
 
 <% if !current_page.app.development? %>
-  <script src="/plugins/sitebar.js"></script>
-  <script>
-      $(document).ready(function () {
-          AC.start();
-          AC.get("repository").get("sitebar").start();
-      });
-  </script>
-<% end %>
-
-<% if !current_page.app.development? && !current_page.path.start_with?('developers/documentation') %>
   <script>
     var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

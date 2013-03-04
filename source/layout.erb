@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no' />
-    <title><%= current_page.data.title %> - Crafted.io</title>
+    <title><%= current_page.data.title %> - Codio</title>
 
     <% if content_for?(:meta_description) %>
       <meta name="description" content="<%= yield_content :meta_description %>">
@@ -43,16 +43,18 @@
         </div>
 
         <nav class="clearfix">
-          <ul>
-            <li class="<%= 'active' if current_page.data.active_menu_item == 'pricing' %>">
-              <%= link_to 'Pricing', '/pricing' %>
-            </li>
-            <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>">
-              <%= link_to 'Documentation', '/docs' %>
-            </li>
+          <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/' %>
+
+          <ul id="social-icons">
+            <li><%= link_to '<span></span>Twitter', 'http://twitter.com/codiohq' %></li>
+            <li><%= link_to '<span></span>Facebook', 'https://www.facebook.com/codio' %></li>
+            <li><%= link_to '<span></span>Google+', 'https://plus.google.com/b/114193155177577005539/?prsrc=3' %></li>
           </ul>
 
-          <%= link_to image_tag('logo.png', :width => 298, :height => 44), '/' %>
+          <ul id="navigation">
+            <li><%= link_to 'Try it!', '/#tryit' %></li>
+            <li><%= link_to 'Features', '/#features' %></li>
+          </ul>
         </nav>
 
       </div>

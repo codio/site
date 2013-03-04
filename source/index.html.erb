@@ -7,7 +7,7 @@ class_name: home
   <div class="container">
 
     <div id="public-stamp">
-      <%= image_tag "home/free-public.png", :width => 224, :alt => "Visual Development in the Cloud" %>
+      <%= image_tag "home/free-public-beta.png", :width => 310, :alt => "Visual Development in the Cloud" %>
     </div>
 
     <div class="clearfix">
@@ -23,14 +23,25 @@ class_name: home
           </div>
           <%= image_tag 'flourish.gif', :width => 174, :height => 28 %>
         </div>
-        <p>Crafted.io is so much more than a code editor. It covers the complete web development lifecycle; from prototype to deployment, and a hell of a lot in between.</p>
+        <p>A browser based IDE for front-end web development that includes deployment, source control and so much more.</p>
       </div>
 
-      <div>Crafted.io</div>
+      <div>Codio.com</div>
     </div>
 
   </div>
 </header>
+
+
+<section id="tryit">
+  <div class="container">
+    <h3>
+      <i class="icon-thumbs-up"></i> Try it right here... <a href="https://crafted.io/joelmoss/Street-Fighter/tree/App/index.html" target="_blank">or open in your browser</a>
+    </h3>
+
+    <iframe src="https://crafted.io/joelmoss/Street-Fighter/tree/App/index.html" width="100%" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+  </div>
+</section>
 
 
 <section id="nav-banner" class="clearfix">
@@ -38,13 +49,11 @@ class_name: home
     <ul>
       <li class="active"><a href="#benefits">Why it's Awesome</a></li>
       <li><i class="icon-star"></i></li>
-      <li><%= link_to 'Examples', '#examples' %></li>
-      <li><i class="icon-star"></i></li>
       <li><a href="#current-features">Features</a></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#examples">Examples</a></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#widgets">Widgets</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
     </ul>
   </div>
 </section>
@@ -57,10 +66,10 @@ class_name: home
       <li>
         <ul>
           <li>
-            <h3>Why is Crafted awesome?</h3>
+            <h3>Why is Codio awesome?</h3>
           </li>
           <li>
-            <p>Crafted has everything you need in one place to build and run HTML5+CSS+JS applications of any size. No need to set up servers for development or deployment. You'll have your first app up and running in minutes! <a href="/product">Learn more &raquo;</a></p>
+            <p>Codio has everything you need in one place to build and run HTML5+CSS+JS applications of any size. No need to set up servers for development or deployment. You'll have your first app up and running in minutes! <a href="/product">Learn more &raquo;</a></p>
           </li>
         </ul>
       </li>
@@ -121,7 +130,7 @@ class_name: home
               </li>
               <li>
                 <h4><i class="icon-cloud-upload"></i> Develop, Run, Host</h4>
-                <p>Crafted is not just an IDE. It also lets you run and deploy your applications on the Crafted platform. Manage multiple environments such as development, staging, and production.</p>
+                <p>Codio is not just an IDE. It also lets you run and deploy your applications on the Codio platform. Manage multiple environments such as development, staging, and production.</p>
               </li>
             </ul>
           </li>
@@ -133,7 +142,7 @@ class_name: home
               </li>
               <li>
                 <h4><i class="icon-refresh"></i> Highly Collaborative</h4>
-                <p>Crafted allows any number of users to collaborate in real-time projects, a la Google Doc. Full Git integration is right around the corner to complete the picture.</p>
+                <p>Codio allows any number of users to collaborate in real-time projects, a la Google Doc. Full Git integration is right around the corner to complete the picture.</p>
               </li>
               <li>
                 <h4><i class="icon-sitemap"></i> Fork any Project</h4>
@@ -145,7 +154,7 @@ class_name: home
             <ul>
               <li>
                 <h4><i class="icon-group"></i> Teams &amp; Organizations</h4>
-                <p>You can group Crafted users into teams, who can then be assigned read/write/admin access. Soon, teams will be a part of the special Organization account.</p>
+                <p>You can group Codio users into teams, who can then be assigned read/write/admin access. Soon, teams will be a part of the special Organization account.</p>
               </li>
               <li>
                 <h4><i class="icon-cloud-download"></i> Import from Git and Zip</h4>
@@ -153,7 +162,7 @@ class_name: home
               </li>
               <li>
                 <h4><i class="icon-user"></i> Anonymous Mode</h4>
-                <p>You can access the Crafted IDE without even signing up. By bookmarking the URL any project you create will be only editable by you. Others can look at your code and even fork it.</p>
+                <p>You can access the Codio IDE without even signing up. By bookmarking the URL any project you create will be only editable by you. Others can look at your code and even fork it.</p>
               </li>
             </ul>
           </li>
@@ -175,7 +184,7 @@ class_name: home
 
     <ul id="roadmap" class="columned">
       <li>
-        <p>We are working like crazy to make Crafted.io the sort of environment where building any HTML+CSS+JS applications is an absolute pleasure. We think we've made a pretty good start but there is a way to go before we arrive at Nirvana.</p><p>Take a look at the plans we've got and feel free to let us know what we should add to make it perfect for you.</p>
+        <p>We are working like crazy to make Codio the sort of environment where building any HTML+CSS+JS applications is an absolute pleasure. We think we've made a pretty good start but there is a way to go before we arrive at Nirvana.</p><p>Take a look at the plans we've got and feel free to let us know what we should add to make it perfect for you.</p>
       </li>
       <li>
         <ul>
@@ -200,7 +209,7 @@ class_name: home
                 </ul>
               </li>
               <li>
-                <h4><i class="icon-th-large"></i> Crafted.io Collaboration</h4>
+                <h4><i class="icon-th-large"></i> Codio Collaboration</h4>
                 <ul>
                   <li>Tight integration with Git and Mercurial</li>
                   <li>Chat windows with recording for real-time code editing</li>
@@ -211,7 +220,7 @@ class_name: home
               <li>
                 <h4><i class="icon-th-large"></i> Deployment &amp; Building</h4>
                 <ul>
-                  <li>Define multiple deployment points within the Crafted.io platform (staging, production etc.)</li>
+                  <li>Define multiple deployment points within the Codio platform (staging, production etc.)</li>
                   <li>Deploy to FTP, SFTP</li>
                   <li>Deploy to Heroku</li>
                   <li>Options to minify (etc) upon deployment</li>
@@ -221,7 +230,7 @@ class_name: home
                 <h4><i class="icon-th-large"></i> Widgets &amp; UI Builder</h4>
                 <ul>
                   <li>Open Widget framework allowing HTML widgets to be mapped to Property &amp; Event toolbars</li>
-                  <li>Widget definition to be done as a standard Crafted.io project, making them shareable</li>
+                  <li>Widget definition to be done as a standard Codio project, making them shareable</li>
                   <li>Automatic tie-in between selected HTML and Property &amp; Event toolbars</li>
                   <li>Drag and Drop UI Builder</li>
                 </ul>
@@ -235,7 +244,7 @@ class_name: home
 
     <ul id="examples" class="columned">
       <li>
-        <p>There's no better way to see Crafted in action than loading up some juicy projects and running them in the IDE.</p>
+        <p>There's no better way to see Codio in action than loading up some juicy projects and running them in the IDE.</p>
         <p>Once the app is loaded in the IDE, simply press the Play button to run it.<p>
       </li>
       <li>
@@ -313,42 +322,6 @@ class_name: home
                 <h4><i class="icon-group"></i> HTML5+CSS+JS How Tos</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit itaque quibusdam voluptas fugit cupiditate nam pariatur ratione!</p>
                 <%= link_to '<i class="icon-play"></i> run and play...', '#' %>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <ul id="widgets" class="columned">
-      <li>
-        <ul>
-          <li>
-            <h3>Widgets</h3>
-          </li>
-          <li>
-            <p>2 cool widgets that let you publish your code to any web page. Either use the gold seal image, which when clicked on will open the IDE with your project loaded, or display the IDE in full view within your page.</p>
-          </li>
-        </ul>
-      </li>
-      <li><p></p></li>
-      <li>
-        <ul>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-thumbs-up"></i> Gold Seal</h4>
-                <%= link_to (image_tag "seal.png", :width => 180, :alt => "Visual Development in the Cloud"), "https://crafted.io/fmay/Street-Fighter", :target => "_blank" %>
-                <p>The Gold Seal displays an image only in your site. When someone clicks on it, an IDE window will open up with your project loaded and ready to run simply by pressing the Play button in the IDE.</p>
-                <pre><code>&lt;script src="http://crafted.io/widgets/embed.js" type="text/javascript" class="crafted-seal" width="200" c-project="Y7gT6" c-user="anon" c-mode="panels"&gt;&lt;/script&gt;
-                </code></pre>
-              </li>
-              <li>
-                <h4><i class="icon-eye-open"></i> Embedded IDE</h4>
-                <p>With the Embedded IDE widget, you can embed the Crafted.io directly into your blog or web page. You provide the ID of your project and it will appear loaded and ready to run just by pressing Play in the IDE.</p>
-                <pre><code>&lt;script src="http://crafted.io/widgets/embed.js" type="text/javascript" class="crafted-seal" width="200" c-project="Y7gT6" c-user="anon" c-mode="panels"&gt;&lt;/script&gt;
-                </code> </pre>
-                <iframe src="https://crafted.io/fmay/Street-Fighter"></iframe>
               </li>
             </ul>
           </li>

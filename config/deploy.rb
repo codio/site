@@ -3,7 +3,7 @@ require 'capistrano/ext/multistage'
 set :deploy_to, "/home/middleman/crafted-site"
 set :application, "crafted-site"
 set :scm, :git
-set :repository, "git@github.com:ApplicationCraft/crafted-site.git"
+set :repository, "git@github.com:codio/site.git"
 set :use_sudo, false
 set :user, "middleman"
 

@@ -1,39 +1,3 @@
-# Extension namespace
-module Middleman
-  module Extensions
-
-    # Relative Assets extension
-    module RelativeAssets
-
-      # Relative Assets instance method
-      module InstanceMethods
-
-        # asset_url override for relative assets
-        # @param [String] path
-        # @param [String] prefix
-        # @return [String]
-        def asset_url(path, prefix="")
-          path = super(path, prefix)
-
-          if path.include?("//")
-            path
-          else
-            if current_resource.path == 'index.html'
-              path = "/s" + path
-            end
-
-            current_dir = Pathname('/' + current_resource.destination_path)
-            Pathname(path).relative_path_from(current_dir.dirname)
-          end
-        end
-      end
-    end
-  end
-end
-
-
-
-
 helpers do
   # Overrides the built-in #link_to helper to allow us to prepend /s to links.
   def link_to(*args, &block)
@@ -56,9 +20,9 @@ helpers do
     super
   end
 
-  # def asset_path(kind, source)
-  #   build? ? "/s/#{super}" : super
-  # end
+  def asset_path(kind, source)
+    build? ? "/s/#{super}" : super
+  end
 
   def link_to_author(name)
     first, last = name.split(' ')
@@ -165,4 +129,37 @@ configure :build do
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+end
+
+# Extension namespace
+module Middleman
+  module Extensions
+
+    # Relative Assets extension
+    module RelativeAssets
+
+      # Relative Assets instance method
+      module InstanceMethods
+
+        # asset_url override for relative assets
+        # @param [String] path
+        # @param [String] prefix
+        # @return [String]
+        def asset_url(path, prefix="")
+          path = super(path, prefix)
+
+          if path.include?("//")
+            path
+          else
+            if current_resource.path == 'index.html'
+              path = "/s" + path
+            end
+
+            current_dir = Pathname('/' + current_resource.destination_path)
+            Pathname(path).relative_path_from(current_dir.dirname)
+          end
+        end
+      end
+    end
+  end
 end

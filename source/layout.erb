@@ -43,11 +43,17 @@
         </div>
 
         <nav class="clearfix">
-          <ul>
-            <li><%= link_to 'Features', '/#features' %></li>
+          <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/' %>
+
+          <ul id="social-icons">
+            <li><%= link_to '<span></span>Twitter', 'http://twitter.com/codiohq' %></li>
+            <li><%= link_to '<span></span>Facebook', 'https://www.facebook.com/codio' %></li>
+            <li><%= link_to '<span></span>Google+', 'https://plus.google.com/b/114193155177577005539/?prsrc=3' %></li>
           </ul>
 
-          <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/' %>
+          <ul id="navigation">
+            <li><%= link_to 'Features', '/#features' %></li>
+          </ul>
         </nav>
 
       </div>

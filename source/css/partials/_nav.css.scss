@@ -13,20 +13,12 @@ nav {
     > a {
       display: block;
       margin: 10px 0 0 0;
-      width: 400px;
+      width: 178px;
       float: left;
     }
 
-    // "Free for public projects"
-    > div {
-      float: right;
-      position: relative;
-      top: -4px;
-      right: 57px;
-    }
-
     // Navigation items
-    > ul {
+    #navigation {
       padding: 0;
       margin: 38px 0 0 0 !important;
       float: right;
@@ -139,6 +131,49 @@ nav {
             }
           }
         }
+      }
+    }
+  }
+
+  #social-icons {
+    font-size: 0;
+    list-style: none;
+    float: right;
+    margin-left: 30px;
+
+    li {
+      display: inline-block;
+      margin: 30px 5px 0;
+
+      a {
+        background: image-url('social-icons.gif') no-repeat 0 0;
+        text-indent: -9999px;
+        margin: 0;
+
+        &:hover span {
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+
+        span {
+          background: image-url('social-icons.gif') no-repeat 0 0;
+          display: block;
+          width: 31px;
+          height: 32px;
+          position: relative;
+          z-index: 10;
+          -webkit-transition: -webkit-transform 0.4s ease-out;
+          -moz-transition: -moz-transform 0.4s ease-out;
+          transition: transform 0.4s ease-out;
+        }
+      }
+
+      &:nth-child(2) a, &:nth-child(2) a span {
+        background-position: -32px 0;
+      }
+      &:nth-child(3) a, &:nth-child(3) a span {
+        background-position: -64px 0;
       }
     }
   }

@@ -44,12 +44,7 @@
 
         <nav class="clearfix">
           <ul>
-            <li class="<%= 'active' if current_page.data.active_menu_item == 'pricing' %>">
-              <%= link_to 'Pricing', '/pricing' %>
-            </li>
-            <li class="<%= 'active' if current_page.data.active_menu_item == 'developers' %>">
-              <%= link_to 'Documentation', '/docs' %>
-            </li>
+            <li><%= link_to 'Features', '/#features' %></li>
           </ul>
 
           <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/' %>

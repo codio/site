@@ -15,8 +15,10 @@ $ ->
 
 # Home page feature lists
 $ ->
-  (links = $('#nav-banner a')).on 'click', (e)->
-    do e.preventDefault
+  (links = $('#nav-banner a')).on 'click', navBannerClick
+
+  navBannerClick = (e)->
+    e && e.preventDefault()
 
     $this = $(this)
     type = $(this).attr('href').slice(1)
@@ -32,6 +34,11 @@ $ ->
     $(document.body).animate({
       scrollTop: $('#nav-banner').offset().top - pushHeight
     }, 1000)
+
+  # Handle the "features" click in main navigation
+  $('body > nav nav ul a').on 'click', (e)->
+    do e.preventDefault
+    navBannerClick.call $('#nav-banner a:first')[0]
 
 
 # Handles the hidden submenu.

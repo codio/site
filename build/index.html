@@ -14,8 +14,8 @@
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
     
 
-    <link href="s/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="s/css/boilerplate-92324720.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/boilerplate-e724a3e1.css" media="screen" rel="stylesheet" type="text/css" />
 
     
       <link href="/plugins/sitebar-min.css" media="screen" rel="stylesheet" type="text/css" />
@@ -36,16 +36,18 @@
         </div>
 
         <nav class="clearfix">
-          <ul>
-            <li class="">
-              <a href="/s/pricing">Pricing</a>
-            </li>
-            <li class="">
-              <a href="/s/docs">Documentation</a>
-            </li>
+          <a href="/"><img width="178" height="59" src="img/logo-beta-e0ba4559.png" /></a>
+
+          <ul id="social-icons">
+            <li><a href="http://twitter.com/codiohq"><span></span>Twitter</a></li>
+            <li><a href="https://www.facebook.com/codio"><span></span>Facebook</a></li>
+            <li><a href="https://plus.google.com/b/114193155177577005539/?prsrc=3"><span></span>Google+</a></li>
           </ul>
 
-          <a href="/"><img width="178" height="59" src="s/img/logo-1f281e38.png" /></a>
+          <ul id="navigation">
+            <li><a href="/s/#tryit">Try it!</a></li>
+            <li><a href="/s/#features">Features</a></li>
+          </ul>
         </nav>
 
       </div>
@@ -55,7 +57,7 @@
   <div class="container">
 
     <div id="public-stamp">
-      <img width="224" alt="Visual Development in the Cloud" src="s/img/home/free-public-b3b10cf1.png" />
+      <img width="310" alt="Visual Development in the Cloud" src="img/home/free-public-beta-13f09b51.png" />
     </div>
 
     <div class="clearfix">
@@ -69,7 +71,7 @@
               <span>You'll love to Use every day</span>
             </p>
           </div>
-          <img width="174" height="28" src="s/img/flourish-84730769.gif" />
+          <img width="174" height="28" src="img/flourish-84730769.gif" />
         </div>
         <p>A browser based IDE for front-end web development that includes deployment, source control and so much more.</p>
       </div>
@@ -81,18 +83,27 @@
 </header>
 
 
+<section id="tryit">
+  <div class="container">
+    <h3>
+      <i class="icon-thumbs-up"></i> Try it right here... <a href="https://crafted.io/joelmoss/Street-Fighter/tree/App/index.html" target="_blank">or open in your browser</a>
+    </h3>
+
+    <iframe src="https://crafted.io/joelmoss/Street-Fighter/tree/App/index.html" width="100%" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+  </div>
+</section>
+
+
 <section id="nav-banner" class="clearfix">
   <div class="container">
     <ul>
       <li class="active"><a href="#benefits">Why it's Awesome</a></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#examples">Examples</a></li>
-      <li><i class="icon-star"></i></li>
       <li><a href="#current-features">Features</a></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#examples">Examples</a></li>
       <li><i class="icon-star"></i></li>
-      <li><a href="#widgets">Widgets</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
     </ul>
   </div>
 </section>
@@ -368,93 +379,14 @@
       </li>
     </ul>
 
-    <ul id="widgets" class="columned">
-      <li>
-        <ul>
-          <li>
-            <h3>Widgets</h3>
-          </li>
-          <li>
-            <p>2 cool widgets that let you publish your code to any web page. Either use the gold seal image, which when clicked on will open the IDE with your project loaded, or display the IDE in full view within your page.</p>
-          </li>
-        </ul>
-      </li>
-      <li><p></p></li>
-      <li>
-        <ul>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-thumbs-up"></i> Gold Seal</h4>
-                <a target="_blank" href="https://crafted.io/fmay/Street-Fighter"><img width="180" alt="Visual Development in the Cloud" src="s/img/seal-9efc126c.png" /></a>
-                <p>The Gold Seal displays an image only in your site. When someone clicks on it, an IDE window will open up with your project loaded and ready to run simply by pressing the Play button in the IDE.</p>
-                <pre><code>&lt;script src="http://crafted.io/widgets/embed.js" type="text/javascript" class="crafted-seal" width="200" c-project="Y7gT6" c-user="anon" c-mode="panels"&gt;&lt;/script&gt;
-                </code></pre>
-              </li>
-              <li>
-                <h4><i class="icon-eye-open"></i> Embedded IDE</h4>
-                <p>With the Embedded IDE widget, you can embed the Codio directly into your blog or web page. You provide the ID of your project and it will appear loaded and ready to run just by pressing Play in the IDE.</p>
-                <pre><code>&lt;script src="http://crafted.io/widgets/embed.js" type="text/javascript" class="crafted-seal" width="200" c-project="Y7gT6" c-user="anon" c-mode="panels"&gt;&lt;/script&gt;
-                </code> </pre>
-                <iframe src="https://crafted.io/fmay/Street-Fighter"></iframe>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
   </div>
 </section>
 
     <footer>
   <section>
     <div class="container clearfix">
-      <ul>
-        <li>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Enterprise</a></li>
-            <li><a href="#">Testimonials</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><a href="#">Developers</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Services</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Webinars</a></li>
-            <li><a href="#">FAQs</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Legalize</a></li>
-          </ul>
-        </li>
-      </ul>
-
-      <ul id="social-icons">
-        <li><a href="http://twitter.com/appcrafty"><span></span>Twitter</a></li>
-        <li><a href="https://www.facebook.com/ApplicationCraft"><span></span>Facebook</a></li>
-        <li><a href="https://plus.google.com/b/114193155177577005539/?prsrc=3"><span></span>Google+</a></li>
-        <li><a href="http://www.youtube.com/user/appcrafty"><span></span>Youtube</a></li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <div class="container clearfix">
       <div>
-        <a target="_blank" href="https://github.com/ApplicationCraft/crafted-site">This site is open source... Fork it!</a>
+        <a target="_blank" href="https://github.com/codio/site">This site is open source... Fork it!</a>
       </div>
 
       Copyright &copy; 2013 Application Craft Ltd. All rights reserved.
@@ -466,15 +398,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="s/js/main-a219c0ec.js" type="text/javascript"></script>
-  <script src="/plugins/sitebar.js"></script>
-  <script>
-      $(document).ready(function () {
-          AC.start();
-          AC.get("repository").get("sitebar").start();
-      });
-  </script>
-
+<script src="js/main-7a1cb15f.js" type="text/javascript"></script>
   <script>
     var _gaq=[['_setAccount','UA-11680203-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

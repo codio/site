@@ -15,8 +15,6 @@ $ ->
 
 # Home page feature lists
 $ ->
-  (links = $('#nav-banner a')).on 'click', navBannerClick
-
   navBannerClick = (e)->
     e && e.preventDefault()
 
@@ -35,11 +33,13 @@ $ ->
       scrollTop: $('#nav-banner').offset().top - pushHeight
     }, 1000)
 
+  (links = $('#nav-banner a')).on 'click', navBannerClick
+
 
   # Handle the "features" click in main navigation
   $('#navigation a:last').on 'click', (e)->
     do e.preventDefault
-    navBannerClick.call $('#nav-banner a:first')[0]
+    navBannerClick.call $('#nav-banner [href=#current-features]')[0]
 
 
   # Try it link

@@ -12,15 +12,15 @@ nav {
     // Logo
     > a {
       display: block;
-      margin: 10px 0 0 0;
-      width: 178px;
+      margin: 0px 0 0 0;
+      width: 400px;
       float: left;
     }
 
     // Navigation items
     #navigation {
       padding: 0;
-      margin: 38px 0 0 0 !important;
+      margin: 38px 38px 0 0 !important;
       float: right;
 
       li {
@@ -139,14 +139,17 @@ nav {
     font-size: 0;
     list-style: none;
     float: right;
-    margin-left: 30px;
+    margin-left: 0px;
+    width: 230px;
+    height: 90px;
+    background: #f36050;
 
     li {
       display: inline-block;
-      margin: 30px 5px 0;
+      margin: 20px 5px 0 -12px;
 
       a {
-        background: image-url('social-icons.gif') no-repeat 0 0;
+        background: image-url('social.png') no-repeat 0 0;
         text-indent: -9999px;
         margin: 0;
 
@@ -157,10 +160,10 @@ nav {
         }
 
         span {
-          background: image-url('social-icons.gif') no-repeat 0 0;
+          background: image-url('social.png') no-repeat 0 0;
           display: block;
-          width: 31px;
-          height: 32px;
+          width: 60px;
+          height: 60px;
           position: relative;
           z-index: 10;
           -webkit-transition: -webkit-transform 0.4s ease-out;
@@ -170,11 +173,14 @@ nav {
       }
 
       &:nth-child(2) a, &:nth-child(2) a span {
-        background-position: -32px 0;
+        background-position: -57px 0;
       }
       &:nth-child(3) a, &:nth-child(3) a span {
-        background-position: -64px 0;
+        background-position: -114px 0;
       }
+      &:nth-child(4) a, &:nth-child(4) a span {
+        background-position: -171px 0;
+      }      
     }
   }
 

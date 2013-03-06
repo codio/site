@@ -11,7 +11,7 @@ body.home {
       #public-stamp {
         img {
           position: absolute;
-          margin: 362px 0px 0px 100px;
+          margin: 325px 0px 0px 640px;
         }
       }
 
@@ -20,8 +20,8 @@ body.home {
 
         // Headline
         &:first-child {
-          width: 520px;
-          margin: 14px auto 20px;
+          width: 600px;
+          margin: 30px auto 20px;
           text-align: center;
 
           > div {
@@ -29,7 +29,7 @@ body.home {
 
             // Top three Headline lines of text.
             > p {
-              margin: 5px;
+              margin: 0;
               text-shadow: 0 0 100px #000;
               font: 26px gotham_bookregular;
 
@@ -38,12 +38,12 @@ body.home {
               }
 
               &:nth-child(2) {
-                font: 65px gotham_boldregular;
+                font: 72px gotham_boldregular;
                 line-height: 1.0em !important;
               }
 
               &:nth-child(3) {
-                font: 98px gotham_boldregular;
+                font: 110px gotham_boldregular;
                 line-height: 0.8em !important;
               }
             }
@@ -74,24 +74,24 @@ body.home {
             // Flourish
             > img {
               position: relative;
-              top: 100px;
+              top: 23px;
             }
           }
 
           > p {
-            width: 520px;
+            width: 530px;
             font: 17px gotham_thinregular;
             text-align: center;
-            margin: -10px auto 15px;
+            margin: 48px auto 15px;
             line-height: 1.5em;
           }
         }
 
         // Illustration
         &:last-child {
-          background: transparent image-url('cloud-orbit.gif') no-repeat 21px 0;
-          width: 450px;
-          height: 450px;
+          background: transparent image-url('seal.png') no-repeat 21px 0;
+          width: 360px;
+          height: 400px;
           text-indent: -9999px;
         }
       }

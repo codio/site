@@ -11,7 +11,7 @@ body.home {
       #public-stamp {
         img {
           position: absolute;
-          margin: 325px 0px 0px 640px;
+          margin: 355px 0px 0px 630px;
         }
       }
 
@@ -89,9 +89,9 @@ body.home {
 
         // Illustration
         &:last-child {
-          background: transparent image-url('seal.png') no-repeat 21px 0;
-          width: 360px;
-          height: 400px;
+          background: transparent image-url('wheel.png') no-repeat 21px 0;
+          width: 373px;
+          height: 380px;
           text-indent: -9999px;
         }
       }

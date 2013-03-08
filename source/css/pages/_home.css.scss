@@ -89,10 +89,11 @@ body.home {
 
         // Illustration
         &:last-child {
-          background: transparent image-url('wheel.png') no-repeat 21px 0;
-          width: 373px;
-          height: 380px;
+          background: transparent image-url('wheel.png') no-repeat 43px 15px;
+          width: 350px;
+          height: 344px;
           text-indent: -9999px;
+          background-size: 86%;
         }
       }
     }

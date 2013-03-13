@@ -1,3 +1,49 @@
+# Relative Assets extension
+module RelativeAsset
+
+  # Setup extension
+  class << self
+
+    # Once registered
+    def registered(app)
+      # Tell compass to use relative assets
+      app.compass_config do |config|
+        config.relative_assets = true
+      end
+
+      # Include instance methods
+      app.send :include, InstanceMethods
+    end
+
+    alias :included :registered
+  end
+
+  # Relative Assets instance method
+  module InstanceMethods
+
+    # asset_url override for relative assets
+    # @param [String] path
+    # @param [String] prefix
+    # @return [String]
+    def asset_url(path, prefix="")
+      path = super(path, prefix)
+
+      if path.include?("//")
+        path
+      else
+        if current_resource.path == 'index.html'
+          path = "/s" + path.to_s
+        end
+
+        current_dir = Pathname('/' + current_resource.destination_path)
+        Pathname(path).relative_path_from(current_dir.dirname)
+      end
+    end
+  end
+end
+::Middleman::Extensions.register(:relative_asset, RelativeAsset)
+
+
 helpers do
   # Overrides the built-in #link_to helper to allow us to prepend /s to links.
   def link_to(*args, &block)
@@ -20,9 +66,9 @@ helpers do
     super
   end
 
-  def asset_path(kind, source)
-    build? ? "/s/#{super}" : super
-  end
+  # def asset_path(kind, source)
+  #   build? ? "/s/#{super}" : super
+  # end
 
   def link_to_author(name)
     first, last = name.split(' ')
@@ -107,20 +153,21 @@ activate :directory_indexes
 
 # Build-specific configuration
 configure :build do
+
   # For example, change the Compass output style for deployment
-  activate :minify_css
+  # activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
 
-  activate :gzip
-  activate :asset_hash
-  activate :cache_buster
+  # activate :gzip
+  # activate :asset_hash
+  # activate :cache_buster
 
-  # activate :favicon_maker
+  activate :favicon_maker
 
   # Use relative URLs
-  activate :relative_assets
+  activate :relative_asset
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
@@ -131,35 +178,3 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
-# Extension namespace
-module Middleman
-  module Extensions
-
-    # Relative Assets extension
-    module RelativeAssets
-
-      # Relative Assets instance method
-      module InstanceMethods
-
-        # asset_url override for relative assets
-        # @param [String] path
-        # @param [String] prefix
-        # @return [String]
-        def asset_url(path, prefix="")
-          path = super(path, prefix)
-
-          if path.include?("//")
-            path
-          else
-            if current_resource.path == 'index.html'
-              path = "/s" + path
-            end
-
-            current_dir = Pathname('/' + current_resource.destination_path)
-            Pathname(path).relative_path_from(current_dir.dirname)
-          end
-        end
-      end
-    end
-  end
-end

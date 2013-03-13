@@ -18,7 +18,7 @@ full_width: true
   <section class="posts all">
 
     <% year, month = nil, nil %>
-    <% articles.each do |article| %>
+    <% page_articles.each do |article| %>
 
       <% if year != article.date.year %>
         <h2><%= article.date.year %></h2>

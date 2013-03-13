@@ -19,7 +19,7 @@ $ ->
     e && e.preventDefault()
 
     $this = $(this)
-    type = $(this).attr('href').slice(1)
+    type = $this.attr('href').slice(1)
 
     $('.switched-lists .container > ul:visible').fadeOut ->
       do $("##{type}").fadeIn
@@ -37,20 +37,21 @@ $ ->
 
 
   # Handle the "features" click in main navigation
-  $('#navigation a:last').on 'click', (e)->
-    do e.preventDefault
-    navBannerClick.call $('#nav-banner [href=#current-features]')[0]
+  $('#navigation a[href="/#features"]').on 'click', (e)->
+    if goto = $('#nav-banner [href=#current-features]')
+      navBannerClick.call $('#nav-banner [href=#current-features]')[0]
+      false
 
 
   # Try it link
   $('#navigation a:first').on 'click', (e)->
-    do e.preventDefault
-
-    pusher = $('#ac-sitebar-pusher')
-    pushHeight = if pusher.length > 0 then pusher.height() else 0
-    $(document.body).animate({
-      scrollTop: $('#tryit').offset().top - pushHeight
-    }, 1000)
+    if goto = $('#tryit')
+      pusher = $('#ac-sitebar-pusher')
+      pushHeight = if pusher.length > 0 then pusher.height() else 0
+      $(document.body).animate({
+        scrollTop: goto.offset().top - pushHeight
+      }, 1000)
+      false
 
 
 

@@ -47,11 +47,11 @@
       <div class="container">
 
         <div id="blog-ribbon" class="nofade">
-          <%= link_to 'Blog', '/blog', :title => "Check out our Blog" %>
+          <%= link_to 'Blog', '/blog', :title => "Check out our Blog", :data => { :"no-turbolink" => true } %>
         </div>
 
         <nav class="clearfix">
-          <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/' %>
+          <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/', :data => { :"no-turbolink" => true } %>
 
           <ul id="social-icons">
             <li><%= link_to '<span></span>Google+', 'https://plus.google.com/u/0/b/107423236292333764300/107423236292333764300/posts', :target => "_blank" %></li>
@@ -60,9 +60,9 @@
           </ul>
 
           <ul id="navigation">
-            <li><%= link_to 'Try it!', '/#tryit' %></li>
-            <li><%= link_to 'Features', '/#features' %></li>
-            <li><%= link_to 'Docs', '/docs' %></li>
+            <li><%= link_to 'Try it!', '/#tryit', :data => { :"no-turbolink" => true } %></li>
+            <li><%= link_to 'Features', '/#features', :data => { :"no-turbolink" => true } %></li>
+            <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
           </ul>
         </nav>
 

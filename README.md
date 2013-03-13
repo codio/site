@@ -8,7 +8,7 @@ We encourage you to send us pull requests for anything that you think may fix or
 
 ### Requirements ###
 
-This repository is hosted on Github as a Git repo at [https://github.com/ApplicationCraft/applicationcraft.com](https://github.com/ApplicationCraft/crafted-site). You will therefore need to install Git so you can check out the code and run it locally.
+This repository is hosted on Github as a Git repo at [https://github.com/codio/site](https://github.com/codio/site). You will therefore need to install Git so you can check out the code and run it locally.
 
 You will also need the latest version of Ruby 1.9.3, along with RubyGems and Bundler.
 
@@ -39,4 +39,4 @@ Once you have made your changes, simply commit them and push them up to the remo
 
 ### Lost? Need help? ###
 
-Gimme a shout at jmoss@applicationcraft.com or on Skype at joelmoss.info.
+Gimme a shout at jmoss@codio.com or on Skype at joelmoss.info.

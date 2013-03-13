@@ -1,7 +1,7 @@
 ---
 title: Codio is Live and Kicking!
 author: Joel Moss
-date: 2013-03-14
+date: 2013-03-13
 class_name: blog
 full_width: true
 ---
@@ -10,7 +10,7 @@ We are extremely excited to announce the immediate availability of Codio in publ
 
 But don't take my word for it. **Just click the "Create & Play!"** link at the top of the page to create your first Codio project.
 
-![Codio IDE](/img/blog/ide.png)
+![Codio IDE](blog/ide.png)
 
 It's been a hard and arduous road, but we're finally at the start of it. Yes I did say the start, and that's because we have so much more to come. Building the perfect IDE is no small task you know, but what we're releasing today is the foundation that will set up that which is to come.
 

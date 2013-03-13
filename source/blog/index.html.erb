@@ -38,12 +38,14 @@ pageable: true
             <% end %>
           </p>
 
-          <p class="tagged">Tagged:</p>
-          <ul class="tags">
-            <% article.tags.each do |tag| %>
-              <li><%= tag %></li>
-            <% end %>
-          </ul>
+          <% unless article.tags.empty? %>
+            <p class="tagged">Tagged:</p>
+            <ul class="tags">
+              <% article.tags.each do |tag| %>
+                <li><%= tag %></li>
+              <% end %>
+            </ul>
+          <% end %>
 
           <p class="comments">
             <%= link_to 'Comments', "#{article.url}#disqus_thread", :class => "dsq-comment-count" %>

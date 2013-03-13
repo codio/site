@@ -31,7 +31,9 @@ module RelativeAsset
       if path.include?("//")
         path
       else
-        if current_resource.path == 'index.html'
+        if path.include?('img/blog')
+          return "/s" + path.to_s
+        elsif current_resource.path == 'index.html'
           path = "/s" + path.to_s
         end
 
@@ -65,6 +67,14 @@ helpers do
 
     super
   end
+
+  # def image_tag(path, params={})
+  #   p path
+  #   if path.start_with?('blog')
+
+  #   end
+  #   super
+  # end
 
   # def asset_path(kind, source)
   #   build? ? "/s/#{super}" : super
@@ -155,14 +165,14 @@ activate :directory_indexes
 configure :build do
 
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
 
-  # activate :gzip
-  # activate :asset_hash
-  # activate :cache_buster
+  activate :gzip
+  activate :asset_hash
+  activate :cache_buster
 
   activate :favicon_maker
 

@@ -89,3 +89,96 @@ $ ->
 
   # Set syntax highlighting language to javascript by default.
   $('body.blog section.posts article pre > code').addClass 'lang-javascript'
+
+
+
+# Tree
+$ ->
+  if ($tree = $('#tree')).length > 0
+
+    $(window).on 'scroll', ->
+      return if $('body').hasClass('full-screen')
+
+      $window = $(window)
+
+      winHeight = $window.height() - 100
+      footHeight = $('#price-banner').position().top - $window.scrollTop() - 100
+
+      height = if footHeight < winHeight then footHeight else winHeight
+      if $window.scrollTop() <= 220
+        height = $window.height() - $tree.position().top + $window.scrollTop() - 10
+
+      $tree.height height
+
+
+    doc_events = ->
+      # Handle images
+      if (images = $('body.docs article :not(a)>img')).length > 0
+        images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
+
+      # Set syntax highlighting language to javascript by default.
+      $('body.docs article pre > code').addClass 'lang-javascript'
+
+      # Handle video links so they open in fancybox
+      if (videos = $("body.docs article a[href*='youtube']")).length > 0
+        videos.addClass 'fancybox fancybox.iframe'
+
+    do doc_events
+
+
+    # Handle full screen button
+    $('#full-screen').on 'click', ->
+      if $('body').hasClass('full-screen')
+        $('body').removeClass 'full-screen'
+      else
+        $('body').addClass 'full-screen'
+
+        $tree = $('body.docs.full-screen > .container aside #tree')
+        $tree.height $(window).height() - $tree.offset().top - 20
+
+
+    # Add/remove classes depending upon the collapsed state.
+    $tree.find('div>span').on 'click', ->
+      $(this).parent().parent().toggleClass 'expanded'
+
+
+    # Clicking a directory link should open up the directory index.
+    $tree.find('a').on 'click', ->
+      $tree.find('li').removeClass('checked').find('a').css 'color', '#999'
+
+      li = if $(this).parent().find('>span').length > 0
+        $(this).parent().parent()
+      else
+        $(this).parent()
+
+      li.addClass 'checked'
+      li.parents('li').addClass 'checked'
+      li.find('li a').css 'color', '#3E3E3E'
+
+
+    do expandTreeWithPath
+
+    # Make sure the tree is updated if a link is clicked within a doc page, and ensure all doc
+    # events and set.
+    $(document).on 'page:change', ->
+      do expandTreeWithPath
+      do doc_events
+      do Rainbow.color
+
+
+# Expands the tree to the current URL
+exports.expandTreeWithPath = (path)->
+  path = document.location.pathname unless path?
+  path = path.replace(/\/$/, '') + "/"
+
+  if (selected = $("#tree a[href='#{path}']")).length > 0
+    $('#tree li').removeClass('checked').find('a').css 'color', '#999'
+
+    if selected.parent().find('>span').length > 0
+      li = selected.parent().parent()
+    else
+      li = selected.parent()
+
+    li.addClass 'checked'
+    li.parents('li').addClass 'checked'
+    li.find('li a').css 'color', '#3E3E3E'

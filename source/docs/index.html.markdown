@@ -1,5 +1,5 @@
 ---
-title: "Codio Documentation"
+title: Documentation
 class_name: docs
 full_width: true
 ---

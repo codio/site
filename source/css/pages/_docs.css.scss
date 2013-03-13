@@ -1,0 +1,141 @@
+body.docs {
+
+  @import 'partials/tree';
+  @import 'partials/breadcrumbs';
+
+
+  &.full-screen {
+    > .main, > .sub, > #price-banner, > footer {
+      display: none;
+    }
+
+    > .container {
+      width: 100%;
+
+      header {
+        margin-left: 365px;
+
+        #breadcrumbs {
+          margin-bottom: 30px;
+        }
+      }
+
+      aside {
+        margin: 0 20px 50px 25px;
+        position: fixed;
+        top: 22px;
+        height: 100%;
+
+        form {
+          margin-bottom: 35px;
+        }
+      }
+
+      article {
+        margin-left: 340px;
+        border-left: 3px solid #CCC;
+        padding-left: 30px;
+      }
+    }
+  }
+
+  header {
+    margin: 20px 0 0 90px;
+    overflow: hidden;
+
+    #breadcrumbs {
+      float: left;
+      width: 835px;
+    }
+
+    #full-screen {
+      float: left;
+      background: image-url('docs/fullscreen.png') no-repeat;
+      width: 37px;
+      height: 35px;
+      text-indent: -9999px;
+      cursor: pointer;
+    }
+  }
+
+  article {
+    margin: 0 10px 80px 335px;
+    min-height: 500px;
+
+    h1 {
+      font: 30px gotham_mediumregular;
+      margin: 0 0 35px;
+      border-bottom: 3px solid #ccc;
+      padding-bottom: 8px;
+    }
+
+    h2 {
+      font: 1.3em gotham_mediumregular;
+      margin: 4em 0 2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      font: 1.2em gotham_bookregular;
+      margin: 3em 0 1.4em;
+    }
+
+    img:not(.fancybox-image) {
+      vertical-align: middle;
+      display: inline-block;
+      padding: 4px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      @include box-shadow(0 1px 3px rgba(0,0,0,0.1));
+      @include border-radius(3px);
+      max-width: 97%;
+      margin: 10px 0;
+    }
+
+    ol > li {
+      margin: 12px 0;
+    }
+
+    ul > li {
+      margin: 4px 0;
+    }
+
+    code {
+      color: #777;
+      font-size: 14px;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      max-width: 100%;
+      background-color: transparent;
+      border-collapse: collapse;
+      border-spacing: 0;
+
+      tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+        background-color: #EFEDE7;
+      }
+
+      th, td {
+        padding: 8px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: 1px solid #dddddd;
+      }
+    }
+
+    #pagination {
+      margin-top: 70px;
+      border-top: 1px solid #CCC;
+      padding-top: 20px;
+
+      a.fright {
+        float: right;
+      }
+    }
+  }
+
+}

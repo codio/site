@@ -145,7 +145,7 @@ $ ->
 
     # Clicking a directory link should open up the directory index.
     $tree.find('a').on 'click', ->
-      $tree.find('li').removeClass('checked').find('a').css 'color', '#999'
+      $tree.find('li').removeClass('checked')
 
       li = if $(this).parent().find('>span').length > 0
         $(this).parent().parent()
@@ -154,7 +154,6 @@ $ ->
 
       li.addClass 'checked'
       li.parents('li').addClass 'checked'
-      li.find('li a').css 'color', '#3E3E3E'
 
 
     do expandTreeWithPath
@@ -173,7 +172,7 @@ exports.expandTreeWithPath = (path)->
   path = path.replace(/\/$/, '') + "/"
 
   if (selected = $("#tree a[href='#{path}']")).length > 0
-    $('#tree li').removeClass('checked').find('a').css 'color', '#999'
+    $('#tree li').removeClass('checked')
 
     if selected.parent().find('>span').length > 0
       li = selected.parent().parent()
@@ -182,4 +181,3 @@ exports.expandTreeWithPath = (path)->
 
     li.addClass 'checked'
     li.parents('li').addClass 'checked'
-    li.find('li a').css 'color', '#3E3E3E'

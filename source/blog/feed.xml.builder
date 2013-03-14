@@ -1,7 +1,7 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  xml.title "Codio"
-  xml.subtitle "A Blog written by Codio - the perfect IDE people"
+  xml.title "Code and Unload by Codio"
+  xml.subtitle "While we code we often have lots of ideas brewing around. Ideas we'd like to unload onto you"
   xml.id "https://codio.com/s/blog"
   xml.link "href" => "https://codio.com/s/blog"
   xml.link "href" => "https://codio.com/s/blog/feed.xml", "rel" => "self"

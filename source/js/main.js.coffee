@@ -97,19 +97,19 @@ $ ->
 $ ->
   if ($tree = $('#tree')).length > 0
 
-    $(window).on 'scroll', ->
-      return if $('body').hasClass('full-screen')
+    # $(window).on 'scroll', ->
+    #   return if $('body').hasClass('full-screen')
 
-      $window = $(window)
+    #   $window = $(window)
 
-      winHeight = $window.height() - 100
-      footHeight = $('#price-banner').position().top - $window.scrollTop() - 100
+    #   winHeight = $window.height() - 100
+    #   footHeight = $('#price-banner').position().top - $window.scrollTop() - 100
 
-      height = if footHeight < winHeight then footHeight else winHeight
-      if $window.scrollTop() <= 220
-        height = $window.height() - $tree.position().top + $window.scrollTop() - 10
+    #   height = if footHeight < winHeight then footHeight else winHeight
+    #   if $window.scrollTop() <= 220
+    #     height = $window.height() - $tree.position().top + $window.scrollTop() - 10
 
-      $tree.height height
+    #   $tree.height height
 
 
     doc_events = ->
@@ -128,13 +128,13 @@ $ ->
 
 
     # Handle full screen button
-    $('#full-screen').on 'click', ->
+    $('#full-screen').on 'click', (e)->
+      do e.preventDefault
+
       if $('body').hasClass('full-screen')
         $('body').removeClass 'full-screen'
       else
         $('body').addClass 'full-screen'
-
-        $tree = $('body.docs.full-screen > .container aside #tree')
         $tree.height $(window).height() - $tree.offset().top - 20
 
 

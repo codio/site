@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-If you know the user name of another Codio user, you can enter the URL for their account which is of the format
+If you know the user name of another Codio user, you can enter the URL for their account which is of the format:
 
 `https://codio.com/username`
 

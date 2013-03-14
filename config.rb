@@ -60,7 +60,7 @@ helpers do
       end
 
       # Ignore external links, root, and anchors (hashes).
-      if !url.include?('://') && url != '/' && !url.start_with?('#')
+      if !url.include?('://') && url != '/' && !url.start_with?('#') && !url.start_with?('mailto:')
         url = args[url_arg_index] = "/s" + url
       end
     end

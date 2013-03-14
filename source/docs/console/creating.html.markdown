@@ -6,7 +6,7 @@ full_width: true
 
 Creating a new project or importing one is really easy. All you do is click on the Create Project link in the Console as shown below.
 
-![Create Project](/img/docs/console-create.png)
+![Create Project](docs/console-create.png)
 
 You will then be shown a dialog that lets you 
 

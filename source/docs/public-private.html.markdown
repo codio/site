@@ -8,8 +8,8 @@ By default, all Codio projects are public. Anyone who has your account URL (for 
 
 If you do not want your project to be visble to third parties, then you should make your project private. There are three ways to manage this
 
-- when you [create a project](/docs/console/creating) you will see the options for making the project Public or Private
-- if you are in the IDE, then you can click on the [project menu](/docs/ide/project-menu) and select the Settings option
+- When you [create a project](/docs/console/creating) you will see the options for making the project Public or Private
+- If you are in the IDE, then you can click on the [project menu](/docs/ide/project-menu) and select the Settings option
 - You will soon be able to click on the Public/Private icon and label in the Console in the Project box. This is not yet done but will magically start working soon.
 
 ## Private Projects & Paid Accounts

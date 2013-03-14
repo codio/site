@@ -1,5 +1,5 @@
 ---
-title: "Creating and importing a project"
+title: "Creating and Importing a Project"
 class_name: docs
 full_width: true
 ---

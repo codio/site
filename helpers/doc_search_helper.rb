@@ -32,7 +32,8 @@ module DocSearchHelper
       breadcrumbs = BreadcrumbsHelper.breadcrumbs(resource)
       breadcrumbs.map! { |b| b[:title] }
 
-      rules << '"t":"' + resource.data.title + '","u":"' + resource.url + '","b":["' + breadcrumbs.join('","') + '"]'
+      url = build? ? "/s#{resource.url}" : resource.url
+      rules << '"t":"' + resource.data.title + '","u":"' + url + '","b":["' + breadcrumbs.join('","') + '"]'
     end
 
     def resource_for(file)

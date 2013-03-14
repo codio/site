@@ -16,7 +16,7 @@ class DocSearch
 
   constructor: ->
     $.ajax
-      url: '/js/doc_search/doc_search.json'
+      url: '/s/js/doc_search/doc_search.json'
       dataType: 'json'
       async: false
       success: (json) =>

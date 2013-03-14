@@ -24,7 +24,7 @@ fetchReplacement = (url) ->
 
   xhr.onload = =>
     doc = createDocument xhr.responseText
-
+    debugger
     if assetsChanged doc
       document.location.href = url
     else

@@ -30,9 +30,7 @@ module TreeHelper
       else
         if resource = resource_for("#{file}.html.markdown")
           content_tag :li, :class => "nofade" do
-            content_tag :a, :href => resource.url, :class => current_page?(resource.url) ? 'active' : '' do
-              resource.data.title
-            end
+            link_to resource.data.title, resource.url, :class => current_page?(resource.url) ? 'active' : ''
           end
         end
       end
@@ -46,9 +44,7 @@ module TreeHelper
           content_tag :span do
             "expand"
           end
-          content_tag :a, :href => resource.url do
-            resource.data.title
-          end
+          concat_content link_to(resource.data.title, resource.url)
         end
 
         tree_for file

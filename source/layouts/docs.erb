@@ -1,0 +1,53 @@
+<% wrap_layout :layout do %>
+
+  <div class="container clearfix">
+
+    <header class="clearfix">
+      <div id="breadcrumbs">
+        <ul>
+          <li><%= link_to 'Docs', '/docs' %></li>
+          <% breadcrumbs.each do |crumb| %>
+            <li><%= link_to crumb[:title], crumb[:url] %></li>
+          <% end %>
+          <li><%= current_page.data.title %></li>
+        </ul>
+      </div>
+      <a id="full-screen" href="#"><i class="icon-fullscreen icon-large" title="Open in full screen"></i></a>
+    </header>
+
+    <aside data-spy="affix" data-offset-top="220">
+      <form>
+        <input type="text" placeholder="search...">
+        <button type="submit" class="btn">Search</button>
+        <ul id="search-content"></ul>
+      </form>
+
+      <div id="tree">
+        <%= tree_for 'source/docs' %>
+      </div>
+    </aside>
+
+    <article id="doc-body">
+      <h1><%= current_page.data.title %></h1>
+      <%= yield %>
+
+      <% if current_page.data.pagination %>
+        <div id="pagination" class="clearfix">
+          <%= link_to "&laquo; previous", "/docs/#{current_page.data.pagination.previous}", :class => "btn" if current_page.data.pagination.previous %>
+          <%= link_to "next &raquo;", "/docs/#{current_page.data.pagination.next}", :class => "btn fright" if current_page.data.pagination.next %>
+        </div>
+      <% end %>
+    </article>
+
+  </div>
+
+  <% content_for :head do %>
+    <%= stylesheet_link_tag 'lib/rainbow/github' %>
+  <% end %>
+
+  <% content_for :foot do %>
+    <%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
+    <%= javascript_include_tag 'doc_search/base', 'vendor/turbolinks' %>
+  <% end %>
+
+<% end %>

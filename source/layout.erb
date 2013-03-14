@@ -11,7 +11,7 @@
     <% elsif current_page.data.meta_description %>
       <meta name="description" content="<%= current_page.data.meta_description %>">
     <% else %>
-      <meta name="description" content="Visual mobile and desktop development in the cloud, for developers of all skill levels.">
+      <meta name="description" content="Codio is a powerful cloud-based visual front-end IDE that covers the complete web development cycle; from prototype to deployment">
     <% end %>
 
     <% if content_for?(:meta_keywords) %>
@@ -22,6 +22,14 @@
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
     <% end %>
 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/s/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/s/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/s/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="/s/apple-touch-icon-precomposed.png" />
+    <link rel="shortcut icon" href="/s/favicon.png" />
+    <!-- should actually be placed in your root dir -->
+    <link rel="icon" type="image/ico" href="/s/favicon.ico" />
+
     <%= stylesheet_link_tag 'normalize', 'boilerplate' %>
 
     <% if !current_page.app.development? %>
@@ -30,7 +38,7 @@
 
     <%= yield_content :head %>
 
-    <link href="http://feeds.feedburner.com/ApplicationCraft" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Application Craft - the Visual IDE people" type="application/atom+xml"/>
+    <link href="http://feeds.feedburner.com/codio" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Codio - the perfect IDE people" type="application/atom+xml"/>
   </head>
   <body class="<%= current_page.data.class_name || 'standard' %>">
     <a id="top"></a>
@@ -39,11 +47,11 @@
       <div class="container">
 
         <div id="blog-ribbon" class="nofade">
-          <%= link_to 'Blog', '/blog', :title => "Check out our Blog" %>
+          <%= link_to 'Blog', '/blog', :title => "Check out our Blog", :data => { :"no-turbolink" => true } %>
         </div>
 
         <nav class="clearfix">
-          <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/' %>
+          <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/', :data => { :"no-turbolink" => true } %>
 
           <ul id="social-icons">
             <li><%= link_to '<span></span>Google+', 'https://plus.google.com/u/0/b/107423236292333764300/107423236292333764300/posts', :target => "_blank" %></li>
@@ -52,9 +60,9 @@
           </ul>
 
           <ul id="navigation">
-            <li><%= link_to 'Try it!', '/#tryit' %></li>
-            <li><%= link_to 'Features', '/#features' %></li>
-            <li><%= link_to 'Docs', '/docs' %></li>
+            <li><%= link_to 'Try it!', '/#tryit', :data => { :"no-turbolink" => true } %></li>
+            <li><%= link_to 'Features', '/#features', :data => { :"no-turbolink" => true } %></li>
+            <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
           </ul>
         </nav>
 

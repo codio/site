@@ -1,3 +1,51 @@
+# Relative Assets extension
+module RelativeAsset
+
+  # Setup extension
+  class << self
+
+    # Once registered
+    def registered(app)
+      # Tell compass to use relative assets
+      app.compass_config do |config|
+        config.relative_assets = true
+      end
+
+      # Include instance methods
+      app.send :include, InstanceMethods
+    end
+
+    alias :included :registered
+  end
+
+  # Relative Assets instance method
+  module InstanceMethods
+
+    # asset_url override for relative assets
+    # @param [String] path
+    # @param [String] prefix
+    # @return [String]
+    def asset_url(path, prefix="")
+      path = super(path, prefix)
+
+      if path.include?("//")
+        path
+      else
+        if path.include?('img/blog')
+          return "/s" + path.to_s
+        elsif current_resource.path == 'index.html'
+          path = "/s" + path.to_s
+        end
+
+        current_dir = Pathname('/' + current_resource.destination_path)
+        Pathname(path).relative_path_from(current_dir.dirname)
+      end
+    end
+  end
+end
+::Middleman::Extensions.register(:relative_asset, RelativeAsset)
+
+
 helpers do
   # Overrides the built-in #link_to helper to allow us to prepend /s to links.
   def link_to(*args, &block)
@@ -20,67 +68,37 @@ helpers do
     super
   end
 
-  def asset_path(kind, source)
-    build? ? "/s/#{super}" : super
-  end
+  # def image_tag(path, params={})
+  #   p path
+  #   if path.start_with?('blog')
+
+  #   end
+  #   super
+  # end
+
+  # def asset_path(kind, source)
+  #   build? ? "/s/#{super}" : super
+  # end
 
   def link_to_author(name)
     first, last = name.split(' ')
-    mail_to "#{first[0]}#{last}@applicationcraft.com".downcase, name
+    mail_to "#{first[0]}#{last}@codio.com".downcase, name
   end
 end
 
-
-###
-# Compass
-###
-
-# Susy grids in Compass
-# First: gem install susy --pre
-# require 'susy'
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
 
 ###
 # Page options, layouts, aliases and proxies
 ###
 
 # Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
 page "/blog/feed.xml", :layout => false
+page "/docs/*", :layout => :docs
 
-# Proxy (fake) files
-# page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
-#   @which_fake_page = "Rendering a fake page with a variable"
-# end
 
 ###
 # Helpers
 ###
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
 
 set :css_dir, 'css'
 set :js_dir, 'js'
@@ -107,6 +125,7 @@ activate :directory_indexes
 
 # Build-specific configuration
 configure :build do
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
@@ -117,10 +136,10 @@ configure :build do
   activate :asset_hash
   activate :cache_buster
 
-  # activate :favicon_maker
+  activate :favicon_maker
 
   # Use relative URLs
-  activate :relative_assets
+  activate :relative_asset
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
@@ -131,35 +150,3 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
-# Extension namespace
-module Middleman
-  module Extensions
-
-    # Relative Assets extension
-    module RelativeAssets
-
-      # Relative Assets instance method
-      module InstanceMethods
-
-        # asset_url override for relative assets
-        # @param [String] path
-        # @param [String] prefix
-        # @return [String]
-        def asset_url(path, prefix="")
-          path = super(path, prefix)
-
-          if path.include?("//")
-            path
-          else
-            if current_resource.path == 'index.html'
-              path = "/s" + path
-            end
-
-            current_dir = Pathname('/' + current_resource.destination_path)
-            Pathname(path).relative_path_from(current_dir.dirname)
-          end
-        end
-      end
-    end
-  end
-end

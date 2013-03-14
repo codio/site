@@ -1,5 +1,5 @@
 ---
-title: "Accessing your Projects"
+title: "Accessing Your Projects"
 class_name: docs
 full_width: true
 ---

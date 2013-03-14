@@ -1,3 +1,38 @@
+body.docs.full-screen .wrap {
+  > nav, > .main, > .sub, > footer {
+    display: none;
+  }
+
+  > .container {
+    width: 100%;
+
+    header {
+      margin-left: 365px;
+
+      #breadcrumbs {
+        margin-bottom: 30px;
+      }
+    }
+
+    aside {
+      margin: 0 20px 50px 25px;
+      position: fixed;
+      top: 64px;
+      height: 100%;
+
+      form {
+        margin-bottom: 35px;
+      }
+    }
+
+    article {
+      margin-left: 340px;
+      border-left: 3px solid #CCC;
+      padding-left: 30px;
+    }
+  }
+}
+
 body.docs .wrap {
 
   @import 'partials/tree';
@@ -13,42 +48,6 @@ body.docs .wrap {
     #blog-ribbon a {
       background-size: 72%;
       top: 86px;
-    }
-  }
-
-
-  &.full-screen {
-    > nav, > .main, > .sub, > footer {
-      display: none;
-    }
-
-    > .container {
-      width: 100%;
-
-      header {
-        margin-left: 365px;
-
-        #breadcrumbs {
-          margin-bottom: 30px;
-        }
-      }
-
-      aside {
-        margin: 0 20px 50px 25px;
-        position: fixed;
-        top: 22px;
-        height: 100%;
-
-        form {
-          margin-bottom: 35px;
-        }
-      }
-
-      article {
-        margin-left: 340px;
-        border-left: 3px solid #CCC;
-        padding-left: 30px;
-      }
     }
   }
 

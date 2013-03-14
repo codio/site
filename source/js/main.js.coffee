@@ -128,13 +128,13 @@ $ ->
 
 
     # Handle full screen button
-    $('#full-screen').on 'click', ->
+    $('#full-screen').on 'click', (e)->
+      do e.preventDefault
+
       if $('body').hasClass('full-screen')
         $('body').removeClass 'full-screen'
       else
         $('body').addClass 'full-screen'
-
-        $tree = $('body.docs.full-screen > .container aside #tree')
         $tree.height $(window).height() - $tree.offset().top - 20
 
 

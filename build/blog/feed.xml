@@ -5,17 +5,18 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
+  <updated>2013-03-13T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
   <entry>
     <title>Codio is Live and Kicking!</title>
-    <link rel="alternate" href="/blog/2013/03/codio-is-live-and-kicking/"/>
-    <id>/blog/2013/03/codio-is-live-and-kicking/</id>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/03/codio-is-live-and-kicking/"/>
+    <id>https://codio.com/s/blog/2013/03/codio-is-live-and-kicking/</id>
     <published>2013-03-13T00:00:00Z</published>
     <updated>2013-03-13T00:00:00Z</updated>
     <author>
-      <name>Article Author</name>
+      <name>Joel Moss</name>
     </author>
     <summary type="html">&lt;p&gt;We are extremely excited to announce the immediate availability of Codio in public beta. This means you can play with what will become the world's very first IDE that addresses all aspects of the HTML5 development life-cycle right now! We're building...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;We are extremely excited to announce the immediate availability of Codio in public beta. This means you can play with what will become the world&amp;#39;s very first IDE that addresses all aspects of the HTML5 development life-cycle right now! We&amp;#39;re building an IDE that any developer will want and enjoy using every single day, because there is currently no such thing.&lt;/p&gt;

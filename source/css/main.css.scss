@@ -71,6 +71,9 @@ $btnInverseBackgroundHighlight:     $grayDarker !default;
 
 
 
+html, body {
+  height: 100%;
+}
 
 body {
   font-family: Helvetica, Arial;
@@ -95,6 +98,17 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
+}
+
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -134px;
+
+  > .container {
+    padding-bottom: 70px;
+  }
 }
 
 .container {

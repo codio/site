@@ -3,9 +3,22 @@ body.docs {
   @import 'partials/tree';
   @import 'partials/breadcrumbs';
 
+  > nav {
+    box-shadow: 0 1px 4px #ddd;
+
+    #navigation li:last-child a {
+      font-family: 'museo_sans_rounded_700regular';
+    }
+
+    #blog-ribbon a {
+      background-size: 72%;
+      top: 86px;
+    }
+  }
+
 
   &.full-screen {
-    > .main, > .sub, > #price-banner, > footer {
+    > nav, > .main, > .sub, > footer {
       display: none;
     }
 
@@ -45,16 +58,11 @@ body.docs {
 
     #breadcrumbs {
       float: left;
-      width: 835px;
+      width: 855px;
     }
 
     #full-screen {
       float: left;
-      background: image-url('docs/fullscreen.png') no-repeat;
-      width: 37px;
-      height: 35px;
-      text-indent: -9999px;
-      cursor: pointer;
     }
   }
 
@@ -63,10 +71,11 @@ body.docs {
     min-height: 500px;
 
     h1 {
-      font: 30px gotham_mediumregular;
+      font: 26px gotham_mediumregular;
       margin: 0 0 35px;
       border-bottom: 3px solid #ccc;
       padding-bottom: 8px;
+      text-transform: none;
     }
 
     h2 {

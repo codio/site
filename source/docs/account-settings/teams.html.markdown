@@ -1,10 +1,10 @@
 ---
-title: "Teams"
+title: Teams
 class_name: docs
 full_width: true
 ---
 
-**Paid Account Alert : ** during the Beta phase, anyone can create teams. However, once we launch in production mode, you will require a paid account to manage and use teams.
+**Paid Account Alert** - during the Beta phase, anyone can create teams. However, once we launch in production mode, you will require a paid account to manage and use teams.
 
 **** SS : basic ******
 

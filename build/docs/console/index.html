@@ -14,22 +14,24 @@
       <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
     
 
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/s/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/s/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/s/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="/s/apple-touch-icon-precomposed.png" />
+    <link rel="shortcut icon" href="/s/favicon.png" />
     <!-- should actually be placed in your root dir -->
-    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../css/boilerplate-004269fc.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../css/boilerplate-b4e80e58.css" media="screen" rel="stylesheet" type="text/css" />
 
     
       <link href="/plugins/sitebar-min.css" media="screen" rel="stylesheet" type="text/css" />
     
 
     
+    <link href="../../css/lib/rainbow/github-45dbf8b5.css" media="screen" rel="stylesheet" type="text/css" />
+  
 
     <link href="http://feeds.feedburner.com/codio" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Codio - the perfect IDE people" type="application/atom+xml"/>
   </head>
@@ -40,11 +42,11 @@
       <div class="container">
 
         <div id="blog-ribbon" class="nofade">
-          <a title="Check out our Blog" href="/s/blog">Blog</a>
+          <a title="Check out our Blog" data-no-turbolink="true" href="/s/blog">Blog</a>
         </div>
 
         <nav class="clearfix">
-          <a href="/"><img width="178" height="59" src="../../img/logo-beta-e0ba4559.png" /></a>
+          <a data-no-turbolink="true" href="/"><img width="178" height="59" src="../../img/logo-beta-e0ba4559.png" /></a>
 
           <ul id="social-icons">
             <li><a target="_blank" href="https://plus.google.com/u/0/b/107423236292333764300/107423236292333764300/posts"><span></span>Google+</a></li>
@@ -53,20 +55,59 @@
           </ul>
 
           <ul id="navigation">
-            <li><a href="/s/#tryit">Try it!</a></li>
-            <li><a href="/s/#features">Features</a></li>
-            <li><a href="/s/docs">Docs</a></li>
+            <li><a data-no-turbolink="true" href="/s/#tryit">Try it!</a></li>
+            <li><a data-no-turbolink="true" href="/s/#features">Features</a></li>
+            <li><a data-no-turbolink="true" href="/s/docs">Docs</a></li>
           </ul>
         </nav>
 
       </div>
     </nav>
 
-    <p>When you sign into Codio, you are show the Console, which looks like this</p>
+    
+  <div class="container clearfix">
+
+    <header class="clearfix">
+      <div id="breadcrumbs">
+        <ul>
+          <li><a href="/s/docs">Docs</a></li>
+          
+          <li>The Console</li>
+        </ul>
+      </div>
+      <a id="full-screen" href="#"><i class="icon-fullscreen icon-large" title="Open in full screen"></i></a>
+    </header>
+
+    <aside data-spy="affix" data-offset-top="220">
+      <form>
+        <input type="text" placeholder="search...">
+        <button type="submit" class="btn">Search</button>
+        <ul id="search-content"></ul>
+      </form>
+
+      <div id="tree">
+        <ol><li class="nofade"><a href="/docs/" class="">Documentation</a></li><li class="nofade"><a href="/docs/bugs/" class="">Reporting Bugs</a></li><li class="nofade"><a href="/docs/account-needed/" class="">Do I need an account?</a></li><li class="nofade"><a href="/docs/public-private/" class="">Public and Private Projects</a></li><li><div class="nofade"><span>expand</span><a href="/docs/anon/">Anonymous Usage</a></div><ol><li class="nofade"><a href="/docs/anon/create/" class="">Creating/importing new project</a></li><li class="nofade"><a href="/docs/anon/viewing/" class="">Viewing anonymous Projects</a></li><li class="nofade"><a href="/docs/anon/editing/" class="">Editing anonymous Projects</a></li><li class="nofade"><a href="/docs/anon/forking/" class="">Forking anonymous Projects</a></li><li class="nofade"><a href="/docs/anon/running/" class="">Running anonymous Projects</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/docs/console/">The Console</a></div><ol><li class="nofade"><a href="/docs/console/accessing/" class="">Accessing your Projects</a></li><li class="nofade"><a href="/docs/console/accessing-others/" class="">Accessing other people's Projects</a></li><li class="nofade"><a href="/docs/console/creating/" class="">Creating and importing a project</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/docs/account-settings/">Account Settings</a></div><ol><li class="nofade"><a href="/docs/account-settings/profile/" class="">Profile</a></li><li class="nofade"><a href="/docs/account-settings/password/" class="">Password</a></li><li class="nofade"><a href="/docs/account-settings/teams/" class="">Teams</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/docs/ide/">The Codio IDE</a></div><ol><li class="nofade"><a href="/docs/ide/exiting/" class="">Exiting the IDE</a></li><li class="nofade"><a href="/docs/ide/editing/" class="">Editing a file</a></li><li class="nofade"><a href="/docs/ide/saving/" class="">Saving files</a></li><li class="nofade"><a href="/docs/ide/upload/" class="">Uploading files</a></li><li class="nofade"><a href="/docs/ide/add-file/" class="">Adding files</a></li><li class="nofade"><a href="/docs/ide/add-folder/" class="">Creating a folder</a></li><li class="nofade"><a href="/docs/ide/add-app/" class="">Creating an App</a></li><li class="nofade"><a href="/docs/ide/export/" class="">Exporting an App</a></li><li class="nofade"><a href="/docs/ide/running/" class="">Running your App</a></li><li class="nofade"><a href="/docs/ide/permissions/" class="">Permissions</a></li><li class="nofade"><a href="/docs/ide/settings/" class="">Settings</a></li></ol></li></ol>
+      </div>
+    </aside>
+
+    <article id="doc-body">
+      <h1>The Console</h1>
+      <p>When you sign into Codio, you are show the Console, which looks like this</p>
 
 <p>***** SS CONSOLE *****</p>
 
 <p>From here you can create and manage your projects.</p>
+
+
+      
+    </article>
+
+  </div>
+
+  
+
+  
+
 
     <footer>
   <section>
@@ -92,7 +133,13 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <!-- <script src="/js/vendor/protofluid.min-2ff1c5b1.js"></script> -->
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-2bcc5223.js"><\/script>')</script>
-<script src="../../js/main-7a1cb15f.js" type="text/javascript"></script>
+<script src="../../js/main-bb832f47.js" type="text/javascript"></script>
+    <script src="../../js/vendor/rainbow-2b7edd35.js" type="text/javascript"></script>
+<script src="../../js/vendor/rainbow/generic-6a91084e.js" type="text/javascript"></script>
+<script src="../../js/vendor/rainbow/javascript-5e0c6c6e.js" type="text/javascript"></script>
+    <script src="../../js/doc_search/base-461d2d41.js" type="text/javascript"></script>
+<script src="../../js/vendor/turbolinks-242986df.js" type="text/javascript"></script>
+  
   <script>
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-39233819-1']);

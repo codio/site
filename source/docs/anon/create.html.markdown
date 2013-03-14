@@ -8,7 +8,7 @@ You can use Codio in anonymous mode by clicking on the **Create and Play** butto
 
 ![Sitebar](docs/sitebar-site.png)
 
-When you click on it, you will see that you can immediately create a new project by importing or startiung from scratch.
+When you click on it, you will see that you can immediately create a new project by importing or starting from scratch.
 
 ![Anonymous create](docs/anon-create.png)
 

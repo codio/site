@@ -51,13 +51,13 @@
 
           <div class="blog-social clearfix">
             <div class="blog-twitter">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-via="codiohq" data-size="small" data-count="none">Tweet</a>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s<%= current_article.url %>" data-via="codiohq" data-size="small" data-count="none" data-text="<%= current_article.title %>">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
 
             <div class="blog-gplus">
               <!-- Place this tag where you want the +1 button to render. -->
-              <div class="g-plusone" data-size="medium" data-annotation="none" data="<%= current_article.url %>"></div>
+              <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s<%= current_article.url %>"></div>
 
               <!-- Place this tag after the last +1 button tag. -->
               <script type="text/javascript">
@@ -70,7 +70,7 @@
             </div>
 
             <div class="blog-facebook">
-              <div class="fb-like" data-send="false" data-width="400" data-show-faces="false"></div>
+              <div class="fb-like" data-href="https://codio.com/s<%= current_article.url %>" data-send="false" data-width="400" data-show-faces="false"></div>
             </div>
           </div>
 
@@ -82,13 +82,13 @@
 
           <div class="blog-social clearfix">
             <div class="blog-twitter">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-via="codiohq" data-size="small" data-count="none">Tweet</a>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s<%= current_article.url %>" data-via="codiohq" data-size="small" data-count="none" data-text="<%= current_article.title %>">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
 
             <div class="blog-gplus">
               <!-- Place this tag where you want the +1 button to render. -->
-              <div class="g-plusone" data-size="medium" data-annotation="none" data="<%= current_article.url %>"></div>
+              <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s<%= current_article.url %>"></div>
 
               <!-- Place this tag after the last +1 button tag. -->
               <script type="text/javascript">
@@ -101,7 +101,7 @@
             </div>
 
             <div class="blog-facebook">
-              <div class="fb-like" data-send="false" data-width="400" data-show-faces="false"></div>
+              <div class="fb-like" data-send="false" data-href="https://codio.com/s<%= current_article.url %>" data-width="400" data-show-faces="false"></div>
             </div>
           </div>
         </article>

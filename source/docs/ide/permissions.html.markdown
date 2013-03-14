@@ -22,7 +22,7 @@ Changing permissions allows you to give the following access permissions to User
 
 - **read** - view the project only
 - **write** - edit the project
-- **admin** - edit the project and make project levels settings changes (**Settings** {link} and **Permissions**)
+- **admin** - edit the project and make project levels settings changes ([Settings](/docs/ide-settings)  and **Permissions**)
 
 ## Adding/Removing a User
 To add a new User, start typing the user name in the text field. When you find the user, click Add and that User will be added to the list of users below.

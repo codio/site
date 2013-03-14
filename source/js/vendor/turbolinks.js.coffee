@@ -24,7 +24,7 @@ fetchReplacement = (url) ->
 
   xhr.onload = =>
     doc = createDocument xhr.responseText
-    debugger
+
     if assetsChanged doc
       document.location.href = url
     else
@@ -118,6 +118,11 @@ extractAssets = (doc) ->
   (node.src || node.href) for node in doc.head.childNodes when node.src or node.href
 
 assetsChanged = (doc)->
+  # Because the sitebar is loaded via RequireJS, it will never be returned in extractAssets. So we
+  # remove it if it exists in assets.
+  if assets[assets.length-1] == 'https://codio.com/sitebar.js'
+    do assets.pop
+
   intersection(extractAssets(doc), assets).length != assets.length
 
 intersection = (a, b) ->

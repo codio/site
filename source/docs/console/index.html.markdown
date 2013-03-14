@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-When you sign into Codio, you are show the Console
+When you sign into Codio, you are shown the Console
 
 ![Console](/img/docs/console-screen.png)
 

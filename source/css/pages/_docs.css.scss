@@ -5,7 +5,7 @@ body.docs {
 
   > nav {
     box-shadow: 0 1px 4px #ddd;
-
+font-size: 15px;
     #navigation li:last-child a {
       font-family: 'museo_sans_rounded_700regular';
     }
@@ -16,6 +16,7 @@ body.docs {
     }
   }
 
+  font-size: 18px;
 
   &.full-screen {
     > nav, > .main, > .sub, > footer {

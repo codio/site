@@ -6,5 +6,5 @@ full_width: true
 
 The Editor tab lets you modify the IDE code editor settings. This is best done with the project loaded in the IDE and a file opened. This way you can see the changes you are making as you make them.
 
-**** SS ****
+![Editor Settings](/img/docs/settings-editor.png)
 

@@ -4,11 +4,15 @@ class_name: docs
 full_width: true
 ---
 
-When you start Codio in anonymous mode, you will see the following screen 
+You can use Codio in anonymous mode by clicking on the **Create and Play** button at the top of the Codio website.
 
-************** INSERT SS ***********
+![Sitebar](/img/docs/sitebar-site.png)
 
-Click on **Create Project** and you will be able to see the full create/import dialog. Once you complete this step, you will be taken directly into the IDE.
+When you click on it, you will see that you can immediately create a new project by importing or startiung from scratch.
 
-If you want to start with a completely blank sheet, select **Create a plain HTML web app** and then you can remove any content you don't want.
+![Anonymous create](/img/docs/anon-create.png)
+
+
+Once you complete this step, you will be taken directly into the IDE.
+
 

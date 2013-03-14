@@ -6,4 +6,4 @@ full_width: true
 
 You can change your account password here.
 
-****** SS ********
+![Password Settings](/img/docs/settings-password.png)

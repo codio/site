@@ -6,9 +6,11 @@ full_width: true
 
 You modify permission by selectung **Permissions** from the **Project** dropdown menu.
 
+![Permissions Menu](/img/docs/permissions-menu.png)
+
 You will see the following screen
 
-******** SS ***********
+![Permissions Dialog](/img/docs/permissions-dlg.png)
 
 By default
 

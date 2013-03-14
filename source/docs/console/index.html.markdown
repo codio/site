@@ -4,9 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-When you sign into Codio, you are show the Console, which looks like this
+When you sign into Codio, you are show the Console
 
-***** SS CONSOLE *****
+![Console](/img/docs/console-screen.png)
 
 From here you can create and manage your projects.
 

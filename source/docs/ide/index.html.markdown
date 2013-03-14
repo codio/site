@@ -6,10 +6,7 @@ full_width: true
 
 This is where most of the action happens. The screenshot below shows you the key areas.
 
-***** IDE SS *******
-
-
-
+![IDE](/img/docs/ide-screen.png)
 
 1. Project Menu : click this to see all project specific actions
 1. Run Button : click to run the project

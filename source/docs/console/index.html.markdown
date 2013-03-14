@@ -6,7 +6,7 @@ full_width: true
 
 When you sign into Codio, you are show the Console
 
-![Console](/img/docs/console-screen.png)
+![Console](docs/console-screen.png)
 
 From here you can create and manage your projects.
 

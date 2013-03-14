@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Codio</title>
-  <subtitle>A Blog written by Codio - the perfect IDE people</subtitle>
+  <title>Code and Unload by Codio</title>
+  <subtitle>While we code we often have lots of ideas brewing around. Ideas we'd like to unload onto you</subtitle>
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>

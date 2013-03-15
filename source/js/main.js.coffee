@@ -40,7 +40,6 @@ $ ->
   $('#navigation a[href="/#features"]').on 'click', (e)->
     if goto = $('#nav-banner [href=#current-features]')
       navBannerClick.call $('#nav-banner [href=#current-features]')[0]
-      false
 
 
   # Try it link

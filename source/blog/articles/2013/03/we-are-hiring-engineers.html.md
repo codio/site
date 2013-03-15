@@ -2,7 +2,7 @@
 title: "We're Hiring Frontend Engineers"
 author: Joel Moss
 date: 2013-03-15
-tags: hiring, javascript, engineers
+tags: hiring, javascript, HTML5, CSS3, engineers
 class_name: blog
 full_width: true
 ---

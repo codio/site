@@ -117,6 +117,19 @@ img {
 }
 
 
+#hiring a {
+  position: absolute;
+  top: 14px;
+  text-indent: -9999px;
+  background: transparent image-url('hiring.gif') no-repeat;
+  width: 113px;
+  height: 63px;
+  margin-left: 290px;
+  display: block;
+  z-index: 9;
+}
+
+
 
 // Import partials
 @import 'partials/nav';

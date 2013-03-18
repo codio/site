@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You modify permission by selecting **Permissions** from the **Project** dropdown menu.
+You modify permissions by selecting **Permissions** from the **Project** dropdown menu.
 
 ![Permissions Menu](docs/permissions-menu.png)
 
@@ -14,15 +14,15 @@ You will see the following screen
 
 By default:
 
-- anyone can see a public project
-- no-one can edit a public project (but they can fork it)
-- no-one can see a private project
+- Anyone can see a public project
+- No-one can edit a public project (but they can fork it)
+- No-one can see a private project
 
 Changing permissions allows you to give the following access permissions to Users and/or Teams.
 
-- **read** - view the project only
-- **write** - edit the project
-- **admin** - edit the project and make project levels settings changes ([Settings](/docs/ide/settings)  and **Permissions**)
+- **Read** - View the project only
+- **Write** - Edit the project
+- **Admin** - Edit the project and make project levels settings changes ([Settings](/docs/ide/settings)  and **Permissions**)
 
 ## Adding/Removing a User
 To add a new User, start typing the user name in the text field. When you find the user, click Add and that User will be added to the list of users below.

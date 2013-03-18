@@ -25,12 +25,12 @@ Changing permissions allows you to give the following access permissions to User
 - **Admin** - Edit the project and make project levels settings changes ([Settings](/docs/ide/settings)  and **Permissions**)
 
 ## Adding/Removing a User
-To add a new User, start typing the user name in the text field. When you find the user, click Add and that User will be added to the list of users below.
+To add a new user, start typing the user name in the text field. When you find the user, click Add and that user will be added to the list of users below.
 
-You can remove a User from the list by clicking the 'x' button.
+You can remove a user from the list by clicking the 'x' button.
 
 ## Adding/Removing a Team
-All Teams are listed in the dropdown box. Find the Team you want to add, then click **Add**. You can edit the permissions for that team before or after pressing **Add**. will be added to the list of users below.
+All teams are listed in the dropdown box. Find the team you want to add, then click **Add**. You can edit the permissions for that team before or after pressing **Add**. The team will be added to the list of users below.
 
-You can remove a Team from the list by clicking the 'x' button.
+You can remove a team from the list by clicking the 'x' button.
 

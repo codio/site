@@ -307,7 +307,7 @@ body.blog {
 
       h1 {
         font: 28px gotham_bookregular;
-        margin-bottom: 50px;
+        margin: 40px 0px 20px 0px;
 
         @include apply-to(less-than, ipad-portrait) {
           text-align: center;
@@ -315,11 +315,13 @@ body.blog {
       }
 
       h2 {
-        margin: 1.6em 0 0.83em;
+        font: 22px gotham_bookregular;
+        margin: 40px 0px 15px 0px;
       }
 
       h3 {
-        margin: 1.8em 0 1em;
+        font: 18px gotham_bookregular;
+        margin: 40px 0px 15px 0px;
       }
 
       blockquote {

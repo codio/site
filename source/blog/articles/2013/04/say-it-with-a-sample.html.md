@@ -7,7 +7,7 @@ class_name: blog
 full_width: true
 ---
 
-While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform for helping people teach and explain code in any programming language and at any skill level, not just beginners. It lends itself perfectly to 
+While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform for helping people teach and explain code in any programming language and at any skill level, not just beginners. It lends itself perfectly to
 
 - novice development tutorials
 - API samples and explanations
@@ -19,16 +19,16 @@ While we were building the Codio IDE, we suddenly realized that we have in our h
 We will offer this as a completely free platform, which will cost real money a) to add the Annotation features and b) to provide the infrastructure. Read on to see how Codio:Annotations will work then <a href="#support">click here</a> to see how you can support our efforts.
 
 ##Video Overview
-If you prefer a video run-through of Codio's annotation features, <a href="http://youtu.be/ypR9CUG1Tjo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe">click here.</a>
+If you prefer a video run-through of Codio's annotation features, [click here](http://www.youtube.com/v/ypR9CUG1Tjo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&).
 
 ##What's missing from most tutorials
 We all know what most tutorials look like. It doesn't matter if it is a tutorial for a complete newbie or something that is explaining a complex framework, API or library.
 
-Below is an example of a high quality tutorial from webplatform.org, which you can scroll through. 
+Below is an example of a high quality tutorial from webplatform.org, which you can scroll through.
 
 <iframe style="width:700px; height:400px" src="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html"></iframe>
 
-It is very well written indeed, but there is a lot to digest here, and this is usually the case with web and video tutorials. 
+It is very well written indeed, but there is a lot to digest here, and this is usually the case with web and video tutorials.
 
 When I am learning about a something new, there are two things I always yearn for
 
@@ -41,9 +41,9 @@ When I am learning about a something new, there are two things I always yearn fo
 So, let's see how Codio can change the approach to the same tutorial
 
 ##Better - Step 1
-You can load any development project already today. Just include a link (<a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank">try clicking here</a>) from within your page or use a Codio widget to go to the project. Try it out and see what it feels like. 
+You can load any development project already today. Just include a link (<a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank">try clicking here</a>) from within your page or use a Codio widget to go to the project. Try it out and see what it feels like.
 
-<a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank"><img src="/img/blog/codio-widget.png"></a> 
+<a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank"><img src="/img/blog/codio-widget.png"></a>
 
 ##Better - Step 2
 But there are lots of sitations where I want to make things even more seamless and avoid having to leave the tutorial page. You can embed the Codio IDE straight into your web page as shown below. It's a simple project, but have a quick explore ...
@@ -76,7 +76,7 @@ If I want to, I can put the entire tutorial itself into the project and then get
 ![Example Annotation](/img/blog/exp-scroll-1.png)
 
 ##Better - Step 5
-The final piece in the jigsaw is also really important - how to find great tutorials. We will build a curated area where each tutorial can be posted. Anyone who has built one can 
+The final piece in the jigsaw is also really important - how to find great tutorials. We will build a curated area where each tutorial can be posted. Anyone who has built one can
 
 - add tags
 - post it to a language area

@@ -90,6 +90,10 @@ $ ->
   # Set syntax highlighting language to javascript by default.
   $('body.blog section.posts article pre > code').addClass 'lang-javascript'
 
+  # Handle video links so they open in fancybox
+  if (videos = $("body.blog section.posts article a[href*='youtube']")).length > 0
+    videos.addClass 'fancybox fancybox.iframe'
+
 
 
 # Tree

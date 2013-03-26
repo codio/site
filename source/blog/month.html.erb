@@ -30,29 +30,17 @@ pageable: true
     <% page_articles.each do |article| %>
 
       <article>
+        <h1><%= link_to article.title, article %></h1>
+
         <section class="meta">
           <p class="date">
             <%= link_to article.date.strftime('%B %e, %Y'), article %>
             <% if article.data.author %>
               <span class="author">by <%= link_to_author article.data.author %></span>
             <% end %>
-          </p>
-
-          <% unless article.tags.empty? %>
-            <p class="tagged">Tagged:</p>
-            <ul class="tags">
-              <% article.tags.each do |tag| %>
-                <li><%= tag %></li>
-              <% end %>
-            </ul>
-          <% end %>
-
-          <p class="comments">
             <%= link_to 'Comments', "#{article.url}#disqus_thread", :class => "dsq-comment-count" %>
           </p>
         </section>
-
-        <h1><%= link_to article.title, article %></h1>
 
         <div class="blog-social clearfix">
           <div class="blog-twitter">
@@ -128,7 +116,6 @@ pageable: true
 
   <aside>
     <section class="all-posts">
-      <h4><%= link_to 'all posts &raquo;', '/blog/all' %></h4>
       <h5><a href="https://codio.com/s/blog/feed.xml" target="_blank"><%= image_tag 'feed-icon.png', :size => '14x14' %>Subscribe</a></h5>
     </section>
 
@@ -148,6 +135,10 @@ pageable: true
           <li><%= link_to post.title, post %></li>
         <% end %>
       </ul>
+    </section>
+
+    <section class="all-posts">
+      <h4><%= link_to 'all posts &raquo;', '/blog/all' %></h4>
     </section>
 
     <div style="margin:35px 0 0 25px;">

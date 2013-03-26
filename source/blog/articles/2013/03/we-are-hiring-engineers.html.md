@@ -15,7 +15,7 @@ You are also our target market for the product itself, which makes it an extreme
 
 We want someone who is free thinking, passionate and has a love of what they do. If you find yourself still hacking away at 4am without realising the time, then you're the kind of person we want.
 
-### What we want from you:
+## What we want from you:
  - 3+ years professional experience.
  - Experience and knowledge of Javascript (including jQuery), HTML5 and CSS3.
  - Recognition of the benefits of test driven development and well tested code.
@@ -25,7 +25,7 @@ We want someone who is free thinking, passionate and has a love of what they do.
  - Work well in a team and on your own.
  - A love of open source software.
 
-### You'll be at an advantage if you also:
+## You'll be at an advantage if you also:
  - Have an eye for good design, and experience with Photoshop.
  - Enjoy writing, blogging and speaking at tech conferences.
  - Have experience with Java.
@@ -33,7 +33,7 @@ We want someone who is free thinking, passionate and has a love of what they do.
 
 We're a distributed team with our HQ in the UK, so you will be able to work from anywhere you please. We would prefer if you were UK or European based, but if you're really good, we don't care where you are.
 
-### To Apply
+## To Apply
 Drop us an email at [work@codio.com](mailto:work@codio.com) telling us why we should hire you, along with your resume/CV if you have one. Although we'd be much more interested in your Github profile, which speaks volumes about you and what you are capable of.
 
 If you have any questions, please let me know in the blog comments.

@@ -12,13 +12,13 @@ Grunt is an extremely useful tool that any self-respecting front-end developer s
 
 As part of last Friday's [weekly hack day](/blog/2013/03/our-twenty-percent-time/), I spent the day upgrading our Grunt installation and our custom tasks to the latest 0.4 version. So I thought I'd write a short article on what Grunt is and how we use it at Codio.
 
-### What is Grunt?
+## What is Grunt?
 
 It's a Javascript task runner, which simply means you can use it to automate your most mundane and common development and build tasks. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes.
 
 Since version 0.4, Grunt has really matured and come out of its shell, and now boasts a large ecosystem of plugins that can help you automate pretty much anything you want. And if you don't find a plugin that does what you want, it's extremely easy to write one yourself.
 
-### How to install Grunt?
+## How to install Grunt?
 
 Grunt runs on [NodeJS](http://nodejs.org/), and is installed and managed via [NPM](https://npmjs.org/). So if you haven't already, make sure you have both those installed.
 
@@ -28,7 +28,7 @@ To install Grunt, just use NPM:
 
 This will give you a handy little `grunt` command, which you will use to run your Grunt tasks.
 
-### Preparing your Project for Grunt
+## Preparing your Project for Grunt
 
 A typical setup will require two files:
 
@@ -93,7 +93,7 @@ Then finally on __line 17__, we create a new `default` task, which is simply an 
     grunt default
     grunt
 
-### Summary
+## Summary
 
 Grunt has a great ecosystem of open source plugins, and a place to [find and search for the plugin you want](http://gruntjs.com/plugins). I strongly recommend that you take a look through them.
 

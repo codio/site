@@ -10,7 +10,7 @@ published: false
 
 [Last week](/blog/2013/15/collaboration-in-coding) I spoke about what collaboration is, and why it is so important to us all. Today I will take that further with the first in a series of posts introducing the collaborative features of **Codio**.
 
-### People like sharing!
+## People like sharing!
 
 Which is why, in Codio, you will be able to create as many public projects as you like, and every project is either public or private.
 

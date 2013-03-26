@@ -7,24 +7,29 @@ class_name: blog
 full_width: true
 ---
 
-While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform for helping people teach and explain code in any programming language and at any skill level, not just beginners. It lends itself perfectly to
+While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for
 
-- novice development tutorials
+- development tutorials (any skill level)
 - API samples and explanations
 - Developer documentation samples and tutorials
 - Documenting and explaining advanced frameworks, libraries etc.
 - Example code projects of any sort and any level
 
-##Please support us
-We will offer this as a completely free platform, which will cost real money a) to add the Annotation features and b) to provide the infrastructure. Read on to see how Codio:Annotations will work then <a href="#support">click here</a> to see how you can support our efforts.
+##Tell us what you think
+We will offer this as a completely free platform, but it will require real effort a) to add the Annotation features and b) to provide the infrastructure. It is really important to us to know that people are behind our efforts.
+
+So if you like what you see, <a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank">tweet about us</a>, <a href="http://www.facebook.com/CodioHQ" target="_blank">like us on Facebook</a> or just leave a comment at the bottom of this page. The more support we get for this, the more we'll throw at it.
+
+##Getting behind Education
+One of our real hopes is that Codio provides a new way for schools, univiersities and other programming courses to teach, based on working real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real Web IDE for free, we hope to clear away a few obstacles.
 
 ##Video Overview
-If you prefer a video run-through of Codio's annotation features, [click here](http://www.youtube.com/v/ypR9CUG1Tjo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&).
+This post describes things step by step, but if you prefer a video run-through, [click here](http://www.youtube.com/v/ypR9CUG1Tjo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&).
 
 ##What's missing from most tutorials
 We all know what most tutorials look like. It doesn't matter if it is a tutorial for a complete newbie or something that is explaining a complex framework, API or library.
 
-Below is an example of a high quality tutorial from webplatform.org, which you can scroll through.
+Below is an example of a high quality tutorial from webplatform.org, which you can scroll through or you can <a href="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html" target="_blank">open the full page</a>.
 
 <iframe style="width:700px; height:400px" src="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html"></iframe>
 

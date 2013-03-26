@@ -5,10 +5,10 @@ body.blog {
   }
 
   article > .blog-social {
-    margin: 0;
+    margin: 0 0 40px;
 
     &:last-child {
-      margin-top: 70px;
+      margin: 70px 0 0 0;
     }
 
     > div {
@@ -140,15 +140,13 @@ body.blog {
         border: none;
 
         h3 {
-          margin: 0;
+          margin: 0 0 0 150px;
           font-size: 16px;
         }
 
         .meta {
-          @include apply-to(more-than, ipad-portrait) {
-            top: 2px;
-            width: 120px;
-          }
+          width: 120px;
+          float: left;
 
           p.date {
             text-align: left;
@@ -172,11 +170,6 @@ body.blog {
     > .pagination {
       margin: 20px 20px 60px;
 
-      @include apply-to(more-than, ipad-portrait) {
-        margin: 0 0 60px 0;
-        padding: 0 0 0 170px;
-      }
-
       p {
         width: 120px;
         float: left;
@@ -190,12 +183,6 @@ body.blog {
       border-bottom: 3px solid #ccc;
       padding-bottom: 15px;
 
-      @include apply-to(more-than, ipad-portrait) {
-        margin: 0 0 100px 0;
-        padding: 0 0 45px 170px;
-        position: relative;
-      }
-
       img:not(.fancybox-image) {
         vertical-align: middle;
         display: inline-block;
@@ -208,7 +195,8 @@ body.blog {
         height: inherit;
 
         &.blog-img {
-          max-width: 200px;
+          max-width: 240px;
+          margin: 0 44px 40px 0;
         }
       }
 
@@ -221,25 +209,12 @@ body.blog {
       }
 
       .meta {
-        text-align: center;
-
-        @include apply-to(more-than, ipad-portrait) {
-          left: 10px;
-          text-align: left;
-          position: absolute;
-          top: 18px;
-          width: 145px;
-        }
 
         p.tagged {
           display: block;
           font: 14px gotham_bookregular;
           margin: 0 0 10px 0;
           text-transform: uppercase;
-
-          @include apply-to(less-than, ipad-portrait) {
-            display: none;
-          }
         }
 
         ul.tags {
@@ -248,10 +223,6 @@ body.blog {
           margin: 0 0 36px 0;
           padding: 0 0 0 2px;
           list-style: none;
-
-          @include apply-to(less-than, ipad-portrait) {
-            display: none;
-          }
 
           li {
             font-size: 12px;
@@ -274,16 +245,7 @@ body.blog {
         }
 
         p.date {
-          border-bottom: 1px solid #ccc;
-          font-size: 14px;
-          margin: 0 auto 20px auto;
-          padding-bottom: 15px;
-          width: 50%;
-
-          @include apply-to(more-than, ipad-portrait) {
-            border: none;
-            width: 100%;
-          }
+          font-size: 12px;
 
           a {
             color: #aaa;
@@ -291,7 +253,6 @@ body.blog {
           }
 
           span.author {
-            display: block;
             color: #AAA;
           }
         }
@@ -307,7 +268,7 @@ body.blog {
 
       h1 {
         font: 28px gotham_bookregular;
-        margin-bottom: 50px;
+        margin-bottom: 5px;
 
         @include apply-to(less-than, ipad-portrait) {
           text-align: center;
@@ -316,10 +277,12 @@ body.blog {
 
       h2 {
         margin: 1.6em 0 0.83em;
+        font-family: gotham_mediumregular;
       }
 
       h3 {
-        margin: 1.8em 0 1em;
+        margin: 2.5em 0 1em;
+        font-family: gotham_mediumregular;
       }
 
       blockquote {
@@ -334,20 +297,6 @@ body.blog {
           font-size: 14px;
           color: #000;
         }
-
-        // &:before{
-        //   content: '\201C';
-        //   font-family: serif;
-        //   font-style: normal;
-        //   font-weight: 700;
-        //   position: absolute;
-        //   font-size: 175px;
-        //   top: 40px;
-        //   left: 175px;
-        //   color: #f36050;
-        //   opacity: 0.3;
-        //   text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
-        // }
       }
     }
   }

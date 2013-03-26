@@ -8,7 +8,7 @@ pre {
     border: 1px solid #ccc;
     word-wrap: break-word;
     line-height: 19px;
-    margin: 25px 0;
+    margin: 25px 0 25px 20px;
 }
 
 code {

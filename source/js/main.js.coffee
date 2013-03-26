@@ -84,9 +84,6 @@ $ ->
   if (images = $('body.blog section.posts article img')).length > 0
     images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
 
-  if (images = $("body.blog section.posts article img[align='left']")).length > 0
-    images.css 'margin', '20px 25px 15px 0'
-
   # Set syntax highlighting language to javascript by default.
   $('body.blog section.posts article pre > code').addClass 'lang-javascript'
 

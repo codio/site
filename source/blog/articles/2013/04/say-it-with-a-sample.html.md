@@ -5,6 +5,7 @@ date: 2013-04-29
 tags: tutorials, programming, development, coding, teaching, learning
 class_name: blog
 full_width: true
+published: false
 ---
 
 While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for
@@ -21,7 +22,7 @@ We will offer this as a completely free platform, but it will require real effor
 So if you like what you see, <a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank">tweet about us</a>, <a href="http://www.facebook.com/CodioHQ" target="_blank">like us on Facebook</a> or just leave a comment at the bottom of this page. The more support we get for this, the more we'll throw at it.
 
 ##Getting behind Education
-One of our real hopes is that Codio provides a new way for schools, univiersities and other programming courses to teach, based on working real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real Web IDE for free, we hope to clear away a few obstacles.
+One of our real hopes is that Codio provides a new way for schools, universities and other programming courses to teach, based on working real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real Web IDE for free, we hope to clear away a few obstacles.
 
 ##Video Overview
 This post describes things step by step, but if you prefer a video run-through, [click here](http://www.youtube.com/v/ypR9CUG1Tjo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&).
@@ -42,7 +43,7 @@ When I am learning about a something new, there are two things I always yearn fo
 
 ... and this is exactly what Codio:Annotations offers.
 
-#The same tutorial run in Codio
+##The same tutorial run in Codio
 So, let's see how Codio can change the approach to the same tutorial
 
 ##Better - Step 1
@@ -110,7 +111,7 @@ And this one shows how you construct the annotations file. This provides both gu
 ![Example Annotation](/img/blog/ks-annotation-file.png)
 
 <a name="support"></a>
-#Please support us
+##Please support us
 If you agree that Codio is a force for good whether in Education or for professional development, then doing any of the following will really help us know we are pointed in the right direction
 
 - <a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank">Tweet your support</a>

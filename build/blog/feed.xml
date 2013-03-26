@@ -18,20 +18,20 @@
     <author>
       <name>Joel Moss</name>
     </author>
-    <summary type="html">&lt;p&gt;Grunt is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt; is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.&lt;/p&gt;
 
 &lt;p&gt;As part of last Friday's...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Grunt is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt; is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.&lt;/p&gt;
 
 &lt;p&gt;As part of last Friday&amp;#39;s &lt;a href="/s/blog/2013/03/our-twenty-percent-time/"&gt;weekly hack day&lt;/a&gt;, I spent the day upgrading our Grunt installation and our custom tasks to the latest 0.4 version. So I thought I&amp;#39;d write a short article on what Grunt is and how we use it at Codio.&lt;/p&gt;
 
-&lt;h3 id="toc_0"&gt;What is Grunt?&lt;/h3&gt;
+&lt;h2 id="toc_0"&gt;What is Grunt?&lt;/h2&gt;
 
 &lt;p&gt;It&amp;#39;s a Javascript task runner, which simply means you can use it to automate your most mundane and common development and build tasks. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes.&lt;/p&gt;
 
 &lt;p&gt;Since version 0.4, Grunt has really matured and come out of its shell, and now boasts a large ecosystem of plugins that can help you automate pretty much anything you want. And if you don&amp;#39;t find a plugin that does what you want, it&amp;#39;s extremely easy to write one yourself.&lt;/p&gt;
 
-&lt;h3 id="toc_1"&gt;How to install Grunt?&lt;/h3&gt;
+&lt;h2 id="toc_1"&gt;How to install Grunt?&lt;/h2&gt;
 
 &lt;p&gt;Grunt runs on &lt;a href="http://nodejs.org/"&gt;NodeJS&lt;/a&gt;, and is installed and managed via &lt;a href="https://npmjs.org/"&gt;NPM&lt;/a&gt;. So if you haven&amp;#39;t already, make sure you have both those installed.&lt;/p&gt;
 
@@ -42,7 +42,7 @@
 
 &lt;p&gt;This will give you a handy little &lt;code&gt;grunt&lt;/code&gt; command, which you will use to run your Grunt tasks.&lt;/p&gt;
 
-&lt;h3 id="toc_2"&gt;Preparing your Project for Grunt&lt;/h3&gt;
+&lt;h2 id="toc_2"&gt;Preparing your Project for Grunt&lt;/h2&gt;
 
 &lt;p&gt;A typical setup will require two files:&lt;/p&gt;
 
@@ -114,7 +114,7 @@ grunt default
 grunt
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id="toc_3"&gt;Summary&lt;/h3&gt;
+&lt;h2 id="toc_3"&gt;Summary&lt;/h2&gt;
 
 &lt;p&gt;Grunt has a great ecosystem of open source plugins, and a place to &lt;a href="http://gruntjs.com/plugins"&gt;find and search for the plugin you want&lt;/a&gt;. I strongly recommend that you take a look through them.&lt;/p&gt;
 
@@ -207,7 +207,7 @@ grunt
 
 &lt;p&gt;We want someone who is free thinking, passionate and has a love of what they do. If you find yourself still hacking away at 4am without realising the time, then you&amp;#39;re the kind of person we want.&lt;/p&gt;
 
-&lt;h3 id="toc_0"&gt;What we want from you:&lt;/h3&gt;
+&lt;h2 id="toc_0"&gt;What we want from you:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;3+ years professional experience.&lt;/li&gt;
@@ -220,7 +220,7 @@ grunt
 &lt;li&gt;A love of open source software.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id="toc_1"&gt;You&amp;#39;ll be at an advantage if you also:&lt;/h3&gt;
+&lt;h2 id="toc_1"&gt;You&amp;#39;ll be at an advantage if you also:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Have an eye for good design, and experience with Photoshop.&lt;/li&gt;
@@ -231,7 +231,7 @@ grunt
 
 &lt;p&gt;We&amp;#39;re a distributed team with our HQ in the UK, so you will be able to work from anywhere you please. We would prefer if you were UK or European based, but if you&amp;#39;re really good, we don&amp;#39;t care where you are.&lt;/p&gt;
 
-&lt;h3 id="toc_2"&gt;To Apply&lt;/h3&gt;
+&lt;h2 id="toc_2"&gt;To Apply&lt;/h2&gt;
 
 &lt;p&gt;Drop us an email at &lt;a href="mailto:work@codio.com"&gt;work@codio.com&lt;/a&gt; telling us why we should hire you, along with your resume/CV if you have one. Although we&amp;#39;d be much more interested in your Github profile, which speaks volumes about you and what you are capable of.&lt;/p&gt;
 

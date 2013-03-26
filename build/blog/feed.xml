@@ -5,10 +5,122 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-03-21T00:00:00Z</updated>
+  <updated>2013-03-26T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Building with Grunt</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/03/building-with-grunt/"/>
+    <id>https://codio.com/s/blog/2013/03/building-with-grunt/</id>
+    <published>2013-03-26T00:00:00Z</published>
+    <updated>2013-03-26T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Grunt is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.&lt;/p&gt;
+
+&lt;p&gt;As part of last Friday's...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Grunt is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.&lt;/p&gt;
+
+&lt;p&gt;As part of last Friday&amp;#39;s &lt;a href="/s/blog/2013/03/our-twenty-percent-time/"&gt;weekly hack day&lt;/a&gt;, I spent the day upgrading our Grunt installation and our custom tasks to the latest 0.4 version. So I thought I&amp;#39;d write a short article on what Grunt is and how we use it at Codio.&lt;/p&gt;
+
+&lt;h3 id="toc_0"&gt;What is Grunt?&lt;/h3&gt;
+
+&lt;p&gt;It&amp;#39;s a Javascript task runner, which simply means you can use it to automate your most mundane and common development and build tasks. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes.&lt;/p&gt;
+
+&lt;p&gt;Since version 0.4, Grunt has really matured and come out of its shell, and now boasts a large ecosystem of plugins that can help you automate pretty much anything you want. And if you don&amp;#39;t find a plugin that does what you want, it&amp;#39;s extremely easy to write one yourself.&lt;/p&gt;
+
+&lt;h3 id="toc_1"&gt;How to install Grunt?&lt;/h3&gt;
+
+&lt;p&gt;Grunt runs on &lt;a href="http://nodejs.org/"&gt;NodeJS&lt;/a&gt;, and is installed and managed via &lt;a href="https://npmjs.org/"&gt;NPM&lt;/a&gt;. So if you haven&amp;#39;t already, make sure you have both those installed.&lt;/p&gt;
+
+&lt;p&gt;To install Grunt, just use NPM:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install -g grunt-cli
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will give you a handy little &lt;code&gt;grunt&lt;/code&gt; command, which you will use to run your Grunt tasks.&lt;/p&gt;
+
+&lt;h3 id="toc_2"&gt;Preparing your Project for Grunt&lt;/h3&gt;
+
+&lt;p&gt;A typical setup will require two files:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;package.json&lt;/strong&gt; - This file is used by NPM to manage your projects dependencies, and is also used by Grunt to manage its dependencies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gruntfile.js&lt;/strong&gt; - This is where you define and configure your tasks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Create a new file in the root of your project called &lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;name&amp;quot;: &amp;quot;my-project-name&amp;quot;,
+  &amp;quot;version&amp;quot;: &amp;quot;0.1.0&amp;quot;,
+  &amp;quot;devDependencies&amp;quot;: {
+    &amp;quot;grunt&amp;quot;: &amp;quot;~0.4.1&amp;quot;,
+    &amp;quot;grunt-contrib-uglify&amp;quot;: &amp;quot;~0.2.0&amp;quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This tells NPM that we depend on the &lt;code&gt;grunt&lt;/code&gt; and &lt;code&gt;grunt-contrib-uglify&lt;/code&gt; packages. Running the following will install these dependencies:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now create your &lt;code&gt;Gruntfile.js&lt;/code&gt;, which also belongs in the root of your project alongside &lt;code&gt;package.json&lt;/code&gt;. Fill the file with the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;module.exports = function(grunt) {
+
+  // Project configuration.
+  grunt.initConfig({
+    uglify: {
+      build: {
+        src: &amp;#39;src/script.js&amp;#39;,
+        dest: &amp;#39;build/script.min.js&amp;#39;
+      }
+    }
+  });
+
+  // Load the plugin that provides the &amp;quot;uglify&amp;quot; task.
+  grunt.loadNpmTasks(&amp;#39;grunt-contrib-uglify&amp;#39;);
+
+  // Default task(s).
+  grunt.registerTask(&amp;#39;default&amp;#39;, [&amp;#39;uglify&amp;#39;]);
+
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lets run through this file from top to bottom...&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Line 4&lt;/strong&gt; is where we set define our configuration for the tasks we want to use. Each top level element defines a task. In our example, we have just one task &lt;code&gt;uglify&lt;/code&gt;, which simply takes the value of &lt;code&gt;build.src&lt;/code&gt;, runs it through the Uglify lib and places its output in a new file as specified with the value of &lt;code&gt;buil.dest&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;grunt.initConfig({
+  uglify: {
+    build: {
+      src: &amp;#39;src/script.js&amp;#39;,
+      dest: &amp;#39;build/script.min.js&amp;#39;
+    }
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Line 14&lt;/strong&gt; tells Grunt to load the &lt;code&gt;grunt-contrib-uglify&lt;/code&gt; task from the NPM package specified in our &lt;code&gt;package.json&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then finally on &lt;strong&gt;line 17&lt;/strong&gt;, we create a new &lt;code&gt;default&lt;/code&gt; task, which is simply an alias for the &lt;code&gt;uglify&lt;/code&gt; task. The &lt;code&gt;default&lt;/code&gt; task will be run if you don&amp;#39;t specify any task on the command line. So the following three commands are now identical:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;grunt uglify
+grunt default
+grunt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="toc_3"&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Grunt has a great ecosystem of open source plugins, and a place to &lt;a href="http://gruntjs.com/plugins"&gt;find and search for the plugin you want&lt;/a&gt;. I strongly recommend that you take a look through them.&lt;/p&gt;
+
+&lt;p&gt;Hopefully from this simple example, you can see how easy and powerful Grunt can be. It&amp;#39;s also worth noting that we have plans to implement a similar task based system directly into Codio. So watch this space!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Our 20% Time</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/03/our-twenty-percent-time/"/>
@@ -32,6 +144,47 @@
 &lt;p&gt;It&amp;#39;s also a great excuse to be free from the daily constraints of picking and working on tickets.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#39;ll be sure to let you all know how it goes.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Collaboration in Coding</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/03/collaboration-in-coding/"/>
+    <id>https://codio.com/s/blog/2013/03/collaboration-in-coding/</id>
+    <published>2013-03-15T00:00:00Z</published>
+    <updated>2013-03-15T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;As you should already know by now, we &lt;a href="/s/blog/2013/03/codio-is-live-and-kicking/"&gt;launched&lt;/a&gt; Codio into public beta yesterday. It's an all new cloud based IDE, and it will be the very first cloud based IDE that every developer will love to use, day in and day out.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“We live not in a passive society...&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    <content type="html">&lt;p&gt;As you should already know by now, we &lt;a href="/s/blog/2013/03/codio-is-live-and-kicking/"&gt;launched&lt;/a&gt; Codio into public beta yesterday. It&amp;#39;s an all new cloud based IDE, and it will be the very first cloud based IDE that every developer will love to use, day in and day out.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“We live not in a passive society, a read-only society, but in a writable society.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Collaboration is the very first thing we thought about when we first sat down to plan Codio, and has continued to be at the very heart of almost everything we are building since.&lt;/p&gt;
+
+&lt;p&gt;Collaboration is arguably the single biggest advantage when using software in the browser, because the browser is constantly connected via the internet, and because the browser is now the most used application on almost any device. Collaboration is also hugely important when writing software and especially when building for the web. It empowers us to do more, while remaining in the [virtual] company of our friends and colleague&amp;#39;s.&lt;/p&gt;
+
+&lt;p&gt;The cost of collaborating between you and others when using the browser and the internet are zero. Email, Twitter, Skype - these are all free to use, and they are all about collaboration.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;It is the long history of humankind (and animal kind, too) those who learned to collaborate and improvise most effectively have prevailed.&amp;quot; - Charles Darwin&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ah, but now I hear a few of you asking the question &amp;quot;&lt;strong&gt;what if I don&amp;#39;t have anyone to collaborate with?&lt;/strong&gt;&amp;quot;. The answer to that is easy and simple... &lt;strong&gt;you do!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The world is full of like-minded people just like you. People who love building web apps, designing web sites, or creating mobile applications. And they all have something to share, even you! And whether you realise it or not, you co-ordinate and collaborate every single day, with people you have never met or spoken to before. No matter what accomplishments you make, odds are somebody helped you along the way.&lt;/p&gt;
+
+&lt;p&gt;The largest sites are essentially all about encouraging collaboration and making it easier for us to co-ordinate with each other. Sites and apps like Facebook, Twitter, Gmail, Wikipedia, Github, Basecamp, and now Codio are leading the way here.&lt;/p&gt;
+
+&lt;p&gt;Collaboration is &lt;em&gt;extremely&lt;/em&gt; powerful, and we think you&amp;#39;ll love what you can already do with Codio. If you &lt;a href="https://twitter.com/codiohq"&gt;follow us on Twitter&lt;/a&gt; we&amp;#39;ll let you know every time we increase our levels of collaboration within Codio, because we have loads more planned.&lt;/p&gt;
+
+&lt;p&gt;Over the next few posts, I will be detailing just how Codio can help improve collaboration for you and your team.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -83,47 +236,6 @@
 &lt;p&gt;Drop us an email at &lt;a href="mailto:work@codio.com"&gt;work@codio.com&lt;/a&gt; telling us why we should hire you, along with your resume/CV if you have one. Although we&amp;#39;d be much more interested in your Github profile, which speaks volumes about you and what you are capable of.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions, please let me know in the blog comments.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Collaboration in Coding</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/03/collaboration-in-coding/"/>
-    <id>https://codio.com/s/blog/2013/03/collaboration-in-coding/</id>
-    <published>2013-03-15T00:00:00Z</published>
-    <updated>2013-03-15T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;As you should already know by now, we &lt;a href="/s/blog/2013/03/codio-is-live-and-kicking/"&gt;launched&lt;/a&gt; Codio into public beta yesterday. It's an all new cloud based IDE, and it will be the very first cloud based IDE that every developer will love to use, day in and day out.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“We live not in a passive society...&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    <content type="html">&lt;p&gt;As you should already know by now, we &lt;a href="/s/blog/2013/03/codio-is-live-and-kicking/"&gt;launched&lt;/a&gt; Codio into public beta yesterday. It&amp;#39;s an all new cloud based IDE, and it will be the very first cloud based IDE that every developer will love to use, day in and day out.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“We live not in a passive society, a read-only society, but in a writable society.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Collaboration is the very first thing we thought about when we first sat down to plan Codio, and has continued to be at the very heart of almost everything we are building since.&lt;/p&gt;
-
-&lt;p&gt;Collaboration is arguably the single biggest advantage when using software in the browser, because the browser is constantly connected via the internet, and because the browser is now the most used application on almost any device. Collaboration is also hugely important when writing software and especially when building for the web. It empowers us to do more, while remaining in the [virtual] company of our friends and colleague&amp;#39;s.&lt;/p&gt;
-
-&lt;p&gt;The cost of collaborating between you and others when using the browser and the internet are zero. Email, Twitter, Skype - these are all free to use, and they are all about collaboration.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;quot;It is the long history of humankind (and animal kind, too) those who learned to collaborate and improvise most effectively have prevailed.&amp;quot; - Charles Darwin&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ah, but now I hear a few of you asking the question &amp;quot;&lt;strong&gt;what if I don&amp;#39;t have anyone to collaborate with?&lt;/strong&gt;&amp;quot;. The answer to that is easy and simple... &lt;strong&gt;you do!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The world is full of like-minded people just like you. People who love building web apps, designing web sites, or creating mobile applications. And they all have something to share, even you! And whether you realise it or not, you co-ordinate and collaborate every single day, with people you have never met or spoken to before. No matter what accomplishments you make, odds are somebody helped you along the way.&lt;/p&gt;
-
-&lt;p&gt;The largest sites are essentially all about encouraging collaboration and making it easier for us to co-ordinate with each other. Sites and apps like Facebook, Twitter, Gmail, Wikipedia, Github, Basecamp, and now Codio are leading the way here.&lt;/p&gt;
-
-&lt;p&gt;Collaboration is &lt;em&gt;extremely&lt;/em&gt; powerful, and we think you&amp;#39;ll love what you can already do with Codio. If you &lt;a href="https://twitter.com/codiohq"&gt;follow us on Twitter&lt;/a&gt; we&amp;#39;ll let you know every time we increase our levels of collaboration within Codio, because we have loads more planned.&lt;/p&gt;
-
-&lt;p&gt;Over the next few posts, I will be detailing just how Codio can help improve collaboration for you and your team.&lt;/p&gt;
 </content>
   </entry>
   <entry>

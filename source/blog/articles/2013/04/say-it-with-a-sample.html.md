@@ -19,10 +19,7 @@ While we were building the Codio IDE, we suddenly realized that we have in our h
 We will offer this as a completely free platform, which will cost real money a) to add the Annotation features and b) to provide the infrastructure. Read on to see how Codio:Annotations will work then <a href="#support">click here</a> to see how you can support our efforts.
 
 ##Video Overview
-If you prefer a video run-through of Codio's annotation features, click here 
-
-![Video](http://youtu.be/ypR9CUG1Tjo
-)
+If you prefer a video run-through of Codio's annotation features, <a href="http://youtu.be/ypR9CUG1Tjo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&" class="fancybox fancybox.iframe">click here.</a>
 
 ##What's missing from most tutorials
 We all know what most tutorials look like. It doesn't matter if it is a tutorial for a complete newbie or something that is explaining a complex framework, API or library.

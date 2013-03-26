@@ -8,7 +8,7 @@ full_width: true
 image: http://gruntjs.com/img/grunt-logo.png
 ---
 
-Grunt is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.
+[Grunt](http://gruntjs.com/) is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.
 
 As part of last Friday's [weekly hack day](/blog/2013/03/our-twenty-percent-time/), I spent the day upgrading our Grunt installation and our custom tasks to the latest 0.4 version. So I thought I'd write a short article on what Grunt is and how we use it at Codio.
 

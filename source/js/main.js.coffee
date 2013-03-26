@@ -82,7 +82,10 @@ $ ->
 
   # Handle blog images
   if (images = $('body.blog section.posts article img')).length > 0
-    images.wrap -> "<a href='#{$(this).attr('src')}' class='fancybox' />"
+    images.each ->
+      self = $(this)
+      unless self.parent().is('a')
+        self.wrap -> "<a href='#{self.attr('src')}' class='fancybox' />"
 
   if (images = $("body.blog section.posts article img[align='left']")).length > 0
     images.css 'margin', '20px 25px 15px 0'

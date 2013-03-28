@@ -16,7 +16,7 @@ To get you interested, take a look below. It is a real, fully functioning IDE. I
 
 <iframe style="width:900px; height:600px" src="https://codio.com/fmay/Impress/tree/Impress/index.html"></iframe>
 
-Over the next couple of months (with some <a href="http://twitter.com/home/?status=Codio%20is%20about%20to%20build%20some%20cool%20stuff%20to%20help%20developers%20of%20any%20skill%20level%20learn%20to%20%23code%20https%3A%2F%2Fcodio.com%2Fblog%2F2013%2F03%2Fcodio-for-education%2F" target="_blank">verbal encouragement</a> from the community) we are going to add a lot of very cool stuff to Codio, so people can teach and learn in code's natural home - the IDE.
+Over the next couple of months (with some <a href="http://twitter.com/home/?status=Codio%20web%20platform%20turns%20your%20%23code%20into%20interactive%20tutorials%20%26%20code%20samples.%20%20https%3A%2F%2Fcodio.com%2Fblog%2F2013%2F03%2Fcodio-for-education%2F.%20Gr8%20for%20%23Education%20%26%20%23developers%20" target="_blank">verbal encouragement</a> from the community) we are going to add a lot of very cool stuff to Codio, so people can teach and learn in code's natural home - the IDE.
 
 ##What's the problem?
 There are three main issues with most online tutorials
@@ -57,5 +57,5 @@ Codio:Annotations will let you click on icons and code segments to take a "what'
 <iframe style="width:900px; height:600px" src="https://codio.com/fmay/Impress/tree/Impress/index.html"></iframe>
 
 ##Give us some encouragement
-If you like what you read about this initiative, encourage us in any way that you feel will help. The best way is to let others know. We are a small company and doing this requires a fair bit of effort. Feel free to <a href="http://twitter.com/home/?status=Codio%20is%20about%20to%20build%20some%20cool%20stuff%20to%20help%20developers%20of%20any%20skill%20level%20learn%20to%20%23code%20https%3A%2F%2Fcodio.com%2Fblog%2F2013%2F03%2Fcodio-for-education%2F" target="_blank">tweet something nice!</a>
+If you like what you read about this initiative, encourage us in any way that you feel will help. The best way is to let others know. We are a small company and doing this requires a fair bit of effort. Feel free to <a href="http://twitter.com/home/?status=Codio%20web%20platform%20turns%20your%20%23code%20into%20interactive%20tutorials%20%26%20code%20samples.%20%20https%3A%2F%2Fcodio.com%2Fblog%2F2013%2F03%2Fcodio-for-education%2F.%20Gr8%20for%20%23Education%20%26%20%23developers%20" target=" target="_blank">tweet something nice!</a>
 

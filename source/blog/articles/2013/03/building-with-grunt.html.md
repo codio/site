@@ -5,7 +5,7 @@ date: 2013-03-26
 tags: engineering
 class_name: blog
 full_width: true
-image: http://gruntjs.com/img/grunt-logo.png
+image: //gruntjs.com/img/grunt-logo.png
 ---
 
 [Grunt](http://gruntjs.com/) is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.

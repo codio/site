@@ -8,7 +8,7 @@ full_width: true
 image: blog/code-org.jpg
 ---
 
-Having watched the [code.org video](http://www.youtube.com/v/nKIu9yen5nc) and seen what they are trying to achieve, we wandered how cool it would be if we could contribute to this initiative in a meaningful way.
+Having watched the [code.org video](http://www.youtube.com/v/nKIu9yen5nc) and seen what they are trying to achieve, we wondered how cool it would be if we could contribute to this initiative in a meaningful way.
 
 Fortunately, we can. We have a great Web IDE and with a little effort, we've got a game changer for the way tutorials, documentation and code samples are delivered. We want this to be a free, web based platform that let's any author of code examples or tutorials deliver their content in a natural way, that doesn't dumb anything down.
 

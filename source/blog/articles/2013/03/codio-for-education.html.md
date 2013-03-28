@@ -5,7 +5,7 @@ date: 2013-03-28
 tags: learning code tutorials
 class_name: blog
 full_width: true
-image: //images.mnn.com/sites/default/files/code.org-130226-02.jpg
+image: http://images.mnn.com/sites/default/files/code.org-130226-02.jpg
 ---
 
 Having watched the [code.org video](http://www.youtube.com/v/nKIu9yen5nc) and seen what they are trying to achieve, we wandered how cool it would be if we could contribute to this initiative in a meaningful way.

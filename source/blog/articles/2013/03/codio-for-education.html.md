@@ -6,9 +6,10 @@ tags: learning code tutorials
 class_name: blog
 full_width: true
 image: http://images.mnn.com/sites/default/files/code.org-130226-02.jpg
+published: false
 ---
 
-Having watched the [code.org video](http://www.youtube.com/v/nKIu9yen5nc) and seen what they are trying to achieve, we thought how cool it would be if we could contribute to this initiative in a meaingful way. 
+Having watched the [code.org video](http://www.youtube.com/v/nKIu9yen5nc) and seen what they are trying to achieve, we thought how cool it would be if we could contribute to this initiative in a meaingful way.
 
 Fortunately, we can. We have a great Web IDE and with a little development effort, we've got a gamechanger for the way tutorials, documentation and code samples are delivered. We want this to be a free, web based platform that let's any author of code examples or tutorials deliver their content in a natural way that doesn't dumb anything down.
 

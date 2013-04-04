@@ -72,11 +72,6 @@ $ ->
       this.title = $(this.element).find('img').attr('title')
 
 
-# Homepage Slideshow.
-$ ->
-  $('body.home header > .carousel').carousel()
-
-
 # Blog
 $ ->
 

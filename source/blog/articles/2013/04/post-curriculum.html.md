@@ -1,5 +1,5 @@
 ---
-title: "A Post Curriculum approach to teaching programming"
+title: "A Post-Curriculum approach to teaching programming"
 author: Freddy May
 date: 2013-04-10
 tags: tutorials, programming, development, coding, teaching, learning

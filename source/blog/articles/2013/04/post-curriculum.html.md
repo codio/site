@@ -5,7 +5,7 @@ date: 2013-04-10
 tags: tutorials, programming, development, coding, teaching, learning
 class_name: blog
 full_width: true
-published: true
+published: false
 ---
 
 ##Does the West realize just how important programming is?
@@ -24,7 +24,7 @@ Most school curricula focus on using Word, Excel and office prodcutivity tools -
 ##The Solution : CrowdTeaching & Collaboration
 In case educators don't think it can be done, I suggest they take a look at the Open Source community. It is populated by very smart, community oriented people who know how to code and many of whom are all too happy to try to explain how things work. Github alone has nearly 5 million developers on its books.
 
-And yes, many open source projects may be woeful, but the great stuff floats very efficiently to the top and nowadays Open Source software is at or near the centre of every single great IT company without exception. Ask Google, Twitter, Facebook, IBM, Accenture - Open Source works and is used extensively. 
+And yes, many open source projects may be woeful, but the great stuff floats very efficiently to the top and nowadays Open Source software is at or near the centre of every single great IT company without exception. Ask Google, Twitter, Facebook, IBM, Accenture - Open Source works and is used extensively.
 
 So when it comes to educational content, there will be woeful content, too, but there will be some extraordinarily good content, too. Apply the open source approach and ideals to tutorials and teaching people to code, whether beginner, intermediate or advanced, and you have a recipe for success.
 

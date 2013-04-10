@@ -5,7 +5,7 @@ date: 2013-04-10
 tags: tutorials, programming, development, coding, teaching, learning
 class_name: blog
 full_width: true
-published: true
+published: false
 ---
 
 While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for
@@ -52,7 +52,7 @@ You can load any development project already today. Just include a link (<a href
 <a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank"><img src="/img/blog/codio-widget.png"></a>
 
 ##Better - Step 2
-But there are lots of sitations where I want to make things even more seamless and avoid having to leave the tutorial page. You can embed the Codio IDE straight into your web page as shown below. It's a simple project, but have a quick explore ...
+But there are lots of situations where I want to make things even more seamless and avoid having to leave the tutorial page. You can embed the Codio IDE straight into your web page as shown below. It's a simple project, but have a quick explore ...
 
 <iframe style="width:800px; height:600px" src="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"></iframe>
 

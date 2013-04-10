@@ -10,154 +10,77 @@
     <name>Codio</name>
   </author>
   <entry>
-    <title>Codio:Annotations - Say it with a sample</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/04/say-it-with-a-sample/"/>
-    <id>https://codio.com/s/blog/2013/04/say-it-with-a-sample/</id>
+    <title>A Post Curriculum approach to teaching programming</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/04/post-curriculum/"/>
+    <id>https://codio.com/s/blog/2013/04/post-curriculum/</id>
     <published>2013-04-10T00:00:00Z</published>
     <updated>2013-04-10T00:00:00Z</updated>
     <author>
       <name>Freddy May</name>
     </author>
-    <summary type="html">&lt;p&gt;While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for&lt;/p&gt;
+    <summary type="html">&lt;h2 id="toc_0"&gt;Does the West realize just how important programming is?&lt;/h2&gt;
 
-&lt;ul&gt;&lt;li&gt;development tutorials (any skill...&lt;/li&gt;&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for&lt;/p&gt;
+&lt;p&gt;Countries like India, Russia, China, Vietnam, Romania certainly do! These countries are producing ever more, better quality developers every day. Small wonder as programming is extremely well...&lt;/p&gt;</summary>
+    <content type="html">&lt;h2 id="toc_0"&gt;Does the West realize just how important programming is?&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;development tutorials (any skill level)&lt;/li&gt;
-&lt;li&gt;API samples and explanations&lt;/li&gt;
-&lt;li&gt;Developer documentation samples and tutorials&lt;/li&gt;
-&lt;li&gt;Documenting and explaining advanced frameworks, libraries etc.&lt;/li&gt;
-&lt;li&gt;Example code projects of any sort and any level&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="toc_0"&gt;Tell us what you think&lt;/h2&gt;
-
-&lt;p&gt;We will offer this as a completely free platform, but it will require real effort a) to add the Annotation features and b) to provide the infrastructure. It is really important to us to know that people are behind our efforts.&lt;/p&gt;
-
-&lt;p&gt;So if you like what you see, &lt;a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank"&gt;tweet about us&lt;/a&gt;, &lt;a href="http://www.facebook.com/CodioHQ" target="_blank"&gt;like us on Facebook&lt;/a&gt; or just leave a comment at the bottom of this page. The more support we get for this, the more we&amp;#39;ll throw at it.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;Getting behind Education&lt;/h2&gt;
-
-&lt;p&gt;One of our real hopes is that Codio provides a new way for schools, universities and other programming courses to teach, based on working real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real Web IDE for free, we hope to clear away a few obstacles.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Video Overview&lt;/h2&gt;
-
-&lt;p&gt;This post describes things step by step, but if you prefer a video run-through, &lt;a href="http://www.youtube.com/v/ypR9CUG1Tjo?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"&gt;click here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;What&amp;#39;s missing from most tutorials&lt;/h2&gt;
-
-&lt;p&gt;We all know what most tutorials look like. It doesn&amp;#39;t matter if it is a tutorial for a complete newbie or something that is explaining a complex framework, API or library.&lt;/p&gt;
-
-&lt;p&gt;Below is an example of a high quality tutorial from webplatform.org, which you can scroll through or you can &lt;a href="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html" target="_blank"&gt;open the full page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe style="width:700px; height:400px" src="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html"&gt;&lt;/iframe&gt;
-
-&lt;p&gt;It is very well written indeed, but there is a lot to digest here, and this is usually the case with web and video tutorials.&lt;/p&gt;
-
-&lt;p&gt;When I am learning about a something new, there are two things I always yearn for&lt;/p&gt;
+&lt;p&gt;Countries like India, Russia, China, Vietnam, Romania certainly do! These countries are producing ever more, better quality developers every day. Small wonder as programming is extremely well paid, creative, fun and the developer stereotype is now &amp;#39;geek chic&amp;#39; rather than &amp;#39;spotty nerd&amp;#39;. So, what&amp;#39;s going wrong in the West?&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;the tutorial seamlessly wrapped up with a &lt;strong&gt;real, fully working code example&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;interactivity - being able to run, explore, fork, edit etc.&lt;/li&gt;
+&lt;li&gt;In the US, the global leader in tech, less than 2.4% of college students graduate with a degree in computer science - &lt;strong&gt;fewer than 10 years ago&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;At the UK&amp;#39;s Cambridge University, today&amp;#39;s Computer Science students interview with some web design skills but litle knowldge of coding, whereas 10 years ago students were often hobbyist programmers. This problem gave rise to the massively popular Raspberry Pi. (&lt;a href="http://www.raspberrypi.org/about"&gt;This link&lt;/a&gt; makes for interesting reading).&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.code.org"&gt;Code.org&lt;/a&gt; was launched in the US to try to address the severe developing problem.&lt;/li&gt;
+&lt;li&gt;Take a look at the infographic below for some sobering stats from Code.org (sorry about mangling the infographic, &lt;a href="http://www.code.org/stats"&gt;here is the original&lt;/a&gt;.)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;... and this is exactly what Codio:Annotations offers.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Code.org stats" src="/s/img/blog/codeinfographic2-21-1-af769729.png" /&gt;&lt;/p&gt;
 
-&lt;h2 id="toc_4"&gt;The same tutorial run in Codio&lt;/h2&gt;
+&lt;h2 id="toc_1"&gt;The Problem with IT in Schools&lt;/h2&gt;
 
-&lt;p&gt;So, let&amp;#39;s see how Codio can change the approach to the same tutorial&lt;/p&gt;
+&lt;p&gt;Most school curricula focus on using Word, Excel and office prodcutivity tools - things that kids these days pick up in 5 minutes without any instruction. Governments are now trying to put in place curricula that incorporate coding. It&amp;#39;s quite easy to imagine how a committee designed curriculum might look. Not compatible with the dynamic world of IT and espcially not when it comes to learning to code. By the time a curriculum has been worked through and published, large chunks will be out of date and it will be static for years to come.&lt;/p&gt;
 
-&lt;h2 id="toc_5"&gt;Better - Step 1&lt;/h2&gt;
+&lt;h2 id="toc_2"&gt;The Solution : CrowdTeaching &amp;amp; Collaboration&lt;/h2&gt;
 
-&lt;p&gt;You can load any development project already today. Just include a link (&lt;a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank"&gt;try clicking here&lt;/a&gt;) from within your page or use a Codio widget to go to the project. Try it out and see what it feels like.&lt;/p&gt;
+&lt;p&gt;In case educators don&amp;#39;t think it can be done, I suggest they take a look at the Open Source community. It is populated by very smart, community oriented people who know how to code and many of whom are all too happy to try to explain how things work. Github alone has nearly 5 million developers on its books.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"&gt;&lt;img alt="Drag and Drop in the File Explorer" src="/s/img/blog/codio-widget-a5e29fbc.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And yes, many open source projects may be woeful, but the great stuff floats very efficiently to the top and nowadays Open Source software is at or near the centre of every single great IT company without exception. Ask Google, Twitter, Facebook, IBM, Accenture - Open Source works and is used extensively. &lt;/p&gt;
 
-&lt;h2 id="toc_6"&gt;Better - Step 2&lt;/h2&gt;
+&lt;p&gt;So when it comes to educational content, there will be woeful content, too, but there will be some extraordinarily good content, too. Apply the open source approach and ideals to tutorials and teaching people to code, whether beginner, intermediate or advanced, and you have a recipe for success.&lt;/p&gt;
 
-&lt;p&gt;But there are lots of sitations where I want to make things even more seamless and avoid having to leave the tutorial page. You can embed the Codio IDE straight into your web page as shown below. It&amp;#39;s a simple project, but have a quick explore ...&lt;/p&gt;
+&lt;p&gt;Anyone can take any tutorial made by anyone and then &amp;#39;fork&amp;#39; (copy) it and make improvements. These improvements can be small, in which case they are requested to be re-absorbed by the original creator, or they can be the starting point for an entirely new direction. There are now absolute &amp;#39;Owners&amp;#39; as every project is permissively Open Sourced and can be found and updated by anyone.&lt;/p&gt;
 
-&lt;iframe style="width:800px; height:600px" src="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"&gt;&lt;/iframe&gt;
+&lt;h2 id="toc_3"&gt;What Codio is going to do to make this happen&lt;/h2&gt;
 
-&lt;p&gt;From the Codio IDE, your sample can be&lt;/p&gt;
+&lt;p&gt;Codio it about to announce several features that will enable this to happen&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;viewed and explored&lt;/li&gt;
-&lt;li&gt;forked and edited&lt;/li&gt;
-&lt;li&gt;downloaded&lt;/li&gt;
-&lt;li&gt;run (if it is an HTML5+CSS+JS project)&lt;/li&gt;
+&lt;li&gt;a teaching platform and feature set based on the Codio IDE (all completely free) called &lt;a href="https://codio.com/s/blog/2013/04/say-it-with-a-sample/"&gt;Codio:Annotations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;a Github based content framework for content creation and collaboration&lt;/li&gt;
+&lt;li&gt;a standard educational license that all content should use, allowing completely unrestricted copying and modifications&lt;/li&gt;
+&lt;li&gt;an active curation program backed by a Codio staff that will provide guidance and organization for any programming language&lt;/li&gt;
+&lt;li&gt;a curation feature set within Codio that allows people to categorize, tag and vote, helping learners find the best material quickly and easily&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id="toc_7"&gt;Better - Step 3&lt;/h2&gt;
+&lt;p&gt;With these features, there will be a vehicle for a truly post-curriculum approach.&lt;/p&gt;
 
-&lt;p&gt;The following steps have not been built yet, but will be with your support. The screenshots below are mockups.&lt;/p&gt;
+&lt;h2 id="toc_4"&gt;Developers don&amp;#39;t have to use Codio&lt;/h2&gt;
 
-&lt;p&gt;Imagine being able to explore the code freely by clicking on the icons within the IDE wherever you see one. I will explain further down how this can all be set up in your source project using your regular IDE.&lt;/p&gt;
+&lt;p&gt;Even though Codio will have a unique and rich set of code annotation and documentation features, we don&amp;#39;t want to force people to use Codio. The Codio:Annotation features can be accessed from a developer&amp;#39;s favorite IDE, but there is no requirement to use Codio to submit content to the Github library.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-settabfromlink-0556a452.png" /&gt;&lt;/p&gt;
+&lt;h2 id="toc_5"&gt;What about Teachers and Teaching&lt;/h2&gt;
 
-&lt;p&gt;You can see rich text (as shown), images, audio or video depending on the icon you click on.&lt;/p&gt;
+&lt;p&gt;We aim for these initiatives to be a rich resource for teachers to draw on. As every bit of content it open and collaborative, we expect forward looking teachers to be active particpants and take inspiration from others and pass this on. They can structure their own courses around existing materials, always looking to update and use the best content available. We think this will attract the new generation of teachers as well as the new generation of coders.&lt;/p&gt;
 
-&lt;h2 id="toc_8"&gt;Better - Step 4&lt;/h2&gt;
+&lt;h2 id="toc_6"&gt;Turning student on to coding - celebrity coders&lt;/h2&gt;
 
-&lt;p&gt;If I want to, I can put the entire tutorial itself into the project and then get a guided tour through the code, either by click on the navigation buttons ...&lt;/p&gt;
+&lt;p&gt;We will organize global Webinars and interviews with luminaries from the world of coding. These webinars will on the one hand stimulate pupils and students to hear straight from important software developers why it is such a great profession.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-guided-14be20a3.png" /&gt;&lt;/p&gt;
+&lt;h2 id="toc_7"&gt;Teach to 30&amp;#39;000 not 30&lt;/h2&gt;
 
-&lt;p&gt;... or by scrolling through the embedded tutorial, which syncs automatically with the associated piece of code.&lt;/p&gt;
+&lt;p&gt;Collaboration is also a fantastic way of bringing the best out of teachers. Imagine a teacher who is doing a stupendous job of motivating their students. Isn’t it a real waste for them to have their brilliance shine only on their own class of students? Their content is available to the whole world. And why not let them arrange a course or webinar that is broadcast to anyone who wants to watch it. These webinars are, of course, recorded and can be viewed by anyone. And less collaboratively inclined teachers can still piggy back on those materials and use them with their students in whatever way works best for them.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-scroll-1-fee244fe.png" /&gt;&lt;/p&gt;
+&lt;h2 id="toc_8"&gt;So, let&amp;#39;s act&lt;/h2&gt;
 
-&lt;h2 id="toc_9"&gt;Better - Step 5&lt;/h2&gt;
-
-&lt;p&gt;The final piece in the jigsaw is also really important - how to find great tutorials. We will build a curated area where each tutorial can be posted. Anyone who has built one can&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;add tags&lt;/li&gt;
-&lt;li&gt;post it to a language area&lt;/li&gt;
-&lt;li&gt;and within that a subject matter area&lt;/li&gt;
-&lt;li&gt;allow users to vote on it&lt;/li&gt;
-&lt;li&gt;encourage users to post comments to other learners and to the author so it can be improved&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It will look something like this ...&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-curation-673c9711.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_10"&gt;How does a developer build a Codio tutorial?&lt;/h2&gt;
-
-&lt;p&gt;We want to make this as easy and unobtrusive as possible. Here are the key points&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;it should work for any programming language&lt;/li&gt;
-&lt;li&gt;you should be able create the content from absolutely any IDE&lt;/li&gt;
-&lt;li&gt;it should not mess up your source code or interfere with the way you would want to write code naturally&lt;/li&gt;
-&lt;li&gt;you should be able to import effortlessly from a ZIP file, Git or Mercurial repo so that future modifications and updates are a no-brainer&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The screenshot below shows how tokens are added into the source file ...&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/ks-tokens-b588e5f7.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;And this one shows how you construct the annotations file. This provides both guided tours, scrolling as well as the project structure annotations.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/ks-annotation-file-57356095.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a name="support"&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_11"&gt;Please support us&lt;/h2&gt;
-
-&lt;p&gt;If you agree that Codio is a force for good whether in Education or for professional development, then doing any of the following will really help us know we are pointed in the right direction&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank"&gt;Tweet your support&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.facebook.com/CodioHQ" target="_blank"&gt;Like us on Facebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Add a comment at the bottom of this page&lt;/li&gt;
-&lt;li&gt;Just let others know about Codio:Annotations&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;p&gt;We believe that this mini manifesto is the foundation for a revolutionary approach to the way Coding is taught and gives access to a truly exciting and lucrative career to huge numbers of students. It is a great thing that developing countries can expand their economies thanks to IT and I don&amp;#39;t know of anyone who begrudges them this one bit. However, it is shameful that complacent western countries stand idly by and watch as IT skills drain away.&lt;/p&gt;
 </content>
   </entry>
   <entry>

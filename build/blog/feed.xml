@@ -5,10 +5,161 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-04-03T00:00:00Z</updated>
+  <updated>2013-04-10T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Codio:Annotations - Say it with a sample</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/04/say-it-with-a-sample/"/>
+    <id>https://codio.com/s/blog/2013/04/say-it-with-a-sample/</id>
+    <published>2013-04-10T00:00:00Z</published>
+    <updated>2013-04-10T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;development tutorials (any skill...&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;development tutorials (any skill level)&lt;/li&gt;
+&lt;li&gt;API samples and explanations&lt;/li&gt;
+&lt;li&gt;Developer documentation samples and tutorials&lt;/li&gt;
+&lt;li&gt;Documenting and explaining advanced frameworks, libraries etc.&lt;/li&gt;
+&lt;li&gt;Example code projects of any sort and any level&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_0"&gt;Tell us what you think&lt;/h2&gt;
+
+&lt;p&gt;We will offer this as a completely free platform, but it will require real effort a) to add the Annotation features and b) to provide the infrastructure. It is really important to us to know that people are behind our efforts.&lt;/p&gt;
+
+&lt;p&gt;So if you like what you see, &lt;a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank"&gt;tweet about us&lt;/a&gt;, &lt;a href="http://www.facebook.com/CodioHQ" target="_blank"&gt;like us on Facebook&lt;/a&gt; or just leave a comment at the bottom of this page. The more support we get for this, the more we&amp;#39;ll throw at it.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Getting behind Education&lt;/h2&gt;
+
+&lt;p&gt;One of our real hopes is that Codio provides a new way for schools, universities and other programming courses to teach, based on working real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real Web IDE for free, we hope to clear away a few obstacles.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Video Overview&lt;/h2&gt;
+
+&lt;p&gt;This post describes things step by step, but if you prefer a video run-through, &lt;a href="http://www.youtube.com/v/ypR9CUG1Tjo?autoplay=1&amp;hd=1&amp;fs=1&amp;showsearch=0&amp;rel=0&amp;"&gt;click here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;What&amp;#39;s missing from most tutorials&lt;/h2&gt;
+
+&lt;p&gt;We all know what most tutorials look like. It doesn&amp;#39;t matter if it is a tutorial for a complete newbie or something that is explaining a complex framework, API or library.&lt;/p&gt;
+
+&lt;p&gt;Below is an example of a high quality tutorial from webplatform.org, which you can scroll through or you can &lt;a href="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html" target="_blank"&gt;open the full page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe style="width:700px; height:400px" src="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;It is very well written indeed, but there is a lot to digest here, and this is usually the case with web and video tutorials.&lt;/p&gt;
+
+&lt;p&gt;When I am learning about a something new, there are two things I always yearn for&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the tutorial seamlessly wrapped up with a &lt;strong&gt;real, fully working code example&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;interactivity - being able to run, explore, fork, edit etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;... and this is exactly what Codio:Annotations offers.&lt;/p&gt;
+
+&lt;h2 id="toc_4"&gt;The same tutorial run in Codio&lt;/h2&gt;
+
+&lt;p&gt;So, let&amp;#39;s see how Codio can change the approach to the same tutorial&lt;/p&gt;
+
+&lt;h2 id="toc_5"&gt;Better - Step 1&lt;/h2&gt;
+
+&lt;p&gt;You can load any development project already today. Just include a link (&lt;a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank"&gt;try clicking here&lt;/a&gt;) from within your page or use a Codio widget to go to the project. Try it out and see what it feels like.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"&gt;&lt;img alt="Drag and Drop in the File Explorer" src="/s/img/blog/codio-widget-a5e29fbc.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_6"&gt;Better - Step 2&lt;/h2&gt;
+
+&lt;p&gt;But there are lots of sitations where I want to make things even more seamless and avoid having to leave the tutorial page. You can embed the Codio IDE straight into your web page as shown below. It&amp;#39;s a simple project, but have a quick explore ...&lt;/p&gt;
+
+&lt;iframe style="width:800px; height:600px" src="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;From the Codio IDE, your sample can be&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;viewed and explored&lt;/li&gt;
+&lt;li&gt;forked and edited&lt;/li&gt;
+&lt;li&gt;downloaded&lt;/li&gt;
+&lt;li&gt;run (if it is an HTML5+CSS+JS project)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_7"&gt;Better - Step 3&lt;/h2&gt;
+
+&lt;p&gt;The following steps have not been built yet, but will be with your support. The screenshots below are mockups.&lt;/p&gt;
+
+&lt;p&gt;Imagine being able to explore the code freely by clicking on the icons within the IDE wherever you see one. I will explain further down how this can all be set up in your source project using your regular IDE.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-settabfromlink-0556a452.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see rich text (as shown), images, audio or video depending on the icon you click on.&lt;/p&gt;
+
+&lt;h2 id="toc_8"&gt;Better - Step 4&lt;/h2&gt;
+
+&lt;p&gt;If I want to, I can put the entire tutorial itself into the project and then get a guided tour through the code, either by click on the navigation buttons ...&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-guided-14be20a3.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;... or by scrolling through the embedded tutorial, which syncs automatically with the associated piece of code.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-scroll-1-fee244fe.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_9"&gt;Better - Step 5&lt;/h2&gt;
+
+&lt;p&gt;The final piece in the jigsaw is also really important - how to find great tutorials. We will build a curated area where each tutorial can be posted. Anyone who has built one can&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;add tags&lt;/li&gt;
+&lt;li&gt;post it to a language area&lt;/li&gt;
+&lt;li&gt;and within that a subject matter area&lt;/li&gt;
+&lt;li&gt;allow users to vote on it&lt;/li&gt;
+&lt;li&gt;encourage users to post comments to other learners and to the author so it can be improved&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It will look something like this ...&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-curation-673c9711.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_10"&gt;How does a developer build a Codio tutorial?&lt;/h2&gt;
+
+&lt;p&gt;We want to make this as easy and unobtrusive as possible. Here are the key points&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;it should work for any programming language&lt;/li&gt;
+&lt;li&gt;you should be able create the content from absolutely any IDE&lt;/li&gt;
+&lt;li&gt;it should not mess up your source code or interfere with the way you would want to write code naturally&lt;/li&gt;
+&lt;li&gt;you should be able to import effortlessly from a ZIP file, Git or Mercurial repo so that future modifications and updates are a no-brainer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The screenshot below shows how tokens are added into the source file ...&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/ks-tokens-b588e5f7.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;And this one shows how you construct the annotations file. This provides both guided tours, scrolling as well as the project structure annotations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/ks-annotation-file-57356095.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name="support"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_11"&gt;Please support us&lt;/h2&gt;
+
+&lt;p&gt;If you agree that Codio is a force for good whether in Education or for professional development, then doing any of the following will really help us know we are pointed in the right direction&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank"&gt;Tweet your support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.facebook.com/CodioHQ" target="_blank"&gt;Like us on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add a comment at the bottom of this page&lt;/li&gt;
+&lt;li&gt;Just let others know about Codio:Annotations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Drag and Drop in the File Explorer</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/04/drag-and-drop-in-the-file-explorer/"/>
@@ -221,57 +372,6 @@ grunt
 &lt;p&gt;It&amp;#39;s also a great excuse to be free from the daily constraints of picking and working on tickets.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#39;ll be sure to let you all know how it goes.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>We're Hiring Frontend Engineers</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/03/we-are-hiring-engineers/"/>
-    <id>https://codio.com/s/blog/2013/03/we-are-hiring-engineers/</id>
-    <published>2013-03-15T00:00:00Z</published>
-    <updated>2013-03-15T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Now we have the &lt;a href="/s/blog/2013/03/codio-is-live-and-kicking/"&gt;beta out the door&lt;/a&gt;, it's time to concentrate on the future of Codio and working towards that perfect IDE. But we need some additional help from an experienced front-end engineer who want to be part of something truly exciting.&lt;/p&gt;
-
-&lt;p&gt;As one...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Now we have the &lt;a href="/s/blog/2013/03/codio-is-live-and-kicking/"&gt;beta out the door&lt;/a&gt;, it&amp;#39;s time to concentrate on the future of Codio and working towards that perfect IDE. But we need some additional help from an experienced front-end engineer who want to be part of something truly exciting.&lt;/p&gt;
-
-&lt;p&gt;As one of our front-end engineers, you&amp;#39;ll be responsible for building arguably the most important part of Codio. The IDE itself is a single page app built using the latest Javascript, HTML5 and CSS3 technologies. We hate IE and love any browser which sits on the cutting edge of the web, so you will be encouraged to play with and implement the latest and greatest.&lt;/p&gt;
-
-&lt;p&gt;You are also our target market for the product itself, which makes it an extremely attractive and exciting product to work on. You&amp;#39;ve most likely heard this said before, but we really do have something that is built for developers, and by developers. We want you to be happy to use Codio as your day to day IDE, and if you aren&amp;#39;t, help us to get there.&lt;/p&gt;
-
-&lt;p&gt;We want someone who is free thinking, passionate and has a love of what they do. If you find yourself still hacking away at 4am without realising the time, then you&amp;#39;re the kind of person we want.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;What we want from you:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;3+ years professional experience.&lt;/li&gt;
-&lt;li&gt;Experience and knowledge of Javascript (including jQuery), HTML5 and CSS3.&lt;/li&gt;
-&lt;li&gt;Recognition of the benefits of test driven development and well tested code.&lt;/li&gt;
-&lt;li&gt;Knowledge of the browser market and its changing pace.&lt;/li&gt;
-&lt;li&gt;An eye for detail, both in your code and in the browser. Developers can be a picky bunch you know ;)&lt;/li&gt;
-&lt;li&gt;Common sense when it comes to UI and UX.&lt;/li&gt;
-&lt;li&gt;Work well in a team and on your own.&lt;/li&gt;
-&lt;li&gt;A love of open source software.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="toc_1"&gt;You&amp;#39;ll be at an advantage if you also:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Have an eye for good design, and experience with Photoshop.&lt;/li&gt;
-&lt;li&gt;Enjoy writing, blogging and speaking at tech conferences.&lt;/li&gt;
-&lt;li&gt;Have experience with Java.&lt;/li&gt;
-&lt;li&gt;Contribute or have created any open source software (big brownie points for this one).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We&amp;#39;re a distributed team with our HQ in the UK, so you will be able to work from anywhere you please. We would prefer if you were UK or European based, but if you&amp;#39;re really good, we don&amp;#39;t care where you are.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;To Apply&lt;/h2&gt;
-
-&lt;p&gt;Drop us an email at &lt;a href="mailto:work@codio.com"&gt;work@codio.com&lt;/a&gt; telling us why we should hire you, along with your resume/CV if you have one. Although we&amp;#39;d be much more interested in your Github profile, which speaks volumes about you and what you are capable of.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, please let me know in the blog comments.&lt;/p&gt;
 </content>
   </entry>
   <entry>

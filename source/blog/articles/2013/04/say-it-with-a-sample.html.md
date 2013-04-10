@@ -49,7 +49,7 @@ So, let's see how Codio can change the approach to the same tutorial
 ##Better - Step 1
 You can load any development project already today. Just include a link (<a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank">try clicking here</a>) from within your page or use a Codio widget to go to the project. Try it out and see what it feels like.
 
-<a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank"><img src="/img/blog/codio-widget.png"></a>
+[![Drag and Drop in the File Explorer](blog/codio-widget.png)](https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html)
 
 ##Better - Step 2
 But there are lots of situations where I want to make things even more seamless and avoid having to leave the tutorial page. You can embed the Codio IDE straight into your web page as shown below. It's a simple project, but have a quick explore ...

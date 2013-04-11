@@ -18,13 +18,13 @@
     <author>
       <name>Freddy May</name>
     </author>
-    <summary type="html">&lt;p&gt;While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for&lt;/p&gt;
+    <summary type="html">&lt;p&gt;While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for:&lt;/p&gt;
 
-&lt;ul&gt;&lt;li&gt;development tutorials (any skill...&lt;/li&gt;&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Development tutorials (any skill...&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;development tutorials (any skill level)&lt;/li&gt;
+&lt;li&gt;Development tutorials (any skill level)&lt;/li&gt;
 &lt;li&gt;API samples and explanations&lt;/li&gt;
 &lt;li&gt;Developer documentation samples and tutorials&lt;/li&gt;
 &lt;li&gt;Documenting and explaining advanced frameworks, libraries etc.&lt;/li&gt;
@@ -33,13 +33,13 @@
 
 &lt;h2 id="toc_0"&gt;Tell us what you think&lt;/h2&gt;
 
-&lt;p&gt;We will offer this as a completely free platform, but it will require real effort a) to add the Annotation features and b) to provide the infrastructure. It is really important to us to know that people are behind our efforts.&lt;/p&gt;
+&lt;p&gt;We will offer this as a completely free platform, but it will require real effort a) to add the annotation features and b) to provide the infrastructure. It is really important to us to know that people are behind our efforts.&lt;/p&gt;
 
-&lt;p&gt;So if you like what you see, &lt;a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank"&gt;tweet about us&lt;/a&gt;, &lt;a href="http://www.facebook.com/CodioHQ" target="_blank"&gt;like us on Facebook&lt;/a&gt; or just leave a comment at the bottom of this page. The more support we get for this, the more we&amp;#39;ll throw at it.&lt;/p&gt;
+&lt;p&gt;So if you like what you see, &lt;a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank"&gt;Tweet about us&lt;/a&gt;, &lt;a href="http://www.facebook.com/CodioHQ" target="_blank"&gt;like us on Facebook&lt;/a&gt; or just leave a comment at the bottom of this page. The more support we get for this, the more we&amp;#39;ll throw at it.&lt;/p&gt;
 
 &lt;h2 id="toc_1"&gt;Getting behind Education&lt;/h2&gt;
 
-&lt;p&gt;One of our real hopes is that Codio provides a new way for schools, universities and other programming courses to teach, based on working real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real Web IDE for free, we hope to clear away a few obstacles.&lt;/p&gt;
+&lt;p&gt;One of our real hopes is that Codio provides a new way for schools, universities and other programming courses to teach, based on real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real web IDE for free, we hope to clear away a few obstacles.&lt;/p&gt;
 
 &lt;h2 id="toc_2"&gt;Video Overview&lt;/h2&gt;
 
@@ -55,11 +55,11 @@
 
 &lt;p&gt;It is very well written indeed, but there is a lot to digest here, and this is usually the case with web and video tutorials.&lt;/p&gt;
 
-&lt;p&gt;When I am learning about a something new, there are two things I always yearn for&lt;/p&gt;
+&lt;p&gt;When I am learning about a something new, there are two things I always yearn for:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;the tutorial seamlessly wrapped up with a &lt;strong&gt;real, fully working code example&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;interactivity - being able to run, explore, fork, edit etc.&lt;/li&gt;
+&lt;li&gt;The tutorial seamlessly wrapped up with a &lt;strong&gt;real, fully working code example&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Interactivity - being able to run, explore, fork, edit etc.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;... and this is exactly what Codio:Annotations offers.&lt;/p&gt;
@@ -80,13 +80,13 @@
 
 &lt;iframe style="width:800px; height:600px" src="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;From the Codio IDE, your sample can be&lt;/p&gt;
+&lt;p&gt;From the Codio IDE, your sample can be:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;viewed and explored&lt;/li&gt;
-&lt;li&gt;forked and edited&lt;/li&gt;
-&lt;li&gt;downloaded&lt;/li&gt;
-&lt;li&gt;run (if it is an HTML5+CSS+JS project)&lt;/li&gt;
+&lt;li&gt;Viewed and explored&lt;/li&gt;
+&lt;li&gt;Forked and edited&lt;/li&gt;
+&lt;li&gt;Downloaded&lt;/li&gt;
+&lt;li&gt;Run (if it is an HTML5+CSS+JS project)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id="toc_7"&gt;Better - Step 3&lt;/h2&gt;
@@ -111,14 +111,14 @@
 
 &lt;h2 id="toc_9"&gt;Better - Step 5&lt;/h2&gt;
 
-&lt;p&gt;The final piece in the jigsaw is also really important - how to find great tutorials. We will build a curated area where each tutorial can be posted. Anyone who has built one can&lt;/p&gt;
+&lt;p&gt;The final piece in the jigsaw is also really important - how to find great tutorials. We will build a curated area where each tutorial can be posted. Anyone who has built one can:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;add tags&lt;/li&gt;
-&lt;li&gt;post it to a language area&lt;/li&gt;
-&lt;li&gt;and within that a subject matter area&lt;/li&gt;
-&lt;li&gt;allow users to vote on it&lt;/li&gt;
-&lt;li&gt;encourage users to post comments to other learners and to the author so it can be improved&lt;/li&gt;
+&lt;li&gt;Add tags&lt;/li&gt;
+&lt;li&gt;Post it to a language area&lt;/li&gt;
+&lt;li&gt;And within that, a subject matter area&lt;/li&gt;
+&lt;li&gt;Allow users to vote on it&lt;/li&gt;
+&lt;li&gt;Encourage users to post comments to other learners and to the author so it can be improved&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;It will look something like this ...&lt;/p&gt;
@@ -127,13 +127,13 @@
 
 &lt;h2 id="toc_10"&gt;How does a developer build a Codio tutorial?&lt;/h2&gt;
 
-&lt;p&gt;We want to make this as easy and unobtrusive as possible. Here are the key points&lt;/p&gt;
+&lt;p&gt;We want to make this as easy and unobtrusive as possible. Here are the key points:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;it should work for any programming language&lt;/li&gt;
-&lt;li&gt;you should be able create the content from absolutely any IDE&lt;/li&gt;
-&lt;li&gt;it should not mess up your source code or interfere with the way you would want to write code naturally&lt;/li&gt;
-&lt;li&gt;you should be able to import effortlessly from a ZIP file, Git or Mercurial repo so that future modifications and updates are a no-brainer&lt;/li&gt;
+&lt;li&gt;It should work for any programming language&lt;/li&gt;
+&lt;li&gt;You should be able create the content from absolutely any IDE&lt;/li&gt;
+&lt;li&gt;It should not mess up your source code or interfere with the way you would want to write code naturally&lt;/li&gt;
+&lt;li&gt;You should be able to import effortlessly from a ZIP file, Git or Mercurial repo so that future modifications and updates are a no-brainer&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The screenshot below shows how tokens are added into the source file ...&lt;/p&gt;
@@ -148,7 +148,7 @@
 
 &lt;h2 id="toc_11"&gt;Please support us&lt;/h2&gt;
 
-&lt;p&gt;If you agree that Codio is a force for good whether in Education or for professional development, then doing any of the following will really help us know we are pointed in the right direction&lt;/p&gt;
+&lt;p&gt;If you agree that Codio is a force for good whether in education or for professional development, then doing any of the following will really help us know we are pointed in the right direction:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank"&gt;Tweet your support&lt;/a&gt;&lt;/li&gt;
@@ -158,6 +158,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Thanks!&lt;/p&gt;
+
+&lt;p&gt;The Codio Team&lt;/p&gt;
 </content>
   </entry>
   <entry>

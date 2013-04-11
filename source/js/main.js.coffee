@@ -41,16 +41,10 @@ $ ->
     if goto = $('#nav-banner [href=#current-features]')
       navBannerClick.call $('#nav-banner [href=#current-features]')[0]
 
-
-  # Try it link
-  $('#navigation a:first').on 'click', (e)->
-    if goto = $('#tryit')
-      pusher = $('#ac-sitebar-pusher')
-      pushHeight = if pusher.length > 0 then pusher.height() else 0
-      $(document.body).animate({
-        scrollTop: goto.offset().top - pushHeight
-      }, 1000)
-      false
+  # Handle the "features" click in main navigation
+  $('#navigation a[href="/#education"]').on 'click', (e)->
+    if goto = $('#nav-banner [href=#education]')
+      navBannerClick.call $('#nav-banner [href=#education]')[0]
 
 
 

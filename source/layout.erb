@@ -64,7 +64,8 @@
             </ul>
 
             <ul id="navigation">
-              <li><a href="/#tryit" data-no-turbolink>Try it!</a></li>
+              <!-- <li><a href="/#tryit" data-no-turbolink>Try it!</a></li> -->
+              <li><%= link_to 'Education', '/#education', :data => { :"no-turbolink" => true } %></li>
               <li><a href="/#features" data-no-turbolink>Features</a></li>
               <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
             </ul>

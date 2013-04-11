@@ -31,7 +31,7 @@ body.home {
             > p {
               margin: 0;
               text-shadow: 0 0 100px #000;
-              font: 26px gotham_bookregular;
+              font: 30px gotham_bookregular;
 
               &:nth-child(1) {
                 line-height: 1.5em !important;
@@ -50,9 +50,11 @@ body.home {
 
             // "You'll love to use every day" + love heart
             > div {
-              font: 28px gotham_bookregular;
-              width: 540px;
-              margin: 16px 0 0 35px;
+              font: 30px gotham_bookregular;
+              text-align: center;
+              width: 600px;
+              line-height: 1.1em !important;
+              margin: 16px 0 0 0px;
 
               p {
                 margin: 0;

@@ -41,11 +41,15 @@ $ ->
     if goto = $('#nav-banner [href=#current-features]')
       navBannerClick.call $('#nav-banner [href=#current-features]')[0]
 
-  # Handle the "features" click in main navigation
+  # Handle the "Education" click in main navigation
   $('#navigation a[href="/#education"], #edulink').on 'click', (e)->
     if goto = $('#nav-banner [href=#education]')
       navBannerClick.call $('#nav-banner [href=#education]')[0]
 
+  # Handle the "Roadmap" click in main navigation
+  $('#navigation a[href="/#roadmap"], #roadmaplink').on 'click', (e)->
+    if goto = $('#nav-banner [href=#roadmap]')
+      navBannerClick.call $('#nav-banner [href=#roadmap]')[0]
 
 
 # Handles the hidden submenu.

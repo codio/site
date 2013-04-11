@@ -42,7 +42,7 @@ $ ->
       navBannerClick.call $('#nav-banner [href=#current-features]')[0]
 
   # Handle the "features" click in main navigation
-  $('#navigation a[href="/#education"]').on 'click', (e)->
+  $('#navigation a[href="/#education"], #edulink').on 'click', (e)->
     if goto = $('#nav-banner [href=#education]')
       navBannerClick.call $('#nav-banner [href=#education]')[0]
 

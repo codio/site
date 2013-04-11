@@ -5,10 +5,82 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-04-10T00:00:00Z</updated>
+  <updated>2013-04-11T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>A Post-Curriculum approach to teaching programming</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/04/post-curriculum/"/>
+    <id>https://codio.com/s/blog/2013/04/post-curriculum/</id>
+    <published>2013-04-11T00:00:00Z</published>
+    <updated>2013-04-11T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;h2 id="toc_0"&gt;Does the West realize just how important programming is?&lt;/h2&gt;
+
+&lt;p&gt;Countries like India, Russia, China, Vietnam, Romania certainly do! These countries are producing ever more, better quality developers every day. Small wonder as programming is extremely well...&lt;/p&gt;</summary>
+    <content type="html">&lt;h2 id="toc_0"&gt;Does the West realize just how important programming is?&lt;/h2&gt;
+
+&lt;p&gt;Countries like India, Russia, China, Vietnam, Romania certainly do! These countries are producing ever more, better quality developers every day. Small wonder as programming is extremely well paid, creative, fun and the developer stereotype is now &amp;#39;geek chic&amp;#39; rather than &amp;#39;spotty nerd&amp;#39;. So, what&amp;#39;s going wrong in the West?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In the US, the global leader in tech, less than 2.4% of college students graduate with a degree in computer science - &lt;strong&gt;fewer than 10 years ago&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;At the UK&amp;#39;s Cambridge University, today&amp;#39;s Computer Science students interview with some web design skills but little knowldge of coding, whereas 10 years ago students were often hobbyist programmers. This problem gave rise to the massively popular Raspberry Pi. (&lt;a href="http://www.raspberrypi.org/about"&gt;This link&lt;/a&gt; makes for interesting reading).&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.code.org"&gt;Code.org&lt;/a&gt; was launched in the US to try to address the severe developing problem.&lt;/li&gt;
+&lt;li&gt;Take a look at the infographic below for some sobering stats from Code.org (sorry about mangling the infographic, &lt;a href="http://www.code.org/stats"&gt;here is the original&lt;/a&gt;.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt="Code.org stats" src="/s/img/blog/codeinfographic2-21-1-af769729.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;The Problem in Schools&lt;/h2&gt;
+
+&lt;p&gt;Most school curricula focus on using Word, Excel and office productivity tools - things that kids these days pick up in 5 minutes without any instruction. Governments are now trying to put in place curricula that incorporate coding. It&amp;#39;s quite easy to imagine how a committee designed curriculum might look. Not compatible with the dynamic world of IT and especially not when it comes to learning to code. By the time a curriculum has been worked through and published, large chunks will be out of date and it will be static for years to come.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;The Solution : CrowdTeaching &amp;amp; Collaboration&lt;/h2&gt;
+
+&lt;p&gt;In case educators don&amp;#39;t think it can be done, I suggest they take a look at the open source community. It is populated by very smart, community oriented people who know how to code and many of whom are all too happy to try to explain how things work. Take a look at GitHub, which alone has nearly 4 million developers working collaboratively.&lt;/p&gt;
+
+&lt;p&gt;Open source software is at or near the centre of every single great IT company without exception. Ask Google, Twitter, Facebook, IBM, Accenture - open source works and is used extensively. Apply the open source approach and ideals to tutorials and teaching people to code, whether beginner, intermediate or advanced, and you have a recipe for success.&lt;/p&gt;
+
+&lt;p&gt;Anyone can take any tutorial made by anyone and then &amp;#39;fork&amp;#39; (copy) it and make improvements. These improvements can be small, in which case they are requested to be re-absorbed by the original creator, or they can be the starting point for an entirely new direction. There are no absolute &amp;#39;Owners&amp;#39; as every project is permissively open sourced and can be found and updated by anyone.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;How Codio will enable CrowdTeaching &amp;amp; Collaboration&lt;/h2&gt;
+
+&lt;p&gt;Codio it about to announce several features that will enable this to happen&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a teaching platform and feature set based on the Codio IDE (all completely free) called &lt;a href="https://codio.com/s/blog/2013/04/say-it-with-a-sample/"&gt;Codio:Annotations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;a GitHub based content framework for content creation and collaboration&lt;/li&gt;
+&lt;li&gt;a standard educational license that all content should use, allowing completely unrestricted copying and modifications&lt;/li&gt;
+&lt;li&gt;an active curation program backed by a Codio staff that will provide guidance and organization for any programming language&lt;/li&gt;
+&lt;li&gt;a curation feature set within Codio that allows people to categorize, tag and vote, helping learners find the best material quickly and easily&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With these features, there will be a vehicle for a truly post-curriculum approach.&lt;/p&gt;
+
+&lt;h2 id="toc_4"&gt;Developers don&amp;#39;t have to use Codio&lt;/h2&gt;
+
+&lt;p&gt;Even though Codio will have a unique and rich set of code annotation and documentation features, we don&amp;#39;t want to force people to use Codio. The Codio:Annotation features can be accessed from a developer&amp;#39;s favorite IDE, but there is no requirement to use Codio to submit content to the GitHub library.&lt;/p&gt;
+
+&lt;h2 id="toc_5"&gt;What about Teachers and Teaching&lt;/h2&gt;
+
+&lt;p&gt;We aim for these initiatives to be a rich resource for teachers to draw on. As every bit of content is open and collaborative, we expect forward looking teachers to be active participants and take inspiration from others and pass this on. They can structure their own courses around existing materials, always looking to update and use the best content available. We think this will attract the new generation of teachers as well as the new generation of coders.&lt;/p&gt;
+
+&lt;h2 id="toc_6"&gt;Turning student on to coding - celebrity coders&lt;/h2&gt;
+
+&lt;p&gt;We want to organize global Webinars and interviews with luminaries from the world of coding. These webinars will stimulate pupils and students to hear straight from the mouths of important software developers why it is such a great profession.&lt;/p&gt;
+
+&lt;h2 id="toc_7"&gt;Teach to 30,000 not 30&lt;/h2&gt;
+
+&lt;p&gt;Collaboration is also a fantastic way of bringing the best out of teachers. Imagine a teacher who is doing a stupendous job of motivating their students. Isn’t it a real waste for them to have their brilliance shine only on their own class of students? Their content is available to the whole world and they can even arrange a course or webinar that is broadcast globally. Less collaboratively inclined teachers can still piggy back on those materials and use them with their students in whatever way works best for them.&lt;/p&gt;
+
+&lt;h2 id="toc_8"&gt;So, let&amp;#39;s act&lt;/h2&gt;
+
+&lt;p&gt;We believe that this mini manifesto is the foundation for a revolutionary approach to the way coding is taught and gives access to a truly exciting and lucrative career to huge numbers of students. It is a great thing that developing countries can expand their economies thanks to IT and I don&amp;#39;t know of anyone who begrudges them this one bit. However, it is shameful that complacent western countries stand idly by and watch as IT skills drain away.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Codio:Annotations - Say it with a sample</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/04/say-it-with-a-sample/"/>
@@ -374,47 +446,6 @@ grunt
 &lt;p&gt;It&amp;#39;s also a great excuse to be free from the daily constraints of picking and working on tickets.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#39;ll be sure to let you all know how it goes.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Collaboration in Coding</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/03/collaboration-in-coding/"/>
-    <id>https://codio.com/s/blog/2013/03/collaboration-in-coding/</id>
-    <published>2013-03-15T00:00:00Z</published>
-    <updated>2013-03-15T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;As you should already know by now, we &lt;a href="/s/blog/2013/03/codio-is-live-and-kicking/"&gt;launched&lt;/a&gt; Codio into public beta yesterday. It's an all new cloud based IDE, and it will be the very first cloud based IDE that every developer will love to use, day in and day out.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“We live not in a passive society...&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
-    <content type="html">&lt;p&gt;As you should already know by now, we &lt;a href="/s/blog/2013/03/codio-is-live-and-kicking/"&gt;launched&lt;/a&gt; Codio into public beta yesterday. It&amp;#39;s an all new cloud based IDE, and it will be the very first cloud based IDE that every developer will love to use, day in and day out.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“We live not in a passive society, a read-only society, but in a writable society.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Collaboration is the very first thing we thought about when we first sat down to plan Codio, and has continued to be at the very heart of almost everything we are building since.&lt;/p&gt;
-
-&lt;p&gt;Collaboration is arguably the single biggest advantage when using software in the browser, because the browser is constantly connected via the internet, and because the browser is now the most used application on almost any device. Collaboration is also hugely important when writing software and especially when building for the web. It empowers us to do more, while remaining in the [virtual] company of our friends and colleague&amp;#39;s.&lt;/p&gt;
-
-&lt;p&gt;The cost of collaborating between you and others when using the browser and the internet are zero. Email, Twitter, Skype - these are all free to use, and they are all about collaboration.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;quot;It is the long history of humankind (and animal kind, too) those who learned to collaborate and improvise most effectively have prevailed.&amp;quot; - Charles Darwin&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ah, but now I hear a few of you asking the question &amp;quot;&lt;strong&gt;what if I don&amp;#39;t have anyone to collaborate with?&lt;/strong&gt;&amp;quot;. The answer to that is easy and simple... &lt;strong&gt;you do!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The world is full of like-minded people just like you. People who love building web apps, designing web sites, or creating mobile applications. And they all have something to share, even you! And whether you realise it or not, you co-ordinate and collaborate every single day, with people you have never met or spoken to before. No matter what accomplishments you make, odds are somebody helped you along the way.&lt;/p&gt;
-
-&lt;p&gt;The largest sites are essentially all about encouraging collaboration and making it easier for us to co-ordinate with each other. Sites and apps like Facebook, Twitter, Gmail, Wikipedia, Github, Basecamp, and now Codio are leading the way here.&lt;/p&gt;
-
-&lt;p&gt;Collaboration is &lt;em&gt;extremely&lt;/em&gt; powerful, and we think you&amp;#39;ll love what you can already do with Codio. If you &lt;a href="https://twitter.com/codiohq"&gt;follow us on Twitter&lt;/a&gt; we&amp;#39;ll let you know every time we increase our levels of collaboration within Codio, because we have loads more planned.&lt;/p&gt;
-
-&lt;p&gt;Over the next few posts, I will be detailing just how Codio can help improve collaboration for you and your team.&lt;/p&gt;
 </content>
   </entry>
 </feed>

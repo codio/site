@@ -21,7 +21,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-30a01bea.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-4fe614ed.css" media="screen" rel="stylesheet" type="text/css" />
 
     
       <link href="/sitebar.css" media="screen" rel="stylesheet" type="text/css" />
@@ -87,176 +87,6 @@
 <div class="container clearfix">
 
   <section class="posts">
-    
-
-      <article>
-        <h1><a href="/s/blog/2013/03/building-with-grunt/">Building with Grunt</a></h1>
-
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/03/building-with-grunt/">March 26, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/03/building-with-grunt/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/03/building-with-grunt/" data-via="codiohq" data-size="small" data-count="none" data-text="Building with Grunt">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/03/building-with-grunt/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/03/building-with-grunt/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-
-        
-          <img alt="Building with Grunt" align="left" class="blog-img" src="/s/img/blog/grunt-logo-0a74831e.png" />
-        
-        <p><a href="http://gruntjs.com/">Grunt</a> is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.</p>
-
-<p>As part of last Friday&#39;s <a href="/s/blog/2013/03/our-twenty-percent-time/">weekly hack day</a>, I spent the day upgrading our Grunt installation and our custom tasks to the latest 0.4 version. So I thought I&#39;d write a short article on what Grunt is and how we use it at Codio.</p>
-
-<h2 id="toc_0">What is Grunt?</h2>
-
-<p>It&#39;s a Javascript task runner, which simply means you can use it to automate your most mundane and common development and build tasks. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes.</p>
-
-<p>Since version 0.4, Grunt has really matured and come out of its shell, and now boasts a large ecosystem of plugins that can help you automate pretty much anything you want. And if you don&#39;t find a plugin that does what you want, it&#39;s extremely easy to write one yourself.</p>
-
-<h2 id="toc_1">How to install Grunt?</h2>
-
-<p>Grunt runs on <a href="http://nodejs.org/">NodeJS</a>, and is installed and managed via <a href="https://npmjs.org/">NPM</a>. So if you haven&#39;t already, make sure you have both those installed.</p>
-
-<p>To install Grunt, just use NPM:</p>
-
-<pre><code>npm install -g grunt-cli
-</code></pre>
-
-<p>This will give you a handy little <code>grunt</code> command, which you will use to run your Grunt tasks.</p>
-
-<h2 id="toc_2">Preparing your Project for Grunt</h2>
-
-<p>A typical setup will require two files:</p>
-
-<ul>
-<li><strong>package.json</strong> - This file is used by NPM to manage your projects dependencies, and is also used by Grunt to manage its dependencies.</li>
-<li><strong>Gruntfile.js</strong> - This is where you define and configure your tasks.</li>
-</ul>
-
-<p>Create a new file in the root of your project called <code>package.json</code>:</p>
-
-<pre><code>{
-  &quot;name&quot;: &quot;my-project-name&quot;,
-  &quot;version&quot;: &quot;0.1.0&quot;,
-  &quot;devDependencies&quot;: {
-    &quot;grunt&quot;: &quot;~0.4.1&quot;,
-    &quot;grunt-contrib-uglify&quot;: &quot;~0.2.0&quot;
-  }
-}
-</code></pre>
-
-<p>This tells NPM that we depend on the <code>grunt</code> and <code>grunt-contrib-uglify</code> packages. Running the following will install these dependencies:</p>
-
-<pre><code>npm install
-</code></pre>
-
-<p>Now create your <code>Gruntfile.js</code>, which also belongs in the root of your project alongside <code>package.json</code>. Fill the file with the following:</p>
-
-<pre><code>module.exports = function(grunt) {
-
-  // Project configuration.
-  grunt.initConfig({
-    uglify: {
-      build: {
-        src: &#39;src/script.js&#39;,
-        dest: &#39;build/script.min.js&#39;
-      }
-    }
-  });
-
-  // Load the plugin that provides the &quot;uglify&quot; task.
-  grunt.loadNpmTasks(&#39;grunt-contrib-uglify&#39;);
-
-  // Default task(s).
-  grunt.registerTask(&#39;default&#39;, [&#39;uglify&#39;]);
-
-};
-</code></pre>
-
-<p>Lets run through this file from top to bottom...</p>
-
-<p><strong>Line 4</strong> is where we set define our configuration for the tasks we want to use. Each top level element defines a task. In our example, we have just one task <code>uglify</code>, which simply takes the value of <code>build.src</code>, runs it through the Uglify lib and places its output in a new file as specified with the value of <code>buil.dest</code>.</p>
-
-<pre><code>grunt.initConfig({
-  uglify: {
-    build: {
-      src: &#39;src/script.js&#39;,
-      dest: &#39;build/script.min.js&#39;
-    }
-  }
-});
-</code></pre>
-
-<p><strong>Line 14</strong> tells Grunt to load the <code>grunt-contrib-uglify</code> task from the NPM package specified in our <code>package.json</code>.</p>
-
-<p>Then finally on <strong>line 17</strong>, we create a new <code>default</code> task, which is simply an alias for the <code>uglify</code> task. The <code>default</code> task will be run if you don&#39;t specify any task on the command line. So the following three commands are now identical:</p>
-
-<pre><code>grunt uglify
-grunt default
-grunt
-</code></pre>
-
-<h2 id="toc_3">Summary</h2>
-
-<p>Grunt has a great ecosystem of open source plugins, and a place to <a href="http://gruntjs.com/plugins">find and search for the plugin you want</a>. I strongly recommend that you take a look through them.</p>
-
-<p>Hopefully from this simple example, you can see how easy and powerful Grunt can be. It&#39;s also worth noting that we have plans to implement a similar task based system directly into Codio. So watch this space!</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/03/building-with-grunt/" data-via="codiohq" data-size="small" data-count="none" data-text="Building with Grunt">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/03/building-with-grunt/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/03/building-with-grunt/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
     
 
       <article>
@@ -542,10 +372,115 @@ grunt
 
     
 
+      <article>
+        <h1><a href="/s/blog/2013/03/codio-is-live-and-kicking/">Codio is Live and Kicking!</a></h1>
+
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/03/codio-is-live-and-kicking/">March 13, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/03/codio-is-live-and-kicking/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/03/codio-is-live-and-kicking/" data-via="codiohq" data-size="small" data-count="none" data-text="Codio is Live and Kicking!">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/03/codio-is-live-and-kicking/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/03/codio-is-live-and-kicking/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+
+        
+        <p>We are extremely excited to announce the immediate availability of Codio in public beta. This means you can play with what will become the world&#39;s very first IDE that addresses all aspects of the HTML5 development life-cycle right now! We&#39;re building an IDE that any developer will want and enjoy using every single day, because there is currently no such thing.</p>
+
+<p>But don&#39;t take my word for it. <strong>Just click the &quot;Create &amp; Play!&quot;</strong> link at the top of the page to create your first Codio project.</p>
+
+<p><img alt="Codio IDE" src="/s/img/blog/ide-68ac0fff.png" /></p>
+
+<p>It&#39;s been a hard and arduous road, but we&#39;re finally at the start of it. Yes I did say the start, and that&#39;s because we have so much more to come. Building the perfect IDE is no small task you know, but what we&#39;re releasing today is the foundation that will set up that which is to come.</p>
+
+<p>Check out the press release and subscribe to this blog to stay informed...</p>
+
+<blockquote>
+<p>Codio today announced its launch in public beta, giving developers of all skill levels access to a powerful, web-based visual IDE for HTML5+CSS+JS development. More than a typical code editor, Codio covers the complete web development cycle, from prototype to deployment. It offers novice developers a barrier free way to learn how to build web applications, but is also targeted very much at professional web developers.</p>
+
+<p>“There is a lot of stuff to install, setup and configure before you can write a single line of code. We feel that  there is no good reason for this and even developers, who deal with complexity on a daily basis, don’t like to waste  time. Modern web applications have raised expectations significantly with respect to usability and a web based approach to web development opens up lots of exciting new possibilities. Ultimately, coding should be fun and a happy developer produces happy code!” says CEO Freddy May.</p>
+
+<p>The evolution of the web has witnessed paradigm shifts in new web technologies. The demand and popularity of web app development has, consequently, secured HTML5, CSS and JavaScript its place among the most popular development  languages. As a large number of modern applications now run in browsers, these technologies have become an integral part of most software development projects.</p>
+
+<p>“By concentrating specifically on HTML5, CSS and JavaScript we can focus on the largest part of the developer ecosystem. This allows us constantly to add significant value that would otherwise not be possible if we were to try to cater for all languages,” says May.</p>
+
+<p>In the era of the cloud it is logical that web applications should not just run on the web, but also be built on the web. Codio offers developers an efficient, modern, and secure IDE whose code is accessible anywhere online via Codio workspaces and shareable with others in a similar way to Github.</p>
+
+<p>Codio makes getting started very simple by allowing developers to use it without even signing up. It offers a comfortable environment not just for code editing but also deployment, collaboration, Git and Mercurial integration, as well as support for derivative languages such as Coffeescript, SCSS, LESS all without the need to install, configure and maintain hardware and software stacks.</p>
+
+<p>Codio also brings enhanced collaboration to developers. Traditionally, developers collaborate using web based code repositories such as Github and Bitbucket. Codio supports Source Control Management but also adds real time code editing by multiple developers rather like Google Docs. Text chat, voice chat and video are also planned for later this year.</p>
+
+<p>Codio is being aggressively developed and many new features will be appearing on a continuous deployment basis. Some notable features on the horizon are:</p>
+
+<p>Multi-pane code editing<br>
+Development, staging, production deployment targets<br>
+WYSIWYG GUI editor<br>
+Interactive code documentation for teaching<br>
+Instant preview<br>
+Version control<br>
+Node.js support</p>
+
+<p>Codio is expected to come out of Public Beta in middle of 2013.</p>
+</blockquote>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/03/codio-is-live-and-kicking/" data-via="codiohq" data-size="small" data-count="none" data-text="Codio is Live and Kicking!">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/03/codio-is-live-and-kicking/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/03/codio-is-live-and-kicking/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
     
       <section class="pagination clearfix">
-        
-          <p><a href="/s/blog/page/3/">&laquo; older posts</a></p>
         
         
           <p><a href="/s/blog/">newer posts &raquo;</a></p>
@@ -567,8 +502,6 @@ grunt
           
             <li><a href="/s/blog/2013/04/say-it-with-a-sample/">Codio:Annotations - Say it with a sample</a></li>
           
-            <li><a href="/s/blog/2013/04/post-curriculum/">A Post-Curriculum approach to teaching programming</a></li>
-          
             <li><a href="/s/blog/2013/04/drag-and-drop-in-the-file-explorer/">Drag and Drop in the File Explorer</a></li>
           
             <li><a href="/s/blog/2013/03/codio-for-education/">Teaching to Code, Learning to Code</a></li>
@@ -581,6 +514,8 @@ grunt
           
             <li><a href="/s/blog/2013/03/we-are-hiring-engineers/">We're Hiring Frontend Engineers</a></li>
           
+            <li><a href="/s/blog/2013/03/codio-is-live-and-kicking/">Codio is Live and Kicking!</a></li>
+          
         </ul>
       </section>
     
@@ -589,13 +524,13 @@ grunt
       <h4>on this page...</h4>
       <ul>
         
-          <li><a href="/s/blog/2013/03/building-with-grunt/">Building with Grunt</a></li>
-        
           <li><a href="/s/blog/2013/03/our-twenty-percent-time/">Our 20% Time</a></li>
         
           <li><a href="/s/blog/2013/03/collaboration-in-coding/">Collaboration in Coding</a></li>
         
           <li><a href="/s/blog/2013/03/we-are-hiring-engineers/">We're Hiring Frontend Engineers</a></li>
+        
+          <li><a href="/s/blog/2013/03/codio-is-live-and-kicking/">Codio is Live and Kicking!</a></li>
         
       </ul>
     </section>

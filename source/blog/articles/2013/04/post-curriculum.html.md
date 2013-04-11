@@ -5,7 +5,7 @@ date: 2013-04-10
 tags: tutorials, programming, development, coding, teaching, learning
 class_name: blog
 full_width: true
-published: true
+published: false
 ---
 
 ##Does the West realize just how important programming is?

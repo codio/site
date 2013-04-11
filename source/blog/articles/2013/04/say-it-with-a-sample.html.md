@@ -1,5 +1,5 @@
 ---
-title: "Codio: Annotations - Say it with a sample"
+title: "Codio:Annotations - Say it with a sample"
 author: Freddy May
 date: 2013-04-10
 tags: tutorials, programming, development, coding, teaching, learning
@@ -41,7 +41,7 @@ When I am learning about a something new, there are two things I always yearn fo
 - The tutorial seamlessly wrapped up with a **real, fully working code example**
 - Interactivity - being able to run, explore, fork, edit etc.
 
-... and this is exactly what Codio: Annotations offers.
+... and this is exactly what Codio:Annotations offers.
 
 ##The same tutorial run in Codio
 So, let's see how Codio can change the approach to the same tutorial
@@ -117,7 +117,7 @@ If you agree that Codio is a force for good whether in education or for professi
 - <a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank">Tweet your support</a>
 - <a href="http://www.facebook.com/CodioHQ" target="_blank">Like us on Facebook</a>
 - Add a comment at the bottom of this page
-- Just let others know about Codio: Annotations
+- Just let others know about Codio:Annotations
 
 Thanks!
 

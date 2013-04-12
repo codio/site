@@ -45,7 +45,7 @@ Even though Codio will have a unique and rich set of code annotation and documen
 ##What about Teachers and Teaching
 We aim for these initiatives to be a rich resource for teachers to draw on. As every bit of content is open and collaborative, we expect forward looking teachers to be active participants and take inspiration from others and pass this on. They can structure their own courses around existing materials, always looking to update and use the best content available. We think this will attract the new generation of teachers as well as the new generation of coders.
 
-##Turning student on to coding - celebrity coders
+##Turning students on to coding - celebrity coders
 We want to organize global Webinars and interviews with luminaries from the world of coding. These webinars will stimulate pupils and students to hear straight from the mouths of important software developers why it is such a great profession.
 
 ##Teach to 30,000 not 30

@@ -11,8 +11,7 @@ submenu:
     url: '#education'
 ---
 
-
-<section id="features">
+<section id="about">
   <p>Codio was conceived from the dream of building the perfect IDE for front-end web development. An IDE developers would love to use every single day. One that is rich with features, fast and efficient, allowing developers to develop without leaving the browser.</p>
 
   <p>We want to deliver an IDE that will evolve into a unique way of building everything from websites to applications, libraries and frameworks. And, we are going to be adding exciting plugins that cover more and more of the development lifecycle, such as:</p>
@@ -41,3 +40,8 @@ submenu:
 
   <p>Anybody - individuals learning from home or students in every school, college or university in the world - can use it free of charge, empowering students and the web community to work together to inspire, teach and enable the next generation of web developers.</p>
 </section>
+
+
+<% content_for :foot do %>
+  <%= javascript_include_tag 'vendor/scrollspy' %>
+<% end %>

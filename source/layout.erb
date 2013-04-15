@@ -38,7 +38,7 @@
 
     <link href="https://codio.com/s/blog/feed.xml" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Codio - the perfect IDE people" type="application/atom+xml"/>
   </head>
-  <body class="<%= current_page.data.class_name || 'standard' %>">
+  <body class="<%= current_page.data.class_name || 'standard' %>" data-spy="scroll" data-target="aside">
     <a id="top"></a>
 
     <div class="wrap">
@@ -88,7 +88,7 @@
 
         <div class="container clearfix">
           <aside>
-            <ul id="submenu">
+            <ul id="submenu" class="nav">
               <% current_page.data.submenu.each do |f| %>
                 <li class="<%= 'active' if f.active %>">
                   <a href="<%= f.url %>"><%= f.text %></a>

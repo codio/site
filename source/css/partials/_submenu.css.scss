@@ -2,11 +2,14 @@
 // =================================================================================================
 
 aside {
-  display: block;
-  float: left;
-  width: 300px;
+  position: absolute;
   color: #666;
   margin-top: 10px;
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+  }
 
   ul#submenu {
     list-style: none;

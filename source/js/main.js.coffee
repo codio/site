@@ -34,7 +34,7 @@ $ ->
   (links = $('#nav-banner a')).on 'click', navBannerClick
 
 
-  if location.hash
+  if location.hash and $('#nav-banner').length > 0
     navBannerClick.call $("#nav-banner [href=#{location.hash}]")[0]
 
 
@@ -70,6 +70,23 @@ $ ->
         type: 'inside'
     beforeLoad: ->
       this.title = $(this.element).find('img').attr('title')
+
+
+$ ->
+
+  if (aside = $('body.standard aside')).length > 0
+
+    # Floating submenu
+    top = aside.offset().top - parseFloat(aside.css('marginTop').replace(/auto/, 0))
+    $(window).scroll (event)->
+      # whether that's below the form
+      if $(this).scrollTop() >= top
+        # if so, ad the fixed class
+        aside.addClass('fixed')
+      else
+        # otherwise remove it
+        aside.removeClass('fixed')
+
 
 
 # Blog

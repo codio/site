@@ -21,7 +21,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-1419a58e.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-f8afd3ac.css" media="screen" rel="stylesheet" type="text/css" />
 
     
       <link href="/sitebar.css" media="screen" rel="stylesheet" type="text/css" />
@@ -31,7 +31,7 @@
 
     <link href="https://codio.com/s/blog/feed.xml" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Codio - the perfect IDE people" type="application/atom+xml"/>
   </head>
-  <body class="blog">
+  <body class="blog" data-spy="scroll" data-target="aside">
     <a id="top"></a>
 
     <div class="wrap">
@@ -58,7 +58,7 @@
 
             <ul id="navigation">
               <li><a data-no-turbolink="true" href="/s/#education">Education</a></li>
-              <li><a href="/#features" data-no-turbolink>Features</a></li>
+              <li><a data-no-turbolink="true" href="/s/#features">Features</a></li>
               <li><a data-no-turbolink="true" href="/s/docs">Docs</a></li>
               <li><a data-no-turbolink="true" href="/s/about">About</a></li>
             </ul>
@@ -67,7 +67,8 @@
         </div>
       </nav>
 
-      <div id="fb-root"></div>
+      
+        <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -574,6 +575,8 @@ grunt
       <h4>Latest posts...</h4>
       <ul>
         
+          <li><a href="/s/blog/2013/04/add-a-readme-file-to-your-project/">Add a Readme file to your project</a></li>
+        
           <li><a href="/s/blog/2013/04/post-curriculum/">A Post-Curriculum approach to teaching programming</a></li>
         
           <li><a href="/s/blog/2013/04/say-it-with-a-sample/">Codio:Annotations - Say it with a sample</a></li>
@@ -587,8 +590,6 @@ grunt
           <li><a href="/s/blog/2013/03/our-twenty-percent-time/">Our 20% Time</a></li>
         
           <li><a href="/s/blog/2013/03/collaboration-in-coding/">Collaboration in Coding</a></li>
-        
-          <li><a href="/s/blog/2013/03/we-are-hiring-engineers/">We're Hiring Frontend Engineers</a></li>
         
       </ul>
     </section>
@@ -634,9 +635,10 @@ var disqus_shortname = 'codio'; // required: replace example with your forum sho
 }());
 </script>
 
-<script src="../../../js/vendor/rainbow-2b7edd35.js" type="text/javascript"></script>
+<script src="../../../js/vendor/rainbow.js" type="text/javascript"></script>
 <script src="../../../js/vendor/rainbow/generic-6a91084e.js" type="text/javascript"></script>
 <script src="../../../js/vendor/rainbow/javascript-5e0c6c6e.js" type="text/javascript"></script><link href="../../../css/lib/rainbow/github-164a4cfa.css" media="screen" rel="stylesheet" type="text/css" />
+      
 
     </div>
 
@@ -666,7 +668,7 @@ var disqus_shortname = 'codio'; // required: replace example with your forum sho
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-33074654.js"><\/script>')</script>
-<script src="../../../js/main-6b355db7.js" type="text/javascript"></script>
+<script src="../../../js/main-c22d3f0d.js" type="text/javascript"></script>
 
   <script>
     var _gaq = _gaq || [];

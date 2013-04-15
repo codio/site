@@ -15,9 +15,7 @@ $ ->
 
 # Home page feature lists
 $ ->
-  navBannerClick = (e)->
-    e && e.preventDefault()
-
+  navBannerClick = ->
     $this = $(this)
     type = $this.attr('href').slice(1)
 
@@ -36,18 +34,22 @@ $ ->
   (links = $('#nav-banner a')).on 'click', navBannerClick
 
 
+  if location.hash
+    navBannerClick.call $("#nav-banner [href=#{location.hash}]")[0]
+
+
   # Handle the "features" click in main navigation
-  $('#navigation a[href="/#features"]').on 'click', (e)->
-    if goto = $('#nav-banner [href=#current-features]')
-      navBannerClick.call $('#nav-banner [href=#current-features]')[0]
+  $('#navigation a[href="/#features"]').on 'click', ->
+    if goto = $('#nav-banner [href=#features]')
+      navBannerClick.call $('#nav-banner [href=#features]')[0]
 
   # Handle the "Education" click in main navigation
-  $('#navigation a[href="/#education"], #edulink').on 'click', (e)->
+  $('#navigation a[href="/#education"], #edulink').on 'click', ->
     if goto = $('#nav-banner [href=#education]')
       navBannerClick.call $('#nav-banner [href=#education]')[0]
 
   # Handle the "Roadmap" click in main navigation
-  $('#navigation a[href="/#roadmap"], #roadmaplink').on 'click', (e)->
+  $('#navigation a[href="/#roadmap"], #roadmaplink').on 'click', ->
     if goto = $('#nav-banner [href=#roadmap]')
       navBannerClick.call $('#nav-banner [href=#roadmap]')[0]
 

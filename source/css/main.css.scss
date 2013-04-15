@@ -133,6 +133,7 @@ img {
 
 // Import partials
 @import 'partials/nav';
+@import 'partials/standard';
 @import 'partials/nav-banner';
 @import 'partials/columned';
 @import 'partials/footer';
@@ -142,4 +143,3 @@ img {
 @import 'pages/pricing';
 @import 'pages/blog';
 @import 'pages/docs';
-@import 'pages/about';

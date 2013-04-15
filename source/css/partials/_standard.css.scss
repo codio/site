@@ -1,0 +1,46 @@
+// Standard page layout
+// =================================================================================================
+
+body.standard {
+
+  header {
+    background: #666666 image-url('bgcloth.png') repeat;
+    padding: 10px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+
+    h1 {
+      margin: 10px 0 15px 445px;
+      font-family: gotham_mediumregular;
+
+      small {
+        display: block;
+        text-transform: initial;
+        font: 20px gotham_thinregular;
+      }
+    }
+  }
+
+  @import 'partials/submenu';
+
+  article {
+    float: left;
+    margin-bottom: 50px;
+    width: 680px;
+
+    &> hr {
+      margin: 50px 0;
+    }
+
+    h2 {
+      margin-bottom: 35px;
+
+      small {
+        display: block;
+        text-transform: initial;
+        font: 18px gotham_thinregular;
+        margin-top: 4px;
+      }
+    }
+  }
+}

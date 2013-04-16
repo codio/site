@@ -5,35 +5,16 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-04-15T00:00:00Z</updated>
+  <updated>2013-04-16T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
   <entry>
-    <title>Add a Readme file to your project</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/04/add-a-readme-file-to-your-project/"/>
-    <id>https://codio.com/s/blog/2013/04/add-a-readme-file-to-your-project/</id>
-    <published>2013-04-15T00:00:00Z</published>
-    <updated>2013-04-15T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Hot on the heels of &lt;a href="/s/blog/2013/04/drag-and-drop-in-the-file-explorer"&gt;dragging and dropping files in the file explorer&lt;/a&gt;, we've just added another new feature that will really help others find out all they need to know about your projects. Just add a readme file into your project, and it will be shown...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Hot on the heels of &lt;a href="/s/blog/2013/04/drag-and-drop-in-the-file-explorer"&gt;dragging and dropping files in the file explorer&lt;/a&gt;, we&amp;#39;ve just added another new feature that will really help others find out all they need to know about your projects. Just add a readme file into your project, and it will be shown by default.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Readme File in your projects" src="/s/img/blog/readme-84ba748a.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;As long as you create a file called &lt;code&gt;readme&lt;/code&gt; or &lt;code&gt;readme.txt&lt;/code&gt;, it will be shown in the first tab of the IDE when your project is opened.&lt;/p&gt;
-
-&lt;p&gt;And if you want to make your readme look good, use the excellent &lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt; syntax to give your &lt;a href="https://codio.com/joelmoss/Log/tree/Log/README.md"&gt;readme&lt;/a&gt; some &lt;a href="https://codio.com/joelmoss/Log"&gt;style&lt;/a&gt;. Just use the &lt;code&gt;md&lt;/code&gt; or &lt;code&gt;markdown&lt;/code&gt; file extension.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>A Post-Curriculum approach to teaching programming</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/04/post-curriculum/"/>
     <id>https://codio.com/s/blog/2013/04/post-curriculum/</id>
-    <published>2013-04-11T00:00:00Z</published>
-    <updated>2013-04-11T00:00:00Z</updated>
+    <published>2013-04-16T00:00:00Z</published>
+    <updated>2013-04-16T00:00:00Z</updated>
     <author>
       <name>Freddy May</name>
     </author>
@@ -98,6 +79,25 @@
 &lt;h2 id="toc_8"&gt;So, let&amp;#39;s act&lt;/h2&gt;
 
 &lt;p&gt;We believe that this mini manifesto is the foundation for a revolutionary approach to the way coding is taught and gives access to a truly exciting and lucrative career to huge numbers of students. It is a great thing that developing countries can expand their economies thanks to IT and I don&amp;#39;t know of anyone who begrudges them this one bit. However, it is shameful that complacent western countries stand idly by and watch as IT skills drain away.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Add a Readme file to your project</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/04/add-a-readme-file-to-your-project/"/>
+    <id>https://codio.com/s/blog/2013/04/add-a-readme-file-to-your-project/</id>
+    <published>2013-04-15T00:00:00Z</published>
+    <updated>2013-04-15T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Hot on the heels of &lt;a href="/s/blog/2013/04/drag-and-drop-in-the-file-explorer"&gt;dragging and dropping files in the file explorer&lt;/a&gt;, we've just added another new feature that will really help others find out all they need to know about your projects. Just add a readme file into your project, and it will be shown...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Hot on the heels of &lt;a href="/s/blog/2013/04/drag-and-drop-in-the-file-explorer"&gt;dragging and dropping files in the file explorer&lt;/a&gt;, we&amp;#39;ve just added another new feature that will really help others find out all they need to know about your projects. Just add a readme file into your project, and it will be shown by default.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Readme File in your projects" src="/s/img/blog/readme-84ba748a.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;As long as you create a file called &lt;code&gt;readme&lt;/code&gt; or &lt;code&gt;readme.txt&lt;/code&gt;, it will be shown in the first tab of the IDE when your project is opened.&lt;/p&gt;
+
+&lt;p&gt;And if you want to make your readme look good, use the excellent &lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt; syntax to give your &lt;a href="https://codio.com/joelmoss/Log/tree/Log/README.md"&gt;readme&lt;/a&gt; some &lt;a href="https://codio.com/joelmoss/Log"&gt;style&lt;/a&gt;. Just use the &lt;code&gt;md&lt;/code&gt; or &lt;code&gt;markdown&lt;/code&gt; file extension.&lt;/p&gt;
 </content>
   </entry>
   <entry>

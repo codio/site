@@ -140,72 +140,131 @@ class_name: home
       </li>
     </ul>
 
-    <ul id="features" class="columned">
-      <li>
-        <p>These are our starter features in our journey to build the perfect web development IDE.</p>
-      </li>
-      <li>
+    <div id="features" class="columned">
+      <ul>
+        <li>
+          <p>These are our current list of features in our journey to build the perfect web development IDE.</p>
+        </li>
+        <li>
+          <ul id="feature-tabs">
+            <li class="active"><a href="#features-ide">IDE</a></li>
+            <li><a href="#features-education">Education</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div id="feature-groups">
         <ul>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-cog"></i> Any Web Application</h4>
-                <p>Any HTML5+CSS+JS front-end, web site, mobile web app or code library works in our IDE. And we're adding HAML, SCSS, SASS etc. before too long.</p>
-              </li>
-              <li>
-                <h4><i class="icon-edit"></i> Beautiful Code Editor</h4>
-                <p>Like many others, we're eternally grateful to the ACE project for the best web-based code editor in existence.</p>
-              </li>
-              <li>
-                <h4><i class="icon-cloud-upload"></i> Develop, Run, Host</h4>
-                <p>Codio is not just an IDE. It also lets you run and deploy your applications on the Codio platform.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-cloud"></i> 100% Cloud-Based &amp; Fast</h4>
-                <p>Everything runs in your browser and is blazingly fast. You can access and fork projects without even needing an account.</p>
-              </li>
-              <li>
-                <h4><i class="icon-refresh"></i> Highly Collaborative</h4>
-                <p>Codio allows any number of users to collaborate on real-time projects. Full Git/Hg integration is right around the corner.</p>
-              </li>
-              <li>
-                <h4><i class="icon-sitemap"></i> Fork any Project</h4>
-                <p>Fork any public or anonymous project without creating an account.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-group"></i> Teams &amp; Organizations</h4>
-                <p>You can group Codio users into teams, who can then be assigned read/write/admin access. Soon, teams will be a part of the special Organization account.</p>
-              </li>
-              <li>
-                <h4><i class="icon-cloud-download"></i> Import from Git, Hg and Zip</h4>
-                <p>Import from Git/Mercurial repos and ZIP files and your project can be run instantly within the IDE. Just press the Run button.</p>
-              </li>
-              <li>
-                <h4><i class="icon-user"></i> Anonymous Mode</h4>
-                <p>You can access the Codio IDE without even signing up. By bookmarking the URL any project you create will be only editable by you. Others can look at your code and even fork it.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-
-              <li>
-                <h4><i class="icon-comments-alt"></i> Private &amp; Public Projects</h4>
-                <p>Watch Codio in action by loading up some projects and running them in the IDE. Just load the app and run!</p>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
+        <li id="features-ide" class="active">
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-cog"></i> Any Web Application</h4>
+                  <p>Any HTML5+CSS+JS front-end, web site, mobile web app or code library works in our IDE. And we're adding HAML, SCSS, SASS etc. before too long.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-edit"></i> Beautiful Code Editor</h4>
+                  <p>Like many others, we're eternally grateful to the ACE project for the best web-based code editor in existence.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-cloud-upload"></i> Develop, Run, Host</h4>
+                  <p>Codio is not just an IDE. It also lets you run and deploy your applications on the Codio platform.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-cloud"></i> 100% Cloud-Based &amp; Fast</h4>
+                  <p>Everything runs in your browser and is blazingly fast. You can access and fork projects without even needing an account.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-refresh"></i> Highly Collaborative</h4>
+                  <p>Codio allows any number of users to collaborate on real-time projects. Full Git/Hg integration is right around the corner.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-sitemap"></i> Fork any Project</h4>
+                  <p>Fork any public or anonymous project without creating an account.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-comments-alt"></i> Private &amp; Public Projects</h4>
+                  <p>Watch Codio in action by loading up some projects and running them in the IDE. Just load the app and run!</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-group"></i> Teams &amp; Organizations</h4>
+                  <p>You can group Codio users into teams, who can then be assigned read/write/admin access. Soon, teams will be a part of the special Organization account.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-cloud-download"></i> Import from Git, Hg and Zip</h4>
+                  <p>Import from Git/Mercurial repos and ZIP files and your project can be run instantly within the IDE. Just press the Run button.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-user"></i> Anonymous Mode</h4>
+                  <p>You can access the Codio IDE without even signing up. By bookmarking the URL any project you create will be only editable by you. Others can look at your code and even fork it.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li id="features-education">
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-cog"></i> Any Web Application</h4>
+                  <p>Any HTML5+CSS+JS front-end, web site, mobile web app or code library works in our IDE. And we're adding HAML, SCSS, SASS etc. before too long.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-edit"></i> Beautiful Code Editor</h4>
+                  <p>Like many others, we're eternally grateful to the ACE project for the best web-based code editor in existence.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-cloud-upload"></i> Develop, Run, Host</h4>
+                  <p>Codio is not just an IDE. It also lets you run and deploy your applications on the Codio platform.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-cloud"></i> 100% Cloud-Based &amp; Fast</h4>
+                  <p>Everything runs in your browser and is blazingly fast. You can access and fork projects without even needing an account.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-refresh"></i> Highly Collaborative</h4>
+                  <p>Codio allows any number of users to collaborate on real-time projects. Full Git/Hg integration is right around the corner.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-sitemap"></i> Fork any Project</h4>
+                  <p>Fork any public or anonymous project without creating an account.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-group"></i> Teams &amp; Organizations</h4>
+                  <p>You can group Codio users into teams, who can then be assigned read/write/admin access. Soon, teams will be a part of the special Organization account.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-cloud-download"></i> Import from Git, Hg and Zip</h4>
+                  <p>Import from Git/Mercurial repos and ZIP files and your project can be run instantly within the IDE. Just press the Run button.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-user"></i> Anonymous Mode</h4>
+                  <p>You can access the Codio IDE without even signing up. By bookmarking the URL any project you create will be only editable by you. Others can look at your code and even fork it.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+    </div>
 
     <ul id="roadmap" class="columned">
       <li>

@@ -54,6 +54,25 @@ $ ->
       navBannerClick.call $('#nav-banner [href=#roadmap]')[0]
 
 
+  # Handle feature groups
+  $('#feature-tabs a').on 'click', (e)->
+    e.preventDefault()
+    $this = $(this)
+
+    $('#feature-groups > ul > li.active').transition
+      x: 2000
+      ->
+        $(this).removeClass 'active'
+        $($this.attr('href')).transition
+          x: 0
+          ->
+            $(this).addClass 'active'
+
+    parent = $this.parent()
+    parent.parent().find('li').removeClass 'active'
+    parent.addClass 'active'
+
+
 # Handles the hidden submenu.
 $ ->
   $('#content-body h1 button').click ->

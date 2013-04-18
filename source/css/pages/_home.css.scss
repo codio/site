@@ -106,11 +106,119 @@ body.home {
     padding-bottom: 70px;
   }
 
-  #benefits {
-    display: block;
+  #features {
+    height: 520px;
+    @include clearfix;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    > ul {
+      float: left;
+
+      // Left side intro and tabs
+      &:first-child {
+        width: 200px;
+        margin-right: 20px;
+
+        > li {
+          // Intro
+          &:first-child {
+            font-style: italic;
+            font-size: 16px;
+            text-align: right;
+            margin: 25px 0 40px 0;
+          }
+
+          // Tabs
+          &:last-child {
+            ul {
+              list-style: none;
+              padding: 0;
+              border-right: 1px solid #ddd;
+
+              li {
+                margin: 4px 0 4px 6px;
+
+                a {
+                  display: block;
+                  padding: 8px 16px 8px 14px;
+                  text-transform: uppercase;
+                  font-size: 16px;
+                  text-align: right;
+                  font-family: gotham_mediumregular;
+                }
+
+                &.active a {
+                  border: 1px solid #ddd;
+                  @include border-radius(8px 0 0 8px);
+                  border-color: #ddd #F9FAF7 #ddd #ddd;
+                  left: 1px;
+                  position: relative;
+                  color: #000;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // Right side feature list
+    #feature-groups {
+      float: left;
+      width: 720px;
+      margin: 15px 0 0 40px;
+
+      > ul {
+        width: 5000px;
+
+        > li {
+          position: absolute;
+          @include translate(2000px, 0);
+
+          &.active {
+            @include translate(0, 0);
+          }
+
+          > ul > li {
+            display: inline-block;
+            width: 212px;
+            vertical-align: top;
+            padding: 0 36px 15px 0;
+
+            &:last-child {
+              padding-right: 0;
+            }
+
+            h4 {
+              font-family: gotham_bookregular;
+              font-size: 18px;
+              margin: 10px 0 0;
+              color: #222;
+
+              i {
+                margin-top: 4px;
+                color: darken($red, 25%);
+              }
+            }
+
+            p {
+              font-size: 13px;
+              color: #777;
+            }
+          }
+        }
+      }
+    }
   }
 
   #benefits {
+    display: block;
+
     > li:first-child {
       width: 980px;
 

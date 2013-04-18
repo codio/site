@@ -19,7 +19,7 @@ $ ->
     $this = $(this)
     type = $this.attr('href').slice(1)
 
-    $('.switched-lists .container > ul:visible').fadeOut ->
+    $('.switched-lists .container > *:visible').fadeOut ->
       do $("##{type}").fadeIn
 
     links.parent().removeClass 'active'
@@ -52,6 +52,25 @@ $ ->
   $('#navigation a[href="/#roadmap"], #roadmaplink').on 'click', ->
     if goto = $('#nav-banner [href=#roadmap]')
       navBannerClick.call $('#nav-banner [href=#roadmap]')[0]
+
+
+  # Handle feature groups
+  $('#feature-tabs a').on 'click', (e)->
+    e.preventDefault()
+    $this = $(this)
+
+    $('#feature-groups > ul > li.active').transition
+      x: 2000
+      ->
+        $(this).removeClass 'active'
+        $($this.attr('href')).transition
+          x: 0
+          ->
+            $(this).addClass 'active'
+
+    parent = $this.parent()
+    parent.parent().find('li').removeClass 'active'
+    parent.addClass 'active'
 
 
 # Handles the hidden submenu.

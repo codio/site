@@ -43,11 +43,6 @@ $ ->
     if goto = $('#nav-banner [href=#features]')
       navBannerClick.call $('#nav-banner [href=#features]')[0]
 
-  # Handle the "Education" click in main navigation
-  $('#navigation a[href="/#education"], #edulink').on 'click', ->
-    if goto = $('#nav-banner [href=#education]')
-      navBannerClick.call $('#nav-banner [href=#education]')[0]
-
   # Handle the "Roadmap" click in main navigation
   $('#navigation a[href="/#roadmap"], #roadmaplink').on 'click', ->
     if goto = $('#nav-banner [href=#roadmap]')
@@ -59,12 +54,14 @@ $ ->
     e.preventDefault()
     $this = $(this)
 
-    $('#feature-groups > ul > li.active').transition
-      x: 2000
+    $('#feature-groups section.active').transition
+      x: 1000
+      opacity: 0
       ->
         $(this).removeClass 'active'
         $($this.attr('href')).transition
           x: 0
+          opacity: 1
           ->
             $(this).addClass 'active'
 

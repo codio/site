@@ -115,20 +115,14 @@ class_name: home
     </ul>
 
     <div id="features" class="columned">
-      <ul>
-        <li>
-
-        </li>
-        <li>
-          <ul id="feature-tabs">
-            <li class="active"><a href="#features-ide">IDE</a></li>
-            <li><a href="#features-education">Annotations</a></li>
-          </ul>
-        </li>
-      </ul>
+      <div>
+        <ul id="feature-tabs">
+          <li class="active"><a href="#features-ide">IDE</a></li>
+          <li><a href="#features-education">Annotations</a></li>
+        </ul>
+      </div>
       <div id="feature-groups">
-        <ul>
-        <li id="features-ide" class="active">
+        <section id="features-ide" class="active">
           <ul>
             <li>
               <ul>
@@ -183,9 +177,10 @@ class_name: home
               </ul>
             </li>
           </ul>
-        </li>
-        <li id="features-education"><h4>Please visit the  <%= link_to 'Codio:Annotations documentation', '/docs/annotations/' %> page for details.</h4>
-          <h4>Find out what we're foing for education and <%= link_to 'teaching people to code', '/education' %>.</h4></br></br>
+        </section>
+        
+        <section id="features-education"><h4>Please visit the  <%= link_to 'Codio:Annotations documentation', '/docs/annotations/' %> page for details.</h4>
+          <h4>Find out what we're doing for education and <%= link_to 'teaching people to code', '/education' %>.</h4></br></br>
           <ul>
             <li>
               <ul>
@@ -236,8 +231,7 @@ class_name: home
               </ul>
             </li>
           </ul>
-        </li>
-      </ul>
+        </section>
       </div>
     </div>
 

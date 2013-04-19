@@ -16,5 +16,5 @@ If you do not want your project to be visble to third parties, then you should m
 We are not yet operating any paid accounts, but just a hot tip that when we do, private projects will only be available in paid accounts.
 
 ## Exploring Public Projects
-We have not yet added any real functionality to let you explore public accounts and projects, but this will be coming before very long. We will also add support for Watching, Starring, Tagging and other Github-like features.
+We have not yet added any real functionality to let you explore public accounts and projects, but this will be coming before very long. We will also add support for Watching, Starring, Tagging and other GitHub-like features.
 

@@ -34,6 +34,6 @@ We want someone who is free thinking, passionate and has a love of what they do.
 We're a distributed team with our HQ in the UK, so you will be able to work from anywhere you please. We would prefer if you were UK or European based, but if you're really good, we don't care where you are.
 
 ## To Apply
-Drop us an email at [work@codio.com](mailto:work@codio.com) telling us why we should hire you, along with your resume/CV if you have one. Although we'd be much more interested in your Github profile, which speaks volumes about you and what you are capable of.
+Drop us an email at [work@codio.com](mailto:work@codio.com) telling us why we should hire you, along with your resume/CV if you have one. Although we'd be much more interested in your GitHub profile, which speaks volumes about you and what you are capable of.
 
 If you have any questions, please let me know in the blog comments.

@@ -23,7 +23,7 @@ Ah, but now I hear a few of you asking the question "**what if I don't have anyo
 
 The world is full of like-minded people just like you. People who love building web apps, designing web sites, or creating mobile applications. And they all have something to share, even you! And whether you realise it or not, you co-ordinate and collaborate every single day, with people you have never met or spoken to before. No matter what accomplishments you make, odds are somebody helped you along the way.
 
-The largest sites are essentially all about encouraging collaboration and making it easier for us to co-ordinate with each other. Sites and apps like Facebook, Twitter, Gmail, Wikipedia, Github, Basecamp, and now Codio are leading the way here.
+The largest sites are essentially all about encouraging collaboration and making it easier for us to co-ordinate with each other. Sites and apps like Facebook, Twitter, Gmail, Wikipedia, GitHub, Basecamp, and now Codio are leading the way here.
 
 Collaboration is *extremely* powerful, and we think you'll love what you can already do with Codio. If you [follow us on Twitter](https://twitter.com/codiohq) we'll let you know every time we increase our levels of collaboration within Codio, because we have loads more planned.
 

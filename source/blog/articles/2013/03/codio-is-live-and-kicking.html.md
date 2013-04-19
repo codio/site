@@ -24,11 +24,11 @@ Check out the press release and subscribe to this blog to stay informed...
 >
 > “By concentrating specifically on HTML5, CSS and JavaScript we can focus on the largest part of the developer ecosystem. This allows us constantly to add significant value that would otherwise not be possible if we were to try to cater for all languages,” says May.
 >
-> In the era of the cloud it is logical that web applications should not just run on the web, but also be built on the web. Codio offers developers an efficient, modern, and secure IDE whose code is accessible anywhere online via Codio workspaces and shareable with others in a similar way to Github.
+> In the era of the cloud it is logical that web applications should not just run on the web, but also be built on the web. Codio offers developers an efficient, modern, and secure IDE whose code is accessible anywhere online via Codio workspaces and shareable with others in a similar way to GitHub.
 >
 > Codio makes getting started very simple by allowing developers to use it without even signing up. It offers a comfortable environment not just for code editing but also deployment, collaboration, Git and Mercurial integration, as well as support for derivative languages such as Coffeescript, SCSS, LESS all without the need to install, configure and maintain hardware and software stacks.
 >
-> Codio also brings enhanced collaboration to developers. Traditionally, developers collaborate using web based code repositories such as Github and Bitbucket. Codio supports Source Control Management but also adds real time code editing by multiple developers rather like Google Docs. Text chat, voice chat and video are also planned for later this year.
+> Codio also brings enhanced collaboration to developers. Traditionally, developers collaborate using web based code repositories such as GitHub and Bitbucket. Codio supports Source Control Management but also adds real time code editing by multiple developers rather like Google Docs. Text chat, voice chat and video are also planned for later this year.
 >
 > Codio is being aggressively developed and many new features will be appearing on a continuous deployment basis. Some notable features on the horizon are:
 >

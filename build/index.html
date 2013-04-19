@@ -21,7 +21,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="s/css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="s/css/boilerplate-4c406c45.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="s/css/boilerplate-2a4194fc.css" media="screen" rel="stylesheet" type="text/css" />
 
     
       <link href="/sitebar.css" media="screen" rel="stylesheet" type="text/css" />
@@ -57,7 +57,7 @@
             </ul>
 
             <ul id="navigation">
-              <li><a data-no-turbolink="true" href="/#education">Education</a></li>
+              <li><a data-no-turbolink="true" href="/codio-education">Education</a></li>
               <li><a data-no-turbolink="true" href="/#features">Features</a></li>
               <li><a data-no-turbolink="true" href="/s/docs">Docs</a></li>
               <li><a data-no-turbolink="true" href="/s/about">About</a></li>
@@ -71,8 +71,9 @@
         <header>
   <div class="container">
 
-    <div id="public-stamp">
-      <img width="310" alt="Visual Development in the Cloud" src="s/img/home/free-public-beta-13f09b51.png" />
+    <div id="public-stamp" class="nofade">
+      <a class="nofade" href="/s/education"><img width="330x158" alt="Let's get Coding taught in our schools. - Support our Campaign" src="s/img/home/support-campaign-e06cacd7.png" /></a>
+      
     </div>
 
     <div class="clearfix">
@@ -205,72 +206,131 @@
       </li>
     </ul>
 
-    <ul id="features" class="columned">
-      <li>
-        <p>These are our starter features in our journey to build the perfect web development IDE.</p>
-      </li>
-      <li>
+    <div id="features" class="columned">
+      <ul>
+        <li>
+  
+        </li>
+        <li>
+          <ul id="feature-tabs">
+            <li class="active"><a href="#features-ide">IDE</a></li>
+            <li><a href="#features-education">Annotations</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div id="feature-groups">
         <ul>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-cog"></i> Any Web Application</h4>
-                <p>Any HTML5+CSS+JS front-end, web site, mobile web app or code library works in our IDE. And we're adding HAML, SCSS, SASS etc. before too long.</p>
-              </li>
-              <li>
-                <h4><i class="icon-edit"></i> Beautiful Code Editor</h4>
-                <p>Like many others, we're eternally grateful to the ACE project for the best web-based code editor in existence.</p>
-              </li>
-              <li>
-                <h4><i class="icon-cloud-upload"></i> Develop, Run, Host</h4>
-                <p>Codio is not just an IDE. It also lets you run and deploy your applications on the Codio platform.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-cloud"></i> 100% Cloud-Based &amp; Fast</h4>
-                <p>Everything runs in your browser and is blazingly fast. You can access and fork projects without even needing an account.</p>
-              </li>
-              <li>
-                <h4><i class="icon-refresh"></i> Highly Collaborative</h4>
-                <p>Codio allows any number of users to collaborate on real-time projects. Full Git/Hg integration is right around the corner.</p>
-              </li>
-              <li>
-                <h4><i class="icon-sitemap"></i> Fork any Project</h4>
-                <p>Fork any public or anonymous project without creating an account.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-group"></i> Teams &amp; Organizations</h4>
-                <p>You can group Codio users into teams, who can then be assigned read/write/admin access. Soon, teams will be a part of the special Organization account.</p>
-              </li>
-              <li>
-                <h4><i class="icon-cloud-download"></i> Import from Git, Hg and Zip</h4>
-                <p>Import from Git/Mercurial repos and ZIP files and your project can be run instantly within the IDE. Just press the Run button.</p>
-              </li>
-              <li>
-                <h4><i class="icon-user"></i> Anonymous Mode</h4>
-                <p>You can access the Codio IDE without even signing up. By bookmarking the URL any project you create will be only editable by you. Others can look at your code and even fork it.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-
-              <li>
-                <h4><i class="icon-comments-alt"></i> Private &amp; Public Projects</h4>
-                <p>Watch Codio in action by loading up some projects and running them in the IDE. Just load the app and run!</p>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
+        <li id="features-ide" class="active">
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-cog"></i> Any Web Application</h4>
+                  <p>Any HTML5+CSS+JS front-end, web site, mobile web app or code library works in our IDE. And we're adding HAML, SCSS, SASS etc. before too long.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-edit"></i> Beautiful Code Editor</h4>
+                  <p>Like many others, we're eternally grateful to the ACE project for the best web-based code editor in existence.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-cloud-upload"></i> Develop, Run, Host</h4>
+                  <p>Codio is not just an IDE. It also lets you run and deploy your applications on the Codio platform.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-cloud"></i> 100% Cloud-Based &amp; Fast</h4>
+                  <p>Everything runs in your browser and is blazingly fast. You can access and fork projects without even needing an account.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-refresh"></i> Highly Collaborative</h4>
+                  <p>Codio allows any number of users to collaborate on real-time projects. Full Git/Hg integration is right around the corner.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-sitemap"></i> Fork any Project</h4>
+                  <p>Fork any public or anonymous project without creating an account.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-comments-alt"></i> Private &amp; Public Projects</h4>
+                  <p>Watch Codio in action by loading up some projects and running them in the IDE. Just load the app and run!</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-group"></i> Teams &amp; Organizations</h4>
+                  <p>You can group Codio users into teams, who can then be assigned read/write/admin access. Soon, teams will be a part of the special Organization account.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-cloud-download"></i> Import from Git, Hg and Zip</h4>
+                  <p>Import from Git/Mercurial repos and ZIP files and your project can be run instantly within the IDE. Just press the Run button.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-user"></i> Anonymous Mode</h4>
+                  <p>You can access the Codio IDE without even signing up. By bookmarking the URL any project you create will be only editable by you. Others can look at your code and even fork it.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li id="features-education"><p>Please visit the  <a href="/s/codio-annotations.html">Codio:Annotations</a> page for a full overview. Learn what we are doing in Education to help people  <a href="/s/codio-education.html">learn to code.</a> page for a full overview.</p>
+          <ul>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-cog"></i> Any Programming Language</h4>
+                  <p>Create interactive tutorials for any programming language using the Codio IDE or your own favorite IDE.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-edit"></i> Rich Annotations</h4>
+                  <p>You can add rich text, images, videos that automatically point to relevant code snippets within any part of your project.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-cloud-upload"></i> Great for Education</h4>
+                  <p>It's completely free, so you it is really great for teaching at any level.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-cloud"></i> Great for APIs &amp; Advanced Stuff</h4>
+                  <p>You can use Codio:Annotations to explain an API, frameworks and any piece of complex code.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-refresh"></i> Guided Tours</h4>
+                  <p>Codio:Annotations lets you create guided tours around your project so you see code explained in its natural habitat - an IDE.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-sitemap"></i> Explore any project</h4>
+                  <p>You can also run in Explore mode, which let's you wander through an annotated project and click to get explanations in the bits you're interested in.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>
+                  <h4><i class="icon-group"></i> Helpers</h4>
+                  <p>We provide neat helpers that rapidly speed up the pace at which you can add your annotations.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-cloud-download"></i> Embed in any web page</h4>
+                  <p>Your annotated projects can be run in any browser and even embedded directly into your own web page. We've got a widget coming soon to make this even easier.</p>
+                </li>
+                <li>
+                  <h4><i class="icon-user"></i> No signup needed</h4>
+                  <p>There are absolutely no barriers so you can annotate your project then let people run it without them even needing to signup.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+    </div>
 
     <ul id="roadmap" class="columned">
       <li>
@@ -414,7 +474,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-33074654.js"><\/script>')</script>
-<script src="s/js/main-c22d3f0d.js" type="text/javascript"></script>
+<script src="s/js/main-7cda8927.js" type="text/javascript"></script>
 
   <script>
     var _gaq = _gaq || [];

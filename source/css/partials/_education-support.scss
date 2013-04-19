@@ -1,9 +1,13 @@
 #education-support {
-  margin: 15px 0 50px;
+  margin: 15px 0 0;
   padding: 10px 14px 14px;
   background-color: $red;
   color: #FFF;
-  border-radius: 8px;
+
+  position: relative;
+  top: -50px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 
   div.education-support-text {
     @include clearfix;
@@ -47,7 +51,7 @@
     margin-right: 5px;
 
     &:first-child {
-      width: 195px;
+      width: 190px;
     }
     &:nth-child(2) {
       width: 155px;

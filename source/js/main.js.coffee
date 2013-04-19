@@ -5,7 +5,7 @@ exports = this
 
 
 $ ->
-  $(':not(.nofade) > a').hover(
+  $(":not('.nofade') > a").hover(
     ->
       $(this).animate opacity: 0.6, 200
     ->

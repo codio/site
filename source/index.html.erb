@@ -6,8 +6,9 @@ class_name: home
 <header>
   <div class="container">
 
-    <div id="public-stamp">
-      <%= image_tag "home/free-public-beta.png", :width => 310, :alt => "Visual Development in the Cloud" %>
+    <div id="public-stamp" class="nofade">
+      <%= link_to image_tag("home/support-campaign.png", :width => "330x158", :alt => "Let's get Coding taught in our schools. - Support our Campaign"), '/education', :class => "nofade" %>
+      <%# image_tag "home/free-public-beta.png", :width => 310, :alt => "Visual Development in the Cloud" %>
     </div>
 
     <div class="clearfix">

@@ -29,9 +29,9 @@ submenu:
     url: '#timeline'
 ---
 
-<form id="education-support" class="<%= 'supported' if supported %>" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+<form id="education-support" class="<%= 'supported' if begin; supported; rescue; false; end %>" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-  <% if supported %>
+  <% if begin; supported; rescue; false; end %>
 
     <div id="fb-root"></div>
     <script>(function(d, s, id) {

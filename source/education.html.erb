@@ -29,30 +29,76 @@ submenu:
     url: '#timeline'
 ---
 
+<form id="education-support" class="<%= 'supported' if supported %>" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-<form id="education-support" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+  <% if supported %>
 
-  <input type="hidden" name="oid" value="00Db0000000KrE0">
-  <input type="hidden" name="Campaign_ID" value="">
-  <input type="hidden" name="retURL" value="http://codio.com/">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
-  <% if current_page.app.development? %>
-    <input type="hidden" name="debug" value="1">
-    <input type="hidden" name="debugEmail" value="jmoss@codio.com">
+    <div class="education-supported">
+      <div>
+        <h2>Thank you for your support</h2>
+        <p>Now take a second to tell the world about our cause...</p>
+      </div>
+      <div>
+        <div class="education-twitter">
+          <a href="https://twitter.com/share" data-url="http://codio.com/s/education" data-related="codiohq" class="twitter-share-button" data-lang="en" data-count="none" data-text="I just supported @codiohq's campaign to teach coding in our schools.">Tweet</a>
+        </div>
+
+        <div class="education-gplus">
+          <!-- Place this tag where you want the +1 button to render. -->
+          <div class="g-plusone" data-size="medium" data-annotation="none" data="http://codio.com/s/education"></div>
+
+          <!-- Place this tag after the last +1 button tag. -->
+          <script type="text/javascript">
+            (function() {
+              var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+              po.src = 'https://apis.google.com/js/plusone.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+          </script>
+        </div>
+
+        <div class="education-facebook">
+          <div class="fb-like" data-href="http://codio.com/s/education" data-send="false" data-width="400" data-show-faces="false"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <% else %>
+
+    <input type="hidden" name="oid" value="00Db0000000KrE0">
+    <input type="hidden" name="Campaign_ID" value="">
+    <input type="hidden" name="retURL" value="http://codio.com/s/education-supported">
+
+    <% if current_page.app.development? %>
+      <input type="hidden" name="debug" value="1">
+      <input type="hidden" name="debugEmail" value="jmoss@codio.com">
+    <% end %>
+
+    <div class="education-support-text">
+      <h2>Believe in<br>our campaign?</h2>
+      <p>Take a stand by completing the form below &ndash; we need to know who our supporters are. In return, we'll keep you up to date on our progress.</p>
+    </div>
+
+    <div class="education-support-inputs">
+      <input type="text" name="email" placeholder="Your email...">
+      <input type="text" name="first_name" placeholder="Your name (optional)...">
+      <input type="hidden" name="last_name">
+      <input type="text" name="company" placeholder="Your company (optional)...">
+      <input type="submit" value="Submit" class="btn btn-small">
+    </div>
+
   <% end %>
-
-  <div class="education-support-text">
-    <h2>Believe in<br>our campaign?</h2>
-    <p>Take a stand by completing the form below &ndash; we need to know who our supporters are. In return, we'll keep you up to date on our progress.</p>
-  </div>
-
-  <div class="education-support-inputs">
-    <input type="text" name="email" placeholder="Your email...">
-    <input type="text" name="first_name" placeholder="Your name (optional)...">
-    <input type="hidden" name="last_name">
-    <input type="text" name="company" placeholder="Your company (optional)...">
-    <input type="submit" value="Submit" class="btn btn-small">
-  </div>
 
 </form>
 

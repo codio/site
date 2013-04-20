@@ -1,13 +1,54 @@
 #education-support {
-  margin: 15px 0 0;
+  margin: 0;
   padding: 10px 14px 14px;
   background-color: $red;
   color: #FFF;
 
   position: relative;
-  top: -50px;
+  top: -36px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+
+  &.supported {
+    background-color: #EEE;
+    color: #000;
+  }
+
+  div.education-supported {
+    @include clearfix;
+    > div {
+      float: left;
+
+      &:first-child {
+        width: 260px;
+      }
+
+      &:last-child {
+        @include clearfix;
+        margin: 30px 0 0 25px;
+        width: 360px;
+
+        div {
+          float: left;
+          margin: 10px 10px 0 0;
+
+          &:last-child {
+            float: none;
+          }
+        }
+      }
+    }
+
+    h2 {
+      font: 22px gotham_mediumregular;
+      margin: 10px 0;
+    }
+
+    p {
+      margin: 10px 0 0;
+      line-height: 1.3em;
+    }
+  }
 
   div.education-support-text {
     @include clearfix;

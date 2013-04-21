@@ -4,6 +4,5 @@ class_name: docs
 full_width: true
 ---
 
-For those of you who prefer an quick video overview of how Codio:Annotations works ...
+This video gives an overview of a typical Codio:Annotations project. It should be suitable as a quick tutorial so it's worth a look.
 
-**************

@@ -6,6 +6,8 @@ full_width: true
 
 **IMPORTANT: Codio:Annotations is currently in QA. The first Beta version will be available on May 1st. This documentation has been released in order to provide advanced information.**
 
+![Codio Annotations](/img/docs/ca-popup-window.png)
+
 Codio Annotations is a set of features within the Codio IDE that lets you create rich, interactive code samples and documentation for a project in any programming language. 
 
 Annotated projects provide a set of features that support learning of any coding material, whether novice tutorials or advanced frameworks, libraries or APIs. You can 

@@ -4,7 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-You will probably find the best way of understanding how Codio:Annotations works is to look at an example project.
+This will be available on May 1st, 2013 once Codio:Annotations is released.
 
-[Click here]()****** to try out a project. You can fork it and play around with it in your own account.
 

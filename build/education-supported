@@ -21,7 +21,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="css/boilerplate-dd60c9db.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="css/boilerplate-c87466a2.css" media="screen" rel="stylesheet" type="text/css" />
 
     
       <link href="/sitebar.css" media="screen" rel="stylesheet" type="text/css" />
@@ -85,6 +85,10 @@
               
                 <li class="active">
                   <a href="#overview">Overview</a>
+                </li>
+              
+                <li class="">
+                  <a href="#inspiration">True Inspiration</a>
                 </li>
               
                 <li class="">
@@ -182,9 +186,17 @@
 
 <hr>
 
+<section id="inspiration">
+  <h2>Something inspirational from Sugata Mitra</h2>
+  <p><a target="_blank" href="http://www.ted.com/talks/sugata_mitra_build_a_school_in_the_cloud.html?source=twitter&utm_content=addthis-custom&awesm=on.ted.com_q4t2&utm_source=facebook.com&utm_medium=on.ted.com-twitter&utm_campaign=#.UTZGQKJHkoV.twitter">This TED talk</a> is truly inspirational. It tells the story of how Sugata put a 'hole-in-the-wall' computer in a small village in India where the kids hadn't seen a computer and couldn't speak any English. He then went away for 3 months and left them to it. When he came back, the kids had not only collectively figured out how to use the computer, they had taught themselves English so they could figure out how to use it.</p>
+  <p>This concept has a lot in common with what we are proposing with our Education program. Communities are great at figuring things out and so are kids. We hope to provide encouragement, some tools, get a community started and then get out of the way.</p>
+</section>
+
+<hr>
+
 <section id="annotations">
   <h2>Codio:Annotations</h2>
-  <p>Codio:Annotations is one of the main drivers of our educational efforts and will be released before the end of April 2013.</p>
+  <p>Codio:Annotations is one of the main drivers of our educational efforts and will be released before the end of April 2013. <a target="_blank" href="http://youtu.be/Fk3eG_eSRPM">Click here</a> to see a short demo.</p>
   <p>The best place to find out more is to visit the <a href="/s/docs/annotations/">Codio:Annotations documentation</a> where you can get an overview or dive into real detail.</p>
   <p><img src="img/annotations-video-680b8d62.png" /></p>
 </section>

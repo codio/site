@@ -104,23 +104,6 @@ $ ->
         aside.removeClass('fixed')
 
 
-# Handle education support form
-$ ->
-  $('#education-support').on 'submit', ->
-    $this = $(this)
-
-    if $.trim($this.find('input[name=email]').val()) == ""
-      alert('Please enter your email address');
-      $this.find('input[name=email]').focus()
-      return false
-
-    name = $.trim($this.find('input[name=first_name]').val())
-    if name != ""
-      if (names = name.split(' ')).length > 1
-        $this.find('input[name=first_name]').val(names[0])
-        $this.find('input[name=last_name]').val(names[1])
-
-
 # Blog
 $ ->
 

@@ -5,10 +5,43 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-04-16T00:00:00Z</updated>
+  <updated>2013-04-23T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>No teachers, no problem - an inspirational TED Talk</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/04/sugata-mitra/"/>
+    <id>https://codio.com/s/blog/2013/04/sugata-mitra/</id>
+    <published>2013-04-23T00:00:00Z</published>
+    <updated>2013-04-23T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;a href="http://www.ted.com/talks/sugata_mitra_build_a_school_in_the_cloud.html?source=twitter&amp;amp;utm_content=addthis-custom&amp;amp;awesm=on.ted.com_q4t2&amp;amp;utm_source=facebook.com&amp;amp;utm_medium=on.ted.com-twitter&amp;amp;utm_campaign=#.UTZGQKJHkoV.twitter"&gt;This TED talk&lt;/a&gt; by Sugata Mitra is truly inspirational. It's shows that kids in the digital age can learn incredibly well without any formal teaching when they form communities and use their natural resourcefulness.&lt;/p&gt;
+
+&lt;p&gt;Here are four of my favorite parts...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;a href="http://www.ted.com/talks/sugata_mitra_build_a_school_in_the_cloud.html?source=twitter&amp;utm_content=addthis-custom&amp;awesm=on.ted.com_q4t2&amp;utm_source=facebook.com&amp;utm_medium=on.ted.com-twitter&amp;utm_campaign=#.UTZGQKJHkoV.twitter"&gt;This TED talk&lt;/a&gt; by Sugata Mitra is truly inspirational. It&amp;#39;s shows that kids in the digital age can learn incredibly well without any formal teaching when they form communities and use their natural resourcefulness.&lt;/p&gt;
+
+&lt;p&gt;Here are four of my favorite parts if you don&amp;#39;t have time to watch the whole video&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;The hole-in-the-wall computer&lt;/h2&gt;
+
+&lt;p&gt;Sugata tells the story of how he put a &amp;#39;hole-in-the-wall&amp;#39; computer, connected to the web, in a small village in India where the kids had never seen a computer and couldn&amp;#39;t speak any English. He then went away for 3 months and left them to it. When he came back, the kids had not only collectively figured out how to use the computer, surf the web etc. but they had taught themselves English so they could figure out how to use it.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Teaching DNA replication to 12 year olds&lt;/h2&gt;
+
+&lt;p&gt;He deposited a hole-in-the-wall computer in another village and then asked kids to find out all they could about DNA Replication, certain that they would fail at this complex task. They didn&amp;#39;t become biochemists but they achieved a 50% score in a test for people 8 years older at a private school in New Delhi with a proper biochemistry teacher.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;The English Accent experiment&lt;/h2&gt;
+
+&lt;p&gt;An experiment to teach Indian kids to speak English without their usual very strong accents (and therefore improve their job prospects). The solution involved not a second of teaching. He gave them a speech-to-text recognition engine and left them to it. If there accents were not good enough, the computer could not recognize their speech and nothing would come up on screen.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;We believe that there are some important lessons to be learnt from these stories. Kids will learn if they are given some very basic opportunities. If teachers are not available, well never mind. If you add great, modern teachers into the mix, who are capable of teaching not just their class of 30, but a class of 300,000 - now that&amp;#39;s teaching.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>A Post-Curriculum approach to teaching programming</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/04/post-curriculum/"/>
@@ -328,118 +361,6 @@
 &lt;h2 id="toc_2"&gt;Give us some encouragement&lt;/h2&gt;
 
 &lt;p&gt;If you like what you are reading, we ask that you encourage us in any way that you feel will help. The best way is to let others know. We&amp;#39;re a small company and doing this requires a fair bit of effort. So feel free to &lt;a href="http://twitter.com/home/?status=Codio%20web%20platform%20turns%20your%20%23code%20into%20interactive%20tutorials%20%26%20code%20samples.%20%20https%3A%2F%2Fcodio.com%2Fs%2Fblog%2F2013%2F03%2Fcodio-for-education%2F%20-%20gr8%20for%20%23Education%20%26%20%23developers%20" target=" target="_blank"&gt;tweet something nice!&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Building with Grunt</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/03/building-with-grunt/"/>
-    <id>https://codio.com/s/blog/2013/03/building-with-grunt/</id>
-    <published>2013-03-26T00:00:00Z</published>
-    <updated>2013-03-26T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt; is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.&lt;/p&gt;
-
-&lt;p&gt;As part of last Friday's...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt; is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.&lt;/p&gt;
-
-&lt;p&gt;As part of last Friday&amp;#39;s &lt;a href="/s/blog/2013/03/our-twenty-percent-time/"&gt;weekly hack day&lt;/a&gt;, I spent the day upgrading our Grunt installation and our custom tasks to the latest 0.4 version. So I thought I&amp;#39;d write a short article on what Grunt is and how we use it at Codio.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;What is Grunt?&lt;/h2&gt;
-
-&lt;p&gt;It&amp;#39;s a Javascript task runner, which simply means you can use it to automate your most mundane and common development and build tasks. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes.&lt;/p&gt;
-
-&lt;p&gt;Since version 0.4, Grunt has really matured and come out of its shell, and now boasts a large ecosystem of plugins that can help you automate pretty much anything you want. And if you don&amp;#39;t find a plugin that does what you want, it&amp;#39;s extremely easy to write one yourself.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;How to install Grunt?&lt;/h2&gt;
-
-&lt;p&gt;Grunt runs on &lt;a href="http://nodejs.org/"&gt;NodeJS&lt;/a&gt;, and is installed and managed via &lt;a href="https://npmjs.org/"&gt;NPM&lt;/a&gt;. So if you haven&amp;#39;t already, make sure you have both those installed.&lt;/p&gt;
-
-&lt;p&gt;To install Grunt, just use NPM:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;npm install -g grunt-cli
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will give you a handy little &lt;code&gt;grunt&lt;/code&gt; command, which you will use to run your Grunt tasks.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Preparing your Project for Grunt&lt;/h2&gt;
-
-&lt;p&gt;A typical setup will require two files:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;package.json&lt;/strong&gt; - This file is used by NPM to manage your projects dependencies, and is also used by Grunt to manage its dependencies.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gruntfile.js&lt;/strong&gt; - This is where you define and configure your tasks.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Create a new file in the root of your project called &lt;code&gt;package.json&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{
-  &amp;quot;name&amp;quot;: &amp;quot;my-project-name&amp;quot;,
-  &amp;quot;version&amp;quot;: &amp;quot;0.1.0&amp;quot;,
-  &amp;quot;devDependencies&amp;quot;: {
-    &amp;quot;grunt&amp;quot;: &amp;quot;~0.4.1&amp;quot;,
-    &amp;quot;grunt-contrib-uglify&amp;quot;: &amp;quot;~0.2.0&amp;quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This tells NPM that we depend on the &lt;code&gt;grunt&lt;/code&gt; and &lt;code&gt;grunt-contrib-uglify&lt;/code&gt; packages. Running the following will install these dependencies:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;npm install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now create your &lt;code&gt;Gruntfile.js&lt;/code&gt;, which also belongs in the root of your project alongside &lt;code&gt;package.json&lt;/code&gt;. Fill the file with the following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;module.exports = function(grunt) {
-
-  // Project configuration.
-  grunt.initConfig({
-    uglify: {
-      build: {
-        src: &amp;#39;src/script.js&amp;#39;,
-        dest: &amp;#39;build/script.min.js&amp;#39;
-      }
-    }
-  });
-
-  // Load the plugin that provides the &amp;quot;uglify&amp;quot; task.
-  grunt.loadNpmTasks(&amp;#39;grunt-contrib-uglify&amp;#39;);
-
-  // Default task(s).
-  grunt.registerTask(&amp;#39;default&amp;#39;, [&amp;#39;uglify&amp;#39;]);
-
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Lets run through this file from top to bottom...&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Line 4&lt;/strong&gt; is where we set define our configuration for the tasks we want to use. Each top level element defines a task. In our example, we have just one task &lt;code&gt;uglify&lt;/code&gt;, which simply takes the value of &lt;code&gt;build.src&lt;/code&gt;, runs it through the Uglify lib and places its output in a new file as specified with the value of &lt;code&gt;buil.dest&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;grunt.initConfig({
-  uglify: {
-    build: {
-      src: &amp;#39;src/script.js&amp;#39;,
-      dest: &amp;#39;build/script.min.js&amp;#39;
-    }
-  }
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;Line 14&lt;/strong&gt; tells Grunt to load the &lt;code&gt;grunt-contrib-uglify&lt;/code&gt; task from the NPM package specified in our &lt;code&gt;package.json&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Then finally on &lt;strong&gt;line 17&lt;/strong&gt;, we create a new &lt;code&gt;default&lt;/code&gt; task, which is simply an alias for the &lt;code&gt;uglify&lt;/code&gt; task. The &lt;code&gt;default&lt;/code&gt; task will be run if you don&amp;#39;t specify any task on the command line. So the following three commands are now identical:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;grunt uglify
-grunt default
-grunt
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_3"&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;Grunt has a great ecosystem of open source plugins, and a place to &lt;a href="http://gruntjs.com/plugins"&gt;find and search for the plugin you want&lt;/a&gt;. I strongly recommend that you take a look through them.&lt;/p&gt;
-
-&lt;p&gt;Hopefully from this simple example, you can see how easy and powerful Grunt can be. It&amp;#39;s also worth noting that we have plans to implement a similar task based system directly into Codio. So watch this space!&lt;/p&gt;
 </content>
   </entry>
 </feed>

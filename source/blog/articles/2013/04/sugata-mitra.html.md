@@ -7,7 +7,9 @@ class_name: blog
 full_width: true
 ---
 
-[This TED talk](http://www.ted.com/talks/sugata_mitra_build_a_school_in_the_cloud.html?source=twitter&utm_content=addthis-custom&awesm=on.ted.com_q4t2&utm_source=facebook.com&utm_medium=on.ted.com-twitter&utm_campaign=#.UTZGQKJHkoV.twitter) by Sugata Mitra is truly inspirational. It's shows that kids in the digital age can learn incredibly well without any formal teaching when they form communities and use their natural resourcefulness.
+This TED talk by Sugata Mitra is truly inspirational. It's shows that kids in the digital age can learn incredibly well without any formal teaching when they form communities and use their natural resourcefulness.
+
+<iframe src="http://embed.ted.com/talks/sugata_mitra_build_a_school_in_the_cloud.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 Here are four of my favorite parts if you don't have time to watch the whole video
 

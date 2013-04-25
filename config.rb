@@ -95,7 +95,7 @@ end
 page "/blog/feed.xml", :layout => false
 page "/docs/*", :layout => :docs
 
-proxy "/education-supported", "/education.html", :locals => { :supported => true }
+proxy "/education-supported/index.html", "/education.html", :locals => { :supported => true }
 
 
 ###

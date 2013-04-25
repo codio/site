@@ -42,3 +42,5 @@ $ ->
         "X-Parse-REST-API-Key": "iDzEg9jeVe59j1DX5ci24dbbMC8E9Ij89hvCtc5x"
       success: ->
         $this.submit()
+      error: ->
+        alert('Looks like you have already pledged your support with this email address.')

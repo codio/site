@@ -5,10 +5,49 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-04-23T00:00:00Z</updated>
+  <updated>2013-04-26T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Coding + Math + Art + Physics = FUN</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/04/coding-art-math/"/>
+    <id>https://codio.com/s/blog/2013/04/coding-art-math/</id>
+    <published>2013-04-26T00:00:00Z</published>
+    <updated>2013-04-26T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;As you may have read in previous posts, we're trying to change the approach to IT education and we believe that coding needs to be centre stage - well at least on stage - in schools. One of the great things about coding is that it can be fun and can...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;As you may have read in previous posts, we&amp;#39;re trying to change the approach to IT education and we believe that coding needs to be centre stage - well at least on stage - in schools. One of the great things about coding is that it can be fun and can draw on other strengths and talents.&lt;/p&gt;
+
+&lt;p&gt;The example projects you see below draw on creativity, math, physics and even a smattering of art. We are trying to get people to realize that &lt;strong&gt;CODING IS FUN&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If anyone has cool examples of code that draws on talent and creativity from other areas, please add your suggestions in the comments below this post.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Explore&lt;/h2&gt;
+
+&lt;p&gt;Below are three simple projects displayed in the Codio IDE (which is live and clickable, so go ahead). Each of these can be run in the browser (press Preview button) and you can explore the code in the IDE.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Tearable Cloth&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;IMPORTANT:&lt;/strong&gt; this is a live IDE, not an image, so explore the code and press Preview to run the code.&lt;/p&gt;
+
+&lt;iframe src="https://codio.com/codio/Tear-able-Cloth-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"&gt;&lt;/iframe&gt;
+
+&lt;h2 id="toc_2"&gt;Multi-Touch Boids&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;IMPORTANT:&lt;/strong&gt; this is a live IDE, not an image, so explore the code and press Preview to run the code.&lt;/p&gt;
+
+&lt;iframe src="https://codio.com/codio/Multitouch-Boids-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"&gt;&lt;/iframe&gt;
+
+&lt;h2 id="toc_3"&gt;Animated Text Demo&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;IMPORTANT:&lt;/strong&gt; this is a live IDE, not an image, so explore the code and press Preview to run the code.&lt;/p&gt;
+
+&lt;iframe src="https://codio.com/codio/Animated-Text-Fill-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"&gt;&lt;/iframe&gt;
+</content>
+  </entry>
   <entry>
     <title>No teachers, no problem - an inspirational TED Talk</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/04/sugata-mitra/"/>
@@ -305,66 +344,6 @@
 &lt;p&gt;&lt;img alt="Drag and Drop in the File Explorer" src="/s/img/blog/drag-drop-explorer-e50379de.gif" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Easy, peasy!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Teaching to Code, Learning to Code</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/03/codio-for-education/"/>
-    <id>https://codio.com/s/blog/2013/03/codio-for-education/</id>
-    <published>2013-03-28T00:00:00Z</published>
-    <updated>2013-03-28T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;Having watched the &lt;a href="http://www.youtube.com/v/nKIu9yen5nc"&gt;code.org video&lt;/a&gt; and seen what they are trying to achieve, we wondered how cool it would be if we could contribute to this initiative in a meaningful way.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, we can. We have a great Web IDE and with a little effort, we've...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Having watched the &lt;a href="http://www.youtube.com/v/nKIu9yen5nc"&gt;code.org video&lt;/a&gt; and seen what they are trying to achieve, we wondered how cool it would be if we could contribute to this initiative in a meaningful way.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, we can. We have a great Web IDE and with a little effort, we&amp;#39;ve got a game changer for the way tutorials, documentation and code samples are delivered. We want this to be a free, web based platform that let&amp;#39;s any author of code examples or tutorials deliver their content in a natural way, that doesn&amp;#39;t dumb anything down.&lt;/p&gt;
-
-&lt;p&gt;To get you interested, take a look below. It&amp;#39;s a real and fully functioning IDE. It&amp;#39;s fast, doesn&amp;#39;t require signup, can be embedded anywhere and is being aggressively developed. However, as a vehicle for providing working code tutorials and examples, it&amp;#39;s a great start. Once we&amp;#39;ve added our annotation features, we think it&amp;#39;ll be awesome.&lt;/p&gt;
-
-&lt;p&gt;Or, &lt;a href="https://codio.com/fmay/Impress/tree/Impress/index.html" target="_blank"&gt;click here&lt;/a&gt; to see the IDE full size.&lt;/p&gt;
-
-&lt;iframe width="950" height="600" src="https://codio.com/fmay/Impress/tree/Impress/index.html" style="margin:20px 0;"&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Over the next couple of months (with some &lt;a href="http://twitter.com/home/?status=Codio%20web%20platform%20turns%20your%20%23code%20into%20interactive%20tutorials%20%26%20code%20samples.%20%20https%3A%2F%2Fcodio.com%2Fs%2Fblog%2F2013%2F03%2Fcodio-for-education%2F%20-%20gr8%20for%20%23Education%20%26%20%23developers%20" target="_blank"&gt;verbal encouragement&lt;/a&gt; from the community) we&amp;#39;ll be adding a lot of very cool stuff to Codio, so people can teach and learn in code&amp;#39;s natural home - the IDE. You&amp;#39;ll be able to add guided tours, rich text explanations that pop-up as you explore the project, audio, and even videos that [for example] show screen output when a piece of code executes.&lt;/p&gt;
-
-&lt;p&gt;You&amp;#39;ll be able to set this all up from your own IDE as well as within Codio, and it will not interfere with or mess up your code.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;What&amp;#39;s the problem with online tutorials?&lt;/h2&gt;
-
-&lt;p&gt;When I say &lt;strong&gt;tutorial&lt;/strong&gt;, I don&amp;#39;t mean novice developer tutorials, but also advanced APIs, frameworks, libraries or products.&lt;/p&gt;
-
-&lt;p&gt;There are three main issues:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;The natural environment for a code project or example is an IDE, but tutorials are forced to show code snippets - often lots of them. A bit like &lt;a href="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html" target="_blank"&gt;this top quality tutorial&lt;/a&gt; from webplatform.org. This can mean a lot of mental gymnastics as you read.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;When I&amp;#39;m learning, there isn&amp;#39;t usually any &lt;strong&gt;instant&lt;/strong&gt; access to a full, working project, and if there is, it has to be downloaded and installed somewhere. Again, what we would love is instant access to an online or even embedded IDE.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Finally, I usually find myself wanting to run the project, then make my own modifications and run it again. Experiment in other words. You rarely have this facility.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;If these problems were solved, with interactivity at the heart of it, it would significantly speed up the way new coding material is absorbed and taught.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;Codio:Annotations&lt;/h2&gt;
-
-&lt;p&gt;That&amp;#39;s what we&amp;#39;re calling all this. We&amp;#39;re going to make the whole teaching/learning process highly interactive and fun for the learners and the authors. Learners will get either guided tours around the project, or be able to explore the code freely, and get information wherever they are looking. We&amp;#39;ll have more details very soon.&lt;/p&gt;
-
-&lt;p&gt;Here are a few key points about the platform:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It&amp;#39;s a web platform, so instantly accessible for learners.&lt;/li&gt;
-&lt;li&gt;Authors and learners can access without needing to signup (no nasty dialogs or screens before you see the code).&lt;/li&gt;
-&lt;li&gt;There is no commercial catch - any public tutorial or example is, and always will be, free.&lt;/li&gt;
-&lt;li&gt;It&amp;#39;s great for absolutely any programming language.&lt;/li&gt;
-&lt;li&gt;It has to work beautifully for school pupils, but equally great for highly advanced stuff.&lt;/li&gt;
-&lt;li&gt;It will be a great way of adding code samples into any form of API or developer documentation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="toc_2"&gt;Give us some encouragement&lt;/h2&gt;
-
-&lt;p&gt;If you like what you are reading, we ask that you encourage us in any way that you feel will help. The best way is to let others know. We&amp;#39;re a small company and doing this requires a fair bit of effort. So feel free to &lt;a href="http://twitter.com/home/?status=Codio%20web%20platform%20turns%20your%20%23code%20into%20interactive%20tutorials%20%26%20code%20samples.%20%20https%3A%2F%2Fcodio.com%2Fs%2Fblog%2F2013%2F03%2Fcodio-for-education%2F%20-%20gr8%20for%20%23Education%20%26%20%23developers%20" target=" target="_blank"&gt;tweet something nice!&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

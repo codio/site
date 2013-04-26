@@ -1,0 +1,73 @@
+#highlighted-feature {
+  @include clearfix;
+  background-color: #fff;
+  box-shadow: 0 -2px 3px #ddd;
+  height: 450px;
+  overflow: hidden;
+  padding-top: 10px;
+
+  .container {
+    @include clearfix;
+    padding: 30px 0;
+
+    > div {
+      float: left;
+      margin-top: 20px;
+
+      &:first-child {
+        width: 460px;
+        margin: 0 75px 0 25px;
+
+        h2 {
+          font-family: gotham_mediumregular;
+          color: #000;
+
+          small {
+            color: #888;
+            font-style: italic;
+          }
+        }
+
+        a.fancybox {
+          display: block;
+          padding: 10px;
+
+          img {
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            box-shadow: 0 0px 8px #666;
+          }
+
+          i {
+            position: relative;
+            left: -188px;
+            text-shadow: 0 1px 4px #000;
+            top: 15px;
+          }
+        }
+      }
+
+      &.screenshot {
+        img {
+          border: 1px solid #aaa;
+          border-radius: 4px;
+          box-shadow: 0 0px 55px #666;
+        }
+
+        span {
+          background: image-url('home/highlighted-features/annotations.png') -174px -2px;
+          width: 250px;
+          height: 250px;
+          border-radius: 50%;
+          border: 10px solid #CCC;
+          box-shadow: 2px 2px 10px #666;
+          display: block;
+          position: relative;
+          top: -159px;
+          left: 28px;
+          background-size: 261%;
+        }
+      }
+    }
+  }
+}

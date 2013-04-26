@@ -225,6 +225,7 @@ body.home {
 
   #benefits {
     display: block;
+    font-style: normal;
 
     > li:first-child {
       width: 980px;
@@ -232,6 +233,7 @@ body.home {
       li {
         float: left;
         vertical-align: top;
+        font-style: normal;
 
         &:first-child {
           width: 200px;

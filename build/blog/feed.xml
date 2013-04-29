@@ -5,10 +5,27 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-04-26T00:00:00Z</updated>
+  <updated>2013-04-29T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Securing Project Previews</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/04/secure-previewing/"/>
+    <id>https://codio.com/s/blog/2013/04/secure-previewing/</id>
+    <published>2013-04-29T00:00:00Z</published>
+    <updated>2013-04-29T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;We are always extremely mindful of ensuring that your Codio experience is as secure and safe as possible. So with this in mind, we just rolled out a change in the way that you preview private projects. Previously, we used a cookie to authenticate such...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We are always extremely mindful of ensuring that your Codio experience is as secure and safe as possible. So with this in mind, we just rolled out a change in the way that you preview private projects. Previously, we used a cookie to authenticate such requests. This was done to ensure that only those with read permissions could actually preview. However, this method is prone to abuse and could allow an attacker to preview your private projects, regardless of whether they had permission to do so.&lt;/p&gt;
+
+&lt;p&gt;This mornings release completely removes this dependence on cookies to authenticate when previewing. Instead, you will be prompted to enter your Codio login if and when you preview a private project.&lt;/p&gt;
+
+&lt;p&gt;Please note, that you will not be prompted to authenticate when previewing public projects - for obvious reasons.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Coding + Math + Art + Physics = FUN</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/04/coding-art-math/"/>
@@ -108,7 +125,7 @@
 &lt;li&gt;Take a look at the infographic below for some sobering stats from Code.org (sorry about mangling the infographic, &lt;a href="http://www.code.org/stats"&gt;here is the original&lt;/a&gt;.)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt="Code.org stats" src="/s/img/blog/codeinfographic2-21-1-af769729.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Code.org stats" src="/s/img/blog/codeinfographic2-21-1-e9dc9307.png" /&gt;&lt;/p&gt;
 
 &lt;h2 id="toc_1"&gt;The Problem in Schools&lt;/h2&gt;
 
@@ -239,7 +256,7 @@
 
 &lt;p&gt;You can load any development project already today. Just include a link (&lt;a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html" target="_blank"&gt;try clicking here&lt;/a&gt;) from within your page or use a Codio widget to go to the project. Try it out and see what it feels like.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"&gt;&lt;img alt="Drag and Drop in the File Explorer" src="/s/img/blog/codio-widget-a5e29fbc.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"&gt;&lt;img alt="Drag and Drop in the File Explorer" src="/s/img/blog/codio-widget-013e7427.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id="toc_6"&gt;Better - Step 2&lt;/h2&gt;
 
@@ -262,7 +279,7 @@
 
 &lt;p&gt;Imagine being able to explore the code freely by clicking on the icons within the IDE wherever you see one. I will explain further down how this can all be set up in your source project using your regular IDE.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-settabfromlink-0556a452.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-settabfromlink-f517eaea.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can see rich text (as shown), images, audio or video depending on the icon you click on.&lt;/p&gt;
 
@@ -270,11 +287,11 @@
 
 &lt;p&gt;If I want to, I can put the entire tutorial itself into the project and then get a guided tour through the code, either by click on the navigation buttons ...&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-guided-14be20a3.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-guided-d9684114.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;... or by scrolling through the embedded tutorial, which syncs automatically with the associated piece of code.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-scroll-1-fee244fe.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-scroll-1-b2090dc3.png" /&gt;&lt;/p&gt;
 
 &lt;h2 id="toc_9"&gt;Better - Step 5&lt;/h2&gt;
 
@@ -290,7 +307,7 @@
 
 &lt;p&gt;It will look something like this ...&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-curation-673c9711.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/exp-curation-6556e3c0.png" /&gt;&lt;/p&gt;
 
 &lt;h2 id="toc_10"&gt;How does a developer build a Codio tutorial?&lt;/h2&gt;
 
@@ -305,11 +322,11 @@
 
 &lt;p&gt;The screenshot below shows how tokens are added into the source file ...&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/ks-tokens-b588e5f7.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/ks-tokens-88d68eee.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;And this one shows how you construct the annotations file. This provides both guided tours, scrolling as well as the project structure annotations.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/ks-annotation-file-57356095.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Example Annotation" src="/s/img/blog/ks-annotation-file-aa29cc9b.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a name="support"&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -327,23 +344,6 @@
 &lt;p&gt;Thanks!&lt;/p&gt;
 
 &lt;p&gt;The Codio Team&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Drag and Drop in the File Explorer</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/04/drag-and-drop-in-the-file-explorer/"/>
-    <id>https://codio.com/s/blog/2013/04/drag-and-drop-in-the-file-explorer/</id>
-    <published>2013-04-03T00:00:00Z</published>
-    <updated>2013-04-03T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;We just rolled out a really helpful new feature that will allow you to move files and directories around in your projects. Simply drag any file or directory within your project's file explorer, and drop it into any other place within the explorer.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We just rolled out a really helpful new feature that will allow you to move files and directories around in your projects. Simply drag any file or directory within your project&amp;#39;s file explorer, and drop it into any other place within the explorer.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Drag and Drop in the File Explorer" src="/s/img/blog/drag-drop-explorer-e50379de.gif" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Easy, peasy!&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -34,9 +34,10 @@ class_name: home
 <section id="tryit">
   <div class="container">
     <h3>
-      <i class="icon-thumbs-up"></i> Try out the IDE below... <a href="https://codio.com/fmay/Impress/tree/Impress/js/impress.js" target="_blank">or click here to open in a new browser tab</a>
+      <i class="icon-thumbs-up"></i> Try out the IDE below... <a href="https://codio.com/codio/Impress/tree/Impress/index.html" target="_blank">or click here to open in a new browser tab</a>
     </h3>
-    <iframe src="https://codio.com/fmay/Impress/tree/Impress/js/impress.js" width="100%" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+    <p>The project below uses Codio:Annotations so you can click on the blue icons anywhere you see 'em. Try pressing the 'Tour' button at the top as well.</p>
+    <iframe src="https://codio.com/codio/Impress/tree/Impress/index.html" width="100%" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
   </div>
 </section>
 
@@ -44,20 +45,36 @@ class_name: home
 <section id="highlighted-feature">
   <div class="container">
     <div>
-      <h2>Codio:Annotations <small>Available now</small></h2>
-      <p>Introducing an amazing new way to create rich, interactive documentation for tutorials, APIs, developer documentation or anywhere you want code documentation a cut above the rest.</p>
-      <p>Watch the video below, <%= link_to 'read the documentation', '/docs/annotations/' %>, <%=link_to 'play with Codio:Annotations', '#tryit' %> in the embedded IDE or <%=link_to 'try some examples', '/#examples' %> .</p>
-
+      <h2>Codio:Annotations</h2>
+      <p>Make tutorials and code examples rich, fun and interactive.</p>
       <a href="http://youtube.com/v/Fk3eG_eSRPM" class="fancybox fancybox.iframe">
-        <%= image_tag '//i3.ytimg.com/vi/Fk3eG_eSRPM/mqdefault.jpg' %>
-        <i class="icon-play-circle icon-4x"></i>
-      </a>
+        <%= image_tag '/img/home/highlighted-features/ss-annot.png', :width => "870" %>
+        <i class="icon-play-circle icon-4x" style="margin-left: -180px;"></i>
+      </a>         
     </div>
 
-    <div class="screenshot">
-      <%= image_tag 'home/highlighted-features/annotations.png', :width => 380 %>
-      <span></span>
+    <div>
+      <h2>What is it?</h2>
+      <ul>
+        <li>100% free</li>
+        <li>All programming languages supported</li>
+        <li>Create everything in any IDE</li>
+        <li>Embed in your page or open in new tab</li>
+        <li>way easier to understand than lengthy tutorials</li>
+        <li>Guided Tour and Explore modes</li>
+      </ul>      
     </div>
+
+    <div>
+      <h2>Learn more ...</h2>    
+      <ul>
+        <li>Watch the video above</li>
+        <li><%=link_to 'look at the IDE above on this page', '#tryit' %></li>
+        <li><%=link_to 'try some examples', '/#examples' %></li>
+        <li><%= link_to 'read the documentation', '/docs/annotations/' %></li>
+      </ul>      
+    </div>
+
   </div>
 </section>
 
@@ -328,7 +345,7 @@ class_name: home
               <li>
                 <h4><i class="icon-th-large"></i> Javascript event handling</h4>
                 <p>A detailed tutorial showing the different ways to set up event handlers using in javascript.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Intro-to-JS-Events/tree/Intro%20to%20JS%20Events/basics.html', :target => "_blank" %>
+                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Intro-to-JS-Events/tree/App/basics.html', :target => "_blank" %>
               </li>
               <li>
                 <h4><i class="icon-eye-open"></i> Oscillating spring</h4>
@@ -342,6 +359,15 @@ class_name: home
               </li>
             </ul>
           </li>
+          <li>
+            <ul>
+              <li>
+                <h4><i class="icon-th-large"></i> Impress Presentation</h4>
+                <p>Impress.js is a Prezi style presentation library. We annotated the standard sample.</p>
+                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Impress', :target => "_blank" %>
+              </li>
+            </ul>
+          </li>          
           <li><h4>Without Codio:Annotations</h4></br>
             <ul>
               <li>

@@ -38,6 +38,11 @@ $ ->
     navBannerClick.call $("#nav-banner [href=#{location.hash}]")[0]
 
 
+  # Handle the "example" click
+  $('#highlighted-feature a[href="/#examples"]').on 'click', ->
+    if goto = $('#nav-banner [href=#examples]')
+      navBannerClick.call $('#nav-banner [href=#examples]')[0]
+
   # Handle the "features" click in main navigation
   $('#navigation a[href="/#features"]').on 'click', ->
     if goto = $('#nav-banner [href=#features]')

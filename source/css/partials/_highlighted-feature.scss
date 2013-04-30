@@ -2,7 +2,7 @@
   @include clearfix;
   background-color: #fff;
   box-shadow: 0 -2px 3px #ddd;
-  height: 450px;
+  height: 480px;
   overflow: hidden;
   padding-top: 10px;
 
@@ -26,6 +26,10 @@
             color: #888;
             font-style: italic;
           }
+        }
+
+        p:last-child {
+          font-size: 12px;
         }
 
         a.fancybox {

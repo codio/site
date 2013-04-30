@@ -299,7 +299,8 @@ body.home {
   }
 
   #tryit {
-    padding: 50px 0 60px;
+    padding: 60px 0;
+    height: 640px;
     background: #F9FAF7 image-url('graphbg.gif') repeat;
 
     h3 {
@@ -319,13 +320,19 @@ body.home {
     }
 
     p {
-      margin: 18px 0 26px;
-      font-size: 17px;
+      margin: 14px 0 26px;
+      font-size: 14px;
     }
 
     iframe {
       border: 1px solid #bbb;
       box-shadow: 0 0 40px #bbb;
+    }
+
+    #pricing {
+      position: relative;
+      top: 32px;
+      left: 40%;
     }
   }
 

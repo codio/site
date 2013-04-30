@@ -45,36 +45,20 @@ class_name: home
 <section id="highlighted-feature">
   <div class="container">
     <div>
-      <h2>Codio:Annotations</h2>
-      <p>Make tutorials and code examples rich, fun and interactive.</p>
+      <h2>Codio:Annotations <small>Available now</small></h2>
+      <p>Introducing an amazing new way to create rich, interactive documentation for tutorials, APIs, developer documentation or anywhere you want code documentation a cut above the rest.</p>
+      <p>Watch the video below, <%= link_to 'read the documentation', '/docs/annotations/' %>, <%=link_to 'play with Codio:Annotations', '/#tryit' %> in the embedded IDE or <%=link_to 'try some examples', '/#examples' %>.</p>
+
       <a href="http://youtube.com/v/Fk3eG_eSRPM" class="fancybox fancybox.iframe">
-        <%= image_tag '/img/home/highlighted-features/ss-annot.png', :width => "870" %>
-        <i class="icon-play-circle icon-4x" style="margin-left: -180px;"></i>
-      </a>         
+        <%= image_tag '//i3.ytimg.com/vi/Fk3eG_eSRPM/mqdefault.jpg' %>
+        <i class="icon-play-circle icon-4x"></i>
+      </a>
     </div>
 
-    <div>
-      <h2>What is it?</h2>
-      <ul>
-        <li>100% free</li>
-        <li>All programming languages supported</li>
-        <li>Create everything in any IDE</li>
-        <li>Embed in your page or open in new tab</li>
-        <li>way easier to understand than lengthy tutorials</li>
-        <li>Guided Tour and Explore modes</li>
-      </ul>      
+    <div class="screenshot">
+      <%= image_tag 'home/highlighted-features/annotations.png', :width => 380 %>
+      <span></span>
     </div>
-
-    <div>
-      <h2>Learn more ...</h2>    
-      <ul>
-        <li>Watch the video above</li>
-        <li><%=link_to 'look at the IDE above on this page', '#tryit' %></li>
-        <li><%=link_to 'try some examples', '/#examples' %></li>
-        <li><%= link_to 'read the documentation', '/docs/annotations/' %></li>
-      </ul>      
-    </div>
-
   </div>
 </section>
 
@@ -367,7 +351,7 @@ class_name: home
                 <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Impress', :target => "_blank" %>
               </li>
             </ul>
-          </li>          
+          </li>
           <li><h4>Without Codio:Annotations</h4></br>
             <ul>
               <li>

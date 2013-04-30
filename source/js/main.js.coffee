@@ -38,8 +38,13 @@ $ ->
     navBannerClick.call $("#nav-banner [href=#{location.hash}]")[0]
 
 
-  # Handle the "example" click
+  # Handle the "example" click in the highlighted features section
   $('#highlighted-feature a[href="/#examples"]').on 'click', ->
+    if goto = $('#nav-banner [href=#examples]')
+      navBannerClick.call $('#nav-banner [href=#examples]')[0]
+
+  # Handle the "example" click in the tryit section
+  $('#tryit a[href="/#examples"]').on 'click', ->
     if goto = $('#nav-banner [href=#examples]')
       navBannerClick.call $('#nav-banner [href=#examples]')[0]
 

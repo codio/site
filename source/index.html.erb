@@ -18,7 +18,7 @@ class_name: home
           <p>an amazing</p>
           <p>Web IDE</p>
           <div>
-            <p>For web development</p>
+            <p>For web development,</p>
             <p>teaching and learning</p>
           </div>
           <%= image_tag 'flourish.gif', :width => 174, :height => 28 %>
@@ -46,13 +46,15 @@ class_name: home
   <div class="container">
     <div>
       <h2>Codio:Annotations <small>Available now</small></h2>
-      <p>Introducing an amazing new way to create rich, interactive documentation for tutorials, APIs, developer documentation or anywhere you want code documentation a cut above the rest.</p>
-      <p>Watch the video below, <%= link_to 'read the documentation', '/docs/annotations/' %>, <%=link_to 'play with Codio:Annotations', '/#tryit' %> in the embedded IDE or <%=link_to 'try some examples', '/#examples' %>.</p>
+      <p>Introducing an amazing new way to create rich, interactive documentation for tutorials, APIs, developer documentation or anywhere you want code documentation to be a cut above the rest - and its all part of your code!</p>
 
-      <a href="http://youtube.com/v/Fk3eG_eSRPM" class="fancybox fancybox.iframe">
-        <%= image_tag '//i3.ytimg.com/vi/Fk3eG_eSRPM/mqdefault.jpg' %>
-        <i class="icon-play-circle icon-4x"></i>
-      </a>
+      <div>
+        <a href="http://youtube.com/v/Fk3eG_eSRPM" class="fancybox fancybox.iframe">
+          <%= image_tag '//i3.ytimg.com/vi/Fk3eG_eSRPM/mqdefault.jpg', :width => 322, :height => 182 %>
+          <i class="icon-play-circle icon-4x"></i>
+        </a>
+        <p>Watch the video on the left,<br><%= link_to 'read the documentation', '/docs/annotations/' %>,<br><%=link_to 'play with Annotations', '/#tryit' %> in the embedded IDE,<br>or <%=link_to 'try some examples', '/#examples' %>. It's all part of our push to <%= link_to 'teach coding in schools', '/education' %>.</p>
+      </div>
     </div>
 
     <div class="screenshot">

@@ -2,9 +2,9 @@
   @include clearfix;
   background-color: #fff;
   box-shadow: 0 -2px 3px #ddd;
-  height: 480px;
+  height: 470px;
   overflow: hidden;
-  padding-top: 10px;
+  padding-top: 25px;
 
   .container {
     @include clearfix;
@@ -15,21 +15,41 @@
       margin-top: 20px;
 
       &:first-child {
-        width: 475px;
-        margin: 0 75px 0 25px;
+        width: 595px;
+        margin: 0;
 
         h2 {
-          font-family: gotham_mediumregular;
           color: #000;
+          font: 36px gotham_boldregular;
+          margin: 5px 0 0 0;
 
           small {
             color: #888;
-            font-style: italic;
+            font-size: 20px;
+            font-family: gotham_mediumregular;
+            display: block;
           }
         }
 
-        p:last-child {
-          font-size: 12px;
+        > p {
+          margin-right: 75px;
+          font-size: 16px;
+        }
+
+        > div {
+          @include clearfix;
+
+          > a {
+            float: left;
+            width: 322px;
+            height: 182px;
+          }
+
+          p {
+            float: left;
+            width: 220px;
+            padding: 30px 0 0 25px;
+          }
         }
 
         a.fancybox {
@@ -44,9 +64,9 @@
 
           i {
             position: relative;
-            left: -188px;
+            left: 138px;
             text-shadow: 0 1px 4px #000;
-            top: 15px;
+            top: -120px;
           }
         }
       }

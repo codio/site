@@ -44,8 +44,9 @@ class_name: home
 <section id="highlighted-feature">
   <div class="container">
     <div>
-      <h2>Codio:Annotations <small>Coming Soon</small></h2>
-      <p>Introducing an amazing new way to document and <%= link_to 'teach', '/education' %> code in its natural habitat - the IDE. Watch the video below for a quick overview or <%= link_to 'read the documentation', '/docs/annotations/' %>.</p>
+      <h2>Codio:Annotations <small>Available now</small></h2>
+      <p>Introducing an amazing new way to create rich, interactive documentation for tutorials, APIs, developer documentation or anywhere you want code documentation a cut above the rest.</p>
+      <p>Watch the video below, <%= link_to 'read the documentation', '/docs/annotations/' %>, <%=link_to 'play with Codio:Annotations', '#tryit' %> in the embedded IDE or <%=link_to 'try some examples', '#examples' %> .</p>
 
       <a href="http://youtube.com/v/Fk3eG_eSRPM" class="fancybox fancybox.iframe">
         <%= image_tag '//i3.ytimg.com/vi/Fk3eG_eSRPM/mqdefault.jpg' %>
@@ -322,7 +323,26 @@ class_name: home
       </li>
       <li>
         <ul>
-          <li>
+          <li><h4>Examples With Codio:Annotations</h4></br>
+            <ul>
+              <li>
+                <h4><i class="icon-th-large"></i> Javascript event handling</h4>
+                <p>A detailed tutorial showing the different ways to set up event handlers using in javascript.</p>
+                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Intro-to-JS-Events/tree/Intro%20to%20JS%20Events/basics.html', :target => "_blank" %>
+              </li>
+              <li>
+                <h4><i class="icon-eye-open"></i> Oscillating spring</h4>
+                <p>An HTML5 canvas simulation of an oscillating spring. A great mix of math, physics and coding.</p>
+                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Oscillating-Spring', :target => "_blank"  %>
+              </li>
+              <li>
+                <h4><i class="icon-desktop"></i> HTML Manipulation from JS</h4>
+                <p>A detailed tutorial showing how javascript can manipulate HTML.</p>
+                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/JS-Manip-HTML', :target => "_blank"  %>
+              </li>
+            </ul>
+          </li>          
+          <li><h4>No Codio:Annotations</h4></br>
             <ul>
               <li>
                 <h4><i class="icon-th-large"></i> ToDoMVC</h4>

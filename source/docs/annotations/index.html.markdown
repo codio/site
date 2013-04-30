@@ -4,8 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-**IMPORTANT: Codio:Annotations is currently in QA. The first Beta version will be available on May 1st. This documentation has been released in order to provide advanced information.**
-
 ![Codio Annotations](/img/docs/ca-popup-window.png)
 
 Codio Annotations is a set of features within the Codio IDE that lets you create rich, interactive code samples and documentation for a project in any programming language. 

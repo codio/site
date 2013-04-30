@@ -28,7 +28,7 @@ module RelativeAsset
     def asset_url(path, prefix="")
       path = super(path, prefix)
 
-      if path.include?("//")
+      if path.include?("//") || path.start_with?("/#")
         path
       else
         if path.include?('img/blog')
@@ -60,7 +60,7 @@ helpers do
       end
 
       # Ignore external links, root, and anchors (hashes).
-      if !url.include?('://') && url != '/' && !url.start_with?('#') && !url.start_with?('mailto:')
+      if !url.include?('://') && url != '/' && !url.start_with?('#') && !url.start_with?('/#') && !url.start_with?('mailto:')
         url = args[url_arg_index] = "/s" + url
       end
     end

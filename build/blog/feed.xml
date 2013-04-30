@@ -18,40 +18,40 @@
     <author>
       <name>Freddy May</name>
     </author>
-    <summary type="html">&lt;p&gt;We are really happy to announce the release of Codio:Annotations and we don't think you'll have seen quite like this before. It is an amazing way of documenting code where you need to explain things through code examples. Tutorials, APIs, frameworks...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We are really happy to announce the release of Codio:Annotations and we don&amp;#39;t think you&amp;#39;ll have seen quite like this before. It is an amazing way of documenting code where you need to explain things through code examples. Tutorials, APIs, frameworks and libraries are the usual suspects.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;We are really happy to announce the release of Codio:Annotations, and we don't think you'll have seen anything quite like this before. It is an amazing way of documenting code where you need to explain things through code examples. Tutorials, APIs...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We are really happy to announce the release of Codio:Annotations, and we don&amp;#39;t think you&amp;#39;ll have seen anything quite like this before. It is an amazing way of documenting code where you need to explain things through code examples. Tutorials, APIs, frameworks and libraries are the usual suspects.&lt;/p&gt;
 
 &lt;h2 id="toc_0"&gt;The problem with tutorials&lt;/h2&gt;
 
-&lt;p&gt;Tutorials, no matter how well they are written require mental leaps as you read large amounts of text, liberally seasoned with code snippets. &lt;/p&gt;
+&lt;p&gt;Tutorials, no matter how well they are written require mental leaps as you read large amounts of text, liberally seasoned with code snippets. Here is &lt;a href="http://docs.webplatform.org/wiki/tutorials/events_in_javascript"&gt;a link to a very high quality tutorial&lt;/a&gt; from webplatform.org. Take a look at it and imagine you have to learn from it. Wouldn&amp;#39;t it be great if I had a complete, working project, ready to run and all shown and documented within a proper IDE. Read on.&lt;/p&gt;
 
 &lt;h2 id="toc_1"&gt;What it does&lt;/h2&gt;
 
-&lt;p&gt;Here is &lt;a href="http://docs.webplatform.org/wiki/tutorials/events_in_javascript"&gt;a link to a very high quality tutorial&lt;/a&gt; from webplatform.org. Take a look at it and imagine you have to learn from it. Below is the same material in the Codio IDE with annotations added to it. You can play with the IDE below or &lt;a href="https://codio.com/codio/Oscillating-Spring"&gt;click here&lt;/a&gt; to see it full screen. &lt;/p&gt;
+&lt;p&gt;Below is the same material in the Codio IDE with annotations added to it. You can play with the IDE below or &lt;a href="https://codio.com/codio/Oscillating-Spring"&gt;click here&lt;/a&gt; to see it full screen. &lt;/p&gt;
 
-&lt;p&gt;Three things you should play around with&lt;/p&gt;
+&lt;p&gt;Three things you should play around with:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;The blue icons are clickable in the file tree and within a source file; try a few out&lt;/li&gt;
-&lt;li&gt;Press the &amp;#39;Tour&amp;#39; button at the top and you will be given a guided tour&lt;/li&gt;
-&lt;li&gt;Press &amp;#39;Preview&amp;#39; and the App will run&lt;/li&gt;
+&lt;li&gt;The blue icons are clickable in the file tree and within a source file; try a few out.&lt;/li&gt;
+&lt;li&gt;Press the &amp;#39;Tour&amp;#39; button at the top and you will be given a guided tour.&lt;/li&gt;
+&lt;li&gt;Press &amp;#39;Preview&amp;#39; and the App will run.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;iframe src="https://codio.com/codio/Oscillating-Spring" width="940px" height="600" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"&gt;&lt;/iframe&gt;
 
 &lt;h2 id="toc_2"&gt;Learn more&lt;/h2&gt;
 
-&lt;p&gt;You can find out more about Codio:Annotations&lt;/p&gt;
+&lt;p&gt;You can find out more about Codio:Annotations:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="/s/#examples"&gt;See some more examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/#examples"&gt;See some more examples&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="/s/docs/annotations/"&gt;Read the Codio:Annotations documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://youtube.com/v/Fk3eG_eSRPM"&gt;Watch a Video&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id="toc_3"&gt;More to come&lt;/h2&gt;
 
-&lt;p&gt;This is the very first version and we have a lot more features planned. We are especially keen to get your feedback so please make sure you let us have your comments (comments or the envelope icon with the IDE).&lt;/p&gt;
+&lt;p&gt;This is the very first version and we have a lot more features planned. We are especially keen to get your feedback so please make sure you let us have your comments (comments below or using the envelope icon within the IDE).&lt;/p&gt;
 
 &lt;h2 id="toc_4"&gt;Support our campaign&lt;/h2&gt;
 

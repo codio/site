@@ -35,11 +35,12 @@ class_name: home
     <h3>
       <i class="icon-thumbs-up"></i> Try out the IDE below... <a href="https://codio.com/codio/Impress/tree/Impress/index.html" target="_blank">or click here to open in a new browser tab</a>
     </h3>
-    <p>The project below uses Codio:Annotations so you can click on the blue icons anywhere you see 'em. Try pressing the 'Tour' button at the top as well. There are <%=link_to 'more examples here', '/#examples' %>.</p>
+    <p>The project below uses Codio:Annotations so you can click on the blue icons anywhere you see 'em. Try pressing the 'Tour' button at the top as well. There are <a href="/#examples">more examples here</a>.</p>
     <iframe src="https://codio.com/codio/Impress/tree/Impress/index.html" width="100%" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+
+    <%= image_tag 'home/free-public.png', :id => "pricing" %>
   </div>
 </section>
-
 
 <section id="highlighted-feature">
   <div class="container">
@@ -52,7 +53,7 @@ class_name: home
           <%= image_tag '//i3.ytimg.com/vi/Fk3eG_eSRPM/mqdefault.jpg', :width => 322, :height => 182 %>
           <i class="icon-play-circle icon-4x"></i>
         </a>
-        <p>Watch the video on the left,<br><%= link_to 'read the documentation', '/docs/annotations/' %>,<br><%=link_to 'play with Annotations', '/#tryit' %> in the embedded IDE,<br>or <%=link_to 'try some examples', '/#examples' %>. It's all part of our push to <%= link_to 'teach coding in schools', '/education' %>.</p>
+        <p>Watch the video on the left,<br><%= link_to 'read the documentation', '/docs/annotations/' %>,<br><a href="/#tryit">lay with Annotations</a> in the embedded IDE,<br>or <a href="/#examples">try some examples</a>. It's all part of our push to <%= link_to 'teach coding in schools', '/education' %>.</p>
       </div>
     </div>
 

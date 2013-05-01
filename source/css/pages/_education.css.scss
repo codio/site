@@ -1,0 +1,25 @@
+body.education {
+  #annotations {
+    #video {
+      display: block;
+      float: left;
+      width: 322px;
+      height: 182px;
+      margin: 35px 40px 20px 0;
+
+      img {
+        margin: 20px 20px 20px 0;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        box-shadow: 0 0px 8px #666;
+      }
+
+      i {
+        position: relative;
+        left: 138px;
+        text-shadow: 0 1px 4px #000;
+        top: -120px;
+      }
+    }
+  }
+}

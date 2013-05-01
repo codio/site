@@ -110,6 +110,7 @@ set :fonts_dir, 'fonts'
 set :markdown_engine, :redcarpet
 set :markdown, :autolink => true,
                :with_toc_data => true,
+               :tables => true,
                :hard_wrap => true
 
 activate :blog do |blog|

@@ -4,12 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-By default, all Codio projects are public. Anyone who has your account URL (for example [https://codio.com/fmay](https://codio.com/fmay) ), will be able to see and view your public projects. They cannot edit them although they are free to fork them into their own account or anonymously. We are shortly going to be adding explore features so you can search for 3rd party accounts and projects.
+By default, all Codio projects are public. Anyone who has your account URL (for example [https://codio.com/codio](https://codio.com/fmay) ), will be able to see and view your public projects. They cannot edit them although they are free to fork them into their own account or anonymously. We are shortly going to be adding explore features so you can search for 3rd party accounts and projects.
 
 If you do not want your project to be visble to third parties, then you should make your project private. There are three ways to manage this
 
 - When you [create a project](/docs/console/creating) you will see the options for making the project public or private
-- If you are in the IDE, then you can click on the [project menu](/docs/ide/project-menu) and select the Settings option
+- If you are in the IDE, then you can click on the [project menu](/docs/ide/ide-general/project-menu) and select the Settings option
 - You will soon be able to click on the public/private icon and label in the Console in the project box. This is not yet done but will magically start working soon.
 
 ## Private Projects & Paid Accounts

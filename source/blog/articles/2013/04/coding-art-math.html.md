@@ -31,3 +31,8 @@ Below are three simple projects displayed in the Codio IDE (which is live and cl
 
 <iframe src="https://codio.com/codio/Animated-Text-Fill-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
 
+## Arty CSS Backgrounds
+**IMPORTANT:** this is a live IDE, not an image, so explore the code and press Preview to run the code.
+
+<iframe src="https://codio.com/codio/CSS-Patterns" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+

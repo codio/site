@@ -1,7 +1,29 @@
 ---
-title: Our Promises
-active_submenu: legal
-active_submenu_item: /legal
+title: Legalise
+subtitle: Our Promises
+submenu:
+  -
+    text: Our Promises to you
+    url: '/legal'
+    active: true
+  -
+    text: Frequently Asked Questions
+    url: '/legal/faqs'
+  -
+    text: Terms of Use
+    url: '/legal/service-terms'
+  -
+    text: Acceptable Usage Policy
+    url: '/legal/aup'
+  -
+    text: Copyright Notices
+    url: '/legal/copyright'
+  -
+    text: Trademarks
+    url: '/legal/tmusage'
+  -
+    text: Privacy Policy
+    url: '/legal/privacy'
 ---
 
 

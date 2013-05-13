@@ -1,7 +1,29 @@
 ---
-title: Copyright Notice
-active_submenu: legal
-active_submenu_item: /legal/copyright
+title: Legalise
+subtitle: Copyright Notice
+submenu:
+  -
+    text: Our Promise to you
+    url: '/legal'
+  -
+    text: Frequently Asked Questions
+    url: '/legal/faqs'
+  -
+    text: Terms of Use
+    url: '/legal/service-terms'
+  -
+    text: Acceptable Usage Policy
+    url: '/legal/aup'
+  -
+    text: Copyright Notices
+    url: '/legal/copyright'
+    active: true
+  -
+    text: Trademarks
+    url: '/legal/tmusage'
+  -
+    text: Privacy Policy
+    url: '/legal/privacy'
 ---
 
 If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is accessible via the Service, please notify us in writing, including the following information:

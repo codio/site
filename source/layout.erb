@@ -2,14 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title><%= current_page.data.title %> - Codio</title>
+    <title>
+      <% if current_page.data.subtitle %>
+        <%= current_page.data.title %>: <%= current_page.data.subtitle %>
+      <% else %>
+        <%= current_page.data.title %>
+      <% end %>
+       - Codio
+    </title>
 
     <% if content_for?(:meta_description) %>
       <meta name="description" content="<%= yield_content :meta_description %>">
     <% elsif current_page.data.meta_description %>
       <meta name="description" content="<%= current_page.data.meta_description %>">
     <% else %>
-      <meta name="description" content="Codio is a powerful cloud-based visual front-end IDE that covers the complete web development cycle; from prototype to deployment">
+      <meta name="description" content="Codio is a powerful cloud and browser based IDE that covers the complete web development cycle; from prototype to deployment">
     <% end %>
 
     <% if content_for?(:meta_keywords) %>

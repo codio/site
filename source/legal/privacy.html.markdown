@@ -1,8 +1,29 @@
 ---
-title: Privacy Policy
-active_submenu: legal
-active_submenu_item: /legal/privacy
-meta_keywords: mobile application software, mobile application development tools, mobile development platform, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, windows, blackberry, smartphone, symbian, desktop
+title: Legalise
+subtitle: Privacy Policy
+submenu:
+  -
+    text: Our Promise to you
+    url: '/legal'
+  -
+    text: Frequently Asked Questions
+    url: '/legal/faqs'
+  -
+    text: Terms of Use
+    url: '/legal/service-terms'
+  -
+    text: Acceptable Usage Policy
+    url: '/legal/aup'
+  -
+    text: Copyright Notices
+    url: '/legal/copyright'
+  -
+    text: Trademarks
+    url: '/legal/tmusage'
+  -
+    text: Privacy Policy
+    url: '/legal/privacy'
+    active: true
 ---
 
 This Privacy Policy is effective May 8th, 2013.
@@ -49,7 +70,7 @@ Codio may use information from Web beacons in combination with Data About Codio 
 
 **4.3 Flash Cookies** - Codio may use local shared objects, also known as Flash cookies, to store your preferences or display content based upon what you view on our site to personalize your visit. Third parties, with whom the Company partners to provide certain features on our site or to display advertising based upon your web browsing activity, use Flash cookies to collect and store information.
 
-Flash cookies are different from browser cookies because of the amount of, type of, and how data is stored. Cookie management tools provided by your browser will not remove Flash cookies. 
+Flash cookies are different from browser cookies because of the amount of, type of, and how data is stored. Cookie management tools provided by your browser will not remove Flash cookies.
 
 **4.4 IP Addresses** - When you visit Codio web site, the Company collects your Internet Protocol ("IP") addresses to track and aggregate non-personal information. For example, Codio uses IP addresses to monitor the regions from which Customers and Visitors navigate the Company's Web site.
 

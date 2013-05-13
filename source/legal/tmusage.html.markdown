@@ -1,7 +1,29 @@
 ---
-title: Trademark Usage
-active_submenu: legal
-active_submenu_item: /legal/tmusage
+title: Legalise
+subtitle: Trademark Usage
+submenu:
+  -
+    text: Our Promise to you
+    url: '/legal'
+  -
+    text: Frequently Asked Questions
+    url: '/legal/faqs'
+  -
+    text: Terms of Use
+    url: '/legal/service-terms'
+  -
+    text: Acceptable Usage Policy
+    url: '/legal/aup'
+  -
+    text: Copyright Notices
+    url: '/legal/copyright'
+  -
+    text: Trademarks
+    url: '/legal/tmusage'
+    active: true
+  -
+    text: Privacy Policy
+    url: '/legal/privacy'
 ---
 
 **Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.

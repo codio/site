@@ -1,7 +1,29 @@
 ---
-title: Codio Cloud License
-active_submenu: legal
-active_submenu_item: /legal/service-terms
+title: Legalise
+subtitle: Codio Cloud License
+submenu:
+  -
+    text: Our Promise to you
+    url: '/legal'
+  -
+    text: Frequently Asked Questions
+    url: '/legal/faqs'
+  -
+    text: Terms of Use
+    url: '/legal/service-terms'
+    active: true
+  -
+    text: Acceptable Usage Policy
+    url: '/legal/aup'
+  -
+    text: Copyright Notices
+    url: '/legal/copyright'
+  -
+    text: Trademarks
+    url: '/legal/tmusage'
+  -
+    text: Privacy Policy
+    url: '/legal/privacy'
 ---
 
 **Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
@@ -85,7 +107,7 @@ Effective May 9th, 2013
 
 ###9. Recommendations
 
-**9.1** Codio may, and you grant us permission to, make recommendations via the Codio Services for products or services we think may be of interest to you based on your Application(s), Content, and/or use of the Codio Services. 
+**9.1** Codio may, and you grant us permission to, make recommendations via the Codio Services for products or services we think may be of interest to you based on your Application(s), Content, and/or use of the Codio Services.
 
 ###10. Modification and Termination of the Codio Services
 
@@ -95,7 +117,7 @@ Effective May 9th, 2013
 
 **10.3** You agree that Codio, in its sole discretion and for any or no reason, may terminate your account or any part thereof. You agree that any termination of your access to the Codio Services, including the licenses granted to you in clause 7 above, may be made without prior notice, and you agree that Codio will not be liable to you or any third party for such termination.
 
-**10.4** You are solely responsible for exporting your Content and Application(s) from the Codio Services prior to termination of your account for any reason, provided that if we terminate your account, we will provide you a reasonable opportunity to retrieve your Content and Application(s). 
+**10.4** You are solely responsible for exporting your Content and Application(s) from the Codio Services prior to termination of your account for any reason, provided that if we terminate your account, we will provide you a reasonable opportunity to retrieve your Content and Application(s).
 
 **10.5** Upon any termination of the Codio Services or your account these Terms will also terminate, but Sections 6.1, 11, 12, 13, 14, and 18 shall continue to be effective after these Terms are terminated.
 

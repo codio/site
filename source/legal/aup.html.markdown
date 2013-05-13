@@ -4,26 +4,26 @@ subtitle: Acceptable Usage Policy
 submenu:
   -
     text: Our Promise to you
-    url: ''
+    url: '../'
   -
     text: Frequently Asked Questions
-    url: 'faqs'
+    url: '../faqs'
   -
     text: Terms of Use
-    url: 'service-terms'
+    url: '../service-terms'
   -
     text: Acceptable Usage Policy
-    url: 'aup'
+    url: ''
     active: true
   -
     text: Copyright Notices
-    url: 'copyright'
+    url: '../copyright'
   -
     text: Trademarks
-    url: 'tmusage'
+    url: '../tmusage'
   -
     text: Privacy Policy
-    url: 'privacy'
+    url: '../privacy'
 ---
 
 **Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.

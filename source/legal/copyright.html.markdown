@@ -4,26 +4,26 @@ subtitle: Copyright Notice
 submenu:
   -
     text: Our Promise to you
-    url: '/legal'
+    url: '../'
   -
     text: Frequently Asked Questions
-    url: '/legal/faqs'
+    url: '../faqs'
   -
     text: Terms of Use
-    url: '/legal/service-terms'
+    url: '../service-terms'
   -
     text: Acceptable Usage Policy
-    url: '/legal/aup'
+    url: '../aup'
   -
     text: Copyright Notices
-    url: '/legal/copyright'
+    url: ''
     active: true
   -
     text: Trademarks
-    url: '/legal/tmusage'
+    url: '../tmusage'
   -
     text: Privacy Policy
-    url: '/legal/privacy'
+    url: '../privacy'
 ---
 
 If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is accessible via the Service, please notify us in writing, including the following information:

@@ -17,6 +17,6 @@ Right now we support deploying your projects over FTP, but we do have immediate 
 
 However, the easiest and fastest way to get started is to host your code right here with us. Powered by Amazons S3 cloud storage, you can host your client-side apps and static content with us. Just choose the "Codio" deployment destination, and hit deploy. No server to setup, and no complex configuration needed!
 
-Documentation can be found in the [docs](http://localhost:4567/docs/deployment/), but it's so easy to use, that we recommend you simply dive in and give it a go.
+Documentation can be found in the [docs](/docs/deployment/), but it's so easy to use, that we recommend you simply dive in and give it a go.
 
 Enjoy!

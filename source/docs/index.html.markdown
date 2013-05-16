@@ -4,9 +4,18 @@ class_name: docs
 full_width: true
 ---
 
-Welcome to the Codio documentation. We've only just released our first Public Beta, so the documentation is a little sparse right now. However, we are going to improve it fast with your help.
+##Contacting Us
+If you want to contact us, we have a great Intercom system integrated with your account. If you have a Codio account, you will see an envelope icon at the top of your screen.
 
-If you find that you still have questions that the docs do not answer, please [send us an email](mailto:ee8711023afa04b80a6b921ddb3939c1171e0f62@incoming.intercom.io) and we'll make sure we reply back as soon as possible.
+![Intercom](/img/docs/intercom.png)
 
-Or if you fancy getting your hands dirty, this documentation and our whole site is [open sourced on GitHub](https://github.com/codio/site). If you see a typo, or something that doesn't look quite right; or maybe there is a section missing that you would like to write, simply [fork](https://github.com/codio/site) the repository and send us a pull request.
+Click on this and you can send a message straight to our team as well as being able to receive information from us about updates, news etc.
+
+
+##The documentation
+If you find anything wrong (or missing) with our documentation then please let us know in one of the following ways
+
+- [send us an email](mailto:ee8711023afa04b80a6b921ddb3939c1171e0f62@incoming.intercom.io) and we'll make sure we reply back as soon as possible.
+- Use the Intercom envelope (see above)
+
 

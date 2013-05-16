@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-176cce2e.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-359acc91.css" media="screen" rel="stylesheet" type="text/css" />
 
     
       <link href="/sitebar.css" media="screen" rel="stylesheet" type="text/css" />
@@ -107,42 +107,42 @@
       <h1>Creating a Target</h1>
       <p><img alt="targets create" src="../../../img/docs/deploy-top-bar-3fb879ae.png" /></p>
 
-<p>The deployment options are all accessed via the Deploy dropdown in the top bar. If you have not yet created any deployment targets then you will be prompted to create one.</p>
+<p>The deployment options are all accessed via the <strong>Deploy</strong> dropdown in the top bar. If you have not yet created any deployment targets then you will be prompted to create one.</p>
 
 <p><img alt="targets create" src="../../../img/docs/deploy-details-d1b20b01.png" /></p>
 
-<p>The Deployment Targets dialog </p>
+<p>In the Deployment Targets dialog, you can:</p>
 
 <ul>
-<li>lists all defined deployment targets</li>
-<li>lets you modify existing ones</li>
-<li>create new targets</li>
+<li>list all defined deployment targets.</li>
+<li>modify existing targets.</li>
+<li>create new targets.</li>
 </ul>
 
 <h2 id="toc_0">Specifying the Source location</h2>
 
-<p>Each target requires you to specify the <strong>Source</strong>. This allows you to specify which part of your project should be deployed. You have the following options</p>
+<p>Each target requires you to specify the <strong>Source</strong>. This allows you to specify which part of your project should be deployed. You have the following options:</p>
 
 <ul>
-<li><strong>While project</strong> : the entire project</li>
-<li><strong>App...</strong> : a specific App within your project</li>
-<li><strong>Directory...</strong> : a specific directory/folder within an App</li>
+<li><strong>Whole project</strong>: the entire contents of your project.</li>
+<li><strong>App</strong>: a specific app within your project.</li>
+<li><strong>Directory</strong>: a specific directory.</li>
 </ul>
 
 <p>This allows you to define multiple targets for each deployment which can then be deployed to with a single button press.</p>
 
-<h2 id="toc_1">Codio targets and URLs</h2>
+<h2 id="toc_1">Codio targets and URL&#39;s</h2>
 
-<p>When you create a Codio target type, the url of your deployed app will depend on the Source location you specified</p>
+<p>When you create a Codio target type, the URL of your deployed app will depend on the Source location you specified:</p>
 
 <ul>
-<li><strong>While project</strong> : <code>http://username.cod.io/projname/app/</code> (assuming you have an app called <code>app</code>).</li>
-<li><strong>App...</strong> : <code>http://username.cod.io/projname/</code> (the app is not mentioned)</li>
+<li><strong>Whole project</strong>: <code>http://username.cod.io/projectname/app/</code> (assuming you have an app called <code>app</code>).</li>
+<li><strong>App...</strong>: <code>http://username.cod.io/projectname/</code> (the app is not mentioned)</li>
 </ul>
 
-<p>Once you have successfully deployed, the actual URL is shown in the popup dialog that appears when you click the Deploy link in the top bar. </p>
+<p>Once you have successfully deployed, the actual URL is shown in the popup dialog that appears when you click the Deploy link in the top bar.</p>
 
-<p>There is also a button in the main Deployment Targets dialog that when clicked on will launch the app at the target. This assumes that there is an index.html file present. If you have several app folders, then the url suggested by Codio will be the first app folder and will assume the presence of an index.html. If you get a 404 error then you will need to locate the correct file yourself.</p>
+<p>There is also a button in the main Deployment Targets dialog that when clicked on, will launch the app at the target. This assumes that there is an index.html file present. If you have several app folders, then the URL suggested by Codio will be the first app folder and will assume the presence of an index.html. If you get a 404 error then you will need to locate the correct file yourself.</p>
 
 <h2 id="toc_2">Development, Staging, Production etc.</h2>
 

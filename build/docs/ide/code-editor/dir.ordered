@@ -1,3 +1,10 @@
 kb-shortcuts
 search-replace
 editor-settings
+ide-theme
+ide-wrap
+ide-fold
+ide-invisibles
+ide-highlight-active
+ide-indent-guides
+ide-force-lang

@@ -8,5 +8,5 @@ We've included the reference at the top rather than the bottom just to show you 
 
 Just click on the image below to hop across.
 
-<a href="http://docs.emmet.io/cheat-sheet/" target"_blank"><img src="/img/docs/emmet-ref.png"></a>
+<a href="http://docs.emmet.io/cheat-sheet/" target"_blank"><img src="docs/emmet-ref.png"></a>
 

@@ -18,22 +18,22 @@
     <author>
       <name>Freddy May</name>
     </author>
-    <summary type="html">&lt;p&gt;We've just deployed Inline Preview in Codio. You can now press Preview in the IDE and a re-sizable panel will appear beneath your code.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;We've just deployed an inline preview capability. Just press Preview and a re-sizable panel will appear beneath your code.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="inline preview demo" src="img/docs/preview-demo-9be18d08.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="inline preview demo" src="/s/img/blog/preview-demo-9be18d08.png"&gt;&lt;/p&gt;
 
-&lt;p&gt;You can expand it in its own tab with another single click.&lt;/p&gt;
+&lt;p&gt;You can expand it into its own browser tab with a click in the preview header.&lt;/p&gt;
 
 &lt;p&gt;Read more (well, not a lot more) in the &lt;a href="/s/docs/ide/ide-general/inline-preview/"&gt;documentation&lt;/a&gt;&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We&amp;#39;ve just deployed Inline Preview in Codio. You can now press Preview in the IDE and a re-sizable panel will appear beneath your code.&lt;/p&gt;
+    <content type="html">&lt;p&gt;We&amp;#39;ve just deployed an inline preview capability. Just press Preview and a re-sizable panel will appear beneath your code.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="inline preview demo" src="img/docs/preview-demo-9be18d08.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="inline preview demo" src="/s/img/blog/preview-demo-9be18d08.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;You can expand it in its own tab with another single click.&lt;/p&gt;
+&lt;p&gt;You can expand it into its own browser tab with a click in the preview header.&lt;/p&gt;
 
 &lt;p&gt;Read more (well, not a lot more) in the &lt;a href="/s/docs/ide/ide-general/inline-preview/"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This is the latest, but by now means the last, feature to come off the production line. Three new ones to be announced in the next few days.&lt;/p&gt;
+&lt;p&gt;This is the latest, but by no means the last, feature to come off the production line. We&amp;#39;re going to be announcing three new ones in the next few days, so keep your eyes peeled.&lt;/p&gt;
 </content>
   </entry>
   <entry>

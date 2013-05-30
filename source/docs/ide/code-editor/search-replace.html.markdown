@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Search and replace is accessed using keyboard shortcuts. To remove the dialog that appears, press the escape key.
+Search and replace is accessed using keyboard shortcuts. Press escape to return to normal edit mode.
 
 | PC (Windows/Linux)             | Mac                            | action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
@@ -13,3 +13,5 @@ Search and replace is accessed using keyboard shortcuts. To remove the dialog th
 | Ctrl-Shift-K | Command-Shift-G | find previous |
 | Ctrl-R | Command-Option-F | replace |
 | Ctrl-Shift-R | Command-Shift-Option-F | replace all |
+
+

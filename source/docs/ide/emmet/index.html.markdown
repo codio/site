@@ -1,16 +1,20 @@
 ---
-title: "HTML and CSS Productivity Shortcuts"
+title: "HTML, CSS and JS Productivity Shortcuts"
 class_name: docs
 full_width: true
 ---
 
-We have implemented Emmet into the Codio IDE. These features let you saves loads of time when working with HTML and CSS.
+We have implemented lots of productivity shortcuts into the Codio IDE. These features let you saves loads of time when working with HTML, CSS and Javascript.
 
-Not only do you get a huge range of abbreviations that expand to code like this
+##Code Editor Keyboard Shortcuts
+General code editor shortcuts can be [found here](/docs/ide/code-editor/kb-shortcuts/). All other productivty shortcuts are found in this chapter.
+
+##Abbreviations
+Thanks to our Emmet support, you get a large number of abbreviations that expand to code, a bit like this
 
 	div>ul>li*3
 
-results in 
+expands to 
 
 	<div>
 	    <ul>
@@ -20,8 +24,11 @@ results in
 	    </ul>
 	</div>
 
-... but you also get some very powerful keyboard shortcuts that can dramatically improve your productivity. Check these out in the sections in this chapter.
-
 Be sure to check out the [complete reference](/docs/ide/emmet/emmet-ref/) as there are an awful lot of abbreviations for you to take advantage of.
+
+
+##Snippet Support
+We have support for Textmate type snippets. These let you type abbreviated commands directly in the editor then, when you press the tab key, they expand into full HTML and CSS.
+
 
 

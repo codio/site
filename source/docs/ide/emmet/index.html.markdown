@@ -10,7 +10,7 @@ We have implemented lots of productivity shortcuts into the Codio IDE. These fea
 General code editor shortcuts can be [found here](/docs/ide/code-editor/kb-shortcuts/). All other productivty shortcuts are found in this chapter.
 
 ##Abbreviations
-Thanks to our Emmet support, you get a large number of abbreviations that expand to code, a bit like this
+Thanks to our Emmet support, you get a large number of [HTML](/docs/ide/emmet/emmet-html/) and [CSS](/docs/ide/emmet/emmet-css/) abbreviations that expand to code, a bit like this
 
 	div>ul>li*3
 

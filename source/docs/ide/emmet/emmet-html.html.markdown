@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-This is a way of generating HTML using a CSS selector inspired approach. Take a look at the following examples. In each case you should use a hotkey combo to trigger the output to be generated
+This is a way of generating HTML using a CSS selector inspired approach. Take a look at the following examples. In each case you should use a hotkey combination to trigger the output to be generated
 
 - **Mac** : ctrl+alt+e
 - **PC/Linux** : alt+e

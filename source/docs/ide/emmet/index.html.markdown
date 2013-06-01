@@ -28,7 +28,13 @@ Be sure to check out the [complete reference](/docs/ide/emmet/emmet-ref/) as the
 
 
 ##Snippet Support
-We have support for Textmate type snippets. These let you type abbreviated commands directly in the editor then, when you press the tab key, they expand into full HTML and CSS.
+[Snippets](/docs/ide/emmet/snippets/) save you lots of typing and often save you having to look up detailed syntax for HTML, CSS and Javascript. You type abbreviated commands directly in the editor then, when you press the tab key, they expand into full HTML and CSS.
 
+	for
 
+then tab expands to 
+
+	for (var i = 0; i < Things.length; i++) {
+	    Things[i]
+	}
 

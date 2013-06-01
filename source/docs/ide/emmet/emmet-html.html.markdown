@@ -1,12 +1,16 @@
 ---
-title: "HTML Abbreviations Examples"
+title: "HTML Abbreviations"
 class_name: docs
 full_width: true
 ---
 
-This is a way of generating HTML using a CSS selector inspired approach. Take a look at the following examples. In each case you should press the TAB key to generate the output. 
+This is a way of generating HTML using a CSS selector inspired approach. Take a look at the following examples. In each case you should use a hotkey combo to trigger the output to be generated
+
+- **Mac** : ctrl+alt+e
+- **PC/Linux** : alt+e
 
 HTML abbreviations will only work in an HTML file.
+
 ##Basic Example
 
 	div>ul>li*3
@@ -41,7 +45,7 @@ results in
 	</div>
 
 ##More Examples
-Be sure to check out the [HTML Abbreviations](http://docs.emmet.io/abbreviations/).
+Be sure to check out [HTML Abbreviations](http://docs.emmet.io/abbreviations/).
 
 And also take a look at the [cheat sheet](/docs/ide/emmet/emmet-ref/) as there are an awful lot of abbreviations for you to take advantage of.
 

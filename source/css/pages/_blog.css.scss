@@ -200,6 +200,26 @@ body.blog {
         }
       }
 
+      table {
+        margin: 40px 0;
+
+        thead th {
+          border-bottom: 1px solid #eee;
+          padding-bottom: 10px;
+        }
+
+        tbody {
+          td {
+            vertical-align: top;
+            padding-bottom: 10px;
+          }
+
+          tr:first-child > td {
+            padding-top: 15px;
+          }
+        }
+      }
+
       hr {
         margin: 2em;
       }

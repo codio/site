@@ -15,7 +15,7 @@ There are 3 modes supported
 - **Explore** - You can explore both the project tree and the code and click on the 'i' icons to bring up the help window. 
 
 ##Tour Mode
-Tour mode works by examining the annotations.codio file from top to bottom and looking for any '@annotation:tour' tokens. When it finds a token, it will display any annotation content in a popup window and if a label is specified with the token, it will display the associated code snippet.
+Tour mode works by examining the annotations.md file from top to bottom and looking for any '@annotation:tour' tokens. When it finds a token, it will display any annotation content in a popup window and if a label is specified with the token, it will display the associated code snippet.
 
 ![mode buttons](/img/docs/ca-popup-window.png)
 

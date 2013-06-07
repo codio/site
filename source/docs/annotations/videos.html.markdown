@@ -4,7 +4,14 @@ class_name: docs
 full_width: true
 ---
 
-Adding videos, images and links to your annotations can make it easier to learn the subject matter and it's really easy to do using markdown as [described here](/docs/annotations/markdown). 
+Adding videos, images and links to your annotations can make it easier to learn the subject matter and it's really easy to do using markdown as [described here](/docs/annotations/md-overview/). 
+
+#Image
+To insert an image, you need to specify the full path to the image, including the app name itself, for example
+
+`![Bower Logo](app/img/bower-logo.png)`
+
+Do not put a `/` at the start of the image path.
 
 #Video
 To insert a YouTube or Vimeo video into your annotations, just use the full URL of the video

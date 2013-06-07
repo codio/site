@@ -8,7 +8,7 @@ When in Explore Mode, the viewer can also explore the structure of the project. 
 
 ![file annotations](/img/docs/ca-files.png)
 
-Just add  `@annotation:file` into `annotations.codio`
+Just add  `@annotation:file` into `annotations.md`
 
 	@annotation:file impress/README.md
 

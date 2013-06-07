@@ -25,7 +25,7 @@ In this case, you use the `snippet` directive rather than `tour`.
 	// @annotation:snippet token-name
 
 ##Writing annotation content
-After you have added your source file token you add your annotation content to a file in the root of your application called `annotations.codio`. If it is not there, just add it.
+After you have added your source file token you add your annotation content to a file in the root of your application called `annotations.md`. If it is not there, just add it.
 
 ![annotations file](/img/docs/ca-annotations-file.png)
 
@@ -40,7 +40,7 @@ Markdown is very easy to write, is portable and allows you to add plenty of rich
 	http://youtu.be/Aj5mFDihfkw?rel=0&showinfo=0
 
 ##Tour items that do not show any code
-You will often want to include some tour explanations that do not point to any code. In this case, you insert this in the annotations.codio file without any matching source file token.
+You will often want to include some tour explanations that do not point to any code. In this case, you insert this in the annotations.md file without any matching source file token.
 
 	@annotation:tour
 	#Welcome to my tour

@@ -5,10 +5,35 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-06-06T00:00:00Z</updated>
+  <updated>2013-06-07T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Real Time Coding</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/06/real-time-coding/"/>
+    <id>https://codio.com/s/blog/2013/06/real-time-coding/</id>
+    <published>2013-06-07T00:00:00Z</published>
+    <updated>2013-06-07T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;We have a big new feature for your enjoyment that we rolled out just yesterday. I'm excited to introduce Real Time Coding!&lt;/p&gt;
+
+&lt;p&gt;Right from the start, we wanted Codio to be collaborative. We are after all, working in the browser, which is the perfect place...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We have a big new feature for your enjoyment that we rolled out just yesterday. I&amp;#39;m excited to introduce Real Time Coding!&lt;/p&gt;
+
+&lt;p&gt;Right from the start, we wanted Codio to be collaborative. We are after all, working in the browser, which is the perfect place to collaborate. So yesterday we flicked the switch on our first big collaborative feature.&lt;/p&gt;
+
+&lt;p&gt;Real Time Coding is exactly as it sounds. You and your friends and colleagues can hack away on your code. But when any of your friends or colleagues makes a change in the code, you see it happening right there in real time. You see exactly what they type, as they type it.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s like Google Docs, but right in your code editor!&lt;/p&gt;
+
+&lt;p&gt;Real Time Coding is available right now for everyone, and for all projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/s/img/blog/real-time-coding-ee2a33ca.gif" /&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Moving from Mercurial to Git</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/"/>
@@ -394,31 +419,6 @@ background-image: linear-gradient(left, #fc0, 30%, red);
 &lt;p&gt;Second is the much requested ability to quickly and easily switch modes of the file you are looking at, and an updated line and column count. Both these can be found in the status bar at the bottom of the page, when you have a file open. Codio now supports nearly 100 programming languages, and each one is now just a click away. Of course, we will still automatically detect the correct language for you, but just in case we get it wrong, or you simply want to edit your HTML as if it were Haskell (which of course we all want to do), go right ahead and change it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="/s/img/blog/mode-f0db53d5.gif" /&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>One-Click Deployment</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/05/one-click-deployment/"/>
-    <id>https://codio.com/s/blog/2013/05/one-click-deployment/</id>
-    <published>2013-05-16T00:00:00Z</published>
-    <updated>2013-05-16T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;You have always been able to preview your code from right within the Codio IDE, but this ability to preview was never intended to be a hosting solution for your production apps. We have always wanted to make it as easy as possible for you to deploy...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;You have always been able to preview your code from right within the Codio IDE, but this ability to preview was never intended to be a hosting solution for your production apps. We have always wanted to make it as easy as possible for you to deploy your apps. So I am very excited to announce our latest new feature that is available right now to all users. Announcing Codio:Deployment - a single click and your app is deployed to your production environment.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/s/img/blog/deployment-07f08697.gif" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Codio:Deployment is available to users with admin permissions on any project. You can create one or more deployment targets, which can be used to setup different environments - perhaps for production and staging. Then any time you are ready to deploy your code, just choose the target you want, and click deploy!&lt;/p&gt;
-
-&lt;p&gt;Right now we support deploying your projects over FTP, but we do have immediate plans to allow you to deploy to Parse and NodeJitsu.&lt;/p&gt;
-
-&lt;p&gt;However, the easiest and fastest way to get started is to host your code right here with us. Powered by Amazons S3 cloud storage, you can host your client-side apps and static content with us. Just choose the &amp;quot;Codio&amp;quot; deployment destination, and hit deploy. No server to setup, and no complex configuration needed!&lt;/p&gt;
-
-&lt;p&gt;Documentation can be found in the &lt;a href="/s/docs/deployment/"&gt;docs&lt;/a&gt;, but it&amp;#39;s so easy to use, that we recommend you simply dive in and give it a go.&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
   </entry>
 </feed>

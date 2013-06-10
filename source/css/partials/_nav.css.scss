@@ -179,16 +179,12 @@ nav {
   }
 
   // Blog Ribbon
-  #blog-ribbon {
-    a {
-      background: image-url('blog-ribbon.png') no-repeat scroll top left;
-      text-indent: -9999px;
-      display: block;
-      width: 51px;
-      height: 106px;
-      position: absolute;
-      top: 83px;
-      z-index: 50;
-    }
+  #blog-ribbon a {
+    display: block;
+    width: 51px;
+    height: 106px;
+    position: absolute;
+    top: 83px;
+    z-index: 50;
   }
 }

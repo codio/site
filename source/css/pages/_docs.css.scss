@@ -47,8 +47,11 @@ body.docs .wrap {
     }
 
     #blog-ribbon a {
-      background-size: 72%;
       top: 86px;
+
+      img {
+        max-width: 72%;
+      }
     }
   }
 

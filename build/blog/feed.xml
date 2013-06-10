@@ -5,10 +5,122 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-06-07T00:00:00Z</updated>
+  <updated>2013-06-10T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>The Journey from Mercurial to Git</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/06/journey/"/>
+    <id>https://codio.com/s/blog/2013/06/journey/</id>
+    <published>2013-06-10T00:00:00Z</published>
+    <updated>2013-06-10T00:00:00Z</updated>
+    <author>
+      <name>Friedel Ziegelmayer</name>
+    </author>
+    <summary type="html">&lt;h2 id="toc_0"&gt;The Problem&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;In which we see all the issues that come with great version control.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href="/s/blog/2013/06/moving-from-mercurial-to-git/"&gt;already mentioned in the last post&lt;/a&gt; we are using Mercurial right now but want to switch to Git. So the question in the room was how to convert a large Mercurial repository...&lt;/p&gt;</summary>
+    <content type="html">&lt;h2 id="toc_0"&gt;The Problem&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;In which we see all the issues that come with great version control.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href="/s/blog/2013/06/moving-from-mercurial-to-git/"&gt;already mentioned in the last post&lt;/a&gt; we are using Mercurial right now but want to switch to Git. So the question in the room was how to convert a large Mercurial repository to Git, without losing any history and converting the named Mercurial branches to Git branches.&lt;/p&gt;
+
+&lt;p&gt;There were a few tools that I tried, mainly &lt;a href="https://github.com/frej/fast-export"&gt;fast-export&lt;/a&gt; and &lt;a href="http://www.fogcreek.com/kiln/"&gt;Kiln&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The first one was fast-export and the main problem was that after I got it installed it always crashed with some cryptic errors. Some of them could be resolved as explained in this &lt;a href="http://www.mehdi-khalili.com/migrating-from-mercurial-to-git"&gt;post&lt;/a&gt;. But even then after fixing these there were more errors, so I eventually gave up.&lt;/p&gt;
+
+&lt;p&gt;The next one was &lt;a href="http://www.fogcreek.com/kiln/"&gt;Kiln&lt;/a&gt;, a service that claims to allow you to work on a single repository using Git &lt;em&gt;and&lt;/em&gt; Mercurial. After setting up an account and waiting forty minutes to push from the command line, I was excited to see what happened, but was pretty bummed to see that the repo was completely empty in the web interface. After the command line, I tried their importer, which took about the same amount of time again only to give me just a partial history in the web interface. After this I was quite fed up with Kiln and moved on.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;The Meeting&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;In which we meet a creature much more powerful than we had ever imagined.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I was about to give up my search when I found &lt;a href="https://github.com/buchuki/gitifyhg"&gt;Gitifyhg&lt;/a&gt;. &lt;a href="https://github.com/buchuki/gitifyhg"&gt;Gitifyhg&lt;/a&gt; is not intended as a way of converting Mercurial repositories to Git, but rather to give people who have to work on those, an easy way&lt;br&gt;
+to interact with them using Git.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This git remote allows you to do local development in a git repository and push changes to an upstream mercurial repository. It does this seamlessly and allows pushing and pulling to named branches in the upstream repository.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But because it needs to be able to do much more, e.g. converting back and forth from Mercurial to Git, it is able to do exactly what we need: convert a complete Mercurial repository into a Git repository without losing any history or a single branch.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;The Great Conversion&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;In which Mercurial branches become Git branches.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_3"&gt;The Installation&lt;/h3&gt;
+
+&lt;p&gt;As we&amp;#39;re already using Mercurial, Python is set up and hopefully &lt;code&gt;pip&lt;/code&gt; or &lt;code&gt;easy_install&lt;/code&gt;. If this is the case then installation is as simple as typing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ pip install gitifyhg
+# or
+$ easy_install gitifyhg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more information on installation procedures check out the &lt;a href="https://github.com/buchuki/gitifyhg#install"&gt;readme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="toc_4"&gt;The Ceremony&lt;/h3&gt;
+
+&lt;p&gt;Now that gitifyhg is installed we can harness its powers by simply cloning a Mercurial repository with this command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git clone gitifyhg::&amp;lt;mercurial repository&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;One thing to note here, is that the easiest way - for conversion at least - is to clone a local repository instead of one that is on a server. The main issue here is that I couldn&amp;#39;t figure out how to sign in to &lt;a href="https://bitbucket.org/"&gt;Bitbucket&lt;/a&gt; using this approach.&lt;/p&gt;
+
+&lt;p&gt;When this command has finished running the conversion is finished. What we now need to do is set up remote tracking branches for all our git branches so we can check them out. This is easy enough for a single branch by doing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git --track &amp;lt;name of the remote branch&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But if you have many branches and want to add them all at once we can use the power of the shell to do it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ for remote in `git branch -r `; do git branch --track $remote; done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can now take a look at all our Mercurial branches in Git:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git branch -r
+  origin/HEAD -&amp;gt; origin/master
+  origin/branches/#7345_tabs_reopening
+  origin/branches/#7528_context-no-longer-needed
+  origin/branches/#7610_md5_cache
+  origin/branches/#7633_file_tree_icons
+  origin/branches/#7663_deployment_UI
+  origin/branches/#7777_sharejs
+  origin/branches/#7797_first_app_selection
+  origin/branches/#7800_ace_themes
+  origin/branches/#7897_annotations_menuitem_visibility
+  origin/branches/#7973_preview_hotkeys
+  origin/branches/#7981_tour_closing
+  origin/branches/#8011_inline_preview
+  origin/branches/#8013_shortcuts
+  origin/branches/#8062_error_on_init_during_close
+  origin/branches/#8128_css_color_preview
+  origin/branches/#8130_emmet_hotkeys
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="toc_5"&gt;The Cleaning&lt;/h3&gt;
+
+&lt;p&gt;Gitifyhg uses the convention &lt;code&gt;master = default&lt;/code&gt; for the main branch and &lt;code&gt;&amp;lt;git branch name&amp;gt; = branches/&amp;lt;mercurial branch name&amp;gt;&lt;/code&gt; for all other branches. We don&amp;#39;t want this. Instead we want to rename our local branches so that the prefix &lt;code&gt;branches/&lt;/code&gt; is removed. This is easily done by doing:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git branch -m &amp;lt;old name&amp;gt; &amp;lt;new name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So we can rename those branches that we want to keep around and remove those that are not needed anymore by calling:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git branch -D &amp;lt;branch name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="toc_6"&gt;The Epilogue&lt;/h2&gt;
+
+&lt;p&gt;Now that we&amp;#39;ve converted the repository itself, the real work begins. We need to change our development cycle around version control and educate everyone about how to use Git in a safe and productive way. Even if these two are similar there is still a lot to learn and the raw power of Git can sometimes be a little bit scary, but personally I much prefer having all the power rather than jumping through hoops all the time.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Real Time Coding</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/06/real-time-coding/"/>
@@ -398,27 +510,6 @@ background-image: linear-gradient(left, #fc0, 30%, red);
 &lt;/ul&gt;
 
 &lt;p&gt;Check out the &lt;a href="/s/docs/ide/emmet/"&gt;Codio documentation&lt;/a&gt; for an overview.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mode Selection and UI Refresh</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/05/mode-selection-and-ui-refresh/"/>
-    <id>https://codio.com/s/blog/2013/05/mode-selection-and-ui-refresh/</id>
-    <published>2013-05-17T00:00:00Z</published>
-    <updated>2013-05-17T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Hot on the heels of yesterday's &lt;a href="/s/blog/2013/05/one-click-deployment/"&gt;release of Codio:Deployment&lt;/a&gt; comes a couple of extra goodies for you.&lt;/p&gt;
-
-&lt;p&gt;First up is a slight refresh of the UI. We like being trendy and "with it", so we tweaked our colours and made the UI a little flatter. We also decreased...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Hot on the heels of yesterday&amp;#39;s &lt;a href="/s/blog/2013/05/one-click-deployment/"&gt;release of Codio:Deployment&lt;/a&gt; comes a couple of extra goodies for you.&lt;/p&gt;
-
-&lt;p&gt;First up is a slight refresh of the UI. We like being trendy and &amp;quot;with it&amp;quot;, so we tweaked our colours and made the UI a little flatter. We also decreased the height of the top bars, to give you even more code editing space. This, along with a set of all new clean and crisp icons, means Codio has never looked so HOT!&lt;/p&gt;
-
-&lt;p&gt;Second is the much requested ability to quickly and easily switch modes of the file you are looking at, and an updated line and column count. Both these can be found in the status bar at the bottom of the page, when you have a file open. Codio now supports nearly 100 programming languages, and each one is now just a click away. Of course, we will still automatically detect the correct language for you, but just in case we get it wrong, or you simply want to edit your HTML as if it were Haskell (which of course we all want to do), go right ahead and change it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/s/img/blog/mode-f0db53d5.gif" /&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

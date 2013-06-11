@@ -5,10 +5,52 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-06-10T00:00:00Z</updated>
+  <updated>2013-06-11T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>More thoughts on teaching kids to code</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/06/coding-kids/"/>
+    <id>https://codio.com/s/blog/2013/06/coding-kids/</id>
+    <published>2013-06-11T00:00:00Z</published>
+    <updated>2013-06-11T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;While we're very busy fashioning lovely new features into the Codio IDE, we are also trying to make some progress with our parallel project of getting kids (around 14 and over) to code.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Start with a laugh&lt;/h2&gt;
+
+&lt;p&gt;In case you want to see how the youth of...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;While we&amp;#39;re very busy fashioning lovely new features into the Codio IDE, we are also trying to make some progress with our parallel project of getting kids (around 14 and over) to code.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Start with a laugh&lt;/h2&gt;
+
+&lt;p&gt;In case you want to see how the youth of today interact with technology, take a quick look at the 15 second video below.&lt;br&gt;
+  &lt;a href="http://www.youtube.com/v/OyGa9SC-MXQ?autoplay=1" class="fancybox fancybox.iframe" id="video"&gt;&lt;br&gt;
+    &lt;img src="//i3.ytimg.com/vi/OyGa9SC-MXQ/mqdefault.jpg"&gt;&lt;br&gt;
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was taken from this &lt;a href="http://www.youtube.com/v/ng7sf2_peFg?autoplay=1"&gt;TedX video&lt;/a&gt; Clare Sutcliffe of &lt;a href="http://codeclub.org.uk/"&gt;CodeClub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;But seriously&lt;/h2&gt;
+
+&lt;p&gt;This video shows just how natural it is for kids to interact with technology. Apparently the modern term for a kid growing up with today&amp;#39;s tech is a &amp;#39;Digital Native&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;The fact is, if we do not teach our kids to code, we are missing a major trick and  disadvantaging ourselves and our economies. Teaching them to code should be thought of as a great life skill and one that can reinforce a lot of other school subjects as discussed in this &lt;a href="/s/blog/2013/04/coding-art-math/"&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To the naysayers, yes, some kids will be better than others, but that applies to driving a car or learning mathematics. The fact is, technology is a life skill and coding plays a central part in every application we use on our computers, tablets and phones.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Progress&lt;/h2&gt;
+
+&lt;p&gt;We have made a lot of progress in providing a web based platform that is really great for kids above 13 or 14 all the way up to professional developers. By August, it will be ready and free for education, open source and public projects.&lt;/p&gt;
+
+&lt;p&gt;What we are trying to do in parallel is devise a way of spreading the word. We are very open to collaborate with anyone, so feel free to email fmay at codio dot com if you have any bright ideas.&lt;/p&gt;
+
+&lt;p&gt;More posts on this subject coming.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The Journey from Mercurial to Git</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/06/journey/"/>
@@ -395,121 +437,6 @@ On Github you can download patch files and apply them to your project immediatel
 &lt;p&gt;Read more (well, not a lot more) in the &lt;a href="/s/docs/ide/ide-general/inline-preview/"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This is the latest, but by no means the last, feature to come off the production line. We&amp;#39;re going to be announcing three new ones in the next few days, so keep your eyes peeled.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Emmet support added for hi-speed HTML and CSS coding</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/05/emmet-support/"/>
-    <id>https://codio.com/s/blog/2013/05/emmet-support/</id>
-    <published>2013-05-24T00:00:00Z</published>
-    <updated>2013-05-24T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;We have just added Emmet support for a whole range of features that really boost productivity when working with HTML and CSS. These features include expanding abbreviations into full HTML or CSS as well as some very powerful keyboard shortcuts.&lt;/p&gt;
-
-&lt;p&gt;Be...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We have just added Emmet support for a whole range of features that really boost productivity when working with HTML and CSS. These features include expanding abbreviations into full HTML or CSS as well as some very powerful keyboard shortcuts.&lt;/p&gt;
-
-&lt;p&gt;Be sure to check out the &lt;a href="/s/docs/ide/emmet/"&gt;Codio documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;#39;s a short video of it in action in the Codio IDE.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.youtube.com/v/suFLTxYDJz8?autoplay=1" class="fancybox fancybox.iframe" id="video"&gt;&lt;br&gt;
-    &lt;img src="//i3.ytimg.com/vi/suFLTxYDJz8/mqdefault.jpg"&gt;&lt;br&gt;
-  &lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Basic Example&lt;/h2&gt;
-
-&lt;p&gt;Let&amp;#39;s say you want to generate the following HTML&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;
-    &amp;lt;ul&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;/ul&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Just type the following and press tab&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;div&amp;gt;ul&amp;gt;li*3
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_1"&gt;Juicier Example&lt;/h2&gt;
-
-&lt;p&gt;This is more involved but shows how you can generate pretty well anything once you understand its simple language.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;page&amp;quot;&amp;gt;
-    &amp;lt;div class=&amp;quot;logo&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-    &amp;lt;ul id=&amp;quot;navigation&amp;quot;&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;Item 1&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;Item 2&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;Item 3&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;Item 4&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;&amp;quot;&amp;gt;Item 5&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;/ul&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And here is what you enter (then press tab)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#page&amp;gt;div.logo+ul#navigation&amp;gt;li*5&amp;gt;a{Item $}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_2"&gt;CSS Example&lt;/h2&gt;
-
-&lt;p&gt;There&amp;#39;s CSS support, too.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;w100p&lt;/code&gt; results in &lt;code&gt;width: 100%&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;m10p30e5x&lt;/code&gt; results in &lt;code&gt;margin: 10% 30em 5ex&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;and how about this for gradients&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;lg(left, #fc0, 30%, red)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;result in&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fc0), color-stop(0.5, 30%), to(red));
-background-image: -webkit-linear-gradient(left, #fc0, 30%, red);
-background-image: -moz-linear-gradient(left, #fc0, 30%, red);
-background-image: -o-linear-gradient(left, #fc0, 30%, red);
-background-image: linear-gradient(left, #fc0, 30%, red);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_3"&gt;Lorem Ipsum&lt;/h2&gt;
-
-&lt;p&gt;There are other things you can do as well, like generating standard text&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis expedita numquam suscipit hic molestias tenetur neque facilis et aliquam consectetur sapiente aperiam non recusandae ad minima quod saepe laborum tempora.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Just use &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;lorem
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_4"&gt;Power Keyboard Shortcuts&lt;/h2&gt;
-
-&lt;p&gt;As well as abbreviations, we also offer some really powerful productivity features behind kayboard shortcuts. &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Matching tag pairs&lt;/li&gt;
-&lt;li&gt;Jump to matching tag&lt;/li&gt;
-&lt;li&gt;Wrap HTML with anotehr abbreviation&lt;/li&gt;
-&lt;li&gt;Traverse between important editing points&lt;/li&gt;
-&lt;li&gt;Selects important editing blocks and then traverses to the next one&lt;/li&gt;
-&lt;li&gt;Add remove comment toggle for the current line or block&lt;/li&gt;
-&lt;li&gt;Remove the current tag and its closing tag and adjust indentation&lt;/li&gt;
-&lt;li&gt;Merge selected lines into a single line&lt;/li&gt;
-&lt;li&gt;Add width and height properties to an img tag&lt;/li&gt;
-&lt;li&gt;Inline calculator that lets you enter arithmetic formulae and then press tab to perform the calculation&lt;/li&gt;
-&lt;li&gt;Increment and decrement CSS values by 0.1, 1 and 10&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Check out the &lt;a href="/s/docs/ide/emmet/"&gt;Codio documentation&lt;/a&gt; for an overview.&lt;/p&gt;
 </content>
   </entry>
 </feed>

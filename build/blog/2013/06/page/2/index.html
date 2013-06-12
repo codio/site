@@ -97,6 +97,238 @@
     
 
       <article>
+        <h1><a href="/s/blog/2013/06/moving-from-mercurial-to-git/">Moving from Mercurial to Git</a></h1>
+
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/06/moving-from-mercurial-to-git/">June  6, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            <a class="dsq-comment-count" href="/s/blog/2013/06/moving-from-mercurial-to-git/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/" data-via="codiohq" data-size="small" data-count="none" data-text="Moving from Mercurial to Git">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+
+        
+
+        <p>Since I began with Codio almost a year ago, I&#39;ve wanted to move to Git - it&#39;s what I&#39;m used to and I think it is simply superior to Mercurial. Right now we use Mercurial, and while it is very similar to Git in concept, there are some differences which are starting to hold us back a little. So I made an executive decision to migrate away from Mercurial to Git, and from BitBucket to Github.</p>
+
+<p>This post will attempt to explain the high level differences between Mercurial and Git, and will also compare the commands and workflow of each. It will also explain a few best practises and tips when using Git. Hopefully by the end, you will understand why we&#39;re moving.</p>
+
+<h2 id="toc_0">What’s the Difference?</h2>
+
+<p>Here’s a technical summary of the major differences between Mercurial and Git, taken from an answer to <a href="http://stackoverflow.com/questions/1598759/git-and-mercurial-compare-and-contrast">this StackOverlow question</a>:</p>
+
+<ul>
+<li><strong>Repository structure</strong>: Mercurial doesn’t allow octopus merges (with more than two parents), nor tagging non-commit objects.</li>
+<li><strong>Tags</strong>: Mercurial uses versioned <code>.hgtags</code> file with special rules for per-repository tags, and has also support for local tags in <code>.hg/localtags</code>; in Git, tags are refs residing in <code>refs/tags/namespace</code>, and by default are auto-followed on fetching and require explicit pushing.</li>
+<li><strong>Branches</strong>: In Mercurial basic workflow is based on anonymous heads; Git uses lightweight named branches, and has special kind of branches (remote-tracking branches) that follow branches in remote repository.</li>
+<li><strong>Revision naming and ranges</strong>: Mercurial provides revision numbers, local to repository, and bases relative revisions (counting from tip, i.e. current branch) and revision ranges on this local numbering; Git provides a way to refer to revision relative to branch tip, and revision ranges are topological (based on graph of revisions).</li>
+<li>Mercurial uses rename <strong>tracking</strong>, while Git uses rename detection to deal with file renames</li>
+<li><strong>Network</strong>: Mercurial supports SSH and HTTP “smart” protocols; modern Git supports SSH, HTTP and GIT “smart” protocols, and HTTP(S) “dumb” protocol. Both have support for bundles files for off-line transport.</li>
+<li>Mercurial uses <strong>extensions</strong> (plugins) and established API; Git has scriptability and established formats.</li>
+</ul>
+
+<p>Most of the differences between Mercurial and Git are very subtle, and most people wouldn’t even notice them, however, there’s a fundamental difference that I’ll tackle next.</p>
+
+<h2 id="toc_1">Branches</h2>
+
+<p>The way Git deals with branches is incredibly simple, and yet very powerful.</p>
+
+<p><strong>hg branch != git branch</strong></p>
+
+<p>In Git, a branch is merely one of the many kinds of ‘refs’, and a ‘ref’ is simply a pointer to a commit. This means that there’s nothing fundamentally different between ‘branch1’ or ‘branch2’ or even ‘master’. They&#39;re all pointers to commits, and these pointers can be easily be deleted, renamed, fetched, pushed, etc. You can do pretty much whatever you want with them.</p>
+
+<p>In Mercurial, a branch is embedded in a commit; a commit in ‘branch1’ will always remain in that branch. This means you cannot delete, or rename branches, because you would be changing the history of the commits on those branches. You can &#39;close&#39; branches however. These &quot;named branches&quot; can be better thought of as &quot;commit labels&quot;.</p>
+
+<h2 id="toc_2">Git Commands</h2>
+
+<p>Let&#39;s go through and compare the most used commands.</p>
+
+<p><strong>clone</strong>, <strong>status</strong>, <strong>diff</strong>, <strong>add</strong>, <strong>rm</strong>, <strong>push</strong> and <strong>pull</strong> are functionally the same. In fact, most commands are very similar. However there are a few exceptions and things to note.</p>
+
+<table><thead>
+<tr>
+<th><strong>General</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>commit</td>
+<td>Passing the <code>-a</code> flag will automatically stage files that have been modified or deleted, so it is good practice to always use  this</td>
+</tr>
+<tr>
+<td>add</td>
+<td>Using the <code>-A</code> flag adds, modifies, and index entries to match the working tree. Use this instead of <code>hg addremove</code>.</td>
+</tr>
+<tr>
+<td>push</td>
+<td>Git will try to figure out which branch you want to push and which remote to push to. But setting the following configuration, Git will push to the current branch, thus avoiding pushing all your branches, which Mercurial does: <code>git config --global push.default current</code></td>
+</tr>
+<tr>
+<td>pull</td>
+<td>Rebasing on pull is good practice and will make everyone’s lives easier. You should always pull with the <code>--rebase</code> flag to avoid merge commits that result from pulling. Make it the default behaviour with: <code>git config --global --bool pull.rebase true</code></td>
+</tr>
+<tr>
+<td>checkout</td>
+<td>Use this to switch between branches instead of <code>hg up branch_name</code>.</td>
+</tr>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th><strong>Branching</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Creating</td>
+<td><code>git branch BRANCH-NAME</code> will create a new branch, but <code>git checkout -b BRANCH-NAME</code> will create and then switch to the new branch.</td>
+</tr>
+<tr>
+<td>Switching</td>
+<td><code>git checkout BRANCH-NAME</code></td>
+</tr>
+<tr>
+<td>Deleting</td>
+<td><code>git branch -d BRANCH-NAME</code></td>
+</tr>
+<tr>
+<td>Listing</td>
+<td><code>git branch</code> will list all local branches. <code>git branch -a</code> will list all branches including those on the remote.</td>
+</tr>
+</tbody></table>
+
+<h2 id="toc_3">Best Practices</h2>
+
+<p><a href="http://mislav.uniqpath.com/2013/02/merge-vs-rebase/">This great article</a> by Mislav Marohnić can be summarised as follows:</p>
+
+<ul>
+<li><p><code>git pull --rebase</code> instead of <code>git pull</code></p></li>
+<li><p><code>git rebase -i @{u}</code> before git push</p></li>
+<li><p>(on “feature”) <code>git merge master</code> to make feature compatible with latest master</p></li>
+<li><p>(on “master”) <code>git merge -no-ff feature</code> to ship a feature</p></li>
+<li><p>However if “feature” contains only 1 commit, avoid the merge commit: (on “master”) <code>git cherry-pick feature</code></p></li>
+</ul>
+
+<p>Rebasing is a much debated subject in Git-land, but <a href="http://blog.izs.me/post/37650663670/git-rebase">this article</a> explains it very well.</p>
+
+<h2 id="toc_4">Tips</h2>
+
+<p>The following are a collection of useful tips and tricks that I recommend that you implement. They will make your life so much easier.</p>
+
+<p><strong>Branch name in your bash prompt</strong><br>
+This one is must-have for me, as I can always see at any time, what branch I am on. Check out these links: <a href="http://code-worrier.com/blog/git-branch-in-bash-prompt/">http://code-worrier.com/blog/git-branch-in-bash-prompt/</a> and <br>
+<a href="https://github.com/magicmonty/bash-git-prompt">https://github.com/magicmonty/bash-git-prompt</a>.</p>
+
+<p><strong>Setup Aliases</strong><br>
+Open up your ~/.gitconfig file and you should find an [alias] section. If not, just create one, using the following:</p>
+
+<pre><code>[alias]
+  co = checkout
+  ci = commit
+  br = branch
+
+  # friendly statuses
+  st = status -sb
+
+  # Add all unstaged changes/removals and commit. All you gotta do here is pass the commit message.
+  # Example: git ac &#39;My commit message&#39;
+  ac = !git add -A &amp;&amp; git commit -m
+
+  # Pretty looking log
+  lg = log --decorate --stat --graph --pretty=format:&#39;%C(yellow)%h%Creset (%ar - %Cred%an%Creset), %s%n&#39;
+</code></pre>
+
+<p><strong>Love Stash</strong><br>
+There’s plenty of occasions when I’ve been in the middle of some changes, but have been interrupted by a need to work on something else - maybe an urgent bug, or to see something in a different branch. However, I have not yet finished what I am working on and do not want to commit it yet. <code>git stash</code> to the rescue!</p>
+
+<p>Just run <code>git stash</code> and git will take your uncommitted changes, and set them aside in a safe place. You are then back to a clean working copy and can switch branches, and hack away on anything else your heart desires.</p>
+
+<p>When you are ready to return back, simply run <code>git stash pop</code> to apply your last stash and remove it from the stash.</p>
+
+<p><strong>Hub with Github</strong><br>
+We will be using Github, so <a href="http://defunkt.io/hub/">hub</a> is extremely helpful.</p>
+
+<p><strong>Looking at Pull Requests</strong><br>
+On Github you can download patch files and apply them to your project immediately to have a look at them, for example:</p>
+
+<pre><code>curl https://github.com/karma-runner/karma/pull/559.patch | git am
+</code></pre>
+
+<p>This downloads the patch and pipes it into <code>git am</code> which simply applies the patch to your working directory. And after you are finished you can simply do:</p>
+
+<pre><code>git reset --hard HEAD~i
+</code></pre>
+
+<p>where <code>i</code> is the number of commits you want to discard. A word of warning should be added here. Doing a hard reset will DELETE stuff permanently from your repo, so be sure you know what you are deleting.</p>
+
+<h2 id="toc_5">Other Resources</h2>
+
+<ul>
+<li>Offical Git Page <a href="http://git-scm.com/">http://git-scm.com/</a> and <a href="http://git-scm.com/book">http://git-scm.com/book</a></li>
+<li><a href="https://sandofsky.com/blog/git-workflow.html">https://sandofsky.com/blog/git-workflow.html</a></li>
+<li><a href="http://blog.izs.me/post/37650663670/git-rebase">http://blog.izs.me/post/37650663670/git-rebase</a></li>
+<li><a href="http://training.github.com/web/free-classes/">http://training.github.com/web/free-classes/</a></li>
+<li><a href="https://help.github.com/">https://help.github.com/</a></li>
+<li>Best Video Training: <a href="https://peepcode.com/screencasts/git">https://peepcode.com/screencasts/git</a> ( $12 each but worth every cent)</li>
+</ul>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/" data-via="codiohq" data-size="small" data-count="none" data-text="Moving from Mercurial to Git">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
         <h1><a href="/s/blog/2013/06/snippets/">Snippets Released</a></h1>
 
         <section class="meta">
@@ -220,6 +452,8 @@
       <h4>Latest posts...</h4>
       <ul>
         
+          <li><a href="/s/blog/2013/06/colour-preview-and-picker/">Colour Preview and Picker</a></li>
+        
           <li><a href="/s/blog/2013/06/coding-kids/">More thoughts on teaching kids to code</a></li>
         
           <li><a href="/s/blog/2013/06/journey/">The Journey from Mercurial to Git</a></li>
@@ -234,14 +468,14 @@
         
           <li><a href="/s/blog/2013/05/emmet-support/">Emmet support added for hi-speed HTML and CSS coding</a></li>
         
-          <li><a href="/s/blog/2013/05/mode-selection-and-ui-refresh/">Mode Selection and UI Refresh</a></li>
-        
       </ul>
     </section>
 
     <section class="latest-posts">
       <h4>on this page...</h4>
       <ul>
+        
+          <li><a href="/s/blog/2013/06/moving-from-mercurial-to-git/">Moving from Mercurial to Git</a></li>
         
           <li><a href="/s/blog/2013/06/snippets/">Snippets Released</a></li>
         

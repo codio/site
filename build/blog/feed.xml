@@ -5,10 +5,33 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-06-11T00:00:00Z</updated>
+  <updated>2013-06-12T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Colour Preview and Picker</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/06/colour-preview-and-picker/"/>
+    <id>https://codio.com/s/blog/2013/06/colour-preview-and-picker/</id>
+    <published>2013-06-12T00:00:00Z</published>
+    <updated>2013-06-12T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;We pushed even more new features this week. Two of the highlights of these are a colour preview and colour picker, accessible from right within the code editor.&lt;/p&gt;
+
+&lt;p&gt;Open any CSS file, hover your mouse over a colour value to see a preview of that colour...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We pushed even more new features this week. Two of the highlights of these are a colour preview and colour picker, accessible from right within the code editor.&lt;/p&gt;
+
+&lt;p&gt;Open any CSS file, hover your mouse over a colour value to see a preview of that colour. Then click the preview popup to show the colour picker. Then find your perfect colour!&lt;/p&gt;
+
+&lt;p&gt;It even works with SCSS, SASS and Less files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/s/img/blog/colorpicker-2b225ee2.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Easy peasy!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>More thoughts on teaching kids to code</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/06/coding-kids/"/>
@@ -410,33 +433,6 @@ On Github you can download patch files and apply them to your project immediatel
 &lt;p&gt;&lt;img alt="snippets" src="/s/img/blog/snippets-cd98b9aa.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Find out more by &lt;a href="/s/docs/ide/emmet/snippets/"&gt;reading the documentation&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Inline preview released</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/05/inline-preview/"/>
-    <id>https://codio.com/s/blog/2013/05/inline-preview/</id>
-    <published>2013-05-30T00:00:00Z</published>
-    <updated>2013-05-30T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;We've just deployed an inline preview capability. Just press Preview and a re-sizable panel will appear beneath your code.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="inline preview demo" src="/s/img/blog/preview-demo-9be18d08.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;You can expand it into its own browser tab with a click in the preview header.&lt;/p&gt;
-
-&lt;p&gt;Read more (well, not a lot more) in the &lt;a href="/s/docs/ide/ide-general/inline-preview/"&gt;documentation&lt;/a&gt;&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We&amp;#39;ve just deployed an inline preview capability. Just press Preview and a re-sizable panel will appear beneath your code.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="inline preview demo" src="/s/img/blog/preview-demo-9be18d08.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can expand it into its own browser tab with a click in the preview header.&lt;/p&gt;
-
-&lt;p&gt;Read more (well, not a lot more) in the &lt;a href="/s/docs/ide/ide-general/inline-preview/"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is the latest, but by no means the last, feature to come off the production line. We&amp;#39;re going to be announcing three new ones in the next few days, so keep your eyes peeled.&lt;/p&gt;
 </content>
   </entry>
 </feed>

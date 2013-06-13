@@ -5,10 +5,37 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-06-12T00:00:00Z</updated>
+  <updated>2013-06-13T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Bug reported, fixed and deployed in 50 minutes</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/06/bug-fixed-in-50 minutes/"/>
+    <id>https://codio.com/s/blog/2013/06/bug-fixed-in-50 minutes/</id>
+    <published>2013-06-13T00:00:00Z</published>
+    <updated>2013-06-13T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;I love how we develop and build software here at Codio. I want to explain quickly just one of the reasons why I love it so much, which also happens to have an immediate effect on you, our users.&lt;/p&gt;
+
+&lt;p&gt;On tuesday morning, our awesome QA team reported a bug...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I love how we develop and build software here at Codio. I want to explain quickly just one of the reasons why I love it so much, which also happens to have an immediate effect on you, our users.&lt;/p&gt;
+
+&lt;p&gt;On tuesday morning, our awesome QA team reported a bug related to forking projects. This bug was reported at 9:41am.&lt;/p&gt;
+
+&lt;p&gt;At 9:52am, one of our equally awesome engineers picked up the bug and began work on it.&lt;/p&gt;
+
+&lt;p&gt;At 10:10am is was fixed.&lt;/p&gt;
+
+&lt;p&gt;At 10:26am it was deployed and shipped to the world!&lt;/p&gt;
+
+&lt;p&gt;From the time it was known and reported, to the time it was deployed to production was only 50 minutes! That is only possible due to the continuous development and deployment processes that we have in place.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll try and talk about these processes in a future post. &lt;a href="https://twitter.com/codiohq"&gt;Follow us&lt;/a&gt; to find out what else we&amp;#39;re up to.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Colour Preview and Picker</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/06/colour-preview-and-picker/"/>
@@ -383,56 +410,6 @@ On Github you can download patch files and apply them to your project immediatel
 &lt;li&gt;&lt;a href="https://help.github.com/"&gt;https://help.github.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Best Video Training: &lt;a href="https://peepcode.com/screencasts/git"&gt;https://peepcode.com/screencasts/git&lt;/a&gt; ( $12 each but worth every cent)&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Snippets Released</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/06/snippets/"/>
-    <id>https://codio.com/s/blog/2013/06/snippets/</id>
-    <published>2013-06-01T00:00:00Z</published>
-    <updated>2013-06-01T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;Hot on the heels of Inline Preview comes support for Textmate style Snippets.&lt;/p&gt;
-
-&lt;p&gt;Snippets are a great way of reducing typing by entering shorthand code, pressing the tab key and then seeing the shorthand expand into the longhand.&lt;/p&gt;
-
-&lt;p&gt;For example in an HTML...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Hot on the heels of Inline Preview comes support for Textmate style Snippets.&lt;/p&gt;
-
-&lt;p&gt;Snippets are a great way of reducing typing by entering shorthand code, pressing the tab key and then seeing the shorthand expand into the longhand.&lt;/p&gt;
-
-&lt;p&gt;For example in an HTML file ...&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;iframe&lt;/code&gt; + tab, expands&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;iframe src=&amp;quot;&amp;quot; frameborder=&amp;quot;0&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In a CSS file ...&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;bdi&lt;/code&gt; + tab, expands to &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;-webkit-border-image: url();
--moz-border-image: url();
--o-border-image: url();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In a JS file ...&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;for&lt;/code&gt; + tab expands to &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;for (var i = 0; i &amp;lt; Things.length; i++) {
-    Things[i]
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We&amp;#39;ve made it very easy to review and search for snippets by including it right in the IDE.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="snippets" src="/s/img/blog/snippets-cd98b9aa.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;Find out more by &lt;a href="/s/docs/ide/emmet/snippets/"&gt;reading the documentation&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>

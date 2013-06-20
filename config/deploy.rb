@@ -1,7 +1,7 @@
 require 'capistrano/ext/multistage'
 
-set :deploy_to, "/home/middleman/crafted-site"
-set :application, "crafted-site"
+set :deploy_to, "/home/middleman/codio-site"
+set :application, "codio-site"
 set :scm, :git
 set :repository, "git@github.com:codio/site.git"
 set :use_sudo, false

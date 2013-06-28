@@ -12,9 +12,9 @@ The deployment options are all accessed via the **Deploy** dropdown in the top b
 
 In the Deployment Targets dialog, you can:
 
-- list all defined deployment targets.
-- modify existing targets.
-- create new targets.
+- list all defined deployment targets
+- modify existing targets
+- create new targets
 
 ## Specifying the Source location
 Each target requires you to specify the **Source**. This allows you to specify which part of your project should be deployed. You have the following options:
@@ -24,6 +24,14 @@ Each target requires you to specify the **Source**. This allows you to specify w
 - **Directory**: a specific directory.
 
 This allows you to define multiple targets for each deployment which can then be deployed to with a single button press.
+
+##Destination
+The Destination drop down specifies the type of the target you are deploying to. Currently we support the following destinations (click on each one to find out about its associated parameters)
+
+- [Codio](/docs/deployment/type-codio/)
+- [FTP](/docs/deployment/type-ftp/)
+- [SFTP](/docs/deployment/type-sftp/)
+- [Parse.com](/docs/deployment/type-parse/)
 
 ## Codio targets and URL's
 When you create a Codio target type, the URL of your deployed app will depend on the Source location you specified:

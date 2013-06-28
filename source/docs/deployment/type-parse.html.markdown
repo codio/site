@@ -14,16 +14,20 @@ full_width: true
 Please refer to the [Parse.com documentation](https://parse.com/docs/cloud_code_guide) for details on how to create a Cloud Code application. You will find references to the Jitsu CLI tool. If you are using Codio to manage your code, then you can ignore those. Whenever you need to deploy you simply select Deploy within Codio.
 
 ##Target Type Parameters
-Select "Parse.com ..." from the **Destination** drop down. 
+When setting up the deployment target, select "Parse.com ..." from the **Destination** drop down. 
 
-Due to the fact that all connection information is stored within `global.json', there are no parameters. 
+You don't need to enter parameters as all relevant information is stored in `config/global.json'.
 
 ##Parse.com Folder Structure
+Here is a very simple Parse.com app in Codio.
+
+![parse.comproject](/img/docs/parse-app.png)
+
 Parse requires that you structure your project into three main folders
 
-- `cloud` - this is your Parse Cloud Code (Node.js javascript files)
+- `cloud` - this is your Parse Cloud Code (Node.js javascript files) and Parse.com convention is to start off with a `main.js` file
 - `config` - your global.json file goes here which is shown in the above screenshot; note how this contains your Application ID and Master Key ID
-- `public` - your static client side files go here, typically HTML, CSS and client side Javascript
+- `public` - your static client side files go here, so your web site or web application front end
 
 ##global.json file
 This file contains the necessary connection information for Codio to talk to Parse.com. You must have this file in the `config` folder and it should contain the following key fields
@@ -46,5 +50,4 @@ This file contains the necessary connection information for Codio to talk to Par
 You will need to retrieve `applicationId` and `masterKey` from your Parse.com console. 
 
 
-**Important:** please be sure understand the importance of the Source Location (are you deploying a Project, an App or a Directory). [Read about it here](/docs/deployment/create/).
 

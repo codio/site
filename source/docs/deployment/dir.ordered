@@ -1,7 +1,7 @@
 create
-deploy
-history
 type-codio
 type-ftp
 type-sftp
 type-parse
+deploy
+history

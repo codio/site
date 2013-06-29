@@ -17,7 +17,7 @@ and the CoffeeScript is shown in the browser tab, for example
 	@cube   = (x) -> square(x) * x
 
 ##Add the extension
-Now, just add the extension appropriate to the compiled output (we've added `.js` in below, but you'd add `.css` if it was Less/Sass/SCSS or `.txt` for Markdown)
+Now, in the url address bar just add the extension appropriate to the compiled output (we've added `.js` in below, but you'd add `.css` if it was Less/Sass/SCSS or `.txt` for Markdown)
 
 	https://codio.io/yourUserName/CompilingExample/app/example.coffee.js	
 

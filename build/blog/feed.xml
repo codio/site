@@ -18,7 +18,7 @@
     <author>
       <name>Freddy May</name>
     </author>
-    <summary type="html">&lt;p&gt;We're pretty pleased with the latest addition to the Codio IDE. This time, we've added support for the following compiled language types (or whetever the correct collective description is)&lt;/p&gt;
+    <summary type="html">&lt;p&gt;We're pretty pleased with the latest addition to the Codio IDE. This time, we've added support for the following compiled language types (or whatever the correct collective description is)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CoffeeScript&lt;/li&gt;
@@ -27,7 +27,7 @@
 &lt;li&gt;Less&lt;/li&gt;
 &lt;li&gt;Markdown&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;We're also ready to add...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We&amp;#39;re pretty pleased with the latest addition to the Codio IDE. This time, we&amp;#39;ve added support for the following compiled language types (or whetever the correct collective description is)&lt;/p&gt;
+    <content type="html">&lt;p&gt;We&amp;#39;re pretty pleased with the latest addition to the Codio IDE. This time, we&amp;#39;ve added support for the following compiled language types (or whatever the correct collective description is)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CoffeeScript&lt;/li&gt;
@@ -37,14 +37,14 @@
 &lt;li&gt;Markdown&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;We&amp;#39;re also ready to add more file types, so &lt;a href="http://twitter.com/CodioHQ"&gt;tweet @codioHQ&lt;/a&gt; if you think we should add something.&lt;/p&gt;
+&lt;p&gt;We&amp;#39;re also ready to add more file types, so tweet &lt;a href="http://twitter.com/CodioHQ"&gt;@codioHQ&lt;/a&gt; if you think we should add something.&lt;/p&gt;
 
 &lt;h2 id="toc_0"&gt;Take a look&lt;/h2&gt;
 
 &lt;p&gt;What you see below is a real IDE, so play with it to see how we support compiled file types. &lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Press the Preview menu option&lt;/li&gt;
+&lt;li&gt;Press the Preview menu option to run it and see how things are compiled on the fly&lt;/li&gt;
 &lt;li&gt;Open up the example files (Less and CoffeeScript represented here)&lt;/li&gt;
 &lt;li&gt;If you want it full size, &lt;a href="https://codio.com/codio/CompilingExample/tree/app/example.coffee" target="_blank"&gt;click here&lt;/a&gt; to see it in its own browser tab.&lt;/li&gt;
 &lt;/ul&gt;
@@ -53,7 +53,7 @@
 
 &lt;h2 id="toc_1"&gt;How it works&lt;/h2&gt;
 
-&lt;p&gt;Its jolly simple! No build tasks, no separate processes to think about. Just code.&lt;/p&gt;
+&lt;p&gt;Its jolly simple! No build tasks, no separate processes to think about. Just code and run.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;You write your code in CoffeeScript, Less or whatever&lt;/li&gt;
@@ -63,9 +63,13 @@
 
 &lt;p&gt;Codio then compiles the files automatically on demand.&lt;/p&gt;
 
-&lt;p&gt;It really is jolly simple.&lt;/p&gt;
+&lt;p&gt;It really is jolly simple. Take a quick look at &lt;a href="/s/docs/compiling/one-file/"&gt;User Guide&lt;/a&gt;, too.&lt;/p&gt;
 
-&lt;h2 id="toc_2"&gt;Seeing compiled output&lt;/h2&gt;
+&lt;h2 id="toc_2"&gt;What about production deployment?&lt;/h2&gt;
+
+&lt;p&gt;Currently, all this only works in development mode. However, in a few weeks we&amp;#39;ll have baked Grunt into Codio, so you will be able to configure build tasks really easily.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Seeing compiled output&lt;/h2&gt;
 
 &lt;p&gt;Its also really easy to see compiled JS or CSS output for one of your files. The &lt;a href="/s/docs/compiling/one-file/"&gt;User Guide&lt;/a&gt; is the best place to get an explanation.&lt;/p&gt;
 </content>

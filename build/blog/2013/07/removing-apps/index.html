@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <title>
       
-        Building with Grunt
+        Removing Apps
       
        - Codio
     </title>
 
     
-      <meta name="description" content="Building with Grunt. Grunt is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side co...">
+      <meta name="description" content="Removing Apps. Codio is based upon projects, with a project having any number of files and directories. Codio also has a concept of app&#39;s within a project, and that is what you see when creating a new project...">
     
 
     
-      <meta name="keywords" content="engineering" />
+      <meta name="keywords" content="" />
     
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/s/apple-touch-icon-144x144-precomposed.png" />
@@ -102,27 +102,27 @@
         
 
         <article>
-          <h1><a href="/s/blog/2013/03/building-with-grunt/">Building with Grunt</a></h1>
+          <h1><a href="/s/blog/2013/07/removing-apps/">Removing Apps</a></h1>
 
           <section class="meta">
             <p class="date">
-              <a href="/s/blog/2013/03/building-with-grunt/">March 26, 2013</a>
+              <a href="/s/blog/2013/07/removing-apps/">July  2, 2013</a>
               
                 <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
               
-              <a class="dsq-comment-count" href="/s/blog/2013/03/building-with-grunt/#disqus_thread">Comments</a>
+              <a class="dsq-comment-count" href="/s/blog/2013/07/removing-apps/#disqus_thread">Comments</a>
             </p>
           </section>
 
           <div class="blog-social clearfix">
             <div class="blog-twitter">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/03/building-with-grunt/" data-via="codiohq" data-size="small" data-count="none" data-text="Building with Grunt">Tweet</a>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/removing-apps/" data-via="codiohq" data-size="small" data-count="none" data-text="Removing Apps">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
 
             <div class="blog-gplus">
               <!-- Place this tag where you want the +1 button to render. -->
-              <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/03/building-with-grunt/"></div>
+              <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/removing-apps/"></div>
 
               <!-- Place this tag after the last +1 button tag. -->
               <script type="text/javascript">
@@ -135,123 +135,44 @@
             </div>
 
             <div class="blog-facebook">
-              <div class="fb-like" data-href="https://codio.com/s/blog/2013/03/building-with-grunt/" data-send="false" data-width="400" data-show-faces="false"></div>
+              <div class="fb-like" data-href="https://codio.com/s/blog/2013/07/removing-apps/" data-send="false" data-width="400" data-show-faces="false"></div>
             </div>
           </div>
 
           
-            <img alt="Building with Grunt" align="left" class="blog-img" src="/s/img/blog/grunt-logo-0a74831e.png" />
+            <img alt="Removing Apps" align="left" class="blog-img" src="/s/img/blog/apps-d0a2543e.png" />
           
 
-          <p><a href="http://gruntjs.com/">Grunt</a> is an extremely useful tool that any self-respecting front-end developer should have in his/her arsenal. At Codio, we use it to concatenate, minify, lint, compile and build our client side code ready for deployment.</p>
+          <p>Codio is based upon projects, with a project having any number of files and directories. Codio also has a concept of app&#39;s within a project, and that is what you see when creating a new project.</p>
 
-<p>As part of last Friday&#39;s <a href="/s/blog/2013/03/our-twenty-percent-time/">weekly hack day</a>, I spent the day upgrading our Grunt installation and our custom tasks to the latest 0.4 version. So I thought I&#39;d write a short article on what Grunt is and how we use it at Codio.</p>
+<p>But for a long time now, app&#39;s have become somewhat of a pain during development and usage of Codio. A project must first have at least one app before it can have a file or directory, and then those files and directories must only be contained within an app.</p>
 
-<h2 id="toc_0">What is Grunt?</h2>
+<p>This is confusing to you, and as Codio has evolved over the last few months, it&#39;s also become unnecessary, and has actually caused us more problems that it solves.</p>
 
-<p>It&#39;s a Javascript task runner, which simply means you can use it to automate your most mundane and common development and build tasks. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes.</p>
-
-<p>Since version 0.4, Grunt has really matured and come out of its shell, and now boasts a large ecosystem of plugins that can help you automate pretty much anything you want. And if you don&#39;t find a plugin that does what you want, it&#39;s extremely easy to write one yourself.</p>
-
-<h2 id="toc_1">How to install Grunt?</h2>
-
-<p>Grunt runs on <a href="http://nodejs.org/">NodeJS</a>, and is installed and managed via <a href="https://npmjs.org/">NPM</a>. So if you haven&#39;t already, make sure you have both those installed.</p>
-
-<p>To install Grunt, just use NPM:</p>
-
-<pre><code>npm install -g grunt-cli
-</code></pre>
-
-<p>This will give you a handy little <code>grunt</code> command, which you will use to run your Grunt tasks.</p>
-
-<h2 id="toc_2">Preparing your Project for Grunt</h2>
-
-<p>A typical setup will require two files:</p>
+<p>So we will very shortly be removing the concept of app&#39;s within a project, applying the following changes:</p>
 
 <ul>
-<li><strong>package.json</strong> - This file is used by NPM to manage your projects dependencies, and is also used by Grunt to manage its dependencies.</li>
-<li><strong>Gruntfile.js</strong> - This is where you define and configure your tasks.</li>
+<li><p>Any existing project that has <strong>only one app</strong>, will have that app removed, and all it&#39;s files and directories moved into the root of the project.</p></li>
+<li><p>Any existing project with <strong>more than one app</strong> will have those app&#39;s changed to plain old directories.</p></li>
+<li><p>New projects will no longer be created with an app, and instead all files and directories will be located at the project root.</p></li>
 </ul>
 
-<p>Create a new file in the root of your project called <code>package.json</code>:</p>
+<p>We feel that this change will make things much more flexible for you, and will allow you to structure your projects in any way you please. It will also make things much simpler for all.</p>
 
-<pre><code>{
-  &quot;name&quot;: &quot;my-project-name&quot;,
-  &quot;version&quot;: &quot;0.1.0&quot;,
-  &quot;devDependencies&quot;: {
-    &quot;grunt&quot;: &quot;~0.4.1&quot;,
-    &quot;grunt-contrib-uglify&quot;: &quot;~0.2.0&quot;
-  }
-}
-</code></pre>
+<p>If all goes well, this change will take place later this week. <a href="https://twitter.com/codiohq">Follow us on Twitter</a> for updates as they happen.</p>
 
-<p>This tells NPM that we depend on the <code>grunt</code> and <code>grunt-contrib-uglify</code> packages. Running the following will install these dependencies:</p>
-
-<pre><code>npm install
-</code></pre>
-
-<p>Now create your <code>Gruntfile.js</code>, which also belongs in the root of your project alongside <code>package.json</code>. Fill the file with the following:</p>
-
-<pre><code>module.exports = function(grunt) {
-
-  // Project configuration.
-  grunt.initConfig({
-    uglify: {
-      build: {
-        src: &#39;src/script.js&#39;,
-        dest: &#39;build/script.min.js&#39;
-      }
-    }
-  });
-
-  // Load the plugin that provides the &quot;uglify&quot; task.
-  grunt.loadNpmTasks(&#39;grunt-contrib-uglify&#39;);
-
-  // Default task(s).
-  grunt.registerTask(&#39;default&#39;, [&#39;uglify&#39;]);
-
-};
-</code></pre>
-
-<p>Lets run through this file from top to bottom...</p>
-
-<p><strong>Line 4</strong> is where we set define our configuration for the tasks we want to use. Each top level element defines a task. In our example, we have just one task <code>uglify</code>, which simply takes the value of <code>build.src</code>, runs it through the Uglify lib and places its output in a new file as specified with the value of <code>buil.dest</code>.</p>
-
-<pre><code>grunt.initConfig({
-  uglify: {
-    build: {
-      src: &#39;src/script.js&#39;,
-      dest: &#39;build/script.min.js&#39;
-    }
-  }
-});
-</code></pre>
-
-<p><strong>Line 14</strong> tells Grunt to load the <code>grunt-contrib-uglify</code> task from the NPM package specified in our <code>package.json</code>.</p>
-
-<p>Then finally on <strong>line 17</strong>, we create a new <code>default</code> task, which is simply an alias for the <code>uglify</code> task. The <code>default</code> task will be run if you don&#39;t specify any task on the command line. So the following three commands are now identical:</p>
-
-<pre><code>grunt uglify
-grunt default
-grunt
-</code></pre>
-
-<h2 id="toc_3">Summary</h2>
-
-<p>Grunt has a great ecosystem of open source plugins, and a place to <a href="http://gruntjs.com/plugins">find and search for the plugin you want</a>. I strongly recommend that you take a look through them.</p>
-
-<p>Hopefully from this simple example, you can see how easy and powerful Grunt can be. It&#39;s also worth noting that we have plans to implement a similar task based system directly into Codio. So watch this space!</p>
+<p>If you have any questions or queries, please <a href="mailto:help@codio.com">get in touch</a>, or leave a comment below.</p>
 
 
           <div class="blog-social clearfix">
             <div class="blog-twitter">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/03/building-with-grunt/" data-via="codiohq" data-size="small" data-count="none" data-text="Building with Grunt">Tweet</a>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/removing-apps/" data-via="codiohq" data-size="small" data-count="none" data-text="Removing Apps">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
 
             <div class="blog-gplus">
               <!-- Place this tag where you want the +1 button to render. -->
-              <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/03/building-with-grunt/"></div>
+              <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/removing-apps/"></div>
 
               <!-- Place this tag after the last +1 button tag. -->
               <script type="text/javascript">
@@ -264,7 +185,7 @@ grunt
             </div>
 
             <div class="blog-facebook">
-              <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/03/building-with-grunt/" data-width="400" data-show-faces="false"></div>
+              <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/removing-apps/" data-width="400" data-show-faces="false"></div>
             </div>
           </div>
         </article>

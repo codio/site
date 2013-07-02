@@ -5,10 +5,43 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-06-29T00:00:00Z</updated>
+  <updated>2013-07-02T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Removing Apps</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/removing-apps/"/>
+    <id>https://codio.com/s/blog/2013/07/removing-apps/</id>
+    <published>2013-07-02T00:00:00Z</published>
+    <updated>2013-07-02T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Codio is based upon projects, with a project having any number of files and directories. Codio also has a concept of app's within a project, and that is what you see when creating a new project.&lt;/p&gt;
+
+&lt;p&gt;But for a long time now, app's have become somewhat...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Codio is based upon projects, with a project having any number of files and directories. Codio also has a concept of app&amp;#39;s within a project, and that is what you see when creating a new project.&lt;/p&gt;
+
+&lt;p&gt;But for a long time now, app&amp;#39;s have become somewhat of a pain during development and usage of Codio. A project must first have at least one app before it can have a file or directory, and then those files and directories must only be contained within an app.&lt;/p&gt;
+
+&lt;p&gt;This is confusing to you, and as Codio has evolved over the last few months, it&amp;#39;s also become unnecessary, and has actually caused us more problems that it solves.&lt;/p&gt;
+
+&lt;p&gt;So we will very shortly be removing the concept of app&amp;#39;s within a project, applying the following changes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Any existing project that has &lt;strong&gt;only one app&lt;/strong&gt;, will have that app removed, and all it&amp;#39;s files and directories moved into the root of the project.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Any existing project with &lt;strong&gt;more than one app&lt;/strong&gt; will have those app&amp;#39;s changed to plain old directories.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;New projects will no longer be created with an app, and instead all files and directories will be located at the project root.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We feel that this change will make things much more flexible for you, and will allow you to structure your projects in any way you please. It will also make things much simpler for all.&lt;/p&gt;
+
+&lt;p&gt;If all goes well, this change will take place later this week. &lt;a href="https://twitter.com/codiohq"&gt;Follow us on Twitter&lt;/a&gt; for updates as they happen.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions or queries, please &lt;a href="mailto:help@codio.com"&gt;get in touch&lt;/a&gt;, or leave a comment below.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Support added for CoffeeScript, Sass, SCSS etc.</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/06/compiled-files/"/>
@@ -276,31 +309,6 @@ $ easy_install gitifyhg
 &lt;h2 id="toc_6"&gt;The Epilogue&lt;/h2&gt;
 
 &lt;p&gt;Now that we&amp;#39;ve converted the repository itself, the real work begins. We need to change our development cycle around version control and educate everyone about how to use Git in a safe and productive way. Even if these two are similar there is still a lot to learn and the raw power of Git can sometimes be a little bit scary, but personally I much prefer having all the power rather than jumping through hoops all the time.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Real Time Coding</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/06/real-time-coding/"/>
-    <id>https://codio.com/s/blog/2013/06/real-time-coding/</id>
-    <published>2013-06-07T00:00:00Z</published>
-    <updated>2013-06-07T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;We have a big new feature for your enjoyment that we rolled out just yesterday. I'm excited to introduce Real Time Coding!&lt;/p&gt;
-
-&lt;p&gt;Right from the start, we wanted Codio to be collaborative. We are after all, working in the browser, which is the perfect place...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We have a big new feature for your enjoyment that we rolled out just yesterday. I&amp;#39;m excited to introduce Real Time Coding!&lt;/p&gt;
-
-&lt;p&gt;Right from the start, we wanted Codio to be collaborative. We are after all, working in the browser, which is the perfect place to collaborate. So yesterday we flicked the switch on our first big collaborative feature.&lt;/p&gt;
-
-&lt;p&gt;Real Time Coding is exactly as it sounds. You and your friends and colleagues can hack away on your code. But when any of your friends or colleagues makes a change in the code, you see it happening right there in real time. You see exactly what they type, as they type it.&lt;/p&gt;
-
-&lt;p&gt;It&amp;#39;s like Google Docs, but right in your code editor!&lt;/p&gt;
-
-&lt;p&gt;Real Time Coding is available right now for everyone, and for all projects.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/s/img/blog/real-time-coding-ee2a33ca.gif" /&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

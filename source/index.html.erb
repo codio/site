@@ -6,41 +6,11 @@ class_name: home
 <header>
   <div class="container">
 
-    <div id="public-stamp" class="nofade">
-      <%= link_to image_tag("home/support-campaign.png", :width => "330x158", :alt => "Let's get Coding taught in our schools. - Support our Campaign"), '/education', :class => "nofade" %>
-    </div>
+    <div id="tagline"><%= image_tag 'home/header-amazing.gif', :width => 641, :height => 230 %></div>
+    <div id="reel"><%= image_tag 'reel.png', :width => 420, :height => 420 %></div>
 
-    <div class="clearfix">
-      <div>
-        <div>
-          <p>We're building</p>
-          <p>an amazing</p>
-          <p>Web IDE</p>
-          <div>
-            <p>For web development,</p>
-            <p>teaching and learning</p>
-          </div>
-          <%= image_tag 'flourish.gif', :width => 174, :height => 28 %>
-        </div>
-        <p>We're building a modern web IDE for front-end development and teaching people to code in any programming language.</p>
-      </div>
-      <div>Codio.com</div>
-    </div>
   </div>
 </header>
-
-
-<section id="tryit">
-  <div class="container">
-    <h3>
-      <i class="icon-thumbs-up"></i> Try out the IDE below... <a href="https://codio.com/codio/Impress/tree/Impress/index.html" target="_blank">or click here to open in a new browser tab</a>
-    </h3>
-    <p>The project below uses Codio:Annotations so you can click on the blue icons anywhere you see 'em. Try pressing the 'Tour' button at the top as well. There are <a href="/#examples">more examples here</a>.</p>
-    <iframe src="https://codio.com/codio/Impress/tree/Impress/index.html" width="100%" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
-
-    <%= image_tag 'home/free-public.png', :id => "pricing" %>
-  </div>
-</section>
 
 <section id="highlighted-feature">
   <div class="container">

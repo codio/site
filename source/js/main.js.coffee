@@ -4,80 +4,20 @@
 exports = this
 
 
+# Home page animations
 $ ->
-  $(":not('.nofade') > a").hover(
-    ->
-      $(this).animate opacity: 0.6, 200
-    ->
-      $(this).animate opacity: 1.0, 200
-  )
+  # Roll the reel into play on page load.
+  $('#reel').transition
+    x: -1980
+    rotate: '-360deg'
+    delay: 500
+    duration: 1000
+    easing: 'ease'
 
-
-# Home page feature lists
-$ ->
-  navBannerClick = ->
-    $this = $(this)
-    type = $this.attr('href').slice(1)
-
-    $('.switched-lists .container > *:visible').fadeOut ->
-      do $("##{type}").fadeIn
-
-    links.parent().removeClass 'active'
-    $this.parent().addClass 'active'
-
-    pusher = $('#ac-sitebar-pusher')
-    pushHeight = if pusher.length > 0 then pusher.height() else 0
-    $(document.body).animate({
-      scrollTop: $('#nav-banner').offset().top - pushHeight
-    }, 1000)
-
-  (links = $('#nav-banner a')).on 'click', navBannerClick
-
-
-  if location.hash and $('#nav-banner').length > 0
-    navBannerClick.call $("#nav-banner [href=#{location.hash}]")[0]
-
-
-  # Handle the "example" click in the highlighted features section
-  $('#highlighted-feature a[href="/#examples"]').on 'click', ->
-    if goto = $('#nav-banner [href=#examples]')
-      navBannerClick.call $('#nav-banner [href=#examples]')[0]
-
-  # Handle the "example" click in the tryit section
-  $('#tryit a[href="/#examples"]').on 'click', ->
-    if goto = $('#nav-banner [href=#examples]')
-      navBannerClick.call $('#nav-banner [href=#examples]')[0]
-
-  # Handle the "features" click in main navigation
-  $('#navigation a[href="/#features"]').on 'click', ->
-    if goto = $('#nav-banner [href=#features]')
-      navBannerClick.call $('#nav-banner [href=#features]')[0]
-
-  # Handle the "Roadmap" click in main navigation
-  $('#navigation a[href="/#roadmap"], #roadmaplink').on 'click', ->
-    if goto = $('#nav-banner [href=#roadmap]')
-      navBannerClick.call $('#nav-banner [href=#roadmap]')[0]
-
-
-  # Handle feature groups
-  $('#feature-tabs a').on 'click', (e)->
-    e.preventDefault()
-    $this = $(this)
-
-    $('#feature-groups section.active').transition
-      x: 1000
-      opacity: 0
-      ->
-        $(this).removeClass 'active'
-        $($this.attr('href')).transition
-          x: 0
-          opacity: 1
-          ->
-            $(this).addClass 'active'
-
-    parent = $this.parent()
-    parent.parent().find('li').removeClass 'active'
-    parent.addClass 'active'
+  $('#tagline img').transition
+    opacity: 1
+    duration: 2000
+    delay: 800
 
 
 # Handles the hidden submenu.
@@ -99,9 +39,7 @@ $ ->
 
 
 $ ->
-
   if (aside = $('body.standard aside')).length > 0
-
     # Floating submenu
     top = aside.offset().top - parseFloat(aside.css('marginTop').replace(/auto/, 0))
     $(window).scroll (event)->
@@ -136,21 +74,6 @@ $ ->
 # Tree
 $ ->
   if ($tree = $('#tree')).length > 0
-
-    # $(window).on 'scroll', ->
-    #   return if $('body').hasClass('full-screen')
-
-    #   $window = $(window)
-
-    #   winHeight = $window.height() - 100
-    #   footHeight = $('#price-banner').position().top - $window.scrollTop() - 100
-
-    #   height = if footHeight < winHeight then footHeight else winHeight
-    #   if $window.scrollTop() <= 220
-    #     height = $window.height() - $tree.position().top + $window.scrollTop() - 10
-
-    #   $tree.height height
-
 
     doc_events = ->
       # Handle images

@@ -2,7 +2,7 @@
 // =================================================================================================
 
 nav {
-  background: $cream image-url('nav-top.gif') repeat-x top;
+  background: $white image-url('nav-top.gif') repeat-x top;
   position: relative;
   height: 90px;
 
@@ -18,19 +18,26 @@ nav {
     // Navigation items
     ul {
       padding: 0;
-      margin: 38px 0 0 0;
+      margin: 34px 0 0 0;
       float: right;
       font: 18px gotham_lightregular;
 
       // Sign in/out and try links
-      &:first-child {
+      &#codio-nav {
+        margin-top: 30px;
 
+        li:first-child a {
+          background-color: $red;
+          padding: 6px 10px;
+          border-radius: 2px;
+          color: $white;
+        }
       }
 
       // Site pages
-      &:last-child {
+      &#site-nav {
         text-transform: uppercase;
-        margin-right: 100px;
+        margin-right: 80px;
         font-size: 24px;
       }
 

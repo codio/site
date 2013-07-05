@@ -1,0 +1,20 @@
+<nav>
+  <div class="container">
+
+    <nav class="clearfix">
+      <%= link_to image_tag('logo.png', :width => 183, :height => 46), '/', :data => { :"no-turbolink" => true } %>
+
+      <ul>
+        <li><%= link_to 'Try Now', '/p/try', :data => { :"no-turbolink" => true } %></li>
+        <li><%= link_to 'Sign In', '/p/login', :data => { :"no-turbolink" => true } %></li>
+        <li><%= link_to 'Sign Up', '/p/signup', :data => { :"no-turbolink" => true } %></li>
+      </ul>
+
+      <ul>
+        <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
+        <li><%= link_to 'About', '/about', :data => { :"no-turbolink" => true } %></li>
+      </ul>
+    </nav>
+
+  </div>
+</nav>

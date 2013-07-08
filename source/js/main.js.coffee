@@ -14,15 +14,24 @@ $ ->
     duration: 1500
     easing: 'ease'
 
+  # Fade in the tagline
   $('#tagline img').transition
     opacity: 1
     duration: 3000
     delay: 800
 
+  # Fade in the call to action ("spin the wheel")
   $('#tagline div').transition
     opacity: 1
     duration: 1000
     delay: 1800
+
+
+  $('#reel').on 'click', ->
+    $(@).transition
+      rotate: '+=360deg'
+      duration: 1500
+      easing: 'ease'
 
 
 # Handles the hidden submenu.

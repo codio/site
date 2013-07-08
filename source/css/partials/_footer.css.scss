@@ -1,54 +1,28 @@
 footer {
   color: #eeeee9;
-  height: 64px;
 
-  section {
-    background-color: $red;
-    font-size: 12px;
-    padding: 14px 4px;
-    text-align: center;
-
-    @include apply-to(more-than, iphone-landscape) {
-      text-align: left;
-    }
-
-    @include apply-to(more-than, ipad-portrait) {
-      padding: 24px 40px;
-    }
-
-    a {
-      color: $cream;
-    }
-
-    @include apply-to(more-than, ipad-landscape) {
-      .container > div {
-        float: right;
-        margin-right: 30px;
-      }
-    }
-  }
-}
-
-.fancybox-inner > #webinars-inner {
-  width: 500px;
+  background-color: $red;
+  font-size: 12px;
+  padding: 14px 4px;
   text-align: center;
 
-  h3 {
-    font: 1.6em gotham_mediumregular;
-    margin: 24px 0 24px;
-    text-transform: uppercase;
+  @include apply-to(more-than, iphone-landscape) {
+    text-align: left;
   }
 
-  > div > p {
-    margin: 6px;
-    font-weight: bold;
+  @include apply-to(more-than, ipad-portrait) {
+    padding: 24px 40px;
+  }
 
-    span {
-      margin-left: 15px;
+  a {
+    color: $cream;
+  }
+
+  @include apply-to(more-than, ipad-landscape) {
+    .container > div {
+      float: right;
+      margin-right: 30px;
     }
   }
 
-  > p {
-    margin: 22px 0;
-  }
 }

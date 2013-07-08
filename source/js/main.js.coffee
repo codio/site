@@ -11,13 +11,18 @@ $ ->
     x: -1980
     rotate: '-360deg'
     delay: 500
-    duration: 1000
+    duration: 1500
     easing: 'ease'
 
   $('#tagline img').transition
     opacity: 1
-    duration: 2000
+    duration: 3000
     delay: 800
+
+  $('#tagline div').transition
+    opacity: 1
+    duration: 1000
+    delay: 1800
 
 
 # Handles the hidden submenu.

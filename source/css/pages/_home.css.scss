@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
 body.home {
 
   header {
@@ -6,26 +8,45 @@ body.home {
     .container {
       @include clearfix();
 
-      div {
+      > div {
         float: left;
         position: relative;
 
+        // Tagline
         &:first-child {
           top: 80px;
 
-          img {
+          > img {
             opacity: 0;
             width: 550px;
           }
+
+          div {
+            opacity: 0;
+
+            p {
+              font: 18px 'Indie Flower';
+              margin: 80px 0 0 150px;
+              @include rotate(-2deg);
+            }
+
+            img {
+              position: relative;
+              float: right;
+              right: -27px;
+              bottom: 69px;
+            }
+          }
         }
 
+        // Reel
         &:last-child {
-          top: -13px;
           left: 2000px;
         }
       }
     }
   }
 
-  @import '../partials/highlighted-feature';
+  @import '../partials/home/sections';
+  @import '../partials/home/highlighted-feature';
 }

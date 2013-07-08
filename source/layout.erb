@@ -48,42 +48,38 @@
   <body class="<%= current_page.data.class_name || 'standard' %>" data-spy="scroll" data-target="aside">
     <a id="top"></a>
 
-    <div class="wrap">
+    <%= partial :header %>
 
-      <%= partial :header %>
-
-      <% if current_page.data.submenu %>
-        <% unless current_page.data.hide_title %>
-          <header>
-            <h1>
-              <%= current_page.data.title %>
-              <% if current_page.data.subtitle %>
-                <small><%= current_page.data.subtitle %></small>
-              <% end %>
-            </h1>
-          </header>
-        <% end %>
-
-        <div class="container clearfix">
-          <aside>
-            <ul id="submenu" class="nav">
-              <% current_page.data.submenu.each do |f| %>
-                <li class="<%= 'active' if f.active %>">
-                  <a href="<%= f.url %>"><%= f.text %></a>
-                </li>
-              <% end %>
-            </ul>
-          </aside>
-
-          <article>
-            <%= yield %>
-          </article>
-        </div>
-      <% else %>
-        <%= yield %>
+    <% if current_page.data.submenu %>
+      <% unless current_page.data.hide_title %>
+        <header>
+          <h1>
+            <%= current_page.data.title %>
+            <% if current_page.data.subtitle %>
+              <small><%= current_page.data.subtitle %></small>
+            <% end %>
+          </h1>
+        </header>
       <% end %>
 
-    </div>
+      <div class="container clearfix">
+        <aside>
+          <ul id="submenu" class="nav">
+            <% current_page.data.submenu.each do |f| %>
+              <li class="<%= 'active' if f.active %>">
+                <a href="<%= f.url %>"><%= f.text %></a>
+              </li>
+            <% end %>
+          </ul>
+        </aside>
+
+        <article>
+          <%= yield %>
+        </article>
+      </div>
+    <% else %>
+      <%= yield %>
+    <% end %>
 
     <%= partial :footer %>
 

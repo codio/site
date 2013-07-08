@@ -5,10 +5,40 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-02T00:00:00Z</updated>
+  <updated>2013-07-08T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - Issue #1</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-1/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-1/</id>
+    <published>2013-07-08T00:00:00Z</published>
+    <updated>2013-07-08T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;I use Twitter - a lot! I also follow and read a lot of blogs and tech news sites. Each day I come across so many useful and interesting articles, libraries, code, apps, frameworks and all manner of coolness. A lot of these are directly or indirectly...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I use Twitter - a lot! I also follow and read a lot of blogs and tech news sites. Each day I come across so many useful and interesting articles, libraries, code, apps, frameworks and all manner of coolness. A lot of these are directly or indirectly related to developing for and in the browser - what is sometimes referred to as client-side or front-end development for the web.&lt;/p&gt;
+
+&lt;p&gt;So, welcome to the very first issue of &amp;quot;From the Front-line&amp;quot;; a regular series of short blog posts which expose the cool side of front end web development.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.2ality.com/2013/06/basic-javascript.html"&gt;Basic JavaScript: an introduction to the language&lt;/a&gt;&lt;/strong&gt; - A great starting point for anyone wanting to learn the basics of our best friend; Javascript. Lengthy but worth the read.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://davidwalsh.name/add-rules-stylesheets"&gt;Add rules to your Stylesheets with Javascript&lt;/a&gt;&lt;/strong&gt; - Interesting way to style things by adding rules directly to your stylesheets instead of to the DOM, while still using Javascript.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There&amp;#39;s a brand new effort to build a CSS animations library that is UI-less and performant. &lt;strong&gt;&lt;a href="https://github.com/h5bp/Effeckt.css"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; is taking shape nicely and is something that I&amp;#39;m keeping a close eye on. You can see a &lt;a href="http://h5bp.github.io/Effeckt.css/"&gt;work-in-progress demo&lt;/a&gt;. Still plenty to do though ;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://topcoat.io"&gt;Topcoat&lt;/a&gt; 0.5.1 is released&lt;/strong&gt; along with &lt;a href="http://topcoat.io/topcoat/"&gt;usage guidelines&lt;/a&gt; which shows off what the Bootstrap competitor has to offer. Looking good, but perhaps a little too Adobe-like for my tastes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Brand new bug fix &lt;a href="http://blog.jquery.com/2013/07/03/jquery-1-10-2-and-2-0-3-released/"&gt;releases for jQuery&lt;/a&gt;&lt;/strong&gt;.  1.10.2 and 2.0.3 are now available to download.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://emberpress.eviltrout.com/"&gt;EmberPress&lt;/a&gt;&lt;/strong&gt; is a clone of the popular &lt;a href="http://www.atebits.com/letterpress/"&gt;LetterPress&lt;/a&gt; iOS app, but written with the increasingly popular &lt;a href="http://emberjs.com"&gt;EmberJS&lt;/a&gt;. I love the fact that the &lt;a href="http://emberpress.eviltrout.com/docs/emberpress.html"&gt;annotated source code&lt;/a&gt; is available, which uses the brilliant &lt;a href="http://jashkenas.github.io/docco/"&gt;Docco&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Removing Apps</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/removing-apps/"/>
@@ -197,118 +227,6 @@
 &lt;p&gt;What we are trying to do in parallel is devise a way of spreading the word. We are very open to collaborate with anyone, so feel free to email fmay at codio dot com if you have any bright ideas.&lt;/p&gt;
 
 &lt;p&gt;More posts on this subject coming.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The Journey from Mercurial to Git</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/06/journey/"/>
-    <id>https://codio.com/s/blog/2013/06/journey/</id>
-    <published>2013-06-10T00:00:00Z</published>
-    <updated>2013-06-10T00:00:00Z</updated>
-    <author>
-      <name>Friedel Ziegelmayer</name>
-    </author>
-    <summary type="html">&lt;h2 id="toc_0"&gt;The Problem&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;In which we see all the issues that come with great version control.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;As &lt;a href="/s/blog/2013/06/moving-from-mercurial-to-git/"&gt;already mentioned in the last post&lt;/a&gt; we are using Mercurial right now but want to switch to Git. So the question in the room was how to convert a large Mercurial repository...&lt;/p&gt;</summary>
-    <content type="html">&lt;h2 id="toc_0"&gt;The Problem&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;In which we see all the issues that come with great version control.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;As &lt;a href="/s/blog/2013/06/moving-from-mercurial-to-git/"&gt;already mentioned in the last post&lt;/a&gt; we are using Mercurial right now but want to switch to Git. So the question in the room was how to convert a large Mercurial repository to Git, without losing any history and converting the named Mercurial branches to Git branches.&lt;/p&gt;
-
-&lt;p&gt;There were a few tools that I tried, mainly &lt;a href="https://github.com/frej/fast-export"&gt;fast-export&lt;/a&gt; and &lt;a href="http://www.fogcreek.com/kiln/"&gt;Kiln&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The first one was fast-export and the main problem was that after I got it installed it always crashed with some cryptic errors. Some of them could be resolved as explained in this &lt;a href="http://www.mehdi-khalili.com/migrating-from-mercurial-to-git"&gt;post&lt;/a&gt;. But even then after fixing these there were more errors, so I eventually gave up.&lt;/p&gt;
-
-&lt;p&gt;The next one was &lt;a href="http://www.fogcreek.com/kiln/"&gt;Kiln&lt;/a&gt;, a service that claims to allow you to work on a single repository using Git &lt;em&gt;and&lt;/em&gt; Mercurial. After setting up an account and waiting forty minutes to push from the command line, I was excited to see what happened, but was pretty bummed to see that the repo was completely empty in the web interface. After the command line, I tried their importer, which took about the same amount of time again only to give me just a partial history in the web interface. After this I was quite fed up with Kiln and moved on.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;The Meeting&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;In which we meet a creature much more powerful than we had ever imagined.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I was about to give up my search when I found &lt;a href="https://github.com/buchuki/gitifyhg"&gt;Gitifyhg&lt;/a&gt;. &lt;a href="https://github.com/buchuki/gitifyhg"&gt;Gitifyhg&lt;/a&gt; is not intended as a way of converting Mercurial repositories to Git, but rather to give people who have to work on those, an easy way&lt;br&gt;
-to interact with them using Git.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This git remote allows you to do local development in a git repository and push changes to an upstream mercurial repository. It does this seamlessly and allows pushing and pulling to named branches in the upstream repository.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;But because it needs to be able to do much more, e.g. converting back and forth from Mercurial to Git, it is able to do exactly what we need: convert a complete Mercurial repository into a Git repository without losing any history or a single branch.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;The Great Conversion&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;In which Mercurial branches become Git branches.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_3"&gt;The Installation&lt;/h3&gt;
-
-&lt;p&gt;As we&amp;#39;re already using Mercurial, Python is set up and hopefully &lt;code&gt;pip&lt;/code&gt; or &lt;code&gt;easy_install&lt;/code&gt;. If this is the case then installation is as simple as typing:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ pip install gitifyhg
-# or
-$ easy_install gitifyhg
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;For more information on installation procedures check out the &lt;a href="https://github.com/buchuki/gitifyhg#install"&gt;readme&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id="toc_4"&gt;The Ceremony&lt;/h3&gt;
-
-&lt;p&gt;Now that gitifyhg is installed we can harness its powers by simply cloning a Mercurial repository with this command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ git clone gitifyhg::&amp;lt;mercurial repository&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;One thing to note here, is that the easiest way - for conversion at least - is to clone a local repository instead of one that is on a server. The main issue here is that I couldn&amp;#39;t figure out how to sign in to &lt;a href="https://bitbucket.org/"&gt;Bitbucket&lt;/a&gt; using this approach.&lt;/p&gt;
-
-&lt;p&gt;When this command has finished running the conversion is finished. What we now need to do is set up remote tracking branches for all our git branches so we can check them out. This is easy enough for a single branch by doing:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ git --track &amp;lt;name of the remote branch&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;But if you have many branches and want to add them all at once we can use the power of the shell to do it:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ for remote in `git branch -r `; do git branch --track $remote; done
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We can now take a look at all our Mercurial branches in Git:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ git branch -r
-  origin/HEAD -&amp;gt; origin/master
-  origin/branches/#7345_tabs_reopening
-  origin/branches/#7528_context-no-longer-needed
-  origin/branches/#7610_md5_cache
-  origin/branches/#7633_file_tree_icons
-  origin/branches/#7663_deployment_UI
-  origin/branches/#7777_sharejs
-  origin/branches/#7797_first_app_selection
-  origin/branches/#7800_ace_themes
-  origin/branches/#7897_annotations_menuitem_visibility
-  origin/branches/#7973_preview_hotkeys
-  origin/branches/#7981_tour_closing
-  origin/branches/#8011_inline_preview
-  origin/branches/#8013_shortcuts
-  origin/branches/#8062_error_on_init_during_close
-  origin/branches/#8128_css_color_preview
-  origin/branches/#8130_emmet_hotkeys
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="toc_5"&gt;The Cleaning&lt;/h3&gt;
-
-&lt;p&gt;Gitifyhg uses the convention &lt;code&gt;master = default&lt;/code&gt; for the main branch and &lt;code&gt;&amp;lt;git branch name&amp;gt; = branches/&amp;lt;mercurial branch name&amp;gt;&lt;/code&gt; for all other branches. We don&amp;#39;t want this. Instead we want to rename our local branches so that the prefix &lt;code&gt;branches/&lt;/code&gt; is removed. This is easily done by doing:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ git branch -m &amp;lt;old name&amp;gt; &amp;lt;new name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;So we can rename those branches that we want to keep around and remove those that are not needed anymore by calling:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ git branch -D &amp;lt;branch name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_6"&gt;The Epilogue&lt;/h2&gt;
-
-&lt;p&gt;Now that we&amp;#39;ve converted the repository itself, the real work begins. We need to change our development cycle around version control and educate everyone about how to use Git in a safe and productive way. Even if these two are similar there is still a lot to learn and the raw power of Git can sometimes be a little bit scary, but personally I much prefer having all the power rather than jumping through hoops all the time.&lt;/p&gt;
 </content>
   </entry>
 </feed>

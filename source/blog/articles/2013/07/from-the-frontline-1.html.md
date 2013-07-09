@@ -1,6 +1,7 @@
 ---
 title: 'From the Front-line - Issue #1'
 author: Joel Moss
+tags: animations, topcoat, jQuery, EmberJS
 date: 2013-07-08
 class_name: blog
 full_width: true

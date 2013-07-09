@@ -21,21 +21,19 @@ class_name: home
 </header>
 
 <aside>
-  <div class="container">
     <ul>
-      <li><a href="#">Packing Productivity</a></li>
-      <li class="active"><a href="#">Baked in Brilliance</a></li>
-      <li><a href="#">Compiled Stuff</a></li>
-      <li><a href="#">Deployment Delights</a></li>
+      <li class="active"><a href="#productivity">Packing Productivity</a></li>
+      <li><a href="#baked">Baked in Brilliance</a></li>
+      <li><a href="#compiled">Compiled Stuff</a></li>
+      <li><a href="#deployment">Deployment Delights</a></li>
       <li><a href="#">Real-time Collaboration</a></li>
       <li><a href="#">Source Control</a></li>
       <li><a href="#">Annotations</a></li>
       <li><a href="#">Other Goodies</a></li>
     </ul>
-  </div>
 </aside>
 
-<section>
+<section id="productivity">
   <div class="container">
     <div>
       <h2>Packing Productivity</h2>
@@ -46,10 +44,32 @@ class_name: home
   </div>
 </section>
 
-<section>
+<section id="baked">
   <div class="container">
     <div>
       <h2>Baked in Brilliance</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
+    </div>
+  </div>
+</section>
+
+<section id="compiled">
+  <div class="container">
+    <div>
+      <h2>Compiled Stuff</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
+    </div>
+  </div>
+</section>
+
+<section id="deployment">
+  <div class="container">
+    <div>
+      <h2>Deployment Delights</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, velit, animi illum iste ex laborum quos debitis ducimus ad nobis! Ad, illum voluptate optio aliquid tenetur voluptates corporis doloremque cupiditate!</p>
@@ -80,3 +100,6 @@ class_name: home
   </div>
 </section> -->
 
+<% content_for :foot do %>
+<%= javascript_include_tag 'submenu' %>
+<% end %>

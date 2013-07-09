@@ -1,5 +1,7 @@
 footer {
   color: #eeeee9;
+  position: relative;
+  z-index: 20;
 
   background-color: $red;
   font-size: 12px;

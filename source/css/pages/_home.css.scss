@@ -4,6 +4,7 @@ body.home {
 
   header {
     background-color: #EAEDF2;
+    height: 420px;
 
     .container {
       @include clearfix();
@@ -49,4 +50,5 @@ body.home {
 
   @import '../partials/home/sections';
   @import '../partials/home/highlighted-feature';
+  @import '../partials/submenu';
 }

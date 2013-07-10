@@ -13,6 +13,10 @@ $ ->
     initOffset.left = $('.container', sections.first()).offset().left
     aside.css 'left', initOffset.left
 
+    $(window).on 'resize', ->
+        initOffset.left = $('.container', sections.first()).offset().left
+        aside.css 'left', initOffset.left
+
     $(window).on 'scroll', ->
         position = $(document).scrollTop()
 

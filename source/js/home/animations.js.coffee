@@ -5,7 +5,7 @@ $ ->
 
     # Roll the reel into play on page load.
     $('#reel').transition
-        x: -1980
+        x: -1910
         rotate: '-360deg'
         delay: 500
         duration: 1500

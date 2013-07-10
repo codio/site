@@ -4,10 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-If you load a file that, based on the file extension, is not a know type then you will not get any highlighting of the code. You can tell Codio which language formatting to use by clicking at the bottom right of the IDE. 
+Codio will automatically select the syntax highlighting rules solely based on the file extension.
 
-![code folding](/img/docs/ide-force-lang.png)
+If you open a file whose extension is not know then you will not get any highlighting of the code. You can tell Codio which language formatting to use by clicking at the bottom right of the IDE. 
 
-The currently used language highlighter is shown there and clicking on it brings up the complete list of supported languages.
+![lang override](/img/docs/ide-force-lang.png)
+
+You can override the language highlighting by clicking as shown (circled) in the above screenshot.
 
 

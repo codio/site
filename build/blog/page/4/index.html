@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-938ab30c.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-1c76fb9f.css" media="screen" rel="stylesheet" type="text/css" />
 
     
       <link href="/sitebar.css" media="screen" rel="stylesheet" type="text/css" />
@@ -83,6 +83,254 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <h1><a href="/s/blog/2013/05/emmet-support/">Emmet support added for hi-speed HTML and CSS coding</a></h1>
+
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/05/emmet-support/">May 24, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/05/emmet-support/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/05/emmet-support/" data-via="codiohq" data-size="small" data-count="none" data-text="Emmet support added for hi-speed HTML and CSS coding">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/05/emmet-support/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/05/emmet-support/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+
+        
+        <p>We have just added Emmet support for a whole range of features that really boost productivity when working with HTML and CSS. These features include expanding abbreviations into full HTML or CSS as well as some very powerful keyboard shortcuts.</p>
+
+<p>Be sure to check out the <a href="/s/docs/ide/emmet/">Codio documentation</a>.</p>
+
+<p>Here&#39;s a short video of it in action in the Codio IDE.</p>
+
+<p><a href="http://www.youtube.com/v/suFLTxYDJz8?autoplay=1" class="fancybox fancybox.iframe" id="video"><br>
+    <img src="//i3.ytimg.com/vi/suFLTxYDJz8/mqdefault.jpg"><br>
+  </a></p>
+
+<h2 id="toc_0">Basic Example</h2>
+
+<p>Let&#39;s say you want to generate the following HTML</p>
+
+<pre><code>&lt;div&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Just type the following and press tab</p>
+
+<pre><code>div&gt;ul&gt;li*3
+</code></pre>
+
+<h2 id="toc_1">Juicier Example</h2>
+
+<p>This is more involved but shows how you can generate pretty well anything once you understand its simple language.</p>
+
+<pre><code>&lt;div id=&quot;page&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;&lt;/div&gt;
+    &lt;ul id=&quot;navigation&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 3&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 5&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>And here is what you enter (then press tab)</p>
+
+<pre><code>#page&gt;div.logo+ul#navigation&gt;li*5&gt;a{Item $}
+</code></pre>
+
+<h2 id="toc_2">CSS Example</h2>
+
+<p>There&#39;s CSS support, too.</p>
+
+<p><code>w100p</code> results in <code>width: 100%</code><br>
+<code>m10p30e5x</code> results in <code>margin: 10% 30em 5ex</code></p>
+
+<p>and how about this for gradients</p>
+
+<pre><code>lg(left, #fc0, 30%, red)
+</code></pre>
+
+<p>result in</p>
+
+<pre><code>background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fc0), color-stop(0.5, 30%), to(red));
+background-image: -webkit-linear-gradient(left, #fc0, 30%, red);
+background-image: -moz-linear-gradient(left, #fc0, 30%, red);
+background-image: -o-linear-gradient(left, #fc0, 30%, red);
+background-image: linear-gradient(left, #fc0, 30%, red);
+</code></pre>
+
+<h2 id="toc_3">Lorem Ipsum</h2>
+
+<p>There are other things you can do as well, like generating standard text</p>
+
+<pre><code>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis expedita numquam suscipit hic molestias tenetur neque facilis et aliquam consectetur sapiente aperiam non recusandae ad minima quod saepe laborum tempora.
+</code></pre>
+
+<p>Just use </p>
+
+<pre><code>lorem
+</code></pre>
+
+<h2 id="toc_4">Power Keyboard Shortcuts</h2>
+
+<p>As well as abbreviations, we also offer some really powerful productivity features behind kayboard shortcuts. </p>
+
+<ul>
+<li>Matching tag pairs</li>
+<li>Jump to matching tag</li>
+<li>Wrap HTML with anotehr abbreviation</li>
+<li>Traverse between important editing points</li>
+<li>Selects important editing blocks and then traverses to the next one</li>
+<li>Add remove comment toggle for the current line or block</li>
+<li>Remove the current tag and its closing tag and adjust indentation</li>
+<li>Merge selected lines into a single line</li>
+<li>Add width and height properties to an img tag</li>
+<li>Inline calculator that lets you enter arithmetic formulae and then press tab to perform the calculation</li>
+<li>Increment and decrement CSS values by 0.1, 1 and 10</li>
+</ul>
+
+<p>Check out the <a href="/s/docs/ide/emmet/">Codio documentation</a> for an overview.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/05/emmet-support/" data-via="codiohq" data-size="small" data-count="none" data-text="Emmet support added for hi-speed HTML and CSS coding">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/05/emmet-support/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/05/emmet-support/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <h1><a href="/s/blog/2013/05/mode-selection-and-ui-refresh/">Mode Selection and UI Refresh</a></h1>
+
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/05/mode-selection-and-ui-refresh/">May 17, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/05/mode-selection-and-ui-refresh/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/05/mode-selection-and-ui-refresh/" data-via="codiohq" data-size="small" data-count="none" data-text="Mode Selection and UI Refresh">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/05/mode-selection-and-ui-refresh/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/05/mode-selection-and-ui-refresh/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+
+        
+        <p>Hot on the heels of yesterday&#39;s <a href="/s/blog/2013/05/one-click-deployment/">release of Codio:Deployment</a> comes a couple of extra goodies for you.</p>
+
+<p>First up is a slight refresh of the UI. We like being trendy and &quot;with it&quot;, so we tweaked our colours and made the UI a little flatter. We also decreased the height of the top bars, to give you even more code editing space. This, along with a set of all new clean and crisp icons, means Codio has never looked so HOT!</p>
+
+<p>Second is the much requested ability to quickly and easily switch modes of the file you are looking at, and an updated line and column count. Both these can be found in the status bar at the bottom of the page, when you have a file open. Codio now supports nearly 100 programming languages, and each one is now just a click away. Of course, we will still automatically detect the correct language for you, but just in case we get it wrong, or you simply want to edit your HTML as if it were Haskell (which of course we all want to do), go right ahead and change it.</p>
+
+<p><img src="/s/img/blog/mode-f0db53d5.gif" /></p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/05/mode-selection-and-ui-refresh/" data-via="codiohq" data-size="small" data-count="none" data-text="Mode Selection and UI Refresh">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/05/mode-selection-and-ui-refresh/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/05/mode-selection-and-ui-refresh/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -275,186 +523,6 @@
 
     
 
-      <article>
-        <h1><a href="/s/blog/2013/04/secure-previewing/">Securing Project Previews</a></h1>
-
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/04/secure-previewing/">April 29, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/04/secure-previewing/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/04/secure-previewing/" data-via="codiohq" data-size="small" data-count="none" data-text="Securing Project Previews">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/04/secure-previewing/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/04/secure-previewing/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-
-        
-          <img alt="Securing Project Previews" align="left" class="blog-img" src="/s/img/blog/preview-auth-30c138e5.png" />
-        
-        <p>We are always extremely mindful of ensuring that your Codio experience is as secure and safe as possible. So with this in mind, we just rolled out a change in the way that you preview private projects. Previously, we used a cookie to authenticate such requests. This was done to ensure that only those with read permissions could actually preview. However, this method is prone to abuse and could allow an attacker to preview your private projects, regardless of whether they had permission to do so.</p>
-
-<p>This mornings release completely removes this dependence on cookies to authenticate when previewing. Instead, you will be prompted to enter your Codio login if and when you preview a private project.</p>
-
-<p>Please note, that you will not be prompted to authenticate when previewing public projects - for obvious reasons.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/04/secure-previewing/" data-via="codiohq" data-size="small" data-count="none" data-text="Securing Project Previews">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/04/secure-previewing/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/04/secure-previewing/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
-      <article>
-        <h1><a href="/s/blog/2013/04/coding-art-math/">Coding + Math + Art + Physics = FUN</a></h1>
-
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/04/coding-art-math/">April 26, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/04/coding-art-math/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/04/coding-art-math/" data-via="codiohq" data-size="small" data-count="none" data-text="Coding + Math + Art + Physics = FUN">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/04/coding-art-math/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/04/coding-art-math/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-
-        
-        <p>As you may have read in previous posts, we&#39;re trying to change the approach to IT education and we believe that coding needs to be centre stage - well at least on stage - in schools. One of the great things about coding is that it can be fun and can draw on other strengths and talents.</p>
-
-<p>The example projects you see below draw on creativity, math, physics and even a smattering of art. We are trying to get people to realize that <strong>CODING IS FUN</strong>.</p>
-
-<p>If anyone has cool examples of code that draws on talent and creativity from other areas, please add your suggestions in the comments below this post.</p>
-
-<h2 id="toc_0">Explore</h2>
-
-<p>Below are three simple projects displayed in the Codio IDE (which is live and clickable, so go ahead). Each of these can be run in the browser (press Preview button) and you can explore the code in the IDE.</p>
-
-<h2 id="toc_1">Tearable Cloth</h2>
-
-<p><strong>IMPORTANT:</strong> this is a live IDE, not an image, so explore the code and press Preview to run the code.</p>
-
-<iframe src="https://codio.com/codio/Tear-able-Cloth-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
-
-<h2 id="toc_2">Multi-Touch Boids</h2>
-
-<p><strong>IMPORTANT:</strong> this is a live IDE, not an image, so explore the code and press Preview to run the code.</p>
-
-<iframe src="https://codio.com/codio/Multitouch-Boids-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
-
-<h2 id="toc_3">Animated Text Demo</h2>
-
-<p><strong>IMPORTANT:</strong> this is a live IDE, not an image, so explore the code and press Preview to run the code.</p>
-
-<iframe src="https://codio.com/codio/Animated-Text-Fill-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
-
-<h2 id="toc_4">Arty CSS Backgrounds</h2>
-
-<p><strong>IMPORTANT:</strong> this is a live IDE, not an image, so explore the code and press Preview to run the code.</p>
-
-<iframe src="https://codio.com/codio/CSS-Patterns" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/04/coding-art-math/" data-via="codiohq" data-size="small" data-count="none" data-text="Coding + Math + Art + Physics = FUN">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/04/coding-art-math/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/04/coding-art-math/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -478,6 +546,10 @@
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/s/blog/2013/07/from-the-frontline-2/">From the Front-line - Issue #2</a></li>
+          
+            <li><a href="/s/blog/2013/07/from-the-frontline-1/">From the Front-line - Issue #1</a></li>
+          
             <li><a href="/s/blog/2013/07/removing-apps/">Removing Apps</a></li>
           
             <li><a href="/s/blog/2013/06/compiled-files/">Support added for CoffeeScript, Sass, SCSS etc.</a></li>
@@ -490,10 +562,6 @@
           
             <li><a href="/s/blog/2013/06/journey/">The Journey from Mercurial to Git</a></li>
           
-            <li><a href="/s/blog/2013/06/real-time-coding/">Real Time Coding</a></li>
-          
-            <li><a href="/s/blog/2013/06/moving-from-mercurial-to-git/">Moving from Mercurial to Git</a></li>
-          
         </ul>
       </section>
     
@@ -502,13 +570,13 @@
       <h4>on this page...</h4>
       <ul>
         
+          <li><a href="/s/blog/2013/05/emmet-support/">Emmet support added for hi-speed HTML and CSS coding</a></li>
+        
+          <li><a href="/s/blog/2013/05/mode-selection-and-ui-refresh/">Mode Selection and UI Refresh</a></li>
+        
           <li><a href="/s/blog/2013/05/one-click-deployment/">One-Click Deployment</a></li>
         
           <li><a href="/s/blog/2013/04/annotations-released/">Codio:Annotations Released</a></li>
-        
-          <li><a href="/s/blog/2013/04/secure-previewing/">Securing Project Previews</a></li>
-        
-          <li><a href="/s/blog/2013/04/coding-art-math/">Coding + Math + Art + Physics = FUN</a></li>
         
       </ul>
     </section>

@@ -4,7 +4,7 @@
 #nav-banner {
   background-color: $cream;
   color: #777;
-  font: 14px gotham_lightregular;
+  font: 14px gotham_light;
   @include box-shadow(0 1px 3px #eee);
   height: 72px;
   border-top: 1px solid #ddd;
@@ -31,7 +31,7 @@
       }
 
       &.active {
-        font-family: gotham_mediumregular;
+        font-family: gotham_medium;
 
         a {
           background-color: #f36050;

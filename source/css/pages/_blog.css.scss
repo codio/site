@@ -48,7 +48,7 @@ body.blog {
 
         h1 {
           color: $cream;
-          font: 30px gotham_thinregular;
+          font: 30px gotham_thin;
           text-transform: uppercase;
           padding: 0;
           margin: 0;
@@ -58,7 +58,7 @@ body.blog {
           color: $cream;
           margin: 0;
           font-size: 14px;
-          font-family: gotham_bookregular;
+          font-family: gotham_book;
           text-transform: none;
           font-weight: normal;
         }
@@ -80,7 +80,7 @@ body.blog {
     .all-posts {
       margin: 50px 0 62px 38px;
       text-transform: uppercase;
-      font: 14px gotham_bookregular;
+      font: 14px gotham_book;
 
       h5 {
         text-transform: capitalize;
@@ -232,7 +232,7 @@ body.blog {
 
         p.tagged {
           display: block;
-          font: 14px gotham_bookregular;
+          font: 14px gotham_book;
           margin: 0 0 10px 0;
           text-transform: uppercase;
         }
@@ -287,7 +287,7 @@ body.blog {
       }
 
       h1 {
-        font: 28px gotham_bookregular;
+        font: 28px gotham_book;
         margin-bottom: 5px;
 
         @include apply-to(less-than, ipad-portrait) {
@@ -297,7 +297,7 @@ body.blog {
 
       h2 {
         margin: 2.5em 0 1em;
-        font-family: gotham_mediumregular;
+        font-family: gotham_medium;
         font-size: 19px;
       }
 

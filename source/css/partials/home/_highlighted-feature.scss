@@ -1,95 +1,85 @@
-#highlighted-feature {
-  @include clearfix;
+#annotations {
   background-color: #fff;
-  box-shadow: 0 -2px 3px #ddd;
   height: 475px;
-  overflow: hidden;
-  padding: 70px 0 100px;
 
-  .container {
-    @include clearfix;
-    padding: 30px 0;
+  .container > div {
+    h2 {
+      color: #000;
+      font: 36px gotham_bold;
+      margin: 5px 0 0 0;
+    }
 
     > div {
-      float: left;
-      margin-top: 20px;
+      @include clearfix;
 
-      &:first-child {
-        width: 595px;
-        margin: 0;
+      > div {
+        float: left;
+        margin-top: 20px;
 
-        h2 {
-          color: #000;
-          font: 36px gotham_boldregular;
-          margin: 5px 0 0 0;
+        &:first-child {
+          width: 400px;
+          margin: 0;
 
-          small {
-            color: #888;
-            font-size: 20px;
-            font-family: gotham_mediumregular;
+          > p {
+            margin-right: 75px;
+            font-size: 16px;
+          }
+
+          > div {
+            @include clearfix;
+
+            > a {
+              float: left;
+              width: 322px;
+              height: 182px;
+            }
+
+            p {
+              float: left;
+              width: 220px;
+              padding: 30px 0 0 25px;
+            }
+          }
+
+          a.fancybox {
             display: block;
+            padding: 10px;
+
+            img {
+              border: 1px solid #aaa;
+              border-radius: 4px;
+              box-shadow: 0 0px 8px #666;
+            }
+
+            i {
+              position: relative;
+              left: 138px;
+              text-shadow: 0 1px 4px #000;
+              top: -120px;
+            }
           }
         }
 
-        > p {
-          margin-right: 75px;
-          font-size: 16px;
-        }
-
-        > div {
-          @include clearfix;
-
-          > a {
-            float: left;
-            width: 322px;
-            height: 182px;
-          }
-
-          p {
-            float: left;
-            width: 220px;
-            padding: 30px 0 0 25px;
-          }
-        }
-
-        a.fancybox {
-          display: block;
-          padding: 10px;
-
+        &.screenshot {
           img {
             border: 1px solid #aaa;
             border-radius: 4px;
-            box-shadow: 0 0px 8px #666;
+            box-shadow: 0 0px 55px #666;
           }
 
-          i {
+          span {
+            background: image-url('home/highlighted-features/annotations.png') -174px -2px;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 10px solid #CCC;
+            box-shadow: 2px 2px 10px #666;
+            display: block;
             position: relative;
-            left: 138px;
-            text-shadow: 0 1px 4px #000;
-            top: -120px;
+            top: -159px;
+            left: 28px;
+            background-size: 261%;
           }
-        }
-      }
-
-      &.screenshot {
-        img {
-          border: 1px solid #aaa;
-          border-radius: 4px;
-          box-shadow: 0 0px 55px #666;
-        }
-
-        span {
-          background: image-url('home/highlighted-features/annotations.png') -174px -2px;
-          width: 250px;
-          height: 250px;
-          border-radius: 50%;
-          border: 10px solid #CCC;
-          box-shadow: 2px 2px 10px #666;
-          display: block;
-          position: relative;
-          top: -159px;
-          left: 28px;
-          background-size: 261%;
         }
       }
     }

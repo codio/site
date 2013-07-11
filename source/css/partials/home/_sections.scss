@@ -9,13 +9,13 @@ section {
     padding: 80px 0;
 
     @include apply-to(more-than, ipad-landscape) {
-      margin-left: 330px;
-      width: $ipad-landscape - 330;
+      margin-left: 300px;
+      width: $ipad-landscape - 300;
     }
 
     @include apply-to(more-than, desktop) {
-      margin-left: 400px;
-      width: $desktop - 424;
+      margin-left: 350px;
+      width: $desktop - 350;
     }
 
     h2 {
@@ -46,7 +46,7 @@ section {
       background-size: 90%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -300px 76px;
+        background-position: -400px 76px;
         background-size: 80%;
       }
 
@@ -54,7 +54,7 @@ section {
         background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
         background-size: 60%;
         padding: 80px 0 46px 300px;
-        width: 350px;
+        width: 380px;
 
         h2 {
           font: 52px gotham_black;
@@ -64,8 +64,8 @@ section {
 
         @include apply-to(more-than, desktop) {
           background-size: 49%;
-          padding-left: 400px;
-          width: 400px;
+          padding-left: 350px;
+          width: 450px;
           padding-bottom: 80px;
 
           h2 {

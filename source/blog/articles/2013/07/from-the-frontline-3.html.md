@@ -1,7 +1,7 @@
 ---
 title: 'From the Front-line - Issue #3'
 author: Joel Moss
-tags: firefox, stackoverflow, coffeescript, Trello
+tags: Dropbox, Chrome, PouchDB, Trello, Javascript
 date: 2013-07-10
 class_name: blog
 full_width: true

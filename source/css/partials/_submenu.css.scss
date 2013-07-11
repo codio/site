@@ -6,23 +6,31 @@ aside {
   color: #666;
   margin-top: 10px;
   top: 580px;
-  z-index: 20;
+  z-index: 1;
+
+  &.home {
+    top: 548px;
+    padding-left: 20px;
+  }
 
   &.fixed {
     position: fixed;
-    top: 35px;
+    padding-top: 40px;
+    top: 0;
   }
 
   ul {
-    width: 330px;
+    display: block;
 
     list-style: none;
     padding: 0;
 
     li {
       padding: 10px 0;
+      display: block;
 
       a {
+        @include transition(all 0.2s ease-in-out);
         text-transform: uppercase;
         color: #333;
         font: 18px gotham_light;

@@ -20,7 +20,11 @@
     </author>
     <summary type="html">&lt;p&gt;&lt;strong&gt;Issue #2 baby!&lt;/strong&gt; Some real juicy ones today...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://dunxrion.github.io/voyeur.js/"&gt;Voyeur.JS&lt;/a&gt;&lt;/strong&gt; is an extremely nice library that lets you traverse the DOM like you would any Javascript object. For example &lt;code&gt;Voyeur.div&lt;/code&gt; finds the divs in your HTML, and &lt;code&gt;Voyeur.div.section&lt;/code&gt; finds the sections...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://dunxrion.github.io/voyeur.js/"&gt;Voyeur.JS&lt;/a&gt;&lt;/strong&gt; is an extremely nice library that lets you traverse the DOM like you would any Javascript object. For example &lt;code&gt;Voyeur.div&lt;/code&gt; finds the divs in your HTML, and &lt;code&gt;Voyeur.div.section&lt;/code&gt; finds the sections...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;&lt;strong&gt;Issue #2 baby!&lt;/strong&gt; Some real juicy ones today...&lt;/p&gt;
 
 &lt;hr&gt;
@@ -121,7 +125,9 @@
 &lt;li&gt;SCSS&lt;/li&gt;
 &lt;li&gt;Less&lt;/li&gt;
 &lt;li&gt;Markdown&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;We're also ready to add...&lt;/p&gt;</summary>
+&lt;/ul&gt;
+
+&lt;p&gt;We're also ready to...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;We&amp;#39;re pretty pleased with the latest addition to the Codio IDE. This time, we&amp;#39;ve added support for the following compiled language types (or whatever the correct collective description is)&lt;/p&gt;
 
 &lt;ul&gt;

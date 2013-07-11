@@ -19,7 +19,6 @@
       display: inline-block;
       text-transform: uppercase;
       text-align: center;
-      position: relative;
 
       a {
         font-size: 18px;
@@ -32,6 +31,7 @@
 
       &.active {
         font-family: gotham_medium;
+        position: relative;
 
         a {
           background-color: #f36050;

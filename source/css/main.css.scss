@@ -91,6 +91,10 @@ a {
   text-decoration: none;
 }
 
+a, a:hover, a:active, a:focus {
+  outline: 0;
+}
+
 img {
   width: auto 9;
   height: auto;

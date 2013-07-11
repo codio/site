@@ -20,9 +20,11 @@
     </author>
     <summary type="html">&lt;p&gt;Enjoy issue #3...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.dropbox.com"&gt;Dropbox&lt;/a&gt; released their &lt;a href="https://www.dropbox.com/developers/datastore"&gt;Datastore API&lt;/a&gt; yesterday&lt;/strong&gt;. I think this has huge potential and really opens the door even wider for developers to build on top of Dropbox. Dropbox is becoming more like a platform for developers.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://googlechromereleases.blogspot.co.uk/2013/07/stable-channel-update.html"&gt;Chrome 28&lt;/a&gt; is...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://googlechromereleases.blogspot.co.uk/2013/07/stable-channel-update.html"&gt;Chrome 28&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;Enjoy issue #3...&lt;/p&gt;
 
@@ -53,7 +55,11 @@
     </author>
     <summary type="html">&lt;p&gt;&lt;strong&gt;Issue #2 baby!&lt;/strong&gt; Some real juicy ones today...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://dunxrion.github.io/voyeur.js/"&gt;Voyeur.JS&lt;/a&gt;&lt;/strong&gt; is an extremely nice library that lets you traverse the DOM like you would any Javascript object. For example &lt;code&gt;Voyeur.div&lt;/code&gt; finds the divs in your HTML, and &lt;code&gt;Voyeur.div.section&lt;/code&gt; finds the sections...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://dunxrion.github.io/voyeur.js/"&gt;Voyeur.JS&lt;/a&gt;&lt;/strong&gt; is an extremely nice library that lets you traverse the DOM like you would any Javascript object. For example &lt;code&gt;Voyeur.div&lt;/code&gt; finds the divs in your HTML, and &lt;code&gt;Voyeur.div.section&lt;/code&gt; finds the sections...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;&lt;strong&gt;Issue #2 baby!&lt;/strong&gt; Some real juicy ones today...&lt;/p&gt;
 
 &lt;hr&gt;
@@ -154,7 +160,9 @@
 &lt;li&gt;SCSS&lt;/li&gt;
 &lt;li&gt;Less&lt;/li&gt;
 &lt;li&gt;Markdown&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;We're also ready to add...&lt;/p&gt;</summary>
+&lt;/ul&gt;
+
+&lt;p&gt;We're also ready to...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;We&amp;#39;re pretty pleased with the latest addition to the Codio IDE. This time, we&amp;#39;ve added support for the following compiled language types (or whatever the correct collective description is)&lt;/p&gt;
 
 &lt;ul&gt;

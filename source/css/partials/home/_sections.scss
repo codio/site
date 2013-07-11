@@ -27,6 +27,11 @@ section {
     p {
       font: 18px gotham_light;
       line-height: 1.8em;
+
+      strong {
+        font-family: gotham_medium;
+        color: $black;
+      }
     }
   }
 
@@ -72,6 +77,18 @@ section {
             font-size: 60px;
           }
         }
+      }
+    }
+  }
+
+  &#baked {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
       }
     }
   }

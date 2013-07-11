@@ -1,12 +1,38 @@
 section {
   position: relative;
 
+  @mixin screenie {
+    > div {
+      background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
+      background-size: 60%;
+      padding: 80px 0 46px 300px;
+      width: 380px;
+
+      h2 {
+        font: 52px gotham_black;
+        color: $red;
+        margin: 0;
+      }
+
+      @include apply-to(more-than, desktop) {
+        background-size: 41%;
+        padding-left: 350px;
+        width: 524px;
+        padding-bottom: 80px;
+
+        h2 {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+
   &:nth-child(even) {
     background-color: #F4F4F4;
   }
 
   .container > div {
-    padding: 80px 0;
+    padding: 0;
 
     @include apply-to(more-than, ipad-landscape) {
       margin-left: 300px;
@@ -27,6 +53,7 @@ section {
     p {
       font: 18px gotham_light;
       line-height: 1.8em;
+      margin: 1em 0 0 0;
 
       strong {
         font-family: gotham_medium;
@@ -36,52 +63,44 @@ section {
   }
 
 
-  &#deployment h2 {
-    font-size: 48px !important;
+  &#productivity .container > div {
+    @include screenie;
+    background: transparent image-url('home/screens/productivity.png') no-repeat -238px 76px;
+    background-size: 75%;
 
     @include apply-to(more-than, desktop) {
-      font-size: 52px !important;
+      background-position: -184px 62px;
+      background-size: 56%;
     }
-  }
 
-  &#baked, &#deployment, &#sourcecontrol {
-    .container > div {
-      padding: 0;
-      background: transparent image-url('home/screens/bower.png') no-repeat -355px 76px;
-      background-size: 90%;
+    > div {
+      padding-bottom: 60px;
+      background-size: 55%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -400px 76px;
-        background-size: 80%;
-      }
-
-      > div {
-        background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
-        background-size: 60%;
-        padding: 80px 0 46px 300px;
-        width: 380px;
-
-        h2 {
-          font: 52px gotham_black;
-          color: $red;
-          margin: 0;
-        }
-
-        @include apply-to(more-than, desktop) {
-          background-size: 49%;
-          padding-left: 350px;
-          width: 450px;
-          padding-bottom: 80px;
-
-          h2 {
-            font-size: 60px;
-          }
-        }
+        background-size: 38%;
       }
     }
   }
 
-  &#baked {
+  &#baked .container > div {
+    @include screenie;
+    background: transparent image-url('home/screens/bower.png') no-repeat -300px 76px;
+    background-size: 83%;
+
+    @include apply-to(more-than, desktop) {
+      background-position: -385px 76px;
+      background-size: 80%;
+    }
+
+    > div {
+      background-size: 45%;
+
+      @include apply-to(more-than, desktop) {
+        background-size: 36%;
+      }
+    }
+
     ul {
       list-style: none;
       padding: 0;
@@ -90,6 +109,51 @@ section {
       li {
         display: inline-block;
       }
+    }
+  }
+
+  &#compiled .container > div {
+    @include screenie;
+    background: transparent image-url('home/screens/compiled.png') no-repeat -174px 82px;
+    background-size: initial;
+
+    @include apply-to(more-than, desktop) {
+      background-position: -126px 62px;
+    }
+
+    > div {
+      background-size: 46%;
+      padding-bottom: 64px;
+
+      @include apply-to(more-than, desktop) {
+        background-size: 36%;
+        padding-bottom: 98px;
+      }
+    }
+  }
+
+  &#deployment .container > div {
+    @include screenie;
+    background: transparent image-url('home/screens/deploy.png') no-repeat -71px 63px;
+    background-size: 50%;
+
+    @include apply-to(more-than, desktop) {
+      background-position: -71px 63px;
+      background-size: 45%;
+    }
+
+    h2 {
+      font-size: 48px !important;
+
+      @include apply-to(more-than, desktop) {
+        font-size: 52px !important;
+      }
+    }
+  }
+
+  &#realtime, &#sourcecontrol, &#annotations {
+    .container > div {
+      padding: 80px 0;
     }
   }
 }

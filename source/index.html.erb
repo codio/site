@@ -22,13 +22,16 @@ class_name: home
 
 <aside class="home">
     <ul>
-      <li class="active"><a href="#productivity">Packing Productivity</a></li>
+      <li class="active"><a href="#productivity">Productivity</a></li>
+      <li><a href="#speed">'kin fast</a></li>      
+      <li><a href="#deployment">Deployment Targets</a></li>
+      <li><a href="#compiled">CoffeeScript, Less etc.</a></li>
+      <li><a href="#sourcecontrol">Git Integrated</a></li>      
       <li><a href="#realtime">Real-time Collaboration</a></li>
-      <li><a href="#baked">Baked in Brilliance</a></li>
-      <li><a href="#sourcecontrol">Source Control</a></li>
-      <li><a href="#deployment">Deployment Delights</a></li>
-      <li><a href="#annotations">Annotations</a></li>
-      <li><a href="#compiled">Not Just Javascript!</a></li>
+      <li><a href="#baked">Yeoman, Bower, Grunt</a></li>
+      <li><a href="#node">Front &amp; Back</a></li>
+      <li><a href="#instant">Free, Effortless</a></li>
+      <li><a href="#annotations">Annotations</a></li>      
     </ul>
 </aside>
 
@@ -37,45 +40,18 @@ class_name: home
     <div>
       <div>
         <h2>Productivity</h2>
-        <p><strong>Codio</strong> has a ton of features that will massively increase your productivity. Syntax highlighting for hundreds of languages, code completion, search &amp; replace, TextMate-like snippets, keyboard shortcuts, code folding, multiple cursors, color preview/picker, inline preview, and so much more.</p>
+        <p>You can work <strong>as fast</strong> as with the best desktop tools.</p><p>Syntax highlighting for hundreds of languages, code completion, TextMate-like snippets, fully customizable keyboard shortcuts, TernJS, Emmet, code folding, multiple cursors, color preview/picker, inline preview and much more.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="realtime">
+<section id="speed">
   <div class="container">
     <div>
       <div>
-        <h2>Collaboration</h2>
-        <p>Codio makes it unbelievably easy and fast when when working in teams. Each keystroke you make is seen by your team mates as you type it. It makes for an extremely collaborative environment.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="baked">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Brilliance</h2>
-        <p><strong>Bower</strong> is an amazingly useful tool for managing dependencies, so we baked it right into Codio and made it incredibly easy to use. We'll also be adding support for <strong>Grunt</strong> and <strong>Yeoman</strong> very soon.</p>
-        <ul>
-          <li><%= image_tag 'home/bower-logo.png', :width => 36 %></li>
-          <li><%= image_tag 'home/grunt-logo.png', :width => 28 %></li>
-          <li><%= image_tag 'home/yeoman-logo.png', :width => 32 %></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="sourcecontrol">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Git</h2>
-        <p>You're not a <i>real</i> IDE until you have source control integrated. Control and version your code using <strong>Git</strong> without leaving Codio. Pull from any remote Git repository, then commit, branch, merge and push it all back! It's all in the cloud, which means no setup or installation is needed, and it all just works!</p>
+        <h2>Cloud !== Slow</h2>
+        <p>Do you think that developing in the cloud is slow? Think again! We havea prepared a whole set of eyeopening benchmarks. Spin the wheel.</p>
       </div>
     </div>
   </div>
@@ -86,7 +62,80 @@ class_name: home
     <div>
       <div>
         <h2>Deployment</h2>
-        <p>With Codio, you can deploy with a single click! Define any number of deployment targets, and deploy to FTP/SFTP, <strong>Parse</strong> or <strong>NodeJitsu</strong>. Or deploy onto Codio's hosting platform for zero-setup production hosting of your static apps.</p>
+        <p>One-click deployment to any number of test, staging and production environments: <strong>FTP</strong>, <strong>SFTP</strong>, <strong>Parse</strong>, <strong>NodeJitsu</strong>, as well as <strong>Codio's hosting platform.</strong></p>
+        <p>Being cloud based, these are usually much faster than deploying from the desktop.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="compiled">
+  <div class="container">
+    <div>
+      <div>
+        <h2>!JS &amp; &amp; !CSS</h2>
+        <p>Codio has direct support for <strong>CoffeeScript</strong>, <strong>Sass</strong>, <strong>SCSS</strong> and <strong>Less</strong> with more to come. No manual compilation steps needed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sourcecontrol">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Git</h2>
+        <p>Codio has full integration with any Git repository, including Github of course. It just works.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="realtime">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Collaboration</h2>
+        <p>Google Docs style coding for multiple developers coding in real time on the same files.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="baked">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Yeoman</h2>
+        <p><strong>Bower</strong> is an amazingly useful tool for managing dependencies, so we baked it right into Codio and made it incredibly easy to use. <strong>Grunt</strong> and <strong>Yeoman</strong> support coming very soon.</p>
+        <ul>
+          <li><%= image_tag 'home/bower-logo.png', :width => 36 %></li>
+          <li><%= image_tag 'home/grunt-logo.png', :width => 28 %></li>
+          <li><%= image_tag 'home/yeoman-logo.png', :width => 32 %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="node">
+  <div class="container">
+    <div>
+      <div>
+        <h2>front &amp; back</h2>
+        <p>Hook Codio up to your Digital Ocean or any other cloud server and you have an incredibly fast, 100% cloud based development setup so you can run your own Node.js environment with full SSH access.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="instant">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Free &amp; Effortless</h2>
+        <p>Accessing the Codio IDE requires no signup. And when you do signup, it's completely free to use for all Open Source projects, including educational usage.</p>
+        <p>And you can use it as your full blown web dev IDE, or you use it to demo code by embedding in a blog or linking to it. Truly effortless.</p>
       </div>
     </div>
   </div>
@@ -103,16 +152,6 @@ class_name: home
   </div>
 </section>
 
-<section id="compiled">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Javascript!</h2>
-        <p>We all love Javascript don't we? Well just in case you don't, you can use <strong>CoffeeScript</strong> in your Codio projects instead! And how about <strong>SASS</strong> or <strong>Less</strong>? Just code away and Codio will take care of the rest.</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 <% content_for :foot do %>

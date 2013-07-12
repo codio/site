@@ -5,10 +5,41 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-11T00:00:00Z</updated>
+  <updated>2013-07-12T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - Issue #5</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-5/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-5/</id>
+    <published>2013-07-12T00:00:00Z</published>
+    <updated>2013-07-12T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;And here endeth our final day of the week, and the fifth issue...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Been working with Media Queries for the redesign of this site, and came across a need to &lt;strong&gt;react to media queries in Javascript&lt;/strong&gt;. Unfortunately that's not possible, because it's only CSS...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;And here endeth our final day of the week, and the fifth issue...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Been working with Media Queries for the redesign of this site, and came across a need to &lt;strong&gt;react to media queries in Javascript&lt;/strong&gt;. Unfortunately that&amp;#39;s not possible, because it&amp;#39;s only CSS. I found &lt;a href="http://wicky.nillia.ms/enquire.js/"&gt;enquire.js&lt;/a&gt; does exactly that. Bonus!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A little gem of an &lt;a href="http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices"&gt;article&lt;/a&gt; for running &lt;strong&gt;synchronised testing between browsers/devices&lt;/strong&gt; using Grunt.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/WebReflection/eddy"&gt;Eddy is a nifty little Javascript Event library&lt;/a&gt;&lt;/strong&gt; that gives the familiar &lt;code&gt;on&lt;/code&gt;, and &lt;code&gt;off&lt;/code&gt; methods but on any and every Object.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chrome Developer Tools just keep getting better and better. In the latest &lt;a href="https://www.google.com/intl/en/chrome/browser/canary.html"&gt;Chrome Canary&lt;/a&gt;, you&amp;#39;ll find a awesome feature called &lt;a href="https://developers.google.com/chrome-developer-tools/docs/authoring-development-workflow#snippets"&gt;Snippets&lt;/a&gt;, which let you &lt;strong&gt;save and reuse small bits of code within the console&lt;/strong&gt;. Kind of like the &lt;a href="https://codio.com/s/docs/ide/emmet/snippets/"&gt;Snippets&lt;/a&gt; that we have available in Codio, but not awesome!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://jnuno.com/tree-model-js/"&gt;TreeModel&lt;/a&gt; A very intuitive Javascript library for &lt;strong&gt;manipulating and traversing tree-like structures&lt;/strong&gt;. It has some great demo&amp;#39;s on its &lt;a href="http://jnuno.com/tree-model-js/"&gt;site&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An oldie, but a goodie... &lt;a href="http://bradfrost.github.io/this-is-responsive/"&gt;This is Responsive&lt;/a&gt; is a site full of &lt;strong&gt;patterns, resources and new for creating responsive web experiences&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;And finally, a nice little &lt;a href="http://blog.alexmaccaw.com/queuing-ajax-requests"&gt;nugget&lt;/a&gt; for &lt;strong&gt;queuing your Ajax requests&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - Issue #4</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-4/"/>
@@ -167,71 +198,6 @@
 &lt;p&gt;If all goes well, this change will take place later this week. &lt;a href="https://twitter.com/codiohq"&gt;Follow us on Twitter&lt;/a&gt; for updates as they happen.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions or queries, please &lt;a href="mailto:help@codio.com"&gt;get in touch&lt;/a&gt;, or leave a comment below.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Support added for CoffeeScript, Sass, SCSS etc.</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/06/compiled-files/"/>
-    <id>https://codio.com/s/blog/2013/06/compiled-files/</id>
-    <published>2013-06-29T00:00:00Z</published>
-    <updated>2013-06-29T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;We're pretty pleased with the latest addition to the Codio IDE. This time, we've added support for the following compiled language types (or whatever the correct collective description is)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CoffeeScript&lt;/li&gt;
-&lt;li&gt;Sass&lt;/li&gt;
-&lt;li&gt;SCSS&lt;/li&gt;
-&lt;li&gt;Less&lt;/li&gt;
-&lt;li&gt;Markdown&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;We're also ready to add...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We&amp;#39;re pretty pleased with the latest addition to the Codio IDE. This time, we&amp;#39;ve added support for the following compiled language types (or whatever the correct collective description is)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CoffeeScript&lt;/li&gt;
-&lt;li&gt;Sass&lt;/li&gt;
-&lt;li&gt;SCSS&lt;/li&gt;
-&lt;li&gt;Less&lt;/li&gt;
-&lt;li&gt;Markdown&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We&amp;#39;re also ready to add more file types, so tweet &lt;a href="http://twitter.com/CodioHQ"&gt;@codioHQ&lt;/a&gt; if you think we should add something.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Take a look&lt;/h2&gt;
-
-&lt;p&gt;What you see below is a real IDE, so play with it to see how we support compiled file types. &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Press the Preview menu option to run it and see how things are compiled on the fly&lt;/li&gt;
-&lt;li&gt;Open up the example files (Less and CoffeeScript represented here)&lt;/li&gt;
-&lt;li&gt;If you want it full size, &lt;a href="https://codio.com/codio/CompilingExample/tree/app/example.coffee" target="_blank"&gt;click here&lt;/a&gt; to see it in its own browser tab.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width="950" height="600" src="https://codio.com/codio/CompilingExample/tree/app/example.coffee" style="margin:20px 0;"&gt;&lt;/iframe&gt;
-
-&lt;h2 id="toc_1"&gt;How it works&lt;/h2&gt;
-
-&lt;p&gt;Its jolly simple! No build tasks, no separate processes to think about. Just code and run.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You write your code in CoffeeScript, Less or whatever&lt;/li&gt;
-&lt;li&gt;You reference anything that results in javascript by appending &lt;code&gt;.js&lt;/code&gt; like this &lt;code&gt;&amp;lt;script src=&amp;quot;example.coffee.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;You reference anything that results in CSS by appending &lt;code&gt;.css&lt;/code&gt;like this &lt;code&gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;style.less.css&amp;quot;&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Codio then compiles the files automatically on demand.&lt;/p&gt;
-
-&lt;p&gt;It really is jolly simple. Take a quick look at &lt;a href="/s/docs/compiling/one-file/"&gt;User Guide&lt;/a&gt;, too.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;What about production deployment?&lt;/h2&gt;
-
-&lt;p&gt;Currently, all this only works in development mode. However, in a few weeks we&amp;#39;ll have baked Grunt into Codio, so you will be able to configure build tasks really easily.&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;Seeing compiled output&lt;/h2&gt;
-
-&lt;p&gt;Its also really easy to see compiled JS or CSS output for one of your files. The &lt;a href="/s/docs/compiling/one-file/"&gt;User Guide&lt;/a&gt; is the best place to get an explanation.&lt;/p&gt;
 </content>
   </entry>
 </feed>

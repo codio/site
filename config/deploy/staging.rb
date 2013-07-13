@@ -1,1 +1,1 @@
-server 'ec2-184-73-104-247.compute-1.amazonaws.com', :app, :web, :db, :primary => true
+server 'ec2-184-72-144-200.compute-1.amazonaws.com', :app, :web, :db, :primary => true

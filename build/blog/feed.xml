@@ -5,10 +5,43 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-12T00:00:00Z</updated>
+  <updated>2013-07-15T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - Issue #6</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-6/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-6/</id>
+    <published>2013-07-15T00:00:00Z</published>
+    <updated>2013-07-15T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;A new week, another five issues...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://khan.github.io/structuredjs/"&gt;StructuredJS&lt;/a&gt; is a JS library that provides an &lt;strong&gt;interface for checking the structure of your code&lt;/strong&gt;. Written by the Khan Academy to teach coding, but I'm not so sure how useful this is elsewhere.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Writing documentation...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;A new week, another five issues...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://khan.github.io/structuredjs/"&gt;StructuredJS&lt;/a&gt; is a JS library that provides an &lt;strong&gt;interface for checking the structure of your code&lt;/strong&gt;. Written by the Khan Academy to teach coding, but I&amp;#39;m not so sure how useful this is elsewhere.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Writing documentation should be easy&lt;/strong&gt;, &lt;a href="http://daux.io/"&gt;Daux.io&lt;/a&gt; does a pretty good job of that by basing it on a simple document structure and Markdown files.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I see a lot of demos demonstrating the power of the latest JS/HTML/CSS, but this one of a &lt;strong&gt;&lt;a href="http://cssdeck.com/labs/pure-css-minion"&gt;Minion written only in HTML and CSS&lt;/a&gt;&lt;/strong&gt; is just freakin&amp;#39; awesome!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you like the life-saving PhantomJS, then you&amp;#39;ll love &lt;a href="https://github.com/Huddle/PhantomCSS"&gt;PhantomCSS&lt;/a&gt;, which is &amp;quot;An integration of Resemble.js with PhantomJS and CasperJS for &lt;strong&gt;automating visual regression testing of Website styling&lt;/strong&gt; to support refactoring of CSS&amp;quot;. A mouthful, but still pretty cool.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It&amp;#39;s amazing how extremely useful &lt;strong&gt;Chrome&amp;#39;s Dev Tools&lt;/strong&gt; have become. This &lt;a href="http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/"&gt;post on HTML5 Rocks&lt;/a&gt;, recaps the latest and greatest, including &lt;strong&gt;Workspaces, SASS debugging, Flame Charts and remote debugging&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Building in Open Source? If so, you should check out &lt;a href="http://choosealicense.com/"&gt;ChooseALicense.com&lt;/a&gt;; a new site from the Github guys, which &lt;strong&gt;helps you decide which OSS license to use&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - Issue #5</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-5/"/>
@@ -53,7 +86,7 @@
 
 &lt;hr&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The ever popular &lt;strong&gt;&lt;a href="http://bower.io"&gt;Bower&lt;/a&gt; just hit 1.0.0 Alpha&lt;/strong&gt;. In fact, it released four alphas in the last 24 hours ago! &lt;a href="https://github.com/bower/bower/wiki/Rewrite-state"&gt;Here's a summary of what's new&lt;/a&gt; including details of the rewriting efforts.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Here's a &lt;strong&gt;fun and useful list of &lt;a href="https://codio.com/s/docs/ide/emmet/snippets/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Here's a &lt;strong&gt;fun and useful list of &lt;a href="http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;Goodie, goodie, goodie...&lt;/p&gt;
 
@@ -61,7 +94,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The ever popular &lt;strong&gt;&lt;a href="http://bower.io"&gt;Bower&lt;/a&gt; just hit 1.0.0 Alpha&lt;/strong&gt;. In fact, it released four alphas in the last 24 hours ago! &lt;a href="https://github.com/bower/bower/wiki/Rewrite-state"&gt;Here&amp;#39;s a summary of what&amp;#39;s new&lt;/a&gt; including details of the rewriting efforts.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Here&amp;#39;s a &lt;strong&gt;fun and useful list of &lt;a href="https://codio.com/s/docs/ide/emmet/snippets/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Here&amp;#39;s a &lt;strong&gt;fun and useful list of &lt;a href="http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Another great article from &lt;a href="http://davidwalsh.name"&gt;David Walsh&lt;/a&gt;, this time about &lt;strong&gt;&lt;a href="http://davidwalsh.name/keyboard-shortcuts"&gt;creating keyboard shortcuts&lt;/a&gt;&lt;/strong&gt; with the open source &lt;a href="http://craig.is/killing/mice"&gt;Mousetrap&lt;/a&gt; Javascript library.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Instagram are making further steps into the browser by introducing &lt;strong&gt;&lt;a href="http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds"&gt;Instagram Web Embeds&lt;/a&gt;&lt;/strong&gt;, which is simply an easy way to embed Instagram photos onto web pages. Kinda&amp;#39; funny that they used images in &lt;a href="http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds"&gt;their post&lt;/a&gt; to demo this.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Media queries are awesome! Media Queries are also easy to forget&lt;/strong&gt;. &lt;a href="http://atmedia.info/"&gt;@Media.info&lt;/a&gt; helps a little by showing you the media query code for the device you are looking at their site with.&lt;/p&gt;&lt;/li&gt;
@@ -165,39 +198,6 @@
 &lt;hr&gt;
 
 &lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Removing Apps</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/removing-apps/"/>
-    <id>https://codio.com/s/blog/2013/07/removing-apps/</id>
-    <published>2013-07-02T00:00:00Z</published>
-    <updated>2013-07-02T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Codio is based upon projects, with a project having any number of files and directories. Codio also has a concept of app's within a project, and that is what you see when creating a new project.&lt;/p&gt;
-
-&lt;p&gt;But for a long time now, app's have become somewhat...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Codio is based upon projects, with a project having any number of files and directories. Codio also has a concept of app&amp;#39;s within a project, and that is what you see when creating a new project.&lt;/p&gt;
-
-&lt;p&gt;But for a long time now, app&amp;#39;s have become somewhat of a pain during development and usage of Codio. A project must first have at least one app before it can have a file or directory, and then those files and directories must only be contained within an app.&lt;/p&gt;
-
-&lt;p&gt;This is confusing to you, and as Codio has evolved over the last few months, it&amp;#39;s also become unnecessary, and has actually caused us more problems that it solves.&lt;/p&gt;
-
-&lt;p&gt;So we will very shortly be removing the concept of app&amp;#39;s within a project, applying the following changes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Any existing project that has &lt;strong&gt;only one app&lt;/strong&gt;, will have that app removed, and all it&amp;#39;s files and directories moved into the root of the project.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Any existing project with &lt;strong&gt;more than one app&lt;/strong&gt; will have those app&amp;#39;s changed to plain old directories.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;New projects will no longer be created with an app, and instead all files and directories will be located at the project root.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We feel that this change will make things much more flexible for you, and will allow you to structure your projects in any way you please. It will also make things much simpler for all.&lt;/p&gt;
-
-&lt;p&gt;If all goes well, this change will take place later this week. &lt;a href="https://twitter.com/codiohq"&gt;Follow us on Twitter&lt;/a&gt; for updates as they happen.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions or queries, please &lt;a href="mailto:help@codio.com"&gt;get in touch&lt;/a&gt;, or leave a comment below.&lt;/p&gt;
 </content>
   </entry>
 </feed>

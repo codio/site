@@ -86,7 +86,7 @@
 
 &lt;hr&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The ever popular &lt;strong&gt;&lt;a href="http://bower.io"&gt;Bower&lt;/a&gt; just hit 1.0.0 Alpha&lt;/strong&gt;. In fact, it released four alphas in the last 24 hours ago! &lt;a href="https://github.com/bower/bower/wiki/Rewrite-state"&gt;Here's a summary of what's new&lt;/a&gt; including details of the rewriting efforts.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Here's a &lt;strong&gt;fun and useful list of &lt;a href="https://codio.com/s/docs/ide/emmet/snippets/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Here's a &lt;strong&gt;fun and useful list of &lt;a href="http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;Goodie, goodie, goodie...&lt;/p&gt;
 
@@ -94,7 +94,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The ever popular &lt;strong&gt;&lt;a href="http://bower.io"&gt;Bower&lt;/a&gt; just hit 1.0.0 Alpha&lt;/strong&gt;. In fact, it released four alphas in the last 24 hours ago! &lt;a href="https://github.com/bower/bower/wiki/Rewrite-state"&gt;Here&amp;#39;s a summary of what&amp;#39;s new&lt;/a&gt; including details of the rewriting efforts.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Here&amp;#39;s a &lt;strong&gt;fun and useful list of &lt;a href="https://codio.com/s/docs/ide/emmet/snippets/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Here&amp;#39;s a &lt;strong&gt;fun and useful list of &lt;a href="http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Another great article from &lt;a href="http://davidwalsh.name"&gt;David Walsh&lt;/a&gt;, this time about &lt;strong&gt;&lt;a href="http://davidwalsh.name/keyboard-shortcuts"&gt;creating keyboard shortcuts&lt;/a&gt;&lt;/strong&gt; with the open source &lt;a href="http://craig.is/killing/mice"&gt;Mousetrap&lt;/a&gt; Javascript library.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Instagram are making further steps into the browser by introducing &lt;strong&gt;&lt;a href="http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds"&gt;Instagram Web Embeds&lt;/a&gt;&lt;/strong&gt;, which is simply an easy way to embed Instagram photos onto web pages. Kinda&amp;#39; funny that they used images in &lt;a href="http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds"&gt;their post&lt;/a&gt; to demo this.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Media queries are awesome! Media Queries are also easy to forget&lt;/strong&gt;. &lt;a href="http://atmedia.info/"&gt;@Media.info&lt;/a&gt; helps a little by showing you the media query code for the device you are looking at their site with.&lt;/p&gt;&lt;/li&gt;

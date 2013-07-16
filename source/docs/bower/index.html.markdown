@@ -19,7 +19,7 @@ And how many times did you forget to update a JavaScript plugin or some CSS resu
 Bower does the following for you
 
 - you can search a global repository of Bower components
-- you can install any of these components instantly
+- you can install any of these components into Codio with a button press
 - dependencies are automatically installed and managed
 - component updates are handled
 
@@ -30,7 +30,7 @@ You would normally do the following to link to a library
 
 With Bower, it becomes 
 
-	<script src="/components/jquery.js"></script>
+	<script src="/bower_components/jquery.js"></script>
 
 
 ##How does Codio implement Bower?

@@ -4,7 +4,13 @@ class_name: docs
 full_width: true
 ---
 
-Let's say Jquery release a new version and you want to update your project, too. Simply go to the Installed Components tab and press the refresh button next to your component. Codio will ask Bower to fetch the latest version and that's it. 
+Automatic and safe updating of your components is one of the many advantages of using Bower. 
 
-Bower knows what updates can be performed safely, as the component owner includes this information in the bower.json file. 
+![bower folder](/img/docs/bower-installed-update.png)
+
+##Updating all your components
+You can update all bower components in your project simply by pressing the 'All' button near the top right. 
+
+##Update a single component
+Go to the Installed components tab an press the refresh button for that component. 
 

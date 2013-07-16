@@ -1,5 +1,5 @@
 ---
-title: 'From the Front-line - Issue #2'
+title: 'From the Front-line - #2'
 author: Joel Moss
 tags: firefox, stackoverflow, coffeescript, Trello
 date: 2013-07-09

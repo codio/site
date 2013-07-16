@@ -1,5 +1,5 @@
 ---
-title: 'From the Front-line - Issue #4'
+title: 'From the Front-line - #4'
 author: Joel Moss
 tags: Bower, Github, Instagram, Media Queries
 date: 2013-07-11

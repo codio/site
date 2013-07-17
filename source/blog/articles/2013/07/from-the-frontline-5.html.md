@@ -1,5 +1,5 @@
 ---
-title: 'From the Front-line - Issue #5'
+title: 'From the Front-line - #5'
 author: Joel Moss
 tags:
 date: 2013-07-12

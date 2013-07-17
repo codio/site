@@ -5,12 +5,46 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-15T00:00:00Z</updated>
+  <updated>2013-07-16T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
   <entry>
-    <title>From the Front-line - Issue #6</title>
+    <title>From the Front-line - #7</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-7/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-7/</id>
+    <published>2013-07-16T00:00:00Z</published>
+    <updated>2013-07-16T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Almost forgot today...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A great selection of &lt;strong&gt;&lt;a href="http://odiseo.net/javascript/front-end-optimizations-you-can-do-right-now-on-your-existing-code"&gt;front-end optimisations you can start doing right now&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Not sure why we would want &lt;strong&gt;yet another Javascript framework&lt;/strong&gt;, but &lt;a href="http://minifiedjs.com/"&gt;Minified&lt;/a&gt; is less than 4kb in size, so at least it lives up to its name.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Oh and look...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Almost forgot today...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A great selection of &lt;strong&gt;&lt;a href="http://odiseo.net/javascript/front-end-optimizations-you-can-do-right-now-on-your-existing-code"&gt;front-end optimisations you can start doing right now&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Not sure why we would want &lt;strong&gt;yet another Javascript framework&lt;/strong&gt;, but &lt;a href="http://minifiedjs.com/"&gt;Minified&lt;/a&gt; is less than 4kb in size, so at least it lives up to its name.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Oh and look... &lt;strong&gt;another new JS framework&lt;/strong&gt; called &lt;a href="https://github.com/EGreg/Q.js"&gt;Q.js&lt;/a&gt; that contains &amp;quot;a lot of useful Javascript functions&amp;quot;!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://css-tricks.com/the-extend-concept/"&gt;Great article&lt;/a&gt; on CSS-Tricks about &lt;strong&gt;the extend concept&lt;/strong&gt; in the three big CSS preprocessors.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Need help with your CSS animations?&lt;/strong&gt; &lt;a href="http://jeremyckahn.github.io/stylie/"&gt;Stylie&lt;/a&gt; is a fun CSS animation tool that could save you time, and might just be what you need.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;David Walsh does it again... again - &lt;strong&gt;&lt;a href="http://davidwalsh.name/webgl-demos"&gt;9 mind blowing WebGL demos&lt;/a&gt;&lt;/strong&gt;. (the Chrome world maze is my fave!)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #6</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-6/"/>
     <id>https://codio.com/s/blog/2013/07/from-the-frontline-6/</id>
     <published>2013-07-15T00:00:00Z</published>
@@ -43,7 +77,7 @@
 </content>
   </entry>
   <entry>
-    <title>From the Front-line - Issue #5</title>
+    <title>From the Front-line - #5</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-5/"/>
     <id>https://codio.com/s/blog/2013/07/from-the-frontline-5/</id>
     <published>2013-07-12T00:00:00Z</published>
@@ -74,7 +108,7 @@
 </content>
   </entry>
   <entry>
-    <title>From the Front-line - Issue #4</title>
+    <title>From the Front-line - #4</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-4/"/>
     <id>https://codio.com/s/blog/2013/07/from-the-frontline-4/</id>
     <published>2013-07-11T00:00:00Z</published>
@@ -106,7 +140,7 @@
 </content>
   </entry>
   <entry>
-    <title>From the Front-line - Issue #3</title>
+    <title>From the Front-line - #3</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-3/"/>
     <id>https://codio.com/s/blog/2013/07/from-the-frontline-3/</id>
     <published>2013-07-10T00:00:00Z</published>
@@ -139,7 +173,7 @@
 </content>
   </entry>
   <entry>
-    <title>From the Front-line - Issue #2</title>
+    <title>From the Front-line - #2</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-2/"/>
     <id>https://codio.com/s/blog/2013/07/from-the-frontline-2/</id>
     <published>2013-07-09T00:00:00Z</published>
@@ -168,36 +202,6 @@
 &lt;hr&gt;
 
 &lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - Issue #1</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-1/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-1/</id>
-    <published>2013-07-08T00:00:00Z</published>
-    <updated>2013-07-08T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;I use Twitter - a lot! I also follow and read a lot of blogs and tech news sites. Each day I come across so many useful and interesting articles, libraries, code, apps, frameworks and all manner of coolness. A lot of these are directly or indirectly...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I use Twitter - a lot! I also follow and read a lot of blogs and tech news sites. Each day I come across so many useful and interesting articles, libraries, code, apps, frameworks and all manner of coolness. A lot of these are directly or indirectly related to developing for and in the browser - what is sometimes referred to as client-side or front-end development for the web.&lt;/p&gt;
-
-&lt;p&gt;So, welcome to the very first issue of &amp;quot;From the Front-line&amp;quot;; a regular series of short blog posts which expose the cool side of front end web development.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.2ality.com/2013/06/basic-javascript.html"&gt;Basic JavaScript: an introduction to the language&lt;/a&gt;&lt;/strong&gt; - A great starting point for anyone wanting to learn the basics of our best friend; Javascript. Lengthy but worth the read.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://davidwalsh.name/add-rules-stylesheets"&gt;Add rules to your Stylesheets with Javascript&lt;/a&gt;&lt;/strong&gt; - Interesting way to style things by adding rules directly to your stylesheets instead of to the DOM, while still using Javascript.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;There&amp;#39;s a brand new effort to build a CSS animations library that is UI-less and performant. &lt;strong&gt;&lt;a href="https://github.com/h5bp/Effeckt.css"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; is taking shape nicely and is something that I&amp;#39;m keeping a close eye on. You can see a &lt;a href="http://h5bp.github.io/Effeckt.css/"&gt;work-in-progress demo&lt;/a&gt;. Still plenty to do though ;)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://topcoat.io"&gt;Topcoat&lt;/a&gt; 0.5.1 is released&lt;/strong&gt; along with &lt;a href="http://topcoat.io/topcoat/"&gt;usage guidelines&lt;/a&gt; which shows off what the Bootstrap competitor has to offer. Looking good, but perhaps a little too Adobe-like for my tastes.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Brand new bug fix &lt;a href="http://blog.jquery.com/2013/07/03/jquery-1-10-2-and-2-0-3-released/"&gt;releases for jQuery&lt;/a&gt;&lt;/strong&gt;.  1.10.2 and 2.0.3 are now available to download.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://emberpress.eviltrout.com/"&gt;EmberPress&lt;/a&gt;&lt;/strong&gt; is a clone of the popular &lt;a href="http://www.atebits.com/letterpress/"&gt;LetterPress&lt;/a&gt; iOS app, but written with the increasingly popular &lt;a href="http://emberjs.com"&gt;EmberJS&lt;/a&gt;. I love the fact that the &lt;a href="http://emberpress.eviltrout.com/docs/emberpress.html"&gt;annotated source code&lt;/a&gt; is available, which uses the brilliant &lt;a href="http://jashkenas.github.io/docco/"&gt;Docco&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>

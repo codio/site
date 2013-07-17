@@ -5,10 +5,41 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-16T00:00:00Z</updated>
+  <updated>2013-07-17T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #8</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-8/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-8/</id>
+    <published>2013-07-17T00:00:00Z</published>
+    <updated>2013-07-17T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;A little quiet today...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Lovely little &lt;a href="https://github.com/sindresorhus/log-globals"&gt;bookmarklet or DevTools snippet&lt;/a&gt; for Chrome that &lt;strong&gt;logs your global Javascript variables to the console&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;A little quiet today...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Lovely little &lt;a href="https://github.com/sindresorhus/log-globals"&gt;bookmarklet or DevTools snippet&lt;/a&gt; for Chrome that &lt;strong&gt;logs your global Javascript variables to the console&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated gif&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://etiennetalbot.github.io/responsImg"&gt;responseImg&lt;/a&gt; is a jQuery plugin that &lt;strong&gt;turns your &lt;code&gt;img&lt;/code&gt; tags into responsive images with retina alternatives&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Really love these &lt;strong&gt;&lt;a href="http://tympanus.net/Development/AnimatedBooks/index.html"&gt;CSS3 animated books&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #7</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-7/"/>
@@ -165,38 +196,6 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Need quick, easy and fast site search? Check out &lt;a href="https://swiftype.com/"&gt;Swiftype&lt;/a&gt;&lt;/strong&gt;. Nice to see that Google haven&amp;#39;t knocked all the little guys out the park.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://pouchdb.com/"&gt;PouchDB&lt;/a&gt; is a tiny little database based on, and compatible with CouchDB&lt;/strong&gt;. It&amp;#39;s a Javascript library, so runs in the browser, but what interests me is that it can sync data with any CouchDB server, and you can even sync between two PouchDB databases!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Want to know more about &lt;strong&gt;Web Workers and concurrency in Javascript&lt;/strong&gt;? Well &lt;a href="http://typedarray.org/concurrency-in-javascript/"&gt;this detailed article&lt;/a&gt; by TypedArray is required reading.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #2</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-2/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-2/</id>
-    <published>2013-07-09T00:00:00Z</published>
-    <updated>2013-07-09T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Issue #2 baby!&lt;/strong&gt; Some real juicy ones today...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://dunxrion.github.io/voyeur.js/"&gt;Voyeur.JS&lt;/a&gt;&lt;/strong&gt; is an extremely nice library that lets you traverse the DOM like you would any Javascript object. For example &lt;code&gt;Voyeur.div&lt;/code&gt; finds the divs in your HTML, and &lt;code&gt;Voyeur.div.section&lt;/code&gt; finds the sections...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Issue #2 baby!&lt;/strong&gt; Some real juicy ones today...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://dunxrion.github.io/voyeur.js/"&gt;Voyeur.JS&lt;/a&gt;&lt;/strong&gt; is an extremely nice library that lets you traverse the DOM like you would any Javascript object. For example &lt;code&gt;Voyeur.div&lt;/code&gt; finds the divs in your HTML, and &lt;code&gt;Voyeur.div.section&lt;/code&gt; finds the sections in your divs.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lots of buzz surrounding FirefoxOS recently, although I&amp;#39;m not convinced they can do any better than Android. But what I do like is that everything is HTML, Javascript and CSS, which makes it extremely accessible to every developer. The &lt;strong&gt;&lt;a href="http://buildingfirefoxos.com/"&gt;Building Firefox OS&lt;/a&gt;&lt;/strong&gt; site is great place to find out more and get started.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/Peer5/ShareFest"&gt;ShareFest&lt;/a&gt;&lt;/strong&gt; is a web based P2P file sharing library built in NodeJS and on top of WebRTC. Basically means you can replace Dropbox with your own P2P file storage solution.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Another CoffeeScript pretender, but this time with a better name; &lt;strong&gt;&lt;a href="http://ckknight.github.io/gorillascript/"&gt;GorillaScript&lt;/a&gt;&lt;/strong&gt; s similar to CoffeeScript in that it is trying to &lt;em&gt;fix&lt;/em&gt; Javascript, but seems to be concentrating on preventing common errors often encountered with Javascript.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://jsx.github.io/"&gt;JSX&lt;/a&gt;&lt;/strong&gt; claims to be a &amp;quot;&lt;em&gt;a faster, safer, easier JavaScript&lt;/em&gt;&amp;quot;, but looks like it&amp;#39;s trying to be too Java like. I like it&amp;#39;s aims though.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I use the excellent &lt;a href="http://kapeli.com/dash"&gt;Dash&lt;/a&gt; for browsing and searching the docs for almost any framework and library you can imagine. &lt;strong&gt;&lt;a href="http://devdocs.io/"&gt;DevDocs&lt;/a&gt;&lt;/strong&gt; is similar, but web based, which I really like the idea of. It&amp;#39;s faily new so it has a limited set of docs right now, so I hope to see these grow to Dash&amp;#39;s proportions.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Stumbled upon &lt;strong&gt;&lt;a href="https://balloon.io/"&gt;Balloon&lt;/a&gt;&lt;/strong&gt; yesterday and really like their implementation of web site contact forms.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;And finally, I came across this &lt;a href="http://stackoverflow.com/questions/17527870/how-does-trello-access-the-users-clipboard/17528590#17528590"&gt;StackOverflow post&lt;/a&gt; asking how &lt;a href="https://trello.com/"&gt;Trello&lt;/a&gt; magically allow you to &lt;strong&gt;copy the URL of a card just by pressing &lt;code&gt;Ctrl-C&lt;/code&gt;&lt;/strong&gt;, and all without any Flash. The answer, by Trello employee Daniel LeCheminant, is so simple it makes you feel stupid that you didn&amp;#39;t think of it.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

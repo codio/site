@@ -5,10 +5,43 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-17T00:00:00Z</updated>
+  <updated>2013-07-18T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #9</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-9/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-9/</id>
+    <published>2013-07-18T00:00:00Z</published>
+    <updated>2013-07-18T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Here's today's juicy bundle of links...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they've been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;While researching ways to improve Codio's own internal &lt;strong&gt;Javascript routing&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Here&amp;#39;s today&amp;#39;s juicy bundle of links...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they&amp;#39;ve been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;While researching ways to improve Codio&amp;#39;s own internal &lt;strong&gt;Javascript routing&lt;/strong&gt; system, I came across &lt;a href="https://github.com/tildeio/router.js"&gt;Router.js&lt;/a&gt;, which is the router that &lt;a href="http://emberjs.com/"&gt;EmberJS&lt;/a&gt; uses. It&amp;#39;s a very thorough implementation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lots of talk around &lt;strong&gt;ES6&lt;/strong&gt;, the next version of EcmaScript (Javascript), but this &lt;a href="http://www.slideshare.net/domenicdenicola/es6-the-awesome-parts"&gt;slideshow&lt;/a&gt; talks about &lt;strong&gt;the awesome parts&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/sindresorhus/screenfull.js"&gt;screenfull.js&lt;/a&gt; is a tiny wrapper for &lt;strong&gt;cross-browser usage of the Javascript fullscreen API&lt;/strong&gt;, which lets you bring the page or any element into fullscreen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://the-taylors.org/blog/2013/07/01/how-will-i-keep-javascript-code-quality-hight-jshint/"&gt;Nice post&lt;/a&gt; by our friend Dave Taylor on the awesomeness that is &lt;strong&gt;JSHint&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://bunkat.github.io/later/"&gt;Later.js&lt;/a&gt; claims to be the &lt;strong&gt;simplest way to work with recurring schedules&lt;/strong&gt;. If you&amp;#39;re only talking about Javascript, then they&amp;#39;re probably right.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #8</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-8/"/>
@@ -163,39 +196,6 @@
 &lt;li&gt;&lt;p&gt;Another great article from &lt;a href="http://davidwalsh.name"&gt;David Walsh&lt;/a&gt;, this time about &lt;strong&gt;&lt;a href="http://davidwalsh.name/keyboard-shortcuts"&gt;creating keyboard shortcuts&lt;/a&gt;&lt;/strong&gt; with the open source &lt;a href="http://craig.is/killing/mice"&gt;Mousetrap&lt;/a&gt; Javascript library.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Instagram are making further steps into the browser by introducing &lt;strong&gt;&lt;a href="http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds"&gt;Instagram Web Embeds&lt;/a&gt;&lt;/strong&gt;, which is simply an easy way to embed Instagram photos onto web pages. Kinda&amp;#39; funny that they used images in &lt;a href="http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds"&gt;their post&lt;/a&gt; to demo this.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Media queries are awesome! Media Queries are also easy to forget&lt;/strong&gt;. &lt;a href="http://atmedia.info/"&gt;@Media.info&lt;/a&gt; helps a little by showing you the media query code for the device you are looking at their site with.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #3</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-3/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-3/</id>
-    <published>2013-07-10T00:00:00Z</published>
-    <updated>2013-07-10T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Enjoy issue #3...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.dropbox.com"&gt;Dropbox&lt;/a&gt; released their &lt;a href="https://www.dropbox.com/developers/datastore"&gt;Datastore API&lt;/a&gt; yesterday&lt;/strong&gt;. I think this has huge potential and really opens the door even wider for developers to build on top of Dropbox. Dropbox is becoming more like a platform for developers.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://googlechromereleases.blogspot.co.uk/2013/07/stable-channel-update.html"&gt;Chrome 28&lt;/a&gt; is...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Enjoy issue #3...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.dropbox.com"&gt;Dropbox&lt;/a&gt; released their &lt;a href="https://www.dropbox.com/developers/datastore"&gt;Datastore API&lt;/a&gt; yesterday&lt;/strong&gt;. I think this has huge potential and really opens the door even wider for developers to build on top of Dropbox. Dropbox is becoming more like a platform for developers.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://googlechromereleases.blogspot.co.uk/2013/07/stable-channel-update.html"&gt;Chrome 28&lt;/a&gt; is out!&lt;/strong&gt; This is the first version of Chrome that ships with Blink; Google&amp;#39;s fork of Webkit.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://medium.com/what-i-learned-building/b4daab987fb0"&gt;Nice article&lt;/a&gt; on how to &lt;strong&gt;get started with CSS source maps and in-browser SASS editing&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Need quick, easy and fast site search? Check out &lt;a href="https://swiftype.com/"&gt;Swiftype&lt;/a&gt;&lt;/strong&gt;. Nice to see that Google haven&amp;#39;t knocked all the little guys out the park.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://pouchdb.com/"&gt;PouchDB&lt;/a&gt; is a tiny little database based on, and compatible with CouchDB&lt;/strong&gt;. It&amp;#39;s a Javascript library, so runs in the browser, but what interests me is that it can sync data with any CouchDB server, and you can even sync between two PouchDB databases!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Want to know more about &lt;strong&gt;Web Workers and concurrency in Javascript&lt;/strong&gt;? Well &lt;a href="http://typedarray.org/concurrency-in-javascript/"&gt;this detailed article&lt;/a&gt; by TypedArray is required reading.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

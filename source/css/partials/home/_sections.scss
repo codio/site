@@ -18,7 +18,7 @@ section {
   }
 
   &:nth-child(even) {
-    background-color: #F4F4F4;
+    background-color: #F9F9F9;
   }
 
   .container > div {
@@ -56,6 +56,13 @@ section {
         font-family: gotham_medium;
         color: $black;
       }
+    }
+
+    .coming-soon {
+      font: 14px gotham_light;
+      font-style: italic;
+      text-transform: uppercase;
+      color: #BEA3A1;
     }
   }
 
@@ -115,20 +122,24 @@ section {
 
   &#compiled .container > div {
     @include screenie;
-    background: transparent image-url('home/screens/compiled.png') no-repeat -174px 82px;
+    background: transparent image-url('home/screens/compiled.png') no-repeat -150px 100px;
     background-size: initial;
 
     @include apply-to(more-than, desktop) {
-      background-position: -126px 62px;
+      background-position: -126px 76px;
     }
 
     > div {
-      background-size: 46%;
-      padding-bottom: 64px;
+      background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+      background-size: 10px;
+      padding: 90px 0 80px 350px;
+      width: 330px;
 
       @include apply-to(more-than, desktop) {
-        background-size: 36%;
-        padding-bottom: 98px;
+        background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
+        background-size: 38%;
+        padding-left: 350px;
+        width: 500px;
       }
     }
   }
@@ -148,7 +159,27 @@ section {
     }
   }
 
-  &#realtime, &#sourcecontrol, &#annotations {
+  &#sourcecontrol {
+    background: transparent image-url("home/branching-illustration.png") no-repeat 866px center;
+    background-size: 30%;
+
+    .container > div {
+      @include screenie;
+
+      div {
+        background: none;
+        padding: 100px 0;
+        width: 460px;
+
+        img {
+          position: relative;
+          top: -3px;
+        }
+      }
+    }
+  }
+
+  &#realtime, &#annotations, &#embed {
     .container > div {
       padding: 80px 0;
     }
@@ -187,6 +218,55 @@ section {
 
         &:last-child {
           text-align: right;
+        }
+      }
+    }
+  }
+
+  &#opensource {
+    .container > div {
+      @include clearfix;
+      padding: 100px 0;
+
+      h2 {
+        color: #333;
+        font: 28px gotham_light;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      div {
+        float: left;
+        width: 225px;
+
+        @include apply-to(more-than, desktop) {
+          width: 335px;
+        }
+
+        &:first-child {
+          @include apply-to(more-than, desktop) {
+            margin-right: 10px;
+          }
+        }
+
+        &:nth-child(2) {
+          width: 180px;
+          text-align: center;
+          margin-top: 30px;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 0;
+          }
+        }
+
+        &:last-child {
+          text-align: right;
+
+          @include apply-to(more-than, desktop) {
+            width: 320px;
+          }
         }
       }
     }

@@ -8,21 +8,11 @@ section {
       padding: 80px 0 46px 300px;
       width: 380px;
 
-      h2 {
-        font: 52px gotham_black;
-        color: $red;
-        margin: 0;
-      }
-
       @include apply-to(more-than, desktop) {
         background-size: 41%;
         padding-left: 350px;
         width: 524px;
-        padding-bottom: 80px;
-
-        h2 {
-          font-size: 60px;
-        }
+        padding-bottom: 110px;
       }
     }
   }
@@ -45,14 +35,21 @@ section {
     }
 
     h2 {
-      font: 48px gotham_black;
+      font: 34px gotham_medium;
       color: $red;
       margin: 0;
     }
 
+    h3 {
+      color: #8F8F99;
+      font: 26px gotham_thin;
+      margin: 8px 0 24px;
+      text-transform: initial;
+    }
+
     p {
-      font: 18px gotham_light;
-      line-height: 1.8em;
+      font: 17px gotham_light;
+      line-height: 1.7em;
       margin: 1em 0 0 0;
 
       strong {
@@ -69,16 +66,20 @@ section {
     background-size: 75%;
 
     @include apply-to(more-than, desktop) {
-      background-position: -184px 62px;
-      background-size: 56%;
+      background-position: -80px center;
+      background-size: 43%;
     }
 
     > div {
-      padding-bottom: 60px;
-      background-size: 55%;
+      background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+      background-size: 14px;
+      padding: 110px 0 110px 350px;
+      width: 330px;
 
       @include apply-to(more-than, desktop) {
-        background-size: 38%;
+        width: 500px;
+        background-size: 10px;
+        padding-top: 100px;
       }
     }
   }
@@ -132,21 +133,17 @@ section {
     }
   }
 
-  &#deployment .container > div {
-    @include screenie;
-    background: transparent image-url('home/screens/deploy.png') no-repeat -71px 63px;
-    background-size: 50%;
+  &#deployment {
+    background: transparent url("/img/home/screens/deploy.png") no-repeat 866px center;
+    background-size: 30%;
 
-    @include apply-to(more-than, desktop) {
-      background-position: -71px 63px;
-      background-size: 45%;
-    }
+    .container > div {
+      @include screenie;
 
-    h2 {
-      font-size: 48px !important;
-
-      @include apply-to(more-than, desktop) {
-        font-size: 52px !important;
+      div {
+        background: none;
+        padding: 100px 0;
+        width: 460px;
       }
     }
   }
@@ -154,6 +151,44 @@ section {
   &#realtime, &#sourcecontrol, &#annotations {
     .container > div {
       padding: 80px 0;
+    }
+  }
+
+  &#speed {
+    .container > div {
+      @include clearfix;
+      padding: 100px 0;
+      background: transparent image-url('home/fast.png') no-repeat bottom;
+
+      h2 {
+        color: #333;
+        font: 28px gotham_light;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      div {
+        float: left;
+        width: 330px;
+
+        @include apply-to(more-than, desktop) {
+          width: 340px;
+        }
+
+        &:first-child {
+          margin-right: 20px;
+
+          @include apply-to(more-than, desktop) {
+            margin-right: 160px;
+          }
+        }
+
+        &:last-child {
+          text-align: right;
+        }
+      }
     }
   }
 }

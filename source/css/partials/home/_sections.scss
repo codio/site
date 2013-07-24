@@ -18,18 +18,33 @@ section {
   }
 
   &:nth-child(even) {
-    background-image: linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
-    background-image: -o-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
-    background-image: -moz-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
-    background-image: -webkit-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
-    background-image: -ms-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+    background-image: linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -o-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -moz-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -webkit-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -ms-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
     background-image: -webkit-gradient(
       linear,
       left top,
       right top,
-      color-stop(0.15, rgb(255,255,255)),
+      color-stop(0.25, rgb(255,255,255)),
       color-stop(0.36, rgb(249,249,249))
     );
+
+    @include apply-to(more-than, desktop) {
+      background-image: linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -o-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -moz-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -webkit-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -ms-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.15, rgb(255,255,255)),
+        color-stop(0.36, rgb(249,249,249))
+      );
+    }
   }
 
   .container > div {
@@ -113,20 +128,28 @@ section {
     }
 
     > div {
-      background-size: 45%;
+      background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+      background-size: 12px;
+      padding-bottom: 85px;
 
       @include apply-to(more-than, desktop) {
-        background-size: 36%;
+        background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
+        background-size: 49%;
       }
-    }
 
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0 0;
 
-      li {
-        display: inline-block;
+        @include apply-to(more-than, desktop) {
+          margin-top: 30px;
+        }
+
+        li {
+          display: inline-block;
+          margin-right: 15px
+        }
       }
     }
   }
@@ -190,7 +213,35 @@ section {
     }
   }
 
-  &#realtime, &#annotations, &#embed {
+  &#realtime {
+    background: transparent image-url("home/collab.gif") no-repeat 813px center;
+    background-size: 30%;
+
+    @include apply-to(more-than, desktop) {
+      background-position: 866px center;
+    }
+
+    .container > div {
+      @include screenie;
+
+      div {
+        background: none;
+        padding: 100px 0;
+        width: 390px;
+
+        @include apply-to(more-than, desktop) {
+          width: 460px;
+        }
+
+        img {
+          position: relative;
+          top: -3px;
+        }
+      }
+    }
+  }
+
+  &#annotations, &#embed {
     .container > div {
       padding: 80px 0;
     }

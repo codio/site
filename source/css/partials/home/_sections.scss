@@ -18,7 +18,18 @@ section {
   }
 
   &:nth-child(even) {
-    background-color: #F9F9F9;
+    background-image: linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+    background-image: -o-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+    background-image: -moz-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+    background-image: -webkit-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+    background-image: -ms-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.15, rgb(255,255,255)),
+      color-stop(0.36, rgb(249,249,249))
+    );
   }
 
   .container > div {

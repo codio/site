@@ -5,10 +5,43 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-22T00:00:00Z</updated>
+  <updated>2013-07-24T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #11</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-11/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-11/</id>
+    <published>2013-07-24T00:00:00Z</published>
+    <updated>2013-07-24T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;I know, I know... I didn't do one yesterday. No matter, coz' this one's a good one!&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Nifty little tool to encourage you to &lt;a href="http://embedresponsively.com/"&gt;Embed Responsibly&lt;/a&gt;. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the &lt;strong&gt;HTML5 friendly...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;I know, I know... I didn&amp;#39;t do one yesterday. No matter, coz&amp;#39; this one&amp;#39;s a good one!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Nifty little tool to encourage you to &lt;a href="http://embedresponsively.com/"&gt;Embed Responsibly&lt;/a&gt;. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the &lt;strong&gt;HTML5 friendly, embeddable code&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://bower.io/"&gt;Bower&lt;/a&gt; hits a final 1.0 release&lt;/strong&gt;, so go check out the &lt;a href="https://github.com/bower/bower/blob/master/CHANGELOG.md"&gt;changelog&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Moving fast doesn&amp;#39;t always work out quite so well, and this &lt;a href="http://kenneth.io/blog/2013/07/15/the-messy-state-of-web-notifications-in-chrome-safari-blink-webkit/"&gt;article&lt;/a&gt; about the the &lt;strong&gt;messy state of Web Notifications in Blink and Webkit&lt;/strong&gt; demonstrates this.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I &lt;a href="https://twitter.com/joelmoss/status/359813361749327872"&gt;tweeted&lt;/a&gt; this one yesterday because I was quite excited about it. &lt;strong&gt;&lt;a href="http://getuikit.com/"&gt;UIKit&lt;/a&gt; is another Bootstrap style front-end framework&lt;/strong&gt;. I know, but hear me out on this one. It&amp;#39;s actually pretty good, and very modular. So you can really pick and choose what you want to use. It&amp;#39;s pretty comprehensive too.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In keeping with the above, InsertHTML posted an &lt;strong&gt;interested &lt;a href="http://www.inserthtml.com/2013/07/bootstraps-and-web-kits-enemy-or-efficient/"&gt;write up&lt;/a&gt; on the various front-end frameworks available&lt;/strong&gt;. Are they friend or foe?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/jsoverson/plato"&gt;Plato&lt;/a&gt; is a Node library that will &lt;strong&gt;scan your Javascript source code and provide a bunch of reports that visualize its complexity&lt;/strong&gt;. We ran it against the Codio source, and were pleasantly surprised.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Want multiple inheritance in Javascript?&lt;/strong&gt; &lt;a href="http://ringjs.neoname.eu/"&gt;Ring.js&lt;/a&gt; may just be what you&amp;#39;re looking for.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Alex Maccaw posted a &lt;a href="http://blog.alexmaccaw.com/seo-in-js-web-apps"&gt;succinct article&lt;/a&gt; all about &lt;strong&gt;SEO in Javascript web apps&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;And finally... &lt;strong&gt;remember Firebug Lite?&lt;/strong&gt; &lt;a href="http://gal.steinitz.com/blog/2013/07/19/remember-firebug-lite/"&gt;Gal Steinitz wants to resurrect it&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #10</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-10/"/>
@@ -169,37 +202,6 @@
 &lt;li&gt;&lt;p&gt;If you like the life-saving PhantomJS, then you&amp;#39;ll love &lt;a href="https://github.com/Huddle/PhantomCSS"&gt;PhantomCSS&lt;/a&gt;, which is &amp;quot;An integration of Resemble.js with PhantomJS and CasperJS for &lt;strong&gt;automating visual regression testing of Website styling&lt;/strong&gt; to support refactoring of CSS&amp;quot;. A mouthful, but still pretty cool.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;It&amp;#39;s amazing how extremely useful &lt;strong&gt;Chrome&amp;#39;s Dev Tools&lt;/strong&gt; have become. This &lt;a href="http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/"&gt;post on HTML5 Rocks&lt;/a&gt;, recaps the latest and greatest, including &lt;strong&gt;Workspaces, SASS debugging, Flame Charts and remote debugging&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Building in Open Source? If so, you should check out &lt;a href="http://choosealicense.com/"&gt;ChooseALicense.com&lt;/a&gt;; a new site from the Github guys, which &lt;strong&gt;helps you decide which OSS license to use&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #5</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-5/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-5/</id>
-    <published>2013-07-12T00:00:00Z</published>
-    <updated>2013-07-12T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;And here endeth our final day of the week, and the fifth issue...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Been working with Media Queries for the redesign of this site, and came across a need to &lt;strong&gt;react to media queries in Javascript&lt;/strong&gt;. Unfortunately that's not possible, because it's only CSS...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;And here endeth our final day of the week, and the fifth issue...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Been working with Media Queries for the redesign of this site, and came across a need to &lt;strong&gt;react to media queries in Javascript&lt;/strong&gt;. Unfortunately that&amp;#39;s not possible, because it&amp;#39;s only CSS. I found &lt;a href="http://wicky.nillia.ms/enquire.js/"&gt;enquire.js&lt;/a&gt; does exactly that. Bonus!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A little gem of an &lt;a href="http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices"&gt;article&lt;/a&gt; for running &lt;strong&gt;synchronised testing between browsers/devices&lt;/strong&gt; using Grunt.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/WebReflection/eddy"&gt;Eddy is a nifty little Javascript Event library&lt;/a&gt;&lt;/strong&gt; that gives the familiar &lt;code&gt;on&lt;/code&gt;, and &lt;code&gt;off&lt;/code&gt; methods but on any and every Object.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Chrome Developer Tools just keep getting better and better. In the latest &lt;a href="https://www.google.com/intl/en/chrome/browser/canary.html"&gt;Chrome Canary&lt;/a&gt;, you&amp;#39;ll find a awesome feature called &lt;a href="https://developers.google.com/chrome-developer-tools/docs/authoring-development-workflow#snippets"&gt;Snippets&lt;/a&gt;, which let you &lt;strong&gt;save and reuse small bits of code within the console&lt;/strong&gt;. Kind of like the &lt;a href="https://codio.com/s/docs/ide/emmet/snippets/"&gt;Snippets&lt;/a&gt; that we have available in Codio, but not awesome!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://jnuno.com/tree-model-js/"&gt;TreeModel&lt;/a&gt; A very intuitive Javascript library for &lt;strong&gt;manipulating and traversing tree-like structures&lt;/strong&gt;. It has some great demo&amp;#39;s on its &lt;a href="http://jnuno.com/tree-model-js/"&gt;site&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;An oldie, but a goodie... &lt;a href="http://bradfrost.github.io/this-is-responsive/"&gt;This is Responsive&lt;/a&gt; is a site full of &lt;strong&gt;patterns, resources and new for creating responsive web experiences&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;And finally, a nice little &lt;a href="http://blog.alexmaccaw.com/queuing-ajax-requests"&gt;nugget&lt;/a&gt; for &lt;strong&gt;queuing your Ajax requests&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

@@ -241,9 +241,47 @@ section {
     }
   }
 
-  &#annotations, &#embed {
+  &#annotate-embed {
     .container > div {
-      padding: 80px 0;
+      @include clearfix;
+      padding: 100px 0;
+      background: transparent image-url('home/pens.jpg') no-repeat center 446px;
+      background-size: 40%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: center 359px;
+        background-size: 50%;
+      }
+
+      h2 {
+        color: #333;
+        font: 28px gotham_light;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      div {
+        float: left;
+        width: 320px;
+
+        @include apply-to(more-than, desktop) {
+          width: 340px;
+        }
+
+        &:first-child {
+          margin-right: 40px;
+
+          @include apply-to(more-than, desktop) {
+            margin-right: 160px;
+          }
+        }
+
+        &:last-child {
+          text-align: right;
+        }
+      }
     }
   }
 

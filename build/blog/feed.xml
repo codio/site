@@ -20,7 +20,9 @@
     </author>
     <summary type="html">&lt;p&gt;Short and sweet...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/padolsey/operative"&gt;Operative&lt;/a&gt; is a small JS utility for seamlessly creating Web Worker scripts.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://zachholman.com/talk/more-git-and-github-secrets/"&gt;More Git and Github secrets&lt;/a&gt; from Zach Holman.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;An old one, but this &lt;a href="http://chrisawren.com/posts/Advanced-Grunt-tooling"&gt;post on advanced Grunt tooling&lt;/a&gt; is a must read if you use Grunt - which of course you...&lt;/p&gt;&lt;/li&gt;
@@ -52,7 +54,11 @@
     </author>
     <summary type="html">&lt;p&gt;I know, I know... I didn't do one yesterday. No matter, coz' this one's a good one!&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Nifty little tool to encourage you to &lt;a href="http://embedresponsively.com/"&gt;Embed Responsibly&lt;/a&gt;. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the &lt;strong&gt;HTML5 friendly...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Nifty little tool to encourage you to &lt;a href="http://embedresponsively.com/"&gt;Embed Responsibly&lt;/a&gt;. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the &lt;strong&gt;HTML5 friendly...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;I know, I know... I didn&amp;#39;t do one yesterday. No matter, coz&amp;#39; this one&amp;#39;s a good one!&lt;/p&gt;
 
 &lt;hr&gt;
@@ -85,9 +91,11 @@
     </author>
     <summary type="html">&lt;p&gt;I neglected to post on Friday, so today is a bumper double issue thingy...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Need to &lt;strong&gt;track and report on your Javascript exceptions&lt;/strong&gt;? You won't get better than &lt;a href="http://errorception.com/"&gt;Errorception&lt;/a&gt;, which we use ourselves.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Like JSHint? Then you should love &lt;a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/"&gt;ESHint&lt;/a&gt;, which is a...&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Like JSHint? Then you should love &lt;a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/"&gt;ESHint&lt;/a&gt;, which is...&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;I neglected to post on Friday, so today is a bumper double issue thingy...&lt;/p&gt;
 
@@ -121,9 +129,11 @@
     </author>
     <summary type="html">&lt;p&gt;Here's today's juicy bundle of links...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they've been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;While researching ways to improve Codio's own internal &lt;strong&gt;Javascript routing&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;While researching ways to improve Codio's own internal &lt;strong&gt;Javascript...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;Here&amp;#39;s today&amp;#39;s juicy bundle of links...&lt;/p&gt;
 
@@ -154,7 +164,9 @@
     </author>
     <summary type="html">&lt;p&gt;A little quiet today...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Lovely little &lt;a href="https://github.com/sindresorhus/log-globals"&gt;bookmarklet or DevTools snippet&lt;/a&gt; for Chrome that &lt;strong&gt;logs your global Javascript variables to the console&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
@@ -185,7 +197,9 @@
     </author>
     <summary type="html">&lt;p&gt;Almost forgot today...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A great selection of &lt;strong&gt;&lt;a href="http://odiseo.net/javascript/front-end-optimizations-you-can-do-right-now-on-your-existing-code"&gt;front-end optimisations you can start doing right now&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Not sure why we would want &lt;strong&gt;yet another Javascript framework&lt;/strong&gt;, but &lt;a href="http://minifiedjs.com/"&gt;Minified&lt;/a&gt; is less than 4kb in size, so at least it lives up to its name.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Oh and look...&lt;/p&gt;&lt;/li&gt;

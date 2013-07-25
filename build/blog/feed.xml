@@ -5,10 +5,143 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-16T00:00:00Z</updated>
+  <updated>2013-07-24T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #11</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-11/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-11/</id>
+    <published>2013-07-24T00:00:00Z</published>
+    <updated>2013-07-24T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;I know, I know... I didn't do one yesterday. No matter, coz' this one's a good one!&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Nifty little tool to encourage you to &lt;a href="http://embedresponsively.com/"&gt;Embed Responsibly&lt;/a&gt;. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the &lt;strong&gt;HTML5 friendly...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;I know, I know... I didn&amp;#39;t do one yesterday. No matter, coz&amp;#39; this one&amp;#39;s a good one!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Nifty little tool to encourage you to &lt;a href="http://embedresponsively.com/"&gt;Embed Responsibly&lt;/a&gt;. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the &lt;strong&gt;HTML5 friendly, embeddable code&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://bower.io/"&gt;Bower&lt;/a&gt; hits a final 1.0 release&lt;/strong&gt;, so go check out the &lt;a href="https://github.com/bower/bower/blob/master/CHANGELOG.md"&gt;changelog&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Moving fast doesn&amp;#39;t always work out quite so well, and this &lt;a href="http://kenneth.io/blog/2013/07/15/the-messy-state-of-web-notifications-in-chrome-safari-blink-webkit/"&gt;article&lt;/a&gt; about the the &lt;strong&gt;messy state of Web Notifications in Blink and Webkit&lt;/strong&gt; demonstrates this.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I &lt;a href="https://twitter.com/joelmoss/status/359813361749327872"&gt;tweeted&lt;/a&gt; this one yesterday because I was quite excited about it. &lt;strong&gt;&lt;a href="http://getuikit.com/"&gt;UIKit&lt;/a&gt; is another Bootstrap style front-end framework&lt;/strong&gt;. I know, but hear me out on this one. It&amp;#39;s actually pretty good, and very modular. So you can really pick and choose what you want to use. It&amp;#39;s pretty comprehensive too.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In keeping with the above, InsertHTML posted an &lt;strong&gt;interested &lt;a href="http://www.inserthtml.com/2013/07/bootstraps-and-web-kits-enemy-or-efficient/"&gt;write up&lt;/a&gt; on the various front-end frameworks available&lt;/strong&gt;. Are they friend or foe?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/jsoverson/plato"&gt;Plato&lt;/a&gt; is a Node library that will &lt;strong&gt;scan your Javascript source code and provide a bunch of reports that visualize its complexity&lt;/strong&gt;. We ran it against the Codio source, and were pleasantly surprised.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Want multiple inheritance in Javascript?&lt;/strong&gt; &lt;a href="http://ringjs.neoname.eu/"&gt;Ring.js&lt;/a&gt; may just be what you&amp;#39;re looking for.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Alex Maccaw posted a &lt;a href="http://blog.alexmaccaw.com/seo-in-js-web-apps"&gt;succinct article&lt;/a&gt; all about &lt;strong&gt;SEO in Javascript web apps&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;And finally... &lt;strong&gt;remember Firebug Lite?&lt;/strong&gt; &lt;a href="http://gal.steinitz.com/blog/2013/07/19/remember-firebug-lite/"&gt;Gal Steinitz wants to resurrect it&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #10</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-10/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-10/</id>
+    <published>2013-07-22T00:00:00Z</published>
+    <updated>2013-07-22T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;I neglected to post on Friday, so today is a bumper double issue thingy...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Need to &lt;strong&gt;track and report on your Javascript exceptions&lt;/strong&gt;? You won't get better than &lt;a href="http://errorception.com/"&gt;Errorception&lt;/a&gt;, which we use ourselves.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Like JSHint? Then you should love &lt;a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/"&gt;ESHint&lt;/a&gt;, which is a...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;I neglected to post on Friday, so today is a bumper double issue thingy...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Need to &lt;strong&gt;track and report on your Javascript exceptions&lt;/strong&gt;? You won&amp;#39;t get better than &lt;a href="http://errorception.com/"&gt;Errorception&lt;/a&gt;, which we use ourselves.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Like JSHint? Then you should love &lt;a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/"&gt;ESHint&lt;/a&gt;, which is a &lt;strong&gt;linting tool where all rules are pluggable&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Need to &lt;strong&gt;expand and collapse blocks of text&lt;/strong&gt; with a link? Check out &lt;a href="http://jedfoster.github.io/Readmore.js/"&gt;ReadMore.js&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Oh look! &lt;strong&gt;Another &amp;quot;Bootstrap wannabe&amp;quot; CSS framework&lt;/strong&gt;, this time called &lt;a href="http://cardinalcss.com/"&gt;Cardinal&lt;/a&gt;, which apparently is small and mobile first.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://abe33.github.io/spectacular/"&gt;Spectacular&lt;/a&gt; is a good looking &lt;strong&gt;&lt;a href="http://rspec.info/"&gt;RSpec&lt;/a&gt; inspired BDD framework&lt;/strong&gt; for Javascript and CoffeeScript.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Need to run &lt;strong&gt;A/B tests&lt;/strong&gt;? &lt;a href="http://srom.github.io/easyAB/"&gt;easyAB&lt;/a&gt; is a jQuery/Zepto plugin may be just want you need.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Give users &lt;strong&gt;real time hints and progress updates as they complete your forms&lt;/strong&gt; with &lt;a href="http://git.aaronlumsden.com/progression/"&gt;Progression.js&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;WebRTC is one of the most technically advanced offerings to become built right into the browser. &lt;strong&gt;&lt;a href="http://git.aaronlumsden.com/progression/"&gt;simpleWebRTC&lt;/a&gt; might just make it a little easier&lt;/strong&gt; to implement.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Great article &lt;strong&gt;&lt;a href="http://www.2ality.com/2013/07/defending-constructors.html"&gt;In defence of Javascript&amp;#39;s Constructors&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #9</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-9/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-9/</id>
+    <published>2013-07-18T00:00:00Z</published>
+    <updated>2013-07-18T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Here's today's juicy bundle of links...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they've been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;While researching ways to improve Codio's own internal &lt;strong&gt;Javascript routing&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Here&amp;#39;s today&amp;#39;s juicy bundle of links...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they&amp;#39;ve been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;While researching ways to improve Codio&amp;#39;s own internal &lt;strong&gt;Javascript routing&lt;/strong&gt; system, I came across &lt;a href="https://github.com/tildeio/router.js"&gt;Router.js&lt;/a&gt;, which is the router that &lt;a href="http://emberjs.com/"&gt;EmberJS&lt;/a&gt; uses. It&amp;#39;s a very thorough implementation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lots of talk around &lt;strong&gt;ES6&lt;/strong&gt;, the next version of EcmaScript (Javascript), but this &lt;a href="http://www.slideshare.net/domenicdenicola/es6-the-awesome-parts"&gt;slideshow&lt;/a&gt; talks about &lt;strong&gt;the awesome parts&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/sindresorhus/screenfull.js"&gt;screenfull.js&lt;/a&gt; is a tiny wrapper for &lt;strong&gt;cross-browser usage of the Javascript fullscreen API&lt;/strong&gt;, which lets you bring the page or any element into fullscreen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://the-taylors.org/blog/2013/07/01/how-will-i-keep-javascript-code-quality-hight-jshint/"&gt;Nice post&lt;/a&gt; by our friend Dave Taylor on the awesomeness that is &lt;strong&gt;JSHint&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://bunkat.github.io/later/"&gt;Later.js&lt;/a&gt; claims to be the &lt;strong&gt;simplest way to work with recurring schedules&lt;/strong&gt;. If you&amp;#39;re only talking about Javascript, then they&amp;#39;re probably right.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #8</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-8/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-8/</id>
+    <published>2013-07-17T00:00:00Z</published>
+    <updated>2013-07-17T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;A little quiet today...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Lovely little &lt;a href="https://github.com/sindresorhus/log-globals"&gt;bookmarklet or DevTools snippet&lt;/a&gt; for Chrome that &lt;strong&gt;logs your global Javascript variables to the console&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;A little quiet today...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Lovely little &lt;a href="https://github.com/sindresorhus/log-globals"&gt;bookmarklet or DevTools snippet&lt;/a&gt; for Chrome that &lt;strong&gt;logs your global Javascript variables to the console&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated gif&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://etiennetalbot.github.io/responsImg"&gt;responseImg&lt;/a&gt; is a jQuery plugin that &lt;strong&gt;turns your &lt;code&gt;img&lt;/code&gt; tags into responsive images with retina alternatives&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Really love these &lt;strong&gt;&lt;a href="http://tympanus.net/Development/AnimatedBooks/index.html"&gt;CSS3 animated books&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #7</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-7/"/>
@@ -69,134 +202,6 @@
 &lt;li&gt;&lt;p&gt;If you like the life-saving PhantomJS, then you&amp;#39;ll love &lt;a href="https://github.com/Huddle/PhantomCSS"&gt;PhantomCSS&lt;/a&gt;, which is &amp;quot;An integration of Resemble.js with PhantomJS and CasperJS for &lt;strong&gt;automating visual regression testing of Website styling&lt;/strong&gt; to support refactoring of CSS&amp;quot;. A mouthful, but still pretty cool.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;It&amp;#39;s amazing how extremely useful &lt;strong&gt;Chrome&amp;#39;s Dev Tools&lt;/strong&gt; have become. This &lt;a href="http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/"&gt;post on HTML5 Rocks&lt;/a&gt;, recaps the latest and greatest, including &lt;strong&gt;Workspaces, SASS debugging, Flame Charts and remote debugging&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Building in Open Source? If so, you should check out &lt;a href="http://choosealicense.com/"&gt;ChooseALicense.com&lt;/a&gt;; a new site from the Github guys, which &lt;strong&gt;helps you decide which OSS license to use&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #5</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-5/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-5/</id>
-    <published>2013-07-12T00:00:00Z</published>
-    <updated>2013-07-12T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;And here endeth our final day of the week, and the fifth issue...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Been working with Media Queries for the redesign of this site, and came across a need to &lt;strong&gt;react to media queries in Javascript&lt;/strong&gt;. Unfortunately that's not possible, because it's only CSS...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;And here endeth our final day of the week, and the fifth issue...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Been working with Media Queries for the redesign of this site, and came across a need to &lt;strong&gt;react to media queries in Javascript&lt;/strong&gt;. Unfortunately that&amp;#39;s not possible, because it&amp;#39;s only CSS. I found &lt;a href="http://wicky.nillia.ms/enquire.js/"&gt;enquire.js&lt;/a&gt; does exactly that. Bonus!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A little gem of an &lt;a href="http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices"&gt;article&lt;/a&gt; for running &lt;strong&gt;synchronised testing between browsers/devices&lt;/strong&gt; using Grunt.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/WebReflection/eddy"&gt;Eddy is a nifty little Javascript Event library&lt;/a&gt;&lt;/strong&gt; that gives the familiar &lt;code&gt;on&lt;/code&gt;, and &lt;code&gt;off&lt;/code&gt; methods but on any and every Object.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Chrome Developer Tools just keep getting better and better. In the latest &lt;a href="https://www.google.com/intl/en/chrome/browser/canary.html"&gt;Chrome Canary&lt;/a&gt;, you&amp;#39;ll find a awesome feature called &lt;a href="https://developers.google.com/chrome-developer-tools/docs/authoring-development-workflow#snippets"&gt;Snippets&lt;/a&gt;, which let you &lt;strong&gt;save and reuse small bits of code within the console&lt;/strong&gt;. Kind of like the &lt;a href="https://codio.com/s/docs/ide/emmet/snippets/"&gt;Snippets&lt;/a&gt; that we have available in Codio, but not awesome!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://jnuno.com/tree-model-js/"&gt;TreeModel&lt;/a&gt; A very intuitive Javascript library for &lt;strong&gt;manipulating and traversing tree-like structures&lt;/strong&gt;. It has some great demo&amp;#39;s on its &lt;a href="http://jnuno.com/tree-model-js/"&gt;site&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;An oldie, but a goodie... &lt;a href="http://bradfrost.github.io/this-is-responsive/"&gt;This is Responsive&lt;/a&gt; is a site full of &lt;strong&gt;patterns, resources and new for creating responsive web experiences&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;And finally, a nice little &lt;a href="http://blog.alexmaccaw.com/queuing-ajax-requests"&gt;nugget&lt;/a&gt; for &lt;strong&gt;queuing your Ajax requests&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #4</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-4/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-4/</id>
-    <published>2013-07-11T00:00:00Z</published>
-    <updated>2013-07-11T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Goodie, goodie, goodie...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The ever popular &lt;strong&gt;&lt;a href="http://bower.io"&gt;Bower&lt;/a&gt; just hit 1.0.0 Alpha&lt;/strong&gt;. In fact, it released four alphas in the last 24 hours ago! &lt;a href="https://github.com/bower/bower/wiki/Rewrite-state"&gt;Here's a summary of what's new&lt;/a&gt; including details of the rewriting efforts.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Here's a &lt;strong&gt;fun and useful list of &lt;a href="http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Goodie, goodie, goodie...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The ever popular &lt;strong&gt;&lt;a href="http://bower.io"&gt;Bower&lt;/a&gt; just hit 1.0.0 Alpha&lt;/strong&gt;. In fact, it released four alphas in the last 24 hours ago! &lt;a href="https://github.com/bower/bower/wiki/Rewrite-state"&gt;Here&amp;#39;s a summary of what&amp;#39;s new&lt;/a&gt; including details of the rewriting efforts.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Here&amp;#39;s a &lt;strong&gt;fun and useful list of &lt;a href="http://blog.quickpeople.co.uk/2013/07/10/useful-github-patterns/"&gt;Github patterns&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Another great article from &lt;a href="http://davidwalsh.name"&gt;David Walsh&lt;/a&gt;, this time about &lt;strong&gt;&lt;a href="http://davidwalsh.name/keyboard-shortcuts"&gt;creating keyboard shortcuts&lt;/a&gt;&lt;/strong&gt; with the open source &lt;a href="http://craig.is/killing/mice"&gt;Mousetrap&lt;/a&gt; Javascript library.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Instagram are making further steps into the browser by introducing &lt;strong&gt;&lt;a href="http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds"&gt;Instagram Web Embeds&lt;/a&gt;&lt;/strong&gt;, which is simply an easy way to embed Instagram photos onto web pages. Kinda&amp;#39; funny that they used images in &lt;a href="http://blog.instagram.com/post/55095847329/introducing-instagram-web-embeds"&gt;their post&lt;/a&gt; to demo this.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Media queries are awesome! Media Queries are also easy to forget&lt;/strong&gt;. &lt;a href="http://atmedia.info/"&gt;@Media.info&lt;/a&gt; helps a little by showing you the media query code for the device you are looking at their site with.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #3</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-3/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-3/</id>
-    <published>2013-07-10T00:00:00Z</published>
-    <updated>2013-07-10T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Enjoy issue #3...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.dropbox.com"&gt;Dropbox&lt;/a&gt; released their &lt;a href="https://www.dropbox.com/developers/datastore"&gt;Datastore API&lt;/a&gt; yesterday&lt;/strong&gt;. I think this has huge potential and really opens the door even wider for developers to build on top of Dropbox. Dropbox is becoming more like a platform for developers.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://googlechromereleases.blogspot.co.uk/2013/07/stable-channel-update.html"&gt;Chrome 28&lt;/a&gt; is...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Enjoy issue #3...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.dropbox.com"&gt;Dropbox&lt;/a&gt; released their &lt;a href="https://www.dropbox.com/developers/datastore"&gt;Datastore API&lt;/a&gt; yesterday&lt;/strong&gt;. I think this has huge potential and really opens the door even wider for developers to build on top of Dropbox. Dropbox is becoming more like a platform for developers.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://googlechromereleases.blogspot.co.uk/2013/07/stable-channel-update.html"&gt;Chrome 28&lt;/a&gt; is out!&lt;/strong&gt; This is the first version of Chrome that ships with Blink; Google&amp;#39;s fork of Webkit.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://medium.com/what-i-learned-building/b4daab987fb0"&gt;Nice article&lt;/a&gt; on how to &lt;strong&gt;get started with CSS source maps and in-browser SASS editing&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Need quick, easy and fast site search? Check out &lt;a href="https://swiftype.com/"&gt;Swiftype&lt;/a&gt;&lt;/strong&gt;. Nice to see that Google haven&amp;#39;t knocked all the little guys out the park.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://pouchdb.com/"&gt;PouchDB&lt;/a&gt; is a tiny little database based on, and compatible with CouchDB&lt;/strong&gt;. It&amp;#39;s a Javascript library, so runs in the browser, but what interests me is that it can sync data with any CouchDB server, and you can even sync between two PouchDB databases!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Want to know more about &lt;strong&gt;Web Workers and concurrency in Javascript&lt;/strong&gt;? Well &lt;a href="http://typedarray.org/concurrency-in-javascript/"&gt;this detailed article&lt;/a&gt; by TypedArray is required reading.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #2</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-2/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-2/</id>
-    <published>2013-07-09T00:00:00Z</published>
-    <updated>2013-07-09T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Issue #2 baby!&lt;/strong&gt; Some real juicy ones today...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://dunxrion.github.io/voyeur.js/"&gt;Voyeur.JS&lt;/a&gt;&lt;/strong&gt; is an extremely nice library that lets you traverse the DOM like you would any Javascript object. For example &lt;code&gt;Voyeur.div&lt;/code&gt; finds the divs in your HTML, and &lt;code&gt;Voyeur.div.section&lt;/code&gt; finds the sections...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Issue #2 baby!&lt;/strong&gt; Some real juicy ones today...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://dunxrion.github.io/voyeur.js/"&gt;Voyeur.JS&lt;/a&gt;&lt;/strong&gt; is an extremely nice library that lets you traverse the DOM like you would any Javascript object. For example &lt;code&gt;Voyeur.div&lt;/code&gt; finds the divs in your HTML, and &lt;code&gt;Voyeur.div.section&lt;/code&gt; finds the sections in your divs.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lots of buzz surrounding FirefoxOS recently, although I&amp;#39;m not convinced they can do any better than Android. But what I do like is that everything is HTML, Javascript and CSS, which makes it extremely accessible to every developer. The &lt;strong&gt;&lt;a href="http://buildingfirefoxos.com/"&gt;Building Firefox OS&lt;/a&gt;&lt;/strong&gt; site is great place to find out more and get started.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/Peer5/ShareFest"&gt;ShareFest&lt;/a&gt;&lt;/strong&gt; is a web based P2P file sharing library built in NodeJS and on top of WebRTC. Basically means you can replace Dropbox with your own P2P file storage solution.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Another CoffeeScript pretender, but this time with a better name; &lt;strong&gt;&lt;a href="http://ckknight.github.io/gorillascript/"&gt;GorillaScript&lt;/a&gt;&lt;/strong&gt; s similar to CoffeeScript in that it is trying to &lt;em&gt;fix&lt;/em&gt; Javascript, but seems to be concentrating on preventing common errors often encountered with Javascript.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href="http://jsx.github.io/"&gt;JSX&lt;/a&gt;&lt;/strong&gt; claims to be a &amp;quot;&lt;em&gt;a faster, safer, easier JavaScript&lt;/em&gt;&amp;quot;, but looks like it&amp;#39;s trying to be too Java like. I like it&amp;#39;s aims though.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I use the excellent &lt;a href="http://kapeli.com/dash"&gt;Dash&lt;/a&gt; for browsing and searching the docs for almost any framework and library you can imagine. &lt;strong&gt;&lt;a href="http://devdocs.io/"&gt;DevDocs&lt;/a&gt;&lt;/strong&gt; is similar, but web based, which I really like the idea of. It&amp;#39;s faily new so it has a limited set of docs right now, so I hope to see these grow to Dash&amp;#39;s proportions.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Stumbled upon &lt;strong&gt;&lt;a href="https://balloon.io/"&gt;Balloon&lt;/a&gt;&lt;/strong&gt; yesterday and really like their implementation of web site contact forms.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;And finally, I came across this &lt;a href="http://stackoverflow.com/questions/17527870/how-does-trello-access-the-users-clipboard/17528590#17528590"&gt;StackOverflow post&lt;/a&gt; asking how &lt;a href="https://trello.com/"&gt;Trello&lt;/a&gt; magically allow you to &lt;strong&gt;copy the URL of a card just by pressing &lt;code&gt;Ctrl-C&lt;/code&gt;&lt;/strong&gt;, and all without any Flash. The answer, by Trello employee Daniel LeCheminant, is so simple it makes you feel stupid that you didn&amp;#39;t think of it.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

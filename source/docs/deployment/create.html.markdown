@@ -20,10 +20,9 @@ In the Deployment Targets dialog, you can:
 Each target requires you to specify the **Source**. This allows you to specify which part of your project should be deployed. You have the following options:
 
 - **Whole project**: the entire contents of your project.
-- **App**: a specific app within your project.
 - **Directory**: a specific directory.
 
-This allows you to define multiple targets for each deployment which can then be deployed to with a single button press.
+This allows you to define multiple sources and targets for each deployment which can then be deployed to with a single button press.
 
 ##Destination
 The Destination drop down specifies the type of the target you are deploying to. Currently we support the following destinations (click on each one to find out about its associated parameters)
@@ -31,17 +30,18 @@ The Destination drop down specifies the type of the target you are deploying to.
 - [Codio](/docs/deployment/type-codio/)
 - [FTP](/docs/deployment/type-ftp/)
 - [SFTP](/docs/deployment/type-sftp/)
+- [Nodejitsu](/docs/deployment/type-nj/)
 - [Parse.com](/docs/deployment/type-parse/)
 
 ## Codio targets and URL's
-When you create a Codio target type, the URL of your deployed app will depend on the Source location you specified:
+When you create a Codio target type, the URL of your deployed app will be
 
-- **Whole project**: `http://username.cod.io/projectname/app/` (assuming you have an app called `app`).
-- **App...**: `http://username.cod.io/projectname/` (the app is not mentioned)
+- `http://username.cod.io/projectname`
+
+If you selected a folder as the source location, then that folder will become the root folder once deployed.
+
 
 Once you have successfully deployed, the actual URL is shown in the popup dialog that appears when you click the Deploy link in the top bar.
 
 There is also a button in the main Deployment Targets dialog that when clicked on, will launch the app at the target. This assumes that there is an index.html file present. If you have several app folders, then the URL suggested by Codio will be the first app folder and will assume the presence of an index.html. If you get a 404 error then you will need to locate the correct file yourself.
 
-##Development, Staging, Production etc.
-Another benefit of this approach is that you can define different targets for staging and production deployments. For development purposes, you can simply press Preview and the App will be available, so you don't need to set up a specific deployment target.

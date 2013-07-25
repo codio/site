@@ -9,11 +9,12 @@ Codio lets you deploy all or any part of your project with a single click to a c
 - [Codio](/docs/deployment/type-codio/) (will require a paid plan once we are out of beta)
 - [FTP](/docs/deployment/type-ftp/)
 - [SFTP](/docs/deployment/type-sftp/)
+- [Nodejitsu](/docs/deployment/type-nj/)
 - [Parse.com](/docs/deployment/type-parse/)
 
 We will also be adding the following target types shortly:
 
-- Nodejitsu (coming very soon)
+- rsync to any remote box (great for Node, Ruby or other back-end stuff)
 - Heroku
 - more by popular request
 

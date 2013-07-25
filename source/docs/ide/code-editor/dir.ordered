@@ -9,3 +9,4 @@ ide-invisibles
 ide-highlight-active
 ide-indent-guides
 ide-force-lang
+ide-beautify

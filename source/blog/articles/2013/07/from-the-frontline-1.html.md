@@ -1,5 +1,5 @@
 ---
-title: 'From the Front-line - Issue #1'
+title: 'From the Front-line - #1'
 author: Joel Moss
 tags: animations, topcoat, jQuery, EmberJS
 date: 2013-07-08

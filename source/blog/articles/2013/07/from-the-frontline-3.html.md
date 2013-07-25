@@ -1,7 +1,7 @@
 ---
-title: 'From the Front-line - Issue #3'
+title: 'From the Front-line - #3'
 author: Joel Moss
-tags: firefox, stackoverflow, coffeescript, Trello
+tags: Dropbox, Chrome, PouchDB, Trello, Javascript
 date: 2013-07-10
 class_name: blog
 full_width: true
@@ -18,7 +18,7 @@ Enjoy issue #3...
  - [Nice article](https://medium.com/what-i-learned-building/b4daab987fb0) on how to **get started with CSS source maps and in-browser SASS editing**.
 
  - **Need quick, easy and fast site search? Check out [Swiftype](https://swiftype.com/)**. Nice to see that Google haven't knocked all the little guys out the park.
- 
+
  - **[PouchDB](http://pouchdb.com/) is a tiny little database based on, and compatible with CouchDB**. It's a Javascript library, so runs in the browser, but what interests me is that it can sync data with any CouchDB server, and you can even sync between two PouchDB databases!
 
  - Want to know more about **Web Workers and concurrency in Javascript**? Well [this detailed article](http://typedarray.org/concurrency-in-javascript/) by TypedArray is required reading.

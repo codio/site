@@ -6,32 +6,42 @@ class DocSearch
 
   form: $('.docs aside form')
 
+  urlRegExp: new RegExp(/^.*\/\/[^\/]+/)
+
   constructor: ->
     do @init_events
 
 
   init_events: ->
     @form.on 'submit', =>
-      @perform_search @form.find('input').val()
+      input = @form.find('input')
+      input.data 'val' , input.val()
+      @perform_search input.val()
       false
 
     @results.on 'click', 'a', ->
       expandTreeWithPath $(this).attr('href')
 
     @form.find('input').keydown (e) =>
+      input = @form.find('input')
       key = e.keyCode
       listItems = @results.find 'li'
-      return if !@results.is ':visible'
-      return if key isnt 40 and key isnt 38 and key isnt 13
+      selected = listItems.filter '.selected'
+
+      return if !@results.is(':visible')
+
+      if key is 13 and selected.length
+        return if input.val() != input.data 'val'
+        e.preventDefault()
+        window.location.href = selected.find('a').attr('href')
+
+      return if key isnt 40 and key isnt 38
 
       e.preventDefault()
-      selected = listItems.filter '.selected'
       current = undefined
       listItems.removeClass 'selected'
 
-      if key is 13 and selected.length
-        expandTreeWithPath(selected.find('a').attr('href'))
-      else if key is 40 # Down key
+      if key is 40 # Down key
         if not selected.length or selected.is(':last-child')
           current = listItems.eq(0)
         else
@@ -42,8 +52,7 @@ class DocSearch
         else
           current = selected.prev()
 
-      if key is 40 or key is 38
-        current.addClass 'selected'
+      current.addClass 'selected'
 
 
   perform_search: (term) ->
@@ -69,8 +78,8 @@ class DocSearch
             # Build and show the results
             for page in data.records.page
               title =  if page.highlight.title then page.highlight.title else "#{page.title}<small>#{page.highlight.sections}</small>"
-              url = page.url.replace(window.location.origin, '')
-              @results.append("<li><a href='#{page.url}'>#{title}</a></li>")
+              url = page.url.replace(@urlRegExp, '')
+              @results.append("<li><a href='#{url}'>#{title}</a></li>")
 
     else
       @results.html "<li><span>Should be #{@minimum_length} characters or more.</span></li>"

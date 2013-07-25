@@ -4,18 +4,46 @@ class DocSearch
 
   results: $('#search-content')
 
+  form: $('.docs aside form')
 
   constructor: ->
     do @init_events
 
 
   init_events: ->
-    $('.docs aside form').on 'submit', =>
-      @perform_search $('.docs aside form input').val()
+    @form.on 'submit', =>
+      @perform_search @form.find('input').val()
       false
 
     @results.on 'click', 'a', ->
       expandTreeWithPath $(this).attr('href')
+
+    @form.find('input').keydown (e) =>
+      key = e.keyCode
+      listItems = @results.find 'li'
+      return if !@results.is ':visible'
+      return if key isnt 40 and key isnt 38 and key isnt 13
+
+      e.preventDefault()
+      selected = listItems.filter '.selected'
+      current = undefined
+      listItems.removeClass 'selected'
+
+      if key is 13 and selected.length
+        expandTreeWithPath(selected.find('a').attr('href'))
+      else if key is 40 # Down key
+        if not selected.length or selected.is(':last-child')
+          current = listItems.eq(0)
+        else
+          current = selected.next()
+      else if key is 38 # Up key
+        if not selected.length or selected.is(':first-child')
+          current = listItems.last()
+        else
+          current = selected.prev()
+
+      if key is 40 or key is 38
+        current.addClass 'selected'
 
 
   perform_search: (term) ->

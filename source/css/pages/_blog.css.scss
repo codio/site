@@ -8,7 +8,9 @@ body.blog {
     margin: 0 0 40px;
 
     &:last-child {
-      margin: 70px 0 0 0;
+      margin: 60px 0 0 0;
+      border-top: 2px solid #eee;
+      padding-top: 15px;
     }
 
     > div {
@@ -37,15 +39,7 @@ body.blog {
       margin: 0 auto;
       display: table;
 
-      @include apply-to(less-than, iphone-landscape) {
-        margin: 0 20px;
-      }
-
       > div {
-        @include apply-to(more-than, ipad-landscape) {
-          margin-left: 170px;
-        }
-
         h1 {
           color: $cream;
           font: 30px gotham_thin;
@@ -72,10 +66,6 @@ body.blog {
     float: left;
     margin: 10px 0 0 25px;
     width: 210px;
-
-    @include apply-to(less-than, ipad-portrait) {
-      display: none;
-    }
 
     .all-posts {
       margin: 50px 0 62px 38px;
@@ -112,22 +102,15 @@ body.blog {
   .posts {
     margin-top: 30px;
     float: left;
-
-    @include apply-to(more-than, ipad-portrait) {
-      width: 740px;
-    }
+    width: 740px;
 
     &.all {
       margin: 30px 0 50px;
 
       h2 {
         border-bottom: 1px solid #CCC;
-        margin: 0.83em 20px 30px;
-
-        @include apply-to(more-than, ipad-portrait) {
-          padding-left: 169px;
-          margin: 0.83em 0 30px;
-        }
+        padding-left: 169px;
+        margin: 0.83em 0 30px;
 
         a {
           color: #3e3e3e;
@@ -153,10 +136,7 @@ body.blog {
             border-bottom: none;
             font-size: inherit;
             margin: 0;
-
-            @include apply-to(more-than, ipad-portrait) {
-              text-align: right;
-            }
+            text-align: right;
 
             span.author {
               display: block;
@@ -179,9 +159,7 @@ body.blog {
     }
 
     > article {
-      margin: 20px 20px 60px;
-      border-bottom: 3px solid #ccc;
-      padding-bottom: 15px;
+      margin: 20px 0 105px;
 
       img:not(.fancybox-image) {
         vertical-align: middle;
@@ -279,20 +257,12 @@ body.blog {
 
         p.comments {
           font-size: 14px;
-
-          @include apply-to(less-than, ipad-portrait) {
-            display: none;
-          }
         }
       }
 
       h1 {
         font: 28px gotham_book;
         margin-bottom: 5px;
-
-        @include apply-to(less-than, ipad-portrait) {
-          text-align: center;
-        }
       }
 
       h2 {

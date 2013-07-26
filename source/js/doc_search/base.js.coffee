@@ -52,6 +52,8 @@ class DocSearch
         else
           current = selected.prev()
 
+      @results.scrollTop(current[0].offsetTop);
+
       current.addClass 'selected'
 
 
@@ -62,7 +64,7 @@ class DocSearch
       @results.html "<li><span>Loading...</span></li>"
 
       $.ajax({
-        url: 'https://api.swiftype.com/api/v1/public/engines/suggest.json',
+        url: 'https://api.swiftype.com/api/v1/public/engines/search.json',
         data: {
           q: term,
           engine_key: '9ss2uGXz9XP6kyd6y6CN'
@@ -77,7 +79,12 @@ class DocSearch
 
             # Build and show the results
             for page in data.records.page
-              title =  if page.highlight.title then page.highlight.title else "#{page.title}<small>#{page.highlight.sections}</small>"
+              if page.highlight.title
+                title =  page.highlight.title
+              else if page.highlight.sections
+                title = "#{page.title}<small>#{page.highlight.sections}</small>"
+              else
+                title = "#{page.title}<small>#{page.highlight.body}</small>"
               url = page.url.replace(@urlRegExp, '')
               @results.append("<li><a href='#{url}'>#{title}</a></li>")
 

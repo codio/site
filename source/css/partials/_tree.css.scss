@@ -99,7 +99,8 @@ aside {
       font-weight: normal;
       line-height: 20px;
       color: #333;
-      white-space: nowrap;
+      //white-space: nowrap;
+      max-width: 265px;
     }
 
     a {

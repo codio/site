@@ -17,7 +17,7 @@ Lovin' it...
 
  - Now this is freakin' awesome! In fact, they are [Awesome devices built in HTML and CSS](http://labs.jaredhardy.com/minimal-devices/). No images to see here.
 
- - [Bone.io](Bone.io is a lightweight framework for building high performance Realtime Single Page HTML5 Apps) is a lightweight framework for building high performance Realtime Single Page HTML5 Apps. I think we may have heard that one before, but this one seems to centred around WebSockets instead of traditional Ajax.
+ - [Bone.io](http://bone.io/) is a lightweight framework for building high performance Realtime Single Page HTML5 Apps. I think we may have heard that one before, but this one seems to centred around WebSockets instead of traditional Ajax.
 
  - Nice [article](http://matthewlehner.net/ember-js-routing-and-views) attempting to simplify and explain Ember.js's routing and rendering.
 

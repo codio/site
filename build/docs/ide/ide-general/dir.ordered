@@ -8,6 +8,7 @@ saving
 upload
 add-file
 add-folder
+delete-folder
 add-app
 readme-md
 export

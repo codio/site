@@ -5,10 +5,44 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-24T00:00:00Z</updated>
+  <updated>2013-07-25T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #12</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-12/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-12/</id>
+    <published>2013-07-25T00:00:00Z</published>
+    <updated>2013-07-25T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Short and sweet...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/padolsey/operative"&gt;Operative&lt;/a&gt; is a small JS utility for seamlessly creating Web Worker scripts.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://zachholman.com/talk/more-git-and-github-secrets/"&gt;More Git and Github secrets&lt;/a&gt; from Zach Holman.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An old one, but this &lt;a href="http://chrisawren.com/posts/Advanced-Grunt-tooling"&gt;post on advanced Grunt tooling&lt;/a&gt; is a must read if you use Grunt - which of course you...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Short and sweet...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/padolsey/operative"&gt;Operative&lt;/a&gt; is a small JS utility for seamlessly creating Web Worker scripts.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://zachholman.com/talk/more-git-and-github-secrets/"&gt;More Git and Github secrets&lt;/a&gt; from Zach Holman.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An old one, but this &lt;a href="http://chrisawren.com/posts/Advanced-Grunt-tooling"&gt;post on advanced Grunt tooling&lt;/a&gt; is a must read if you use Grunt - which of course you doing so. Aren&amp;#39;t you!?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The guys behind &lt;a href="http://topcoat.io/"&gt;Topcoat&lt;/a&gt; have integrated the &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effeckt.css library&lt;/a&gt;. Just &lt;a href="http://topcoat.io/Topcoat-Effeckt.css/dist/buttons.html"&gt;a&lt;/a&gt; &lt;a href="http://topcoat.io/Topcoat-Effeckt.css/dist/list-scroll.html"&gt;few&lt;/a&gt; &lt;a href="http://topcoat.io/Topcoat-Effeckt.css/dist/modals.html"&gt;demos&lt;/a&gt;, but nice nonetheless.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #11</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-11/"/>
@@ -20,7 +54,11 @@
     </author>
     <summary type="html">&lt;p&gt;I know, I know... I didn't do one yesterday. No matter, coz' this one's a good one!&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Nifty little tool to encourage you to &lt;a href="http://embedresponsively.com/"&gt;Embed Responsibly&lt;/a&gt;. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the &lt;strong&gt;HTML5 friendly...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Nifty little tool to encourage you to &lt;a href="http://embedresponsively.com/"&gt;Embed Responsibly&lt;/a&gt;. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the &lt;strong&gt;HTML5 friendly...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;I know, I know... I didn&amp;#39;t do one yesterday. No matter, coz&amp;#39; this one&amp;#39;s a good one!&lt;/p&gt;
 
 &lt;hr&gt;
@@ -53,9 +91,11 @@
     </author>
     <summary type="html">&lt;p&gt;I neglected to post on Friday, so today is a bumper double issue thingy...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Need to &lt;strong&gt;track and report on your Javascript exceptions&lt;/strong&gt;? You won't get better than &lt;a href="http://errorception.com/"&gt;Errorception&lt;/a&gt;, which we use ourselves.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Like JSHint? Then you should love &lt;a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/"&gt;ESHint&lt;/a&gt;, which is a...&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Like JSHint? Then you should love &lt;a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/"&gt;ESHint&lt;/a&gt;, which is...&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;I neglected to post on Friday, so today is a bumper double issue thingy...&lt;/p&gt;
 
@@ -89,9 +129,11 @@
     </author>
     <summary type="html">&lt;p&gt;Here's today's juicy bundle of links...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they've been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;While researching ways to improve Codio's own internal &lt;strong&gt;Javascript routing&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;While researching ways to improve Codio's own internal &lt;strong&gt;Javascript...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;Here&amp;#39;s today&amp;#39;s juicy bundle of links...&lt;/p&gt;
 
@@ -122,7 +164,9 @@
     </author>
     <summary type="html">&lt;p&gt;A little quiet today...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Lovely little &lt;a href="https://github.com/sindresorhus/log-globals"&gt;bookmarklet or DevTools snippet&lt;/a&gt; for Chrome that &lt;strong&gt;logs your global Javascript variables to the console&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
@@ -153,7 +197,9 @@
     </author>
     <summary type="html">&lt;p&gt;Almost forgot today...&lt;/p&gt;
 
-&lt;hr&gt;&lt;ul&gt;
+&lt;hr&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A great selection of &lt;strong&gt;&lt;a href="http://odiseo.net/javascript/front-end-optimizations-you-can-do-right-now-on-your-existing-code"&gt;front-end optimisations you can start doing right now&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Not sure why we would want &lt;strong&gt;yet another Javascript framework&lt;/strong&gt;, but &lt;a href="http://minifiedjs.com/"&gt;Minified&lt;/a&gt; is less than 4kb in size, so at least it lives up to its name.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Oh and look...&lt;/p&gt;&lt;/li&gt;
@@ -169,39 +215,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="http://css-tricks.com/the-extend-concept/"&gt;Great article&lt;/a&gt; on CSS-Tricks about &lt;strong&gt;the extend concept&lt;/strong&gt; in the three big CSS preprocessors.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Need help with your CSS animations?&lt;/strong&gt; &lt;a href="http://jeremyckahn.github.io/stylie/"&gt;Stylie&lt;/a&gt; is a fun CSS animation tool that could save you time, and might just be what you need.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;David Walsh does it again... again - &lt;strong&gt;&lt;a href="http://davidwalsh.name/webgl-demos"&gt;9 mind blowing WebGL demos&lt;/a&gt;&lt;/strong&gt;. (the Chrome world maze is my fave!)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #6</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-6/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-6/</id>
-    <published>2013-07-15T00:00:00Z</published>
-    <updated>2013-07-15T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;A new week, another five issues...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://khan.github.io/structuredjs/"&gt;StructuredJS&lt;/a&gt; is a JS library that provides an &lt;strong&gt;interface for checking the structure of your code&lt;/strong&gt;. Written by the Khan Academy to teach coding, but I'm not so sure how useful this is elsewhere.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Writing documentation...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;A new week, another five issues...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://khan.github.io/structuredjs/"&gt;StructuredJS&lt;/a&gt; is a JS library that provides an &lt;strong&gt;interface for checking the structure of your code&lt;/strong&gt;. Written by the Khan Academy to teach coding, but I&amp;#39;m not so sure how useful this is elsewhere.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Writing documentation should be easy&lt;/strong&gt;, &lt;a href="http://daux.io/"&gt;Daux.io&lt;/a&gt; does a pretty good job of that by basing it on a simple document structure and Markdown files.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I see a lot of demos demonstrating the power of the latest JS/HTML/CSS, but this one of a &lt;strong&gt;&lt;a href="http://cssdeck.com/labs/pure-css-minion"&gt;Minion written only in HTML and CSS&lt;/a&gt;&lt;/strong&gt; is just freakin&amp;#39; awesome!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you like the life-saving PhantomJS, then you&amp;#39;ll love &lt;a href="https://github.com/Huddle/PhantomCSS"&gt;PhantomCSS&lt;/a&gt;, which is &amp;quot;An integration of Resemble.js with PhantomJS and CasperJS for &lt;strong&gt;automating visual regression testing of Website styling&lt;/strong&gt; to support refactoring of CSS&amp;quot;. A mouthful, but still pretty cool.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;It&amp;#39;s amazing how extremely useful &lt;strong&gt;Chrome&amp;#39;s Dev Tools&lt;/strong&gt; have become. This &lt;a href="http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/"&gt;post on HTML5 Rocks&lt;/a&gt;, recaps the latest and greatest, including &lt;strong&gt;Workspaces, SASS debugging, Flame Charts and remote debugging&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Building in Open Source? If so, you should check out &lt;a href="http://choosealicense.com/"&gt;ChooseALicense.com&lt;/a&gt;; a new site from the Github guys, which &lt;strong&gt;helps you decide which OSS license to use&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

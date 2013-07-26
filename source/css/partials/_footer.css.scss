@@ -8,22 +8,15 @@ footer {
   padding: 14px 0;
   text-align: center;
 
-  @include apply-to(more-than, iphone-landscape) {
-    text-align: left;
-  }
-
-  @include apply-to(more-than, ipad-portrait) {
-    padding: 24px 0;
-  }
-
   a {
     color: $cream;
   }
 
-  @include apply-to(more-than, ipad-landscape) {
-    .container > div {
+  #legalise {
+    text-align: left;
+
+    div {
       float: right;
-      margin-right: 30px;
     }
   }
 

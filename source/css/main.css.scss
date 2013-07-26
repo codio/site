@@ -124,12 +124,9 @@ img {
 // Import partials
 @import 'partials/nav';
 @import 'partials/standard';
-@import 'partials/nav-banner';
 @import 'partials/footer';
-@import 'partials/education-support';
 
 // Import pages
 @import 'pages/home';
 @import 'pages/blog';
 @import 'pages/docs';
-@import 'pages/education';

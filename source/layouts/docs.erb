@@ -27,10 +27,11 @@
       </div>
     </aside>
 
-    <article id="doc-body" data-swiftype-index='true'>
+    <article id="doc-body">
       <h1><%= current_page.data.title %></h1>
+      <div data-swiftype-index="true">
       <%= yield %>
-
+	  </div>
       <% if current_page.data.pagination %>
         <div id="pagination" class="clearfix">
           <%= link_to "&laquo; previous", "/docs/#{current_page.data.pagination.previous}", :class => "btn" if current_page.data.pagination.previous %>

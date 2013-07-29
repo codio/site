@@ -5,10 +5,42 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-25T00:00:00Z</updated>
+  <updated>2013-07-26T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #13</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-13/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-13/</id>
+    <published>2013-07-26T00:00:00Z</published>
+    <updated>2013-07-26T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Lovin' it...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/sVerbalExpressions"&gt;VerbalExpressions&lt;/a&gt; is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://mbradshawabs.github.io/ajaxreplay/"&gt;Ajax Replay&lt;/a&gt; is a great way to test your Ajax API calls by replaying your actual Ajax calls. If you know the...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Lovin&amp;#39; it...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="/sVerbalExpressions"&gt;VerbalExpressions&lt;/a&gt; is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://mbradshawabs.github.io/ajaxreplay/"&gt;Ajax Replay&lt;/a&gt; is a great way to test your Ajax API calls by replaying your actual Ajax calls. If you know the VCR Ruby Gem, this is a similar thing but for Javascript.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now this is freakin&amp;#39; awesome! In fact, they are &lt;a href="http://labs.jaredhardy.com/minimal-devices/"&gt;Awesome devices built in HTML and CSS&lt;/a&gt;. No images to see here.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://bone.io/"&gt;Bone.io&lt;/a&gt; is a lightweight framework for building high performance Realtime Single Page HTML5 Apps. I think we may have heard that one before, but this one seems to centred around WebSockets instead of traditional Ajax.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nice &lt;a href="http://matthewlehner.net/ember-js-routing-and-views"&gt;article&lt;/a&gt; attempting to simplify and explain Ember.js&amp;#39;s routing and rendering.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #12</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-12/"/>
@@ -167,40 +199,6 @@
 &lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated gif&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://etiennetalbot.github.io/responsImg"&gt;responseImg&lt;/a&gt; is a jQuery plugin that &lt;strong&gt;turns your &lt;code&gt;img&lt;/code&gt; tags into responsive images with retina alternatives&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Really love these &lt;strong&gt;&lt;a href="http://tympanus.net/Development/AnimatedBooks/index.html"&gt;CSS3 animated books&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #7</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-7/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-7/</id>
-    <published>2013-07-16T00:00:00Z</published>
-    <updated>2013-07-16T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Almost forgot today...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;A great selection of &lt;strong&gt;&lt;a href="http://odiseo.net/javascript/front-end-optimizations-you-can-do-right-now-on-your-existing-code"&gt;front-end optimisations you can start doing right now&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Not sure why we would want &lt;strong&gt;yet another Javascript framework&lt;/strong&gt;, but &lt;a href="http://minifiedjs.com/"&gt;Minified&lt;/a&gt; is less than 4kb in size, so at least it lives up to its name.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Oh and look...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Almost forgot today...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;A great selection of &lt;strong&gt;&lt;a href="http://odiseo.net/javascript/front-end-optimizations-you-can-do-right-now-on-your-existing-code"&gt;front-end optimisations you can start doing right now&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Not sure why we would want &lt;strong&gt;yet another Javascript framework&lt;/strong&gt;, but &lt;a href="http://minifiedjs.com/"&gt;Minified&lt;/a&gt; is less than 4kb in size, so at least it lives up to its name.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Oh and look... &lt;strong&gt;another new JS framework&lt;/strong&gt; called &lt;a href="https://github.com/EGreg/Q.js"&gt;Q.js&lt;/a&gt; that contains &amp;quot;a lot of useful Javascript functions&amp;quot;!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://css-tricks.com/the-extend-concept/"&gt;Great article&lt;/a&gt; on CSS-Tricks about &lt;strong&gt;the extend concept&lt;/strong&gt; in the three big CSS preprocessors.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Need help with your CSS animations?&lt;/strong&gt; &lt;a href="http://jeremyckahn.github.io/stylie/"&gt;Stylie&lt;/a&gt; is a fun CSS animation tool that could save you time, and might just be what you need.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;David Walsh does it again... again - &lt;strong&gt;&lt;a href="http://davidwalsh.name/webgl-demos"&gt;9 mind blowing WebGL demos&lt;/a&gt;&lt;/strong&gt;. (the Chrome world maze is my fave!)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

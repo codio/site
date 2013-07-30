@@ -5,10 +5,45 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-26T00:00:00Z</updated>
+  <updated>2013-07-29T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #14</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-14/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-14/</id>
+    <published>2013-07-29T00:00:00Z</published>
+    <updated>2013-07-29T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Bigger and better than evaarrrr...&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The guys at &lt;a href="http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/"&gt;MailGun just released a nifty little API to allow you to validate email&lt;/a&gt; quickly and easily. Not so sure it's actually that hard to do, and requires an API, but could be useful - maybe.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Great collection...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Bigger and better than evaarrrr...&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The guys at &lt;a href="http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/"&gt;MailGun just released a nifty little API to allow you to validate email&lt;/a&gt; quickly and easily. Not so sure it&amp;#39;s actually that hard to do, and requires an API, but could be useful - maybe.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Great collection of really useful Chrome &lt;a href="http://bgrins.github.io/devtools-snippets/"&gt;DevTools snippets&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A very detailed article on the mad world of &lt;a href="http://raganwald.com/2013/07/27/Ive-always-been-mad.html"&gt;scoping in Javascript and Coffeescript&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Need to quickly wireframe your mobile app? Check out &lt;a href="http://www.pentotype.com/"&gt;Pentotype&lt;/a&gt;, which has a great looking pencil-drawn UI.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://visionmedia.github.io/move.js/"&gt;Move.js&lt;/a&gt; is a nice little Javascript library &amp;quot;making CSS3 backed animation extremely simple and elegant&amp;quot; from the &lt;a href="https://github.com/visionmedia"&gt;genius&lt;/a&gt; that bought you Express, Jade and Mocha.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I really like the look of &lt;a href="http://jspm.io/"&gt;jspm.io&lt;/a&gt;, which is a browser based module loader that will load any module format locally or even directly from NPM or Github - nice!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://getbootstrap.com/"&gt;Bootstrap 3&lt;/a&gt; makes an early appearance with its first release candidate.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The guys at &lt;a href="https://shop.stripe.com/"&gt;Stripe have created an online store&lt;/a&gt; where you can buy Stripe branded clothing. But it&amp;#39;s the tiny UI touches on this site that are simply brilliant. Add something to the shopping basket, checkout but leave the form blank to see a great way to provide feedback on an incorrect form submission.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #13</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-13/"/>
@@ -21,7 +56,7 @@
     <summary type="html">&lt;p&gt;Lovin' it...&lt;/p&gt;
 
 &lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="/sVerbalExpressions"&gt;VerbalExpressions&lt;/a&gt; is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/jehna/VerbalExpressions"&gt;VerbalExpressions&lt;/a&gt; is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://mbradshawabs.github.io/ajaxreplay/"&gt;Ajax Replay&lt;/a&gt; is a great way to test your Ajax API calls by replaying your actual Ajax calls. If you know the...&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;Lovin&amp;#39; it...&lt;/p&gt;
@@ -29,7 +64,7 @@
 &lt;hr&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="/sVerbalExpressions"&gt;VerbalExpressions&lt;/a&gt; is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/jehna/VerbalExpressions"&gt;VerbalExpressions&lt;/a&gt; is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://mbradshawabs.github.io/ajaxreplay/"&gt;Ajax Replay&lt;/a&gt; is a great way to test your Ajax API calls by replaying your actual Ajax calls. If you know the VCR Ruby Gem, this is a similar thing but for Javascript.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Now this is freakin&amp;#39; awesome! In fact, they are &lt;a href="http://labs.jaredhardy.com/minimal-devices/"&gt;Awesome devices built in HTML and CSS&lt;/a&gt;. No images to see here.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://bone.io/"&gt;Bone.io&lt;/a&gt; is a lightweight framework for building high performance Realtime Single Page HTML5 Apps. I think we may have heard that one before, but this one seems to centred around WebSockets instead of traditional Ajax.&lt;/p&gt;&lt;/li&gt;
@@ -133,7 +168,7 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="http://abe33.github.io/spectacular/"&gt;Spectacular&lt;/a&gt; is a good looking &lt;strong&gt;&lt;a href="http://rspec.info/"&gt;RSpec&lt;/a&gt; inspired BDD framework&lt;/strong&gt; for Javascript and CoffeeScript.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Need to run &lt;strong&gt;A/B tests&lt;/strong&gt;? &lt;a href="http://srom.github.io/easyAB/"&gt;easyAB&lt;/a&gt; is a jQuery/Zepto plugin may be just want you need.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Give users &lt;strong&gt;real time hints and progress updates as they complete your forms&lt;/strong&gt; with &lt;a href="http://git.aaronlumsden.com/progression/"&gt;Progression.js&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;WebRTC is one of the most technically advanced offerings to become built right into the browser. &lt;strong&gt;&lt;a href="http://git.aaronlumsden.com/progression/"&gt;simpleWebRTC&lt;/a&gt; might just make it a little easier&lt;/strong&gt; to implement.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;WebRTC is one of the most technically advanced offerings to become built right into the browser. &lt;strong&gt;&lt;a href="http://simplewebrtc.com/"&gt;simpleWebRTC&lt;/a&gt; might just make it a little easier&lt;/strong&gt; to implement.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Great article &lt;strong&gt;&lt;a href="http://www.2ality.com/2013/07/defending-constructors.html"&gt;In defence of Javascript&amp;#39;s Constructors&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -168,37 +203,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/sindresorhus/screenfull.js"&gt;screenfull.js&lt;/a&gt; is a tiny wrapper for &lt;strong&gt;cross-browser usage of the Javascript fullscreen API&lt;/strong&gt;, which lets you bring the page or any element into fullscreen.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://the-taylors.org/blog/2013/07/01/how-will-i-keep-javascript-code-quality-hight-jshint/"&gt;Nice post&lt;/a&gt; by our friend Dave Taylor on the awesomeness that is &lt;strong&gt;JSHint&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://bunkat.github.io/later/"&gt;Later.js&lt;/a&gt; claims to be the &lt;strong&gt;simplest way to work with recurring schedules&lt;/strong&gt;. If you&amp;#39;re only talking about Javascript, then they&amp;#39;re probably right.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #8</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-8/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-8/</id>
-    <published>2013-07-17T00:00:00Z</published>
-    <updated>2013-07-17T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;A little quiet today...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Lovely little &lt;a href="https://github.com/sindresorhus/log-globals"&gt;bookmarklet or DevTools snippet&lt;/a&gt; for Chrome that &lt;strong&gt;logs your global Javascript variables to the console&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated...&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;A little quiet today...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Lovely little &lt;a href="https://github.com/sindresorhus/log-globals"&gt;bookmarklet or DevTools snippet&lt;/a&gt; for Chrome that &lt;strong&gt;logs your global Javascript variables to the console&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Completely useless, but awesome nonetheless, &lt;a href="http://hdragomir.github.io/facetogif/"&gt;face to gif&lt;/a&gt; lets you &lt;strong&gt;record yourself and produces an animated gif&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://etiennetalbot.github.io/responsImg"&gt;responseImg&lt;/a&gt; is a jQuery plugin that &lt;strong&gt;turns your &lt;code&gt;img&lt;/code&gt; tags into responsive images with retina alternatives&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Really love these &lt;strong&gt;&lt;a href="http://tympanus.net/Development/AnimatedBooks/index.html"&gt;CSS3 animated books&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

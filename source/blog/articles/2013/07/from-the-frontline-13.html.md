@@ -11,7 +11,7 @@ Lovin' it...
 
 ---
 
- - [VerbalExpressions](VerbalExpressions) is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.
+ - [VerbalExpressions](https://github.com/jehna/VerbalExpressions) is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.
 
  - [Ajax Replay](http://mbradshawabs.github.io/ajaxreplay/) is a great way to test your Ajax API calls by replaying your actual Ajax calls. If you know the VCR Ruby Gem, this is a similar thing but for Javascript.
 

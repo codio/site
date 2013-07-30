@@ -25,7 +25,7 @@ I neglected to post on Friday, so today is a bumper double issue thingy...
 
  - Give users **real time hints and progress updates as they complete your forms** with [Progression.js](http://git.aaronlumsden.com/progression/).
 
- - WebRTC is one of the most technically advanced offerings to become built right into the browser. **[simpleWebRTC](http://git.aaronlumsden.com/progression/) might just make it a little easier** to implement.
+ - WebRTC is one of the most technically advanced offerings to become built right into the browser. **[simpleWebRTC](http://simplewebrtc.com/) might just make it a little easier** to implement.
 
  - Great article **[In defence of Javascript's Constructors](http://www.2ality.com/2013/07/defending-constructors.html)**.
 

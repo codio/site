@@ -4,6 +4,49 @@
 exports = this
 
 
+# Codio Session
+$ ->
+
+  signedInNav = $('#signedin-nav')
+  signedOutNav = $('#signedout-nav')
+  sessionId = '0fb5cc6c-6a9c-4982-ae85-06f8f6a7a071'
+  # sessionId = $.cookie('crafted_session')
+
+  # User is anonymous
+  if !sessionId
+    do signedOutNav.fadeIn
+  else
+    request = $.post 'http://codio.dev:8081/service/',
+      acrequest: JSON.stringify
+        object: 'AccountManager',
+        method: 'getMyInfo',
+        params:
+          session_id: sessionId
+
+    request.done (data)->
+      if data.code != 1
+        do signedOutNav.fadeIn
+      else
+        user = data.response.details
+
+        if typeof Intercom != 'undefined'
+          Intercom 'boot',
+            app_id: 'ee8711023afa04b80a6b921ddb3939c1171e0f62',
+            email: user.email,
+            created_at: if user.created_at then Math.round(user.created_at / 1000) else undefined,
+            username: user.name,
+            name: user.actual_name || user.name,
+            user_id: data.response.account
+            widget:
+              activator: '#IntercomDefaultWidget'
+
+        hash = md5 user.email.toLowerCase()
+        $('#gravatar img').prop 'src', '//www.gravatar.com/avatar/' + hash + '?s=32&amp;d=mm'
+
+        do signedInNav.fadeIn
+
+
+
 # Handles the hidden submenu.
 $ ->
   $('#content-body h1 button').click ->

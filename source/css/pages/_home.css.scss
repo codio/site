@@ -38,12 +38,20 @@ body.home {
             opacity: 0;
 
             p {
-              font: 18px 'Indie Flower';
+              font: 22px 'Indie Flower';
               @include rotate(-2deg);
-              margin: 57px 0 0 185px;
+              margin: 57px 0 0 70px;
 
               @include apply-to(more-than, desktop) {
-                margin: 57px 0 0 280px;
+                margin: 44px 0 0 200px;
+              }
+
+              a {
+                border-bottom: 1px solid $linkColor;
+
+                &:hover {
+                  border-bottom: 1px solid black;
+                }
               }
             }
 

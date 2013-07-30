@@ -4,18 +4,31 @@
     <nav class="clearfix">
       <%= link_to image_tag('logo.png', :width => 183, :height => 46), '/', :data => { :"no-turbolink" => true } %>
 
-      <ul id="codio-nav">
-        <li><%= link_to 'Try Now', '/p/try', :id => "trynow", :data => { :"no-turbolink" => true } %></li>
+      <ul class="codio-nav" id="signedout-nav">
+        <li><%= link_to 'Try Now', '/p/create', :data => { :"no-turbolink" => true } %></li>
         <li><%= link_to 'Sign In', '/p/login', :data => { :"no-turbolink" => true } %></li>
         <li><%= link_to 'Sign Up', '/p/signup', :data => { :"no-turbolink" => true } %></li>
       </ul>
 
+      <ul class="codio-nav" id="signedin-nav">
+        <li><%= link_to 'joelmoss', '/joelmoss', :data => { :"no-turbolink" => true } %></li>
+        <li>
+          <a id="gravatar" href="/joelmoss" data-no-turbolink="1">
+            <img src="" width="32" height="32" alt="">
+          </a>
+        </li>
+      </ul>
+
       <ul id="site-nav">
         <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
-        <li><%= link_to 'Pricing', '/docs', :data => { :"no-turbolink" => true } %></li>
+        <li><%= link_to 'Pricing', '#pricing', :data => { :"no-turbolink" => true } %></li>
         <li><%= link_to 'Blog', '/blog', :data => { :"no-turbolink" => true } %></li>
       </ul>
     </nav>
 
   </div>
 </nav>
+
+<% if !current_page.app.development? %>
+  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://static.intercomcdn.com/intercom.v1.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
+<% end %>

@@ -23,22 +23,45 @@ nav {
       font: 18px gotham_light;
 
       // Sign in/out and try links
-      &#codio-nav {
+      &.codio-nav {
+        display: none;
         margin-top: 30px;
 
-        li:first-child a {
-          background-color: $red;
-          padding: 6px 10px;
-          border-radius: 2px;
-          color: $white;
+        &#signedout-nav {
+          li:first-child a {
+            background-color: $red;
+            padding: 6px 10px;
+            border-radius: 2px;
+            color: $white;
+          }
+
+          li:nth-child(2) a {
+            padding-left: 35px;
+          }
+
+          li:last-child a {
+            padding-left: 0;
+          }
         }
 
-        li:nth-child(2) a {
-          padding-left: 35px;
-        }
+        &#signedin-nav {
+          margin-top: 22px;
 
-        li:last-child a {
-          padding-left: 0;
+          li:first-child {
+            font: 14px gotham_medium;
+          }
+
+          // Gravatar
+          li:last-child a {
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            background-color: #FFF;
+            padding: 4px;
+
+            img {
+              border-radius: 50%;
+            }
+          }
         }
       }
 
@@ -55,6 +78,10 @@ nav {
           color: #3e3e3e;
           padding: 0 14px;
           display: block;
+
+          &:hover {
+            color: $linkColor;
+          }
         }
       }
     }

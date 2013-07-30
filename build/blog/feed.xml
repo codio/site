@@ -5,10 +5,43 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-29T00:00:00Z</updated>
+  <updated>2013-07-30T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #15</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-15/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-15/</id>
+    <published>2013-07-30T00:00:00Z</published>
+    <updated>2013-07-30T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;You beauty!!&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Great looking &lt;a href="http://www.justinaguilar.com/animations/index.html"&gt;CSS3 animation cheat sheet&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An exhaustive &lt;a href="http://viewportsizes.com/"&gt;list of viewport device sizes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.webflow.com/"&gt;Webflow&lt;/a&gt; is released today, which is an extremely impressive site builder, providing a huge level of control, and produces great looking HTML and CSS...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;You beauty!!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Great looking &lt;a href="http://www.justinaguilar.com/animations/index.html"&gt;CSS3 animation cheat sheet&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An exhaustive &lt;a href="http://viewportsizes.com/"&gt;list of viewport device sizes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.webflow.com/"&gt;Webflow&lt;/a&gt; is released today, which is an extremely impressive site builder, providing a huge level of control, and produces great looking HTML and CSS at the end of it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you use &lt;a href="http://browserify.org/"&gt;Browserify&lt;/a&gt;, then you MUST get &lt;a href="http://hughsk.github.io/disc/"&gt;Disc&lt;/a&gt; up and running against your code. Freakin&amp;#39; awesome!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Addy Osmani discusses whether you should &lt;a href="http://addyosmani.com/blog/checking-in-front-end-dependencies/"&gt;check in your front-end dependencies&lt;/a&gt; into source control.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #14</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-14/"/>
@@ -170,39 +203,6 @@
 &lt;li&gt;&lt;p&gt;Give users &lt;strong&gt;real time hints and progress updates as they complete your forms&lt;/strong&gt; with &lt;a href="http://git.aaronlumsden.com/progression/"&gt;Progression.js&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;WebRTC is one of the most technically advanced offerings to become built right into the browser. &lt;strong&gt;&lt;a href="http://simplewebrtc.com/"&gt;simpleWebRTC&lt;/a&gt; might just make it a little easier&lt;/strong&gt; to implement.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Great article &lt;strong&gt;&lt;a href="http://www.2ality.com/2013/07/defending-constructors.html"&gt;In defence of Javascript&amp;#39;s Constructors&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #9</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-9/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-9/</id>
-    <published>2013-07-18T00:00:00Z</published>
-    <updated>2013-07-18T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Here's today's juicy bundle of links...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they've been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;While researching ways to improve Codio's own internal &lt;strong&gt;Javascript routing&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Here&amp;#39;s today&amp;#39;s juicy bundle of links...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they&amp;#39;ve been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;While researching ways to improve Codio&amp;#39;s own internal &lt;strong&gt;Javascript routing&lt;/strong&gt; system, I came across &lt;a href="https://github.com/tildeio/router.js"&gt;Router.js&lt;/a&gt;, which is the router that &lt;a href="http://emberjs.com/"&gt;EmberJS&lt;/a&gt; uses. It&amp;#39;s a very thorough implementation.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lots of talk around &lt;strong&gt;ES6&lt;/strong&gt;, the next version of EcmaScript (Javascript), but this &lt;a href="http://www.slideshare.net/domenicdenicola/es6-the-awesome-parts"&gt;slideshow&lt;/a&gt; talks about &lt;strong&gt;the awesome parts&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/sindresorhus/screenfull.js"&gt;screenfull.js&lt;/a&gt; is a tiny wrapper for &lt;strong&gt;cross-browser usage of the Javascript fullscreen API&lt;/strong&gt;, which lets you bring the page or any element into fullscreen.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://the-taylors.org/blog/2013/07/01/how-will-i-keep-javascript-code-quality-hight-jshint/"&gt;Nice post&lt;/a&gt; by our friend Dave Taylor on the awesomeness that is &lt;strong&gt;JSHint&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://bunkat.github.io/later/"&gt;Later.js&lt;/a&gt; claims to be the &lt;strong&gt;simplest way to work with recurring schedules&lt;/strong&gt;. If you&amp;#39;re only talking about Javascript, then they&amp;#39;re probably right.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

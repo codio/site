@@ -15,11 +15,11 @@ aside {
 
   &.fixed {
     position: fixed;
-    padding-top: 75px;
+    padding-top: 85px;
     top: 0;
   }
 
-  ul {
+  ul:first-child {
     display: block;
 
     list-style: none;

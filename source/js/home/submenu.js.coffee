@@ -2,6 +2,7 @@
 # ---------------------------------------------
 
 $ ->
+	icons = $('#social-icons')
 	aside = $('aside')
 	initOffset = aside.offset()
 	items = aside.find('li')
@@ -9,7 +10,7 @@ $ ->
 	sections = $('section')
 	asideHeight = aside.height()
 
-	initOffset.top -= 75
+	initOffset.top -= 85
 	initOffset.left = $('.container', sections.first()).offset().left
 	aside.css 'left', initOffset.left
 
@@ -22,8 +23,10 @@ $ ->
 
 		if position >= initOffset.top && !aside.hasClass('fixed')
 			aside.addClass 'fixed'
+			icons.addClass 'fixed'
 		else if position <= initOffset.top
 			aside.removeClass 'fixed'
+			icons.removeClass 'fixed'
 
 		return if position < initOffset.top
 

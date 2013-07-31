@@ -7,16 +7,44 @@ footer {
   font: 11px gotham_book;
   padding: 30px 10px;
   text-align: center;
+  line-height: 1.5em;
 
   a {
     color: $cream;
+
+    &:hover {
+      color: $linkColor;
+    }
   }
 
-  #legalise {
+  .container > div {
     text-align: left;
 
-    div {
-      float: right;
+    &:first-child {
+      float: left;
+      width: 160px;
+      height: 1px;
+      padding-left: 20px;
+    }
+
+    &:nth-child(2) {
+      float: left;
+      width: 580px;
+
+      @include apply-to(more-than, desktop) {
+        width: 820px;
+      }
+    }
+
+    &:last-child {
+      float: left;
+      width: 200px;
+      text-align: right;
+      padding: 20px 16px 0 0;
+
+      @include apply-to(more-than, desktop) {
+        width: 204px;
+      }
     }
   }
 

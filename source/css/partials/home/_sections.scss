@@ -251,12 +251,12 @@ section {
   &#annotate-embed {
     .container > div {
       @include clearfix;
-      padding: 100px 0;
-      background: transparent image-url('home/pens.jpg') no-repeat center 446px;
+      padding: 100px 0 140px;
+      background: transparent image-url('home/pens.jpg') no-repeat center 481px;
       background-size: 40%;
 
       @include apply-to(more-than, desktop) {
-        background-position: center 359px;
+        background-position: center 409px;
         background-size: 50%;
       }
 

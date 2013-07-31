@@ -24,7 +24,7 @@ nav {
       padding: 0;
       margin: 34px 0 0 0;
       float: right;
-      font: 18px gotham_light;
+      font: 16px gotham_light;
 
       // Sign in/out and try links
       &.codio-nav {
@@ -36,14 +36,22 @@ nav {
         }
 
         &#signedout-nav {
+          text-transform: uppercase;
+
           li:first-child a {
             background-color: $red;
-            padding: 6px 10px;
+            padding: 7px 14px 6px;
             border-radius: 2px;
             color: $white;
+            border-bottom: none;
+            font-size: 16px;
+
+            &:hover {
+              background-color: #B75246;
+            }
           }
 
-          li:nth-child(2) a {
+          li:nth-child(2) {
             padding-left: 35px;
           }
 

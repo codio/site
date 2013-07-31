@@ -17,7 +17,7 @@ section {
     }
   }
 
-  &:nth-child(even) {
+  @mixin even-section {
     background-image: linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
     background-image: -o-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
     background-image: -moz-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
@@ -93,87 +93,99 @@ section {
   }
 
 
-  &#productivity .container > div {
-    @include screenie;
-    background: transparent image-url('home/screens/productivity.png') no-repeat -238px 76px;
-    background-size: 75%;
+  &#productivity {
+    @include even-section;
 
-    @include apply-to(more-than, desktop) {
-      background-position: -80px center;
-      background-size: 43%;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-      background-size: 14px;
-      padding: 110px 0 110px 350px;
-      width: 330px;
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/productivity.png') no-repeat -238px 76px;
+      background-size: 75%;
 
       @include apply-to(more-than, desktop) {
-        width: 500px;
-        background-size: 10px;
-        padding-top: 100px;
-      }
-    }
-  }
-
-  &#baked .container > div {
-    @include screenie;
-    background: transparent image-url('home/screens/bower.png') no-repeat -300px 76px;
-    background-size: 83%;
-
-    @include apply-to(more-than, desktop) {
-      background-position: -385px 76px;
-      background-size: 80%;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-      background-size: 12px;
-      padding-bottom: 85px;
-
-      @include apply-to(more-than, desktop) {
-        background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
-        background-size: 49%;
+        background-position: -80px center;
+        background-size: 43%;
       }
 
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 20px 0 0;
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 14px;
+        padding: 110px 0 110px 350px;
+        width: 330px;
 
         @include apply-to(more-than, desktop) {
-          margin-top: 30px;
-        }
-
-        li {
-          display: inline-block;
-          margin-right: 15px
+          width: 500px;
+          background-size: 10px;
+          padding-top: 100px;
         }
       }
     }
   }
 
-  &#compiled .container > div {
-    @include screenie;
-    background: transparent image-url('home/screens/compiled.png') no-repeat -150px 100px;
-    background-size: initial;
+  &#baked {
+    @include even-section;
 
-    @include apply-to(more-than, desktop) {
-      background-position: -126px 76px;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-      background-size: 10px;
-      padding: 90px 0 80px 350px;
-      width: 330px;
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/bower.png') no-repeat -300px 76px;
+      background-size: 83%;
 
       @include apply-to(more-than, desktop) {
-        background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
-        background-size: 38%;
-        padding-left: 350px;
-        width: 500px;
+        background-position: -385px 76px;
+        background-size: 80%;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 12px;
+        padding-bottom: 85px;
+
+        @include apply-to(more-than, desktop) {
+          background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
+          background-size: 49%;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }
+      }
+    }
+  }
+
+  &#compiled {
+    @include even-section;
+
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/compiled.png') no-repeat -150px 100px;
+      background-size: initial;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -126px 76px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 10px;
+        padding: 90px 0 80px 350px;
+        width: 330px;
+
+        @include apply-to(more-than, desktop) {
+          background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
+          background-size: 38%;
+          padding-left: 350px;
+          width: 500px;
+        }
       }
     }
   }
@@ -324,6 +336,8 @@ section {
   }
 
   &#opensource {
+    @include even-section;
+
     .container > div {
       @include clearfix;
       padding: 100px 0;

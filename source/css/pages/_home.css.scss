@@ -109,7 +109,6 @@ body.home {
 
         transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
         -webkit-transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
-        // -webkit-transform: rotate(360deg);
         @include rotate(360deg);
 
         &.move {

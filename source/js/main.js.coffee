@@ -49,6 +49,19 @@ $ ->
         do signedInNav.fadeIn
 
 
+$ ->
+
+  $("a[href^='#']").on 'click', (event) ->
+    t = $(this).data().el || $(this.hash)
+    $(this).data().el = t
+    return if !t.length
+
+    tOffset = t.offset().top;
+    $('html,body').animate {scrollTop: tOffset - 20}, 'slow';
+    event.preventDefault();
+
+
+
 
 # Handles the hidden submenu.
 $ ->

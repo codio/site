@@ -106,7 +106,7 @@ section {
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 14px;
-        padding: 120px 0 120px 350px;
+        padding: 140px 0 140px 350px;
         width: 330px;
 
         @include apply-to(more-than, desktop) {
@@ -162,22 +162,20 @@ section {
 
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/compiled.png') no-repeat -150px center;
+      background: transparent image-url('home/screens/compiled.png') no-repeat -150px;
       background-size: initial;
 
       @include apply-to(more-than, desktop) {
-        background-position: -126px 76px;
+        background-position: -126px;
       }
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 10px;
-        padding: 100px 0 110px 350px;
+        background-size: 11px;
+        padding: 140px 0 140px 350px;
         width: 330px;
 
         @include apply-to(more-than, desktop) {
-          background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
-          background-size: 38%;
           padding-left: 350px;
           width: 500px;
         }
@@ -251,12 +249,12 @@ section {
   &#annotate-embed {
     .container > div {
       @include clearfix;
-      padding: 100px 0 140px;
-      background: transparent image-url('home/pens.jpg') no-repeat center 481px;
+      padding: 120px 0 160px;
+      background: transparent image-url('home/pens.jpg') no-repeat center 529px;
       background-size: 40%;
 
       @include apply-to(more-than, desktop) {
-        background-position: center 409px;
+        background-position: center 450px;
         background-size: 50%;
       }
 

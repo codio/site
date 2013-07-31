@@ -98,24 +98,23 @@ section {
 
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/productivity.png') no-repeat -238px 76px;
+      background: transparent image-url('home/screens/productivity.png') no-repeat -238px center;
       background-size: 75%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -80px center;
-        background-size: 43%;
+        background-position: -110px center;
+        background-size: 48%;
       }
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 14px;
-        padding: 110px 0 110px 350px;
+        padding: 120px 0 120px 350px;
         width: 330px;
 
         @include apply-to(more-than, desktop) {
           width: 500px;
-          background-size: 10px;
-          padding-top: 100px;
+          background-size: 12px;
         }
       }
     }
@@ -126,22 +125,21 @@ section {
 
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/bower.png') no-repeat -300px 76px;
-      background-size: 83%;
+      background: transparent image-url('home/screens/bower.png') no-repeat -355px center;
+      background-size: 92%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -385px 76px;
-        background-size: 80%;
+        background-position: -297px;
+        background-size: 70%;
       }
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 12px;
-        padding-bottom: 85px;
+        padding: 120px 0 120px 300px;
 
         @include apply-to(more-than, desktop) {
-          background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
-          background-size: 49%;
+          padding-left: 350px;
         }
 
         ul {
@@ -167,7 +165,7 @@ section {
 
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/compiled.png') no-repeat -150px 100px;
+      background: transparent image-url('home/screens/compiled.png') no-repeat -150px center;
       background-size: initial;
 
       @include apply-to(more-than, desktop) {
@@ -177,7 +175,7 @@ section {
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 10px;
-        padding: 90px 0 80px 350px;
+        padding: 100px 0 110px 350px;
         width: 330px;
 
         @include apply-to(more-than, desktop) {
@@ -190,65 +188,65 @@ section {
     }
   }
 
-  &#deployment {
-    background: transparent image-url("home/screens/deploy.png") no-repeat 866px center;
-    background-size: 30%;
-
-    .container > div {
-      @include screenie;
-
-      div {
-        background: none;
-        padding: 100px 0;
-        width: 460px;
-      }
-    }
-  }
-
-  &#sourcecontrol {
-    background: transparent image-url("home/branching-illustration.png") no-repeat 866px center;
-    background-size: 30%;
-
-    .container > div {
-      @include screenie;
-
-      div {
-        background: none;
-        padding: 100px 0;
-        width: 460px;
-
-        img {
-          position: relative;
-          top: -3px;
-        }
-      }
-    }
-  }
-
-  &#realtime {
-    background: transparent image-url("home/collab.gif") no-repeat 813px center;
-    background-size: 30%;
+  &#deployment .container {
+    background: transparent image-url("home/screens/deploy.png") no-repeat 760px;
+    background-size: 412px;
 
     @include apply-to(more-than, desktop) {
-      background-position: 866px center;
+      background-position: 813px;
     }
 
-    .container > div {
-      @include screenie;
+    > div {
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+      background-size: 14px;
+      padding: 120px 220px 120px 0;
+      width: 460px;
 
-      div {
-        background: none;
-        padding: 100px 0;
-        width: 390px;
+      @include apply-to(more-than, desktop) {
+        background-image: none;
+        padding: 120px 414px 120px 0;
+      }
+    }
+  }
 
-        @include apply-to(more-than, desktop) {
-          width: 460px;
-        }
 
-        img {
-          position: relative;
-          top: -3px;
-        }
+  &#sourcecontrol .container {
+    background: transparent image-url("home/branching-illustration.png") no-repeat 784px;
+
+    @include apply-to(more-than, desktop) {
+      background-position: 845px;
+    }
+
+    > div {
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right 190px;
+      background-size: 8px;
+      padding: 120px 220px 120px 0;
+      width: 460px;
+
+      @include apply-to(more-than, desktop) {
+        background-image: none;
+        padding: 120px 414px 120px 0;
+      }
+    }
+  }
+
+  &#realtime .container {
+    background: transparent image-url("home/collab.gif") no-repeat 775px center;
+    background-size: 356px;
+
+    @include apply-to(more-than, desktop) {
+      background-position: 832px;
+    }
+
+    > div {
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+      background-size: 13px;
+      padding: 120px 220px 120px 0;
+      width: 460px;
+
+      @include apply-to(more-than, desktop) {
+        background-image: none;
+        padding: 120px 414px 120px 0;
       }
     }
   }
@@ -300,7 +298,7 @@ section {
   &#speed {
     .container > div {
       @include clearfix;
-      padding: 140px 0;
+      padding: 140px 0 100px;
       background: transparent image-url('home/fast.png') no-repeat bottom;
 
       h2 {

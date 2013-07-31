@@ -49,11 +49,8 @@ section {
 
   .container > div {
     padding: 0;
-
-    @include apply-to(more-than, ipad-landscape) {
-      margin-left: 300px;
-      width: $ipad-landscape - 300;
-    }
+    margin-left: 300px;
+    width: $ipad-landscape - 300;
 
     @include apply-to(more-than, desktop) {
       margin-left: 350px;

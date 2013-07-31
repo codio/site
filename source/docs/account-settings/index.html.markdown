@@ -4,7 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-You will find your account settings in the Project dropdown menu in the Codio sitebar. Click on it to see the **Account Settings** dialog.
+![Account Settings](docs/account-settings.png)
+
+You will find your account settings in the dropdown menu on the right side in the Codio sitebar. 
 
 ![Account Settings](docs/settings-editor.png)
 

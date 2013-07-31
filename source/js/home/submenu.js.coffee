@@ -9,7 +9,7 @@ $ ->
 	sections = $('section')
 	asideHeight = aside.height()
 
-	initOffset.top -= 40
+	initOffset.top -= 75
 	initOffset.left = $('.container', sections.first()).offset().left
 	aside.css 'left', initOffset.left
 

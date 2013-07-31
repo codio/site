@@ -1,10 +1,14 @@
 // Navigation bar
 // =================================================================================================
 
-nav {
-  background: $white image-url('nav-top.gif') repeat-x top;
+body > nav {
+  background: transparent image-url('nav-top.png') repeat-x top;
   position: relative;
   height: 90px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 1px 2px #ddd;
 
   nav {
 

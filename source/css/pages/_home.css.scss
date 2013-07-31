@@ -24,6 +24,7 @@ body.home {
     background-color: #EAEDF2;
     height: 420px;
     overflow-x: hidden;
+    padding-top: 90px;
 
     .container {
       @include clearfix();

@@ -1,7 +1,7 @@
 // Navigation bar
 // =================================================================================================
 
-body > nav {
+body.home > nav {
   background: transparent image-url('nav-top.png') repeat-x top;
   position: relative;
   height: 90px;
@@ -9,6 +9,12 @@ body > nav {
   z-index: 99;
   width: 100%;
   box-shadow: 0 1px 2px #ddd;
+}
+
+body > nav {
+  background: $white;
+  position: relative;
+  height: 90px;
 
   nav {
 

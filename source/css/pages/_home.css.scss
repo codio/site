@@ -22,15 +22,22 @@ body.home {
 
         // Tagline
         &:first-child {
+          z-index: 2;
           top: 66px;
-          left: 20px;
+          left: 5px;
+
+          @include apply-to(more-than, desktop) {
+            left: 33px;
+          }
 
           > img {
             opacity: 0;
-            width: 550px;
+            margin-top: 15px;
+            width: 500px;
 
             @include apply-to(more-than, desktop) {
-              width: 641px;
+              width: 583px;
+              margin-top: 0;
             }
           }
 
@@ -38,12 +45,13 @@ body.home {
             opacity: 0;
 
             p {
-              font: 22px 'Indie Flower';
-              @include rotate(-2deg);
-              margin: 57px 0 0 70px;
+              font: 20px 'Indie Flower';
+              @include rotate(-4deg);
+              margin: 50px 0 0 30px;
 
               @include apply-to(more-than, desktop) {
-                margin: 44px 0 0 200px;
+                margin: 44px 0 0 80px;
+                font-size: 22px;
               }
 
               a {
@@ -63,10 +71,58 @@ body.home {
             }
           }
         }
+      }
 
-        // Reel
-        &:last-child {
-          left: 2000px;
+      // screen
+      #screen {
+        top: 115px;
+        margin-left: 2000px;
+        position: absolute;
+        z-index: 2;
+        width: 410px;
+        display: block;
+
+        transition: margin 1500ms ease 800ms;
+        -webkit-transition: margin 1500ms ease 800ms;
+
+        &.move {
+          margin-left: 564px;
+
+          @include apply-to(more-than, desktop) {
+            margin-left: 684px;
+          }
+        }
+
+        @include apply-to(more-than, desktop) {
+          width: 480px;
+          top: 78px;
+        }
+      }
+
+      #reel {
+        top: 220px;
+        position: absolute;
+        z-index: 1;
+        width: 320px;
+        margin-left: 2000px;
+        display: block;
+
+        transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
+        -webkit-transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
+        // -webkit-transform: rotate(360deg);
+        @include rotate(360deg);
+
+        &.move {
+          margin-left: 500px;
+
+          @include apply-to(more-than, desktop) {
+            margin-left: 614px;
+          }
+        }
+
+        @include apply-to(more-than, desktop) {
+          top: 225px;
+          width: 350px;
         }
       }
     }

@@ -87,8 +87,9 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: $red;
+  color: $linkColor;
   text-decoration: none;
+  @include transition(all 0.2s ease);
 }
 
 a, a:hover, a:active, a:focus {

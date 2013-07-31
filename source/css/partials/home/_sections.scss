@@ -5,7 +5,7 @@ section {
     > div {
       background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
       background-size: 60%;
-      padding: 80px 0 46px 300px;
+      padding: 100px 0 46px 300px;
       width: 380px;
 
       @include apply-to(more-than, desktop) {
@@ -288,7 +288,7 @@ section {
   &#speed {
     .container > div {
       @include clearfix;
-      padding: 100px 0;
+      padding: 140px 0;
       background: transparent image-url('home/fast.png') no-repeat bottom;
 
       h2 {

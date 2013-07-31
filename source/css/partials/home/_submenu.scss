@@ -26,7 +26,7 @@ aside {
     padding: 0;
 
     li {
-      padding: 10px 0;
+      padding: 9px 0;
       display: block;
 
       a {
@@ -36,19 +36,20 @@ aside {
         font: 14px gotham_light;
         display: block;
         padding-left: 5px;
-        border-left: 1px solid transparent;
+        border-left: 2px solid transparent;
 
         @include apply-to(more-than, desktop) {
-          font-size: 16px;
+          font-size: 15px;
         }
 
         &:hover {
-          border-left: 1px solid red;
+          color: black;
+          border-left: 2px solid red;
         }
       }
 
       &.active a {
-        border-left: 1px solid red;
+        border-left: 2px solid red;
         font-family: gotham_medium;
       }
     }

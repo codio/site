@@ -4,24 +4,26 @@
 $ ->
 
     # Roll the reel into play on page load.
-    $('#reel').transition
-        x: -1910
-        rotate: '-360deg'
-        delay: 500
-        duration: 1500
-        easing: 'ease'
+    # $('#reel').transition
+    #     marginLeft: "-=1280"
+    #     rotate: '-360deg'
+    #     delay: 500
+    #     duration: 1500
+    #     easing: 'ease'
+
+    # $('#screen').transition
+    #     marginLeft: "-=#{marginLeft-60}"
+    #     delay: 800
+    #     duration: 1500
+    #     easing: 'ease'
+
+    $('#screen, #reel').addClass 'move'
 
     # Fade in the tagline
-    $('#tagline img').transition
+    $('#tagline img, #tagline div').transition
         opacity: 1
-        duration: 3000
+        duration: 2000
         delay: 800
-
-    # Fade in the call to action ("spin the wheel")
-    $('#tagline div').transition
-        opacity: 1
-        duration: 1000
-        delay: 1800
 
 
     $('#reel').on 'click', ->

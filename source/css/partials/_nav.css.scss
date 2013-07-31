@@ -11,8 +11,12 @@ nav {
     // Logo
     > a {
       display: block;
-      margin: 24px 0 0 0;
+      margin: 30px 0 0 20px;
       float: left;
+
+      @include apply-to(more-than, desktop) {
+        margin: 30px 0 0 40px;
+      }
     }
 
     // Navigation items
@@ -25,7 +29,11 @@ nav {
       // Sign in/out and try links
       &.codio-nav {
         display: none;
-        margin-top: 30px;
+        margin: 30px 10px 0 0;
+
+        @include apply-to(more-than, desktop) {
+          margin: 30px 40px 0 0;
+        }
 
         &#signedout-nav {
           li:first-child a {
@@ -49,6 +57,11 @@ nav {
 
           li:first-child {
             font: 14px gotham_medium;
+            padding: 0;
+
+            a {
+              border-bottom: none;
+            }
           }
 
           // Gravatar
@@ -68,19 +81,23 @@ nav {
       // Site pages
       &#site-nav {
         text-transform: uppercase;
-        margin-right: 80px;
+        margin-right: 100px;
+        font: 16px gotham_light;
       }
 
       li {
         display: inline-block;
+        padding: 0 14px;
 
         a {
           color: #3e3e3e;
-          padding: 0 14px;
+          padding-bottom: 5px;
           display: block;
+          border-bottom: 2px solid #ddd;
 
           &:hover {
             color: $linkColor;
+            border-color: $linkColor;
           }
         }
       }

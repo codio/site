@@ -4,6 +4,12 @@
     <nav class="clearfix">
       <%= link_to image_tag('logo-beta.png', :width => 150), '/', :data => { :"no-turbolink" => true } %>
 
+      <ul id="site-nav">
+        <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
+        <li><%= link_to 'Pricing', '#pricing', :data => { :"no-turbolink" => true } %></li>
+        <li><%= link_to 'Blog', '/blog', :data => { :"no-turbolink" => true } %></li>
+      </ul>
+
       <ul class="codio-nav" id="signedout-nav">
         <li><%= link_to 'Try Now', '/p/create', :data => { :"no-turbolink" => true } %></li>
         <li><%= link_to 'Sign In', '/p/login', :data => { :"no-turbolink" => true } %></li>
@@ -17,12 +23,6 @@
             <img src="" width="32" height="32" alt="">
           </a>
         </li>
-      </ul>
-
-      <ul id="site-nav">
-        <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
-        <li><%= link_to 'Pricing', '#pricing', :data => { :"no-turbolink" => true } %></li>
-        <li><%= link_to 'Blog', '/blog', :data => { :"no-turbolink" => true } %></li>
       </ul>
     </nav>
 

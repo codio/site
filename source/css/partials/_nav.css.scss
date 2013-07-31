@@ -8,27 +8,26 @@ nav {
 
   nav {
 
+    > * {
+      float: left;
+    }
+
     // Logo
     > a {
       display: block;
-      margin: 18px 0 0 20px;
-      float: left;
-
-      @include apply-to(more-than, desktop) {
-        margin: 18px 0 0 40px;
-      }
+      margin: 18px 0 0 5px;
     }
 
     // Navigation items
     ul {
       padding: 0;
       margin: 34px 0 0 0;
-      float: right;
       font: 16px gotham_light;
 
       // Sign in/out and try links
       &.codio-nav {
         display: none;
+        float: right;
         margin: 30px 10px 0 0;
 
         @include apply-to(more-than, desktop) {
@@ -89,8 +88,8 @@ nav {
       // Site pages
       &#site-nav {
         text-transform: uppercase;
-        margin-right: 100px;
         font: 16px gotham_light;
+        margin-left: 100px;
       }
 
       li {

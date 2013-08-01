@@ -1,7 +1,7 @@
 ---
 title: All New Site
 author: Joel Moss
-date: 2013-07-08
+date: 2013-08-01
 class_name: blog
 full_width: true
 ---

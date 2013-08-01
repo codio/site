@@ -57,7 +57,7 @@ $ ->
     return if !t.length
 
     tOffset = t.offset().top;
-    $('html,body').animate {scrollTop: tOffset - 20}, 'slow';
+    $('html,body').animate {scrollTop: tOffset - 50}, 'slow';
     event.preventDefault();
 
 

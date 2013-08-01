@@ -49,8 +49,14 @@ aside {
       }
 
       &.active a {
-        border-left: 2px solid red;
+        background: transparent image-url('tiny-icon.png') no-repeat left center;
+        background-size: 17px;
+        padding-left: 21px;
         font-family: gotham_medium;
+
+        &:hover {
+          border-left: 2px solid transparent;
+        }
       }
     }
   }

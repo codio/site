@@ -1,8 +1,12 @@
 body.home footer {
   .container > div {
+    &:first-child {
+      margin-top: 0;
+    }
+
     &:nth-child(2) {
       @include apply-to(more-than, desktop) {
-        width: 760px;
+        width: 670px;
       }
     }
 
@@ -40,14 +44,19 @@ footer {
 
     &:first-child {
       float: left;
-      width: 160px;
+      width: 200px;
       height: 1px;
       padding-left: 20px;
+      margin-top: 6px;
     }
 
     &:nth-child(2) {
+      background: transparent image-url('footer-logo.png') no-repeat left center;
+      background-size: 34px;
+      padding-left: 50px;
       float: left;
-      width: 520px;
+      width: 430px;
+      margin-top: 5px;
     }
 
     &:last-child {

@@ -29,10 +29,10 @@ footer {
 
     &:nth-child(2) {
       float: left;
-      width: 580px;
+      width: 520px;
 
       @include apply-to(more-than, desktop) {
-        width: 820px;
+        width: 760px;
       }
     }
 
@@ -40,7 +40,7 @@ footer {
       float: left;
       width: 200px;
       text-align: right;
-      padding: 20px 16px 0 0;
+      padding: 20px 76px 0 0;
 
       @include apply-to(more-than, desktop) {
         width: 204px;

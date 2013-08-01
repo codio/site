@@ -9,14 +9,13 @@ $ ->
 
   signedInNav = $('#signedin-nav')
   signedOutNav = $('#signedout-nav')
-  # sessionId = '0fb5cc6c-6a9c-4982-ae85-06f8f6a7a071'
   sessionId = $.cookie('crafted_session')
 
   # User is anonymous
   if !sessionId
     do signedOutNav.fadeIn
   else
-    request = $.post 'http://codio.dev:8081/service/',
+    request = $.post 'https://codio.com/service/',
       acrequest: JSON.stringify
         object: 'AccountManager',
         method: 'getMyInfo',

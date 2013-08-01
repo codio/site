@@ -76,25 +76,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'museo_sans_rounded_300';
-    src: font-url('museosansrounded-300-webfont.eot');
-    src: font-url('museosansrounded-300-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('museosansrounded-300-webfont.woff') format('woff'),
-         font-url('museosansrounded-300-webfont.ttf') format('truetype'),
-         font-url('museosansrounded-300-webfont.svg#museo_sans_rounded_300') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'museo_sans_rounded_700';
-    src: font-url('museosansrounded-700-webfont.eot');
-    src: font-url('museosansrounded-700-webfont.eot?#iefix') format('embedded-opentype'),
-         font-url('museosansrounded-700-webfont.woff') format('woff'),
-         font-url('museosansrounded-700-webfont.ttf') format('truetype'),
-         font-url('museosansrounded-700-webfont.svg#museo_sans_rounded_700') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}

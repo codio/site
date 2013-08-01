@@ -53,16 +53,6 @@
       <%= partial :header %>
 
       <% if current_page.data.submenu %>
-        <% unless current_page.data.hide_title %>
-          <header>
-            <h1>
-              <%= current_page.data.title %>
-              <% if current_page.data.subtitle %>
-                <small><%= current_page.data.subtitle %></small>
-              <% end %>
-            </h1>
-          </header>
-        <% end %>
 
         <div class="container clearfix">
           <aside>

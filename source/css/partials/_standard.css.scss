@@ -3,6 +3,10 @@
 
 body.standard {
 
+  .wrap > nav {
+    margin-bottom: 50px;
+  }
+
   header {
     background: #666666 image-url('bgcloth.png') repeat;
     padding: 10px;
@@ -25,7 +29,7 @@ body.standard {
 
   article {
     float: left;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     width: 680px;
     margin-left: 300px;
 
@@ -34,7 +38,7 @@ body.standard {
     }
 
     h2 {
-      margin-bottom: 30px;
+      margin: 50px 0 20px;
 
       small {
         display: block;
@@ -43,6 +47,10 @@ body.standard {
         margin-top: 4px;
         color: #888;
       }
+    }
+
+    h3 {
+      margin: 50px 0 20px;
     }
   }
 }

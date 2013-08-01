@@ -164,6 +164,12 @@ body.blog {
 
     > article {
       margin: 20px 0 105px;
+      font: 16px gotham_book;
+
+      > ul {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
 
       img:not(.fancybox-image) {
         vertical-align: middle;
@@ -211,6 +217,7 @@ body.blog {
       }
 
       .meta {
+        font-family: gotham_thin;
 
         p.tagged {
           display: block;
@@ -247,15 +254,30 @@ body.blog {
         }
 
         p.date {
-          font-size: 12px;
+          font-size: 14px;
+
+          a.home {
+            border-radius: 50%;
+            border: 2px solid #eee;
+            display: inline-block;
+            padding: 0px 6px;
+            font-size: 20px;
+            line-height: 21px;
+            color: #aaa;
+            margin-right: 7px;
+
+            &:hover {
+              background-color: #eee;
+              color: #999;
+            }
+          }
 
           a {
-            color: #aaa;
-            font-weight: 400;
+            color: #888;
           }
 
           span.author {
-            color: #AAA;
+            color: #888;
           }
         }
 
@@ -265,8 +287,11 @@ body.blog {
       }
 
       h1 {
-        font: 28px gotham_book;
-        margin-bottom: 5px;
+        font: 30px gotham_bold;
+        margin-bottom: 50px;
+        margin-top: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
       }
 
       h2 {

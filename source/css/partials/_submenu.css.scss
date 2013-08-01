@@ -4,7 +4,6 @@
 aside {
   position: absolute;
   color: #666;
-  margin-top: 10px;
 
   &.fixed {
     position: fixed;
@@ -26,15 +25,17 @@ aside {
         text-transform: uppercase;
         font-size: 14px;
         text-align: right;
-        font-family: gotham_mediumregular;
+        font-family: gotham_book;
+        color: #666;
       }
 
       &.active a {
         border: 1px solid #ddd;
-        @include border-radius(8px 0 0 8px);
+        border-radius: 8px 0 0 8px;
         border-color: #ddd #FFF #ddd #ddd;
         left: 1px;
         position: relative;
+        color: $linkColor;
       }
     }
   }

@@ -1,5 +1,5 @@
 ---
-title: Legalise
+title: Legalese
 subtitle: Privacy Policy
 submenu:
   -

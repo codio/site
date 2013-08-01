@@ -1,5 +1,5 @@
 ---
-title: "Code and Unload by Codio - While we code we often have lots of ideas brewing around. Ideas we'd like to unload onto you"
+title: Codio Blog
 per_page: 4
 class_name: blog
 full_width: true
@@ -15,23 +15,12 @@ pageable: true
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<header>
-  <div class="container">
-    <div>
-      <h1>Code and Unload</h1>
-      <h2>While we code we often have lots of ideas brewing around. Ideas we'd like to unload onto you</h2>
-    </div>
-  </div>
-</header>
-
 <div class="container clearfix">
 
   <section class="posts">
     <% page_articles.each do |article| %>
 
       <article>
-        <h1><%= link_to article.title, article %></h1>
-
         <section class="meta">
           <p class="date">
             <%= link_to article.date.strftime('%B %e, %Y'), article %>
@@ -43,30 +32,7 @@ pageable: true
           </p>
         </section>
 
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s<%= article.url %>" data-via="codiohq" data-size="small" data-count="none" data-text="<%= article.title %>">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s<%= article.url %>"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s<%= article.url %>" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
+        <h1><%= link_to article.title, article %></h1>
 
         <% if article.data.image %>
           <%= image_tag article.data.image, :alt => article.title, :align => "left", :class => "blog-img" %>

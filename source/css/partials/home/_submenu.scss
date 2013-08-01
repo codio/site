@@ -1,0 +1,63 @@
+// Sub Navigation (aside)
+// ======================
+
+aside {
+  position: absolute;
+  color: #666;
+  margin-top: 10px;
+  top: 580px;
+  z-index: 1;
+
+  &.home {
+    top: 580px;
+    padding-left: 20px;
+  }
+
+  &.fixed {
+    position: fixed;
+    padding-top: 85px;
+    top: 0;
+  }
+
+  ul:first-child {
+    display: block;
+
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding: 9px 0;
+      display: block;
+
+      a {
+        @include transition(all 0.2s ease-in-out);
+        text-transform: uppercase;
+        color: #333;
+        font: 14px gotham_light;
+        display: block;
+        padding-left: 5px;
+        border-left: 2px solid transparent;
+
+        @include apply-to(more-than, desktop) {
+          font-size: 15px;
+        }
+
+        &:hover {
+          color: black;
+          border-left: 2px solid red;
+        }
+      }
+
+      &.active a {
+        background: transparent image-url('tiny-icon.png') no-repeat left center;
+        background-size: 17px;
+        padding-left: 21px;
+        font-family: gotham_medium;
+
+        &:hover {
+          border-left: 2px solid transparent;
+        }
+      }
+    }
+  }
+}

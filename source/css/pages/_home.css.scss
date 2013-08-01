@@ -1,339 +1,142 @@
-body.home {
-  @import '../partials/highlighted-feature';
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 
-  background-color: #F9FAF7;
+body.home {
+
+  .wrap {
+    margin-bottom: 0;
+  }
+
+  .wrap nav nav > a {
+    margin-left: 40px;
+  }
+
+  #site-nav {
+    margin-left: 100px;
+
+    @include apply-to(more-than, desktop) {
+      margin-left: 300px;
+    }
+  }
+
+  .container {
+    @include apply-to(more-than, desktop) {
+      width: $desktop;
+    }
+  }
 
   header {
-    background: #666 image-url('bgcloth.png') repeat;
-    color: $cream;
-    padding: 30px 0;
-    box-shadow: 0 0 40px #666;
+    background-color: #EAEDF2;
+    height: 420px;
+    overflow-x: hidden;
+    padding-top: 90px;
 
     .container {
-      #public-stamp {
-        img {
-          position: absolute;
-          margin: 390px 0px 0px 630px;
-        }
-      }
+      @include clearfix();
 
-      > .clearfix > div {
+      > div {
         float: left;
+        position: relative;
 
-        // Headline
+        // Tagline
         &:first-child {
-          width: 600px;
-          margin: 30px auto 20px;
-          text-align: center;
+          z-index: 2;
+          top: 66px;
+          left: 5px;
 
-          > div {
-            text-transform: uppercase;
+          @include apply-to(more-than, desktop) {
+            left: 33px;
+          }
 
-            // Top three Headline lines of text.
-            > p {
-              margin: 0;
-              text-shadow: 0 0 100px #000;
-              font: 30px gotham_bookregular;
+          > img {
+            opacity: 0;
+            margin-top: 15px;
+            width: 500px;
 
-              &:nth-child(1) {
-                line-height: 1.5em !important;
-              }
-
-              &:nth-child(2) {
-                font: 72px gotham_boldregular;
-                line-height: 1.0em !important;
-              }
-
-              &:nth-child(3) {
-                font: 110px gotham_boldregular;
-                line-height: 0.8em !important;
-              }
+            @include apply-to(more-than, desktop) {
+              width: 583px;
+              margin-top: 0;
             }
+          }
 
-            // "You'll love to use every day" + love heart
-            > div {
-              font: 30px gotham_bookregular;
-              text-align: center;
-              width: 600px;
-              line-height: 1.1em !important;
-              margin: 16px 0 0 0px;
+          div {
+            opacity: 0;
 
-              p {
-                margin: 0;
+            p {
+              font: 20px 'Indie Flower';
+              @include rotate(-4deg);
+              margin: 50px 0 0 30px;
+
+              @include apply-to(more-than, desktop) {
+                margin: 44px 0 0 80px;
+                font-size: 22px;
               }
 
-              span {
-                float: left;
+              a {
+                border-bottom: 1px solid $linkColor;
 
-                &:nth-child(2) {
-                  background: transparent image-url('home/love.gif') no-repeat;
-                  text-indent: -9999px;
-                  display: block;
-                  width: 98px;
-                  height: 99px;
-                  margin-top: -16px;
+                &:hover {
+                  border-bottom: 1px solid black;
                 }
               }
             }
 
-            // Flourish
-            > img {
+            img {
               position: relative;
-              top: 23px;
-            }
-          }
-
-          > p {
-            width: 530px;
-            font: 17px gotham_thinregular;
-            text-align: center;
-            margin: 48px auto 15px;
-            line-height: 1.5em;
-          }
-        }
-
-        // Illustration
-        &:last-child {
-          background: transparent image-url('wheel.png') no-repeat 43px 15px;
-          width: 350px;
-          height: 344px;
-          text-indent: -9999px;
-          background-size: 86%;
-        }
-      }
-    }
-  }
-
-  .wrap > .switched-lists {
-    padding-bottom: 100px;
-    overflow: hidden;
-  }
-
-  #features {
-    @include clearfix;
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    > div:first-child {
-      float: left;
-
-      // Left side intro and tabs
-      &:first-child {
-        width: 200px;
-        margin: 20px 20px 0 0;
-
-        // Tabs
-        ul {
-          list-style: none;
-          padding: 0;
-          border-right: 1px solid #ddd;
-
-          li {
-            margin: 4px 0 4px 6px;
-
-            a {
-              display: block;
-              padding: 8px 16px 8px 14px;
-              text-transform: uppercase;
-              font-size: 16px;
-              text-align: right;
-              font-family: gotham_mediumregular;
-            }
-
-            &.active a {
-              border: 1px solid #ddd;
-              @include border-radius(8px 0 0 8px);
-              border-color: #ddd #F9FAF7 #ddd #ddd;
-              left: 1px;
-              position: relative;
-              color: #000;
+              float: right;
+              right: -68px;
+              bottom: 58px;
             }
           }
         }
       }
-    }
 
-    // Right side feature list
-    #feature-groups {
-      width: 720px;
-      height: 500px;
-      margin: 15px 0 0 20px;
-      float: left;
-      position: relative;
-      overflow: visible;
-
-      #features-education h5 {
-        font-size: 16px;
-        font-weight: normal;
-      }
-
-      section {
+      // screen
+      #screen {
+        top: 115px;
+        margin-left: 564px;
         position: absolute;
-        top: 0;
-        display: block;
-        z-index: 1;
-        width: 720px;
-        @include translate(1000px, 0);
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-        -o-backface-visibility: hidden;
-        backface-visibility: hidden;
+        z-index: 2;
+        width: 410px;
         opacity: 0;
+        display: block;
 
-        &.active {
-          @include translate(0, 0);
-          position: relative;
-          z-index: 2;
-          opacity: 1;
+        @include apply-to(more-than, desktop) {
+          width: 480px;
+          margin-left: 684px;
+          top: 78px;
+        }
+      }
+
+      #reel {
+        top: 220px;
+        position: absolute;
+        z-index: 1;
+        width: 320px;
+        margin-left: 2000px;
+        display: block;
+
+        transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
+        -webkit-transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
+        @include rotate(360deg);
+
+        &.move {
+          margin-left: 500px;
+
+          @include apply-to(more-than, desktop) {
+            margin-left: 614px;
+          }
         }
 
-        > ul > li {
-          display: inline-block;
-          width: 212px;
-          vertical-align: top;
-          padding: 0 36px 15px 0;
-
-          &:last-child {
-            padding-right: 0;
-          }
-
-          h4 {
-            font-family: gotham_bookregular;
-            font-size: 18px;
-            margin: 10px 0 0;
-            color: #222;
-
-            i {
-              margin-top: 4px;
-              color: darken($red, 25%);
-            }
-          }
-
-          p {
-            font-size: 13px;
-            color: #777;
-          }
+        @include apply-to(more-than, desktop) {
+          top: 225px;
+          width: 350px;
         }
       }
     }
   }
 
-  #benefits {
-    display: block;
-    font-style: normal;
 
-    > li:first-child {
-      width: 980px;
-
-      li {
-        float: left;
-        vertical-align: top;
-        font-style: normal;
-
-        &:first-child {
-          width: 200px;
-          margin: 13px 0 0 0;
-
-          h3 {
-            margin: 0 0 15px;
-          }
-        }
-
-        &:last-child {
-          width: 700px;
-          margin: 0 0 0 40px;
-        }
-      }
-    }
-
-    > li:nth-child(2) {
-      width: 200px;
-    }
-  }
-
-  #examples li {
-    p {
-      margin-bottom: 4px;
-    }
-
-    a {
-      font-size: 12px;
-    }
-  }
-
-  #roadmap {
-    > li {
-      &:last-child {
-        > ul > li > ul > li {
-          h3 {
-            font: 28px gotham_mediumregular;
-            margin-top: 0px;
-          }
-
-          background: #f6f5eb;
-          border:6px solid;
-          border-radius:10px;
-          border-color:#999999;
-          width: 700px;
-          vertical-align: top;
-          padding: 0px 10px 5px 10px;
-          margin: 0px 5px 10px 0px;
-
-          ul {
-           margin: 5px 0px 10px 0px;
-          }
-
-          li {
-            list-style-type: square;
-            list-style-position:inside;
-            color: #777;
-          }
-        }
-      }
-    }
-  }
-
-  #tryit {
-    padding: 60px 0;
-    height: 640px;
-    background: #F9FAF7 image-url('graphbg.gif') repeat;
-
-    h3 {
-      margin: 0;
-      font: 20px gotham_mediumregular;
-
-      i {
-        color: $red;
-        margin-right: 5px;
-      }
-
-      a {
-        font: 16px gotham_bookregular;
-        margin-left: 10px;
-        text-transform: lowercase;
-      }
-    }
-
-    p {
-      margin: 14px 0 26px;
-      font-size: 14px;
-    }
-
-    iframe {
-      border: 1px solid #bbb;
-      box-shadow: 0 0 40px #bbb;
-    }
-
-    #pricing {
-      position: relative;
-      top: 32px;
-      left: 40%;
-    }
-  }
-
+  @import '../partials/home/sections';
+  @import '../partials/home/submenu';
+  @import '../partials/home/pricing';
 }

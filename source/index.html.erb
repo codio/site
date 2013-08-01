@@ -6,397 +6,175 @@ class_name: home
 <header>
   <div class="container">
 
-    <div id="public-stamp" class="nofade">
-      <%= link_to image_tag("home/support-campaign.png", :width => "330x158", :alt => "Let's get Coding taught in our schools. - Support our Campaign"), '/education', :class => "nofade" %>
+    <div id="tagline">
+      <%= image_tag 'home/header-amazing.png', :width => 583 %>
+
+      <div>
+        <p>Public projects are free! <a href="/p/create">Create your first one now...</a></p>
+      </div>
     </div>
 
-    <div class="clearfix">
-      <div>
-        <div>
-          <p>We're building</p>
-          <p>an amazing</p>
-          <p>Web IDE</p>
-          <div>
-            <p>For web development,</p>
-            <p>teaching and learning</p>
-          </div>
-          <%= image_tag 'flourish.gif', :width => 174, :height => 28 %>
-        </div>
-        <p>We're building a modern web IDE for front-end development and teaching people to code in any programming language.</p>
-      </div>
-      <div>Codio.com</div>
-    </div>
+    <%= image_tag 'home/main-screen.png', :id => "screen", :width => 480 %>
+    <%# image_tag 'reel.png', :id => "reel", :width => 350 %>
+
   </div>
 </header>
 
+<aside class="home">
+  <ul>
+    <li><a href="#speed">Blazingly fast!</a></li>
+    <li><a href="#speed">Ready to go - No installs</a></li>
+    <li><a href="#productivity">Increased productivity</a></li>
+    <li><a href="#deployment">Deploy anywhere</a></li>
+    <li><a href="#opensource">Free for OSS &amp; education</a></li>
+    <li><a href="#sourcecontrol">Git in the cloud</a></li>
+    <li><a href="#compiled">CoffeeScript, SASS, etc.</a></li>
+    <li><a href="#realtime">Real-time Collaboration</a></li>
+    <li><a href="#baked">Integrated Tools - Bower</a></li>
+    <li><a href="#annotate-embed">Annotate &amp; Embed</a></li>
+  </ul>
+</aside>
 
-<section id="tryit">
-  <div class="container">
-    <h3>
-      <i class="icon-thumbs-up"></i> Try out the IDE below... <a href="https://codio.com/codio/Impress/tree/index.html" target="_blank">or click here to open in a new browser tab</a>
-    </h3>
-    <p>The project below uses Codio:Annotations so you can click on the blue icons anywhere you see 'em. Try pressing the 'Tour' button at the top as well. There are <a href="/#examples">more examples here</a>.</p>
-    <iframe src="https://codio.com/codio/Impress/tree/index.html" width="100%" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
-
-    <%= image_tag 'home/free-public.png', :id => "pricing" %>
-  </div>
-</section>
-
-<section id="highlighted-feature">
+<section id="speed">
   <div class="container">
     <div>
-      <h2>Codio:Annotations <small>It's free and it's available now</small></h2>
-      <p>Introducing an amazing new way to create rich, interactive documentation for tutorials, APIs, developer documentation or anywhere you want code documentation to be a cut above the rest - and it's all part of your code!</p>
+      <div>
+        <h2>Blazingly Fast</h2>
+        <p>Everything you do in Codio is <strong>fast</strong>, which further increases your productivity. Installing a Bower component takes seconds, deploying code is almost instantaneous.</p>
+      </div>
 
       <div>
-        <a href="http://youtube.com/v/Fk3eG_eSRPM" class="fancybox fancybox.iframe">
-          <%= image_tag '//i3.ytimg.com/vi/Fk3eG_eSRPM/mqdefault.jpg', :width => 322, :height => 182 %>
-          <i class="icon-play-circle icon-4x"></i>
-        </a>
-        <p>Watch the video on the left,<br><%= link_to 'read the documentation', '/docs/annotations/' %>,<br><a href="/#tryit">play with Annotations</a> in the embedded IDE,<br>or <a href="/#examples">try some examples</a>. It's all part of our push to <%= link_to 'teach coding in schools', '/education' %>.</p>
+        <h2>Your stack awaits</h2>
+        <p>Everything you need for modern web development is right here and instantly ready to go. <strong>No installs</strong>, no configuring. All you need is your browser.</p>
       </div>
     </div>
-
-    <div class="screenshot">
-      <%= image_tag 'home/highlighted-features/annotations.png', :width => 380 %>
-      <span></span>
-    </div>
   </div>
 </section>
 
-
-<section id="nav-banner" class="clearfix">
+<section id="productivity">
   <div class="container">
-    <ul>
-      <li class="active"><a href="#benefits">What is Codio?</a></li>
-      <li><i class="icon-star"></i></li>
-      <li><%= link_to 'Education', '/education' %></li>
-      <li><i class="icon-star"></i></li>
-      <li><a href="#features">Features</a></li>
-      <li><i class="icon-star"></i></li>
-      <li><a href="#examples">Examples</a></li>
-      <li><i class="icon-star"></i></li>
-      <li><a href="#roadmap">Roadmap</a></li>
-    </ul>
-  </div>
-</section>
-
-
-<section class="switched-lists">
-  <div class="container">
-
-    <ul id="benefits" class="columned">
-      <li>
-        <ul>
-          <li>
-            <h3>What is Codio?</h3>
-            <p><%= link_to "Codio in Education", '/education' %></p>
-            <p><a href="/#roadmap" id="roadmaplink">Roadmap</a></p>
-          </li>
-          <li>
-            <p>Codio is a Web IDE that has everything you need in one place to build and run HTML5+CSS+JS applications of any size. It's missing a few things but take a look at our Roadmap page and you'll see what we're looking to add in the coming months.</p>
-            <p>Right now, you can build and run any HTML5+CSS+JS application. It's a great place to start playing with web development, because there is no need to set up any stack. Once we've added deployment targets, Git/Hg integration, build tasks, code completion and more, we think you'll be ready to dump your desktop tools.</p>
-          </li>
-        </ul>
-      </li>
-      <li><p></p></li>
-      <li>
-        <ul>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-thumbs-up"></i> No sign up needed</h4>
-                <p>You can use our IDE without even having to sign up.</p>
-              </li>
-              <li>
-                <h4><i class="icon-unlock"></i> Collaborate in real time</h4>
-                <p>Collaboration is at the heart of what we are buildling. Google Docs style imminent but we're about to add Git support and chat.</p>
-              </li>
-              <li>
-                <h4><i class="icon-road"></i> Any size project</h4>
-                <p>Codio is equally at home with very large applications as with tiny demos.</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-eye-open"></i> If it's public, it's free</h4>
-                <p>Public projects are and always will be free.</p>
-              </li>
-              <li>
-                <h4><i class="icon-tasks"></i> A complete stack</h4>
-                <p>We provide everything you need to build and deploy your front-end applications. No need to worry about 3rd party providers unless you want to.</p>
-              </li>
-              <li>
-                <h4><i class="icon-fire"></i> Learning with codio</h4>
-                <p>Codio is great for anyone learning web development. You can start coding without installing anything and we're going announce some major learning features soon.</p>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <div id="features" class="columned">
+    <div>
       <div>
-        <ul id="feature-tabs">
-          <li class="active"><a href="#features-ide">IDE</a></li>
-          <li><a href="#features-education">Annotations</a></li>
-        </ul>
-      </div>
-      <div id="feature-groups">
-        <section id="features-ide" class="active">
-          <ul>
-            <li>
-              <ul>
-              <li>
-                <h4><i class="icon-group"></i> Deploy Anywhere</h4>
-                <p>With the new deployment features of Codio, you can deploy your code to your own servers, or we can host it for you, with no setup required. A single click is all that is needed.</p>
-              </li>
-                <li>
-                  <h4><i class="icon-cog"></i> Any Web Application</h4>
-                  <p>Any HTML5+CSS+JS front-end, web site, mobile web app or code library works in our IDE. And we're adding HAML, SCSS, SASS etc. before too long.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-edit"></i> Beautiful Code Editor</h4>
-                  <p>Like many others, we're eternally grateful to the ACE project for the best web-based code editor in existence.</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <h4><i class="icon-cloud"></i> 100% Cloud-Based &amp; Fast</h4>
-                  <p>Everything runs in your browser and is blazingly fast. You can access and fork projects without even needing an account.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-refresh"></i> Highly Collaborative</h4>
-                  <p>Codio allows any number of users to collaborate on real-time projects. Full Git/Hg integration is right around the corner.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-sitemap"></i> Fork any Project</h4>
-                  <p>Fork any public or anonymous project without creating an account.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-comments-alt"></i> Private &amp; Public Projects</h4>
-                  <p>Watch Codio in action by loading up some projects and running them in the IDE. Just load the app and run!</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <h4><i class="icon-group"></i> Teams &amp; Organizations</h4>
-                  <p>You can group Codio users into teams, who can then be assigned read/write/admin access. Soon, teams will be a part of the special Organization account.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-cloud-download"></i> Import from Git, Hg and Zip</h4>
-                  <p>Import from Git/Mercurial repos and ZIP files and your project can be run instantly within the IDE. Just press the Run button.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-user"></i> Anonymous Mode</h4>
-                  <p>You can access the Codio IDE without even signing up. By bookmarking the URL any project you create will be only editable by you. Others can look at your code and even fork it.</p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
-
-        <section id="features-education">
-          <h5>Find out what we're doing for education and <%= link_to 'teaching people to code', '/education' %>, then visit the  <%= link_to 'Codio:Annotations documentation', '/docs/annotations/' %> page for more details.</h5>
-          <ul>
-            <li>
-              <ul>
-                <li>
-                  <h4><i class="icon-cog"></i> Any Programming Language</h4>
-                  <p>Create interactive tutorials for any programming language using the Codio IDE or your own favorite IDE.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-edit"></i> Rich Annotations</h4>
-                  <p>You can add rich text, images and videos that automatically point to relevant code snippets within any part of your project.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-cloud-upload"></i> Great for Education</h4>
-                  <p>It's completely free and is really great for teaching, tutorials or code examples at any level.</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <h4><i class="icon-cloud"></i> Great for APIs &amp; Advanced Stuff</h4>
-                  <p>You can use Codio:Annotations to explain an API, frameworks and any piece of complex code.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-refresh"></i> Guided Tours</h4>
-                  <p>Codio:Annotations lets you create guided tours around your project so you see code explained in its natural habitat - an IDE.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-sitemap"></i> Explore any code project</h4>
-                  <p>You can also run in Explore mode, which lets you wander through an annotated project and click to get explanations in the bits you're interested in.</p>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <h4><i class="icon-group"></i> Helpers</h4>
-                  <p>We provide neat helpers that rapidly speed up the pace at which you can add your annotations.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-cloud-download"></i> Embed in any web page</h4>
-                  <p>Your annotated projects can be run in any browser and even embedded directly into your own web page. We've got a widget coming soon to make this even easier.</p>
-                </li>
-                <li>
-                  <h4><i class="icon-user"></i> No signup needed</h4>
-                  <p>There are absolutely no barriers so you can annotate your project then let people run it without them even needing to signup.</p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </section>
+        <h2>Productivity</h2>
+        <h3>Work and code faster than ever before</h3>
+        <p>With Codio, you can <strong>work and code faster</strong>, because we give you to productivity features and tools that you need to succeed fast!</p>
+        <p>Syntax highlighting for hundreds of languages, code completion, TextMate-like snippets, fully customizable keyboard shortcuts, TernJS, Emmet, code folding, multiple cursors, color preview/picker, inline preview and much more.</p>
       </div>
     </div>
-
-    <ul id="roadmap" class="columned">
-      <li>
-        <p>We're working towards building the perfect IDE to make building HTML5 applications as enjoyable for you as possible.</p>
-      </li>
-      <li>
-        <ul>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-th-large"></i>IDE and Editor Features</h4>
-                <ul>
-                  <li><strike>MAY: Full keyboard shortcuts</strike></li>
-                  <li><strike>MAY: Production deployment to multiple Codio and external servers</strike>
-                  <li><strike>MAY: FTP and SFTP deployment targets</strike></li>
-                  <li><strike>MAY: Incremental Search</strike></li>
-                  <li><strike>JUNE: CSS/HTML color/gradient preview on code mouseover</strike></li>
-                  <li><strike>JUNE: CSS/HTML color picker in code</strike></li>
-                  <li><strike>JUNE: Inline preview</strike></li>
-                  <li><strike>JUNE: Real time editing (like Google Docs)</strike></li>
-                  <li><strike>JUNE: Snippets (a la TextMate)</strike></li>
-                  <li><strike>JUNE: Emmet Support</strike></li>
-                  <li>JUNE: Code completion / Intellisense</li>
-                  <li>JUNE: Hyperlink to function defined at cursor location</li>
-                  <li>JUNE: Inline help and documentation</li>
-                  <li>JUNE: Coffeescript, Markdown, LESS, SCSS, Sass, Coffeescript, HAML support</li>
-                  <li>JUNE: Parse.com and Nodejitsu deployment targets</li>
-                  <li>Grunt-based build tasks such as minification etc.</li>
-                  <li>Bower support</li>
-                  <li>Yeoman scaffolding</li>
-                  <li>Rich search &amp; Replace, including regex support</li>
-                  <li>Multi pane code editing</li>
-                  <li>Inline CSS Editing</li>
-                  <li>Git integration: CLI and GUI</li>
-                  <li>Star, watch, rate and explore</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-        </ul>
-      </li>
-    </ul>
-
-    <ul id="examples" class="columned">
-      <li>
-        <p>There's no better way to see Codio in action than loading up some juicy projects and running them in the IDE.</p>
-        <p>Once the app is loaded in the IDE, simply press the Play button to run it.<p>
-      </li>
-      <li>
-        <ul>
-          <li><h4>Applications With Codio:Annotations</h4></br>
-            <ul>
-              <li>
-                <h4><i class="icon-th-large"></i> Javascript event handling</h4>
-                <p>A detailed tutorial showing the different ways to set up event handlers using in javascript.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Intro-to-JS-Events/tree/App/basics.html', :target => "_blank" %>
-              </li>
-              <li>
-                <h4><i class="icon-eye-open"></i> Oscillating spring</h4>
-                <p>An HTML5 canvas simulation of an oscillating spring. A great mix of math, physics and coding.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Oscillating-Spring', :target => "_blank"  %>
-              </li>
-              <li>
-                <h4><i class="icon-desktop"></i> HTML Manipulation from JS</h4>
-                <p>A detailed tutorial showing how javascript can manipulate HTML.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/JS-Manip-HTML', :target => "_blank"  %>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-th-large"></i> Impress Presentation</h4>
-                <p>Impress.js is a Prezi style presentation library. We annotated the standard sample.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Impress', :target => "_blank" %>
-              </li>
-            </ul>
-          </li>
-          <li><h4>Without Codio:Annotations</h4></br>
-            <ul>
-              <li>
-                <h4><i class="icon-th-large"></i> ToDoMVC</h4>
-                <p>This is the ToDoMVC project for understanding and choosing an MVC Framework. It is a large project showing several MVC frameworks in action.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/todo-mymvc/tree/todo-mymvc/index.html', :target => "_blank" %>
-              </li>
-              <li>
-                <h4><i class="icon-eye-open"></i> Impress.js</h4>
-                <p>A cool Open Source project that lets you construct Prezi like presentations.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/impress/tree/impress/index.html', :target => "_blank"  %>
-              </li>
-              <li>
-                <h4><i class="icon-desktop"></i> Street Fighter</h4>
-                <p>A very simple HTML5 game example. </p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Street-Fighter/tree/App/index.html', :target => "_blank"  %>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-star"></i> Tearable Cloth</h4>
-                <p>Cool interactive demo combining coding, maths and physics.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Tear-able-Cloth-Demo', :target => "_blank"  %>
-              </li>
-              <li>
-                <h4><i class="icon-step-backward"></i> Multitouch Boids demo</h4>
-                <p>Another interactive demo with cool graphics.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Multitouch-Boids-Demo', :target => "_blank"  %>
-              </li>
-              <li>
-                <h4><i class="icon-picture"></i> CSS only animated text</h4>
-                <p>A simple example of animated text using only CSS</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Animated-Text-Fill-Demo', :target => "_blank"  %>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li>
-                <h4><i class="icon-star"></i> jquerymobile</h4>
-                <p>This shows an application built using jquerymobile. You can run this on the desktop or in a mobile browser.</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/jquerymobile-demo/tree/jquerymobile-demo/index.html', :target => "_blank"  %>
-              </li>
-              <li>
-                <h4><i class="icon-step-backward"></i> A Tutorial</h4>
-                <p>A tutorial type application for teaching javascript modification of HTML</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Tutorial/tree/Tutorial/index.html', :target => "_blank"  %>
-              </li>
-              <li>
-                <h4><i class="icon-picture"></i> Pixelate</h4>
-                <p>Something borrowed from Codepen showing javascript pixelation of an image</p>
-                <%= link_to '<i class="icon-play"></i> run and play...', 'https://codio.com/codio/Pixelate/tree/Pixelate/index.html', :target => "_blank"  %>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-
   </div>
 </section>
+
+<section id="deployment">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Deploy your code</h2>
+        <h3>To production &amp; staging, or anywhere you like.</h3>
+        <p>Fast, one-click deployment to any number of test, staging and production environments: <strong>FTP</strong>, <strong>SFTP</strong>, <strong>Parse</strong>, <strong>NodeJitsu</strong>, as well as <strong>Codio's own hosting</strong> platform.</p>
+        <p>Being cloud based, these are much faster than deploying from the desktop.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="opensource">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Open Source is Free</h2>
+        <p>Codio is free for absolutely any project whose source is publicly available. No exceptions.</p>
+      </div>
+
+      <div><%= image_tag 'home/oss.png', :width => 106, :height => 128 %></div>
+
+      <div>
+        <h2>Education is free</h2>
+        <p>Codio is a perfect for teaching and learning to code. <a href="/p/create" data-no-turbolink="1">Create a project</a> and you're ready to run your code.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sourcecontrol">
+  <div class="container">
+    <div>
+      <div>
+        <h2><%= image_tag 'home/git.png', :width => 36 %> Git in the Cloud</h2>
+        <h3>Truly collaborative source control</h3>
+        <p>We've spent a lot of time bringing Git into the browser, while still allowing you to use Git in the way you are familiar with. And that means full command line access for all your most used Git commands. Codio has <strong>full integration with Git</strong>, allowing you to pull and push with any remote repository. It just works!</p>
+        <p class="coming-soon">Coming Soon</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="compiled">
+  <div class="container">
+    <div>
+      <div>
+        <h2>CoffeeScript, SASS, Less</h2>
+        <h3>Pre-process and compile on demand</h3>
+        <p>Codio has direct support for writing and running <strong>CoffeeScript, Sass, SCSS and Less</strong>. No manual compilation steps are needed, and you can preview your compiled code any time you want. We'll even compile these when accessing via your HTML.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="realtime">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Real-Time Coding</h2>
+        <h3>Google Docs style collaborative coding!</h3>
+        <p>Working as part of a team has never been easier! Open a file and watch in real-time as your team mates write code. Then make a few edits as they watch you. The browser is the <strong>natural home of collaboration</strong>, and real time coding is just the start.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="baked">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Integrated Tools</h2>
+        <h3>Manage app dependencies with a click of a button</h3>
+        <p><strong>Bower</strong> is an amazingly useful tool for managing your application dependencies, so we baked it right into Codio and made it incredibly easy to use, and without any need to install Node or even Bower. It's all in the cloud! <strong>Grunt</strong> and <strong>Yeoman</strong> support coming very soon.</p>
+        <ul>
+          <li><%= image_tag 'home/bower-logo.png', :width => 46 %></li>
+          <li><%= image_tag 'home/grunt-logo.png', :width => 36 %></li>
+          <li><%= image_tag 'home/yeoman-logo.png', :width => 42 %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="annotate-embed">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Annotations</h2>
+        <p>Introducing an amazing new way to create <strong>rich, interactive documentation and tutorials</strong> - and it's all right within the IDE and a part of your code! No complicated formatting or standards to understand, just annotate your code and Codio will show the user around your code.</p>
+      </div>
+
+      <div>
+        <h2>Embed anywhere</h2>
+        <p>Dump your code into Codio and then embed the IDE as an iFrame straight into your blog, or just link to it. Your readers see your code in a fully functional web IDE without any signup or interference. They can even run your projects with a single click.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <div class="clearfix">
+      <h2>PRICING <small class="coming-soon">Coming Soon</small></h2>
+      <p>Codio is currently in public beta, during which all features are available for free. We will shortly be leaving beta at which point there will be a small monthly fee for creating private projects.</p>
+    </div>
+  </div>
+</section>
+
+
+<% content_for :foot do %>
+  <%= javascript_include_tag 'home' %>
+<% end %>

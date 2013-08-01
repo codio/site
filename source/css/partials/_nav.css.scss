@@ -1,190 +1,139 @@
 // Navigation bar
 // =================================================================================================
 
-nav {
-  background-color: $cream;
-  text-transform: uppercase;
-  font: 18px 'museo_sans_rounded_300regular';
+body.home .wrap > nav {
+  background: transparent image-url('nav-top.png') repeat-x top;
   position: relative;
   height: 90px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+body.blog {
+  #site-nav li:last-child a {
+    color: #000;
+    border-color: #f36050;
+    font-family: gotham_medium;
+  }
+}
+
+body.docs {
+  #site-nav li:first-child a {
+    color: #000;
+    border-color: #f36050;
+    font-family: gotham_medium;
+  }
+}
+
+body .wrap > nav {
+  background: $white;
+  position: relative;
+  height: 90px;
+  box-shadow: 0 1px 2px #ddd;
 
   nav {
-    // Logo
-    > a {
-      display: block;
-      margin: 10px 0 0 0;
-      width: 178px;
+
+    > * {
       float: left;
     }
 
+    // Logo
+    > a {
+      display: block;
+      margin: 18px 0 0 5px;
+    }
+
     // Navigation items
-    #navigation {
+    ul {
       padding: 0;
-      margin: 38px 0 0 0 !important;
-      float: right;
+      margin: 34px 0 0 0;
+      font: 16px gotham_light;
+
+      // Sign in/out and try links
+      &.codio-nav {
+        display: none;
+        float: right;
+        margin: 30px 10px 0 0;
+
+        @include apply-to(more-than, desktop) {
+          margin: 30px 40px 0 0;
+        }
+
+        &#signedout-nav {
+          text-transform: uppercase;
+
+          li:first-child a {
+            background-color: $red;
+            padding: 7px 14px 6px;
+            border-radius: 2px;
+            color: $white;
+            border-bottom: none;
+            font-size: 16px;
+
+            &:hover {
+              background-color: #B75246;
+            }
+          }
+
+          li:nth-child(2) {
+            padding-left: 35px;
+          }
+
+          li:last-child a {
+            padding-left: 0;
+          }
+        }
+
+        &#signedin-nav {
+          margin-top: 22px;
+
+          li:first-child {
+            font: 14px gotham_medium;
+            padding: 0;
+
+            a {
+              border-bottom: none;
+            }
+          }
+
+          // Gravatar
+          li:last-child a {
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            background-color: #FFF;
+            padding: 4px;
+
+            img {
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+
+      // Site pages
+      &#site-nav {
+        text-transform: uppercase;
+        font: 16px gotham_light;
+        margin-left: 100px;
+      }
 
       li {
         display: inline-block;
+        padding: 0 14px;
 
         a {
           color: #3e3e3e;
-          padding: 0 14px;
+          padding-bottom: 5px;
           display: block;
-        }
+          border-bottom: 2px solid #ddd;
 
-        li {
-          float: left;
-          margin: 19px 0 0 0 !important;
-          height: 35px;
-
-          @include apply-to(more-than, ipad-portrait) {
-            margin-top: 25px !important;
-            height: 47px;
-          }
-
-          @include apply-to(more-than, ipad-landscape) {
-            margin-top: 38px !important;
-            height: 66px;
-          }
-
-          &:first-child {
-            @include apply-to(more-than, ipad-landscape) {
-              margin-top: 38px !important;
-            }
-          }
-
-          &:nth-child(4) {
-            @include apply-to(less-than, ipad-landscape) {
-              display: none;
-            }
-          }
-
-          &:nth-child(5) a:first-child {
-            @include apply-to(less-than, iphone-portrait) {
-              display: none;
-            }
-          }
-
-          a {
-            color: #3e3e3e;
-            padding: 0 10px;
-
-            @include apply-to(more-than, iphone-landscape) {
-              padding: 0 10px;
-            }
-
-            @include apply-to(more-than, ipad-portrait) {
-              padding: 0 12px;
-            }
-
-            @include apply-to(more-than, ipad-landscape) {
-              font-size: 16px;
-            }
-          }
-
-          &.active a {
-            color: $red;
-          }
-
-          // Navigation - Sign up
-          // ---------------------------------------------------------------------------------------
-          &:last-child {
-            height: 30px;
-            text-align: center;
-
-            a {
-              color: $red;
-            }
-
-            #cws-sign-up {
-              display: none;
-              font: 12px 'museo_sans_rounded_300regular';
-              margin: 0;
-              padding: 0 0 0 0;
-              text-align: center;
-            }
-
-            @include apply-to(more-than, ipad-portrait) {
-              margin: 0 0 0 0 !important;
-              background-color: $red;
-              height: 20px;
-
-              a {
-                color: #FFF;
-                padding: 24px 12px 28px;
-                font-family: 'gotham_mediumregular';
-
-                &:hover {
-                  color: #000;
-                }
-              }
-            }
-
-            @include apply-to(more-than, ipad-landscape) {
-              margin: 0 0 0 0 !important;
-
-              a {
-                background-color: $red;
-                padding: 0 0 0 0;
-                font-size: 15px;
-              }
-            }
+          &:hover {
+            color: $linkColor;
+            border-color: $linkColor;
           }
         }
       }
     }
-  }
-
-  #social-icons {
-    font-size: 0;
-    list-style: none;
-    float: right;
-    margin-left: 30px;
-
-    li {
-      display: inline-block;
-      margin: 30px 5px 0;
-
-      a {
-        background: image-url('social-icons.gif') no-repeat 0 0;
-        text-indent: -9999px;
-        margin: 0;
-
-        &:hover span {
-          -webkit-transform: rotate(360deg);
-          -moz-transform: rotate(360deg);
-          transform: rotate(360deg);
-        }
-
-        span {
-          background: image-url('social-icons.gif') no-repeat 0 0;
-          display: block;
-          width: 31px;
-          height: 32px;
-          position: relative;
-          z-index: 10;
-          -webkit-transition: -webkit-transform 0.4s ease-out;
-          -moz-transition: -moz-transform 0.4s ease-out;
-          transition: transform 0.4s ease-out;
-        }
-      }
-
-      &:nth-child(2) a, &:nth-child(2) a span {
-        background-position: -32px 0;
-      }
-      &:nth-child(3) a, &:nth-child(3) a span {
-        background-position: -64px 0;
-      }
-    }
-  }
-
-  // Blog Ribbon
-  #blog-ribbon a {
-    display: block;
-    width: 51px;
-    height: 106px;
-    position: absolute;
-    top: 83px;
-    z-index: 50;
   }
 }

@@ -9,14 +9,6 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-  <header>
-    <div class="container">
-      <div>
-        <h1>Code and Unload</h1>
-      <h2>While we code we often have lots of ideas brewing around. Ideas we'd like to unload onto you</h2>
-      </div>
-    </div>
-  </header>
 
   <div class="container clearfix">
 
@@ -28,42 +20,17 @@
         <% content_for :meta_keywords, current_article.tags.join(', ') %>
 
         <article>
-          <h1><%= link_to current_article.title, current_article %></h1>
-
           <section class="meta">
             <p class="date">
+              <%= link_to "&laquo;", '/blog', :class => "home" %>
               <%= link_to current_article.date.strftime('%B %e, %Y'), current_article %>
               <% if current_article.data.author %>
                 <span class="author">by <%= link_to_author current_article.data.author %></span>
               <% end %>
-              <%= link_to 'Comments', current_article.url + "#disqus_thread", :class => "dsq-comment-count" %>
             </p>
           </section>
 
-          <div class="blog-social clearfix">
-            <div class="blog-twitter">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s<%= current_article.url %>" data-via="codiohq" data-size="small" data-count="none" data-text="<%= current_article.title %>">Tweet</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-
-            <div class="blog-gplus">
-              <!-- Place this tag where you want the +1 button to render. -->
-              <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s<%= current_article.url %>"></div>
-
-              <!-- Place this tag after the last +1 button tag. -->
-              <script type="text/javascript">
-                (function() {
-                  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                  po.src = 'https://apis.google.com/js/plusone.js';
-                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                })();
-              </script>
-            </div>
-
-            <div class="blog-facebook">
-              <div class="fb-like" data-href="https://codio.com/s<%= current_article.url %>" data-send="false" data-width="400" data-show-faces="false"></div>
-            </div>
-          </div>
+          <h1><%= current_article.title %></h1>
 
           <% if current_article.data.image %>
             <%= image_tag current_article.data.image, :alt => current_article.title, :align => "left", :class => "blog-img" %>

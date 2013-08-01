@@ -1,5 +1,9 @@
 body.blog {
 
+  .wrap > .container {
+    padding-bottom: 100px;
+  }
+
   #disqus_thread {
     margin-bottom: 60px;
   }
@@ -8,7 +12,9 @@ body.blog {
     margin: 0 0 40px;
 
     &:last-child {
-      margin: 70px 0 0 0;
+      margin: 60px 0 0 0;
+      border-top: 2px solid #eee;
+      padding-top: 15px;
     }
 
     > div {
@@ -37,18 +43,10 @@ body.blog {
       margin: 0 auto;
       display: table;
 
-      @include apply-to(less-than, iphone-landscape) {
-        margin: 0 20px;
-      }
-
       > div {
-        @include apply-to(more-than, ipad-landscape) {
-          margin-left: 170px;
-        }
-
         h1 {
           color: $cream;
-          font: 30px gotham_thinregular;
+          font: 30px gotham_thin;
           text-transform: uppercase;
           padding: 0;
           margin: 0;
@@ -58,7 +56,7 @@ body.blog {
           color: $cream;
           margin: 0;
           font-size: 14px;
-          font-family: gotham_bookregular;
+          font-family: gotham_book;
           text-transform: none;
           font-weight: normal;
         }
@@ -73,14 +71,10 @@ body.blog {
     margin: 10px 0 0 25px;
     width: 210px;
 
-    @include apply-to(less-than, ipad-portrait) {
-      display: none;
-    }
-
     .all-posts {
       margin: 50px 0 62px 38px;
       text-transform: uppercase;
-      font: 14px gotham_bookregular;
+      font: 14px gotham_book;
 
       h5 {
         text-transform: capitalize;
@@ -112,22 +106,15 @@ body.blog {
   .posts {
     margin-top: 30px;
     float: left;
-
-    @include apply-to(more-than, ipad-portrait) {
-      width: 740px;
-    }
+    width: 740px;
 
     &.all {
       margin: 30px 0 50px;
 
       h2 {
         border-bottom: 1px solid #CCC;
-        margin: 0.83em 20px 30px;
-
-        @include apply-to(more-than, ipad-portrait) {
-          padding-left: 169px;
-          margin: 0.83em 0 30px;
-        }
+        padding-left: 169px;
+        margin: 0.83em 0 30px;
 
         a {
           color: #3e3e3e;
@@ -153,10 +140,7 @@ body.blog {
             border-bottom: none;
             font-size: inherit;
             margin: 0;
-
-            @include apply-to(more-than, ipad-portrait) {
-              text-align: right;
-            }
+            text-align: right;
 
             span.author {
               display: block;
@@ -179,9 +163,13 @@ body.blog {
     }
 
     > article {
-      margin: 20px 20px 60px;
-      border-bottom: 3px solid #ccc;
-      padding-bottom: 15px;
+      margin: 20px 0 105px;
+      font: 16px gotham_book;
+
+      > ul {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
 
       img:not(.fancybox-image) {
         vertical-align: middle;
@@ -229,10 +217,11 @@ body.blog {
       }
 
       .meta {
+        font-family: gotham_thin;
 
         p.tagged {
           display: block;
-          font: 14px gotham_bookregular;
+          font: 14px gotham_book;
           margin: 0 0 10px 0;
           text-transform: uppercase;
         }
@@ -265,39 +254,49 @@ body.blog {
         }
 
         p.date {
-          font-size: 12px;
+          font-size: 14px;
+
+          a.home {
+            border-radius: 50%;
+            border: 2px solid #eee;
+            display: inline-block;
+            padding: 0px 6px;
+            font-size: 20px;
+            line-height: 21px;
+            color: #aaa;
+            margin-right: 7px;
+
+            &:hover {
+              background-color: #eee;
+              color: #999;
+            }
+          }
 
           a {
-            color: #aaa;
-            font-weight: 400;
+            color: #888;
           }
 
           span.author {
-            color: #AAA;
+            color: #888;
           }
         }
 
         p.comments {
           font-size: 14px;
-
-          @include apply-to(less-than, ipad-portrait) {
-            display: none;
-          }
         }
       }
 
       h1 {
-        font: 28px gotham_bookregular;
-        margin-bottom: 5px;
-
-        @include apply-to(less-than, ipad-portrait) {
-          text-align: center;
-        }
+        font: 30px gotham_bold;
+        margin-bottom: 50px;
+        margin-top: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
       }
 
       h2 {
         margin: 2.5em 0 1em;
-        font-family: gotham_mediumregular;
+        font-family: gotham_medium;
         font-size: 19px;
       }
 

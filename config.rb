@@ -95,8 +95,6 @@ end
 page "/blog/feed.xml", :layout => false
 page "/docs/*", :layout => :docs
 
-proxy "/education-supported/index.html", "/education.html", :locals => { :supported => true }
-
 
 ###
 # Helpers
@@ -139,7 +137,7 @@ configure :build do
   activate :asset_hash
   activate :cache_buster
 
-  # activate :favicon_maker
+  activate :favicon_maker
 
   # Use relative URLs
   activate :relative_asset

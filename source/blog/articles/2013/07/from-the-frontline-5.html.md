@@ -9,8 +9,6 @@ full_width: true
 
 And here endeth our final day of the week, and the fifth issue...
 
----
-
  - Been working with Media Queries for the redesign of this site, and came across a need to **react to media queries in Javascript**. Unfortunately that's not possible, because it's only CSS. I found [enquire.js](http://wicky.nillia.ms/enquire.js/) does exactly that. Bonus!
 
  - A little gem of an [article](http://blog.mattbailey.co/post/50337824984/grunt-synchronised-testing-between-browsers-devices) for running **synchronised testing between browsers/devices** using Grunt.
@@ -24,7 +22,5 @@ And here endeth our final day of the week, and the fifth issue...
  - An oldie, but a goodie... [This is Responsive](http://bradfrost.github.io/this-is-responsive/) is a site full of **patterns, resources and new for creating responsive web experiences**.
 
  - And finally, a nice little [nugget](http://blog.alexmaccaw.com/queuing-ajax-requests) for **queuing your Ajax requests**.
-
----
 
 My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please [let me know](mailto:jmoss@codio.com).

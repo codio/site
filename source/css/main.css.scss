@@ -82,13 +82,18 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'museo_sans_rounded_300regular';
+  font-family: gotham_light;
   text-transform: uppercase;
 }
 
 a {
-  color: $red;
+  color: $linkColor;
   text-decoration: none;
+  @include transition(all 0.2s ease);
+}
+
+a, a:hover, a:active, a:focus {
+  outline: 0;
 }
 
 img {
@@ -104,11 +109,7 @@ img {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -64px;
-
-  > .container {
-    padding-bottom: 70px;
-  }
+  margin: 0 auto -100px;
 }
 
 .container {
@@ -117,31 +118,13 @@ img {
 }
 
 
-#hiring a {
-  position: absolute;
-  top: 14px;
-  text-indent: -9999px;
-  background: transparent image-url('hiring.gif') no-repeat;
-  width: 113px;
-  height: 63px;
-  margin-left: 210px;
-  display: block;
-  z-index: 9;
-}
-
-
-
 // Import partials
 @import 'partials/nav';
 @import 'partials/standard';
-@import 'partials/nav-banner';
-@import 'partials/columned';
+@import 'partials/social';
 @import 'partials/footer';
-@import 'partials/education-support';
 
 // Import pages
 @import 'pages/home';
-@import 'pages/pricing';
 @import 'pages/blog';
 @import 'pages/docs';
-@import 'pages/education';

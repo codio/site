@@ -1,10 +1,11 @@
-body.docs.full-screen .wrap {
+body.docs.full-screen {
   > nav, > .main, > .sub, > footer {
     display: none;
   }
 
-  > .container {
+  .wrap > .container {
     width: 100%;
+    padding-bottom: 100px;
 
     header {
       margin-left: 365px;
@@ -33,37 +34,22 @@ body.docs.full-screen .wrap {
   }
 }
 
-body.docs .wrap {
+body.docs {
 
   @import 'partials/tree';
   @import 'partials/breadcrumbs';
 
-  > nav {
-    box-shadow: 0 1px 4px #ddd;
-    font-size: 15px;
-
-    #navigation li:nth-child(3) a {
-      font-family: 'museo_sans_rounded_700regular';
-    }
-
-    #blog-ribbon a {
-      top: 86px;
-
-      img {
-        max-width: 72%;
-      }
-    }
+  .wrap > .container {
+    padding-bottom: 100px;
   }
 
-  // font-size: 18px;
-
   header {
-    margin: 20px 0 0 90px;
+    margin: 20px 0 0 0;
     overflow: hidden;
 
     #breadcrumbs {
       float: left;
-      width: 855px;
+      width: 940px;
     }
 
     #full-screen {
@@ -76,22 +62,23 @@ body.docs .wrap {
     min-height: 500px;
 
     h1 {
-      font: 26px gotham_mediumregular;
+      font: 26px gotham_book;
       margin: 0 0 18px;
-      border-bottom: 3px solid #ccc;
+      border-bottom: 1px solid #ccc;
       padding-bottom: 8px;
       text-transform: none;
     }
 
     h2 {
-      font: 1.3em gotham_mediumregular;
+      font: 1.3em gotham_light;
+      text-transform: none;
       margin: 2.0em 0 0.3em;
       border-bottom: 1px solid #ddd;
       padding-bottom: 8px;
     }
 
     h3 {
-      font: 1.2em gotham_bookregular;
+      font: 1.2em gotham_book;
       margin: 3em 0 1.4em;
     }
 

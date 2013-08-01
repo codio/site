@@ -7,10 +7,6 @@ class_name: blog
 full_width: true
 ---
 
-You beauty!!
-
----
-
  - An [in-depth primer](http://tech.pro/tutorial/1456/a-primer-into-front-end-tooling-gruntjs-for-an-open-source-workflow) into front-end tooling using Grunt, for an open source workflow.
 
  - [PSD.rb](https://github.com/layervault/psd.rb) is a Ruby library that can parse Photoshop PSD files. The library itself isn't front-end related, but what it does is.
@@ -24,7 +20,5 @@ You beauty!!
  - [6 simple steps to create a hipster logo](http://hipsterlogo.com/).
 
  - Another great little blog [post](http://blog.alexmaccaw.com/jswebapps-onbeforeunload) from Alex MacCaw about preventing tab-close data loss.
-
----
 
 My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please [let me know](mailto:jmoss@codio.com).

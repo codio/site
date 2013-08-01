@@ -1,54 +1,70 @@
-footer {
-  color: #eeeee9;
-  height: 64px;
-
-  section {
-    background-color: $red;
-    font-size: 12px;
-    padding: 14px 4px;
-    text-align: center;
-
-    @include apply-to(more-than, iphone-landscape) {
-      text-align: left;
+body.home footer {
+  .container > div {
+    &:first-child {
+      margin-top: 0;
     }
 
-    @include apply-to(more-than, ipad-portrait) {
-      padding: 24px 40px;
+    &:nth-child(2) {
+      @include apply-to(more-than, desktop) {
+        width: 670px;
+      }
     }
 
-    a {
-      color: $cream;
-    }
-
-    @include apply-to(more-than, ipad-landscape) {
-      .container > div {
-        float: right;
-        margin-right: 30px;
+    &:last-child {
+      @include apply-to(more-than, desktop) {
+        width: 204px;
       }
     }
   }
 }
 
-.fancybox-inner > #webinars-inner {
-  width: 500px;
+
+footer {
+  background: #666666 image-url('bgcloth.png') repeat;
+  color: #ccc;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 1px 2px #000;
+  font: 11px gotham_book;
+  padding: 30px 10px;
   text-align: center;
+  line-height: 1.5em;
+  height: 40px;
 
-  h3 {
-    font: 1.6em gotham_mediumregular;
-    margin: 24px 0 24px;
-    text-transform: uppercase;
-  }
+  a {
+    color: $cream;
 
-  > div > p {
-    margin: 6px;
-    font-weight: bold;
-
-    span {
-      margin-left: 15px;
+    &:hover {
+      color: $linkColor;
     }
   }
 
-  > p {
-    margin: 22px 0;
+  .container > div {
+    text-align: left;
+
+    &:first-child {
+      float: left;
+      width: 200px;
+      height: 1px;
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+
+    &:nth-child(2) {
+      background: transparent image-url('footer-logo.png') no-repeat left center;
+      background-size: 34px;
+      padding-left: 50px;
+      float: left;
+      width: 430px;
+      margin-top: 5px;
+    }
+
+    &:last-child {
+      float: left;
+      width: 200px;
+      text-align: right;
+      padding: 20px 76px 0 0;
+    }
   }
+
 }

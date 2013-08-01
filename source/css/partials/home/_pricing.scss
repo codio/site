@@ -1,0 +1,58 @@
+#pricing {
+  background-image: linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -o-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -moz-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -webkit-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -ms-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.25, rgb(255,255,255)),
+    color-stop(0.36, rgb(239,239,239))
+  );
+
+  @include apply-to(more-than, desktop) {
+    background-image: linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -o-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -moz-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -webkit-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -ms-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.15, rgb(255,255,255)),
+      color-stop(0.36, rgb(239,239,239))
+    );
+  }
+
+  .container > div {
+    padding: 140px 0 80px;
+    font: 16px gotham_light;
+
+    h2 {
+      float: left;
+      font-size: 28px;
+      margin: 0;
+      color: #666;
+      width: 160px;
+
+      @include apply-to(more-than, desktop) {
+        width: 180px;
+      }
+    }
+
+    p {
+      float: left;
+      width: 500px;
+      line-height: 1.6em;
+      margin: 0;
+      padding-right: 20px;
+
+      @include apply-to(more-than, desktop) {
+        width: 674px;
+      }
+    }
+  }
+}

@@ -9,8 +9,6 @@ full_width: true
 
 Bigger and better than evaarrrr...
 
----
-
  - The guys at [MailGun just released a nifty little API to allow you to validate email](http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/) quickly and easily. Not so sure it's actually that hard to do, and requires an API, but could be useful - maybe.
 
  - Great collection of really useful Chrome [DevTools snippets](http://bgrins.github.io/devtools-snippets/).
@@ -26,7 +24,5 @@ Bigger and better than evaarrrr...
  - [Bootstrap 3](http://getbootstrap.com/) makes an early appearance with its first release candidate.
 
  - The guys at [Stripe have created an online store](https://shop.stripe.com/) where you can buy Stripe branded clothing. But it's the tiny UI touches on this site that are simply brilliant. Add something to the shopping basket, checkout but leave the form blank to see a great way to provide feedback on an incorrect form submission.
-
----
 
 My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please [let me know](mailto:jmoss@codio.com).

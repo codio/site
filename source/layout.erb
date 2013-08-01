@@ -43,55 +43,16 @@
 
     <%= yield_content :head %>
 
-    <link href="https://codio.com/s/blog/feed.xml" rel="alternate" title="Gettin' Crafty - A Blog written by the team at Codio - the perfect IDE people" type="application/atom+xml"/>
+    <link href="https://codio.com/s/blog/feed.xml" rel="alternate" title="Code and Unload - While we code we often have lots of ideas brewing around. Ideas we'd like to unload onto you" type="application/atom+xml"/>
   </head>
   <body class="<%= current_page.data.class_name || 'standard' %>" data-spy="scroll" data-target="aside">
     <a id="top"></a>
 
     <div class="wrap">
 
-      <nav>
-        <div class="container">
-
-          <div id="blog-ribbon" class="nofade">
-            <%= link_to image_tag('blog-ribbon.png'), '/blog', :title => "Check out our Blog", :data => { :"no-turbolink" => true } %>
-          </div>
-
-          <div id="hiring" class="nofade">
-            <%= link_to "We're hiring!", '/blog/2013/03/we-are-hiring-engineers/', :title => "We're hiring!", :data => { :"no-turbolink" => true } %>
-          </div>
-
-          <nav class="clearfix">
-            <%= link_to image_tag('logo-beta.png', :width => 178, :height => 59), '/', :data => { :"no-turbolink" => true } %>
-
-            <ul id="social-icons">
-              <li><%= link_to '<span></span>Google+', 'https://plus.google.com/u/0/b/107423236292333764300/107423236292333764300/posts', :target => "_blank" %></li>
-              <li><%= link_to '<span></span>Facebook', 'https://www.facebook.com/pages/Codio/164778707006897?ref=hl', :target => "_blank" %></li>
-              <li><%= link_to '<span></span>Twitter', 'https://twitter.com/codiohq', :target => "_blank" %></li>
-            </ul>
-
-            <ul id="navigation">
-              <li><%= link_to 'Education', '/education', :data => { :"no-turbolink" => true } %></li>
-              <li><a data-no-turbolink="true" href="/#features">Features</a></li>
-              <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
-              <li><%= link_to 'About', '/about', :data => { :"no-turbolink" => true } %></li>
-            </ul>
-          </nav>
-
-        </div>
-      </nav>
+      <%= partial :header %>
 
       <% if current_page.data.submenu %>
-        <% unless current_page.data.hide_title %>
-          <header>
-            <h1>
-              <%= current_page.data.title %>
-              <% if current_page.data.subtitle %>
-                <small><%= current_page.data.subtitle %></small>
-              <% end %>
-            </h1>
-          </header>
-        <% end %>
 
         <div class="container clearfix">
           <aside>

@@ -2,7 +2,11 @@
 
 body.home {
 
-  nav nav > a {
+  .wrap {
+    margin-bottom: 0;
+  }
+
+  .wrap nav nav > a {
     margin-left: 40px;
   }
 

@@ -1,5 +1,9 @@
 body.blog {
 
+  .wrap > .container {
+    padding-bottom: 100px;
+  }
+
   #disqus_thread {
     margin-bottom: 60px;
   }

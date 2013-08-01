@@ -3,8 +3,9 @@ body.docs.full-screen {
     display: none;
   }
 
-  > .container {
+  .wrap > .container {
     width: 100%;
+    padding-bottom: 100px;
 
     header {
       margin-left: 365px;
@@ -38,7 +39,7 @@ body.docs {
   @import 'partials/tree';
   @import 'partials/breadcrumbs';
 
-  > nav {
+  .wrap > nav {
     box-shadow: 0 1px 4px #ddd;
     font-size: 15px;
 
@@ -55,7 +56,9 @@ body.docs {
     }
   }
 
-  // font-size: 18px;
+  .wrap > .container {
+    padding-bottom: 100px;
+  }
 
   header {
     margin: 20px 0 0 0;

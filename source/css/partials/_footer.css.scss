@@ -1,3 +1,20 @@
+body.home footer {
+  .container > div {
+    &:nth-child(2) {
+      @include apply-to(more-than, desktop) {
+        width: 760px;
+      }
+    }
+
+    &:last-child {
+      @include apply-to(more-than, desktop) {
+        width: 204px;
+      }
+    }
+  }
+}
+
+
 footer {
   background: #666666 image-url('bgcloth.png') repeat;
   color: #ccc;
@@ -8,6 +25,7 @@ footer {
   padding: 30px 10px;
   text-align: center;
   line-height: 1.5em;
+  height: 40px;
 
   a {
     color: $cream;
@@ -30,10 +48,6 @@ footer {
     &:nth-child(2) {
       float: left;
       width: 520px;
-
-      @include apply-to(more-than, desktop) {
-        width: 760px;
-      }
     }
 
     &:last-child {
@@ -41,10 +55,6 @@ footer {
       width: 200px;
       text-align: right;
       padding: 20px 76px 0 0;
-
-      @include apply-to(more-than, desktop) {
-        width: 204px;
-      }
     }
   }
 

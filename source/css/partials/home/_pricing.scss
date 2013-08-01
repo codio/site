@@ -1,41 +1,57 @@
 #pricing {
-  background-color: #555;
-  height: 160px;
-  color: #fff;
+  background-image: linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -o-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -moz-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -webkit-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -ms-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.25, rgb(255,255,255)),
+    color-stop(0.36, rgb(239,239,239))
+  );
 
   @include apply-to(more-than, desktop) {
-    height: 140px;
+    background-image: linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -o-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -moz-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -webkit-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -ms-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.15, rgb(255,255,255)),
+      color-stop(0.36, rgb(239,239,239))
+    );
   }
 
-  .container {
-    padding: 30px 0;
-    text-shadow: 0 1px 2px #000;
+  .container > div {
+    padding: 140px 0 80px;
+    font: 16px gotham_light;
 
     h2 {
       float: left;
-      width: 270px;
-      font: 28px gotham_light;
-      text-align: right;
-      padding-right: 30px;
-      color: #fff;
-      margin: 25px 0 0 0;
+      font-size: 28px;
+      margin: 0;
+      color: #666;
+      width: 160px;
 
       @include apply-to(more-than, desktop) {
-        width: 300px;
-        padding-right: 50px;
-        font-size: 30px;
+        width: 180px;
       }
     }
 
     p {
       float: left;
-      width: 680px;
-      font: 16px gotham_thin;
+      width: 500px;
       line-height: 1.6em;
+      margin: 0;
+      padding-right: 20px;
 
       @include apply-to(more-than, desktop) {
-        padding-right: 70px;
-        width: 800px;
+        width: 674px;
       }
     }
   }

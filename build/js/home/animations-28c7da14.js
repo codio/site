@@ -1,1 +1,0 @@
-(function(){$(function(){return $("#reel").transition({x:-1910,rotate:"-360deg",delay:500,duration:1500,easing:"ease"}),$("#tagline img").transition({opacity:1,duration:3e3,delay:800}),$("#tagline div").transition({opacity:1,duration:1e3,delay:1800}),$("#reel").on("click",function(){return $(this).transition({rotate:"+=360deg",duration:1500,easing:"ease"})})})}).call(this);

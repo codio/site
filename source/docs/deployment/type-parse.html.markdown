@@ -16,7 +16,7 @@ Please refer to the [Parse.com documentation](https://parse.com/docs/cloud_code_
 ##Target Type Parameters
 When setting up the deployment target, select "Parse.com ..." from the **Destination** drop down. 
 
-You don't need to enter parameters as all relevant information is stored in `config/global.json'.
+There are no parameters to enter as all relevant information is taken from the `config/global.json' file.
 
 ##Parse.com Folder Structure
 Here is a very simple Parse.com app in Codio.

@@ -5,10 +5,78 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-07-29T00:00:00Z</updated>
+  <updated>2013-07-31T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #16</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-16/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-16/</id>
+    <published>2013-07-31T00:00:00Z</published>
+    <updated>2013-07-31T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;You beauty!!&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;An &lt;a href="http://tech.pro/tutorial/1456/a-primer-into-front-end-tooling-gruntjs-for-an-open-source-workflow"&gt;in-depth primer&lt;/a&gt; into front-end tooling using Grunt, for an open source workflow.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/layervault/psd.rb"&gt;PSD.rb&lt;/a&gt; is a Ruby library that can parse Photoshop PSD files. The library itself isn't front-end related, but what it does is.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/facebook/huxley"&gt;Huxley&lt;/a&gt; is a test-like system...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;You beauty!!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;An &lt;a href="http://tech.pro/tutorial/1456/a-primer-into-front-end-tooling-gruntjs-for-an-open-source-workflow"&gt;in-depth primer&lt;/a&gt; into front-end tooling using Grunt, for an open source workflow.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/layervault/psd.rb"&gt;PSD.rb&lt;/a&gt; is a Ruby library that can parse Photoshop PSD files. The library itself isn&amp;#39;t front-end related, but what it does is.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/facebook/huxley"&gt;Huxley&lt;/a&gt; is a test-like system for catching UI regressions. It watches your browse, takes screenshots, and then tells you when they change. Great idea!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Jordan Lewis has written a &lt;a href="http://webuild.envato.com/blog/techniques-for-mobile-and-responsive-cross-browser-testing/"&gt;post&lt;/a&gt; about a bunch of techniques for mobile and responsive cross-browser testing at Envato.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;How did I not know about this one? &lt;a href="http://vanamco.com/ghostlab/"&gt;Ghostlab&lt;/a&gt; is a Mac app that provides synchronized testing for web and mobile. Open your app on a couple of devices, then watch each one mimic your actions in the other. Pretty damn cool!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://hipsterlogo.com/"&gt;6 simple steps to create a hipster logo&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Another great little blog &lt;a href="http://blog.alexmaccaw.com/jswebapps-onbeforeunload"&gt;post&lt;/a&gt; from Alex MacCaw about preventing tab-close data loss.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #15</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-15/"/>
+    <id>https://codio.com/s/blog/2013/07/from-the-frontline-15/</id>
+    <published>2013-07-30T00:00:00Z</published>
+    <updated>2013-07-30T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;You beauty!!&lt;/p&gt;
+
+&lt;hr&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Great looking &lt;a href="http://www.justinaguilar.com/animations/index.html"&gt;CSS3 animation cheat sheet&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An exhaustive &lt;a href="http://viewportsizes.com/"&gt;list of viewport device sizes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.webflow.com/"&gt;Webflow&lt;/a&gt; is released today, which is an extremely impressive site builder, providing a huge level of control, and produces great looking HTML and CSS...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;You beauty!!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Great looking &lt;a href="http://www.justinaguilar.com/animations/index.html"&gt;CSS3 animation cheat sheet&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An exhaustive &lt;a href="http://viewportsizes.com/"&gt;list of viewport device sizes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.webflow.com/"&gt;Webflow&lt;/a&gt; is released today, which is an extremely impressive site builder, providing a huge level of control, and produces great looking HTML and CSS at the end of it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you use &lt;a href="http://browserify.org/"&gt;Browserify&lt;/a&gt;, then you MUST get &lt;a href="http://hughsk.github.io/disc/"&gt;Disc&lt;/a&gt; up and running against your code. Freakin&amp;#39; awesome!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Addy Osmani discusses whether you should &lt;a href="http://addyosmani.com/blog/checking-in-front-end-dependencies/"&gt;check in your front-end dependencies&lt;/a&gt; into source control.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #14</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-14/"/>
@@ -134,75 +202,6 @@
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Want multiple inheritance in Javascript?&lt;/strong&gt; &lt;a href="http://ringjs.neoname.eu/"&gt;Ring.js&lt;/a&gt; may just be what you&amp;#39;re looking for.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Alex Maccaw posted a &lt;a href="http://blog.alexmaccaw.com/seo-in-js-web-apps"&gt;succinct article&lt;/a&gt; all about &lt;strong&gt;SEO in Javascript web apps&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;And finally... &lt;strong&gt;remember Firebug Lite?&lt;/strong&gt; &lt;a href="http://gal.steinitz.com/blog/2013/07/19/remember-firebug-lite/"&gt;Gal Steinitz wants to resurrect it&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #10</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-10/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-10/</id>
-    <published>2013-07-22T00:00:00Z</published>
-    <updated>2013-07-22T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;I neglected to post on Friday, so today is a bumper double issue thingy...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Need to &lt;strong&gt;track and report on your Javascript exceptions&lt;/strong&gt;? You won't get better than &lt;a href="http://errorception.com/"&gt;Errorception&lt;/a&gt;, which we use ourselves.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Like JSHint? Then you should love &lt;a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/"&gt;ESHint&lt;/a&gt;, which is a...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;I neglected to post on Friday, so today is a bumper double issue thingy...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Need to &lt;strong&gt;track and report on your Javascript exceptions&lt;/strong&gt;? You won&amp;#39;t get better than &lt;a href="http://errorception.com/"&gt;Errorception&lt;/a&gt;, which we use ourselves.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Like JSHint? Then you should love &lt;a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/"&gt;ESHint&lt;/a&gt;, which is a &lt;strong&gt;linting tool where all rules are pluggable&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Need to &lt;strong&gt;expand and collapse blocks of text&lt;/strong&gt; with a link? Check out &lt;a href="http://jedfoster.github.io/Readmore.js/"&gt;ReadMore.js&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Oh look! &lt;strong&gt;Another &amp;quot;Bootstrap wannabe&amp;quot; CSS framework&lt;/strong&gt;, this time called &lt;a href="http://cardinalcss.com/"&gt;Cardinal&lt;/a&gt;, which apparently is small and mobile first.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://abe33.github.io/spectacular/"&gt;Spectacular&lt;/a&gt; is a good looking &lt;strong&gt;&lt;a href="http://rspec.info/"&gt;RSpec&lt;/a&gt; inspired BDD framework&lt;/strong&gt; for Javascript and CoffeeScript.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Need to run &lt;strong&gt;A/B tests&lt;/strong&gt;? &lt;a href="http://srom.github.io/easyAB/"&gt;easyAB&lt;/a&gt; is a jQuery/Zepto plugin may be just want you need.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Give users &lt;strong&gt;real time hints and progress updates as they complete your forms&lt;/strong&gt; with &lt;a href="http://git.aaronlumsden.com/progression/"&gt;Progression.js&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;WebRTC is one of the most technically advanced offerings to become built right into the browser. &lt;strong&gt;&lt;a href="http://simplewebrtc.com/"&gt;simpleWebRTC&lt;/a&gt; might just make it a little easier&lt;/strong&gt; to implement.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Great article &lt;strong&gt;&lt;a href="http://www.2ality.com/2013/07/defending-constructors.html"&gt;In defence of Javascript&amp;#39;s Constructors&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #9</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-9/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-9/</id>
-    <published>2013-07-18T00:00:00Z</published>
-    <updated>2013-07-18T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Here's today's juicy bundle of links...&lt;/p&gt;
-
-&lt;hr&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they've been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;While researching ways to improve Codio's own internal &lt;strong&gt;Javascript routing&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Here&amp;#39;s today&amp;#39;s juicy bundle of links...&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;I mentioned the emerging &lt;strong&gt;&lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;Effekt.css&lt;/a&gt;&lt;/strong&gt; back in issue #1, but it seems they&amp;#39;ve been busy and we now have a good number of &lt;a href="http://h5bp.github.io/Effeckt.css/dist/"&gt;effects&lt;/a&gt; ready to go.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;While researching ways to improve Codio&amp;#39;s own internal &lt;strong&gt;Javascript routing&lt;/strong&gt; system, I came across &lt;a href="https://github.com/tildeio/router.js"&gt;Router.js&lt;/a&gt;, which is the router that &lt;a href="http://emberjs.com/"&gt;EmberJS&lt;/a&gt; uses. It&amp;#39;s a very thorough implementation.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lots of talk around &lt;strong&gt;ES6&lt;/strong&gt;, the next version of EcmaScript (Javascript), but this &lt;a href="http://www.slideshare.net/domenicdenicola/es6-the-awesome-parts"&gt;slideshow&lt;/a&gt; talks about &lt;strong&gt;the awesome parts&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/sindresorhus/screenfull.js"&gt;screenfull.js&lt;/a&gt; is a tiny wrapper for &lt;strong&gt;cross-browser usage of the Javascript fullscreen API&lt;/strong&gt;, which lets you bring the page or any element into fullscreen.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://the-taylors.org/blog/2013/07/01/how-will-i-keep-javascript-code-quality-hight-jshint/"&gt;Nice post&lt;/a&gt; by our friend Dave Taylor on the awesomeness that is &lt;strong&gt;JSHint&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://bunkat.github.io/later/"&gt;Later.js&lt;/a&gt; claims to be the &lt;strong&gt;simplest way to work with recurring schedules&lt;/strong&gt;. If you&amp;#39;re only talking about Javascript, then they&amp;#39;re probably right.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr&gt;

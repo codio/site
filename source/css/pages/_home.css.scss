@@ -89,25 +89,16 @@ body.home {
       // screen
       #screen {
         top: 115px;
-        margin-left: 2000px;
+        margin-left: 564px;
         position: absolute;
         z-index: 2;
         width: 410px;
+        opacity: 0;
         display: block;
-
-        transition: margin 1500ms ease 800ms;
-        -webkit-transition: margin 1500ms ease 800ms;
-
-        &.move {
-          margin-left: 564px;
-
-          @include apply-to(more-than, desktop) {
-            margin-left: 684px;
-          }
-        }
 
         @include apply-to(more-than, desktop) {
           width: 480px;
+          margin-left: 684px;
           top: 78px;
         }
       }

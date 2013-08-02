@@ -41,6 +41,7 @@ $ ->
 
         hash = md5 user.email.toLowerCase()
         $('#gravatar img').prop 'src', '//www.gravatar.com/avatar/' + hash + '?s=32&amp;d=mm'
+        $('#gravtar').prop 'href', "/#{user.name}"
         userlink = $('#userlink')
         userlink.prop 'href', "/#{user.name}"
         userlink.text user.name

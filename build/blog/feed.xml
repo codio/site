@@ -4,10 +4,53 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-08-05T00:00:00Z</updated>
+  <updated>2013-08-06T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>The Problem with Promises</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/08/the-problem-with-promises/"/>
+    <id>https://codio.com/s/blog/2013/08/the-problem-with-promises/</id>
+    <published>2013-08-06T00:00:00Z</published>
+    <updated>2013-08-06T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;We use &lt;a href="http://promisesaplus.com/"&gt;Promises&lt;/a&gt; as much as possible in our Javascript code, because they save us from callback hell, and produce much more readable and organised code. Simply put, a Promise represents a value that may or may not yet be available.&lt;/p&gt;
+
+&lt;p&gt;We use &lt;a href="http://api.jquery.com/category/deferred-object/"&gt;jQuery's...&lt;/a&gt;&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We use &lt;a href="http://promisesaplus.com/"&gt;Promises&lt;/a&gt; as much as possible in our Javascript code, because they save us from callback hell, and produce much more readable and organised code. Simply put, a Promise represents a value that may or may not yet be available.&lt;/p&gt;
+
+&lt;p&gt;We use &lt;a href="http://api.jquery.com/category/deferred-object/"&gt;jQuery&amp;#39;s Deferred object&lt;/a&gt; when working with Promises, which is a slightly loose implementation of the &lt;a href="http://promisesaplus.com/"&gt;Promises/A+ spec&lt;/a&gt;. It might not be the &lt;a href="http://domenic.me/2012/10/14/youre-missing-the-point-of-promises/"&gt;&amp;quot;correct&amp;quot;&lt;/a&gt; way, but it works as expected.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;re doing a little refactoring of the core IDE and decided that the &lt;a href="https://github.com/tildeio/rsvp.js"&gt;RSVP&lt;/a&gt; Promises library was a more &amp;quot;correct&amp;quot; implementation, and so we started using that in the refactor branch. However, it turns out that RSVP and other Promise libraries that adhere to the spec include a nasty little gotcha that we feel is completely unacceptable when building production applications.&lt;/p&gt;
+
+&lt;p&gt;It all boils down to point &lt;a href="http://promisesaplus.com/#point-50"&gt;3.2.6.2&lt;/a&gt; of the spec:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If either onFulfilled or onRejected throws an exception, &lt;code&gt;promise2&lt;/code&gt; must be rejected with the thrown exception as the reason.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Usually, when an exception is raised in Javascript, it is reported immediately by the browser as an error, which makes it very easy to act upon and see exactly when and where any issues arise. You can then use an &lt;a href="http://errorception.com"&gt;exception tracking service&lt;/a&gt; to report on errors as and when they happen, and respond accordingly.&lt;/p&gt;
+
+&lt;p&gt;The Promises/A+ spec states that when an exception is raised anywhere within your Promised code, the promise will be rejected. This includes &lt;em&gt;ANY and ALL exceptions&lt;/em&gt;, which means the promise will swallow your exceptions - all the time, every time!&lt;/p&gt;
+
+&lt;p&gt;The nature of an exception is such that you do not and cannot know every time, when and where they will happen. Yes, you can - and should - catch common errors and handle them accordingly. But any unexpected errors are much harder to catch. So if your Promises swallow every one of these errors, you now have to write code to handle them. It now becomes almost like using &lt;code&gt;try/catch&lt;/code&gt; all over the place, and if you find yourself doing that, then you&amp;#39;re doing it wrong!&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;The Options&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://github.com/tildeio/rsvp.js"&gt;RSVP&lt;/a&gt; makes things worse&lt;/strong&gt;, because if you don&amp;#39;t catch your Promise rejections, then any exceptions will be completely ignored. You will never know if an error occurred, and when or where it happened.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://documentup.com/kriskowal/q/"&gt;Q&lt;/a&gt; handles this a little better&lt;/strong&gt; by not swallowing exceptions when you don&amp;#39;t catch its rejections. But that means you now have to ensure that you catch rejections in &lt;em&gt;every&lt;/em&gt; Promise, and handle them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://jquery.com/"&gt;jQuery&lt;/a&gt; is even better still&lt;/strong&gt;, because it does not swallow our exceptions.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;In Conclusion&lt;/h2&gt;
+
+&lt;p&gt;So we ended up back with jQuery which lets &lt;strong&gt;us&lt;/strong&gt; decide how to handle exceptions. Any exception in a Promise is handled exactly as you would expect, and raises it immediately. It does not swallow it up, leaving you to wander why the hell your code is not working.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #17</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-17/"/>
@@ -145,34 +188,6 @@
 &lt;li&gt;&lt;p&gt;I really like the look of &lt;a href="http://jspm.io/"&gt;jspm.io&lt;/a&gt;, which is a browser based module loader that will load any module format locally or even directly from NPM or Github - nice!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://getbootstrap.com/"&gt;Bootstrap 3&lt;/a&gt; makes an early appearance with its first release candidate.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The guys at &lt;a href="https://shop.stripe.com/"&gt;Stripe have created an online store&lt;/a&gt; where you can buy Stripe branded clothing. But it&amp;#39;s the tiny UI touches on this site that are simply brilliant. Add something to the shopping basket, checkout but leave the form blank to see a great way to provide feedback on an incorrect form submission.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #13</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-13/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-13/</id>
-    <published>2013-07-26T00:00:00Z</published>
-    <updated>2013-07-26T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Lovin' it...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/jehna/VerbalExpressions"&gt;VerbalExpressions&lt;/a&gt; is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://mbradshawabs.github.io/ajaxreplay/"&gt;Ajax Replay&lt;/a&gt; is a great way to test your Ajax API calls by replaying your actual Ajax calls. If you know the...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Lovin&amp;#39; it...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/jehna/VerbalExpressions"&gt;VerbalExpressions&lt;/a&gt; is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://mbradshawabs.github.io/ajaxreplay/"&gt;Ajax Replay&lt;/a&gt; is a great way to test your Ajax API calls by replaying your actual Ajax calls. If you know the VCR Ruby Gem, this is a similar thing but for Javascript.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Now this is freakin&amp;#39; awesome! In fact, they are &lt;a href="http://labs.jaredhardy.com/minimal-devices/"&gt;Awesome devices built in HTML and CSS&lt;/a&gt;. No images to see here.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://bone.io/"&gt;Bone.io&lt;/a&gt; is a lightweight framework for building high performance Realtime Single Page HTML5 Apps. I think we may have heard that one before, but this one seems to centred around WebSockets instead of traditional Ajax.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Nice &lt;a href="http://matthewlehner.net/ember-js-routing-and-views"&gt;article&lt;/a&gt; attempting to simplify and explain Ember.js&amp;#39;s routing and rendering.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;

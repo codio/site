@@ -52,6 +52,38 @@
 </content>
   </entry>
   <entry>
+    <title>From the Front-line - #18</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-18/"/>
+    <id>https://codio.com/s/blog/2013/08/from-the-frontline-18/</id>
+    <published>2013-08-06T00:00:00Z</published>
+    <updated>2013-08-06T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Welcome to #18...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Dependency injection in Javascript? &lt;a href="https://github.com/jcreamer898/bindr"&gt;Yes you can!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you use SCSS, then this &lt;a href="https://gist.github.com/jareware/4738651"&gt;Gist covering advanced SCSS&lt;/a&gt; by &lt;a href="https://github.com/jareware"&gt;@jareware&lt;/a&gt; is a must read.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lovely collection of some really quite useful &lt;a href="https://github.com/assemble/handlebars-helpers"&gt;Handlebars helpers&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Not sure how useful this is for...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Welcome to #18...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Dependency injection in Javascript? &lt;a href="https://github.com/jcreamer898/bindr"&gt;Yes you can!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you use SCSS, then this &lt;a href="https://gist.github.com/jareware/4738651"&gt;Gist covering advanced SCSS&lt;/a&gt; by &lt;a href="https://github.com/jareware"&gt;@jareware&lt;/a&gt; is a must read.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lovely collection of some really quite useful &lt;a href="https://github.com/assemble/handlebars-helpers"&gt;Handlebars helpers&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Not sure how useful this is for real world code, but it&amp;#39;s cool nonetheless. &lt;a href="https://github.com/mariusGundersen/Overload"&gt;Overload&lt;/a&gt; is a simple way to overload a function depending on the type of the parameters passed to it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://timseverien.nl/promin/"&gt;Promin&lt;/a&gt; is a jQuery plugin that allows you to break your form inputs into smaller chunks, while providing a way to navigate through the inputs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A somewhat shocking post by &lt;a href="https://twitter.com/elliottkember"&gt;Elliott Kember&lt;/a&gt; on &lt;a href="http://blog.elliottkember.com/chromes-insane-password-security-strategy"&gt;Chrome&amp;#39;s insane password security strategy&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Beautiful collection of &lt;a href="http://tympanus.net/Development/CreativeLinkEffects/"&gt;creative link effects&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>From the Front-line - #17</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-17/"/>
     <id>https://codio.com/s/blog/2013/08/from-the-frontline-17/</id>
@@ -157,37 +189,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="http://www.webflow.com/"&gt;Webflow&lt;/a&gt; is released today, which is an extremely impressive site builder, providing a huge level of control, and produces great looking HTML and CSS at the end of it.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;If you use &lt;a href="http://browserify.org/"&gt;Browserify&lt;/a&gt;, then you MUST get &lt;a href="http://hughsk.github.io/disc/"&gt;Disc&lt;/a&gt; up and running against your code. Freakin&amp;#39; awesome!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Addy Osmani discusses whether you should &lt;a href="http://addyosmani.com/blog/checking-in-front-end-dependencies/"&gt;check in your front-end dependencies&lt;/a&gt; into source control.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #14</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-14/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-14/</id>
-    <published>2013-07-29T00:00:00Z</published>
-    <updated>2013-07-29T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Bigger and better than evaarrrr...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The guys at &lt;a href="http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/"&gt;MailGun just released a nifty little API to allow you to validate email&lt;/a&gt; quickly and easily. Not so sure it's actually that hard to do, and requires an API, but could be useful - maybe.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Great collection...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Bigger and better than evaarrrr...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The guys at &lt;a href="http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/"&gt;MailGun just released a nifty little API to allow you to validate email&lt;/a&gt; quickly and easily. Not so sure it&amp;#39;s actually that hard to do, and requires an API, but could be useful - maybe.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Great collection of really useful Chrome &lt;a href="http://bgrins.github.io/devtools-snippets/"&gt;DevTools snippets&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A very detailed article on the mad world of &lt;a href="http://raganwald.com/2013/07/27/Ive-always-been-mad.html"&gt;scoping in Javascript and Coffeescript&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Need to quickly wireframe your mobile app? Check out &lt;a href="http://www.pentotype.com/"&gt;Pentotype&lt;/a&gt;, which has a great looking pencil-drawn UI.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://visionmedia.github.io/move.js/"&gt;Move.js&lt;/a&gt; is a nice little Javascript library &amp;quot;making CSS3 backed animation extremely simple and elegant&amp;quot; from the &lt;a href="https://github.com/visionmedia"&gt;genius&lt;/a&gt; that bought you Express, Jade and Mocha.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I really like the look of &lt;a href="http://jspm.io/"&gt;jspm.io&lt;/a&gt;, which is a browser based module loader that will load any module format locally or even directly from NPM or Github - nice!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://getbootstrap.com/"&gt;Bootstrap 3&lt;/a&gt; makes an early appearance with its first release candidate.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The guys at &lt;a href="https://shop.stripe.com/"&gt;Stripe have created an online store&lt;/a&gt; where you can buy Stripe branded clothing. But it&amp;#39;s the tiny UI touches on this site that are simply brilliant. Add something to the shopping basket, checkout but leave the form blank to see a great way to provide feedback on an incorrect form submission.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;

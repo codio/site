@@ -3,26 +3,26 @@ title: Legalese
 subtitle: Privacy Policy
 submenu:
   -
-    text: Our Promise to you
-    url: '../'
+    text: Our Promises to you
+    url: '/legal'
   -
     text: Frequently Asked Questions
-    url: '../faqs'
+    url: '/legal/faqs'
   -
     text: Terms of Use
-    url: '../service-terms'
+    url: '/legal/service-terms'
   -
     text: Acceptable Usage Policy
-    url: '../aup'
+    url: '/legal/aup'
   -
     text: Copyright Notices
-    url: '../copyright'
+    url: '/legal/copyright'
   -
     text: Trademarks
-    url: '../tmusage'
+    url: '/legal/tmusage'
   -
     text: Privacy Policy
-    url: ''
+    url: '/legal/privacy'
     active: true
 ---
 

@@ -3,27 +3,27 @@ title: Legalese
 subtitle: Trademark Usage
 submenu:
   -
-    text: Our Promise to you
-    url: '../'
+    text: Our Promises to you
+    url: '/legal'
   -
     text: Frequently Asked Questions
-    url: '../faqs'
+    url: '/legal/faqs'
   -
     text: Terms of Use
-    url: '../service-terms'
+    url: '/legal/service-terms'
   -
     text: Acceptable Usage Policy
-    url: '../aup'
+    url: '/legal/aup'
   -
     text: Copyright Notices
-    url: '../copyright'
+    url: '/legal/copyright'
   -
     text: Trademarks
-    url: ''
-    active: true
+    url: '/legal/tmusage'
+    active: true    
   -
     text: Privacy Policy
-    url: '../privacy'
+    url: '/legal/privacy'
 ---
 
 **Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
@@ -36,6 +36,6 @@ The following guidelines apply to the use of all Codio Marks licensed pursuant t
 
 **3.** You shall notify Codio immediately of any improper, infringing, confusing or unauthorized use of Codio Marks of which you become aware.
 
-**4.** You shall not alter the appearance of any AC Mark or obscure such Mark in any way. Changing the color, font, or proportions of any Codio Mark is prohibited.
+**4.** You shall not alter the appearance of any Codio Mark or obscure such Mark in any way. Changing the color, font, or proportions of any Codio Mark is prohibited.
 
-**5.** Questions concerning proper use of the AC shall be directed to info@codio.com.
+**5.** Questions concerning proper use of Codio shall be directed to info@codio.com.

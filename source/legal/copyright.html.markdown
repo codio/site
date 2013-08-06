@@ -3,27 +3,27 @@ title: Legalese
 subtitle: Copyright Notice
 submenu:
   -
-    text: Our Promise to you
-    url: '../'
+    text: Our Promises to you
+    url: '/legal'
   -
     text: Frequently Asked Questions
-    url: '../faqs'
+    url: '/legal/faqs'
   -
     text: Terms of Use
-    url: '../service-terms'
+    url: '/legal/service-terms'
   -
     text: Acceptable Usage Policy
-    url: '../aup'
+    url: '/legal/aup'
   -
     text: Copyright Notices
-    url: ''
-    active: true
+    url: '/legal/copyright'
+    active: true    
   -
     text: Trademarks
-    url: '../tmusage'
+    url: '/legal/tmusage'
   -
     text: Privacy Policy
-    url: '../privacy'
+    url: '/legal/privacy'
 ---
 
 If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is accessible via the Service, please notify us in writing, including the following information:

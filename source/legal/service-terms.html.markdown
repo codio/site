@@ -3,38 +3,38 @@ title: Legalese
 subtitle: Codio Cloud License
 submenu:
   -
-    text: Our Promise to you
-    url: '../'
+    text: Our Promises to you
+    url: '/legal'
   -
     text: Frequently Asked Questions
-    url: '../faqs'
+    url: '/legal/faqs'
   -
     text: Terms of Use
-    url: ''
-    active: true
+    url: '/legal/service-terms'
+    active: true    
   -
     text: Acceptable Usage Policy
-    url: '../aup'
+    url: '/legal/aup'
   -
     text: Copyright Notices
-    url: '../copyright'
+    url: '/legal/copyright'
   -
     text: Trademarks
-    url: '../tmusage'
+    url: '/legal/tmusage'
   -
     text: Privacy Policy
-    url: '../privacy'
+    url: '/legal/privacy'
 ---
 
 **Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
 
-Effective May 9th, 2013
+Effective August 6th, 2013
 ###1. Your Agreement with the Company
 **1.1** Your use of the Codio service is governed by this agreement (the "Terms"). The Company is located at 29 Wood Street, Stratford Upon Avon CV37 6JG, United Kingdom and its subsidiaries or affiliates involved in providing the Codio Service. The “Codio Services” means the services Codio makes available through this website, including this website, the Codio cloud computing platform, the Codio APIs, any Codio Add-ons, and any other software or services offered by Codio in connection to any of those.
 
 **1.2** In order to use the Codio Services, you must first agree to the Terms. You can agree to the Terms by actually using the Codio Services. You understand and agree that Codio will treat your use of the Codio Services as acceptance of the Terms from that point onwards.
 
-**1.3** You may not use the Codio Services if you are a person barred from receiving the Codio Services under the laws of the United Kingdom or other countries, including the country in which you are resident or from which you use the Codio Services. You affirm that you are over the age of 13, as the Codio Services are not intended for children under 13.
+**1.3** You may not use the Codio Services if you are a person barred from receiving the Codio Services under the laws of the United Kingdom or other countries, including the country in which you are resident or from which you use the Codio Services. 
 
 **1.4** You agree your purchases of Codio Services are not contingent on the delivery of any future functionality or features or dependent on any oral or written public comments made by Codio or any of its affiliates regarding future functionality or features.
 
@@ -46,7 +46,7 @@ Effective May 9th, 2013
 
 **2.3** You agree not to (a) access (or attempt to access) the administrative interface of the Codio Services by any means other than through the interface that is provided by Codio in connection with the Codio Services, unless you have been specifically allowed to do so in a separate agreement with Codio, or (b) engage in any activity that interferes with or disrupts the Codio Services (or the servers and networks which are connected to the Service).
 
-**2.4** Your account has “hard” and “soft” usage limits, as further explained here (or such URL as Codio may provide). The Codio Services does not permit you to exceed the hard usage limits. Codio reserves the right to enforce soft usage limits in its sole discretion, which may result in Codio serving a “quota exceeded” page to you or users to whom you serve web pages via the Codio Services (“End Users”). Repeated exceeding of the hard or soft usage limits may lead to termination of your account.
+**2.4** Your account has “hard” and “soft” usage limits, as further explained [here](/legal/aup) (or such URL as Codio may provide). The Codio Services do not permit you to exceed the hard usage limits. Codio reserves the right to enforce soft usage limits in its sole discretion, which may result in Codio serving a “quota exceeded” page to you or users to whom you serve web pages via the Codio Services (“End Users”). Repeated exceeding of the hard or soft usage limits may lead to termination of your account.
 
 **2.5** You may use the Codio Services only to develop and run applications on the Codio infrastructure. You may not access the Codio Services for the purpose of bringing an intellectual property infringement claim against Codio or for the purpose of creating a product or service competitive with the Codio Services.
 
@@ -59,7 +59,7 @@ Effective May 9th, 2013
 
 ###4. Fees for Use of the Codio Services
 
-**4.1** Subject to the Terms, the Codio Services are provided to you without charge up to certain limits and with certain feature restrictions as displayed on the Codio web site. Usage over this limit requires your purchase of additional resources or services. The pricing for additional resources and services can be found at pricing (or such URL as Codio may provide).
+**4.1** Subject to the Terms, the Codio Services are provided to you without charge up to certain limits and with certain feature restrictions as displayed on the Codio web site. Usage over this limit requires your purchase of additional resources or services. The pricing for additional resources and services can be found on the Codio.com home page (or such URL as Codio may provide).
 
 **4.2** For all purchased resources and services, we will charge your credit card on a monthly or annual basis or at the interval indicated in Codio fees and payment policies, if different. Late payments may bear interest at the rate of 1.5% per month (or the highest rate permitted by law, if less). Charges are exclusive of taxes. You are responsible for paying all taxes and government charges, and all reasonable expenses and professional fees Codio incurs collecting late amounts. To the fullest extent permitted by law, you waive all claims relating to charges unless claimed within 60 days after the charge (this does not affect your credit card issuer rights). Charges are solely based on Codio measurements of your use of the Codio Services, unless otherwise agreed to in writing. To the fullest extent permitted by law, refunds (if any) are at the discretion of Codio and only in the form of credit for the Codio Services. Nothing in these Terms obligates Codio to extend credit to any party. You acknowledge and agree that any credit card and related billing and payment information that you provide to Codio may be shared by Codio with companies who work on Codio behalf, such as payment processors and/or credit agencies, solely for the purposes of checking credit, effecting payment to Codio and servicing your account. Codio may also provide information in response to valid legal process, such as court summonses, search warrants and court orders, or to establish or exercise its legal rights or defend against legal claims. Codio shall not be liable for any use or disclosure of such information by such third parties. Codio reserves the right to discontinue the provision of the Codio Services to you for any late payments.
 
@@ -141,7 +141,7 @@ Effective May 9th, 2013
 
 ###15. Copyright Policy
 
-**15.1** You agree to set up a process to respond to notices of alleged copyright infringement. It is Codio policy to respond to copyright infringement notices, to adhere to applicable copyright laws and to terminate the accounts of repeat infringers. We reserve the right to take down content in your Application or, if necessary, the Application itself upon receipt of a valid copyright infringement notice. For more information, please go to http://codio.com/legal/copyright/
+**15.1** You agree to set up a process to respond to notices of alleged copyright infringement. It is Codio policy to respond to copyright infringement notices, to adhere to applicable copyright laws and to terminate the accounts of repeat infringers. We reserve the right to take down content in your Application or, if necessary, the Application itself upon receipt of a valid copyright infringement notice. For more information, please go to http://codio.com/s/legal/copyright/
 
 ###16. Other Content
 

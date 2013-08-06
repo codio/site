@@ -3,27 +3,27 @@ title: Legalese
 subtitle: Acceptable Usage Policy
 submenu:
   -
-    text: Our Promise to you
-    url: '../'
+    text: Our Promises to you
+    url: '/legal'
   -
     text: Frequently Asked Questions
-    url: '../faqs'
+    url: '/legal/faqs'
   -
     text: Terms of Use
-    url: '../service-terms'
+    url: '/legal/service-terms'
   -
     text: Acceptable Usage Policy
-    url: ''
-    active: true
+    url: '/legal/aup'
+    active: true    
   -
     text: Copyright Notices
-    url: '../copyright'
+    url: '/legal/copyright'
   -
     text: Trademarks
-    url: '../tmusage'
+    url: '/legal/tmusage'
   -
     text: Privacy Policy
-    url: '../privacy'
+    url: '/legal/privacy'
 ---
 
 **Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
@@ -83,4 +83,12 @@ In addition to (and/or as some examples of) the violations described in the Term
 
 ## <a name="Quotas"></a>Quota &amp; Limits
 
-Codio does not currently have any limits on storage or bandwidth usage. We reserve the right to introduce these in the future although there are currently no plans to do so.
+Codio does not currently have any limits on storage, bandwidth or API usage. We reserve the right to introduce these in the future and once we have a better understanding of usage, we will introduce them. However, when we announce such limits ...
+
+- we will notify you at least 15 days before the limits are imposed
+- such limits will be imposed to catch heavy load situations or where very large amounts of content has been uploaded (videos, very large numbers of images, large binary files etc.) 
+- quotas will not apply to application development but rather to deployment of applications that generate heavy load to Codio's servers
+
+
+
+

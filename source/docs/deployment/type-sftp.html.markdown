@@ -12,7 +12,7 @@ The SFTP target type allows you to deploy to any SFTP server. You can use a pass
 You will need to supply a valid user name for your remote server regardless of the authentication method.
 
 ##Public Key Authentication
-Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the User Settings dialog. [xxxxxxxx]
+Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/docs/account-settings/public-key).
 
 A full explanation of how to set up SSH on your server is beyond the scope of this user guide and most developers will be familiar this process. For novices, there are plenty of good resources out there such as [Ubuntu's own user guide](https://help.ubuntu.com/community/SSH/OpenSSH/Keys).
 

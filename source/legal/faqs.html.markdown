@@ -4,26 +4,26 @@ subtitle: Frequently Asked Questions
 submenu:
   -
     text: Our Promises to you
-    url: '/legal'
+    url: '../'
   -
     text: Frequently Asked Questions
-    url: '/legal/faqs'
-    active: true        
+    url: '../faqs'
+    active: true
   -
     text: Terms of Use
-    url: '/legal/service-terms'
+    url: '../service-terms'
   -
     text: Acceptable Usage Policy
-    url: '/legal/aup'
+    url: '../aup'
   -
     text: Copyright Notices
-    url: '/legal/copyright'
+    url: '../copyright'
   -
     text: Trademarks
-    url: '/legal/tmusage'
+    url: '../tmusage'
   -
     text: Privacy Policy
-    url: '/legal/privacy'
+    url: '../privacy'
 ---
 
 If you feel that this does not explain anything well enough then please contact us and we will clarify in person as well as using it as an opportunity to improve this FAQ page.
@@ -39,7 +39,7 @@ Yes, there will. One account can pay for other users' subscriptions.
 We expect to start charging around the beginning of September, 2013.
 
 ### <a id="lockin"></a>Is there any risk of Vendor lock-in?
-Beside a substantial risk of emotional lock-in, there is no technical lock-in. Any project that you build with Codio can be either exported as a ZIP file or pushed to Github directly from Codio such that you can then import that project into another environment and continue working on it. 
+Beside a substantial risk of emotional lock-in, there is no technical lock-in. Any project that you build with Codio can be either exported as a ZIP file or pushed to Github directly from Codio such that you can then import that project into another environment and continue working on it.
 
 ### <a id="limitations"></a>Are there usage limitations?
 There are, although they are not very onerous. Click here to read the [Acceptable Usage Policy](/legal/aup).

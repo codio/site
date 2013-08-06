@@ -4,25 +4,25 @@ subtitle: Privacy Policy
 submenu:
   -
     text: Our Promises to you
-    url: '/legal'
+    url: '../'
   -
     text: Frequently Asked Questions
-    url: '/legal/faqs'
+    url: '../faqs'
   -
     text: Terms of Use
-    url: '/legal/service-terms'
+    url: '../service-terms'
   -
     text: Acceptable Usage Policy
-    url: '/legal/aup'
+    url: '../aup'
   -
     text: Copyright Notices
-    url: '/legal/copyright'
+    url: '../copyright'
   -
     text: Trademarks
-    url: '/legal/tmusage'
+    url: '../tmusage'
   -
     text: Privacy Policy
-    url: '/legal/privacy'
+    url: '../privacy'
     active: true
 ---
 

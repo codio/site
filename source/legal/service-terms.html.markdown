@@ -4,26 +4,26 @@ subtitle: Codio Cloud License
 submenu:
   -
     text: Our Promises to you
-    url: '/legal'
+    url: '../'
   -
     text: Frequently Asked Questions
-    url: '/legal/faqs'
+    url: '../faqs'
   -
     text: Terms of Use
-    url: '/legal/service-terms'
-    active: true    
+    url: '../service-terms'
+    active: true
   -
     text: Acceptable Usage Policy
-    url: '/legal/aup'
+    url: '../aup'
   -
     text: Copyright Notices
-    url: '/legal/copyright'
+    url: '../copyright'
   -
     text: Trademarks
-    url: '/legal/tmusage'
+    url: '../tmusage'
   -
     text: Privacy Policy
-    url: '/legal/privacy'
+    url: '../privacy'
 ---
 
 **Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
@@ -34,7 +34,7 @@ Effective August 6th, 2013
 
 **1.2** In order to use the Codio Services, you must first agree to the Terms. You can agree to the Terms by actually using the Codio Services. You understand and agree that Codio will treat your use of the Codio Services as acceptance of the Terms from that point onwards.
 
-**1.3** You may not use the Codio Services if you are a person barred from receiving the Codio Services under the laws of the United Kingdom or other countries, including the country in which you are resident or from which you use the Codio Services. 
+**1.3** You may not use the Codio Services if you are a person barred from receiving the Codio Services under the laws of the United Kingdom or other countries, including the country in which you are resident or from which you use the Codio Services.
 
 **1.4** You agree your purchases of Codio Services are not contingent on the delivery of any future functionality or features or dependent on any oral or written public comments made by Codio or any of its affiliates regarding future functionality or features.
 

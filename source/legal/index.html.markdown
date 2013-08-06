@@ -4,26 +4,26 @@ subtitle: Our Promises
 submenu:
   -
     text: Our Promises to you
-    url: '../'
+    url: ''
     active: true
   -
     text: Frequently Asked Questions
-    url: '../faqs'
+    url: 'faqs'
   -
     text: Terms of Use
-    url: '../service-terms'
+    url: 'service-terms'
   -
     text: Acceptable Usage Policy
-    url: '../aup'
+    url: 'aup'
   -
     text: Copyright Notices
-    url: '../copyright'
+    url: 'copyright'
   -
     text: Trademarks
-    url: '../tmusage'
+    url: 'tmusage'
   -
     text: Privacy Policy
-    url: '../privacy'
+    url: 'privacy'
 ---
 
 

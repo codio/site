@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../css/normalize-85b355e1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../css/boilerplate-8ec030e6.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../css/boilerplate-13fba61c.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -84,6 +84,82 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/08/the-problem-with-promises/">August  6, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/08/the-problem-with-promises/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/08/the-problem-with-promises/">The Problem with Promises</a></h1>
+
+        
+          <img alt="The Problem with Promises" align="left" class="blog-img" src="/s/img/blog/promises-f90ad5b6.svg" />
+        
+        <p>We use <a href="http://promisesaplus.com/">Promises</a> as much as possible in our Javascript code, because they save us from callback hell, and produce much more readable and organised code. Simply put, a Promise represents a value that may or may not yet be available.</p>
+
+<p>We use <a href="http://api.jquery.com/category/deferred-object/">jQuery&#39;s Deferred object</a> when working with Promises, which is a slightly loose implementation of the <a href="http://promisesaplus.com/">Promises/A+ spec</a>. It might not be the <a href="http://domenic.me/2012/10/14/youre-missing-the-point-of-promises/">&quot;correct&quot;</a> way, but it works as expected.</p>
+
+<p>We&#39;re doing a little refactoring of the core IDE and decided that the <a href="https://github.com/tildeio/rsvp.js">RSVP</a> Promises library was a more &quot;correct&quot; implementation, and so we started using that in the refactor branch. However, it turns out that RSVP and other Promise libraries that adhere to the spec include a nasty little gotcha that we feel is completely unacceptable when building production applications.</p>
+
+<p>It all boils down to point <a href="http://promisesaplus.com/#point-50">3.2.6.2</a> of the spec:</p>
+
+<blockquote>
+<p>If either onFulfilled or onRejected throws an exception, <code>promise2</code> must be rejected with the thrown exception as the reason.</p>
+</blockquote>
+
+<p>Usually, when an exception is raised in Javascript, it is reported immediately by the browser as an error, which makes it very easy to act upon and see exactly when and where any issues arise. You can then use an <a href="http://errorception.com">exception tracking service</a> to report on errors as and when they happen, and respond accordingly.</p>
+
+<p>The Promises/A+ spec states that when an exception is raised anywhere within your Promised code, the promise will be rejected. This includes <em>ANY and ALL exceptions</em>, which means the promise will swallow your exceptions - all the time, every time!</p>
+
+<p>The nature of an exception is such that you do not and cannot know every time, when and where they will happen. Yes, you can - and should - catch common errors and handle them accordingly. But any unexpected errors are much harder to catch. So if your Promises swallow every one of these errors, you now have to write code to handle them. It now becomes almost like using <code>try/catch</code> all over the place, and if you find yourself doing that, then you&#39;re doing it wrong!</p>
+
+<h2 id="toc_0">The Options</h2>
+
+<p><strong><a href="https://github.com/tildeio/rsvp.js">RSVP</a> makes things worse</strong>, because if you don&#39;t catch your Promise rejections, then any exceptions will be completely ignored. You will never know if an error occurred, and when or where it happened.</p>
+
+<p><strong><a href="http://documentup.com/kriskowal/q/">Q</a> handles this a little better</strong> by not swallowing exceptions when you don&#39;t catch its rejections. But that means you now have to ensure that you catch rejections in <em>every</em> Promise, and handle them.</p>
+
+<p><strong><a href="http://jquery.com/">jQuery</a> is even better still</strong>, because it does not swallow our exceptions.</p>
+
+<h2 id="toc_1">In Conclusion</h2>
+
+<p>So we ended up back with jQuery which lets <strong>us</strong> decide how to handle exceptions. Any exception in a Promise is handled exactly as you would expect, and raises it immediately. It does not swallow it up, leaving you to wander why the hell your code is not working.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/08/the-problem-with-promises/" data-via="codiohq" data-size="small" data-count="none" data-text="The Problem with Promises">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/08/the-problem-with-promises/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/08/the-problem-with-promises/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -258,62 +334,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/07/from-the-frontline-15/">July 30, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-15/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/07/from-the-frontline-15/">From the Front-line - #15</a></h1>
-
-        
-        <p>You beauty!!</p>
-
-<ul>
-<li><p>Great looking <a href="http://www.justinaguilar.com/animations/index.html">CSS3 animation cheat sheet</a>.</p></li>
-<li><p>An exhaustive <a href="http://viewportsizes.com/">list of viewport device sizes</a>.</p></li>
-<li><p><a href="http://www.webflow.com/">Webflow</a> is released today, which is an extremely impressive site builder, providing a huge level of control, and produces great looking HTML and CSS at the end of it.</p></li>
-<li><p>If you use <a href="http://browserify.org/">Browserify</a>, then you MUST get <a href="http://hughsk.github.io/disc/">Disc</a> up and running against your code. Freakin&#39; awesome!</p></li>
-<li><p>Addy Osmani discusses whether you should <a href="http://addyosmani.com/blog/checking-in-front-end-dependencies/">check in your front-end dependencies</a> into source control.</p></li>
-</ul>
-
-<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-15/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #15">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-15/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-15/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -336,13 +356,13 @@
       <h4>on this page...</h4>
       <ul>
         
+          <li><a href="/s/blog/2013/08/the-problem-with-promises/">The Problem with Promises</a></li>
+        
           <li><a href="/s/blog/2013/08/from-the-frontline-17/">From the Front-line - #17</a></li>
         
           <li><a href="/s/blog/2013/08/all-new-site/">All New Site</a></li>
         
           <li><a href="/s/blog/2013/07/from-the-frontline-16/">From the Front-line - #16</a></li>
-        
-          <li><a href="/s/blog/2013/07/from-the-frontline-15/">From the Front-line - #15</a></li>
         
       </ul>
     </section>

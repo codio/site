@@ -24,6 +24,9 @@ submenu:
   -
     text: Privacy Policy
     url: 'privacy'
+  -
+    text: Billing & Refunds
+    url: '../refund'    
 ---
 
 

@@ -24,6 +24,9 @@ submenu:
     text: Privacy Policy
     url: '../privacy'
     active: true
+  -
+    text: Billing & Refunds
+    url: '../refund'    
 ---
 
 This Privacy Policy is effective May 8th, 2013.
@@ -48,7 +51,7 @@ The Company uses data About Codio customers to perform the services requested. F
 
 The Company may also use data About Codio customers for marketing purposes. For example, the Company may use information you provide to contact you to further discuss your interest in the Services and to send you information regarding the Company and its partners, such as information about promotions or events.
 
-Codio uses credit card information solely to check the financial qualifications of prospective customers and to collect payment for the Services.
+Codio uses credit card information solely to check the financial qualifications of prospective customers and to collect payment for the Services. Codio does not store any credit card information whatsoever and any such information collected is passed securely to our payment provider ([Braintree](https://www.braintreepayments.com/)) for processing.
 
 Codio uses Web Site Navigational Information to operate and improve the Company's Web site. The Company may also use Web Site Navigational Information alone or in combination with Data About Codio customers to provide personalized information about the Company.
 
@@ -90,7 +93,7 @@ Codio may share Data About Codio Customers with the Company's service providers 
 
 From time to time, Codio may partner with other companies to jointly offer products or services. If you purchase or specifically express interest in a jointly-offered product or service from Codio, the Company may share Data About Codio Customers collected in connection with your purchase or expression of interest with our joint promotion partner(s). Codio does not control our business partners' use of the Data About Codio Customers we collect, and their use of the information will be in accordance with their own privacy policies. If you do not wish for your information to be shared in this manner, you may opt not to purchase or specifically express interest in a jointly offered product or service.
 
-Codio uses a third-party service provider to manage credit card processing. This service provider is not permitted to store, retain, or use Billing Information except for the sole purpose of credit card processing on the Company's behalf.
+Codio uses a third-party service provider ([Braintree](https://www.braintreepayments.com/)) to manage credit card processing. This service provider is not permitted to store, retain, or use Billing Information except for the sole purpose of credit card processing on the Company's behalf. Codio does not store any credit card information on its own systems whatsoever.
 
 Codio reserves the right to use or disclose information provided if required by law or if the Company reasonably believes that use or disclosure is necessary to protect the Company's rights and/or to comply with a judicial proceeding, court order, or legal process.
 

@@ -24,6 +24,9 @@ submenu:
   -
     text: Privacy Policy
     url: '../privacy'
+  -
+    text: Billing & Refunds
+    url: '../refund'    
 ---
 
 If you feel that this does not explain anything well enough then please contact us and we will clarify in person as well as using it as an opportunity to improve this FAQ page.

@@ -25,4 +25,4 @@ We feel that this change will make things much more flexible for you, and will a
 
 If all goes well, this change will take place later this week. [Follow us on Twitter](https://twitter.com/codiohq) for updates as they happen.
 
-If you have any questions or queries, please [get in touch](mailto:help@codio.com), or leave a comment below.
+If you have any questions or queries, please [get in touch](mailto:support@codio.com), or leave a comment below.

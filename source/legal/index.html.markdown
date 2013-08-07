@@ -29,8 +29,9 @@ submenu:
     url: '../refund'    
 ---
 
+**Effective August 7th, 2013.**
 
-This page contains links to our legal terms and policies. Equally important to us are the commitments we make to you.
+This legal section contains links to our legal terms and policies. Equally important to us are the commitments we make to you.
 
   - You own your code and data, we don't.
   - You can always and easily get your code out of Codio using the ZIP export or by pushing it to Github.

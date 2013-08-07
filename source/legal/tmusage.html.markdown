@@ -29,7 +29,7 @@ submenu:
     url: '../refund'    
 ---
 
-**Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
+**Effective August 7th, 2013.**
 
 The following guidelines apply to the use of all Codio Marks licensed pursuant to the Terms:
 
@@ -41,4 +41,4 @@ The following guidelines apply to the use of all Codio Marks licensed pursuant t
 
 **4.** You shall not alter the appearance of any Codio Mark or obscure such Mark in any way. Changing the color, font, or proportions of any Codio Mark is prohibited.
 
-**5.** Questions concerning proper use of Codio shall be directed to info@codio.com.
+**5.** Questions concerning proper use of Codio shall be directed to support@codio.com.

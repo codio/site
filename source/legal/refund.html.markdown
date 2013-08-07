@@ -29,10 +29,7 @@ submenu:
     active: true    
 ---
 
-Effective as of August 7th, 2013.
-
-**Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
-
+**Effective August 7th, 2013.**
 
 ##Billing Information
 The Codio Service is billed as a monthly subscription. We collect credit card details within our site but we do not store any credit card information whatsoever. All credit card information is managed and stored by [Braintree](https://www.braintreepayments.com/). 
@@ -46,14 +43,14 @@ We will shortly be offering Organization accounts that allow one person to take 
 You may cancel your subscription at any time but your subscrition will remain active until the end of the subscription period. We do not offer refunds for subscriptions canceled partway through a month.
 
 ##General Refund Policy
-Codio does not offer refunds other than at its own, exclusive discretion. If you wish to cancel your subscription then your subscription will continue running until the end of the subscription period one month). No partial refunds will be given.
+Codio does not offer refunds other than at its own, exclusive discretion. If you wish to cancel your subscription then your subscription will continue running until the end of the subscription period (one month). No partial refunds will be given.
 
-If you wish to assess the suitability of Codio for your needs, then you are able to use almost all Codio functionality without a subscription, under the proviso that your code is publicly visible. If you want to test Codio with code that should remain private then you will need a paid subscription.
+If you wish to assess the suitability of Codio for your needs, then you are able to use almost all Codio functionality without a subscription, under the proviso that your code is publicly visible. If you want to test Codio on private projects (where no-one can see your code except those you invite) then you will need a paid subscription.
 
 
 ##Contacting Us
 
-Questions regarding this Refund Policy should be directed to info@codio.com or by mailing
+Questions regarding this Refund Policy should be directed to support@codio.com or by mailing
 
     Codio
     c/o Application Craft UK Ltd.

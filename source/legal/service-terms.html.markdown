@@ -29,17 +29,20 @@ submenu:
     url: '../refund'    
 ---
 
-**Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
+**Effective August 7th, 2013.**
 
-Effective August 6th, 2013
+
 ###1. Your Agreement with the Company
-**1.1** Your use of the Codio service is governed by this agreement (the "Terms"). The Company is located at 29 Wood Street, Stratford Upon Avon CV37 6JG, United Kingdom and its subsidiaries or affiliates involved in providing the Codio Service. The “Codio Services” means the services Codio makes available through this website, including this website, the Codio cloud computing platform, the Codio APIs, any Codio Add-ons, and any other software or services offered by Codio in connection to any of those.
 
-**1.2** In order to use the Codio Services, you must first agree to the Terms. You can agree to the Terms by actually using the Codio Services. You understand and agree that Codio will treat your use of the Codio Services as acceptance of the Terms from that point onwards.
+**1.1** Codio is a trading name and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
 
-**1.3** You may not use the Codio Services if you are a person barred from receiving the Codio Services under the laws of the United Kingdom or other countries, including the country in which you are resident or from which you use the Codio Services.
+**1.2** Your use of the Codio service is governed by this agreement (the "Terms"). The Company is located at 29 Wood Street, Stratford Upon Avon CV37 6JG, United Kingdom and its subsidiaries or affiliates involved in providing the Codio Service. The “Codio Services” means the services Codio makes available through this website, including this website, the Codio cloud computing platform, the Codio APIs, any Codio Add-ons, and any other software or services offered by Codio in connection to any of those.
 
-**1.4** You agree your purchases of Codio Services are not contingent on the delivery of any future functionality or features or dependent on any oral or written public comments made by Codio or any of its affiliates regarding future functionality or features.
+**1.3** In order to use the Codio Services, you must first agree to the Terms. You can agree to the Terms by actually using the Codio Services. You understand and agree that Codio will treat your use of the Codio Services as acceptance of the Terms from that point onwards.
+
+**1.4** You may not use the Codio Services if you are a person barred from receiving the Codio Services under the laws of the United Kingdom or other countries, including the country in which you are resident or from which you use the Codio Services.
+
+**1.5** You agree your purchases of Codio Services are not contingent on the delivery of any future functionality or features or dependent on any oral or written public comments made by Codio or any of its affiliates regarding future functionality or features.
 
 ###2. Your Account and Use of the Codio Services
 

@@ -29,9 +29,7 @@ submenu:
     url: '../refund'    
 ---
 
-This Privacy Policy is effective May 8th, 2013.
-
-**Important:** Codio is a trading name for the Codio Service and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
+**Effective August 7th, 2013.**
 
 ## 1. Web Site Covered
 
@@ -119,7 +117,7 @@ Codio reserves the right to change this Privacy Statement. Codio will provide no
 
 ## 12. Contacting Us
 
-Questions regarding this Privacy Statement or the information practices of the Company's Web site should be directed to info@codio.com or by mailing
+Questions regarding this Privacy Statement or the information practices of the Company's Web site should be directed to support@codio.com or by mailing
 
     Codio
     c/o Application Craft UK Ltd.

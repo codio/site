@@ -8,6 +8,11 @@ The SFTP target type allows you to deploy to any SFTP server. You can use a pass
 
 ![sftp dialog](/img/docs/deploy-sftp.png)
 
+##Specifying a Port
+If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below
+
+	mydomain.com:1234 
+
 ##User Name
 You will need to supply a valid user name for your remote server regardless of the authentication method.
 

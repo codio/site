@@ -56,4 +56,5 @@ Questions regarding this Refund Policy should be directed to support@codio.com o
     c/o Application Craft UK Ltd.
     29 Wood Street
     Stratford Upon Avon
-    CV37 6JG.
+    CV37 6JG
+    United Kingdom

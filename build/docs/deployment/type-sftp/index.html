@@ -106,24 +106,22 @@
       <h1>SFTP Target Type</h1>
       <p>The SFTP target type allows you to deploy to any SFTP server. You can use a password and/or a public key for authentication.</p>
 
-<p><img alt="sftp dialog" src="../../../img/docs/deploy-sftp-6c9b6d28.png" /></p>
+<h2 id="toc_0">Public Key Authentication</h2>
 
-<h2 id="toc_0">Specifying a Port</h2>
+<p>Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the <a href="/s/docs/account-settings/public-key">User Settings dialog</a>. You should make sure that this public key is added to your remote server.</p>
+
+<p><img alt="sftp dialog" src="../../../img/docs/deploy-sftp-86b71290.png" /></p>
+
+<h2 id="toc_1">Specifying a Port</h2>
 
 <p>If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below</p>
 
 <pre><code>mydomain.com:1234 
 </code></pre>
 
-<h2 id="toc_1">User Name</h2>
+<h2 id="toc_2">User Name</h2>
 
 <p>You will need to supply a valid user name for your remote server regardless of the authentication method.</p>
-
-<h2 id="toc_2">Public Key Authentication</h2>
-
-<p>Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the <a href="/s/docs/account-settings/public-key">User Settings dialog</a>.</p>
-
-<p>A full explanation of how to set up SSH on your server is beyond the scope of this user guide and most developers will be familiar this process. For novices, there are plenty of good resources out there such as <a href="https://help.ubuntu.com/community/SSH/OpenSSH/Keys">Ubuntu&#39;s own user guide</a>.</p>
 
 <h2 id="toc_3">Password Authentication</h2>
 

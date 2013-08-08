@@ -4,10 +4,40 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-08-06T00:00:00Z</updated>
+  <updated>2013-08-08T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #19</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-19/"/>
+    <id>https://codio.com/s/blog/2013/08/from-the-frontline-19/</id>
+    <published>2013-08-08T00:00:00Z</published>
+    <updated>2013-08-08T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Kinda' running out of ways to introduce posts...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;More awesomeness from the guys at Square. &lt;a href="http://szimek.github.io/signature_pad/"&gt;Signature Pad&lt;/a&gt; is a Javascript library that very elegantly allows a user to sign their name, and then saves it as a PNG.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://html5hub.com/"&gt;HTML5 Hub&lt;/a&gt; is a new effort created in...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Kinda&amp;#39; running out of ways to introduce posts...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;More awesomeness from the guys at Square. &lt;a href="http://szimek.github.io/signature_pad/"&gt;Signature Pad&lt;/a&gt; is a Javascript library that very elegantly allows a user to sign their name, and then saves it as a PNG.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://html5hub.com/"&gt;HTML5 Hub&lt;/a&gt; is a new effort created in partnership with Intel to create a community around HTML5. Hold on though, hasn&amp;#39;t this been tried before?Right now, all it seems to be is a blog. Some good articles though.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://hpneo.github.io/gmaps/"&gt;gmaps.js&lt;/a&gt; is a nice and simple Google Maps Javascript library.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Time to start using Web Workers in your apps. Check out &lt;a href="http://architectjs.org/"&gt;Architect&lt;/a&gt;, which is a Javascript library built on top of Web Workers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you use CoffeeScript, along with reactive programming and declaritive UI&amp;#39;s, then you&amp;#39;ll love &lt;a href="http://yz.mit.edu/wp/introducing-reactive-coffee/"&gt;Reactive.coffee&lt;/a&gt; by &lt;a href="https://twitter.com/yaaang"&gt;@yaaang&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Heard about Data-Bindings in Javascript and HTML? Check out &lt;a href="http://www.ractivejs.org/"&gt;Ractive.js&lt;/a&gt; which uses a similar concept, but based around Handlebars templates.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;How to &lt;a href="http://yslow.org/phantomjs/"&gt;measure performance using YSlow and PhantomJS&lt;/a&gt;. Even has CI support.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The Problem with Promises</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/08/the-problem-with-promises/"/>
@@ -160,35 +190,6 @@
 &lt;li&gt;&lt;p&gt;How did I not know about this one? &lt;a href="http://vanamco.com/ghostlab/"&gt;Ghostlab&lt;/a&gt; is a Mac app that provides synchronized testing for web and mobile. Open your app on a couple of devices, then watch each one mimic your actions in the other. Pretty damn cool!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href="http://hipsterlogo.com/"&gt;6 simple steps to create a hipster logo&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Another great little blog &lt;a href="http://blog.alexmaccaw.com/jswebapps-onbeforeunload"&gt;post&lt;/a&gt; from Alex MacCaw about preventing tab-close data loss.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #15</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/07/from-the-frontline-15/"/>
-    <id>https://codio.com/s/blog/2013/07/from-the-frontline-15/</id>
-    <published>2013-07-30T00:00:00Z</published>
-    <updated>2013-07-30T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;You beauty!!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Great looking &lt;a href="http://www.justinaguilar.com/animations/index.html"&gt;CSS3 animation cheat sheet&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;An exhaustive &lt;a href="http://viewportsizes.com/"&gt;list of viewport device sizes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://www.webflow.com/"&gt;Webflow&lt;/a&gt; is released today, which is an extremely impressive site builder, providing a huge level of control, and produces great looking HTML and CSS...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;You beauty!!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Great looking &lt;a href="http://www.justinaguilar.com/animations/index.html"&gt;CSS3 animation cheat sheet&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;An exhaustive &lt;a href="http://viewportsizes.com/"&gt;list of viewport device sizes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://www.webflow.com/"&gt;Webflow&lt;/a&gt; is released today, which is an extremely impressive site builder, providing a huge level of control, and produces great looking HTML and CSS at the end of it.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you use &lt;a href="http://browserify.org/"&gt;Browserify&lt;/a&gt;, then you MUST get &lt;a href="http://hughsk.github.io/disc/"&gt;Disc&lt;/a&gt; up and running against your code. Freakin&amp;#39; awesome!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Addy Osmani discusses whether you should &lt;a href="http://addyosmani.com/blog/checking-in-front-end-dependencies/"&gt;check in your front-end dependencies&lt;/a&gt; into source control.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;

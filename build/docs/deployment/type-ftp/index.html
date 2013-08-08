@@ -106,9 +106,20 @@
       <h1>FTP Target Type</h1>
       <p>The FTP target type allows you to deploy to any FTP server. You supply the usual FTP access details.</p>
 
-<p><img alt="targets history" src="../../../img/docs/deploy-ftp-8471d3c9.png" /></p>
+<p><img alt="targets history" src="../../../img/docs/deploy-ftp-3578c0b9.png" /></p>
 
-<p><strong>Important:</strong> please be sure understand the importance of the Source Location (are you deploying a Project, an App or a Directory). <a href="/s/docs/deployment/create/">Read about it here</a>.</p>
+<h2 id="toc_0">Specifying a Port</h2>
+
+<p>If you want to override the default FTP port (21) then you can add the port number to the domain name as shown below</p>
+
+<pre><code>mydomain.com:1234 
+</code></pre>
+
+<h2 id="toc_1">Transfer Mode</h2>
+
+<p>FTP can operate in &#39;Active&#39; or &#39;Passive&#39; mode. Codio will attempt to connect in passive mode by default. If it fails, then it will automatically try active mode. If that fails then you will get an error.</p>
+
+<p>However, if you get an error then try changing the setting to Active. This will ensure that Codio will only try to connect in active mode without a risk of confusing the target server.</p>
 
 
       

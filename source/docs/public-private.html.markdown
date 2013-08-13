@@ -1,5 +1,5 @@
 ---
-title: "Public and Private Projects"
+title: Public and Private Projects
 class_name: docs
 full_width: true
 ---

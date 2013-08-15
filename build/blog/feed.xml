@@ -4,10 +4,40 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-08-13T00:00:00Z</updated>
+  <updated>2013-08-15T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #21</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-21/"/>
+    <id>https://codio.com/s/blog/2013/08/from-the-frontline-21/</id>
+    <published>2013-08-15T00:00:00Z</published>
+    <updated>2013-08-15T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Ok, so it's not that daily anymore. But it's worth the wait ;)&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://technical.io/"&gt;Tessel&lt;/a&gt; is a very interesting alternative to the &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;; the difference being that it targeted to software developers and runs Javascript (Node) right on the device, with no server...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Ok, so it&amp;#39;s not that daily anymore. But it&amp;#39;s worth the wait ;)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://technical.io/"&gt;Tessel&lt;/a&gt; is a very interesting alternative to the &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;; the difference being that it targeted to software developers and runs Javascript (Node) right on the device, with no server necessary. Codio would be perfect for this!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One of the last holy grail&amp;#39;s of CSS; the ability to horizontally &lt;em&gt;and&lt;/em&gt; vertically center an element. Well it turns out that we&amp;#39;ve perhaps been looking too hard and it&amp;#39;s been &lt;a href="http://codepen.io/shshaw/full/gEiDt"&gt;under our noses all along&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The popular &lt;a href="http://tastejs.roon.io/todomvc-1-2"&gt;ToDoMVC just released version 1.2&lt;/a&gt; which includes new frameworks such as Polymer, Flight and React.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://nbubna.github.io/HTML/"&gt;HTML.js&lt;/a&gt; is a new library for working with the DOM via a simple DSL. Eerily similar to &lt;a href="http://nbubna.github.io/HTML/"&gt;Voyeur.js&lt;/a&gt; which I mentioned way back in &lt;a href="/s/blog/2013/07/from-the-frontline-2"&gt;#2&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://tech.pro/blog/1486/client-side-storage-options"&gt;Detailed article&lt;/a&gt; all about client side storage options.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Webkit just landed an &lt;a href="/sThis allows you, the developer, to specify higher-quality images for your users who have high-resolution displays, without penalizing the users who don’t"&gt;improvement to for high-resolution&lt;/a&gt; displays via the &lt;code&gt;srcset&lt;/code&gt; image attribute. This allows you to specify higher-quality images for your users who have high-resolution displays, without penalizing the users who don&amp;#39;t.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Here&amp;#39;s a &lt;a href="https://github.com/sindresorhus/detect-indent"&gt;nifty little library&lt;/a&gt; that will tell you the indentation of a given string.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://livestyle.emmet.io/"&gt;Emmet LiveStyle&lt;/a&gt; is a plugin for live bi-directional (editor↔browser) CSS editing. Very cool and very likely to appear in Codio in the future.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The BBC seem to be really embracing open source right now. They just released another &lt;a href="http://responsivenews.co.uk/post/58244240772/imager-js"&gt;open source library for creating responsive images&lt;/a&gt;, which of course they use themselves.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The upcoming Firefox 25 will include a new feature called &lt;a href="https://www.youtube.com/watch?v=uaFBvItTJrE"&gt;Blackboxing&lt;/a&gt; which will allow you to remove specific resources from the step-by-step debugger. Great idea, and nice to see Mozilla starting to innovate more with their browser and its dev tools.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #20</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-20/"/>
@@ -174,29 +204,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>All New Site</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/08/all-new-site/"/>
-    <id>https://codio.com/s/blog/2013/08/all-new-site/</id>
-    <published>2013-08-01T00:00:00Z</published>
-    <updated>2013-08-01T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Today, we are very excited to announce an all singing, all dancing, brand spanking new website and logo!&lt;/p&gt;
-
-&lt;p&gt;Of course, if you are already looking at it, you can already see how amazing it is. But you should check out the &lt;a href="https://codio.com"&gt;homepage&lt;/a&gt;, which has changed dramatically...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Today, we are very excited to announce an all singing, all dancing, brand spanking new website and logo!&lt;/p&gt;
-
-&lt;p&gt;Of course, if you are already looking at it, you can already see how amazing it is. But you should check out the &lt;a href="https://codio.com"&gt;homepage&lt;/a&gt;, which has changed dramatically. It&amp;#39;s message is much more focused and now represents exactly what Codio is all about... a browser based IDE focused on front-end web development; HTML, Javascript and CSS.&lt;/p&gt;
-
-&lt;p&gt;We also have a new logo and associated icon which you&amp;#39;ll start to see popping up here, there and everywhere.&lt;/p&gt;
-
-&lt;p&gt;And if you are perhaps reading this elsewhere, head on over to &lt;a href="https://codio.com"&gt;codio.com&lt;/a&gt; to see it in all its glory!&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
   </entry>
 </feed>

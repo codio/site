@@ -4,10 +4,40 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-08-15T00:00:00Z</updated>
+  <updated>2013-08-19T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #22</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-22/"/>
+    <id>https://codio.com/s/blog/2013/08/from-the-frontline-22/</id>
+    <published>2013-08-19T00:00:00Z</published>
+    <updated>2013-08-19T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Happy Monday!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;"A powerful, easy-to-use, and easy-to-read programming language for the future". Gotta love that as a description of what is essentially just another CoffeeScript clone. &lt;a href="http://rzimmerman.github.io/kal/"&gt;Kal's&lt;/a&gt; difference seems to be all about removing callbacks.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Great...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Happy Monday!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;quot;A powerful, easy-to-use, and easy-to-read programming language for the future&amp;quot;. Gotta love that as a description of what is essentially just another CoffeeScript clone. &lt;a href="http://rzimmerman.github.io/kal/"&gt;Kal&amp;#39;s&lt;/a&gt; difference seems to be all about removing callbacks.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Great article by the guys at &lt;a href="http://www.thoughtbot.com/"&gt;Thoughtbot&lt;/a&gt;, walking you through how to &lt;a href="http://robots.thoughtbot.com/post/58506395118/pong-clone-in-javascript"&gt;write a Pong clone in Javascript&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Here&amp;#39;s a nifty little &lt;a href="http://minikomi.github.io/Bootstrap-Form-Builder/"&gt;Bootstrap based, visual form builder&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Adobe released an open source Javascript library to help you build &lt;a href="http://blogs.adobe.com/webplatform/2013/08/06/gradientmaps-js-gradient-maps-for-html/"&gt;gradient maps&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://getclank.com/"&gt;Clank&lt;/a&gt; is an HTML/CSS framework (think Bootstrap), but specifically for building native phone and table prototypes. Great name and can see this as being very useful!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://xpressive.org/"&gt;Xpressive&lt;/a&gt; is a CSS3 live design tool for the Mac, that looks very much like developing in Xcode. God knows why you would want to do that.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mozilla released &lt;a href="http://mozilla.github.io/brick/"&gt;Brick&lt;/a&gt;, which is a bundle of reusable UI components created with x-tags, which are simply custom HTML tags. Nice and expressive way to build an app, but a little too unfamiliar for my liking. What&amp;#39;s wrong with the tags we already have?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #21</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-21/"/>
@@ -169,38 +199,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="http://timseverien.nl/promin/"&gt;Promin&lt;/a&gt; is a jQuery plugin that allows you to break your form inputs into smaller chunks, while providing a way to navigate through the inputs.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A somewhat shocking post by &lt;a href="https://twitter.com/elliottkember"&gt;Elliott Kember&lt;/a&gt; on &lt;a href="http://blog.elliottkember.com/chromes-insane-password-security-strategy"&gt;Chrome&amp;#39;s insane password security strategy&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Beautiful collection of &lt;a href="http://tympanus.net/Development/CreativeLinkEffects/"&gt;creative link effects&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #17</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-17/"/>
-    <id>https://codio.com/s/blog/2013/08/from-the-frontline-17/</id>
-    <published>2013-08-05T00:00:00Z</published>
-    <updated>2013-08-05T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;First issue of the month, and it's chocka...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Use Less and live on the edge? Check out &lt;a href="https://github.com/codio/Flex.less"&gt;Flex.less&lt;/a&gt;, which is a collection of Less mixins for working with CSS3 Flexbox.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://rocket.github.io/"&gt;Rocket&lt;/a&gt; is a very interesting concept for real time apps, using Server Sent Events...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;First issue of the month, and it&amp;#39;s chocka...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Use Less and live on the edge? Check out &lt;a href="https://github.com/codio/Flex.less"&gt;Flex.less&lt;/a&gt;, which is a collection of Less mixins for working with CSS3 Flexbox.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://rocket.github.io/"&gt;Rocket&lt;/a&gt; is a very interesting concept for real time apps, using Server Sent Events (SSE) and JSON PATCH. I&amp;#39;m watching this one closely.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://kenkeiter.com/2013/07/21/redesigning-credit-card-inputs/"&gt;Skeuocard&lt;/a&gt; is a genius UI concept for making the input of credit card details a familiar process for the user. &lt;a href="http://kenkeiter.com/skeuocard/"&gt;Try it out here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://mean.io/"&gt;MEAN&lt;/a&gt; is a boilerplate that provides a nice starting point for MongoDB, Node.js, Express, and AngularJS based applications.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The popular Javascript test framework; &lt;a href="http://pivotal.github.io/jasmine/"&gt;Jasmine&lt;/a&gt; is almost ready for a production release of 2.0.0. Check out the &lt;a href="https://github.com/pivotal/jasmine/releases/tag/v2.0.0.rc2"&gt;rc2 release&lt;/a&gt; and the &lt;a href="https://github.com/pivotal/jasmine/blob/v2.0.0.rc2/release_notes/20rc1.md"&gt;release notes&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;There are a couple of gems to find this article about &lt;a href="http://tech.pro/tutorial/1453/7-javascript-basics-many-developers-aren-t-using-properly"&gt;7 JavaScript basics many developers aren&amp;#39;t using (properly)&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Like Github&amp;#39;s user heatmaps? Then check out &lt;a href="http://kamisama.github.io/cal-heatmap/"&gt;Cal-Heatmap&lt;/a&gt;, which is an open source Javascript lib for creating these heatmaps in your apps.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The brilliant &lt;a href="http://jshint.com"&gt;JSHint&lt;/a&gt; now allows you to put your &lt;a href="http://jshint.com/blog/2013-08-02/npm/"&gt;JSHint config into your package.json&lt;/a&gt; instead of the usual &lt;code&gt;.jshintrc&lt;/code&gt; file. Nice!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Want automatic notifications when your Grunt tasks fail? &lt;a href="https://github.com/dylang/grunt-notify"&gt;You got it!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;

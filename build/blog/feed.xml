@@ -4,10 +4,37 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-08-19T00:00:00Z</updated>
+  <updated>2013-08-20T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #23</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-23/"/>
+    <id>https://codio.com/s/blog/2013/08/from-the-frontline-23/</id>
+    <published>2013-08-20T00:00:00Z</published>
+    <updated>2013-08-20T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;More linkage...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;No doubt you already heard, but in case you haven't, &lt;a href="http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/"&gt;Bootstrap 3 was released&lt;/a&gt; in final form yesterday.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Interested in the latest and greatest? Check out &lt;a href="https://github.com/addyosmani"&gt;Addy Osmani's&lt;/a&gt; quick post on &lt;a href="http://addyosmani.com/blog/tracking-es6-support/"&gt;tracking ECMAScript 6 support&lt;/a&gt; - the next major installment...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;More linkage...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;No doubt you already heard, but in case you haven&amp;#39;t, &lt;a href="http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/"&gt;Bootstrap 3 was released&lt;/a&gt; in final form yesterday.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Interested in the latest and greatest? Check out &lt;a href="https://github.com/addyosmani"&gt;Addy Osmani&amp;#39;s&lt;/a&gt; quick post on &lt;a href="http://addyosmani.com/blog/tracking-es6-support/"&gt;tracking ECMAScript 6 support&lt;/a&gt; - the next major installment of Javacript.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Staying the subject of ECMAScript 6, and &lt;a href="http://www.sencha.com/blog/toward-modern-web-apps-with-ecmascript-6/"&gt;Sencha posted&lt;/a&gt; all about what it means to us as developers, which includes plenty of juicy example code.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A great &lt;a href="http://www.html5rocks.com/en/tutorials/speed/script-loading/"&gt;in-depth article on script loading&lt;/a&gt; in Javascript. it&amp;#39;s true what they say... there&amp;#39;s more than one way to skin the cat ya know.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #22</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-22/"/>
@@ -170,38 +197,6 @@
 &lt;h2 id="toc_1"&gt;In Conclusion&lt;/h2&gt;
 
 &lt;p&gt;So we ended up back with jQuery which lets &lt;strong&gt;us&lt;/strong&gt; decide how to handle exceptions. Any exception in a Promise is handled exactly as you would expect, and raises it immediately. It does not swallow it up, leaving you to wander why the hell your code is not working.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #18</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-18/"/>
-    <id>https://codio.com/s/blog/2013/08/from-the-frontline-18/</id>
-    <published>2013-08-06T00:00:00Z</published>
-    <updated>2013-08-06T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Welcome to #18...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Dependency injection in Javascript? &lt;a href="https://github.com/jcreamer898/bindr"&gt;Yes you can!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you use SCSS, then this &lt;a href="https://gist.github.com/jareware/4738651"&gt;Gist covering advanced SCSS&lt;/a&gt; by &lt;a href="https://github.com/jareware"&gt;@jareware&lt;/a&gt; is a must read.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lovely collection of some really quite useful &lt;a href="https://github.com/assemble/handlebars-helpers"&gt;Handlebars helpers&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Not sure how useful this is for...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Welcome to #18...&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Dependency injection in Javascript? &lt;a href="https://github.com/jcreamer898/bindr"&gt;Yes you can!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you use SCSS, then this &lt;a href="https://gist.github.com/jareware/4738651"&gt;Gist covering advanced SCSS&lt;/a&gt; by &lt;a href="https://github.com/jareware"&gt;@jareware&lt;/a&gt; is a must read.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Lovely collection of some really quite useful &lt;a href="https://github.com/assemble/handlebars-helpers"&gt;Handlebars helpers&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Not sure how useful this is for real world code, but it&amp;#39;s cool nonetheless. &lt;a href="https://github.com/mariusGundersen/Overload"&gt;Overload&lt;/a&gt; is a simple way to overload a function depending on the type of the parameters passed to it.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://timseverien.nl/promin/"&gt;Promin&lt;/a&gt; is a jQuery plugin that allows you to break your form inputs into smaller chunks, while providing a way to navigate through the inputs.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A somewhat shocking post by &lt;a href="https://twitter.com/elliottkember"&gt;Elliott Kember&lt;/a&gt; on &lt;a href="http://blog.elliottkember.com/chromes-insane-password-security-strategy"&gt;Chrome&amp;#39;s insane password security strategy&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Beautiful collection of &lt;a href="http://tympanus.net/Development/CreativeLinkEffects/"&gt;creative link effects&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>

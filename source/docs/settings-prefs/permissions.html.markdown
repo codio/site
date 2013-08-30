@@ -6,10 +6,7 @@ full_width: true
 
 You modify permissions by selecting **Permissions** from the **Project** dropdown menu.
 
-![Permissions Menu](docs/permissions-menu.png)
-
-You will see the following screen
-
+[TODO:update]
 ![Permissions Dialog](docs/permissions-dlg.png)
 
 By default:
@@ -29,8 +26,5 @@ To add a new user, start typing the user name in the text field. When you find t
 
 You can remove a user from the list by clicking the 'x' button.
 
-## Adding/Removing a Team
-All teams are listed in the dropdown box. Find the team you want to add, then click **Add**. You can edit the permissions for that team before or after pressing **Add**. The team will be added to the list of users below.
 
-You can remove a team from the list by clicking the 'x' button.
 

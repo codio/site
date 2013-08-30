@@ -4,9 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-The code editor shortcuts can be found by clicking on the **Shortcuts** link in the bottom of the IDE. You should see the correct bindings if you are using a Mac, PC or Linux box.
+You have full control over the keyboard shortcuts for code editing. You should refer to the [Codio Preferences]() section to read more about this.
 
-![keyboard shortcuts](/img/docs/kb-shortcuts.png)
+Codio has its own complete set of defaults, all of which can be overriden. You can use Vim or Emacs key bindings by modifying the `keymap` preference setting. If you do not use `keymap=default`, you cannot override keyboard shortcuts.
 
-We also have a very extensive range of [productivity shortcuts](/docs/ide/emmet/) that you should be sure to take a look at.
+The sections that contain productivity specific actions and shortcuts are `[Editor]` and `[Emmet]`.
 

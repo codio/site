@@ -1,5 +1,5 @@
 ---
-title: "Editing Anonymous Projects"
+title: "Editing anonymous projects"
 class_name: docs
 full_width: true
 ---

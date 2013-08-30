@@ -10,7 +10,7 @@ If you do not want your project to be visble to third parties, then you should m
 
 - When you [create a project](/docs/console/creating) you will see the options for making the project public or private
 - If you are in the IDE, then you can click on the [project menu](/docs/ide/ide-general/project-menu) and select the Settings option
-- You will soon be able to click on the public/private icon and label in the Console in the project box. This is not yet done but will magically start working soon.
+- You will soon be able to click on the public/private icon and label in the Dasboard in the project box. This is not yet done but will magically start working soon.
 
 ## Private Projects & Paid Accounts
 We are not yet operating any paid accounts, but just a hot tip that when we do, private projects will only be available in paid accounts.

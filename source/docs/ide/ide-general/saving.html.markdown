@@ -4,10 +4,10 @@ class_name: docs
 full_width: true
 ---
 
-Since we released the real-time collaborative editing, there is no need to save your files. Contents is saved more or less in real time.
+There is no need to save your files as content is saved automatically.
 
-If you make mistakes, then use the regular undo. 
+If you make mistakes, then use the regular undo.
 
-We are currently working on Git integration and once this is complete you will have a full blown versioning capability at your disposal.
-
+However, the best way of managing versioning is to use our in-built Git capabilities, allowing you to integrate with any remote Git repo.
+[TODO:Git link]
 

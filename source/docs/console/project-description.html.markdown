@@ -5,7 +5,7 @@ full_width: true
 tags: description
 ---
 
-The Console lists available projects for a user. You can add a project description as shown below. 
+The Dasboard lists available projects for a user. You can add a project description as shown below. 
 
 ![Project Settings](/img/docs/console-screen.png)
 

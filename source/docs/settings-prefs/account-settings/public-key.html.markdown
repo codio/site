@@ -1,5 +1,5 @@
 ---
-title: Public Key
+title: SSH Key
 class_name: docs
 full_width: true
 ---

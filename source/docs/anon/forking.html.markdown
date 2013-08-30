@@ -1,5 +1,5 @@
 ---
-title: "Forking Anonymous Projects"
+title: "Forking anonymous projects"
 class_name: docs
 full_width: true
 ---

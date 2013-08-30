@@ -4,10 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-It's safe to assume you know what editing means. However, there are a few things worth noting :
+You can open an existing file from the tree or create a new one from either the File->New File menu or by right-clicking in the file tree.
 
-- Codio will syntax highlight based on the file type
-- The [Editor Settings](/docs/account-settings/editor) are worth checking out as you can change a lot of things here
-- There are plenty of things like Code Collapse, auto-indent
-- Codio will error check for you based on the file type and display warnings and errors in the gutter on the left
+When you open a file, it will appear in a tab in the currently active pane [TODO:link to panes].
+
+Codio will syntax highlight based on the file type. You can see the detected file type in the status bar. Clicking on that file type will allow you to force the syntax highlighting to another language format.
 

@@ -4,10 +4,35 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-08-27T00:00:00Z</updated>
+  <updated>2013-08-30T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #26</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-26/"/>
+    <id>https://codio.com/s/blog/2013/08/from-the-frontline-26/</id>
+    <published>2013-08-30T00:00:00Z</published>
+    <updated>2013-08-30T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Happy Friday! ...again&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://intentionjs.com/"&gt;Intention.js&lt;/a&gt; is a very interesting, but slightly strange Javascript library that offers a way to dynamically restructure your HTML in a responsive manner using HTML attributes. And that's why I don't like it. Ends up dirtying...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Happy Friday! ...again&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://intentionjs.com/"&gt;Intention.js&lt;/a&gt; is a very interesting, but slightly strange Javascript library that offers a way to dynamically restructure your HTML in a responsive manner using HTML attributes. And that&amp;#39;s why I don&amp;#39;t like it. Ends up dirtying your HTML.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://pazguille.github.io/flipload/"&gt;Flipload.js&lt;/a&gt; provides a nice way to flip your HTML elements to show a loading indicator. Works with pretty much any element, which is nice.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I&amp;#39;ve seen these &lt;a href="http://wagerfield.github.io/parallax/"&gt;Parallax style effects&lt;/a&gt; before, but this library demo&amp;#39;s what it can do very nicely indeed!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ariya Hidayat writes an interesting &lt;a href="http://ariya.ofilabs.com/2013/08/searching-with-array-prototype-some.html"&gt;article&lt;/a&gt; all about searching with Array.some().&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.mobify.com/blog/css-sprites-vs-data-uris-which-is-faster-on-mobile/"&gt;This article&lt;/a&gt; on CSS sprites vs. Data URI&amp;#39;s analyses which is faster and more efficient, particularly on mobile devices.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #25</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-25/"/>
@@ -148,37 +173,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="http://livestyle.emmet.io/"&gt;Emmet LiveStyle&lt;/a&gt; is a plugin for live bi-directional (editor↔browser) CSS editing. Very cool and very likely to appear in Codio in the future.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The BBC seem to be really embracing open source right now. They just released another &lt;a href="http://responsivenews.co.uk/post/58244240772/imager-js"&gt;open source library for creating responsive images&lt;/a&gt;, which of course they use themselves.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The upcoming Firefox 25 will include a new feature called &lt;a href="https://www.youtube.com/watch?v=uaFBvItTJrE"&gt;Blackboxing&lt;/a&gt; which will allow you to remove specific resources from the step-by-step debugger. Great idea, and nice to see Mozilla starting to innovate more with their browser and its dev tools.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #20</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-20/"/>
-    <id>https://codio.com/s/blog/2013/08/from-the-frontline-20/</id>
-    <published>2013-08-13T00:00:00Z</published>
-    <updated>2013-08-13T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Number 20!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://conditionerjs.com/"&gt;conditioner.js&lt;/a&gt; is an interesting Javascript library that allows you to determine behaviour, and load or unload modules, based on the environment conditions around.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Need a helping hand building your brand new, all singing, all dancing jQuery...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;Number 20!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://conditionerjs.com/"&gt;conditioner.js&lt;/a&gt; is an interesting Javascript library that allows you to determine behaviour, and load or unload modules, based on the environment conditions around.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Need a helping hand building your brand new, all singing, all dancing jQuery plugin? Check out &lt;a href="http://jqueryboilerplate.com/"&gt;jQuery Boilerplate&lt;/a&gt; for a bunch of goodies to help you in this endeavour.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://pro.jsonlint.com/"&gt;Validate your JSON&lt;/a&gt; quickly and easily, either by copying and pasting, or providing a URL where your JSON can be found.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you use MooTools, you&amp;#39;ll love &lt;a href="https://github.com/titon/Toolkit"&gt;Titon&lt;/a&gt;, which is a collection of powerful user-interface components and utility classes.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you aren&amp;#39;t optimizing your images, and smushing the hell out of them, you can&amp;#39;t go wrong with &lt;a href="https://kraken.io/"&gt;Kraken&lt;/a&gt;, which is a hosted service. If you&amp;#39;re on a Mac, check out &lt;a href="http://imageoptim.com/"&gt;ImageOptim&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://app.io/"&gt;App.io&lt;/a&gt; is a nifty little idea that runs native iOS apps in the browser. Not sure why you would want to actually do that though.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/kevinburke/hulk"&gt;Hulk&lt;/a&gt; is an in-browser visual JSON editor.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://dalekjs.com/"&gt;DalekJS&lt;/a&gt; is another UI testing library written in Javascript.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;

@@ -8,6 +8,8 @@ The Codio IDE should be extremely intuitive for anyone used to working with othe
 
 However, there are a number of things that you should be aware of that make Codio such a great product to work with.
 
+[TODO:links below]
+
 - It is highly customizable. You can configure your preferences at the User and Project level.
 - Codio has very sophisticated multi-pane support, allowing you to open files in as many preciedly configurable panels as you like.
 - Most things open up in a tab, which means that you don't get modal dialogs blocking everything.

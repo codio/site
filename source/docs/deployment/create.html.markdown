@@ -1,14 +1,14 @@
 ---
-title: Creating a Target
+title: Create/manage a target
 class_name: docs
 full_width: true
 ---
 
-![targets create](/img/docs/deploy-top-bar.png)
+The Manage Targets options are accessed via Tools->Deployment->Manage Targets menu.
 
-The deployment options are all accessed via the **Deploy** dropdown in the top bar. If you have not yet created any deployment targets then you will be prompted to create one.
+If you have not yet created any deployment targets then you will be prompted to create one.
 
-![targets create](/img/docs/deploy-details.png)
+[TODO:new manage targets dialog]
 
 In the Deployment Targets dialog, you can:
 

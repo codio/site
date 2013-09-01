@@ -14,11 +14,11 @@ There are various ways to get quickly to the component you need.
 ##You already know the component name
 If you are already familiar with Bower and you know the Bower command you would execute from the command line, so something like
 
-	bower install handlebars
+  bower install handlebars
 
 Then you can enter that name directly in the field at the top of the Codio screen.
 
-![bower folder](/img/docs/bower-install-manual.png)
+[TODO:show search box area only]
 
 This will perform the exact same operation in the background. 
 
@@ -31,7 +31,7 @@ Handlebars.js is a good example. If you search the component directory you will 
 - [handlebars.js](https://github.com/wycats/handlebars.js), which confusingly also points to https://github.com/wycats/handlebars.js
 - [handlebars](https://github.com/components/handlebars.js) which points to https://github.com/components/handlebars.js - this is the 'shim' library (see image below)
 
-![bower folder](/img/docs/bower-handlebars-shim.png)
+[TODO:show results as with previous image]
 
 
 ###Warning About Shims

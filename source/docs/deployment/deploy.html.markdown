@@ -6,7 +6,7 @@ full_width: true
 
 When you want to deploy, press the "Deploy" menu item in the top bar and you will be shown a small popup dialog with the most recently used target selected. If you press the "Deploy Now" button, the deploy will execute immediately. You will be shown detailed progress information.
 
-![targets toppbar](/img/docs/deploy-top-bar.png)
+[TODO:screenshot of deploy tab]
 
 You can also select a different deployment target from the dropdown.
 

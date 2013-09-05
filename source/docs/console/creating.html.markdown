@@ -10,6 +10,7 @@ Creating a new project or importing one is really easy. All you do is click on t
 
 You will then be shown a dialog that lets you 
 
+[TODO: update once templates added]
 ![Create Project](/img/docs/console-create-dlg.png)
 
 Be patient while the project loads. This can take a while depending on its size. Once it is loaded, it will take you directly into the IDE where you can see your project.

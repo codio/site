@@ -6,7 +6,6 @@ full_width: true
 
 You modify permissions by selecting **Permissions** from the **Project** dropdown menu.
 
-[TODO:update]
 ![Permissions Dialog](docs/permissions-dlg.png)
 
 By default:
@@ -19,7 +18,7 @@ Changing permissions allows you to give the following access permissions to User
 
 - **Read** - View the project only
 - **Write** - Edit the project
-- **Admin** - Edit the project and make project levels settings changes ([Settings](/docs/ide/ide-general/settings)  and **Permissions**)
+- **Admin** - Edit the project and make project levels settings changes
 
 ## Adding/Removing a User
 To add a new user, start typing the user name in the text field. When you find the user, click Add and that user will be added to the list of users below.

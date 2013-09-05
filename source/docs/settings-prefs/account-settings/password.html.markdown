@@ -6,4 +6,4 @@ full_width: true
 
 You can change your account password here.
 
-![Password Settings](docs/settings-password.png)
+![Password Settings](docs/prefs-account-password.png)

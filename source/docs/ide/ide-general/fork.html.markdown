@@ -10,7 +10,6 @@ You will only be able to edit it from the same PC and browser that owns the proj
 
 If you are looking at a forked project, then it will look like this
 
-[TODO: update image]
 ![Fork project](/img/docs/fork-ide.png)
 
 If you are signed into Codio, forking a project will create the fork in your account.

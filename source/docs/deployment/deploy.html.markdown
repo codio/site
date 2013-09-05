@@ -4,11 +4,11 @@ class_name: docs
 full_width: true
 ---
 
-When you want to deploy, press the "Deploy" menu item in the top bar and you will be shown a small popup dialog with the most recently used target selected. If you press the "Deploy Now" button, the deploy will execute immediately. You will be shown detailed progress information.
+When you want to deploy, press the "Deploy" menu item in the top bar. Your deployment options will be displayed in the currently active [Panel](/docs/panels).
 
-[TODO:screenshot of deploy tab]
+You can just press the Deploy Now button or you can select another target from the dropdown list first.
 
-You can also select a different deployment target from the dropdown.
+![Deployment List](/img/docs/deploy-deploy.png)
 
 Once the deployment has been successfully executed, you will see the URL required to access the application/site. This URL is also stored and shown both here and in the main Deployment Targets screen.
 

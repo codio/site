@@ -6,8 +6,8 @@ full_width: true
 
 Codio offers a couple of simple shortcut keys to make life easier when adding tokens and annotations.
 
-##ALT+A - Add new token
-If you want to insert a token into any source file, use ALT+A. This will insert the correct comment format plus the basics, so something like this
+##Alt+A - Add new token
+If you want to insert a token into any source file, use Alt+A. This will insert the correct comment format plus the basics, so something like this
 
 - **HTML** : `<!-- @annotation: -->`
 - **Javascript** : `// @annotation: ` 
@@ -27,8 +27,8 @@ Don't forget that you will also need to put a closing token at the end of your c
 
 `  // @annotation:/tour myLabel`
 
-##SHIFT+ALT+A - Jump to token in annotations.md
-Once you have completed the setup of your token, you can press shift+alt+a to jump to the corresponding location in the `annotations.md` file.
+##Shift+Alt+A - Jump to token in annotations.md
+Once you have completed the setup of your token, you can press Shift+Alt+a to jump to the corresponding location in the `annotations.md` file.
 
 If the token+label does not yet exist, one will be created. If it does, it will jump to that place in the file. You can then add your markdown content.
 

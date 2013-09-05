@@ -1,5 +1,5 @@
 ---
-title: Using your own IDE
+title: Defining Annotations in other IDEs
 class_name: docs
 full_width: true
 ---

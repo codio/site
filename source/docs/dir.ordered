@@ -8,8 +8,11 @@ anon
 console
 settings-prefs
 ide
-emmet
 panels
+inline-preview
+emmet
+git
+ide-beautify
 deployment
 annotations
 bower

@@ -8,5 +8,5 @@ IDE panels are a really powerful feature. Not only can you create any panel conf
 
 This has the great advantage that you have complete control over the layout of your project. Whenever you leave you project, its precise pane configuration is saved and reloaded when you come back to it.
 
-[TODO:screenshot]
+![Fork project](/img/docs/panel-overview.png)
 

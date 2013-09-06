@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You can use Codio in anonymous mode by clicking on the **Create and Play** button at the top of the Codio website.
+You can use Codio in anonymous mode by clicking on the **TRY NOW** button at the top of the Codio website.
 
 ![Sitebar](docs/sitebar-site.png)
 

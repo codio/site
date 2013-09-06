@@ -4,11 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-Look for the Fork button in the top bar as shown below ...
+Forking is done from the Project->Fork menu item.
 
-![Fork project](/img/docs/fork-ide.png)
-
-Any anonymous project can be forked. If you are not signed into an account then this will create a new anonymous project URL and a cookie will be planted on your PC so that you can edit it in the future. However, you will only be able to edit it from the same PC and browser that was used to create it.
+Any anonymous project can be forked. If you are not signed into an account then this will create a new anonymous project URL and a cookie will be planted on your PC so that you can edit it in the future. However, you will only be able to edit it from the same PC and browser that was used to create it unless you note down the exact URL that references this new, forked project.
 
 [Creating an account](/docs/signup/) is strongly recommended if you intend to do anything more than play with a single project as it will organize your projects nicely, as well as giving other goodies. Having an account with public projects is and always will be free.
 

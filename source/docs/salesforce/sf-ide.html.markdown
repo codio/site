@@ -4,13 +4,18 @@ class_name: docs
 full_width: true
 ---
 
-**PHASE I Integration: ** we have only integrated Classes, Triggers and Pages so far. We will add features based on aggregated user demand from now on. The [intro page](../) tells you how to register your requests.
+You have the full Codio IDE features at your disposal so please refer to other parts of this user guide to find out what's available.
 
-The following sections describe the ways you can push and pull your data from SalesForce. In this section, we will point out some of the things t
+The most important things for SalesForce.com development are
 
+- [Preferences & Settings](/docs/settings-prefs) : customize actions, settings and keyboard shortcuts
+- [Productivity Features](/docs/emmet) : keyboard shortcuts, snippets, TernJS, autocomplete, code beautification and more
+- [Panel Management](/docs/panels) : create panels in any configuration you want
+- [Git](/docs/git) : access your Github and other repos from a Codio Panel with great Git support
+- [Annotations](/docs/annotations) : annotate your code projects so people can get a guided tour or simply explore a project and get properly documented explanations
 
-Accessing SalesForce features
+##Accessing SalesForce features
 There are two main ways to access SalesForce features
 
-- SalesForce main menu : global operations
-- Right click menu : file specific operations
+- Tools->SalesForce menu
+- Right click menu : push/pull operations on the selected file

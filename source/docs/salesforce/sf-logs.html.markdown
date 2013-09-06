@@ -14,7 +14,5 @@ As with any other Codio files, this log file is a real-time file that can be see
 ##Deleting the log
 As the file is a regular file, you can delete the log in either of two ways
 
-- Remove the file by right-clicking it; don't worry, it will get recreated by Codio automatically
-- CTRL/CMD + A then press delete; you can even delete selected parts if you like.
-
-
+- Remove the file by right-clicking it; it will get recreated by Codio automatically
+- Ctrl/Cmd+A then press delete; you can even manually delete selected parts of the log

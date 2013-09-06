@@ -6,7 +6,7 @@ full_width: true
 
 Creating an Account is simple. From the [Codio.com](https://codio.com) website, simple click on the Sign Up option in the top sitebar.
 
-![Sitebar](/img/docs/sitebar-site.png)
+![Sitebar](/img/docs/sitebar-signup.png)
 
 You will then be shown the signup dialog.
 

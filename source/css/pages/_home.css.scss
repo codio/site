@@ -92,18 +92,38 @@ body.home {
 
       // screen
       #screen {
+        background: transparent image-url('home/main-screen.png') no-repeat center;
+        background-size: 410px;
         top: 115px;
         margin-left: 564px;
         position: absolute;
         z-index: 2;
         width: 410px;
+        height: 435px;
         opacity: 0;
         display: block;
 
         @include apply-to(more-than, desktop) {
+          background-size: 480px;
           width: 480px;
+          height: 506px;
           margin-left: 684px;
           top: 78px;
+        }
+
+        a {
+          @include opacity(0);
+          font-size: 100px;
+          color: $blue;
+          top: 37%;
+          left: 38%;
+          position: relative;
+          text-shadow: 1px 1px 6px #999;
+
+          &:hover {
+            text-shadow: 0 0 0 #999;
+            color: $red;
+          }
         }
       }
 

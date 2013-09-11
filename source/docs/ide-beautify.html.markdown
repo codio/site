@@ -1,10 +1,10 @@
 ---
-title: Beautify Javascript
+title: Beautifing code
 class_name: docs
 full_width: true
 ---
 
-You can format your Javascript code by pressing the keyboard shortcut as defined in the [User Settings](). By default, it is 
+You can format your code by pressing the keyboard shortcut as defined in the [User Settings](). By default, it is 
 
 - key_format_code = Cmd+Alt+F (for a Mac)
 - key_format_code = Ctrl+Alt+F (for anything else)

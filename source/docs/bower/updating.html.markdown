@@ -4,9 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-Automatic and safe updating of your components is one of the many advantages of using Bower. 
+Safe updating of your components is one of the many advantages of using Bower. A component's dependencies will automatically be installed and updated.
 
-![bower folder](/img/docs/bower-installed-update.png)
+![bower tree](/img/docs/bower-update.png)
 
 ##Updating all your components
 You can update all bower components in your project simply by pressing the 'All' button near the top right. 

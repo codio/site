@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+[TODO:review entire section]
+
 Codio has full development support for the following source file types **but** in a way that means you can instantly run and preview your application without any manual compilation steps whatsoever.
 
 - [CoffeeScript](http://coffeescript.org/) (.coffee)

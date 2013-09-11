@@ -76,6 +76,7 @@ $ ->
   $('.fancybox').fancybox
     helpers:
       title:
+        media: {},
         type: 'inside'
     beforeLoad: ->
       this.title = $(this.element).find('img').attr('title')

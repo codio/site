@@ -135,7 +135,14 @@ class_name: home
         <h2><%= image_tag 'home/git.png', :width => 36 %> Git in the Cloud</h2>
         <h3>Truly collaborative source control</h3>
         <p>We've spent a lot of time bringing Git into the browser, while still allowing you to use Git in the way you are familiar with. And that means full command line access for all your most used Git commands. Codio has <strong>tight integration with Git</strong>, allowing you to pull and push with any remote repository. It just works!</p>
-        <p class="coming-soon">Coming Soon</p>
+        <div class="links">
+          <% link_to '/docs/git' do %>
+            <i class="icon-file"></i> Take me to the docs
+          <% end %>
+          <a href="http://player.vimeo.com/video/74363882?autoplay=1" class="fancybox fancybox.iframe">
+            <i class="icon-facetime-video"></i> Watch the video...
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -148,6 +155,14 @@ class_name: home
         <h2>CoffeeScript, SASS, Less</h2>
         <h3>Pre-process and compile on demand</h3>
         <p>Codio has direct support for writing and running <strong>CoffeeScript, Sass, SCSS and Less</strong>. No manual compilation steps are needed, and you can preview your compiled code any time you want. We'll even compile these when accessing via your HTML.</p>
+        <div class="links">
+          <% link_to '/docs/compiling' do %>
+            <i class="icon-file"></i> Take me to the docs
+          <% end %>
+          <a href="http://player.vimeo.com/video/74367209?autoplay=1" class="fancybox fancybox.iframe">
+            <i class="icon-facetime-video"></i> Watch the video...
+          </a>
+        </div>        
       </div>
     </div>
   </div>
@@ -172,6 +187,14 @@ class_name: home
         <h2>Integrated Tools</h2>
         <h3>Manage app dependencies with a click of a button</h3>
         <p><strong>Bower</strong> is an amazingly useful tool for managing your application dependencies, so we baked it right into Codio and made it incredibly easy to use, and without any need to install Node or even Bower. It's all in the cloud! <strong>Grunt</strong> and <strong>Yeoman</strong> support coming very soon.</p>
+        <div class="links">
+          <% link_to '/docs/bower' do %>
+            <i class="icon-file"></i> Take me to the docs
+          <% end %>
+          <a href="http://player.vimeo.com/video/74372622?autoplay=1" class="fancybox fancybox.iframe">
+            <i class="icon-facetime-video"></i> Watch the video...
+          </a>
+        </div>          
         <ul>
           <li><%= image_tag 'home/bower-logo.png', :width => 46 %></li>
           <li><%= image_tag 'home/grunt-logo.png', :width => 36 %></li>

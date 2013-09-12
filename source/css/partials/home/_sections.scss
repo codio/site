@@ -160,6 +160,34 @@ section {
     }
   }
 
+
+  &#demonstrate {
+    @include even-section;
+
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/productivity.png') no-repeat -238px center;
+      background-size: 75%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -110px center;
+        background-size: 48%;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 14px;
+        padding: 140px 0 140px 350px;
+        width: 330px;
+
+        @include apply-to(more-than, desktop) {
+          width: 500px;
+          background-size: 12px;
+        }
+      }
+    }
+  }
+
   &#baked {
     @include even-section;
 

@@ -23,20 +23,24 @@ class_name: home
 
 <aside class="home">
   <ul>
+    <!--
     <li><a href="#speed">Blazingly fast!</a></li>
     <li><a href="#speed">Ready to go - No installs</a></li>
+  -->
     <li><a href="#panels">IDE Panels &amp; Tabs</a></li>
-    <li><a href="#productivity">Productivity, productivity</a></li>
+    <li><a href="#productivity">Productivity</a></li>
+    <li><a href="#demonstrate">Demonstrate</a></li>
     <li><a href="#deployment">Deploy anywhere</a></li>
     <li><a href="#opensource">Free for OSS &amp; Education</a></li>
     <li><a href="#sourcecontrol">Git in the cloud</a></li>
     <li><a href="#compiled">CoffeeScript, SASS, etc.</a></li>
     <li><a href="#realtime">Real-time Collaboration</a></li>
     <li><a href="#baked">Integrated Tools - Bower</a></li>
-    <li><a href="#annotate-embed">Annotate &amp; Embed</a></li>
+    <li><a href="#annotate">Annotate &amp; Embed</a></li>
   </ul>
 </aside>
 
+<!--
 <section id="speed">
   <div class="container">
     <div>
@@ -52,6 +56,7 @@ class_name: home
     </div>
   </div>
 </section>
+-->
 
 <section id="panels">
   <div class="container">
@@ -80,9 +85,45 @@ class_name: home
     <div>
       <div>
         <h2>Productivity</h2>
-        <h3>Work and code faster than ever before</h3>
-        <p>With Codio, you can <strong>work and code faster</strong>, because we give you to productivity features and tools that you need to succeed fast!</p>
-        <p>Syntax highlighting for hundreds of languages, code completion, TextMate-like snippets, fully customizable keyboard shortcuts, TernJS, Emmet, code folding, multiple cursors, color preview/picker, inline preview and much more.</p>
+        <h3>You'll be amazed how fast you can code in a browser</h3>
+        <p><strong>Syntax highlighting</strong>, code completion, <strong>snippets</strong>, fully customizable keyboard shortcuts, <strong>TernJS</strong>, Emmet, <strong>code folding</strong>, multiple cursors, <strong>color preview/picker</strong>, inline preview, <strong>code beautification</strong> and much more.</p>
+        <div class="links">
+          <% link_to '/docs/deployment' do %>
+            <i class="icon-file"></i> Docs : Emmet features
+          <% end %></br>            
+          <% link_to '/docs/deployment' do %>
+            <i class="icon-file"></i> Docs : Settings customizations
+          <% end %></br>
+          <% link_to '/docs/deployment' do %>
+            <i class="icon-file"></i> Docs : Code Beautification
+          <% end %></br>     
+          <% link_to '/docs/deployment' do %>
+            <i class="icon-file"></i> Docs : TernJS and Autocompletion
+          <% end %></br>            
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="demonstrate">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Demos and Embedding</h2>
+        <h3>Ever wanted to take Codepen or JS-Bin to the next level? </h3>
+        <p>Codepen and JS-Bin are wonderful tools but what happens when you want to demonstrate something a bit (or a lot) more complex?</p>
+        <p>Codio is quick to load with no signup required, so you can show off projects of any size in a beautiful IDE setting. And if writing codeing tutorials are your thing, take a look at Codio Annotations!</p>
+        <div class="links">
+          <% link_to '/docs/deployment' do %>
+            <i class="icon-file"></i> See the Codio IDE Embedded in a web page
+          <% end %></br>            
+          <% link_to '/docs/deployment' do %>
+            <i class="icon-file"></i> Take me to the docs
+          <% end %></br>
+          <a href="http://player.vimeo.com/video/74279407?autoplay=1" class="fancybox fancybox.iframe">
+            <i class="icon-facetime-video"></i> Watch the video...
+          </a>
+        </div>        
       </div>
     </div>
   </div>
@@ -93,7 +134,7 @@ class_name: home
     <div>
       <div>
         <h2>Deploy your code</h2>
-        <h3>To production &amp; staging, or anywhere you like.</h3>
+        <h3>Production, Staging, in fact any number of targets</h3>
         <p>Fast, one-click deployment to any number of test, staging and production environments: <strong>FTP</strong>, <strong>SFTP</strong>, <strong>Parse</strong>, <strong>NodeJitsu</strong>, as well as <strong>Codio's own hosting</strong> platform.</p>
         <p>Being cloud based, these are much faster than deploying from the desktop.</p>
 
@@ -134,7 +175,8 @@ class_name: home
       <div>
         <h2><%= image_tag 'home/git.png', :width => 36 %> Git in the Cloud</h2>
         <h3>Truly collaborative source control</h3>
-        <p>We've spent a lot of time bringing Git into the browser, while still allowing you to use Git in the way you are familiar with. And that means full command line access for all your most used Git commands. Codio has <strong>tight integration with Git</strong>, allowing you to pull and push with any remote repository. It just works!</p>
+        <p>We've baked Git directly into the Codio IDE so you can use your beloved Git commands right from a Codio tab.</p>
+        <p>You can work locally as well as being able to push and pull from remote repos including Github of course. </p>
         <div class="links">
           <% link_to '/docs/git' do %>
             <i class="icon-file"></i> Take me to the docs

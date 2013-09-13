@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Emmet also offers a very nice range of keyboard shortcuts to speed productivity even further.
+Emmet also offers a very nice range of keyboard shortcuts to speed productivity even further. Keyboard actions can be modified in [Preferences](/docs/settings-prefs/codio-prefs)
 
 ##Match Tag Pair
 
@@ -18,7 +18,6 @@ A well-known tag balancing: searches for tag or tag's content bounds from curren
 
 ##Go To Matching Pair
 
-[TODO:Correct key binding]
 `Mac: Shift+Cmd+T`
 `Win: Shift+Ctrl+T`
 

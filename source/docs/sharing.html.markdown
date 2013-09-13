@@ -6,7 +6,7 @@ full_width: true
 
 To share a project or link to a project from a web page, go to the Project->Share menu item.
 
-![Intercom](/img/docs/sharing.png)
+![Sharing](/img/docs/sharing.png)
 
 ##Suggested Buttons
 You will notice that there are two suggested buttons available.

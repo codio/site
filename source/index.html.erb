@@ -29,14 +29,13 @@ class_name: home
   -->
     <li><a href="#panels">IDE Panels &amp; Tabs</a></li>
     <li><a href="#productivity">Productivity</a></li>
-    <li><a href="#demonstrate">Demonstrate</a></li>
+    <li><a href="#demonstrate">Demo &amp; Embed</a></li>
     <li><a href="#deployment">Deploy anywhere</a></li>
-    <li><a href="#opensource">Free for OSS &amp; Education</a></li>
-    <li><a href="#sourcecontrol">Git in the cloud</a></li>
+    <li><a href="#sourcecontrol">Git Support</a></li>
     <li><a href="#compiled">CoffeeScript, SASS, etc.</a></li>
     <li><a href="#realtime">Real-time Collaboration</a></li>
-    <li><a href="#baked">Integrated Tools - Bower</a></li>
-    <li><a href="#annotate">Annotate &amp; Embed</a></li>
+    <li><a href="#baked">Bower, Grunt &amp; Yo</a></li>
+    <li><a href="#annotate">Annotations</a></li>
   </ul>
 </aside>
 
@@ -57,6 +56,24 @@ class_name: home
   </div>
 </section>
 -->
+
+<section id="opensource">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Open Source - Free</h2>
+        <p>Codio is and always will be free for any project whose source is publicly available.</p>
+      </div>
+
+      <div><%= image_tag 'home/oss.png', :width => 106, :height => 128 %></div>
+
+      <div>
+        <h2>Education - free</h2>
+        <p>Codio is a perfect for teaching and learning to code. <a href="/p/create" data-no-turbolink="1">Create a project</a> and you're ready to run your code.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="panels">
   <div class="container">
@@ -88,18 +105,15 @@ class_name: home
         <h3>You'll be amazed how fast you can code in a browser</h3>
         <p><strong>Syntax highlighting</strong>, code completion, <strong>snippets</strong>, fully customizable keyboard shortcuts, <strong>TernJS</strong>, Emmet, <strong>code folding</strong>, multiple cursors, <strong>color preview/picker</strong>, inline preview, <strong>code beautification</strong> and much more.</p>
         <div class="links">
-          <% link_to '/docs/deployment' do %>
-            <i class="icon-file"></i> Docs : Emmet features
+          <% link_to '/docs/emmet/' do %>
+            <i class="icon-file"></i> Emmet features
           <% end %></br>            
-          <% link_to '/docs/deployment' do %>
-            <i class="icon-file"></i> Docs : Settings customizations
+          <% link_to '/docs/settings-prefs' do %>
+            <i class="icon-file"></i> Settings customizations
           <% end %></br>
-          <% link_to '/docs/deployment' do %>
-            <i class="icon-file"></i> Docs : Code Beautification
-          <% end %></br>     
-          <% link_to '/docs/deployment' do %>
-            <i class="icon-file"></i> Docs : TernJS and Autocompletion
-          <% end %></br>            
+          <% link_to '/docs/ide-beautify' do %>
+            <i class="icon-file"></i> Code Beautification
+          <% end %></br>             
       </div>
     </div>
   </div>
@@ -110,14 +124,15 @@ class_name: home
     <div>
       <div>
         <h2>Demos and Embedding</h2>
-        <h3>Ever wanted to take Codepen or JS-Bin to the next level? </h3>
-        <p>Codepen and JS-Bin are wonderful tools but what happens when you want to demonstrate something a bit (or a lot) more complex?</p>
-        <p>Codio is quick to load with no signup required, so you can show off projects of any size in a beautiful IDE setting. And if writing codeing tutorials are your thing, take a look at Codio Annotations!</p>
-        <div class="links">
-          <% link_to '/docs/deployment' do %>
-            <i class="icon-file"></i> See the Codio IDE Embedded in a web page
-          <% end %></br>            
-          <% link_to '/docs/deployment' do %>
+        <h3>Take Codepen, JS-Fiddle and JS-Bin to the next level </h3>
+        <p>Codepen, JS-FIddle and JS-Bin are wonderful tools but if what happens when you want to demonstrate something a bit (or a lot) more complex? Codio lets you back up your coding posts with an instant, embeddable IDE for projects of any complexity.</p>
+        <div class="large-links"> 
+          <% link_to '/examples' do %>
+            <i class="icon-file"></i> Examples
+          <% end %></br>                
+        </div>  
+        <div class="links">         
+          <% link_to '/docs/sharing' do %>
             <i class="icon-file"></i> Take me to the docs
           <% end %></br>
           <a href="http://player.vimeo.com/video/74279407?autoplay=1" class="fancybox fancybox.iframe">
@@ -146,24 +161,6 @@ class_name: home
             <i class="icon-facetime-video"></i> Watch the video...
           </a>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="opensource">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Open Source is Free</h2>
-        <p>Codio is free for absolutely any project whose source is publicly available. No exceptions.</p>
-      </div>
-
-      <div><%= image_tag 'home/oss.png', :width => 106, :height => 128 %></div>
-
-      <div>
-        <h2>Education is free</h2>
-        <p>Codio is a perfect for teaching and learning to code. <a href="/p/create" data-no-turbolink="1">Create a project</a> and you're ready to run your code.</p>
       </div>
     </div>
   </div>
@@ -247,17 +244,20 @@ class_name: home
   </div>
 </section>
 
-<section id="annotate-embed">
+<section id="annotate">
   <div class="container">
     <div>
       <div>
         <h2>Annotations</h2>
         <p>Introducing an amazing new way to create <strong>rich, interactive documentation and tutorials</strong> - and it's all right within the IDE and a part of your code! No complicated formatting or standards to understand, just annotate your code and Codio will show the user around your code.</p>
-      </div>
-
-      <div>
-        <h2>Embed anywhere</h2>
-        <p>Dump your code into Codio and then embed the IDE as an iFrame straight into your blog, or just link to it. Your readers see your code in a fully functional web IDE without any signup or interference. They can even run your projects with a single click.</p>
+        <div class="links">
+          <% link_to '/docs/bower' do %>
+            <i class="icon-file"></i> Take me to the docs
+          <% end %>
+          <a href="http://player.vimeo.com/video/74372622?autoplay=1" class="fancybox fancybox.iframe">
+            <i class="icon-facetime-video"></i> Watch the video...
+          </a>
+        </div>           
       </div>
     </div>
   </div>

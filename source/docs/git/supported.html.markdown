@@ -38,6 +38,11 @@ This page contains a list of all currently supported Git commands. Please note t
 - parameters supported []
 - [reference information](http://git-scm.com/docs/git-push)
 
+##revert
+- parameters supported [-m, --mainline, -n, --no-commit, HEAD^^...^, HEAD~x
+]
+- [reference information](http://git-scm.com/docs/git-revert)
+
 ##rm
 - parameters supported [-r]
 - [reference information](http://git-scm.com/docs/git-rm)
@@ -49,4 +54,10 @@ This page contains a list of all currently supported Git commands. Please note t
 ##remote
 - parameters supported [add, rename, remove, rm, set-url, show, -v]
 - [reference information](http://git-scm.com/docs/git-remote)
+
+git revert <commit> which should be run with the --no-edit flag as default.
+-m, --mainline
+-n, --no-commit
+HEAD^^^^ etc
+HEAD~x
 

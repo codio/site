@@ -112,6 +112,28 @@ section {
     }
   }
 
+  .large-links {
+    margin: 0px 70px 0 0;
+    border-top: 0px solid #eee;
+    padding-top: 20px;
+
+    a {
+      font: 24px gotham_light;
+      margin-right: 20px;
+      color: #DC7368;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 3px;
+
+      &:hover {
+        border-bottom: 2px solid $red;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }  
+
   &#panels .container {
     background: transparent image-url("home/screens/panels.png") no-repeat 760px;
     background-size: 412px;
@@ -317,49 +339,25 @@ section {
     }
   }
 
-  &#annotate-embed {
-    .container > div {
-      @include clearfix;
-      padding: 120px 0 160px;
-      background: transparent image-url('home/pens.jpg') no-repeat center 529px;
-      background-size: 40%;
+  &#annotate .container {
+    background: transparent image-url("home/branching-illustration.png") no-repeat 784px;
+
+    @include apply-to(more-than, desktop) {
+      background-position: 845px;
+    }
+
+    > div {
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right 190px;
+      background-size: 8px;
+      padding: 120px 220px 120px 0;
+      width: 460px;
 
       @include apply-to(more-than, desktop) {
-        background-position: center 450px;
-        background-size: 50%;
-      }
-
-      h2 {
-        color: #333;
-        font: 28px gotham_light;
-      }
-
-      p {
-        font-size: 18px;
-      }
-
-      div {
-        float: left;
-        width: 320px;
-
-        @include apply-to(more-than, desktop) {
-          width: 340px;
-        }
-
-        &:first-child {
-          margin-right: 40px;
-
-          @include apply-to(more-than, desktop) {
-            margin-right: 160px;
-          }
-        }
-
-        &:last-child {
-          text-align: right;
-        }
+        background-image: none;
+        padding: 120px 414px 120px 0;
       }
     }
-  }
+  }  
 
   &#speed {
     .container > div {

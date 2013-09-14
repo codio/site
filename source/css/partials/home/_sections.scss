@@ -145,7 +145,7 @@ section {
     > div {
       background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
       background-size: 14px;
-      padding: 120px 220px 120px 0;
+      padding: 90px 220px 90px 0;
       width: 460px;
 
       @include apply-to(more-than, desktop) {
@@ -402,7 +402,7 @@ section {
 
     .container > div {
       @include clearfix;
-      padding: 100px 0;
+      padding: 60px 0;
 
       h2 {
         color: #333;

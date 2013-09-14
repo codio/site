@@ -24,7 +24,7 @@ So, if you would like to see the code that accompanies this post, please click b
 ##Embed the Codio IDE
 This takes things to the next stage and is really cool. All you need to is create an `<iframe>` and paste the Embed URL from the Embed window into your post.
 
-<iframe width="800" height="500"  src="http://refactor.test.codiodev.com/freddymay/Impress-Annotated/master/tree/index.html"></iframe>
+<iframe width="800" height="500"  src="http://refactor.test.codiodev.com/freddymay/impress/master/tree/index.html"></iframe>
 
 Note that the IDE is fully interactive and no sign up is needed to use it. 
 

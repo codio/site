@@ -4,7 +4,7 @@
 $ ->
 
     # Fade in the tagline
-    $('#tagline img, #tagline div').transition
+    $('#tagline h1, #tagline div').transition
         opacity: 1
         duration: 1000
         delay: 800

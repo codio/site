@@ -112,52 +112,33 @@ section {
     }
   }
 
-  .large-links {
-    margin: 0px 70px 0 0;
-    border-top: 0px solid #eee;
-    padding-top: 20px;
 
-    a {
-      font: 24px gotham_light;
-      margin-right: 20px;
-      color: #DC7368;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 3px;
+  &#panels {
+    @include even-section;
 
-      &:hover {
-        border-bottom: 2px solid $red;
-      }
-
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-  }  
-
-  &#panels .container {
-    background: transparent image-url("home/screens/panels.png") no-repeat 760px;
-    background-size: 412px;
-
-    @include apply-to(more-than, desktop) {
-      background-position: 813px;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-      background-size: 14px;
-      padding: 90px 220px 90px 0;
-      width: 460px;
+    .container {
+      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
+      background-size: 480px;
 
       @include apply-to(more-than, desktop) {
-        background-image: none;
-        padding: 120px 414px 120px 0;
+        background-position: 785px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 14px;
+        padding: 90px 280px 90px 0;
+        width: 400px;
+
+        @include apply-to(more-than, desktop) {
+          background-size: 16px;
+          padding: 120px 474px 120px 0;
+        }
       }
     }
   }
 
   &#productivity {
-    @include even-section;
-
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/productivity.png') no-repeat -238px center;
@@ -182,23 +163,29 @@ section {
     }
   }
 
-  &#demonstrate .container {
-    background: transparent image-url("home/screens/deploy.png") no-repeat 760px;
-    background-size: 412px;
+  &#demonstrate {
+    @include even-section;
 
-    @include apply-to(more-than, desktop) {
-      background-position: 813px;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-      background-size: 14px;
-      padding: 102px 220px 102px 0;
-      width: 460px;      
+    .container {
+      background: transparent image-url("home/screens/share-btn.png") no-repeat 791px;
+      background-size: 227px;
 
       @include apply-to(more-than, desktop) {
-        background-image: none;
-        padding: 102px 414px 102px 0;
+        background-position: 900px;
+        background-size: 279px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 7px;
+        padding: 102px 220px 102px 0;
+        width: 460px;
+
+        @include apply-to(more-than, desktop) {
+          background: none;
+          padding: 102px 370px 102px 0;
+          width: 500px;
+        }
       }
     }
   }
@@ -223,12 +210,12 @@ section {
         width: 330px;
 
         @include apply-to(more-than, desktop) {
-          width: 471px;
+          width: 421px;
           background-size: 12px;
         }
       }
     }
-  }  
+  }
 
   &#sourcecontrol .container {
     background: transparent image-url("home/branching-illustration.png") no-repeat 784px;
@@ -249,7 +236,6 @@ section {
       }
     }
   }
-
 
   &#compiled {
     @include even-section;
@@ -335,28 +321,27 @@ section {
         }
       }
     }
-  }  
+  }
 
   &#annotate .container {
- 
-    background: transparent image-url("home/branching-illustration.png") no-repeat 784px;
+    background: transparent image-url("home/screens/annotations.png") no-repeat 675px;
+    background-size: 500px;
 
     @include apply-to(more-than, desktop) {
-      background-position: 845px;
+      background-position: 758px;
     }
 
     > div {
-      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right 190px;
-      background-size: 8px;
-      padding: 102px 220px 102px 0;
-      width: 460px;
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+      background-size: 14px;
+      padding: 102px 320px 102px 0;
+      width: 360px;
 
       @include apply-to(more-than, desktop) {
-        background-image: none;
-        padding: 102px 414px 102px 0;
+        padding: 102px 514px 102px 0;
       }
     }
-  }  
+  }
 
   &#speed {
     .container > div {
@@ -397,15 +382,21 @@ section {
   }
 
   &#opensource {
-    @include even-section;
-
     .container > div {
       @include clearfix;
-      padding: 60px 0;
+      padding: 130px 0 70px 0;
 
       h2 {
         color: #333;
         font: 28px gotham_light;
+
+        span {
+          display: none;
+
+          @include apply-to(more-than, desktop) {
+            display: inline;
+          }
+        }
       }
 
       p {
@@ -414,7 +405,7 @@ section {
 
       div {
         float: left;
-        width: 225px;
+        width: 250px;
 
         @include apply-to(more-than, desktop) {
           width: 335px;

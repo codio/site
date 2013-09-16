@@ -23,13 +23,12 @@ class_name: home
 
 <aside class="home">
   <ul>
-    <!--
-    <li><a href="#speed">Blazingly fast!</a></li>
-    <li><a href="#speed">Ready to go - No installs</a></li>
-  -->
+    <li><a href="#opensource">Free for Open Source</a></li>
     <li><a href="#panels">IDE Panels &amp; Tabs</a></li>
     <li><a href="#productivity">Productivity</a></li>
     <li><a href="#demonstrate">Demo &amp; Embed</a></li>
+    <li><a href="#speed">Blazingly fast!</a></li>
+    <li><a href="#speed">Ready to go - No installs</a></li>
     <li><a href="#deployment">Deploy anywhere</a></li>
     <li><a href="#sourcecontrol">Git Support</a></li>
     <li><a href="#compiled">CoffeeScript, SASS, etc.</a></li>
@@ -41,18 +40,18 @@ class_name: home
 
 
 <section id="opensource">
-  <div class="container"></br></br></br>
+  <div class="container">
     <div>
       <div>
-        <h2>Open Source - Free</h2>
-        <p>Codio is and always will be free for any project whose source is publicly available.</p>
+        <h2>Open Source<span> - Free</span></h2>
+        <p>Codio is and always will be <strong>free</strong> for any project whose source is publicly available.</p>
       </div>
 
       <div><%= image_tag 'home/oss.png', :width => 106, :height => 128 %></div>
 
       <div>
-        <h2>Education - free</h2>
-        <p>Codio is a perfect for teaching and learning to code. <a href="/p/create" data-no-turbolink="1">Create a project</a> and you're ready to run your code.</p>
+        <h2>Education<span> - Free</span></h2>
+        <p>Codio is perfect for teaching and learning to code. <a href="/p/create" data-no-turbolink="1">Create a project</a> and you're ready to run your code.</p>
       </div>
     </div>
   </div>
@@ -64,12 +63,11 @@ class_name: home
       <div>
         <h2>Panels &amp; Tabs</h2>
         <h3>Any arrangement you need</h3>
-        <p>Codio has sensational panel and tab layout capability. You can arrange your panels in exactly the way you want.</p>
-        <p>And you can freely reorder tabs and drag them to other panels.</p>
+        <p>Codio has sensational panel and tab layout capabilities. Arrange your editor into any panel arrangement you please, and then simply drag and drop files between these panels to order and arrange them.</p>
 
         <div class="links">
           <% link_to '/docs/panels' do %>
-            <i class="icon-file"></i> Take me to the docs
+            <i class="icon-file"></i> Read the docs
           <% end %>
           <a href="http://player.vimeo.com/video/74289800?autoplay=1" class="fancybox fancybox.iframe">
             <i class="icon-facetime-video"></i> Watch the video...
@@ -87,16 +85,17 @@ class_name: home
         <h2>Productivity</h2>
         <h3>You'll be amazed how fast you can code in a browser</h3>
         <p><strong>Syntax highlighting</strong>, code completion, <strong>snippets</strong>, fully customizable keyboard shortcuts, <strong>TernJS</strong>, Emmet, <strong>code folding</strong>, multiple cursors, <strong>color preview/picker</strong>, inline preview, <strong>code beautification</strong> and much more.</p>
+        <p>With Codio, you can <strong>work and code faster</strong>, because we give you to productivity features and tools that you need to succeed fast!</p>
         <div class="links">
           <% link_to '/docs/emmet/' do %>
-            <i class="icon-file"></i> Emmet features
-          <% end %></br>            
+            <i class="icon-file"></i> Emmet
+          <% end %>
           <% link_to '/docs/settings-prefs' do %>
-            <i class="icon-file"></i> Settings customizations
-          <% end %></br>
+            <i class="icon-file"></i> Preferences
+          <% end %>
           <% link_to '/docs/ide-beautify' do %>
             <i class="icon-file"></i> Code Beautification
-          <% end %></br>             
+          <% end %></br>
       </div>
     </div>
   </div>
@@ -106,22 +105,33 @@ class_name: home
   <div class="container">
     <div>
       <div>
-        <h2>Demos and Embedding</h2>
+        <h2>Demo Your Code</h2>
         <h3>Take Codepen, JS-Fiddle and JS-Bin to the next level </h3>
-        <p>Codepen, JS-FIddle and JS-Bin are wonderful tools but if what happens when you want to demonstrate something a bit (or a lot) more complex? Codio lets you back up your coding posts with an instant, embeddable IDE for projects of any complexity.</p>
-        <div class="large-links"> 
+        <p>Codepen, JS-FIddle and JS-Bin are wonderful tools but what happens when you want to demonstrate something a bit (or a lot) more complex? Codio lets you back up your coding posts with an instant, embeddable IDE for projects of any complexity.</p>
+        <div class="links">
           <% link_to '/demo' do %>
-            <i class="icon-file"></i> Show me
-          <% end %></br>                
-        </div>  
-        <div class="links">         
+            <i class="icon-check"></i> Show me
+          <% end %>
           <% link_to '/docs/sharing' do %>
-            <i class="icon-file"></i> Take me to the docs
-          <% end %></br>
-          <a href="http://player.vimeo.com/video/74279407?autoplay=1" class="fancybox fancybox.iframe">
-            <i class="icon-facetime-video"></i> Watch the video... [TODO]
-          </a>
-        </div>        
+            <i class="icon-file"></i> Read the docs
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="speed">
+  <div class="container">
+    <div>
+      <div>
+        <h2>Blazingly Fast</h2>
+        <p>Everything you do in Codio is <strong>fast</strong>, which further increases your productivity. Installing a Bower component takes seconds, deploying code is almost instantaneous.</p>
+      </div>
+
+      <div>
+        <h2>Your stack awaits</h2>
+        <p>Everything you need for modern web development is right here and instantly ready to go. <strong>No installs</strong>, no configuring. All you need is your browser.</p>
       </div>
     </div>
   </div>
@@ -138,7 +148,7 @@ class_name: home
 
         <div class="links">
           <% link_to '/docs/deployment' do %>
-            <i class="icon-file"></i> Take me to the docs
+            <i class="icon-file"></i> Read the docs
           <% end %>
           <a href="http://player.vimeo.com/video/74279407?autoplay=1" class="fancybox fancybox.iframe">
             <i class="icon-facetime-video"></i> Watch the video...
@@ -159,28 +169,12 @@ class_name: home
         <p>You can work locally as well as being able to push and pull from remote repos including Github of course. </p>
         <div class="links">
           <% link_to '/docs/git' do %>
-            <i class="icon-file"></i> Take me to the docs
+            <i class="icon-file"></i> Read the docs
           <% end %>
           <a href="http://player.vimeo.com/video/74363882?autoplay=1" class="fancybox fancybox.iframe">
             <i class="icon-facetime-video"></i> Watch the video...
           </a>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="opensource">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Blazingly Fast</h2>
-        <p>Codio is <strong>optimized for speed</strong> at all levels. And Cloud to Cloud operations like Bower, Git and Deployment are many times faster than working from your local machine.</p>
-      </div>
-      <div><%= image_tag 'home/oss.png', :width => 106, :height => 128 %></div>
-      <div>
-        <h2>Your stack awaits</h2>
-        <p>Everything you need for modern web development is right here and instantly ready to go. <strong>No installs</strong>, no configuring. All you need is your browser.</p>
       </div>
     </div>
   </div>
@@ -195,12 +189,12 @@ class_name: home
         <p>Codio has direct support for writing and running <strong>CoffeeScript, Sass, SCSS and Less</strong>. No manual compilation steps are needed, and you can preview your compiled code any time you want. We'll even compile these when accessing via your HTML.</p>
         <div class="links">
           <% link_to '/docs/compiling' do %>
-            <i class="icon-file"></i> Take me to the docs
+            <i class="icon-file"></i> Read the docs
           <% end %>
           <a href="http://player.vimeo.com/video/74367209?autoplay=1" class="fancybox fancybox.iframe">
             <i class="icon-facetime-video"></i> Watch the video...
           </a>
-        </div>        
+        </div>
       </div>
     </div>
   </div>
@@ -227,12 +221,12 @@ class_name: home
         <p><strong>Bower</strong> is an amazingly useful tool for managing your application dependencies, so we baked it right into Codio and made it incredibly easy to use, and without any need to install Node or even Bower. It's all in the cloud! <strong>Grunt</strong> and <strong>Yeoman</strong> support coming very soon.</p>
         <div class="links">
           <% link_to '/docs/bower' do %>
-            <i class="icon-file"></i> Take me to the docs
+            <i class="icon-file"></i> Read the docs
           <% end %>
           <a href="http://player.vimeo.com/video/74372622?autoplay=1" class="fancybox fancybox.iframe">
             <i class="icon-facetime-video"></i> Watch the video...
           </a>
-        </div>          
+        </div>
         <ul>
           <li><%= image_tag 'home/bower-logo.png', :width => 46 %></li>
           <li><%= image_tag 'home/grunt-logo.png', :width => 36 %></li>
@@ -252,12 +246,12 @@ class_name: home
         <p>Introducing an amazing new way to create <strong>rich, interactive documentation and tutorials</strong> - and it's all right within the IDE and a part of your code! No complicated formatting or standards to understand, just annotate your code and Codio will show the user around your code.</p>
         <div class="links">
           <% link_to '/docs/bower' do %>
-            <i class="icon-file"></i> Take me to the docs
+            <i class="icon-file"></i> Read the docs
           <% end %>
           <a href="http://player.vimeo.com/video/74475442?autoplay=1" class="fancybox fancybox.iframe">
             <i class="icon-facetime-video"></i> Watch the video...
           </a>
-        </div>           
+        </div>
       </div>
     </div>
   </div>

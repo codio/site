@@ -8,13 +8,13 @@ full_width: true
 
 - Wanna know more about native notifications in the browser? Check out this [post by Adam Fortuna](http://evaleverything.com/2013/09/08/native-javascript-notifications/).
 
-- Now this post on [full-text search using only CSS](Client-side full-text search in CSS) is a neat trick, but probably not one you wanna use for real.
+- Now this post on [full-text search using only CSS](http://redotheweb.com/2013/05/15/client-side-full-text-search-in-css.html) is a neat trick, but probably not one you wanna use for real.
 
 - Looking for a responsive navigation for your next site design? Check out [Responsive Nav](http://responsive-nav.com/).
 
-- [`breakOn`](https://github.com/paulirish/break-on-access) is a nifty little Javascript snippet to add to your Chrome dev tools, that will cause a break upon a given event.
+- [breakOn](https://github.com/paulirish/break-on-access) is a nifty little Javascript snippet to add to your Chrome dev tools, that will cause a break upon a given event.
 
-- [`grunt newer`](https://github.com/tschaub/grunt-newer) is a Grunt task that will only run a task against files that have been modified since the last run.
+- [grunt newer](https://github.com/tschaub/grunt-newer) is a Grunt task that will only run a task against files that have been modified since the last run.
 
 - [HTML5 Boilerplate](http://html5boilerplate.com/) gets a new release. [4.3](https://github.com/h5bp/html5-boilerplate/blob/v4.3.0/CHANGELOG.md) includes a bunch of fixes, and updates several of its dependencies.
 

@@ -93,7 +93,7 @@ Merges selected lines into a single line. But when there’s no selection, will 
 ##Inline Calculator
 
 `Mac: Shift+Cmd+Y`
-`Win: Shuft+Ctrl+Y`
+`Win: Shift+Ctrl+Y`
 
 Evaluates simple math expressions like 2*4 or 10/2 and outputs its result. You can use \ operator which is equivalent to round(a/b).
 

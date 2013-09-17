@@ -45,7 +45,7 @@ results in
 ##More HTML Examples
 Be sure to check out [HTML Abbreviations](http://docs.emmet.io/abbreviations/).
 
-And also take a look at the [cheat sheet](/docs/ide/emmet/emmet-ref/) as there are an awful lot of abbreviations for you to take advantage of.
+And also take a look at the [cheat sheet](/docs/emmet/emmet-ref/) as there are an awful lot of abbreviations for you to take advantage of.
 
 
 ##CSS Examples
@@ -75,7 +75,7 @@ results in
 	background-image: linear-gradient(left, #fc0, 30%, red);
 
 ##Fuzzy Search
-If you take a look at [cheat sheet](/docs/ide/emmet/emmet-ref/), you’ll find that there are too many CSS snippets to remember. Also, some of them might be a bit lengthy for sake of logical separation.
+If you take a look at [cheat sheet](/docs/emmet/emmet-ref/), you’ll find that there are too many CSS snippets to remember. Also, some of them might be a bit lengthy for sake of logical separation.
 
 To make CSS writing a bit easier, Emmet implements fuzzy search logic for CSS snippets: every time you enter an unknown abbreviation, Emmet will try to find the closest snippet definition.
 
@@ -84,7 +84,7 @@ For example, instead of writing ov:h (overflow: hidden;) abbreviation, you can w
 ##More CSS Examples
 For more details on CSS abbreviations, please go to the [Emmet documentation](http://docs.emmet.io/css-abbreviations/) and be sure to look at the sub-chapters.
 
-But also be sure to check out the [cheat sheet](/docs/ide/emmet/emmet-ref/).
+But also be sure to check out the [cheat sheet](/docs/emmet/emmet-ref/).
 
 
 

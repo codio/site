@@ -20,7 +20,7 @@ If you have multiple panels, the panel you click within gets the focus and can b
 If you want to open a file in a different panel, first click on that panel and then open a file from the file tree.
 
 ##Tabs
-You can add any number of tabs into a single panel. You are also free to drag tabs arouns to change their order.
+You can add any number of tabs into a single panel. You are also free to drag tabs around to change their order.
 
 Tabs can also be dragged from one panel to another.
 

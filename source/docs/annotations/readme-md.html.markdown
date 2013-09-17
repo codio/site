@@ -1,5 +1,5 @@
 ---
-title: The Info/README.md file
+title: The README.md file
 class_name: docs
 full_width: true
 ---

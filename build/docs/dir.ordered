@@ -13,6 +13,7 @@ panels
 inline-preview
 sharing
 emmet
+autocomplete
 git
 ide-beautify
 deployment

@@ -48,7 +48,7 @@ You will often want to include some tour explanations that do not point to any c
 
 
 ##Annotating code that is not part of a tour
-In some cases, though, you may want to reference a snippet that you do not want to be a part of a tour. In this case, you use the `@annotation:snippet` token. Please refer to the [Tour & Explore modes](/docs/annotations/tour-explore) for an overview.
+In some cases, though, you may want to reference a snippet that you do not want to be a part of a tour. In this case, you use the `@annotation:snippet` token. 
 
 	<!-- @annotation:snippet intro-comment1-->
 	<div id="bored" class="step slide" data-x="-1000" data-y="-1500">
@@ -59,6 +59,6 @@ In some cases, though, you may want to reference a snippet that you do not want 
 the `snippet` directive means that a blue 'i' icon will appear in the code, which can be clicked on to display the annotation but this snippet will not appear within the tour.
 
 ##Explore Mode
-All snippets, whether `tour` or `snippet` are available in [Explore mode](/docs/annotations/tour-explore). 
+All snippets, whether `tour` or `snippet` are available in [Explore mode](/docs/annotations/explore). 
 
 

@@ -35,7 +35,7 @@ and this list are commands that are **already supported** but where some paramet
 	-b <branch> <remote>/<remotebranch> checkout tracking branch.
 <path>... resets the given path.  
 
-  - [**log**]((http://git-scm.com/docs/git-log))
+  - [**log**](http://git-scm.com/docs/git-log)
 	--follow
 	-<number>, -n <number>, --max-count=<number> (default: 20)
 	--since=<date>, --after=<date>

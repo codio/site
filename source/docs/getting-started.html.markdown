@@ -13,7 +13,7 @@ Signup from the signup link at the top of the page at [Codio.com](http://codio.c
 
 
 ##2. Create a Project
-Once you have signed it, you can create a new project by clicking on the Create Project link in the Dashboard. 
+Once you have signed in, you can create a new project by clicking on the Create Project link in the Dashboard. 
 
 You can start off by 
 

@@ -4,9 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-We realize that productivity is a non-negotiable requirement of any Web IDE. We have been and will continue to work extremely hard to add productivity related features to Codio. 
+We realize that productivity is a non-negotiable requirement of any Web IDE. We have and will continue to work extremely hard to add productivity related features to Codio. 
 
-Feel free to let us know what productivity related features you feel are missing by emailing us at support@codio.com or tweet to @codiohq.
+Feel free to let us know what productivity related features you feel are missing by emailing us at support@codio.com or tweet to [@codiohq](https://twitter.com/intent/tweet?source=webclient&text=Hey @CodioHQ, add this ...).
 
 ##Productivity Feature Summary
 
@@ -26,7 +26,7 @@ Emmet offers a lot of HTML and CSS productivity functionality. You get special n
 	    </ul>
 	</div>
 
-[Read all about Emmet functionality](/docs/ide/emmet/)
+[Read all about Emmet functionality](/docs/emmet)
 
 ###Snippets
 You may be familiar with Snippets from Textmate. These let you enter abbreviated commands, hit the tab key and then you get a full expansion.
@@ -53,19 +53,19 @@ In a JS file ...
 	    Things[i]
 	}
 
-[Read all about Snippets](/docs/ide/emmet/snippets)
+[Read all about Snippets](/docs/emmet/snippets)
 
-###Autocomplete
-Autocomplete will arrive in September, 2013.
+###Auto Complete
+Auto Complete is currently supported and is activated (by default) using ctrl+space. [Click here](/docs/autocomplete) for details on supported capabilities ahead of the full Tern implementation, which is described below.
 
 
 ###Tern
-Coming in September 2013, Tern is a stand-alone code-analysis engine for JavaScript. It greatly enhances the editor's support for intelligent JavaScript editing. Features provided are:
+Coming in 2013, Tern is a stand-alone code-analysis engine for JavaScript. It greatly enhances the editor's support for intelligent JavaScript editing. Features provided are:
 
-- Autocompletion on variables and properties
+- Auto completion on variables and properties
 - Function argument hints
 - Querying the type of an expression
 - Finding the definition of something
 - Automatic refactoring
 
-There is a simple demo of Tern functionaily [here](http://ternjs.net/doc/demo.html) on the Tern site.
+There is a simple demo of Tern functionality [here](http://ternjs.net/doc/demo.html) on the Tern site.

@@ -10,7 +10,7 @@ However, there are a number of things that you should be aware of that make Codi
 
 
 - It is highly customizable. You can [configure your preferences](/docs/settings-prefs) at the User and Project level.
-- Codio has very sophisticated [multi-panel support](/docs/panels), allowing you to open files in as many preciedly configurable panels as you like.
+- Codio has very sophisticated [multi-panel support](/docs/panels), allowing you to open files in as many precisely configurable panels as you like.
 - Most things open up in a tab, which means that you don't get modal dialogs blocking everything.
 - Codio has support for Ternjs and [Emmet](/docs/emmet), which means you have very powerful productivity features at your fingertips, especially if you are working on HTML, CSS or JS files.
 - We've integrated [Bower](/docs/bower) right into the IDE so component management is a joy. We'll be adding Grunt soon, too.

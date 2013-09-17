@@ -30,9 +30,9 @@ Codio:Annotations lets you create your tutorial in your own IDE but run the anno
 
 Any developer will already understand an IDE. The IDE is the logical place to find and explore code. By running your code example in the Codio IDE you immediately have access to learning specific functionality
 
-- [Wiki-like overview pages](/docs/annotations/readme-md/)
-- [Guided Tours](/docs/annotations/tour-explore/)
-- [Exploring the code and getting help](/docs/annotations/tour-explore/)
+- [Wiki-like overview pages](/docs/annotations/readme-md)
+- [Guided Tours](/docs/annotations/tour)
+- [Exploring the code and getting help](/docs/annotations/explore)
 
 ##Rich Content
 It is very important, especially for novices, to have the learning materials be as easy to read and understand as possible. Yet developer learning materials are often as dry as hell. Codio:Annotations has a lot of two things in particular

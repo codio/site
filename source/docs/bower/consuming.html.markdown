@@ -49,7 +49,7 @@ Below is the `bower.json` file for handlebars.js. the `main` key contains the na
 	}
 
 ###Ask the Component owner to add Bower support
-If you come across a component that install a lot of stuff you don't want, then raise a Github issue with that project and ask them to add a Shim Component as described in the [Finding a Component](../finding)  section.
+If you come across a component that installs a lot of stuff you don't want, then raise a Github issue with that project and ask them to add a Shim Component as described in the [Finding a Component](/docs/bower/finding)  section.
 
 
 

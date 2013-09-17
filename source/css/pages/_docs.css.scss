@@ -39,6 +39,12 @@ body.docs {
   @import 'partials/tree';
   @import 'partials/breadcrumbs';
 
+  #site-nav li:first-child a {
+    color: #000;
+    border-color: #f36050;
+    font-family: gotham_medium;
+  }
+
   .wrap > .container {
     padding-bottom: 100px;
   }

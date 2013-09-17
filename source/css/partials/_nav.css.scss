@@ -10,22 +10,6 @@ body.home .wrap > nav {
   width: 100%;
 }
 
-body.blog {
-  #site-nav li:last-child a {
-    color: #000;
-    border-color: #f36050;
-    font-family: gotham_medium;
-  }
-}
-
-body.docs {
-  #site-nav li:first-child a {
-    color: #000;
-    border-color: #f36050;
-    font-family: gotham_medium;
-  }
-}
-
 body .wrap > nav {
   background: $white;
   position: relative;

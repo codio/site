@@ -31,14 +31,7 @@ module RelativeAsset
       if path.include?("//") || path.start_with?("/#")
         path
       else
-        if path.include?('img/blog')
-          return "/s" + path.to_s
-        elsif current_resource.path == 'index.html'
-          path = "/s" + path.to_s
-        end
-
-        current_dir = Pathname('/' + current_resource.destination_path)
-        Pathname(path).relative_path_from(current_dir.dirname)
+        "/s" + path.to_s
       end
     end
   end

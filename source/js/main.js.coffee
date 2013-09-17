@@ -83,7 +83,7 @@ $ ->
 
 
 $ ->
-  if (aside = $('body.standard aside')).length > 0
+  if (aside = $('body.standard:not(.no-fixed-submenu) aside')).length > 0
     # Floating submenu
     top = aside.offset().top - parseFloat(aside.css('marginTop').replace(/auto/, 0))
     $(window).scroll (event)->

@@ -1,12 +1,16 @@
 ---
-title: The Info/README.md file
+title: The README.md file
 class_name: docs
 full_width: true
 ---
 
-Codio offers a standard way of [summarizing a project](/docs/ide/ide-general/readme-md) using a readme.md file. When a project is opened, this readme.md file is displayed automatically. 
+Codio offers a standard way of [summarizing a project](/docs/ide/ide-general/readme-md) using a README.md file in the same way that Github does.
 
-You may find this a good way of providing an introduction to your tutorial or annotated code samples. Codio will automatically show Tour and Explore buttons if it detects an `annotations.md' file present and it will show special buttons at the top of the readme/info file as well to make it easy for the viewer to start the tour or exploration.
+There are 2 ways to view the rendered output
+
+- press Cmd+Alt+1 (Mac), Ctrl+Alt+1 (PC/Linux)
+
+You may find this a good way of providing an introduction to your tutorial or annotated code samples. You can put your initial instructions in there as well as links to start the tour directly from the README without having to use a menu option. This is done by referencing the Tour URL as [explained here](/docs/annotations/auto-start).
 
 ![readme](/img/docs/ca-readme.png)
 

@@ -7,7 +7,7 @@ full_width: true
 The SFTP target type allows you to deploy to any SFTP server. You can use a password and/or a public key for authentication.
 
 ##Public Key Authentication
-Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/docs/account-settings/public-key). You should make sure that this public key is added to your remote server.
+Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/docs/settings-prefs/account-settings/public-key). You should make sure that this public key is added to your remote server.
 
 
 ![sftp dialog](/img/docs/deploy-sftp.png)

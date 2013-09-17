@@ -1,8 +1,7 @@
 ---
-title: Code Editor
+title: Basic Code Editing
 class_name: docs
 full_width: true
 ---
 
-There are a lot of features available so please refer to the topics within this chapter to learn how to speed up your productivity.
-
+The features within this chapter are the regular features you would expect to find in a good code editor. The next chapter deals with the more advanced functionality.

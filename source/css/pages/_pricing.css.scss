@@ -1,0 +1,96 @@
+body.pricing {
+
+  #site-nav li:nth-child(2) a {
+    color: #000;
+    border-color: #f36050;
+    font-family: gotham_medium;
+  }
+
+  .wrap > .container {
+    padding-bottom: 180px;
+
+    > section {
+      &:first-child {
+        @include clearfix;
+        margin-top: 50px;
+
+        h2 {
+          float: left;
+          font: 34px gotham_bold;
+          margin: 16px 0 0 0;
+          color: #666;
+          width: 280px;
+
+          small {
+            display: block;
+            font-size: 16px;
+            padding-top: 5px;
+          }
+        }
+
+        .coming-soon {
+          font: 14px gotham_light;
+          font-style: italic;
+          text-transform: uppercase;
+          color: #BEA3A1;
+        }
+
+        p {
+          float: left;
+          width: 700px;
+          font: 18px gotham_light;
+          line-height: 1.8em;
+          color: #000;
+        }
+      }
+
+      &#opensource {
+        @include clearfix;
+        padding: 50px 0 0 0;
+        border-top: 1px solid #eee;
+        margin-top: 30px;
+        color: #333;
+        font: 28px gotham_light;
+        line-height: 1em;
+
+        h2 {
+          color: #333;
+          font: 28px gotham_light;
+
+          span {
+            display: none;
+
+            @include apply-to(more-than, desktop) {
+              display: inline;
+            }
+          }
+        }
+
+        p {
+          font-size: 18px;
+        }
+
+        div {
+          float: left;
+          width: 375px;
+
+          &:first-child {
+            margin-right: 10px;
+          }
+
+          &:nth-child(2) {
+            width: 235px;
+            text-align: center;
+            margin-top: 0;
+          }
+
+          &:last-child {
+            text-align: right;
+            width: 360px;
+          }
+        }
+      }
+
+    }
+  }
+}

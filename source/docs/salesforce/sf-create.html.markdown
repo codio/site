@@ -16,5 +16,5 @@ You get this from SalesForce itself. You will need the developer edition of Sale
 ![Salesforce token](/img/docs/sf-setup.png)
 
 ##Ready to go
-Once the project is created, click on it to load open the IDE. At project creation time, Codio does not retrieve data from SalesForce. You need to do a 'Pull All' manually as [described here](../sf-pull).
+Once the project is created, click on it to load open the IDE. At project creation time, Codio does not retrieve data from SalesForce. You need to do a 'Pull All' manually as [described here](/docs/salesforce/sf-pull).
 

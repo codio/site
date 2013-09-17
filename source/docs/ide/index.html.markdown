@@ -4,21 +4,18 @@ class_name: docs
 full_width: true
 ---
 
-This is where most of the action happens. The screenshot below shows you the key areas.
+The Codio IDE should be extremely intuitive for anyone used to working with other IDEs.
 
-![IDE](docs/ide-screen.png)
-
-1. Project Menu - Click this to see all project specific actions. 
-1. Run Button - Click to run the project. 
-1. Tree Toolbar - Allows you to add files and folders, create a new app within the project, upload a file or download the project as a ZIP file. 
-1. Private/Public status 
-1. Home Button - Takes you back to the console. 
-1. Messages - Send and receive messages to/from the Codio team. 
-1. Account Settings - This will take you to the Account Settings dialog. 
-1. Gravatar - Identifies you, the logged in user. 
-1. File Tabs - A '*' next to the file name tells you that the file has been modified and may need saving. 
-1. Right-Click Menu - Options that are context-specific to the clicked-on file.
+However, there are a number of things that you should be aware of that make Codio such a great product to work with.
 
 
-
+- It is highly customizable. You can [configure your preferences](/docs/settings-prefs) at the User and Project level.
+- Codio has very sophisticated [multi-panel support](/docs/panels), allowing you to open files in as many precisely configurable panels as you like.
+- Most things open up in a tab, which means that you don't get modal dialogs blocking everything.
+- Codio has support for Ternjs and [Emmet](/docs/emmet), which means you have very powerful productivity features at your fingertips, especially if you are working on HTML, CSS or JS files.
+- We've integrated [Bower](/docs/bower) right into the IDE so component management is a joy. We'll be adding Grunt soon, too.
+- [Git](/docs/git) is integrated so you can push and pull from Github (and other systems) just as easily as you would on your desktop
+- There's really nice support for [Coffeescript, Less, SCSS and Sass](/docs/compiling) without the need to compile to Preview. 
+- With Codio's comprehensive [deployment support](/docs/deployment), deploy directly from Codio to both Codio hosted production targets as well as any FTP, SFTP server and also Nodejitsu and Parse.com. In this way, development, staging and production deploys are easily handled.
+- For those writing code tutorials, we have a unique [Annotations](/docs/annotations) feature that lets you comment your code and provide guided tours to anyone wanting to understand a project better.
 

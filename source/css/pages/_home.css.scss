@@ -40,11 +40,73 @@ body.home {
         // Tagline
         &:first-child {
           z-index: 2;
-          top: 66px;
+          top: 60px;
           left: 5px;
 
           @include apply-to(more-than, desktop) {
             left: 33px;
+          }
+
+          h1 {
+            color: #333;
+            text-transform: initial;
+            text-align: right;
+            margin: 0;
+            opacity: 0;
+
+            span {
+              // "AN"
+              &:nth-child(1) {
+                font: 34px gotham_thin;
+
+                @include apply-to(more-than, desktop) {
+                  font-size: 36px;
+                }
+              }
+
+              // "AMAZING"
+              &:nth-child(2) {
+                font: 70px gotham_black;
+
+                @include apply-to(more-than, desktop) {
+                  font-size: 80px;
+                }
+              }
+
+              // "WEB IDE"
+              &:nth-child(3) {
+                font: 104px gotham_black;
+                display: block;
+                line-height: 90px;
+
+                @include apply-to(more-than, desktop) {
+                  font-size: 120px;
+                }
+              }
+
+              // "FOR"
+              &:nth-child(4) {
+                font: 24px gotham_thin;
+                display: block;
+                text-align: left;
+                line-height: 14px;
+                padding-left: 28px;
+
+                @include apply-to(more-than, desktop) {
+                  font-size: 28px;
+                  padding-left: 36px;
+                }
+              }
+
+              // "Javascript, HTML and CSS"
+              &:nth-child(5) {
+                font: 46px gotham_light;
+
+                @include apply-to(more-than, desktop) {
+                  font-size: 53px;
+                }
+              }
+            }
           }
 
           > img {
@@ -64,10 +126,10 @@ body.home {
             p {
               font: 20px 'Indie Flower';
               @include rotate(-4deg);
-              margin: 50px 0 0 30px;
+              margin: 40px 0 0 48px;
 
               @include apply-to(more-than, desktop) {
-                margin: 44px 0 0 80px;
+                margin: 38px 0 0 112px;
                 font-size: 22px;
               }
 
@@ -92,18 +154,38 @@ body.home {
 
       // screen
       #screen {
+        background: transparent image-url('home/main-screen.png') no-repeat center;
+        background-size: 410px;
         top: 115px;
         margin-left: 564px;
         position: absolute;
         z-index: 2;
         width: 410px;
+        height: 435px;
         opacity: 0;
         display: block;
 
         @include apply-to(more-than, desktop) {
+          background-size: 480px;
           width: 480px;
+          height: 506px;
           margin-left: 684px;
           top: 78px;
+        }
+
+        a {
+          @include opacity(0);
+          font-size: 100px;
+          color: $blue;
+          top: 37%;
+          left: 38%;
+          position: relative;
+          text-shadow: 1px 1px 6px #999;
+
+          &:hover {
+            text-shadow: 0 0 0 #999;
+            color: $red;
+          }
         }
       }
 
@@ -138,5 +220,4 @@ body.home {
 
   @import '../partials/home/sections';
   @import '../partials/home/submenu';
-  @import '../partials/home/pricing';
 }

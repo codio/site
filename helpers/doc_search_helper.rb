@@ -1,6 +1,9 @@
 module DocSearchHelper
 
   def doc_search_data
+    # Disabled in favour of using swiftype
+    return
+
     path, rules = 'source/docs', []
     Dir.new(path).each do |x|
       next if x == '.' || x == '..' || x == 'dir.ordered' || x.start_with?('index.') || x.start_with?('.')

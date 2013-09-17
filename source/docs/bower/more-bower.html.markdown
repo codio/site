@@ -10,5 +10,5 @@ Try the following resources
 
 - [Bower site](http://bower.io)
 - [NetTuts introduction](http://net.tutsplus.com/tutorials/tools-and-tips/meet-bower-a-package-manager-for-the-web/)
-- [Sindre Sorhus Component Browser](http://sindresorhus.com/bower-components/) which is faster than ours as we have to scan components to see if they are installed in your Codio project.
+
 

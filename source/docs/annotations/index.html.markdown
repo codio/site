@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-![Codio Annotations](/img/docs/ca-popup-window.png)
+![Codio Annotations](/img/docs/ca-overview.png)
 
 Codio Annotations is a set of features within the Codio IDE that lets you create rich, interactive code samples and documentation for a project in any programming language. 
 

@@ -117,6 +117,28 @@ img {
   width: 980px;
 }
 
+.links {
+  margin: 0px 70px 0 0;
+  border-top: 0px solid #eee;
+  padding-top: 25px;
+
+  a {
+    font: 14px gotham_light;
+    margin-right: 20px;
+    color: #DC7368;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 3px;
+
+    &:hover {
+      border-bottom: 2px solid $red;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
 
 // Import partials
 @import 'partials/nav';
@@ -128,3 +150,4 @@ img {
 @import 'pages/home';
 @import 'pages/blog';
 @import 'pages/docs';
+@import 'pages/pricing';

@@ -28,7 +28,7 @@ module RelativeAsset
     def asset_url(path, prefix="")
       path = super(path, prefix)
 
-      if path.include?("//") || path.start_with?("/#")
+      if path.include?("//") || path.start_with?("/#") || !current_resource
         path
       else
         if path.include?('img/blog')
@@ -38,7 +38,7 @@ module RelativeAsset
         end
 
         current_dir = Pathname('/' + current_resource.destination_path)
-        Pathname(path).relative_path_from(current_dir.dirname)
+        Pathname(path).relative_path_from(current_dir.dirname).to_s
       end
     end
   end

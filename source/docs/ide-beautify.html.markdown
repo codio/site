@@ -1,5 +1,5 @@
 ---
-title: Beautifing code
+title: Code beautification
 class_name: docs
 full_width: true
 ---

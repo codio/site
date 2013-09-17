@@ -21,7 +21,7 @@ If you have added a Shim component or one that is nicely packaged for Bower, the
 ###Messily supported Components
 A Bower component is responsible for telling Bower what files get loaded into your project. Bower simply does what it is told by the component's bower.json file.
 
-As a result, some components load a lot of junk that seems (and often is) completely unnecessary for your project. This sometimes means you have to sort the wheat from the chaffe to find your script file.
+As a result, some components load a lot of junk that seems (and often is) completely unnecessary for your project. This sometimes means you have to sort the wheat from the chaff to find your script file.
 
 There are two ways to find the files you need to reference within your project
 

@@ -20,8 +20,8 @@ Our Git support, however, is pretty comprehensive. We already support all the co
 
 All supported Git commands are listed in the [Supported Commands](/docs/git/supported) sectio and we also indicate which commands are next up for inclusion in the [Coming Soon](/docs/git/coming) section.
 
-##Unstaged changes are **not** get carried over when you switch branch
+##Unstaged changes are **not** carried over when you switch branch
 On a local development machine, when you switch branch, any unstaged changes will automatically appear in your new branch. Codio does not do this and you will receive a warning to that effect if there are any unstaged changes.
 
-However, unstaged changes will be present when you switch back to the branch.
+Unstaged changes will be present when you switch back to the branch.
 

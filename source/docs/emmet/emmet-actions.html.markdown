@@ -83,7 +83,7 @@ Quickly removes tag, found by “Match Tag Pair” from current cursor position,
 ##Merge Lines
 
 `Mac: Shift+Cmd+M`
-`Win: Shuft+Ctrl+M`
+`Win: Shift+Ctrl+M`
 
 Merges selected lines into a single line. But when there’s no selection, will match context HTML tag.
 

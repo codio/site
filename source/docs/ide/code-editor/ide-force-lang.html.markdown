@@ -6,7 +6,7 @@ full_width: true
 
 Codio will automatically select the syntax highlighting rules based on the file extension.
 
-If you open a file whose extension is not know then you will not get any highlighting of the code. You can tell Codio which language formatting to use by clicking on the name in the status bar of the code window.
+If you open a file whose extension is not known then you will not get any highlighting of the code. You can tell Codio which language formatting to use by clicking on the name in the status bar of the code window.
 
 ![lang override](/img/docs/ide-force-lang.png)
 

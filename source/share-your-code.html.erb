@@ -1,0 +1,68 @@
+---
+title: Share Your Code
+submenu:
+  -
+    text: Show me the Code
+    url: '#show'
+  -
+    text: Embed the IDE
+    url: '#embed'
+  -
+    text: Annotations
+    url: '#annotations'
+---
+
+<h1>Share Your Code</h1>
+
+<p>Codio lends itself extremely well to being used to explain code to people. Very often, the best way to accompany a blog or tutorial, is to show a real demo or project that people can run and explore. Codio offers three great ways to do this:</p>
+
+<ul>
+  <li><a href="#show">Show me the code</a> and Demo buttons.</li>
+  <li><a href="#embed">Embed</a> the Codio IDE in your page.</li>
+  <li>Codio <a href="#annotations">Annotations</a>.</li>
+</ul>
+
+<h2 id="show">Show me the Code and Demo buttons</h2>
+
+<p>This is the simplest way of handling things. You simply want to tell your readers that there is a demo or some project code that accompanies the post.</p>
+
+<p>Codio has a menu option <code>Project-&gt;Embed</code> that generates the embed code for you so you can copy and paste either markdown (great for Github README.md pages) or HTML.</p>
+
+<img alt="Show me the Code at Codio" src="https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png">
+
+<h2 id="embed">Embed the Codio IDE</h2>
+
+<p>This takes things to the next level and is really cool. All you need to is create an <code>&lt;iframe&gt;</code> and paste the Embed URL from the Embed window into your post.</p>
+
+<pre><code>&lt;iframe width=&quot;800&quot; height=&quot;500&quot; src=&quot;http://refactor.test.codiodev.com/freddymay/impress/master/tree/index.html&quot;&gt;&lt;/iframe&gt;</code></pre>
+
+<iframe width="100%" height="500" src="http://refactor.test.codiodev.com/freddymay/impress/master/tree/index.html"></iframe>
+
+<p>Note that the IDE is fully interactive and no sign up is needed to use it.</p>
+
+<p>We will soon be introducing two important features to extend this</p>
+
+<ul>
+<li>Lightweight IDE that loads faster</li>
+<li>Widget that shows only tagged lines of code from a single file. This feature is really cool as you won't need to copy and paste code and if you edit your code in the source project, the changes will show up in your post.</li>
+</ul>
+
+<h2 id="annotations">Codio Annotations</h2>
+
+<p>Annotations is a great way of documenting your code so people can explore your project and get help as they go. There is also a Guided Tour mode that guides people around your project, showing them the annotations in a predetermined order.</p>
+
+<div class="links">
+  <a href="http://refactor.test.codiodev.com/freddymay/Impress-Annotated/master/tree/index.html" target="_blank">
+    <i class="icon-file"></i> Try out an annotated project
+  </a>
+  <% link_to '/docs/annotations' do %>
+    <i class="icon-file"></i> Read the docs
+  <% end %>
+  <a href="http://player.vimeo.com/video/74475442?autoplay=1" class="fancybox fancybox.iframe">
+    <i class="icon-facetime-video"></i> Watch the video...
+  </a>
+</div>
+
+
+<%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/linecount', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
+<%= stylesheet_link_tag 'lib/rainbow/github', 'lib/rainbow/linecount' %>

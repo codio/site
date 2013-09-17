@@ -29,7 +29,7 @@ After you have added your source file token you add your annotation content to a
 
 ![annotations file](/img/docs/ca-annotations-file.png)
 
-The annotations are written in Markdown format. [Click here](/docs/annotations/markdown) for an overview of markdown syntax.
+The annotations are written in Markdown format. [Click here](/docs/annotations/md-overview) for an overview of markdown syntax.
 
 Markdown is very easy to write, is portable and allows you to add plenty of richness. Here is a simple example that includes a header and a video.
 

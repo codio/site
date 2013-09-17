@@ -9,7 +9,7 @@ Emmet also offers a very nice range of keyboard shortcuts to speed productivity 
 ##Match Tag Pair
 
 `Mac:Cmd+D (inward) and Shift+Cmd+D (outward)`
-`WinLin:Ctrl+D (inward) and Shift+Ctrl+D (outward)
+`WinLin:Ctrl+D (inward) and Shift+Ctrl+D (outward)`
 
 A well-known tag balancing: searches for tag or tag's content bounds from current cursor position and selects it. It will expand (outward balancing) or shrink (inward balancing) selection when called multiple times. Not every editor supports both inward and outward balancing due of some implementation issues, most editors have outward balancing only.
 

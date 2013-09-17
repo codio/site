@@ -13,7 +13,7 @@ Bower is unopinionated, so it does not help you actually load the modules. This 
 	<script src="bower_components/jquery/jquery.js"></script>
 
 ##Finding the component file I need
-If you have not yet installed a component then read the earlier section [Finding a component](../finding) first.
+If you have not yet installed a component then read the earlier section [Finding a component](/docs/bower/finding) first.
 
 ###Shim/Nicely supported Components
 If you have added a Shim component or one that is nicely packaged for Bower, then finding your component is easy. Take a look at the image at the top of the page. It is pretty clear where the .js files you want are located.
@@ -50,15 +50,4 @@ Below is the `bower.json` file for handlebars.js. the `main` key contains the na
 
 ###Ask the Component owner to add Bower support
 If you come across a component that installs a lot of stuff you don't want, then raise a Github issue with that project and ask them to add a Shim Component as described in the [Finding a Component](/docs/bower/finding)  section.
-
-
-
-
-
-
-
-
-
-
-
 

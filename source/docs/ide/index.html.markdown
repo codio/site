@@ -17,5 +17,5 @@ However, there are a number of things that you should be aware of that make Codi
 - [Git](/docs/git) is integrated so you can push and pull from Github (and other systems) just as easily as you would on your desktop
 - There's really nice support for [Coffeescript, Less, SCSS and Sass](/docs/compiling) without the need to compile to Preview. 
 - With Codio's comprehensive [deployment support](/docs/deployment), deploy directly from Codio to both Codio hosted production targets as well as any FTP, SFTP server and also Nodejitsu and Parse.com. In this way, development, staging and production deploys are easily handled.
-- For those writing code tutorials, we have a unique [Annotations](docs/annotations) feature that lets you comment your code and provide guided tours to anyone wanting to understand a project better.
+- For those writing code tutorials, we have a unique [Annotations](/docs/annotations) feature that lets you comment your code and provide guided tours to anyone wanting to understand a project better.
 

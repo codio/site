@@ -12,7 +12,6 @@ This repository is hosted on Github as a Git repo at [https://github.com/codio/s
 
 You will also need the latest version of Ruby 1.9.3, along with RubyGems and Bundler.
 
-
 ### Getting Started ###
 
 First check out the code to your local machine. Once you have the code checkout out locally, and you have Ruby and Bundler installed, install the required Ruby Gems by running:

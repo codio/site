@@ -22,13 +22,7 @@ class_name: home
   </ul>
 </aside>
 
-
-<% if current_page.metadata[:locals][:lp] %>
-    <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" %>
-    <% content_for :head do %>
-      <%= stylesheet_link_tag 'pages/landing_pages' %>
-    <% end %>
-<% end %>
+<%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
 <%= partial 'partials/home/opensource' %>
 <%= partial 'partials/home/panels' %>

@@ -125,7 +125,7 @@ activate :directory_indexes
 
 
 # Landing pages
-[ "tweet1" ].each do |name|
+[ "tweet-github" ].each do |name|
   proxy "/lp/#{name}.html", "/index.html", :locals => { :lp => name }
 end
 

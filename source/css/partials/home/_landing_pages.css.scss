@@ -1,0 +1,50 @@
+// Landing Pages
+// -------------
+
+  .landing-page-section {
+    background-image: linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+    background-image: -o-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+    background-image: -moz-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+    background-image: -webkit-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+    background-image: -ms-linear-gradient(left , rgb(255,255,255) 25%, rgb(239,239,239) 36%);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.25, rgb(255,255,255)),
+      color-stop(0.36, rgb(239,239,239))
+    );
+
+    @include apply-to(more-than, desktop) {
+      background-image: linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+      background-image: -o-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+      background-image: -moz-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+      background-image: -webkit-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+      background-image: -ms-linear-gradient(left , rgb(255,255,255) 15%, rgb(239,239,239) 36%);
+      background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.15, rgb(255,255,255)),
+        color-stop(0.36, rgb(239,239,239))
+      );
+    }
+
+    .container > div {
+      padding: 110px 0 80px;
+      font: 16px gotham_light;
+      border-bottom: 1px solid #eee;
+    }
+
+    &#tweet-github .container > div {
+      img {
+        float: left;
+        margin-right: 30px;
+      }
+
+      p.bold {
+        font: 18px gotham_medium;
+        line-height: 1.5em;
+      }
+    }
+  }

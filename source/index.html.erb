@@ -3,26 +3,7 @@ title: Building the Perfect Browser Based IDE
 class_name: home
 ---
 
-<header>
-  <div class="container">
-
-    <div id="tagline">
-      <h1>
-        <span>AN</span> <span>AMAZING</span> <span>WEB IDE</span> <span>FOR</span>
-        <span>Javascript, HTML &amp; CSS</span>
-      </h1>
-
-      <div>
-        <p>Public projects are free! <a href="/p/create">Create your first one now...</a></p>
-      </div>
-    </div>
-
-    <div id="screen">
-      <a href="http://player.vimeo.com/video/74220594?autoplay=1&hd=1" target="_blank" class="fancybox fancybox.iframe icon-play-circle" id="video"></a>
-    </div>
-
-  </div>
-</header>
+<%= partial 'partials/home/header' %>
 
 <aside class="home">
   <ul>
@@ -41,224 +22,24 @@ class_name: home
   </ul>
 </aside>
 
+<% if lp %>
+    <%= partial "partials/landing_pages/#{lp}" %>
+    <% content_for :head do %>
+      <%= stylesheet_link_tag 'pages/landing_pages' %>
+    <% end %>
+<% end %>
 
-<section id="opensource">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Open Source<span> - Free</span></h2>
-        <p>Codio is and always will be <strong>free</strong> for any project whose source is publicly available.</p>
-      </div>
-
-      <div><%= image_tag 'home/oss.png', :width => 106, :height => 128 %></div>
-
-      <div>
-        <h2>Education<span> - Free</span></h2>
-        <p>Codio is perfect for teaching and learning to code. <a href="/p/create" data-no-turbolink="1">Create a project</a> and you're ready to run your code.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="panels">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Panels &amp; Tabs</h2>
-        <h3>Any arrangement you need</h3>
-        <p>Codio has sensational panel and tab layout capabilities. Arrange your editor into any panel arrangement you please, and then simply drag and drop files between these panels to order and arrange them.</p>
-
-        <div class="links">
-          <% link_to '/docs/panels' do %>
-            <i class="icon-file"></i> Read the docs
-          <% end %>
-          <a href="http://player.vimeo.com/video/74289800?autoplay=1" class="fancybox fancybox.iframe">
-            <i class="icon-facetime-video"></i> Watch the video...
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="productivity">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Productivity</h2>
-        <h3>You'll be amazed how fast you can code in a browser</h3>
-        <p><strong>Syntax highlighting</strong>, code completion, <strong>snippets</strong>, fully customizable keyboard shortcuts, <strong>TernJS</strong>, Emmet, <strong>code folding</strong>, multiple cursors, <strong>color preview/picker</strong>, inline preview, <strong>code beautification</strong> and much more.</p>
-        <p>With Codio, you can <strong>work and code faster</strong>, because we give you to productivity features and tools that you need to succeed fast!</p>
-        <div class="links">
-          <% link_to '/docs/emmet/' do %>
-            <i class="icon-file"></i> Emmet
-          <% end %>
-          <% link_to '/docs/settings-prefs' do %>
-            <i class="icon-file"></i> Preferences
-          <% end %>
-          <% link_to '/docs/ide-beautify' do %>
-            <i class="icon-file"></i> Code Beautification
-          <% end %></br>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="demonstrate">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Demo Your Code</h2>
-        <h3>Take Codepen, JS-Fiddle and JS-Bin to the next level </h3>
-        <p>Codepen, JS-FIddle and JS-Bin are wonderful tools but what happens when you want to demonstrate something a bit (or a lot) more complex? Codio lets you back up your coding posts with an instant, embeddable IDE for projects of any complexity.</p>
-        <div class="links">
-          <% link_to '/share-your-code' do %>
-            <i class="icon-check"></i> Show me
-          <% end %>
-          <% link_to '/docs/sharing' do %>
-            <i class="icon-file"></i> Read the docs
-          <% end %>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="speed">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Blazingly Fast</h2>
-        <p>Everything you do in Codio is <strong>fast</strong>, which further increases your productivity. Installing a Bower component takes seconds, deploying code is almost instantaneous.</p>
-      </div>
-
-      <div>
-        <h2>Your stack awaits</h2>
-        <p>Everything you need for modern web development is right here and instantly ready to go. <strong>No installs</strong>, no configuring. All you need is your browser.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="deployment">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Deploy your code</h2>
-        <h3>Production, Staging, in fact any number of targets</h3>
-        <p>Fast, one-click deployment to any number of test, staging and production environments: <strong>FTP</strong>, <strong>SFTP</strong>, <strong>Parse</strong>, <strong>NodeJitsu</strong>, as well as <strong>Codio's own hosting</strong> platform.</p>
-        <p>Being cloud based, these are much faster than deploying from the desktop.</p>
-
-        <div class="links">
-          <% link_to '/docs/deployment' do %>
-            <i class="icon-file"></i> Read the docs
-          <% end %>
-          <a href="http://player.vimeo.com/video/74279407?autoplay=1" class="fancybox fancybox.iframe">
-            <i class="icon-facetime-video"></i> Watch the video...
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="sourcecontrol">
-  <div class="container">
-    <div>
-      <div>
-        <h2><%= image_tag 'home/git.png', :width => 36 %> Git in the Cloud</h2>
-        <h3>Truly collaborative source control</h3>
-        <p>We've baked Git directly into the Codio IDE so you can use your beloved Git commands right from a Codio tab.</p>
-        <p>You can work locally as well as being able to push and pull from remote repos including Github of course. </p>
-        <div class="links">
-          <% link_to '/docs/git' do %>
-            <i class="icon-file"></i> Read the docs
-          <% end %>
-          <a href="http://player.vimeo.com/video/74363882?autoplay=1" class="fancybox fancybox.iframe">
-            <i class="icon-facetime-video"></i> Watch the video...
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="compiled">
-  <div class="container">
-    <div>
-      <div>
-        <h2>CoffeeScript, SASS, Less</h2>
-        <h3>Pre-process and compile on demand</h3>
-        <p>Codio has direct support for writing and running <strong>CoffeeScript, Sass, SCSS and Less</strong>. No manual compilation steps are needed, and you can preview your compiled code any time you want. We'll even compile these when accessing via your HTML.</p>
-        <div class="links">
-          <% link_to '/docs/compiling' do %>
-            <i class="icon-file"></i> Read the docs
-          <% end %>
-          <a href="http://player.vimeo.com/video/74367209?autoplay=1" class="fancybox fancybox.iframe">
-            <i class="icon-facetime-video"></i> Watch the video...
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="realtime">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Real-Time Coding</h2>
-        <h3>Google Docs style collaborative coding!</h3>
-        <p>Working as part of a team has never been easier! Open a file and watch in real-time as your team mates write code. Then make a few edits as they watch you. The browser is the <strong>natural home of collaboration</strong>, and real time coding is just the start.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="baked">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Integrated Tools</h2>
-        <h3>Manage app dependencies with a click of a button</h3>
-        <p><strong>Bower</strong> is an amazingly useful tool for managing your application dependencies, so we baked it right into Codio and made it incredibly easy to use, and without any need to install Node or even Bower. It's all in the cloud! <strong>Grunt</strong> and <strong>Yeoman</strong> support coming very soon.</p>
-        <div class="links">
-          <% link_to '/docs/bower' do %>
-            <i class="icon-file"></i> Read the docs
-          <% end %>
-          <a href="http://player.vimeo.com/video/74372622?autoplay=1" class="fancybox fancybox.iframe">
-            <i class="icon-facetime-video"></i> Watch the video...
-          </a>
-        </div>
-        <ul>
-          <li><%= image_tag 'home/bower-logo.png', :width => 46 %></li>
-          <li><%= image_tag 'home/grunt-logo.png', :width => 36 %></li>
-          <li><%= image_tag 'home/yeoman-logo.png', :width => 42 %></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section id="annotate">
-  <div class="container">
-    <div>
-      <div>
-        <h2>Annotations</h2>
-        <p>Introducing an amazing new way to create <strong>rich, interactive documentation and tutorials</strong> - and it's all right within the IDE and a part of your code! No complicated formatting or standards to understand, just annotate your code and Codio will show the user around your code.</p>
-        <div class="links">
-          <% link_to '/docs/annotations' do %>
-            <i class="icon-file"></i> Read the docs
-          <% end %>
-          <a href="http://player.vimeo.com/video/74475442?autoplay=1" class="fancybox fancybox.iframe">
-            <i class="icon-facetime-video"></i> Watch the video...
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<%= partial 'partials/home/opensource' %>
+<%= partial 'partials/home/panels' %>
+<%= partial 'partials/home/productivity' %>
+<%= partial 'partials/home/demonstrate' %>
+<%= partial 'partials/home/speed' %>
+<%= partial 'partials/home/deployment' %>
+<%= partial 'partials/home/sourcecontrol' %>
+<%= partial 'partials/home/compiled' %>
+<%= partial 'partials/home/realtime' %>
+<%= partial 'partials/home/baked' %>
+<%= partial 'partials/home/annotations' %>
 
 
 <% content_for :foot do %>

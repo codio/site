@@ -124,6 +124,12 @@ end
 activate :directory_indexes
 
 
+# Landing pages
+[ "tweet1" ].each do |name|
+  proxy "/lp/#{name}.html", "/index.html", :locals => { :lp => name }
+end
+
+
 # Build-specific configuration
 configure :build do
 

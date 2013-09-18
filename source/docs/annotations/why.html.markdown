@@ -38,7 +38,7 @@ Any developer will already understand an IDE. The IDE is the logical place to fi
 It is very important, especially for novices, to have the learning materials be as easy to read and understand as possible. Yet developer learning materials are often as dry as hell. Codio:Annotations has a lot of two things in particular
 
 - richness - you can add images, videos, sound and nicely formatted text to your annotations making it easier to digest
-- interaction - we offer [Tour and Explore modes](/docs/annotations/tour-explore/) that give different types of interactivity, again making it easier an more enjoyable to learn.
+- interaction - we offer [Tour and Explore modes](/docs/annotations/explore/) that give different types of interactivity, again making it easier an more enjoyable to learn.
 
 ##An annotated project is a perfect package
 Once you have annotated you code, you can think of it as a perfect, self-contained package. There are several IDE features that then provide even more benefit

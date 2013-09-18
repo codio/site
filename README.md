@@ -1,9 +1,14 @@
-Codio Website
+My Awesome Repo
 ==============
 
-This is the repository for the Codio website. It is primarily a [Middleman](http://middlemanapp.com/) application, which is a static site generator.
+This is the repository for my awesome project. It is primarily a [Middleman](http://middlemanapp.com/) application, which is a static site generator.
 
-We encourage you to send us pull requests for anything that you think may fix or improve the site.
+We encourage you to send us pull requests for anything that you think may fix or improve it, although this is surely not possible!
+
+###Explore the Code
+If you want to explore the Code in a Web IDE, click below.
+
+[![Show me the Code at Codio](https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png)](https://codio.com/fmay/Impress)
 
 
 ### Requirements ###
@@ -11,11 +16,6 @@ We encourage you to send us pull requests for anything that you think may fix or
 This repository is hosted on Github as a Git repo at [https://github.com/codio/site](https://github.com/codio/site). You will therefore need to install Git so you can check out the code and run it locally.
 
 You will also need the latest version of Ruby 1.9.3, along with RubyGems and Bundler.
-
-###Explore the Code
-If you want to explore the Code in a Web IDE, click below.
-
-[![Show me the Code at Codio](https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png)](https://codio.com/fmay/Impress)
 
 
 ### Getting Started ###

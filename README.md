@@ -12,6 +12,11 @@ This repository is hosted on Github as a Git repo at [https://github.com/codio/s
 
 You will also need the latest version of Ruby 1.9.3, along with RubyGems and Bundler.
 
+###Explore the Code
+If you want to explore the Code in a Web IDE, click below.
+
+[![Show me the Code at Codio](https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png)](https://codio.com/fmay/Impress)
+
 
 ### Getting Started ###
 

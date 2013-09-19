@@ -1,35 +1,42 @@
 body.docs.full-screen {
-  > nav, > .main, > .sub, > footer {
-    display: none;
-  }
-
-  .wrap > .container {
-    width: 100%;
-    padding-bottom: 100px;
-
-    header {
-      margin-left: 365px;
-
-      #breadcrumbs {
-        margin-bottom: 30px;
-      }
+  .wrap {
+    > nav, > .main, > .sub, > footer {
+      display: none;
     }
 
-    aside {
-      margin: 0 20px 50px 25px;
-      position: fixed;
-      top: 64px;
-      height: 100%;
+    > .container {
+      width: 100%;
+      padding-bottom: 100px;
 
-      form {
-        margin-bottom: 35px;
+      #full-screen {
+        top: 28px;
       }
-    }
 
-    article {
-      margin-left: 340px;
-      border-left: 3px solid #CCC;
-      padding-left: 30px;
+      header {
+        margin-top: 0;
+        margin-left: 365px;
+
+        #breadcrumbs {
+          margin-bottom: 30px;
+        }
+      }
+
+      aside {
+        margin: 0 20px 50px 25px;
+        position: fixed;
+        top: 25px;
+        height: 100%;
+
+        form {
+          margin-bottom: 35px;
+        }
+      }
+
+      article {
+        margin-left: 340px;
+        border-left: 3px solid #CCC;
+        padding-left: 30px;
+      }
     }
   }
 }
@@ -54,12 +61,14 @@ body.docs {
     overflow: hidden;
 
     #breadcrumbs {
-      float: left;
       width: 940px;
     }
 
     #full-screen {
-      float: left;
+      float: right;
+      position: relative;
+      top: 4px;
+      right: 16px;
     }
   }
 

@@ -13,14 +13,9 @@ Signup from the signup link at the top of the page at [Codio.com](http://codio.c
 
 
 ##2. Create a Project
-Once you have signed in, you can create a new project by clicking on the Create Project link in the Dashboard. 
+Once you have signed in, you can [create a new project](/docs/console/creating) by clicking on the Create Project link in the Dashboard. 
 
-You can start off by 
-
-- creating a blank HTML5 Boilerplate project
-- creating an empty project
-- creating a project from a template
-- importing an existing project from a Git, Mercurial or ZIP project
+This allows you to create a new project or import a Zip file or clone a [Git repo](/docs/git-viewing) or import a project from Mercurial.
 
 ##3. You're in the IDE
 Once you're in the IDE, which you will be automatically after creating a project or opening an existing one, you're ready to start coding.

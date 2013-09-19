@@ -14,5 +14,14 @@ Codio makes use of the public key in the following places
 - [SFTP deployment target](/docs/deployment/type-sftp)
 - [Git](/docs/git)
 
+In both cases, you will need to install the public key onto the remote system. In the case of SFTP, you should know how to do this already.
 
+##Adding your public key to Github
+If you are working with Github, then you need to install the public key. Firstly, locate your settings by pressing the 'Edit your profile' button.
+
+![github setting](/img/docs/git-edit-profile.png)
+
+Next, copy the public key to the clipboard. Then locate the 'SSH Keys' option and add a new SSH key, pasting the public key in.
+
+![github public key](/img/docs/git-ssh.png)
 

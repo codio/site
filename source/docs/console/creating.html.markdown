@@ -10,6 +10,17 @@ Creating a new project or importing one is really easy. All you do is click on t
 
 You will then be shown a dialog that lets you choose the various ways to create or import a project.
 
+##Creating a new project
+You can start off by selecting from the Create Project dropdown list, which offers the following options
+
+- creating a blank HTML5 Boilerplate project
+- creating an empty project
+- creating a project from a template
+- create a SalesForce project (experimental)
+
+##Importing or Git cloning
+Additionally, you can import an existing project from a [Git repo](/docs/git-viewing), Mercurial or a ZIP file.
+
 ##Templates
 Until we have completed the integration of Yo into Codio (will be available in 2013), we offer a template system. You will find the Template option in the dropdown list next to the Create Project radio button. 
 

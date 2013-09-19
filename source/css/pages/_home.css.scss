@@ -218,6 +218,53 @@ body.home {
   }
 
 
+  @mixin screenie {
+    > div {
+      background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
+      background-size: 60%;
+      padding: 100px 0 46px 300px;
+      width: 380px;
+
+      @include apply-to(more-than, desktop) {
+        background-size: 41%;
+        padding-left: 350px;
+        width: 524px;
+        padding-bottom: 110px;
+      }
+    }
+  }
+
+  @mixin even-section {
+    background-image: linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -o-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -moz-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -webkit-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -ms-linear-gradient(left , rgb(255,255,255) 25%, rgb(249,249,249) 36%);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.25, rgb(255,255,255)),
+      color-stop(0.36, rgb(249,249,249))
+    );
+
+    @include apply-to(more-than, desktop) {
+      background-image: linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -o-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -moz-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -webkit-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -ms-linear-gradient(left , rgb(255,255,255) 15%, rgb(249,249,249) 36%);
+      background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.15, rgb(255,255,255)),
+        color-stop(0.36, rgb(249,249,249))
+      );
+    }
+  }
+
+
   @import '../partials/home/sections';
   @import '../partials/home/submenu';
   @import '../partials/home/landing_pages';

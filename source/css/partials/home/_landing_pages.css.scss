@@ -36,14 +36,21 @@
       border-bottom: 1px solid #eee;
     }
 
-    &#tweet-github .container > div {
+    &#lp-github .container > div {
       img {
         float: left;
         margin-right: 30px;
       }
     }
 
-    &#tweet-codepen .container > div {
+    &#lp-codepen .container > div {
+      img {
+        float: left;
+        margin-right: 30px;
+      }
+    }
+
+    &#lp-salesforce .container > div {
       img {
         float: left;
         margin-right: 30px;

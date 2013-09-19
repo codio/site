@@ -4,7 +4,10 @@ class_name: docs
 full_width: true
 ---
 
-Currently, the only thing you can modify here is your account name. Changing this will not affect the URL. This name is for display and communication purposes only.
+You can change the following settings
+
+- **Account name** - changing this will not affect the URL associated with your account name. This name is for display and communication purposes only.
+- **Email address** - if you change this, you will be sent an email so you can reactivate your account with the new email address
 
 ![Profile Settings](docs/prefs-account-profile.png)
 

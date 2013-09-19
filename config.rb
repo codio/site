@@ -125,7 +125,7 @@ activate :directory_indexes
 
 
 # Landing pages
-[ "github-ide", "cp-fiddle" ].each do |name|
+[ "github-ide", "cp-fiddle", "salesforce" ].each do |name|
   proxy "/lp/#{name}.html", "/index.html", :locals => { :lp => name }
 end
 

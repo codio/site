@@ -18,6 +18,8 @@ If you don't want to learn much about the Codio IDE and just want to show some c
 ##Scenario 1 : Codepen
 It's actually very easy to achieve a Codepen type layout. 
 
+![Codepen](/img/docs/cp-basic.png)
+
 1. Open your project in the IDE
 1. From the menu, go to View->Layout->Showcase
 1. Configure your panels
@@ -31,3 +33,8 @@ This scenario is set up in the same way as the above scenario. However, rather t
 
 The file tree lets the user navigate around the code and you can have a preview running in any panel you choose.
 
+Here are a couple of more advanced layouts that show a file tree with custom layouts.
+
+![Codepen](/img/docs/cp-filetree.png)
+
+![Codepen](/img/docs/cp-custom.png)

@@ -58,8 +58,6 @@ $ ->
 
     tOffset = t.offset().top;
     $('html,body').animate {scrollTop: tOffset - 50}, 'slow';
-    event.preventDefault();
-
 
 
 

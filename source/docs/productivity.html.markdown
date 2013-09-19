@@ -28,32 +28,6 @@ Emmet offers a lot of HTML and CSS productivity functionality. You get special n
 
 [Read all about Emmet functionality](/docs/emmet)
 
-###Snippets
-You may be familiar with Snippets from Textmate. These let you enter abbreviated commands, hit the tab key and then you get a full expansion.
-
-For example in an HTML file ...
-
-`iframe` + tab, expands
-
-	<iframe src="" frameborder="0"></iframe>
-
-In a CSS file ...
-
-`bdi` + tab, expands to 
-
-    -webkit-border-image: url();
-    -moz-border-image: url();
-    -o-border-image: url();
-
-In a JS file ...
-
-`for` + tab expands to 
-
-	for (var i = 0; i < Things.length; i++) {
-	    Things[i]
-	}
-
-[Read all about Snippets](/docs/emmet/snippets)
 
 ###Auto Complete
 Auto Complete is currently supported and is activated (by default) using ctrl+space. [Click here](/docs/autocomplete) for details on supported capabilities ahead of the full Tern implementation, which is described below.

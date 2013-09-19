@@ -28,14 +28,4 @@ which expands to
 Be sure to check out the [complete reference](/docs/emmet/emmet-ref/) as there are an awful lot of abbreviations for you to take advantage of.
 
 
-##Snippet Support
-[Snippets](/docs/emmet/snippets/) save you lots of typing and often save you having to look up detailed syntax for HTML, CSS and Javascript. You type abbreviated commands directly in the editor then, when you press the tab key, they expand into full HTML and CSS.
-
-	for
-
-then tab expands to 
-
-	for (var i = 0; i < Things.length; i++) {
-	    Things[i]
-	}
 

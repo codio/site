@@ -41,10 +41,13 @@
         float: left;
         margin-right: 30px;
       }
+    }
 
-      p.bold {
-        font: 18px gotham_medium;
-        line-height: 1.5em;
+    &#tweet-codepen .container > div {
+      img {
+        float: left;
+        margin-right: 30px;
       }
     }
+
   }

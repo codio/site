@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Github let's you browse around a repo but let's face it, it's not an IDE. Codio gives you a great way of viewing any Github (or Git) repo. For web apps, you can even run and [preview](inline-preview) within Codio.
+Github let's you browse around a repo but let's face it, it's not an IDE. Codio gives you a great way of viewing any Github (or Git) repo. For web apps, you can even run and [preview](/docs/inline-preview) within Codio.
 
 So now people can explore and run your code in a full-powered Web IDE, as shown below, in seconds.
 

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Codio Blog</title>
+  <id>https://codio.com/s/blog</id>
+  <link href="https://codio.com/s/blog"/>
+  <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
+  <updated>2013-09-19T00:00:00Z</updated>
+  <author>
+    <name>Codio</name>
+  </author>
+  <entry>
+    <title>From the Front-line - #31</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-31/"/>
+    <id>https://codio.com/s/blog/2013/09/from-the-frontline-31/</id>
+    <published>2013-09-19T00:00:00Z</published>
+    <updated>2013-09-19T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://vinci.io/"&gt;Vinci&lt;/a&gt; is a great looking HTML5 image editor, that runs in the browser.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Looking for some 21st century dialogs? Check out &lt;a href="http://github.hubspot.com/vex/docs/welcome/"&gt;Vex&lt;/a&gt;, which is a JS library built by the guys at Hubspot.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://getfireshell.com/"&gt;Fireshell&lt;/a&gt; is a boilerplate and workflow tool. Basically a competitor to...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://vinci.io/"&gt;Vinci&lt;/a&gt; is a great looking HTML5 image editor, that runs in the browser.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Looking for some 21st century dialogs? Check out &lt;a href="http://github.hubspot.com/vex/docs/welcome/"&gt;Vex&lt;/a&gt;, which is a JS library built by the guys at Hubspot.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://getfireshell.com/"&gt;Fireshell&lt;/a&gt; is a boilerplate and workflow tool. Basically a competitor to Yeoman, but seems to be much more streamlined and focused, which I like.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fancy running Linux in your browser with nothing but Javascript? &lt;a href="http://s-macke.github.io/jor1k/"&gt;Well why wouldn&amp;#39;t you?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We use RequireJS - a lot! So the &lt;a href="http://tech.pro/blog/1561/five-helpful-tips-when-using-requirejs"&gt;five helpful tips for using RequireJS&lt;/a&gt; are good read.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://eloquentjavascript.net/2nd_edition/"&gt;The 2nd edition of Eloquent Javascript&lt;/a&gt; has been announced. So if you&amp;#39;re looking for a good Javascript book, go and pledge to this crowd-funded campaign.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Oh look! Another CSS framework! Ah but it&amp;#39;s different... sort of. &lt;a href="http://www.chocolatechip-ui.com/"&gt;ChocolateChip-UI&lt;/a&gt; is only for mobile, and is designed to give a native look.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;And it wouldn&amp;#39;t be right without mentioning iOS7. &lt;a href="http://mir.aculo.us/2013/09/16/how-to-create-a-web-app-that-looks-like-a-ios7-native-app-part-1/"&gt;This article&lt;/a&gt; by Thomas Fuchs, is the first part in a series about how to create a web app that looks like an iOS7 native app.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #30</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-30/"/>
+    <id>https://codio.com/s/blog/2013/09/from-the-frontline-30/</id>
+    <published>2013-09-16T00:00:00Z</published>
+    <updated>2013-09-16T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Wanna know more about native notifications in the browser? Check out this &lt;a href="http://evaleverything.com/2013/09/08/native-javascript-notifications/"&gt;post by Adam Fortuna&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now this post on &lt;a href="http://redotheweb.com/2013/05/15/client-side-full-text-search-in-css.html"&gt;full-text search using only CSS&lt;/a&gt; is a neat trick, but probably not one you wanna use for real.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Looking for a responsive navigation for your...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Wanna know more about native notifications in the browser? Check out this &lt;a href="http://evaleverything.com/2013/09/08/native-javascript-notifications/"&gt;post by Adam Fortuna&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now this post on &lt;a href="http://redotheweb.com/2013/05/15/client-side-full-text-search-in-css.html"&gt;full-text search using only CSS&lt;/a&gt; is a neat trick, but probably not one you wanna use for real.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Looking for a responsive navigation for your next site design? Check out &lt;a href="http://responsive-nav.com/"&gt;Responsive Nav&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/paulirish/break-on-access"&gt;breakOn&lt;/a&gt; is a nifty little Javascript snippet to add to your Chrome dev tools, that will cause a break upon a given event.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/tschaub/grunt-newer"&gt;grunt newer&lt;/a&gt; is a Grunt task that will only run a task against files that have been modified since the last run.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://html5boilerplate.com/"&gt;HTML5 Boilerplate&lt;/a&gt; gets a new release. &lt;a href="https://github.com/h5bp/html5-boilerplate/blob/v4.3.0/CHANGELOG.md"&gt;4.3&lt;/a&gt; includes a bunch of fixes, and updates several of its dependencies.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://lodash.com/"&gt;LoDash&lt;/a&gt; also gets a new release, and a major one at that. &lt;a href="http://kitcambridge.be/blog/custom-builds-in-lo-dash-2-dot-0/"&gt;Version 2.0&lt;/a&gt; get custom builds, and a few new methods, including &lt;code&gt;_.curry&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Is WebRTC ready yet? Check out &lt;a href="http://iswebrtcreadyyet.com/"&gt;this site&lt;/a&gt; which shows a nice table of the latest browser support.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And finally...&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.jsfuck.com/"&gt;JSFuck&lt;/a&gt; is a new language based on Javascript, that uses only six characters to write and execute code. Best name ever!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #29</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-29/"/>
+    <id>https://codio.com/s/blog/2013/09/from-the-frontline-29/</id>
+    <published>2013-09-09T00:00:00Z</published>
+    <updated>2013-09-09T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Don't expect #30 tomorrow, as I'll be a little busy watching the Apple event.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/jpillora/xhook"&gt;xhook&lt;/a&gt; is a nifty little JS library to easily modify XHR requests and responses.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://lab.ejci.net/favico.js/"&gt;Favico.js&lt;/a&gt; is an even niftier library that allows you to add badges, images and even videos...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Don&amp;#39;t expect #30 tomorrow, as I&amp;#39;ll be a little busy watching the Apple event.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/jpillora/xhook"&gt;xhook&lt;/a&gt; is a nifty little JS library to easily modify XHR requests and responses.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://lab.ejci.net/favico.js/"&gt;Favico.js&lt;/a&gt; is an even niftier library that allows you to add badges, images and even videos to your site&amp;#39;s Favicon.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Building autocompletion to your app or site? Check out &lt;a href="https://github.com/brianreavis/sifter.js"&gt;Sifter&lt;/a&gt;, which will help you textually search arrays and hashes of objects by their properties.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wanna know more about the upcoming version of Javascript? &lt;a href="http://sankhs.com/jschannel-es6"&gt;This presentation&lt;/a&gt; by &lt;a href="https://twitter.com/sankha93"&gt;sankha93&lt;/a&gt; all about what&amp;#39;s in EcmaScript 6 is a much watch/read.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #28</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-28/"/>
+    <id>https://codio.com/s/blog/2013/09/from-the-frontline-28/</id>
+    <published>2013-09-05T00:00:00Z</published>
+    <updated>2013-09-05T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;HTML5 Rocks have written another one of their expertly written posts, this time on &lt;a href="http://www.html5rocks.com/en/tutorials/webcomponents/customelements/"&gt;custom HTML elements&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.uibox.in/"&gt;UIBox&lt;/a&gt; is a library of curates HTML, Javascript and CSS components.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://github.e-sites.nl/perimeter.js/"&gt;Perimeter.js&lt;/a&gt; is a JS library that will create a invisible perimeter around a...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;HTML5 Rocks have written another one of their expertly written posts, this time on &lt;a href="http://www.html5rocks.com/en/tutorials/webcomponents/customelements/"&gt;custom HTML elements&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.uibox.in/"&gt;UIBox&lt;/a&gt; is a library of curates HTML, Javascript and CSS components.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://github.e-sites.nl/perimeter.js/"&gt;Perimeter.js&lt;/a&gt; is a JS library that will create a invisible perimeter around a target element, and then monitors mouse breaches.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CSSTricks have written about the &lt;a href="http://css-tricks.com/html5-progress-element/"&gt;HTML5 Progress element&lt;/a&gt;, and it&amp;#39;s another good read.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://code.octopuscreative.com/fancyselect/"&gt;FancySelect&lt;/a&gt; is a JS library that will turn your select boxes into a sexy beast!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;a href="http://batmanjs.org/"&gt;BatmanJS&lt;/a&gt; site just got a facelift.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Joel Turnbull asks the question: &lt;a href="http://gaslight.co/blog/does-coffeescript-have-a-future"&gt;Does CoffeeScript has a future?&lt;/a&gt; Which after reading his post, is a fair question to ask. Simply because Javascript is evolving at a much faster rate than it has in the past. But I still digg Coffeescript!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #27</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-27/"/>
+    <id>https://codio.com/s/blog/2013/09/from-the-frontline-27/</id>
+    <published>2013-09-02T00:00:00Z</published>
+    <updated>2013-09-02T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The increasingly popular Javascript framework; &lt;a href="http://emberjs.com/"&gt;Ember&lt;/a&gt;, has hit a final 1.0.0 release over the weekend. Check out their updated site and docs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/bebraw/setjs"&gt;SetJS&lt;/a&gt; is a library that provides Python inspired data sets to Javascript.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This is a &lt;a href="http://www.youtube.com/watch?v=b9HGzJIcfDE"&gt;great video&lt;/a&gt; of a talk Lea...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The increasingly popular Javascript framework; &lt;a href="http://emberjs.com/"&gt;Ember&lt;/a&gt;, has hit a final 1.0.0 release over the weekend. Check out their updated site and docs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/bebraw/setjs"&gt;SetJS&lt;/a&gt; is a library that provides Python inspired data sets to Javascript.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This is a &lt;a href="http://www.youtube.com/watch?v=b9HGzJIcfDE"&gt;great video&lt;/a&gt; of a talk Lea Verou gave all about the humble &lt;code&gt;border-radius&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/titon/probe"&gt;Probe&lt;/a&gt; is a neat little library that extends the Javascript native prototypes with Lo-Dash or Underscore methods.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://bennettfeely.com/csscreatures/"&gt;CSS Creatures&lt;/a&gt; is a collection of fun animated smiley faces, all written in CSS.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://adminjs.com/"&gt;AdminJS&lt;/a&gt; is a backend-agnostic admin framework. Meaning you can boot up an HTML page with this library included, and after defining your models, you have a fully fledged admin backend.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;And just for fun, I give you... &lt;a href="http://mrcoles.com/piano/"&gt;a Javascript Piano!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>From the Front-line - #26</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/08/from-the-frontline-26/"/>
+    <id>https://codio.com/s/blog/2013/08/from-the-frontline-26/</id>
+    <published>2013-08-30T00:00:00Z</published>
+    <updated>2013-08-30T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Happy Friday! ...again&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href="http://intentionjs.com/"&gt;Intention.js&lt;/a&gt; is a very interesting, but slightly strange Javascript library that offers a way to dynamically restructure your HTML in a responsive manner using HTML attributes. And that's why I don't like it. Ends up dirtying...&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;Happy Friday! ...again&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://intentionjs.com/"&gt;Intention.js&lt;/a&gt; is a very interesting, but slightly strange Javascript library that offers a way to dynamically restructure your HTML in a responsive manner using HTML attributes. And that&amp;#39;s why I don&amp;#39;t like it. Ends up dirtying your HTML.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://pazguille.github.io/flipload/"&gt;Flipload.js&lt;/a&gt; provides a nice way to flip your HTML elements to show a loading indicator. Works with pretty much any element, which is nice.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I&amp;#39;ve seen these &lt;a href="http://wagerfield.github.io/parallax/"&gt;Parallax style effects&lt;/a&gt; before, but this library demo&amp;#39;s what it can do very nicely indeed!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ariya Hidayat writes an interesting &lt;a href="http://ariya.ofilabs.com/2013/08/searching-with-array-prototype-some.html"&gt;article&lt;/a&gt; all about searching with Array.some().&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://www.mobify.com/blog/css-sprites-vs-data-uris-which-is-faster-on-mobile/"&gt;This article&lt;/a&gt; on CSS sprites vs. Data URI&amp;#39;s analyses which is faster and more efficient, particularly on mobile devices.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

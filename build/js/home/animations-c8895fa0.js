@@ -1,0 +1,1 @@
+!function(){$(function(){return $("#tagline h1, #tagline div").transition({opacity:1,duration:1e3,delay:800}),$("#screen").transition({opacity:1,duration:5e3,delay:600}),$("#screen a").transition({opacity:1,duration:1e3,delay:2500})})}.call(this);

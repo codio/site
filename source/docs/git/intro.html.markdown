@@ -4,9 +4,19 @@ class_name: docs
 full_width: true
 ---
 
-Codio's Git implementation is pretty standard but there are some important things to note. Codio is a Cloud based system and we do not use virtual machines for each project (although we will soon have an excellent solution to those who want a dedicated cloud server).
+##Git inside Codio and Outside
+Codio has implemented Git on our servers. This means you can use Git out of the box. There is nothing special to setup (no SSH keys or special authentication). All Git activities take place on our servers.
 
-We also allow collaborative editing and so, provided permissions have been granted, it is possible for users to be working on the exact same code as another user. Not another branch, but the exact same files.
+However, you can also work with external Git platforms such as Github, simply by setting up a remote. If you created your Codio project by cldoing a Github repo then your remote will be automatically created. Please refer to the [Github and other remotes](/docs/git/remotes/) section for details. 
+
+If you are using Github, then you will need to setup your SSH keys properly. This is [described here](/docs/settings-prefs/account-settings/public-key/).
+
+
+##Real Time Collaboration
+Codio allows collaborative editing and so, provided permissions have been granted, it is possible for users to be working on the exact same code as another user. Not another branch, but the exact same files.
+
+This can lead to certain conflicts and so for regular development the best approach is to follow standard collaborative development practices.
+
 
 ##Collaborative Development
 Generally speaking, it is strongly recommended that where several developers are all working on the same codebase, each developer works in their own branch. We recommend that 2 or more developers working on the same branch should be used only for pair-programming, code discussions or on static projects where only very occasional changes are made.

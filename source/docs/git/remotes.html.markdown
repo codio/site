@@ -6,6 +6,9 @@ full_width: true
 
 Most people will want to push to Github and other remote repos. There are various ways to manage this within Codio.
 
+##Remotes and Github
+To work with Github, you need to set up your SSH keys properly as [described here](/docs/settings-prefs/account-settings/public-key/).
+
 ##I have a remote repo
 If your starting point is a remote repo, then you should create a new project from the Codio dashboard. Create Project is an option above your project listings.
 

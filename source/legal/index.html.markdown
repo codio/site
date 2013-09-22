@@ -26,7 +26,7 @@ submenu:
     url: 'privacy'
   -
     text: Billing & Refunds
-    url: '../refund'    
+    url: 'refund'    
 ---
 
 **Effective August 7th, 2013.**

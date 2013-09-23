@@ -32,7 +32,7 @@ There are 3 ways to avoid this
 
 - expand the inline preview into a new browser tab (icon is in the small floating toolbar in the top right of the preview tab) and then modify the url from `https://codio.io/xxxx` to `http://codio.io/xxxx`
 - modify your external references to https
-- modify your references to use the current protocol like this `<script src="//code.angularjs.org/1.1.5/angular.js">`
+- modify your references to use the 'current protocol' by including '//' without http or https, so `<script src="//code.angularjs.org/1.1.5/angular.js">`
 - if none of the above work, then get the external file then include and reference it within the Codio project itself
 
 

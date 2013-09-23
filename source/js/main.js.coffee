@@ -14,7 +14,7 @@ $ ->
   # User is anonymous
   if !sessionId
     do signedOutNav.fadeIn
-    ga? && ga 'send', 'pageview', { dimension1: false }
+    ga? && ga 'send', 'pageview', { dimension1: false, dimension2: true }
   else
     request = $.post 'https://codio.com/service/',
       acrequest: JSON.stringify
@@ -26,7 +26,7 @@ $ ->
     request.done (data)->
       if data.code != 1
         do signedOutNav.fadeIn
-        ga? && ga 'send', 'pageview', { dimension1: false }
+        ga? && ga 'send', 'pageview', { dimension1: false, dimension2: true }
       else
         user = data.response.details
 
@@ -49,7 +49,7 @@ $ ->
         userlink.text user.name
 
         do signedInNav.fadeIn
-        ga? && ga 'send', 'pageview', { dimension1: true }
+        ga? && ga 'send', 'pageview', { dimension1: true, dimension2: true }
 
 
 $ ->

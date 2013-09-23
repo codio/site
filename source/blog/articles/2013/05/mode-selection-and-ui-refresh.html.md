@@ -2,7 +2,7 @@
 title: Mode Selection and UI Refresh
 author: Joel Moss
 date: 2013-05-17
-tags: new feature
+tags: changelog
 class_name: blog
 full_width: true
 ---

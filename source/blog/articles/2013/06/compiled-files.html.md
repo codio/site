@@ -2,7 +2,7 @@
 title: Support added for CoffeeScript, Sass, SCSS etc.
 author: Freddy May
 date: 2013-06-29
-tags: new feature
+tags: changelog
 class_name: blog
 full_width: true
 ---
@@ -18,7 +18,7 @@ We're pretty pleased with the latest addition to the Codio IDE. This time, we've
 We're also ready to add more file types, so tweet [@codioHQ](http://twitter.com/CodioHQ) if you think we should add something.
 
 ##Take a look
-What you see below is a real IDE, so play with it to see how we support compiled file types. 
+What you see below is a real IDE, so play with it to see how we support compiled file types.
 
 - Press the Preview menu option to run it and see how things are compiled on the fly
 - Open up the example files (Less and CoffeeScript represented here)

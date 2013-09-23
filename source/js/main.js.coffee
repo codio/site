@@ -111,7 +111,7 @@ $ ->
   $('body.blog section.posts article pre > code').addClass 'lang-javascript'
 
   # Handle video links so they open in fancybox
-  if (videos = $("body.blog section.posts article a[href*='youtube']")).length > 0
+  if (videos = $("body.blog section.posts article a").filter("[href*='youtube'], [href*='vimeo']")).length > 0
     videos.addClass 'fancybox fancybox.iframe'
 
 
@@ -129,7 +129,7 @@ $ ->
       $('body.docs article pre > code').addClass 'lang-javascript'
 
       # Handle video links so they open in fancybox
-      if (videos = $("body.docs article a[href*='youtube']")).length > 0
+      if (videos = $("body.docs article a").filter("[href*='youtube'], [href*='vimeo']")).length > 0
         videos.addClass 'fancybox fancybox.iframe'
 
     do doc_events

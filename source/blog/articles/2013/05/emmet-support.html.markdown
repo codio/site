@@ -2,7 +2,7 @@
 title: Emmet support added for hi-speed HTML and CSS coding
 author: Freddy May
 date: 2013-05-24
-tags: new feature
+tags: changelog
 class_name: blog
 full_width: true
 ---
@@ -75,12 +75,12 @@ There are other things you can do as well, like generating standard text
 
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis expedita numquam suscipit hic molestias tenetur neque facilis et aliquam consectetur sapiente aperiam non recusandae ad minima quod saepe laborum tempora.
 
-Just use 
+Just use
 
 	lorem
 
 ##Power Keyboard Shortcuts
-As well as abbreviations, we also offer some really powerful productivity features behind kayboard shortcuts. 
+As well as abbreviations, we also offer some really powerful productivity features behind kayboard shortcuts.
 
 - Matching tag pairs
 - Jump to matching tag

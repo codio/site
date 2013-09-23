@@ -2,7 +2,7 @@
 title: Snippets Released
 author: Freddy May
 date: 2013-06-01
-tags: new feature
+tags: changelog
 class_name: blog
 full_width: true
 ---
@@ -19,7 +19,7 @@ For example in an HTML file ...
 
 In a CSS file ...
 
-`bdi` + tab, expands to 
+`bdi` + tab, expands to
 
     -webkit-border-image: url();
     -moz-border-image: url();
@@ -27,7 +27,7 @@ In a CSS file ...
 
 In a JS file ...
 
-`for` + tab expands to 
+`for` + tab expands to
 
 	for (var i = 0; i < Things.length; i++) {
 	    Things[i]

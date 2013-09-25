@@ -4,13 +4,14 @@ class_name: docs
 full_width: true
 ---
 
-Codio should run fine on the following browsers
+Codio is best experienced on the very latest browsers, in particular Chrome, but should run fine on the following browsers:
 
-- **Chrome** - anything later than 25 should run fine and earlier versions may run, too; if you're Chrome is reasonably up to date then Codio should work perfectly
-- **Firefox** - Version22 or later
-- **IE** - IE10 or later
-- **Safari** - version 6 or later
-- **Opera** - ???
+- **Chrome** 21 or later
+- **Firefox** - 22 or later
+- **IE** - 10 or later
+- **Safari** - 6 or later
+- **Opera** - 12 or later
 
-If you are experiencing any issue where Codio will not run and the abive list says it should, then either Tweet @CodioHQ or send an email to support@codio.com.
+
+If you are experiencing any issue where Codio will not run and the above list says it should, then either Tweet [@CodioHQ](https://twitter.com/codiohq) or send an email to support@codio.com.
 

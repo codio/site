@@ -4,10 +4,33 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-09-23T00:00:00Z</updated>
+  <updated>2013-09-25T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>From the Front-line - #32</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-32/"/>
+    <id>https://codio.com/s/blog/2013/09/from-the-frontline-32/</id>
+    <published>2013-09-25T00:00:00Z</published>
+    <updated>2013-09-25T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Hubspot have released another open source lib called &lt;a href="http://github.hubspot.com/pace/docs/welcome/"&gt;Pace&lt;/a&gt;, but this time for creating good looking progress indicators for page load and ajax navigation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://stedolan.github.io/jq/"&gt;jq&lt;/a&gt; is a lightweight and flexible command-line JSON processor. Slice, filter, map and transform...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Hubspot have released another open source lib called &lt;a href="http://github.hubspot.com/pace/docs/welcome/"&gt;Pace&lt;/a&gt;, but this time for creating good looking progress indicators for page load and ajax navigation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="http://stedolan.github.io/jq/"&gt;jq&lt;/a&gt; is a lightweight and flexible command-line JSON processor. Slice, filter, map and transform JSON!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now this is cool! &lt;a href="http://www.kennethcachia.com/background-check/"&gt;BackgroundCheck&lt;/a&gt; is a JS lib for automatically switching the colour of an element, depending upon the brightness of images behind it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;More awesome effects... &lt;a href="https://github.com/maroslaw/rainyday.js"&gt;Rainyday&lt;/a&gt; simulates &lt;a href="http://maroslaw.github.io/rainyday.js/demo1.html"&gt;raindrops on a window&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Flexbox is coming! In fact it&amp;#39;s already arrived, and is slower gaining wider browser support. &lt;a href="http://philipwalton.github.io/solved-by-flexbox/"&gt;Solved by Flexbox&lt;/a&gt; is a site that demo&amp;#39;s what you can do with CSS Flexbox.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Thanks in no small part to CoffeeScript, &lt;a href="http://robcee.net/2013/fat-arrow-functions-in-javascript/"&gt;Fat Arrow functions&lt;/a&gt; are about to make their way in Javascript.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Multiple Panels, New Editor, Git, Custom keybindings &amp;amp; Preferences</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/"/>
@@ -170,33 +193,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="http://code.octopuscreative.com/fancyselect/"&gt;FancySelect&lt;/a&gt; is a JS library that will turn your select boxes into a sexy beast!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The &lt;a href="http://batmanjs.org/"&gt;BatmanJS&lt;/a&gt; site just got a facelift.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Joel Turnbull asks the question: &lt;a href="http://gaslight.co/blog/does-coffeescript-have-a-future"&gt;Does CoffeeScript has a future?&lt;/a&gt; Which after reading his post, is a fair question to ask. Simply because Javascript is evolving at a much faster rate than it has in the past. But I still digg Coffeescript!&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #27</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-27/"/>
-    <id>https://codio.com/s/blog/2013/09/from-the-frontline-27/</id>
-    <published>2013-09-02T00:00:00Z</published>
-    <updated>2013-09-02T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The increasingly popular Javascript framework; &lt;a href="http://emberjs.com/"&gt;Ember&lt;/a&gt;, has hit a final 1.0.0 release over the weekend. Check out their updated site and docs.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/bebraw/setjs"&gt;SetJS&lt;/a&gt; is a library that provides Python inspired data sets to Javascript.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;This is a &lt;a href="http://www.youtube.com/watch?v=b9HGzJIcfDE"&gt;great video&lt;/a&gt; of a talk Lea...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The increasingly popular Javascript framework; &lt;a href="http://emberjs.com/"&gt;Ember&lt;/a&gt;, has hit a final 1.0.0 release over the weekend. Check out their updated site and docs.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/bebraw/setjs"&gt;SetJS&lt;/a&gt; is a library that provides Python inspired data sets to Javascript.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;This is a &lt;a href="http://www.youtube.com/watch?v=b9HGzJIcfDE"&gt;great video&lt;/a&gt; of a talk Lea Verou gave all about the humble &lt;code&gt;border-radius&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/titon/probe"&gt;Probe&lt;/a&gt; is a neat little library that extends the Javascript native prototypes with Lo-Dash or Underscore methods.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://bennettfeely.com/csscreatures/"&gt;CSS Creatures&lt;/a&gt; is a collection of fun animated smiley faces, all written in CSS.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://adminjs.com/"&gt;AdminJS&lt;/a&gt; is a backend-agnostic admin framework. Meaning you can boot up an HTML page with this library included, and after defining your models, you have a fully fledged admin backend.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;And just for fun, I give you... &lt;a href="http://mrcoles.com/piano/"&gt;a Javascript Piano!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;

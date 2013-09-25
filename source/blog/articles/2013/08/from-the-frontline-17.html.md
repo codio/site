@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #17'
 author: Joel Moss
-tags: Flexbox, CSS3, testing, jshint, Grunt
 date: 2013-08-05
+tags: frontline
 class_name: blog
 full_width: true
 ---

@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #13'
 author: Joel Moss
-tags: ajax, regular expressions, EmberJS
 date: 2013-07-26
+tags: frontline
 class_name: blog
 full_width: true
 ---

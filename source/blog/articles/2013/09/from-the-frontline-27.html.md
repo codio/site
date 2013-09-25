@@ -3,6 +3,7 @@ title: 'From the Front-line - #27'
 author: Joel Moss
 date: 2013-09-02
 class_name: blog
+tags: frontline
 full_width: true
 ---
 

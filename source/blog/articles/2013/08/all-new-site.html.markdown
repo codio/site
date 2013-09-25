@@ -3,6 +3,7 @@ title: All New Site
 author: Joel Moss
 date: 2013-08-01
 class_name: blog
+tags: changelog
 full_width: true
 image: blog/favicon_base.png
 ---

@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #12'
 author: Joel Moss
-tags: Git, Github, Web workers, Grunt, Topcoat
 date: 2013-07-25
+tags: frontline
 class_name: blog
 full_width: true
 ---

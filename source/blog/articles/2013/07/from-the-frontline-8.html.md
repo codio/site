@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #8'
 author: Joel Moss
-tags: jquery, CSS3, Javascript
 date: 2013-07-17
+tags: frontline
 class_name: blog
 full_width: true
 ---

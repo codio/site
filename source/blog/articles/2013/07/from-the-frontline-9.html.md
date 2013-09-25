@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #9'
 author: Joel Moss
-tags: animations, CSS3, Javascript, ES6, JSHint
 date: 2013-07-18
+tags: frontline
 class_name: blog
 full_width: true
 ---

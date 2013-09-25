@@ -2,6 +2,7 @@
 title: Removing Apps
 author: Joel Moss
 date: 2013-07-02
+tags: changelog
 class_name: blog
 full_width: true
 image: blog/apps.png

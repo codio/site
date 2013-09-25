@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #21'
 author: Joel Moss
-tags: Node, ToDoMVC, Firefox
 date: 2013-08-15
+tags: frontline
 class_name: blog
 full_width: true
 ---

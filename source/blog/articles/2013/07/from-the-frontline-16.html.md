@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #16'
 author: Joel Moss
-tags: Grunt, testing, Photoshop
 date: 2013-07-31
+tags: frontline
 class_name: blog
 full_width: true
 ---

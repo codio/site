@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #19'
 author: Joel Moss
-tags: GoogleMaps, CoffeeScript, PhantomJS
 date: 2013-08-08
+tags: frontline
 class_name: blog
 full_width: true
 ---

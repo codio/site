@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #15'
 author: Joel Moss
-tags: viewport, CSS3, animation, browserify
 date: 2013-07-30
+tags: frontline
 class_name: blog
 full_width: true
 ---

@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #3'
 author: Joel Moss
-tags: Dropbox, Chrome, PouchDB, Trello, Javascript
 date: 2013-07-10
+tags: frontline
 class_name: blog
 full_width: true
 ---

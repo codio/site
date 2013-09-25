@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #2'
 author: Joel Moss
-tags: firefox, stackoverflow, coffeescript, Trello
 date: 2013-07-09
+tags: frontline
 class_name: blog
 full_width: true
 ---

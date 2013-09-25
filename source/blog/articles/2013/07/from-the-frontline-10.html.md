@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #10'
 author: Joel Moss
-tags: jQuery, BDD, AB testing, WebRTC
 date: 2013-07-22
+tags: frontline
 class_name: blog
 full_width: true
 ---

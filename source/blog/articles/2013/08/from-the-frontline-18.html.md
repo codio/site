@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #18'
 author: Joel Moss
-tags: SCSS, jQuery, Chrome, Handlebars
 date: 2013-08-06
+tags: frontline
 class_name: blog
 full_width: true
 ---

@@ -1,8 +1,8 @@
 ---
 title: 'From the Front-line - #14'
 author: Joel Moss
-tags: email, DevTools, coffeescript, Bootstrap
 date: 2013-07-29
+tags: frontline
 class_name: blog
 full_width: true
 ---

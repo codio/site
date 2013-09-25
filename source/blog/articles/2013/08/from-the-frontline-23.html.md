@@ -2,6 +2,7 @@
 title: 'From the Front-line - #23'
 author: Joel Moss
 date: 2013-08-20
+tags: frontline
 class_name: blog
 full_width: true
 ---

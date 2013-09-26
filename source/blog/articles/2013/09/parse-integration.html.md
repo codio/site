@@ -7,7 +7,7 @@ class_name: blog
 full_width: true
 ---
 
-Codio is delighted to announce support for Parse.com. Developers can now write code in the world's best Web IDE and deploy it directly to Parse.com.
+Codio is delighted to announce support for [Parse.com](http://parse.com). Developers can now write code in the world's best Web IDE and deploy it directly to Parse.com.
 
 Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly with nothing but a browser. 
 

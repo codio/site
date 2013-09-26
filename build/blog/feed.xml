@@ -17,10 +17,10 @@
     <author>
       <name>Freddy May</name>
     </author>
-    <summary type="html">&lt;p&gt;Codio is delighted to announce support for Parse.com. Developers can now write code in the world's best Web IDE and deploy it directly to Parse.com.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Codio is delighted to announce support for &lt;a href="http://parse.com"&gt;Parse.com&lt;/a&gt;. Developers can now write code in the world's best Web IDE and deploy it directly to Parse.com.&lt;/p&gt;
 
 &lt;p&gt;Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Codio is delighted to announce support for Parse.com. Developers can now write code in the world&amp;#39;s best Web IDE and deploy it directly to Parse.com.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Codio is delighted to announce support for &lt;a href="http://parse.com"&gt;Parse.com&lt;/a&gt;. Developers can now write code in the world&amp;#39;s best Web IDE and deploy it directly to Parse.com.&lt;/p&gt;
 
 &lt;p&gt;Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly with nothing but a browser. &lt;/p&gt;
 

@@ -34,12 +34,12 @@ This file contains the necessary connection information for Codio to talk to Par
 
 	{
     "applications": {
-      "Hello": {
+      "AppName": {
           "applicationId": "fUjNJlrS9JGkOEPyQBRjUix2xxxxxxxxxxxxxx", 
           "masterKey": "D0NbBAFPl5oUDslP3Pxxxxxxxxxxxx"
       }, 
       "_default": {
-          "link": "Hello"
+          "link": "AppName"
       }
     }, 
     "global": {
@@ -49,5 +49,5 @@ This file contains the necessary connection information for Codio to talk to Par
 
 You will need to retrieve `applicationId` and `masterKey` from your Parse.com console. 
 
-
+It is **important** that the application name ("AppName" in the above example) are the same.
 

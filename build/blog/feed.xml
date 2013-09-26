@@ -4,10 +4,49 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-09-25T00:00:00Z</updated>
+  <updated>2013-09-26T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Support for Parse.com</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/parse-integration/"/>
+    <id>https://codio.com/s/blog/2013/09/parse-integration/</id>
+    <published>2013-09-26T00:00:00Z</published>
+    <updated>2013-09-26T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;Codio is delighted to announce support for Parse.com. Developers can now write code in the world's best Web IDE and deploy it directly to Parse.com.&lt;/p&gt;
+
+&lt;p&gt;Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Codio is delighted to announce support for Parse.com. Developers can now write code in the world&amp;#39;s best Web IDE and deploy it directly to Parse.com.&lt;/p&gt;
+
+&lt;p&gt;Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly with nothing but a browser. &lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Video&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://player.vimeo.com/video/75482235?autoplay=1&amp;hd=1" target="_blank"&gt;Click here&lt;/a&gt; to see a very short video of how incredibly easy it is to build and deploy Cloud Code Apps from Codio.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Example Apps&lt;/h2&gt;
+
+&lt;p&gt;Below are two sample Apps, both of which are standard Parse.com tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (Project-&gt;Fork). You can then follow the instructions in the README.md files.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;quot;To Do&amp;quot;&lt;/strong&gt; - a Front-End Only App&lt;br&gt;
+This simple &amp;quot;To Do&amp;quot; app is a regular web app that makes calls to the Parse.com platform for data storage. Click on the button to load the IDE.&lt;/p&gt;
+
+&lt;p&gt;This can be run and previewed directly from Codio (see README instructions).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://codio.com/codio/Parse-ToDo" target="_blank"&gt;&lt;img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AnyImg&lt;/strong&gt; - a Cloud Code Back-End App&lt;br&gt;
+This is a simple image sharing app. This gets deployed directly from Codio to Parse.com using a deployment profile.&lt;/p&gt;
+
+&lt;p&gt;Code changes can be pushed nearly instantly to Parse.com so it&amp;#39;s a real pleasure to work with. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://codio.com/codio/Parse-AnyImg" target="_blank"&gt;&lt;img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>From the Front-line - #32</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-32/"/>
@@ -166,33 +205,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href="http://lab.ejci.net/favico.js/"&gt;Favico.js&lt;/a&gt; is an even niftier library that allows you to add badges, images and even videos to your site&amp;#39;s Favicon.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Building autocompletion to your app or site? Check out &lt;a href="https://github.com/brianreavis/sifter.js"&gt;Sifter&lt;/a&gt;, which will help you textually search arrays and hashes of objects by their properties.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Wanna know more about the upcoming version of Javascript? &lt;a href="http://sankhs.com/jschannel-es6"&gt;This presentation&lt;/a&gt; by &lt;a href="https://twitter.com/sankha93"&gt;sankha93&lt;/a&gt; all about what&amp;#39;s in EcmaScript 6 is a much watch/read.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #28</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-28/"/>
-    <id>https://codio.com/s/blog/2013/09/from-the-frontline-28/</id>
-    <published>2013-09-05T00:00:00Z</published>
-    <updated>2013-09-05T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;HTML5 Rocks have written another one of their expertly written posts, this time on &lt;a href="http://www.html5rocks.com/en/tutorials/webcomponents/customelements/"&gt;custom HTML elements&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://www.uibox.in/"&gt;UIBox&lt;/a&gt; is a library of curates HTML, Javascript and CSS components.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://github.e-sites.nl/perimeter.js/"&gt;Perimeter.js&lt;/a&gt; is a JS library that will create a invisible perimeter around a...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;HTML5 Rocks have written another one of their expertly written posts, this time on &lt;a href="http://www.html5rocks.com/en/tutorials/webcomponents/customelements/"&gt;custom HTML elements&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://www.uibox.in/"&gt;UIBox&lt;/a&gt; is a library of curates HTML, Javascript and CSS components.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://github.e-sites.nl/perimeter.js/"&gt;Perimeter.js&lt;/a&gt; is a JS library that will create a invisible perimeter around a target element, and then monitors mouse breaches.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;CSSTricks have written about the &lt;a href="http://css-tricks.com/html5-progress-element/"&gt;HTML5 Progress element&lt;/a&gt;, and it&amp;#39;s another good read.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://code.octopuscreative.com/fancyselect/"&gt;FancySelect&lt;/a&gt; is a JS library that will turn your select boxes into a sexy beast!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The &lt;a href="http://batmanjs.org/"&gt;BatmanJS&lt;/a&gt; site just got a facelift.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Joel Turnbull asks the question: &lt;a href="http://gaslight.co/blog/does-coffeescript-have-a-future"&gt;Does CoffeeScript has a future?&lt;/a&gt; Which after reading his post, is a fair question to ask. Simply because Javascript is evolving at a much faster rate than it has in the past. But I still digg Coffeescript!&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;

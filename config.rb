@@ -105,20 +105,18 @@ set :js_dir, 'js'
 set :images_dir, 'img'
 set :fonts_dir, 'fonts'
 
-set(
-  :markdown,
-  :no_intra_emphasis   => true,
-  :tables              => true,
-  :gh_blockcode        => true,
-  :fenced_code_blocks  => true,
-  :autolink            => true,
-  :strikethrough       => true,
-  :lax_html_blocks     => true,
-  :space_after_headers => true,
-  :superscript         => true,
-  :with_toc_data       => true,
-  :hard_wrap           => true
-)
+set :markdown, :no_intra_emphasis => true,
+               :tables => true,
+               :gh_blockcode => true,
+               :fenced_code_blocks => true,
+               :autolink => true,
+               :strikethrough => true,
+               :lax_html_blocks => true,
+               :space_after_headers => true,
+               :superscript => true,
+               :with_toc_data => true,
+               :hard_wrap => true
+
 set :markdown_engine, :redcarpet
 
 activate :blog do |blog|

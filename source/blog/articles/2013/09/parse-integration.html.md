@@ -14,19 +14,28 @@ Javascript/Cloud Code  developers will find that they can code and deploy a Pars
 ##Video
 <a href="http://player.vimeo.com/video/75482235?autoplay=1&hd=1" target="_blank">Click here</a> to see a very short video of how incredibly easy it is to build and deploy Cloud Code Apps from Codio.
 
+##Application Structure
+The application structure in Codio is the same as if you were coding on your local machine. You will also see the global.json file, which is where your application and master keys are specified.
+
+![parse structure](/img/blog/parse-structure.png)
+
+##Parse.com Deployment Profile
+We've added a Parse deployment profile into Codio. This lets Codio take care of the entire deployment process onto Parse.com. Watch the video above to see this in action. Deployment is extremely fast as it's a Cloud->Cloud operation, with only diffs being transferred.
+
+![parse structure](/img/blog/parse-deploy.png)
+
 ##Example Apps
 Below are two sample Apps, both of which are standard Parse.com tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (Project->Fork). You can then follow the instructions in the README.md files.
 
-**"To Do"** - a Front-End Only App
-This simple "To Do" app is a regular web app that makes calls to the Parse.com platform for data storage. Click on the button to load the IDE.
+###To Do App
+Click the button below to load this front-end App into Codio.
 
-This can be run and previewed directly from Codio (see README instructions).
+<a href="http://bit.ly/192Whma" target="_blank"><img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"></a>
 
-<a href="https://codio.com/codio/Parse-ToDo" target="_blank"><img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"></a>
+###AnyImg App
+Click the button below to load this Cloud Code back-end app into Codio.
 
-**AnyImg** - a Cloud Code Back-End App
-This is a simple image sharing app. This gets deployed directly from Codio to Parse.com using a deployment profile.
+<a href="http://bit.ly/1eJAHv2)" target="_blank"><img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"></a>
 
-Code changes can be pushed nearly instantly to Parse.com so it's a real pleasure to work with. 
+You can [read more about deployment](/docs/deployment/) in our documentation.
 
-<a href="https://codio.com/codio/Parse-AnyImg" target="_blank"><img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"></a>

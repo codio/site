@@ -2,7 +2,7 @@
 title: Teaching to Code, Learning to Code
 author: Freddy May
 date: 2013-03-28
-tags: learning code tutorials
+tags: Watercooler
 class_name: blog
 full_width: true
 image: blog/code-org.jpg

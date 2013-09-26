@@ -2,7 +2,7 @@
 title: "Codio:Annotations - Say it with a sample"
 author: Freddy May
 date: 2013-04-10
-tags: tutorials, programming, development, coding, teaching, learning
+tags: Changelog
 class_name: blog
 full_width: true
 published: true

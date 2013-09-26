@@ -2,7 +2,7 @@
 title: Add a Readme file to your project
 author: Joel Moss
 date: 2013-04-15
-tags: changelog
+tags: Changelog
 class_name: blog
 full_width: true
 ---

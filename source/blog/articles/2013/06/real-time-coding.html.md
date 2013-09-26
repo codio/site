@@ -2,7 +2,7 @@
 title: Real Time Coding
 author: Joel Moss
 date: 2013-06-07
-tags: changelog
+tags: Changelog
 class_name: blog
 full_width: true
 ---

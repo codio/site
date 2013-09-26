@@ -2,7 +2,7 @@
 title: Securing Project Previews
 author: Joel Moss
 date: 2013-04-29
-tags: changelog
+tags: Changelog
 class_name: blog
 full_width: true
 image: blog/preview-auth.png

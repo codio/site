@@ -119,6 +119,7 @@ activate :blog do |blog|
   blog.paginate           = true
   blog.year_template      = "blog/year.html"
   blog.month_template     = "blog/month.html"
+  blog.tag_template       = "blog/tag.html"
 end
 
 activate :directory_indexes

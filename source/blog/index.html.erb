@@ -15,6 +15,17 @@ pageable: true
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<div id="blog-categories" class="blog-cat-all">
+  <div class="container">
+    <ul>
+      <li><%= link_to 'All posts', '/blog/all' %></li>
+      <% blog.tags.sort.each do |tag, articles| %>
+        <li><%= link_to tag, tag_path(tag) %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
 <div class="container clearfix">
 
   <section class="posts">
@@ -89,7 +100,7 @@ pageable: true
       <section class="latest-posts">
         <h4>Latest posts...</h4>
         <ul>
-          <% articles[0...8].each do |post| %>
+          <% articles[0...4].each do |post| %>
             <li><%= link_to post.title, post %></li>
           <% end %>
         </ul>
@@ -100,14 +111,12 @@ pageable: true
       <h4>on this page...</h4>
       <ul>
         <% page_articles.each do |post| %>
+          <% next if is_blog_article? && post === current_article %>
           <li><%= link_to post.title, post %></li>
         <% end %>
       </ul>
     </section>
 
-    <section class="all-posts">
-      <h4><%= link_to 'all posts &raquo;', '/blog/all' %></h4>
-    </section>
 
     <div style="margin:35px 0 0 25px;">
       <a href="https://twitter.com/codiohq" class="twitter-follow-button" data-size="medium" data-show-count="false" data-lang="en">Follow us @codiohq</a>

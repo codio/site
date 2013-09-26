@@ -2,7 +2,7 @@
 title: 'From the Front-line - #12'
 author: Joel Moss
 date: 2013-07-25
-tags: frontline
+tags: 'From the Front Line'
 class_name: blog
 full_width: true
 ---

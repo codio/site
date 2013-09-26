@@ -1,7 +1,7 @@
 ---
 title: 'From the Front-line - #20'
 author: Joel Moss
-tags: frontline
+tags: 'From the Front Line'
 date: 2013-08-13
 class_name: blog
 full_width: true

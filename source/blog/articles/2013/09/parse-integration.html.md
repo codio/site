@@ -2,14 +2,14 @@
 title: Support for Parse.com
 author: Freddy May
 date: 2013-09-26
-tags: parse
+tags: Changelog
 class_name: blog
 full_width: true
 ---
 
 Codio is delighted to announce support for [Parse.com](http://parse.com). Developers can now write code in the world's best Web IDE and deploy it directly to Parse.com.
 
-Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly with nothing but a browser. 
+Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly with nothing but a browser.
 
 ##Video
 <a href="http://player.vimeo.com/video/75482235?autoplay=1&hd=1" target="_blank">Click here</a> to see a very short video of how incredibly easy it is to build and deploy Cloud Code Apps from Codio.

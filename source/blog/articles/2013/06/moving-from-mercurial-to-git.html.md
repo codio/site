@@ -2,7 +2,7 @@
 title: Moving from Mercurial to Git
 author: Joel Moss
 date: 2013-06-06
-tags: development
+tags: Engineering
 class_name: blog
 full_width: true
 ---
@@ -82,7 +82,7 @@ Rebasing is a much debated subject in Git-land, but [this article](http://blog.i
 The following are a collection of useful tips and tricks that I recommend that you implement. They will make your life so much easier.
 
 **Branch name in your bash prompt**
-This one is must-have for me, as I can always see at any time, what branch I am on. Check out these links: http://code-worrier.com/blog/git-branch-in-bash-prompt/ and 
+This one is must-have for me, as I can always see at any time, what branch I am on. Check out these links: http://code-worrier.com/blog/git-branch-in-bash-prompt/ and
 https://github.com/magicmonty/bash-git-prompt.
 
 **Setup Aliases**

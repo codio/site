@@ -5,6 +5,17 @@ class_name: blog
 full_width: true
 ---
 
+<div id="blog-categories" class="blog-cat-all">
+  <div class="container">
+    <ul>
+      <li><%= link_to 'All posts', '/blog/all' %></li>
+      <% blog.tags.sort.each do |tag, articles| %>
+        <li><%= link_to tag, tag_path(tag) %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
 <div class="container clearfix">
 
   <section class="posts all">
@@ -42,6 +53,13 @@ full_width: true
       <ul>
         <% blog.articles[0...5].each do |post| %>
           <li><%= link_to post.title, post %></li>
+        <% end %>
+      </ul>
+
+      <h4>categories...</h4>
+      <ul>
+        <% blog.tags.each do |tag, articles| %>
+          <li><%= link_to tag, tag_path(tag) %></li>
         <% end %>
       </ul>
     </section>

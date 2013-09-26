@@ -2,7 +2,7 @@
 title: Codio:Annotations Released
 author: Freddy May
 date: 2013-04-30
-tags: annotations, documentation, tutorials, teaching
+tags: Changelog
 class_name: blog
 full_width: true
 ---
@@ -13,7 +13,7 @@ We are really happy to announce the release of Codio:Annotations, and we don't t
 Tutorials, no matter how well they are written require mental leaps as you read large amounts of text, liberally seasoned with code snippets. Here is [a link to a very high quality tutorial](http://docs.webplatform.org/wiki/tutorials/events_in_javascript) from webplatform.org. Take a look at it and imagine you have to learn from it. Wouldn't it be great if I had a complete, working project, ready to run and all shown and documented within a proper IDE. Read on.
 
 ##What it does
-Below is the same material in the Codio IDE with annotations added to it. You can play with the IDE below or [click here](https://codio.com/codio/Oscillating-Spring) to see it full screen. 
+Below is the same material in the Codio IDE with annotations added to it. You can play with the IDE below or [click here](https://codio.com/codio/Oscillating-Spring) to see it full screen.
 
 Three things you should play around with:
 

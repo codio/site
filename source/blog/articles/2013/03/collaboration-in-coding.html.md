@@ -2,7 +2,7 @@
 title: Collaboration in Coding
 author: Joel Moss
 date: 2013-03-15
-tags: collaboration, open source
+tags: Watercooler
 class_name: blog
 full_width: true
 ---

@@ -2,7 +2,7 @@
 title: Coding + Math + Art + Physics = FUN
 author: Freddy May
 date: 2013-04-26
-tags: education, coding, teaching, art, math
+tags: Watercooler
 class_name: blog
 full_width: true
 ---
@@ -24,15 +24,10 @@ Below are three simple projects displayed in the Codio IDE (which is live and cl
 ## Multi-Touch Boids
 **IMPORTANT:** this is a live IDE, not an image, so explore the code and press Preview to run the code.
 
-<iframe src="https://codio.com/codio/Multitouch-Boids-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+<iframe src="https://codio.com/joelmoss/Multitouch-Boids-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
 
 ## Animated Text Demo
 **IMPORTANT:** this is a live IDE, not an image, so explore the code and press Preview to run the code.
 
-<iframe src="https://codio.com/codio/Animated-Text-Fill-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
-
-## Arty CSS Backgrounds
-**IMPORTANT:** this is a live IDE, not an image, so explore the code and press Preview to run the code.
-
-<iframe src="https://codio.com/codio/CSS-Patterns" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+<iframe src="https://codio.com/joelmoss/Animated-Text-Fill-Demo" width="900" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
 

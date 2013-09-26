@@ -2,6 +2,7 @@
 title: Codio is Live and Kicking!
 author: Joel Moss
 date: 2013-03-13
+tags: Changelog
 class_name: blog
 full_width: true
 ---

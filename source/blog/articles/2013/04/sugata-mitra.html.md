@@ -2,7 +2,7 @@
 title: No teachers, no problem - an inspirational TED Talk
 author: Freddy May
 date: 2013-04-23
-tags: education sugata mitra indian school cloud teaching
+tags: Watercooler
 class_name: blog
 full_width: true
 ---

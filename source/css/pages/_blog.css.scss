@@ -14,6 +14,55 @@ body.blog {
     margin-bottom: 60px;
   }
 
+  #blog-categories {
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #eee;
+
+    &.blog-cat-all li:first-child a {
+      color: #666;
+      font-family: gotham_medium;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        width: 182px;
+        padding: 10px 0;
+
+        &:first-child {
+          padding-left: 20px;
+          width: 172px;
+        }
+        &:nth-child(4) {
+          width: 242px;
+        }
+        &:last-child {
+          width: 142px;
+        }
+
+        &.active a {
+          color: #666;
+          font-family: gotham_medium;
+        }
+
+        a {
+          display: inline-block;
+          font: 12px gotham_light;
+          text-transform: uppercase;
+
+          &:hover {
+            color: #000;
+            border-bottom: 1px solid #CCC;
+          }
+        }
+      }
+    }
+  }
+
   article > .blog-social {
     margin: 0 0 40px;
 
@@ -74,7 +123,7 @@ body.blog {
     clear: none;
     display: inline-block;
     float: left;
-    margin: 10px 0 0 25px;
+    margin: 10px 0 0 65px;
     width: 210px;
 
     .all-posts {
@@ -112,14 +161,14 @@ body.blog {
   .posts {
     margin-top: 30px;
     float: left;
-    width: 740px;
+    width: 700px;
 
     &.all {
       margin: 30px 0 50px;
 
       h2 {
         border-bottom: 1px solid #CCC;
-        padding-left: 169px;
+        padding-left: 150px;
         margin: 0.83em 0 30px;
 
         a {
@@ -135,11 +184,14 @@ body.blog {
         h3 {
           margin: 0 0 0 150px;
           font-size: 16px;
+          text-transform: initial;
         }
 
         .meta {
           width: 120px;
           float: left;
+          position: relative;
+          top: -4px;
 
           p.date {
             text-align: left;

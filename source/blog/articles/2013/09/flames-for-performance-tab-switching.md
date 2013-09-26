@@ -2,7 +2,7 @@
 title: Flames for Performance - Tab Switching
 author: Friedel Ziegelmayer
 date: 2013-09-27
-tags: performance, changelog
+tags: Engineering
 class_name: blog
 full_width: true
 ---

@@ -12,7 +12,7 @@ body.home footer {
 
     &:last-child {
       @include apply-to(more-than, desktop) {
-        width: 254px;
+        width: 234px;
       }
     }
   }
@@ -72,9 +72,9 @@ footer {
 
     &:last-child {
       float: left;
-      width: 250px;
+      width: 230px;
       text-align: right;
-      padding: 4px 30px 0 0;
+      padding: 4px 50px 0 0;
     }
   }
 

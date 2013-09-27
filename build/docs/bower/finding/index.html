@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-c04464cb.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-dd6b9770.css" media="screen" rel="stylesheet" type="text/css" />
 
     
     <link href="../../../css/lib/rainbow/github-453e79e9.css" media="screen" rel="stylesheet" type="text/css" />
@@ -115,23 +115,20 @@
       <h1>Finding a component</h1>
       <p>One of the difficulties you may have is finding the Bower component you are looking for. Bower itself relies upon component developers to implement a <code>bower.json</code> file correctly. If they don&#39;t, then all Bower can do is pull in the entire repository including source code, tests etc. This is a sign that Bower is not really supported and if you think it should be then raise an issue on Github with that project.</p>
 
-<h2 id="toc_0">Using the Codio component browser</h2>
-
-<p>You can browse Codio components easily enough using the main component browser built right into Codio. Sometimes it is not easy to find the exact component you are looking for. If you look for &#39;handlebars&#39; for example, you get a lot of matches. </p>
+<p>##Using the Codio component browser<br>
+You can browse Codio components easily enough using the main component browser built right into Codio. Sometimes it is not easy to find the exact component you are looking for. If you look for &#39;handlebars&#39; for example, you get a lot of matches. </p>
 
 <p>There are various ways to get quickly to the component you need.</p>
 
-<h2 id="toc_1">You already know the component name</h2>
-
-<p>If you are already familiar with Bower and you know the Bower command you would execute from the command line, so something like</p>
+<p>##You already know the component name<br>
+If you are already familiar with Bower and you know the Bower command you would execute from the command line, so something like</p>
 
 <p>bower install handlebars</p>
 
 <p>Then you can enter that name directly in the field at the top of the Codio screen. This will perform the exact same operation in the background.</p>
 
-<h2 id="toc_2">Shims</h2>
-
-<p>Some projects provide what are known as &#39;shims&#39;, which is simply a repository that contains only the bare essentials you need to consume that project.</p>
+<p>##Shims<br>
+Some projects provide what are known as &#39;shims&#39;, which is simply a repository that contains only the bare essentials you need to consume that project.</p>
 
 <p>Handlebars.js is a good example. If you search the component directory you will find more than one possible match</p>
 
@@ -141,27 +138,23 @@
 <li><a href="https://github.com/components/handlebars.js">handlebars</a> which points to <a href="https://github.com/components/handlebars.js">https://github.com/components/handlebars.js</a> - this is the &#39;shim&#39; library</li>
 </ul>
 
-<h3 id="toc_3">Warning About Shims</h3>
-
-<p>One thing you need to be aware of is that a Shim library is a copy of the original base repository and is not linked to the original. If a new version of the original appears, then some manual step is taken by someone to also update the corresponding Shim. </p>
+<p>###Warning About Shims<br>
+One thing you need to be aware of is that a Shim library is a copy of the original base repository and is not linked to the original. If a new version of the original appears, then some manual step is taken by someone to also update the corresponding Shim. </p>
 
 <p>Until this is done, it is the Shim is out of date. All you can do is to open an issue with both the Shim and the original to ask them to get them in sync.</p>
 
 <p>In the case of many components, this is done quickly but you might want to check.</p>
 
-<h3 id="toc_4">Who maintains the Shims</h3>
-
-<p>They are maintained by <a href="https://github.com/components/components">https://github.com/components/components</a>.</p>
+<p>###Who maintains the Shims<br>
+They are maintained by <a href="https://github.com/components/components">https://github.com/components/components</a>.</p>
 
 <p>At the bottom of the readme, you can see that they are inviting issues to get raised or pull requests.</p>
 
-<h3 id="toc_5">Full list of Shims</h3>
+<p>###Full list of Shims<br>
+The Github repo is located at <a href="https://github.com/components">https://github.com/components</a>. This is not Bower specific but seems to be used by Bower for this purpose. Other package managers also go here for components, which is why you will see files like <code>component.json</code>.</p>
 
-<p>The Github repo is located at <a href="https://github.com/components">https://github.com/components</a>. This is not Bower specific but seems to be used by Bower for this purpose. Other package managers also go here for components, which is why you will see files like <code>component.json</code>.</p>
-
-<h3 id="toc_6">Bower.json</h3>
-
-<p>The bower.json file is the file that Bower expects to find.</p>
+<p>###Bower.json<br>
+The bower.json file is the file that Bower expects to find.</p>
 
 
       

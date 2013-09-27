@@ -12,7 +12,7 @@ body.home footer {
 
     &:last-child {
       @include apply-to(more-than, desktop) {
-        width: 204px;
+        width: 160px;
       }
     }
   }
@@ -30,6 +30,17 @@ footer {
   text-align: center;
   line-height: 1.5em;
   height: 40px;
+
+  #fork-me {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    border: 0;
+    width: 140px;
+    height: 140px;
+    display: block;
+  }
 
   a {
     color: $cream;
@@ -63,7 +74,8 @@ footer {
       float: left;
       width: 200px;
       text-align: right;
-      padding: 20px 76px 0 0;
+      padding: 4px 76px 0 0;
+      text-indent: -9999px;
     }
   }
 

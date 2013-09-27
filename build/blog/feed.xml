@@ -95,29 +95,35 @@
 
 &lt;p&gt;Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly with nothing but a browser.&lt;/p&gt;
 
-&lt;p&gt;##Video&lt;br&gt;
-&lt;a href="http://player.vimeo.com/video/75482235?autoplay=1&amp;hd=1" target="_blank"&gt;Click here&lt;/a&gt; to see a very short video of how incredibly easy it is to build and deploy Cloud Code Apps from Codio.&lt;/p&gt;
+&lt;h2 id="toc_0"&gt;Video&lt;/h2&gt;
 
-&lt;p&gt;##Application Structure&lt;br&gt;
-The application structure in Codio is the same as if you were coding on your local machine. You will also see the global.json file, which is where your application and master keys are specified.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://player.vimeo.com/video/75482235?autoplay=1&amp;hd=1" target="_blank"&gt;Click here&lt;/a&gt; to see a very short video of how incredibly easy it is to build and deploy Cloud Code Apps from Codio.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Application Structure&lt;/h2&gt;
+
+&lt;p&gt;The application structure in Codio is the same as if you were coding on your local machine. You will also see the global.json file, which is where your application and master keys are specified.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="parse structure" src="/s/img/blog/parse-structure-6142066f.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;##Parse.com Deployment Profile&lt;br&gt;
-We&amp;#39;ve added a Parse deployment profile into Codio. This lets Codio take care of the entire deployment process onto Parse.com. Watch the video above to see this in action. Deployment is extremely fast as it&amp;#39;s a Cloud-&gt;Cloud operation, with only diffs being transferred.&lt;/p&gt;
+&lt;h2 id="toc_2"&gt;Parse.com Deployment Profile&lt;/h2&gt;
+
+&lt;p&gt;We&amp;#39;ve added a Parse deployment profile into Codio. This lets Codio take care of the entire deployment process onto Parse.com. Watch the video above to see this in action. Deployment is extremely fast as it&amp;#39;s a Cloud-&gt;Cloud operation, with only diffs being transferred.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="parse structure" src="/s/img/blog/parse-deploy-121d1c0f.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;##Example Apps&lt;br&gt;
-Below are two sample Apps, both of which are standard Parse.com tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (Project-&gt;Fork). You can then follow the instructions in the README.md files.&lt;/p&gt;
+&lt;h2 id="toc_3"&gt;Example Apps&lt;/h2&gt;
 
-&lt;p&gt;###To Do App&lt;br&gt;
-Click the button below to load this front-end App into Codio.&lt;/p&gt;
+&lt;p&gt;Below are two sample Apps, both of which are standard Parse.com tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (Project-&gt;Fork). You can then follow the instructions in the README.md files.&lt;/p&gt;
+
+&lt;h3 id="toc_4"&gt;To Do App&lt;/h3&gt;
+
+&lt;p&gt;Click the button below to load this front-end App into Codio.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="http://bit.ly/192Whma" target="_blank"&gt;&lt;img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;###AnyImg App&lt;br&gt;
-Click the button below to load this Cloud Code back-end app into Codio.&lt;/p&gt;
+&lt;h3 id="toc_5"&gt;AnyImg App&lt;/h3&gt;
+
+&lt;p&gt;Click the button below to load this Cloud Code back-end app into Codio.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="http://bit.ly/1eJAHv2)" target="_blank"&gt;&lt;img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"&gt;&lt;/a&gt;&lt;/p&gt;
 

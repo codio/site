@@ -112,7 +112,6 @@ set :markdown, :no_intra_emphasis => true,
                :autolink => true,
                :strikethrough => true,
                :lax_html_blocks => true,
-               :space_after_headers => true,
                :superscript => true,
                :with_toc_data => true,
                :hard_wrap => true

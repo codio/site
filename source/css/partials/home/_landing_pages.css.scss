@@ -139,7 +139,34 @@
   }
 
   &#lp-salesforce .container > div {
+    background: transparent image-url('landing-pages/salesforce.png') no-repeat -147px center;
+          background-position: -10px center;
+    background-size: 360px;
 
+    @include apply-to(more-than, desktop) {
+      background-position: -10px center;
+      background-size: 360px;
+    }
   }
+
+  &#lp-parse .container > div {
+    > div {
+      padding:130px 0px 110px 410px;
+      width:280px
+    }
+    background: transparent image-url('landing-pages/parse.png') no-repeat -147px center;
+    background-position: -10px center;
+    background-size: 380px;
+
+    @include apply-to(more-than, desktop) {
+      > div {
+        padding:130px 0px 110px 472px;
+        width:380px
+      }    
+      background-position: -10px center;
+      background-size: 460px;
+    }
+  }
+
 
 }

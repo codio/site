@@ -128,6 +128,12 @@
 &lt;p&gt;&lt;a href="http://bit.ly/1eJAHv2)" target="_blank"&gt;&lt;img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;You can &lt;a href="/s/docs/deployment/"&gt;read more about deployment&lt;/a&gt; in our documentation.&lt;/p&gt;
+
+&lt;h2 id="toc_6"&gt;Creating a Parse.com App&lt;/h2&gt;
+
+&lt;p&gt;We have set up a Parse.com template. When you go to create a new project from the Codio Dashboard, select &amp;quot;From a template&amp;quot; from the Create Project option dropdown. You&amp;#39;ll find a &amp;quot;Parse Anyimg&amp;quot; template waiting for you.&lt;/p&gt;
+
+&lt;p&gt;Open the README.md file and follow the instructions to get it running in 5 minutes.&lt;/p&gt;
 </content>
   </entry>
   <entry>

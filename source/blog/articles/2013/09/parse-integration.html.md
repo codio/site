@@ -39,3 +39,7 @@ Click the button below to load this Cloud Code back-end app into Codio.
 
 You can [read more about deployment](/docs/deployment/) in our documentation.
 
+##Creating a Parse.com App
+We have set up a Parse.com template. When you go to create a new project from the Codio Dashboard, select "From a template" from the Create Project option dropdown. You'll find a "Parse Anyimg" template waiting for you.
+
+Open the README.md file and follow the instructions to get it running in 5 minutes.

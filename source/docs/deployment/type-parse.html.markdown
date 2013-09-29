@@ -11,7 +11,12 @@ full_width: true
 - Server Side Javascript (Node.js)
 - Social Integration
 
-Please refer to the [Parse.com documentation](https://parse.com/docs/cloud_code_guide) for details on how to create a Cloud Code application. You will find references to the Jitsu CLI tool. If you are using Codio to manage your code, then you can ignore those. Whenever you need to deploy you simply select Deploy within Codio.
+Please refer to the [Parse.com documentation](https://parse.com/docs/cloud_code_guide) for details on how to create a Cloud Code application. 
+
+##Creating a sample project
+If you want to create a test Parse.com Cloud project, we've set up a couple of Parse.com templates. When you go to create a new project from the Codio Dashboard, select "From a template" from the Create Project option dropdown. You'll find "Parse Anyimg" and "Parse ToDo" templates waiting for you.
+
+Open the README.md file and follow the instructions to get it running in 5 minutes.
 
 ##Target Type Parameters
 When setting up the deployment target, select "Parse.com ..." from the **Destination** drop down. 

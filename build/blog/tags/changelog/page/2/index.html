@@ -115,6 +115,72 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/07/removing-apps/">July  2, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/07/removing-apps/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/07/removing-apps/">Removing Apps</a></h1>
+
+        
+          <img alt="Removing Apps" align="left" class="blog-img" src="/s/img/blog/apps-4a2b6196.png" />
+        
+        <p>Codio is based upon projects, with a project having any number of files and directories. Codio also has a concept of app&#39;s within a project, and that is what you see when creating a new project.</p>
+
+<p>But for a long time now, app&#39;s have become somewhat of a pain during development and usage of Codio. A project must first have at least one app before it can have a file or directory, and then those files and directories must only be contained within an app.</p>
+
+<p>This is confusing to you, and as Codio has evolved over the last few months, it&#39;s also become unnecessary, and has actually caused us more problems that it solves.</p>
+
+<p>So we will very shortly be removing the concept of app&#39;s within a project, applying the following changes:</p>
+
+<ul>
+<li><p>Any existing project that has <strong>only one app</strong>, will have that app removed, and all it&#39;s files and directories moved into the root of the project.</p></li>
+<li><p>Any existing project with <strong>more than one app</strong> will have those app&#39;s changed to plain old directories.</p></li>
+<li><p>New projects will no longer be created with an app, and instead all files and directories will be located at the project root.</p></li>
+</ul>
+
+<p>We feel that this change will make things much more flexible for you, and will allow you to structure your projects in any way you please. It will also make things much simpler for all.</p>
+
+<p>If all goes well, this change will take place later this week. <a href="https://twitter.com/codiohq">Follow us on Twitter</a> for updates as they happen.</p>
+
+<p>If you have any questions or queries, please <a href="mailto:support@codio.com">get in touch</a>, or leave a comment below.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/removing-apps/" data-via="codiohq" data-size="small" data-count="none" data-text="Removing Apps">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/removing-apps/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/removing-apps/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/06/compiled-files/">June 29, 2013</a>
             
               <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
@@ -312,85 +378,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/06/snippets/">June  1, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/06/snippets/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/06/snippets/">Snippets Released</a></h1>
-
-        
-        <p>Hot on the heels of Inline Preview comes support for Textmate style Snippets.</p>
-
-<p>Snippets are a great way of reducing typing by entering shorthand code, pressing the tab key and then seeing the shorthand expand into the longhand.</p>
-
-<p>For example in an HTML file ...</p>
-
-<p><code>iframe</code> + tab, expands</p>
-
-<pre><code>&lt;iframe src=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-</code></pre>
-
-<p>In a CSS file ...</p>
-
-<p><code>bdi</code> + tab, expands to</p>
-
-<pre><code>-webkit-border-image: url();
--moz-border-image: url();
--o-border-image: url();
-</code></pre>
-
-<p>In a JS file ...</p>
-
-<p><code>for</code> + tab expands to</p>
-
-<pre><code>for (var i = 0; i &lt; Things.length; i++) {
-    Things[i]
-}
-</code></pre>
-
-<p>We&#39;ve made it very easy to review and search for snippets by including it right in the IDE.</p>
-
-<p><img alt="snippets" src="/s/img/blog/snippets-57ea6360.png" /></p>
-
-<p>Find out more by <a href="/s/docs/ide/emmet/snippets/">reading the documentation</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/snippets/" data-via="codiohq" data-size="small" data-count="none" data-text="Snippets Released">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/snippets/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/snippets/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -414,6 +401,9 @@
       <ul>
         
           
+          <li><a href="/s/blog/2013/07/removing-apps/">Removing Apps</a></li>
+        
+          
           <li><a href="/s/blog/2013/06/compiled-files/">Support added for CoffeeScript, Sass, SCSS etc.</a></li>
         
           
@@ -422,21 +412,18 @@
           
           <li><a href="/s/blog/2013/06/real-time-coding/">Real Time Coding</a></li>
         
-          
-          <li><a href="/s/blog/2013/06/snippets/">Snippets Released</a></li>
-        
       </ul>
 
       <h4>Latest posts...</h4>
       <ul>
+        
+          <li><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></li>
         
           <li><a href="/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/">The Latest and Greatest - Why we only Support Modern Browsers</a></li>
         
           <li><a href="/s/blog/2013/09/improving-performance-tab-switching/">Improving Performance - Tab Switching</a></li>
         
           <li><a href="/s/blog/2013/09/parse-integration/">Support for Parse.com</a></li>
-        
-          <li><a href="/s/blog/2013/09/from-the-frontline-32/">From the Front-line - #32</a></li>
         
       </ul>
     </section>

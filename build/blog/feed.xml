@@ -9,6 +9,47 @@
     <name>Codio</name>
   </author>
   <entry>
+    <title>Better Looking Annotations &amp;amp; Full Screen</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/"/>
+    <id>https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/</id>
+    <published>2013-09-30T00:00:00Z</published>
+    <updated>2013-09-30T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Today we shipped some big improvements to the way you view and navigate through Annotations, and also added a handy way to open any tab in full screen.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Annotations are a great way to create interactive, code-based tutorials and tours...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Today we shipped some big improvements to the way you view and navigate through Annotations, and also added a handy way to open any tab in full screen.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Annotations are a great way to create interactive, code-based tutorials and tours. Just create a project and annotate your code using simple comments-based tags. Then viewers of your project will then be able to take a tour of your code, or click around on the annotations that you have created.&lt;/p&gt;
+
+&lt;p&gt;Today&amp;#39;s release makes Annotations Tour content much less obtrusive. By moving the content out of a dialog window and into a tab - like everything else in Codio - you no longer have to move or resize the dialog out of the way. The code and Annotations content are now shown side-by-side.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/s/docs/annotations"&gt;Read the docs&lt;/a&gt; for more on Annotations and how to create and use them.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Full Screen&lt;/h2&gt;
+
+&lt;p&gt;We&amp;#39;ve also sneaked in a nice new item to your &lt;code&gt;View&lt;/code&gt; menu. Just click &lt;code&gt;Full Screen&lt;/code&gt; and your current tab will be expanded into full screen. Or better still, just hit &lt;code&gt;F11&lt;/code&gt; on your keyboard for a quick shortcut. And if you don&amp;#39;t like &lt;code&gt;F11&lt;/code&gt;, open up your Preferences from the &lt;code&gt;Codio &amp;gt; Preferences &amp;gt; User&lt;/code&gt; menu item, and simply override the &lt;code&gt;fullscreen&lt;/code&gt; option. I set mine to &lt;code&gt;Cmd-Shift-F&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[ide]
+fullscreen = Cmd-Shift-F
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="toc_2"&gt;And one more thing..&lt;/h2&gt;
+
+&lt;p&gt;And we&amp;#39;ve improved the File Tree, by adding arrows to let you expand/collapse directories. Simple change, but it now lets you more easily see what is expanded and what isn&amp;#39;t.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>The Latest and Greatest - Why we only Support Modern Browsers</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/"/>
     <id>https://codio.com/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/</id>
@@ -251,34 +292,6 @@
 &lt;hr&gt;
 
 &lt;p&gt;We&amp;#39;ll be blogging in more detail over the next few weeks about each of the above, so watch this space and follow us &lt;a href="https://twitter.com/CodioHQ"&gt;@CodioHQ&lt;/a&gt;. In the meantime, head on over to the updated &lt;a href="/"&gt;homepage&lt;/a&gt; and &lt;a href="/s/docs"&gt;docs&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #31</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-31/"/>
-    <id>https://codio.com/s/blog/2013/09/from-the-frontline-31/</id>
-    <published>2013-09-19T00:00:00Z</published>
-    <updated>2013-09-19T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://vinci.io/"&gt;Vinci&lt;/a&gt; is a great looking HTML5 image editor, that runs in the browser.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Looking for some 21st century dialogs? Check out &lt;a href="http://github.hubspot.com/vex/docs/welcome/"&gt;Vex&lt;/a&gt;, which is a JS library built by the guys at Hubspot.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://getfireshell.com/"&gt;Fireshell&lt;/a&gt; is a boilerplate and workflow tool. Basically a competitor to...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://vinci.io/"&gt;Vinci&lt;/a&gt; is a great looking HTML5 image editor, that runs in the browser.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Looking for some 21st century dialogs? Check out &lt;a href="http://github.hubspot.com/vex/docs/welcome/"&gt;Vex&lt;/a&gt;, which is a JS library built by the guys at Hubspot.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://getfireshell.com/"&gt;Fireshell&lt;/a&gt; is a boilerplate and workflow tool. Basically a competitor to Yeoman, but seems to be much more streamlined and focused, which I like.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Fancy running Linux in your browser with nothing but Javascript? &lt;a href="http://s-macke.github.io/jor1k/"&gt;Well why wouldn&amp;#39;t you?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;We use RequireJS - a lot! So the &lt;a href="http://tech.pro/blog/1561/five-helpful-tips-when-using-requirejs"&gt;five helpful tips for using RequireJS&lt;/a&gt; are good read.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://eloquentjavascript.net/2nd_edition/"&gt;The 2nd edition of Eloquent Javascript&lt;/a&gt; has been announced. So if you&amp;#39;re looking for a good Javascript book, go and pledge to this crowd-funded campaign.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Oh look! Another CSS framework! Ah but it&amp;#39;s different... sort of. &lt;a href="http://www.chocolatechip-ui.com/"&gt;ChocolateChip-UI&lt;/a&gt; is only for mobile, and is designed to give a native look.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;And it wouldn&amp;#39;t be right without mentioning iOS7. &lt;a href="http://mir.aculo.us/2013/09/16/how-to-create-a-web-app-that-looks-like-a-ios7-native-app-part-1/"&gt;This article&lt;/a&gt; by Thomas Fuchs, is the first part in a series about how to create a web app that looks like an iOS7 native app.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please &lt;a href="mailto:jmoss@codio.com"&gt;let me know&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>

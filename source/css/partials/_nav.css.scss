@@ -47,25 +47,37 @@ body .wrap > nav {
         &#signedout-nav {
           text-transform: uppercase;
 
-          li:first-child a {
-            background-color: $red;
-            padding: 7px 14px 6px;
-            border-radius: 2px;
-            color: $white;
-            border-bottom: none;
-            font-size: 16px;
+          li {
+            padding: 0 5px;
 
-            &:hover {
-              background-color: #B75246;
+            @include apply-to(more-than, desktop) {
+              padding: 0 10px;
             }
-          }
 
-          li:nth-child(2) {
-            padding-left: 35px;
-          }
+            &:first-child a {
+              background-color: $red;
+              padding: 7px 14px 6px;
+              border-radius: 2px;
+              color: $white;
+              border-bottom: none;
+              font-size: 16px;
 
-          li:last-child a {
-            padding-left: 0;
+              &:hover {
+                background-color: #B75246;
+              }
+            }
+
+            &:nth-child(2) {
+              padding-left: 16px;
+
+              @include apply-to(more-than, desktop) {
+                padding-left: 30px;
+              }
+            }
+
+            &:last-child a {
+              padding-left: 0;
+            }
           }
         }
 
@@ -99,7 +111,11 @@ body .wrap > nav {
       &#site-nav {
         text-transform: uppercase;
         font: 16px gotham_light;
-        margin-left: 100px;
+        margin-left: 35px;
+
+        @include apply-to(more-than, desktop) {
+          margin-left: 100px;
+        }
       }
 
       li {

@@ -50,6 +50,9 @@ I Love Open Source can be [forked on GitHub](https://github.com/codio/iloveopens
 
 Any great ideas you want to discuss or bugs you want to report should be done [here in GitHub Issues](https://github.com/codio/iloveopensource/issues?state=open) also.
 
+##Many thanks to Digital Ocean
+A short but important word of thanks goes to [Digital Ocean](http://www.digitalocean.com). They have been very generous in providing I Love Open Source with their lovely servers at no cost.
+
 ##Please Support Us
 The only support we ask for is that you Tweet about this project so the word spreads fast. We're @iloshq on Twitter.
 

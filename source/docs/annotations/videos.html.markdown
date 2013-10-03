@@ -9,9 +9,9 @@ Adding videos, images and links to your annotations can make it easier to learn 
 You just add them into the annotations.md file using regular markdown as [described here](/docs/annotations/md-overview/). 
 
 #Image
-To insert an image, you need to specify the full path to the image, including the app name itself, for example
+To insert an image, you need to specify the path to the image, for example
 
-`![Bower Logo](app/img/bower-logo.png)`
+`![Bower Logo](img/bower-logo.png)`
 
 Do not put a `/` at the start of the image path.
 

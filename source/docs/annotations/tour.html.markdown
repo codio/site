@@ -19,6 +19,9 @@ There are two types of token formats for tours.
 - **Source Matched** - if the token is of the format `@annotation:tour labelName`, then Codio expects to find a matching `labelName` in a project source file. 
 - **Standalone** - if the token is of the format `@annotation:tour` then Codio will display the tour item without displaying associated source code.
 
+##Full Screen
+You can expand the tab to the full browser size by pressing the button to the right of the navigation icons.
+
 
 
 

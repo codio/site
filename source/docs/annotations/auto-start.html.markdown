@@ -8,10 +8,12 @@ Anyone accessing a Codio project that has annotations can launch a tour automati
 
 When you open up a Codio project, you will see the url of your project, something like this
 
-	http://codio.com/account_name/project_name
+	http://codio.com/account_name/project_name/master/etc.
 
-Simple append `/tour`
+... where `master` is the name of the git branch (default is `master`).
 
-	http://codio.com/account_name/project_name/tour
+Simply append `/tour`
+
+	http://codio.com/account_name/project_name/master/tour
 
 

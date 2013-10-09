@@ -1,7 +1,7 @@
 ---
 title: I Love Open Source
 author: Freddy May
-date: 2013-10-07
+date: 2013-10-15
 tags: watercooler
 class_name: blog
 full_width: true

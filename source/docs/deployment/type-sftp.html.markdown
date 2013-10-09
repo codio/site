@@ -6,11 +6,10 @@ full_width: true
 
 The SFTP target type allows you to deploy to any SFTP server. You can use a password and/or a public key for authentication.
 
+![sftp dialog](/img/docs/deploy-sftp.png)
+
 ##Public Key Authentication
 Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/docs/settings-prefs/account-settings/public-key). You should make sure that this public key is added to your remote server.
-
-
-![sftp dialog](/img/docs/deploy-sftp.png)
 
 ##Specifying a Port
 If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below
@@ -23,8 +22,8 @@ You will need to supply a valid user name for your remote server regardless of t
 ##Password Authentication
 If you are using a public key then you can leave the password field empty.
 
-If you do not want to use a public key, then you will need to use a password for authentication. Simply provide the detals in the Codio dialog. You can use both a public key and a password if you like.
+If you do not want to use a public key, then you will need to use a password for authentication. Simply provide the details in the Codio dialog. You can use both a public key and a password if you like.
 
 ##Empty Destination Path
-Be very careful when checking this box. It will brutally remove all content from the server.
+Be very careful when checking this box. It will brutally remove all content from specified location on the remote server before the deploy starts.
 

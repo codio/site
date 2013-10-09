@@ -79,6 +79,8 @@ Flash cookies are different from browser cookies because of the amount of, type 
 
 Codio may also contract with third-party advertising networks that collect IP addresses and other Web Site Navigational Information on the Company's Web site and emails and on third-party web sites. Ad networks follow your online activities over time by collecting Web Site Navigational Information through automated means, including through the use of cookies. They use this information to provide advertisements about products and services tailored to your interests. You may see these advertisements on other Web sites. This process also helps us manage and track the effectiveness of our marketing efforts.
 
+**4.5 Google Analytics** - Codio uses Google Analytics to track information about site behavior. 
+
 ## 5. Public Forums, Refer a Friend, and Customer Testimonials
 
 Codio may provide bulletin boards, blogs, or chat rooms on the Company's web site. Any personal information you choose to submit in such a forum may be read, collected, or used by others who visit these forums, and may be used to send you unsolicited messages. Codio is not responsible for the personal information you choose to submit in these forums.

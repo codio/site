@@ -1,6 +1,7 @@
 create
 deploy
 type-codio
+type-rsync
 type-ftp
 type-sftp
 type-nj

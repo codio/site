@@ -9,9 +9,9 @@ full_width: true
 
 ## Rsync Deployment
 
-Earlier this week, we added yet another option to our deployment feature, but one that we think will really make a difference when developing in Codio. You can now deploy to almost any server via Rsync, which makes it even faster to get your code from Codio and onto your development environment, or even into production. And because it is Rsync, it will selective deploy your changes, making it even faster.
+Earlier this week, we added yet another option to our deployment feature, but one that we think will really make a difference when developing in Codio. You can now deploy to almost any server via Rsync, which makes it even faster to get your code from Codio and onto your development environment, or even into production. And because it is Rsync, it will selectively deploy *only* your changes, making it even faster.
 
-We want to make it easier and faster to write and deploy your code, and we're still working to take that even further, but for now you can write code and get it onto your development environment very fast via the new Rsync deployment option.
+We want to make it easier and faster to write and deploy your code, and we're still working to take that even further, but for now you can write code, and get it onto your development environment extremely quickly via the new Rsync deployment option.
 
 ## Tab Context Menu
 
@@ -29,7 +29,7 @@ And of course, these have keyboard shortcuts which you can customise via your [u
 
 And finally, we just shipped support for auto-completion in CSS code.
 
-Start typing any CSS rule name and hit your auto-complete keyboard shortcut (`Ctrl+Space`), and you will be shown a list of all matching CSS rules. Scroll through the list for the one you want, hit `tab`, and it will auto-completed for you.
+Start typing any CSS rule name and hit your auto-complete keyboard shortcut (`Ctrl+Space`), and you'll be shown a list of all matching CSS rules. Scroll through the list for the one you want, hit `tab`, and it will be auto-completed for you.
 
 
 <style>

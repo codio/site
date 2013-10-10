@@ -4,10 +4,58 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-09-30T00:00:00Z</updated>
+  <updated>2013-10-10T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Rsync Deployment, Tab Context Menu &amp;amp; CSS Auto-Completion</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/10/rsync-deployment-tab-context-menu-css-auto-completion/"/>
+    <id>https://codio.com/s/blog/2013/10/rsync-deployment-tab-context-menu-css-auto-completion/</id>
+    <published>2013-10-10T00:00:00Z</published>
+    <updated>2013-10-10T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;h2 id="toc_0"&gt;Rsync Deployment&lt;/h2&gt;
+
+&lt;p&gt;Earlier this week, we added yet another option to our deployment feature, but one that we think will really make a difference when developing in Codio. You can now deploy to almost any server via Rsync, which makes it even faster...&lt;/p&gt;</summary>
+    <content type="html">&lt;h2 id="toc_0"&gt;Rsync Deployment&lt;/h2&gt;
+
+&lt;p&gt;Earlier this week, we added yet another option to our deployment feature, but one that we think will really make a difference when developing in Codio. You can now deploy to almost any server via Rsync, which makes it even faster to get your code from Codio and onto your development environment, or even into production. And because it is Rsync, it will selective deploy your changes, making it even faster.&lt;/p&gt;
+
+&lt;p&gt;We want to make it easier and faster to write and deploy your code, and we&amp;#39;re still working to take that even further, but for now you can write code and get it onto your development environment very fast via the new Rsync deployment option.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Tab Context Menu&lt;/h2&gt;
+
+&lt;p&gt;&lt;img alt="Tab Context Menu" src="/s/img/blog/tab-context-menu-0437cea7.png" /&gt; You can now right click any tab and get a new context menu. This menu will allow you to quickly do the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Close the current file&lt;/li&gt;
+&lt;li&gt;Close all other files&lt;/li&gt;
+&lt;li&gt;Close all files&lt;/li&gt;
+&lt;li&gt;Close files to the right&lt;/li&gt;
+&lt;li&gt;Close files to the left&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And of course, these have keyboard shortcuts which you can customise via your &lt;a href="https://codio.com/s/docs/settings-prefs/codio-prefs/"&gt;user preferences&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;&lt;img alt="CSS Auto Completion" src="/s/img/blog/css-auto-complete-c454d3b0.png" /&gt; CSS Auto-Completion&lt;/h2&gt;
+
+&lt;p&gt;And finally, we just shipped support for auto-completion in CSS code.&lt;/p&gt;
+
+&lt;p&gt;Start typing any CSS rule name and hit your auto-complete keyboard shortcut (&lt;code&gt;Ctrl+Space&lt;/code&gt;), and you will be shown a list of all matching CSS rules. Scroll through the list for the one you want, hit &lt;code&gt;tab&lt;/code&gt;, and it will auto-completed for you.&lt;/p&gt;
+
+&lt;style&gt;
+  img[alt="Tab Context Menu"],
+  img[alt="CSS Auto Completion"] {
+    float:left;
+    margin-right:50px;
+    margin-bottom:20px;
+  }
+&lt;/style&gt;
+</content>
+  </entry>
   <entry>
     <title>Better Looking Annotations &amp;amp; Full Screen</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/"/>
@@ -241,57 +289,6 @@ fullscreen = Cmd-Shift-F
 &lt;li&gt;&lt;p&gt;Flexbox is coming! In fact it&amp;#39;s already arrived, and is slower gaining wider browser support. &lt;a href="http://philipwalton.github.io/solved-by-flexbox/"&gt;Solved by Flexbox&lt;/a&gt; is a site that demo&amp;#39;s what you can do with CSS Flexbox.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Thanks in no small part to CoffeeScript, &lt;a href="http://robcee.net/2013/fat-arrow-functions-in-javascript/"&gt;Fat Arrow functions&lt;/a&gt; are about to make their way in Javascript.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Multiple Panels, New Editor, Git, Custom keybindings &amp;amp; Preferences</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/"/>
-    <id>https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/</id>
-    <published>2013-09-23T00:00:00Z</published>
-    <updated>2013-09-23T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Last week was the culmination of several months of hard graft by the entire Codio team, and is the start of the next phase of our path to global domination! We released a plethora of new and improved features that we think are exciting and - in some...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Last week was the culmination of several months of hard graft by the entire Codio team, and is the start of the next phase of our path to global domination! We released a plethora of new and improved features that we think are exciting and - in some cases - ground-breaking.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="/s//player.vimeo.com/video/74220594?autoplay=1&amp;amp;hd=1"&gt;Watch the all new intro video&lt;/a&gt;, and then allow me to summarise all that is new and shiny...&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Multi-Panel Layouts&lt;/h2&gt;
-
-&lt;p&gt;Codio is now the &lt;em&gt;only&lt;/em&gt; browser based IDE to boast full support for &lt;a href="/#panels"&gt;multi-panel layouts&lt;/a&gt;. You can customise the layout of Codio into almost any arrangement of panels and tabs, in both a vertical and horizontal manner. Edit a file in one panel, while previewing it in another panel right alongside it; or use one of the predefined layouts as a great way to demo your code.&lt;/p&gt;
-
-&lt;p&gt;The introduction of multiple panels, also brings with it a new change to the way you access almost anything in Codio. Everything is opened within a tab! This makes the UI much more unobtrusive, and takes multi-tasking to a whole new level - Bower in one tab, code in one, Deployment in the other, etc. etc.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;All New Editor&lt;/h2&gt;
-
-&lt;p&gt;Codio was originally based on the popular &lt;a href="http://ace.c9.io/"&gt;ACE Code Editor&lt;/a&gt;, and it served us fairly well, But it soon became apparent that it was lacking in a few areas. &lt;a href="http://codemirror.net/"&gt;CodeMirror&lt;/a&gt; is the new kid on the block, but has quickly gained momentum. It&amp;#39;s code is clean and documented, and has great performance. So we made the highly debated decision to replace ACE with CodeMirror.&lt;/p&gt;
-
-&lt;p&gt;Watch this space for some awesome new features and improvements based around the new Editor.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Git Support&lt;/h2&gt;
-
-&lt;p&gt;This is been a long time coming... &lt;a href="/#sourcecontrol"&gt;Codio now supports Git&lt;/a&gt;. This means you can clone, commit, push, pull, branch, merge and a whole load more, right within Codio, and without ever leaving the IDE. We created a simple command line interface (CLI) that is opened in a new tab, and accepts the most common Git commands. So everything you do in Codio now sits on top of Git. Of course, you don&amp;#39;t have to use Git at all, but if you do, just commit away to your hearts content.&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;Custom Keybindings&lt;/h2&gt;
-
-&lt;p&gt;This release signals the beginning of our efforts to make Codio the most customisable and extendible browser-based IDE around. We know how much developers like their keyboard shortcuts, because they can improve and speed coding and development hugely. We&amp;#39;ve introduced a load of new keyboard shortcuts to Codio. But not only that, we&amp;#39;ve also made almost every one of them customisable.&lt;/p&gt;
-
-&lt;p&gt;This is available as part of the new preferences system (mentioned below), and is extremely simple to use. Just redefine any keybinding with the keyboard combination of your choice.&lt;/p&gt;
-
-&lt;h2 id="toc_4"&gt;New Preferences System&lt;/h2&gt;
-
-&lt;p&gt;We&amp;#39;ve completely rebuilt the way you customise Codio. Almost everything that you can customise is now done via an INI based text file, which you can access via your dashboard and IDE. We show you our defaults, and allow you to simply redefine any of these with the value of your choice. It even applies your changes as you type.&lt;/p&gt;
-
-&lt;h2 id="toc_5"&gt;Sharing Your Code&lt;/h2&gt;
-
-&lt;p&gt;And finally, we added a new menu item to allow you to quickly and easily &lt;a href="/s/share-your-code"&gt;share your projects and code with the world&lt;/a&gt;. Accessed from &lt;code&gt;Project &amp;gt; Share...&lt;/code&gt; menu item, it will give you a few images you can use to place on your site or Github README, which will link back to your Codio project.&lt;/p&gt;
-
-&lt;p&gt;We also provide a URL that contains the precise panel and tab layout of your project. This is a great way to share your project exactly as you see it, as it will maintain your current layout, and even the files you have open.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;We&amp;#39;ll be blogging in more detail over the next few weeks about each of the above, so watch this space and follow us &lt;a href="https://twitter.com/CodioHQ"&gt;@CodioHQ&lt;/a&gt;. In the meantime, head on over to the updated &lt;a href="/"&gt;homepage&lt;/a&gt; and &lt;a href="/s/docs"&gt;docs&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -2,14 +2,14 @@
 title: I Love Open Source
 author: Freddy May
 date: 2013-10-15
-tags: watercooler
+tags: Watercooler
 class_name: blog
 full_width: true
 ---
 
-I want to briefly talk about an interesting metamorphosis - better know as gross scope creep. 
+I want to briefly talk about an interesting metamorphosis - better know as gross scope creep.
 
-We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio site turned into a few weeks of full-on application development. 
+We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio site turned into a few weeks of full-on application development.
 
 The result is "I Love Open Source".
 
@@ -41,12 +41,12 @@ Anyone owning a repo that wants support, whether simple acknowledgments or cash,
 Now, when people are setting up their support or when anyone sees a support page, they are always gently given the opportunity to donate there and then. See the above image.
 
 ##What about Gittip, Flattr & Paypal etc?
-I Love Open Source does not handle any payments at all. We allow the developer to use their own existing Gittip, Flattr and Paypal buttons. For the record, we do not take any commissions or have any commercial involvement with any of them. 
+I Love Open Source does not handle any payments at all. We allow the developer to use their own existing Gittip, Flattr and Paypal buttons. For the record, we do not take any commissions or have any commercial involvement with any of them.
 
 The fact that I Love Open Source is itself Open Source and does not handle any cash transactions means that it can concentrate on acknowledgment in general and providing an easy way to support and donate.
 
 ##Code and Idea Contributions
-I Love Open Source can be [forked on GitHub](https://github.com/codio/iloveopensource) so feel free to fix code or add features and issue a pull request. Before you embark on huge endeavours, it may make sense to [raise an Issue](https://github.com/codio/iloveopensource/issues?state=open) first here. 
+I Love Open Source can be [forked on GitHub](https://github.com/codio/iloveopensource) so feel free to fix code or add features and issue a pull request. Before you embark on huge endeavours, it may make sense to [raise an Issue](https://github.com/codio/iloveopensource/issues?state=open) first here.
 
 Any great ideas you want to discuss or bugs you want to report should be done [here in GitHub Issues](https://github.com/codio/iloveopensource/issues?state=open) also.
 

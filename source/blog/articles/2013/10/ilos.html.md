@@ -16,7 +16,7 @@ The result is "I Love Open Source".
 [![header](/img/blog/ilos-blog-hdr.png)](http://iloveopensource.io)
 
 ##Video
-<a href="http://player.vimeo.com/video/75609049?autoplay=1&hd=1" target="_blank">Click here</a> for a really quick overview of I Love Open Source.
+<a href="https://player.vimeo.com/video/75609049?autoplay=1&hd=1" target="_blank">Click here</a> for a really quick overview of I Love Open Source.
 
 
 ##What is "I Love Open Source"

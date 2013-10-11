@@ -116,6 +116,106 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/09/improving-performance-tab-switching/">September 27, 2013</a>
+            
+              <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/09/improving-performance-tab-switching/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/09/improving-performance-tab-switching/">Improving Performance - Tab Switching</a></h1>
+
+        
+        <p>As you might know we have switched our editor from <a href="http://ace.c9.io">Ace</a> to <a href="http://codemirror.net">CodeMirror</a>. The optimisations that we already had in place are now obsolete. So I&#39;ve started looking at optimising the way we use <a href="http://codemirror.net">CodeMirror</a>.</p>
+
+<h2 id="toc_0">Where to optimise?</h2>
+
+<p>I started my adventure by importing the complete <a href="http://nodejs.org">Node.js</a> repository into Codio and simply opening, reading and editing different files. I immediately noticed that when I opened multiple large files and switched between those, it would take a fair bit of time. So there I had found my first place to optimise... tab switching.</p>
+
+<h2 id="toc_1">Measure it</h2>
+
+<p>I opened up the dev tools and started profiling.</p>
+
+<p><img src="/s/img/blog/flames-javascript-cpu-profile-running-e0c5401e.png" /></p>
+
+<p>And when I looked at the time it took for switching tabs, I saw that it took a total time of about two seconds to simply switch between two tabs.</p>
+
+<p><img src="/s/img/blog/flames-graph-before-0b9cfa42.png" /></p>
+
+<p>The image above shows the flame chart I recorded for switching. The two seconds can be seen if you look at the vertical axis, while the horizontal axis shows the call stack at a given moment. For more information on flame charts see this <a href="http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/#toc-flame-chart">article</a> on <a href="http://www.html5rocks.com">html5rocks</a>.</p>
+
+<h2 id="toc_2">Find the biggest time thief</h2>
+
+<p>Looking at these call stacks I found that the most time-consuming method was <code>CodeMirror.refresh()</code>, which repaints the whole display area of the instance to update all information. But what was more concerning was that a single call was taking so long. I realised that this method was called not only once, but three times.</p>
+
+<h2 id="toc_3">Optimizations: 1st Round</h2>
+
+<p>With my new knowledge I went into the code tracing the stack calls and then eliminating two of the three calls to <code>CodeMirror.refresh</code> when switching from one tab to another. My work did not go unrewarded, I ended up with this new graph resulting in an overall switch time of about 450ms...</p>
+
+<p><img src="/s/img/blog/flames-graph-middle-8374019e.png" /></p>
+
+<h2 id="toc_4">Optimizations: 2nd Round</h2>
+
+<p>My newly gained speed made me happy, but after looking again into the graph I could still see two call stack spikes which took about the same amount of time, and both ended up re-rendering the CodeMirror instance. So looking a little closely, I could see that the first time was caused by <code>CodeMirror.swapDoc</code> and the second by <code>CodeMirror.refresh</code>. When you look at the source code for these two <a href="https://github.com/marijnh/CodeMirror/blob/master/lib/codemirror.js#L3207">here</a> and <a href="https://github.com/marijnh/CodeMirror/blob/master/lib/codemirror.js#L3199">here</a>, you can see that they both end up calling the same methods, which results in a complete repaint of CodeMirror.</p>
+
+<p>To understand what was happening, I need to explain what happens when you switch a tab. For performance reasons we only keep one CodeMirror instance around and if you switch from one tab to another we call <code>swapDoc</code> to change the document that is being displayed. To accommodate for size changes and highlighting changes, we call <code>refresh</code> at the end of the switching process. But with my knowledge that <code>swapDoc</code> already does everything we need to do, I just moved <code>swapDoc</code> to the end of the process, (of course there were some other problems that this entailed but it was not too bad) and voila, only one repaint of CodeMirror when switching tabs. Which now gave a switch time of just 167ms.</p>
+
+<p><img src="/s/img/blog/flames-graph-after-085d5d4c.png" /></p>
+
+<h2 id="toc_5">Roundup</h2>
+
+<p>As you&#39;ve seen, profiling, measuring and looking at these great data points that the dev tools provide, gives you an easy way to find and track down performance problems. And when you look at this data, it&#39;s immediately clear that it really pays off!</p>
+
+<table><thead>
+<tr>
+<th></th>
+<th><strong>Before</strong></th>
+<th><strong>1st Round</strong></th>
+<th><strong>2nd Round</strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td><strong>Total Time</strong>&nbsp;&nbsp;&nbsp;</td>
+<td>2055ms</td>
+<td>450ms</td>
+<td>167ms</td>
+</tr>
+</tbody></table>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/09/improving-performance-tab-switching/" data-via="codiohq" data-size="small" data-count="none" data-text="Improving Performance - Tab Switching">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/09/improving-performance-tab-switching/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/09/improving-performance-tab-switching/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/09/parse-integration/">September 26, 2013</a>
             
               <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
@@ -338,63 +438,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/09/from-the-frontline-31/">September 19, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/09/from-the-frontline-31/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/09/from-the-frontline-31/">From the Front-line - #31</a></h1>
-
-        
-        <ul>
-<li><p><a href="http://vinci.io/">Vinci</a> is a great looking HTML5 image editor, that runs in the browser.</p></li>
-<li><p>Looking for some 21st century dialogs? Check out <a href="http://github.hubspot.com/vex/docs/welcome/">Vex</a>, which is a JS library built by the guys at Hubspot.</p></li>
-<li><p><a href="http://getfireshell.com/">Fireshell</a> is a boilerplate and workflow tool. Basically a competitor to Yeoman, but seems to be much more streamlined and focused, which I like.</p></li>
-<li><p>Fancy running Linux in your browser with nothing but Javascript? <a href="http://s-macke.github.io/jor1k/">Well why wouldn&#39;t you?</a></p></li>
-<li><p>We use RequireJS - a lot! So the <a href="http://tech.pro/blog/1561/five-helpful-tips-when-using-requirejs">five helpful tips for using RequireJS</a> are good read.</p></li>
-<li><p><a href="https://eloquentjavascript.net/2nd_edition/">The 2nd edition of Eloquent Javascript</a> has been announced. So if you&#39;re looking for a good Javascript book, go and pledge to this crowd-funded campaign.</p></li>
-<li><p>Oh look! Another CSS framework! Ah but it&#39;s different... sort of. <a href="http://www.chocolatechip-ui.com/">ChocolateChip-UI</a> is only for mobile, and is designed to give a native look.</p></li>
-<li><p>And it wouldn&#39;t be right without mentioning iOS7. <a href="http://mir.aculo.us/2013/09/16/how-to-create-a-web-app-that-looks-like-a-ios7-native-app-part-1/">This article</a> by Thomas Fuchs, is the first part in a series about how to create a web app that looks like an iOS7 native app.</p></li>
-</ul>
-
-<p>My goal is to try to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/09/from-the-frontline-31/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #31">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/09/from-the-frontline-31/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/09/from-the-frontline-31/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -418,13 +461,13 @@
         <h4>Latest posts...</h4>
         <ul>
           
-            <li><a href="/s/blog/2013/10/rsync-deployment-tab-context-menu-css-auto-completion/">Rsync Deployment, Tab Context Menu &amp; CSS Auto-Completion</a></li>
+            <li><a href="/s/blog/2013/10/ilos/">I Love Open Source</a></li>
           
-            <li><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></li>
+            <li><a href="/s/blog/2013/10/rsync-deployment-tab-context-menu-css-auto-completion/">Rsync Deployment, Tab Context Menu &amp; CSS Auto-Completion</a></li>
           
             <li><a href="/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/">The Latest and Greatest - Why we only Support Modern Browsers</a></li>
           
-            <li><a href="/s/blog/2013/09/improving-performance-tab-switching/">Improving Performance - Tab Switching</a></li>
+            <li><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></li>
           
         </ul>
       </section>
@@ -435,6 +478,9 @@
       <ul>
         
           
+          <li><a href="/s/blog/2013/09/improving-performance-tab-switching/">Improving Performance - Tab Switching</a></li>
+        
+          
           <li><a href="/s/blog/2013/09/parse-integration/">Support for Parse.com</a></li>
         
           
@@ -442,9 +488,6 @@
         
           
           <li><a href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/">Multiple Panels, New Editor, Git, Custom keybindings &amp; Preferences</a></li>
-        
-          
-          <li><a href="/s/blog/2013/09/from-the-frontline-31/">From the Front-line - #31</a></li>
         
       </ul>
     </section>

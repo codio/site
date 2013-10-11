@@ -4,10 +4,81 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-10-10T00:00:00Z</updated>
+  <updated>2013-10-11T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>I Love Open Source</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/10/ilos/"/>
+    <id>https://codio.com/s/blog/2013/10/ilos/</id>
+    <published>2013-10-11T00:00:00Z</published>
+    <updated>2013-10-11T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;I want to briefly talk about an interesting metamorphosis - better know as gross scope creep.&lt;/p&gt;
+
+&lt;p&gt;We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio site...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I want to briefly talk about an interesting metamorphosis - better know as gross scope creep.&lt;/p&gt;
+
+&lt;p&gt;We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio site turned into a few weeks of full-on application development.&lt;/p&gt;
+
+&lt;p&gt;The result is &amp;quot;I Love Open Source&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://iloveopensource.io"&gt;&lt;img alt="header" src="/s/img/blog/ilos-blog-hdr-69201222.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Video&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://player.vimeo.com/video/75609049?autoplay=1&amp;hd=1" target="_blank"&gt;Click here&lt;/a&gt; for a really quick overview of I Love Open Source.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;What is &amp;quot;I Love Open Source&amp;quot;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://iloveopensource.io"&gt;http://iloveopensource.io&lt;/a&gt; is a full fledged application (it is itself Open Source and forkable on GitHub) that encourages any GitHub user or organization to publicly state which Open Source projects they use. And in the process of doing so, they have the opportunity to donate something, if they wish, to any of those projects.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Codio Loves Open Source&lt;/h2&gt;
+
+&lt;p&gt;If you click the logo below, you&amp;#39;ll see our support page and which repos we use.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.iloveopensource.io/orgs/523c6c7f861be70200000007"&gt;&lt;img alt="ilos" src="../img/ilos-logo-lightbg-78b1be7c.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Supporters&lt;/h2&gt;
+
+&lt;p&gt;Here&amp;#39;s an example Supporter page with 3 OS projects it&amp;#39;s acknowledging. You can see the person contributes code and cash to the jquery project. You can also see the donate options beneath the GitHub Octocat logo.&lt;/p&gt;
+
+&lt;p&gt;You are encouraged to link to your supporter page from your website or README.md file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="ilos" src="/s/img/blog/ilos-sup-page-0af95014.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_4"&gt;Maintainers&lt;/h2&gt;
+
+&lt;p&gt;Anyone owning a repo that wants support, whether simple acknowledgments or cash, heads over to the Maintainers section and sets up their donation preferences (Gittip, Flattr, Paypal, Wire etc.).&lt;/p&gt;
+
+&lt;p&gt;Now, when people are setting up their support or when anyone sees a support page, they are always gently given the opportunity to donate there and then. See the above image.&lt;/p&gt;
+
+&lt;h2 id="toc_5"&gt;What about Gittip, Flattr &amp;amp; Paypal etc?&lt;/h2&gt;
+
+&lt;p&gt;I Love Open Source does not handle any payments at all. We allow the developer to use their own existing Gittip, Flattr and Paypal buttons. For the record, we do not take any commissions or have any commercial involvement with any of them.&lt;/p&gt;
+
+&lt;p&gt;The fact that I Love Open Source is itself Open Source and does not handle any cash transactions means that it can concentrate on acknowledgment in general and providing an easy way to support and donate.&lt;/p&gt;
+
+&lt;h2 id="toc_6"&gt;Code and Idea Contributions&lt;/h2&gt;
+
+&lt;p&gt;I Love Open Source can be &lt;a href="https://github.com/codio/iloveopensource"&gt;forked on GitHub&lt;/a&gt; so feel free to fix code or add features and issue a pull request. Before you embark on huge endeavours, it may make sense to &lt;a href="https://github.com/codio/iloveopensource/issues?state=open"&gt;raise an Issue&lt;/a&gt; first here.&lt;/p&gt;
+
+&lt;p&gt;Any great ideas you want to discuss or bugs you want to report should be done &lt;a href="https://github.com/codio/iloveopensource/issues?state=open"&gt;here in GitHub Issues&lt;/a&gt; also.&lt;/p&gt;
+
+&lt;h2 id="toc_7"&gt;Many thanks to Digital Ocean&lt;/h2&gt;
+
+&lt;p&gt;A short but important word of thanks goes to &lt;a href="http://www.digitalocean.com"&gt;Digital Ocean&lt;/a&gt;. They have been very generous in providing I Love Open Source with their lovely servers at no cost.&lt;/p&gt;
+
+&lt;h2 id="toc_8"&gt;Please Support Us&lt;/h2&gt;
+
+&lt;p&gt;The only support we ask for is that you Tweet about this project so the word spreads fast. We&amp;#39;re @iloshq on Twitter.&lt;/p&gt;
+
+&lt;p&gt;Even better, &lt;a href="http://iloveopensource.io"&gt;create your own I Love Open Source Supporter page right now&lt;/a&gt; and link to it from your web site or README.md file.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Rsync Deployment, Tab Context Menu &amp;amp; CSS Auto-Completion</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/10/rsync-deployment-tab-context-menu-css-auto-completion/"/>
@@ -57,47 +128,6 @@
 </content>
   </entry>
   <entry>
-    <title>Better Looking Annotations &amp;amp; Full Screen</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/"/>
-    <id>https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/</id>
-    <published>2013-09-30T00:00:00Z</published>
-    <updated>2013-09-30T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Today we shipped some big improvements to the way you view and navigate through Annotations, and also added a handy way to open any tab in full screen.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Annotations&lt;/h2&gt;
-
-&lt;p&gt;Annotations are a great way to create interactive, code-based tutorials and tours...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Today we shipped some big improvements to the way you view and navigate through Annotations, and also added a handy way to open any tab in full screen.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Annotations&lt;/h2&gt;
-
-&lt;p&gt;Annotations are a great way to create interactive, code-based tutorials and tours. Just create a project and annotate your code using simple comments-based tags. Then viewers of your project will then be able to take a tour of your code, or click around on the annotations that you have created.&lt;/p&gt;
-
-&lt;p&gt;Today&amp;#39;s release makes Annotations Tour content much less obtrusive. By moving the content out of a dialog window and into a tab - like everything else in Codio - you no longer have to move or resize the dialog out of the way. The code and Annotations content are now shown side-by-side.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="/s/docs/annotations"&gt;Read the docs&lt;/a&gt; for more on Annotations and how to create and use them.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;Full Screen&lt;/h2&gt;
-
-&lt;p&gt;We&amp;#39;ve also sneaked in a nice new item to your &lt;code&gt;View&lt;/code&gt; menu. Just click &lt;code&gt;Full Screen&lt;/code&gt; and your current tab will be expanded into full screen. Or better still, just hit &lt;code&gt;F11&lt;/code&gt; on your keyboard for a quick shortcut. And if you don&amp;#39;t like &lt;code&gt;F11&lt;/code&gt;, open up your Preferences from the &lt;code&gt;Codio &amp;gt; Preferences &amp;gt; User&lt;/code&gt; menu item, and simply override the &lt;code&gt;fullscreen&lt;/code&gt; option. I set mine to &lt;code&gt;Cmd-Shift-F&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[ide]
-fullscreen = Cmd-Shift-F
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_2"&gt;And one more thing..&lt;/h2&gt;
-
-&lt;p&gt;And we&amp;#39;ve improved the File Tree, by adding arrows to let you expand/collapse directories. Simple change, but it now lets you more easily see what is expanded and what isn&amp;#39;t.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>The Latest and Greatest - Why we only Support Modern Browsers</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/"/>
     <id>https://codio.com/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/</id>
@@ -138,6 +168,47 @@ fullscreen = Cmd-Shift-F
 &lt;li&gt;Safari 6 or later&lt;/li&gt;
 &lt;li&gt;Opera 12 or later&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Better Looking Annotations &amp;amp; Full Screen</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/"/>
+    <id>https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/</id>
+    <published>2013-09-30T00:00:00Z</published>
+    <updated>2013-09-30T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Today we shipped some big improvements to the way you view and navigate through Annotations, and also added a handy way to open any tab in full screen.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Annotations are a great way to create interactive, code-based tutorials and tours...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Today we shipped some big improvements to the way you view and navigate through Annotations, and also added a handy way to open any tab in full screen.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Annotations&lt;/h2&gt;
+
+&lt;p&gt;Annotations are a great way to create interactive, code-based tutorials and tours. Just create a project and annotate your code using simple comments-based tags. Then viewers of your project will then be able to take a tour of your code, or click around on the annotations that you have created.&lt;/p&gt;
+
+&lt;p&gt;Today&amp;#39;s release makes Annotations Tour content much less obtrusive. By moving the content out of a dialog window and into a tab - like everything else in Codio - you no longer have to move or resize the dialog out of the way. The code and Annotations content are now shown side-by-side.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/s/docs/annotations"&gt;Read the docs&lt;/a&gt; for more on Annotations and how to create and use them.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Full Screen&lt;/h2&gt;
+
+&lt;p&gt;We&amp;#39;ve also sneaked in a nice new item to your &lt;code&gt;View&lt;/code&gt; menu. Just click &lt;code&gt;Full Screen&lt;/code&gt; and your current tab will be expanded into full screen. Or better still, just hit &lt;code&gt;F11&lt;/code&gt; on your keyboard for a quick shortcut. And if you don&amp;#39;t like &lt;code&gt;F11&lt;/code&gt;, open up your Preferences from the &lt;code&gt;Codio &amp;gt; Preferences &amp;gt; User&lt;/code&gt; menu item, and simply override the &lt;code&gt;fullscreen&lt;/code&gt; option. I set mine to &lt;code&gt;Cmd-Shift-F&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[ide]
+fullscreen = Cmd-Shift-F
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="toc_2"&gt;And one more thing..&lt;/h2&gt;
+
+&lt;p&gt;And we&amp;#39;ve improved the File Tree, by adding arrows to let you expand/collapse directories. Simple change, but it now lets you more easily see what is expanded and what isn&amp;#39;t.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -266,29 +337,6 @@ fullscreen = Cmd-Shift-F
 &lt;p&gt;We have set up a Parse.com template. When you go to create a new project from the Codio Dashboard, select &amp;quot;From a template&amp;quot; from the Create Project option dropdown. You&amp;#39;ll find a &amp;quot;Parse Anyimg&amp;quot; template waiting for you.&lt;/p&gt;
 
 &lt;p&gt;Open the README.md file and follow the instructions to get it running in 5 minutes.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>From the Front-line - #32</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/09/from-the-frontline-32/"/>
-    <id>https://codio.com/s/blog/2013/09/from-the-frontline-32/</id>
-    <published>2013-09-25T00:00:00Z</published>
-    <updated>2013-09-25T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Hubspot have released another open source lib called &lt;a href="http://github.hubspot.com/pace/docs/welcome/"&gt;Pace&lt;/a&gt;, but this time for creating good looking progress indicators for page load and ajax navigation.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://stedolan.github.io/jq/"&gt;jq&lt;/a&gt; is a lightweight and flexible command-line JSON processor. Slice, filter, map and transform...&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Hubspot have released another open source lib called &lt;a href="http://github.hubspot.com/pace/docs/welcome/"&gt;Pace&lt;/a&gt;, but this time for creating good looking progress indicators for page load and ajax navigation.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://stedolan.github.io/jq/"&gt;jq&lt;/a&gt; is a lightweight and flexible command-line JSON processor. Slice, filter, map and transform JSON!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Now this is cool! &lt;a href="http://www.kennethcachia.com/background-check/"&gt;BackgroundCheck&lt;/a&gt; is a JS lib for automatically switching the colour of an element, depending upon the brightness of images behind it.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;More awesome effects... &lt;a href="https://github.com/maroslaw/rainyday.js"&gt;Rainyday&lt;/a&gt; simulates &lt;a href="http://maroslaw.github.io/rainyday.js/demo1.html"&gt;raindrops on a window&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Flexbox is coming! In fact it&amp;#39;s already arrived, and is slower gaining wider browser support. &lt;a href="http://philipwalton.github.io/solved-by-flexbox/"&gt;Solved by Flexbox&lt;/a&gt; is a site that demo&amp;#39;s what you can do with CSS Flexbox.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Thanks in no small part to CoffeeScript, &lt;a href="http://robcee.net/2013/fat-arrow-functions-in-javascript/"&gt;Fat Arrow functions&lt;/a&gt; are about to make their way in Javascript.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>

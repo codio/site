@@ -25,7 +25,8 @@ http://iloveopensource.io is a full fledged application (it is itself Open Sourc
 ##Codio Loves Open Source
 If you click the logo below, you'll see our support page and which repos we use.
 
-[![ilos](/img/ilos-logo-lightbg.png)](http://www.iloveopensource.io/orgs/523c6c7f861be70200000007)
+[![ilos](ilos-logo-lightbg.png)](http://www.iloveopensource.io/orgs/523c6c7f861be70200000007)
+
 
 ##Supporters
 Here's an example Supporter page with 3 OS projects it's acknowledging. You can see the person contributes code and cash to the jquery project. You can also see the donate options beneath the GitHub Octocat logo.

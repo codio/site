@@ -7,7 +7,7 @@ class_name: blog
 full_width: true
 ---
 
-I want to briefly talk about an interesting metamorphosis - better know as gross scope creep.
+I want to briefly talk about an interesting metamorphosis - otherwise known as gross scope creep.
 
 We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio site turned into a few weeks of full-on application development.
 

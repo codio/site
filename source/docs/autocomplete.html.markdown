@@ -20,4 +20,4 @@ Javascript support currently is intelligent enough to display global objects and
 We will soon be delivering a full TernJS implementation that will deliver much more elaborate support.
 
 ##CSS
-CSS support will be coming soon.
+Use ctrl+space within your CSS to invoke auto complete.

@@ -13,7 +13,7 @@ We wanted to give some sort of acknowledgment and support for the many open sour
 
 The result is "I Love Open Source".
 
-[![header](/img/blog/ilos-blog-hdr.png)](http://iloveopensource.io)
+[![header](blog/ilos-blog-hdr.png)](http://iloveopensource.io)
 
 ##Video
 <a href="https://player.vimeo.com/video/75609049?autoplay=1&hd=1" target="_blank">Click here</a> for a really quick overview of I Love Open Source.
@@ -25,7 +25,7 @@ http://iloveopensource.io is a full fledged application (it is itself Open Sourc
 ##Codio Loves Open Source
 If you click the logo below, you'll see our support page and which repos we use.
 
-[![ilos](ilos-logo-lightbg.png)](http://www.iloveopensource.io/orgs/523c6c7f861be70200000007)
+[![ilos](blog/ilos-logo-lightbg.png)](http://www.iloveopensource.io/orgs/523c6c7f861be70200000007)
 
 
 ##Supporters
@@ -33,7 +33,7 @@ Here's an example Supporter page with 3 OS projects it's acknowledging. You can 
 
 You are encouraged to link to your supporter page from your website or README.md file.
 
-![ilos](/img/blog/ilos-sup-page.png)
+![ilos](blog/ilos-sup-page.png)
 
 
 ##Maintainers

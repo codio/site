@@ -4,10 +4,29 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-10-11T00:00:00Z</updated>
+  <updated>2013-10-14T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Sign Up via Github</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/10/sign-in-up-via-github/"/>
+    <id>https://codio.com/s/blog/2013/10/sign-in-up-via-github/</id>
+    <published>2013-10-14T00:00:00Z</published>
+    <updated>2013-10-14T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Today we are making it even easier for you to sign up to Codio. If you have a &lt;strong&gt;Github&lt;/strong&gt; account, and haven't yet signed up for Codio, just click the &lt;a href="/s/p/signup"&gt;Sign Up&lt;/a&gt; link and you'll see a &lt;strong&gt;&lt;code&gt;Sign up via Github&lt;/code&gt;&lt;/strong&gt; button. Click that and you'll be taken through Github...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Today we are making it even easier for you to sign up to Codio. If you have a &lt;strong&gt;Github&lt;/strong&gt; account, and haven&amp;#39;t yet signed up for Codio, just click the &lt;a href="/s/p/signup"&gt;Sign Up&lt;/a&gt; link and you&amp;#39;ll see a &lt;strong&gt;&lt;code&gt;Sign up via Github&lt;/code&gt;&lt;/strong&gt; button. Click that and you&amp;#39;ll be taken through Github&amp;#39;s OAuth process and then brough back to Codio to complete the sign up.&lt;/p&gt;
+
+&lt;p&gt;Then when you come back to Codio, just sign in as normal, either via our own Codio authentication or via Github.&lt;/p&gt;
+
+&lt;p&gt;Fast, painless and easy! &lt;a href="/s/p/signup"&gt;Create your account...&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have plans to integrate further with Github and to make it even easier for you to access your Github code, so watch this space.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>I Love Open Source</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/10/ilos/"/>
@@ -280,63 +299,6 @@ fullscreen = Cmd-Shift-F
 &lt;td&gt;167ms&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Support for Parse.com</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/09/parse-integration/"/>
-    <id>https://codio.com/s/blog/2013/09/parse-integration/</id>
-    <published>2013-09-26T00:00:00Z</published>
-    <updated>2013-09-26T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;Codio is delighted to announce support for &lt;a href="http://parse.com"&gt;Parse.com&lt;/a&gt;. Developers can now write code in the world's best Web IDE and deploy it directly to Parse.com.&lt;/p&gt;
-
-&lt;p&gt;Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Codio is delighted to announce support for &lt;a href="http://parse.com"&gt;Parse.com&lt;/a&gt;. Developers can now write code in the world&amp;#39;s best Web IDE and deploy it directly to Parse.com.&lt;/p&gt;
-
-&lt;p&gt;Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly with nothing but a browser.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Video&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="//player.vimeo.com/video/75482235?autoplay=1&amp;hd=1" target="_blank"&gt;Click here&lt;/a&gt; to see a very short video of how incredibly easy it is to build and deploy Cloud Code Apps from Codio.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;Application Structure&lt;/h2&gt;
-
-&lt;p&gt;The application structure in Codio is the same as if you were coding on your local machine. You will also see the global.json file, which is where your application and master keys are specified.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="parse structure" src="/s/img/blog/parse-structure-6142066f.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Parse.com Deployment Profile&lt;/h2&gt;
-
-&lt;p&gt;We&amp;#39;ve added a Parse deployment profile into Codio. This lets Codio take care of the entire deployment process onto Parse.com. Watch the video above to see this in action. Deployment is extremely fast as it&amp;#39;s a Cloud-&gt;Cloud operation, with only diffs being transferred.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="parse structure" src="/s/img/blog/parse-deploy-121d1c0f.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;Example Apps&lt;/h2&gt;
-
-&lt;p&gt;Below are two sample Apps, both of which are standard Parse.com tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (Project-&gt;Fork). You can then follow the instructions in the README.md files.&lt;/p&gt;
-
-&lt;h3 id="toc_4"&gt;To Do App&lt;/h3&gt;
-
-&lt;p&gt;Click the button below to load this front-end App into Codio.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://bit.ly/192Whma" target="_blank"&gt;&lt;img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_5"&gt;AnyImg App&lt;/h3&gt;
-
-&lt;p&gt;Click the button below to load this Cloud Code back-end app into Codio.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://bit.ly/1eJAHv2)" target="_blank"&gt;&lt;img src=" https://codio-public.s3.amazonaws.com/sharing/show-me-the-code.png"&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can &lt;a href="/s/docs/deployment/"&gt;read more about deployment&lt;/a&gt; in our documentation.&lt;/p&gt;
-
-&lt;h2 id="toc_6"&gt;Creating a Parse.com App&lt;/h2&gt;
-
-&lt;p&gt;We have set up a Parse.com template. When you go to create a new project from the Codio Dashboard, select &amp;quot;From a template&amp;quot; from the Create Project option dropdown. You&amp;#39;ll find a &amp;quot;Parse Anyimg&amp;quot; template waiting for you.&lt;/p&gt;
-
-&lt;p&gt;Open the README.md file and follow the instructions to get it running in 5 minutes.&lt;/p&gt;
 </content>
   </entry>
 </feed>

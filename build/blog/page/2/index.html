@@ -116,6 +116,78 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">September 30, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/09/better-looking-annotations-and-full-screen/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></h1>
+
+        
+          <img alt="Better Looking Annotations &amp; Full Screen" align="left" class="blog-img" src="/s/img/blog/annotations-450b6849.png" />
+        
+        <p>Today we shipped some big improvements to the way you view and navigate through Annotations, and also added a handy way to open any tab in full screen.</p>
+
+<h2 id="toc_0">Annotations</h2>
+
+<p>Annotations are a great way to create interactive, code-based tutorials and tours. Just create a project and annotate your code using simple comments-based tags. Then viewers of your project will then be able to take a tour of your code, or click around on the annotations that you have created.</p>
+
+<p>Today&#39;s release makes Annotations Tour content much less obtrusive. By moving the content out of a dialog window and into a tab - like everything else in Codio - you no longer have to move or resize the dialog out of the way. The code and Annotations content are now shown side-by-side.</p>
+
+<p><a href="/s/docs/annotations">Read the docs</a> for more on Annotations and how to create and use them.</p>
+
+<h2 id="toc_1">Full Screen</h2>
+
+<p>We&#39;ve also sneaked in a nice new item to your <code>View</code> menu. Just click <code>Full Screen</code> and your current tab will be expanded into full screen. Or better still, just hit <code>F11</code> on your keyboard for a quick shortcut. And if you don&#39;t like <code>F11</code>, open up your Preferences from the <code>Codio &gt; Preferences &gt; User</code> menu item, and simply override the <code>fullscreen</code> option. I set mine to <code>Cmd-Shift-F</code>:</p>
+
+<pre><code>[ide]
+fullscreen = Cmd-Shift-F
+</code></pre>
+
+<h2 id="toc_2">And one more thing..</h2>
+
+<p>And we&#39;ve improved the File Tree, by adding arrows to let you expand/collapse directories. Simple change, but it now lets you more easily see what is expanded and what isn&#39;t.</p>
+
+<hr>
+
+<p>Enjoy!</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/" data-via="codiohq" data-size="small" data-count="none" data-text="Better Looking Annotations &amp; Full Screen">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/09/improving-performance-tab-switching/">September 27, 2013</a>
             
               <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
@@ -354,90 +426,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/">September 23, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/">Multiple Panels, New Editor, Git, Custom keybindings &amp; Preferences</a></h1>
-
-        
-        <p>Last week was the culmination of several months of hard graft by the entire Codio team, and is the start of the next phase of our path to global domination! We released a plethora of new and improved features that we think are exciting and - in some cases - ground-breaking.</p>
-
-<p><a href="/s//player.vimeo.com/video/74220594?autoplay=1&amp;hd=1">Watch the all new intro video</a>, and then allow me to summarise all that is new and shiny...</p>
-
-<h2 id="toc_0">Multi-Panel Layouts</h2>
-
-<p>Codio is now the <em>only</em> browser based IDE to boast full support for <a href="/#panels">multi-panel layouts</a>. You can customise the layout of Codio into almost any arrangement of panels and tabs, in both a vertical and horizontal manner. Edit a file in one panel, while previewing it in another panel right alongside it; or use one of the predefined layouts as a great way to demo your code.</p>
-
-<p>The introduction of multiple panels, also brings with it a new change to the way you access almost anything in Codio. Everything is opened within a tab! This makes the UI much more unobtrusive, and takes multi-tasking to a whole new level - Bower in one tab, code in one, Deployment in the other, etc. etc.</p>
-
-<h2 id="toc_1">All New Editor</h2>
-
-<p>Codio was originally based on the popular <a href="http://ace.c9.io/">ACE Code Editor</a>, and it served us fairly well, But it soon became apparent that it was lacking in a few areas. <a href="http://codemirror.net/">CodeMirror</a> is the new kid on the block, but has quickly gained momentum. It&#39;s code is clean and documented, and has great performance. So we made the highly debated decision to replace ACE with CodeMirror.</p>
-
-<p>Watch this space for some awesome new features and improvements based around the new Editor.</p>
-
-<h2 id="toc_2">Git Support</h2>
-
-<p>This is been a long time coming... <a href="/#sourcecontrol">Codio now supports Git</a>. This means you can clone, commit, push, pull, branch, merge and a whole load more, right within Codio, and without ever leaving the IDE. We created a simple command line interface (CLI) that is opened in a new tab, and accepts the most common Git commands. So everything you do in Codio now sits on top of Git. Of course, you don&#39;t have to use Git at all, but if you do, just commit away to your hearts content.</p>
-
-<h2 id="toc_3">Custom Keybindings</h2>
-
-<p>This release signals the beginning of our efforts to make Codio the most customisable and extendible browser-based IDE around. We know how much developers like their keyboard shortcuts, because they can improve and speed coding and development hugely. We&#39;ve introduced a load of new keyboard shortcuts to Codio. But not only that, we&#39;ve also made almost every one of them customisable.</p>
-
-<p>This is available as part of the new preferences system (mentioned below), and is extremely simple to use. Just redefine any keybinding with the keyboard combination of your choice.</p>
-
-<h2 id="toc_4">New Preferences System</h2>
-
-<p>We&#39;ve completely rebuilt the way you customise Codio. Almost everything that you can customise is now done via an INI based text file, which you can access via your dashboard and IDE. We show you our defaults, and allow you to simply redefine any of these with the value of your choice. It even applies your changes as you type.</p>
-
-<h2 id="toc_5">Sharing Your Code</h2>
-
-<p>And finally, we added a new menu item to allow you to quickly and easily <a href="/s/share-your-code">share your projects and code with the world</a>. Accessed from <code>Project &gt; Share...</code> menu item, it will give you a few images you can use to place on your site or Github README, which will link back to your Codio project.</p>
-
-<p>We also provide a URL that contains the precise panel and tab layout of your project. This is a great way to share your project exactly as you see it, as it will maintain your current layout, and even the files you have open.</p>
-
-<hr>
-
-<p>We&#39;ll be blogging in more detail over the next few weeks about each of the above, so watch this space and follow us <a href="https://twitter.com/CodioHQ">@CodioHQ</a>. In the meantime, head on over to the updated <a href="/">homepage</a> and <a href="/s/docs">docs</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/" data-via="codiohq" data-size="small" data-count="none" data-text="Multiple Panels, New Editor, Git, Custom keybindings &amp; Preferences">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -461,13 +449,13 @@
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/s/blog/2013/10/sign-in-up-via-github/">Sign Up via Github</a></li>
+          
             <li><a href="/s/blog/2013/10/ilos/">I Love Open Source</a></li>
           
             <li><a href="/s/blog/2013/10/rsync-deployment-tab-context-menu-css-auto-completion/">Rsync Deployment, Tab Context Menu &amp; CSS Auto-Completion</a></li>
           
             <li><a href="/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/">The Latest and Greatest - Why we only Support Modern Browsers</a></li>
-          
-            <li><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></li>
           
         </ul>
       </section>
@@ -478,6 +466,9 @@
       <ul>
         
           
+          <li><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></li>
+        
+          
           <li><a href="/s/blog/2013/09/improving-performance-tab-switching/">Improving Performance - Tab Switching</a></li>
         
           
@@ -485,9 +476,6 @@
         
           
           <li><a href="/s/blog/2013/09/from-the-frontline-32/">From the Front-line - #32</a></li>
-        
-          
-          <li><a href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/">Multiple Panels, New Editor, Git, Custom keybindings &amp; Preferences</a></li>
         
       </ul>
     </section>

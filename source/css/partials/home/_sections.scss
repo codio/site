@@ -1,6 +1,10 @@
 section {
   position: relative;
 
+  &:nth-child(odd) {
+    @include even-section;
+  }
+
   .container > div {
     padding: 0;
     margin-left: 300px;
@@ -45,8 +49,6 @@ section {
 
 
   &#panels {
-    @include even-section;
-
     .container {
       background: transparent image-url("home/screens/panels.png") no-repeat 718px;
       background-size: 480px;
@@ -95,8 +97,6 @@ section {
   }
 
   &#demonstrate {
-    @include even-section;
-
     .container {
       background: transparent image-url("home/screens/share-btn.png") no-repeat 791px;
       background-size: 227px;
@@ -122,8 +122,6 @@ section {
   }
 
   &#deployment {
-    @include even-section;
-
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/deploy.png') no-repeat -30px center;
@@ -169,7 +167,6 @@ section {
   }
 
   &#compiled {
-    @include even-section;
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/compiled.png') no-repeat -150px;
@@ -216,7 +213,6 @@ section {
   }
 
   &#baked {
-    @include even-section;
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/bower.png') no-repeat -355px center;

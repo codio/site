@@ -11,6 +11,10 @@ Signing up is effortless and gives you access to the complete set of features. A
 
 Signup from the signup link at the top of the page at [Codio.com](http://codio.com) or by going to [http://codio.com/p/signup](http://codio.com/p/signup).
 
+You can sign in with Codio or GitHub. If you signin with Github, your account will be associated with GitHub from that point on. 
+
+You can also associate your account with a Github account from the Codio->Account menu item.
+
 
 ##2. Create a Project
 Once you have signed in, you can [create a new project](/docs/console/creating) by clicking on the Create Project link in the Dashboard. 

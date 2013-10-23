@@ -7,7 +7,7 @@ full_width: true
 ##Git inside Codio and Outside
 Codio has implemented Git on our servers. This means you can use Git out of the box. There is nothing special to setup (no SSH keys or special authentication). All Git activities take place on our servers.
 
-However, you can also work with external Git platforms such as Github, simply by setting up a remote. If you created your Codio project by cldoing a Github repo then your remote will be automatically created. Please refer to the [Github and other remotes](/docs/git/remotes/) section for details. 
+However, you can also work with external Git platforms such as Github, simply by setting up a remote. If you created your Codio project by cloning a Github repo then your remote will be automatically created. Please refer to the [Github and other remotes](/docs/git/remotes/) section for details. 
 
 If you are using Github, then you will need to setup your SSH keys properly. This is [described here](/docs/settings-prefs/account-settings/public-key/).
 

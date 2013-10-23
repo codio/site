@@ -21,6 +21,9 @@ If you want to run a specific file, then right-click the file and select Preview
 ##Keyboard
 The default keyboard shortcuts for Preview can be seen by selecting the Tools->Preview menu item.
 
+##Private Projects
+When you preview a private project, you will be prompted to enter your Codio user name and password in order to protect 3rd parties from accessing your project in preview mode. If you signed up with GitHub and did not set a password, then you can do this from the Codio->Account menu option. You can check your user name on the profile tab.
+
 ##Security Issues
 Codio runs over https and the inline preview runs over https, too. If your code references an external resource (script, font, image etc.) such as
 

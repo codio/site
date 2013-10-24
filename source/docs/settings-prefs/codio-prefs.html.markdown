@@ -11,7 +11,7 @@ You can access the Codio Preferences in two ways
 
 ![Codio Annotations](/img/docs/prefs-menu.png)
 
-Codio preferences are the full collection of settings that apply to you, the logged in user. They cover all aspects of Codio usage from code editor settings (tab stops, indentation, colors, fonts etc.) through to hotkey mappings.
+Codio preferences are the full collection of settings that apply to you, the logged in user. They cover all aspects of Codio usage from code editor settings (tab stops, indentation, colors, fonts etc.) through to hotkey keyboard shortcut mappings.
 
 ![Codio Annotations](/img/docs/prefs-user.png)
 
@@ -50,6 +50,11 @@ User preference overrides are made in left hand pane. When your account is creat
 	[code-beautifier]
 	indent_level=4
 	indent_with_tabs=true
+
+##Keyboard shortcuts & Hotkeys
+Within the default settings (right hand pane) you can see how you can map your own keyboard shortcuts. 
+
+The defaults will display appropriately for Mac or Linux/PC users. If you override these shortcuts in the left hand pane, then these not Mac/PC/Linux aware. If you are a Mac user and you specify Cmd keys, then you should be aware that these will not be accessible from PC/Linux machines. If you need to have your custom shortcuts working on all machines then avoid using Cmd. 
 
 ##Using Autocomplete
 Be sure to use the Codio autocomplete feature for both the setting name and possible values.

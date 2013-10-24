@@ -5,7 +5,7 @@ date: 2013-10-25
 tags: Watercooler
 class_name: blog
 full_width: true
---
+---
 
 We've finally made up our mind about Codio pricing. We've tried to make it simple and affordable.
 
@@ -17,10 +17,10 @@ This is a straightforward, affordable price. Each user can have unlimited projec
 
 You can purchase a private account from approximately mid November 2013.
 
-##Organization Accounts : $16 per user per month
+##Organization Accounts
 If you want to include multiple users within an organization for billing and administration purposes, then you can create an organization account. You can then assign users, who will have access to all public and private projects assigned to the organization. You can also assign various administrative permissions to specific users within your organization.
 
-Organization accounts will be available towards the end of 2013.
+Organization accounts will be available towards the end of 2013 and will be charged for at the organization level. Pricing will be announced as it becomes available.
 
 ##Educational Organizations : price to be announced
 Codio is a great product for teaching coding. An Educational Organization allows centralized billing, but it also allows Classes and Groups to be set up and Student users can then be assigned to them.

@@ -36,11 +36,48 @@ The hotkeys are defined in Preferences and the defaults are
 ##Global 
 Global search and replace are available within the Find menu under Find in project and Replace in project.
 
-You can search using regular expressions, ignore case and whole word settings.
+You can search using regular expressions, ignore case and whole word settings. The buttons on the left of the input fields control these settings.
+
+![global search](/img/docs/global-search.png)
+
+Once the search operation has completed you will see matches listed in a Codio tab. Double click on the highlighted match to open up that file in a new tab.
+
+![global search dialog](/img/docs/search-matches.png)
 
 ##Pattern & Wildcard Matching (Globs)
 When you are searching, you can specify a search pattern in the 'Files' field.
 
+Lets say you have the following project
+
+```bash
+|-- lib
+|  |-- index.js
+|  |-- hello_world.js
+|-- index.html
+|-- 404.html
+|-- app.js
+`-- gruntfile.coffee
+```
+
+then you can use globs to select files in this way:
+
+* All files ending in `.js`: `**/*.js`.
+  * `index.js`
+  * `hello_world.js`
+  * `app.js`
+* All files ending in `.html` in the root folder: `*.html`
+  * `index.html`
+  * `404.html`
+* All files in `lib`: `lib/*.*`
+  * `index.js`
+  * `hello_world.js`
+* All files ending in `.html` or `.coffee`: `**/*{.html,.coffee}`
+  * `index.html`
+  * `404.html`
+  * `gruntfile.coffee`
+* All files beginning with `index`: `**/index*`
+  * `index.js`
+  * `index.html`
 
 ### Basic Rules
 
@@ -70,15 +107,3 @@ The special pattern characters have the following meanings:
 
 * `!(pattern-list)` Matches anything except one of the given patterns.
 
-### Comparisons to other glob implementations
-
-> From the readme of node-glob.
-
-
-While strict compliance with the existing standards is a worthwhile goal, some discrepancies exist between node-glob and other implementations, and are intentional.
-
-If the pattern starts with a `!` character, then it is negated. Multiple `!` characters at the start of a pattern will negate the pattern multiple times.
-
-If a pattern starts with `#`, then it is treated as a comment, and will not match anything.  Use `\#` to match a literal `#` at the start of a line.
-
-The double-star character `**` is supported. This is supported in the manner of bsdglob and bash 4.1, where `**` only has special significance if it is the only thing in a path part.  That is, `a/**/b` will match `a/x/y/b`, but `a/**b` will not.

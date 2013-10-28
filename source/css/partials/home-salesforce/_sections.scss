@@ -1,0 +1,392 @@
+section {
+  position: relative;
+
+  &:nth-child(odd) {
+    @include even-section;
+  }
+
+  .container > div {
+    padding: 0;
+    margin-left: 300px;
+    width: $ipad-landscape - 300;
+
+    @include apply-to(more-than, desktop) {
+      margin-left: 350px;
+      width: $desktop - 350;
+    }
+
+    h2 {
+      font: 34px gotham_medium;
+      color: $red;
+      margin: 0;
+    }
+
+    h3 {
+      color: #8F8F99;
+      font: 26px gotham_thin;
+      margin: 8px 0 24px;
+      text-transform: initial;
+    }
+
+    p {
+      font: 17px gotham_light;
+      line-height: 1.7em;
+      margin: 1em 0 0 0;
+
+      strong {
+        font-family: gotham_medium;
+        color: #444;
+      }
+    }
+
+    .coming-soon {
+      font: 14px gotham_light;
+      font-style: italic;
+      text-transform: uppercase;
+      color: #BEA3A1;
+    }
+  }
+
+
+  &#panels {
+    .container {
+      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
+      background-size: 480px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 785px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 14px;
+        padding: 90px 280px 90px 0;
+        width: 400px;
+
+        @include apply-to(more-than, desktop) {
+          background-size: 16px;
+          padding: 120px 474px 120px 0;
+        }
+      }
+    }
+  }
+
+  &#productivity {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/productivity.png') no-repeat -238px center;
+      background-size: 75%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -110px center;
+        background-size: 48%;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 14px;
+        padding: 130px 0 130px 350px;
+        width: 330px;
+
+        @include apply-to(more-than, desktop) {
+          width: 500px;
+          background-size: 12px;
+        }
+      }
+    }
+  }
+
+  &#sf-accounts {
+    .container {
+      background: transparent image-url("home/screens/share-btn.png") no-repeat 791px;
+      background-size: 227px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 900px;
+        background-size: 279px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 7px;
+        padding: 102px 220px 102px 0;
+        width: 460px;
+
+        @include apply-to(more-than, desktop) {
+          background: none;
+          padding: 102px 370px 102px 0;
+          width: 500px;
+        }
+      }
+    }
+  }
+
+  &#sf-classes {
+    .container {
+      background: transparent image-url("home/screens/share-btn.png") no-repeat 791px;
+      background-size: 227px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 900px;
+        background-size: 279px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 7px;
+        padding: 102px 220px 102px 0;
+        width: 460px;
+
+        @include apply-to(more-than, desktop) {
+          background: none;
+          padding: 102px 370px 102px 0;
+          width: 500px;
+        }
+      }
+    }
+  }
+
+  &#sf-other {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/deploy.png') no-repeat -30px center;
+      background-size: 60%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -30px center;
+        background-size: 48%;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 14px;
+        padding: 130px 0 130px 429px;
+        width: 330px;
+
+        @include apply-to(more-than, desktop) {
+          width: 421px;
+          background-size: 12px;
+        }
+      }
+    }
+  }
+
+  &#sourcecontrol .container {
+    background: transparent image-url("home/branching-illustration.png") no-repeat 784px;
+
+    @include apply-to(more-than, desktop) {
+      background-position: 845px;
+    }
+
+    > div {
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right 190px;
+      background-size: 8px;
+      padding: 101px 220px 102px 0;
+      width: 460px;
+
+      @include apply-to(more-than, desktop) {
+        background-image: none;
+        padding: 102px 414px 102px 0;
+      }
+    }
+  }
+
+  &#compiled {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/compiled.png') no-repeat -150px;
+      background-size: initial;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -126px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 11px;
+        padding: 101px 0 101px 350px;
+        width: 330px;
+
+        @include apply-to(more-than, desktop) {
+          padding-left: 350px;
+          width: 500px;
+        }
+      }
+    }
+  }
+
+  &#realtime .container {
+
+    background: transparent image-url("home/collab.gif") no-repeat 775px center;
+    background-size: 356px;
+
+    @include apply-to(more-than, desktop) {
+      background-position: 832px;
+    }
+
+    > div {
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+      background-size: 13px;
+      padding: 102px 220px 102px 0;
+      width: 460px;
+
+      @include apply-to(more-than, desktop) {
+        background-image: none;
+        padding: 102px 414px 102px 0;
+      }
+    }
+  }
+
+  &#baked {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/bower.png') no-repeat -355px center;
+      background-size: 92%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -297px;
+        background-size: 70%;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 12px;
+        padding: 102px 0 102px 300px;
+
+        @include apply-to(more-than, desktop) {
+          padding-left: 350px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }
+      }
+    }
+  }
+
+  &#annotate .container {
+    background: transparent image-url("home/screens/annotations.png") no-repeat 675px;
+    background-size: 500px;
+
+    @include apply-to(more-than, desktop) {
+      background-position: 758px;
+    }
+
+    > div {
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+      background-size: 14px;
+      padding: 102px 320px 102px 0;
+      width: 360px;
+
+      @include apply-to(more-than, desktop) {
+        padding: 102px 514px 102px 0;
+      }
+    }
+  }
+
+  &#speed {
+    .container > div {
+      @include clearfix;
+      padding: 101px 0 100px;
+      background: transparent image-url('home/fast.png') no-repeat bottom;
+
+      h2 {
+        color: #333;
+        font: 28px gotham_light;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      div {
+        float: left;
+        width: 330px;
+
+        @include apply-to(more-than, desktop) {
+          width: 340px;
+        }
+
+        &:first-child {
+          margin-right: 20px;
+
+          @include apply-to(more-than, desktop) {
+            margin-right: 160px;
+          }
+        }
+
+        &:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  &#opensource {
+    .container > div {
+      @include clearfix;
+      padding: 130px 0 70px 0;
+
+      h2 {
+        color: #333;
+        font: 28px gotham_light;
+
+        span {
+          display: none;
+
+          @include apply-to(more-than, desktop) {
+            display: inline;
+          }
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      div {
+        float: left;
+        width: 250px;
+
+        @include apply-to(more-than, desktop) {
+          width: 335px;
+        }
+
+        &:first-child {
+          @include apply-to(more-than, desktop) {
+            margin-right: 10px;
+          }
+        }
+
+        &:nth-child(2) {
+          width: 180px;
+          text-align: center;
+          margin-top: 30px;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 0;
+          }
+        }
+
+        &:last-child {
+          text-align: right;
+
+          @include apply-to(more-than, desktop) {
+            width: 320px;
+          }
+        }
+      }
+    }
+  }
+}

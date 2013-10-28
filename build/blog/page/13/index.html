@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-25df02e6.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-29d0735c.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -78,6 +78,11 @@
     ga('set', 'dimension2', 'yes');
   </script>
 
+  <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+  typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+  b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+  mixpanel.init("6533a0b0b384c69b12a6426fd49a1abf");</script>
+
   <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',(typeof intercomSettings === 'undefined' ? {} : intercomSettings));}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://static.intercomcdn.com/intercom.v1.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
 
 
@@ -111,6 +116,147 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/06/journey/">June 10, 2013</a>
+            
+              <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/06/journey/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/06/journey/">The Journey from Mercurial to Git</a></h1>
+
+        
+        <h2 id="toc_0">The Problem</h2>
+
+<p><em>In which we see all the issues that come with great version control.</em></p>
+
+<p>As <a href="/s/blog/2013/06/moving-from-mercurial-to-git/">already mentioned in the last post</a> we are using Mercurial right now but want to switch to Git. So the question in the room was how to convert a large Mercurial repository to Git, without losing any history and converting the named Mercurial branches to Git branches.</p>
+
+<p>There were a few tools that I tried, mainly <a href="https://github.com/frej/fast-export">fast-export</a> and <a href="http://www.fogcreek.com/kiln/">Kiln</a>.</p>
+
+<p>The first one was fast-export and the main problem was that after I got it installed it always crashed with some cryptic errors. Some of them could be resolved as explained in this <a href="http://www.mehdi-khalili.com/migrating-from-mercurial-to-git">post</a>. But even then after fixing these there were more errors, so I eventually gave up.</p>
+
+<p>The next one was <a href="http://www.fogcreek.com/kiln/">Kiln</a>, a service that claims to allow you to work on a single repository using Git <em>and</em> Mercurial. After setting up an account and waiting forty minutes to push from the command line, I was excited to see what happened, but was pretty bummed to see that the repo was completely empty in the web interface. After the command line, I tried their importer, which took about the same amount of time again only to give me just a partial history in the web interface. After this I was quite fed up with Kiln and moved on.</p>
+
+<h2 id="toc_1">The Meeting</h2>
+
+<p><em>In which we meet a creature much more powerful than we had ever imagined.</em></p>
+
+<p>I was about to give up my search when I found <a href="https://github.com/buchuki/gitifyhg">Gitifyhg</a>. <a href="https://github.com/buchuki/gitifyhg">Gitifyhg</a> is not intended as a way of converting Mercurial repositories to Git, but rather to give people who have to work on those, an easy way<br>
+to interact with them using Git.</p>
+
+<blockquote>
+<p>This git remote allows you to do local development in a git repository and push changes to an upstream mercurial repository. It does this seamlessly and allows pushing and pulling to named branches in the upstream repository.</p>
+</blockquote>
+
+<p>But because it needs to be able to do much more, e.g. converting back and forth from Mercurial to Git, it is able to do exactly what we need: convert a complete Mercurial repository into a Git repository without losing any history or a single branch.</p>
+
+<h2 id="toc_2">The Great Conversion</h2>
+
+<p><em>In which Mercurial branches become Git branches.</em></p>
+
+<h3 id="toc_3">The Installation</h3>
+
+<p>As we&#39;re already using Mercurial, Python is set up and hopefully <code>pip</code> or <code>easy_install</code>. If this is the case then installation is as simple as typing:</p>
+
+<pre><code>$ pip install gitifyhg
+# or
+$ easy_install gitifyhg
+</code></pre>
+
+<p>For more information on installation procedures check out the <a href="https://github.com/buchuki/gitifyhg#install">readme</a>.</p>
+
+<h3 id="toc_4">The Ceremony</h3>
+
+<p>Now that gitifyhg is installed we can harness its powers by simply cloning a Mercurial repository with this command:</p>
+
+<pre><code>$ git clone gitifyhg::&lt;mercurial repository&gt;
+</code></pre>
+
+<p>One thing to note here, is that the easiest way - for conversion at least - is to clone a local repository instead of one that is on a server. The main issue here is that I couldn&#39;t figure out how to sign in to <a href="https://bitbucket.org/">Bitbucket</a> using this approach.</p>
+
+<p>When this command has finished running the conversion is finished. What we now need to do is set up remote tracking branches for all our git branches so we can check them out. This is easy enough for a single branch by doing:</p>
+
+<pre><code>$ git --track &lt;name of the remote branch&gt;
+</code></pre>
+
+<p>But if you have many branches and want to add them all at once we can use the power of the shell to do it:</p>
+
+<pre><code>$ for remote in `git branch -r `; do git branch --track $remote; done
+</code></pre>
+
+<p>We can now take a look at all our Mercurial branches in Git:</p>
+
+<pre><code>$ git branch -r
+  origin/HEAD -> origin/master
+  origin/branches/#7345_tabs_reopening
+  origin/branches/#7528_context-no-longer-needed
+  origin/branches/#7610_md5_cache
+  origin/branches/#7633_file_tree_icons
+  origin/branches/#7663_deployment_UI
+  origin/branches/#7777_sharejs
+  origin/branches/#7797_first_app_selection
+  origin/branches/#7800_ace_themes
+  origin/branches/#7897_annotations_menuitem_visibility
+  origin/branches/#7973_preview_hotkeys
+  origin/branches/#7981_tour_closing
+  origin/branches/#8011_inline_preview
+  origin/branches/#8013_shortcuts
+  origin/branches/#8062_error_on_init_during_close
+  origin/branches/#8128_css_color_preview
+  origin/branches/#8130_emmet_hotkeys
+</code></pre>
+
+<h3 id="toc_5">The Cleaning</h3>
+
+<p>Gitifyhg uses the convention <code>master = default</code> for the main branch and <code>&lt;git branch name&gt; = branches/&lt;mercurial branch name&gt;</code> for all other branches. We don&#39;t want this. Instead we want to rename our local branches so that the prefix <code>branches/</code> is removed. This is easily done by doing:</p>
+
+<pre><code>$ git branch -m &lt;old name&gt; &lt;new name&gt;
+</code></pre>
+
+<p>So we can rename those branches that we want to keep around and remove those that are not needed anymore by calling:</p>
+
+<pre><code>$ git branch -D &lt;branch name&gt;
+</code></pre>
+
+<h2 id="toc_6">The Epilogue</h2>
+
+<p>Now that we&#39;ve converted the repository itself, the real work begins. We need to change our development cycle around version control and educate everyone about how to use Git in a safe and productive way. Even if these two are similar there is still a lot to learn and the raw power of Git can sometimes be a little bit scary, but personally I much prefer having all the power rather than jumping through hoops all the time.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/journey/" data-via="codiohq" data-size="small" data-count="none" data-text="The Journey from Mercurial to Git">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/journey/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/journey/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -455,60 +601,6 @@ On Github you can download patch files and apply them to your project immediatel
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/05/inline-preview/">May 30, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/05/inline-preview/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/05/inline-preview/">Inline preview released</a></h1>
-
-        
-        <p>We&#39;ve just deployed an inline preview capability. Just press Preview and a re-sizable panel will appear beneath your code.</p>
-
-<p><img alt="inline preview demo" src="/s/img/blog/preview-demo-9d2c4cda.png" /></p>
-
-<p>You can expand it into its own browser tab with a click in the preview header.</p>
-
-<p>Read more (well, not a lot more) in the <a href="/s/docs/ide/ide-general/inline-preview/">documentation</a>.</p>
-
-<p>This is the latest, but by no means the last, feature to come off the production line. We&#39;re going to be announcing three new ones in the next few days, so keep your eyes peeled.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/05/inline-preview/" data-via="codiohq" data-size="small" data-count="none" data-text="Inline preview released">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/05/inline-preview/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/05/inline-preview/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -532,13 +624,13 @@ On Github you can download patch files and apply them to your project immediatel
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/s/blog/2013/10/global-search/">Global Search and Replace</a></li>
+          
             <li><a href="/s/blog/2013/10/sign-in-up-via-github/">Sign Up via Github</a></li>
           
             <li><a href="/s/blog/2013/10/ilos/">I Love Open Source</a></li>
           
             <li><a href="/s/blog/2013/10/rsync-deployment-tab-context-menu-css-auto-completion/">Rsync Deployment, Tab Context Menu &amp; CSS Auto-Completion</a></li>
-          
-            <li><a href="/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/">The Latest and Greatest - Why we only Support Modern Browsers</a></li>
           
         </ul>
       </section>
@@ -549,6 +641,9 @@ On Github you can download patch files and apply them to your project immediatel
       <ul>
         
           
+          <li><a href="/s/blog/2013/06/journey/">The Journey from Mercurial to Git</a></li>
+        
+          
           <li><a href="/s/blog/2013/06/real-time-coding/">Real Time Coding</a></li>
         
           
@@ -556,9 +651,6 @@ On Github you can download patch files and apply them to your project immediatel
         
           
           <li><a href="/s/blog/2013/06/snippets/">Snippets Released</a></li>
-        
-          
-          <li><a href="/s/blog/2013/05/inline-preview/">Inline preview released</a></li>
         
       </ul>
     </section>
@@ -622,7 +714,7 @@ var disqus_shortname = 'codio'; // required: replace example with your forum sho
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-33074654.js"><\/script>')</script>
-<script src="../../../js/main-a4eb9fd1.js" type="text/javascript"></script>
+<script src="../../../js/main-9939edd3.js" type="text/javascript"></script>
 
 
   </body>

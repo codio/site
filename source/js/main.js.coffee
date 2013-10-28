@@ -14,7 +14,9 @@ $ ->
   # User is anonymous
   if !sessionId
     do signedOutNav.fadeIn
-    ga? && ga 'send', 'pageview', { dimension1: 'no', dimension2: 'yes', dimension3: 'anonymous' }
+    if ga?
+      ga 'set', 'dimension1', 'no'
+      ga 'set', 'dimension3', 'anonymous'
   else
     request = $.post 'https://codio.com/service/',
       acrequest: JSON.stringify
@@ -26,7 +28,9 @@ $ ->
     request.done (data)->
       if data.code != 1
         do signedOutNav.fadeIn
-        ga? && ga 'send', 'pageview', { dimension1: 'no', dimension2: 'yes', dimension3: 'anonymous' }
+        if ga?
+          ga 'set', 'dimension1', 'no'
+          ga 'set', 'dimension3', 'anonymous'
       else
         user = data.response.details
 
@@ -49,7 +53,9 @@ $ ->
         userlink.text user.name
 
         do signedInNav.fadeIn
-        ga? && ga 'send', 'pageview', { dimension1: 'yes', dimension2: 'yes', dimension3: user.name }
+        if ga?
+          ga 'set', 'dimension1', 'yes'
+          ga 'set', 'dimension3', user.name
 
 
 $ ->
@@ -172,6 +178,7 @@ $ ->
       do expandTreeWithPath
       do doc_events
       do Rainbow.color
+      ga? && ga 'send', 'pageview'
 
 
 # Expands the tree to the current URL

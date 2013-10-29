@@ -16,19 +16,12 @@ In the Deployment Targets dialog, you can:
 - modify existing targets
 - create new targets
 
-## Specifying the Source location
-Each target requires you to specify the **Source**. This allows you to specify which part of your project should be deployed. You have the following options:
-
-- **Whole project**: the entire contents of your project.
-- **Directory**: a specific directory.
-
-This allows you to define multiple sources and targets for each deployment which can then be deployed to with a single button press.
-
 ##Destination
 The Destination drop down specifies the type of the target you are deploying to. Currently we support the following destinations (click on each one to find out about its associated parameters)
 
 - [Codio](/docs/deployment/type-codio/)
 - [FTP](/docs/deployment/type-ftp/)
+- [RYSNC](/docs/deployment/type-rsync/)
 - [SFTP](/docs/deployment/type-sftp/)
 - [Nodejitsu](/docs/deployment/type-nj/)
 - [Parse.com](/docs/deployment/type-parse/)

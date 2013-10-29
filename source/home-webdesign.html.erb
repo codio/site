@@ -1,6 +1,6 @@
 ---
 title: Building the Perfect Browser Based IDE
-class_name: home
+class_name: home-webdesign
 ---
 
 <%= partial 'partials/home-webdesign/header' %>
@@ -8,24 +8,22 @@ class_name: home
 <aside class="home">
   <ul>
     <li><a href="#opensource">Free for Open Source</a></li>
-    <li><a href="#panels">IDE Panels &amp; Tabs</a></li>
-    <li><a href="#productivity">Productivity</a></li>
-    <li><a href="#demonstrate">Demo &amp; Embed</a></li>
-    <li><a href="#speed">Blazingly fast!</a></li>
-    <li><a href="#speed">Ready to go - No installs</a></li>
-    <li><a href="#deployment">Deploy anywhere</a></li>
+    <li><a href="#dreamweaver">Dreamweaver Users</a></li>
+    <li><a href="#panels">Panels &amp; Tabs</a></li>
+    <li><a href="#deployment">Deploy Anywhere</a></li>
+    <li><a href="#productivity">Productivity</a></li>    
+    <li><a href="#speed">Blazing Speed</a></li>
     <li><a href="#sourcecontrol">Git Support</a></li>
     <li><a href="#compiled">CoffeeScript, SASS, etc.</a></li>
     <li><a href="#realtime">Real-time Collaboration</a></li>
     <li><a href="#baked">Bower, Grunt &amp; Yo</a></li>
-    <li><a href="#annotate">Annotations</a></li>
   </ul>
 </aside>
 
 <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
 <%= partial 'partials/home/opensource' %>
-<%= partial 'partials/home/panels' %>
+<%= partial 'partials/home-webdesign/dreamweaver' %>
 
 <section id="testimonials">
   <div class="container">
@@ -43,8 +41,8 @@ class_name: home
   </div>
 </section>
 
-<%= partial 'partials/home/productivity' %>
-<%= partial 'partials/home/demonstrate' %>
+<%= partial 'partials/home/panels' %>
+<%= partial 'partials/home-webdesign/deployment' %>
 
 <section id="testimonials">
   <div class="container">
@@ -62,8 +60,9 @@ class_name: home
   </div>
 </section>
 
+<%= partial 'partials/home/productivity' %>
 <%= partial 'partials/home/speed' %>
-<%= partial 'partials/home/deployment' %>
+
 
 <section id="testimonials">
   <div class="container">
@@ -82,7 +81,6 @@ class_name: home
 </section>
 
 <%= partial 'partials/home/sourcecontrol' %>
-<%= partial 'partials/home/compiled' %>
 
 <section id="testimonials">
   <div class="container">
@@ -100,8 +98,8 @@ class_name: home
   </div>
 </section>
 
+<%= partial 'partials/home/compiled' %>
 <%= partial 'partials/home/realtime' %>
-<%= partial 'partials/home/baked' %>
 
 <section id="testimonials">
   <div class="container">
@@ -119,8 +117,7 @@ class_name: home
   </div>
 </section>
 
-<%= partial 'partials/home/annotations' %>
-
+<%= partial 'partials/home/baked' %>
 
 <% content_for :foot do %>
   <%= javascript_include_tag 'home' %>

@@ -12,9 +12,16 @@ Codio automatically generates a public key for your account. This key can then b
 Codio makes use of the public key in the following places
 
 - [SFTP deployment target](/docs/deployment/type-sftp)
+- [RSYNC deployment target](/docs/deployment/type-rsync)
+- [SSH Terminal](/docs/ssh)
 - [Git](/docs/git)
 
 In both cases, you will need to install the public key onto the remote system. In the case of SFTP, you should know how to do this already.
+
+##Adding your public key to a remote server
+If you want to get your Codio public key onto a remote server, just press the Upload Public Key button. You enter your user credentials on the remote and Codio will get it installed in the `~/.ssh/authorized_keys` file.
+
+![SSH Upload](/img/docs/prefs-account-ssh-dialog.png)
 
 ##Adding your public key to Github
 If you are working with Github, then you need to install the public key. Firstly, locate your settings by pressing the 'Edit your profile' button.

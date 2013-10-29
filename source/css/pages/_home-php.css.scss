@@ -91,7 +91,7 @@ body.home-php {
                 text-align: left;
                 line-height: 14px;
                 padding-left: 0px;
-                padding-top: 0px;
+                padding-top: 10px;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 28px;
@@ -99,23 +99,23 @@ body.home-php {
                 }
               }
 
-              // "Building PHP" applications
+              // "Building PHP" 
               &:nth-child(5) {
               display: block;
-                font: 38px gotham_light;
+                font: 60px gotham_light;
                 padding-top: 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 42px;
+                  font-size: 70px;
                 }
               }
 
               // "100% in the Cloud"
               &:nth-child(6) {
               display: block;
-                font: 60px gotham_light;
+                font: 40px gotham_light;
                 padding-top: 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 70px;
+                  font-size: 40px;
                 }
               }
 

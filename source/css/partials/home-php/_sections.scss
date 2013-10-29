@@ -97,6 +97,32 @@ section {
   }
 
   &#import-go {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/create-project.png') no-repeat -30px center;
+      background-size: 50%;
+
+      @include apply-to(less-than, desktop) {
+        background-position: -116px center;
+        background-size: 65%;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 14px;
+        padding: 130px 0 130px 429px;
+        width: 421px;
+
+        @include apply-to(less-than, desktop) {
+          padding: 130px 0 130px 355px;        
+          width: 320px;
+          background-size: 12px;
+        }
+      }
+    }
+  }
+
+  &#import-go-delete {
     .container {
       background: transparent image-url("home/screens/share-btn.png") no-repeat 791px;
       background-size: 227px;

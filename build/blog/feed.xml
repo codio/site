@@ -4,57 +4,10 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-10-28T00:00:00Z</updated>
+  <updated>2013-10-14T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
-  <entry>
-    <title>Global Search and Replace</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/10/global-search/"/>
-    <id>https://codio.com/s/blog/2013/10/global-search/</id>
-    <published>2013-10-28T00:00:00Z</published>
-    <updated>2013-10-28T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;One big omission from Codio so far has been powerful global search and replace functionality. Well, we've corrected this now.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="global search dialog" src="../img/docs/global-search-d1398c71.png"&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_0"&gt;Globs and pattern matching&lt;/h3&gt;
-
-&lt;p&gt;As well as being able to search on simple strings across the entire project, you can use glob...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;One big omission from Codio so far has been powerful global search and replace functionality. Well, we&amp;#39;ve corrected this now.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="global search dialog" src="../img/docs/global-search-d1398c71.png" /&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_0"&gt;Globs and pattern matching&lt;/h3&gt;
-
-&lt;p&gt;As well as being able to search on simple strings across the entire project, you can use glob pattern matching (and fully described in the &lt;a href="/s/docs/ide/code-editor/search-replace"&gt;documentation&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;The above image shows how you can look for matches of the word &lt;code&gt;step&lt;/code&gt; in all &lt;code&gt;js&lt;/code&gt; files across the whole project.&lt;/p&gt;
-
-&lt;p&gt;Or, you could look for all files ending in &lt;code&gt;.html&lt;/code&gt; or &lt;code&gt;.coffee&lt;/code&gt; in just the &lt;code&gt;lib&lt;/code&gt; folder&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;lib/*{.html,.coffee}&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_1"&gt;Matches&lt;/h3&gt;
-
-&lt;p&gt;Once the search operation has completed you will see all files listed in a Codio tab. You can double click on the highlighted match to open up that file in a tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="global search dialog" src="../img/docs/search-matches-324706c8.png" /&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_2"&gt;Quick Open&lt;/h3&gt;
-
-&lt;p&gt;If you want to look for and open files without searching within the files themselves, then you should at the &lt;a href="/s/docs/ide/ide-general/quick-open/"&gt;Quick Open&lt;/a&gt; feature. This lets you very quickly locate files without having to use the file tree.&lt;/p&gt;
-
-&lt;h3 id="toc_3"&gt;We&amp;#39;ve open sourced some stuff&lt;/h3&gt;
-
-&lt;p&gt;In doing this, we decided to open source the back-end search capabilities. SnR is a Node application and uses &lt;code&gt;ack&lt;/code&gt; and &lt;code&gt;perl&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/codio/snr"&gt;View it on GitHub&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
   <entry>
     <title>Sign Up via Github</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/10/sign-in-up-via-github/"/>
@@ -275,6 +228,77 @@ fullscreen = Cmd-Shift-F
 &lt;hr&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Improving Performance - Tab Switching</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/09/improving-performance-tab-switching/"/>
+    <id>https://codio.com/s/blog/2013/09/improving-performance-tab-switching/</id>
+    <published>2013-09-27T00:00:00Z</published>
+    <updated>2013-09-27T00:00:00Z</updated>
+    <author>
+      <name>Friedel Ziegelmayer</name>
+    </author>
+    <summary type="html">&lt;p&gt;As you might know we have switched our editor from &lt;a href="http://ace.c9.io"&gt;Ace&lt;/a&gt; to &lt;a href="http://codemirror.net"&gt;CodeMirror&lt;/a&gt;. The optimisations that we already had in place are now obsolete. So I've started looking at optimising the way we use &lt;a href="http://codemirror.net"&gt;CodeMirror&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Where to optimise?&lt;/h2&gt;
+
+&lt;p&gt;I started my adventure by importing...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;As you might know we have switched our editor from &lt;a href="http://ace.c9.io"&gt;Ace&lt;/a&gt; to &lt;a href="http://codemirror.net"&gt;CodeMirror&lt;/a&gt;. The optimisations that we already had in place are now obsolete. So I&amp;#39;ve started looking at optimising the way we use &lt;a href="http://codemirror.net"&gt;CodeMirror&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Where to optimise?&lt;/h2&gt;
+
+&lt;p&gt;I started my adventure by importing the complete &lt;a href="http://nodejs.org"&gt;Node.js&lt;/a&gt; repository into Codio and simply opening, reading and editing different files. I immediately noticed that when I opened multiple large files and switched between those, it would take a fair bit of time. So there I had found my first place to optimise... tab switching.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Measure it&lt;/h2&gt;
+
+&lt;p&gt;I opened up the dev tools and started profiling.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/s/img/blog/flames-javascript-cpu-profile-running-e0c5401e.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;And when I looked at the time it took for switching tabs, I saw that it took a total time of about two seconds to simply switch between two tabs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/s/img/blog/flames-graph-before-0b9cfa42.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The image above shows the flame chart I recorded for switching. The two seconds can be seen if you look at the vertical axis, while the horizontal axis shows the call stack at a given moment. For more information on flame charts see this &lt;a href="http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/#toc-flame-chart"&gt;article&lt;/a&gt; on &lt;a href="http://www.html5rocks.com"&gt;html5rocks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Find the biggest time thief&lt;/h2&gt;
+
+&lt;p&gt;Looking at these call stacks I found that the most time-consuming method was &lt;code&gt;CodeMirror.refresh()&lt;/code&gt;, which repaints the whole display area of the instance to update all information. But what was more concerning was that a single call was taking so long. I realised that this method was called not only once, but three times.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Optimizations: 1st Round&lt;/h2&gt;
+
+&lt;p&gt;With my new knowledge I went into the code tracing the stack calls and then eliminating two of the three calls to &lt;code&gt;CodeMirror.refresh&lt;/code&gt; when switching from one tab to another. My work did not go unrewarded, I ended up with this new graph resulting in an overall switch time of about 450ms...&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/s/img/blog/flames-graph-middle-8374019e.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_4"&gt;Optimizations: 2nd Round&lt;/h2&gt;
+
+&lt;p&gt;My newly gained speed made me happy, but after looking again into the graph I could still see two call stack spikes which took about the same amount of time, and both ended up re-rendering the CodeMirror instance. So looking a little closely, I could see that the first time was caused by &lt;code&gt;CodeMirror.swapDoc&lt;/code&gt; and the second by &lt;code&gt;CodeMirror.refresh&lt;/code&gt;. When you look at the source code for these two &lt;a href="https://github.com/marijnh/CodeMirror/blob/master/lib/codemirror.js#L3207"&gt;here&lt;/a&gt; and &lt;a href="https://github.com/marijnh/CodeMirror/blob/master/lib/codemirror.js#L3199"&gt;here&lt;/a&gt;, you can see that they both end up calling the same methods, which results in a complete repaint of CodeMirror.&lt;/p&gt;
+
+&lt;p&gt;To understand what was happening, I need to explain what happens when you switch a tab. For performance reasons we only keep one CodeMirror instance around and if you switch from one tab to another we call &lt;code&gt;swapDoc&lt;/code&gt; to change the document that is being displayed. To accommodate for size changes and highlighting changes, we call &lt;code&gt;refresh&lt;/code&gt; at the end of the switching process. But with my knowledge that &lt;code&gt;swapDoc&lt;/code&gt; already does everything we need to do, I just moved &lt;code&gt;swapDoc&lt;/code&gt; to the end of the process, (of course there were some other problems that this entailed but it was not too bad) and voila, only one repaint of CodeMirror when switching tabs. Which now gave a switch time of just 167ms.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/s/img/blog/flames-graph-after-085d5d4c.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_5"&gt;Roundup&lt;/h2&gt;
+
+&lt;p&gt;As you&amp;#39;ve seen, profiling, measuring and looking at these great data points that the dev tools provide, gives you an easy way to find and track down performance problems. And when you look at this data, it&amp;#39;s immediately clear that it really pays off!&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Before&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;1st Round&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;2nd Round&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Total Time&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;2055ms&lt;/td&gt;
+&lt;td&gt;450ms&lt;/td&gt;
+&lt;td&gt;167ms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 </content>
   </entry>
 </feed>

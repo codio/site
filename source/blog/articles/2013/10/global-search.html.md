@@ -5,6 +5,7 @@ date: 2013-10-28
 tags: Changelog
 class_name: blog
 full_width: true
+published: false
 ---
 
 One big omission from Codio so far has been powerful global search and replace functionality. Well, we've corrected this now.

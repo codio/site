@@ -102,10 +102,11 @@
       <section class="latest-posts">
         <h4>Latest posts...</h4>
         <ul>
-          <% blog.articles[0..5].each do |post| %>
+          <% blog.articles[0..8].each do |post| %>
             <% next if is_blog_article? && post === current_article %>
             <li><%= link_to post.title, post %></li>
           <% end %>
+          <li><strong><%= link_to 'All posts...', '/blog/all' %></strong></li>
         </ul>
       </section>
 

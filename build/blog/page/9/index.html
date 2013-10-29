@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-afade242.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-138e4614.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -121,44 +121,125 @@
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/07/from-the-frontline-11/">July 24, 2013</a>
+            <a href="/s/blog/2013/06/journey/">June 10, 2013</a>
             
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+              <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
             
             &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-11/#disqus_thread">Comments</a>
+            <a class="dsq-comment-count" href="/s/blog/2013/06/journey/#disqus_thread">Comments</a>
           </p>
         </section>
 
-        <h1><a href="/s/blog/2013/07/from-the-frontline-11/">From the Front-line - #11</a></h1>
+        <h1><a href="/s/blog/2013/06/journey/">The Journey from Mercurial to Git</a></h1>
 
         
-        <p>I know, I know... I didn&#39;t do one yesterday. No matter, coz&#39; this one&#39;s a good one!</p>
+        <h2 id="toc_0">The Problem</h2>
 
-<ul>
-<li><p>Nifty little tool to encourage you to <a href="http://embedresponsively.com/">Embed Responsibly</a>. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the <strong>HTML5 friendly, embeddable code</strong>.</p></li>
-<li><p><strong><a href="http://bower.io/">Bower</a> hits a final 1.0 release</strong>, so go check out the <a href="https://github.com/bower/bower/blob/master/CHANGELOG.md">changelog</a>.</p></li>
-<li><p>Moving fast doesn&#39;t always work out quite so well, and this <a href="http://kenneth.io/blog/2013/07/15/the-messy-state-of-web-notifications-in-chrome-safari-blink-webkit/">article</a> about the the <strong>messy state of Web Notifications in Blink and Webkit</strong> demonstrates this.</p></li>
-<li><p>I <a href="https://twitter.com/joelmoss/status/359813361749327872">tweeted</a> this one yesterday because I was quite excited about it. <strong><a href="http://getuikit.com/">UIKit</a> is another Bootstrap style front-end framework</strong>. I know, but hear me out on this one. It&#39;s actually pretty good, and very modular. So you can really pick and choose what you want to use. It&#39;s pretty comprehensive too.</p></li>
-<li><p>In keeping with the above, InsertHTML posted an <strong>interested <a href="http://www.inserthtml.com/2013/07/bootstraps-and-web-kits-enemy-or-efficient/">write up</a> on the various front-end frameworks available</strong>. Are they friend or foe?</p></li>
-<li><p><a href="https://github.com/jsoverson/plato">Plato</a> is a Node library that will <strong>scan your Javascript source code and provide a bunch of reports that visualize its complexity</strong>. We ran it against the Codio source, and were pleasantly surprised.</p></li>
-<li><p><strong>Want multiple inheritance in Javascript?</strong> <a href="http://ringjs.neoname.eu/">Ring.js</a> may just be what you&#39;re looking for.</p></li>
-<li><p>Alex Maccaw posted a <a href="http://blog.alexmaccaw.com/seo-in-js-web-apps">succinct article</a> all about <strong>SEO in Javascript web apps</strong>.</p></li>
-<li><p>And finally... <strong>remember Firebug Lite?</strong> <a href="http://gal.steinitz.com/blog/2013/07/19/remember-firebug-lite/">Gal Steinitz wants to resurrect it</a>.</p></li>
-</ul>
+<p><em>In which we see all the issues that come with great version control.</em></p>
 
-<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+<p>As <a href="/s/blog/2013/06/moving-from-mercurial-to-git/">already mentioned in the last post</a> we are using Mercurial right now but want to switch to Git. So the question in the room was how to convert a large Mercurial repository to Git, without losing any history and converting the named Mercurial branches to Git branches.</p>
+
+<p>There were a few tools that I tried, mainly <a href="https://github.com/frej/fast-export">fast-export</a> and <a href="http://www.fogcreek.com/kiln/">Kiln</a>.</p>
+
+<p>The first one was fast-export and the main problem was that after I got it installed it always crashed with some cryptic errors. Some of them could be resolved as explained in this <a href="http://www.mehdi-khalili.com/migrating-from-mercurial-to-git">post</a>. But even then after fixing these there were more errors, so I eventually gave up.</p>
+
+<p>The next one was <a href="http://www.fogcreek.com/kiln/">Kiln</a>, a service that claims to allow you to work on a single repository using Git <em>and</em> Mercurial. After setting up an account and waiting forty minutes to push from the command line, I was excited to see what happened, but was pretty bummed to see that the repo was completely empty in the web interface. After the command line, I tried their importer, which took about the same amount of time again only to give me just a partial history in the web interface. After this I was quite fed up with Kiln and moved on.</p>
+
+<h2 id="toc_1">The Meeting</h2>
+
+<p><em>In which we meet a creature much more powerful than we had ever imagined.</em></p>
+
+<p>I was about to give up my search when I found <a href="https://github.com/buchuki/gitifyhg">Gitifyhg</a>. <a href="https://github.com/buchuki/gitifyhg">Gitifyhg</a> is not intended as a way of converting Mercurial repositories to Git, but rather to give people who have to work on those, an easy way<br>
+to interact with them using Git.</p>
+
+<blockquote>
+<p>This git remote allows you to do local development in a git repository and push changes to an upstream mercurial repository. It does this seamlessly and allows pushing and pulling to named branches in the upstream repository.</p>
+</blockquote>
+
+<p>But because it needs to be able to do much more, e.g. converting back and forth from Mercurial to Git, it is able to do exactly what we need: convert a complete Mercurial repository into a Git repository without losing any history or a single branch.</p>
+
+<h2 id="toc_2">The Great Conversion</h2>
+
+<p><em>In which Mercurial branches become Git branches.</em></p>
+
+<h3 id="toc_3">The Installation</h3>
+
+<p>As we&#39;re already using Mercurial, Python is set up and hopefully <code>pip</code> or <code>easy_install</code>. If this is the case then installation is as simple as typing:</p>
+
+<pre><code>$ pip install gitifyhg
+# or
+$ easy_install gitifyhg
+</code></pre>
+
+<p>For more information on installation procedures check out the <a href="https://github.com/buchuki/gitifyhg#install">readme</a>.</p>
+
+<h3 id="toc_4">The Ceremony</h3>
+
+<p>Now that gitifyhg is installed we can harness its powers by simply cloning a Mercurial repository with this command:</p>
+
+<pre><code>$ git clone gitifyhg::&lt;mercurial repository&gt;
+</code></pre>
+
+<p>One thing to note here, is that the easiest way - for conversion at least - is to clone a local repository instead of one that is on a server. The main issue here is that I couldn&#39;t figure out how to sign in to <a href="https://bitbucket.org/">Bitbucket</a> using this approach.</p>
+
+<p>When this command has finished running the conversion is finished. What we now need to do is set up remote tracking branches for all our git branches so we can check them out. This is easy enough for a single branch by doing:</p>
+
+<pre><code>$ git --track &lt;name of the remote branch&gt;
+</code></pre>
+
+<p>But if you have many branches and want to add them all at once we can use the power of the shell to do it:</p>
+
+<pre><code>$ for remote in `git branch -r `; do git branch --track $remote; done
+</code></pre>
+
+<p>We can now take a look at all our Mercurial branches in Git:</p>
+
+<pre><code>$ git branch -r
+  origin/HEAD -> origin/master
+  origin/branches/#7345_tabs_reopening
+  origin/branches/#7528_context-no-longer-needed
+  origin/branches/#7610_md5_cache
+  origin/branches/#7633_file_tree_icons
+  origin/branches/#7663_deployment_UI
+  origin/branches/#7777_sharejs
+  origin/branches/#7797_first_app_selection
+  origin/branches/#7800_ace_themes
+  origin/branches/#7897_annotations_menuitem_visibility
+  origin/branches/#7973_preview_hotkeys
+  origin/branches/#7981_tour_closing
+  origin/branches/#8011_inline_preview
+  origin/branches/#8013_shortcuts
+  origin/branches/#8062_error_on_init_during_close
+  origin/branches/#8128_css_color_preview
+  origin/branches/#8130_emmet_hotkeys
+</code></pre>
+
+<h3 id="toc_5">The Cleaning</h3>
+
+<p>Gitifyhg uses the convention <code>master = default</code> for the main branch and <code>&lt;git branch name&gt; = branches/&lt;mercurial branch name&gt;</code> for all other branches. We don&#39;t want this. Instead we want to rename our local branches so that the prefix <code>branches/</code> is removed. This is easily done by doing:</p>
+
+<pre><code>$ git branch -m &lt;old name&gt; &lt;new name&gt;
+</code></pre>
+
+<p>So we can rename those branches that we want to keep around and remove those that are not needed anymore by calling:</p>
+
+<pre><code>$ git branch -D &lt;branch name&gt;
+</code></pre>
+
+<h2 id="toc_6">The Epilogue</h2>
+
+<p>Now that we&#39;ve converted the repository itself, the real work begins. We need to change our development cycle around version control and educate everyone about how to use Git in a safe and productive way. Even if these two are similar there is still a lot to learn and the raw power of Git can sometimes be a little bit scary, but personally I much prefer having all the power rather than jumping through hoops all the time.</p>
 
 
         <div class="blog-social clearfix">
           <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-11/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #11">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/journey/" data-via="codiohq" data-size="small" data-count="none" data-text="The Journey from Mercurial to Git">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
 
           <div class="blog-gplus">
             <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-11/"></div>
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/journey/"></div>
 
             <!-- Place this tag after the last +1 button tag. -->
             <script type="text/javascript">
@@ -171,7 +252,7 @@
           </div>
 
           <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-11/" data-width="450" data-show-faces="false"></div>
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/journey/" data-width="450" data-show-faces="false"></div>
           </div>
         </div>
       </article>
@@ -181,44 +262,40 @@
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/07/from-the-frontline-10/">July 22, 2013</a>
+            <a href="/s/blog/2013/06/real-time-coding/">June  7, 2013</a>
             
               <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
             
             &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-10/#disqus_thread">Comments</a>
+            <a class="dsq-comment-count" href="/s/blog/2013/06/real-time-coding/#disqus_thread">Comments</a>
           </p>
         </section>
 
-        <h1><a href="/s/blog/2013/07/from-the-frontline-10/">From the Front-line - #10</a></h1>
+        <h1><a href="/s/blog/2013/06/real-time-coding/">Real Time Coding</a></h1>
 
         
-        <p>I neglected to post on Friday, so today is a bumper double issue thingy...</p>
+        <p>We have a big new feature for your enjoyment that we rolled out just yesterday. I&#39;m excited to introduce Real Time Coding!</p>
 
-<ul>
-<li><p>Need to <strong>track and report on your Javascript exceptions</strong>? You won&#39;t get better than <a href="http://errorception.com/">Errorception</a>, which we use ourselves.</p></li>
-<li><p>Like JSHint? Then you should love <a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/">ESHint</a>, which is a <strong>linting tool where all rules are pluggable</strong>.</p></li>
-<li><p>Need to <strong>expand and collapse blocks of text</strong> with a link? Check out <a href="http://jedfoster.github.io/Readmore.js/">ReadMore.js</a>.</p></li>
-<li><p>Oh look! <strong>Another &quot;Bootstrap wannabe&quot; CSS framework</strong>, this time called <a href="http://cardinalcss.com/">Cardinal</a>, which apparently is small and mobile first.</p></li>
-<li><p><a href="http://abe33.github.io/spectacular/">Spectacular</a> is a good looking <strong><a href="http://rspec.info/">RSpec</a> inspired BDD framework</strong> for Javascript and CoffeeScript.</p></li>
-<li><p>Need to run <strong>A/B tests</strong>? <a href="http://srom.github.io/easyAB/">easyAB</a> is a jQuery/Zepto plugin may be just want you need.</p></li>
-<li><p>Give users <strong>real time hints and progress updates as they complete your forms</strong> with <a href="http://git.aaronlumsden.com/progression/">Progression.js</a>.</p></li>
-<li><p>WebRTC is one of the most technically advanced offerings to become built right into the browser. <strong><a href="http://simplewebrtc.com/">simpleWebRTC</a> might just make it a little easier</strong> to implement.</p></li>
-<li><p>Great article <strong><a href="http://www.2ality.com/2013/07/defending-constructors.html">In defence of Javascript&#39;s Constructors</a></strong>.</p></li>
-</ul>
+<p>Right from the start, we wanted Codio to be collaborative. We are after all, working in the browser, which is the perfect place to collaborate. So yesterday we flicked the switch on our first big collaborative feature.</p>
 
-<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+<p>Real Time Coding is exactly as it sounds. You and your friends and colleagues can hack away on your code. But when any of your friends or colleagues makes a change in the code, you see it happening right there in real time. You see exactly what they type, as they type it.</p>
+
+<p>It&#39;s like Google Docs, but right in your code editor!</p>
+
+<p>Real Time Coding is available right now for everyone, and for all projects.</p>
+
+<p><img src="/s/img/blog/real-time-coding-25b0ad51.gif" /></p>
 
 
         <div class="blog-social clearfix">
           <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-10/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #10">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/real-time-coding/" data-via="codiohq" data-size="small" data-count="none" data-text="Real Time Coding">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
 
           <div class="blog-gplus">
             <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-10/"></div>
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/real-time-coding/"></div>
 
             <!-- Place this tag after the last +1 button tag. -->
             <script type="text/javascript">
@@ -231,7 +308,7 @@
           </div>
 
           <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-10/" data-width="450" data-show-faces="false"></div>
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/real-time-coding/" data-width="450" data-show-faces="false"></div>
           </div>
         </div>
       </article>
@@ -241,41 +318,191 @@
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/07/from-the-frontline-9/">July 18, 2013</a>
+            <a href="/s/blog/2013/06/moving-from-mercurial-to-git/">June  6, 2013</a>
             
               <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
             
             &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-9/#disqus_thread">Comments</a>
+            <a class="dsq-comment-count" href="/s/blog/2013/06/moving-from-mercurial-to-git/#disqus_thread">Comments</a>
           </p>
         </section>
 
-        <h1><a href="/s/blog/2013/07/from-the-frontline-9/">From the Front-line - #9</a></h1>
+        <h1><a href="/s/blog/2013/06/moving-from-mercurial-to-git/">Moving from Mercurial to Git</a></h1>
 
         
-        <p>Here&#39;s today&#39;s juicy bundle of links...</p>
+        <p>Since I began with Codio almost a year ago, I&#39;ve wanted to move to Git - it&#39;s what I&#39;m used to and I think it is simply superior to Mercurial. Right now we use Mercurial, and while it is very similar to Git in concept, there are some differences which are starting to hold us back a little. So I made an executive decision to migrate away from Mercurial to Git, and from BitBucket to Github.</p>
+
+<p>This post will attempt to explain the high level differences between Mercurial and Git, and will also compare the commands and workflow of each. It will also explain a few best practises and tips when using Git. Hopefully by the end, you will understand why we&#39;re moving.</p>
+
+<h2 id="toc_0">What’s the Difference?</h2>
+
+<p>Here’s a technical summary of the major differences between Mercurial and Git, taken from an answer to <a href="http://stackoverflow.com/questions/1598759/git-and-mercurial-compare-and-contrast">this StackOverlow question</a>:</p>
 
 <ul>
-<li><p>I mentioned the emerging <strong><a href="http://h5bp.github.io/Effeckt.css/dist/">Effekt.css</a></strong> back in issue #1, but it seems they&#39;ve been busy and we now have a good number of <a href="http://h5bp.github.io/Effeckt.css/dist/">effects</a> ready to go.</p></li>
-<li><p>While researching ways to improve Codio&#39;s own internal <strong>Javascript routing</strong> system, I came across <a href="https://github.com/tildeio/router.js">Router.js</a>, which is the router that <a href="http://emberjs.com/">EmberJS</a> uses. It&#39;s a very thorough implementation.</p></li>
-<li><p>Lots of talk around <strong>ES6</strong>, the next version of EcmaScript (Javascript), but this <a href="http://www.slideshare.net/domenicdenicola/es6-the-awesome-parts">slideshow</a> talks about <strong>the awesome parts</strong>.</p></li>
-<li><p><a href="https://github.com/sindresorhus/screenfull.js">screenfull.js</a> is a tiny wrapper for <strong>cross-browser usage of the Javascript fullscreen API</strong>, which lets you bring the page or any element into fullscreen.</p></li>
-<li><p><a href="http://the-taylors.org/blog/2013/07/01/how-will-i-keep-javascript-code-quality-hight-jshint/">Nice post</a> by our friend Dave Taylor on the awesomeness that is <strong>JSHint</strong>.</p></li>
-<li><p><a href="http://bunkat.github.io/later/">Later.js</a> claims to be the <strong>simplest way to work with recurring schedules</strong>. If you&#39;re only talking about Javascript, then they&#39;re probably right.</p></li>
+<li><strong>Repository structure</strong>: Mercurial doesn’t allow octopus merges (with more than two parents), nor tagging non-commit objects.</li>
+<li><strong>Tags</strong>: Mercurial uses versioned <code>.hgtags</code> file with special rules for per-repository tags, and has also support for local tags in <code>.hg/localtags</code>; in Git, tags are refs residing in <code>refs/tags/namespace</code>, and by default are auto-followed on fetching and require explicit pushing.</li>
+<li><strong>Branches</strong>: In Mercurial basic workflow is based on anonymous heads; Git uses lightweight named branches, and has special kind of branches (remote-tracking branches) that follow branches in remote repository.</li>
+<li><strong>Revision naming and ranges</strong>: Mercurial provides revision numbers, local to repository, and bases relative revisions (counting from tip, i.e. current branch) and revision ranges on this local numbering; Git provides a way to refer to revision relative to branch tip, and revision ranges are topological (based on graph of revisions).</li>
+<li>Mercurial uses rename <strong>tracking</strong>, while Git uses rename detection to deal with file renames</li>
+<li><strong>Network</strong>: Mercurial supports SSH and HTTP “smart” protocols; modern Git supports SSH, HTTP and GIT “smart” protocols, and HTTP(S) “dumb” protocol. Both have support for bundles files for off-line transport.</li>
+<li>Mercurial uses <strong>extensions</strong> (plugins) and established API; Git has scriptability and established formats.</li>
 </ul>
 
-<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+<p>Most of the differences between Mercurial and Git are very subtle, and most people wouldn’t even notice them, however, there’s a fundamental difference that I’ll tackle next.</p>
+
+<h2 id="toc_1">Branches</h2>
+
+<p>The way Git deals with branches is incredibly simple, and yet very powerful.</p>
+
+<p><strong>hg branch != git branch</strong></p>
+
+<p>In Git, a branch is merely one of the many kinds of ‘refs’, and a ‘ref’ is simply a pointer to a commit. This means that there’s nothing fundamentally different between ‘branch1’ or ‘branch2’ or even ‘master’. They&#39;re all pointers to commits, and these pointers can be easily be deleted, renamed, fetched, pushed, etc. You can do pretty much whatever you want with them.</p>
+
+<p>In Mercurial, a branch is embedded in a commit; a commit in ‘branch1’ will always remain in that branch. This means you cannot delete, or rename branches, because you would be changing the history of the commits on those branches. You can &#39;close&#39; branches however. These &quot;named branches&quot; can be better thought of as &quot;commit labels&quot;.</p>
+
+<h2 id="toc_2">Git Commands</h2>
+
+<p>Let&#39;s go through and compare the most used commands.</p>
+
+<p><strong>clone</strong>, <strong>status</strong>, <strong>diff</strong>, <strong>add</strong>, <strong>rm</strong>, <strong>push</strong> and <strong>pull</strong> are functionally the same. In fact, most commands are very similar. However there are a few exceptions and things to note.</p>
+
+<table><thead>
+<tr>
+<th><strong>General</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>commit</td>
+<td>Passing the <code>-a</code> flag will automatically stage files that have been modified or deleted, so it is good practice to always use  this</td>
+</tr>
+<tr>
+<td>add</td>
+<td>Using the <code>-A</code> flag adds, modifies, and index entries to match the working tree. Use this instead of <code>hg addremove</code>.</td>
+</tr>
+<tr>
+<td>push</td>
+<td>Git will try to figure out which branch you want to push and which remote to push to. But setting the following configuration, Git will push to the current branch, thus avoiding pushing all your branches, which Mercurial does: <code>git config --global push.default current</code></td>
+</tr>
+<tr>
+<td>pull</td>
+<td>Rebasing on pull is good practice and will make everyone’s lives easier. You should always pull with the <code>--rebase</code> flag to avoid merge commits that result from pulling. Make it the default behaviour with: <code>git config --global --bool pull.rebase true</code></td>
+</tr>
+<tr>
+<td>checkout</td>
+<td>Use this to switch between branches instead of <code>hg up branch_name</code>.</td>
+</tr>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th><strong>Branching</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Creating</td>
+<td><code>git branch BRANCH-NAME</code> will create a new branch, but <code>git checkout -b BRANCH-NAME</code> will create and then switch to the new branch.</td>
+</tr>
+<tr>
+<td>Switching</td>
+<td><code>git checkout BRANCH-NAME</code></td>
+</tr>
+<tr>
+<td>Deleting</td>
+<td><code>git branch -d BRANCH-NAME</code></td>
+</tr>
+<tr>
+<td>Listing</td>
+<td><code>git branch</code> will list all local branches. <code>git branch -a</code> will list all branches including those on the remote.</td>
+</tr>
+</tbody></table>
+
+<h2 id="toc_3">Best Practices</h2>
+
+<p><a href="http://mislav.uniqpath.com/2013/02/merge-vs-rebase/">This great article</a> by Mislav Marohnić can be summarised as follows:</p>
+
+<ul>
+<li><p><code>git pull --rebase</code> instead of <code>git pull</code></p></li>
+<li><p><code>git rebase -i @{u}</code> before git push</p></li>
+<li><p>(on “feature”) <code>git merge master</code> to make feature compatible with latest master</p></li>
+<li><p>(on “master”) <code>git merge -no-ff feature</code> to ship a feature</p></li>
+<li><p>However if “feature” contains only 1 commit, avoid the merge commit: (on “master”) <code>git cherry-pick feature</code></p></li>
+</ul>
+
+<p>Rebasing is a much debated subject in Git-land, but <a href="http://blog.izs.me/post/37650663670/git-rebase">this article</a> explains it very well.</p>
+
+<h2 id="toc_4">Tips</h2>
+
+<p>The following are a collection of useful tips and tricks that I recommend that you implement. They will make your life so much easier.</p>
+
+<p><strong>Branch name in your bash prompt</strong><br>
+This one is must-have for me, as I can always see at any time, what branch I am on. Check out these links: <a href="http://code-worrier.com/blog/git-branch-in-bash-prompt/">http://code-worrier.com/blog/git-branch-in-bash-prompt/</a> and<br>
+<a href="https://github.com/magicmonty/bash-git-prompt">https://github.com/magicmonty/bash-git-prompt</a>.</p>
+
+<p><strong>Setup Aliases</strong><br>
+Open up your ~/.gitconfig file and you should find an [alias] section. If not, just create one, using the following:</p>
+
+<pre><code>[alias]
+  co = checkout
+  ci = commit
+  br = branch
+
+  # friendly statuses
+  st = status -sb
+
+  # Add all unstaged changes/removals and commit. All you gotta do here is pass the commit message.
+  # Example: git ac &#39;My commit message&#39;
+  ac = !git add -A &amp;&amp; git commit -m
+
+  # Pretty looking log
+  lg = log --decorate --stat --graph --pretty=format:&#39;%C(yellow)%h%Creset (%ar - %Cred%an%Creset), %s%n&#39;
+</code></pre>
+
+<p><strong>Love Stash</strong><br>
+There’s plenty of occasions when I’ve been in the middle of some changes, but have been interrupted by a need to work on something else - maybe an urgent bug, or to see something in a different branch. However, I have not yet finished what I am working on and do not want to commit it yet. <code>git stash</code> to the rescue!</p>
+
+<p>Just run <code>git stash</code> and git will take your uncommitted changes, and set them aside in a safe place. You are then back to a clean working copy and can switch branches, and hack away on anything else your heart desires.</p>
+
+<p>When you are ready to return back, simply run <code>git stash pop</code> to apply your last stash and remove it from the stash.</p>
+
+<p><strong>Hub with Github</strong><br>
+We will be using Github, so <a href="http://defunkt.io/hub/">hub</a> is extremely helpful.</p>
+
+<p><strong>Looking at Pull Requests</strong><br>
+On Github you can download patch files and apply them to your project immediately to have a look at them, for example:</p>
+
+<pre><code>curl https://github.com/karma-runner/karma/pull/559.patch | git am
+</code></pre>
+
+<p>This downloads the patch and pipes it into <code>git am</code> which simply applies the patch to your working directory. And after you are finished you can simply do:</p>
+
+<pre><code>git reset --hard HEAD~i
+</code></pre>
+
+<p>where <code>i</code> is the number of commits you want to discard. A word of warning should be added here. Doing a hard reset will DELETE stuff permanently from your repo, so be sure you know what you are deleting.</p>
+
+<h2 id="toc_5">Other Resources</h2>
+
+<ul>
+<li>Offical Git Page <a href="http://git-scm.com/">http://git-scm.com/</a> and <a href="http://git-scm.com/book">http://git-scm.com/book</a></li>
+<li><a href="https://sandofsky.com/blog/git-workflow.html">https://sandofsky.com/blog/git-workflow.html</a></li>
+<li><a href="http://blog.izs.me/post/37650663670/git-rebase">http://blog.izs.me/post/37650663670/git-rebase</a></li>
+<li><a href="http://training.github.com/web/free-classes/">http://training.github.com/web/free-classes/</a></li>
+<li><a href="https://help.github.com/">https://help.github.com/</a></li>
+<li>Best Video Training: <a href="https://peepcode.com/screencasts/git">https://peepcode.com/screencasts/git</a> ( $12 each but worth every cent)</li>
+</ul>
 
 
         <div class="blog-social clearfix">
           <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-9/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #9">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/" data-via="codiohq" data-size="small" data-count="none" data-text="Moving from Mercurial to Git">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
 
           <div class="blog-gplus">
             <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-9/"></div>
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/"></div>
 
             <!-- Place this tag after the last +1 button tag. -->
             <script type="text/javascript">
@@ -288,7 +515,7 @@
           </div>
 
           <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-9/" data-width="450" data-show-faces="false"></div>
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/moving-from-mercurial-to-git/" data-width="450" data-show-faces="false"></div>
           </div>
         </div>
       </article>
@@ -298,39 +525,63 @@
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/07/from-the-frontline-8/">July 17, 2013</a>
+            <a href="/s/blog/2013/06/snippets/">June  1, 2013</a>
             
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
             
             &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-8/#disqus_thread">Comments</a>
+            <a class="dsq-comment-count" href="/s/blog/2013/06/snippets/#disqus_thread">Comments</a>
           </p>
         </section>
 
-        <h1><a href="/s/blog/2013/07/from-the-frontline-8/">From the Front-line - #8</a></h1>
+        <h1><a href="/s/blog/2013/06/snippets/">Snippets Released</a></h1>
 
         
-        <p>A little quiet today...</p>
+        <p>Hot on the heels of Inline Preview comes support for Textmate style Snippets.</p>
 
-<ul>
-<li><p>Lovely little <a href="https://github.com/sindresorhus/log-globals">bookmarklet or DevTools snippet</a> for Chrome that <strong>logs your global Javascript variables to the console</strong>.</p></li>
-<li><p>Completely useless, but awesome nonetheless, <a href="http://hdragomir.github.io/facetogif/">face to gif</a> lets you <strong>record yourself and produces an animated gif</strong>.</p></li>
-<li><p><a href="http://etiennetalbot.github.io/responsImg">responseImg</a> is a jQuery plugin that <strong>turns your <code>img</code> tags into responsive images with retina alternatives</strong>.</p></li>
-<li><p>Really love these <strong><a href="http://tympanus.net/Development/AnimatedBooks/index.html">CSS3 animated books</a></strong>.</p></li>
-</ul>
+<p>Snippets are a great way of reducing typing by entering shorthand code, pressing the tab key and then seeing the shorthand expand into the longhand.</p>
 
-<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+<p>For example in an HTML file ...</p>
+
+<p><code>iframe</code> + tab, expands</p>
+
+<pre><code>&lt;iframe src=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
+<p>In a CSS file ...</p>
+
+<p><code>bdi</code> + tab, expands to</p>
+
+<pre><code>-webkit-border-image: url();
+-moz-border-image: url();
+-o-border-image: url();
+</code></pre>
+
+<p>In a JS file ...</p>
+
+<p><code>for</code> + tab expands to</p>
+
+<pre><code>for (var i = 0; i &lt; Things.length; i++) {
+    Things[i]
+}
+</code></pre>
+
+<p>We&#39;ve made it very easy to review and search for snippets by including it right in the IDE.</p>
+
+<p><img alt="snippets" src="/s/img/blog/snippets-57ea6360.png" /></p>
+
+<p>Find out more by <a href="/s/docs/ide/emmet/snippets/">reading the documentation</a>.</p>
 
 
         <div class="blog-social clearfix">
           <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-8/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #8">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/snippets/" data-via="codiohq" data-size="small" data-count="none" data-text="Snippets Released">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
 
           <div class="blog-gplus">
             <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-8/"></div>
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/snippets/"></div>
 
             <!-- Place this tag after the last +1 button tag. -->
             <script type="text/javascript">
@@ -343,7 +594,207 @@
           </div>
 
           <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-8/" data-width="450" data-show-faces="false"></div>
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/snippets/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/05/inline-preview/">May 30, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/05/inline-preview/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/05/inline-preview/">Inline preview released</a></h1>
+
+        
+        <p>We&#39;ve just deployed an inline preview capability. Just press Preview and a re-sizable panel will appear beneath your code.</p>
+
+<p><img alt="inline preview demo" src="/s/img/blog/preview-demo-9d2c4cda.png" /></p>
+
+<p>You can expand it into its own browser tab with a click in the preview header.</p>
+
+<p>Read more (well, not a lot more) in the <a href="/s/docs/ide/ide-general/inline-preview/">documentation</a>.</p>
+
+<p>This is the latest, but by no means the last, feature to come off the production line. We&#39;re going to be announcing three new ones in the next few days, so keep your eyes peeled.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/05/inline-preview/" data-via="codiohq" data-size="small" data-count="none" data-text="Inline preview released">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/05/inline-preview/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/05/inline-preview/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/05/emmet-support/">May 24, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/05/emmet-support/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/05/emmet-support/">Emmet support added for hi-speed HTML and CSS coding</a></h1>
+
+        
+        <p>We have just added Emmet support for a whole range of features that really boost productivity when working with HTML and CSS. These features include expanding abbreviations into full HTML or CSS as well as some very powerful keyboard shortcuts.</p>
+
+<p>Be sure to check out the <a href="/s/docs/ide/emmet/">Codio documentation</a>.</p>
+
+<p>Here&#39;s a short video of it in action in the Codio IDE.</p>
+
+<p><a href="http://www.youtube.com/v/suFLTxYDJz8?autoplay=1" class="fancybox fancybox.iframe" id="video"><br>
+    <img src="//i3.ytimg.com/vi/suFLTxYDJz8/mqdefault.jpg"><br>
+  </a></p>
+
+<h2 id="toc_0">Basic Example</h2>
+
+<p>Let&#39;s say you want to generate the following HTML</p>
+
+<pre><code>&lt;div&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Just type the following and press tab</p>
+
+<pre><code>div&gt;ul&gt;li*3
+</code></pre>
+
+<h2 id="toc_1">Juicier Example</h2>
+
+<p>This is more involved but shows how you can generate pretty well anything once you understand its simple language.</p>
+
+<pre><code>&lt;div id=&quot;page&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;&lt;/div&gt;
+    &lt;ul id=&quot;navigation&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 3&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Item 5&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>And here is what you enter (then press tab)</p>
+
+<pre><code>#page&gt;div.logo+ul#navigation&gt;li*5&gt;a{Item $}
+</code></pre>
+
+<h2 id="toc_2">CSS Example</h2>
+
+<p>There&#39;s CSS support, too.</p>
+
+<p><code>w100p</code> results in <code>width: 100%</code><br>
+<code>m10p30e5x</code> results in <code>margin: 10% 30em 5ex</code></p>
+
+<p>and how about this for gradients</p>
+
+<pre><code>lg(left, #fc0, 30%, red)
+</code></pre>
+
+<p>result in</p>
+
+<pre><code>background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#fc0), color-stop(0.5, 30%), to(red));
+background-image: -webkit-linear-gradient(left, #fc0, 30%, red);
+background-image: -moz-linear-gradient(left, #fc0, 30%, red);
+background-image: -o-linear-gradient(left, #fc0, 30%, red);
+background-image: linear-gradient(left, #fc0, 30%, red);
+</code></pre>
+
+<h2 id="toc_3">Lorem Ipsum</h2>
+
+<p>There are other things you can do as well, like generating standard text</p>
+
+<pre><code>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis expedita numquam suscipit hic molestias tenetur neque facilis et aliquam consectetur sapiente aperiam non recusandae ad minima quod saepe laborum tempora.
+</code></pre>
+
+<p>Just use</p>
+
+<pre><code>lorem
+</code></pre>
+
+<h2 id="toc_4">Power Keyboard Shortcuts</h2>
+
+<p>As well as abbreviations, we also offer some really powerful productivity features behind kayboard shortcuts.</p>
+
+<ul>
+<li>Matching tag pairs</li>
+<li>Jump to matching tag</li>
+<li>Wrap HTML with anotehr abbreviation</li>
+<li>Traverse between important editing points</li>
+<li>Selects important editing blocks and then traverses to the next one</li>
+<li>Add remove comment toggle for the current line or block</li>
+<li>Remove the current tag and its closing tag and adjust indentation</li>
+<li>Merge selected lines into a single line</li>
+<li>Add width and height properties to an img tag</li>
+<li>Inline calculator that lets you enter arithmetic formulae and then press tab to perform the calculation</li>
+<li>Increment and decrement CSS values by 0.1, 1 and 10</li>
+</ul>
+
+<p>Check out the <a href="/s/docs/ide/emmet/">Codio documentation</a> for an overview.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/05/emmet-support/" data-via="codiohq" data-size="small" data-count="none" data-text="Emmet support added for hi-speed HTML and CSS coding">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/05/emmet-support/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/05/emmet-support/" data-width="450" data-show-faces="false"></div>
           </div>
         </div>
       </article>
@@ -368,6 +819,31 @@
       <h5><a href="https://codio.com/s/blog/feed.xml" target="_blank"><img size="14x14" src="../../../img/feed-icon-fd8211de.png" />Subscribe</a></h5>
     </section>
 
+    <section class="latest-posts">
+      <h4>on this page...</h4>
+      <ul>
+        
+          
+          <li><a href="/s/blog/2013/06/journey/">The Journey from Mercurial to Git</a></li>
+        
+          
+          <li><a href="/s/blog/2013/06/real-time-coding/">Real Time Coding</a></li>
+        
+          
+          <li><a href="/s/blog/2013/06/moving-from-mercurial-to-git/">Moving from Mercurial to Git</a></li>
+        
+          
+          <li><a href="/s/blog/2013/06/snippets/">Snippets Released</a></li>
+        
+          
+          <li><a href="/s/blog/2013/05/inline-preview/">Inline preview released</a></li>
+        
+          
+          <li><a href="/s/blog/2013/05/emmet-support/">Emmet support added for hi-speed HTML and CSS coding</a></li>
+        
+      </ul>
+    </section>
+
     
       <section class="latest-posts">
         <h4>Latest posts...</h4>
@@ -385,32 +861,26 @@
       </section>
     
 
-    <section class="latest-posts">
-      <h4>on this page...</h4>
-      <ul>
-        
-          
-          <li><a href="/s/blog/2013/07/from-the-frontline-11/">From the Front-line - #11</a></li>
-        
-          
-          <li><a href="/s/blog/2013/07/from-the-frontline-10/">From the Front-line - #10</a></li>
-        
-          
-          <li><a href="/s/blog/2013/07/from-the-frontline-9/">From the Front-line - #9</a></li>
-        
-          
-          <li><a href="/s/blog/2013/07/from-the-frontline-8/">From the Front-line - #8</a></li>
-        
-      </ul>
-    </section>
-
-
     <div style="margin:35px 0 0 25px;">
       <a href="https://twitter.com/codiohq" class="twitter-follow-button" data-size="medium" data-show-count="false" data-lang="en">Follow us @codiohq</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
-  </aside>
 
+    
+      <section class="latest-posts">
+        <ul>
+          <li><strong><a href="/s/blog/all">All posts...</a></strong></li>
+          
+            <li><a href="/s/blog/page/10/">&laquo; older posts</a></li>
+          
+          
+            <li><a href="/s/blog/page/8/">newer posts &raquo;</a></li>
+          
+        </ul>
+      </section>
+    
+
+  </aside>
 </div>
 
 

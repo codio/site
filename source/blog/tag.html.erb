@@ -1,6 +1,6 @@
 ---
 title: Codio Blog
-per_page: 4
+per_page: 6
 class_name: blog
 full_width: true
 pageable: true
@@ -105,20 +105,36 @@ pageable: true
         <% end %>
       </ul>
 
-      <h4>Latest posts...</h4>
-      <ul>
-        <% blog.articles[0...4].each do |post| %>
-          <li><%= link_to post.title, post %></li>
-        <% end %>
-      </ul>
+      <% if paginate && prev_page %>
+        <h4>Latest posts...</h4>
+        <ul>
+          <% blog.articles[0...8].each do |post| %>
+            <li><%= link_to post.title, post %></li>
+          <% end %>
+        </ul>
+      <% end %>
     </section>
 
     <div style="margin:35px 0 0 25px;">
       <a href="https://twitter.com/codiohq" class="twitter-follow-button" data-size="medium" data-show-count="false" data-lang="en">Follow us @codiohq</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
-  </aside>
 
+    <% if paginate %>
+      <section class="latest-posts">
+        <ul>
+          <li><strong><%= link_to 'All posts...', '/blog/all' %></strong></li>
+          <% if next_page %>
+            <li><%= link_to "&laquo; older posts", next_page %></li>
+          <% end %>
+          <% if prev_page %>
+            <li><%= link_to "newer posts &raquo;", prev_page %></li>
+          <% end %>
+        </ul>
+      </section>
+    <% end %>
+
+  </aside>
 </div>
 
 

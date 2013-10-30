@@ -5,6 +5,7 @@ date: 2013-10-30
 tags: Changelog
 class_name: blog
 full_width: true
+published: false
 ---
 
 We are busy adding lots of nice features to make Codio a great environment for Node, PHP, Ruby and Python developers.

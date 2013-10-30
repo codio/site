@@ -48,6 +48,31 @@ section {
   }
 
 
+  &#sf-overview {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/deploy.png') no-repeat -30px center;
+      background-size: 60%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -30px center;
+        background-size: 48%;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 14px;
+        padding: 130px 0 130px 429px;
+        width: 330px;
+
+        @include apply-to(more-than, desktop) {
+          width: 421px;
+          background-size: 12px;
+        }
+      }
+    }
+  }
+
   &#panels {
     .container {
       background: transparent image-url("home/screens/panels.png") no-repeat 718px;

@@ -2,50 +2,15 @@
 
 body.home-webdesign {
 
-  .wrap {
-    margin-bottom: 0;
-  }
-
-  .wrap nav nav > a {
-    margin-left: 40px;
-  }
-
-  #site-nav {
-    margin-left: 100px;
-
-    @include apply-to(more-than, desktop) {
-      margin-left: 300px;
-    }
-  }
-
-  .container {
-    @include apply-to(more-than, desktop) {
-      width: $desktop;
-    }
-  }
-
   header {
-    background-color: #EAEDF2;
-    height: 420px;
-    overflow-x: hidden;
-    padding-top: 18px;
 
     .container {
-      @include clearfix();
 
       > div {
-        float: left;
-        position: relative;
 
         // Tagline
         &:first-child {
-          z-index: 2;
           top: 0px;
-          left: 5px;
-
-          @include apply-to(more-than, desktop) {
-            left: 33px;
-          }
 
           h1 {
             color: #333;
@@ -121,110 +86,6 @@ body.home-webdesign {
 
             }
           }
-
-          > img {
-            opacity: 0;
-            margin-top: 15px;
-            width: 500px;
-
-            @include apply-to(more-than, desktop) {
-              width: 583px;
-              margin-top: 0;
-            }
-          }
-
-          div {
-            opacity: 0;
-
-            p {
-              font: 20px 'Indie Flower';
-              @include rotate(-4deg);
-              margin: 40px 0 0 48px;
-
-              @include apply-to(more-than, desktop) {
-                margin: 38px 0 0 112px;
-                font-size: 22px;
-              }
-
-              a {
-                border-bottom: 1px solid $linkColor;
-
-                &:hover {
-                  border-bottom: 1px solid black;
-                }
-              }
-            }
-
-            img {
-              position: relative;
-              float: right;
-              right: -68px;
-              bottom: 58px;
-            }
-          }
-        }
-      }
-
-      // screen
-      #screen {
-        background: transparent image-url('home/main-screen.png') no-repeat center;
-        background-size: 410px;
-        top: 115px;
-        margin-left: 564px;
-        position: absolute;
-        z-index: 2;
-        width: 410px;
-        height: 435px;
-        opacity: 0;
-        display: block;
-
-        @include apply-to(more-than, desktop) {
-          background-size: 480px;
-          width: 480px;
-          height: 506px;
-          margin-left: 684px;
-          top: 78px;
-        }
-
-        a {
-          @include opacity(0);
-          font-size: 100px;
-          color: $blue;
-          top: 37%;
-          left: 38%;
-          position: relative;
-          text-shadow: 1px 1px 6px #999;
-
-          &:hover {
-            text-shadow: 0 0 0 #999;
-            color: $red;
-          }
-        }
-      }
-
-      #reel {
-        top: 220px;
-        position: absolute;
-        z-index: 1;
-        width: 320px;
-        margin-left: 2000px;
-        display: block;
-
-        transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
-        -webkit-transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
-        @include rotate(360deg);
-
-        &.move {
-          margin-left: 500px;
-
-          @include apply-to(more-than, desktop) {
-            margin-left: 614px;
-          }
-        }
-
-        @include apply-to(more-than, desktop) {
-          top: 225px;
-          width: 350px;
         }
       }
     }

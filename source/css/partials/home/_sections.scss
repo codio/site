@@ -166,6 +166,27 @@ section {
     }
   }
 
+  &#terminal .container {
+    background: transparent image-url("home/screens/ssh-term.png") no-repeat 675px;
+    background-size: 380px;
+
+    @include apply-to(more-than, desktop) {
+      background-size: 465px;
+      background-position: 758px;
+    }
+
+    > div {
+      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+      background-size: 14px;
+      padding: 102px 320px 102px 0;
+      width: 360px;
+
+      @include apply-to(more-than, desktop) {
+        padding: 102px 514px 102px 0;
+      }
+    }
+  }
+
   &#compiled {
     .container > div {
       @include screenie;

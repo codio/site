@@ -1,12 +1,13 @@
 ---
 title: Building the Perfect Browser Based IDE
-class_name: home-php
+class_name: home home-php
 ---
 
 <%= partial 'partials/home-salesforce/header' %>
 
 <aside class="home">
   <ul>
+    <li><a href="#sf-overview">Overview</a></li>    
     <li><a href="#sf-accounts">Connect</a></li>
     <li><a href="#sf-classes">Edit your Code</a></li>
     <li><a href="#sf-other">More languages</a></li>
@@ -19,7 +20,7 @@ class_name: home-php
 
 <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
-<%= partial 'partials/home/opensource' %>
+<%= partial 'partials/home-salesforce/overview' %>
 <%= partial 'partials/home-salesforce/connect' %>
 
 <section id="testimonials">

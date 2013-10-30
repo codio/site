@@ -179,6 +179,7 @@ $ ->
       do doc_events
       do Rainbow.color
       ga? && ga 'send', 'pageview'
+      _gs? && _gs 'track'
 
 
 # Expands the tree to the current URL

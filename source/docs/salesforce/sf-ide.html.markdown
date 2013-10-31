@@ -6,7 +6,7 @@ full_width: true
 
 You have the full Codio IDE features at your disposal so please refer to other parts of this user guide to find out what's available.
 
-The most important things for SalesForce.com development are
+Some interesting areas to refer to relevant to SalesForce.com development ...
 
 - [Preferences & Settings](/docs/settings-prefs) : customize actions, settings and keyboard shortcuts
 - [Productivity Features](/docs/emmet) : keyboard shortcuts, snippets, TernJS, autocomplete, code beautification and more

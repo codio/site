@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Indie+Flower);
 
-body.home {
+body.home-php {
 
   header {
     background-color: #EAEDF2;
@@ -80,20 +80,20 @@ body.home {
               // "Building PHP" 
               &:nth-child(5) {
               display: block;
-                font: 58px gotham_light;
+                font: 58px gotham_light  !important;
                 padding-top: 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 66px;
+                  font-size: 66px !important;
                 }
               }
 
               // "100% in the Cloud"
               &:nth-child(6) {
               display: block;
-                font: 40px gotham_light;
+                font: 40px gotham_light  !important;
                 padding-top: 10px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 40px;
+                  font-size: 40px  !important;
                 }
               }
 

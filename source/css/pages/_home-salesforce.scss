@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Indie+Flower);
 
-body.home {
+body.home-salesforce {
 
   header {
     background-color: #EAEDF2;
@@ -58,7 +58,7 @@ body.home {
                 line-height: 90px;
 
                 @include apply-to(more-than, desktop) {
-                  font-size: 120px;
+                  font-size: 110px;
                 }
               }
 
@@ -68,36 +68,42 @@ body.home {
                 display: block;
                 text-align: left;
                 line-height: 14px;
-                padding-left: 28px;
-                padding-top: 10px;
+                padding-left: 33px;
+                padding-top: 18px;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 28px;
-                  padding-left: 36px;
+                  padding-left: 76px;
                 }
               }
 
-              // "Building PHP" 
+              // "SF CODING" 
               &:nth-child(5) {
               display: block;
-                font: 58px gotham_light;
+                font: 58px gotham_light !important;
                 padding-top: 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 66px;
+                  font-size: 75px !important;
                 }
               }
 
               // "100% in the Cloud"
               &:nth-child(6) {
               display: block;
-                font: 40px gotham_light;
-                padding-top: 10px;
+                font: 29px gotham_light !important;
+                padding-top: 5px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 40px;
+                  font-size: 35px !important;
                 }
               }
-
             }
+            // "SF LOGO"
+            img {
+              margin: -177px 218px 0px 10px !important;
+              @include apply-to(more-than, desktop) {
+                margin: -224px 269px 0px 10px !important;
+              }
+            }            
           }
 
 
@@ -107,10 +113,10 @@ body.home {
             p {
               font: 20px 'Indie Flower';
               @include rotate(-4deg);
-              margin: 40px 0 0 48px;
+              margin: 0px 0 0 48px;
 
               @include apply-to(more-than, desktop) {
-                margin: 38px 0 0 112px;
+                margin: -10px 0 0 112px;
                 font-size: 22px;
               }
 

@@ -4,24 +4,23 @@ class_name: docs
 full_width: true
 ---
 
-We have started adding support for SalesForce.com to the Codio IDE. We make no claims about it being the best thing you can use for SalesForce.com development (yet), but the Codio IDE has a lot going for it and if the SalesForce community engages with us, we'll extend it with more and more SalesForce specific features.
+Our support for Salesforce.com focuses on speeding up the coding process, which is where a very significant amount of time is spent when developing Salesforce apps.
 
-You'll get some of these benefits
+The functioanlity is pretty new, so expect to find some issues and if you do, please report them to the forum http://forum.codio.com.
+
+
+Depending on the level of community engagement, we'll consider extending Codio with more and more SalesForce specific features over time. However, for the time being you should consider Codio as being a useful coding tool with a few interesting capabilities and advantages.
 
 - it is extremely fast
-- it is pure HTML5, so you can use any modern browser and there's nothing to install
+- it is a pure web app, so you can use any modern browser and there's nothing to install
 - you get all the productivity features Codio has for HTML5, CSS and JS development
 - Git integration
-- Real-time collaborative coding like you get in Google Docs
+- Real-time collaborative coding like you get in Google Docs, although this is still in its infancy
 - Fantastic support for HTML5 coding
 - Code from anywhere, any browser
 - No setup or installation required
 
-##Enhancements
-The following sections in this chapter explain the current functionality. What we now need is some input and feedback from the SalesForce.com community. 
-
-The way you should send in enhancement requests is to use our integrated messaging system. You can start and track a conversation with us from the Help->Support/Contact Us menu item.
-
-![Intercom](/img/docs/intercom.png)
+##Enhancements & Feedback
+If you want to suggest new features or report bugs, please go to the [Codio Forum](http://forum.codio.com.).
 
 

@@ -7,7 +7,6 @@ class_name: home home-webdesign
 
 <aside class="home">
   <ul>
-    <li><a href="#opensource">Free for Open Source</a></li>
     <li><a href="#dreamweaver">Dreamweaver Users</a></li>
     <li><a href="#panels">Panels &amp; Tabs</a></li>
     <li><a href="#deployment">Deploy Anywhere</a></li>
@@ -22,7 +21,6 @@ class_name: home home-webdesign
 
 <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
-<%= partial 'partials/home/opensource' %>
 <%= partial 'partials/home-webdesign/dreamweaver' %>
 
 <section id="testimonials">

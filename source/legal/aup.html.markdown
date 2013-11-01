@@ -86,11 +86,7 @@ In addition to (and/or as some examples of) the violations described in the Term
 
 ## <a name="Quotas"></a>Quota &amp; Limits
 
-Codio does not currently have any limits on storage, bandwidth or API usage. We reserve the right to introduce these in the future and once we have a better understanding of usage, we will introduce them. However, when we announce such limits ...
-
-- we will notify you at least 15 days before the limits are imposed
-- such limits will be imposed to catch heavy load situations or where very large amounts of content has been uploaded (videos, very large numbers of images, large binary files etc.)
-- quotas will not apply to application development but rather to deployment of applications that generate heavy load to Codio's servers
+Codio does not currently have any limits on bandwidth or API usage. We have a soft storage limit of 1GB storage per user. We reserve the right to modify these in the future. However, when we make any such modifications we will notify you at least 15 days beforehand.
 
 
 

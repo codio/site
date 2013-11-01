@@ -12,15 +12,11 @@ Here are some things to note about the Codio target
 - Great for web application front-ends
 - There is no admin or command line access to the servers
 
-The actual content actually resides on Amazon S3 servers and is therefore very scalable and redundant.
+## Codio targets and URL's
+When you create a Codio target type, the root URL of your deployed app will be
 
-##What about the back end?
-If you are building a solution that requires the back end as well, then you have plenty of options
+- `http://username.codio.io/projectname`
 
-- Use Parse.com as a great back end. You can edit all your code in Codio still and deploy it using the [Parse.com target type](/docs/deployment/type-parse/). The back end code you write is Javascript.
-- Write Javascript code in Codio and deploy to the Nodejitsu servers. We have a special Nodejitsu target type.
-- Handle your back end in any other way you like and simply use REST or other API calls to access it.
-
-**Important:** please be sure understand the importance of the Source Location (are you deploying a Project, an App or a Directory). [Read about it here](/docs/deployment/create/).
+Once you have successfully deployed, the actual URL is shown in the popup dialog that appears when you click the Deploy link in the top bar.
 
 

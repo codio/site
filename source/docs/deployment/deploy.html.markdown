@@ -4,11 +4,20 @@ class_name: docs
 full_width: true
 ---
 
-When you want to deploy, press the "Deploy" menu item in the top bar. Your deployment options will be displayed in the currently active [Panel](/docs/panels).
+There are two menu locations for deploying your projects. 
 
-You can just press the Deploy Now button or you can select another target from the dropdown list first.
+##Tools->Deployment->Deploy
+This let's you deploy to any of your deployment targets. You are shown a log if any errors occur. 
 
-![Deployment List](/img/docs/deploy-deploy.png)
+![deploy screen]()
 
-Once the deployment has been successfully executed, you will see the URL required to access the application/site. This URL is also stored and shown both here and in the main Deployment Targets screen.
+##Preview (& Deploy)
+[Described here](), this offers deployment in combination with a preview immediately afterwards, all with a single click. It is recommended to use this method most of the time as at involves less actions.
+
+![preview button]()
+
+##Base Path
+When using remote servers, you should make sure that you have [set your base path correctly](/docs/deployment/basepath) so Preview knows where to locate your files on the remotes.
+
+If you encounter any errors when using Deploy & Preview, you should try the Tools->Deployment->Deploy option as this gives you a full error log.
 

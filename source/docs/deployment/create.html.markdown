@@ -26,15 +26,3 @@ The Destination drop down specifies the type of the target you are deploying to.
 - [Nodejitsu](/docs/deployment/type-nj/)
 - [Parse.com](/docs/deployment/type-parse/)
 
-## Codio targets and URL's
-When you create a Codio target type, the URL of your deployed app will be
-
-- `http://username.cod.io/projectname`
-
-If you selected a folder as the source location, then that folder will become the root folder once deployed.
-
-
-Once you have successfully deployed, the actual URL is shown in the popup dialog that appears when you click the Deploy link in the top bar.
-
-There is also a button in the main Deployment Targets dialog that when clicked on, will launch the app at the target. This assumes that there is an index.html file present. If you have several app folders, then the URL suggested by Codio will be the first app folder and will assume the presence of an index.html. If you get a 404 error then you will need to locate the correct file yourself.
-

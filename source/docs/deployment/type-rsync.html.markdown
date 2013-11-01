@@ -10,16 +10,18 @@ You can use a password and/or a public key for authentication.
 
 ![rsync dialog](/img/docs/deploy-rsync.png)
 
+##Base Path
+We recommend you set the base path field for remote servers as [described here](/docs/deployment/basepath). This will be useful when using the [Preview](/docs/inline-preview) feature.
+
 ##Public Key Authentication
 Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/docs/settings-prefs/account-settings/public-key). You should make sure that this public key is added to your remote server.
 
 ##Protocol
 There are two options available
 
-- **SSH** : uses an SSH connection to transfer
-- **RSYNC Daemon** : this requires you to set up an rsync daemon on the remote server
+- **SSH** : (recommended) uses an SSH connection to transfer
+- **RSYNC Daemon** : this requires you to set up an rsync daemon on the remote server. This is a more complex procedure and so should generally be avoided.
 
-We recommend using the SSH default.
 
 ##Specifying a Port
 If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below

@@ -97,13 +97,15 @@ body.home-salesforce {
                 }
               }
             }
+
             // "SF LOGO"
             img {
               margin: -177px 218px 0px 10px !important;
               @include apply-to(more-than, desktop) {
                 margin: -224px 269px 0px 10px !important;
               }
-            }            
+            }
+
           }
 
 

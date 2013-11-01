@@ -77,27 +77,37 @@ body.home-php {
                 }
               }
 
-              // "Building PHP"
+              // "BUILDING PHP" 
               &:nth-child(5) {
               display: block;
-                font: 58px gotham_light  !important;
+                font: 40px gotham_light !important;
                 padding-top: 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 66px !important;
+                  font-size: 48px !important;
                 }
               }
 
               // "100% in the Cloud"
               &:nth-child(6) {
               display: block;
-                font: 40px gotham_light  !important;
-                padding-top: 10px;
+                font: 30px gotham_light !important;
+                padding-top: 5px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 40px  !important;
+                  font-size: 36px !important;
                 }
               }
-
             }
+
+            // "PHP LOGO"
+            img {
+              margin: -129px 272px 0px 10px !important;
+              height: 89px;              
+              @include apply-to(more-than, desktop) {
+                margin: -144px 327px 0px 10px !important;
+                height: 104px;       
+              }
+            }  
+
           }
 
 
@@ -110,7 +120,7 @@ body.home-php {
               margin: 40px 0 0 48px;
 
               @include apply-to(more-than, desktop) {
-                margin: 38px 0 0 112px;
+                margin: 15px 0 0 112px;
                 font-size: 22px;
               }
 

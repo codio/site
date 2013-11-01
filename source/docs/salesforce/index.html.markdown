@@ -6,7 +6,7 @@ full_width: true
 
 Our support for Salesforce.com focuses on speeding up the coding process, which is where a very significant amount of time is spent when developing Salesforce apps.
 
-The functioanlity is pretty new, so expect to find some issues and if you do, please report them to the forum http://forum.codio.com.
+The functionality is pretty new and should be considered Beta until further notice, so expect to find some issues and if you do, please report them to the forum http://forum.codio.com.
 
 
 Depending on the level of community engagement, we'll consider extending Codio with more and more SalesForce specific features over time. However, for the time being you should consider Codio as being a useful coding tool with a few interesting capabilities and advantages.

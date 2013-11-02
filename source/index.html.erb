@@ -7,13 +7,12 @@ class_name: home
 
 <aside class="home">
   <ul>
-    <li><a href="#opensource">Free for Open Source</a></li>
     <li><a href="#panels">IDE Panels &amp; Tabs</a></li>
     <li><a href="#productivity">Productivity</a></li>
-    <li><a href="#demonstrate">Demo &amp; Embed</a></li>
     <li><a href="#speed">Blazingly fast!</a></li>
     <li><a href="#speed">Ready to go - No installs</a></li>
     <li><a href="#deployment">Deploy anywhere</a></li>
+    <li><a href="#terminal">Terminal Access</a></li>    
     <li><a href="#sourcecontrol">Git Support</a></li>
     <li><a href="#compiled">CoffeeScript, SASS, etc.</a></li>
     <li><a href="#realtime">Real-time Collaboration</a></li>
@@ -24,7 +23,7 @@ class_name: home
 
 <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
-<%= partial 'partials/home/opensource' %>
+<%= partial 'partials/home/overview' %>
 <%= partial 'partials/home/panels' %>
 
 <section id="testimonials">
@@ -44,7 +43,6 @@ class_name: home
 </section>
 
 <%= partial 'partials/home/productivity' %>
-<%= partial 'partials/home/demonstrate' %>
 
 <section id="testimonials">
   <div class="container">
@@ -64,6 +62,7 @@ class_name: home
 
 <%= partial 'partials/home/speed' %>
 <%= partial 'partials/home/deployment' %>
+<%= partial 'partials/home/terminal' %>
 
 <section id="testimonials">
   <div class="container">

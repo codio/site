@@ -4,8 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Comprehensive support for PHP development will be available in Codio around the end of October 2013. 
+If you want to develop PHP 100% in the cloud, without the need to install anything at all on your local machine and you don't yet have a Cloud Server, then we recommend you head over to Digital Ocean and spin up a LAMP server. 
 
-If you are a PHP developer and wanting to be one of the first to play with our new features, let us know by tweeting [@CodioHQ](http://twitter.com/home/?status=%40CodioHQ%20I%20want%20to%20develop%20PHP%20applications%20in%20Codio.).
+You should then go to the [Quick Start](/docs/back-end/quick-start) and follow the steps described there.
 
-Follow @CodioHQ to get the announcement.

@@ -47,6 +47,62 @@ section {
     }
   }
 
+  &#overview {
+    .container > div {
+      @include clearfix;
+      padding: 130px 0 70px 0;
+
+      h2 {
+        color: #333;
+        font: 28px gotham_light;
+
+        span {
+          display: none;
+
+          @include apply-to(more-than, desktop) {
+            display: inline;
+          }
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      div {
+        float: left;
+        width: 250px;
+
+        @include apply-to(more-than, desktop) {
+          width: 335px;
+        }
+
+        &:first-child {
+          @include apply-to(more-than, desktop) {
+            margin-right: 10px;
+          }
+        }
+
+        &:nth-child(2) {
+          width: 180px;
+          text-align: center;
+          margin-top: 30px;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 0;
+          }
+        }
+
+        &:last-child {
+          text-align: right;
+
+          @include apply-to(more-than, desktop) {
+            width: 320px;
+          }
+        }
+      }
+    }
+  }
 
   &#panels {
     .container {

@@ -2,14 +2,13 @@ getting-started
 index
 bugs
 browser-support
-account-needed
 signup
 public-private
 cp-fiddle
 git-viewing
 productivity
+back-end
 ssh
-anon
 console
 settings-prefs
 ide
@@ -24,5 +23,4 @@ deployment
 annotations
 bower
 compiling
-back-end
 salesforce

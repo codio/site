@@ -6,12 +6,10 @@ full_width: true
 
 Codio offers a very comfortable way to Preview your applications. You can find the Preview in the menu bar. If you have selected the Deploy Before Preview option the button label will be Preview & Deploy.
 
-TODO 
 ![preview](/img/docs/preview-deploy.png)
 
 You can also do the same by right-clicking a file in the file tree. 
 
-TODO 
 ![preview](/img/docs/preview-deploy-right-click.png)
 
 ##What to Preview
@@ -22,7 +20,6 @@ When you press the menu bar Preview button, Codio can preview in one of two ways
 
 You can switch between Project Index and Current File by selecting the dropdown and setting the appropriate option.
 
-TODO 
 ![preview](/img/docs/preview-what.png)
 
 ##Deploy before Preview
@@ -35,11 +32,10 @@ When you select the Deploy Before Preview option, Codio needs to know which depl
 
 Deployment targets are covered in detail in the [Deployment section](/docs/deployment).
 
-TODO : show dd menu expanded
 ![preview](/img/docs/preview-default.png)
 
 ##Base Path
-If you are not previewing an html file and you have set up a deployment target for a remote server, then make sure you have specified the Base Path field in the deployment target.
+If you are not previewing an html file and you have set up a deployment target for a remote server, then make sure you have specified the [Base Path](/docs/deployment/basepath) field in the deployment target.
 
 ##Preview in a Codio tab or new browser tab
 In the Preview dropdown menu, you can select one of the following ways to preview
@@ -47,7 +43,6 @@ In the Preview dropdown menu, you can select one of the following ways to previe
 - **Inside Codio** : displays the preview in a Codio tab
 - **New browser tab** : it will open up a new browser tab or window.
 
-TODO
 ![preview](/img/docs/preview-where.png)
 
 ##Popup Blocking
@@ -56,7 +51,12 @@ With Deploy & Preview, Codio needs to invoke the Preview only after the deploy i
 ##Private Projects
 When you preview a private project, you will be prompted to enter your Codio user name and password in order to protect 3rd parties from accessing your project in preview mode. If you signed up with GitHub and did not set a password, then you can do this from the Codio->Account menu option. You can check your user name on the profile tab.
 
-##Insecure Content with In-Tab preview
+##Your back-end server does not run https
+If you want to preview your application at a remote url and that application runs under http, and not https, then your browser security will consider this as being insecure content. When previewing, Codio detects this and will automatically preview in a new browser tab in order to avoid these errors.
+
+If it is important to you to preview in a Codio tab, then you will have to install an SSL certificate on your remote server and run your application over https.
+
+##Insecure Content with In-Tab preview and front-end code
 Codio runs over https and the inline preview runs over https, too. If your code references an external resource (script, font, image etc.) such as
 
 	<script src="http://code.angularjs.org/1.1.5/angular.js">

@@ -7,19 +7,20 @@ class_name: home home-php
 
 <aside class="home">
   <ul>
-    <li><a href="#import-go">Import &amp; go</a></li>
+    <li><a href="#import-go">Import &amp; go</a></li>    
+    <li><a href="#wp-themes">Code Away</a></li>
+    <li><a href="#deployment">Deploy Anywhere</a></li>    
     <li><a href="#panels">IDE Panels &amp; Tabs</a></li>
     <li><a href="#productivity">Productivity</a></li>
-    <li><a href="#deployment">Deploy anywhere</a></li>
-    <li><a href="#terminal">SSH Terminal</a></li>    
+    <li><a href="#terminal">SSH Terminal</a></li>
     <li><a href="#sourcecontrol">Git Support</a></li>
-    <li><a href="#annotate">Annotations</a></li>
   </ul>
 </aside>
 
 <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
 <%= partial 'partials/home-php/import-go' %>
+<%= partial 'partials/home-php/all-you-need-php' %>
 
 <section id="testimonials">
   <div class="container">
@@ -39,8 +40,6 @@ class_name: home home-php
 
 <%= partial 'partials/home/panels' %>
 
-
-
 <section id="testimonials">
   <div class="container">
 
@@ -57,7 +56,8 @@ class_name: home home-php
   </div>
 </section>
 
-<%= partial 'partials/home-php/productivity' %>
+<%= partial 'partials/home-php/deployment' %>
+<%= partial 'partials/home/panels' %>
 
 
 <section id="testimonials">
@@ -76,8 +76,7 @@ class_name: home home-php
   </div>
 </section>
 
-<%= partial 'partials/home-php/deployment' %>
-<%= partial 'partials/home/terminal' %>
+<%= partial 'partials/home/productivity' %>
 
 <section id="testimonials">
   <div class="container">
@@ -95,7 +94,7 @@ class_name: home home-php
   </div>
 </section>
 
-<%= partial 'partials/home/sourcecontrol' %>
+<%= partial 'partials/home/terminal' %>
 
 
 <section id="testimonials">
@@ -114,7 +113,7 @@ class_name: home home-php
   </div>
 </section>
 
-<%= partial 'partials/home/annotations' %>
+<%= partial 'partials/home/sourcecontrol' %>
 
 <% content_for :foot do %>
   <%= javascript_include_tag 'home' %>

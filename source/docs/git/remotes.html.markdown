@@ -17,12 +17,24 @@ You should select the Import/Clone from Github option. This will then create you
 ##I do not yet have a remote repo
 If you have code within Codio and you want to configure it to synchronize with a remote repo, then you should to the following
 
-1. Create a new, empty repo on Github or other provider
-2. Within the IDE, go to Tools->Git->Remotes 
-3. Specify the URL of the Github repo you have just created in the dialog
+1. Create a new, empty repo on Github or other provider. 
+2. Copy the repo url to the clipboard. If you're using Github, then use the SSH url rather than https.
+2. Within the IDE, go to Tools->Git->Remotes
+3. Complete the dialog as shown below. It is recommended you use `origin` as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH. 
 
 ![git overview](/img/docs/git-remotes.png)
 
 If you prefer, you can use the command line interface to achieve the same thing using `git remote`. Please check the [supported commands page](/docs/git/supported) for details.
 
 Once you have set up your remotes, you can now perform sharing and updating commands (push, pull etc.) from Codio's git command line.
+
+##Simplified Git Steps
+We will not attempt any sort of tutorial here, but the following steps cover the absolute basics of Git usage with a remote. If you are new to Git, then you should refer to the [resources page](/docs/git/resources).
+
+- `git status` gives you the status of your current branch
+- `git add .` adds all files, tracked or not, to the staged files
+- `git commit -a -m` stages and commits all files to the snapshot
+- `git push origin master` pushes all committed changes of the `master` branch to the remote called`origin`
+
+
+

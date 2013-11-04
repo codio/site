@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Indie+Flower);
 
-body.home-salesforce {
+body.home-wordpress {
 
   header {
     background-color: #EAEDF2;
@@ -31,23 +31,25 @@ body.home-salesforce {
             text-align: right;
             margin: 0;
             opacity: 0;
+            @include apply-to(less-than, desktop) {
+              padding-top: 22px;
+            }
 
             span {
               // "AN"
               &:nth-child(1) {
                 font: 34px gotham_thin;
-
                 @include apply-to(more-than, desktop) {
                   font-size: 36px;
                 }
               }
 
-              // "GORGEOUS"
+              // "AMAZING"
               &:nth-child(2) {
-                font: 65px gotham_black;
+                font: 70px gotham_black;
 
                 @include apply-to(more-than, desktop) {
-                  font-size: 69px;
+                  font-size: 80px;
                 }
               }
 
@@ -58,7 +60,7 @@ body.home-salesforce {
                 line-height: 90px;
 
                 @include apply-to(more-than, desktop) {
-                  font-size: 110px;
+                  font-size: 120px;
                 }
               }
 
@@ -68,43 +70,45 @@ body.home-salesforce {
                 display: block;
                 text-align: left;
                 line-height: 14px;
-                padding-left: 33px;
-                padding-top: 18px;
+                padding-left: 20px;
+                padding-top: 12px;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 28px;
-                  padding-left: 76px;
+                  padding-left: 36px;
                 }
               }
 
-              // "SF CODING" 
+              // "WORDPRESS" 
               &:nth-child(5) {
               display: block;
-                font: 58px gotham_light !important;
+                font: 60px gotham_light !important;
                 padding-top: 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 75px !important;
+                  font-size: 69px !important;
                 }
               }
 
-              // "100% in the Cloud"
+              // "DEVELOPMENT"
               &:nth-child(6) {
               display: block;
-                font: 29px gotham_light !important;
-                padding-top: 5px;
+                font: 40px gotham_light !important;
+                padding-top: 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 35px !important;
+                  font-size: 56px !important;
                 }
               }
             }
 
-            // "SF LOGO"
+            // "WORDPRESS LOGO"
             img {
-              margin: -177px 218px 0px 10px !important;
+              margin: -149px 339px 0px 10px !important;
+              height: 110px;              
               @include apply-to(more-than, desktop) {
-                margin: -200px 269px 0px 10px !important;
+                margin: -183px 383px 0px 10px !important;
+                height: 140px;       
               }
-            }
+            }  
 
           }
 
@@ -115,10 +119,10 @@ body.home-salesforce {
             p {
               font: 20px 'Indie Flower';
               @include rotate(-4deg);
-              margin: 0px 0 0 48px;
+              margin: -7px 0 0 48px;
 
               @include apply-to(more-than, desktop) {
-                margin: -10px 0 0 112px;
+                margin: -14px 0 0 112px;
                 font-size: 22px;
               }
 
@@ -191,6 +195,6 @@ body.home-salesforce {
   }
 
 
-  @import '../partials/home-salesforce/sections';
+  @import '../partials/home-php/sections';
 
 }

@@ -26,7 +26,104 @@ body.pricing {
     padding-bottom: 180px;
 
     > section {
-      &:first-child {
+      &#matrix {
+        background: #fff image-url('pricing/matrix.png') no-repeat center;
+        height: 309px;
+        margin: 70px 0;
+
+        > div {
+          float: left;
+
+          // FREE plan
+          &:first-child {
+            width: 358px;
+            text-align: center;
+            margin-left: 40px;
+
+            h3 {
+              margin: 70px 0 0;
+              font: 70px gotham_thin;
+              color: $red;
+            }
+
+            h4 {
+              font: 16px gotham_light;
+              margin: 11px 50px;
+              line-height: 1.6em;
+
+              strong {
+                font: 20px gotham_medium;
+                color: #000;
+              }
+            }
+
+            > p a {
+              background-color: #f36050;
+              font: 16px gotham_light;
+              color: #fff;
+              padding: 6px 14px;
+              border-radius: 2px;
+              display: inline-block;
+              text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+
+              &:hover {
+                background-color: darken(#f36050, 4%);
+                text-decoration: none;
+              }
+            }
+          }
+
+          // PAID plan
+          &:last-child {
+            width: 528px;
+            margin-right: 54px;
+
+            h3 {
+              font: 36px gotham_thin;
+              margin: 50px 0 40px 56px;
+              width: 270px;
+              text-align: right;
+
+              strong {
+                font: 58px gotham_medium;
+                color: #000;
+              }
+            }
+
+            ul {
+              margin: 0 40px;
+              font: 16px gotham_light;
+              line-height: 1.6em;
+
+              strong {
+                font-family: gotham_medium;
+                color: #000;
+              }
+            }
+
+            p {
+              text-align: center;
+              margin: 48px auto 0;
+
+              a {
+                display: block;
+                color: #fff;
+                font: 24px gotham_light;
+                padding: 6px 0;
+                text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+                background-color: #f36050;
+
+                &:hover {
+                  background-color: darken(#f36050, 4%);
+                  text-decoration: none;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &#faqs {
         @include clearfix;
         margin-top: 50px;
 
@@ -35,28 +132,36 @@ body.pricing {
           font: 34px gotham_bold;
           margin: 16px 0 0 0;
           color: #666;
-          width: 280px;
+          width: 330px;
+          text-align: center;
 
           small {
             display: block;
-            font-size: 16px;
-            padding-top: 5px;
+            margin: 30px 110px 0 0;
+            font: 14px gotham_light;
+            text-transform: initial;
+            text-align: right;
+            line-height: 1.6em;
           }
         }
 
-        .coming-soon {
-          font: 14px gotham_light;
-          font-style: italic;
-          text-transform: uppercase;
-          color: #BEA3A1;
-        }
-
-        p {
+        ul {
           float: left;
-          width: 700px;
-          font: 18px gotham_light;
-          line-height: 1.8em;
-          color: #000;
+          width: 550px;
+          margin: 0 100px 0 0;
+          padding: 0;
+          list-style: none;
+
+          li {
+            h4 {
+              font: 18px gotham_light;
+              margin-bottom: 10px;
+            }
+
+            p {
+              margin-bottom: 40px;
+            }
+          }
         }
       }
 

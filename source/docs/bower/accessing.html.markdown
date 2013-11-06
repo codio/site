@@ -11,7 +11,7 @@ Accessed from the Tools->Bower->Show Installable menu item, this allows you to s
 
 - the Name field is clickable and will take you directly to the Git endpoint for that component, where you can read full details about the component.
 - Description is used when searching
-- Created, Updated, Forked and Stars are all taken from Github
+- Created, Updated, Forked and Stars are all taken from GitHub
 - Install button can be clicked on to install to your project, whereupon it will change
 
 ![Bower Installable](/img/docs/bower-installable.png)

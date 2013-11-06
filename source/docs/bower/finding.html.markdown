@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-One of the difficulties you may have is finding the Bower component you are looking for. Bower itself relies upon component developers to implement a `bower.json` file correctly. If they don't, then all Bower can do is pull in the entire repository including source code, tests etc. This is a sign that Bower is not really supported and if you think it should be then raise an issue on Github with that project.
+One of the difficulties you may have is finding the Bower component you are looking for. Bower itself relies upon component developers to implement a `bower.json` file correctly. If they don't, then all Bower can do is pull in the entire repository including source code, tests etc. This is a sign that Bower is not really supported and if you think it should be then raise an issue on GitHub with that project.
 
 ##Using the Codio component browser
 You can browse Codio components easily enough using the main component browser built right into Codio. Sometimes it is not easy to find the exact component you are looking for. If you look for 'handlebars' for example, you get a lot of matches. 
@@ -40,7 +40,7 @@ They are maintained by [https://github.com/components/components](https://github
 At the bottom of the readme, you can see that they are inviting issues to get raised or pull requests.
 
 ###Full list of Shims
-The Github repo is located at [https://github.com/components](https://github.com/components). This is not Bower specific but seems to be used by Bower for this purpose. Other package managers also go here for components, which is why you will see files like `component.json`.
+The GitHub repo is located at [https://github.com/components](https://github.com/components). This is not Bower specific but seems to be used by Bower for this purpose. Other package managers also go here for components, which is why you will see files like `component.json`.
 
 ###Bower.json
 The bower.json file is the file that Bower expects to find.

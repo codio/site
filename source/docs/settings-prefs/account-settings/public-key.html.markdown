@@ -23,8 +23,8 @@ If you want to get your Codio public key onto a remote server, just press the Up
 
 ![SSH Upload](/img/docs/prefs-account-ssh-dialog.png)
 
-##Adding your public key to Github
-If you are working with Github, then you need to install the public key. Firstly, locate your settings by pressing the 'Edit your profile' button.
+##Adding your public key to GitHub
+If you are working with GitHub, then you need to install the public key. Firstly, locate your settings by pressing the 'Edit your profile' button.
 
 ![github setting](/img/docs/git-edit-profile.png)
 

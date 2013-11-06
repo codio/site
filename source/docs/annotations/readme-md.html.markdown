@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Codio offers a standard way of [summarizing a project](/docs/ide/ide-general/readme-md) using a README.md file in the same way that Github does.
+Codio offers a standard way of [summarizing a project](/docs/ide/ide-general/readme-md) using a README.md file in the same way that GitHub does.
 
 There are 2 ways to view the rendered output
 

@@ -97,20 +97,21 @@ body.docs {
       margin: 0 0 18px;
       border-bottom: 1px solid #ccc;
       padding-bottom: 8px;
-      text-transform: none;
+      text-transform: uppercase;
     }
 
     h2 {
-      font: 1.3em gotham_light;
+      font: 22px gotham_book;
       text-transform: none;
-      margin: 2.0em 0 0.3em;
+      margin: 32px 0 20px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 8px;
     }
 
     h3 {
-      font: 1.2em gotham_book;
-      margin: 3em 0 1.4em;
+      font: 18px gotham_book;
+      margin: 20px 0 10px;
+      text-transform: none;      
     }
 
     img:not(.fancybox-image) {

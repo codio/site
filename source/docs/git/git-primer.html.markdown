@@ -8,6 +8,14 @@ This is not supposed to be a proper Git tutorial in any sense. Its purpose is to
 
 For a proper, in-depth overview of Git, refer to the [resources](/docs/git/resources) page.
 
+Please make sure you read this excellent overview if you are new to Git : [http://git-scm.com/book/en/Getting-Started-Git-Basics](http://git-scm.com/book/en/Getting-Started-Git-Basics)
+
+##Limitations of Codio's Git implementation
+For various reason, Codio does not implement a full, unrestricted version of Git. As of November 2013, it let's you do all the basics but there are plenty of commands and command flags not available just yet. We are working on expanding the Git command support.
+
+##GitHub Keys
+If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/docs/settings-prefs/account-settings/public-key).
+
 ##Your project's starting point
 
 ###You created a project by importing from a Git repo
@@ -15,19 +23,16 @@ If you have code that already exists in a remote repo, say GitHub, then you shou
 
 Create Project is [fully described here](/docs/console/creating/).
 
-If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/docs/settings-prefs/account-settings/public-key).
-
 ###I do not yet have a remote repo
-If you have code within Codio and you want to create a brand new Github (or other remote) repo, then follow these steps.
+If you have code within Codio and you want to create a brand new GitHub (or other remote) repo, then follow these steps.
 
 1. Create a new project in Codio or open up an existing one.
-1. Create a new, empty repo on Github or other provider. 
-1. Copy the repo url to the clipboard. If you're using Github, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/docs/settings-prefs/account-settings/public-key)
-TODO GitHub images for SSH copy
+1. Create a new, empty repo on GitHub or other provider. 
+1. Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/docs/settings-prefs/account-settings/public-key)
+![github repo](/img/docs/github-new-repo.png)
 1. Within the IDE, go to Tools->Git->Remotes
 1. It is recommended you use `origin` as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH. 
 1. Paste the remote url into the URL field.
-
 ![git overview](/img/docs/git-remotes.png)
 
 ##Check the status with 'git status'
@@ -62,7 +67,7 @@ Tracking means that Git knows about them. If you add a new file, Git will not kn
 
 This shows you the modified and the new (untracked) files.
 
-To tell Github to track the file, you can do one of the following
+To tell GitHub to track the file, you can do one of the following
 
 - `git add .` which tells Git to track all files in the project that are not yet tracked. This is the quickest and simplest way to track any new files.
 - `git add FILENAME` explicitly tracks a single file
@@ -89,7 +94,12 @@ and if I run a `git status` afterwards, I will see that everything is clean and 
 	# On branch master nothing to commit, working directory clean
 
 
-TODO reverting back
+##Reverting Back to an earlier commit
+You can revert back to an earlier commit with `git revert`. First of all, find the commit that you want to revert to using `git log`. Here you can see the value of using proper commit messages.
+
+Copy and paste the long ID and then use the command `git revert d3e6bb138309f5f81017a4c11b67445e51c109a9'.
+
+You should be aware that any untracked files will be lost.
 
 ##Pushing to a remote repository
 If you want to send your committed changes to a remote repository, you will use the `git push` command. First, however, you need to make sure that you have a `remote` set up.
@@ -104,8 +114,54 @@ So all you need to do is enter `git push origin master'. Let's dissect this comm
 - `master` is the name of the branch. When you create a new Codio project, a `master` branch is automatically created and appears in brackets at the top of the file tree next to the project name. Branches are beyond the scope of this topic but they are definitely worth investigating as they are a very powerful feature of Git.
 
 
+If you now go to GitHub and look at the repository, you will see that your changes are pushed. You can also see the commits you made.
 
+##Pulling from a remote repository
+Now let's say that someone else is working remotely on the same code (let's assume they are not using Codio). They will push their code to the GitHub repo, too.
 
+By running `git pull origin master`, we pull in changes from the remote repo and Git will automatically merge them. 
 
+##Resolving Conflicts
+When you pull in from the remote, you may get a conflict warning. This will happen if someone else has modified code in a way that Git cannot automatically resolve, usually because you have been editing the same bit of code. 
+
+When this happens, you will need to resolve the conflict. If you open up the file, you will see something like this
+
+	<<<<<<< HEAD:index.html
+	<div id="footer">contact : email.support@github.com</div>
+	=======
+	<div id="footer">
+	  please contact us at support@github.com
+	</div>
+	>>>>>>> iss53:index.html
+
+You simply need to remove the code block that you want to dispose of. The top block is your code and the bottom comes from the code being merged. If you want to keep your code, you will want to end up with 
+
+	<div id="footer">contact : email.support@github.com</div>
+
+if you want the merged code to remain, it will be
+
+	<div id="footer">
+	  please contact us at support@github.com
+	</div>
+
+To minimize conflicts, you should 1. Commit little and often and 2. Pull from the remote master often.
+
+##Branches
+Branches are important and worth mastering at an early stage. When you create a branch, you are creating a new area to code within. You then `merge` another branch, usually the `master` branch, into your new branch. From this point on, you can do whatever you want (add, commit, push etc) without impacting on the `master` branch on any other branch for that matter.
+
+For a full overview on branching, please [read this](http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is)
+
+The commands you will need to master are
+
+- `git branch` - creates a new branch
+- `git checkout` - switches to that branch (be careful about doing this without committing the branch you are leaving as any unstaged files will be lost)
+- `git merge from-branch` - merges code from `from-branch` into your current branch
+
+Good practice is to switch over to your master branch and pull in changes from the remote (if you're using one). Then switch back to your working branch and merge in changes. Doing this ensures that conflicts are kept to a minimum.
+
+##Apologies
+A few small apologies are due at this point. Firstly, we are aware that our Git implementation is not complete and we are going to improve this situation. Secondly, the tutorial we have provided here is very basic but we hope it is enough to get you going if you have never used Git before.
+
+If there are Git commands you really want to see added urgently, please [add them to the forum](http://forum.codio.com).
 
 

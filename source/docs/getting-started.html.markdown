@@ -11,9 +11,9 @@ Signing up is effortless and gives you access to the complete set of features. A
 
 Signup from the signup link at the top of the page at [Codio.com](http://codio.com) or by going to [http://codio.com/p/signup](http://codio.com/p/signup).
 
-You can sign in with Codio or GitHub. If you signin with Github, your account will be associated with GitHub from that point on. 
+You can sign in with Codio or GitHub. If you signin with GitHub, your account will be associated with GitHub from that point on. 
 
-You can also associate your account with a Github account from the Codio->Account menu item.
+You can also associate your account with a GitHub account from the Codio->Account menu item.
 
 
 ##2. Create a Project
@@ -29,7 +29,7 @@ The most important thing is for you to be aware of the features that are availab
 - [Preferences & Settings](/docs/settings-prefs) : customize actions, settings and keyboard shortcuts
 - [Productivity Features](/docs/emmet) : keyboard shortcuts, snippets, TernJS, autocomplete, code beautification and more
 - [Panel Management](/docs/panels) : create panels in any configuration you want
-- [Git](/docs/git) : access your Github and other repos from a Codio Panel with great Git support
+- [Git](/docs/git) : access your GitHub and other repos from a Codio Panel with great Git support
 - [Deployment](/docs/deployment) : create and manage any number of deployment targets per project
 - [Bower](/docs/bower) : we have baked Bower directly into Codio
 - [CoffeeScript, Sass, SCSS and Less](/docs/compiling) : edit and preview without any special compilation required

@@ -1,5 +1,5 @@
 ---
-title: Github
+title: GitHub
 class_name: docs
 full_width: true
 ---

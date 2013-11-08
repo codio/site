@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../../css/boilerplate-033b3896.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../../css/boilerplate-39bd02c0.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -41,7 +41,7 @@
   <div class="container">
 
     <nav class="clearfix">
-      <a data-no-turbolink="true" href="/"><img width="150" src="../../../../img/logo-beta-111c10af.png" /></a>
+      <a data-no-turbolink="true" href="/"><img width="150" src="../../../../img/logo-beta-a3a0a36b.png" /></a>
 
       <ul id="site-nav">
         <li><a data-no-turbolink="true" href="/s/docs">Docs</a></li>
@@ -149,7 +149,7 @@
 
 <p>I opened up the dev tools and started profiling.</p>
 
-<p><img src="/s/img/blog/flames-javascript-cpu-profile-running-e0c5401e.png" /></p>
+<p><img src="/s/img/blog/flames-javascript-cpu-profile-running-912fa5f1.png" /></p>
 
 <p>And when I looked at the time it took for switching tabs, I saw that it took a total time of about two seconds to simply switch between two tabs.</p>
 
@@ -165,7 +165,7 @@
 
 <p>With my new knowledge I went into the code tracing the stack calls and then eliminating two of the three calls to <code>CodeMirror.refresh</code> when switching from one tab to another. My work did not go unrewarded, I ended up with this new graph resulting in an overall switch time of about 450ms...</p>
 
-<p><img src="/s/img/blog/flames-graph-middle-8374019e.png" /></p>
+<p><img src="/s/img/blog/flames-graph-middle-d618837a.png" /></p>
 
 <h2 id="toc_4">Optimizations: 2nd Round</h2>
 
@@ -173,7 +173,7 @@
 
 <p>To understand what was happening, I need to explain what happens when you switch a tab. For performance reasons we only keep one CodeMirror instance around and if you switch from one tab to another we call <code>swapDoc</code> to change the document that is being displayed. To accommodate for size changes and highlighting changes, we call <code>refresh</code> at the end of the switching process. But with my knowledge that <code>swapDoc</code> already does everything we need to do, I just moved <code>swapDoc</code> to the end of the process, (of course there were some other problems that this entailed but it was not too bad) and voila, only one repaint of CodeMirror when switching tabs. Which now gave a switch time of just 167ms.</p>
 
-<p><img src="/s/img/blog/flames-graph-after-085d5d4c.png" /></p>
+<p><img src="/s/img/blog/flames-graph-after-d6ff0fab.png" /></p>
 
 <h2 id="toc_5">Roundup</h2>
 

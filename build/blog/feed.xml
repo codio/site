@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Codio Blog</title>
+  <id>https://codio.com/s/blog</id>
+  <link href="https://codio.com/s/blog"/>
+  <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
+  <updated>2013-11-08T00:00:00Z</updated>
+  <author>
+    <name>Codio</name>
+  </author>
+  <entry>
+    <title>Codio Pricing</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/pricing/"/>
+    <id>https://codio.com/s/blog/2013/11/pricing/</id>
+    <published>2013-11-08T00:00:00Z</published>
+    <updated>2013-11-08T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;We've finally made up our mind about Codio pricing. We've tried to make it as simple and as affordable as we can.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Public projects are free&lt;/h2&gt;
+
+&lt;p&gt;This was and will always remain the case. It's great for open source projects, education or simply playing...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;ve finally made up our mind about Codio pricing. We&amp;#39;ve tried to make it as simple and as affordable as we can.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Public projects are free&lt;/h2&gt;
+
+&lt;p&gt;This was and will always remain the case. It&amp;#39;s great for open source projects, education or simply playing around with Codio. Sign up for free and there is no limit to the number of public projects that you can create.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Private Projects - $8 per user per month&lt;/h2&gt;
+
+&lt;p&gt;This is a straightforward, affordable price. Each user can have an unlimited number of projects for a single low monthly fee of $8. There will be an acceptable usage policy but there will not be anything unreasonable in it.&lt;/p&gt;
+
+&lt;p&gt;We expect to flick the billing switch and let you purchase a private account later this month. Until then, you can continue to create public and private projects at no cost.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Organization Accounts&lt;/h2&gt;
+
+&lt;p&gt;If you want to include multiple users within an organization for billing and administration purposes, then you can create an organization account. You can then assign users, who will have access to all public and private projects assigned to that organization. You can also assign various administrative permissions to specific users within your organization.&lt;/p&gt;
+
+&lt;p&gt;Organization accounts will be available towards the end of 2013 and will be charged for at the organization level. Pricing will be announced as it becomes available.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Educational Organizations : price to be announced&lt;/h2&gt;
+
+&lt;p&gt;Codio is a great product for teaching coding. An Educational Organization allows centralized billing, but it also allows classes and groups to be set up and students can then be assigned to them.&lt;/p&gt;
+
+&lt;p&gt;It allows teachers to organize their students and take a look at the code their students are writing. There will also be additional functions such as the ability to spin up cloud servers that are ready to run for students, without the need for them to set up the server stack.&lt;/p&gt;
+
+&lt;p&gt;It will be available early 2013.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>SSH Terminal</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/ssh/"/>
+    <id>https://codio.com/s/blog/2013/11/ssh/</id>
+    <published>2013-11-07T00:00:00Z</published>
+    <updated>2013-11-07T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;Codio has been focusing on building front-end applications. However, we've been busy adding lots of awesome features to make Codio a great environment for Node, PHP, Ruby and Python developers. One of the important new features is the ability to SSH...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Codio has been focusing on building front-end applications. However, we&amp;#39;ve been busy adding lots of awesome features to make Codio a great environment for Node, PHP, Ruby and Python developers. One of the important new features is the ability to SSH into a remote server without ever leaving Codio.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="ssh" src="../img/docs/ssh-tab-c736a835.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can do pretty much anything that you can do from any terminal client including running applications like Nano, Emacs and Vim.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Connection Management&lt;/h2&gt;
+
+&lt;p&gt;We&amp;#39;ve also added in a Connection Manager so you can name and save your connections for quick and easy recall. You can even upload the Codio public key with a button click to save you the time and effort of manually adding keys.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="ssh" src="../img/docs/ssh-connection-list-d9140bee.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Multiple SSH Connection Tabs&lt;/h2&gt;
+
+&lt;p&gt;And because Codio has great panel management, you can have any number of connections open at the same time and arrange them in any way you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="ssh" src="/s/img/blog/ssh-multitabs-678f00e6.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;You can read about our &lt;a href="/s/docs/ssh"&gt;SSH Terminal in the documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Thanks&lt;/h2&gt;
+
+&lt;p&gt;Thanks to Christopher Jeffrey for his &lt;a href="https://github.com/chjj/tty.js"&gt;tty.js&lt;/a&gt; library. We&amp;#39;ve just donated through &lt;a href="http://www.iloveopensource.io"&gt;ILoveOpenSource.io&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>More Project Creation Options</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/10/more-creation-options/"/>
+    <id>https://codio.com/s/blog/2013/10/more-creation-options/</id>
+    <published>2013-10-30T00:00:00Z</published>
+    <updated>2013-10-30T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;a href="/s/blog/2013/10/automatic-upload-ssh-key/"&gt;Yesterday&lt;/a&gt; we added automatic upload of your Codio public key to any server of your choosing, and today we've added even more options to the project creation process. We want to make it faster and easier for you to get your code into Codio and begin...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;a href="/s/blog/2013/10/automatic-upload-ssh-key/"&gt;Yesterday&lt;/a&gt; we added automatic upload of your Codio public key to any server of your choosing, and today we&amp;#39;ve added even more options to the project creation process. We want to make it faster and easier for you to get your code into Codio and begin coding as fast as possible.&lt;/p&gt;
+
+&lt;p&gt;So we now have six different ways to create a project in Codio:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Template&lt;/strong&gt; - Create a project based on a selection of templates, which include HTML5 Boilerplate and a simple empty skeleton. We also have a special &lt;a href="https://codio.com/codio-templates"&gt;Template account&lt;/a&gt;, which include boilerplate code for some of the most popular open source frameworks, including EmberJS, FirefoxOS and Backbone. To use any of these, simply open the project and fork it via the &lt;code&gt;Project &amp;gt; Fork...&lt;/code&gt; menu item.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; - You can create a new project by cloning any Git repository - public or private. We support cloning over SSH and HTTP(S). This will also setup an &lt;code&gt;origin&lt;/code&gt; Git remote so you can continue to push and pull between your new Codio project and it&amp;#39;s Git repository.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Mercurial&lt;/strong&gt; - Import code from any Mercurial repository.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Zip&lt;/strong&gt; - Upload any zip file and we&amp;#39;ll unzip it and create a new project with its contents.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;FTP and SFTP&lt;/strong&gt; - The newest option is to import from any FTP server. Just specify the server you wish to import from, and we&amp;#39;ll do the rest. We even support SFTP, which means that you can connect securely using your Codio SSH public key.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Salesforce&lt;/strong&gt; - If you work with Salesforce, we&amp;#39;ve integrated its Tooling API to allow you to work with your Salesforce classes and triggers. Just enter your credentials and we&amp;#39;ll pull in your code with into Codio. You can then continue to pull and push your code to Salesforce.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Automatically Upload your Codio Public SSH Key</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/10/automatic-upload-ssh-key/"/>
+    <id>https://codio.com/s/blog/2013/10/automatic-upload-ssh-key/</id>
+    <published>2013-10-29T00:00:00Z</published>
+    <updated>2013-10-29T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Today we're making it even easier to work with server-side code and your development environments. We're about to ship several new features and improvements; the first of which is the ability to automatically upload your Codio SSH Public key to your...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Today we&amp;#39;re making it even easier to work with server-side code and your development environments. We&amp;#39;re about to ship several new features and improvements; the first of which is the ability to automatically upload your Codio SSH Public key to your server.&lt;/p&gt;
+
+&lt;p&gt;Codio creates a public key pair for you, which you can then use to make secure connections over SSH and SFTP. Up until now, you had to copy and paste this public key manually, and upload to your server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Not any more you don&amp;#39;t!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just go to the &lt;code&gt;Codio &amp;gt; Account...&lt;/code&gt; menu item and click the &lt;code&gt;SSH Key&lt;/code&gt; tab. You will see your public key. You will also see a button &lt;code&gt;Upload Public Key&lt;/code&gt;, which when clicked will prompt you to enter the credentials of the server where you wish to upload your key. Once complete, your key will be uploaded within seconds.&lt;/p&gt;
+
+&lt;p&gt;You can now deploy over SFTP or Rsync safely and securely, as they will use your Codio key-pair wherever possible.&lt;/p&gt;
+
+&lt;p&gt;Quick, easy, painless!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Sign Up via Github</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/10/sign-in-up-via-github/"/>
+    <id>https://codio.com/s/blog/2013/10/sign-in-up-via-github/</id>
+    <published>2013-10-14T00:00:00Z</published>
+    <updated>2013-10-14T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Today we are making it even easier for you to sign up to Codio. If you have a &lt;strong&gt;Github&lt;/strong&gt; account, and haven't yet signed up for Codio, just click the &lt;a href="/s/p/signup"&gt;Sign Up&lt;/a&gt; link and you'll see a &lt;strong&gt;&lt;code&gt;Sign up via Github&lt;/code&gt;&lt;/strong&gt; button. Click that and you'll be taken through Github...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Today we are making it even easier for you to sign up to Codio. If you have a &lt;strong&gt;Github&lt;/strong&gt; account, and haven&amp;#39;t yet signed up for Codio, just click the &lt;a href="/s/p/signup"&gt;Sign Up&lt;/a&gt; link and you&amp;#39;ll see a &lt;strong&gt;&lt;code&gt;Sign up via Github&lt;/code&gt;&lt;/strong&gt; button. Click that and you&amp;#39;ll be taken through Github&amp;#39;s OAuth process and then brough back to Codio to complete the sign up.&lt;/p&gt;
+
+&lt;p&gt;Then when you come back to Codio, just sign in as normal, either via our own Codio authentication or via Github.&lt;/p&gt;
+
+&lt;p&gt;Fast, painless and easy! &lt;a href="/s/p/signup"&gt;Create your account...&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have plans to integrate further with Github and to make it even easier for you to access your Github code, so watch this space.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>I Love Open Source</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/10/ilos/"/>
+    <id>https://codio.com/s/blog/2013/10/ilos/</id>
+    <published>2013-10-11T00:00:00Z</published>
+    <updated>2013-10-11T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;I want to briefly talk about an interesting metamorphosis - otherwise known as gross scope creep.&lt;/p&gt;
+
+&lt;p&gt;We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I want to briefly talk about an interesting metamorphosis - otherwise known as gross scope creep.&lt;/p&gt;
+
+&lt;p&gt;We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio site turned into a few weeks of full-on application development.&lt;/p&gt;
+
+&lt;p&gt;The result is &amp;quot;I Love Open Source&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://iloveopensource.io"&gt;&lt;img alt="header" src="/s/img/blog/ilos-blog-hdr-69201222.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Video&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="https://player.vimeo.com/video/75609049?autoplay=1&amp;hd=1" target="_blank"&gt;Click here&lt;/a&gt; for a really quick overview of I Love Open Source.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;What is &amp;quot;I Love Open Source&amp;quot;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://iloveopensource.io"&gt;http://iloveopensource.io&lt;/a&gt; is a full fledged application (it is itself Open Source and forkable on GitHub) that encourages any GitHub user or organization to publicly state which Open Source projects they use. And in the process of doing so, they have the opportunity to donate something, if they wish, to any of those projects.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;Codio Loves Open Source&lt;/h2&gt;
+
+&lt;p&gt;If you click the logo below, you&amp;#39;ll see our support page and which repos we use.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.iloveopensource.io/orgs/523c6c7f861be70200000007"&gt;&lt;img alt="ilos" src="/s/img/blog/ilos-logo-lightbg-78b1be7c.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Supporters&lt;/h2&gt;
+
+&lt;p&gt;Here&amp;#39;s an example Supporter page with 3 OS projects it&amp;#39;s acknowledging. You can see the person contributes code and cash to the jquery project. You can also see the donate options beneath the GitHub Octocat logo.&lt;/p&gt;
+
+&lt;p&gt;You are encouraged to link to your supporter page from your website or README.md file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="ilos" src="/s/img/blog/ilos-sup-page-0af95014.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_4"&gt;Maintainers&lt;/h2&gt;
+
+&lt;p&gt;Anyone owning a repo that wants support, whether simple acknowledgments or cash, heads over to the Maintainers section and sets up their donation preferences (Gittip, Flattr, Paypal, Wire etc.).&lt;/p&gt;
+
+&lt;p&gt;Now, when people are setting up their support or when anyone sees a support page, they are always gently given the opportunity to donate there and then. See the above image.&lt;/p&gt;
+
+&lt;h2 id="toc_5"&gt;What about Gittip, Flattr &amp;amp; Paypal etc?&lt;/h2&gt;
+
+&lt;p&gt;I Love Open Source does not handle any payments at all. We allow the developer to use their own existing Gittip, Flattr and Paypal buttons. For the record, we do not take any commissions or have any commercial involvement with any of them.&lt;/p&gt;
+
+&lt;p&gt;The fact that I Love Open Source is itself Open Source and does not handle any cash transactions means that it can concentrate on acknowledgment in general and providing an easy way to support and donate.&lt;/p&gt;
+
+&lt;h2 id="toc_6"&gt;Code and Idea Contributions&lt;/h2&gt;
+
+&lt;p&gt;I Love Open Source can be &lt;a href="https://github.com/codio/iloveopensource"&gt;forked on GitHub&lt;/a&gt; so feel free to fix code or add features and issue a pull request. Before you embark on huge endeavours, it may make sense to &lt;a href="https://github.com/codio/iloveopensource/issues?state=open"&gt;raise an Issue&lt;/a&gt; first here.&lt;/p&gt;
+
+&lt;p&gt;Any great ideas you want to discuss or bugs you want to report should be done &lt;a href="https://github.com/codio/iloveopensource/issues?state=open"&gt;here in GitHub Issues&lt;/a&gt; also.&lt;/p&gt;
+
+&lt;h2 id="toc_7"&gt;Many thanks to DigitalOcean&lt;/h2&gt;
+
+&lt;p&gt;A short but important word of thanks goes to &lt;a href="http://www.digitalocean.com"&gt;DigitalOcean&lt;/a&gt;. They have been very generous in providing I Love Open Source with their lovely servers at no cost.&lt;/p&gt;
+
+&lt;h2 id="toc_8"&gt;Please Support Us&lt;/h2&gt;
+
+&lt;p&gt;The only support we ask for is that you Tweet about this project so the word spreads fast. We&amp;#39;re @iloshq on Twitter.&lt;/p&gt;
+
+&lt;p&gt;Even better, &lt;a href="http://iloveopensource.io"&gt;create your own I Love Open Source Supporter page right now&lt;/a&gt; and link to it from your web site or README.md file.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

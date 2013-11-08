@@ -1,11 +1,10 @@
 ---
 title: Codio Pricing
 author: Freddy May
-date: 2013-11-11
+date: 2013-11-08
 tags: Watercooler
 class_name: blog
 full_width: true
-published: false
 ---
 
 We've finally made up our mind about Codio pricing. We've tried to make it as simple and as affordable as we can.

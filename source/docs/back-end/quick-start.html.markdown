@@ -36,7 +36,7 @@ You can create any number of deployment targets for development, production and 
 
 ![ssh](/img/docs/deploy-details.png)
 
-If your server supports it (and most, including Digital Ocean do), then we recommend choosing the [RSYNC deployment type](/docs/deployment/type-rsync). This ensures that only modified files get deployed, so it is very fast indeed and comes close to the experience you have working on a local machine.
+**IMPORTANT** : If your server supports it (and most, including Digital Ocean do), then we very strongly recommend choosing the [RSYNC deployment type](/docs/deployment/type-rsync). This ensures that only modified files get deployed, so it is very fast indeed and comes close to the experience you have working on a local machine.
 
 ##Previewing your application
 You will want preview your application as you code. The [Preview & Deploy](/docs/inline-preview) capability lets you make a code change and then press a single button to deploy your changes - again, RSYNC will only deploy changed files - and automatically preview them.

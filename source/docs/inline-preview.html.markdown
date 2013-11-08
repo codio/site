@@ -23,6 +23,8 @@ You can switch between Project Index and Current File by selecting the dropdown 
 ![preview](/img/docs/preview-what.png)
 
 ##Deploy before Preview
+**VERY IMPORTANT** : if you are going to use this option, you should make sure that you are using an RSYNC deployment target type. If you don't, then each time you execute a deploy and preview, your entire project will get deployed rather than just modified files.
+
 If you are working on a file that requires deployment to a remote server (a PHP, Ruby or Node file for example), then you will probably want to select the Deploy Before Preview option from the Preview dropdown menu. This will ensure that the file is properly deployed to the remote server before the preview.
 
 When you check the Deploy Before Preview option in the dropdown, you will see that the button label changes from Preview to Deploy & Preview.
@@ -30,7 +32,7 @@ When you check the Deploy Before Preview option in the dropdown, you will see th
 ##Default Deployment Target
 When you select the Deploy Before Preview option, Codio needs to know which deployment target to use. You can set the default target from the Preview dropdown menu or from Tools->Deployment->Manage Targets.
 
-Deployment targets are covered in detail in the [Deployment section](/docs/deployment).
+Deployment targets are covered in detail in the [Deployment section](/docs/deployment). Again, use the RSYNC target type whenever possible. 
 
 ![preview](/img/docs/preview-default.png)
 

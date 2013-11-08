@@ -1,5 +1,5 @@
 ---
-title: Creating a Cloud Server
+title: Start to Finish Tutorial
 class_name: docs
 full_width: true
 ---
@@ -11,6 +11,8 @@ One of the best available is DigitalOcean, who offer excellent servers for devel
 We'll run through the steps of setting up a Digital Ocean server ready for PHP or Wordpress development.
 
 ##Create a Digital Ocean Account
+If you already have a remote server created and set up, then you can skip to 'Import a PHP project'.
+
 You create your account DigitalOcean account at http://www.digitalocean.com.
 
 ##Create a Droplet (Server)
@@ -51,7 +53,7 @@ You don't have to do this but for those who want to control their server via a t
 1. We'll now copy the Codio public key to the remote server. All you do is press the Key button to the right of your server name. You will be asked to enter the server details again along with the server password. Your Codio user's public key will be automatically transferred and installed on the remote server. This means no more passwords are required when authenticating.
 1. Back on the SSH Connections listing, press the Connect button (leftmost) and a new Codio tab will open up and you can now control your server.
 
-##Modify the Deployment Target
+##IMPORTANT - Modify the Deployment Target
 Having imported from SFTP, Codio automatically takes the credentials you entered at the import and creates an SFTP Deployment Target for you. This is fine, but RSYNC is a way better deployment type because it only deploys changed files and not the entire project.
 
 1. Select then Tools->Deployment->Manage Targets menu item.

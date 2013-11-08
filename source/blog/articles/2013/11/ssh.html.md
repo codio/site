@@ -1,7 +1,7 @@
 ---
 title: SSH Terminal
 author: Freddy May
-date: 2013-11-04
+date: 2013-11-08
 tags: Changelog
 class_name: blog
 full_width: true

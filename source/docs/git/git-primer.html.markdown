@@ -16,6 +16,11 @@ For various reason, Codio does not implement a full, unrestricted version of Git
 ##GitHub Keys
 If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/docs/settings-prefs/account-settings/public-key).
 
+##Experimentation
+The best way to learn Git is to create a really simple project with a few text files in it and the experiment like crazy. You can play around with all the Git commands and sync with GitHub repos to your heart's content without worrying about doing any coding.
+
+Once you have done this for a while, you will feel a lot more comfortable about using Git for your precious code.
+
 ##Your project's starting point
 
 ###You created a project by importing from a Git repo
@@ -94,12 +99,16 @@ and if I run a `git status` afterwards, I will see that everything is clean and 
 	# On branch master nothing to commit, working directory clean
 
 
-##Reverting Back to an earlier commit
-You can revert back to an earlier commit with `git revert`. First of all, find the commit that you want to revert to using `git log`. Here you can see the value of using proper commit messages.
+##Reverting
+One of the nice things you can do is to revert your code back to an earlier commit. `git revert` is the command for rolling back like this. There are a number of ways to use this, simple uses are
 
-Copy and paste the long ID and then use the command `git revert d3e6bb138309f5f81017a4c11b67445e51c109a9'.
+- `git revert 'commit id'` reverts back to the SHA (uid) you can see when you type `git log`
+- `git revert HEAD` will revert back to the last commit, throwing away any uncommitted changes 
+- `git revert HEAD~n` for example HEAD~3 will revert to the 4rd last commit.
+- `git revert HEAD^^^` (count of ^ is like ~n) will also revert back to the 4th last commit
 
-You should be aware that any untracked files will be lost.
+There are more advanced usages which you should read up on such as the `-n`. Try [looking here](http://git-scm.com/docs/git-revert.html).
+
 
 ##Pushing to a remote repository
 If you want to send your committed changes to a remote repository, you will use the `git push` command. First, however, you need to make sure that you have a `remote` set up.

@@ -55,9 +55,4 @@ This page contains a list of all currently supported Git commands. Please note t
 - parameters supported [add, rename, remove, rm, set-url, show, -v]
 - [reference information](http://git-scm.com/docs/git-remote)
 
-git revert <commit> which should be run with the --no-edit flag as default.
--m, --mainline
--n, --no-commit
-HEAD^^^^ etc
-HEAD~x
 

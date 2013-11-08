@@ -90,20 +90,24 @@ body.home {
                 display: block;
                 text-align: left;
                 line-height: 14px;
-                padding: 10px 0 0 28px;
+                padding: 10px 0 0 18px;
+                position: relative;
+                top: 21px;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 28px;
-                  padding-left: 36px;
+                  top: 29px;
                 }
               }
 
               // "Javascript, HTML and CSS"
               &:nth-child(5) {
-                font: 46px gotham_light;
+                font: 48px gotham_thin;
+                position: relative;
+                top: -20px;
 
                 @include apply-to(more-than, desktop) {
-                  font-size: 57px;
+                  font-size: 58px;
                 }
               }
             }
@@ -126,10 +130,10 @@ body.home {
             p {
               font: 20px 'Indie Flower';
               @include rotate(-4deg);
-              margin: 40px 0 0 48px;
+              margin: 24px 0 0 48px;
 
               @include apply-to(more-than, desktop) {
-                margin: 38px 0 0 112px;
+                margin: 15px 0 0 112px;
                 font-size: 22px;
               }
 
@@ -155,13 +159,13 @@ body.home {
       // screen
       #screen {
         background: transparent image-url('home/main-screen.png') no-repeat center;
-        background-size: 410px;
-        top: 115px;
-        margin-left: 564px;
+        background-size: 440px;
+        top: 72px;
+        margin-left: 541px;
         position: absolute;
         z-index: 2;
-        width: 410px;
-        height: 435px;
+        width: 440px;
+        height: 463px;
         opacity: 0;
         display: block;
 
@@ -170,7 +174,7 @@ body.home {
           width: 480px;
           height: 506px;
           margin-left: 684px;
-          top: 78px;
+          top: 67px;
         }
 
         a {
@@ -186,32 +190,6 @@ body.home {
             text-shadow: 0 0 0 #999;
             color: $red;
           }
-        }
-      }
-
-      #reel {
-        top: 220px;
-        position: absolute;
-        z-index: 1;
-        width: 320px;
-        margin-left: 2000px;
-        display: block;
-
-        transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
-        -webkit-transition: margin 1500ms ease 500ms, -webkit-transform 1500ms ease 500ms;
-        @include rotate(360deg);
-
-        &.move {
-          margin-left: 500px;
-
-          @include apply-to(more-than, desktop) {
-            margin-left: 614px;
-          }
-        }
-
-        @include apply-to(more-than, desktop) {
-          top: 225px;
-          width: 350px;
         }
       }
     }

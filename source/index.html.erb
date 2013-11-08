@@ -30,7 +30,26 @@ class_name: home
   <div class="container">
 
     <div>
-      <blockquote>"Sweet, this is like the BEST browser IDE I've used on my chromebook so far! Great job with this guys."</blockquote>
+      <blockquote>"For me, <a href="https://twitter.com/CodioHQ">@CodioHQ</a> is the web developer front-end that has always been missing from GitHub. Great work."</blockquote>
+      <span>
+        <a href="https://twitter.com/kaigani" target="_blank">
+          <%= image_tag 'https://pbs.twimg.com/profile_images/378800000166897604/c0ced6b846006ac5091fb2ef7bcd4de8_normal.jpeg', :width => 36 %>
+          @kaigani
+        </a>
+      </span>
+    </div>
+
+  </div>
+</section>
+
+<%= partial 'partials/home/productivity' %>
+<%= partial 'partials/home/speed' %>
+
+<section id="testimonials">
+  <div class="container">
+
+    <div>
+      <blockquote>"Sweet, this is like the BEST browser IDE I've used on my Chromebook so far! Great job with this guys."</blockquote>
       <span>
         <a href="https://twitter.com/amyrhaq" target="_blank">
           <%= image_tag 'https://si0.twimg.com/profile_images/2422654062/uxeq37lgme1mk53q5372_bigger.jpeg', :width => 36 %>
@@ -42,25 +61,6 @@ class_name: home
   </div>
 </section>
 
-<%= partial 'partials/home/productivity' %>
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Impressive! You folks are made of gold. Nothing compares!"</blockquote>
-      <span>
-        <a href="https://twitter.com/aloszka22" target="_blank">
-          <%= image_tag 'https://pbs.twimg.com/profile_images/378800000346849931/773cc17350ff4b1bae3566a56b34a948_bigger.jpeg', :width => 36 %>
-          @aloszka22
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-<%= partial 'partials/home/speed' %>
 <%= partial 'partials/home/deployment' %>
 <%= partial 'partials/home/terminal' %>
 
@@ -119,6 +119,22 @@ class_name: home
 </section>
 
 <%= partial 'partials/home/annotations' %>
+
+<section id="testimonials">
+  <div class="container">
+
+    <div>
+      <blockquote>"Impressive! You folks are made of gold. Nothing compares!"</blockquote>
+      <span>
+        <a href="https://twitter.com/aloszka22" target="_blank">
+          <%= image_tag 'https://pbs.twimg.com/profile_images/378800000346849931/773cc17350ff4b1bae3566a56b34a948_bigger.jpeg', :width => 36 %>
+          @aloszka22
+        </a>
+      </span>
+    </div>
+
+  </div>
+</section>
 
 
 <% content_for :foot do %>

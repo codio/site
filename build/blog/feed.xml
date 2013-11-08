@@ -17,12 +17,16 @@
     <author>
       <name>Freddy May</name>
     </author>
-    <summary type="html">&lt;p&gt;We've finally made up our mind about Codio pricing. We've tried to make it as simple and as affordable as we can.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;We've finally made up our mind about Codio pricing. We've tried to make it as simple and as affordable as we can. Read on for more or check our the &lt;a href="/s/pricing"&gt;new pricing page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/s/pricing"&gt;&lt;img alt="Pricing!" src="/s/img/blog/pricing-1bb53663.png"&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id="toc_0"&gt;Public projects are free&lt;/h2&gt;
 
-&lt;p&gt;This was and will always remain the case. It's great for open source projects, education or simply playing...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We&amp;#39;ve finally made up our mind about Codio pricing. We&amp;#39;ve tried to make it as simple and as affordable as we can.&lt;/p&gt;
+&lt;p&gt;This was and will always remain the case. It's great...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;ve finally made up our mind about Codio pricing. We&amp;#39;ve tried to make it as simple and as affordable as we can. Read on for more or check our the &lt;a href="/s/pricing"&gt;new pricing page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/s/pricing"&gt;&lt;img alt="Pricing!" src="/s/img/blog/pricing-1bb53663.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id="toc_0"&gt;Public projects are free&lt;/h2&gt;
 
@@ -46,7 +50,7 @@
 
 &lt;p&gt;It allows teachers to organize their students and take a look at the code their students are writing. There will also be additional functions such as the ability to spin up cloud servers that are ready to run for students, without the need for them to set up the server stack.&lt;/p&gt;
 
-&lt;p&gt;It will be available early 2013.&lt;/p&gt;
+&lt;p&gt;It will be available early 2014.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -61,7 +65,7 @@
     <summary type="html">&lt;p&gt;Codio has been focusing on building front-end applications. However, we've been busy adding lots of awesome features to make Codio a great environment for Node, PHP, Ruby and Python developers. One of the important new features is the ability to SSH...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;Codio has been focusing on building front-end applications. However, we&amp;#39;ve been busy adding lots of awesome features to make Codio a great environment for Node, PHP, Ruby and Python developers. One of the important new features is the ability to SSH into a remote server without ever leaving Codio.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="ssh" src="../img/docs/ssh-tab-c736a835.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ssh" src="/s/img/blog/ssh-tab-c4e6c274.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can do pretty much anything that you can do from any terminal client including running applications like Nano, Emacs and Vim.&lt;/p&gt;
 
@@ -69,13 +73,13 @@
 
 &lt;p&gt;We&amp;#39;ve also added in a Connection Manager so you can name and save your connections for quick and easy recall. You can even upload the Codio public key with a button click to save you the time and effort of manually adding keys.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="ssh" src="../img/docs/ssh-connection-list-d9140bee.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ssh" src="/s/img/blog/ssh-connection-list-2474f995.png" /&gt;&lt;/p&gt;
 
 &lt;h2 id="toc_1"&gt;Multiple SSH Connection Tabs&lt;/h2&gt;
 
 &lt;p&gt;And because Codio has great panel management, you can have any number of connections open at the same time and arrange them in any way you want.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="ssh" src="/s/img/blog/ssh-multitabs-678f00e6.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ssh" src="/s/img/blog/ssh-multitabs-6d41e7b3.png" /&gt;&lt;/p&gt;
 
 &lt;h2 id="toc_2"&gt;Documentation&lt;/h2&gt;
 

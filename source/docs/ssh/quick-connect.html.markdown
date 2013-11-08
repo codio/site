@@ -10,9 +10,6 @@ Specify a friendly name if you want to save the connection details.
 
 ![ssh parameters](/img/docs/ssh-parms.png)
 
-##Password / Public Keys
-If you want to add your Codio public key to the remote server, press the TODO button. Codio will now attempt to copy it to the remote server. If you need to add it manually for any reason, please refer to the [Codio public key](/docs/settings-prefs/account-settings/public-key) documentation.
-
 If you do not want to install a public key remotely, then Codio will connect to the remote server, which will prompt you for a password.
 
 ##Connect
@@ -22,3 +19,6 @@ When you press Connect, a tab will open up in the current panel and off you go. 
 This connects but also saves the connection details to the [SSH Connection Manager](/docs/ssh/ssh-manager/).
 
 ![ssh parameters](/img/docs/ssh-tab.png)
+
+##Public Keys
+If you want to add your Codio public key to the remote server, then you should Connect & Save. Then go to the SSH Connection Manager and press the public key button as [described here](/docs/ssh/ssh-manager). 

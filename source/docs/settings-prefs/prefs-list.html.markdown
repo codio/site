@@ -45,7 +45,8 @@ The setting id and default value are shown in square brackets.
 - Replace [key_replace = Cmd+Alt+F]
 - Find previous [key_find_prev = Shift+Cmd+G]
 - Replace all [key_replace_all = Shift+Cmd+Alt+F]
-- TODO GLOBAL SEARCH / REPLACE
+- Project wide search [key_replaceProject = Ctrl+H]
+- Project wide search and replace [key_searchProject = Ctrl+Shift+H]
 - Go to beginning of document [key_go_doc_start = Cmd+Up]
 - Go left [key_go_group_left = Alt+Left]
 - Go right [key_go_group_right = Alt+Right]

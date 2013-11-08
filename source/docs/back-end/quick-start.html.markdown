@@ -17,7 +17,7 @@ As described in the [Create Project](/docs/console/creating) section, the import
 
 The image below shows a typical import from an existing remote SFTP server.
 
-![create sftp](/img/docs/create-sftp)
+![create sftp](/img/docs/create-sftp.png)
 
 ##Start Coding
 This is largely self-explanatory and you will find the IDE very intuitive.

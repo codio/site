@@ -7,7 +7,9 @@ class_name: blog
 full_width: true
 ---
 
-We've finally made up our mind about Codio pricing. We've tried to make it as simple and as affordable as we can.
+We've finally made up our mind about Codio pricing. We've tried to make it as simple and as affordable as we can. Read on for more or check our the [new pricing page](/pricing).
+
+[![Pricing!](blog/pricing.png)](/pricing)
 
 ##Public projects are free
 This was and will always remain the case. It's great for open source projects, education or simply playing around with Codio. Sign up for free and there is no limit to the number of public projects that you can create.
@@ -27,4 +29,4 @@ Codio is a great product for teaching coding. An Educational Organization allows
 
 It allows teachers to organize their students and take a look at the code their students are writing. There will also be additional functions such as the ability to spin up cloud servers that are ready to run for students, without the need for them to set up the server stack.
 
-It will be available early 2013.
+It will be available early 2014.

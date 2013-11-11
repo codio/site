@@ -1,11 +1,11 @@
 ---
 title: SnR
 author: Friedel Ziegelmayer
-date: 2013-11-08
+date: 2013-11-11
 tags: Engineering
 class_name: blog
 full_width: true
-published: false
+published: true
 ---
 
 As you might have noticed today marked the release for global search and replace in Codio. It's built using the known and tested tools, [ack] and perl. While we were building this we realized that it would be great to have a simple command line tool to do both search and replace based on this. So today I present the software that came out of that wish: [SnR]

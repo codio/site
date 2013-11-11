@@ -1,16 +1,18 @@
 ---
 title: Global Search and Replace
 author: Freddy May
-date: 2013-11-15
+date: 2013-11-11
 tags: Changelog
 class_name: blog
 full_width: true
-published: false
+published: true
 ---
 
 One big omission from Codio so far has been powerful global search and replace functionality. Well, we've corrected this now.
 
 ![global search dialog](/img/docs/global-search.png)
+
+When we were built this, we decided to Open Source the server side code so anyone interested in file searching and replacing can take a look at the ["SnR"](/blog/2013/11/snr/) technical post.
 
 ###Globs and pattern matching
 As well as being able to search on simple strings across the entire project, you can use glob pattern matching (and fully described in the [documentation](/docs/ide/code-editor/search-replace)).

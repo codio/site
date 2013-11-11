@@ -13,7 +13,7 @@ We are constantly looking to streamline the development process and this time we
 ##Deploying & Previewing Changes
 Let's say that you make a small modification to a Node or PHP file or two and you then want to preview it. All you need to do is to press the new Preview / Deploy & Preview button in the menu bar and changes get deployed and previewed in a second.
 
-![deploy-preview](/img/blog/deploy-preview-1.png)
+![deploy-preview](blog/deploy-preview-1.png)
 
 You can see the various options you can set that are triggered when you press the button.
 

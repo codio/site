@@ -10,6 +10,9 @@ Creating a new project or importing one is really easy. All you do is click on t
 
 You will then be shown a dialog that lets you choose the various ways to create or import a project.
 
+##Back-End Development
+If you're doing any back-end coding (PHP, Node, Ruby, Python etc. or any PHP based CMS such as Wordpress, Drupal or Joomla) then please refer to this [chapter](/docs/back-end/).
+
 ##Template Option
 We offer a few basic starting points with this option. Select from the Create Project dropdown list, which offers the following options
 

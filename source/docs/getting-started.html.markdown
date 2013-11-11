@@ -19,7 +19,17 @@ You can also associate your account with a GitHub account from the Codio->Accoun
 ##2. Create a Project
 Once you have signed in, you can [create a new project](/docs/console/creating) by clicking on the Create Project link in the Dashboard. 
 
-This allows you to create a new project or import a Zip file or clone a [Git repo](/docs/git-viewing) or import a project from Mercurial.
+There are several ways to start off
+
+- Create a blank project (HTML Boilerplate, PHP Basic or completely empty)
+- Import from a ZIP file
+- Import from FTP/SFTP
+- Import from Git/Mercurial
+- A SalesForce project
+
+All of these are full described [here](/docs/console/creating).
+
+If you are working on back-end code such as PHP, Node, Ruby, Python or with any PHP based CMS such as Wordpress, Joomla or Drupal, then please refer to this [chapter](/docs/back-end/).
 
 ##3. You're in the IDE
 Once you're in the IDE, which you will be automatically after creating a project or opening an existing one, you're ready to start coding.

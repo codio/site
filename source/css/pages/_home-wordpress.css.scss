@@ -83,18 +83,18 @@ body.home-wordpress {
               // "WORDPRESS" 
               &:nth-child(5) {
               display: block;
-                font: 60px gotham_light !important;
+                font: 52px gotham_light !important;
                 top: 5px;
                 padding-top: 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 69px !important;
+                  font-size: 56px !important;
                 }
               }
 
-              // "DEVELOPMENT"
+              // "DRUPAL & JOOMLA"
               &:nth-child(6) {
               display: block;
-                font: 41px gotham_light !important;
+                font: 52px gotham_light !important;
                 padding-top: 0px;
                 top: 0px;
                 @include apply-to(more-than, desktop) {
@@ -105,11 +105,11 @@ body.home-wordpress {
 
             // "WORDPRESS LOGO"
             img {
-              margin: -149px 324px 0px 10px !important;
-              height: 110px;              
+              margin: -208px 296px 0px 10px !important;
+              height: 40px;              
               @include apply-to(more-than, desktop) {
-                margin: -177px 383px 0px 10px !important;
-                height: 132px;       
+                margin: -218px 326px 0px 10px !important;
+                height: 50px;       
               }
             }  
 

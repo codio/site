@@ -71,7 +71,8 @@ body.home-wordpress {
                 text-align: left;
                 line-height: 14px;
                 padding-left: 20px;
-                padding-top: 12px;
+                padding-top: 0px;
+                top: 12px;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 28px;
@@ -83,6 +84,7 @@ body.home-wordpress {
               &:nth-child(5) {
               display: block;
                 font: 60px gotham_light !important;
+                top: 5px;
                 padding-top: 0px;
                 @include apply-to(more-than, desktop) {
                   font-size: 69px !important;
@@ -92,8 +94,9 @@ body.home-wordpress {
               // "DEVELOPMENT"
               &:nth-child(6) {
               display: block;
-                font: 40px gotham_light !important;
+                font: 41px gotham_light !important;
                 padding-top: 0px;
+                top: 0px;
                 @include apply-to(more-than, desktop) {
                   font-size: 56px !important;
                 }
@@ -102,11 +105,11 @@ body.home-wordpress {
 
             // "WORDPRESS LOGO"
             img {
-              margin: -149px 339px 0px 10px !important;
+              margin: -149px 324px 0px 10px !important;
               height: 110px;              
               @include apply-to(more-than, desktop) {
-                margin: -183px 383px 0px 10px !important;
-                height: 140px;       
+                margin: -177px 383px 0px 10px !important;
+                height: 132px;       
               }
             }  
 

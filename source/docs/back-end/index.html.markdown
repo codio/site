@@ -1,5 +1,5 @@
 ---
-title: PHP, Node, Ruby & Other Back-Ends
+title: PHP, Node, Ruby, Wordpress etc.
 class_name: docs
 full_width: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: Global Search and Replace
 author: Freddy May
-date: 2013-10-28
+date: 2013-11-15
 tags: Changelog
 class_name: blog
 full_width: true

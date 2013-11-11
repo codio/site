@@ -21,7 +21,7 @@ A Droplet is the name Digital Ocean gives to its cloud servers. You set the foll
 - **Hostname**
 - **Server size** : the smallest will be fine for development purposes
 - **Location** : New York 1 or New York 2 as they are close to the Codio servers, which means you will get maximum speed for deployment operations
-- **Image** : In the Image section, select the Application tab. Select **Wordpress on Ubuntu** (you can select any other image or application but use Wordpress to follow the rest of this demonstration). If you are not interested in PHP then follow the steps in principle and it should be clear what you need to do for other stack configurations.
+- **Image** : In the Image section, select the Application tab. Select **Wordpress on Ubuntu** (you can select any other image or application but use Wordpress to follow the rest of this demonstration). If you are not interested in Node, PHP, Ruby, Python etc. then rather than choosing a Wordpress Application you can select a basic Ubuntu (or other) server instead.
 - **SSH Keys** : do NOT select an SSH key so you can follow this demo easily. If you did select an SSH key, you will not be emailed your credentials and you will need to SSH into the server to set a password for the import. We will show you how to install a public key from Codio with a single click in a moment.
 
 Leave the last settings with defaults and press Create.

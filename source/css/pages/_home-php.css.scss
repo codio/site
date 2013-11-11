@@ -6,7 +6,7 @@ body.home-php {
     background-color: #EAEDF2;
     height: 420px;
     overflow-x: hidden;
-    padding-top: 90px;
+    padding-top: 106px;
 
     .container {
       @include clearfix();
@@ -70,6 +70,7 @@ body.home-php {
                 line-height: 14px;
                 padding-left: 28px;
                 padding-top: 10px;
+                top: 0px;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 28px;
@@ -82,6 +83,7 @@ body.home-php {
               display: block;
                 font: 40px gotham_light !important;
                 padding-top: 0px;
+                top: 0px;
                 @include apply-to(more-than, desktop) {
                   font-size: 48px !important;
                 }
@@ -91,7 +93,7 @@ body.home-php {
               &:nth-child(6) {
               display: block;
                 font: 30px gotham_light !important;
-                padding-top: 5px;
+                padding-top: 0px;
                 @include apply-to(more-than, desktop) {
                   font-size: 36px !important;
                 }
@@ -100,10 +102,10 @@ body.home-php {
 
             // "PHP LOGO"
             img {
-              margin: -129px 272px 0px 10px !important;
+              margin: -124px 272px 0px 10px !important;
               height: 89px;              
               @include apply-to(more-than, desktop) {
-                margin: -144px 327px 0px 10px !important;
+                margin: -139px 327px 0px 10px !important;
                 height: 104px;       
               }
             }  
@@ -117,7 +119,7 @@ body.home-php {
             p {
               font: 20px 'Indie Flower';
               @include rotate(-4deg);
-              margin: 40px 0 0 48px;
+              margin: 20px 0 0 48px;
 
               @include apply-to(more-than, desktop) {
                 margin: 15px 0 0 112px;

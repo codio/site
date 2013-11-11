@@ -4,10 +4,105 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-11-08T00:00:00Z</updated>
+  <updated>2013-11-11T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Global Search and Replace</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/search-replace/"/>
+    <id>https://codio.com/s/blog/2013/11/search-replace/</id>
+    <published>2013-11-11T00:00:00Z</published>
+    <updated>2013-11-11T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;One big omission from Codio so far has been powerful search and replace functionality across your entire project. We've had search and replace in files, but up until now it's not been possible to search across all files within your project. Well, we...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&amp;#39;ve had search and replace in files, but up until now it&amp;#39;s not been possible to search across all files within your project. Well, we&amp;#39;ve corrected this now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="global search dialog" src="../img/docs/global-search-b32a1669.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_0"&gt;Globs and pattern matching&lt;/h3&gt;
+
+&lt;p&gt;As well as being able to search on simple strings across the entire project, you can use &lt;a href="/s/docs/ide/code-editor/search-replace"&gt;glob pattern matching&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The above image shows how you can look for matches of the word &lt;code&gt;step&lt;/code&gt; in all &lt;code&gt;js&lt;/code&gt; files across the whole project. Or, you could look for all files ending in &lt;code&gt;.html&lt;/code&gt; or &lt;code&gt;.coffee&lt;/code&gt; in just the &lt;code&gt;lib&lt;/code&gt; folder:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;lib/*{.html,.coffee}&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_1"&gt;Matches&lt;/h3&gt;
+
+&lt;p&gt;Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="global search dialog" src="../img/docs/search-matches-51e45c9d.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_2"&gt;We&amp;#39;ve open sourced some stuff&lt;/h3&gt;
+
+&lt;p&gt;In doing this, we decided to open source the back-end search capabilities. SnR is a Node application and uses &lt;code&gt;ack&lt;/code&gt; and &lt;code&gt;perl&lt;/code&gt; to provide a powerful way to search within code. &lt;a href="https://github.com/codio/snr"&gt;View it on GitHub&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Search and Replace with SnR</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/snr/"/>
+    <id>https://codio.com/s/blog/2013/11/snr/</id>
+    <published>2013-11-11T00:00:00Z</published>
+    <updated>2013-11-11T00:00:00Z</updated>
+    <author>
+      <name>Friedel Ziegelmayer</name>
+    </author>
+    <summary type="html">&lt;p&gt;As you might have noticed, today marked the release of &lt;a href="/s/blog/2013/11/search-replace"&gt;global search and replace&lt;/a&gt; in Codio. It's built using the tried and tested tools, &lt;a href="http://beyondgrep.com/"&gt;ack&lt;/a&gt; and perl. While we were building this we realized that it would be great to have a simple command line tool...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;As you might have noticed, today marked the release of &lt;a href="/s/blog/2013/11/search-replace"&gt;global search and replace&lt;/a&gt; in Codio. It&amp;#39;s built using the tried and tested tools, &lt;a href="http://beyondgrep.com/"&gt;ack&lt;/a&gt; and perl. While we were building this we realized that it would be great to have a simple command line tool to do both search and replace based on these two tools. So today I present the software that came out of that wish: &lt;a href="https://npmjs.org/package/snr"&gt;SnR&lt;/a&gt;. We&amp;#39;ve open sourced it and released it as a &lt;a href="https://npmjs.org/package/snr"&gt;Node package&lt;/a&gt;. The source is publicly available on &lt;a href="https://github.com/codio/snr"&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;What?&lt;/h2&gt;
+
+&lt;p&gt;As already discussed SnR gives you a simple command line interface to search and replace built on top of &lt;a href="http://beyondgrep.com/"&gt;ack&lt;/a&gt; and perl, and it works like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="bash"&gt;# Inside your project folder
+$ snr --replace &amp;quot;console.log&amp;quot; &amp;quot;console.info&amp;quot; &amp;quot;**/*.js&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="toc_1"&gt;How?&lt;/h2&gt;
+
+&lt;p&gt;To get started just make sure you have perl and Node (with NPM) installed, and then run &lt;code&gt;npm install -g snr&lt;/code&gt;. That&amp;#39;s it, now you can go and replace all the things.&lt;/p&gt;
+
+&lt;p&gt;For simple usage take a look at these examples:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="bash"&gt;# Find all occurences of foo inside all python files
+$ snr foo &amp;quot;**/*.py&amp;quot;
+src/index.js
+301-        // catch (e) {
+302-        //     //:todo change to correct bar
+303:        //     foo(e);
+304-        //     //bar(e);
+305-        // }
+Found 1 match(es) in 1 file(s).
+# Replace all occurences of foo with bar inside all python files
+$ snr --replace bar foo &amp;quot;**/*.py&amp;quot;
+Replaced 1 match(es) in 1 file(s).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and for more advance usage:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="bash"&gt;$ snr --help
+usage: snr [OPTION]... PATTERN [FILES OR DIRECTORIES OR GLOBS]
+options:
+    -i, --ignore-case       Ignore case distinctions in PATTERN.
+    -Q, --literal           Quote all metacharacters; PATTERN is literal.
+    --max-result-count=NUM  Stop after NUM results.
+    --replace=REPlACE       Replace all matches with REPLACE.
+    -h, --help              Print this help and exit.
+    -v, --version           Print the current version.
+    -C NUM, --context=NUM   Print NUM lines of output context.
+    -w, --word-regexp       Force PATTERN to match only whole words.
+    --color-lineno=COLOR    Set the color for filenames, matches, and line
+                            numbers.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="toc_2"&gt;What&amp;#39;s next?&lt;/h2&gt;
+
+&lt;p&gt;There is even more goodness inside. You can use SnR as a module inside your node app as well, just install it and &lt;code&gt;require(&amp;#39;snr&amp;#39;)&lt;/code&gt; to get started. More info on that can be found on the &lt;a href="https://github.com/codio/snr"&gt;github repo&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Codio Pricing</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/11/pricing/"/>
@@ -135,96 +230,6 @@
 &lt;p&gt;You can now deploy over SFTP or Rsync safely and securely, as they will use your Codio key-pair wherever possible.&lt;/p&gt;
 
 &lt;p&gt;Quick, easy, painless!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Sign Up via Github</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/10/sign-in-up-via-github/"/>
-    <id>https://codio.com/s/blog/2013/10/sign-in-up-via-github/</id>
-    <published>2013-10-14T00:00:00Z</published>
-    <updated>2013-10-14T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Today we are making it even easier for you to sign up to Codio. If you have a &lt;strong&gt;Github&lt;/strong&gt; account, and haven't yet signed up for Codio, just click the &lt;a href="/s/p/signup"&gt;Sign Up&lt;/a&gt; link and you'll see a &lt;strong&gt;&lt;code&gt;Sign up via Github&lt;/code&gt;&lt;/strong&gt; button. Click that and you'll be taken through Github...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Today we are making it even easier for you to sign up to Codio. If you have a &lt;strong&gt;Github&lt;/strong&gt; account, and haven&amp;#39;t yet signed up for Codio, just click the &lt;a href="/s/p/signup"&gt;Sign Up&lt;/a&gt; link and you&amp;#39;ll see a &lt;strong&gt;&lt;code&gt;Sign up via Github&lt;/code&gt;&lt;/strong&gt; button. Click that and you&amp;#39;ll be taken through Github&amp;#39;s OAuth process and then brough back to Codio to complete the sign up.&lt;/p&gt;
-
-&lt;p&gt;Then when you come back to Codio, just sign in as normal, either via our own Codio authentication or via Github.&lt;/p&gt;
-
-&lt;p&gt;Fast, painless and easy! &lt;a href="/s/p/signup"&gt;Create your account...&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;We have plans to integrate further with Github and to make it even easier for you to access your Github code, so watch this space.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>I Love Open Source</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/10/ilos/"/>
-    <id>https://codio.com/s/blog/2013/10/ilos/</id>
-    <published>2013-10-11T00:00:00Z</published>
-    <updated>2013-10-11T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;I want to briefly talk about an interesting metamorphosis - otherwise known as gross scope creep.&lt;/p&gt;
-
-&lt;p&gt;We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I want to briefly talk about an interesting metamorphosis - otherwise known as gross scope creep.&lt;/p&gt;
-
-&lt;p&gt;We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio site turned into a few weeks of full-on application development.&lt;/p&gt;
-
-&lt;p&gt;The result is &amp;quot;I Love Open Source&amp;quot;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://iloveopensource.io"&gt;&lt;img alt="header" src="/s/img/blog/ilos-blog-hdr-98fcbd44.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Video&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="https://player.vimeo.com/video/75609049?autoplay=1&amp;hd=1" target="_blank"&gt;Click here&lt;/a&gt; for a really quick overview of I Love Open Source.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;What is &amp;quot;I Love Open Source&amp;quot;&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href="http://iloveopensource.io"&gt;http://iloveopensource.io&lt;/a&gt; is a full fledged application (it is itself Open Source and forkable on GitHub) that encourages any GitHub user or organization to publicly state which Open Source projects they use. And in the process of doing so, they have the opportunity to donate something, if they wish, to any of those projects.&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;Codio Loves Open Source&lt;/h2&gt;
-
-&lt;p&gt;If you click the logo below, you&amp;#39;ll see our support page and which repos we use.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.iloveopensource.io/orgs/523c6c7f861be70200000007"&gt;&lt;img alt="ilos" src="/s/img/blog/ilos-logo-lightbg-78b1be7c.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_3"&gt;Supporters&lt;/h2&gt;
-
-&lt;p&gt;Here&amp;#39;s an example Supporter page with 3 OS projects it&amp;#39;s acknowledging. You can see the person contributes code and cash to the jquery project. You can also see the donate options beneath the GitHub Octocat logo.&lt;/p&gt;
-
-&lt;p&gt;You are encouraged to link to your supporter page from your website or README.md file.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="ilos" src="/s/img/blog/ilos-sup-page-e11da2c3.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_4"&gt;Maintainers&lt;/h2&gt;
-
-&lt;p&gt;Anyone owning a repo that wants support, whether simple acknowledgments or cash, heads over to the Maintainers section and sets up their donation preferences (Gittip, Flattr, Paypal, Wire etc.).&lt;/p&gt;
-
-&lt;p&gt;Now, when people are setting up their support or when anyone sees a support page, they are always gently given the opportunity to donate there and then. See the above image.&lt;/p&gt;
-
-&lt;h2 id="toc_5"&gt;What about Gittip, Flattr &amp;amp; Paypal etc?&lt;/h2&gt;
-
-&lt;p&gt;I Love Open Source does not handle any payments at all. We allow the developer to use their own existing Gittip, Flattr and Paypal buttons. For the record, we do not take any commissions or have any commercial involvement with any of them.&lt;/p&gt;
-
-&lt;p&gt;The fact that I Love Open Source is itself Open Source and does not handle any cash transactions means that it can concentrate on acknowledgment in general and providing an easy way to support and donate.&lt;/p&gt;
-
-&lt;h2 id="toc_6"&gt;Code and Idea Contributions&lt;/h2&gt;
-
-&lt;p&gt;I Love Open Source can be &lt;a href="https://github.com/codio/iloveopensource"&gt;forked on GitHub&lt;/a&gt; so feel free to fix code or add features and issue a pull request. Before you embark on huge endeavours, it may make sense to &lt;a href="https://github.com/codio/iloveopensource/issues?state=open"&gt;raise an Issue&lt;/a&gt; first here.&lt;/p&gt;
-
-&lt;p&gt;Any great ideas you want to discuss or bugs you want to report should be done &lt;a href="https://github.com/codio/iloveopensource/issues?state=open"&gt;here in GitHub Issues&lt;/a&gt; also.&lt;/p&gt;
-
-&lt;h2 id="toc_7"&gt;Many thanks to DigitalOcean&lt;/h2&gt;
-
-&lt;p&gt;A short but important word of thanks goes to &lt;a href="http://www.digitalocean.com"&gt;DigitalOcean&lt;/a&gt;. They have been very generous in providing I Love Open Source with their lovely servers at no cost.&lt;/p&gt;
-
-&lt;h2 id="toc_8"&gt;Please Support Us&lt;/h2&gt;
-
-&lt;p&gt;The only support we ask for is that you Tweet about this project so the word spreads fast. We&amp;#39;re @iloshq on Twitter.&lt;/p&gt;
-
-&lt;p&gt;Even better, &lt;a href="http://iloveopensource.io"&gt;create your own I Love Open Source Supporter page right now&lt;/a&gt; and link to it from your web site or README.md file.&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -24,4 +24,4 @@ Once the search operation has completed, you will see all files listed in a Codi
 ![global search dialog](blog/search-matches.png)
 
 ###We've open sourced some stuff
-In doing this, we decided to open source the back-end search capabilities. SnR is a Node application and uses `ack` and `perl` to provide a powerful way to search within code. [View it on GitHub](https://github.com/codio/snr)
+In doing this, we decided to [open source the back-end](/blog/2013/11/snr/) search capabilities. SnR is a Node application and uses `ack` and `perl` to provide a powerful way to search within code.

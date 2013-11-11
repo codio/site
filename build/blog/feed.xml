@@ -38,7 +38,7 @@
 
 &lt;h3 id="toc_2"&gt;We&amp;#39;ve open sourced some stuff&lt;/h3&gt;
 
-&lt;p&gt;In doing this, we decided to open source the back-end search capabilities. SnR is a Node application and uses &lt;code&gt;ack&lt;/code&gt; and &lt;code&gt;perl&lt;/code&gt; to provide a powerful way to search within code. &lt;a href="https://github.com/codio/snr"&gt;View it on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In doing this, we decided to &lt;a href="/s/blog/2013/11/snr/"&gt;open source the back-end&lt;/a&gt; search capabilities. SnR is a Node application and uses &lt;code&gt;ack&lt;/code&gt; and &lt;code&gt;perl&lt;/code&gt; to provide a powerful way to search within code.&lt;/p&gt;
 </content>
   </entry>
   <entry>

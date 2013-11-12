@@ -4,41 +4,35 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-11-11T00:00:00Z</updated>
+  <updated>2013-11-12T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
   <entry>
-    <title>Global Search and Replace</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/search-replace/"/>
-    <id>https://codio.com/s/blog/2013/11/search-replace/</id>
-    <published>2013-11-11T00:00:00Z</published>
-    <updated>2013-11-11T00:00:00Z</updated>
+    <title>New Theme: MBO</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/mbo-theme/"/>
+    <id>https://codio.com/s/blog/2013/11/mbo-theme/</id>
+    <published>2013-11-12T00:00:00Z</published>
+    <updated>2013-11-12T00:00:00Z</updated>
     <author>
-      <name>Freddy May</name>
+      <name>Joel Moss</name>
     </author>
-    <summary type="html">&lt;p&gt;One big omission from Codio so far has been powerful search and replace functionality across your entire project. We've had search and replace in files, but up until now it's not been possible to search across all files within your project. Well, we...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&amp;#39;ve had search and replace in files, but up until now it&amp;#39;s not been possible to search across all files within your project. Well, we&amp;#39;ve corrected this now.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Here's a little goodie for you... we just added an all new theme called MBO:&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png"&gt;&lt;/p&gt;
 
-&lt;h3 id="toc_0"&gt;Globs and pattern matching&lt;/h3&gt;
+&lt;p&gt;To change your theme, click the &lt;code&gt;Codio &amp;gt; Preferences... &amp;gt; User&lt;/code&gt; menu item. You will then see the &lt;a href="/s/docs/settings-prefs/codio-prefs/"&gt;preferences editor&lt;/a&gt;. Just add these few lines to the left side of the editor...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Here&amp;#39;s a little goodie for you... we just added an all new theme called MBO:&lt;/p&gt;
 
-&lt;p&gt;As well as being able to search on simple strings across the entire project, you can use &lt;a href="/s/docs/ide/code-editor/search-replace"&gt;glob pattern matching&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;The above image shows how you can look for matches of the word &lt;code&gt;step&lt;/code&gt; in all &lt;code&gt;js&lt;/code&gt; files across the whole project. Or, you could look for all files ending in &lt;code&gt;.html&lt;/code&gt; or &lt;code&gt;.coffee&lt;/code&gt; in just the &lt;code&gt;lib&lt;/code&gt; folder:&lt;/p&gt;
+&lt;p&gt;To change your theme, click the &lt;code&gt;Codio &amp;gt; Preferences... &amp;gt; User&lt;/code&gt; menu item. You will then see the &lt;a href="/s/docs/settings-prefs/codio-prefs/"&gt;preferences editor&lt;/a&gt;. Just add these few lines to the left side of the editor:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;lib/*{.html,.coffee}&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class="ini"&gt;[editor]
+theme = mbo
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id="toc_1"&gt;Matches&lt;/h3&gt;
-
-&lt;p&gt;Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_2"&gt;We&amp;#39;ve open sourced some stuff&lt;/h3&gt;
-
-&lt;p&gt;In doing this, we decided to &lt;a href="/s/blog/2013/11/snr/"&gt;open source the back-end&lt;/a&gt; search capabilities. SnR is a Node application and uses &lt;code&gt;ack&lt;/code&gt; and &lt;code&gt;perl&lt;/code&gt; to provide a powerful way to search within code.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -101,6 +95,39 @@ options:
 &lt;h2 id="toc_2"&gt;What&amp;#39;s next?&lt;/h2&gt;
 
 &lt;p&gt;There is even more goodness inside. You can use SnR as a module inside your node app as well, just install it and &lt;code&gt;require(&amp;#39;snr&amp;#39;)&lt;/code&gt; to get started. More info on that can be found on the &lt;a href="https://github.com/codio/snr"&gt;github repo&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Global Search and Replace</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/search-replace/"/>
+    <id>https://codio.com/s/blog/2013/11/search-replace/</id>
+    <published>2013-11-11T00:00:00Z</published>
+    <updated>2013-11-11T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;One big omission from Codio so far has been powerful search and replace functionality across your entire project. We've had search and replace in files, but up until now it's not been possible to search across all files within your project. Well, we...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&amp;#39;ve had search and replace in files, but up until now it&amp;#39;s not been possible to search across all files within your project. Well, we&amp;#39;ve corrected this now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_0"&gt;Globs and pattern matching&lt;/h3&gt;
+
+&lt;p&gt;As well as being able to search on simple strings across the entire project, you can use &lt;a href="/s/docs/ide/code-editor/search-replace"&gt;glob pattern matching&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The above image shows how you can look for matches of the word &lt;code&gt;step&lt;/code&gt; in all &lt;code&gt;js&lt;/code&gt; files across the whole project. Or, you could look for all files ending in &lt;code&gt;.html&lt;/code&gt; or &lt;code&gt;.coffee&lt;/code&gt; in just the &lt;code&gt;lib&lt;/code&gt; folder:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;lib/*{.html,.coffee}&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_1"&gt;Matches&lt;/h3&gt;
+
+&lt;p&gt;Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="toc_2"&gt;We&amp;#39;ve open sourced some stuff&lt;/h3&gt;
+
+&lt;p&gt;In doing this, we decided to &lt;a href="/s/blog/2013/11/snr/"&gt;open source the back-end&lt;/a&gt; search capabilities. SnR is a Node application and uses &lt;code&gt;ack&lt;/code&gt; and &lt;code&gt;perl&lt;/code&gt; to provide a powerful way to search within code.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -207,29 +234,6 @@ options:
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;FTP and SFTP&lt;/strong&gt; - The newest option is to import from any FTP server. Just specify the server you wish to import from, and we&amp;#39;ll do the rest. We even support SFTP, which means that you can connect securely using your Codio SSH public key.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Salesforce&lt;/strong&gt; - If you work with Salesforce, we&amp;#39;ve integrated its Tooling API to allow you to work with your Salesforce classes and triggers. Just enter your credentials and we&amp;#39;ll pull in your code with into Codio. You can then continue to pull and push your code to Salesforce.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Automatically Upload your Codio Public SSH Key</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/10/automatic-upload-ssh-key/"/>
-    <id>https://codio.com/s/blog/2013/10/automatic-upload-ssh-key/</id>
-    <published>2013-10-29T00:00:00Z</published>
-    <updated>2013-10-29T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Today we're making it even easier to work with server-side code and your development environments. We're about to ship several new features and improvements; the first of which is the ability to automatically upload your Codio SSH Public key to your...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Today we&amp;#39;re making it even easier to work with server-side code and your development environments. We&amp;#39;re about to ship several new features and improvements; the first of which is the ability to automatically upload your Codio SSH Public key to your server.&lt;/p&gt;
-
-&lt;p&gt;Codio creates a public key pair for you, which you can then use to make secure connections over SSH and SFTP. Up until now, you had to copy and paste this public key manually, and upload to your server.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Not any more you don&amp;#39;t!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Just go to the &lt;code&gt;Codio &amp;gt; Account...&lt;/code&gt; menu item and click the &lt;code&gt;SSH Key&lt;/code&gt; tab. You will see your public key. You will also see a button &lt;code&gt;Upload Public Key&lt;/code&gt;, which when clicked will prompt you to enter the credentials of the server where you wish to upload your key. Once complete, your key will be uploaded within seconds.&lt;/p&gt;
-
-&lt;p&gt;You can now deploy over SFTP or Rsync safely and securely, as they will use your Codio key-pair wherever possible.&lt;/p&gt;
-
-&lt;p&gt;Quick, easy, painless!&lt;/p&gt;
 </content>
   </entry>
 </feed>

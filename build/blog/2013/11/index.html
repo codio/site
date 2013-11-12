@@ -121,50 +121,40 @@
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/11/search-replace/">November 11, 2013</a>
+            <a href="/s/blog/2013/11/mbo-theme/">November 12, 2013</a>
             
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
             
-            <a class="dsq-comment-count" href="/s/blog/2013/11/search-replace/#disqus_thread">Comments</a>
+            <a class="dsq-comment-count" href="/s/blog/2013/11/mbo-theme/#disqus_thread">Comments</a>
           </p>
         </section>
 
-        <h1><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></h1>
+        <h1><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></h1>
 
         
 
-        <p>One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&#39;ve had search and replace in files, but up until now it&#39;s not been possible to search across all files within your project. Well, we&#39;ve corrected this now.</p>
+        <p>Here&#39;s a little goodie for you... we just added an all new theme called MBO:</p>
 
-<p><img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /></p>
+<p><img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png" /></p>
 
-<h3 id="toc_0">Globs and pattern matching</h3>
+<p>To change your theme, click the <code>Codio &gt; Preferences... &gt; User</code> menu item. You will then see the <a href="/s/docs/settings-prefs/codio-prefs/">preferences editor</a>. Just add these few lines to the left side of the editor:</p>
 
-<p>As well as being able to search on simple strings across the entire project, you can use <a href="/s/docs/ide/code-editor/search-replace">glob pattern matching</a>.</p>
+<pre><code class="ini">[editor]
+theme = mbo
+</code></pre>
 
-<p>The above image shows how you can look for matches of the word <code>step</code> in all <code>js</code> files across the whole project. Or, you could look for all files ending in <code>.html</code> or <code>.coffee</code> in just the <code>lib</code> folder:</p>
-
-<p><code>lib/*{.html,.coffee}</code></p>
-
-<h3 id="toc_1">Matches</h3>
-
-<p>Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.</p>
-
-<p><img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /></p>
-
-<h3 id="toc_2">We&#39;ve open sourced some stuff</h3>
-
-<p>In doing this, we decided to <a href="/s/blog/2013/11/snr/">open source the back-end</a> search capabilities. SnR is a Node application and uses <code>ack</code> and <code>perl</code> to provide a powerful way to search within code.</p>
+<p>Enjoy!</p>
 
 
         <div class="blog-social clearfix">
           <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/search-replace/" data-via="codiohq" data-size="small" data-count="none" data-text="Global Search and Replace">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/mbo-theme/" data-via="codiohq" data-size="small" data-count="none" data-text="New Theme: MBO">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
 
           <div class="blog-gplus">
             <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/search-replace/"></div>
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/mbo-theme/"></div>
 
             <!-- Place this tag after the last +1 button tag. -->
             <script type="text/javascript">
@@ -177,7 +167,7 @@
           </div>
 
           <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/search-replace/" data-width="450" data-show-faces="false"></div>
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/mbo-theme/" data-width="450" data-show-faces="false"></div>
           </div>
         </div>
       </article>
@@ -282,6 +272,72 @@ options:
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/11/search-replace/">November 11, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            <a class="dsq-comment-count" href="/s/blog/2013/11/search-replace/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></h1>
+
+        
+
+        <p>One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&#39;ve had search and replace in files, but up until now it&#39;s not been possible to search across all files within your project. Well, we&#39;ve corrected this now.</p>
+
+<p><img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /></p>
+
+<h3 id="toc_0">Globs and pattern matching</h3>
+
+<p>As well as being able to search on simple strings across the entire project, you can use <a href="/s/docs/ide/code-editor/search-replace">glob pattern matching</a>.</p>
+
+<p>The above image shows how you can look for matches of the word <code>step</code> in all <code>js</code> files across the whole project. Or, you could look for all files ending in <code>.html</code> or <code>.coffee</code> in just the <code>lib</code> folder:</p>
+
+<p><code>lib/*{.html,.coffee}</code></p>
+
+<h3 id="toc_1">Matches</h3>
+
+<p>Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.</p>
+
+<p><img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /></p>
+
+<h3 id="toc_2">We&#39;ve open sourced some stuff</h3>
+
+<p>In doing this, we decided to <a href="/s/blog/2013/11/snr/">open source the back-end</a> search capabilities. SnR is a Node application and uses <code>ack</code> and <code>perl</code> to provide a powerful way to search within code.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/search-replace/" data-via="codiohq" data-size="small" data-count="none" data-text="Global Search and Replace">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/search-replace/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/search-replace/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/11/pricing/">November  8, 2013</a>
             
               <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
@@ -351,78 +407,10 @@ options:
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/11/ssh/">November  7, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            <a class="dsq-comment-count" href="/s/blog/2013/11/ssh/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/11/ssh/">SSH Terminal</a></h1>
-
-        
-
-        <p>Codio has been focusing on building front-end applications. However, we&#39;ve been busy adding lots of awesome features to make Codio a great environment for Node, PHP, Ruby and Python developers. One of the important new features is the ability to SSH into a remote server without ever leaving Codio.</p>
-
-<p><img alt="ssh" src="/s/img/blog/ssh-tab-94a3f121.png" /></p>
-
-<p>You can do pretty much anything that you can do from any terminal client including running applications like Nano, Emacs and Vim.</p>
-
-<h2 id="toc_0">Connection Management</h2>
-
-<p>We&#39;ve also added in a Connection Manager so you can name and save your connections for quick and easy recall. You can even upload the Codio public key with a button click to save you the time and effort of manually adding keys.</p>
-
-<p><img alt="ssh" src="/s/img/blog/ssh-connection-list-add02d7f.png" /></p>
-
-<h2 id="toc_1">Multiple SSH Connection Tabs</h2>
-
-<p>And because Codio has great panel management, you can have any number of connections open at the same time and arrange them in any way you want.</p>
-
-<p><img alt="ssh" src="/s/img/blog/ssh-multitabs-6d41e7b3.png" /></p>
-
-<h2 id="toc_2">Documentation</h2>
-
-<p>You can read about our <a href="/s/docs/ssh">SSH Terminal in the documentation</a>.</p>
-
-<h2 id="toc_3">Thanks</h2>
-
-<p>Thanks to Christopher Jeffrey for his <a href="https://github.com/chjj/tty.js">tty.js</a> library. We&#39;ve just donated through <a href="http://www.iloveopensource.io">ILoveOpenSource.io</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/ssh/" data-via="codiohq" data-size="small" data-count="none" data-text="SSH Terminal">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/ssh/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/ssh/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
+        
+          <p><a href="/s/blog/2013/11/page/2/">&laquo; older posts</a></p>
         
         
       </section>
@@ -440,19 +428,19 @@ options:
       <ul>
         
           
-          <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
+          <li><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></li>
         
           
           <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>
+        
+          
+          <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
         
           
           <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
         
           
           <li><a href="/s/blog/2013/11/ssh/">SSH Terminal</a></li>
-        
-          
-          <li><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></li>
         
       </ul>
     </section>
@@ -461,13 +449,13 @@ options:
       <h4>on this page...</h4>
       <ul>
         
-          <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
+          <li><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></li>
         
           <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>
         
-          <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
+          <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
         
-          <li><a href="/s/blog/2013/11/ssh/">SSH Terminal</a></li>
+          <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
         
       </ul>
     </section>

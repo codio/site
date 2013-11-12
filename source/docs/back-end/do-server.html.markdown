@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-There is a [video of this tutorial](//player.vimeo.com/video/79023130?autoplay=1&hd=1) if you prefer watching to reading. It is also a very good showcase for working with Codio and back-end development in general. 
+There is a [video of this tutorial](https://player.vimeo.com/video/79023130?autoplay=1&hd=1) if you prefer watching to reading. It is also a very good showcase for working with Codio and back-end development in general. 
 
 
 To develop in back end languages like PHP, Node, Ruby or Python 100% in the cloud, all you need is a cloud based server.

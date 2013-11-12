@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../css/boilerplate-316615c2.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../css/boilerplate-e8758d8c.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -116,6 +116,72 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">November 12, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/git-improvements-checkout-and-revert/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">Git Improvements: checkout and revert</a></h1>
+
+        
+        <p>As part of our mission to make working with Git in Codio as natural as working on your desktop, we&#39;ve added full support for the <code>checkout</code> and <code>revert</code> commands.</p>
+
+<h2 id="toc_0">Improved <code>checkout</code></h2>
+
+<p>You have always been able to use the <code>checkout</code> command in Codio to switch and create branches, but up until now it&#39;s not been possible to use <code>checkout</code>&#39;s other uses. Now you can...</p>
+
+<p><code>git checkout [&lt;tree-ish&gt;] [--] &lt;pathspec&gt;...</code></p>
+
+<h2 id="toc_1">Support for <code>revert</code></h2>
+
+<p>Revert is almost an complete implementation. Parameters supported:</p>
+
+<ul>
+<li><code>-m|--mainline parent-number</code></li>
+<li><code>-n|--no-commit</code></li>
+<li><code>&lt;commit&gt;...</code></li>
+</ul>
+
+<hr>
+
+<p>Plenty more to come, but post your wanted git commands and options/flags on the <a href="http://forum.codio.com">forum</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/" data-via="codiohq" data-size="small" data-count="none" data-text="Git Improvements: checkout and revert">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -477,65 +543,6 @@ options:
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/10/more-creation-options/">October 30, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/10/more-creation-options/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></h1>
-
-        
-          <img alt="More Project Creation Options" align="left" class="blog-img" src="/s/img/blog/project-create-9f0f7eee.png" />
-        
-        <p><a href="/s/blog/2013/10/automatic-upload-ssh-key/">Yesterday</a> we added automatic upload of your Codio public key to any server of your choosing, and today we&#39;ve added even more options to the project creation process. We want to make it faster and easier for you to get your code into Codio and begin coding as fast as possible.</p>
-
-<p>So we now have six different ways to create a project in Codio:</p>
-
-<ol>
-<li><p><strong>Template</strong> - Create a project based on a selection of templates, which include HTML5 Boilerplate and a simple empty skeleton. We also have a special <a href="https://codio.com/codio-templates">Template account</a>, which include boilerplate code for some of the most popular open source frameworks, including EmberJS, FirefoxOS and Backbone. To use any of these, simply open the project and fork it via the <code>Project &gt; Fork...</code> menu item.</p></li>
-<li><p><strong>Git</strong> - You can create a new project by cloning any Git repository - public or private. We support cloning over SSH and HTTP(S). This will also setup an <code>origin</code> Git remote so you can continue to push and pull between your new Codio project and it&#39;s Git repository.</p></li>
-<li><p><strong>Mercurial</strong> - Import code from any Mercurial repository.</p></li>
-<li><p><strong>Zip</strong> - Upload any zip file and we&#39;ll unzip it and create a new project with its contents.</p></li>
-<li><p><strong>FTP and SFTP</strong> - The newest option is to import from any FTP server. Just specify the server you wish to import from, and we&#39;ll do the rest. We even support SFTP, which means that you can connect securely using your Codio SSH public key.</p></li>
-<li><p><strong>Salesforce</strong> - If you work with Salesforce, we&#39;ve integrated its Tooling API to allow you to work with your Salesforce classes and triggers. Just enter your credentials and we&#39;ll pull in your code with into Codio. You can then continue to pull and push your code to Salesforce.</p></li>
-</ol>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/10/more-creation-options/" data-via="codiohq" data-size="small" data-count="none" data-text="More Project Creation Options">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/10/more-creation-options/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/10/more-creation-options/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -557,6 +564,9 @@ options:
       <ul>
         
           
+          <li><a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">Git Improvements: checkout and revert</a></li>
+        
+          
           <li><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></li>
         
           
@@ -570,9 +580,6 @@ options:
         
           
           <li><a href="/s/blog/2013/11/ssh/">SSH Terminal</a></li>
-        
-          
-          <li><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></li>
         
       </ul>
     </section>

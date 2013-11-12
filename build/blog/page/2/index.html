@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-316615c2.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-e8758d8c.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -116,6 +116,65 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/10/more-creation-options/">October 30, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/10/more-creation-options/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></h1>
+
+        
+          <img alt="More Project Creation Options" align="left" class="blog-img" src="/s/img/blog/project-create-9f0f7eee.png" />
+        
+        <p><a href="/s/blog/2013/10/automatic-upload-ssh-key/">Yesterday</a> we added automatic upload of your Codio public key to any server of your choosing, and today we&#39;ve added even more options to the project creation process. We want to make it faster and easier for you to get your code into Codio and begin coding as fast as possible.</p>
+
+<p>So we now have six different ways to create a project in Codio:</p>
+
+<ol>
+<li><p><strong>Template</strong> - Create a project based on a selection of templates, which include HTML5 Boilerplate and a simple empty skeleton. We also have a special <a href="https://codio.com/codio-templates">Template account</a>, which include boilerplate code for some of the most popular open source frameworks, including EmberJS, FirefoxOS and Backbone. To use any of these, simply open the project and fork it via the <code>Project &gt; Fork...</code> menu item.</p></li>
+<li><p><strong>Git</strong> - You can create a new project by cloning any Git repository - public or private. We support cloning over SSH and HTTP(S). This will also setup an <code>origin</code> Git remote so you can continue to push and pull between your new Codio project and it&#39;s Git repository.</p></li>
+<li><p><strong>Mercurial</strong> - Import code from any Mercurial repository.</p></li>
+<li><p><strong>Zip</strong> - Upload any zip file and we&#39;ll unzip it and create a new project with its contents.</p></li>
+<li><p><strong>FTP and SFTP</strong> - The newest option is to import from any FTP server. Just specify the server you wish to import from, and we&#39;ll do the rest. We even support SFTP, which means that you can connect securely using your Codio SSH public key.</p></li>
+<li><p><strong>Salesforce</strong> - If you work with Salesforce, we&#39;ve integrated its Tooling API to allow you to work with your Salesforce classes and triggers. Just enter your credentials and we&#39;ll pull in your code with into Codio. You can then continue to pull and push your code to Salesforce.</p></li>
+</ol>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/10/more-creation-options/" data-via="codiohq" data-size="small" data-count="none" data-text="More Project Creation Options">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/10/more-creation-options/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/10/more-creation-options/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -483,82 +542,6 @@ fullscreen = Cmd-Shift-F
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/">September 30, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/">The Latest and Greatest - Why we only Support Modern Browsers</a></h1>
-
-        
-          <img alt="The Latest and Greatest - Why we only Support Modern Browsers" align="left" class="blog-img" src="/s/img/blog/browsers-0df3f9dd.jpg" />
-        
-        <p>So we&#39;ve been getting a few questions about our browser support recently, in particular why it is that we only support the most recent versions of the most popular browsers. So I thought I&#39;d answer that question here.</p>
-
-<p>Basically, it all boils down to two things...</p>
-
-<h2 id="toc_0">Maintainability</h2>
-
-<p>Codio is an extremely complex beast, built up of several individual applications and all needing to live together in perfect harmony. So needless to say, it takes a fair bit of work to maintain, and ensure that everything keeps working as it should.</p>
-
-<p>Also, as you will most likely know, building a web application is an entirely different experience than building server side applications. Most of the time, this experience is great, but the one big thing that sets web development apart is the endless struggle to make your app look and work great in dozens and dozens of browser and OS combinations.</p>
-
-<p>We have to test each browser on every popular operating system, and we have to do this continually. Of course, there are tools and services out there that can help us with this, but it is still very hard and extremely resource intensive. Because of our &quot;Ship It&quot; mantra, we need to move and react fast, and this includes browser testing.</p>
-
-<h2 id="toc_1">Functionality</h2>
-
-<p>Codio is an environment designed and built to make your life easier. It includes some pretty unique features, as well as a lot of features that you all expect to see in the the best IDEs and text editors.</p>
-
-<p>Old browsers can severely restrict and constrain what we are able to build. For example, our support for multi-panel layouts wouldn&#39;t be possible without the latest FlexBox features of CSS3.</p>
-
-<p>We simply wouldn&#39;t be able to deliver the best features and the best user experience to you, if we still had to support old browsers. We would only be shipping new features, improvements and bug fixes every couple of weeks, instead of every day, like we do currently.</p>
-
-<p>We believe that you deserve the latest and greatest, so we only support the latest and greatest browsers:</p>
-
-<ul>
-<li>Chrome 21 or later</li>
-<li>Firefox 22 or later</li>
-<li>IE 10 or later</li>
-<li>Safari 6 or later</li>
-<li>Opera 12 or later</li>
-</ul>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/" data-via="codiohq" data-size="small" data-count="none" data-text="The Latest and Greatest - Why we only Support Modern Browsers">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -582,6 +565,9 @@ fullscreen = Cmd-Shift-F
       <ul>
         
           
+          <li><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></li>
+        
+          
           <li><a href="/s/blog/2013/10/automatic-upload-ssh-key/">Automatically Upload your Codio Public SSH Key</a></li>
         
           
@@ -596,9 +582,6 @@ fullscreen = Cmd-Shift-F
           
           <li><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></li>
         
-          
-          <li><a href="/s/blog/2013/09/latest-and-greatest-why-we-only-support-modern-browsers/">The Latest and Greatest - Why we only Support Modern Browsers</a></li>
-        
       </ul>
     </section>
 
@@ -607,13 +590,13 @@ fullscreen = Cmd-Shift-F
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">Git Improvements: checkout and revert</a></li>
+          
             <li><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></li>
           
             <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>
           
             <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
-          
-            <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
           
         </ul>
       </section>

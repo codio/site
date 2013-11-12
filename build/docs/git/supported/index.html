@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-316615c2.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-e8758d8c.css" media="screen" rel="stylesheet" type="text/css" />
 
     
     <link href="../../../css/lib/rainbow/github-453e79e9.css" media="screen" rel="stylesheet" type="text/css" />
@@ -119,90 +119,140 @@
 
     <article id="doc-body" data-swiftype-index="true">
       <h1>Commands supported</h1>
-      <p>This page contains a list of all currently supported Git commands. Please note that the parameters indicated beneath each command are the only parameters supported. Please refer to the <a href="/s/docs/git/coming">coming soon</a> for information about new commands and command parameters we are working on.</p>
+      <p>This page contains a list of all currently supported Git commands. Please note that the parameters indicated beneath each command are the only parameters supported. Please refer to the <a href="/s/docs/git/coming">coming soon</a> for information about new commands and command parameters we are working on. If you cannot find a command and/or flag in these lists that you need, <a href="http://forum.codio.com">drop us a line</a> in the forum.</p>
 
 <h2 id="toc_0">add</h2>
 
 <ul>
-<li>parameters supported [-a, --all]</li>
+<li>parameters supported:
+
+<ul>
+<li><code>-a|--all</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-add">reference information</a></li>
 </ul>
 
 <h2 id="toc_1">branch</h2>
 
 <ul>
-<li>parameters supported [-r, --remotes, -a, --all, -d, -D]</li>
+<li>parameters supported:
+
+<ul>
+<li><code>-r|--remotes</code></li>
+<li><code>-a|--all</code></li>
+<li><code>-d</code></li>
+<li><code>-D</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-branch">reference information</a></li>
 </ul>
 
 <h2 id="toc_2">checkout</h2>
 
 <ul>
-<li>parameters supported [-b]</li>
+<li>parameters supported
+
+<ul>
+<li><code>-b</code></li>
+<li><code>[--] &lt;paths&gt;...</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-checkout">reference information</a></li>
 </ul>
 
 <h2 id="toc_3">commit</h2>
 
 <ul>
-<li>parameters supported [-a, --all, -m, --message]</li>
+<li>parameters supported:
+
+<ul>
+<li><code>-a|--all</code></li>
+<li><code>-m|--message</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-commit">reference information</a></li>
 </ul>
 
 <h2 id="toc_4">log</h2>
 
 <ul>
-<li>parameters supported []</li>
 <li><a href="http://git-scm.com/docs/git-log">reference information</a></li>
 </ul>
 
 <h2 id="toc_5">merge</h2>
 
 <ul>
-<li>parameters supported [--no-ff, -m]</li>
+<li>parameters supported:
+
+<ul>
+<li><code>--no-ff</code></li>
+<li><code>-m</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-merge">reference information</a></li>
 </ul>
 
 <h2 id="toc_6">pull</h2>
 
 <ul>
-<li>parameters supported []</li>
+<li>parameters supported
+
+<ul>
+<li><code>&lt;repository&gt; [&lt;refspec&gt;...]</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-pull">reference information</a></li>
 </ul>
 
 <h2 id="toc_7">push</h2>
 
 <ul>
-<li>parameters supported []</li>
+<li>parameters supported:
+
+<ul>
+<li><code>&lt;repository&gt; [&lt;refspec&gt;...]</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-push">reference information</a></li>
 </ul>
 
 <h2 id="toc_8">revert</h2>
 
 <ul>
-<li>parameters supported [-m, --mainline, -n, --no-commit, HEAD<sup><sup>...<sup>,</sup></sup></sup> HEAD~x
-]</li>
+<li>parameters supported:
+
+<ul>
+<li><code>-m|--mainline parent-number</code></li>
+<li><code>-n|--no-commit</code></li>
+<li><code>&lt;commit&gt;...</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-revert">reference information</a></li>
 </ul>
 
 <h2 id="toc_9">rm</h2>
 
 <ul>
-<li>parameters supported [-r]</li>
+<li>parameters supported:
+
+<ul>
+<li><code>-r</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-rm">reference information</a></li>
 </ul>
 
 <h2 id="toc_10">status</h2>
 
 <ul>
-<li>parameters supported []</li>
 <li><a href="http://git-scm.com/docs/git-status">reference information</a></li>
 </ul>
 
 <h2 id="toc_11">remote</h2>
 
 <ul>
-<li>parameters supported [add, rename, remove, rm, set-url, show, -v]</li>
+<li>parameters supported:
+
+<ul>
+<li><code>add</code></li>
+<li><code>rename</code></li>
+<li><code>remove|rm</code></li>
+<li><code>set-url</code></li>
+<li><code>show</code></li>
+<li><code>-v</code></li>
+</ul></li>
 <li><a href="http://git-scm.com/docs/git-remote">reference information</a></li>
 </ul>
 

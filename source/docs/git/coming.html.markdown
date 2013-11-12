@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-The following list contains the git commands coming soon and which parameters will be supported. They are listed in the order in which they will be released.
+The following list contains the git commands coming soon and which parameters will be supported. They are listed in the order in which they will be released. If you cannot find a command and/or flag in this list that you need, [drop us a line](http://forum.codio.com) in the forum.
 
   - [**fetch**](http://git-scm.com/docs/git-fetch)
 	--all
@@ -31,10 +31,6 @@ The following list contains the git commands coming soon and which parameters wi
 
 and this list are commands that are **already supported** but where some parameter support is not yet available
 
-  - [**checkout**](http://git-scm.com/docs/git-checkout)
-	-b <branch> <remote>/<remotebranch> checkout tracking branch.
-<path>... resets the given path.  
-
   - [**log**](http://git-scm.com/docs/git-log)
 	--follow
 	-<number>, -n <number>, --max-count=<number> (default: 20)
@@ -60,7 +56,7 @@ and this list are commands that are **already supported** but where some paramet
   - [**branch**](http://git-scm.com/docs/git-branch)
 	-v, --verbose
 	-m, --move
-	--set-upstream 
+	--set-upstream
 	--unset-upstream
 	--track
 	--no-track

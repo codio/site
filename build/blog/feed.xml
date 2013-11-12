@@ -9,6 +9,44 @@
     <name>Codio</name>
   </author>
   <entry>
+    <title>Git Improvements: checkout and revert</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/"/>
+    <id>https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/</id>
+    <published>2013-11-12T00:00:00Z</published>
+    <updated>2013-11-12T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;As part of our mission to make working with Git in Codio as natural as working on your desktop, we've added full support for the &lt;code&gt;checkout&lt;/code&gt; and &lt;code&gt;revert&lt;/code&gt; commands.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Improved &lt;code&gt;checkout&lt;/code&gt;
+&lt;/h2&gt;
+
+&lt;p&gt;You have always been able to use the &lt;code&gt;checkout&lt;/code&gt; command in Codio to switch...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;As part of our mission to make working with Git in Codio as natural as working on your desktop, we&amp;#39;ve added full support for the &lt;code&gt;checkout&lt;/code&gt; and &lt;code&gt;revert&lt;/code&gt; commands.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Improved &lt;code&gt;checkout&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;You have always been able to use the &lt;code&gt;checkout&lt;/code&gt; command in Codio to switch and create branches, but up until now it&amp;#39;s not been possible to use &lt;code&gt;checkout&lt;/code&gt;&amp;#39;s other uses. Now you can...&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git checkout [&amp;lt;tree-ish&amp;gt;] [--] &amp;lt;pathspec&amp;gt;...&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Support for &lt;code&gt;revert&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Revert is almost an complete implementation. Parameters supported:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-m|--mainline parent-number&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-n|--no-commit&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;commit&amp;gt;...&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Plenty more to come, but post your wanted git commands and options/flags on the &lt;a href="http://forum.codio.com"&gt;forum&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>New Theme: MBO</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/11/mbo-theme/"/>
     <id>https://codio.com/s/blog/2013/11/mbo-theme/</id>
@@ -210,30 +248,6 @@ options:
 &lt;h2 id="toc_3"&gt;Thanks&lt;/h2&gt;
 
 &lt;p&gt;Thanks to Christopher Jeffrey for his &lt;a href="https://github.com/chjj/tty.js"&gt;tty.js&lt;/a&gt; library. We&amp;#39;ve just donated through &lt;a href="http://www.iloveopensource.io"&gt;ILoveOpenSource.io&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>More Project Creation Options</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/10/more-creation-options/"/>
-    <id>https://codio.com/s/blog/2013/10/more-creation-options/</id>
-    <published>2013-10-30T00:00:00Z</published>
-    <updated>2013-10-30T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;a href="/s/blog/2013/10/automatic-upload-ssh-key/"&gt;Yesterday&lt;/a&gt; we added automatic upload of your Codio public key to any server of your choosing, and today we've added even more options to the project creation process. We want to make it faster and easier for you to get your code into Codio and begin...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;a href="/s/blog/2013/10/automatic-upload-ssh-key/"&gt;Yesterday&lt;/a&gt; we added automatic upload of your Codio public key to any server of your choosing, and today we&amp;#39;ve added even more options to the project creation process. We want to make it faster and easier for you to get your code into Codio and begin coding as fast as possible.&lt;/p&gt;
-
-&lt;p&gt;So we now have six different ways to create a project in Codio:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Template&lt;/strong&gt; - Create a project based on a selection of templates, which include HTML5 Boilerplate and a simple empty skeleton. We also have a special &lt;a href="https://codio.com/codio-templates"&gt;Template account&lt;/a&gt;, which include boilerplate code for some of the most popular open source frameworks, including EmberJS, FirefoxOS and Backbone. To use any of these, simply open the project and fork it via the &lt;code&gt;Project &amp;gt; Fork...&lt;/code&gt; menu item.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; - You can create a new project by cloning any Git repository - public or private. We support cloning over SSH and HTTP(S). This will also setup an &lt;code&gt;origin&lt;/code&gt; Git remote so you can continue to push and pull between your new Codio project and it&amp;#39;s Git repository.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Mercurial&lt;/strong&gt; - Import code from any Mercurial repository.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Zip&lt;/strong&gt; - Upload any zip file and we&amp;#39;ll unzip it and create a new project with its contents.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;FTP and SFTP&lt;/strong&gt; - The newest option is to import from any FTP server. Just specify the server you wish to import from, and we&amp;#39;ll do the rest. We even support SFTP, which means that you can connect securely using your Codio SSH public key.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Salesforce&lt;/strong&gt; - If you work with Salesforce, we&amp;#39;ve integrated its Tooling API to allow you to work with your Salesforce classes and triggers. Just enter your credentials and we&amp;#39;ll pull in your code with into Codio. You can then continue to pull and push your code to Salesforce.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </content>
   </entry>
 </feed>

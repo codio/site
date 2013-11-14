@@ -45,7 +45,7 @@ Once the search operation has completed you will see matches listed in a Codio t
 ![global search dialog](/img/docs/search-matches.png)
 
 ##Pattern & Wildcard Matching (Globs)
-When you are searching, you can specify a search pattern in the 'Files' field.
+When you are searching, you can specify a search pattern in the 'Where' field.
 
 Lets say you have the following project
 

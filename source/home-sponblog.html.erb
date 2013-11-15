@@ -7,114 +7,20 @@ class_name: home home-sponblog
 
 <aside class="home">
   <ul>
-    <li><a href="#import-go">Import &amp; go</a></li>    
-    <li><a href="#wp-themes">Code Away</a></li>
-    <li><a href="#deployment">Deploy Anywhere</a></li>    
-    <li><a href="#panels">IDE Panels &amp; Tabs</a></li>
-    <li><a href="#productivity">Productivity</a></li>
-    <li><a href="#terminal">SSH Terminal</a></li>
-    <li><a href="#sourcecontrol">Git Support</a></li>
+    <li><a href="#subject-matter">Subject Matter</a></li>    
+    <li><a href="#payment">Remuneration</a></li>
+    <li><a href="#use-codio">Using Codio</a></li>    
+    <li><a href="#annotate">Annotations</a></li>
+    <li><a href="#ready">Apply Now</a></li>
   </ul>
 </aside>
 
-<%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
-<%= partial 'partials/home-php/import-go-wp' %>
-<%= partial 'partials/home-php/wp-themes' %>
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Sweet, this is like the BEST browser IDE I've used on my chromebook so far! Great job with this guys."</blockquote>
-      <span>
-        <a href="https://twitter.com/amyrhaq" target="_blank">
-          <%= image_tag 'https://si0.twimg.com/profile_images/2422654062/uxeq37lgme1mk53q5372_bigger.jpeg', :width => 36 %>
-          @amyrhaq
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-<%= partial 'partials/home-php/deployment' %>
-<%= partial 'partials/home/panels' %>
-
-
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Codio is better, more stable, and put together by people who really know what other coders want and need! You guys are doing an awesome job. Keep up the great work!"</blockquote>
-      <span>
-        <a href="https://twitter.com/du_mass92" target="_blank">
-          <%= image_tag 'https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/1119388_100002398251247_307417002_q.jpg', :width => 36 %>
-          @du_mass92
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-<%= partial 'partials/home/productivity' %>
-
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Starting using cloud-based IDE @CodioHQ in ernest - brilliant and highly recommended."</blockquote>
-      <span>
-        <a href="https://twitter.com/stephenwil" target="_blank">
-          <%= image_tag 'https://si0.twimg.com/profile_images/2462328170/image_bigger.jpg', :width => 36 %>
-          @stephenwil
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-<%= partial 'partials/home/terminal' %>
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Damn! The @CodioHQ Browser Based IDE looks amazing."</blockquote>
-      <span>
-        <a href="https://twitter.com/tristandenyer" target="_blank">
-          <%= image_tag 'https://si0.twimg.com/profile_images/348956527/n1235945463_9354_bigger.jpg', :width => 36 %>
-          @tristandenyer
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-
-<%= partial 'partials/home/sourcecontrol' %>
-
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Didn't know that there is such a good Web-IDE out there. Real-time offshore pair programming... Great Job @CodioHQ"</blockquote>
-      <span>
-        <a href="https://twitter.com/TechnikerTweets" target="_blank">
-          <%= image_tag 'https://si0.twimg.com/profile_images/3128642381/f95d394eb8436c481b46c15f500f65ec_bigger.png', :width => 36 %>
-          @TechnikerTweets
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
+<%= partial 'partials/home-sponblog/subject-matter' %>
+<%= partial 'partials/home-sponblog/payment' %>
+<%= partial 'partials/home-sponblog/use-codio' %>
+<%= partial 'partials/home-sponblog/annotations' %>
+<%= partial 'partials/home-sponblog/ready' %>
 
 
 <% content_for :foot do %>

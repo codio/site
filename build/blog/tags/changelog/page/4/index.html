@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../../../css/boilerplate-2356071e.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../../../css/boilerplate-f209ba33.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -116,6 +116,85 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/06/snippets/">June  1, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/06/snippets/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/06/snippets/">Snippets Released</a></h1>
+
+        
+        <p>Hot on the heels of Inline Preview comes support for Textmate style Snippets.</p>
+
+<p>Snippets are a great way of reducing typing by entering shorthand code, pressing the tab key and then seeing the shorthand expand into the longhand.</p>
+
+<p>For example in an HTML file ...</p>
+
+<p><code>iframe</code> + tab, expands</p>
+
+<pre><code>&lt;iframe src=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
+<p>In a CSS file ...</p>
+
+<p><code>bdi</code> + tab, expands to</p>
+
+<pre><code>-webkit-border-image: url();
+-moz-border-image: url();
+-o-border-image: url();
+</code></pre>
+
+<p>In a JS file ...</p>
+
+<p><code>for</code> + tab expands to</p>
+
+<pre><code>for (var i = 0; i &lt; Things.length; i++) {
+    Things[i]
+}
+</code></pre>
+
+<p>We&#39;ve made it very easy to review and search for snippets by including it right in the IDE.</p>
+
+<p><img alt="snippets" src="/s/img/blog/snippets-57ea6360.png" /></p>
+
+<p>Find out more by <a href="/s/docs/ide/emmet/snippets/">reading the documentation</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/06/snippets/" data-via="codiohq" data-size="small" data-count="none" data-text="Snippets Released">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/06/snippets/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/06/snippets/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -510,58 +589,6 @@ background-image: linear-gradient(left, #fc0, 30%, red);
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/04/secure-previewing/">April 29, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/04/secure-previewing/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/04/secure-previewing/">Securing Project Previews</a></h1>
-
-        
-          <img alt="Securing Project Previews" align="left" class="blog-img" src="/s/img/blog/preview-auth-70471f66.png" />
-        
-        <p>We are always extremely mindful of ensuring that your Codio experience is as secure and safe as possible. So with this in mind, we just rolled out a change in the way that you preview private projects. Previously, we used a cookie to authenticate such requests. This was done to ensure that only those with read permissions could actually preview. However, this method is prone to abuse and could allow an attacker to preview your private projects, regardless of whether they had permission to do so.</p>
-
-<p>This mornings release completely removes this dependence on cookies to authenticate when previewing. Instead, you will be prompted to enter your Codio login if and when you preview a private project.</p>
-
-<p>Please note, that you will not be prompted to authenticate when previewing public projects - for obvious reasons.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/04/secure-previewing/" data-via="codiohq" data-size="small" data-count="none" data-text="Securing Project Previews">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/04/secure-previewing/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/04/secure-previewing/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -585,6 +612,9 @@ background-image: linear-gradient(left, #fc0, 30%, red);
       <ul>
         
           
+          <li><a href="/s/blog/2013/06/snippets/">Snippets Released</a></li>
+        
+          
           <li><a href="/s/blog/2013/05/inline-preview/">Inline preview released</a></li>
         
           
@@ -599,14 +629,13 @@ background-image: linear-gradient(left, #fc0, 30%, red);
           
           <li><a href="/s/blog/2013/04/annotations-released/">Codio:Annotations Released</a></li>
         
-          
-          <li><a href="/s/blog/2013/04/secure-previewing/">Securing Project Previews</a></li>
-        
       </ul>
 
       
         <h4>Latest posts...</h4>
         <ul>
+          
+            <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
           
             <li><a href="/s/blog/2013/11/deploy-preview/">Deploy & Preview</a></li>
           
@@ -621,8 +650,6 @@ background-image: linear-gradient(left, #fc0, 30%, red);
             <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
           
             <li><a href="/s/blog/2013/11/ssh/">SSH Terminal</a></li>
-          
-            <li><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></li>
           
         </ul>
       

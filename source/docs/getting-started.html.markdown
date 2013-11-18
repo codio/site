@@ -29,9 +29,11 @@ There are several ways to start off
 
 All of these are full described [here](/docs/console/creating).
 
-If you are working on back-end code such as PHP, Node, Ruby, Python or with any PHP based CMS such as Wordpress, Joomla or Drupal, then please refer to this [chapter](/docs/back-end/).
+##3. PHP, Wordpress Users
+If you are working on back-end code such as PHP, Wordpress, Drupal, Joomla as well as back-end languages like Node, Ruby, Python etc. then please refer to this [chapter](/docs/back-end/).
 
-##3. You're in the IDE
+
+##4. You're in the IDE
 Once you're in the IDE, which you will be automatically after creating a project or opening an existing one, you're ready to start coding.
 
 The most important thing is for you to be aware of the features that are available so you can take advantage of them when you need them. Here's a list ...

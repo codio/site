@@ -34,14 +34,16 @@ Be sure to read about our [Panel Management](/docs/panels) features so you can c
 ##Deployment Targets
 Your project can have any number of [deployment targets](/docs/deployment). If you imported from FTP or SFTP, you will see that one was already created for you.
 
-You can create any number of deployment targets for development, production and staging.
+**IMPORTANT** : If your server supports it (and most, including Digital Ocean do), then we very strongly recommend choosing the [RSYNC deployment type](/docs/deployment/type-rsync). This ensures that only modified files get deployed, so it is very fast indeed and comes close to the experience you have working on a local machine.
+
+If your remote server does not support RSYNC, then you can [deploy specific files and folders](/docs/deployment/specific-files) only using FTP or SFTP. This avoids your entire project getting deployed.
 
 ![ssh](/img/docs/deploy-details.png)
 
-**IMPORTANT** : If your server supports it (and most, including Digital Ocean do), then we very strongly recommend choosing the [RSYNC deployment type](/docs/deployment/type-rsync). This ensures that only modified files get deployed, so it is very fast indeed and comes close to the experience you have working on a local machine.
+You can create any number of deployment targets for development, production and staging.
 
 ##Previewing your application
-You will want preview your application as you code. The [Preview & Deploy](/docs/inline-preview) capability lets you make a code change and then press a single button to deploy your changes - again, RSYNC will only deploy changed files - and automatically preview them.
+You will want to preview your application as you code. The [Preview & Deploy](/docs/inline-preview) capability lets you make a code change and then press a single button to deploy your changes - again, RSYNC will only deploy changed files - and automatically preview them.
 
 
 

@@ -25,6 +25,8 @@ You can switch between Project Index and Current File by selecting the dropdown 
 ##Deploy before Preview
 **VERY IMPORTANT** : if you are going to use this option, you should make sure that you are using an RSYNC deployment target type. If you don't, then each time you execute a deploy and preview, your entire project will get deployed rather than just modified files.
 
+If you are using an FTP remote server, then you should deploy only [specific files and folders](/docs/deployment/specific-files).
+
 If you are working on a file that requires deployment to a remote server (a PHP, Ruby or Node file for example), then you will probably want to select the Deploy Before Preview option from the Preview dropdown menu. This will ensure that the file is properly deployed to the remote server before the preview.
 
 When you check the Deploy Before Preview option in the dropdown, you will see that the button label changes from Preview to Deploy & Preview.

@@ -4,10 +4,31 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-11-18T00:00:00Z</updated>
+  <updated>2013-11-19T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Quick Open</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/quick-open/"/>
+    <id>https://codio.com/s/blog/2013/11/quick-open/</id>
+    <published>2013-11-19T00:00:00Z</published>
+    <updated>2013-11-19T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;Quick open (default is Cmd+O/Ctrl+O) also known as fast open, is a great way of opening files without the need to access the file tree. Press Cmd+O/Ctrl+O or select File-&amp;gt;Open File from the menu and the quick open dialog will appear.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png"&gt;&lt;/p&gt;
+
+&lt;p&gt;You can now...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Quick open (default is Cmd+O/Ctrl+O) also known as fast open, is a great way of opening files without the need to access the file tree. Press Cmd+O/Ctrl+O or select File-&gt;Open File from the menu and the quick open dialog will appear.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can now start typing the name of a file and as you type, the list will be filtered. You can then select the file you want using the mouse or use the keyboard, pressing &lt;code&gt;Enter&lt;/code&gt; on the required file.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>SSH Public Key Management</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/11/ssh-public-keys/"/>
@@ -69,7 +90,7 @@
 &lt;p&gt;We&amp;#39;ve added a few extra options to this new button that can be accessed vis the buttons dropdown menu. These options can change the behaviour of the button to help create a workflow suited to your needs:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Deploy before Preview&lt;/strong&gt; - Deploys your project immediately before previewing. This works perfectlt with the Rsync deployment type, as only modified files will get deployed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deploy before Preview&lt;/strong&gt; - Deploys your project immediately before previewing. This works perfectly with the Rsync deployment type, as only modified files will get deployed.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Deploy in a Codio tab&lt;/strong&gt; - Opens the preview inside a Codio tab.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Default Deployment Target&lt;/strong&gt; - If you&amp;#39;re using the deploy before preview option, this default deployment target specifies which server will be deployed to.&lt;/li&gt;
 &lt;/ul&gt;
@@ -157,39 +178,6 @@ theme = mbo
 &lt;hr&gt;
 
 &lt;p&gt;Plenty more to come, but post your wanted git commands and options/flags on the &lt;a href="http://forum.codio.com"&gt;forum&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Global Search and Replace</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/search-replace/"/>
-    <id>https://codio.com/s/blog/2013/11/search-replace/</id>
-    <published>2013-11-11T00:00:00Z</published>
-    <updated>2013-11-11T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;One big omission from Codio so far has been powerful search and replace functionality across your entire project. We've had search and replace in files, but up until now it's not been possible to search across all files within your project. Well, we...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&amp;#39;ve had search and replace in files, but up until now it&amp;#39;s not been possible to search across all files within your project. Well, we&amp;#39;ve corrected this now.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_0"&gt;Globs and pattern matching&lt;/h3&gt;
-
-&lt;p&gt;As well as being able to search on simple strings across the entire project, you can use &lt;a href="/s/docs/ide/code-editor/search-replace"&gt;glob pattern matching&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The above image shows how you can look for matches of the word &lt;code&gt;step&lt;/code&gt; in all &lt;code&gt;js&lt;/code&gt; files across the whole project. Or, you could look for all files ending in &lt;code&gt;.html&lt;/code&gt; or &lt;code&gt;.coffee&lt;/code&gt; in just the &lt;code&gt;lib&lt;/code&gt; folder:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;lib/*{.html,.coffee}&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_1"&gt;Matches&lt;/h3&gt;
-
-&lt;p&gt;Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /&gt;&lt;/p&gt;
-
-&lt;h3 id="toc_2"&gt;We&amp;#39;ve open sourced some stuff&lt;/h3&gt;
-
-&lt;p&gt;In doing this, we decided to &lt;a href="/s/blog/2013/11/snr/"&gt;open source the back-end&lt;/a&gt; search capabilities. SnR is a Node application and uses &lt;code&gt;ack&lt;/code&gt; and &lt;code&gt;perl&lt;/code&gt; to provide a powerful way to search within code.&lt;/p&gt;
 </content>
   </entry>
   <entry>

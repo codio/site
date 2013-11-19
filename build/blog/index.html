@@ -121,6 +121,56 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/11/quick-open/">November 19, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/quick-open/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/quick-open/">Quick Open</a></h1>
+
+        
+        <p>Quick open (default is Cmd+O/Ctrl+O) also known as fast open, is a great way of opening files without the need to access the file tree. Press Cmd+O/Ctrl+O or select File->Open File from the menu and the quick open dialog will appear.</p>
+
+<p><img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png" /></p>
+
+<p>You can now start typing the name of a file and as you type, the list will be filtered. You can then select the file you want using the mouse or use the keyboard, pressing <code>Enter</code> on the required file.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/quick-open/" data-via="codiohq" data-size="small" data-count="none" data-text="Quick Open">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/quick-open/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/quick-open/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/11/ssh-public-keys/">November 18, 2013</a>
             
               <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
@@ -215,7 +265,7 @@
 <p>We&#39;ve added a few extra options to this new button that can be accessed vis the buttons dropdown menu. These options can change the behaviour of the button to help create a workflow suited to your needs:</p>
 
 <ul>
-<li><strong>Deploy before Preview</strong> - Deploys your project immediately before previewing. This works perfectlt with the Rsync deployment type, as only modified files will get deployed.</li>
+<li><strong>Deploy before Preview</strong> - Deploys your project immediately before previewing. This works perfectly with the Rsync deployment type, as only modified files will get deployed.</li>
 <li><strong>Deploy in a Codio tab</strong> - Opens the preview inside a Codio tab.</li>
 <li><strong>Default Deployment Target</strong> - If you&#39;re using the deploy before preview option, this default deployment target specifies which server will be deployed to.</li>
 </ul>
@@ -393,72 +443,6 @@ theme = mbo
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/11/search-replace/">November 11, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/11/search-replace/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></h1>
-
-        
-        <p>One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&#39;ve had search and replace in files, but up until now it&#39;s not been possible to search across all files within your project. Well, we&#39;ve corrected this now.</p>
-
-<p><img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /></p>
-
-<h3 id="toc_0">Globs and pattern matching</h3>
-
-<p>As well as being able to search on simple strings across the entire project, you can use <a href="/s/docs/ide/code-editor/search-replace">glob pattern matching</a>.</p>
-
-<p>The above image shows how you can look for matches of the word <code>step</code> in all <code>js</code> files across the whole project. Or, you could look for all files ending in <code>.html</code> or <code>.coffee</code> in just the <code>lib</code> folder:</p>
-
-<p><code>lib/*{.html,.coffee}</code></p>
-
-<h3 id="toc_1">Matches</h3>
-
-<p>Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.</p>
-
-<p><img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /></p>
-
-<h3 id="toc_2">We&#39;ve open sourced some stuff</h3>
-
-<p>In doing this, we decided to <a href="/s/blog/2013/11/snr/">open source the back-end</a> search capabilities. SnR is a Node application and uses <code>ack</code> and <code>perl</code> to provide a powerful way to search within code.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/search-replace/" data-via="codiohq" data-size="small" data-count="none" data-text="Global Search and Replace">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/search-replace/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/search-replace/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
-      <article>
-        <section class="meta">
-          <p class="date">
             <a href="/s/blog/2013/11/snr/">November 11, 2013</a>
             
               <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
@@ -572,6 +556,9 @@ options:
       <ul>
         
           
+          <li><a href="/s/blog/2013/11/quick-open/">Quick Open</a></li>
+        
+          
           <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
         
           
@@ -582,9 +569,6 @@ options:
         
           
           <li><a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">Git Improvements: checkout and revert</a></li>
-        
-          
-          <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
         
           
           <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>

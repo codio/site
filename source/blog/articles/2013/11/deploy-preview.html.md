@@ -16,7 +16,7 @@ Let's say that you make a small modification to a Node or PHP file, and you then
 
 We've added a few extra options to this new button that can be accessed vis the buttons dropdown menu. These options can change the behaviour of the button to help create a workflow suited to your needs:
 
-- **Deploy before Preview** - Deploys your project immediately before previewing. This works perfectlt with the Rsync deployment type, as only modified files will get deployed.
+- **Deploy before Preview** - Deploys your project immediately before previewing. This works perfectly with the Rsync deployment type, as only modified files will get deployed.
 - **Deploy in a Codio tab** - Opens the preview inside a Codio tab.
 - **Default Deployment Target** - If you're using the deploy before preview option, this default deployment target specifies which server will be deployed to.
 

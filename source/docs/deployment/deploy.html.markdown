@@ -12,7 +12,7 @@ This let's you deploy to any of your deployment targets. You are shown a log if 
 ![deploy screen](/img/docs/deploy-menu.png)
 
 ##Preview (& Deploy)
-[Described here](), this offers deployment in combination with a preview immediately afterwards, all with a single click. It is recommended to use this method most of the time as at involves less actions.
+[Described here](/docs/inline-preview), this offers deployment in combination with a preview immediately afterwards, all with a single click. It is recommended to use this method most of the time as at involves less actions.
 
 ![deploy screen](/img/docs/deploy-button.png)
 

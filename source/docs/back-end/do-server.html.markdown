@@ -35,7 +35,7 @@ The Droplet creation process take a minute and it should then be ready to SSH in
 
 In the DigitalOcean Droplets dashboard you should see your newly created server along with its IP address.
 
-##Import a PHP project
+##Import your project
 As you selected the Wordpress image, an existing Wordpress application will be already present on the server. We will now import this.
 
 1. Log into Codio and from the Dashboard, select Create Project.
@@ -91,7 +91,7 @@ Later, if you want to deploy to a different server or location on the same serve
 Now we'll move on to how you would normally work in development. 
 
 ##Deploy & Preview
-If you are using an SFTP or FTP deployment target (RYSNC is better) then you should be careful using Deplpy & Preview as it will always deploy your entire project first. RSYNC only needs to deploy the modified files.
+If you are using an SFTP or FTP deployment target (RYSNC is better) then you should be careful using Deploy & Preview as it will always deploy your entire project first. RSYNC only needs to deploy the modified files.
 
 Working with the Preview button in the menu bar makes the whole [development and preview workflow](/docs/inline-preview) really effortless.
 

@@ -8,7 +8,7 @@ full_width: true
 published: false
 ---
 
-Quick open, also known as fast open, is a fast way of opening files without the need to access the file tree. Press `Alt+T` or select `File > Open File` from the menu and the quick open dialog will appear.
+Quick open, also known as fast open, is a fast way of opening files without the need to access the file tree. Press `Alt+U` or select `File > Open File` from the menu and the quick open dialog will appear.
 
 ![quick open](blog/quick-open.png)
 

@@ -12,4 +12,4 @@ Quick open (default is Cmd+O/Ctrl+O) also known as fast open, is a great way of 
 
 ![quick open](blog/quick-open.png)
 
-You now start typing the name of a file and as you type, the list will narrow down. You can then select the file you want using the mouse or use the keyboard, pressing Enter on the required file.
+You can now start typing the name of a file and as you type, the list will be filtered. You can then select the file you want using the mouse or use the keyboard, pressing `Enter` on the required file.

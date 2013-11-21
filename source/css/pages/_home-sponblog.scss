@@ -92,10 +92,10 @@ body.home-sponblog {
               // "ON ANY SUBJECT YOU LIKE" 
               &:nth-child(6) {
               display: block;
-                font: 45px gotham_light !important;
+                font: 32px gotham_light !important;
                 margin-top: -17px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 51px !important;
+                  font-size: 39px !important;
                 }
               }
 

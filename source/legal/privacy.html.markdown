@@ -26,7 +26,10 @@ submenu:
     active: true
   -
     text: Billing & Refunds
-    url: '../refund'    
+    url: '../refund'   
+  -
+    text: Sponsored Blog Terms & Conditions
+    url: '../sponblog'          
 ---
 
 **Effective August 7th, 2013.**

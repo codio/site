@@ -4,16 +4,44 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-11-19T00:00:00Z</updated>
+  <updated>2013-11-21T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
   <entry>
+    <title>Selective File Deployment</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/deploy-specific-files/"/>
+    <id>https://codio.com/s/blog/2013/11/deploy-specific-files/</id>
+    <published>2013-11-21T00:00:00Z</published>
+    <updated>2013-11-21T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;Although we like to push RSYNC as the fastest way of working with Codio, there are many users who want to work with hosting providers that only provide FTP access. &lt;/p&gt;
+
+&lt;p&gt;As a result, we have added a new feature that lets you choose what files or folders...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Although we like to push RSYNC as the fastest way of working with Codio, there are many users who want to work with hosting providers that only provide FTP access. &lt;/p&gt;
+
+&lt;p&gt;As a result, we have added a new feature that lets you choose what files or folders to deploy.&lt;/p&gt;
+
+&lt;p&gt;There are two ways to deploy selectively&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;select any files or folders in the file tree and then right-click and select the Deploy option&lt;/li&gt;
+&lt;li&gt;right click in the tab above the file you are editing and do the same.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt="specific files" src="/s/img/blog/deploy-specific-4a409df2.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because Codio is cloud based and your target FTP server probably is, too, this deployment will be very fast, so developing like this is perfectly possible.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Quick Open</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/11/quick-open/"/>
     <id>https://codio.com/s/blog/2013/11/quick-open/</id>
-    <published>2013-11-19T00:00:00Z</published>
-    <updated>2013-11-19T00:00:00Z</updated>
+    <published>2013-11-21T00:00:00Z</published>
+    <updated>2013-11-21T00:00:00Z</updated>
     <author>
       <name>Freddy May</name>
     </author>
@@ -116,33 +144,6 @@
 </content>
   </entry>
   <entry>
-    <title>New Theme: MBO</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/mbo-theme/"/>
-    <id>https://codio.com/s/blog/2013/11/mbo-theme/</id>
-    <published>2013-11-12T00:00:00Z</published>
-    <updated>2013-11-12T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Here's a little goodie for you... we just added an all new theme called MBO:&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;To change your theme, click the &lt;code&gt;Codio &amp;gt; Preferences... &amp;gt; User&lt;/code&gt; menu item. You will then see the &lt;a href="/s/docs/settings-prefs/codio-prefs/"&gt;preferences editor&lt;/a&gt;. Just add these few lines to the left side of the editor...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Here&amp;#39;s a little goodie for you... we just added an all new theme called MBO:&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;To change your theme, click the &lt;code&gt;Codio &amp;gt; Preferences... &amp;gt; User&lt;/code&gt; menu item. You will then see the &lt;a href="/s/docs/settings-prefs/codio-prefs/"&gt;preferences editor&lt;/a&gt;. Just add these few lines to the left side of the editor:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="ini"&gt;[editor]
-theme = mbo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
     <title>Git Improvements: checkout and revert</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/"/>
     <id>https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/</id>
@@ -181,65 +182,30 @@ theme = mbo
 </content>
   </entry>
   <entry>
-    <title>Search and Replace with SnR</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/snr/"/>
-    <id>https://codio.com/s/blog/2013/11/snr/</id>
-    <published>2013-11-11T00:00:00Z</published>
-    <updated>2013-11-11T00:00:00Z</updated>
+    <title>New Theme: MBO</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/mbo-theme/"/>
+    <id>https://codio.com/s/blog/2013/11/mbo-theme/</id>
+    <published>2013-11-12T00:00:00Z</published>
+    <updated>2013-11-12T00:00:00Z</updated>
     <author>
-      <name>Friedel Ziegelmayer</name>
+      <name>Joel Moss</name>
     </author>
-    <summary type="html">&lt;p&gt;As you might have noticed, today marked the release of &lt;a href="/s/blog/2013/11/search-replace"&gt;global search and replace&lt;/a&gt; in Codio. It's built using the tried and tested tools, &lt;a href="http://beyondgrep.com/"&gt;ack&lt;/a&gt; and perl. While we were building this we realized that it would be great to have a simple command line tool...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;As you might have noticed, today marked the release of &lt;a href="/s/blog/2013/11/search-replace"&gt;global search and replace&lt;/a&gt; in Codio. It&amp;#39;s built using the tried and tested tools, &lt;a href="http://beyondgrep.com/"&gt;ack&lt;/a&gt; and perl. While we were building this we realized that it would be great to have a simple command line tool to do both search and replace based on these two tools. So today I present the software that came out of that wish: &lt;a href="https://npmjs.org/package/snr"&gt;SnR&lt;/a&gt;. We&amp;#39;ve open sourced it and released it as a &lt;a href="https://npmjs.org/package/snr"&gt;Node package&lt;/a&gt;. The source is publicly available on &lt;a href="https://github.com/codio/snr"&gt;Github&lt;/a&gt;.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Here's a little goodie for you... we just added an all new theme called MBO:&lt;/p&gt;
 
-&lt;h2 id="toc_0"&gt;What?&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png"&gt;&lt;/p&gt;
 
-&lt;p&gt;As already discussed SnR gives you a simple command line interface to search and replace built on top of &lt;a href="http://beyondgrep.com/"&gt;ack&lt;/a&gt; and perl, and it works like this:&lt;/p&gt;
+&lt;p&gt;To change your theme, click the &lt;code&gt;Codio &amp;gt; Preferences... &amp;gt; User&lt;/code&gt; menu item. You will then see the &lt;a href="/s/docs/settings-prefs/codio-prefs/"&gt;preferences editor&lt;/a&gt;. Just add these few lines to the left side of the editor...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Here&amp;#39;s a little goodie for you... we just added an all new theme called MBO:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class="bash"&gt;# Inside your project folder
-$ snr --replace &amp;quot;console.log&amp;quot; &amp;quot;console.info&amp;quot; &amp;quot;**/*.js&amp;quot;
+&lt;p&gt;&lt;img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;To change your theme, click the &lt;code&gt;Codio &amp;gt; Preferences... &amp;gt; User&lt;/code&gt; menu item. You will then see the &lt;a href="/s/docs/settings-prefs/codio-prefs/"&gt;preferences editor&lt;/a&gt;. Just add these few lines to the left side of the editor:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="ini"&gt;[editor]
+theme = mbo
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id="toc_1"&gt;How?&lt;/h2&gt;
-
-&lt;p&gt;To get started just make sure you have perl and Node (with NPM) installed, and then run &lt;code&gt;npm install -g snr&lt;/code&gt;. That&amp;#39;s it, now you can go and replace all the things.&lt;/p&gt;
-
-&lt;p&gt;For simple usage take a look at these examples:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="bash"&gt;# Find all occurences of foo inside all python files
-$ snr foo &amp;quot;**/*.py&amp;quot;
-src/index.js
-301-        // catch (e) {
-302-        //     //:todo change to correct bar
-303:        //     foo(e);
-304-        //     //bar(e);
-305-        // }
-Found 1 match(es) in 1 file(s).
-# Replace all occurences of foo with bar inside all python files
-$ snr --replace bar foo &amp;quot;**/*.py&amp;quot;
-Replaced 1 match(es) in 1 file(s).
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and for more advance usage:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="bash"&gt;$ snr --help
-usage: snr [OPTION]... PATTERN [FILES OR DIRECTORIES OR GLOBS]
-options:
-    -i, --ignore-case       Ignore case distinctions in PATTERN.
-    -Q, --literal           Quote all metacharacters; PATTERN is literal.
-    --max-result-count=NUM  Stop after NUM results.
-    --replace=REPlACE       Replace all matches with REPLACE.
-    -h, --help              Print this help and exit.
-    -v, --version           Print the current version.
-    -C NUM, --context=NUM   Print NUM lines of output context.
-    -w, --word-regexp       Force PATTERN to match only whole words.
-    --color-lineno=COLOR    Set the color for filenames, matches, and line
-                            numbers.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="toc_2"&gt;What&amp;#39;s next?&lt;/h2&gt;
-
-&lt;p&gt;There is even more goodness inside. You can use SnR as a module inside your node app as well, just install it and &lt;code&gt;require(&amp;#39;snr&amp;#39;)&lt;/code&gt; to get started. More info on that can be found on the &lt;a href="https://github.com/codio/snr"&gt;github repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
   </entry>
 </feed>

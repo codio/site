@@ -87,8 +87,8 @@ section {
       background-size: 45%;
 
       @include apply-to(less-than, desktop) {
-        background-position: -4px center;
-        background-size: 48%;
+        background-position: -142px center;
+        background-size: 68%;
       }
 
       > div {
@@ -132,7 +132,7 @@ section {
 
   &#annotate .container {
     background: transparent image-url("home/screens/annotations.png") no-repeat 675px;
-    background-size: 500px;
+    background-size: 550px;
 
     @include apply-to(more-than, desktop) {
       background-position: 758px;

@@ -39,6 +39,12 @@ section {
       }
     }
 
+    li {
+      font: 17px gotham_light;
+      line-height: 1.7em;
+      margin: 0px -6px 0px -15px;       
+    }
+
     .coming-soon {
       font: 14px gotham_light;
       font-style: italic;
@@ -51,16 +57,17 @@ section {
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/blackboard.png') no-repeat -20px center;
-      background-size: 45%;
+      background-size: 48%;
+      background-position: -26px 136px;
 
       @include apply-to(less-than, desktop) {
-        background-position: -247px center;
+        background-position: -204px 136px;
         background-size: 82%;
       }
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 14px;
+        background-size: 11px;
         padding: 130px 0 130px 429px;
         width: 421px;
 
@@ -86,7 +93,7 @@ section {
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 14px;
+        background-size: 11px;
         padding: 130px 0 130px 429px;
         width: 421px;
 
@@ -102,12 +109,12 @@ section {
   &#payment {
     .container {
       background: transparent image-url("home/screens/payment.png") no-repeat;
-      background-size: 30%;
-      background-position: 714px;
+      background-size: 25%;
+      background-position: 736px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 855px;
-        background-size: 30%;        
+        background-position: 870px;
+        background-size: 29%;        
       }
 
       > div {

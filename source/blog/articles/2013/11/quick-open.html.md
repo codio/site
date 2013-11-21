@@ -1,7 +1,7 @@
 ---
 title: Quick Open
 author: Freddy May
-date: 2013-11-19
+date: 2013-11-21
 tags: Changelog
 class_name: blog
 full_width: true

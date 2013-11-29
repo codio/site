@@ -121,6 +121,138 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">November 12, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/git-improvements-checkout-and-revert/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">Git Improvements: checkout and revert</a></h1>
+
+        
+        <p>As part of our mission to make working with Git in Codio as natural as working on your desktop, we&#39;ve added full support for the <code>checkout</code> and <code>revert</code> commands.</p>
+
+<h2 id="toc_0">Improved <code>checkout</code></h2>
+
+<p>You have always been able to use the <code>checkout</code> command in Codio to switch and create branches, but up until now it&#39;s not been possible to use <code>checkout</code>&#39;s other uses. Now you can...</p>
+
+<p><code>git checkout [&lt;tree-ish&gt;] [--] &lt;pathspec&gt;...</code></p>
+
+<h2 id="toc_1">Support for <code>revert</code></h2>
+
+<p>Revert is almost an complete implementation. Parameters supported:</p>
+
+<ul>
+<li><code>-m|--mainline parent-number</code></li>
+<li><code>-n|--no-commit</code></li>
+<li><code>&lt;commit&gt;...</code></li>
+</ul>
+
+<hr>
+
+<p>Plenty more to come, but post your wanted git commands and options/flags on the <a href="http://forum.codio.com">forum</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/" data-via="codiohq" data-size="small" data-count="none" data-text="Git Improvements: checkout and revert">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/11/search-replace/">November 11, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/search-replace/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></h1>
+
+        
+        <p>One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&#39;ve had search and replace in files, but up until now it&#39;s not been possible to search across all files within your project. Well, we&#39;ve corrected this now.</p>
+
+<p><img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /></p>
+
+<h3 id="toc_0">Globs and pattern matching</h3>
+
+<p>As well as being able to search on simple strings across the entire project, you can use <a href="/s/docs/ide/code-editor/search-replace">glob pattern matching</a>.</p>
+
+<p>The above image shows how you can look for matches of the word <code>step</code> in all <code>js</code> files across the whole project. Or, you could look for all files ending in <code>.html</code> or <code>.coffee</code> in just the <code>lib</code> folder:</p>
+
+<p><code>lib/*{.html,.coffee}</code></p>
+
+<h3 id="toc_1">Matches</h3>
+
+<p>Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.</p>
+
+<p><img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /></p>
+
+<h3 id="toc_2">We&#39;ve open sourced some stuff</h3>
+
+<p>In doing this, we decided to <a href="/s/blog/2013/11/snr/">open source the back-end</a> search capabilities. SnR is a Node application and uses <code>ack</code> and <code>perl</code> to provide a powerful way to search within code.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/search-replace/" data-via="codiohq" data-size="small" data-count="none" data-text="Global Search and Replace">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/search-replace/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/search-replace/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/11/snr/">November 11, 2013</a>
             
               <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
@@ -207,72 +339,6 @@ options:
 
           <div class="blog-facebook">
             <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/snr/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/11/search-replace/">November 11, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/11/search-replace/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></h1>
-
-        
-        <p>One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&#39;ve had search and replace in files, but up until now it&#39;s not been possible to search across all files within your project. Well, we&#39;ve corrected this now.</p>
-
-<p><img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /></p>
-
-<h3 id="toc_0">Globs and pattern matching</h3>
-
-<p>As well as being able to search on simple strings across the entire project, you can use <a href="/s/docs/ide/code-editor/search-replace">glob pattern matching</a>.</p>
-
-<p>The above image shows how you can look for matches of the word <code>step</code> in all <code>js</code> files across the whole project. Or, you could look for all files ending in <code>.html</code> or <code>.coffee</code> in just the <code>lib</code> folder:</p>
-
-<p><code>lib/*{.html,.coffee}</code></p>
-
-<h3 id="toc_1">Matches</h3>
-
-<p>Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.</p>
-
-<p><img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /></p>
-
-<h3 id="toc_2">We&#39;ve open sourced some stuff</h3>
-
-<p>In doing this, we decided to <a href="/s/blog/2013/11/snr/">open source the back-end</a> search capabilities. SnR is a Node application and uses <code>ack</code> and <code>perl</code> to provide a powerful way to search within code.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/search-replace/" data-via="codiohq" data-size="small" data-count="none" data-text="Global Search and Replace">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/search-replace/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/search-replace/" data-width="450" data-show-faces="false"></div>
           </div>
         </div>
       </article>
@@ -480,64 +546,6 @@ options:
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/10/automatic-upload-ssh-key/">October 29, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/10/automatic-upload-ssh-key/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/10/automatic-upload-ssh-key/">Automatically Upload your Codio Public SSH Key</a></h1>
-
-        
-          <img alt="Automatically Upload your Codio Public SSH Key" align="left" class="blog-img" src="/s/img/blog/public-key-upload-7f0853bf.png" />
-        
-        <p>Today we&#39;re making it even easier to work with server-side code and your development environments. We&#39;re about to ship several new features and improvements; the first of which is the ability to automatically upload your Codio SSH Public key to your server.</p>
-
-<p>Codio creates a public key pair for you, which you can then use to make secure connections over SSH and SFTP. Up until now, you had to copy and paste this public key manually, and upload to your server.</p>
-
-<p><strong>Not any more you don&#39;t!</strong></p>
-
-<p>Just go to the <code>Codio &gt; Account...</code> menu item and click the <code>SSH Key</code> tab. You will see your public key. You will also see a button <code>Upload Public Key</code>, which when clicked will prompt you to enter the credentials of the server where you wish to upload your key. Once complete, your key will be uploaded within seconds.</p>
-
-<p>You can now deploy over SFTP or Rsync safely and securely, as they will use your Codio key-pair wherever possible.</p>
-
-<p>Quick, easy, painless!</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/10/automatic-upload-ssh-key/" data-via="codiohq" data-size="small" data-count="none" data-text="Automatically Upload your Codio Public SSH Key">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/10/automatic-upload-ssh-key/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/10/automatic-upload-ssh-key/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -561,10 +569,13 @@ options:
       <ul>
         
           
-          <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>
+          <li><a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">Git Improvements: checkout and revert</a></li>
         
           
           <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
+        
+          
+          <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>
         
           
           <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
@@ -575,9 +586,6 @@ options:
           
           <li><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></li>
         
-          
-          <li><a href="/s/blog/2013/10/automatic-upload-ssh-key/">Automatically Upload your Codio Public SSH Key</a></li>
-        
       </ul>
     </section>
 
@@ -586,13 +594,13 @@ options:
         <h4>Latest posts...</h4>
         <ul>
           
-            <li><a href="/s/blog/2013/11/deploy-specific-files/">Selective File Deployment</a></li>
+            <li><a href="/s/blog/2013/11/auto-complete-for-any-language/">Auto-Complete for Any Language</a></li>
           
             <li><a href="/s/blog/2013/11/quick-open/">Quick Open</a></li>
           
-            <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
+            <li><a href="/s/blog/2013/11/deploy-specific-files/">Selective File Deployment</a></li>
           
-            <li><a href="/s/blog/2013/11/deploy-preview/">Deploy & Preview</a></li>
+            <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
           
         </ul>
       </section>

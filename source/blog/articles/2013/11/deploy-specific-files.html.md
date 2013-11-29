@@ -5,10 +5,9 @@ date: 2013-11-21
 tags: Changelog
 class_name: blog
 full_width: true
-published: true
 ---
 
-Although we like to push RSYNC as the fastest way of working with Codio, there are many users who want to work with hosting providers that only provide FTP access. 
+Although we like to push RSYNC as the fastest way of working with Codio, there are many users who want to work with hosting providers that only provide FTP access.
 
 As a result, we have added a new feature that lets you choose what files or folders to deploy.
 

@@ -4,10 +4,37 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-11-29T00:00:00Z</updated>
+  <updated>2013-12-04T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Common User Preferences</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/12/common-preferences/"/>
+    <id>https://codio.com/s/blog/2013/12/common-preferences/</id>
+    <published>2013-12-04T00:00:00Z</published>
+    <updated>2013-12-04T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Codio already provides a &lt;a href="/s/s/docs/settings-prefs/prefs-list/"&gt;high level of customisation&lt;/a&gt;, because we know that every developer works differently and you all have your own way of working. The &lt;a href="https://codio.com/s/docs/settings-prefs/"&gt;Preferences system&lt;/a&gt; in Codio is based on an INI file, which makes it extremely easy to edit your...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Codio already provides a &lt;a href="/s/s/docs/settings-prefs/prefs-list/"&gt;high level of customisation&lt;/a&gt;, because we know that every developer works differently and you all have your own way of working. The &lt;a href="https://codio.com/s/docs/settings-prefs/"&gt;Preferences system&lt;/a&gt; in Codio is based on an INI file, which makes it extremely easy to edit your prefs. It&amp;#39;s just like writing code, which of course we all like doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/s/img/blog/prefs-8985f8a2.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;But there are a few common preferences that tend to get used more than others, so we&amp;#39;ve made these even easier for you to access and edit. Check out the new and improved &lt;code&gt;View&lt;/code&gt; menu. You can now change the following directly from this menu:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;theme&lt;/li&gt;
+&lt;li&gt;font size&lt;/li&gt;
+&lt;li&gt;wrapping&lt;/li&gt;
+&lt;li&gt;soft tabs&lt;/li&gt;
+&lt;li&gt;tab size&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Codio - now even more convenient!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Auto-Complete for Any Language</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/11/auto-complete-for-any-language/"/>
@@ -166,33 +193,6 @@
 &lt;h2 id="toc_3"&gt;Docs and Tutorials&lt;/h2&gt;
 
 &lt;p&gt;If you want to see a complete example of the entire process from creating a remote cloud server, right through to deployment, take a look at our &lt;a href="/s/docs/back-end/do-server"&gt;Start to Finish Tutorial&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>New Theme: MBO</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/mbo-theme/"/>
-    <id>https://codio.com/s/blog/2013/11/mbo-theme/</id>
-    <published>2013-11-12T00:00:00Z</published>
-    <updated>2013-11-12T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Here's a little goodie for you... we just added an all new theme called MBO:&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;To change your theme, click the &lt;code&gt;Codio &amp;gt; Preferences... &amp;gt; User&lt;/code&gt; menu item. You will then see the &lt;a href="/s/docs/settings-prefs/codio-prefs/"&gt;preferences editor&lt;/a&gt;. Just add these few lines to the left side of the editor...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Here&amp;#39;s a little goodie for you... we just added an all new theme called MBO:&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;To change your theme, click the &lt;code&gt;Codio &amp;gt; Preferences... &amp;gt; User&lt;/code&gt; menu item. You will then see the &lt;a href="/s/docs/settings-prefs/codio-prefs/"&gt;preferences editor&lt;/a&gt;. Just add these few lines to the left side of the editor:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="ini"&gt;[editor]
-theme = mbo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
   </entry>
 </feed>

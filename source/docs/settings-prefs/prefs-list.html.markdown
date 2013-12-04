@@ -1,10 +1,10 @@
 ---
-title: List of Settings
+title: Preferences List
 class_name: docs
 full_width: true
 ---
 
-The following is a complete list of the preferences. 
+The following is a complete list of the preferences.
 
 To see all of the keyboard shortcuts , including any overrides you or the project has made, use the Help->Shortcuts menu item within the IDE.
 

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Being in Beta, you can be sure to find bugs. You can also be sure we will fix them very quickly. If you do find a bug, PLEASE report it to us. We have made this really easy to do.
+Being in Beta, you can be sure you'll find some bugs. You can also be sure we will fix them very quickly. If you do find a bug, PLEASE report it to us. We have made this really easy to do.
 
 It's best if you create an account and sign into your account to do this. Creating an account is simple and free and you get to reserve you own Codio URL. We also issues announcements on new features through this messaging system (which is from [intercom.io](http://intercom.io) by the way and is really very cool).
 

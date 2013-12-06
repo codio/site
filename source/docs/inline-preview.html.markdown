@@ -6,16 +6,18 @@ full_width: true
 
 Codio offers a very comfortable way to Preview your applications. You can find the Preview in the menu bar. If you have selected the Deploy Before Preview option the button label will be Preview & Deploy.
 
+When you press the button, the Preview will execute and, if Deploy & Preview was selected first, the project will be deployed to the default deployment target (although this should only be used with RSYNC type deployment targets as others will be slow for larger projects).
+
 ![preview](/img/docs/preview-deploy.png)
 
-You can also do the same by right-clicking a file in the file tree. 
+If you right-click a file in the file tree, you can see that you can also Preview or Deploy & Preview. 
 
 ![preview](/img/docs/preview-deploy-right-click.png)
 
 ##What to Preview
 When you press the menu bar Preview button, Codio can preview in one of two ways
 
-- **Project Index** : this is currently the index.html file, but we will soon as allowing you to manually specify an alternative index file, such as index.php.
+- **Project Index** : by default, this is the index.html file, but you can specify any file to be the project index file by right-clicking on the index file and then selecting 'Set as Project Index'.
 - **Current File** : this will preview the currently open file; if you are using a remote server (PHP, Node etc.) then you may want to set the Deploy before Preview option, which is described below.
 
 You can switch between Project Index and Current File by selecting the dropdown and setting the appropriate option.

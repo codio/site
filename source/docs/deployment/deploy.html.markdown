@@ -11,8 +11,10 @@ This let's you deploy to any of your deployment targets. You are shown a log if 
 
 ![deploy screen](/img/docs/deploy-menu.png)
 
-##Preview (& Deploy)
-[Described here](/docs/inline-preview), this offers deployment in combination with a preview immediately afterwards, all with a single click. It is recommended to use this method most of the time as at involves less actions.
+##Preview / Deploy button
+[Described here](/docs/inline-preview), this offers deployment via a simple button press. If you check either of the 'Deploy' or 'Deploy & Preview' options, Codio will deploy to the default target when the button is pressed. The default target can be see under the 'Default Deployment Target' menu option.
+
+You can change the default deployment target either from the menu as shown, or from the 'Tools->Deployment->Manage target' dialog, where you can press the default target button in the listed targets.
 
 ![deploy screen](/img/docs/deploy-button.png)
 

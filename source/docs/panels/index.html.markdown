@@ -4,16 +4,11 @@ class_name: docs
 full_width: true
 ---
 
-IDE panels are a really powerful feature. Not only can you create any panel configuration you want, but you almost every Codio feature (like [Git](/docs/git), [Bower](/docs/bower), [Deployment](/docs/deployment) etc.) is displayed in a panel.
+IDE panels let you create any panel configuration you want for both code editing and also other features (such as [Git](/docs/git), [Bower](/docs/bower), [Deployment](/docs/deployment) etc.).
 
-This has the great advantage that you have complete control over the layout of your project. Whenever you leave you project, its precise pane configuration is saved and reloaded when you come back to it.
+This gives you complete control over the layout of your project. Whenever you leave you project, its precise pane configuration is saved and reloaded when you come back to it.
 
-![Fork project](/img/docs/panel-overview.png)
-
-The main 2 things you need to know about panels are
-
-- anything and everything in the main IDE lives in a Tab
-- a tab lives within a panel
+![Panels](/img/docs/panel-overview.png)
 
 ##File Tree
 The main file tree itself is a tab within a panel. If you look carefully, you will see that it can receive focus and the Filetree text is in a tab.

@@ -10,4 +10,4 @@ A [Quick Connect](/docs/ssh/quick-connect) option lets you access remote servers
 
 ![ssh parameters](/img/docs/ssh-tab.png)
 
-You should be able to do the same things you can do in a regular terminal window, including running text editors like Nano etc.
+You can do the same things you can do in a regular terminal window, including running text editors like Nano etc.

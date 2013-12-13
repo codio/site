@@ -12,6 +12,7 @@ Codio lets you deploy all or any part of your project with a single click to a c
 - [RSYNC](/docs/deployment/type-rsync/)
 - [Nodejitsu](/docs/deployment/type-nj/)
 - [Parse.com](/docs/deployment/type-parse/)
+- Generic Git deployment coming soon
 
 We will also be adding the following target types shortly:
 

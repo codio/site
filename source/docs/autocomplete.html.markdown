@@ -1,10 +1,10 @@
 ---
-title: Auto Complete
+title: Autocomplete
 class_name: docs
 full_width: true
 ---
 
-Auto complete is supported within HTML, CSS and Javascript files and is (by default) activated by pressing ctrl+space.
+Autocomplete is supported within HTML, CSS and Javascript files and is (by default) activated by pressing ctrl+space.
 
 ##HTML Tags
 Auto complete is context sensitive, so you will only be shown Tags that are relevant to your location within the HTML file.

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Project preferences get the highest priority and are applied over all other settings. To modify these, you should open your project and then choose one of the following
+Project preferences get the highest priority and are applied over User Settings. To modify these, you should open your project and then choose one of the following
 
 1. From the menu, select Codio->Preferences->Project
 2. From the file tree, locate the `.preferences` file

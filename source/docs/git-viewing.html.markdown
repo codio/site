@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-GitHub let's you browse around a repo but let's face it, it's not an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and [preview](/docs/inline-preview) within Codio.
+GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and [preview](/docs/inline-preview) within Codio.
 
 ##Simple Approach
 The first approach is great for anyone wanting to put a simple button into a GitHub README page and then, when clicked, it creates a Codio fork in an anonymous account. 

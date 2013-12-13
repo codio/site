@@ -47,3 +47,9 @@ The most important thing is for you to be aware of the features that are availab
 - [CoffeeScript, Sass, SCSS and Less](/docs/compiling) : edit and preview without any special compilation required
 - [Annotations](/docs/annotations) : annotate your code projects so people can get a guided tour or simply explore a project and get properly documented explanations
 - [SalesForce.com](/docs/salesforce) : this is a Codio experiment that lets anyone access their SalesForce.com Classes, Pages and Triggers 
+
+##5. Find out what Codio can do
+We get a lot of questions asking us to add support for certain features when they are already available. So please take a look at the [Feature Roundup](/docs/feature-roundup) section.
+
+
+

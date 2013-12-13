@@ -11,7 +11,7 @@ Codio allows you to do exactly the same but it also allows you to move beyond a 
 ##What you need to know
 If you don't want to learn much about the Codio IDE and just want to show some code, then all you need to know is the following
 
-- [Create an Account](/docs/signup) (Codio is free for all public projects)
+- Create an Account - (Codio is free for all public projects)
 - [Importing a Project](/docs/console/creating/) (usually by importing from ZIP or cloning a Git repo)
 - [Sharing and Embedding your project](/docs/sharing)
 

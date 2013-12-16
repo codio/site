@@ -4,10 +4,31 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-12-09T00:00:00Z</updated>
+  <updated>2013-12-16T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Command Bar</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/12/command-bar/"/>
+    <id>https://codio.com/s/blog/2013/12/command-bar/</id>
+    <published>2013-12-16T00:00:00Z</published>
+    <updated>2013-12-16T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;If you're a Sublime Text user, you'll probably use the Command Palette (&lt;code&gt;Cmd-Shift-P&lt;/code&gt;). This is a great way to access all commands from a single keyboard shortcut rather than digging around and trying to find what you want in all the various menu options...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;If you&amp;#39;re a Sublime Text user, you&amp;#39;ll probably use the Command Palette (&lt;code&gt;Cmd-Shift-P&lt;/code&gt;). This is a great way to access all commands from a single keyboard shortcut rather than digging around and trying to find what you want in all the various menu options. And if you don&amp;#39;t know the keyboard shortcut for a particular command, it&amp;#39;s a very fast way of discovering it without searching the menu or docs.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;re excited to tell you that Codio now has its very own &lt;a href="/s/docs/command-bar"&gt;Command Bar&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="command bar" src="/s/img/blog/command-bar-bc6b6d2f.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Press &lt;code&gt;Cmd+Shift+P&lt;/code&gt; (Mac) or &lt;code&gt;Ctrl+Shft+P&lt;/code&gt; (PC/Linux) and the Command Bar will appear. Just type any part of the command you&amp;#39;re looking for and the list will narrow down to match your input. Press &lt;code&gt;enter&lt;/code&gt; or click on the command and it will be executed instantly.&lt;/p&gt;
+
+&lt;p&gt;As well as being able to access everything you can find in the menu, you can also toggle a few common preferences, and trigger anything that can be accessed by a keyboard shortcut.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Git and a Tease of what is to Come!</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/12/git-and-tease-of-what-is-to-come/"/>
@@ -110,6 +131,27 @@
 </content>
   </entry>
   <entry>
+    <title>Quick Open</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2013/11/quick-open/"/>
+    <id>https://codio.com/s/blog/2013/11/quick-open/</id>
+    <published>2013-11-21T00:00:00Z</published>
+    <updated>2013-11-21T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;Quick open (default is &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt;) also known as fast open, is a great way of opening files without the need to access the file tree. Press &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt; or select &lt;code&gt;File &amp;gt;Open File&lt;/code&gt; from the menu and the quick open dialog will appear.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png"&gt;&lt;/p&gt;
+
+&lt;p&gt;You can now...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Quick open (default is &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt;) also known as fast open, is a great way of opening files without the need to access the file tree. Press &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt; or select &lt;code&gt;File &amp;gt;Open File&lt;/code&gt; from the menu and the quick open dialog will appear.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can now start typing the name of a file and as you type, the list will be filtered. You can then select the file you want using the mouse or use the keyboard, pressing &lt;code&gt;Enter&lt;/code&gt; on the required file.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Selective File Deployment</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/11/deploy-specific-files/"/>
     <id>https://codio.com/s/blog/2013/11/deploy-specific-files/</id>
@@ -135,67 +177,6 @@
 &lt;p&gt;&lt;img alt="specific files" src="/s/img/blog/deploy-specific-4a409df2.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Because Codio is cloud based and your target FTP server probably is, too, this deployment will be very fast, so developing like this is perfectly possible.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Quick Open</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/quick-open/"/>
-    <id>https://codio.com/s/blog/2013/11/quick-open/</id>
-    <published>2013-11-21T00:00:00Z</published>
-    <updated>2013-11-21T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;Quick open (default is &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt;) also known as fast open, is a great way of opening files without the need to access the file tree. Press &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt; or select &lt;code&gt;File &amp;gt;Open File&lt;/code&gt; from the menu and the quick open dialog will appear.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;You can now...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Quick open (default is &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt;) also known as fast open, is a great way of opening files without the need to access the file tree. Press &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt; or select &lt;code&gt;File &amp;gt;Open File&lt;/code&gt; from the menu and the quick open dialog will appear.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can now start typing the name of a file and as you type, the list will be filtered. You can then select the file you want using the mouse or use the keyboard, pressing &lt;code&gt;Enter&lt;/code&gt; on the required file.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>SSH Public Key Management</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/ssh-public-keys/"/>
-    <id>https://codio.com/s/blog/2013/11/ssh-public-keys/</id>
-    <published>2013-11-18T00:00:00Z</published>
-    <updated>2013-11-18T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;Our focus is to make all aspects of the development process as smooth and easy as it possibly can be. One small but great example of something that is a real pain in the ass is the business of deploying public keys to a remote server.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Why are they...&lt;/h2&gt;</summary>
-    <content type="html">&lt;p&gt;Our focus is to make all aspects of the development process as smooth and easy as it possibly can be. One small but great example of something that is a real pain in the ass is the business of deploying public keys to a remote server.&lt;/p&gt;
-
-&lt;h2 id="toc_0"&gt;Why are they needed?&lt;/h2&gt;
-
-&lt;p&gt;Codio has two main features that require access to remote servers:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;SSH Terminal - you can create and manage any number of remote servers directly from Codio. There&amp;#39;s a &lt;a href="/s/blog/2013/11/ssh/"&gt;blog post&lt;/a&gt; on this and you can also &lt;a href="/s/docs/ssh"&gt;read the docs&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Deploying via SFTP and RSYNC&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most developers prefer to use SSH to access remote servers, as it avoids password entry completely and is more secure.&lt;/p&gt;
-
-&lt;p&gt;Codio generates public keys that can be found in the &lt;code&gt;Codio &amp;gt; Account&lt;/code&gt; menu. One way of getting your Codio public key on to the remote server is to copy it and then SSH into your remote server and then add it to your &lt;code&gt;~/.ssh/authorized_keys&lt;/code&gt; file. However, this is an unnecessary chore. We&amp;#39;ve made it so you can now upload your keys in 2 ways.&lt;/p&gt;
-
-&lt;h2 id="toc_1"&gt;From your Account dialog&lt;/h2&gt;
-
-&lt;p&gt;The screenshot below shows how you just need to press the Upload Public Key button and that&amp;#39;s it. You will be asked to enter your access details and that&amp;#39;s it. You can access this dialog via the &lt;code&gt;Codio &amp;gt; Account&lt;/code&gt; menu item.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="public key account" src="/s/img/blog/key-account-def388c9.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="toc_2"&gt;From the SSH Connection Manager&lt;/h2&gt;
-
-&lt;p&gt;You can SSH into any remote server right from within Codio. In the connections listing, there&amp;#39;s a button you can press that does the same thing as above.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="public key account" src="/s/img/blog/key-ssh-6b731019.png" /&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -6,5 +6,9 @@ set :deploy_to, '/mnt/acv2/site'
 set :scm, :git
 
 namespace :deploy do
+  task :restart do
+    # do nothing
+  end
+
   after :finishing, 'deploy:cleanup'
 end

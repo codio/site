@@ -6,10 +6,10 @@ full_width: true
 
 The Command Bar allows you to access almost all of the Codio actions from a searchable list. It is also a great way of looking up keyboard shortcuts without having to explore the menu.
 
-You invoke the Command Bar with 
+You invoke the Command Bar with
 
-- Tools->Command Bar
-- Cmd+Shift+P (Mac) / Ctrl+Shift+P (PC/Linux)
+- `Tools > Command Bar`
+- `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (PC/Linux)
 
 You will then see the following popup dialog.
 

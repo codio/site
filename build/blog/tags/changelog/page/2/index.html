@@ -121,6 +121,77 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/11/ssh-public-keys/">November 18, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/ssh-public-keys/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></h1>
+
+        
+        <p>Our focus is to make all aspects of the development process as smooth and easy as it possibly can be. One small but great example of something that is a real pain in the ass is the business of deploying public keys to a remote server.</p>
+
+<h2 id="toc_0">Why are they needed?</h2>
+
+<p>Codio has two main features that require access to remote servers:</p>
+
+<ul>
+<li>SSH Terminal - you can create and manage any number of remote servers directly from Codio. There&#39;s a <a href="/s/blog/2013/11/ssh/">blog post</a> on this and you can also <a href="/s/docs/ssh">read the docs</a>.</li>
+<li>Deploying via SFTP and RSYNC</li>
+</ul>
+
+<p>Most developers prefer to use SSH to access remote servers, as it avoids password entry completely and is more secure.</p>
+
+<p>Codio generates public keys that can be found in the <code>Codio &gt; Account</code> menu. One way of getting your Codio public key on to the remote server is to copy it and then SSH into your remote server and then add it to your <code>~/.ssh/authorized_keys</code> file. However, this is an unnecessary chore. We&#39;ve made it so you can now upload your keys in 2 ways.</p>
+
+<h2 id="toc_1">From your Account dialog</h2>
+
+<p>The screenshot below shows how you just need to press the Upload Public Key button and that&#39;s it. You will be asked to enter your access details and that&#39;s it. You can access this dialog via the <code>Codio &gt; Account</code> menu item.</p>
+
+<p><img alt="public key account" src="/s/img/blog/key-account-def388c9.png" /></p>
+
+<h2 id="toc_2">From the SSH Connection Manager</h2>
+
+<p>You can SSH into any remote server right from within Codio. In the connections listing, there&#39;s a button you can press that does the same thing as above.</p>
+
+<p><img alt="public key account" src="/s/img/blog/key-ssh-6b731019.png" /></p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/ssh-public-keys/" data-via="codiohq" data-size="small" data-count="none" data-text="SSH Public Key Management">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/ssh-public-keys/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/ssh-public-keys/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/11/deploy-preview/">November 13, 2013</a>
             
               <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
@@ -200,62 +271,6 @@
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/11/mbo-theme/">November 12, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/11/mbo-theme/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></h1>
-
-        
-        <p>Here&#39;s a little goodie for you... we just added an all new theme called MBO:</p>
-
-<p><img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png" /></p>
-
-<p>To change your theme, click the <code>Codio &gt; Preferences... &gt; User</code> menu item. You will then see the <a href="/s/docs/settings-prefs/codio-prefs/">preferences editor</a>. Just add these few lines to the left side of the editor:</p>
-
-<pre><code class="ini">[editor]
-theme = mbo
-</code></pre>
-
-<p>Enjoy!</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/mbo-theme/" data-via="codiohq" data-size="small" data-count="none" data-text="New Theme: MBO">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/mbo-theme/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/mbo-theme/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
-      <article>
-        <section class="meta">
-          <p class="date">
             <a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">November 12, 2013</a>
             
               <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
@@ -313,6 +328,62 @@ theme = mbo
 
           <div class="blog-facebook">
             <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/git-improvements-checkout-and-revert/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/11/mbo-theme/">November 12, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/mbo-theme/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></h1>
+
+        
+        <p>Here&#39;s a little goodie for you... we just added an all new theme called MBO:</p>
+
+<p><img alt="MBO Theme" src="/s/img/blog/mbo-theme-c1f677f7.png" /></p>
+
+<p>To change your theme, click the <code>Codio &gt; Preferences... &gt; User</code> menu item. You will then see the <a href="/s/docs/settings-prefs/codio-prefs/">preferences editor</a>. Just add these few lines to the left side of the editor:</p>
+
+<pre><code class="ini">[editor]
+theme = mbo
+</code></pre>
+
+<p>Enjoy!</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/mbo-theme/" data-via="codiohq" data-size="small" data-count="none" data-text="New Theme: MBO">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/mbo-theme/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/mbo-theme/" data-width="450" data-show-faces="false"></div>
           </div>
         </div>
       </article>
@@ -455,65 +526,6 @@ theme = mbo
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/10/more-creation-options/">October 30, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/10/more-creation-options/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></h1>
-
-        
-          <img alt="More Project Creation Options" align="left" class="blog-img" src="/s/img/blog/project-create-9f0f7eee.png" />
-        
-        <p><a href="/s/blog/2013/10/automatic-upload-ssh-key/">Yesterday</a> we added automatic upload of your Codio public key to any server of your choosing, and today we&#39;ve added even more options to the project creation process. We want to make it faster and easier for you to get your code into Codio and begin coding as fast as possible.</p>
-
-<p>So we now have six different ways to create a project in Codio:</p>
-
-<ol>
-<li><p><strong>Template</strong> - Create a project based on a selection of templates, which include HTML5 Boilerplate and a simple empty skeleton. We also have a special <a href="https://codio.com/codio-templates">Template account</a>, which include boilerplate code for some of the most popular open source frameworks, including EmberJS, FirefoxOS and Backbone. To use any of these, simply open the project and fork it via the <code>Project &gt; Fork...</code> menu item.</p></li>
-<li><p><strong>Git</strong> - You can create a new project by cloning any Git repository - public or private. We support cloning over SSH and HTTP(S). This will also setup an <code>origin</code> Git remote so you can continue to push and pull between your new Codio project and it&#39;s Git repository.</p></li>
-<li><p><strong>Mercurial</strong> - Import code from any Mercurial repository.</p></li>
-<li><p><strong>Zip</strong> - Upload any zip file and we&#39;ll unzip it and create a new project with its contents.</p></li>
-<li><p><strong>FTP and SFTP</strong> - The newest option is to import from any FTP server. Just specify the server you wish to import from, and we&#39;ll do the rest. We even support SFTP, which means that you can connect securely using your Codio SSH public key.</p></li>
-<li><p><strong>Salesforce</strong> - If you work with Salesforce, we&#39;ve integrated its Tooling API to allow you to work with your Salesforce classes and triggers. Just enter your credentials and we&#39;ll pull in your code with into Codio. You can then continue to pull and push your code to Salesforce.</p></li>
-</ol>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/10/more-creation-options/" data-via="codiohq" data-size="small" data-count="none" data-text="More Project Creation Options">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/10/more-creation-options/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/10/more-creation-options/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -537,13 +549,16 @@ theme = mbo
       <ul>
         
           
+          <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
+        
+          
           <li><a href="/s/blog/2013/11/deploy-preview/">Deploy & Preview</a></li>
         
           
-          <li><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></li>
+          <li><a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">Git Improvements: checkout and revert</a></li>
         
           
-          <li><a href="/s/blog/2013/11/git-improvements-checkout-and-revert/">Git Improvements: checkout and revert</a></li>
+          <li><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></li>
         
           
           <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
@@ -551,14 +566,13 @@ theme = mbo
           
           <li><a href="/s/blog/2013/11/ssh/">SSH Terminal</a></li>
         
-          
-          <li><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></li>
-        
       </ul>
 
       
         <h4>Latest posts...</h4>
         <ul>
+          
+            <li><a href="/s/blog/2013/12/command-bar/">Command Bar</a></li>
           
             <li><a href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/">Git and a Tease of what is to Come!</a></li>
           
@@ -566,15 +580,13 @@ theme = mbo
           
             <li><a href="/s/blog/2013/11/auto-complete-for-any-language/">Auto-Complete for Any Language</a></li>
           
-            <li><a href="/s/blog/2013/11/deploy-specific-files/">Selective File Deployment</a></li>
-          
             <li><a href="/s/blog/2013/11/quick-open/">Quick Open</a></li>
+          
+            <li><a href="/s/blog/2013/11/deploy-specific-files/">Selective File Deployment</a></li>
           
             <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
           
             <li><a href="/s/blog/2013/11/deploy-preview/">Deploy & Preview</a></li>
-          
-            <li><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></li>
           
         </ul>
       

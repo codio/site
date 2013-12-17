@@ -11,3 +11,6 @@ A [Quick Connect](/docs/ssh/quick-connect) option lets you access remote servers
 ![ssh parameters](/img/docs/ssh-tab.png)
 
 You can do the same things you can do in a regular terminal window, including running text editors like Nano etc.
+
+##Copy & Paste
+If you want to copy from or paste into the SSH window, you will need to press Ctrl+A followed by Ctrl+C/Ctrl+V.

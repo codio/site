@@ -29,7 +29,7 @@ submenu:
     url: 'refund'    
   -
     text: Sponsored Blog Terms & Conditions
-    url: '../sponblog'         
+    url: 'sponblog'         
 ---
 
 **Effective August 7th, 2013.**

@@ -20,7 +20,7 @@
     <summary type="html">&lt;p&gt;You've been asking and we've been listening. So today we made it easy to quickly switch tabs without having to use your mouse. Just hitting &lt;code&gt;Alt-Shift-.&lt;/code&gt; will switch your current tab to the next on the right, and &lt;code&gt;Alt-Shift-,&lt;/code&gt; will switch to tab on the...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;You&amp;#39;ve been asking and we&amp;#39;ve been listening. So today we made it easy to quickly switch tabs without having to use your mouse. Just hitting &lt;code&gt;Alt-Shift-.&lt;/code&gt; will switch your current tab to the next on the right, and &lt;code&gt;Alt-Shift-,&lt;/code&gt; will switch to tab on the left.&lt;/p&gt;
 
-&lt;p&gt;And of course, if you don&amp;#39;t like those keybindings, open up your &lt;a href="/s/p/preferences"&gt;preferences&lt;/a&gt; and change the &lt;code&gt;tab_switch_left&lt;/code&gt; and &lt;code&gt;tab_switch_right&lt;/code&gt; item.&lt;/p&gt;
+&lt;p&gt;And of course, if you don&amp;#39;t like those keybindings, open up your &lt;a href="https://codio.com/p/preferences"&gt;preferences&lt;/a&gt; and change the &lt;code&gt;tab_switch_left&lt;/code&gt; and &lt;code&gt;tab_switch_right&lt;/code&gt; item.&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Tab Switching" src="/s/img/blog/tab-switching-369bb369.gif" /&gt;&lt;/p&gt;
 </content>

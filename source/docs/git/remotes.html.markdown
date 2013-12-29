@@ -36,6 +36,7 @@ We will not attempt any sort of tutorial here, but the following steps cover the
 - `git status` gives you the status of your current branch
 - `git add .` adds all files, tracked or not, to the staged files
 - `git commit -a -m` stages and commits all files to the snapshot
-- `git push origin master` pushes all committed changes of the `master` branch to the remote called`origin`
+- The first time you push, run the following command to track the new remote `git push --set-upstream origin master`
+- Subsequent pushes can be done with `git push`, which pushes all committed changes of the `master` branch to the tracked remote (origin).
 
 

@@ -121,6 +121,101 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/11/snr/">November 11, 2013</a>
+            
+              <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/snr/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></h1>
+
+        
+        <p>As you might have noticed, today marked the release of <a href="/s/blog/2013/11/search-replace">global search and replace</a> in Codio. It&#39;s built using the tried and tested tools, <a href="http://beyondgrep.com/">ack</a> and perl. While we were building this we realized that it would be great to have a simple command line tool to do both search and replace based on these two tools. So today I present the software that came out of that wish: <a href="https://npmjs.org/package/snr">SnR</a>. We&#39;ve open sourced it and released it as a <a href="https://npmjs.org/package/snr">Node package</a>. The source is publicly available on <a href="https://github.com/codio/snr">Github</a>.</p>
+
+<h2 id="toc_0">What?</h2>
+
+<p>As already discussed SnR gives you a simple command line interface to search and replace built on top of <a href="http://beyondgrep.com/">ack</a> and perl, and it works like this:</p>
+
+<pre><code class="bash"># Inside your project folder
+$ snr --replace &quot;console.log&quot; &quot;console.info&quot; &quot;**/*.js&quot;
+</code></pre>
+
+<h2 id="toc_1">How?</h2>
+
+<p>To get started just make sure you have perl and Node (with NPM) installed, and then run <code>npm install -g snr</code>. That&#39;s it, now you can go and replace all the things.</p>
+
+<p>For simple usage take a look at these examples:</p>
+
+<pre><code class="bash"># Find all occurences of foo inside all python files
+$ snr foo &quot;**/*.py&quot;
+src/index.js
+301-        // catch (e) {
+302-        //     //:todo change to correct bar
+303:        //     foo(e);
+304-        //     //bar(e);
+305-        // }
+Found 1 match(es) in 1 file(s).
+# Replace all occurences of foo with bar inside all python files
+$ snr --replace bar foo &quot;**/*.py&quot;
+Replaced 1 match(es) in 1 file(s).
+</code></pre>
+
+<p>and for more advance usage:</p>
+
+<pre><code class="bash">$ snr --help
+usage: snr [OPTION]... PATTERN [FILES OR DIRECTORIES OR GLOBS]
+options:
+    -i, --ignore-case       Ignore case distinctions in PATTERN.
+    -Q, --literal           Quote all metacharacters; PATTERN is literal.
+    --max-result-count=NUM  Stop after NUM results.
+    --replace=REPlACE       Replace all matches with REPLACE.
+    -h, --help              Print this help and exit.
+    -v, --version           Print the current version.
+    -C NUM, --context=NUM   Print NUM lines of output context.
+    -w, --word-regexp       Force PATTERN to match only whole words.
+    --color-lineno=COLOR    Set the color for filenames, matches, and line
+                            numbers.
+</code></pre>
+
+<h2 id="toc_2">What&#39;s next?</h2>
+
+<p>There is even more goodness inside. You can use SnR as a module inside your node app as well, just install it and <code>require(&#39;snr&#39;)</code> to get started. More info on that can be found on the <a href="https://github.com/codio/snr">github repo</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/snr/" data-via="codiohq" data-size="small" data-count="none" data-text="Search and Replace with SnR">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/snr/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/snr/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/11/pricing/">November  8, 2013</a>
             
               <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
@@ -431,108 +526,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/10/ilos/">October 11, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/10/ilos/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/10/ilos/">I Love Open Source</a></h1>
-
-        
-        <p>I want to briefly talk about an interesting metamorphosis - otherwise known as gross scope creep.</p>
-
-<p>We wanted to give some sort of acknowledgment and support for the many open source projects we use. What started off as a single web page on the Codio site turned into a few weeks of full-on application development.</p>
-
-<p>The result is &quot;I Love Open Source&quot;.</p>
-
-<p><a href="http://iloveopensource.io"><img alt="header" src="/s/img/blog/ilos-blog-hdr-98fcbd44.png" /></a></p>
-
-<h2 id="toc_0">Video</h2>
-
-<p><a href="https://player.vimeo.com/video/75609049?autoplay=1&hd=1" target="_blank">Click here</a> for a really quick overview of I Love Open Source.</p>
-
-<h2 id="toc_1">What is &quot;I Love Open Source&quot;</h2>
-
-<p><a href="http://iloveopensource.io">http://iloveopensource.io</a> is a full fledged application (it is itself Open Source and forkable on GitHub) that encourages any GitHub user or organization to publicly state which Open Source projects they use. And in the process of doing so, they have the opportunity to donate something, if they wish, to any of those projects.</p>
-
-<h2 id="toc_2">Codio Loves Open Source</h2>
-
-<p>If you click the logo below, you&#39;ll see our support page and which repos we use.</p>
-
-<p><a href="http://www.iloveopensource.io/orgs/523c6c7f861be70200000007"><img alt="ilos" src="/s/img/blog/ilos-logo-lightbg-78b1be7c.png" /></a></p>
-
-<h2 id="toc_3">Supporters</h2>
-
-<p>Here&#39;s an example Supporter page with 3 OS projects it&#39;s acknowledging. You can see the person contributes code and cash to the jquery project. You can also see the donate options beneath the GitHub Octocat logo.</p>
-
-<p>You are encouraged to link to your supporter page from your website or README.md file.</p>
-
-<p><img alt="ilos" src="/s/img/blog/ilos-sup-page-e11da2c3.png" /></p>
-
-<h2 id="toc_4">Maintainers</h2>
-
-<p>Anyone owning a repo that wants support, whether simple acknowledgments or cash, heads over to the Maintainers section and sets up their donation preferences (Gittip, Flattr, Paypal, Wire etc.).</p>
-
-<p>Now, when people are setting up their support or when anyone sees a support page, they are always gently given the opportunity to donate there and then. See the above image.</p>
-
-<h2 id="toc_5">What about Gittip, Flattr &amp; Paypal etc?</h2>
-
-<p>I Love Open Source does not handle any payments at all. We allow the developer to use their own existing Gittip, Flattr and Paypal buttons. For the record, we do not take any commissions or have any commercial involvement with any of them.</p>
-
-<p>The fact that I Love Open Source is itself Open Source and does not handle any cash transactions means that it can concentrate on acknowledgment in general and providing an easy way to support and donate.</p>
-
-<h2 id="toc_6">Code and Idea Contributions</h2>
-
-<p>I Love Open Source can be <a href="https://github.com/codio/iloveopensource">forked on GitHub</a> so feel free to fix code or add features and issue a pull request. Before you embark on huge endeavours, it may make sense to <a href="https://github.com/codio/iloveopensource/issues?state=open">raise an Issue</a> first here.</p>
-
-<p>Any great ideas you want to discuss or bugs you want to report should be done <a href="https://github.com/codio/iloveopensource/issues?state=open">here in GitHub Issues</a> also.</p>
-
-<h2 id="toc_7">Many thanks to DigitalOcean</h2>
-
-<p>A short but important word of thanks goes to <a href="http://www.digitalocean.com">DigitalOcean</a>. They have been very generous in providing I Love Open Source with their lovely servers at no cost.</p>
-
-<h2 id="toc_8">Please Support Us</h2>
-
-<p>The only support we ask for is that you Tweet about this project so the word spreads fast. We&#39;re @iloshq on Twitter.</p>
-
-<p>Even better, <a href="http://iloveopensource.io">create your own I Love Open Source Supporter page right now</a> and link to it from your web site or README.md file.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/10/ilos/" data-via="codiohq" data-size="small" data-count="none" data-text="I Love Open Source">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/10/ilos/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/10/ilos/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -556,6 +549,9 @@
       <ul>
         
           
+          <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>
+        
+          
           <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
         
           
@@ -570,9 +566,6 @@
           
           <li><a href="/s/blog/2013/10/sign-in-up-via-github/">Sign Up via Github</a></li>
         
-          
-          <li><a href="/s/blog/2013/10/ilos/">I Love Open Source</a></li>
-        
       </ul>
     </section>
 
@@ -581,13 +574,13 @@
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/s/blog/2013/12/tab-cycling/">Tab Cycling</a></li>
+          
             <li><a href="/s/blog/2013/12/command-bar/">Command Bar</a></li>
           
             <li><a href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/">Git and a Tease of what is to Come!</a></li>
           
             <li><a href="/s/blog/2013/12/common-preferences/">Common User Preferences</a></li>
-          
-            <li><a href="/s/blog/2013/11/auto-complete-for-any-language/">Auto-Complete for Any Language</a></li>
           
         </ul>
       </section>

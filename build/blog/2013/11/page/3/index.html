@@ -121,50 +121,79 @@
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/11/search-replace/">November 11, 2013</a>
+            <a href="/s/blog/2013/11/snr/">November 11, 2013</a>
             
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+              <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
             
-            <a class="dsq-comment-count" href="/s/blog/2013/11/search-replace/#disqus_thread">Comments</a>
+            <a class="dsq-comment-count" href="/s/blog/2013/11/snr/#disqus_thread">Comments</a>
           </p>
         </section>
 
-        <h1><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></h1>
+        <h1><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></h1>
 
         
 
-        <p>One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&#39;ve had search and replace in files, but up until now it&#39;s not been possible to search across all files within your project. Well, we&#39;ve corrected this now.</p>
+        <p>As you might have noticed, today marked the release of <a href="/s/blog/2013/11/search-replace">global search and replace</a> in Codio. It&#39;s built using the tried and tested tools, <a href="http://beyondgrep.com/">ack</a> and perl. While we were building this we realized that it would be great to have a simple command line tool to do both search and replace based on these two tools. So today I present the software that came out of that wish: <a href="https://npmjs.org/package/snr">SnR</a>. We&#39;ve open sourced it and released it as a <a href="https://npmjs.org/package/snr">Node package</a>. The source is publicly available on <a href="https://github.com/codio/snr">Github</a>.</p>
 
-<p><img alt="global search dialog" src="/s/img/blog/global-search-b32a1669.png" /></p>
+<h2 id="toc_0">What?</h2>
 
-<h3 id="toc_0">Globs and pattern matching</h3>
+<p>As already discussed SnR gives you a simple command line interface to search and replace built on top of <a href="http://beyondgrep.com/">ack</a> and perl, and it works like this:</p>
 
-<p>As well as being able to search on simple strings across the entire project, you can use <a href="/s/docs/ide/code-editor/search-replace">glob pattern matching</a>.</p>
+<pre><code class="bash"># Inside your project folder
+$ snr --replace &quot;console.log&quot; &quot;console.info&quot; &quot;**/*.js&quot;
+</code></pre>
 
-<p>The above image shows how you can look for matches of the word <code>step</code> in all <code>js</code> files across the whole project. Or, you could look for all files ending in <code>.html</code> or <code>.coffee</code> in just the <code>lib</code> folder:</p>
+<h2 id="toc_1">How?</h2>
 
-<p><code>lib/*{.html,.coffee}</code></p>
+<p>To get started just make sure you have perl and Node (with NPM) installed, and then run <code>npm install -g snr</code>. That&#39;s it, now you can go and replace all the things.</p>
 
-<h3 id="toc_1">Matches</h3>
+<p>For simple usage take a look at these examples:</p>
 
-<p>Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.</p>
+<pre><code class="bash"># Find all occurences of foo inside all python files
+$ snr foo &quot;**/*.py&quot;
+src/index.js
+301-        // catch (e) {
+302-        //     //:todo change to correct bar
+303:        //     foo(e);
+304-        //     //bar(e);
+305-        // }
+Found 1 match(es) in 1 file(s).
+# Replace all occurences of foo with bar inside all python files
+$ snr --replace bar foo &quot;**/*.py&quot;
+Replaced 1 match(es) in 1 file(s).
+</code></pre>
 
-<p><img alt="global search dialog" src="/s/img/blog/search-matches-51e45c9d.png" /></p>
+<p>and for more advance usage:</p>
 
-<h3 id="toc_2">We&#39;ve open sourced some stuff</h3>
+<pre><code class="bash">$ snr --help
+usage: snr [OPTION]... PATTERN [FILES OR DIRECTORIES OR GLOBS]
+options:
+    -i, --ignore-case       Ignore case distinctions in PATTERN.
+    -Q, --literal           Quote all metacharacters; PATTERN is literal.
+    --max-result-count=NUM  Stop after NUM results.
+    --replace=REPlACE       Replace all matches with REPLACE.
+    -h, --help              Print this help and exit.
+    -v, --version           Print the current version.
+    -C NUM, --context=NUM   Print NUM lines of output context.
+    -w, --word-regexp       Force PATTERN to match only whole words.
+    --color-lineno=COLOR    Set the color for filenames, matches, and line
+                            numbers.
+</code></pre>
 
-<p>In doing this, we decided to <a href="/s/blog/2013/11/snr/">open source the back-end</a> search capabilities. SnR is a Node application and uses <code>ack</code> and <code>perl</code> to provide a powerful way to search within code.</p>
+<h2 id="toc_2">What&#39;s next?</h2>
+
+<p>There is even more goodness inside. You can use SnR as a module inside your node app as well, just install it and <code>require(&#39;snr&#39;)</code> to get started. More info on that can be found on the <a href="https://github.com/codio/snr">github repo</a>.</p>
 
 
         <div class="blog-social clearfix">
           <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/search-replace/" data-via="codiohq" data-size="small" data-count="none" data-text="Global Search and Replace">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/snr/" data-via="codiohq" data-size="small" data-count="none" data-text="Search and Replace with SnR">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
 
           <div class="blog-gplus">
             <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/search-replace/"></div>
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/snr/"></div>
 
             <!-- Place this tag after the last +1 button tag. -->
             <script type="text/javascript">
@@ -177,7 +206,7 @@
           </div>
 
           <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/search-replace/" data-width="450" data-show-faces="false"></div>
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/snr/" data-width="450" data-show-faces="false"></div>
           </div>
         </div>
       </article>
@@ -347,6 +376,9 @@
       <ul>
         
           
+          <li><a href="/s/blog/2013/12/tab-cycling/">Tab Cycling</a></li>
+        
+          
           <li><a href="/s/blog/2013/12/command-bar/">Command Bar</a></li>
         
           
@@ -358,9 +390,6 @@
           
           <li><a href="/s/blog/2013/11/auto-complete-for-any-language/">Auto-Complete for Any Language</a></li>
         
-          
-          <li><a href="/s/blog/2013/11/quick-open/">Quick Open</a></li>
-        
       </ul>
     </section>
 
@@ -368,7 +397,7 @@
       <h4>on this page...</h4>
       <ul>
         
-          <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
+          <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>
         
           <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
         

@@ -23,6 +23,8 @@ This gives you complete control over the layout of your project. Whenever you le
 
 ![Panels](/img/docs/panel-overview.png)
 
+You can open multiple tabs within a panel. You can drag tabs from one panel to another and you can switch tabs using the keyboard using `Alt+Shift+>` and `Alt+Shift+<`
+
 #Abbreviations
 [Full documentation.](/docs/emmet/emmet-abbreviations/) There are a very wide range of shortcuts available for HTML, CSS and Javascript. You simply enter the abbreviation in the Code Editor and then press the Tab key to expand the abbreviation. For instance ...
 
@@ -86,6 +88,10 @@ Codio lets you deploy all or any part of your project with a single click to a c
 [Full documentation.](/s/docs/console/) When you sign into Codio, you are shown the Dashboard. From here you can create and manage your projects.
 
 ![preferences](/img/docs/console-screen.png)
+
+#Templates
+Codio provides and lets you manage [templates](/docs/ide/ide-general/templates) so when you add a new file, Codio can automatically insert a code stub and header along with various tokens such as date, time, project name etc.
+
 
 #Forking Codio projects
 [Full documentation.](/docs/ide/ide-general/fork/) You can fork any 3rd party public project into your account.

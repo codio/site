@@ -121,6 +121,72 @@
       <article>
         <section class="meta">
           <p class="date">
+            <a href="/s/blog/2013/11/search-replace/">November 11, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/search-replace/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></h1>
+
+        
+        <p>One big omission from Codio so far has been powerful search and replace functionality across your entire project. We&#39;ve had search and replace in files, but up until now it&#39;s not been possible to search across all files within your project. Well, we&#39;ve corrected this now.</p>
+
+<p><img alt="global search dialog" src="/s/img/blog/global-search-0492d1a4.png" /></p>
+
+<h3 id="toc_0">Globs and pattern matching</h3>
+
+<p>As well as being able to search on simple strings across the entire project, you can use <a href="/s/docs/ide/code-editor/search-replace">glob pattern matching</a>.</p>
+
+<p>The above image shows how you can look for matches of the word <code>step</code> in all <code>js</code> files across the whole project. Or, you could look for all files ending in <code>.html</code> or <code>.coffee</code> in just the <code>lib</code> folder:</p>
+
+<p><code>lib/*{.html,.coffee}</code></p>
+
+<h3 id="toc_1">Matches</h3>
+
+<p>Once the search operation has completed, you will see all files listed in a Codio tab. Simply double click on the highlighted match to open up that file in a new tab.</p>
+
+<p><img alt="global search dialog" src="/s/img/blog/search-matches-1cfede5c.png" /></p>
+
+<h3 id="toc_2">We&#39;ve open sourced some stuff</h3>
+
+<p>In doing this, we decided to <a href="/s/blog/2013/11/snr/">open source the back-end</a> search capabilities. SnR is a Node application and uses <code>ack</code> and <code>perl</code> to provide a powerful way to search within code.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/search-replace/" data-via="codiohq" data-size="small" data-count="none" data-text="Global Search and Replace">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/search-replace/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/search-replace/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
             <a href="/s/blog/2013/11/ssh/">November  7, 2013</a>
             
               <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
@@ -135,7 +201,7 @@
         
         <p>Codio has been focusing on building front-end applications. However, we&#39;ve been busy adding lots of awesome features to make Codio a great environment for Node, PHP, Ruby and Python developers. One of the important new features is the ability to SSH into a remote server without ever leaving Codio.</p>
 
-<p><img alt="ssh" src="/s/img/blog/ssh-tab-94a3f121.png" /></p>
+<p><img alt="ssh" src="/s/img/blog/ssh-tab-beac06bc.png" /></p>
 
 <p>You can do pretty much anything that you can do from any terminal client including running applications like Nano, Emacs and Vim.</p>
 
@@ -143,13 +209,13 @@
 
 <p>We&#39;ve also added in a Connection Manager so you can name and save your connections for quick and easy recall. You can even upload the Codio public key with a button click to save you the time and effort of manually adding keys.</p>
 
-<p><img alt="ssh" src="/s/img/blog/ssh-connection-list-add02d7f.png" /></p>
+<p><img alt="ssh" src="/s/img/blog/ssh-connection-list-d11e83da.png" /></p>
 
 <h2 id="toc_1">Multiple SSH Connection Tabs</h2>
 
 <p>And because Codio has great panel management, you can have any number of connections open at the same time and arrange them in any way you want.</p>
 
-<p><img alt="ssh" src="/s/img/blog/ssh-multitabs-6d41e7b3.png" /></p>
+<p><img alt="ssh" src="/s/img/blog/ssh-multitabs-e1305402.png" /></p>
 
 <h2 id="toc_2">Documentation</h2>
 
@@ -438,78 +504,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">September 30, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/09/better-looking-annotations-and-full-screen/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></h1>
-
-        
-          <img alt="Better Looking Annotations &amp; Full Screen" align="left" class="blog-img" src="/s/img/blog/annotations-14f97b92.png" />
-        
-        <p>Today we shipped some big improvements to the way you view and navigate through Annotations, and also added a handy way to open any tab in full screen.</p>
-
-<h2 id="toc_0">Annotations</h2>
-
-<p>Annotations are a great way to create interactive, code-based tutorials and tours. Just create a project and annotate your code using simple comments-based tags. Then viewers of your project will then be able to take a tour of your code, or click around on the annotations that you have created.</p>
-
-<p>Today&#39;s release makes Annotations Tour content much less obtrusive. By moving the content out of a dialog window and into a tab - like everything else in Codio - you no longer have to move or resize the dialog out of the way. The code and Annotations content are now shown side-by-side.</p>
-
-<p><a href="/s/docs/annotations">Read the docs</a> for more on Annotations and how to create and use them.</p>
-
-<h2 id="toc_1">Full Screen</h2>
-
-<p>We&#39;ve also sneaked in a nice new item to your <code>View</code> menu. Just click <code>Full Screen</code> and your current tab will be expanded into full screen. Or better still, just hit <code>F11</code> on your keyboard for a quick shortcut. And if you don&#39;t like <code>F11</code>, open up your Preferences from the <code>Codio &gt; Preferences &gt; User</code> menu item, and simply override the <code>fullscreen</code> option. I set mine to <code>Cmd-Shift-F</code>:</p>
-
-<pre><code>[ide]
-fullscreen = Cmd-Shift-F
-</code></pre>
-
-<h2 id="toc_2">And one more thing..</h2>
-
-<p>And we&#39;ve improved the File Tree, by adding arrows to let you expand/collapse directories. Simple change, but it now lets you more easily see what is expanded and what isn&#39;t.</p>
-
-<hr>
-
-<p>Enjoy!</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/" data-via="codiohq" data-size="small" data-count="none" data-text="Better Looking Annotations &amp; Full Screen">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/09/better-looking-annotations-and-full-screen/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -533,6 +527,9 @@ fullscreen = Cmd-Shift-F
       <ul>
         
           
+          <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
+        
+          
           <li><a href="/s/blog/2013/11/ssh/">SSH Terminal</a></li>
         
           
@@ -547,14 +544,13 @@ fullscreen = Cmd-Shift-F
           
           <li><a href="/s/blog/2013/10/rsync-deployment-tab-context-menu-css-auto-completion/">Rsync Deployment, Tab Context Menu &amp; CSS Auto-Completion</a></li>
         
-          
-          <li><a href="/s/blog/2013/09/better-looking-annotations-and-full-screen/">Better Looking Annotations &amp; Full Screen</a></li>
-        
       </ul>
 
       
         <h4>Latest posts...</h4>
         <ul>
+          
+            <li><a href="/s/blog/2014/01/happy-new-year/">Happy New Year</a></li>
           
             <li><a href="/s/blog/2013/12/tab-cycling/">Tab Cycling</a></li>
           
@@ -566,11 +562,9 @@ fullscreen = Cmd-Shift-F
           
             <li><a href="/s/blog/2013/11/auto-complete-for-any-language/">Auto-Complete for Any Language</a></li>
           
-            <li><a href="/s/blog/2013/11/quick-open/">Quick Open</a></li>
-          
             <li><a href="/s/blog/2013/11/deploy-specific-files/">Selective File Deployment</a></li>
           
-            <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
+            <li><a href="/s/blog/2013/11/quick-open/">Quick Open</a></li>
           
         </ul>
       
@@ -632,7 +626,7 @@ var disqus_shortname = 'codio'; // required: replace example with your forum sho
     </div>
 
     <div>
-      Copyright &copy; 2013 Application Craft Ltd.
+      Copyright &copy; 2014 Application Craft Ltd.
       &nbsp;&nbsp;
       <a href="http://status.codio.com/" target="_blank">System Status</a>&nbsp;&nbsp;|&nbsp;&nbsp;
       <a href="mailto:support@codio.com">Drop us a line...</a><br>

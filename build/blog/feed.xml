@@ -4,10 +4,45 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2013-12-20T00:00:00Z</updated>
+  <updated>2014-01-02T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Happy New Year</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/01/happy-new-year/"/>
+    <id>https://codio.com/s/blog/2014/01/happy-new-year/</id>
+    <published>2014-01-02T00:00:00Z</published>
+    <updated>2014-01-02T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Happy new year to you all, and we hope you all had a great Christmas. I'm recovering from too much food and drink and pondering what 2014 will bring. As far as Codio is concerned, it's all guns blazing, and we've got &lt;a href="/s/s/blog/2013/12/git-and-tease-of-what-is-to-come/"&gt;BIG plans&lt;/a&gt;. We'll be revealing more...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Happy new year to you all, and we hope you all had a great Christmas. I&amp;#39;m recovering from too much food and drink and pondering what 2014 will bring. As far as Codio is concerned, it&amp;#39;s all guns blazing, and we&amp;#39;ve got &lt;a href="/s/s/blog/2013/12/git-and-tease-of-what-is-to-come/"&gt;BIG plans&lt;/a&gt;. We&amp;#39;ll be revealing more over the coming weeks and months.&lt;/p&gt;
+
+&lt;p&gt;As for now, we&amp;#39;ve got a few goodies that we quietly shipped over the festive period. So think of these as slightly belated Christmas presents.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;File Templates&lt;/h2&gt;
+
+&lt;p&gt;The biggest new feature that shipped just before Christmas, was developed by one of our awesome engineers as part of his Friday Hack Day; a weekly day of anything goes hacking on Codio.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/s/s/docs/ide/ide-general/templates/"&gt;File Templates&lt;/a&gt; allow you to create a new file based on a selection of code templates, such as a PHP class, or Python script, or even a plain HTML page. When you create a new file, you will have the option of populating that new file with a template of your choosing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="templates" src="/s/img/blog/templates-3c4aaaf2.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;We already provide several templates out of the box, but if none of those are what you want, you can also edit these or even create your own templates.&lt;/p&gt;
+
+&lt;p&gt;This is one of several new features and improvements that we have already shipped, and that came out of our weekly Hack Day. Here&amp;#39;s to plenty more!&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Single click directory opening&lt;/h2&gt;
+
+&lt;p&gt;Another improvement that has come out of us listening to what you want...&lt;/p&gt;
+
+&lt;p&gt;If you now click a directory name in the file tree, that directory will be expanded without requiring a second click. This makes things more consistent with file opening. Simply put, it means that a single click is all you need to open a file or directory.&lt;/p&gt;
+
+&lt;p&gt;And of course, you can still right-click any item to access the context menu, which includes the ability to rename and delete the item.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Tab Cycling</title>
     <link rel="alternate" href="https://codio.com/s/blog/2013/12/tab-cycling/"/>
@@ -17,12 +52,12 @@
     <author>
       <name>Joel Moss</name>
     </author>
-    <summary type="html">&lt;p&gt;You've been asking and we've been listening. So today we made it easy to quickly switch tabs without having to use your mouse. Just hitting &lt;code&gt;Alt-Shift+&amp;gt;.&lt;/code&gt; will switch your current tab to the next on the right, and &lt;code&gt;Alt-Shift+&amp;lt;,&lt;/code&gt; will switch to tab on the...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;You&amp;#39;ve been asking and we&amp;#39;ve been listening. So today we made it easy to quickly switch tabs without having to use your mouse. Just hitting &lt;code&gt;Alt-Shift+&amp;gt;.&lt;/code&gt; will switch your current tab to the next on the right, and &lt;code&gt;Alt-Shift+&amp;lt;,&lt;/code&gt; will switch to tab on the left.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;You've been asking and we've been listening. So today we made it easy to quickly switch tabs without having to use your mouse. Just hitting &lt;code&gt;Alt-Shift+.&lt;/code&gt; will switch your current tab to the next on the right, and &lt;code&gt;Alt-Shift+,&lt;/code&gt; will switch to tab on the...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;You&amp;#39;ve been asking and we&amp;#39;ve been listening. So today we made it easy to quickly switch tabs without having to use your mouse. Just hitting &lt;code&gt;Alt-Shift+.&lt;/code&gt; will switch your current tab to the next on the right, and &lt;code&gt;Alt-Shift+,&lt;/code&gt; will switch to tab on the left.&lt;/p&gt;
 
 &lt;p&gt;And of course, if you don&amp;#39;t like those keybindings, open up your &lt;a href="https://codio.com/p/preferences"&gt;preferences&lt;/a&gt; and change the &lt;code&gt;tab_switch_left&lt;/code&gt; and &lt;code&gt;tab_switch_right&lt;/code&gt; item.&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Tab Switching" src="/s/img/blog/tab-switching-369bb369.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tab Switching" src="/s/img/blog/tab-switching-944148bf.gif" /&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -39,7 +74,7 @@
 
 &lt;p&gt;We&amp;#39;re excited to tell you that Codio now has its very own &lt;a href="/s/docs/command-bar"&gt;Command Bar&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="command bar" src="/s/img/blog/command-bar-bc6b6d2f.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="command bar" src="/s/img/blog/command-bar-e4789305.gif" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Press &lt;code&gt;Cmd+Shift+P&lt;/code&gt; (Mac) or &lt;code&gt;Ctrl+Shft+P&lt;/code&gt; (PC/Linux) and the Command Bar will appear. Just type any part of the command you&amp;#39;re looking for and the list will narrow down to match your input. Press &lt;code&gt;enter&lt;/code&gt; or click on the command and it will be executed instantly.&lt;/p&gt;
 
@@ -107,7 +142,7 @@
     <summary type="html">&lt;p&gt;Codio already provides a &lt;a href="/s/s/docs/settings-prefs/prefs-list/"&gt;high level of customisation&lt;/a&gt;, because we know that every developer works differently and you all have your own way of working. The &lt;a href="https://codio.com/s/docs/settings-prefs/"&gt;Preferences system&lt;/a&gt; in Codio is based on an INI file, which makes it extremely easy to edit your...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;Codio already provides a &lt;a href="/s/s/docs/settings-prefs/prefs-list/"&gt;high level of customisation&lt;/a&gt;, because we know that every developer works differently and you all have your own way of working. The &lt;a href="https://codio.com/s/docs/settings-prefs/"&gt;Preferences system&lt;/a&gt; in Codio is based on an INI file, which makes it extremely easy to edit your prefs. It&amp;#39;s just like writing code, which of course we all like doing.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="/s/img/blog/prefs-8985f8a2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/s/img/blog/prefs-4da47336.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;But there are a few common preferences that tend to get used more than others, so we&amp;#39;ve made these even easier for you to access and edit. Check out the new and improved &lt;code&gt;View&lt;/code&gt; menu. You can now change the following directly from this menu:&lt;/p&gt;
 
@@ -145,27 +180,6 @@
 &lt;p&gt;Did you know that you can customise the auto-complete keyboard shortcut, and in fact any other shortcuts that we provide? Open up your preferences (&lt;code&gt;Codio &amp;gt; Preferences&lt;/code&gt;) and simply override any of the default shortcuts with whatever you want. &lt;a href="/s/docs/ide/code-editor/kb-shortcuts/"&gt;Read the docs for more&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Quick Open</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/quick-open/"/>
-    <id>https://codio.com/s/blog/2013/11/quick-open/</id>
-    <published>2013-11-21T00:00:00Z</published>
-    <updated>2013-11-21T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;Quick open (default is &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt;) also known as fast open, is a great way of opening files without the need to access the file tree. Press &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt; or select &lt;code&gt;File &amp;gt;Open File&lt;/code&gt; from the menu and the quick open dialog will appear.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;You can now...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Quick open (default is &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt;) also known as fast open, is a great way of opening files without the need to access the file tree. Press &lt;code&gt;Cmd+O&lt;/code&gt;/&lt;code&gt;Ctrl+O&lt;/code&gt; or select &lt;code&gt;File &amp;gt;Open File&lt;/code&gt; from the menu and the quick open dialog will appear.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="quick open" src="/s/img/blog/quick-open-1fbc5512.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can now start typing the name of a file and as you type, the list will be filtered. You can then select the file you want using the mouse or use the keyboard, pressing &lt;code&gt;Enter&lt;/code&gt; on the required file.&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -23,7 +23,7 @@ This gives you complete control over the layout of your project. Whenever you le
 
 ![Panels](/img/docs/panel-overview.png)
 
-You can open multiple tabs within a panel. You can drag tabs from one panel to another and you can switch tabs using the keyboard using `Alt+Shift+>` and `Alt+Shift+<`
+You can open multiple tabs within a panel. You can drag tabs from one panel to another and you can switch tabs using the keyboard using `Alt+Shift+,` and `Alt+Shift+.`
 
 #Abbreviations
 [Full documentation.](/docs/emmet/emmet-abbreviations/) There are a very wide range of shortcuts available for HTML, CSS and Javascript. You simply enter the abbreviation in the Code Editor and then press the Tab key to expand the abbreviation. For instance ...

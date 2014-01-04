@@ -7,7 +7,7 @@ full_width: true
 Here is a full list of all important Codio features. Codio packs a lot of features and so take a moment to scroll through and see what we've got.
 
 #Command Bar
-[Full documentation.](/docs/command-bar) The Command Bar let's you access almost every Codio command with a single keyboards shortcut. You simply type the command you want to run and it autocompletes the list for you. It's a great place to look up keyboard shortcuts without having to explore the menu or documentation.
+[Full documentation.](/docs/command-bar) The Command Bar lets you access almost every Codio command with a single keyboard shortcut. You simply type the command you want to run and it autocompletes the list for you. It's a great place to look up keyboard shortcuts without having to explore the menu or documentation.
 
 ![command bar](/img/docs/command-bar.png)
 

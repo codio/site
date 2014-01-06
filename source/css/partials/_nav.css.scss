@@ -45,8 +45,6 @@ body .wrap > nav {
         }
 
         &#signedout-nav {
-          text-transform: uppercase;
-
           li {
             padding: 0 5px;
 
@@ -54,7 +52,12 @@ body .wrap > nav {
               padding: 0 10px;
             }
 
+            a {
+              font-size: 14px;
+            }
+
             &:first-child a {
+              text-transform: uppercase;
               background-color: $red;
               padding: 7px 14px 6px;
               border-radius: 2px;
@@ -120,7 +123,7 @@ body .wrap > nav {
 
       li {
         display: inline-block;
-        padding: 0 14px;
+        padding: 0 10px;
 
         a {
           color: #3e3e3e;

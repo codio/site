@@ -1,0 +1,25 @@
+body.features {
+
+  #site-nav {
+    margin-left: 35px !important;
+
+    li:nth-child(1) a {
+      color: #000;
+      border-color: #f36050;
+      font-family: gotham_medium;
+    }
+  }
+
+  .codio-nav {
+    margin: 30px 10px 0 0 !important;
+
+    &#signedout-nav li {
+      padding: 0 5px !important;
+
+      &:nth-child(1) {
+        padding-left: 16px !important;
+      }
+    }
+  }
+
+}

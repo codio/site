@@ -15,7 +15,7 @@ body.home-tutorials {
       > div {
         float: left;
         position: relative;
-        color : #DDD9D9;    
+        color : #DDD9D9;
 
         // Tagline
         &:first-child {
@@ -24,7 +24,7 @@ body.home-tutorials {
           left: 5px;
 
           @include apply-to(more-than, desktop) {
-            top: 8px;  
+            top: 8px;
             left: 33px;
           }
 
@@ -58,7 +58,7 @@ body.home-tutorials {
 
 
               &:nth-child(3) {
-                padding: 0px 0px 0px 0px;              
+                padding: 0px 0px 0px 0px;
                 font: 24px gotham_thin;
                 display: block;
                 width: 600px;
@@ -75,12 +75,12 @@ body.home-tutorials {
             // "LOGO"
             img {
               margin: -124px 272px 0px 10px !important;
-              height: 89px;              
+              height: 89px;
               @include apply-to(more-than, desktop) {
                 margin: -139px 327px 0px 10px !important;
-                height: 104px;       
+                height: 104px;
               }
-            }  
+            }
 
           }
 

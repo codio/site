@@ -1,0 +1,113 @@
+body.features {
+
+  #site-nav {
+    margin-left: 35px !important;
+
+    li:nth-child(1) a {
+      color: #000;
+      border-color: #f36050;
+      font-family: gotham_medium;
+    }
+  }
+
+  .codio-nav {
+    margin: 30px 10px 0 0 !important;
+
+    &#signedout-nav li {
+      padding: 0 5px !important;
+
+      &:nth-child(1) {
+        padding-left: 16px !important;
+      }
+    }
+  }
+
+  .container {
+    header {
+      @include clearfix;
+      margin: 10px 0 70px;
+
+      div {
+        float: left;
+
+        &:first-child {
+          width: 400px;
+          margin: 40px 0 0 10px;
+        }
+
+        &:last-child {
+          width: 570px;
+        }
+      }
+
+      h1 {
+        font: 20px 'Indie Flower';
+        @include rotate(2deg);
+        float: right;
+        color: $red;
+        font-size: 22px;
+        margin-top: 38px;
+        border-bottom: 1px solid #ccc;
+        text-transform: initial;
+      }
+
+      h2 {
+        font: 15px gotham_medium;
+        text-transform: initial;
+        color: #888;
+        margin: 0;
+      }
+    }
+
+    section {
+      margin: 40px 40px 50px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 60px;
+
+      &.first {
+        margin-top: 0;
+      }
+
+      &.last {
+        margin-bottom: 140px;
+      }
+
+      h2 {
+        float: left;
+        width: 240px;
+        padding-right: 60px;
+        font: 20px gotham_bold;
+
+        small {
+          display: block;
+          font: 14px gotham_light;
+          text-transform: initial;
+          margin: 10px;
+        }
+      }
+
+      article {
+        float: left;
+        width: 600px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 1.5em;
+      }
+
+      img {
+        vertical-align: middle;
+        display: block;
+        text-align: center;
+        padding: 4px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        @include box-shadow(0 1px 3px rgba(0,0,0,0.1));
+        @include border-radius(3px);
+        max-width: 97%;
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+  }
+
+}

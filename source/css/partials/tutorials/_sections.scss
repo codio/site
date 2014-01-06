@@ -30,7 +30,7 @@ section {
 
     p {
       font: 17px gotham_light;
-      line-height: 1.7em;
+      line-height: 1.4em;
       margin: 1em 0 0 0;
 
       strong {
@@ -39,10 +39,14 @@ section {
       }
     }
 
-    li {
-      font: 17px gotham_light;
-      line-height: 1.7em;
-      margin: 0px -6px 0px -15px;       
+    ol> li {
+      font: 15px gotham_light;
+      line-height: 1.2em;
+      color: $red;
+      margin: 0px -6px 0px -15px;  
+      a {
+        text-decoration: underline;
+      }     
     }
 
     .coming-soon {
@@ -56,44 +60,53 @@ section {
   &#nodeschool {
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/nodeschool.png') no-repeat -20px center;
+      background: transparent image-url('home/screens/nodeschool.png') no-repeat -0px center;
       background-size: 30%;
-      background-position: 0px 136px;
+      background-position: 0px 232px;
+      margin-left: 266px;
+      padding: 0px 0px 0px 0px;
 
 
       @include apply-to(less-than, desktop) {
-        background-position: 0px 200px;
+        background-position: 0px 260px;
         background-size: 33%;
       }
 
       > div {
         background-size: 11px;
+        padding-left: 320px;
+        width: 524px;      
+        @include apply-to(less-than, desktop) {
+          padding-left: 263px;
+          width: 507px;  
+        }        
       }
     }
   }
 
   &#grunt {
-   .container > div {
+    .container > div {
       @include screenie;
-      background: transparent image-url('/home/screens/create-project-wp.png') no-repeat -20px center;
-      background-size: 45%;
+      background: transparent image-url('home/screens/grunt-logo.png') no-repeat -0px center;
+      background-size: 15%;
+      background-position: 60px 172px;
+      margin-left: 266px;
+      padding: 0px 0px 0px 0px;
+
 
       @include apply-to(less-than, desktop) {
-        background-position: -142px center;
-        background-size: 68%;
+        background-position: 0px 260px;
+        background-size: 33%;
       }
 
       > div {
-        background: transparent image-url('/home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 11px;
-        padding: 130px 0 130px 429px;
-        width: 421px;
-
+        padding-left: 320px;
+        width: 524px;      
         @include apply-to(less-than, desktop) {
-          padding: 130px 0 130px 355px;        
-          width: 320px;
-          background-size: 12px;
-        }
+          padding-left: 263px;
+          width: 507px;  
+        }        
       }
     }
   }  

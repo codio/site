@@ -1,0 +1,22 @@
+---
+title: Codio Tutorials
+class_name: home home-tutorials
+---
+
+<%= partial 'partials/tutorials/header' %>
+
+<aside class="home">
+  <ul>
+    <li><a href="#nodeschool">Nodeschool.io</a></li>    
+    <li><a href="#grunt">Grunt</a></li>
+  </ul>
+</aside>
+
+
+<%= partial 'partials/tutorials/nodeschool' %>
+<%= partial 'partials/tutorials/grunt' %>
+
+
+<% content_for :foot do %>
+  <%= javascript_include_tag 'home' %>
+<% end %>

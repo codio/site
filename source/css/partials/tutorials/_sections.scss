@@ -56,26 +56,18 @@ section {
   &#nodeschool {
     .container > div {
       @include screenie;
-      background: transparent image-url('../home/screens/blackboard.png') no-repeat -20px center;
-      background-size: 48%;
-      background-position: -26px 136px;
+      background: transparent image-url('home/screens/nodeschool.png') no-repeat -20px center;
+      background-size: 30%;
+      background-position: 0px 136px;
+
 
       @include apply-to(less-than, desktop) {
-        background-position: -204px 136px;
-        background-size: 82%;
+        background-position: 0px 200px;
+        background-size: 33%;
       }
 
       > div {
-        background: transparent image-url('../home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 11px;
-        padding: 130px 0 130px 429px;
-        width: 421px;
-
-        @include apply-to(less-than, desktop) {
-          padding: 130px 0 130px 355px;        
-          width: 320px;
-          background-size: 12px;
-        }
       }
     }
   }

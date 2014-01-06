@@ -38,7 +38,7 @@ body.home-tutorials {
             span {
 
               &:nth-child(1) {
-                font: 24px gotham_bold;
+                font: 50px gotham_bold;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 60px;

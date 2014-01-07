@@ -36,7 +36,8 @@ body.features {
         }
 
         &:last-child {
-          width: 570px;
+          margin-top: 20px;
+          width: 450px;
         }
       }
 
@@ -52,7 +53,7 @@ body.features {
       }
 
       h2 {
-        font: 15px gotham_medium;
+        font: 29px gotham_medium;
         text-transform: initial;
         color: #888;
         margin: 0;
@@ -60,9 +61,9 @@ body.features {
     }
 
     section {
-      margin: 40px 40px 50px;
+      margin: 40px 14px 50px;
       border-bottom: 1px solid #eee;
-      padding-bottom: 60px;
+      padding-bottom: 40px;
 
       &.first {
         margin-top: 0;
@@ -74,9 +75,9 @@ body.features {
 
       h2 {
         float: left;
-        width: 240px;
+        width: 200px;
         padding-right: 60px;
-        font: 20px gotham_bold;
+        font: 22px gotham_bold;
 
         small {
           display: block;
@@ -88,10 +89,10 @@ body.features {
 
       article {
         float: left;
-        width: 600px;
+        width: 635px;
         margin-bottom: 15px;
-        font-size: 12px;
-        line-height: 1.5em;
+        font-size: 15px;
+        line-height: 1.3em;
       }
 
       img {

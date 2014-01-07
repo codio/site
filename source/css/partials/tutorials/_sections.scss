@@ -39,14 +39,16 @@ section {
       }
     }
 
-    ol> li {
-      font: 15px gotham_light;
-      line-height: 1.2em;
-      color: $red;
-      margin: 0px -6px 0px -15px;  
-      a {
-        text-decoration: underline;
-      }     
+    ol {
+      li {
+        font: 17px gotham_light;
+        line-height: 1.2em;
+        margin: 0px -6px 0px -15px;  
+        color: $black;
+        a {
+          color: $red;
+        } 
+      }
     }
 
     .coming-soon {

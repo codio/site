@@ -39,7 +39,7 @@ section {
       }
     }
 
-    ol {
+    ol, ul {
       li {
         font: 17px gotham_light;
         line-height: 1.2em;
@@ -98,7 +98,7 @@ section {
 
       @include apply-to(less-than, desktop) {
         background-position: 0px 260px;
-        background-size: 33%;
+        background-size: 15%;
       }
 
       > div {

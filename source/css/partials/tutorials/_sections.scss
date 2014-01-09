@@ -113,6 +113,33 @@ section {
     }
   }  
 
+  &#grunt-watch {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/grunt-watch.png') no-repeat -0px center;
+      background-size: 20%;
+      background-position: 60px 130px;
+      margin-left: 266px;
+      padding: 0px 0px 0px 0px;
+
+
+      @include apply-to(less-than, desktop) {
+        background-position: 0px 150px;
+        background-size: 20%;
+      }
+
+      > div {
+        background-size: 11px;
+        padding-left: 320px;
+        width: 524px;      
+        @include apply-to(less-than, desktop) {
+          padding-left: 263px;
+          width: 507px;  
+        }        
+      }
+    }
+  }    
+
  
 
 }

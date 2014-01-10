@@ -8,6 +8,8 @@ Codio is free for all public projects. However, if you want to work on private p
 
 Current pricing information can be found at [https://codio.com/s/pricing/](https://codio.com/s/pricing/)
 
+If you **already had private projects before we introduced paid subscriptions**, you have a 30 day grace period after which your private projects will be disabled until you either make them public or purchase a subscription. During this grace period, private projects will remain private. New private projects will require a subscription.
+
 ##How to buy
 There are two ways you can buy a subscription
 
@@ -24,6 +26,9 @@ If you have already subscribed, you will see the following screen where you can 
 
 ![purchase](/img/docs/subscribe-2.png)
 
+##Purchase History & Invoices
+You will be able to find this from the 'Codio->Subscription' menu item.
+
 ##How does the billing process work?
 Billing works as follows.
 
@@ -33,3 +38,8 @@ Billing works as follows.
 - If you cancel, which you can do at any time, usage will continue as a paid up user until the month expires at which point your private projects will be disabled
 - Afterwards, you can enable these projects manually at which point they will become public
 
+##Changing Credit Card Details
+You can change your credit card details at any time by going to the 'Codio->Subscription' menu item and clicking on the 'Card Details' tab.
+
+##Group Subscriptions
+We do not currently offer this but it is planned in the near future. This will allow a company to manage centralized payment for a group of users.

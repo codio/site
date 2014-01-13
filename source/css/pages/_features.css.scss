@@ -95,7 +95,8 @@ body.features {
         line-height: 1.3em;
       }
 
-      img {
+      img,
+      span canvas {
         vertical-align: middle;
         display: block;
         text-align: center;
@@ -107,6 +108,10 @@ body.features {
         max-width: 97%;
         margin: 0 auto;
         text-align: center;
+      }
+
+      span canvas {
+        display: none;
       }
     }
   }

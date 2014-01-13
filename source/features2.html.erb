@@ -1,0 +1,39 @@
+---
+title: Features
+class_name: features
+---
+
+<div class="container">
+
+  <header>
+    <div>
+      <h2>Just a few highlights of what Codio has to offer...</h2>
+    </div>
+    <div>
+      <h1>Codio is packed full of productivity features!</h1>
+    </div>
+  </header>
+
+  <% (1..9).each do |i| %>
+
+    <section class="first">
+      <h2>Command Bar<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>
+      <article>
+        <p>The Command Bar lets you access almost every Codio command with a single keyboard shortcut. You simply type the command you want to run and it autocompletes the list for you. It's a great place to look up keyboard shortcuts without having to explore the menu or documentation.</p>
+        <p>The example below shows how a user toggles the line wrapping (which can also be done with a dedicated keyboard shortcut).</p>
+      </article>
+
+      <span>
+        <canvas id="panels_target<%= i %>" class="panels_target<%= i %>" width="854" height="479">
+          <div id="panels_fallback<%= i %>" class="panels_target<%= i %>" style="width: 854px; height: 479px; position: relative;"></div>
+        </canvas>
+      </span>
+      <%= image_tag "features/animated_pngs/panels_thumb#{i}.png" %>
+    </section>
+
+  <% end %>
+
+</div>
+
+
+<%= javascript_include_tag 'animations' %>

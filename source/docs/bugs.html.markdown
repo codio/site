@@ -12,6 +12,6 @@ It's best if you create an account and sign into your account to do this. Creati
 
 If you don't want to create an account, you can [email us directly](mailto:ee8711023afa04b80a6b921ddb3939c1171e0f62@incoming.intercom.io).
 
-The best way to communicate with us is to use our messaging system. You'll find this in the Help->Support/Contact Us menu item. 
+The best way to communicate with us is to use our messaging system. You'll find this in the `Help > Support/Contact Us` menu item.
 
 You can send us a message describing any issues you find. We will also notify you of updates to the system through this same mechanism. You'll get an email as well when we respond.

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Templates are accessed from the Tools->Templates menu option. 
+Templates are accessed from the `Tools > Templates` menu option.
 
 A template can be used to create standard stub code when a new file is added to your project. When you create a new template, you associate that template with one or more file extensions.
 
@@ -28,7 +28,7 @@ The default CSS template looks like this
 		}
 
 ##Creating and Editing Templates
-You access the template management from the Tools->Templates menu.
+You access the template management from the `Tools > Templates` menu.
 
 ![new file](/img/docs/templates-manage.png)
 

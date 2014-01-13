@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You can manage your SSH connections by going to the Tools->SSH->Connection Manager menu item. The Connection Manager lists all previously created connections, which you can then connect to or edit.
+You can manage your SSH connections by going to the `Tools > SSH > Connection Manager` menu item. The Connection Manager lists all previously created connections, which you can then connect to or edit.
 
 ![ssh connection list](/img/docs/ssh-connection-list.png)
 

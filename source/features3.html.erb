@@ -15,8 +15,21 @@ class_name: features
   </header>
 
 
-
   <section class="first">
+    <h2>Abbreviations<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>
+    <article>
+      <p>There is a very wide range of shortcuts available for HTML, CSS and Javascript. You simply enter the abbreviation in the Code Editor and then press the Tab key to expand the abbreviation. Take a look at the example below.</p>
+    </article>
+
+    <span>
+      <canvas id="abbreviations_target" class="abbreviations_target" width="854" height="479">
+        <div id="abbreviations_fallback" class="abbreviations_target" style="width: 854px; height: 479px; position: relative;"></div>
+      </canvas>
+    </span>
+    <%= image_tag "features/animated_pngs/abbreviations_thumb.png", :width => 854, :height => 479 %>
+  </section>
+
+  <section>
     <h2>Command Bar<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>
     <article>
       <p>The Command Bar lets you access almost every Codio command with a single keyboard shortcut. You simply type the command you want to run and it autocompletes the list for you. It's a great place to look up keyboard shortcuts without having to explore the menu or documentation.</p>
@@ -46,12 +59,25 @@ class_name: features
     <%= image_tag "features/animated_pngs/panels_thumb.png", :width => 854, :height => 479 %>
   </section>
 
-  <section class="last">
+  <section>
+    <h2>Keyboard Shortcuts<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>
+    <article>
+      <p>Codio has over 80 actions that can be invoked with a keyboard shortcut. If you are used to Sublime, Vim or Textmate then you won't be disappointed.</p>
+      <p>All keyboard shortcuts can be overriden in the Settings screen.</p>
+    </article>
+    <span>
+      <canvas id="shortcuts_target" class="shortcuts_target" width="854" height="479">
+        <div id="shortcuts_fallback" class="shortcuts_target" style="width: 854px; height: 479px; position: relative;"></div>
+      </canvas>
+    </span>
+    <%= image_tag "features/animated_pngs/shortcuts_thumb.png", :width => 854, :height => 479 %>
+  </section>  
+
+  <section>
     <h2>Quick Open<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>
     <article>
       <p>Quick Open is a great way of opening files without the need to access the file tree. You can start typing the name of a file and as you type, the list will narrow down. You can then select the file you want using the mouse or use the keyboard.</p>
     </article>
-
     <span>
       <canvas id="open_target" class="open_target" width="854" height="479">
         <div id="open_fallback" class="open_target" style="width: 854px; height: 479px; position: relative;"></div>
@@ -60,7 +86,31 @@ class_name: features
     <%= image_tag "features/animated_pngs/open_thumb.png", :width => 854, :height => 479 %>
   </section>
 
+  <section>
+    <h2>Beautify<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>
+    <article>
+      <p>Beautify your HTML, CSS and JS code (entire file or selected block) with a single key press. You customize over 20 individual settings to get the exact format you're after.</p>
+    </article>
+    <span>
+      <canvas id="beautify_target" class="beautify_target" width="854" height="479">
+        <div id="beautify_fallback" class="beautify_target" style="width: 854px; height: 479px; position: relative;"></div>
+      </canvas>
+    </span>
+    <%= image_tag "features/animated_pngs/beautify_thumb.png", :width => 854, :height => 479 %>
+  </section>
 
+  <section>
+    <h2>Linting &amp; Folding<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>
+    <article>
+      <p>Codio is full of really powerful little features. The example animation below shows a couple of these - code-folding and linting - in action.</p>
+    </article>
+    <span>
+      <canvas id="wraplint_target" class="wraplint_target" width="854" height="479">
+        <div id="wraplint_fallback" class="wraplint_target" style="width: 854px; height: 479px; position: relative;"></div>
+      </canvas>
+    </span>
+    <%= image_tag "features/animated_pngs/wraplint_thumb.png", :width => 854, :height => 479 %>
+  </section>
 
 </div>
 

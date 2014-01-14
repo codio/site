@@ -5,7 +5,7 @@ full_width: true
 ---
 
 ##Contacting Us
-If you want to contact us, we have a great Intercom system integrated with your account. If you have a Codio account, select the menu item Help->Support/Contact Us and you'll see the following popup window.
+If you want to contact us, we have a great Intercom system integrated with your account. If you have a Codio account, select the menu item `Help > Support/Contact Us` and you'll see the following popup window.
 
 ![Intercom](/img/docs/intercom.png)
 

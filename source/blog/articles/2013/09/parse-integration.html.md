@@ -20,12 +20,12 @@ The application structure in Codio is the same as if you were coding on your loc
 ![parse structure](/img/blog/parse-structure.png)
 
 ##Parse.com Deployment Profile
-We've added a Parse deployment profile into Codio. This lets Codio take care of the entire deployment process onto Parse.com. Watch the video above to see this in action. Deployment is extremely fast as it's a Cloud->Cloud operation, with only diffs being transferred.
+We've added a Parse deployment profile into Codio. This lets Codio take care of the entire deployment process onto Parse.com. Watch the video above to see this in action. Deployment is extremely fast as it's a Cloud -> Cloud operation, with only diffs being transferred.
 
 ![parse structure](/img/blog/parse-deploy.png)
 
 ##Example Apps
-Below are two sample Apps, both of which are standard Parse.com tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (Project->Fork). You can then follow the instructions in the README.md files.
+Below are two sample Apps, both of which are standard Parse.com tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (`Project > Fork`). You can then follow the instructions in the README.md files.
 
 ###To Do App
 Click the button below to load this front-end App into Codio.

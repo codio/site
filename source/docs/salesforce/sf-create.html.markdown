@@ -15,10 +15,10 @@ You get this from Salesforce itself. Developer Salesforce users will be able to 
 ![Salesforce token](/img/docs/sf-setup.png)
 
 ##Salesforce Endpoint
-This dropdown box allows you to select Sandbox, Prerelease or Production. 
+This dropdown box allows you to select Sandbox, Prerelease or Production.
 
 ##Modifying your Salesforce credentials
-Once your project is created, you can modify your credentials from the Tools->SalesForce->Settings menu item.
+Once your project is created, you can modify your credentials from the `Tools > SalesForce > Settings` menu item.
 
 ##Ready to go
 Once the project is created, click on it to load open the IDE. At project creation time, Codio does not retrieve data from SalesForce. You need to do a 'Pull All' manually as [described here](/docs/salesforce/sf-pull).

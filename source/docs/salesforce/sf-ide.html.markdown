@@ -17,5 +17,5 @@ Some interesting areas to refer to relevant to SalesForce.com development ...
 ##Accessing SalesForce features
 There are two main ways to access SalesForce features
 
-- Tools->SalesForce menu
+- `Tools > SalesForce` menu
 - Right click menu : push/pull operations on the selected file

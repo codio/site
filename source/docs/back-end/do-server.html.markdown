@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-There is a [video of this tutorial](https://player.vimeo.com/video/79023130?autoplay=1&hd=1) if you prefer watching to reading. It is also a very good showcase for working with Codio and back-end development in general. 
+There is a [video of this tutorial](https://player.vimeo.com/video/79023130?autoplay=1&hd=1) if you prefer watching to reading. It is also a very good showcase for working with Codio and back-end development in general.
 
 To develop in back end languages like PHP, Node, Ruby or Python 100% in the cloud, all you need is a cloud based server.
 
@@ -41,7 +41,7 @@ As you selected the Wordpress image, an existing Wordpress application will be a
 1. Log into Codio and from the Dashboard, select Create Project.
 1. Enter a project name 'wp-example' or similar
 1. Select the (S)FTP tab.
-1. Check the SFTP box if you have SFTP access and then enter the IP address and password, which should have been emailed to you. 
+1. Check the SFTP box if you have SFTP access and then enter the IP address and password, which should have been emailed to you.
 1. In the Path field, enter `/home/wordpress/public_html'
 
 Pressing will create will now load the contents of the public_html folder into a new Codio project.  It may take about 90 seconds to import the 16MB or so of data. That is the last slow thing that will happen!
@@ -49,7 +49,7 @@ Pressing will create will now load the contents of the public_html folder into a
 ##Set up an SSH Connection
 You don't have to do this but for those who want to control their server via a terminal window, it's very handy.
 
-1. Go to the Tools->SSH->Connections Manager menu item
+1. Go to the `Tools > SSH > Connections Manager` menu item
 1. Press the Create New button and enter your server details along with a friendly server name that will appear in Codio. Leave the port number empty.
 1. Press Save to create the connection. You will now see your server in the SSH Connections list.
 1. We'll now copy the Codio public key to the remote server. All you do is press the Key button to the right of your server name. You will be asked to enter the server details again along with the server password. Your Codio user's public key will be automatically transferred and installed on the remote server. This means no more passwords are required when authenticating.
@@ -58,21 +58,21 @@ You don't have to do this but for those who want to control their server via a t
 ##IMPORTANT - Modify the Deployment Target
 If you only have FTP access, then please refer to the section on [deploying only specific files](/docs/deployment/specific-files) to avoid deploying your entire project.
 
-However, if you do have SSH access to the remote server (which will be the case if you are using a Digital Ocean server) you should now enable RSYNC. 
+However, if you do have SSH access to the remote server (which will be the case if you are using a Digital Ocean server) you should now enable RSYNC.
 
 Having imported from SFTP, Codio automatically takes the credentials you entered at the import and creates an SFTP Deployment Target for you. This is fine, but RSYNC is a way better deployment type because it only deploys changed files and not the entire project.
 
-1. Select then Tools->Deployment->Manage Targets menu item.
+1. Select then `Tools > Deployment > Manage Targets` menu item.
 1. You should now see the Default target listed.
 1. Press the pencil button to edit it.
 1. Change the Destination field from SFTP to RSYNC and press save at the bottom of the form.
-1. In the Base Path field, enter the IP address of your remote server. 
+1. In the Base Path field, enter the IP address of your remote server.
 
 ##Try a manual deploy
 
-**FTP Users**: if you only have FTP access to the remote server, then right-click a specific file in the file tree or in the tab of an open file and select the Deploy menu option. Refer to [deploying only specific files](/docs/deployment/specific-files) for more information on deploying on specific files rather than the entire project. 
+**FTP Users**: if you only have FTP access to the remote server, then right-click a specific file in the file tree or in the tab of an open file and select the Deploy menu option. Refer to [deploying only specific files](/docs/deployment/specific-files) for more information on deploying on specific files rather than the entire project.
 
-**SFTP/RSYNC Users**: you can quickly test the deployment target by selecting Tools->Deployment->Deploy from the menu. Press the deploy now button. If you did everything right beforehand, you will now see some log output. You will also see the beauty of an RSYNC deploy. All it does at this stage is to synchronize, which is very quick. From now on, everything will be even quicker. This approach will also work for FTP but if you do not use RSYNC, it will deploy your entire project.
+**SFTP/RSYNC Users**: you can quickly test the deployment target by selecting `Tools > Deployment > Deploy` from the menu. Press the deploy now button. If you did everything right beforehand, you will now see some log output. You will also see the beauty of an RSYNC deploy. All it does at this stage is to synchronize, which is very quick. From now on, everything will be even quicker. This approach will also work for FTP but if you do not use RSYNC, it will deploy your entire project.
 
 If you see any errors at this stage, check the connection details.
 
@@ -88,7 +88,7 @@ Now change some code and let's see just how quick RSYNC works.
 
 Later, if you want to deploy to a different server or location on the same server, simply add a new Deployment Target and deploy in the same way.
 
-Now we'll move on to how you would normally work in development. 
+Now we'll move on to how you would normally work in development.
 
 ##Deploy & Preview
 If you are using an SFTP or FTP deployment target (RYSNC is better) then you should be careful using Deploy & Preview as it will always deploy your entire project first. RSYNC only needs to deploy the modified files.

@@ -11,7 +11,7 @@ However well written your tutorial or blog post, most readers benefit enormously
 
 Codio is a Web IDE that can be accessed just by clicking on a link and without having to sign up for anything. Simply import your code project (from Git, Mercurial, FTP, SFTP or ZIP) and then link to it from your tutorial.
 
-![image](/img/docs/ca-overview.png) 
+![image](/img/docs/ca-overview.png)
 
 This way the general tutorial content is reinforced and being able to see everything in context, using a Web IDE that dramatically enhances the learning process.
 
@@ -19,8 +19,8 @@ This way the general tutorial content is reinforced and being able to see everyt
 Click on the 'SHOW ME THE CODE' link below to see a project in the Codio IDE. This project actually uses Codio Annotations (which you don't have to use), so you can try out the following
 
 - in the file tree, click on a blue icon to see an explanation of the file
-- open `index.html` and click on the blue icons in the gutter 
-- select 'Tools->Annotations Tour` for a guided tour of the code. Click the `>` button to navigate. Click the icon next to the navigation buttons to go full-screen.
+- open `index.html` and click on the blue icons in the gutter
+- select `Tools > Annotations Tour` for a guided tour of the code. Click the `>` button to navigate. Click the icon next to the navigation buttons to go full-screen.
 
 <a href="http://bit.ly/Ig1Kjr" target="_blank">SHOW ME THE CODE!</a>
 
@@ -42,12 +42,12 @@ Once you have completed this, we will get back to you to confirm acceptance.
 Authors need a Codio account to load their code into. You can then [create a project](/docs/console/creating) by importing from Git, Mercurial, FTP, SFTP or a ZIP file.
 
 ##Write your tutorial
-You can write your main tutorial content any way you like. You don't have to change anything about the way you would normally do this. 
+You can write your main tutorial content any way you like. You don't have to change anything about the way you would normally do this.
 
 What we strongly suggest is that you take a look at [Codio Annotations](/docs/annotations) as a great new way of structuring some of your content.
 
 ##Add Codio buttons
-In order to link to the IDE, you should use the Codio buttons. The [Project->Share menu item](/docs/sharing) gives you buttons with associated HTML or markdown code that you can paste straight into your own page.
+In order to link to the IDE, you should use the Codio buttons. The [Project > Share menu item](/docs/sharing) gives you buttons with associated HTML or markdown code that you can paste straight into your own page.
 
 ##Terms & Conditions
 The full terms and conditions are explained in full in the [Sponsored Blog Terms & Conditions](/legal/sponblog) page.

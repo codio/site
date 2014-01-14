@@ -13,7 +13,7 @@ If you **already had private projects before we introduced paid subscriptions**,
 ##How to buy
 There are two ways you can buy a subscription
 
-- From the 'Codio->Subscription' menu item
+- From the `Codio > Subscription` menu item
 - When you try to make a public project private and do not have an active subscription.
 
 ##Not yet subscribed
@@ -27,7 +27,7 @@ If you have already subscribed, you will see the following screen where you can 
 ![purchase](/img/docs/subscribe-2.png)
 
 ##Purchase History & Invoices
-You will be able to find this from the 'Codio->Subscription' menu item.
+You will be able to find this from the `Codio > Subscription` menu item.
 
 ##How does the billing process work?
 Billing works as follows.
@@ -39,7 +39,7 @@ Billing works as follows.
 - Afterwards, you can enable these projects manually at which point they will become public
 
 ##Changing Credit Card Details
-You can change your credit card details at any time by going to the 'Codio->Subscription' menu item and clicking on the 'Card Details' tab.
+You can change your credit card details at any time by going to the `Codio > Subscription` menu item and clicking on the 'Card Details' tab.
 
 ##Group Subscriptions
 We do not currently offer this but it is planned in the near future. This will allow a company to manage centralized payment for a group of users.

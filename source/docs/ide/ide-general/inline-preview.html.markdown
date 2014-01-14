@@ -13,16 +13,16 @@ You can run a preview window within a [Codio IDE Panel](/docs/panels) as well as
 ![inline preview](/img/docs/inline-preview.png)
 
 ##Menu
-You will find Preview in the Tools menu at the top of the page. 
+You will find Preview in the Tools menu at the top of the page.
 
 ##Right-Click
 If you want to run a specific file, then right-click the file and select Preview.
 
 ##Keyboard
-The default keyboard shortcuts for Preview can be seen by selecting the Tools->Preview menu item.
+The default keyboard shortcuts for Preview can be seen by selecting the `Tools > Preview` menu item.
 
 ##Security Issues
-Codio runs over https and so the inline preview runs over https, too. If you reference an external script or API, for example like this 
+Codio runs over https and so the inline preview runs over https, too. If you reference an external script or API, for example like this
 
 	<script src="http://code.angularjs.org/1.1.5/angular.js">
 

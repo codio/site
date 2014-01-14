@@ -10,7 +10,7 @@ When you press the button, the Preview will execute and, if Deploy & Preview was
 
 ![preview](/img/docs/preview-deploy.png)
 
-If you right-click a file in the file tree, you can see that you can also Preview or Deploy & Preview. 
+If you right-click a file in the file tree, you can see that you can also Preview or Deploy & Preview.
 
 ![preview](/img/docs/preview-deploy-right-click.png)
 
@@ -34,9 +34,9 @@ If you are working on a file that requires deployment to a remote server (a PHP,
 When you check the Deploy Before Preview option in the dropdown, you will see that the button label changes from Preview to Deploy & Preview.
 
 ##Default Deployment Target
-When you select the Deploy Before Preview option, Codio needs to know which deployment target to use. You can set the default target from the Preview dropdown menu or from Tools->Deployment->Manage Targets.
+When you select the Deploy Before Preview option, Codio needs to know which deployment target to use. You can set the default target from the Preview dropdown menu or from `Tools > Deployment > Manage Targets`.
 
-Deployment targets are covered in detail in the [Deployment section](/docs/deployment). Again, use the RSYNC target type whenever possible. 
+Deployment targets are covered in detail in the [Deployment section](/docs/deployment). Again, use the RSYNC target type whenever possible.
 
 ![preview](/img/docs/preview-default.png)
 
@@ -55,7 +55,7 @@ In the Preview dropdown menu, you can select one of the following ways to previe
 With Deploy & Preview, Codio needs to invoke the Preview only after the deploy is complete and so this is necessarily done using Javascript. As a result, your browser's ad-blocker will likely intercept this and you will need to allow the browser to popup a new tab for Codio. In most cases, it will also display this in a new browser window rather than tab. This is beyond Codio's control.
 
 ##Private Projects
-When you preview a private project, you will be prompted to enter your Codio user name and password in order to protect 3rd parties from accessing your project in preview mode. If you signed up with GitHub and did not set a password, then you can do this from the Codio->Account menu option. You can check your user name on the profile tab.
+When you preview a private project, you will be prompted to enter your Codio user name and password in order to protect 3rd parties from accessing your project in preview mode. If you signed up with GitHub and did not set a password, then you can do this from the `Codio > Account` menu option. You can check your user name on the profile tab.
 
 ##Your back-end server does not run https
 If you want to preview your application at a remote url and that application runs under http, and not https, then your browser security will consider this as being insecure content. When previewing, Codio detects this and will automatically preview in a new browser tab in order to avoid these errors.

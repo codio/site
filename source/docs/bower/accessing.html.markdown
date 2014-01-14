@@ -4,10 +4,10 @@ class_name: docs
 full_width: true
 ---
 
-Bower functionality is accessed from the Tools->Bower menu. Your Bower components listing will appear in the active [Panel](/docs/panels).
+Bower functionality is accessed from the `Tools > Bower` menu. Your Bower components listing will appear in the active [Panel](/docs/panels).
 
 ##Installable Components
-Accessed from the Tools->Bower->Show Installable menu item, this allows you to search the entire Bower component registry. You can press the install button to install any components your project requires.
+Accessed from the `Tools > Bower > Show Installable` menu item, this allows you to search the entire Bower component registry. You can press the install button to install any components your project requires.
 
 - the Name field is clickable and will take you directly to the Git endpoint for that component, where you can read full details about the component.
 - Description is used when searching

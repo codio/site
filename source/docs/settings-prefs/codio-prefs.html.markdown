@@ -7,7 +7,7 @@ full_width: true
 You can access the Codio Preferences in two ways
 
 - from the Dashboard, select the Preferences tab
-- from the Dashboard or the IDE, use the menu item Codio->Preferences->User
+- from the Dashboard or the IDE, use the menu item `Codio > Preferences > User`
 
 ![Codio Annotations](/img/docs/prefs-menu.png)
 
@@ -24,13 +24,13 @@ Codio does the following to manage the final preferences for the logged in user.
 3. Any project level preferences are finally applied, if any
 
 ##Default Preferences
-When you create your account, you will be assigned the default settings. You can see these on the right hand side. These settings are read-only, so you cannot modify them. You can browse through this file to see the complete set of preferences available. 
+When you create your account, you will be assigned the default settings. You can see these on the right hand side. These settings are read-only, so you cannot modify them. You can browse through this file to see the complete set of preferences available.
 
-Default settings look something like this 
+Default settings look something like this
 
 	;Brace style.
-	; Type: list. 
-	; Values: 
+	; Type: list.
+	; Values:
 	;  collapse : collapse
 	;  expand : expand
 	;  end-expand : end-expand
@@ -39,7 +39,7 @@ Default settings look something like this
 You can see the setting name ('brace_style' with a default value of 'collapse') as well as the data type (list) and the available values (in the case of a list).
 
 ##User Preferences
-User preferences can be made from both the Dashboard and from the main menu Codio->Preferences->User.
+User preferences can be made from both the Dashboard and from the main menu `Codio > Preferences > User`.
 
 User preference overrides are made in left hand pane. When your account is created, this will be empty. Here is an example of user settings that override the Codio defaults ...
 
@@ -52,14 +52,14 @@ User preference overrides are made in left hand pane. When your account is creat
 	indent_with_tabs=true
 
 ##Keyboard shortcuts & Hotkeys
-Within the default settings (right hand pane) you can see how you can map your own keyboard shortcuts. 
+Within the default settings (right hand pane) you can see how you can map your own keyboard shortcuts.
 
-The defaults will display appropriately for Mac or Linux/PC users. If you override these shortcuts in the left hand pane, then these not Mac/PC/Linux aware. If you are a Mac user and you specify Cmd keys, then you should be aware that these will not be accessible from PC/Linux machines. If you need to have your custom shortcuts working on all machines then avoid using Cmd. 
+The defaults will display appropriately for Mac or Linux/PC users. If you override these shortcuts in the left hand pane, then these not Mac/PC/Linux aware. If you are a Mac user and you specify Cmd keys, then you should be aware that these will not be accessible from PC/Linux machines. If you need to have your custom shortcuts working on all machines then avoid using Cmd.
 
 ##Using Autocomplete
 Be sure to use the Codio autocomplete feature for both the setting name and possible values.
 
-Position the cursor within the left pane and press ctrl+space. 
+Position the cursor within the left pane and press ctrl+space.
 
 If you are on the first line of the file, you will see that you only have Sections available. If you are within a Section, you will see all available settings for that section.
 

@@ -14,7 +14,7 @@ class_name: features
     </div>
   </header>
 
-  
+
 
   <section class="first">
     <h2>Command Bar<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>
@@ -38,8 +38,13 @@ class_name: features
       <p>This gives you complete control over the layout of your project. Whenever you leave you project, the panel configuration is saved and reloaded when you come back to it.</p>
       <p>You can open multiple tabs within a panel. You can drag tabs from one panel to another and you can switch tabs using the keyboard using `Alt+Shift+&gt;` and `Alt+Shift+&lt;`</p>
     </article>
+    <span>
+      <canvas id="panels_target" class="panels_target" width="854" height="479">
+        <div id="panels_fallback" class="panels_target" style="width: 854px; height: 479px; position: relative;"></div>
+      </canvas>
+    </span>
     <%= image_tag "features/animated_pngs/panels_thumb.png", :width => 854, :height => 479 %>
-  </section>  
+  </section>
 
   <section class="last">
     <h2>Quick Open<small><a href="#"><i class="icon-file"></i> read the docs</a></small></h2>

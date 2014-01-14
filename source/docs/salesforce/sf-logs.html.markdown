@@ -14,6 +14,6 @@ As with any other Codio files, this log file is a real-time file that can be see
 ##Clearing the log
 As the log is a normal Codio file, you can delete the log as follows
 
-- Tools->Salesforce->Clear Log menu item
+- `Tools > Salesforce > Clear Log` menu item
 - Remove the file by right-clicking it; it will get recreated by Codio automatically
-- Ctrl/Cmd+A then press delete; you can even manually delete selected parts of the log
+- `Ctrl/Cmd+A` then press delete; you can even manually delete selected parts of the log

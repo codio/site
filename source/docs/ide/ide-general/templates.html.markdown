@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Templates are accessed from the Tools->Templates menu option. 
+Templates are accessed from the `Tools > Templates` menu option.
 
 A template can be used to create standard stub code when a new file is added to your project. When you create a new template, you associate that template with one or more file extensions.
 
@@ -28,14 +28,14 @@ The default CSS template looks like this
 		}
 
 ##Creating and Editing Templates
-You access the template management from the Tools->Templates menu.
+You access the template management from the `Tools > Templates` menu.
 
 ![new file](/img/docs/templates-manage.png)
 
 `Add` - adds a new template file that you can associate with a file extension. To associate the template with multiple extensions, comma separate as follows `html, htm`
 `Edit` - allows you to redefine the file extension associations
 `Reset` - available for predefined Codio templates, this removes any modifications you might have made.
-'Reset All' - resets all predefined Codio templates and deletes any personal templates you have added.
+`Reset All` - resets all predefined Codio templates and deletes any personal templates you have added.
 
 
 ##Tokens

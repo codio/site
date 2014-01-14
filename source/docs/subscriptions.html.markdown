@@ -8,7 +8,7 @@ Codio is free for all public projects. However, if you want to work on private p
 
 Current pricing information can be found at [https://codio.com/s/pricing/](https://codio.com/s/pricing/)
 
-If you **already had private projects before we introduced paid subscriptions**, you have a 30 day grace period after which your private projects will be disabled until you either make them public or purchase a subscription. During this grace period, private projects will remain private. New private projects will require a subscription.
+**PLEASE NOTE:** If you **already had private projects before we introduced paid subscriptions**, you have a 30 day grace period after which your private projects will be disabled until you either make them public or purchase a subscription. During this grace period, private projects will remain private.
 
 ##How to buy
 There are two ways you can buy a subscription

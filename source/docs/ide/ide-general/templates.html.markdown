@@ -35,7 +35,7 @@ You access the template management from the `Tools > Templates` menu.
 `Add` - adds a new template file that you can associate with a file extension. To associate the template with multiple extensions, comma separate as follows `html, htm`
 `Edit` - allows you to redefine the file extension associations
 `Reset` - available for predefined Codio templates, this removes any modifications you might have made.
-'Reset All' - resets all predefined Codio templates and deletes any personal templates you have added.
+`Reset All` - resets all predefined Codio templates and deletes any personal templates you have added.
 
 
 ##Tokens

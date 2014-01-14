@@ -5,7 +5,6 @@ date: 2014-01-14
 tags: Changelog
 class_name: blog
 full_width: true
-published: false
 ---
 
 We are extremely excited to announce that with immediate effect, you can now purchase a Codio Subscription! This means that for only **$8 per month**, you can continue to create and keep a **truly unlimited** number of private and public projects on Codio.

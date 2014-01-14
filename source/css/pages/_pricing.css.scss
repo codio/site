@@ -103,13 +103,13 @@ body.pricing {
 
             p {
               text-align: center;
-              margin: 48px auto 0;
+              margin: 40px auto 0;
 
               a {
                 display: block;
                 color: #fff;
                 font: 24px gotham_light;
-                padding: 6px 0;
+                padding: 12px 0;
                 text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
                 background-color: #f36050;
 
@@ -117,6 +117,12 @@ body.pricing {
                   background-color: darken(#f36050, 4%);
                   text-decoration: none;
                 }
+              }
+
+              &:last-child {
+                font-size: 12px;
+                margin: 34px 35px 0;
+                color: #888;
               }
             }
           }

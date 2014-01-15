@@ -120,6 +120,46 @@ body.features {
         }
       }
     }
-  }
+
+    addtnl {
+      margin: 40px 14px 50px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 40px;
+      width: 800px;
+
+      &.first {
+        margin-top: 0;
+      }
+
+      &.last {
+        margin-bottom: 140px;
+      }
+
+      h2 {
+        float: left;
+        width: 200px;
+        margin-left: 10px;
+        padding-right: 60px;
+        font: 22px gotham_bold;
+
+        small {
+          display: block;
+          font: 14px gotham_light;
+          text-transform: initial;
+          margin: 10px;
+        }
+      }
+
+      article {
+        display: left;
+        width: 700px;
+        margin-bottom: 15px;
+        margin-top: -10px;
+        font-size: 15px;
+        line-height: 1.3em;
+      }
+
+    }
+  }   
 
 }

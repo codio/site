@@ -27,6 +27,9 @@ If you purchase a subscription, all disabled projects will automatically be re-e
 ## New Private Projects
 If you have not yet purchased a subscription, but you want to create a new private project or switch a public project private, then you will need to purchase a subscription first.
 
+## Codio Deployment Targets
+We offer several ways to deploy your apps, and one of those involves that we host your static content. This is called the Codio deployment type. This type is now only available to users with a subscription. All other deployment types are still free no matter if you have a Subscription or not.
+
 ## How to Purchase
 There are two place where you can create a Subscription.
 

@@ -4,10 +4,77 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2014-01-02T00:00:00Z</updated>
+  <updated>2014-01-14T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Paid Subscriptions</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/01/subscriptions/"/>
+    <id>https://codio.com/s/blog/2014/01/subscriptions/</id>
+    <published>2014-01-14T00:00:00Z</published>
+    <updated>2014-01-14T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;We are extremely excited to announce that with immediate effect, you can now purchase a Codio Subscription! This means that for only &lt;strong&gt;$8 per month&lt;/strong&gt;, you can continue to create and keep a &lt;strong&gt;truly unlimited&lt;/strong&gt; number of private and public projects on Codio...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We are extremely excited to announce that with immediate effect, you can now purchase a Codio Subscription! This means that for only &lt;strong&gt;$8 per month&lt;/strong&gt;, you can continue to create and keep a &lt;strong&gt;truly unlimited&lt;/strong&gt; number of private and public projects on Codio.&lt;/p&gt;
+
+&lt;p&gt;This has a few implications for existing users and we want to clarify what this means for you.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Public Projects&lt;/h2&gt;
+
+&lt;p&gt;There are no changes here. If you have only public projects in your account then there is no need to take a paid subscription. You can continue to work with as many public projects as you wish.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Existing Private Projects&lt;/h2&gt;
+
+&lt;p&gt;If you have already created one or more private projects, then we are providing a grace period of 30 days from now, during which time you can keep these projects private without the need to purchase a subscription.&lt;/p&gt;
+
+&lt;p&gt;At the end of the 30 day grace period, these projects will be disabled. To access such projects, you have two choices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Switch the project from private to public.&lt;/li&gt;
+&lt;li&gt;Keep them private and purchase a Subscription for $8.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you purchase a subscription, all disabled projects will automatically be re-enabled and will be kept private.&lt;/p&gt;
+
+&lt;h2 id="toc_2"&gt;New Private Projects&lt;/h2&gt;
+
+&lt;p&gt;If you have not yet purchased a subscription, but you want to create a new private project or switch a public project private, then you will need to purchase a subscription first.&lt;/p&gt;
+
+&lt;h2 id="toc_3"&gt;Codio Deployment Targets&lt;/h2&gt;
+
+&lt;p&gt;We offer several ways to deploy your apps, and one of those involves that we host your static content. This is called the Codio deployment type. This type is now only available to users with a subscription. All other deployment types are still free no matter if you have a Subscription or not.&lt;/p&gt;
+
+&lt;h2 id="toc_4"&gt;How to Purchase&lt;/h2&gt;
+
+&lt;p&gt;There are two place where you can create a Subscription.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From the &lt;code&gt;Codio &amp;gt; Subscription&lt;/code&gt; menu item.&lt;/li&gt;
+&lt;li&gt;When you switch a public project to private (from the &lt;code&gt;Project &amp;gt; Settings&lt;/code&gt; menu item).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You will see the following screen where you can enter your credit card details.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="subscribe" src="/s/img/blog/subscribe-1-d7351dc7.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_5"&gt;Group Subscriptions&lt;/h2&gt;
+
+&lt;p&gt;We do not currently offer this but it is planned in the near future. This will allow a company to manage centralized payments for a group of users.&lt;/p&gt;
+
+&lt;h2 id="toc_6"&gt;Purchase History &amp;amp; Invoices&lt;/h2&gt;
+
+&lt;p&gt;You will be able to find this from the &lt;code&gt;Codio &amp;gt; Subscription&lt;/code&gt; menu item. You will see the following screen:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="subscribe" src="/s/img/blog/subscribe-2-f06101a2.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="toc_7"&gt;Changing Credit Card Details&lt;/h2&gt;
+
+&lt;p&gt;You can change your credit card details at any time by going to the &lt;code&gt;Codio &amp;gt; Subscription&lt;/code&gt; menu item and clicking on the &amp;#39;Card Details&amp;#39; tab.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Happy New Year</title>
     <link rel="alternate" href="https://codio.com/s/blog/2014/01/happy-new-year/"/>
@@ -155,31 +222,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Codio - now even more convenient!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Auto-Complete for Any Language</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/11/auto-complete-for-any-language/"/>
-    <id>https://codio.com/s/blog/2013/11/auto-complete-for-any-language/</id>
-    <published>2013-11-29T00:00:00Z</published>
-    <updated>2013-11-29T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Up until now, you have been able to use auto-complete for Javascript, HTML and CSS using the keyboard shortcut &lt;code&gt;Ctrl-Space&lt;/code&gt;. Well now, you can use auto-complete for any language in Codio!&lt;/p&gt;
-
-&lt;p&gt;Codio will track common keywords in the file you are editing...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Up until now, you have been able to use auto-complete for Javascript, HTML and CSS using the keyboard shortcut &lt;code&gt;Ctrl-Space&lt;/code&gt;. Well now, you can use auto-complete for any language in Codio!&lt;/p&gt;
-
-&lt;p&gt;Codio will track common keywords in the file you are editing, and provide auto-completion for them all. Just hit &lt;code&gt;Ctrl-Space&lt;/code&gt; at any time while editing and you will be shown a list of common keywords. And if you type the first few characters of a keyword and hit &lt;code&gt;Ctrl-Space&lt;/code&gt;, you will be shown matches for the characters you just entered.&lt;/p&gt;
-
-&lt;p&gt;We will soon have the ability to automatically show matches without requiring you to hit the keyboard shortcut.&lt;/p&gt;
-
-&lt;h3 id="toc_0"&gt;Did you know...?&lt;/h3&gt;
-
-&lt;p&gt;Did you know that you can customise the auto-complete keyboard shortcut, and in fact any other shortcuts that we provide? Open up your preferences (&lt;code&gt;Codio &amp;gt; Preferences&lt;/code&gt;) and simply override any of the default shortcuts with whatever you want. &lt;a href="/s/docs/ide/code-editor/kb-shortcuts/"&gt;Read the docs for more&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;
 </content>
   </entry>
 </feed>

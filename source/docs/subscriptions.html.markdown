@@ -8,7 +8,10 @@ Codio is free for all public projects. However, if you want to work on private p
 
 Current pricing information can be found at [https://codio.com/s/pricing/](https://codio.com/s/pricing/)
 
-If you **already had private projects before we introduced paid subscriptions**, you have a 30 day grace period after which your private projects will be disabled until you either make them public or purchase a subscription. During this grace period, private projects will remain private. New private projects will require a subscription.
+**PLEASE NOTE:** If you **already had private projects before we introduced paid subscriptions**, you have a 30 day grace period after which your private projects will be disabled until you either make them public or purchase a subscription. During this grace period, private projects will remain private.
+
+## Codio Deployment Target Type
+We offer several ways to deploy your apps, and one of those involves that we host your static content. This is called the Codio deployment type. This type is only available to users with a subscription. All other deployment types are still free no matter if you have a Subscription or not.
 
 ##How to buy
 There are two ways you can buy a subscription

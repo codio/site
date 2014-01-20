@@ -5,7 +5,6 @@ date: 2014-01-14
 tags: Changelog
 class_name: blog
 full_width: true
-published: false
 ---
 
 We are extremely excited to announce that with immediate effect, you can now purchase a Codio Subscription! This means that for only **$8 per month**, you can continue to create and keep a **truly unlimited** number of private and public projects on Codio.
@@ -27,6 +26,9 @@ If you purchase a subscription, all disabled projects will automatically be re-e
 
 ## New Private Projects
 If you have not yet purchased a subscription, but you want to create a new private project or switch a public project private, then you will need to purchase a subscription first.
+
+## Codio Deployment Targets
+We offer several ways to deploy your apps, and one of those involves that we host your static content. This is called the Codio deployment type. This type is now only available to users with a subscription. All other deployment types are still free no matter if you have a Subscription or not.
 
 ## How to Purchase
 There are two place where you can create a Subscription.

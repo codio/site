@@ -10,9 +10,6 @@ For a proper, in-depth overview of Git, refer to the [resources](/docs/git/resou
 
 Please make sure you read this excellent overview if you are new to Git : [http://git-scm.com/book/en/Getting-Started-Git-Basics](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
-##Limitations of Codio's Git implementation
-For various reason, Codio does not implement a full, unrestricted version of Git. As of November 2013, it let's you do all the basics but there are plenty of commands and command flags not available just yet. We are working on expanding the Git command support.
-
 ##GitHub Keys
 If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/docs/settings-prefs/account-settings/public-key).
 
@@ -166,10 +163,5 @@ The commands you will need to master are
 - `git merge from-branch` - merges code from `from-branch` into your current branch
 
 Good practice is to switch over to your master branch and pull in changes from the remote (if you're using one). Then switch back to your working branch and merge in changes. Doing this ensures that conflicts are kept to a minimum.
-
-##Apologies
-A few small apologies are due at this point. Firstly, we are aware that our Git implementation is not complete and we are going to improve this situation. Secondly, the tutorial we have provided here is very basic but we hope it is enough to get you going if you have never used Git before.
-
-If there are Git commands you really want to see added urgently, please [add them to the forum](http://forum.codio.com).
 
 

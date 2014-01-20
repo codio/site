@@ -24,7 +24,7 @@ If you have code within Codio and you want to configure it to synchronize with a
 
 ![git overview](/img/docs/git-remotes.png)
 
-If you prefer, you can use the command line interface to achieve the same thing using `git remote`. Please check the [supported commands page](/docs/git/supported) for details.
+If you prefer, you can use the command line interface to achieve the same thing using `git remote`.
 
 Once you have set up your remotes, you can now perform sharing and updating commands (push, pull etc.) from Codio's git command line.
 

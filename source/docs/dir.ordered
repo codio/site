@@ -6,9 +6,7 @@ getting-started
 bugs
 browser-support
 public-private
-cp-fiddle
-git-viewing
-back-end
+boxes
 ssh
 console
 settings-prefs
@@ -24,4 +22,3 @@ deployment
 annotations
 bower
 compiling
-salesforce

@@ -122,41 +122,37 @@ body.features {
     }
 
     addtnl {
-      margin: 40px 14px 50px;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 40px;
+      margin: 0px 0px 0px 0px;
+      //border-bottom: 1px solid #eee;
+      //padding-bottom: 40px;
       width: 800px;
 
-      &.first {
-        margin-top: 0;
-      }
+      //&.first {
+      //  margin-top: 0;
+      //}
 
       &.last {
-        margin-bottom: 140px;
+        margin-bottom: 640px;
       }
 
       h2 {
-        float: left;
-        width: 200px;
-        margin-left: 10px;
-        padding-right: 60px;
-        font: 22px gotham_bold;
+        //float: left;
+        //width: 200px;
+        //margin-left: 10px;
+        //padding-right: 60px;
+        //font: 22px gotham_bold;
+        margin: 35px 0px -16px 10px;
 
         small {
           display: block;
           font: 14px gotham_light;
           text-transform: initial;
-          margin: 10px;
+          margin: 0px;
         }
       }
 
       article {
-        display: left;
-        width: 700px;
-        margin-bottom: 15px;
-        margin-top: -10px;
-        font-size: 15px;
-        line-height: 1.3em;
+        margin-left:10px;
       }
 
     }

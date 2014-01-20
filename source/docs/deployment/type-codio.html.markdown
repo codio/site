@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-**Important** : deploying to the Codio production target type will require a paid plan. We will announce details ahead of the commercial launch.  
+**Important** : deploying to the Codio production target type will require a paid plan. See [Paid Subscriptions](/docs/subscriptions/).
 
 Here are some things to note about the Codio target
 

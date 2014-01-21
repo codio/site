@@ -1,5 +1,7 @@
 terminal
 run
 ssh
+workspace
+restart-reset
 request-language
 node-debugger

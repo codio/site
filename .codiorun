@@ -1,0 +1,9 @@
+{
+    "default": "Build",
+    "commands": { 
+        "Middleman" : "middleman -p 3000",
+        "Build" : "middleman build",
+        "Deploy Staging" : "cap deploy",
+        "Deploy Production" : "For safety reasons, run 'cap production deploy' manually from the command line"
+    }
+} 

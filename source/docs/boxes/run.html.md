@@ -9,7 +9,7 @@ A handy feature is the ability to add commonly used commands to the Codio IDE, a
 ##.codiorun file
 The configuration for the Run button can be set by editing the `.codiorun` file in the root of your project.
 
-The following code shows some the `.codiorun` file configured to add the following commands to the Run menu
+The following code below shows the `.codiorun` file configured to give this Run menu
 
 ![run menu](/img/docs/run-menu.png)
 

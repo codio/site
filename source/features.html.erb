@@ -152,7 +152,7 @@ class_name: features
   </section>    
 
   <section>
-    <h2>SSH<small><a href="/docs/console/creating/"><i class="icon-file"></i> read the docs</a></small></h2>
+    <h2>SSH<small><a href="/docs/ssh"><i class="icon-file"></i> read the docs</a></small></h2>
     <article>
       <p>The SSH manager allows you to create and manage SSH connections to any number of remote servers. You can even upload your Codio SSH key straight to the remote server with a single button press.</p>
     </article>
@@ -162,10 +162,23 @@ class_name: features
       </canvas>
     </span>
     <%= image_tag "features/animated_pngs/ssh_thumb.png", :width => 854, :height => 479 %>
-  </section>   
+  </section>  
+
+  <section>
+    <h2>Deployment<small><a href="/docs/deployment"><i class="icon-file"></i> read the docs</a></small></h2>
+    <article>
+      <p>The Deployment manager lets you create and manage any number of remote deployment targets. We currently support Git, FTP, SFTP, RSYNC, Nodejitsu and Parse targets.</p>
+      <p>Once set up, you can deploy to your deployment targets with a single button click. Take a look at the animation below.</p>
+    </article>
+    <span>
+      <canvas id="deploy_target" class="deploy_target" width="854" height="479">
+        <div id="deploy_fallback" class="deploy_target" style="width: 854px; height: 479px; position: relative;"></div>
+      </canvas>
+    </span>
+    <%= image_tag "features/animated_pngs/deploy_thumb.png", :width => 854, :height => 479 %>
+  </section>    
 
 <!-- STILL TO DO ------------------ -->
-<!-- Deployment                     -->
 <!-- TERN                           -->
 <!--                                -->
 

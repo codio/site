@@ -1,5 +1,5 @@
 {
-    "default": "Build",
+    "default": "Middleman",
     "commands": { 
         "Middleman" : "middleman -p 3000",
         "Build" : "middleman build",

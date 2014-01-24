@@ -3,5 +3,6 @@ run
 ssh
 workspace
 restart-reset
+box-parts
 request-language
 node-debugger

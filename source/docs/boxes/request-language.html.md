@@ -1,10 +1,10 @@
 ---
-title: "Requesting New Languages"
+title: "Requesting Languages & Components"
 class_name: docs
 full_width: true
 ---
 
-Although our initial offering only supports Node.js and Ruby out of the box, we will be adding the ability to install new languages. 
+You have the ability to add new languages and components from using Box Parts. We have plenty of these already but you can also request us to add new Box Parts, which we can do very easily.
 
-If you are interested in us supporting a new language, please email support@codio.com.
+Please check the [Box Parts](/docs/boxes/box-parts) chapter for details.
 

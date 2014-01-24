@@ -1,5 +1,5 @@
 ---
-title: "Your Back End Box"
+title: "Boxes"
 class_name: docs
 full_width: true
 ---
@@ -13,6 +13,7 @@ This chapter covers the features provided by Boxes
 - [SSH keys for accessing remote systems](/docs/boxes/ssh)
 - [Locating your code in the `~/workspace` folder](/docs/boxes/workspace)
 - [Restarting and resetting Boxes](/docs/boxes/restart-reset)
+- [How to install Box components (everything from languages to middleware to databases)](/docs/boxes/parts)
 - [Requesting new Box back-end environments such as PHP, Python](/docs/boxes/request-language)
 - [Debugging Node applications](/docs/boxes/node-debugger)
 

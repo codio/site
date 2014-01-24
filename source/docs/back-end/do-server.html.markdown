@@ -44,7 +44,7 @@ As you selected the Wordpress image, an existing Wordpress application will be a
 1. Check the SFTP box if you have SFTP access and then enter the IP address and password, which should have been emailed to you.
 1. In the Path field, enter `/home/wordpress/public_html'
 
-Pressing will create will now load the contents of the public_html folder into a new Codio project.  It may take about 90 seconds to import the 16MB or so of data. That is the last slow thing that will happen!
+Pressing create will now load the contents of the public_html folder into a new Codio project.  It may take about 90 seconds to import the 16MB or so of data. That is the last slow thing that will happen!
 
 ##Set up an SSH Connection
 You don't have to do this but for those who want to control their server via a terminal window, it's very handy.

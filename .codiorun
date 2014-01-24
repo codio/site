@@ -1,0 +1,8 @@
+{
+  "default": "Middleman",
+  "commands": {
+        "Middleman": "middleman -p 3000",
+        "Build" : "middleman build",
+        "Deploy" : "cap deploy"
+  }
+}

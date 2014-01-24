@@ -10,4 +10,4 @@ gem 'oj'            # faster JSON
 gem 'redcarpet'     # faster Markdown
 gem 'nokogiri'
 
-gem 'capistrano'
+gem 'capistrano', '~>3.1'

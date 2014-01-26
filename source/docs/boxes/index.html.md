@@ -9,6 +9,7 @@ As soon as you create a new project, it automatically gets a back-end box provis
 This chapter covers the features provided by Boxes
 
 - [How to access the Box console or terminal](/docs/boxes/terminal)
+- [Accessing your boxes from an external location](/docs/boxes/ext-access)
 - [Configuring single terminal/console commands from the 'Run' menu](/docs/boxes/run)
 - [SSH keys for accessing remote systems](/docs/boxes/ssh)
 - [Locating your code in the `~/workspace` folder](/docs/boxes/workspace)

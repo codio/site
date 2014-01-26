@@ -1,4 +1,5 @@
 terminal
+ext-access
 run
 ssh
 workspace

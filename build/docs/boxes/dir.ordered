@@ -1,7 +1,10 @@
 terminal
+ext-access
 run
 ssh
 workspace
 restart-reset
+box-parts
 request-language
+always-on
 node-debugger

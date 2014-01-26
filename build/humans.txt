@@ -11,6 +11,7 @@ _________            .___.__         __________               __
 # TEAM
 
     Joel Moss -- CTO -- @joelmoss
+    Freddy May -- CEO -- @fmay
 
 # THANKS
 

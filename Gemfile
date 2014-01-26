@@ -11,3 +11,4 @@ gem 'redcarpet'     # faster Markdown
 gem 'nokogiri'
 
 gem 'capistrano', '~>3.1'
+gem 'capistrano-bundler'

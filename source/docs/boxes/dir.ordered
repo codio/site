@@ -6,4 +6,5 @@ workspace
 restart-reset
 box-parts
 request-language
+always-on
 node-debugger

@@ -7,17 +7,9 @@ class_name: home
 
 <aside class="home">
   <ul>
-    <li><a href="#opensource">Front-end &amp; Back-end</a></li>
-    <li><a href="#panels">Panels &amp; Tabs</a></li>
-    <li><a href="#productivity">Productivity</a></li>
-    <li><a href="#speed">Blazingly fast!</a></li>
-    <li><a href="#deployment">Deploy anywhere</a></li>
-    <li><a href="#terminal">Terminal Access</a></li>
-    <li><a href="#sourcecontrol">Git Support</a></li>
-    <li><a href="#compiled">CoffeeScript, SASS, etc.</a></li>
-    <li><a href="#realtime">Real-time Collaboration</a></li>
-    <li><a href="#baked">Bower, Grunt &amp; Yo</a></li>
-    <li><a href="#annotate">Annotations</a></li>
+    <li><a href="#ide">The IDE</a></li>
+    <li><a href="#boxes">Boxes &amp; Box Parts</a></li>
+    <li><a href="#speed">Blazingly Fast</a></li>
   </ul>
 </aside>
 
@@ -25,122 +17,11 @@ class_name: home
 
 <%= partial 'partials/home/overview' %>
 
-<%= partial 'partials/home/speed' %>
-
-<%= partial 'partials/home/productivity' %>
+<%= partial 'partials/home/ide' %>
 
 <%= partial 'partials/home/boxes' %>
 
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"For me, <a href="https://twitter.com/CodioHQ">@CodioHQ</a> is the web developer front-end that has always been missing from GitHub. Great work."</blockquote>
-      <span>
-        <a href="https://twitter.com/kaigani" target="_blank">
-          <%= image_tag 'home/avatars/kaigani.jpeg', :width => 36 %>
-          @kaigani
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Sweet, this is like the BEST browser IDE I've used on my Chromebook so far! Great job with this guys."</blockquote>
-      <span>
-        <a href="https://twitter.com/amyrhaq" target="_blank">
-          <%= image_tag 'home/avatars/amyrhaq.jpeg', :width => 36 %>
-          @amyrhaq
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-<%= partial 'partials/home/deployment' %>
-<%= partial 'partials/home/terminal' %>
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Starting using cloud-based IDE @CodioHQ in ernest - brilliant and highly recommended."</blockquote>
-      <span>
-        <a href="https://twitter.com/stephenwil" target="_blank">
-          <%= image_tag 'home/avatars/stephenwil.jpg', :width => 36 %>
-          @stephenwil
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-<%= partial 'partials/home/sourcecontrol' %>
-<%= partial 'partials/home/compiled' %>
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Damn! The @CodioHQ Browser Based IDE looks amazing."</blockquote>
-      <span>
-        <a href="https://twitter.com/tristandenyer" target="_blank">
-          <%= image_tag 'home/avatars/tristandenyer.jpg', :width => 36 %>
-          @tristandenyer
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-<%= partial 'partials/home/realtime' %>
-<%= partial 'partials/home/baked' %>
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Didn't know that there is such a good Web-IDE out there. Real-time offshore pair programming... Great Job @CodioHQ"</blockquote>
-      <span>
-        <a href="https://twitter.com/TechnikerTweets" target="_blank">
-          <%= image_tag 'home/avatars/TechnikerTweets.png', :width => 36 %>
-          @TechnikerTweets
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
-<%= partial 'partials/home/annotations' %>
-
-<section id="testimonials">
-  <div class="container">
-
-    <div>
-      <blockquote>"Where have you been all my life?"</blockquote>
-      <span>
-        <a href="https://twitter.com/asaadhutchinsonasaadhutchinson" target="_blank">
-          <%= image_tag 'home/avatars/asaadhutchinson.jpeg', :width => 36 %>
-          @asaadhutchinson
-        </a>
-      </span>
-    </div>
-
-  </div>
-</section>
-
+<%= partial 'partials/home/speed' %>
 
 <% content_for :foot do %>
   <%= javascript_include_tag 'home' %>

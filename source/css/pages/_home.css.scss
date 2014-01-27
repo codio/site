@@ -26,7 +26,7 @@ body.home {
 
   header {
     background-color: #EAEDF2;
-    height: 420px;
+    height: 450px;
     overflow-x: hidden;
     padding-top: 60px;
 
@@ -58,7 +58,6 @@ body.home {
               // "AN"
               &:nth-child(1) {
                 font: 34px gotham_thin;
-
                 @include apply-to(more-than, desktop) {
                   font-size: 36px;
                 }
@@ -66,10 +65,9 @@ body.home {
 
               // "AMAZING"
               &:nth-child(2) {
-                font: 70px gotham_black;
-
+                font: 70px gotham_thin;
                 @include apply-to(more-than, desktop) {
-                  font-size: 80px;
+                  font-size: 69px;
                 }
               }
 
@@ -84,32 +82,36 @@ body.home {
                 }
               }
 
-              // "FOR"
+              // "PLUS"
               &:nth-child(4) {
                 font: 24px gotham_thin;
                 display: block;
                 text-align: left;
-                line-height: 14px;
-                padding: 10px 0 0 18px;
-                position: relative;
-                top: 21px;
-
+                margin: -3px 0px -10px 0px;
                 @include apply-to(more-than, desktop) {
-                  font-size: 28px;
-                  top: 29px;
+                  font-size: 32px;
                 }
               }
 
-              // "Javascript, HTML and CSS"
+              // "A DEDICATED SERVER BOX
               &:nth-child(5) {
-                font: 48px gotham_thin;
-                position: relative;
-                top: -20px;
-
+                display: block;
+                font: 54px gotham_black;
                 @include apply-to(more-than, desktop) {
-                  font-size: 58px;
+                  font-size: 60px;
                 }
               }
+
+              // "For each and every project
+              &:nth-child(6) {
+                display: block;              
+                font: 34px gotham_thin;
+                margin-top: -2px;
+                @include apply-to(more-than, desktop) {
+                  font-size: 34px;
+                }
+              }
+
             }
           }
 
@@ -133,8 +135,8 @@ body.home {
               margin: 24px 0 0 48px;
 
               @include apply-to(more-than, desktop) {
-                margin: 15px 0 0 112px;
-                font-size: 22px;
+                margin: 30px 0 0 39px;
+                font-size: 25px;
               }
 
               a {

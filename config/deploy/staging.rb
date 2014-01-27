@@ -1,2 +1,4 @@
 set :stage, :staging
-server 'web1.int.codio.com', user: 'deploy', roles: %w{web app db}
+set :deploy_to, '/home/middleman/codio-site'
+
+server 'ec2-184-72-144-200.compute-1.amazonaws.com', user: 'middleman', roles: %w{web app db}

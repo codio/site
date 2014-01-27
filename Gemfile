@@ -10,4 +10,5 @@ gem 'oj'            # faster JSON
 gem 'redcarpet'     # faster Markdown
 gem 'nokogiri'
 
-gem 'capistrano', '~>2.15.0'
+gem 'capistrano', '~>3.1'
+gem 'capistrano-bundler'

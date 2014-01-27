@@ -12,7 +12,7 @@ If you do not want your project to be visible to third parties, then you should 
 - If you are in the IDE, then you can select the `Project > Settings` menu item
 
 ## Private Projects & Paid Accounts
-We are not yet operating any paid accounts, but just a hot tip that when we do, private projects will only be available in paid accounts.
+To create private projects you will need to purchase a paid subscription. See [Paid Subscriptions](/docs/subscriptions/).
 
 ## Exploring Public Projects
 We have not yet added any real functionality to let you explore public accounts and projects, but this will be coming before very long. We will also add support for Watching, Starring, Tagging and other GitHub-like features.

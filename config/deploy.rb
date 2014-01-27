@@ -1,27 +1,9 @@
-require 'capistrano/ext/multistage'
+# config valid only for Capistrano 3.1
+lock '3.1.0'
 
-set :deploy_to, "/home/middleman/codio-site"
-set :application, "codio-site"
+set :application, 'codio-site'
+set :repo_url, 'https://github.com/codio/site.git'
+set :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
+
+set :deploy_to, '/var/www/codio/site'
 set :scm, :git
-set :repository, "git@github.com:codio/site.git"
-set :use_sudo, false
-set :user, "middleman"
-
-# Setup stages
-set :stages, %w(production staging)
-set :default_stage, "staging"
-
-set :keep_releases, 3
-
-# Deploys the current branch
-set(:current_branch) { `git branch --no-color`.match(/\*\s(.+)\n/)[1] || raise("Couldn't determine current branch") }
-set :branch, defer { current_branch } unless exists?(:branch)
-
-after "deploy:restart", "deploy:cleanup"
-
-
-namespace :deploy do
-  task :finalize_update, :except => { :no_release => true } do
-    # Do nothing
-  end
-end

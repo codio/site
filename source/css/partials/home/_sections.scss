@@ -91,6 +91,29 @@ section {
     }
   }
 
+  &#boxes {
+    .container {
+      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
+      background-size: 480px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 785px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 15px;
+        padding: 90px 280px 90px 0;
+        width: 400px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 120px 474px 120px 0;
+        }
+      }
+    }
+  }
+
+
   &#panels {
     .container {
       background: transparent image-url("home/screens/panels.png") no-repeat 718px;

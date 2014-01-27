@@ -1,2 +1,18 @@
-server 'ec2-54-234-79-66.compute-1.amazonaws.com', :app, :web, :db, :primary => true
-server 'ec2-184-73-51-70.compute-1.amazonaws.com', :app, :web, :db
+set :stage, :production
+
+server 'web1.int.codio.com', user: 'deploy', roles: %w{web app db}
+server 'web2.int.codio.com', user: 'deploy', roles: %w{web app db}
+
+
+namespace :middleman do
+  task :build do
+    on roles(:all) do |host|
+      within release_path do
+        execute :rm, '-rf', 'build'
+        execute :bundle, :exec, :middleman, :build
+      end
+    end
+  end
+end
+
+after 'deploy:updated', 'middleman:build'

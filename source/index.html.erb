@@ -8,18 +8,22 @@ class_name: home
 <aside class="home">
   <ul>
     <li><a href="#ide">The IDE</a></li>
-    <li><a href="#boxes">Boxes &amp; Box Parts</a></li>
+    <li><a href="#boxes">Boxes</a></li>
+    <li><a href="#box-parts">Box Parts</a></li>
+    <li><a href="#always-on">Always On Boxes</a></li> 
     <li><a href="#speed">Blazingly Fast</a></li>
   </ul>
 </aside>
 
 <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
-<%= partial 'partials/home/overview' %>
-
 <%= partial 'partials/home/ide' %>
 
 <%= partial 'partials/home/boxes' %>
+
+<%= partial 'partials/home/box-parts' %>
+
+<%= partial 'partials/home/always-on' %>
 
 <%= partial 'partials/home/speed' %>
 

@@ -50,7 +50,7 @@ section {
   &#overview {
     .container > div {
       @include clearfix;
-      padding: 130px 0 70px 0;
+      padding: 70px 0 70px 0;
 
       h2 {
         color: #333;
@@ -58,47 +58,34 @@ section {
 
         span {
           display: none;
-
-          @include apply-to(more-than, desktop) {
-            display: inline;
-          }
         }
       }
 
       p {
         font-size: 18px;
+        line-height: 1.3em;        
       }
 
-      div {
-        float: left;
-        width: 250px;
+    }
+  }
+
+  &#speed {
+    .container {
+      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
+      background-size: 480px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 785px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 15px;
+        padding: 90px 280px 90px 0;
+        width: 400px;
 
         @include apply-to(more-than, desktop) {
-          width: 335px;
-        }
-
-        &:first-child {
-          @include apply-to(more-than, desktop) {
-            margin-right: 10px;
-          }
-        }
-
-        &:nth-child(2) {
-          width: 180px;
-          text-align: center;
-          margin-top: 30px;
-
-          @include apply-to(more-than, desktop) {
-            margin-top: 0;
-          }
-        }
-
-        &:last-child {
-          text-align: right;
-
-          @include apply-to(more-than, desktop) {
-            width: 320px;
-          }
+          padding: 120px 474px 120px 0;
         }
       }
     }
@@ -348,43 +335,7 @@ section {
     }
   }
 
-  &#speed {
-    .container > div {
-      @include clearfix;
-      padding: 101px 0 100px;
-      background: transparent image-url('home/fast.png') no-repeat bottom;
 
-      h2 {
-        color: #333;
-        font: 28px gotham_light;
-      }
-
-      p {
-        font-size: 18px;
-      }
-
-      div {
-        float: left;
-        width: 330px;
-
-        @include apply-to(more-than, desktop) {
-          width: 340px;
-        }
-
-        &:first-child {
-          margin-right: 20px;
-
-          @include apply-to(more-than, desktop) {
-            margin-right: 160px;
-          }
-        }
-
-        &:last-child {
-          text-align: right;
-        }
-      }
-    }
-  }
 
   &#opensource {
     .container > div {

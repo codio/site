@@ -24,7 +24,10 @@ class_name: home
 <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
 
 <%= partial 'partials/home/overview' %>
-<%= partial 'partials/home/panels' %>
+
+<%= partial 'partials/home/speed' %>
+
+<%= partial 'partials/home/productivity' %>
 
 <section id="testimonials">
   <div class="container">
@@ -42,8 +45,8 @@ class_name: home
   </div>
 </section>
 
-<%= partial 'partials/home/productivity' %>
-<%= partial 'partials/home/speed' %>
+
+
 
 <section id="testimonials">
   <div class="container">

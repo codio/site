@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-##Accessing your Box from outside
+##Public Access to your Box
 If you want to access your Box from an external location, then you will need to use the following url
 
     projectname.username.codiodev.com:port

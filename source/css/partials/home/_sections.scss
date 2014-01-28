@@ -75,11 +75,11 @@ section {
 
   &#boxes {
     .container {
-      background: transparent image-url("home/screens/home-boxes.png") no-repeat 670px;
-      background-size: 290px;
+      background: transparent image-url("home/screens/home-boxes.png") no-repeat 670px 60%;
+      background-size: 290px 58%;
 
       @include apply-to(more-than, desktop) {
-        background-position: 785px;
+        background-position: 785px 60%;
         background-size: 325px;
       }
 
@@ -123,37 +123,40 @@ section {
     }
   }
 
-  &#always-on {
+  &#speed {
     .container {
-      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
-      background-size: 480px;
+      background: transparent image-url("home/screens/home-fast.png") no-repeat 670px;
+      background-size: 290px;
 
       @include apply-to(more-than, desktop) {
         background-position: 785px;
+        background-size: 308px;
       }
 
       > div {
-        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        //background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
         background-size: 15px;
         padding: 90px 280px 90px 0;
-        width: 400px;
+        width: 333px;
 
         @include apply-to(more-than, desktop) {
           padding: 120px 474px 120px 0;
+          width: 410px;
         }
+
       }
     }
-  }  
+  }
 
-  &#speed {
+  &#integrated {
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/home-fast.png') no-repeat -238px center;
-      background-size: 75%;
+      background: transparent image-url('home/screens/bower.png') no-repeat -238px center;
+      background-size: 78%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -110px center;
-        background-size: 48%;
+        background-position: -210px center;
+        background-size: 63%;
       }
 
       > div {
@@ -163,30 +166,46 @@ section {
         width: 470px;
 
         @include apply-to(more-than, desktop) {
-          width: 500px;
+          width: 420px;
           background-size: 12px;
-          padding-left: 374px;
+          padding-left: 425px;
         }
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }        
       }
     }
   }
 
   &#tutorials {
     .container {
-      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
-      background-size: 480px;
+      background: transparent image-url("home/screens/home-node.png") no-repeat 598px;
+      background-size: 372px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 785px;
+        background-size: 380px;
+        background-position: 768px;
       }
 
       > div {
-        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        //background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
         background-size: 15px;
         padding: 90px 280px 90px 0;
-        width: 400px;
+        width: 326px;
 
         @include apply-to(more-than, desktop) {
+          width: 380px;
           padding: 120px 474px 120px 0;
         }
       }

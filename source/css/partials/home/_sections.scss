@@ -49,27 +49,36 @@ section {
 
   &#ide {
     .container > div {
-      @include screenie;
-      background: transparent image-url('home/screens/home-ide.png') no-repeat -229px center;
-      background-size: 83%;
+      background: transparent image-url('home/screens/home-ide.png') no-repeat;
+      background-size: 91%;
+      height: 840px;
+      background-position: 75px 328px;
 
       @include apply-to(more-than, desktop) {
-        background-position: -58px center;
-        background-size: 52%;
+        background-position: 0px 300px;
+        background-size: 91%;
+        height: 895px;
       }
 
       > div {
-        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 14px;
-        padding: 130px 0 130px 375px;
-        width: 360px;
+        padding: 70px 0px 130px 77px;
+        width: 640px;
 
         @include apply-to(more-than, desktop) {
-          width: 500px;
-          background-size: 12px;
-          padding-left: 430px;
+          padding: 70px 0px 130px 77px;
+          width: 800px;
+        }
+
+        > div {
+          padding: 397px 0px 0px 193px;
+          width: 760px;
+          @include apply-to(more-than, desktop) {
+              padding: 70px 0px 130px 77px;
+              width: 800px;
+          }
         }
       }
+
     }
   }
 
@@ -100,16 +109,16 @@ section {
   &#box-parts {
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/home-components.png') no-repeat -12px center;
-      background-size: 45%;
+      background: transparent image-url('home/screens/home-parts.png') no-repeat 0px center;
+      background-size: 39%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -4x center;
-        background-size: 34%;
+        background-position: -7x center;
+        background-size: 37%;
       }
 
       > div {
-        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        //background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 14px;
         padding: 130px 0 130px 320px;
         width: 390px;

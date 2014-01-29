@@ -7,8 +7,8 @@ full_width: true
 ##Public Access to your Box
 If you want to access your Box from an external location, then you will need to use the following url
 
-    projectname.username.codiodev.com:port
-    
+    projectname.username.boxes.codiodev.com:port
+
 *TODO: update domain name once on production servers*
     
 ##Ports

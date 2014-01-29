@@ -1,10 +1,10 @@
 ---
-title: "Requesting Languages & Components"
+title: "Requesting New Box Parts"
 class_name: docs
 full_width: true
 ---
 
-You have the ability to add new languages and components from using Box Parts. We have plenty of these already but you can also request us to add new Box Parts, which we can do very easily.
+You will have seen that we have plenty of Box Parts already available (enter `parts search` from the command line). However, we are committed to adding new ones for you.
 
-Please check the [Box Parts](/docs/boxes/box-parts) chapter for details.
+To request a new Box Parts, [create a new issue here](https://github.com/codio/boxparts/issues?page=1&state=open) and we'll get it dealt with as soon as we can.
 

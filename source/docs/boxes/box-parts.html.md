@@ -17,7 +17,7 @@ The main components that are preinstalled are
 ##Standard Box Parts
 Codio's Box Parts allow you to install any extra components that you may need. The following list shows the Parts we currently offer as standard. 
 
-- **Preinstalled Languages** : NodeJS (with nvm), Ruby (with rbenv), Python 2.7.3 
+- **Preinstalled Languages** : NodeJS (with nvm), Ruby (with rbenv), Python 2.7.3, Java
 - **Language** Box Parts : PHP5 (Composer Box Part available), Lua, Free Pascal
 - **Database** Box Parts : MongoDB, MySQL, PostgreSQL, Redis, Memcached
 - **Web Server** Box Parts : Nginx, Apache2, Apache Portable Runtime
@@ -41,13 +41,13 @@ If you enter `parts` on the command line, you will see something like this
 	Some useful commands are:
 	  parts install PACKAGE...   # Install one or many packages
 	  parts uninstall PACKAGE... # Uninstall one or many packages
-	  parts purge PACKAGE...     # Uninstall and remove leftover data of one or many packages
+	  parts purge PACKAGE...     # Uninstall and remove leftover data
 	  parts list                 # List all installed packages
-	  parts search [SEARCH_TERM] # Search for a package or list all available packages
-	  parts start PACKAGE...     # Start one or many services provided by packages
-	  parts stop PACKAGE...      # Stop one or many services provided by packages
-	  parts restart PACKAGE...   # Restart one or many services provided by packages
-	  parts status [PACKAGE...]  # Show status of one or many services provided by packages
+	  parts search [SEARCH_TERM] # Search for a package or list all 
+	  parts start PACKAGE...     # Start one or many services 
+	  parts stop PACKAGE...      # Stop one or many services 
+	  parts restart PACKAGE...   # Restart one or many services 
+	  parts status [PACKAGE...]  # Show status of one or many services 
 	  parts update               # Update Box Parts
 
 ###Listing Available Box Parts
@@ -55,14 +55,16 @@ To list the available Box Parts, enter
 
     `parts search`
 
-You'll then see something like this (first few lines only)
+If we add new Box Parts after you created your project, then you should refresh the list with `parts update`.
 
-	ack (2.12)                   Ack: A tool like grep, optimized for programmers
-	ant (1.9.2)                  Ant: A pure Java build tool, simpler and easier to use than GNU Make
-	apache2 (2.4.7)              Apache Web Server: A cross-platform open-source HTTP server for modern operating systems
-	apr (1.5.0)                  Apache Portable Runtime: Software libraries that provide a predictable and consistent interface to underlying platform-specific implementations
-	apr_util (1.5.3)             Apache Portable Runtime Utilities: Utilities that provide a predictable and consistent interface to underlying platform-specific implementations
-	cmake (2.8.11.2)             CMake: A cross-platform, open-source build system
+`parts search` will show you something like this (first few lines only)
+
+	ack (2.12)                   Ack: A tool like grep, optimized for ...
+	ant (1.9.2)                  Ant: A pure Java build tool, simpler ...
+	apache2 (2.4.7)              Apache Web Server: A cross-platform ...
+	apr (1.5.0)                  Apache Portable Runtime: Software ...
+	apr_util (1.5.3)             Apache Portable Runtime Utilities: ...
+	cmake (2.8.11.2)             CMake: A cross-platform, open-source ...
 	composer (1.0.0-alpha8)      Composer: PHP5 Dependency management
 	...
 	... etc
@@ -78,14 +80,14 @@ You will then see the installation taking place in the Console.
 ##Starting, Stopping and Restarting Services
 Once you have installed a component, you may need to start it as a service.
 
-	part start <package-name>
-	part restart <package-name>
-	part stop <package-name>
+	parts start <package-name>
+	parts restart <package-name>
+	parts stop <package-name>
 
 and to request the service status, use
 
-	part status <package-name>
-	part status (lists the status of services provided by all installed packages)
+	parts status <package-name>
+	parts status (lists the status of services provided by all installed packages)
 
 Codio will remember which services were running when the project is closed, so when you restart the project, your services will automatically start.
 
@@ -99,6 +101,12 @@ If you take a look inside that folder, you will find everything you are likely t
 	~/.parts/etc
 
 
+###Updates to the Box Parts Repository
+We are continuously updating Box Parts. If we update something after you have created your Project, then the repository will need to be updated to get these changes onto your Box.
+
+This is very easily done with `parts update`. 
+
+Regardless of whether we have added a brand new Box Part or we have modified an existing one, you should run `parts update` and then `parts install <partname>`.
 
 
 

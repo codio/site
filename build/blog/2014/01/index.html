@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../css/boilerplate-9511c1e7.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-92a45fe6.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -117,6 +117,86 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2014/01/server-side-development/">January 29, 2014</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            <a class="dsq-comment-count" href="/s/blog/2014/01/server-side-development/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2014/01/server-side-development/">Server Side Development in Codio</a></h1>
+
+        
+
+        <p>Codio is the best web based IDE for client-side development. However, when it comes to server-side development, things start to get a little tricky. We currently provide no server-side environment where you can run your server code. Over the last few months we&#39;ve been working hard to solve this problem, and this week we started opening up Codio Boxes to a select few beta testers.</p>
+
+<p>We will be adding more beta users over the next few weeks. If you want in, drop <a href="mailto:ijobling@codio.com">Ian</a> an email.</p>
+
+<p>The solution has been far from easy, and has made an already complex infrastructure that little bit more complex. But we spent a lot of time thinking and planning the best solution we could possibly provide you. In this post, I want to briefly explain what the new Codio Boxes are and what benefits they will give you when they launch in February 2014.</p>
+
+<h2 id="toc_0">New and Shiny</h2>
+
+<p>First of all, the following new shiny stuff that will be available to you very soon...</p>
+
+<h3 id="toc_1">Docker</h3>
+
+<p>At the heart of every Codio project is the amazing <a href="https://www.docker.io">Docker</a>. We wanted every single project to have its own isolated server environment, with terminal access and the ability to do as much as you want without restriction. Docker lets us do just that.</p>
+
+<p>When you create or open up a project, we spin up a Docker container at the same time. Open up the Codio Terminal and you now have a full-stack server-side development environment in the cloud. We provide a load of languages pre-installed for you, including NodeJS (via <a href="https://github.com/creationix/nvm">NVM</a>) and Ruby (via <a href="https://github.com/sstephenson/rbenv">rbenv</a>).</p>
+
+<h3 id="toc_2">Box Parts</h3>
+
+<p>Box Parts is a simple package manager that we provide, and gives you command line access to quickly install the most popular packages, including MongoDB, Java, PHP, Redis and MySQL. There will be loads more available with more added over time.</p>
+
+<p>Installing any of these packages is extremely fast, as we do all the time-consuming compilation steps for you. All you gotta do is install the binaries that we&#39;ve created for you.</p>
+
+<p>It&#39;s as easy as <code>parts install mysql</code>!</p>
+
+<p>Box Parts is built with Ruby and is open source. Head on over to the <a href="https://github.com/codio/boxparts">Github repo</a> to check it out. This is the place to request missing packages, or - even better - contribute!</p>
+
+<h3 id="toc_3">Runtime</h3>
+
+<p>Every project will also allow you to access your running processes via a public facing domain name. For example, if you want to run a Ruby on Rails server over port 3000, just install Rails and start the Rails server. Then point your browser to <code>YOURPROJECT.USERNAME.codio.com:3000</code>.</p>
+
+<p>We will allow the port range <code>1024-4096</code> for your own services.</p>
+
+<hr>
+
+<p>A future blog post will go into further detail about how we are achieving all this, and what technology we are using.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2014/01/server-side-development/" data-via="codiohq" data-size="small" data-count="none" data-text="Server Side Development in Codio">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2014/01/server-side-development/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2014/01/server-side-development/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -306,6 +386,9 @@
       <ul>
         
           
+          <li><a href="/s/blog/2014/01/server-side-development/">Server Side Development in Codio</a></li>
+        
+          
           <li><a href="/s/blog/2014/01/subscriptions/">Paid Subscriptions</a></li>
         
           
@@ -317,15 +400,14 @@
           
           <li><a href="/s/blog/2013/12/command-bar/">Command Bar</a></li>
         
-          
-          <li><a href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/">Git and a Tease of what is to Come!</a></li>
-        
       </ul>
     </section>
 
     <section class="latest-posts">
       <h4>on this page...</h4>
       <ul>
+        
+          <li><a href="/s/blog/2014/01/server-side-development/">Server Side Development in Codio</a></li>
         
           <li><a href="/s/blog/2014/01/subscriptions/">Paid Subscriptions</a></li>
         

@@ -4,10 +4,57 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2014-01-14T00:00:00Z</updated>
+  <updated>2014-01-29T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Server Side Development in Codio</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/01/server-side-development/"/>
+    <id>https://codio.com/s/blog/2014/01/server-side-development/</id>
+    <published>2014-01-29T00:00:00Z</published>
+    <updated>2014-01-29T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;Codio is the best web based IDE for client-side development. However, when it comes to server-side development, things start to get a little tricky. We currently provide no server-side environment where you can run your server code. Over the last few...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Codio is the best web based IDE for client-side development. However, when it comes to server-side development, things start to get a little tricky. We currently provide no server-side environment where you can run your server code. Over the last few months we&amp;#39;ve been working hard to solve this problem, and this week we started opening up Codio Boxes to a select few beta testers.&lt;/p&gt;
+
+&lt;p&gt;We will be adding more beta users over the next few weeks. If you want in, drop &lt;a href="mailto:ijobling@codio.com"&gt;Ian&lt;/a&gt; an email.&lt;/p&gt;
+
+&lt;p&gt;The solution has been far from easy, and has made an already complex infrastructure that little bit more complex. But we spent a lot of time thinking and planning the best solution we could possibly provide you. In this post, I want to briefly explain what the new Codio Boxes are and what benefits they will give you when they launch in February 2014.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;New and Shiny&lt;/h2&gt;
+
+&lt;p&gt;First of all, the following new shiny stuff that will be available to you very soon...&lt;/p&gt;
+
+&lt;h3 id="toc_1"&gt;Docker&lt;/h3&gt;
+
+&lt;p&gt;At the heart of every Codio project is the amazing &lt;a href="https://www.docker.io"&gt;Docker&lt;/a&gt;. We wanted every single project to have its own isolated server environment, with terminal access and the ability to do as much as you want without restriction. Docker lets us do just that.&lt;/p&gt;
+
+&lt;p&gt;When you create or open up a project, we spin up a Docker container at the same time. Open up the Codio Terminal and you now have a full-stack server-side development environment in the cloud. We provide a load of languages pre-installed for you, including NodeJS (via &lt;a href="https://github.com/creationix/nvm"&gt;NVM&lt;/a&gt;) and Ruby (via &lt;a href="https://github.com/sstephenson/rbenv"&gt;rbenv&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id="toc_2"&gt;Box Parts&lt;/h3&gt;
+
+&lt;p&gt;Box Parts is a simple package manager that we provide, and gives you command line access to quickly install the most popular packages, including MongoDB, Java, PHP, Redis and MySQL. There will be loads more available with more added over time.&lt;/p&gt;
+
+&lt;p&gt;Installing any of these packages is extremely fast, as we do all the time-consuming compilation steps for you. All you gotta do is install the binaries that we&amp;#39;ve created for you.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s as easy as &lt;code&gt;parts install mysql&lt;/code&gt;!&lt;/p&gt;
+
+&lt;p&gt;Box Parts is built with Ruby and is open source. Head on over to the &lt;a href="https://github.com/codio/boxparts"&gt;Github repo&lt;/a&gt; to check it out. This is the place to request missing packages, or - even better - contribute!&lt;/p&gt;
+
+&lt;h3 id="toc_3"&gt;Runtime&lt;/h3&gt;
+
+&lt;p&gt;Every project will also allow you to access your running processes via a public facing domain name. For example, if you want to run a Ruby on Rails server over port 3000, just install Rails and start the Rails server. Then point your browser to &lt;code&gt;YOURPROJECT.USERNAME.codio.com:3000&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will allow the port range &lt;code&gt;1024-4096&lt;/code&gt; for your own services.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;A future blog post will go into further detail about how we are achieving all this, and what technology we are using.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Paid Subscriptions</title>
     <link rel="alternate" href="https://codio.com/s/blog/2014/01/subscriptions/"/>
@@ -195,33 +242,6 @@
 &lt;p&gt;And once that is in place, the entire Git tool-set will be available without ever having to leave Codio. You will be able to use Git the way you want, and without any restrictions.&lt;/p&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Common User Preferences</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2013/12/common-preferences/"/>
-    <id>https://codio.com/s/blog/2013/12/common-preferences/</id>
-    <published>2013-12-04T00:00:00Z</published>
-    <updated>2013-12-04T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;Codio already provides a &lt;a href="/s/s/docs/settings-prefs/prefs-list/"&gt;high level of customisation&lt;/a&gt;, because we know that every developer works differently and you all have your own way of working. The &lt;a href="https://codio.com/s/docs/settings-prefs/"&gt;Preferences system&lt;/a&gt; in Codio is based on an INI file, which makes it extremely easy to edit your...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Codio already provides a &lt;a href="/s/s/docs/settings-prefs/prefs-list/"&gt;high level of customisation&lt;/a&gt;, because we know that every developer works differently and you all have your own way of working. The &lt;a href="https://codio.com/s/docs/settings-prefs/"&gt;Preferences system&lt;/a&gt; in Codio is based on an INI file, which makes it extremely easy to edit your prefs. It&amp;#39;s just like writing code, which of course we all like doing.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/s/img/blog/prefs-4da47336.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;But there are a few common preferences that tend to get used more than others, so we&amp;#39;ve made these even easier for you to access and edit. Check out the new and improved &lt;code&gt;View&lt;/code&gt; menu. You can now change the following directly from this menu:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;theme&lt;/li&gt;
-&lt;li&gt;font size&lt;/li&gt;
-&lt;li&gt;wrapping&lt;/li&gt;
-&lt;li&gt;soft tabs&lt;/li&gt;
-&lt;li&gt;tab size&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Codio - now even more convenient!&lt;/p&gt;
 </content>
   </entry>
 </feed>

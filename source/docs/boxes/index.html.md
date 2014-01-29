@@ -18,6 +18,7 @@ This chapter covers the features provided by Boxes
 - [Restarting and resetting Boxes](/docs/boxes/restart-reset)
 - [How to install Box components (everything from languages to middleware to databases)](/docs/boxes/box-parts)
 - [Requesting new Box back-end environments such as PHP, Python](/docs/boxes/request-language)
+- [Auto starting Box Parts services](/docs/boxes/startup)
 - [Always on Boxes](/docs/boxes/always-on)
 - [Debugging Node applications](/docs/boxes/node-debugger)
 

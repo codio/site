@@ -55,7 +55,7 @@ section {
       background-position: 75px 328px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 0px 300px;
+        background-position: 45px 325px;
         background-size: 91%;
         height: 895px;
       }
@@ -65,15 +65,15 @@ section {
         width: 640px;
 
         @include apply-to(more-than, desktop) {
-          padding: 70px 0px 130px 77px;
-          width: 800px;
+          padding: 100px 0px 130px 77px;
+          width: 770px;
         }
 
         > div {
           padding: 397px 0px 0px 193px;
           width: 760px;
           @include apply-to(more-than, desktop) {
-              padding: 70px 0px 130px 77px;
+              padding: 500px 0px 0px 190px;
               width: 800px;
           }
         }

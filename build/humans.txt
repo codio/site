@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+_________            .___.__         __________               __
+\_   ___ \  ____   __| _/|__| ____   \______   \ ____   ____ |  | __  ______
+/    \  \/ /  _ \ / __ | |  |/  _ \   |       _//  _ \_/ ___\|  |/ / /  ___/
+\     \___(  <_> ) /_/ | |  (  <_> )  |    |   (  <_> )  \___|    <  \___ \
+ \______  /\____/\____ | |__|\____/   |____|_  /\____/ \___  >__|_ \/____  >
+        \/            \/                     \/            \/     \/     \/
+
+# TEAM
+
+    Joel Moss -- CTO -- @joelmoss
+    Freddy May -- CEO -- @fmay
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    Ruby, Middleman
+    HTML5, CSS3
+    jQuery, CoffeeScript, SASS, Modernizr

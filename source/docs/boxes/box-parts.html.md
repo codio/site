@@ -29,7 +29,7 @@ Any Codio users can request that the Codio team add additional Box Parts to the 
 
 Codio subscribers will be given preference when it comes to adding new Box Parts.
 
-To request a Box Part, please email support@codio.com.
+To request a new Box Part to be added to Codio, [click here](/docs/boxes/request-language).
 
 ##How to use Box Parts
 Using Box Parts is really easy. To start off with, open up a Terminal window from the 'Tools->Terminal' menu item.

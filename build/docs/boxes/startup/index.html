@@ -122,8 +122,6 @@
       <h1>Auto Starting Services</h1>
       <p>When your Box starts up, by default services will not be started. </p>
 
-<h2 id="toc_0">Start services automatically with Startup.sh</h2>
-
 <p>To prevent you having to start services manually you can configure the file <code>/home/codio/startup.sh</code> to startup required services whenever your Box boots up. This file will typically contain something like this</p>
 
 <pre><code>parts start &lt;part-name-1&gt;
@@ -132,9 +130,7 @@ parts start &lt;part-name-2&gt;
 parts start &lt;part-name-n&gt;
 </code></pre>
 
-<h2 id="toc_1">Start services with Run menu</h2>
-
-<p>Starting services using <code>startup.sh</code> can slow the time it takes to start your project and so an alternative approach is to configure a similar script (how about <code>manual-start</code>) and then configure a <a href="/s/docs/boxes/run">Run menu</a> to start your services with a menu button press. This means the IDE will load a bit faster (depending on the number of startup commands you are using).</p>
+<p>This is the recommended procedure for starting services. It will not slow the loading of your project in the IDE as it is a background task.</p>
 
 
       

@@ -9,13 +9,19 @@ The main things that are preinstalled with Codio are Node.JS, Ruby and Python. B
 ##Preinstalled
 The main components that are preinstalled are
 
-- NodeJS (all versiont thanks to nvm)
-- Ruby (all versions thanks to rbenv)
+- NodeJS (use nvm; please [refer to this section](/docs/boxes/node-ruby) for information on running NodeJS under nvm)
+- Ruby (uses rbenv; please [refer to this section](/docs/boxes/node-ruby) for information on running Ruby under rbenv)
 - Python 2.7.3 (Python 3.0 available as Box Part)
 
+##The Box Parts Repository
+We are continuously updating Box Parts. Box Parts are all stored in a central repository on GitHub. We update this repository regularly and then add the contents to the 'Base Image' that runs in your box. If you see a Box Part in the central [Box Parts Repository](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages), but don't see it when you type `parts search` then run the following to download the repo on to your Box.
 
-##Standard Box Parts
-Codio's Box Parts allow you to install any extra components that you may need. The following list shows the Parts we currently offer as standard. 
+	parts update
+
+Regardless of whether we have added a brand new Box Part or have modified an existing one, you should run `parts update` and then `parts install <partname>` to update your Box Part properly.
+
+##Box Parts
+Codio's Box Parts allow you to install any extra components that you may need. The following list shows the majority of the Parts we currently offer as standard. Read on to see how to get the full repo list.
 
 - **Preinstalled Languages** : NodeJS (with nvm), Ruby (with rbenv), Python 2.7.3, Java
 - **Language** Box Parts : PHP5 (Composer Box Part available), Lua, Free Pascal
@@ -31,7 +37,7 @@ Codio subscribers will be given preference when it comes to adding new Box Parts
 
 To request a new Box Part to be added to Codio, [click here](/docs/boxes/request-language).
 
-##How to use Box Parts
+##The 'parts' Command Line tool
 Using Box Parts is really easy. To start off with, open up a Terminal window from the 'Tools->Terminal' menu item.
 
 If you enter `parts` on the command line, you will see something like this
@@ -89,9 +95,9 @@ and to request the service status, use
 	parts status <package-name>
 	parts status (lists the status of services provided by all installed packages)
 
-Codio will remember which services were running when the project is closed, so when you restart the project, your services will automatically start.
+When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as [described here](/docs/boxes/startup).
 
-##Where does everything get installed
+##Where Parts are installed
 Box Parts installs things in a special location where you have full access and control
 
 	~/.parts
@@ -99,15 +105,6 @@ Box Parts installs things in a special location where you have full access and c
 If you take a look inside that folder, you will find everything you are likely to need. Configuration files, for example, live in
 
 	~/.parts/etc
-
-
-###Updates to the Box Parts Repository
-We are continuously updating Box Parts. If we update something after you have created your Project, then the repository will need to be updated to get these changes onto your Box.
-
-This is very easily done with `parts update`. 
-
-Regardless of whether we have added a brand new Box Part or we have modified an existing one, you should run `parts update` and then `parts install <partname>`.
-
 
 
 

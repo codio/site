@@ -127,14 +127,23 @@
 <p>The main components that are preinstalled are</p>
 
 <ul>
-<li>NodeJS (all versiont thanks to nvm)</li>
-<li>Ruby (all versions thanks to rbenv)</li>
+<li>NodeJS (use nvm; please <a href="/s/docs/boxes/node-ruby">refer to this section</a> for information on running NodeJS under nvm)</li>
+<li>Ruby (uses rbenv; please <a href="/s/docs/boxes/node-ruby">refer to this section</a> for information on running Ruby under rbenv)</li>
 <li>Python 2.7.3 (Python 3.0 available as Box Part)</li>
 </ul>
 
-<h2 id="toc_1">Standard Box Parts</h2>
+<h2 id="toc_1">The Box Parts Repository</h2>
 
-<p>Codio&#39;s Box Parts allow you to install any extra components that you may need. The following list shows the Parts we currently offer as standard. </p>
+<p>We are continuously updating Box Parts. Box Parts are all stored in a central repository on GitHub. We update this repository regularly and then add the contents to the &#39;Base Image&#39; that runs in your box. If you see a Box Part in the central <a href="https://github.com/codio/boxparts/tree/master/lib/autoparts/packages">Box Parts Repository</a>, but don&#39;t see it when you type <code>parts search</code> then run the following to download the repo on to your Box.</p>
+
+<pre><code>parts update
+</code></pre>
+
+<p>Regardless of whether we have added a brand new Box Part or have modified an existing one, you should run <code>parts update</code> and then <code>parts install &lt;partname&gt;</code> to update your Box Part properly.</p>
+
+<h2 id="toc_2">Box Parts</h2>
+
+<p>Codio&#39;s Box Parts allow you to install any extra components that you may need. The following list shows the majority of the Parts we currently offer as standard. Read on to see how to get the full repo list.</p>
 
 <ul>
 <li><strong>Preinstalled Languages</strong> : NodeJS (with nvm), Ruby (with rbenv), Python 2.7.3, Java</li>
@@ -145,7 +154,7 @@
 <li><strong>Other</strong> Box Parts : Composer for PHP, Image Magick, MeteorJS, PhantomJS, Tig</li>
 </ul>
 
-<h2 id="toc_2">Requesting Additional Box Parts</h2>
+<h2 id="toc_3">Requesting Additional Box Parts</h2>
 
 <p>Any Codio users can request that the Codio team add additional Box Parts to the standard repository. Once added, it will become a standard item and available to all users.</p>
 
@@ -153,7 +162,7 @@
 
 <p>To request a new Box Part to be added to Codio, <a href="/s/docs/boxes/request-language">click here</a>.</p>
 
-<h2 id="toc_3">How to use Box Parts</h2>
+<h2 id="toc_4">The &#39;parts&#39; Command Line tool</h2>
 
 <p>Using Box Parts is really easy. To start off with, open up a Terminal window from the &#39;Tools->Terminal&#39; menu item.</p>
 
@@ -174,7 +183,7 @@ Some useful commands are:
   parts update               # Update Box Parts
 </code></pre>
 
-<h3 id="toc_4">Listing Available Box Parts</h3>
+<h3 id="toc_5">Listing Available Box Parts</h3>
 
 <p>To list the available Box Parts, enter </p>
 
@@ -197,7 +206,7 @@ composer (1.0.0-alpha8)      Composer: PHP5 Dependency management
 ...
 </code></pre>
 
-<h3 id="toc_5">Installing Box Parts</h3>
+<h3 id="toc_6">Installing Box Parts</h3>
 
 <p>You can install one or more Box Parts as follows</p>
 
@@ -206,7 +215,7 @@ composer (1.0.0-alpha8)      Composer: PHP5 Dependency management
 
 <p>You will then see the installation taking place in the Console.</p>
 
-<h2 id="toc_6">Starting, Stopping and Restarting Services</h2>
+<h2 id="toc_7">Starting, Stopping and Restarting Services</h2>
 
 <p>Once you have installed a component, you may need to start it as a service.</p>
 
@@ -221,9 +230,9 @@ parts stop &lt;package-name&gt;
 parts status (lists the status of services provided by all installed packages)
 </code></pre>
 
-<p>Codio will remember which services were running when the project is closed, so when you restart the project, your services will automatically start.</p>
+<p>When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as <a href="/s/docs/boxes/startup">described here</a>.</p>
 
-<h2 id="toc_7">Where does everything get installed</h2>
+<h2 id="toc_8">Where Parts are installed</h2>
 
 <p>Box Parts installs things in a special location where you have full access and control</p>
 
@@ -234,14 +243,6 @@ parts status (lists the status of services provided by all installed packages)
 
 <pre><code>~/.parts/etc
 </code></pre>
-
-<h3 id="toc_8">Updates to the Box Parts Repository</h3>
-
-<p>We are continuously updating Box Parts. If we update something after you have created your Project, then the repository will need to be updated to get these changes onto your Box.</p>
-
-<p>This is very easily done with <code>parts update</code>. </p>
-
-<p>Regardless of whether we have added a brand new Box Part or we have modified an existing one, you should run <code>parts update</code> and then <code>parts install &lt;partname&gt;</code>.</p>
 
 
       

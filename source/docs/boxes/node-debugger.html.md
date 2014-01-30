@@ -6,5 +6,5 @@ full_width: true
 
 We will shortly be adding support for a new Node.js debugger. If you are interested in beta testing this ahead of general release, please email support@codio.com.
 
-Anticipated release for this is April 2014.
+Anticipated release for this is Q2 2014.
 

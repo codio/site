@@ -97,7 +97,7 @@ and to request the service status, use
 
 When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as [described here](/docs/boxes/startup).
 
-##Where Parts are installed
+##Parts folder and config files
 Box Parts installs things in a special location where you have full access and control
 
 	~/.parts
@@ -106,5 +106,6 @@ If you take a look inside that folder, you will find everything you are likely t
 
 	~/.parts/etc
 
+So to configure Apache, you would edit the `~/.parts/etc/apache2/httpd.conf` file (using Nano/Vim).
 
 

@@ -1,0 +1,302 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      
+        Box Parts
+      
+       - Codio
+    </title>
+
+    
+      <meta name="description" content="Codio is a powerful cloud and browser based IDE that covers the complete web development cycle; from prototype to deployment">
+    
+
+    
+      <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
+    
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/s/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/s/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/s/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="/s/apple-touch-icon-precomposed.png" />
+    <link rel="shortcut icon" href="/s/favicon.png" />
+    <!-- should actually be placed in your root dir -->
+    <link rel="icon" type="image/ico" href="/s/favicon.ico" />
+
+    <link href="../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-9bababcb.css" media="screen" rel="stylesheet" type="text/css" />
+
+    
+    <link href="../../../css/lib/rainbow/github-453e79e9.css" media="screen" rel="stylesheet" type="text/css" />
+  
+
+    <link href="https://codio.com/s/blog/feed.xml" rel="alternate" title="Code and Unload - While we code we often have lots of ideas brewing around. Ideas we'd like to unload onto you" type="application/atom+xml"/>
+  </head>
+  <body class="docs" data-spy="scroll" data-target="aside">
+    <a id="top"></a>
+
+    <div class="wrap">
+
+      <nav>
+  <div class="container">
+
+    <nav class="clearfix">
+      <a data-no-turbolink="true" href="/"><img width="150" src="../../../img/logo-beta-a3a0a36b.png" /></a>
+
+      <ul id="site-nav">
+        <li><a data-no-turbolink="true" href="/s/features">Features</a></li>
+        <li><a data-no-turbolink="true" href="/s/pricing">Pricing</a></li>
+        <li><a data-no-turbolink="true" href="/s/docs">Docs</a></li>
+        <li><a data-no-turbolink="true" href="/s/blog">Blog</a></li>
+        <li><a target="_blank" data-no-turbolink="true" href="http://forum.codio.com">Forum</a></li>
+      </ul>
+
+      <ul class="codio-nav" id="signedout-nav">
+        <li><a href="/p/signup" data-no-turbolink="1">Try Now</a></li>
+        <li><a href="/p/login" data-no-turbolink="1">Sign In</a></li>
+        <li><a href="/p/signup" data-no-turbolink="1">Sign Up</a></li>
+      </ul>
+
+      <ul class="codio-nav" id="signedin-nav">
+        <li><a id="userlink" href="/" data-no-turbolink="1"></a></li>
+        <li>
+          <a id="gravatar" href="/" data-no-turbolink="1">
+            <img src="" width="32" height="32" alt="">
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</nav>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-39233819-4', 'codio.com');
+    ga('send', 'pageview');
+  </script>
+
+  <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+  typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+  b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+  mixpanel.init("6533a0b0b384c69b12a6426fd49a1abf");</script>
+
+  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',(typeof intercomSettings === 'undefined' ? {} : intercomSettings));}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://static.intercomcdn.com/intercom.v1.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
+
+
+      
+        
+  <div class="container clearfix">
+
+    <header class="clearfix">
+      <a id="full-screen" href="#"><i class="icon-fullscreen icon-large" title="Open in full screen"></i></a>
+      <div id="breadcrumbs">
+        <ul>
+          <li><a href="/s/docs">Docs</a></li>
+          
+            <li><a href="/s/docs/boxes/">Boxes</a></li>
+          
+          <li>Box Parts</li>
+        </ul>
+      </div>
+    </header>
+
+    <aside data-spy="affix" data-offset-top="220">
+      <form>
+        <input type="text" placeholder="search...">
+        <button type="submit" class="btn">Search</button>
+        <ul id="search-content"></ul>
+      </form>
+
+      <div id="tree">
+        <ol><li class="nofade"><a class="" href="/s/docs/">Documentation</a></li><li class="nofade"><a class="" href="/s/docs/feature-roundup/">Feature Roundup</a></li><li class="nofade"><a class="" href="/s/docs/subscriptions/">Paid Subscriptions</a></li><li class="nofade"><a class="" href="/s/docs/command-bar/">Command Bar</a></li><li class="nofade"><a class="" href="/s/docs/getting-started/">Getting Started</a></li><li class="nofade"><a class="" href="/s/docs/bugs/">Reporting Bugs</a></li><li class="nofade"><a class="" href="/s/docs/browser-support/">Browser Support</a></li><li class="nofade"><a class="" href="/s/docs/public-private/">Public and Private Projects</a></li><li><div class="nofade"><span>expand</span><a href="/s/docs/boxes/">Boxes</a></div><ol><li class="nofade"><a class="" href="/s/docs/boxes/terminal/">The Terminal Window</a></li><li class="nofade"><a class="" href="/s/docs/boxes/node-ruby/">Important Node & Ruby Stuff</a></li><li class="nofade"><a class="" href="/s/docs/boxes/ext-access/">Accessing Boxes & Ports</a></li><li class="nofade"><a class="" href="/s/docs/boxes/sleep/">Sleepy Boxes</a></li><li class="nofade"><a class="" href="/s/docs/boxes/run/">The Run menu item</a></li><li class="nofade"><a class="" href="/s/docs/boxes/ssh/">SSH Keys</a></li><li class="nofade"><a class="" href="/s/docs/boxes/workspace/">Code Files Location</a></li><li class="nofade"><a class="" href="/s/docs/boxes/restart-reset/">Restart and Reset</a></li><li class="nofade"><a class="" href="/s/docs/boxes/box-parts/">Box Parts</a></li><li class="nofade"><a class="" href="/s/docs/boxes/request-language/">Requesting New Box Parts</a></li><li class="nofade"><a class="" href="/s/docs/boxes/startup/">Auto Starting Services</a></li><li class="nofade"><a class="" href="/s/docs/boxes/always-on/">Always On Boxes</a></li><li class="nofade"><a class="" href="/s/docs/boxes/node-debugger/">Node Debugger</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/ssh/">SSH Terminal Access</a></div><ol><li class="nofade"><a class="" href="/s/docs/ssh/ssh-manager/">SSH Connection Manager</a></li><li class="nofade"><a class="" href="/s/docs/ssh/quick-connect/">Quick Connect</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/console/">The Dashboard</a></div><ol><li class="nofade"><a class="" href="/s/docs/console/accessing/">Accessing your projects</a></li><li class="nofade"><a class="" href="/s/docs/console/accessing-others/">Accessing other people's projects</a></li><li class="nofade"><a class="" href="/s/docs/console/creating/">Creating and importing a project</a></li><li class="nofade"><a class="" href="/s/docs/console/project-description/">Project description</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/settings-prefs/">Preferences & Settings</a></div><ol><li><div class="nofade"><span>expand</span><a href="/s/docs/settings-prefs/account-settings/">Account Settings</a></div><ol><li class="nofade"><a class="" href="/s/docs/settings-prefs/account-settings/profile/">Profile</a></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/account-settings/password/">Password</a></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/account-settings/public-key/">SSH Key</a></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/account-settings/acct-github/">GitHub</a></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/account-settings/account-delete/">Deleting your Account</a></li></ol></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/codio-prefs/">Codio Preferences</a></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/project-prefs/">Project preferences</a></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/prefs-list/">Preferences List</a></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/project-settings/">Project Settings</a></li><li class="nofade"><a class="" href="/s/docs/settings-prefs/permissions/">Permissions</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/ide/">The Codio IDE</a></div><ol><li><div class="nofade"><span>expand</span><a href="/s/docs/ide/ide-general/">Basic IDE Features</a></div><ol><li class="nofade"><a class="" href="/s/docs/ide/ide-general/exiting/">Exiting the IDE</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/editing/">Editing a file</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/quick-open/">Quick Open</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/real-time/">Real time code collaboration</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/fork/">Forking a Project</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/saving/">Saving Files</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/upload/">Uploading Files</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/add-file/">Adding Files</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/templates/">Templates</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/add-folder/">Creating a Folder</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/delete-folder/">Deleting a folder</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/dragging/">Dragging files & folders</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/readme-md/">Readme info pages</a></li><li class="nofade"><a class="" href="/s/docs/ide/ide-general/export/">Exporting an App</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/ide/code-editor/">Basic Code Editing</a></div><ol><li class="nofade"><a class="" href="/s/docs/ide/code-editor/kb-shortcuts/">Keyboard Shortcuts</a></li><li class="nofade"><a class="" href="/s/docs/ide/code-editor/search-replace/">Search and replace</a></li><li class="nofade"><a class="" href="/s/docs/ide/code-editor/color-preview/">Color Preview & Picker</a></li><li class="nofade"><a class="" href="/s/docs/ide/code-editor/ide-force-lang/">Force language highlighting</a></li></ol></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/panels/">IDE Panels</a></div><ol><li class="nofade"><a class="" href="/s/docs/panels/panel-actions/">Panel actions</a></li><li class="nofade"><a class="" href="/s/docs/panels/full-screen/">Expand Tabs full screen</a></li></ol></li><li class="nofade"><a class="" href="/s/docs/inline-preview/">Preview</a></li><li class="nofade"><a class="" href="/s/docs/sharing/">Sharing & Embedding</a></li><li><div class="nofade"><span>expand</span><a href="/s/docs/emmet/">Productivity Shortcuts</a></div><ol><li class="nofade"><a class="" href="/s/docs/emmet/emmet-docs/">Emmet Docs</a></li><li class="nofade"><a class="" href="/s/docs/emmet/emmet-abbreviations/">Abbreviations</a></li><li class="nofade"><a class="" href="/s/docs/emmet/emmet-actions/">Special Keyboard Actions</a></li><li class="nofade"><a class="" href="/s/docs/emmet/emmet-ref/">Complete Reference</a></li></ol></li><li class="nofade"><a class="" href="/s/docs/autocomplete/">Autocomplete</a></li><li><div class="nofade"><span>expand</span><a href="/s/docs/git/">Git, Mercurial & SVN</a></div><ol><li class="nofade"><a class="" href="/s/docs/git/resources/">Resources</a></li><li class="nofade"><a class="" href="/s/docs/git/github-keys/">SSH keys</a></li><li class="nofade"><a class="" href="/s/docs/git/git-primer/">Very basic Git tutorial</a></li><li class="nofade"><a class="" href="/s/docs/git/remotes/">GitHub and other remotes</a></li><li class="nofade"><a class="" href="/s/docs/git/active-branch/">Active branch</a></li></ol></li><li class="nofade"><a class="" href="/s/docs/ide-beautify/">Code Beautification</a></li><li><div class="nofade"><span>expand</span><a href="/s/docs/deployment/">Deployment</a></div><ol><li class="nofade"><a class="" href="/s/docs/deployment/create/">Create/manage a target</a></li><li class="nofade"><a class="" href="/s/docs/deployment/basepath/">Base path field</a></li><li class="nofade"><a class="" href="/s/docs/deployment/deployment-keys/">Public keys for remote servers</a></li><li class="nofade"><a class="" href="/s/docs/deployment/deployment-ssh/">Terminal access to remotes</a></li><li class="nofade"><a class="" href="/s/docs/deployment/deploy/">Deploying to a Target</a></li><li class="nofade"><a class="" href="/s/docs/deployment/type-codio/">Codio Target Type</a></li><li class="nofade"><a class="" href="/s/docs/deployment/type-rsync/">Rsync Target Type</a></li><li class="nofade"><a class="" href="/s/docs/deployment/type-ftp/">FTP Target Type</a></li><li class="nofade"><a class="" href="/s/docs/deployment/type-sftp/">SFTP Target Type</a></li><li class="nofade"><a class="" href="/s/docs/deployment/type-nj/">Nodejitsu target type</a></li><li class="nofade"><a class="" href="/s/docs/deployment/type-parse/">Parse.com Target Type</a></li><li class="nofade"><a class="" href="/s/docs/deployment/history/">Deployment History</a></li><li class="nofade"><a class="" href="/s/docs/deployment/specific-files/">Deploying specific files & folders</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/annotations/">Codio Annotations</a></div><ol><li class="nofade"><a class="" href="/s/docs/annotations/example/">Example Annotations project</a></li><li class="nofade"><a class="" href="/s/docs/annotations/why/">Why use Codio Annotations</a></li><li class="nofade"><a class="" href="/s/docs/annotations/example-project/">Example Project</a></li><li class="nofade"><a class="" href="/s/docs/annotations/tour/">Tour</a></li><li class="nofade"><a class="" href="/s/docs/annotations/explore/">Exploring</a></li><li class="nofade"><a class="" href="/s/docs/annotations/auto-start/">Auto-starting from a URL</a></li><li class="nofade"><a class="" href="/s/docs/annotations/adding-annotation/">Adding tokens to source files</a></li><li class="nofade"><a class="" href="/s/docs/annotations/annotations-file/">Annotating project files</a></li><li class="nofade"><a class="" href="/s/docs/annotations/embedding/">Embedding a complete tutorial IDE in a page</a></li><li class="nofade"><a class="" href="/s/docs/annotations/widget/">Embedding snippets in web pages</a></li><li class="nofade"><a class="" href="/s/docs/annotations/videos/">Videos, images, code and links</a></li><li class="nofade"><a class="" href="/s/docs/annotations/readme-md/">The README.md file</a></li><li class="nofade"><a class="" href="/s/docs/annotations/helpers/">Helper keyboard shortcuts</a></li><li class="nofade"><a class="" href="/s/docs/annotations/own-ide/">Defining Annotations in other IDEs</a></li><li class="nofade"><a class="" href="/s/docs/annotations/md-overview/">Markdown overview</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/bower/">Bower</a></div><ol><li class="nofade"><a class="" href="/s/docs/bower/accessing/">Accessing Bower</a></li><li class="nofade"><a class="" href="/s/docs/bower/finding/">Finding a component</a></li><li class="nofade"><a class="" href="/s/docs/bower/consuming/">Consuming a component</a></li><li class="nofade"><a class="" href="/s/docs/bower/updating/">Updating a component</a></li><li class="nofade"><a class="" href="/s/docs/bower/remove/">Uninstalling a component</a></li><li class="nofade"><a class="" href="/s/docs/bower/more-bower/">More about Bower</a></li></ol></li><li><div class="nofade"><span>expand</span><a href="/s/docs/compiling/">Coffeescript, Less, SCSS etc</a></div><ol><li class="nofade"><a class="" href="/s/docs/compiling/overview/">Overview</a></li><li class="nofade"><a class="" href="/s/docs/compiling/other/">Other compiled file types</a></li><li class="nofade"><a class="" href="/s/docs/compiling/one-file/">Compiled output for any file</a></li></ol></li></ol>
+      </div>
+    </aside>
+
+    <article id="doc-body" data-swiftype-index="true">
+      <h1>Box Parts</h1>
+      <p>The main things that are preinstalled with Codio are Node.JS, Ruby and Python. But what about the hundreds of other languages, databases and components that you might want for your development environment?</p>
+
+<h2 id="toc_0">Preinstalled</h2>
+
+<p>The main components that are preinstalled are</p>
+
+<ul>
+<li>NodeJS (use nvm; please <a href="/s/docs/boxes/node-ruby">refer to this section</a> for information on running NodeJS under nvm)</li>
+<li>Ruby (uses rbenv; please <a href="/s/docs/boxes/node-ruby">refer to this section</a> for information on running Ruby under rbenv)</li>
+<li>Python 2.7.3 (Python 3.0 available as Box Part)</li>
+</ul>
+
+<h2 id="toc_1">The Box Parts Repository</h2>
+
+<p>We are continuously updating Box Parts. Box Parts are all stored in a central repository on GitHub. We update this repository regularly and then add the contents to the &#39;Base Image&#39; that runs in your box. If you see a Box Part in the central <a href="https://github.com/codio/boxparts/tree/master/lib/autoparts/packages">Box Parts Repository</a>, but don&#39;t see it when you type <code>parts search</code> then run the following to download the repo on to your Box.</p>
+
+<pre><code>parts update
+</code></pre>
+
+<p>Regardless of whether we have added a brand new Box Part or have modified an existing one, you should run <code>parts update</code> and then <code>parts install &lt;partname&gt;</code> to update your Box Part properly.</p>
+
+<h2 id="toc_2">Box Parts</h2>
+
+<p>Codio&#39;s Box Parts allow you to install any extra components that you may need. The following list shows the majority of the Parts we currently offer as standard. Read on to see how to get the full repo list.</p>
+
+<ul>
+<li><strong>Preinstalled Languages</strong> : NodeJS (with nvm), Ruby (with rbenv), Python 2.7.3, Java</li>
+<li><strong>Language</strong> Box Parts : PHP5 (Composer Box Part available), Lua, Free Pascal</li>
+<li><strong>Database</strong> Box Parts : MongoDB, MySQL, PostgreSQL, Redis, Memcached</li>
+<li><strong>Web Server</strong> Box Parts : Nginx, Apache2, Apache Portable Runtime</li>
+<li><strong>System Utility</strong> Box Parts : Ack, Ant, cmake, libmcrypt, Maven, The Silver Searcher</li>
+<li><strong>Other</strong> Box Parts : Composer for PHP, Image Magick, MeteorJS, PhantomJS, Tig</li>
+</ul>
+
+<h2 id="toc_3">Requesting Additional Box Parts</h2>
+
+<p>Any Codio users can request that the Codio team add additional Box Parts to the standard repository. Once added, it will become a standard item and available to all users.</p>
+
+<p>Codio subscribers will be given preference when it comes to adding new Box Parts.</p>
+
+<p>To request a new Box Part to be added to Codio, <a href="/s/docs/boxes/request-language">click here</a>.</p>
+
+<h2 id="toc_4">The &#39;parts&#39; Command Line tool</h2>
+
+<p>Using Box Parts is really easy. To start off with, open up a Terminal window from the &#39;Tools->Terminal&#39; menu item.</p>
+
+<p>If you enter <code>parts</code> on the command line, you will see something like this</p>
+
+<pre><code>usage: parts COMMAND [ARGS...]
+
+Some useful commands are:
+  parts install PACKAGE...   # Install one or many packages
+  parts uninstall PACKAGE... # Uninstall one or many packages
+  parts purge PACKAGE...     # Uninstall and remove leftover data
+  parts list                 # List all installed packages
+  parts search [SEARCH_TERM] # Search for a package or list all 
+  parts start PACKAGE...     # Start one or many services 
+  parts stop PACKAGE...      # Stop one or many services 
+  parts restart PACKAGE...   # Restart one or many services 
+  parts status [PACKAGE...]  # Show status of one or many services 
+  parts update               # Update Box Parts
+</code></pre>
+
+<h3 id="toc_5">Listing Available Box Parts</h3>
+
+<p>To list the available Box Parts, enter </p>
+
+<pre><code>`parts search`
+</code></pre>
+
+<p>If we add new Box Parts after you created your project, then you should refresh the list with <code>parts update</code>.</p>
+
+<p><code>parts search</code> will show you something like this (first few lines only)</p>
+
+<pre><code>ack (2.12)                   Ack: A tool like grep, optimized for ...
+ant (1.9.2)                  Ant: A pure Java build tool, simpler ...
+apache2 (2.4.7)              Apache Web Server: A cross-platform ...
+apr (1.5.0)                  Apache Portable Runtime: Software ...
+apr_util (1.5.3)             Apache Portable Runtime Utilities: ...
+cmake (2.8.11.2)             CMake: A cross-platform, open-source ...
+composer (1.0.0-alpha8)      Composer: PHP5 Dependency management
+...
+... etc
+...
+</code></pre>
+
+<h3 id="toc_6">Installing Box Parts</h3>
+
+<p>You can install one or more Box Parts as follows</p>
+
+<pre><code>parts install &lt;partname-1&gt; &lt;partname-2&gt; ... &lt;part-name-n&gt;
+</code></pre>
+
+<p>You will then see the installation taking place in the Console.</p>
+
+<h2 id="toc_7">Starting, Stopping and Restarting Services</h2>
+
+<p>Once you have installed a component, you may need to start it as a service.</p>
+
+<pre><code>parts start &lt;package-name&gt;
+parts restart &lt;package-name&gt;
+parts stop &lt;package-name&gt;
+</code></pre>
+
+<p>and to request the service status, use</p>
+
+<pre><code>parts status &lt;package-name&gt;
+parts status (lists the status of services provided by all installed packages)
+</code></pre>
+
+<p>When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as <a href="/s/docs/boxes/startup">described here</a>.</p>
+
+<h2 id="toc_8">Parts folder and config files</h2>
+
+<p>Box Parts installs things in a special location where you have full access and control</p>
+
+<pre><code>~/.parts
+</code></pre>
+
+<p>If you take a look inside that folder, you will find everything you are likely to need. Configuration files, for example, live in</p>
+
+<pre><code>~/.parts/etc
+</code></pre>
+
+<p>So to configure Apache, you would edit the <code>~/.parts/etc/apache2/httpd.conf</code> file (using Nano/Vim).</p>
+
+
+      
+    </article>
+
+  </div>
+
+  
+
+  
+
+
+      
+
+    </div>
+
+    <footer>
+  <div class="container clearfix">
+    <div>
+      <ul id="social-icons">
+        <li><a target="_blank" href="https://plus.google.com/u/0/b/107423236292333764300/107423236292333764300/posts"><span></span>Google+</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/pages/Codio/164778707006897?ref=hl"><span></span>Facebook</a></li>
+        <li><a target="_blank" href="https://twitter.com/codiohq"><span></span>Twitter</a></li>
+      </ul>
+    </div>
+
+    <div>
+      Copyright &copy; 2014 Application Craft Ltd.
+      &nbsp;&nbsp;
+      <a href="http://status.codio.com/" target="_blank">System Status</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="mailto:support@codio.com">Drop us a line...</a><br>
+      All rights reserved. Read our <a href="/s/legal/privacy">Privacy policy</a> and other <a href="/s/legal">Legalese</a>.
+    </div>
+
+    <div>
+      <a href="http://www.iloveopensource.io/orgs/523c6c7f861be70200000007" target="_blank">
+        <img width="90" alt="Codio is powered by Open Source. Click here to find out more..." src="../../../img/ilos-logo-darkbg-6a3ca213.png" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-33074654.js"><\/script>')</script>
+<script src="../../../js/main-fe53b93c.js" type="text/javascript"></script>
+
+    <script src="../../../js/vendor/rainbow-d8419893.js" type="text/javascript"></script>
+<script src="../../../js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
+<script src="../../../js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script>
+    <script src="../../../js/doc_search/base-9f784a72.js" type="text/javascript"></script>
+<script src="../../../js/vendor/turbolinks-182b8d16.js" type="text/javascript"></script>
+  
+
+  </body>
+</html>

@@ -49,12 +49,12 @@ body.features {
         font-size: 22px;
         margin-top: 38px;
         border-bottom: 1px solid #ccc;
-        text-transform: initial;
+        text-transform: none;
       }
 
       h2 {
         font: 29px gotham_medium;
-        text-transform: initial;
+        text-transform: none;
         color: #888;
         margin: 0;
       }
@@ -82,7 +82,7 @@ body.features {
         small {
           display: block;
           font: 14px gotham_light;
-          text-transform: initial;
+          text-transform: none;
           margin: 10px;
         }
       }
@@ -146,7 +146,7 @@ body.features {
         small {
           display: block;
           font: 14px gotham_light;
-          text-transform: initial;
+          text-transform: none;
           margin: 0px;
         }
       }

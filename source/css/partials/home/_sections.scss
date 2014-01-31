@@ -47,16 +47,62 @@ section {
     }
   }
 
+  &#overview {
+    .container > div {
+      background: transparent image-url('home/screens/home-lapscreen.png') no-repeat;
+      background-size: 100%;
+      height: 810px;
+      background-position: 0px 232px;
+      margin-left: 239px;
+      width: 720px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 60px 220px;
+        background-size: 88%;
+        height: 823px;
+        margin-left: 302px;
+        width: 875px;        
+      }
+
+      > div {
+        padding: 70px 0px 130px 24px;
+        width: 645px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 66px 0px 130px 78px;
+          width: 761px;
+        }
+
+        > iframe {
+          margin: 53px 0 0 0px;
+          width: 671px;
+          height: 416px;        
+          @include apply-to(more-than, desktop) {
+            margin: 47px 0 0 9px;
+            width: 716px;
+            height: 443px;
+          }
+        }
+      }
+
+    }
+  }
+
+
   &#ide {
     .container > div {
       background: transparent image-url('home/screens/home-ide.png') no-repeat;
-      background-size: 91%;
-      height: 840px;
-      background-position: 75px 328px;
+      background-size: 100%;
+      height: 780px;
+      background-position: 0px 218px;
+      margin-left: 250px;
+      width: 736px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 45px 325px;
-        background-size: 91%;
+        background-position: 0px 250px;
+        background-size: 100%;
+        margin-left: 302px;
+        width: 875px;
         height: 895px;
       }
 
@@ -70,10 +116,10 @@ section {
         }
 
         > div {
-          padding: 397px 0px 0px 193px;
+          padding: 450px 0px 0px 176px;
           width: 760px;
           @include apply-to(more-than, desktop) {
-              padding: 500px 0px 0px 236px;
+              padding: 537px 0px 0px 236px;
               width: 800px;
           }
         }

@@ -6,6 +6,8 @@ full_width: true
 
 As soon as you create a new project, it automatically gets a back-end box provisioned that is dedicated to that project.
 
+**IMPORTANT** : Codio Boxes are shut down when you exit your project. The good news is that they start so fast you won't even notice. Better news, we will be introducing Always On Boxes soon. Please [read about sleepy Boxes](/docs/boxes/sleep) first.
+
 This chapter covers the features provided by Boxes
 
 - [How to access the Box console or terminal](/docs/boxes/terminal)

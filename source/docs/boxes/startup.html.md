@@ -4,12 +4,46 @@ class_name: docs
 full_width: true
 ---
 
-When your Box starts up, by default services (such as Apache) will not be started. 
+Your Box will restart under these conditions
 
-To prevent you having to start services manually you can configure the file `startup.sh` in the root of your project to startup required services whenever your Box boots up. This file will typically contain something like this
+- when you exit and re-open a Codio project
+- when you select the 'Project->Restart Box' menu item
 
-	parts start <part-name-1>
-	parts start <part-name-2>
-	...
-	parts start <part-name-n>
+. In both these cases services (such as Apache) will not be started automatically.
+
+To prevent you having to start services manually each time you restart, you can configure the file `startup.sh` in the root of your project to startup required services whenever your Box boots up. This file will typically contain something like this
+
+	parts start apache2 myotherservice
+
+If you experience problems with auto starting (which should rarely happen) then you can add a parts stop line beforehand
+
+	parts stop apache2 myotherservice
+	parts start apache2 myotherservice
+
+This makes sure that all parts flags are cleared out beforehand.
+
+To check your services status type the following
+
+```bash
+workspace$ ps ax
+
+  PID TTY      STAT   TIME COMMAND                                                                                              
+    1 ?        Ss     0:00 /sbin/init 
+   12 ?        S      0:00 /sbin/plymouthd --mode=boot --attach-to-session 
+   15 ?        Ss     0:00 /usr/sbin/sshd -D             
+   19 ?        S      0:00 mountall --daemon                                                 
+  420 ?        Ss     0:00 /home/codio/.parts/packages/apache2/2.4.7/bin/httpd -k start    
+  421 ?        Sl     0:00 /home/codio/.parts/packages/apache2/2.4.7/bin/httpd -k start
+  449 ?        Sl     0:00 /home/codio/.parts/packages/apache2/2.4.7/bin/httpd -k start
+  477 ?        Sl     0:00 /home/codio/.parts/packages/apache2/2.4.7/bin/httpd -k start 
+  505 ?        Ss     0:00 sshd: codio [priv]
+  517 ?        S      0:00 sshd: codio@pts/0                                                    
+  518 pts/0    Ss     0:00 -bash                                                          
+  637 pts/0    R+     0:00 ps ax   
+```
+
+This is more reliable than `parts status`, which can sometimes incorrectly report the status.
+
+You can use `kill <PID>` to stop a process from the command line.
+
 

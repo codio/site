@@ -7,6 +7,7 @@ class_name: home
 
 <aside class="home">
   <ul>
+    <li><a href="#overview">How It Works</a></li>  	
     <li><a href="#ide">The IDE</a></li>
     <li><a href="#boxes">Boxes</a></li>
     <li><a href="#box-parts">Box Parts</a></li>
@@ -17,6 +18,8 @@ class_name: home
 </aside>
 
 <%= partial "partials/landing_pages/#{current_page.metadata[:locals][:lp]}" if current_page.metadata[:locals][:lp] %>
+
+<%= partial 'partials/home/overview' %>
 
 <%= partial 'partials/home/ide' %>
 
@@ -29,6 +32,7 @@ class_name: home
 <%= partial 'partials/home/integrated' %>
 
 <%= partial 'partials/home/tutorials' %>
+
 
 <% content_for :foot do %>
   <%= javascript_include_tag 'home' %>

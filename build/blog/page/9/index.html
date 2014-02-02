@@ -1,0 +1,606 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      
+        Codio Blog
+      
+       - Codio
+    </title>
+
+    
+      <meta name="description" content="Codio is a powerful cloud and browser based IDE that covers the complete web development cycle; from prototype to deployment">
+    
+
+    
+      <meta name="keywords" content="mobile application development tools, mobile development platform, mobile application software, app development, app developments, applications, application, apps, tools, tool, platform, platforms, software, softwares, environment, android, html5, html 5, ios, ipad, iphone, desktop, windows, blackberry, smartphone, symbian" />
+    
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/s/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/s/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/s/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="/s/apple-touch-icon-precomposed.png" />
+    <link rel="shortcut icon" href="/s/favicon.png" />
+    <!-- should actually be placed in your root dir -->
+    <link rel="icon" type="image/ico" href="/s/favicon.ico" />
+
+    <link href="../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/boilerplate-f44d022b.css" media="screen" rel="stylesheet" type="text/css" />
+
+    
+
+    <link href="https://codio.com/s/blog/feed.xml" rel="alternate" title="Code and Unload - While we code we often have lots of ideas brewing around. Ideas we'd like to unload onto you" type="application/atom+xml"/>
+  </head>
+  <body class="blog" data-spy="scroll" data-target="aside">
+    <a id="top"></a>
+
+    <div class="wrap">
+
+      <nav>
+  <div class="container">
+
+    <nav class="clearfix">
+      <a data-no-turbolink="true" href="/"><img width="150" src="../../../img/logo-beta-a3a0a36b.png" /></a>
+
+      <ul id="site-nav">
+        <li><a data-no-turbolink="true" href="/s/features">Features</a></li>
+        <li><a data-no-turbolink="true" href="/s/pricing">Pricing</a></li>
+        <li><a data-no-turbolink="true" href="/s/docs">Docs</a></li>
+        <li><a data-no-turbolink="true" href="/s/blog">Blog</a></li>
+        <li><a target="_blank" data-no-turbolink="true" href="http://forum.codio.com">Forum</a></li>
+      </ul>
+
+      <ul class="codio-nav" id="signedout-nav">
+        <li><a href="/p/signup" data-no-turbolink="1">Try Now</a></li>
+        <li><a href="/p/login" data-no-turbolink="1">Sign In</a></li>
+        <li><a href="/p/signup" data-no-turbolink="1">Sign Up</a></li>
+      </ul>
+
+      <ul class="codio-nav" id="signedin-nav">
+        <li><a id="userlink" href="/" data-no-turbolink="1"></a></li>
+        <li>
+          <a id="gravatar" href="/" data-no-turbolink="1">
+            <img src="" width="32" height="32" alt="">
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</nav>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-39233819-4', 'codio.com');
+    ga('send', 'pageview');
+  </script>
+
+  <script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+  typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+  b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+  mixpanel.init("6533a0b0b384c69b12a6426fd49a1abf");</script>
+
+  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',(typeof intercomSettings === 'undefined' ? {} : intercomSettings));}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://static.intercomcdn.com/intercom.v1.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()</script>
+
+
+      
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="blog-categories" class="blog-cat-all">
+  <div class="container">
+    <ul>
+      <li><a href="/s/blog/all">All posts</a></li>
+      
+        <li><a href="/s/blog/tags/changelog/">Changelog</a></li>
+      
+        <li><a href="/s/blog/tags/engineering/">Engineering</a></li>
+      
+        <li><a href="/s/blog/tags/from-the-front-line/">From the Front Line</a></li>
+      
+        <li><a href="/s/blog/tags/watercooler/">Watercooler</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="container clearfix">
+
+  <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/07/from-the-frontline-14/">July 29, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-14/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/07/from-the-frontline-14/">From the Front-line - #14</a></h1>
+
+        
+        <p>Bigger and better than evaarrrr...</p>
+
+<ul>
+<li><p>The guys at <a href="http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/">MailGun just released a nifty little API to allow you to validate email</a> quickly and easily. Not so sure it&#39;s actually that hard to do, and requires an API, but could be useful - maybe.</p></li>
+<li><p>Great collection of really useful Chrome <a href="http://bgrins.github.io/devtools-snippets/">DevTools snippets</a>.</p></li>
+<li><p>A very detailed article on the mad world of <a href="http://raganwald.com/2013/07/27/Ive-always-been-mad.html">scoping in Javascript and Coffeescript</a>.</p></li>
+<li><p>Need to quickly wireframe your mobile app? Check out <a href="http://www.pentotype.com/">Pentotype</a>, which has a great looking pencil-drawn UI.</p></li>
+<li><p><a href="http://visionmedia.github.io/move.js/">Move.js</a> is a nice little Javascript library &quot;making CSS3 backed animation extremely simple and elegant&quot; from the <a href="https://github.com/visionmedia">genius</a> that bought you Express, Jade and Mocha.</p></li>
+<li><p>I really like the look of <a href="http://jspm.io/">jspm.io</a>, which is a browser based module loader that will load any module format locally or even directly from NPM or Github - nice!</p></li>
+<li><p><a href="http://getbootstrap.com/">Bootstrap 3</a> makes an early appearance with its first release candidate.</p></li>
+<li><p>The guys at <a href="https://shop.stripe.com/">Stripe have created an online store</a> where you can buy Stripe branded clothing. But it&#39;s the tiny UI touches on this site that are simply brilliant. Add something to the shopping basket, checkout but leave the form blank to see a great way to provide feedback on an incorrect form submission.</p></li>
+</ul>
+
+<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-14/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #14">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-14/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-14/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/07/from-the-frontline-13/">July 26, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-13/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/07/from-the-frontline-13/">From the Front-line - #13</a></h1>
+
+        
+        <p>Lovin&#39; it...</p>
+
+<ul>
+<li><p><a href="https://github.com/jehna/VerbalExpressions">VerbalExpressions</a> is a very interesting alternative to regular expression matching in Javascript, by providing a DSL style API.</p></li>
+<li><p><a href="http://mbradshawabs.github.io/ajaxreplay/">Ajax Replay</a> is a great way to test your Ajax API calls by replaying your actual Ajax calls. If you know the VCR Ruby Gem, this is a similar thing but for Javascript.</p></li>
+<li><p>Now this is freakin&#39; awesome! In fact, they are <a href="http://labs.jaredhardy.com/minimal-devices/">Awesome devices built in HTML and CSS</a>. No images to see here.</p></li>
+<li><p><a href="http://bone.io/">Bone.io</a> is a lightweight framework for building high performance Realtime Single Page HTML5 Apps. I think we may have heard that one before, but this one seems to centred around WebSockets instead of traditional Ajax.</p></li>
+<li><p>Nice <a href="http://matthewlehner.net/ember-js-routing-and-views">article</a> attempting to simplify and explain Ember.js&#39;s routing and rendering.</p></li>
+</ul>
+
+<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-13/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #13">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-13/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-13/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/07/from-the-frontline-12/">July 25, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-12/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/07/from-the-frontline-12/">From the Front-line - #12</a></h1>
+
+        
+        <p>Short and sweet...</p>
+
+<ul>
+<li><p><a href="https://github.com/padolsey/operative">Operative</a> is a small JS utility for seamlessly creating Web Worker scripts.</p></li>
+<li><p><a href="http://zachholman.com/talk/more-git-and-github-secrets/">More Git and Github secrets</a> from Zach Holman.</p></li>
+<li><p>An old one, but this <a href="http://chrisawren.com/posts/Advanced-Grunt-tooling">post on advanced Grunt tooling</a> is a must read if you use Grunt - which of course you doing so. Aren&#39;t you!?</p></li>
+<li><p>The guys behind <a href="http://topcoat.io/">Topcoat</a> have integrated the <a href="http://h5bp.github.io/Effeckt.css/dist/">Effeckt.css library</a>. Just <a href="http://topcoat.io/Topcoat-Effeckt.css/dist/buttons.html">a</a> <a href="http://topcoat.io/Topcoat-Effeckt.css/dist/list-scroll.html">few</a> <a href="http://topcoat.io/Topcoat-Effeckt.css/dist/modals.html">demos</a>, but nice nonetheless.</p></li>
+</ul>
+
+<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-12/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #12">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-12/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-12/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/07/from-the-frontline-11/">July 24, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-11/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/07/from-the-frontline-11/">From the Front-line - #11</a></h1>
+
+        
+        <p>I know, I know... I didn&#39;t do one yesterday. No matter, coz&#39; this one&#39;s a good one!</p>
+
+<ul>
+<li><p>Nifty little tool to encourage you to <a href="http://embedresponsively.com/">Embed Responsibly</a>. Enter a Youtube URL or some other embeddable URL, and watch in amazement as it spits out the <strong>HTML5 friendly, embeddable code</strong>.</p></li>
+<li><p><strong><a href="http://bower.io/">Bower</a> hits a final 1.0 release</strong>, so go check out the <a href="https://github.com/bower/bower/blob/master/CHANGELOG.md">changelog</a>.</p></li>
+<li><p>Moving fast doesn&#39;t always work out quite so well, and this <a href="http://kenneth.io/blog/2013/07/15/the-messy-state-of-web-notifications-in-chrome-safari-blink-webkit/">article</a> about the the <strong>messy state of Web Notifications in Blink and Webkit</strong> demonstrates this.</p></li>
+<li><p>I <a href="https://twitter.com/joelmoss/status/359813361749327872">tweeted</a> this one yesterday because I was quite excited about it. <strong><a href="http://getuikit.com/">UIKit</a> is another Bootstrap style front-end framework</strong>. I know, but hear me out on this one. It&#39;s actually pretty good, and very modular. So you can really pick and choose what you want to use. It&#39;s pretty comprehensive too.</p></li>
+<li><p>In keeping with the above, InsertHTML posted an <strong>interested <a href="http://www.inserthtml.com/2013/07/bootstraps-and-web-kits-enemy-or-efficient/">write up</a> on the various front-end frameworks available</strong>. Are they friend or foe?</p></li>
+<li><p><a href="https://github.com/jsoverson/plato">Plato</a> is a Node library that will <strong>scan your Javascript source code and provide a bunch of reports that visualize its complexity</strong>. We ran it against the Codio source, and were pleasantly surprised.</p></li>
+<li><p><strong>Want multiple inheritance in Javascript?</strong> <a href="http://ringjs.neoname.eu/">Ring.js</a> may just be what you&#39;re looking for.</p></li>
+<li><p>Alex Maccaw posted a <a href="http://blog.alexmaccaw.com/seo-in-js-web-apps">succinct article</a> all about <strong>SEO in Javascript web apps</strong>.</p></li>
+<li><p>And finally... <strong>remember Firebug Lite?</strong> <a href="http://gal.steinitz.com/blog/2013/07/19/remember-firebug-lite/">Gal Steinitz wants to resurrect it</a>.</p></li>
+</ul>
+
+<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-11/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #11">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-11/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-11/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/07/from-the-frontline-10/">July 22, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-10/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/07/from-the-frontline-10/">From the Front-line - #10</a></h1>
+
+        
+        <p>I neglected to post on Friday, so today is a bumper double issue thingy...</p>
+
+<ul>
+<li><p>Need to <strong>track and report on your Javascript exceptions</strong>? You won&#39;t get better than <a href="http://errorception.com/">Errorception</a>, which we use ourselves.</p></li>
+<li><p>Like JSHint? Then you should love <a href="http://www.nczonline.net/blog/2013/07/16/introducing-eslint/">ESHint</a>, which is a <strong>linting tool where all rules are pluggable</strong>.</p></li>
+<li><p>Need to <strong>expand and collapse blocks of text</strong> with a link? Check out <a href="http://jedfoster.github.io/Readmore.js/">ReadMore.js</a>.</p></li>
+<li><p>Oh look! <strong>Another &quot;Bootstrap wannabe&quot; CSS framework</strong>, this time called <a href="http://cardinalcss.com/">Cardinal</a>, which apparently is small and mobile first.</p></li>
+<li><p><a href="http://abe33.github.io/spectacular/">Spectacular</a> is a good looking <strong><a href="http://rspec.info/">RSpec</a> inspired BDD framework</strong> for Javascript and CoffeeScript.</p></li>
+<li><p>Need to run <strong>A/B tests</strong>? <a href="http://srom.github.io/easyAB/">easyAB</a> is a jQuery/Zepto plugin may be just want you need.</p></li>
+<li><p>Give users <strong>real time hints and progress updates as they complete your forms</strong> with <a href="http://git.aaronlumsden.com/progression/">Progression.js</a>.</p></li>
+<li><p>WebRTC is one of the most technically advanced offerings to become built right into the browser. <strong><a href="http://simplewebrtc.com/">simpleWebRTC</a> might just make it a little easier</strong> to implement.</p></li>
+<li><p>Great article <strong><a href="http://www.2ality.com/2013/07/defending-constructors.html">In defence of Javascript&#39;s Constructors</a></strong>.</p></li>
+</ul>
+
+<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-10/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #10">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-10/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-10/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/07/from-the-frontline-9/">July 18, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/07/from-the-frontline-9/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/07/from-the-frontline-9/">From the Front-line - #9</a></h1>
+
+        
+        <p>Here&#39;s today&#39;s juicy bundle of links...</p>
+
+<ul>
+<li><p>I mentioned the emerging <strong><a href="http://h5bp.github.io/Effeckt.css/dist/">Effekt.css</a></strong> back in issue #1, but it seems they&#39;ve been busy and we now have a good number of <a href="http://h5bp.github.io/Effeckt.css/dist/">effects</a> ready to go.</p></li>
+<li><p>While researching ways to improve Codio&#39;s own internal <strong>Javascript routing</strong> system, I came across <a href="https://github.com/tildeio/router.js">Router.js</a>, which is the router that <a href="http://emberjs.com/">EmberJS</a> uses. It&#39;s a very thorough implementation.</p></li>
+<li><p>Lots of talk around <strong>ES6</strong>, the next version of EcmaScript (Javascript), but this <a href="http://www.slideshare.net/domenicdenicola/es6-the-awesome-parts">slideshow</a> talks about <strong>the awesome parts</strong>.</p></li>
+<li><p><a href="https://github.com/sindresorhus/screenfull.js">screenfull.js</a> is a tiny wrapper for <strong>cross-browser usage of the Javascript fullscreen API</strong>, which lets you bring the page or any element into fullscreen.</p></li>
+<li><p><a href="http://the-taylors.org/blog/2013/07/01/how-will-i-keep-javascript-code-quality-hight-jshint/">Nice post</a> by our friend Dave Taylor on the awesomeness that is <strong>JSHint</strong>.</p></li>
+<li><p><a href="http://bunkat.github.io/later/">Later.js</a> claims to be the <strong>simplest way to work with recurring schedules</strong>. If you&#39;re only talking about Javascript, then they&#39;re probably right.</p></li>
+</ul>
+
+<p>My goal is to publish every week day, so I would appreciate any help. If you find anything that you think would deserve a place in future issues, please <a href="mailto:jmoss@codio.com">let me know</a>.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/07/from-the-frontline-9/" data-via="codiohq" data-size="small" data-count="none" data-text="From the Front-line - #9">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/07/from-the-frontline-9/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/07/from-the-frontline-9/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
+    
+
+    
+      <section class="pagination clearfix">
+        
+          <p><a href="/s/blog/page/10/">&laquo; older posts</a></p>
+        
+        
+          <p><a href="/s/blog/page/8/">newer posts &raquo;</a></p>
+        
+      </section>
+    
+  </section>
+
+
+  <aside>
+    <section class="all-posts">
+      <h5><a href="https://codio.com/s/blog/feed.xml" target="_blank"><img size="14x14" src="../../../img/feed-icon-fd8211de.png" />Subscribe</a></h5>
+    </section>
+
+    <section class="latest-posts">
+      <h4>on this page...</h4>
+      <ul>
+        
+          
+          <li><a href="/s/blog/2013/07/from-the-frontline-14/">From the Front-line - #14</a></li>
+        
+          
+          <li><a href="/s/blog/2013/07/from-the-frontline-13/">From the Front-line - #13</a></li>
+        
+          
+          <li><a href="/s/blog/2013/07/from-the-frontline-12/">From the Front-line - #12</a></li>
+        
+          
+          <li><a href="/s/blog/2013/07/from-the-frontline-11/">From the Front-line - #11</a></li>
+        
+          
+          <li><a href="/s/blog/2013/07/from-the-frontline-10/">From the Front-line - #10</a></li>
+        
+          
+          <li><a href="/s/blog/2013/07/from-the-frontline-9/">From the Front-line - #9</a></li>
+        
+      </ul>
+    </section>
+
+    
+      <section class="latest-posts">
+        <h4>Latest posts...</h4>
+        <ul>
+          
+            <li><a href="/s/blog/2014/01/server-side-development/">Server Side Development in Codio</a></li>
+          
+            <li><a href="/s/blog/2014/01/subscriptions/">Paid Subscriptions</a></li>
+          
+            <li><a href="/s/blog/2014/01/happy-new-year/">Happy New Year</a></li>
+          
+            <li><a href="/s/blog/2013/12/tab-cycling/">Tab Cycling</a></li>
+          
+        </ul>
+      </section>
+    
+
+    <div style="margin:35px 0 0 25px;">
+      <a href="https://twitter.com/codiohq" class="twitter-follow-button" data-size="medium" data-show-count="false" data-lang="en">Follow us @codiohq</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+
+    
+      <section class="latest-posts">
+        <ul>
+          <li><strong><a href="/s/blog/all">All posts...</a></strong></li>
+          
+            <li><a href="/s/blog/page/10/">&laquo; older posts</a></li>
+          
+          
+            <li><a href="/s/blog/page/8/">newer posts &raquo;</a></li>
+          
+        </ul>
+      </section>
+    
+
+  </aside>
+</div>
+
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'codio'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+<script src="../../../js/vendor/rainbow-d8419893.js" type="text/javascript"></script>
+<script src="../../../js/vendor/rainbow/linecount-9917b5c1.js" type="text/javascript"></script>
+<script src="../../../js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
+<script src="../../../js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script><link href="../../../css/lib/rainbow/github-453e79e9.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../css/lib/rainbow/linecount-9a1155c4.css" media="screen" rel="stylesheet" type="text/css" />
+      
+
+    </div>
+
+    <footer>
+  <div class="container clearfix">
+    <div>
+      <ul id="social-icons">
+        <li><a target="_blank" href="https://plus.google.com/u/0/b/107423236292333764300/107423236292333764300/posts"><span></span>Google+</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/pages/Codio/164778707006897?ref=hl"><span></span>Facebook</a></li>
+        <li><a target="_blank" href="https://twitter.com/codiohq"><span></span>Twitter</a></li>
+      </ul>
+    </div>
+
+    <div>
+      Copyright &copy; 2014 Application Craft Ltd.
+      &nbsp;&nbsp;
+      <a href="http://status.codio.com/" target="_blank">System Status</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="mailto:support@codio.com">Drop us a line...</a><br>
+      All rights reserved. Read our <a href="/s/legal/privacy">Privacy policy</a> and other <a href="/s/legal">Legalese</a>.
+    </div>
+
+    <div>
+      <a href="http://www.iloveopensource.io/orgs/523c6c7f861be70200000007" target="_blank">
+        <img width="90" alt="Codio is powered by Open Source. Click here to find out more..." src="../../../img/ilos-logo-darkbg-6a3ca213.png" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-33074654.js"><\/script>')</script>
+<script src="../../../js/main-fe53b93c.js" type="text/javascript"></script>
+
+
+  </body>
+</html>

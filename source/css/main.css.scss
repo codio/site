@@ -140,23 +140,17 @@ img {
 }
 
 .links-big {
-  margin: 0px 70px 0 0;
-  border-top: 0px solid #eee;
-  padding-top: 25px;
+  padding-top: 45px;
 
   a {
-    font: 24px gotham_light;
-    margin-right: 20px;
+    font: 18px gotham_light;
     color: #DC7368;
     border-bottom: 2px solid #eee;
     padding-bottom: 3px;
 
     &:hover {
       border-bottom: 2px solid $red;
-    }
-
-    &:last-child {
-      margin-right: 0;
+      color: $red;
     }
   }
 }

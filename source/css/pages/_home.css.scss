@@ -40,7 +40,7 @@ body.home {
         // Tagline
         &:first-child {
           z-index: 2;
-          top: 60px;
+          top: 106px;
           left: 5px;
 
           @include apply-to(more-than, desktop) {
@@ -55,66 +55,38 @@ body.home {
             opacity: 0;
 
             span {
-              // "A"
+              display: block;
+
+              // "THE WORLD'S"
               &:nth-child(1) {
-                font: 34px gotham_thin;
+                font: 32px gotham_thin;
+                text-align: left;
+                margin-left: 100px;
+
                 @include apply-to(more-than, desktop) {
                   font-size: 36px;
                 }
               }
 
-              // "REMARKABLE"
+              // "MOST POWERFUL"
               &:nth-child(2) {
-                font: 64px gotham_thin;
+                font: 56px gotham_thin;
+                text-shadow: 0px 1px 3px #888;
+
                 @include apply-to(more-than, desktop) {
-                  font-size: 70px;
+                  font-size: 56px;
                 }
               }
 
               // "WEB IDE"
               &:nth-child(3) {
                 font: 100px gotham_black;
-                display: block;
-                line-height: 90px;
+
                 @include apply-to(more-than, desktop) {
                   font-size: 120px;
-                  line-height: 104px;
+                  line-height: 90px;
                 }
               }
-
-              // "WITH A"
-              &:nth-child(4) {
-                font: 24px gotham_thin;
-                display: block;
-                text-align: left;
-                margin: 18px 0px -48px 9px;
-                @include apply-to(more-than, desktop) {
-                  font-size: 28px;
-                }
-              }
-
-              // "A DEDICATED SERVER BOX
-              &:nth-child(5) {
-                display: block;
-                font: 49px gotham_black;
-                position: relative;
-                line-height: 70px;
-                @include apply-to(more-than, desktop) {
-                  line-height: 70px;                
-                  font-size: 56px;
-                }
-              }
-
-              // "For each and every project
-              &:nth-child(6) {
-                display: block;              
-                font: 29px gotham_thin;
-                margin-top: -2px;
-                @include apply-to(more-than, desktop) {
-                  font-size: 34px;
-                }
-              }
-
             }
           }
 
@@ -138,7 +110,7 @@ body.home {
               margin: 40px 0 0 -3px;
 
               @include apply-to(more-than, desktop) {
-                margin: 30px 0 0 39px;
+                margin: 40px 0 0 39px;
                 font-size: 25px;
               }
 

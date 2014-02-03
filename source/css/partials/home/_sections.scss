@@ -293,23 +293,30 @@ section {
 
   &#tutorials {
     .container {
-      background: transparent image-url("home/screens/home-node.png") no-repeat 598px;
+      background: transparent image-url("home/nodejs.png") no-repeat 598px;
       background-size: 372px;
 
       @include apply-to(more-than, desktop) {
-        background-size: 380px;
-        background-position: 768px;
+        background-position: 813px 111px;
+        background-size: 325px;
       }
 
       > div {
-        //background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-        background-size: 15px;
-        padding: 90px 280px 90px 0;
-        width: 326px;
+        padding: 70px 0px 130px 77px;
+        width: 640px;
 
         @include apply-to(more-than, desktop) {
-          width: 380px;
-          padding: 120px 474px 120px 0;
+          padding: 90px 0px 100px 20px;
+          margin-left: 50px;
+          width: 650px;
+        }
+
+        h2 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 16px;
         }
       }
     }

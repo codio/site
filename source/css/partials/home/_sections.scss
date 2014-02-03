@@ -103,16 +103,46 @@ section {
 
           ul {
             list-style: none;
-            margin: 25px 0 0 122px;
+            margin: 25px 0 0 0;
             padding: 0;
 
             li {
+              @include clearfix;
               list-style: none;
+              margin-left: 17px;
+              margin-bottom: 5px;
+
+              &.active,
+              &:hover {
+                @include even-section;
+
+                span {
+                  color: $red;
+                  font-family: gotham_book;
+                }
+              }
+
+              &.active {
+                border-right: 3px solid $red;
+              }
+
+              span {
+                float: left;
+                display: block;
+                width: 50px;
+                font: 12px gotham_book;
+                padding: 42px 0 0 50px;
+                line-height: 1.4em;
+                text-align: right;
+                color: #bbb;
+                font-family: gotham_thin;
+              }
 
               a {
+                float: left;
                 text-indent: -9999px;
                 display: block;
-                width: 130px;
+                width: 120px;
                 height: 130px;
                 background-size: 100%;
               }

@@ -216,6 +216,16 @@ section {
               height: 495px;
             }
           }
+
+          p {
+            text-align: right;
+            font: 14px gotham_medium;
+            margin: 36px 58px 0 0;
+
+            i {
+              color: $red;
+            }
+          }
         }
       }
     }

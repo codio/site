@@ -36,7 +36,11 @@ section {
   &#frontback {
     .container > div {
       @include clearfix;
-      padding: 94px 60px 70px;
+      padding: 94px 0 70px;
+
+      @include apply-to(more-than, desktop) {
+        padding: 94px 60px 70px;
+      }
 
       h2 {
         color: #333;
@@ -57,19 +61,20 @@ section {
 
       div {
         float: left;
-        width: 407px;
+        width: 375px;
 
-        &:first-child {
-
+        @include apply-to(more-than, desktop) {
+          width: 407px;
         }
 
         &:nth-child(2) {
-          width: 270px;
+          width: 230px;
           text-align: center;
           margin-top: 30px;
 
           @include apply-to(more-than, desktop) {
             margin-top: 20px;
+            width: 270px;
           }
         }
 
@@ -89,12 +94,21 @@ section {
         float: left;
 
         &:first-child {
-          width: 240px;
+          width: 175px;
           padding-right: 30px;
+
+          @include apply-to(more-than, desktop) {
+            width: 240px;
+          }
 
           h3 {
             text-align: right;
             color: #666;
+            font-size: 22px;
+
+            @include apply-to(more-than, desktop) {
+              font-size: 24px;
+            }
           }
 
           h4 {
@@ -109,8 +123,11 @@ section {
             li {
               @include clearfix;
               list-style: none;
-              margin-left: 17px;
               margin-bottom: 5px;
+
+              @include apply-to(more-than, desktop) {
+                margin-left: 17px;
+              }
 
               &.active,
               &:hover {
@@ -131,48 +148,73 @@ section {
                 display: block;
                 width: 50px;
                 font: 12px gotham_book;
-                padding: 42px 0 0 50px;
+                padding: 25px 10px 0 15px;
                 line-height: 1.4em;
                 text-align: right;
                 color: #bbb;
                 font-family: gotham_thin;
+
+                @include apply-to(more-than, desktop) {
+                  padding: 42px 0 0 50px;
+                }
               }
 
               a {
                 float: left;
                 text-indent: -9999px;
                 display: block;
-                width: 120px;
-                height: 130px;
+                width: 97px;
+                height: 98px;
                 background-size: 100%;
+
+                @include apply-to(more-than, desktop) {
+                  width: 120px;
+                  height: 130px;
+                }
               }
 
               #ruby-select {
                 background: transparent image-url('home/page_ruby_128.png') no-repeat;
+                background-size: 100%;
               }
 
               #nodejs-select {
                 background: transparent image-url('home/page_javascript_128.png') no-repeat;
+                background-size: 100%;
               }
 
               #php-select {
                 background: transparent image-url('home/page_php_128.png') no-repeat;
+                background-size: 100%;
               }
             }
           }
         }
 
         &:last-child {
-          width: 878px;
+          width: 747px;
           background: transparent image-url('home/video_mac.png') no-repeat;
-          background-size: 1099px 900px;
-          background-position: -59px -106px;
-          height: 700px;
-          padding: 42px 0 0 76px;
+          background-size: 979px 804px;
+          background-position: -91px -106px;
+          height: 545px;
+          padding: 27px 0 0 26px;
+
+          @include apply-to(more-than, desktop) {
+            width: 878px;
+            background-size: 1099px 900px;
+            background-position: -59px -106px;
+            height: 615px;
+            padding: 42px 0 0 76px;
+          }
 
           iframe {
-            width: 805px;
-            height: 495px;
+            width: 723px;
+            height: 444px;
+
+            @include apply-to(more-than, desktop) {
+              width: 805px;
+              height: 495px;
+            }
           }
         }
       }
@@ -193,17 +235,26 @@ section {
 
         &:first-child {
           width: 214px;
-          padding: 0 60px;
+          padding-right: 60px;
+
+          @include apply-to(more-than, desktop) {
+            padding-left: 60px;
+          }
         }
 
         &:last-child {
-          width: 820px;
+          width: 706px;
           background: transparent image-url('home/screens/home-todomvc.png') no-repeat;
           background-size: 100%;
-          height: 508px;
+          height: 437px;
           @include box-shadow(0px 3px 24px #666);
           border-radius: 6px;
-          margin-right: 70px;
+
+          @include apply-to(more-than, desktop) {
+            margin-right: 70px;
+            width: 820px;
+            height: 508px;
+          }
         }
       }
     }
@@ -211,8 +262,8 @@ section {
 
   &#boxes {
     .container {
-      background: transparent image-url("home/screens/home-boxes.png") no-repeat 670px 100px;
-      background-size: 290px 200px;
+      background: transparent image-url("home/screens/home-boxes.png") no-repeat 670px 114px;
+      background-size: 290px 280px;
 
       @include apply-to(more-than, desktop) {
         background-position: 813px 111px;
@@ -220,7 +271,7 @@ section {
       }
 
       > div {
-        padding: 70px 0px 130px 77px;
+        padding: 70px 0px 80px 0;
         width: 640px;
 
         @include apply-to(more-than, desktop) {
@@ -234,9 +285,8 @@ section {
 
   &#box-parts {
     .container > div {
-      background: transparent image-url('home/screens/home-parts.png') no-repeat 200px 200px;
+      background: transparent image-url('home/screens/home-parts.png') no-repeat 0 94px;
       background-size: 39%;
-      width: 1134px;
 
       @include apply-to(more-than, desktop) {
         background-position: 66px 111px;
@@ -244,8 +294,8 @@ section {
       }
 
       > div {
-        padding: 130px 0 130px 320px;
-        width: 390px;
+        padding: 80px 0 90px 470px;
+        width: 500px;
 
         @include apply-to(more-than, desktop) {
           padding: 89px 0px 100px 77px;
@@ -259,7 +309,7 @@ section {
   &#speed {
     .container {
       background: transparent image-url("home/screens/speed.png") no-repeat 670px;
-      background-size: 290px 200px;
+      background-size: 33%;
 
       @include apply-to(more-than, desktop) {
         background-position: 813px 111px;
@@ -267,7 +317,7 @@ section {
       }
 
       > div {
-        padding: 70px 0px 130px 77px;
+        padding: 70px 0px 80px 0;
         width: 640px;
 
         @include apply-to(more-than, desktop) {
@@ -282,8 +332,8 @@ section {
   &#integrated {
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/bower.png') no-repeat -238px center;
-      background-size: 78%;
+      background: transparent image-url('home/screens/bower.png') no-repeat -121px center;
+      background-size: 54%;
 
       @include apply-to(more-than, desktop) {
         background-position: -120px center;
@@ -293,14 +343,14 @@ section {
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 14px;
-        padding: 130px 0 130px 320px;
-        width: 470px;
+        background-size: 11px;
+        padding: 130px 0 130px 520px;
+        width: 460px;
 
         @include apply-to(more-than, desktop) {
           width: 500px;
           background-size: 12px;
-          padding-left: 595px;
+          padding: 130px 0 130px 595px;
         }
 
         ul {
@@ -323,8 +373,8 @@ section {
 
   &#tutorials {
     .container {
-      background: transparent image-url("home/nodejs.png") no-repeat 598px;
-      background-size: 372px;
+      background: transparent image-url("home/nodejs.png") no-repeat 647px 109px;
+      background-size: 33%;
 
       @include apply-to(more-than, desktop) {
         background-position: 813px 111px;
@@ -332,7 +382,7 @@ section {
       }
 
       > div {
-        padding: 70px 0px 130px 77px;
+        padding: 70px 0px 100px 0;
         width: 640px;
 
         @include apply-to(more-than, desktop) {

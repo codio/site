@@ -7,7 +7,11 @@ body.home {
   }
 
   .wrap nav nav > a {
-    margin-left: 40px;
+    margin-left: 0;
+
+    @include apply-to(more-than, desktop) {
+      margin-left: 40px;
+    }
   }
 
   #site-nav {
@@ -70,21 +74,22 @@ body.home {
 
               // "MOST POWERFUL"
               &:nth-child(2) {
-                font: 56px gotham_thin;
+                font: 52px gotham_thin;
                 text-shadow: 0px 1px 3px #888;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 56px;
+                  margin-right: 0;
                 }
               }
 
               // "WEB IDE"
               &:nth-child(3) {
-                font: 100px gotham_black;
+                font: 112px gotham_black;
+                line-height: 90px;
 
                 @include apply-to(more-than, desktop) {
                   font-size: 120px;
-                  line-height: 90px;
                 }
               }
             }

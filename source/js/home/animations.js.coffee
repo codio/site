@@ -18,3 +18,16 @@ $ ->
         opacity: 1
         duration: 1000
         delay: 2500
+
+
+    # Language selector
+    $('#languages li a').on 'click', ->
+        ele = $(@)
+        iframe = $('#languages iframe')
+        src = iframe.attr('src').replace /[0-9]+/, ele.attr('href').replace('#', '')
+        iframe.attr 'src', src
+
+        ele.parents('ul').find('li').removeClass 'active'
+        ele.parent().addClass 'active'
+
+        false

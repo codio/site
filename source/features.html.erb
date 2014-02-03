@@ -14,175 +14,47 @@ class_name: features
     </div>
   </header>
 
+  <div class="feature-list">
+    <h3>IDE Features</h3>
+    <ul>
+      <li><a href="#" class="active">Abbreviations</a></li>
+      <li><a href="#">Snippets</a></li>
+      <li><a href="#">AutoComplete</a></li>
+      <li><a href="#">Panels &amp; Tabs</a></li>
+      <li><a href="#">Command Bar</a></li>
+      <li><a href="#">Quick Open</a></li>
+      <li><a href="#">Keyboard Shortcuts</a></li>
+      <li><a href="#">Beautification</a></li>
+      <li><a href="#">Linting</a></li>
+      <li><a href="#">Bower</a></li>
+      <li><a href="#">File Templates</a></li>
+      <li><a href="#">Importing</a></li>
+      <li><a href="#">SSH</a></li>
+      <li><a href="#">Deployment</a></li>
+    </ul>
+  </div>
 
-  <section class="first">
-    <h2>Abbreviations<small><a href="/docs/emmet/emmet-abbreviations/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>There is a very wide range of shortcuts available for HTML, CSS and Javascript. You simply enter the abbreviation in the Code Editor and then press the Tab key to expand the abbreviation. Take a look at the example below.</p>
-    </article>
+  <div class="feature-list">
+    <h3>Box Features</h3>
+    <ul class="feature-list">
+      <li><a href="#">Boxes</a></li>
+      <li><a href="#">Speed</a></li>
+      <li><a href="#">Terminal</a></li>
+      <li><a href="#">Box Parts</a></li>
+    </ul>
+  </div>
 
-    <span>
-      <canvas id="abbreviations_target" class="abbreviations_target" width="854" height="479">
-        <div id="abbreviations_fallback" class="abbreviations_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/abbreviations_thumb.png", :width => 854, :height => 479 %>
+  <section id="feature-video">
+    <div>
+      <iframe src="//player.vimeo.com/video/85626827?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
   </section>
-
-  <section>
-    <h2>Command Bar<small><a href="/docs/command-bar/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>The Command Bar lets you access almost every Codio command with a single keyboard shortcut. You simply type the command you want to run and it autocompletes the list for you. It's a great place to look up keyboard shortcuts without having to explore the menu or documentation.</p>
-      <p>The example below shows how a user toggles the line wrapping (which can also be done with a dedicated keyboard shortcut).</p>
-    </article>
-
-    <span>
-      <canvas id="command_target" class="command_target" width="854" height="479">
-        <div id="command_fallback" class="command_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/command_thumb.png", :width => 854, :height => 479 %>
-  </section>
-
-  <section>
-    <h2>Panels &amp; Tabs<small><a href="/docs/panels/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>You can create any panel configuration you want for both code editing and also other features (such as SSH, Bower, Deployment etc.).</p>
-      <p>This gives you complete control over the layout of your project. Whenever you leave you project, the panel configuration is saved and reloaded when you come back to it.</p>
-      <p>You can open multiple tabs within a panel. You can drag tabs from one panel to another and you can switch tabs using the keyboard using `Alt+Shift+&gt;` and `Alt+Shift+&lt;`</p>
-    </article>
-    <span>
-      <canvas id="panels_target" class="panels_target" width="854" height="479">
-        <div id="panels_fallback" class="panels_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/panels_thumb.png", :width => 854, :height => 479 %>
-  </section>
-
-  <section>
-    <h2>Keyboard Shortcuts<small><a href="/docs/emmet/emmet-actions/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>Codio has over 80 actions that can be invoked with a keyboard shortcut. If you are used to Sublime, Vim or Textmate then you won't be disappointed.</p>
-      <p>All keyboard shortcuts can be overriden in the Settings screen.</p>
-    </article>
-    <span>
-      <canvas id="shortcuts_target" class="shortcuts_target" width="854" height="479">
-        <div id="shortcuts_fallback" class="shortcuts_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/shortcuts_thumb.png", :width => 854, :height => 479 %>
-  </section>  
-
-  <section>
-    <h2>Quick Open<small><a href="/docs/ide/ide-general/quick-open/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>Quick Open is a great way of opening files without the need to access the file tree. You can start typing the name of a file and as you type, the list will narrow down. You can then select the file you want using the mouse or use the keyboard.</p>
-    </article>
-    <span>
-      <canvas id="open_target" class="open_target" width="854" height="479">
-        <div id="open_fallback" class="open_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/open_thumb.png", :width => 854, :height => 479 %>
-  </section>
-
-  <section>
-    <h2>Beautify<small><a href="/docs/ide-beautify/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>Beautify your HTML, CSS and JS code (entire file or selected block) with a single key press. You customize over 20 individual settings to get the exact format you're after.</p>
-    </article>
-    <span>
-      <canvas id="beautify_target" class="beautify_target" width="854" height="479">
-        <div id="beautify_fallback" class="beautify_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/beautify_thumb.png", :width => 854, :height => 479 %>
-  </section>
-
-  <section>
-    <h2>Linting &amp; Folding<small><a href="/docs/settings-prefs/codio-prefs/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>Codio is full of really powerful little features. The example animation below shows a couple of these - code-folding and linting - in action.</p>
-    </article>
-    <span>
-      <canvas id="wraplint_target" class="wraplint_target" width="854" height="479">
-        <div id="wraplint_fallback" class="wraplint_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/wraplint_thumb.png", :width => 854, :height => 479 %>
-  </section>
-
-  <section>
-    <h2>Bower<small><a href="/docs/bower/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>We've built Bower right into the IDE to make things a bit easier for you. You can search through Bower packages and then click to install. You can also update and remove your Bower components.</p>
-    </article>
-    <span>
-      <canvas id="bower_target" class="bower_target" width="854" height="479">
-        <div id="bower_fallback" class="bower_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/bower_thumb.png", :width => 854, :height => 479 %>
-  </section>
-
-  <section>
-    <h2>Templates<small><a href="/docs/ide/ide-general/templates/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>Codio provides a template management system so when you create new files of differeing types, a code stub us automatically inserted into the new file. There various tokens such as date, time, project name etc. Everything is editable and you can add your own.</p>
-    </article>
-    <span>
-      <canvas id="templates_target" class="templates_target" width="854" height="479">
-        <div id="templates_fallback" class="templates_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/templates_thumb.png", :width => 854, :height => 479 %>
-  </section>  
-
-  <section>
-    <h2>Import<small><a href="/docs/console/creating/"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>Create new projects from templates or import them from Git, Mercurial, (S)FTP or ZIP files.</p>
-    </article>
-    <span>
-      <canvas id="import_target" class="import_target" width="854" height="479">
-        <div id="import_fallback" class="import_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/import_thumb.png", :width => 854, :height => 479 %>
-  </section>    
-
-  <section>
-    <h2>SSH<small><a href="/docs/ssh"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>The SSH manager allows you to create and manage SSH connections to any number of remote servers. You can even upload your Codio SSH key straight to the remote server with a single button press.</p>
-    </article>
-    <span>
-      <canvas id="ssh_target" class="ssh_target" width="854" height="479">
-        <div id="ssh_fallback" class="ssh_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/ssh_thumb.png", :width => 854, :height => 479 %>
-  </section>  
-
-  <section>
-    <h2>Deployment<small><a href="/docs/deployment"><i class="icon-file"></i> read the docs</a></small></h2>
-    <article>
-      <p>The Deployment manager lets you create and manage any number of remote deployment targets. We currently support Git, FTP, SFTP, RSYNC, Nodejitsu and Parse targets.</p>
-      <p>Once set up, you can deploy to your deployment targets with a single button click. Take a look at the animation below.</p>
-    </article>
-    <span>
-      <canvas id="deploy_target" class="deploy_target" width="854" height="479">
-        <div id="deploy_fallback" class="deploy_target" style="width: 854px; height: 479px; position: relative;"></div>
-      </canvas>
-    </span>
-    <%= image_tag "features/animated_pngs/deploy_thumb.png", :width => 854, :height => 479 %>
-  </section>    
 
 <!-- STILL TO DO ------------------ -->
 <!-- TERN                           -->
 <!--                                -->
 
-  <header>
+<!--   <header>
     <div>
       <h2>And some other cool features...</h2>
     </div>
@@ -220,10 +92,11 @@ class_name: features
     <article>
       <p>Chrome users are able to drag and drop files from their desktop right into the Codio IDE at any point you require in the File Tree..</p>
     </article>
-  </addtnl>
+  </addtnl> -->
 
 
 </div>
 
-<%= javascript_include_tag 'animations' %>
-
+<% content_for :foot do %>
+  <%= javascript_include_tag 'features' %>
+<% end %>

@@ -32,12 +32,12 @@ body.features {
 
         &:first-child {
           width: 400px;
-          margin: 40px 0 0 10px;
+          margin: 40px 0 0 30px;
         }
 
         &:last-child {
           margin-top: 20px;
-          width: 450px;
+          width: 500px;
         }
       }
 
@@ -60,63 +60,56 @@ body.features {
       }
     }
 
-    section {
-      margin: 40px 14px 50px;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 40px;
-
-      &.first {
-        margin-top: 0;
+    .feature-list {
+      h3 {
+        border-bottom: 2px solid #eee;
+        margin: 0 0 10px;
+        font: 16px gotham_light;
+        color: #888;
+        padding-bottom: 3px;
+        text-align: center;
+        letter-spacing: 6px;
       }
 
-      &.last {
-        margin-bottom: 140px;
-      }
+      ul {
+        text-align: center;
+        list-style: none;
+        padding-left: 0;
+        margin: 0 0 25px;
 
-      h2 {
-        float: left;
-        width: 200px;
-        padding-right: 60px;
-        font: 22px gotham_bold;
+        li {
+          display: inline-block;
+          margin: 4px 1px;
 
-        small {
-          display: block;
-          font: 14px gotham_light;
-          text-transform: none;
-          margin: 10px;
+          a {
+            background-color: #EAEDF2;
+            border-radius: 4px;
+            padding: 4px 10px;
+            color: #666;
+            font: 14px gotham_book;
+
+            &.active {
+              background-color: $red;
+              color: #fff;
+            }
+          }
         }
       }
+    }
 
-      article {
-        float: left;
-        width: 635px;
-        margin-bottom: 15px;
-        font-size: 15px;
-        line-height: 1.3em;
-      }
+    section {
+      width: 980px;
+      background: transparent image-url('home/video_mac.png') no-repeat;
+      background-size: 1226px 1019px;
+      background-position: -110px -122px;
+      height: 920px;
 
-      img,
-      span canvas {
-        vertical-align: middle;
-        display: block;
-        text-align: center;
-        padding: 4px;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        @include box-shadow(0 1px 3px rgba(0,0,0,0.1));
-        @include border-radius(3px);
-        max-width: 97%;
-        margin: 0 auto;
-        text-align: center;
-      }
+      div {
+        padding: 49px 0 0 45px;
 
-      span {
-        display: block;
-        text-align: center;
-
-        canvas {
-          display: none;
-          padding: 5px 0 4px 5px;
+        iframe {
+          width: 891px;
+          height: 547px;
         }
       }
     }
@@ -156,6 +149,6 @@ body.features {
       }
 
     }
-  }   
+  }
 
 }

@@ -35,9 +35,9 @@ You can install Node modules using the npm package manager. Check out [howtonode
 ##Accessing your application
 Once your Node app is up and running, you can access your project from a browser or API call etc. This is easily using the following URL 
 
-`http://projectname.username.boxes.codiodev.com:port`
+`word1-word2.codiodev.com:port`
 
-TODO : THIS WILL CHANGE FROM AROUND FEB 3RD AND WILL HAVE A NICER URL 
+TODO : Update URL when in production
 
 
 ##Important Reading Material

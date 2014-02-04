@@ -24,9 +24,9 @@ If you want to change your Apache configuration, then you can edit the `~/.parts
 ##Accessing your project from a browser
 As long as Apache is up and running you can access your project from a browser. This is easily done by using the following URL 
 
-`http://projectname.username.boxes.codiodev.com:3000/`
+`word1-word2.codiodev.com:port`
 
-TODO : THIS WILL CHANGE FROM AROUND FEB 3RD, WILL HAVE A NICER URL AND WILL EASILY ACCESSIBLE FROM THE IDE MENU 
+TODO : Update URL when in production
 
 ##Important Reading Material
 We strongly recommend you read up on the following before going too much further

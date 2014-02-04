@@ -46,9 +46,9 @@ rbenv rehash
 ##Accessing your application
 Once your Ruby app is up and running, you can access your project from a browser or API call etc. This is easily using the following URL 
 
-`http://projectname.username.boxes.codiodev.com:port`
+`word1-word2.codiodev.com:port`
 
-TODO : THIS WILL CHANGE FROM AROUND FEB 3RD AND WILL HAVE A NICER URL 
+TODO : Update URL when in production
 
 ##Important Reading Material
 We strongly recommend you read up on the following before going too much further

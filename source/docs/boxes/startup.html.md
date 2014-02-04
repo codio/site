@@ -4,14 +4,11 @@ class_name: docs
 full_width: true
 ---
 
-Your Box will restart under these conditions
+Your Box will be stopped under the conditions [explained here](/docs/boxes/sleep).
 
-- when you exit and re-open a Codio project
-- when you select the 'Project->Restart Box' menu item
+When you open your project, the Box will start instantly but, by default, any services will not be started automatically.
 
-. In both these cases services (such as Apache) will not be started automatically.
-
-To prevent you having to start services manually each time you restart, you can configure the file `startup.sh` in the root of your project to startup required services whenever your Box boots up. This file will typically contain something like this
+To prevent you having to start services manually each time you restart, you can create and configure a `startup.sh` file in the root of your project. This file will typically contain something like this
 
 	parts start apache2 myotherservice
 
@@ -22,6 +19,10 @@ If you experience problems with auto starting (which should rarely happen) then 
 
 This makes sure that all parts flags are cleared out beforehand.
 
+##Testing your startup.sh file
+The best way to test your `startup.sh` file is to select the 'Project->Restart Box' menu item.
+
+##Checking which services are running
 To check your services status type the following
 
 ```bash

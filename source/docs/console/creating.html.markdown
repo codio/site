@@ -11,7 +11,7 @@ Creating a new project or importing one is really easy. All you do is click on t
 You will then be shown a dialog that lets you choose the various ways to create or import a project.
 
 ##Back-End Development
-If you're doing any back-end coding, please refer to TODO
+If you're doing any back-end coding, please refer to the [Boxes section](/docs/boxes) for details on installing and running server side components.
 
 ##Template Option
 We offer a few basic starting points with this option. Select from the Create Project dropdown list, which offers the following options

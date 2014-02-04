@@ -4,12 +4,14 @@ class_name: docs
 full_width: true
 ---
 
-The Preview button lets you preview one or more web pages (typically the project you are working on) with a simple button press. Codio creates two default URLs with your project
+The Preview button lets you preview one or more web pages with a simple button press. Codio creates three default in the Preview menu automatically.
 
-- `Project index` - set by right-clicking on the file in the file tree and selecting 'Set as project index'
-- `Current file` - whichever file currently has focus
+- **The Project Index** - this is the default file to run for your project. It can be set by right-clicking a file in the file tree. This option should only be used to preview static content (typically .html files). For PHP, Ruby etc. you should use the 'Box URL' option.
+- **Current File** - whichever code file currently has focus. This option should only be used to preview static content (typically .html files). For PHP, Ruby etc. you should use the 'Box URL' option.
+- **Box** URL - use this option for previewing PHP, Ruby or other server side languages. There is more documentation on this here.
 
-TODO: Image
+You can modify the Preview menu as explained below.
+
 ![preview](/img/docs/preview-deploy.png)
 
 If you right-click a file in the file tree or the Tab, you can also select 'Preview current file'.

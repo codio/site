@@ -21,8 +21,8 @@ We set Apache up to automatically point to your workspace, so you should be able
 
 If you want to change your Apache configuration, then you can edit the `~/.parts/etc/apache2/httpd.conf` file.
 
-##Accessing your project from a browser
-As long as Apache is up and running you can access your project from a browser. This is easily done by using the following URL 
+##Accessing your application
+Once your PHP app is up and running, you can access your project from a browser or API call etc. This is easily using done using [Preview button](/docs/ide/inline-preview). When you click it, you will see the URL to your Box, which will look something like this 
 
 `word1-word2.codiodev.com:port`
 

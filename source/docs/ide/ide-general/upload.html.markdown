@@ -16,5 +16,5 @@ Having selected on of these options, you can upload files by
 - Pressing the **browse for files** button and selecting your files
 - Dragging files from your destop or file explorer into the dialog
 
-**Important: ** if you select both files and folders to upload, only the files within the main folder will get uploaded. You will need to upload one folder at a time.
+**Important:** if you select both files and folders to upload, only the files within the main folder will get uploaded. You will need to upload one folder at a time.
 

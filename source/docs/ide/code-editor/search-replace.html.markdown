@@ -81,7 +81,7 @@ then you can use globs to select files in this way:
 
 ### Basic Rules
 
-Any character that appears in a pattern, other than the special pattern characters described below, matches itself. The NUL character may not occur in a pattern. A backslash escapes the following character; the escaping backslash is discarded when matching. The special pattern characters must be quoted if they are to be matched literally.
+Any character that appears in a pattern, other than the special pattern characters described below, matches itself. The NULL character may not occur in a pattern. A backslash escapes the following character; the escaping backslash is discarded when matching. The special pattern characters must be quoted if they are to be matched literally.
 
 The special pattern characters have the following meanings:
 

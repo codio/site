@@ -44,7 +44,7 @@ rbenv rehash
 ```
 
 ##Accessing your application
-Once your Ruby app is up and running, you can access your project from a browser or API call etc. This is easily using the following URL 
+Once your Ruby app is up and running, you can access your project from a browser or API call etc. This is easily using done using [Preview button](/docs/ide/inline-preview). When you click it, you will see the URL to your Box, which will look something like this 
 
 `word1-word2.codiodev.com:port`
 

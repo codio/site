@@ -18,7 +18,7 @@ Changing permissions allows you to give the following access permissions to User
 
 - **Read** - View the project only
 - **Write** - Edit the project
-- **Admin** - Edit the project and make project levels settings changes
+- **Admin** - Coming soon, we will support 'Teams/Organizations' and you will be able to assign admin rights to other Team members within your Organization.
 
 ## Adding/Removing a User
 To add a new user, start typing the user name in the text field. When you find the user, click Add and that user will be added to the list of users below.

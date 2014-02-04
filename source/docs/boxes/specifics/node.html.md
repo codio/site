@@ -33,7 +33,7 @@ Checkout the [nvm Github repo](https://github.com/creationix/nvm) for documentat
 You can install Node modules using the npm package manager. Check out [howtonode.org](http://howtonode.org/introduction-to-npm) for a good introduction to npm.
 
 ##Accessing your application
-Once your Node app is up and running, you can access your project from a browser or API call etc. This is easily using the following URL 
+Once your Node app is up and running, you can access your project from a browser or API call etc. This is easily using done using [Preview button](/docs/ide/inline-preview). When you click it, you will see the URL to your Box, which will look something like this 
 
 `word1-word2.codiodev.com:port`
 

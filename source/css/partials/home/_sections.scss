@@ -39,7 +39,7 @@ section {
       padding: 94px 0 70px;
 
       @include apply-to(more-than, desktop) {
-        padding: 94px 60px 70px;
+        padding: 94px 60px 70px 72px;
       }
 
       h2 {
@@ -68,15 +68,17 @@ section {
         }
 
         &:nth-child(2) {
-          width: 230px;
+          width: 160px;
           text-align: center;
           margin-top: 30px;
+          padding: 0px 17px 0px 40px;
 
           @include apply-to(more-than, desktop) {
+            padding: 0px 10px 0px 30px;
             margin-top: 20px;
-            width: 270px;
+            width: 190px;
           }
-        }
+        }    
 
         &:last-child {
           text-align: right;
@@ -169,23 +171,23 @@ section {
 
                 @include apply-to(more-than, desktop) {
                   width: 120px;
-                  height: 130px;
+                  height: 110px;
                 }
               }
 
               #ruby-select {
                 background: transparent image-url('home/page_ruby_128.png') no-repeat;
-                background-size: 100%;
+                background-size: 90%;
               }
 
               #nodejs-select {
                 background: transparent image-url('home/page_javascript_128.png') no-repeat;
-                background-size: 100%;
+                background-size: 90%;
               }
 
               #php-select {
                 background: transparent image-url('home/page_php_128.png') no-repeat;
-                background-size: 100%;
+                background-size: 90%;
               }
             }
           }
@@ -218,13 +220,14 @@ section {
           }
 
           p {
-            text-align: right;
             font: 14px gotham_medium;
-            margin: 36px 58px 0 0;
-
+            margin: 28px 580px 0px 0px;
             i {
               color: $red;
             }
+            @include apply-to(more-than, desktop) {
+              margin: 36px 712px 0px 0px;
+            }            
           }
         }
       }

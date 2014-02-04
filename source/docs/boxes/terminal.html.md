@@ -8,7 +8,7 @@ You can access the Terminal window from the 'Tools->Terminal' menu item. This wi
 
 Your project is mapped to the `~/workspace` folder.
 
-Note that you can create tabs and panels anywhere you like using Codio's [Panels and Tabs](/docs/panels/) features.
+Note that you can create tabs and panels anywhere you like using Codio's [Panels and Tabs](/docs/ide/panels/) features.
 
 ![console terminal](/img/docs/terminal.png)
 

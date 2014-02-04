@@ -32,20 +32,23 @@ All of these are full described [here](/docs/console/creating).
 ##3. You're in the IDE
 Once you're in the IDE, which you will be automatically after creating a project or opening an existing one, you're ready to start coding.
 
-The most important thing is for you to be aware of the features that are available so you can take advantage of them when you need them. Here are two feature pages that give you an idea of some of the things you can do with Codio
+The most important thing is for you to be aware of the features that are available so you can take advantage of them when you need them. Check out the features page that list and demonstrate many of Codio's key features
 
-- TODO IDE Features
-- TODO Back End 'Box' features
+- [Videos of Codio's key features](/features)
 
 ##4. A bit about 'Boxes'
 Whenever you create a project, you automatically get a back-end server 'Box' with it. The Box comes preconfigured with 
 
-- Node (including NVM)
-- Ruby (including RVM)
-- more languages available soon (PHP and Python are planned). Please feel free to request support at support@codio.com.
+- Node (including nvm)
+- Ruby (including rbenv)
+- Python (2.7.3)
+- Git, Mercurial & SVN
+- Add your own languages, middleware, databases etc. using [Box Parts](/docs/boxes/box-parts)
 
-You can access your Box from 'Tools->Terminal'. You can also configure your own terminal commands from the [Run menu](/docs/boxes/run). General Box documentation can be [found here](/docs/boxes).
+You can access your Box from 'Tools->Terminal'. You can also configure your own terminal commands from the [Run menu](/docs/boxes/run). 
 
-Take a look at the Box features page : TODO
+- [General Box documentation](/docs/boxes).
+- [Box Feature Videos](/features)
+
 
 

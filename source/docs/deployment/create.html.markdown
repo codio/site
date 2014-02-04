@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-The Manage Targets options are accessed via `Tools > Deployment > Manage Targets` menu. All Deployment dialogs will be displayed in the currently active [Panel](/docs/panels).
+The Manage Targets options are accessed via `Tools > Deployment > Manage Targets` menu. All Deployment dialogs will be displayed in the currently active [Panel](/docs/ide/panels).
 
 If you have not yet created any deployment targets then you will be prompted to create one.
 

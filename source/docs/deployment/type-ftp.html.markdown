@@ -9,7 +9,7 @@ The FTP target type allows you to deploy to any FTP server. You supply the usual
 ![targets history](/img/docs/deploy-ftp.png)
 
 ##Base Path
-We recommend you set the base path field for remote servers as [described here](/docs/deployment/basepath). This will be useful when using the [Preview](/docs/inline-preview) feature.
+We recommend you set the base path field for remote servers as [described here](/docs/deployment/basepath). This will be useful when using the [Preview](/docs/ide/inline-preview) feature.
 
 ##Specifying a Port
 If you want to override the default FTP port (21) then you can add the port number to the domain name as shown below

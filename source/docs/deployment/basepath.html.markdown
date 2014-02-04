@@ -14,5 +14,5 @@ For example, you might deploy to a remote server at a folder location `/home/fma
 
 So it could be `http://123.456.789' or `fmay.mydomain.com` is the correct location.
 
-Please see the [Preview](/docs/inline-preview) section for more information.
+Please see the [Preview](/docs/ide/inline-preview) section for more information.
 

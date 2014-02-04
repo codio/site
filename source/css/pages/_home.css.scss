@@ -204,8 +204,8 @@ body.home {
       linear,
       left top,
       right top,
-      color-stop(0.25, rgb(255,255,255)),
-      color-stop(0.36, rgb(249,249,249))
+      color-stop(0.02, rgb(255,255,255)),
+      color-stop(0.3, rgb(249,249,249))
     );
 
     @include apply-to(more-than, desktop) {

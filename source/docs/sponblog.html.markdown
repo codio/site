@@ -47,7 +47,7 @@ You can write your main tutorial content any way you like. You don't have to cha
 What we strongly suggest is that you take a look at [Codio Annotations](/docs/annotations) as a great new way of structuring some of your content.
 
 ##Add Codio buttons
-In order to link to the IDE, you should use the Codio buttons. The [Project > Share menu item](/docs/sharing) gives you buttons with associated HTML or markdown code that you can paste straight into your own page.
+In order to link to the IDE, you should use the Codio buttons. The [Project > Share menu item](/docs/ide/sharing) gives you buttons with associated HTML or markdown code that you can paste straight into your own page.
 
 ##Terms & Conditions
 The full terms and conditions are explained in full in the [Sponsored Blog Terms & Conditions](/legal/sponblog) page.

@@ -1,7 +1,7 @@
 set :stage, :test
 set :bundle_bins, fetch(:bundle_bins, []).push('middleman')
 
-server 'ec2-23-21-27-222.compute-1.amazonaws.com', user: 'deploy', roles: %w{web app db}
+server 'ec2-23-21-27-222.compute-1.amazonaws.com', user: 'capistrano', roles: %w{web app db}
 
 namespace :middleman do
   task :build do

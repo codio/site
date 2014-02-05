@@ -24,7 +24,7 @@ $ ->
     $('#languages li a').on 'click', ->
         ele = $(@)
         iframe = $('#languages iframe')
-        src = iframe.attr('src').replace /[0-9]+/, ele.attr('href').replace('#', '')
+        src = iframe.attr('src').replace /[0-9]+/, (ele.attr('href').replace('#', '') || '123')
         iframe.attr 'src', src
 
         ele.parents('ul').find('li').removeClass 'active'

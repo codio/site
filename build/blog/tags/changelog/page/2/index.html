@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../../../css/boilerplate-687c9c1b.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../../../css/boilerplate-63b4e8e0.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -117,6 +117,90 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/">December  9, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/">Git and a Tease of what is to Come!</a></h1>
+
+        
+          <img alt="Git and a Tease of what is to Come!" align="left" class="blog-img" src="/s/img/blog/full-stack-b2e4504c.jpg" />
+        
+        <p>This morning we rolled out a large and quite a significant change to the underlying infrastructure of Codio. For most of you, you won&#39;t notice anything different, but it is worth mentioning to you what we changed, how this may affect you, and why we did it.</p>
+
+<h2 id="toc_0">A Little Background...</h2>
+
+<p>Codio is quite a unique beast from your familiar desktop based IDE, and the reason for that is down to the open and collaborative nature of the web.</p>
+
+<p>A desktop IDE is designed to be used in a single-user environment. You open a project and code away without any other users seeing what you are doing, or being able to affect what you are doing. Until you pull or push via source control, you are working in isolation.</p>
+
+<p>A browser-based IDE like Codio is almost the complete opposite of the above, especially for public projects. A public project is open and readable by anyone, at any time. You could be coding away while several others are reading your code, and if those other users have write access, they will also be editing code. This is great for open source, as it allows a level of collaboration not previously possible on the desktop.</p>
+
+<p>But this introduces some unique challenges for us, especially in the way Git is used. Git is not designed for a multi-user environment. Committing, branching, merging; these are all actions that you run in isolation, safely away from your collaborators. Only when you push, pull or work with remotes do you start to interact with others.</p>
+
+<p>We initially built in Git support for Codio based on a system of multiple working copies. This meant that each branch used a separate working copy or set of files, and allowed you to work on any branch without affecting or being affected by others. This worked great, but meant we had to wrap some Git commands to allow them to work with these multiple working copies, and that meant we couldn&#39;t provide full Git support without considerable work.</p>
+
+<h2 id="toc_1">So what changed?</h2>
+
+<p>We came to a realization that we probably over-thought this issue a little, and perhaps even created problems that were not real-word problems in the first place. We listened to you telling us you wanted access to all your favourite Git commands and options. So this morning we removed multiple working copies, and changed all projects to use Git in the way it was designed to be used.</p>
+
+<h2 id="toc_2">How does this affect me?</h2>
+
+<p>Right now, probably very little. But it is important to know one simple thing... that now all Git commands will affect all users equally.</p>
+
+<p>For example, when you checkout a different branch, others on that project will also be switched to use that branch. Which is actually what you would expect to happen anyway.</p>
+
+<p>The important thing here, is that Git now works in a way that you are familiar with, and will allow us to provide full Git support.</p>
+
+<h2 id="toc_3">Why have you done this?</h2>
+
+<p>This leads me on to the juicy part of this post, and the tease...</p>
+
+<p>Codio is awesome when working on front-end development, but we recognise that when it comes to server-side development, there are a few hoops you have to jump through. We always knew that this would be the case, and that we would need to build out a solution for working on server-side dev. So now that time has come, and this Git change is the first step toward the goal of full-stack development using Codio.</p>
+
+<p>Early next year, you will be able to use Codio to build almost any kind of project, from the simplest static site, to the complex; and using almost any language you wish, including NodeJS, PHP, Python and Ruby. Every single Codio project will have its own full-stack development environment in the cloud, meaning that all you need is your browser and Codio!</p>
+
+<p>And once that is in place, the entire Git tool-set will be available without ever having to leave Codio. You will be able to use Git the way you want, and without any restrictions.</p>
+
+<p>Enjoy!</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/12/git-and-tease-of-what-is-to-come/" data-via="codiohq" data-size="small" data-count="none" data-text="Git and a Tease of what is to Come!">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/12/git-and-tease-of-what-is-to-come/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/12/git-and-tease-of-what-is-to-come/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -417,85 +501,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/11/deploy-preview/">November 13, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/11/deploy-preview/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/11/deploy-preview/">Deploy & Preview</a></h1>
-
-        
-        <p>We are constantly looking to streamline your development process when working in Codio, and this time we focused on the ease with which you can deploy and preview code, and in particular back-end code, such as PHP, NodeJS and Python. We&#39;ve made some changes to the way to preview your code.</p>
-
-<h2 id="toc_0">Deploying &amp; Previewing Changes</h2>
-
-<p>Let&#39;s say that you make a small modification to a Node or PHP file, and you then want to preview it. All you now need to do is to press the new <code>Preview</code> or <code>Deploy &amp; Preview</code> (<code>Shift-F9</code>) button in the menu bar and changes get deployed and previewed in seconds.</p>
-
-<p><img alt="deploy-preview" src="/s/img/blog/deploy-preview-1-9068b17b.png" /></p>
-
-<p>We&#39;ve added a few extra options to this new button that can be accessed vis the buttons dropdown menu. These options can change the behaviour of the button to help create a workflow suited to your needs:</p>
-
-<ul>
-<li><strong>Deploy before Preview</strong> - Deploys your project immediately before previewing. This works perfectly with the Rsync deployment type, as only modified files will get deployed.</li>
-<li><strong>Deploy in a Codio tab</strong> - Opens the preview inside a Codio tab.</li>
-<li><strong>Default Deployment Target</strong> - If you&#39;re using the deploy before preview option, this default deployment target specifies which server will be deployed to.</li>
-</ul>
-
-<h2 id="toc_1">Working with Remote Servers</h2>
-
-<p>The approach we take at Codio is to <strong>NOT</strong> provide the back-end on the Codio infrastructure. So we provide the tools to allow you to integrate as closely and as quickly as possible with your own servers and environments. Whether that be for development or production use. There a lot of good reasons why we don&#39;t provide the back-end:</p>
-
-<ul>
-<li>There are now fantastic (and fantastic value-for-money) cloud based development servers available from providers like <a href="https://www.digitalocean.com/">DigitalOcean</a> that allow you to configure them exactly as you need.</li>
-<li>You have complete freedom of configuration and can create as many development, staging, production environments as you need - all linked to your Codio project.</li>
-<li>You can use AWS, Rackspace or absolutely any provider you wish, so you are not restricted in any way at all.</li>
-<li>We stay focused on the IDE side of things, so we can make that experience as perfect as we can, while leaving the back-end to the experts.</li>
-</ul>
-
-<h2 id="toc_2">The Joy of RSYNC</h2>
-
-<p>Most remote servers will come with RSYNC enabled. Codio supports an RSYNC deployment target type so that only modified files get deployed. This makes the whole experience really fast. And because Codio is cloud based and your target server is also, deploying is extremely fast.</p>
-
-<h2 id="toc_3">Docs and Tutorials</h2>
-
-<p>If you want to see a complete example of the entire process from creating a remote cloud server, right through to deployment, take a look at our <a href="/s/docs/back-end/do-server">Start to Finish Tutorial</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/deploy-preview/" data-via="codiohq" data-size="small" data-count="none" data-text="Deploy & Preview">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/deploy-preview/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/deploy-preview/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -519,6 +524,9 @@
       <ul>
         
           
+          <li><a href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/">Git and a Tease of what is to Come!</a></li>
+        
+          
           <li><a href="/s/blog/2013/12/common-preferences/">Common User Preferences</a></li>
         
           
@@ -533,14 +541,13 @@
           
           <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
         
-          
-          <li><a href="/s/blog/2013/11/deploy-preview/">Deploy & Preview</a></li>
-        
       </ul>
 
       
         <h4>Latest posts...</h4>
         <ul>
+          
+            <li><a href="/s/blog/2014/02/easier-uploading/">Easier Uploading</a></li>
           
             <li><a href="/s/blog/2014/01/server-side-development/">Server Side Development in Codio</a></li>
           
@@ -555,8 +562,6 @@
             <li><a href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/">Git and a Tease of what is to Come!</a></li>
           
             <li><a href="/s/blog/2013/12/common-preferences/">Common User Preferences</a></li>
-          
-            <li><a href="/s/blog/2013/11/auto-complete-for-any-language/">Auto-Complete for Any Language</a></li>
           
         </ul>
       

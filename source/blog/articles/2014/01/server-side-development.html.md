@@ -1,5 +1,5 @@
 ---
-title: 'Server Side Development in Codio'
+title: Server Side Development in Codio
 author: Joel Moss
 date: 2014-01-29
 tags: Changelog
@@ -25,7 +25,7 @@ When you create or open up a project, we spin up a Docker container at the same 
 
 ### Box Parts
 
-Box Parts is a simple package manager that we provide, and gives you command line access to quickly install the most popular packages, including MongoDB, Java, PHP, Redis and MySQL. There will be loads more available with more added over time.
+Box Parts is a simple package manager that we provide, and gives you command line access to quickly install the most popular packages, including MongoDB, PostGreSQL, PHP, Redis and MySQL, [and loads more](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages). There will be loads more available with more added over time.
 
 Installing any of these packages is extremely fast, as we do all the time-consuming compilation steps for you. All you gotta do is install the binaries that we've created for you.
 

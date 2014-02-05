@@ -6,7 +6,7 @@ full_width: true
 
 **COMING SOON : Watch this space**
 
-Codio will soon be introducing a Javascript widget that lets you display code snippets from your Codio project directly within any web page. You can reference any `@annotation` token from this widget, including @annotation:tour snippets.
+Codio will soon be introducing a Javascript widget that lets you display code snippets from your Codio project directly within any web page. You can reference any `@annotation` token from this widget, including `@annotation:tour` snippets.
 
 There are some nice advantages to using this approach
 

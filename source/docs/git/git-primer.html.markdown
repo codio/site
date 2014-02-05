@@ -113,7 +113,7 @@ If you created your repository by importing from a Git repo, then the remote wil
 
 If you want to create a new remote repository, then you will have already done this as described at the top of this page.
 
-So all you need to do is enter `git push origin master'. Let's dissect this command
+So all you need to do is enter `git push origin master` . Let's dissect this command
 
 - `origin` is the name of the remote repo. In most cases, this will be called origin, but is not necessarily so.
 - `master` is the name of the branch. When you create a new Codio project, a `master` branch is automatically created and appears in brackets at the top of the file tree next to the project name. Branches are beyond the scope of this topic but they are definitely worth investigating as they are a very powerful feature of Git.

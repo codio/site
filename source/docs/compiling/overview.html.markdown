@@ -28,7 +28,3 @@ That's all you have to do. Codio takes care of the compilation for you.
 
 ##Try it out with Preview
 To try this out, just press the Preview button and you'll see that everything works straight away. There's nothing to compile, it gets done automatically for you by Codio.
-
-##Production Deployments
-At the moment, using compiled files only works in Preview / Development mode. Once we have introduced Grunt build tasks, you will be able to compile your files ready for deployment as well. 
-

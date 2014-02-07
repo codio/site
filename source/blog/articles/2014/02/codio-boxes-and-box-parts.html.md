@@ -36,7 +36,7 @@ Your Box comes with the following pre-installed languages and components:
 
 But we also have a big library of so-called "Box Parts" which let you install more databases, languages and components unbelievably quickly. Here's a selection of the Box Parts we have. If you want more Box Parts, just ask and we'll add them for you quickly.
 
-- **Languages**: C,Node, Ruby, Python, PHP (and Composer), Go, Haskell, Java, Lua, Pascla, Rust, Scala
+- **Languages**: C, Node, Ruby, Python, PHP (and Composer), Go, Haskell, Java, Lua, Pascla, Rust, Scala
 - **Databases**: MongoDB, MySQL, Postgresql, SQLite3, Redis, Memcached
 - **Web Servers & Queues**: Apache2, Nginx, RabbitMQ
 - **Components**: ack, ant, apr, cmake, geos, swig, ghc, image_magick, Leiningen, mave, s3cmd, Silver Searcher

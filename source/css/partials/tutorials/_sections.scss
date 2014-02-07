@@ -63,24 +63,22 @@ section {
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/nodeschool.png') no-repeat -0px center;
-      background-size: 30%;
-      background-position: 0px 232px;
-      margin-left: 266px;
-      padding: 0px 0px 0px 0px;
-
+      background-size: 27%;
+      background-position: 22px 185px;
+      margin-left: 78px;
 
       @include apply-to(less-than, desktop) {
         background-position: 0px 260px;
-        background-size: 33%;
+        background-size: 27%;
       }
 
       > div {
         background-size: 11px;
-        padding-left: 320px;
-        width: 524px;      
+        padding-left: 413px;
+        width: 639px;      
         @include apply-to(less-than, desktop) {
-          padding-left: 263px;
-          width: 507px;  
+          padding-left: 301px;
+          width: 612px;  
         }        
       }
     }
@@ -90,24 +88,22 @@ section {
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/grunt-logo.png') no-repeat -0px center;
-      background-size: 15%;
-      background-position: 60px 172px;
-      margin-left: 266px;
-      padding: 0px 0px 0px 0px;
-
+      background-size: 13%;
+      background-position: 87px 165px;
+      margin-left: 78px;
 
       @include apply-to(less-than, desktop) {
-        background-position: 0px 260px;
+        background-position: 40px 180px;
         background-size: 15%;
       }
 
       > div {
         background-size: 11px;
-        padding-left: 320px;
-        width: 524px;      
+        padding-left: 413px;
+        width: 639px;      
         @include apply-to(less-than, desktop) {
-          padding-left: 263px;
-          width: 507px;  
+          padding-left: 301px;
+          width: 612px;  
         }        
       }
     }
@@ -117,24 +113,22 @@ section {
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/grunt-watch.png') no-repeat -0px center;
-      background-size: 20%;
-      background-position: 60px 130px;
-      margin-left: 266px;
-      padding: 0px 0px 0px 0px;
-
+      background-size: 17%;
+      background-position: 87px 165px;
+      margin-left: 78px;
 
       @include apply-to(less-than, desktop) {
-        background-position: 0px 150px;
+        background-position: 40px 180px;
         background-size: 20%;
       }
 
       > div {
         background-size: 11px;
-        padding-left: 320px;
-        width: 524px;      
+        padding-left: 413px;
+        width: 639px;      
         @include apply-to(less-than, desktop) {
-          padding-left: 263px;
-          width: 507px;  
+          padding-left: 301px;
+          width: 612px;  
         }        
       }
     }

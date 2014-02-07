@@ -20,9 +20,9 @@ If you are doing client-side coding then you don't even need to be aware of it i
 
 Codio Boxes will support dozens of programming languages, including, but not limited to Ruby, NodeJS and PHP. We've created a couple of small screencasts to show you how easy and fast they are to get started.
 
-- [NodeJS](//player.vimeo.com/video/85953159?autoplay=1&hd=1)
-- [Ruby](//player.vimeo.com/video/85998845?autoplay=1&hd=1)
-- [PHP](//player.vimeo.com/video/86028855?autoplay=1&hd=1)
+- [NodeJS](https://player.vimeo.com/video/85953159?autoplay=1&hd=1)
+- [Ruby](https://player.vimeo.com/video/85998845?autoplay=1&hd=1)
+- [PHP](https://player.vimeo.com/video/86028855?autoplay=1&hd=1)
 
 
 ## Box Parts

@@ -275,22 +275,22 @@ section {
 
   &#boxes {
     .container {
-      background: transparent image-url("home/screens/home-boxes.png") no-repeat 670px 114px;
-      background-size: 290px 280px;
+      background: transparent image-url("home/screens/gift-boxes.png") no-repeat 570px 103px;
+      background-size: 405px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 813px 111px;
-        background-size: 325px;
+        background-position: 637px 75px;
+        background-size: 550px;
       }
 
       > div {
         padding: 70px 0px 80px 0;
-        width: 640px;
+        width: 550px;
 
         @include apply-to(more-than, desktop) {
           padding: 80px 0px 100px 20px;
           margin-left: 50px;
-          width: 650px;
+          width: 550px;
         }
       }
     }
@@ -298,11 +298,11 @@ section {
 
   &#box-parts {
     .container > div {
-      background: transparent image-url('home/screens/home-parts.png') no-repeat 0 94px;
+      background: transparent image-url('home/screens/home-parts.png') no-repeat 0 184px;
       background-size: 39%;
 
       @include apply-to(more-than, desktop) {
-        background-position: 66px 111px;
+        background-position: 66px 190px;
         background-size: 325px;
       }
 
@@ -314,6 +314,9 @@ section {
           padding: 89px 0px 100px 77px;
           margin-left: 430px;
           width: 657px;
+        }
+        p {
+          line-height: 1.3em;
         }
       }
     }

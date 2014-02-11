@@ -22,11 +22,11 @@ body.home-tutorials {
         // Tagline
         &:first-child {
           z-index: 2;
-          top: 30px;
+          top: 40px;
           left: 5px;
 
           @include apply-to(more-than, desktop) {
-            top: 8px;
+            top: 44px;
             left: 33px;
           }
 

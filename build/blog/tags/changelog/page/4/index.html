@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="../../../../../css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="../../../../../css/boilerplate-63b4e8e0.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../../../css/boilerplate-730d5238.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -117,6 +117,65 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/10/more-creation-options/">October 30, 2013</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/10/more-creation-options/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></h1>
+
+        
+          <img alt="More Project Creation Options" align="left" class="blog-img" src="/s/img/blog/project-create-9f0f7eee.png" />
+        
+        <p><a href="/s/blog/2013/10/automatic-upload-ssh-key/">Yesterday</a> we added automatic upload of your Codio public key to any server of your choosing, and today we&#39;ve added even more options to the project creation process. We want to make it faster and easier for you to get your code into Codio and begin coding as fast as possible.</p>
+
+<p>So we now have six different ways to create a project in Codio:</p>
+
+<ol>
+<li><p><strong>Template</strong> - Create a project based on a selection of templates, which include HTML5 Boilerplate and a simple empty skeleton. We also have a special <a href="https://codio.com/codio-templates">Template account</a>, which include boilerplate code for some of the most popular open source frameworks, including EmberJS, FirefoxOS and Backbone. To use any of these, simply open the project and fork it via the <code>Project &gt; Fork...</code> menu item.</p></li>
+<li><p><strong>Git</strong> - You can create a new project by cloning any Git repository - public or private. We support cloning over SSH and HTTP(S). This will also setup an <code>origin</code> Git remote so you can continue to push and pull between your new Codio project and it&#39;s Git repository.</p></li>
+<li><p><strong>Mercurial</strong> - Import code from any Mercurial repository.</p></li>
+<li><p><strong>Zip</strong> - Upload any zip file and we&#39;ll unzip it and create a new project with its contents.</p></li>
+<li><p><strong>FTP and SFTP</strong> - The newest option is to import from any FTP server. Just specify the server you wish to import from, and we&#39;ll do the rest. We even support SFTP, which means that you can connect securely using your Codio SSH public key.</p></li>
+<li><p><strong>Salesforce</strong> - If you work with Salesforce, we&#39;ve integrated its Tooling API to allow you to work with your Salesforce classes and triggers. Just enter your credentials and we&#39;ll pull in your code with into Codio. You can then continue to pull and push your code to Salesforce.</p></li>
+</ol>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/10/more-creation-options/" data-via="codiohq" data-size="small" data-count="none" data-text="More Project Creation Options">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/10/more-creation-options/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/10/more-creation-options/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -470,90 +529,6 @@ fullscreen = Cmd-Shift-F
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/">September 23, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/">Multiple Panels, New Editor, Git, Custom keybindings &amp; Preferences</a></h1>
-
-        
-        <p>Last week was the culmination of several months of hard graft by the entire Codio team, and is the start of the next phase of our path to global domination! We released a plethora of new and improved features that we think are exciting and - in some cases - ground-breaking.</p>
-
-<p><a href="/s//player.vimeo.com/video/74220594?autoplay=1&amp;amp;hd=1">Watch the all new intro video</a>, and then allow me to summarise all that is new and shiny...</p>
-
-<h2 id="toc_0">Multi-Panel Layouts</h2>
-
-<p>Codio is now the <em>only</em> browser based IDE to boast full support for <a href="/#panels">multi-panel layouts</a>. You can customise the layout of Codio into almost any arrangement of panels and tabs, in both a vertical and horizontal manner. Edit a file in one panel, while previewing it in another panel right alongside it; or use one of the predefined layouts as a great way to demo your code.</p>
-
-<p>The introduction of multiple panels, also brings with it a new change to the way you access almost anything in Codio. Everything is opened within a tab! This makes the UI much more unobtrusive, and takes multi-tasking to a whole new level - Bower in one tab, code in one, Deployment in the other, etc. etc.</p>
-
-<h2 id="toc_1">All New Editor</h2>
-
-<p>Codio was originally based on the popular <a href="http://ace.c9.io/">ACE Code Editor</a>, and it served us fairly well, But it soon became apparent that it was lacking in a few areas. <a href="http://codemirror.net/">CodeMirror</a> is the new kid on the block, but has quickly gained momentum. It&#39;s code is clean and documented, and has great performance. So we made the highly debated decision to replace ACE with CodeMirror.</p>
-
-<p>Watch this space for some awesome new features and improvements based around the new Editor.</p>
-
-<h2 id="toc_2">Git Support</h2>
-
-<p>This is been a long time coming... <a href="/#sourcecontrol">Codio now supports Git</a>. This means you can clone, commit, push, pull, branch, merge and a whole load more, right within Codio, and without ever leaving the IDE. We created a simple command line interface (CLI) that is opened in a new tab, and accepts the most common Git commands. So everything you do in Codio now sits on top of Git. Of course, you don&#39;t have to use Git at all, but if you do, just commit away to your hearts content.</p>
-
-<h2 id="toc_3">Custom Keybindings</h2>
-
-<p>This release signals the beginning of our efforts to make Codio the most customisable and extendible browser-based IDE around. We know how much developers like their keyboard shortcuts, because they can improve and speed coding and development hugely. We&#39;ve introduced a load of new keyboard shortcuts to Codio. But not only that, we&#39;ve also made almost every one of them customisable.</p>
-
-<p>This is available as part of the new preferences system (mentioned below), and is extremely simple to use. Just redefine any keybinding with the keyboard combination of your choice.</p>
-
-<h2 id="toc_4">New Preferences System</h2>
-
-<p>We&#39;ve completely rebuilt the way you customise Codio. Almost everything that you can customise is now done via an INI based text file, which you can access via your dashboard and IDE. We show you our defaults, and allow you to simply redefine any of these with the value of your choice. It even applies your changes as you type.</p>
-
-<h2 id="toc_5">Sharing Your Code</h2>
-
-<p>And finally, we added a new menu item to allow you to quickly and easily <a href="/s/share-your-code">share your projects and code with the world</a>. Accessed from <code>Project &gt; Share...</code> menu item, it will give you a few images you can use to place on your site or Github README, which will link back to your Codio project.</p>
-
-<p>We also provide a URL that contains the precise panel and tab layout of your project. This is a great way to share your project exactly as you see it, as it will maintain your current layout, and even the files you have open.</p>
-
-<hr>
-
-<p>We&#39;ll be blogging in more detail over the next few weeks about each of the above, so watch this space and follow us <a href="https://twitter.com/CodioHQ">@CodioHQ</a>. In the meantime, head on over to the updated <a href="/">homepage</a> and <a href="/s/docs">docs</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/" data-via="codiohq" data-size="small" data-count="none" data-text="Multiple Panels, New Editor, Git, Custom keybindings &amp; Preferences">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -577,6 +552,9 @@ fullscreen = Cmd-Shift-F
       <ul>
         
           
+          <li><a href="/s/blog/2013/10/more-creation-options/">More Project Creation Options</a></li>
+        
+          
           <li><a href="/s/blog/2013/10/automatic-upload-ssh-key/">Automatically Upload your Codio Public SSH Key</a></li>
         
           
@@ -591,14 +569,13 @@ fullscreen = Cmd-Shift-F
           
           <li><a href="/s/blog/2013/09/parse-integration/">Support for Parse.com</a></li>
         
-          
-          <li><a href="/s/blog/2013/09/multiple-panels-new-editor-git-custom-keybindings-preferences/">Multiple Panels, New Editor, Git, Custom keybindings &amp; Preferences</a></li>
-        
       </ul>
 
       
         <h4>Latest posts...</h4>
         <ul>
+          
+            <li><a href="/s/blog/2014/02/boxes/">Preview of Boxes and Box Parts</a></li>
           
             <li><a href="/s/blog/2014/02/easier-uploading/">Easier Uploading</a></li>
           
@@ -613,8 +590,6 @@ fullscreen = Cmd-Shift-F
             <li><a href="/s/blog/2013/12/command-bar/">Command Bar</a></li>
           
             <li><a href="/s/blog/2013/12/git-and-tease-of-what-is-to-come/">Git and a Tease of what is to Come!</a></li>
-          
-            <li><a href="/s/blog/2013/12/common-preferences/">Common User Preferences</a></li>
           
         </ul>
       
@@ -656,8 +631,8 @@ var disqus_shortname = 'codio'; // required: replace example with your forum sho
 }());
 </script>
 
-<script src="../../../../../js/vendor/rainbow-f4847254.js" type="text/javascript"></script>
-<script src="../../../../../js/vendor/rainbow/linecount-1c8da1d2.js" type="text/javascript"></script>
+<script src="../../../../../js/vendor/rainbow-d8419893.js" type="text/javascript"></script>
+<script src="../../../../../js/vendor/rainbow/linecount-9917b5c1.js" type="text/javascript"></script>
 <script src="../../../../../js/vendor/rainbow/generic-b357dadf.js" type="text/javascript"></script>
 <script src="../../../../../js/vendor/rainbow/javascript-0bbbe42e.js" type="text/javascript"></script><link href="../../../../../css/lib/rainbow/github-453e79e9.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="../../../../../css/lib/rainbow/linecount-9a1155c4.css" media="screen" rel="stylesheet" type="text/css" />
@@ -693,7 +668,7 @@ var disqus_shortname = 'codio'; // required: replace example with your forum sho
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/js/vendor/jquery.min-33074654.js"><\/script>')</script>
-<script src="../../../../../js/main-5d19355e.js" type="text/javascript"></script>
+<script src="../../../../../js/main-31f9892d.js" type="text/javascript"></script>
 
 
   </body>

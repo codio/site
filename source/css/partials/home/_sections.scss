@@ -298,12 +298,12 @@ section {
 
   &#box-parts {
     .container > div {
-      background: transparent image-url('home/screens/home-parts.png') no-repeat 0 184px;
+      background: transparent image-url('home/screens/home-watch.png') no-repeat 0 184px;
       background-size: 39%;
 
       @include apply-to(more-than, desktop) {
-        background-position: 66px 190px;
-        background-size: 325px;
+        background-position: 89px 150px;
+        background-size: 400px;
       }
 
       > div {
@@ -312,8 +312,8 @@ section {
 
         @include apply-to(more-than, desktop) {
           padding: 89px 0px 100px 77px;
-          margin-left: 430px;
-          width: 657px;
+          margin-left: 520px;
+          width: 537px;
         }
         p {
           line-height: 1.3em;
@@ -324,22 +324,22 @@ section {
 
   &#speed {
     .container {
-      background: transparent image-url("home/screens/speed.png") no-repeat 670px;
-      background-size: 33%;
+      background: transparent image-url("home/screens/home-engine.png") no-repeat 576px;
+      background-size: 44%;
 
       @include apply-to(more-than, desktop) {
-        background-position: 813px 111px;
-        background-size: 325px;
+        background-position: 700px 51px;
+        background-size: 480px;
       }
 
       > div {
         padding: 70px 0px 80px 0;
-        width: 640px;
+        width: 530px;
 
         @include apply-to(more-than, desktop) {
           padding: 90px 0px 100px 20px;
           margin-left: 50px;
-          width: 650px;
+          width: 575px;
         }
       }
     }

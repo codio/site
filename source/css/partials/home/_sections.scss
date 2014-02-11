@@ -275,12 +275,12 @@ section {
 
   &#boxes {
     .container {
-      background: transparent image-url("home/screens/gift-boxes.png") no-repeat 570px 103px;
-      background-size: 405px;
+      background: transparent image-url("home/screens/home-boxes.png") no-repeat 624px 93px;
+      background-size: 306px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 637px 75px;
-        background-size: 550px;
+        background-position: 742px 75px;
+        background-size: 369px;
       }
 
       > div {
@@ -298,7 +298,7 @@ section {
 
   &#box-parts {
     .container > div {
-      background: transparent image-url('home/screens/home-watch.png') no-repeat 0 184px;
+      background: transparent image-url('home/screens/home-parts.png') no-repeat 0 184px;
       background-size: 39%;
 
       @include apply-to(more-than, desktop) {

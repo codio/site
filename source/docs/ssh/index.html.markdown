@@ -1,5 +1,5 @@
 ---
-title: SSH Terminal Access
+title: Remote SSH Terminal Access
 class_name: docs
 full_width: true
 ---
@@ -14,7 +14,11 @@ A [Quick Connect](/docs/ssh/quick-connect) option lets you access remote servers
 
 You can do the same things you can do in a regular terminal window, including running text editors like Nano etc.
 
-##Copy & Paste
-If you want to copy from or paste into the SSH window, you will need to press Ctrl+A followed by Ctrl+C/Ctrl+V (Cmd for Mac users).
+##Copy & Paste operations
+Behavior varies between Macs and other operating systems. Using the right-click menu should work on all systems.
 
-You can also use the right-click menu.
+###Mac
+Copy and paste both works as expected with cmd+c and cmd+v. 
+
+###Windows, Linux
+Pasting is done as expected with ctrl+v but pasting cannot be done as this is conflicts with the 'kill process' shortcut. You will need to copy using the right-click menu.

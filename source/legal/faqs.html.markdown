@@ -41,18 +41,19 @@ If you feel that this does not explain anything well enough then please contact 
 If you don't mind anyone seeing your code, then it's free. If you stick within our Acceptable Usage Policy (which is pretty generous), then it's free. If you want to keep your code private, work in teams or stray outside the Acceptable Usage Policy limitations, then you will need a subscription.
 
 ### <a id="organizations"></a>Will there be billing support for organizations?</a>
-Yes, there will. One account can pay for other users' subscriptions. This should be available not later than October, 2013.
+Yes, there will. One account can pay for other users' subscriptions. This should be available around April, 2014.
 
-### <a id="golive"></a>When will Codio start charging?</a>
-We expect to start charging around the beginning of September, 2013.
 
 ### <a id="lockin"></a>Is there any risk of Vendor lock-in?</a>
-There may be a substantial risk of emotional lock-in but there is no technical lock-in. Any project that you build with Codio can be either exported as a ZIP file or pushed to Github directly from Codio such that you can then import that project into another environment and continue working on it.
+There may be a substantial risk of emotional lock-in but there is no technical lock-in. Any project that you build with Codio can be either exported as a ZIP file or pushed to GitHub directly from Codio so you can then import that project into another environment and continue working on it.
 
 ### <a id="ownership"></a>Does Codio have any claim on my code?</a>
 No. You own everything to do with your own code exclusively. You will find this in the Terms of Use section.
 
+### <a id="ownership"></a>How private are private projects?</a>
+We obviously take security extremely seriously and have taken all reasonable steps to protect access to our systems. We do not encrypt private project code on our servers (nor does GitHub by the way) as this would actually not be much more secure. Our staff do have access to private projects at the file system level but there is no administrative interface to make this process possible.
+
 ### <a id="limitations"></a>Are there usage limitations?</a>
-There are, although they are not very onerous. Click here to read the [Acceptable Usage Policy](/legal/aup).
+Click here to read the [Acceptable Usage Policy](/legal/aup).
 
 

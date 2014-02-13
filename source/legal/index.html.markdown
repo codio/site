@@ -37,7 +37,7 @@ submenu:
 This legal section contains links to our legal terms and policies. Equally important to us are the commitments we make to you.
 
   - You own your code and data, we don't.
-  - You can always and easily get your code out of Codio using the ZIP export or by pushing it to Github.
+  - You can always and easily get your code out of Codio using the ZIP export or by pushing it to GitHub.
   - There is nothing that Codio does to your project that binds it in any way to the Codio platform.
   - We'll do everything we can to achieve 100% uptime.
   - We will never achieve 100% uptime, but when we fall short, we'll explain why and how we'll do better next time.

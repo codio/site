@@ -44,7 +44,7 @@ body.home {
         // Tagline
         &:first-child {
           z-index: 2;
-          top: 106px;
+          top: 80px;
           left: 5px;
 
           @include apply-to(more-than, desktop) {
@@ -108,14 +108,15 @@ body.home {
 
           div {
             opacity: 0;
+            margin-top: 55px;
 
             p {
               font: 23px 'Indie Flower';
               @include rotate(-4deg);
-              margin: 40px 0 0 -3px;
+              margin: 4px 0 0 -3px;
 
               @include apply-to(more-than, desktop) {
-                margin: 40px 0 0 39px;
+                margin: 4px 0 0 39px;
                 font-size: 25px;
               }
 
@@ -125,6 +126,9 @@ body.home {
                 &:hover {
                   border-bottom: 1px solid black;
                 }
+              }
+              strong {
+                color: $linkColor;
               }
             }
 

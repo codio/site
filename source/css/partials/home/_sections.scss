@@ -157,7 +157,7 @@ section {
                 font-family: gotham_thin;
 
                 @include apply-to(more-than, desktop) {
-                  padding: 42px 0 0 50px;
+                  padding: px 0 0 50px;
                 }
               }
 
@@ -171,23 +171,23 @@ section {
 
                 @include apply-to(more-than, desktop) {
                   width: 120px;
-                  height: 110px;
+                  height: 90px;
                 }
               }
 
               #ruby-select {
                 background: transparent image-url('home/page_ruby_128.png') no-repeat;
-                background-size: 90%;
+                background-size: 75%;
               }
 
               #nodejs-select {
                 background: transparent image-url('home/page_javascript_128.png') no-repeat;
-                background-size: 90%;
+                background-size: 75%;
               }
 
               #php-select {
                 background: transparent image-url('home/page_php_128.png') no-repeat;
-                background-size: 90%;
+                background-size: 75%;
               }
             }
           }

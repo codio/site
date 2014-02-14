@@ -28,6 +28,18 @@ Once your PHP app is up and running, you can access your project from a browser 
 
 TODO : Update URL when in production
 
+##PHP Modules
+Initially, the PHP5 Box Parts installation includes several PHP modules. You can see the pre-installed modules here : [https://github.com/codio/boxparts/blob/master/lib/autoparts/packages/php5.rb#L33-L50](https://github.com/codio/boxparts/blob/master/lib/autoparts/packages/php5.rb#L33-L50).
+
+In addition, we offer many other modules than can be manually installed. These are listed here : [https://github.com/codio/boxparts/tree/master/lib/autoparts/packages](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages). If you type `parts search php` in a terminal window, you will all PHP related parts clearly listed.
+
+By about February 21st 2014, we will be removing all pre-installed modules from the PHP5 base Box Parts installation and have them all as individual Box Parts instead.
+
+##Out of Memory
+At the time of launching Boxes, each Box is restricted to 512MB of RAM. We will be adding more memory options soon, but in the meantime, you can get memory issues if you have Apache and MySQL open and running and then run a Composer task, for example.
+
+The best solution in the meantime is to `parts stop apache2 mysql` and then run Composer before restarting the services with `parts start apache2 mysql`.
+
 ##Important Reading Material
 We strongly recommend you read up on the following before going too much further
 

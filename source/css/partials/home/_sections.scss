@@ -275,12 +275,12 @@ section {
 
   &#boxes {
     .container {
-      background: transparent image-url("home/screens/home-boxes.png") no-repeat 624px 93px;
+      background: transparent image-url("home/screens/home-boxes.png") no-repeat 645px 75px;
       background-size: 306px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 742px 75px;
-        background-size: 369px;
+        background-position: 790px 75px;
+        background-size: 318px;
       }
 
       > div {

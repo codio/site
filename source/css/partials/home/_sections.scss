@@ -34,6 +34,8 @@ section {
   }
 
   &#frontback {
+    background-color: #fff;
+
     .container > div {
       @include clearfix;
       padding: 94px 0 70px;
@@ -78,7 +80,7 @@ section {
             margin-top: -8px;
             width: 190px;
           }
-        }    
+        }
 
         &:last-child {
           text-align: right;
@@ -115,11 +117,13 @@ section {
 
           h4 {
             text-align: right;
+            text-transform: lowercase;
+            font: 12px gotham_book;
           }
 
           ul {
             list-style: none;
-            margin: 25px 0 0 0;
+            margin: 50px 0 0 0;
             padding: 0;
 
             li {
@@ -157,7 +161,7 @@ section {
                 font-family: gotham_thin;
 
                 @include apply-to(more-than, desktop) {
-                  padding: px 0 0 50px;
+                  padding: 22px 0 0 73px;
                 }
               }
 
@@ -167,27 +171,27 @@ section {
                 display: block;
                 width: 97px;
                 height: 98px;
-                background-size: 100%;
+                background-size: 90px;
 
                 @include apply-to(more-than, desktop) {
-                  width: 120px;
+                  width: 90px;
                   height: 90px;
                 }
               }
 
               #ruby-select {
                 background: transparent image-url('home/page_ruby_128.png') no-repeat;
-                background-size: 75%;
+                background-size: 90px;
               }
 
               #nodejs-select {
                 background: transparent image-url('home/page_javascript_128.png') no-repeat;
-                background-size: 75%;
+                background-size: 90px;
               }
 
               #php-select {
                 background: transparent image-url('home/page_php_128.png') no-repeat;
-                background-size: 75%;
+                background-size: 90px;
               }
             }
           }
@@ -227,7 +231,7 @@ section {
             }
             @include apply-to(more-than, desktop) {
               margin: 36px 712px 0px 0px;
-            }            
+            }
           }
         }
       }
@@ -241,7 +245,7 @@ section {
 
     .container {
       @include clearfix;
-      padding: 85px 0;
+      padding: 100px 0;
 
       > div {
         float: left;

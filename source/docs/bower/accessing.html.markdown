@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Bower functionality is accessed from the `Tools > Bower` menu. Your Bower components listing will appear in the active [Panel](/docs/panels).
+Bower functionality is accessed from the `Tools > Bower` menu. Your Bower components listing will appear in the active [Panel](/docs/ide/panels).
 
 ##Installable Components
 Accessed from the `Tools > Bower > Show Installable` menu item, this allows you to search the entire Bower component registry. You can press the install button to install any components your project requires.

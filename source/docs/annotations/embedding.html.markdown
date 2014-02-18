@@ -10,7 +10,7 @@ Below is some sample HTML showing the Impress project in the fmay account being 
 
     <iframe src="http://bit.ly/18t6hEW" width="100%" height="500" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
 
-To ensure you get the display format you want, be sure to read the [Sharing and Embedding](/docs/sharing) section.
+To ensure you get the display format you want, be sure to read the [Sharing and Embedding](/docs/ide/sharing) section.
 	
 ##Open in Tour Mode
 You can open the IDE with your project running in Tour mode by specifying the url as described in the [Auto-starting from a URL](/docs/annotations/auto-start) page.

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-When Codio detects an Annotations file, the menu `Tools > Annotations Tour` will be enabled. If you click on it, the tour will start in a new tab in the currently active [Panel](/docs/panels).
+When Codio detects an Annotations file, the menu `Tools > Annotations Tour` will be enabled. If you click on it, the tour will start in a new tab in the currently active [Panel](/docs/ide/panels).
 
 The purpose of a tour is to allow someone to be guided through the file structure and code in a predefined sequence as laid out in the `annotations.md` file.
 

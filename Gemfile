@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.1"
+gem "middleman", "~>3.2"
 gem "middleman-blog"
 gem "middleman-favicon-maker"
+gem "middleman-livereload"
 gem "builder"
 
 gem 'therubyracer'  # faster ExecJS

@@ -27,18 +27,30 @@ submenu:
   -
     text: Billing & Refunds
     url: '../refund'    
-  -
-    text: Sponsored Blog Terms & Conditions
-    url: '../sponblog'         
+#  -
+#    text: Sponsored Blog Terms & Conditions
+#    url: '../sponblog'         
 ---
 
 **Effective August 7th, 2013.**
 
 Your use of the Service is subject to this Acceptable Use Policy. If you are found to be in violation of our policies at any time, as determined by Codio (or "Company") in its sole discretion, we may warn you or suspend or terminate your account. Please note that we may change our Acceptable Use Policy at any time, and pursuant to the Company Terms, it is your responsibility to keep up-to-date with and adhere to the policies posted here. All capitalized terms used herein have the meanings stated in the Terms, unless stated otherwise.
 
+  - [Quotas and Limits](#Quotas)
   - [Prohibited Content](#ProhContent)
   - [Prohibited Actions](#ProhActions)
-  - [Quotas and Limits](#Quotas)
+
+## <a name="Quotas"></a>Quota &amp; Limits
+
+All of the following limits are soft limits. We may suspend accounts or require a paid subscription, at our discretion, if they exceed these limits.
+
+Codio is intended for development purposes and is not a production platform. As Boxes operate on shared servers, we will rapidly suspend accounts that generate sustained high levels of load.
+
+- **Bandwith** usage is currently unrestricted but this may change.
+- **Storage** is soft-limited to an aggregate of 16GB across all projects.
+- **Memory** is currently restricted to 512MB per Box. We will soon be introducing higher memory options.
+- We expect you **not to have multiple projects open simultaneously** if they are using Boxes for active processing.
+- You are responsible for writing code that does **not cause high levels of processing** on Codio Boxes and we will suspend accounts that generate sustained load levels.
 
 
 ## <a id="ProhContent"></a>Prohibited Content
@@ -87,9 +99,6 @@ In addition to (and/or as some examples of) the violations described in the Term
   2. Modify the Codio logo or any other Company Marks; or
   2. Use the Service, or any interfaces provided with the Service, to access any Codio product or service in a manner that violates the Terms or other terms and conditions for use of such Codio product or service.
 
-## <a name="Quotas"></a>Quota &amp; Limits
-
-Codio does not currently have any limits on bandwidth or API usage. We have a soft storage limit of 1GB storage per user. We reserve the right to modify these in the future. However, when we make any such modifications we will notify you at least 15 days beforehand.
 
 
 

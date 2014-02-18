@@ -29,27 +29,26 @@ There are several ways to start off
 
 All of these are full described [here](/docs/console/creating).
 
-##3. PHP, Wordpress Users
-If you are working on back-end code such as PHP, Wordpress, Drupal, Joomla as well as back-end languages like Node, Ruby, Python etc. then please refer to this [chapter](/docs/back-end/).
-
-
-##4. You're in the IDE
+##3. You're in the IDE
 Once you're in the IDE, which you will be automatically after creating a project or opening an existing one, you're ready to start coding.
 
-The most important thing is for you to be aware of the features that are available so you can take advantage of them when you need them. Here's a list ...
+The most important thing is for you to be aware of the features that are available so you can take advantage of them when you need them. Check out the features page that list and demonstrate many of Codio's key features
 
-- [Preferences & Settings](/docs/settings-prefs) : customize actions, settings and keyboard shortcuts
-- [Productivity Features](/docs/emmet) : keyboard shortcuts, snippets, TernJS, autocomplete, code beautification and more
-- [Panel Management](/docs/panels) : create panels in any configuration you want
-- [Git](/docs/git) : access your GitHub and other repos from a Codio Panel with great Git support
-- [Deployment](/docs/deployment) : create and manage any number of deployment targets per project
-- [Bower](/docs/bower) : we have baked Bower directly into Codio
-- [CoffeeScript, Sass, SCSS and Less](/docs/compiling) : edit and preview without any special compilation required
-- [Annotations](/docs/annotations) : annotate your code projects so people can get a guided tour or simply explore a project and get properly documented explanations
-- [SalesForce.com](/docs/salesforce) : this is a Codio experiment that lets anyone access their SalesForce.com Classes, Pages and Triggers 
+- [Videos of Codio's key features](/features)
 
-##5. Find out what Codio can do
-We get a lot of questions asking us to add support for certain features when they are already available. So please take a look at the [Feature Roundup](/docs/feature-roundup) section.
+##4. A bit about 'Boxes'
+Whenever you create a project, you automatically get a back-end server 'Box' with it. The Box comes preconfigured with 
+
+- Node (including nvm)
+- Ruby (including rbenv)
+- Python (2.7.3)
+- Git, Mercurial & SVN
+- Add your own languages, middleware, databases etc. using [Box Parts](/docs/boxes/box-parts)
+
+You can access your Box from 'Tools->Terminal'. You can also configure your own terminal commands from the [Run menu](/docs/boxes/run). 
+
+- [General Box documentation](/docs/boxes).
+- [Box Feature Videos](/features)
 
 
 

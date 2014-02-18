@@ -1,10 +1,12 @@
 ---
-title: SSH Terminal Access
+title: Remote SSH Terminal Access
 class_name: docs
 full_width: true
 ---
 
-Codio provides the ability to connect to a remote server via SSH. You can open multiple connections and manage connections through the [SSH Connection Manager](/docs/ssh/ssh-manager).
+**Important** : if you are looking for information on how to connect to your project 'Box' using the terminal/console window, then please [read about Boxes](/docs/boxes).
+
+Codio provides the ability to connect to remote servers via SSH. You can open multiple connections and manage connections through the [SSH Connection Manager](/docs/ssh/ssh-manager).
 
 A [Quick Connect](/docs/ssh/quick-connect) option lets you access remote servers on an ad hoc basis. The SSH Connection Manager lets you store connections for quick access later.
 
@@ -12,5 +14,11 @@ A [Quick Connect](/docs/ssh/quick-connect) option lets you access remote servers
 
 You can do the same things you can do in a regular terminal window, including running text editors like Nano etc.
 
-##Copy & Paste
-If you want to copy from or paste into the SSH window, you will need to press Ctrl+A followed by Ctrl+C/Ctrl+V.
+##Copy & Paste operations
+Behavior varies between Macs and other operating systems. Using the right-click menu should work on all systems.
+
+###Mac
+Copy and paste both works as expected with cmd+c and cmd+v. 
+
+###Windows, Linux
+Pasting is done as expected with ctrl+v but pasting cannot be done as this is conflicts with the 'kill process' shortcut. You will need to copy using the right-click menu.

@@ -139,6 +139,22 @@ img {
   }
 }
 
+.links-big {
+  padding-top: 45px;
+
+  a {
+    font: 18px gotham_light;
+    color: #DC7368;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 3px;
+
+    &:hover {
+      border-bottom: 2px solid $red;
+      color: $red;
+    }
+  }
+}
+
 
 // Import partials
 @import 'partials/nav';
@@ -148,11 +164,9 @@ img {
 
 // Import pages
 @import 'pages/home';
-@import 'pages/home-php';
-@import 'pages/home-wordpress';
-@import 'pages/home-salesforce';
-@import 'pages/home-webdesign';
 @import 'pages/home-sponblog';
+@import 'pages/tutorials';
 @import 'pages/blog';
 @import 'pages/docs';
 @import 'pages/pricing';
+@import 'pages/features';

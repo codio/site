@@ -13,7 +13,7 @@ If you don't want to learn much about the Codio IDE and just want to show some c
 
 - Create an Account - (Codio is free for all public projects)
 - [Importing a Project](/docs/console/creating/) (usually by importing from ZIP or cloning a Git repo)
-- [Sharing and Embedding your project](/docs/sharing)
+- [Sharing and Embedding your project](/docs/ide/sharing)
 
 ##Scenario 1 : Codepen
 It's actually very easy to achieve a Codepen type layout.
@@ -26,7 +26,7 @@ It's actually very easy to achieve a Codepen type layout.
 1. Open up your files in the panels (click on the panel first before selecting a file)
 1. Select the bottom panel that crosses the entire width and then select `Tools > Preview` to open up an inline preview in the panel.
 1. Close down the file tree if you don't need to let the user navigate files
-1. From the menu, go to `Project > Share` (read about Sharing [here](/docs/sharing))
+1. From the menu, go to `Project > Share` (read about Sharing [here](/docs/ide/sharing))
 
 ##Scenario 2 : IDE Tutorial / Project
 This scenario is set up in the same way as the above scenario. However, rather than selecting `View > Layout > Showcase`, you set up the panels in any way you want them as described in the [Panels]() section.

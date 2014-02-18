@@ -93,7 +93,7 @@ Now we'll move on to how you would normally work in development.
 ##Deploy & Preview
 If you are using an SFTP or FTP deployment target (RYSNC is better) then you should be careful using Deploy & Preview as it will always deploy your entire project first. RSYNC only needs to deploy the modified files.
 
-Working with the Preview button in the menu bar makes the whole [development and preview workflow](/docs/inline-preview) really effortless.
+Working with the Preview button in the menu bar makes the whole [development and preview workflow](/docs/ide/inline-preview) really effortless.
 
 1. Open the `index.php` file in the root of the project
 1. Select the dropdown arrow and you will see the Preview options

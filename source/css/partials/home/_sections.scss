@@ -2,18 +2,11 @@ section {
   position: relative;
 
   &:nth-child(odd) {
-    @include even-section;
+    background-color: #f9f9f9;
   }
 
   .container > div {
     padding: 0;
-    margin-left: 300px;
-    width: $ipad-landscape - 300;
-
-    @include apply-to(more-than, desktop) {
-      margin-left: 350px;
-      width: $desktop - 350;
-    }
 
     h2 {
       font: 34px gotham_medium;
@@ -25,7 +18,7 @@ section {
       color: #8F8F99;
       font: 26px gotham_thin;
       margin: 8px 0 24px;
-      text-transform: initial;
+      text-transform: none;
     }
 
     p {
@@ -38,23 +31,20 @@ section {
         color: #444;
       }
     }
-
-    .coming-soon {
-      font: 14px gotham_light;
-      font-style: italic;
-      text-transform: uppercase;
-      color: #BEA3A1;
-    }
   }
 
-  &#overview {
+  &#frontback {
     .container > div {
       @include clearfix;
-      padding: 130px 0 70px 0;
+      padding: 94px 0 70px;
+
+      @include apply-to(more-than, desktop) {
+        padding: 111px 60px 48px 72px;
+      }
 
       h2 {
         color: #333;
-        font: 28px gotham_light;
+        font: 34px gotham_light;
 
         span {
           display: none;
@@ -71,243 +61,312 @@ section {
 
       div {
         float: left;
-        width: 250px;
+        width: 375px;
 
         @include apply-to(more-than, desktop) {
-          width: 335px;
-        }
-
-        &:first-child {
-          @include apply-to(more-than, desktop) {
-            margin-right: 10px;
-          }
+          width: 407px;
         }
 
         &:nth-child(2) {
-          width: 180px;
+          width: 160px;
           text-align: center;
-          margin-top: 30px;
+          margin-top: 10px;
+          padding: 0px 17px 0px 40px;
 
           @include apply-to(more-than, desktop) {
-            margin-top: 0;
+            padding: 0px 10px 0px 30px;
+            margin-top: -8px;
+            width: 190px;
+          }
+        }    
+
+        &:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  &#languages {
+    .container > div {
+      @include clearfix;
+      padding: 60px 0 0;
+
+      div {
+        float: left;
+
+        &:first-child {
+          width: 175px;
+          padding-right: 30px;
+
+          @include apply-to(more-than, desktop) {
+            width: 240px;
+          }
+
+          h3 {
+            text-align: right;
+            color: #666;
+            font-size: 22px;
+
+            @include apply-to(more-than, desktop) {
+              font-size: 24px;
+            }
+          }
+
+          h4 {
+            text-align: right;
+          }
+
+          ul {
+            list-style: none;
+            margin: 25px 0 0 0;
+            padding: 0;
+
+            li {
+              @include clearfix;
+              list-style: none;
+              margin-bottom: 5px;
+
+              @include apply-to(more-than, desktop) {
+                margin-left: 17px;
+              }
+
+              &.active,
+              &:hover {
+                @include even-section;
+
+                span {
+                  color: $red;
+                  font-family: gotham_book;
+                }
+              }
+
+              &.active {
+                border-right: 3px solid $red;
+              }
+
+              span {
+                float: left;
+                display: block;
+                width: 50px;
+                font: 12px gotham_book;
+                padding: 25px 10px 0 15px;
+                line-height: 1.4em;
+                text-align: right;
+                color: #bbb;
+                font-family: gotham_thin;
+
+                @include apply-to(more-than, desktop) {
+                  padding: px 0 0 50px;
+                }
+              }
+
+              a {
+                float: left;
+                text-indent: -9999px;
+                display: block;
+                width: 97px;
+                height: 98px;
+                background-size: 100%;
+
+                @include apply-to(more-than, desktop) {
+                  width: 120px;
+                  height: 90px;
+                }
+              }
+
+              #ruby-select {
+                background: transparent image-url('home/page_ruby_128.png') no-repeat;
+                background-size: 75%;
+              }
+
+              #nodejs-select {
+                background: transparent image-url('home/page_javascript_128.png') no-repeat;
+                background-size: 75%;
+              }
+
+              #php-select {
+                background: transparent image-url('home/page_php_128.png') no-repeat;
+                background-size: 75%;
+              }
+            }
           }
         }
 
         &:last-child {
-          text-align: right;
+          width: 747px;
+          background: transparent image-url('home/video_mac.png') no-repeat;
+          background-size: 979px 804px;
+          background-position: -91px -106px;
+          height: 545px;
+          padding: 27px 0 0 26px;
 
           @include apply-to(more-than, desktop) {
-            width: 320px;
+            width: 878px;
+            background-size: 1099px 900px;
+            background-position: -59px -106px;
+            height: 615px;
+            padding: 42px 0 0 76px;
+          }
+
+          iframe {
+            width: 723px;
+            height: 444px;
+
+            @include apply-to(more-than, desktop) {
+              width: 805px;
+              height: 495px;
+            }
+          }
+
+          p {
+            font: 14px gotham_medium;
+            margin: 28px 580px 0px 0px;
+            i {
+              color: $red;
+            }
+            @include apply-to(more-than, desktop) {
+              margin: 36px 712px 0px 0px;
+            }            
           }
         }
       }
     }
   }
 
-  &#panels {
+
+  &#ide {
+    background-color: #EAEDF2;
+    @include box-shadow(0 0 6px #888);
+
     .container {
-      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
-      background-size: 480px;
-
-      @include apply-to(more-than, desktop) {
-        background-position: 785px;
-      }
+      @include clearfix;
+      padding: 85px 0;
 
       > div {
-        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-        background-size: 15px;
-        padding: 90px 280px 90px 0;
-        width: 400px;
+        float: left;
 
-        @include apply-to(more-than, desktop) {
-          padding: 120px 474px 120px 0;
+        &:first-child {
+          width: 214px;
+          padding-right: 60px;
+
+          @include apply-to(more-than, desktop) {
+            padding-left: 60px;
+          }
+        }
+
+        &:last-child {
+          width: 706px;
+          background: transparent image-url('home/screens/home-todomvc.png') no-repeat;
+          background-size: 100%;
+          height: 437px;
+          @include box-shadow(0px 3px 24px #666);
+          border-radius: 6px;
+
+          @include apply-to(more-than, desktop) {
+            margin-right: 70px;
+            width: 820px;
+            height: 508px;
+          }
         }
       }
     }
   }
 
-  &#productivity {
-    .container > div {
-      @include screenie;
-      background: transparent image-url('home/screens/productivity.png') no-repeat -238px center;
-      background-size: 75%;
-
-      @include apply-to(more-than, desktop) {
-        background-position: -110px center;
-        background-size: 48%;
-      }
-
-      > div {
-        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 14px;
-        padding: 130px 0 130px 320px;
-        width: 360px;
-
-        @include apply-to(more-than, desktop) {
-          width: 500px;
-          background-size: 12px;
-          padding-left: 374px;
-        }
-      }
-    }
-  }
-
-  &#demonstrate {
+  &#boxes {
     .container {
-      background: transparent image-url("home/screens/share-btn.png") no-repeat 791px;
-      background-size: 227px;
+      background: transparent image-url("home/screens/home-boxes.png") no-repeat 645px 75px;
+      background-size: 306px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 900px;
-        background-size: 279px;
+        background-position: 790px 75px;
+        background-size: 318px;
       }
 
       > div {
-        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-        background-size: 7px;
-        padding: 102px 220px 102px 0;
-        width: 460px;
+        padding: 70px 0px 80px 0;
+        width: 550px;
 
         @include apply-to(more-than, desktop) {
-          background: none;
-          padding: 102px 370px 102px 0;
-          width: 500px;
+          padding: 80px 0px 100px 20px;
+          margin-left: 50px;
+          width: 550px;
         }
       }
     }
   }
 
-  &#deployment {
+  &#box-parts {
     .container > div {
-      @include screenie;
-      background: transparent image-url('home/screens/deploy.png') no-repeat -30px center;
-      background-size: 60%;
+      background: transparent image-url('home/screens/home-parts.png') no-repeat 0 184px;
+      background-size: 39%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -30px center;
-        background-size: 48%;
+        background-position: 89px 150px;
+        background-size: 400px;
       }
 
       > div {
-        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 14px;
-        padding: 130px 0 130px 429px;
-        width: 330px;
+        padding: 80px 0 90px 470px;
+        width: 500px;
 
         @include apply-to(more-than, desktop) {
-          width: 421px;
-          background-size: 12px;
+          padding: 89px 0px 100px 77px;
+          margin-left: 520px;
+          width: 537px;
+        }
+        p {
+          line-height: 1.3em;
         }
       }
     }
   }
 
-  &#sourcecontrol .container {
-    background: transparent image-url("home/branching-illustration.png") no-repeat 784px;
-
-    @include apply-to(more-than, desktop) {
-      background-position: 845px;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right 154px;
-      background-size: 8px;
-      padding: 101px 220px 102px 0;
-      width: 460px;
+  &#speed {
+    .container {
+      background: transparent image-url("home/screens/home-engine.png") no-repeat 576px;
+      background-size: 44%;
 
       @include apply-to(more-than, desktop) {
-        background-image: none;
-        padding: 102px 414px 102px 0;
+        background-position: 700px 51px;
+        background-size: 480px;
+      }
+
+      > div {
+        padding: 70px 0px 80px 0;
+        width: 530px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 90px 0px 100px 20px;
+          margin-left: 50px;
+          width: 575px;
+        }
       }
     }
   }
 
-  &#terminal .container {
-    background: transparent image-url("home/screens/ssh-term.png") no-repeat 675px;
-    background-size: 430px;
-
-    @include apply-to(more-than, desktop) {
-      background-size: 420px;
-      background-position: 813px;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-      background-size: 17px;
-      padding: 102px 320px 102px 0;
-      width: 360px;
-
-      @include apply-to(more-than, desktop) {
-        padding-right: 474px;
-        width: 400px;
-      }
-    }
-  }
-
-  &#compiled {
+  &#integrated {
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/compiled.png') no-repeat -150px;
-      background-size: initial;
+      background: transparent image-url('home/screens/bower.png') no-repeat -121px center;
+      background-size: 54%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -126px;
+        background-position: -120px center;
+        background-size: 46%;
+        margin-left: 70px;
       }
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 11px;
-        padding: 101px 0 101px 350px;
-        width: 330px;
+        padding: 130px 0 130px 520px;
+        width: 460px;
 
         @include apply-to(more-than, desktop) {
-          padding-left: 350px;
           width: 500px;
-        }
-      }
-    }
-  }
-
-  &#realtime .container {
-
-    background: transparent image-url("home/collab.gif") no-repeat 775px center;
-    background-size: 356px;
-
-    @include apply-to(more-than, desktop) {
-      background-position: 832px;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-      background-size: 13px;
-      padding: 102px 220px 102px 0;
-      width: 460px;
-
-      @include apply-to(more-than, desktop) {
-        background-image: none;
-        padding: 102px 414px 102px 0;
-      }
-    }
-  }
-
-  &#baked {
-    .container > div {
-      @include screenie;
-      background: transparent image-url('home/screens/bower.png') no-repeat -355px center;
-      background-size: 92%;
-
-      @include apply-to(more-than, desktop) {
-        background-position: -297px;
-        background-size: 70%;
-      }
-
-      > div {
-        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 12px;
-        padding: 102px 0 102px 300px;
-
-        @include apply-to(more-than, desktop) {
-          padding-left: 350px;
+          background-size: 12px;
+          padding: 130px 0 130px 595px;
         }
 
         ul {
@@ -328,118 +387,35 @@ section {
     }
   }
 
-  &#annotate .container {
-    background: transparent image-url("home/screens/annotations.png") no-repeat 675px;
-    background-size: 500px;
-
-    @include apply-to(more-than, desktop) {
-      background-position: 758px;
-    }
-
-    > div {
-      background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-      background-size: 14px;
-      padding: 102px 320px 102px 0;
-      width: 360px;
+  &#tutorials {
+    .container {
+      background: transparent image-url("home/nodejs.png") no-repeat 647px 109px;
+      background-size: 33%;
 
       @include apply-to(more-than, desktop) {
-        padding: 102px 514px 102px 0;
-      }
-    }
-  }
-
-  &#speed {
-    .container > div {
-      @include clearfix;
-      padding: 101px 0 100px;
-      background: transparent image-url('home/fast.png') no-repeat bottom;
-
-      h2 {
-        color: #333;
-        font: 28px gotham_light;
+        background-position: 813px 111px;
+        background-size: 325px;
       }
 
-      p {
-        font-size: 18px;
-      }
-
-      div {
-        float: left;
-        width: 330px;
+      > div {
+        padding: 70px 0px 100px 0;
+        width: 640px;
 
         @include apply-to(more-than, desktop) {
-          width: 340px;
+          padding: 90px 0px 100px 20px;
+          margin-left: 50px;
+          width: 650px;
         }
 
-        &:first-child {
-          margin-right: 20px;
-
-          @include apply-to(more-than, desktop) {
-            margin-right: 160px;
-          }
+        h2 {
+          font-size: 28px;
         }
 
-        &:last-child {
-          text-align: right;
+        p {
+          font-size: 16px;
         }
       }
     }
   }
 
-  &#opensource {
-    .container > div {
-      @include clearfix;
-      padding: 130px 0 70px 0;
-
-      h2 {
-        color: #333;
-        font: 28px gotham_light;
-
-        span {
-          display: none;
-
-          @include apply-to(more-than, desktop) {
-            display: inline;
-          }
-        }
-      }
-
-      p {
-        font-size: 18px;
-      }
-
-      div {
-        float: left;
-        width: 250px;
-
-        @include apply-to(more-than, desktop) {
-          width: 335px;
-        }
-
-        &:first-child {
-          @include apply-to(more-than, desktop) {
-            margin-right: 10px;
-          }
-        }
-
-        &:nth-child(2) {
-          width: 180px;
-          text-align: center;
-          margin-top: 30px;
-
-          @include apply-to(more-than, desktop) {
-            margin-top: 20px;
-          }
-        }
-
-        &:last-child {
-          text-align: right;
-
-          @include apply-to(more-than, desktop) {
-            width: 320px;
-          }
-        }
-      }
-    }
-  }
 }

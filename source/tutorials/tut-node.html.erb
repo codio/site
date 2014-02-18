@@ -1,0 +1,14 @@
+---
+title: Codio Tutorials
+class_name: home home-tutorials
+---
+
+<%= partial 'partials/tutorials/header' %>
+<%= partial 'partials/tutorials/nodeschool' %>
+<%= partial 'partials/tutorials/grunt' %>
+<%= partial 'partials/tutorials/grunt-watch' %>
+
+
+<% content_for :foot do %>
+  <%= javascript_include_tag 'home' %>
+<% end %>

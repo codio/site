@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and [preview](/docs/inline-preview) within Codio.
+GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and [preview](/docs/ide/inline-preview) within Codio.
 
 ##Simple Approach
 The first approach is great for anyone wanting to put a simple button into a GitHub README page and then, when clicked, it creates a Codio fork in an anonymous account. 
@@ -54,7 +54,7 @@ The drawback with this approach is that any changes you make to the GitHub repo 
 If you are a repo maintainer and you want to offer a super fast way for people to see, in an IDE, your repo code or maybe a demo then...
 
 - follow the steps, described in the above section, to create a Codio project in your own account
-- now select the Project->Share menu item ([explained in detail here](/docs/sharing))
+- now select the Project->Share menu item ([explained in detail here](/docs/ide/sharing))
 - Now select the Markdown option (circled below)
 - Copy and paste one of the button options into your README.md file and you'll get a nice button your users can click
 

@@ -130,7 +130,7 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
-
+activate :livereload
 
 # Landing pages
 [ "github-ide", "cp-fiddle", "salesforce", "parse" ].each do |name|
@@ -151,7 +151,8 @@ configure :build do
   activate :asset_hash
   activate :cache_buster
 
-  activate :favicon_maker
+  # until image_magick fixed:
+  # activate :favicon_maker
 
   # Use relative URLs
   activate :relative_asset

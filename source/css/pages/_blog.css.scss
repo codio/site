@@ -3,7 +3,7 @@ body.blog {
   #site-nav {
     margin-left: 35px !important;
 
-    li:nth-child(3) a {
+    li:nth-child(4) a {
       color: #000;
       border-color: #f36050;
       font-family: gotham_medium;
@@ -200,7 +200,7 @@ body.blog {
         h3 {
           margin: 0 0 0 150px;
           font-size: 16px;
-          text-transform: initial;
+          text-transform: none;
         }
 
         .meta {

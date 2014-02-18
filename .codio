@@ -1,0 +1,17 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Middleman": "middleman -p 3000",
+        "Build": "middleman build",
+        "Deploy to Staging": "cap staging deploy"
+        
+  },
+
+// Preview button configuration
+  "preview": {
+         "Docs": "http://{{domain}}:3000/docs",
+         "Home Page": "http://{{domain}}:3000/"
+  }
+}

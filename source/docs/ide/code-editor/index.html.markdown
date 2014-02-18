@@ -1,5 +1,5 @@
 ---
-title: Basic Code Editing
+title: Code Editing
 class_name: docs
 full_width: true
 ---

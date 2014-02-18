@@ -24,7 +24,7 @@ When setting up the deployment target, select "Parse.com ..." from the **Destina
 There are no parameters to enter as all relevant information is taken from the `config/global.json' file.
 
 ##Base Path
-We recommend you set the base path field for remote servers as [described here](/docs/deployment/basepath). This will be useful when using the [Preview](/docs/inline-preview) feature.
+We recommend you set the base path field for remote servers as [described here](/docs/deployment/basepath). This will be useful when using the [Preview](/docs/ide/inline-preview) feature.
 
 ##Parse.com Folder Structure
 Here is a very simple Parse.com app in Codio.

@@ -42,6 +42,17 @@ results in
 	    </ul>
 	</div>
 
+##Insertion Stops / Edit Points
+Emmet offers some abbreviations that have insertion points. For example, 
+
+	a:link
+
+will insert 
+
+	<a href="http://|"></a>
+
+Where the '|' character represents the cursor after insertion. After you have entered the `href` url you should press `ctrl+alt+right arrow` (not the Tab key) to jump to the next edit point.
+
 ##More HTML Examples
 Be sure to check out [HTML Abbreviations](http://docs.emmet.io/abbreviations/).
 

@@ -8,9 +8,9 @@ Codio offers a couple of ways to preview your application as you can see from th
 
 ![Preview menu](/img/docs/preview.png)
 
-You can run a preview window within a [Codio IDE Panel](/docs/panels) as well as in a new browser tab. Configuring the preview in a separate panel lets you edit code and preview at the same time.
+You can run a preview window within a [Codio IDE Panel](/docs/ide/panels) as well as in a new browser tab. Configuring the preview in a separate panel lets you edit code and preview at the same time.
 
-![inline preview](/img/docs/inline-preview.png)
+![inline preview](/img/docs/ide/inline-preview.png)
 
 ##Menu
 You will find Preview in the Tools menu at the top of the page.

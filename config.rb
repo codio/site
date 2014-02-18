@@ -147,12 +147,12 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
+  # until image_magick fixed:
+  activate :favicon_maker
+
   activate :gzip
   activate :asset_hash
   activate :cache_buster
-
-  # until image_magick fixed:
-  activate :favicon_maker
 
   # Use relative URLs
   activate :relative_asset

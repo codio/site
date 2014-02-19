@@ -22,11 +22,6 @@ body.pricing {
     }
   }
 
-  .education {
-    font-size:22px;
-    color: $red;
-  }
-
   .wrap > .container {
     padding-bottom: 180px;
 
@@ -108,9 +103,9 @@ body.pricing {
 
             p {
               text-align: center;
-              margin: 14px auto 0;
+              margin: 26px auto 0;
 
-              a {
+              a:first-child {
                 display: block;
                 color: #fff;
                 font: 24px gotham_light;
@@ -122,6 +117,12 @@ body.pricing {
                   background-color: darken(#f36050, 4%);
                   text-decoration: none;
                 }
+              }
+
+              a:last-child {
+                margin-top: 24px;
+                display: block;
+                font: 16px gotham_medium;
               }
 
               &:last-child(-1) {
@@ -136,7 +137,7 @@ body.pricing {
 
       &#faqs {
         @include clearfix;
-        margin-top: 50px;
+        margin-top: 90px;
 
         h2 {
           float: left;

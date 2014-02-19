@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (3.2.16)
+    activesupport (3.2.17)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.3.5)
@@ -92,7 +92,7 @@ GEM
     net-ssh (2.8.0)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
-    oj (2.5.4)
+    oj (2.5.5)
     rack (1.5.2)
     rack-livereload (0.3.15)
       rack
@@ -104,7 +104,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
-    redcarpet (3.1.0)
+    redcarpet (3.1.1)
     ref (1.0.5)
     sass (3.2.14)
     sprockets (2.10.1)

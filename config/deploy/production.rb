@@ -1,8 +1,7 @@
 set :stage, :production
 set :bundle_bins, fetch(:bundle_bins, []).push('middleman')
 
-server 'web1.int.codio.com', user: 'deploy', roles: %w{web app db}
-server 'web2.int.codio.com', user: 'deploy', roles: %w{web app db}
+role :webserver, %w{ web3.int.codio.com web4.int.codio.com }, user: 'capistrano'
 
 
 namespace :middleman do

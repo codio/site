@@ -11,10 +11,10 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (~> 1.3)
-    capistrano-bundler (1.1.1)
+    capistrano-bundler (1.1.2)
       capistrano (~> 3.0)
-      sshkit (>= 1.2.0)
-    chunky_png (1.2.9)
+      sshkit (~> 1.2)
+    chunky_png (1.3.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -41,7 +41,7 @@ GEM
     http_parser.rb (0.5.3)
     i18n (0.6.9)
     json (1.8.1)
-    kramdown (1.3.1)
+    kramdown (1.3.2)
     libv8 (3.16.14.3)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
@@ -104,7 +104,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
-    redcarpet (3.0.0)
+    redcarpet (3.1.0)
     ref (1.0.5)
     sass (3.2.14)
     sprockets (2.10.1)
@@ -122,8 +122,8 @@ GEM
       net-ssh
       term-ansicolor
     subexec (0.2.3)
-    term-ansicolor (1.2.2)
-      tins (~> 0.8)
+    term-ansicolor (1.3.0)
+      tins (~> 1.0)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
@@ -131,7 +131,7 @@ GEM
     thread_safe (0.1.3)
       atomic
     tilt (1.4.1)
-    tins (0.13.2)
+    tins (1.0.0)
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
     uglifier (2.4.0)

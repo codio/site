@@ -20,5 +20,5 @@ Codio offers a fully customizable Preview menu so you can preview both static fi
 - [Preview documentation](/docs/ide/inline-preview)
 
 ##Ports
-You can configure external access to your project over ports 1024 - 4000, so you'll need to configure your Web Server, Node.JS etc., to use a port within this range.
+You can configure external access to your project over ports 1024 - 9999, so you'll need to configure your Web Server, Node.JS etc., to use a port within this range.
 

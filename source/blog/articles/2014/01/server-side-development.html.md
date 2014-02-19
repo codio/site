@@ -37,7 +37,7 @@ Box Parts is built with Ruby and is open source. Head on over to the [Github rep
 
 Every project will also allow you to access your running processes via a public facing domain name. For example, if you want to run a Ruby on Rails server over port 3000, just install Rails and start the Rails server. Then point your browser to `YOURPROJECT.USERNAME.codio.com:3000`.
 
-We will allow the port range `1024-4096` for your own services.
+We will allow the port range `1024-9999` for your own services.
 
 ---
 

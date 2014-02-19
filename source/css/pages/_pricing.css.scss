@@ -22,6 +22,11 @@ body.pricing {
     }
   }
 
+  .education {
+    font-size:22px;
+    color: $red;
+  }
+
   .wrap > .container {
     padding-bottom: 180px;
 
@@ -80,7 +85,7 @@ body.pricing {
 
             h3 {
               font: 36px gotham_thin;
-              margin: 50px 0 40px 34px;
+              margin: 40px 0 12px 34px;
               width: 270px;
               text-align: right;
 
@@ -103,7 +108,7 @@ body.pricing {
 
             p {
               text-align: center;
-              margin: 40px auto 0;
+              margin: 14px auto 0;
 
               a {
                 display: block;
@@ -119,7 +124,7 @@ body.pricing {
                 }
               }
 
-              &:last-child {
+              &:last-child(-1) {
                 font-size: 12px;
                 margin: 34px 35px 0;
                 color: #888;

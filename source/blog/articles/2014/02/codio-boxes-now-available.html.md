@@ -14,6 +14,8 @@ I am extremely excited to announce the immediate and total availability of the a
 
 Every single project in Codio has its very own Box. Each Box is an isolated development environment, running Ubuntu 12.04 and with full terminal access via a secure SSH connection - all right within Codio. Your project's code is mounted to this Box, which means you can manage your files and folders from the Terminal, or continue using the Codio IDE. So if you create a file from the Terminal, it will immediately show up in the file tree of the IDE, and vice versa.
 
+We've updated the [Docs](/s/docs/) and the site with a new [homepage](/) and [features page](/s/features).
+
 **Go ahead and try it!** We spent yesterday migrating all existing projects, so all your old and existing projects now have a Box to play with, as well as any new project you create.
 
 ## Fast

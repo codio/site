@@ -14,7 +14,7 @@ I am extremely excited to announce the immediate and total availability of the a
 
 Every single project in Codio has its very own Box. Each Box is an isolated development environment, running Ubuntu 12.04 and with full terminal access via a secure SSH connection - all right within Codio. Your project's code is mounted to this Box, which means you can manage your files and folders from the Terminal, or continue using the Codio IDE. So if you create a file from the Terminal, it will immediately show up in the file tree of the IDE, and vice versa.
 
-We've updated the [Docs](/s/docs/) and the site with a new [homepage](/) and [features page](/s/features).
+We've updated the [Docs](/docs/) and the site with a new [homepage](/) and [features page](/features).
 
 **Go ahead and try it!** We spent yesterday migrating all existing projects, so all your old and existing projects now have a Box to play with, as well as any new project you create.
 
@@ -24,7 +24,7 @@ Create or open a project, and your Box is ready to go. Just open the Terminal an
 
 ## Full Stack
 
-Unlike other online IDE's, you do not have to choose what stack you have on your box. This is because we make it all available to you on every project. [rbenv](https://github.com/sstephenson/rbenv) and [NVM](https://github.com/creationix/nvm) are installed as standard to allow you to install and switch Rubies and NodeJS versions at will, and the [Box Parts](/s/docs/boxes/box-parts/) package manager allows you to install loads of other languages, databases and other software directly onto your box.
+Unlike other online IDE's, you do not have to choose what stack you have on your box. This is because we make it all available to you on every project. [rbenv](https://github.com/sstephenson/rbenv) and [NVM](https://github.com/creationix/nvm) are installed as standard to allow you to install and switch Rubies and NodeJS versions at will, and the [Box Parts](/docs/boxes/box-parts/) package manager allows you to install loads of other languages, databases and other software directly onto your box.
 
 ## Customisable
 

@@ -12,6 +12,8 @@ When Codio creates a new project, it will generate a unique subdomain name for i
 ##Preview Menu
 Codio offers a fully customizable Preview menu so you can preview both static files (.html) and server side files (.php, .rb etc.) with a single click. 
 
+**IMPORTANT**: accessing static content (.html) will not work by selecting a 'Preview static' option, so please follow the documentation link below.
+
 - [Preview documentation](/docs/ide/inline-preview)
 
 ##Ports

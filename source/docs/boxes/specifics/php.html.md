@@ -24,9 +24,8 @@ If you want to change your Apache configuration, then you can edit the `~/.parts
 ##Accessing your application
 Once your PHP app is up and running, you can access your project from a browser or API call etc. This is easily using done using [Preview button](/docs/ide/inline-preview). When you click it, you will see the URL to your Box, which will look something like this 
 
-`word1-word2.codiodev.com:port`
+`word1-word2.codio.io:port`
 
-TODO : Update URL when in production
 
 ##PHP Modules
 Initially, the PHP5 Box Parts installation includes several PHP modules. You can see the pre-installed modules here : [https://github.com/codio/boxparts/blob/master/lib/autoparts/packages/php5.rb#L33-L50](https://github.com/codio/boxparts/blob/master/lib/autoparts/packages/php5.rb#L33-L50).

@@ -6,13 +6,8 @@ full_width: true
 
 When Codio creates a new project, it will generate a unique subdomain name for it. This name will consist of two words as follows
 
-    word1-word2.codiodev.com:port
-   
-When we move our Boxs release into production, this will change to something friendlier, like
+    word1-word2.codio.io:port
 
-	word1-word2.cod.io
-
-*TODO: update domain name once on production servers*
 
 ##Preview Menu
 Codio offers a fully customizable Preview menu so you can preview both static files (.html) and server side files (.php, .rb etc.) with a single click. 

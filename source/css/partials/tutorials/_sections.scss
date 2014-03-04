@@ -134,6 +134,30 @@ section {
     }
   }    
 
+  &#yeoman {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/yeoman-logo.png') no-repeat -0px center;
+      background-size: 30%;
+      background-position: 16px 165px;
+      margin-left: 78px;
+
+      @include apply-to(less-than, desktop) {
+        background-position: 0px 180px;
+        background-size: 35%;
+      }
+
+      > div {
+        background-size: 11px;
+        padding-left: 413px;
+        width: 639px;      
+        @include apply-to(less-than, desktop) {
+          padding-left: 301px;
+          width: 612px;  
+        }        
+      }
+    }
+  }   
  
 
 }

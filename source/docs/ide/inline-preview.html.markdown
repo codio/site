@@ -4,17 +4,21 @@ class_name: docs
 full_width: true
 ---
 
-The Preview button lets you preview one or more web pages with a simple button press. Codio creates three default entries in the Preview menu automatically. 
+The Preview button lets you preview one or more web pages with a simple button press. Codio creates four default entries in the Preview menu automatically. 
 
 ![preview](/img/docs/preview-deploy.png)
 
 - **The Project Index** - this is the default file to run for your project. It can be set by right-clicking a file in the file tree. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the 'Box URL' option. 
 - **Current File** - whichever code file currently has focus. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the 'Box URL' option. 
-- **Box URL** - use this option for previewing PHP, Ruby or other server side languages. There is [more documentation on this here](/docs/boxes/ext-access).
+- **Box URL** - use this option for previewing PHP, Ruby or other server side languages over http. [Click here](/docs/boxes/ext-access) for more information on configuring port access for http.
+- **Box URL SSL** - use this option for previewing PHP, Ruby or other server side languages over SSL. [Click here](/docs/boxes/ext-access) for more information on configuring port access for https.
+
 
 If you right-click a file in the file tree or the Tab, you can also select 'Preview current file'.
 
 ![preview](/img/docs/preview-deploy-right-click.png)
+
+##
 
 ##Modifying the Preview menu
 You are free to customize the menu by modifying the `.codio` file that lives in the root of your project. For details about the various tokens that can be inserted, please refer to ['Customizing the Run menu'](/docs/boxes/run). `{{domain}}` is the key token and is replaced by the public url of your project. In most cases you will want to add the Port number to your service, as shown in the example below.

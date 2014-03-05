@@ -1,5 +1,5 @@
 ---
-title: Codio Annotations
+title: Codio Annotations & Tutorials
 class_name: docs
 full_width: true
 ---
@@ -20,6 +20,9 @@ Codio Annotations does a wonderful job for the following
 - Building rich, interactive coding tutorials in any language for any skill level
 - Documenting APIs, libraries or frameworks where well documented code examples flatten the learning curve for developers
 
+
+##Tutorial Mode
+Tutorial Mode is accessed from the Tools menu as well. The difference to Annotations mode is that it lets you write code in the left panel at the same time as seeing the annotations text in the right panel, whereas Annotations mode renders the code read-only in the right panel.
 
 ##Use any IDE to define your annotations
 You can use absolutely any IDE to set up your annotations. This means that you can add annotations functionality no matter how you want to code your project.

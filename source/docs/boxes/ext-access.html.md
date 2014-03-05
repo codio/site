@@ -20,7 +20,7 @@ Codio itself requires a number of ports but have opened up a large number for yo
 
 SSL access does not require you to install a certificate anywhere as we proxy everything. Just be sure to only use a Port in the 9500 - 9999 range.
 
-Should you need it, the `X-Real-Schema` header contains original request schema.
+Should you need it, the `X_FORWARDED_PROTO` header contains original request schema.
 
 ##Preview Menu
 Codio offers a fully customizable Preview menu so you can preview both static files (.html) and server side files (.php files, Ruby and Node apps etc.) with a single click. 

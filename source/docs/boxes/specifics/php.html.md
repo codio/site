@@ -34,6 +34,9 @@ In addition, we offer many other modules than can be manually installed. These a
 
 By about February 21st 2014, we will be removing all pre-installed modules from the PHP5 base Box Parts installation and have them all as individual Box Parts instead.
 
+##Managing different PHP versions
+We have a [tutorial](/docs/boxes/specifics/php-brew) that describes how to install [PHPBrew](https://github.com/c9s/phpbrew) on your Codio Boxes. This lets you install and switch between different versions of PHP.
+
 ##Out of Memory
 At the time of launching Boxes, each Box is restricted to 512MB of RAM. We will be adding more memory options soon, but in the meantime, you can get memory issues if you have Apache and MySQL open and running and then run a Composer task, for example.
 

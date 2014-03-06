@@ -12,12 +12,42 @@ Note that you can create tabs and panels anywhere you like using Codio's [Panels
 
 ![console terminal](/img/docs/terminal.png)
 
-##Copy & Paste operations
-Behavior varies between Macs and other operating systems. Using the right-click menu should work on all systems.
+##Terminal Settings
+You can modify various Terminal settings from the Codio->Preferences menu.
 
-###Mac
-Copy and paste both works as expected with cmd+c and cmd+v. 
+The available settings (and their defaults) are listed below. Preferences can be modified at the User level as [described here](/docs/settings-prefs/codio-prefs/). You can also force settings at the Project level but these will then override for all users looking at this project, so should be used sparingly.
 
-###Windows, Linux
-Pasting is done as expected with ctrl+v but pasting cannot be done as this is conflicts with the 'kill process' shortcut. You will need to copy using the right-click menu.
+	[terminal]
+
+	;Font size.
+	; Type: int 
+	font_size = 12
+
+	;Font color.
+	; Type: string 
+	font_color = white
+
+	;Background color.
+	; Type: string 
+	background_color = black
+
+	;Cursor color.
+	; Type: string 
+	cursor_color = white
+
+	;Number of lines available in the scroll history.
+	; Type: int 
+	scrollback = 3000
+
+	;Quick Connect
+	; Type: hotkey 
+	show-connect-dialog = 
+
+	;Connections Manager
+	; Type: hotkey 
+	show-connections-manager = 
+
+	;Terminal. SSH connection to the box
+	; Type: hotkey 
+	backend-connection = Shift+Alt+T
 

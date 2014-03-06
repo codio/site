@@ -1,5 +1,5 @@
 ---
-title: Codio Preferences
+title: User Preferences
 class_name: docs
 full_width: true
 ---

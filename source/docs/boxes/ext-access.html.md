@@ -20,7 +20,13 @@ Codio itself requires a number of ports but have opened up a large number for yo
 
 SSL access does not require you to install a certificate anywhere as we proxy everything. Just be sure to only use a Port in the 9500 - 9999 range.
 
+For Projects created before March 6th, 2014, your Apache or Nginx web server will not have the correct configuration to handle HTTPS by default. You should either configure your web server config files or just uninstall and reinstall the Box Parts using `parts uninstall [apache2|nginx]` then `parts install [apache2|nginx]` and finally `parts start [apache2|nginx]` to star the server back up.
+
+Apache and Nginx are preconfigured to listen for **HTTPS on Port 9500** by default.
+
+##Original Request Header
 Should you need it, the `X_FORWARDED_PROTO` header contains original request schema.
+
 
 ##Preview Menu
 Codio offers a fully customizable Preview menu so you can preview both static files (.html) and server side files (.php files, Ruby and Node apps etc.) with a single click. 

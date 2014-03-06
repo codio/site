@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-PHP is not preinstalled on Codio Boxes but it is extremely easy to install. We currently offer PHP5 but can also add [other versions on request](/docs/boxes/request-language). Here's how to install it ...
+PHP is not preinstalled on Codio Boxes but it is extremely easy to install. We currently offer PHP5 but you can also install [PHPBrew](/docs/boxes/specifics/php-brew) if you need to. Here's how to install it ...
 
 1. [Create a new project](/docs/console/creating).
 1. Once you're in the IDE, select the 'Tools->Terminal' menu item to open up a terminal window.

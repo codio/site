@@ -117,14 +117,14 @@ You now need to edit `~/.parts/etc/apache2/config/php.conf`. The best way to do 
 
 	nano ~/.parts/etc/apache2/config/php.conf
 
-You should modify the `PHPIniDir` line so suit your installed version of PHP Copy the following to the clipboars
+You should modify the `PHPIniDir` line so suit your installed version of PHP Copy the following to the clipboard
 
 	PHPIniDir /home/codio/.phpbrew/php/php-5.4.26/etc/php.ini
 	AddHandler php5-script .php     
 	DirectoryIndex index.php
 
 - move the cursor to the bottom and use backspace key to delete everything
-- paste from the clipboard making sure you end up with the same 3 lines in the same format you see above
+- paste from the clipboard making sure you end up with the same 3 lines in the exact same format you see above
 - press ctrl+x (not cmd for Mac users) to save then 'Y' to confirm then enter 
 
 

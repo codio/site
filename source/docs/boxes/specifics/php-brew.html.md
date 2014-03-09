@@ -15,30 +15,20 @@ If you have not already done so, install PHP
 
 ##Download PHPBrew
 
-	curl -O https://raw.github.com/c9s/phpbrew/master/phpbrew
-	chmod +x phpbrew
 	mkdir /home/codio/bin
-	cp phpbrew /home/codio/bin/phpbrew
-	rm phpbrew
+	curl https://raw.github.com/c9s/phpbrew/master/phpbrew -o /home/codio/bin/phpbrew
+	chmod +x /home/codio/bin/phpbrew
 
 ##Intialize Scripts
-Let's first add the PATH 
+Let's first add the PATH to `~/.bash_profile` 
 
-	export PATH="$HOME/bin:$PATH"
+	echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bash_profile
 
-We should also add it to `~/.bash_profile` so it is remembered between sessions
+and reload `~/.bash_profile`
 
-	nano ~/.bash_profile
-
-Now do the following if you don't know nano
-
-1. Use the down arrow key and move to the bottom of the file
-1. Copy and paste this : `export PATH="$HOME/bin:$PATH"`
-1. Hit Control+X (Mac users, use ctrl, not cmd)
-1. Press 'Y' to confirm you want to save changes
-1. Press Enter to confirm the file name
-
-You should now be back at the command prompt.
+```
+. ~/.bash_profile
+```
 
 ##Initialize PHPBrew
 We initialize PHPBrew by entering
@@ -49,28 +39,28 @@ You should now see a chunk of text starting with
 
 	Phpbrew environment is initialized, required directories are 
 
-		/home/codio/.phpbrew                                        
+			/home/codio/.phpbrew                                        
                                                                                                                                                                                   
-##Update your `bashrc` file
+##Update your `.bash_profile` file
 
-	nano ~/.bashrc
+	echo 'export PHPBREW_SET_PROMPT=1' >> ~/.bash_profile
+    echo 'source /home/codio/.phpbrew/bashrc' >> ~/.bash_profile
 
-Now copy and paste each of these lines in this order
+##Reload shell data
+```
+. ~/.bash_profile
+```
 
-	export PHPBREW_SET_PROMPT=1	
-	source /home/codio/.phpbrew/bashrc
+... or simply close the Terminal window and open it again.
 
-Finally, 
-
-1. Hit Control+X (Mac users, use ctrl, not cmd)
-1. Press 'Y' to confirm you want to save changes
-1. Press Enter to confirm the file name
-
-##Restart your Terminal shell and get going
-Close the Terminal window and open up another one. Now we can start playing with PHPBrew. To see all PHPBrew commands enter
+## Let's get going
+Now we can start playing with PHPBrew. To see all PHPBrew commands enter
 
 	phpbrew
 
+Then start Apache
+
+	parts start apache2
 
 ###Create a simple PHP file and preview it
 Let's create a very simple PHP file in Codio. Add `index.php` to the root of your project and then paste in the following
@@ -84,19 +74,18 @@ From the [Preview menu](/docs/ide/inline-preview/) (right most menu option) sele
 ![phpbrew phpinfo](/img/docs/phpbrew-phpinfo.png)
 
 ###Install a different version of PHP
-Now let's install PHP 5.4.14, for example. 
-
 We can list all known versions of PHP by entering
 
 	phpbrew known
 
 You can also try installing versions that are not listed.
 
-To install PHP 5.4.14, we enter
 
-	phpbrew install 5.4.14
+To install PHP 5.4.26 with default modules and apache2 support, we enter
 
-Now you will have a long wait as a new version has to be compiled. It takes a few minutes. Once it's finished, enter
+	phpbrew install 5.4.26 +default +apxs2
+
+This can take a few minutes, so be patient. Once it's finished, enter
 
 	phpbrew list
 
@@ -104,20 +93,48 @@ and you should see
 
 	Installed versions:
 		* (system)  
-		php-5.4.14 (/home/codio/.phpbrew/php/php-5.4.14) 
+		php-5.4.14 (/home/codio/.phpbrew/php/php-5.4.26) 
+
+##Installing PHP modules
+PHPBrew can also install PHP modules. You can list all available modules like this
+
+	phpbrew variants
+
+This also gives instructions on how to install modules.
 
 ###Switch Versions
 To switch version, enter
 
-	phpbrew switch 5.4.14
+	phpbrew switch 5.4.26
 
-Now do another Preview using Box URL SSL from the menu. You will see that we are still using 5.5.8 (or whatever the default version was installed by `parts install php5').
+###Remove parts php5
+We now need to remove the version of PHP installed by Codio Box Parts, as PHPBrew now manages your PHP installation.
 
-To change this fully, we need to [work in progress]
+    parts uninstall php5
+
+### Set new PHP for Apache
+You now need to edit `~/.parts/etc/apache2/config/php.conf`. The best way to do this is enter
+
+	nano ~/.parts/etc/apache2/config/php.conf
+
+You should modify the `PHPIniDir` line so suit your installed version of PHP Copy the following to the clipboars
+
+	PHPIniDir /home/codio/.phpbrew/php/php-5.4.26/etc/php.ini
+	AddHandler php5-script .php     
+	DirectoryIndex index.php
+
+- move the cursor to the bottom and use backspace key to delete everything
+- paste from the clipboard making sure you end up with the same 3 lines in the same format you see above
+- press ctrl+x (not cmd for Mac users) to save then 'Y' to confirm then enter 
 
 
+Now we need to restart Apache
 
+	parts restart apache2
 
+Now do another Preview using Box URL SSL from the menu. You should now see you are running the correct version.
+
+![phpbrew phpinfo2](/img/docs/phpbrew-phpinfo2.png)
 
 
 

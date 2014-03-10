@@ -1,12 +1,18 @@
 ---
-title: "PHPBrew Version Manager"
-class_name: docs
+title: Version Management with PHPBrew
+author: Freddy May
+date: 2014-03-10
+tags: Changelog
+class_name: blog
+image: blog/php-logo.png
 full_width: true
 ---
 
-This tutorial explains how to install PHPBrew on a Codio Box. 
+Codio's PHP5 Box Part installs a recent version of PHP5 by default. However, if you require version management for PHP, why not use PHPBrew. This post explains how to get it up and running on your Codio Box.
 
-Start by opening up a Terminal window (Tools->Terminal).
+It assumes you have created a Codio account.
+
+Start by creating a new empty project from the Codio Dashboard. Once you are in the IDE, open up a Terminal window (Tools->Terminal).
 
 ##Install PHP
 If you have not already done so, install PHP

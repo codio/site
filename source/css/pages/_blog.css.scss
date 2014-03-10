@@ -46,15 +46,17 @@ body.blog {
 
       li {
         display: inline-block;
-        width: 182px;
+        width: 158px;
         padding: 10px 0;
 
         &:first-child {
           padding-left: 20px;
-          width: 172px;
         }
         &:nth-child(4) {
-          width: 242px;
+          width: 214px;
+        }
+        &:nth-child(5) {
+          width: 110px;
         }
         &:last-child {
           width: 142px;

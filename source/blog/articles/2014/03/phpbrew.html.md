@@ -2,7 +2,7 @@
 title: Version Management with PHPBrew
 author: Freddy May
 date: 2014-03-10
-tags: Changelog
+tags: Guides
 class_name: blog
 image: blog/php-logo.png
 full_width: true
@@ -78,7 +78,7 @@ Let's create a very simple PHP file in Codio. Add `index.php` to the root of you
 
 From the [Preview menu](/docs/ide/inline-preview/) (right most menu option) select "Box URL SSL". You should now see, in a Preview tab inside Codio, the running version of PHP listed along with lots of other bumph.
 
-![phpbrew phpinfo](/img/docs/phpbrew-phpinfo.png)
+![phpbrew phpinfo](docs/phpbrew-phpinfo.png)
 
 ###Install a different version of PHP
 We can list all known versions of PHP by entering
@@ -141,7 +141,7 @@ Now we need to restart Apache
 
 Now do another Preview using Box URL SSL from the menu. You should now see you are running the correct version.
 
-![phpbrew phpinfo2](/img/docs/phpbrew-phpinfo2.png)
+![phpbrew phpinfo2](docs/phpbrew-phpinfo2.png)
 
 
 

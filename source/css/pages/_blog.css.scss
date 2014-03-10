@@ -240,10 +240,14 @@ body.blog {
       margin: 20px 0 105px;
       font: 16px gotham_book;
 
-      > ul {
+      > ul, > ol {
         margin-top: 30px;
         margin-bottom: 30px;
         line-height: 1.4em;
+      }
+
+      > ol > li {
+        margin: 8px 0;
       }
 
       img:not(.fancybox-image) {
@@ -372,14 +376,14 @@ body.blog {
       }
 
       h2 {
-        margin: 2.5em 0 1em;
+        margin: 3em 0 1em;
         font-family: gotham_medium;
-        font-size: 19px;
+        font-size: 20px;
       }
 
       h3 {
-        font-size: 1em;
-        margin: 2em 0 1em;
+        font: 15px gotham_medium;
+        margin: 2.5em 0 1.5em;
       }
 
       strong {

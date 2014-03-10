@@ -29,6 +29,7 @@ and reload `~/.bash_profile`
 ```
 . ~/.bash_profile
 ```
+Ignore the terminal error `-bash: cd: workspace/: No such file or directory` if you see it.
 
 ##Initialize PHPBrew
 We initialize PHPBrew by entering

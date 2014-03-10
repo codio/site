@@ -1,7 +1,7 @@
 ---
 title: Deploying to Heroku
 author: Freddy May
-date: 2014-03-13
+date: 2014-03-10
 tags: Changelog
 class_name: blog
 image: https://d1lpkba4w1baqt.cloudfront.net/heroku-logo-light-300x100.png

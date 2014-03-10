@@ -12,7 +12,7 @@ Codio's PHP5 Box Part installs a recent version of PHP5 by default. However, if 
 
 It assumes you have created a Codio account.
 
-Start by creating a new empty project from the Codio Dashboard. Once you are in the IDE, open up a Terminal window (Tools->Terminal).
+Start by creating a new empty project from the Codio Dashboard. Once you are in the IDE, open up the Terminal (`Tools > Terminal`).
 
 ##Install PHP
 If you have not already done so, install PHP
@@ -26,15 +26,16 @@ If you have not already done so, install PHP
 	chmod +x /home/codio/bin/phpbrew
 
 ##Intialize Scripts
-Let's first add the PATH to `~/.bash_profile` 
+Let's first add the PATH to `~/.bash_profile`
 
 	echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bash_profile
 
-and reload `~/.bash_profile`
+and reload your `.bash_profile`
 
 ```
 . ~/.bash_profile
 ```
+
 Ignore the terminal error `-bash: cd: workspace/: No such file or directory` if you see it.
 
 ##Initialize PHPBrew
@@ -44,16 +45,19 @@ We initialize PHPBrew by entering
 
 You should now see a chunk of text starting with
 
-	Phpbrew environment is initialized, required directories are 
+```
+Phpbrew environment is initialized, required directories are
 
-			/home/codio/.phpbrew                                        
-                                                                                                                                                                                  
+		/home/codio/.phpbrew
+```
+
 ##Update your `.bash_profile` file
 
 	echo 'export PHPBREW_SET_PROMPT=1' >> ~/.bash_profile
-    echo 'source /home/codio/.phpbrew/bashrc' >> ~/.bash_profile
+  echo 'source /home/codio/.phpbrew/bashrc' >> ~/.bash_profile
 
 ##Reload shell data
+
 ```
 . ~/.bash_profile
 ```
@@ -72,9 +76,7 @@ Then start Apache
 ###Create a simple PHP file and preview it
 Let's create a very simple PHP file in Codio. Add `index.php` to the root of your project and then paste in the following
 
-	<?php
-	  echo phpinfo();
-	?>
+	<?php echo phpinfo(); ?>
 
 From the [Preview menu](/docs/ide/inline-preview/) (right most menu option) select "Box URL SSL". You should now see, in a Preview tab inside Codio, the running version of PHP listed along with lots of other bumph.
 
@@ -98,9 +100,11 @@ This can take a few minutes, so be patient. Once it's finished, enter
 
 and you should see
 
+```
 	Installed versions:
-		* (system)  
-		php-5.4.26 (/home/codio/.phpbrew/php/php-5.4.26) 
+		* (system)
+		php-5.4.26 (/home/codio/.phpbrew/php/php-5.4.26)
+```
 
 ##Installing PHP modules
 PHPBrew can also install PHP modules. You can list all available modules like this
@@ -127,12 +131,12 @@ You now need to edit `~/.parts/etc/apache2/config/php.conf`. The best way to do 
 You should modify the `PHPIniDir` line to suit your installed version of PHP Copy the following to the clipboard
 
 	PHPIniDir /home/codio/.phpbrew/php/php-5.4.26/etc/php.ini
-	AddHandler php5-script .php     
+	AddHandler php5-script .php
 	DirectoryIndex index.php
 
 - move the cursor to the bottom and use backspace key to delete everything
 - paste from the clipboard making sure you end up with the same 3 lines in the exact same format you see above
-- press ctrl+x (not cmd for Mac users) to save then 'Y' to confirm then enter 
+- press ctrl+x (not cmd for Mac users) to save then 'Y' to confirm then enter
 
 
 Now we need to restart Apache

@@ -130,7 +130,7 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
-activate :livereload
+# activate :livereload
 
 # Landing pages
 [ "github-ide", "cp-fiddle", "salesforce", "parse" ].each do |name|

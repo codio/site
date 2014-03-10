@@ -15,26 +15,26 @@ Drupal is quickly installed with Codio. Just follows these steps and you should 
 ##Download from the Drupal site
 You can get the latest version of Drupal from the [Drupal website](https://drupal.org/project/drupal). 
 
-1. Check the [Drupal website](https://drupal.org/project/drupal) to seet what the latest release version is. At the time of wroting, it is 7.26.
+1. Check the [Drupal website](https://drupal.org/project/drupal) to see what the latest release version is. At the time of writing, it is 7.26.
 1. Note down the latest version number ready to modify the url specified in the next step.
 1. From the terminal, `$ wget http://ftp.drupal.org/files/projects/drupal-7.26.tar.gz`
 1. Unzip the download file using `tar zxvf drupal-7.26.tar.gz`
 1. Copy all the files down to the root level (including hidden files) `mv drupal-7.26/{*,.*} ~/workspace`
 1. Let's clean up the now empty folder with `rm -r drupal-7.26`
-1. Let's get the default settings file right `cp sites/default/default.settings.php sites/default/settings.php`
+1. Let's get the default settings file ready `cp sites/default/default.settings.php sites/default/settings.php`
 1. And finally, let's allow the installer to write to the configuration file with `chmod a+w sites/default/settings.php`
 1. ... and the folder `chmod a+w sites/default`
 
 ##Install PHP, Apache and MySQL
 We now need to get all these components installed so that Drupal will run. This is very easy with Codio luckily.
 
-1. `parts install php5 mysql' which automatically installs Apache. 
-1. Later versions may not install Apache, so you may need to manually run `parts install apache` or `parts install nginx` if you prefer.
-1. Let's start services things up with `parts start apache2 mysql`
+1. `parts install php5 mysql` which automatically installs PHP5+Apache and MySQL.
+1. Later versions of the PHP installer may not install Apache, so you may need to manually run `parts install apache`. Once the installation is complete, type `parts list` and you will see whether Apache2 is automatically installed or not.
+1. Let's start up our services with `parts start apache2 mysql`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 
-    parts stop apache2 mysql
-    parts start apache2 mysql
+        parts stop apache2 mysql
+        parts start apache2 mysql
 
 ##Quick Check
 Now check things are running at a basic level before continuing with the rest of the config. From the Preview menu (the rightmost Codio menu) select the dropdown list and click on 'Box URL'. 
@@ -45,7 +45,7 @@ You should see the Drupal installer open up in a new browser tab. Don't go throu
 We now need to get a MySQL database setup and usable by Drupal.
 
 1. Log into the MySQL shell `mysql -u root -p`
-1. Press Enter when asked for a password (you can/should set one up if you want to, but by default there is none).
+1. Press Enter when asked for a password (you can/should set one up, but by default there is none after the install).
 1. You should now see the '>' prompt. Enter the following `CREATE DATABASE drupal;`
 1. We'll create a user `CREATE USER drupaluser@localhost;`
 1. ... and a password `SET PASSWORD FOR drupaluser@localhost= PASSWORD("password");`

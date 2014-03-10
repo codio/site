@@ -9,6 +9,7 @@ This section contains instructions to get you going with certain languages. Curr
 - [NodeJS](/docs/boxes/specifics/node)
 - [Ruby](/docs/boxes/specifics/ruby)
 - [PHP](/docs/boxes/specifics/php)
+- [PHPBrew version manager for PHP](/docs/boxes/specifics/php-brew)
 - [Heroku](/docs/boxes/specifics/heroku)
 - [Wordpress](/docs/boxes/specifics/wordpress)
 

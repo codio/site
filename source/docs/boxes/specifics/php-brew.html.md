@@ -94,7 +94,7 @@ and you should see
 
 	Installed versions:
 		* (system)  
-		php-5.4.14 (/home/codio/.phpbrew/php/php-5.4.26) 
+		php-5.4.26 (/home/codio/.phpbrew/php/php-5.4.26) 
 
 ##Installing PHP modules
 PHPBrew can also install PHP modules. You can list all available modules like this

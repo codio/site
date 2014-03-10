@@ -49,6 +49,8 @@ Note that static content is served over Port 80. If you want to access a service
 
 By default, our Apache and Nginx Box Parts are configured to listen to HTTPS on Port 9500, which is why you see we create `"Box URL SSL": "https://{{domain}}:9500/"`. If you want to modify this port then make sure you modify the HTTPS Port in your web server's config file.
 
+The full range of Codio `{{tokens}}` is explained in [this section](/docs/boxes/run/).
+
 ##Insecure Content with In-Tab preview and front-end code
 Codio runs over https and the inline preview runs over https, too. If your code references an external resource (script, font, image etc.) such as
 

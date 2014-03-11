@@ -13,6 +13,7 @@ This section contains instructions to get you going with certain languages. Curr
 - [Heroku](/docs/boxes/specifics/heroku)
 - [Wordpress](/docs/boxes/specifics/wordpress)
 - [Drupal](/docs/boxes/specifics/drupal)
+- [Joomla](/docs/boxes/specifics/joomla)
 - [Mean.io](/docs/boxes/specifics/meanio)
 
 If you want us to provide tutorial style help on getting things set up in Boxes, please email [support@codio.com](mailto:support@codio.com).

@@ -6,6 +6,9 @@ full_width: true
 
 This tutorial explains how to install [Mean.io](http://www.mean.io) onto a Codio Box.
 
+##Video
+There is a video of this process here : [https://vimeo.com/88764221](https://vimeo.com/88764221).
+
 ##Create a Codio Project
 
 1. From the Codio Dashboard, create a new project by selecting the 'Git' tab.

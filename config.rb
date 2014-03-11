@@ -167,7 +167,7 @@ configure :build do
   end
 
   activate :gzip
-  activate :asset_hash
+  activate :asset_hash, ignore: /font/
   activate :cache_buster
 
   # Use relative URLs

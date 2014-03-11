@@ -17,9 +17,9 @@ You can get the latest version of Drupal from the [Drupal website](https://drupa
 
 1. Check the [Drupal website](https://drupal.org/project/drupal) to see what the latest release version is. At the time of writing, it is 7.26.
 1. Note down the latest version number ready to modify the url specified in the next step.
-1. From the terminal, `$ wget http://ftp.drupal.org/files/projects/drupal-7.26.tar.gz`
+1. From the terminal, `wget http://ftp.drupal.org/files/projects/drupal-7.26.tar.gz` 
 1. Unzip the download file using `tar zxvf drupal-7.26.tar.gz`
-1. Copy all the files down to the root level (including hidden files) `mv drupal-7.26/{*,.*} ~/workspace`
+1. Copy all the files down to the root level (including hidden files) `mv drupal-7.26/{*,.*} ~/workspace` (you can ignore the `mv: cannot move `drupal-7.26/.' to `/home/codio/workspace/.': Device or resource busy` warnings).
 1. Let's clean up the now empty folder with `rm -r drupal-7.26`
 1. Let's get the default settings file ready `cp sites/default/default.settings.php sites/default/settings.php`
 1. And finally, let's allow the installer to write to the configuration file with `chmod a+w sites/default/settings.php`

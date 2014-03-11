@@ -1,5 +1,3 @@
-@import url(//fonts.googleapis.com/css?family=Indie+Flower);
-
 body.home-sponblog {
 
   header {
@@ -15,7 +13,7 @@ body.home-sponblog {
       > div {
         float: left;
         position: relative;
-        color : #DDD9D9;    
+        color : #DDD9D9;
 
         // Tagline
         &:first-child {
@@ -24,7 +22,7 @@ body.home-sponblog {
           left: 5px;
 
           @include apply-to(more-than, desktop) {
-            top: 8px;  
+            top: 8px;
             left: 33px;
           }
 
@@ -89,7 +87,7 @@ body.home-sponblog {
                 }
               }
 
-              // "ON ANY SUBJECT YOU LIKE" 
+              // "ON ANY SUBJECT YOU LIKE"
               &:nth-child(6) {
               display: block;
                 font: 32px gotham_light !important;
@@ -104,12 +102,12 @@ body.home-sponblog {
             // "PHP LOGO"
             img {
               margin: -124px 272px 0px 10px !important;
-              height: 89px;              
+              height: 89px;
               @include apply-to(more-than, desktop) {
                 margin: -139px 327px 0px 10px !important;
-                height: 104px;       
+                height: 104px;
               }
-            }  
+            }
 
           }
 

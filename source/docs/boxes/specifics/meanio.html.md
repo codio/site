@@ -7,7 +7,7 @@ full_width: true
 This tutorial explains how to install [Mean.io](http://www.mean.io) onto a Codio Box.
 
 ##Video
-There is a video of this process here : [https://vimeo.com/88764221](//player.vimeo.com/video/88764221?autoplay=1&hd=1).
+There is a video of this process here : [https://vimeo.com/88764221](http://player.vimeo.com/video/88764221?autoplay=1&hd=1).
 
 ##Create a Codio Project
 

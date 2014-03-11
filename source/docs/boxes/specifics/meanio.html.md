@@ -4,12 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-This explains how to install [Mean.io](http://www.mean.io) onto a Codio Box.
+This tutorial explains how to install [Mean.io](http://www.mean.io) onto a Codio Box.
 
 ##Create a Codio Project
 
 1. From the Codio Dashboard, create a new project by selecting the 'Git' tab.
-1. Copy and paste this Git link [https://github.com/linnovate/mean.git](https://github.com/linnovate/mean.git) (taken from the [Mean.io GitHub page](https://github.com/linnovate/mean)).
+1. Copy this Git url to the clipboard `https://github.com/linnovate/mean.git` (taken from the [Mean.io GitHub page](https://github.com/linnovate/mean)).
 1. Press the 'Create project' button.
 
 ##Install components
@@ -20,13 +20,13 @@ Once you're in the IDE, open up a Terminal window from 'Tools->Terminal'
 1. We now need to install MongoDB `parts install mongodb`.
 1. Finally, lets start Mongo using `parts start mongodb`.
 
-When you exit your project, Codio will shut down your Box. So MongoDB starts up with your box, create a file `startup.sh` in the root of your project and add the following lines
+When you exit your project, Codio will shut down your Box. To get MongoDB to start up automatically when you open your project, create a file `startup.sh` in the root of your project and add the following lines
 
     parts stop mongodb
     parts start mongodb
 
 ##Modify a couple of small things for Codio
-We now need to make a couple of small modifications to make sure it runs smoothly on Codio Boxes. The main issue here is that Codio only allows access to Ports 1024 - 9999. The default Mean.io installation uses a port outside this range.
+We now need to make a small modification to get things to run smoothly on your Codio Box. The main issue here is that Codio only allows access to Ports 1024 - 9999. The default Mean.io installation uses a port outside this range inside one file.
 
 1. Open up `app/views/includes/foot.html`
 1. Look for `<script type="text/javascript" src="{{'http://' + req.host + ':35729/livereload.js'}}"></script>`

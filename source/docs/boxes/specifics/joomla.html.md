@@ -13,8 +13,6 @@ Joomla is quickly installed with Codio. Just follows these steps and you should 
 1. Open a Terminal window from the Tools->Terminal window
 
 ##Download from the Joomla site
-http://joomlacode.org/gf/download/frsrelease/19239/158104/Joomla_3.2.3-Stable-Full_Package.zip
-http://joomlacode.org/gf/download/frsrelease/17410/76021/Joomla_2.5.7-Stable-Full_Package.tar.gz
 
 1. Check the [Joomla website](http://joomlacode.org/gf/project/joomla/frs) to see what the latest **Full Package** release version is. At the time of writing, it is 3.2.3.
 1. Note down the latest version number ready to modify the url specified in the next step.

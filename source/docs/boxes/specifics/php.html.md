@@ -4,28 +4,37 @@ class_name: docs
 full_width: true
 ---
 
-PHP is not preinstalled on Codio Boxes but it is extremely easy to install. We currently offer PHP5 but you can also install [PHPBrew](/docs/boxes/specifics/php-brew) if you need to. Here's how to install it ...
+PHP is not preinstalled on Codio Boxes but it is extremely easy to install. We currently offer PHP5 but you can also install [PHPBrew](/docs/boxes/specifics/php-brew) for PHP version management if you need to. Here's how to install PHP5 on your Codio Box. It takes 10 seconds.
 
 1. [Create a new project](/docs/console/creating).
 1. Once you're in the IDE, select the 'Tools->Terminal' menu item to open up a terminal window.
-1. Enter `parts install php5' on the command line (this will also install apache2, aprm apr_util and libmcrypt); [click here](/docs/boxes/box-parts) to read more about installing other system components, known as Box Parts.
+1. Enter `parts install php5' on the command line (this will also install apache2, aprm apr_util and libmcrypt and several PHP modules); [click here](/docs/boxes/box-parts) to read more about installing other system components, known as Box Parts.
 1. PHP is now installed and ready to use.
+1. Enter `parts start apache2` to start Apache.
+
+##Accessing your application
+Once your PHP app is up and running, you can access your project from a browser or API call etc. 
+
+You can access your PHP project from the Codio preview menu (the right most Codio menu option). Select the menu dropdown then select 'Box URL' which accesses it on Port 3000. Or you can use 'Box URL SSL' which accesses it on Port 9500 over HTTPS.
+
+![preview menu](/img/docs/preview-deploy.png)
+
+You can find out more about [configuring the Preview menu button](/docs/ide/inline-preview). 
+
+There is also general information about [accessing Boxes over HTTP/HTTP and Port ranges](/docs/boxes/ext-access).
 
 ##Autostarting Apache
-When you close a project, your Box is automatically shut down after a couple of minutes (but don't worry, it starts so fast when you open your project again you won't even notice). However, your services won't automatically restart unless you tell Codio to start them.
+When you close a project, your Box is automatically shut down after a couple of minutes (but don't worry, it starts so fast when you open your project again you won't even notice). However, your services (Apache is probably the one you're interested in) won't automatically start unless you run `parts start apache2` each time you load your project.
 
-This is simply done by editing the `startup.sh` file [as described here](/docs/boxes/startup).
+You can set services to start on Box startup by creating and editing a `startup.sh` file [as described here](/docs/boxes/startup) in the root of your project. Try this
+
+    parts stop apache2
+    parts start apache2
 
 ##Configuring Apache
 We set Apache up to automatically point to your workspace, so you should be able to access your `index.php`, for example, without any further configuration.
 
 If you want to change your Apache configuration, then you can edit the `~/.parts/etc/apache2/httpd.conf` file.
-
-##Accessing your application
-Once your PHP app is up and running, you can access your project from a browser or API call etc. This is easily using done using [Preview button](/docs/ide/inline-preview). When you click it, you will see the URL to your Box, which will look something like this 
-
-`word1-word2.codio.io:port`
-
 
 ##PHP Modules
 Initially, the PHP5 Box Parts installation includes several PHP modules. You can see the pre-installed modules here : [https://github.com/codio/boxparts/blob/master/lib/autoparts/packages/php5.rb#L33-L50](https://github.com/codio/boxparts/blob/master/lib/autoparts/packages/php5.rb#L33-L50).

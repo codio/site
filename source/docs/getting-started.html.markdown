@@ -36,14 +36,20 @@ The most important thing is for you to be aware of the features that are availab
 
 - [Videos of Codio's key features](/features)
 
-##4. A bit about 'Boxes'
-Whenever you create a project, you automatically get a back-end server 'Box' with it. The Box comes preconfigured with 
+##4. Development languages
+Codio has the following languages and useful dev tools preinstalled
 
 - Node (including nvm)
 - Ruby (including rbenv)
 - Python (2.7.3)
 - Git, Mercurial & SVN
-- Add your own languages, middleware, databases etc. using [Box Parts](/docs/boxes/box-parts)
+
+PHP developers should read [the PHP Introduction section](/docs/boxes/specifics/php).
+
+Many other languages, middleware, databases and tools are available using [Box Parts](/docs/boxes/box-parts).
+
+##5. A bit about 'Boxes'
+Whenever you create a project, you automatically get a back-end server - we call it a 'Box'.
 
 You can access your Box from 'Tools->Terminal'. You can also configure your own terminal commands from the [Run menu](/docs/boxes/run). 
 

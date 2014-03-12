@@ -12,6 +12,8 @@
 // Preview button configuration
   "preview": {
          "Docs": "http://{{domain}}:3000/docs",
-         "Home Page": "http://{{domain}}:3000/"
+         "Home Page": "http://{{domain}}:3000/",
+         "PHP": "http://{{domain}}:3000/php"
   }
 }
+

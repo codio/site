@@ -32,7 +32,7 @@ Initially, the PHP5 Box Parts installation includes several PHP modules. You can
 
 In addition, we offer many other modules than can be manually installed. These are listed here : [https://github.com/codio/boxparts/tree/master/lib/autoparts/packages](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages). If you type `parts search php` in a terminal window, you will all PHP related parts clearly listed.
 
-By about February 21st 2014, we will be removing all pre-installed modules from the PHP5 base Box Parts installation and have them all as individual Box Parts instead.
+If you want to install one of these Modules, enter `parts install <module_name>`.
 
 ##Managing different PHP versions
 We have a [tutorial](/docs/boxes/specifics/php-brew) that describes how to install [PHPBrew](https://github.com/c9s/phpbrew) on your Codio Boxes. This lets you install and switch between different versions of PHP.

@@ -9,7 +9,7 @@ full_width: true
 
 Last week was the culmination of several months of hard graft by the entire Codio team, and is the start of the next phase of our path to global domination! We released a plethora of new and improved features that we think are exciting and - in some cases - ground-breaking.
 
-[Watch the all new intro video](//player.vimeo.com/video/74220594?autoplay=1&hd=1), and then allow me to summarise all that is new and shiny...
+[Watch the all new intro video](https://player.vimeo.com/video/74220594?autoplay=1&hd=1), and then allow me to summarise all that is new and shiny...
 
 ## Multi-Panel Layouts
 

@@ -12,7 +12,7 @@ Codio is delighted to announce support for [Parse.com](http://parse.com). Develo
 Javascript/Cloud Code  developers will find that they can code and deploy a Parse app incredibly quickly with nothing but a browser.
 
 ##Video
-<a href="//player.vimeo.com/video/75482235?autoplay=1&hd=1" target="_blank">Click here</a> to see a very short video of how incredibly easy it is to build and deploy Cloud Code Apps from Codio.
+<a href="https://player.vimeo.com/video/75482235?autoplay=1&hd=1" target="_blank">Click here</a> to see a very short video of how incredibly easy it is to build and deploy Cloud Code Apps from Codio.
 
 ##Application Structure
 The application structure in Codio is the same as if you were coding on your local machine. You will also see the global.json file, which is where your application and master keys are specified.

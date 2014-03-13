@@ -180,6 +180,35 @@ body.home {
   }
 
  
+  #hiring-home .container > div {
+    position: relative;
+    top: -16px;
+    margin-left: 200px;
+    @include clearfix;
+    
+    @include apply-to(more-than, desktop) {
+      margin-left: 290px;
+    }
+    
+    &> a {
+      float: left;
+    }
+    
+    span {
+      float: left;
+      font: 16px gotham_medium;
+      display: block;
+      margin: 20px 0 0 10px;
+      line-height: 1em;
+      
+      a {
+        font: 12px gotham_book;
+        display: block;
+        margin-top: 5px;
+      }
+    }
+  }
+  
   @mixin screenie {
     > div {
       background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;

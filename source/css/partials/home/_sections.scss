@@ -1,9 +1,6 @@
 section {
   position: relative;
-
-  &:nth-child(odd) {
-    background-color: #f9f9f9;
-  }
+  background-color: #f9f9f9;
 
   .container > div {
     padding: 0;
@@ -38,10 +35,10 @@ section {
 
     .container > div {
       @include clearfix;
-      padding: 94px 0 70px;
+      padding: 63px 0 70px;
 
       @include apply-to(more-than, desktop) {
-        padding: 111px 60px 48px 72px;
+        padding: 71px 60px 48px 72px;
       }
 
       h2 {

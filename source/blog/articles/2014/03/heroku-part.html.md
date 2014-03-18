@@ -8,7 +8,7 @@ image: https://d1lpkba4w1baqt.cloudfront.net/heroku-logo-light-300x100.png
 full_width: true
 ---
 
-We've added a new Box Part to make working with Heroku a breeze. Here are the instructions, which you'll also [find in our docs](/docs/boxes/specifics/heroku).
+We've added a new Box Part to make working with Heroku a breeze. Here are the instructions, which you'll also [find in our docs](/docs/specifics/heroku).
 
 Deploying to Heroku is easy. There are two things you need to know about:
 

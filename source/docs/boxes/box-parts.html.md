@@ -9,8 +9,8 @@ The main things that are preinstalled with Codio are Node.JS, Ruby and Python. B
 ##Preinstalled
 The main components that are preinstalled are
 
-- NodeJS (use nvm; please [refer to this section](/docs/boxes/specifics/node) for information on running NodeJS under nvm)
-- Ruby (uses rbenv; please [refer to this section](/docs/boxes/specifics/ruby) for information on running Ruby under rbenv)
+- NodeJS (use nvm; please [refer to this section](/docs/specifics/node) for information on running NodeJS under nvm)
+- Ruby (uses rbenv; please [refer to this section](/docs/specifics/ruby) for information on running Ruby under rbenv)
 - Python 2.7.3 (Python 3.0 available as Box Part)
 
 ##The Box Parts Repository

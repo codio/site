@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-PHP is not preinstalled on Codio Boxes but it is extremely easy to install. We currently offer PHP5 but you can also install [PHPBrew](/docs/boxes/specifics/php-brew) for PHP version management if you need to. Here's how to install PHP5 on your Codio Box. It takes 10 seconds.
+PHP is not preinstalled on Codio Boxes but it is extremely easy to install. We currently offer PHP5 but you can also install [PHPBrew](/docs/specifics/php-brew) for PHP version management if you need to. Here's how to install PHP5 on your Codio Box. It takes 10 seconds.
 
 1. [Create a new project](/docs/console/creating).
 1. Once you're in the IDE, select the 'Tools->Terminal' menu item to open up a terminal window.
@@ -44,7 +44,7 @@ In addition, we offer many other modules than can be manually installed. These a
 If you want to install one of these Modules, enter `parts install <module_name>`.
 
 ##Managing different PHP versions
-We have a [tutorial](/docs/boxes/specifics/php-brew) that describes how to install [PHPBrew](https://github.com/c9s/phpbrew) on your Codio Boxes. This lets you install and switch between different versions of PHP.
+We have a [tutorial](/docs/specifics/php-brew) that describes how to install [PHPBrew](https://github.com/c9s/phpbrew) on your Codio Boxes. This lets you install and switch between different versions of PHP.
 
 ##Out of Memory
 At the time of launching Boxes, each Box is restricted to 512MB of RAM. We will be adding more memory options soon, but in the meantime, you can get memory issues if you have Apache and MySQL open and running and then run a Composer task, for example.

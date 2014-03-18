@@ -36,7 +36,7 @@ The most important thing is for you to be aware of the features that are availab
 
 - [Videos of Codio's key features](/features)
 
-##4. Development languages
+##4. Preinstalled Languages
 Codio has the following languages and useful dev tools preinstalled
 
 - Node (including nvm)
@@ -44,9 +44,11 @@ Codio has the following languages and useful dev tools preinstalled
 - Python (2.7.3)
 - Git, Mercurial & SVN
 
-PHP developers should read [the PHP Introduction section](/docs/boxes/specifics/php).
+But you can also install many other languages, database, components and frameworks extrenely easily using [Codio Box Parts](/docs/boxes/box-parts).
 
-Many other languages, middleware, databases and tools are available using [Box Parts](/docs/boxes/box-parts).
+###Tutorials
+We've also provided some [tutorials](/docs/specifics) that are well worth checking out. They cover installation instructions for things like PHP, Wordpress, Drupal Joomla. You will also find Node and Grunt tutorials. The list is growing all the time.
+
 
 ##5. A bit about 'Boxes'
 Whenever you create a project, you automatically get a back-end server - we call it a 'Box'.

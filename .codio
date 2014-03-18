@@ -5,7 +5,7 @@
   "commands": {
         "Middleman": "middleman -p 3000",
         "Build": "middleman build",
-        "Deploy to Staging": "cap staging deploy"
+        "Deploy to Production": "cap production deploy"
         
   },
 

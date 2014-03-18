@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="/s/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/s/css/boilerplate-67ba3a5e.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/s/css/boilerplate-631af3c8.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -66,6 +66,8 @@
         </li>
       </ul>
     </nav>
+    
+    <a data-no-turbolink="true" id="hiring-nav" href="/s/blog/2014/03/hiring-more-javascript-engineers/"><img width="113" src="/s/img/hiring-70f0d860.gif" /></a>
 
   </div>
 </nav>
@@ -114,6 +116,77 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/11/ssh-public-keys/">November 18, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/ssh-public-keys/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></h1>
+
+        
+        <p>Our focus is to make all aspects of the development process as smooth and easy as it possibly can be. One small but great example of something that is a real pain in the ass is the business of deploying public keys to a remote server.</p>
+
+<h2 id="why-are-they-needed?">Why are they needed?</h2>
+
+<p>Codio has two main features that require access to remote servers:</p>
+
+<ul>
+<li>SSH Terminal - you can create and manage any number of remote servers directly from Codio. There&#39;s a <a href="/s/blog/2013/11/ssh/">blog post</a> on this and you can also <a href="/s/docs/ssh">read the docs</a>.</li>
+<li>Deploying via SFTP and RSYNC</li>
+</ul>
+
+<p>Most developers prefer to use SSH to access remote servers, as it avoids password entry completely and is more secure.</p>
+
+<p>Codio generates public keys that can be found in the <code>Codio &gt; Account</code> menu. One way of getting your Codio public key on to the remote server is to copy it and then SSH into your remote server and then add it to your <code>~/.ssh/authorized_keys</code> file. However, this is an unnecessary chore. We&#39;ve made it so you can now upload your keys in 2 ways.</p>
+
+<h2 id="from-your-account-dialog">From your Account dialog</h2>
+
+<p>The screenshot below shows how you just need to press the Upload Public Key button and that&#39;s it. You will be asked to enter your access details and that&#39;s it. You can access this dialog via the <code>Codio &gt; Account</code> menu item.</p>
+
+<p><img alt="public key account" src="/s/img/blog/key-account-c7531668.png" /></p>
+
+<h2 id="from-the-ssh-connection-manager">From the SSH Connection Manager</h2>
+
+<p>You can SSH into any remote server right from within Codio. In the connections listing, there&#39;s a button you can press that does the same thing as above.</p>
+
+<p><img alt="public key account" src="/s/img/blog/key-ssh-828f29a3.png" /></p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/ssh-public-keys/" data-via="codiohq" data-size="small" data-count="none" data-text="SSH Public Key Management">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/ssh-public-keys/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/ssh-public-keys/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -478,78 +551,6 @@ options:
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/11/pricing/">November  8, 2013</a>
-            
-              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/11/pricing/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></h1>
-
-        
-        <p>We&#39;ve finally made up our mind about Codio pricing. We&#39;ve tried to make it as simple and as affordable as we can. Read on for more or check our the <a href="/s/pricing">new pricing page</a>.</p>
-
-<p><a href="/s/pricing"><img alt="Pricing!" src="/s/img/blog/pricing-9d2597e9.png" /></a></p>
-
-<h2 id="public-projects-are-free">Public projects are free</h2>
-
-<p>This was and will always remain the case. It&#39;s great for open source projects, education or simply playing around with Codio. Sign up for free and there is no limit to the number of public projects that you can create.</p>
-
-<h2 id="private-projects---$8-per-user-per-month">Private Projects - $8 per user per month</h2>
-
-<p>This is a straightforward, affordable price. Each user can have an unlimited number of projects for a single low monthly fee of $8. There will be an acceptable usage policy but there will not be anything unreasonable in it.</p>
-
-<p>We expect to flick the billing switch and let you purchase a private account later this month. Until then, you can continue to create public and private projects at no cost.</p>
-
-<h2 id="organization-accounts">Organization Accounts</h2>
-
-<p>If you want to include multiple users within an organization for billing and administration purposes, then you can create an organization account. You can then assign users, who will have access to all public and private projects assigned to that organization. You can also assign various administrative permissions to specific users within your organization.</p>
-
-<p>Organization accounts will be available towards the end of 2013 and will be charged for at the organization level. Pricing will be announced as it becomes available.</p>
-
-<h2 id="educational-organizations-:-price-to-be-announced">Educational Organizations : price to be announced</h2>
-
-<p>Codio is a great product for teaching coding. An Educational Organization allows centralized billing, but it also allows classes and groups to be set up and students can then be assigned to them.</p>
-
-<p>It allows teachers to organize their students and take a look at the code their students are writing. There will also be additional functions such as the ability to spin up cloud servers that are ready to run for students, without the need for them to set up the server stack.</p>
-
-<p>It will be available early 2014.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/pricing/" data-via="codiohq" data-size="small" data-count="none" data-text="Codio Pricing">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/pricing/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/pricing/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -573,6 +574,9 @@ options:
       <ul>
         
           
+          <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
+        
+          
           <li><a href="/s/blog/2013/11/deploy-preview/">Deploy & Preview</a></li>
         
           
@@ -587,9 +591,6 @@ options:
           
           <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
         
-          
-          <li><a href="/s/blog/2013/11/pricing/">Codio Pricing</a></li>
-        
       </ul>
     </section>
 
@@ -598,13 +599,13 @@ options:
         <h4>Latest posts...</h4>
         <ul>
           
-            <li><a href="/s/blog/2014/03/drupal-joomla/">Drupal and Joomla Installation Guides</a></li>
+            <li><a href="/s/blog/2014/03/hiring-more-javascript-engineers/">We're Hiring More Javascript Engineers</a></li>
           
-            <li><a href="/s/blog/2014/03/phpbrew/">Version Management with PHPBrew</a></li>
+            <li><a href="/s/blog/2014/03/drupal-joomla/">Drupal and Joomla Installation Guides</a></li>
           
             <li><a href="/s/blog/2014/03/heroku-part/">Deploying to Heroku</a></li>
           
-            <li><a href="/s/blog/2014/02/codio-boxes-now-available/">Codio Boxes Now Available</a></li>
+            <li><a href="/s/blog/2014/03/phpbrew/">Version Management with PHPBrew</a></li>
           
         </ul>
       </section>

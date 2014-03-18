@@ -28,13 +28,13 @@ We now need to install a few components
 ##The Laravel Bits
 We already installed Composer above, so let's now install Laravel itself using Composer then move the files down to the root and finally tidy up the empty laravel folder. Enter each of the following in the terminal window.
 
-1. composer create-project laravel/laravel --prefer-dist
-1. mv laravel/{*,.*} ~/workspace    
-1. rm laravel -r
+1. `composer create-project laravel/laravel --prefer-dist`
+1. `mv laravel/{*,.*} ~/workspace`  
+1. `rm laravel -r`
 
 ##Try it out
 
 1. To save editing `~/.parts/etc/apache2/https.conf`, rename `server.php` in the root of the project to `index.php` either from the filetree or enter `mv server.php index.php`
-1. From the Codio Preview menu (the right most Codio menu) select the drop down menu and select 'Box URL'.
+1. From the Codio Preview menu (the right most Codio menu) select the drop down menu and check 'New Browser Tab' and select 'Box URL'.
 
 You should now see Laravel up and running in a browser window. Do not set the 'Inside Codio' option as this Laravel scaffold does not allow it to run in an IFrame.

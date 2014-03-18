@@ -34,4 +34,7 @@ We already installed Composer above, so let's now install Laravel itself using C
 
 ##Try it out
 
-1. From the Codio Preview menu (
+1. To save editing `~/.parts/etc/apache2/https.conf`, rename `server.php` in the root of the project to `index.php` either from the filetree or enter `mv server.php index.php`
+1. From the Codio Preview menu (the right most Codio menu) select the drop down menu and select 'Box URL'.
+
+You should now see Laravel up and running in a browser window.

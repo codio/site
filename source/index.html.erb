@@ -4,6 +4,20 @@ class_name: home
 ---
 
 <%= partial 'partials/home/header' %>
+
+<div id="hiring-home">
+  <div class="container">
+    <div>
+      <%= link_to image_tag('hiring.gif', :width => 130), '/blog/2014/03/hiring-more-javascript-engineers/', :data => { :"no-turbolink" => true } %>
+      <span>
+        We need More<br>Javascript Engineers!
+        <%= link_to 'Click here to find out more...', '/blog/2014/03/hiring-more-javascript-engineers/' %>
+      </span>
+    </div>
+  </div>
+</div>
+
+
 <%= partial 'partials/home/frontback' %>
 <%= partial 'partials/home/overview' %>
 <%= partial 'partials/home/ide' %>

@@ -10,12 +10,35 @@ body.home .wrap > nav {
   width: 100%;
 }
 
+
+#hiring-nav {
+  position: absolute;
+  top: 70px;
+  left: 153px;
+  display: block;
+}
+
+body.home #hiring-nav {
+  display: none;
+}
+
+body.blog #hiring-nav {
+  top: 124px;
+  left: 754px;
+}
+
+body.docs #hiring-nav {
+  top: 58px;
+  left: 746px;
+}
+
+
 body .wrap > nav {
   background: $white;
   position: relative;
   height: 90px;
   box-shadow: 0 1px 2px #ddd;
-
+  
   nav {
 
     > * {

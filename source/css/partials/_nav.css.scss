@@ -12,9 +12,10 @@ body.home .wrap > nav {
 
 
 #hiring-nav {
-  position: relative;
-  top: -7px;
-  left: 94px;
+  position: absolute;
+  top: 70px;
+  left: 153px;
+  display: block;
 }
 
 body.home #hiring-nav {
@@ -22,13 +23,13 @@ body.home #hiring-nav {
 }
 
 body.blog #hiring-nav {
-  top: 62px;
-  left: 623px;
+  top: 124px;
+  left: 754px;
 }
 
 body.docs #hiring-nav {
-  top: -12px;
-  left: 606px;
+  top: 58px;
+  left: 746px;
 }
 
 

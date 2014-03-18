@@ -1,5 +1,5 @@
 ---
-title: "Learn Node at Nodelschool"
+title: "Learn Node at Nodeschool"
 class_name: docs
 full_width: true
 ---

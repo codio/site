@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Codio Blog</title>
+  <id>https://codio.com/s/blog</id>
+  <link href="https://codio.com/s/blog"/>
+  <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
+  <updated>2014-03-12T00:00:00Z</updated>
+  <author>
+    <name>Codio</name>
+  </author>
+  <entry>
+    <title>Drupal and Joomla Installation Guides</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/03/drupal-joomla/"/>
+    <id>https://codio.com/s/blog/2014/03/drupal-joomla/</id>
+    <published>2014-03-12T00:00:00Z</published>
+    <updated>2014-03-12T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;We've just added 2 new guides showing how to install &lt;a href="/s/docs/boxes/specifics/drupal"&gt;Drupal&lt;/a&gt; and &lt;a href="/s/docs/boxes/specifics/joomla"&gt;Joomla&lt;/a&gt; on a Codio Box. Each installation takes only about 3 minutes and the steps are extremely uncomplicated.&lt;/p&gt;
+
+&lt;p&gt;The guides cover the downloading of the installer package, installation...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;ve just added 2 new guides showing how to install &lt;a href="/s/docs/boxes/specifics/drupal"&gt;Drupal&lt;/a&gt; and &lt;a href="/s/docs/boxes/specifics/joomla"&gt;Joomla&lt;/a&gt; on a Codio Box. Each installation takes only about 3 minutes and the steps are extremely uncomplicated.&lt;/p&gt;
+
+&lt;p&gt;The guides cover the downloading of the installer package, installation of PHP and MySQL as well as setting up a MySQL database ready for the systems to connect to.&lt;/p&gt;
+
+&lt;p&gt;You can find both guides here:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/s/docs/boxes/specifics/drupal"&gt;Drupal installation guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/s/docs/boxes/specifics/joomla"&gt;Joomla installation guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Version Management with PHPBrew</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/03/phpbrew/"/>
+    <id>https://codio.com/s/blog/2014/03/phpbrew/</id>
+    <published>2014-03-10T00:00:00Z</published>
+    <updated>2014-03-10T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;Codio's PHP5 Box Part installs a recent version of PHP5 by default. However, if you require version management for PHP, why not use PHPBrew. This post explains how to get it up and running on your Codio Box.&lt;/p&gt;
+
+&lt;p&gt;It assumes you have created a Codio account...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Codio&amp;#39;s PHP5 Box Part installs a recent version of PHP5 by default. However, if you require version management for PHP, why not use PHPBrew. This post explains how to get it up and running on your Codio Box.&lt;/p&gt;
+
+&lt;p&gt;It assumes you have created a Codio account.&lt;/p&gt;
+
+&lt;p&gt;Start by creating a new empty project from the Codio Dashboard. Once you are in the IDE, open up the Terminal (&lt;code&gt;Tools &amp;gt; Terminal&lt;/code&gt;).&lt;/p&gt;
+
+&lt;h2 id="install-php"&gt;Install PHP&lt;/h2&gt;
+
+&lt;p&gt;If you have not already done so, install PHP&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parts install php5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="download-phpbrew"&gt;Download PHPBrew&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir /home/codio/bin
+curl https://raw.github.com/c9s/phpbrew/master/phpbrew -o /home/codio/bin/phpbrew
+chmod +x /home/codio/bin/phpbrew
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="intialize-scripts"&gt;Intialize Scripts&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;#39;s first add the PATH to &lt;code&gt;~/.bash_profile&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &amp;#39;export PATH=&amp;quot;$HOME/bin:$PATH&amp;quot;&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and reload your &lt;code&gt;.bash_profile&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;. ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ignore the terminal error &lt;code&gt;-bash: cd: workspace/: No such file or directory&lt;/code&gt; if you see it.&lt;/p&gt;
+
+&lt;h2 id="initialize-phpbrew"&gt;Initialize PHPBrew&lt;/h2&gt;
+
+&lt;p&gt;We initialize PHPBrew by entering&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;phpbrew init
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should now see a chunk of text starting with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Phpbrew environment is initialized, required directories are
+
+        /home/codio/.phpbrew
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="update-your-.bash_profile-file"&gt;Update your &lt;code&gt;.bash_profile&lt;/code&gt; file&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &amp;#39;export PHPBREW_SET_PROMPT=1&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;echo &amp;#39;source /home/codio/.phpbrew/bashrc&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile&lt;/p&gt;
+
+&lt;h2 id="reload-shell-data"&gt;Reload shell data&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;. ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;... or simply close the Terminal window and open it again.&lt;/p&gt;
+
+&lt;h2 id="let&amp;#39;s-get-going"&gt;Let&amp;#39;s get going&lt;/h2&gt;
+
+&lt;p&gt;Now we can start playing with PHPBrew. To see all PHPBrew commands enter&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;phpbrew
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then start Apache&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parts start apache2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="create-a-simple-php-file-and-preview-it"&gt;Create a simple PHP file and preview it&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;#39;s create a very simple PHP file in Codio. Add &lt;code&gt;index.php&lt;/code&gt; to the root of your project and then paste in the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?php echo phpinfo(); ?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;From the &lt;a href="/s/docs/ide/inline-preview/"&gt;Preview menu&lt;/a&gt; (right most menu option) select &amp;quot;Box URL SSL&amp;quot;. You should now see, in a Preview tab inside Codio, the running version of PHP listed along with lots of other bumph.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="phpbrew phpinfo" src="/s/img/docs/phpbrew-phpinfo-5bc99bca.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="install-a-different-version-of-php"&gt;Install a different version of PHP&lt;/h3&gt;
+
+&lt;p&gt;We can list all known versions of PHP by entering&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;phpbrew known
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also try installing versions that are not listed.&lt;/p&gt;
+
+&lt;p&gt;To install PHP 5.4.26 with default modules and apache2 support, we enter&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;phpbrew install 5.4.26 +default +apxs2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This can take a few minutes, so be patient. Once it&amp;#39;s finished, enter&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;phpbrew list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and you should see&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    Installed versions:
+        * (system)
+        php-5.4.26 (/home/codio/.phpbrew/php/php-5.4.26)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id="installing-php-modules"&gt;Installing PHP modules&lt;/h2&gt;
+
+&lt;p&gt;PHPBrew can also install PHP modules. You can list all available modules like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;phpbrew variants
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This also gives instructions on how to install modules.&lt;/p&gt;
+
+&lt;h3 id="switch-versions"&gt;Switch Versions&lt;/h3&gt;
+
+&lt;p&gt;To switch version, enter&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;phpbrew switch 5.4.26
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="remove-parts-php5"&gt;Remove parts php5&lt;/h3&gt;
+
+&lt;p&gt;We now need to remove the version of PHP installed by Codio Box Parts, as PHPBrew now manages your PHP installation.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parts uninstall php5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id="set-new-php-for-apache"&gt;Set new PHP for Apache&lt;/h3&gt;
+
+&lt;p&gt;You now need to edit &lt;code&gt;~/.parts/etc/apache2/config/php.conf&lt;/code&gt;. The best way to do this is enter&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nano ~/.parts/etc/apache2/config/php.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should modify the &lt;code&gt;PHPIniDir&lt;/code&gt; line to suit your installed version of PHP Copy the following to the clipboard&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;PHPIniDir /home/codio/.phpbrew/php/php-5.4.26/etc/php.ini
+AddHandler php5-script .php
+DirectoryIndex index.php
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;move the cursor to the bottom and use backspace key to delete everything&lt;/li&gt;
+&lt;li&gt;paste from the clipboard making sure you end up with the same 3 lines in the exact same format you see above&lt;/li&gt;
+&lt;li&gt;press ctrl+x (not cmd for Mac users) to save then &amp;#39;Y&amp;#39; to confirm then enter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now we need to restart Apache&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parts restart apache2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now do another Preview using Box URL SSL from the menu. You should now see you are running the correct version.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="phpbrew phpinfo2" src="/s/img/docs/phpbrew-phpinfo2-17d9bbf9.png" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Deploying to Heroku</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/03/heroku-part/"/>
+    <id>https://codio.com/s/blog/2014/03/heroku-part/</id>
+    <published>2014-03-10T00:00:00Z</published>
+    <updated>2014-03-10T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;We've added a new Box Part to make working with Heroku a breeze. Here are the instructions, which you'll also &lt;a href="/s/docs/boxes/specifics/heroku"&gt;find in our docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Deploying to Heroku is easy. There are two things you need to know about:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;The &lt;a href="https://devcenter.heroku.com/articles/heroku-command"&gt;Heroku cli tool&lt;/a&gt; is available as a Box Part...&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;ve added a new Box Part to make working with Heroku a breeze. Here are the instructions, which you&amp;#39;ll also &lt;a href="/s/docs/boxes/specifics/heroku"&gt;find in our docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Deploying to Heroku is easy. There are two things you need to know about:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href="https://devcenter.heroku.com/articles/heroku-command"&gt;Heroku cli tool&lt;/a&gt; is available as a Box Part. Type &lt;code&gt;parts install heroku-cli&lt;/code&gt; from the terminal so you can manage your Heroku apps from the command line.&lt;/li&gt;
+&lt;li&gt;Deployment is done using Git. &lt;a href="https://devcenter.heroku.com/articles/git"&gt;This article&lt;/a&gt; explains the steps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="a-sample-application"&gt;A sample Application&lt;/h2&gt;
+
+&lt;p&gt;If you want to try it out using a sample application, follow the steps in this section. If you have an application ready to go, skip to the next step section.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a new project from the Dashboard and paste in this url: &lt;code&gt;https://github.com/codio/hpdemo-rails.git&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Open up a new terminal window from the &lt;code&gt;Tools &amp;gt; Terminal&lt;/code&gt; menu.&lt;/li&gt;
+&lt;li&gt;Enter &lt;code&gt;gem install bundler&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enter &lt;code&gt;rbenv rehash&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enter &lt;code&gt;bundle install&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Check the project is running by entering &lt;code&gt;bundle exec rails s&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Check it is running ok by going to the right most menu and selecting &amp;#39;Box URL&amp;#39; from the menu.&lt;/li&gt;
+&lt;li&gt;You should now see an App running.&lt;/li&gt;
+&lt;li&gt;Ignore any warnings in the terminal window.&lt;/li&gt;
+&lt;li&gt;Kill the Rails server with &lt;code&gt;Ctrl+C&lt;/code&gt; or close and reopen the terminal window.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="deploying-to-heroku"&gt;Deploying to Heroku&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install the Heroku command line tool with &lt;code&gt;parts install heroku-cli&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create a new Heroku app with &lt;code&gt;heroku create&lt;/code&gt; (you will be required to enter your user name and password).&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Check the Git remotes with &lt;code&gt;git remote -v&lt;/code&gt; and you should see something like this (if you created your own app you may not see the &amp;#39;origin&amp;#39; remote or if you do, it will be another remote).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku  git@heroku.com:fathomless-savannah-8594.git (fetch)
+heroku  git@heroku.com:fathomless-savannah-8594.git (push)
+origin  https://github.com/codio/hpdemo-rails.git (fetch)
+origin  https://github.com/codio/hpdemo-rails.git (push)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you already had a Heroku app set up then you would enter something like &lt;code&gt;heroku git:remote -a fathomless-savannah-8594&lt;/code&gt; where &amp;#39;fathomless-savannah-8594&amp;#39; was taken from the Heroku console.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We&amp;#39;re ready to deploy now with &lt;code&gt;git push heroku master&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You should see the deployment process taking place. At the end, you will see a URL for you to test it all out.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Codio Boxes Now Available</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/02/codio-boxes-now-available/"/>
+    <id>https://codio.com/s/blog/2014/02/codio-boxes-now-available/</id>
+    <published>2014-02-19T00:00:00Z</published>
+    <updated>2014-02-19T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;I am extremely excited to announce the immediate and total availability of the awesome new Codio Boxes!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Codio Boxes are a cloud-based, full-stack, server-side development environment&lt;/strong&gt; that is tightly integrated with every single Codio project. This...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I am extremely excited to announce the immediate and total availability of the awesome new Codio Boxes!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Codio Boxes are a cloud-based, full-stack, server-side development environment&lt;/strong&gt; that is tightly integrated with every single Codio project. This means that as well as the immense power of the Codio IDE that you are familar with for developing client-side applications, you can now develop &lt;em&gt;and run&lt;/em&gt; server-side code without ever leaving Codio.&lt;/p&gt;
+
+&lt;p&gt;Every single project in Codio has its very own Box. Each Box is an isolated development environment, running Ubuntu 12.04 and with full terminal access via a secure SSH connection - all right within Codio. Your project&amp;#39;s code is mounted to this Box, which means you can manage your files and folders from the Terminal, or continue using the Codio IDE. So if you create a file from the Terminal, it will immediately show up in the file tree of the IDE, and vice versa.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve updated the &lt;a href="/s/docs/"&gt;Docs&lt;/a&gt; and the site with a new &lt;a href="/"&gt;homepage&lt;/a&gt; and &lt;a href="/s/features"&gt;features page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Go ahead and try it!&lt;/strong&gt; We spent yesterday migrating all existing projects, so all your old and existing projects now have a Box to play with, as well as any new project you create.&lt;/p&gt;
+
+&lt;h2 id="fast"&gt;Fast&lt;/h2&gt;
+
+&lt;p&gt;Create or open a project, and your Box is ready to go. Just open the Terminal and you are in with full access to do what you want. This takes just a few seconds!&lt;/p&gt;
+
+&lt;h2 id="full-stack"&gt;Full Stack&lt;/h2&gt;
+
+&lt;p&gt;Unlike other online IDE&amp;#39;s, you do not have to choose what stack you have on your box. This is because we make it all available to you on every project. &lt;a href="https://github.com/sstephenson/rbenv"&gt;rbenv&lt;/a&gt; and &lt;a href="https://github.com/creationix/nvm"&gt;NVM&lt;/a&gt; are installed as standard to allow you to install and switch Rubies and NodeJS versions at will, and the &lt;a href="/s/docs/boxes/box-parts/"&gt;Box Parts&lt;/a&gt; package manager allows you to install loads of other languages, databases and other software directly onto your box.&lt;/p&gt;
+
+&lt;h2 id="customisable"&gt;Customisable&lt;/h2&gt;
+
+&lt;p&gt;With Box Parts, you can install your language and database of choice, and run it quickly and easily. Check out the &lt;a href="https://codio.com/#overview"&gt;new homepage&lt;/a&gt;, where we have created a couple of short screencasts that show how fast and easy it is to create your environment.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I could gush on and on about the awesomeness of Codio Boxes, but try them for yourself. We think you&amp;#39;ll love them.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Codio Boxes + Docker</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/02/codio-boxes-and-docker/"/>
+    <id>https://codio.com/s/blog/2014/02/codio-boxes-and-docker/</id>
+    <published>2014-02-12T00:00:00Z</published>
+    <updated>2014-02-12T00:00:00Z</updated>
+    <author>
+      <name>Joel Moss</name>
+    </author>
+    <summary type="html">&lt;p&gt;We're getting extremely close to publicly releasing Codio Boxes to you all. In this post, I want to explain how Codio Boxes work and how the amazing &lt;a href="https://www.docker.io/"&gt;Docker&lt;/a&gt; is behind it all.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Please note, that Codio Boxes are not yet publicly available, but are in...&lt;/em&gt;&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;re getting extremely close to publicly releasing Codio Boxes to you all. In this post, I want to explain how Codio Boxes work and how the amazing &lt;a href="https://www.docker.io/"&gt;Docker&lt;/a&gt; is behind it all.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Please note, that Codio Boxes are not yet publicly available, but are in private beta.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id="what&amp;#39;s-a-codio-box?"&gt;What&amp;#39;s a Codio Box?&lt;/h2&gt;
+
+&lt;p&gt;A Codio Box is created when you create a new project in Codio, and is started every time you open that project. This Box provides a 100% cloud-based, full-stack, server-side development environment. That&amp;#39;s a mouthful, so lets break that down a little.&lt;/p&gt;
+
+&lt;p&gt;Each Box is an isolated development environment, running Ubuntu 12.04 and with full terminal access via a secure SSH connection - all right within Codio. Your project&amp;#39;s code is mounted to this Box, which means you can manage your files and folders from the Terminal, or continue using the Codio IDE. So if you create a file from the Terminal, it will immediately show up in the file tree of the IDE, and vice versa.&lt;/p&gt;
+
+&lt;p&gt;And because the Box is isolated, you also have access to all the familiarity of your local or remote servers, and can install software, databases, programming languages and almost everything else you can do from any Linux based development machine.&lt;/p&gt;
+
+&lt;p&gt;Some examples of what you can do include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Running any &lt;a href="http://nodejs.org/"&gt;Node&lt;/a&gt; based application&lt;/li&gt;
+&lt;li&gt;Installing and running &lt;a href="https://wordpress.org/"&gt;Wordpress&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Running &lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt; tasks&lt;/li&gt;
+&lt;li&gt;Installing &lt;a href="http://rubyonrails.org/"&gt;Ruby on Rails&lt;/a&gt; and running the Rails development server&lt;/li&gt;
+&lt;li&gt;Creating a &lt;a href="http://www.mongodb.org/"&gt;MongoDB&lt;/a&gt; or &lt;a href="http://www.mysql.com/"&gt;MySQL&lt;/a&gt; database&lt;/li&gt;
+&lt;li&gt;Build and compile &lt;a href="http://golang.org/"&gt;Go&lt;/a&gt; applications&lt;/li&gt;
+&lt;li&gt;Run your PHP application via Apache or Nginx&lt;/li&gt;
+&lt;li&gt;Run a &lt;a href="http://www.rabbitmq.com/"&gt;RabbitMQ&lt;/a&gt; queue&lt;/li&gt;
+&lt;li&gt;Run a &lt;a href="https://www.meteor.com/"&gt;MeteorJS&lt;/a&gt; application&lt;/li&gt;
+&lt;li&gt;Develop and run code in C, Node, Ruby, Python, PHP, Go, Haskell, Java, Lua, Pascal, Rust, and Scala&lt;/li&gt;
+&lt;li&gt;Run any and all Git or Mercurial commands&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Plus loads more...&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The best thing about all this, is that every Codio project will have all this ready and waiting for you to use. You won&amp;#39;t have to choose your stack or the type of Box you want. Just create a Codio project and you have access to it all.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instant gratification!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Codio Boxes" src="/s/img/blog/todomvc-3aaf3f9b.png" /&gt;&lt;/p&gt;
+
+&lt;h2 id="how-is-this-possible?"&gt;How is this Possible?&lt;/h2&gt;
+
+&lt;p&gt;Most of this is only possible thanks to the amazing &lt;a href="https://www.docker.io/"&gt;Docker&lt;/a&gt; project.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Docker is an open-source engine that automates the deployment of any application as a lightweight, portable, self-sufficient container that will run virtually anywhere.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A Codio Box is simply a Docker container, built from a base image that we put together just for you, and just for Codio. And it&amp;#39;s fast, very, VERY fast! The time it takes to create a new project is a matter of a few seconds. At which point, you can fire up the Terminal from your project and you have an SSH connection to your Box.&lt;/p&gt;
+
+&lt;p&gt;In fact, we reckon you won&amp;#39;t notice the time difference between opening a project on Codio right now, and opening a project that has a Box attached to it. Using Docker allows us to provide an almost seamless experience to you, which is as close to your current development environment as we can possibly get, while taking full advantage of developing in the Cloud and the browser.&lt;/p&gt;
+
+&lt;p&gt;We can provide all this because we&amp;#39;re being very intelligent about how we use Docker, and when your Boxes are running. Simply put, we only run your Box when you need it, which avoids wasting resources and keeps costs down. The savings of which we can pass straight on to you.&lt;/p&gt;
+
+&lt;h2 id="i-wanna&amp;#39;-see!"&gt;I wanna&amp;#39; see!&lt;/h2&gt;
+
+&lt;p&gt;We&amp;#39;ll be launching Codio Boxes very, very soon, but until then, we&amp;#39;ve created a couple of tiny screencasts to show you how easy and fast Codio Boxes are.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://player.vimeo.com/video/85953159?autoplay=1&amp;amp;amp;hd=1"&gt;Running a NodeJS app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://player.vimeo.com/video/85998845?autoplay=1&amp;amp;amp;hd=1"&gt;Installing and running Ruby on Rails&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://player.vimeo.com/video/86028855?autoplay=1&amp;amp;amp;hd=1"&gt;Installing and running Wordpress&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Codio Boxes &amp;amp; Box Parts</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/02/codio-boxes-and-box-parts/"/>
+    <id>https://codio.com/s/blog/2014/02/codio-boxes-and-box-parts/</id>
+    <published>2014-02-07T00:00:00Z</published>
+    <updated>2014-02-07T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;a href="/s/blog/2014/01/server-side-development"&gt;As previously announced&lt;/a&gt;, we have been squirrelling away on something really big over the last couple of months. &lt;strong&gt;Codio Boxes&lt;/strong&gt; will provide a full-stack server-side development environment for each and every one of your Codio projects. It's in private...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;a href="/s/blog/2014/01/server-side-development"&gt;As previously announced&lt;/a&gt;, we have been squirrelling away on something really big over the last couple of months. &lt;strong&gt;Codio Boxes&lt;/strong&gt; will provide a full-stack server-side development environment for each and every one of your Codio projects. It&amp;#39;s in private beta right now and will be shipping later this month.&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;Box&lt;/strong&gt; is an Ubuntu server that&amp;#39;s created &lt;strong&gt;instantly and invisibly&lt;/strong&gt; to accompany each and every one of your Codio projects. You have full access to your Box via the integrated SSH terminal.&lt;/p&gt;
+
+&lt;p&gt;We think you&amp;#39;ll be amazed at how transparent and easy they are to work with. There is no complex setup. Your Box is simply there for you.&lt;/p&gt;
+
+&lt;p&gt;If you are doing client-side coding then you don&amp;#39;t even need to be aware of it if that makes you feel better. But if you run things like Grunt, then having the Box means you can configure and run any build task you like.&lt;/p&gt;
+
+&lt;h2 id="screencasts"&gt;Screencasts&lt;/h2&gt;
+
+&lt;p&gt;Codio Boxes will support dozens of programming languages, including, but not limited to Ruby, NodeJS and PHP. We&amp;#39;ve created a couple of small screencasts to show you how easy and fast they are to get started.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://player.vimeo.com/video/85953159?autoplay=1&amp;amp;amp;hd=1"&gt;NodeJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://player.vimeo.com/video/85998845?autoplay=1&amp;amp;amp;hd=1"&gt;Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://player.vimeo.com/video/86028855?autoplay=1&amp;amp;amp;hd=1"&gt;PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="box-parts"&gt;Box Parts&lt;/h2&gt;
+
+&lt;p&gt;Your Box comes with the following pre-installed languages and components:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Node&lt;/strong&gt; (via nvm version manager)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ruby&lt;/strong&gt; (via rbenv version manager)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; 2.7&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git, Mercurial and SVN&lt;/strong&gt; SCMs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But we also have a big library of so-called &amp;quot;Box Parts&amp;quot; which let you install more databases, languages and components unbelievably quickly. Here&amp;#39;s a selection of the Box Parts we have. If you want more Box Parts, just ask and we&amp;#39;ll add them for you quickly.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Languages&lt;/strong&gt;: C, Node, Ruby, Python, PHP (and Composer), Go, Haskell, Java, Lua, Pascla, Rust, Scala&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt;: MongoDB, MySQL, Postgresql, SQLite3, Redis, Memcached&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Servers &amp;amp; Queues&lt;/strong&gt;: Apache2, Nginx, RabbitMQ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Components&lt;/strong&gt;: ack, ant, apr, cmake, geos, swig, ghc, image_magick, Leiningen, mave, s3cmd, Silver Searcher&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Other&lt;/strong&gt;: PHP Composer, MeteorJS, PhantomJS&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+</feed>

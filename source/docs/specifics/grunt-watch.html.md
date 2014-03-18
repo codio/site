@@ -8,5 +8,5 @@ This tutorial shows how Grunt trigger build tasks as soon as files change in you
 
 We've got a really cool physics demo written in Coffeescript and we're going to show how to compile the entire project as well as only files that have changed.
 
-[Go to the Tutorial](https://github.com/codio/tutorial_yo_angular) - just follows the instructions in our GitHub repo.
+[Go to the Tutorial](https://github.com/codio/tutorial_grunt_watch_coffee) - just follow the instructions in our GitHub repo.
 

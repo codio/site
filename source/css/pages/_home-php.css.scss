@@ -1,5 +1,29 @@
 body.home-php {
 
+  section#languages .container > div div:first-child {
+    
+    @include apply-to(more-than, desktop) {
+      width: 270px;
+      padding: 30px 0 0 0;
+    }
+    
+    h5 {
+      font-size: 16px;
+      
+      @include apply-to(more-than, desktop) {
+        font-size: 18px;
+      }
+    }
+    
+    p {
+      font-size: 14px;
+      
+      @include apply-to(more-than, desktop) {
+        font-size: 16px;
+      }
+    }
+  }
+  
   header {
     background-color: #EAEDF2;
     height: 515px;
@@ -30,6 +54,7 @@ body.home-php {
                 text-align: left;
                 margin-left: 100px;
                 line-height: 0.8em;
+                
                 @include apply-to(more-than, desktop) {
                   font-size: 50px;
                 }
@@ -50,6 +75,7 @@ body.home-php {
                 line-height: 0px;
                 text-align: left;
                 padding-left: 0px;
+                
                 @include apply-to(more-than, desktop) {
                   padding-left: 36px;
                   font-size: 40px;
@@ -66,12 +92,11 @@ body.home-php {
               }
 
               &:nth-child(5) {
-                font: 66px gotham_thin;
+                font: 70px gotham_thin;
                 line-height: 70px;
 
                 @include apply-to(more-than, desktop) {
-                  font: 66px gotham_black;                  
-                  font-size: 71px;
+                  font: 50px gotham_thin;
                 }
               }              
               

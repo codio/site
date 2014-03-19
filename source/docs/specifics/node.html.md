@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Node, preinstalled on all Codio boxes, is made available via the Node Version Manager, [nvm](https://github.com/sstephenson/rbenv). With a few simple commands it allows you to install multiple versions of Node and switch between them as and when you wish.
+Node, preinstalled on all Codio boxes, is made available via the Node Version Manager, [nvm](https://github.com/creationix/nvm). With a few simple commands it allows you to install multiple versions of Node and switch between them as and when you wish.
 
 At the time of writing, your Codio Box has Node v0.10.25 installed for you. Open up the terminal and run the following to check this:
 

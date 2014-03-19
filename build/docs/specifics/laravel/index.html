@@ -146,16 +146,16 @@ parts start apache2 mysql
 <p>We already installed Composer above, so let&#39;s now install Laravel itself using Composer then move the files down to the root and finally tidy up the empty laravel folder. Enter each of the following in the terminal window.</p>
 
 <ol>
-<li>composer create-project laravel/laravel --prefer-dist</li>
-<li>mv laravel/{*,.*} ~/workspace<br></li>
-<li>rm laravel -r</li>
+<li><code>composer create-project laravel/laravel --prefer-dist</code></li>
+<li><code>mv laravel/{*,.*} ~/workspace</code><br></li>
+<li><code>rm laravel -r</code></li>
 </ol>
 
 <h2 id="try-it-out">Try it out</h2>
 
 <ol>
 <li>To save editing <code>~/.parts/etc/apache2/https.conf</code>, rename <code>server.php</code> in the root of the project to <code>index.php</code> either from the filetree or enter <code>mv server.php index.php</code></li>
-<li>From the Codio Preview menu (the right most Codio menu) select the drop down menu and select &#39;Box URL&#39;.</li>
+<li>From the Codio Preview menu (the right most Codio menu) select the drop down menu and check &#39;New Browser Tab&#39; and select &#39;Box URL&#39;.</li>
 </ol>
 
 <p>You should now see Laravel up and running in a browser window. Do not set the &#39;Inside Codio&#39; option as this Laravel scaffold does not allow it to run in an IFrame.</p>

@@ -8,7 +8,7 @@ image: http://nodeschool.io/images/nodeschool.png
 full_width: true
 ---
 
-Nodeschool is a beautiful set of tutorials for Node.js from Nodeschool.io that starts simple and then gradually moves into more advanced territtory.
+Nodeschool is a beautiful set of tutorials for Node.js from Nodeschool.io that starts simple and then gradually moves into more advanced territory.
 
 We've added Codio annotations, so it's a really great way to learn. Click on a tutorial to load it, then follow the README.md instructions.
 

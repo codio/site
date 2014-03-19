@@ -27,6 +27,7 @@ This section contains links to Codio tutorials and installation instructions.
 - [Wordpress](/docs/specifics/wordpress)
 - [Drupal](/docs/specifics/drupal)
 - [Joomla](/docs/specifics/joomla)
-- [Installing Laravel](/docs/specifics/laravel)
+- [Laravel installation](/docs/specifics/laravel)
+- [CodeIgniter installation](/docs/specifics/codeigniter)
 
 If you want us to provide more tutorials, please email [support@codio.com](mailto:support@codio.com).

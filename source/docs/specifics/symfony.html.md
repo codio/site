@@ -21,9 +21,9 @@ Now choose one of the following method of getting Symfony downloaded.
 1. From the terminal, `wget http://symfony.com/download?v=Symfony_Standard_Vendors_2.4.2.tgz` being sure to check the version number.
 1. Don't worry about the odd looking filename.
 1. Unzip the download file using `tar -zxvf download?v=Symfony_Standard_Vendors_2.4.2.tgz`
-1. Delete the zip file `rm Symfony_Standard_Vendors_2.4.2.tgz`
+1. Delete the zip file `rm download?v=Symfony_Standard_Vendors_2.4.2.tgz`
 1. `mv Symfony/{*,.*} ~/workspace` moves the contents of the Symfony folder down to the root folder (ignore warnings).
-1. Delete the now empty Symfont folder `rm -rf Symfony`
+1. Delete the now empty Symfony folder `rm -rf Symfony`
 
 ##Method 2 - Use Composer to install Symfony
 

@@ -4,10 +4,50 @@
   <id>https://codio.com/s/blog</id>
   <link href="https://codio.com/s/blog"/>
   <link href="https://codio.com/s/blog/feed.xml" rel="self"/>
-  <updated>2014-03-13T00:00:00Z</updated>
+  <updated>2014-03-19T00:00:00Z</updated>
   <author>
     <name>Codio</name>
   </author>
+  <entry>
+    <title>Nodeschool Tutorials</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/03/nodeschool/"/>
+    <id>https://codio.com/s/blog/2014/03/nodeschool/</id>
+    <published>2014-03-19T00:00:00Z</published>
+    <updated>2014-03-19T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;Nodeschool is a beautiful set of tutorials for Node.js from Nodeschool.io that starts simple and then gradually moves into more advanced territory.&lt;/p&gt;
+
+&lt;p&gt;We've added Codio annotations, so it's a really great way to learn. Click on a tutorial to load it...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Nodeschool is a beautiful set of tutorials for Node.js from Nodeschool.io that starts simple and then gradually moves into more advanced territory.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#39;ve added Codio annotations, so it&amp;#39;s a really great way to learn. Click on a tutorial to load it, then follow the README.md instructions.&lt;/p&gt;
+
+&lt;p&gt;Want to see a video of how it works? &lt;a href="https://player.vimeo.com/video/86100550?autoplay=1&amp;amp;amp;hd=1"&gt;Click here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To get started, click on the links below and read the README.md.&lt;/p&gt;
+
+&lt;h3 id="core-concepts"&gt;Core Concepts&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_learnyounode"&gt;Learn You Node&lt;/a&gt; - learn the basics&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_stream_adventure"&gt;Stream Adventure&lt;/a&gt; - and introduction to streaming&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_bytewiser"&gt;Bytewiser&lt;/a&gt; - manipulate binary data in node.js and HTML5 browsers&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_functionaljs"&gt;Functional Javascript&lt;/a&gt; - writing functional js with Node&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_gitit"&gt;Git It&lt;/a&gt; - Learn the basics of Git and GitHub&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="electives"&gt;Electives&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_levelmeup"&gt;Levelmeup&lt;/a&gt; working with LevelDB&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_expressworks"&gt;Expressworks&lt;/a&gt; - using the Express framework&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_promises"&gt;Promises&lt;/a&gt; - using promises for callbacks&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/codio/tutorial_nodeschool_asyncyou"&gt;Async You&lt;/a&gt; - Learn to use the async package&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>We're Hiring More Javascript Engineers</title>
     <link rel="alternate" href="https://codio.com/s/blog/2014/03/hiring-more-javascript-engineers/"/>
@@ -83,64 +123,6 @@
 &lt;li&gt;&lt;a href="/s/docs/specifics/drupal"&gt;Drupal installation guide&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="/s/docs/specifics/joomla"&gt;Joomla installation guide&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Deploying to Heroku</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2014/03/heroku-part/"/>
-    <id>https://codio.com/s/blog/2014/03/heroku-part/</id>
-    <published>2014-03-10T00:00:00Z</published>
-    <updated>2014-03-10T00:00:00Z</updated>
-    <author>
-      <name>Freddy May</name>
-    </author>
-    <summary type="html">&lt;p&gt;We've added a new Box Part to make working with Heroku a breeze. Here are the instructions, which you'll also &lt;a href="/s/docs/specifics/heroku"&gt;find in our docs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Deploying to Heroku is easy. There are two things you need to know about:&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;The &lt;a href="https://devcenter.heroku.com/articles/heroku-command"&gt;Heroku cli tool&lt;/a&gt; is available as a Box Part...&lt;/li&gt;&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;We&amp;#39;ve added a new Box Part to make working with Heroku a breeze. Here are the instructions, which you&amp;#39;ll also &lt;a href="/s/docs/specifics/heroku"&gt;find in our docs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Deploying to Heroku is easy. There are two things you need to know about:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The &lt;a href="https://devcenter.heroku.com/articles/heroku-command"&gt;Heroku cli tool&lt;/a&gt; is available as a Box Part. Type &lt;code&gt;parts install heroku-cli&lt;/code&gt; from the terminal so you can manage your Heroku apps from the command line.&lt;/li&gt;
-&lt;li&gt;Deployment is done using Git. &lt;a href="https://devcenter.heroku.com/articles/git"&gt;This article&lt;/a&gt; explains the steps.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="a-sample-application"&gt;A sample Application&lt;/h2&gt;
-
-&lt;p&gt;If you want to try it out using a sample application, follow the steps in this section. If you have an application ready to go, skip to the next step section.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Create a new project from the Dashboard and paste in this url: &lt;code&gt;https://github.com/codio/hpdemo-rails.git&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Open up a new terminal window from the &lt;code&gt;Tools &amp;gt; Terminal&lt;/code&gt; menu.&lt;/li&gt;
-&lt;li&gt;Enter &lt;code&gt;gem install bundler&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Enter &lt;code&gt;rbenv rehash&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Enter &lt;code&gt;bundle install&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Check the project is running by entering &lt;code&gt;bundle exec rails s&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Check it is running ok by going to the right most menu and selecting &amp;#39;Box URL&amp;#39; from the menu.&lt;/li&gt;
-&lt;li&gt;You should now see an App running.&lt;/li&gt;
-&lt;li&gt;Ignore any warnings in the terminal window.&lt;/li&gt;
-&lt;li&gt;Kill the Rails server with &lt;code&gt;Ctrl+C&lt;/code&gt; or close and reopen the terminal window.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="deploying-to-heroku"&gt;Deploying to Heroku&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Install the Heroku command line tool with &lt;code&gt;parts install heroku-cli&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Create a new Heroku app with &lt;code&gt;heroku create&lt;/code&gt; (you will be required to enter your user name and password).&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Check the Git remotes with &lt;code&gt;git remote -v&lt;/code&gt; and you should see something like this (if you created your own app you may not see the &amp;#39;origin&amp;#39; remote or if you do, it will be another remote).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;heroku  git@heroku.com:fathomless-savannah-8594.git (fetch)
-heroku  git@heroku.com:fathomless-savannah-8594.git (push)
-origin  https://github.com/codio/hpdemo-rails.git (fetch)
-origin  https://github.com/codio/hpdemo-rails.git (push)
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you already had a Heroku app set up then you would enter something like &lt;code&gt;heroku git:remote -a fathomless-savannah-8594&lt;/code&gt; where &amp;#39;fathomless-savannah-8594&amp;#39; was taken from the Heroku console.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;We&amp;#39;re ready to deploy now with &lt;code&gt;git push heroku master&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;You should see the deployment process taking place. At the end, you will see a URL for you to test it all out.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </content>
   </entry>
   <entry>
@@ -320,6 +302,64 @@ DirectoryIndex index.php
 </content>
   </entry>
   <entry>
+    <title>Deploying to Heroku</title>
+    <link rel="alternate" href="https://codio.com/s/blog/2014/03/heroku-part/"/>
+    <id>https://codio.com/s/blog/2014/03/heroku-part/</id>
+    <published>2014-03-10T00:00:00Z</published>
+    <updated>2014-03-10T00:00:00Z</updated>
+    <author>
+      <name>Freddy May</name>
+    </author>
+    <summary type="html">&lt;p&gt;We've added a new Box Part to make working with Heroku a breeze. Here are the instructions, which you'll also &lt;a href="/s/docs/specifics/heroku"&gt;find in our docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Deploying to Heroku is easy. There are two things you need to know about:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;The &lt;a href="https://devcenter.heroku.com/articles/heroku-command"&gt;Heroku cli tool&lt;/a&gt; is available as a Box Part...&lt;/li&gt;&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;We&amp;#39;ve added a new Box Part to make working with Heroku a breeze. Here are the instructions, which you&amp;#39;ll also &lt;a href="/s/docs/specifics/heroku"&gt;find in our docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Deploying to Heroku is easy. There are two things you need to know about:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href="https://devcenter.heroku.com/articles/heroku-command"&gt;Heroku cli tool&lt;/a&gt; is available as a Box Part. Type &lt;code&gt;parts install heroku-cli&lt;/code&gt; from the terminal so you can manage your Heroku apps from the command line.&lt;/li&gt;
+&lt;li&gt;Deployment is done using Git. &lt;a href="https://devcenter.heroku.com/articles/git"&gt;This article&lt;/a&gt; explains the steps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="a-sample-application"&gt;A sample Application&lt;/h2&gt;
+
+&lt;p&gt;If you want to try it out using a sample application, follow the steps in this section. If you have an application ready to go, skip to the next step section.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a new project from the Dashboard and paste in this url: &lt;code&gt;https://github.com/codio/hpdemo-rails.git&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Open up a new terminal window from the &lt;code&gt;Tools &amp;gt; Terminal&lt;/code&gt; menu.&lt;/li&gt;
+&lt;li&gt;Enter &lt;code&gt;gem install bundler&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enter &lt;code&gt;rbenv rehash&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enter &lt;code&gt;bundle install&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Check the project is running by entering &lt;code&gt;bundle exec rails s&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Check it is running ok by going to the right most menu and selecting &amp;#39;Box URL&amp;#39; from the menu.&lt;/li&gt;
+&lt;li&gt;You should now see an App running.&lt;/li&gt;
+&lt;li&gt;Ignore any warnings in the terminal window.&lt;/li&gt;
+&lt;li&gt;Kill the Rails server with &lt;code&gt;Ctrl+C&lt;/code&gt; or close and reopen the terminal window.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="deploying-to-heroku"&gt;Deploying to Heroku&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Install the Heroku command line tool with &lt;code&gt;parts install heroku-cli&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create a new Heroku app with &lt;code&gt;heroku create&lt;/code&gt; (you will be required to enter your user name and password).&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Check the Git remotes with &lt;code&gt;git remote -v&lt;/code&gt; and you should see something like this (if you created your own app you may not see the &amp;#39;origin&amp;#39; remote or if you do, it will be another remote).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;heroku  git@heroku.com:fathomless-savannah-8594.git (fetch)
+heroku  git@heroku.com:fathomless-savannah-8594.git (push)
+origin  https://github.com/codio/hpdemo-rails.git (fetch)
+origin  https://github.com/codio/hpdemo-rails.git (push)
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you already had a Heroku app set up then you would enter something like &lt;code&gt;heroku git:remote -a fathomless-savannah-8594&lt;/code&gt; where &amp;#39;fathomless-savannah-8594&amp;#39; was taken from the Heroku console.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We&amp;#39;re ready to deploy now with &lt;code&gt;git push heroku master&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You should see the deployment process taking place. At the end, you will see a URL for you to test it all out.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
     <title>Codio Boxes Now Available</title>
     <link rel="alternate" href="https://codio.com/s/blog/2014/02/codio-boxes-now-available/"/>
     <id>https://codio.com/s/blog/2014/02/codio-boxes-now-available/</id>
@@ -356,78 +396,6 @@ DirectoryIndex index.php
 &lt;hr&gt;
 
 &lt;p&gt;I could gush on and on about the awesomeness of Codio Boxes, but try them for yourself. We think you&amp;#39;ll love them.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Codio Boxes + Docker</title>
-    <link rel="alternate" href="https://codio.com/s/blog/2014/02/codio-boxes-and-docker/"/>
-    <id>https://codio.com/s/blog/2014/02/codio-boxes-and-docker/</id>
-    <published>2014-02-12T00:00:00Z</published>
-    <updated>2014-02-12T00:00:00Z</updated>
-    <author>
-      <name>Joel Moss</name>
-    </author>
-    <summary type="html">&lt;p&gt;We're getting extremely close to publicly releasing Codio Boxes to you all. In this post, I want to explain how Codio Boxes work and how the amazing &lt;a href="https://www.docker.io/"&gt;Docker&lt;/a&gt; is behind it all.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Please note, that Codio Boxes are not yet publicly available, but are in...&lt;/em&gt;&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;We&amp;#39;re getting extremely close to publicly releasing Codio Boxes to you all. In this post, I want to explain how Codio Boxes work and how the amazing &lt;a href="https://www.docker.io/"&gt;Docker&lt;/a&gt; is behind it all.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Please note, that Codio Boxes are not yet publicly available, but are in private beta.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id="what&amp;#39;s-a-codio-box?"&gt;What&amp;#39;s a Codio Box?&lt;/h2&gt;
-
-&lt;p&gt;A Codio Box is created when you create a new project in Codio, and is started every time you open that project. This Box provides a 100% cloud-based, full-stack, server-side development environment. That&amp;#39;s a mouthful, so lets break that down a little.&lt;/p&gt;
-
-&lt;p&gt;Each Box is an isolated development environment, running Ubuntu 12.04 and with full terminal access via a secure SSH connection - all right within Codio. Your project&amp;#39;s code is mounted to this Box, which means you can manage your files and folders from the Terminal, or continue using the Codio IDE. So if you create a file from the Terminal, it will immediately show up in the file tree of the IDE, and vice versa.&lt;/p&gt;
-
-&lt;p&gt;And because the Box is isolated, you also have access to all the familiarity of your local or remote servers, and can install software, databases, programming languages and almost everything else you can do from any Linux based development machine.&lt;/p&gt;
-
-&lt;p&gt;Some examples of what you can do include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Running any &lt;a href="http://nodejs.org/"&gt;Node&lt;/a&gt; based application&lt;/li&gt;
-&lt;li&gt;Installing and running &lt;a href="https://wordpress.org/"&gt;Wordpress&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Running &lt;a href="http://gruntjs.com/"&gt;Grunt&lt;/a&gt; tasks&lt;/li&gt;
-&lt;li&gt;Installing &lt;a href="http://rubyonrails.org/"&gt;Ruby on Rails&lt;/a&gt; and running the Rails development server&lt;/li&gt;
-&lt;li&gt;Creating a &lt;a href="http://www.mongodb.org/"&gt;MongoDB&lt;/a&gt; or &lt;a href="http://www.mysql.com/"&gt;MySQL&lt;/a&gt; database&lt;/li&gt;
-&lt;li&gt;Build and compile &lt;a href="http://golang.org/"&gt;Go&lt;/a&gt; applications&lt;/li&gt;
-&lt;li&gt;Run your PHP application via Apache or Nginx&lt;/li&gt;
-&lt;li&gt;Run a &lt;a href="http://www.rabbitmq.com/"&gt;RabbitMQ&lt;/a&gt; queue&lt;/li&gt;
-&lt;li&gt;Run a &lt;a href="https://www.meteor.com/"&gt;MeteorJS&lt;/a&gt; application&lt;/li&gt;
-&lt;li&gt;Develop and run code in C, Node, Ruby, Python, PHP, Go, Haskell, Java, Lua, Pascal, Rust, and Scala&lt;/li&gt;
-&lt;li&gt;Run any and all Git or Mercurial commands&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Plus loads more...&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The best thing about all this, is that every Codio project will have all this ready and waiting for you to use. You won&amp;#39;t have to choose your stack or the type of Box you want. Just create a Codio project and you have access to it all.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Instant gratification!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Codio Boxes" src="/s/img/blog/todomvc-3aaf3f9b.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="how-is-this-possible?"&gt;How is this Possible?&lt;/h2&gt;
-
-&lt;p&gt;Most of this is only possible thanks to the amazing &lt;a href="https://www.docker.io/"&gt;Docker&lt;/a&gt; project.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Docker is an open-source engine that automates the deployment of any application as a lightweight, portable, self-sufficient container that will run virtually anywhere.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A Codio Box is simply a Docker container, built from a base image that we put together just for you, and just for Codio. And it&amp;#39;s fast, very, VERY fast! The time it takes to create a new project is a matter of a few seconds. At which point, you can fire up the Terminal from your project and you have an SSH connection to your Box.&lt;/p&gt;
-
-&lt;p&gt;In fact, we reckon you won&amp;#39;t notice the time difference between opening a project on Codio right now, and opening a project that has a Box attached to it. Using Docker allows us to provide an almost seamless experience to you, which is as close to your current development environment as we can possibly get, while taking full advantage of developing in the Cloud and the browser.&lt;/p&gt;
-
-&lt;p&gt;We can provide all this because we&amp;#39;re being very intelligent about how we use Docker, and when your Boxes are running. Simply put, we only run your Box when you need it, which avoids wasting resources and keeps costs down. The savings of which we can pass straight on to you.&lt;/p&gt;
-
-&lt;h2 id="i-wanna&amp;#39;-see!"&gt;I wanna&amp;#39; see!&lt;/h2&gt;
-
-&lt;p&gt;We&amp;#39;ll be launching Codio Boxes very, very soon, but until then, we&amp;#39;ve created a couple of tiny screencasts to show you how easy and fast Codio Boxes are.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://player.vimeo.com/video/85953159?autoplay=1&amp;amp;amp;hd=1"&gt;Running a NodeJS app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://player.vimeo.com/video/85998845?autoplay=1&amp;amp;amp;hd=1"&gt;Installing and running Ruby on Rails&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://player.vimeo.com/video/86028855?autoplay=1&amp;amp;amp;hd=1"&gt;Installing and running Wordpress&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>

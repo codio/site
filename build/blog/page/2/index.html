@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="/s/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/s/css/boilerplate-631af3c8.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/s/css/boilerplate-4c8f7a1f.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -116,6 +116,111 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2014/02/codio-boxes-and-docker/">February 12, 2014</a>
+            
+              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2014/02/codio-boxes-and-docker/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2014/02/codio-boxes-and-docker/">Codio Boxes + Docker</a></h1>
+
+        
+          <img alt="Codio Boxes + Docker" align="left" class="blog-img" src="https://www.docker.io/static/img/homepage-docker-logo.png" />
+        
+        <p>We&#39;re getting extremely close to publicly releasing Codio Boxes to you all. In this post, I want to explain how Codio Boxes work and how the amazing <a href="https://www.docker.io/">Docker</a> is behind it all.</p>
+
+<p><em>Please note, that Codio Boxes are not yet publicly available, but are in private beta.</em></p>
+
+<h2 id="what&#39;s-a-codio-box?">What&#39;s a Codio Box?</h2>
+
+<p>A Codio Box is created when you create a new project in Codio, and is started every time you open that project. This Box provides a 100% cloud-based, full-stack, server-side development environment. That&#39;s a mouthful, so lets break that down a little.</p>
+
+<p>Each Box is an isolated development environment, running Ubuntu 12.04 and with full terminal access via a secure SSH connection - all right within Codio. Your project&#39;s code is mounted to this Box, which means you can manage your files and folders from the Terminal, or continue using the Codio IDE. So if you create a file from the Terminal, it will immediately show up in the file tree of the IDE, and vice versa.</p>
+
+<p>And because the Box is isolated, you also have access to all the familiarity of your local or remote servers, and can install software, databases, programming languages and almost everything else you can do from any Linux based development machine.</p>
+
+<p>Some examples of what you can do include:</p>
+
+<ul>
+<li>Running any <a href="http://nodejs.org/">Node</a> based application</li>
+<li>Installing and running <a href="https://wordpress.org/">Wordpress</a></li>
+<li>Running <a href="http://gruntjs.com/">Grunt</a> tasks</li>
+<li>Installing <a href="http://rubyonrails.org/">Ruby on Rails</a> and running the Rails development server</li>
+<li>Creating a <a href="http://www.mongodb.org/">MongoDB</a> or <a href="http://www.mysql.com/">MySQL</a> database</li>
+<li>Build and compile <a href="http://golang.org/">Go</a> applications</li>
+<li>Run your PHP application via Apache or Nginx</li>
+<li>Run a <a href="http://www.rabbitmq.com/">RabbitMQ</a> queue</li>
+<li>Run a <a href="https://www.meteor.com/">MeteorJS</a> application</li>
+<li>Develop and run code in C, Node, Ruby, Python, PHP, Go, Haskell, Java, Lua, Pascal, Rust, and Scala</li>
+<li>Run any and all Git or Mercurial commands</li>
+<li><em>Plus loads more...</em></li>
+</ul>
+
+<p>The best thing about all this, is that every Codio project will have all this ready and waiting for you to use. You won&#39;t have to choose your stack or the type of Box you want. Just create a Codio project and you have access to it all.</p>
+
+<p><strong>Instant gratification!</strong></p>
+
+<p><img alt="Codio Boxes" src="/s/img/blog/todomvc-3aaf3f9b.png" /></p>
+
+<h2 id="how-is-this-possible?">How is this Possible?</h2>
+
+<p>Most of this is only possible thanks to the amazing <a href="https://www.docker.io/">Docker</a> project.</p>
+
+<blockquote>
+<p>Docker is an open-source engine that automates the deployment of any application as a lightweight, portable, self-sufficient container that will run virtually anywhere.</p>
+</blockquote>
+
+<p>A Codio Box is simply a Docker container, built from a base image that we put together just for you, and just for Codio. And it&#39;s fast, very, VERY fast! The time it takes to create a new project is a matter of a few seconds. At which point, you can fire up the Terminal from your project and you have an SSH connection to your Box.</p>
+
+<p>In fact, we reckon you won&#39;t notice the time difference between opening a project on Codio right now, and opening a project that has a Box attached to it. Using Docker allows us to provide an almost seamless experience to you, which is as close to your current development environment as we can possibly get, while taking full advantage of developing in the Cloud and the browser.</p>
+
+<p>We can provide all this because we&#39;re being very intelligent about how we use Docker, and when your Boxes are running. Simply put, we only run your Box when you need it, which avoids wasting resources and keeps costs down. The savings of which we can pass straight on to you.</p>
+
+<h2 id="i-wanna&#39;-see!">I wanna&#39; see!</h2>
+
+<p>We&#39;ll be launching Codio Boxes very, very soon, but until then, we&#39;ve created a couple of tiny screencasts to show you how easy and fast Codio Boxes are.</p>
+
+<ul>
+<li><a href="https://player.vimeo.com/video/85953159?autoplay=1&amp;amp;hd=1">Running a NodeJS app</a></li>
+<li><a href="https://player.vimeo.com/video/85998845?autoplay=1&amp;amp;hd=1">Installing and running Ruby on Rails</a></li>
+<li><a href="https://player.vimeo.com/video/86028855?autoplay=1&amp;amp;hd=1">Installing and running Wordpress</a></li>
+</ul>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2014/02/codio-boxes-and-docker/" data-via="codiohq" data-size="small" data-count="none" data-text="Codio Boxes + Docker">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2014/02/codio-boxes-and-docker/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2014/02/codio-boxes-and-docker/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -507,56 +612,6 @@
 
     
 
-      <article>
-        <section class="meta">
-          <p class="date">
-            <a href="/s/blog/2013/12/tab-cycling/">December 20, 2013</a>
-            
-              <span class="author">by <a href="mailto:jmoss@codio.com">Joel Moss</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/12/tab-cycling/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/12/tab-cycling/">Tab Cycling</a></h1>
-
-        
-        <p>You&#39;ve been asking and we&#39;ve been listening. So today we made it easy to quickly switch tabs without having to use your mouse. Just hitting <code>Alt-Shift+.</code> will switch your current tab to the next on the right, and <code>Alt-Shift+,</code> will switch to tab on the left.</p>
-
-<p>And of course, if you don&#39;t like those keybindings, open up your <a href="https://codio.com/p/preferences">preferences</a> and change the <code>tab_switch_left</code> and <code>tab_switch_right</code> item.</p>
-
-<p><img alt="Tab Switching" src="/s/img/blog/tab-switching-944148bf.gif" /></p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/12/tab-cycling/" data-via="codiohq" data-size="small" data-count="none" data-text="Tab Cycling">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/12/tab-cycling/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/12/tab-cycling/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
     
       <section class="pagination clearfix">
         
@@ -580,6 +635,9 @@
       <ul>
         
           
+          <li><a href="/s/blog/2014/02/codio-boxes-and-docker/">Codio Boxes + Docker</a></li>
+        
+          
           <li><a href="/s/blog/2014/02/codio-boxes-and-box-parts/">Codio Boxes &amp; Box Parts</a></li>
         
           
@@ -594,9 +652,6 @@
           
           <li><a href="/s/blog/2014/01/happy-new-year/">Happy New Year</a></li>
         
-          
-          <li><a href="/s/blog/2013/12/tab-cycling/">Tab Cycling</a></li>
-        
       </ul>
     </section>
 
@@ -605,11 +660,11 @@
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/s/blog/2014/03/nodeschool/">Nodeschool Tutorials</a></li>
+          
             <li><a href="/s/blog/2014/03/hiring-more-javascript-engineers/">We're Hiring More Javascript Engineers</a></li>
           
             <li><a href="/s/blog/2014/03/drupal-joomla/">Drupal and Joomla Installation Guides</a></li>
-          
-            <li><a href="/s/blog/2014/03/heroku-part/">Deploying to Heroku</a></li>
           
             <li><a href="/s/blog/2014/03/phpbrew/">Version Management with PHPBrew</a></li>
           

@@ -26,7 +26,7 @@
     <link rel="icon" type="image/ico" href="/s/favicon.ico" />
 
     <link href="/s/css/normalize-ec2a8901.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/s/css/boilerplate-631af3c8.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/s/css/boilerplate-4c8f7a1f.css" media="screen" rel="stylesheet" type="text/css" />
 
     
 
@@ -116,6 +116,56 @@
 <div class="container clearfix">
 
   <section class="posts">
+    
+
+      <article>
+        <section class="meta">
+          <p class="date">
+            <a href="/s/blog/2013/11/quick-open/">November 21, 2013</a>
+            
+              <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
+            
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a class="dsq-comment-count" href="/s/blog/2013/11/quick-open/#disqus_thread">Comments</a>
+          </p>
+        </section>
+
+        <h1><a href="/s/blog/2013/11/quick-open/">Quick Open</a></h1>
+
+        
+        <p>Quick open (default is <code>Cmd+O</code>/<code>Ctrl+O</code>) also known as fast open, is a great way of opening files without the need to access the file tree. Press <code>Cmd+O</code>/<code>Ctrl+O</code> or select <code>File &gt;Open File</code> from the menu and the quick open dialog will appear.</p>
+
+<p><img alt="quick open" src="/s/img/blog/quick-open-7adba9ce.png" /></p>
+
+<p>You can now start typing the name of a file and as you type, the list will be filtered. You can then select the file you want using the mouse or use the keyboard, pressing <code>Enter</code> on the required file.</p>
+
+
+        <div class="blog-social clearfix">
+          <div class="blog-twitter">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/quick-open/" data-via="codiohq" data-size="small" data-count="none" data-text="Quick Open">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+
+          <div class="blog-gplus">
+            <!-- Place this tag where you want the +1 button to render. -->
+            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/quick-open/"></div>
+
+            <!-- Place this tag after the last +1 button tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+          </div>
+
+          <div class="blog-facebook">
+            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/quick-open/" data-width="450" data-show-faces="false"></div>
+          </div>
+        </div>
+      </article>
+
     
 
       <article>
@@ -393,101 +443,6 @@ theme = mbo
       <article>
         <section class="meta">
           <p class="date">
-            <a href="/s/blog/2013/11/snr/">November 11, 2013</a>
-            
-              <span class="author">by <a href="mailto:fziegelmayer@codio.com">Friedel Ziegelmayer</a></span>
-            
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <a class="dsq-comment-count" href="/s/blog/2013/11/snr/#disqus_thread">Comments</a>
-          </p>
-        </section>
-
-        <h1><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></h1>
-
-        
-        <p>As you might have noticed, today marked the release of <a href="/s/blog/2013/11/search-replace">global search and replace</a> in Codio. It&#39;s built using the tried and tested tools, <a href="http://beyondgrep.com/">ack</a> and perl. While we were building this we realized that it would be great to have a simple command line tool to do both search and replace based on these two tools. So today I present the software that came out of that wish: <a href="https://npmjs.org/package/snr">SnR</a>. We&#39;ve open sourced it and released it as a <a href="https://npmjs.org/package/snr">Node package</a>. The source is publicly available on <a href="https://github.com/codio/snr">Github</a>.</p>
-
-<h2 id="what?">What?</h2>
-
-<p>As already discussed SnR gives you a simple command line interface to search and replace built on top of <a href="http://beyondgrep.com/">ack</a> and perl, and it works like this:</p>
-
-<pre><code class="bash"># Inside your project folder
-$ snr --replace &quot;console.log&quot; &quot;console.info&quot; &quot;**/*.js&quot;
-</code></pre>
-
-<h2 id="how?">How?</h2>
-
-<p>To get started just make sure you have perl and Node (with NPM) installed, and then run <code>npm install -g snr</code>. That&#39;s it, now you can go and replace all the things.</p>
-
-<p>For simple usage take a look at these examples:</p>
-
-<pre><code class="bash"># Find all occurences of foo inside all python files
-$ snr foo &quot;**/*.py&quot;
-src/index.js
-301-        // catch (e) {
-302-        //     //:todo change to correct bar
-303:        //     foo(e);
-304-        //     //bar(e);
-305-        // }
-Found 1 match(es) in 1 file(s).
-# Replace all occurences of foo with bar inside all python files
-$ snr --replace bar foo &quot;**/*.py&quot;
-Replaced 1 match(es) in 1 file(s).
-</code></pre>
-
-<p>and for more advance usage:</p>
-
-<pre><code class="bash">$ snr --help
-usage: snr [OPTION]... PATTERN [FILES OR DIRECTORIES OR GLOBS]
-options:
-    -i, --ignore-case       Ignore case distinctions in PATTERN.
-    -Q, --literal           Quote all metacharacters; PATTERN is literal.
-    --max-result-count=NUM  Stop after NUM results.
-    --replace=REPlACE       Replace all matches with REPLACE.
-    -h, --help              Print this help and exit.
-    -v, --version           Print the current version.
-    -C NUM, --context=NUM   Print NUM lines of output context.
-    -w, --word-regexp       Force PATTERN to match only whole words.
-    --color-lineno=COLOR    Set the color for filenames, matches, and line
-                            numbers.
-</code></pre>
-
-<h2 id="what&#39;s-next?">What&#39;s next?</h2>
-
-<p>There is even more goodness inside. You can use SnR as a module inside your node app as well, just install it and <code>require(&#39;snr&#39;)</code> to get started. More info on that can be found on the <a href="https://github.com/codio/snr">github repo</a>.</p>
-
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s/blog/2013/11/snr/" data-via="codiohq" data-size="small" data-count="none" data-text="Search and Replace with SnR">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s/blog/2013/11/snr/"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s/blog/2013/11/snr/" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    
-
-      <article>
-        <section class="meta">
-          <p class="date">
             <a href="/s/blog/2013/11/search-replace/">November 11, 2013</a>
             
               <span class="author">by <a href="mailto:fmay@codio.com">Freddy May</a></span>
@@ -574,6 +529,9 @@ options:
       <ul>
         
           
+          <li><a href="/s/blog/2013/11/quick-open/">Quick Open</a></li>
+        
+          
           <li><a href="/s/blog/2013/11/ssh-public-keys/">SSH Public Key Management</a></li>
         
           
@@ -586,9 +544,6 @@ options:
           <li><a href="/s/blog/2013/11/mbo-theme/">New Theme: MBO</a></li>
         
           
-          <li><a href="/s/blog/2013/11/snr/">Search and Replace with SnR</a></li>
-        
-          
           <li><a href="/s/blog/2013/11/search-replace/">Global Search and Replace</a></li>
         
       </ul>
@@ -599,11 +554,11 @@ options:
         <h4>Latest posts...</h4>
         <ul>
           
+            <li><a href="/s/blog/2014/03/nodeschool/">Nodeschool Tutorials</a></li>
+          
             <li><a href="/s/blog/2014/03/hiring-more-javascript-engineers/">We're Hiring More Javascript Engineers</a></li>
           
             <li><a href="/s/blog/2014/03/drupal-joomla/">Drupal and Joomla Installation Guides</a></li>
-          
-            <li><a href="/s/blog/2014/03/heroku-part/">Deploying to Heroku</a></li>
           
             <li><a href="/s/blog/2014/03/phpbrew/">Version Management with PHPBrew</a></li>
           

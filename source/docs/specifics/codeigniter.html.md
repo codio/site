@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-CodeIgniter is a great Model-View-Controller framework for PHP development so you can write applications much quicker and more efficiently.
+[CodeIgniter](http://ellislab.com/codeigniter) is a great Model-View-Controller framework for PHP development so you can write applications much quicker and more efficiently.
 
 There's not much to installing CodeIgniter into a Codio project. Here's a quick run-through to show you how it's done.
 

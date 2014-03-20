@@ -29,7 +29,8 @@ Now choose one of the following method of getting Symfony downloaded.
 
 1. `parts install php5 composer` from the Terminal to install PHP5 and Composer.
 1. `composer create-project symfony/framework-standard-edition` to tell Composer to install Symfony.
-1. 1. `mv Symfony/{*,.*} ~/workspace` moves the contents of the Symfony folder down to the root folder (ignore warnings).
+1. `mv Symfony/{*,.*} ~/workspace` moves the contents of the Symfony folder down to the root folder (ignore warnings).
+1. `rm Symfony -r` to remove the now empty `Symfony` folder.
 
 ##Install PHP, Composer, Apache and MySQL
 

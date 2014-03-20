@@ -23,6 +23,7 @@ This section contains links to Codio tutorials and installation instructions.
 
 ##PHP, Wordpress, Drupal, Joomla
 - [PHP](/docs/specifics/php)
+- [Composer](/docs/specifics/composer)
 - [PHPBrew version manager for PHP](/docs/specifics/php-brew)
 - [Wordpress](/docs/specifics/wordpress)
 - [Drupal](/docs/specifics/drupal)

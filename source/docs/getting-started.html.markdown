@@ -46,8 +46,10 @@ Codio has the following languages and useful dev tools preinstalled
 
 But you can also install many other languages, database, components and frameworks extrenely easily using [Codio Box Parts](/docs/boxes/box-parts).
 
-###Tutorials
-We've also provided some [tutorials](/docs/specifics) that are well worth checking out. They cover installation instructions for things like PHP, Wordpress, Drupal Joomla. You will also find Node and Grunt tutorials. The list is growing all the time.
+##5. Tutorials & How To's
+We have an ever growing range of [Tutorials and How To's](/docs/specifics) that are well worth checking out. 
+
+They cover installation instructions for things like PHP, Wordpress, Drupal Joomla. You will also find Node and Grunt tutorials and more.
 
 
 ##5. A bit about 'Boxes'

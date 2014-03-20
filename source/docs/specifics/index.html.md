@@ -29,5 +29,6 @@ This section contains links to Codio tutorials and installation instructions.
 - [Joomla](/docs/specifics/joomla)
 - [Laravel installation](/docs/specifics/laravel)
 - [CodeIgniter installation](/docs/specifics/codeigniter)
+- [Symfony installation](/docs/specifics/symfony)
 
 If you want us to provide more tutorials, please email [support@codio.com](mailto:support@codio.com).

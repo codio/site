@@ -12,7 +12,9 @@ full_width: true
 1. Once you are in the IDE, delete any files present.
 1. Open a Terminal window from the Tools->Terminal window
 
-##Download from the CodeIgniter site
+Now choose one of the following method of getting Symfony downloaded.
+
+##Method 1 - Download from the Symfony site
 
 1. Check the [Symfony website](http://symfony.com/download) to see what the latest version is. At the time of writing, it is 2.4.2.
 1. Note down the latest version number ready to modify (if necessary) the url specified in the next step.
@@ -23,10 +25,15 @@ full_width: true
 1. `mv Symfony/{*,.*} ~/workspace` moves the contents of the Symfony folder down to the root folder (ignore warnings).
 1. Delete the now empty Symfont folder `rm -rf Symfony`
 
+##Method 2 - Use Composer to install Symfony
 
-##Install PHP, Apache and MySQL
+1. `parts install php5 composer` from the Terminal to install PHP5 and Composer.
+1. `composer create-project symfony/framework-standard-edition` to tell Composer to install Symfony.
+1. 1. `mv Symfony/{*,.*} ~/workspace` moves the contents of the Symfony folder down to the root folder (ignore warnings).
 
-1. `parts install php5 mysql` which automatically installs PHP5+Apache and MySQL.
+##Install PHP, Composer, Apache and MySQL
+
+1. `parts install php5 mysql composer` which automatically installs PHP5+Apache and MySQL. If you chose Method2 above then you only need choose `parts install mysql`.
 1. Later versions of the PHP installer may not install Apache, so you may need to manually run `parts install apache`. Once the installation is complete, type `parts list` and you will see whether Apache2 is automatically installed or not.
 1. Let's start up our services with `parts start apache2 mysql`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it

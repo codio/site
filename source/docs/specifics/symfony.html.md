@@ -28,9 +28,9 @@ Now choose one of the following method of getting Symfony downloaded.
 ##Method 2 - Use Composer to install Symfony
 
 1. `parts install php5 composer` from the Terminal to install PHP5 and Composer.
-1. `composer create-project symfony/framework-standard-edition` to tell Composer to install Symfony.
-1. `mv Symfony/{*,.*} ~/workspace` moves the contents of the Symfony folder down to the root folder (ignore warnings).
-1. `rm Symfony -r` to remove the now empty `Symfony` folder.
+1. `composer create-project symfony/framework-standard-edition` to tell Composer to install Symfony. When asked to provide missing parameters, just press enter through all the questions.
+1. `mv framework-standard-edition/{*,.*} ~/workspace  ` moves the contents of the `framework-standard-edition` folder down to the root folder (ignore warnings).
+1. `rm framework-standard-edition -r` to remove the now empty `framework-standard-edition` folder.
 
 ##Install PHP, Composer, Apache and MySQL
 
@@ -71,7 +71,7 @@ and remove this code in `web/app_dev.php`
     }
 
 ##Preview Setup
-You can now run the Symfony config application. From the Preview menu (the rightmost Codio menu, which initially says 'Project index (static)') select the dropdown list and click on 'Configure'. Then paste the following code into the file. 
+You can now run the Symfony config application. From the Preview menu (the rightmost Codio menu, which initially says 'Project index (static)') select the dropdown list and click on 'Configure'. Then paste the following code into the file, replacing the existing contents. 
 
     {
     // Configure your Run and Preview buttons here.

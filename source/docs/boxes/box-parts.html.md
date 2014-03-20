@@ -4,43 +4,11 @@ class_name: docs
 full_width: true
 ---
 
-The main things that are preinstalled with Codio are Node.JS, Ruby and Python. But what about the hundreds of other languages, databases and components that you might want for your development environment?
+Box Parts are a large collection of languages, components, databases and other tools that you can effortlessly install with a single command from the [command line](/docs/boxes/terminal).
 
-##Preinstalled
-The main components that are preinstalled are
-
-- NodeJS (use nvm; please [refer to this section](/docs/specifics/node) for information on running NodeJS under nvm)
-- Ruby (uses rbenv; please [refer to this section](/docs/specifics/ruby) for information on running Ruby under rbenv)
-- Python 2.7.3 (Python 3.0 available as Box Part)
-
-##The Box Parts Repository
-We are continuously updating Box Parts. Box Parts are all stored in a central repository on GitHub. We update this repository regularly and then add the contents to the 'Base Image' that runs in your box. If you see a Box Part in the central [Box Parts Repository](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages), but don't see it when you type `parts search` then run the following to download the repo on to your Box.
-
-	parts update
-
-Regardless of whether we have added a brand new Box Part or have modified an existing one, you should run `parts update` and then `parts install <partname>` to update your Box Part properly.
-
-##Box Parts
-Codio's Box Parts allow you to install any extra components that you may need. The following list shows the majority of the Parts we currently offer as standard. Read on to see how to get the full repo list.
-
-- **Preinstalled Languages** : NodeJS (with nvm), Ruby (with rbenv), Python 2.7.3, Java
-- **Language** Box Parts : PHP5 (Composer Box Part available), Lua, Free Pascal
-- **Database** Box Parts : MongoDB, MySQL, PostgreSQL, Redis, Memcached
-- **Web Server** Box Parts : Nginx, Apache2, Apache Portable Runtime
-- **System Utility** Box Parts : Ack, Ant, cmake, libmcrypt, Maven, The Silver Searcher
-- **Other** Box Parts : Composer for PHP, Image Magick, MeteorJS, PhantomJS, Tig
-
-##Requesting Additional Box Parts
-Any Codio users can request that the Codio team add additional Box Parts to the standard repository. Once added, it will become a standard item and available to all users.
-
-Codio subscribers will be given preference when it comes to adding new Box Parts.
-
-To request a new Box Part to be added to Codio, [click here](/docs/boxes/request-language).
-
-##The 'parts' Command Line tool
 Using Box Parts is really easy. To start off with, open up a Terminal window from the 'Tools->Terminal' menu item.
 
-If you enter `parts` on the command line, you will see something like this
+Then, enter `parts` on the command line, you will see something like this
 
 	usage: parts COMMAND [ARGS...]
 
@@ -56,27 +24,51 @@ If you enter `parts` on the command line, you will see something like this
 	  parts status [PACKAGE...]  # Show status of one or many services 
 	  parts update               # Update Box Parts
 
-###Listing Available Box Parts
-To list the available Box Parts, enter 
+
+##Preinstalled
+The are a few of the notable things that come preinstalled on a Codio Box
+
+- NodeJS (use nvm; please [refer to this section](/docs/specifics/node) for information on running NodeJS under nvm)
+- Ruby (uses rbenv; please [refer to this section](/docs/specifics/ruby) for information on running Ruby under rbenv)
+- Python 2.7.3 (Python 3.0 available as Box Part)
+- Git, Mercurial and SVN
+
+
+##The Box Parts Repository
+We are continuously updating Box Parts. Box Parts are all stored in a central repository on GitHub. We update this repository regularly and then add the contents to the 'Base Image' that runs in your box. If you see a Box Part in the central [Box Parts Repository](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages), but don't see it when you type `parts search` then run the following to download the repo on to your Box.
+
+	parts update
+
+Regardless of whether we have added a brand new Box Part or have modified an existing one, you should run `parts update` and then `parts install <partname>` to update your Box Part properly.
+
+##Finding Box Parts
+You can get a complete list of available Box Parts with the following command in the Terminal
 
     parts search
+    
+If you want to use a fre character to narrow the list down, just enter
 
-If we add new Box Parts after you created your project, then you should refresh the list with `parts update`.
+    parts search php
+    
+and all parts whose name or description contains 'php' will be listed.
 
-`parts search` will show you something like this (first few lines only)
+The following list shows just a few of the Parts we currently offer as standard. 
 
-	ack (2.12)                   Ack: A tool like grep, optimized for ...
-	ant (1.9.2)                  Ant: A pure Java build tool, simpler ...
-	apache2 (2.4.7)              Apache Web Server: A cross-platform ...
-	apr (1.5.0)                  Apache Portable Runtime: Software ...
-	apr_util (1.5.3)             Apache Portable Runtime Utilities: ...
-	cmake (2.8.11.2)             CMake: A cross-platform, open-source ...
-	composer (1.0.0-alpha8)      Composer: PHP5 Dependency management
-	...
-	... etc
-	...
+- **Preinstalled Languages** : NodeJS (with nvm), Ruby (with rbenv), Python 2.7.3, Java
+- **Languages** Box Parts : PHP5 (Composer Box Part available), Lua, Free Pascal, R, Go, Scala, Haskell
+- **Databases** : MongoDB, MySQL, PostgreSQL, Redis, Memcached
+- **Web Servers** : Nginx, Apache2
+- **System Utilities** : Ack, Ant, cmake, libmcrypt, Maven, The Silver Searcher
+- **Other**  : Composer for PHP, many PHP modules, Image Magick, MeteorJS, PhantomJS, Tig
 
-###Installing Box Parts
+##Requesting Additional Box Parts
+Any Codio users can request that the Codio team add additional Box Parts to the standard repository. Once added, it will become a standard item and available to all users.
+
+Codio subscribers will be given preference when it comes to adding new Box Parts.
+
+To request a new Box Part, [create a new issue here](https://github.com/codio/boxparts/issues?page=1&state=open) and we'll get it dealt with as soon as we can.
+
+##Installing Box Parts
 You can install one or more Box Parts as follows
 
 	parts install <partname-1> <partname-2> ... <part-name-n>
@@ -107,6 +99,7 @@ If you take a look inside that folder, you will find everything you are likely t
 	~/.parts/etc
 
 So to configure Apache, you would edit the `~/.parts/etc/apache2/httpd.conf` file (using Nano/Vim).
+
 
 ##Complete List of Parts Supported
 This list may not be complete, so type `parts search` to see what we have currently added

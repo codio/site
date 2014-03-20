@@ -43,5 +43,4 @@ We strongly recommend you read up on the following before going too much further
 - [Configuring single terminal/console commands from the 'Run' menu](/docs/boxes/run)
 - [Restarting and resetting Boxes](/docs/boxes/restart-reset)
 - [How to install Box Parts (everything from languages to middleware to databases)](/docs/boxes/box-parts)
-- [Requesting new Box Parts](/docs/boxes/request-language)
 - [Auto starting Box Parts services](/docs/boxes/startup)

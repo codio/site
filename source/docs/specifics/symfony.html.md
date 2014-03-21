@@ -35,11 +35,11 @@ Now choose one of the following method of getting Symfony downloaded.
 ##Install PHP, Composer, Apache and MySQL
 
 1. If you chose Method 1 above, then type `parts install php5 php5-apache2 mysql composer` to install PHP5, Apache and MySQL. 
-1. Let's start up our services with `parts start php5-apache2 mysql`
+1. Let's start up our services with `parts start apache2 mysql`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 
-        parts stop php5-apache2 mysql
-        parts start php5-apache2 mysql
+        parts stop apache2 mysql
+        parts start apache2 mysql
 
 ##Installing other PHP Modules
 Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
@@ -48,7 +48,7 @@ Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default w
 We need to make a few tweaks to the system for Symfony. Firstly, we need to modify the `php.ini` file to specify the time zone. You can edit the php.ini file using nano but we'll do the quick and dirty way and just append it to the end of the file. You'll them need to restart Apache as well:
 
     echo date.timezone = UTC >> ~/.parts/etc/php5/php.ini
-    parts restart php5-apache2
+    parts restart apache2
     
 Now we need to remove the IP address checking in the `web/config.php` file. Just delete the following code block from the top of the file
 
@@ -97,7 +97,7 @@ Now you can preview the Symfony setup by going to the Preview menu and selecting
 
 If you get a 503 error then you probably have not started Apache, so enter the following
 
-    parts start php5-apache2 mysql
+    parts start apache2 mysql
 
 If you see a Major Warning (which won't let you proceed) then you have probably not 
 

@@ -29,11 +29,11 @@ You can get the latest version of Drupal from the [Drupal website](https://drupa
 We now need to get all these components installed so that Drupal will run. This is very easy with Codio luckily.
 
 1. `parts install php5 php5-apache2 mysql` which automatically installs PHP5,Apache and MySQL.
-1. Let's start up our services with `parts start php5-apache2 mysql`
+1. Let's start up our services with `parts start apache2 mysql`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 
-        parts stop php5-apache2 mysql
-        parts start php5-apache2 mysql
+        parts stop apache2 mysql
+        parts start apache2 mysql
 
 ##Quick Check
 Now check things are running at a basic level before continuing with the rest of the config. From the Preview menu (the rightmost Codio menu) select the dropdown list and click on 'Box URL'. 

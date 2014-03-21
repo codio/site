@@ -27,11 +27,11 @@ There's not much to installing CodeIgniter into a Codio project. Here's a quick 
 
 1. `parts install php5 php5-apache2 mysql` to install components.
 1. Enter `parts list` and you will installed components.
-1. Let's start up our services with `parts start php5-apache2 mysql`
+1. Let's start up our services with `parts start apache2 mysql`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 
-        parts stop php5-apache2 mysql
-        parts start php5-apache2 mysql
+        parts stop apache2 mysql
+        parts start apache2 mysql
 
 ##Preview
 You can now run your project. From the Preview menu (the rightmost Codio menu) select the dropdown list and click on 'Box URL'. 

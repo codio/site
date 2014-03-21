@@ -1,5 +1,5 @@
 ---
-title: "We're Hiring More Javascript Engineers"
+title: "We're Hiring Marketing Folk & Javascript Engineers"
 author: Joel Moss
 date: 2014-03-13
 tags: Engineering
@@ -9,6 +9,17 @@ full_width: true
 
 **We need help building the world's most powerful web IDE...**
 
+##Marketer
+Are you a dab hand at marketing? If you have an unbridled passion for it along with 3+ years of experience, then we want to hear from you. 
+
+You'll be the first person in our team dedicated to marketing, so this is a position with responsbility. It'll take a strong, driven personality to aggressively build awareness of the Codio product and brand.
+
+We are passionate about both development and developers. You don't need to have done any serious development, but any development experience you do have will be a bonus.
+
+If you're up for the challenge, head to the bottom of this page (you can ignore the GitHub profile bit) and send us your CV/Resume.
+
+
+##Javascript Engineers
 As one of our front-end engineers, you'll be responsible for building arguably the most important part of Codio. The IDE itself is a single page app built using the latest Javascript, HTML5 and CSS3 technologies. We hate IE and love any browser which sits on the cutting edge of the web, so you will be encouraged to play with and implement the latest and greatest.
 
 As well as the IDE, we also have several NodeJS applications that support the IDE, and we need you to help maintain and expand these.

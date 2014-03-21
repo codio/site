@@ -12,24 +12,24 @@ We're currently catching up on user requested Box Parts. Box Parts takes the pai
 ##New Box Parts
 These Box Parts are brand new
 
-- Open LDAP `parts install openldap`
-- Ocaml, Opam `parts install cocaml opam`
-- Groovy `parts install groovy`
-- Grails `parts install grails`
-- Tomcat `parts install tomcat`
-- 'R' programming language for statistical computing `parts install r_base`
-- MariaDB `parts install mariadb`
-- cabal
-- elasticsearch
-- fish, 
-- php5-fpm and php5-xdebug 
-- tcsh
-- gitflow
-- python2
-- python3
-- pip
-- setuptools
-- virtualenv
+- Open LDAP `openldap`
+- Ocaml, Opam `cocaml` and  `opam`
+- `groovy`
+- `grails`
+- Tomcat server `tomcat`
+- 'R' programming language for statistical computing `r_base`
+- MariaDB `mariadb`
+- `cabal`
+- `elasticsearch`
+- `fish`
+- PHP Modules `php5-fpm` and `php5-xdebug` 
+- `tcsh`
+- `gitflow`
+- `python2`
+- `python3`
+- `pip`
+- `setuptools`
+- `vitualenv`
 
 Any of these can be installed in a few seconds just using `parts install part-name` from the Terminal window. If you've already installed an older version then uninstall it first with `parts uninstall partname`.
 
@@ -37,7 +37,7 @@ Any of these can be installed in a few seconds just using `parts install part-na
 And we've updated these ones with new versions
 
 - ghc
-- php5 modules (
+- php5 modules (type `parts search php` in the terminal for a full list)
 - googleappengine
 - maven
 - scala

@@ -4,7 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-If you are a PHP user, you may well want to use the [Composer package manager for PHP](). This tutorial explains how to install Composer on a Codio Box and shows a couple of examples of scaffolding out new Symfony and Laravel projects.
+If you are a PHP user, you may well want to use the [Composer package manager for PHP](getcomposer.org). This tutorial explains how to install Composer on a Codio Box and shows a couple of examples of scaffolding out new Symfony and Laravel projects.
+
+You should also read the [PHP Introduction](/specifics/php).
 
 ##Create a Project
 If you are already in a project, then you can ignore these steps.
@@ -21,8 +23,9 @@ We use [Box Parts](/docs/boxes/box-parts) to install Composer. The basic install
     
 However, if you are starting from scratch, you may want to install several typical componens like this 
 
-    parts install php5 composer mysql
-    
+    parts install php5 php5-apache2 composer mysql
+
+
 ##Using Composer to create a new Project
 Some packages will scaffold out an entire project for you. Here are two examples.
 

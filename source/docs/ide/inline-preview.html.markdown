@@ -4,6 +4,13 @@ class_name: docs
 full_width: true
 ---
 
+##Static vs. Dynamic content
+The key thing to understand when using the Preview options is the difference between Static and Dynamic content.
+
+- **Static content** - this refers to your static html content. You can use all 'Preview static' options on static content only. If you try this on PHP ???? files, you'll get a warning message that links through to this page.
+- **Dynamic content** - this refers to files that are executed on the server such as PHP ????. To preview these files, you need to access your Box via a specific Port number (3000 by default but you can change this). You will want to use the 'Box URL' option for dynamic content and read how to modify the Preview menu so you can access any pages with a single menu click rather than manually modifying the browser url.
+
+##Instructions
 The Preview button lets you preview one or more web pages with a simple button press. Codio creates four default entries in the Preview menu automatically. 
 
 ![preview](/img/docs/preview-deploy.png)

@@ -46,7 +46,7 @@ You can get a complete list of available Box Parts with the following command in
 
     parts search
     
-If you want to use a fre character to narrow the list down, just enter
+If you want to use a few characters to narrow the list down, just enter
 
     parts search php
     

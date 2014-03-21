@@ -9,9 +9,9 @@ This tutorial explains how to install PHPBrew on a Codio Box.
 Start by opening up a Terminal window (Tools->Terminal).
 
 ##Install PHP
-If you have not already done so, install PHP
+If you have not already done so, install PHP and the required modules
 
-	parts install php5
+	parts install php5 php5-zlib php5-apache2
 
 ##Download PHPBrew
 

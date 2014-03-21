@@ -21,7 +21,7 @@ Wordpress is quickly installed with Codio. Just follows these steps and you shou
 ##Install PHP, Apache and MySQL
 We now need to get all these components installed so that Wordpress will run. This is very easy with Codio luckily.
 
-1. `parts install php5 php5-apache2 mysql` which automatically installs PHP5+Apache and MySQL.
+1. `parts install php5 php5-apache2 php5-pdo-mysql php5-zlib mysql ` which automatically installs PHP5, Apache, MySQL and all other required modules.
 1. Let's start up our services with `parts start apache2 mysql`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 

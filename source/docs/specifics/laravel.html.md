@@ -21,7 +21,7 @@ We now need to install a few components
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 
         parts stop php5-apache2 mysql
-        parts start phhp5-apache2 mysql
+        parts start php5-apache2 mysql
 
 ##Installing other PHP Modules
 Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.

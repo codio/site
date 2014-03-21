@@ -21,7 +21,7 @@ We use [Box Parts](/docs/boxes/box-parts) to install Composer. The basic install
 
     parts install composer
     
-However, if you are starting from scratch, you may want to install several typical componens like this 
+However, if you are starting from scratch, you may want to install several typical components like this 
 
     parts install php5 php5-apache2 composer mysql
 

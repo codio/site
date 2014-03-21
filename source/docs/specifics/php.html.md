@@ -25,7 +25,7 @@ You can find out more about [configuring the Preview menu button](/docs/ide/inli
 There is also general information about [accessing Boxes over HTTP/HTTP and Port ranges](/docs/boxes/ext-access).
 
 ##Autostarting Apache
-When you close a project, your Box is automatically shut down after a couple of minutes (but don't worry, it starts so fast when you open your project again you won't even notice). However, your services (Apache is probably the one you're interested in) won't automatically start unless you run `parts start apache2` each time you load your project.
+When you close a project, your Box is automatically shut down after a couple of minutes (but don't worry, it starts so fast when you open your project again you won't even notice). However, your services (Apache is probably the one you're interested in) won't automatically start unless you run `parts start php5-apache2` each time you load your project.
 
 You can set services to start on Box startup by creating and editing a `startup.sh` file [as described here](/docs/boxes/startup) in the root of your project. Try this
 

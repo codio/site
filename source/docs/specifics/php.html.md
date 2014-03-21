@@ -33,12 +33,14 @@ You can set services to start on Box startup by creating and editing a `startup.
     parts start apache2
 
 ##Configuring Apache
-We set Apache up to automatically point to your workspace, so you should be able to access your `index.php`, for example, without any further configuration.
+We set Apache up to automatically point to your workspace on port 3000 (HTTP) and 9500 (HTTPS), so you should be able to access your `index.php`, for example, without any further configuration.
 
 If you want to change your Apache configuration, then you can edit the `~/.parts/etc/apache2/httpd.conf` file.
 
 ##Installing other PHP Modules
 Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
+
+If you ever upgrade to a new PHP version, then you will need to reinstall all PHP modules Box Parts.
 
 ##Managing different PHP versions
 We have a [tutorial](/docs/specifics/php-brew) that describes how to install [PHPBrew](https://github.com/c9s/phpbrew) on your Codio Boxes. This lets you install and switch between different versions of PHP.

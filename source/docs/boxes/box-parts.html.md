@@ -104,76 +104,71 @@ So to configure Apache, you would edit the `~/.parts/etc/apache2/httpd.conf` fil
 ##Complete List of Parts Supported
 This list may not be complete, so type `parts search` to see what we have currently added
 
-    ack (2.12) Ack: A tool like grep, optimized for programmers
-    ant (1.9.3) Ant: A pure Java build tool, simpler and easier to use than GNU Make
-    apache2 (2.4.7) Apache Web Server: A cross-platform open-source HTTP server for modern operating systems
-    apr (1.5.0) Apache Portable Runtime: Software libraries that provide a predictable and consistent interface to underlying
-    platform-specific implementations
-    apr_util (1.5.3) Apache Portable Runtime Utilities: Utilities that provide a predictable and consistent interface to underlying
-    platform-specific implementations
-    berkeley_db (6.0.30) Berkeley DB: a software library that provides a high-performance embedded database for key/value data.
-    cloudfoundry (v6.0.1) Cloud Foundry: An open CLI for managing cloud services
-    cmake (2.8.11.2) CMake: A cross-platform, open-source build system
-    composer (1.0.0-alpha8) Composer: PHP5 Dependency management
-    dart (1.2.0) Dart is a new platform for scalable web app engineering
-    erlang (R16B03-1) Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high
-    availability.
-    freepascal (2.6.2) Free Pascal: An open source Pascal compiler for Pascal and Object Pascal
-    geos (3.4.2) GEOS: C++ port of the Java Topology Suite (JTS)
-    ghc (7.6.2) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell
-    go-lang (1.2) Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
-    googleappengine (1.8.9) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
-    grails (2.3.7) Grails: an Open Source, full stack, web application framework for the JVM.
-    groovy (2.2.2) Groovy: an agile and dynamic language for the Java Virtual Machine
-    haskell-platform (2.0.0) Haskell is an advanced purely-functional programming language.
-    heroku-cli (3.3.0) The Heroku CLI is used to manage Heroku apps from the command line.
-    image_magick (6.8.8-3) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.
-    leiningen (2.3.2) Leiningen: A build automation and dependency management tool for Clojure
-    libmcrypt (2.5.8) Libmcrypt: A uniform interface to several symmetric encryption algorithms
-    lua (5.2.2) Lua: A powerful, fast, lightweight, embeddable scripting language
-    mariadb (5.5.36) MariaDB: An enhanced, drop-in replacement for MySQL.
-    maven (3.1.1) Maven: A software project management and comprehension tool
-    memcached (1.4.15) Memcached: An open-source, high-performance memory object caching system meteor (0.7.1.2) Meteor: A real-time web development platform
-    mongodb (2.4.6) MongoDB: A cross-platform document-oriented NoSQL database system
-    mysql (5.6.15) MySQL: The world's most popular open-source relational database
-    nginx (1.4.4) The High Performance Reverse Proxy, Load Balancer, Edge Cache, Origin Server
-    ocaml (4.01.0) OCaml: an industrial strength programming language supporting functional, imperative and object-oriented styles
-    opam (1.1.1) OPAM: a source-based package manager for OCaml.
-    openldap (2.4.39) OpenLDAP: an open source implementation of the Lightweight Directory Access Protocol.
-    phantomjs (1.9.1) PhantomJS: A headless WebKit scriptable with a JavaScript API
-    php5 (5.5.8-2) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions
-    default + mysql, pdo_mysql, pgsql, pdo_pgsql, readline, curl, iconv, gd, soap, mbstring, zip, zlib
-    php5-bcmath (5.5.8) BC Math module for php5
-    php5-bz2 (5.5.8) BZ2 module for php5
-    php5-exif (5.5.8) Exif module for php5
-    php5-ftp (5.5.8) ftp module for php5
-    php5-imagick (3.1.2) ImageMagick module for php5
-    php5-imap (5.5.8) IMAP module for php5
-    php5-intl (5.5.8) Intl module for php5
-    php5-ldap (5.5.8) ldap module for php5
-    php5-lzf (1.6.2) LZF module for php5
-    php5-mongo (1.4.5) Mongo driver for php5
-    php5-mysqli (5.5.8) mysqli module for php5
-    php5-oauth (1.2.3) OAuth module for php5
-    php5-pcntl (5.5.8) Process Control support module for php5
-    php5-ssh2 (0.12) SSH2 module for php5
-    phpmyadmin (4.1.7) phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
-    phpunit (3.7.32) PHPUnit: A programmer-oriented testing framework for PHP.
-    postgresql (9.2.4) PostgreSQL: The world's most advanced open-source database system
-    r_base (3.0.3) R: A free software programming language and software environment for statistical computing and graphics
-    rabbitmq (3.2.3) AMQP server written in Erlang
-    redis (2.6.16) Redis: An open-source, in-memory, key-value data store
-    rust (0.9) Rust: A safe, concurrent, practical language
-    s3cmd (1.0.1) s3cmd: Command line tool for managing Amazon S3 and CloudFront services
-    scala (2.10.2) Scala: An object-functional programming language
-    sqlite3 (3.8.2) SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL
-    database engine.
-    swig (2.0.11) Swig: An interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python,
-    Ruby, and Tcl.
-    tee-clc (12.0.0) Command-line Client for Team Foundation Server
-    the_silver_searcher (0.18.1) The Silver Searcher: A code-searching tool similar to ack, with focus on speed
-    tig (1.2.1) Tig: An ncurses-based text-mode interface for git
-    tmux (1.9a) Tmux: a terminal multiplexer that lets you switch easily between several programs in one terminal.
-    tomcat (7.0.52) Apache Tomcat: an open source software implementation of the Java Servlet and JavaServer Pages technologies.                                  
+- **ack** (2.12) Ack: A tool like grep, optimized for programmers
+- **ant** (1.9.3) Ant: A pure Java build tool, simpler and easier to use than GNU Make
+- **apache2** (2.4.7) Apache Web Server: A cross-platform open-source HTTP server for modern operating systems
+- **aapr** (1.5.0) Apache Portable Runtime: Software libraries that provide a predictable and consistent interface to underlying platform-specific implementations
+- **apr_util** (1.5.3) Apache Portable Runtime Utilities: Utilities that provide a predictable and consistent interface to underlying platform-specific implementations
+- **berkeley_db** (6.0.30) Berkeley DB: a software library that provides a high-performance embedded database for key/value data.
+- **cloudfoundry** (v6.0.1) Cloud Foundry: An open CLI for managing cloud services
+- **cmake** (2.8.11.2) CMake: A cross-platform, open-source build system
+- **composer** (1.0.0-alpha8) Composer: PHP5 Dependency management
+- **dart** (1.2.0) Dart is a new platform for scalable web app engineering
+- **erlang** (R16B03-1) Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
+- **freepascal** (2.6.2) Free Pascal: An open source Pascal compiler for Pascal and Object Pascal
+- **geos** (3.4.2) GEOS: C++ port of the Java Topology Suite (JTS)
+- **ghc** (7.6.2) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell
+- **go-lang** (1.2) Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+- **googleappengine** (1.8.9) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
+- **grails** (2.3.7) Grails: an Open Source, full stack, web application framework for the JVM.
+- **groovy** (2.2.2) Groovy: an agile and dynamic language for the Java Virtual Machine
+- **haskell-platform** (2.0.0) Haskell is an advanced purely-functional programming language.
+- **heroku-cli** (3.3.0) The Heroku CLI is used to manage Heroku apps from the command line.
+- **image_magick** (6.8.8-3) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.
+- **leiningen** (2.3.2) Leiningen: A build automation and dependency management tool for Clojure
+- **libmcrypt** (2.5.8) Libmcrypt: A uniform interface to several symmetric encryption algorithms
+- **lua** (5.2.2) Lua: A powerful, fast, lightweight, embeddable scripting language
+- **mariadb** (5.5.36) MariaDB: An enhanced, drop-in replacement for MySQL.
+- **maven** (3.1.1) Maven: A software project management and comprehension tool
+- **memcached** (1.4.15) Memcached: An open-source, high-performance memory object caching system 
+- **meteor** (0.7.1.2) Meteor: A real-time web development platform
+- **mongodb** (2.4.6) MongoDB: A cross-platform document-oriented NoSQL database system
+- **mysql** (5.6.15) MySQL: The world's most popular open-source relational database
+- **nginx** (1.4.4) The High Performance Reverse Proxy, Load Balancer, Edge Cache, Origin Server
+- **ocaml** (4.01.0) OCaml: an industrial strength programming language supporting functional, imperative and object-oriented styles
+- **opam** (1.1.1) OPAM: a source-based package manager for OCaml.
+- **openldap** (2.4.39) OpenLDAP: an open source implementation of the Lightweight Directory Access Protocol.
+- **phantomjs** (1.9.1) PhantomJS: A headless WebKit scriptable with a JavaScript API
+- **php5** (5.5.8-2) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mysql, pdo_mysql, pgsql, pdo_pgsql, readline, curl, iconv, gd, soap, mbstring, zip, zlib
+- **php5-bcmath** (5.5.8) BC Math module for php5
+- **php5-bz2** (5.5.8) BZ2 module for php5
+- **php5-exif** (5.5.8) Exif module for php5
+- **php5-ftp** (5.5.8) ftp module for php5
+- **php5-imagick** (3.1.2) ImageMagick module for php5
+- **php5-imap** (5.5.8) IMAP module for php5
+- **php5-intl** (5.5.8) Intl module for php5
+- **php5-ldap** (5.5.8) ldap module for php5
+- **php5-lzf** (1.6.2) LZF module for php5
+- **php5-mongo** (1.4.5) Mongo driver for php5
+- **php5-mysqli** (5.5.8) mysqli module for php5
+- **php5-oauth** (1.2.3) OAuth module for php5
+- **php5-pcntl** (5.5.8) Process Control support module for php5
+- **php5-ssh2** (0.12) SSH2 module for php5
+- **phpmyadmin** (4.1.7) phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
+- **phpunit** (3.7.32) PHPUnit: A programmer-oriented testing framework for PHP.
+- **postgresql** (9.2.4) PostgreSQL: The world's most advanced open-source database system
+- **r_base** (3.0.3) R: A free software programming language and software environment for statistical computing and graphics
+- **rabbitmq** (3.2.3) AMQP server written in Erlang
+- **redis** (2.6.16) Redis: An open-source, in-memory, key-value data store
+- **rust** (0.9) Rust: A safe, concurrent, practical language
+- **s3cmd** (1.0.1) s3cmd: Command line tool for managing Amazon S3 and CloudFront services
+- **scala** (2.10.2) Scala: An object-functional programming language
+- **sqlite3** (3.8.2) SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
+- **swig** (2.0.11) Swig: An interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python, Ruby, and Tcl.
+- **tee-clc** (12.0.0) Command-line Client for Team Foundation Server
+- **the_silver_searcher** (0.18.1) The Silver Searcher: A code-searching tool similar to ack, with focus on speed
+- **tig** (1.2.1) Tig: An ncurses-based text-mode interface for git
+- **tmux** (1.9a) Tmux: a terminal multiplexer that lets you switch easily between several programs in one terminal.
+- **tomcat** (7.0.52) Apache Tomcat: an open source software implementation of the Java Servlet and JavaServer Pages technologies.                                  
 
 

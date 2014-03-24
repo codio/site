@@ -146,7 +146,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **opam** (1.1.1) OPAM: a source-based package manager for OCaml.
 - **openldap** (2.4.39) OpenLDAP: an open source implementation of the Lightweight Directory Access Protocol.
 - **phantomjs** (1.9.1) PhantomJS: A headless WebKit scriptable with a JavaScript API
-- **php5** (5.5.10-1) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mysql, pdo_mysql, pgsql, pdo_pgsql, readline, curl, iconv, gd, soap, mbstring, zip, zlib
+- **php5** php5 (5.5.10-1) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       
 - **php5-apache2** (5.5.10) Php5 Apache: a php5 module for apache2.
 - **php5-bcmath** (5.5.10-1) BC Math module for php5
 - **php5-bz2** (5.5.10-1) BZ2 module for php5

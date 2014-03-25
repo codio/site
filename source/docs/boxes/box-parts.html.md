@@ -107,6 +107,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **ack** (2.12) Ack: A tool like grep, optimized for programmers
 - **ant** (1.9.3) Ant: A pure Java build tool, simpler and easier to use than GNU Make
 - **apache2** (2.4.7) Apache Web Server: A cross-platform open-source HTTP server for modern operating systems
+- **apache2_mod_wsgi** (3.4) Apache 2 WSGI module: an Apache module that provides a WSGI compliant interface for hosting Python based web applications within Apache.
 - **apr** (1.5.0) Apache Portable Runtime: Software libraries that provide a predictable and consistent interface to underlying platform-specific implementations
 - **apr_util** (1.5.3) Apache Portable Runtime Utilities: Utilities that provide a predictable and consistent interface to underlying platform-specific implementations- **beanstalkd** (1.9)              Beanstalk: A simple, fast work queue.
 - **beanstalkd** (1.9) Beanstalk: A simple, fast work queue.

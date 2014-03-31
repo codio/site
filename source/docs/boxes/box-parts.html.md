@@ -123,15 +123,15 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **freepascal** (2.6.2) Free Pascal: An open source Pascal compiler for Pascal and Object Pascal
 - **fsharp** (3.0) F#: a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
 - **geos** (3.4.2) GEOS: C++ port of the Java Topology Suite (JTS)
-- **ghc** (7.6.2) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell
+- **ghc** (7.6.3) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell
 - **gitflow** (0.4.1) Gitflow: a collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 - **go-lang** (1.2) Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
-- **googleappengine** (1.8.9) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
+- **googleappengine** (1.9.0) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
 - **grails** (2.3.7) Grails: an Open Source, full stack, web application framework for the JVM.
 - **groovy** (2.2.2) Groovy: an agile and dynamic language for the Java Virtual Machine
 - **haskell-platform** (2.0.0) Haskell is an advanced purely-functional programming language.
 - **heroku-cli** (3.3.0) The Heroku CLI is used to manage Heroku apps from the command line.
-- **image_magick** (6.8.8-3) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.
+- **image_magick** (6.8.8-9) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.
 - **leiningen** (2.3.2) Leiningen: A build automation and dependency management tool for Clojure
 - **libmcrypt** (2.5.8) Libmcrypt: A uniform interface to several symmetric encryption algorithms
 - **lua** (5.2.2) Lua: A powerful, fast, lightweight, embeddable scripting language
@@ -168,7 +168,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **php5-pdo-pgsql** (5.5.10-1) PDO PostgreSQL module for php5                                                                                                       
 - **php5-pgsql** (5.5.10-1) PostgreSQL module for php5                                                                                                           
 - **php5-soap** (5.5.10-1) soap module for php5 
-- **php5-ssh2** (0.12) SSH2 module for php5
+- **php5-ssh2** (0.12-2) SSH2 module for php5
 - **php5-xdebug** (2.2.4-1) Xdebug module for php5                                                                                                               
 - **php5-zip** (5.5.10-1) zip module for php5                                                                                                                  
 - **php5-zlib** (5.5.10-1) zlib module for php5 
@@ -177,8 +177,8 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **phpunit** (3.7.32) PHPUnit: A programmer-oriented testing framework for PHP.
 - **pip** (1.5.4) Pip: A tool for installing and managing Python packages 
 - **postgresql** (9.2.4) PostgreSQL: The world's most advanced open-source database system
-- **python2** (2.7.6) Python 2: The most friendly Programming Language                                                                                     
-- **python3** (3.3.4) Python 3: Next generation of the most friendly Programming Language    
+- **python2** (2.7.6-1) Python 2: The most friendly Programming Language                                                                                     
+- **python3** (3.3.4-1) Python 3: Next generation of the most friendly Programming Language    
 - **r_base** (3.0.3) R: A free software programming language and software environment for statistical computing and graphics
 - **rabbitmq** (3.2.3) AMQP server written in Erlang
 - **redis** (2.6.16) Redis: An open-source, in-memory, key-value data store

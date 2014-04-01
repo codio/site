@@ -109,7 +109,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **apache2** (2.4.7) Apache Web Server: A cross-platform open-source HTTP server for modern operating systems
 - **apache2_mod_wsgi** (3.4) Apache 2 WSGI module: an Apache module that provides a WSGI compliant interface for hosting Python based web applications within Apache.
 - **apr** (1.5.0) Apache Portable Runtime: Software libraries that provide a predictable and consistent interface to underlying platform-specific implementations
-- **apr_util** (1.5.3) Apache Portable Runtime Utilities: Utilities that provide a predictable and consistent interface to underlying platform-specific implementations- **beanstalkd** (1.9)              Beanstalk: A simple, fast work queue.
+- **apr_util** (1.5.3) Apache Portable Runtime Utilities: Utilities that provide a predictable and consistent interface to underlying platform-specific implementations
 - **beanstalkd** (1.9) Beanstalk: A simple, fast work queue.
 - **berkeley_db** (6.0.30) Berkeley DB: a software library that provides a high-performance embedded database for key/value data.
 - **cabal** (1.18.0.2) Cabal: A system for building and packaging Haskell libraries and programs   
@@ -134,6 +134,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **image_magick** (6.8.8-9) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.
 - **leiningen** (2.3.2) Leiningen: A build automation and dependency management tool for Clojure
 - **libmcrypt** (2.5.8) Libmcrypt: A uniform interface to several symmetric encryption algorithms
+- **libtool** (2.4.2) libtool: a generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface. 
 - **lua** (5.2.2) Lua: A powerful, fast, lightweight, embeddable scripting language
 - **mariadb** (5.5.36) MariaDB: An enhanced, drop-in replacement for MySQL.
 - **maven** (3.2.1) Maven: A software project management and comprehension tool

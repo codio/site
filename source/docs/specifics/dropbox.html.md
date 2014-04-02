@@ -53,7 +53,7 @@ You should now check to see how sycning is progressing as follows ...
 
     dropbox.py status 
     
-Because of Dropbox issues, it can happen that our attempt to exclude existing folders fails. If the above status check takes a long time (it should be done in a few seconds) then you can check to see what folders are being excluded using `dropbox.py exclude`. If you do not see your existing Dropbox folders listed, then run this command `dropbox.py exclude add /home/codio/Dropbox/*`.
+Because of Dropbox behaviour, it can happen that our attempt to exclude existing folders fails. If the above status check takes a long time (it should be done in a few seconds) then you can check to see what folders are being excluded using `dropbox.py exclude`. If you do not see your existing Dropbox folders listed, then run this command `dropbox.py exclude add /home/codio/Dropbox/*`.
 
 When `dropbox.py status` says 'Up to date' you are ready to move on.
 
@@ -73,26 +73,26 @@ and you will see all your current Dropbox folders listed. Let's say your project
 
     dropbox.py exclude remove ~/Dropbox/myproject
     
-At this point, Dropbox will fetch that folder. Run `dropbox.py status` to see when it is completed. 
+At this point, Dropbox will fetch that folder. Run `dropbox.py status` to see when it is completed (it will say 'Up to date').
 
-You will now find your project in the `~/Dropbox` folder. Let's move the entire contents to the Codio workspace (ignore the two warning messages) ...
+You will now find your project has been synced to the `~/Dropbox` folder. Let's copy the entire contents to the Codio workspace. This will not copy hidden folders, so if you want to copy hidden folders then you will need to copy those separately.
 
-    mv ~/Dropbox/myproject/{*,.*} ~/workspace 
+    cp -r ~/Dropbox/myproject/* ~/workspace
 
-If successful, you will see a message saying that it has been excluded.
-
-We now remove the `myproject` folder from the Dropbox folder with
+Once you are happy that the project is all in place in your workspace (you should now see all your files in the filetree on the left of the IDE) we can remove the `myproject` folder from the Dropbox folder with
 
     rm -r ~/Dropbox/myproject
     
-And finally, we tell Dropbox to sync with the Codio workspace by setting up a new symlink
+When you do this, it will temporarily remove the folder from Dropbox. Don't worry, we are about to resync it as follows ...
 
     ln -s /home/codio/workspace /home/codio/Dropbox/myproject
 
-Again, check the status with `dropbox.py status` and once it says 'Up to date', you're done.
+Again, check the status with `dropbox.py status` and once it says 'Up to date', you're all done and you should see your project in Dropbox. You can now try making edits either in Codio or on your local machine and syncing should work perfectly.
+
+We would like to reiterate that you should avoid using Dropbox syncing with Git projects. If you are using Git then use Git to manage the syncing.
 
 ##Adding future exclusions
-If add **any** new Dropbox folders, these will be automatically synced with your Codio Box (into the `~/Dropbox` folder). This will waste space on your Box and so you should add exclusions using the followinf command
+If add **any** new Dropbox folders, these will be automatically synced with your Codio Box (into the `~/Dropbox` folder). This will waste space on your Box and so you should add exclusions using the following command
 
     dropbox.py exclude add <folder or filename>
     

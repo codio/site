@@ -7,12 +7,12 @@ full_width: true
 Syncronizing with Dropbox is done using a [Box Part](/docs/boxes/box-parts). This tutorial explains the steps and the caveats.
 
 
-##IMPORTANT: FOR GIT USERS
+##IMPORTANT: FOR GIT/MERCURIAL USERS
 If you are using Git, you run a risk of corrupting your Git repo if you use Dropbox. The reason for this is that Dropbox is permamenently syncing folders and if you are also working on the same code on your local machine using a desktop editor, then you could end up with both Codio and your local machine trying to operate on the Git repo simultaneously. 
 
 Of course, this will not damage a remote Git repo such as GitHub/BitBucket, and so you can clone things back from the remote repo, but you could lose work you have not pushed to that remote repo.
 
-So, for Git users, the safest approach is to stick to using GitHub or BitBucket to syncronize between Codio and your desktop.
+So, for Git users, the safest approach is to stick to using GitHub or BitBucket to syncronize between Codio and your desktop, which is what they are meant for after all.
 
 ##Installing the Dropbox Box Part
 To install Dropbox, open up a Terminal window from the Tools->Terminal menu and then enter the following.

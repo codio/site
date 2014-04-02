@@ -75,7 +75,7 @@ and you will see all your current Dropbox folders listed. Let's say your project
     
 At this point, Dropbox will fetch that folder. Run `dropbox.py status` to see when it is completed. 
 
-You will now find your project in the `~/Dropbox` folder. Let's move the entire contents to the Codio workspace (ignore warnings) ...
+You will now find your project in the `~/Dropbox` folder. Let's move the entire contents to the Codio workspace (ignore the two warning messages) ...
 
     mv ~/Dropbox/myproject/{*,.*} ~/workspace 
 

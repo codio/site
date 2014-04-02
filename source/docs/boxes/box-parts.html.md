@@ -105,6 +105,7 @@ So to configure Apache, you would edit the `~/.parts/etc/apache2/httpd.conf` fil
 This list may not be complete, so type `parts search` to see what we have currently added
 
 - **ack** (2.12) Ack: A tool like grep, optimized for programmers
+- **adminer** (4.0.3) Adminer: a full-featured database management tool written in PHP
 - **ant** (1.9.3) Ant: A pure Java build tool, simpler and easier to use than GNU Make
 - **apache2** (2.4.7) Apache Web Server: A cross-platform open-source HTTP server for modern operating systems
 - **apache2_mod_wsgi** (3.4) Apache 2 WSGI module: an Apache module that provides a WSGI compliant interface for hosting Python based web applications within Apache.
@@ -117,6 +118,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **cmake** (2.8.11.2) CMake: A cross-platform, open-source build system
 - **composer** (1.0.0-alpha8) Composer: PHP5 Dependency management
 - **dart** (1.2.0) Dart is a new platform for scalable web app engineering
+- **dropbox** (2.6.27) Dropbox: a cloud synchronization service.
 - **elasticsearch** (1.0.0) Elasticsearch: A flexible and powerful open source, distributed, real-time search and analytics engine 
 - **erlang** (R16B03-1) Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
 - **fish** (2.1.0) fish: A friendly interactive shell 
@@ -145,7 +147,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **mysql** (5.6.15) MySQL: The world's most popular open-source relational database
 - **nginx** (1.4.4) The High Performance Reverse Proxy, Load Balancer, Edge Cache, Origin Server
 - **ocaml** (4.01.0) OCaml: an industrial strength programming language supporting functional, imperative and object-oriented styles
-- **opam** (1.1.1) OPAM: a source-based package manager for OCaml.
+- **opam** (1.1.1-1) OPAM: a source-based package manager for OCaml.
 - **openldap** (2.4.39) OpenLDAP: an open source implementation of the Lightweight Directory Access Protocol.
 - **phantomjs** (1.9.1) PhantomJS: A headless WebKit scriptable with a JavaScript API
 - **php5** php5 (5.5.10-1) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       

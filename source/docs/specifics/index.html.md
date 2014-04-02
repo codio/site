@@ -12,7 +12,7 @@ This section contains links to Codio tutorials and installation instructions.
 - [Scaffolding Applications with Yeoman](/docs/specifics/yeoman)
 - [Deploying to Heroku](/docs/specifics/heroku)
 - [Installing the Mean.io framework](/docs/specifics/meanio)
-
+- [Syncing with Dropbox](/docs/specifics/dropbox)
 
 ##Node
 - [NodeJS](/docs/specifics/node)

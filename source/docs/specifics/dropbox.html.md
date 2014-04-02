@@ -71,13 +71,15 @@ If you have a project ready and waiting in Dropbox and you want to get it into C
 
 and you will see all your current Dropbox folders listed. Let's say your project folder is called `myproject`, you now need to remove the exclusion with the following command
 
-    dropbox.py exclude remove myproject
+    dropbox.py exclude remove ~/Dropbox/myproject
     
 At this point, Dropbox will fetch that folder. Run `dropbox.py status` to see when it is completed. 
 
-You will now find your project in the `~/Dropbox` folder. Let's move the entire contents to the Codio workspace with ...
+You will now find your project in the `~/Dropbox` folder. Let's move the entire contents to the Codio workspace (ignore warnings) ...
 
     mv ~/Dropbox/myproject/{*,.*} ~/workspace 
+
+If successful, you will see a message saying that it has been excluded.
 
 We now remove the `myproject` folder from the Dropbox folder with
 

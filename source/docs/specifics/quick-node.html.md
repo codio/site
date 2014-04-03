@@ -4,8 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-# Quick Start with Node.js
-
 ## 1. Setup
 First we create a new empty project and delete the `index.html`.
 If you want you can add some info to the `README.md`.

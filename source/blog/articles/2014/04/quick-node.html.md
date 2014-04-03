@@ -7,8 +7,6 @@ class_name: blog
 full_width: true
 ---
 
-# Quick Start with Node.js in less than Five Steps
-
 ## 1. Setup
 First we create a new empty project and delete the `index.html`.
 If you want you can add some info to the `README.md`.

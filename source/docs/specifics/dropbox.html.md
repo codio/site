@@ -6,6 +6,7 @@ full_width: true
 
 Syncronizing with Dropbox is done using a [Box Part](/docs/boxes/box-parts). This tutorial explains the steps and the caveats.
 
+**Note:** Dropbox support has just been added. We are seeing some situations where your Dropbox connection details are being lost when your Box restarts (when you restart from Project->Restart Box or when you exit you project for longer than 2 minutes). We are looking into this and we will remove this message as soon as we have identified the issue.
 
 ##IMPORTANT: FOR GIT/MERCURIAL USERS
 If you are using Git, you run a risk of corrupting your Git repo if you use Dropbox. The reason for this is that Dropbox is permamenently syncing folders and if you are also working on the same code on your local machine using a desktop editor, then you could end up with both Codio and your local machine trying to operate on the Git repo simultaneously. 

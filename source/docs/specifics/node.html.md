@@ -37,6 +37,9 @@ Once your Node app is up and running, you can access your project from a browser
 
 `word1-word2.codio.io:port`
 
+##Writing your first Node application
+We've written a simple tutorial on writing a 'Hello World' Node application that can be found [here](/docs/specifics/quick-node).
+
 ##Important Reading Material
 We strongly recommend you read up on the following before going too much further
 

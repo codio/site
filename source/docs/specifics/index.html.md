@@ -14,8 +14,9 @@ This section contains links to Codio tutorials and installation instructions.
 - [Installing the Mean.io framework](/docs/specifics/meanio)
 - [Syncing with Dropbox](/docs/specifics/dropbox)
 
-##Node
-- [NodeJS](/docs/specifics/node)
+##Node.js
+- [Node.js](/docs/specifics/node)
+- [Quick Start with Node.js](/docs/specifics/quick-node)
 - [Learning Node with Nodeschool.io](/docs/specifics/nodeschool)
 
 ##Ruby

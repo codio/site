@@ -13,7 +13,7 @@
   "preview": {
          "Docs": "http://{{domain}}:3000/docs",
          "Home Page": "http://{{domain}}:3000/",
-         "PHP": "http://{{domain}}:3000/php"
+         "Blog": "http://{{domain}}:3000/blog"
   }
 }
 

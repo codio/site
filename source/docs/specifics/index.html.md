@@ -33,4 +33,7 @@ This section contains links to Codio tutorials and installation instructions.
 - [CodeIgniter installation](/docs/specifics/codeigniter)
 - [Symfony installation](/docs/specifics/symfony)
 
+##Other Languages
+- [Ocaml](/docs/specifics/ocaml)
+
 If you want us to provide more tutorials, please email [support@codio.com](mailto:support@codio.com).

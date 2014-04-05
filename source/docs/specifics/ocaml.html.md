@@ -27,7 +27,7 @@ print_string "Hello world!\n";;
 
 ## 4. Compile it
 From the terminal, enter ...
-```bash
+```
 ocamlc -o hello hello.ml
 ```
 

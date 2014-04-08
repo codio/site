@@ -150,13 +150,13 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **opam** (1.1.1-1) OPAM: a source-based package manager for OCaml.
 - **openldap** (2.4.39) OpenLDAP: an open source implementation of the Lightweight Directory Access Protocol.
 - **phantomjs** (1.9.1) PhantomJS: A headless WebKit scriptable with a JavaScript API
-- **php5** php5 (5.5.10-1) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       
-- **php5-apache2** (5.5.10) Php5 Apache: a php5 module for apache2.
+- **php5** php5 (5.5.10-2) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       
+- **php5-apache2** (5.5.10-2) Php5 Apache: a php5 module for apache2.
 - **php5-bcmath** (5.5.10-1) BC Math module for php5
 - **php5-bz2** (5.5.10-1) BZ2 module for php5
 - **php5-curl** (5.5.10-1) curl module for php5 
 - **php5-exif** (5.5.10-1) Exif module for php5
-- **php5-fpm** (5.5.10-1)  PHP5-FPM: an alternative PHP FastCGI implementation with some additional features (mostly) useful for heavy-loaded sites
+- **php5-fpm** (5.5.10-2)  PHP5-FPM: an alternative PHP FastCGI implementation with some additional features (mostly) useful for heavy-loaded sites
 - **php5-ftp** (5.5.10-1) ftp module for php5
 - **php5-gd** (5.5.10-1) GD module for php5  
 - **php5-imagick** (3.1.2-2) ImageMagick module for php5
@@ -178,17 +178,17 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **phpmyadmin** (4.1.7) phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
 - **phppgadmin** (5.1) phpPgAdmin: a web-based administration tool for PostgreSQL.
 - **phpunit** (3.7.32) PHPUnit: A programmer-oriented testing framework for PHP.
-- **pip** (1.5.4) Pip: A tool for installing and managing Python packages 
+- **pip** (1.5.4-2) Pip: A tool for installing and managing Python packages 
 - **postgresql** (9.2.4) PostgreSQL: The world's most advanced open-source database system
-- **python2** (2.7.6-1) Python 2: The most friendly Programming Language                                                                                     
-- **python3** (3.3.4-1) Python 3: Next generation of the most friendly Programming Language    
+- **python2** (2.7.6-2) Python 2: The most friendly Programming Language                                                                                     
+- **python3** (3.3.4-2) Python 3: Next generation of the most friendly Programming Language    
 - **r_base** (3.0.3) R: A free software programming language and software environment for statistical computing and graphics
 - **rabbitmq** (3.2.3) AMQP server written in Erlang
 - **redis** (2.6.16) Redis: An open-source, in-memory, key-value data store
 - **rust** (0.9) Rust: A safe, concurrent, practical language
 - **s3cmd** (1.0.1-1) s3cmd: Command line tool for managing Amazon S3 and CloudFront services
 - **scala** (2.10.3) Scala: An object-functional programming language
-- **setuptools** (2.2) Setuptools: Easily download, build, install, upgrade, and uninstall Python packages  
+- **setuptools** (2.2-2) Setuptools: Easily download, build, install, upgrade, and uninstall Python packages  
 - **sqlite3** (3.8.2) SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
 - **swig** (2.0.11) Swig: An interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python, Ruby, and Tcl.
 - **tcsh** (6.18.01) tcsh: TENEX C Shell, an enhanced version of Berkeley csh, usable both as an interactive login shell and a shell script command processor      
@@ -197,5 +197,5 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **tig** (1.2.1) Tig: An ncurses-based text-mode interface for git
 - **tmux** (1.9a) Tmux: a terminal multiplexer that lets you switch easily between several programs in one terminal.
 - **tomcat** (7.0.52) Apache Tomcat: an open source software implementation of the Java Servlet and JavaServer Pages technologies.                                  
-- **virtualenv** (1.11.4) Virtualenv: Virtual Python Environment builder 
+- **virtualenv** (1.11.4-2) Virtualenv: Virtual Python Environment builder 
 

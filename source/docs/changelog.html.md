@@ -17,21 +17,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 ####April 2nd, 2014
 - **Feature**: Automatic Auto-complete, [Dropbox Syncing](/docs/specifics/dropbox.html), rbenv rehash run automatically [More information...](/blog/2014/04/auto-complete-dropbox-rbenv-rehash/)
 
-####March 31st, 2014
-- **Feature**: Update File tree [More information...](/blog/2014/03/new-file-tree/)
-
-####March 27th, 2014
-- **Feature**: Addition of 9 new Themes [More information...](/blog/2014/03/themes/)
-
-####March 21st, 2014
-- **Feature**: New [Box Parts](/docs/boxes/box-parts.html) added [More information...](/blog/2014/03/new-parts/)
-
-####March 21st, 2014
-- **Feature**: Sync & Search Changes [More information...](/blog/2014/03/sync-and-search/)
+####March 2014
+- **Feature**:(31st March) Update File tree [More information...](/blog/2014/03/new-file-tree/)
+- **Feature**:(27th March) Addition of 9 new Themes [More information...](/blog/2014/03/themes/)
+- **Feature**:(21st March)New [Box Parts](/docs/boxes/box-parts.html) added [More information...](/blog/2014/03/new-parts/)
+- **Feature**:(21st March) Sync & Search Changes [More information...](/blog/2014/03/sync-and-search/)
 
 
 
-##End
+
 We only implemented the changelog page on April 7th, 2014 so this is as far back as we go.
 
 

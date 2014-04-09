@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+####April 9th, 2014
+- **Bug**: reports of Boxes stopping and Terminal losing connection.
+
 ####April 7th, 2014
 - **Bug**: some users reported some corruption of file if the same file was opened in more than one location with the same user account.
 

@@ -9,7 +9,9 @@ full_width: true
 
 ## HeartBleed
 
-First of all, you may have heard of something called the HeartBleed bug that has been causing havoc all over the internet this week. I won't detail what this is, as [this site](http://heartbleed.com/) does a great job of that already. However, I want to put your minds at rest and let you know that Codio is patched and updated to protect against this bug. All our servers are now running an updated version of OpenSSL that protects us and you from this exploit. Several other security measures have been put in place to further increase security.
+First of all, you may have heard of something called the HeartBleed bug that has been causing havoc all over the internet this week. I won't detail what this is, as [this site](http://heartbleed.com/) does a great job of that already. However, I want to put your minds at rest and let you know that Codio is patched and updated to protect against this bug. All our servers are now running an updated version of OpenSSL that protects us and you from this exploit.
+
+Several other security measures have been put in place to further increase security, and we recommend that you reset your Codio password just to be sure.
 
 ## Terminal Issues
 

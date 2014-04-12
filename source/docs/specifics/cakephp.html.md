@@ -38,4 +38,4 @@ We already installed Composer above, so let's now install CakePHP itself using C
 
 1. From the Codio Preview menu (the right most Codio menu) select the drop down menu and check 'New Browser Tab' and select 'Box URL'.
 
-You should now see the familiair CakePHP landing page in a browser window.
+You should now see the familiar CakePHP landing page in a browser window.

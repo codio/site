@@ -29,6 +29,7 @@ Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default w
 We already installed Composer above, so let's now install CakePHP itself using Composer.
 
 1. Run the following command: `composer create-project -s dev cakephp/app ~/workspace --prefer-dist`. The `dev` stability flag will not be needed anymore for CakePHP 3 stable versions.
+1. Add your project to git version control with the following commands: `git init`, `git add .` and `git commit -m "initial commit"`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 
         parts stop apache2 mysql

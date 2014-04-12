@@ -32,6 +32,7 @@ This section contains links to Codio tutorials and installation instructions.
 - [Laravel installation](/docs/specifics/laravel)
 - [CodeIgniter installation](/docs/specifics/codeigniter)
 - [Symfony installation](/docs/specifics/symfony)
+- [CakePHP 3 installation](/docs/specifics/cakephp)
 
 ##Other Languages
 - [Ocaml](/docs/specifics/ocaml)

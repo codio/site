@@ -172,7 +172,8 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **php5-pgsql** (5.5.10-1) PostgreSQL module for php5                                                                                                           
 - **php5-soap** (5.5.10-1) soap module for php5 
 - **php5-ssh2** (0.12-2) SSH2 module for php5
-- **php5-xdebug** (2.2.4-1) Xdebug module for php5                                                                                                               
+- **php5-xdebug** (2.2.4-1) Xdebug module for php5 
+- **php5-xsl** (5.5.10-1) XSL module for php5                                                                                                                                             
 - **php5-zip** (5.5.10-1) zip module for php5                                                                                                                  
 - **php5-zlib** (5.5.10-1) zlib module for php5 
 - **phpmyadmin** (4.1.7) phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web

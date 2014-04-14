@@ -13,7 +13,7 @@ This tutorial shows you how to create a CakePHP 3 project and work with it in Co
 
 1. From the Codio Dashboard, create a new Empty template project.
 1. Open a Terminal window from the Tools->Terminal window
-1. Remove the initial project files: `rm -rf * .git/`
+1. Remove the initial git folder, we will init a new one later: `rm -rf .git/`
 
 
 ##Install PHP, Apache and MySQL/MariaDB

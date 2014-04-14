@@ -21,4 +21,4 @@ Behavior varies between Macs and other operating systems. Using the right-click 
 Copy and paste both works as expected with cmd+c and cmd+v. 
 
 ###Windows, Linux
-Pasting is done as expected with ctrl+v but pasting cannot be done as this is conflicts with the 'kill process' shortcut. You will need to copy using the right-click menu.
+Pasting is done as expected with ctrl+v but copying (ctrl+c) cannot be done as it conflicts with the 'kill process' comman, so you should use the right-click menu.

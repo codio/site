@@ -12,7 +12,6 @@ You should also read the [PHP Introduction](/specifics/php).
 If you are already in a project, then you can ignore these steps.
 
 1. From the Codio Dashboard, create a new Empty template project. 
-1. Once you are in the IDE, delete any files present.
 1. Open a Terminal window from the Tools->Terminal window
 
 

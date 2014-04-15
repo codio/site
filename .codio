@@ -4,7 +4,7 @@
 // Run button configuration
   "commands": {
         "Middleman": "bundle exec middleman -p 3000",
-        "Build": "middleman build",
+        "Build": "bundle exec middleman build",
         "Deploy to Production": "cap production deploy"
         
   },

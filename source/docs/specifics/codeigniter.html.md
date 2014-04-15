@@ -11,7 +11,6 @@ There's not much to installing CodeIgniter into a Codio project. Here's a quick 
 ##Create a Project
 
 1. From the Codio Dashboard, create a new Empty template project. 
-1. Once you are in the IDE, delete any files present.
 1. Open a Terminal window from the Tools->Terminal window
 
 ##Download from the CodeIgniter site

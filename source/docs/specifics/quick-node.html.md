@@ -8,8 +8,7 @@ full_width: true
 1. From the Codio Dashboard, select the 'Create Project' tab.
 1. Enter a name for your project.
 1. From the dropdown list, select 'Empty project' then press 'Create project'.
-1. You will now be taken to the IDE. Feel free to delete the `index.html` file.
-1. If you want, you can add edit the `README.md` file by clicking the 'Code' link in the status bar at the bottom of the opened README file.
+1. You will now be taken to the IDE. 
 
 ## 2. Write some Code
 From the 'File->New File' menu, create a new file called `index.js` and write the worlds most simple http server in Node.js.

@@ -25,4 +25,4 @@ Then after beautifying, you will end up with this
 ##Settings
 If you look within the [code-beautifier] section of the Codio Preferences, you will see the various beautification settings available. 
 
-Don't forget, you can force these in [Project preferences](/docs/settings-prefs/project-prefs) if you want to have consistently beautifed code regardless of who edits your code.
+Don't forget, you can force these in [Project preferences](/docs/settings-prefs/project-prefs) if you want to have consistently beautified code regardless of who edits your code.

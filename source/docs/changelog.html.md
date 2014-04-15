@@ -10,6 +10,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ####April 15th, 2014
 - **Improvement**: Improve searching for users when adding project permissions.
+- **Improvement**: Improved deployment to Codio deployment targets.
 
 ####April 14th, 2014
 - **Improvement**: The empty project template is now actually empty.

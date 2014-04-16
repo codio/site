@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+####April 16th, 2014
+- **Feature**: [Multiple Cursor](/docs/ide/code-editor/multicursor.html) support.
+
 ####April 15th, 2014
 - **Improvement**: Improve searching for users when adding project permissions.
 - **Improvement**: Improved deployment to Codio deployment targets.

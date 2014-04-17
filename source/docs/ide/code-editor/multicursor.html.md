@@ -13,3 +13,5 @@ Click to place the cursor at the desired location, then press and hold Cmd/Ctrl 
 Here you can see how we have created several cursors and then typed "hello world" once so it is duplicated across several lines.
 
 You can also use `Alt-Click` to place the cursor everywhere inbetween a start and end position.
+
+![](blog/multiple-cursors.gif)

@@ -33,6 +33,7 @@ This section contains links to Codio tutorials and installation instructions.
 - [CodeIgniter installation](/docs/specifics/codeigniter)
 - [Symfony installation](/docs/specifics/symfony)
 - [CakePHP 3 installation](/docs/specifics/cakephp)
+- [Plone](/docs/specifics/plone)
 
 ##Other Languages
 - [Ocaml](/docs/specifics/ocaml)

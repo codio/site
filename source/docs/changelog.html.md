@@ -8,7 +8,8 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###April 21st, 2014
+###April 22nd, 2014
+- **Fixed**: reports of characters not correctly saving
 - **Feature**: Added Plone setup tutorial (thanks to [David Bain](http://blog.dbain.com/2014/04/install-plone-in-under-5-minutes-on.html))
 
 ####April 19th, 2014

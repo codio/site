@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-It is important to understand the difference between Static and Dynamic content when using the Preview menu options. Codio provides a configurable menu item for Dynamic/Server Side content (rightmost Codio menu) as well as Static content (second from the right).
+It is important to understand the difference between Static and Dynamic content when using the Preview menu options. Codio provides a configurable menu item for Dynamic/Server Side content (rightmost Codio menu) as well as Static content.
 
 ###Static content
 You can use 'Preview static' options on Static content only (HTML, CSS, JS and text).

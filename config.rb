@@ -1,3 +1,4 @@
+
 # Relative Assets extension
 module RelativeAsset
 

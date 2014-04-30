@@ -4,11 +4,20 @@ class_name: docs
 full_width: true
 ---
 
-##Static vs. Dynamic content
-The key thing to understand when using the Preview options is the difference between Static and Dynamic content.
+It is important to understand the difference between Static and Dynamic content when using the Preview menu options. Codio provides a configurable menu item for Dynamic/Server Side content (rightmost Codio menu) as well as Static content (second from the right).
 
-- **Static content** - this refers to your static HTML, CSS, JS and text content. You can use all 'Preview static' options on Static content only. If you try this on PHP files or server applications that listen on a Port (Ruby, Node etc.), you'll get a warning message that links through to this page.
-- **Dynamic content** - this refers to files that are executed on the server such as PHP files and server applications (Ruby, Node etc.) that listen on a port. To preview Dynamic content, you need to access your Box via a specific Port number (3000 by default but you can change this). You will want to use the 'Box URL' option for Dynamic content. Read below how to modify the Preview menu so you can access any pages with a single menu click rather than manually modifying the browser url.
+###Static content
+You can use 'Preview static' options on Static content only (HTML, CSS, JS and text).
+
+###Dynamic content
+To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the rightmost menu option. You can access your server side application in one of two ways
+
+- `word1-word2.codio.io:port` specify the port in the normal way
+- `word1-word2-port.codio.io` to access over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
+
+`word1-word2` is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports in the normal way, but please be aware than Codio supported a restricted range of ports. Please refer to [this section](/docs/boxes/ext-access) for more details.
+
+Read on for information on how to configure your Static and Dynamic preview menus.
 
 ##Instructions
 The Preview button lets you preview one or more web pages with a simple button press. Codio creates four default entries in the Preview menu automatically. 

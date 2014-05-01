@@ -20,12 +20,12 @@ This tutorial shows you how to create a Plone project and work with it in Codio.
 1. Run `curl -L http://goo.gl/5gwGgo | bash`
 
 You will see output similar to this:
-![](img/docs/ploneoutput.png)
+![](/img/docs/ploneoutput.png)
 
 ##Customize your Codio Project
 
 Next to the help menu you should see the "Configure" option, if you don't see it click the little arrow near the end and then select "Configure".
-![](img/docs/customisecodio.png)
+![](/img/docs/customisecodio.png)
 
 This opens a .codio file which you can customize. Replace the existing text with the text below:
 
@@ -51,10 +51,10 @@ Now you're all set, you can manage Plone from the Codio menu.
 ##Start and Set up of Plone
 You can start Plone using the Codio menu. You should now see options such as:
 Start Plone, Stop Plone, Debug Plone and Admin Password. 
-![](img/docs/codiomenu.png)
+![](/img/docs/codiomenu.png)
 
 To setup your first site "Start Plone" and wait about 20 seconds, make a note of your "Admin Password" and then select the "Dynamic Site" menu entry and click "Create a new Plone site". 
-![](img/docs/plonesite.png)
+![](/img/docs/plonesite.png)
 
 You should be good from there.
 

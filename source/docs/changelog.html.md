@@ -8,46 +8,27 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-####April 30th, 2014
-- **Feature**: Access your Codio Box over Port 80. [More information](/blog/2014/04/box-access-with-non-standard-ports/)
-- **Improvement**:New Dashboard. [More Information](/blog/2014/04/new-dashboard/)
-- **Feature**: Connect with BitBucket. [More Information](/blog/2014/04/connect-with-bitbucket/)
+####May 2nd, 2014
+- **Improvement**: Update Box Parts (Composer, OPAM, Python3)
 
-####April 23rd, 2014
-- **Fixed**: fixes for Full Screen mode
-
-####April 22nd, 2014
-- **Fixed**: reports of characters not correctly saving
-- **Feature**: Added Plone setup tutorial (thanks to [David Bain](http://blog.dbain.com/git2014/04/install-plone-in-under-5-minutes-on.html))
-
-####April 19th, 2014
-- **Fixed**: Handling of mixed line ending files
-- **Fixed**: Reports of html file corruption when reloading project
-
-####April 16th, 2014
-- **Feature**: [Multiple Cursor](/docs/ide/code-editor/multicursor/) support.
-
-####April 15th, 2014
-- **Improvement**: Improve searching for users when adding project permissions.
-- **Improvement**: Improved deployment to Codio deployment targets.
-
-####April 14th, 2014
-- **Improvement**: The empty project template is now actually empty.
-
-####April 11th, 2014
-- **Fixed**: reports of file content corruption when working on another machine left logged in overnight.
-
-####April 9th, 2014
-- **Fixed**: reports of Boxes stopping and Terminal losing connection.
-
-####April 7th, 2014
-- **Fixed**: some users reported some corruption of file if the same file was opened in more than one location with the same user account.
-
-####April 4th, 2014
-- **Improvement**: Improved mode switching for editing of Markdown files. [More information...](/blog/2014/04/improved-mode-switching/)
-
-####April 2nd, 2014
-- **Feature**: Automatic Auto-complete, [Dropbox Syncing](/docs/specifics/dropbox.html), rbenv rehash run automatically. [More information...](/blog/2014/04/auto-complete-dropbox-rbenv-rehash/)
+####April, 2014
+- **Feature**: (April 30th) Access your Codio Box over Port 80. [More information](/blog/2014/04/box-access-with-non-standard-ports/)
+- **Improvement**: (April 30th) New Dashboard. [More Information](/blog/2014/04/new-dashboard/)
+- **Feature**: (April 30th) Connect with BitBucket. [More Information](/blog/2014/04/connect-with-bitbucket/)
+- **Fixed**: (April 23rd) fixes for Full Screen mode
+- **Fixed**: (April 22nd) reports of characters not correctly saving
+- **Feature**: (April 22nd) Added Plone setup tutorial (thanks to [David Bain](http://blog.dbain.com/git2014/04/install-plone-in-under-5-minutes-on.html))
+- **Fixed**: (April 19th) Handling of mixed line ending files
+- **Fixed**: (April 19th) Reports of html file corruption when reloading project
+- **Feature**: (April 16th) [Multiple Cursor](/docs/ide/code-editor/multicursor/) support.
+- **Improvement**: (April 15th) Improve searching for users when adding project permissions.
+- **Improvement**: (April 15th) Improved deployment to Codio deployment targets.
+- **Improvement**: (April 14th) The empty project template is now actually empty.
+- **Fixed**: (April 11th) reports of file content corruption when working on another machine left logged in overnight.
+- **Fixed**: (April 9th) reports of Boxes stopping and Terminal losing connection.
+- **Fixed**: (April 7th) some users reported some corruption of file if the same file was opened in more than one location with the same user account.
+- **Improvement**: (April 4th) Improved mode switching for editing of Markdown files. [More information...](/blog/2014/04/improved-mode-switching/)
+- **Feature**: (April 2nd) Automatic Auto-complete, [Dropbox Syncing](/docs/specifics/dropbox.html), rbenv rehash run automatically. [More information...](/blog/2014/04/auto-complete-dropbox-rbenv-rehash/)
 
 ####March 2014
 - **Improvement**: (March 31st) Update File tree. [More information...](/blog/2014/03/new-file-tree/)

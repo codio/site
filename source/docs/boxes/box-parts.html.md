@@ -116,7 +116,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **cabal** (1.18.0.2) Cabal: A system for building and packaging Haskell libraries and programs   
 - **cloudfoundry** (v6.0.1) Cloud Foundry: An open CLI for managing cloud services
 - **cmake** (2.8.11.2) CMake: A cross-platform, open-source build system
-- **composer** (1.0.0-alpha8) Composer: PHP5 Dependency management
+- **composer** (1.0.0-20140501) Composer: PHP5 Dependency management
 - **dart** (1.2.0) Dart is a new platform for scalable web app engineering
 - **dropbox** (2.6.27) Dropbox: a cloud synchronization service.
 - **elasticsearch** (1.0.0) Elasticsearch: A flexible and powerful open source, distributed, real-time search and analytics engine 
@@ -147,7 +147,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **mysql** (5.6.15) MySQL: The world's most popular open-source relational database
 - **nginx** (1.4.4) The High Performance Reverse Proxy, Load Balancer, Edge Cache, Origin Server
 - **ocaml** (4.01.0) OCaml: an industrial strength programming language supporting functional, imperative and object-oriented styles
-- **opam** (1.1.1-1) OPAM: a source-based package manager for OCaml.
+- **opam** (1.1.1-20140502) OPAM: a source-based package manager for OCaml.
 - **openldap** (2.4.39) OpenLDAP: an open source implementation of the Lightweight Directory Access Protocol.
 - **phantomjs** (1.9.1) PhantomJS: A headless WebKit scriptable with a JavaScript API
 - **php5** php5 (5.5.10-2) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       
@@ -182,7 +182,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **pip** (1.5.4-2) Pip: A tool for installing and managing Python packages 
 - **postgresql** (9.2.4) PostgreSQL: The world's most advanced open-source database system
 - **python2** (2.7.6-2) Python 2: The most friendly Programming Language                                                                                     
-- **python3** (3.3.4-2) Python 3: Next generation of the most friendly Programming Language    
+- **python3** (3.4.0) Python 3: Next generation of the most friendly Programming Language    
 - **r_base** (3.0.3) R: A free software programming language and software environment for statistical computing and graphics
 - **rabbitmq** (3.2.3) AMQP server written in Erlang
 - **redis** (2.6.16) Redis: An open-source, in-memory, key-value data store

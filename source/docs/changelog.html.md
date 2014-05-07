@@ -8,7 +8,10 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-####May 5th 2014
+####May 6th, 2014
+- **Fixed**: fixes for terminal using Firefox
+
+####May 5th, 2014
 - **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
 - **Improvement**: reports of IDE freezing.
 - **Fixed**: reports of linting not working correctly.

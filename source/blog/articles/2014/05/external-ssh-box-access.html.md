@@ -18,3 +18,5 @@ Right now, we only allow authentication via good old SSH keys - which you should
 You can now connect via SSH to your Codio Box using the unique SSH URL that your project has been assigned. You can find this in the welcome message of your Codio Terminal, or from the new Project Info dialog. This new dialog can be accessed via the `Project > Box Info` menu item.
 
 Any questions? [Drop us a line](mailto:help@codio.com).
+
+Documentation can be found [here](/docs/boxes/ssh-access)

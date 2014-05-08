@@ -7,7 +7,18 @@ full_width: true
 To access your Box via SSH, you should follow these steps.
 
 ##Generating Key Pairs
-We will be updating this document shortly with full details. In the meantime, please look for information on Google.
+There are several sites that explain generating SSH keys well.
+
+
+
+- Windows: [http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/](http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/)
+
+
+- Mac : [https://help.github.com/articles/generating-ssh-keys#platform-mac](https://help.github.com/articles/generating-ssh-keys#platform-mac)
+
+
+- Linux: [https://help.github.com/articles/generating-ssh-keys#platform-linux](https://help.github.com/articles/generating-ssh-keys#platform-linux)
+
 
 ##Find your local SSH Public Key
 This is pretty easy to do. On a Mac or Linux box you can get your public key in one of two ways
@@ -24,15 +35,18 @@ You need to upload the public key you just found in the above steps. Once you ha
 You can find your SSH URL in one of two ways
 
 1. Open up a new terminal window. The Terminal will show something like this
+
+    ![ssh terminal](/img/docs/sshterminal.png)
+    
 1. Select the 'Project->Box Info' menu item and the dialog will show you your SSH connection deails.
 
 In both cases, you should see connection details like this
 
-`External ssh connection: ssh://codio@ssh1.codio.com:19450`
+`External ssh connection: ssh://codio@ssh1.codio.com:29119`
 
 You can now connect to your Box from any Terminal window using (in the above example)
 
-`ssh codio@ssh1.codio.com -p 19450`
+`ssh codio@ssh1.codio.com -p 29119`
 
 If you get a message `Permission denied (publickey)` then you have not uploaded your SSH Public Key correctly.
 

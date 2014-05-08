@@ -3,6 +3,7 @@ box-parts
 ext-access
 sleep
 run
+ssh-access
 ssh
 workspace
 restart-reset

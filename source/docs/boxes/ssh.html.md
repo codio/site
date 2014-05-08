@@ -1,9 +1,10 @@
 ---
-title: "SSH Keys"
+title: "Codio Box SSH Keys"
 class_name: docs
 full_width: true
 ---
 
+For information on how to SSH into your Codio Box from outside, [please read this section](/docs/boxes/ssh-access).
 
 Codio manages SSH keys for you. Your Codio account will generate a key-pair and can be found in the IDE as [described here](/docs/settings-prefs/account-settings/public-key). 
 

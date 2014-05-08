@@ -11,16 +11,9 @@ Until we have Always On Boxes (coming as soon as we can get them to you) you wil
 ##Generating Key Pairs
 There are several sites that explain generating SSH keys well.
 
-
-
 - Windows: [http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/](http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/)
-
-
 - Mac : [https://help.github.com/articles/generating-ssh-keys#platform-mac](https://help.github.com/articles/generating-ssh-keys#platform-mac)
-
-
 - Linux: [https://help.github.com/articles/generating-ssh-keys#platform-linux](https://help.github.com/articles/generating-ssh-keys#platform-linux)
-
 
 ##Find your local SSH Public Key
 This is pretty easy to do. On a Mac or Linux box you can get your public key in one of two ways

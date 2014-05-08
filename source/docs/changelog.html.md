@@ -8,6 +8,10 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###May 8th, 2014
+- **Feature**: Enabled External SSH Box Access. [More information...](/blog/2014/05/external-ssh-box-access/)
+- **Fixed**: Remote Server access via SSH
+
 ####May 7th, 2014
 - **Feature**: Fast Panel Switching. [More information...](/blog/2014/05/quick-panel-switching/)
 

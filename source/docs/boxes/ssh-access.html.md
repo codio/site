@@ -9,9 +9,9 @@ To access your Box via SSH, you should follow the steps below.
 Until we have Always On Boxes (coming as soon as we can get them to you) you will have to have your Codio Project open in order for the Box to be started and ready to receive incoming SSH connections.
 
 ##Generating Key Pairs
-There are several sites that explain generating SSH keys well.
+There are several sites that explain generating SSH keys well. 
 
-- Windows: [http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/](http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/)
+- Windows: [http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/](http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/). Please note that for Windows, you should generate SSH2 RSA key type
 - Mac : [https://help.github.com/articles/generating-ssh-keys#platform-mac](https://help.github.com/articles/generating-ssh-keys#platform-mac)
 - Linux: [https://help.github.com/articles/generating-ssh-keys#platform-linux](https://help.github.com/articles/generating-ssh-keys#platform-linux)
 

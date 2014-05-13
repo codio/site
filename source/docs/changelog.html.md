@@ -10,6 +10,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ###May 13th, 2014
 - **Improvement**: Uploading of Public Keys to GitHub & BitBucket
+- **Fixed**: reports of startup.sh not running if terminal tab not open when project closed
+- **Fixed**: reports of errors in terminal when opening project where the terminal tab was open when project was previously closed
 
 ###May 8th, 2014
 - **Feature**: Enabled External SSH Box Access. [More information...](/blog/2014/05/external-ssh-box-access/)

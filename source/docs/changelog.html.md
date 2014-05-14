@@ -9,7 +9,7 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 ###May 13th, 2014
-- **Improvement**: Uploading of Public Keys to GitHub & BitBucket
+- **Feature**: Uploading of Public Keys to GitHub & BitBucket. [More information...](/blog/2014/05/upload-ssh-public-key-to-github-bitbucket/)
 - **Fixed**: reports of startup.sh not running if terminal tab not open when project closed
 - **Fixed**: reports of errors in terminal when opening project where the terminal tab was open when project was previously closed
 

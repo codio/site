@@ -23,12 +23,14 @@ If you want to get your Codio public key onto a remote server, just press the Up
 
 ![SSH Upload](/img/docs/prefs-account-ssh-dialog.png)
 
-##Adding your public key to GitHub
-If you are working with GitHub, then you need to install the public key. Firstly, locate your settings by pressing the 'Edit your profile' button.
+##Adding your public key to GitHub or BitBucket
+If you are working with GitHub or BitBucket, then you need to install the public key. Codio makes this very easy for you. Goto 'Codio>Account' and select GitHub or BitBucket tab and select 'Upload your public key to GitHub/BitBucket'
 
-![github setting](/img/docs/git-edit-profile.png)
+![SSH Public](/img/docs/prefs-account-gh1.png)
 
-Next, copy the public key to the clipboard. Then locate the 'SSH Keys' option and add a new SSH key, pasting the public key in.
+You will be redirected to your GitHub/BitBucket account and asked to authorise the application
 
-![github public key](/img/docs/git-ssh.png)
+![SSH Auth](/img/docs/prefs-account-ghauth.png)
+
+On accepting this you will then be redirected back to your Codio account.
 

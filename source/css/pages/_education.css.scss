@@ -1,18 +1,87 @@
 body.education {
     
-  header .container > div:first-child h1 span:nth-child(1) {
-    font-size: 76px;
+  header {
+/*     background: linear-gradient(rgba(23, 22, 23, 0.3), rgba(23, 22, 23, 0.3)), url(http://www.radoslavholan.cz/images/bg.jpg) center center; */
+/*     background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), url(http://danielfiller.com/wp-content/themes/portfolio/imgs/bg_header-home_v2.jpg) 0 79px; */
+    background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), url(http://michaelbrant.com/wp-content/uploads/2012/06/photodune-907221-css3-code-m.jpg);
+    background-size: 100%;
+    color: #fff;
+    
+    .container {
+      h1 {
+/*         margin: 85px 0 0 50px; */
+        text-align: center;
+        width: 530px;
+        
+        margin: 85px 0 0 600px;
+
+        
+        span {
+          text-shadow: 0px 1px 3px #888;
+          line-height: 0.9em !important;
+
+          &:nth-child(1) {
+            font: 76px gotham_thin;
+            text-transform: lowercase;
+          }
+
+          &:nth-child(2) {
+            font: 76px gotham_bold;
+            letter-spacing: -9px;
+            padding-right: 10px;
+          }
+
+          &:nth-child(3) {
+            font: 54px gotham_thin;
+            text-transform: lowercase;
+          }
+          
+          &:nth-child(4) {
+            font: 94px gotham_thin;
+            display: block;
+          }
+          
+          &:nth-child(5) {
+            font: 94px gotham_black;
+          }
+          
+          &:nth-child(6) {
+            font: 64px gotham_medium;
+            letter-spacing: -7px;
+            padding-left: 200px;
+          }
+        }
+      }
+      
+      div {
+        font: 23px 'Indie Flower';
+        margin: 4px 0 0 -3px;
+/*         top: 180px; */
+        top: 250px;
+        left: 71px;
+        text-align: right;
+/*         left: 600px; */
+        position: absolute;
+
+        @include apply-to(more-than, desktop) {
+          margin: 4px 0 0 75px;
+          font-size: 26px;
+        }
+
+        a {
+          border-bottom: 1px solid $linkColor;
+
+          &:hover {
+            border-bottom: 1px solid black;
+          }
+        }
+        
+        strong {
+          color: $linkColor;
+        }
+      }
+    }
   }
-  header .container > div:first-child h1 span:nth-child(2) {
-    font-size: 63px;
-  }
-  header .container > div:first-child h1 span:nth-child(3) {
-    font-size: 85px;
-  }  
-  
-  header .container > div:first-child > div {
-    margin-left:10px;
-  }    
   
   @import '../partials/education/sections';
 }

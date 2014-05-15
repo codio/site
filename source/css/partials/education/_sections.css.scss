@@ -1,9 +1,44 @@
 section {
   
   &#frontback {
-    .container > div div:nth-child(2) {
-      position: relative;
-      top: -88px;
+    .container > div {
+      h2 {
+        font: 34px gotham_medium;
+        border-bottom: 1px solid #f36050;
+        padding-bottom: 5px;
+      }
+      
+      div:nth-child(2) {
+        position: relative;
+        top: -88px;
+      }
+    }
+  }
+  
+    
+  &#languages .container > div {
+    div:first-child ul li {
+      background: transparent;
+      
+      &.active, &:hover {
+        background: #eee;
+        
+        a {
+          color: #f36050;
+        }
+      }
+      
+      a {
+        text-indent: 0;
+        text-align: right;
+        width: inherit;
+        height: inherit;
+        padding: 10px;
+        font: 16px gotham_book;
+        line-height: 1.4em;
+        float: inherit;
+        color: #0074C7;
+      }
     }
   }
   

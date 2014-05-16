@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###May 16th, 2014
+- **Update**: Updated to latest version of CodeMirror (4.1)
+
 ###May 15th, 2014
 - **Fixed**: reports of filetree not updating
 

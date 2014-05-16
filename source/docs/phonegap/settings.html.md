@@ -12,7 +12,7 @@ Depending on the Phonegap:Build account plan you have, you can build a number of
 
 ##Enable Debug
 
-Checking this box enables Phonegap Build debugging to allow you to use standard Web Inspector tools available from the PhoneGap Build site to debug PhoneGap apps while they are running on your device. 
+Checking this box enables Phonegap Build debugging to allow you to use standard Web Inspector tools available from the PhoneGap Build site to debug PhoneGap apps while they are running on your device.
 
 For more information on this see [Remote Debugging Tools](http://docs.build.phonegap.com/en_US/debugging_remote_debugging_tools.md.html#Remote%20Debugging%20Tools)
 

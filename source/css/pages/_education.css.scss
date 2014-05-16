@@ -84,5 +84,23 @@ body.education {
     }
   }
   
+  
+  @mixin screenie {
+    > div {
+      background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
+      background-size: 60%;
+      padding: 100px 0 46px 300px;
+      width: 380px;
+
+      @include apply-to(more-than, desktop) {
+        background-size: 41%;
+        padding-left: 30px;
+        width: 524px;
+        padding-bottom: 110px;
+      }
+    }
+  }
+  
+  
   @import '../partials/education/sections';
 }

@@ -42,4 +42,190 @@ section {
     }
   }
   
+  &#boxes {
+    background: #fff;
+  }
+  
+  &#access {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/panels.png') no-repeat -121px center;
+      background-size: 54%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -8px center;
+        background-size: 46%;
+        margin-left: 70px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 11px;
+        padding: 130px 0 130px 520px;
+        width: 460px;
+
+        @include apply-to(more-than, desktop) {
+          width: 500px;
+          background-size: 12px;
+          padding: 130px 0 130px 595px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }
+      }
+    }
+  }
+  
+  &#classes {
+    background: #fff;
+    
+    .container {
+      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
+      background-size: 437px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 794px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 14px;
+        padding: 90px 280px 90px 0;
+        width: 750px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 120px 474px 120px 0;
+        }
+        
+        div {
+          padding: 0 70px;
+        }
+      }
+    }
+  }
+  
+  &#courses {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/panels.png') no-repeat -121px center;
+      background-size: 54%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -8px center;
+        background-size: 46%;
+        margin-left: 70px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 11px;
+        padding: 130px 0 130px 520px;
+        width: 460px;
+
+        @include apply-to(more-than, desktop) {
+          width: 500px;
+          background-size: 12px;
+          padding: 130px 0 130px 595px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }
+      }
+    }
+  }
+  
+  &#lingos {
+    background: #fff;
+    
+    .container {
+      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
+      background-size: 437px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 794px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 14px;
+        padding: 90px 280px 90px 0;
+        width: 750px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 120px 474px 120px 0;
+        }
+        
+        div {
+          padding: 0 70px;
+        }
+      }
+    }
+  }
+  
+  &#annotations {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/panels.png') no-repeat -121px center;
+      background-size: 54%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -8px center;
+        background-size: 46%;
+        margin-left: 70px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 11px;
+        padding: 130px 0 130px 520px;
+        width: 460px;
+
+        @include apply-to(more-than, desktop) {
+          width: 500px;
+          background-size: 12px;
+          padding: 130px 0 130px 595px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }
+      }
+    }
+  }
+  
 }

@@ -30,4 +30,4 @@ $ ->
     }, 250, 'linear'
     actionEle.transition {x: 0}, 500, 'ease'
 
-  setInterval transit, 5000
+  setInterval transit, 4000

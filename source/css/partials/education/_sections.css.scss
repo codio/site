@@ -92,11 +92,11 @@ section {
     background: #fff;
     
     .container {
-      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
-      background-size: 437px;
+      background: transparent image-url("home/screens/classes.png") no-repeat 694px;
+      background-size: 551px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 794px;
+        background-position: 694px;
       }
 
       > div {
@@ -119,7 +119,7 @@ section {
   &#courses {
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/panels.png') no-repeat -121px center;
+      background: transparent image-url('home/screens/courses.png') no-repeat -121px center;
       background-size: 54%;
 
       @include apply-to(more-than, desktop) {
@@ -162,7 +162,7 @@ section {
     background: #fff;
     
     .container {
-      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
+      background: transparent image-url("home/screens/home-parts.png") no-repeat 718px;
       background-size: 437px;
 
       @include apply-to(more-than, desktop) {
@@ -170,8 +170,7 @@ section {
       }
 
       > div {
-        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-        background-size: 14px;
+
         padding: 90px 280px 90px 0;
         width: 750px;
 
@@ -189,7 +188,7 @@ section {
   &#annotations {
     .container > div {
       @include screenie;
-      background: transparent image-url('home/screens/panels.png') no-repeat -121px center;
+      background: transparent image-url('home/screens/annotations-edu.png') no-repeat -121px center;
       background-size: 54%;
 
       @include apply-to(more-than, desktop) {
@@ -227,5 +226,33 @@ section {
       }
     }
   }
+  
+  &#cloning {
+    background: #fff;
+    
+    .container {
+      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
+      background-size: 437px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 794px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 14px;
+        padding: 90px 280px 90px 0;
+        width: 750px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 120px 474px 120px 0;
+        }
+        
+        div {
+          padding: 0 70px;
+        }
+      }
+    }
+  }  
   
 }

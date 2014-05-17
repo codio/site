@@ -55,18 +55,16 @@ body.education {
       }
       
       div {
-        font: 23px 'Indie Flower';
+        font: 38px 'Indie Flower';
+        top: 184px;
+        left: 71px;        
         margin: 4px 0 0 -3px;
-/*         top: 180px; */
-        top: 250px;
-        left: 71px;
         text-align: right;
-/*         left: 600px; */
         position: absolute;
 
         @include apply-to(more-than, desktop) {
           margin: 4px 0 0 75px;
-          font-size: 26px;
+          font-size: 38px;
         }
 
         a {

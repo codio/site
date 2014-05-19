@@ -14,7 +14,7 @@ Certificates are a necessary evil for your Apps.
 To build and test, you don't need to do anything. You can leave the field empty . If you want to deploy a codesigned App, which you will need to deploy via Google Play, then you need to generate a proper Certificate. 
 
 ##iOS
-Apple requires both a Codesigning Certificate and a so called Mobile Provisioning Profile. You need different ones for development and for App Store deployment.
+Apple requires both a Codesigning Certificate and a Mobile Provisioning Profile. You need different ones for development and for App Store deployment.
 
 ##Windows
 **todo check Windows publisher id**

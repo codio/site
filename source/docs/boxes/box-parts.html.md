@@ -111,12 +111,13 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **apache2_mod_wsgi** (3.4) Apache 2 WSGI module: an Apache module that provides a WSGI compliant interface for hosting Python based web applications within Apache.
 - **apr** (1.5.0) Apache Portable Runtime: Software libraries that provide a predictable and consistent interface to underlying platform-specific implementations
 - **apr_util** (1.5.3) Apache Portable Runtime Utilities: Utilities that provide a predictable and consistent interface to underlying platform-specific implementations
-- **aspcud** (1.9.0) Aspcud: an experimental solver for package dependencies. A package universe and a request to install, remove or  upgrade packages have to be encoded in the CUDF format.
+- **aspcud** (1.9.0-1) Aspcud: an experimental solver for package dependencies. A package universe and a request to install, remove or  upgrade packages have to be encoded in the CUDF format.
 - **beanstalkd** (1.9) Beanstalk: A simple, fast work queue.
 - **berkeley_db** (6.0.30) Berkeley DB: a software library that provides a high-performance embedded database for key/value data.
 - **bison** (3.0.2) Bison: a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.
 - **boost** (1.55.0) Boost: a free peer-reviewed portable C++ source libraries.
-- **cabal** (1.18.0.2) Cabal: A system for building and packaging Haskell libraries and programs   
+- **cabal** (1.18.0.2) Cabal: A system for building and packaging Haskell libraries and programs.
+- **clasp** (3.0.4) Clasp: an answer set solver for (extended) normal and disjunctive logic programs.
 - **cloudfoundry** (v6.0.1) Cloud Foundry: An open CLI for managing cloud services
 - **cmake** (2.8.11.2) CMake: A cross-platform, open-source build system
 - **composer** (1.0.0-20140501) Composer: PHP5 Dependency management
@@ -132,9 +133,11 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **ghc** (7.6.3) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell
 - **gitflow** (0.4.1) Gitflow: a collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 - **glib** (2.40.0) GLib: a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a mainloop abstraction, and so on.
+- **gmp** (6.0.0) GMP: a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.
 - **go-lang** (1.2) Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 - **googleappengine** (1.9.0) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
 - **grails** (2.3.7) Grails: an Open Source, full stack, web application framework for the JVM.
+- **gringo** (4.3.0) Gringo: a grounder that, given an input program with first-order variables, computes an equivalent ground (variable-free) program.
 - **groovy** (2.2.2) Groovy: an agile and dynamic language for the Java Virtual Machine
 - **haskell-platform** (2.0.0) Haskell is an advanced purely-functional programming language.
 - **heroku-cli** (3.3.0) The Heroku CLI is used to manage Heroku apps from the command line.
@@ -157,7 +160,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **ncurses** (5.9) Ncurses: a free software emulation of curses in System V Release 4.0, and more.
 - **nginx** (1.4.4) The High Performance Reverse Proxy, Load Balancer, Edge Cache, Origin Server
 - **ocaml** (4.01.0) OCaml: an industrial strength programming language supporting functional, imperative and object-oriented styles
-- **opam** (1.1.1-20140502) OPAM: a source-based package manager for OCaml.
+- **opam** (1.1.1-20140519) OPAM: a source-based package manager for OCaml.
 - **openldap** (2.4.39) OpenLDAP: an open source implementation of the Lightweight Directory Access Protocol.
 - **phantomjs** (1.9.1) PhantomJS: A headless WebKit scriptable with a JavaScript API
 - **php5** php5 (5.5.10-2) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       
@@ -201,6 +204,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **rust** (0.9) Rust: A safe, concurrent, practical language
 - **s3cmd** (1.0.1-1) s3cmd: Command line tool for managing Amazon S3 and CloudFront services
 - **scala** (2.10.3) Scala: An object-functional programming language
+- **scons** (2.3.1) SCons: an Open Source software construction tool—that is, a next-generation build tool.
 - **setuptools** (2.2-2) Setuptools: Easily download, build, install, upgrade, and uninstall Python packages
 - **slang** (2.2.4) Slang: a multi-platform programmer's library designed to allow a developer to create robust multi-platform software.
 - **sqlite3** (3.8.2) SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.

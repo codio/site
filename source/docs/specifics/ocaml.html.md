@@ -19,16 +19,14 @@ full_width: true
 ## 3. Write some Code
 From the 'File->New File' menu, create a new file called `hello.ml` and write the worlds most simple OCaml application.
 
-```
-// Output "Hello world!" 
-print_string "Hello world!\n";;
-```
+    // Output "Hello world!" 
+    print_string "Hello world!\n";;
 
 ## 4. Compile it
 From the terminal, enter ...
-```
-ocamlc -o hello hello.ml
-```
+
+    ocamlc -o hello hello.ml
+
 
 ## 4. Marvel at your work
 Let's run our recently compiled application ...

@@ -31,3 +31,16 @@ $ ->
     actionEle.transition {x: 0}, 500, 'ease'
 
   setInterval transit, 4000
+  
+
+  # Language selector
+  $('#languages li a').on 'click', ->
+      ele = $(@)
+      iframe = $('#languages iframe')
+      src = iframe.attr('src').replace /[0-9]+/, (ele.attr('href').replace('#', '') || '123')
+      iframe.attr 'src', src
+
+      ele.parents('ul').find('li').removeClass 'active'
+      ele.parent().addClass 'active'
+
+      false

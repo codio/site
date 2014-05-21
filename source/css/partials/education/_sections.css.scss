@@ -1,0 +1,323 @@
+section {
+  
+  .links-big {
+    padding-top: 40px;
+  }
+  
+  &#frontback {
+    .container > div {
+      padding: 71px 0 70px;
+      
+      @include apply-to(more-than, desktop) {
+        padding: 71px 60px 70px 72px;
+      }
+      
+      h2 {
+        font: 32px gotham_medium;
+        border-bottom: 1px solid #f36050;
+        padding-bottom: 5px;
+        
+        @include apply-to(more-than, desktop) {
+          font-size: 34px;
+        }
+      }
+      
+      p {
+        font-size: 16px;
+        
+        @include apply-to(more-than, desktop) {
+          font-size: 18px;
+        }
+      }
+      
+      div:nth-child(2) {
+        position: relative;
+        top: -102px;
+        padding: 0 35px;
+        
+        @include apply-to(more-than, desktop) {
+          top: -88px;
+        }
+        
+        a {
+          display: block;
+        }
+      }
+    }
+  }
+      
+  &#languages .container > div {
+    div:first-child ul li {
+      background: transparent;
+      
+      &.active, &:hover {
+        background: #eee;
+        
+        a {
+          color: #f36050;
+        }
+      }
+      
+      a {
+        text-indent: 0;
+        text-align: right;
+        width: inherit;
+        height: inherit;
+        padding: 10px;
+        font: 16px gotham_book;
+        line-height: 1.4em;
+        float: inherit;
+        color: #0074C7;
+      }
+    }
+  }
+  
+  &#boxes {
+    background: #fff;
+    
+    .container {
+      background-position: 750px 110px;
+      background-size: 300px;
+      
+      @include apply-to(more-than, desktop) {
+        background-position: 840px 110px;
+      }
+      
+      > div {
+        padding: 100px 330px 90px 20px;
+        width: 630px;
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+          
+        @include apply-to(more-than, desktop) {
+          padding: 100px 0px 90px 20px;
+          background: none; 
+        }
+      }
+    }
+  }
+  
+  &#access {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/panels.png') no-repeat -121px center;
+      background-size: 59%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -8px center;
+        background-size: 46%;
+        margin-left: 70px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 12px;
+        padding: 130px 0 130px 520px;
+        width: 460px;
+
+        @include apply-to(more-than, desktop) {
+          width: 500px;
+          padding: 130px 0 130px 595px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }
+      }
+    }
+  }
+  
+  &#classes {
+    background: #fff;
+    
+    .container {
+      background: transparent image-url("home/screens/classes.png") no-repeat 502px;
+      background-size: 540px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 636px;
+        background-size: 551px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        background-size: 14px;
+        padding: 110px 520px 110px 0;
+        width: 460px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 140px 657px 140px 0;
+          width: 530px;
+        }
+        
+        div {
+          padding: 0;
+          
+          @include apply-to(more-than, desktop) {
+            padding: 0 0 0 70px;
+          }
+        }
+      }
+    }
+  }
+  
+  &#courses {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/courses.png') no-repeat -121px center;
+      background-size: 66%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -108px center;
+        background-size: 58%;
+        margin-left: 70px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 12px;
+        padding: 90px 0 90px 560px;
+        width: 420px;
+
+        @include apply-to(more-than, desktop) {
+          width: 490px;
+          background-size: 13px;
+          padding: 130px 0 130px 610px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }
+      }
+    }
+  }
+  
+  &#lingos {
+    background: #fff;
+    
+    .container {
+      background: transparent image-url("home/screens/home-parts.png") no-repeat 769px;
+      background-size: 412px;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 788px;
+      }
+
+      > div {
+        padding: 90px 280px 90px 0;
+        width: 700px;
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right 82px;
+        background-size: 15px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 110px 474px 100px 0;
+          width: 750px;
+          background: none;
+        }
+        
+        div {
+          padding: 0;
+          
+          @include apply-to(more-than, desktop) {
+            padding: 0 0 0 70px;
+          }
+        }
+      }
+    }
+  }
+  
+  &#annotations {
+    .container > div {
+      @include screenie;
+      background: transparent image-url('home/screens/annotations-edu.png') no-repeat -121px center;
+      background-size: 62%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: -8px center;
+        background-size: 56%;
+        margin-left: 70px;
+      }
+
+      > div {
+        background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
+        background-size: 11px;
+        padding: 130px 0 130px 580px;
+        width: 400px;
+
+        @include apply-to(more-than, desktop) {
+          background-size: 12px;
+          padding: 150px 0 140px 722px;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0 0;
+
+          @include apply-to(more-than, desktop) {
+            margin-top: 30px;
+          }
+
+          li {
+            display: inline-block;
+            margin-right: 15px
+          }
+        }
+      }
+    }
+  }
+  
+  &#cloning {
+    background: #fff;
+    
+    .container {
+      background: transparent image-url("git_logo.png") no-repeat 715px 96px;
+      background-size: 27%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 840px;
+        background-size: 289px;
+      }
+
+      > div {
+        padding: 90px 315px 90px 0;
+        width: 665px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 90px 430px 100px 0;
+          width: 794px;
+        }
+        
+        div {
+          padding: 0;
+          
+          @include apply-to(more-than, desktop) {
+            padding: 0 0 0 70px;
+          }
+        }
+      }
+    }
+  }  
+  
+}

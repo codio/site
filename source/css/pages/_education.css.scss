@@ -1,20 +1,19 @@
 body.education {
     
   header {
-/*     background: linear-gradient(rgba(23, 22, 23, 0.3), rgba(23, 22, 23, 0.3)), url(http://www.radoslavholan.cz/images/bg.jpg) center center; */
-/*     background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), url(http://danielfiller.com/wp-content/themes/portfolio/imgs/bg_header-home_v2.jpg) 0 79px; */
-    background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), url(http://michaelbrant.com/wp-content/uploads/2012/06/photodune-907221-css3-code-m.jpg);
+    background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), image-url('code-education-bg.jpg');
     background-size: 100%;
     color: #fff;
     
     .container {
       h1 {
-/*         margin: 85px 0 0 50px; */
         text-align: center;
-        width: 530px;
+        width: 530px;       
+        margin: 85px 0 0 450px;
         
-        margin: 85px 0 0 600px;
-
+        @include apply-to(more-than, desktop) {
+          margin-left: 610px;
+        }
         
         span {
           text-shadow: 0px 1px 3px #888;
@@ -55,16 +54,16 @@ body.education {
       }
       
       div {
-        font: 38px 'Indie Flower';
+        font: 30px 'Indie Flower';
         top: 184px;
-        left: 71px;        
         margin: 4px 0 0 -3px;
         text-align: right;
         position: absolute;
 
         @include apply-to(more-than, desktop) {
-          margin: 4px 0 0 75px;
-          font-size: 38px;
+          margin: 18px 0 0 50px;
+          font-size: 32px;
+          left: 71px;
         }
 
         a {

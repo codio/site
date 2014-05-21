@@ -1,21 +1,51 @@
 section {
   
+  .links-big {
+    padding-top: 40px;
+  }
+  
   &#frontback {
     .container > div {
+      padding: 71px 0 70px;
+      
+      @include apply-to(more-than, desktop) {
+        padding: 71px 60px 70px 72px;
+      }
+      
       h2 {
-        font: 34px gotham_medium;
+        font: 32px gotham_medium;
         border-bottom: 1px solid #f36050;
         padding-bottom: 5px;
+        
+        @include apply-to(more-than, desktop) {
+          font-size: 34px;
+        }
+      }
+      
+      p {
+        font-size: 16px;
+        
+        @include apply-to(more-than, desktop) {
+          font-size: 18px;
+        }
       }
       
       div:nth-child(2) {
         position: relative;
-        top: -88px;
+        top: -102px;
+        padding: 0 35px;
+        
+        @include apply-to(more-than, desktop) {
+          top: -88px;
+        }
+        
+        a {
+          display: block;
+        }
       }
     }
   }
-  
-    
+      
   &#languages .container > div {
     div:first-child ul li {
       background: transparent;
@@ -44,13 +74,33 @@ section {
   
   &#boxes {
     background: #fff;
+    
+    .container {
+      background-position: 750px 110px;
+      background-size: 300px;
+      
+      @include apply-to(more-than, desktop) {
+        background-position: 840px 110px;
+      }
+      
+      > div {
+        padding: 100px 330px 90px 20px;
+        width: 630px;
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+          
+        @include apply-to(more-than, desktop) {
+          padding: 100px 0px 90px 20px;
+          background: none; 
+        }
+      }
+    }
   }
   
   &#access {
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/panels.png') no-repeat -121px center;
-      background-size: 54%;
+      background-size: 59%;
 
       @include apply-to(more-than, desktop) {
         background-position: -8px center;
@@ -60,13 +110,12 @@ section {
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 11px;
+        background-size: 12px;
         padding: 130px 0 130px 520px;
         width: 460px;
 
         @include apply-to(more-than, desktop) {
           width: 500px;
-          background-size: 12px;
           padding: 130px 0 130px 595px;
         }
 
@@ -92,25 +141,31 @@ section {
     background: #fff;
     
     .container {
-      background: transparent image-url("home/screens/classes.png") no-repeat 694px;
-      background-size: 551px;
+      background: transparent image-url("home/screens/classes.png") no-repeat 502px;
+      background-size: 540px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 694px;
+        background-position: 636px;
+        background-size: 551px;
       }
 
       > div {
         background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
         background-size: 14px;
-        padding: 90px 280px 90px 0;
-        width: 750px;
+        padding: 110px 520px 110px 0;
+        width: 460px;
 
         @include apply-to(more-than, desktop) {
-          padding: 120px 474px 120px 0;
+          padding: 140px 657px 140px 0;
+          width: 530px;
         }
         
         div {
-          padding: 0 70px;
+          padding: 0;
+          
+          @include apply-to(more-than, desktop) {
+            padding: 0 0 0 70px;
+          }
         }
       }
     }
@@ -120,24 +175,24 @@ section {
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/courses.png') no-repeat -121px center;
-      background-size: 54%;
+      background-size: 66%;
 
       @include apply-to(more-than, desktop) {
-        background-position: -8px center;
-        background-size: 46%;
+        background-position: -108px center;
+        background-size: 58%;
         margin-left: 70px;
       }
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
-        background-size: 11px;
-        padding: 130px 0 130px 520px;
-        width: 460px;
+        background-size: 12px;
+        padding: 90px 0 90px 560px;
+        width: 420px;
 
         @include apply-to(more-than, desktop) {
-          width: 500px;
-          background-size: 12px;
-          padding: 130px 0 130px 595px;
+          width: 490px;
+          background-size: 13px;
+          padding: 130px 0 130px 610px;
         }
 
         ul {
@@ -162,24 +217,31 @@ section {
     background: #fff;
     
     .container {
-      background: transparent image-url("home/screens/home-parts.png") no-repeat 718px;
-      background-size: 437px;
+      background: transparent image-url("home/screens/home-parts.png") no-repeat 769px;
+      background-size: 412px;
 
       @include apply-to(more-than, desktop) {
-        background-position: 794px;
+        background-position: 788px;
       }
 
       > div {
-
         padding: 90px 280px 90px 0;
-        width: 750px;
+        width: 700px;
+        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right 82px;
+        background-size: 15px;
 
         @include apply-to(more-than, desktop) {
-          padding: 120px 474px 120px 0;
+          padding: 110px 474px 100px 0;
+          width: 750px;
+          background: none;
         }
         
         div {
-          padding: 0 70px;
+          padding: 0;
+          
+          @include apply-to(more-than, desktop) {
+            padding: 0 0 0 70px;
+          }
         }
       }
     }
@@ -189,24 +251,23 @@ section {
     .container > div {
       @include screenie;
       background: transparent image-url('home/screens/annotations-edu.png') no-repeat -121px center;
-      background-size: 54%;
+      background-size: 62%;
 
       @include apply-to(more-than, desktop) {
         background-position: -8px center;
-        background-size: 46%;
+        background-size: 56%;
         margin-left: 70px;
       }
 
       > div {
         background: transparent image-url('home/screens/shadow-y.png') no-repeat 0 center;
         background-size: 11px;
-        padding: 130px 0 130px 520px;
-        width: 460px;
+        padding: 130px 0 130px 580px;
+        width: 400px;
 
         @include apply-to(more-than, desktop) {
-          width: 500px;
           background-size: 12px;
-          padding: 130px 0 130px 595px;
+          padding: 150px 0 140px 722px;
         }
 
         ul {
@@ -231,25 +292,29 @@ section {
     background: #fff;
     
     .container {
-      background: transparent image-url("home/screens/panels.png") no-repeat 718px;
-      background-size: 437px;
+      background: transparent image-url("git_logo.png") no-repeat 715px 96px;
+      background-size: 27%;
 
       @include apply-to(more-than, desktop) {
-        background-position: 794px;
+        background-position: 840px;
+        background-size: 289px;
       }
 
       > div {
-        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
-        background-size: 14px;
-        padding: 90px 280px 90px 0;
-        width: 750px;
+        padding: 90px 315px 90px 0;
+        width: 665px;
 
         @include apply-to(more-than, desktop) {
-          padding: 120px 474px 120px 0;
+          padding: 90px 430px 100px 0;
+          width: 794px;
         }
         
         div {
-          padding: 0 70px;
+          padding: 0;
+          
+          @include apply-to(more-than, desktop) {
+            padding: 0 0 0 70px;
+          }
         }
       }
     }

@@ -10,7 +10,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ###May 21st, 2014
 - **Update**: Updated to latest version of CodeMirror (4.2)
-- **Update**: Tutorials updated for latest versions of Symfony (2.4.4), Drupal (7.28), Joomla (3.3.0)
+- **Update**: Tutorial Docs updated for latest versions of Symfony (2.4.4), Drupal (7.28), Joomla (3.3.0)
 
 ###May 19th, 2014
 - **Feature**: New [Box Parts](/docs/boxes/box-parts) added.

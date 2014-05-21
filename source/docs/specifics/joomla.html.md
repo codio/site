@@ -13,11 +13,11 @@ Joomla is quickly installed with Codio. Just follows these steps and you should 
 
 ##Download from the Joomla site
 
-1. Check the [Joomla website](http://joomlacode.org/gf/project/joomla/frs) to see what the latest **Full Package** release version is. At the time of writing, it is 3.2.3.
+1. Check the [Joomla website](http://joomlacode.org/gf/project/joomla/frs) to see what the latest **Full Package** release version is. At the time of writing, it is 3.3.0.
 1. Note down the latest version number ready to modify the url specified in the next step.
-1. From the terminal, `wget http://joomlacode.org/gf/download/frsrelease/19239/158103/Joomla_3.2.3-Stable-Full_Package.tar.gz` 
-1. Unzip the download file using `tar zxvf Joomla_3.2.3-Stable-Full_Package.tar.gz`
-1. Now delete the zip file `rm Joomla_3.2.3-Stable-Full_Package.tar.gz`
+1. From the terminal, `wget http://joomlacode.org/gf/download/frsrelease/19393/158833/Joomla_3.3.0-Stable-Full_Package.tar.gz ` 
+1. Unzip the download file using `tar zxvf Joomla_3.3.0-Stable-Full_Package.tar.gz`
+1. Now delete the zip file `rm Joomla_3.3.0-Stable-Full_Package.tar.gz`
 1. Let's create a config file `touch configuration.php`
 1. We'll temporarily make it globally executable `chmod 777 configuration.php`
 

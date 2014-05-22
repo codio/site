@@ -1,4 +1,4 @@
-ab, and enter in the URL of your repo (SSH---
+---
 title: GitHub and other remotes
 class_name: docs
 full_width: true

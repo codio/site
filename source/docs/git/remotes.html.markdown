@@ -1,4 +1,4 @@
----
+ab, and enter in the URL of your repo (SSH---
 title: GitHub and other remotes
 class_name: docs
 full_width: true
@@ -12,7 +12,7 @@ To work with Github, you need to set up your SSH keys properly as [described her
 ##I have a remote repo
 If your starting point is a remote repo, then you should create a new project from the Codio dashboard. Create Project is an option above your project listings.
 
-You should select the Import/Clone from Github option. This will then create your Codio project by cloning the remote repo you specify and that remote repo will automatically be logged within that project.
+You should select the Git tab and enter in the ssh url. This will then create your Codio project by cloning the remote repo you specify and that remote repo will automatically be logged within that project.
 
 ##I do not yet have a remote repo
 If you have code within Codio and you want to configure it to synchronize with a remote repo, then you should to the following

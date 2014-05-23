@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###May 22nd, 2014
+- **Fixed**: reports of cursor jumping around in files when switching tabs.
+
 ###May 21st, 2014
 - **Update**: Updated to latest version of CodeMirror (4.2)
 - **Update**: Tutorial Docs updated for latest versions of Symfony (2.4.4), Drupal (7.28), Joomla (3.3.0)

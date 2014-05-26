@@ -44,7 +44,7 @@ Codio has the following languages and useful dev tools preinstalled
 - Python (2.7.3)
 - Git, Mercurial & SVN
 
-But you can also install many other languages, database, components and frameworks extrenely easily using [Codio Box Parts](/docs/boxes/box-parts).
+But you can also install many other languages, database, components and frameworks extremely easily using [Codio Box Parts](/docs/boxes/box-parts).
 
 ##5. Tutorials & How To's
 We have an ever growing range of [Tutorials and How To's](/docs/specifics) that are well worth checking out. 

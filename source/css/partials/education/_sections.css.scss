@@ -314,4 +314,37 @@ section {
     }
   }  
   
+  &#crowdsourcing {
+    background: #fff;
+    
+    .container {
+      background: transparent image-url("git_logo.png") no-repeat 715px 96px;
+      background-size: 27%;
+
+      @include apply-to(more-than, desktop) {
+        background-position: 840px;
+        background-size: 289px;
+      }
+
+      > div {
+        padding: 90px 315px 90px 0;
+        width: 665px;
+
+        @include apply-to(more-than, desktop) {
+          padding: 90px 430px 100px 0;
+          width: 794px;
+        }
+        
+        div {
+          padding: 0;
+          
+          @include apply-to(more-than, desktop) {
+            padding: 0 0 0 70px;
+          }
+        }
+      }
+    }
+  }  
+    
+  
 }

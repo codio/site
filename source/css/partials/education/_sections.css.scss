@@ -2,6 +2,7 @@ section {
   
   .links-big {
     padding-top: 40px;
+    margin-top: 0 !important;
   }
   
   &#frontback {
@@ -59,42 +60,14 @@ section {
       
     }
   }
-      
-  &#languages .container > div {
-    div:first-child ul li {
-      background: transparent;
-      
-      &.active, &:hover {
-        background: #eee;
-        
-        a {
-          color: #f36050;
-        }
-      }
-      
-      a {
-        text-indent: 0;
-        text-align: right;
-        width: inherit;
-        height: inherit;
-        padding: 10px;
-        font: 16px gotham_book;
-        line-height: 1.4em;
-        float: inherit;
-        color: #0074C7;
-      }
-    }
-  }
-  
+
   &#boxes {
-    background: #fff;
-    
     .container {
-      background-position: 750px 110px;
+      background-position: 750px 75px;
       background-size: 300px;
       
       @include apply-to(more-than, desktop) {
-        background-position: 840px 110px;
+        background-position: 840px 75px;
       }
       
       > div {
@@ -111,33 +84,59 @@ section {
   }
   
   &#access {
+    background: #fff;
+    
     .container > div {
-
+      margin: 100px 0;
+      @include clearfix;
+      
       @include apply-to(more-than, desktop) {
-        margin-left: 70px;
+        margin: 100px 60px;
       }
 
       > div {
-        padding: 130px 0 130px 520px;
-        width: 460px;
-
-        @include apply-to(more-than, desktop) {
+        float: left;
+        
+        &:first-child {
           width: 500px;
-          padding: 130px 0 130px 595px;
+          
+          @include apply-to(more-than, desktop) {
+            width: 580px;
+          }
+          
+          iframe {
+            width: 470px;
+            height: 298px;
+            
+            @include apply-to(more-than, desktop) {
+              width: 520px;
+              height: 329px;
+            }
+          }
         }
-
-        ul {
-          list-style: none;
+        
+        &:last-child {
           padding: 0;
-          margin: 20px 0 0;
+          width: 460px;
 
           @include apply-to(more-than, desktop) {
-            margin-top: 30px;
+            width: 524px;
+            padding: 20px 0 0 0;
           }
 
-          li {
-            display: inline-block;
-            margin-right: 15px
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+
+            @include apply-to(more-than, desktop) {
+              margin-top: 30px;
+            }
+
+            li {
+              display: inline-block;
+              margin-right: 15px
+            }
           }
         }
       }
@@ -145,29 +144,38 @@ section {
   }
   
   &#classes {
-    background: #fff;
-    
-    .container {
+    .container > div {
+      padding: 70px 0;
+      @include clearfix;
+      
+      @include apply-to(more-than, desktop) {
+        padding: 80px 60px;
+      }
 
       > div {
-        iframe {
-          margin: -333px 0px -36px 518px;
-          width: 650px;
-          height: 395px;
-        }
-        padding: 110px 520px 110px 0;
-        width: 350px;
-
-        @include apply-to(more-than, desktop) {
-          padding: 140px 657px 140px 0;
-          width: 450px;
+        float: left;
+        
+        &:first-child {
+          padding-top: 60px;
+          width: 350px;
         }
         
-        div {
-          padding: 0;
+        &:last-child {
+          width: 630px;
+          text-align: right;
           
           @include apply-to(more-than, desktop) {
-            padding: 0 0 0 70px;
+            width: 754px;
+          }
+          
+          iframe {
+            width: 600px;
+            height: 377px;
+            
+            @include apply-to(more-than, desktop) {
+              width: 650px;
+              height: 408px;
+            }
           }
         }
       }
@@ -175,39 +183,53 @@ section {
   }
   
   &#courses {
+    background: #fff;
+    
     .container > div {
-
+      margin: 80px 0;
+      @include clearfix;
+      
       @include apply-to(more-than, desktop) {
-        margin-left: 70px;
+        margin: 100px 60px 100px 40px;
       }
 
       > div {
-        iframe {
-          margin: -111px 0px -36px 0px;
-          width: 650px;
-          height: 395px;
-        }        
-        padding: 90px 0 90px 560px;
-        width: 420px;
-
-        @include apply-to(more-than, desktop) {
-          width: 490px;
-          background-size: 13px;
-          padding: 130px 0 130px 610px;
+        float: left;
+        
+        &:first-child {
+          width: 500px;
+          padding-top: 30px;
+          
+          @include apply-to(more-than, desktop) {
+            width: 600px;
+            padding-top: 0;
+          }
+          
+          iframe {
+            width: 470px;
+            height: 298px;
+            
+            @include apply-to(more-than, desktop) {
+              width: 556px;
+              height: 351px;
+            }
+          }
         }
-
-        ul {
-          list-style: none;
+        
+        &:last-child {
           padding: 0;
-          margin: 20px 0 0;
+          width: 460px;
 
           @include apply-to(more-than, desktop) {
-            margin-top: 30px;
+            width: 524px;
           }
-
-          li {
-            display: inline-block;
-            margin-right: 15px
+          
+          h2 {
+            font-size: 32px;
+            
+            @include apply-to(more-than, desktop) {
+              font-size: 34px;
+            }
           }
         }
       }
@@ -215,8 +237,6 @@ section {
   }
   
   &#lingos {
-    background: #fff;
-    
     .container {
       background: transparent image-url("home/screens/home-parts.png") no-repeat 769px;
       background-size: 412px;
@@ -249,51 +269,103 @@ section {
   }
   
   &#annotations {
+    background: #fff;
+    
     .container > div {
-
-
+      margin: 100px 0;
+      @include clearfix;
+      
       @include apply-to(more-than, desktop) {
-        margin-left: 70px;
+        margin: 100px 80px 100px 60px;
       }
 
       > div {
-        padding: 130px 0 130px 580px;
-        width: 400px;
-
-        @include apply-to(more-than, desktop) {
-          padding: 150px 0 140px 722px;
+        float: left;
+        
+        &:first-child {
+          width: 620px;
+          
+          @include apply-to(more-than, desktop) {
+            width: 760px;
+          }
+          
+          iframe {
+            width: 565px;
+            height: 341px;
+            
+            @include apply-to(more-than, desktop) {
+              width: 660px;
+              height: 400px;
+            }
+          }
         }
-
-        ul {
-          list-style: none;
-          padding: 0;
-          margin: 20px 0 0;
+        
+        &:last-child {
+          padding: 40px 0 0 0;
+          width: 360px;
 
           @include apply-to(more-than, desktop) {
-            margin-top: 30px;
-          }
-
-          li {
-            display: inline-block;
-            margin-right: 15px
+            width: 324px;
+            padding: 20px 0 0 0;
           }
         }
       }
     }
   }
   
-  &#cloning {
-    background: #fff;
+  &#clone-crowd > .container {
+    @include clearfix;
+    padding: 90px 0;
     
-    .container {
-      background: transparent image-url("git_logo.png") no-repeat 715px 96px;
-      background-size: 27%;
-
-      @include apply-to(more-than, desktop) {
-        background-position: 840px;
-        background-size: 289px;
+    > div {
+      float: left;
+      
+      &:first-child {
+        width: 466px;
+        padding: 0 20px 0 0;
+        
+        @include apply-to(more-than, desktop) {
+          width: 550px;
+          padding: 0 20px 0 40px;
+        }
       }
-
+      
+      &:nth-child(2) {
+        width: 140px;
+        padding: 60px 22px 0;
+        
+        @include apply-to(more-than, desktop) {
+          width: 180px;
+          padding: 0 22px;          
+        }
+      }
+      
+      &:last-child {
+        width: 310px;
+        text-align: right;
+               
+        @include apply-to(more-than, desktop) {
+          width: 350px;
+          padding-right: 40px;
+        }
+      }
+      
+      p {
+        font-size: 16px;
+      }
+      
+      h2 {
+        font-size: 28px;
+        
+        @include apply-to(more-than, desktop) {
+          font-size: 30px; 
+        }
+      }
+    }
+  }
+  
+  &#cloning {
+    .container {
       > div {
         padding: 90px 315px 90px 0;
         width: 665px;
@@ -318,14 +390,6 @@ section {
     background: #fff;
     
     .container {
-      background: transparent image-url("git_logo.png") no-repeat 715px 96px;
-      background-size: 27%;
-
-      @include apply-to(more-than, desktop) {
-        background-position: 840px;
-        background-size: 289px;
-      }
-
       > div {
         padding: 90px 315px 90px 0;
         width: 665px;

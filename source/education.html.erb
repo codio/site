@@ -11,8 +11,16 @@ class_name: home education
 <%= partial 'partials/education/courses' %>
 <%= partial 'partials/education/lingos' %>
 <%= partial 'partials/education/annotations' %>
-<%= partial 'partials/education/cloning' %>
-<%= partial 'partials/education/crowdsourcing' %>
+
+<section id="clone-crowd">
+  <div class="container">
+    <%= partial 'partials/education/cloning' %>
+    <div id="clone-crowd-img">
+      <%= image_tag 'git_logo.png' %>
+    </div>
+    <%= partial 'partials/education/crowdsourcing' %>
+  </div>
+</section>
 
 <% content_for :foot do %>
   <%= javascript_include_tag 'education' %>

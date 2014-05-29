@@ -61,23 +61,40 @@ section {
     }
   }
 
-  &#boxes {
-    .container {
-      background-position: 750px 75px;
-      background-size: 300px;
+&#stackhell {
+    .container > div {
+      padding: 10px 0;
+      @include clearfix;
       
       @include apply-to(more-than, desktop) {
-        background-position: 840px 75px;
+        padding: 80px 60px;
       }
-      
+
       > div {
-        padding: 100px 330px 90px 20px;
-        width: 630px;
-        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right center;
+        float: left;
+        
+        &:first-child {
+          padding-top: 26px;
+          width: 350px;
+        }
+        
+        &:last-child {
+          width: 630px;
+          text-align: right;
           
-        @include apply-to(more-than, desktop) {
-          padding: 100px 0px 90px 20px;
-          background: none; 
+          @include apply-to(more-than, desktop) {
+            width: 754px;
+          }
+          
+          iframe {
+            width: 600px;
+            height: 377px;
+            
+            @include apply-to(more-than, desktop) {
+              width: 650px;
+              height: 408px;
+            }
+          }
         }
       }
     }
@@ -237,31 +254,38 @@ section {
   }
   
   &#lingos {
-    .container {
-      background: transparent image-url("home/screens/home-parts.png") no-repeat 769px;
-      background-size: 412px;
-
+    .container > div {
+      padding: 10px 0;
+      @include clearfix;
+      
       @include apply-to(more-than, desktop) {
-        background-position: 788px;
+        padding: 80px 60px;
       }
 
       > div {
-        padding: 90px 280px 90px 0;
-        width: 700px;
-        background: transparent image-url('home/screens/shadow-y-right.png') no-repeat right 82px;
-        background-size: 15px;
-
-        @include apply-to(more-than, desktop) {
-          padding: 110px 474px 100px 0;
-          width: 750px;
-          background: none;
+        float: left;
+        
+        &:first-child {
+          padding-top: 26px;
+          width: 350px;
         }
         
-        div {
-          padding: 0;
+        &:last-child {
+          width: 630px;
+          text-align: right;
           
           @include apply-to(more-than, desktop) {
-            padding: 0 0 0 70px;
+            width: 754px;
+          }
+          
+          iframe {
+            width: 600px;
+            height: 377px;
+            
+            @include apply-to(more-than, desktop) {
+              width: 650px;
+              height: 408px;
+            }
           }
         }
       }

@@ -13,6 +13,7 @@ This section contains links to Codio tutorials and installation instructions.
 - [Deploying to Heroku](/docs/specifics/heroku)
 - [Installing the Mean.io framework](/docs/specifics/meanio)
 - [Syncing with Dropbox](/docs/specifics/dropbox)
+- [Working with Karma](/docs/specifics/karma)
 
 ##Node.js
 - [Node.js](/docs/specifics/node)

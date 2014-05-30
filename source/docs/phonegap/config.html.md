@@ -1,8 +1,4 @@
- <gap:platforms>
-      <gap:platform name="ios" />
-      <gap:platform name="android" /> 
-      <gap:platform name="winphone" />
-     </gap:platforms>---
+---
 title: Config
 class_name: docs
 full_width: true

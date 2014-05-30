@@ -10,6 +10,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ###May 30th, 2014
 - **Feature**: Added Karma setup tutorial
+- **Feature**: Added Clojure (.clj) syntax highlighting support
 
 ###May 22nd, 2014
 - **Fixed**: reports of cursor jumping around in files when switching tabs.

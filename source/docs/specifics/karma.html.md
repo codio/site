@@ -39,7 +39,7 @@ This opens a .codio file which you can customize. Replace the existing text with
 	  }
 	}
 
-*If you wish, you can change the port for the `Karma Preview` entry, but make a note of the change as you will need to include that port in the `<karma class="config js` file later.*
+*If you wish, you can change the port for the `Karma Preview` entry, but make a note of the change as you will need to include that port in the `karma.config js` file later.*
 
 Now you're all set, you can install Karma from the Codio menu. 
 

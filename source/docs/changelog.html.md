@@ -26,7 +26,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Feature**: (May 8th) Enabled External SSH Box Access. [More information...](/blog/2014/05/external-ssh-box-access/)
 - **Fixed**: (May 8th) Remote Server access via SSH
 - **Feature**: (May 7th) Fast Panel Switching. [More information...](/blog/2014/05/quick-panel-switching/)
-- **Fixed**: (May 6th)fixes for terminal using Firefox
+- **Fixed**: (May 6th) fixes for terminal using Firefox
 - **Feature**: (May 5th) New [Box Parts](/docs/boxes/box-parts) added.
 - **Improvement**: (May 5th) reports of IDE freezing.
 - **Fixed**: (May 5th) reports of linting not working correctly.

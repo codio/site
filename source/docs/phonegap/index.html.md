@@ -16,6 +16,5 @@ PhoneGap:Build Free account plan supports a maximum project size of 15mb. If you
 - [Authentication Token](/docs/phonegap/authtoken)
 - [Config.xml](/docs/phonegap/config)
 - [Build Area](/docs/phonegap/build)
-- [Build your app](/docs/phonegap/buildit)
 
 

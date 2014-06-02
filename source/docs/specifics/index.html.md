@@ -13,7 +13,11 @@ This section contains links to Codio tutorials and installation instructions.
 - [Deploying to Heroku](/docs/specifics/heroku)
 - [Installing the Mean.io framework](/docs/specifics/meanio)
 - [Syncing with Dropbox](/docs/specifics/dropbox)
+<<<<<<< HEAD
 - [Working with Karma](/docs/specifics/karma)
+=======
+- [Building projects to Phonegap:Build](/docs/specifics/phonegapbuild)
+>>>>>>> phonegap
 
 ##Node.js
 - [Node.js](/docs/specifics/node)

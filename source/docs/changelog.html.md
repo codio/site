@@ -8,49 +8,30 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###May 30th, 2014
-- **Feature**: Added Karma setup tutorial
-- **Feature**: Added Clojure (.clj) syntax highlighting support
+###June 2nd,2014
+- **Feature**: Added Phonegap:Build
 
-###May 22nd, 2014
-- **Fixed**: reports of cursor jumping around in files when switching tabs.
-
-###May 21st, 2014
-- **Update**: Updated to latest version of CodeMirror (4.2)
-- **Update**: Tutorial Docs updated for latest versions of Symfony (2.4.4), Drupal (7.28), Joomla (3.3.0)
-
-###May 19th, 2014
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-
-###May 16th, 2014
-- **Update**: Updated to latest version of CodeMirror (4.1)
-
-###May 15th, 2014
-- **Fixed**: reports of filetree not updating
-
-###May 13th, 2014
-- **Feature**: Uploading of Public Keys to GitHub & BitBucket. [More information...](/blog/2014/05/upload-ssh-public-key-to-github-bitbucket/)
-- **Fixed**: reports of startup.sh not running if terminal tab not open when project closed
-- **Fixed**: reports of errors in terminal when opening project where the terminal tab was open when project was previously closed
-
-###May 8th, 2014
-- **Feature**: Enabled External SSH Box Access. [More information...](/blog/2014/05/external-ssh-box-access/)
-- **Fixed**: Remote Server access via SSH
-
-####May 7th, 2014
-- **Feature**: Fast Panel Switching. [More information...](/blog/2014/05/quick-panel-switching/)
-
-####May 6th, 2014
-- **Fixed**: fixes for terminal using Firefox
-
-####May 5th, 2014
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-- **Improvement**: reports of IDE freezing.
-- **Fixed**: reports of linting not working correctly.
-- **Improvement**: Disable Autocomplete for Markdown and txt files.
-
-####May 2nd, 2014
-- **Improvement**: Update Box Parts (Composer, OPAM, Python3)
+###May, 2014
+- **Feature**: (May 30th) Added Karma setup tutorial
+- **Feature**: (May 30th) Added Clojure (.clj) syntax highlighting support
+- **Fixed**: (May 22nd) reports of cursor jumping around in files when switching tabs.
+- **Update**: (May 21st) Updated to latest version of CodeMirror (4.2)
+- **Update**: (May 21st) Tutorial Docs updated for latest versions of Symfony (2.4.4), Drupal (7.28), Joomla (3.3.0)
+- **Feature**: (May 19th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: (May 16th) Updated to latest version of CodeMirror (4.1)
+- **Fixed**: (May 15th) reports of filetree not updating
+- **Feature**: (May 13th) Uploading of Public Keys to GitHub & BitBucket. [More information...](/blog/2014/05/upload-ssh-public-key-to-github-bitbucket/)
+- **Fixed**: (May 13th) reports of startup.sh not running if terminal tab not open when project closed
+- **Fixed**: (May 13th) reports of errors in terminal when opening project where the terminal tab was open when project was previously closed
+- **Feature**: (May 8th) Enabled External SSH Box Access. [More information...](/blog/2014/05/external-ssh-box-access/)
+- **Fixed**: (May 8th) Remote Server access via SSH
+- **Feature**: (May 7th) Fast Panel Switching. [More information...](/blog/2014/05/quick-panel-switching/)
+- **Fixed**: (May 6th)fixes for terminal using Firefox
+- **Feature**: (May 5th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Improvement**: (May 5th) reports of IDE freezing.
+- **Fixed**: (May 5th) reports of linting not working correctly.
+- **Improvement**: (May 5th) Disable Autocomplete for Markdown and txt files.
+- **Improvement**: (May 2nd) Update Box Parts (Composer, OPAM, Python3)
 
 ####April, 2014
 - **Feature**: (April 30th) Access your Codio Box over Port 80. [More information](/blog/2014/04/box-access-with-non-standard-ports/)

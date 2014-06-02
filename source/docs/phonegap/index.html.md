@@ -4,13 +4,13 @@ class_name: docs
 full_width: true
 ---
 
-Phonegap should be considered to be in a Beta state until mention of it is removed from the documentation.
+Codio's Phonegap features are in Beta until mention of it is removed from the documentation.
 
-'Tools>Phonegap(beta)' allows you to build your projects (set up in the usual way for PhoneGap/Cordova projects) using Phonegap:Build platform.
+You access Codio's Phonegap:Build features from the Tools->Phonegap (beta) menu.
 
-In order to use PhoneGap:Build, you will need a PhoneGap:Build account. If you do not have one click [here](https://build.phonegap.com/) to access the site and set one up.
+Our Phonegap support provides a comfortable integration with Adobe's Phonegap Build platform. You should first create an account at [http://build.phonegap.com](http://build.phonegap.com).
 
-PhoneGap:Build Free account plan supports a maximum project size of 15mb. If you have a paid [Creative Cloud](https://creative.adobe.com/plans) account or a Phonegap:Build [monthly paid subscription](https://build.phonegap.com/plans) then the maximum project size is 40mb.
+**Note: ** The PhoneGap:Build free plan supports a maximum project size of 15MB and 40MB for paid plans. Account plan details can be found [here]](https://build.phonegap.com/plans).  
 
 ##In this section:
 - [Authentication Token](/docs/phonegap/authtoken)

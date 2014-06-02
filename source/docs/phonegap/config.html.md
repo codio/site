@@ -1,5 +1,5 @@
 ---
-title: Config
+title: The config.xml file
 class_name: docs
 full_width: true
 ---

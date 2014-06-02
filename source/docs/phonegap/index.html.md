@@ -16,6 +16,5 @@ Our Phonegap support provides a comfortable integration with Adobe's Phonegap Bu
 - [Authentication Token](/docs/phonegap/authtoken)
 - [Config.xml](/docs/phonegap/config)
 - [Build Area](/docs/phonegap/build)
-- [Build your app](/docs/phonegap/buildit)
 
 

@@ -51,7 +51,7 @@ Checking this box enables Phonegap:Build Hydration. Hydration is a tool that has
 - Compilation times are improved significantly.
 - Updates are pushed directly to the application installed on a device.
 
-For more information on this see [Remote Debugging Tools](http://docs.build.phonegap.com/en_US/tools_hydration.md.html#Hydration)
+For more information on this see [Hydration](http://docs.build.phonegap.com/en_US/tools_hydration.md.html#Hydration)
 
 ##Initiate Build
 When you have selected keys and any settings, simply press the Build button. Codio now passes all information through to the Phonegap:Build platform, where the build is run in the background. 

@@ -4,14 +4,13 @@ class_name: docs
 full_width: true
 ---
 
-To build apps at Phonegap:Build a config.xml file is required.
-If one does not exist in your project, Codio can create one for you
+To build apps at Phonegap:Build, a `config.xml` file is required in the root of your project. If one does not yet exist, Codio will ask if you want to create one.
 
 ![config](/img/docs/config.png)
 
-This will create a default file for you and associated image resources for Splash Screen and Icon images in `pg-images` folder
+This will create a default file for you and associated image resources for Splash Screen and Icon images in `pg-images` folder.
 
-Your config.xml needs to contain specific lines for each platform you want to build for. For example, to build for iOS, Android and Windows Phone you need to include
+Your config.xml needs to contain specific lines for each platform you want to target. For example, to build for iOS, Android and Windows Phone you need to include
 
     <gap:platforms>
       <gap:platform name="ios" />
@@ -26,8 +25,7 @@ If you only want to build for one platform (for example Android) you would only 
      </gap:platforms>
 
 
-
-Useful resources and references for the config.xml file can be found at Phonegap site:
+Useful resources and references for the config.xml file can be found on the Phonegap site:
 
 - [config.xml](http://docs.build.phonegap.com/en_US/configuring_basics.md.html#The%20Basics)
 - [Custom preferences](http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences)

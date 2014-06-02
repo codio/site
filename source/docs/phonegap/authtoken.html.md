@@ -5,9 +5,10 @@ full_width: true
 ---
 
 
-To access Phonegap:Build from Codio you will need to set up an Authentication token. This is available in your Phonegap:Build account.
-Go to your Phonegap [account](https://build.phonegap.com/people/edit) details and select `Client Application` tab. If you do not see an authentication token, click `Reset` to obtain one
+To access Phonegap:Build from Codio you should set up an Authentication token. This is available in your Phonegap:Build account.
 
-In Codio, select the `Change` button and paste your key in there
+Go to your Phonegap [account details](https://build.phonegap.com/people/edit) and select the `Client Application` tab. If you do not see an authentication token, click `Reset` to obtain one. 
+
+In Codio, select the `Change Token` button and paste in your key.
 
 ![auth](/img/docs/authtoken.png)

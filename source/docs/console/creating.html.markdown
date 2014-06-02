@@ -4,11 +4,13 @@ class_name: docs
 full_width: true
 ---
 
-Creating a new project or importing one is really easy. All you do is click on the Create Project link in the Dashboard as shown below.
+Creating a new project or importing one is really easy. All you do is click on the Create Project link at the top right in the Dashboard.
 
-![Create Project](docs/console-create.png)
+![Create Button](docs/console-createbutton.png)
 
 You will then be shown a dialog that lets you choose the various ways to create or import a project.
+
+![Create Project](docs/console-create.png)
 
 ##Back-End Development
 If you're doing any back-end coding, please refer to the [Boxes section](/docs/boxes) for details on installing and running server side components.

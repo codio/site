@@ -16,8 +16,10 @@ If you have not already done so, install PHP and the required modules
 ##Download PHPBrew
 
 	mkdir /home/codio/bin
-	curl https://raw.github.com/c9s/phpbrew/master/phpbrew -o /home/codio/bin/phpbrew
-	chmod +x /home/codio/bin/phpbrew
+	curl -L -O https://raw.github.com/c9s/phpbrew/master/phpbrew
+    chmod +x phpbrew
+    mv phpbrew /home/codio/bin/phpbrew 
+    chmod +x /home/codio/bin/phpbrew
 
 ##Intialize Scripts
 Let's first add the PATH to `~/.bash_profile` 

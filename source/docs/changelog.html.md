@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###June 3rd, 2014
+- **Update**: Tutorial Docs updated for PHPBrew.
+
 ###June 2nd, 2014
 - **Feature**: Added Phonegap to allow you to build your projects using Phonegap:Build platform.
 

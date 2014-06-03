@@ -4,13 +4,11 @@ class_name: docs
 full_width: true
 ---
 
-Creating a new project or importing one is really easy. All you do is click on the Create Project link at the top right in the Dashboard.
-
-![Create Button](docs/console-createbutton.png)
-
-You will then be shown a dialog that lets you choose the various ways to create or import a project.
+Creating a new project or importing one is really easy. All you do is click on the Create Project link in the Dashboard as shown below.
 
 ![Create Project](docs/console-create.png)
+
+You will then be shown a dialog that lets you choose the various ways to create or import a project.
 
 ##Back-End Development
 If you're doing any back-end coding, please refer to the [Boxes section](/docs/boxes) for details on installing and running server side components.
@@ -19,7 +17,7 @@ If you're doing any back-end coding, please refer to the [Boxes section](/docs/b
 We offer a few basic starting points with this option. Select from the Create Project dropdown list, which offers the following options
 
 - creating a blank HTML5 Boilerplate project
-- creating an gitempty project
+- creating an empty project
 - creating a project from a template
 
 

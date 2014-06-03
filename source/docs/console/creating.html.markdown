@@ -19,7 +19,7 @@ If you're doing any back-end coding, please refer to the [Boxes section](/docs/b
 We offer a few basic starting points with this option. Select from the Create Project dropdown list, which offers the following options
 
 - creating a blank HTML5 Boilerplate project
-- creating an empty project
+- creating an gitempty project
 - creating a project from a template
 
 

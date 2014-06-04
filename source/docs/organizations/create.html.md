@@ -15,7 +15,7 @@ The free organization plan allows you to add any number of users to your organiz
 Paid plans allow all members to create private projects as long as they remain a member of that organization or they have their own personal Codio subscription.
 
 ##Moving from a personal Codio subscription to an Organization
-If you have a team of users, each of whom has a personal Codio subscription, and you then ecide to bring them into an Organizational account, then you should do the following 
+If you have a team of users, each of whom has a personal Codio subscription, and you then decide to bring them into an Organizational account, then you should do the following 
 
 - cancel the personal subscriptions; this will disable any private projects
 - create your organization in Codio and add the others to the 'All Members' team; at this point, any disabled private projects will be re-enabled as active private projects

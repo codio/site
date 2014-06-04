@@ -20,8 +20,5 @@ yeoman
 dropbox
 ocaml
 plone
-<<<<<<< HEAD
 karma
-=======
-phonegapbuild
->>>>>>> phonegap
+phonegap

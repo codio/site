@@ -33,10 +33,7 @@ In a JS file ...
 	    Things[i]
 	}
 
-We've made it very easy to review and search for snippets by including it right in the IDE.
 
-![snippets](/img/blog/snippets.png)
-
-Find out more by [reading the documentation](/docs/ide/emmet/snippets/).
+Find out more by [reading the documentation](/docs/emmet/).
 
 

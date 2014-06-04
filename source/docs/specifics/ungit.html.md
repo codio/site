@@ -72,7 +72,7 @@ then, past the following lines to avoid unnecessary logging:
 
 You can also provide the port number in this file rather than on the command line as suggested above. The JSON entry it `"port": 8080`.
 
-You can find the full details of available parameters in the Ungit source code.
+You can find the full details of available parameters [in the Ungit source code](https://github.com/FredrikNoren/ungit/blob/master/source/config.js).
 
 ##Authentication
 Ungit provides simple authentication if you would like to limit the access to the GUI. Add the following parameters to your .ungitrc file to add authentication:

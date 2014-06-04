@@ -8,7 +8,7 @@ full_width: true
 published: true
 ---
 
-When Matthieu Riffault, a Codio user, posted a tutorial on our forum on how to run Ungit, we added it immediately to our 'How To' section.
+When [Matthieu Riffault](https://plus.google.com/+MatthieuRiffault), a Codio user, posted a tutorial on our forum on how to run Ungit, we added it immediately to our 'How To' section.
 
 [Ungit](https://github.com/FredrikNoren/ungit) is a really cool GUI for git. It is installed as a Node app and then accessed as a web page.
 

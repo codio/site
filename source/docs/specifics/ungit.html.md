@@ -8,7 +8,9 @@ Many thanks to Codio user Matthieu Riffault for writing this tutorial.
 
 [Ungit2](https://github.com/FredrikNoren/ungit) is a web-based Git GUI, written in Javascript and running under Node.js. 
 
-![ungit](/img/docs/ungit.png)
+![ungit](/img/docs/ungit-1.png)
+
+![ungit](/img/docs/ungit-2.png)
 
 Ungit works great with Codio. Node.js is provided by Codio, so you don't need root access to your Boxes to install and run Ungit.
 

@@ -12,7 +12,7 @@ When Matthieu Riffault, a Codio user, posted a tutorial on our forum on how to r
 
 [Ungit](https://github.com/FredrikNoren/ungit) is a really cool GUI for git. It is installed as a Node app and then accessed as a web page.
 
-As Node is anyway preinstalled on all Codio Boxes, getting Ungit installed and running is as simple as 
+As Node is preinstalled on all Codio Boxes, getting Ungit installed and running is as simple as 
 
     npm install -g ungit
     ungit

@@ -2,7 +2,7 @@
 title: Ungit - a Git Graphical UI
 author: Freddy May
 date: 2014-06-04
-tags: guides
+tags: Guides
 class_name: blog
 full_width: true
 published: true

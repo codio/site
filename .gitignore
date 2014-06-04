@@ -5,3 +5,4 @@
 .bundle
 .cache
 .codio
+.startup.sh

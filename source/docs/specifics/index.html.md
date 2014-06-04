@@ -7,6 +7,7 @@ full_width: true
 This section contains links to Codio tutorials and installation instructions.
 
 ##General
+- [Ungit - a Git UI inside Codio](/docs/specifics/ungit)
 - [Grunt Tutorial](/docs/specifics/grunt)
 - [Grunt Watch Tutorial](/docs/specifics/grunt-watch)
 - [Scaffolding Applications with Yeoman](/docs/specifics/yeoman)

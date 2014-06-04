@@ -5,7 +5,7 @@ date: 2014-06-04
 tags: guides
 class_name: blog
 full_width: true
-published: false
+published: true
 ---
 
 When Matthieu Riffault, a Codio user, posted a tutorial on our forum on how to run Ungit, we added it immediately to our 'How To' section.

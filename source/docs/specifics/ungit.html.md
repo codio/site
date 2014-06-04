@@ -70,6 +70,8 @@ then, past the following lines to avoid unnecessary logging:
         "logRESTRequests": false
     }
 
+You can also provide the port number in this file rather than on the command line as suggested above. The JSON entry it `"port": 8080`.
+
 You can find the full details of available parameters in the Ungit source code.
 
 ##Authentication

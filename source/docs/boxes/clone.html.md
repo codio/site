@@ -14,7 +14,12 @@ To allow your box to be clonable, go to Project>Settings and check the `Allow Bo
 
 ![Clone Settings][/img/docs/clone-settings.png]
 
-Be aware that allowing your Box to be cloned may mean that sensitive data is made available to others. This is because all data within your Box will be cloned if you enable this option.
+Be aware that allowing your Box to be cloned during forking may mean that sensitive data is made available to others. 
+
+If you enable this option:
+
+- All data within your Box will be cloned on every fork.
+- The '.ssh' directory will NOT be cloned and will remain private.
 
 If you have data that you do not wish to be cloned, create a `.forkignore` file in your project workspace, with the paths of files and directories that you wish to exclude from cloning.
 

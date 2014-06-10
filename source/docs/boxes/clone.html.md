@@ -12,7 +12,7 @@ Subscribers can allow their box to be clonable.
 
 To allow your box to be clonable, go to Project>Settings and check the `Allow Box Cloning` checkbox
 
-![Clone Settings][/img/docs/clone-settings.png]
+![Clone Settings](/img/docs/clone-settings.png)
 
 Be aware that allowing your Box to be cloned during forking may mean that sensitive data is made available to others. 
 

@@ -4,11 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-Codio is free for all public projects. However, if you want to work on private projects that no-one else can access you will need to purchase a paid subscription.
+Codio is free for all public projects. However, if you want to work on private projects that no-one else can access or to allow your project box to be [cloned](/docs/boxes/clone), you will need to purchase a paid subscription.
 
 Current pricing information can be found at [https://codio.com/s/pricing/](https://codio.com/s/pricing/)
-
-**PLEASE NOTE:** If you **already had private projects before we introduced paid subscriptions**, you have a 30 day grace period after which your private projects will be disabled until you either make them public or purchase a subscription. During this grace period, private projects will remain private.
 
 ## Codio Deployment Target Type
 We offer several ways to deploy your apps, and one of those involves that we host your static content. This is called the Codio deployment type. This type is only available to users with a subscription. All other deployment types are still free no matter if you have a Subscription or not.

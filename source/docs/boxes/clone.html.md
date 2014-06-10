@@ -6,7 +6,7 @@ full_width: true
 
 Subscribers can allow their box to be clonable when users Fork their Project.
 
-The default Forking behaviour is to only fork and clone the project data - the files and directories within the `workspace` directory. As a project owner, you can allow the entire Box to be cloned aswell. This provides even more power to collaborate and a great way to share, and allow others to get started quickly without needing to install Box Parts and configure the Box.
+The default Forking behaviour is to only fork and clone the project data - the files and directories within the `workspace` directory. As a project owner, you can allow the entire Box to be cloned as well. This provides even more power to collaborate and a great way to share, and allow others to get started quickly without needing to install Box Parts and configure the Box.
 
 ##How to enable your box for cloning
 

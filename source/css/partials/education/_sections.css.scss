@@ -43,20 +43,7 @@ section {
         a {
           display: block;
         }
-      }
-      div:nth-child(3) {
-        position: relative;
-        margin: 90px 0px 0px -225px;
-        width: 190px;
-        
-        @include apply-to(more-than, desktop) {
-          top: 0px;
-        }
-        
-        a {
-          display: block;
-        }
-      }      
+      }     
       
     }
   }

@@ -143,9 +143,11 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **heroku-cli** (3.3.0) The Heroku CLI is used to manage Heroku apps from the command line.
 - **htop** (1.0.3) Htop: an interactive process viewer for Linux. It is a text-mode application (for console or X terminals) and requires ncurses.
 - **image_magick** (6.8.8-9) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.
+- **jruby** (1.7.12) jRuby: The Ruby Programming Language on the JVM
 - **leiningen** (2.3.2) Leiningen: A build automation and dependency management tool for Clojure
 - **libffi** (3.0.13) Libffi: A Portable Foreign Function Interface Library
 - **libmcrypt** (2.5.8) Libmcrypt: A uniform interface to several symmetric encryption algorithms
+- **libmemcached** (1.0.18) Libmemcached: an open source C/C++ client library and tools for the memcached server  
 - **libpcap** (1.5.3) Libpcap: provides a portable framework for low-level network monitoring. Applications include network statistics collection, security monitoring, network debugging, etc
 - **libtool** (2.4.2) libtool: a generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface. 
 - **lua** (5.2.2) Lua: A powerful, fast, lightweight, embeddable scripting language
@@ -154,7 +156,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **mc** (4.8.12) GNU Midnight Commander: a visual file manager
 - **memcached** (1.4.15) Memcached: An open-source, high-performance memory object caching system 
 - **meteor** (0.7.1.2) Meteor: A real-time web development platform
-- **mongodb** (2.4.6) MongoDB: A cross-platform document-oriented NoSQL database system
+- **mongodb** (2.6.1) MongoDB: A cross-platform document-oriented NoSQL database system
 - **mono** (3.2.8) Mono: a software platform designed to allow developers to easily create cross platform applications. 
 - **mysql** (5.6.15) MySQL: The world's most popular open-source relational database
 - **ncurses** (5.9) Ncurses: a free software emulation of curses in System V Release 4.0, and more.
@@ -177,7 +179,8 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **php5-intl** (5.5.10-1) Intl module for php5
 - **php5-ldap** (5.5.10-1) ldap module for php5
 - **php5-lzf** (1.6.2-2) LZF module for php5
-- **php5-mongo** (1.4.5-2) Mongo driver for php5
+- **php5-memcached** (2.2.0) Memcached module for php5 
+- **php5-mongo** (1.5.3) Mongo driver for php5
 - **php5-oauth** (1.2.3-2) OAuth module for php5
 - **php5-pcntl** (5.5.10-1) Process Control support module for php5
 - **php5-pdo-mysql** (5.5.10-1) PDO MySql module for php5

@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###June 12th, 2014
+- **Fixed**: 503 errors on accessing some projects.
+
 ###June 11th, 2014
 - **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
 - **Improvement**: Update Box Parts (mongodb, php5-mongo)

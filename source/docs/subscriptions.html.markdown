@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Codio is free for all public projects. However, if you want to work on private projects that no-one else can access or to allow your project box to be [cloned](/docs/boxes/clone), you will need to purchase a paid subscription.
+Codio is free for all public projects and you can have one private project. However, if you want to work on multiple private projects that no-one else can access or to allow your project box to be [cloned](/docs/boxes/clone), you will need to purchase a paid subscription.
 
 Current pricing information can be found at [https://codio.com/s/pricing/](https://codio.com/s/pricing/)
 

@@ -196,7 +196,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **phppgadmin** (5.1) phpPgAdmin: a web-based administration tool for PostgreSQL.
 - **phpunit** (3.7.32) PHPUnit: A programmer-oriented testing framework for PHP.
 - **pip** (1.5.4-2) Pip: A tool for installing and managing Python packages 
-- **postgresql** (9.2.4) PostgreSQL: The world's most advanced open-source database system
+- **postgresql** (9.3.4) PostgreSQL: The world's most advanced open-source database system
 - **python2** (2.7.6-2) Python 2: The most friendly Programming Language
 - **python3** (3.4.0) Python 3: Next generation of the most friendly Programming Language    
 - **r_base** (3.0.3) R: A free software programming language and software environment for statistical computing and graphics

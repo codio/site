@@ -12,3 +12,9 @@ You will then see that user's Dashboard and all public projects will be displaye
 
 You will not be able to edit the project but you can [fork](/docs/ide/ide-general/fork) it into your own account.
 
+If a project has been [shared](/docs/settings-prefs/permissions/) to you, you will be able to view this from your dashboard.
+
+*Please note that the Box Clonable icon is not clickable, it will just show you if the user has allowed [cloning](/docs/boxes/clone) on the project*
+
+![Shared Project](/img/docs/console-shared.png)
+

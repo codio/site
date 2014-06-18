@@ -4,8 +4,9 @@ class_name: docs
 full_width: true
 ---
 
+[Laravel](http://laravel.com/) is a clean and classy framework for PHP web development. Freeing you from spaghetti code, Laravel helps you create wonderful applications using simple, expressive syntax. Development should be a creative experience that you enjoy, not something that is painful. Enjoy the fresh air.
 
-This tutorial shows you how to create a Laravel project and work with it in Codio. At the bottom, you will find a link that tells you how to deploy it to the FortRabbit PHP deployment platform for production.
+This tutorial shows you how to create a Laravel project and work with it in Codio.
 
 ##Create a Project
 
@@ -35,7 +36,7 @@ We already installed Composer above, so let's now install Laravel itself using C
 
 ##Try it out
 
-1. To save editing `~/.parts/etc/apache2/httpd.conf`, rename `server.php` in the root of the project to `index.php` either from the filetree or enter `mv server.php index.php`
+1. To save yourself the hassle of editing `~/.parts/etc/apache2/httpd.conf`, rename `server.php` in the root of the project to `index.php` either from the filetree or enter `mv server.php index.php`
 1. From the Codio Preview menu (the right most Codio menu) select the drop down menu and check 'New Browser Tab' and select 'Box URL'.
 
 You should now see Laravel up and running in a browser window. Do not set the 'Inside Codio' option as this Laravel scaffold does not allow it to run in an IFrame.

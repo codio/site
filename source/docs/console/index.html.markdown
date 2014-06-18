@@ -8,7 +8,7 @@ When you sign into Codio, you are shown the Dashboard.
 
 ![Console](/img/docs/console-screen.png)
 
-From here you can create and manage your projects, order your project list, search for projects, update your project settings, see the visibility status of your projects (Public or Private) and if the project is enabled for [cloning](/docs/boxes/clone)
+From here you can create and manage your projects, order your project list, search for projects, update your project settings, see the visibility status of your projects (Public or Private), if the project is enabled for [cloning](/docs/boxes/clone) and access the [Project Settings](/docs/settings-prefs/project-settings)
 
 In Project Settings you can:
 

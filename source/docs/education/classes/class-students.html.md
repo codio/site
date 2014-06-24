@@ -8,5 +8,6 @@ Each class needs to have students. Once you have selected a class, click on the 
 
 SCREENSHOT SHOWING STUDENTS SELECTED
 
-A newly created class will not yet have any students, so you should add some from this screen. You can enter the Codio user name or a part of their full name. Once you have found the correct students, they are added to the list.
+A newly created class will not yet have any students, so you should add some from this screen. You can enter the Codio user name or a part of their full name within the Add Student search field. 
+
 

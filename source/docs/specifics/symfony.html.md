@@ -12,7 +12,7 @@ full_width: true
 1. Open a Terminal window from the Tools->Terminal window
 
 
-##MDownload from the Symfony site
+##Download from the Symfony site
 
 1. Check the [Symfony website](http://symfony.com/download) to see what the latest version is. At the time of writing, it is 2.5.0.
 1. Note down the latest version number ready to modify (if necessary) the url specified in the next step.

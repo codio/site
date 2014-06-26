@@ -8,6 +8,10 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###June 26th, 2014
+- **Update**: Update Box Parts (rust)
+- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
+
 ###June 25th, 2014
 - **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.0) & Joomla (3.3.1)
 

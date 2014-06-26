@@ -126,7 +126,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **dart** (1.4.3) Dart is a new platform for scalable web app engineering
 - **dropbox** (2.6.27) Dropbox: a cloud synchronization service.
 - **elasticbeanstalk** (2.6.2) Elastic Beanstalk Command Line Tool: A command line client for interacting with the AWS Elastic Beanstalk APIs  
-- **elasticsearch** (2.6.2) Elasticsearch: A flexible and powerful open source, distributed, real-time search and analytics engine 
+- **elasticsearch** (1.0.0) Elasticsearch: A flexible and powerful open source, distributed, real-time search and analytics engine 
 - **elixir** (0.13.1) Elixir: A functional, meta-programming aware language built on top of the Erlang VM
 - **erlang** (17.0) Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
 - **erlang16** (R16B03-1) Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
@@ -152,7 +152,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **heroku-cli** (3.3.0) The Heroku CLI is used to manage Heroku apps from the command line.
 - **htop** (1.0.3) Htop: an interactive process viewer for Linux. It is a text-mode application (for console or X terminals) and requires ncurses.
 - **image_magick** (6.8.8-9) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.
-- **influxdb ** (0.5.0) InfluxDB: An open-source distributed time series database 
+- **influxdb** (0.5.0) InfluxDB: An open-source distributed time series database 
 - **jruby** (1.7.12) jRuby: The Ruby Programming Language on the JVM
 - **jython** (2.5.3) Jython: Python for the Java Platform 
 - **leiningen** (2.3.2) Leiningen: A build automation and dependency management tool for Clojure
@@ -220,13 +220,16 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **re2c** (0.13.6) Re2C: a tool for writing very fast and very flexible scanners. 
 - **redis** (2.6.16) Redis: An open-source, in-memory, key-value data store
 - **rethinkdb** (1.13) RethinkDB: An open-source distributed database built with love.
-- **rust** (0.9) Rust: A safe, concurrent, practical language
+- **rust** (0.10) Rust: A safe, concurrent, practical language
+- **rust-nightly** (0.11.0-05ca9f7_2014-06-24) Rust: A safe, concurrent, practical language
 - **s3cmd** (1.0.1-1) s3cmd: Command line tool for managing Amazon S3 and CloudFront services
 - **sbt** (0.13.5) Sbt: An interactive build tool for scala  
 - **scala** (2.10.3) Scala: An object-functional programming language
 - **scons** (2.3.1) SCons: an Open Source software construction tool—that is, a next-generation build tool.
 - **setuptools** (2.2-2) Setuptools: Easily download, build, install, upgrade, and uninstall Python packages
 - **slang** (2.2.4) Slang: a multi-platform programmer's library designed to allow a developer to create robust multi-platform software.
+- **snappy** (1.1.1) Snappy: A fast compression/decompression library 
+- **spidermonkey** (1.8.5) SpiderMonkey: Mozilla's JavaScript engine written in C/C++ 
 - **sqlite3** (3.8.2) SQLite is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
 - **swig** (2.0.11) Swig: An interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python, Ruby, and Tcl.
 - **tcsh** (6.18.01) tcsh: TENEX C Shell, an enhanced version of Berkeley csh, usable both as an interactive login shell and a shell script command processor      

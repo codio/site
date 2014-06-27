@@ -12,6 +12,7 @@ This section contains links to Codio tutorials and installation instructions.
 - [Grunt Watch Tutorial](/docs/specifics/grunt-watch)
 - [Scaffolding Applications with Yeoman](/docs/specifics/yeoman)
 - [Deploying to Heroku](/docs/specifics/heroku)
+- [Working with OpenShift](/docs/specifics/openshift)
 - [Installing the Mean.io framework](/docs/specifics/meanio)
 - [Syncing with Dropbox](/docs/specifics/dropbox)
 - [Working with Karma](/docs/specifics/karma)

@@ -6,11 +6,10 @@ tags: Changelog
 class_name: blog
 full_width: true
 image: http://i.imgur.com/9EZoT.jpg
-published: false
 ---
 
-We are extremely excited to announce that we have (finally) removed the Beta label from Codio, and are no longer in Beta.
+We are extremely excited to announce that Codio is no longer in Beta. We are extremely grateful to the many users who have worked closely with us over the last months to get Codio to where it is today.
 
-It's been a long, hard slog, but we've reached the first big milestone, and we've got loads more to come.
+As well as working hard on performance and stability, we've been building some very exciting new features which we'll be announcing over the coming weeks.
 
-We'd like to extend a huge thank you to all of you who have been a part of this first leg of our Journey. Here's to lots more!
+So once again, a huge **Thank You** to everyone who has been a part of this first leg of our journey and we look forward to having you with us on the next one!

@@ -8,47 +8,25 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###June 30th, 2014
+###July 1st, 2014
 - **Improvement**: Improved [DashBoard](/docs/console), adding in ability to search/order projects.
 
-###June 27th, 2014
-- **Feature**: Added tutorial on working with Openshift.
-
-###June 26th, 2014
-- **Update**: Update Box Parts (rust)
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-
-###June 25th, 2014
-- **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.0) & Joomla (3.3.1)
-
-###June 23rd, 2014
-- **Update**: Update Box Parts (ant, apache2, apr, composer, dart, erlang, googleappengine, meteor, phantomjs, php5-gd, phpunit, python3, tomcat)
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-
-###June 13th, 2014
-- **Update**: Update Box Part (postgresql)
-
-###June 12th, 2014
-- **Fixed**: 503 errors on accessing some projects.
-
-###June 11th, 2014
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-- **Update**: Update Box Parts (mongodb, php5-mongo)
-
-###June 10th, 2014
-- **Feature**: Added Clonable Boxes. [More information...](/docs/boxes/clone)
-
-###June 9th, 2014
-- **Fixed**: reports of deployment issues not deploying all files correctly.
-
-###June 5th, 2014
-- **Improvement**: performance and DB improvements.
-
-###June 3rd, 2014
-- **Update**: Tutorial Docs updated for PHPBrew.
-
-###June 2nd, 2014
-- **Feature**: Added Phonegap to allow you to build your projects using Phonegap:Build platform. [More information...](/blog/2014/06/phonegap-integration-inside-codio/)
+###June, 2014
+- **Feature**: (June 27th) Added tutorial on working with Openshift.
+- **Update**: (June 26th) Update Box Parts (rust)
+- **Feature**: (June 26th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: (June 25th) Tutorial Docs updated for latest versions of Symfony (2.5.0) & Joomla (3.3.1)
+- **Update**: (June 23rd) Update Box Parts (ant, apache2, apr, composer, dart, erlang, googleappengine, meteor, phantomjs, php5-gd, phpunit, python3, tomcat)
+- **Feature**: (June 23rd) New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: (June 13th) Update Box Part (postgresql)
+- **Fixed**: (June 12th) 503 errors on accessing some projects.
+- **Feature**: (June 11th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: (June 11th) Update Box Parts (mongodb, php5-mongo)
+- **Feature**: (June 10th) Added Clonable Boxes. [More information...](/docs/boxes/clone)
+- **Fixed**: (June 9th) reports of deployment issues not deploying all files correctly.
+- **Improvement**: (June 5th) performance and DB improvements.
+- **Update**: (June 3rd) Tutorial Docs updated for PHPBrew.
+- **Feature**: (June 2nd) Added Phonegap to allow you to build your projects using Phonegap:Build platform. [More information...](/blog/2014/06/phonegap-integration-inside-codio/)
 
 ###May, 2014
 - **Feature**: (May 30th) Added Karma setup tutorial

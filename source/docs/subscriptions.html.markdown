@@ -12,10 +12,10 @@ Current pricing information can be found at [https://codio.com/s/pricing/](https
 We offer several ways to deploy your apps, and one of those involves that we host your static content. This is called the Codio deployment type. This type is only available to users with a subscription. All other deployment types are still free no matter if you have a Subscription or not.
 
 ##How to buy
-There are two ways you can buy a subscription
+There are two ways you can subscribe:
 
-- From the `Codio > Subscription` menu item
-- When you try to make a public project private and do not have an active subscription.
+- Individually (from the `Codio > Subscription` menu item or as you try to make a public project private and do not have an active subscription).
+- As a Member of a Team. See [Codio Organizations](/docs/organizations/create). This will allow a company to manage centralized payment for a group of users.
 
 ##Not yet subscribed
 In this case you will see the following screen and you can enter your credit/debit card details.
@@ -42,5 +42,3 @@ Billing works as follows.
 ##Changing Credit/Debit Card Details
 You can change your card details at any time by going to the `Codio > Subscription` menu item and clicking on the 'Card Details' tab.
 
-##Group Subscriptions
-We do not currently offer this but it is planned in the near future. This will allow a company to manage centralized payment for a group of users.

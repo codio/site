@@ -33,6 +33,3 @@ Until we have completed the integration of Yo into Codio (will be available in 2
 As soon as you select it, it will take you to a new page where all the templates are listed. You can click on a template project to view it in the IDE. If you want to use it, you select `Project > Fork` and it will create a fork in your account.
 
 Most of the template projects have been generated using Yo.
-
-##SalesForce
-This is a Codio experiment. You can read more about it [here](/docs/salesforce).

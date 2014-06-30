@@ -16,7 +16,7 @@ In Project Settings you can:
 - Change the Project Name.
 - Add a description to your Project.
 - Change the Visibility of your Project.
-- Enable [Box Cloning](docs/boxes/clone).
+- Enable [Box Cloning](/docs/boxes/clone).
 - Delete your Project.
 - Export your Project as a zip file.
 

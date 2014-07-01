@@ -24,8 +24,8 @@ These tokens do not take any parameters so add a space after them if you have an
 
 - `my:` show only projects owned by me.
 - `shared:` show only projects that are shared with me.
-- `public:` show only your public projects.
-- `private:` show only your private projects.
+- `public:` show only my public projects.
+- `private:` show only my private projects.
 
 ###Examples
 - `public: desc:javascript` searches your public projects where 'javascript' appears in the project description.

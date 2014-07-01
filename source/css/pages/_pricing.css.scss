@@ -135,6 +135,64 @@ body.pricing {
         }
       }
 
+      &#orgs {
+        padding: 30px 30px 0;
+        
+        h2 {
+          border-bottom: 1px solid #eee;
+          margin-bottom: 20px;
+          padding-bottom: 4px;
+        }
+        
+        > div {
+          @include clearfix;
+          font-size: 13px;
+          
+          > div {
+            float: left;
+            
+            &:first-child {
+              width: 230px;
+              margin-right: 60px;
+              color: #888;
+            }
+
+            &:last-child {
+							width: 630px;
+              
+              table {
+                max-width: 100%;
+                background-color: transparent;
+                border-collapse: collapse;
+                border-spacing: 0;
+                width: 100%;
+                
+                tr:nth-child(odd) > td {
+                  background-color: #f9f9f9;
+                }
+                
+                tr:last-child > td {
+									border-bottom: none;
+                }
+                
+                td {
+                  padding: 8px;
+                  line-height: 20px;
+                  text-align: left;
+                  vertical-align: top;
+                  border-bottom: 1px solid #eee;
+                  
+                  &:first-child {
+                    color: #000;
+										font: 14px gotham_medium;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      
       &#faqs {
         @include clearfix;
         margin-top: 90px;

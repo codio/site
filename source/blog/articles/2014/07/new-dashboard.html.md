@@ -5,7 +5,7 @@ date: 2014-07-01
 tags: Changelog
 class_name: blog
 full_width: true
-published: false
+published: true
 ---
 
 Many Codio users have lots of projects and have been asking for a better way to locate an individual project. As a part of our Organizations support, which we'll be releasing imminently, we have revamped the main projects dashboard.

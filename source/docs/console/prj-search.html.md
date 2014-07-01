@@ -22,10 +22,10 @@ The following tokens allow you to type something after the colon delimiter
 ###Tokens without parameters
 These tokens do not take any parameters so add a space after them if you have anything else to enter in the search line.
 
-- `my:` show only projects owned by me
-- `shared:` show only projects that are shared with me
-- `public:` show only public projects owned by me (will not show public projects owned by others)
-- `private:` show only my private projects
+- `my:` show only projects owned by me.
+- `shared:` show only projects that are shared with me.
+- `public:` show only public projects.
+- `private:` show only private projects.
 
 ###Examples
 - `public: desc:javacsript` searches my private projects where 'javascript' appears in the project description

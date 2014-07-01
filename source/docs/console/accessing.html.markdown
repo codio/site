@@ -13,9 +13,7 @@ You can also search for a project by typing into the Search field and the file l
 
 ![Search](/img/docs/console-find.png)
 
-You can search for multiple criteria as well.
-For example to find all projects starting with 'f' and owned by 'igo' enter `f owner:igo` 
+You can search for multiple criteria as well.  See [Searching Projects](/docs/console/prj-search) for more information.
 
-![SearchCriteria](/img/docs/console-find1.png)
 
 

@@ -28,5 +28,5 @@ These tokens do not take any parameters so add a space after them if you have an
 - `private:` show only private projects.
 
 ###Examples
-- `public: desc:javacsript` searches my private projects where 'javascript' appears in the project description
-- `owner:superman javascript` searches projects owned by the user superman where 'javascript' appears in the project name or description
+- `public: desc:javascript` searches public projects where 'javascript' appears in the project description.
+- `owner:superman javascript` searches projects owned by the user 'superman'' where 'javascript' appears in the project name or description.

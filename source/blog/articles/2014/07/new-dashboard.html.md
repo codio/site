@@ -15,7 +15,7 @@ Many Codio users have lots of projects and have been asking for a better way to 
 ##Search
 The search feature lets you type any part of the project name or project description into the search box at the top of the page. It will then instantly refine your project listing, showing any matches.
 
-You can also search on other project data such as project owner, private/public status and other fields.
+You can also search on other project data such as project owner, description and other fields.
 
 ##Column Ordering
 You can sort any of the columns by clicking on the column headings.

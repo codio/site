@@ -5,5 +5,5 @@
 .bundle
 .cache
 .codio
-.startup.sh
+startup.sh
 .ungitrc

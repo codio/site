@@ -220,7 +220,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **re2c** (0.13.6) Re2C: a tool for writing very fast and very flexible scanners. 
 - **redis** (2.6.16) Redis: An open-source, in-memory, key-value data store
 - **rethinkdb** (1.13) RethinkDB: An open-source distributed database built with love.
-- **rust** (0.10) Rust: A safe, concurrent, practical language
+- **rust** (0.11.0) Rust: A safe, concurrent, practical language
 - **rust-nightly** (0.11.0-05ca9f7_2014-06-24) Rust: A safe, concurrent, practical language
 - **s3cmd** (1.0.1-1) s3cmd: Command line tool for managing Amazon S3 and CloudFront services
 - **sbt** (0.13.5) Sbt: An interactive build tool for scala  
@@ -238,6 +238,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **tig** (1.2.1) Tig: An ncurses-based text-mode interface for git
 - **tmux** (1.9a) Tmux: a terminal multiplexer that lets you switch easily between several programs in one terminal.
 - **tomcat** (7.0.54) Apache Tomcat: an open source software implementation of the Java Servlet and JavaServer Pages technologies.                                  
+- **tree** (1.7.0) Tree is a recursive directory listing command
 - **virtualenv** (1.11.4-2) Virtualenv: Virtual Python Environment builder 
 - **zeromq** (4.0.4) ZeroMQ: A high-performance asynchronous messaging library 
 - **zip** (3.0) Zip

@@ -5,12 +5,9 @@ section {
     margin-top: 0 !important;
   }
   
-  &#frontback {
+	&#frontback {
     .container > div {
       padding: 71px 0 70px;
-      width: 800px;
-      text-align:left;
-      margin-left: 100px;
       
       @include apply-to(more-than, desktop) {
         padding: 71px 60px 70px 72px;
@@ -33,7 +30,33 @@ section {
           font-size: 18px;
         }
       }
-         
+      
+      
+      div:nth-child(2) {
+        position: relative;
+        margin: -140px -80px;
+				width: 270px;
+        
+        @include apply-to(more-than, desktop) {
+	        margin: -157px -93px;
+          width: 328px;
+        }
+        
+        a {
+          display: block;
+        }
+      }   
+      
+      div:nth-child(3) {
+        position: left;
+        width: 364px;
+        margin: -221px 0px 0px 596px;
+        @include apply-to(more-than, desktop) {
+          width: 380px;
+	        margin: -2px 0px 0px 271px;
+        }        
+      }
+      
     }
   }
 
@@ -50,25 +73,29 @@ section {
         float: left;
         
         &:first-child {
-          padding-top: 26px;
-          width: 350px;
+          padding-top: 10px;
+          width: 600px;
+          @include apply-to(more-than, desktop) {
+            width: 650px;
+            padding: 10px;
+		      }          
         }
         
         &:last-child {
-          width: 630px;
+          width: 330px;
           text-align: right;
+          padding:50px 20px;
           
           @include apply-to(more-than, desktop) {
-            width: 754px;
+            width: 330px;
+            padding:50px 45px;
           }
           
-          iframe {
-            width: 598px;
-            height: 366px;
-            
+          img {
+            width: 270px;
+
             @include apply-to(more-than, desktop) {
-              width: 685px;
-              height: 421px;
+              width: 285px;
             }
           }
         }
@@ -76,45 +103,42 @@ section {
     }
   }
   
-  &#access {
+  &#lingos {
     background: #fff;
     
     .container > div {
-      margin: 100px 0;
+      margin: 100px 90px;
       @include clearfix;
       
       @include apply-to(more-than, desktop) {
-        margin: 100px 60px;
+        margin: 100px 90px;
       }
 
       > div {
         float: left;
         
         &:first-child {
-          width: 500px;
+          width: 300px;
+          margin-top: 50px;
           
           @include apply-to(more-than, desktop) {
-            width: 580px;
+            width: 300px;
           }
           
-          iframe {
-            width: 470px;
-            height: 289px;
-            
+          img {
+            width: 250px;
             @include apply-to(more-than, desktop) {
-              width: 520px;
-              height: 319px;
+              width: 250px;
             }
           }
         }
         
         &:last-child {
-          padding: 0;
-          width: 460px;
-
+          width: 600px;
+          
           @include apply-to(more-than, desktop) {
-            width: 524px;
-            padding: 20px 0 0 0;
+            width: 685px;
+            padding: 20px 0 0 50px;
           }
 
           ul {
@@ -127,6 +151,8 @@ section {
             }
 
             li {
+              font: gotham_light;
+              font-size: 17px;              
               display: inline-block;
               margin-right: 15px
             }
@@ -136,7 +162,7 @@ section {
     }
   }
   
-  &#classes {
+  &#starting {
     .container > div {
       padding: 70px 0;
       @include clearfix;
@@ -161,13 +187,11 @@ section {
             width: 754px;
           }
           
-          iframe {
-            width: 600px;
-            height: 377px;
-            
+          img {
+            width: 300px;
+
             @include apply-to(more-than, desktop) {
-              width: 650px;
-              height: 408px;
+              width: 400px;
             }
           }
         }
@@ -229,60 +253,7 @@ section {
     }
   }
   
-  &#lingos {
-    .container > div {
-      padding: 80px 0;
-      @include clearfix;
-      
-      @include apply-to(more-than, desktop) {
-        padding: 80px 60px;
-      }
-
-      > div {
-        float: left;
-        
-        &:first-child {
-          width: 464px;
-          
-          h2 {
-            font-size: 30px;
-            
-            @include apply-to(more-than, desktop) {
-              font-size: 34px;
-            }
-          }
-          
-          p {
-            font-size: 16px;
-            
-            @include apply-to(more-than, desktop) {
-              font-size: 17px;
-            }
-          }
-        }
-        
-        &:last-child {
-          width: 516px;
-          padding-top: 20px;
-          text-align: right;
-          
-          @include apply-to(more-than, desktop) {
-            width: 640px;
-          }
-          
-          iframe {
-            width: 503px;
-            height: 310px;
-            
-            @include apply-to(more-than, desktop) {
-              width: 600px;
-              height: 368px;
-            }
-          }
-        }
-      }
-    }
-  }
+  
   
   &#annotations {
     background: #fff;

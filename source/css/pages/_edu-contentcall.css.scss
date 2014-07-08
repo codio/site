@@ -39,18 +39,15 @@ body.edu-contentcall {
       }
       
       div {
-        font: 33px 'Indie Flower';
-        top: 142px;
-        width: 370px;
-        margin: 4px 0 0 9px;
+        font: 37px 'Indie Flower';
+        line-height: 1.2em;
+        margin: -299px 0 0 0px;
+        width: 400px;
         text-align: right;
-        position: absolute;
 
         @include apply-to(more-than, desktop) {
-          margin: 18px 0 0 25px;
+          margin:-280px 0 0 33px;
           font-size: 42px;
-          top: 86px;
-          left: 71px;
           width: 500px;
         }
 

@@ -1,0 +1,27 @@
+---
+title: Education using the World's Most Powerful Browser-Based IDE
+class_name: home edu-contentcall
+---
+
+<%= partial 'partials/edu-contentcall/header' %>
+<%= partial 'partials/edu-contentcall/frontback' %>
+<%= partial 'partials/edu-contentcall/opensource' %>
+<%= partial 'partials/education/access' %>
+<%= partial 'partials/education/classes' %>
+<%= partial 'partials/education/courses' %>
+<%= partial 'partials/education/lingos' %>
+<%= partial 'partials/education/annotations' %>
+
+<section id="clone-crowd">
+  <div class="container">
+    <%= partial 'partials/education/cloning' %>
+    <div id="clone-crowd-img">
+      <%= image_tag 'git_logo.png' %>
+    </div>
+    <%= partial 'partials/education/crowdsourcing' %>
+  </div>
+</section>
+
+<% content_for :foot do %>
+  <%= javascript_include_tag 'education' %>
+<% end %>

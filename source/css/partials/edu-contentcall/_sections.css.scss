@@ -107,8 +107,8 @@ section {
     background: #fff;
     
     .container > div {
-      margin: 100px 90px;
       @include clearfix;
+      margin: 100px 0 90px; 
       
       @include apply-to(more-than, desktop) {
         margin: 100px 90px;
@@ -122,6 +122,7 @@ section {
           margin-top: 50px;
           
           @include apply-to(more-than, desktop) {
+            margin-top: 82px;
             width: 300px;
           }
           
@@ -134,7 +135,7 @@ section {
         }
         
         &:last-child {
-          width: 600px;
+          width: 655px;
           
           @include apply-to(more-than, desktop) {
             width: 685px;
@@ -149,12 +150,15 @@ section {
             @include apply-to(more-than, desktop) {
               margin-top: 30px;
             }
-
+             b, strong {
+              	color: $red;  
+              }
             li {
-              font: gotham_light;
+              font-family: gotham_light;
               font-size: 17px;              
               display: inline-block;
               margin-right: 15px
+
             }
           }
         }

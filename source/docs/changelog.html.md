@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###July 9th, 2014
+- **Fixed**: reports of Switch to Code/preview button in Markdown files not functioning correctly in multiple panels.
+
 ###July 8th, 2014
 - **Fixed**: reports of BoxParts being inaccessible.
 

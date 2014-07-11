@@ -38,6 +38,7 @@ cd ~/.rbenv/plugins/ruby-build
 ```
 
 and then: 
+
 ```bash
 git pull
 ```

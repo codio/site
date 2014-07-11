@@ -47,7 +47,7 @@ And then running
 ```bash
 rbenv install --list
 ```
-will show the latest versions available and you can install it as above
+will show the latest versions available and you can install it as above. If there is a version of Ruby that is not available raise a request [here](https://github.com/sstephenson/ruby-build/issues2)
 
 
 ### Installing Gems

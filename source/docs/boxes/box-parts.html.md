@@ -128,6 +128,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **elasticbeanstalk** (2.6.2) Elastic Beanstalk Command Line Tool: A command line client for interacting with the AWS Elastic Beanstalk APIs  
 - **elasticsearch** (1.0.0) Elasticsearch: A flexible and powerful open source, distributed, real-time search and analytics engine 
 - **elixir** (0.13.1) Elixir: A functional, meta-programming aware language built on top of the Erlang VM
+- **enchant** (1.6.0) Enchant: a generic spell checking library. 
 - **erlang** (17.0) Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
 - **erlang16** (R16B03-1) Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
 - **fish** (2.1.0) fish: A friendly interactive shell 
@@ -140,7 +141,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **gitflow** (0.4.1) Gitflow: a collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 - **glib** (2.40.0) GLib: a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a mainloop abstraction, and so on.
 - **gmp** (6.0.0) GMP: a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.
-- **go-lang** (1.2) Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+- **go-lang** (1.3) Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 - **googleappengine** (1.9.5) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
 - **googleappenginego** (1.9.5) Google App Engine for Go: A CLI for managing Google App Engine cloud services for Go 
 - **googleappenginejava** (1.9.5) Google App Engine Java: A CLI for managing Google App Engine cloud services for Java  
@@ -180,9 +181,11 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **phantomjs** (1.9.7) PhantomJS: A headless WebKit scriptable with a JavaScript API
 - **php5** php5 (5.5.10-2) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       
 - **php5-apache2** (5.5.10-2) Php5 Apache: a php5 module for apache2.
+- **php5-apcu** (4.0.6) PHP APC User Cache  
 - **php5-bcmath** (5.5.10-1) BC Math module for php5
 - **php5-bz2** (5.5.10-1) BZ2 module for php5
 - **php5-curl** (5.5.10-1) curl module for php5 
+- **php5-enchant** (5.5.10-1) enchant module for php5 
 - **php5-exif** (5.5.10-1) Exif module for php5
 - **php5-fpm** (5.5.10-2)  PHP5-FPM: an alternative PHP FastCGI implementation with some additional features (mostly) useful for heavy-loaded sites
 - **php5-ftp** (5.5.10-1) ftp module for php5

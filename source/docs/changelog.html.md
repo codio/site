@@ -7,8 +7,11 @@ full_width: true
 This page contains a list of recent updates made to the Codio platform. We update Codio regularly, sometimes several times a day, so this page should provide information to help you figure out what we have changed.
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
+###July 16th, 2014
+- **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.2).
+
 ###July 14th, 2014
-- **Update**: Update Box Parts (go)
+- **Update**: Update Box Parts (go).
 - **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
 
 ###July 9th, 2014

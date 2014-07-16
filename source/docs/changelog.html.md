@@ -9,6 +9,7 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 ###July 16th, 2014
 - **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.2).
+- **Fixed**: Error in internal help links.
 
 ###July 14th, 2014
 - **Update**: Update Box Parts (go).

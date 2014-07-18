@@ -137,7 +137,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **freetype** (2.5.3) Freetype: a freely available software library to render fonts. 
 - **fsharp** (3.0) F#: a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
 - **geos** (3.4.2) GEOS: C++ port of the Java Topology Suite (JTS)
-- **ghc** (7.6.3) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell
+- **ghc** (7.8.3) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell
 - **gitflow** (0.4.1) Gitflow: a collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 - **glib** (2.40.0) GLib: a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a mainloop abstraction, and so on.
 - **gmp** (6.0.0) GMP: a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.

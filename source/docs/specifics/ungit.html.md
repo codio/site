@@ -42,7 +42,7 @@ To start the Ungit UI easily, you can add it to your `.codio` file. To allow Ung
 The easiest way to do this is to use the following command when you start ungit
 
     ungit --port=9501
-
+    
 Now you just need to open up the `.codio` file by selecting the Configure option in the preview menu.
 
 ![ungit](/img/docs/preview-deploy.png)
@@ -55,6 +55,8 @@ You will now find 'Visit Ungit' available in the Preview menu.
 
 ###Autostarting Ungit
 If you want to have Ungit start automatically when your Box starts, then add the command `ungit --port=9501` to the startup.sh file in the root of your project. [More on startup.sh here](/docs/boxes/startup).
+
+*Note: if you have other commands in your startup.sh file use* `ungit --port=9501&` *because ungit does not exit after the run and it can block execution of subsequent commands*
 
 ##Ungit parameters file
 Create a .ungitrc file in your home folder:

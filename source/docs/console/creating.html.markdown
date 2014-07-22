@@ -20,6 +20,8 @@ We offer a few basic starting points with this option. Select from the Create Pr
 
 - creating a blank HTML5 Boilerplate project
 - creating an empty project
+- creating a PHP project
+- creating a Mobile project
 - creating a project from a template
 
 

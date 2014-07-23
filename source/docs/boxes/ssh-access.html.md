@@ -26,6 +26,8 @@ On a Windows machine you'll probably be using putty, so grab your key from there
 ##Upload your Public Key
 You need to upload the public key you just found in the above steps. Once you have it copied to the clipboard, choose the 'Project->Upload public key to the Box' menu item and paste in the key. Press the 'Upload' button.
 
+If you want to view/check the Public key(s) you have uploaded into your project, open the terminal and run `cat ~/.ssh/authorized_keys`. 
+
 ##Connect from your local Terminal
 You can find your SSH URL in one of two ways
 

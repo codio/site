@@ -7,6 +7,14 @@ full_width: true
 This page contains a list of recent updates made to the Codio platform. We update Codio regularly, sometimes several times a day, so this page should provide information to help you figure out what we have changed.
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
+
+###July 25th, 2014
+- **Fixed**: fix file renaming issues.
+- **Improvement**: Improve handling of Anonymous users including allow terminal access and removal of box when project closed.
+
+###July 23rd, 2014
+- **Update**: Update Box Part (composer).
+
 ###July 17th, 2014
 - **Update**: Update Box Parts (ghc).
 - **Fixed**: elasticbeanstalk and go boxpart issues.

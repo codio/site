@@ -120,7 +120,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **clasp** (3.0.4) Clasp: an answer set solver for (extended) normal and disjunctive logic programs.
 - **cloudfoundry** (v6.0.1) Cloud Foundry: An open CLI for managing cloud services
 - **cmake** (2.8.11.2) CMake: A cross-platform, open-source build system
-- **composer** (1.0.0-20140623) Composer: PHP5 Dependency management
+- **composer** (1.0.0-20140724) Composer: PHP5 Dependency management
 - **couchdb** (1.5.1) CouchDB: A Database for the Web 
 - **ctags** (5.8) Exuberant Ctags: A multilanguage implementation of Ctags 
 - **dart** (1.4.3) Dart is a new platform for scalable web app engineering

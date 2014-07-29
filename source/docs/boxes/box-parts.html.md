@@ -125,7 +125,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **ctags** (5.8) Exuberant Ctags: A multilanguage implementation of Ctags 
 - **dart** (1.4.3) Dart is a new platform for scalable web app engineering
 - **dropbox** (2.6.27) Dropbox: a cloud synchronization service.
-- **elasticbeanstalk** (2.6.2) Elastic Beanstalk Command Line Tool: A command line client for interacting with the AWS Elastic Beanstalk APIs  
+- **elasticbeanstalk** (2.6.2-1) Elastic Beanstalk Command Line Tool: A command line client for interacting with the AWS Elastic Beanstalk APIs  
 - **elasticsearch** (1.0.0) Elasticsearch: A flexible and powerful open source, distributed, real-time search and analytics engine 
 - **elixir** (0.13.1) Elixir: A functional, meta-programming aware language built on top of the Erlang VM
 - **enchant** (1.6.0) Enchant: a generic spell checking library. 
@@ -179,35 +179,35 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **opam** (1.1.1-20140519) OPAM: a source-based package manager for OCaml.
 - **openldap** (2.4.39) OpenLDAP: an open source implementation of the Lightweight Directory Access Protocol.
 - **phantomjs** (1.9.7) PhantomJS: A headless WebKit scriptable with a JavaScript API
-- **php5** php5 (5.5.10-2) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       
-- **php5-apache2** (5.5.10-2) Php5 Apache: a php5 module for apache2.
+- **php5** php5 (5.5.15) PHP 5.5: A popular general-purpose scripting language that is especially suited to web development. Prebuild extensions default + mbstring, mysql, sqlite3 and openssl       
+- **php5-apache2** (5.5.15) Php5 Apache: a php5 module for apache2.
 - **php5-apcu** (4.0.6) PHP APC User Cache  
-- **php5-bcmath** (5.5.10-1) BC Math module for php5
-- **php5-bz2** (5.5.10-1) BZ2 module for php5
-- **php5-curl** (5.5.10-1) curl module for php5 
-- **php5-enchant** (5.5.10-1) enchant module for php5 
-- **php5-exif** (5.5.10-1) Exif module for php5
-- **php5-fpm** (5.5.10-2)  PHP5-FPM: an alternative PHP FastCGI implementation with some additional features (mostly) useful for heavy-loaded sites
-- **php5-ftp** (5.5.10-1) ftp module for php5
+- **php5-bcmath** (5.5.15) BC Math module for php5
+- **php5-bz2** (5.5.15) BZ2 module for php5
+- **php5-curl** (5.5.15) curl module for php5 
+- **php5-enchant** (5.5.15) enchant module for php5 
+- **php5-exif** (5.5.15) Exif module for php5
+- **php5-fpm** (5.5.15)  PHP5-FPM: an alternative PHP FastCGI implementation with some additional features (mostly) useful for heavy-loaded sites
+- **php5-ftp** (5.5.15) ftp module for php5
 - **php5-gd** (5.5.10-2) GD module for php5  
 - **php5-imagick** (3.1.2-2) ImageMagick module for php5
-- **php5-imap** (5.5.10-1) IMAP module for php5
-- **php5-intl** (5.5.10-1) Intl module for php5
-- **php5-ldap** (5.5.10-1) ldap module for php5
+- **php5-imap** (5.5.15) IMAP module for php5
+- **php5-intl** (5.5.15) Intl module for php5
+- **php5-ldap** (5.5.15) ldap module for php5
 - **php5-lzf** (1.6.2-2) LZF module for php5
 - **php5-memcached** (2.2.0) Memcached module for php5 
 - **php5-mongo** (1.5.3) Mongo driver for php5
 - **php5-oauth** (1.2.3-2) OAuth module for php5
-- **php5-pcntl** (5.5.10-1) Process Control support module for php5
-- **php5-pdo-mysql** (5.5.10-1) PDO MySql module for php5
-- **php5-pdo-pgsql** (5.5.10-1) PDO PostgreSQL module for php5
-- **php5-pgsql** (5.5.10-1) PostgreSQL module for php5
-- **php5-soap** (5.5.10-1) soap module for php5 
+- **php5-pcntl** (5.5.15) Process Control support module for php5
+- **php5-pdo-mysql** (5.5.15) PDO MySql module for php5
+- **php5-pdo-pgsql** (5.5.15) PDO PostgreSQL module for php5
+- **php5-pgsql** (5.5.15) PostgreSQL module for php5
+- **php5-soap** (5.5.15) soap module for php5 
 - **php5-ssh2** (0.12-2) SSH2 module for php5
 - **php5-xdebug** (2.2.4-1) Xdebug module for php5 
-- **php5-xsl** (5.5.10-1) XSL module for php5
-- **php5-zip** (5.5.10-1) zip module for php5
-- **php5-zlib** (5.5.10-1) zlib module for php5 
+- **php5-xsl** (5.5.15) XSL module for php5
+- **php5-zip** (5.5.15) zip module for php5
+- **php5-zlib** (5.5.15) zlib module for php5 
 - **phpmyadmin** (4.1.7) phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
 - **phppgadmin** (5.1) phpPgAdmin: a web-based administration tool for PostgreSQL.
 - **phpunit** (4.0.14) PHPUnit: A programmer-oriented testing framework for PHP.

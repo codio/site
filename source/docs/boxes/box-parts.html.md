@@ -203,6 +203,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **php5-pdo-pgsql** (5.5.15) PDO PostgreSQL module for php5
 - **php5-pgsql** (5.5.15) PostgreSQL module for php5
 - **php5-soap** (5.5.15) soap module for php5 
+- **php5-sockets** (5.5.15) Sockets module for php5 
 - **php5-ssh2** (0.12-2) SSH2 module for php5
 - **php5-xdebug** (2.2.4-1) Xdebug module for php5 
 - **php5-xsl** (5.5.15) XSL module for php5

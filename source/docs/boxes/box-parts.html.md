@@ -212,7 +212,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **phpmyadmin** (4.1.7) phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
 - **phppgadmin** (5.1) phpPgAdmin: a web-based administration tool for PostgreSQL.
 - **phpunit** (4.0.14) PHPUnit: A programmer-oriented testing framework for PHP.
-- **pip** (1.5.4-2) Pip: A tool for installing and managing Python packages 
+- **pip** (1.5.4-2) Pip: A tool for installing and managing Python2 packages. Note not required for Python3
 - **postgresql** (9.3.4) PostgreSQL: The world's most advanced open-source database system
 - **protobuf** (2.5.0) Protocol Buffers: language and platform-neutral mechanism for serializing structured data
 - **pypy** (2.2.1) PyPy: A Python interpreter and JIT written in Python

@@ -8,8 +8,11 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###July 31st, 2014
+- **Update**: Update Box Part (python3).
+
 ###July 30th, 2014
-- **Fixed**: handling of anonymose users loading projects from GitHub links
+- **Fixed**: handling of anonymose users loading projects from GitHub links.
 
 ###July 29th, 2014
 - **Update**: Update Box Parts (php and associated packages).

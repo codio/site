@@ -6,7 +6,7 @@ full_width: true
 
 Many thanks to Codio user [Matthieu Riffault](https://plus.google.com/+MatthieuRiffault) for writing this tutorial.
 
-[Ungit2](https://github.com/FredrikNoren/ungit) is a web-based Git GUI, written in Javascript and running under Node.js. 
+[Ungit](https://github.com/FredrikNoren/ungit) is a web-based Git GUI, written in Javascript and running under Node.js. 
 
 ![ungit](/img/docs/ungit-1.png)
 

@@ -9,7 +9,8 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 ###August 4th, 2014
-- **Update**: Tutorial Docs updated for Mean.io
+- **Update**: Tutorial Docs updated for Mean.io.
+- **Update**: Update Box Part (googlecloudsdk).
 
 ###July, 2104
 - **Update**: (July 31st) Update Box Part (python3).

@@ -145,7 +145,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **googleappengine** (1.9.5) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
 - **googleappenginego** (1.9.5) Google App Engine for Go: A CLI for managing Google App Engine cloud services for Go 
 - **googleappenginejava** (1.9.5) Google App Engine Java: A CLI for managing Google App Engine cloud services for Java  
-- **googlecloudsdk** (0.9.27) Google Cloud SDK: Tools and libraries to easily create and manage resources on Google Cloud Platform
+- **googlecloudsdk** (0.9.28) Google Cloud SDK: Tools and libraries to easily create and manage resources on Google Cloud Platform
 - **grails** (2.3.7) Grails: an Open Source, full stack, web application framework for the JVM.
 - **gringo** (4.3.0) Gringo: a grounder that, given an input program with first-order variables, computes an equivalent ground (variable-free) program.
 - **groovy** (2.2.2) Groovy: an agile and dynamic language for the Java Virtual Machine

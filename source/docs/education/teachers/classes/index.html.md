@@ -4,7 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-A class is a collection of students, which is associated with a course. You then assign modules from within the course to the class.
+The classes menu item can be found under the Education menu item in the left side of the Codio dashboard. You can only create classes as a member of an [organization](../organizations).
+
+A class is a collection of students. A class is then associated with a course. You can then assign modules from within the associated course to the class.
 
 ##Class Listings
 The main classes screen shows a complete listing of all classes belonging to any organizations you are a member of.

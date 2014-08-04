@@ -10,7 +10,11 @@ You can edit a the source Codio project by opening it from your projects list. I
 
 It is important to note that Codio modules are based on project snapshots and do not reference the source Codio project. The reason for this is that we do not want assigned course modules to change by accident if the source were to be updated.
 
-So, if you do need to update the source project and then update the module associated with that project, then you will need to open up the source project and select the Education->Publish menu item. This automatically locates the course module that is derived from that source project and updates the snapshot with the current state of the source project.
+So, if you do need to update the source project and then update the module associated with that project, then you will need to open up the source project and select the 
+
+		Education->Publish 
+    
+menu item. This automatically locates the course module that is derived from that source project and updates the snapshot with the current state of the source project.
 
 You should be aware that if you have created a [class]() and assigned that module to that class then any modifications you make to the source project will not be seen by the class.
 

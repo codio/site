@@ -1,12 +1,17 @@
 ---
-title: Defining teachers 
+title: Adding teachers 
 class_name: docs
 full_width: true
 ---
 
-Each class should have at least one teacher. The teacher has the ability to access student code from the class listing.
+Each class has at least one teacher. Teachers can 
+
+- modify class properties
+- delete the class
+- access student code from the class listing
+- assign grades and comments to each student module assignment
 
 SCREENSHOT WITH CIRCLED IDE ICON
 
-When you create a new class, the user who created it will automatically be added as a teacher.
+When you create a new class, the user who created it will automatically be added as a teacher. To add further teachers to the class, select the Teachers menu item and then press the edit button. Now, press the 'Permissions' button to search for teachers using their full name or Codio user name.
 

@@ -8,53 +8,30 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###July 31st, 2014
-- **Update**: Update Box Part (python3).
+###August 4th, 2014
+- **Update**: Tutorial Docs updated for Mean.io
 
-###July 30th, 2014
-- **Fixed**: handling of anonymose users loading projects from GitHub links.
-
-###July 29th, 2014
-- **Update**: Update Box Parts (php and associated packages).
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-
-###July 25th, 2014
-- **Fixed**: fix file renaming issues.
-- **Improvement**: Improve handling of Anonymous users including allow terminal access and removal of box when project closed.
-
-###July 23rd, 2014
-- **Update**: Update Box Part (composer).
-
-###July 17th, 2014
-- **Update**: Update Box Parts (ghc).
-- **Fixed**: elasticbeanstalk and go boxpart issues.
-
-###July 16th, 2014
-- **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.2).
-- **Fixed**: Error in internal help links.
-
-###July 14th, 2014
-- **Update**: Update Box Parts (go).
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-
-###July 9th, 2014
-- **Fixed**: reports of Switch to Code/preview button in Markdown files not functioning correctly in multiple panels.
-
-###July 8th, 2014
-- **Fixed**: reports of BoxParts being inaccessible.
-
-###July 5th, 2014
-- **Update**: Update Box Parts (rust)
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-
-###July 3rd, 2014
-- **Fixed**: reports of issues installing Bower packages.
-
-###July 2nd, 2014
-- **Fixed**: reports of problems deploying to NodeJitsu target.
-
-###July 1st, 2014
-- **Improvement**: Improved [DashBoard](/docs/console), adding in ability to search/order projects.
+###July, 2104
+- **Update**: (July 31st) Update Box Part (python3).
+- **Fixed**: (July 30th)handling of anonymose users loading projects from GitHub links.
+- **Update**: (July 29th) Update Box Parts (php and associated packages).
+- **Feature**: (July 29th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Fixed**: (July 25th) fix file renaming issues.
+- **Improvement**: (July 25th) Improve handling of Anonymous users including allow terminal access and removal of box when project closed.
+- **Update**: (July 23rd) Update Box Part (composer).
+- **Update**: (July 17th) Update Box Parts (ghc).
+- **Fixed**: (July 17th) elasticbeanstalk and go boxpart issues.
+- **Update**: (July 16th) Tutorial Docs updated for latest versions of Symfony (2.5.2).
+- **Fixed**: (July 16th) Error in internal help links.
+- **Update**: (July 14th) Update Box Parts (go).
+- **Feature**: (July 14th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Fixed**: (July 9th) reports of Switch to Code/preview button in Markdown files not functioning correctly in multiple panels.
+- **Fixed**: (July 8th) reports of BoxParts being inaccessible.
+- **Update**: (July 5th) Update Box Parts (rust)
+- **Feature**: (July 5th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Fixed**: (July 3rd) reports of issues installing Bower packages.
+- **Fixed**: (July 2nd) reports of problems deploying to NodeJitsu target.
+- **Improvement**: (July 1st) Improved [DashBoard](/docs/console), adding in ability to search/order projects.
 
 ###June, 2014
 - **Feature**: (June 27th) Added tutorial on working with Openshift.

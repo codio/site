@@ -31,7 +31,7 @@ When you exit your project, Codio will shut down your Box. To get MongoDB to sta
 ##Modify a couple of small things for Codio
 We now need to make a small modification to get things to run smoothly on your Codio Box. The main issue here is that Codio only allows access to Ports 1024 - 9999. The default Mean.io installation uses a port outside this range inside one file.
 
-1. Open up `server/views/includes/foot.html`
+1. Open up `packages/system/server/views/includes/foot.html`
 1. Look for `<script type="text/javascript" src="{{'http://' + req.host + ':35729/livereload.js'}}"></script>`
 1. Replace 35729 with 4000. It should now look like this
 

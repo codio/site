@@ -4,11 +4,8 @@ class_name: docs
 full_width: true
 ---
 
-Our Education features are designed to make the lives of teachers and students as easy as possible whenit comes to taeching coding. Education features comprise the following key elements
-
-- **Organizations** : you should first add all teachers and students into your Organization
-- **Courses** : you can create and manage Courses, which can be private to your Organization or publicly available to anyone
-- **Classes** : manage classes of students and associate each class with a course; from here you can also directly access students' code as well as grading assignments and adding notes
+Our Education features, accessed from the menu on the left side of the screen, are designed to make the lives of teachers and students as easy as possible when teaching coding.
 
 [SCREENSHOT]
 
+Codio's education features behave differently for teachers and students. Teachers have access to more administrative features whereas Students have access to less functionality. The documentation is divided up accordingly.

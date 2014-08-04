@@ -4,13 +4,10 @@ class_name: docs
 full_width: true
 ---
 
-A class is a collection of students, to which you assign a course. You will then assign modules from within the course to your students.
-
-##Student vs. Teacher views
-Both teachers and students are able to access the classes list but the information you see will be different depending on whether you are a student or a teacher. 
+A class is a collection of students, which is associated with a course. You then assign modules from within the course to the class.
 
 ##Class Listings
-The main classes screen shows a complete listing of all classes belonging to any  organizations you are a member of.
+The main classes screen shows a complete listing of all classes belonging to any organizations you are a member of.
 
 SCREENSHOT OF CLASSES
 

@@ -21,7 +21,7 @@ When you select a class, you are immediately shown the course that has been assi
 
 You can then select a module and you will see a list of all students who are in the class.
 
-![](docs/education/class-module-students.png)
+![](docs/education/class-view-code.png)
 
 From the list of students for the module, you are also able to access an individual student's code project by clicking the icon in the right most column of the student entry (circled in the above screenshot).
 

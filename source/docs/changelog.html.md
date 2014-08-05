@@ -8,8 +8,48 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###June 2nd, 2014
-- **Feature**: Added Phonegap to allow you to build your projects using Phonegap:Build platform.
+###August 4th, 2014
+- **Update**: Tutorial Docs updated for Mean.io.
+- **Update**: Update Box Part (googlecloudsdk).
+
+###July, 2104
+- **Update**: (July 31st) Update Box Part (python3).
+- **Fixed**: (July 30th)handling of anonymose users loading projects from GitHub links.
+- **Update**: (July 29th) Update Box Parts (php and associated packages).
+- **Feature**: (July 29th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Fixed**: (July 25th) fix file renaming issues.
+- **Improvement**: (July 25th) Improve handling of Anonymous users including allow terminal access and removal of box when project closed.
+- **Update**: (July 23rd) Update Box Part (composer).
+- **Update**: (July 17th) Update Box Parts (ghc).
+- **Fixed**: (July 17th) elasticbeanstalk and go boxpart issues.
+- **Update**: (July 16th) Tutorial Docs updated for latest versions of Symfony (2.5.2).
+- **Fixed**: (July 16th) Error in internal help links.
+- **Update**: (July 14th) Update Box Parts (go).
+- **Feature**: (July 14th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Fixed**: (July 9th) reports of Switch to Code/preview button in Markdown files not functioning correctly in multiple panels.
+- **Fixed**: (July 8th) reports of BoxParts being inaccessible.
+- **Update**: (July 5th) Update Box Parts (rust)
+- **Feature**: (July 5th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Fixed**: (July 3rd) reports of issues installing Bower packages.
+- **Fixed**: (July 2nd) reports of problems deploying to NodeJitsu target.
+- **Improvement**: (July 1st) Improved [DashBoard](/docs/console), adding in ability to search/order projects.
+
+###June, 2014
+- **Feature**: (June 27th) Added tutorial on working with Openshift.
+- **Update**: (June 26th) Update Box Parts (rust)
+- **Feature**: (June 26th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: (June 25th) Tutorial Docs updated for latest versions of Symfony (2.5.0) & Joomla (3.3.1)
+- **Update**: (June 23rd) Update Box Parts (ant, apache2, apr, composer, dart, erlang, googleappengine, meteor, phantomjs, php5-gd, phpunit, python3, tomcat)
+- **Feature**: (June 23rd) New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: (June 13th) Update Box Part (postgresql)
+- **Fixed**: (June 12th) 503 errors on accessing some projects.
+- **Feature**: (June 11th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: (June 11th) Update Box Parts (mongodb, php5-mongo)
+- **Feature**: (June 10th) Added Clonable Boxes. [More information...](/docs/boxes/clone)
+- **Fixed**: (June 9th) reports of deployment issues not deploying all files correctly.
+- **Improvement**: (June 5th) performance and DB improvements.
+- **Update**: (June 3rd) Tutorial Docs updated for PHPBrew.
+- **Feature**: (June 2nd) Added Phonegap to allow you to build your projects using Phonegap:Build platform. [More information...](/blog/2014/06/phonegap-integration-inside-codio/)
 
 ###May, 2014
 - **Feature**: (May 30th) Added Karma setup tutorial

@@ -21,6 +21,7 @@ This chapter covers the features provided by Boxes
 - [How to install Box Parts (everything from languages to middleware to databases)](/docs/boxes/box-parts)
 - [Auto starting Box Parts services](/docs/boxes/startup)
 - [Always on Boxes](/docs/boxes/always-on)
+- [Cloning Boxes](/docs/boxes/clone)
 - [Debugging Node applications](/docs/boxes/node-debugger)
 
 Users do not get `sudo` access but you shouldn't miss it. In fact, you'll probably be glad you don't have to type it.

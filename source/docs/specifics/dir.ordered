@@ -1,4 +1,5 @@
 node
+ungit
 quick-node
 nodeschool
 ruby
@@ -21,4 +22,6 @@ dropbox
 ocaml
 plone
 karma
-phonegap
+phonegapbuild
+openshift
+

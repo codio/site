@@ -11,29 +11,24 @@ full_width: true
 1. From the Codio Dashboard, create a new Empty template project. 
 1. Open a Terminal window from the Tools->Terminal window
 
-Now choose one of the following method of getting Symfony downloaded.
 
-##Method 1 - Download from the Symfony site
+##Download from the Symfony site
 
-1. Check the [Symfony website](http://symfony.com/download) to see what the latest version is. At the time of writing, it is 2.4.4.
+1. Check the [Symfony website](http://symfony.com/download) to see what the latest version is. At the time of writing, it is 2.5.2.
 1. Note down the latest version number ready to modify (if necessary) the url specified in the next step.
-1. From the terminal, `wget http://symfony.com/download?v=Symfony_Standard_Vendors_2.4.4.tgz` being sure to check the version number.
+1. From the terminal, `wget http://symfony.com/download?v=Symfony_Standard_Vendors_2.5.2.tgz` being sure to check the version number.
 1. Don't worry about the odd looking filename.
-1. Unzip the download file using `tar -zxvf download?v=Symfony_Standard_Vendors_2.4.4.tgz`
-1. Delete the zip file `rm download?v=Symfony_Standard_Vendors_2.4.4.tgz`
+1. Unzip the download file using `tar -zxvf download?v=Symfony_Standard_Vendors_2.5.2.tgz`
+1. Delete the zip file `rm download?v=Symfony_Standard_Vendors_2.5.2.tgz`
 1. `mv Symfony/{*,.*} ~/workspace` moves the contents of the Symfony folder down to the root folder (ignore warnings).
 1. Delete the now empty Symfony folder `rm -rf Symfony`
 
-##Method 2 - Use Composer to install Symfony
-
-1. `parts install php5 php5-apache2 composer mysql` from the Terminal to install PHP5, Apache, MySQL and Composer.
-1. `composer create-project symfony/framework-standard-edition` to tell Composer to install Symfony. When asked to provide missing parameters, just press enter through all the questions.
-1. `mv framework-standard-edition/{*,.*} ~/workspace  ` moves the contents of the `framework-standard-edition` folder down to the root folder (ignore warnings).
-1. `rm framework-standard-edition -r` to remove the now empty `framework-standard-edition` folder.
 
 ##Install PHP, Composer, Apache and MySQL
 
-1. If you chose Method 1 above, then type `parts install php5 php5-apache2 mysql composer` to install PHP5, Apache and MySQL. 
+We now need to get all these components installed so that Symfony will run. This is very easy with Codio luckily.
+
+1. Enter `parts install php5 php5-apache2 mysql composer` to install PHP5, Apache and MySQL. 
 1. Let's start up our services with `parts start apache2 mysql`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 
@@ -44,7 +39,7 @@ Now choose one of the following method of getting Symfony downloaded.
 Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
 
 ##Settings and Tweaks
-We need to make a few tweaks to the system for Symfony. Firstly, we need to modify the `php.ini` file to specify the time zone. You can edit the php.ini file using nano but we'll do the quick and dirty way and just append it to the end of the file. You'll them need to restart Apache as well:
+We need to make a few tweaks to the system for Symfony. Firstly, we need to modify the `php.ini` file to specify the time zone. You can edit the php.ini file using nano but we'll do the quick and dirty way and just append it to the end of the file. You'll then need to restart Apache as well:
 
     echo date.timezone = UTC >> ~/.parts/etc/php5/php.ini
     parts restart apache2

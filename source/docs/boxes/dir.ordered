@@ -9,3 +9,4 @@ workspace
 restart-reset
 startup
 always-on
+clone

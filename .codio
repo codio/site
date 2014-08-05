@@ -13,7 +13,8 @@
   "preview": {
          "Docs": "http://{{domain}}:3000/docs",
          "Home Page": "http://{{domain}}:3000/",
-         "Blog": "http://{{domain}}:3000/blog"
+         "Blog": "http://{{domain}}:3000/blog",
+         "Visit Ungit": "https://{{domain}}:9501/#/repository?path=/home/codio/workspace"
   }
 }
 

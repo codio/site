@@ -55,15 +55,14 @@ body.education {
       
       div {
         font: 30px 'Indie Flower';
-        top: 184px;
-        margin: 4px 0 0 -3px;
+       	margin: -299px 0 0 0px;
+        width: 400px;
         text-align: right;
-        position: absolute;
 
         @include apply-to(more-than, desktop) {
-          margin: 18px 0 0 50px;
-          font-size: 32px;
-          left: 71px;
+          margin: -282px 0 0 48px;
+          font-size: 34px;
+          width: 504px;
         }
 
         a {

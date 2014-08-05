@@ -6,7 +6,7 @@ full_width: true
 
 You modify permissions by selecting **Permissions** from the **Project** dropdown menu.
 
-![Permissions Dialog](docs/permissions-dlg.png)
+![Permissions Dialog](/img/docs/permissions-dlg.png)
 
 By default:
 
@@ -18,7 +18,7 @@ Changing permissions allows you to give the following access permissions to User
 
 - **Read** - View the project only
 - **Write** - Edit the project
-- **Admin** - Coming soon, we will support 'Teams/Organizations' and you will be able to assign admin rights to other Team members within your Organization.
+- **Admin** - Coming soon, we will be adding this functionality shortly and you will then be able to assign admin rights to other Team members within your [Organization](/docs/organizations).
 
 ## Adding/Removing a User
 To add a new user, start typing the user name in the text field. When you find the user, click Add and that user will be added to the list of users below.

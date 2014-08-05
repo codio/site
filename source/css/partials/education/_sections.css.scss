@@ -33,37 +33,34 @@ section {
       
       div:nth-child(2) {
         position: relative;
-        top: -102px;
-        padding: 0 35px;
+        margin: -140px -80px;
+				width: 270px;
         
         @include apply-to(more-than, desktop) {
-          top: -88px;
+	        margin: -157px -93px;
+          width: 328px;
         }
         
         a {
           display: block;
         }
-      }
-      div:nth-child(3) {
-        position: relative;
-        margin: 90px 0px 0px -225px;
-        width: 190px;
-        
-        @include apply-to(more-than, desktop) {
-          top: 0px;
-        }
-        
-        a {
-          display: block;
-        }
-      }      
+      }  
       
+      div:nth-child(3) {
+        position: left;
+        width: 364px;
+        margin: -195px 0px 0px 596px;
+        @include apply-to(more-than, desktop) {
+          width: 380px;
+	        margin: -2px 0px 0px 271px;
+        }        
+      }          
     }
   }
 
 &#stackhell {
     .container > div {
-      padding: 10px 0;
+      padding: 80px 0;
       @include clearfix;
       
       @include apply-to(more-than, desktop) {
@@ -87,12 +84,12 @@ section {
           }
           
           iframe {
-            width: 600px;
-            height: 377px;
+            width: 598px;
+            height: 366px;
             
             @include apply-to(more-than, desktop) {
-              width: 650px;
-              height: 408px;
+              width: 685px;
+              height: 421px;
             }
           }
         }
@@ -123,11 +120,11 @@ section {
           
           iframe {
             width: 470px;
-            height: 298px;
+            height: 289px;
             
             @include apply-to(more-than, desktop) {
               width: 520px;
-              height: 329px;
+              height: 319px;
             }
           }
         }
@@ -255,7 +252,7 @@ section {
   
   &#lingos {
     .container > div {
-      padding: 10px 0;
+      padding: 80px 0;
       @include clearfix;
       
       @include apply-to(more-than, desktop) {
@@ -266,25 +263,41 @@ section {
         float: left;
         
         &:first-child {
-          padding-top: 26px;
-          width: 350px;
+          width: 464px;
+          
+          h2 {
+            font-size: 30px;
+            
+            @include apply-to(more-than, desktop) {
+              font-size: 34px;
+            }
+          }
+          
+          p {
+            font-size: 16px;
+            
+            @include apply-to(more-than, desktop) {
+              font-size: 17px;
+            }
+          }
         }
         
         &:last-child {
-          width: 630px;
+          width: 516px;
+          padding-top: 20px;
           text-align: right;
           
           @include apply-to(more-than, desktop) {
-            width: 754px;
+            width: 640px;
           }
           
           iframe {
-            width: 600px;
-            height: 377px;
+            width: 503px;
+            height: 310px;
             
             @include apply-to(more-than, desktop) {
-              width: 650px;
-              height: 408px;
+              width: 600px;
+              height: 368px;
             }
           }
         }
@@ -434,5 +447,28 @@ section {
     }
   }  
     
+ &#starting {
+    .container > div {
+      padding: 70px 0;
+      @include clearfix;
+      
+      @include apply-to(more-than, desktop) {
+        padding: 80px 60px;
+      }
+
+      > div {
+        float: left;
+           
+        &:nth-child(1)  {
+          width: 630px;
+          
+          @include apply-to(more-than, desktop) {
+            width: 754px;
+          }
+          
+        }
+      }
+    }
+  }  
   
 }

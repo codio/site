@@ -1,0 +1,87 @@
+body.edu-contentcall {
+      
+  header {
+    background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), image-url('code-education-bg.jpg');
+    background-size: 100%;
+    color: #fff;
+    
+    .container {
+      h1 {
+        text-align: center;
+        width: 540px;       
+        margin: 85px 0 0 450px;
+        
+        @include apply-to(more-than, desktop) {
+          margin-left: 610px;
+        }
+        
+        span {
+          text-shadow: 0px 1px 3px #888;
+          line-height: 0.9em !important;
+
+          &:nth-child(1) {
+            font: 94px gotham_thin;
+            text-transform: uppercase;
+          }
+
+          &:nth-child(2) {
+            font: 94px gotham_black;
+            letter-spacing: -9px;
+            padding-right: 10px;
+          }
+
+          &:nth-child(3) {
+            font: 94px gotham_thin;
+            text-transform: uppercase;
+          }
+          
+        }
+      }
+      
+      div {
+        font: 37px 'Indie Flower';
+        line-height: 1.2em;
+        margin: -299px 0 0 0px;
+        width: 400px;
+        text-align: right;
+
+        @include apply-to(more-than, desktop) {
+          margin:-280px 0 0 33px;
+          font-size: 42px;
+          width: 500px;
+        }
+
+        a {
+          border-bottom: 1px solid $linkColor;
+
+          &:hover {
+            border-bottom: 1px solid black;
+          }
+        }
+        
+        strong {
+          color: $linkColor;
+        }
+      }
+    }
+  }
+  
+  @mixin screenie {
+    > div {
+      background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
+      background-size: 60%;
+      padding: 100px 0 46px 300px;
+      width: 380px;
+
+      @include apply-to(more-than, desktop) {
+        background-size: 41%;
+        padding-left: 30px;
+        width: 524px;
+        padding-bottom: 110px;
+      }
+    }
+  }
+  
+  
+  @import '../partials/edu-contentcall/sections';
+}

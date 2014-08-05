@@ -1,0 +1,14 @@
+---
+title: Education using the World's Most Powerful Browser-Based IDE
+class_name: home edu-contentcall
+---
+
+<%= partial 'partials/edu-contentcall/header' %>
+<%= partial 'partials/edu-contentcall/frontback' %>
+<%= partial 'partials/edu-contentcall/opensource' %>
+<%= partial 'partials/edu-contentcall/languages' %>
+<%= partial 'partials/edu-contentcall/starting' %>
+
+<% content_for :foot do %>
+  <%= javascript_include_tag 'education' %>
+<% end %>

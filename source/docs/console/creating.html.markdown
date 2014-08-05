@@ -4,13 +4,13 @@ class_name: docs
 full_width: true
 ---
 
-Creating a new project or importing one is really easy. All you do is click on the Create Project link at the top right in the Dashboard.
+Creating a new project or importing one is really easy. All you do is click on the Create Project button on the Dashboard as shown below.
 
-![Create Button](docs/console-createbutton.png)
+![Create Project](/img/docs/console-createbutton.png)
 
 You will then be shown a dialog that lets you choose the various ways to create or import a project.
 
-![Create Project](docs/console-create.png)
+![Create Projects](/img/docs/console-create.png)
 
 ##Back-End Development
 If you're doing any back-end coding, please refer to the [Boxes section](/docs/boxes) for details on installing and running server side components.
@@ -20,6 +20,8 @@ We offer a few basic starting points with this option. Select from the Create Pr
 
 - creating a blank HTML5 Boilerplate project
 - creating an empty project
+- creating a PHP project
+- creating a Mobile project
 - creating a project from a template
 
 
@@ -35,6 +37,3 @@ Until we have completed the integration of Yo into Codio (will be available in 2
 As soon as you select it, it will take you to a new page where all the templates are listed. You can click on a template project to view it in the IDE. If you want to use it, you select `Project > Fork` and it will create a fork in your account.
 
 Most of the template projects have been generated using Yo.
-
-##SalesForce
-This is a Codio experiment. You can read more about it [here](/docs/salesforce).

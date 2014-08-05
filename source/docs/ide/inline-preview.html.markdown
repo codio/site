@@ -40,6 +40,7 @@ In the Preview dropdown menu, you can select one of the following ways to previe
 - **Inside Codio** : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL and Box URL SSL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. [See here](/docs/boxes/ext-access) for more details on using HTTPS.
 - **New browser tab** : it will open up a new browser tab or window.
 
+If you are previewing a private project you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket method, a random password is created for your account. Go to Codio>Account where you can see your username on the Profile tab and where on the Password tab you can set up a password of your own choosing.
 
 ##Modifying the Preview menu
 You are free to customize the menu in either of the following ways

@@ -29,6 +29,28 @@ ruby -v
 
 Checkout the [rbenv Github repo](https://github.com/sstephenson/rbenv) for full documentation on rbenv.
 
+### Updating Ruby List
+
+You can update your ruby list to see the all the current versions. In your terminal run:
+
+```bash
+cd ~/.rbenv/plugins/ruby-build
+```
+
+and then: 
+
+```bash
+git pull
+```
+
+And then running
+
+```bash
+rbenv install --list
+```
+will show the latest versions available and you can install it as above. If there is a version of Ruby that is not available raise a request [here](https://github.com/sstephenson/ruby-build/issues2)
+
+
 ### Installing Gems
 
 You can install Ruby Gems in the normal way, and without requiring `sudo` access:

@@ -16,7 +16,7 @@ Some corporate firewalls block ports other than Port 80 and Port 443 (SSL). Codi
     word1-word2-port.codio.io
 
 ##Configuring Boxes, Web Servers and Services for external access over HTTP and HTTPS
-If you are running Apache, Nginx, Node, Ruby etc. and have you want to access them externally, you should configure your server/service to listen on a specific port in the normal way.
+If you are running Apache, Nginx, Node, Ruby etc. and you want to access them externally, you should configure your server/service to listen on a specific port in the normal way.
 
 Codio itself requires a number of ports but have opened up a large number for your Box. You only need be aware of the restrictions we impose based on whether you are using HTTP or HTTPS.
 

@@ -4,7 +4,11 @@ class_name: docs
 full_width: true
 ---
 
-To create a new Organization, click on the 'Organizations' link in the left hand side of your dashboard. There are now 3 steps required
+To create a new Organization, click on the 'Organizations' link in the left hand side of your dashboard. 
+
+![orgcreate](/img/docs/createorg.png)
+
+There are now 3 steps required
 
 - enter the name of your Organization and choose a plan
 - enter your payment details

@@ -8,11 +8,13 @@ Once you have assigned your course to the class and added to student to the clas
 
 Select your class from the main classes listing. You should see the course name and all modules belonging to that course. 
 
-Now, for the module you want to assign to the class (probably the first module at this stage), click on the right most icon. 
+Now, for the module you want to assign to the class, click on the right most icon. Below, you can see that the first module has already been assigned but the others have not. The assign buttons are circled.
 
-SCREENSHOT
+![](docs/education/class-module-assign.png)
 
 This will take you to the module->class assignment screen. You will see all class students listed here. All class students will be listed and pre-selected. If you decide you do not want to assign this module to any individual students then you can deselect the student now.
+
+![](docs/education/class-module-assign-final.png)
 
 Once you are ready, you click the 'Assign' button. 
 

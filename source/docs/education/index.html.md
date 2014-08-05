@@ -6,6 +6,8 @@ full_width: true
 
 Our Education features, accessed from the menu on the left side of the screen, are designed to make the lives of teachers and students as easy as possible when teaching coding.
 
-[SCREENSHOT]
+![](docs/education/courses.png)
 
-Codio's education features behave differently for teachers and students. Teachers have access to more administrative features whereas Students have access to less functionality. The documentation is divided up accordingly.
+Codio behaves differently for teachers and students. Teachers have access to configurations and administrative features whereas Students only access classes and projects. 
+
+The chapters contained within this section explain things from both the [teacher](teachers) and [student](students) perspectives.

@@ -8,7 +8,7 @@ To add a new class, press the 'Create' button from the main classes screen. You 
 
 When you create a class, you will be automatically added as a Teacher for that class. Teachers are able to assign modules to the class, view student code and assign grades and comments.
 
-SCREENSHOT
+![](docs/education/class-add.png)
 
 - You are required to enter a **Name** for your class. The **Description** is optional.
 - The **Owner** field is important to understand. You should select the organization from the dropdown that this class belongs to. This ensures that it will appear in the class list as belonging to that organization.

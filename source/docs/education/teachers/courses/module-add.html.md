@@ -4,16 +4,16 @@ class_name: docs
 full_width: true
 ---
 
-A course is a collection of modules. A module should cover a reasonably small amount of subject matter. It is better to have more modules than a couple of huge ones that cover too much material.
+A course is a collection of modules. A module should cover a reasonably small amount of subject matter. It is better to have several smaller modules than a couple of huge ones that cover too much material.
 
-A module is nothing more than a Codio project. That project will contain 
+A module is simply a Codio project. That project will likely contain 
 
 - code workspace and files
-- a [Codio Guide]()
+- a [Codio Guide](../../guides) (an inbuilt authoring tool for writing multi-step content)
 
 Press the 'Add' button to add a new module to your course.
 
-SCREENSHOT
+![](docs/education/module-add.png)
 
 You can then choose the source of your new module. The source can be any of the following options
 
@@ -24,6 +24,8 @@ You can then choose the source of your new module. The source can be any of the 
 
 ##What happens next?
 Once you have chosen a source for your module, a snapshot is made and is stored in a separate storage location. You do not need to worry about this as it is managed internally by Codio. 
+
+You do need to be aware, though, that once you create a module, it is a **copy** of your source project and not a reference/link to it.
 
 
 

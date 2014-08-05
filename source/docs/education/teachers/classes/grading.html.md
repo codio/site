@@ -8,7 +8,7 @@ Once students have completed their assignments, they should notify the teacher o
 
 The teacher can select a class and drill down to a module to see all students who have been assigned that module. Students that have completed the module will have a check in the 'Completed' column. 
 
-SCREENSHOT
+![](docs/education/class-grade.png)
 
 At this point, the teacher will probably [review the code](./view-student-code) and then assign comments and ultimately a grade.
 

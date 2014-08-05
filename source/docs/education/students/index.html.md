@@ -6,16 +6,24 @@ full_width: true
 
 If you are a student looking to use Codio courses then there are two main features Codio offers.
 
+- Classes as a part of an organization
+- Public classes created by other Codio users
+
+If you are being taught as a part of a class, your teachers will probably have an organization account and will set up a class for you. If not, then you can still find and use public courses.
+
+
 ##Classes
-If you are part of an educational organization then you will find that your teacher has assigned courses and modules to you. 
+If you are part of an educational organization then a teacher will create a class and within that class will be a series of modules. The class list looks something like this 
 
-SCREENSHOT
+Click on the Classes menu item beneath the Education menu item in the left pane in your Codio dashboard. This will show you a list of classes to which you have been assigned by a teacher. 
 
-Click on the Classes menu item beneath the Education menu item in the left pane in your Codio dashboard. This will show you a list of classes to which you have been assigned by a teacher. Select a class and you will see all the modules that are in the course that your class is taking. 
+![](docs/education/student-classes.png)
+
+Select a class by clicking on the class name and you will see a list of all the modules in the course. 
 
 Even though you can seen all modules available for the course, you can only access the modules that have been specifically assigned by your teacher at that point in time. Assigned modules can be identified by the appearance if the 'Open in IDE' icon in the right most column.
 
-SCREENSHOT
+![](docs/education/student-modules.png)
 
 When you see this icon, you can click on it and your project assignment will be loaded. You will be shown instructions on how to proceed within the project itself.
 
@@ -24,7 +32,7 @@ To return to your dashboard, click on your user name in the top right of the scr
 
 
 ##Public Courses
-If others have create public courses, then you are able to find and use these.
+If you are not a part of an Organization (and if you are), then you can look for public courses other Codio users have created.
 
 From the main Codio dashboard, select the Education menu item on the left pane. Beneath this you will then see a 'Courses' menu item. Click on this to see all available courses. You can use the search box to search for project names or text in the description fields.
 

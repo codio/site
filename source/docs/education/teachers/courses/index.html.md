@@ -8,11 +8,13 @@ The 'Courses' menu item can be found in the left menu area of the Codio dashboar
 
 Creating courses and modules is free. For more details on what features require payment, please see the [organizations](../organizations) section.
 
-SCREENSHOT
+![](docs/education/courses.png)
 
 A course is a broad area of subject matter (examples might be 'Introduction to Javascript', 'A Git Primer', 'Mastering JQuery'). A course is made up of individual modules, each of which covers a specific and manageable chunk of material that you wish to teach.
 
 A module is a Codio project that will usually contain some template code and a Guide. Please make sure you are familiar with Codio and Guides before progressing.
+
+![](docs/education/modules.png)
 
 Any Codio user can create their own course and then assign other users as teachers for that course.
 

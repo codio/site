@@ -5,15 +5,22 @@ full_width: true
 ---
 
 ##Free usage
-You do not need any form of paid account to create courses and modules. Other user will be able to find these and can then fork your modules as required.
+You do not need any form of paid account to create courses and modules. Other users will be able to find these and then fork your modules as required.
 
 ##Paid usage
-If you want to use Codio to teach classes of students then you will need an organization account. Codio offers significant discounts on organization accounts for not-for-profit educational institutions.
+If you want to use Codio to teach classes of students then you will need a paid organization account (while Codio Education remains in Beta, we are allowing usage of the classes features with the Free organization account). 
 
-If you want to keep your course modules private, then you will require either a regular Codio subscription or an organizational subscription if you plan to use classes or develop private course content with others under one umbrella account.
+Codio offers significant discounts on organization accounts for not-for-profit educational institutions. 
+
+If you just want to keep your course modules **private**, then you have the following options
+
+- a regular Codio subscription if you are working alone
+- an organizational subscription if you plan to use classes or if you want to develop private course content with others under one umbrella account
 
 ##Creating an Organization
-Organizations can be found in the main menu bar on the left side of your dashboard screen. To create a new organization, first press the Billing menu item and then, on the right hand side, press the Edit button to select an organization plan.
+Organizations can be found in the main menu bar on the left side of your dashboard screen. To create a new organization, first press the Billing menu item and then, on the right hand side, press the Edit button to select an organization plan. Please [read more about Organizations](/docs/organizations).
+
+![](docs/education/organizations.png)
 
 ##Owners and Class creation rights
 Only organization owners can currently create classes. If you created your organizational account then you will automatically be an organization owner and can therefore create classes. If you want other people to be able to do so, then you should go to the Teams option within your organization and add them to the Owners team.

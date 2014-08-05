@@ -11,16 +11,22 @@ A class is a collection of students. A class is then associated with a course. Y
 ##Class Listings
 The main classes screen shows a complete listing of all classes belonging to any organizations you are a member of.
 
-SCREENSHOT OF CLASSES
-
 You can search the classes listing as well as order the available columns. 
 
-SCREENSHOT MODULES
+![](docs/education/classes.png)
 
 When you select a class, you are immediately shown the course that has been assigned to that class as well as the complete list of modules that make up that course.
 
-SCREENSHOT STUDENTS
+![](docs/education/class.png)
 
 You can then select a module and you will see a list of all students who are in the class.
 
-From the list of students for the module, you are also able to access an individual student's code project by clicking the icon in the right most column of the student entry.
+![](docs/education/class-module-students.png)
+
+From the list of students for the module, you are also able to access an individual student's code project by clicking the icon in the right most column of the student entry (circled in the above screenshot).
+
+You can even assign a grade to the student's work and add comments.
+
+You can also add Teachers to the class so more than one teacher can view and grade student code.
+
+![](docs/education/class-teachers.png)

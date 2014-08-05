@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-It can happen that after you create you course you make some changes to the original course by modifying the source Codio projects. If this happens, you will not see these changes reflected in the class modules.
+It can happen that after you create your course you make some changes to the original course by modifying the source Codio projects. If this happens, you will not see these changes reflected in the class modules.
 
 The complete steps to update your course are as follows :
 

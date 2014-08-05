@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Once you have assigned your course to the class and added to student to the class, you are ready to hand out your first assignment to the class.
+Once you have assigned your course to the class and added student(s) to the class, you are ready to hand out your first assignment to the class.
 
 Select your class from the main classes listing. You should see the course name and all modules belonging to that course. 
 

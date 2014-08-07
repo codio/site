@@ -10,4 +10,4 @@ Our Education features, accessed from the menu on the left side of the screen, a
 
 Codio behaves differently for teachers and students. Teachers have access to configurations and administrative features whereas Students only access classes and projects. 
 
-The chapters contained within this section explain things from both the [teacher](./teachers) and [student](./students) perspectives.
+The chapters contained within this section explain things from both the [teacher](/docs/education/teachers) and [student](/docs/education/students) perspectives.

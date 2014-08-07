@@ -6,7 +6,7 @@ full_width: true
 
 The 'Courses' menu item can be found in the left menu area of the Codio dashboard beneath the main 'Education' menu item.
 
-Creating courses and modules is free. For more details on what features require payment, please see the [organizations](../organizations) section.
+Creating courses and modules is free. For more details on what features require payment, please see the [organizations](/docs/education/teachers/organizations) section.
 
 ![](docs/education/courses.png)
 

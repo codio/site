@@ -11,7 +11,7 @@ A course is a collection of modules. A module should cover a reasonably small am
 A module is simply a Codio project. That project will likely contain 
 
 - code workspace and files
-- a [Codio Guide](../../guides) (an inbuilt authoring tool for writing multi-step content)
+- a [Codio Guide](/docs/education/teachers/guides) (an inbuilt authoring tool for writing multi-step content)
 
 Press the 'Add' button to add a new module to your course.
 

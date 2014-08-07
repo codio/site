@@ -18,6 +18,6 @@ If you do update the source project and need to update the course module associa
 
 ![](docs/education/module-refresh.png)
 
-You should be aware that if you have created a [class](../../classes) and assigned that module to that class then any modifications you make to the source project will not be seen by the class.
+You should be aware that if you have created a [class](/docs/education/teachers/classes) and assigned that module to that class then any modifications you make to the source project will not be seen by the class.
 
 

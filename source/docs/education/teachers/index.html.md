@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-This section need only be read by teachers. It covers the key concepts of configuring and managing [courses, modules](courses) and [classes](classes).
+This section need only be read by teachers. It covers the key concepts of configuring and managing [courses, modules](/docs/education/teachers/courses) and [classes](/docs/education/teachers/classes).
 
 ##Courses & Modules
 You will want to create a Course that covers your subject matter and then create individual modules, each of which covers a specific and manageable chunk of material that you wish to teach.

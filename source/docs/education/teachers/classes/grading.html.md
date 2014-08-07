@@ -10,7 +10,7 @@ The teacher can select a class and drill down to a module to see all students wh
 
 ![](docs/education/class-grade.png)
 
-At this point, the teacher will probably [review the code](../view-student-code) and then assign comments and ultimately a grade.
+At this point, the teacher will probably [review the code](/docs/education/teachers/classes/view-student-code) and then assign comments and ultimately a grade.
 
 To assign comments or a grade, you click on the pencil icon. You can then modify the comments and grade fields for any individual student.
 

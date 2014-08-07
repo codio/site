@@ -21,7 +21,7 @@ Click on the Classes menu item beneath the Education menu item in the left pane 
 
 Select a class by clicking on the class name and you will see a list of all the modules in the course. 
 
-Even though you can seen all modules available for the course, you can only access the modules that have been specifically assigned by your teacher at that point in time. Assigned modules can be identified by the appearance if the 'Open in IDE' icon in the right most column.
+Even though you can see all modules available for the course, you can only access the modules that have been specifically assigned by your teacher at that point in time. Assigned modules can be identified by the appearance of the 'Open in IDE' icon in the right most column.
 
 ![](docs/education/student-modules.png)
 

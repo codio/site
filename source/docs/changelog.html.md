@@ -10,6 +10,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ###August 6th, 2014
 - **Update**: Update Box Part (grails).
+- **Fixed**: fixes for importing from BitBucket.
 
 ###August 4th, 2014
 - **Update**: Tutorial Docs updated for Mean.io.

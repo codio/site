@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+Only course owners or those with administration permissions for the course can add modules.
+
 A course is a collection of modules. A module should cover a reasonably small amount of subject matter. It is better to have several smaller modules than a couple of huge ones that cover too much material.
 
 A module is simply a Codio project. That project will likely contain 

@@ -18,7 +18,18 @@ If you just want to keep your course modules **private**, then you have the foll
 - an organizational subscription if you plan to use classes or if you want to develop private course content with others under one umbrella account
 
 ##Creating an Organization
-Organizations can be found in the main menu bar on the left side of your dashboard screen. To create a new organization, first press the Billing menu item and then, on the right hand side, press the Edit button to select an organization plan. Please [read more about Organizations](/docs/organizations).
+Organizations can be found in the main menu bar on the left side of your dashboard screen. To create a new organization
+
+- select 'Organizations' in the main menu bar in the left pane
+- press the 'Create' button in the Organizations menu column
+- enter a name for your organization
+- select a plan (during the beta phase, classes can be used with a Free organization account)
+- press the 'Next' button 
+- if you selected a Paid organization plan then you will be taken to the payment screen
+- finally, you can add additional 'owners' for your Organization
+- press 'Finish'' to create your organization
+
+You can read more about organizations [here](/docs/organizations).
 
 ![](docs/education/organizations.png)
 

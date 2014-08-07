@@ -16,6 +16,6 @@ A module is a Codio project that will usually contain some template code and a G
 
 ![](docs/education/modules.png)
 
-Any Codio user can create their own course and then assign other users as teachers for that course.
+Any Codio user can create their own course and then assign administration permissions to other users for that course.
 
 The main courses screen shows a list of your courses. You can view more than your own course by adjusting the search field at the top of the screen. To view all public courses, for example, simple clear the search field.

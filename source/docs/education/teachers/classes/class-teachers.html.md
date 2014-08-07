@@ -13,5 +13,13 @@ Each class has at least one teacher. Teachers can
 
 ![](docs/education/class-teachers.png)
 
-When you create a new class, the user who created it will automatically be added as a teacher. To add further teachers to the class, select the Teachers menu item and then press the edit button. Now, press the 'Permissions' button to search for teachers using their full name or Codio user name.
+When you create a new class, the user who created it will automatically be assigned teacher status. To add further teachers to the class, select the Teachers menu item.
+
+You can now add Teachers by searching for Codio users using their full name or their Codio user name.
+
+Teachers are only able to 
+
+- assign modules to classes
+- view student code from the class modules list
+- grade and comment
 

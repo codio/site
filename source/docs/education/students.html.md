@@ -7,7 +7,7 @@ full_width: true
 If you are a student looking to use Codio courses then there are two main features Codio offers.
 
 - Classes as a part of an organization
-- Public classes created by other Codio users
+- Public courses created by other Codio users
 
 If you are being taught as a part of a class, your teachers will probably have an organization account and will set up a class for you. If not, then you can still find and use public courses.
 
@@ -32,7 +32,7 @@ To return to your dashboard, click on your user name in the top right of the scr
 
 
 ##Public Courses
-If you are not a part of an Organization (and if you are), then you can look for public courses other Codio users have created.
+Free users, subscribers and organization subscribers can all look for public courses created by other Codio users.
 
 From the main Codio dashboard, select the Education menu item on the left pane. Beneath this you will then see a 'Courses' menu item. Click on this to see all available courses. You can use the search box to search for project names or text in the description fields.
 

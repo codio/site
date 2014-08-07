@@ -15,9 +15,12 @@ If you want to search in different ways, you can use search tokens to narrow you
 ###Tokens with parameters
 The following tokens allow you to type something after the colon delimiter
 
-- `name:` search only in the project name
-- `desc:` search only in the project description
-- `owner:` search only the project owner
+- `name:` search the project name
+- `desc:` search the project description
+- `owner:` search the project owner
+- 'org:' search for an organization name
+- 'begin:' search for a class start date (Education feature)
+- 'end:' search for a class end date (Education feature)
 
 ###Tokens without parameters
 These tokens do not take any parameters so add a space after them if you have anything else to enter in the search line.

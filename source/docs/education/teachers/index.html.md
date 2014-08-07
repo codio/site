@@ -11,7 +11,7 @@ You will want to create a Course that covers your subject matter and then create
 
 A module is a Codio project that will usually contain some template code and a guide. It does not make much sense to progress until you are familiar with using Codio for normal projects.
 
-Any Codio user can create their own course and can then assign other users as teachers to that course.
+Any Codio user can create their own course and also assign permissions to other users to administer that course.
 
 ##Guides
 A Codio guide is a rich content creation tool that allows you to author your coding course materials. Guides are authored within Codio and are very easy to write using simple markdown. 
@@ -22,7 +22,7 @@ Guides are based on the existing Annotations concepts and will replace Annotatio
 A teacher is a Codio user that has administrative rights over a course. The Codio user that creates a course will automatically be considered a teacher for that course. Teachers can create modules for a course and also manage classes of students.
 
 ##Students
-Any Codio who is assigned to a class is considered a Student.
+Any Codio user who is assigned to a class is considered a Student.
 
 ##Classes
 A class is a collection of students. A course teacher is able to add students to a class.

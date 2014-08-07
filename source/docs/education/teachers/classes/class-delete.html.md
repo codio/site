@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Only teachers or organization owners are allowed to delete a class. This is done by 
+A class can be deleted by the class owner and those with administration permissions granted by the owner.
 
 - pressing the 'X' icon in the rightmost column of the class listing
 - selecting the class and then pressing the 'Edit' button after which you will see a red 'Delete' button

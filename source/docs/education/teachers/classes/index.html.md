@@ -4,7 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-The classes menu item can be found under the Education menu item in the left side of the Codio dashboard. You can only create classes as a member of an [organization](../organizations).
+The classes menu item can be found under the Education menu item in the left side of the Codio dashboard.
+
+Classes can only be created by members of the Owners team. Teams are managed in the [Organization](../organizations) menu item in the left pane.
 
 A class is a collection of students. A class is then associated with a course. You can then assign modules from within the associated course to the class.
 

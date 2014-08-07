@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###August 6th, 2014
+- **Update**: Update Box Part (grails).
+
 ###August 4th, 2014
 - **Update**: Tutorial Docs updated for Mean.io.
 - **Update**: Update Box Part (googlecloudsdk).

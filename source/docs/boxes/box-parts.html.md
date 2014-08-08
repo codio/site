@@ -169,7 +169,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **maven** (3.2.1) Maven: A software project management and comprehension tool
 - **mc** (4.8.12) GNU Midnight Commander: a visual file manager
 - **memcached** (1.4.15) Memcached: An open-source, high-performance memory object caching system 
-- **meteor** (0.8.1) Meteor: A real-time web development platform
+- **meteor** (0.8.3) Meteor: A real-time web development platform
 - **mongodb** (2.6.1) MongoDB: A cross-platform document-oriented NoSQL database system
 - **mono** (3.2.8) Mono: a software platform designed to allow developers to easily create cross platform applications. 
 - **mysql** (5.6.15) MySQL: The world's most popular open-source relational database

@@ -176,12 +176,12 @@ section {
                 text-indent: -9999px;
                 display: block;
                 width: 10px;
-                height: 98px;
+                height: 60px;
                 background-size: 90px;
 
                 @include apply-to(more-than, desktop) {
                   width: 10px;
-                  height: 90px;
+                  height: 60px;
                 }
               }
 
@@ -232,7 +232,7 @@ section {
   }
 
 	&#pricing {    
-    background: #fff;
+    background: rgba(255, 246, 229, 0.29);
     .container > div {      
       @include clearfix;
       background: transparent image-url("home/screens/edu-pricing.png") no-repeat 16px 94px;
@@ -265,13 +265,13 @@ section {
   
   &#edu-ide {
     .container > div {
-      background: transparent image-url("home/screens/home-todomvc.png") no-repeat 328px 68px;
+      background: transparent image-url("home/screens/ide.png") no-repeat 328px 68px;
       background-size: 650px;  
       padding: 105px 60px;
       @include clearfix;
       
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("home/screens/home-todomvc.png") no-repeat 435px 68px;
+        background: transparent image-url("home/screens/ide.png") no-repeat 435px 68px;
         background-size: 720px;          
         padding: 123px 60px;
       }
@@ -325,13 +325,13 @@ section {
   
   &#guides {
     .container > div {
-      background: transparent image-url("home/screens/home-todomvc.png") no-repeat 328px 68px;
+      background: transparent image-url("home/screens/guides.png") no-repeat 328px 68px;
       background-size: 650px;  
       padding: 105px 60px;
       @include clearfix;
       
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("home/screens/home-todomvc.png") no-repeat 435px 68px;
+        background: transparent image-url("home/screens/guides.png") no-repeat 435px 68px;
         background-size: 720px;          
         padding: 123px 60px;
       }

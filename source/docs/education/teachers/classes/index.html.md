@@ -21,7 +21,7 @@ When you select a class, you are immediately shown the course that has been assi
 
 ![](docs/education/class.png)
 
-You can then select a module and you will see a list of all students who are in the class.
+You can then select a module and you will see a list of all students who are in the class and were assigned that module.
 
 ![](docs/education/class-view-code.png)
 

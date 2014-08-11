@@ -3,8 +3,8 @@ body.education {
   header {
     background: #596A84 image-url('home/screens/world-map.png');
     background-repeat: no-repeat;
-    background-position: center 150px;
-    height: 600px;
+    background-position: center 120px;
+    height: 570px;
     color: #fff;
 
     .container {
@@ -15,7 +15,7 @@ body.education {
         margin: 250px 0px 0px -7px;
 
         @include apply-to(more-than, desktop) {
-	        margin: 106px 0px 0px 62px;
+	        margin: 250px 0px 0px 62px;
         }
 
         span {

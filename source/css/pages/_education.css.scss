@@ -1,24 +1,23 @@
 body.education {
-    
+
   header {
     background: #596A84 image-url('home/screens/world-map.png');
     background-repeat: no-repeat;
-    background-position: center 90px;
-    background-size: 1020px;
-    height: 445px;
+    background-position: center 150px;
+    height: 600px;
     color: #fff;
-    
+
     .container {
       h1 {
         text-align: left;
         line-height: 2.0em;
-        width: 530px;   
-        margin: 100px 0px 0px -7px;	
-        
+        width: 530px;
+        margin: 250px 0px 0px -7px;
+
         @include apply-to(more-than, desktop) {
-	        margin: 106px 0px 0px 62px;	
-        } 
-        
+	        margin: 106px 0px 0px 62px;
+        }
+
         span {
           text-shadow: 0px 1px 3px #888;
           line-height: 0.9em !important;
@@ -42,19 +41,19 @@ body.education {
             font: 50px gotham_thin;
             text-transform: lowercase;
           }
-          
+
           // teachers
           &:nth-child(4) {
             font: 74px gotham_medium;
             display: block;
           }
-          
+
           // teaching
           &:nth-child(5) {
             font: 74px gotham_medium;
             display: block;
           }
-          
+
           // to code
           &:nth-child(6) {
             padding-top: 15px;
@@ -65,14 +64,14 @@ body.education {
           }
         }
       }
-      
+
       div {
-        
+
         text-align: right;
         font: 24px 'gotham_thin';
         margin: -204px 0 0 596px;
-        width: 363px;        
-        
+        width: 363px;
+
 
         @include apply-to(more-than, desktop) {
           margin: -187px 0 0 660px;
@@ -87,14 +86,14 @@ body.education {
             border-bottom: 1px solid black;
           }
         }
-        
+
         strong {
-          color: $linkColor;
+          font-family: gotham_medium;
         }
       }
     }
   }
-  
+
   @mixin screenie {
     > div {
       background: transparent image-url('home/screens/screen-shadows.png') no-repeat 0 bottom;
@@ -110,7 +109,7 @@ body.education {
       }
     }
   }
-  
-  
+
+
   @import '../partials/education/sections';
 }

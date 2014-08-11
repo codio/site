@@ -31,12 +31,12 @@ body.education {
           }
 
           &:last-child {
-            text-align: right;
+            //text-align: right;
             margin: 158px 0 0 112px;
             font: 28px 'gotham_thin';
             
             @include apply-to(more-than, desktop) {
-              margin: 178px 0 0 226px;
+              margin: 177px 0 0 213px;
               font: 28px 'gotham_thin';
             }            
             strong {

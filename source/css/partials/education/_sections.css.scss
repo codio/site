@@ -6,11 +6,11 @@ section {
   }
   
   .button-blue {
-    font: 21px 'gotham_thin';
+    font: 18px 'gotham_thin'!important;
     text-align: center;
-    line-height: 1.0em;  
+    line-height: 1.0em!important;  
     background-color: #596a84;
-    padding: 8px;
+    padding: 14px;
     border: 2px solid;
     border-radius: 3px;
     border-color: #596a84;
@@ -20,11 +20,11 @@ section {
   }
   
   .button-red {
-    font: 21px 'gotham_thin';
+    font: 18px 'gotham_thin'!important;
     text-align: center;
-    line-height: 1.0em;  
+    line-height: 1.0em!important;  
     background-color: #943930;
-    padding: 8px;
+    padding: 14px;
     border: 2px solid;
     border-radius: 3px;
     border-color: #943930;
@@ -34,27 +34,20 @@ section {
   }
 
   h2 {
-    color: #666;
-    font: 40px 'gotham_thin';
+    color: #666!important;
+    font: 40px 'gotham_thin'!important;
     @include apply-to(more-than, desktop) {
-      font: 44px 'gotham_thin';
+      font: 44px 'gotham_thin'!important;
     }
   }
 
-  &#frontback {
+  &#frontback-edu {
     .container > div {
-      padding: 55px 0 0;
-      
-      
-      h2 {
-        font: 32px gotham_thin;
-        padding-bottom: 5px;
-        
-        @include apply-to(more-than, desktop) {
-          font-size: 39px;
-        }
+      padding: 55px 0px 66px 0px;
+			@include apply-to(more-than, desktop) {      
+	      padding: 55px 0px 66px 0px;
       }
-      
+        
       p {
         font-size: 16px;
         @include apply-to(more-than, desktop) {
@@ -63,6 +56,7 @@ section {
       }  
       
       div:nth-child(1) {  
+        float: left;
         margin: 0px 0px 0px 0px;
         width: 400px;
         @include apply-to(more-than, desktop) {
@@ -72,7 +66,7 @@ section {
       }
       
       div:nth-child(2) {
-        position: relative;
+				float: right;
         width: 400px;
         text-align: right;        
         margin: -2px 0px 0px 121px;
@@ -84,18 +78,13 @@ section {
       }           
       
       div:nth-child(3) {
-        position: relative;
-        margin: 70px -41px;
-				width: 230px;
-
-        
-        @include apply-to(more-than, desktop) {
-          font: 19px 'gotham_thin';
-          padding: 10px;
-	        margin: 70px -41px;
-          width: 250px;
+        .button-red {
+          margin: 259px auto 0px auto;
+          @include apply-to(more-than, desktop) {
+	          margin: 300px auto 0px auto;
+          }
+          width: 230px;
         }
-
       }       
       
     }
@@ -114,7 +103,7 @@ section {
         float: left;
 				
         &:first-child {
-          margin: 50px 0px 0px 10px;
+          margin: 103px 0px 0px 10px;
           width: 220px;
           @include apply-to(more-than, desktop) {
             margin: 75px 0px 0px 26px;
@@ -144,12 +133,6 @@ section {
           }
 
 					p {
-            background-color: #596a84;
-            padding: 8px;
-            border: 2px solid;
-            border-radius: 3px;
-            border-color: #596a84;
-            text-align: center;
             margin-top: 48px;
             a {
               color: #ffffff;
@@ -200,9 +183,9 @@ section {
       padding: 50px 0px 60px 0px;
       margin: 0px 0px 0px -28px;
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("home/screens/edu-pricing.png") no-repeat 62px 21px;
+        background: transparent image-url("home/screens/edu-pricing.png") no-repeat 62px 45px;
         background-size: 705px;          
-				padding: 60px 0px 60px 0px;
+				padding: 70px 0px 80px 0px;
       }
 
       > div {
@@ -210,13 +193,6 @@ section {
         
         &:first-child {
           text-align: left;
-          h2 {
-            font: 32px gotham_thin;
-            color: #000;
-            @include apply-to(more-than, desktop) {
-							font: 39px gotham_thin;
-            }
-          }
           width: 361px;
           margin: 0px 0px 0px 645px;
           
@@ -225,6 +201,10 @@ section {
             margin: 0px 0px 0px 810px;
           }
 
+          .button-blue {
+            width: 200px;
+          }
+          
         }
         
       }
@@ -237,7 +217,7 @@ section {
       @include clearfix;
       padding: 50px 18px 18px 0px;     
       @include apply-to(more-than, desktop) {
-        padding: 50px 18px 30px 16px;
+        padding: 62px 18px 46px 17px;
       }
 
       div {
@@ -250,14 +230,11 @@ section {
             margin: 75px 0px 0px 26px;
             width: 300px;
           }
-
-          h2 {
-            color: #666;
-            font: 40px 'gotham_thin';
-            @include apply-to(more-than, desktop) {
-              font: 44px 'gotham_thin';
-            }
+          .button-blue {
+            margin-top: 50px;
+            width: 200px;
           }          
+         
         }
 
         &:last-child {
@@ -293,7 +270,7 @@ section {
       @include clearfix;
       padding: 50px 18px 18px 0px;     
       @include apply-to(more-than, desktop) {
-        padding: 50px 18px 30px 16px;
+        padding: 50px 18px 70px 16px;
       }
 
       div {
@@ -323,14 +300,9 @@ section {
           @include apply-to(more-than, desktop) {
             margin: 19px 0px 0px 60px;
             width: 465px;
-          }
-
-          h2 {
-            color: #666;
-            font: 40px 'gotham_thin';
-            @include apply-to(more-than, desktop) {
-              font: 44px 'gotham_thin';
-            }
+          }     
+          .button-blue {
+            width: 222px;
           }          
         }
         
@@ -357,13 +329,8 @@ section {
             margin: 75px 0px 0px 26px;
             width: 340px;
           }
-
-          h2 {
-            color: #666;
-            font: 40px 'gotham_thin';
-            @include apply-to(more-than, desktop) {
-              font: 44px 'gotham_thin';
-            }
+          .button-blue {
+            width: 222px;
           }          
         }
 
@@ -408,25 +375,36 @@ section {
       div {
         float: left;
         text-align: center;        
-        margin: 0px 0px 0px 0px;
-        width: 700px;
+        margin: 0px 0px 60px 100px;
+        width: 760px;
 
         @include apply-to(more-than, desktop) {
           margin: 0px 0px 45px 250px;            
         }
         
-        &:nth-child(1) {
-          padding-top: 20px;
+        *:nth-child(1) {
+          margin-top: 20px;
         }
-        &:nth-child(2) {
-          padding-top: 20px;
+        *:nth-child(2) {
+          margin-top: 20px;
         }
-        &:nth-child(3) {
-          padding-top: 20px;
+        *:nth-child(3) {
+					margin: 61px auto 10px;
+          width: 200px;
         }
-        &:nth-child(4) {
-          padding-top: 20px;
+        *:nth-child(4) {
+          margin: 22px auto;
+          width: 200px;          
+          font-size: 20px;
+        }
+        *:nth-child(5) {
+          margin: 60px 0px 0px 0px;         
+          font-size: 20px;
         }        
+        *:nth-child(6) {
+          margin: 0px 0px 0px 0px;         
+          font-size: 20px;
+        }  
         
       }
     }

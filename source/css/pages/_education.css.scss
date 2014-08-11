@@ -10,16 +10,31 @@ body.education {
     .container {
 
       div {
+        opacity: 1 !important;
         
-        &:first-child {
-          width: 300px;
-          margin: 0px 0px 0px 0px;
-        }
+        div {
+          float: left;
 
-        &:last-child {
-          float: right;
-          margin: 300px 45px 0px 0px;
-          font: 34px 'gotham-thin';
+          &:first-child {
+            width: 392px;
+            margin: 134px 0 0 30px;
+            
+            img {
+              right: 0;
+              left: 0;
+							bottom: 0;
+            }
+          }
+
+          &:last-child {
+            margin: 229px 0 0 226px;
+            font: 28px 'gotham_thin';
+            text-align: right;
+            
+            strong {
+              color: #f36050;
+            }
+          }
         }
         
       }

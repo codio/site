@@ -69,11 +69,11 @@ section {
 				float: right;
         width: 400px;
         text-align: right;        
-        margin: -2px 0px 0px 121px;
+        margin: -2px 20px 0px 121px;
         
         @include apply-to(more-than, desktop) {
           width: 480px;
-	        margin: -2px 0px 0px 142px;
+	        margin: -2px 48px 0px 0px;
         }        
       }           
       
@@ -91,57 +91,29 @@ section {
   }
   
    &#videos {
-     background: #e0e3e8;
+   	background: #e0e3e8;
     .container > div {
       @include clearfix;
-      padding: 20px 18px 0px 0px;     
+      padding: 50px 18px 28px 0px;     
       @include apply-to(more-than, desktop) {
-        padding: 50px 18px 30px 16px;
+        padding: 62px 18px 46px 17px;
       }
 
       div {
         float: left;
 				
         &:first-child {
-          margin: 103px 0px 0px 10px;
-          width: 220px;
+          margin: 115px 0px 0px 2px;
+          width: 230px;
           @include apply-to(more-than, desktop) {
-            margin: 75px 0px 0px 26px;
-            width: 220px;
+            margin: 130px 0px 0px 26px;
+            width: 300px;
           }
-
-          h3 {
-            text-align: right;
-            color: #666;
-            font-size: 40px;
-
-            @include apply-to(more-than, desktop) {
-              font-size: 40px;
-            }
-          }
-
-          h4 {
-            font: 17px gotham_book;
-            line-height: 1.4em;
-            text-align: right;
-            color: #bbb;
-            font-family: gotham_thin;
-            padding: 7px 0px 0 15px;	
-            @include apply-to(more-than, desktop) {
-	            padding: 25px 0px 0 15px;	
-            }
-          }
-
-					p {
-            margin-top: 48px;
-            a {
-              color: #ffffff;
-            }    
-            @include apply-to(more-than, desktop) {
-	            margin-top: 64px;
-            }
-          }
-          
+          .button-blue {
+            margin-top: 50px;
+            width: 200px;
+          }          
+         
         }
 
         &:last-child {
@@ -150,21 +122,20 @@ section {
           border-color: #aaaaaa;
           padding: 10px;
           background: #ffffff;
-          width: 686px;
-          margin: 17px -40px 42px 29px;
+          width: 650px;
+          margin: 17px 0px 42px 55px;
 
           @include apply-to(more-than, desktop) {
-            width: 808px;
+            width: 733px;
 	          margin: 17px -58px 42px 79px;            
           }
 
           iframe {
-            width: 688px;
-            height: 430px;
-
+            width: 652px;
+            height: 399px;
             @include apply-to(more-than, desktop) {
-              width: 805px;
-              height: 495px;
+              width: 735px;
+              height: 452px;
             }
           }
         }
@@ -178,12 +149,12 @@ section {
     .container > div {
       
       @include clearfix;
-      background: transparent image-url("home/screens/edu-pricing.png") no-repeat 19px 44px;
+      background: transparent image-url("home/screens/edu-pricing.png") no-repeat 19px 78px;
       background-size: 605px;  
       padding: 50px 0px 60px 0px;
       margin: 0px 0px 0px -28px;
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("home/screens/edu-pricing.png") no-repeat 62px 45px;
+        background: transparent image-url("home/screens/edu-pricing.png") no-repeat 62px 72px;
         background-size: 705px;          
 				padding: 70px 0px 80px 0px;
       }
@@ -193,8 +164,8 @@ section {
         
         &:first-child {
           text-align: left;
-          width: 361px;
-          margin: 0px 0px 0px 645px;
+          width: 327px;
+          margin: 0px 0px 0px 655px;
           
           @include apply-to(more-than, desktop) {
             width: 386px;

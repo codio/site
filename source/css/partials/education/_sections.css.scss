@@ -5,6 +5,42 @@ section {
     margin-top: 0 !important;
   }
   
+  .button-blue {
+    font: 21px 'gotham_thin';
+    text-align: center;
+    line-height: 1.0em;  
+    background-color: #596a84;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #596a84;
+    a {
+      color: #ffffff;
+    }    
+  }
+  
+  .button-red {
+    font: 21px 'gotham_thin';
+    text-align: center;
+    line-height: 1.0em;  
+    background-color: #943930;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #943930;
+    a {
+      color: #ffffff;
+    }    
+  }
+
+  h2 {
+    color: #666;
+    font: 40px 'gotham_thin';
+    @include apply-to(more-than, desktop) {
+      font: 44px 'gotham_thin';
+    }
+  }
+
   &#frontback {
     .container > div {
       padding: 55px 0 0;
@@ -51,17 +87,7 @@ section {
         position: relative;
         margin: 70px -41px;
 				width: 230px;
-        font: 21px 'gotham_thin';
-        text-align: center;
-        line-height: 1.0em;  
-        background-color: #596a84;
-        padding: 15px;
-        border: 2px solid;
-        border-radius: 5px;
-        border-color: #596a84;
-        a {
-          color: #ffffff;
-        }
+
         
         @include apply-to(more-than, desktop) {
           font: 19px 'gotham_thin';
@@ -121,7 +147,7 @@ section {
             background-color: #596a84;
             padding: 8px;
             border: 2px solid;
-            border-radius: 5px;
+            border-radius: 3px;
             border-color: #596a84;
             text-align: center;
             margin-top: 48px;
@@ -137,7 +163,7 @@ section {
 
         &:last-child {
           border: 2px solid;
-          border-radius: 5px;
+          border-radius: 3px;
           border-color: #aaaaaa;
           padding: 10px;
           background: #ffffff;
@@ -169,12 +195,12 @@ section {
     .container > div {
       
       @include clearfix;
-      background: transparent image-url("home/screens/edu-pricing.png") no-repeat 19px 92px;
+      background: transparent image-url("home/screens/edu-pricing.png") no-repeat 19px 44px;
       background-size: 605px;  
       padding: 50px 0px 60px 0px;
       margin: 0px 0px 0px -28px;
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("home/screens/edu-pricing.png") no-repeat 62px 72px;
+        background: transparent image-url("home/screens/edu-pricing.png") no-repeat 62px 21px;
         background-size: 705px;          
 				padding: 60px 0px 60px 0px;
       }
@@ -274,11 +300,6 @@ section {
         float: left;
 				
         &:first-child {
-          border: 0px solid;
-          border-radius: 5px;
-          border-color: #aaaaaa;
-          padding: 0px;
-          background: #ffffff;
           margin: -7px 29px 42px 4px;
 
           @include apply-to(more-than, desktop) {
@@ -290,8 +311,8 @@ section {
             height: 421px;
 
             @include apply-to(more-than, desktop) {
-              width: 630px;
-              height: 392px;
+              width: 546px;
+              height: 331px;
             }
           }
         }
@@ -301,7 +322,7 @@ section {
           width: 345px;
           @include apply-to(more-than, desktop) {
             margin: 19px 0px 0px 60px;
-            width: 404px;
+            width: 465px;
           }
 
           h2 {
@@ -334,7 +355,7 @@ section {
           width: 250px;
           @include apply-to(more-than, desktop) {
             margin: 75px 0px 0px 26px;
-            width: 300px;
+            width: 340px;
           }
 
           h2 {
@@ -347,15 +368,14 @@ section {
         }
 
         &:last-child {
-          border: 2px solid;
-          border-radius: 5px;
-          border-color: #aaaaaa;
-          padding: 10px;
+          border: 3px solid;
+          border-radius: 3px;
+          border-color: #6f6f6f;
           background: #ffffff;
           margin: 17px -40px 42px 50px;
 
           @include apply-to(more-than, desktop) {
-	          margin: 17px -58px 42px 55px;            
+	          margin: 17px -58px 42px 88px;            
           }
 
           img {
@@ -363,8 +383,8 @@ section {
             height: 421px;
 
             @include apply-to(more-than, desktop) {
-              width: 753px;
-              height: 512px;
+              width: 690px;
+              height: 442px;
             }
           }
         }
@@ -375,9 +395,11 @@ section {
   
   
   &#get-started {
-     background: #fff;
+    background: #fff;
+
     .container > div {
       @include clearfix;
+       
       padding: 70px 18px 18px 0px;     
       @include apply-to(more-than, desktop) {
         padding: 55px 18px 30px 16px;
@@ -385,50 +407,26 @@ section {
 
       div {
         float: left;
-				
-        &:first-child {
-          border: 3px solid;
-          border-radius: 5px;
-          border-color: #aaaaaa;
-          padding: 0px;
-          background: #ffffff;
-          margin: 0px 26px 50px 68px;
+        text-align: center;        
+        margin: 0px 0px 0px 0px;
+        width: 700px;
 
-          @include apply-to(more-than, desktop) {
-	          margin: 17px -6px 42px 160px;            
-          }
-
-          img {
-            width: 334px;
-            height: 334px;
-
-            @include apply-to(more-than, desktop) {
-              width: 392px;
-              height: 392px;
-            }
-          }
+        @include apply-to(more-than, desktop) {
+          margin: 0px 0px 45px 250px;            
         }
         
-        &:last-child {
-          margin: 16px 0px 0px 47px;
-          width: 411px;
-          @include apply-to(more-than, desktop) {
-            margin: 52px 0px 0px 60px;
-            width: 404px;
-          }
-
-          h2 {
-            color: #666;
-            font: 40px 'gotham_thin';
-            @include apply-to(more-than, desktop) {
-              font: 44px 'gotham_thin';
-            }
-          }    
-          
-          .links-big {
-            padding-top:15px;
-          }
+        &:nth-child(1) {
+          padding-top: 20px;
         }
+        &:nth-child(2) {
+          padding-top: 20px;
+        }
+        &:nth-child(3) {
+          padding-top: 20px;
+        }
+        &:nth-child(4) {
+          padding-top: 20px;
+        }        
         
       }
     }

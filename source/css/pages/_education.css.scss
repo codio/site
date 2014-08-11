@@ -16,8 +16,12 @@ body.education {
           float: left;
 
           &:first-child {
-            width: 392px;
-            margin: 134px 0 0 30px;
+            width: 310px;
+            margin: 134px 0 0 30px;            
+            @include apply-to(more-than, desktop) {
+              width: 392px;
+              margin: 134px 0 0 30px;
+            }
             
             img {
               right: 0;
@@ -27,12 +31,16 @@ body.education {
           }
 
           &:last-child {
-            margin: 229px 0 0 226px;
-            font: 28px 'gotham_thin';
             text-align: right;
+            margin: 158px 0 0 112px;
+            font: 28px 'gotham_thin';
             
+            @include apply-to(more-than, desktop) {
+              margin: 178px 0 0 226px;
+              font: 28px 'gotham_thin';
+            }            
             strong {
-              color: #f36050;
+              font-size: 32px;
             }
           }
         }

@@ -1,67 +1,82 @@
 body.education {
     
   header {
-    background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), image-url('code-education-bg.jpg');
-    background-size: 100%;
+    background: #596A84 image-url('home/screens/world-map.png');
+    background-repeat: no-repeat;
+    background-position: center 90px;
+    background-size: 1020px;
+    height: 445px;
     color: #fff;
     
     .container {
       h1 {
-        text-align: center;
-        width: 530px;       
-        margin: 85px 0 0 450px;
+        text-align: left;
+        line-height: 2.0em;
+        width: 530px;   
+        margin: 100px 0px 0px -7px;	
         
         @include apply-to(more-than, desktop) {
-          margin-left: 610px;
-        }
+	        margin: 106px 0px 0px 62px;	
+        } 
         
         span {
           text-shadow: 0px 1px 3px #888;
           line-height: 0.9em !important;
+          font: 55px gotham_thin;
 
+          // a
           &:nth-child(1) {
-            font: 76px gotham_thin;
+            padding-left: 7px;
+            font: 50px gotham_thin;
             text-transform: lowercase;
           }
 
+          // paradise
           &:nth-child(2) {
-            font: 76px gotham_bold;
-            letter-spacing: -9px;
+            font: 50px gotham_thin;
             padding-right: 10px;
           }
 
+          // for
           &:nth-child(3) {
-            font: 54px gotham_thin;
+            font: 50px gotham_thin;
             text-transform: lowercase;
           }
           
+          // teachers
           &:nth-child(4) {
-            font: 94px gotham_thin;
+            font: 74px gotham_medium;
             display: block;
           }
           
+          // teaching
           &:nth-child(5) {
-            font: 94px gotham_black;
+            font: 74px gotham_medium;
             display: block;
           }
           
+          // to code
           &:nth-child(6) {
-            font: 64px gotham_medium;
-            letter-spacing: -7px;
-            padding-left: 200px;
+            padding-top: 15px;
+            padding-left: 7px;
+            font: 50px gotham_thin;
+            text-transform: lowercase;
+            display: block;
           }
         }
       }
       
       div {
-        font: 30px 'Indie Flower';
-       	margin: -299px 0 0 0px;
-        width: 400px;
+        
         text-align: right;
+        font: 24px 'gotham_thin';
+        margin: -204px 0 0 596px;
+        width: 363px;        
+        
 
         @include apply-to(more-than, desktop) {
-          margin: -282px 0 0 48px;
-          font-size: 34px;
+          margin: -187px 0 0 660px;
+          font-size: 24px;
           width: 504px;
         }
 

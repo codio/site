@@ -7,104 +7,98 @@ section {
   
   &#frontback {
     .container > div {
-      padding: 71px 0 70px;
+      padding: 55px 0 0;
       
-      @include apply-to(more-than, desktop) {
-        padding: 71px 60px 70px 72px;
-      }
       
       h2 {
-        font: 32px gotham_medium;
-        border-bottom: 1px solid #f36050;
+        font: 32px gotham_thin;
         padding-bottom: 5px;
         
         @include apply-to(more-than, desktop) {
-          font-size: 34px;
+          font-size: 39px;
         }
       }
       
       p {
         font-size: 16px;
-        
         @include apply-to(more-than, desktop) {
           font-size: 18px;
         }
+      }  
+      
+      div:nth-child(1) {  
+        margin: 0px 0px 0px 0px;
+        width: 400px;
+        @include apply-to(more-than, desktop) {
+          width: 480px;
+	        margin: -2px 0px 0px 44px;
+        }         
       }
       
       div:nth-child(2) {
         position: relative;
-        margin: -140px -58px;
-				width: 270px;
-        
-        @include apply-to(more-than, desktop) {
-	        margin: -157px -67px;
-          width: 328px;
-        }
-        
-        a {
-          display: block;
-        }
-      }  
-      
-      div:nth-child(3) {
-        position: left;
-        width: 334px;
+        width: 400px;
         text-align: right;        
-        margin: -2px 0px 0px 253px;
+        margin: -2px 0px 0px 121px;
+        
         @include apply-to(more-than, desktop) {
-          width: 380px;
-	        margin: -2px 0px 0px 303px;
+          width: 480px;
+	        margin: -2px 0px 0px 142px;
         }        
       }           
       
-      div:nth-child(4) {
-        position: left;
-        margin: -170px 58px;
-				width: 149px;
-        p {
-          font-size: 30px;
-          text-align: center;
-          line-height: 1.0em;          
-        }
-        @include apply-to(more-than, desktop) {
-	        margin: -176px 68px;
-          width: 149px;
+      div:nth-child(3) {
+        position: relative;
+        margin: 70px -41px;
+				width: 230px;
+        font: 21px 'gotham_thin';
+        text-align: center;
+        line-height: 1.0em;  
+        background-color: #596a84;
+        padding: 15px;
+        border: 2px solid;
+        border-radius: 5px;
+        border-color: #596a84;
+        a {
+          color: #ffffff;
         }
         
-        a {
-          display: block;
+        @include apply-to(more-than, desktop) {
+          font: 19px 'gotham_thin';
+          padding: 10px;
+	        margin: 70px -41px;
+          width: 250px;
         }
+
       }       
       
     }
   }
   
    &#videos {
+     background: #e0e3e8;
     .container > div {
       @include clearfix;
-      padding: 20px 18px 0px 0px;
-			margin-left: 0px;	      
+      padding: 20px 18px 0px 0px;     
       @include apply-to(more-than, desktop) {
-        margin-left: 20px;
+        padding: 50px 18px 30px 16px;
       }
 
       div {
         float: left;
-
+				
         &:first-child {
-          width: 147px;
-          margin-top: 30px;
-          padding-right: 40px;
+          margin: 50px 0px 0px 10px;
+          width: 220px;
           @include apply-to(more-than, desktop) {
-            margin-top: 40px;
-            padding-right: 0px;
+            margin: 75px 0px 0px 26px;
             width: 220px;
           }
 
           h3 {
             text-align: right;
             color: #666;
-            font-size: px;
+            font-size: 40px;
 
             @include apply-to(more-than, desktop) {
               font-size: 44px;
@@ -123,85 +117,86 @@ section {
             }
           }
 
-          img {
-            width: 120px;
-            margin: 5px 0px 0px 32px;
-            @include apply-to(more-than, desktop) {
-              width: 150px;
-	            margin: 28px 0px 0px 64px;
-            }
+					p {
+            background-color: #596a84;
+            padding: 8px;
+            border: 2px solid;
+            border-radius: 5px;
+            border-color: #596a84;
+            text-align: center;
+            margin-top: 48px;
             a {
-              width: 150px;
+              color: #ffffff;
+            }    
+            @include apply-to(more-than, desktop) {
+	            margin-top: 64px;
             }
           }
           
         }
 
         &:last-child {
-          width: 747px;
-          background: transparent image-url('home/video_mac.png') no-repeat;
-          background-size: 979px 804px;
-          background-position: -91px -106px;
-          height: 610px;
-          padding: 27px 0 0 26px;
+          border: 2px solid;
+          border-radius: 5px;
+          border-color: #aaaaaa;
+          padding: 10px;
+          background: #ffffff;
+          width: 686px;
+          margin: 17px -40px 42px 29px;
 
           @include apply-to(more-than, desktop) {
-            width: 878px;
-            background-size: 1099px 900px;
-            background-position: -59px -106px;
-            height: 690px;
-            padding: 42px 0 0 76px;
+            width: 808px;
+	          margin: 17px -58px 42px 79px;            
           }
 
           iframe {
-            width: 723px;
-            height: 444px;
+            width: 688px;
+            height: 430px;
 
             @include apply-to(more-than, desktop) {
               width: 805px;
               height: 495px;
             }
           }
-
-          p {
-            font: 14px gotham_medium;
-            margin: 28px 580px 0px 0px;
-            i {
-              color: $red;
-            }
-            @include apply-to(more-than, desktop) {
-              margin: 36px 712px 0px 0px;
-            }
-          }
         }
+        
       }
     }
   }
 
 	&#pricing {    
-    background: rgba(255, 246, 229, 0.29);
-    .container > div {      
-      @include clearfix;
-      background: transparent image-url("home/screens/edu-pricing.png") no-repeat 16px 94px;
-      background-size: 500px;  
-      padding: 100px 0px 100px 0px;
+    background: #fff;
+    .container > div {
       
+      @include clearfix;
+      background: transparent image-url("home/screens/edu-pricing.png") no-repeat 19px 92px;
+      background-size: 605px;  
+      padding: 50px 0px 60px 0px;
+      margin: 0px 0px 0px -28px;
       @include apply-to(more-than, desktop) {
         background: transparent image-url("home/screens/edu-pricing.png") no-repeat 62px 72px;
-        background-size: 582px;          
-				padding: 100px 0px 100px 0px;
+        background-size: 705px;          
+				padding: 60px 0px 60px 0px;
       }
 
       > div {
         float: left;
         
         &:first-child {
-          width: 438px;
-          margin: 0px 0px 0px 557px;
+          text-align: left;
+          h2 {
+            font: 32px gotham_thin;
+            color: #000;
+            @include apply-to(more-than, desktop) {
+							font: 39px gotham_thin;
+            }
+          }
+          width: 361px;
+          margin: 0px 0px 0px 645px;
           
           @include apply-to(more-than, desktop) {
-            width: 438px;
-            margin: 0px 0px 0px 705px
+            width: 386px;
+            margin: 0px 0px 0px 810px;
           }
 
         }
@@ -211,134 +206,233 @@ section {
   }  
   
   &#edu-ide {
+     background: #e0e3e8;
     .container > div {
-      background: transparent image-url("home/screens/ide.png") no-repeat 328px 68px;
-      background-size: 650px;  
-      padding: 105px 60px;
       @include clearfix;
-      
+      padding: 50px 18px 18px 0px;     
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("home/screens/ide.png") no-repeat 435px 68px;
-        background-size: 720px;          
-        padding: 123px 60px;
+        padding: 50px 18px 30px 16px;
       }
 
-      > div {
+      div {
         float: left;
-				margin: -5px -52px;        
-        width: 276px;
-        text-align: left;
-          
-        @include apply-to(more-than, desktop) {
-          width: 276px;
-					margin: 0px 0px;                
+				
+        &:first-child {
+          margin: 36px 0px 0px 2px;
+          width: 230px;
+          @include apply-to(more-than, desktop) {
+            margin: 75px 0px 0px 26px;
+            width: 300px;
+          }
+
+          h2 {
+            color: #666;
+            font: 40px 'gotham_thin';
+            @include apply-to(more-than, desktop) {
+              font: 44px 'gotham_thin';
+            }
+          }          
         }
 
+        &:last-child {
+          border: 3px solid;
+          border-radius: 5px;
+          border-color: #aaaaaa;
+          padding: 0px;
+          background: #ffffff;
+          margin: 17px -40px 42px 50px;
+
+          @include apply-to(more-than, desktop) {
+	          margin: 17px -58px 42px 55px;            
+          }
+
+          img {
+            width: 660px;
+            height: 427px;
+
+            @include apply-to(more-than, desktop) {
+              width: 753px;
+              height: 512px;
+            }
+          }
+        }
+        
       }
     }
   }
   
-	&#os-content {    
-    background: #fff;
-    .container > div {      
+  &#os-content {
+     background: #fff;
+    .container > div {
       @include clearfix;
-      background: transparent image-url("crowdsourced.png") no-repeat 16px 94px;
-      background-size: 500px;  
-      padding: 100px 0px 100px 0px;
-      
+      padding: 50px 18px 18px 0px;     
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("crowdsourced.png") no-repeat 62px 72px;
-        background-size: 582px;          
-				padding: 100px 0px 100px 0px;
+        padding: 50px 18px 30px 16px;
       }
 
-      > div {
+      div {
         float: left;
-        
+				
         &:first-child {
-          width: 438px;
-          margin: 0px 0px 0px 557px;
-          
+          border: 0px solid;
+          border-radius: 5px;
+          border-color: #aaaaaa;
+          padding: 0px;
+          background: #ffffff;
+          margin: -7px 29px 42px 4px;
+
           @include apply-to(more-than, desktop) {
-            width: 438px;
-            margin: 0px 0px 0px 705px
+	          margin: 17px -6px 42px 29px;            
           }
 
+          img {
+            width: 553px;
+            height: 421px;
+
+            @include apply-to(more-than, desktop) {
+              width: 630px;
+              height: 392px;
+            }
+          }
+        }
+        
+        &:last-child {
+          margin: -8px 0px 0px 2px;
+          width: 345px;
+          @include apply-to(more-than, desktop) {
+            margin: 19px 0px 0px 60px;
+            width: 404px;
+          }
+
+          h2 {
+            color: #666;
+            font: 40px 'gotham_thin';
+            @include apply-to(more-than, desktop) {
+              font: 44px 'gotham_thin';
+            }
+          }          
         }
         
       }
     }
-  }     
-  
+  }
+
   &#guides {
+     background: #e0e3e8;
     .container > div {
-      background: transparent image-url("home/screens/guides.png") no-repeat 328px 68px;
-      background-size: 650px;  
-      padding: 105px 60px;
       @include clearfix;
-      
+      padding: 50px 18px 18px 0px;     
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("home/screens/guides.png") no-repeat 435px 68px;
-        background-size: 720px;          
-        padding: 123px 60px;
+        padding: 50px 18px 30px 16px;
       }
 
-      > div {
+      div {
         float: left;
-				margin: -5px -52px;        
-        width: 276px;
-        text-align: left;
-          
-        @include apply-to(more-than, desktop) {
-          width: 276px;
-					margin: 0px 0px;                
+				
+        &:first-child {
+          margin: 36px 0px 0px 2px;
+          width: 250px;
+          @include apply-to(more-than, desktop) {
+            margin: 75px 0px 0px 26px;
+            width: 300px;
+          }
+
+          h2 {
+            color: #666;
+            font: 40px 'gotham_thin';
+            @include apply-to(more-than, desktop) {
+              font: 44px 'gotham_thin';
+            }
+          }          
         }
 
+        &:last-child {
+          border: 2px solid;
+          border-radius: 5px;
+          border-color: #aaaaaa;
+          padding: 10px;
+          background: #ffffff;
+          margin: 17px -40px 42px 50px;
+
+          @include apply-to(more-than, desktop) {
+	          margin: 17px -58px 42px 55px;            
+          }
+
+          img {
+            width: 644px;
+            height: 421px;
+
+            @include apply-to(more-than, desktop) {
+              width: 753px;
+              height: 512px;
+            }
+          }
+        }
+        
       }
     }
   }  
   
+  
   &#get-started {
-    background: #fff;
-    .container > div {      
+     background: #fff;
+    .container > div {
       @include clearfix;
-      background: transparent image-url("home/screens/power-button.png") no-repeat 5px 39px;
-      background-size: 380px;  
-      padding: 100px 0px 100px 0px;
-      
+      padding: 70px 18px 18px 0px;     
       @include apply-to(more-than, desktop) {
-        background: transparent image-url("home/screens/power-button.png") no-repeat 52px 25px;
-        background-size: 402px;          
-				padding: 100px 0px 100px 0px;
+        padding: 55px 18px 30px 16px;
       }
 
-      > div {
+      div {
         float: left;
-        
+				
         &:first-child {
-          width: 438px;
-          margin: 0px 0px 0px 474px;          
-          p.links-big {
-            padding-top: 18px;
-            margin: 0px 0px 0px 20px;
-            line-height: 1.0em;
+          border: 3px solid;
+          border-radius: 5px;
+          border-color: #aaaaaa;
+          padding: 0px;
+          background: #ffffff;
+          margin: 0px 26px 50px 68px;
 
-          }
-          
           @include apply-to(more-than, desktop) {
-            width: 438px;
-            margin: 0px 0px 0px 562px
+	          margin: 17px -6px 42px 160px;            
           }
 
+          img {
+            width: 334px;
+            height: 334px;
+
+            @include apply-to(more-than, desktop) {
+              width: 392px;
+              height: 392px;
+            }
+          }
+        }
+        
+        &:last-child {
+          margin: 16px 0px 0px 47px;
+          width: 411px;
+          @include apply-to(more-than, desktop) {
+            margin: 52px 0px 0px 60px;
+            width: 404px;
+          }
+
+          h2 {
+            color: #666;
+            font: 40px 'gotham_thin';
+            @include apply-to(more-than, desktop) {
+              font: 44px 'gotham_thin';
+            }
+          }    
+          
+          .links-big {
+            padding-top:15px;
+          }
         }
         
       }
     }
   }
-  
-  
-  
-  
   
   
 	&#instantaccess {

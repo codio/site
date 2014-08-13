@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###August 13th, 2014
+- **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.3), Drupal (7.31) & Joomla (3.3.3).
+
 ###August 8th, 2014
 - **Update**: Update Box Part (meteor).
 - **Fixed**: reports of issues installing Bower packages.

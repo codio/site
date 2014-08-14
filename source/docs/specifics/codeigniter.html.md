@@ -15,11 +15,11 @@ There's not much to installing CodeIgniter into a Codio project. Here's a quick 
 
 ##Download from the CodeIgniter site
 
-1. Check the [CodeIgniter website](http://ellislab.com/codeigniter/user-guide/installation/downloads.html) to see what the latest version is. At the time of writing, it is 2.1.4.
+1. Check the [CodeIgniter website](http://ellislab.com/codeigniter/user-guide/installation/downloads.html) to see what the latest version is. At the time of writing, it is 2.2.0.
 1. Note down the latest version number ready to modify (if necessary) the url specified in the next step.
-1. From the terminal, `wget http://ellislab.com/asset/ci_download_files/CodeIgniter_2.1.4.zip` being sure to check the version number.
-1. Unzip the download file using `unzip CodeIgniter_2.1.4.zip`
-1. Now delete the zip file `rm CodeIgniter_2.1.4.zip`
+1. From the terminal, `wget http://ellislab.com/asset/ci_download_files/CodeIgniter_2.2.0.zip` being sure to check the version number.
+1. Unzip the download file using `unzip CodeIgniter_2.2.0.zip`
+1. Now delete the zip file `rm CodeIgniter_2.2.0.zip`
 
 
 ##Install PHP, Apache (and MySQL)

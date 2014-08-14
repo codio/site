@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###August 14th, 2014
+- **Update**: Tutorial Docs updated for latest versions of CodeIgniter (2.2.0).
+
 ###August 13th, 2014
 - **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.3), Drupal (7.31) & Joomla (3.3.3).
 

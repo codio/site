@@ -1,0 +1,181 @@
+---
+title: "Codio API (alpha)"
+class_name: api
+full_width: true
+layout: api
+---
+
+# Codio API
+
+**This document describes the alpha release of the Codio Public API. This is version one of the API. For assistance, please email help@codio.com.**. *The API and this document is not currently for public use.*
+
+## Endpoint
+
+All request should be made to https://api.codio.com/v1 with a Content Type of JSON
+`Content-type: application/json`.
+
+
+## Authentication
+
+All requests should be authenticated via an ID and secret. These are unique to you and will be generated
+for you.
+
+Currently only HTTP Basic Auth is supported.
+
+
+## Resources
+
+#### POST /v1/projects
+
+Creates a new [anonymous] project from source.
+
+##### Parameters
+
+* `image` - The name as a String of the base image with preinstalled software (required).
+* `source` - The source as a Hash that the project will be created with (required).
+  * `type` - The type of the source as a String (required). Supported values:
+    * `url` - A public URL of a zip or tar archive file.
+    * `git` - A public Git repository.
+  * `url` - If `type` == `url` || `git`, then this is required and should be the URL as a String.
+* `post_creation_cmd` - An Array of commands that will be run on the project after it is created.
+  * `cmd` - The command as a String which will be executed (required).
+  * `args` - An Array of arguments that will be passed to the command.
+  * `env` - An Array of environment variables as key/value pairs.
+  * `cwd` - The current working directory as a String in which the command will be executed. (default: project workspace)
+
+.codio file configures buttons: Start, Run etc.
+
+##### Example Request
+```
+{
+	"projects": {
+        "image": "versal",
+        "source": {
+        	"type": "url",
+            "url": "http://versal/sandbox/gadget.tar.gz"
+        },
+        "post_creation_cmd":  {
+            "cmd": "versal",
+            "args": [
+                "test"
+            ],
+            "env": {
+                "KEY": "VALUE",
+                "KEY2": "VALUE2"
+            },
+            "cwd": "/home/project/gadget"
+        }
+    }
+}
+```
+
+##### Example Response
+```
+{
+	"projects": {
+        "id": "GUID",
+        "name": "fnalkruefvcaskdjfoweifnasdf",
+        "owner": "username",
+        "url": "https://codio.com/anon/fnalkruefvcaskdjfoweifnasdf",
+        "path": "username/fnalkruefvcaskdjfoweifnasdf"
+    }
+}
+```
+
+##### CURL Examples
+```
+curl -H "Content-Type: application/json" -d '{"projects":{"image": "versal", "source": {"type":"url", "url": "https://github.com/Versal/iframe-launcher/archive/v0.2.4.tar.gz"}}}' https://api.codio.com/v1/projects
+curl -H "Content-Type: application/json" -d '{"projects":{"image": "versal", "post_creation_cmd": {"cmd": "versal", "args": ["init"]}, "source": {"type":"url", "url": "https://github.com/Versal/iframe-launcher/archive/v0.2.4.tar.gz"}}}' https://api.codio.com/v1/projects
+```
+
+#### POST /v1/cmds
+
+Executes a single on the Box for the given Project.
+
+Currently only works with anonymous projects.
+
+##### Parameters
+
+Only one of `project_id` or `project_path` is required.
+
+* `project_id` - The ID of the project as a String.
+* `project_path` - The path as a String of the project.
+* `cmd` - The command as a String which will be executed (required).
+* `args` - An Array of arguments that will be passed to the command.
+* `env` - An Array of environment variables as key/value pairs.
+* `cwd` - The current working directory as a String in which the command will be executed. (default: project workspace)
+
+##### Example Request
+```
+{
+	"cmds": {
+    	"project_id": "0e16d3c3-a868-4feb-bf4a-6d0072ffa8e0",
+        "project_path": "username/project_name",
+		"cmd": "versal",
+        "args": [                      // optional
+        	"test"
+        ],
+    	"env": {                       // optional
+        	"KEY": "VALUE",
+            "KEY2": "VALUE2"
+        },
+        "cwd": "/home/codio/workspace" // optional
+    }
+
+}
+```
+
+##### Example response
+```
+{
+	cmds: {
+        "code": 0,
+        "stdout": "std out",
+        "strerr": "std err"
+    }
+}
+```
+
+##### CURL Example:
+```
+curl -i -H "Content-Type: application/json" -d '{"cmds": {"project_id": "a65b58b8-264d-468c-8513-103f5111197e", "cmd":"versal", "args": ["test"], "cwd": "/home/project/iframe-launcher-0.2.4/"}}' https://api.codio.com/v1/cmds
+```
+
+#### POST /v1/export
+
+Exports the project as a zip archive in sync way, wait for a task completion will be done on codio side.
+
+Currently only works with public projects.
+
+##### Parameters
+
+Only one of `project_id` or `project_path` is required.
+
+* `project_id` - The ID of the project as a String.
+* `project_path` - The path as a String of the project.
+* `type` - The type of output file as a String. (allowed values: `targz` or `zip`) (default: `zip`)
+* `directory` - The name as a String of the directory that will be exported. (default: the project workspace)
+* `excludes` - An Array of paths with each as a String. These paths will be excluded from being exported. Paths are relative to the `directory`.
+
+##### Example Request
+```
+{
+	exports: {
+		"project_id": "0e16d3c3-a868-4feb-bf4a-6d0072ffa8e0",
+        "project_path": "username/project_name",
+		"type": "targz or zip",
+        "directory": "dist",
+        "excludes": ["./node_modules", "./.git"]
+    }
+}
+```
+
+##### Example Response 
+```
+{
+	"exports": {
+		"url": "url_to_exported_resource"
+    }
+}
+```
+

@@ -19,7 +19,7 @@ This tutorial shows you how to create a CakePHP 3 project and work with it in Co
 ##Install PHP, Apache and MySQL/MariaDB
 We now need to install a few components
 
-1. `parts install php5 php5-apache2 mysql composer` automatically installs PHP5, Apache, MySQL and Composer. If you need a different version of PHP, refer to the [PHPBrew tutorial](../php-brew).
+1. `parts install php5 php5-apache2 mysql composer php5-intl` automatically installs PHP5, Apache, MySQL and Composer and the intl module for PHP. If you need a different version of PHP, refer to the [PHPBrew tutorial](../php-brew).
 1. Let's start up our services with `parts start apache2 mysql`
 
 ##Installing other PHP Modules

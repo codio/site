@@ -8,6 +8,12 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###August 22nd, 2014
+- **Fixed**: Incorrect dates shown for Subscription Transactions histories.
+
+###August 21st, 2014
+- **Feature**: Added tutorial on working with NodeBB.
+
 ###August 14th, 2014
 - **Update**: Tutorial Docs updated for latest versions of CodeIgniter (2.2.0).
 

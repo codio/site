@@ -16,6 +16,7 @@ This section contains links to Codio tutorials and installation instructions.
 - [Installing the Mean.io framework](/docs/specifics/meanio)
 - [Syncing with Dropbox](/docs/specifics/dropbox)
 - [Working with Karma](/docs/specifics/karma)
+- [Working with NodeBB](/docs/specifics/nodebb)
 - [Building projects to Phonegap:Build](/docs/specifics/phonegapbuild)
 
 

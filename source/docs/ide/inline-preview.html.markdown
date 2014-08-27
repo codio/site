@@ -8,6 +8,7 @@ It is important to understand the difference between Static and Dynamic content 
 
 ###Static content
 You can use 'Preview static' options on Static content only (HTML, CSS, JS and text).
+You can also preview static content on your mobile device easily using 'Project>QR Code for Preview URL' to generate a QR code you can scan with a QR Reader on your device.
 
 ###Dynamic content
 To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the rightmost menu option. You can access your server side application in one of two ways

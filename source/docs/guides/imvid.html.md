@@ -16,13 +16,12 @@ Go to [Google](google.com) to look stuff up.
 ##Images
 Inserting an image is similar. Here are some examples. PNG and JPG image types are supported. Note that the 2nd, 3rd and 4th examples point to images within your project.
 
-Generally speaking, you should put your images in the `.guides` folder. You can create your own folder structure there.
+Generally speaking, you should put your images in the `.guides/img` folder in order to keep the rest of your workspace free of extraneous content for the benefit of the student. 
 
 ```
 ![optional alt tag](http://any-url-you-like.png)
 ![](image-in-project-root.jpg)
-![](folder-off-root/myimage.png)
-![](root-folder/one-more-folder/myimage.jpg)
+![](.guides/img/best-place-for-images.png)
 ```
 
 ##Videos

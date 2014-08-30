@@ -7,10 +7,12 @@ full_width: true
 When you are in Edit mode, you can select a section by 
 
 - using the navigation buttons in the header area
-- by selecting a section from the section list
+- selecting a section from the section list
 
+##Renaming the Section
 You can rename your section by clicking on the section title in the header area.
 
+##Writing Guide content
 You can then start writing your content in the main content area.
 
 ##Markdown

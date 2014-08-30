@@ -6,7 +6,7 @@ full_width: true
 
 If you want to automatically open up one or more files when the current section displays, you can define which files to open by clicking on the 'Files' button in the header area.
 
-[IMAGE WITH FILES CIRCLED AND DIALOG OPEN]
+![](/img/docs/guides/files.png)
 
 You are shown a dialog which allows you to specify
 

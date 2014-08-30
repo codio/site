@@ -12,12 +12,13 @@ You may find it helpful to split Codio into 2 panes using the 'View->Panels' or 
 
 Having selected 'Edit Guides' you will see your Guides window appear.
 
-[IMAGE - PANELS WITH GUIDES IN RIGHT ONE]
-
 ##Anatomy of the Guides Editor
-Below is a screenshot of the editor. 
+Below is a screenshot of the editor with the main components highlighted. 
 
-[IMAGE]
+![](/img/docs/guides/overview.png)
+
+##Editor Functions
+Within the editor is a toolbar which gives you access to the key functions.
 
 - **Files** allows you to specify a) which files you want to automatically open when the current section is displayed and b) which lines (if any) you wish to highlight within each file
 - **Editable** specifies whether the files you are opening up with the **Files** option can be edited at that moment by the viewer when Guides is in Play mode

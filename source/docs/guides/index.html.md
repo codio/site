@@ -4,7 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-#Guides
 Codio Guides is a fully integrated content authoring tool that allows you to write rich tutorial type content using pure markdown. 
 
 For an introduction to Guides, take a look at the video below.

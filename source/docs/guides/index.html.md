@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+**BETA: ** Guides is currently in Beta. Although it has good stability, we recommend using Git to version your work. Git is preinstalled and the workspace is already initialized as a Git repo.
+
 Codio Guides is a fully integrated content authoring tool that allows you to write rich tutorial type content using pure markdown. 
 
 For an introduction to Guides, take a look at the video below.

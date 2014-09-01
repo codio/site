@@ -30,7 +30,6 @@ body.home {
     background-color: #EAEDF2;
     height: 450px;
     overflow-x: hidden;
-    padding-top: 60px;
 
     .container {
       @include clearfix();
@@ -144,7 +143,7 @@ body.home {
       #screen {
         background: transparent image-url('home/main-screen.png') no-repeat center;
         background-size: 440px;
-        top: 72px;
+        top: 180px;
         margin-left: 541px;
         position: absolute;
         z-index: 2;
@@ -158,7 +157,7 @@ body.home {
           width: 480px;
           height: 506px;
           margin-left: 684px;
-          top: 67px;
+          top: 160px;
         }
 
         a {
@@ -205,6 +204,37 @@ body.home {
         font: 12px gotham_book;
         display: block;
         margin-top: 5px;
+      }
+    }
+  }
+  
+  #education {
+    background: #596A84 image-url('home/screens/world-map.png') no-repeat 347px -108px;
+    padding: 90px 0 20px 0;
+    color: #fff;
+    
+    h3 {
+      font: 26px gotham_book;
+      margin: 18px 0 0 25px;
+      padding: 0;
+      text-shadow: 0 1px 1px #444;
+      
+      @include apply-to(more-than, desktop) {
+        margin-left: 102px;
+      }
+      
+      small {
+        font: 18px gotham_thin;
+        text-transform: initial;
+        display: block;
+        
+        a {
+          background: #596A84;
+          padding: 7px;
+          text-decoration: underline;
+          border-radius: 8px;
+          font-family: gotham_book;
+        }
       }
     }
   }

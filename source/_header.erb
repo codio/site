@@ -7,7 +7,10 @@
       <ul id="site-nav">
         <li><%= link_to 'Features', '/features', :data => { :"no-turbolink" => true } %></li>
         <li><%= link_to 'Pricing', '/pricing', :data => { :"no-turbolink" => true } %></li>
-        <li><%= link_to 'Education', '/education', :data => { :"no-turbolink" => true } %></li>
+        <li>
+          <span>NEW!</span>
+          <%= link_to 'Education', '/education', :data => { :"no-turbolink" => true } %>
+        </li>
         <li><%= link_to 'Docs', '/docs', :data => { :"no-turbolink" => true } %></li>
         <li><%= link_to 'Blog', '/blog', :data => { :"no-turbolink" => true } %></li>
         <li><%= link_to 'Forum', 'http://forum.codio.com', :target => "_blank", :data => { :"no-turbolink" => true } %></li>

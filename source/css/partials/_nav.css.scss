@@ -53,7 +53,7 @@ body .wrap > nav {
     // Navigation items
     ul {
       padding: 0;
-      margin: 34px 0 0 0;
+      margin: 20px 0 0 0;
       font: 16px gotham_light;
 
       // Sign in/out and try links
@@ -146,6 +146,15 @@ body .wrap > nav {
       li {
         display: inline-block;
         padding: 0 7px;
+        
+        &:nth-child(3) span {
+          position: relative;
+          transform: rotate(-10deg);
+          color: red;
+          font: 12px gotham_medium;
+          left: -8px;
+          float: left;
+        }
 
         a {
           color: #3e3e3e;

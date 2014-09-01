@@ -17,12 +17,14 @@ To add a file, click the 'Add file' button and a new entry will appear in the li
 
 Specify the correct path to the file you want to open. This should have the following format (do *not* put a `/` at the start of the path). Here are two examples.
 
-If you layout for this page involves multiple panels (which is a good idea), then specify the panel number to display the file in.
 
 ```
 index.html
 js/main.js
 ```
+
+If your layout for this page involves multiple panels (which is a good idea), then specify the panel number to display the file in.
+
 
 ##Highlighting Lines
 To highlight one or more lines within an auto-opened file, you 

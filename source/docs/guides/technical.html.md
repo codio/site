@@ -6,7 +6,7 @@ full_width: true
 
 All your guides content is stored in `sections.md` in the `.guides` folder.
 
-**Important :** the `sections.md` file should really not be edited. It is fully managed by the Guides editor and is not designed to be edited by hand (and there is no need). If you mess it up, you may have a job getting back on its feet again.
+**Important :** the `sections.md` file should really not be edited. It is fully managed by the Guides editor and is not designed to be edited by hand (and there is no need). If you mess it up, you may have a job getting it back on its feet again.
 
 ##Images
 It is recommended that you place your images in the `.guides/img` folder, although you don't have to.

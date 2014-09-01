@@ -85,7 +85,7 @@ The above approach formats it as code and applies syntax highlighting rules.
 whereas this approach (each line indented by 2 spaces) does the same but without syntax highlighting your code.
 
 ##Code Segments
-If you want to insert a piece of code inline with the rest of your text, then you use a single ``` character either side of the text.
+If you want to insert a piece of code inline with the rest of your text, then you use a single ` character either side of the text.
 
 ```
 We can define a variable `var x;` as shown
@@ -103,7 +103,7 @@ If I want to indent a list, then indent just 2 spaces and it will indent.
 </code></pre>
 
 ##Hyperlinks, Images and Videos
-We describe this in [this section](/docs/guides/edit/imvid).
+We describe this in [this section](/docs/guides/imvid).
 
 ##HTML
 We plan to include support for white-listed HTML tags, so if you require this, please email support@codio.com.

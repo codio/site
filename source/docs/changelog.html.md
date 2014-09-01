@@ -8,33 +8,22 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###August 27th, 2014
-- **Fixed**: reports of Export As Zip not functioning.
-- **Feature**: Added feature to generate QR Code of the project URL (Project>QR Code for Project Preview).
+###September 1st, 2014
+- **Feature**: Added Guides. [More information...](/docs/guides)
 
-###August 22nd, 2014
-- **Fixed**: Incorrect dates shown for Subscription Transactions histories.
-
-###August 21st, 2014
-- **Feature**: Added tutorial on working with NodeBB.
-
-###August 14th, 2014
-- **Update**: Tutorial Docs updated for latest versions of CodeIgniter (2.2.0).
-
-###August 13th, 2014
-- **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.3), Drupal (7.31) & Joomla (3.3.3).
-
-###August 8th, 2014
-- **Update**: Update Box Part (meteor).
-- **Fixed**: reports of issues installing Bower packages.
-
-###August 6th, 2014
-- **Update**: Update Box Part (grails).
-- **Fixed**: fixes for importing from BitBucket.
-
-###August 4th, 2014
-- **Update**: Tutorial Docs updated for Mean.io.
-- **Update**: Update Box Part (googlecloudsdk).
+###August, 2014
+- **Fixed**: (August 27th) reports of Export As Zip not functioning.
+- **Feature**: (August 27th) Added feature to generate QR Code of the project URL (Project>QR Code for Project Preview).
+- **Fixed**: (August 22nd) Incorrect dates shown for Subscription Transactions histories.
+- **Feature**: (August 21st) Added tutorial on working with NodeBB.
+- **Update**: (August 14th) Tutorial Docs updated for latest versions of CodeIgniter (2.2.0).
+- **Update**: (August 13th) Tutorial Docs updated for latest versions of Symfony (2.5.3), Drupal (7.31) & Joomla (3.3.3).
+- **Update**: (August 8th) Update Box Part (meteor).
+- **Fixed**: (August 8th) reports of issues installing Bower packages.
+- **Update**: (August 6th) Update Box Part (grails).
+- **Fixed**: (August 6th) fixes for importing from BitBucket.
+- **Update**: (August 4th) Tutorial Docs updated for Mean.io.
+- **Update**: (August 4th) Update Box Part (googlecloudsdk).
 
 ###July, 2104
 - **Update**: (July 31st) Update Box Part (python3).

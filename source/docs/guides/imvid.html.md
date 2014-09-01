@@ -25,7 +25,7 @@ Generally speaking, you should put your images in the `.guides/img` folder in or
 ```
 
 ##Videos
-Including a video is also possible. We currently support YouTube only, but can add Vimeo if requiredm so please email support@codio.com if you need this.
+Including a video is also possible. We currently support YouTube only, but can add Vimeo if required, so please email support@codio.com if you need this.
 
 ```
 ![320x240](http://www.youtube.com/watch?v=U52xNyaS5R0&feature=youtu.be)

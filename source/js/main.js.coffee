@@ -138,7 +138,7 @@ $ ->
       currency = 'EUR'
     else if country == 'GB'
       currency = 'GBP'
-  
+    
     rate = $.ajax
     	dataType: 'jsonp'
     	url: "//rate-exchange.appspot.com/currency?from=USD&to=#{currency}"
@@ -147,11 +147,10 @@ $ ->
       rate = data.rate
 
       # Updates prices
-      console.log rate
       $('[data-price]').each ->
         self = $(@)
         price = Math.round(self.data('price') * rate)
-        self.html "#{currency_symbols[currency]}#{price}"
+        self.html "<span>#{currency_symbols[currency]}</span>#{price}"
     
     
 # Tree

@@ -27,21 +27,25 @@ body.pricing {
 
     > section {
       &#matrix {
-        background: #fff image-url('pricing/matrix.png') no-repeat center;
-        height: 309px;
-        margin: 70px 0;
+        @include clearfix;
+        margin: 60px 0 30px;
 
         > div {
           float: left;
 
           // FREE plan
           &:first-child {
-            width: 358px;
+            width: 356px;
             text-align: center;
-            margin-left: 40px;
+            margin: 72px 0 0 30px;
+            background: #F9F9F9;
+            border: 1px solid #eee;
+            border-radius: 10px 0 0 10px;
+            border-right: 0;
+            padding-bottom: 28px;
 
             h3 {
-              margin: 70px 0 0;
+              margin: 42px 0 0;
               font: 70px gotham_thin;
               color: $red;
             }
@@ -76,34 +80,80 @@ body.pricing {
           // PAID plan
           &:last-child {
             width: 528px;
-            margin-right: 54px;
+            margin: 0 54px 0 0;
+            background: #F9F9F9;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 0 0 9px 0;
 
-            h3 {
-              font: 36px gotham_thin;
-              margin: 40px 0 12px 62px;
-              width: 270px;
-              text-align: right;
+            div {
+              @include clearfix;
+             
+              h3 {
+                float: left;
+                font: 36px gotham_thin;
+                margin: 34px 0 12px 62px;
+                width: 270px;
+                text-align: right;
 
-              strong {
-                font: 58px gotham_medium;
-                color: #000;
+                strong {
+                  font: 58px gotham_medium;
+                  color: #000;
+                }
+                
+                small {
+                  font: 20px gotham_light;
+                  position: relative;
+                  top: 23px;
+                  right: -25px;
+                }
               }
-            }
-
-            ul {
-              margin: 0 40px;
-              font: 16px gotham_light;
-              line-height: 1.6em;
-
-              strong {
-                font-family: gotham_medium;
-                color: #000;
+              
+              .prices {
+              	float: left;
+                position: relative;
+                right: -26px;
+                top: 21px;
+                width: 196px;
+                
+                div {
+									&:first-child {
+                    font: 240px gotham_bold;
+                    color: #99CEF0;
+                    line-height: 0.8em;
+                    
+                    span {
+                      font: 60px gotham_light;
+                      color: #888;
+                      position: relative;
+                      right: -15px;
+                      top: -97px;
+                    }
+                  }
+                  
+									&:last-child {
+                    font: 80px gotham_bold;
+                    color: #888;
+                    position: relative;
+                    top: -4px;
+                    
+                    span {
+                      font: 26px gotham_light;
+                      color: #888;
+                      position: relative;
+                      top: -29px;
+                      right: -5px;
+                    }
+                  }
+                }
               }
             }
 
             p {
               text-align: center;
               margin: 26px auto 0;
+              border-left: 1px solid #f36050;
+              border-right: 1px solid #f36050;
 
               a:first-child {
                 display: block;
@@ -117,18 +167,6 @@ body.pricing {
                   background-color: darken(#f36050, 4%);
                   text-decoration: none;
                 }
-              }
-
-              a:last-child {
-                margin-top: 24px;
-                display: block;
-                font: 16px gotham_medium;
-              }
-
-              &:last-child(-1) {
-                font-size: 12px;
-                margin: 34px 35px 0;
-                color: #888;
               }
             }
           }

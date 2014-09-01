@@ -212,6 +212,7 @@ body.home {
     background: #596A84 image-url('home/screens/world-map.png') no-repeat 347px -108px;
     padding: 90px 0 20px 0;
     color: #fff;
+    display: block;
     
     h3 {
       font: 26px gotham_book;
@@ -228,14 +229,17 @@ body.home {
         text-transform: initial;
         display: block;
         
-        a {
-          background: #596A84;
-          padding: 7px;
-          text-decoration: underline;
-          border-radius: 8px;
+        span {
+          color: #fff;
+          border-bottom: 2px solid #fff;
           font-family: gotham_book;
+          margin-left: 10px;
         }
       }
+    }
+    
+    &:hover h3 small span {
+      border-bottom: 2px solid #f36050;
     }
   }
   

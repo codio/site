@@ -3,11 +3,11 @@ title: The World's Most Powerful Browser-Based IDE
 class_name: home
 ---
 
-<div id="education">
+<% link_to '/education', id: 'education' do %>
   <div class="container">
-    <h3>Teachers &amp; Students <small>Introducing Codio Education: teaching and learning to code has never been easier! <%= link_to 'Tell me more...', '/education' %></small></h3>
+    <h3>Teachers &amp; Students <small>Introducing Codio Education: teaching and learning to code has never been easier! <span>Tell me more...</span></small></h3>
   </div>
-</div>
+<% end %>
 
 <%= partial 'partials/home/header' %>
 

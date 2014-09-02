@@ -3,9 +3,15 @@ title: The World's Most Powerful Browser-Based IDE
 class_name: home
 ---
 
+<% link_to '/education', id: 'education' do %>
+  <div class="container">
+    <h3>Teachers &amp; Students <small>Introducing Codio Education: teaching and learning to code has never been easier! <span>Tell me more...</span></small></h3>
+  </div>
+<% end %>
+
 <%= partial 'partials/home/header' %>
 
-<div id="hiring-home">
+<!-- <div id="hiring-home">
   <div class="container">
     <div>
       <%= link_to image_tag('hiring.gif', :width => 130), '/blog/2014/03/hiring-more-javascript-engineers/', :data => { :"no-turbolink" => true } %>
@@ -16,7 +22,7 @@ class_name: home
       </span>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <%= partial 'partials/home/frontback' %>

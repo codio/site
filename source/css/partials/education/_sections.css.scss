@@ -319,7 +319,7 @@ section {
           border-color: #d6d6d6;
           padding: 10px;
           background: #ffffff;
-          width: 650px;
+          width: 620px;
           margin: 17px 0px 42px 55px;
 
           @include apply-to(more-than, desktop) {
@@ -328,8 +328,8 @@ section {
           }
 
           iframe {
-            width: 652px;
-            height: 399px;
+            width: 615px;
+            height: 373px;
             @include apply-to(more-than, desktop) {
               width: 735px;
               height: 452px;

@@ -10,3 +10,4 @@ This gives you great flexibility in the way you present Guides content and files
 
 The layouts we currently offer can be found in dropdown list and we will be adding more. If you would like a special panel arrangement, please email support@codio.com to discuss.
 
+Read the [Auto opening files](/docs/guides/auto-open) section for information on how to reference these panels when auto opening code files, a preview window or a terminal window.

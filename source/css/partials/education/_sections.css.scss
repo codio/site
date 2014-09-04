@@ -314,23 +314,25 @@ section {
         }
 
         &:last-child {
-          border: 3px solid;
+          border: 2px solid;
           border-radius: 3px;
-          border-color: #6f6f6f;
+          border-color: #d6d6d6;
+          padding: 10px;
           background: #ffffff;
-          margin: 17px -40px 42px 50px;
+          width: 650px;
+          margin: 17px 0px 42px 55px;
 
           @include apply-to(more-than, desktop) {
-	          margin: 17px -58px 42px 88px;            
+            width: 733px;
+	          margin: 17px -58px 42px 79px;            
           }
 
-          img {
-            width: 644px;
-            height: 421px;
-
+          iframe {
+            width: 652px;
+            height: 399px;
             @include apply-to(more-than, desktop) {
-              width: 690px;
-              height: 442px;
+              width: 735px;
+              height: 452px;
             }
           }
         }

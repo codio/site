@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-**BETA: ** Guides is currently in Beta.
+**BETA:** Guides is currently in Beta.
 
 Codio Guides is a fully integrated content authoring tool that allows you to write rich tutorial type content using pure markdown. 
 

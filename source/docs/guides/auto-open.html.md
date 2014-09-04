@@ -23,11 +23,19 @@ index.html
 js/main.js
 ```
 
-If your layout for this page involves multiple panels (which is a good idea), then specify the panel number to display the file in.
+If your layout for this page involves multiple panels (which is a good idea), then you can also specify the panel number to display the file in.
 
+The panel order is left to right and then top to bottom and the last of all, the filetree (which you would rarely want to use).
+
+**Important** : the first panel is 0, not 1.
+
+So, if you have a 2 panel layout, you would usually leave the 'Panel#' field empty or set it to '0'.
+
+##Previous
+The top most and default entry in the Layout dropdown is 'Previous'. This means it will use the same panel layout as specified in the previous section to save you having to manually set it each time.
 
 ##Highlighting Lines
-To highlight one or more lines within an auto-opened file, you 
+Coming very soon: To highlight one or more lines within an auto-opened file, you 
 
 1. enter a piece of reference text, contained within your file, into the 'Code reference ...' field
 2. specify the number of lines, from that reference point, you want to highlight

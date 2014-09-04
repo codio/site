@@ -202,6 +202,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **php5-pdo-mysql** (5.5.15) PDO MySql module for php5
 - **php5-pdo-pgsql** (5.5.15) PDO PostgreSQL module for php5
 - **php5-pgsql** (5.5.15) PostgreSQL module for php5
+- **php5-phalcon** (1.3.2) Phalcon web framework
 - **php5-soap** (5.5.15) soap module for php5 
 - **php5-sockets** (5.5.15) Sockets module for php5 
 - **php5-ssh2** (0.12-2) SSH2 module for php5
@@ -216,8 +217,8 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **postgresql** (9.3.4) PostgreSQL: The world's most advanced open-source database system
 - **protobuf** (2.5.0) Protocol Buffers: language and platform-neutral mechanism for serializing structured data
 - **pypy** (2.2.1) PyPy: A Python interpreter and JIT written in Python
-- **python2** (2.7.6-2) Python 2: The most friendly Programming Language
-- **python3** (3.4.1-1) Python 3: Next generation of the most friendly Programming Language    
+- **python2** (2.7.8) Python 2: The most friendly Programming Language
+- **python3** (3.4.1-2) Python 3: Next generation of the most friendly Programming Language    
 - **r_base** (3.0.3) R: A free software programming language and software environment for statistical computing and graphics
 - **rabbitmq** (3.2.3) AMQP server written in Erlang
 - **racket** (6.0) Racket: a full-spectrum programming language. It goes beyond Lisp and Scheme with dialects that support objects, types, laziness, and more.

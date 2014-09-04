@@ -8,8 +8,12 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###September 4th, 2014
+- **Update**: Update Box Part (python2).
+- **Feature**: New [Box Part](/docs/boxes/box-parts) added.
+
 ###September 2nd, 2014
-- **Fixed**: Reports of Vertical bar in Code Edior when switching tabs.
+- **Fixed**: Reports of Vertical bar in Code Editor when switching tabs.
 
 ###September 1st, 2014
 - **Feature**: Added Guides. [More information...](/docs/guides)

@@ -1,7 +1,7 @@
 body.pricing {
 
   #site-nav {
-    margin-left: 35px !important;
+    margin-left: 24px !important;
 
     li:nth-child(2) a {
       color: #000;
@@ -11,14 +11,10 @@ body.pricing {
   }
 
   .codio-nav {
-    margin: 30px 10px 0 0 !important;
+    margin: 30px 0 0 0 !important;
 
     &#signedout-nav li {
       padding: 0 5px !important;
-
-      &:nth-child(2) {
-        padding-left: 16px !important;
-      }
     }
   }
 
@@ -27,21 +23,25 @@ body.pricing {
 
     > section {
       &#matrix {
-        background: #fff image-url('pricing/matrix.png') no-repeat center;
-        height: 309px;
-        margin: 70px 0;
+        @include clearfix;
+        margin: 60px 0 30px;
 
         > div {
           float: left;
 
           // FREE plan
           &:first-child {
-            width: 358px;
+            width: 356px;
             text-align: center;
-            margin-left: 40px;
+            margin: 72px 0 0 30px;
+            background: #F9F9F9;
+            border: 1px solid #eee;
+            border-radius: 10px 0 0 10px;
+            border-right: 0;
+            padding-bottom: 28px;
 
             h3 {
-              margin: 70px 0 0;
+              margin: 42px 0 0;
               font: 70px gotham_thin;
               color: $red;
             }
@@ -76,34 +76,80 @@ body.pricing {
           // PAID plan
           &:last-child {
             width: 528px;
-            margin-right: 54px;
+            margin: 0 54px 0 0;
+            background: #F9F9F9;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 0 0 9px 0;
 
-            h3 {
-              font: 36px gotham_thin;
-              margin: 40px 0 12px 62px;
-              width: 270px;
-              text-align: right;
+            div {
+              @include clearfix;
+             
+              h3 {
+                float: left;
+                font: 36px gotham_thin;
+                margin: 34px 0 12px 62px;
+                width: 270px;
+                text-align: right;
 
-              strong {
-                font: 58px gotham_medium;
-                color: #000;
+                strong {
+                  font: 58px gotham_medium;
+                  color: #000;
+                }
+                
+                small {
+                  font: 20px gotham_light;
+                  position: relative;
+                  top: 23px;
+                  right: -25px;
+                }
               }
-            }
-
-            ul {
-              margin: 0 40px;
-              font: 16px gotham_light;
-              line-height: 1.6em;
-
-              strong {
-                font-family: gotham_medium;
-                color: #000;
+              
+              .prices {
+              	float: left;
+                position: relative;
+                right: -26px;
+                top: 21px;
+                width: 196px;
+                
+                div {
+									&:first-child {
+                    font: 240px gotham_bold;
+                    color: #99CEF0;
+                    line-height: 0.8em;
+                    
+                    span {
+                      font: 60px gotham_light;
+                      color: #888;
+                      position: relative;
+                      right: -15px;
+                      top: -97px;
+                    }
+                  }
+                  
+									&:last-child {
+                    font: 80px gotham_bold;
+                    color: #888;
+                    position: relative;
+                    top: -4px;
+                    
+                    span {
+                      font: 26px gotham_light;
+                      color: #888;
+                      position: relative;
+                      top: -29px;
+                      right: -5px;
+                    }
+                  }
+                }
               }
             }
 
             p {
               text-align: center;
               margin: 26px auto 0;
+              border-left: 1px solid #f36050;
+              border-right: 1px solid #f36050;
 
               a:first-child {
                 display: block;
@@ -117,18 +163,6 @@ body.pricing {
                   background-color: darken(#f36050, 4%);
                   text-decoration: none;
                 }
-              }
-
-              a:last-child {
-                margin-top: 24px;
-                display: block;
-                font: 16px gotham_medium;
-              }
-
-              &:last-child(-1) {
-                font-size: 12px;
-                margin: 34px 35px 0;
-                color: #888;
               }
             }
           }
@@ -153,7 +187,7 @@ body.pricing {
             
             &:first-child {
               width: 230px;
-              margin-right: 60px;
+              margin: 30px 60px 0 0;
               color: #888;
             }
 
@@ -167,25 +201,66 @@ body.pricing {
                 border-spacing: 0;
                 width: 100%;
                 
-                tr:nth-child(odd) > td {
-                  background-color: #f9f9f9;
-                }
-                
-                tr:last-child > td {
-									border-bottom: none;
-                }
-                
-                td {
+                thead th {
                   padding: 8px;
-                  line-height: 20px;
-                  text-align: left;
-                  vertical-align: top;
-                  border-bottom: 1px solid #eee;
                   
                   &:first-child {
-                    color: #000;
-										font: 14px gotham_medium;
+                    font-weight: normal;
+                    color: #999;
+                    font-size: 12px;
+                    text-align: left;
                   }
+                  
+                  &.price {
+                    text-align: right;
+                  }
+                  
+                  &:nth-child(2) {
+                    background: lighten(#99CEF0, 20%) !important;
+                  }
+                }
+                
+                
+                tbody {
+                  tr:nth-child(odd) > td {
+                    background-color: #f9f9f9;
+                  }
+
+                  tr:last-child > td {
+                    border-bottom: none;
+                  }
+
+                  td {
+                    padding: 8px;
+                    line-height: 20px;
+                    text-align: left;
+                    vertical-align: top;
+                    border-bottom: 1px solid #eee;
+
+                    &:first-child {
+                      color: #000;
+                      font: 14px gotham_medium;
+                    }
+
+                    &:nth-child(4) {
+                      font-weight: bold;
+                      background: lighten(#99CEF0, 20%) !important;
+                      font-size: 14px;
+                    }
+
+                    &.price {
+                      text-align: right;
+                    }
+                  }
+                }
+                
+                tfoot td {
+                  font-weight: normal;
+                  font: 12px Helvetica, Arial;
+                  color: #999;
+                  background: transparent;
+                  padding-top: 16px;
+                  text-align: right;
                 }
               }
             }
@@ -196,6 +271,8 @@ body.pricing {
       &#faqs {
         @include clearfix;
         margin-top: 90px;
+        border-top: 1px solid #eee;
+        padding-top: 30px;
 
         h2 {
           float: left;

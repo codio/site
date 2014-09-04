@@ -28,8 +28,7 @@ body.blog #hiring-nav {
 }
 
 body.docs #hiring-nav {
-  top: 58px;
-  left: 746px;
+	display: none;
 }
 
 
@@ -54,7 +53,7 @@ body .wrap > nav {
     // Navigation items
     ul {
       padding: 0;
-      margin: 34px 0 0 0;
+      margin: 20px 0 0 0;
       font: 16px gotham_light;
 
       // Sign in/out and try links
@@ -82,11 +81,11 @@ body .wrap > nav {
             &:first-child a {
               text-transform: uppercase;
               background-color: $red;
-              padding: 7px 14px 6px;
+              padding: 6px 8px 5px;
               border-radius: 2px;
               color: $white;
               border-bottom: none;
-              font-size: 16px;
+              font-size: 14px;
 
               &:hover {
                 background-color: #B75246;
@@ -146,7 +145,16 @@ body .wrap > nav {
 
       li {
         display: inline-block;
-        padding: 0 10px;
+        padding: 0 7px;
+        
+        &:nth-child(3) span {
+          position: relative;
+          transform: rotate(-10deg);
+          color: red;
+          font: 12px gotham_medium;
+          left: -8px;
+          float: left;
+        }
 
         a {
           color: #3e3e3e;

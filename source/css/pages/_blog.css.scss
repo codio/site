@@ -1,9 +1,9 @@
 body.blog {
 
   #site-nav {
-    margin-left: 35px !important;
+    margin-left: 24px !important;
 
-    li:nth-child(4) a {
+    li:nth-child(5) a {
       color: #000;
       border-color: #f36050;
       font-family: gotham_medium;
@@ -50,7 +50,7 @@ body.blog {
         padding: 10px 0;
 
         &:first-child {
-          padding-left: 20px;
+          padding-left: 16px;
         }
         &:nth-child(4) {
           width: 214px;

@@ -1,9 +1,13 @@
 body.education {
 
+  #site-nav li:nth-child(3) a {
+    color: #000;
+    border-color: #f36050;
+    font-family: gotham_medium;
+  }
+  
   header {
-    background: #596A84 image-url('home/screens/world-map.png');
-    background-repeat: no-repeat;
-    background-position: center 120px;
+    background: #596A84 image-url('home/screens/world-map.png') no-repeat center 120px;
     height: 570px;
     color: #fff;
 

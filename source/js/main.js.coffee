@@ -121,7 +121,38 @@ $ ->
     videos.addClass 'fancybox fancybox.iframe'
 
 
+# Local Pricing
+$ ->
+  
+  rate = 0.0
+  currency = 'USD'
+  country = 'US'
+  currency_symbols = { USD: '&dollar;', GBP: '&pound;', EUR: '&euro;' }
+  eu_countries = [ 'FI', 'LU', 'PT', 'ES', 'SI', 'AD', 'BE', 'MT', 'AT', 'CY',
+                   'FR', 'DE', 'IT', 'ME', 'SM', 'GR', 'IE', 'NL', 'MC' ]
+  
+  $.get "//ipinfo.io/country?token=30981703e3f239", (data)->
+    country = data.trim()
 
+    if country in eu_countries
+      currency = 'EUR'
+    else if country == 'GB'
+      currency = 'GBP'
+    
+    rate = $.ajax
+    	dataType: 'jsonp'
+    	url: "//rate-exchange.appspot.com/currency?from=USD&to=#{currency}"
+      
+    rate.then (data)->
+      rate = data.rate
+
+      # Updates prices
+      $('[data-price]').each ->
+        self = $(@)
+        price = Math.round(self.data('price') * rate)
+        self.html "<span>#{currency_symbols[currency]}</span>#{price}"
+    
+    
 # Tree
 $ ->
   if ($tree = $('#tree')).length > 0

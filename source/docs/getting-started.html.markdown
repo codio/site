@@ -60,5 +60,12 @@ You can access your Box from 'Tools->Terminal'. You can also configure your own 
 - [General Box documentation](/docs/boxes).
 - [Box Feature Videos](/features)
 
+##6. Firewalls
+If you are behind a firewall then the following information might be helpful
+
+- Enable `*.codio.com`, `*.codio.io` and `*.intercom.io` on your firewall
+- Codio uses Port 80 (http) and Port 443 (https)
+- You can configure your boxes to use special ports. To get around port blocking on your firewall, please refer to [this section](/docs/boxes/ext-access)
+
 
 

@@ -66,7 +66,7 @@ To create a numbered list, you start the line with a `1.`. The numbers are autom
 If you want to show some code, styled with the Courier Font, in a box and with syntax rules applied
 
 <pre><code>
-```
+```js
 var i;
 for(i=0; i<10; i++) {
 	document.write(i);
@@ -74,15 +74,7 @@ for(i=0; i<10; i++) {
 ```
 </code></pre>
 
-
-The above approach formats it as code and applies syntax highlighting rules.
-
-      var i;
-      for(i=0; i<10; i++) {
-        document.write(i);
-      }
-
-whereas this approach (each line indented by 2 spaces) does the same but without syntax highlighting your code.
+Note that you can specify a language type after the top 3 backticks. There are a lot of different languages supported. These are pretty intuitive for most languages but you can [see a full list of supported languages here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml). You should search for your language and then use the `alias` shown.
 
 ##Code Segments
 If you want to insert a piece of code inline with the rest of your text, then you use a single ` character either side of the text.

@@ -47,7 +47,7 @@ All of the following limits are soft limits. We may suspend accounts or require 
 Codio is intended for development purposes and is not a production platform. As Boxes operate on shared servers, we will rapidly suspend accounts that generate sustained high levels of load.
 
 - **Bandwith** usage is currently unrestricted but this may change.
-- **Storage** is soft-limited to an aggregate of 16GB across all projects.
+- **Storage** is soft-limited to an aggregate of 16GB across all projects. Maximum storage for any individual project is 1GB for Free users and 5GB for paid subscribers.
 - **Memory** is currently restricted to 512MB per Box. We will soon be introducing higher memory options.
 - We expect you **not to have multiple projects open simultaneously** if they are using Boxes for active processing.
 - You are responsible for writing code that does **not cause high levels of processing** on Codio Boxes and we will suspend accounts that generate sustained load levels.

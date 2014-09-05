@@ -11,7 +11,7 @@ Signing up is effortless and gives you access to the complete set of features. A
 
 Signup from the signup link at the top of the page at [Codio.com](http://codio.com) or by going to [http://codio.com/p/signup](http://codio.com/p/signup).
 
-You can sign in with Codio, GitHub or BitBucket. If you signin with GitHub or BitBucket, your account will be associated with that account from that point on. 
+You can sign in with Codio, GitHub or BitBucket. If you sign in with GitHub or BitBucket, your account will be associated with that account from that point on. 
 
 You can also associate your account with a GitHub or BitBucket account from the Codio->Account menu item.
 

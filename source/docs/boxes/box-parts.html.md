@@ -137,7 +137,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **freetype** (2.5.3) Freetype: a freely available software library to render fonts. 
 - **fsharp** (3.0) F#: a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
 - **geos** (3.4.2) GEOS: C++ port of the Java Topology Suite (JTS)
-- **ghc** (7.8.3) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell
+- **ghc** (7.8.3) GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell **Please note, this is a large package and will require a Codio Subscription to install.**
 - **gitflow** (0.4.1) Gitflow: a collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 - **glib** (2.40.0) GLib: a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a mainloop abstraction, and so on.
 - **gmp** (6.0.0) GMP: a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.
@@ -149,7 +149,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **grails** (2.4.3) Grails: an Open Source, full stack, web application framework for the JVM.
 - **gringo** (4.3.0) Gringo: a grounder that, given an input program with first-order variables, computes an equivalent ground (variable-free) program.
 - **groovy** (2.2.2) Groovy: an agile and dynamic language for the Java Virtual Machine
-- **haskell-platform** (2.0.0) Haskell is an advanced purely-functional programming language.
+- **haskell-platform** (2.0.0) Haskell is an advanced purely-functional programming language. **Please note, this is a large package and will require a Codio Subscription to install.**
 - **heroku-cli** (3.3.0) The Heroku CLI is used to manage Heroku apps from the command line.
 - **htop** (1.0.3) Htop: an interactive process viewer for Linux. It is a text-mode application (for console or X terminals) and requires ncurses.
 - **image_magick** (6.8.8-9) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.

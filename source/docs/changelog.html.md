@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###September 8th, 2014
+- **Update**: Update Box Part (pip, setuptools, virtualenv).
+
 ###September 5th, 2014
 - **Feature**: Added File Synchronisation indicator in the active tab.
 

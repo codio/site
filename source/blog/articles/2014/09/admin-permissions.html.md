@@ -5,12 +5,11 @@ date: 2014-09-09
 tags: Changelog
 class_name: blog
 full_width: true
-published: true
 ---
 
-Today we're delighted to announce the addition of a new 'Administrator' permission enabling project owners to assign full Codio box rights to their team members and fellow developer collaborators.
+Today we're delighted to announce the addition of a new 'Administrator' permission, enabling project owners to assign full Codio box rights to their team members and fellow developer collaborators.
 
-Admin permissions is a feature that many of you have requested and provides a far greater level of flexibility for developer teams.  The new feature includes the ability to:
+Admin permissions is a feature that many of you have requested and provides a far greater level of flexibility for developer teams. The new feature includes the ability to:
 
 - access the command line in the Terminal
 - access and run Deployments from a single codebase without having to set up more complex workflows

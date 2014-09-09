@@ -16,3 +16,5 @@ We have now added a new 'Administrator' permission, which allows Project Owners 
 - access and run Deployments
 
 This new permission allows groups of people to deploy from a single codebase without having to set up more complex workflows.
+
+You can read about [Permissions in the docs](/docs/settings-prefs/permissions).

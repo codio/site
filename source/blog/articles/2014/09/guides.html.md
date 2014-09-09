@@ -28,3 +28,15 @@ And here's a quick summary of the Guides features
 - choose from a selection of panel layouts
 
 There's lots more so feel free to take a look at the [Guides documentation](/docs/guides)
+
+Revised version:
+
+title: Codio strives to unlock teacher and student potential with Codio Guides as computer science takes centre stage in the school curriculum
+author: Freddy May
+date: 2014-09-10
+tages: Changelog
+class_name: blog
+full_width: true
+published: false
+___
+

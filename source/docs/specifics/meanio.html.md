@@ -42,6 +42,6 @@ We're now ready to preview the application.
 
 1. From the Terminal `grunt`
 1. From the Preview menu (the right most Codio menu, which initially shows 'Project Index (static)') select 'Box URL' which will access your application over Port 3000.
-1. You should now see the basic Mean.io application running and showing 'This is the home view' underneath the larg black bar.
+1. You should now see the basic Mean.io application running and showing 'This is the home view' underneath the large black bar.
 
 

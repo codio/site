@@ -15,5 +15,5 @@ Admin permissions is a feature that many of you have requested and provides a fa
 - access the command line in the Terminal
 - access and run Deployments from a single codebase without having to set up more complex workflows
 
-At Codio, we're always listening to your feedback and striving to make Codio the most engaging experience for the developer community - so please feel free to give us your feedback and ideas, and for all the latest news and tips, follow Codio on Twitter and Facebook.
+At Codio, we're always listening to your feedback and striving to make Codio the most engaging experience for the developer community - so please feel free to give us your [feedback and ideas](http://forum.codio.com), and for all the latest news and tips, follow [Twitter](https://twitter.com/codiohq) and [Facebook](https://www.facebook.com/CodioHQ).
 

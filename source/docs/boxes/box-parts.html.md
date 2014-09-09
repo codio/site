@@ -150,6 +150,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **gringo** (4.3.0) Gringo: a grounder that, given an input program with first-order variables, computes an equivalent ground (variable-free) program.
 - **groovy** (2.2.2) Groovy: an agile and dynamic language for the Java Virtual Machine
 - **haskell-platform** (2.0.0) Haskell is an advanced purely-functional programming language. **Please note, this is a large package and will require a Codio Subscription to install.**
+- **haxe** (3.1.3)  Haxe: an open source toolkit. 
 - **heroku-cli** (3.3.0) The Heroku CLI is used to manage Heroku apps from the command line.
 - **htop** (1.0.3) Htop: an interactive process viewer for Linux. It is a text-mode application (for console or X terminals) and requires ncurses.
 - **image_magick** (6.8.8-9) ImageMagick: a software suite to create, edit, compose, or convert bitmap images.
@@ -174,6 +175,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **mono** (3.2.8) Mono: a software platform designed to allow developers to easily create cross platform applications. 
 - **mysql** (5.6.15) MySQL: The world's most popular open-source relational database
 - **ncurses** (5.9) Ncurses: a free software emulation of curses in System V Release 4.0, and more.
+- **neko** (2.0.0)  Neko: high-level dynamicly typed programming language.                                   
 - **nginx** (1.4.4) The High Performance Reverse Proxy, Load Balancer, Edge Cache, Origin Server
 - **ocaml** (4.01.0) OCaml: an industrial strength programming language supporting functional, imperative and object-oriented styles
 - **opam** (1.1.1-20140519) OPAM: a source-based package manager for OCaml.
@@ -213,8 +215,8 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **phpmyadmin** (4.1.7) phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MySQL over the Web
 - **phppgadmin** (5.1) phpPgAdmin: a web-based administration tool for PostgreSQL.
 - **phpunit** (4.0.14) PHPUnit: A programmer-oriented testing framework for PHP.
-- **pip** (1.5.4-2) Pip: A tool for installing and managing Python2 packages. Note not required for Python3
-- **postgresql** (9.3.4) PostgreSQL: The world's most advanced open-source database system
+- **pip** (1.5.6) Pip: A tool for installing and managing Python2 packages. Note not required for Python3
+- **postgresql** (9.3.5) PostgreSQL: The world's most advanced open-source database system
 - **protobuf** (2.5.0) Protocol Buffers: language and platform-neutral mechanism for serializing structured data
 - **pypy** (2.2.1) PyPy: A Python interpreter and JIT written in Python
 - **python2** (2.7.8) Python 2: The most friendly Programming Language
@@ -231,7 +233,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **sbt** (0.13.5) Sbt: An interactive build tool for scala  
 - **scala** (2.10.3) Scala: An object-functional programming language
 - **scons** (2.3.1) SCons: an Open Source software construction tool—that is, a next-generation build tool.
-- **setuptools** (2.2-2) Setuptools: Easily download, build, install, upgrade, and uninstall Python packages
+- **setuptools** (5.7) Setuptools: Easily download, build, install, upgrade, and uninstall Python packages
 - **slang** (2.2.4) Slang: a multi-platform programmer's library designed to allow a developer to create robust multi-platform software.
 - **snappy** (1.1.1) Snappy: A fast compression/decompression library 
 - **spidermonkey** (1.8.5) SpiderMonkey: Mozilla's JavaScript engine written in C/C++ 
@@ -244,7 +246,8 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **tmux** (1.9a) Tmux: a terminal multiplexer that lets you switch easily between several programs in one terminal.
 - **tomcat** (7.0.54) Apache Tomcat: an open source software implementation of the Java Servlet and JavaServer Pages technologies.                                  
 - **tree** (1.7.0) Tree is a recursive directory listing command
-- **virtualenv** (1.11.4-2) Virtualenv: Virtual Python Environment builder 
+- **uuid** (1.6.2) OSSP uuid: an API and corresponding CLI for the generation of DCE 1.1, ISO/IEC 11578:1996 and RFC 4122 compliant Universally.
+- **virtualenv** (1.11.6) Virtualenv: Virtual Python Environment builder 
 - **zeromq** (4.0.4) ZeroMQ: A high-performance asynchronous messaging library 
 - **zip** (3.0) Zip
 

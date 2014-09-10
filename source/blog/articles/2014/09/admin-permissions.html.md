@@ -17,3 +17,4 @@ Admin permissions is a feature that many of you have requested and provides a fa
 
 At Codio, we're always listening to your feedback and striving to make Codio the most engaging experience for the developer community - so please feel free to give us your [feedback and ideas](http://forum.codio.com), and for all the latest news and tips, follow [Twitter](https://twitter.com/codiohq) and [Facebook](https://www.facebook.com/CodioHQ).
 
+You can read about [Permissions in the docs](/docs/settings-prefs/permissions).

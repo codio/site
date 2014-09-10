@@ -5,7 +5,7 @@ date: 2014-06-25
 tags: Changelog
 class_name: blog
 full_width: true
-image: http://i.imgur.com/9EZoT.jpg
+image: https://i.imgur.com/9EZoT.jpg
 ---
 
 We are extremely excited to announce that Codio is no longer in Beta. We are extremely grateful to the many users who have worked closely with us over the last months to get Codio to where it is today.

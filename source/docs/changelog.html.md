@@ -11,6 +11,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 ###September 9th, 2014
 - **Update**: Update Box Part (postgreqsl)
 - **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
+- **Feature**: New Admin Permissions, [More information...](/blog/2014/09/admin-permissions/)
 
 ###September 8th, 2014
 - **Update**: Update Box Part (pip, setuptools, virtualenv).

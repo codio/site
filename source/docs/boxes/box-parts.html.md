@@ -134,6 +134,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **fish** (2.1.0) fish: A friendly interactive shell 
 - **flex** (2.5.39) Flex: a tool for generating scanners: programs which recognize lexical patterns in text.
 - **freepascal** (2.6.2) Free Pascal: An open source Pascal compiler for Pascal and Object Pascal
+- **freetds** (0.91) FreeTDS: a set of libraries for Unix and Linux that allows your programs to natively talk to Microsoft SQL Server and Sybase databases. 
 - **freetype** (2.5.3) Freetype: a freely available software library to render fonts. 
 - **fsharp** (3.0) F#: a mature, open source, cross-platform, functional-first programming language which empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
 - **geos** (3.4.2) GEOS: C++ port of the Java Topology Suite (JTS)
@@ -199,8 +200,10 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **php5-lzf** (1.6.2-2) LZF module for php5
 - **php5-memcached** (2.2.0) Memcached module for php5 
 - **php5-mongo** (1.5.3) Mongo driver for php5
+- **php5-mssql** (5.5.15) MsSQL module for php5
 - **php5-oauth** (1.2.3-2) OAuth module for php5
 - **php5-pcntl** (5.5.15) Process Control support module for php5
+- **php5-pdo-dblib** (5.5.15) PDO DBLib module for php5 
 - **php5-pdo-mysql** (5.5.15) PDO MySql module for php5
 - **php5-pdo-pgsql** (5.5.15) PDO PostgreSQL module for php5
 - **php5-pgsql** (5.5.15) PostgreSQL module for php5

@@ -68,6 +68,6 @@ Coming very soon: To highlight one or more lines within an auto-opened file, you
 1. enter a piece of reference text, contained within your target file, into the 'Code reference ...' field
 2. specify the number of lines, from that reference point, you want to highlight
 
-Using reference text rather than a line number means that if you insert anything into your file in the future, the line number would be invalidated, whereas the reference is much kess likely to be.
+Using reference text rather than a line number means that if you insert anything into your file in the future, the line number would be invalidated, whereas the reference is much less likely to be.
 
 If there is any potential ambiguity with this approach, simply insert a comment which is guaranteed unique and reference that.

@@ -141,6 +141,7 @@ module Autoparts
       end
 
       # If using start and stop commands, include a 'running?' method.
+      # For non Ruby-ists, the !! forces a boolean result
       def running?
         !!system(mysql_server_path.to_s, 'status', out: '/dev/null', err: '/dev/null')
       end

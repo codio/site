@@ -12,7 +12,7 @@ If you want to see how our existing packages are built, then take a look in the 
 It's very easy to start coding your Box Part ...
 
 - Fork the [Box Parts repo](https://github.com/codio/boxparts) into your own GitHub account. 
-- From your GitHub fork, copy the SSH (best) or HTTPS url to the clipboard (not the url in the browser address bar). Read [this section](docs/settings-prefs/account-settings/acct-github/) for information on how to upload your Codio public key to GitHub so you can use SSH rather than HTTPS.
+- From your GitHub fork, copy the SSH (best) or HTTPS url to the clipboard and not the url in the browser address bar. Read [this section](docs/settings-prefs/account-settings/acct-github/) for information on how to upload your Codio public key to GitHub so you can use SSH rather than HTTPS.
 
 ![](/img/docs/github-clone-url.png)
 

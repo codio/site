@@ -8,6 +8,14 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###September 11th, 2014
+- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: Update Box Part (pip, neko)
+
+###September 10th, 2014
+- **Fixed**: Autocomplete dialog window truncating content to view.
+- **Update**: Update Guides to open and close files, preview and terminal. [More information...](/docs/guides/auto-open/)
+
 ###September 9th, 2014
 - **Update**: Update Box Part (postgreqsl)
 - **Feature**: New [Box Parts](/docs/boxes/box-parts) added.

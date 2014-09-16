@@ -52,7 +52,7 @@ You can also specify a terminal command to run when a section is displayed. For 
 
 You can also specify system commands in a new Terminal window like this
 
-- `#terminal ls -al`
+- `#terminal: ls -al`
 
 ##Specifying a panel
 If your [layout](/docs/guides/layouts) for this page involves multiple panels, then you can also specify the panel number to display the file in.

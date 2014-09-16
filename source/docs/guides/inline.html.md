@@ -10,9 +10,9 @@ You can include links in your content to perform the same open and close actions
 The syntax is as follows and actions can be chained together using, separated by a `;`.
 
 ##Opening 
-- `open_file file1 file2 fileN panel=0` where panel is optional, in which case the default panel (0) will be used.
-- `open_preview file panel=0` where panel is optional, in which case the default panel (0) will be used.
-- `open_file terminal panel=0` where panel is optional, in which case the default panel (0) will be used.
+- `open_file file1 file2 fileN panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
+- `open_preview file panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
+- `open_terminal command panel=0` where command (a system command) is optional and where panel is optional, in which case the default panel (0) will be used if not specified.
 - `cmd systemcommand argument1 argument2 argumentN` 
 
 ##Closing
@@ -23,7 +23,7 @@ The syntax is as follows and actions can be chained together using, separated by
 - `close_preview` behaves like `close_file` for preview tabs.
 - `close_terminal` behaves like `close_file` for terminal tabs.
 
-##Important : spaces and ;
+##Important - spaces and ; in file names and commands
 If any of your files contain spaces in the names, then you should enclose the file name in double quotes
 
 - `open_file "file name.txt"`

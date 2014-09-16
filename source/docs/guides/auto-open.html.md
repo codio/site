@@ -27,7 +27,7 @@ example.js, index.html
 
 or
 
-```none
+```bash
 example.js, #terminal, #preview
 ```
 
@@ -38,11 +38,11 @@ You can add multiple open or close lines into your configuration to address most
 ##Closing
 The principles for closing files in nearly the same as for opening but which a few noteworthy points
 
-- #tabs will close all opened tabs in all panels, except the Guide itself
-- #all closes all tabs in the specifed (or default if left empty) panel
+- `#tabs` will close all opened tabs in all panels, except the Guide itself
+- `#all` closes all tabs in the specifed (or default if left empty) panel
 - specifying a file (files) but not a panel will close all occurrences of that file in all panels
 
-##Executing Terminal commands
+##Running system commands
 You can also specify a terminal command to run when a section is displayed. For example, your Guide might copy files into the root of your project from the .guides folder (which is hidden when a Guide is running) at a certain point in your Guide.
 
 ```bash
@@ -50,6 +50,9 @@ You can also specify a terminal command to run when a section is displayed. For 
 #cmd:bash .guides/a-script.sh
 ```
 
+You can also specify system commands in a new Terminal window like this
+
+- `#terminal ls -al`
 
 ##Specifying a panel
 If your [layout](/docs/guides/layouts) for this page involves multiple panels, then you can also specify the panel number to display the file in.

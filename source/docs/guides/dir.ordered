@@ -7,6 +7,7 @@ add-section
 delete-section
 layouts
 auto-open
+inline
 editable
 git
 technical

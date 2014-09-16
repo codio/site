@@ -39,4 +39,3 @@ Once you are done developing your part ...
 - Commit your changes and push back (git is preinstalled, so you can use normal git commands)
 - In GitHub, open a Pull Request so we can add it to the full parts list.
 
-#Private Packages

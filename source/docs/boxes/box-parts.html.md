@@ -116,7 +116,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **berkeley_db** (6.0.30) Berkeley DB: a software library that provides a high-performance embedded database for key/value data.
 - **bison** (3.0.2) Bison: a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.
 - **boost** (1.55.0) Boost: a free peer-reviewed portable C++ source libraries.
-- **cabal** (1.18.0.2) Cabal: A system for building and packaging Haskell libraries and programs.
+- **cabal** (1.18.0.2) Cabal: A system for building and packaging Haskell libraries and programs. **Please note, this is a large package and will require a Codio Subscription to install.**
 - **clasp** (3.0.4) Clasp: an answer set solver for (extended) normal and disjunctive logic programs.
 - **cloudfoundry** (v6.0.1) Cloud Foundry: An open CLI for managing cloud services
 - **cmake** (2.8.11.2) CMake: A cross-platform, open-source build system
@@ -143,9 +143,9 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **glib** (2.40.0) GLib: a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a mainloop abstraction, and so on.
 - **gmp** (6.0.0) GMP: a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.
 - **go-lang** (1.3) Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
-- **googleappengine** (1.9.5) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
-- **googleappenginego** (1.9.5) Google App Engine for Go: A CLI for managing Google App Engine cloud services for Go 
-- **googleappenginejava** (1.9.5) Google App Engine Java: A CLI for managing Google App Engine cloud services for Java  
+- **googleappengine** (1.9.11) Google App Engine Python/PHP: A CLI for managing Google App Engine cloud services for Python and PHP
+- **googleappenginego** (1.9.11) Google App Engine for Go: A CLI for managing Google App Engine cloud services for Go 
+- **googleappenginejava** (1.9.11) Google App Engine Java: A CLI for managing Google App Engine cloud services for Java  
 - **googlecloudsdk** (0.9.28) Google Cloud SDK: Tools and libraries to easily create and manage resources on Google Cloud Platform
 - **grails** (2.4.3) Grails: an Open Source, full stack, web application framework for the JVM.
 - **gringo** (4.3.0) Gringo: a grounder that, given an input program with first-order variables, computes an equivalent ground (variable-free) program.

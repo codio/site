@@ -8,6 +8,11 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###September 18th, 2014
+- **Fixed**: Update rule to allow period within Username for SSH connections.
+- **Feature**: New [Box Part](/docs/boxes/box-parts) added.
+- **Update**: Update Box Part (meteor, rust-nightly)
+
 ###September 17th, 2014
 - **Update**: Update Box Parts (googleappengine,googleappenginego,googleappenginejava)
 

@@ -117,6 +117,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **bison** (3.0.2) Bison: a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.
 - **boost** (1.55.0) Boost: a free peer-reviewed portable C++ source libraries.
 - **cabal** (1.18.0.2) Cabal: A system for building and packaging Haskell libraries and programs. **Please note, this is a large package and will require a Codio Subscription to install.**
+- **cargo-nightly** (0.0.1-pre-nightly-29e6a4f_2014-09-17)  Cargo build and dependency manager for Rust  
 - **clasp** (3.0.4) Clasp: an answer set solver for (extended) normal and disjunctive logic programs.
 - **cloudfoundry** (v6.0.1) Cloud Foundry: An open CLI for managing cloud services
 - **cmake** (2.8.11.2) CMake: A cross-platform, open-source build system
@@ -171,7 +172,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **maven** (3.2.1) Maven: A software project management and comprehension tool
 - **mc** (4.8.12) GNU Midnight Commander: a visual file manager
 - **memcached** (1.4.15) Memcached: An open-source, high-performance memory object caching system 
-- **meteor** (0.8.3) Meteor: A real-time web development platform
+- **meteor** (0.9.2.1) Meteor: A real-time web development platform
 - **mongodb** (2.6.1) MongoDB: A cross-platform document-oriented NoSQL database system
 - **mono** (3.2.8) Mono: a software platform designed to allow developers to easily create cross platform applications. 
 - **mysql** (5.6.15) MySQL: The world's most popular open-source relational database
@@ -231,7 +232,7 @@ This list may not be complete, so type `parts search` to see what we have curren
 - **redis** (2.6.16) Redis: An open-source, in-memory, key-value data store
 - **rethinkdb** (1.13) RethinkDB: An open-source distributed database built with love.
 - **rust** (0.11.0) Rust: A safe, concurrent, practical language
-- **rust-nightly** (0.11.0-05ca9f7_2014-06-24) Rust: A safe, concurrent, practical language
+- **rust-nightly** (0.12.0-pre-nightly-0e784e168_2014-09-16) Rust: A safe, concurrent, practical language
 - **s3cmd** (1.0.1-1) s3cmd: Command line tool for managing Amazon S3 and CloudFront services
 - **sbt** (0.13.5) Sbt: An interactive build tool for scala  
 - **scala** (2.10.3) Scala: An object-functional programming language

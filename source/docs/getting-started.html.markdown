@@ -68,4 +68,7 @@ If you are behind a firewall then the following information might be helpful
 - You can configure your boxes to use special ports. To get around port blocking on your firewall, please refer to [this section](/docs/boxes/ext-access)
 
 
+##7. User Policies
+
+- If your organisation manages users access rights through policies (commonly experienced in Educational Establishments) and you enable [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection), you may need to also update the rules to allow access to `*.codio.com`, `*.codio.io` and `*.intercom.io`
 

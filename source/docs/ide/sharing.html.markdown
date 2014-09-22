@@ -25,7 +25,7 @@ You can choose between Markdown or HTML by clicking on the HTML or Markdown labe
 Once you have made your selection you can copy and paste from one of the button options below.
 
 ##Suggested Buttons
-You will notice that there are two suggested buttons available available for Project URL and With Layout modes.
+You will notice that there are two suggested buttons available for Project URL and With Layout modes.
 
 - **Demo** : the suggested button for any situation where you want to link to a demo project. A great example would be on your GitHub page, where you want to be able to show a demo of your code as well as allowing the user to browse around the code itself.
 - **Show me the code** : the suggested button for any situation where you want to link a blog, tutorial or some documentation to a real code sample.

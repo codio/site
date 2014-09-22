@@ -9,7 +9,7 @@ To share a project or link to a project from a web page, go to the `Project > Sh
 ![Sharing](/img/docs/sharing.png)
 
 ##Retaining Layout Status
-You'll notice the two options at the top of the dialog. When you embed or link to a Codio project you have two ways of the IDE rendering it
+You'll notice the three options at the top of the dialog. When you embed or link to a Codio project you have two ways of the IDE rendering it
 
 - **Project URL** : use this URL to display the project with whatever panel and open file configuration happens to be active at the time. This can change all the time depending on what the user happens to have active at any given time.
 - **With Layout** : use this URL if you want to always use the precise panel and file configuration that you currently have open. This is the right option if you want to embed it in a blog post or page and a precise configuration should be retained no matter what the project owner is doing with the layout at any given time.

@@ -22,4 +22,3 @@ So we now have six different ways to create a project in Codio:
 
 5. **FTP and SFTP** - The newest option is to import from any FTP server. Just specify the server you wish to import from, and we'll do the rest. We even support SFTP, which means that you can connect securely using your Codio SSH public key.
 
-6. **Salesforce** - If you work with Salesforce, we've integrated its Tooling API to allow you to work with your Salesforce classes and triggers. Just enter your credentials and we'll pull in your code with into Codio. You can then continue to pull and push your code to Salesforce.

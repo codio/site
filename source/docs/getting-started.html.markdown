@@ -25,7 +25,7 @@ There are several ways to start off
 - Import from a ZIP file
 - Import from FTP/SFTP
 - Import from Git/Mercurial
-- A SalesForce project
+
 
 All of these are full described [here](/docs/console/creating).
 

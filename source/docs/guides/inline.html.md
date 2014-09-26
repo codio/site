@@ -9,13 +9,17 @@ You can include links in your content to perform the same open and close actions
 #Syntax Summary
 The syntax is as follows and actions can be chained together using, separated by a `;`.
 
-##Opening 
+```
+$[Hyperlink text](open_file file1, file2; cmd ls -al)
+```
+
+##Opening directives
 - `open_file file1 file2 fileN panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
 - `open_preview file panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
 - `open_terminal command panel=0` where command (a system command) is optional and where panel is optional, in which case the default panel (0) will be used if not specified.
 - `cmd systemcommand argument1 argument2 argumentN` 
 
-##Closing
+##Closing directives
 - `close_all` closes all tabs in all panels, except the Guide itself.
 - `close_all panel=0` closes all tabs in panel 0.
 - `close_file file1` closes `file1` in all panels

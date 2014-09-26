@@ -1,5 +1,6 @@
 terminal
 box-parts
+parts-coding
 ext-access
 sleep
 run
@@ -11,4 +12,3 @@ startup
 always-on
 clone
 granting-access
-coding

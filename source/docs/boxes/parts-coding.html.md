@@ -1,11 +1,61 @@
 ---
-title: "An example Box Part package"
+title: "Coding your own Box Parts"
 class_name: docs
 full_width: true
 ---
 
-The following is an example box part, which describes the various components you can include in your package.
+##Overview
+Although Codio doesn't give you root access, you can in fact install pretty much anything you like onto a Codio Box. If you can't find a ready made Box Part then you can build your own. 
 
+Box Parts are built using simple Ruby templates that do not require advanced Ruby knowledge. Your Box Part package defines the following steps
+
+- Package name, source and version
+- Compilation
+- Installation
+- Post installation (for installing databases, setting config files etc.)
+- How to start and stop services
+
+Once you publish your Box Parts, Codio will approve it and then upload a fully compiled binary into our binary store so the installation process is fast and does not require any source compilation.
+
+Box Parts are Open Source and so all Box Parts are available to all Codio users, giving a rapidly growing ecosystem of instantly installable stack components. Details of our Box Parts GitHub repo are in the next section.
+
+##Coding Instructions
+Once you're ready to start coding your first Box Parts, head to the [Box Parts repo on GitHub](https://github.com/codio/boxparts), where you'll find a fully detailed Guide.
+
+##Simple Box Parts Example
+Many Box Parts are rather simple, like this one for the Lua scripting language
+
+```ruby
+module Autoparts
+  module Packages
+    class Lua < Package
+      name 'lua'
+      version '5.2.2'
+      description 'Lua: A powerful, fast, lightweight, embeddable scripting language'
+      category Category::PROGRAMMING_LANGUAGES
+
+      source_url 'http://www.lua.org/ftp/lua-5.2.2.tar.gz'
+      source_sha1 '0857e41e5579726a4cb96732e80d7aa47165eaf5'
+      source_filetype 'tar.gz'
+
+      def compile
+        Dir.chdir('lua-5.2.2') do
+          execute 'make', 'linux'
+        end
+      end
+
+      def install
+        Dir.chdir('lua-5.2.2') do
+          execute 'make', 'install', "INSTALL_TOP=#{prefix_path}", "INSTALL_MAN=#{man_path}/man1"
+        end
+      end
+    end
+  end
+end
+```
+
+##MySQL Box Parts Example
+Here's the MySQL Box Parts, which is at the advanced end of the scale.
 
 ```ruby
 module Autoparts

@@ -6,6 +6,8 @@ full_width: true
 
 **BETA:** Guides is currently in Beta.
 
+**IMPORTANT** : there is no collaboration support for editing Guides and you MUST AVOID 2 PEOPLE TRYING TO EDIT THE GUIDE SIMULTANEOUSLY.
+
 Codio Guides is a fully integrated content authoring tool that allows you to write rich tutorial type content using pure markdown. 
 
 For an introduction to Guides, take a look at the video below.

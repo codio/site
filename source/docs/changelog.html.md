@@ -10,6 +10,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ###September 25th, 2014
 - **Feature**: New [Box Part](/docs/boxes/box-parts) added.
+- **Fixed**: reports of Code Editor relative line numbering.
 
 ###September 24th, 2014
 - **Fixed**: Fix soft tab when the setting is to indent with spaces.

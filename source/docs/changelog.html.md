@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###September 25th, 2014
+- **Feature**: New [Box Part](/docs/boxes/box-parts) added.
+
 ###September 24th, 2014
 - **Fixed**: Fix soft tab when the setting is to indent with spaces.
 

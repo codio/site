@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###September 29th, 2014
+- **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.5) & Joomla (3.3.4).
+
 ###September 25th, 2014
 - **Feature**: New [Box Part](/docs/boxes/box-parts) added.
 - **Fixed**: reports of Code Editor relative line numbering.

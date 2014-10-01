@@ -16,10 +16,31 @@ For example, if you are not within `<body></body>`, you will see a much reduced 
 ##HTML Attribtues
 If you have entered `<a `, then invoke auto complete, you are presented with a list of relevant attributes for the `<a>` tag.
 
-##Javascript
-Javascript support currently is intelligent enough to display global objects and objects displayed within the current js file you are editing. 
+##Tern & Javascript
+We support intelligent autocomplete using TernJS. Tern also support explicit directives in the `.tern-project` file you can place in the root of your project.
 
-We will soon be delivering a full TernJS implementation that will deliver much more elaborate support.
+This file looks like this
+
+```json
+{
+  "libs": [
+    "browser",
+    "jquery"
+  ],
+  "loadEagerly": [
+    "importantfile.js"
+  ],
+  "plugins": {
+    "requirejs": {
+      "baseURL": "./",
+      "paths": {}
+    }
+  }
+}
+```
+
+Please refer to the [Tern documentation](http://ternjs.net/doc/manual.html#configuration) for full details on how to configure this file.
+
 
 ##CSS
 Use ctrl+space within your CSS to invoke auto complete.

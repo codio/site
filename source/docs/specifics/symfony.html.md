@@ -14,12 +14,12 @@ full_width: true
 
 ##Download from the Symfony site
 
-1. Check the [Symfony website](http://symfony.com/download) to see what the latest version is. At the time of writing, it is 2.5.3.
+1. Check the [Symfony website](http://symfony.com/download) to see what the latest version is. At the time of writing, it is 2.5.5.
 1. Note down the latest version number ready to modify (if necessary) the url specified in the next step.
-1. From the terminal, `wget http://symfony.com/download?v=Symfony_Standard_Vendors_2.5.3.tgz` being sure to check the version number.
+1. From the terminal, `wget http://symfony.com/download?v=Symfony_Standard_Vendors_2.5.5.tgz` being sure to check the version number.
 1. Don't worry about the odd looking filename.
-1. Unzip the download file using `tar -zxvf download?v=Symfony_Standard_Vendors_2.5.3.tgz`
-1. Delete the zip file `rm download?v=Symfony_Standard_Vendors_2.5.3.tgz`
+1. Unzip the download file using `tar -zxvf download?v=Symfony_Standard_Vendors_2.5.5.tgz`
+1. Delete the zip file `rm download?v=Symfony_Standard_Vendors_2.5.5.tgz`
 1. `mv Symfony/{*,.*} ~/workspace` moves the contents of the Symfony folder down to the root folder (ignore warnings).
 1. Delete the now empty Symfony folder `rm -rf Symfony`
 

@@ -4,18 +4,18 @@ class_name: docs
 full_width: true
 ---
 
-You can access the Codio Preferences in two ways
+You can access the User Preferences in two ways
 
 - from the Dashboard, select the Preferences tab
 - from the Dashboard or the IDE, use the menu item `Codio > Preferences > User`
 
 ![Codio Annotations](/img/docs/prefs-menu.png)
 
-Codio preferences are the full collection of settings that apply to you, the logged in user. They cover all aspects of Codio usage from code editor settings (tab stops, indentation, colors, fonts etc.) through to hotkey keyboard shortcut mappings.
+User Preferences are the full collection of settings that apply to you, the logged in user. They cover all aspects of Codio usage from code editor settings (tab stops, indentation, colors, fonts etc.) through to hotkey keyboard shortcut mappings.
 
 ![Codio Annotations](/img/docs/prefs-user.png)
 
-Codio allows you to fully customize all these preferences and the User level and the Project level.
+Codio allows you to fully customize all these preferences and the User level and the [Project level](docs/settings-prefs/project-prefs/).
 
 Codio does the following to manage the final preferences for the logged in user...
 

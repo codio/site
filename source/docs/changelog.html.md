@@ -7,58 +7,34 @@ full_width: true
 This page contains a list of recent updates made to the Codio platform. We update Codio regularly, sometimes several times a day, so this page should provide information to help you figure out what we have changed.
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
-###September 30th, 2014
-- **Improvement**: Improve responsiveness of [Quick Open](/docs/ide/ide-general/quick-open/) (Ctrl+O or Cmd+O).
 
-###September 29th, 2014
-- **Update**: Tutorial Docs updated for latest versions of Symfony (2.5.5) & Joomla (3.3.4).
+###October 1st, 2014
+- **Feature**: Add [Manual Save](docs/ide/ide-general/saving/) project setting.
 
-###September 25th, 2014
-- **Feature**: New [Box Part](/docs/boxes/box-parts) added.
-- **Fixed**: reports of Code Editor relative line numbering.
-
-###September 24th, 2014
-- **Fixed**: Fix soft tab when the setting is to indent with spaces.
-
-###September 22nd, 2014
-- **Update**: Update Project sharing features,  [More information...](/docs/ide/sharing)
-
-###September 18th, 2014
-- **Fixed**: Update rule to allow period within Username for SSH connections.
-- **Feature**: New [Box Part](/docs/boxes/box-parts) added.
-- **Update**: Update Box Part (meteor, rust-nightly)
-
-###September 17th, 2014
-- **Update**: Update Box Parts (googleappengine,googleappenginego,googleappenginejava)
-
-###September 11th, 2014
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-- **Update**: Update Box Part (pip, neko)
-
-###September 10th, 2014
-- **Fixed**: Autocomplete dialog window truncating content to view.
-- **Update**: Update Guides to open and close files, preview and terminal. [More information...](/docs/guides/auto-open/)
-
-###September 9th, 2014
-- **Update**: Update Box Part (postgreqsl)
-- **Feature**: New [Box Parts](/docs/boxes/box-parts) added.
-- **Feature**: New Admin Permissions, [More information...](/blog/2014/09/admin-permissions/)
-
-###September 8th, 2014
-- **Update**: Update Box Part (pip, setuptools, virtualenv).
-
-###September 5th, 2014
-- **Feature**: Added File Synchronisation indicator in the active tab.
-
-###September 4th, 2014
-- **Update**: Update Box Part (python2).
-- **Feature**: New [Box Part](/docs/boxes/box-parts) added.
-
-###September 2nd, 2014
-- **Fixed**: Reports of Vertical bar in Code Editor when switching tabs.
-
-###September 1st, 2014
-- **Feature**: Added Guides. [More information...](/docs/guides)
+###September, 2014
+- **Improvement**: (September 30th) Improve responsiveness of [Quick Open](/docs/ide/ide-general/quick-open/) (Ctrl+O or Cmd+O).
+- **Update**: (September 29th) Tutorial Docs updated for latest versions of Symfony (2.5.5) & Joomla (3.3.4).
+- **Feature**: (September 25th) New [Box Part](/docs/boxes/box-parts) added.
+- **Fixed**: (September 25th) reports of Code Editor relative line numbering.
+- **Fixed**: (September 24th) Fix soft tab when the setting is to indent with spaces.
+- **Update**: (September 22nd) Update Project sharing features,  [More information...](/docs/ide/sharing)
+- **Fixed**: (September 18th) Update rule to allow period within Username for SSH connections.
+- **Feature**: (September 18th) New [Box Part](/docs/boxes/box-parts) added.
+- **Update**: (September 18th) Update Box Part (meteor, rust-nightly)
+- **Update**: (September 17th) Update Box Parts (googleappengine,googleappenginego,googleappenginejava)
+- **Feature**: (September 11th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Update**: (September 11th) Update Box Part (pip, neko)
+- **Fixed**: (September 10th) Autocomplete dialog window truncating content to view.
+- **Update**: (September 10th) Update Guides to open and close files, preview and terminal. [More information...](/docs/guides/auto-open/)
+- **Update**: (September 9th) Update Box Part (postgreqsl)
+- **Feature**: (September 9th) New [Box Parts](/docs/boxes/box-parts) added.
+- **Feature**: (September 9th) New Admin Permissions, [More information...](/blog/2014/09/admin-permissions/)
+- **Update**: (September 8th) Update Box Part (pip, setuptools, virtualenv).
+- **Feature**: (September 5th) Added File Synchronisation indicator in the active tab.
+- **Update**: (September 4th)Update Box Part (python2).
+- **Feature**: (September 4th) New [Box Part](/docs/boxes/box-parts) added.
+- **Fixed**: (September 2nd) Reports of Vertical bar in Code Editor when switching tabs.
+- **Feature**: (September 1st) Added Guides. [More information...](/docs/guides)
 
 ###August, 2014
 - **Fixed**: (August 27th) reports of Export As Zip not functioning.

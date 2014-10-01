@@ -13,7 +13,7 @@ Quick access to the following commonly used settings are available from the 'Vie
 Full settings can be access and managed as follows
 
 - [Account Settings](/docs/settings-prefs/account-settings/)
-- [Codio Preferences](/docs/settings-prefs/codio-prefs/)
+- [User Preferences](/docs/settings-prefs/codio-prefs/)
 - [Project Preferences](/docs/settings-prefs/project-prefs/)
 - [Project Permissions](/docs/settings-prefs/permissions/)
 

@@ -8,6 +8,11 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###October 2nd, 2014
+- **Fixed**: reports of deployment history showing before completion of deployment.
+- **Improvement**: reports of Code Beautification jumping to end of file.
+- **Improvement**: Add project name into browser tab ie Codio - ProjectName.
+
 ###October 1st, 2014
 - **Feature**: Add [Manual Save](docs/ide/ide-general/saving/) project setting.
 

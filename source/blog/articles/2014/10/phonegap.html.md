@@ -10,7 +10,7 @@ published: false
  
 Today we’re excited to announce that Codio’s IDE integration of Phonegap Build is officially out of beta. 
 
-The Phonegap inside Codio integration simplifies the development process and enhances the app development experience for anyone seeking to build cross platform mobile apps with standards based web technologies like HTML, Javascript and CSS.
+Codio's Phonegap Build integration simplifies the development process and enhances the app development experience for anyone seeking to build cross platform mobile apps with standards based web technologies like HTML, Javascript and CSS.
 
 Developers will need a Phonegap account and authentication token - but the development experience will run right inside Codio where you can manage keys, build apps, and upload to relevant app stores.
 

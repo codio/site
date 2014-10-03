@@ -21,6 +21,7 @@ The easiest way to install software packages onto a Codio Box is from the 'Tools
 - specify which services should auto start when your Box starts up
 - uninstall packages
 
+![Install Software](/img/docs/install-software.png)
 
 ##Command Line
 You can also install Box Parts packages from the [command line](/docs/boxes/terminal).

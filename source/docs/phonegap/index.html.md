@@ -4,8 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-Codio's Phonegap features are in Beta until mention of it is removed from the documentation.
-
 You access Codio's Phonegap:Build features from the Tools->Phonegap (beta) menu.
 
 Our Phonegap support provides a comfortable integration with Adobe's Phonegap Build platform. You should first create an account at [http://build.phonegap.com](http://build.phonegap.com).

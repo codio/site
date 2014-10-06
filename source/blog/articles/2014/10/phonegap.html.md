@@ -5,7 +5,7 @@ date: 2014-10-06
 tags: Changelog
 class_name: blog
 full_width: true
-published: false
+published: true
 ---
  
 Today we’re excited to announce that mobile app development gets easier as Codio’s Phonegap Build integration officially exits beta. 

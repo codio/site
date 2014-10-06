@@ -4,8 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-Phonegap should be considered to be in a Beta state until mention of it is removed from the documentation.
-
 This tutorial shows you how to create a project and build to Phonegap:Build using Codio. PhoneGap Build is a cloud service for compiling PhoneGap applications.
 
 [Adobe Phonegap](http://docs.build.phonegap.com/) provides a way for users to create mobile applications using technologies such as HTML, CSS, and Javascript.

@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###October 7th, 2014
+- **Update**: Phonegap features out of Beta [More information...](/blog/2014/10/phonegap/)
+
 ###October 2nd, 2014
 - **Fixed**: reports of deployment history showing before completion of deployment.
 - **Improvement**: reports of Code Beautification jumping to end of file.

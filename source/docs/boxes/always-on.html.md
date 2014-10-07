@@ -1,10 +1,13 @@
 ---
-title: "Always On Boxes"
+title: "Always-On Boxes"
 class_name: docs
 full_width: true
 ---
 
-Coming soon, we will be introducing 'Always On' boxes that will allow you to indicate that a Box is always available and does not shut down shortly after closing your project in the IDE.
+Always-On Boxes is now available in Beta for all paid subscribers. 
 
-Always on Boxes will be available only with paid subscriptions.
+For the duration of the Beta, you can enable a single Box to be Always-On. This means that it will remain active whether you are in the IDE or even logged out.
 
+When we come out of beta, we will provide means of enabling more than one Box to be Always-On.
+
+You can set a Box to Always-On from the 'Project->Settings' menu if you're in the IDE. If you're in the Dashboard, then press the gear icon on a project item to change its settings.

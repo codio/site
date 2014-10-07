@@ -15,5 +15,5 @@ The good news is that the startup time for your Box is extremely fast, so you wi
 If you use services (Apache for example) then when you exit your project and come back to it later, the services will NOT auto start. However, you can easily [configure a `startup.sh`](/docs/boxes/startup) file to do just this.
 
 ##Always On Boxes
-If you want to have an [Always On Box](/docs/boxes/always-on), this is available with a paid subscription.
+[Always On Box](/docs/boxes/always-on) ensures that your Box does not sleep.
 

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Coming soon, we will be introducing 'Always On' boxes that will allow you to indicate that a Box is always available and does not shut down shortly after closing your project in the IDE.
+Boxes can be set to be 'Always On' to indicate that a Box is always available and does not shut down shortly after closing your project in the IDE.
 
-Always on Boxes will be available only with paid subscriptions.
+Always on Boxes are available with a paid subscription.
 

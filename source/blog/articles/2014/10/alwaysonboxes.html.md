@@ -5,7 +5,7 @@ date: 2014-10-09
 tags: Changelog
 class_name: blog
 full_width: true
-published: false
+published: true
 ---
 
 We've been listening to many of our users who have projects that require boxes to be in a permanently active state, so today we’re pleased to announce the beta for Always-On Boxes.

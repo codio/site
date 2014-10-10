@@ -5,7 +5,7 @@ date: 2014-10-10
 tags: Changelog
 class_name: blog
 full_width: true
-published: false
+published: true
 ---
 
 At Codio we know that it’s often the little things about the interface and the development environment you use that make a big difference to your experience – ultimately it's about choice and flexibility.

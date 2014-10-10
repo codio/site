@@ -18,4 +18,3 @@ Beyond the beta we’ll be sharing more news about Always-On boxes including opt
 
 [Feedback and ideas](http://forum.codio.com) are always welcome, and you can also follow Codio on [Twitter](https://twitter.com/codiohq) and [Facebook](https://www.facebook.com/CodioHQ).
 
-See the [docs](/docs/boxes/always-on/) to read more about always-on boxes including how to keep processes running when you exit projects.

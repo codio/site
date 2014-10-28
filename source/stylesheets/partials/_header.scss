@@ -1,3 +1,27 @@
 header {
-    @include outer-container;
+    height: 60px;
+    width: 100%;
+    max-width: none;
+    margin-bottom: 20px;
+    padding: 1em;
+    background-color: #E7F1EC;
+
+    nav {
+
+        ul {
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+            li {
+                float: left;
+                padding: 15px;
+            }
+
+
+        }
+    }
 }

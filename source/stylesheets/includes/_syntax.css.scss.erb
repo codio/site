@@ -1,0 +1,27 @@
+<%= Rouge::Themes::Github.render(:scope => '.highlight') %>
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+
+  code {
+    background: none;
+  }
+}
+
+code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+
+  &::before, &::after {
+    letter-spacing: -0.2em;
+    content: "\00a0"
+  }
+}

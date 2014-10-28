@@ -32,6 +32,21 @@ end
 # Helpers
 ###
 
+set :markdown, :no_intra_emphasis  => true,
+               :tables             => true,
+               :gh_blockcode       => true,
+               :fenced_code_blocks => true,
+               :autolink           => true,
+               :strikethrough      => true,
+               :lax_html_blocks    => true,
+               :superscript        => true,
+               :with_toc_data      => true,
+               :hard_wrap          => true,
+               :smartypants        => true
+
+set :markdown_engine, :redcarpet
+
+activate :syntax
 
 activate :blog do |blog|
   blog.layout            = "blog"

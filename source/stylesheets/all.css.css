@@ -9,8 +9,8 @@ Error: File to import not found or unreadable: bourbon.
 4: @import "base/base";   /* Bitters needs to be imported before Neat *\/
 5: @import "neat";
 6: 
-7: @import "partials/layout";
-8: @import "partials/header";
+7: @import "includes/syntax";
+8: 
 
 Backtrace:
 /Users/dignifiedquire/work/codio/site/source/stylesheets/all.css.scss:3
@@ -56,4 +56,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: bourbon.\A        Load path: /Users/dignifiedquire/work/codio/site/source/stylesheets\A         on line 3 of /Users/dignifiedquire/work/codio/site/source/stylesheets/all.css.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: @import \"bourbon\";\A 4: @import \"base/base\";   /* Bitters needs to be imported before Neat */\A 5: @import \"neat\";\A 6: \A 7: @import \"partials/layout\";\A 8: @import \"partials/header\";"; }
+  content: "Error: File to import not found or unreadable: bourbon.\A        Load path: /Users/dignifiedquire/work/codio/site/source/stylesheets\A         on line 3 of /Users/dignifiedquire/work/codio/site/source/stylesheets/all.css.scss\A \A 1: @charset \"utf-8\";\A 2: \A 3: @import \"bourbon\";\A 4: @import \"base/base\";   /* Bitters needs to be imported before Neat */\A 5: @import \"neat\";\A 6: \A 7: @import \"includes/syntax\";\A 8: "; }

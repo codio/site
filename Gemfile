@@ -17,6 +17,12 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
+# Better Markdown
+gem "redcarpet", "~> 3.2.0"
+
+# Syntax Highlighting
+gem "middleman-syntax", "~> 2.0.0"
+
 # Preocmpilers
 
 gem "coffee-script", "~> 2.3.0"

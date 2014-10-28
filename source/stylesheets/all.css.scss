@@ -4,6 +4,8 @@
 @import "base/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
 
+@import "includes/syntax";
+
 @import "partials/layout";
 @import "partials/header";
 @import "partials/footer";

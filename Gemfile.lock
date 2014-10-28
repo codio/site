@@ -102,11 +102,14 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.4)
       activesupport (>= 3.1)
+    puma (2.9.1)
+      rack (>= 1.1, < 2.0)
     rack (1.5.2)
     rack-livereload (0.3.15)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.3.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -144,6 +147,8 @@ DEPENDENCIES
   middleman-blog (~> 3.5.3)
   middleman-livereload (~> 3.3.4)
   neat (~> 1.7.0)
+  puma
+  rake
   sass (~> 3.4.6)
   tzinfo-data
   wdm (~> 0.1.0)

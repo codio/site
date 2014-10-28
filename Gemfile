@@ -1,6 +1,7 @@
 # If you have OpenSSL installed, we recommend updating
 # the following line to use "https"
 source 'http://rubygems.org'
+ruby '2.1.3'
 
 gem "middleman", "~>3.3.6"
 
@@ -23,3 +24,7 @@ gem "sass", "~> 3.4.6"
 gem "bourbon", "~> 4.0.2"
 gem "bitters", "~> 0.10.1"
 gem "neat", "~> 1.7.0"
+
+# For Heroku
+gem "puma"
+gem "rake"

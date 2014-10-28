@@ -22,7 +22,12 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <%= yield %>
+    <%= partial "header" %>
+
+    <section><%= yield %></section>
+
+    <%= partial "footer" %>
+
     <!-- Include Scripts -->
     <%= javascript_include_tag  "all" %>
 

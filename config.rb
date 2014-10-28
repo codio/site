@@ -20,9 +20,9 @@
 # page "/path/to/file.html", :layout => :otherlayout
 #
 # A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+with_layout :docs do
+  page "/docs/*"
+end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -31,6 +31,19 @@
 ###
 # Helpers
 ###
+
+
+activate :blog do |blog|
+  blog.layout            = "blog"
+  blog.prefix            = "blog"
+  blog.permalink         = ":year/:month/:title.html"
+  blog.sources           = "articles/:year/:month/:title.html"
+  blog.paginate          = true
+  blog.tag_template      = "blog/tag.html"
+  blog.calendar_template = "blog/calendar.html"
+end
+
+activate :directory_indexes
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
@@ -41,17 +54,30 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def nav_pages(url)
+    sitemap.resources.select do |r|
+      r.url === url.split("/")[0..2].join("/") + "/"
+    end
+  end
+  # Returns all pages under a certain directory.
+  def sub_pages(dir)
+    sitemap.resources.find_resource_by_path(dir)
+    # sitemap.resources.select do |resource|
+
+    #   resource.path.start_with?(dir)
+    # end
+  end
+
+end
 
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+set :partials_dir, 'partials'
 
 # Build-specific configuration
 configure :build do

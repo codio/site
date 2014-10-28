@@ -1,0 +1,32 @@
+
+<% wrap_layout :layout do %>
+  <aside>
+    <nav>
+      <h3><%= link_to "Documentation", "/docs" %></h3>
+      <ul>
+        <% nav_pages(current_resource.url).each do |resource| %>
+          <li>
+            <h4><%= link_to resource.data.title, resource.url %></h4>
+            <ul>
+              <% resource.children.each do |child| %>
+                <li>
+                 <h5> <%=  link_to child.data.title, child.url %></h5>
+                  <ul>
+                    <% child.children.each do |p| %>
+                      <li>
+                        <%=  link_to p.data.title, p.url %>
+                      </li>
+                    <% end %>
+                  </ul>
+                </li>
+              <% end %>
+            </ul>
+          </li>
+        <% end %>
+      </ul>
+    </nav>
+  </aside>
+  <article>
+    <%= yield %>
+  </article>
+<% end %>

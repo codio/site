@@ -45,6 +45,10 @@ end
 
 activate :directory_indexes
 
+# Need the extension for error pages
+page "404.html", :directory_index => false
+page "50x.html", :directory_index => false
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 

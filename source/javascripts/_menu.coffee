@@ -71,5 +71,5 @@ toggleMenu = ->
     body.removeEventListener 'tap', closeMenuHandler, false
 
 
-menuToggle.addEventListener 'tap', openMenuHandler
+#menuToggle.addEventListener 'tap', openMenuHandler
 menuToggle.onclick = openMenuHandler

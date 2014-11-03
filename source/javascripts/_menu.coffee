@@ -1,4 +1,5 @@
 #= require classie
+#= require tap.js/tap
 
 
 # Slide Menu
@@ -39,10 +40,13 @@ delay = (fn) ->
 
 menu = document.querySelector '.slide-menu'
 menuToggle = document.getElementById 'menu-toggle'
+body = document.documentElement
+
+menuToggleTap = new Tap(menuToggle)
+bodyTap = new Tap(body)
 
 
-
-menuToggle.onclick = (event) ->
+openMenuHandler = (event) ->
   event.preventDefault()
 
   toggleMenu()
@@ -59,6 +63,13 @@ toggleMenu = ->
   classie.toggle menu, 'open'
 
   if classie.has menu, 'open'
-    delay -> document.documentElement.onclick = closeMenuHandler
+    delay ->
+      body.addEventListener 'tap', closeMenuHandler, false
+      document.documentElement.onclick = closeMenuHandler
   else
     document.documentElement.onclick = null
+    body.removeEventListener 'tap', closeMenuHandler, false
+
+
+menuToggle.addEventListener 'tap', openMenuHandler
+menuToggle.onclick = openMenuHandler

@@ -2,6 +2,7 @@
   "name": "Codio Site",
   "version": "1.0.0",
   "dependencies": {
-    "classie": "~1.0.1"
+    "classie": "~1.0.1",
+    "tap.js": "~2.0.0"
   }
 }

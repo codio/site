@@ -49,27 +49,7 @@
 
 
         button {
-            @include button(simple);
-            font-size: $base-font-size;
-            outline: none;
-            border: none;
-            background: $base-button-color;
-            text-shadow: none;
-            box-shadow: none;
-            width: 150px;
-            font-weight: 500;
-
-            &:hover:not(:disabled) {
-                background: adjust-color($base-button-color, $saturation: -4%, $lightness: -5%);
-            }
-
-            &:focus:not(:disabled),
-            &:hover:not(:disabled),
-            &:active:not(:disabled) {
-                box-shadow: none;
-                border: none;
-            }
-
+            @include action-button;
         }
 
         .hero-copy {

@@ -1,0 +1,85 @@
+
+.slide-menu {
+
+    $slide-menu-background: #FFFFFF;
+    $slide-menu-width: $header-width;
+    $slide-menu-color: $base-font-color;
+    $slide-menu-highlight: $orange;
+    $slide-menu-hover: tint($slide-menu-highlight, 20%);
+    $slide-menu-active: tint($slide-menu-highlight, 20%);
+
+    background: $slide-menu-background;
+    position: fixed;
+    display: inherit;
+
+    width: $slide-menu-width;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    left: -$slide-menu-width;
+
+
+    @include transition(all 0.3s ease);
+
+    &.open {
+        left: 0px;
+    }
+
+
+    @include media($large-screen) {
+        left: 0px;
+    }
+
+
+
+    h3 {
+     	color: $slide-menu-color;
+	font-size: 1.9em;
+	font-weight: 300;
+        margin: 20px 0 70px;
+
+        a {
+            padding: 0;
+            text-align: center;
+
+            &:hover,
+            &:active {
+                color: inherit;
+                background: inherit;
+            }
+        }
+    }
+
+    a {
+    	display: block;
+	color: $slide-menu-color;
+	font-size: .9em;
+	font-weight: 500;
+	padding: em(10) em(40);
+        background: transparent;
+
+        @include transition(all 0.2s ease);
+
+        &:hover {
+	    background: $slide-menu-hover;
+        }
+
+        &:active {
+	    background: $slide-menu-active;
+            color: #FFFFFF;
+        }
+    }
+
+    .actions {
+        margin-top: 50px;
+
+    }
+
+    .outline-button {
+        @include action-button;
+        font-size: .9em;
+	margin: em(10) em(25);
+        @include size(100px 30px);
+        line-height: 15px;
+    }
+}

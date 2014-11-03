@@ -5,7 +5,6 @@ header {
 
         $header-background: #FFFFFF;
 
-        padding: 1em;
         background: $header-background;
         @include clearfix;
 
@@ -13,18 +12,6 @@ header {
             @include media($large-screen) {
                 display: none;
             }
-        }
-
-        &.left {
-            display:  none;
-
-            @include media($large-screen) {
-                position: fixed;
-                height: 100%;
-                width: $header-width;
-                display: inherit;
-            }
-
         }
 
         ul {

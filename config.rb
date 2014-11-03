@@ -1,13 +1,4 @@
 ###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
-
-###
 # Page options, layouts, aliases and proxies
 ###
 
@@ -67,6 +58,8 @@ page "50x.html", :directory_index => false
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+activate :bower
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -97,6 +90,9 @@ set :js_dir, 'javascripts'
 set :images_dir, 'img'
 
 set :partials_dir, 'partials'
+
+
+
 
 # Build-specific configuration
 configure :build do

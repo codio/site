@@ -26,10 +26,11 @@ $base-z-index: 0;
 $blue: #477DCA;
 $dark-gray: #3E4951;
 $medium-gray: #999;
-$light-gray: #DDD;
+$light-gray: #FCFCFC;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
+$orange: #FC7122;
 
 // Background Color
 $base-background-color: white;
@@ -41,7 +42,7 @@ $base-accent-color: $blue;
 // Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $blue;
+$base-button-color: $orange;
 $hover-button-color: $hover-link-color;
 
 // Flash Colors

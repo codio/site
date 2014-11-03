@@ -1,10 +1,10 @@
 .footer {
     @include outer-container;
 
-    $footer-background: desaturate(darken($base-accent-color, 20), 30);
-    $footer-color: white;
-    $footer-link-color: transparentize($footer-color, .6);
-    $footer-disclaimer-color: transparentize($footer-color, .6);
+    $footer-background: $light-gray;
+    $footer-color: $base-font-color;
+    $footer-link-color: transparentize($footer-color, .2);
+    $footer-disclaimer-color: transparentize($footer-color, .2);
 
     background: $footer-background;
     padding: $base-spacing*2 $gutter $base-spacing/2;
@@ -44,6 +44,7 @@
 
     li a {
         color: $footer-link-color;
+        text-decoration: underline;
 
         &:hover {
             color: transparentize($footer-color, 0);

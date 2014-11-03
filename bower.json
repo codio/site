@@ -1,0 +1,7 @@
+{
+  "name": "Codio Site",
+  "version": "1.0.0",
+  "dependencies": {
+    "classie": "~1.0.1"
+  }
+}

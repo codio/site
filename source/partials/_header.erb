@@ -2,20 +2,19 @@
 
   <nav class="top">
     <ul>
-      <li><a href="">Menu</a></li>
+      <li><a href="" id="menu-toggle">Menu</a></li>
       <li><a href="">Sign Up</a></li>
     </ul>
   </nav>
-  <nav class="left">
-    <ul>
-      <li><%= link_to "Codio", "/" %></li>
-      <li><%= link_to "Docs", "/docs" %></li>
-      <li><%= link_to "Pricing", "/pricing" %></li>
-      <li><%= link_to "Community", "/community" %></li>
-    </ul>
-    <ul>
-      <li><a href="">Sign In</a></li>
-      <li><a href="">Sign Up</a></li>
-    </ul>
+  <nav class="left slide-menu">
+    <h3><%= link_to ".codio", "/" %></h3>
+    <%= link_to "Docs", "/docs" %>
+    <%= link_to "Pricing", "/pricing" %>
+    <%= link_to "Community", "/community" %>
+
+    <div class="actions">
+      <a href="">Sign In</a>
+      <a href="" class="outline-button">Sign Up</a>
+    </div>
   </nav>
 </header>

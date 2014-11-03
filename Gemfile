@@ -34,6 +34,8 @@ gem "bourbon", "~> 4.0.2"
 gem "bitters", "~> 0.10.1"
 gem "neat", "~> 1.7.0"
 
+gem "middleman-bower", "~> 1.0.2"
+
 # For Heroku
 gem "puma"
 gem "rake"

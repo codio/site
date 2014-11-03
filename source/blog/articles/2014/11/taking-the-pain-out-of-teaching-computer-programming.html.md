@@ -1,11 +1,10 @@
 ---
 title: Taking the pain out of teaching computer programming.
-author: Phillip Snalune & Freddy May
+author: Phillip Snalune
 date: 2014-11-03
 tags: Changelog
 class_name: blog
 full_width: true
-published: true
 ---
 
 Across the globe, there is growing talk of the need for the next language we teach our children to be coding or computer programming, perhaps ahead of (but not to the exclusion of) traditional ‘second or third language’ options such as French, Hindi or Mandarin Chinese.  Code underpins so many of the products, services and applications we use everyday that a knowledge of the code and computational thinking that created them is becoming indispensable to understanding and operating in the modern world.

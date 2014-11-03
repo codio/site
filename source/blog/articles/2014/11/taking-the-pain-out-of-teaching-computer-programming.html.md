@@ -13,7 +13,7 @@ Codio was created to take the pain out of teaching coding - to unlock the potent
 
 We’re constantly inspired by the myriad ways in which Codio is being adopted by teachers and lecturers in schools and universities.  We love getting out and meeting with users - and recently we visited Caistor Grammar School in Lincolnshire in the UK - an academy school with a keen focus on innovation and academic excellence -  where we met with Thomas Smith, Head of Computing, interviewed many of the computer science students and participated in the classroom with a group new to computer science.  It was an inspiring day!
   
-<iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo?list=UUXCn0me4x6buucpmiJph7lQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo" frameborder="0" allowfullscreen></iframe>
     
 As more and more schools and universities seek to innovate in the way they teach computer science, we’re continuing to build out the education user experience and going forward you’ll see us continue to improve in the following ways:
 

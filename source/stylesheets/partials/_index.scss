@@ -1,7 +1,8 @@
 .hero {
+
     $hero-background-top: darken($base-accent-color, 25);
     $hero-background-bottom: adjust-hue($hero-background-top, -70);
-    $hero-color: white;
+    $hero-color: $base-font-color;
     $gradient-angle: 10deg;
     $hero-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
 
@@ -10,25 +11,65 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    padding-bottom: 4em;
 
-    .hero-logo img {
-        height: 3em;
-        margin-bottom: 2.5em;
+    height: 280px;
+
+    @include media(min-height $medium-screen-height min-width $medium-screen) {
+        height: 480px;
+        padding-top: 100px;
+
     }
+
+    @include media(min-height $large-screen-height min-width $large-screen) {
+        height: 680px;
+        padding-top: 130px;
+    }
+
 
     .hero-inner {
         @include outer-container;
         @include clearfix;
-        padding: 3em;
         margin: auto;
         text-align: center;
         color: $hero-color;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 40px;
+
+        @include size(100% 90%);
+
+        @include media(min-height $medium-screen-height min-width $medium-screen) {
+            padding: 20px;
+            @include size(250px);
+        }
+
+        @include media(min-height $large-screen-height min-width $large-screen) {
+            padding: 20px;
+            @include size(400px);
+        }
+
 
         button {
-            @include button(simple, $base-background-color);
+            @include button(simple);
             font-size: $base-font-size;
             outline: none;
+            border: none;
+            background: $base-button-color;
+            text-shadow: none;
+            box-shadow: none;
+            width: 150px;
+            font-weight: 500;
+
+            &:hover:not(:disabled) {
+                background: adjust-color($base-button-color, $saturation: -4%, $lightness: -5%);
+            }
+
+            &:focus:not(:disabled),
+            &:hover:not(:disabled),
+            &:active:not(:disabled) {
+                box-shadow: none;
+                border: none;
+            }
+
         }
 
         .hero-copy {
@@ -44,27 +85,58 @@
             }
 
             p {
-                font-family: $serif;
                 margin: auto;
-                margin-bottom: 3em;
+                margin-bottom: 1em;
                 font-weight: 200;
-                line-height: 1.4em;
+                line-height: 1.1em;
+                font-size: 1.1em;
 
-                @include media($large-screen) {
-                    font-size: 1.1em;
-                    max-width: 40%;
+                @include media($large-screen-height) {
+                    line-height: 1.4em;
+                    font-size: 1.4em;
                 }
+
+                @include media($medium-screen-height) {
+                    line-height: 1.2em;
+                    font-size: 1.2em;
+                }
+
+
             }
         }
     }
 }
 
 .pillar-text {
-    $pillar-text-width: 60%;
+    @include outer-container;
+
+    aside {
+        @include span-columns(4);
+
+        @include media($large-screen-up) {
+            @include span-columns(2);
+        }
+
+        text-align: center;
+        padding: 0 2em;
+    }
+
+    article {
+        @include span-columns(4);
+        text-align: center;
+
+        @include media($large-screen-up) {
+            text-align: left;
+            @include span-columns(6);
+        }
+
+        padding: 0 2em;
+    }
+
 
     margin-bottom: 5em;
     margin-top: 4em;
-    text-align: center;
+    text-align: left;
 
     h2 {
         font-weight: 800;
@@ -76,22 +148,19 @@
         }
     }
 
-    p {
-        margin: auto;
-
-        @include media($large-screen) {
-            width: $pillar-text-width;
-        }
-
-        a {
-            font-size: .8em;
-            font-weight: 400;
-            text-transform: uppercase;
-
-            span {
-                font-size: 1.3em;
-                line-height: 0;
-            }
-        }
+    a {
+        display: inline-block;
+        vertical-align: middle;
+        border: 2px solid $base-font-color;
+        border-radius: $base-border-radius;
+        height: em(45);
+        line-height: em(20);
+        padding: em(10) em(50);
+        font-weight: 500;
+        font-size: .9em;
+        color: $base-font-color;
+        margin: 0;
+        text-decoration: none;
+        text-align: center;
     }
 }

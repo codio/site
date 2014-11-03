@@ -1,45 +1,43 @@
 .footer {
+    @include outer-container;
+
     $footer-background: desaturate(darken($base-accent-color, 20), 30);
     $footer-color: white;
     $footer-link-color: transparentize($footer-color, .6);
     $footer-disclaimer-color: transparentize($footer-color, .6);
 
     background: $footer-background;
-    padding: $base-spacing*2 $gutter;
-    width: 100%;
+    padding: $base-spacing*2 $gutter $base-spacing/2;
 
-    .footer-logo {
-        text-align: center;
-        margin-bottom: 2em;
-
-        img {
-            height: 3em;
-        }
+    @include media($large-screen) {
+        margin-left: $header-width;
     }
 
     .footer-links {
         @include clearfix;
-        margin-bottom: $base-spacing;
+        @include span-columns(4 of 4);
 
-        @include media($medium-screen) {
-            @include shift(3);
+        @include media($large-screen-up) {
+            @include shift(1);
+            @include span-columns(6 of 8);
         }
     }
 
     ul {
         margin-bottom: $base-spacing*2;
+        @include span-columns(4);
+        @include omega(4n);
+        @include clearfix;
 
-        @include media($medium-screen) {
-            @include span-columns(3);
-            @include omega(3n);
-            @include clearfix;
+        @include media($large-screen-up) {
+            @include span-columns(2);
         }
     }
 
     li {
         text-align: center;
 
-        @include media($medium-screen) {
+        @include media($large-screen-up) {
             text-align: left;
         }
     }

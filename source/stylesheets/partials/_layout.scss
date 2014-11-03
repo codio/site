@@ -10,3 +10,25 @@ body {
 
     @include outer-container;
 }
+
+section {
+    @include outer-container;
+
+    aside {
+        @include span-columns(4);
+        padding: 2em;
+
+        @include media($large-screen-up) {
+            @include span-columns(2 of 8);
+        }
+    }
+    article {
+        @include span-columns(4);
+        padding: 2em;
+
+        @include media($large-screen-up) {
+            @include span-columns(6 of 8);
+        }
+    }
+
+}

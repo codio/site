@@ -1,0 +1,161 @@
+body.pricing {
+
+    h1 {
+        text-align: center;
+    }
+
+    section {
+        @include outer-container;
+
+        aside {
+            @include span-columns(4);
+            padding: 2em;
+
+            @include media($large-screen-up) {
+                @include span-columns(2 of 8);
+            }
+        }
+        article {
+            @include span-columns(4);
+            padding: 2em;
+
+            @include media($large-screen-up) {
+                @include span-columns(6 of 8);
+            }
+        }
+
+    }
+
+
+    .cards {
+        @include clearfix;
+
+        padding: 2em;
+    }
+
+    .card {
+        $card-border-color: $base-border-color;
+        $card-border: 1px solid $card-border-color;
+        $card-background: lighten($card-border-color, 10);
+        $card-header-background: $card-background;
+        $card-hover-background: lighten($card-background, 5);
+        $card-image-background: #DBD199;
+        $card-image-hover-background: lighten($card-image-background, 5);
+        $card-stats-color: lighten($base-accent-color, 10);
+
+        @include transition (all 0.2s ease-in-out);
+        background-color: $card-background;
+        border: $card-border;
+        margin-bottom: $base-spacing;
+        cursor: pointer;
+        position: relative;
+        text-align: center;
+
+        @include span-columns(4);
+
+        @include media($large-screen-up) {
+            @include span-columns(2 of 8);
+            width: 25%;
+            margin-right: 0;
+        }
+
+        .card-header {
+            h2 {
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-bottom: .5em;
+            }
+
+            @include transition (all 0.2s ease-in-out);
+            background-color: $card-header-background;
+            border-bottom: $card-border;
+            border-radius: $base-border-radius $base-border-radius 0 0;
+            font-weight: normal;
+            padding: $base-spacing/3 $gutter/2;
+            height: 100px;
+
+            @include media($large-screen-up) {
+                height: 150px;
+            }
+        }
+
+        .card-copy {
+            padding: $base-spacing/2 $gutter/2;
+            font-size: .9em;
+            line-height: 1.5em;
+
+            @include media($large-screen-up) {
+                height: 200px;
+            }
+        }
+
+        .card-price {
+            font-size: 2em;
+            font-weight: bold;
+
+            span {
+                font-size: .4em;
+            }
+            @include media($large-screen-up) {
+                height: 150px;
+            }
+        }
+
+        a {
+            @include outline-button;
+            margin-bottom: 40px;
+        }
+
+        .card-stats {
+            padding: $base-spacing/2 $gutter/2;
+            overflow: auto;
+
+            ul li {
+                display: inline;
+                color: $card-stats-color;
+                font-weight: 800;
+                font-size: 1.2em;
+                float: left;
+                border-right: 1px solid transparentize($base-font-color, .8);
+                line-height: 1.1em;
+                padding: 0 .7em 0 .7em;
+
+                &:first-child {
+                    padding-left: 0;
+                }
+
+                &:last-child {
+                    border-right: 0;
+                }
+
+                span {
+                    color: $base-font-color;
+                    font-size: .7em;
+                    display: block;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        &:hover {
+            background-color: $card-hover-background;
+
+            .card-image img {
+                background: $card-image-hover-background;
+            }
+
+            .card-header {
+                background-color: $card-hover-background;
+            }
+        }
+
+        &:active {
+            background-color: $card-background;
+
+            .card-header {
+                background-color: $card-background;
+            }
+        }
+    }
+
+}

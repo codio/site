@@ -1,0 +1,16 @@
+
+@mixin outline-button {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid $base-font-color;
+    border-radius: $base-border-radius;
+    height: em(45);
+    line-height: em(20);
+    padding: em(10) em(50);
+    font-weight: 500;
+    font-size: .9em;
+    color: $base-font-color;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+}

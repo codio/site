@@ -23,6 +23,9 @@ gem "redcarpet", "~> 3.2.0"
 # Syntax Highlighting
 gem "middleman-syntax", "~> 2.0.0"
 
+# Summaries
+gem "nokogiri", "~> 1.6.3.1"
+
 # Preocmpilers
 
 gem "coffee-script", "~> 2.3.0"

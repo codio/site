@@ -39,6 +39,20 @@ set :markdown_engine, :redcarpet
 
 activate :syntax
 
+activate :automatic_clowncar,
+         :sizes => {
+           :small => 200,
+           :medium => 400,
+           :large => 600,
+           :extraLarge => 800
+         },
+         :namespace_directory => %w(artwork),
+         :filetypes => [:jpg, :jpeg, :png]
+
+activate :asset_host
+set :asset_host, "http://localhost:4567"
+
+
 activate :blog do |blog|
   blog.layout            = "blog"
   blog.prefix            = "blog"

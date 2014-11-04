@@ -3,21 +3,32 @@
     $hero-background-top: darken($base-accent-color, 25);
     $hero-background-bottom: adjust-hue($hero-background-top, -70);
     $hero-color: $base-font-color;
-    $gradient-angle: 10deg;
-    $hero-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
 
-    @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+    $hero-image-small: 'http://localhost:4567/artwork/inbetween2/inbetween2-small.jpg';
+    $hero-image-medium: 'http://localhost:4567/artwork/inbetween2/inbetween2-medium.jpg';
+    $hero-image-large: 'http://localhost:4567/artwork/inbetween2/inbetween2-large.jpg';
+    $hero-image-extra-large: 'http://localhost:4567/artwork/inbetween2/inbetween2-extraLarge.jpg';
 
+    background-image: url($hero-image-small);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
 
     height: 280px;
 
+    @include media($medium-screen-up) {
+        background-image: url($hero-image-medium);
+    }
+    @include media($large-screen-up) {
+        background-image: url($hero-image-large);
+    }
+    @include media($extra-large-screen-up) {
+        background-image: url($hero-image-extra-large);
+    }
+
     @include media(min-height $medium-screen-height min-width $medium-screen) {
         height: 480px;
         padding-top: 100px;
-
     }
 
     @include media(min-height $large-screen-height min-width $large-screen) {

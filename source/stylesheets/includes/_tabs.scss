@@ -1,0 +1,112 @@
+// Pure CSS3 tabs
+//
+// taken from http://tympanus.net/codrops/2012/04/12/animated-content-tabs-with-css3/
+.tabs {
+
+    position: relative;
+
+    @include outer-container;
+
+    input {
+        position: absolute;
+	z-index: 1000;
+	width: flex-grid(nth(2 of 8, 1), 8);
+	height: 40px;
+	left: nth(2 of 8, 1) * flex-grid(1, 8) + nth(2 of 8, 1) * flex-gutter(8);
+	top: 0px;
+	opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+	cursor: pointer;
+
+        &#tab-2 {
+	    left: nth(4 of 8, 1) * flex-grid(1, 8) + nth(4 of 8, 1) * flex-gutter(8);
+        }
+        &:hover + label {
+	    background: #5ba4a4;
+        }
+        &:checked + label {
+            background: #fff;
+	    z-index: 6;
+        }
+        &.tab-selector-1:checked ~ .content .content-1,
+        &.tab-selector-2:checked ~ .content .content-2 {
+	    z-index: 100;
+            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: alpha(opacity=100);
+            opacity: 1;
+
+            @include transition(opacity ease-out 0.2s 0.1s);
+        }
+
+    }
+
+    label {
+	font-size: 15px;
+	line-height: 40px;
+	height: 40px;
+	position: relative;
+	padding: 0 20px;
+        float: left;
+	display: block;
+	color: $base-font-color;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+        border-radius: $base-border-radius;
+        border: 2px solid $base-font-color;
+
+        @include span-columns(4);
+
+        @include media($large-screen-up) {
+            @include span-columns(2 of 8);
+        }
+
+        &:first-of-type {
+            z-index: 4;
+
+            @include media($large-screen-up) {
+                @include shift(2 of 8)
+            }
+
+        }
+
+
+        &.tab-label-2 {
+            z-index: 3;
+        }
+
+    }
+
+
+    .clear-shadow {
+	clear: both;
+    }
+
+    .content {
+        background: #fff;
+	position: relative;
+        width: 100%;
+        height: em(1800);
+	z-index: 5;
+        border-radius: 0 3px 3px 3px;
+
+
+        @include media($large-screen-up) {
+            height: em(670);
+        }
+
+        & > div {
+            position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 10px 40px;
+	    z-index: 1;
+            opacity: 0;
+
+            @include transition(opacity linear 0.1s);
+        }
+
+    }
+}

@@ -132,4 +132,5 @@ configure :build do
   # Enable cache buster
   activate :asset_hash
 
+  set :asset_host, "http://blooming-peak.herokuapp.com"
 end

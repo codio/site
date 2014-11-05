@@ -1,24 +1,31 @@
 ---
-title: Codio Blog - Tags
+title: Codio Blog - Categories
+pageable: true
+per_page: 10
 ---
-<h1>Articles tagged '<%= tagname %>'</h1>
+<header class="artwork"></header>
+<article>
+  <h1><%= tagname %></h1>
 
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
-
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
-
-<ul>
   <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+    <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+    <%= article.summary(250) %>
   <% end %>
-</ul>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
+  <% if paginate && num_pages > 1 %>
+    <div class="pagination">
+      <ul>
+        <% if prev_page %>
+          <li class="page-prev"><%= link_to 'Prev', prev_page %></li>
+        <% end %>
+        <li>
+          <%= page_number %> of <%= num_pages %>
+        </li>
+        <% if next_page %>
+          <li class="page-next"><%= link_to 'Next', next_page %></li>
+        <% end %>
+      </ul>
+    </div>
   <% end %>
-<% end %>
+
+</article>

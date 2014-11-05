@@ -1,0 +1,62 @@
+body.blog #content {
+
+    .title {
+        padding: em(40) em(40) 0;
+
+        h1 {
+            font-weight: 300;
+        }
+
+        @include span-columns(4);
+
+        @include media($large-screen-up) {
+            @include span-columns(6 of 8);
+        }
+    }
+
+    aside {
+        h2 {
+            font-size: 1.2em;
+            margin-bottom: em(20);
+        }
+
+        ol {
+            margin-bottom: em(20);
+
+            li {
+                margin: em(10) 0;
+                a {
+                    color: $base-font-color;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    article {
+        @include outer-container;
+
+        header {
+            img {
+                margin: 0 0 em(30) 0;
+            }
+
+        }
+        .post {
+            @include span-columns(4 of 4);
+
+            @include media($large-screen-up) {
+                @include shift(1 of 6);
+                @include span-columns(5 of 6);
+            }
+            .date {
+                font-size: .9em;
+            }
+
+            & > .content {
+
+            }
+        }
+    }
+
+}

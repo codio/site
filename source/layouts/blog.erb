@@ -1,11 +1,24 @@
 <% wrap_layout :layout do %>
   <header class="artwork"></header>
-  <%= link_to "Blog", "/blog" %>
+  <div class="title">
+    <%= link_to "Blog", "/blog" %>
+    <h1><%= current_article.title %></h1>
+  </div>
 
   <article>
-    <h1><%= current_article.title %></h1>
+    <header>
+      <img alt="placeholder" src="<%= lorem.image('600x300')%>"/>
+    </header>
 
-    <%= yield %>
+    <div class="post">
+      <div class="date">
+        <%= current_article.date.strftime('%B %e, %Y')%> by <b><%= current_article.data.author %></b>
+      </div>
+      <%= partial(:"share-links", :locals => { :article => current_article }) %>
+      <div class="content">
+        <%= yield %>
+      </div>
+    </div>
   </article>
 
   <%= partial "blog-sidebar" %>

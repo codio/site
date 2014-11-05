@@ -13,6 +13,9 @@
 <%= stylesheet_link_tag "all" %>
 
 <% unless current_page.app.development? %>
-  <%= javascript_include_tag  "google-analytics" %>
-  <%= javascript_include_tag  "intercom" %>
+  <%= javascript_include_tag  "vendors/google-analytics" %>
+  <%= javascript_include_tag  "vendors/intercom" %>
 <% end %>
+
+<%= javascript_include_tag "vendors/twitter" %>
+<%= partial "facebook" %>

@@ -4,11 +4,13 @@ body {
 
 
 #content {
+    background: $lighter-gray;
+    @include outer-container;
+
+
     @include media($large-screen) {
         margin-left: $header-width;
     }
-
-    @include outer-container;
 }
 
 section {
@@ -16,7 +18,7 @@ section {
 
     aside {
         @include span-columns(4);
-        padding: 2em;
+        padding: em(40);
 
         @include media($large-screen-up) {
             @include span-columns(2 of 8);
@@ -24,7 +26,7 @@ section {
     }
     article {
         @include span-columns(4);
-        padding: 2em;
+        padding: em(40);
 
         @include media($large-screen-up) {
             @include span-columns(6 of 8);

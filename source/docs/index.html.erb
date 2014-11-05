@@ -8,7 +8,6 @@ categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
 <h1>Documentation</h1>
 <% current_resource.children.select {|c| puts c.metadata[:page]["title"]; true} %>
 <% current_page.data.categories.each do |category| %>
-  <% puts category %>
   <% resource = current_resource.children.select {|c| c.metadata[:page]["title"] == category}[0] %>
   <section>
     <h2><%= link_to resource.data.title, resource.url %></h2>

@@ -5,6 +5,7 @@
     "tap.js": "~2.0.0",
     "cookie-monster": "~0.3.0",
     "zepto": "~1.1.4",
-    "html5shiv": "~3.7.2"
+    "html5shiv": "~3.7.2",
+    "blueimp-md5": "~1.1.0"
   }
 }

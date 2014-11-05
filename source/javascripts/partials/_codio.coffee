@@ -18,7 +18,15 @@ startIntercom = (data) ->
 
 # Show the signed in men
 showUser = (user) ->
-  console.log user
+  hash = md5 user.details.email.toLowerCase()
+  $('#gravatar').prop 'src', '//www.gravatar.com/avatar/' + hash + '?s=32&amp;d=mm'
+  userlink = $('#userlink')
+  userlink.prop 'href', "/#{user.details.name}"
+  $('#userlink span').text user.details.name
+
+  $('.signed-out').hide()
+  $('.signed-in').show()
+
 
 # Set google analytics tracking for anonymous users
 anonGa = ->

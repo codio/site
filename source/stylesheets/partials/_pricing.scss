@@ -1,5 +1,13 @@
 body.pricing {
 
+    .content-1 {
+        .card {
+            @include media($large-screen-up) {
+                width: 33%;
+            }
+        }
+    }
+
     h1 {
         text-align: center;
         margin-bottom: 80px;

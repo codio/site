@@ -67,8 +67,7 @@ fetchUser = (session, done) ->
 $ ->
 
   # Fetch the session id from the cookie
-  #session = monster.get 'crafted_session'
-  session = '283a57a1-4111-4add-b35d-e4f11a0a553c'
+  session = monster.get 'crafted_session'
 
   anonGa() if not session?
 

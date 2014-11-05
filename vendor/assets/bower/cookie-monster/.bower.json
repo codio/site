@@ -1,0 +1,23 @@
+{
+  "name": "cookie-monster",
+  "description": "a simple cookie library",
+  "version": "0.3.0",
+  "homepage": "https://github.com/jgallen23/cookie-monster",
+  "license": "MIT",
+  "copyright": "Greg Allen",
+  "main": "dist/cookie-monster.js",
+  "dependencies": {},
+  "devDependencies": {
+    "assert": "*"
+  },
+  "_release": "0.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.0",
+    "commit": "02cc602f4a24e5d6ba17a3bc8d05c0d856ab2230"
+  },
+  "_source": "git://github.com/jgallen23/cookie-monster.git",
+  "_target": "~0.3.0",
+  "_originalSource": "cookie-monster",
+  "_direct": true
+}

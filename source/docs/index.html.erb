@@ -1,25 +1,24 @@
 ---
 layout: layout
+categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
 ---
 <header class="artwork"></header>
 
-<article>
-  <h1>Documentation</h1>
-
-  <nav>
+<article class="docs-landing">
+<h1>Documentation</h1>
+<% current_resource.children.select {|c| puts c.metadata[:page]["title"]; true} %>
+<% current_page.data.categories.each do |category| %>
+  <% puts category %>
+  <% resource = current_resource.children.select {|c| c.metadata[:page]["title"] == category}[0] %>
+  <section>
+    <h2><%= link_to resource.data.title, resource.url %></h2>
     <ul>
-      <% current_resource.children.each do |resource| %>
+      <% resource.children.each do |child| %>
         <li>
-          <h2><%= link_to resource.data.title, resource.url %></h2>
-          <ul>
-            <% resource.children.each do |child| %>
-              <li>
-                <%=  link_to child.data.title, child.url %>
-              </li>
-            <% end %>
-          </ul>
+          <%=  link_to child.data.title, child.url %>
         </li>
       <% end %>
     </ul>
-  </nav>
+  </section>
+<% end %>
 </article>

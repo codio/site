@@ -83,4 +83,27 @@ body.docs #content {
         }
     }
 
+    .docs-landing {
+        padding: 0;
+
+        @include outer-container;
+        @include span-columns(4 of 4);
+
+        @include media($large-screen-up) {
+            @include span-columns(8 of 8);
+        }
+
+        section {
+            @include span-columns(4);
+            @include omega(4n);
+
+            padding: em(40);
+
+            @include media($large-screen-up) {
+                @include span-columns(8 of 8);
+                @include omega(8n);
+            }
+
+        }
+    }
 }

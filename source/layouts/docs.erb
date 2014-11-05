@@ -1,8 +1,9 @@
 
 <% wrap_layout :layout do %>
+  <header class="artwork"></header>
   <aside>
     <nav>
-      <h3><%= link_to "Documentation", "/docs" %></h3>
+      <%= link_to "Docs", "/docs" %>
       <ul>
         <% nav_pages(current_resource.url).each do |resource| %>
           <li>
@@ -10,10 +11,18 @@
             <ul>
               <% resource.children.each do |child| %>
                 <li>
-                 <h5> <%=  link_to child.data.title, child.url %></h5>
-                  <ul>
+                  <h5> <%=  link_to child.data.title, child.url %></h5>
+                  <% if current_section? child.url %>
+                    <ul class="active">
+                  <% else %>
+                    <ul>
+                  <% end %>
                     <% child.children.each do |p| %>
-                      <li>
+                      <% if current_page? p.url %>
+                        <li class="active">
+                      <% else %>
+                        <li>
+                      <% end %>
                         <%=  link_to p.data.title, p.url %>
                       </li>
                     <% end %>

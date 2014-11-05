@@ -89,10 +89,20 @@ helpers do
   # Returns all pages under a certain directory.
   def sub_pages(dir)
     sitemap.resources.find_resource_by_path(dir)
-    # sitemap.resources.select do |resource|
+  end
 
-    #   resource.path.start_with?(dir)
-    # end
+  def current_page?(path)
+    current_path = current_page.url
+    current_path.slice! -1 if current_page.url.end_with?('/')
+    path.slice! -1 if path.end_with?('/')
+    current_path == path
+  end
+
+  def current_section?(path)
+    current_path = current_page.url
+    current_path.slice! -1 if current_page.url.end_with?('/')
+    path.slice! -1 if path.end_with?('/')
+    current_path.start_with? path
   end
 
 end

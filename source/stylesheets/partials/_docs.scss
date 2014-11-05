@@ -1,0 +1,88 @@
+body.docs #content {
+
+    $border-color: #C3C4C8;
+
+    background: $lighter-gray;
+
+    aside {
+        nav {
+
+            a {
+                color: $base-font-color;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            h5 {
+                font-size: 1.1em;
+            }
+
+            h4 {
+                margin-top: 20px;
+                margin-bottom: 30px;
+            }
+            & > ul {
+                & > li {
+                    & > ul {
+                        & > li {
+                            margin: em(10) 0;
+                            & > ul {
+                                display: none;
+                                margin: em(10) 0;
+
+                                &.active {
+                                    display: inherit;
+                                }
+
+                                border-left: 2px solid $border-color;
+
+                                li {
+                                    padding-left: em(20);
+                                    font-weight: 300;
+                                    font-size: .9em;
+
+                                    &.active a {
+                                        color: $orange;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    article {
+
+        h1 {
+            font-size: 2em;
+            font-weight: 300;
+            margin-bottom: em(15);
+        }
+
+        h2 {
+            font-size: 1.1em;
+            margin: em(30) 0;
+        }
+
+        p {
+            margin-bottom: em(30);
+
+            strong {
+                display: block;
+                border-left: 2px solid $border-color;
+                padding-left: em(20);
+                font-weight: normal;
+                font-size: .9em;
+            }
+
+            img {
+                padding: em(20);
+            }
+        }
+    }
+
+}

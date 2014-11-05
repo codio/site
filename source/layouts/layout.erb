@@ -1,20 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Codio" %></title>
-
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <%= stylesheet_link_tag "all" %>
+    <%= partial "head" %>
   </head>
 
   <body class="<%= page_classes %>">

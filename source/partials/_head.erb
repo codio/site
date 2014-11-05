@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Use title if it's in the page YAML frontmatter -->
+<title><%= current_page.data.title || "Codio" %></title>
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Place favicon.ico in the root directory -->
+
+<%= stylesheet_link_tag "all" %>
+
+<% unless current_page.app.development? %>
+  <%= javascript_include_tag  "google-analytics" %>
+  <%= javascript_include_tag  "intercom" %>
+<% end %>

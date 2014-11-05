@@ -1,5 +1,6 @@
 
 @mixin outline-button {
+    font-family: $sans-serif;
     display: inline-block;
     vertical-align: middle;
     border: 2px solid $base-font-color;
@@ -16,6 +17,7 @@
 }
 @mixin action-button {
     @include button(simple);
+    font-family: $sans-serif;
     font-size: $base-font-size;
     outline: none;
     border: none;

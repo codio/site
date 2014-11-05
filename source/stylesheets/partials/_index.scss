@@ -33,7 +33,7 @@
 
     @include media(min-height $large-screen-height min-width $large-screen) {
         height: 680px;
-        padding-top: 130px;
+        padding-top: 100px;
     }
 
 
@@ -55,12 +55,16 @@
 
         @include media(min-height $large-screen-height min-width $large-screen) {
             padding: 20px;
-            @include size(400px);
+            @include size(500px 450px);
         }
 
 
         button {
             @include action-button;
+            width: 200px;
+            height: 50px;
+            font-size: 1.3em;
+            font-weight: 300;
         }
 
         .hero-copy {
@@ -69,23 +73,20 @@
             h1 {
                 font-size: 1.6em;
                 margin-bottom: .5em;
+                font-weight: 300;
 
                 @include media($large-screen) {
-                    font-size: 1.8em;
+                    line-height: 1.2em;
+                    font-size: 4em;
                 }
             }
 
             p {
                 margin: auto;
                 margin-bottom: 1em;
-                font-weight: 200;
-                line-height: 1.1em;
-                font-size: 1.1em;
-
-                @include media($large-screen-height) {
-                    line-height: 1.4em;
-                    font-size: 1.4em;
-                }
+                font-weight: 300;
+                line-height: 1.2em;
+                font-size: 1.4em;
 
                 @include media($medium-screen-height) {
                     line-height: 1.2em;
@@ -93,6 +94,10 @@
                 }
 
 
+                @include media($large-screen-height) {
+                    line-height: 1.2em;
+                    font-size: 1.5em;
+                }
             }
         }
     }
@@ -115,6 +120,7 @@
     article {
         @include span-columns(4);
         text-align: center;
+        font-size: 1.2em;
 
         @include media($large-screen-up) {
             text-align: left;
@@ -122,6 +128,10 @@
         }
 
         padding: 0 2em;
+
+        p {
+            margin: 0 0 2em;
+        }
     }
 
 
@@ -130,7 +140,7 @@
     text-align: left;
 
     h2 {
-        font-weight: 800;
+        font-weight: 300;
         margin-bottom: .3em;
 
         @include media($large-screen) {

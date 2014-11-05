@@ -6,7 +6,6 @@ categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
 
 <article class="docs-landing">
 <h1>Documentation</h1>
-<% current_resource.children.select {|c| puts c.metadata[:page]["title"]; true} %>
 <% current_page.data.categories.each do |category| %>
   <% resource = current_resource.children.select {|c| c.metadata[:page]["title"] == category}[0] %>
   <section>

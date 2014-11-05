@@ -1,6 +1,7 @@
 header {
 
     nav {
+        font-size: 1.2em;
         @include outer-container;
 
         $header-background: #FFFFFF;

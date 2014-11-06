@@ -33,17 +33,19 @@ $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 $orange: #FF9D6D;
 
+$bondi-blue: #009FAE;
+
 // Background Color
 $base-background-color: white;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-accent-color: $bondi-blue;
 
 // Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $orange;
+$base-button-color: $bondi-blue;
 $hover-button-color: $hover-link-color;
 
 // Flash Colors

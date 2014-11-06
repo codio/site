@@ -3,17 +3,20 @@
     font-family: $sans-serif;
     display: inline-block;
     vertical-align: middle;
-    border: 2px solid $base-font-color;
+    //border: 2px solid $base-font-color;
     border-radius: $base-border-radius;
     height: em(45);
     line-height: em(20);
-    padding: em(10) em(50);
-    font-weight: 500;
-    font-size: .9em;
-    color: $base-font-color;
+    padding: em(15) em(50) em(10);
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
     margin: 0;
     text-decoration: none;
     text-align: center;
+    background: $base-button-color;
+    text-transform: uppercase;
+
 }
 @mixin action-button {
     @include button(simple);
@@ -25,7 +28,7 @@
     text-shadow: none;
     box-shadow: none;
     width: 150px;
-    font-weight: 500;
+    font-weight: 400;
 
     &:hover:not(:disabled) {
         background: adjust-color($base-button-color, $saturation: -4%, $lightness: -5%);

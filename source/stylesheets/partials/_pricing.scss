@@ -58,11 +58,7 @@ body.pricing {
             border-radius: $base-border-radius $base-border-radius 0 0;
             font-weight: normal;
             padding: $base-spacing/3 $gutter/2;
-            height: 100px;
 
-            @include media($large-screen-up) {
-                height: 150px;
-            }
         }
 
         .card-copy {

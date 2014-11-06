@@ -28,12 +28,12 @@
 
     @include media(min-height $medium-screen-height min-width $medium-screen) {
         height: 480px;
-        padding-top: 100px;
+        padding-top: 150px;
     }
 
     @include media(min-height $large-screen-height min-width $large-screen) {
         height: 680px;
-        padding-top: 100px;
+        padding-top: 200px;
     }
 
 
@@ -54,8 +54,8 @@
         }
 
         @include media(min-height $large-screen-height min-width $large-screen) {
-            padding: 20px;
-            @include size(500px 450px);
+            padding: em(40);
+            @include size(600px 350px);
         }
 
 
@@ -72,21 +72,21 @@
 
             h1 {
                 font-size: 1.6em;
-                margin-bottom: .5em;
+                margin-bottom: em(10);
                 font-weight: 300;
 
                 @include media($large-screen) {
                     line-height: 1.2em;
-                    font-size: 4em;
+                    font-size: 2.8em;
                 }
             }
 
             p {
                 margin: auto;
-                margin-bottom: 1em;
-                font-weight: 300;
-                line-height: 1.2em;
-                font-size: 1.4em;
+                margin-bottom: em(20);
+                font-weight: 400;
+                line-height: 1em;
+                font-size: 1.1em;
 
                 @include media($medium-screen-height) {
                     line-height: 1.2em;
@@ -105,6 +105,24 @@
 
 .pillar-text {
     @include outer-container;
+    @include span-columns(4 of 4);
+    @include omega(4n);
+
+    @include media($large-screen-up) {
+        @include span-columns(8 of 8);
+        @include omega(8n);
+    }
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: em(50);
+    padding-bottom: em(50);
+
+    background: #F6F6F6;
+
+    &:nth-child(even) {
+        background: #FCFCFC;
+    }
 
     aside {
         @include span-columns(4);
@@ -134,17 +152,15 @@
         }
     }
 
-
-    margin-bottom: 5em;
-    margin-top: 4em;
     text-align: left;
 
     h2 {
-        font-weight: 300;
+        font-weight: 500;
         margin-bottom: .3em;
+        text-transform: uppercase;
 
         @include media($large-screen) {
-            font-size: 3em;
+            font-size: 2em;
             margin-bottom: .4em;
         }
     }

@@ -4,7 +4,7 @@
     $slide-menu-background: #FFFFFF;
     $slide-menu-width: $header-width;
     $slide-menu-color: $base-font-color;
-    $slide-menu-highlight: $orange;
+    $slide-menu-highlight: $bondi-blue;
     $slide-menu-hover: tint($slide-menu-highlight, 20%);
     $slide-menu-active: tint($slide-menu-highlight, 20%);
 
@@ -61,12 +61,11 @@
         @include transition(all 0.2s ease);
 
         &:hover {
-	    background: $slide-menu-hover;
+	    color: $slide-menu-hover;
         }
 
         &:active {
-	    background: $slide-menu-active;
-            color: #FFFFFF;
+	    color: $slide-menu-active;
         }
     }
 
@@ -79,7 +78,8 @@
         @include action-button;
         font-size: .9em;
 	margin: em(10) em(25);
-        @include size(100px 30px);
+        @include size(80px 30px);
         line-height: 15px;
+        padding: 7px 13px;
     }
 }

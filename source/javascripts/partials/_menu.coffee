@@ -1,28 +1,26 @@
 # Slide Menu
 
-openMenuHandler = (menuToggle, menu, event) ->
-  event.preventDefault()
+# Helper Methods
 
-  toggleMenu(menuToggle, menu)
+# Get the target of the given event
+# Taken from http://www.quirksmode.org/js/events_properties.html#target
+#
+# event - Event Object
+#
+# Returns a DOM element.
+getTarget = (event = window.event) ->
+  # Fix IE
+  target = if event.target then event.target else event.srcElement
 
-closeMenuHandler = (menuToggle, menu, event) ->
-  elem = $.closest getTarget(event), '.slide-menu'
+  # Fix Safari
+  target = target.parentNode if target.nodeType is 3
 
-  toggleMenu(menuToggle, menu) unless elem
+  target
 
-
-toggleMenu = (menuToggle, menu) ->
-  menuToggle.toggleClass 'active'
-  menu.toggleClass 'open'
-
-  closeHandler = closeMenuHandler.bind null, menuToggle, menu
-  if menu.hasClass 'open'
-    delay ->
-      body.addEventListener 'tap', closeHandler, false
-      body.on 'click', closeHandler
-  else
-    body.removeEventListener 'tap', closeHandler, false
-    body.off 'click', closeHandler
+# _.delay
+#
+delay = (fn) ->
+  setTimeout(fn, 0)
 
 
 # Attach handlers
@@ -31,8 +29,36 @@ $ ->
   menu = $ '.slide-menu'
   menuToggle = $ '#menu-toggle'
   body = $ 'document'
+  root = document.documentElement
 
   menuToggleTap = new Tap('menu-toggle')
-  bodyTap = new Tap(document.documentElement)
+  bodyTap = new Tap(root)
 
-  menuToggle.on 'click', openMenuHandler.bind(menuToggle, menu)
+  openMenuHandler = (event) ->
+    event.preventDefault()
+
+    toggleMenu()
+
+  closeMenuHandler = (event) ->
+    event.preventDefault()
+
+    elem = $(getTarget event).closest '.slide-menu'
+
+    toggleMenu() if elem.length is 0
+
+
+  toggleMenu = () ->
+    menuToggle.toggleClass 'active'
+    menu.toggleClass 'open'
+
+
+    if menu.hasClass 'open'
+      delay ->
+        root.addEventListener 'tap', closeMenuHandler, false
+        #body.on 'click', closeHandler
+    else
+      root.removeEventListener 'tap', closeMenuHandler, false
+      #body.off 'click', closeHandler
+
+
+  menuToggle.on 'click', openMenuHandler

@@ -155,8 +155,9 @@
     text-align: left;
 
     h2 {
-        font-weight: 500;
+        font-weight: 300;
         margin-bottom: .3em;
+        color: $base-accent-color;
         text-transform: uppercase;
 
         @include media($large-screen) {

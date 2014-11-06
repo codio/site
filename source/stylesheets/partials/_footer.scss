@@ -6,8 +6,9 @@
     $footer-link-color: transparentize($footer-color, .2);
     $footer-disclaimer-color: transparentize($footer-color, .2);
 
+    padding-top: $base-spacing*2;
+
     background: $footer-background;
-    padding: $base-spacing*2 $gutter $base-spacing/2;
 
     @include media($large-screen) {
         margin-left: $header-width;
@@ -99,5 +100,10 @@
         margin: auto;
         max-width: 35em;
         text-align: center;
+    }
+
+    .artwork {
+        margin-top: em(10);
+        height: 50px;
     }
 }

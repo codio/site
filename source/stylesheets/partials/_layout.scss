@@ -36,11 +36,27 @@ section {
 }
 
 
-header.artwork {
+.artwork {
     background: $blue;
     height: 120px;
 
     @include span-columns(4);
+
+
+    background-image: url($hero-image-small);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    @include media($medium-screen-up) {
+        background-image: url($hero-image-medium);
+    }
+    @include media($large-screen-up) {
+        background-image: url($hero-image-large);
+    }
+    @include media($extra-large-screen-up) {
+        background-image: url($hero-image-extra-large);
+    }
 
     @include media($large-screen-up) {
         @include span-columns(8 of 8);

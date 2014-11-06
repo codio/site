@@ -3,6 +3,10 @@
   <aside>
     <nav>
       <%= link_to "Docs", "/docs" %>
+      <form id="search-input">
+        <input type="text" id="st-search-input" class="st-search-input" />
+      </form>
+
       <ul>
         <% nav_pages(current_resource.url).each do |resource| %>
           <li>

@@ -13,6 +13,6 @@
 <%= stylesheet_link_tag "all" %>
 
 <% unless current_page.app.development? %>
-  <%= javascript_include_tag  "vendors/google-analytics" %>
-  <%= javascript_include_tag  "vendors/intercom" %>
+  <%= partial  "vendors/google-analytics" %>
+  <%= partial  "vendors/intercom" %>
 <% end %>

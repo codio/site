@@ -71,8 +71,6 @@ $ ->
 
   anonGa() if not session?
 
-  startIntercom {details: {name: "friedel"}, account: "2"}
-
   fetchUser session, (error, user) ->
     # Couldn't verify a signed in user
     return anonGa() if error

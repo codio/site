@@ -15,6 +15,7 @@
     background-size: cover;
 
     height: 280px;
+    padding-top: 20px;
 
     @include media($medium-screen-up) {
         background-image: url($hero-image-medium);
@@ -28,7 +29,7 @@
 
     @include media(min-height $medium-screen-height min-width $medium-screen) {
         height: 480px;
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
     @include media(min-height $large-screen-height min-width $large-screen) {
@@ -49,8 +50,8 @@
         @include size(100% 90%);
 
         @include media(min-height $medium-screen-height min-width $medium-screen) {
-            padding: 20px;
-            @include size(250px);
+            padding: em(20);
+            @include size(450px 280px);
         }
 
         @include media(min-height $large-screen-height min-width $large-screen) {
@@ -71,13 +72,13 @@
             text-align: center;
 
             h1 {
-                font-size: 1.6em;
+                font-size: 1.5em;
                 margin-bottom: em(10);
                 font-weight: 300;
 
                 @include media($large-screen) {
                     line-height: 1.2em;
-                    font-size: 2.8em;
+                    font-size: 2.2em;
                 }
             }
 
@@ -86,18 +87,17 @@
                 margin-bottom: em(20);
                 font-weight: 400;
                 line-height: 1em;
-                font-size: 1.1em;
-
-                @include media($medium-screen-height) {
-                    line-height: 1.2em;
-                    font-size: 1.2em;
-                }
-
+                font-size: 1em;
 
                 @include media($large-screen-height) {
                     line-height: 1.2em;
                     font-size: 1.5em;
                 }
+                @include media($medium-screen-height) {
+                    line-height: 1.2em;
+                    font-size: 1.2em;
+                }
+
             }
         }
     }
@@ -133,6 +133,14 @@
 
         text-align: center;
         padding: 0 2em;
+
+        img {
+            display: none;
+
+            @include media($medium-screen-up) {
+                display: inherit;
+            }
+        }
     }
 
     article {

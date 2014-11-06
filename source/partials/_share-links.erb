@@ -1,9 +1,15 @@
 <div class="social">
+  <% url = "#{current_page.app.asset_host}#{current_page.url}" %>
+
   <!-- Twitter -->
-  <a href="https://twitter.com/share" class="twitter-share-button" data-via="CodioHQ" data-size="large">Tweet</a>
+  <a href="https://twitter.com/home?status=Check%20out%20this%20post%20<%= url %>%20by%20@CodioHQ" target="_blank">
+    Share on Twitter
+  </a>
 
   <!-- Facebook -->
+  <a href="https://www.facebook.com/sharer/sharer.php?u=<%= url %>" target="_blank">
+    Share on Facebook</a>
 
   <!-- Google Plus -->
-
+  <a href="https://plus.google.com/share?url=<%= url %>" target="_blank">Share on Google+</a>
 </div>

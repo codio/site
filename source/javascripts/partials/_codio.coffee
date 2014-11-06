@@ -14,7 +14,7 @@ startIntercom = (data) ->
     name: user.actual_name || user.name,
     user_id: data.account
     widget:
-      activator: '#IntercomDefaultWidget'
+      activator: '#intercom'
 
 # Show the signed in men
 showUser = (user) ->
@@ -71,10 +71,12 @@ $ ->
 
   anonGa() if not session?
 
+  startIntercom {details: {name: "friedel"}, account: "2"}
+
   fetchUser session, (error, user) ->
     # Couldn't verify a signed in user
     return anonGa() if error
 
-    setupIntercom user if Intercom?
+    startIntercom user if Intercom?
     showUser user
     signedInGa user.details.name

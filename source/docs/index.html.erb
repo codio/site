@@ -5,7 +5,12 @@ categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
 <header class="artwork"></header>
 
 <article class="docs-landing">
-<h1>Documentation</h1>
+  <section class="header">
+    <form id="search-input">
+      <input type="text" id="st-search-input" class="st-search-input" />
+    </form>
+    <h1>Documentation</h1>
+  </section>
 <% current_page.data.categories.each do |category| %>
   <% resource = current_resource.children.select {|c| c.metadata[:page]["title"] == category}[0] %>
   <section>
@@ -20,3 +25,5 @@ categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
   </section>
 <% end %>
 </article>
+
+<%= javascript_include_tag "vendors/swiftype" %>

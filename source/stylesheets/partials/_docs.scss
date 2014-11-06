@@ -93,6 +93,30 @@ body.docs #content {
             @include span-columns(8 of 8);
         }
 
+        .header {
+            @include outer-container;
+            padding-bottom: 0;
+        }
+
+        h1 {
+            text-align: center;
+
+            @include span-columns(4 of 4);
+
+            @include media($large-screen-up) {
+                @include span-columns(6 of 8);
+            }
+        }
+
+        form#search-input {
+
+            @include span-columns(4 of 4);
+
+            @include media($large-screen-up) {
+                @include span-columns(2 of 8);
+            }
+        }
+
         section {
             @include span-columns(4);
             @include omega(4n);
@@ -105,5 +129,42 @@ body.docs #content {
             }
 
         }
+    }
+
+    .search-results {
+        @include media($large-screen-up) {
+            @include span-columns(8 of 8);
+        }
+
+        #st-results-container {
+            em {
+                font-style: normal;
+                font-weight: 500;
+                padding: 0;
+                padding-top: 0.2em;
+                padding-bottom: 0.2em;
+                margin: 0;
+                background-color: #D9D9D9;
+                border-radius: 3px;
+
+                &::before,
+                &::after {
+                    letter-spacing: -0.2em;
+                    content: "\00a0"
+                }
+            }
+        }
+    }
+
+    form input#st-search-input {
+        font-size: 1em;
+        padding: em(5);
+        margin: 0;
+        border-radius: $base-border-radius;
+        box-shadow: none;
+        background: white;
+        height: 25px;
+        width: 200px;
+        border: 1px solid $base-font-color;
     }
 }

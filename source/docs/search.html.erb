@@ -1,0 +1,18 @@
+---
+title: Search Results
+layout: layout
+---
+
+<header class="artwork"></header>
+
+<article class="search-results">
+  <%= link_to "Docs", "/docs" %>
+  <form>
+    <input type="text" id="st-search-input" class="st-search-input" />
+  </form>
+
+  <h1>Search Results</h1>
+  <div id="st-results-container"></div>
+</article>
+
+<%= javascript_include_tag "vendors/swiftype" %>

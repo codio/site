@@ -119,11 +119,13 @@ set :fonts_dir, 'fonts'
 
 # Build-specific configuration
 configure :build do
-  # For example, change the Compass output style for deployment
-  activate :minify_css
 
-  # Minify Javascript on build
+  # Minification and Compression
+  activate :minify_css
   activate :minify_javascript
+  activate :minify_html
+
+  activate :imageoptim
 
   activate :gzip
   activate :cache_buster

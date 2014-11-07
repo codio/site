@@ -19,6 +19,11 @@ RubyGems and Bundler.
 Also you need to install ImageMagick for some image magick that is
 happening.
 
+Additionally for compressing images the [image_optim](https://github.com/toy/image_optim)
+needs to be setup.
+Instructions for that can be found
+[here](https://github.com/toy/image_optim#binaries-installation)
+
 ## Getting Started
 
 First check out the code to your local machine. Once you have the code

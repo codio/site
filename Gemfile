@@ -30,6 +30,17 @@ gem "middleman-automatic-clowncar", :github => "webPapaya/middleman-automatic-cl
 # Summaries
 gem "nokogiri", "~> 1.6.3.1"
 
+# Faster JS compile
+gem 'therubyracer', "~> 0.12.1"
+gem 'oj', "~> 2.11.0"
+
+# Compress images
+gem "middleman-imageoptim", :github => "codio/middleman-imageoptim"
+gem "image_optim_pack"
+
+# Minify html
+gem "middleman-minify-html", "~> 3.4.0"
+
 # Preocmpilers
 
 gem "coffee-script", "~> 2.3.0"

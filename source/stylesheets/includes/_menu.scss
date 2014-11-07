@@ -64,7 +64,7 @@
 	    color: $slide-menu-hover;
         }
 
-        &:active {
+        &:active, &.active {
 	    color: $slide-menu-active;
         }
     }

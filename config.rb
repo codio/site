@@ -1,3 +1,4 @@
+# coding: utf-8
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -104,7 +105,35 @@ helpers do
     path.slice! -1 if path.end_with?('/')
     current_path.start_with? path
   end
+# insert active link menu-item <A>, or <SPAN> if it’s current page URL
 
+  def link_to_nav(name, url)
+    path = request.path
+    current = false
+
+    # path            - url
+    # docs/index.html - /docs/index.html
+    # docs/index.html - /docs
+    # docs/quickstart/dashboard - /docs
+
+    # Strip leading / from the url
+    url = url[1..-1]
+
+
+    if url == path
+      # Exact match
+      current = true
+    elsif path.start_with? url
+      # starts with match
+      current = true
+    end
+
+    if current
+      link_to name, url, :class => "active"
+    else
+      link_to name, url
+    end
+  end
 end
 
 set :css_dir, 'stylesheets'

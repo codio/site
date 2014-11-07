@@ -75,7 +75,7 @@ body.index {
                 h1 {
                     font-size: 1.5em;
                     margin-bottom: em(10);
-                    font-weight: 300;
+                    font-weight: 200;
 
                     @include media($large-screen) {
                         line-height: 1.2em;
@@ -167,7 +167,6 @@ body.index {
             font-weight: 300;
             margin-bottom: .3em;
             color: $base-accent-color;
-            text-transform: uppercase;
 
             @include media($large-screen) {
                 font-size: 2em;

@@ -1,38 +1,52 @@
 body.pricing {
 
+    #content {
+        background: #F6F6F6;
+    }
+
+    .intro {
+        @include span-columns(4);
+        @include omega(4n);
+        margin-bottom: em(40);
+
+        @include media($large-screen-up) {
+            @include shift(1 of 8);
+            @include span-columns(6 of 8);
+            @include omega(4n);
+
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
     .content-1 {
         .card {
             @include media($large-screen-up) {
-                width: 33%;
+                width: 33.33333333%;
             }
         }
     }
 
     h1 {
         text-align: center;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
+        font-weight: 300;
     }
 
     .cards {
         @include clearfix;
-
-        padding: 2em;
     }
 
     .card {
-        $card-border-color: $base-border-color;
-        $card-border: 1px solid $card-border-color;
-        $card-background: lighten($card-border-color, 10);
-        $card-header-background: $card-background;
+        $card-background: #ECECEC;
+        $card-header-background: #E0E0E0;
         $card-hover-background: lighten($card-background, 5);
-        $card-image-background: #DBD199;
-        $card-image-hover-background: lighten($card-image-background, 5);
         $card-stats-color: lighten($base-accent-color, 10);
 
         @include transition (all 0.2s ease-in-out);
         background-color: $card-background;
-        border: $card-border;
-        margin-bottom: $base-spacing;
         cursor: pointer;
         position: relative;
         text-align: center;
@@ -45,41 +59,58 @@ body.pricing {
             margin-right: 0;
         }
 
+        &.highlight {
+            background: #BDE3E6;
+
+            .card-header {
+                background: #9CD5DC;
+            }
+
+            &::before {
+                content: 'Recommended';
+                position: absolute;
+                background: #45afbc;
+                width: 100%;
+                left: 0;
+                margin-top: -27px;
+                color: white;
+                font-weight: 500;
+                font-size: 1.1em;
+            }
+        }
+
         .card-header {
             h2 {
                 font-size: 1.2em;
                 font-weight: bold;
-                margin-bottom: .5em;
             }
 
             @include transition (all 0.2s ease-in-out);
             background-color: $card-header-background;
-            border-bottom: $card-border;
-            border-radius: $base-border-radius $base-border-radius 0 0;
-            font-weight: normal;
-            padding: $base-spacing/3 $gutter/2;
 
+            font-weight: normal;
+            padding: em(35) 0;
         }
 
         .card-copy {
-            padding: $base-spacing/2 $gutter/2;
+            padding: em(40) em(10);
             font-size: .9em;
             line-height: 1.5em;
 
-            @include media($large-screen-up) {
-                height: 200px;
+            li {
+                height: 40px;
+                font-size: 1.2em;
             }
         }
 
         .card-price {
             font-size: 2em;
             font-weight: bold;
+            margin: em(20) 0;
 
             span {
                 font-size: .4em;
-            }
-            @include media($large-screen-up) {
-                height: 150px;
+                font-weight: normal;
             }
         }
 
@@ -98,7 +129,6 @@ body.pricing {
                 font-weight: 800;
                 font-size: 1.2em;
                 float: left;
-                border-right: 1px solid transparentize($base-font-color, .8);
                 line-height: 1.1em;
                 padding: 0 .7em 0 .7em;
 
@@ -106,9 +136,6 @@ body.pricing {
                     padding-left: 0;
                 }
 
-                &:last-child {
-                    border-right: 0;
-                }
 
                 span {
                     color: $base-font-color;
@@ -121,10 +148,6 @@ body.pricing {
 
         &:hover {
             background-color: $card-hover-background;
-
-            .card-image img {
-                background: $card-image-hover-background;
-            }
 
             .card-header {
                 background-color: $card-hover-background;

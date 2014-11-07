@@ -6,6 +6,8 @@
     position: relative;
 
     @include outer-container;
+    @include span-columns(8 of 8);
+    @include omega(8n);
 
     input {
         position: absolute;
@@ -26,7 +28,7 @@
 	    background: #5ba4a4;
         }
         &:checked + label {
-            background: #fff;
+            background: $base-font-color;
 	    z-index: 6;
         }
         &.tab-selector-1:checked ~ .content .content-1,
@@ -35,27 +37,25 @@
             -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
             filter: alpha(opacity=100);
             opacity: 1;
-
-            @include transition(opacity ease-out 0.2s 0.1s);
+            height: inherit;
+            @include transition(all ease-out 0.2s 0.1s);
         }
 
     }
 
     label {
-	font-size: 15px;
-	line-height: 40px;
-	height: 40px;
+	font-size: 1.2em;
+	line-height: 32px;
+	height: 30px;
 	position: relative;
 	padding: 0 20px;
         float: left;
 	display: block;
-	color: $base-font-color;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	font-weight: bold;
+	color: white;
+	font-weight: 400;
 	text-align: center;
         border-radius: $base-border-radius;
-        border: 2px solid $base-font-color;
+        background: #C3C4C8;
 
         @include span-columns(4);
 
@@ -88,25 +88,19 @@
         background: #fff;
 	position: relative;
         width: 100%;
-        height: em(1800);
 	z-index: 5;
         border-radius: 0 3px 3px 3px;
-
-
-        @include media($large-screen-up) {
-            height: em(670);
-        }
+        margin-top: em(60);
+        @include clearfix;
 
         & > div {
-            position: absolute;
-	    top: 0;
-	    left: 0;
-	    padding: 10px 40px;
+            float: left;
 	    z-index: 1;
             opacity: 0;
             width: 100%;
+            height: 0;
 
-            @include transition(opacity linear 0.1s);
+            @include transition(all linear 0.1s);
         }
 
     }

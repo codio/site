@@ -125,7 +125,8 @@ configure :build do
   activate :minify_javascript
   activate :minify_html
 
-  activate :imageoptim
+  # Disable in development
+  #activate :imageoptim
 
   activate :gzip
   activate :cache_buster

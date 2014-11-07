@@ -141,8 +141,6 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'img'
 set :partials_dir, 'partials'
-set :fonts_dir, 'fonts'
-
 
 
 

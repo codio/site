@@ -6,10 +6,15 @@ body {
 #content {
     background: $lighter-gray;
     @include outer-container;
+    max-width: none;
 
 
     @include media($large-screen) {
         margin-left: $header-width;
+    }
+
+    .wrapper {
+        @include outer-container;
     }
 }
 

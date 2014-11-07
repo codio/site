@@ -1,175 +1,182 @@
-.hero {
+body.index {
 
-    $hero-background-top: darken($base-accent-color, 25);
-    $hero-background-bottom: adjust-hue($hero-background-top, -70);
-    $hero-color: $base-font-color;
-
-    background-image: url($hero-image-small);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-
-    height: 280px;
-    padding-top: 20px;
-
-    @include media($medium-screen-up) {
-        background-image: url($hero-image-medium);
-    }
-    @include media($large-screen-up) {
-        background-image: url($hero-image-large);
-    }
-    @include media($extra-large-screen-up) {
-        background-image: url($hero-image-extra-large);
+    header.artwork {
+        display: none;
     }
 
-    @include media(min-height $medium-screen-height min-width $medium-screen) {
-        height: 480px;
-        padding-top: 100px;
-    }
+    .hero {
 
-    @include media(min-height $large-screen-height min-width $large-screen) {
-        height: 680px;
-        padding-top: 200px;
-    }
+        $hero-background-top: darken($base-accent-color, 25);
+        $hero-background-bottom: adjust-hue($hero-background-top, -70);
+        $hero-color: $base-font-color;
 
+        background-image: url($hero-image-small);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
 
-    .hero-inner {
-        @include outer-container;
-        @include clearfix;
-        margin: auto;
-        text-align: center;
-        color: $hero-color;
-        background: rgba(255, 255, 255, 0.8);
-        padding: 40px;
+        height: 280px;
+        padding-top: 20px;
 
-        @include size(100% 90%);
+        @include media($medium-screen-up) {
+            background-image: url($hero-image-medium);
+        }
+        @include media($large-screen-up) {
+            background-image: url($hero-image-large);
+        }
+        @include media($extra-large-screen-up) {
+            background-image: url($hero-image-extra-large);
+        }
 
         @include media(min-height $medium-screen-height min-width $medium-screen) {
-            padding: em(20);
-            @include size(450px 280px);
+            height: 480px;
+            padding-top: 100px;
         }
 
         @include media(min-height $large-screen-height min-width $large-screen) {
-            padding: em(40);
-            @include size(600px 350px);
+            height: 680px;
+            padding-top: 200px;
         }
 
 
-        button {
-            @include action-button;
-            width: 200px;
-            height: 50px;
-            font-size: 1.3em;
-            font-weight: 300;
-        }
-
-        .hero-copy {
+        .hero-inner {
+            @include outer-container;
+            @include clearfix;
+            margin: auto;
             text-align: center;
+            color: $hero-color;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 40px;
 
-            h1 {
-                font-size: 1.5em;
-                margin-bottom: em(10);
+            @include size(100% 90%);
+
+            @include media(min-height $medium-screen-height min-width $medium-screen) {
+                padding: em(20);
+                @include size(450px 280px);
+            }
+
+            @include media(min-height $large-screen-height min-width $large-screen) {
+                padding: em(40);
+                @include size(600px 350px);
+            }
+
+
+            button {
+                @include action-button;
+                width: 200px;
+                height: 50px;
+                font-size: 1.3em;
                 font-weight: 300;
+            }
 
-                @include media($large-screen) {
-                    line-height: 1.2em;
-                    font-size: 2.2em;
+            .hero-copy {
+                text-align: center;
+
+                h1 {
+                    font-size: 1.5em;
+                    margin-bottom: em(10);
+                    font-weight: 300;
+
+                    @include media($large-screen) {
+                        line-height: 1.2em;
+                        font-size: 2.2em;
+                    }
+                }
+
+                p {
+                    margin: auto;
+                    margin-bottom: em(20);
+                    font-weight: 400;
+                    line-height: 1em;
+                    font-size: 1em;
+
+                    @include media($large-screen-height) {
+                        line-height: 1.2em;
+                        font-size: 1.5em;
+                    }
+                    @include media($medium-screen-height) {
+                        line-height: 1.2em;
+                        font-size: 1.2em;
+                    }
+
                 }
             }
+        }
+    }
+
+    .pillar-text {
+        @include outer-container;
+        @include span-columns(4 of 4);
+        @include omega(4n);
+
+        @include media($large-screen-up) {
+            @include span-columns(8 of 8);
+            @include omega(8n);
+        }
+
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: em(50);
+        padding-bottom: em(50);
+
+        background: #F6F6F6;
+
+        &:nth-child(even) {
+            background: #FCFCFC;
+        }
+
+        aside {
+            @include span-columns(4);
+
+            @include media($large-screen-up) {
+                @include span-columns(2);
+            }
+
+            text-align: center;
+            padding: 0 2em;
+
+            img {
+                display: none;
+
+                @include media($medium-screen-up) {
+                    display: inherit;
+                }
+            }
+        }
+
+        article {
+            @include span-columns(4);
+            text-align: center;
+            font-size: 1.2em;
+
+            @include media($large-screen-up) {
+                text-align: left;
+                @include span-columns(6);
+            }
+
+            padding: 0 2em;
 
             p {
-                margin: auto;
-                margin-bottom: em(20);
-                font-weight: 400;
-                line-height: 1em;
-                font-size: 1em;
-
-                @include media($large-screen-height) {
-                    line-height: 1.2em;
-                    font-size: 1.5em;
-                }
-                @include media($medium-screen-height) {
-                    line-height: 1.2em;
-                    font-size: 1.2em;
-                }
-
+                margin: 0 0 2em;
             }
         }
-    }
-}
 
-.pillar-text {
-    @include outer-container;
-    @include span-columns(4 of 4);
-    @include omega(4n);
+        text-align: left;
 
-    @include media($large-screen-up) {
-        @include span-columns(8 of 8);
-        @include omega(8n);
-    }
+        h2 {
+            font-weight: 300;
+            margin-bottom: .3em;
+            color: $base-accent-color;
+            text-transform: uppercase;
 
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: em(50);
-    padding-bottom: em(50);
-
-    background: #F6F6F6;
-
-    &:nth-child(even) {
-        background: #FCFCFC;
-    }
-
-    aside {
-        @include span-columns(4);
-
-        @include media($large-screen-up) {
-            @include span-columns(2);
-        }
-
-        text-align: center;
-        padding: 0 2em;
-
-        img {
-            display: none;
-
-            @include media($medium-screen-up) {
-                display: inherit;
+            @include media($large-screen) {
+                font-size: 2em;
+                margin-bottom: .4em;
             }
         }
-    }
 
-    article {
-        @include span-columns(4);
-        text-align: center;
-        font-size: 1.2em;
-
-        @include media($large-screen-up) {
-            text-align: left;
-            @include span-columns(6);
+        a {
+            @include outline-button;
         }
-
-        padding: 0 2em;
-
-        p {
-            margin: 0 0 2em;
-        }
-    }
-
-    text-align: left;
-
-    h2 {
-        font-weight: 300;
-        margin-bottom: .3em;
-        color: $base-accent-color;
-        text-transform: uppercase;
-
-        @include media($large-screen) {
-            font-size: 2em;
-            margin-bottom: .4em;
-        }
-    }
-
-    a {
-        @include outline-button;
     }
 }

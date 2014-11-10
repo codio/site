@@ -1,8 +1,8 @@
 .footer {
     @include outer-container;
 
-    $footer-background: #F6F6F6;
-    $footer-color: $base-font-color;
+    $footer-background: $base-font-color;
+    $footer-color: white;
     $footer-link-color: transparentize($footer-color, .2);
     $footer-disclaimer-color: transparentize($footer-color, .2);
 
@@ -21,6 +21,7 @@
         @include clearfix;
         @include span-columns(4 of 4);
         @include omega(4n);
+        color: $footer-color;
 
         @include media($large-screen-up) {
             @include span-columns(8 of 8);
@@ -88,14 +89,8 @@
     }
 
 
-    hr {
-        border: 1px solid transparentize($footer-disclaimer-color, .3);
-        margin: 0 auto $base-spacing;
-        width: 12em;
-    }
-
     p {
-        color: $footer-disclaimer-color;
+        color: $footer-color;
         font-size: .9em;
         line-height: 1.5em;
         margin: auto;

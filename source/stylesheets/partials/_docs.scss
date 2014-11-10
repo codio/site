@@ -186,7 +186,7 @@ body.docs #content {
                     }
                 }
 
-                img {
+                svg {
                     float: left;
 
                     @include media($large-screen-up) {

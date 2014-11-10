@@ -13,7 +13,7 @@ categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
     <% current_page.data.categories.each do |category| %>
       <% resource = current_resource.children.select {|c| c.metadata[:page]["title"] == category}[0] %>
       <div class="docs-section">
-        <img alt="placeholder" src="<%= lorem.image('100x100')%>"/>
+        <%= sprockets.find_asset("icons/#{category.gsub(' ', '-').downcase}-small.svg").to_s %>
         <h2><%= link_to resource.data.title, resource.url %></h2>
         <ul>
           <% resource.children.each do |child| %>

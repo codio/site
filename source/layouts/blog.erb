@@ -13,11 +13,12 @@
       <div class="date">
         <%= current_article.date.strftime('%B %e, %Y')%> by <b><%= current_article.data.author %></b>
       </div>
-      <%= partial"share-links" %>
+      <%= partial "share-links" %>
       <div class="content">
         <%= yield %>
       </div>
-      <%= partial"share-links" %>
+      <%= partial "share-links" %>
+      <%= partial "vendors/disqus" %>
     </div>
   </article>
 

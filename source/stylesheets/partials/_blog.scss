@@ -67,6 +67,16 @@ body.blog #content {
                 font-size: .9em;
 
             }
+
+            #disqus_thread {
+                width: 100%;
+                margin-top: em(50);
+
+                iframe {
+                    position: relative;
+                }
+            }
+
         }
     }
 

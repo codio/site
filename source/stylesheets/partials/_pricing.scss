@@ -68,15 +68,27 @@ body.pricing {
 
             &::before {
                 content: 'Recommended';
-                position: absolute;
+                margin-top: -27px;
                 background: #45afbc;
+            }
+
+            &::after {
+                content: '';
+                height: 27px;
+                bottom: 0;
+                margin-bottom: -27px;
+                background: #BDE3E6;
+            }
+
+            &::before, &::after {
+                position: absolute;
                 width: 100%;
                 left: 0;
-                margin-top: -27px;
                 color: white;
                 font-weight: 500;
                 font-size: 1.1em;
             }
+
         }
 
         .card-header {

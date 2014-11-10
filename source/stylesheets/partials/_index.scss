@@ -45,7 +45,10 @@ body.index {
             margin: auto;
             text-align: center;
             color: $hero-color;
-            background: rgba(255, 255, 255, 0.8);
+            $start-color: rgba(255, 255, 255, 0.8);
+            $end-color: rgba(255, 255, 255, 0.1);
+            @incldue radial-gradient($start-color, $end-color);
+            @include radial-gradient(circle at 50% 50%, $start-color 0%, $start-color 50%, $end-color 90%);
             padding: 40px;
 
             @include size(100% 90%);
@@ -57,7 +60,7 @@ body.index {
 
             @include media(min-height $large-screen-height min-width $large-screen) {
                 padding: em(40);
-                @include size(600px 350px);
+                @include size(630px 380px);
             }
 
 
@@ -73,30 +76,31 @@ body.index {
                 text-align: center;
 
                 h1 {
-                    font-size: 1.5em;
+                    font-size: 1.7em;
                     margin-bottom: em(10);
-                    font-weight: 200;
+                    font-weight: 300;
 
                     @include media($large-screen) {
                         line-height: 1.2em;
-                        font-size: 2.2em;
+                        font-size: 2.6em;
                     }
                 }
 
                 p {
                     margin: auto;
-                    margin-bottom: em(20);
+                    margin-bottom: em(40);
                     font-weight: 400;
                     line-height: 1em;
                     font-size: .8em;
 
                     @include media($large-screen-height) {
                         line-height: 1.2em;
-                        font-size: 1.5em;
+                        font-size: 1.3em;
                     }
                     @include media($medium-screen-height) {
-                        line-height: 1.2em;
-                        font-size: 1.2em;
+                        line-height: 1.5em;
+                        font-size: 1em;
+                        width: 400px;
                     }
 
                 }
@@ -138,7 +142,8 @@ body.index {
                 display: none;
 
                 @include media($medium-screen-up) {
-                    display: inherit;
+                    display: initial;
+
                 }
             }
         }

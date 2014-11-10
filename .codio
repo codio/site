@@ -3,10 +3,10 @@
 
 // Run button configuration
   "commands": {
-        "Middleman": "bundle exec middleman -p 3000",
+        "Middleman": "M_ASSET_HOST=http://{{domain}}:3000 bundle exec middleman -p 3000",
         "Build": "bundle exec middleman build",
         "Deploy to Production": "cap production deploy"
-        
+
   },
 
 // Preview button configuration
@@ -17,4 +17,3 @@
          "Visit Ungit": "https://{{domain}}:9501/#/repository?path=/home/codio/workspace"
   }
 }
-

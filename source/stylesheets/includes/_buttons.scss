@@ -54,6 +54,8 @@
     font-weight: 400;
     color: white;
     padding: 2px 15px;
+    width: 100%;
+    border-radius: 0;
 
     @include transition(background 0.2s linear);
 
@@ -67,5 +69,11 @@
     &:active:not(:disabled) {
         box-shadow: none;
         border: none;
+    }
+
+    @include media($large-screen-up) {
+        width: initial;
+        border-radius: $base-border-radius;
+        margin-left: 2.5em;
     }
 }

@@ -24,7 +24,11 @@ What you see below is a real IDE, so play with it to see how we support compiled
 - Open up the example files (Less and CoffeeScript represented here)
 - If you want it full size, <a href="https://codio.com/codio/CompilingExample/tree/app/example.coffee" target="_blank">click here</a> to see it in its own browser tab.
 
-<iframe width="950" height="600" src="https://codio.com/codio/CompilingExample/tree/app/example.coffee" style="margin:20px 0;"></iframe>
+<div class="video">
+  <div class="video-wrapper">
+    <iframe width="950" height="600" src="https://codio.com/codio/CompilingExample/tree/app/example.coffee" style="margin:20px 0;"></iframe>
+  </div>
+</div>
 
 ##How it works
 Its jolly simple! No build tasks, no separate processes to think about. Just code and run.

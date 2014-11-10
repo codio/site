@@ -8,11 +8,15 @@ full_width: true
 
 **IMPORTANT** : there is no collaboration support for editing Guides and you MUST AVOID 2 PEOPLE TRYING TO EDIT THE GUIDE SIMULTANEOUSLY.
 
-Codio Guides is a fully integrated content authoring tool that allows you to write rich tutorial type content using pure markdown. 
+Codio Guides is a fully integrated content authoring tool that allows you to write rich tutorial type content using pure markdown.
 
 For an introduction to Guides, take a look at the video below.
 
-<iframe src="//player.vimeo.com/video/105219223" width="600" height="370" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video">
+  <div class="video-wrapper">
+    <iframe src="//player.vimeo.com/video/105219223" width="600" height="370" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div>
 
 ##Why should I use it?
 If you are creating any type of coding tutorial or you are creating educational content using [Codio's Education features](/docs/quickstart/education), then you will find this enormously helpful.
@@ -27,5 +31,3 @@ If you are creating any type of coding tutorial or you are creating educational 
 - highlight code blocks within your code referenced from your Guide section
 - choose from a selection of panel layouts
 - hide and show table of contents while in both edit and play modes
-
-

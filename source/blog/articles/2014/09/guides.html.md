@@ -14,7 +14,11 @@ The first thing we have just brought out is Codio Guides. This is an excellent w
 
 Here's a quick video to show you how it works.
 
-<iframe src="//player.vimeo.com/video/105219223" width="700" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video">
+  <div class="video-wrapper">
+    <iframe src="//player.vimeo.com/video/105219223" width="700" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div>
 
 And here's a quick summary of the Guides features
 
@@ -39,4 +43,3 @@ class_name: blog
 full_width: true
 published: false
 ___
-

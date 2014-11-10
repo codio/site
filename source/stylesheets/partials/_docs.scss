@@ -120,16 +120,21 @@ body.docs #content {
 
         .header {
             @include outer-container;
-            padding: em(40);
-            padding-bottom: 0;
+            padding: 0 em(20);
+
+            @include media($large-screen-up) {
+                padding: em(40) em(40) 0;
+            }
 
             h1 {
                 text-align: center;
+                margin-top: em(30);
 
                 @include span-columns(4 of 4);
 
                 @include media($large-screen-up) {
                     @include span-columns(5 of 8);
+                    margin-top: 0;
                 }
             }
 
@@ -152,9 +157,6 @@ body.docs #content {
             @include media($large-screen-up) {
                 @include span-columns(8 of 8);
                 @include omega(8n);
-            }
-
-            &.header {
             }
 
             .docs-section {
@@ -183,14 +185,20 @@ body.docs #content {
                 }
 
                 ul {
-
+                    li {
+                    }
                 }
 
                 img {
-                    display: block;
-                    @include size(100px);
-                    margin-left: auto;
-                    margin-right: auto;
+                    float: left;
+
+                    @include media($large-screen-up) {
+                        display: block;
+                        @include size(100px);
+                        margin-left: auto;
+                        margin-right: auto;
+                        float: initial;
+                    }
                 }
             }
         }
@@ -229,9 +237,13 @@ body.docs #content {
         box-shadow: none;
         background: #EBEBEB;
         height: 35px;
-        width: 230px;
+        width: 100%;
         border: none;
         color: $base-font-color;
         font-weight: 300;
+
+        @include media($large-screen-up) {
+            width: 230px;
+        }
     }
 }

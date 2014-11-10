@@ -16,7 +16,11 @@ To get you interested, take a look below. It's a real and fully functioning IDE.
 
 Or, <a href="https://codio.com/fmay/Impress/tree/Impress/index.html" target="_blank">click here</a> to see the IDE full size.
 
-<iframe width="950" height="600" src="https://codio.com/fmay/Impress/tree/Impress/index.html" style="margin:20px 0;"></iframe>
+<div class="video">
+  <div class="video-wrapper">
+    <iframe width="950" height="600" src="https://codio.com/fmay/Impress/tree/Impress/index.html" style="margin:20px 0;"></iframe>
+  </div>
+</div>
 
 Over the next couple of months (with some <a href="http://twitter.com/home/?status=Codio%20web%20platform%20turns%20your%20%23code%20into%20interactive%20tutorials%20%26%20code%20samples.%20%20https%3A%2F%2Fcodio.com%2Fs%2Fblog%2F2013%2F03%2Fcodio-for-education%2F%20-%20gr8%20for%20%23Education%20%26%20%23developers%20" target="_blank">verbal encouragement</a> from the community) we'll be adding a lot of very cool stuff to Codio, so people can teach and learn in code's natural home - the IDE. You'll be able to add guided tours, rich text explanations that pop-up as you explore the project, audio, and even videos that [for example] show screen output when a piece of code executes.
 
@@ -52,4 +56,3 @@ Here are a few key points about the platform:
 ## Give us some encouragement
 
 If you like what you are reading, we ask that you encourage us in any way that you feel will help. The best way is to let others know. We're a small company and doing this requires a fair bit of effort. So feel free to <a href="http://twitter.com/home/?status=Codio%20web%20platform%20turns%20your%20%23code%20into%20interactive%20tutorials%20%26%20code%20samples.%20%20https%3A%2F%2Fcodio.com%2Fs%2Fblog%2F2013%2F03%2Fcodio-for-education%2F%20-%20gr8%20for%20%23Education%20%26%20%23developers%20" target=" target="_blank">tweet something nice!</a>
-

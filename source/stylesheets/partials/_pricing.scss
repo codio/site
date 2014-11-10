@@ -4,16 +4,29 @@ body.pricing {
         background: #F6F6F6;
     }
 
+    h1 {
+        padding: em(20) em(20) 0;
+        font-size: 1.6em;
+        text-align: center;
+        font-weight: 300;
+
+        @include media($large-screen-up) {
+            font-size: 2em;
+            margin-bottom: em(40);
+        }
+    }
+
     .intro {
         @include span-columns(4);
         @include omega(4n);
-        margin-bottom: em(40);
+
+        padding: em(20);
 
         @include media($large-screen-up) {
             @include shift(1 of 8);
             @include span-columns(6 of 8);
             @include omega(4n);
-
+            margin-bottom: em(20);
         }
 
         p {
@@ -27,12 +40,6 @@ body.pricing {
                 width: 33.33333333%;
             }
         }
-    }
-
-    h1 {
-        text-align: center;
-        margin-bottom: 40px;
-        font-weight: 300;
     }
 
     .cards {
@@ -51,7 +58,9 @@ body.pricing {
         position: relative;
         text-align: center;
 
-        @include span-columns(4);
+        @include span-columns(4 of 4);
+        display: block;
+        float: left;
 
         @include media($large-screen-up) {
             @include span-columns(2 of 8);
@@ -105,7 +114,9 @@ body.pricing {
         }
 
         .card-copy {
+
             padding: em(40) em(10);
+
             font-size: .9em;
             line-height: 1.5em;
 
@@ -178,12 +189,21 @@ body.pricing {
     .faq {
         aside {
             font-weight: 600;
+            text-align: center;
+
+            @include media($large-screen-up) {
+                text-align: left;
+            }
         }
+
         article {
             font-size: .9em;
 
+            text-align: center;
+
             @include media($large-screen-up) {
                 @include span-columns(5);
+                text-align: left;
             }
         }
     }

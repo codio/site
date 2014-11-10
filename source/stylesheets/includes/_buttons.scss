@@ -8,14 +8,13 @@
     height: em(35);
     line-height: em(20);
     padding: em(8) em(30) em(5);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1em;
     color: white;
     margin: 0;
     text-decoration: none;
     text-align: center;
     background: $base-button-color;
-    text-transform: uppercase;
 
 }
 @mixin action-button {

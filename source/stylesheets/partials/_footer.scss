@@ -5,11 +5,11 @@
     $footer-color: $base-font-color;
     $footer-link-color: transparentize($footer-color, .2);
     $footer-disclaimer-color: transparentize($footer-color, .2);
+
     max-width: none;
-
     padding-top: $base-spacing*2;
-
     background: $footer-background;
+    font-size: .9em;
 
     @include media($large-screen) {
         margin-left: $header-width;

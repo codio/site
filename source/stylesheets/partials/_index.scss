@@ -88,7 +88,7 @@ body.index {
                     margin-bottom: em(20);
                     font-weight: 400;
                     line-height: 1em;
-                    font-size: 1em;
+                    font-size: .8em;
 
                     @include media($large-screen-height) {
                         line-height: 1.2em;
@@ -116,8 +116,7 @@ body.index {
 
         margin-top: 0;
         margin-bottom: 0;
-        padding-top: em(50);
-        padding-bottom: em(50);
+        padding: em(100) 0;
 
         background: #F6F6F6;
 
@@ -147,7 +146,7 @@ body.index {
         article {
             @include span-columns(4);
             text-align: center;
-            font-size: 1.2em;
+            font-size: 1em;
 
             @include media($large-screen-up) {
                 text-align: left;
@@ -158,6 +157,7 @@ body.index {
 
             p {
                 margin: 0 0 2em;
+                font-size: 1em;
             }
         }
 
@@ -169,8 +169,8 @@ body.index {
             color: $base-accent-color;
 
             @include media($large-screen) {
-                font-size: 2em;
-                margin-bottom: .4em;
+                font-size: 1.8em;
+                margin-bottom: .8em;
             }
         }
 

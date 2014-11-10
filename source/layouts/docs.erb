@@ -20,12 +20,23 @@
                     <ul>
                   <% end %>
                     <% child.children.each do |p| %>
-                      <% if current_page? p.url %>
+                      <% if current_section? p.url %>
                         <li class="active">
+                          <%=  link_to p.data.title, p.url %>
+                          <ul>
+                            <% p.children.each do |inner| %>
+                              <% if current_page? inner.url %>
+                                <li class="active">
+                              <% else %>
+                                  <li>
+                              <% end %>
+                              <%= link_to inner.data.title, inner.url %></li>
+                            <% end %>
+                          </ul>
                       <% else %>
-                        <li>
+                          <li>
+                            <%=  link_to p.data.title, p.url %>
                       <% end %>
-                        <%=  link_to p.data.title, p.url %>
                       </li>
                     <% end %>
                   </ul>

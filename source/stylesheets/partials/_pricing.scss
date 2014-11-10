@@ -163,4 +163,16 @@ body.pricing {
         }
     }
 
+    .faq {
+        aside {
+            font-weight: 600;
+        }
+        article {
+            font-size: .9em;
+
+            @include media($large-screen-up) {
+                @include span-columns(5);
+            }
+        }
+    }
 }

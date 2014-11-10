@@ -13,10 +13,11 @@
       <div class="date">
         <%= current_article.date.strftime('%B %e, %Y')%> by <b><%= current_article.data.author %></b>
       </div>
-      <%= partial(:"share-links", :locals => { :article => current_article }) %>
+      <%= partial"share-links" %>
       <div class="content">
         <%= yield %>
       </div>
+      <%= partial"share-links" %>
     </div>
   </article>
 

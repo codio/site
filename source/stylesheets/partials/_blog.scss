@@ -80,4 +80,27 @@ body.blog #content {
         }
     }
 
+    .overview {
+        h2 {
+            font-size: 1.3em;
+            font-family: $sans-serif;
+            margin: em(20) 0 em(10);
+            font-weight: 600;
+
+            a {
+                color: $base-font-color;
+            }
+
+            span {
+                font-size: .8em;
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+
+        p, a {
+            font-size: .9em;
+            margin-bottom: 0;
+        }
+    }
 }

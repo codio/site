@@ -4,6 +4,7 @@
 // Run button configuration
   "commands": {
         "Middleman": "bundle exec middleman -p 3000",
+        "Kill Middleman": "pkill -9 ruby",
         "Build": "bundle exec middleman build",
         "Deploy to Production": "cap production deploy"
         

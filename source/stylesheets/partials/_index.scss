@@ -15,7 +15,7 @@ body.index {
         background-position: top;
         background-size: cover;
 
-        height: 280px;
+        height: 450px;
         padding-top: 20px;
 
         @include media($medium-screen-up) {
@@ -28,8 +28,8 @@ body.index {
             background-image: url($hero-image-extra-large);
         }
 
-        @include media(min-height $medium-screen-height min-width $medium-screen) {
-            height: 480px;
+        @include media(min-width $medium-screen) {
+            height: 550px;
             padding-top: 100px;
         }
 
@@ -40,21 +40,25 @@ body.index {
 
 
         .hero-inner {
+            $start-color: rgba(255, 255, 255, 0.95);
+            $end-color: rgba(255, 255, 255, 0.1);
+
             @include outer-container;
-            @include clearfix;
+
             margin: auto;
             text-align: center;
             color: $hero-color;
-            $start-color: rgba(255, 255, 255, 0.95);
-            $end-color: rgba(255, 255, 255, 0.1);
-            @include radial-gradient(circle at 50% 50%, $start-color 0%, $start-color 50%, $end-color 90%);
             padding: 40px;
 
+            background-color: $start-color;
             @include size(100% 90%);
 
-            @include media(min-height $medium-screen-height min-width $medium-screen) {
+
+            @include media(min-width $medium-screen) {
+                background-color: transparent;
+                @include radial-gradient(circle at 50% 50%, $start-color 0%, $start-color 50%, $end-color 90%);
                 padding: em(20);
-                @include size(450px 280px);
+                @include size(450px 350px);
             }
 
             @include media(min-height $large-screen-height min-width $large-screen) {

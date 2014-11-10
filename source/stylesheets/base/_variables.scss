@@ -2,51 +2,76 @@
 $sans-serif: "proxima-nova", sans-serif;
 $serif: $georgia;
 $base-font-family: $sans-serif;
-$header-font-family: raleway, sans-serif;
+$header-font-family: $sans-serif;
+$base-font-weight: 300;
+
+
+$raleway: raleway, sans-serif;
+
+$monospace-font-family: Monaco, monospace;
 
 // Font Sizes
-$base-font-size: 1em;
-$h1-font-size: $base-font-size * 2.25;
-$h2-font-size: $base-font-size * 2;
-$h3-font-size: $base-font-size * 1.75;
-$h4-font-size: $base-font-size * 1.5;
-$h5-font-size: $base-font-size * 1.25;
-$h6-font-size: $base-font-size;
+$base-font-size: 14px;
+$large-font-size: 16px;
+$h1-font-size: 36px;
+$h2-font-size: 28px;
+$h3-font-size: 18px;
+$h4-font-size: 16px;
+$h5-font-size: 16px;
+$h6-font-size: 16px;
+
+
+$h1-font-weight: 300;
+$h2-font-weight: 300;
+$h3-font-weight: 600;
+
 
 // Line height
-$base-line-height: 1.5;
-$header-line-height: 1.25;
+$base-line-height: 26px;
+$header-line-height: 26px;
+
+$h1-line-height: 39px;
+$h2-line-height: 39px;
+$h3-line-height: 26px;
 
 // Other Sizes
 $base-border-radius: 4px;
-$base-spacing: $base-line-height * 1em;
+$base-spacing: $base-line-height;
 $base-z-index: 0;
 
 // Colors
-$blue: #477DCA;
-$dark-gray: #3E4951;
-$medium-gray: #999;
-$light-gray: #FCFCFC;
-$lighter-gray: #F6F3F5;
+
+$light-background: #F6F6F6;
+$main-background: #FCFCFC;
+
+// Shades of Gray
+
+$darker-gray: #40484C;
+$dark-gray: #B8B7BA;
+$medium-gray: #C7C6C5;
+$light-gray: #ECECEC;
+$lighter-gray: #B2B2B2;
+
+// Higlights
+
+$highlight-color: #4378DD;
+
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
-$orange: #FF9D6D;
-
-//$bondi-blue: #009FAE;
-$bondi-blue: #4378dd;
 
 // Background Color
-$base-background-color: white;
+$base-background-color: $main-background;
 
 // Font Colors
-$base-font-color: $dark-gray;
-$base-accent-color: $bondi-blue;
+$base-font-color: #4F5559;
+$base-accent-color: $highlight-color;
+
 
 // Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $bondi-blue;
+$base-button-color: $base-accent-color;
 $hover-button-color: $hover-link-color;
 
 // Flash Colors
@@ -72,9 +97,10 @@ $form-font-family: $base-font-family;
 
 
 // Custom
-$header-width: 150px;
+$header-width: 162px;
 
-$hero-image-small: '/artwork/capture41/capture41-small.jpg';
-$hero-image-medium: '/artwork/capture41/capture41-medium.jpg';
-$hero-image-large: '/artwork/capture41/capture41-large.jpg';
-$hero-image-extra-large: '/artwork/capture41/capture41-extraLarge.jpg';
+$hero-image-name: 'kwok01';
+$hero-image-small: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-small.jpg';
+$hero-image-medium: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-medium.jpg';
+$hero-image-large: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-large.jpg';
+$hero-image-extra-large: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-extraLarge.jpg';

@@ -20,7 +20,8 @@
 @mixin action-button {
     @include button(simple);
     font-family: $sans-serif;
-    font-size: $base-font-size;
+    font-size: $large-font-size;
+    line-height: $base-line-height;
     outline: none;
     border: none;
     background: $base-button-color;

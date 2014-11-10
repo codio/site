@@ -1,9 +1,13 @@
 body.docs #content {
-
-    $border-color: #C3C4C8;
+    $border-color: $medium-gray;
+    background: $light-background;
 
     aside {
         padding-top: 0;
+
+        @include media($large-screen-up) {
+            @include span-columns(6);
+        }
 
         nav {
             form {
@@ -37,7 +41,7 @@ body.docs #content {
                                 display: none;
                                 margin: em(5) 0;
                                 a {
-                                    color: #8C9194;
+                                    color: $darker-gray;
                                 }
 
                                 &.active {
@@ -76,30 +80,26 @@ body.docs #content {
     }
 
     article {
+        @include media($large-screen-up) {
+            @include span-columns(14);
+        }
 
         h1 {
-            font-size: 2em;
-            font-weight: 300;
             margin-bottom: em(15);
         }
 
         h2 {
-            font-size: 1.1em;
-            font-weight: 600;
-            margin: em(30) 0;
-            font-family: $sans-serif;
+            margin: em(20) 0;
         }
 
         p {
             margin-bottom: em(30);
-            font-size: .9em;
 
             quote {
                 display: block;
                 border-left: 2px solid $border-color;
                 padding-left: em(20);
                 font-weight: normal;
-                font-size: .9em;
             }
 
             img {
@@ -115,7 +115,7 @@ body.docs #content {
         @include span-columns(4 of 4);
 
         @include media($large-screen-up) {
-            @include span-columns(8 of 8);
+            @include span-columns(20);
         }
 
         .header {
@@ -133,7 +133,7 @@ body.docs #content {
                 @include span-columns(4 of 4);
 
                 @include media($large-screen-up) {
-                    @include span-columns(5 of 8);
+                    @include span-columns(17);
                     margin-top: 0;
                 }
             }
@@ -143,7 +143,7 @@ body.docs #content {
                 @include span-columns(4 of 4);
 
                 @include media($large-screen-up) {
-                    @include span-columns(2 of 8);
+                    @include span-columns(3);
                 }
             }
         }
@@ -155,8 +155,8 @@ body.docs #content {
             padding: em(20);
 
             @include media($large-screen-up) {
-                @include span-columns(8 of 8);
-                @include omega(8n);
+                @include span-columns(20);
+                @include omega(20n);
             }
 
             .docs-section {
@@ -165,11 +165,11 @@ body.docs #content {
                 margin-bottom: em(20);
 
                 @include media($large-screen-up) {
-                    @include span-columns(2 of 8);
+                    @include span-columns(5);
                     height: 35em;
                 }
 
-                background: white;
+                background: $main-background;
                 padding: em(40);
 
                 a {
@@ -177,15 +177,12 @@ body.docs #content {
                 }
 
                 h2 {
-                    font-family: $header-font-family;
-                    font-weight: 300;
                     text-align: center;
-                    font-size: 1.6em;
-
                 }
 
                 ul {
                     li {
+                        font-weight: 600;
                     }
                 }
 
@@ -206,7 +203,7 @@ body.docs #content {
 
     .search-results {
         @include media($large-screen-up) {
-            @include span-columns(8 of 8);
+            @include span-columns(20);
         }
 
         #st-results-container {

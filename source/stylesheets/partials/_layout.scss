@@ -4,7 +4,6 @@ body {
 
 
 #content {
-    background: #F6F6F6;
     @include outer-container;
     max-width: none;
 
@@ -26,7 +25,7 @@ section {
         padding: em(20);
 
         @include media($large-screen-up) {
-            @include span-columns(2 of 8);
+            @include span-columns(8);
             padding: em(40);
         }
     }
@@ -35,7 +34,7 @@ section {
         padding: em(20);
 
         @include media($large-screen-up) {
-            @include span-columns(6 of 8);
+            @include span-columns(12);
             padding: em(40);
         }
     }
@@ -52,7 +51,6 @@ header.artwork {
 }
 
 .artwork {
-    background: $blue;
     height: em(120);
 
     @include span-columns(4);

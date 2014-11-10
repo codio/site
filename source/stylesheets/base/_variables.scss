@@ -65,7 +65,10 @@ $base-background-color: $main-background;
 
 // Font Colors
 $base-font-color: #4F5559;
+
 $base-accent-color: $highlight-color;
+$mid-accent-color: lighten($base-accent-color, 20%);
+$light-accent-color: lighten($base-accent-color, 30%);
 
 
 // Link Colors

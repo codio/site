@@ -45,7 +45,7 @@ body.index {
             margin: auto;
             text-align: center;
             color: $hero-color;
-            $start-color: rgba(255, 255, 255, 0.8);
+            $start-color: rgba(255, 255, 255, 0.95);
             $end-color: rgba(255, 255, 255, 0.1);
             @include radial-gradient(circle at 50% 50%, $start-color 0%, $start-color 50%, $end-color 90%);
             padding: 40px;

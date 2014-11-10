@@ -1,3 +1,31 @@
+svg {
+    // Color Changes
+
+    .light-highlight-fill {
+        fill: $light-accent-color;
+    }
+    .mid-highlight-fill {
+        fill: $mid-accent-color;
+    }
+
+    .dark-highlight-fill {
+        fill: $base-accent-color;
+    }
+
+    .light-highlight-stroke {
+        stroke: $light-accent-color;
+    }
+    .mid-highlight-stroke {
+        stroke: $mid-accent-color;
+    }
+    .dark-highlight-stroke {
+        stroke: $base-accent-color;
+    }
+
+}
+// Animation
+
+
 .code line{
     stroke-dasharray: 200;
     stroke-dashoffset: 200;

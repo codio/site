@@ -4,12 +4,18 @@ layout: layout
 ---
 
 <article class="search-results">
-  <%= link_to "Docs", "/docs" %>
-  <form>
-    <input type="text" id="st-search-input" class="st-search-input" />
-  </form>
+  <div class="title">
+    <%= link_to "Docs", "/docs", :class => "back-button" %>
+  </div>
 
-  <h1>Search Results</h1>
+  <header>
+    <form>
+      <input type="text" id="st-search-input" class="st-search-input" />
+    </form>
+
+    <h1>Search Results</h1>
+  </header>
+
   <div id="st-results-container"></div>
 </article>
 

@@ -12,7 +12,11 @@ body.blog #content {
         @include span-columns(4);
 
         @include media($large-screen-up) {
-            @include span-columns(14);
+            @include span-columns(20);
+
+            h1 {
+                @include span-columns(14);
+            }
         }
     }
 
@@ -30,8 +34,23 @@ body.blog #content {
 
             li {
                 margin: em(10) 0;
+
                 a {
                     color: $base-font-color;
+
+                    @include transition(color .1s linear);
+
+                    &::before {
+                        content: '\203A';
+                        font-size: 1.5em;
+                        padding-right: .5em;
+                    }
+
+                    &:hover {
+                        text-decoration: none;
+                        color: $base-accent-color;
+                    }
+
                 }
             }
         }
@@ -63,6 +82,12 @@ body.blog #content {
 
             .social {
                 margin: em(10) 0;
+
+                a.facebook-share,
+                a.twitter-share,
+                a.plus-share {
+
+                }
             }
 
             #disqus_thread {

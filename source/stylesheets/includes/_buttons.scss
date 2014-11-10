@@ -43,13 +43,12 @@
 }
 
 .back-button {
-    $back-button-color: #C7C8CA;
     @include button(simple);
     font-family: $sans-serif;
     font-size: .9em;
     outline: none;
     border: none;
-    background: $back-button-color;
+    background: $medium-gray;
     text-shadow: none;
     box-shadow: none;
     font-weight: 400;
@@ -61,8 +60,9 @@
     @include transition(background 0.2s linear);
 
     &:hover:not(:disabled) {
-        background: adjust-color($back-button-color, $saturation: -4%, $lightness: -5%);
-        color: white;
+        background: $light-gray;
+        color: $dark-gray;
+        text-decoration: none;
     }
 
     &:focus:not(:disabled),
@@ -76,5 +76,11 @@
         width: initial;
         border-radius: $base-border-radius;
         margin-left: 2.5em;
+    }
+
+    &::before {
+        content: '\2039';
+        font-size: 1.5em;
+        padding-right: 5px;
     }
 }

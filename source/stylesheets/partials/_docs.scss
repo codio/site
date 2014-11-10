@@ -2,6 +2,13 @@ body.docs #content {
     $border-color: $medium-gray;
     background: $light-background;
 
+    .title {
+        @include media($large-screen-up) {
+            @include span-columns(20);
+            @include omega(20n);
+        }
+    }
+
     aside {
         padding-top: 0;
 
@@ -12,6 +19,24 @@ body.docs #content {
         nav {
             form {
                 margin-top: em(20);
+            }
+
+            h5 {
+                &::before {
+                    content: '\203A';
+                    font-size: 1.5em;
+                    padding-right: 5px;
+                }
+
+                &.active::before {
+                    @include transform(rotate(90deg));
+                    display: inline-block;
+                    width: 12px;
+                    vertical-align: bottom;
+                    line-height: 32px;
+                    padding: 0;
+                    float: left;
+                }
             }
 
             h5 {
@@ -27,9 +52,11 @@ body.docs #content {
             }
             ul a {
                 color: $base-font-color;
+                @include transition(color .1s linear);
 
                 &:hover {
                     text-decoration: none;
+                    color: $base-accent-color;
                 }
             }
             & > ul {
@@ -40,6 +67,7 @@ body.docs #content {
                             & > ul {
                                 display: none;
                                 margin: em(5) 0;
+
                                 a {
                                     color: $darker-gray;
                                 }
@@ -49,21 +77,37 @@ body.docs #content {
                                 }
 
 
-                                li {
+                                & > li {
                                     padding-left: em(15);
                                     padding-top: em(10);
                                     font-size: .9em;
 
-                                    &.active > a {
-                                        color: $base-accent-color;
+                                    & > a::before {
+                                        content: '\203A';
+                                        font-size: 1.5em;
+                                        padding-right: 5px;
                                     }
 
-                                    ul {
+
+                                    &.active > a {
+                                        color: $base-accent-color;
+                                        &::before {
+                                            @include transform(rotate(90deg));
+                                            display: inline-block;
+                                            width: 12px;
+                                            vertical-align: bottom;
+                                            line-height: 32px;
+                                            padding: 0;
+                                            float: left;
+                                        }
+                                    }
+
+                                    & > ul {
                                         border-left: 1px solid $border-color;
-                                        margin: em(10) 0;
+                                        margin: em(10) em(20);
 
                                         li {
-                                            padding-top: 0;
+                                            padding-left: em(15);
                                         }
 
                                         a {
@@ -202,11 +246,41 @@ body.docs #content {
     }
 
     .search-results {
+        @include outer-container;
+        @include span-columns(4);
+
         @include media($large-screen-up) {
             @include span-columns(20);
         }
 
+        .back-button {
+            margin-left: 0;
+        }
+
+        header {
+            @include span-columns(4);
+            @include omega(4n);
+
+            padding-top: em(40);
+
+            @include media($large-screen-up) {
+                @include span-columns(20);
+                @include omega(20n);
+            }
+
+            form, h1 {
+                display: inline-block;
+            }
+            h1 {
+                vertical-align: top;
+                margin-left: em(30);
+            }
+        }
+
         #st-results-container {
+            .st-search-summary, .st-result, .st-pagination {
+                border: none;
+            }
             em {
                 font-style: normal;
                 font-weight: 500;

@@ -23,9 +23,9 @@ body.pricing {
         padding: em(20);
 
         @include media($large-screen-up) {
-            @include shift(1 of 8);
-            @include span-columns(6 of 8);
-            @include omega(4n);
+            @include shift(4 of 20);
+            @include span-columns(12 of 20);
+            @include omega(14n);
             margin-bottom: em(20);
         }
 
@@ -63,34 +63,35 @@ body.pricing {
         float: left;
 
         @include media($large-screen-up) {
-            @include span-columns(2 of 8);
+            @include span-columns(4);
             width: 25%;
             margin-right: 0;
         }
 
         &.highlight {
-            background: #BDE3E6;
+            background: $light-accent-color;
 
             .card-header {
-                background: #9CD5DC;
+                background: $mid-accent-color;
             }
 
             &::before {
                 content: 'Recommended';
                 margin-top: -27px;
-                background: #45afbc;
+                background: $base-accent-color;
             }
 
             &::after {
                 content: '';
-                height: 27px;
                 bottom: 0;
                 margin-bottom: -27px;
-                background: #BDE3E6;
+                background: $light-accent-color;
             }
 
-            &::before, &::after {
+            &::before,
+            &::after {
                 position: absolute;
+                height: 27px;
                 width: 100%;
                 left: 0;
                 color: white;
@@ -169,13 +170,13 @@ body.pricing {
             }
         }
 
-        &:hover {
-            background-color: $card-hover-background;
+        /* &:hover { */
+        /*     background-color: $card-hover-background; */
 
-            .card-header {
-                background-color: $card-hover-background;
-            }
-        }
+        /*     .card-header { */
+        /*         background-color: $card-hover-background; */
+        /*     } */
+        /* } */
 
         &:active {
             background-color: $card-background;
@@ -192,17 +193,17 @@ body.pricing {
             text-align: center;
 
             @include media($large-screen-up) {
+                @include shift(1);
+                @include span-columns(4);
                 text-align: left;
             }
         }
 
         article {
-            font-size: .9em;
-
             text-align: center;
 
             @include media($large-screen-up) {
-                @include span-columns(5);
+                @include span-columns(14);
                 text-align: left;
             }
         }

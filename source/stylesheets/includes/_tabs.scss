@@ -34,7 +34,7 @@
 	    left: nth(4 of 8, 1) * flex-grid(1, 8) + nth(4 of 8, 1) * flex-gutter(8);
         }
         &:hover + label {
-	    background: #5ba4a4;
+	    background: $dark-gray;
         }
         &:checked + label {
             background: $base-font-color;
@@ -65,7 +65,7 @@
 	font-weight: 400;
 	text-align: center;
         border-radius: 0 $base-border-radius $base-border-radius 0;
-        background: #C3C4C8;
+        background: $medium-gray;
 
         @include span-columns(2 of 4);
         @include omega(2n);

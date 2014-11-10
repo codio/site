@@ -48,6 +48,15 @@ Make sure you run the `middleman` command while in the directory where the app r
 
 Now just open up your browser and go to http://localhost:4567
 
+If you are using codio.com or another place where the access to the site is not on
+`localhost:4567` you should set the env variable `M_ASSET_HOST` to the hostname in use.
+If for example your codio host is `http://goffer-elench.codio.io:3000` you can start
+middleman like this:
+
+```bash
+$ M_ASSET_HOST=http://goffer-elench.codio.io:3000 bundle exec middleman
+```
+
 
 ## Making Changes
 

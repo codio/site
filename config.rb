@@ -51,7 +51,7 @@ activate :automatic_clowncar,
          :filetypes => [:jpg, :jpeg, :png]
 
 activate :asset_host
-set :asset_host, "http://localhost:4567"
+set :asset_host, ENV["M_ASSET_HOST"] || "http://localhost:4567"
 
 
 activate :blog do |blog|

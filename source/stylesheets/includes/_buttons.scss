@@ -40,3 +40,32 @@
         border: none;
     }
 }
+
+.back-button {
+    $back-button-color: #C7C8CA;
+    @include button(simple);
+    font-family: $sans-serif;
+    font-size: .9em;
+    outline: none;
+    border: none;
+    background: $back-button-color;
+    text-shadow: none;
+    box-shadow: none;
+    font-weight: 400;
+    color: white;
+    padding: 2px 15px;
+
+    @include transition(background 0.2s linear);
+
+    &:hover:not(:disabled) {
+        background: adjust-color($back-button-color, $saturation: -4%, $lightness: -5%);
+        color: white;
+    }
+
+    &:focus:not(:disabled),
+    &:hover:not(:disabled),
+    &:active:not(:disabled) {
+        box-shadow: none;
+        border: none;
+    }
+}

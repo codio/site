@@ -3,14 +3,11 @@ body.docs #content {
     $border-color: #C3C4C8;
 
     aside {
+        padding-top: 0;
+
         nav {
-
-            a {
-                color: $base-font-color;
-
-                &:hover {
-                    text-decoration: none;
-                }
+            form {
+                margin-top: em(20);
             }
 
             h5 {
@@ -23,6 +20,13 @@ body.docs #content {
                 margin-top: 20px;
                 margin-bottom: 30px;
                 font-weight: normal;
+            }
+            ul a {
+                color: $base-font-color;
+
+                &:hover {
+                    text-decoration: none;
+                }
             }
             & > ul {
                 & > li {
@@ -116,39 +120,79 @@ body.docs #content {
 
         .header {
             @include outer-container;
+            padding: em(40);
             padding-bottom: 0;
-        }
 
-        h1 {
-            text-align: center;
+            h1 {
+                text-align: center;
 
-            @include span-columns(4 of 4);
+                @include span-columns(4 of 4);
 
-            @include media($large-screen-up) {
-                @include span-columns(6 of 8);
+                @include media($large-screen-up) {
+                    @include span-columns(5 of 8);
+                }
+            }
+
+            form#search-input {
+
+                @include span-columns(4 of 4);
+
+                @include media($large-screen-up) {
+                    @include span-columns(2 of 8);
+                }
             }
         }
-
-        form#search-input {
-
-            @include span-columns(4 of 4);
-
-            @include media($large-screen-up) {
-                @include span-columns(2 of 8);
-            }
-        }
-
         section {
+            @include outer-container;
             @include span-columns(4);
             @include omega(4n);
 
-            padding: em(40);
+            padding: em(20);
 
             @include media($large-screen-up) {
                 @include span-columns(8 of 8);
                 @include omega(8n);
             }
 
+            &.header {
+            }
+
+            .docs-section {
+                @include span-columns(4);
+                @include omega(4n);
+                margin-bottom: em(20);
+
+                @include media($large-screen-up) {
+                    @include span-columns(2 of 8);
+                    height: 35em;
+                }
+
+                background: white;
+                padding: em(40);
+
+                a {
+                    color: $base-font-color;
+                }
+
+                h2 {
+                    font-family: $header-font-family;
+                    font-weight: 300;
+                    text-align: center;
+                    font-size: 1.6em;
+
+                }
+
+                ul {
+
+                }
+
+                img {
+                    display: block;
+                    @include size(100px);
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
         }
     }
 
@@ -178,14 +222,16 @@ body.docs #content {
     }
 
     form input#st-search-input {
-        font-size: 1em;
-        padding: em(5);
+        font-size: .9em;
+        padding: em(5) em(10);
         margin: 0;
         border-radius: $base-border-radius;
         box-shadow: none;
-        background: white;
-        height: 25px;
-        width: 200px;
-        border: 1px solid $base-font-color;
+        background: #EBEBEB;
+        height: 35px;
+        width: 230px;
+        border: none;
+        color: $base-font-color;
+        font-weight: 300;
     }
 }

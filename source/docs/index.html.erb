@@ -5,23 +5,26 @@ categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
 <article class="docs-landing">
   <section class="header">
     <form id="search-input">
-      <input type="text" id="st-search-input" class="st-search-input" />
+      <input type="text" id="st-search-input" class="st-search-input" placeholder="Search"/>
     </form>
     <h1>Documentation</h1>
   </section>
-<% current_page.data.categories.each do |category| %>
-  <% resource = current_resource.children.select {|c| c.metadata[:page]["title"] == category}[0] %>
   <section>
-    <h2><%= link_to resource.data.title, resource.url %></h2>
-    <ul>
-      <% resource.children.each do |child| %>
-        <li>
-          <%=  link_to child.data.title, child.url %>
-        </li>
-      <% end %>
-    </ul>
+    <% current_page.data.categories.each do |category| %>
+      <% resource = current_resource.children.select {|c| c.metadata[:page]["title"] == category}[0] %>
+      <div class="docs-section">
+        <img alt="placeholder" src="<%= lorem.image('100x100')%>"/>
+        <h2><%= link_to resource.data.title, resource.url %></h2>
+        <ul>
+          <% resource.children.each do |child| %>
+            <li>
+              <%=  link_to child.data.title, child.url %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
   </section>
-<% end %>
 </article>
 
 <%= partial "vendors/swiftype" %>

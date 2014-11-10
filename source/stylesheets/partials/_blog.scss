@@ -1,10 +1,12 @@
 body.blog #content {
 
     .title {
-        padding: em(40) em(40) 0;
+        padding: em(10) em(40) 0;
 
         h1 {
             font-weight: 300;
+            margin-top: em(10);
+            line-height: 1.1em;
         }
 
         @include span-columns(4);

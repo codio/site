@@ -152,7 +152,7 @@ body.docs #content {
 
         .header {
             @include outer-container;
-            padding: 0 em(20);
+            padding: em(20) em(40) 0;
 
             @include media($large-screen-up) {
                 padding: em(40) em(40) 0;

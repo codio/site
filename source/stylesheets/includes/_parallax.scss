@@ -11,6 +11,11 @@ body.index {
             right: 0;
             bottom: 0;
             left: 0;
+
+            @include media($large-screen-up) {
+                top: 0;
+            }
+
         }
         .parallax__layer--base {
             padding: 90vh 0;

@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <%= partial "head" %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <!--[if lt IE 9]>
+      <%= javascript_include_tag  "html5shiv" %>
+    <![endif]-->
+
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <%= partial "header" %>
+
+    <div class="parallax">
+      <div class="parallax__layer parallax__layer--back">
+        <section class="hero">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <h1>Instant Coding Environments</h1>
+              <p>
+                Enjoy access anywhere to unlimited coding project workspace, in a powerful
+                cloud IDE with a limitless range of pre-configured stacks & coding environments
+              </p>
+            </div>
+            <button>Get Started</button>
+          </div>
+        </section>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+
+        <section id="content">
+          <div class="wrapper"><%= yield %></div>
+        </section>
+        <%= partial "footer" %>
+      </div>
+    </div>
+
+    <!-- Include Scripts -->
+    <%= javascript_include_tag  "all" %>
+
+  </body>
+</html>

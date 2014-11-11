@@ -15,27 +15,19 @@ body.index {
         background-position: top;
         background-size: cover;
 
-        height: 450px;
-        padding-top: 20px;
+        height: 90vh;
+        padding-top: 20vh;
 
         @include media($medium-screen-up) {
             background-image: url($hero-image-medium);
         }
         @include media($large-screen-up) {
             background-image: url($hero-image-large);
+
+            margin-left: $header-width;
         }
         @include media($extra-large-screen-up) {
             background-image: url($hero-image-extra-large);
-        }
-
-        @include media(min-width $medium-screen) {
-            height: 550px;
-            padding-top: 100px;
-        }
-
-        @include media(min-height $large-screen-height min-width $large-screen) {
-            height: 680px;
-            padding-top: 200px;
         }
 
 
@@ -45,7 +37,7 @@ body.index {
 
             @include outer-container;
 
-            margin: auto;
+            margin: 0 auto;
             text-align: center;
             color: $hero-color;
             padding: 40px;

@@ -150,35 +150,6 @@ body.docs #content {
             @include span-columns(20);
         }
 
-        .header {
-            @include outer-container;
-            padding: em(20) em(40) 0;
-
-            @include media($large-screen-up) {
-                padding: em(40) em(40) 0;
-            }
-
-            h1 {
-                text-align: center;
-                margin-top: em(30);
-
-                @include span-columns(4 of 4);
-
-                @include media($large-screen-up) {
-                    @include span-columns(17);
-                    margin-top: 0;
-                }
-            }
-
-            form#search-input {
-
-                @include span-columns(4 of 4);
-
-                @include media($large-screen-up) {
-                    @include span-columns(3);
-                }
-            }
-        }
         section {
             @include outer-container;
             @include span-columns(4);
@@ -243,52 +214,34 @@ body.docs #content {
         @include outer-container;
         @include span-columns(4);
 
+        padding: 0;
+
         @include media($large-screen-up) {
             @include span-columns(20);
-        }
 
-        .back-button {
-            margin-left: 0;
-        }
-
-        header {
-            @include span-columns(4);
-            @include omega(4n);
-
-            padding-top: em(40);
-
-            @include media($large-screen-up) {
-                @include span-columns(20);
-                @include omega(20n);
+            .back-button {
+                margin-left: em(40);
+                margin-bottom: em(40);
             }
 
-            form, h1 {
-                display: inline-block;
-            }
-            h1 {
-                vertical-align: top;
-                margin-left: em(30);
-            }
         }
+
+
 
         #st-results-container {
+            padding: em(40);
             .st-search-summary, .st-result, .st-pagination {
                 border: none;
             }
             em {
                 font-style: normal;
-                font-weight: 500;
-                padding: 0;
-                padding-top: 0.2em;
-                padding-bottom: 0.2em;
-                margin: 0;
-                background-color: #D9D9D9;
-                border-radius: 3px;
+                font-weight: 600;
+            }
 
-                &::before,
-                &::after {
-                    letter-spacing: -0.2em;
-                    content: "\00a0"
+            h3 {
+                font-size: $h3-font-size;
+                & > a {
+                    color: inherit;
                 }
             }
         }
@@ -309,6 +262,59 @@ body.docs #content {
 
         @include media($large-screen-up) {
             width: 230px;
+        }
+    }
+
+    form#search-input {
+        &::after {
+            content: $fa-var-search;
+            @include fa-icon;
+            @include size(35px);
+            background: $base-font-color;
+            text-align: center;
+            line-height: 35px;
+            position: absolute;
+            margin-top: -35px;
+            border-radius: 0 $base-border-radius $base-border-radius 0;
+            color: white;
+            font-weight: 300;
+            right: em(20);
+
+            @include media($large-screen-up) {
+                margin-left: 195px;
+                right: initial;
+            }
+        }
+    }
+
+    .header {
+        @include outer-container;
+        padding: em(20) em(40) 0;
+
+        @include media($large-screen-up) {
+            padding: em(40) em(40) 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: em(30);
+
+            @include span-columns(4 of 4);
+
+            @include media($large-screen-up) {
+                @include span-columns(8 of 20);
+                margin-top: 0;
+                display: inline;
+            }
+        }
+
+        form#search-input {
+
+            @include span-columns(4 of 4);
+
+            @include media($large-screen-up) {
+                @include span-columns(7 of 20);
+            }
         }
     }
 }

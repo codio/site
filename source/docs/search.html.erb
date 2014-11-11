@@ -8,13 +8,12 @@ layout: layout
     <%= link_to "Docs", "/docs", :class => "back-button" %>
   </div>
 
-  <header>
-    <form>
-      <input type="text" id="st-search-input" class="st-search-input" />
+  <section class="header">
+    <form id="search-input">
+      <input type="text" id="st-search-input" class="st-search-input" placeholder="Search"/>
     </form>
-
     <h1>Search Results</h1>
-  </header>
+  </section>
 
   <div id="st-results-container"></div>
 </article>

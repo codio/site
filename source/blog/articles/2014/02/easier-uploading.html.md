@@ -2,7 +2,7 @@
 title: Easier Uploading
 author: Joel Moss
 date: 2014-02-04
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

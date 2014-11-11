@@ -2,7 +2,7 @@
 title: Developing Back End Code
 author: Freddy May
 date: 2013-11-16
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: false

@@ -2,7 +2,7 @@
 title: Codio Guides
 author: Freddy May
 date: 2014-09-10
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: false
@@ -38,7 +38,7 @@ Revised version:
 title: Codio strives to unlock teacher and student potential with Codio Guides as computer science takes centre stage in the school curriculum
 author: Freddy May
 date: 2014-09-10
-tages: Changelog
+tages: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: false

@@ -2,7 +2,7 @@
 title: Support added for CoffeeScript, Sass, SCSS etc.
 author: Freddy May
 date: 2013-06-29
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

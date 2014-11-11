@@ -2,7 +2,7 @@
 title: Paid Subscriptions
 author: Freddy May
 date: 2014-01-14
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

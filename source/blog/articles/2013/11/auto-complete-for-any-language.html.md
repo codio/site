@@ -2,7 +2,7 @@
 title: Auto-Complete for Any Language
 author: Joel Moss
 date: 2013-11-29
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

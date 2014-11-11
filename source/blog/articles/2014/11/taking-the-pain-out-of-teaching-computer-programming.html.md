@@ -2,7 +2,7 @@
 title: Taking the pain out of teaching computer programming.
 author: Phillip Snalune
 date: 2014-11-03
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

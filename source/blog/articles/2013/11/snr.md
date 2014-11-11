@@ -2,7 +2,7 @@
 title: Search and Replace with SnR
 author: Friedel Ziegelmayer
 date: 2013-11-11
-tags: Engineering
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

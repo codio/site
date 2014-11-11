@@ -2,7 +2,7 @@
 title: One-Click Deployment
 author: Joel Moss
 date: 2013-05-16
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

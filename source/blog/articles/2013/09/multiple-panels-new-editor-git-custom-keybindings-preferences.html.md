@@ -2,7 +2,7 @@
 title: Multiple Panels, New Editor, Git, Custom keybindings &amp; Preferences
 author: Joel Moss
 date: 2013-09-23
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

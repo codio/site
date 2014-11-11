@@ -2,7 +2,7 @@
 title: Lifting the Beta
 author: Joel Moss
 date: 2014-06-25
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 image: https://i.imgur.com/9EZoT.jpg

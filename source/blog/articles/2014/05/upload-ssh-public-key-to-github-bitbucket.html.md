@@ -2,7 +2,7 @@
 title: Upload Public SSH key to GitHub and BitBucket
 author: Joel Moss
 date: 2014-05-13
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

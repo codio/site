@@ -26,6 +26,11 @@ body.docs #content {
                     @include fa-icon;
                     content: $fa-var-angle-right;
                     padding-right: .5em;
+                    color: white;
+
+                    @include media($large-screen-up) {
+                        color: $base-font-color;
+                    }
                 }
 
                 &.active::before {
@@ -39,13 +44,22 @@ body.docs #content {
                 font-family: $sans-serif;
             }
 
-            h4 {
-                margin-top: 20px;
-                margin-bottom: 30px;
-                font-weight: normal;
+            h2 {
+                font-weight: 600;
+
+                @include media($large-screen-up) {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
             }
+
             ul a {
-                color: $base-font-color;
+                color: white;
+
+                @include media($large-screen-up) {
+                    color: $base-font-color;
+                }
+
                 @include transition(color .1s linear);
 
                 &:hover {
@@ -54,8 +68,65 @@ body.docs #content {
                 }
             }
             & > ul {
+                background: $darker-gray;
+                border-radius: $base-border-radius;
+                padding: em(10) em(20) em(20);
+                margin-top: em(20);
+
+                h2 {
+                    font-size: 1.2em;
+                    line-height: 1.2em;
+                    font-family: $raleway;
+                    font-weight: 300;
+                }
+
+                padding: em(10);
+
+                .fa.open {
+                    display: none;
+                }
+
+                & > li > ul {
+                    display: none;
+                    height: 0;
+                    @include transition(all .3s linear);
+                }
+
+                &.open {
+                    .fa.closed {
+                        display: none;
+                    }
+
+                    .fa.open, & > li > ul {
+                        display: initial;
+                        height: initial;
+                    }
+                }
+
+                .fa.open,
+                .fa.closed {
+                    float: right;
+                    color: white;
+                    font-size: .8em;
+                    line-height: 23px;
+                }
+
+                @include media($large-screen-up) {
+                    background: initial;
+                    padding: 0;
+
+                    .fa {
+                        display: none;
+                    }
+
+                }
+
                 & > li {
                     & > ul {
+                        @include media($large-screen-up) {
+                            display: initial;
+                        }
+
                         & > li {
                             margin: em(10) 0;
                             & > ul {
@@ -63,7 +134,9 @@ body.docs #content {
                                 margin: em(5) 0;
 
                                 a {
-                                    color: $darker-gray;
+                                    @include media($large-screen-up) {
+                                        color: $darker-gray;
+                                    }
                                 }
 
                                 &.active {
@@ -74,7 +147,9 @@ body.docs #content {
                                 & > li {
                                     padding-left: em(15);
                                     padding-top: em(10);
-                                    font-size: .9em;
+                                    @include media($large-screen-up) {
+                                        font-size: .9em;
+                                    }
 
                                     & > a::before {
                                         @include fa-icon;
@@ -91,12 +166,14 @@ body.docs #content {
                                     }
 
                                     & > ul {
-                                        border-left: 1px solid $border-color;
-                                        margin: em(10) em(20);
+                                        @include media($large-screen-up) {
+                                            border-left: 1px solid $border-color;
 
-                                        li {
-                                            padding-left: em(15);
+                                            li {
+                                                padding-left: em(15);
+                                            }
                                         }
+                                        margin: em(10) em(20);
 
                                         a {
                                             font-weight: 300;
@@ -255,13 +332,13 @@ body.docs #content {
         box-shadow: none;
         background: #EBEBEB;
         height: 35px;
-        width: 100%;
+        width: 100% !important;
         border: none;
         color: $base-font-color;
         font-weight: 300;
 
         @include media($large-screen-up) {
-            width: 230px;
+            width: 230px !important;
         }
     }
 

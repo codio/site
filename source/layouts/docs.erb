@@ -8,10 +8,16 @@
         <input type="text" id="st-search-input" class="st-search-input" placeholder="Search"/>
       </form>
 
-      <ul>
+      <ul id="docs-menu">
         <% nav_pages(current_resource.url).each do |resource| %>
           <li>
-            <h4><%= link_to resource.data.title, resource.url %></h4>
+            <h2>
+              <%= link_to resource.data.title, resource.url %>
+              <a href="" id="docs-menu-button">
+                <i class="fa fa-plus closed"></i>
+                <i class="fa fa-remove open"></i>
+              </a>
+            </h2>
             <ul>
               <% resource.children.each do |child| %>
                 <li>

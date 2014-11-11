@@ -6,14 +6,13 @@ body.about #content {
     .team,
     .contact {
         @include span-columns(4);
-        @include omega(4n);
+        @include omega;
 
         margin-bottom: em(100);
 
         @include media($large-screen-up) {
             @include shift(2 of 20);
             @include span-columns(16 of 20);
-            @include omega(16n);
         }
 
         h1, h2 {
@@ -42,28 +41,26 @@ body.about #content {
             padding: em(20);
 
             @include span-columns(20 of 20);
-            @include omega(20n);
         }
 
         .info-cards {
-
             @include outer-container;
+            @include omega;
 
             @include media($large-screen-up) {
                 @include span-columns(20 of 20);
-                @include omega(20n);
             }
 
             .info-card {
                 @include span-columns(4);
-                @include omega(4n);
+                @include omega;
 
                 background: $main-background;
                 margin-bottom: em(30);
 
                 @include media($large-screen-up) {
                     @include span-columns(5 of 20);
-                    @include omega(5n of 20);
+                    @include omega(4n);
                     height: 480px;
                 }
 

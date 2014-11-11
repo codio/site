@@ -14,7 +14,7 @@
     }
 
     .footer-links,
-    .social-links,
+    .share-links,
     .copy {
         @include outer-container;
         @include clearfix;
@@ -28,13 +28,16 @@
         }
     }
 
-    .social-links > ul {
+    .share-links > ul {
+        text-align: center;
 
-        @include media($large-screen-up) {
-            @include shift(8);
-            @include span-columns(4);
+        li {
+            display: inline;
         }
 
+        @include media($large-screen-up) {
+            @include span-columns(20);
+        }
     }
     .copy {
         text-align: center;
@@ -48,10 +51,6 @@
                 }
             }
         }
-    }
-
-    .social-links {
-
     }
 
     ul {

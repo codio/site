@@ -108,8 +108,9 @@ $form-font-family: $base-font-family;
 // Custom
 $header-width: 162px;
 
-$hero-image-name: 'kwok01';
-$hero-image-small: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-small.jpg';
-$hero-image-medium: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-medium.jpg';
-$hero-image-large: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-large.jpg';
-$hero-image-extra-large: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-extraLarge.jpg';
+$hero-image-name: 'friedel01';
+$hero-image-type: 'png';
+$hero-image-small: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-small.' + $hero-image-type;
+$hero-image-medium: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-medium.' + $hero-image-type;
+$hero-image-large: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-large.' + $hero-image-type;
+$hero-image-extra-large: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-extraLarge.' + $hero-image-type;

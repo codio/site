@@ -59,7 +59,7 @@ header.artwork {
 
     background-image: url($hero-image-small);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
 
     @include media($medium-screen-up) {

@@ -9,6 +9,7 @@
     padding-top: $base-spacing*2;
     background: $footer-background;
 
+
     @include media($large-screen) {
         margin-left: $header-width;
     }

@@ -6,10 +6,12 @@ body {
 #content {
     @include outer-container;
     max-width: none;
+    padding-top: em(30);
 
 
     @include media($large-screen) {
         margin-left: $header-width;
+        padding-top: 0;
     }
 
     .wrapper {

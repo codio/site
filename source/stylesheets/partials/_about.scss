@@ -9,6 +9,7 @@ body.about #content {
         @include omega;
 
         margin-bottom: em(100);
+        padding: 0 em(20);
 
         @include media($large-screen-up) {
             @include shift(2 of 20);
@@ -38,8 +39,6 @@ body.about #content {
         @include outer-container;
 
         @include media($large-screen-up) {
-            padding: em(20);
-
             @include span-columns(20 of 20);
         }
 

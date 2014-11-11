@@ -23,19 +23,13 @@ body.docs #content {
 
             h5 {
                 &::before {
-                    content: '\203A';
-                    font-size: 1.5em;
-                    padding-right: 5px;
+                    @include fa-icon;
+                    content: $fa-var-angle-right;
+                    padding-right: .5em;
                 }
 
                 &.active::before {
-                    @include transform(rotate(90deg));
-                    display: inline-block;
-                    width: 12px;
-                    vertical-align: bottom;
-                    line-height: 32px;
-                    padding: 0;
-                    float: left;
+                    content: $fa-var-angle-down;
                 }
             }
 
@@ -83,22 +77,16 @@ body.docs #content {
                                     font-size: .9em;
 
                                     & > a::before {
-                                        content: '\203A';
-                                        font-size: 1.5em;
-                                        padding-right: 5px;
+                                        @include fa-icon;
+                                        content: $fa-var-angle-right;
+                                        padding-right: .5em;
                                     }
 
 
                                     &.active > a {
                                         color: $base-accent-color;
                                         &::before {
-                                            @include transform(rotate(90deg));
-                                            display: inline-block;
-                                            width: 12px;
-                                            vertical-align: bottom;
-                                            line-height: 32px;
-                                            padding: 0;
-                                            float: left;
+                                            content: $fa-var-angle-down;
                                         }
                                     }
 
@@ -227,6 +215,12 @@ body.docs #content {
                 ul {
                     li {
                         font-weight: 600;
+
+                        &::before {
+                            @include fa-icon;
+                            content: $fa-var-angle-right;
+                            padding-right: .5em;
+                        }
                     }
                 }
 

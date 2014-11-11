@@ -21,8 +21,11 @@ body.blog #content {
     }
 
     aside {
+        display: none;
+
         @include media($large-screen-up) {
             @include span-columns(6);
+            display: initial;
         }
 
         h2 {
@@ -41,8 +44,8 @@ body.blog #content {
                     @include transition(color .1s linear);
 
                     &::before {
-                        content: '\203A';
-                        font-size: 1.5em;
+                        @include fa-icon;
+                        content: $fa-var-angle-right;
                         padding-right: .5em;
                     }
 

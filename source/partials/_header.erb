@@ -2,8 +2,17 @@
 
   <nav class="top">
     <ul>
-      <li><a href="" id="menu-toggle">Menu</a></li>
-      <li><a href="">Sign Up</a></li>
+      <li>
+        <a href="" id="menu-toggle">
+          <i class="fa fa-bars"></i>
+        </a>
+      </li>
+      <li>
+        <h3><%= link_to ".codio", "/" %></h3>
+      </li>
+      <li>
+        <a href="" class="outline-button">Sign Up</a>
+      </li>
     </ul>
   </nav>
   <nav class="left slide-menu">
@@ -18,10 +27,16 @@
     </div>
     <div class="actions signed-in">
       <a id="userlink">
-        <span></span>
         <img id="gravatar" alt="Gravatar"></img>
+        <span></span>
       </a>
-      <a id="intercom" href="mailto:ee8711023afa04b80a6b921ddb3939c1171e0f62@incoming.intercom.io">Messages</a>
+      <a id="intercom" href="mailto:ee8711023afa04b80a6b921ddb3939c1171e0f62@incoming.intercom.io">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-comments-o fa-stack-1x"></i>
+        </span>
+        Chat
+      </a>
     </div>
   </nav>
 </header>

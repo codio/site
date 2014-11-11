@@ -79,8 +79,8 @@
     }
 
     &::before {
-        content: '\2039';
-        font-size: 1.5em;
-        padding-right: 5px;
+        @include fa-icon;
+        content: $fa-var-angle-left;
+        padding-right: .5em;
     }
 }

@@ -1,7 +1,7 @@
 .footer {
     @include outer-container;
 
-    $footer-background: $base-font-color;
+    $footer-background: $darker-gray;
     $footer-color: white;
     $footer-disclaimer-color: transparentize($footer-color, .2);
 

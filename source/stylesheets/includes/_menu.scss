@@ -9,7 +9,7 @@
     $slide-menu-hover: tint($slide-menu-highlight, 20%);
     $slide-menu-active: tint($slide-menu-highlight, 20%);
 
-    background: $slide-menu-background;
+    background: $darker-gray;
     position: fixed;
     display: inherit;
 
@@ -28,6 +28,7 @@
 
 
     @include media($large-screen) {
+        background: $slide-menu-background;
         left: 0px;
     }
 
@@ -55,7 +56,7 @@
 
     a {
     	display: block;
-	color: $slide-menu-color;
+        color: $main-background;
 	font-weight: 600;
         font-size: $slide-menu-font-size;
 	padding: em(10) em(40);
@@ -72,6 +73,10 @@
         &:active, &.active {
 	    color: $slide-menu-active;
         }
+
+        @include media($large-screen-up) {
+            color: $slide-menu-color;
+        }
     }
 
     .actions {
@@ -79,13 +84,14 @@
 
     }
 
+
     .outline-button {
         @include action-button;
         font-size: $slide-menu-font-size;
         font-weight: 600;
-	margin: em(10) em(37);
+        margin: em(10) em(37);
         @include size(70px 25px);
         line-height: 15px;
-        padding: 5px 10px
+        padding: 5px 10px;
     }
 }

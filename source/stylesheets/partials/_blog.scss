@@ -83,10 +83,70 @@ body.blog #content {
             .social {
                 margin: em(10) 0;
 
+
+
+                a.facebook-share {
+                    background-image: image-url('social/facebook-small.svg');
+
+                    &:hover {
+                        background-image: image-url('social/facebook-small-hover.svg');
+                    }
+
+                    @include media($large-screen-up) {
+                        background-image: image-url('social/facebook.svg');
+
+                        &:hover {
+                            background-image: image-url('social/facebook-hover.svg');
+                        }
+                    }
+                }
+
+                a.twitter-share {
+                    background-image: image-url('social/twitter-small.svg');
+
+                    &:hover {
+                        background-image: image-url('social/twitter-small-hover.svg');
+                    }
+
+                    @include media($large-screen-up) {
+                        background-image: image-url('social/twitter.svg');
+                        @size(95px 30px);
+
+                        &:hover {
+                            background-image: image-url('social/twitter-hover.svg');
+                        }
+                    }
+                }
+
+                a.plus-share {
+                    background-image: image-url('social/plus-small.svg');
+
+                    &:hover {
+                        background-image: image-url('social/plus-small-hover.svg');
+                    }
+
+                    @include media($large-screen-up) {
+                        background-image: image-url('social/plus.svg');
+
+                        &:hover {
+                            background-image: image-url('social/plus-hover.svg');
+                        }
+                    }
+                }
+
                 a.facebook-share,
                 a.twitter-share,
                 a.plus-share {
+                    background-repeat: no-repeat;
+                    background-position: top;
+                    background-size: cover;
+                    display: inline-block;
 
+                    @include size(32px);
+
+                    @include media($large-screen-up) {
+                        @include size(92px 30px);
+                    }
                 }
             }
 

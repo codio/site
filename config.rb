@@ -1,4 +1,8 @@
 # coding: utf-8
+
+require "lib/helpers"
+helpers MyHelpers
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -66,6 +70,8 @@ end
 
 activate :directory_indexes
 
+ignore '*.ordered'
+
 # Need the extension for error pages
 page "404.html", :directory_index => false
 page "50x.html", :directory_index => false
@@ -80,61 +86,6 @@ configure :development do
   activate :livereload
 end
 
-# Methods defined in the helpers block are available in templates
-helpers do
-  def nav_pages(url)
-    sitemap.resources.select do |r|
-      r.url === url.split("/")[0..2].join("/") + "/"
-    end
-  end
-  # Returns all pages under a certain directory.
-  def sub_pages(dir)
-    sitemap.resources.find_resource_by_path(dir)
-  end
-
-  def current_page?(path)
-    current_path = current_page.url
-    current_path.slice! -1 if current_page.url.end_with?('/')
-    path.slice! -1 if path.end_with?('/')
-    current_path == path
-  end
-
-  def current_section?(path)
-    current_path = current_page.url
-    current_path.slice! -1 if current_page.url.end_with?('/')
-    path.slice! -1 if path.end_with?('/')
-    current_path.start_with? path
-  end
-# insert active link menu-item <A>, or <SPAN> if it’s current page URL
-
-  def link_to_nav(name, url)
-    path = request.path
-    current = false
-
-    # path            - url
-    # docs/index.html - /docs/index.html
-    # docs/index.html - /docs
-    # docs/quickstart/dashboard - /docs
-
-    # Strip leading / from the url
-    testUrl = url[1..-1]
-
-
-    if testUrl == path
-      # Exact match
-      current = true
-    elsif path.start_with? testUrl
-      # starts with match
-      current = true
-    end
-
-    if current
-      link_to name, url, :class => "active"
-    else
-      link_to name, url
-    end
-  end
-end
 
 set :css_dir, 'stylesheets'
 

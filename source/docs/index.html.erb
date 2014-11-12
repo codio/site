@@ -10,13 +10,12 @@ categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
     <h1>Documentation</h1>
   </section>
   <section>
-    <% current_page.data.categories.each do |category| %>
-      <% resource = current_resource.children.select {|c| c.metadata[:page]["title"] == category}[0] %>
+    <% ordered(current_resource).each do |resource| %>
       <div class="docs-section">
-        <%= sprockets.find_asset("icons/#{category.gsub(' ', '-').downcase}-small.svg").to_s %>
+        <%= sprockets.find_asset("icons/#{resource.data.title.gsub(' ', '-').downcase}-small.svg").to_s %>
         <h2><%= link_to resource.data.title, resource.url %></h2>
         <ul>
-          <% resource.children.each do |child| %>
+          <% ordered(resource).each do |child| %>
             <li>
               <%=  link_to child.data.title, child.url %>
             </li>

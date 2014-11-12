@@ -215,6 +215,11 @@ body.docs #content {
                 padding: em(20);
             }
         }
+
+        ul {
+            list-style: initial;
+            padding-left: em(20);
+        }
     }
 
     .docs-landing {
@@ -261,6 +266,8 @@ body.docs #content {
                 }
 
                 ul {
+                    list-style: none;
+
                     li {
                         font-weight: 600;
 

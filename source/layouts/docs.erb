@@ -19,18 +19,18 @@
               </a>
             </h2>
             <ul>
-              <% resource.children.each do |child| %>
+              <% ordered(resource).each do |child| %>
                 <li>
                   <% active = current_section?(child.url) ? "active" : "" %>
                   <h5 class="<%= active %>"><%=  link_to child.data.title, child.url %></h5>
                     <ul class="<%= active %>">
-                    <% child.children.each do |p| %>
+                    <% ordered(child).each do |p| %>
                       <% if current_section? p.url %>
                         <li class="active">
                           <%=  link_to p.data.title, p.url %>
                           <% if p.children.length > 0 %>
                           <ul>
-                            <% p.children.each do |inner| %>
+                            <% ordered(p).each do |inner| %>
                               <% if current_page? inner.url %>
                                 <li class="active">
                               <% else %>

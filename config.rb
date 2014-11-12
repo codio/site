@@ -70,6 +70,8 @@ end
 
 activate :directory_indexes
 
+ignore '*.ordered'
+
 # Need the extension for error pages
 page "404.html", :directory_index => false
 page "50x.html", :directory_index => false

@@ -97,12 +97,12 @@ body.index {
 
         margin-top: 0;
         margin-bottom: 0;
-        padding: em(100) 0;
+        padding: em(150) 0;
 
-        background: #F6F6F6;
+        background: $light-background;
 
         &:nth-child(even) {
-            background: #FCFCFC;
+            background: $main-background;
         }
 
         aside {

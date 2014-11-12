@@ -2,7 +2,7 @@
 title: Managing Server Infrastructure with Chef
 author: Joel Moss
 date: 2013-12-04
-tags: Engineering
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: false

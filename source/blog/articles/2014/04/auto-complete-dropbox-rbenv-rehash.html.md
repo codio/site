@@ -2,7 +2,7 @@
 title: Automatic Auto-Complete, Dropbox & rbenv Rehash
 author: Joel Moss
 date: 2014-04-02
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

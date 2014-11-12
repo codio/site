@@ -1,27 +1,29 @@
 <%= Rouge::Themes::Github.render(:scope => '.highlight') %>
 
 pre {
-  padding: 16px;
-  overflow: auto;
-  line-height: 1.45;
-  background-color: #f8f8f8;
-  border-radius: 3px;
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    background-color: $light-gray;
+    border-radius: 3px;
+    font-family: $monospace-font-family;
 
-  code {
-    background: none;
-  }
+    code, code.highlight {
+        background: none;
+    }
 }
 
 code {
-  padding: 0;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  margin: 0;
-  background-color: #D9D9D9;
-  border-radius: 3px;
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    background-color: $medium-gray;
+    border-radius: 3px;
 
-  &::before, &::after {
-    letter-spacing: -0.2em;
-    content: "\00a0"
-  }
+    &::before,
+    &::after {
+        letter-spacing: -0.2em;
+        content: "\00a0"
+    }
 }

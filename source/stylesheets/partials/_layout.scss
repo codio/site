@@ -4,13 +4,14 @@ body {
 
 
 #content {
-    background: $lighter-gray;
     @include outer-container;
     max-width: none;
 
+    padding-top: 60px;
 
     @include media($large-screen) {
         margin-left: $header-width;
+        padding-top: 0;
     }
 
     .wrapper {
@@ -23,18 +24,20 @@ section {
 
     aside {
         @include span-columns(4);
-        padding: em(40);
+        padding: em(20);
 
         @include media($large-screen-up) {
-            @include span-columns(2 of 8);
+            @include span-columns(8);
+            padding: em(40);
         }
     }
     article {
         @include span-columns(4);
-        padding: em(40);
+        padding: em(20);
 
         @include media($large-screen-up) {
-            @include span-columns(6 of 8);
+            @include span-columns(12);
+            padding: em(40);
         }
     }
 
@@ -42,18 +45,21 @@ section {
 
 header.artwork {
     margin-bottom: em(30);
+    display: none;
+
+    @include media($large-screen-up) {
+        display: block;
+    }
 }
 
 .artwork {
-    background: $blue;
     height: em(120);
 
     @include span-columns(4);
 
-
     background-image: url($hero-image-small);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
 
     @include media($medium-screen-up) {

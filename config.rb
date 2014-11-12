@@ -117,13 +117,13 @@ helpers do
     # docs/quickstart/dashboard - /docs
 
     # Strip leading / from the url
-    url = url[1..-1]
+    testUrl = url[1..-1]
 
 
-    if url == path
+    if testUrl == path
       # Exact match
       current = true
-    elsif path.start_with? url
+    elsif path.start_with? testUrl
       # starts with match
       current = true
     end

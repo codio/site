@@ -2,7 +2,7 @@
 title: Our 20% Time
 author: Joel Moss
 date: 2013-03-21
-tags: Engineering
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

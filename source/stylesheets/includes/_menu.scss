@@ -4,11 +4,12 @@
     $slide-menu-background: #FFFFFF;
     $slide-menu-width: $header-width;
     $slide-menu-color: $base-font-color;
-    $slide-menu-highlight: $bondi-blue;
+    $slide-menu-font-size: $base-font-size;
+    $slide-menu-highlight: $base-accent-color;
     $slide-menu-hover: tint($slide-menu-highlight, 20%);
     $slide-menu-active: tint($slide-menu-highlight, 20%);
 
-    background: $slide-menu-background;
+    background: $darker-gray;
     position: fixed;
     display: inherit;
 
@@ -27,6 +28,7 @@
 
 
     @include media($large-screen) {
+        background: $slide-menu-background;
         left: 0px;
     }
 
@@ -34,38 +36,46 @@
 
     h3 {
      	color: $slide-menu-color;
-	font-size: 1.9em;
-	font-weight: 300;
         margin: 20px 0 70px;
-
         a {
             padding: 0;
             text-align: center;
+            font-size: $h3-font-size;
+            font-weight: $h3-font-weight;
+            line-height: $h3-line-height;
+
 
             &:hover,
             &:active {
                 color: inherit;
                 background: inherit;
+                text-decoration: none;
             }
         }
     }
 
     a {
     	display: block;
-	color: $slide-menu-color;
-	font-size: .9em;
-	font-weight: 500;
+        color: $main-background;
+	font-weight: 600;
+        font-size: $slide-menu-font-size;
 	padding: em(10) em(40);
         background: transparent;
+        text-align: left;
 
         @include transition(all 0.2s ease);
 
         &:hover {
 	    color: $slide-menu-hover;
+            text-decoration: none;
         }
 
         &:active, &.active {
 	    color: $slide-menu-active;
+        }
+
+        @include media($large-screen-up) {
+            color: $slide-menu-color;
         }
     }
 
@@ -74,12 +84,14 @@
 
     }
 
+
     .outline-button {
         @include action-button;
-        font-size: .9em;
-	margin: em(10) em(25);
-        @include size(90px 30px);
+        font-size: $slide-menu-font-size;
+        font-weight: 600;
+        margin: em(10) em(37);
+        @include size(70px 25px);
         line-height: 15px;
-        padding: 7px 13px;
+        padding: 5px 10px;
     }
 }

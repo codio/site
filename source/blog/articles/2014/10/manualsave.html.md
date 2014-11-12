@@ -2,7 +2,7 @@
 title: Manual Save now enabled in Project Settings.
 author: Phillip Snalune
 date: 2014-10-10
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: true

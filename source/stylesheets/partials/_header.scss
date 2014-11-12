@@ -10,6 +10,33 @@ header {
         @include clearfix;
 
         &.top {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            height: 60px;
+            z-index: 1000;
+
+            ul li {
+                padding: 1em;
+
+                &:last-child {
+                    float: right;
+                }
+            }
+            #menu-toggle {
+                color: $darker-gray;
+            }
+
+            .outline-button {
+                @include action-button;
+                font-size: $base-font-size;
+                font-weight: 600;
+                @include size(70px 25px);
+                line-height: 15px;
+                padding: 5px 10px;
+            }
+
             @include media($large-screen) {
                 display: none;
             }
@@ -24,6 +51,38 @@ header {
 
         .signed-in {
             display: none;
+
+            #userlink {
+                padding: em(10) 1em;
+
+                #gravatar {
+                    border-radius: 50%;
+                    width: 32px;
+                    vertical-align: middle;
+                    padding-right: 3px;
+                }
+            }
+
+            #intercom {
+                padding: em(10) 1em;
+                vertical-align: bottom;
+
+                .fa-stack {
+                    @include size(32px);
+                    padding-right: 3px;
+                    vertical-align: middle;
+                }
+                .fa-stack-2x {
+                    color: $base-accent-color;
+                    font-size: 32px;
+                    line-height: 37px;
+                }
+                .fa-stack-1x {
+                    color: white;
+                    font-size: 16px;
+                }
+            }
         }
     }
+
 }

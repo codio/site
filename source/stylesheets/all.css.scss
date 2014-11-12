@@ -4,16 +4,22 @@
 @import "base/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
 
+@import "includes/font-awesome/font-awesome";
 @import "includes/syntax";
 @import "includes/buttons";
 @import "includes/menu";
 @import "includes/tabs";
+@import "includes/video";
+@import "includes/share-links";
+@import "includes/parallax";
 
 @import "partials/layout";
 @import "partials/header";
 @import "partials/footer";
+@import "partials/animations";
 
 @import "partials/index";
 @import "partials/pricing";
 @import "partials/docs";
 @import "partials/blog";
+@import "partials/about";

@@ -1,31 +1,49 @@
 <% wrap_layout :layout do %>
+  <div class="title">
+    <%= link_to "Docs", "/docs", :class => "back-button" %>
+  </div>
   <aside>
     <nav>
-      <%= link_to "Docs", "/docs" %>
       <form id="search-input">
-        <input type="text" id="st-search-input" class="st-search-input" />
+        <input type="text" id="st-search-input" class="st-search-input" placeholder="Search"/>
       </form>
 
-      <ul>
+      <ul id="docs-menu">
         <% nav_pages(current_resource.url).each do |resource| %>
           <li>
-            <h4><%= link_to resource.data.title, resource.url %></h4>
+            <h2>
+              <%= link_to resource.data.title, resource.url %>
+              <a href="" id="docs-menu-button">
+                <i class="fa fa-plus closed"></i>
+                <i class="fa fa-remove open"></i>
+              </a>
+            </h2>
             <ul>
               <% resource.children.each do |child| %>
                 <li>
-                  <h5> <%=  link_to child.data.title, child.url %></h5>
-                  <% if current_section? child.url %>
-                    <ul class="active">
-                  <% else %>
-                    <ul>
-                  <% end %>
+                  <% active = current_section?(child.url) ? "active" : "" %>
+                  <h5 class="<%= active %>"><%=  link_to child.data.title, child.url %></h5>
+                    <ul class="<%= active %>">
                     <% child.children.each do |p| %>
-                      <% if current_page? p.url %>
+                      <% if current_section? p.url %>
                         <li class="active">
+                          <%=  link_to p.data.title, p.url %>
+                          <% if p.children.length > 0 %>
+                          <ul>
+                            <% p.children.each do |inner| %>
+                              <% if current_page? inner.url %>
+                                <li class="active">
+                              <% else %>
+                                  <li>
+                              <% end %>
+                              <%= link_to inner.data.title, inner.url %></li>
+                            <% end %>
+                          </ul>
+                          <% end %>
                       <% else %>
-                        <li>
+                          <li>
+                            <%=  link_to p.data.title, p.url %>
                       <% end %>
-                        <%=  link_to p.data.title, p.url %>
                       </li>
                     <% end %>
                   </ul>
@@ -43,4 +61,4 @@
   </article>
 <% end %>
 
-<%= javascript_include_tag "vendors/swiftype" %>
+<%= partial "vendors/swiftype" %>

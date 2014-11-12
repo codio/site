@@ -1,40 +1,44 @@
 .footer {
     @include outer-container;
 
-    $footer-background: #F6F6F6;
-    $footer-color: $base-font-color;
-    $footer-link-color: transparentize($footer-color, .2);
+    $footer-background: $darker-gray;
+    $footer-color: white;
     $footer-disclaimer-color: transparentize($footer-color, .2);
+
     max-width: none;
-
     padding-top: $base-spacing*2;
-
     background: $footer-background;
+
 
     @include media($large-screen) {
         margin-left: $header-width;
     }
 
     .footer-links,
-    .social-links,
+    .share-links,
     .copy {
+        @include outer-container;
         @include clearfix;
         @include span-columns(4 of 4);
         @include omega(4n);
+        color: $footer-color;
 
         @include media($large-screen-up) {
-            @include span-columns(8 of 8);
-            @include omega(8n);
+            @include span-columns(20);
+            @include omega(20n);
         }
     }
 
-    .social-links > ul {
+    .share-links > ul {
+        text-align: center;
 
-        @include media($large-screen-up) {
-            @include shift(3 of 8);
-            @include span-columns(2 of 8);
+        li {
+            display: inline;
         }
 
+        @include media($large-screen-up) {
+            @include span-columns(20);
+        }
     }
     .copy {
         text-align: center;
@@ -44,18 +48,10 @@
         ul {
             &:first-child {
                 @include media($large-screen-up) {
-                    @include shift(1 of 8);
+                    @include shift(2);
                 }
             }
-
-            &:last-child li {
-                font-weight: 300;
-            }
         }
-    }
-
-    .social-links {
-
     }
 
     ul {
@@ -65,39 +61,32 @@
         @include clearfix;
 
         @include media($large-screen-up) {
-            @include span-columns(2);
+            @include span-columns(5);
         }
 
     }
 
     li {
         text-align: center;
+        font-weight: 400;
 
         @include media($large-screen-up) {
             text-align: left;
         }
-    }
+        a {
+            color: $footer-color;
 
-    li a {
-        color: $footer-link-color;
-        font-weight: 400;
 
-        &:hover {
-            color: transparentize($footer-color, 0);
+
+            &:hover {
+                color: transparentize($footer-color, 0);
+            }
         }
     }
 
 
-    hr {
-        border: 1px solid transparentize($footer-disclaimer-color, .3);
-        margin: 0 auto $base-spacing;
-        width: 12em;
-    }
-
     p {
-        color: $footer-disclaimer-color;
-        font-size: .9em;
-        line-height: 1.5em;
+        color: $footer-color;
         margin: auto;
         max-width: 35em;
         text-align: center;

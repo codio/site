@@ -1,0 +1,118 @@
+.share-links {
+    margin: 1em 0;
+
+    a.facebook-share,
+    a.twitter-share,
+    a.plus-share {
+        @include outline-button;
+        display: inline-block;
+
+        padding: 7px 0;
+        margin-right: 1em;
+
+        @include transition(all .2s linear);
+        @include size(32px);
+
+        i {
+            font-size: 1.3em;
+            line-height: 1.2em;
+        }
+
+        span {
+            display: none;
+        }
+
+        &:hover {
+            background: $light-background;
+        }
+
+        @include media($large-screen-up) {
+            @include size(92px 30px);
+
+            i {
+                padding-right: 3px;
+                font-size: $base-font-size;
+                line-height: initial;
+            }
+
+            span {
+                display: inline;
+            }
+        }
+    }
+
+    a.facebook-share {
+        background: $facebook-blue;
+
+        &:hover {
+            color: $facebook-blue;
+        }
+
+        @include media($large-screen-up) {
+
+            &:hover {
+            }
+        }
+    }
+
+    a.twitter-share {
+        background: $twitter-blue;
+        &:hover {
+            color: $twitter-blue;
+        }
+
+        @include media($large-screen-up) {
+
+
+            &:hover {
+
+            }
+        }
+    }
+
+    a.plus-share {
+        background: $plus-red;
+
+        i {
+            vertical-align: bottom;
+        }
+
+        &:hover {
+            color: $plus-red;
+        }
+
+        @include media($large-screen-up) {
+
+
+            &:hover {
+            }
+        }
+    }
+
+    &.small {
+
+        a.facebook-share,
+        a.twitter-share,
+        a.plus-share {
+
+            background: $light-background;
+            color: $base-font-color;
+
+            &:hover {
+                background: $darker-gray;;
+                color: $light-background;
+            }
+
+            @include media($large-screen-up) {
+
+                @include size(32px);
+
+                i {
+                    font-size: 1.3em;
+                    line-height: 1.2em;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}

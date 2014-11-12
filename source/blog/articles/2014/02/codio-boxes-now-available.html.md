@@ -2,7 +2,7 @@
 title: Codio Boxes Now Available
 author: Joel Moss
 date: 2014-02-19
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 image: home/screens/home-parts.png

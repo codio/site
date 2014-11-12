@@ -2,7 +2,7 @@
 title: I Love Open Source
 author: Freddy May
 date: 2013-10-11
-tags: Watercooler
+tags: News
 class_name: blog
 full_width: true
 ---
@@ -58,7 +58,3 @@ A short but important word of thanks goes to [DigitalOcean](http://www.digitaloc
 The only support we ask for is that you Tweet about this project so the word spreads fast. We're @iloshq on Twitter.
 
 Even better, [create your own I Love Open Source Supporter page right now](http://iloveopensource.io) and link to it from your web site or README.md file.
-
-
-
-

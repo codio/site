@@ -2,7 +2,7 @@
 title: Moving from Mercurial to Git
 author: Joel Moss
 date: 2013-06-06
-tags: Engineering
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

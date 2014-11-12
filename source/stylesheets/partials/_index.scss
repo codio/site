@@ -15,49 +15,47 @@ body.index {
         background-position: top;
         background-size: cover;
 
-        height: 280px;
-        padding-top: 20px;
+        height: 90vh;
+        padding-top: 20vh;
 
         @include media($medium-screen-up) {
             background-image: url($hero-image-medium);
         }
         @include media($large-screen-up) {
             background-image: url($hero-image-large);
+
+            margin-left: $header-width;
         }
         @include media($extra-large-screen-up) {
             background-image: url($hero-image-extra-large);
         }
 
-        @include media(min-height $medium-screen-height min-width $medium-screen) {
-            height: 480px;
-            padding-top: 100px;
-        }
-
-        @include media(min-height $large-screen-height min-width $large-screen) {
-            height: 680px;
-            padding-top: 200px;
-        }
-
 
         .hero-inner {
+            $start-color: rgba(255, 255, 255, 0.95);
+            $end-color: rgba(255, 255, 255, 0.1);
+
             @include outer-container;
-            @include clearfix;
-            margin: auto;
+
+            margin: 0 auto;
             text-align: center;
             color: $hero-color;
-            background: rgba(255, 255, 255, 0.8);
             padding: 40px;
 
+            background-color: $start-color;
             @include size(100% 90%);
 
-            @include media(min-height $medium-screen-height min-width $medium-screen) {
+
+            @include media(min-width $medium-screen) {
+                background-color: transparent;
+                @include radial-gradient(circle at 50% 50%, $start-color 0%, $start-color 50%, $end-color 90%);
                 padding: em(20);
-                @include size(450px 280px);
+                @include size(450px 350px);
             }
 
             @include media(min-height $large-screen-height min-width $large-screen) {
                 padding: em(40);
-                @include size(600px 350px);
+                @include size(630px 380px);
             }
 
 
@@ -65,38 +63,21 @@ body.index {
                 @include action-button;
                 width: 200px;
                 height: 50px;
-                font-size: 1.3em;
-                font-weight: 300;
             }
 
             .hero-copy {
                 text-align: center;
 
                 h1 {
-                    font-size: 1.5em;
                     margin-bottom: em(10);
-                    font-weight: 200;
-
-                    @include media($large-screen) {
-                        line-height: 1.2em;
-                        font-size: 2.2em;
-                    }
                 }
 
                 p {
                     margin: auto;
-                    margin-bottom: em(20);
-                    font-weight: 400;
-                    line-height: 1em;
-                    font-size: 1em;
+                    margin-bottom: em(40);
 
-                    @include media($large-screen-height) {
-                        line-height: 1.2em;
-                        font-size: 1.5em;
-                    }
                     @include media($medium-screen-height) {
-                        line-height: 1.2em;
-                        font-size: 1.2em;
+                        width: 400px;
                     }
 
                 }
@@ -110,14 +91,13 @@ body.index {
         @include omega(4n);
 
         @include media($large-screen-up) {
-            @include span-columns(8 of 8);
-            @include omega(8n);
+            @include span-columns(20);
+            @include omega(20n);
         }
 
         margin-top: 0;
         margin-bottom: 0;
-        padding-top: em(50);
-        padding-bottom: em(50);
+        padding: em(100) 0;
 
         background: #F6F6F6;
 
@@ -126,12 +106,6 @@ body.index {
         }
 
         aside {
-            @include span-columns(4);
-
-            @include media($large-screen-up) {
-                @include span-columns(2);
-            }
-
             text-align: center;
             padding: 0 2em;
 
@@ -139,19 +113,17 @@ body.index {
                 display: none;
 
                 @include media($medium-screen-up) {
-                    display: inherit;
+                    display: initial;
+
                 }
             }
         }
 
         article {
-            @include span-columns(4);
             text-align: center;
-            font-size: 1.2em;
 
             @include media($large-screen-up) {
                 text-align: left;
-                @include span-columns(6);
             }
 
             padding: 0 2em;
@@ -164,13 +136,11 @@ body.index {
         text-align: left;
 
         h2 {
-            font-weight: 300;
             margin-bottom: .3em;
             color: $base-accent-color;
 
             @include media($large-screen) {
-                font-size: 2em;
-                margin-bottom: .4em;
+                margin-bottom: .8em;
             }
         }
 

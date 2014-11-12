@@ -2,7 +2,7 @@
 title: Global Search and Replace
 author: Freddy May
 date: 2013-11-11
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

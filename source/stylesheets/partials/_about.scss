@@ -1,0 +1,81 @@
+body.about #content {
+
+    background: $light-background;
+
+    .about-us,
+    .team,
+    .contact {
+        @include span-columns(4);
+        @include omega;
+
+        margin-bottom: em(100);
+        padding: 0 em(20);
+
+        @include media($large-screen-up) {
+            @include shift(2 of 20);
+            @include span-columns(16 of 20);
+        }
+
+        h1, h2 {
+            text-align: center;
+            @include omega;
+        }
+
+        h1 {
+            margin-bottom: em(20);
+        }
+    }
+
+    section.about-us {
+        text-align: center;
+
+        p {
+            font-size: $large-font-size;
+            margin-bottom: .5em;
+        }
+    }
+
+    section.team {
+        @include outer-container;
+
+        @include media($large-screen-up) {
+            @include span-columns(20 of 20);
+        }
+
+        .info-cards {
+            @include outer-container;
+            @include omega;
+
+            @include media($large-screen-up) {
+                @include span-columns(20 of 20);
+            }
+
+            .info-card {
+                @include span-columns(4);
+                @include omega;
+
+                background: $main-background;
+                margin-bottom: em(30);
+
+                @include media($large-screen-up) {
+                    @include span-columns(5 of 20);
+                    @include omega(4n);
+                    height: 480px;
+                }
+
+                h2 {
+                    margin-top: em(10);
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                .body {
+                    font-size: $large-font-size;
+                    padding: em(20) em(20) em(40);
+                }
+            }
+        }
+    }
+}

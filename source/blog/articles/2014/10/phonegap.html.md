@@ -2,7 +2,7 @@
 title: Codio's Phonegap Build integration exits beta.
 author: Phillip Snalune
 date: 2014-10-07
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: true

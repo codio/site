@@ -2,7 +2,7 @@
 title: Codio Guides
 author: Freddy May
 date: 2014-09-10
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: false
@@ -14,7 +14,11 @@ The first thing we have just brought out is Codio Guides. This is an excellent w
 
 Here's a quick video to show you how it works.
 
-<iframe src="//player.vimeo.com/video/105219223" width="700" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="video">
+  <div class="video-wrapper">
+    <iframe src="//player.vimeo.com/video/105219223" width="700" height="430" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div>
 
 And here's a quick summary of the Guides features
 
@@ -34,9 +38,8 @@ Revised version:
 title: Codio strives to unlock teacher and student potential with Codio Guides as computer science takes centre stage in the school curriculum
 author: Freddy May
 date: 2014-09-10
-tages: Changelog
+tages: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: false
 ___
-

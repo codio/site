@@ -2,7 +2,7 @@
 title: PhoneGap Integration inside Codio
 author: Joel Moss
 date: 2014-06-10
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: true

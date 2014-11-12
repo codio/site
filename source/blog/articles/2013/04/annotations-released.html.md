@@ -2,7 +2,7 @@
 title: Codio:Annotations Released
 author: Freddy May
 date: 2013-04-30
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---
@@ -21,7 +21,11 @@ Three things you should play around with:
 - Press the 'Tour' button at the top and you will be given a guided tour.
 - Press 'Preview' and the App will run.
 
-<iframe src="https://codio.com/codio/Oscillating-Spring" width="940px" height="600" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+<div class="video">
+  <div class="video-wrapper">
+    <iframe src="https://codio.com/codio/Oscillating-Spring" width="940px" height="600" frameborder="0" marginheight="20" marginwidth="35" scrolling="auto"></iframe>
+  </div>
+</div>
 
 ##Learn more
 You can find out more about Codio:Annotations:
@@ -35,4 +39,3 @@ This is the very first version and we have a lot more features planned. We are e
 
 ##Support our campaign
 Codio:Annotations is completely free and we are trying to raise awareness of a campaign we are running to get coding taught in schools. Evil flourishes where good men do nothing (ok, a little melodramatic), so if you think that the state of teaching coding in schools is as terrible as we do, then simply [add your name](/education) to the campaign.
-

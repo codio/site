@@ -2,7 +2,7 @@
 title: External SSH Box Access
 author: Joel Moss
 date: 2014-05-08
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

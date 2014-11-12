@@ -1,22 +1,34 @@
 body.blog #content {
 
     .title {
-        padding: em(40) em(40) 0;
+        padding: em(10) em(40) 0;
 
         h1 {
             font-weight: 300;
+            margin-top: em(10);
+            line-height: 1.1em;
         }
 
         @include span-columns(4);
 
         @include media($large-screen-up) {
-            @include span-columns(6 of 8);
+            @include span-columns(20);
+
+            h1 {
+                @include span-columns(14);
+            }
         }
     }
 
     aside {
+        display: none;
+
+        @include media($large-screen-up) {
+            @include span-columns(6);
+            display: initial;
+        }
+
         h2 {
-            font-size: 1.2em;
             margin-bottom: em(20);
         }
 
@@ -25,9 +37,23 @@ body.blog #content {
 
             li {
                 margin: em(10) 0;
+
                 a {
                     color: $base-font-color;
-                    font-weight: 300;
+
+                    @include transition(color .1s linear);
+
+                    &::before {
+                        @include fa-icon;
+                        content: $fa-var-angle-right;
+                        padding-right: .5em;
+                    }
+
+                    &:hover {
+                        text-decoration: none;
+                        color: $base-accent-color;
+                    }
+
                 }
             }
         }
@@ -35,6 +61,10 @@ body.blog #content {
 
     article {
         @include outer-container;
+
+        @include media($large-screen-up) {
+            @include span-columns(14);
+        }
 
         header {
             img {
@@ -53,10 +83,36 @@ body.blog #content {
                 font-size: .9em;
             }
 
-            & > .content {
+            #disqus_thread {
+                width: 100%;
+                margin-top: em(50);
 
+                iframe {
+                    position: relative;
+                }
             }
+
         }
     }
 
+    .overview {
+        h2 {
+            font-family: $sans-serif;
+            margin: em(20) 0 em(10);
+
+            a {
+                color: $base-font-color;
+            }
+
+            span {
+                font-size: .8em;
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+
+        p, a {
+            margin-bottom: 0;
+        }
+    }
 }

@@ -1,6 +1,6 @@
 <% wrap_layout :layout do %>
+  <%= link_to "Blog", "/blog", :class => "back-button" %>
   <div class="title">
-    <%= link_to "Blog", "/blog" %>
     <h1><%= current_article.title %></h1>
   </div>
 
@@ -13,10 +13,12 @@
       <div class="date">
         <%= current_article.date.strftime('%B %e, %Y')%> by <b><%= current_article.data.author %></b>
       </div>
-      <%= partial(:"share-links", :locals => { :article => current_article }) %>
+      <%= partial "share-links" %>
       <div class="content">
         <%= yield %>
       </div>
+      <%= partial "share-links" %>
+      <%= partial "vendors/disqus" %>
     </div>
   </article>
 

@@ -215,6 +215,11 @@ body.docs #content {
                 padding: em(20);
             }
         }
+
+        ul {
+            list-style: initial;
+            padding-left: em(20);
+        }
     }
 
     .docs-landing {

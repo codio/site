@@ -65,24 +65,18 @@ module MyHelpers
     dir = dir[1..-1] if dir[0] == "/"
     dir = dir[0..-2] if dir[-1] == "/"
 
-    puts "hello #{dir}"
-
     if File.exists?(order_file = "source/#{dir}/dir.ordered")
       file = File.read(order_file)
-      puts "using order file #{order_file}"
+
       file.split("\n").map do |item|
-        puts item
         children.find do |child|
-          puts child.url
           child.url == "/#{dir}/#{item}/"
         end
       end
 
     else
       # If it doesn't exists sort by the title
-      children.sort_by do |c|
-        c.data.title.downcase
-      end
+      children.sort_by do { |c| c.data.title.downcase }
     end
 
   end

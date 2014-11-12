@@ -4,12 +4,11 @@ body.index {
         display: none;
     }
 
-    .hero {
+    $hero-background-top: darken($base-accent-color, 25);
+    $hero-background-bottom: adjust-hue($hero-background-top, -70);
+    $hero-color: $base-font-color;
 
-        $hero-background-top: darken($base-accent-color, 25);
-        $hero-background-bottom: adjust-hue($hero-background-top, -70);
-        $hero-color: $base-font-color;
-
+    .hero-image {
         background-image: url($hero-image-small);
         background-repeat: no-repeat;
         background-position: top;
@@ -30,6 +29,11 @@ body.index {
             background-image: url($hero-image-extra-large);
         }
 
+    }
+
+    .hero {
+        background: transparent;
+        padding-bottom: 20vh;
 
         .hero-inner {
             $start-color: rgba(255, 255, 255, 0.95);

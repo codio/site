@@ -76,7 +76,7 @@ module MyHelpers
 
     else
       # If it doesn't exists sort by the title
-      children.sort_by do { |c| c.data.title.downcase }
+      children.sort_by { |c| c.data.title.downcase }
     end
 
   end

@@ -25,6 +25,18 @@ svg {
 
     // Animation
 
+    // Hide by default
+    &.stacks,
+    &.ide,
+    &.book {
+        opacity: 0;
+
+        &.animate {
+            opacity: 1;
+        }
+    }
+
+
     &.stacks.animate {
         .g_st,  .g_line{
             stroke-dasharray: 190;

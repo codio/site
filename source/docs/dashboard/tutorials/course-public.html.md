@@ -1,25 +1,26 @@
 ---
-title: Public courses
+title: Public Tutorials
 class_name: docs
 full_width: true
 ---
 
-Codio is proud to have a major Education initiative underway that promotes the teaching of coding globally with open source content at its heart.
+Codiowants to promote an Open Source approach to Tutorial teaching content.
 
-When you create a course in Codio, it can be kept private to yourself or to your organization, if you have a paid subscription. However, if you are happy to have your course public then it becomes available for anyone else in the world to use. Public courses can be freely used, copied and modified.
+When you create a course in Codio, it can be kept private to yourself or to your organization, if you have a paid subscription. 
 
-To enable your course to be publicly available, you should press the 'Edit' button at the top of the course screen. Then, select the **Public** radio button in the Visibility section.
+However, if you are happy to have your course public then it becomes available for any other Codio user to find and use, copy or modify.
 
-![](docs/education/create-course-public.png)
+You can make a Tutorial public at Tutorial creation or by pressing the `Edit` button having selected the Tutorial from the listing.
 
-##How to Use and Modify a public course
-If you do not have a paid organization account, you will not be using the classes features. To both use and modify a public course you should do the following
+IMAGE]
 
-- Locate and select the Course you are interested in
-- Click on the project name in the **source** column to open the project in the IDE
-- You should now **fork** this project from the 'Project->Fork' menu item
-- You will now have a copy of the project/module in your own account listing
-- You can now use the project as a *student* or you can use/modify it for your own courses if you're a *teacher*
+##How to Use and Modify a public Tutorial
+
+- Locate and select the Tutorial you are interested in
+- From the Modules list click on the fork icon for the module
+- This will now fork that module into a new Project in your Codio account. From this point, you are free to make whatever changes you require to the code or to the [Codio Guide]().
+
+If there is an author attribution in the Guide or the readme.md file, please be respectful and leave the attribution in place.
 
 ##Important
 When you assign a Codio course to the public domain, you should be prepared for this course to be used and modified freely and without restriction.

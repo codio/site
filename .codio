@@ -17,9 +17,5 @@
          "Blog": "http://{{domain}}:3000/blog",
          "Visit Ungit": "https://{{domain}}:9501/#/repository?path=/home/codio/workspace"
   }
-}
-000/",
-         "Blog": "http://{{domain}}:3000/blog",
-         "Visit Ungit": "https://{{domain}}:9501/#/repository?path=/home/codio/workspace"
-  }
+
 }

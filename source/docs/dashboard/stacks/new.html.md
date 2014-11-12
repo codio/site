@@ -11,12 +11,14 @@ To do this you will first need to
 - Either create a new project and [install the software components](/docs/boxes/installsw) into it.
 - Or use an existing project. Once you have the [software components correctly configured](/docs/boxes/installsw), you are ready to add that project's Stack to the Stack library.
 
-To create your new Stack, click the 'Create Stack' button at the top right of the Stack listing screen.
+To create your new Stack, click the `Create Stack` button at the top right of the Stack listing screen.
 
 TODO: Image with button circled
 
+When you have completed the required fields and pressed the `Create` button, we will generate a Stack image for you. This can take a minute or longer, depending on the size of the Stack image. You  do not need to wait on this screen while the Stack is created, so feel free to continue to other parts of Codio.
+
 ##Stack Blueprint
-The first thing you will need to specify is the Codio project that you want to use for your Stack blueprint. Click the elipsis to locate your project that you want to take the Stack from.
+The first thing you will need to specify is the Codio project that you want to use for your Stack blueprint. Enter any part of your Project name and you will see them listed in a dropdown.
 
 ##Details, Image and Tags
 Next, add a short name for your Stack and a longer description. You can also add a more detailed overview of your Stack by selecting the "add a long description" link. You can write this long description in Markdown and it can contain as much information about your Stack as you like.
@@ -26,6 +28,8 @@ You can also add an image to make your Stacks listing more instantly recognizabl
 TODO:Image
 
 You can also add tags to your Stack. The tags should be component names ideally. There is an autocomplete function that will help you to use already defined tags to avoid tag duplication and ensure maximum efficiency when searching.
+
+TODO : NEW PUBLISH STEPS
 
 ##Visibility
 By default, Stacks that you create can be seen by other people in the **Popular** and **All** Stacks listings. If you want to keep your Stack private to you or your Organization, you can select the Private option. Private Stacks require a paid subscription.

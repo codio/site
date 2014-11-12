@@ -1,15 +1,23 @@
 ---
-title: Create a new course
+title: Create a new Tutorial
 class_name: docs
 full_width: true
 ---
 
-To create a new Codio course, press the 'Create' button in the top right of then screen on the main courses screen.
+Before you create a Tutorial, you should have prepared at least one Codio Project that is ready to add as a module. Please make sure you have read the [Guides]() documentation as a module requires a Guide.
 
-![](docs/education/create-course.png)
+To create a new Tutorial, press the 'Create' button in the top right of then screen on the main courses screen.
 
-- You are required to enter a **Name** for your course. The **Description** is optional.
-- The **Owner** field is important to understand. If you are a member of an organization then you may want to select the organization from the dropdown that this course belongs to. This ensures that it will appear in the Course list as belonging to that organization.
-- **Visibility** determines whether your project is publicly available or should remain private to your organization. Private courses require a paid subscription. The next section explains public courses in more detail.
-- **Permissions** allows you to assign course management rights to other Codio users for this course. Start typing the user's full name or Codio user name and matches will appear automatically below. You can also assign permissions after the course has been created. 
+[IMAGE]
 
+##Name and Description
+You are required to enter a name for your course. The Description is optional but please add something so others can easily identify it.
+
+##Visibility
+This determines whether your Tutorial is publicly available to all Codio users or should remain private to your [organization]() (if you have are a member of an Organization). Private Tutorials require a paid subscription.
+
+##Owner
+By default, you are the owner of the Tutorial you create. If you select an Organization from the dropdown, then any Teachers within that Organization are able to adminster the Tutorial.
+
+##Collaborators
+If you want to assign administration rights to an individual users, then add them to this section.

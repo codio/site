@@ -16,4 +16,3 @@ If a project has been [shared](/docs/ide/customization/permissions) to you, you 
 
 ![Shared Project](/img/docs/console-shared.png)
 
-*Please note that the Box Clonable icon is not clickable, it will just show you if the user has allowed [cloning](/docs/boxes/overview/clone) on the project*

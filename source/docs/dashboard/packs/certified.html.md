@@ -10,5 +10,3 @@ To access these, click on the 'Certified Packs' header. You can then use the sea
 
 [IMAGE]
 
-##Asking for Certified Packs
-We are really keen to add more Starter Packs to help the community, so please feel free to email us at support@codio.com with your Starter Pack requests.

@@ -1,19 +1,25 @@
 ---
-title: "Accessing your projects"
+title: "Accessing your Projects"
 class_name: docs
 full_width: true
 ---
 
+The Projects listing shows all your coding Projects. 
 
+[IMAGE]
+
+##Opening a Project
 To view a project in the IDE, simply click on one of your projects.
 
-You can order your project list by Name/Visibility/Owner/Last Opened and whether the project is [clonable](/docs/boxes/overview/clone)
+##Sorting
+Your Projects can be sorted by name or by date last accessed. 
 
-You can also search for a project by typing into the Search field and the file list will dynamically filter for you as you type.
+##Filtering
+You can search for a specific project by typing into the Search field. The file list will dynamically filter for you as you type.
 
-![Search](/img/docs/console-find.png)
+##Project Settings
+You can access your project settings by clicking the gear icon in the right side of the listing.
 
-You can search for multiple criteria as well.  See [Searching Projects](/docs/dashboard/projects/prj-search) for more information.
 
 
 

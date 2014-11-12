@@ -4,36 +4,29 @@ class_name: docs
 full_width: true
 ---
 
-Creating a new project or importing one is really easy. All you do is click on the Create Project button on the Dashboard as shown below.
+Create a new project, or import one by, clicking on the Create Project button on the Dashboard as shown below.
 
-![Create Project](/img/docs/console-createbutton.png)
+[IMAGE]
 
-You will then be shown a dialog that lets you choose the various ways to create or import a project.
+You can then choose which of the following Project creation methods you want to use
 
-![Create Projects](/img/docs/console-create.png)
+- **Empty Project** with no code workspace
+- **Starter Pack** allows you to choose a Starter Pack to base your project on
+- **Import** from Git, Mercurial, FTP or SFTP
 
-##Back-End Development
-If you're doing any back-end coding, please refer to the [Boxes section](/docs/boxes) for details on installing and running server side components.
+##Selecting a Stack
+If you have chosen either the Empty Project or Import options, you can specify a default Stack for your new Project. If you don't select one, you''ll get an empty Ubuntu Box.
 
-##Template Option
-We offer a few basic starting points with this option. Select from the Create Project dropdown list, which offers the following options
+##Details
+You need to give your project a name and a description.
 
-- creating a blank HTML5 Boilerplate project
-- creating an empty project
-- creating a PHP project
-- creating a Mobile project
-- creating a project from a template
+##Manual Save
+By default, Codio auto saves your files as you type. However, there are two reasons why you would want to use manual save
 
+1. You simply prefer manual save
+2. If your project uses any watch process or compiles when a file is changes, then it is very important to enable manual save to prevent compilations occurring on each keystroke.
 
-##Git, Mercurial or ZIP
-Additionally, you can import an existing project from a [Git repo](/docs/ide/editing/git/git-viewing), Mercurial or a ZIP file.
+You can change to manual save with the IDE from the `Project->Settings` menu or from the Dashboard Projects listing by clicking the gear icon of the Project on the right hand side of the listing.
 
-##FTP/SFTP
-If you've got some code on a remote server and you want to import it into Codio, then you specify the server details and the project will be imported. Codio will also automatically create a [deployment profile](/docs/ide/tools/deployment) for you so you can deploy back to it once you start editing.
-
-##Templates
-Until we have completed the integration of Yo into Codio, we offer a template system. You will find the Template option in the dropdown list next to the Create Project radio button.
-
-As soon as you select it, it will take you to a new page where all the templates are listed. You can click on a template project to view it in the IDE. If you want to use it, you select `Project > Fork` and it will create a fork in your account.
-
-Most of the template projects have been generated using Yo.
+##Visibility
+By default, your Project will be Public, meaning it is findable by any Codio user. If you have a subscription, you can mark the Project as private. You can assign access read, write and full admin rights to other users for the Project from within the IDE from the `Project->Permissions` menu.

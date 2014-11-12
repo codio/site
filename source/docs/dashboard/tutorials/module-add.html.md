@@ -1,33 +1,31 @@
 ---
-title: Adding a course module
+title: Adding a module
 class_name: docs
 full_width: true
 ---
 
-Only course owners or those with administration permissions for the course can add modules.
+Only Tutorial owners or those with administration permissions for the course can add modules. Please refer to the [Create a new Tutorial]() section for information on permissions and collaborators.
 
-A course is a collection of modules. A module should cover a reasonably small amount of subject matter. It is better to have several smaller modules than a couple of huge ones that cover too much material.
+A Tutorial module is simply a Codio project that contains
 
-A module is simply a Codio project. That project will likely contain 
+- a code workspace and files
+- a [Codio Guide](/docs/dashboard/tutorials/guides) 
 
-- code workspace and files
-- a [Codio Guide](/docs/dashboard/tutorials/guides) (an inbuilt authoring tool for writing multi-step content)
+Press the `Add Module` button to add a new module.
 
-Press the 'Add' button to add a new module to your course.
+[IMAGE]
 
-![](docs/education/module-add.png)
+##Add Details
+Add a description and, importantly, a decent description of the project that is hekpful to others browsing Tutorial content.
 
-You can then choose the source of your new module. The source can be any of the following options
+##Select the Source
+You should select the Codio Project that the module is taken from. 
 
-- **Codio** : your project source is a Codio project. You should specify the project in the following format `Codio-Username/projectname` as appears in the url your project when opened in the Codio IDE. The simplest way to get this right is to open the Codio project that will be your module and copy and paste the URL from your browser address bar.
-- **Git** : a Git repo URL. If using GitHub or BitBucket, this will be the HTTPS url.
-- **Mercurial** : it is recommended you do not use this option.
-- **ZIP** : a zip file that you will be prompted to upload.
+Once you have chosen a source for your module, a snapshot is made and is stored in a separate storage location. Any modifications you make to your source Project will not be reflected in the module unless you refresh it. 
 
-##What happens next?
-Once you have chosen a source for your module, a snapshot is made and is stored in a separate storage location. You do not need to worry about this as it is managed internally by Codio. 
+##Refreshing the module from the source Project
+If you do make changes to your source Project and you want these to be reflected in the Tutorial module, you will need to select the module and then press the `Refresh Source` button. 
 
-You do need to be aware, though, that once you create a module, it is a **copy** of your source project and not a reference/link to it.
 
 
 

@@ -1,11 +1,11 @@
 ---
-title: Deleting courses and modules
+title: Deleting Tutorial and modules
 class_name: docs
 full_width: true
 ---
 
-You can delete a course or module by pressing the 'X' on the right side of the course or module item. 
+You can delete a Tutorial by selecting the Tutorial from the listing and then pressing the `Delete` button. 
 
-Only organization owners and course adminstrators are allowed to delete or modify courses and modules.
+You can delete a module by selecting the module then pressing the `Delete` button. 
 
 If you delete a course or a module, any courses that have been assigned to classes will remain intact for the lifetime of that class.

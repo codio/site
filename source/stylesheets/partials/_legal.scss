@@ -1,0 +1,29 @@
+body.legal #content {
+
+    margin-top: em(20);
+
+    @include media($large-screen-up) {
+        margin-top: 0;
+    }
+
+
+    section {
+        @include span-columns(4);
+        @include omega;
+
+        margin-bottom: em(100);
+        padding: 0 em(20);
+
+        @include media($large-screen-up) {
+            @include shift(2 of 20);
+            @include span-columns(16 of 20);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: em(20);
+            @include omega;
+        }
+
+    }
+}

@@ -220,6 +220,11 @@ body.docs #content {
             list-style: initial;
             padding-left: em(20);
         }
+
+        ol {
+            list-style: decimal;
+            padding: em(10) em(30);
+        }
     }
 
     .docs-landing {

@@ -195,37 +195,36 @@ body.docs #content {
         }
 
         h1 {
-            margin-bottom: em(15);
+            margin-bottom: $base-line-height;
         }
 
         h2 {
-            margin: em(20) 0;
+            margin: $base-line-height 0;
         }
 
         p {
-            margin-bottom: em(30);
+            margin-bottom: $base-line-height;
 
             quote {
                 display: block;
                 border-left: 2px solid $border-color;
-                padding-left: em(20);
+                padding-left: 30px;
                 font-weight: normal;
             }
 
             img {
-                padding: em(20);
+                padding: $base-line-height/2;
             }
         }
 
         ul {
             list-style: initial;
-            padding-left: em(20);
-            padding-bottom: em(20);
+            padding: $base-line-height/2 $base-line-height $base-line-height;
         }
 
         ol {
             list-style: decimal;
-            padding: em(10) em(30);
+            padding: $base-line-height;
         }
     }
 
@@ -249,10 +248,6 @@ body.docs #content {
 
             @include media($large-screen-up) {
                 @include span-columns(20);
-            }
-
-            h1 {
-                margin: 0;
             }
 
             &.subtitle {

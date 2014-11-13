@@ -1,15 +1,17 @@
 <%= Rouge::Themes::Github.render(:scope => '.highlight') %>
 
 pre {
-    padding: 16px;
+    padding: 1.5em;
     overflow: auto;
-    line-height: 1.45;
     background-color: $light-gray;
     border-radius: 3px;
-    font-family: $monospace-font-family;
 
     code, code.highlight {
+        font-family: $monospace-font-family;
+        font-size: 12px;
+        line-height: 20px;
         background: none;
+        display: block;
 
         &::before,
         &::after {

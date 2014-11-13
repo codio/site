@@ -28,13 +28,15 @@ When you create your account, you will be assigned the default settings. You can
 
 Default settings look something like this
 
-	;Brace style.
-	; Type: list.
-	; Values:
-	;  collapse : collapse
-	;  expand : expand
-	;  end-expand : end-expand
-	brace_style = collapse
+```ini
+;Brace style.
+; Type: list.
+; Values:
+;  collapse : collapse
+;  expand : expand
+;  end-expand : end-expand
+brace_style = collapse
+```
 
 You can see the setting name ('brace_style' with a default value of 'collapse') as well as the data type (list) and the available values (in the case of a list).
 
@@ -43,13 +45,15 @@ User preferences can be made from both the Dashboard and from the main menu `Cod
 
 User preference overrides are made in left hand pane. When your account is created, this will be empty. Here is an example of user settings that override the Codio defaults ...
 
-	[editor]
-	theme=eclipse
-	font_size=13
+```ini
+[editor]
+theme=eclipse
+font_size=13
 
-	[code-beautifier]
-	indent_level=4
-	indent_with_tabs=true
+[code-beautifier]
+indent_level=4
+indent_with_tabs=true
+```
 
 ##Keyboard shortcuts & Hotkeys
 Within the default settings (right hand pane) you can see how you can map your own keyboard shortcuts.
@@ -68,4 +72,3 @@ Having selected a preference, press '=' and then ctrl+space to bring up the auto
 
 ##Searching for preference settings
 If you want to find a preference setting in the default pane, the best thing is to search. This will highlight any matching text.
-

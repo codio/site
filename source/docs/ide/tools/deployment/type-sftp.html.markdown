@@ -17,7 +17,9 @@ Codio auto-generates a public key that is uniquely associated with your user acc
 ##Specifying a Port
 If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below
 
-	mydomain.com:1234 
+```bash
+mydomain.com:1234
+```
 
 ##User Name
 You will need to supply a valid user name for your remote server regardless of the authentication method.
@@ -29,4 +31,3 @@ If you do not want to use a public key, then you will need to use a password for
 
 ##Empty Destination Path
 Be very careful when checking this box. It will brutally remove all content from specified location on the remote server before the deploy starts.
-

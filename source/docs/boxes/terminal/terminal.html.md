@@ -17,37 +17,38 @@ You can modify various Terminal settings from the Codio->Preferences menu.
 
 The available settings (and their defaults) are listed below. Preferences can be modified at the User level as [described here](/docs/ide/customization/codio-prefs). You can also force settings at the Project level but these will then override for all users looking at this project, so should be used sparingly.
 
-	[terminal]
+```ini
+[terminal]
 
-	;Font size.
-	; Type: int 
-	font_size = 12
+;Font size.
+; Type: int
+font_size = 12
 
-	;Font color.
-	; Type: string 
-	font_color = white
+;Font color.
+; Type: string
+font_color = white
 
-	;Background color.
-	; Type: string 
-	background_color = black
+;Background color.
+; Type: string
+background_color = black
 
-	;Cursor color.
-	; Type: string 
-	cursor_color = white
+;Cursor color.
+; Type: string
+cursor_color = white
 
-	;Number of lines available in the scroll history.
-	; Type: int 
-	scrollback = 3000
+;Number of lines available in the scroll history.
+; Type: int
+scrollback = 3000
 
-	;Quick Connect
-	; Type: hotkey 
-	show-connect-dialog = 
+;Quick Connect
+; Type: hotkey
+show-connect-dialog =
 
-	;Connections Manager
-	; Type: hotkey 
-	show-connections-manager = 
+;Connections Manager
+; Type: hotkey
+show-connections-manager =
 
-	;Terminal. SSH connection to the box
-	; Type: hotkey 
-	backend-connection = Shift+Alt+T
-
+;Terminal. SSH connection to the box
+; Type: hotkey
+backend-connection = Shift+Alt+T
+```

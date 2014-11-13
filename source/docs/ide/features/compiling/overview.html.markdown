@@ -14,10 +14,12 @@ You can see we have an index.html that is using 'Less' for styling and calls the
 Codio makes it really easy to get things working as long as you reference the files in the correct way.
 
 
-In our example, we have a .less file and a .coffee file. These must be referenced like this 
+In our example, we have a .less file and a .coffee file. These must be referenced like this
 
-	<link rel="stylesheet" href="style.less.css">
-	<script src="example.coffee.js"></script>
+```html
+<link rel="stylesheet" href="style.less.css">
+<script src="example.coffee.js"></script>
+```
 
 ... in other words, we have to append the appropriate extension
 

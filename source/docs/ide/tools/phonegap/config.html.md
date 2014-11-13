@@ -12,18 +12,21 @@ This will create a default file for you and associated image resources for Splas
 
 Your config.xml needs to contain specific lines for each platform you want to target. For example, to build for iOS, Android and Windows Phone you need to include
 
-    <gap:platforms>
-      <gap:platform name="ios" />
-      <gap:platform name="android" /> 
-      <gap:platform name="winphone" />
-     </gap:platforms>
+```xml
+<gap:platforms>
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+</gap:platforms>
+```
 
 If you only want to build for one platform (for example Android) you would only need to include
 
-    <gap:platforms>
-        <gap:platform name="android" />
-     </gap:platforms>
-
+```xml
+<gap:platforms>
+    <gap:platform name="android" />
+</gap:platforms>
+```
 
 Useful resources and references for the config.xml file can be found on the Phonegap site:
 
@@ -31,4 +34,3 @@ Useful resources and references for the config.xml file can be found on the Phon
 - [Custom preferences](http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences)
 - [Icons and Splash Screens](http://docs.build.phonegap.com/en_US/configuring_icons_and_splash.md.html#Icons%20and%20Splash%20Screens)
 - [Phonegap:Build plugins](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins)
-

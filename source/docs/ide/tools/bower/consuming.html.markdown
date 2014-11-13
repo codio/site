@@ -10,7 +10,9 @@ Once you have installed a Bower component, your project will include whatever ex
 
 Bower is unopinionated, so it does not help you actually load the modules. This is completely up to you. You could use require.js (and yes, there is a Bower component for this) or you could simply do
 
-	<script src="bower_components/jquery/jquery.js"></script>
+```html
+<script src="bower_components/jquery/jquery.js"></script>
+```
 
 ##Finding the component file I need
 If you have not yet installed a component then read the earlier section [Finding a component](/docs/ide/tools/bower/finding) first.
@@ -30,24 +32,25 @@ There are two ways to find the files you need to reference within your project
 
 Below is the `bower.json` file for handlebars.js. the `main` key contains the name of the main file(s) that your project will need to reference. In this example You can see that there is a source and runtime version you can load.
 
-	{
-	  "name": "handlebars",
-	  "version": "1.0.0",
-	  "main": [
-	    "handlebars.js",
-	    "handlebars.runtime.js"
-	  ],
-	  "dependencies": {},
-	  "gitHead": "872051b449e3f052dc763753a56752559df3bcf0",
-	  "_id": "handlebars@1.0.0",
-	  "readme": "ERROR: No README.md file found!",
-	  "description": "ERROR: No README.md file found!",
-	  "repository": {
-	    "type": "git",
-	    "url": "git://github.com/components/handlebars.js"
-	  }
-	}
+```json
+{
+  "name": "handlebars",
+  "version": "1.0.0",
+  "main": [
+    "handlebars.js",
+    "handlebars.runtime.js"
+  ],
+  "dependencies": {},
+  "gitHead": "872051b449e3f052dc763753a56752559df3bcf0",
+  "_id": "handlebars@1.0.0",
+  "readme": "ERROR: No README.md file found!",
+  "description": "ERROR: No README.md file found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/components/handlebars.js"
+  }
+}
+```
 
 ###Ask the Component owner to add Bower support
 If you come across a component that installs a lot of stuff you don't want, then raise a GitHub issue with that project and ask them to add a Shim Component as described in the [Finding a Component](/docs/ide/tools/bower/finding)  section.
-

@@ -15,11 +15,13 @@ A set of powerful [productivity shortcuts](/docs/ide/editing/emmet/emmet-actions
 ##Abbreviations
 Thanks to our Emmet support, you get a large number of [HTML and CSS abbreviations](/docs/ide/editing/emmet/emmet-abbreviations/) that expand to code, a bit like this
 
-  `div>ul>li*3`
+```css
+div>ul>li*3
+```
 
 which expands to
 
-```
+```html
   <div>
       <ul>
           <li></li>
@@ -30,4 +32,3 @@ which expands to
 ```
 
 Be sure to check out the [complete reference](/docs/ide/editing/emmet/emmet-ref/) as there are an awful lot of abbreviations for you to take advantage of.
-

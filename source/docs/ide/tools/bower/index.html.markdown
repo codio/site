@@ -14,7 +14,7 @@ To quote the [bower.io](http://bower.io) site itself
 ##Or for the uninitiated
 Have you ever noticed that you repeat yourself horribly by updating JavaScript libraries, CSS and images laboriously, one-by-one whenever there is an update available?
 
-And how many times did you forget to update a JavaScript plugin or some CSS resulting in some sort of crash. Wouldn't you prefer to just automatically update everything with the press of a button? 
+And how many times did you forget to update a JavaScript plugin or some CSS resulting in some sort of crash. Wouldn't you prefer to just automatically update everything with the press of a button?
 
 Bower does the following for you
 
@@ -26,15 +26,18 @@ Bower does the following for you
 ##Usage in practice
 You would normally do the following to link to a library
 
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+```html
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+```
 
-With Bower, it becomes 
+With Bower, it becomes
 
-	<script src="/bower_components/jquery.js"></script>
+```html
+<script src="/bower_components/jquery.js"></script>
+```
 
 
 ##How does Codio implement Bower?
 Codio has incorporated Bower directly into the platform itself and made the whole thing accessible through the Codio UI.
 
 You can browse the entire registry of Bower components and then manage installation and uninstallation.
-

@@ -54,17 +54,19 @@ Tracking means that Git knows about them. If you add a new file, Git will not kn
 1. Open any other existing file (I chose humans.txt) and make a small, harmless change to it.
 1. Run `git status` again and you should see
 
-		# On branch master `
-		# Changes not staged for commit:`
-		# (use "git add ..." to update what will be committed)
-		# (use "git checkout -- ..." to discard changes in working directory)
-		#
-		#	modified: humans.txt
-		#
-		# Untracked files:
-		# (use "git add ..." to include in what will be committed)
-		#
-		#	test.txt no changes added to commit (use "git add" and/or "git commit -a")
+```bash
+# On branch master `
+# Changes not staged for commit:`
+# (use "git add ..." to update what will be committed)
+# (use "git checkout -- ..." to discard changes in working directory)
+#
+#	modified: humans.txt
+#
+# Untracked files:
+# (use "git add ..." to include in what will be committed)
+#
+#	test.txt no changes added to commit (use "git add" and/or "git commit -a")
+```
 
 This shows you the modified and the new (untracked) files.
 
@@ -86,13 +88,17 @@ The commit message is important as it allows you to see what general changes wer
 
 So I entered `git commit -a -m "added test.txt and modified some stuff"` and get
 
-	[master d3e6bb1] added test.txt and modified some stuff
-	2 files changed, 2 insertions(+)
-	create mode 100644 test.txt`
+```bash
+[master d3e6bb1] added test.txt and modified some stuff
+2 files changed, 2 insertions(+)
+create mode 100644 test.txt`
+```
 
 and if I run a `git status` afterwards, I will see that everything is clean and up-to-date.
 
-	# On branch master nothing to commit, working directory clean
+```bash
+# On branch master nothing to commit, working directory clean
+```
 
 
 ##Reverting
@@ -131,23 +137,28 @@ When you pull in from the remote, you may get a conflict warning. This will happ
 
 When this happens, you will need to resolve the conflict. If you open up the file, you will see something like this
 
-	<<<<<<< HEAD:index.html
-	<div id="footer">contact : email.support@github.com</div>
-	=======
-	<div id="footer">
-	  please contact us at support@github.com
-	</div>
-	>>>>>>> iss53:index.html
-
+```bash
+<<<<<<< HEAD:index.html
+<div id="footer">contact : email.support@github.com</div>
+=======
+<div id="footer">
+please contact us at support@github.com
+</div>
+>>>>>>> iss53:index.html
+```
 You simply need to remove the code block that you want to dispose of. The top block is your code and the bottom comes from the code being merged. If you want to keep your code, you will want to end up with
 
-	<div id="footer">contact : email.support@github.com</div>
+```html
+<div id="footer">contact : email.support@github.com</div>
+```
 
 if you want the merged code to remain, it will be
 
-	<div id="footer">
-	  please contact us at support@github.com
-	</div>
+```html
+<div id="footer">
+    please contact us at support@github.com
+</div>
+```
 
 To minimize conflicts, you should 1. Commit little and often and 2. Pull from the remote master often.
 
@@ -163,5 +174,3 @@ The commands you will need to master are
 - `git merge from-branch` - merges code from `from-branch` into your current branch
 
 Good practice is to switch over to your master branch and pull in changes from the remote (if you're using one). Then switch back to your working branch and merge in changes. Doing this ensures that conflicts are kept to a minimum.
-
-

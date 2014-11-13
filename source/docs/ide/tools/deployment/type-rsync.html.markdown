@@ -26,7 +26,9 @@ There are two options available
 ##Specifying a Port
 If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below
 
-	mydomain.com:1234 
+```bash
+mydomain.com:1234
+```
 
 ##User Name
 You will need to supply a valid user name for your remote server regardless of the authentication method.
@@ -34,7 +36,7 @@ You will need to supply a valid user name for your remote server regardless of t
 ##Password Authentication
 If you are using a public key then you can leave the password field empty.
 
-If you do not want to use a public key, then you will need to use a password for authentication. Simply provide the details in the Codio dialog. 
+If you do not want to use a public key, then you will need to use a password for authentication. Simply provide the details in the Codio dialog.
 
 ##Delete Missing Folders
 This removes any folders from the remote server that are not present in the Codio project.

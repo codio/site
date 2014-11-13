@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-This tutorial explains how to install PHPBrew on a Codio Box. 
+This tutorial explains how to install PHPBrew on a Codio Box.
 
 Start by opening up a Terminal window (Tools->Terminal).
 
@@ -18,17 +18,17 @@ If you have not already done so, install PHP and the required modules
 	mkdir /home/codio/bin
 	curl -L -O https://raw.github.com/c9s/phpbrew/master/phpbrew
     chmod +x phpbrew
-    mv phpbrew /home/codio/bin/phpbrew 
+    mv phpbrew /home/codio/bin/phpbrew
     chmod +x /home/codio/bin/phpbrew
 
 ##Intialize Scripts
-Let's first add the PATH to `~/.bash_profile` 
+Let's first add the PATH to `~/.bash_profile`
 
 	echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bash_profile
 
 and reload `~/.bash_profile`
 
-```
+```bash
 . ~/.bash_profile
 ```
 Ignore the terminal error `-bash: cd: workspace/: No such file or directory` if you see it.
@@ -40,17 +40,17 @@ We initialize PHPBrew by entering
 
 You should now see a chunk of text starting with
 
-	Phpbrew environment is initialized, required directories are 
+	Phpbrew environment is initialized, required directories are
 
-			/home/codio/.phpbrew                                        
-                                                                                                                                                                                  
+			/home/codio/.phpbrew
+
 ##Update your `.bash_profile` file
 
 	echo 'export PHPBREW_SET_PROMPT=1' >> ~/.bash_profile
     echo 'source /home/codio/.phpbrew/bashrc' >> ~/.bash_profile
 
 ##Reload shell data
-```
+```bash
 . ~/.bash_profile
 ```
 
@@ -95,8 +95,8 @@ This can take a few minutes, so be patient. Once it's finished, enter
 and you should see
 
 	Installed versions:
-		* (system)  
-		php-5.4.26 (/home/codio/.phpbrew/php/php-5.4.26) 
+		* (system)
+		php-5.4.26 (/home/codio/.phpbrew/php/php-5.4.26)
 
 ##Installing PHP modules
 PHPBrew can also install PHP modules. You can list all available modules like this
@@ -123,12 +123,12 @@ You now need to edit `~/.parts/etc/apache2/config/php.conf`. The best way to do 
 You should modify the `PHPIniDir` line to suit your installed version of PHP Copy the following to the clipboard
 
 	PHPIniDir /home/codio/.phpbrew/php/php-5.4.26/etc/php.ini
-	AddHandler php5-script .php     
+	AddHandler php5-script .php
 	DirectoryIndex index.php
 
 - move the cursor to the bottom and use backspace key to delete everything
 - paste from the clipboard making sure you end up with the same 3 lines in the exact same format you see above
-- press ctrl+x (not cmd for Mac users) to save then 'Y' to confirm then enter 
+- press ctrl+x (not cmd for Mac users) to save then 'Y' to confirm then enter
 
 
 Now we need to restart Apache
@@ -138,6 +138,3 @@ Now we need to restart Apache
 Now do another Preview using Box URL SSL from the menu. You should now see you are running the correct version.
 
 ![phpbrew phpinfo2](/img/docs/phpbrew-phpinfo2.png)
-
-
-

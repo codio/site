@@ -14,39 +14,38 @@ When you then create a new file, Codio will automatically detect the extension y
 
 The default CSS template looks like this
 
-		/*
-		    Document   : ${PATH}
-		    Created on : ${DATE} ${TIME}
-		    Author     : ${USER}
-		    Description:
-		    Purpose of the stylesheet follows.
-		    To change this template use Tools | Templates.
-		*/
+```css
+/*
+    Document   : ${PATH}
+    Created on : ${DATE} ${TIME}
+    Author     : ${USER}
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
 
-		root {
-		    display: block;
-		}
+root {
+    display: block;
+}
+```
 
 ##Creating and Editing Templates
 You access the template management from the `Tools > Templates` menu.
 
 ![new file](/img/docs/templates-manage.png)
 
-`Add` - adds a new template file that you can associate with a file extension. To associate the template with multiple extensions, comma separate as follows `html, htm`
-`Edit` - allows you to redefine the file extension associations
-`Reset` - available for predefined Codio templates, this removes any modifications you might have made.
-`Reset All` - resets all predefined Codio templates and deletes any personal templates you have added.
+* `Add` - adds a new template file that you can associate with a file extension. To associate the template with multiple extensions, comma separate as follows `html, htm`
+* `Edit` - allows you to redefine the file extension associations
+* `Reset` - available for predefined Codio templates, this removes any modifications you might have made.
+* `Reset All` - resets all predefined Codio templates and deletes any personal templates you have added.
 
 
 ##Tokens
 You can insert tokens into the template file that get substituted at the point a new file is created. The following tokens are available.
 
-`${PROJECT_NAME}` - name of current project
-`${PATH}` - full path and filename
-`${PATH_NAME}` - file
-`${DATE}` - date created
-`${TIME}` - time created
-`${USER}` - name of user creating file
-
-
-
+* `${PROJECT_NAME}` - name of current project
+* `${PATH}` - full path and filename
+* `${PATH_NAME}` - file
+* `${DATE}` - date created
+* `${TIME}` - time created
+* `${USER}` - name of user creating file

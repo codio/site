@@ -4,14 +4,14 @@ class_name: docs
 full_width: true
 ---
 
-[Parse.com](http://parse.com/products) is a third party platform that provides a range of very powerful but easy to use back end features such as 
+[Parse.com](http://parse.com/products) is a third party platform that provides a range of very powerful but easy to use back end features such as
 
 - NoSQL Database
 - Push Notifications
 - Server Side Javascript (Node.js)
 - Social Integration
 
-Please refer to the [Parse.com documentation](https://parse.com/docs/cloud_code_guide) for details on how to create a Cloud Code application. 
+Please refer to the [Parse.com documentation](https://parse.com/docs/cloud_code_guide) for details on how to create a Cloud Code application.
 
 ##Creating a sample project
 If you want to create a test Parse.com Cloud project, we've set up a couple of Parse.com templates. When you go to create a new project from the Codio Dashboard, select "From a template" from the Create Project option dropdown. You'll find "Parse Anyimg" and "Parse ToDo" templates waiting for you.
@@ -19,7 +19,7 @@ If you want to create a test Parse.com Cloud project, we've set up a couple of P
 Open the README.md file and follow the instructions to get it running in 5 minutes.
 
 ##Target Type Parameters
-When setting up the deployment target, select "Parse.com ..." from the **Destination** drop down. 
+When setting up the deployment target, select "Parse.com ..." from the **Destination** drop down.
 
 There are no parameters to enter as all relevant information is taken from the `config/global.json' file.
 
@@ -40,22 +40,22 @@ Parse requires that you structure your project into three main folders
 ##global.json file
 This file contains the necessary connection information for Codio to talk to Parse.com. You must have this file in the `config` folder and it should contain the following key fields
 
-	{
+```json
+{
     "applications": {
-      "AppName": {
-          "applicationId": "fUjNJlrS9JGkOEPyQBRjUix2xxxxxxxxxxxxxx", 
-          "masterKey": "D0NbBAFPl5oUDslP3Pxxxxxxxxxxxx"
-      }, 
-      "_default": {
-          "link": "AppName"
-      }
-    }, 
+        "AppName": {
+            "applicationId": "fUjNJlrS9JGkOEPyQBRjUix2xxxxxxxxxxxxxx",
+            "masterKey": "D0NbBAFPl5oUDslP3Pxxxxxxxxxxxx"
+        },
+        "_default": {
+            "link": "AppName"
+       }
+    },
     "global": {
-      "parseVersion": "1.2.7"
+        "parseVersion": "1.2.7"
     }
-	}
-
-You will need to retrieve `applicationId` and `masterKey` from your Parse.com console. 
+}
+```
+You will need to retrieve `applicationId` and `masterKey` from your Parse.com console.
 
 It is **important** that the application name ("AppName" in the above example) are the same.
-

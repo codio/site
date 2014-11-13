@@ -18,14 +18,14 @@ body.docs #content {
 
         nav {
             form {
-                margin-top: em(20);
+                margin-top: $base-line-height;
             }
 
             h5 {
                 &::before {
                     @include fa-icon;
                     content: $fa-var-angle-right;
-                    padding-right: .5em;
+                    padding-right: .8em;
                     color: white;
 
                     @include media($large-screen-up) {
@@ -35,6 +35,7 @@ body.docs #content {
 
                 &.active::before {
                     content: $fa-var-angle-down;
+                    padding-right: .5em;
                 }
             }
 
@@ -70,8 +71,7 @@ body.docs #content {
             & > ul {
                 background: $darker-gray;
                 border-radius: $base-border-radius;
-                padding: em(10) em(20) em(20);
-                margin-top: em(20);
+                margin-top: $base-line-height;
 
                 h2 {
                     font-size: 1.2em;
@@ -154,7 +154,7 @@ body.docs #content {
                                     & > a::before {
                                         @include fa-icon;
                                         content: $fa-var-angle-right;
-                                        padding-right: .5em;
+                                        padding-right: .8em;
                                     }
 
 
@@ -162,6 +162,7 @@ body.docs #content {
                                         color: $base-accent-color;
                                         &::before {
                                             content: $fa-var-angle-down;
+                                            padding-right: .5em;
                                         }
                                     }
 
@@ -230,6 +231,7 @@ body.docs #content {
 
     .docs-landing {
         padding: 0;
+        margin-bottom: 2em;
 
         @include outer-container;
         @include span-columns(4 of 4);
@@ -241,13 +243,25 @@ body.docs #content {
         section {
             @include outer-container;
             @include span-columns(4);
-            @include omega(4n);
+            @include omega;
 
-            padding: em(20);
+            padding: $base-line-height;
 
             @include media($large-screen-up) {
                 @include span-columns(20);
-                @include omega(20n);
+            }
+
+            h1 {
+                margin: 0;
+            }
+
+            &.subtitle {
+                text-align: center;
+
+                @include media($large-screen-up) {
+                    @include shift(6);
+                    @include span-columns(8);
+                }
             }
 
             .docs-section {
@@ -261,26 +275,46 @@ body.docs #content {
                 }
 
                 background: $main-background;
-                padding: em(40);
+                padding: 2em;
 
                 a {
                     color: $base-font-color;
+                    white-space: nowrap;
                 }
 
                 h2 {
                     text-align: center;
+                    margin: 0;
+                    line-height: 84px;
                 }
 
-                ul {
-                    list-style: none;
+                .links {
+                    @include outer-container;
+                    width: 100;
+                    padding-top: 1em;
 
-                    li {
+                    .first,
+                    .second {
+                        @include span-columns(2 of 4);
+                        @include omega(2n);
+
+                        @include media($large-screen-up) {
+                            @include span-columns(5 of 5);
+                            @include omega;
+                        }
+                    }
+
+                    a {
+                        float: left;
                         font-weight: 600;
+                        font-size: $base-font-size;
+                        line-height: $base-line-height;
+                        clear: left;
 
                         &::before {
                             @include fa-icon;
                             content: $fa-var-angle-right;
-                            padding-right: .5em;
+                            padding-right: 1em;
                         }
                     }
                 }
@@ -379,10 +413,10 @@ body.docs #content {
 
     .header {
         @include outer-container;
-        padding: em(20) em(40) 0;
+        padding: $base-line-height 2*$base-line-height 0;
 
         @include media($large-screen-up) {
-            padding: em(40) em(40) 0;
+            padding: 2*$base-line-height 2*$base-line-height 0;
         }
 
         h1 {
@@ -403,7 +437,7 @@ body.docs #content {
             @include span-columns(4 of 4);
 
             @include media($large-screen-up) {
-                @include span-columns(7 of 20);
+                @include span-columns(6 of 20);
             }
         }
     }

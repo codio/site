@@ -53,12 +53,12 @@ body.index {
             @include media(min-width $medium-screen) {
                 background-color: transparent;
                 @include radial-gradient(circle at 50% 50%, $start-color 0%, $start-color 50%, $end-color 90%);
-                padding: em(20);
+                padding: $base-line-height;
                 @include size(450px 350px);
             }
 
             @include media(min-height $large-screen-height min-width $large-screen) {
-                padding: em(40);
+                padding: 2*$base-line-height;
                 @include size(630px 380px);
             }
 
@@ -79,7 +79,7 @@ body.index {
 
                 p {
                     margin: auto;
-                    margin-bottom: em(40);
+                    margin-bottom: 2*$base-line-height;
 
                     @include media($medium-screen-height) {
                         width: 400px;
@@ -93,16 +93,15 @@ body.index {
     .pillar-text {
         @include outer-container;
         @include span-columns(4 of 4);
-        @include omega(4n);
+        @include omega;
 
         @include media($large-screen-up) {
             @include span-columns(20);
-            @include omega(20n);
         }
 
         margin-top: 0;
         margin-bottom: 0;
-        padding: em(150) 0;
+        padding: 5*$base-line-height 0;
 
         background: $light-background;
 
@@ -112,7 +111,7 @@ body.index {
 
         aside {
             text-align: center;
-            padding: 0 2em;
+            padding: 0 2*$base-line-height;
 
             img {
                 display: none;
@@ -131,10 +130,10 @@ body.index {
                 text-align: left;
             }
 
-            padding: 0 2em;
+            padding: 0 2*$base-line-height;
 
             p {
-                margin: 0 0 2em;
+                margin: 0 0 2*$base-line-height;
             }
         }
 

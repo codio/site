@@ -5,37 +5,30 @@ body.pricing {
     }
 
     h1 {
-        padding: em(20) em(20) 0;
         text-align: center;
-
-        @include media($large-screen-up) {
-            margin-bottom: em(40);
-        }
     }
 
     h2 {
-        display: block;
         float: left;
         text-align: center;
         width: 100%;
-        padding: 2em;
+        padding: 2*$base-line-height 0;
     }
 
     .intro {
         @include span-columns(4);
-        @include omega(4n);
+        @include omega;
 
-        padding: em(20);
+        padding: $base-line-height;
 
         @include media($large-screen-up) {
             @include shift(4 of 20);
             @include span-columns(12 of 20);
-            @include omega(14n);
-            margin-bottom: em(20);
         }
 
         p {
             text-align: center;
+            padding: $base-line-height 0;
         }
     }
 
@@ -215,13 +208,14 @@ body.pricing {
     }
 
     .faq {
+
         aside {
             font-weight: 600;
             text-align: center;
 
             @include media($large-screen-up) {
-                @include shift(1);
-                @include span-columns(4);
+                @include shift(1 of 20);
+                @include span-columns(4 of 20);
                 text-align: left;
             }
         }
@@ -230,9 +224,13 @@ body.pricing {
             text-align: center;
 
             @include media($large-screen-up) {
-                @include span-columns(14);
+                @include span-columns(14 of 20);
                 text-align: left;
             }
+        }
+
+        &:last-child {
+            margin-bottom: $base-line-height;
         }
     }
 }

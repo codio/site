@@ -1,12 +1,9 @@
 body.blog #content {
 
     .title {
-        padding: em(10) em(40) 0;
-
+        padding: 0 2*$base-line-height;
         h1 {
-            font-weight: 300;
-            margin-top: em(10);
-            line-height: 1.1em;
+            margin-top: $base-line-height;
         }
 
         @include span-columns(4);
@@ -29,11 +26,11 @@ body.blog #content {
         }
 
         h2 {
-            margin-bottom: em(20);
+            margin-bottom: $base-line-height;
         }
 
         ol {
-            margin-bottom: em(20);
+            margin-bottom: $base-line-height;
 
             li {
                 margin: em(10) 0;
@@ -98,7 +95,7 @@ body.blog #content {
     .overview {
         h2 {
             font-family: $sans-serif;
-            margin: em(20) 0 em(10);
+            margin: $base-line-height 0;
 
             a {
                 color: $base-font-color;

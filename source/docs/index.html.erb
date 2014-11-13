@@ -9,18 +9,27 @@ categories: ["Quick Start", "Dashboard", "IDE", "Boxes"]
     </form>
     <h1>Documentation</h1>
   </section>
+  <section class="subtitle">
+    <h3>Everybody needs a little help.</h3>
+  </section>
   <section>
     <% ordered(current_resource).each do |resource| %>
       <div class="docs-section">
         <%= sprockets.find_asset("icons/#{resource.data.title.gsub(' ', '-').downcase}-small.svg").to_s %>
         <h2><%= link_to resource.data.title, resource.url %></h2>
-        <ul>
-          <% ordered(resource).each do |child| %>
-            <li>
+        <div class="links">
+          <% mid = (resource.children.length / 2.to_f).ceil %>
+          <div class="first">
+            <% ordered(resource)[0..mid-1].each do |child| %>
               <%=  link_to child.data.title, child.url %>
-            </li>
-          <% end %>
-        </ul>
+            <% end %>
+          </div>
+          <div class="second">
+            <% ordered(resource)[mid..-1].each do |child| %>
+              <%=  link_to child.data.title, child.url %>
+            <% end %>
+          </div>
+        </div>
       </div>
     <% end %>
   </section>

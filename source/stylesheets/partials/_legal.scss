@@ -1,6 +1,6 @@
 body.legal #content {
 
-    margin-top: em(20);
+    margin-top: $base-line-height;
 
     @include media($large-screen-up) {
         margin-top: 0;
@@ -11,8 +11,8 @@ body.legal #content {
         @include span-columns(4);
         @include omega;
 
-        margin-bottom: em(100);
-        padding: 0 em(20);
+        margin-bottom: 2*$base-line-height;
+        padding: 0 $base-line-height;
 
         @include media($large-screen-up) {
             @include shift(2 of 20);
@@ -21,7 +21,7 @@ body.legal #content {
 
         h2 {
             text-align: center;
-            margin-bottom: em(20);
+            margin-bottom: $base-line-height;
             @include omega;
         }
 

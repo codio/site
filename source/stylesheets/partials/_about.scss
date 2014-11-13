@@ -1,7 +1,7 @@
 body.about #content {
 
     background: $light-background;
-    margin-top: em(20);
+    margin-top: $base-line-height;
 
     @include media($large-screen-up) {
         margin-top: 0;
@@ -13,8 +13,8 @@ body.about #content {
         @include span-columns(4);
         @include omega;
 
-        margin-bottom: em(100);
-        padding: 0 em(20);
+        margin-bottom: $base-line-height;
+        padding: 0 $base-line-height;
 
         @include media($large-screen-up) {
             @include span-columns(20 of 20);
@@ -23,10 +23,7 @@ body.about #content {
         h1, h2 {
             text-align: center;
             @include omega;
-        }
-
-        h1 {
-            margin-bottom: em(20);
+            margin: $base-line-height 0;
         }
     }
 

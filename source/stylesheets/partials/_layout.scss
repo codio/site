@@ -24,27 +24,25 @@ section {
 
     aside {
         @include span-columns(4);
-        padding: em(20);
+        padding: $base-line-height;
 
         @include media($large-screen-up) {
             @include span-columns(8);
-            padding: em(40);
         }
     }
     article {
         @include span-columns(4);
-        padding: em(20);
+        padding: $base-line-height;
 
         @include media($large-screen-up) {
             @include span-columns(12);
-            padding: em(40);
         }
     }
 
 }
 
 header.artwork {
-    margin-bottom: em(30);
+    margin-bottom: $base-line-height;
     display: none;
 
     @include media($large-screen-up) {
@@ -53,7 +51,7 @@ header.artwork {
 }
 
 .artwork {
-    height: em(120);
+    height: 4 * $base-line-height;;
 
     @include span-columns(4);
 

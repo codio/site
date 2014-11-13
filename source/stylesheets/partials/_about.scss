@@ -1,6 +1,11 @@
 body.about #content {
 
     background: $light-background;
+    margin-top: em(20);
+
+    @include media($large-screen-up) {
+        margin-top: 0;
+    }
 
     .about-us,
     .team,
@@ -12,8 +17,7 @@ body.about #content {
         padding: 0 em(20);
 
         @include media($large-screen-up) {
-            @include shift(2 of 20);
-            @include span-columns(16 of 20);
+            @include span-columns(20 of 20);
         }
 
         h1, h2 {
@@ -27,7 +31,6 @@ body.about #content {
     }
 
     section.about-us {
-        text-align: center;
 
         p {
             font-size: $large-font-size;
@@ -37,10 +40,6 @@ body.about #content {
 
     section.team {
         @include outer-container;
-
-        @include media($large-screen-up) {
-            @include span-columns(20 of 20);
-        }
 
         .info-cards {
             @include outer-container;

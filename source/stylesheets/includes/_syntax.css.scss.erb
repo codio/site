@@ -10,6 +10,11 @@ pre {
 
     code, code.highlight {
         background: none;
+
+        &::before,
+        &::after {
+            content: '';
+        }
     }
 }
 

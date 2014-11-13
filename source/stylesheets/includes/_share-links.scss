@@ -94,7 +94,6 @@
         a.facebook-share,
         a.twitter-share,
         a.plus-share {
-
             background: $light-background;
             color: $base-font-color;
 
@@ -108,6 +107,7 @@
                 @include size(32px);
 
                 i {
+                    vertical-align: middle;
                     font-size: 1.3em;
                     line-height: 1.2em;
                     padding-right: 0;

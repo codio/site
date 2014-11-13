@@ -63,10 +63,11 @@ body.index {
             }
 
 
-            button {
+            a {
                 @include action-button;
                 width: 200px;
                 height: 50px;
+                line-height: 36px;
             }
 
             .hero-copy {

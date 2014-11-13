@@ -4,11 +4,15 @@ class_name: docs
 full_width: true
 ---
 
-Once you have assigned your course to the class and added student(s) to the class, you are ready to hand out your first assignment to the class.
+Once you have assigned your Tutorial to the class and added students, you are ready to hand out your first assignment.
 
-Modules can be assigned to classes by the class owner, by those with administration permissions and by teachers.
+Modules can be assigned to classes by 
 
-Select your class from the main classes listing. You should see the course name and all modules belonging to that course. 
+- the class owner
+- collaborators (defined in Edit screen of the class)
+- teachers
+
+Select your class from the main classes listing. You should see the Tutorial name and all modules belonging to that Tutorial. 
 
 Now, for the module you want to assign to the class, click on the right most icon. Below, you can see that the first module has already been assigned but the others have not. The assign buttons are circled.
 

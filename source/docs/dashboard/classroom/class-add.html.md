@@ -1,18 +1,28 @@
 ---
-title: Adding a class
+title: Adding a Classroom
 class_name: docs
 full_width: true
 ---
 
-To add a new class, press the 'Create' button from the main classes screen. You will then be asked to provide further details. Only the class name is mandatory. 
+To add a new Classroom, press the 'Create' button from the main classes screen. You will then be asked to provide further details. Only the Classroom name is required 
+On creation, you will be automatically added as a Teacher for that class. Teachers are able to assign modules to the Classroom, view student code and assign grades and comments.
 
-When you create a class, you will be automatically added as a Teacher for that class. Teachers are able to assign modules to the class, view student code and assign grades and comments.
+[IMAGE]
 
-![](docs/education/class-add.png)
+##Name & Description
+You are required to enter a **Name** for your class. The **Description** is optional but we strongly recommend providing a detailed description to help students find the correct class and to clearly differentiate from others. 
 
-- You are required to enter a **Name** for your class. The **Description** is optional.
-- The **Owner** field is important to understand. You should select the organization from the dropdown that this class belongs to. This ensures that it will appear in the class list as belonging to that organization.
-- **Begin and End Dates** are optional and are used for reporting/filtering purposes only.
-- **Permissions** allows you to assign administration rights to other Codio users for this class. Start typing the user's full name or Codio user name and matches will appear automatically below. You can also assign permissions after the class has been created. 
+##Organization
+If you only belong to one Organization then this will be prepulated. If you belong to more than one Organization then be careful to select the appropriate one.
+
+##Begin & End Dates
+These are purely for display purposes and are optional.
+
+##Tutorial
+You can at this point assign a Tutorial to the class. Press the ellipsis to choose a Tutorial.
+
+##Collaborators
+Enter the name (Codio user name or part of a full name) of any Codio users within your Organization who should be able to edit the Classrooom details. You can add multiple users.
+
 
 

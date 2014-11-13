@@ -4,9 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-A team is simply a collection of Codio users. You can create any number of teams and then add users to those teams.
+A team is a collection of Codio users within your Organization. You can create any number of teams and then add users to those teams.
 
-Currently, there is not too much you can do with teams. We will very soon be adding more advanced permissioning so that you can assign permissions to teams for the ability to manage actions within projects and on boxes.
+As soon as you add a user to a team they will automatically be added to your Organization and will appear in the `All Members` list.
 
 The number of members in each team is displayed in the team box.
 

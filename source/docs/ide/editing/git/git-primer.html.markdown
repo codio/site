@@ -11,7 +11,7 @@ For a proper, in-depth overview of Git, refer to the [resources](/docs/ide/editi
 Please make sure you read this excellent overview if you are new to Git : [http://git-scm.com/book/en/Getting-Started-Git-Basics](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
 ##GitHub Keys
-If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/docs/ide/customization/account-settings/public-key).
+If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/docs/dashboard/settings/public-key).
 
 ##Experimentation
 The best way to learn Git is to create a really simple project with a few text files in it and then experiment like crazy. You can play around with all the Git commands and sync with GitHub repos to your heart's content without worrying about doing any coding.
@@ -30,7 +30,7 @@ If you have code within Codio and you want to create a brand new GitHub (or othe
 
 1. Create a new project in Codio or open up an existing one.
 1. Create a new, empty repo on GitHub or other provider.
-1. Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/docs/ide/customization/account-settings/public-key)
+1. Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/docs/dashboard/settings/public-key)
 ![github repo](/img/docs/github-new-repo.png)
 1. Within the IDE, go to `Tools > Git > Remotes`
 1. It is recommended you use `origin` as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH.

@@ -42,7 +42,7 @@ The drawback with this approach is that any changes you make to the GitHub repo 
 ![create from GitHub](/img/docs/github-clone-url.png)
 
 - If you are on the GitHub site and looking at a repo, you will see the 'Clone URL' link (circled above).
-- Click to copy the link to the clipboard; if you clone using SSH, you must have added the Codio SSH public key first as [described here](/docs/ide/customization/account-settings/public-key)
+- Click to copy the link to the clipboard; if you clone using SSH, you must have added the Codio SSH public key first as [described here](/docs/dashboard/settings/)
 - Login to Codio
 - Click on 'Create Project'
 - Enter a project name, select the 'Clone a Git repo' and paste in the Git URL (see below)

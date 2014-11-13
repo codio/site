@@ -1,9 +1,14 @@
 ---
-title: Adding members
+title: Adding users to your Organization
 class_name: docs
 full_width: true
 ---
 
-If you want to quickly add Codio users to your organization then you should click on the Teams link in the organization second level menu and then select the 'All Members' team.
+To add Codio users to your organization
 
-Any users you add will first need to have signed up to Codio in the normal way. You will be able to search for them by Codio user name or their full name, if they entered one.
+1. Open the Organizations up (click on the icon bottom left).
+1. Select your Organization from the list (there is probably only one there).
+1. `All Teams` should already be selected above the list.
+1. Click on the `All members` or `Owners` button, depending on the status of the user you are adding.
+1. Add the Codio user (you can search by Codio user name or full name, if they entered one).
+

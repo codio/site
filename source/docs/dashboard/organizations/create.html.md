@@ -4,23 +4,23 @@ class_name: docs
 full_width: true
 ---
 
-To create a new Organization, click on the 'Organizations' link in the left hand side of your dashboard. 
+To access Organizations, click on the Organizations icon at the bottom left of your Dashboard.
 
-![orgcreate](/img/docs/createorg.png)
+[IMAGE]
 
-There are now 3 steps required
+##Organization Name and Adminstrator
+Enter the name of your Organization and and adminstrators email address.
 
-- enter the name of your Organization and choose a plan
-- enter your payment details
-- add any other Codio users to the Owners team
+##Choose a Plan
+If you are creating an Organization for teaching coding at a school, college or university, you should select the `Education Trial` plan. This will give you up to 100 users and full access to all features as well as being able to create private Projects, Stacks, Starter Packs and Tutorials.
 
-The free organization plan allows you to add any number of users to your organization but they can only create public projects. 
+When you click `Create`, your Organization will be instantly available and you will be able to start taeching immediately. You will be required to verify your educational status within 24 hours.
 
-Paid plans allow all members to create private projects as long as they remain a member of that organization or they have their own personal Codio subscription.
+##Payment Details
+If you selected the `Education Trial` plan, then you will not need to enter any payment information.
 
-##Moving from a personal Codio subscription to an Organization
-If you have a team of users, each of whom has a personal Codio subscription, and you then decide to bring them into an Organizational account, then you should do the following 
+##Create
+Once you are done with the above steps, click the `Create` button at the bottom of the screen.
 
-- cancel the personal subscriptions; this will disable any private projects
-- create your organization in Codio and add the others to the 'All Members' team; at this point, any disabled private projects will be re-enabled as active private projects
+
 

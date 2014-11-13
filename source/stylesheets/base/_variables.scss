@@ -110,9 +110,13 @@ $form-font-family: $base-font-family;
 // Custom
 $header-width: 162px;
 
-$hero-image-name: 'kwok02';
-$hero-image-type: 'jpg';
-$hero-image-small: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-small.' + $hero-image-type;
-$hero-image-medium: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-medium.' + $hero-image-type;
-$hero-image-large: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-large.' + $hero-image-type;
-$hero-image-extra-large: '/artwork/' + $hero-image-name + '/' + $hero-image-name + '-extraLarge.' + $hero-image-type;
+
+
+$title: 'kwok02';
+$extension: 'jpg';
+$directory: 'artwork';
+
+$hero-image-small: '/' + $directory '/' + $title + '/' + $title + '-small.' + $extension;
+$hero-image-medium: '/' + $directory '/' + $title + '/' + $title + '-medium.' + $extension;
+$hero-image-large: '/' + $directory '/' + $title + '/' + $title + '-large.' + $extension;
+$hero-image-extra-large: '/' + $directory '/' + $title + '/' + $title + '-extraLarge.' + $extension;

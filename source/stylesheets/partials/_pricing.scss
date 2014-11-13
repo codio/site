@@ -6,14 +6,19 @@ body.pricing {
 
     h1 {
         padding: em(20) em(20) 0;
-        font-size: 1.6em;
         text-align: center;
-        font-weight: 300;
 
         @include media($large-screen-up) {
-            font-size: 2em;
             margin-bottom: em(40);
         }
+    }
+
+    h2 {
+        display: block;
+        float: left;
+        text-align: center;
+        width: 100%;
+        padding: 2em;
     }
 
     .intro {
@@ -70,6 +75,11 @@ body.pricing {
 
         &.highlight {
             background: $light-accent-color;
+            margin-top: 27px;
+
+            @include media($large-screen-up) {
+                margin-top: 0;
+            }
 
             .card-header {
                 background: $mid-accent-color;
@@ -102,16 +112,18 @@ body.pricing {
         }
 
         .card-header {
+            @include clearfix;
             h2 {
                 font-size: 1.2em;
                 font-weight: bold;
+                padding: 0;
             }
 
             @include transition (all 0.2s ease-in-out);
             background-color: $card-header-background;
 
             font-weight: normal;
-            padding: em(35) 0;
+            padding: em(20) 0;
         }
 
         .card-copy {
@@ -121,9 +133,24 @@ body.pricing {
             font-size: .9em;
             line-height: 1.5em;
 
-            li {
-                height: 40px;
-                font-size: 1.2em;
+            ul {
+                @include outer-container;
+
+                li {
+                    @include span-columns(4);
+                    @include omega;
+
+                    height: 40px;
+                    font-size: 1.2em;
+
+                    &.empty {
+                        height: 0px;
+
+                        @include media($large-screen-up) {
+                            height: 40px;
+                        }
+                    }
+                }
             }
         }
 

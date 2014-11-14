@@ -13,7 +13,7 @@ On creation, you will be automatically added as a Teacher for that class. Teache
 You are required to enter a **Name** for your class. The **Description** is optional but we strongly recommend providing a detailed description to help students find the correct class and to clearly differentiate from others. 
 
 ##Organization
-If you only belong to one Organization then this will be prepulated. If you belong to more than one Organization then be careful to select the appropriate one.
+If you only belong to one Organization then this will be pre-populated. If you belong to more than one Organization then be careful to select the appropriate one.
 
 ##Begin & End Dates
 These are purely for display purposes and are optional.

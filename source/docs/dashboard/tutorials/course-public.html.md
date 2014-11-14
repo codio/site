@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Codiowants to promote an Open Source approach to Tutorial teaching content.
+Codio wants to promote an Open Source approach to Tutorial teaching content.
 
 When you create a course in Codio, it can be kept private to yourself or to your organization, if you have a paid subscription. 
 

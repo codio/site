@@ -16,7 +16,7 @@ Press the `Add Module` button to add a new module.
 [IMAGE]
 
 ##Add Details
-Add a description and, importantly, a decent description of the project that is hekpful to others browsing Tutorial content.
+Add a description and, importantly, a decent description of the project that is helpful to others browsing Tutorial content.
 
 ##Select the Source
 You should select the Codio Project that the module is taken from. 

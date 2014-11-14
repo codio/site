@@ -10,10 +10,10 @@ Here are some of the benefits of using Codio in an educational environment
 
 - Students can access their code from anywhere using just a browser.
 - There is no software to install on classroom machines, nor on student machines.
-- [Stacks]() and [Starter Packs]() allow teachers to pre-configure entire environments for learning, includin languages, databases, web servers, components and even entire code workspaces.
+- [Stacks]() and [Starter Packs]() allow teachers to pre-configure entire environments for learning, including languages, databases, web servers, components and even entire code workspaces.
 - [Tutorials]() allow teachers to group and order teaching Projects into logical courses.
 - [Codio Guides]() lets teachers author rich content within the Codio IDE using simple markdown. These Guides can then run in one panel while the student codes in another.
-- [Classrooms]() let you organize define a class of students and then assign Tutorials to them. You can then access Students' code from the class list as well as Grading them. Classrooms is only available with an Organization account.
+- [Classrooms]() let you organize and define a class of students and then assign Tutorials to them. You can then access Students code from the class list as well as Grading them. Classrooms is only available with an Organization account.
 
 ##Trialing Codio in your School, College or University 
 If you are a teacher and want to trial Codio fully, then you should immediately create an Educational Organization. This will give you and your students full access to all Codio features and allows the creation of private Projects, Stacks, Starter Packs and Tutorials.
@@ -25,7 +25,7 @@ To create your Educational Organization, you should do the following
 1. Or click on the Organizations icon in the bottom left of the Dashboard, then click the `Create Organization` button at the top right of your screen.
 1. Be sure to click on the `Educational Trial` button in the Select a Plan section.
 
-At this point, you will have an Organization account for you and up to 100 other users. You will receive an email asking for proof that you are a bina fide eductional organization, which you will need to provide within 24 hours. If you do not do this, you and all users will be downgraded to free accounts.
+At this point, you will have an Organization account for you and up to 100 other users. You will receive an email asking for proof that you are a bona fide eductional organization, which you will need to provide within 24 hours. If you do not do this, you and all users will be downgraded to free accounts.
 
 More documentation can be found on Organizations [here]().
 

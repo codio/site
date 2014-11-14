@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Only Tutorial owners or those with administration permissions for the course can add modules. Please refer to the [Create a new Tutorial]() section for information on permissions and collaborators.
+Only Tutorial owners or those with administration permissions for the course can add modules. Please refer to the [Create a new Tutorial](/docs/dashboard/tutorials/course-create/) section for information on permissions and collaborators.
 
 A Tutorial module is simply a Codio project that contains
 

@@ -35,4 +35,4 @@ TODO : NEW PUBLISH STEPS
 By default, Stacks that you create can be seen by other people in the **Popular** and **All** Stacks listings. If you want to keep your Stack private to you or your Organization, you can select the Private option. Private Stacks require a paid subscription.
 
 ##Owner
-By default, you will be the owner of this Stack and only you can edit it and [create new versions](/docs/stacks/update) of the Stack. If you want to allow others to administer your Stack, you can assign it to another user or to an Organization.
+By default, you will be the owner of this Stack and only you can edit it and [create new versions](/docs/dashboard/stacks/update) of the Stack. If you want to allow others to administer your Stack, you can assign it to another user or to an Organization.

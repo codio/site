@@ -18,7 +18,7 @@ IMAGE]
 
 - Locate and select the Tutorial you are interested in
 - From the Modules list click on the fork icon for the module
-- This will now fork that module into a new Project in your Codio account. From this point, you are free to make whatever changes you require to the code or to the [Codio Guide]().
+- This will now fork that module into a new Project in your Codio account. From this point, you are free to make whatever changes you require to the code or to the [Codio Guide](/docs/ide/tools/guides/).
 
 If there is an author attribution in the Guide or the readme.md file, please be respectful and leave the attribution in place.
 

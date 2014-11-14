@@ -17,6 +17,6 @@ We offer the following options for students, schools, colleges and universities
 For full details, [click here](/docs/quickstart/education).
 
 ##Organizational Billing
-If you have an Organization account, we offer a [special billing screen here]().
+If you have an Organization account, we offer a [special billing screen here](/docs/dashboard/organizations/billing/).
 
 

@@ -13,7 +13,7 @@ You need to tell Codio where to get its source code from. There are two options
 - **Git/Mercural** : you can specify a Git or Mercurial repo that gets pulled in afresh each time someone creates a new Project based on your Starter Pack
 
 ##Selecting a Stack
-Each Starter Pack requires a [Stack](). If you only need a base Ubuntu Box, then you do not need to specify a Stack.
+Each Starter Pack requires a [Stack](/docs/quickstart/stacks/). If you only need a base Ubuntu Box, then you do not need to specify a Stack.
 
 ##Description Details
 You can add short and long descriptions as well as an image and tags. Tags are important and will allow you and others to find Packs in a more targeted fashion.

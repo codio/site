@@ -6,9 +6,9 @@ full_width: true
 
 The Classrooms menu item can be found in the left side of the Codio dashboard.
 
-To access Classrooms, you will need to have an [Organization]() account. [Click here](/docs/quickstart/education) for information about a full-featured free trial including private Projects, Stacks, Starter Packs and Tutorials.
+To access Classrooms, you will need to have an [Organization](/docs/dashboard/organizations/) account. [Click here](/docs/quickstart/education) for information about a full-featured free trial including private Projects, Stacks, Starter Packs and Tutorials.
 
-Classrooms can only be created by members of the Owners team. Teams are managed in the [Organization]() section.
+Classrooms can only be created by members of the Owners team. Teams are managed in the [Organization](/docs/dashboard/organizations/) section.
 
 - A class is a collection of students (Codio users).
 - A class is associated with a Tutorial. 

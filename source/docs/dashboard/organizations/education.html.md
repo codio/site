@@ -7,7 +7,7 @@ full_width: true
 We offer the following special arrangements for schools, universities, colleges and other teaching organizations.
 
 ##Educational Organization Trial
-We offer a full featured trial for your school and up to 100 students. Please go to the [Quickstart Education]() section for instructions.
+We offer a full featured trial for your school and up to 100 students. Please go to the [Quickstart Education](/docs/quickstart/education/) section for instructions.
 
 ##Student Discounts
 If you are a student using Codio on your own, then you can request special discount from the [Billing](/docs/dashboard/billing/) screen. 

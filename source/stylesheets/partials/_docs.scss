@@ -9,6 +9,12 @@ body.docs #content {
         }
     }
 
+    @include media($large-screen-up) {
+        .back-button {
+            margin-left: $base-line-height;
+        }
+    }
+
     aside {
         padding-top: 0;
 
@@ -216,12 +222,18 @@ body.docs #content {
 
         ul {
             list-style: initial;
-            padding: $base-line-height/2 $base-line-height $base-line-height;
+            padding: 0 $base-line-height $base-line-height;
         }
 
         ol {
             list-style: decimal;
-            padding: $base-line-height;
+            padding: 0 $base-line-height $base-line-height;
+        }
+
+        .share-links, #disqus_thread {
+            margin: 0;
+            padding: 2*$base-line-height 0;
+            border-top: 1px solid $light-gray;
         }
     }
 
@@ -336,16 +348,13 @@ body.docs #content {
             @include span-columns(20);
 
             .back-button {
-                margin-left: em(40);
-                margin-bottom: em(40);
+                margin-left: 2*$base-line-height;
             }
-
         }
 
 
-
         #st-results-container {
-            padding: em(40);
+            padding: 2*$base-line-height;
             .st-search-summary, .st-result, .st-pagination {
                 border: none;
             }

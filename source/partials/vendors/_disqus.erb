@@ -1,6 +1,9 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
   var disqus_shortname = 'codio';
+  var disqus_identifier = '<%= current_page.path %>';
+  var disqus_title = '<%= current_page.data.title %>';
+  var disqus_url = '<%= asset_host %><%= current_page.url %>';
   <% unless current_page.app.development? %>
     var disqus_developer = 1;
   <% end %>

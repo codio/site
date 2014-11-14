@@ -15,7 +15,7 @@ Start off by ...
 
 When you create a new Project, you can optionally specify the following items that drastically speed up the overall project setup
 
-- Select a [Stack]() which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
-- Or a [Starter Pack]() which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
-- If you are a student, you can also check out [Tutorials](), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](), giving you on-screen instructions while you code.
+- Select a [Stack](/docs/quickstart/stacks/) which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
+- Or a [Starter Pack](/docs/quickstart/packs/) which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
+- If you are a student, you can also check out [Tutorials](/docs/quickstart/tutorials/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/ide/tools/guides/), giving you on-screen instructions while you code.
 

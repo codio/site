@@ -8,7 +8,7 @@ In order to get the most out of Codio, we recommend you create an Organization. 
 
 Currently, the main advantage of an Organization account is 
 
-- Access to [Classrooms]()
+- Access to [Classrooms](/docs/dashboard/classroom/)
 - Teachers and Students can create private Projects, Stacks, Starter Packs and Tutorials
 
 We will be adding a great deal of functionality here to support easy signup, student driven assignment to classes, collaboration and other advanced features.

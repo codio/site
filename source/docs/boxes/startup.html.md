@@ -4,15 +4,21 @@ class_name: docs
 full_width: true
 ---
 
-Your Box will be stopped under the conditions [explained here](/docs/boxes/aob/sleep).
+Your Box will be put to sleep under the conditions [explained here](/docs/boxes/aob/sleep).
 
-When you open your project, the Box will start instantly but, by default, any services will not be started automatically.
+When you open your project, the Box will start instantly but, by default, any services will not start automatically.
 
-To prevent you having to start services manually each time you restart, you can create and configure a `startup.sh` file in the root of your project. This file will typically contain something like this
+##Autostarting using the Install Software tab
+You can access the Installed software tab as [described here](). Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box.
+
+##Autostarting using startup.sh
+You can also create and configure the `startup.sh` file in the root of your project. This file will typically contain something like this
 
 ```bash
 parts start apache2 myotherservice
 ```
+
+The Box Parts command line utility is explained in [this section]().
 
 If you experience problems with auto starting (which should rarely happen) then you can add a parts stop line beforehand
 

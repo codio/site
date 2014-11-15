@@ -5,9 +5,9 @@ full_width: true
 ---
 
 ##Overview
-Although Codio doesn't give you root access, you can in fact install pretty much anything you like onto a Codio Box. If you can't find a ready made Box Part then you can build your own. 
+If you can't find a ready made Box Part then you can build your own. 
 
-An installable  package is a 'Box Part, built using simple Ruby templates that do not require advanced Ruby knowledge. Your Box Part package defines the following steps
+An installable  package is a 'Box Part', built using simple Ruby templates that do not require advanced Ruby knowledge. Your Box Part package defines the following steps
 
 - Package name, source and version
 - Compilation

@@ -1,5 +1,5 @@
 ---
-title: "The Run menu item"
+title: "Adding Codio menu shortcuts"
 class_name: docs
 full_width: true
 ---

@@ -4,12 +4,11 @@ class_name: docs
 full_width: true
 ---
 
-Codio does not currently allow sudo access to you Box. In practice, this should not cause you major issues. While we will provide sudo access in the future, we provide a rich set of so-called Box Parts that are very rapidly installable packages that can be installed either using our Install Software screen or via the command line.
+Codio provides a rich set of so-called Box Parts that are very rapidly installable packages that can be installed either using our Install Software screen (`Tools->Install software` menu item) or via the command line.
 
 You can also install software by downloading and compiling from source code.
 
 As covered in the next section, [Coding your own Packages](/docs/boxes/installsw/parts-coding) you can also create your own Box Parts packages.
-
 
 ##Install Software tab
 The easiest way to install software packages onto a Codio Box is from the 'Tools->Install software' menu item. This allows you to perform the following actions
@@ -22,6 +21,9 @@ The easiest way to install software packages onto a Codio Box is from the 'Tools
 - uninstall packages
 
 ![Install Software](/img/docs/install-software.png)
+
+##Autostarting
+Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box. Please refer to the [Autostarting services]() section for more details.
 
 ##Command Line
 You can also install Box Parts packages from the [command line](/docs/boxes/terminal/terminal).

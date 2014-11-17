@@ -1,5 +1,5 @@
 ---
-title: "Installing Software"
+title: "Installing software packages"
 class_name: docs
 full_width: true
 ---

@@ -3,7 +3,6 @@ terminal
 installsw
 always-on
 access
-default-installed
 granting-access
 startup
 restart-reset

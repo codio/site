@@ -14,7 +14,7 @@ Your server is put to sleep within a few minutes of you exiting your Project.
 Paid subscribers can use the [Always On Boxes](/docs/boxes/always-on/) feature. This allows you to mark Projects that you don't want to be put to sleep when you exit your Project.
 
 ##Can I SSH into my Box?
-We support the ability to SSH into you Box as [described here](/docs/boxes/ssh-access/).
+We support the ability to SSH into you Box as [described here](/docs/boxes/access/ssh-access/).
 
 ##Can I reboot my Box?
 Yes. Please refer to the [Restart and Reset](/docs/boxes/restart-reset/) documentation.
@@ -29,10 +29,10 @@ At the moment, we do not provide sudo access. However, you should not require it
 We have a really simple way of installing languages, databases, web servers and many other components. Please refer to the [Install software](/docs/boxes/installsw/) documentation.
 
 ##How do I access my Box from code
-We have [full documentation]() on how to access your Box from code.
+We have [full documentation](/docs/boxes/access/) on how to access your Box from code.
 
 ##Firewall issues
-Codio Boxes do not run on port 80. Some companies block outbound access to ports other than port 80. Please read [this section](/docs/boxes/ext-access/) on how to work around this.
+Codio Boxes do not run on port 80. Some companies block outbound access to ports other than port 80. Please read [this section](/docs/boxes/access/ext-access/) on how to work around this.
 
 ##Important 'localhost' configuration information
 In many config files on your Box you would include a reference to `127.0.0.1` to access localhost. Please be sure to use `0.0.0.0` instead.

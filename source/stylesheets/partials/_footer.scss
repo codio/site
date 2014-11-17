@@ -20,12 +20,11 @@
         @include outer-container;
         @include clearfix;
         @include span-columns(4 of 4);
-        @include omega(4n);
+        @include omega;
         color: $footer-color;
 
         @include media($large-screen-up) {
             @include span-columns(20);
-            @include omega(20n);
         }
     }
 

@@ -13,10 +13,10 @@ body {
         margin-left: $header-width;
         padding-top: 0;
     }
+}
 
-    .wrapper {
-        @include outer-container;
-    }
+.wrapper {
+    @include outer-container;
 }
 
 section {

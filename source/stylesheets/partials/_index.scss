@@ -96,7 +96,8 @@ body.index {
         @include omega;
 
         @include media($large-screen-up) {
-            @include span-columns(20);
+            @include span-columns(20 of 20);
+            max-width: none;
         }
 
         margin-top: 0;

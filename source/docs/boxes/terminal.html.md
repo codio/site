@@ -1,5 +1,5 @@
 ---
-title: "The Terminal Window"
+title: "Terminal Window"
 class_name: docs
 full_width: true
 ---

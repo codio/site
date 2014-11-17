@@ -1,5 +1,5 @@
 ---
-title: "Restarting and Resetting your Box"
+title: "Restart and Reset"
 class_name: docs
 full_width: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Adding Codio menu shortcuts"
+title: "Custom IDE Shortcuts"
 class_name: docs
 full_width: true
 ---

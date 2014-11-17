@@ -1,5 +1,5 @@
 ---
-title: "Granting access to your Boxes"
+title: "Granting IDE access to your Box"
 class_name: docs
 full_width: true
 ---

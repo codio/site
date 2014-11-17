@@ -18,7 +18,7 @@ You can also create and configure the `startup.sh` file in the root of your proj
 parts start apache2 myotherservice
 ```
 
-The Box Parts command line utility is explained in [this section](/docs/boxes/installsw/).
+The Box Parts command line utility is explained in [this section](/docs/boxes/installsw/box-parts/).
 
 If you experience problems with auto starting (which should rarely happen) then you can add a parts stop line beforehand
 

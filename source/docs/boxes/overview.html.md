@@ -32,7 +32,7 @@ We have a really simple way of installing languages, databases, web servers and 
 We have [full documentation]() on how to access your Box from code.
 
 ##Firewall issues
-Codio Boxes do not run on port 80. Some companies block outbound access to ports other than port 80. Please read [this section]() on how to work around this.
+Codio Boxes do not run on port 80. Some companies block outbound access to ports other than port 80. Please read [this section](/docs/boxes/ext-access/) on how to work around this.
 
 ##Important 'localhost' configuration information
 In many config files on your Box you would include a reference to `127.0.0.1` to access localhost. Please be sure to use `0.0.0.0` instead.

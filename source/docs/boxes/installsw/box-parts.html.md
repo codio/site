@@ -11,7 +11,7 @@ You can also install software by downloading and compiling from source code.
 As covered in the next section, [Coding your own Packages](/docs/boxes/installsw/parts-coding) you can also create your own Box Parts packages.
 
 ##Install Software tab
-The easiest way to install software packages onto a Codio Box is from the 'Tools->Install software' menu item. This allows you to perform the following actions
+The easiest way to install software packages onto a Codio Box is from the `Tools->Install software` menu item. This allows you to perform the following actions
 
 - search for Packages
 - install packages onto your Box
@@ -28,7 +28,7 @@ Services that support auto starting will have a checkbox in the Autostart column
 ##Command Line
 You can also install Box Parts packages from the [command line](/docs/boxes/terminal/terminal).
 
-Open up a Terminal window from the 'Tools->Terminal' menu item.
+Open up a Terminal window from the `Tools->Terminal` menu item.
 
 Then, enter `parts` on the command line, you will see something like this
 

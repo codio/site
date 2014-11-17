@@ -23,10 +23,10 @@ The easiest way to install software packages onto a Codio Box is from the `Tools
 ![Install Software](/img/docs/install-software.png)
 
 ##Autostarting
-Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box. Please refer to the [Autostarting services]() section for more details.
+Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box. Please refer to the [Autostarting services](/docs/boxes/startup/) section for more details.
 
 ##Command Line
-You can also install Box Parts packages from the [command line](/docs/boxes/terminal/terminal).
+You can also install Box Parts packages from the [command line](/docs/boxes/terminal/).
 
 Open up a Terminal window from the `Tools->Terminal` menu item.
 
@@ -116,7 +116,7 @@ parts status <package-name>
 parts status (lists the status of services provided by all installed packages)
 ```
 
-When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as [described here](/docs/boxes/installsw/startup).
+When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as [described here](/docs/boxes/startup/).
 
 ##Parts folder and config files
 Box Parts installs things in a special location where you have full access and control

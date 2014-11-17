@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 --- 
 
-Unless your project is utilising [Always On Boxes]() you will need to open your Codio Project in order for the Box to be started and ready to receive incoming SSH connections.
+Unless your project is utilising [Always On Boxes](/docs/boxes/always-on/) you will need to open your Codio Project in order for the Box to be started and ready to receive incoming SSH connections.
 
 ##Generating Key Pairs
 There are several sites that explain generating SSH keys. 

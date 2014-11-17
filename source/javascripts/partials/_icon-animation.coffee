@@ -6,7 +6,7 @@ $ ->
   viewportOptions =
     scrollSelector: '.parallax'
     classToAdd: 'animate'
-    offset: 50
+    offset: 150
 
   $('svg.stacks').viewportChecker viewportOptions
   $('svg.ide').viewportChecker viewportOptions

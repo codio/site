@@ -66,8 +66,16 @@ body.pricing {
             margin-right: 0;
         }
 
-        &.highlight {
+        &.light-highlight {
             background: $light-accent-color;
+
+            .card-header {
+                background: $mid-accent-color;
+            }
+        }
+
+        &.highlight {
+            background: $lighter-accent-color;
             margin-top: 27px;
 
             @include media($large-screen-up) {
@@ -75,7 +83,7 @@ body.pricing {
             }
 
             .card-header {
-                background: $mid-accent-color;
+                background: $light-accent-color;
             }
 
             &::before {
@@ -88,7 +96,7 @@ body.pricing {
                 content: '';
                 bottom: 0;
                 margin-bottom: -27px;
-                background: $light-accent-color;
+                background: $lighter-accent-color;
             }
 
             &::before,
@@ -148,10 +156,14 @@ body.pricing {
         }
 
         .card-price {
-            font-size: 2em;
+            font-size: 1.8em;
             font-weight: bold;
             margin: em(20) 0;
 
+            em {
+                font-style: normal;
+                font-size: 1.2em,
+            }
             span {
                 font-size: .4em;
                 font-weight: normal;

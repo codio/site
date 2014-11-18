@@ -29,7 +29,7 @@ At the moment, we do not provide sudo access. However, you should not require it
 We have a really simple way of installing languages, databases, web servers and many other components. Please refer to the [Install software](/docs/boxes/installsw/) documentation.
 
 ##How do I access my Box from code
-We have [full documentation](/docs/boxes/access/) on how to access your Box from code.
+We have [full documentation](/docs/boxes/access/ext-access/) on how to access your Box from code.
 
 ##Firewall issues
 Codio Boxes do not run on port 80. Some companies block outbound access to ports other than port 80. Please read [this section](/docs/boxes/access/ext-access/) on how to work around this.

@@ -3,12 +3,14 @@
   <nav class="top">
     <ul>
       <li>
-        <a href="" id="menu-toggle">
+        <a class="logo" href="" id="menu-toggle">
           <i class="fa fa-bars"></i>
         </a>
       </li>
       <li>
-        <h3><%= link_to ".codio", "/" %></h3>
+        <a href="/">
+          <%= image_tag "logo.png" %>
+        </a>
       </li>
       <li>
         <a href="" class="outline-button">Sign Up</a>
@@ -16,7 +18,9 @@
     </ul>
   </nav>
   <nav class="left slide-menu">
-    <h3><%= link_to ".codio", "/" %></h3>
+    <a class="logo" href="/">
+      <%= image_tag "logo.png" %>
+    </a>
     <%= link_to_nav "Docs", "/docs" %>
     <%= link_to_nav "Pricing", "/pricing" %>
     <%= link_to_nav "Community", "http://forum.codio.com" %>

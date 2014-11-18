@@ -38,6 +38,7 @@ body.index {
 
         .hero-inner {
             $start-color: rgba(255, 255, 255, 0.95);
+            $mid-color: rgba(255, 255, 255, 0.7);
             $end-color: rgba(255, 255, 255, 0.1);
 
             @include outer-container;
@@ -53,7 +54,7 @@ body.index {
 
             @include media(min-width $medium-screen) {
                 background-color: transparent;
-                @include radial-gradient(circle at 50% 50%, $start-color 0%, $start-color 50%, $end-color 90%);
+                @include radial-gradient(circle at 50% 50%, $start-color 0%, $mid-color 65%, $end-color 90%);
                 padding: $base-line-height;
                 @include size(450px 350px);
             }

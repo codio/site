@@ -4,7 +4,7 @@
     $slide-menu-background: #FFFFFF;
     $slide-menu-width: $header-width;
     $slide-menu-color: $base-font-color;
-    $slide-menu-font-size: $base-font-size;
+    $slide-menu-font-size: $large-font-size;
     $slide-menu-highlight: $base-accent-color;
     $slide-menu-hover: tint($slide-menu-highlight, 20%);
     $slide-menu-active: tint($slide-menu-highlight, 20%);
@@ -73,8 +73,7 @@
         font-size: $slide-menu-font-size;
         font-weight: 600;
         margin: em(10) em(37);
-        @include size(70px 25px);
-        line-height: 15px;
-        padding: 5px 10px;
+        @include size(80px 25px);
+        padding: 0px 10px;
     }
 }

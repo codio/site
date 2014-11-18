@@ -46,10 +46,10 @@ activate :syntax
 
 activate :automatic_clowncar,
          :sizes => {
-           :small => 200,
-           :medium => 400,
-           :large => 600,
-           :extraLarge => 800
+           :small => 400,
+           :medium => 600,
+           :large => 800,
+           :extraLarge => 1000
          },
          :namespace_directory => %w(artwork),
          :filetypes => [:jpg, :jpeg, :png]

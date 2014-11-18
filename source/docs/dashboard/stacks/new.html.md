@@ -29,10 +29,13 @@ TODO:Image
 
 You can also add tags to your Stack. The tags should be component names ideally. There is an autocomplete function that will help you to use already defined tags to avoid tag duplication and ensure maximum efficiency when searching.
 
-TODO : NEW PUBLISH STEPS
-
 ##Visibility
-By default, Stacks that you create can be seen by other people in the **Popular** and **All** Stacks listings. If you want to keep your Stack private to you or your Organization, you can select the Private option. Private Stacks require a paid subscription.
+By default, Stacks are kept private to your account until you make them public, at which point they will appear in the **Popular** and **All** Stacks listings for all Codio Users. 
+
+If you want to keep your Stack private to your Organization, you can select the Private option and set the Owner option to your Organization.
 
 ##Owner
-By default, you will be the owner of this Stack and only you can edit it and [create new versions](/docs/dashboard/stacks/update) of the Stack. If you want to allow others to administer your Stack, you can assign it to another user or to an Organization.
+By default, you will be the owner of this Stack and only you can edit it and [create new versions](/docs/dashboard/stacks/update) of the Stack. 
+
+If you want to allow others to administer your Stack, you can assign it to another user or to an Organization.
+

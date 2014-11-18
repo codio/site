@@ -18,11 +18,11 @@ Each Starter Pack requires a [Stack](/docs/quickstart/stacks/). If you only need
 ##Description Details
 You can add short and long descriptions as well as an image and tags. Tags are important and will allow you and others to find Packs in a more targeted fashion.
 
-TODO: PUBLISH STEPS WHEN DONE
-
 ##Visibilty
-You can make your Packs Private (with a paid subscription) or Public.
+By default, Starter Packs are kept private to your account until you make them public, at which point they will appear in the **Popular** and **All** Packs listings for all Codio Users. 
+
+If you want to keep your Starter Pack private to your Organization, you can select the Private option and set the Owner option to your Organization.
 
 ##Ownership
-You can specify whether other Codio Users within your Organizatio are able to access and Administer your Packs. If you are not a member of an Organiation, this cannot be used.
+You can specify whether other Codio Users within your Organizatio are able to access and Administer your Packs. If you are not a member of an Organization, this cannot be used.
 

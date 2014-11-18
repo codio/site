@@ -16,6 +16,7 @@ body.index {
 
         height: 100vh;
         padding-top: 20vh;
+        max-width: none;
 
         @include media($medium-screen-up) {
             background-image: url($hero-image-medium);

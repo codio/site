@@ -14,54 +14,46 @@
         margin-left: $header-width;
     }
 
-    .footer-links,
-    .share-links,
-    .copy {
+    .footer-links, .copy {
         @include outer-container;
-        @include clearfix;
         @include span-columns(4 of 4);
         @include omega;
         color: $footer-color;
 
         @include media($large-screen-up) {
-            @include span-columns(20);
+            @include shift(2 of 20);
+            @include span-columns(16 of 20);
         }
     }
 
-    .share-links > ul {
+    .copy {
         text-align: center;
-        margin-bottom: em(20);
+        border-top: 1px solid #5f6569;
+        padding: $base-line-height 0;
 
-        li {
-            display: inline;
+        span {
+            padding: 0 $base-line-height/2;
         }
 
         @include media($large-screen-up) {
-            @include span-columns(20);
-        }
-    }
-    .copy {
-        text-align: center;
-    }
-
-    .footer-links {
-        ul {
-            &:first-child {
-                @include media($large-screen-up) {
-                    @include shift(2);
-                }
-            }
+            @include shift(2);
+            @include span-columns(16);
         }
     }
 
     ul {
-        margin-bottom: em(20);
-        padding: 0 em(40);
-        @include span-columns(4);
-        @include clearfix;
+        margin-bottom: $base-line-height;
+        padding: 0 45px;
+        @include span-columns(2 of 4);
+        @include omega(2n);
+
+        &:last-child {
+            padding: 0 26px;
+        }
 
         @include media($large-screen-up) {
-            @include span-columns(5);
+            @include span-columns(4 of 16);
+            clear: initial !important;
         }
 
     }
@@ -73,10 +65,18 @@
         @include media($large-screen-up) {
             text-align: left;
         }
+
+        h4 {
+            font-size: $base-font-size;
+            margin-bottom: $base-line-height;
+        }
+
         a {
             color: $footer-color;
 
-
+            i {
+                padding-right: 10px;
+            }
 
             &:hover {
                 color: transparentize($footer-color, 0);
@@ -85,15 +85,7 @@
     }
 
 
-    p {
-        color: $footer-color;
-        margin: auto;
-        max-width: 35em;
-        text-align: center;
-    }
-
     .artwork {
-        margin-top: em(10);
-        height: em(40);
+        height: 2*$base-line-height;
     }
 }

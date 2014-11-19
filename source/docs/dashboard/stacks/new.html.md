@@ -9,7 +9,7 @@ If you can't find an existing Stack that is ready to use, then you can configure
 To do this you will first need to
 
 - Either create a new project and [install the software components](/docs/boxes/installsw) into it.
-- Or use an existing project. Once you have the [software components correctly configured](/docs/boxes/installsw), you are ready to add that project's Stack to the Stack library.
+- Or use an existing project. Once you have the [software components](/docs/boxes/installsw) correctly configured, you are ready to add that project's Stack to the Stack library.
 
 To create your new Stack, click the `Create Stack` button at the top right of the Stack listing screen.
 

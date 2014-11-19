@@ -66,7 +66,23 @@ body.pricing {
             margin-right: 0;
         }
 
+        &.light-highlight,
+        &.lighter-highlight,
+        &.highlight {
+            a {
+                color: $base-accent-color;
+            }
+        }
+
         &.light-highlight {
+            background: $mid-accent-color;
+
+            .card-header {
+                background: $dark-accent-color;
+            }
+        }
+
+        &.lighter-highlight {
             background: $light-accent-color;
 
             .card-header {
@@ -85,6 +101,7 @@ body.pricing {
             .card-header {
                 background: $light-accent-color;
             }
+
 
             &::before {
                 content: 'Recommended';
@@ -173,6 +190,8 @@ body.pricing {
         a {
             @include outline-button;
             margin-bottom: 40px;
+            background: white;
+            color: $base-font-color;
         }
 
         .card-stats {

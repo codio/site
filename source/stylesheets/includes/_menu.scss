@@ -83,7 +83,7 @@
             color: $slide-menu-color;
             padding: $base-line-height/2;
 
-            &:nth-child(4) {
+            &:nth-child(5) {
                 margin-left: 2*$base-line-height;
             }
 
@@ -99,6 +99,24 @@
 
             @include media($large-screen-up) {
                 margin: $base-line-height - 1px;
+            }
+        }
+
+        &.badge {
+            display: none;
+
+            @include media($large-screen-up) {
+                display: initial;
+                padding-top: 5px;
+
+                img {
+                    width: 80px;
+                }
+
+                span {
+                    padding: 7px 20px;
+                    float: right;
+                }
             }
         }
     }

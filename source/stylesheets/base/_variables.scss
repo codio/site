@@ -69,6 +69,7 @@ $base-background-color: $light-background;
 $base-font-color: #4F5559;
 
 $base-accent-color: $highlight-color;
+$dark-accent-color: lighten($base-accent-color, 10%);
 $mid-accent-color: lighten($base-accent-color, 20%);
 $light-accent-color: lighten($base-accent-color, 30%);
 $lighter-accent-color: lighten($base-accent-color, 35%);

@@ -23,8 +23,6 @@ body.index {
         }
         @include media($large-screen-up) {
             background-image: url($hero-image-large);
-
-            margin-left: $header-width;
         }
         @include media($extra-large-screen-up) {
             background-image: url($hero-image-extra-large);
@@ -137,6 +135,10 @@ body.index {
 
             p {
                 margin: 0 0 2*$base-line-height;
+            }
+
+            @include media($large-screen-up) {
+                @include span-columns(11);
             }
         }
 

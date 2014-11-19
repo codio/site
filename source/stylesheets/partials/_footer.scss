@@ -10,10 +10,6 @@
     background: $footer-background;
 
 
-    @include media($large-screen) {
-        margin-left: $header-width;
-    }
-
     .footer-links, .copy {
         @include outer-container;
         @include span-columns(4 of 4);
@@ -43,17 +39,20 @@
 
     ul {
         margin-bottom: $base-line-height;
-        padding: 0 45px;
+        padding: 0 65px;
         @include span-columns(2 of 4);
-        @include omega(2n);
+
 
         &:last-child {
             padding: 0 26px;
         }
 
+        @include media(max-width $large-screen) {
+            @include omega(2n);
+        }
+
         @include media($large-screen-up) {
             @include span-columns(4 of 16);
-            clear: initial !important;
         }
 
     }
@@ -87,5 +86,6 @@
 
     .artwork {
         height: 2*$base-line-height;
+        margin-top: 0;
     }
 }

@@ -23,8 +23,6 @@ body.index {
         }
         @include media($large-screen-up) {
             background-image: url($hero-image-large);
-
-            margin-left: $header-width;
         }
         @include media($extra-large-screen-up) {
             background-image: url($hero-image-extra-large);
@@ -34,7 +32,38 @@ body.index {
 
     .hero {
         background: transparent;
-        padding-bottom: 20vh;
+
+        .info {
+            margin: 16vh 3vh 3vh 0;
+            float: right;
+            display: block;
+            position: relative;
+            text-decoration: none;
+
+            i {
+                font-size: 18px;
+            }
+
+            span {
+                padding: 5px 10px;
+                background: rgba(255, 255, 255, 0.9);
+                border-radius: $base-border-radius;
+                min-width: 70px;
+                position: absolute;
+                top: -25px;
+                left: -145px;
+                margin-right: 25px;
+                color: $base-font-color;
+                text-align: center;
+                opacity: 0;
+                @include transition(opacity .5s ease);
+            }
+
+            &:hover span {
+                opacity:1;
+            }
+
+        }
 
         .hero-inner {
             $start-color: rgba(255, 255, 255, 0.95);
@@ -137,6 +166,10 @@ body.index {
 
             p {
                 margin: 0 0 2*$base-line-height;
+            }
+
+            @include media($large-screen-up) {
+                @include span-columns(11);
             }
         }
 

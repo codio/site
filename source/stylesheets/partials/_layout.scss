@@ -10,7 +10,6 @@ body {
     padding-top: 60px;
 
     @include media($large-screen) {
-        margin-left: $header-width;
         padding-top: 0;
     }
 }
@@ -51,7 +50,7 @@ header.artwork {
 }
 
 .artwork {
-    height: 4 * $base-line-height;;
+    height: 3 * $base-line-height;;
 
     @include span-columns(4);
 
@@ -64,6 +63,7 @@ header.artwork {
         background-image: url($hero-image-medium);
     }
     @include media($large-screen-up) {
+        margin-top: 65px;
         background-image: url($hero-image-large);
     }
     @include media($extra-large-screen-up) {

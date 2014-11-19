@@ -9,6 +9,26 @@ header {
         background: $header-background;
         @include clearfix;
 
+
+        a.logo {
+            padding: 8px 15px;
+            width: 110px;
+            margin: $base-line-height/2 $base-line-height;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+        }
+
+        &.left {
+            a.logo {
+                background-image: image_url('logo-light.svg');
+
+                @include media($large-screen-up) {
+                    background-image: image_url('logo-dark.svg');
+                }
+            }
+        }
+
         &.top {
             position: fixed;
             left: 0;
@@ -23,11 +43,8 @@ header {
                 float: left;
 
                 &.logo {
-                    padding: 8px 15px;
-
-                    img {
-                        height: 40px;
-                    }
+                    margin-left: 0;
+                    background-image: image_url('logo-dark.svg');
                 }
 
                 &:last-child {

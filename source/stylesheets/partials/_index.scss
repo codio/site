@@ -1,12 +1,12 @@
 body.index {
 
+    #content {
+        padding-top: 0;
+    }
+
     header.artwork {
         display: none;
     }
-
-    $hero-background-top: darken($base-accent-color, 25);
-    $hero-background-bottom: adjust-hue($hero-background-top, -70);
-    $hero-color: $base-font-color;
 
     .hero-image {
         background-image: url($hero-image-small);
@@ -39,14 +39,14 @@ body.index {
         .hero-inner {
             $start-color: rgba(255, 255, 255, 0.95);
             $mid-color: rgba(255, 255, 255, 0.9);
-            $end-color: rgba(255, 255, 255, 1);
+            $end-color: rgba(255, 255, 255, .4);
 
             @include outer-container;
 
             margin: 0 auto;
             text-align: center;
-            color: $hero-color;
-            padding: 40px;
+            color: $base-font-color;
+            padding: 2*$base-line-height;
 
             background-color: $start-color;
             @include size(100% 90%);
@@ -54,13 +54,11 @@ body.index {
 
             @include media(min-width $medium-screen) {
                 background-color: transparent;
-                @include radial-gradient(circle at 65% 65%, $start-color 0%, $mid-color 65%, $end-color 90%);
-                padding: $base-line-height;
-                @include size(450px 350px);
+                @include radial-gradient(circle at 50% 50%, $start-color 0%, $mid-color 70%, $end-color 90%);
+                @include size(600px 350px);
             }
 
             @include media(min-height $large-screen-height min-width $large-screen) {
-                padding: 2*$base-line-height;
                 @include size(630px 380px);
             }
 
@@ -76,12 +74,14 @@ body.index {
                 text-align: center;
 
                 h1 {
-                    margin-bottom: em(10);
+                    margin-bottom: $base-line-height;
                 }
 
                 p {
                     margin: auto;
                     margin-bottom: 2*$base-line-height;
+                    font-size: $large-font-size;
+                    font-weight: 400;
 
                     @include media($medium-screen-height) {
                         width: 400px;

@@ -28,11 +28,7 @@ $ ->
 
   menu = $ '.slide-menu'
   menuToggle = $ '#menu-toggle'
-  body = $ 'document'
   root = document.documentElement
-
-  menuToggleTap = new Tap('menu-toggle')
-  bodyTap = new Tap(root)
 
   openMenuHandler = (event) ->
     event.preventDefault()
@@ -54,11 +50,10 @@ $ ->
 
     if menu.hasClass 'open'
       delay ->
-        root.addEventListener 'tap', closeMenuHandler, false
-        #body.on 'click', closeHandler
+        $(document).on 'click', closeMenuHandler
+        $(document).on 'tap', closeMenuHandler
     else
-      root.removeEventListener 'tap', closeMenuHandler, false
-      #body.off 'click', closeHandler
-
+      $(document).off 'click', closeMenuHandler
+      $(document).on 'tap', closeMenuHandler
 
   menuToggle.on 'click', openMenuHandler

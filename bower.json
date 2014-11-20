@@ -2,10 +2,10 @@
   "name": "Codio Site",
   "version": "1.0.0",
   "devDependencies": {
-    "tap.js": "~2.0.0",
     "cookie-monster": "~0.3.0",
     "zepto": "~1.1.4",
     "html5shiv": "~3.7.2",
-    "blueimp-md5": "~1.1.0"
+    "blueimp-md5": "~1.1.0",
+    "zeptotouch": "~1.1.4"
   }
 }

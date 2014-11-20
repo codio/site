@@ -1,5 +1,5 @@
 #= require zepto
-#= require tap.js/tap
+#= require zeptotouch
 #= require cookie-monster
 #= require blueimp-md5
 #

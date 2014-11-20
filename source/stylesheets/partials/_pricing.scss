@@ -1,7 +1,7 @@
 body.pricing {
 
     #content {
-        background: #F6F6F6;
+        background: $light-background;
     }
 
     h1 {
@@ -29,6 +29,7 @@ body.pricing {
         p {
             text-align: center;
             padding: $base-line-height 0;
+            font-size: $large-font-size;
         }
     }
 

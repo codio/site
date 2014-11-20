@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-This tutorial explains how to install PHPBrew on a Codio Box. 
+This tutorial explains how to install [PHPBrew](https://github.com/phpbrew/phpbrew) on a Codio Box. 
 
 Start by opening up a Terminal window (Tools->Terminal).
 
@@ -97,6 +97,8 @@ and you should see
 	Installed versions:
 		* (system)  
 		php-5.4.26 (/home/codio/.phpbrew/php/php-5.4.26) 
+    
+Different versions can require different modules/variants. Check out [PHPBrew](https://github.com/phpbrew/phpbrew) for more on this.
 
 ##Installing PHP modules
 PHPBrew can also install PHP modules. You can list all available modules like this

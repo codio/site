@@ -112,5 +112,6 @@ configure :build do
   # Enable cache buster
   activate :asset_hash
 
-  set :asset_host, "http://blooming-peak.herokuapp.com"
+  #set :asset_host, "http://blooming-peak.herokuapp.com"
+  set :asset_host, "http://edu.codiodev.com"
 end

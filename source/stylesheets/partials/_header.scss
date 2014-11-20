@@ -11,7 +11,7 @@ header {
 
 
         a.logo {
-            padding: 8px 15px;
+            padding: 8px 0 8px 15px;
             width: 110px;
             margin: $base-line-height/2 $base-line-height;
             background-repeat: no-repeat;
@@ -25,6 +25,7 @@ header {
 
                 @include media($large-screen-up) {
                     background-image: image_url('logo-dark.svg');
+                    margin-right: 0;
                 }
             }
         }

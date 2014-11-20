@@ -81,10 +81,10 @@
 
         @include media($large-screen-up) {
             color: $slide-menu-color;
-            padding: $base-line-height/2;
+            padding: $base-line-height/2 $base-line-height/3;
 
             &:nth-child(5) {
-                margin-left: 2*$base-line-height;
+                margin-left: 30px;
             }
 
         }

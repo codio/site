@@ -43,6 +43,10 @@ In the Preview dropdown menu, you can select one of the following ways to previe
 
 If you are previewing a private project you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket method, a random password is created for your account. Go to Codio>Account where you can see your username on the Profile tab and where on the Password tab you can set up a password of your own choosing.
 
+This only applies to code being previewed over the standard ports 80 and 443. Previewing via any other port will have no authentication, because the code is being served from your application server, which we have no control over but you can add your own authentication.
+
+See [Apache Password Basic Authentication](https://wiki.apache.org/httpd/PasswordBasicAuth) and [HTTP Authentication with PHP](http://php.net/manual/en/features.http-auth.php) for some examples.
+
 ##Modifying the Preview menu
 You are free to customize the menu in either of the following ways
 

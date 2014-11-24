@@ -68,9 +68,13 @@
                 @include span-columns(4 of 20);
             }
 
+            @include transition(background .2s linear);
+
             &:not(.active) {
                 &:hover {
+                    @include transition(background .2s linear);
                     background: $dark-gray;
+                    cursor: pointer;
                 }
             }
 

@@ -8,15 +8,16 @@ body.index {
         display: none;
     }
 
-    .hero-image {
+    .hero {
         background-image: url($hero-image-small);
         background-repeat: no-repeat;
-        background-position: top;
+        background-attachment: fixed;
+        background-position: center center;
         background-size: cover;
 
-        height: 100vh;
-        padding-top: 20vh;
+        height: 95vh;
         max-width: none;
+        padding-top: 20vh;
 
         @include media($medium-screen-up) {
             background-image: url($hero-image-medium);
@@ -27,11 +28,6 @@ body.index {
         @include media($extra-large-screen-up) {
             background-image: url($hero-image-extra-large);
         }
-
-    }
-
-    .hero {
-        background: transparent;
 
         .info {
             margin: 16vh 3vh 3vh 0;

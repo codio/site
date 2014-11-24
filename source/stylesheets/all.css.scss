@@ -3,6 +3,7 @@
 @import "bourbon";
 @import "base/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
+@import "Paraxify.js/paraxify";
 
 @import "includes/responsive";
 @import "includes/font-awesome/font-awesome";
@@ -12,7 +13,6 @@
 @import "includes/tabs";
 @import "includes/video";
 @import "includes/share-links";
-@import "includes/parallax";
 
 @import "partials/layout";
 @import "partials/header";

@@ -57,15 +57,16 @@
             &:first-of-type {
                 border-radius: $base-border-radius 0 0 $base-border-radius;
                 margin-right: 0;
+                margin-left: 3.33%;
 
                 @include media($large-screen-up) {
-                    @include shift(6 of 20)
+                    @include shift(4 of 20)
                 }
             }
 
 
             @include media($large-screen-up) {
-                @include span-columns(4 of 20);
+                @include span-columns(6 of 20);
             }
 
             @include transition(background .2s linear);

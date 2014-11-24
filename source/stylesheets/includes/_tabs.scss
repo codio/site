@@ -1,7 +1,4 @@
-// Pure CSS3 tabs
-//
-// taken from http://tympanus.net/codrops/2012/04/12/animated-content-tabs-with-css3/
-.tabs {
+#tabs {
 
     position: relative;
 
@@ -18,83 +15,81 @@
 
     margin-bottom: em(40);
 
-    input {
-        position: absolute;
-	z-index: 1000;
-	width: flex-grid(nth(2 of 8, 1), 8);
-	height: 40px;
-	left: nth(2 of 8, 1) * flex-grid(1, 8) + nth(2 of 8, 1) * flex-gutter(8);
-	top: 0px;
-	opacity: 0;
-        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        filter: alpha(opacity=0);
-	cursor: pointer;
-
-        &#tab-2 {
-	    left: nth(4 of 8, 1) * flex-grid(1, 8) + nth(4 of 8, 1) * flex-gutter(8);
-        }
-        &:hover + label {
-	    background: $dark-gray;
-        }
-        &:checked + label {
-            background: $base-font-color;
-	    z-index: 6;
-        }
-        &.tab-selector-1:checked ~ .content .content-1,
-        &.tab-selector-2:checked ~ .content .content-2 {
-	    z-index: 100;
-            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-            filter: alpha(opacity=100);
-            display: initial;
-
-            @include transition(all ease-out 0.2s 0.1s);
-        }
+    .active,
+    .hidden {
+        @include transition(all .2s ease-in-out);
     }
 
-    label {
-	font-size: 1.2em;
-	line-height: 32px;
-	height: 30px;
-	position: relative;
-	padding: 0 20px;
-        float: left;
-	display: block;
-	color: white;
-	font-weight: 400;
-	text-align: center;
-        border-radius: 0 $base-border-radius $base-border-radius 0;
-        background: $medium-gray;
+    .active {
+        opacity: 1;
 
-        @include span-columns(2 of 4);
-        @include omega(2n);
+    }
+
+    .hidden {
+        //display: none;
+        opacity: 0;
+    }
+
+    ul.tab-headers {
+        @include outer-container;
+        @include span-columns(4 of 4);
+        @include omega;
+
+        margin-bottom: $base-line-height*3;
 
         @include media($large-screen-up) {
-            @include span-columns(2 of 8);
-            @include omega(2n);
+            @include span-columns(20 of 20);
         }
 
-        &:first-of-type {
-            z-index: 4;
-            margin-left: 3%;
-            border-radius: $base-border-radius 0 0 $base-border-radius;
+        li {
+            border-radius: 0 $base-border-radius $base-border-radius 0;
+            background: $medium-gray;
+	    display: block;
+	    text-align: center;
 
-            @include media($large-screen-up) {
-                @include shift(2 of 8)
+            @include span-columns(2 of 4);
+            @include omega(2n);
+
+            &.active {
+                background: $base-font-color;
             }
 
+            &:first-of-type {
+                border-radius: $base-border-radius 0 0 $base-border-radius;
+                margin-right: 0;
+
+                @include media($large-screen-up) {
+                    @include shift(6 of 20)
+                }
+            }
+
+
+            @include media($large-screen-up) {
+                @include span-columns(4 of 20);
+            }
+
+            &:not(.active) {
+                &:hover {
+                    background: $dark-gray;
+                }
+            }
+
+            a {
+	        font-size: 1.2em;
+	        line-height: 32px;
+	        height: 30px;
+	        position: relative;
+	        padding: 0 20px;
+	        color: white;
+	        font-weight: 400;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
         }
-
-
-        &.tab-label-2 {
-            z-index: 3;
-        }
-
     }
 
-
-    .clear-shadow {
-	clear: both;
-    }
 
     .content {
 	position: relative;

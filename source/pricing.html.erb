@@ -12,23 +12,21 @@ title: Pricing
   </p>
 </section>
 
-<section class="tabs">
+<div id="tabs">
+  <ul class="tab-headers">
+    <li class="active">
+      <a href="#tab1">Education</a>
+    </li>
+    <li>
+      <a href="#tab2">Professional</a>
+    </li>
+  </ul>
 
-  <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked"/>
-  <label for="tab-1" class="tab-label-1">Education</label>
-
-  <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2"/>
-  <label for="tab-2" class="tab-label-2">Professional</label>
-
-  <div class="clear-shadow"></div>
-  <div class="content">
-
-    <div class="content-1">
-      <%= partial "pricing-education" %>
-    </div>
-
-    <div class="content-2">
-      <%= partial "pricing-professional" %>
-    </div>
+  <div id="tab1" class="tab">
+    <%= partial "pricing-education" %>
   </div>
-</section>
+
+  <div id="tab2" class="tab">
+    <%= partial "pricing-professional" %>
+  </div>
+</div>

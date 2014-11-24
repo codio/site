@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../thirdparty/css/bootstrap.min.css" />
+	</head>
+	<body>
+		<div id="content">
+			<div id="tabbed">
+				<ul class="tab-headers tabs">
+					<li><a href="#tab1">Tab 1</a></li>
+					<li><a href="#tab2">Tab 2</a></li>
+					<li><a href="#tab3">Tab 3</a></li>
+				</ul>
+				<div id="tab1" class="tabcontent">
+					Content 1
+				</div>
+				<div id="tab2" class="tabcontent">
+					Content 2
+				</div>
+				<div id="tab3" class="tabcontent">
+					Content 3
+				</div>
+			</div>
+			<button class="btn" id="previous">Previous</button>
+			<button class="btn" id="next">Next</button>
+
+
+			<div id="pills">
+				<ul class="tab-headers pills">
+					<li><a href="#tab1">Tab 1</a></li>
+					<li><a href="#tab2">Tab 2</a></li>
+					<li><a href="#tab3">Tab 3</a></li>
+				</ul>
+				<div id="tab1" class="tabcontent">
+					Content 1
+				</div>
+				<div id="tab2" class="tabcontent">
+					Content 2
+				</div>
+				<div id="tab3" class="tabcontent">
+					Content 3
+				</div>
+			</div>
+			
+		</div>
+		<style>
+			#content
+			{
+				margin: 20px;
+			}
+
+			.hidden
+			{
+				display: none;
+			}
+
+			#pills
+			{
+				margin-top: 30px;
+			}
+		</style>
+		<style media="print">
+			.hidden
+			{
+				display: block;
+			}
+			.tabs
+			{
+				display: none;
+			}
+			.btn
+			{
+				display: none;
+			}
+			.tabcontent
+			{
+				margin-bottom: 20px;
+			}
+		</style>
+		<script src="../thirdparty/js/jquery-1.7.1.min.js"></script>
+		<script src="../jqTabs.js"></script>
+		<script>
+			$(document).ready(
+				function()
+				{
+					var tabs = new jqTabs($("#tabbed"));
+
+					$('#next').click(function()
+					{
+						tabs.next();
+					});
+
+					$('#previous').click(function()
+					{
+						tabs.previous();
+					});
+
+					var pills = new jqTabs($("#pills"), {activeClass : 'active'});
+
+				}
+			);
+		</script>
+	</body>
+</html>

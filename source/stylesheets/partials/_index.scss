@@ -9,7 +9,7 @@ body.index {
     }
 
     .hero {
-        background-image: url($hero-image-small);
+        background-image: none;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center center;
@@ -32,9 +32,13 @@ body.index {
         .info {
             margin: 16vh 3vh 3vh 0;
             float: right;
-            display: block;
+            display: none;
             position: relative;
             text-decoration: none;
+
+            @include media($large-screen-up) {
+                display: block;
+            }
 
             i {
                 font-size: 18px;
@@ -73,12 +77,11 @@ body.index {
             color: $base-font-color;
             padding: 2*$base-line-height;
 
-            background-color: $start-color;
+            background-color: transparent;
             @include size(100% 90%);
 
 
             @include media(min-width $medium-screen) {
-                background-color: transparent;
                 @include radial-gradient(circle at 50% 50%, $start-color 0%, $mid-color 70%, $end-color 90%);
                 @include size(600px 350px);
             }
@@ -141,7 +144,7 @@ body.index {
             text-align: center;
             padding: 0 2*$base-line-height;
 
-            img {
+            svg {
                 display: none;
 
                 @include media($medium-screen-up) {

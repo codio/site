@@ -34,8 +34,11 @@ By default, Stacks are kept private to your account until you make them public, 
 
 If you want to keep your Stack private to your Organization, you can select the Private option and set the Owner option to your Organization.
 
+**Important** : please do not make your Stacks public unless they are tried, tested and fit for public consumption so as not to fill the **All** listing with junk.
+
+
 ##Owner
 By default, you will be the owner of this Stack and only you can edit it and [create new versions](/docs/dashboard/stacks/update) of the Stack. 
 
-If you want to allow others to administer your Stack, you can assign it to another user or to an Organization.
+If you want to allow others to see and administer your Stack, you can assign it to another user or to an Organization.
 

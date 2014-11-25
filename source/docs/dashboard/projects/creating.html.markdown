@@ -29,4 +29,4 @@ By default, Codio auto saves your files as you type. However, there are two reas
 You can change to manual save with the IDE from the `Project->Settings` menu or from the Dashboard Projects listing by clicking the gear icon of the Project on the right hand side of the listing.
 
 ##Visibility
-By default, your Project will be Public, meaning it is findable by any Codio user. If you have a subscription, you can mark the Project as private. You can assign access read, write and full admin rights to other users for the Project from within the IDE from the `Project->Permissions` menu.
+By default, your Project will be public, meaning it is findable by any Codio user. If you have a subscription, you can mark the Project as private. You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for the Project from within the IDE from the `Project->Permissions` menu.

@@ -1,5 +1,5 @@
 ---
-title: "Requesting additional packs"
+title: "Requesting additional Packs"
 class_name: docs
 full_width: true
 ---

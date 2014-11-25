@@ -23,6 +23,8 @@ By default, Starter Packs are kept private to your account until you make them p
 
 If you want to keep your Starter Pack private to your Organization, you can select the Private option and set the Owner option to your Organization.
 
+**Important** : please do not make your Packs public unless they are tried, tested and fit for public consumption so as not to fill the **All** listing with junk.
+
 ##Ownership
 You can specify whether other Codio Users within your Organizatio are able to access and Administer your Packs. If you are not a member of an Organization, this cannot be used.
 

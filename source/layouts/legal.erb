@@ -1,4 +1,9 @@
 <% wrap_layout :layout do %>
+  <article>
+    <h2><%= current_page.data.title %></h2>
+    <%= yield %>
+  </article>
+
   <aside>
     <nav>
       <ul id="legal-menu">
@@ -18,8 +23,4 @@
       </ul>
     </nav>
   </aside>
-  <article>
-    <h2><%= current_page.data.title %></h2>
-    <%= yield %>
-  </article>
 <% end %>

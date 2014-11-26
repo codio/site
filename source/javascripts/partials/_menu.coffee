@@ -36,9 +36,11 @@ $ ->
     toggleMenu()
 
   closeMenuHandler = (event) ->
-    event.preventDefault()
+    target = $(getTarget event)
 
-    elem = $(getTarget event).closest '.slide-menu'
+    event.preventDefault() unless target[0].tagName is 'A'
+
+    elem = target.closest '.slide-menu'
 
     toggleMenu() if elem.length is 0
 

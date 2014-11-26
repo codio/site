@@ -6,9 +6,12 @@ module MyHelpers
       r.url === url.split("/")[0..2].join("/") + "/"
     end
   end
+
   # Returns all pages under a certain directory.
   def sub_pages(dir)
-    sitemap.resources.find_resource_by_path(dir)
+    sitemap.resources.select do |r|
+      r.url.start_with? "/#{dir}"
+    end
   end
 
   def current_page?(path)

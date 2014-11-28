@@ -67,11 +67,12 @@ body.about #content {
                 @include media($large-screen-up) {
                     @include span-columns(5 of 20);
                     @include omega(4n);
-                    height: 480px;
+                    height: 600px;
                 }
 
+
                 h2 {
-                    margin-top: em(10);
+                    margin-bottom: 0;
                 }
 
                 img {
@@ -79,8 +80,9 @@ body.about #content {
                 }
 
                 .body {
-                    font-size: $large-font-size;
-                    padding: em(20) em(20) em(40);
+                    font-size: $base-font-size;
+                    line-height: $base-line-height;
+                    padding: $base-line-height;
                 }
             }
         }

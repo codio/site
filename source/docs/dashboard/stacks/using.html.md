@@ -20,9 +20,9 @@ By default, Codio will use the latest version of the selected Stack. Codio Stack
 There are two ways to use a version.
 
 1. Firstly, click on the Stack (not the Use icon) so you see the Stack information screen. On the top right of the information panel, you can drop down the Use Stack button and select a Stack version. 
-1. You can also select the `Changelog` link above the main listing and see information about each version.
+1. You can also select the `Versions` link above the main listing and see information about each version.
 
-[IMAGE CHANGELOG]
+[IMAGE VERSIONS]
 
 
 

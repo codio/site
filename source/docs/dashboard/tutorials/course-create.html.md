@@ -21,7 +21,7 @@ You should also add tags that identify the technologies used. An image is also s
 This determines whether your Tutorial is publicly available to all Codio users or should remain private to you and/or your [Organization](/docs/dashboard/organizations/) (if you are a member of an Organization). Private Tutorials require a paid subscription.
 
 ##Owner
-By default, you are the owner of the Tutorial you create. If you select an Organization from the dropdown, then any Teachers within that Organization are able to adminster the Tutorial.
+By default, you are the owner of the Tutorial you create. If you select an Organization from the dropdown, then any Owner team members of that Organization are able to adminster the Tutorial and all Organization members will be able to see it in the listing, even if the Tutorial is marked as private. 
 
 ##Collaborators
 If you want to assign administration rights to an individual users, then add them to this section.

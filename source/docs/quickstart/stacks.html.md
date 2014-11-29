@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-[IMAGE SHOWING LISTING ONCE WE HAVE SOME]
+![Stacks List](/img/docs/stacks_list.png)
 
 Codio [Stacks](/docs/quickstart/stacks/) offers you a range of Certified Stacks that contain commonly used, pre-configured software dependencies (languages, databases and other components).
 
@@ -13,6 +13,6 @@ Additionally, you can create your own Stacks within a Project using the [Install
 ##Creating a Project from a Stack
 To create a Project from your Stacks listing, simply select it and you'll be shown the Stack information screen. 
 
-[IMAGE]
+![Stack Info](/img/docs/stacks_info.png)
 
 From here, you can click the 'Use Stack' button and you'll be taken to the Create Project screen.

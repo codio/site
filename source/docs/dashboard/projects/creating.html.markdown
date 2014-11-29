@@ -6,7 +6,7 @@ full_width: true
 
 Create a new project, or import one by, clicking on the Create Project button on the Dashboard as shown below.
 
-[IMAGE]
+![Create Project](/img/docs/project_create.png)
 
 You can then choose which of the following Project creation methods you want to use
 

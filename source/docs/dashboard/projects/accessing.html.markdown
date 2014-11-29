@@ -6,7 +6,7 @@ full_width: true
 
 The Projects listing shows all your coding Projects. 
 
-[IMAGE]
+![Projects List](/img/docs/projects_list.png)
 
 ##Opening a Project
 To view a project in the IDE, simply click on one of your projects.

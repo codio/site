@@ -32,7 +32,5 @@ If you are working with GitHub or BitBucket, then you need to install the public
 
 You will be redirected to your GitHub/BitBucket account and asked to authorise the application
 
-![SSH Auth](/img/docs/prefs-account-ghauth.png)
-
 On accepting this you will then be redirected back to your Codio account.
 

@@ -6,7 +6,7 @@ full_width: true
 
 To create a new project from a Stack, you should first locate your Stack. You can select from My Stacks, Certified Stacks, Popular Stacks or All Stacks. 
 
-TODO: Image
+![Stacks List](/img/docs/stacks_list.png)
 
 To search for a Stack, enter appropriate search text in the search field. This will typically be the name of the main Stack component(s) you are searching for. This will search the Stack name and description as well as any tags used.
 
@@ -22,7 +22,7 @@ There are two ways to use a version.
 1. Firstly, click on the Stack (not the Use icon) so you see the Stack information screen. On the top right of the information panel, you can drop down the Use Stack button and select a Stack version. 
 1. You can also select the `Versions` link above the main listing and see information about each version.
 
-[IMAGE VERSIONS]
+![Stacks Versions](/img/docs/stacks_versions.png)
 
 
 

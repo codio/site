@@ -13,7 +13,7 @@ A Tutorial module is simply a Codio project that contains
 
 Press the `Add Module` button to add a new module.
 
-[IMAGE]
+![Tutorials Add](/img/docs/tutorials_add.png)
 
 ##Add Details
 Add a description and, importantly, a good description of the project that is helpful to others browsing Tutorial and module content.

@@ -13,7 +13,7 @@ Tecahers can
 - access student code from the class listing
 - assign grades and comments to each student module assignment
 
-[IMAGE]
+![Classroom Add Teachers](/img/docs/classroom_addteachers.png)
 
 To add further teachers to the class, select the Teachers link as shown above.
 

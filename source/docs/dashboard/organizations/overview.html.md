@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-If you are working in teams or are a school, college or university, we recommend you create an Organization. You can request a trial from the [Subscriptions TODO]() page. 
+If you are working in teams or are a school, college or university, we recommend you create an Organization. You can request a trial from the [Organisations](/docs/dashboard/organizations/create/) page. 
 
 Currently, the main advantage of an Organization account is 
 
@@ -16,7 +16,7 @@ We will be adding a great deal of functionality here to support easy signup, stu
 ##Subscriptions and Trials
 We offer very substantial Organization discounts to schools and universities. We also offer Codio for free in certain special situations.
 
-To apply for a trial, head to the [Subscriptions TODO ]() section and click on the Trial or Education Discount links.
+To apply for a trial, head to the [Organisations](/docs/dashboard/organizations/create/) section and click on the Education link.
 
-[IMAGE OF SUBSCRIPTION BUTTON CIRCLED]
+![Organisations Education](/img/docs/organisations_education.png)
 

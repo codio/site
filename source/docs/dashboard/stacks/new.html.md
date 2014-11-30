@@ -13,7 +13,7 @@ To do this you will first need to
 
 To create your new Stack, click the `Create Stack` button at the top right of the Stack listing screen.
 
-TODO: Image with button circled
+![Stacks Create](/img/docs/stacks_create.png)
 
 When you have completed the required fields and pressed the `Create` button, we will generate a Stack image for you. This can take a minute or longer, depending on the size of the Stack image. You  do not need to wait on this screen while the Stack is created, so feel free to continue to other parts of Codio.
 
@@ -25,7 +25,7 @@ Next, add a short name for your Stack and a longer description. You can also add
 
 You can also add an image to make your Stacks listing more instantly recognizable. This should be a square image, which will be reduced in size and will appear in a circle as shown below.
 
-TODO:Image
+![Stacks Image](/img/docs/stacks_image.png)
 
 You can also add tags to your Stack. The tags should be component names ideally. There is an autocomplete function that will help you to use already defined tags to avoid tag duplication and ensure maximum efficiency when searching.
 

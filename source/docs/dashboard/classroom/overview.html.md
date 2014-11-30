@@ -18,15 +18,15 @@ Classrooms can only be created by members of the Owners team. Teams are managed 
 The main Classrooms screen shows a complete listing of all Classrooms belonging to any organizations you are a member of.
 
 
-[IMAGE]
+![Classroom List](/img/docs/classroom_list.png)
 
 When you select a Classroom, you are immediately shown the Tutorial that has been assigned to that Classroom as well as the complete list of modules that make up that Tutorial.
 
-[IMAGE]
+![Classroom Tutorials](/img/docs/classroom_tutorials.png)
 
 You can then select a module and you will see a list of all students who are in the class and were assigned that module.
 
-[IMAGE]
+![Classroom Students](/img/docs/classroom_students.png)
 
 From the list of students for the module, you are also able to access an individual student's code by clicking [TODO : WHERE TO CLICK WITH NEWS SCREENS] (circled in the above screenshot).
 
@@ -34,5 +34,5 @@ You can even assign a grade to the student's work and add comments.
 
 You can also add Teachers to the class so more than one teacher can view and grade student code.
 
-[IMAGE]
+![Classroom Edit](/img/docs/classroom_edit.png)
 

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Account Settings lets you manage the following
+Account Settings can be accessed from bottom of the dashhoard view or the `Codio>Account` menu item and lets you manage the following
 
 - [User profile](/docs/dashboard/settings/profile)
 - [Password](/docs/dashboard/settings/password)

@@ -10,7 +10,7 @@ However, if you are happy to have your course public then it becomes available f
 
 You can make a Tutorial public at Tutorial creation or by pressing the `Edit` button having selected the Tutorial from the listing.
 
-IMAGE]
+![Tutorials Edit](/img/docs/tutorials_edit.png)
 
 ##How to Use and Modify a public Tutorial
 

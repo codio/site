@@ -6,7 +6,7 @@ full_width: true
 
 Codio Stacks lets you create and manage the combination of a Codio Box and installed system level components (languages, databases, web servers etc.) so that you can instantly create new Projects and Boxes from Stack libraries.
 
-[IMAGE]
+![Stacks List](/img/docs/stacks_list.png)
 
 Stacks are divided up into the following searchable areas within the Stacks listing
 

@@ -4,9 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-The `Tutorials` menu item can be found in the left menu area of the Codio dashboard beneath the main 'Education' menu item.
+The `Tutorials` menu item can be found in the left menu area of the Codio dashboard beneath the main 'Starter Packs' menu item.
 
-[IMAGE]
+![Tutorials](/img/docs/tutorials.png)
 
 Tutorials are a great way of grouping and ordering Projects so students can find and access them in one place. 
 

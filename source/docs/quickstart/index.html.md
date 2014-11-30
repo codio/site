@@ -8,7 +8,7 @@ This Quick Start section should help you get up and running as quickly as possib
 ##The Dashboard
 The Dashboard is the first screen you see when you sign in. You will see all your own code Projects listed.
 
-[IMAGE]
+![Projects List](/img/docs/projects_list.png)
 
 This also contains the main navigation options.
 

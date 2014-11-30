@@ -8,5 +8,4 @@ To save you as much time as possible, we include a range of Codio certified Star
 
 To access these, click on the 'Certified Packs' header. You can then use the search field to look for technologies.
 
-[IMAGE]
-
+![Packs Certified](/img/docs/packs_certified.png)

@@ -8,9 +8,9 @@ It can happen that after you create your course you make some changes to the ori
 
 The complete steps to update your course module with a modified Codio project are [described here](/docs/dashboard/tutorials/module-modify).
 
-This updates the course module but it does not update the class module, as these are copies. To update the class from the course you should press the 'Update course' button.
+This updates the course module but it does not update the class module, as these are copies. To update the class from the course you should press the 'Update module source from origin' button.
 
-![](docs/education/update-class-course.png)
+![](/img/docs/update-class-course.png)
 
 ##Classes with module assignments already made
 You should be aware that we currently disable the 'Update course' button if any modules have been assigned to a class. The only way around this is to delete the class and recreate it. 

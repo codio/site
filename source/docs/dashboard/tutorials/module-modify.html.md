@@ -12,7 +12,7 @@ You can edit the source Codio project by opening it from your normal Codio proje
 
 From the same screen, click the `Refresh Source` button to update the module from the source project.
 
-[IMAGE]
+![Module Refresh](/img/docs/module_refresh.png)
 
 You should be aware that if you have created a [class](/docs/dashboard/classroom) and assigned that module to that class then any modifications will not be seen by the class.
 

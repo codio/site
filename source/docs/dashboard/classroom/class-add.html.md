@@ -7,7 +7,7 @@ full_width: true
 To add a new Classroom, press the 'Create' button from the main classes screen. You will then be asked to provide further details. Only the Classroom name is required 
 On creation, you will be automatically added as a Teacher for that class. Teachers are able to assign modules to the Classroom, view student code and assign grades and comments.
 
-[IMAGE]
+![Classroom Create](/img/docs/classroom_create.png)
 
 ##Name & Description
 You are required to enter a **Name** for your class. The **Description** is optional but we strongly recommend providing a detailed description to help students find the correct class and to clearly differentiate from others. 

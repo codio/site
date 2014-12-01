@@ -37,13 +37,11 @@ You can select your stack or starter pack from our pre-configured library and be
 
 ![Stacks Image](/img/docs/stacks_image.png)
 
-Commitment to Innovation
+**Commitment to Innovation**
 
-We passionately believe it’s possible to create a teaching and learning experience that reflects a real world IDE with a user
-experience that inspires innovation in education.
+We passionately believe it’s possible to create a teaching and learning experience that reflects a real world IDE with a user experience that inspires innovation in education.
 
-We were thrilled to find out recently that our innovation in computer programming education is gaining recognition – with Codio now shortlisted
-as a finalist for “Innovator of the Year” in the 2015 BETT awards. Take a look at the video below to see our story:
+We were thrilled to find out recently that our innovation in computer programming education is gaining recognition – with Codio now shortlisted as a finalist for “Innovator of the Year” in the 2015 BETT awards. Take a look at the video below to see our story:
 
 <div class="video">
   <div class="video-wrapper">

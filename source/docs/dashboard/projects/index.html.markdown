@@ -4,5 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Projects are where your code is stored and managed. A Project is always a combination of an Ubuntu Box and a code workspace. 
+Projects are where your code is stored and managed. A Project is always a combination of an Ubuntu Box and a code workspace.
+
+[Click here](/docs/dashboard/projects/accessing/) to start reading.
 

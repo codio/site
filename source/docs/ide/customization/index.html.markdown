@@ -10,7 +10,7 @@ Quick access to the following commonly used settings are available from the 'Vie
 
 - Font Size, Tab Size, Soft Tabs, Wrap, Theme
 
-Full settings can be access and managed as follows
+Full settings can be accessed and managed as follows
 
 - [Account Settings](/docs/ide/customization/account-settings)
 - [User Preferences](/docs/ide/customization/codio-prefs)

@@ -14,7 +14,7 @@ You can automatically perform any of the following actions when a section is sho
 ##Open vs. Close
 Windows can be opened and closed automatically to present the tab configuration you feel is most appropriate for the reader.
 
-![](/img/docs/guides/files.png)
+![](/img/docs/guide_files.png)
 
 The Files dialog allows you to open or close by pressing the respective button on the bottom left of the dialog.
 

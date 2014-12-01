@@ -20,6 +20,14 @@ header {
         }
 
         &.left {
+
+            @include media($large-screen-up) {
+                a.signed-in {
+                    padding: 12px 10px;
+                    font-size: $base-font-size;
+                }
+            }
+
             a.logo {
                 background-image: image_url('logo-light.svg');
 
@@ -77,39 +85,51 @@ header {
                 padding: 15px;
             }
         }
+    }
 
-        .signed-in {
-            display: none;
+    a.actions.signed-out {
+        @include media(max-width $large-screen) {
+            margin-top: $base-line-height;
 
-            #userlink {
-                padding: em(10) 1em;
-
-                #gravatar {
-                    border-radius: 50%;
-                    width: 32px;
-                    vertical-align: middle;
-                    padding-right: 3px;
-                }
+            &.outline-button {
+                margin-top: 0;
             }
+        }
+    }
 
-            #intercom {
-                padding: em(10) 1em;
-                vertical-align: bottom;
+    a.actions.signed-in {
+        display: none;
+        padding: 0 10px;
 
-                .fa-stack {
-                    @include size(32px);
-                    padding-right: 3px;
-                    vertical-align: middle;
-                }
-                .fa-stack-2x {
-                    color: $base-accent-color;
-                    font-size: 32px;
-                    line-height: 37px;
-                }
-                .fa-stack-1x {
-                    color: white;
-                    font-size: 16px;
-                }
+        &#userlink {
+            max-width: 155px;
+            margin-top: $base-line-height;
+
+            #gravatar {
+                border-radius: 50%;
+                width: 30px;
+                vertical-align: middle;
+                padding-right: 3px;
+            }
+        }
+
+        &#intercom {
+            vertical-align: bottom;
+            line-height: 48px;
+
+            .fa-stack {
+                @include size(32px);
+                padding-right: 3px;
+                vertical-align: middle;
+            }
+            .fa-stack-2x {
+                color: $base-accent-color;
+                font-size: 32px;
+            }
+            .fa-stack-1x {
+                color: white;
+                font-size: 16px;
+                line-height: 31px;
             }
         }
     }

@@ -81,7 +81,7 @@
 
         @include media($large-screen-up) {
             color: $slide-menu-color;
-            padding: $base-line-height/2 $base-line-height/3;
+            padding: $base-line-height/2 $base-line-height/3 0;
 
             &:nth-child(5) {
                 margin-left: 30px;
@@ -108,13 +108,14 @@
             @include media($large-screen-up) {
                 display: initial;
                 padding-top: 5px;
+                height: 60px;
 
                 img {
                     width: 80px;
                 }
 
                 span {
-                    padding: 8px 20px;
+                    padding: 8px 20px 0;
                     float: right;
                 }
             }

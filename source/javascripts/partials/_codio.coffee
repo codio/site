@@ -49,7 +49,7 @@ fetchUser = (session, done) ->
 
   $.ajax
     type: 'POST'
-    url: 'https://codio.com/service/'
+    url: '/service/'
     data: acrequest: JSON.stringify
       object: 'AccountManager'
       method: 'getMyInfo'

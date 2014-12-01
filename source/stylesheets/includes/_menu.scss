@@ -106,7 +106,7 @@
             display: none;
 
             @include media($large-screen-up) {
-                display: initial;
+                display: block;
                 padding-top: 5px;
                 height: 60px;
 

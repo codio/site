@@ -6,7 +6,7 @@ full_width: true
 
 You can upload a file into your project in the following ways
 
-![Right Click](docs/right-click.png)
+![Right Click](/img/docs/right-click.png)
 
 - Right-click within the file tree, taking into account folders
 - Select the `File > Upload` menu option, having first selected a folder in the file tree.

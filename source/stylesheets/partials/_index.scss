@@ -1,5 +1,9 @@
 body.index {
 
+    .wrapper {
+        max-width: none;
+    }
+
     #content {
         padding-top: 0;
     }
@@ -183,7 +187,7 @@ body.index {
             }
         }
 
-        a {
+        a.btn {
             @include outline-button;
         }
     }

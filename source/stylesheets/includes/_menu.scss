@@ -71,11 +71,9 @@
         }
 
         &.actions {
-            margin-top: 2em;
 
             @include media($large-screen-up) {
                 margin: 0;
-
             }
         }
 

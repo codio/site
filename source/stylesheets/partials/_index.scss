@@ -1,11 +1,12 @@
 body.index {
 
-    .wrapper {
-        max-width: none;
-    }
-
     #content {
         padding-top: 0;
+
+        .wrapper {
+            max-width: none;
+        }
+
     }
 
     header.artwork {

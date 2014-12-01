@@ -89,6 +89,17 @@ body.blog #content {
                 }
             }
 
+            ul {
+                list-style: initial;
+                padding: 0 $base-line-height $base-line-height;
+            }
+
+            ol {
+                list-style: decimal;
+                padding: 0 $base-line-height $base-line-height;
+            }
+
+
         }
     }
 

@@ -57,6 +57,8 @@ body.about #content {
                 @include span-columns(20 of 20);
             }
 
+            margin: $base-line-height 0;
+
             .info-card {
                 @include span-columns(4);
                 @include omega;
@@ -81,7 +83,7 @@ body.about #content {
 
                 .body {
                     font-size: $base-font-size;
-                    line-height: $base-line-height;
+                    line-height: 25px;
                     padding: $base-line-height;
                 }
             }

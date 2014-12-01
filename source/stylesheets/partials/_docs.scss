@@ -177,6 +177,10 @@ body.docs #content {
 
                                             li {
                                                 padding-left: em(15);
+
+                                                &.active > a {
+                                                    color: $base-accent-color;
+                                                }
                                             }
                                         }
                                         margin: em(10) em(20);
@@ -199,7 +203,8 @@ body.docs #content {
             @include span-columns(14);
         }
 
-        h1 {
+        h1,
+        h3 {
             margin-bottom: $base-line-height;
         }
 

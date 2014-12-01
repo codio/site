@@ -87,13 +87,19 @@ header {
         }
     }
 
-    a.actions.signed-out {
-        @include media(max-width $large-screen) {
+
+    @include media(max-width $large-screen) {
+        a.actions.signed-out {
             margin-top: $base-line-height;
 
             &.outline-button {
                 margin-top: 0;
             }
+        }
+        a.actions#userlink {
+
+            margin-top: $base-line-height;
+
         }
     }
 
@@ -103,7 +109,6 @@ header {
 
         &#userlink {
             max-width: 155px;
-            margin-top: $base-line-height;
 
             #gravatar {
                 border-radius: 50%;

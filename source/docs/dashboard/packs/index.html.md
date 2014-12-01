@@ -1,5 +1,5 @@
 ---
-title: "Packs"
+title: "Starter Packs"
 class_name: docs
 full_width: true
 ---

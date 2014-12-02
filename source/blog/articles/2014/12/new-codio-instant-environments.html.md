@@ -34,7 +34,7 @@ We've also re-built the Codio site from the ground up.  We chose generative art 
 
 ![New Home Page](/img/blog/new-home-page.png)
 
-We've re-organised our documentation where new users can find a [quick start guide](/docs/quickstart) as well as detailed information on [stacks](/docs/dashboard/stacks) and [starter packs](/docs/dashboard/packs).
+We've re-organised our documentation where new users can find a [quick start guide](/docs/quickstart) as well as detailed information on [Stacks](/docs/dashboard/stacks) and [Starter Packs](/docs/dashboard/packs).
 
 ## Relentless Focus on Innovation
 

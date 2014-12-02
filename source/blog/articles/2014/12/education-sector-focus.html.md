@@ -6,7 +6,6 @@ tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 image: /img/blog/landing-education.png
-published: false
 ---
 
 

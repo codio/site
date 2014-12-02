@@ -36,6 +36,4 @@ We were thrilled to find out recently that our focus on innovation is gaining re
 
 If you’re inspired by what you’ve seen, and want to find out more, feel free to get in touch – we’re always open to [feedback and ideas](http://forum.codio.com) so keep those coming.
 
-If you think your school, university or institution could benefit from using Codio’s platform you can [request education pricing](/p/free-education-trial) and sign up for a free organisation account for your education institution.
-
 We’ll keep you informed as we continue to innovate and we have more exciting education resources coming soon, so why not stay connected and follow Codio on [Twitter](https://twitter.com/codiohq).

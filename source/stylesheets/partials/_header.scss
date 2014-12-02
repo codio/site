@@ -125,26 +125,6 @@ header {
                 }
             }
         }
-
-        &#intercom {
-            vertical-align: bottom;
-            line-height: 48px;
-
-            .fa-stack {
-                @include size(32px);
-                padding-right: 3px;
-                vertical-align: middle;
-            }
-            .fa-stack-2x {
-                color: $base-accent-color;
-                font-size: 32px;
-            }
-            .fa-stack-1x {
-                color: white;
-                font-size: 16px;
-                line-height: 31px;
-            }
-        }
     }
 
 }

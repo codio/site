@@ -1,21 +1,5 @@
 # Handle Codio Sessions
 
-# Start intercom
-startIntercom = (data) ->
-  return unless Intercom?
-
-  user = data.details
-
-  Intercom 'boot',
-    app_id: 'ee8711023afa04b80a6b921ddb3939c1171e0f62',
-    email: user.email,
-    created_at: if user.created_at then Math.round(user.created_at / 1000) else undefined,
-    username: user.name,
-    name: user.actual_name || user.name,
-    user_id: data.account
-    widget:
-      activator: '#intercom'
-
 # Show the signed in men
 showUser = (user) ->
   hash = md5 user.details.email.toLowerCase()
@@ -74,6 +58,5 @@ $ ->
     # Couldn't verify a signed in user
     return anonGa() if error
 
-    startIntercom user
     showUser user
     signedInGa user.details.name

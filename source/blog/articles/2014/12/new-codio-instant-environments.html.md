@@ -41,7 +41,7 @@ We've re-organised our documentation where new users can find a [quick start gui
 
 In a [related blog post](/blog/2014/12/education-sector-focus/) today, we're also announcing a commitment to focus on the education sector.  In the near future you can expect much more from Codio, particularly in the areas of collaboration, tutorials & guides, and advanced features for teachers of computer programming.
 
-We're spending more and more of our time interacting directly with current and prospective users and we're always listening to their experiences and looking for ways to reflect their needs and aspirations in the innovation we deliver.
+We're spending more and more of our time interacting [directly](mailto:hello@codio.com) with current and prospective users and we're always listening to their experiences and looking for ways to reflect their needs and aspirations in the innovation we deliver.
 
 You can always share your ideas and feedback in our [forum](http://forum.codio.com), or contact us directly.
 

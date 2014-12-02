@@ -6,7 +6,6 @@ tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 image: /img/blog/landing-new-ui.png
-published: false
 ---
 
 The Codio dev team has been busily working away for months now with a relentless focus on making Codio the most indispensable IDE experience for our users – so today we’re thrilled to share with you the fruits of their work - a brand new Codio experience packed full of new functionality and engineered with a total focus on delighting you at every stage of the experience.

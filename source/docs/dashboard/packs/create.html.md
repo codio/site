@@ -4,7 +4,8 @@ class_name: docs
 full_width: true
 ---
 
-You can create a new Starter Pack by pressing the 'Create Pack' button in the top right of the screen. You will then be asked to provide some details.
+You can create a new Starter Pack by pressing the 'Create Pack' button in the top right of the screen. Please refer to the [Pack Guidelines](/docs/dashboard/packs/guidelines) for details in how to approach Starter Pack creation.
+
 
 ##Selecting the Source
 You need to tell Codio where to get its source code from. There are two options

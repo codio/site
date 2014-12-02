@@ -6,9 +6,7 @@ full_width: true
 
 When creating a Starter Pack, here are some ideas on strategy and how to make them as useful as possible.
 
-##Strategy
-
-###Starting Stack
+##Starting Stack
 When you create a Pack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/docs/boxes/installsw/box-parts/).
 
 ##.codio file
@@ -40,7 +38,7 @@ Configuring the correct port in the range of 9500 to 9999 depends on the server 
 If you have installed or configured any components that are not a part of the code workspace, then you may want to create a special Stack that your Starter Pack uses. If you don't do this, then Projects that are created from the Starter Pack will need to have these modifications performed after Project creation. This might be an `npm install` if you are using Node.
 
 
-##Use GitHub
+###Use GitHub
 Although you can use Codio as the source for your Starter Pack, we recommend pushing your Project to a Git remote. This gives better version control over time. The creation process is also somewhat faster.
 
 When you create the Starter Pack, you can specify the Git url.

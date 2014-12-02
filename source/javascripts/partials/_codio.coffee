@@ -52,7 +52,7 @@ $ ->
   # Fetch the session id from the cookie
   session = monster.get 'crafted_session'
 
-  anonGa() if not session?
+  return anonGa() if not session?
 
   fetchUser session, (error, user) ->
     # Couldn't verify a signed in user

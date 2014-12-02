@@ -19,7 +19,7 @@ We’ve also seen the transformational impact of technology on the teaching and 
 
 So today we’re proud to announce that Codio’s core focus will be on the education sector, with products and services increasingly tailored to teaching computer programming in schools and universities.
 
-We’ll continue to support all developers – themselves lifelong learners – but Codio is now an education company.
+We’ll continue to support all developers – themselves lifelong learners – but Codio is now an education technology company.
 
 ## Commitment to Innovation
 
@@ -35,6 +35,6 @@ We were thrilled to find out recently that our focus on innovation is gaining re
 
 If you’re inspired by what you’ve seen, and want to find out more, feel free to get in touch – we’re always open to [feedback and ideas](http://forum.codio.com) so keep those coming.
 
-If you think your school could benefit from using Codio’s platform you can request an education trial.
+If you think your school, university or institution could benefit from using Codio’s platform you can request an education trial.
 
 We’ll keep you informed as we continue to innovate and we have more exciting education resources coming soon, so why not stay connected and follow Codio on [Twitter](https://twitter.com/codiohq).

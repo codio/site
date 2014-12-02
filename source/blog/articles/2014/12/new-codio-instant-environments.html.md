@@ -12,19 +12,19 @@ The Codio dev team has been busily working away for months now with a relentless
 
 ## "Instant Coding Environments" with Stacks & Starter Packs
 
-Central to that experience is the concept of instant coding environments with the launch of a library of pre-configured software stacks and starter packs, readily accessible to all our users.  Here our focus has been to remove as much wasted set up and configuration time as possible and to create a compelling resource to enhance your programming experience and inspire new learning and creativity.
+Central to that experience is the concept of instant coding environments with the launch of a library of pre-configured software Stacks and Starter Packs, readily accessible to all our users.  Here our focus has been to remove as much wasted set up and configuration time as possible and to create a compelling resource to enhance your programming experience and inspire new learning and creativity.
 
-Now when you visit the IDE – as well as seeing all your projects – you’ll also see “stacks” and “starter packs” in the main dashboard menu.  We’ve got stacks for LAMP, Angular, LEMP, Node, Grunt, Mongo Db, Python and Ruby on Rails, to name just a few.
+Now when you visit the IDE – as well as seeing all your projects – you’ll also see Stacks and Starter Packs in the main dashboard menu.  We’ve got stacks for LAMP, Angular, LEMP, Node, Grunt, Mongo Db, Python and Ruby on Rails, to name just a few.
 
 ![Stacks List](/img/docs/stacks_list.png)
 
-You can select from a Codio certified and pre-configured library of software (languages, databases and other components) and be coding in an instant.  Each stack and starter pack comes with detailed descriptions and version history so you're always up to date.
+You can select from a Codio certified and pre-configured library of software (languages, databases and other components) and be coding in an instant.  Each Stack and Starter pack comes with detailed descriptions and version history so you're always up to date.
 
-Alternatively, you can create your own stacks.
+Alternatively, you can create your own Stacks.
 
 ![Stacks Image](/img/docs/stacks_image.png)
 
-You can keep stacks private to your projects or publish a stack for the community - and if you can’t find or create the stack you need, let us know in the forum.
+You can keep Stacks private to your projects or publish a stack for the community - and if you can’t find or create the stack you need, let us know in the forum.
 
 ## Brand New Codio UI
 
@@ -38,9 +38,9 @@ We've re-organised our documentation where new users can find a [quick start gui
 
 ## Relentless Focus on Innovation
 
-In a [related blog post](/tree/source/blog/articles/2014/12/education-sector-focus) today, we're also announcing a commitment to focus on the education sector.  In the near future you can expect much more from Codio, particularly in the areas of collaboration, tutorials & guides, and advanced features for teachers of computer programming.
+In a [related blog post](/blog/articles/2014/12/education-sector-focus) today, we're also announcing a commitment to focus on the education sector.  In the near future you can expect much more from Codio, particularly in the areas of collaboration, tutorials & guides, and advanced features for teachers of computer programming.
 
-We're spending more and more of our time interacting directly with current and prospect users and we're always listening to their experiences and looking for ways to reflect their needs and aspirations in the innovation we deliver.
+We're spending more and more of our time interacting directly with current and prospective users and we're always listening to their experiences and looking for ways to reflect their needs and aspirations in the innovation we deliver.
 
 You can always share your ideas and feedback in our [forum](http://forum.codio.com), or contact us directly.  
 

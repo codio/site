@@ -6,8 +6,9 @@
 
   <article>
     <header>
-      <!-- No image for now -->
-      <!-- <img alt="placeholder" src="<%= lorem.image('600x300')%>"/> -->
+      <% if current_article.data.image %>
+        <%= image_tag current_article.data.image %>
+      <% end %>
     </header>
 
     <div class="post">

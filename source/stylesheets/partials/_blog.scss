@@ -64,8 +64,10 @@ body.blog #content {
         }
 
         header {
+            padding: 0 0 0 $base-line-height;
+
             img {
-                margin: 0 0 em(30) 0;
+                margin: 0 0 $base-line-height 0;
             }
 
         }

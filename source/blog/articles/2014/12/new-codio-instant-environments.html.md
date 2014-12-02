@@ -5,6 +5,7 @@ date: 2014-12-02
 tags: 'Lab & Updates'
 class_name: blog
 full_width: true
+image: /img/blog/landing-new-ui.png
 published: false
 ---
 
@@ -22,7 +23,7 @@ You can select from a Codio certified and pre-configured library of software (la
 
 Alternatively, you can create your own stacks.
 
-![Stacks Image](/img/docs/stacks_image.png)
+![Stacks Image](/img/blog/stacks-create.png)
 
 You can keep stacks private to your projects or publish a stack for the community - and if you can’t find or create the stack you need, let us know in the forum.
 

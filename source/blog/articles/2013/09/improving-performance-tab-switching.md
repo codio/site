@@ -2,7 +2,7 @@
 title: Improving Performance - Tab Switching
 author: Friedel Ziegelmayer
 date: 2013-09-27
-tags: Engineering
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

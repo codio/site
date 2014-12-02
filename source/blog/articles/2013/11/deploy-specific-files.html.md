@@ -2,7 +2,7 @@
 title: Selective File Deployment
 author: Freddy May
 date: 2013-11-21
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

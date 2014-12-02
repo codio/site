@@ -1,0 +1,449 @@
+body.docs #content {
+    background: $light-background;
+
+    .title {
+        @include media($large-screen-up) {
+            @include span-columns(20);
+            @include omega(20n);
+        }
+    }
+
+    @include media($large-screen-up) {
+        .back-button {
+            margin-left: $base-line-height;
+        }
+    }
+
+    aside {
+        padding-top: 0;
+
+        @include media($large-screen-up) {
+            @include span-columns(6);
+        }
+
+        nav {
+            form {
+                margin-top: $base-line-height;
+            }
+
+            h5 {
+                &::before {
+                    @include fa-icon;
+                    content: $fa-var-angle-right;
+                    padding-right: .8em;
+                    color: white;
+
+                    @include media($large-screen-up) {
+                        color: $base-font-color;
+                    }
+                }
+
+                &.active::before {
+                    content: $fa-var-angle-down;
+                    padding-right: .5em;
+                }
+            }
+
+            h5 {
+                font-size: 1em;
+                font-weight: 600;
+                font-family: $sans-serif;
+            }
+
+            h2 {
+                font-weight: 600;
+
+                @include media($large-screen-up) {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            ul a {
+                color: white;
+
+                @include media($large-screen-up) {
+                    color: $base-font-color;
+                }
+
+                @include transition(color .1s linear);
+
+                &:hover {
+                    text-decoration: none;
+                    color: $base-accent-color;
+                }
+            }
+            & > ul {
+                background: $darker-gray;
+                border-radius: $base-border-radius;
+                margin-top: $base-line-height;
+
+                h2 {
+                    font-size: 1.2em;
+                    line-height: 1.2em;
+                    font-family: $raleway;
+                    font-weight: 300;
+                }
+
+                padding: em(10);
+
+                .fa.open {
+                    display: none;
+                }
+
+                & > li > ul {
+                    display: none;
+                    height: 0;
+                    @include transition(all .3s linear);
+                }
+
+                &.open {
+                    .fa.closed {
+                        display: none;
+                    }
+
+                    .fa.open, & > li > ul {
+                        display: initial;
+                        height: initial;
+                    }
+                }
+
+                .fa.open,
+                .fa.closed {
+                    float: right;
+                    color: white;
+                    font-size: .8em;
+                    line-height: 23px;
+                }
+
+                @include media($large-screen-up) {
+                    background: initial;
+                    padding: 0;
+
+                    .fa {
+                        display: none;
+                    }
+
+                }
+
+                & > li {
+                    & > ul {
+                        @include media($large-screen-up) {
+                            display: initial;
+                        }
+
+                        & > li {
+                            margin: em(10) 0;
+                            & > ul {
+                                display: none;
+                                margin: em(5) 0;
+
+                                a {
+                                    @include media($large-screen-up) {
+                                        color: $darker-gray;
+                                    }
+                                }
+
+                                &.active {
+                                    display: inherit;
+                                }
+
+
+                                & > li {
+                                    padding-left: em(15);
+                                    padding-top: em(10);
+                                    @include media($large-screen-up) {
+                                        font-size: .9em;
+                                    }
+
+                                    & > a::before {
+                                        @include fa-icon;
+                                        content: $fa-var-angle-right;
+                                        padding-right: .8em;
+                                    }
+
+
+                                    &.active > a {
+                                        color: $base-accent-color;
+                                        &::before {
+                                            content: $fa-var-angle-down;
+                                            padding-right: .5em;
+                                        }
+                                    }
+
+                                    & > ul {
+                                        @include media($large-screen-up) {
+                                            border-left: 1px solid $border-color;
+
+                                            li {
+                                                padding-left: em(15);
+
+                                                &.active > a {
+                                                    color: $base-accent-color;
+                                                }
+                                            }
+                                        }
+                                        margin: em(10) em(20);
+
+                                        a {
+                                            font-weight: 300;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    article {
+        @include media($large-screen-up) {
+            @include span-columns(14);
+        }
+
+        h1,
+        h3 {
+            margin-bottom: $base-line-height;
+        }
+
+        h2 {
+            margin: $base-line-height 0;
+        }
+
+        p {
+            margin-bottom: $base-line-height;
+
+            quote {
+                display: block;
+                border-left: 2px solid $border-color;
+                padding-left: 30px;
+                font-weight: normal;
+            }
+
+        }
+
+        ul {
+            list-style: initial;
+            padding: 0 $base-line-height $base-line-height;
+        }
+
+        ol {
+            list-style: decimal;
+            padding: 0 $base-line-height $base-line-height;
+        }
+
+        .share-links, #disqus_thread {
+            margin: 0;
+            padding: 2*$base-line-height 0;
+            border-top: 1px solid $light-gray;
+        }
+    }
+
+    .docs-landing {
+        padding: 0;
+        margin-bottom: 2em;
+
+        @include outer-container;
+        @include span-columns(4 of 4);
+
+        @include media($large-screen-up) {
+            @include span-columns(20);
+        }
+
+        section {
+            @include outer-container;
+            @include span-columns(4);
+            @include omega;
+
+            padding: $base-line-height;
+
+            @include media($large-screen-up) {
+                @include span-columns(20);
+            }
+
+            &.subtitle {
+                text-align: center;
+
+                @include media($large-screen-up) {
+                    @include shift(6);
+                    @include span-columns(8);
+                }
+            }
+
+            .docs-section {
+                @include span-columns(4);
+                @include omega(4n);
+                margin-bottom: em(20);
+
+                @include media($large-screen-up) {
+                    @include span-columns(5);
+                    height: 35em;
+                }
+
+                background: $main-background;
+                padding: 2em;
+
+                a {
+                    color: $base-font-color;
+                    white-space: nowrap;
+                }
+
+                h2 {
+                    text-align: center;
+                    margin: 0;
+                    line-height: 84px;
+                }
+
+                .links {
+                    @include outer-container;
+                    width: 100;
+                    padding-top: 1em;
+
+                    .first,
+                    .second {
+                        @include span-columns(2 of 4);
+                        @include omega(2n);
+
+                        @include media($large-screen-up) {
+                            @include span-columns(5 of 5);
+                            @include omega;
+                        }
+                    }
+
+                    a {
+                        float: left;
+                        font-weight: 600;
+                        font-size: $base-font-size;
+                        line-height: $base-line-height;
+                        clear: left;
+
+                        &::before {
+                            @include fa-icon;
+                            content: $fa-var-angle-right;
+                            padding-right: 1em;
+                        }
+                    }
+                }
+
+                svg {
+                    float: left;
+
+                    @include media($large-screen-up) {
+                        display: block;
+                        @include size(100px);
+                        margin-left: auto;
+                        margin-right: auto;
+                        float: initial;
+                    }
+                }
+            }
+        }
+    }
+
+    .search-results {
+        @include outer-container;
+        @include span-columns(4);
+
+        padding: 0;
+
+        @include media($large-screen-up) {
+            @include span-columns(20);
+
+            .back-button {
+                margin-left: 2*$base-line-height;
+            }
+        }
+
+
+        #st-results-container {
+            padding: 2*$base-line-height;
+            .st-search-summary, .st-result, .st-pagination {
+                border: none;
+            }
+            em {
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            h3 {
+                font-size: $h3-font-size;
+                & > a {
+                    color: inherit;
+                }
+            }
+        }
+    }
+
+    form input#st-search-input {
+        font-size: .9em;
+        padding: em(5) em(10);
+        margin: 0;
+        border-radius: $base-border-radius;
+        box-shadow: none;
+        background: #EBEBEB;
+        height: 35px;
+        width: 100% !important;
+        border: none;
+        color: $base-font-color;
+        font-weight: 300;
+
+        @include media($large-screen-up) {
+            width: 230px !important;
+        }
+    }
+
+    form#search-input {
+        &::after {
+            content: $fa-var-search;
+            @include fa-icon;
+            @include size(35px);
+            background: $base-font-color;
+            text-align: center;
+            line-height: 35px;
+            position: absolute;
+            margin-top: -35px;
+            border-radius: 0 $base-border-radius $base-border-radius 0;
+            color: white;
+            font-weight: 300;
+            right: em(20);
+
+            @include media($large-screen-up) {
+                margin-left: 195px;
+                right: initial;
+            }
+        }
+    }
+
+    .header {
+        @include outer-container;
+        padding: $base-line-height 2*$base-line-height 0;
+
+        @include media($large-screen-up) {
+            padding: 2*$base-line-height 2*$base-line-height 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: em(30);
+
+            @include span-columns(4 of 4);
+
+            @include media($large-screen-up) {
+                @include span-columns(8 of 20);
+                margin-top: 0;
+                display: inline;
+            }
+        }
+
+        form#search-input {
+
+            @include span-columns(4 of 4);
+
+            @include media($large-screen-up) {
+                @include span-columns(6 of 20);
+            }
+        }
+    }
+}

@@ -1,0 +1,140 @@
+body.blog #content {
+
+    .title {
+        padding: 0 2*$base-line-height;
+        h1 {
+            margin-top: $base-line-height;
+        }
+
+        @include span-columns(4);
+
+        @include media($large-screen-up) {
+            @include span-columns(20);
+
+            h1 {
+                @include span-columns(14);
+            }
+        }
+    }
+
+    aside {
+        display: none;
+
+        @include media($large-screen-up) {
+            @include span-columns(6);
+            display: initial;
+        }
+
+        h2 {
+            margin-bottom: $base-line-height;
+        }
+
+        ol {
+            margin-bottom: $base-line-height;
+
+            li {
+                margin: em(10) 0;
+
+                a {
+                    color: $base-font-color;
+
+                    @include transition(color .1s linear);
+
+                    &::before {
+                        @include fa-icon;
+                        content: $fa-var-angle-right;
+                        padding-right: .5em;
+                    }
+
+                    &:hover {
+                        text-decoration: none;
+                        color: $base-accent-color;
+                    }
+
+                }
+            }
+        }
+    }
+
+    article {
+        @include outer-container;
+
+        @include media($large-screen-up) {
+            @include span-columns(14);
+        }
+
+        header {
+            img {
+                margin: 0 0 em(30) 0;
+            }
+
+        }
+        .post {
+            @include span-columns(4 of 4);
+
+            @include media($large-screen-up) {
+                @include shift(1 of 6);
+                @include span-columns(5 of 6);
+            }
+            .date {
+                font-size: .9em;
+            }
+
+            #disqus_thread {
+                width: 100%;
+                margin-top: em(50);
+
+                iframe {
+                    position: relative;
+                }
+            }
+
+            ul {
+                list-style: initial;
+                padding: 0 $base-line-height $base-line-height;
+            }
+
+            ol {
+                list-style: decimal;
+                padding: 0 $base-line-height $base-line-height;
+            }
+
+
+        }
+    }
+
+    .overview {
+        h2 {
+            font-family: $sans-serif;
+            margin: $base-line-height 0;
+
+            a {
+                color: $base-font-color;
+            }
+
+            span {
+                font-size: .8em;
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+
+        .summary {
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: $base-font-size;
+                line-height: $base-line-height;
+                margin: 0;
+                font-weight: 400;
+            }
+        }
+
+        p, a {
+            margin-bottom: 0;
+        }
+    }
+}

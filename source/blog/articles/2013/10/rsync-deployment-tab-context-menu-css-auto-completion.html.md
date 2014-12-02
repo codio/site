@@ -2,7 +2,7 @@
 title: Rsync Deployment, Tab Context Menu &amp; CSS Auto-Completion
 author: Joel Moss
 date: 2013-10-10
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---
@@ -23,7 +23,7 @@ We want to make it easier and faster to write and deploy your code, and we're st
 - Close files to the right
 - Close files to the left
 
-And of course, these have keyboard shortcuts which you can customise via your [user preferences](https://codio.com/s/docs/settings-prefs/codio-prefs/).
+And of course, these have keyboard shortcuts which you can customise via your [user preferences](https://codio.com/docs/settings-prefs/codio-prefs/).
 
 ## ![CSS Auto Completion](blog/css-auto-complete.png) CSS Auto-Completion
 

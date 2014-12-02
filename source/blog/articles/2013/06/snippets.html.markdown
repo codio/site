@@ -2,7 +2,7 @@
 title: Snippets Released
 author: Freddy May
 date: 2013-06-01
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

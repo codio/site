@@ -2,7 +2,7 @@
 title: Codio enhances developer collaboration with new Admin Permissions
 author: Freddy May
 date: 2014-09-09
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

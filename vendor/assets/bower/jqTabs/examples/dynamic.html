@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../thirdparty/css/bootstrap.min.css" />
+	</head>
+	<body>
+
+		<div id="tabbed">
+			<ul class="tab-headers tabs">
+			</ul>
+		</div>
+
+		<button class="btn" id="addTab">New Tab</button>
+		<button class="btn" id="previous">Previous</button>
+		<button class="btn" id="next">Next</button>
+
+		<style>
+			.hidden
+			{
+				display: none;
+			}
+
+			.active
+			{
+				color: blue;
+			}
+
+			.removeTab
+			{
+				padding: 5px;
+				color: red;
+			}
+		</style>
+		<script src="../thirdparty/js/jquery-1.7.1.min.js"></script>
+		<script src="../jqTabs.js"></script>
+		<script>
+			$(document).ready(
+				function()
+				{
+					var tabs = new jqTabs($("#tabbed"));
+					var newTab = 0;
+
+					$('#next').click(function()
+					{
+						tabs.next();
+					});
+
+					$('#previous').click(function()
+					{
+						tabs.previous();
+					});
+
+					$('#addTab').click(function()
+					{
+						newTab++;
+						tabs.addTab('<a href="">'+newTab+'<span href="#" class="removeTab">x</span></a>', 'new Tab nr: '+newTab, false)
+					});
+
+					var tabHeader = $("#tabbed .tab-headers");
+					tabHeader.on('click', '.removeTab', function(e)
+						{
+							e.preventDefault();
+							e.stopPropagation();
+							var index = $(this).parent().parent().index();
+							tabs.removeTab(index);
+						}
+					);
+				}
+			);
+		</script>
+	</body>
+</html>

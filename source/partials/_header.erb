@@ -1,0 +1,44 @@
+<header>
+
+  <nav class="top">
+    <a href="" id="menu-toggle">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a class="logo" href="/"></a>
+    <a href="" class="outline-button">Sign Up</a>
+  </nav>
+  <nav class="left slide-menu">
+    <div class="wrapper">
+      <a class="logo" href="/"></a>
+      <div class="links">
+        <a href="https://www.youtube.com/watch?v=1JNhoVbmNAo&feature=youtu.be" class="badge" target="_blank">
+          <%= image_tag "bett-badge.jpg" %>
+          <span>Watch our Story</span>
+        </a>
+        <%= link_to_nav "Docs", "/docs" %>
+        <%= link_to_nav "Pricing", "/pricing" %>
+        <%= link_to_nav "Community", "http://forum.codio.com" %>
+
+        <a href="/p/login" class="actions signed-out">
+          Sign In
+        </a>
+        <a href="/p/signup" class="actions signed-out outline-button">
+          Sign Up
+        </a>
+        <a id="userlink" href="/home" class="actions signed-in">
+          <img id="gravatar" alt="Gravatar"></img>
+          <span></span>
+        </a>
+        <a id="intercom" href="mailto:ee8711023afa04b80a6b921ddb3939c1171e0f62@incoming.intercom.io" class="actions signed-in">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-comments-o fa-stack-1x"></i>
+          </span>
+          Chat
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<header class="artwork"></header>

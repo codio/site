@@ -1,157 +1,34 @@
 ---
 title: Codio Blog
-per_page: 6
-class_name: blog
-full_width: true
 pageable: true
+per_page: 10
 ---
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<article class="overview">
+  <h1>Blog</h1>
 
-<div id="blog-categories" class="blog-cat-all">
-  <div class="container">
-    <ul>
-      <li><%= link_to 'All posts', '/blog/all' %></li>
-      <% blog.tags.sort.each do |tag, articles| %>
-        <li><%= link_to tag, tag_path(tag) %></li>
-      <% end %>
-    </ul>
-  </div>
-</div>
+  <% page_articles.each_with_index do |article, i| %>
+    <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+    <div class="summary">
+      <%= article.summary(200) %>
+      <%= link_to "Read more...", article %>
+    </div>
+  <% end %>
 
-<div class="container clearfix">
-
-  <section class="posts">
-    <% page_articles.each do |article| %>
-
-      <article>
-        <section class="meta">
-          <p class="date">
-            <%= link_to article.date.strftime('%B %e, %Y'), article %>
-            <% if article.data.author %>
-              <span class="author">by <%= link_to_author article.data.author %></span>
-            <% end %>
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-            <%= link_to 'Comments', "#{article.url}#disqus_thread", :class => "dsq-comment-count" %>
-          </p>
-        </section>
-
-        <h1><%= link_to article.title, article %></h1>
-
-        <% if article.data.image %>
-          <%= image_tag article.data.image, :alt => article.title, :align => "left", :class => "blog-img" %>
-        <% end %>
-        <%= article.body %>
-
-        <div class="blog-social clearfix">
-          <div class="blog-twitter">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://codio.com/s<%= article.url %>" data-via="codiohq" data-size="small" data-count="none" data-text="<%= article.title %>">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-
-          <div class="blog-gplus">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-size="medium" data-annotation="none" data="https://codio.com/s<%= article.url %>"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
-
-          <div class="blog-facebook">
-            <div class="fb-like" data-send="false" data-href="https://codio.com/s<%= article.url %>" data-width="450" data-show-faces="false"></div>
-          </div>
-        </div>
-      </article>
-
-    <% end %>
-
-    <% if paginate %>
-      <section class="pagination clearfix">
-        <% if next_page %>
-          <p><%= link_to "&laquo; older posts", next_page %></p>
-        <% end %>
-        <% if prev_page %>
-          <p><%= link_to "newer posts &raquo;", prev_page %></p>
-        <% end %>
-      </section>
-    <% end %>
-  </section>
-
-
-  <aside>
-    <section class="all-posts">
-      <h5><a href="https://codio.com/s/blog/feed.xml" target="_blank"><%= image_tag 'feed-icon.png', :size => '14x14' %>Subscribe</a></h5>
-    </section>
-
-    <section class="latest-posts">
-      <h4>on this page...</h4>
+  <% if paginate && num_pages > 1 %>
+    <div class="pagination">
       <ul>
-        <% page_articles.each do |post| %>
-          <% next if is_blog_article? && post === current_article %>
-          <li><%= link_to post.title, post %></li>
+        <% if prev_page %>
+          <li class="page-prev"><%= link_to 'Prev', prev_page %></li>
+        <% end %>
+        <li>
+          <%= page_number %> of <%= num_pages %>
+        </li>
+        <% if next_page %>
+          <li class="page-next"><%= link_to 'Next', next_page %></li>
         <% end %>
       </ul>
-    </section>
-
-    <% if paginate && prev_page %>
-      <section class="latest-posts">
-        <h4>Latest posts...</h4>
-        <ul>
-          <% articles[0...4].each do |post| %>
-            <li><%= link_to post.title, post %></li>
-          <% end %>
-        </ul>
-      </section>
-    <% end %>
-
-    <div style="margin:35px 0 0 25px;">
-      <a href="https://twitter.com/codiohq" class="twitter-follow-button" data-size="medium" data-show-count="false" data-lang="en">Follow us @codiohq</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     </div>
-
-    <% if paginate %>
-      <section class="latest-posts">
-        <ul>
-          <li><strong><%= link_to 'All posts...', '/blog/all' %></strong></li>
-          <% if next_page %>
-            <li><%= link_to "&laquo; older posts", next_page %></li>
-          <% end %>
-          <% if prev_page %>
-            <li><%= link_to "newer posts &raquo;", prev_page %></li>
-          <% end %>
-        </ul>
-      </section>
-    <% end %>
-
-  </aside>
-</div>
-
-
-<script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'codio'; // required: replace example with your forum shortname
-
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function () {
-    var s = document.createElement('script'); s.async = true;
-    s.type = 'text/javascript';
-    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
-</script>
-
-<%= javascript_include_tag 'vendor/rainbow', 'vendor/rainbow/linecount', 'vendor/rainbow/generic', 'vendor/rainbow/javascript' %>
-<%= stylesheet_link_tag 'lib/rainbow/github', 'lib/rainbow/linecount' %>
+  <% end %>
+</article>
+<%= partial "blog-sidebar" %>

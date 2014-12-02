@@ -2,7 +2,7 @@
 title: Codio Boxes &amp; Box Parts
 author: Freddy May
 date: 2014-02-07
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

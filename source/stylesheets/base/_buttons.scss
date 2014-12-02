@@ -1,0 +1,10 @@
+button,
+input[type="submit"] {
+    @include button;
+    @include appearance(none);
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}

@@ -1,0 +1,21 @@
+---
+title: Search Results
+layout: layout
+---
+
+<article class="search-results">
+  <div class="title">
+    <%= link_to "Docs", "/docs", :class => "back-button" %>
+  </div>
+
+  <section class="header">
+    <form id="search-input">
+      <input type="text" id="st-search-input" class="st-search-input" placeholder="Search"/>
+    </form>
+    <h1>Search Results</h1>
+  </section>
+
+  <div id="st-results-container"></div>
+</article>
+
+<%= partial "vendors/swiftype" %>

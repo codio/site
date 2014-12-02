@@ -2,7 +2,7 @@
 title: New File Tree
 author: Joel Moss
 date: 2014-03-31
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 image: blog/jstree.png

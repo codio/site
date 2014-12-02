@@ -2,7 +2,7 @@
 title: "Collaboration: Public and Private Projects"
 author: Joel Moss
 date: 2013-03-18
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: false

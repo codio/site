@@ -1,7 +1,6 @@
-ide-general
-code-editor
+navigation
+features
 panels
-inline-preview
-sharing
-autocomplete
-ide-beautify
+editing
+customization
+tools

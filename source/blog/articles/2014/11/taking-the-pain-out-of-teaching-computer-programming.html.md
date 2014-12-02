@@ -2,7 +2,7 @@
 title: Taking the pain out of teaching computer programming.
 author: Phillip Snalune
 date: 2014-11-03
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---
@@ -12,9 +12,13 @@ Across the globe, there is growing talk of the need for the next language we tea
 Codio was created to take the pain out of teaching coding - to unlock the potential for computer programming in schools and universities worldwide with the most user friendly cloud-based platform for ‘learning by doing’.
 
 We’re constantly inspired by the myriad ways in which Codio is being adopted by teachers and lecturers in schools and universities.  We love getting out and meeting with users - and recently we visited Caistor Grammar School in Lincolnshire in the UK - an academy school with a keen focus on innovation and academic excellence -  where we met with Thomas Smith, Head of Computing, interviewed many of the computer science students and participated in the classroom with a group new to computer science.  It was an inspiring day!
-  
-<iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo" frameborder="0" allowfullscreen></iframe>
-    
+
+<div class="video">
+  <div class="video-wrapper">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
 As more and more schools and universities seek to innovate in the way they teach computer science, we’re continuing to build out the education user experience and going forward you’ll see us continue to improve in the following ways:
 
 Being accessible and useful everywhere:  Codio is already accessible on any machine, through any browser, in any location.  Your coding projects are always there, accessible and each with a dedicated server and any pre-installed software you choose.  We’ll also be exploring options to enable working offline.

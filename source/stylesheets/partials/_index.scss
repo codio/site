@@ -1,0 +1,195 @@
+body.index {
+
+    #content {
+        padding-top: 0;
+
+        .wrapper {
+            max-width: none;
+        }
+
+    }
+
+    header.artwork {
+        display: none;
+    }
+
+    .hero {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+
+        height: 95vh;
+        max-width: none;
+        padding-top: 20vh;
+
+        @include media($medium-screen-up) {
+            background-image: url($hero-image-medium);
+        }
+        @include media($large-screen-up) {
+            background-image: url($hero-image-large);
+        }
+        @include media($extra-large-screen-up) {
+            background-image: url($hero-image-extra-large);
+        }
+
+        .info {
+            margin: 16vh 3vh 3vh 0;
+            float: right;
+            display: none;
+            position: relative;
+            text-decoration: none;
+
+            @include media($large-screen-up) {
+                display: block;
+            }
+
+            i {
+                font-size: 18px;
+            }
+
+            span {
+                padding: 5px 10px;
+                background: rgba(255, 255, 255, 0.9);
+                border-radius: $base-border-radius;
+                min-width: 70px;
+                position: absolute;
+                top: -25px;
+                left: -145px;
+                margin-right: 25px;
+                color: $base-font-color;
+                text-align: center;
+                opacity: 0;
+                @include transition(opacity .5s ease);
+            }
+
+            &:hover span {
+                opacity:1;
+            }
+
+        }
+
+        .hero-inner {
+            $start-color: rgba(255, 255, 255, 0.95);
+            $mid-color: rgba(255, 255, 255, 0.9);
+            $end-color: rgba(255, 255, 255, .4);
+
+            @include outer-container;
+
+            margin: 0 auto;
+            text-align: center;
+            color: $base-font-color;
+            padding: 2*$base-line-height;
+
+            background-color: transparent;
+            @include size(100% 90%);
+
+
+            @include media(min-width $medium-screen) {
+                @include radial-gradient(circle at 50% 50%, $start-color 0%, $mid-color 70%, $end-color 90%);
+                @include size(600px 350px);
+            }
+
+            @include media(min-height $large-screen-height min-width $large-screen) {
+                @include size(630px 380px);
+            }
+
+
+            a {
+                @include action-button;
+                width: 200px;
+                height: 50px;
+                line-height: 36px;
+            }
+
+            .hero-copy {
+                text-align: center;
+
+                h1 {
+                    margin-bottom: $base-line-height;
+                }
+
+                p {
+                    margin: auto;
+                    margin-bottom: 2*$base-line-height;
+                    font-size: $large-font-size;
+                    font-weight: 400;
+
+                    @include media($medium-screen-height) {
+                        width: 400px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .pillar-text {
+        @include outer-container;
+        @include span-columns(4 of 4);
+        @include omega;
+
+        @include media($large-screen-up) {
+            @include span-columns(20 of 20);
+            max-width: none;
+        }
+
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 5*$base-line-height 0;
+
+        background: $light-background;
+
+        &:nth-child(even) {
+            background: $main-background;
+        }
+
+        aside {
+            text-align: center;
+            padding: 0 2*$base-line-height;
+
+            svg {
+                display: none;
+
+                @include media($medium-screen-up) {
+                    display: initial;
+
+                }
+            }
+        }
+
+        article {
+            text-align: center;
+
+            @include media($large-screen-up) {
+                text-align: left;
+            }
+
+            padding: 0 2*$base-line-height;
+
+            p {
+                margin: 0 0 2*$base-line-height;
+            }
+
+            @include media($large-screen-up) {
+                @include span-columns(11);
+            }
+        }
+
+        text-align: left;
+
+        h2 {
+            margin-bottom: .3em;
+            color: $base-accent-color;
+
+            @include media($large-screen) {
+                margin-bottom: .8em;
+            }
+        }
+
+        a.btn {
+            @include outline-button;
+        }
+    }
+}

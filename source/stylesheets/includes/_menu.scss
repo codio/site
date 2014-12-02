@@ -1,0 +1,122 @@
+
+.slide-menu {
+
+    $slide-menu-background: #FFFFFF;
+    $slide-menu-width: $header-width;
+    $slide-menu-color: $base-font-color;
+    $slide-menu-font-size: $large-font-size;
+    $slide-menu-highlight: $base-accent-color;
+    $slide-menu-hover: tint($slide-menu-highlight, 20%);
+    $slide-menu-active: tint($slide-menu-highlight, 20%);
+
+    background: $darker-gray;
+    position: fixed;
+    display: inherit;
+
+    width: $slide-menu-width;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    left: -$slide-menu-width;
+
+
+    @include transition(all 0.3s ease);
+
+    &.open {
+        left: 0px;
+    }
+
+
+    @include media($large-screen) {
+        background: $slide-menu-background;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 65px;
+        z-index: 1000;
+        max-width: none;
+    }
+
+    .links {
+        @include media($large-screen-up) {
+            float: right;
+        }
+    }
+
+    a {
+        display: block;
+        color: $main-background;
+	font-weight: 600;
+        font-size: $slide-menu-font-size;
+        line-height: 48px;
+        background: transparent;
+        text-align: left;
+        float: left;
+
+        padding: 0 40px;
+
+        @include transition(all 0.2s ease);
+
+        &:hover {
+	    color: $slide-menu-hover;
+            text-decoration: none;
+        }
+
+        &:active, &.active {
+	    color: $slide-menu-active;
+        }
+
+        &.logo {
+            padding: $base-line-height 0 $base-line-height 12px;
+        }
+
+        &.actions {
+
+            @include media($large-screen-up) {
+                margin: 0;
+            }
+        }
+
+        @include media($large-screen-up) {
+            color: $slide-menu-color;
+            padding: $base-line-height/2 $base-line-height/3 0;
+
+            &:nth-child(5) {
+                margin-left: 30px;
+            }
+
+        }
+
+        &.outline-button {
+            @include action-button;
+            font-size: $slide-menu-font-size;
+            font-weight: 600;
+            @include size(80px 25px);
+            padding: 0px 10px;
+            margin: 0 37px;
+
+            @include media($large-screen-up) {
+                margin: $base-line-height - 1px;
+            }
+        }
+
+        &.badge {
+            display: none;
+
+            @include media($large-screen-up) {
+                display: block;
+                padding-top: 5px;
+                height: 60px;
+
+                img {
+                    width: 80px;
+                }
+
+                span {
+                    padding: 8px 20px 0;
+                    float: right;
+                }
+            }
+        }
+    }
+}

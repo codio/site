@@ -1,0 +1,13 @@
+{
+  "name": "Codio Site",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cookie-monster": "~0.3.0",
+    "zepto": "~1.1.4",
+    "html5shiv": "~3.7.2",
+    "blueimp-md5": "~1.1.0",
+    "zeptotouch": "~1.1.4",
+    "jqTabs": "git@github.com:archaeron/jqTabs.git#~1.1.0",
+    "Paraxify.js": "git@github.com:jaicab/Paraxify.js.git"
+  }
+}

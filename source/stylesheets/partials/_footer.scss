@@ -1,0 +1,91 @@
+.footer {
+    @include outer-container;
+
+    $footer-background: $darker-gray;
+    $footer-color: white;
+    $footer-disclaimer-color: transparentize($footer-color, .2);
+
+    max-width: none;
+    padding-top: em(20);
+    background: $footer-background;
+
+
+    .footer-links, .copy {
+        @include outer-container;
+        @include span-columns(4 of 4);
+        @include omega;
+        color: $footer-color;
+
+        @include media($large-screen-up) {
+            @include shift(2 of 20);
+            @include span-columns(16 of 20);
+        }
+    }
+
+    .copy {
+        text-align: center;
+        border-top: 1px solid #5f6569;
+        padding: $base-line-height 0;
+
+        span {
+            padding: 0 $base-line-height/2;
+        }
+
+        @include media($large-screen-up) {
+            @include shift(2);
+            @include span-columns(16);
+        }
+    }
+
+    ul {
+        margin-bottom: $base-line-height;
+        padding: 0 65px;
+        @include span-columns(2 of 4);
+
+
+        &:last-child {
+            padding: 0 26px;
+        }
+
+        @include media(max-width $large-screen) {
+            @include omega(2n);
+        }
+
+        @include media($large-screen-up) {
+            @include span-columns(4 of 16);
+        }
+
+    }
+
+    li {
+        text-align: center;
+        font-weight: 400;
+
+        @include media($large-screen-up) {
+            text-align: left;
+        }
+
+        h4 {
+            font-size: $base-font-size;
+            margin-bottom: $base-line-height;
+        }
+
+        a {
+            color: $footer-color;
+
+            i {
+                padding-right: 10px;
+            }
+
+            &:hover {
+                color: transparentize($footer-color, 0);
+            }
+        }
+    }
+
+
+    .artwork {
+        height: 2*$base-line-height;
+        margin-top: 0;
+    }
+}

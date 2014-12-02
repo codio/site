@@ -2,7 +2,7 @@
 title: Themes
 author: Joel Moss
 date: 2014-03-27
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-IDE panels let you create any panel configuration you want for both code editing and also other features (such as [Git](/docs/git), [Bower](/docs/bower), [Deployment](/docs/deployment) etc.).
+IDE panels let you create any panel configuration you want for both code editing and also other features (such as [Git](/docs/ide/editing/git), [Bower](/docs/ide/tools/bower), [Deployment](/docs/ide/tools/deployment) etc.).
 
 This gives you complete control over the layout of your project. Whenever you leave you project, its precise pane configuration is saved and reloaded when you come back to it.
 

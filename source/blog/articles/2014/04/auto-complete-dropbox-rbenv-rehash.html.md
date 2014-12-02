@@ -2,7 +2,7 @@
 title: Automatic Auto-Complete, Dropbox & rbenv Rehash
 author: Joel Moss
 date: 2014-04-02
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---
@@ -19,7 +19,7 @@ If you don't like your auto-complete auto-completing, just set the preference `a
 
 ## Dropbox Syncing
 
-Another feature that we've been asked for, is support for syncing your code with your Dropbox account. This is actually a lot harder than it sounds, and is frought with plenty of troublesome edge cases. But thanks to [Codio Box Parts](https://codio.com/s/docs/boxes/box-parts/) - our built-in package manager - syncing with Dropbox is now easy!
+Another feature that we've been asked for, is support for syncing your code with your Dropbox account. This is actually a lot harder than it sounds, and is frought with plenty of troublesome edge cases. But thanks to [Codio Box Parts](https://codio.com/docs/boxes/box-parts/) - our built-in package manager - syncing with Dropbox is now easy!
 
 ```bash
 $ parts install dropbox

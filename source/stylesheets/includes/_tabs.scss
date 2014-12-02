@@ -1,0 +1,120 @@
+#tabs {
+
+    position: relative;
+
+    @include outer-container;
+
+    @include span-columns(4 of 4);
+    @include omega(4n);
+
+    @include media($large-screen-up) {
+        @include span-columns(8 of 8);
+        @include omega(8n);
+
+    }
+
+    margin-bottom: em(40);
+
+    .active,
+    .hidden {
+        @include transition(all .2s ease-in-out);
+    }
+
+    .active {
+        opacity: 1;
+
+    }
+
+    .hidden {
+        //display: none;
+        opacity: 0;
+    }
+
+    ul.tab-headers {
+        @include outer-container;
+        @include span-columns(4 of 4);
+        @include omega;
+
+        margin-bottom: $base-line-height*3;
+
+        @include media($large-screen-up) {
+            @include span-columns(20 of 20);
+        }
+
+        li {
+            border-radius: 0 $base-border-radius $base-border-radius 0;
+            background: $medium-gray;
+	    display: block;
+	    text-align: center;
+
+            @include span-columns(2 of 4);
+            @include omega(2n);
+
+            &.active {
+                background: $base-font-color;
+            }
+
+            &:first-of-type {
+                border-radius: $base-border-radius 0 0 $base-border-radius;
+                margin-right: 0;
+                margin-left: 3.33%;
+
+                @include media($large-screen-up) {
+                    @include shift(4 of 20)
+                }
+            }
+
+
+            @include media($large-screen-up) {
+                @include span-columns(6 of 20);
+            }
+
+            @include transition(background .2s linear);
+
+            &:not(.active) {
+                &:hover {
+                    @include transition(background .2s linear);
+                    background: $dark-gray;
+                    cursor: pointer;
+                }
+            }
+
+            a {
+	        font-size: 1.2em;
+	        line-height: 32px;
+	        height: 30px;
+	        position: relative;
+	        padding: 0 20px;
+	        color: white;
+	        font-weight: 400;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+
+    .content {
+	position: relative;
+        width: 100%;
+	z-index: 5;
+        border-radius: 0 $base-border-radius $base-border-radius $base-border-radius;
+
+        margin-top: 3*$base-line-height;
+
+        @include clearfix;
+
+        & > div {
+            float: left;
+	    z-index: 1;
+            display: none;
+            width: 100%;
+
+
+            @include transition(all linear 0.1s);
+        }
+
+    }
+}

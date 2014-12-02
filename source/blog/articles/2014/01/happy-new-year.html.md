@@ -2,12 +2,12 @@
 title: Happy New Year
 author: Joel Moss
 date: 2014-01-02
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 ---
 
-Happy new year to you all, and we hope you all had a great Christmas. I'm recovering from too much food and drink and pondering what 2014 will bring. As far as Codio is concerned, it's all guns blazing, and we've got [BIG plans](/s/blog/2013/12/git-and-tease-of-what-is-to-come/). We'll be revealing more over the coming weeks and months.
+Happy new year to you all, and we hope you all had a great Christmas. I'm recovering from too much food and drink and pondering what 2014 will bring. As far as Codio is concerned, it's all guns blazing, and we've got [BIG plans](/blog/2013/12/git-and-tease-of-what-is-to-come/). We'll be revealing more over the coming weeks and months.
 
 As for now, we've got a few goodies that we quietly shipped over the festive period. So think of these as slightly belated Christmas presents.
 
@@ -15,7 +15,7 @@ As for now, we've got a few goodies that we quietly shipped over the festive per
 
 The biggest new feature that shipped just before Christmas, was developed by one of our awesome engineers as part of his Friday Hack Day; a weekly day of anything goes hacking on Codio.
 
-[File Templates](/s/docs/ide/ide-general/templates/) allow you to create a new file based on a selection of code templates, such as a PHP class, or Python script, or even a plain HTML page. When you create a new file, you will have the option of populating that new file with a template of your choosing.
+[File Templates](/docs/ide/ide-general/templates/) allow you to create a new file based on a selection of code templates, such as a PHP class, or Python script, or even a plain HTML page. When you create a new file, you will have the option of populating that new file with a template of your choosing.
 
 ![templates](blog/templates.png)
 

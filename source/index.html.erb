@@ -1,43 +1,96 @@
 ---
-title: The World's Most Powerful Browser-Based IDE
-class_name: home
+title: Codio
 ---
-
-<% link_to '/education', id: 'education' do %>
-  <div class="container">
-    <h3>Teachers &amp; Students <small>Introducing Codio Education: teaching and learning to code has never been easier! <span>Tell me more...</span></small></h3>
-  </div>
-<% end %>
-
-<%= partial 'partials/home/header' %>
-
-<!-- <div id="hiring-home">
-  <div class="container">
-    <div>
-      <%= link_to image_tag('hiring.gif', :width => 130), '/blog/2014/03/hiring-more-javascript-engineers/', :data => { :"no-turbolink" => true } %>
-      <span>
-        Marketing folk &amp;<br>Javascript Engineers!
-       <%= link_to 'Click here to find out more...', '/blog/2014/03/hiring-more-javascript-engineers/' %>
-        
-      </span>
+<section class="hero paraxify">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <h1>Instant Coding Environments</h1>
+      <p>
+        Unlock student potential with access anywhere to unlimited project workspaces,
+        in a cloud IDE with pre-configured stacks & coding environments.
+      </p>
     </div>
+    <a href="/p/signup">Get Started</a>
   </div>
-</div> -->
 
+  <div class="info">
+    <i class="fa fa-info-circle"></i>
+    <span>
+      Created using
+      <a href="http://weavesilk.com" target="_blank">
+        weavesilk.com
+      </a>
+    </span>
+  </div>
+</section>
+<section class="pillar-text">
+  <div class="wrapper">
+    <aside>
+      <%= sprockets.find_asset("icons/stacks.svg").to_s %>
+    </aside>
+    <article>
+      <h2>
+        Accessible in the classroom, at home, anywhere,
+        with any machine or browser.
+      </h2>
+      <p>
+        No more lost code or missing USB sticks; your code
+        is ready and accessible any time you sign in and
+        each student enjoys a powerful editor with
+        unlimited project workspaces, dedicated servers and plenty of
+        storage.</br>
+        <%= link_to "Read more...", "/docs/quickstart/myfirstproject" %>
+      </p>
+      <a class="btn" href="/p/signup">Get Started</a>
+    </article>
+  </div>
 
-<%= partial 'partials/home/frontback' %>
-<%= partial 'partials/home/overview' %>
-<%= partial 'partials/home/ide' %>
-<%= partial 'partials/home/boxes' %>
-<%= partial 'partials/home/testimonials/kaigani' %>
-<%= partial 'partials/home/box-parts' %>
-<%= partial 'partials/home/testimonials/amyrhaq' %>
-<%= partial 'partials/home/speed' %>
-<%= partial 'partials/home/testimonials/stephenwil' %>
-<%= partial 'partials/home/integrated' %>
-<%= partial 'partials/home/testimonials/davetayls' %>
+</section>
 
+<section class="pillar-text">
+  <div class="wrapper">
 
-<% content_for :foot do %>
-  <%= javascript_include_tag 'home' %>
-<% end %>
+    <aside>
+      <%= sprockets.find_asset("icons/ide.svg").to_s %>
+    </aside>
+    <article>
+
+      <h2>
+        Put to one side the complexity of software set up and configuration.
+      </h2>
+      <p>
+        With one click stack selection from a limitless library you can
+        focus on teaching and maximising student engagement.
+        And Codio takes you even further with starter packs providing a
+        pre-configured stack, starting point code & instructional content.
+        </br>
+        <%= link_to "Read more...", "/docs/quickstart/stacks" %>
+      </p>
+      <a class="btn" href="/p/signup">Get Started</a>
+    </article>
+  </div>
+</section>
+
+<section class="pillar-text">
+  <div class="wrapper">
+    <aside>
+      <%= sprockets.find_asset("icons/book.svg").to_s %>
+    </aside>
+    <article>
+
+      <h2>Take the pain out of teaching programming.
+      </h2>
+      <p>
+        Teachers and lecturers can set up class groups in an instant,
+        invite students in, assign courses and modules, view student
+        projects and demonstrate coding through sharing and
+        collaborating. Tutorial content can be created and published,
+        remain public or be made private.
+        </br>
+        <%= link_to "Read more...", "/docs/quickstart/education" %>
+      </p>
+      <a class="btn" href="/p/signup">Get Started</a>
+
+    </article>
+  </div>
+</section>

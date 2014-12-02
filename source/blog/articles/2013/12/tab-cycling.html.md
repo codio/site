@@ -2,7 +2,7 @@
 title: Tab Cycling
 author: Joel Moss
 date: 2013-12-20
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 

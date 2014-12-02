@@ -2,7 +2,7 @@
 title: "Codio:Annotations - Say it with a sample"
 author: Freddy May
 date: 2013-04-10
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: true
@@ -32,7 +32,11 @@ We all know what most tutorials look like. It doesn't matter if it is a tutorial
 
 Below is an example of a high quality tutorial from webplatform.org, which you can scroll through or you can <a href="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html" target="_blank">open the full page</a>.
 
-<iframe style="width:700px; height:400px" src="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html"></iframe>
+<div class="video">
+  <div class="video-wrapper">
+    <iframe style="width:700px; height:400px" src="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html"></iframe>
+  </div>
+</div>
 
 It is very well written indeed, but there is a lot to digest here, and this is usually the case with web and video tutorials.
 
@@ -54,7 +58,11 @@ You can load any development project already today. Just include a link (<a href
 ##Better - Step 2
 But there are lots of situations where I want to make things even more seamless and avoid having to leave the tutorial page. You can embed the Codio IDE straight into your web page as shown below. It's a simple project, but have a quick explore ...
 
-<iframe style="width:800px; height:600px" src="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"></iframe>
+<div class="video">
+  <div class="video-wrapper">
+    <iframe style="width:800px; height:600px" src="https://codio.com/fmay/HTML-Create-and-Modify/tree/App/index.html"></iframe>
+  </div>
+</div>
 
 From the Codio IDE, your sample can be:
 
@@ -122,5 +130,3 @@ If you agree that Codio is a force for good whether in education or for professi
 Thanks!
 
 The Codio Team
-
-

@@ -2,7 +2,7 @@
 title: PhoneGap Integration inside Codio
 author: Joel Moss
 date: 2014-06-10
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 published: true
@@ -21,4 +21,4 @@ PhoneGap Build in Codio is a Beta release, as it is an early release feature. Ho
 
 As always, we need your feedback to help improve the experience, so [drop us a line](mailto:help@codio.com) with your comments, problems or suggestions.
 
-Check out the [docs](https://codio.com/s/docs/phonegap/) for more info on how to use PhoneGap Build in Codio. If you want to find out more about PhoneGap itself, head on over the [Adobe PhoneGap site](http://phonegap.com/).
+Check out the [docs](https://codio.com/docs/phonegap/) for more info on how to use PhoneGap Build in Codio. If you want to find out more about PhoneGap itself, head on over the [Adobe PhoneGap site](http://phonegap.com/).

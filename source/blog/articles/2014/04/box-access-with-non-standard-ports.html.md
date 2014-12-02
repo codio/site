@@ -2,7 +2,7 @@
 title: Box Access to Non-Standard Ports
 author: Joel Moss
 date: 2014-04-30
-tags: Changelog
+tags: 'Lab & Updates'
 class_name: blog
 full_width: true
 image: blog/port_80_blocked.png

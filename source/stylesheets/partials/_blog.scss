@@ -119,6 +119,20 @@ body.blog #content {
             }
         }
 
+        .summary {
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: $base-font-size;
+                line-height: $base-line-height;
+                margin: 0;
+                font-weight: 400;
+            }
+        }
+
         p, a {
             margin-bottom: 0;
         }

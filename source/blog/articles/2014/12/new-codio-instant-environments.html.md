@@ -42,8 +42,6 @@ In a [related blog post](/blog/articles/2014/12/education-sector-focus) today, w
 
 We're spending more and more of our time interacting directly with current and prospective users and we're always listening to their experiences and looking for ways to reflect their needs and aspirations in the innovation we deliver.
 
-You can always share your ideas and feedback in our [forum](http://forum.codio.com), or contact us directly.  
+You can always share your ideas and feedback in our [forum](http://forum.codio.com), or contact us directly.
 
 We'll be more and more active keeping the community up to date, so stay tuned - you can also follow Codio on [Twitter](https://twitter.com/codiohq) for the latest news and status updates.
-
-

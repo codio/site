@@ -105,7 +105,10 @@ configure :build do
   # Minification and Compression
   activate :minify_css
   activate :minify_javascript
-  activate :minify_html
+  activate :minify_html do |html|
+    html.remove_http_protocol = false
+    html.remove_https_protocol = true
+  end
 
   # Disable in development
   #activate :imageoptim

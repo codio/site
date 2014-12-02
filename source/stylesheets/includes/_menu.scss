@@ -97,6 +97,7 @@
 
             @include media($large-screen-up) {
                 margin: $base-line-height - 1px;
+                float: initial;
             }
         }
 

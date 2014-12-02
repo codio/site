@@ -19,9 +19,9 @@ startIntercom = (data) ->
 # Show the signed in men
 showUser = (user) ->
   hash = md5 user.details.email.toLowerCase()
-  $('#gravatar').prop 'src', '//www.gravatar.com/avatar/' + hash + '?s=32&amp;d=mm'
-  userlink = $('#userlink')
-  $('#userlink span').text user.details.name
+  $('.gravatar').prop 'src', '//www.gravatar.com/avatar/' + hash + '?s=32&amp;d=mm'
+  userlink = $('.userlink')
+  $('.userlink span').text user.details.name
 
   $('.signed-out').hide()
   $('.signed-in').show()
@@ -74,6 +74,6 @@ $ ->
     # Couldn't verify a signed in user
     return anonGa() if error
 
-    startIntercom user if Intercom?
+    startIntercom user
     showUser user
     signedInGa user.details.name

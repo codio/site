@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-A [Tutorial](/docs/quickstart/tutorials/) is a collection of Project snapshots that have been grouped and ordered. It is an ideal way of giving students access to a coherent set of Projects aimed at teaching any coding topic you like.
+A [Tutorial](docs/dashboard/tutorials/) is a collection of Project snapshots that have been grouped and ordered. It is an ideal way of giving students access to a coherent set of Projects aimed at teaching any coding topic you like.
 
 When combined with [Classrooms](/docs/dashboard/classroom/), you get a powerful way of teaching a class of students that let's you organize, review student code and grade.
 

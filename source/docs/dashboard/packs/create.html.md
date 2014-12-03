@@ -29,7 +29,7 @@ If you want to keep your Starter Pack private to your Organization, you can sele
 **Important** : please do not make your Packs public unless they are tried, tested and fit for public consumption so as not to fill the **All** listing with junk.
 
 ##Ownership
-You can specify whether other Codio Users within your Organizatio are able to access and Administer your Packs. If you are not a member of an Organization, this cannot be used.
+You can specify whether other Codio Users within your Organization are able to access and Administer your Packs. If you are not a member of an Organization, this cannot be used.
 
 ##Write a Guide
 [Codio Guides](/docs/ide/tools/guides/) is a very powerful content authoring feature that lets you write tutorial content that is fully integrated into the IDE. So if you are creating a Starter Pack for tuition purposes, a Guide is extremely useful and easy to use.

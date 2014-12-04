@@ -19,5 +19,5 @@ You can deploy an individual file or folder by right-clicking in the file tree.
 
 
 ##Command Line
-You can use the command line directly but you can also add your custom deployment actions by [modifying the Run Menu](/docs/boxes/overview/run).
+You can use the command line directly but you can also add your custom deployment actions by [modifying the Run Menu](/docs/boxes/runmenu/).
 

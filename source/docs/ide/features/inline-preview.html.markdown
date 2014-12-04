@@ -53,7 +53,7 @@ You are free to customize the menu in either of the following ways
 - From the Preview or Run drop down menus (the two right most Codio menu items), select 'Configure...'
 - If it exists already, open the `.codio` file that lives in the root of your project.
 
-For details about the various tokens that can be inserted, please refer to ['Customizing the Run menu'](/docs/boxes/overview/run).
+For details about the various tokens that can be inserted, please refer to ['Customizing the Run menu'](/docs/boxes/runmenu/).
 
 `{{domain}}` is the most important token for the Preview menu. It is replaced by the public url of your project. In most cases you will want to add the Port number (default 3000) to your service, as shown in the example below.
 

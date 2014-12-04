@@ -12,9 +12,9 @@ Project settings, as distinct from Project preferences, are used to store the fo
 - Project Name
 - Project Description
 - Public/Private
-- Allow [Box Cloning](/docs/boxes/overview/clone) (subscription required)
+- Allow Box Cloning (subscription required)
 - Enable [Manual Save](/docs/ide/features/saving)
-- Enable your Box as [Always-On](/docs/boxes/aob/always-on)
+- Enable your Box as [Always-On](/docs/boxes/always-on/)
 - Delete your Project
 - Export the project as a Zip file.
 

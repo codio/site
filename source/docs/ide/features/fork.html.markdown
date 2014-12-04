@@ -10,6 +10,6 @@ You can fork any 3rd party public project into your account. If you are looking 
 
 If you are signed into Codio, forking a project will create the fork in your account.
 
-If the project owner has allowed box cloning you will also be able to clone the box as well as the project. See [Cloning Boxes](/docs/boxes/overview/clone).
+If the project owner has allowed box cloning you will also be able to clone the box as well as the project.
 
 ![Clone box](/img/docs/fork-clone.png)

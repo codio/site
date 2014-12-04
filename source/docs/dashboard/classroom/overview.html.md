@@ -34,5 +34,5 @@ You can even assign a grade to the student's work and add comments.
 
 You can also add Teachers to the class so more than one teacher can view and grade student code.
 
-![Classroom Edit](/img/docs/classroom_edit.png)
+![Classroom Add Teachers](/img/docs/classroom_addteachers.png)
 

@@ -36,12 +36,14 @@ You can find your SSH URL in one of two ways
 1. Select the 'Project->Box Info' menu item and the dialog will show you your SSH connection deails.
 
 In both cases, you should see connection details like this
-
-`External ssh connection: ssh://codio@ssh1.codio.com:29119`
+```
+External ssh connection: ssh://codio@ssh1.codio.com:29119
+```
 
 You can now connect to your Box from any Terminal window using (in the above example)
-
-`ssh codio@ssh1.codio.com -p 29119`
+```
+ssh codio@ssh1.codio.com -p 29119
+```
 
 If you get a message `Permission denied (publickey)` then you have not uploaded your SSH Public Key correctly.
 

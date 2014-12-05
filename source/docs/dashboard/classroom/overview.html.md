@@ -28,9 +28,13 @@ You can then select a module and you will see a list of all students who are in 
 
 ![Classroom Students](/img/docs/classroom_students.png)
 
-From the list of students for the module, you are also able to access an individual student's code by clicking [TODO : WHERE TO CLICK WITH NEWS SCREENS] (circled in the above screenshot).
+From the list of students for the module, you are also able to access an individual student's code when they have completed the module (circled in the screenshot below).
 
-You can even assign a grade to the student's work and add comments.
+![Classroom ViewCode](/img/docs/class_viewcode.png)
+
+You can even assign a grade to the student's work and add comments when they have completed the module (circled in the screenshot below).
+
+![Classroom Grade](/img/docs/class_grade.png)
 
 You can also add Teachers to the class so more than one teacher can view and grade student code.
 

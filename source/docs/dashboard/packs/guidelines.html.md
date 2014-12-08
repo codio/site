@@ -38,7 +38,7 @@ Configuring the correct port in the range of 9500 to 9999 depends on the server 
 If you have installed or configured any components that are not a part of the code workspace, then you may want to create a special Stack that your Starter Pack uses. If you don't do this, then Projects that are created from the Starter Pack will need to have these modifications performed after Project creation. This might be an `npm install` if you are using Node.
 
 
-###Use GitHub
+##Use GitHub
 Although you can use Codio as the source for your Starter Pack, we recommend pushing your Project to a Git remote. This gives better version control over time. The creation process is also somewhat faster.
 
 When you create the Starter Pack, you can specify the Git url.
@@ -65,7 +65,7 @@ Describe how the user should get started. Point to your `.codio` menu options if
 ##How the Pack was prepared
 It can be helpful to others or even to you later on to describe how you built the Pack. What we often do is to include a set of instructions that can be pasted into a Bash script to recreate the Pack with a single command.
 
-**Example** : This Starter Pack was built on the Node+Gunr+MongoDB Stack. We than ran the following commands before creating the Pack.
+**Example** : This Starter Pack was built on the Node+Grunt+MongoDB Stack. We than ran the following commands before creating the Pack.
 
 npm install -g express
 npm install -g express-generator

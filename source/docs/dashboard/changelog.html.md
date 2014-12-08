@@ -8,20 +8,23 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###December 4th 2014
+###December 8th, 2014
+- **Feature**: Stack Info added to Project menu
+
+###December 4th, 2014
 - **Feature**: New Box Part added (rustup)
 
-###December 2nd 2014
+###December 2nd, 2014
 - **Feature**: New Style for Codio
 - **Feature**: Instant Coding Environments with [Stacks](/docs/dashboard/stacks/) and [Starter Packs](/docs/dashboard/packs/). [More information...](/blog/2014/12/new-codio-instant-environments/)
 
-###November, 2014
+###November 2014
 - **Feature**: (November 29th) New Box Part added (GNU mpfr
 - **Update**: (November 29th) Update Box Part (Ocaml, Opam)
 - **Feature**: (November 5th) New Box Part added (swl_prolog)
 - **Update**: (November 5th) Update Box Part (dart, elixir,googleappenginego,googlecloudsdk)
 
-###October 7th, 2014
+###October 2014
 - **Update**: (October 30th) Update Box Part (meteor)
 - **Update**: (October 28th) Update Box Part (maven)
 - **Feature**: (October 23rd) New Box Part added (gdal)
@@ -38,7 +41,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (October 2nd) Add project name into browser tab ie Codio - ProjectName.
 - **Feature**: (October 1st) Add [Manual Save](/docs/dashboard/projects/creating/#sts=Manual Save) project setting.
 
-###September, 2014
+###September 2014
 - **Improvement**: (September 30th) Improve responsiveness of [Quick Open](/docs/ide/features/quick-open/) (Ctrl+O or Cmd+O).
 - **Update**: (September 29th) Tutorial Docs updated for latest versions of Symfony (2.5.5) & Joomla (3.3.4).
 - **Feature**: (September 25th) New Box Parts added.
@@ -63,7 +66,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: (September 2nd) Reports of Vertical bar in Code Editor when switching tabs.
 - **Feature**: (September 1st) Added Guides. [More information...](/docs/ide/tools/guides)
 
-###August, 2014
+###August 2014
 - **Fixed**: (August 27th) reports of Export As Zip not functioning.
 - **Feature**: (August 27th) Added feature to generate QR Code of the project URL (Project>QR Code for Project Preview).
 - **Fixed**: (August 22nd) Incorrect dates shown for Subscription Transactions histories.
@@ -77,7 +80,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: (August 4th) Tutorial Docs updated for Mean.io.
 - **Update**: (August 4th) Update Box Part (googlecloudsdk).
 
-###July, 2104
+###July 2104
 - **Update**: (July 31st) Update Box Part (python3).
 - **Fixed**: (July 30th)handling of anonymose users loading projects from GitHub links.
 - **Update**: (July 29th) Update Box Parts (php and associated packages).
@@ -99,7 +102,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: (July 2nd) reports of problems deploying to NodeJitsu target.
 - **Improvement**: (July 1st) Improved [DashBoard](docs/dashboard/docs/dashboard/), adding in ability to search/order projects.
 
-###June, 2014
+###June 2014
 - **Feature**: (June 27th) Added tutorial on working with Openshift.
 - **Update**: (June 26th) Update Box Parts (rust)
 - **Feature**: (June 26th) New Box Parts added.
@@ -116,7 +119,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: (June 3rd) Tutorial Docs updated for PHPBrew.
 - **Feature**: (June 2nd) Added Phonegap to allow you to build your projects using Phonegap:Build platform. [More information...](/blog/2014/06/phonegap-integration-inside-codio/)
 
-###May, 2014
+###May 2014
 - **Feature**: (May 30th) Added Karma setup tutorial
 - **Feature**: (May 30th) Added Clojure (.clj) syntax highlighting support
 - **Fixed**: (May 22nd) reports of cursor jumping around in files when switching tabs.
@@ -138,7 +141,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (May 5th) Disable Autocomplete for Markdown and txt files.
 - **Improvement**: (May 2nd) Update Box Parts (Composer, OPAM, Python3)
 
-####April, 2014
+####April 2014
 - **Feature**: (April 30th) Access your Codio Box over Port 80. [More information](/blog/2014/04/box-access-with-non-standard-ports/)
 - **Improvement**: (April 30th) New Dashboard. [More Information](/blog/2014/04/new-dashboard/)
 - **Feature**: (April 30th) Connect with BitBucket. [More Information](/blog/2014/04/connect-with-bitbucket/)

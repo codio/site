@@ -9,11 +9,11 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 ###December 4th 2014
-- **Feature**: (December 4th) New Box Part added (rustup)
+- **Feature**: New Box Part added (rustup)
 
 ###December 2nd 2014
-- **Feature**: (December 2nd) New Style for Codio
-- **Feature**: (December 2nd) Instant Coding Environments with [Stacks](/docs/dashboard/stacks/) and [Starter Packs](/docs/dashboard/packs/). [More information...](/blog/2014/12/new-codio-instant-environments/)
+- **Feature**: New Style for Codio
+- **Feature**: Instant Coding Environments with [Stacks](/docs/dashboard/stacks/) and [Starter Packs](/docs/dashboard/packs/). [More information...](/blog/2014/12/new-codio-instant-environments/)
 
 ###November, 2014
 - **Feature**: (November 29th) New Box Part added (GNU mpfr

@@ -37,7 +37,7 @@ Include any general information on the use and operation of any installed compon
 ##Codio Documentation
 We recommend you include useful links to the Codio Documentation.
 
-##Useful Links
+##Stack Specific Links
 Provide useful links on the Stack components.
 ```
 
@@ -127,7 +127,7 @@ Please be aware of the following useful links
 - [SSH into your Box](/docs/boxes/access/ssh-access/)
 - [Creating multiple code editing panels in the IDE](/docs/ide/panels/)
 
-##Useful Links
+##Stack Specific Links
 
 - [PHP](http://php.net)
 - [Apache](http://httpd.apache.org)

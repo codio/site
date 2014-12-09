@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###December 9th, 2014
+- **Fixed**: problems reported of updating and saving Starter Packs
+
 ###December 8th, 2014
 - **Feature**: Stack Info added to Project menu
 

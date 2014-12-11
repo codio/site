@@ -12,6 +12,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: problems reported with HTMLEmbedded Syntax Highlighting
 - **Fixed**: changing of project status from public>private changing file tree icons
 - **Fixed**: update log info for PHPPGAdmin box part
+- **Update**: Update Box Parts (dart,erlang,nginx,python3)
 
 ###December 9th, 2014
 - **Fixed**: problems reported of updating and saving Starter Packs
@@ -27,7 +28,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Feature**: Instant Coding Environments with [Stacks](/docs/dashboard/stacks/) and [Starter Packs](/docs/dashboard/packs/). [More information...](/blog/2014/12/new-codio-instant-environments/)
 
 ###November 2014
-- **Feature**: (November 29th) New Box Part added (GNU mpfr
+- **Feature**: (November 29th) New Box Part added (GNU mpfr)
 - **Update**: (November 29th) Update Box Part (Ocaml, Opam)
 - **Feature**: (November 5th) New Box Part added (swl_prolog)
 - **Update**: (November 5th) Update Box Part (dart, elixir,googleappenginego,googlecloudsdk)

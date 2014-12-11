@@ -12,7 +12,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: problems reported with HTMLEmbedded Syntax Highlighting
 - **Fixed**: changing of project status from public>private changing file tree icons
 - **Fixed**: update log info for PHPPGAdmin box part
-- **Update**: Update Box Parts (dart,erlang,nginx,python3)
+- **Update**: Update Box Parts (dart,erlang,nginx,python3,redis)
 
 ###December 9th, 2014
 - **Fixed**: problems reported of updating and saving Starter Packs

@@ -8,9 +8,13 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###December 10th, 2014
+- **Fixed**: problems reported with HTMLEmbedded Syntax Highlighting
+- **Fixed**: changing of project status from public>private changing file tree icons
+- **Fixed**: update log info for PHPPGAdmin box part
+
 ###December 9th, 2014
 - **Fixed**: problems reported of updating and saving Starter Packs
-- **Fixed**: Stack layout problem resolved
 
 ###December 8th, 2014
 - **Feature**: Stack Info added to Project menu

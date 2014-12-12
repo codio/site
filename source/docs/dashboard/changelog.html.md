@@ -8,14 +8,16 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###December 10th, 2014
-- **Fixed**: problems reported with HTMLEmbedded Syntax Highlighting
+###December 11th, 2014
 - **Fixed**: changing of project status from public>private changing file tree icons
 - **Fixed**: create project layout
-- **Fixed**: reports of incorrect fork handling
-- **Fixed**: update log info for PHPPGAdmin box part
 - **Update**: Update Box Parts (dart,erlang,nginx,python3,redis,mongodb, scala,sbt)
 - **Update**: Update Codio Certified Stack (Scala)
+
+###December 10th, 2014
+- **Fixed**: problems reported with HTMLEmbedded Syntax Highlighting
+- **Fixed**: reports of incorrect fork handling
+- **Fixed**: update log info for PHPPGAdmin box part
 
 ###December 9th, 2014
 - **Fixed**: problems reported of updating and saving Starter Packs

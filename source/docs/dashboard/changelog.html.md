@@ -8,8 +8,13 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###December 15th, 2014
+- **Improvement**: backend updates to improve connection handling
+- **Improvement**: IE10 handling of scroll bars
+
 ###December 12th, 2014
 - **Update**: Codio Certified Stack (Rust, Python3)
+- **Update**: Update Box Parts (ack,apache2,apr_util,beanstalkd,berkeley_db,boost,cabal,cloudfoundry,cmake,couchdb,dropbox,elasticbeanstalk,elasticsearch)
 
 ###December 11th, 2014
 - **Fixed**: changing of project status from public>private changing file tree icons

@@ -4,7 +4,6 @@
 // Run button configuration
   "commands": {
         "Middleman": "M_ASSET_HOST=http://{{domain}}:3000 bundle exec middleman -p 3000",
-        "Git Commit": "./gcom.sh",
         "Kill Middleman": "pkill -9 ruby",
         "Build": "bundle exec middleman build",
         "Deploy to Production": "cap production deploy"

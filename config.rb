@@ -46,6 +46,10 @@ set :markdown, :no_intra_emphasis  => true,
 
 set :markdown_engine, :redcarpet
 
+activate :sitemap,
+         :gzip => false,
+         :hostname =>  "https://codio.com"
+
 activate :syntax
 
 activate :automatic_clowncar,

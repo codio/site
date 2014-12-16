@@ -1,0 +1,5 @@
+# Hey there. If you're a human looking at a file for robots, you should come work at Codio.
+
+User-agent: *
+
+Sitemap: https://codio.com/sitemap.xml

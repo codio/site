@@ -22,6 +22,9 @@ gem "redcarpet", "~> 3.2.0"
 # Syntax Highlighting
 gem "middleman-syntax", "~> 2.0.0"
 
+# Sitemap
+gem "middleman-sitemap", "~> 0.0.13"
+
 # Automatic responsive images
 #gem "middleman-automatic-clowncar", "~> 0.0.3"
 gem "middleman-automatic-clowncar", :github => "webPapaya/middleman-automatic-clowncar", :branch => "master"

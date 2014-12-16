@@ -12,6 +12,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: Update Box Parts (composer)
 - **Update**: Codio Certified Starter Packs (Drupal, Symfony)
 - **Fixed**: update links to documentation in IDE dialogs
+- **Fixed**: fix Project>Stack Info scrolling
 
 ###December 15th, 2014
 - **Improvement**: backend updates to improve connection handling

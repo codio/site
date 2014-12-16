@@ -48,7 +48,7 @@ Provide useful links on the Stack components.
 ##Using this Stack
 This Codio Stack gives you a complete **LAMP** stack ready to use and with all services up and running. To use this Stack, press the `USE STACK` button at the top right of the page.
 
-Once you have created a Project based on the Stack and you are in the IDE, you can find the information contained in this file by going to `Project>Stack Info` in your Project, which should open automatically.
+Once you have created a Project based on the Stack and you are in the IDE, you can find the information contained in this file by going to `Project>Stack Info` in your Project.
 
 ##Related Stacks & Starter Packs
 There are various other Stacks and Starter Packs that may be of interest. Please search the listing for

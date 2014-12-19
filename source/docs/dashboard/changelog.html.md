@@ -8,6 +8,13 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###December 19th, 2014
+- **Update**: update Codio Certified Starter Packs to use HTTPS URL to project source at Git Bug
+- **Improvement**: improve terminal loading progress notifications
+
+###December 18th, 2014
+- **Fixed**: update dialogs for adding users to Organisation and Classrooms
+
 ###December 16th, 2014
 - **Update**: Update Box Parts (composer)
 - **Update**: Codio Certified Starter Packs (Drupal, Symfony)

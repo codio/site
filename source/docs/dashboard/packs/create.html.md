@@ -11,7 +11,7 @@ You can create a new Starter Pack by pressing the 'Create Pack' button in the to
 You need to tell Codio where to get its source code from. There are two options
 
 - **Codio** : you have a Codio project where your code is located
-- **Git/Mercurial** : you can specify a Git or Mercurial repo that gets pulled in afresh each time someone creates a new Project based on your Starter Pack.  **Please Note**: Do not define the SSH URL to your project. Any users that do not have their Codio SSH Key uploaded to GitHub will not be able to create the project. Use the HTTPS URL.
+- **Git/Mercurial** : you can specify a Git or Mercurial repo that gets pulled in afresh each time someone creates a new Project based on your Starter Pack.  **Please Note**: We strongly advise that you use the HTTPS URL to the repository. If you use the SSH URL any users that do not have their Codio SSH Key uploaded to to the remote will not be able to create a project from this Starter Pack.
 
 ##Selecting a Stack
 Each Starter Pack requires a [Stack](/docs/quickstart/stacks/). If you only need a base Ubuntu Box, then you do not need to specify a Stack.

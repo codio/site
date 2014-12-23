@@ -7,7 +7,7 @@ full_width: true
 You can automatically perform any of the following actions when a section is shown
 
 - Open or close files
-- Open or close a Preview
+- Open or close a Preview (including external websites)
 - Open or close a Terminal window
 - Run a terminal command in the background
 
@@ -32,6 +32,13 @@ example.js, #terminal, #preview
 ```
 
 Any combinations are acceptable and they will be opened in the order specified.
+
+If you wish to show an external website page, the preview directive supports this.
+```
+preview: https://codio.com
+```
+
+Please note, if the site you want to preview prevents embedding in an iframe then you won't be able to use `https` addresses, you would have to use `http` addresses instead although this can only open up in an external browser tab
 
 You can add multiple open or close lines into your configuration to address most scenarios you are likely to encounter.
 

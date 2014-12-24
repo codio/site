@@ -17,7 +17,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: improve speed handling of Tutorial listing
 
 ###December 19th, 2014
-- **Update**: update Codio Certified Starter Packs to use HTTPS URL to project source at Git Bug
+- **Update**: update Codio Certified Starter Packs to use HTTPS URL to project source at Git Hub
 - **Improvement**: improve terminal loading progress notifications
 
 ###December 18th, 2014

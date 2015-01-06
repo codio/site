@@ -8,7 +8,13 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###January 5th 2015
+###January 6th, 2015
+- **Update**: Codio Certified Stack (Jekyll)
+- **Update**: Codio Certified Starter Packs (Jekyll, Ruby On Rails, WordPress)
+- **Improvement**: improve handling of unpacking archived projects
+
+
+###January 5th, 2015
 - **Fixed**: fixed links to docs in error handling pages
 
 ###December 2014

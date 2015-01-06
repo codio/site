@@ -8,59 +8,40 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###December 24th, 2014
-- **Update**: Codio Certified Starter Pack (Meteor )
+###January 5th 2015
+- **Fixed**: fixed links to docs in error handling pages
 
-###December 22nd, 2014
-- **Improvement**: improve messaging when using Git/Merurial as source for Starter Packs
-- **Fixed**: show URL of Git/Mecurial files when editing Starter Packs
-- **Improvement**: improve speed handling of Tutorial listing
-
-###December 19th, 2014
-- **Update**: update Codio Certified Starter Packs to use HTTPS URL to project source at Git Hub
-- **Improvement**: improve terminal loading progress notifications
-
-###December 18th, 2014
-- **Fixed**: update dialogs for adding users to Organisation and Classrooms
-
-###December 16th, 2014
-- **Update**: Update Box Parts (composer)
-- **Update**: Codio Certified Starter Packs (Drupal, Symfony)
-- **Fixed**: update links to documentation in IDE dialogs
-- **Fixed**: fix Project>Stack Info scrolling
-
-###December 15th, 2014
-- **Improvement**: backend updates to improve connection handling
-- **Improvement**: IE10 handling of scroll bars
-
-###December 12th, 2014
-- **Update**: Codio Certified Stack (Rust, Python3)
-- **Update**: Update Box Parts (ack,apache2,apr_util,beanstalkd,berkeley_db,boost,cabal,cloudfoundry,cmake,couchdb,dropbox,elasticbeanstalk,elasticsearch)
-
-###December 11th, 2014
-- **Fixed**: changing of project status from public>private changing file tree icons
-- **Fixed**: create project layout
-- **Update**: Update Box Parts (dart,erlang,nginx,python3,redis,mongodb, scala,sbt)
-- **Update**: Update Codio Certified Stack (Scala)
-
-###December 10th, 2014
-- **Fixed**: problems reported with HTMLEmbedded Syntax Highlighting
-- **Fixed**: reports of incorrect fork handling
-- **Fixed**: update log info for PHPPGAdmin box part
-- **Fixed**: reports of incorrect fork handling
-
-###December 9th, 2014
-- **Fixed**: problems reported of updating and saving Starter Packs
-
-###December 8th, 2014
-- **Feature**: Stack Info added to Project menu
-
-###December 4th, 2014
-- **Feature**: New Box Part added (rustup)
-
-###December 2nd, 2014
-- **Feature**: New Style for Codio
-- **Feature**: Instant Coding Environments with [Stacks](/docs/dashboard/stacks/) and [Starter Packs](/docs/dashboard/packs/). [More information...](/blog/2014/12/new-codio-instant-environments/)
+###December 2014
+- **Update**: (December 31st) changes to billing to reflect new EU VAT rules
+- **Improvement**: (December 25th) add new terminal preference settings
+- **Update**: (December 24th) Codio Certified Starter Pack (Meteor )
+- **Improvement**: (December 22nd) improve messaging when using Git/Merurial as source for Starter Packs
+- **Fixed**: (December 22nd) show URL of Git/Mecurial files when editing Starter Packs
+- **Improvement**: (December 22nd) improve speed handling of Tutorial listing
+- **Update**: (December 19th) update Codio Certified Starter Packs to use HTTPS URL to project source at Git Hub
+- **Improvement**: (December 19th) improve terminal loading progress notifications
+- **Fixed**: (December 18th) update dialogs for adding users to Organisation and Classrooms
+- **Update**: (December 16th) Update Box Parts (composer)
+- **Update**: (December 16th) Codio Certified Starter Packs (Drupal, Symfony)
+- **Fixed**: (December 16th) update links to documentation in IDE dialogs
+- **Fixed**: (December 16th) fix Project>Stack Info scrolling
+- **Improvement**: (December 15th) backend updates to improve connection handling
+- **Improvement**: (December 15th) IE10 handling of scroll bars
+- **Update**: (December 12th) Codio Certified Stack (Rust, Python3)
+- **Update**: (December 12th) Update Box Parts (ack,apache2,apr_util,beanstalkd,berkeley_db,boost,cabal,cloudfoundry,cmake,couchdb,dropbox,elasticbeanstalk,elasticsearch)
+- **Fixed**: (December 11th) changing of project status from public>private changing file tree icons
+- **Fixed**: (December 11th) create project layout
+- **Update**: (December 11th) Update Box Parts (dart,erlang,nginx,python3,redis,mongodb, scala,sbt)
+- **Update**: (December 11th) Update Codio Certified Stack (Scala)
+- **Fixed**: (December 10th) problems reported with HTMLEmbedded Syntax Highlighting
+- **Fixed**: (December 10th) reports of incorrect fork handling
+- **Fixed**: (December 10th) update log info for PHPPGAdmin box part
+- **Fixed**: (December 10th) reports of incorrect fork handling
+- **Fixed**: (December 9th) problems reported of updating and saving Starter Packs
+- **Feature**: (December 8th) Stack Info added to Project menu
+- **Feature**: (December 4th) New Box Part added (rustup)
+- **Feature**: (December 2nd) New Style for Codio
+- **Feature**: (December 2nd) Instant Coding Environments with [Stacks](/docs/dashboard/stacks/) and [Starter Packs](/docs/dashboard/packs/). [More information...](/blog/2014/12/new-codio-instant-environments/)
 
 ###November 2014
 - **Feature**: (November 29th) New Box Part added (GNU mpfr)

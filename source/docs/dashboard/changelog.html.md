@@ -8,6 +8,14 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###January 16th, 2015
+- **Improvement**: updates to handling of modules in Classrooms
+- **Fixed**: update handling of markdown files when changing from edit to preview mode
+
+###January 8th, 2015
+- **Improvement**: improve handling of changing layout actions
+- **Improvement**: add created timestamp for Classrooms and Tutorials
+
 ###January 6th, 2015
 - **Update**: Codio Certified Stack (Jekyll)
 - **Update**: Codio Certified Starter Packs (Jekyll, Ruby On Rails, WordPress)

@@ -114,9 +114,8 @@ header {
 
             .gravatar {
                 border-radius: 50%;
-                width: 30px;
+                width: 27px;
                 vertical-align: middle;
-                padding-right: 3px;
             }
 
             @include media($large-screen-up) {

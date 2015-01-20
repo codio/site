@@ -8,6 +8,11 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###January 20th, 2015
+- **Update**: update Organisation plans to allow number of [Always on Boxes](https://codio.com/docs/boxes/always-on/) for number of users in Organisation
+- **Improvement**: add welcome info for empty panel
+- **Update**: update approved tags for Stacks & Packs
+
 ###January 16th, 2015
 - **Improvement**: updates to handling of modules in Classrooms
 - **Fixed**: update handling of markdown files when changing from edit to preview mode

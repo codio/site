@@ -1,5 +1,5 @@
 ---
-title: Codio and leading exam board OCR to collaborate on new Computing course content and qualifications development
+title: "Codio & leading exam board OCR to collaborate on new Computing courses & qualifications, in the UK & internationally"
 author: Phillip Snalune
 date: 2015-01-21
 tags: News, Education

@@ -11,9 +11,6 @@ All your guides content is stored in `sections.md` in the `.guides` folder.
 ##Images
 It is recommended that you place your images in the `.guides/img` folder, although you don't have to.
 
-##Styling your output
-You can style your own output using the `.guides/styles.css` file
-
 ##Other Guides related files
 The goal should generally be to keep all extra files you may use for your Guides specific operations in the `./guides` folder. This way, the rest of your workspace area will appear clean and tidy and empty of rubbish for the student.
 

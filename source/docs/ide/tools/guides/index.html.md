@@ -29,3 +29,5 @@ If you are creating any type of coding tutorial or you are creating educational 
 - highlight code blocks within your code referenced from your Guide section
 - choose from a selection of panel layouts
 - hide and show table of contents while in both edit and play modes
+
+[Click here](/docs/ide/tools/guides/overview/) to start reading

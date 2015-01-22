@@ -13,8 +13,8 @@ This also contains the main navigation options for the main Codio listings
 - [Projects](/docs/dashboard/projects/)
 - [Stacks](/docs/quickstart/stacks/)
 - [Starter Packs](/docs/quickstart/packs/)
-- [Tutorials](/docs/quickstart/tutorials/)
-- [Classrooms](/docs/dashboard/classroom/)
+- [Courses](/docs/quickstart/courses/)
+- [Classes](/docs/dashboard/classes/)
 
 ... as well as additional administrative screens
 

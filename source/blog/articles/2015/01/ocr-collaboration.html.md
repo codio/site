@@ -7,13 +7,13 @@ class_name: blog
 full_width: true
 ---
 
-Set to share centre stage at the BETT shows “Learn Live” sessions this week, UK-based Codio, from Application Craft UK Ltd, are joining with exam board OCR to announce a collaboration which aims to create new forms of content to support the Computer Science curriculum as well as demonstrating the use of new technology for on-going course work assessment and eventual vocational qualification assessment.
+Set to share centre stage at the BETT shows “Learn Live” sessions this week, we're thrilled to announce today that we're joining with exam board OCR, to announce a collaboration which aims to create new forms of content to support the Computer Science curriculum, as well as demonstrating the use of new technology for on-going course work assessment, and eventual vocational qualification assessment.
 
-The new content is intended to integrate seamlessly with Codio’s cloud IDE platform, using the Codio “guides” feature which brings teaching content to life within a real integrated development environment – recognising the teacher and student benefits associated with a “learning by doing” form of computer science education.
+The new content is intended to integrate seamlessly with Codio’s cloud IDE platform, using the Codio “Guides” feature, which brings teaching content to life within a real integrated development environment – recognising the teacher and student benefits associated with a “learning by doing” form of computer science education.
 
 Codio’s platform allows rich instructional content to sit along side student computer programming workspaces within the IDE.
 
-OCR has pioneered computer science qualifications in schools and developed - with Raspberry Pi and CUP - the first school MOOC for computing; and  OCR’s expertise in qualifications development will help inform the structure of the new content and its relevance to both teachers and students.
+OCR has pioneered computer science qualifications in schools, and developed - with Raspberry Pi and CUP - the first school MOOC for computing; and OCR’s expertise in qualifications development will help inform the structure of the new content and its relevance to both teachers and students.
 
 Commenting on the collaboration, Codio’s co-founder and CRO, Phillip Snalune, said:
 > “Codio’s mission is to help teach the world to code.  Accessible anywhere, with software and content covering all the relevant computer programming languages, Codio’s unique combination of cloud platform, classroom management and curriculum content offers teachers and schools the perfect environment for embracing the new curriculum”.

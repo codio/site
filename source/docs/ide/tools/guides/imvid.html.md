@@ -20,15 +20,15 @@ Generally speaking, you should put your images in the `.guides/img` folder in or
 Including embedded videos are also possible using iframe support.
 
 
-  - ###YouTube
-
-```markdown
+  - YouTube
+  
+```
 <iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo" frameborder="0" allowfullscreen></iframe>
 ```
 
-  - ###Vimeo
+  - Vimeo
 
-```markdown
+```
 <iframe src="//player.vimeo.com/video/110479088" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/110479088">Codio - Innovation in Computer Programming Education</a> from <a href="http://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 ```
 ##Hyperlinks

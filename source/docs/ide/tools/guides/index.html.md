@@ -24,8 +24,10 @@ If you are creating any type of coding tutorial or you are creating educational 
 - all content written using simple markdown
 - create any number of sections within your Guide
 - re-order sections with drag and drop
-- optionally style your own output with CSS overrides
+- optionally style your own output with CSS overrides (coming soon)
 - specify files to automatically open with each section
 - highlight code blocks within your code referenced from your Guide section
 - choose from a selection of panel layouts
 - hide and show table of contents while in both edit and play modes
+
+[Click here](/docs/ide/tools/guides/overview/) to start reading

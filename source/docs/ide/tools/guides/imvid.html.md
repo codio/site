@@ -1,18 +1,10 @@
 ---
-title: "Images, Videos & Hyperlinks"
+title: "Images, Videos, Hyperlinks & iframes"
 class_name: docs
 full_width: true
 ---
 
 You can insert these in your section editor using Markdown.
-
-##Hyperlinks
-Creating a hyperlink on a piece of text is easy.
-
-```markdown
-Go to [Google](google.com) to look stuff up.
-```
-
 ##Images
 Inserting an image is similar. Here are some examples. PNG and JPG image types are supported. Note that the 2nd, 3rd and 4th examples point to images within your project.
 
@@ -23,13 +15,31 @@ Generally speaking, you should put your images in the `.guides/img` folder in or
 ![](image-in-project-root.jpg)
 ![](.guides/img/best-place-for-images.png)
 ```
-
 ##Videos
-Including a video is also possible. We currently support YouTube only, but can add Vimeo if required, so please email support@codio.com if you need this.
+
+Including embedded videos are also possible using iframe support.
+
+
+  - ###YouTube
 
 ```markdown
-![320x240](http://www.youtube.com/watch?v=U52xNyaS5R0&feature=youtu.be)
+<iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo" frameborder="0" allowfullscreen></iframe>
 ```
 
-- `[320-240]` is the size we want to render the video
-- `http://www.youtube.com/watch?v=U52xNyaS5R0&feature=youtu.be` it's very important that you use this format and not one you get directly from YouTube. In YouTube, find your video and then copy and paste the video id (`U52xNyaS5R0` in our example).
+  - ###Vimeo
+
+```markdown
+<iframe src="//player.vimeo.com/video/110479088" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/110479088">Codio - Innovation in Computer Programming Education</a> from <a href="http://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+```
+##Hyperlinks
+Creating a hyperlink on a piece of text is easy.
+
+```markdown
+Go to [Google](google.com) to look stuff up.
+```
+
+
+
+##iframes
+
+Full support for iframes is available if you wish to embed other content.

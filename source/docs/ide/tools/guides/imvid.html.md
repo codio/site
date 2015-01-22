@@ -17,7 +17,7 @@ Generally speaking, you should put your images in the `.guides/img` folder in or
 ```
 ##Videos
 
-Including embedded videos are also possible using iframe support.
+Including embedded videos are also possible using the standard `<iframe>` html tag.
 
 
   - YouTube
@@ -42,4 +42,9 @@ Go to [Google](google.com) to look stuff up.
 
 ##iframes
 
-Full support for iframes is available if you wish to embed other content.
+You can also embed an iframe using the standard `<iframe>` html tag.
+
+If you wish to embed from Google Docs, go to File>Publish to Web and select 'Embed' to obtain the code snippet
+
+
+![](/img/docs/guides/guide_publish.png)

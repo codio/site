@@ -10,3 +10,5 @@ Adding a file is done in one of two ways. First, make sure you have selected the
 - `Select File > New` from the menu
 
 You should specify both the file name and the extension.
+
+Right-clicking also allows you to Copy/Paste existing files.

@@ -17,7 +17,7 @@ If your tutorial has multiple folders, you may wish to show certain folders in y
 
 To show specific folder(s), enter the folder name(s) into the step path field to show that folder and any content (Multiple folders can be shown separated by `;` ie `folder1;folder2`).
 
-All folders will be hidden other than those entered in the step path field.  If not used in any section, the same folder(s) as specified in the previous section will be shown to save you having to manually set it each time.
+All folders will be hidden other than those entered in the step path field.  If not used in a section, the same folder(s) as specified in the previous section will be shown to save you having to manually set it each time.
 
 ##Open Tabs
 Windows can be opened automatically to present the tab configuration you feel is most appropriate for the reader.

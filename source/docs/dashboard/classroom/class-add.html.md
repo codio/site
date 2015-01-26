@@ -21,8 +21,7 @@ These are purely for display purposes and are optional.
 ##Tutorial
 You can at this point assign a Tutorial to the class. Press the ellipsis to choose a Tutorial.
 
-##Collaborators
-Enter the name (Codio user name or part of a full name) of any Codio users within your Organization who should be able to edit the Classrooom details. You can add multiple users.
+
 
 
 

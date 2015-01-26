@@ -8,7 +8,10 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-##January 22nd, 2015
+###January 26th, 2015
+- **Update**: added support for multiple folders in Guides Step Path. See [here](/docs/ide/tools/guides/auto-open/) for more on this.
+
+###January 22nd, 2015
 - **Update**: Guides updated including improve styling & iframe support. See [Guides](/docs/ide/tools/guides/) for more on this.
 - **Feature**: Add ability to copy/paste files/folders in file tree
 - **Update**: Codio Certified Starter Pack (Meteor)

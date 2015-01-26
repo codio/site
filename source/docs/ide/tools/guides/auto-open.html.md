@@ -13,7 +13,11 @@ You can automatically perform any of the following actions when a section is sho
 - Close all open tabs from the previous section
 
 ##Step Path
-If your tutorial has multiple folders for your content, you can use this to hide all other folders in the file tree except the one specified in the step path for the section.
+If your tutorial has multiple folders, you may wish to show certain folders in your section(s) to avoid confusion.
+
+To show specific folder(s), enter the folder name(s) into the step path field to show that folder and any content (Multiple folders can be shown separated by `;` ie `folder1;folder2`).
+
+All folders will be hidden other than those entered in the step path field.  If not used in any section, the same folder(s) as specified in the previous section will be shown to save you having to manually set it each time.
 
 ##Open Tabs
 Windows can be opened automatically to present the tab configuration you feel is most appropriate for the reader.

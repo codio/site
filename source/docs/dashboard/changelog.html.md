@@ -8,6 +8,16 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+##January 22nd, 2015
+- **Update**: Guides updated including improve styling & iframe support. See [Guides](/docs/ide/tools/guides/) for more on this.
+- **Feature**: Add ability to copy/paste files/folders in file tree
+- **Update**: Codio Certified Starter Pack (Meteor)
+
+###January 20th, 2015
+- **Update**: update Organisation plans to allow number of [Always on Boxes](https://codio.com/docs/boxes/always-on/) for number of users in Organisation
+- **Improvement**: add welcome info for empty panel
+- **Update**: update approved tags for Stacks & Packs
+
 ###January 16th, 2015
 - **Improvement**: updates to handling of modules in Classes
 - **Fixed**: update handling of markdown files when changing from edit to preview mode
@@ -28,7 +38,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 ###December 2014
 - **Update**: (December 31st) changes to billing to reflect new EU VAT rules
 - **Improvement**: (December 25th) add new terminal preference settings
-- **Update**: (December 24th) Codio Certified Starter Pack (Meteor )
+- **Update**: (December 24th) Codio Certified Starter Pack (Meteor)
 - **Improvement**: (December 22nd) improve messaging when using Git/Merurial as source for Starter Packs
 - **Fixed**: (December 22nd) show URL of Git/Mecurial files when editing Starter Packs
 - **Improvement**: (December 22nd) improve speed handling of Course listing

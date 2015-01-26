@@ -93,7 +93,7 @@ If I want to indent a list, then indent just 2 spaces and it will indent.
   - etc
 ```
 
-##Hyperlinks, Images and Videos
+##Hyperlinks, Images, Videos & iframes
 We describe this in [this section](/docs/ide/tools/guides/imvid).
 
 ##HTML

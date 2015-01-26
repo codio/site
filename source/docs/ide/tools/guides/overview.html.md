@@ -20,10 +20,15 @@ Below is a screenshot of the editor with the main components highlighted.
 ##Editor Functions
 Within the editor is a toolbar which gives you access to the key functions.
 
-- **Files** allows you to specify a) which files you want to automatically open when the current section is displayed and b) which lines (if any) you wish to highlight within each file
-- **Editable** specifies whether the files you are opening up with the **Files** option can be edited at that moment by the viewer when Guides is in Play mode
-- **Layouts** allows you to specify the panel layout you want to choose for this section
-- **Hamburger Icon** can be pressed to show or hide the Setion List
+- **Step Path** allows you to define specific folders in your project that you wish to be visible when the current section is displayed
+- **Layout** allows you to specify the panel layout you want to choose for this section
+- **Close Tabs** allows you to close all tabs open from previous section
+- **Open Tabs** allows you to specify:
+    - which files you want to automatically open when the current section is displayed,
+    - Preview (including external websites),
+    - Open a Terminal window (including running a terminal command in the background,
+    - which lines (if any) you wish to highlight within each file
+- **Hamburger Icon** can be pressed to show or hide the Section List
 - **Section List** lists the sections in your Guide. You can add new ones and re-order the list by dragging
 
 

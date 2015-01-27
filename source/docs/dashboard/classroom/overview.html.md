@@ -22,7 +22,7 @@ The main Classrooms screen shows a complete listing of all Classrooms belonging 
 
 When you select a Classroom, you are immediately shown the Tutorial that has been assigned to that Classroom as well as the complete list of modules that make up that Tutorial.
 
-![Classroom Tutorials](/img/docs/classroom_tutorials.png)
+![Classroom Tutorials](/img/docs/classroom_Tutorials.png)
 
 You can then select a module and you will see a list of all students who are in the class and were assigned that module.
 

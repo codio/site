@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-This section contains links to Codio tutorials and installation instructions.
+This section contains links to Codio Tutorials and installation instructions.
 
 ##General
 - [Ungit - a Git UI inside Codio](/docs/specifics/ungit)
@@ -42,4 +42,4 @@ This section contains links to Codio tutorials and installation instructions.
 ##Other Languages
 - [Ocaml](/docs/specifics/ocaml)
 
-If you want us to provide more tutorials, please email [support@codio.com](mailto:support@codio.com).
+If you want us to provide more Tutorials, please email [support@codio.com](mailto:support@codio.com).

@@ -4,16 +4,16 @@ class_name: docs
 full_width: true
 ---
 
-Only Tutorial owners or those with administration permissions for the course can add modules. Please refer to the [Create a new Tutorial](/docs/dashboard/tutorials/course-create/) section for information on permissions and collaborators.
+Only Tutorial owners or those with administration permissions for the course can add modules. Please refer to the [Create a new Tutorial](/docs/dashboard/Tutorials/course-create/) section for information on permissions and collaborators.
 
 A Tutorial module is simply a Codio project that contains
 
 - a code workspace and files
-- a [Codio Guide](/docs/dashboard/tutorials/guides) 
+- a [Codio Guide](/docs/dashboard/Tutorials/guides) 
 
 Press the `Add Module` button to add a new module.
 
-![Tutorials Add](/img/docs/tutorials_add.png)
+![Tutorials Add](/img/docs/Tutorials_add.png)
 
 ##Add Details
 Add a description and, importantly, a good description of the project that is helpful to others browsing Tutorial and module content.

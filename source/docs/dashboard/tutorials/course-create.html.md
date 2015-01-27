@@ -8,7 +8,7 @@ Before you create a Tutorial, you should have prepared at least one Codio Projec
 
 To create a new Tutorial, press the 'Create Tutorial' button in the top right of then screen on the main Tutorials screen.
 
-![Tutorials Create](/img/docs/tutorials_create.png)
+![Tutorials Create](/img/docs/Tutorials_create.png)
 
 ##Name, Descriptions, Image & Tags
 You are required to enter a name for your course. The Short Description is optional but please add something so others can easily identify it.

@@ -7,7 +7,7 @@ full_width: true
 #Delete a Module
 You can delete a module by selecting the module then pressing the `Delete` button.
 
-![Tutorials Delete](/img/docs/tutorials_delete.png)
+![Tutorials Delete](/img/docs/Tutorials_delete.png)
 
 #Delete a Tutorial
 You can delete a Tutorial by selecting the Tutorial from the listing, then press the `Edit` button, then the `Delete` button. 

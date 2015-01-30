@@ -22,12 +22,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: update approved tags for Stacks & Packs
 
 ###January 16th, 2015
-- **Improvement**: updates to handling of modules in Classrooms
+- **Improvement**: updates to handling of modules in Classes
 - **Fixed**: update handling of markdown files when changing from edit to preview mode
 
 ###January 8th, 2015
 - **Improvement**: improve handling of changing layout actions
-- **Improvement**: add created timestamp for Classrooms and Tutorials
+- **Improvement**: add created timestamp for Classes and Courses
 
 ###January 6th, 2015
 - **Update**: Codio Certified Stack (Jekyll)
@@ -44,10 +44,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: (December 24th) Codio Certified Starter Pack (Meteor)
 - **Improvement**: (December 22nd) improve messaging when using Git/Merurial as source for Starter Packs
 - **Fixed**: (December 22nd) show URL of Git/Mecurial files when editing Starter Packs
-- **Improvement**: (December 22nd) improve speed handling of Tutorial listing
+- **Improvement**: (December 22nd) improve speed handling of Course listing
 - **Update**: (December 19th) update Codio Certified Starter Packs to use HTTPS URL to project source at Git Hub
 - **Improvement**: (December 19th) improve terminal loading progress notifications
-- **Fixed**: (December 18th) update dialogs for adding users to Organisation and Classrooms
+- **Fixed**: (December 18th) update dialogs for adding users to Organisation and Classes
 - **Update**: (December 16th) Update Box Parts (composer)
 - **Update**: (December 16th) Codio Certified Starter Packs (Drupal, Symfony)
 - **Fixed**: (December 16th) update links to documentation in IDE dialogs

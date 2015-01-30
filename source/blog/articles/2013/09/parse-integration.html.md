@@ -25,7 +25,7 @@ We've added a Parse deployment profile into Codio. This lets Codio take care of 
 ![parse structure](/img/blog/parse-deploy.png)
 
 ##Example Apps
-Below are two sample Apps, both of which are standard Parse.com tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (`Project > Fork`). You can then follow the instructions in the README.md files.
+Below are two sample Apps, both of which are standard Parse.com Tutorials. You can load them directly into the Codio IDE. Feel free to fork them in Codio (`Project > Fork`). You can then follow the instructions in the README.md files.
 
 ###To Do App
 Click the button below to load this front-end App into Codio.

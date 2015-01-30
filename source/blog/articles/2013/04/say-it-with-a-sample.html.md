@@ -10,35 +10,35 @@ published: true
 
 While we were building the Codio IDE, we suddenly realized that we have in our hands a unique platform that helps people explain code - any programming language, any skill level, not just beginners. It is ideal for:
 
-- Development tutorials (any skill level)
+- Development Tutorials (any skill level)
 - API samples and explanations
-- Developer documentation samples and tutorials
+- Developer documentation samples and Tutorials
 - Documenting and explaining advanced frameworks, libraries etc.
 - Example code projects of any sort and any level
 
 ##Tell us what you think
 We will offer this as a completely free platform, but it will require real effort a) to add the annotation features and b) to provide the infrastructure. It is really important to us to know that people are behind our efforts.
 
-So if you like what you see, <a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank">Tweet about us</a>, <a href="http://www.facebook.com/CodioHQ" target="_blank">like us on Facebook</a> or just leave a comment at the bottom of this page. The more support we get for this, the more we'll throw at it.
+So if you like what you see, <a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and Tutorials, any language, any skill level" target="_blank">Tweet about us</a>, <a href="http://www.facebook.com/CodioHQ" target="_blank">like us on Facebook</a> or just leave a comment at the bottom of this page. The more support we get for this, the more we'll throw at it.
 
 ##Getting behind Education
-One of our real hopes is that Codio provides a new way for schools, universities and other programming courses to teach, based on real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real web IDE for free, we hope to clear away a few obstacles.
+One of our real hopes is that Codio provides a new way for schools, universities and other programming Tutorials to teach, based on real working code, and in a way that does not require the learner to assemble a full development stack before being able to start tinkering. By offering these features and a real web IDE for free, we hope to clear away a few obstacles.
 
 ##Video Overview
 This post describes things step by step, but if you prefer a video run-through, [click here](http://www.youtube.com/v/ypR9CUG1Tjo?autoplay=1&hd=1&fs=1&showsearch=0&rel=0&).
 
-##What's missing from most tutorials
-We all know what most tutorials look like. It doesn't matter if it is a tutorial for a complete newbie or something that is explaining a complex framework, API or library.
+##What's missing from most Tutorials
+We all know what most Tutorials look like. It doesn't matter if it is a tutorial for a complete newbie or something that is explaining a complex framework, API or library.
 
-Below is an example of a high quality tutorial from webplatform.org, which you can scroll through or you can <a href="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html" target="_blank">open the full page</a>.
+Below is an example of a high quality tutorial from webplatform.org, which you can scroll through or you can <a href="http://docs.webplatform.org/wiki/Tutorials/creating_and_modifying_html" target="_blank">open the full page</a>.
 
 <div class="video">
   <div class="video-wrapper">
-    <iframe style="width:700px; height:400px" src="http://docs.webplatform.org/wiki/tutorials/creating_and_modifying_html"></iframe>
+    <iframe style="width:700px; height:400px" src="http://docs.webplatform.org/wiki/Tutorials/creating_and_modifying_html"></iframe>
   </div>
 </div>
 
-It is very well written indeed, but there is a lot to digest here, and this is usually the case with web and video tutorials.
+It is very well written indeed, but there is a lot to digest here, and this is usually the case with web and video Tutorials.
 
 When I am learning about a something new, there are two things I always yearn for:
 
@@ -90,7 +90,7 @@ If I want to, I can put the entire tutorial itself into the project and then get
 ![Example Annotation](/img/blog/exp-scroll-1.png)
 
 ##Better - Step 5
-The final piece in the jigsaw is also really important - how to find great tutorials. We will build a curated area where each tutorial can be posted. Anyone who has built one can:
+The final piece in the jigsaw is also really important - how to find great Tutorials. We will build a curated area where each tutorial can be posted. Anyone who has built one can:
 
 - Add tags
 - Post it to a language area
@@ -122,7 +122,7 @@ And this one shows how you construct the annotations file. This provides both gu
 ##Please support us
 If you agree that Codio is a force for good whether in education or for professional development, then doing any of the following will really help us know we are pointed in the right direction:
 
-- <a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and tutorials, any language, any skill level" target="_blank">Tweet your support</a>
+- <a href="http://twitter.com/home/?status=Codio is an awesome platform for code examples and Tutorials, any language, any skill level" target="_blank">Tweet your support</a>
 - <a href="http://www.facebook.com/CodioHQ" target="_blank">Like us on Facebook</a>
 - Add a comment at the bottom of this page
 - Just let others know about Codio:Annotations

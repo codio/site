@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-A beautiful set of tutorials for Node.js from Nodeschool.io that starts simple and then gradually moves into more advanced territtory.
+A beautiful set of Tutorials for Node.js from Nodeschool.io that starts simple and then gradually moves into more advanced territtory.
 
 We've added Codio annotations, so it's a really great way to learn. Click on a tutorial to load it, then follow the README.md instructions.
 

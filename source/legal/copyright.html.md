@@ -1,7 +1,9 @@
 ---
 title: Copyright Notices
 ---
+**Art work on the Codio site.**
 
+The generative art work displayed on the codio.com home page was created by Anand Sharma using Weavesilk (v1.weavesilk.com) and is licensed under a Creative Commons International attribution license (https://creativecommons.org/licenses/by/4.0/legalcode) which includes a disclaimer of warranties and limitation of liability (see section 5).  The original image can be viewed at: http://v1.weavesilk.com/
 
 **Effective August 7th, 2013.**
 

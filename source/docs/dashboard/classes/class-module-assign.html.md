@@ -12,7 +12,7 @@ Modules can be assigned to classes by
 - collaborators (defined in Edit screen of the class)
 - teachers
 
-Select your class from the main classes listing. You should see the Course name and all modules belonging to that Course.
+Select your class from the main classes listing. You should see the Course name and all modules belonging to that Course. 
 
 Now, for the module you want to assign to the class, click on the right most icon. Below, you can see that the first module has already been assigned but the others have not. The assign buttons are circled.
 

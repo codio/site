@@ -24,7 +24,7 @@ You should select the Codio Project that the module is taken from.
 Once you have chosen a source for your module, a snapshot is made and is stored in a separate storage location. Any modifications you make to your source Project will not be reflected in the module unless you refresh it. 
 
 ##Refreshing the module from the source Project
-If you do make changes to your source Project and you want these to be reflected in the Course module, you will need to select the module and then press the `Refresh Source` button.
+If you do make changes to your source Project and you want these to be reflected in the Course module, you will need to select the module and then press the `Refresh Source` button. 
 
 
 

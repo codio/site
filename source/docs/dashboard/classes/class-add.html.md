@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-To add a new Class, press the 'Create' button from the main classes screen. You will then be asked to provide further details. Only the Class name is required
+To add a new Class, press the 'Create' button from the main classes screen. You will then be asked to provide further details. Only the Class name is required 
 On creation, you will be automatically added as a Teacher for that class. Teachers are able to assign modules to the Class, view student code and assign grades and comments.
 
 ![Class Create](/img/docs/class_create.png)
@@ -21,8 +21,7 @@ These are purely for display purposes and are optional.
 ##Course
 You can at this point assign a Course to the class. Press the ellipsis to choose a Course.
 
-##Collaborators
-Enter the name (Codio user name or part of a full name) of any Codio users within your Organization who should be able to edit the Class details. You can add multiple users.
+
 
 
 

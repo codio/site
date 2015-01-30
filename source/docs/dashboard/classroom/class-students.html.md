@@ -6,7 +6,7 @@ full_width: true
 
 Once you have selected a class, click on the Student menu item as shown below.
 
-![Classroom Add Students](/img/docs/classroom_addstudents.png)
+![Classes Add Students](/img/docs/classroom_addstudents.png)
 
 From here you can add students to the class by clicking on the Students link.
 

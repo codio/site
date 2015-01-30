@@ -1,5 +1,5 @@
 ---
-title: Updating Tutorials and modules
+title: Updating Courses and modules
 class_name: docs
 full_width: true
 ---

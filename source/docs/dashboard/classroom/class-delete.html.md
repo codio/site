@@ -8,5 +8,5 @@ A class can be deleted by the class owner and those with administration permissi
 
 - selecting the class and then pressing the 'Edit' button after which you will see a red 'Delete' button
 
-![Classroom Delete](/img/docs/class_delete.png)
+![Class Delete](/img/docs/class_delete.png)
 

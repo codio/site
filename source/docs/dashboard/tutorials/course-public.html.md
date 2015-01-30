@@ -1,5 +1,5 @@
 ---
-title: Public Tutorials
+title: Public Courses
 class_name: docs
 full_width: true
 ---
@@ -8,13 +8,13 @@ When you create a course in Codio, it can be kept private to yourself or to your
 
 However, if you are happy to have your course public then it becomes available for any other Codio user to find and use, copy or modify.
 
-You can make a Tutorial public at Tutorial creation or by pressing the `Edit` button having selected the Tutorial from the listing.
+You can make a Course public at Course creation or by pressing the `Edit` button having selected the Course from the listing.
 
-![Tutorials Edit](/img/docs/Tutorials_edit.png)
+![Courses Edit](/img/docs/tutorials_edit.png)
 
-##How to Use and Modify a public Tutorial
+##How to Use and Modify a public Course
 
-- Locate and select the Tutorial you are interested in
+- Locate and select the Course you are interested in
 - From the Modules list click on the fork icon for the module you want to modify
 - This will now fork that module into a new Project in your Codio account. From this point, you are free to make whatever changes you require to the code or to the [Codio Guide](/docs/ide/tools/guides/).
 

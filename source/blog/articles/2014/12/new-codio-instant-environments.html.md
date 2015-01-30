@@ -14,7 +14,7 @@ The Codio dev team has been busily working away for months now with a relentless
 
 Central to that experience is the concept of instant coding environments with the launch of a library of pre-configured software Stacks and Starter Packs, readily accessible to all our users.  Here our focus has been to remove as much wasted set up and configuration time as possible and to create a compelling resource to enhance your programming experience and inspire new learning and creativity.
 
-Now when you visit the IDE – as well as seeing all your projects – you’ll also see Stacks and Starter Packs in the main dashboard menu.  We’ve got stacks for LAMP, Angular, LEMP, Node, Grunt, Mongo Db, Python and Ruby on Rails, to name just a few.
+Now when you visit the IDE – as well as seeing all your projects – you’ll also see Stacks and Starter Packs in the main dashboard menu.  We’ve got Stacks for LAMP, Angular, LEMP, Node, Grunt, Mongo Db, Python and Ruby on Rails, to name just a few.
 
 ![Stacks List](/img/docs/stacks_list.png)
 

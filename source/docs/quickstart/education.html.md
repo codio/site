@@ -11,7 +11,7 @@ Here are some of the benefits of using Codio in an educational environment
 - Students can access their code from anywhere using just a browser.
 - There is no software to install on classroom machines, nor on student machines.
 - [Stacks](/docs/quickstart/stacks/) and [Starter Packs](/docs/quickstart/packs/) allow teachers to pre-configure entire environments for learning, including languages, databases, web servers, components and even entire code workspaces.
-- [Courses](docs/dashboard/courses/) allow teachers to group and order teaching Projects into logical Courses.
+- [Courses](/docs/dashboard/courses/) allow teachers to group and order teaching Projects into logical Courses.
 - [Codio Guides](/docs/ide/tools/guides/) lets teachers author rich content within the Codio IDE using simple markdown. These Guides can then run in one panel while the student codes in another.
 - [Classes](/docs/dashboard/classes/) let you organize and define a class of students and then assign Courses to them. You can then access Students code from the class list as well as Grading them. Classes are only available with an Organization account.
 

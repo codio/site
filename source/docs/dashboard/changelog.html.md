@@ -8,35 +8,26 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###January 26th, 2015
-- **Update**: added support for multiple folders in Guides Step Path. See [here](/docs/ide/tools/guides/auto-open/) for more on this.
+###February 2nd, 2015
+- **Update**: Tutorials/Classrooms renamed to Courses/Classes
+- **Update**: Updated to latest version of CodeMirror (4.12)
 
-###January 22nd, 2015
-- **Update**: Guides updated including improve styling & iframe support. See [Guides](/docs/ide/tools/guides/) for more on this.
-- **Feature**: Add ability to copy/paste files/folders in file tree
-- **Update**: Codio Certified Starter Pack (Meteor)
-
-###January 20th, 2015
-- **Update**: update Organisation plans to allow number of [Always on Boxes](https://codio.com/docs/boxes/always-on/) for number of users in Organisation
-- **Improvement**: add welcome info for empty panel
-- **Update**: update approved tags for Stacks & Packs
-
-###January 16th, 2015
-- **Improvement**: updates to handling of modules in Classrooms
-- **Fixed**: update handling of markdown files when changing from edit to preview mode
-
-###January 8th, 2015
-- **Improvement**: improve handling of changing layout actions
-- **Improvement**: add created timestamp for Classrooms and Tutorials
-
-###January 6th, 2015
-- **Update**: Codio Certified Stack (Jekyll)
-- **Update**: Codio Certified Starter Packs (Jekyll, Ruby On Rails, WordPress)
-- **Improvement**: improve handling of unpacking archived projects
-
-
-###January 5th, 2015
-- **Fixed**: fixed links to docs in error handling pages
+###January 2015
+- **Update**: (January 26th) added support for multiple folders in Guides Step Path. See [here](/docs/ide/tools/guides/auto-open/) for more on this.
+- **Update**: (January 22nd) Guides updated including improve styling & iframe support. See [Guides](/docs/ide/tools/guides/) for more on this.
+- **Feature**: (January 22nd) Add ability to copy/paste files/folders in file tree
+- **Update**: (January 22nd) Codio Certified Starter Pack (Meteor)
+- **Update**: (January 20th) update Organisation plans to allow number of [Always on Boxes](https://codio.com/docs/boxes/always-on/) for number of users in Organisation
+- **Improvement**: (January 20th) add welcome info for empty panel
+- **Update**: (January 20th) update approved tags for Stacks & Packs
+- **Improvement**: (January 16th) updates to handling of modules in Classrooms
+- **Fixed**: (January 16th) update handling of markdown files when changing from edit to preview mode
+- **Improvement**: (January 8th) improve handling of changing layout actions
+- **Improvement**: (January 8th) add created timestamp for Classrooms and Tutorials
+- **Update**: (January 6th) Codio Certified Stack (Jekyll)
+- **Update**: (January 6th) Codio Certified Starter Packs (Jekyll, Ruby On Rails, WordPress)
+- **Improvement**: (January 6th) improve handling of unpacking archived projects
+- **Fixed**: (January 5th) fixed links to docs in error handling pages
 
 ###December 2014
 - **Update**: (December 31st) changes to billing to reflect new EU VAT rules

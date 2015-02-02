@@ -12,7 +12,7 @@ Today we shipped some big improvements to the way you view and navigate through 
 
 ## Annotations
 
-Annotations are a great way to create interactive, code-based tutorials and tours. Just create a project and annotate your code using simple comments-based tags. Then viewers of your project will then be able to take a tour of your code, or click around on the annotations that you have created.
+Annotations are a great way to create interactive, code-based Tutorials and tours. Just create a project and annotate your code using simple comments-based tags. Then viewers of your project will then be able to take a tour of your code, or click around on the annotations that you have created.
 
 Today's release makes Annotations Tour content much less obtrusive. By moving the content out of a dialog window and into a tab - like everything else in Codio - you no longer have to move or resize the dialog out of the way. The code and Annotations content are now shown side-by-side.
 

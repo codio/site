@@ -8,8 +8,8 @@ If you are working in teams or are a school, college or university, we recommend
 
 Currently, the main advantage of an Organization account is 
 
-- Access to [Classrooms](/docs/dashboard/classroom/)
-- Teachers and Students can create private Projects, Stacks, Starter Packs and Tutorials
+- Access to [Classes](/docs/dashboard/classes/)
+- Teachers and Students can create private Projects, Stacks, Starter Packs and Courses
 
 We will be adding a great deal of functionality here to support easy signup, student driven assignment to classes, collaboration and other advanced features.
 

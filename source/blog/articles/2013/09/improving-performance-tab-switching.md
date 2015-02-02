@@ -57,5 +57,5 @@ As you've seen, profiling, measuring and looking at these great data points that
 [Ace]: http://ace.c9.io
 [CodeMirror]: http://codemirror.net
 [Node.js]: http://nodejs.org
-[article]: http://www.html5rocks.com/en/tutorials/developertools/revolutions2013/#toc-flame-chart
+[article]: http://www.html5rocks.com/en/Tutorials/developertools/revolutions2013/#toc-flame-chart
 [html5rocks]: http://www.html5rocks.com

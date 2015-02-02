@@ -10,7 +10,7 @@ published: false
 
 It may look like we have been a bit quiet recently, but we have in fact been building some major features, which will start coming off the production line in the next few weeks.
 
-The first thing we have just brought out is Codio Guides. This is an excellent way of authoring and displaying tutorial content right within the IDE. It is ideal both for teaching new concepts to complete novices as well as building tutorials for really advanced frameworks, libraries or APIs.
+The first thing we have just brought out is Codio Guides. This is an excellent way of authoring and displaying tutorial content right within the IDE. It is ideal both for teaching new concepts to complete novices as well as building Tutorials for really advanced frameworks, libraries or APIs.
 
 Here's a quick video to show you how it works.
 

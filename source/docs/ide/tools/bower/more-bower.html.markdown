@@ -9,6 +9,6 @@ If you want to find out more about Bower or maybe write your own components, the
 Try the following resources
 
 - [Bower site](http://bower.io)
-- [NetTuts introduction](http://net.tutsplus.com/tutorials/tools-and-tips/meet-bower-a-package-manager-for-the-web/)
+- [NetTuts introduction](http://net.tutsplus.com/Tutorials/tools-and-tips/meet-bower-a-package-manager-for-the-web/)
 
 

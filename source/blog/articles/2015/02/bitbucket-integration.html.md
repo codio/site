@@ -1,36 +1,31 @@
 ---
-title: "Codio & leading exam board OCR to collaborate on new Computing courses & qualifications, in the UK & internationally"
+title: "From repo to web IDE in one click - Codio & BitBucket integration makes editing code a breeze"
 author: Phillip Snalune
-date: 2015-01-21
+date: 2015-02-11
 tags: News, Education
 class_name: blog
 full_width: true
+publish: false
+---
+Yes, that’s right - you can now browse repos, and with one click, instantly launch your code in the Codio web IDE.  No git commands, just a single click and hey presto!
+
+We’ve added a special BitBucket authentication for Codio & BitBucket users.  Once a user has performed this a first time – there’s no need for repeat authentication, the project simply loads and the user can start editing in Codio immediately.
+
+With your code open in the Codio IDE, we automatically provision your Git or Mercurial repo so it’s ready for your session.  You can modify your code and push it straight back to your BitBucket repo. Simple.
+
+So BitBucket users have an instant code editor at their disposal that runs in the browser with nothing, yes, nothing to install! Not only do BitBucket users enjoy a free instant cloud based code editor – Codio now comes packed with Codio “Stacks” and “Starter Packs” – that’s right, a rich library of pre-configured software stacks and other components each available instantly.
+
+As a default Codio no longer offers free private projects – but for the BitBucket integration we’re making an exception – meaning BitBucket users new to Codio don’t pay a dime!  If you do need more than one private repo you can opt for a Codio subscription, from as little as $7 per month for education users, and upwards for the hardcore professionals.
+
+Look out for a Codio course tutorial to support the integration – coming soon – and for more news and updates from Team Codio, follow us on [Twitter](https://twitter.com/codiohq), [Facebook](https://facebook.com/codiohq) or [Google+](google.com/+Codio), [subscribe](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw?sub_confirmation=1) to our [Youtube channel](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw?sub_confirmation=1) for Codio’s “Ask the Experts” video series, or share your ideas and suggestions in the [forum](http://forum.codio.com)
+
+Commenting on the collaboration, Codio’s founder and CEO, Freddy May, said:
+
+> “Codio has always focused on delighting users with instant access anywhere to a powerful web IDE, and with today's integration we're thrilled to extend that experience to Bitbucket." 
+
 ---
 
-Set to share centre stage at the BETT shows “Learn Live” sessions this week, we're thrilled to announce today that we're joining with exam board OCR, to announce a collaboration which aims to create new forms of content to support the Computer Science curriculum, as well as demonstrating the use of new technology for on-going course work assessment, and eventual vocational qualification assessment.
+#### About Bitbucket
 
-The new content is intended to integrate seamlessly with Codio’s cloud IDE platform, using the Codio “Guides” feature, which brings teaching content to life within a real integrated development environment – recognising the teacher and student benefits associated with a “learning by doing” form of computer science education.
+See www.bitbucket.org
 
-Codio’s platform allows rich instructional content to sit along side student computer programming workspaces within the IDE.
-
-OCR has pioneered computer science qualifications in schools, and developed - with Raspberry Pi and CUP - the first school MOOC for computing; and OCR’s expertise in qualifications development will help inform the structure of the new content and its relevance to both teachers and students.
-
-Commenting on the collaboration, Codio’s co-founder and CRO, Phillip Snalune, said:
-> “Codio’s mission is to help teach the world to code.  Accessible anywhere, with software and content covering all the relevant computer programming languages, Codio’s unique combination of cloud platform, classroom management and curriculum content offers teachers and schools the perfect environment for embracing the new curriculum”.
-
-Liam Sammon, Director of Education & Commercial Services at OCR, commenting on the collaboration said:
-> “OCR has an outstanding record of partnering with leaders in the technology space to provide qualifications that support education in ways which enable all learners to reach their full potential and to recognise and celebrate their achievements.  We’re excited to be collaborating with Codio”.
-
----
-
-#### About OCR
-
-OCR is a leading UK awarding body. We provide qualifications which engage people of all ages and abilities at school, college, in work or through part-time learning programmes. 
-
-Our general and vocational qualifications equip learners with the knowledge and skills they need for their future, helping them achieve their full potential. 
-
-OCR is the leading provider of GCSE Computer Science in the UK and is dedicated to providing high quality and innovative qualifications fit for the 21st century classroom.
-
-OCR is a finalist at the 2015 BETT Awards for an enhanced version of the Computing MOOC.
-
-www.ocr.org.uk/computing

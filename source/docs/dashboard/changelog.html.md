@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###February 10th, 2015
+- **Fixed**: Password Reset process directing to wrong page
+
 ###February 2nd, 2015
 - **Update**: Tutorials/Classrooms renamed to Courses/Classes
 - **Update**: Updated to latest version of CodeMirror (4.12)

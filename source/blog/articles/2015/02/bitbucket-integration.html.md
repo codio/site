@@ -6,14 +6,14 @@ tags: News, Education
 class_name: blog
 full_width: true
 publish: false
+image: img/blog/bitbucket-header.png
 ---
-![Edit in Codio](img/blog/edit-in-codio-screenshot.png)
 
 Yes, that’s right - you can now browse repos, and with one click, instantly launch your code in the Codio web IDE.  No git commands, just a single click and hey presto!
 
-![Codio in Bitbucket](img/blog/Codio-Bitbucket-blog.png)
-
 We’ve added a special BitBucket authentication for Codio & BitBucket users.  Once a user has performed this a first time – there’s no need for repeat authentication, the project simply loads and the user can start editing in Codio immediately.
+
+![Codio in Bitbucket](img/blog/bitbucket-edit-in-codio.png)
 
 With your code open in the Codio IDE, we automatically provision your Git or Mercurial repo so it’s ready for your session.  You can modify your code and push it straight back to your BitBucket repo. Simple.
 
@@ -29,11 +29,10 @@ Ike DeLorenzo, Product Manager at Bitbucket commented:
 
 Codio’s founder and CEO, Freddy May, added:
 
-> “Codio has always focused on delighting users with instant access anywhere to a powerful web IDE, and with today's integration we're thrilled to extend that experience to Bitbucket." 
+> “Codio has always focused on delighting users with instant access anywhere to a powerful web IDE, and with today's integration we're thrilled to extend that experience to Bitbucket."
 
 ---
 
 #### About Bitbucket
 
 See www.bitbucket.org
-

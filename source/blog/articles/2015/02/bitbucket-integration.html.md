@@ -14,7 +14,7 @@ We’ve added a special BitBucket authentication for Codio & BitBucket users.  O
 
 ![Codio in Bitbucket](img/blog/bitbucket-edit-in-codio.png)
 
-With your code open in the Codio IDE, we automatically provision your Git or Mercurial repo so it’s ready for your session.  You can modify your code and push it straight back to your BitBucket repo. Simple.
+With your code open in the Codio IDE, we automatically provision your Git repo so it’s ready for your session.  You can modify your code and push it straight back to your BitBucket repo. Simple.
 
 So BitBucket users have an instant code editor at their disposal that runs in the browser with nothing, yes, nothing to install! Not only do BitBucket users enjoy a free instant cloud based code editor – Codio now comes packed with Codio [Stacks](/docs/dashboard/stacks) and [Starter Packs](/docs/dashboard/packs) – that’s right, a rich library of pre-configured software stacks and other components each available instantly.
 

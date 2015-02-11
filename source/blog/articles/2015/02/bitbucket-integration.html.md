@@ -5,7 +5,6 @@ date: 2015-02-11
 tags: News, Education
 class_name: blog
 full_width: true
-publish: false
 image: img/blog/bitbucket-header.png
 ---
 

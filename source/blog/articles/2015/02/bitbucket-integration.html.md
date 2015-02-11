@@ -10,7 +10,7 @@ image: img/blog/bitbucket-header.png
 
 Yes, that’s right - you can now browse repos, and with one click, instantly launch your code in the Codio web IDE.  No git commands, just a single click and hey presto!
 
-We’ve added a special BitBucket authentication for Codio & BitBucket users.  Once a user has performed this a first time – there’s no need for repeat authentication, the project simply loads and the user can start editing in Codio immediately.
+We’ve added a special BitBucket authentication for Codio & BitBucket users.  Once a user has performed this a first time – there’s no need for repeat authentication, the project simply loads and users can start editing in Codio immediately.
 
 ![Codio in Bitbucket](img/blog/bitbucket-edit-in-codio.png)
 
@@ -20,11 +20,11 @@ So BitBucket users have an instant code editor at their disposal that runs in th
 
 As a default Codio no longer offers free private projects – but for the BitBucket integration we’re making an exception – meaning BitBucket users new to Codio don’t pay a dime!  If you do need more than one private repo you can opt for a Codio subscription, from as little as $7 per month for education users, and upwards for the hardcore professionals.
 
-Look out for a Codio course tutorial to support the integration – coming soon – and for more news and updates from Team Codio, follow us on [Twitter](https://twitter.com/codiohq), [Facebook](https://facebook.com/codiohq) or [Google+](google.com/+Codio), [subscribe](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw?sub_confirmation=1) to our [Youtube channel](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw?sub_confirmation=1) for Codio’s “Ask the Experts” video series, or share your ideas and suggestions in the [forum](http://forum.codio.com)
+Look out for a Codio course tutorial to support the integration – coming soon – and for more news and updates from Team Codio, follow us on [Twitter](https://twitter.com/codiohq), [Facebook](https://facebook.com/codiohq) or [Google+](google.com/+Codio), [subscribe](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw?sub_confirmation=1) to our [Youtube channel](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw?sub_confirmation=1) for Codio’s “Ask the Experts” video series, or share your ideas and suggestions in the [forum](http://forum.codio.com).
 
 Ike DeLorenzo, Product Manager at Bitbucket commented:
 
-> "The Bitbucket team is excited to be integrating cloud-based coding environments. The partners we are working with have the scalability, ease-of-use, and efficiency our community has come to expect from Bitbucket itself.  For developers who increasingly turn to the cloud for version control, build, and deployment options, we see tight integration of a best-of-class cloud IDEs like Codio as a natural extension."
+> "The Bitbucket team is excited to be integrating cloud-based coding environments. The partners we are working with have the scalability, ease-of-use, and efficiency our community has come to expect from Bitbucket itself.  For developers who increasingly turn to the cloud for version control, build, and deployment options, we see tight integration of a best-of-class cloud IDE like Codio as a natural extension."
 
 Codio’s founder and CEO, Freddy May, added:
 

@@ -11,7 +11,7 @@ You can use 'Preview static' options on Static content only (HTML, CSS, JS and t
 You can also preview static content on your mobile device easily using 'Project>QR Code for Preview URL' to generate a QR code you can scan with a QR Reader on your device.
 
 ###Dynamic content
-To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the rightmost menu option. You can access your server side application in one of two ways
+To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the right-most menu option. You can access your server side application in one of two ways:
 
 - `word1-word2.codio.io:port` specify the port in the normal way
 - `word1-word2-port.codio.io` to access over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
@@ -59,14 +59,14 @@ For details about the various tokens that can be inserted, please refer to ['Cus
 
 ```json
 {
-// Configure your Run and Preview buttons here.
+  // Configure your Run and Preview buttons here.
 
-// Run button configuration
+  // Run button configuration
   "commands": {
         "Node version": "node --version"
   },
 
-// Preview button configuration
+  // Preview button configuration
   "preview": {
         "Project Index (static)": "https://{{domain}}/{{index}}",
         "Current File (static)": "https://{{domain}}/{{filepath}}",
@@ -84,18 +84,18 @@ If you cannot access your project over SSL then this could be the way your appli
 
 The full range of Codio `{{tokens}}` is explained in [this section](/docs/boxes/overview/run).
 
-##Insecure Content with In-Tab preview and front-end code
-Codio runs over https and the inline preview runs over https, too. If your code references an external resource (script, font, image etc.) such as
+## [Insecure Content with In-Tab preview and front-end code](#mixed-content)
+Codio runs over a secure connection using HTTPS, and therefore so does the inline preview. If your code references an external resource (script, font, image, etc.). For example:
 
 ```html
 <script src="http://code.angularjs.org/1.1.5/angular.js">
 ```
 
-then you will get a browser error indicating that there is some form of insecure content because you are running in a mixed http/https mode.
+You will get a browser error indicating that there is some form of insecure or mixed content because you are running in a mixed HTTP/HTTPS mode. This is a restriction of the browser, and cannot be modified easily, or in some browsers, it cannot be modified at all. It is intended to protect you from insecure content.
 
-There are 3 ways to avoid this
+There are 3 ways to avoid this:
 
-- expand the inline preview into a new browser tab (icon is in the small floating toolbar in the top right of the preview tab) and then modify the url from `https://codio.io/xxxx` to `http://codio.io/xxxx`
-- modify your external references to https
-- modify your references to use the 'current protocol' by including '//' without http or https, so `<script src="//code.angularjs.org/1.1.5/angular.js">`
-- if none of the above work, then get the external file then include and reference it within the Codio project itself
+- Modify your external references to use HTTPS.
+- Expand the inline preview into a new browser tab (icon is in the small floating toolbar in the top right of the preview tab) and then modify the url from `https://codio.io/xxxx` to `http://codio.io/xxxx`.
+- Modify your references to use the 'current protocol' by including '//' without http or https, so `<script src="//code.angularjs.org/1.1.5/angular.js">`.
+- If none of the above work, then download the external file, and include and reference it within the Codio project itself.

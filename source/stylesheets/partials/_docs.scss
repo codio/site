@@ -210,6 +210,23 @@ body.docs #content {
 
         h2 {
             margin: $base-line-height 0;
+
+            a {
+                color: inherit;
+
+                &:hover {
+                    text-decoration: none;
+
+                    &:before {
+                        content: '#';
+                        position: relative;
+                        left: -24px;
+                        width: 0;
+                        display: inline-block;
+                        color: #aaa;
+                    }
+                }
+            }
         }
 
         p {

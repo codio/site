@@ -10,6 +10,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ###February 16th, 2015
 - **Fixed**: issues with Project forking
+- **Feature**: New Box Part added (frcon)
+- **Update**: Update Box Parts (libcairo2, libgif, pixman)
 
 ###February 11th, 2015
 - **Feature**: Added one click integration from BitBucket to Codio. [More information...](/blog/2015/02/bitbucket-integration/)

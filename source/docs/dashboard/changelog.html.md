@@ -8,6 +8,13 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###February 16th, 2015
+- **Fixed**: issues with Project forking
+
+###February 11th, 2015
+- **Feature**: Added one click integration from BitBucket to Codio. [More information...](/blog/2015/02/bitbucket-integration/)
+- **Fixed**: issues with Replace in Project
+
 ###February 10th, 2015
 - **Fixed**: Password Reset process directing to wrong page
 

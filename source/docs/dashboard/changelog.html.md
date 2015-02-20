@@ -8,6 +8,10 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###February 20th, 2015
+- **Fixed**: reports of issues upgrading subscription plans and messaging
+- **Update**: update handling of Quick Open dialog
+
 ###February 18th, 2015
 - **Fixed**: reports of auto-complete tooltips not correctly closing
 

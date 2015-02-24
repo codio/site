@@ -5,14 +5,14 @@ date: 2015-02-24
 tags: Press release, News, Education
 class_name: blog
 full_width: true
-image: /img/blog/Ask the Experts_Shahneila Saeed.png
+image: /img/blog/ae-shahneila-saeed.png
 ---
 
 Codio has released the first in a series of five-minute videos which provide comment from industry specialists on the best ways of teaching computer science and coding in schools. The videos will be featured on Codio’s [Youtube channel](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw/feed?view_as=public) and here's the first in the series:
 
 <div class="video">
   <div class="video-wrapper">
-    <iframe width="560" height="315" src="//www.youtube.com/watch?v=Is8YAFQfRGI" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/Is8YAFQfRGI" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 

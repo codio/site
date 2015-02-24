@@ -15,6 +15,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Feature**: new Box Part added (lftp)
 - **Update**: update Box Parts (cargo_nightly, rust, rust_nightly)
 - **Improvement**: improve messaging for previewing of mixed content
+
 ###February 20th, 2015
 - **Fixed**: reports of issues upgrading subscription plans and messaging
 - **Update**: update handling of Quick Open dialog

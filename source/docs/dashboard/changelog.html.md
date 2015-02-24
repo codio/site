@@ -8,6 +8,13 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+###February 24th, 2015
+- **Update**: update exporting process in Firefox browser
+
+###February 22nd, 2015
+- **Feature**: new Box Part added (lftp)
+- **Update**: update Box Parts (cargo_nightly, rust, rust_nightly)
+- **Improvement**: improve messaging for previewing of mixed content
 ###February 20th, 2015
 - **Fixed**: reports of issues upgrading subscription plans and messaging
 - **Update**: update handling of Quick Open dialog

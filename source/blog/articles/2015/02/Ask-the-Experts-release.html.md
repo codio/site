@@ -8,7 +8,9 @@ full_width: true
 image: /img/blog/ae-shahneila-saeed.png
 ---
 
-Codio has released the first in a series of five-minute videos which provide comment from industry specialists on the best ways of teaching computer science and coding in schools. The videos will be featured on Codio’s [Youtube channel](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw/feed?view_as=public) and here's the first in the series:
+Team Codio continues to focus relentlessly on the needs of teachers, lecturers and students across the globe, as more and more education systems and markets embrace the study of computer science and computer programming.
+
+We’re always seeking fresh perspectives on how to bring the subject to life and how best to engage students - so today we’re thrilled to be able to share with you the first in a series of five-minute videos which provide comment from industry specialists on the best ways of teaching computer science and coding in schools. The videos will be featured on Codio’s [Youtube channel](https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw/feed?view_as=public) and here's the first in the series:
 
 <div class="video">
   <div class="video-wrapper">

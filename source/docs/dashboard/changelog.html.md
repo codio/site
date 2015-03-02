@@ -10,7 +10,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ### March 1st, 2015
 - **Feature** new Box Part added (cppcheck)
-- **Update**: update Box Parts (fish, protobuf, r_base, re2c, tig,)
+- **Update**: update Box Parts (fish, protobuf, r_base, racket, re2c, tig,)
 
 ### February 2015
 - **Update**: (Febrauary 24th) update exporting process in Firefox browser

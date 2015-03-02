@@ -8,39 +8,29 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-###February 24th, 2015
-- **Update**: update exporting process in Firefox browser
+### March 1st, 2015
+- **Feature** new Box Part added (cppcheck)
+- **Update**: update Box Parts (fish, protobuf, r_base, re2c, tig,)
 
-###February 22nd, 2015
-- **Feature**: new Box Part added (lftp)
-- **Update**: update Box Parts (cargo_nightly, rust, rust_nightly)
-- **Improvement**: improve messaging for previewing of mixed content
+### February 2015
+- **Update**: (Febrauary 24th) update exporting process in Firefox browser
+- **Feature**: (Febrauary 22nd) new Box Part added (lftp)
+- **Update**: (Febrauary 22nd) update Box Parts (cargo_nightly, rust, rust_nightly)
+- **Improvement**: (Febrauary 22nd) improve messaging for previewing of mixed content
+- **Fixed**: (Febrauary 20th) reports of issues upgrading subscription plans and messaging
+- **Update**: (Febrauary 20th) update handling of Quick Open dialog
+- **Improvement**: (Febrauary 20th) update BitBucket integration to support masterless repo's
+- **Fixed**: (Febrauary 18th) reports of auto-complete tooltips not correctly closing
+- **Fixed**: (Febrauary 16th) issues with Project forking
+- **Feature**: (Febrauary 16th) New Box Part added (frcon)
+- **Update**: (Febrauary 16th) Update Box Parts (libcairo2, libgif, pixman)
+- **Feature**: (Febrauary 11th) Added one click integration from BitBucket to Codio. [More information...](/blog/2015/02/bitbucket-integration/)
+- **Fixed**: (Febrauary 11th) issues with Replace in Project
+- **Fixed**: (Febrauary 10th) Password Reset process directing to wrong page
+- **Update**: (Febrauary 2nd) Tutorials/Classrooms renamed to Courses/Classes
+- **Update**: (Febrauary 2nd) Updated to latest version of CodeMirror (4.12)
 
-###February 20th, 2015
-- **Fixed**: reports of issues upgrading subscription plans and messaging
-- **Update**: update handling of Quick Open dialog
-- **Improvement**: update BitBucket integration to support masterless repo's
-
-###February 18th, 2015
-- **Fixed**: reports of auto-complete tooltips not correctly closing
-
-###February 16th, 2015
-- **Fixed**: issues with Project forking
-- **Feature**: New Box Part added (frcon)
-- **Update**: Update Box Parts (libcairo2, libgif, pixman)
-
-###February 11th, 2015
-- **Feature**: Added one click integration from BitBucket to Codio. [More information...](/blog/2015/02/bitbucket-integration/)
-- **Fixed**: issues with Replace in Project
-
-###February 10th, 2015
-- **Fixed**: Password Reset process directing to wrong page
-
-###February 2nd, 2015
-- **Update**: Tutorials/Classrooms renamed to Courses/Classes
-- **Update**: Updated to latest version of CodeMirror (4.12)
-
-###January 2015
+### January 2015
 - **Update**: (January 26th) added support for multiple folders in Guides Step Path. See [here](/docs/ide/tools/guides/auto-open/) for more on this.
 - **Update**: (January 22nd) Guides updated including improve styling & iframe support. See [Guides](/docs/ide/tools/guides/) for more on this.
 - **Feature**: (January 22nd) Add ability to copy/paste files/folders in file tree
@@ -57,7 +47,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (January 6th) improve handling of unpacking archived projects
 - **Fixed**: (January 5th) fixed links to docs in error handling pages
 
-###December 2014
+### December 2014
 - **Update**: (December 31st) changes to billing to reflect new EU VAT rules
 - **Improvement**: (December 25th) add new terminal preference settings
 - **Update**: (December 24th) Codio Certified Starter Pack (Meteor)
@@ -89,13 +79,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Feature**: (December 2nd) New Style for Codio
 - **Feature**: (December 2nd) Instant Coding Environments with [Stacks](/docs/dashboard/stacks/) and [Starter Packs](/docs/dashboard/packs/). [More information...](/blog/2014/12/new-codio-instant-environments/)
 
-###November 2014
+### November 2014
 - **Feature**: (November 29th) New Box Part added (GNU mpfr)
 - **Update**: (November 29th) Update Box Part (Ocaml, Opam)
 - **Feature**: (November 5th) New Box Part added (swl_prolog)
 - **Update**: (November 5th) Update Box Part (dart, elixir,googleappenginego,googlecloudsdk)
 
-###October 2014
+### October 2014
 - **Update**: (October 30th) Update Box Part (meteor)
 - **Update**: (October 28th) Update Box Part (maven)
 - **Feature**: (October 23rd) New Box Part added (gdal)
@@ -112,7 +102,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (October 2nd) Add project name into browser tab ie Codio - ProjectName.
 - **Feature**: (October 1st) Add [Manual Save](/docs/dashboard/projects/creating/#sts=Manual Save) project setting.
 
-###September 2014
+### September 2014
 - **Improvement**: (September 30th) Improve responsiveness of [Quick Open](/docs/ide/features/quick-open/) (Ctrl+O or Cmd+O).
 - **Update**: (September 29th) Tutorial Docs updated for latest versions of Symfony (2.5.5) & Joomla (3.3.4).
 - **Feature**: (September 25th) New Box Parts added.
@@ -137,7 +127,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: (September 2nd) Reports of Vertical bar in Code Editor when switching tabs.
 - **Feature**: (September 1st) Added Guides. [More information...](/docs/ide/tools/guides)
 
-###August 2014
+### August 2014
 - **Fixed**: (August 27th) reports of Export As Zip not functioning.
 - **Feature**: (August 27th) Added feature to generate QR Code of the project URL (Project>QR Code for Project Preview).
 - **Fixed**: (August 22nd) Incorrect dates shown for Subscription Transactions histories.
@@ -151,7 +141,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: (August 4th) Tutorial Docs updated for Mean.io.
 - **Update**: (August 4th) Update Box Part (googlecloudsdk).
 
-###July 2104
+### July 2104
 - **Update**: (July 31st) Update Box Part (python3).
 - **Fixed**: (July 30th)handling of anonymose users loading projects from GitHub links.
 - **Update**: (July 29th) Update Box Parts (php and associated packages).
@@ -173,7 +163,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: (July 2nd) reports of problems deploying to NodeJitsu target.
 - **Improvement**: (July 1st) Improved [DashBoard](docs/dashboard/docs/dashboard/), adding in ability to search/order projects.
 
-###June 2014
+### June 2014
 - **Feature**: (June 27th) Added tutorial on working with Openshift.
 - **Update**: (June 26th) Update Box Parts (rust)
 - **Feature**: (June 26th) New Box Parts added.
@@ -190,7 +180,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: (June 3rd) Tutorial Docs updated for PHPBrew.
 - **Feature**: (June 2nd) Added Phonegap to allow you to build your projects using Phonegap:Build platform. [More information...](/blog/2014/06/phonegap-integration-inside-codio/)
 
-###May 2014
+### May 2014
 - **Feature**: (May 30th) Added Karma setup tutorial
 - **Feature**: (May 30th) Added Clojure (.clj) syntax highlighting support
 - **Fixed**: (May 22nd) reports of cursor jumping around in files when switching tabs.
@@ -212,7 +202,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (May 5th) Disable Autocomplete for Markdown and txt files.
 - **Improvement**: (May 2nd) Update Box Parts (Composer, OPAM, Python3)
 
-####April 2014
+### April 2014
 - **Feature**: (April 30th) Access your Codio Box over Port 80. [More information](/blog/2014/04/box-access-with-non-standard-ports/)
 - **Improvement**: (April 30th) New Dashboard. [More Information](/blog/2014/04/new-dashboard/)
 - **Feature**: (April 30th) Connect with BitBucket. [More Information](/blog/2014/04/connect-with-bitbucket/)
@@ -231,7 +221,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (April 4th) Improved mode switching for editing of Markdown files. [More information...](/blog/2014/04/improved-mode-switching/)
 - **Feature**: (April 2nd) Automatic Auto-complete, Dropbox Syncing, rbenv rehash run automatically. [More information...](/blog/2014/04/auto-complete-dropbox-rbenv-rehash/)
 
-####March 2014
+### March 2014
 - **Improvement**: (March 31st) Update File tree. [More information...](/blog/2014/03/new-file-tree/)
 - **Feature**: (March 27th) Addition of 9 new Themes. [More information...](/blog/2014/03/themes/)
 - **Feature**: (March 21st) New Box Parts added. [More information...](/blog/2014/03/new-parts/)

@@ -8,6 +8,11 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### March 5th, 2015
+- **Update**: [Guides](/docs/ide/tools/guides/) updates
+- **Fixed**: reports of RSYNC deployment issues
+- **Improvement**: allow 'split' in  markdown files to show code and preview panes
+
 ### March 1st, 2015
 - **Feature** new Box Part added (cppcheck)
 - **Update**: update Box Parts (fish, protobuf, r_base, racket, re2c, tig,)

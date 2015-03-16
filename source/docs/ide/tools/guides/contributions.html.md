@@ -28,7 +28,7 @@ We welcome actual contributions to the content. This can range from typo correct
 2. You can collaborate using Git. If you prefer this route, then you will need to be familiar with Git and issuing Pull Requests. 
 
 ## Basis for contributing
-If you wish to contribute then please be aware that you have to agree to assign all necesary rights to Codio to use your contributions in any way Codio chooses, including the ability to copy, modify, sublicense these contributions. 
+If you wish to contribute then please be aware that you have to agree to assign all necessary rights to Codio to use your contributions in any way Codio chooses, including the ability to copy, modify, sublicense these contributions. 
 
 If you are not comfortable with assigning rights in this way then please do not make any contributions. You are more than welcome to make suggestions where you see a need for improvement and we will look to add these improvements ourselves on your behalf.
 

@@ -8,8 +8,11 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### March 16th, 2015
+- **Feature**: Auto create default projects on account creation
+
 ### March 7th, 2015
-- **Feature** new Box Parts added (jq, boot)
+- **Feature**: new Box Parts added (jq, boot)
 - **Update**: update Box Parts (setuptools, swig, the_silver_searcher, tomcat)
 
 ### March 5th, 2015
@@ -18,7 +21,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: allow 'split' in  markdown files to show code and preview panes
 
 ### March 1st, 2015
-- **Feature** new Box Part added (cppcheck)
+- **Feature**: new Box Part added (cppcheck)
 - **Update**: update Box Parts (fish, protobuf, r_base, racket, re2c, tig,)
 
 ### February 2015

@@ -7,6 +7,9 @@ full_width: true
 This page contains a list of recent updates made to the Codio platform. We update Codio regularly, sometimes several times a day, so this page should provide information to help you figure out what we have changed.
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
+### March 19th, 2015
+- **Improvement**: add stack support to course modules
+
 ### March 18th, 2015
 - **Improvement**: further Guides updates
 

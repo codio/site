@@ -59,7 +59,7 @@ $ ->
       if x[1]
         flags[x[0]] = x[1]
 
-  if flags['edu-user'] == 1
+  if flags['edu-user'] == '1'
     monster.set 'edu-user', true
 
   # Fetch the session id from the cookie

@@ -41,7 +41,7 @@ If you already have students and teachers who have created Codio accounts, you s
 ### CSV Upload
 We will soon be adding the ability to upload your own CSV files to create student accounts and also to create classes. Most schools have MIS systems that allow this data to be easily exported.
 
-In the short term (through April 30th 2015) you can email us your CSV file and we will process these for you. Please send this to psnalune@codio.com.
+In the short term (through April 30th 2015) you can email us your CSV file and we will process these for you. Please send this to help@codio.com.
 
 The file should be a CSV file with the following fields present : email (required), full name, user name, class.
 

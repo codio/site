@@ -60,7 +60,7 @@ $ ->
         flags[x[0]] = x[1]
 
   if flags['edu-user'] == '1'
-    monster.set 'edu-user', true
+    monster.set 'edu-user', true, 30
 
   # Fetch the session id from the cookie
   session = monster.get 'crafted_session'

@@ -1,0 +1,22 @@
+#podklad
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  z-index: 99999
+  opacity: 0.4
+  background: url("../podklad/xs.jpg") no-repeat center center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  height: 6376px
+  +media($tablet)
+    background: url("../podklad/sm.jpg") no-repeat center center
+    height: 6376px
+  +media($notebook)
+    background: url("../podklad/md.jpg") no-repeat center center
+    height: 6376px
+  +media($desktop)
+    background: url("../podklad/lg.jpg") no-repeat center center
+    height: 6376px

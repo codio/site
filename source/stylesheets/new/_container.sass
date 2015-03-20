@@ -1,0 +1,11 @@
+.container
+  width: 100%
+  position: relative
+  +media($tablet)
+    +outer-container($tablet-container)
+
+  +media($notebook)
+    +outer-container($notebook-container)
+
+  +media($desktop)
+    +outer-container($desktop-container)

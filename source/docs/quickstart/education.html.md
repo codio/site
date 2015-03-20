@@ -1,5 +1,5 @@
 ---
-title: Education
+title: Schools & Education
 class_name: docs
 full_width: true
 ---

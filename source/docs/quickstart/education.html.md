@@ -25,7 +25,7 @@ To create your Educational Organization, you should do the following
 1. Or click on the Organizations icon in the bottom left of the Dashboard, then click the `Create Organization` button at the top right of your screen.
 1. Be sure to click on the `Educational Trial` button in the Select a Plan section.
 
-At this point, you will have an Organization account for you and up to 100 other users. You will receive an email asking for proof that you are a bona fide eductional organization, which you will need to provide within 24 hours. If you do not do this, you and all users will be downgraded to free accounts.
+At this point, you will have an Organization account for you and up to 250 users. You may receive an email asking for proof that you are a bona fide eductional organization, which you will need to provide within 24 hours. If you do not do this, you and all users will be downgraded to free accounts.
 
 More documentation can be found on Organizations [here](/docs/dashboard/organizations/).
 

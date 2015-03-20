@@ -45,7 +45,7 @@ In the short term (through April 30th 2015) you can email us your CSV file and w
 
 The file should be a CSV file with the following fields present : email (required), full name, user name, class.
 
-Only the email fields is required. If your school uses internal user names for students then we advise using this. You can also specify the class that a student belongs to.
+Only the email field is required. If your school uses internal user names for students then we advise using this. You can also specify the class that a student belongs to.
 
 ## Teacher Support Functionality
 In June 2015, we will be releasing a comprehensive set of features that allow teachers to fully manage their student classes and

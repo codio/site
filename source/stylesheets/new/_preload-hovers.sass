@@ -1,19 +1,24 @@
 $url_0: url("../img/new/lg/partners_naace_o_lg.png")
-$url_1: url("../img/new/md/partners_naace_o_md.png")
-$url_2: url("../img/new/lg/partners_cas_o_lg.png")
-$url_3: url("../img/new/md/partners_cas_o_md.png")
-$url_4: url("../img/new/lg/partners_ocr_o_lg.png")
+$url_1: url("../img/new/lg/partners_cas_o_lg.png")
+$url_2: url("../img/new/lg/partners_ocr_o_lg.png")
+
+$url_3: url("../img/new/md/partners_naace_o_md.png")
+$url_4: url("../img/new/md/partners_cas_o_md.png")
 $url_5: url("../img/new/md/partners_ocr_o_md.png")
 
-$url_6: url("../img/new/md/social_yt_o_md.png")
-$url_7: url("../img/new/lg/social_yt_o_lg.png")
-$url_8: url("../img/new/md/social_fb_o_md.png")
-$url_9: url("../img/new/lg/social_fb_o_lg.png")
-$url_10: url("../img/new/md/social_g_o_md.png")
-$url_11: url("../img/new/lg/social_g_o_lg.png")
-$url_12: url("../img/new/md/social_tw_o_md.png")
-$url_13: url("../img/new/lg/social_tw_o_lg.png")
+$url_6: url("../img/new/lg/social_yt_o_lg.png")
+$url_7: url("../img/new/lg/social_fb_o_lg.png")
+$url_8: url("../img/new/lg/social_g_o_lg.png")
+$url_9: url("../img/new/lg/social_tw_o_lg.png")
+
+$url_10: url("../img/new/md/social_yt_o_md.png")
+$url_11: url("../img/new/md/social_fb_o_md.png")
+$url_12: url("../img/new/md/social_g_o_md.png")
+$url_13: url("../img/new/md/social_tw_o_md.png")
 
 body:after
-  content: $url_0 $url_1 $url_2 $url_3 $url_4 $url_5 $url_6 $url_7 $url_8 $url_9 $url_10 $url_11 $url_12 $url_13
   display: none
+  +media($notebook)
+    content: $url_3 $url_4 $url_5 $url_10 $url_11 $url_12 $url_13
+  +media($desktop)
+    content: $url_0 $url_1 $url_2 $url_6 $url_7 $url_8 $url_9

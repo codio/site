@@ -1,4 +1,29 @@
-#sub03
+.subpage
+  +outer-container()
+  max-width: none
+  overflow: hidden
+
+  section.heading
+    +span-columns(12)
+    h1
+      color:  #3c3c3c
+      text-align: center
+      font-weight: 600
+      font-size: 18px
+      padding-top: 29px
+      +media($tablet)
+        font-size: 30px
+        padding-top: 70px
+        letter-spacing: -0.5px
+      +media($notebook)
+        font-size: 38px
+        padding-top: 97px
+        letter-spacing: -0.85px
+      +media($desktop)
+        font-size: 47px
+        padding-top: 138px
+        letter-spacing: -1px
+
   section:first-child
     background: #ecf1f5
     height: 242px
@@ -62,10 +87,47 @@
         text-align: left
         +span-columns(6)
 
+  section:nth-child(2)
+    h1
+      color:  #000000
+      font-weight: 600
+      text-align: center
+      font-size: 12px
+      +media($mobil)
+        width: 268px
+        display: block
+        margin: 44px auto 0
+        padding-bottom: 45px
+        line-height: 14px
+      +media($tablet)
+        margin-top: 40px
+        padding-left: 129px
+        padding-right: 129px
+        padding-bottom: 52px
+        line-height: 21px
+        font-size: 15px
+      +media($notebook)
+        margin-top: 86px
+        padding-left: 196px
+        padding-right: 196px
+        padding-bottom: 79px
+        line-height: 25px
+        font-size: 19px
+      +media($desktop)
+        margin-top: 111px
+        padding-left: 283px
+        padding-right: 283px
+        padding-bottom: 106px
+        line-height: 27px
+        font-size: 21px
   .section-left,.section-right
-    background-size: cover
+    +fill-parent()
+    +row(table)
+
+    max-width: none
     height: 190px
     margin-top: 113px
+
     +media($tablet)
       height: 389px
       margin-top: 130px
@@ -75,27 +137,63 @@
     +media($desktop)
       height: 605px
       margin-top: 275px
-    div
+
+    .left
+      +span-columns(12)
+      +row(table)
+      vertical-align: middle
+      padding: 20px
+
       +media($tablet)
-        position: relative
-        top: 50%
-        +transform(translateY(-50%))
+        +span-columns(5)
+      +media($notebook)
+
+      +media($desktop)
+        padding: 60px
+
+    .right.simple-image
+      img
+        width: 80%
+        +media($tablet)
+          width: 300px
+        +media($notebook)
+          width: 400px
+        +media($desktop)
+          width: 589px
+
+    .right
+      vertical-align: middle
+      text-align: center
+      +span-columns(12)
+      +row(table)
+      +omega()
+
+      +media($tablet)
+        +span-columns(7)
+
+      img
+        width: 100%
+        +media($tablet)
+          width: 600px
+        +media($notebook)
+          width: 800px
+        +media($desktop)
+          width: 1119px
+    div
       p
         color:  #222222
         font-weight: 400
         text-align: justify
         font-size: 12px
         line-height: 14px
+        padding: 10px 45px
+
         +media($mobil)
-          padding-top: 198px
-          width: 268px
           display: block
           margin: 0 auto
 
         +media($tablet)
-          +span-columns(6)
-          color:  #222222
-          font-weight: 400
+          font-weight: 300
           text-align: left
           font-size: 15px
           line-height: 23px
@@ -105,65 +203,6 @@
         +media($desktop)
           font-size: 23px
           line-height: 27px
-  .section-left
-    p
-      +media($tablet)
-        padding-left: 20px
-        padding-right: 20px
-      +media($notebook)
-        padding-left: 35px
-        padding-right: 35px
-      +media($desktop)
-        padding-left: 35px
-        padding-right: 50px
-  .section-right
-    p
-      +media($tablet)
-        +shift(6)
-        padding-right: 20px
-        padding-left: 20px
-      +media($notebook)
-        padding-right: 35px
-        padding-left: 35px
-      +media($desktop)
-        padding-right: 35px
-        padding-left: 50px
-  section:nth-of-type(2)
-    margin-top: 61px
-    background: url("../img/new/xs/sub_03_curriculum_01_xs.jpg") no-repeat center center
-    +media($tablet)
-      margin-top: 73px
-      background: url("../img/new/sm/sub_03_curriculum_01_sm.jpg") no-repeat center center
-    +media($notebook)
-      margin-top: 95px
-      background: url("../img/new/md/sub_03_curriculum_01_md.jpg") no-repeat center center
-    +media($desktop)
-      margin-top: 130px
-      background: url("../img/new/lg/sub_03_curriculum_01_lg.jpg") no-repeat center center
-  section:nth-of-type(3)
-    background: url("../img/new/xs/sub_03_curriculum_02_xs.jpg") no-repeat center center
-    +media($tablet)
-      background: url("../img/new/sm/sub_03_curriculum_02_sm.jpg") no-repeat center center
-    +media($notebook)
-      background: url("../img/new/md/sub_03_curriculum_02_md.jpg") no-repeat center center
-    +media($desktop)
-      background: url("../img/new/lg/sub_03_curriculum_02_lg.jpg") no-repeat center center
-  section:nth-of-type(4)
-    background: url("../img/new/xs/sub_03_curriculum_03_xs.jpg") no-repeat center center
-    +media($tablet)
-      background: url("../img/new/sm/sub_03_curriculum_03_sm.jpg") no-repeat center center
-    +media($notebook)
-      background: url("../img/new/md/sub_03_curriculum_03_md.jpg") no-repeat center center
-    +media($desktop)
-      background: url("../img/new/lg/sub_03_curriculum_03_lg.jpg") no-repeat center center
-  section:nth-of-type(5)
-    background: url("../img/new/xs/sub_03_curriculum_04_xs.jpg") no-repeat center center
-    +media($tablet)
-      background: url("../img/new/sm/sub_03_curriculum_04_sm.jpg") no-repeat center center
-    +media($notebook)
-      background: url("../img/new/md/sub_03_curriculum_04_md.jpg") no-repeat center center
-    +media($desktop)
-      background: url("../img/new/lg/sub_03_curriculum_04_lg.jpg") no-repeat center center
 
   section.big-button:before
     background: none

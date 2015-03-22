@@ -1,7 +1,20 @@
+main
+  padding-top: 50px
+
+  +media($tablet)
+    padding-top: 70px
+
+  +media($notebook)
+    padding-top: 90px
+
+  +media($desktop)
+    padding-top: 103px
 header
   background-color: #3c3c3c
   width: 100%
   height: 50px
+  position: fixed
+  z-index: 9995
 
   +media($tablet)
     height: 70px

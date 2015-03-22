@@ -92,3 +92,102 @@ nav
       height: 24px
       width: 340px
       margin-bottom: 114px
+#pricing-site
+  section:nth-of-type(2)
+    #pricing-table1
+      .button
+        background-color: #4396c1
+        &:hover
+          background-color: #44aee5
+    #pricing-table2
+      .button
+        background-color: #307ae1
+        &:hover
+          background-color: #3a9bff
+    a.button
+      +border-top-radius(5px)
+      +border-right-radius(5px)
+      +border-bottom-radius(5px)
+      +border-left-radius(5px)
+      display: inline-block
+      margin: 434px auto 27px
+      padding: 24px 0 26px 0
+      font-size: 18px
+      letter-spacing: -0.5px
+      text-align: center
+      width: 280px
+      +media($tablet)
+        letter-spacing: -1px
+        margin-top: 470px
+        margin-bottom: 30px
+        padding: 27px 0 29px 0
+        font-size: 23px
+        width: 336px
+      +media($notebook)
+        margin-top: 582px
+        margin-bottom: 27px
+        padding: 29px 0 32px 0
+        font-size: 25px
+        width: 405px
+      +media($desktop)
+        margin-top: 786px
+        margin-bottom: 25px
+        padding: 29px 0 34px 0
+        font-size: 27px
+        width: 505px
+      &:after
+
+        +media($tablet)
+          position: absolute
+          left: 0
+          content: url("../img/new/sm/pricing_shadow_sm.png")
+          height: 52px
+          width: 336px
+          top: 550px
+        +media($notebook)
+          content: url("../img/new/md/pricing_shadow_md.png")
+          height: 63px
+          width: 405px
+          top: 672px
+        +media($desktop)
+          content: url("../img/new/lg/pricing_shadow_lg.png")
+          height: 77px
+          width: 511px
+          top: 870px
+  .big-button:before
+    content: none
+  .big-button
+    .button
+      background-color: #3c3c3c
+      +media($tablet)
+        margin-top: 34px
+      +media($notebook)
+        margin-top: 30px
+      +media($desktop)
+        margin-top: 52px
+      &:hover
+        background-color: #575757
+    &:after
+      //content: url("../img/new/xs/button_shadow_xs.png")
+      //height: 14px
+      //width: 205px
+      //margin: 0 auto 23px
+      content: none
+
+      +media($tablet)
+        display: block
+        position: relative
+        content: url("../img/new/sm/button_shadow_sm.png")
+        height: 19px
+        width: 305px
+        top: -51px
+      +media($notebook)
+        content: url("../img/new/md/button_shadow_md.png")
+        height: 19px
+        width: 305px
+        top: -61px
+      +media($desktop)
+        content: url("../img/new/lg/button_shadow_lg.png")
+        height: 24px
+        width: 340px
+        top: -74px

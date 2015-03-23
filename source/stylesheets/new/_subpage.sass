@@ -117,9 +117,47 @@
         margin-top: 111px
         padding-left: 283px
         padding-right: 283px
-        padding-bottom: 106px
+        padding-bottom: 50px
         line-height: 27px
         font-size: 21px
+
+  .video
+    +span-columns(12)
+    text-align: center
+    margin: 50px 0
+    +media($notebook)
+      margin: 100px 0
+    a
+      background-image: url('../../img/new/xs/video_banner.png')
+      background-repeat: no-repeat
+      background-position: center top
+      height: 93px
+      font-weight: 400
+      color: #307AE1
+      text-decoration: none
+      display: inline-block
+
+      +media($tablet)
+        font-size: 15px
+      +media($notebook)
+        background-image: url('../../img/new/lg/video_banner.png')
+        height: 138px
+        font-size: 19px
+      +media($desktop)
+        font-size: 21px
+
+      em
+        color: #222
+      span
+        display: inline-block
+        margin-top: 110px
+        +media($notebook)
+          margin-top: 30px
+      span:first-child
+        +media($notebook)
+          margin-right: 180px
+
+
   .section-left,.section-right
     +fill-parent()
     +row(table)

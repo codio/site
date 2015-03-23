@@ -1,6 +1,23 @@
+#menu-toggle
+  +media($mobil)
+    background-image: url("../img/new/uni/hamburger.png")
+    width: 44px
+    height: 34px
+    position: absolute
+    top: 8px
+    right: 8px
+    cursor: pointer
+  +media($tablet)
+    display: none
+.show-menu
+  +media($mobil)
+    display: block
 nav
   ul
-    display: none
+    +media($mobil)
+      display: none
+      position: relative
+      top: 50px
     +media($tablet)
       position: absolute
       display: block
@@ -13,8 +30,14 @@ nav
       top: 33px
       right: 15px
     li
-      display: inline-block
+      +media($mobil)
+        background-color: #3c3c3c
+        border-top: 1px solid #494949
+        padding-left: 38px
+        padding-top: 16px
+        padding-bottom: 16px
       +media($tablet)
+        display: inline-block
         padding: 0 19px
       +media($notebook)
         padding: 0 19px

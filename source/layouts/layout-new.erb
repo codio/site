@@ -21,6 +21,16 @@
 
     <!-- Include Scripts -->
     <%= javascript_include_tag  "all" %>
-
+    <script>
+        $(function () {
+            $('#menu-toggle').click(function(){
+                if($('nav ul').hasClass('show-menu')) {
+                    $('nav ul').removeClass('show-menu');
+                } else {
+                    $('nav ul').addClass('show-menu');
+                }
+            });
+        });
+    </script>
   </body>
 </html>

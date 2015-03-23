@@ -49,19 +49,6 @@ fetchUser = (session, done) ->
 
 $ ->
 
-  #set edu-user if got one
-  flags = {}
-  urlParams = window.location.href.match(/\?([^#]+)\#?/)
-  if urlParams != null
-    params = urlParams[1].split('&')
-    for item, i in params
-      x = item.split('=')
-      if x[1]
-        flags[x[0]] = x[1]
-
-  if flags['edu-user'] == '1'
-    monster.set 'edu-user', true, 30
-
   # Fetch the session id from the cookie
   session = monster.get 'crafted_session'
 

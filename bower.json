@@ -9,5 +9,8 @@
     "zeptotouch": "~1.1.4",
     "jqTabs": "git@github.com:archaeron/jqTabs.git#~1.1.0",
     "Paraxify.js": "git@github.com:jaicab/Paraxify.js.git"
+  },
+  "dependencies": {
+    "pgwmodal": "~2.0.0"
   }
 }

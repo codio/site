@@ -47,7 +47,7 @@ gem "middleman-minify-html", "~> 3.4.0"
 
 gem "coffee-script", "~> 2.3.0"
 gem "sass", "~> 3.4.8"
-gem "bourbon", "~> 4.0.2"
+gem "bourbon", "~> 4.2.1"
 gem "bitters", "~> 0.10.1"
 gem "neat", "~> 1.7.0"
 

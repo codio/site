@@ -1,5 +1,5 @@
 ---
-title: Schools & Education
+title: Education
 class_name: docs
 full_width: true
 ---
@@ -12,7 +12,7 @@ Codio solves these problems and delivers breakthrough benefits for schools in th
 
 -	As a cloud platform, students can access their code from anywhere using just a browser.  Use school machines in the classroom, bring your own device, and continue on your personal machine for homework and coursework assignments.
 -	We’ve collaborated with leading UK exam board – OCR (Oxford, Cambridge & RSA) to bring you curriculum-based teaching content integrated within the Codio platform using Codio’s “Guides” authoring and publishing tools.
--	Codio’s school licences are inclusive of teaching content found in the “Courses” menu under “Recommended”.  Teachers can also create their own course content, again using Codio’s “Guides” authoring and publishing tool.  
+-	Codio’s school licences are inclusive of teaching content found in the “Courses” menu under “Recommended”.  Teachers can also create their own course content, again using Codio’s “Guides” authoring and publishing tool.
 -	The teaching content sits alongside the student workspace and the preview window creating a step change in student engagement and allowing the teacher to play a far more facilitative, coaching and supporting role.
 -	There is no software to install on classroom machines, nor on student machines, Codio comes pre-configured with all the software languages, frameworks and databases you’ll need.
 -	You can also use Codio [Stacks](/docs/quickstart/stacks/) and [Starter Packs](/docs/quickstart/packs/) to pre-configure entire environments for learning, including languages, databases, web servers, components and even entire code workspaces.
@@ -20,7 +20,7 @@ Codio solves these problems and delivers breakthrough benefits for schools in th
 
 ##Trialing Codio in your School, College or University
 
-You can trial Codio free for 60 days in your school or university after which time you will need a whole school or university licence. 
+You can trial Codio free for 60 days in your school or university after which time you will need a whole school or university licence.
 
 To create your Educational Organization and start your free trial, you should do the following:
 
@@ -39,4 +39,3 @@ You will be required to verify your student status to receive the student pricin
 ##Codio Guides
 
 If you are teaching computer science or coding and want to author your own teaching content that runs within the IDE, please take a look at Codio Guides. They are easy to create and make for a powerful teaching and learning experience.
-

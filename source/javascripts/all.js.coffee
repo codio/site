@@ -4,6 +4,7 @@
 #= require blueimp-md5
 #= require jqTabs/jqTabs
 #= require Paraxify.js/paraxify
+#= require pgwmodal
 #
 #= require_tree ./vendors
 #

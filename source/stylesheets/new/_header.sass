@@ -1,0 +1,54 @@
+main
+  padding-top: 50px
+
+  +media($tablet)
+    padding-top: 70px
+
+  +media($notebook)
+    padding-top: 90px
+
+  +media($desktop)
+    padding-top: 103px
+header
+  background-color: #3c3c3c
+  width: 100%
+  height: 50px
+  position: fixed
+  z-index: 9995
+
+  +media($tablet)
+    height: 70px
+
+  +media($notebook)
+    height: 90px
+
+  +media($desktop)
+    height: 103px
+
+  .logo
+    position: absolute
+    top: 8px
+    left: 8px
+    background-image: url("../img/new/xs/logo_xs.png")
+    width: 88px
+    height: 33px
+    +media($tablet)
+      top: 15px
+      left: 13px
+      background-image: url("../img/new/sm/logo_sm.png")
+      width: 109px
+      height: 40px
+
+    +media($notebook)
+      top: 22px
+      left: 21px
+      background-image: url("../img/new/md/logo_md.png")
+      width: 120px
+      height: 45px
+
+    +media($desktop)
+      top: 23px
+      left: 22px
+      background-image: url("../img/new/lg/logo_lg.png")
+      width: 150px
+      height: 56px

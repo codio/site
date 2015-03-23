@@ -1,0 +1,17 @@
+{
+  "name": "pgwmodal",
+  "homepage": "http://pgwjs.com/pgwmodal/",
+  "version": "2.0.0",
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.0"
+  },
+  "main": [
+    "pgwmodal.min.js",
+    "pgwmodal.min.css"
+  ],
+  "_source": "git://github.com/Pagawa/PgwModal.git",
+  "_target": "~2.0.0",
+  "_originalSource": "pgwmodal"
+}

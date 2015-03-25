@@ -8,9 +8,9 @@ A Codio project can have a single Guide. Within that Guide you can have as many 
 
 To create a new Guide, or to edit an existing one, go to the 'Tools->Edit Guide' menu option.
 
-You may find it helpful to split Codio into 2 panes using the 'View->Panels' or 'View->Layouts' menu options. This way you can edit your Guides in one pane while working on code in the other.
-
 Having selected 'Edit Guides' you will see your Guides window appear.
+
+Use the Layout modes to switch between preview,code,split and full screen modes
 
 ##Anatomy of the Guides Editor
 Below is a screenshot of the editor with the main components highlighted. 

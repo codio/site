@@ -5,6 +5,9 @@ full_width: true
 ---
 
 You can insert these in your section editor using Markdown.
+
+**We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/)**
+
 ##Images
 Inserting an image is similar. Here are some examples. PNG and JPG image types are supported. Note that the 2nd, 3rd and 4th examples point to images within your project.
 

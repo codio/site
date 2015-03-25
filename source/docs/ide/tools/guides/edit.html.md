@@ -22,6 +22,9 @@ When in Play Mode, your content is rendered beautifully and you can even overrid
 
 You can also insert [images, videos and hyperlinks](/docs/ide/tools/guides/imvid).
 
+
+**We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/)**
+
 Here is a summary of the Markdown formatting codes
 
 ##Headers/Titles

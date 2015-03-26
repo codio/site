@@ -21,7 +21,7 @@
         letter-spacing: -0.85px
       +media($desktop)
         font-size: 47px
-        padding-top: 138px
+        padding-top: 124px
         letter-spacing: -1px
 
   section:first-child
@@ -32,23 +32,23 @@
       height: 237px
     +media($notebook)
       background: #ecf1f5 url("../img/new/md/top_sub_abstract_md.jpg") no-repeat top center
-      height: 307px
+      height: 270px
     +media($desktop)
       background: #ecf1f5 url("../img/new/lg/top_sub_abstract_lg.jpg") no-repeat top center
-      height: 390px
+      height: 330px
     h1
       color:  #3c3c3c
       text-align: center
       font-weight: 600
       font-size: 18px
-      padding-top: 29px
+      padding-top: 46px
       +media($tablet)
         font-size: 30px
-        padding-top: 70px
+        padding-top: 88px
         letter-spacing: -0.5px
       +media($notebook)
         font-size: 38px
-        padding-top: 97px
+        padding-top: 107px
         letter-spacing: -0.85px
       +media($desktop)
         font-size: 47px
@@ -107,14 +107,14 @@
         line-height: 21px
         font-size: 15px
       +media($notebook)
-        margin-top: 86px
+        margin-top: 50px
         padding-left: 196px
         padding-right: 196px
         padding-bottom: 79px
         line-height: 25px
         font-size: 19px
       +media($desktop)
-        margin-top: 111px
+        margin-top: 60px
         padding-left: 283px
         padding-right: 283px
         padding-bottom: 50px
@@ -124,9 +124,9 @@
   .video
     +span-columns(12)
     text-align: center
-    margin: 50px 0
+    margin: 0 0 50px
     +media($notebook)
-      margin: 100px 0
+      margin: 0
     a
       background-image: url('../../img/new/xs/video_banner.png')
       background-repeat: no-repeat
@@ -158,29 +158,61 @@
           margin-right: 180px
 
 
-  .section-left,.section-right
+  .section-left,
+  .section-right
     +fill-parent()
     +row(table)
-
-    max-width: none
     height: 190px
-    margin-top: 113px
+    margin: 0 auto 120px
+    border-top: 1px solid #eee
+    padding-top: 0
+    max-width: none
+    width: 100%
 
     +media($tablet)
-      height: 389px
-      margin-top: 130px
+      padding-top: 90px
+      height: 332px
+      max-width: 750px
+      margin-bottom: 95px
     +media($notebook)
-      height: 484px
-      margin-top: 223px
+      height: 403px
+      margin-bottom: 100px
+      max-width: 970px
     +media($desktop)
-      height: 605px
-      margin-top: 275px
+      height: 500px
+      max-width: 1270px
 
+    div
+      p
+        color:  #222222
+        font-weight: 400
+        text-align: center
+        font-size: 12px
+        line-height: 14px
+        padding: 20px 5px
+
+        +media($mobil)
+          display: block
+          margin: 0 auto
+        +media($tablet)
+          padding: 40px 5px
+          font-weight: 300
+          text-align: left
+          font-size: 19px
+          line-height: 23px
+        +media($notebook)
+          font-size: 19px
+          line-height: 22px
+        +media($desktop)
+          font-size: 23px
+          line-height: 27px
+
+  .section-left
     .left
       +span-columns(12)
       +row(table)
       vertical-align: middle
-      padding: 20px
+      padding: 20px 40px
 
       +media($tablet)
         +span-columns(5)
@@ -202,9 +234,30 @@
     .right
       vertical-align: middle
       text-align: center
+      padding: 0
       +span-columns(12)
       +row(table)
       +omega()
+
+      +media($tablet)
+        padding: 0 50px 0 0
+        +span-columns(7)
+
+      img
+        width: 100%
+        +media($tablet)
+          width: 600px
+        +media($notebook)
+          width: 800px
+        +media($desktop)
+          width: 1119px
+
+  .section-right
+    .left
+      vertical-align: middle
+      text-align: center
+      +span-columns(12)
+      +row(table)
 
       +media($tablet)
         +span-columns(7)
@@ -217,49 +270,30 @@
           width: 800px
         +media($desktop)
           width: 1119px
-    div
-      p
-        color:  #222222
-        font-weight: 400
-        text-align: justify
-        font-size: 12px
-        line-height: 14px
-        padding: 10px 45px
 
-        +media($mobil)
-          display: block
-          margin: 0 auto
+    .right
+      +span-columns(12)
+      +row(table)
+      +omega()
+      vertical-align: middle
+      padding: 20px
 
-        +media($tablet)
-          font-weight: 300
-          text-align: left
-          font-size: 15px
-          line-height: 23px
-        +media($notebook)
-          font-size: 19px
-          line-height: 22px
-        +media($desktop)
-          font-size: 23px
-          line-height: 27px
+      +media($tablet)
+        +span-columns(5)
+      +media($notebook)
+
+      +media($desktop)
+        padding: 60px
 
   section:nth-child(3)
     margin-top: 0
 
-  section.big-button:before
-    background: none
   .big-button a.button
     margin-top: 135px
     +media($tablet)
       margin-top: 110px
-    +media($notebook)
-      margin-top: 160px
-    +media($desktop)
-      margin-top: 249px
+
   .big-button:after
     margin-bottom: 62px
     +media($tablet)
       margin-bottom: 75px
-    +media($notebook)
-      margin-bottom: 129px
-    +media($desktop)
-      margin-bottom: 208px

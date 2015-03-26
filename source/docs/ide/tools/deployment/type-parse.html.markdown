@@ -14,7 +14,7 @@ full_width: true
 Please refer to the [Parse.com documentation](https://parse.com/docs/cloud_code_guide) for details on how to create a Cloud Code application.
 
 ##Creating a sample project
-If you want to create a test Parse.com Cloud project, we've set up a couple of Parse.com templates. When you go to create a new project from the Codio Dashboard, select "From a template" from the Create Project option dropdown. You'll find "Parse Anyimg" and "Parse ToDo" templates waiting for you.
+If you want to create a test Parse.com Cloud project, we've set up a couple of Parse.com templates. Go to [Codio-Templates](https://codio.com/codio-templates) and you'll find "Parse Anyimg" and "Parse ToDo" templates waiting for you that you can fork into your account
 
 Open the README.md file and follow the instructions to get it running in 5 minutes.
 

@@ -33,7 +33,7 @@ At this point, you will have an Organization account for you and up to 250 users
 ## Student Discounts
 
 If you are a student using Codio on your own, then you can request student single user pricing from the Billing screen.
-You can find the Billing icon at the bottom left of your Dashboard. When you click on this, follow the instructions to request your student single user licence.
+You can find the Account Settings icon at the bottom left of your Dashboard. When you click on the Billing section, follow the instructions to request your student single user licence.
 You may be required to verify your student status to receive the student pricing, so please ensure you have an educational email address or provide other proof.
 
 ## Codio Guides

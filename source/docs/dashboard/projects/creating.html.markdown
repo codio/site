@@ -12,7 +12,7 @@ You can then choose which of the following Project creation methods you want to 
 
 Select a commonly used Stack:
 
-- **Codio Base Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
+- **Default:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
 - **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace
 - **Python3:** Python3 Stack with no code workspace
 
@@ -26,7 +26,7 @@ To select an alternative software configuration where you can select from other 
 **Note: Node/Ruby & Git are preinstalled in all projects**
 
 ##Selecting a Stack
-If you are selecting the alternative option, you can then specify a default Stack for your new Project. If you don't select one, you'll get an empty Ubuntu Box using the Codio Base Stack
+If you are selecting the alternative option, you can then specify a default Stack for your new Project. If you don't select one, you'll get an empty Ubuntu Box using the Default Stack
 
 ##Details
 You need to give your project a name and a description.

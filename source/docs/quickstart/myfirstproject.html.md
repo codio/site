@@ -13,9 +13,22 @@ Start off by ...
 - clicking on the `Projects` option on the left of your Dashoard.
 - click the `Create Project` button in the top right of the screen
 
-When you create a new Project, you can optionally specify the following items that drastically speed up the overall project setup
+![Create Project](/img/docs/project_create.png)
+
+You can then choose which of the following Project creation methods you want to use
+
+Select a commonly used Stack:
+
+- **Default:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
+- **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace
+- **Python3:** Python3 Stack with no code workspace
+
+or 
+
+Select an alternative software configuration where you can:
 
 - Select a [Stack](/docs/quickstart/stacks/) which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
 - Or a [Starter Pack](/docs/quickstart/packs/) which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
+- Or import code in from Git, Mercurial, FTP, SFTP or a Zip file.
 - If you are a student, you can also check out [Courses](/docs/quickstart/courses/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/ide/tools/guides/), giving you on-screen instructions while you code.
 

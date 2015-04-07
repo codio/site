@@ -18,7 +18,7 @@ Changing permissions allows you to give the following access permissions to User
 
 - **Read** - View the project only
 - **Write** - Edit the project
-- **Admin** - Granting access requires a paid subscription for the grantor and grantee. Users can access the terminal and the deployment screens. Care should be taken as this entails security risk given that an Admin user has full access to keys and any other private data that might be stored on the Box.
+- **Admin** - Users can access the terminal and the deployment screens. Care should be taken as this entails security risk given that an Admin user has full access to keys and any other private data that might be stored on the Box.
 
 ## Adding/Removing a User
 To add a new user, start typing the user name in the text field. When you find the user, click Add and that user will be added to the list of users below.

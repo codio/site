@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### April 8th, 2015
+- **Improvement**: MathJax support added for markdown files
+
 ### April 1st, 20145
 - **Fixed**: reports of files opening in file tree pane
 

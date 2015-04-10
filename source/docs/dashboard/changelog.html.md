@@ -7,27 +7,30 @@ full_width: true
 This page contains a list of recent updates made to the Codio platform. We update Codio regularly, sometimes several times a day, so this page should provide information to help you figure out what we have changed.
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
-### March 19th, 2015
-- **Improvement**: add stack support to course modules
 
-### March 18th, 2015
-- **Improvement**: further Guides updates
+### April 9th, 2015
+- **Fixed**: renaming of Guides sections causing content to be lost
 
-### March 17th, 2015
-- **Improvement**: detect Guides tutorial in a project and prompt user to automatically start in Play mode
+### April 8th, 2015
+- **Improvement**: MathJax support added for markdown files
 
-### March 7th, 2015
-- **Feature**: new Box Parts added (jq, boot)
-- **Update**: update Box Parts (setuptools, swig, the_silver_searcher, tomcat)
+### April 1st, 20145
+- **Fixed**: reports of files opening in file tree pane
 
-### March 5th, 2015
-- **Update**: [Guides](/docs/ide/tools/guides/) updates
-- **Fixed**: reports of RSYNC deployment issues
-- **Improvement**: allow 'split' in  markdown files to show code and preview panes
-
-### March 1st, 2015
-- **Feature**: new Box Part added (cppcheck)
-- **Update**: update Box Parts (fish, protobuf, r_base, racket, re2c, tig,)
+### March 2015
+- **Improvement**: (March 31st) improve autosave handling, remove manual save option...[More information...](/blog/2015/04/changing-how-we-save/)
+- **Improvement**: (March 31st) improve create project starting point options
+- **Improvement**: (March 31st) Guides update to remember poistion in guides if project reloaded
+- **Improvement**: (March 19th) add stack support to course modules
+- **Improvement**: (March 18th)further Guides updates
+- **Improvement**: (March 17th) detect Guides tutorial in a project and prompt user to automatically start in Play mode
+- **Feature**: (March 7th) new Box Parts added (jq, boot)
+- **Update**: (March 7th) update Box Parts (setuptools, swig, the_silver_searcher, tomcat)
+- **Update**: (March 5th) [Guides](/docs/ide/tools/guides/) updates
+- **Fixed**: (March 5th) reports of RSYNC deployment issues
+- **Improvement**: (March 5th)allow 'split' in  markdown files to show code and preview panes
+- **Feature**: (March 1st) new Box Part added (cppcheck)
+- **Update**: (March 1st) update Box Parts (fish, protobuf, r_base, racket, re2c, tig,)
 
 ### February 2015
 - **Update**: (Febrauary 24th) update exporting process in Firefox browser

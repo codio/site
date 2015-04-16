@@ -8,8 +8,8 @@ layout: layout-new
     <div class="container">
       <h1>Documentation</h1>
       <form id="search-input">
-        <%= image_tag "img/icons/search_icon.png" %>
-        <input type="text" placeholder="Search" />
+        <%= image_tag "icons/search_icon.png" %>
+        <input type="text" placeholder="Search" id="st-search-input" class="st-search-input" />
       </form>
     </div>
   </section>
@@ -20,7 +20,7 @@ layout: layout-new
         <div>
           <div class="icon">
             <span></span>
-            <%= image_tag "img/new/lg/docs_#{resource.data.title.gsub(' ', '-').downcase}_lg.png" %>
+            <%= image_tag "new/lg/docs_#{resource.data.title.gsub(' ', '-').downcase}_lg.png" %>
           </div>
           <h2><%= link_to resource.data.title, resource.url %></h2>
         </div>

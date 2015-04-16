@@ -4,17 +4,11 @@
 $ ->
 
   menu = $ '#docs-menu'
-  toggle = $ '#docs-menu-button'
+  toggle = $ '#docs-menu-toggle'
 
-  toggleMenu = ->
-    menu.toggleClass 'open'
-
-  openMenuHandler = (event) ->
+  toggle.on 'click', (event) ->
     event.preventDefault()
-
-    toggleMenu()
-
-  toggle.on 'click', openMenuHandler
+    menu.toggleClass 'open'
 
 
   $('.docs .docs-page article h2').each ->

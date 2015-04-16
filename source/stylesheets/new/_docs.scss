@@ -1,5 +1,4 @@
 body.docs {
-
   main {
     max-width: none;
     overflow: hidden;
@@ -8,5 +7,5 @@ body.docs {
   @import "docs/header";
   @import "docs/index";
   @import "docs/page";
-
+  @import "docs/search";
 }

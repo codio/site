@@ -3,19 +3,18 @@ title: Search Results - Documentation - Codio
 layout: layout-new
 ---
 
-<article class="search-results">
-  <div class="title">
-    <%= link_to "Docs", "/docs", :class => "back-button" %>
-  </div>
-
+<main>
   <section class="header">
-    <form id="search-input">
-      <input type="text" id="st-search-input" class="st-search-input" placeholder="Search"/>
-    </form>
-    <h1>Search Results</h1>
+    <div class="container">
+      <h1>Documentation</h1>
+      <form id="search-input">
+        <%= image_tag "icons/search_icon.png" %>
+        <input type="text" placeholder="Search" id="st-search-input" class="st-search-input" />
+      </form>
+    </div>
   </section>
 
-  <div id="st-results-container"></div>
-</article>
+  <section class="container" id="st-results-container"></div>
+</main>
 
 <%= partial "vendors/swiftype" %>

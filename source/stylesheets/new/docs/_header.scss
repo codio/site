@@ -68,18 +68,19 @@ main > .header {
         border-radius: 4px;
         box-shadow: none;
         height: 33px;
-        width: 280px;
+        width: 280px !important;
         font-size: 14px;
         border: 1px solid #9FB8D2;
         font-weight: 300;
+        background: #fff;
 
         @include media($tablet) {
-          width: 180px;
+          width: 180px !important;
           height: 35px;
         }
 
         @include media($notebook) {
-          width: 100%;
+          width: 100% !important;
           font-size: 1em;
         }
       }

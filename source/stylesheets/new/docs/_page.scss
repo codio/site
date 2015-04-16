@@ -1,24 +1,63 @@
 &.docs main.docs-page {
   .header {
-    padding-bottom: 35px;
+    padding-bottom: 23px;
+
+    @include media($tablet) {
+      padding-top: 60px;
+    }
+
+    @include media($notebook) {
+      padding-top: 95px;
+    }
+
+    @include media($desktop) {
+      padding-top: 125px;
+    }
 
     > div {
       @include outer-container();
 
       > div {
         &:nth-child(1) {
-          @include span-columns(3);
+          @include span-columns(2);
+          text-align: center;
+
+          @include media($tablet) {
+            @include span-columns(3);
+          }
+
+          #docs-menu-toggle {
+            background-image: url("../img/new/uni/hamburger.png");
+            width: 44px;
+            height: 34px;
+            margin-left: 10px;
+            cursor: pointer;
+
+            @include media($tablet) {
+              display: none;
+            }
+          }
 
           a {
             text-align: center;
             color: #fff;
-            padding: 14px 0;
             text-decoration: none;
             background-color: #307ae2;
-            width: 100%;
+            width: 90%;
             display: inline-block;
-            font-size: 20px;
-            margin-top: -7px;
+            font-size: 18px;
+            padding: 10px 0;
+            display: none;
+
+            @include media($tablet) {
+              display: inline-block;
+            }
+
+            @include media($desktop) {
+              font-size: 20px;
+              padding: 14px 0;
+              margin-top: -7px;
+            }
 
             &:hover {
               background-color: lighten(#307ae2, 10%);
@@ -27,14 +66,32 @@
         }
 
         &:nth-child(2) {
-          @include span-columns(6);
+          @include span-columns(9);
+          margin-top: 8px;
+
+          @include media($tablet) {
+            @include span-columns(6);
+          }
+
+          @include media($notebook) {
+            margin-top: 0;
+          }
         }
 
         &:nth-child(3) {
-          @include span-columns(3);
+          @include span-columns(1);
+
+          @include media($tablet) {
+            @include span-columns(3);
+          }
 
           form {
+            display: none;
             top: 0;
+
+            @include media($tablet) {
+              display: block;
+            }
           }
         }
       }
@@ -46,17 +103,36 @@
       @include outer-container();
 
       aside {
-        @include span-columns(3);
+        display: none;
+        margin-top: 20px;
+
+        @include media($tablet) {
+          display: block;
+          @include span-columns(3);
+        }
 
         h2 {
           margin: 20px auto;
           text-align: center;
+          display: none;
+
+          @include media($tablet) {
+            display: block;
+          }
         }
 
         h5 {
-          font-size: 1em;
+          font-size: 16px;
           font-weight: 600;
           position: relative;
+
+          @include media($tablet) {
+            font-size: 14px;
+          }
+
+          @include media($notebook) {
+            font-size: 16px;
+          }
 
           &::before {
             content: "";
@@ -89,13 +165,8 @@
         }
 
         > ul > li > ul {
-          display: none;
           margin-left: 20px;
           @include transition(all .3s linear);
-
-          @include media($notebook) {
-            display: block;
-          }
 
           > li {
             padding: 7px 0;
@@ -123,12 +194,31 @@
             }
           }
         }
+
+        &.open {
+          display: block;
+
+          > ul > li > ul {
+            background: #ecf1f5;
+            padding: 0 10px 20px 30px;
+            margin: 0;
+
+            @include media($tablet) {
+              background: transparent;
+              padding: 0;
+              margin-left: 20px;
+            }
+          }
+        }
       }
 
       article {
-        @include span-columns(9);
-        padding: 50px 0;
+        padding: 50px 20px;
         line-height: 26px;
+
+        @include media($tablet) {
+          @include span-columns(9);
+        }
 
         a {
           color: #4378DD;

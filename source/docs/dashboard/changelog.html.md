@@ -8,6 +8,14 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### April 16th, 2015
+- **Update**: update all realtime components to the latest versions
+- **Update**: individual file size limit reduced to 7.5Mb (from 15Mb)
+
+### April 14th, 2015
+- **Update**: update Box Parts (openldap, pypy)
+- **Feature**: new Box Part added (luarocks)
+
 ### April 9th, 2015
 - **Fixed**: renaming of Guides sections causing content to be lost
 

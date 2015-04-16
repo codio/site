@@ -1,15 +1,13 @@
 .share-links {
-    margin: $base-line-height 0;
+    margin: 26px 0;
 
     a.facebook-share,
     a.twitter-share,
     a.plus-share {
-        @include outline-button;
+        // @include outline-button;
         display: inline-block;
-
         padding: 3px 0;
-        margin-right: $base-line-height/2;
-
+        margin-right: 26px/2;
         @include transition(all .2s linear);
         @include size(32px);
 
@@ -23,15 +21,15 @@
         }
 
         &:hover {
-            background: $light-background;
+            background: #f6f6f6;
         }
 
-        @include media($large-screen-up) {
+        @include media($desktop) {
             @include size(92px 30px);
 
             i {
                 padding-right: 3px;
-                font-size: $base-font-size;
+                font-size: 14px;
                 line-height: initial;
             }
 
@@ -42,68 +40,46 @@
     }
 
     a.facebook-share {
-        background: $facebook-blue;
+        background: #3D5A99;
 
         &:hover {
-            color: $facebook-blue;
-        }
-
-        @include media($large-screen-up) {
-
-            &:hover {
-            }
+            color: #3D5A99;
         }
     }
 
     a.twitter-share {
-        background: $twitter-blue;
+        background: #27AAE2;
+
         &:hover {
-            color: $twitter-blue;
-        }
-
-        @include media($large-screen-up) {
-
-
-            &:hover {
-
-            }
+            color: #27AAE2;
         }
     }
 
     a.plus-share {
-        background: $plus-red;
+        background: #DD4B39;
 
         i {
             vertical-align: middle;
         }
 
         &:hover {
-            color: $plus-red;
-        }
-
-        @include media($large-screen-up) {
-
-
-            &:hover {
-            }
+            color: #DD4B39;
         }
     }
 
     &.small {
-
         a.facebook-share,
         a.twitter-share,
         a.plus-share {
-            background: $light-background;
-            color: $base-font-color;
+            background: #f6f6f6;
+            color: #4F5559;
 
             &:hover {
-                background: $darker-gray;;
-                color: $light-background;
+                background: #40484C;
+                color: #f6f6f6;
             }
 
-            @include media($large-screen-up) {
-
+            @include media($desktop) {
                 @include size(32px);
 
                 i {

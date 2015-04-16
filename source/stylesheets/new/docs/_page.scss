@@ -1,0 +1,227 @@
+&.docs main.docs-page {
+  .header {
+    padding-bottom: 35px;
+
+    > div {
+      @include outer-container();
+
+      > div {
+        &:nth-child(1) {
+          @include span-columns(3);
+
+          a {
+            text-align: center;
+            color: #fff;
+            padding: 14px 0;
+            text-decoration: none;
+            background-color: #307ae2;
+            width: 100%;
+            display: inline-block;
+            font-size: 20px;
+            margin-top: -7px;
+
+            &:hover {
+              background-color: lighten(#307ae2, 10%);
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          @include span-columns(6);
+        }
+
+        &:nth-child(3) {
+          @include span-columns(3);
+
+          form {
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    > div {
+      @include outer-container();
+
+      aside {
+        @include span-columns(3);
+
+        h2 {
+          margin: 20px auto;
+          text-align: center;
+        }
+
+        h5 {
+          font-size: 1em;
+          font-weight: 600;
+          position: relative;
+
+          &::before {
+            content: "";
+            position: absolute;
+            left: -15px;
+            top: 1px;
+            @include triangle(12px, #aaa, right);
+          }
+
+          &.active a {
+            color: #4378DD;
+          }
+
+          &.active::before {
+            @include triangle(12px, #aaa, down);
+            top: 5px;
+            left: -18px;
+          }
+        }
+
+        ul a {
+          color: #000;
+          text-decoration: none;
+          @include transition(color .1s linear);
+
+          &:hover {
+            text-decoration: none;
+            color: #4378DD;
+          }
+        }
+
+        > ul > li > ul {
+          display: none;
+          margin-left: 20px;
+          @include transition(all .3s linear);
+
+          @include media($notebook) {
+            display: block;
+          }
+
+          > li {
+            padding: 7px 0;
+
+            > ul {
+              display: none;
+
+              &.active {
+                display: inherit;
+                margin-top: 10px;
+              }
+
+              > li {
+                margin: 8px 0;
+                font-size: 14px;
+
+                a {
+                  color: #666;
+                }
+
+                &.active a {
+                  color: #4378DD;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      article {
+        @include span-columns(9);
+        padding: 50px 0;
+        line-height: 26px;
+
+        a {
+          color: #4378DD;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        h3 {
+          margin-bottom: 26px;
+        }
+
+        h2 {
+          margin: 60px 0 35px;
+          text-align: center;
+          color: #3A7CDF;
+          font-size: 24px;
+          position: relative;
+
+          &:before {
+            content: "";
+            display: block;
+            border-top: solid 1px #ddd;
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 50%;
+            z-index: 1;
+          }
+
+          span {
+            background: #fff;
+            padding: 0 20px;
+            position: relative;
+            z-index: 5;
+          }
+
+          a {
+            color: inherit;
+
+            &:hover {
+              text-decoration: none;
+
+              &:before {
+                content: '#';
+                position: relative;
+                left: -24px;
+                width: 0;
+                display: inline-block;
+                color: #aaa;
+              }
+            }
+          }
+        }
+
+        p {
+          margin-bottom: 35px;
+          color: #666;
+
+          quote {
+            display: block;
+            border-left: 2px solid #C7C6C5;
+            padding-left: 30px;
+            font-weight: normal;
+          }
+        }
+
+        ul {
+          list-style: initial;
+          padding: 0 26px 26px;
+        }
+
+        ol {
+          list-style: decimal;
+          padding: 0 26px 26px;
+        }
+
+        img {
+          margin: 15px 0;
+          max-width: 100%;
+          border: 1px solid #ddd;
+          padding: 3px;
+          box-shadow: 0 0px 15px #ccc;
+        }
+
+        #disqus_thread {
+          margin: 0;
+          padding: 2*26px 0;
+          border-top: 1px solid #ECECEC;
+        }
+      }
+    }
+  }
+}

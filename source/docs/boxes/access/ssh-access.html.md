@@ -2,12 +2,12 @@
 title: "SSH into your Box"
 class_name: docs
 full_width: true
---- 
+---
 
 Unless your project is utilising [Always On Boxes](/docs/boxes/always-on/) you will need to open your Codio Project in order for the Box to be started and ready to receive incoming SSH connections.
 
 ##Generating Key Pairs
-There are several sites that explain generating SSH keys. 
+There are several sites that explain generating SSH keys.
 
 - Windows: [http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/](http://kb.siteground.com/how_to_generate_an_ssh_key_on_windows_using_putty/). Please note that for Windows, you should generate SSH2 RSA key type
 - Mac : [https://help.github.com/articles/generating-ssh-keys#platform-mac](https://help.github.com/articles/generating-ssh-keys#platform-mac)
@@ -24,26 +24,20 @@ On a Windows machine you'll probably be using putty, so grab your key from there
 ##Uploading your Public Key to your Codio Box
 You need to upload the public key you just found in the above steps. Once you have it copied to the clipboard, choose the 'Project->Upload public key to the Box' menu item and paste in the key. Press the 'Upload' button.
 
-If you want to view/check the Public key(s) you have uploaded into your project, open the terminal and run `cat ~/.ssh/authorized_keys`. 
+If you want to view/check the Public key(s) you have uploaded into your project, open the terminal and run `cat ~/.ssh/authorized_keys`.
 
 ##Connecting to your Box from your local machine's Terminal
 You can find your SSH URL in one of two ways
 
 1. Open up a new terminal window. The Terminal will show something like this
-
     ![ssh terminal](/img/docs/sshterminal.png)
-    
 1. Select the 'Project->Box Info' menu item and the dialog will show you your SSH connection deails.
 
 In both cases, you should see connection details like this
-```
-External ssh connection: ssh://codio@ssh1.codio.com:29119
-```
+`External ssh connection: ssh://codio@ssh1.codio.com:29119`
 
 You can now connect to your Box from any Terminal window using (in the above example)
-```
-ssh codio@ssh1.codio.com -p 29119
-```
+`ssh codio@ssh1.codio.com -p 29119`
 
 If you get a message `Permission denied (publickey)` then you have not uploaded your SSH Public Key correctly.
 

@@ -1,0 +1,165 @@
+body.about main {
+
+  > .header {
+    background: #ecf1f5;
+    background-image: none;
+    padding: 23px 0 20px;
+
+    @include media($tablet) {
+      padding-top: 70px;
+      height: 115px;
+      background-image: url("../img/new/sm/top_sub_abstract_sm.jpg");
+      background-repeat: no-repeat;
+      background-position: top center;
+    }
+
+    @include media($notebook) {
+      padding-top: 95px;
+      height: 160px;
+      background-image: url("../img/new/md/top_sub_abstract_md.jpg");
+    }
+
+    @include media($desktop) {
+      padding-top: 125px;
+      height: 200px;
+      background-image: url("../img/new/lg/top_sub_abstract_lg.jpg");
+    }
+
+    > div {
+      @include clearfix();
+
+      h1 {
+        color: #3c3c3c;
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+
+        @include media($tablet) {
+          font-size: 28px;
+        }
+
+        @include media($notebook) {
+          font-size: 36px;
+        }
+
+        @include media($desktop) {
+          font-size: 38px;
+        }
+      }
+    }
+  }
+
+  > .about-us {
+    font-size: 18px;
+    color: #555;
+    line-height: 22px;
+    font-weight: 300;
+    margin: 45px 10px 120px;
+
+    p {
+      margin-top: 20px;
+    }
+
+    h3 {
+      margin: 60px 0 35px;
+      text-align: center;
+      font-weight: 600;
+      position: relative;
+
+      &:before {
+        content: "";
+        display: block;
+        border-top: solid 1px #3A7CDF;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+      }
+
+      span {
+        background: #fff;
+        padding: 0 20px;
+        position: relative;
+        z-index: 5;
+      }
+    }
+
+    address {
+      text-align: center;
+
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+
+  > .team {
+    h1 {
+      background: #ecf1f5;
+      color: #3c3c3c;
+      text-align: center;
+      font-weight: 600;
+      font-size: 28px;
+      padding: 30px 0;
+      margin-bottom: 55px;
+
+      @include media($tablet) {
+        padding: 50px 0;
+      }
+
+      @include media($notebook) {
+        font-size: 36px;
+      }
+
+      @include media($desktop) {
+        font-size: 38px;
+      }
+    }
+
+    .info-cards {
+      @include outer-container;
+      margin-bottom: 100px;
+
+      .info-card {
+        background: #3c3c3c;
+        text-align: center;
+        margin-bottom: 30px;
+
+        @include span-columns(12);
+        @include omega;
+
+        @include media($tablet) {
+          @include span-columns(5 of 20);
+          @include omega(4n);
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        h2 {
+          color: #fff;
+          font-size: 18px;
+          font-weight: 300;
+          padding-top: 20px;
+        }
+
+        h3 {
+          color: #b2b2b2;
+          font-weight: 300;
+          padding: 4px 0 25px 0;
+        }
+
+        img {
+          width: 100%;
+        }
+
+        .body {
+          display: none;
+        }
+      }
+    }
+  }
+
+}

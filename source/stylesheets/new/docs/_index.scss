@@ -1,0 +1,223 @@
+&.docs_index main > section:last-child {
+  margin-top: 30px;
+  margin-bottom: 100px;
+
+  .docs-section {
+    margin: 0 0 60px;
+
+    @include media($tablet) {
+      @include span-columns(3);
+      text-align: center;
+    }
+
+    > div:first-child {
+      height: 100px;
+      @include outer-container;
+
+      @include media($tablet) {
+        height: inherit;
+      }
+    }
+
+    .icon {
+      @include span-columns(6);
+      vertical-align: bottom;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+
+      @include media($tablet) {
+        @include span-columns(12);
+        height: 150px;
+      }
+
+      @include media($notebook) {
+        height: 220px;
+      }
+
+      span {
+        display: inline-block;
+        height: 100%;
+        vertical-align: bottom;
+      }
+    }
+
+    &:first-child .icon {
+      padding-bottom: 0;
+
+      img {
+        width: 100px;
+
+        @include media($tablet) {
+          width: 120px;
+        }
+
+        @include media($notebook) {
+          width: 175px;
+        }
+
+        @include media($desktop) {
+          width: 220px;
+        }
+      }
+    }
+
+    &:nth-child(2) .icon {
+      img {
+        width: 115px;
+
+        @include media($tablet) {
+          width: 145px;
+        }
+
+        @include media($notebook) {
+          width: 200px;
+        }
+
+        @include media($desktop) {
+          width: 245px;
+        }
+      }
+    }
+
+    &:nth-child(3) .icon {
+      padding-bottom: 10px;
+
+      img {
+        width: 110px;
+
+        @include media($tablet) {
+          width: 140px;
+        }
+
+        @include media($notebook) {
+          width: 190px;
+        }
+
+        @include media($desktop) {
+          width: 235px;
+        }
+      }
+    }
+
+    &:last-child .icon img {
+      width: 110px;
+
+      @include media($tablet) {
+        width: 140px;
+      }
+
+      @include media($notebook) {
+        width: 190px;
+      }
+
+      @include media($desktop) {
+        width: 235px;
+      }
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+      @include span-columns(6);
+      margin-top: 22px;
+
+      @include media($tablet) {
+        @include span-columns(12);
+        margin-top: 0;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+      }
+
+      @include media($notebook) {
+        font-size: 22px;
+      }
+
+      a {
+        color: #3A7CDF;
+        padding: 10px 0;
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+
+        &:hover {
+          background-color: lighten(#307AE2, 5%);
+        }
+
+        @include media($tablet) {
+          background-color: #307AE2;
+          color: #fff;
+        }
+
+        @include media($notebook) {
+          padding: 12px 0;
+        }
+      }
+    }
+
+    .links {
+      @include outer-container;
+      font-size: 14px;
+      font-weight: 600;
+
+      @include media($tablet) {
+        font-weight: 400;
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+      }
+
+      @include media($notebook) {
+        font-size: 16px;
+        margin-left: 42px;
+      }
+
+      .first,
+      .second {
+        @include span-columns(6);
+        padding: 0 0 0 25px;
+
+        @include media($tablet) {
+          @include span-columns(12);
+          padding: 0;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+        display: block;
+        margin-bottom: 10px;
+        position: relative;
+
+        @include media($tablet) {
+          margin-bottom: 12px;
+        }
+
+        &:hover {
+          color: #3A7CDF;
+          text-decoration: underline;
+
+          &:before {
+            @include triangle(12px, #3A7CDF, right);
+          }
+        }
+
+        &:before {
+          content: "";
+          position: absolute;
+          left: -11px;
+          top: 0;
+          @include triangle(12px, #ccc, right);
+
+          @include media($tablet) {
+            left: -16px;
+            top: 3px;
+          }
+        }
+      }
+    }
+  }
+}

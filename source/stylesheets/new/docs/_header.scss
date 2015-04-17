@@ -1,0 +1,103 @@
+main > .header {
+  background: #ecf1f5;
+  background-image: none;
+  padding: 23px 0 2px;
+
+  @include media($tablet) {
+    padding-top: 70px;
+    height: 115px;
+    background-image: url("../img/new/sm/top_sub_abstract_sm.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  @include media($notebook) {
+    padding-top: 95px;
+    height: 160px;
+    background-image: url("../img/new/md/top_sub_abstract_md.jpg");
+  }
+
+  @include media($desktop) {
+    padding-top: 125px;
+    height: inherit;
+    background-image: url("../img/new/lg/top_sub_abstract_lg.jpg");
+  }
+
+  > div {
+    @include clearfix();
+
+    h1 {
+      color: #3c3c3c;
+      text-align: center;
+      font-weight: 600;
+      font-size: 22px;
+
+      @include media($tablet) {
+        font-size: 28px;
+      }
+
+      @include media($notebook) {
+        font-size: 36px;
+      }
+
+      @include media($desktop) {
+        font-size: 38px;
+      }
+    }
+
+    form {
+      position: relative;
+      width: 280px;
+      margin: 20px auto 15px;
+
+      @include media($tablet) {
+        margin: 0;
+        top: -35px;
+        float: right;
+        width: 180px;
+      }
+
+      @include media($notebook) {
+        top: -37px;
+      }
+
+      input {
+        padding: em(5) em(10);
+        padding-right: 33px;
+        margin: 0;
+        border-radius: 4px;
+        box-shadow: none;
+        height: 33px;
+        width: 280px !important;
+        font-size: 14px;
+        border: 1px solid #9FB8D2;
+        font-weight: 300;
+        background: #fff;
+
+        @include media($tablet) {
+          width: 180px !important;
+          height: 35px;
+        }
+
+        @include media($notebook) {
+          width: 100% !important;
+          font-size: 1em;
+        }
+      }
+
+      img {
+        border-radius: 0 4px 4px 0;
+        color: white;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        background: #307AE2;
+        padding: 8px;
+
+        @include media($tablet) {
+          padding: 9px;
+        }
+      }
+    }
+  }
+}

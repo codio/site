@@ -1,34 +1,46 @@
 ---
-layout: layout
+title: Documentation - Codio
+layout: layout-new
 ---
-<article class="docs-landing">
+
+<main>
   <section class="header">
-    <form id="search-input">
-      <input type="text" id="st-search-input" class="st-search-input" placeholder="Search"/>
-    </form>
-    <h1>Documentation</h1>
+    <div class="container">
+      <h1>Documentation</h1>
+      <form id="search-input">
+        <%= image_tag "icons/search_icon.png" %>
+        <input type="text" placeholder="Search" id="st-search-input" class="st-search-input" />
+      </form>
+    </div>
   </section>
-  <section>
+
+  <section class="container">
     <% ordered(current_resource).each do |resource| %>
       <div class="docs-section">
-        <%= sprockets.find_asset("icons/#{resource.data.title.gsub(' ', '-').downcase}-small.svg").to_s %>
-        <h2><%= link_to resource.data.title, resource.url %></h2>
+        <div>
+          <div class="icon">
+            <span></span>
+            <%= image_tag "new/lg/docs_#{resource.data.title.gsub(' ', '-').downcase}_lg.png" %>
+          </div>
+          <h2><%= link_to resource.data.title, resource.url %></h2>
+        </div>
+
         <div class="links">
           <% mid = (resource.children.length / 2.to_f).ceil %>
           <div class="first">
             <% ordered(resource)[0..mid-1].each do |child| %>
-              <%=  link_to child.data.title, child.url %>
+              <%= link_to child.data.title, child.url %>
             <% end %>
           </div>
           <div class="second">
             <% ordered(resource)[mid..-1].each do |child| %>
-              <%=  link_to child.data.title, child.url %>
+              <%= link_to child.data.title, child.url %>
             <% end %>
           </div>
         </div>
       </div>
     <% end %>
   </section>
-</article>
+</main>
 
 <%= partial "vendors/swiftype" %>

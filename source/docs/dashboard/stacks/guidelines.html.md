@@ -11,9 +11,9 @@ When you create a Stack, you should first create a new Project from the closest 
 
 
 ## Long Description
-You should include a full description of your Stack that appears when someone clicks on it within the Stacks listing. This information will also be available to users in Projects by going to `Project>Stack Info` in their Project, which should open automatically. Check out some of Codio Certified Pack long descriptions. 
+You should include a full description of your Stack that appears when someone clicks on it within the Stacks listing. This information will also be available to users in Projects by going to `Project>Stack Info` in their Project, which should open automatically. Check out some of Codio Certified Pack long descriptions.
 
-Below is a template you could use. 
+Below is a template you could use.
 
 ```markdown
 # Title
@@ -26,7 +26,7 @@ Describe how the user should get started.
 If there are related Starter Packs you have created from this Stack that include code files, detail them here.
 
 ## Components Installed
-It can be helpful to others or even to you later on to describe the installed Components and versions. 
+It can be helpful to others or even to you later on to describe the installed Components and versions.
 
 ## Configuration Files
 Detail where any component configuration files can be found. As you install components from `Tools>Install Software` a log file of all this information will be opened.
@@ -42,7 +42,8 @@ Provide useful links on the Stack components.
 ```
 
 ## Example (from the Codio Certified LAMP Stack)
-```
+
+```markdown
 # LAMP
 
 ## Using this Stack
@@ -76,7 +77,7 @@ You can find configuration files in the following locations
 
 ## General Information
 ### PHP
-PHP is fully installed along with Pear, php5-pdo-mysql, php5-zlib and php5-gd. 
+PHP is fully installed along with Pear, php5-pdo-mysql, php5-zlib and php5-gd.
 
 There are many other useful PHP related components you can install including
 
@@ -90,9 +91,9 @@ For more information on installing software, please refer to the [documentation]
 ### Apache Server
 The Apache server should already be started. You can restart it at any time in the following ways
 
-- from a terminal window enter 
-$ parts restart apache2 
-$ parts stop apache2 
+- from a terminal window enter
+$ parts restart apache2
+$ parts stop apache2
 $ parts start apache2
 - Go to `Tools>Install Software>Installed Software` and locate Apache2, from where you can stop, start or restart the service.
 
@@ -110,12 +111,11 @@ Assuming the MySQL server is started, you can connect to it using `mysql` from t
 
 #### Root Password
 If you want to set the root password, use the following command from the terminal
-
-mysqladmin -u root password NEWPASSWORD
-
+`mysqladmin -u root password NEWPASSWORD`
+```
 
 ## Codio Documentation
-Please be aware of the following useful links 
+Please be aware of the following useful links
 
 - [How to Access your Box](/docs/boxes/)
 - [If your firewall only allows access to port 80](/docs/boxes/access/ext-access/)
@@ -135,7 +135,3 @@ Please be aware of the following useful links
 
 ## Updating Components
 If this Stack is not using any of the latest components, please email support@codio.com and we will update it.
-````
-
-
-

@@ -1,0 +1,32 @@
+&.docs_search .st-result-listing {
+  padding: 30px 20px;
+
+  a {
+    text-decoration: none;
+    color: #4378DD;
+  }
+
+  .st-result {
+    margin: 25px 5px;
+    padding-bottom: 23px;
+
+    h3 a {
+      font-size: 18px;
+    }
+
+    .st-snippet {
+      color: #888 !important;
+      font-size: 14px;
+      line-height: 20px;
+
+      em {
+        color: darken(red, 10%);
+      }
+    }
+  }
+
+  .st-pagination {
+    margin-top: 30px;
+    padding-top: 15px;
+  }
+}

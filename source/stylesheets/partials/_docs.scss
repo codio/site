@@ -27,6 +27,10 @@ body.docs #content {
             }
 
             h5 {
+                font-size: 1em;
+                font-weight: 600;
+                font-family: $sans-serif;
+
                 &::before {
                     @include fa-icon;
                     content: $fa-var-angle-right;
@@ -42,12 +46,6 @@ body.docs #content {
                     content: $fa-var-angle-down;
                     padding-right: .5em;
                 }
-            }
-
-            h5 {
-                font-size: 1em;
-                font-weight: 600;
-                font-family: $sans-serif;
             }
 
             h2 {

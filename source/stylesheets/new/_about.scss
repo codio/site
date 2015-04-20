@@ -160,19 +160,30 @@ body.about main {
           position: absolute;
           height: 100%;
           top: 0;
-          padding: 20px 30px;
+          padding: 5% 7%;
           color: white;
           background: rgba(60, 60, 60, .92);
           font-style: italic;
-          font-size: 80%;
-          line-height: 120%;
           text-align: justify;
           opacity: 0;
           @include transition(opacity .05s ease);
 
           p {
-            margin-bottom: 20px;
+            line-height: 140%;
+            margin-bottom: 5%;
             font-weight: 300;
+
+            @include media($tablet) {
+              font-size: 10px;
+            }
+
+            @include media($notebook) {
+              font-size: 12px;
+            }
+
+            @include media($desktop) {
+              font-size: 14px;
+            }
 
             &:first-child {
               font-weight: 500;

@@ -1,222 +1,285 @@
-.button
-  background-color: #307ae2
-  color: #ffffff
-  text-decoration: none
-  +border-top-radius(3px)
-  +border-right-radius(3px)
-  +border-bottom-radius(3px)
-  +border-left-radius(3px)
-  +transition(all .2s linear)
-  &:hover
-    background-color: #4e97ff
+.button {
+  background-color: #307ae2;
+  color: #ffffff;
+  text-decoration: none;
+  @include border-top-radius(3px);
+  @include border-right-radius(3px);
+  @include border-bottom-radius(3px);
+  @include border-left-radius(3px);
+  @include transition(all 0.2s linear);
+  &:hover {
+    background-color: #4e97ff;
+  }
+}
 
 //button "Get started"
-nav
-  ul
-    li:last-of-type
-      padding: 0
-      +media($mobil)
-        height: 80px
-      a.button
-        +media($mobil)
-          padding: 11px 0 12px 0
-          width: 114px
-          font-size: 14px
-          display: block
-          margin: 20px auto
-          text-align: center
-        +media($tablet)
-          padding: 11px 21px 12px 21px
-          font-size: 14px
-        +media($notebook)
-          padding: 12px 32px 13px 32px
-          font-size: 16px
+nav {
+  ul {
+    li:last-of-type {
+      padding: 0;
+      @include media($mobil) {
+        height: 80px;
+      }
+
+      a.button {
+        @include media($mobil) {
+          padding: 11px 0 12px 0;
+          width: 114px;
+          font-size: 14px;
+          display: block;
+          margin: 20px auto;
+          text-align: center;
+        }
+
+        @include media($tablet) {
+          padding: 11px 21px 12px 21px;
+          font-size: 14px;
+        }
+
+        @include media($notebook) {
+          padding: 12px 32px 13px 32px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
 
 //button section
-.section-content
-  text-align: center
-  a.button
-    display: inline-block
-    margin: 48px auto
-    padding: 11px 26px 12px 26px
-    font-size: 14px
-    +media($tablet)
-      float: right
-      margin-top: 22px
-      padding: 11px 26px 12px 26px
-      font-size: 14px
-    +media($notebook)
-      margin-top: 50px
-      padding: 12px 36px 13px 36px
-      font-size: 16px
-    +media($desktop)
-      margin-top: 61px
-      margin-right: 3px
-      font-size: 16px
+.section-content {
+  text-align: center;
+  a.button {
+    display: inline-block;
+    margin: 48px auto;
+    padding: 11px 26px 12px 26px;
+    font-size: 14px;
+    @include media($tablet) {
+      float: right;
+      margin-top: 22px;
+      padding: 11px 26px 12px 26px;
+      font-size: 14px;
+    }
 
-#platform, #support
-  .section-content a.button
-    float: left
+    @include media($notebook) {
+      margin-top: 50px;
+      padding: 12px 36px 13px 36px;
+      font-size: 16px;
+    }
 
-.big-button
-  text-align: center
-  a.button
-    +border-top-radius(5px)
-    +border-right-radius(5px)
-    +border-bottom-radius(5px)
-    +border-left-radius(5px)
-    display: inline-block
-    margin: 54px auto 27px
-    padding: 24px 30px 26px 30px
-    font-size: 18px
-    letter-spacing: -0.5px
-    +media($tablet)
-      letter-spacing: -1px
-      margin-top: 100px
-      margin-bottom: 30px
-      padding: 27px 70px 29px 70px
-      font-size: 23px
-    +media($notebook)
-      margin-top: 133px
-      margin-bottom: 27px
-      padding: 29px 70px 32px 70px
-      font-size: 25px
-    +media($desktop)
-      margin-top: 110px
-      margin-bottom: 25px
-      padding: 29px 62px 34px 62px
-      font-size: 27px
-  &:after
-    display: block
-    content: url("../img/new/xs/button_shadow_xs.png")
-    height: 14px
-    width: 205px
-    margin: 0 auto 23px
-    +media($tablet)
-      content: url("../img/new/sm/button_shadow_sm.png")
-      height: 19px
-      width: 305px
-      margin-bottom: 51px
-    +media($notebook)
-      content: url("../img/new/md/button_shadow_md.png")
-      height: 19px
-      width: 305px
-      margin-bottom: 88px
-    +media($desktop)
-      content: url("../img/new/lg/button_shadow_lg.png")
-      height: 24px
-      width: 340px
-      margin-bottom: 80px
+    @include media($desktop) {
+      margin-top: 61px;
+      margin-right: 3px;
+      font-size: 16px;
+    }
+  }
+}
 
-#pricing-site
-  section:nth-of-type(2)
-    #single-user-table + .button
-      background-color: #4396c1
-      margin: 0 35px 40px 35px
+#platform, #support {
+  .section-content a.button {
+    float: left;
+  }
+}
 
-      +media($tablet)
-        margin: 0 20px 40px 50px
+.big-button {
+  text-align: center;
+  a.button {
+    @include border-top-radius(5px);
+    @include border-right-radius(5px);
+    @include border-bottom-radius(5px);
+    @include border-left-radius(5px);
+    display: inline-block;
+    margin: 54px auto 27px;
+    padding: 24px 30px 26px 30px;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    @include media($tablet) {
+      letter-spacing: -1px;
+      margin-top: 100px;
+      margin-bottom: 30px;
+      padding: 27px 70px 29px 70px;
+      font-size: 23px;
+    }
 
-      &:hover
-        background-color: #44aee5
+    @include media($notebook) {
+      margin-top: 133px;
+      margin-bottom: 27px;
+      padding: 29px 70px 32px 70px;
+      font-size: 25px;
+    }
 
-    #whole-school-table + .button
-      background-color: #307ae1
-      margin: 0 35px 40px 35px
+    @include media($desktop) {
+      margin-top: 110px;
+      margin-bottom: 25px;
+      padding: 29px 62px 34px 62px;
+      font-size: 27px;
+    }
+  }
+  &:after {
+    display: block;
+    content: url("../img/new/xs/button_shadow_xs.png");
+    height: 14px;
+    width: 205px;
+    margin: 0 auto 23px;
+    @include media($tablet) {
+      content: url("../img/new/sm/button_shadow_sm.png");
+      height: 19px;
+      width: 305px;
+      margin-bottom: 51px;
+    }
 
-      +media($tablet)
-        margin: 0 50px 40px 20px
+    @include media($notebook) {
+      content: url("../img/new/md/button_shadow_md.png");
+      height: 19px;
+      width: 305px;
+      margin-bottom: 88px;
+    }
 
-      &:hover
-        background-color: #3a9bff
+    @include media($desktop) {
+      content: url("../img/new/lg/button_shadow_lg.png");
+      height: 24px;
+      width: 340px;
+      margin-bottom: 80px;
+    }
+  }
+}
 
-      &:after
-        left: 569px
+#pricing-site {
+  section:nth-of-type(2) {
+    #single-user-table + .button {
+      background-color: #4396c1;
+      margin: 0 35px 40px 35px;
+      @include media($tablet) {
+        margin: 0 20px 40px 50px;
+      }
 
-        +media($tablet)
-          left: 328px
-        +media($notebook)
-          left: 466px
-        +media($desktop)
-          left: 569px
+      &:hover {
+        background-color: #44aee5;
+      }
+    }
+    #whole-school-table + .button {
+      background-color: #307ae1;
+      margin: 0 35px 40px 35px;
+      @include media($tablet) {
+        margin: 0 50px 40px 20px;
+      }
 
-    a.button
-      border-radius: 5px
-      display: block
-      padding: 24px 0 26px 0
-      font-size: 18px
-      letter-spacing: -0.5px
-      text-align: center
+      &:hover {
+        background-color: #3a9bff;
+      }
+      &:after {
+        left: 569px;
+        @include media($tablet) {
+          left: 328px;
+        }
 
-      +media($tablet)
-        letter-spacing: -1px
-        padding: 20px 0
-        font-size: 23px
+        @include media($notebook) {
+          left: 466px;
+        }
 
-      +media($notebook)
-        font-size: 25px
+        @include media($desktop) {
+          left: 569px;
+        }
+      }
+    }
+    a.button {
+      border-radius: 5px;
+      display: block;
+      padding: 24px 0 26px 0;
+      font-size: 18px;
+      letter-spacing: -0.5px;
+      text-align: center;
+      @include media($tablet) {
+        letter-spacing: -1px;
+        padding: 20px 0;
+        font-size: 23px;
+      }
 
-      +media($desktop)
-        padding: 30px 0
-        font-size: 27px
+      @include media($notebook) {
+        font-size: 25px;
+      }
 
-      &:after
-        position: absolute
-        margin-left: 50px
+      @include media($desktop) {
+        padding: 30px 0;
+        font-size: 27px;
+      }
 
-        +media($tablet)
-          left: -24px
-          content: url("../img/new/sm/pricing_shadow_sm.png")
-          height: 52px
-          width: 296px
-          top: 550px
+      &:after {
+        position: absolute;
+        margin-left: 50px;
+        @include media($tablet) {
+          left: -24px;
+          content: url("../img/new/sm/pricing_shadow_sm.png");
+          height: 52px;
+          width: 296px;
+          top: 550px;
+        }
 
-        +media($notebook)
-          content: url("../img/new/md/pricing_shadow_md.png")
-          height: 63px
-          width: 405px
-          top: 607px
+        @include media($notebook) {
+          content: url("../img/new/md/pricing_shadow_md.png");
+          height: 63px;
+          width: 405px;
+          top: 607px;
+        }
 
-        +media($desktop)
-          content: url("../img/new/lg/pricing_shadow_lg.png")
-          height: 77px
-          width: 511px
-          top: 672px
+        @include media($desktop) {
+          content: url("../img/new/lg/pricing_shadow_lg.png");
+          height: 77px;
+          width: 511px;
+          top: 672px;
+        }
+      }
+    }
+  }
+  .big-button:before {
+    content: none;
+  }
+  .big-button {
+    .button {
+      background-color: #3c3c3c;
+      @include media($tablet) {
+        margin-top: 34px;
+      }
 
-  .big-button:before
-    content: none
-  .big-button
-    .button
-      background-color: #3c3c3c
-      +media($tablet)
-        margin-top: 34px
-      +media($notebook)
-        margin-top: 30px
-      +media($desktop)
-        margin-top: 52px
-      &:hover
-        background-color: #575757
-    &:after
+      @include media($notebook) {
+        margin-top: 30px;
+      }
+
+      @include media($desktop) {
+        margin-top: 52px;
+      }
+
+      &:hover {
+        background-color: #575757;
+      }
+    }
+    &:after {
       //content: url("../img/new/xs/button_shadow_xs.png")
       //height: 14px
       //width: 205px
       //margin: 0 auto 23px
-      content: none
+      content: none;
+      @include media($tablet) {
+        display: block;
+        position: relative;
+        content: url("../img/new/sm/button_shadow_sm.png");
+        height: 19px;
+        width: 305px;
+        top: -110px;
+      }
 
-      +media($tablet)
-        display: block
-        position: relative
-        content: url("../img/new/sm/button_shadow_sm.png")
-        height: 19px
-        width: 305px
-        top: -110px
-      +media($notebook)
-        content: url("../img/new/md/button_shadow_md.png")
-        height: 19px
-        width: 305px
-        top: -115px
-      +media($desktop)
-        content: url("../img/new/lg/button_shadow_lg.png")
-        height: 24px
-        width: 340px
-        top: -136px
+      @include media($notebook) {
+        content: url("../img/new/md/button_shadow_md.png");
+        height: 19px;
+        width: 305px;
+        top: -115px;
+      }
+
+      @include media($desktop) {
+        content: url("../img/new/lg/button_shadow_lg.png");
+        height: 24px;
+        width: 340px;
+        top: -136px;
+      }
+    }
+  }
+}

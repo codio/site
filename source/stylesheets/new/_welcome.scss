@@ -1,43 +1,51 @@
-#welcome
-  background: url("../img/new/xs/top_image_xs.jpg") no-repeat center center
-  background-size: cover
-  height: 220px
-  +media($tablet)
-    background: url("../img/new/sm/top_image_sm.jpg") no-repeat center center
-    background-size: cover
-    height: 340px
+#welcome {
+  background: url("../img/new/xs/top_image_xs.jpg") no-repeat center center;
+  background-size: cover;
+  height: 220px;
+  @include media($tablet) {
+    background: url("../img/new/sm/top_image_sm.jpg") no-repeat center center;
+    background-size: cover;
+    height: 340px;
+  }
 
-  +media($notebook)
-    background: url("../img/new/md/top_image_md.jpg") no-repeat center center
-    background-size: cover
-    height: 431px
+  @include media($notebook) {
+    background: url("../img/new/md/top_image_md.jpg") no-repeat center center;
+    background-size: cover;
+    height: 431px;
+  }
 
-  +media($desktop)
-    background: url("../img/new/lg/top_image_lg.jpg") no-repeat center center
-    background-size: cover
-    height: 508px
+  @include media($desktop) {
+    background: url("../img/new/lg/top_image_lg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 508px;
+  }
 
-  h1
-    color: #000000
-    font-weight: 400
-    font-size: 17px
-    letter-spacing: -0.85px
-    text-align: center
-    +position(absolute, 126px 15px auto 15px)
-    +media($tablet)
-      font-size: 17px
-      letter-spacing: -0.85px
-      text-align: left
-      +position(absolute, 153px 75px auto 407px)
+  h1 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: -0.85px;
+    text-align: center;
+    @include position(absolute, 126px 15px auto 15px);
+    @include media($tablet) {
+      font-size: 17px;
+      letter-spacing: -0.85px;
+      text-align: left;
+      @include position(absolute, 153px 75px auto 407px);
+    }
 
-    +media($notebook)
-      font-size: 20px
-      letter-spacing: -0.85px
-      text-align: left
-      +position(absolute, 215px 15px auto auto)
+    @include media($notebook) {
+      font-size: 20px;
+      letter-spacing: -0.85px;
+      text-align: left;
+      @include position(absolute, 215px 15px auto auto);
+    }
 
-    +media($desktop)
-      font-size: 25px
-      letter-spacing: -0.85px
-      text-align: left
-      +position(absolute, 235px 15px auto auto)
+    @include media($desktop) {
+      font-size: 25px;
+      letter-spacing: -0.85px;
+      text-align: left;
+      @include position(absolute, 235px 15px auto auto);
+    }
+  }
+}

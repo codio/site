@@ -1,148 +1,178 @@
-.teaching-content .subpage
+.teaching-content .subpage {
+  section:first-child {
+    @include media($notebook) {
+      height: 290px;
+    }
 
-  section:first-child
-    +media($notebook)
-      height: 290px
-    +media($desktop)
-      height: 370px
+    @include media($desktop) {
+      height: 370px;
+    }
+  }
+  section:nth-child(2) {
+    height: 195px;
+    margin-top: 40px;
+    @include media($tablet) {
+      height: 210px;
+    }
+  }
+  #ocr-partner {
+    margin-bottom: 95px;
+    @include media($tablet) {
+      margin-bottom: 25px;
+    }
 
-  section:nth-child(2)
-    height: 195px
-    margin-top: 40px
+    @include media($notebook) {
+      margin-bottom: 90px;
+    }
 
-    +media($tablet)
-      height: 210px
+    .right {
+      background: none;
+      margin-top: 35px;
+      @include media($tablet) {
+        background: transparent url("../img/new/uni/teaching-content/01.png") left top no-repeat;
+        background-size: 444px;
+      }
 
-  #ocr-partner
-    margin-bottom: 95px
+      @include media($notebook) {
+        background-size: 577px;
+      }
 
-    +media($tablet)
-      margin-bottom: 25px
+      @include media($desktop) {
+        background-size: 750px;
+      }
 
-    +media($notebook)
-      margin-bottom: 90px
+      img {
+        display: block;
+        @include media($tablet) {
+          display: none;
+        }
+      }
+    }
+    .left {
+      position: relative;
+      top: 35px;
+      @include media($tablet) {
+        top: 0;
+      }
+    }
+  }
+  #courses {
+    margin-bottom: 0;
+    @include media($tablet) {
+      margin-bottom: 75px;
+    }
 
-    .right
-      background: none
-      margin-top: 35px
+    .left {
+      background: none;
+      margin-top: 140px;
+      @include media($tablet) {
+        margin-top: 135px;
+        background: transparent url("../img/new/uni/teaching-content/02.png") right top no-repeat;
+        background-size: 444px;
+      }
 
-      +media($tablet)
-        background: transparent url("../img/new/uni/teaching-content/01.png") left top no-repeat
-        background-size: 444px
-      +media($notebook)
-        background-size: 577px
-      +media($desktop)
-        background-size: 750px
+      @include media($notebook) {
+        background-size: 577px;
+      }
 
-      img
-        display: block
+      @include media($desktop) {
+        background-size: 750px;
+      }
 
-        +media($tablet)
-          display: none
+      img {
+        display: block;
+        @include media($tablet) {
+          display: none;
+        }
+      }
+    }
+    .right {
+      position: relative;
+      top: -420px;
+      @include media($tablet) {
+        top: 0;
+      }
+    }
+  }
+  #teaching-content {
+    margin-bottom: 0;
+    @include media($tablet) {
+      margin-bottom: 25px;
+      height: 332px;
+    }
 
-    .left
-      position: relative
-      top: 35px
+    @include media($notebook) {
+      margin-bottom: 0;
+      height: 404px;
+    }
 
-      +media($tablet)
-        top: 0
+    .right {
+      background: none;
+      margin-top: 35px;
+      @include media($tablet) {
+        background: transparent url("../img/new/uni/teaching-content/03.png") left top no-repeat;
+        background-size: 444px;
+      }
 
-  #courses
-    margin-bottom: 0
+      @include media($notebook) {
+        background-size: 577px;
+      }
 
-    +media($tablet)
-      margin-bottom: 75px
+      @include media($desktop) {
+        background-size: 750px;
+      }
 
-    .left
-      background: none
-      margin-top: 140px
+      img {
+        display: block;
+        @include media($tablet) {
+          display: none;
+        }
+      }
+    }
+    .left {
+      position: relative;
+      top: 35px;
+      @include media($tablet) {
+        top: 0;
+      }
+    }
+  }
+  #guides {
+    margin-bottom: 0;
+    margin-top: 110px;
+    @include media($tablet) {
+      margin-bottom: 95px;
+    }
 
-      +media($tablet)
-        margin-top: 135px
-        background: transparent url("../img/new/uni/teaching-content/02.png") right top no-repeat
-        background-size: 444px
-      +media($notebook)
-        background-size: 577px
-      +media($desktop)
-        background-size: 750px
+    .left {
+      background: none;
+      margin-top: 135px;
+      @include media($tablet) {
+        background: transparent url("../img/new/uni/teaching-content/04.png") right top no-repeat;
+        background-size: 444px;
+      }
 
-      img
-        display: block
+      @include media($notebook) {
+        background-size: 577px;
+      }
 
-        +media($tablet)
-          display: none
+      @include media($desktop) {
+        background-size: 750px;
+      }
 
-    .right
-      position: relative
-      top: -420px
-
-      +media($tablet)
-        top: 0
-
-  #teaching-content
-    margin-bottom: 0
-
-    +media($tablet)
-      margin-bottom: 25px
-      height: 332px
-
-    +media($notebook)
-      margin-bottom: 0
-      height: 404px
-
-    .right
-      background: none
-      margin-top: 35px
-
-      +media($tablet)
-        background: transparent url("../img/new/uni/teaching-content/03.png") left top no-repeat
-        background-size: 444px
-      +media($notebook)
-        background-size: 577px
-      +media($desktop)
-        background-size: 750px
-
-      img
-        display: block
-
-        +media($tablet)
-          display: none
-
-    .left
-      position: relative
-      top: 35px
-
-      +media($tablet)
-        top: 0
-
-  #guides
-    margin-bottom: 0
-    margin-top: 110px
-
-    +media($tablet)
-      margin-bottom: 95px
-
-    .left
-      background: none
-      margin-top: 135px
-
-      +media($tablet)
-        background: transparent url("../img/new/uni/teaching-content/04.png") right top no-repeat
-        background-size: 444px
-      +media($notebook)
-        background-size: 577px
-      +media($desktop)
-        background-size: 750px
-
-      img
-        display: block
-
-        +media($tablet)
-          display: none
-
-    .right
-      position: relative
-      top: -420px
-
-      +media($tablet)
-        top: 0
+      img {
+        display: block;
+        @include media($tablet) {
+          display: none;
+        }
+      }
+    }
+    .right {
+      position: relative;
+      top: -420px;
+      @include media($tablet) {
+        top: 0;
+      }
+    }
+  }
+}

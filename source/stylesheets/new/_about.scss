@@ -128,10 +128,16 @@ body.about main {
         margin-bottom: 30px;
 
         @include span-columns(12);
-        @include omega;
+        @include omega();
 
-        @include media($tablet) {
-          @include span-columns(5 of 20);
+        @include media(min-width $tablet) {
+          @include span-columns(6 of 12);
+          @include omega(2n);
+        }
+
+        @include media(min-width $notebook) {
+          @include omega-reset(2n);
+          @include span-columns(3 of 12);
           @include omega(4n);
         }
 
@@ -174,7 +180,7 @@ body.about main {
             font-weight: 300;
 
             @include media($tablet) {
-              font-size: 10px;
+              font-size: 16px;
             }
 
             @include media($notebook) {
@@ -183,6 +189,7 @@ body.about main {
 
             @include media($desktop) {
               font-size: 14px;
+              line-height: 130%;
             }
 
             &:first-child {

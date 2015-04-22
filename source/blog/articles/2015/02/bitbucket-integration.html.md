@@ -2,7 +2,7 @@
 title: "From repo to web IDE in one click - Codio & BitBucket integration makes editing code a breeze"
 author: Phillip Snalune
 date: 2015-02-11
-tags: 'Company News', Education
+tags: 'Company News', 'Company News'
 class_name: blog
 full_width: true
 image: /img/blog/bitbucket-header.png

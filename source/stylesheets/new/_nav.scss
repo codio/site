@@ -65,11 +65,11 @@ nav {
         }
 
         @include media($notebook) {
-          font-size: 19px;
+          font-size: 17px;
         }
 
         @include media($desktop) {
-          font-size: 20px;
+          font-size: 18px;
         }
 
         @include transition(color 0.2s linear);

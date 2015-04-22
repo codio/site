@@ -96,25 +96,31 @@
 
 //pricing
 
-#podklad
-  position: absolute
-  top: 0
-  left: 0
-  right: 0
-  z-index: 99999
-  opacity: 0.4
-  background: url("../podklad/pricing/xs.jpg") no-repeat center center
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
-  height: 8000px
-  +media($tablet)
-    background: url("../podklad/pricing/sm.jpg") no-repeat center center
-    height: 8000px
-  +media($notebook)
-    background: url("../podklad/pricing/md.jpg") no-repeat center center
-    height: 8000px
-  +media($desktop)
-    background: url("../podklad/pricing/lg.jpg") no-repeat center center
-    height: 8000px
+#podklad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  opacity: 0.4;
+  background: url("../podklad/pricing/xs.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 8000px;
+  @include media($tablet) {
+    background: url("../podklad/pricing/sm.jpg") no-repeat center center;
+    height: 8000px;
+  }
+
+  @include media($notebook) {
+    background: url("../podklad/pricing/md.jpg") no-repeat center center;
+    height: 8000px;
+  }
+
+  @include media($desktop) {
+    background: url("../podklad/pricing/lg.jpg") no-repeat center center;
+    height: 8000px;
+  }
+}

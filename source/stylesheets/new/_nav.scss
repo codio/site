@@ -1,0 +1,125 @@
+#menu-toggle {
+  @include media($mobil) {
+    background-image: url("../img/new/uni/hamburger.png");
+    width: 44px;
+    height: 34px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+  }
+
+  @include media($tablet) {
+    display: none;
+  }
+}
+
+.show-menu {
+  @include media($mobil) {
+    display: block;
+  }
+}
+
+nav {
+  ul {
+    @include media($mobil) {
+      display: none;
+      position: relative;
+      top: 50px;
+    }
+
+    @include media($tablet) {
+      position: absolute;
+      display: block;
+      top: 22px;
+      right: 15px;
+    }
+
+    @include media($notebook) {
+      top: 26px;
+      right: 15px;
+    }
+
+    @include media($desktop) {
+      top: 33px;
+      right: 15px;
+    }
+
+    li {
+      @include media($mobil) {
+        background-color: #3c3c3c;
+        border-top: 1px solid #494949;
+        padding-left: 38px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+
+      @include media($tablet) {
+        display: inline-block;
+        padding: 0 19px;
+      }
+
+      @include media($notebook) {
+        padding: 0 19px;
+      }
+
+      @include media($desktop) {
+        padding: 0 24px;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+        @include media($tablet) {
+          font-size: 16px;
+        }
+
+        @include media($notebook) {
+          font-size: 19px;
+        }
+
+        @include media($desktop) {
+          font-size: 20px;
+        }
+
+        @include transition(color 0.2s linear);
+        &:hover {
+          color: #C3DCFF;
+        }
+      }
+    }
+  }
+}
+
+//menu separator
+nav {
+  ul {
+    li:after {
+      @include media($tablet) {
+        position: relative;
+        content: url("../img/new/sm/top_menu_separator_sm.png");
+        top: 3px;
+        left: 21px;
+      }
+
+      @include media($notebook) {
+        content: url("../img/new/md/top_menu_separator_md.png");
+        top: 5px;
+        left: 21px;
+      }
+
+      @include media($desktop) {
+        content: url("../img/new/lg/top_menu_separator_lg.png");
+        top: 5px;
+        left: 26px;
+      }
+    }
+    li:nth-of-type(4),
+    li:last-of-type {
+      &:after {
+        content: none;
+      }
+    }
+  }
+}

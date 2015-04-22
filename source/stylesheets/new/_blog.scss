@@ -35,4 +35,51 @@ body.blog {
       }
     }
   }
+
+  .overview {
+    .info {
+      height: 78px;
+      clear: both;
+      color: #727272;
+      font-size: 14px;
+      font-weight: bold;
+      div {
+        float: left;
+      }
+      div:not(.avatar) {
+        line-height: 78px;
+      }
+      .avatar {
+        border: 1px #bababa solid;
+        border-radius: 15px;
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+        margin: 22px 10px 0 2px;
+        img {
+          float: right;
+        }
+      }
+      .author {
+        margin-left: 4px;
+        span {
+          color: #307ae2;
+        }
+      }
+      .image {
+        overflow: hidden;
+        height: 240px;
+        width: 100%;
+        position: relative;
+        img {
+          position: absolute;
+          margin: auto;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+      }
+    }
+  }
 }

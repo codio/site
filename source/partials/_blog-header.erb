@@ -1,7 +1,13 @@
-<nav class="categories">
-  <ul>
-    <% blog.tags.each do |tag, articles| %>
-      <li><%= link_to "#{tag}", tag_path(tag) %></li>
-    <% end %>
-  </ul>
-</nav>
+<div class="header">
+  <div class="container">
+    <nav>
+      <ul class="categories">
+        <% blog.tags.each do |tag, articles| %>
+          <li <%= if defined? current_tag and current_tag == tag then concat 'class="active"' end %> >
+            <%= link_to "#{tag}", tag_path(tag) %>
+          </li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</div>

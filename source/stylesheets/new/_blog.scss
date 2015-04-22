@@ -1,3 +1,38 @@
 body.blog {
 
+  .header {
+    background: #ebf1f4;
+    height: 75px;
+    line-height: 75px;
+    ul {
+      display: block;
+    }
+    li {
+      display: inline-block;
+      float: left;
+      height: 100%;
+      a {
+        display: block;
+        padding: 0 10px;
+        border-radius: 4px 4px 0 0;
+        font-size: 16px;
+        text-decoration: none;
+        color: #3c3c3c;
+      }
+      &.active {
+        padding-top: 35px;
+        margin: 0 10px;
+        a {
+          padding: 0 20px;
+          color: #307ae2;
+          background: #ffffff;
+
+          line-height: 100%;
+          margin-top: -20px;
+          padding-top: 15px;
+          padding-bottom: 29px;
+        }
+      }
+    }
+  }
 }

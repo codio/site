@@ -1,5 +1,6 @@
 <% wrap_layout :'layout-new' do %>
   <main>
+    <%= partial "blog-header" %>
     <%= link_to "Blog", "/blog", :class => "back-button" %>
     <div class="title">
       <h1><%= current_article.title %></h1>

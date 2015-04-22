@@ -5,7 +5,7 @@ per_page: 10
 layout: layout-new
 ---
 <main>
-  <%= partial "blog-header" %>
+  <%= partial "blog-header", :locals => { :current_tag => tagname } %>
   <article class="overview">
     <h1><%= tagname %></h1>
 

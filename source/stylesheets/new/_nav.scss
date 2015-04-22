@@ -29,20 +29,9 @@ nav {
     }
 
     @include media($tablet) {
-      position: absolute;
       display: block;
-      top: 22px;
-      right: 15px;
-    }
-
-    @include media($notebook) {
-      top: 26px;
-      right: 15px;
-    }
-
-    @include media($desktop) {
-      top: 33px;
-      right: 15px;
+      float: right;
+      margin-right: 2%;
     }
 
     li {
@@ -84,6 +73,9 @@ nav {
         }
 
         @include transition(color 0.2s linear);
+        &:not(.button) {
+          display: inline-block;
+        }
         &:hover {
           color: #C3DCFF;
         }

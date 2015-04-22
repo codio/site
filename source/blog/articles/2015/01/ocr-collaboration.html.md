@@ -2,7 +2,7 @@
 title: "Codio & leading exam board OCR to collaborate on new Computing Tutorials & qualifications, in the UK & internationally"
 author: Phillip Snalune
 date: 2015-01-21
-tags: News, Education
+tags: 'Company News', Education
 class_name: blog
 full_width: true
 ---

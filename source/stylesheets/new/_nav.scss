@@ -80,6 +80,14 @@ nav {
           color: #C3DCFF;
         }
       }
+      &.active {
+        a {
+          color: #5988e1;
+          @include media($tablet) {
+            border-bottom: 3px solid #5988e1;
+          }
+        }
+      }
     }
   }
 }

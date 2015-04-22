@@ -2,7 +2,7 @@
 title: Drag and Drop in the File Explorer
 author: Joel Moss
 date: 2013-04-03
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 ---

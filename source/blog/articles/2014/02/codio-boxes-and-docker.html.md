@@ -2,7 +2,7 @@
 title: Codio Boxes + Docker
 author: Joel Moss
 date: 2014-02-12
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 image: https://www.docker.io/static/img/homepage-docker-logo.png

@@ -2,7 +2,7 @@
 title: Codio Guides
 author: Freddy May
 date: 2014-09-10
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 published: false

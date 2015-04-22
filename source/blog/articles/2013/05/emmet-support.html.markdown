@@ -2,7 +2,7 @@
 title: Emmet support added for hi-speed HTML and CSS coding
 author: Freddy May
 date: 2013-05-24
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 ---

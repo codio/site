@@ -11,21 +11,23 @@ layout: layout-new
     <% page_articles.each_with_index do |article, i| %>
       <div class="article">
         <article class="container" >
-          <div class="info">
-            <div class="avatar">
-              <%= image_tag 'about/%s.png' % [article.data.author.split()[0].downcase()], :height => '30' %>
+          <div>
+            <div class="info">
+              <div class="avatar">
+                <%= image_tag 'about/%s.png' % [article.data.author.split()[0].downcase()], :height => '30' %>
+              </div>
+              <div class="date">Posted: <span><%= article.date.strftime('%B %e, %Y')%></span></div>
+              <div class="author">by <span><%= article.data.author %></span></div>
+              <% if article.data.image %>
+              <div class="image"><%= image_tag article.data.image %></div>
+              <% end %>
             </div>
-            <div class="date">Posted: <span><%= article.date.strftime('%B %e, %Y')%></span></div>
-            <div class="author">by <span><%= article.data.author %></span></div>
-            <% if article.data.image %>
-            <div class="image"><%= image_tag article.data.image %></div>
-            <% end %>
-          </div>
 
-          <h2><%= link_to article.title, article, :class => 'title' %></h2>
-          <div class="summary">
-            <%= article.summary(200) %>
-            <%= link_to "Continue reading", article, :class => 'read-more' %>
+            <h2><%= link_to article.title, article, :class => 'title' %></h2>
+            <div class="summary">
+              <%= article.summary(200) %>
+              <%= link_to "Continue reading", article, :class => 'read-more' %>
+            </div>
           </div>
         </article>
       </div>

@@ -1,4 +1,4 @@
-main {
+body > main {
   padding-top: 50px;
   @include media($tablet) {
     padding-top: 60px;
@@ -13,7 +13,7 @@ main {
   }
 }
 
-header {
+body > header {
   background-color: #3c3c3c;
   width: 100%;
   height: 50px;

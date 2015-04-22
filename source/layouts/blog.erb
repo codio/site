@@ -1,28 +1,30 @@
-<% wrap_layout :layout do %>
-  <%= link_to "Blog", "/blog", :class => "back-button" %>
-  <div class="title">
-    <h1><%= current_article.title %></h1>
-  </div>
-
-  <article>
-    <header>
-      <% if current_article.data.image %>
-        <%= image_tag current_article.data.image %>
-      <% end %>
-    </header>
-
-    <div class="post">
-      <div class="date">
-        <%= current_article.date.strftime('%B %e, %Y')%> by <b><%= current_article.data.author %></b>
-      </div>
-      <%= partial "share-links" %>
-      <div class="content">
-        <%= yield %>
-      </div>
-      <%= partial "share-links" %>
-      <%= partial "vendors/disqus" %>
+<% wrap_layout :'layout-new' do %>
+  <main>
+    <%= link_to "Blog", "/blog", :class => "back-button" %>
+    <div class="title">
+      <h1><%= current_article.title %></h1>
     </div>
-  </article>
 
-  <%= partial "blog-sidebar" %>
+    <article>
+      <header>
+        <% if current_article.data.image %>
+          <%= image_tag current_article.data.image %>
+        <% end %>
+      </header>
+
+      <div class="post">
+        <div class="date">
+          <%= current_article.date.strftime('%B %e, %Y')%> by <b><%= current_article.data.author %></b>
+        </div>
+        <%= partial "share-links" %>
+        <div class="content">
+          <%= yield %>
+        </div>
+        <%= partial "share-links" %>
+        <%= partial "vendors/disqus" %>
+      </div>
+    </article>
+
+    <%= partial "blog-sidebar" %>
+  </main>
 <% end %>

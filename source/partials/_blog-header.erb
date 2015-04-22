@@ -1,0 +1,7 @@
+<nav class="categories">
+  <ul>
+    <% blog.tags.each do |tag, articles| %>
+      <li><%= link_to "#{tag}", tag_path(tag) %></li>
+    <% end %>
+  </ul>
+</nav>

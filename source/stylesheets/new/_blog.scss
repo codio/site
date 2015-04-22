@@ -43,6 +43,18 @@ body.blog {
   }
 
   .overview {
+    .article {
+      padding-bottom: 50px;
+      &:not(:first-child) {
+        border-top: 1px solid #dcdcdc;
+      }
+      &:not(:last-child) {
+        border-bottom: 1px solid #f1f1f1;
+      }
+      &:nth-child(even) {
+        background: #f4f4f4;
+      }
+    }
     .info {
       height: 78px;
       clear: both;

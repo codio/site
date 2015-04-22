@@ -38,13 +38,13 @@ header {
     position: absolute;
     top: 8px;
     left: 8px;
-    background-image: url("../img/new/xs/logo_xs.png");
+    background-image: url("../img/logo-light.svg");
+    background-repeat: no-repeat;
     width: 88px;
     height: 33px;
     @include media($tablet) {
       top: 15px;
       left: 13px;
-      background-image: url("../img/new/sm/logo_sm.png");
       width: 109px;
       height: 40px;
     }
@@ -52,7 +52,6 @@ header {
     @include media($notebook) {
       top: 22px;
       left: 21px;
-      background-image: url("../img/new/md/logo_md.png");
       width: 120px;
       height: 45px;
     }
@@ -60,7 +59,6 @@ header {
     @include media($desktop) {
       top: 23px;
       left: 22px;
-      background-image: url("../img/new/lg/logo_lg.png");
       width: 150px;
       height: 56px;
     }

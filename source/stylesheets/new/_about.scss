@@ -122,15 +122,22 @@ body.about main {
       margin-bottom: 100px;
 
       .info-card {
+        position: relative;
         background: #3c3c3c;
         text-align: center;
         margin-bottom: 30px;
 
         @include span-columns(12);
-        @include omega;
+        @include omega();
 
-        @include media($tablet) {
-          @include span-columns(5 of 20);
+        @include media(min-width $tablet) {
+          @include span-columns(6 of 12);
+          @include omega(2n);
+        }
+
+        @include media(min-width $notebook) {
+          @include omega-reset(2n);
+          @include span-columns(3 of 12);
           @include omega(4n);
         }
 
@@ -156,10 +163,54 @@ body.about main {
         }
 
         .body {
-          display: none;
+          position: absolute;
+          height: 100%;
+          top: 0;
+          padding: 5% 7%;
+          color: white;
+          background: rgba(60, 60, 60, .92);
+          font-style: italic;
+          text-align: justify;
+          opacity: 0;
+          @include transition(opacity .05s ease);
+
+          p {
+            line-height: 140%;
+            margin-bottom: 5%;
+            font-weight: 300;
+
+            @include media($tablet) {
+              font-size: 16px;
+            }
+
+            @include media($notebook) {
+              font-size: 12px;
+            }
+
+            @include media($desktop) {
+              font-size: 14px;
+              line-height: 130%;
+            }
+
+            &:first-child {
+              font-weight: 500;
+            }
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        &:hover {
+          cursor: pointer;
+
+          .body {
+            opacity: 1;
+            @include transition(opacity .2s ease);
+          }
         }
       }
     }
   }
-
 }

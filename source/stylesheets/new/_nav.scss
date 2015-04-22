@@ -75,6 +75,7 @@ nav {
         @include transition(color 0.2s linear);
         &:not(.button) {
           display: inline-block;
+          font-weight: 300;
         }
         &:not(.button):hover {
           color: #b3c9f3;

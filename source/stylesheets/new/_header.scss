@@ -1,15 +1,15 @@
 main {
   padding-top: 50px;
   @include media($tablet) {
-    padding-top: 70px;
+    padding-top: 60px;
   }
 
   @include media($notebook) {
-    padding-top: 90px;
+    padding-top: 70px;
   }
 
   @include media($desktop) {
-    padding-top: 103px;
+    padding-top: 75px;
   }
 }
 

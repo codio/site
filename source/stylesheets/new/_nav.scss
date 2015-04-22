@@ -20,7 +20,7 @@
   }
 }
 
-nav {
+header nav {
   ul {
     @include media($mobil) {
       display: none;

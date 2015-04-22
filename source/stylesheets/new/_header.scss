@@ -36,31 +36,21 @@ header {
 
   .logo {
     position: absolute;
-    top: 8px;
     left: 8px;
-    background-image: url("../img/logo-light.svg");
-    background-repeat: no-repeat;
+    background: url("../img/logo-light.svg") transparent left 50% no-repeat;
     width: 88px;
-    height: 33px;
+    height: 50px;
     @include media($tablet) {
-      top: 15px;
-      left: 13px;
-      width: 109px;
-      height: 40px;
+      width: 90px;
+      height: 100%;
     }
 
     @include media($notebook) {
-      top: 22px;
-      left: 21px;
-      width: 120px;
-      height: 45px;
+      width: 95px;
     }
 
     @include media($desktop) {
-      top: 23px;
-      left: 22px;
-      width: 150px;
-      height: 56px;
+      width: 100px;
     }
   }
 }

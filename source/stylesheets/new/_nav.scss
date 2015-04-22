@@ -91,35 +91,3 @@ nav {
     }
   }
 }
-
-//menu separator
-nav {
-  ul {
-    li:after {
-      @include media($tablet) {
-        position: relative;
-        content: url("../img/new/sm/top_menu_separator_sm.png");
-        top: 3px;
-        left: 21px;
-      }
-
-      @include media($notebook) {
-        content: url("../img/new/md/top_menu_separator_md.png");
-        top: 5px;
-        left: 21px;
-      }
-
-      @include media($desktop) {
-        content: url("../img/new/lg/top_menu_separator_lg.png");
-        top: 5px;
-        left: 26px;
-      }
-    }
-    li:nth-of-type(4),
-    li:last-of-type {
-      &:after {
-        content: none;
-      }
-    }
-  }
-}

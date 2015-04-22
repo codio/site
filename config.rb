@@ -74,6 +74,7 @@ activate :blog do |blog|
   blog.paginate          = true
   blog.tag_template      = "blog/tag.html"
   blog.calendar_template = "blog/calendar.html"
+  blog.taglink           = "{tag}.html"
 end
 
 activate :directory_indexes

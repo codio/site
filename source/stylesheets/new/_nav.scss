@@ -76,7 +76,7 @@ nav {
         &:not(.button) {
           display: inline-block;
         }
-        &:hover {
+        &:not(.button):hover {
           color: #b3c9f3;
         }
       }

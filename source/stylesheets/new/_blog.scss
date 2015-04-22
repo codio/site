@@ -1,5 +1,12 @@
 body.blog {
 
+  main {
+    a {
+      text-decoration: none;
+      color: #307ae2;
+    }
+  }
+
   .header {
     background: #ebf1f4;
     height: 75px;
@@ -16,7 +23,6 @@ body.blog {
         padding: 0 10px;
         border-radius: 4px 4px 0 0;
         font-size: 16px;
-        text-decoration: none;
         color: #3c3c3c;
       }
       &.active {
@@ -24,13 +30,13 @@ body.blog {
         margin: 0 10px;
         a {
           padding: 0 20px;
-          color: #307ae2;
           background: #ffffff;
 
           line-height: 100%;
           margin-top: -20px;
           padding-top: 15px;
           padding-bottom: 29px;
+          color: #307ae2;
         }
       }
     }
@@ -80,6 +86,23 @@ body.blog {
           bottom: 0;
         }
       }
+    }
+    .title {
+      line-height: 86px;
+      font-size: 26px;
+      font-weight: bold;
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .summary {
+      font-style: italic;
+    }
+
+    .read-more {
+      float: right;
+      line-height: 140%;
+      font-weight: bold;
     }
   }
 }

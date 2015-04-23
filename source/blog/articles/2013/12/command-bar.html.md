@@ -2,7 +2,7 @@
 title: Command Bar
 author: Freddy May
 date: 2013-12-16
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 ---

@@ -2,7 +2,7 @@
 title: Changing How we Save in Codio
 author: Joel Moss
 date: 2015-04-01
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 ---

@@ -2,7 +2,7 @@
 title: Building with Grunt
 author: Joel Moss
 date: 2013-03-26
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 image: blog/grunt-logo.png

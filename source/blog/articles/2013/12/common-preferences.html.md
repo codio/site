@@ -2,7 +2,7 @@
 title: Common User Preferences
 author: Joel Moss
 date: 2013-12-04
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 image: blog/common-prefs.png

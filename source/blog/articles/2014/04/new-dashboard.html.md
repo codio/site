@@ -2,7 +2,7 @@
 title: New Dashboard
 author: Joel Moss
 date: 2014-04-30
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 ---

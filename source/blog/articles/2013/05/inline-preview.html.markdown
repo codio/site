@@ -2,7 +2,7 @@
 title: Inline preview released
 author: Freddy May
 date: 2013-05-30
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 ---

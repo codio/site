@@ -2,7 +2,7 @@
 title: Deploy & Preview
 author: Freddy May
 date: 2013-11-13
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 ---

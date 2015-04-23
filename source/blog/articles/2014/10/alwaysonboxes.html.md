@@ -2,7 +2,7 @@
 title: Always-on Boxes are now in beta.
 author: Phillip Snalune
 date: 2014-10-09
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 published: true

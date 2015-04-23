@@ -2,7 +2,7 @@
 title: Codio:Annotations Released
 author: Freddy May
 date: 2013-04-30
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 ---

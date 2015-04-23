@@ -2,7 +2,7 @@
 title: Easier Uploading
 author: Joel Moss
 date: 2014-02-04
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 ---

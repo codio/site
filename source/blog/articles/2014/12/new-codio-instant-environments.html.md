@@ -2,7 +2,7 @@
 title: Brand New Codio launches Instant Coding Environments
 author: Phillip Snalune
 date: 2014-12-02
-tags: 'Product News'
+tags: Product News
 class_name: blog
 full_width: true
 image: /img/blog/landing-new-ui.png

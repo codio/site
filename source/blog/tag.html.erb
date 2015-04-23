@@ -15,17 +15,18 @@ layout: layout-new
       <% page_articles.each_with_index do |article, i| %>
         <div class="striped">
           <article class="container" >
-            <div class="content">
+            <div class="post">
               <div class="info">
                 <div class="avatar">
                   <%= image_tag 'about/%s.png' % [article.data.author.split()[0].downcase()], :height => '30' %>
                 </div>
                 <div class="date">Posted: <span><%= article.date.strftime('%B %e, %Y')%></span></div>
                 <div class="author">by <span><%= article.data.author %></span></div>
-                <% if article.data.image %>
-                <div class="image"><%= image_tag article.data.image %></div>
-                <% end %>
               </div>
+
+              <% if article.data.image %>
+              <div class="image"><%= image_tag article.data.image %></div>
+              <% end %>
 
               <h2 class="title"><%= link_to article.title, article %></h2>
               <div class="summary">

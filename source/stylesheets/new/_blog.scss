@@ -57,12 +57,11 @@ body.blog {
 
   .overview {
 
-    .container {
-      @include outer-container;
-    }
-
-    .content {
-      @include span-columns(4 of 5);
+    .post {
+      @include media($tablet) {
+        @include span-columns(4 of 5);
+        padding-left: 10px;
+      }
     }
 
     .striped {
@@ -85,11 +84,18 @@ body.blog {
       color: #727272;
       font-weight: 600;
       font-size: 14px;
+      text-align: center;
+
+      @include media($tablet) {
+        text-align: left;
+      }
+
       @include media($notebook) {
         font-size: 16px;
       }
       div {
-        float: left;
+        display: inline-block;
+        vertical-align: middle;
       }
       div:not(.avatar) {
         line-height: 78px;
@@ -100,7 +106,7 @@ body.blog {
         height: 30px;
         width: 30px;
         overflow: hidden;
-        margin: 22px 10px 0 2px;
+        margin: 0px 10px 0 2px;
         img {
           float: right;
         }
@@ -111,21 +117,21 @@ body.blog {
           color: #307ae2;
         }
       }
-      .image {
-        overflow: hidden;
-        height: 240px;
-        margin-bottom: 30px;
+    }
+    .image {
+      overflow: hidden;
+      height: 240px;
+      margin-bottom: 30px;
+      width: 100%;
+      position: relative;
+      img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         width: 100%;
-        position: relative;
-        img {
-          position: absolute;
-          margin: auto;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          width: 100%;
-        }
       }
     }
     .title {

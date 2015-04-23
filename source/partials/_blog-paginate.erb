@@ -14,9 +14,9 @@
 
       <% (page_number - 8 .. page_number + 8).select{|i| i > 0 && i <= num_pages}[0..7].each do |i| %>
         <% if i == page_number %>
-            <li class="active"><span><%= i %></span></li>
+          <li class="num active"><span><%= i %></span></li>
         <% else %>
-          <li>
+          <li class="num">
             <%
               p = nil
               (i ... page_number).each do p = p ? p.metadata[:locals]['prev_page'] : prev_page; end

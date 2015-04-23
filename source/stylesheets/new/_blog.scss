@@ -277,13 +277,20 @@ body.blog {
   .pagination {
 
     text-align: center;
-    margin: 60px 0 0;
+    margin: 60px 0 46px;
 
     li {
       display: inline-block;
       margin: 0 10px;
       color: #9f9f9f;
       font-weight: 600;
+      font-size: 15px;
+      @include media($notebook) {
+        font-size: 16px;
+      }
+      @include media($desktop) {
+        font-size: 20px;
+      }
 
       &.active {
         color: #307ae2;
@@ -293,6 +300,13 @@ body.blog {
         color: inherit;
         &:hover {
           color: #307ae2;
+        }
+      }
+
+      &.num {
+        display: none;
+        @include media($tablet) {
+          display: inline-block;
         }
       }
     }

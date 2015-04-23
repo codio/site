@@ -33,7 +33,7 @@ layout: layout-new
 
               <h2 class="title"><%= link_to article.title, article %></h2>
               <div class="summary">
-                <%= article.summary(200) %>
+                <%= Nokogiri::HTML(article.summary(140)).text %>
                 <%= link_to "Continue reading", article, :class => 'read-more' %>
               </div>
             </div>

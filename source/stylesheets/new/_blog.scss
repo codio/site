@@ -151,7 +151,20 @@ body.blog {
           list-style: none;
       }
 
-      li:before {
+      li {
+
+        margin-bottom: 20px;
+        font-style: italic;
+        color: #787878;
+
+        a {
+          display: block;
+          span {
+            color: #787878;
+          }
+        }
+
+        &:before {
           content: "";
           border-color: transparent inherit;
           border-style: solid;
@@ -162,14 +175,16 @@ body.blog {
           left: -1em;
           top: 0.9em;
           position: relative;
-      }
+        }
 
-      li {
-        margin-bottom: 20px;
-        font-style: italic;
-        color: #787878;
-        a span {
-          color: #787878;
+        &:hover {
+          span, a {
+            color: #307ae2;
+            text-decoration: underline;
+          }
+          &:before {
+            border-color: transparent #307ae2;
+          }
         }
       }
     }

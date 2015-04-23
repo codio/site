@@ -65,15 +65,9 @@ body.blog {
     }
 
     .striped {
-
-      &:not(:last-child) {
-        border-bottom: 1px solid #f1f1f1;
-      }
-
-      &:not(:first-child) {
-        border-top: 1px solid #dcdcdc;
-      }
       &:nth-child(even) {
+        border-top: 1px solid #dcdcdc;
+        border-bottom: 1px solid #dcdcdc;
         background: #f4f4f4;
       }
     }

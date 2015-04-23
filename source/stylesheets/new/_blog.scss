@@ -67,8 +67,6 @@ body.blog {
 
     .striped {
 
-      padding-bottom: 50px;
-
       &:not(:last-child) {
         border-bottom: 1px solid #f1f1f1;
       }
@@ -116,6 +114,7 @@ body.blog {
       .image {
         overflow: hidden;
         height: 240px;
+        margin-bottom: 30px;
         width: 100%;
         position: relative;
         img {
@@ -130,13 +129,10 @@ body.blog {
       }
     }
     .title {
-      line-height: 86px;
       font-weight: 700;
-      color: #000000;
-      text-decoration: none;
       font-size: 20px;
       text-align: center;
-      @include media($notebook) {
+      @include media($tablet) {
         text-align: left;
       }
       @include media($notebook) {
@@ -145,12 +141,21 @@ body.blog {
       @include media($desktop) {
         font-size: 28px;
       }
+      a {
+        line-height: 140%;
+        margin-bottom: 30px;
+        display: inline-block;
+        color: #000000;
+        text-decoration: none;
+      }
     }
 
     .summary {
       font-style: italic;
       color: #000000;
       display: none;
+      line-height: 120%;
+      margin-bottom: 30px;
       @include media($tablet) {
         display: block;
         font-size: 17px;
@@ -168,6 +173,7 @@ body.blog {
       margin-top: 20px;
       font-weight: 600;
       display: none;
+      margin-bottom: 50px;
       @include media($tablet) {
         display: block;
         font-size: 15px;
@@ -188,7 +194,7 @@ body.blog {
         @include span-columns(1 of 5);
       }
 
-      right: 0;
+      right: 10px;
       position: absolute;
       z-index: 9;
 

@@ -85,8 +85,11 @@ body.blog {
       height: 78px;
       clear: both;
       color: #727272;
-      font-size: 14px;
       font-weight: 600;
+      font-size: 14px;
+      @include media($notebook) {
+        font-size: 16px;
+      }
       div {
         float: left;
       }
@@ -128,32 +131,62 @@ body.blog {
     }
     .title {
       line-height: 86px;
-      font-size: 26px;
       font-weight: 700;
       color: #000000;
       text-decoration: none;
+      font-size: 20px;
+      text-align: center;
+      @include media($notebook) {
+        text-align: left;
+      }
+      @include media($notebook) {
+        font-size: 26px;
+      }
+      @include media($desktop) {
+        font-size: 28px;
+      }
     }
 
     .summary {
       font-style: italic;
       color: #000000;
+      display: none;
+      @include media($tablet) {
+        display: block;
+        font-size: 17px;
+      }
+      @include media($notebook) {
+        font-size: 19px;
+      }
+      @include media($desktop) {
+        font-size: 22px;
+      }
     }
 
     .read-more {
       float: right;
-      line-height: 140%;
+      margin-top: 20px;
       font-weight: 600;
+      display: none;
+      @include media($tablet) {
+        display: block;
+        font-size: 15px;
+      }
+      @include media($notebook) {
+        font-size: 16px;
+      }
+      @include media($desktop) {
+        font-size: 18px;
+      }
     }
 
     .tag-posts {
 
       display: none;
-
       @include media($tablet) {
         display: block;
         @include span-columns(1 of 5);
       }
-
 
       right: 0;
       position: absolute;

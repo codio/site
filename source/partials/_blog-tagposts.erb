@@ -1,7 +1,7 @@
 <aside class="tag-posts">
   <h2>In <%= current_tag %></h2>
   <ol>
-  <% blog.tags[current_tag][0..8].each do |article| %>
+  <% blog.tags[current_tag][0..4].each do |article| %>
     <li>
       <a href="<%= article.url %>">
       <span><%

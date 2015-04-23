@@ -59,15 +59,10 @@ body.blog {
 
     .container {
       @include outer-container;
-      .content {
-        @include span-columns(5 of 6);
-      }
-      aside {
-        @include span-columns(1 of 6);
-        right: 0;
-        position: absolute;
-        z-index: 9;
-      }
+    }
+
+    .content {
+      @include span-columns(4 of 5);
     }
 
     .striped {
@@ -151,12 +146,33 @@ body.blog {
     }
 
     .tag-posts {
+
+      display: none;
+
+      @include media($tablet) {
+        display: block;
+        @include span-columns(1 of 5);
+      }
+
+
+      right: 0;
+      position: absolute;
+      z-index: 9;
+
       h2 {
         color: #307ae2;
         text-align: center;
         font-weight: 600;
         line-height: 70px;
+        font-size: 15px;
+        @include media($notebook) {
+          font-size: 17px;
+        }
+        @include media($desktop) {
+          font-size: 20px;
+        }
       }
+
       ul {
           margin: 0.75em 0;
           padding: 0 1em;
@@ -165,9 +181,16 @@ body.blog {
 
       li {
 
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-style: italic;
         color: #787878;
+        font-size: 12px;
+        @include media($notebook) {
+          font-size: 13px;
+        }
+        @include media($desktop) {
+          font-size: 14px;
+        }
 
         a {
           display: block;
@@ -181,12 +204,16 @@ body.blog {
           border-color: transparent inherit;
           border-style: solid;
           border-width: 0.35em 0 0.35em 0.45em;
-          display: block;
           height: 0;
           width: 0;
           left: -1em;
           top: 0.9em;
           position: relative;
+          display: none;
+          @include media($notebook) {
+            display: block;
+          }
+
         }
 
         &:hover {

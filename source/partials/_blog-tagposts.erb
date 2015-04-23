@@ -6,9 +6,9 @@
       <a href="<%= article.url %>">
       <span><%
         title = article.title
-        MAX_LEN = 50
-        if article.title.length > MAX_LEN
-          title = article.title[0..MAX_LEN].gsub(/\s\w+\s*$/,'')
+        max_lenght = 50
+        if title.length > max_lenght
+          title = title[0..max_lenght].gsub(/\s\w+\s*$/,'')
         end
         concat title
       %></span>

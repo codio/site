@@ -20,7 +20,10 @@ layout: layout-new
                 <div class="avatar">
                   <%= image_tag 'about/%s.png' % [article.data.author.split()[0].downcase()], :height => '30' %>
                 </div>
-                <div class="date">Posted: <span><%= article.date.strftime('%B %e, %Y')%></span></div>
+                <div class="date">
+                  <span class="long">Posted: <%= article.date.strftime('%B %e, %Y')%></span>
+                  <span class="short"><%= article.date.strftime('%b. %e, %Y') %></span>
+                </div>
                 <div class="author">by <span><%= article.data.author %></span></div>
               </div>
 

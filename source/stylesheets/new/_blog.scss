@@ -111,6 +111,21 @@ body.blog {
           float: right;
         }
       }
+
+      .date {
+        .long {
+          display: none;
+          @include media($tablet) {
+            display: inline;
+          }
+        }
+        .short {
+          @include media($tablet) {
+            display: none;
+          }
+        }
+      }
+
       .author {
         margin-left: 4px;
         span {

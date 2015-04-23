@@ -2,7 +2,7 @@
 title: Colour Preview and Picker
 author: Joel Moss
 date: 2013-06-12
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 ---

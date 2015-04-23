@@ -2,7 +2,7 @@
 title: Server Side Development in Codio
 author: Joel Moss
 date: 2014-01-29
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 ---

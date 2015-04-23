@@ -2,7 +2,7 @@
 title: A new project dashboard
 author: Freddy May
 date: 2014-07-01
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 published: true

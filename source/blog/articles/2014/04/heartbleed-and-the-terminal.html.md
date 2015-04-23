@@ -2,7 +2,7 @@
 title: HeartBleed and the Terminal
 author: Joel Moss
 date: 2014-04-10
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 ---

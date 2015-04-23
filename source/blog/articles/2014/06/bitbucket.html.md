@@ -2,7 +2,7 @@
 title: BitBucket Integration
 author: Freddy May
 date: 2014-06-16
-tags: 'Lab & Updates'
+tags: 'Product News'
 class_name: blog
 full_width: true
 published: false

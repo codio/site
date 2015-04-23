@@ -13,9 +13,9 @@ layout: layout-new
     </div>
     <article>
       <% page_articles.each_with_index do |article, i| %>
-        <div class="article">
+        <div class="striped">
           <article class="container" >
-            <div>
+            <div class="content">
               <div class="info">
                 <div class="avatar">
                   <%= image_tag 'about/%s.png' % [article.data.author.split()[0].downcase()], :height => '30' %>
@@ -36,21 +36,11 @@ layout: layout-new
           </article>
         </div>
       <% end %>
-      <% if paginate && num_pages > 1 %>
-        <div class="pagination">
-          <ul>
-            <% if prev_page %>
-              <li class="page-prev"><%= link_to 'Prev', prev_page %></li>
-            <% end %>
-            <li>
-              <%= page_number %> of <%= num_pages %>
-            </li>
-            <% if next_page %>
-              <li class="page-next"><%= link_to 'Next', next_page %></li>
-            <% end %>
-          </ul>
-        </div>
-      <% end %>
+
+      <div class="striped">
+        <%= partial "blog-paginate", :locals => locals %>
+      </div>
+
     </article>
   </div>
 </main>

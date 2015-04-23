@@ -6,47 +6,51 @@ layout: layout-new
 ---
 <main>
   <%= partial "blog-header", :locals => { :current_tag => tagname } %>
-  <article class="overview">
 
-    <% page_articles.each_with_index do |article, i| %>
-      <div class="article">
-        <article class="container" >
-          <div>
-            <div class="info">
-              <div class="avatar">
-                <%= image_tag 'about/%s.png' % [article.data.author.split()[0].downcase()], :height => '30' %>
+  <div class="overview">
+    <div class="container">
+      <%= partial "blog-tagposts", :locals => { :current_tag => tagname } %>
+    </div>
+    <article>
+      <% page_articles.each_with_index do |article, i| %>
+        <div class="article">
+          <article class="container" >
+            <div>
+              <div class="info">
+                <div class="avatar">
+                  <%= image_tag 'about/%s.png' % [article.data.author.split()[0].downcase()], :height => '30' %>
+                </div>
+                <div class="date">Posted: <span><%= article.date.strftime('%B %e, %Y')%></span></div>
+                <div class="author">by <span><%= article.data.author %></span></div>
+                <% if article.data.image %>
+                <div class="image"><%= image_tag article.data.image %></div>
+                <% end %>
               </div>
-              <div class="date">Posted: <span><%= article.date.strftime('%B %e, %Y')%></span></div>
-              <div class="author">by <span><%= article.data.author %></span></div>
-              <% if article.data.image %>
-              <div class="image"><%= image_tag article.data.image %></div>
-              <% end %>
-            </div>
 
-            <h2><%= link_to article.title, article, :class => 'title' %></h2>
-            <div class="summary">
-              <%= article.summary(200) %>
-              <%= link_to "Continue reading", article, :class => 'read-more' %>
+              <h2><%= link_to article.title, article, :class => 'title' %></h2>
+              <div class="summary">
+                <%= article.summary(200) %>
+                <%= link_to "Continue reading", article, :class => 'read-more' %>
+              </div>
             </div>
-          </div>
-        </article>
-      </div>
-    <% end %>
-
-    <% if paginate && num_pages > 1 %>
-      <div class="pagination">
-        <ul>
-          <% if prev_page %>
-            <li class="page-prev"><%= link_to 'Prev', prev_page %></li>
-          <% end %>
-          <li>
-            <%= page_number %> of <%= num_pages %>
-          </li>
-          <% if next_page %>
-            <li class="page-next"><%= link_to 'Next', next_page %></li>
-          <% end %>
-        </ul>
-      </div>
-    <% end %>
-  </article>
+          </article>
+        </div>
+      <% end %>
+      <% if paginate && num_pages > 1 %>
+        <div class="pagination">
+          <ul>
+            <% if prev_page %>
+              <li class="page-prev"><%= link_to 'Prev', prev_page %></li>
+            <% end %>
+            <li>
+              <%= page_number %> of <%= num_pages %>
+            </li>
+            <% if next_page %>
+              <li class="page-next"><%= link_to 'Next', next_page %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </article>
+  </div>
 </main>

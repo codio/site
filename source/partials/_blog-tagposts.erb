@@ -1,0 +1,20 @@
+<aside class="tag-posts">
+  <h2>In <%= current_tag %></h2>
+  <ol>
+  <% blog.tags[current_tag][0..8].each do |article| %>
+    <li>
+      <a href="<%= article.url %>">
+      <span><%
+        title = article.title
+        MAX_LEN = 50
+        if article.title.length > MAX_LEN
+          title = article.title[0..MAX_LEN].gsub(/\s\w+\s*$/,'')
+        end
+        concat title
+      %></span>
+      &hellip;
+      </a>
+    </li>
+  <% end %>
+  </ol>
+</aside>

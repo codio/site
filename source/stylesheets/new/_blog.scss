@@ -44,17 +44,24 @@ body.blog {
 
   .overview {
 
-    .article {
-
-      .container {
-        @include outer-container;
-        & > div {
-          @include span-columns(5 of 6);
-        }
+    .container {
+      @include outer-container;
+      & > div {
+        @include span-columns(5 of 6);
       }
+      aside {
+        @include span-columns(1 of 6);
+        right: 0;
+        position: absolute;
+        z-index: 9;
+      }
+    }
+
+    .article {
 
       padding-bottom: 50px;
       border-bottom: 1px solid #f1f1f1;
+
       &:not(:first-child) {
         border-top: 1px solid #dcdcdc;
       }
@@ -124,6 +131,37 @@ body.blog {
       float: right;
       line-height: 140%;
       font-weight: bold;
+    }
+
+    .tag-posts {
+      h2 {
+        color: #307ae2;
+        text-align: center;
+      }
+      ul {
+          margin: 0.75em 0;
+          padding: 0 1em;
+          list-style: none;
+      }
+      li:before {
+          content: "";
+          border-color: transparent #111;
+          border-style: solid;
+          border-width: 0.35em 0 0.35em 0.45em;
+          display: block;
+          height: 0;
+          width: 0;
+          left: -1em;
+          top: 0.9em;
+          position: relative;
+      }
+      li {
+        margin: 5px 0;
+        font-style: italic;
+        a span {
+          color: #7a7a7a;
+        }
+      }
     }
   }
 }

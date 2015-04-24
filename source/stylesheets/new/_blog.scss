@@ -55,10 +55,14 @@ body.blog {
     }
   }
 
+  .entry .post {
+    padding: 0 10px;
+  }
+
   .post {
     @include media($tablet) {
       @include span-columns(4 of 5);
-      padding-left: 10px;
+      padding: 0 10px;
     }
   }
 

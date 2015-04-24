@@ -117,22 +117,14 @@ body.blog {
       }
     }
   }
+
   .image {
-    overflow: hidden;
-    height: 240px;
     margin-bottom: 30px;
-    width: 100%;
-    position: relative;
     img {
-      position: absolute;
-      margin: auto;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
       width: 100%;
     }
   }
+
   .title {
     font-weight: 700;
     font-size: 20px;
@@ -248,6 +240,21 @@ body.blog {
       }
     }
 
+    .image {
+      overflow: hidden;
+      height: 240px;
+      width: 100%;
+      position: relative;
+      img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+
     .summary {
       font-style: italic;
       color: #000000;
@@ -322,6 +329,9 @@ body.blog {
 
     p {
       margin: 0.5em 0 1em;
+      &:first-child {
+        margin-top: 0;
+      }
     }
 
     a {

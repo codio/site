@@ -30,11 +30,11 @@
           <%= yield %>
         </div>
         <div class="tail info">
-          <div class="share-buttons">
-            <span>Share this article: </span><%= partial "share-links" %>
-          </div>
           <div class="author">
             Author: <span><%= current_article.data.author %></span>
+          </div>
+          <div class="share-buttons">
+            <span>Share this article: </span><%= partial "share-links" %>
           </div>
         </div>
         <%= partial "vendors/disqus" %>

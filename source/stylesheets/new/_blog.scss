@@ -118,11 +118,53 @@ body.blog {
     }
 
     &.tail {
+
+      margin: 20px 0 40px;
+      font-size: 13px;
+
+      @include media($tablet) {
+        margin-top: 40px 0 30px;
+        font-size: 14px;
+      }
+      @include media($notebook) {
+        font-size: 16px;
+      }
+
+      & div {
+        line-height: 44px;
+      }
+
       .share-buttons {
-        float: left;
+
+        @include media($tablet) {
+          display: inline-block;
+          float: left;
+        }
+
+        & * {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        a:not(:first-child) {
+          margin-left: 10px;
+        }
+
+        span {
+          padding-top: 6px;
+          margin-right: 10px;
+          display: none;
+          @include media($tablet) {
+            display: inline-block;
+          }
+        }
       }
       .author {
-        float: right;
+        display: block;
+        @include media($tablet) {
+          display: inline-block;
+          float: right;
+        }
       }
     }
   }
@@ -414,18 +456,6 @@ body.blog {
   }
 
   .share-buttons {
-    & * {
-      display: inline-block;
-      vertical-align: middle;
-    }
-
-    a {
-      margin-left: 10px;
-    }
-
-    span {
-      padding-top: 6px;
-    }
 
     i.fa {
       width: 32px;

@@ -29,20 +29,9 @@ nav {
     }
 
     @include media($tablet) {
-      position: absolute;
       display: block;
-      top: 22px;
-      right: 15px;
-    }
-
-    @include media($notebook) {
-      top: 26px;
-      right: 15px;
-    }
-
-    @include media($desktop) {
-      top: 33px;
-      right: 15px;
+      float: right;
+      margin-right: 2%;
     }
 
     li {
@@ -76,49 +65,29 @@ nav {
         }
 
         @include media($notebook) {
-          font-size: 19px;
+          font-size: 17px;
         }
 
         @include media($desktop) {
-          font-size: 20px;
+          font-size: 18px;
         }
 
         @include transition(color 0.2s linear);
-        &:hover {
-          color: #C3DCFF;
+        &:not(.button) {
+          display: inline-block;
+          font-weight: 300;
+        }
+        &:not(.button):hover {
+          color: #b3c9f3;
         }
       }
-    }
-  }
-}
-
-//menu separator
-nav {
-  ul {
-    li:after {
-      @include media($tablet) {
-        position: relative;
-        content: url("../img/new/sm/top_menu_separator_sm.png");
-        top: 3px;
-        left: 21px;
-      }
-
-      @include media($notebook) {
-        content: url("../img/new/md/top_menu_separator_md.png");
-        top: 5px;
-        left: 21px;
-      }
-
-      @include media($desktop) {
-        content: url("../img/new/lg/top_menu_separator_lg.png");
-        top: 5px;
-        left: 26px;
-      }
-    }
-    li:nth-of-type(4),
-    li:last-of-type {
-      &:after {
-        content: none;
+      &.active {
+        a {
+          color: #5988e1;
+          @include media($tablet) {
+            border-bottom: 3px solid #5988e1;
+          }
+        }
       }
     }
   }

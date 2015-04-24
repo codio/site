@@ -32,12 +32,12 @@ nav {
         }
 
         @include media($tablet) {
-          padding: 11px 21px 12px 21px;
+          padding: 7px 21px;
           font-size: 14px;
         }
 
         @include media($notebook) {
-          padding: 12px 32px 13px 32px;
+          padding: 9px 23px;
           font-size: 16px;
         }
       }

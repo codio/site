@@ -1,15 +1,15 @@
 main {
   padding-top: 50px;
   @include media($tablet) {
-    padding-top: 70px;
+    padding-top: 60px;
   }
 
   @include media($notebook) {
-    padding-top: 90px;
+    padding-top: 70px;
   }
 
   @include media($desktop) {
-    padding-top: 103px;
+    padding-top: 75px;
   }
 }
 
@@ -20,46 +20,37 @@ header {
   position: fixed;
   z-index: 9995;
   @include media($tablet) {
-    height: 70px;
+    height: 60px;
+    line-height: 60px;
   }
 
   @include media($notebook) {
-    height: 90px;
+    height: 70px;
+    line-height: 70px;
   }
 
   @include media($desktop) {
-    height: 103px;
+    height: 75px;
+    line-height: 75px;
   }
 
   .logo {
     position: absolute;
-    top: 8px;
     left: 8px;
-    background-image: url("../img/new/xs/logo_xs.png");
+    background: url("../img/logo-light.svg") transparent left 50% no-repeat;
     width: 88px;
-    height: 33px;
+    height: 50px;
     @include media($tablet) {
-      top: 15px;
-      left: 13px;
-      background-image: url("../img/new/sm/logo_sm.png");
-      width: 109px;
-      height: 40px;
+      width: 90px;
+      height: 100%;
     }
 
     @include media($notebook) {
-      top: 22px;
-      left: 21px;
-      background-image: url("../img/new/md/logo_md.png");
-      width: 120px;
-      height: 45px;
+      width: 95px;
     }
 
     @include media($desktop) {
-      top: 23px;
-      left: 22px;
-      background-image: url("../img/new/lg/logo_lg.png");
-      width: 150px;
-      height: 56px;
+      width: 100px;
     }
   }
 }

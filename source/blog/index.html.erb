@@ -6,32 +6,17 @@ layout: layout-new
 ---
 
 <main>
-  <article class="overview">
-    <h1>Blog</h1>
+  <%= partial "blog-header" %>
 
-    <% page_articles.each_with_index do |article, i| %>
-      <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-      <div class="summary">
-        <%= article.summary(200) %>
-        <%= link_to "Read more...", article %>
-      </div>
-    <% end %>
+  <div class="overview">
+    <div class="container">
+      <%= partial "blog-sidebar" %>
+    </div>
+    <article>
 
-    <% if paginate && num_pages > 1 %>
-      <div class="pagination">
-        <ul>
-          <% if prev_page %>
-            <li class="page-prev"><%= link_to 'Prev', prev_page %></li>
-          <% end %>
-          <li>
-            <%= page_number %> of <%= num_pages %>
-          </li>
-          <% if next_page %>
-            <li class="page-next"><%= link_to 'Next', next_page %></li>
-          <% end %>
-        </ul>
-      </div>
-    <% end %>
-  </article>
-  <%= partial "blog-sidebar" %>
+      <%= partial "blog-articles-preview", :locals => locals %>
+      <%= partial "blog-paginate", :locals => locals %>
+
+    </article>
+  </div>
 </main>

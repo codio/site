@@ -9,38 +9,11 @@ layout: layout-new
 
   <div class="overview">
     <div class="container">
-      <%= partial "blog-tagposts", :locals => { :current_tag => tagname } %>
+      <%= partial "blog-sidebar", :locals => { :current_tag => tagname } %>
     </div>
     <article>
-      <% page_articles.each_with_index do |article, i| %>
-        <div class="striped">
-          <article class="container" >
-            <div class="post">
-              <div class="info">
-                <div class="avatar">
-                  <%= image_tag 'about/%s.png' % [article.data.author.split()[0].downcase()], :height => '30' %>
-                </div>
-                <div class="date">
-                  <span class="long">Posted: <%= article.date.strftime('%B %e, %Y')%></span>
-                  <span class="short"><%= article.date.strftime('%b. %e, %Y') %></span>
-                </div>
-                <div class="author">by <span><%= article.data.author %></span></div>
-              </div>
 
-              <% if article.data.image %>
-              <div class="image"><%= image_tag article.data.image %></div>
-              <% end %>
-
-              <h2 class="title"><%= link_to article.title, article %></h2>
-              <div class="summary">
-                <%= Nokogiri::HTML(article.summary(140)).text %>
-                <%= link_to "Continue reading", article, :class => 'read-more' %>
-              </div>
-            </div>
-          </article>
-        </div>
-      <% end %>
-
+      <%= partial "blog-articles-preview", :locals => locals %>
       <%= partial "blog-paginate", :locals => locals %>
 
     </article>

@@ -1,15 +1,32 @@
-<aside>
-  <h2>Categories</h2>
-  <ol>
-    <% blog.tags.each do |tag, articles| %>
-      <li><%= link_to "#{tag}", tag_path(tag) %></li>
+<aside class="sidebar">
+  <%
+    max_aricles = 5
+    if defined? current_tag
+      label = "In " + current_tag
+      articles = blog.tags[current_tag][0..max_aricles-1]
+    else
+      label = "Latest News"
+      articles = blog.articles[0...max_aricles-1]
+    end
+  %>
+    <h2><%= label %></h2>
+    <ol>
+    <% articles.each do |article| %>
+      <li>
+        <a href="<%= article.url %>">
+        <span><%
+          title = article.title
+          max_lenght = 50
+          if title.length > max_lenght
+            title = title[0..max_lenght].gsub(/\s\w+\s*$/,'')
+          end
+          concat title
+        %></span>
+        &hellip;
+        </a>
+      </li>
     <% end %>
-  </ol>
-  <h2>Latest Posts</h2>
-  <ol>
-    <% blog.articles[0...10].each do |article| %>
-      <li><%= link_to article.title, article %></li>
-    <% end %>
-    <li><%= link_to "All posts...", "/blog" %></li>
-  </ol>
+    </ol>
+  <% else %>
+
 </aside>

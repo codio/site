@@ -55,113 +55,196 @@ body.blog {
     }
   }
 
-  .overview {
+  .post {
+    @include media($tablet) {
+      @include span-columns(4 of 5);
+      padding-left: 10px;
+    }
+  }
 
-    .post {
-      @include media($tablet) {
-        @include span-columns(4 of 5);
-        padding-left: 10px;
+  .info {
+    height: 78px;
+    clear: both;
+    color: #727272;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+
+    @include media($tablet) {
+      text-align: left;
+    }
+
+    @include media($notebook) {
+      font-size: 16px;
+    }
+    div {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    div:not(.avatar) {
+      line-height: 78px;
+    }
+    .avatar {
+      border: 1px #bababa solid;
+      border-radius: 15px;
+      height: 30px;
+      width: 30px;
+      overflow: hidden;
+      margin: 0px 10px 0 2px;
+      img {
+        float: right;
       }
     }
+
+    .date {
+      .long {
+        display: none;
+        @include media($tablet) {
+          display: inline;
+        }
+      }
+      .short {
+        @include media($tablet) {
+          display: none;
+        }
+      }
+    }
+
+    .author {
+      margin-left: 4px;
+      span {
+        color: #307ae2;
+      }
+    }
+  }
+  .image {
+    overflow: hidden;
+    height: 240px;
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+    img {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+  .title {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    @include media($tablet) {
+      text-align: left;
+    }
+    @include media($notebook) {
+      font-size: 26px;
+    }
+    @include media($desktop) {
+      font-size: 28px;
+    }
+    a {
+      line-height: 140%;
+      margin-bottom: 30px;
+      display: inline-block;
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+
+  .tag-posts {
+
+    display: none;
+    @include media($tablet) {
+      display: block;
+      @include span-columns(1 of 5);
+      margin-right: 0;
+    }
+
+    right: 10px;
+    position: absolute;
+    z-index: 9;
+
+    h2 {
+      color: #307ae2;
+      text-align: center;
+      font-weight: 600;
+      line-height: 140%;
+      margin: 30px 0;
+      font-size: 15px;
+      @include media($notebook) {
+        font-size: 17px;
+      }
+      @include media($desktop) {
+        font-size: 20px;
+      }
+    }
+
+    ul {
+        margin: 0.75em 0;
+        padding: 0 1em;
+        list-style: none;
+    }
+
+    li {
+
+      margin-bottom: 10px;
+      font-style: italic;
+      color: #787878;
+      font-size: 12px;
+      @include media($notebook) {
+        font-size: 13px;
+      }
+      @include media($desktop) {
+        font-size: 14px;
+      }
+
+      a {
+        display: block;
+        span {
+          color: #787878;
+        }
+      }
+
+      &:before {
+        content: "";
+        border-color: transparent inherit;
+        border-style: solid;
+        border-width: 0.35em 0 0.35em 0.45em;
+        height: 0;
+        width: 0;
+        left: -1em;
+        top: 0.9em;
+        position: relative;
+        display: none;
+        @include media($notebook) {
+          display: block;
+        }
+
+      }
+
+      &:hover {
+        span, a {
+          color: #307ae2;
+          text-decoration: underline;
+        }
+        &:before {
+          border-color: transparent #307ae2;
+        }
+      }
+    }
+  }
+
+  .overview {
 
     .striped {
       &:nth-child(even) {
         border-top: 1px solid #dcdcdc;
         border-bottom: 1px solid #dcdcdc;
         background: #f4f4f4;
-      }
-    }
-
-    .info {
-      height: 78px;
-      clear: both;
-      color: #727272;
-      font-weight: 600;
-      font-size: 14px;
-      text-align: center;
-
-      @include media($tablet) {
-        text-align: left;
-      }
-
-      @include media($notebook) {
-        font-size: 16px;
-      }
-      div {
-        display: inline-block;
-        vertical-align: middle;
-      }
-      div:not(.avatar) {
-        line-height: 78px;
-      }
-      .avatar {
-        border: 1px #bababa solid;
-        border-radius: 15px;
-        height: 30px;
-        width: 30px;
-        overflow: hidden;
-        margin: 0px 10px 0 2px;
-        img {
-          float: right;
-        }
-      }
-
-      .date {
-        .long {
-          display: none;
-          @include media($tablet) {
-            display: inline;
-          }
-        }
-        .short {
-          @include media($tablet) {
-            display: none;
-          }
-        }
-      }
-
-      .author {
-        margin-left: 4px;
-        span {
-          color: #307ae2;
-        }
-      }
-    }
-    .image {
-      overflow: hidden;
-      height: 240px;
-      margin-bottom: 30px;
-      width: 100%;
-      position: relative;
-      img {
-        position: absolute;
-        margin: auto;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-      }
-    }
-    .title {
-      font-weight: 700;
-      font-size: 20px;
-      text-align: center;
-      @include media($tablet) {
-        text-align: left;
-      }
-      @include media($notebook) {
-        font-size: 26px;
-      }
-      @include media($desktop) {
-        font-size: 28px;
-      }
-      a {
-        line-height: 140%;
-        margin-bottom: 30px;
-        display: inline-block;
-        color: #000000;
-        text-decoration: none;
       }
     }
 
@@ -198,88 +281,6 @@ body.blog {
       }
       @include media($desktop) {
         font-size: 18px;
-      }
-    }
-
-    .tag-posts {
-
-      display: none;
-      @include media($tablet) {
-        display: block;
-        @include span-columns(1 of 5);
-      }
-
-      right: 10px;
-      position: absolute;
-      z-index: 9;
-
-      h2 {
-        color: #307ae2;
-        text-align: center;
-        font-weight: 600;
-        line-height: 140%;
-        margin: 30px 0;
-        font-size: 15px;
-        @include media($notebook) {
-          font-size: 17px;
-        }
-        @include media($desktop) {
-          font-size: 20px;
-        }
-      }
-
-      ul {
-          margin: 0.75em 0;
-          padding: 0 1em;
-          list-style: none;
-      }
-
-      li {
-
-        margin-bottom: 10px;
-        font-style: italic;
-        color: #787878;
-        font-size: 12px;
-        @include media($notebook) {
-          font-size: 13px;
-        }
-        @include media($desktop) {
-          font-size: 14px;
-        }
-
-        a {
-          display: block;
-          span {
-            color: #787878;
-          }
-        }
-
-        &:before {
-          content: "";
-          border-color: transparent inherit;
-          border-style: solid;
-          border-width: 0.35em 0 0.35em 0.45em;
-          height: 0;
-          width: 0;
-          left: -1em;
-          top: 0.9em;
-          position: relative;
-          display: none;
-          @include media($notebook) {
-            display: block;
-          }
-
-        }
-
-        &:hover {
-          span, a {
-            color: #307ae2;
-            text-decoration: underline;
-          }
-          &:before {
-            border-color: transparent #307ae2;
-          }
-        }
       }
     }
   }

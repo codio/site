@@ -137,6 +137,8 @@ body.blog {
     font-weight: 700;
     font-size: 20px;
     text-align: center;
+    line-height: 140%;
+    margin-bottom: 30px;
     @include media($tablet) {
       text-align: left;
     }
@@ -147,8 +149,6 @@ body.blog {
       font-size: 28px;
     }
     a {
-      line-height: 140%;
-      margin-bottom: 30px;
       display: inline-block;
       color: #000000;
       text-decoration: none;
@@ -282,6 +282,64 @@ body.blog {
       @include media($desktop) {
         font-size: 18px;
       }
+    }
+  }
+
+  .content {
+    color: #444444;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 0;
+      text-rendering: optimizeLegibility; // Fix the character spacing for headings
+      font-weight: 600;
+      margin: 1em 0 0.5em;
+    }
+
+    h1 {
+      font-size: 200%;
+    }
+
+    h2 {
+      font-size: 180%;
+    }
+
+    h3 {
+      font-size: 150%;
+    }
+
+    h4 {
+      font-size: 120%;
+    }
+
+    h5, h6 {
+      font-size: 100%;
+    }
+
+    p {
+      margin: 0.5em 0 1em;
+    }
+
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+      &:active,
+      &:focus {
+        outline: none;
+      }
+    }
+
+    hr {
+      border-bottom: #bdbdbd;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      margin: 2em 0;
     }
   }
 

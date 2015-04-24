@@ -116,6 +116,15 @@ body.blog {
         color: #307ae2;
       }
     }
+
+    &.tail {
+      .share-buttons {
+        float: left;
+      }
+      .author {
+        float: right;
+      }
+    }
   }
 
   .image {
@@ -387,6 +396,79 @@ body.blog {
         display: none;
         @include media($tablet) {
           display: inline-block;
+        }
+      }
+    }
+  }
+
+  .share-buttons {
+    & * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    a {
+      margin-left: 10px;
+    }
+
+    span {
+      padding-top: 6px;
+    }
+
+    i.fa {
+      width: 32px;
+      height: 32px;
+      &.fa-facebook {
+        background-image: url("../../img/new/xs/blogshare_fb_xs.png");
+        &:hover {
+          background-image: url("../../img/new/xs/blogshare_fb_xs_o.png");
+        }
+      }
+      &.fa-google {
+        background-image: url("../../img/new/xs/blogshare_google_xs.png");
+        &:hover {
+          background-image: url("../../img/new/xs/blogshare_google_xs_o.png");
+        }
+      }
+      &.fa-pinterest {
+        background-image: url("../../img/new/xs/blogshare_pin_xs.png");
+        &:hover {
+          background-image: url("../../img/new/xs/blogshare_pin_xs_o.png");
+        }
+      }
+      &.fa-twitter {
+        background-image: url("../../img/new/xs/blogshare_twitter_xs.png");
+        &:hover {
+          background-image: url("../../img/new/xs/blogshare_twitter_xs_o.png");
+        }
+      }
+
+      @include media($tablet) {
+        width: 38px;
+        height: 38px;
+        &.fa-facebook {
+          background-image: url("../../img/new/sm/blogshare_fb_lg_md_sm.png");
+          &:hover {
+            background-image: url("../../img/new/sm/blogshare_fb_lg_md_sm_o.png");
+          }
+        }
+        &.fa-google {
+          background-image: url("../../img/new/sm/blogshare_google_lg_md_sm.png");
+          &:hover {
+            background-image: url("../../img/new/sm/blogshare_google_lg_md_sm_o.png");
+          }
+        }
+        &.fa-pinterest {
+          background-image: url("../../img/new/sm/blogshare_pin_lg_md_sm.png");
+          &:hover {
+            background-image: url("../../img/new/sm/blogshare_pin_lg_md_sm_o.png");
+          }
+        }
+        &.fa-twitter {
+          background-image: url("../../img/new/sm/blogshare_twitter_lg_md_sm.png");
+          &:hover {
+            background-image: url("../../img/new/sm/blogshare_twitter_lg_md_sm_o.png");
+          }
         }
       }
     }

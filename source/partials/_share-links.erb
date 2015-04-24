@@ -1,20 +1,20 @@
 <div class="share-links">
   <% url = "#{current_page.app.asset_host}#{current_page.url}" %>
 
-  <!-- Twitter -->
-  <a href="https://twitter.com/home?status=Check%20out%20this%20post%20<%= url %>%20by%20@CodioHQ"
-     class="twitter-share"
-     target="_blank"
-     alt="Share on Twitter">
-    <i class="fa fa-twitter"></i> <span>share</span
-  </a>
-
   <!-- Facebook -->
   <a href="https://www.facebook.com/sharer/sharer.php?u=<%= url %>"
      class="facebook-share"
      target="_blank"
      alt="Share on Facebook">
-    <i class="fa fa-facebook"></i> <span>share</span
+    <i class="fa fa-facebook"></i>
+  </a>
+
+  <!-- Twitter -->
+  <a href="https://twitter.com/home?status=Check%20out%20this%20post%20<%= url %>%20by%20@CodioHQ"
+     class="twitter-share"
+     target="_blank"
+     alt="Share on Twitter">
+    <i class="fa fa-twitter"></i>
   </a>
 
   <!-- Google Plus -->
@@ -22,6 +22,15 @@
      class="plus-share"
      target="_blank"
      alt="Share on Google Plus">
-    <i class="fa fa-google"></i> <span>share</span>
+    <i class="fa fa-google"></i>
   </a>
+
+  <!-- Pinterest -->
+  <a href="http://pinterest.com/pin/create/button/?url=<%= url %>"
+     class="pinterest-share"
+     target="_blank"
+     alt="Share on Pinterest">
+    <i class="fa fa-pinterest"></i>
+  </a>
+
 </div>

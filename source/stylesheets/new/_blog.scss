@@ -338,6 +338,18 @@ body.blog {
 
     p {
       margin: 0.5em 0 1em;
+      line-height: 1.4em;
+      font-size: 13px;
+      @include media($tablet) {
+        font-size: 14px;
+      }
+      @include media($notebook) {
+        font-size: 15px;
+      }
+      @include media($desktop) {
+        font-size: 16px;
+      }
+
       &:first-child {
         margin-top: 0;
       }

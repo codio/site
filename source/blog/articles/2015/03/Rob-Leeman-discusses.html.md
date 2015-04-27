@@ -2,7 +2,7 @@
 title: "OCR’s Rob Leeman discusses teaching the new computer science curriculum"
 author: Phillip Snalune
 date: 2015-03-23
-tags: Press, Company News
+tags: Press
 class_name: blog
 full_width: true
 image: /img/blog/ae-rob-leeman.png

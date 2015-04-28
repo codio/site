@@ -1,0 +1,103 @@
+.simple-page {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    text-rendering: optimizeLegibility; // Fix the character spacing for headings
+    font-weight: 600;
+    margin: 1em 0 0.5em;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  h2 {
+    font-size: 180%;
+  }
+
+  h3 {
+    font-size: 150%;
+  }
+
+  h4 {
+    font-size: 120%;
+  }
+
+  h5, h6 {
+    font-size: 100%;
+  }
+
+  p {
+    margin: 0.5em 0 1em;
+    line-height: 1.4em;
+    font-size: 13px;
+    color: #444444;
+    @include media($tablet) {
+      font-size: 14px;
+    }
+    @include media($notebook) {
+      font-size: 15px;
+    }
+    @include media($desktop) {
+      font-size: 16px;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #307ae2;
+
+    &:hover {
+      text-decoration: underline;
+    }
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
+
+  hr {
+    border-bottom: #bdbdbd;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: 2em 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+
+// Mostly page title
+h2.title {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 140%;
+  margin-bottom: 30px;
+  @include media($tablet) {
+    text-align: left;
+  }
+  @include media($notebook) {
+    font-size: 26px;
+  }
+  @include media($desktop) {
+    font-size: 28px;
+  }
+  & > a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+  }
+}

@@ -1,10 +1,7 @@
 body.blog {
 
-  main {
-    a {
-      text-decoration: none;
-      color: #307ae2;
-    }
+  a {
+    text-decoration: none;
   }
 
   .header {
@@ -45,6 +42,7 @@ body.blog {
         padding: 0 10px;
         color: #3c3c3c;
         margin-top: -10px;
+        text-decoration: none;
       }
       &.active {
         background: white;
@@ -97,6 +95,7 @@ body.blog {
       margin: 0px 10px 0 2px;
       img {
         float: right;
+        width: auto;
       }
     }
 
@@ -173,32 +172,16 @@ body.blog {
     }
   }
 
+  .sidebar {
+    a {
+      color: #307ae2;
+    }
+  }
+
   .image {
     margin-bottom: 30px;
     img {
       width: 100%;
-    }
-  }
-
-  .title {
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-    line-height: 140%;
-    margin-bottom: 30px;
-    @include media($tablet) {
-      text-align: left;
-    }
-    @include media($notebook) {
-      font-size: 26px;
-    }
-    @include media($desktop) {
-      font-size: 28px;
-    }
-    a {
-      display: inline-block;
-      color: #000000;
-      text-decoration: none;
     }
   }
 
@@ -251,6 +234,8 @@ body.blog {
       font-weight: 600;
       display: none;
       margin-bottom: 50px;
+      color: #307ae2;
+      text-decoration: none;
       @include media($tablet) {
         display: block;
         font-size: 15px;
@@ -261,83 +246,6 @@ body.blog {
       @include media($desktop) {
         font-size: 18px;
       }
-    }
-  }
-
-  .content {
-    color: #444444;
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin: 0;
-      text-rendering: optimizeLegibility; // Fix the character spacing for headings
-      font-weight: 600;
-      margin: 1em 0 0.5em;
-    }
-
-    h1 {
-      font-size: 200%;
-    }
-
-    h2 {
-      font-size: 180%;
-    }
-
-    h3 {
-      font-size: 150%;
-    }
-
-    h4 {
-      font-size: 120%;
-    }
-
-    h5, h6 {
-      font-size: 100%;
-    }
-
-    p {
-      margin: 0.5em 0 1em;
-      line-height: 1.4em;
-      font-size: 13px;
-      @include media($tablet) {
-        font-size: 14px;
-      }
-      @include media($notebook) {
-        font-size: 15px;
-      }
-      @include media($desktop) {
-        font-size: 16px;
-      }
-
-      &:first-child {
-        margin-top: 0;
-      }
-    }
-
-    a {
-      &:hover {
-        text-decoration: underline;
-      }
-      &:active,
-      &:focus {
-        outline: none;
-      }
-    }
-
-    hr {
-      border-bottom: #bdbdbd;
-      border-left: none;
-      border-right: none;
-      border-top: none;
-      margin: 2em 0;
-    }
-
-    img {
-      width: 100%;
     }
   }
 

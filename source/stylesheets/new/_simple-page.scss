@@ -1,5 +1,10 @@
 .simple-page {
 
+  .content {
+    color: #444444;
+    line-height: 1.4em;
+  }
+
   h1,
   h2,
   h3,
@@ -34,9 +39,7 @@
 
   p {
     margin: 0.5em 0 1em;
-    line-height: 1.4em;
     font-size: 13px;
-    color: #444444;
     @include media($tablet) {
       font-size: 14px;
     }
@@ -73,9 +76,32 @@
     margin: 2em 0;
   }
 
-  img {
+  img,
+  picture {
     width: 100%;
   }
+
+  strong,
+  b {
+    font-weight: 600;
+  }
+
+  blockquote {
+      border-left: 2px solid #cccccc;
+      color: #727272;
+      margin: 20px 0;
+      padding-left: 10px;
+  }
+
+  cite {
+      color: lighten(#727272, 25);
+      font-style: italic;
+
+      &:before {
+          content: "\2014 \00A0";
+      }
+}
+
 }
 
 
@@ -86,6 +112,8 @@ h2.title {
   text-align: center;
   line-height: 140%;
   margin-bottom: 30px;
+  color: #000000;
+
   @include media($tablet) {
     text-align: left;
   }

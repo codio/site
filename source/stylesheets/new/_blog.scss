@@ -13,8 +13,8 @@ body.blog {
     font-weight: 600;
 
     font-size: 17px;
-    height: 75px;
-    line-height: 75px;
+    height: 50px;
+    line-height: 50px;
 
     @include transition (all 0.2s ease-in-out);
 
@@ -41,7 +41,7 @@ body.blog {
       width: 44px;
       height: 34px;
       position: absolute;
-      top: 25%;
+      top: 8px;
       left: 10px;
       cursor: pointer;
       border-radius: 3px;

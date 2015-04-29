@@ -1,7 +1,9 @@
-<div class="header">
+<section class="header">
   <div class="container">
+    <div id="blog-menu-toggle"></div>
+      <div class="current"><%= if defined? current_tag then current_tag end %></div>
     <nav>
-      <ul class="categories">
+      <ul class="categories" id="blog-menu">
         <% blog.tags.each do |tag, articles| %>
           <li <%= if defined? current_tag and current_tag == tag then concat 'class="active"' end %> >
             <%= link_to "#{tag}", tag_path(tag) %>
@@ -10,4 +12,4 @@
       </ul>
     </nav>
   </div>
-</div>
+</section>

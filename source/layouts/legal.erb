@@ -15,7 +15,7 @@
           <% sub_pages("legal").each do |resource| %>
             <% if current_resource.data.title == resource.data.title %>
               <li class="active">
-                <%= current_resource.data.title %>
+                <a href="#"><span><%= resource.data.title %></span></a>
               </li>
             <% else %>
               <li>

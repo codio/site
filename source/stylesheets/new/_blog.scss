@@ -1,16 +1,22 @@
 body.blog {
 
-  a {
-    text-decoration: none;
+  main {
+    display: block;
+    a {
+      text-decoration: none;
+    }
   }
 
   .header {
+    position: relative;
     background: #ebf1f4;
     font-weight: 600;
 
     font-size: 17px;
-    height: 75px;
-    line-height: 75px;
+    height: 50px;
+    line-height: 50px;
+
+    @include transition (all 0.2s ease-in-out);
 
     @include media($tablet) {
       font-size: 16px;
@@ -30,22 +36,82 @@ body.blog {
       line-height: 75px;
     }
 
+    #blog-menu-toggle {
+      background-image: url("../img/new/uni/hamburger-blog.png");
+      width: 44px;
+      height: 34px;
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      cursor: pointer;
+      border-radius: 3px;
+      display: block;
+      @include media($tablet) {
+        display: none;
+      }
+    }
+
+    .current {
+      color: #307ae2;
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+      @include media($tablet) {
+        display: none;
+      }
+    }
+
     ul {
       display: block;
+      z-index: 9;
+      width: 100%;
+      padding: 0 10px;
+      &.open {
+        position: absolute;
+        li {
+          &:not(:last-child) {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+          }
+          &:not(.active) {
+            display: block;
+            @include media ($tablet) {
+              display: inline-block;
+            }
+          }
+        }
+      }
     }
     li {
       display: inline-block;
       height: 100%;
-      border-radius: 4px 4px 0 0;
+      width: 100%;
+      background: #307ae2;
+      display: none;
+
+      @include media($tablet) {
+        display: inline-block;
+        width:auto;
+        background: transparent;
+      }
+
       a {
+        color: #ecf1f5;
         display: block;
-        padding: 0 10px;
-        color: #3c3c3c;
-        margin-top: -10px;
-        text-decoration: none;
+        text-align: center;
+        @include media($tablet) {
+          color: #3c3c3c;
+          padding: 0 10px;
+          margin-top: -10px;
+        }
       }
       &.active {
-        background: white;
+        border-radius: 4px 4px 0 0;
+        background: transparent;
+        display: none;
+        @include media($tablet) {
+          display: inline-block;
+          background: white;
+        }
         a {
           color: #307ae2;
         }
@@ -65,7 +131,7 @@ body.blog {
   }
 
   .info {
-    height: 78px;
+    height: 70px;
     clear: both;
     color: #727272;
     font-weight: 600;
@@ -73,6 +139,7 @@ body.blog {
     text-align: center;
 
     @include media($tablet) {
+      height: 78px;
       text-align: left;
     }
 
@@ -84,7 +151,10 @@ body.blog {
       vertical-align: middle;
     }
     div:not(.avatar) {
-      line-height: 78px;
+      line-height: 70px;
+      @include media($tablet) {
+        line-height: 78px;
+    }
     }
     .avatar {
       border: 1px #bababa solid;
@@ -293,29 +363,18 @@ body.blog {
     i.fa {
       width: 32px;
       height: 32px;
+      background-position: top center;
       &.fa-facebook {
         background-image: url("../../img/new/xs/blogshare_fb_xs.png");
-        &:hover {
-          background-image: url("../../img/new/xs/blogshare_fb_xs_o.png");
-        }
       }
       &.fa-google {
         background-image: url("../../img/new/xs/blogshare_google_xs.png");
-        &:hover {
-          background-image: url("../../img/new/xs/blogshare_google_xs_o.png");
-        }
       }
       &.fa-pinterest {
         background-image: url("../../img/new/xs/blogshare_pin_xs.png");
-        &:hover {
-          background-image: url("../../img/new/xs/blogshare_pin_xs_o.png");
-        }
       }
       &.fa-twitter {
         background-image: url("../../img/new/xs/blogshare_twitter_xs.png");
-        &:hover {
-          background-image: url("../../img/new/xs/blogshare_twitter_xs_o.png");
-        }
       }
 
       @include media($tablet) {
@@ -323,28 +382,20 @@ body.blog {
         height: 38px;
         &.fa-facebook {
           background-image: url("../../img/new/sm/blogshare_fb_lg_md_sm.png");
-          &:hover {
-            background-image: url("../../img/new/sm/blogshare_fb_lg_md_sm_o.png");
-          }
         }
         &.fa-google {
           background-image: url("../../img/new/sm/blogshare_google_lg_md_sm.png");
-          &:hover {
-            background-image: url("../../img/new/sm/blogshare_google_lg_md_sm_o.png");
-          }
         }
         &.fa-pinterest {
           background-image: url("../../img/new/sm/blogshare_pin_lg_md_sm.png");
-          &:hover {
-            background-image: url("../../img/new/sm/blogshare_pin_lg_md_sm_o.png");
-          }
         }
         &.fa-twitter {
           background-image: url("../../img/new/sm/blogshare_twitter_lg_md_sm.png");
-          &:hover {
-            background-image: url("../../img/new/sm/blogshare_twitter_lg_md_sm_o.png");
-          }
         }
+      }
+
+      &:hover {
+        background-position: bottom center;
       }
     }
   }

@@ -131,7 +131,7 @@ body.blog {
   }
 
   .info {
-    height: 78px;
+    height: 70px;
     clear: both;
     color: #727272;
     font-weight: 600;
@@ -139,6 +139,7 @@ body.blog {
     text-align: center;
 
     @include media($tablet) {
+      height: 78px;
       text-align: left;
     }
 
@@ -150,7 +151,10 @@ body.blog {
       vertical-align: middle;
     }
     div:not(.avatar) {
-      line-height: 78px;
+      line-height: 70px;
+      @include media($tablet) {
+        line-height: 78px;
+    }
     }
     .avatar {
       border: 1px #bababa solid;

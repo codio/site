@@ -8,6 +8,12 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### April 29th, 2015
+- **Feature**: change font and theme in Guides player
+- **Update**: update Box Parts (clasp,g ringo, mongodb, phalcon, phpmyadmin, rabbitmq, racket, rethinkdb, scala, scons, valgrind, zeromq)
+- **Feature**: new Box Part added (hub)
+- **Fixede**: Guides handling in IE11 browser
+
 ### April 16th, 2015
 - **Update**: update all realtime components to the latest versions
 - **Update**: individual file size limit reduced to 7.5Mb (from 15Mb)
@@ -30,13 +36,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (March 31st) improve create project starting point options
 - **Improvement**: (March 31st) Guides update to remember poistion in guides if project reloaded
 - **Improvement**: (March 19th) add stack support to course modules
-- **Improvement**: (March 18th)further Guides updates
+- **Improvement**: (March 18th) further Guides updates
 - **Improvement**: (March 17th) detect Guides tutorial in a project and prompt user to automatically start in Play mode
 - **Feature**: (March 7th) new Box Parts added (jq, boot)
 - **Update**: (March 7th) update Box Parts (setuptools, swig, the_silver_searcher, tomcat)
 - **Update**: (March 5th) [Guides](/docs/ide/tools/guides/) updates
 - **Fixed**: (March 5th) reports of RSYNC deployment issues
-- **Improvement**: (March 5th)allow 'split' in  markdown files to show code and preview panes
+- **Improvement**: (March 5th) allow 'split' in  markdown files to show code and preview panes
 - **Feature**: (March 1st) new Box Part added (cppcheck)
 - **Update**: (March 1st) update Box Parts (fish, protobuf, r_base, racket, re2c, tig,)
 

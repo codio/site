@@ -86,21 +86,25 @@
     font-weight: 600;
   }
 
+  em {
+    font-style: italic;
+  }
+
   blockquote {
-      border-left: 2px solid #cccccc;
-      color: #727272;
-      margin: 20px 0;
-      padding-left: 10px;
+    border-left: 2px solid #cccccc;
+    color: #727272;
+    margin: 20px 0;
+    padding-left: 10px;
   }
 
   cite {
-      color: lighten(#727272, 25);
-      font-style: italic;
+    color: lighten(#727272, 25);
+    font-style: italic;
 
-      &:before {
-          content: "\2014 \00A0";
-      }
-}
+    &:before {
+        content: "\2014 \00A0";
+    }
+  }
 
 }
 

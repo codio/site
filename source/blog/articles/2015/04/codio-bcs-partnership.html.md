@@ -1,10 +1,11 @@
 ---
 title: Codio & BCS Partnership
-author: Philip Snalune
+author: Phillip Snalune
 date: 2015-04-30
 tags: 'Press'
 class_name: blog
 full_width: true
+image: /img/blog/bcs-press.png
 ---
 
 **PRESS RELEASE**
@@ -28,7 +29,7 @@ The BCS Certificate in Computer Science Teaching, developed and launched by BCS,
 With a further significant part of the Certificate requiring teachers to create their own computer program, the Codio platform provides the ideal environment to ensure that they can learn-by-doing, facilitating an understanding of the subject and the practical skills they need to teach it.
 
 Teachers working towards the Certificate can opt to receive a **free** Codio license (normally priced at £60/US$96 per year), granting them full access to the (IDE) and coding platform, course content, pre-configured software stacks and unlimited project workspace to support the practical, project-based element of the certificate. Codio projects can be shared with BCS e-assessors who can review code and provide feedback quickly and easily as teachers progress through the course.
- 
+
 Phillip Snalune co-founder of Codio said, “To be truly proficient in teaching Computing in the classroom, teachers need the correct tools, complemented by meaningful professional development opportunities. Our collaboration with BCS underlines Codio’s commitment to helping teachers gain the confidence and technical skills required to deliver excellence in the teaching of Computer Science. It also marks a significant investment and contribution to the teaching of computer science by Codio.”
 
 Teachers interested in registering for the BCS Certificate in Computer Science Teaching can learn more about the Codio support at http://computingatschool.org.uk/certificate
@@ -51,7 +52,7 @@ Beyond embracing the renewed focus in education systems globally on computer sci
 
 Codio is a Friend of CAS and a member of Naace.
 
-https://codio.com 
+https://codio.com
 
 
 ###### About BCS
@@ -66,4 +67,3 @@ Bethany Walton
 Livewire PR
 0208 339 7440
 Bethany.walton@livewirepr.com
-

@@ -29,7 +29,7 @@ With a further significant part of the Certificate requiring teachers to create 
 
 Teachers working towards the Certificate can opt to receive a **free** Codio license (normally priced at £60/US$96 per year), granting them full access to the (IDE) and coding platform, course content, pre-configured software stacks and unlimited project workspace to support the practical, project-based element of the certificate. Codio projects can be shared with BCS e-assessors who can review code and provide feedback quickly and easily as teachers progress through the course.
  
-Phillip Snalune co-founder of Codio said, “To be truly proficient in teaching Computing in the classroom, teachers need the correct tools, complemented by meaningful professional development opportunities. The collaboration with BCS underlines Codio’s commitment to helping teachers gain the confidence and technical skills required to deliver excellence in the teaching of Computer Science. It also marks a significant investment and contribution to the teaching of computer science by Codio.”
+Phillip Snalune co-founder of Codio said, “To be truly proficient in teaching Computing in the classroom, teachers need the correct tools, complemented by meaningful professional development opportunities. Our collaboration with BCS underlines Codio’s commitment to helping teachers gain the confidence and technical skills required to deliver excellence in the teaching of Computer Science. It also marks a significant investment and contribution to the teaching of computer science by Codio.”
 
 Teachers interested in registering for the BCS Certificate in Computer Science Teaching can learn more about the Codio support at http://computingatschool.org.uk/certificate
 

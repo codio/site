@@ -8,8 +8,6 @@ full_width: true
 image: /img/blog/bcs-press.png
 ---
 
-**PRESS RELEASE**
-
 **Codio supports teachers studying for the BCS Certificate in Computer Science Teaching**
 
 *Watch Sue Sentance, National Academic Co-ordinator at Computing At Schools (CAS), speak about Codio's support for the BCS Certificate [here]( https://www.youtube.com/watch?v=5i6OZcPQcG0)*

@@ -504,6 +504,18 @@ body.blog {
       color: #9f9f9f;
       font-weight: 600;
       font-size: 15px;
+      min-width: 100px;
+
+      @include media($tablet) {
+        &.page-prev {
+          text-align: right;
+        }
+
+        &.page-next {
+          text-align: left;
+        }
+      }
+
       @include media($notebook) {
         font-size: 16px;
       }
@@ -525,6 +537,7 @@ body.blog {
       &.num {
         display: none;
         @include media($tablet) {
+          min-width: 0;
           display: inline-block;
         }
       }

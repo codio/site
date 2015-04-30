@@ -4,7 +4,7 @@
     <ul>
 
       <li class="page-prev">
-        <% prev_label = "&#x25c2; previus" %>
+        <% prev_label = "&#x25c2; previous" %>
         <% if prev_page %>
           <%= link_to prev_label, prev_page %>
         <% else %>
@@ -12,7 +12,39 @@
         <% end %>
       </li>
 
-      <% (page_number - 8 .. page_number + 8).select{|i| i > 0 && i <= num_pages}[0..7].each do |i| %>
+      <%
+        # max_elements is the max num of pages to show in the pagination
+        max_elements = 7
+
+        # get a the pages range
+        left = page_number - max_elements / 2
+        right = page_number + max_elements / 2
+
+        # from range, get only valid pages
+        pages = (left .. right).select{|i| i > 0 && i <= num_pages}
+
+        # if pages is smaller then expected, because (max_elements / 2) on
+        # the left or on the right had non valid pages, then:
+        if pages.length() < max_elements
+          # add pages to the right
+          if pages.last() != num_pages
+            i = pages.last() + 1
+            while i <= num_pages and pages.length() < max_elements do
+              pages.push(i)
+              i += 1
+            end
+          # add pages to the left
+          else
+            i = pages.first() - 1
+            while i > 0 and pages.length() < max_elements do
+              pages.insert(0, i)
+              i -= 1
+            end
+          end
+        end
+
+        for i in pages do
+      %>
         <% if i == page_number %>
           <li class="num active"><span><%= i %></span></li>
         <% else %>
@@ -32,7 +64,7 @@
         <% if next_page %>
           <%= link_to next_label, next_page %>
         <% else %>
-          <span><%= prev_label %></span>
+          <span><%= next_label %></span>
         <% end %>
       </li>
     </ul>

@@ -5,7 +5,6 @@ date: 2014-02-12
 tags: Product News
 class_name: blog
 full_width: true
-image: https://www.docker.io/static/img/homepage-docker-logo.png
 ---
 
 We're getting extremely close to publicly releasing Codio Boxes to you all. In this post, I want to explain how Codio Boxes work and how the amazing [Docker](https://www.docker.io/) is behind it all.

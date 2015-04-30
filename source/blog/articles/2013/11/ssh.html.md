@@ -2,7 +2,7 @@
 title: SSH Terminal
 author: Freddy May
 date: 2013-11-07
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 ---

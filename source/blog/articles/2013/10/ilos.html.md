@@ -2,7 +2,7 @@
 title: I Love Open Source
 author: Freddy May
 date: 2013-10-11
-tags: News
+tags: Company News
 class_name: blog
 full_width: true
 ---

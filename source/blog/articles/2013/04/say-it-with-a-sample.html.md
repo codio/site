@@ -2,7 +2,7 @@
 title: "Codio:Annotations - Say it with a sample"
 author: Freddy May
 date: 2013-04-10
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 published: true

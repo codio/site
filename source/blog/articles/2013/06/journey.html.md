@@ -2,7 +2,7 @@
 title: The Journey from Mercurial to Git
 author: Friedel Ziegelmayer
 date: 2013-06-10
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 ---

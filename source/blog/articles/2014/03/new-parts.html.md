@@ -2,7 +2,7 @@
 title: More Box Parts Added
 author: Freddy May
 date: 2014-03-21
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 ---

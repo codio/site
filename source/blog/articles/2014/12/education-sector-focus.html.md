@@ -2,7 +2,7 @@
 title: Codio signals Education sector focus
 author: Phillip Snalune
 date: 2014-12-02
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 image: /img/blog/landing-education.png

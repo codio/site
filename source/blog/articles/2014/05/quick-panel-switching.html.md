@@ -2,7 +2,7 @@
 title: Fast Panel Switching
 author: Joel Moss
 date: 2014-05-07
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 ---

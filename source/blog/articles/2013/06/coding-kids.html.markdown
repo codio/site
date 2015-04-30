@@ -2,7 +2,7 @@
 title: More thoughts on teaching kids to code
 author: Freddy May
 date: 2013-06-11
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 ---

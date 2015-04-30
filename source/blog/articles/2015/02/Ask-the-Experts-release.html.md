@@ -2,7 +2,7 @@
 title: "Codio launches ‘Ask the Experts’ video series"
 author: Phillip Snalune
 date: 2015-02-24
-tags: Press release, News, Education
+tags: Press
 class_name: blog
 full_width: true
 image: /img/blog/ae-shahneila-saeed.png

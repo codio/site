@@ -2,7 +2,7 @@
 title: Mode Selection and UI Refresh
 author: Joel Moss
 date: 2013-05-17
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 ---

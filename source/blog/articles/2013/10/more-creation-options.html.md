@@ -2,7 +2,7 @@
 title: More Project Creation Options
 author: Joel Moss
 date: 2013-10-30
-tags: 'Lab & Updates'
+tags: Product News
 class_name: blog
 full_width: true
 image: blog/project-create.png

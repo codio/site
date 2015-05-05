@@ -103,6 +103,10 @@ body.blog {
           padding: 0 10px;
           margin-top: -10px;
         }
+
+        &:hover {
+          text-decoration: none;
+        }
       }
       &.active {
         border-radius: 4px 4px 0 0;

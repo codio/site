@@ -8,28 +8,24 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-### April 29th, 2015
-- **Feature**: change font and theme in Guides player
-- **Update**: update Box Parts (clasp,g ringo, mongodb, phalcon, phpmyadmin, rabbitmq, racket, rethinkdb, scala, scons, valgrind, zeromq)
-- **Feature**: new Box Part added (hub)
-- **Fixede**: Guides handling in IE11 browser
+### May 5th, 2015
+- **Improvement**: add new .codio token. See [IDE Shortcuts](https://codio.com/docs/boxes/runmenu/) for more information
 
-### April 16th, 2015
-- **Update**: update all realtime components to the latest versions
-- **Update**: individual file size limit reduced to 7.5Mb (from 15Mb)
+### May 4th, 2015
+- **Fixed**: empty pane text to remove scroll bar
 
-### April 14th, 2015
-- **Update**: update Box Parts (openldap, pypy)
-- **Feature**: new Box Part added (luarocks)
-
-### April 9th, 2015
-- **Fixed**: renaming of Guides sections causing content to be lost
-
-### April 8th, 2015
-- **Improvement**: MathJax support added for markdown files
-
-### April 1st, 20145
-- **Fixed**: reports of files opening in file tree pane
+### April 2015
+- **Feature**: (April 29th) change font and theme in Guides player
+- **Update**: (April 29th) update Box Parts (clasp,gringo, mongodb, phalcon, phpmyadmin, rabbitmq, racket, rethinkdb, scala, scons, valgrind, zeromq)
+- **Feature**: (April 29th) new Box Part added (hub)
+- **Fixed**: (April 29th) Guides handling in IE11 browser
+- **Update**: (April 16th) update all realtime components to the latest versions
+- **Update**: (April 16th) individual file size limit reduced to 7.5Mb (from 15Mb)
+- **Update**: (April 14th) update Box Parts (openldap, pypy)
+- **Feature**: (April 14th) new Box Part added (luarocks)
+- **Fixed**: (April 9th) renaming of Guides sections causing content to be lost
+- **Improvement**: (April 8th) MathJax support added for markdown files
+- **Fixed**: (April 1st) reports of files opening in file tree pane
 
 ### March 2015
 - **Improvement**: (March 31st) improve autosave handling, remove manual save option...[More information...](/blog/2015/04/changing-how-we-save/)

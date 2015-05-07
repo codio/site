@@ -20,6 +20,8 @@ Below is a screenshot of the editor with the main components highlighted.
 ##Editor Functions
 Within the editor is a toolbar which gives you access to the key functions.
 
+- **Theme** allows you to select the default theme for people viewing the Guide. We current have a dark theme 'Charcoal' and a light one 'Paper'. Dyslexic users can also choose s special theme from the Cog icon in the Guide player.
+- **Scripts** this allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a Guide button. Refer to the [Custom Button]() section for details.
 - **Step Path** allows you to define specific folders in your project that you wish to be visible when the current section is displayed
 - **Layout** allows you to specify the panel layout you want to choose for this section
 - **Close Tabs** allows you to close all tabs open from previous section
@@ -30,6 +32,5 @@ Within the editor is a toolbar which gives you access to the key functions.
     - which lines (if any) you wish to highlight within each file
 - **Hamburger Icon** can be pressed to show or hide the Section List
 - **Section List** lists the sections in your Guide. You can add new ones and re-order the list by dragging
-
 
 

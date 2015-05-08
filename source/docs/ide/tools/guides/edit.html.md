@@ -98,6 +98,30 @@ If I want to indent a list, then indent just 2 spaces and it will indent.
   - etc
 ```
 
+##Callout Blocks
+If you want to show a callout block a number of options are available and others can be easily added if required
+
+  - info
+  - warning
+  - topic
+  - definition
+  - challenge
+  - guidance
+
+e.g.
+
+```
+|||info
+# info
+
+Some text
+|||
+```
+![](/img/docs/guides/callout_info.png)
+
+
+Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to see all the options.
+
 ##Hyperlinks, Images, Videos & iframes
 We describe this in [this section](/docs/ide/tools/guides/imvid).
 

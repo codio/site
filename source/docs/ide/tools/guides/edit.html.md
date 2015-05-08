@@ -9,6 +9,8 @@ When you are in Edit mode, you can select a section by
 - using the navigation buttons in the header area
 - selecting a section from the section list
 
+![](/img/docs/guides/editnav.png)
+
 ##Renaming the Section
 You can rename your section by clicking on the section title in the header area.
 
@@ -23,7 +25,7 @@ When in Play Mode, your content is rendered beautifully and you can even overrid
 You can also insert [images, videos and hyperlinks](/docs/ide/tools/guides/imvid).
 
 
-**We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/)**
+We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more infomation on importing.
 
 Here is a summary of the Markdown formatting codes
 
@@ -100,4 +102,12 @@ If I want to indent a list, then indent just 2 spaces and it will indent.
 We describe this in [this section](/docs/ide/tools/guides/imvid).
 
 ##HTML
-We plan to include support for white-listed HTML tags, so if you require this, please email support@codio.com.
+You can include HTML tags
+
+##MathJax 
+
+[MathJax](http://www.mathjax.org/) is supported
+
+##Guides Cheat Sheet
+
+Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more infomation on importing.

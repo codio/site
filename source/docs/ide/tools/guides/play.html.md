@@ -12,7 +12,15 @@ At this point
 - the first section will be displayed
 - Section List is shown.
 
-To hide or show the Section List, the Student presses the 'Hamburger' icon.
 
-Everything should be completely self-explanatory.
+
+![](/img/docs/guides/playmode.png)
+
+## Player Options
+Within the player various options can be controlled by the user
+
+- **Change Theme/Font** allows the user to change the Theme (charcoal/paper/dyslexic) and set the font size. See [Dyslexia Support](/docs/ide/tools/guides/dyslexia/) section
+- **Increase Font** allows the user to incrementally increase the player font size
+- **Decrease Font** allows the user to incrementally decrease the player font size
+- **Show/Hide Section List Hamburger Icon** allows the user to show/hide the section list 
 

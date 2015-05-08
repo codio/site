@@ -5,12 +5,14 @@ full_width: true
 ---
 
 You can automatically perform any of the following actions when a section is shown
+
 - Control the visibily of folders in the tutorial
 - Open files
 - Open a Preview (including external websites)
 - Open a Terminal window (including running terminal command in the background)
 - Highlight lines you wish to highlight within each file
 - Close all open tabs from the previous section
+
 
 ##Step Path
 If your tutorial has multiple folders, you may wish to show certain folders in your section(s) to avoid confusion.

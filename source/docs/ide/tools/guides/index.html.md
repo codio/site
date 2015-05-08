@@ -6,7 +6,7 @@ full_width: true
 
 Codio Guides is a fully integrated content authoring tool that allows you to write rich tutorial type content using pure markdown.
 
-**We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/)**
+We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more infomation on importing.
 
 For an introduction to Guides, take a look at the video below.
 

@@ -11,7 +11,9 @@ There are 2 ways to use a custom button
 ## To launch a process
 This will launch a process and execute a terminal command. 
 
-`{Button Text}(command paramater1 parameter2 parameterN)`
+```javascript
+{Button Text}(command paramater1 parameter2 parameterN)
+```
 
 ## Writng a custom event handler
 This offers you the most flexibility and allows you to write your own custom button press handler. A common use case is executing tests on user code.

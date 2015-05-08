@@ -132,6 +132,15 @@ You can include HTML tags
 
 [MathJax](http://www.mathjax.org/) is supported
 
+e.g 
+```
+When $$a \ne 0$$ there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+```
+
+![](/img/docs/guides/mathjax.png)
+
+
 ##Guides Cheat Sheet
 
 Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more infomation on importing.

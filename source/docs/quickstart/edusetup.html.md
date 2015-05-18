@@ -7,8 +7,12 @@ full_width: true
 Getting started with Codio is very easy. Just follow the steps below.
 
 ## Student Setup
-1. Tell your students to go to codio.com and then click the 'Signup' button. 
-1. Advise them to use their school email address, if they have one.
+
+1. Go to `Organisation Settings` area and create an invitation token.
+1. Send the generated link out to all Students who you wish to include in your organisation and they will be automatically added. (If they do not already have a Codio account, they will be taken through the sign up process and then added to your organisation).
+
+![Organisations Token](/img/docs/organisations_token.png)
+
 1. Once they are logged in, they should press the 'Courses' button in the left hand menu.
 1. The 'Recommended' tab should automatically be selected and they can then proceed to a course you advise them to look at.
 1. They will see the Course modules in the correct order. They can press 'Start Module' to open it up.
@@ -35,13 +39,18 @@ You should make sure that your students and teachers are all added to your Organ
 ### Manually
 If you already have students and teachers who have created Codio accounts, you should make sure you add them to your Organization.
 
+- Go to `Organisation Settings` area and create an invitation token.
+- Send the generated link out to all who you wish to include in your organisation and they will be automatically added. (If they do not already have a Codio account, they will be taken through the sign up process and then added to your organisation).
+
+Alternatively 
+
 - For students, click on 'All Members' and then locate the Student by name or user id.
 - For teachers, do the same, but we will shortly be adding a special Teachers team.
 
 ### CSV Upload
 We will soon be adding the ability to upload your own CSV files to create student accounts and also to create classes. Most schools have MIS systems that allow this data to be easily exported.
 
-In the short term (through April 30th 2015) you can email us your CSV file and we will process these for you. Please send this to help@codio.com.
+In the short term you can email us your CSV file and we will process these for you. Please send this to help@codio.com.
 
 The file should be a CSV file with the following fields present : email (required), full name, user name, class.
 

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Before you create a Module, you should have prepared at least one Codio Project that is ready to add as a module. Please make sure you have read the [Guides](/docs/ide/tools/guides/) documentation as a module requires a Guide.
+Before you create a Module, you should have prepared at least one Codio Project that is ready to add as a unit. Please make sure you have read the [Guides](/docs/ide/tools/guides/) documentation as a unit requires a Guide.
 
 To create a new Module, press the 'Create Module' button in the top right of then screen on the main Modules screen.
 

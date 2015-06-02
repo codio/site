@@ -12,7 +12,7 @@ Codio solves these problems and delivers breakthrough benefits for schools in th
 
 -	As a cloud platform, students can access their code from anywhere using just a browser.  Use school machines in the classroom, bring your own device, and continue on your personal machine for homework and modulework assignments.
 -	We’ve collaborated with leading UK exam board – OCR (Oxford, Cambridge & RSA) to bring you curriculum-based teaching content integrated within the Codio platform using Codio’s [Guides](/docs/ide/tools/guides/) authoring and publishing tools.
--	Codio’s school licences are inclusive of teaching content found in the [Modules](/docs/dashboard/Modules/) menu under “Recommended”.  Teachers can also create their own Module content, again using Codio’s [Guides](/docs/ide/tools/guides/) authoring and publishing tool.
+-	Codio’s school licences are inclusive of teaching content found in the [Modules](/docs/dashboard/modules/) menu under “Recommended”.  Teachers can also create their own Module content, again using Codio’s [Guides](/docs/ide/tools/guides/) authoring and publishing tool.
 -	The teaching content sits alongside the student workspace and the preview window creating a step change in student engagement and allowing the teacher to play a far more facilitative, coaching and supporting role.
 -	There is no software to install on classroom machines, nor on student machines, Codio comes pre-configured with all the software languages, frameworks and databases you’ll need.
 -	You can also use Codio [Stacks](/docs/quickstart/stacks/) and [Starter Packs](/docs/quickstart/packs/) to pre-configure entire environments for learning, including languages, databases, web servers, components and even entire code workspaces.

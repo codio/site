@@ -8,6 +8,6 @@ A [Module](/docs/dashboard/modules/) is a collection of Project snapshots that h
 
 When combined with [Classes](/docs/dashboard/classes/), you get a powerful way of teaching a class of students that let's you organize, review student code and grade.
 
-![Courses List](/img/docs/courses_list.png)
+![Modules List](/img/docs/courses_list.png)
 
-Anyone creating a Course should incorporate [Codio Guides](/docs/ide/tools/guides/), a rich content authoring tool that allows students to view instructions while they edit their code.
+Anyone creating a Module should incorporate [Codio Guides](/docs/ide/tools/guides/), a rich content authoring tool that allows students to view instructions while they edit their code.

@@ -12,7 +12,7 @@ Modules are a great way of grouping and ordering Projects so students can find a
 
 Let's say you wanted to create a module 'An Introduction to Javascript'. You would first create several Codio projects to cover different Javascript topics. These projects should include a [Codio Guide](/docs/dashboard/modules/guides/).
 
-In the Courses section, you would then create a Module called 'An Introduction to Javascript' and then add your Projects into that Module. Students can then find it from the main Modules listing and work their way through each module.
+In the Modules section, you would then create a Module called 'An Introduction to Javascript' and then add your Projects into that Module. Students can then find it from the main Modules listing and work their way through each module.
 
 When they select a Module module, it will fork it and create a Project in their own account. They are free to run it, modify the code and follow the [Codio Guide](/docs/dashboard/modules/guides/).
 

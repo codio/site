@@ -6,6 +6,6 @@ full_width: true
 
 Once you have added several units, you may want to adjust the order in which they appear within the Module.
 
-You can do so by dragging a module up and down the modules list.
+You can do so by dragging a unit up and down the list.
 
-Only Module owners and collaborators can adjust the module order.
+Only Module owners and collaborators can adjust the unit order.

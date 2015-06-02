@@ -1,17 +1,17 @@
 ---
-title: Adding a module
+title: Adding a unit
 class_name: docs
 full_width: true
 ---
 
 Only Module owners or those with administration permissions for the module can add units. Please refer to the [Create a new Module](/docs/dashboard/modules/module-create/) section for information on permissions and collaborators.
 
-A Module module is simply a Codio project that contains
+A Module unit is simply a Codio project that contains
 
 - a code workspace and files
 - a [Codio Guide](/docs/dashboard/modules/guides)
 
-Press the `Add Module` button to add a new module.
+Enable the 'Edit Unit' button and then press the `Add Unit` button to add a new unit.
 
 ![Modules Add](/img/docs/courses_add.png)
 
@@ -21,10 +21,10 @@ Add a description and, importantly, a good description of the project that is he
 ##Select the Source
 You should select the Codio Project that the module is taken from. 
 
-Once you have chosen a source for your module, a snapshot is made and is stored in a separate storage location. Any modifications you make to your source Project will not be reflected in the module unless you refresh it. 
+Once you have chosen a source for your unit, a snapshot is made and is stored in a separate storage location. Any modifications you make to your source Project will not be reflected in the unit unless you refresh it. 
 
-##Refreshing the module from the source Project
-If you do make changes to your source Project and you want these to be reflected in the Module module, you will need to select the module and then press the `Refresh Source` button. 
+##Refreshing the unit from the source Project
+If you do make changes to your source Project and you want these to be reflected in the Module unit, you will need to select the unit and then press the `Refresh Source` button. 
 
 
 

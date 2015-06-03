@@ -8,7 +8,7 @@ It can happen that after you create your module you make some changes to the ori
 
 The complete steps to update your module module with a modified Codio project are [described here](/docs/dashboard/modules/module-modify).
 
-This updates the module units but it does not update the class module, as these are copies. To update the class from the module you should press the 'Update module source from origin' button.
+This updates the module units but it does not update the class module, as these are copies. To update the class from the module you should press the 'Refresh Source' button.
 
 ![](/img/docs/update-class-course.png)
 

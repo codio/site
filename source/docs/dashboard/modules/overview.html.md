@@ -6,7 +6,7 @@ full_width: true
 
 The `Modules` menu item can be found in the left menu area of the Codio dashboard beneath the 'Courses' menu item.
 
-![Modules](/img/docs/courses.png)
+![Modules](/img/docs/modules.png)
 
 Modules are a great way of grouping and ordering Projects so students can find and access them in one place.
 

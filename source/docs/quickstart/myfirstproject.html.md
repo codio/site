@@ -11,7 +11,7 @@ A project is a combination of a Box and your code workspace. When you open up yo
 Start off by ...
 
 - clicking on the `Projects` option on the left of your Dashoard.
-- click the `Create Project` button in the top right of the screen
+- click the `New Project` button in the top right of the screen
 
 ![Create Project](/img/docs/project_create.png)
 
@@ -19,9 +19,9 @@ You can then choose which of the following Project creation methods you want to 
 
 Select a commonly used Stack:
 
-- **Default:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
 - **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace
 - **Python3:** Python3 Stack with no code workspace
+- **Codio Base Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
 
 or 
 

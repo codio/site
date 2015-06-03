@@ -8,4 +8,6 @@ You can edit the class preferences by pressing the 'Edit' button. From here, you
 
 A class can be edited by the class owner and those with administration permissions granted by the owner.
 
+![Class Edit](/img/docs/class_delete.png)
+
 

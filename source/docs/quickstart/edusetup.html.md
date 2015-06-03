@@ -20,9 +20,6 @@ Getting started with Codio is very easy. Just follow the steps below.
 
 When students leave the Guide and return to the main Codio dashboard, they will see the projects list. Any opened modules will be visible there, so they they don't have to return to the Modules screen to access them again unless they want to start a new module.
 
-![](/img/docs/education/modules-setup.jpg)
-![](/img/docs/education/modules-setup.jpg)
-
 
 ## Additional Teacher Setup
 Normally, the first teacher to sign up to Codio should have created an Organization when they signed up. If you're not sure about this please do the following.

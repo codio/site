@@ -11,15 +11,15 @@ A Module unit is simply a Codio project that contains
 - a code workspace and files
 - a [Codio Guide](/docs/dashboard/modules/guides)
 
-Enable the 'Edit Unit' button and then press the `Add Unit` button to add a new unit.
+Enable the 'Edit Units' toggle button and then press the `Add Unit` button to add a new unit.
 
-![Modules Add](/img/docs/courses_add.png)
+![Units Add](/img/docs/units_add.png)
 
 ##Add Details
-Add a description and, importantly, a good description of the project that is helpful to others browsing Module and module content.
+Add a description and, importantly, a good description of the project that is helpful to others browsing Module and unit content.
 
 ##Select the Source
-You should select the Codio Project that the module is taken from. 
+You should select the Codio Project that the unit is taken from. 
 
 Once you have chosen a source for your unit, a snapshot is made and is stored in a separate storage location. Any modifications you make to your source Project will not be reflected in the unit unless you refresh it. 
 

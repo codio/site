@@ -6,9 +6,9 @@ full_width: true
 
 Before you create a Module, you should have prepared at least one Codio Project that is ready to add as a unit. Please make sure you have read the [Guides](/docs/ide/tools/guides/) documentation as a unit requires a Guide.
 
-To create a new Module, press the 'Create Module' button in the top right of then screen on the main Modules screen.
+To create a new Module, press the 'New Module' button in the top right of then screen on the main Modules screen.
 
-![Modules Create](/img/docs/courses_create.png)
+![Modules Create](/img/docs/modules_create.png)
 
 ##Name, Descriptions, Image & Tags
 You are required to enter a name for your module. The Short Description is optional but please add something so others can easily identify it.

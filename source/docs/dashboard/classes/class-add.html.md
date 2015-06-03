@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-To add a new Class, press the 'Create' button from the main classes screen. You will then be asked to provide further details. Only the Class name is required 
+To add a new Class, press the 'New Class' button from the main classes screen. You will then be asked to provide further details. Only the Class name is required 
 On creation, you will be automatically added as a Teacher for that class. Teachers are able to assign modules to the Class, view student code and assign grades and comments.
 
 ![Class Create](/img/docs/class_create.png)

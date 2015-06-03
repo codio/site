@@ -15,13 +15,10 @@ Tecahers can
 
 ![Classes Add Teachers](/img/docs/class_addteachers.png)
 
-To add further teachers to the class, select the Teachers link as shown above.
+To add further teachers to the class, enable the 'Edit Teachers' toggle button and then add in new teachers.
 
-You can now add Teachers by searching for Codio users using their full name or their Codio user name.
+You can enter the Codio user name or a part of their full name within the `Add a Teacher` field.
 
-Teachers, as opposed to class collaborators, are only able to 
+You can remove teachers by pressing the `Delete` button next to a teacher name.
 
-- assign modules to classes
-- view student code from the class modules list
-- grade and comment
 

@@ -5,9 +5,9 @@ full_width: true
 ---
 
 #Delete a Unit
-You can delete a unit by enabling the 'Edit Unit' button and then pressing the `Delete` button.
+You can delete a unit by enabling the 'Edit Units' toggle button and then pressing the `Delete` button.
 
-![Modules Delete](/img/docs/courses_delete.png)
+![Units Delete](/img/docs/unit_delete.png)
 
 #Delete a Module
 You can delete a Module by selecting the Module from the listing, then press the `Edit` button, then the `Delete` button.

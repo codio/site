@@ -10,7 +10,7 @@ However, if you are happy to have your module public then it becomes available f
 
 You can make a Module public at Module creation or by pressing the `Edit` button having selected the Module from the listing.
 
-![Modules Edit](/img/docs/courses_edit.png)
+![Modules Edit](/img/docs/modules_edit.png)
 
 ##How to Use and Modify a public Module
 

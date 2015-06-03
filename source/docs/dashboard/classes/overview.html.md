@@ -20,11 +20,11 @@ The main Classes screen shows a complete listing of all Classes belonging to any
 
 ![Classes List](/img/docs/class_list.png)
 
-When you select a Class, you are immediately shown the Course that has been assigned to that Class as well as the complete list of modules that make up that Course.
+When you select a Class, you shown the Module(s) that has been assigned to that Class and by clicking on the Module are then taken to the Module view where you can then also see the complete list of units that make up that module.
 
 ![Class Courses](/img/docs/class_courses.png)
 
-You can then select a module and you will see a list of all students who are in the class and were assigned that module.
+You can also select the Students tab to see a list of all students who are in the class and were assigned that module.
 
 ![Class Students](/img/docs/class_students.png)
 
@@ -36,7 +36,7 @@ You can even assign a grade to the student's work and add comments when they hav
 
 ![Class Grade](/img/docs/class_grade.png)
 
-You can also add Teachers to the class so more than one teacher can view and grade student code.
+From the Teachers tab you can also add Teachers to the class so more than one teacher can view and grade student code.
 
 ![Class Add Teachers](/img/docs/class_addteachers.png)
 

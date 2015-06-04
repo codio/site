@@ -14,9 +14,9 @@ The number of members in each team is displayed in the team box.
 Press the Create Team button to add your new team. Once created, the number of team members is shown in the team button.
 
 ##Edit
-You can rename a team or edit its description by clicking on the team and then selecting the Edit button in the top of the screen.
+You can rename a team or edit its description by clicking on the team and then selecting the Edit button.
 
 ##Delete
-You can delete a team by pressing the 'X' to the right of the team name.
+You can delete a team by pressing the 'Delete' button when in Edit mode.
 
 

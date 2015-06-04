@@ -10,5 +10,3 @@ Rather like Google Docs, you will be able to see other people editing the file i
 
 Because of this collaboration feature, your files are saved in real time and there is no need to press the save button. It just happens automatically.
 
-We will soon be adding viewer lists and personalized cursors so you will be able to see which user is viewing the current file and where they are editing.
-

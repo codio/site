@@ -3,7 +3,6 @@ guides
 module-create
 module-public
 module-add
-module-sequence
 module-modify
 module-delete
 assigning

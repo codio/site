@@ -12,7 +12,5 @@ This updates the module units but it does not update the class module, as these 
 
 ![](/img/docs/update-class-course.png)
 
-##Classes with module assignments already made
-You should be aware that we currently disable the 'Update module' button if any modules have been assigned to a class. The only way around this is to delete the class and recreate it. 
-
-We hope to improve this soon so that unassigned modules can still be updated.
+##Active Classes with Students already completing Units
+If you refresh the source, any students who have already started working on those units will not see the changes. They will need to fork the project again to see the changes

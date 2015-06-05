@@ -6,8 +6,6 @@ full_width: true
 
 [Courses](/docs/dashboard/courses/) are a collection of [Modules](/docs/dashboard/modules/) that have been grouped and ordered. 
 
-![Courses List](/img/docs/courses_list.png)
-
 
 [Click here](/docs/dashboard/courses/overview/) to start reading.
 

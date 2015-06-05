@@ -8,20 +8,18 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-### May 25th, 2015
-- **Update** update Box Parts (rethinkdb, rust)
+### June 8th, 2015
+- **Update**: Updated Dashboard to improve performance and support future Education Improvements
 
-### May 11th, 2015
-- **Update** Updated to CodeMirror (5.2)
+### June 2nd, 2015
+- **Update** update Box Parts (googleappengine, googleappenginego, googleappenginejava)
 
-### May 7th, 2015
-- **Improvement**: Guides improvements for Dyslexic theme/usage
-
-### May 5th, 2015
-- **Improvement**: add new .codio token. See [IDE Shortcuts](https://codio.com/docs/boxes/runmenu/) for more information
-
-### May 4th, 2015
-- **Fixed**: empty pane text to remove scroll bar
+### May 2015
+- **Update** (May 25th) update Box Parts (rethinkdb, rust)
+- **Update** (May 11th) Updated to CodeMirror (5.2)
+- **Improvement**: (May 7th) Guides improvements for Dyslexic theme/usage
+- **Improvement**: (May 5th) add new .codio token. See [IDE Shortcuts](https://codio.com/docs/boxes/runmenu/) for more information
+- **Fixed**: (May 4th) empty pane text to remove scroll bar
 
 ### April 2015
 - **Feature**: (April 29th) change font and theme in Guides player

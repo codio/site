@@ -1,30 +1,23 @@
 ---
-title: Assigning a module to the class
+title: Managing Classes
 class_name: docs
 full_width: true
 ---
 
-Once you have assigned your module to the class and added students, you are ready to hand out your first assignment.
+Once your class is set up, your students can start working.
 
-Modules can be assigned to classes by 
+The student can access the modules by going to the the Classes menu item in the dashboard. They can select the appropriate class and then they will see all the modules for that class. 
 
-- the class owner
-- collaborators (defined in Edit screen of the class)
-- teachers
+They can then open up the module to see the untits and from there can then open project in the IDE by pressing the right most icon.
 
-Select your class from the main classes listing. You should see the Module name and all Units belonging to that Module. 
+![Student Assign](/img/docs/student_assign.png)
 
-Now, for the module you want to assign to the class, click on the right most icon. Below, you can see that the first module has already been assigned but the others have not. The assign buttons are circled.
+This will fork the project into the students Codio account and will also be accessible to them from their Projects list in future.
 
-![](/img/docs/class-module-assign.png)
+Teachers are able to see the students who have assigned themselves units in the modules by selecting the Module.
 
-This will take you to the module->class assignment screen. You will see all class students listed here. All class students will be listed and pre-selected. If you decide you do not want to assign this module to any individual students then you can deselect the student now.
+If the counter is zero, none of the students have yet assigned themselves the units, but otherwise, select the Unit and a list of all the students who have assigned themselves that unit will be shown
 
-![](/img/docs/class-module-assign-final.png)
+![Student Progress](/img/docs/student_progress.png)
 
-Once you are ready, you click the 'Assign' button. 
-
-At this point, an email will be sent to the Student with a link to the assignment, which, when clicked on, will open up the Codio IDE with that project loaded. From that point onwards, the student will also see the project in their normal projects listing.
-
-Another way for the student to access their code is to go the the Classes menu item in the dashboard. They can select the appropriate class and then they will see all the modules for that class. They can then open up the project in the IDE by pressing the right most icon.
-
+The Students tab will show all the students that have assigned themselves units in the modules.

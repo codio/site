@@ -10,7 +10,7 @@ You can delete a unit by enabling the 'Edit Units' toggle button and then pressi
 ![Units Delete](/img/docs/unit_delete.png)
 
 #Delete a Module
-You can delete a Module by selecting the Module from the listing, then press the `Edit` button, then the `Delete` button.
+You can delete a Module by selecting the Module from the listing, then press the `Delete` button.
 
 
 If you delete a Module or a unit, any Modules that have been assigned to a Class will remain intact for the lifetime of that class.

@@ -11,8 +11,9 @@ To access Classes, you will need to have an [Organization](/docs/dashboard/organ
 Classes can only be created by members of the Owners team. Teams are managed in the [Organization](/docs/dashboard/organizations/) section.
 
 - A class is a collection of students (Codio users).
-- A class is associated with a Course.
-- You can assign modules from within the associated Course to the class.
+- A class is associated with [Modules](/docs/dashboard/modules/). 
+- A class can contain as many modules as required.
+- Coming Soon: You can assign modules to classes from [Courses](/docs/dashboard/courses/)
 
 ##Classes Listings
 The main Classes screen shows a complete listing of all Classes belonging to any organizations you are a member of.
@@ -24,19 +25,12 @@ When you select a Class, you shown the Module(s) that has been assigned to that 
 
 ![Class Courses](/img/docs/class_courses.png)
 
-You can also select the Students tab to see a list of all students who are in the class and were assigned that module.
+You can also select the Students tab to see a list of all students who are in the class and add others.
 
 ![Class Students](/img/docs/class_students.png)
 
-From the list of students for the module, you are also able to access an individual student's code when they have completed the module (circled in the screenshot below).
-
-![Class ViewCode](/img/docs/class_viewcode.png)
-
-You can even assign a grade to the student's work and add comments when they have completed the module (circled in the screenshot below).
-
-![Class Grade](/img/docs/class_grade.png)
-
-From the Teachers tab you can also add Teachers to the class so more than one teacher can view and grade student code.
+From the Teachers tab you can also add Teachers to the class.
 
 ![Class Add Teachers](/img/docs/class_addteachers.png)
+
 

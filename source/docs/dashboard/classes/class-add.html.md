@@ -1,11 +1,11 @@
 ---
-title: Adding a Class
+title: Creating a Class
 class_name: docs
 full_width: true
 ---
 
-To add a new Class, press the 'New Class' button from the main classes screen. You will then be asked to provide further details. Only the Class name is required 
-On creation, you will be automatically added as a Teacher for that class. Teachers are able to assign modules to the Class, view student code and assign grades and comments.
+To create a new Class, press the 'New Class' button from the main classes screen. You will then be asked to provide further details. 
+
 
 ![Class Create](/img/docs/class_create.png)
 
@@ -18,9 +18,8 @@ If you only belong to one Organization then this will be pre-populated. If you b
 ##Begin & End Dates
 These are purely for display purposes and are optional.
 
-##Course
-You can at this point assign a Course to the class. Press the ellipsis to choose a Course.
-
+##Modules, Teachers & Students
+Having created your Class you can at this point proceed to add modules, teachers and students to the class. 
 
 
 

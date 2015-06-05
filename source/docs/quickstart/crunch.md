@@ -29,7 +29,7 @@ If you have not yet added any code, then you should see the button bar already t
 Click on the '+' to add a new instruction.
 
 ## Instructions
-Codio comes with a reasonable base set of instruction mnemonics that can be extended. Instructions that Codio offers that are very useful and allow for a much more natural approach when compared to the Little Man Computer instruction set.
+Codio comes with a reasonable base set of instruction mnemonics that can be extended. Instructions that Codio offers are very useful and allow for a much more natural approach when compared to the Little Man Computer instruction set.
 
 - `BGT` branch if greater than
 - `BGE` branch if greater than or equal to
@@ -37,14 +37,14 @@ Codio comes with a reasonable base set of instruction mnemonics that can be exte
 - `BLE` branch if less than or equal to
 - `BEQ` branch if equal to
 - `BNE` branch if not equal to
-- `JMP` jump to a labe;
+- `JMP` jump to a label
 - `PSH` push accumulator onto a stack
-- `POP` pop accumulator off teh stack
+- `POP` pop accumulator off the stack
 - `MUL` multiply the accumulator by a literal value of a value stored in a memory location
 - `INC` increment the accumulator by 1
 - `DEC` decrement the acculumator by 1
 
-After you have pressed the '+' button you are abe to scroll through the instruction list, where you will be shown descriptions of the commands, or you can simply type the instruction mnemonic (3 letter instruction) and press enter.
+After you have pressed the '+' button you are able to scroll through the instruction list, where you will be shown descriptions of the commands, or you can simply type the instruction mnemonic (3 letter instruction) and press enter.
 
 ## Adding labels
 Instructions such as `BEQ`, `BNE`, `BLT`, `BLE`, `BGT`, `BGE`, `JMP` require that you jump to a specific label if the condition is met. You can add such a label by pressing the add label button from the floating toolbar.
@@ -54,7 +54,7 @@ Instructions such as `BEQ`, `BNE`, `BLT`, `BLE`, `BGT`, `BGE`, `JMP` require tha
 Enter a label name that can be used as a target for the above listed instructions.
 
 ## Comments
-If you want to add comments to your code, click the commment button, circled below, and you can add a comment description into the code.
+If you want to add comments to your code, click the comment button, circled below, and you can add a comment description into the code.
 
 [IMAGE]
 
@@ -62,9 +62,9 @@ If you want to add comments to your code, click the commment button, circled bel
 If you want to select one or more lines of code (to delete or move to another location) then you should do the following
 
 - click on a line you want to select but make sure you click away from a field that requires input
-- to select more multiple lines, then press the shift key and click on another line in order that all lines between the first line and this line are selected. You should see multiple lines then highlighted.
+- to select more multiple lines, then press the shift key and click on another line in order that all lines between the first line and this line are selected. You should then see the multiple lines highlighted.
 
-Once you have the one or more lines selected, you can either delete all lines (by pressing delete from the toolbar on the right) or by draggin the selected lines to the required destination.
+Once you have the one or more lines selected, you can either delete all lines (by pressing delete from the toolbar on the right) or by dragging the selected lines to the required destination.
 
 ## Running your code
 
@@ -80,7 +80,7 @@ This runs your program at full speed.
 All output is written to the output window at the bottom of the screen, which is scrollable.
 
 ## Stack listing
-If you push the accumulator to the stack using the `PSH` command, the stack contents is displayed in a scrollable window within the dislay below the code window. As you `POP` items off the stack, you will see the topmost item being removed.
+If you push the accumulator to the stack using the `PSH` command, the stack content is displayed in a scrollable window within the display below the code window. As you `POP` items off the stack, you will see the topmost item being removed.
 
 ## Undo & Redo
 You can undo and redo changes using the buttons on the right hand side.

@@ -1,5 +1,5 @@
 ---
-title: Education
+title: Education Overview
 class_name: docs
 full_width: trues
 ---

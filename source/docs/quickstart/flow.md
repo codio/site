@@ -16,7 +16,7 @@ To edit an existing `.flow` file, simply click on the file name to open the Flow
 Using flow is very easy. Knowing the following list of commands will help you be productive.
 
 ### Adding an element
-To add a new Flow element, simple click on one the the 3 element buttons at the top of the page and drag it into the chart area.
+To add a new Flow element, simply click on one the the 3 element buttons at the top of the page and drag it into the chart area.
 
 ### Resizing
 You can resize any element by first clicking on it and then dragging the handles.
@@ -51,7 +51,7 @@ Your flow chart can be much bigger than the available screen size. You can pan a
 
 If you are looking to multi-select rather than pan, you just need to press the shift key before dragging.
 
-You can zoom in and out using the '+' and '-' buttons. In the top right is a mini-map of your flowchart and you can drag the blue swuare around to pan quickly around the entire chart.
+You can zoom in and out using the '+' and '-' buttons. In the top right is a mini-map of your flowchart and you can drag the blue square around to pan quickly around the entire chart.
 
 ### Copying
 You can copy an existing chart element by

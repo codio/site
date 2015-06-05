@@ -10,6 +10,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ### June 8th, 2015
 - **Update**: Updated Dashboard to improve performance and support future Education Improvements
+- **Feature**: Added [Crunch](/docs/quickstart/crunch) (a modern, full-featured alternative to Little Man Computer) 
+- **Feature**: Added [Flow Charting](/docs/quickstart/flow) tool.
 
 ### June 2nd, 2015
 - **Update** update Box Parts (googleappengine, googleappenginego, googleappenginejava)

@@ -4,12 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-A [Module](/docs/dashboard/modules/) is a collection of Project snapshots that have been grouped and ordered. It is an ideal way of giving students access to a coherent set of Projects aimed at teaching any coding topic you like.
+A [Module](/docs/dashboard/modules/) is a collection of teaching resources that have been grouped and ordered. It is an ideal way of giving students access to a coherent set of Projects aimed at teaching any coding topic you like.
 
 When combined with [Classes](/docs/dashboard/classes/), you get a powerful way of teaching a class of students that let's you organize, review student code and grade.
 
 ![Modules List](/img/docs/module_list.png)
 
-Anyone creating a Module should incorporate [Codio Guides](/docs/ide/tools/guides/), a rich content authoring tool that allows students to view instructions while they edit their code.
+Anyone creating a Module should utilite [Codio Guides](/docs/ide/tools/guides/), a rich content authoring tool for publishing content that allows students to view instructions while they edit their code.
 
-A [Course](/docs/dashboard/courses/) allows you to group any modules you wish together into a course and in the near future, you will be able to access your courses in the creation of your [Classes](/docs/dashboard/classes)
+A [Course](/docs/dashboard/courses/) allows you to group any modules you wish together into a course, and in the near future, you will be able to access your courses in the creation of your [Classes](/docs/dashboard/classes)

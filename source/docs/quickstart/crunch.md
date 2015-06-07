@@ -4,14 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-Crunch is a modern, full-featured alternative to Little Man Computer. It is testament to Little Man Computer that it is still being used many years later. We have taken inspiration from it and made given it a modern feel and more complete instruction set and allows you to focus on thinking about your algorithm rather than having to learn the syntax. It also frees you from having to figure out how to install it as it runs in nothing more than a browser.
+Crunch is a modern, full-featured alternative to Little Man Computer. It is testament to Little Man Computer that it is still being used many years later. We have taken inspiration from it and given it a modern feel and a more complete instruction set that allows you to focus on thinking about your algorithm rather than having to learn the syntax. 
 
 Here is a quick guide on how to use Crunch.
 
 ## Video
-Below is a quick video overview to give you a general sense of how Crunch works. 
-
-[VIDEO]
+[Click here](https://vimeo.com/130014963) for a video overview of Crunch.
 
 ## Creating a Crunch file
 If you want to create your own Crunch files in a Codio project, create a new file of type Crunch by giving it the `.crunch` extension.
@@ -22,7 +20,7 @@ All changes are changed automatically, so you don't have to explicitly save.
 ## Source Code Editing
 Editing source code is done by hovering over a line until the popup button bar appears.
 
-[IMAGE OF BAR]
+![Courses List](/img/docs/crunch-insert.png)
 
 If you have not yet added any code, then you should see the button bar already there in the top of the code area.
 

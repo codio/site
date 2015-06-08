@@ -35,7 +35,7 @@ If you have not yet added any code, then you should see the button bar already t
 Click on the '+' to add a new instruction.
 
 ## Instructions
-Codio comes with a good base set of instructionsd. To see the full set of instruction, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions.
+Codio comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions.
 
 The following instructions are not available in Little Man Computer and provide a more complete experience.
 

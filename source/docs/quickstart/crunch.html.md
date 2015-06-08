@@ -6,13 +6,21 @@ full_width: true
 
 Crunch is a modern, full-featured alternative to Little Man Computer. It is testament to Little Man Computer that it is still being used many years later. We have taken inspiration from it and given it a modern feel and a more complete instruction set that allows you to focus on thinking about your algorithm rather than having to learn the syntax. 
 
-Here is a quick guide on how to use Crunch.
+## Video Overview
 
-## Video
-[Click here](https://vimeo.com/130014963) for a video overview of Crunch.
+<div class="video">
+<div class="video-wrapper">
+<iframe src="//player.vimeo.com/video/130090893" width="600" height="370" frameborder="0" webkitallowfullscreen mozallowflscreen allowfullscreen></iframe>
+</div>
+</div>
 
 ## Creating a Crunch file
 If you want to create your own Crunch files in a Codio project, create a new file of type Crunch by giving it the `.crunch` extension.
+
+A new file is created from either the File menu or by right-clicking on the project name line in the file tree.
+
+![](/img/docs/new-file.png)
+
 
 ## Saving changes
 All changes are changed automatically, so you don't have to explicitly save.
@@ -27,7 +35,9 @@ If you have not yet added any code, then you should see the button bar already t
 Click on the '+' to add a new instruction.
 
 ## Instructions
-Codio comes with a reasonable base set of instruction mnemonics that can be extended. Instructions that Codio offers are very useful and allow for a much more natural approach when compared to the Little Man Computer instruction set.
+Codio comes with a good base set of instructionsd. To see the full set of instruction, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions.
+
+The following instructions are not available in Little Man Computer and provide a more complete experience.
 
 - `BGT` branch if greater than
 - `BGE` branch if greater than or equal to
@@ -42,19 +52,19 @@ Codio comes with a reasonable base set of instruction mnemonics that can be exte
 - `INC` increment the accumulator by 1
 - `DEC` decrement the acculumator by 1
 
-After you have pressed the '+' button you are able to scroll through the instruction list, where you will be shown descriptions of the commands, or you can simply type the instruction mnemonic (3 letter instruction) and press enter.
+You can access the full instruction list from the dropdown when you add a new instruction or you can simply type the instruction mnemonic (3 letter instruction) and press enter.
 
 ## Adding labels
 Instructions such as `BEQ`, `BNE`, `BLT`, `BLE`, `BGT`, `BGE`, `JMP` require that you jump to a specific label if the condition is met. You can add such a label by pressing the add label button from the floating toolbar.
 
-[IMAGE WITH CIRCLED LABEL BUTON]
+![](/img/docs/crunch-label.png)
 
 Enter a label name that can be used as a target for the above listed instructions.
 
 ## Comments
 If you want to add comments to your code, click the comment button, circled below, and you can add a comment description into the code.
 
-[IMAGE]
+![](/img/docs/crunch-comment.png)
 
 ## Selecting lines of code - deleting or moving
 If you want to select one or more lines of code (to delete or move to another location) then you should do the following
@@ -71,16 +81,18 @@ One very nice way of running your code is to step through it line by line so you
 
 At any time, you can press the Run button to run to completion at full speed.
 
-### Run Mode
+![](/img/docs/crunch-step.png)
+
+### Run mode
 This runs your program at full speed.
 
 ## Output window
 All output is written to the output window at the bottom of the screen, which is scrollable.
 
-## Stack listing
+## Stack contents
 If you push the accumulator to the stack using the `PSH` command, the stack content is displayed in a scrollable window within the display below the code window. As you `POP` items off the stack, you will see the topmost item being removed.
 
-## Undo & Redo
+## Undo & redo
 You can undo and redo changes using the buttons on the right hand side.
 
 

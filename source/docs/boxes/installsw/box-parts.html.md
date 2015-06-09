@@ -6,6 +6,10 @@ full_width: true
 
 Codio provides a rich set of so-called Box Parts that are very rapidly installable packages that can be installed either using our Install Software screen (`Tools->Install software` menu item) or via the command line.
 
+See also [Stacks](/docs/dashboard/stacks/listing/) where you can create new Projects and Boxes from pre existing Stack libraries.
+
+As of June 2015 a subscription is required to install software packages. Existing users are not affected. 
+
 You can also install software by downloading and compiling from source code.
 
 As covered in the next section, [Coding your own Packages](/docs/boxes/installsw/parts-coding) you can also create your own Box Parts packages.

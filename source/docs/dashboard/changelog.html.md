@@ -8,13 +8,16 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### June 11th, 2015
+- **Fixed**: Fix Organisation [Invitation Token](/docs/dashboard/organizations/adding-members/) to Read Only
+
 ### June 8th, 2015
 - **Update**: Updated Dashboard to improve performance and support future Education Improvements
 - **Feature**: Added [Crunch](/docs/quickstart/crunch) (a modern, full-featured alternative to Little Man Computer) 
 - **Feature**: Added [Flow Charting](/docs/quickstart/flow) tool.
 
 ### June 2nd, 2015
-- **Update** update Box Parts (googleappengine, googleappenginego, googleappenginejava)
+- **Update**: update Box Parts (googleappengine, googleappenginego, googleappenginejava)
 
 ### May 2015
 - **Update** (May 25th) update Box Parts (rethinkdb, rust)

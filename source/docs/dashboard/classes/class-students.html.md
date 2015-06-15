@@ -8,9 +8,11 @@ Once you have selected a class, click on the Student menu item as shown below.
 
 ![Classes Add Students](/img/docs/class_addstudents.png)
 
-From here you can add students to the class by clicking on the Students link.
+From here you can add students to the class by enabling the 'Edit Students' toggle button and then add in new students.
 
-You can enter the Codio user name or a part of their full name within the `add another user` field.
+Use the drop down to show you the list of all Students currently available in your Organisation and select them.
 
-You can remove students by pressing the `Remove` button next to a student name.
+You can also start typing in the field to enter the Codio user name or a part of their full name and as you type the list will automatically filter for you.
+
+You can remove students by pressing the `Delete` button next to a student name.
 

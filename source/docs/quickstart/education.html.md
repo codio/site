@@ -1,18 +1,18 @@
 ---
-title: Education
+title: Education Overview
 class_name: docs
 full_width: trues
 ---
 
-Codio is the cloud coding and course content platform for teaching computer science in schools, universities and the vocational sector.  Schools worldwide are using Codio – from primary years (KS2 years 5 and 6 in the UK, grades 3-12 in the US system).
+Codio is the cloud coding and module content platform for teaching computer science in schools, universities and the vocational sector.  Schools worldwide are using Codio – from primary years (KS2 years 5 and 6 in the UK, grades 3-12 in the US system).
 
 As Computing and Computer Science take an increasingly prominent role in education systems worldwide, many education authorities are struggling with the complex challenges of classroom technology, student access on personal devices, software set up and the need to present an integrated learning environment where teaching materials and the coding and preview windows can co-exist.
 
 Codio solves these problems and delivers breakthrough benefits for schools in the following ways:
 
--	As a cloud platform, students can access their code from anywhere using just a browser.  Use school machines in the classroom, bring your own device, and continue on your personal machine for homework and coursework assignments.
+-	As a cloud platform, students can access their code from anywhere using just a browser.  Use school machines in the classroom, bring your own device, and continue on your personal machine for homework and modulework assignments.
 -	We’ve collaborated with leading UK exam board – OCR (Oxford, Cambridge & RSA) to bring you curriculum-based teaching content integrated within the Codio platform using Codio’s [Guides](/docs/ide/tools/guides/) authoring and publishing tools.
--	Codio’s school licences are inclusive of teaching content found in the [Courses](/docs/dashboard/courses/) menu under “Recommended”.  Teachers can also create their own course content, again using Codio’s [Guides](/docs/ide/tools/guides/) authoring and publishing tool.
+-	Codio’s school licences are inclusive of teaching content found in the [Modules](/docs/dashboard/modules/) menu under “Recommended”.  Teachers can also create their own Module content, again using Codio’s [Guides](/docs/ide/tools/guides/) authoring and publishing tool.
 -	The teaching content sits alongside the student workspace and the preview window creating a step change in student engagement and allowing the teacher to play a far more facilitative, coaching and supporting role.
 -	There is no software to install on classroom machines, nor on student machines, Codio comes pre-configured with all the software languages, frameworks and databases you’ll need.
 -	You can also use Codio [Stacks](/docs/quickstart/stacks/) and [Starter Packs](/docs/quickstart/packs/) to pre-configure entire environments for learning, including languages, databases, web servers, components and even entire code workspaces.

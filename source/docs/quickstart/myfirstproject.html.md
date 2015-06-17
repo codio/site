@@ -6,7 +6,7 @@ full_width: true
 
 The first thing you will want to do is to create a new Project and try some coding. Check out the options below and why not start off by using a Starter Pack (see below)?
 
-A project is a combination of a Box and your code workspace. When you open up your projects, the IDE file tree will be pointed to the code workspace automatically and can be found at `~/codio~workspace`. 
+A project is a combination of a Box and your code workspace. When you open up your projects, the IDE file tree will be pointed to the code workspace automatically and can be found at `~/workspace`. 
 
 Start off by ...
 

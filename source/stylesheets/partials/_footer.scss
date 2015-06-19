@@ -1,0 +1,41 @@
+footer {
+  @include outer-container(100%);
+
+  margin-top: 40px;
+  padding: 60px 0;
+  border-top: 1px solid $lighter-gray;
+
+  .outer-container {
+    @include outer-container;
+  }
+
+  .inner-container {
+    @include shift(2);
+    @include span-columns(11);
+  }
+
+  .footer-copyright {
+    @include span-columns(3);
+  }
+
+  .footer-logo {
+    width: 120px;
+  }
+
+  .footer-list {
+    @include shift;
+    @include span-columns(2);
+  }
+
+  a {
+    color: $light-gray;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  a:hover {
+    color: $dark-gray;
+  }
+}

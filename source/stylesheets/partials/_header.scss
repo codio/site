@@ -1,0 +1,47 @@
+header {
+  @include fill-parent();
+  @include outer-container(100%);
+  background: $dark-gray;
+  height: 65px;
+  margin: 0;
+
+  .outer-container {
+    @include outer-container;
+    height: 65px;
+  }
+
+  .inner-container {
+    @include shift;
+    @include span-columns(13);
+  }
+
+  .logo-link {
+    margin-top: 14px;
+    float: left;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  nav {
+    margin-top: 25px;
+    float: right;
+  }
+
+  nav a {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  nav ul {
+    list-style: none;
+  }
+
+  nav li {
+    float: left;
+    margin-right: 30px;
+  }
+}

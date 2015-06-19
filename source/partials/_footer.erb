@@ -1,39 +1,74 @@
 <footer>
-  <div id="socials">
-    <div class="container"><a href="https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw">
-        <div id="youtube"></div></a><a href="https://www.facebook.com/CodioHQ">
-        <div id="facebook"></div></a><a href="https://plus.google.com/+Codio/">
-        <div id="google"></div></a><a href="https://twitter.com/codiohq">
-        <div id="twitter"></div></a></div>
-  </div>
-  <div id="footer-links">
-    <div class="container">
-      <ul>
+  <div class="outer-container">
+    <div class="inner-container">
+      <div class="footer-copyright">
+        <%= image_tag 'logo-dark.svg', class: 'footer-logo' %>
+        <p>Copyright © 2015 Codio</p>
+        <p>All rights reserved</p>
+      </div>
+
+      <ul class="footer-list">
         <li>
-          <h4>Codio</h4>
+          <h4>Product</h4>
         </li>
-        <li><a href="/pricing/edu">Pricing</a></li>
-        <li><a href="/blog">Blog</a></li>
+        <li>
+          <%= link_to 'Login', '/p/login' %>
+        </li>
+        <li>
+          <%= link_to 'Pricing', '/pricing' %>
+        </li>
+        <li>
+          <%= link_to 'Features', '/features' %>
+        </li>
       </ul>
-      <ul>
+      <ul class="footer-list">
         <li>
-          <h4>About</h4>
+          <h4>Company</h4>
         </li>
-        <li><a href="/about">Our Company</a></li>
-        <li><a href="/about/#team">Our Team</a></li>
-        <li><a href="/legal">Legal</a></li>
+        <li>
+          <%= link_to 'Our Mission', '/mission' %>
+        </li>
+        <li>
+          <%= link_to 'Our Team', '/team' %>
+        </li>
+        <li>
+          <%= link_to 'Blog', 'https://codio.ghost.io' %>
+        </li>
+        <li>
+          <%= link_to 'Legal Details', '/legal' %>
+        </li>
       </ul>
-      <ul>
+      <ul class="footer-list">
         <li>
-          <h4>Help</h4>
+          <h4>Support</h4>
         </li>
-        <li><a href="/docs">Docs</a></li>
-        <li><a href="http://forum.codio.com/">Community</a></li>
-        <li><a href="http://status.codio.com/">Status</a></li>
+        <li>
+          <%= link_to 'Documentation', '/docs' %>
+        </li>
+        <li>
+          <%= link_to 'Community', 'http://forum.codio.com' %>
+        </li>
+        <li>
+          <%= link_to 'System Status', 'https://status.codio.com' %>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <h4>Connect</h4>
+        </li>
+        <li>
+          <%= link_to 'Twitter', 'https://twitter.com/codiohq' %>
+        </li>
+        <li>
+          <%= link_to 'Youtube', 'https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw' %>
+        </li>
+        <li>
+          <%= link_to 'Facebook', 'https://www.facebook.com/CodioHQ' %>
+        </li>
+        <li>
+          <%= link_to 'Google+', 'https://plus.google.com/+Codio/' %>
+        </li>
       </ul>
     </div>
-  </div>
-  <div id="footer-copy">
-    <p>© Codio  2015 All rights reserved</p>
   </div>
 </footer>

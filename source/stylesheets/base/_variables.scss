@@ -8,10 +8,13 @@ $heading-font-family: $base-font-family;
 $mono-font-family: $source-code;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 15px;
+
+// Font Weights
+$base-font-weight: 300;
 
 // Line height
-$base-line-height: 1.5;
+$base-line-height: 1.2;
 $heading-line-height: 1.2;
 
 // Other Sizes
@@ -25,6 +28,7 @@ $blue: #5988e1;
 $dark-gray: #212c3f;
 $medium-gray: #29374e;
 $light-gray: #a8b2c4;
+$lighter-gray: #ecf1f5;
 
 // Font Colors
 $base-background-color: #fff;

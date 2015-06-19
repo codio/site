@@ -1,19 +1,21 @@
 <header>
-  <div class="container">
-    <a href="/"><div class="logo"></div></a>
-    <div id="menu-toggle"></div>
-    <nav>
-      <ul>
-        <li <% if current_page.path.start_with?("docs") then concat 'class="active"' end %>>
-          <a href="/docs">Docs</a>
-        </li>
-        <li <% if current_page.path.start_with?("pricing") then concat 'class="active"' end %>>
-          <a href="/pricing/edu">Pricing</a>
-        </li>
-        <li><a href="http://forum.codio.com/">Community</a></li>
-        <li><a href="/p/login">Sign in</a></li>
-        <li><a href="https://codio.com/p/signup" class="button">Get started</a></li>
-      </ul>
-    </nav>
+  <div class="outer-container">
+    <div class="inner-container">
+      <a href="/" class="logo-link"><%= image_tag 'logo-light.svg', class: 'logo' %></a>
+      <div id="menu-toggle"></div>
+      <nav>
+        <ul>
+          <li <% if current_page.path.start_with?("docs") then concat 'class="active"' end %>>
+            <a href="/docs">Docs</a>
+          </li>
+          <li <% if current_page.path.start_with?("pricing") then concat 'class="active"' end %>>
+            <a href="/pricing/edu">Pricing</a>
+          </li>
+          <li><a href="http://forum.codio.com/">Community</a></li>
+          <li><a href="/p/login">Sign in</a></li>
+          <li><a href="https://codio.com/p/signup" class="button">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>

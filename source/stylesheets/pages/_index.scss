@@ -1,0 +1,36 @@
+
+.header-block {
+  @include outer-container(100%);
+
+  background: $dark-gray;
+  height: 600px;
+
+  color: white;
+
+  h1 {
+    margin-top: 90px;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    animation-delay: .4s;
+  }
+
+  .outer-container {
+    @include outer-container;
+  }
+
+  .inner-container {
+    @include shift;
+    @include span-columns(13);
+
+  }
+
+  .action-buttons {
+    margin: 90px auto 0 auto;
+    width: 220px;
+
+    .button:first-child {
+      margin-right: 15px;
+    }
+  }
+}

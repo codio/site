@@ -10,10 +10,27 @@
   font-weight: 700;
   text-transform: uppercase;
 
-  transition: all 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
 }
 
 .button:hover {
   color: $blue;
   background-color: white;
+}
+
+.button.button-large {
+  padding: 6px 25px;
+  border-radius: 17px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.button.button-info {
+  color: $dark-gray;
+  background-color: white;
+}
+
+.button.button-info:hover {
+  color: $blue;
 }

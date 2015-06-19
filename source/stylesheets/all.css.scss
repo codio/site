@@ -1,8 +1,11 @@
+//= require 'animate.css/animate.css'
+
 @charset 'utf-8';
 
 @import 'bourbon';
 @import 'base/base';
 @import 'neat';
+
 
 
 body {
@@ -22,3 +25,5 @@ main {
 
 @import 'partials/header';
 @import 'partials/footer';
+
+@import 'pages/index';

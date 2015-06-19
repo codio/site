@@ -16,15 +16,23 @@ footer {
 
   .footer-copyright {
     @include span-columns(3);
+    font-size: 12px;
   }
 
   .footer-logo {
     width: 120px;
+    margin-bottom: 20px;
   }
 
   .footer-list {
     @include shift;
     @include span-columns(2);
+  }
+
+  .footer-list h4 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 
   a {

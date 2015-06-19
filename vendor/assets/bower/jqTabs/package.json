@@ -1,9 +1,0 @@
-{
-	"name": "jqTabs",
-	"version": "0.4.6",
-	"dependencies" :
-	{
-		"coffee-script-redux" : "2.0.x",
-		"uglify-js"		:  "2.x"
-	}
-}

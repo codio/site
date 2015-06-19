@@ -65,18 +65,6 @@ activate :automatic_clowncar,
 activate :asset_host
 set :asset_host, ENV["M_ASSET_HOST"] || "http://localhost:4567"
 
-
-activate :blog do |blog|
-  blog.layout            = "blog"
-  blog.prefix            = "blog"
-  blog.permalink         = ":year/:month/:title.html"
-  blog.sources           = "articles/:year/:month/:title.html"
-  blog.paginate          = true
-  blog.tag_template      = "blog/tag.html"
-  blog.calendar_template = "blog/calendar.html"
-  blog.taglink           = "{tag}.html"
-end
-
 activate :directory_indexes
 
 ignore '*.ordered'

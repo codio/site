@@ -1,40 +1,19 @@
 <header>
-
-  <nav class="top">
-    <a href="" id="menu-toggle">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a class="logo" href="/"></a>
-    <a href="" class="actions signed-out outline-button">Sign Up</a>
-    <a href="/home" class="userlink actions signed-in">
-      <img class="gravatar" alt="Gravatar"></img>
-    </a>
-  </nav>
-  <nav class="left slide-menu">
-    <div class="wrapper">
-      <a class="logo" href="/"></a>
-      <div class="links">
-        <a href="https://www.youtube.com/watch?v=1JNhoVbmNAo&feature=youtu.be" class="badge" target="_blank">
-          <%= image_tag "bett-badge.jpg" %>
-          <span>Watch our Story</span>
-        </a>
-        <%= link_to_nav "Docs", "/docs" %>
-        <%= link_to_nav "Pricing", "/pricing/edu" %>
-        <a href="http://forum.codio.com">Community</a>
-
-        <a href="/p/login" class="actions signed-out">
-          Sign In
-        </a>
-        <a href="/p/signup" class="actions signed-out outline-button">
-          Sign Up
-        </a>
-        <a href="/home" class="userlink actions signed-in">
-          <img class="gravatar" alt="Gravatar"></img>
-          <span></span>
-        </a>
-      </div>
-    </div>
-  </nav>
+  <div class="container">
+    <a href="/"><div class="logo"></div></a>
+    <div id="menu-toggle"></div>
+    <nav>
+      <ul>
+        <li <% if current_page.path.start_with?("docs") then concat 'class="active"' end %>>
+          <a href="/docs">Docs</a>
+        </li>
+        <li <% if current_page.path.start_with?("pricing") then concat 'class="active"' end %>>
+          <a href="/pricing/edu">Pricing</a>
+        </li>
+        <li><a href="http://forum.codio.com/">Community</a></li>
+        <li><a href="/p/login">Sign in</a></li>
+        <li><a href="https://codio.com/p/signup" class="button">Get started</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
-
-<header class="artwork"></header>

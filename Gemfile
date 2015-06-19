@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 gem "middleman", "~> 3.3.12"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.4.2"
+gem "middleman-livereload", :github => "middleman/middleman-livereload", :branch => "master"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]

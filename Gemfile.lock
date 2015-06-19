@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/vast/middleman-es6.git
+  revision: a3f63cb33f0c6df923abbc9f03f3bda1c018a622
+  specs:
+    middleman-es6 (0.1.0)
+      babel-transpiler
+      middleman-core (>= 3.3.12, < 4.0)
+      middleman-sprockets (> 3.3)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -8,6 +17,10 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.8)
+    babel-source (5.4.7)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
     bitters (1.0.0)
       bourbon (>= 3.2)
       sass (>= 3.2)
@@ -185,6 +198,7 @@ DEPENDENCIES
   middleman-automatic-clowncar (~> 0.0.4)
   middleman-blog (~> 3.5.3)
   middleman-bower (~> 1.0.2)
+  middleman-es6!
   middleman-livereload (~> 3.4.2)
   middleman-minify-html (~> 3.4.1)
   middleman-sitemap (~> 0.0.13)

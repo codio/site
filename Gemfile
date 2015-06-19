@@ -46,7 +46,7 @@ gem "sass", "~> 3.4.14"
 gem "bourbon", "~> 4.2.3"
 gem "bitters", "~> 1.0.0"
 gem "neat", "~> 1.7.0"
-
+gem "middleman-es6", github: "vast/middleman-es6"
 gem "middleman-bower", "~> 1.0.2"
 
 # For Heroku

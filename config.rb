@@ -90,6 +90,8 @@ page "50x.html", :directory_index => false
 
 activate :bower
 
+activate :es6
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -114,9 +116,6 @@ configure :build do
     html.remove_http_protocol = false
     html.remove_https_protocol = true
   end
-
-  # Disable in development
-  #activate :imageoptim
 
   activate :gzip
   activate :cache_buster

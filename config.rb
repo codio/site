@@ -77,8 +77,12 @@ page "50x.html", :directory_index => false
 # activate :automatic_image_sizes
 
 activate :bower
-
 activate :es6
+
+activate :autoprefixer do |config|
+  config.browsers = ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1']
+end
+
 
 # Reload the browser automatically whenever files change
 configure :development do

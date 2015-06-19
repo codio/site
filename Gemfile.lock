@@ -27,6 +27,9 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.8)
+    autoprefixer-rails (5.2.0.1)
+      execjs
+      json
     babel-source (5.4.7)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
@@ -100,6 +103,9 @@ GEM
       middleman-sprockets (> 3.2.0)
       mini_magick (~> 3.7.0)
       sass (~> 3.4.0)
+    middleman-autoprefixer (2.5.0)
+      autoprefixer-rails (~> 5.2.0)
+      middleman-core (>= 3.3.3)
     middleman-bower (1.0.2)
       sprockets-bower (>= 0.0.2)
     middleman-core (3.3.12)
@@ -198,6 +204,7 @@ DEPENDENCIES
   coffee-script (~> 2.4.1)
   middleman (~> 3.3.12)
   middleman-automatic-clowncar (~> 0.0.4)
+  middleman-autoprefixer (~> 2.5.0)
   middleman-bower (~> 1.0.2)
   middleman-es6!
   middleman-livereload!

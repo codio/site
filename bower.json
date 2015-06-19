@@ -6,6 +6,7 @@
     "zepto": "~1.1.4",
     "html5shiv": "~3.7.2",
     "blueimp-md5": "~1.1.0",
-    "zeptotouch": "~1.1.4"
+    "zeptotouch": "~1.1.4",
+    "animate.css": "~3.3.0"
   }
 }

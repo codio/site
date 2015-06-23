@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### June 23rd, 2015
+- **Improvement**: include course name in modules listings and support filter by course name
+
 ### June 11th, 2015
 - **Fixed**: Fix Organisation [Invitation Token](/docs/dashboard/organizations/adding-members/) to Read Only
 

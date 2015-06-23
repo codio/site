@@ -1,7 +1,7 @@
 ---
 title: Tkinter
 class_name: docs
-full_width: true 
+full_width: true
 ---
 
 There are a number of teachers who use the tkinter UI library for Python. Tkinter normally relies on a local PC with a graphics card. Codio, being Cloud based, does not not have graphics cards. Nevertheless, we have found a way to make it work.
@@ -47,7 +47,7 @@ This gives you a complete set of demo widgets. From the main dashboard, select '
 Search for 'tkinter' in the search field then select the 'TKinter Widgets' pack as shown in step 4. above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the Create button at the bottom of the page and a new project will be created.
 
 ### TKinter Widgets
-This Pack contains a set of widget demo files that you can play with. 
+This Pack contains a set of widget demo files that you can play with.
 
 Once your project opens, you can quickly play with this in one of 2 ways using the ‘Rocket’ menu item. This is the Codio menu item with a rocket next to it.
 
@@ -95,20 +95,16 @@ We would recommend that you configure your `.codio` file to have an option to st
 
 ```javascript
 {
-// Configure your Run and Preview buttons here.
+  // Configure your Run and Preview buttons here.
 
-// Run button configuration
+  // Run button configuration
   "commands": {
-        "Start Current": "python3 {{filename}}"
+    "Start Current": "python3 {{filename}}"
   },
 
-// Preview button configuration
+  // Preview button configuration
   "preview": {
-        "Viewer": "https://{{domain}}:9500/"
+    "Viewer": "https://{{domain}}:9500/"
   }
 }
 ```
-
-
-
-

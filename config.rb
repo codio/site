@@ -50,7 +50,7 @@ activate :sitemap,
          :gzip => false,
          :hostname =>  "https://codio.com"
 
-activate :syntax
+activate :syntax, line_numbers: true
 
 activate :automatic_clowncar,
          :sizes => {

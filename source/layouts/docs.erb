@@ -3,27 +3,56 @@
   <%- pages = nav_pages(current_resource.url) -%>
 
   <main class="docs-page">
+    <div class="content">
 
-    <nav>
-    </nav>
+      <div class="docs-header-navigation">
+        <div class="docs-header-navigation-item">
+          <h2 class="navigation-header-student">Student</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing edivt
+          </p>
+        </div>
+        <div class="docs-header-navigation-item">
+          <h2 class="navigation-header-teacher">Teacher</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing edivt
+          </p>
+        </div>
+        <div class="docs-header-navigation-item">
+          <h2 class="navigation-header-dashboard">Dashboard</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing edivt
+          </p>
+        </div>
+        <div class="docs-header-navigation-item">
+          <h2 class="navigation-header-ide">IDE</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing edivt
+          </p>
+        </div>
+      </div>
 
-    <section class="content">
-      <div class="container">
-        <aside id="docs-menu">
-          <ul>
-            <% pages.each do |resource| %>
-              <li>
-                <ul>
-                  <% ordered(resource).each do |child| %>
-                    <li>
-                      <% active = current_section?(child.url) ? "active" : "" %>
-                      <h5 class="<%= active %>"><%=  link_to child.data.title, child.url %></h5>
-                        <ul class="<%= active %>">
-                        <% ordered(child).each do |p| %>
-                          <% if current_section? p.url %>
-                            <li class="active">
-                              <%=  link_to p.data.title, p.url %>
-                              <% if p.children.length > 0 %>
+      <aside id="docs-menu">
+        <ul>
+          <% pages.each do |resource| %>
+            <li>
+              <ul>
+                <% ordered(resource).each do |child| %>
+                  <li>
+                    <% active = current_section?(child.url) ? "active" : "" %>
+                    <h5 class="<%= active %>">
+                      <% if ordered(child).length > 0 %>
+                        <%= child.data.title %>
+                      <% else %>
+                        <%=  link_to child.data.title, child.url %>
+                      <% end %>
+                    </h5>
+                    <ul class="<%= active %>">
+                      <% ordered(child).each do |p| %>
+                        <% if current_section? p.url %>
+                          <li class="active">
+                            <%=  link_to p.data.title, p.url %>
+                            <% if p.children.length > 0 %>
                               <ul>
                                 <% ordered(p).each do |inner| %>
                                   <% if current_page? inner.url %>
@@ -34,29 +63,29 @@
                                   <%= link_to inner.data.title, inner.url %></li>
                                 <% end %>
                               </ul>
-                              <% end %>
-                          <% else %>
-                              <li>
-                                <%=  link_to p.data.title, p.url %>
-                          <% end %>
-                          </li>
+                            <% end %>
+                        <% else %>
+                            <li>
+                              <%=  link_to p.data.title, p.url %>
                         <% end %>
-                      </ul>
-                    </li>
-                  <% end %>
-                </ul>
-              </li>
-            <% end %>
-          </ul>
-        </aside>
+                            </li>
+                      <% end %>
+                    </ul>
+                </li>
+                <% end %>
+              </ul>
+          </li>
+          <% end %>
+        </ul>
+      </aside>
 
-        <article>
-          <%= yield %>
-          <%= partial "vendors/disqus" %>
-        </article>
-      </div>
-    </section>
-
+      <article>
+        <h1>
+          <%= current_resource.data.title %>
+        </h1>
+        <%= yield %>
+      </article>
+    </div>
   </main>
 <% end %>
 

@@ -1,20 +1,76 @@
 body.docs {
 
-  main.docs-page {
+  .docs-page {
     @include outer-container(100%);
     margin-top: 150px;
 
-    section.content {
+    .content {
       @include outer-container;
     }
-    aside {
+
+    .docs-header-navigation {
       @include shift(2);
-      @include span-columns(2);
+      @include span-columns(11);
+      border-bottom: 1px solid $lighter-gray;
+      padding-bottom: 40px;
+      margin-bottom: 75px;
+    }
+
+    .docs-header-navigation-item {
+      @include shift(1 of 15);
+      @include span-columns(3 of 15);
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+
+      h2 {
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: .2em;
+
+        &:before {
+          content: '';
+          position: absolute;
+          z-index: 0;
+          margin-top: -70px;
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .navigation-header-student:before {
+        background: url('/img/assets/docs-navigation/student.png') no-repeat left center;
+      }
+
+      .navigation-header-teacher:before {
+        background: url('/img/assets/docs-navigation/teacher.png') no-repeat left center;
+      }
+
+      .navigation-header-dashboard:before {
+        background: url('/img/assets/docs-navigation/dashboard.png') no-repeat left center;
+      }
+
+      .navigation-header-ide:before {
+        background: url('/img/assets/docs-navigation/ide.png') no-repeat left center;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+
+
+    aside {
+      @include shift(2 of 15);
+      @include span-columns(2 of 15);
     }
 
     article {
-      @include shift;
-      @include span-columns(7);
+      @include shift(1 of 15);
+      @include span-columns(7 of 15);
       @include omega;
 
       p {
@@ -23,23 +79,13 @@ body.docs {
 
       img {
         float: right;
-        margin: 50px -60px 50px 0;
-        width: 110%;
+        margin: 50px -96px 50px 0;
+        width: 115%;
         max-width: none;
         background-image: url('/img/assets/docs-image-frame.png');
         padding: 96px 0 0 76px;
         border-radius: 2px;
         max-height: 700px;
-      }
-
-      code {
-        font-family: $mono-font-family;
-        font-size: 14px;
-        font-weight: 300;
-        background: $very-light-blue;
-        border: 1px solid $lighter-blue;
-        border-radius: 2px;
-        padding: 0 .3em;
       }
 
       b {

@@ -1,0 +1,113 @@
+.highlight {
+  .hll { background-color: #ffffcc }
+  .c { color: #0099FF; font-style: italic } /* Comment */
+  .err { color: #AA0000; background-color: #FFAAAA } /* Error */
+  .k { color: #006699; font-weight: 600 } /* Keyword */
+  .o { color: #555555; padding: 0 .3em; } /* Operator */
+  .cm { color: #0099FF; font-style: italic } /* Comment.Multiline */
+  .cp { color: #009999 } /* Comment.Preproc */
+  .c1 { color: #0099FF; font-style: italic } /* Comment.Single */
+  .cs { color: #0099FF; font-weight: 600; font-style: italic } /* Comment.Special */
+  .gd { background-color: #FFCCCC; border: 1px solid #CC0000 } /* Generic.Deleted */
+  .ge { font-style: italic } /* Generic.Emph */
+  .gr { color: #FF0000 } /* Generic.Error */
+  .gh { color: #003300; font-weight: 600 } /* Generic.Heading */
+  .gi { background-color: #CCFFCC; border: 1px solid #00CC00 } /* Generic.Inserted */
+  .go { color: #AAAAAA } /* Generic.Output */
+  .gp { color: #000099; font-weight: 600 } /* Generic.Prompt */
+  .gs { font-weight: 600 } /* Generic.Strong */
+  .gu { color: #003300; font-weight: 600 } /* Generic.Subheading */
+  .gt { color: #99CC66 } /* Generic.Traceback */
+  .kc { color: #006699; font-weight: 600 } /* Keyword.Constant */
+  .kd { color: #006699; font-weight: 600 } /* Keyword.Declaration */
+  .kn { color: #006699; font-weight: 600 } /* Keyword.Namespace */
+  .kp { color: #006699 } /* Keyword.Pseudo */
+  .kr { color: #006699; font-weight: 600 } /* Keyword.Reserved */
+  .kt { color: #007788; font-weight: 600 } /* Keyword.Type */
+  .m { color: #FF6600 } /* Literal.Number */
+  .s { color: #CC3300 } /* Literal.String */
+  .na { color: #330099 } /* Name.Attribute */
+  .nb { color: #336666 } /* Name.Builtin */
+  .nc { color: #00AA88; font-weight: 600 } /* Name.Class */
+  .no { color: #336600 } /* Name.Constant */
+  .nd { color: #9999FF } /* Name.Decorator */
+  .ni { color: #999999; font-weight: 600 } /* Name.Entity */
+  .ne { color: #CC0000; font-weight: 600 } /* Name.Exception */
+  .nf { color: #CC00FF } /* Name.Function */
+  .nl { color: #9999FF } /* Name.Label */
+  .nn { color: #00CCFF; font-weight: 600 } /* Name.Namespace */
+  .nt { color: #5988e1; font-weight: 600 } /* Name.Tag */
+  .nv { color: #003333 } /* Name.Variable */
+  .ow { color: #000000; font-weight: 600 } /* Operator.Word */
+  .w { color: #bbbbbb } /* Text.Whitespace */
+  .mf { color: #FF6600 } /* Literal.Number.Float */
+  .mh { color: #FF6600 } /* Literal.Number.Hex */
+  .mi { color: #FF6600 } /* Literal.Number.Integer */
+  .mo { color: #FF6600 } /* Literal.Number.Oct */
+  .sb { color: #CC3300 } /* Literal.String.Backtick */
+  .sc { color: #CC3300 } /* Literal.String.Char */
+  .sd { color: #CC3300; font-style: italic } /* Literal.String.Doc */
+  .s2 { color: #CC3300 } /* Literal.String.Double */
+  .se { color: #CC3300; font-weight: 600 } /* Literal.String.Escape */
+  .sh { color: #CC3300 } /* Literal.String.Heredoc */
+  .si { color: #AA0000 } /* Literal.String.Interpol */
+  .sx { color: #CC3300 } /* Literal.String.Other */
+  .sr { color: #33AAAA } /* Literal.String.Regex */
+  .s1 { color: #CC3300 } /* Literal.String.Single */
+  .ss { color: #FFCC33 } /* Literal.String.Symbol */
+  .bp { color: #336666 } /* Name.Builtin.Pseudo */
+  .vc { color: #003333 } /* Name.Variable.Class */
+  .vg { color: #003333 } /* Name.Variable.Global */
+  .vi { color: #003333 } /* Name.Variable.Instance */
+  .il { color: #FF6600 } /* Literal.Number.Integer.Long */
+
+
+
+  background-color: white;
+  margin: $base-spacing -60px $base-spacing 0;
+
+  & > table {
+    border: 1px solid $lighter-gray;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #788d9e;
+
+    td {
+      border: none;
+
+      &.gutter {
+        width: 40px;
+        padding-right: 10px;
+        border-right: 1px solid $lighter-gray;
+        font-size: 13px;
+        line-height: 20px;
+        color: $light-gray;
+        font-weight: 600;
+      }
+
+      &.code {
+        background: white;
+        line-height: 20px;
+        padding: 20px;
+        overflow-x: auto;
+
+        pre {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+
+code {
+  font-family: $mono-font-family;
+  color: #788d9e;
+  font-size: 13px;
+  font-weight: 600;
+  background: white;
+  border: 1px solid $lighter-gray;
+  border-radius: 2px;
+  padding: 0 .3em;
+}

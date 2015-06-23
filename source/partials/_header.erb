@@ -6,14 +6,20 @@
       <nav>
         <ul>
           <li <% if current_page.path.start_with?("docs") then concat 'class="active"' end %>>
-            <a href="/docs">Docs</a>
+            <%= link_to 'Docs', '/docs' %>
           </li>
           <li <% if current_page.path.start_with?("pricing") then concat 'class="active"' end %>>
-            <a href="/pricing/edu">Pricing</a>
+            <%= link_to 'Pricing', '/pricing' %>
           </li>
-          <li><a href="http://forum.codio.com/">Community</a></li>
-          <li><a href="/p/login">Sign in</a></li>
-          <li><a href="https://codio.com/p/signup" class="button">Sign Up</a></li>
+          <li>
+            <%= link_to 'Community', 'http://forum.codio.com' %>
+          </li>
+          <li>
+            <%= link_to 'Log in', '/p/login' %>
+          </li>
+          <li>
+            <%= link_to 'Sign up', '/p/signup' %>
+          </li>
         </ul>
       </nav>
     </div>

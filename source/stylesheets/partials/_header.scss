@@ -5,6 +5,13 @@ header {
   height: 65px;
   margin: 0;
 
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
   .outer-container {
     @include outer-container;
     height: 65px;
@@ -27,7 +34,7 @@ header {
   }
 
   nav {
-    margin-top: 25px;
+    margin-top: 20px;
     float: right;
   }
 

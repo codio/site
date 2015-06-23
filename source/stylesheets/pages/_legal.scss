@@ -23,7 +23,7 @@ body.legal {
 
   aside {
     @include shift(1);
-    @include span-columns(2);
+    @include span-columns(3);
     @include omega;
   }
 }

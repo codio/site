@@ -2,7 +2,7 @@ body.docs {
 
   main.docs-page {
     @include outer-container(100%);
-    margin-top: 100px;
+    margin-top: 150px;
 
     section.content {
       @include outer-container;

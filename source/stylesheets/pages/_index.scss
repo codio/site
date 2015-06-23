@@ -2,7 +2,9 @@
 .header-block {
   @include outer-container(100%);
 
-  background: $dark-gray;
+  background: url('/img/assets/landing-01.png') no-repeat center center fixed;
+  background-size: cover;
+  background-color: $dark-gray;
   height: 100%;
   margin-top: -65px;
 

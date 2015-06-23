@@ -12,10 +12,8 @@ Having created the Class, select it and then the 'Modules' tab. Enable the 'Edit
 ## Searching for Modules
 The Module browser will open for you to search for the module(s) you wish to add.
 
-Coming Soon: You will also be able to search for Courses to add the Modules contained in the Course
+You can search and filter by Courses to add the Modules contained in those Course(s) as well as filter from the available options in the tabs, or search by simply typing into the search field, whereupon Codio will search within all Module names, descriptions and owner fields and filter your list accordingly.
 
-You can filter from the available options in the tabs, or search by simply typing into the search field, whereupon Codio will search within all Module names, descriptions and owner fields and filter your list accordingly.
-
-You can also order the list of modules by name or owner
+You can also order the list by name or owner.
 
 ![Module Browser](/img/docs/module_browser.png)

@@ -19,7 +19,7 @@ Having created the course, select it and then the 'Modules' tab. Enable the 'Edi
 ## Searching for Modules
 The Module browser will open for you to search for the module(s) you wish to add. 
 
-You can filter from the available options in the tabs, or search by simply typing into the search field, whereupon Codio will search within all Module names, descriptions and owner fields and filter your list accordingly.
+You can filter by course and also from the available options in the tabs, or search by simply typing into the search field, whereupon Codio will search within all Module names, descriptions and owner fields and filter your list accordingly.
 
 You can also order the list of modules by name or owner
 

@@ -13,6 +13,8 @@ header {
   .inner-container {
     @include shift;
     @include span-columns(13);
+    animation-delay: .8s;
+    animation-duration: .5s;
   }
 
   .logo-link {
@@ -43,5 +45,19 @@ header {
   nav li {
     float: left;
     margin-right: 30px;
+  }
+
+  nav li a {
+    opacity: .7;
+    transition: opacity .2s ease-in-out;
+  }
+
+  nav li a:hover {
+    color: white;
+    opacity: 1;
+  }
+
+  nav li.active a {
+    opacity: 1;
   }
 }

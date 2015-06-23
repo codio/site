@@ -3,16 +3,24 @@
   @include outer-container(100%);
 
   background: $dark-gray;
-  height: 600px;
+  height: 100%;
+  margin-top: -65px;
 
   color: white;
 
   h1 {
-    margin-top: 90px;
+    margin-top: 200px;
     font-size: 40px;
     font-weight: 300;
     text-align: center;
     animation-delay: .4s;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    animation-delay: .8s;
   }
 
   .outer-container {
@@ -26,11 +34,45 @@
   }
 
   .action-buttons {
+    animation-delay: 1.2s;
     margin: 90px auto 0 auto;
-    width: 220px;
+    width: 200px;
 
     .button:first-child {
       margin-right: 15px;
     }
   }
+
+  .scrolldown {
+    .arrows {
+      width: 60px;
+      height: 72px;
+      position: absolute;
+      left: 50%;
+      margin-left: -30px;
+      bottom: 60px;
+    }
+
+    .arrows path {
+      stroke: white;
+      fill: transparent;
+      stroke-width: 1px;
+      animation: arrow 3s infinite;
+    }
+
+    @keyframes arrow {
+      0% {opacity: .4}
+      40% {opacity: 1}
+      80% {opacity: .4}
+      100% {opacity: .4}
+    }
+
+    .arrows path.a3 {
+      animation-delay:0s;
+    }
+  }
+}
+
+main {
+
 }

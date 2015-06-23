@@ -26,12 +26,15 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  opacity: 1;
+  transition: visibility 0s linear .5s, opacity .5s ease-in-out;
+  visibility: visible;
 }
 
 .loading.loaded {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
-
 
 @import 'elements/buttons';
 

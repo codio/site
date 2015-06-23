@@ -1,5 +1,5 @@
 /* globals $ */
 
 $(() => {
-  $('.loading').hide()
+  $('.loading').addClass('loaded')
 })

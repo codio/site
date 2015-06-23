@@ -10,7 +10,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 ### June 23rd, 2015
 - **Improvement**: include course name in modules listings
-- **Improvement**: add support to search for courses in creating classes
+- **Improvement**: add ability to filter modules listing for recommended Courses
 
 ### June 11th, 2015
 - **Fixed**: Fix Organisation [Invitation Token](/docs/dashboard/organizations/adding-members/) to Read Only

@@ -32,14 +32,6 @@ body {
   display: none;
 }
 
-main {
-  @include outer-container;
-}
-
-.container {
-  @include shift;
-  @include span-columns(13);
-}
 
 @import 'elements/buttons';
 
@@ -47,3 +39,5 @@ main {
 @import 'partials/footer';
 
 @import 'pages/index';
+@import 'pages/docs';
+@import 'pages/legal';

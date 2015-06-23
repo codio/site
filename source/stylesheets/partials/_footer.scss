@@ -1,6 +1,7 @@
 footer {
   @include outer-container(100%);
-
+  width: 100%;
+  float: left;
   margin-top: 40px;
   padding: 60px 0;
   border-top: 1px solid $lighter-gray;

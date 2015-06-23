@@ -6,7 +6,7 @@ full_width: true
 
 The first thing you will want to do is to create a new Project and try some coding. Check out the options below and why not start off by using a Starter Pack (see below)?
 
-A project is a combination of a Box and your code workspace. When you open up your projects, the IDE file tree will be pointed to the code workspace automatically and can be found at `~/workspace`. 
+A project is a combination of a Box and your code workspace. When you open up your projects, the IDE file tree will be pointed to the code workspace automatically and can be found at `~/workspace`.
 
 Start off by ...
 
@@ -23,7 +23,7 @@ Select a commonly used Stack:
 - **Python3:** Python3 Stack with no code workspace
 - **Codio Base Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
 
-or 
+or
 
 Select an alternative software configuration where you can:
 
@@ -31,4 +31,3 @@ Select an alternative software configuration where you can:
 - Or a [Starter Pack](/docs/quickstart/packs/) which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
 - Or import code in from Git, Mercurial, FTP, SFTP or a Zip file.
 - If you are a student, you can also check out [Modules](/docs/quickstart/modules/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/ide/tools/guides/), giving you on-screen instructions while you code.
-

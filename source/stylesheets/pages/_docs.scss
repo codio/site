@@ -1,0 +1,60 @@
+body.docs {
+
+  main.docs-page {
+    @include outer-container(100%);
+    margin-top: 100px;
+
+    section.content {
+      @include outer-container;
+    }
+    aside {
+      @include shift(2);
+      @include span-columns(2);
+    }
+
+    article {
+      @include shift;
+      @include span-columns(7);
+      @include omega;
+
+      p {
+        //padding-right: 60px;
+      }
+
+      img {
+        float: right;
+        margin: 50px -60px 50px 0;
+        width: 110%;
+        max-width: none;
+        background-image: url('/img/assets/docs-image-frame.png');
+        padding: 96px 0 0 76px;
+        border-radius: 2px;
+        max-height: 700px;
+      }
+
+      code {
+        font-family: $mono-font-family;
+        font-size: 14px;
+        font-weight: 300;
+        background: $very-light-blue;
+        border: 1px solid $lighter-blue;
+        border-radius: 2px;
+        padding: 0 .3em;
+      }
+
+      b {
+        font-weight: 500;
+      }
+
+      ul, ol {
+        list-style: initial;
+        padding-left: 20px;
+        margin-bottom: $small-spacing;
+      }
+
+      #disqus_thread {
+        margin: 100px 0 50px 0;
+      }
+    }
+  }
+}

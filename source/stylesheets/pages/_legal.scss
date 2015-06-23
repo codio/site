@@ -1,0 +1,29 @@
+body.legal {
+  main.container {
+    @include outer-container(100%);
+    margin-top: 100px;
+  }
+
+  main .inner-container {
+    @include outer-container;
+  }
+
+  article {
+    @include shift(3);
+    @include span-columns(6);
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 20px
+    }
+  }
+
+  aside {
+    @include shift(1);
+    @include span-columns(2);
+    @include omega;
+  }
+}

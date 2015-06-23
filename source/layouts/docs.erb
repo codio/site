@@ -4,23 +4,8 @@
 
   <main class="docs-page">
 
-    <section class="header">
-      <div class="container">
-        <div>
-          <div id="docs-menu-toggle"></div>
-          <%= link_to pages.first.data.title, pages.first.url %>
-        </div>
-        <div>
-          <h1><%= current_page.data.title %></h1>
-        </div>
-        <div>
-          <form id="search-input">
-            <%= image_tag "icons/search_icon.png" %>
-            <input type="text" placeholder="Search" id="st-search-input" class="st-search-input" />
-          </form>
-        </div>
-      </div>
-    </section>
+    <nav>
+    </nav>
 
     <section class="content">
       <div class="container">
@@ -28,9 +13,6 @@
           <ul>
             <% pages.each do |resource| %>
               <li>
-                <h2>
-                  <%= image_tag "new/lg/docs_#{resource.data.title.gsub(' ', '-').downcase}_lg.png" %>
-                </h2>
                 <ul>
                   <% ordered(resource).each do |child| %>
                     <li>

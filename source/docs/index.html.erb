@@ -1,6 +1,5 @@
 ---
 title: Documentation - Codio
-layout: layout
 ---
 
 <main>
@@ -8,7 +7,6 @@ layout: layout
     <div class="container">
       <h1>Documentation</h1>
       <form id="search-input">
-        <%= image_tag "icons/search_icon.png" %>
         <input type="text" placeholder="Search" id="st-search-input" class="st-search-input" />
       </form>
     </div>
@@ -19,8 +17,6 @@ layout: layout
       <div class="docs-section">
         <div>
           <div class="icon">
-            <span></span>
-            <%= image_tag "new/lg/docs_#{resource.data.title.gsub(' ', '-').downcase}_lg.png" %>
           </div>
           <h2><%= link_to resource.data.title, resource.url %></h2>
         </div>

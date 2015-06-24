@@ -1,10 +1,11 @@
 ---
 title: Flow
+description: "Getting started"
 class_name: docs
 full_width: true
 ---
 
-Flow is a simple flowcharting tool designed to help you create flowcharts for your algorithm and computational thinking courses. 
+Flow is a simple flowcharting tool designed to help you create flowcharts for your algorithm and computational thinking courses.
 
 ## Video overview
 
@@ -39,7 +40,7 @@ You can select multiple elements in one of the following ways
 Selected elements can then be dragged to a new position.
 
 ## Connecting with lines
-You can connect elements together with a line. If you move your mouse over an element, you will see the places where you can connect a line. These appear as small 'x' symbols. 
+You can connect elements together with a line. If you move your mouse over an element, you will see the places where you can connect a line. These appear as small 'x' symbols.
 
 Click and drag in one of these locations and move your mouse to a connect location on another element. When you release the mouse the line will be drawn.
 
@@ -56,7 +57,7 @@ To add some text to a line by double-clicking the line. Start typing and you wil
 Once you have added text you can move the text area by clicking on it (it should not be in edit mode) then dragging it to a new location.
 
 ## Panning, scrolling & zooming
-Your flow chart can be much bigger than the available screen size. You can pan around your flow chart by dragging the background. 
+Your flow chart can be much bigger than the available screen size. You can pan around your flow chart by dragging the background.
 
 If you are looking to multi-select rather than pan, you just need to press the shift key before dragging.
 
@@ -67,5 +68,3 @@ You can copy an existing chart element by
 
 - selecting the element, then clicking and dragging on the '+' symbol that appears.
 - using copy and paste keyboard shortcuts
-
-

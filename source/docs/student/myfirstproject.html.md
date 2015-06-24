@@ -1,5 +1,6 @@
 ---
 title: "My First Project"
+description: "Getting started"
 class_name: docs
 full_width: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Starter Packs"
+description: "Getting started"
 class_name: docs
 full_width: true
 ---
@@ -11,7 +12,7 @@ A Starter Pack gives you the ability to configure both a Stack and project code 
 You can use this feature so you and others you give access, to are able to instantly create a working project without the need to install either code or dependencies.
 
 ##Creating a Project from a Pack
-To create a Project from your Starter Packs listing, simply select it and you'll be shown the information screen. 
+To create a Project from your Starter Packs listing, simply select it and you'll be shown the information screen.
 
 ![Pack Info](/img/docs/packs_info.png)
 

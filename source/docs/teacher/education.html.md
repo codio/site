@@ -1,5 +1,6 @@
 ---
-title: Education Overview
+title: Introduction
+description: "Getting started"
 class_name: docs
 full_width: trues
 ---

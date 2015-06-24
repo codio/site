@@ -1,5 +1,6 @@
 ---
 title: School setup
+description: "Getting started"
 class_name: docs
 full_width: true
 ---
@@ -39,7 +40,7 @@ If you already have students and teachers who have created Codio accounts, you s
 - Go to `Organisation Settings` area and create an invitation token.
 - Send the generated link out to all who you wish to include in your organisation and they will be automatically added. (If they do not already have a Codio account, they will be taken through the sign up process and then added to your organisation).
 
-Alternatively 
+Alternatively
 
 - For students, click on 'All Members' and then locate the Student by name or user id.
 - For teachers, do the same, but we will shortly be adding a special Teachers team.
@@ -66,9 +67,3 @@ Below are a couple of screenshots to give you a taste of what is around the corn
 ![](/img/docs/education/class-dash-1.jpg)
 ![](/img/docs/education/class-dash.jpg)
 ![](/img/docs/education/class-marks.jpg)
-
-
-
-
-
-

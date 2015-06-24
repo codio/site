@@ -1,10 +1,11 @@
 ---
 title: Crunch
+description: "Getting started"
 class_name: docs
 full_width: true
 ---
 
-Crunch is a modern, full-featured alternative to Little Man Computer. It is testament to Little Man Computer that it is still being used many years later. We have taken inspiration from it and given it a modern feel and a more complete instruction set that allows you to focus on thinking about your algorithm rather than having to learn the syntax. 
+Crunch is a modern, full-featured alternative to Little Man Computer. It is testament to Little Man Computer that it is still being used many years later. We have taken inspiration from it and given it a modern feel and a more complete instruction set that allows you to focus on thinking about your algorithm rather than having to learn the syntax.
 
 ## Video Overview
 
@@ -41,7 +42,7 @@ The following instructions are not available in Little Man Computer and provide 
 
 - `BGT` branch if greater than
 - `BGE` branch if greater than or equal to
-- `BLT` branch if less than 
+- `BLT` branch if less than
 - `BLE` branch if less than or equal to
 - `BEQ` branch if equal to
 - `BNE` branch if not equal to
@@ -94,6 +95,3 @@ If you push the accumulator to the stack using the `PSH` command, the stack cont
 
 ## Undo & redo
 You can undo and redo changes using the buttons on the right hand side.
-
-
-

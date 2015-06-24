@@ -68,6 +68,46 @@ body.docs {
     aside {
       @include shift(2 of 15);
       @include span-columns(2 of 15);
+
+
+      .item {
+        margin: 5px -15px;
+        padding: 5px 15px;
+      }
+
+      .item.active {
+        background: $light-blue;
+        border-radius: 2px;
+
+        .item-header a,
+        .item-description {
+          color: white;
+        }
+
+        .item-description {
+          font-weight: 400;
+        }
+      }
+
+      .item-header a {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $base-font-color;
+        transition: color .2s ease-in-out;
+
+        &:hover {
+          color: $light-blue;
+        }
+      }
+
+      .item-description {
+        color: $base-font-color;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: none;
+        margin-bottom: 0;
+      }
     }
 
     article {

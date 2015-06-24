@@ -40,13 +40,19 @@
                 <% ordered(resource).each do |child| %>
                   <li>
                     <% active = current_section?(child.url) ? "active" : "" %>
-                    <h5 class="<%= active %>">
+                    <div class="<%= active %> item">
+                      <div class="item-header">
                       <% if ordered(child).length > 0 %>
                         <%= child.data.title %>
+                        </div>
                       <% else %>
                         <%=  link_to child.data.title, child.url %>
+                        </div>
+                        <p class="item-description">
+                          <%= child.data.description %>
+                        </p>
                       <% end %>
-                    </h5>
+                    </div>
                     <ul class="<%= active %>">
                       <% ordered(child).each do |p| %>
                         <% if current_section? p.url %>

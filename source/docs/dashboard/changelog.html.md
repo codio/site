@@ -11,6 +11,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 ### June 24th, 2015
 - **Fixed**: Delete project dialogs
 - **Feature**: Added support for [Tkinter](/docs/quickstart/tkinter)
+- **Improvement**: Add `Need Help? Contact Us` link to Dashboard
 
 ### June 23rd, 2015
 - **Improvement**: include course name in modules listings

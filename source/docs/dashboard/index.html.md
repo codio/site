@@ -1,5 +1,6 @@
 ---
 title: "Dashboard"
+description: "Where is what in your home"
 class_name: docs
 full_width: true
 ---
@@ -21,5 +22,3 @@ This also contains the main navigation options for the main Codio listings
 - [Organizations](/docs/dashboard/organizations/)
 - [Account Settings](/docs/dashboard/settings/)
 - [Billing](/docs/dashboard/billing/)
-
-

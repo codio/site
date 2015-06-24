@@ -51,3 +51,4 @@ gem "middleman-bower", "~> 1.0.2"
 # For Heroku
 gem "puma"
 gem "rake"
+gem "rack-contrib"

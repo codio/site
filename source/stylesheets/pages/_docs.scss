@@ -12,7 +12,6 @@ body.docs {
       @include shift(2);
       @include span-columns(11);
       border-bottom: 1px solid $lighter-gray;
-      padding-bottom: 40px;
       margin-bottom: 75px;
     }
 
@@ -20,16 +19,30 @@ body.docs {
       @include shift(1 of 15);
       @include span-columns(3 of 15);
 
+      height: 150px;
+
       &:first-child {
         margin-left: 0;
       }
 
+      &.active {
+        border-bottom: 1px solid $light-blue;
+
+        &:hover h2 {
+          color: $base-font-color;
+        }
+      }
+
+      &:hover h2 {
+        color: $light-blue;
+      }
 
       h2 {
         font-size: 18px;
         margin-top: 40px;
         margin-bottom: .2em;
         color: $base-font-color;
+        transition: color .2s ease-in-out;
 
         &:before {
           content: '';

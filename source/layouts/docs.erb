@@ -4,32 +4,18 @@
 
   <main class="docs-page">
     <div class="content">
-
       <div class="docs-header-navigation">
-        <a href="/docs/teacher" class="docs-header-navigation-item">
-          <h2 class="navigation-header-student">Teacher</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing edivt
-          </p>
-        </a>
-        <a href="/docs/student" class="docs-header-navigation-item">
-          <h2 class="navigation-header-teacher">Student</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing edivt
-          </p>
-        </a>
-        <a href="/docs/dashboard" class="docs-header-navigation-item">
-          <h2 class="navigation-header-dashboard">Dashboard</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing edivt
-          </p>
-        </a>
-        <a href="/docs/ide" class="docs-header-navigation-item">
-          <h2 class="navigation-header-ide">IDE</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing edivt
-          </p>
-        </a>
+        <% ordered_simple(top_pages('docs'), '/docs').each do |resource| %>
+          <% active = current_section?(resource.url) ? "active" : "" %>
+          <% title = resource.data.title %>
+
+          <a href="<%= resource.url %>" class="<%= active %> docs-header-navigation-item">
+            <h2 class="navigation-header-<%= title.downcase %>"><%= title %></h2>
+            <p>
+              <%= resource.data.description %>
+            </p>
+          </a>
+        <% end %>
       </div>
 
       <aside id="docs-menu">

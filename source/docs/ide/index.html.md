@@ -1,5 +1,6 @@
 ---
 title: "IDE"
+description: "Get to know the editor"
 class_name: docs
 full_width: true
 ---

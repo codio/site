@@ -71,7 +71,7 @@ This Stack will not give you any preconfigured buttons (see the above 'Starter P
 You can now create your Python files and run Tkinter. Here are some tips on how to do this.
 
 ### Running the Python file
-To run a Python file you will need to use the Terminal or configure you own Codio button shortcut. To use the terminal, open a new Terminal from the Tools->Terminal menu item. Then make sure you are in the correct folder and type `python3 mypythonfile.py'.
+To run a Python file you will need to use the Terminal or configure you own Codio button shortcut. To use the terminal, open a new Terminal from the Tools->Terminal menu item. Then make sure you are in the correct folder and type `python3 mypythonfile.py`.
 
 Once this is running, do not close the terminal window or you will terminate the Python process. Go to the right most Codio menu and from the dropdown, select 'Box URL SSL'. This will open up the viewer.
 
@@ -79,7 +79,7 @@ For information on how to set up your own Codio menu buttons, [click here](/docs
 
 
 ## From scratch
-For those of you who want to add Tkinter support to an existing Codio project, you should follow the steps below. Adding the XServer component will add support for more any application that writes to the screen.
+For those of you who want to add Tkinter support to an existing Codio project, you should follow the steps below. Adding the XServer component will add support for any application that writes to the screen.
 
 
 ![](/img/docs/xserver-install.png)
@@ -91,7 +91,7 @@ For those of you who want to add Tkinter support to an existing Codio project, y
 - Press the Autostart button to ensure that this is automatically started whenever your Box starts up. If it does not complete, which can sometimes happen, then just shut down the Install Software window. It will have worked.
 
 
-We would recommend that you configure your `.codio` file to have an option to start the viewer. This is [described here](/docs/boxes/runmenu/). You should either add overwrite the entire contents of this file with the content shown below, or if you already have a `.codio` file with contents you want to keep, just add the line with the 'Viewer' entry you can see below into the `preview` section.
+We would recommend that you configure your `.codio` file to have an option to start the viewer. This is [described here](/docs/boxes/runmenu/). You should either overwrite the entire contents of this file with the content shown below, or if you already have a `.codio` file with contents you want to keep, just add the line with the 'Viewer' entry you can see below into the `preview` section.
 
 ```javascript
 {

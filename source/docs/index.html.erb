@@ -3,40 +3,7 @@ title: Documentation - Codio
 ---
 
 <main>
-  <section class="header">
-    <div class="container">
-      <h1>Documentation</h1>
-      <form id="search-input">
-        <input type="text" placeholder="Search" id="st-search-input" class="st-search-input" />
-      </form>
-    </div>
-  </section>
-
-  <section class="container">
-    <% ordered(current_resource).each do |resource| %>
-      <div class="docs-section">
-        <div>
-          <div class="icon">
-          </div>
-          <h2><%= link_to resource.data.title, resource.url %></h2>
-        </div>
-
-        <div class="links">
-          <% mid = (resource.children.length / 2.to_f).ceil %>
-          <div class="first">
-            <% ordered(resource)[0..mid-1].each do |child| %>
-              <%= link_to child.data.title, child.url %>
-            <% end %>
-          </div>
-          <div class="second">
-            <% ordered(resource)[mid..-1].each do |child| %>
-              <%= link_to child.data.title, child.url %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-    <% end %>
-  </section>
+  <h1>Everybody needs  a little help</h1>
 </main>
 
 <%= partial "vendors/swiftype" %>

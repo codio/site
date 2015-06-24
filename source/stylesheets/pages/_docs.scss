@@ -29,6 +29,7 @@ body.docs {
         font-size: 18px;
         margin-top: 40px;
         margin-bottom: .2em;
+        color: $base-font-color;
 
         &:before {
           content: '';
@@ -58,6 +59,7 @@ body.docs {
 
       p {
         font-size: 16px;
+        color: $base-font-color;
       }
     }
 

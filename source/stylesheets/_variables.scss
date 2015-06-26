@@ -7,21 +7,19 @@ $base-font-family: $brandon;
 $heading-font-family: $base-font-family;
 $mono-font-family: $source-code;
 
-// Font Sizes
+
 $base-font-size: 18px;
 
 // Font Weights
 $base-font-weight: 300;
 
 // Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
+$base-line-height: 1.5rem;
+$header-line-height: 1.2em;
 
-// Other Sizes
-$base-border-radius: 3px;
-$base-spacing: $base-line-height * 1em;
-$small-spacing: $base-spacing / 2;
-$base-z-index: 0;
+$rhythm-unit: 'rem';
+$rem-with-px-fallback: true;
+
 
 // Colors
 $very-light-blue: #f7f9fc;
@@ -42,6 +40,9 @@ $action-color: $blue;
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
-// Forms
-$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Break points
+$break-tablet: 50rem;
+
+
+$max-width: 1200px;

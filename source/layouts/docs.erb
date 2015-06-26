@@ -2,8 +2,7 @@
 
   <%- pages = nav_pages(current_resource.url) -%>
 
-  <main class="docs-page">
-    <div class="content">
+    <div class="docs-content">
       <div class="docs-header-navigation">
         <% ordered_simple(top_pages('docs'), '/docs').each do |resource| %>
           <% active = current_section?(resource.url) ? "active" : "" %>
@@ -18,7 +17,7 @@
         <% end %>
       </div>
 
-      <aside id="docs-menu">
+      <aside class="docs-menu">
         <ul>
           <% pages.each do |resource| %>
             <li>
@@ -77,8 +76,7 @@
         </h1>
         <%= yield %>
       </article>
-    </div>
-  </main>
+
 <% end %>
 
 <%= partial "vendors/swiftype" %>

@@ -1,31 +1,27 @@
 <% wrap_layout :'layout' do %>
-  <main class="container">
-    <div class="inner-container">
-      <article>
-        <h2 class="title"><%= current_page.data.title %></h2>
-        <div class="content">
-          <%= yield %>
-        </div>
-      </article>
+<aside class="sidebar">
+  <nav>
+    <ul id="legal-menu">
 
-      <aside class="sidebar">
-        <nav>
-          <ul id="legal-menu">
+      <% sub_pages("legal").each do |resource| %>
+        <% if current_resource.data.title == resource.data.title %>
+          <li class="active">
+            <a href="#"><span><%= resource.data.title %></span></a>
+          </li>
+        <% else %>
+          <li>
+            <%= link_to resource.data.title, resource.url %>
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+  </nav>
+</aside>
 
-            <% sub_pages("legal").each do |resource| %>
-              <% if current_resource.data.title == resource.data.title %>
-                <li class="active">
-                  <a href="#"><span><%= resource.data.title %></span></a>
-                </li>
-              <% else %>
-                <li>
-                  <%= link_to resource.data.title, resource.url %>
-                </li>
-              <% end %>
-            <% end %>
-          </ul>
-        </nav>
-      </aside>
-    </div>
-  </main>
+<article>
+  <h2 class="title"><%= current_page.data.title %></h2>
+  <%= yield %>
+</article>
+
+
 <% end %>

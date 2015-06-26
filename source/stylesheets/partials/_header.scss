@@ -1,7 +1,4 @@
 header {
-  @include fill-parent();
-  @include outer-container(100%);
-  background: $dark-gray;
   height: 65px;
   margin: 0;
 
@@ -11,18 +8,20 @@ header {
     left: 0;
     right: 0;
     z-index: 999;
+    background: $dark-gray;
   }
 
-  .outer-container {
-    @include outer-container;
+  .container {
+    @include container;
     height: 65px;
-  }
-
-  .inner-container {
-    @include shift;
-    @include span-columns(13);
     animation-delay: .8s;
     animation-duration: .5s;
+
+    @include breakpoint($break-tablet) {
+      @include container(13 of 15);
+      margin: 0 span(1 of 15);
+      max-width: $max-width;
+    }
   }
 
   .logo-link {
@@ -37,6 +36,11 @@ header {
   nav {
     margin-top: 20px;
     float: right;
+    display: none;
+
+    @include breakpoint($break-tablet) {
+      display: block;
+    }
   }
 
   nav a {

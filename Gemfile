@@ -40,13 +40,13 @@ gem "middleman-minify-html", "~> 3.4.1"
 
 # Preocmpilers
 
-gem "coffee-script", "~> 2.4.1"
 gem "sass", "~> 3.4.14"
-gem "bourbon", "~> 4.2.3"
-gem "bitters", "~> 1.0.0"
-gem "neat", "~> 1.7.0"
 gem "middleman-es6", github: "vast/middleman-es6"
 gem "middleman-bower", "~> 1.0.2"
+
+gem "compass"
+gem "susy"
+gem "breakpoint"
 
 # For Heroku
 gem "puma"

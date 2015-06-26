@@ -1,108 +1,125 @@
-body.docs {
+.docs-content {
+  @include container;
+  padding-top: 2 * $base-line-height;
 
-  .docs-page {
-    @include outer-container(100%);
-    margin-top: 150px;
+  .docs-header-navigation {
+    @include span(4);
+    margin-bottom: 3 * $base-line-height;
 
-    .content {
-      @include outer-container;
-    }
-
-    .docs-header-navigation {
-      @include shift(2);
-      @include span-columns(11);
+    @include breakpoint($break-tablet) {
+      @include span(16 of 16);
       border-bottom: 1px solid $lighter-gray;
-      margin-bottom: 75px;
+    }
+  }
+
+  .docs-header-navigation-item {
+    @include span(2 of 4);
+    height: 5 * $base-line-height;
+    padding-top: $base-line-height;
+
+    &:nth-child(3) {
+      @include break;
     }
 
-    .docs-header-navigation-item {
-      @include shift(1 of 15);
-      @include span-columns(3 of 15);
+    @include breakpoint($break-tablet) {
+      @include span(4 of 16);
+      padding-top: 0;
 
-      height: 150px;
-
-      &:first-child {
-        margin-left: 0;
+      &:nth-child(3) {
+        @include nobreak;
       }
+    }
 
-      &.active {
+    &.active {
+      @include breakpoint($break-tablet) {
         border-bottom: 1px solid $light-blue;
-
-        &:hover h2 {
-          color: $base-font-color;
-        }
-      }
-
-      &:hover h2 {
-        color: $light-blue;
       }
 
       h2 {
-        font-size: 18px;
-        margin-top: 40px;
-        margin-bottom: .2em;
-        color: $base-font-color;
-        transition: color .2s ease-in-out;
-
-        &:before {
-          content: '';
-          position: absolute;
-          z-index: 0;
-          margin-top: -70px;
-          width: 50px;
-          height: 50px;
-        }
+        color: $light-blue;
       }
 
-      .navigation-header-student:before {
-        background: url('/img/assets/docs-navigation/student.png') no-repeat left center;
-      }
-
-      .navigation-header-teacher:before {
-        background: url('/img/assets/docs-navigation/teacher.png') no-repeat left center;
-      }
-
-      .navigation-header-dashboard:before {
-        background: url('/img/assets/docs-navigation/dashboard.png') no-repeat left center;
-      }
-
-      .navigation-header-ide:before {
-        background: url('/img/assets/docs-navigation/ide.png') no-repeat left center;
-      }
-
-      p {
-        font-size: 16px;
+      &:hover h2 {
         color: $base-font-color;
       }
     }
 
+    &:hover h2 {
+      color: $light-blue;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-top: 40px;
+      margin-bottom: .2em;
+      color: $base-font-color;
+      transition: color .2s ease-in-out;
+
+      &:before {
+        content: '';
+        position: absolute;
+        z-index: 0;
+        margin-top: -50px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .navigation-header-student:before {
+      background: url('/img/assets/docs-navigation/student.png') no-repeat left center;
+    }
+
+    .navigation-header-teacher:before {
+      background: url('/img/assets/docs-navigation/teacher.png') no-repeat left center;
+    }
+
+    .navigation-header-dashboard:before {
+      background: url('/img/assets/docs-navigation/dashboard.png') no-repeat left center;
+    }
+
+    .navigation-header-ide:before {
+      background: url('/img/assets/docs-navigation/ide.png') no-repeat left center;
+    }
+
+    p {
+      font-size: 16px;
+      color: $base-font-color;
+    }
+  }
 
 
-    aside {
-      @include shift(2 of 15);
-      @include span-columns(2 of 15);
 
+  aside {
+    display: none;
 
-      .item {
-        margin: 5px -15px;
-        padding: 5px 15px;
+    @include breakpoint($break-tablet) {
+      display: block;
+      @include span(3 of 16);
+    }
+    .item {
+      margin-left: - $base-line-height / 2;
+      padding: .2rem $base-line-height / 2;
+      margin-bottom: $base-line-height / 2;
+    }
+
+    .item.active {
+      background: $light-blue;
+      border-radius: 2px;
+
+      .item-header a,
+      .item-description {
+        color: white;
       }
 
-      .item.active {
-        background: $light-blue;
-        border-radius: 2px;
-
-        .item-header a,
-        .item-description {
-          color: white;
-        }
-
-        .item-description {
-          font-weight: 400;
-        }
+      .item-description {
+        font-weight: 400;
       }
+    }
 
-      .item-header a {
+    .item-header {
+      line-height: 19px;
+
+      a {
         font-size: 14px;
         font-weight: 700;
         text-transform: uppercase;
@@ -113,49 +130,52 @@ body.docs {
           color: $light-blue;
         }
       }
+    }
 
-      .item-description {
-        color: $base-font-color;
-        font-size: 14px;
-        font-weight: 300;
-        text-transform: none;
-        margin-bottom: 0;
+    .item-description {
+      color: $base-font-color;
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: none;
+      margin-bottom: 0;
+    }
+  }
+
+  article {
+    @include span(4);
+
+    @include breakpoint($break-tablet) {
+      @include span(8 of 16);
+      margin-left: span(2 of 16);
+    }
+
+    img {
+      float: right;
+      margin: $base-line-height 0;
+
+      background-image: url('/img/assets/docs-image-frame.png');
+      padding: 96px 0 0 76px;
+      border-radius: 2px;
+      max-height: 700px;
+      width: span(8 of 8);
+
+      @include breakpoint($break-tablet) {
+        margin-top: 2 * $base-line-height;
+        margin-bottom: 2 * $base-line-height;
+        margin-right: - span(3 of 8);
+        width: span(11 of 8);
+        max-width: none;
       }
     }
 
-    article {
-      @include shift(1 of 15);
-      @include span-columns(7 of 15);
-      @include omega;
+    b {
+      font-weight: 500;
+    }
 
-      p {
-        //padding-right: 60px;
-      }
-
-      img {
-        float: right;
-        margin: 50px -96px 50px 0;
-        width: 115%;
-        max-width: none;
-        background-image: url('/img/assets/docs-image-frame.png');
-        padding: 96px 0 0 76px;
-        border-radius: 2px;
-        max-height: 700px;
-      }
-
-      b {
-        font-weight: 500;
-      }
-
-      ul, ol {
-        list-style: initial;
-        padding-left: 20px;
-        margin-bottom: $small-spacing;
-      }
-
-      #disqus_thread {
-        margin: 100px 0 50px 0;
-      }
+    ul, ol {
+      list-style: initial;
+      padding-left: 20px;
+      margin-bottom: $base-line-height;
     }
   }
 }

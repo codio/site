@@ -34,13 +34,9 @@ GEM
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
-    bitters (1.0.0)
-      bourbon (>= 3.2)
-      sass (>= 3.2)
-      thor
-    bourbon (4.2.3)
-      sass (~> 3.4)
-      thor
+    breakpoint (2.5.0)
+      sass (~> 3.3)
+      sassy-maps (< 1.0.0)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     chunky_png (1.3.4)
@@ -138,9 +134,6 @@ GEM
     mini_portile (0.6.2)
     minitest (5.7.0)
     multi_json (1.11.1)
-    neat (1.7.2)
-      bourbon (>= 4.0)
-      sass (>= 3.3)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     nokogiri (1.6.6.2-x64-mingw32)
@@ -169,6 +162,8 @@ GEM
     ref (1.0.5)
     rouge (1.9.0)
     sass (3.4.14)
+    sassy-maps (0.4.0)
+      sass (~> 3.3)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -181,6 +176,8 @@ GEM
       sprockets (~> 2.0)
       tilt (~> 1.1)
     subexec (0.2.3)
+    susy (2.2.5)
+      sass (>= 3.3.0, < 3.5)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
@@ -201,9 +198,8 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bitters (~> 1.0.0)
-  bourbon (~> 4.2.3)
-  coffee-script (~> 2.4.1)
+  breakpoint
+  compass
   middleman (~> 3.3.12)
   middleman-automatic-clowncar (~> 0.0.4)
   middleman-autoprefixer (~> 2.5.0)
@@ -213,7 +209,6 @@ DEPENDENCIES
   middleman-minify-html (~> 3.4.1)
   middleman-sitemap (~> 0.0.13)
   middleman-syntax (~> 2.0.0)
-  neat (~> 1.7.0)
   nokogiri (~> 1.6.6.2)
   oj (~> 2.12.9)
   puma
@@ -221,6 +216,7 @@ DEPENDENCIES
   rake
   redcarpet (~> 3.3.1)
   sass (~> 3.4.14)
+  susy
   therubyracer (~> 0.12.2)
   tzinfo-data
   wdm (~> 0.1.0)

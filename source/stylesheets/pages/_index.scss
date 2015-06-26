@@ -1,14 +1,28 @@
-
+body.index {
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: -65px auto 0 auto;
+    max-width: 100%;
+  }
+}
 .header-block {
-  @include outer-container(100%);
-
+  @include span(4);
   background: url('/img/assets/landing-01.png') no-repeat center center fixed;
   background-size: cover;
   background-color: $dark-gray;
-  height: 100%;
-  margin-top: -65px;
+  height: 100vh;
 
   color: white;
+
+  @include breakpoint($break-tablet) {
+
+  }
 
   h1 {
     margin-top: 200px;
@@ -23,16 +37,6 @@
     font-weight: 300;
     font-size: 20px;
     animation-delay: .8s;
-  }
-
-  .outer-container {
-    @include outer-container;
-  }
-
-  .inner-container {
-    @include shift;
-    @include span-columns(13);
-
   }
 
   .action-buttons {
@@ -75,6 +79,20 @@
   }
 }
 
-main {
-  margin-top: 200px;
+.index-content {
+  @include container;
+  @include break;
+  @include span(4);
+  padding-top: 3 * $base-line-height;
+
+  @include breakpoint($break-tablet) {
+    @include container(13 of 15);
+    max-width: $max-width;
+    float: inherit;
+  }
+
+  @include breakpoint($max-width) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

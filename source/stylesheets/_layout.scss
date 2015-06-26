@@ -1,0 +1,24 @@
+html {
+  width: 100%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  @include container;
+}
+
+.content {
+  @include container;
+  margin-top: 3 * $base-line-height;
+  margin-bottom: 3 * $base-line-height;
+
+  @include breakpoint($break-tablet) {
+    @include container(13 of 15);
+    margin-left: span(1 of 15);
+    margin-right: span(1 of 15);
+    max-width: $max-width;
+  }
+}

@@ -4,7 +4,7 @@
     <%= partial "head" %>
   </head>
 
-  <div class="loading"> </div>
+  <!-- <div class="loading"> </div> -->
   <body class="<%= page_classes %>">
     <!--[if lt IE 9]>
       <%= javascript_include_tag  "html5shiv" %>
@@ -16,7 +16,9 @@
 
     <%= partial "header" %>
 
-    <%= yield %>
+    <main class="content">
+      <%= yield %>
+    </main>
 
     <%= partial "footer" %>
 

@@ -3,6 +3,8 @@
 require "lib/helpers"
 helpers MyHelpers
 
+require "susy"
+
 ###
 # Page options, layouts, aliases and proxies
 ###

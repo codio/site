@@ -1,29 +1,20 @@
 body.legal {
-  main.container {
-    @include outer-container(100%);
-    margin-top: 100px;
-  }
-
-  main .inner-container {
-    @include outer-container;
-  }
 
   article {
-    @include shift(3);
-    @include span-columns(6);
-
-    h1 {
-      font-size: 30px;
-    }
-
-    h2 {
-      font-size: 20px
+    @include span(4);
+    @include breakpoint($break-tablet) {
+      @include span(8 of 16);
+      margin-left: span(2 of 16);
     }
   }
 
   aside {
-    @include shift(1);
-    @include span-columns(3);
-    @include omega;
+    @include span(4);
+
+    @include breakpoint($break-tablet) {
+      margin-top: 3 * $base-line-height;
+      @include span(3 of 16);
+      margin-left: span(1 of 16);
+    }
   }
 }

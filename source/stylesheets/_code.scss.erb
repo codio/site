@@ -64,9 +64,17 @@
 
 
   background-color: white;
-  margin: $base-spacing -60px $base-spacing 0;
+  margin: $base-line-height 0;
+
+  @include breakpoint($break-tablet) {
+    margin-right: - span(3 of 8);
+    width: span(11 of 8);
+    max-width: none;
+  }
 
   & > table {
+    font-family: $mono-font-family;
+    width: 100%;
     border: 1px solid $lighter-gray;
     border-radius: 2px;
     font-size: 14px;

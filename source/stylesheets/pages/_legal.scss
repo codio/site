@@ -12,7 +12,7 @@ body.legal {
     @include span(4);
 
     @include breakpoint($break-tablet) {
-      margin-top: 3 * $base-line-height;
+      margin-top: 4 * $base-line-height;
       @include span(3 of 16);
       margin-left: span(1 of 16);
     }

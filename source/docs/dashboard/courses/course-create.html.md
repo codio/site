@@ -20,4 +20,4 @@ You should also add tags that identify the technologies used. An image is also s
 This determines whether your Course and its constituent Modules are publicly available to all Codio users or should remain private to you and/or your [Organization](/docs/dashboard/organizations/) (if you are a member of an Organization). Private Courses require a paid subscription.
 
 ##Owner
-By default, you are the owner of the Course you create. If you select an Organization from the dropdown, then any Owner team members of that Organization are able to adminster the Course and all Organization members will be able to see it in the listing, even if the Course is marked as private.
+By default, you are the owner of the Course you create. If you select an Organization from the dropdown, then any Owner group members of that Organization are able to adminster the Course and all Organization members will be able to see it in the listing, even if the Course is marked as private.

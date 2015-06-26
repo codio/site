@@ -41,20 +41,30 @@ If you already have students and teachers who have created Codio accounts, you s
 
 Alternatively 
 
-- For students, click on 'All Members' and then locate the Student by name or user id.
-- For teachers, do the same, but we will shortly be adding a special Teachers team.
+- For students, click on 'Students' group and then locate the Student by name or user id.
+- For teachers, do the same, but select the 'Teachers' group.
 
-### CSV Upload
-We will soon be adding the ability to upload your own CSV files to create student accounts and also to create classes. Most schools have MIS systems that allow this data to be easily exported.
+### Upload Users
+You can also upload your own CSV files to create student and/or teacher accounts and also to create classes. Most schools have MIS systems that allow this data to be easily exported.
 
-In the short term you can email us your CSV file and we will process these for you. Please send this to help@codio.com.
+Go to the `Upload Users` tab and select the `Begin New Upload` button
 
-The file should be a CSV file with the following fields present : email (required), full name, user name, class.
+![Upload Users](/img/docs/organisation_upload.png)
 
-Only the email field is required. If your school uses internal user names for students then we advise using this. You can also specify the class that a student belongs to.
+The file should be a CSV file that can contain the following details: email (required), name, username, class.
+
+- If your CSV file includes Column names in the first row (as defined above), the order is not important but if your file does not contain the Column names in the first row the order of the content is important.
+- If you specify usernames in the upload file for your students/teachers and wish to minimize the chances of conflicts with existing user accounts, enable the `Prefix Usernames` option and you can then enter a short value. The username will be prefixed with this value.
+- If your CSV file includes a `class`, this will be created for you if it does not already exist. If the class already exists (please note case is important), the students/teachers will be added to that class for you.
+- Select the group you wish to add these users to.
+
+When you then `Upload & Preview` you will be shown a preview of the details to be uploaded where you can then edit/remove or even add new students/teacher to the list prior to completing the upload and they will receive an email with instructions on how to proceed. If there are any problems identified these will be shown to you.
+
+As the students/teachers complete the process, they will then be added to your group (and class if included in the csv file).
+
 
 ## Teacher Support Functionality
-In June 2015, we will be releasing a comprehensive set of features that allow teachers to fully manage their student classes and
+In July 2015, we will be releasing a comprehensive set of features that allow teachers to fully manage their student classes and
 
 - access student code
 - mark assessment questions within the Modules

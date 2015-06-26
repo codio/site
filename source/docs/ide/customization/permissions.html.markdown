@@ -14,7 +14,7 @@ By default:
 - No-one can edit a public project (but they can fork it)
 - No-one can see a private project
 
-Changing permissions allows you to give the following access permissions to Users and/or Teams.
+Changing permissions allows you to give the following access permissions to Users and/or Groups.
 
 - **Read** - View the project only
 - **Write** - Edit the project

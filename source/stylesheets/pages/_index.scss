@@ -21,6 +21,7 @@ body.index {
 
   @include breakpoint($break-tablet) {
     background: url('/img/assets/landing-01.png') no-repeat center center fixed;
+    background-color: $dark-gray;
   }
 
   h1 {
@@ -89,8 +90,10 @@ body.index {
   padding-top: 3 * $base-line-height;
 
   @include breakpoint($break-tablet) {
-    @include container(13 of 15);
     max-width: $max-width;
+    @include container(10 of 16);
+    width: span(10 of 16);
+    margin: 0 span(3 of 16);
     float: inherit;
   }
 

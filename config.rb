@@ -88,9 +88,14 @@ end
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload,
-           no_swf: true,
-           ignore: ['.tern-port']
+  activate :livereload, no_swf: true
+  set :file_watcher_ignore, [
+      %r{\.tern-port},
+      %r{flycheck_},
+      %r{node_modules/},
+      %r{vendor/},
+      %r{\.#}
+    ]
 end
 
 

@@ -91,6 +91,17 @@
 
   aside {
     display: none;
+    position: absolute;
+
+    &.affix-top {
+      margin-top: 8 * $base-line-height;
+      position: absolute;
+    }
+
+    &.affix {
+      top: 4 * $base-line-height;
+      position: fixed;
+    }
 
     @include breakpoint($break-tablet) {
       display: block;
@@ -146,7 +157,7 @@
 
     @include breakpoint($break-tablet) {
       @include span(8 of 16);
-      margin-left: span(2 of 16);
+      margin-left: span(5 of 16);
     }
 
     img {

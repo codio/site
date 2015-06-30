@@ -9,7 +9,9 @@ $(() => {
     const offset = 2 * headerHeight
     const target = $(id).offset().top - offset
 
-    $('window').smoothScroll(target, 500)
+    $('html, body').animate({
+      scrollTop: target
+    }, 500)
 
     event.preventDefault()
   })

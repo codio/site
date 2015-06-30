@@ -1,5 +1,4 @@
-//= require zepto
-//= require zeptotouch
+//= require jquery
 //= require cookie-monster
 //= require blueimp-md5
 //

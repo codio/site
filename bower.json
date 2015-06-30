@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "devDependencies": {
     "cookie-monster": "~0.3.0",
-    "zepto": "~1.1.4",
     "html5shiv": "~3.7.2",
     "blueimp-md5": "~1.1.0",
-    "zeptotouch": "~1.1.4",
-    "animate.css": "~3.3.0"
+    "animate.css": "~3.3.0",
+    "jquery": "~2.1.4"
   }
 }

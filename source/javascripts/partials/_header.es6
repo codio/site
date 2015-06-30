@@ -1,7 +1,10 @@
 /* globals $ */
 
 $(() => {
+
   const $header = $('header')
+  const $toggle = $('.menu-toggle')
+  const $nav = $('.mobile-nav')
 
   if (location.pathname === '/') {
     // Index page
@@ -16,15 +19,15 @@ $(() => {
 
       if (scrollTop >= offsetVal) {
         $header.addClass('fixed')
+        $toggle.addClass('fixed')
       } else {
         $header.removeClass('fixed')
+        $toggle.removeClass('fixed')
       }
     })
   }
 
   // Responsive Menu
-  const $toggle = $('.menu-toggle')
-  const $nav = $('.mobile-nav')
 
   $toggle.click(function (event) {
     event.preventDefault()

@@ -119,6 +119,10 @@ header {
   z-index: 999;
   height: 35px;
 
+  &.fixed {
+    position: fixed;
+  }
+
   .menubars {
     width: 25px;
     height: 30px;

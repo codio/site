@@ -7,7 +7,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 990;
     background: $dark-gray;
   }
 
@@ -16,10 +16,12 @@ header {
     height: 65px;
     animation-delay: .8s;
     animation-duration: .5s;
+    padding: 0 gutter();
 
     @include breakpoint($break-tablet) {
       @include container(13 of 15);
       margin: 0 span(1 of 15);
+      padding: 0;
       max-width: $max-width;
     }
   }
@@ -71,5 +73,106 @@ header {
 
   nav li.active a {
     opacity: 1;
+  }
+}
+
+.mobile-nav {
+  display: none;
+  font-size: 24px;
+  line-height: 60px;
+  z-index: 998;
+  background: rgba(0, 0, 0, .9);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+
+  ul {
+    margin-top: 30%;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: $light-blue;
+    }
+
+    &.button {
+      font-size: 20px;
+    }
+  }
+
+  &.visible {
+    display: block;
+  }
+}
+
+.menu-toggle {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 999;
+  height: 35px;
+
+  .menubars {
+    width: 25px;
+    height: 30px;
+    position: relative;
+    transition: top 0.3s ease-in-out;
+    background: white;
+
+    &:before,
+    &:after {
+      background: white;
+      content: '';
+      display: block;
+      width: 25px;
+      height: 1px;
+      position: absolute;
+      z-index: -1;
+      transition: all 0.3s ease-in-out;
+      zoom: 1;
+    }
+  }
+
+  &.open {
+    float: right;
+    color: white;
+
+    .menubars {
+      height: 1px;
+
+      &:before {
+        top: -8px;
+      }
+
+      &:after {
+        top: 8px;
+      }
+    }
+    @include breakpoint($break-tablet) {
+      display: none;
+    }
+  }
+
+  &.close {
+
+    .menubars {
+      background: transparent;
+      &:before {
+        transform: rotate(-45deg);
+        top: 0;
+      }
+
+      &:after {
+        transform: rotate(45deg);
+        top: 0;
+      }
+    }
   }
 }

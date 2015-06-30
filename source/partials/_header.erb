@@ -1,25 +1,14 @@
+<a class="menu-toggle open">
+  <div class="menubars"></div>
+</a>
+<div class="mobile-nav">
+  <%= partial "nav" %>
+</div>
 <header class="fixed">
   <div class="container animated fadeInDown">
     <a href="/" class="logo-link"><%= image_tag 'logo-light.svg', class: 'logo' %></a>
-    <div id="menu-toggle"></div>
     <nav>
-      <ul>
-        <li <% if current_page.path.start_with?("docs") then concat 'class="active"' end %>>
-          <%= link_to 'Docs', '/docs' %>
-        </li>
-        <li <% if current_page.path.start_with?("pricing") then concat 'class="active"' end %>>
-          <%= link_to 'Pricing', '/pricing' %>
-        </li>
-        <li>
-          <%= link_to 'Community', 'http://forum.codio.com' %>
-        </li>
-        <li>
-          <%= link_to 'Log in', '/p/login' %>
-        </li>
-        <li>
-          <%= link_to 'Sign up', '/p/signup', class: 'button' %>
-        </li>
-      </ul>
+      <%= partial "nav" %>
     </nav>
   </div>
 </header>

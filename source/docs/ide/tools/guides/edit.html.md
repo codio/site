@@ -106,7 +106,7 @@ If you want to show a callout block a number of options are available and others
   - topic
   - definition
   - challenge
-  - guidance
+  - guidance 
 
 e.g.
 
@@ -119,6 +119,7 @@ Some text
 ```
 ![](/img/docs/guides/callout_info.png)
 
+The `Guidance` callout block is only visible in Play mode to members of the Teacher group. It is not visible for members of the Student Group 
 
 Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to see all the options.
 

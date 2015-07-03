@@ -21,9 +21,9 @@ layout: layout
 </section>
 
 <section class="index-content">
-  <div class="index-section index-section-01">
+  <div id="index-content-start" class="index-section index-section-01">
     <div class="index-section-left">
-      <h2 id="index-content-start">Full curriculum coverage</h2>
+      <h2>Full curriculum coverage</h2>
       <p>
         From Computer systems, computational and algorithmic thinking challenges,
 courses on Python and Javascript, as well as all the project workspace you
@@ -44,6 +44,20 @@ courses on Python and Javascript, as well as all the project workspace you
         learning outcomes.
       </p>
     </div>
+    <div class="index-section-02-bottom">
+      <div class="index-section-02-img">
+        <%= image_tag 'assets/index/live-code.png' %>
+        <figcaption>Live code</figcaption>
+      </div>
+      <div class="index-section-02-img">
+        <%= image_tag 'assets/index/preview-windows.png' %>
+        <figcaption>Preview windows</figcaption>
+      </div>
+      <div class="index-section-02-img">
+        <%= image_tag 'assets/index/challenges.png' %>
+        <figcaption>Challenges</figcaption>
+      </div>
+    </div>
   </div>
   <hr/>
   <div class="index-section index-section-03">
@@ -56,16 +70,20 @@ courses on Python and Javascript, as well as all the project workspace you
         and less on administration.
       </p>
     </div>
+    <div class="index-section-right index-section-03-img"></div>
   </div>
   <hr/>
   <div class="index-section index-section-04">
     <h2>Perfect for projects</h2>
-    <p>
-      Accessible anywhere, with pre-configured environments containing all
-      the software and other components a student will need, each user enjoys
-      a dedicated virtual server for their project work &mdash, ideal in the
-      classroom or at home.
-    </p>
+    <%= image_tag 'assets/index/projects.png', class: "index-section-04-img" %>
+    <div class="index-section-04-copy">
+      <p>
+        Accessible anywhere, with pre-configured environments containing all
+        the software and other components a student will need, each user enjoys
+        a dedicated virtual server for their project work &mdash; ideal in the
+        classroom or at home.
+      </p>
+    </div>
   </div>
   <hr/>
   <div class="index-section index-section-partners">

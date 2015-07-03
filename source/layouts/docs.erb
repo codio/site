@@ -17,6 +17,7 @@
         <% end %>
       </div>
 
+      <% if current_resource.url != '/docs/' %>
       <aside class="docs-menu">
         <ul>
           <% pages.each do |resource| %>
@@ -69,6 +70,7 @@
           <% end %>
         </ul>
       </aside>
+      <% end %>
 
       <article>
         <h1>

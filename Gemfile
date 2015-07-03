@@ -26,7 +26,6 @@ gem "middleman-sitemap", "~> 0.0.13"
 
 # Automatic responsive images
 gem "middleman-automatic-clowncar", "~> 0.0.4"
-#gem "middleman-automatic-clowncar", :github => "webPapaya/middleman-automatic-clowncar", :branch => "master"
 
 # Summaries
 gem "nokogiri", "~> 1.6.6.2"
@@ -47,8 +46,3 @@ gem "middleman-bower", "~> 1.0.2"
 gem "compass"
 gem "susy"
 gem "breakpoint"
-
-# For Heroku
-gem "puma"
-gem "rake"
-gem "rack-contrib"

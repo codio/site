@@ -8,24 +8,29 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-### June 23rd, 2015
-- **Improvement**: include course name in modules listings
-- **Improvement**: add ability to filter modules listing for recommended Courses
+### July 1st, 2015
+- **Fixed**: wrong stack shown when editing a Modules unit
+- **Improvement**: allow Teachers to opens Students units from dashboard
 
-### June 11th, 2015
-- **Fixed**: Fix Organisation [Invitation Token](/docs/dashboard/organizations/adding-members/) to Read Only
-
-### June 8th, 2015
-- **Update**: Updated Dashboard to improve performance and support future Education Improvements
-- **Feature**: Added [Crunch](/docs/quickstart/crunch) (a modern, full-featured alternative to Little Man Computer) 
-- **Feature**: Added [Flow Charting](/docs/quickstart/flow) tool.
-
-### June 2nd, 2015
-- **Update**: update Box Parts (googleappengine, googleappenginego, googleappenginejava)
+### June 2015
+- **Improvement**: (June 30th) hide Guidance callout block in [Guides](/docs/ide/tools/guides/) to students
+- **Fixed**: (June 30th) changing class owner caused classes to be inaccessible
+- **Improvement**: (June 30th) always autostart Guides when running from a Course or Module unit
+- **Feature**: (June 26th) add support for bulk upload of users into Organisations
+- **Fixed**: (June 24th) delete project dialogs
+- **Feature**: (June 24th) added support for [Tkinter](/docs/quickstart/tkinter)
+- **Improvement**: (June 24th) add `Need Help? Contact Us` link to Dashboard
+- **Improvement**: (June 23rd) include course name in modules listings
+- **Improvement**: (June 23rd) add ability to filter modules listing for recommended Courses
+- **Fixed**: (June 11th) fix Organisation [Invitation Token](/docs/dashboard/organizations/adding-members/) to Read Only
+- **Update**: (June 8th) updated Dashboard to improve performance and support future Education Improvements
+- **Feature**: (June 8th) added [Crunch](/docs/quickstart/crunch) (a modern, full-featured alternative to Little Man Computer) 
+- **Feature**: (June 8th) added [Flow Charting](/docs/quickstart/flow) tool.
+- **Update**: (June 2nd) update Box Parts (googleappengine, googleappenginego, googleappenginejava)
 
 ### May 2015
 - **Update** (May 25th) update Box Parts (rethinkdb, rust)
-- **Update** (May 11th) Updated to CodeMirror (5.2)
+- **Update** (May 11th) updated to CodeMirror (5.2)
 - **Improvement**: (May 7th) Guides improvements for Dyslexic theme/usage
 - **Improvement**: (May 5th) add new .codio token. See [IDE Shortcuts](https://codio.com/docs/boxes/runmenu/) for more information
 - **Fixed**: (May 4th) empty pane text to remove scroll bar

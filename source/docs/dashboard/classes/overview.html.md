@@ -8,7 +8,7 @@ The Classes menu item can be found in the left side of the Codio dashboard.
 
 To access Classes, you will need to have an [Organization](/docs/dashboard/organizations/) account. [Click here](/docs/quickstart/education) for information about a full-featured free trial including private Projects, Stacks, Starter Packs and Courses.
 
-Classes can only be created by members of the Owners team. Teams are managed in the [Organization](/docs/dashboard/organizations/) section.
+Classes can only be created by members of the Owners group. Groups are managed in the [Organization](/docs/dashboard/organizations/) section.
 
 - A class is a collection of students (Codio users).
 - A class is associated with [Modules](/docs/dashboard/modules/). 

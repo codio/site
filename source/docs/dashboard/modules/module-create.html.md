@@ -21,5 +21,5 @@ You should also add tags that identify the technologies used. An image is also s
 This determines whether your Module and its constituent Units are publicly available to all Codio users or should remain private to you and/or your [Organization](/docs/dashboard/organizations/) (if you are a member of an Organization). Private Modules require a paid subscription.
 
 ##Owner
-By default, you are the owner of the Module you create. If you select an Organization from the dropdown, then any Owner team members of that Organization are able to adminster the Module and all Organization members will be able to see it in the listing, even if the Module is marked as private.
+By default, you are the owner of the Module you create. If you select an Organization from the dropdown, then any Owner group members of that Organization are able to adminster the Module and all Organization members will be able to see it in the listing, even if the Module is marked as private.
 

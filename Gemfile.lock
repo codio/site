@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/middleman/middleman-livereload.git
-  revision: b77abee3acfaed5073198a2759d56d5728e3337f
+  revision: 3d41fefba0bf6f0061015baa184b6c5f3e9fbebe
   branch: master
   specs:
     middleman-livereload (3.4.2)
@@ -20,17 +20,17 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (4.1.11)
+    activesupport (4.1.12)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    autoprefixer-rails (5.2.0.1)
+    autoprefixer-rails (5.2.1)
       execjs
       json
-    babel-source (5.4.7)
+    babel-source (5.6.15)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
@@ -64,8 +64,8 @@ GEM
     execjs (2.5.2)
     fastimage (1.6.8)
       addressable (~> 2.3, >= 2.3.5)
-    ffi (1.9.8)
-    ffi (1.9.8-x64-mingw32)
+    ffi (1.9.10)
+    ffi (1.9.10-x64-mingw32)
     haml (4.0.6)
       tilt
     hike (1.2.3)
@@ -77,7 +77,7 @@ GEM
     i18n (0.7.0)
     json (1.8.3)
     kramdown (1.7.0)
-    libv8 (3.16.14.7)
+    libv8 (3.16.14.11)
     listen (2.10.1)
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
@@ -145,7 +145,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
-    rack (1.6.2)
+    rack (1.6.4)
     rack-livereload (0.3.15)
       rack
     rack-test (0.6.3)
@@ -153,13 +153,13 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    redcarpet (3.3.1)
+    redcarpet (3.3.2)
     ref (1.0.5)
     rouge (1.9.0)
-    sass (3.4.14)
+    sass (3.4.15)
     sassy-maps (0.4.0)
       sass (~> 3.3)
-    sprockets (2.12.3)
+    sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)

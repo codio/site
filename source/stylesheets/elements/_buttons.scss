@@ -10,7 +10,7 @@
   font-weight: 700;
   text-transform: uppercase;
   opacity: 1;
-  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, border 0.4s ease-in-out;
 }
 
 .button:hover {
@@ -18,9 +18,19 @@
   background-color: white;
 }
 
+.button.button-dark {
+  color: $dark-gray;
+  background-color: white;
+  border-color: $dark-gray;
+}
+
+.button.button-dark:hover {
+  color: white;
+  background-color: $dark-gray;
+}
 
 .button.button-large {
-  padding: 4px 25px;
+  padding: 5px 25px;
   font-size: 16px;
   font-weight: 700;
 }
@@ -28,11 +38,12 @@
 .button.button-action {
   color: white;
   background-color: $light-blue;
-  border: none;
+  border-color: $light-blue;
 }
 
 .button.button-action:hover {
-  background-color: $blue;
+  background-color: $lighter-blue;
+  border-color: $lighter-blue;
 }
 
 .button.button-info {
@@ -42,5 +53,6 @@
 }
 
 .button.button-info:hover {
-  color: $blue;
+  color: $lighter-blue;
+  border-color: $lighter-blue;
 }

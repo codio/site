@@ -20,7 +20,7 @@ body.index {
   color: white;
 
   @include breakpoint($break-tablet) {
-    background: url('/img/assets/landing-01.png') no-repeat center center fixed;
+    background: url('/img/assets/index/atf.png') no-repeat center center fixed;
     background-color: $dark-gray;
   }
 
@@ -46,7 +46,7 @@ body.index {
   .action-buttons {
     animation-delay: 1.2s;
     margin: 90px auto 0 auto;
-    width: 200px;
+    text-align: center;
 
     .button:first-child {
       margin-right: 15px;
@@ -91,14 +91,151 @@ body.index {
 
   @include breakpoint($break-tablet) {
     max-width: $max-width;
-    @include container(10 of 16);
-    width: span(10 of 16);
-    margin: 0 span(3 of 16);
+    @include container(14 of 16);
+    width: span(14 of 16);
+    margin: 0 span(1 of 16);
     float: inherit;
   }
 
   @include breakpoint($max-width) {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  hr {
+    border-bottom: 1px solid $lighter-gray;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .index-section {
+    @include container;
+    @include break;
+
+    padding: 6 * $base-line-height 0;
+    vertical-align: middle;
+
+    h2 {
+      font-size: 39px;
+    }
+  }
+
+  .index-section-left {
+    @include container;
+
+    @include breakpoint($break-tablet) {
+      @include span(8 of 16);
+    }
+  }
+  .index-section-right {
+    @include container;
+
+    @include breakpoint($break-tablet) {
+      @include span(6 of 16);
+      margin: 0 span(2 of 16);
+    }
+  }
+
+  .index-section-01 {
+    @include breakpoint($break-tablet) {
+      height: 45rem;
+    }
+  }
+
+  .index-section-01-img {
+    @include breakpoint($break-tablet) {
+      width: span(6 of 16);
+      max-width: 475px;
+      height: 568px;
+      background: url('/img/assets/index/placeholder.png') no-repeat top left;
+      position: absolute;
+      right: 0;
+      margin: -8rem 0 0 0;
+    }
+  }
+
+
+  .index-section-02 {
+
+  }
+
+  .index-section-03 {
+
+  }
+
+  .index-section-04 {
+
+  }
+
+  .index-section-partners {
+    text-align: center;
+    padding: 4 * $base-line-height 0;
+
+    h2 {
+      font-size: 22px;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: $light-gray;
+    }
+
+    @include breakpoint($break-tablet) {
+      width: span(16 of 16);
+    }
+  }
+
+  .index-section-partners-img {
+    @include container;
+    margin-top: 2 * $base-line-height;
+
+    img {
+      display: block;
+      width: auto;
+      margin: 4rem auto;
+
+
+      @include breakpoint($break-tablet) {
+        margin: 0;
+        margin-left: 10%;
+        display: initial;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  .index-section-get-started {
+    text-align: center;
+
+    h2 {
+      font-weight: 300;
+    }
+
+    h3 {
+      font-size: 22px;
+      font-weight: 300;
+      margin: 1rem 0;
+    }
+
+    .action-buttons {
+      margin: 4rem 0;
+
+      .button:first-child {
+        margin-right: 2rem;
+        padding: 5px 33px;
+      }
+
+      .button {
+        width: 125px;
+        padding: 5px 10px;
+      }
+    }
+
+    @include breakpoint($break-tablet) {
+      width: span(16 of 16);
+    }
   }
 }

@@ -90,11 +90,11 @@ body.index {
   padding-top: 3 * $base-line-height;
 
   @include breakpoint($break-tablet) {
-    max-width: $max-width;
     @include container(14 of 16);
     width: span(14 of 16);
     margin: 0 span(1 of 16);
     float: inherit;
+    max-width: $max-width;
   }
 
   @include breakpoint($max-width) {
@@ -120,10 +120,6 @@ body.index {
     h2 {
       font-size: 39px;
     }
-
-    @include breakpoint($break-tablet) {
-      padding: 6 * $base-line-height 0;
-    }
   }
 
   .index-section-left {
@@ -145,18 +141,26 @@ body.index {
   .index-section-01 {
     @include breakpoint($break-tablet) {
       height: 45rem;
+
+      .index-section-left {
+        padding-top: 9rem;
+      }
     }
   }
 
   .index-section-01-img {
+    @include container;
+    height: 400px;
+    background: url('/img/assets/index/placeholder.png') no-repeat top left;
+    background-size: contain;
+
     @include breakpoint($break-tablet) {
+      background-size: inherit;
       width: span(6 of 16);
-      max-width: 475px;
-      height: 568px;
-      background: url('/img/assets/index/placeholder.png') no-repeat top left;
+      height: 600px;
       position: absolute;
       right: 0;
-      margin: -8rem 0 0 0;
+      margin: 0;
     }
   }
 
@@ -232,23 +236,24 @@ body.index {
         margin-right: 0;
       }
     }
+  }
 
-    @include breakpoint($max-width) {
-      img {
-        max-width: 205px;
-      }
+  .index-section-03 {
+    @include container;
+
+    @include breakpoint($break-tablet) {
+      height: 25rem;
     }
   }
 
   .index-section-03-img {
     @include breakpoint($break-tablet) {
       width: span(6 of 16);
-      max-width: 522px;
       height: 276px;
       background: url('/img/assets/index/assessments.png') no-repeat top left;
       position: absolute;
       right: 0;
-      margin: -1rem 0 0 0;
+      margin: 0;
     }
   }
 

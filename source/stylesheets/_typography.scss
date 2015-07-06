@@ -41,12 +41,14 @@ a {
 }
 
 hr {
-  border-bottom: $base-border;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin: $base-line-height 0;
+  border: none;
+  border-bottom: 1px solid $lighter-gray;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  right: 0;
 }
+
 
 img,
 picture {

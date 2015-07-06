@@ -47,6 +47,13 @@ body.pricing .content {
     @include container(14 of 16);
     margin: 0 span(1 of 16);
   }
+
+  .action-buttons {
+    @include container;
+    @include break;
+
+    padding-top: 5rem;
+  }
 }
 
 .pricing-faq {

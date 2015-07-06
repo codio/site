@@ -1,0 +1,130 @@
+.slider {
+  @include container;
+}
+
+.type-selector {
+  @include container;
+
+  padding-bottom: 10rem;
+
+  @include breakpoint($break-tablet) {
+  }
+
+  .type-list {
+    @include container;
+  }
+
+  .item {
+    @include container;
+
+    border: 1px solid $dark-gray;
+    float: left;
+    padding: 2rem 0;
+    transition: border .2s ease-in-out;
+    cursor: pointer;
+
+    &.active {
+      border: 3px solid $blue;
+    }
+
+    img {
+      height: 32px;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 300;
+    }
+
+    li {
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    @include breakpoint($break-tablet) {
+      @include span(3 of 16);
+      margin-left: span(1 of 16);
+
+      &:first-child {
+        margin-left: span(2 of 16);
+      }
+      &:last-child {
+        margin-right: span(2 of 16);
+      }
+    }
+  }
+}
+
+.drag-wrapper {
+  @include container;
+  @include break;
+  height: 8px;
+  border-bottom: 1px solid $lighter-gray;
+
+  @include breakpoint($break-tablet) {
+    @include span(8 of 16);
+    margin-left: span(3 of 16);
+    padding: 0;
+  }
+
+  .handle {
+    border-radius: 50%;
+    border: 3px solid $dark-gray;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    cursor: move;
+  }
+
+  .fill {
+    background-color: $blue;
+    height: 1px;
+    width: 0px;
+    position: relative;
+    top: 7px;
+  }
+}
+
+
+.count {
+  @include container;
+
+
+  @include breakpoint($break-tablet) {
+    @include span(2 of 16);
+    margin-right: span(3 of 16);
+    text-align: right;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+}
+
+.display-price {
+  @include container;
+  @include break;
+
+  padding-top: 3rem;
+
+
+  .currency {
+
+  }
+
+  .amount {
+    font-size: 2.369rem;
+  }
+
+  .divider {
+    font-size: 1.33rem;
+  }
+
+  .range {
+    font-size: 1.33rem;
+  }
+}
+
+.instruction {
+  font-size: 0.75rem;
+}

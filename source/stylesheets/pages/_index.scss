@@ -103,14 +103,6 @@ body.index {
     margin-right: auto;
   }
 
-  hr {
-    border-bottom: 1px solid $lighter-gray;
-    position: absolute;
-    margin: 0;
-    left: 0;
-    right: 0;
-  }
-
   .index-section {
     @include container;
     @include break;

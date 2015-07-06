@@ -16,8 +16,9 @@ body.index {
   background-size: cover;
   background-color: $dark-gray;
   height: 100vh;
-
+  max-height: 800px;
   color: white;
+  position: relative;
 
   @include breakpoint($break-tablet) {
     background: url('/img/assets/index/atf.png') no-repeat center center fixed;
@@ -58,9 +59,9 @@ body.index {
       width: 60px;
       height: 72px;
       position: absolute;
+      bottom: 10%;
       left: 50%;
       margin-left: -30px;
-      bottom: 60px;
     }
 
     .arrows path {
@@ -138,7 +139,7 @@ body.index {
     }
   }
 
-  .index-section-01 {
+  .index-section-curriculum {
     @include breakpoint($break-tablet) {
       height: 45rem;
 
@@ -148,7 +149,7 @@ body.index {
     }
   }
 
-  .index-section-01-img {
+  .index-section-curriculum-img {
     @include container;
     height: 400px;
     background: url('/img/assets/index/placeholder.png') no-repeat top left;
@@ -165,7 +166,7 @@ body.index {
   }
 
 
-  .index-section-02-top {
+  .index-section-projects-top {
     @include container(4 of 4);
 
     @include breakpoint($break-tablet) {
@@ -182,7 +183,7 @@ body.index {
     }
   }
 
-  .index-section-02-bottom {
+  .index-section-projects-bottom {
     @include container;
     margin-top: 3rem;
 
@@ -194,7 +195,7 @@ body.index {
     }
   }
 
-  .index-section-02-img {
+  .index-section-projects-img {
 
     @include container;
     display: none;
@@ -238,7 +239,7 @@ body.index {
     }
   }
 
-  .index-section-03 {
+  .index-section-assessments {
     @include container;
 
     @include breakpoint($break-tablet) {
@@ -246,7 +247,7 @@ body.index {
     }
   }
 
-  .index-section-03-img {
+  .index-section-assessments-img {
     @include breakpoint($break-tablet) {
       width: span(6 of 16);
       height: 276px;
@@ -257,12 +258,12 @@ body.index {
     }
   }
 
-  .index-section-04 {
+  .index-section-content {
     h2 {
       text-align: center;
     }
   }
-  .index-section-04-copy {
+  .index-section-content-copy {
     @include container(4 of 4);
 
     @include breakpoint($break-tablet) {
@@ -271,7 +272,7 @@ body.index {
     }
   }
 
-  .index-section-04-img {
+  .index-section-content-img {
     @include container(4 of 4);
 
     margin: 2rem 0;

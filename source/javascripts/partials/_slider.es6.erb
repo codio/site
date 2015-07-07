@@ -3,8 +3,14 @@
 const PRICES = <%= data.prices.to_json %>
 
 const SYMBOLS = {
-  'dollar': '$',
-  'pound': '$pound;'
+  dollar: '$',
+  pound: '$pound;'
+}
+
+const DEFAULT_RANGE = {
+  developer: 'month',
+  school: 'year',
+  university: 'year'
 }
 
 const state = {
@@ -58,6 +64,11 @@ const stepCount = type => PRICES[type].length
 
 const findItem = type => $typeList.find('li[data-type="' + type+ '"]')
 
+const setType = type => {
+  state.type = type
+  state.range = DEFAULT_RANGE[type]
+}
+
 const setupSelector = () => {
   const $active = findItem(state.type)
 
@@ -68,7 +79,8 @@ const setupSelector = () => {
     $this = $(this)
     $this.addClass('active')
 
-    state.type = $this.data('type')
+    setType($this.data('type'))
+
     updateDisplay()
   })
 }

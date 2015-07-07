@@ -105,6 +105,10 @@ body.pricing .content {
     font-size: 24px;
   }
 
+  h3 {
+    font-size: 18px;
+  }
+
   @include breakpoint($break-tablet) {
 
   }

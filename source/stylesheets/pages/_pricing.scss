@@ -17,6 +17,8 @@ body.pricing .content {
 .pricing-header-container {
   @include container(4 of 4);
 
+  margin: gutter();
+
   @include breakpoint($break-tablet) {
     @include container(10 of 16);
     margin: 0 span(3 of 16);
@@ -100,14 +102,6 @@ body.pricing .content {
 
 .pricing-faq-entry {
   @include container;
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
 
   @include breakpoint($break-tablet) {
 

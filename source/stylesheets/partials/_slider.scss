@@ -15,17 +15,23 @@
   }
 
   .item {
-    @include container;
-
+    @include container(4 of 4);
+    @include break;
     border: 1px solid $dark-gray;
-    float: left;
-    padding: 2rem 0;
-    transition: border .2s ease-in-out;
+    padding: 2*18px+2px 2px;
+    margin: gutter();
     cursor: pointer;
 
-    &.active {
+    &.active,
+    &:hover {
       border: 3px solid $blue;
+      padding: 2*18px 0;
     }
+
+    &.active h2 {
+      font-weight: 400;
+    }
+
 
     img {
       height: 32px;
@@ -38,18 +44,32 @@
 
     li {
       font-size: 16px;
-      font-weight: 400;
+      font-weight: 300;
     }
 
-    @include breakpoint($break-tablet) {
-      @include span(3 of 16);
+    @include breakpoint(min-width $break-tablet) {
+      @include nobreak;
+      @include span(5 of 16);
+      margin: 0;
+      margin-left: span(.5 of 16);
+
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    @include breakpoint(1280px) {
+      @include span(3.5 of 16);
       margin-left: span(1 of 16);
 
       &:first-child {
-        margin-left: span(2 of 16);
+        margin-left: span(1.5 of 16);
       }
       &:last-child {
-        margin-right: span(2 of 16);
+        margin-right: span(1.5 of 16);
       }
     }
   }
@@ -60,9 +80,11 @@
   @include break;
   height: 8px;
   border-bottom: 1px solid $lighter-gray;
+  margin: gutter();
 
   @include breakpoint($break-tablet) {
     @include span(8 of 16);
+    margin: 0;
     margin-left: span(3 of 16);
     padding: 0;
   }

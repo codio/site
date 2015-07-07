@@ -5,9 +5,10 @@
 .type-selector {
   @include container;
 
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 
   @include breakpoint($break-tablet) {
+    padding-bottom: 7rem;
   }
 
   .type-list {
@@ -78,7 +79,7 @@
 .drag-wrapper {
   @include container;
   @include break;
-  height: 8px;
+  height: 16px;
   border-bottom: 1px solid $lighter-gray;
   margin: gutter();
 
@@ -87,15 +88,22 @@
     margin: 0;
     margin-left: span(3 of 16);
     padding: 0;
+
+    height: 8px;
   }
 
   .handle {
-    border-radius: 50%;
-    border: 3px solid $dark-gray;
-    height: 13px;
-    width: 13px;
-    background-color: white;
     cursor: move;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    border: 3px solid $dark-gray;
+    background-color: white;
+
+    @include breakpoint($break-tablet) {
+      height: 13px;
+      width: 13px;
+    }
   }
 
   .fill {
@@ -103,19 +111,25 @@
     height: 1px;
     width: 0px;
     position: relative;
-    top: 7px;
+    top: 16px;
+
+    @include breakpoint($break-tablet) {
+      top: 7px;
+    }
   }
 }
 
 
 .count {
   @include container;
-
+  padding-top: 1rem;
 
   @include breakpoint($break-tablet) {
     @include span(2 of 16);
     margin-right: span(3 of 16);
     text-align: right;
+    padding-top: 0;
+    margin-top: -.5rem;
   }
 
   .number {

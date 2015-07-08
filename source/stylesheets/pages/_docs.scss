@@ -196,3 +196,13 @@ body.docs .overview-section {
     }
   }
 }
+
+.search-results {
+  @include container;
+  @include break;
+
+  @include breakpoint($break-tablet) {
+    @include container(12 of 16);
+    margin: 0 span(2 of 16);
+  }
+}

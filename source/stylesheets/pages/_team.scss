@@ -1,0 +1,56 @@
+body.team .content {
+  margin: 65px auto 0 auto;
+}
+
+.team-section {
+  @include container;
+
+  padding: 3rem 0;
+
+  .member {
+    @include container;
+    margin: gutter();
+    padding-bottom: 7rem;
+
+    @include breakpoint($break-tablet) {
+      margin: 0;
+      @include span(4 of 14);
+      margin-left: span(1 of 14);
+
+      &:nth-child(3n + 1) {
+        @include break;
+        margin-left: 0;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    h4 {
+      font-weight: 300;
+      font-style: italic;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    hr {
+      position: relative;
+      width: 100px;
+      border-bottom: 1px solid $dark-gray;
+    }
+
+    .description {
+      padding-top: 1.5rem;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

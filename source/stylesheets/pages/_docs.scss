@@ -1,3 +1,7 @@
+body.docs .content {
+  margin: 65px auto 0 auto;
+}
+
 .docs-content {
   @include container;
   padding-top: 2 * $base-line-height;

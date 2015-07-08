@@ -1,0 +1,61 @@
+body.mission .content {
+  margin: -65px auto 0 auto;
+  max-width: 100%;
+}
+
+body.mission .header-block {
+  @include span(4);
+  background-size: cover;
+  position: relative;
+  background-color: $dark-gray;
+  height: 500px;
+
+  @include breakpoint($break-tablet) {
+    background: url('/img/assets/mission/atf.png') no-repeat top center fixed;
+    height: 585px;
+  }
+
+  @include breakpoint($max-width) {
+    background: url('/img/assets/mission/atf-large.png') no-repeat top center fixed;
+    height: 600px;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 2.369rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin-top: -2*$header-line-height;
+    height: 3 * $header-line-height;
+    margin-left: gutter();
+    margin-right: gutter();
+
+    @include breakpoint($break-tablet) {
+      margin-left: span(2 of 16);
+      margin-right: span(2 of 16);
+    }
+
+    em {
+      font-weight: 400;
+    }
+  }
+}
+
+.mission-section {
+  @include container;
+  @include break;
+
+  margin: gutter();
+  padding: 5rem 0;
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+  }
+
+  @include breakpoint($max-width) {
+    @include container(16 of 16);
+    max-width: $max-width;
+  }
+}

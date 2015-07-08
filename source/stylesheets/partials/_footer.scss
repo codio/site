@@ -6,12 +6,15 @@ footer {
     @include container;
 
     @include breakpoint($break-tablet) {
-      @include container(11 of 15);
-      margin: 0 span(2 of 15);
+      @include container(12 of 16);
+      margin: 0 span(1.5 of 16);
       max-width: $max-width;
     }
-  }
 
+    @include breakpoint($max-width) {
+      margin: 0 auto;
+    }
+  }
 
   @include breakpoint($break-tablet) {
     padding: 3 * $base-line-height 0;
@@ -23,8 +26,12 @@ footer {
     font-size: 12px;
     margin-bottom: 2 * $base-line-height;
 
+    p {
+      margin-bottom: 0;
+    }
+
     @include breakpoint($break-tablet) {
-      @include span(3 of 15);
+      @include span(1 of 5);
       text-align: left;
       margin-bottom: 0;
     }
@@ -40,23 +47,32 @@ footer {
     margin-bottom: 2 * $base-line-height;
 
     @include breakpoint($break-tablet) {
-      @include span(3 of 15);
+      @include span(1 of 5);
       margin-bottom: 0;
     }
   }
 
   .footer-list h4 {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 0;
+
+    @include breakpoint($break-tablet) {
+      font-size: 12px;
+    }
   }
 
   a {
     color: $light-gray;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     transition: color 0.3s ease-in-out;
+
+    @include breakpoint($break-tablet) {
+      font-size: 14px;
+    }
   }
 
   a:hover {

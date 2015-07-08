@@ -11,7 +11,8 @@ body.index {
     max-width: 100%;
   }
 }
-.header-block {
+
+body.index .header-block {
   @include span(4);
   background-size: cover;
   background-color: $dark-gray;

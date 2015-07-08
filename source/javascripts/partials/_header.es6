@@ -6,8 +6,12 @@ $(() => {
   const $toggle = $('.menu-toggle')
   const $nav = $('.mobile-nav')
 
-  if (location.pathname === '/') {
-    // Index page
+  const fixedLocations = [
+    '/',
+    '/team'
+  ]
+
+  if (fixedLocations.indexOf(location.pathname) > -1) {
     $header.removeClass('fixed')
 
     const headerHeight = $('header').height()
@@ -17,10 +21,12 @@ $(() => {
     $(window).scroll(() => {
       const scrollTop = $(window).scrollTop()
 
-      if (scrollTop >= offsetVal) {
+      if (scrollTop >= offsetVal && !$header.hasClass('fixed')) {
+        $header.hide()
         $header.addClass('fixed')
         $toggle.addClass('fixed')
-      } else {
+        $header.fadeIn()
+      } else if (scrollTop < offsetVal) {
         $header.removeClass('fixed')
         $toggle.removeClass('fixed')
       }

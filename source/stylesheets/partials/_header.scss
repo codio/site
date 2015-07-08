@@ -11,6 +11,11 @@ header {
     right: 0;
     z-index: 990;
     background: $dark-gray;
+
+    .container {
+      animation-delay: 0s;
+      animation-duration: 0s;
+    }
   }
 
   .container {

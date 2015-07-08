@@ -1,11 +1,62 @@
 body.team .content {
-  margin: 65px auto 0 auto;
+  margin: -65px auto 0 auto;
+  max-width: 100%;
+}
+
+body.team .header-block {
+  @include span(4);
+  background-size: cover;
+  position: relative;
+  background-color: $dark-gray;
+  height: 300px;
+
+  @include breakpoint($break-tablet) {
+    background: url('/img/assets/team/atf.png') no-repeat top center fixed;
+    height: 500px;
+  }
+
+  @include breakpoint($max-width) {
+    background: url('/img/assets/team/atf-large.png') no-repeat top center fixed;
+    height: 778px;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 2.369rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin-top: -$header-line-height;
+    height: 2 * $header-line-height;
+    margin-left: gutter();
+    margin-right: gutter();
+
+    @include breakpoint($break-tablet) {
+      margin-left: span(2 of 16);
+      margin-right: span(2 of 16);
+    }
+
+    em {
+      font-weight: 400;
+    }
+  }
 }
 
 .team-section {
   @include container;
+  @include break;
 
-  padding: 3rem 0;
+  padding: 5rem 0;
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+  }
+
+  @include breakpoint($max-width) {
+    @include container(16 of 16);
+    max-width: $max-width;
+  }
 
   .member {
     @include container;

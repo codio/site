@@ -1,109 +1,111 @@
 body.docs .content {
-  margin: 65px auto 0 auto;
+  margin: -65px auto 0 auto;
+  max-width: 100%;
+}
+
+body.docs .header-block {
+  @include span(4);
+  background-size: cover;
+  position: relative;
+  background-color: $dark-gray;
+
+
+  h2 {
+    font-weight: 300;
+    font-size: 2.369rem;
+    color: white;
+    text-align: center;
+    margin-left: gutter();
+    margin-right: gutter();
+    padding-top: 150px;
+    padding-bottom: 3rem;
+
+    @include breakpoint($break-tablet) {
+    }
+
+    em {
+      font-weight: 400;
+    }
+  }
+}
+
+.search-container {
+  @include container;
+  @include break;
+
+  padding: 0 0 5rem 0;
+
+  .st-search-input {
+    width: span(8 of 16);
+    margin: 0 span(4 of 16);
+    height: 3rem;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    border-radius: 25px;
+    border: 1px solid $light-gray;
+    padding-left: 70px;
+    box-shadow: none;
+    color: $dark-gray;
+    font-family: $base-font-family;
+    background: url('/img/assets/docs-navigation/search.svg') no-repeat left center;
+    background-color: white;
+    background-size: 24px;
+    background-position: 25px;
+    font-weight: 400;
+
+    &::placeholder {
+      font-family: $base-font-family;
+      color: $light-gray;
+      font-weight: 300;
+    }
+  }
+}
+
+body.docs .overview-section {
+  @include container;
+  @include break;
+
+  padding: 3rem 0;
+
+  & > h2 {
+    text-align: center;
+  }
+
+  @include breakpoint($break-tablet) {
+    @include container(10 of 16);
+    margin: 0 span(3 of 16);
+  }
+
+  .docs-header-navigation {
+    border-bottom: none;
+  }
 }
 
 .docs-content {
   @include container;
   padding-top: 2 * $base-line-height;
 
-  .docs-header-navigation {
-    @include span(4);
-    margin-bottom: 3 * $base-line-height;
 
-    @include breakpoint($break-tablet) {
-      @include span(16 of 16);
-      border-bottom: 1px solid $lighter-gray;
-    }
+  @include breakpoint($break-tablet) {
+    max-width: $max-width;
   }
 
-  .docs-header-navigation-item {
-    @include span(2 of 4);
-    height: 5 * $base-line-height;
-    padding-top: $base-line-height;
-
-    &:nth-child(3) {
-      @include break;
-    }
-
-    @include breakpoint($break-tablet) {
-      @include span(4 of 16);
-      padding-top: 0;
-
-      &:nth-child(3) {
-        @include nobreak;
-      }
-    }
-
-    &.active {
-      @include breakpoint($break-tablet) {
-        border-bottom: 1px solid $light-blue;
-      }
-
-      h2 {
-        color: $light-blue;
-      }
-
-      &:hover h2 {
-        color: $base-font-color;
-      }
-    }
-
-    &:hover h2 {
-      color: $light-blue;
-    }
-
-    h2 {
-      font-size: 18px;
-      margin-top: 40px;
-      margin-bottom: .2em;
-      color: $base-font-color;
-      transition: color .2s ease-in-out;
-
-      &:before {
-        content: '';
-        position: absolute;
-        z-index: 0;
-        margin-top: -50px;
-        width: 50px;
-        height: 50px;
-      }
-    }
-
-    .navigation-header-student:before {
-      background: url('/img/assets/docs-navigation/student.png') no-repeat left center;
-    }
-
-    .navigation-header-teacher:before {
-      background: url('/img/assets/docs-navigation/teacher.png') no-repeat left center;
-    }
-
-    .navigation-header-dashboard:before {
-      background: url('/img/assets/docs-navigation/dashboard.png') no-repeat left center;
-    }
-
-    .navigation-header-ide:before {
-      background: url('/img/assets/docs-navigation/ide.png') no-repeat left center;
-    }
-
-    p {
-      font-size: 16px;
-      color: $base-font-color;
-    }
+  @include breakpoint($max-width) {
+    margin-left: auto;
+    margin-right: auto;
   }
-
-
 
   aside {
     display: none;
     position: absolute;
 
     &.affix-top {
-      margin-top: 8 * $base-line-height;
+      margin-top: 0;
       position: absolute;
     }
 
     &.affix {
-      top: 4 * $base-line-height;
+      top: 3 * $base-line-height;
       position: fixed;
     }
 

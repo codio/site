@@ -8,9 +8,9 @@ $(() => {
       offset: {
         top: function () {
           const c = menu.offset().top
-          const d = parseInt(docsHeaderNav.css('padding-bottom'), 10)
-          const e = parseInt(docsHeaderNav.css('margin-bottom'), 10)
-          this.top = c + d + e
+          const d = parseInt(docsHeaderNav.css('padding-top'), 10)
+
+          this.top = c - d
 
           return this.top
         },

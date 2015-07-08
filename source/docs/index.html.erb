@@ -1,9 +1,20 @@
 ---
-title: Documentation - Codio
+title: Documentation
+layout: layout
 ---
 
-<main>
-  <h1>Everybody needs  a little help</h1>
-</main>
+<div class="header-block">
+  <h2>How can we help you?</h2>
+  <div class="search-container">
+    <form id="search-input">
+      <input type="text" placeholder="Search for a specific question or topic ..." id="st-search-input" class="st-search-input" />
+    </form>
+  </div>
+</div>
+
+<div class="overview-section">
+  <h2>Or choose a topic</h2>
+  <%= partial "docs-header-navigation" %>
+</div>
 
 <%= partial "vendors/swiftype" %>

@@ -1,23 +1,13 @@
 <% wrap_layout :'layout' do %>
 
   <%- pages = nav_pages(current_resource.url) -%>
+    <div class="header-block">
+      <h2>How can we help you?</h2>
+    </div>
 
     <div class="docs-content">
-      <div class="docs-header-navigation">
-        <% ordered_simple(top_pages('docs'), '/docs').each do |resource| %>
-          <% active = current_section?(resource.url) ? "active" : "" %>
-          <% title = resource.data.title %>
+      <%= partial 'docs-header-navigation' %>
 
-          <a href="<%= resource.url %>" class="<%= active %> docs-header-navigation-item">
-            <h2 class="navigation-header-<%= title.downcase %>"><%= title %></h2>
-            <p>
-              <%= resource.data.description %>
-            </p>
-          </a>
-        <% end %>
-      </div>
-
-      <% if current_resource.url != '/docs/' %>
       <aside class="docs-menu">
         <ul>
           <% pages.each do |resource| %>
@@ -70,7 +60,6 @@
           <% end %>
         </ul>
       </aside>
-      <% end %>
 
       <article>
         <h1>

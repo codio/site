@@ -42,8 +42,8 @@
 }
 
 .button.button-action:hover {
-  background-color: $lighter-blue;
-  border-color: $lighter-blue;
+  background-color: lighten($light-blue, 10%);
+  border-color: lighten($light-blue, 10%);
 }
 
 .button.button-info {

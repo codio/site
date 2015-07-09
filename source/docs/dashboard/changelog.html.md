@@ -11,12 +11,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 ### July 1st, 2015
 - **Fixed**: wrong stack shown when editing a Modules unit
 - **Improvement**: allow Teachers to opens Students units from dashboard
+- **Feature**: add support for bulk upload of users into Organisations
 
 ### June 2015
 - **Improvement**: (June 30th) hide Guidance callout block in [Guides](/docs/ide/tools/guides/) to students
 - **Fixed**: (June 30th) changing class owner caused classes to be inaccessible
 - **Improvement**: (June 30th) always autostart Guides when running from a Course or Module unit
-- **Feature**: (June 26th) add support for bulk upload of users into Organisations
 - **Fixed**: (June 24th) delete project dialogs
 - **Feature**: (June 24th) added support for [Tkinter](/docs/quickstart/tkinter)
 - **Improvement**: (June 24th) add `Need Help? Contact Us` link to Dashboard

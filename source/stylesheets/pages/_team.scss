@@ -1,9 +1,9 @@
-body.team .content {
+body.about_index .content {
   margin: -65px auto 0 auto;
   max-width: 100%;
 }
 
-body.team .header-block {
+body.about_index .header-block {
   @include span(4);
   background-size: cover;
   position: relative;

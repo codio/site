@@ -25,13 +25,13 @@ We now need to install a few components
         parts start apache2 mysql
 
 ##Installing other PHP Modules
-Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
+Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/ide/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
 
 ##The Laravel Bits
 We already installed Composer above, so let's now install Laravel itself using Composer then move the files down to the root and finally tidy up the empty laravel folder. Enter each of the following in the terminal window.
 
 1. `composer create-project laravel/laravel --prefer-dist`
-1. `mv laravel/{*,.*} ~/workspace`  
+1. `mv laravel/{*,.*} ~/workspace`
 1. `rm laravel -r`
 
 ##Try it out

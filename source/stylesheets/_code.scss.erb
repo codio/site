@@ -86,7 +86,7 @@
 
       &.gutter {
         width: 40px;
-        padding-right: 10px;
+        padding: 0 10px;
         border-right: 1px solid $lighter-gray;
         font-size: 13px;
         line-height: 20px;
@@ -99,6 +99,7 @@
         line-height: 20px;
         padding: 20px;
         overflow-x: auto;
+        max-width: 800px;
 
         pre {
           margin: 0;
@@ -108,7 +109,11 @@
   }
 }
 
-
+h1, h2, h3, h4, h5, h6 {
+  code {
+    font-size: .8em;
+  }
+}
 code {
   font-family: $mono-font-family;
   color: #788d9e;

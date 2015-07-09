@@ -7,10 +7,10 @@ full_width: true
 When creating a Starter Pack, here are some ideas on strategy and how to make them as useful as possible.
 
 ## Starting Stack
-When you create a Pack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/docs/boxes/installsw/box-parts/).
+When you create a Pack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/docs/ide/boxes/installsw/box-parts/).
 
 ## .codio file
-It is often helpful to create a `.codio` file in the root of your project so that running common terminal commands and previewing can be accessed quickly and easily. [Information on this can be found here](/docs/boxes/runmenu/).
+It is often helpful to create a `.codio` file in the root of your project so that running common terminal commands and previewing can be accessed quickly and easily. [Information on this can be found here](/docs/ide/boxes/runmenu/).
 
 To enable your project to preview inside a Codio tab, you will need to configure the preview to run over https. We recommend this as being the default behavior as it will run both inside Codio and in a new browser tab this way. This will require you to configure any services to run on any port between 9500 and 9000.
 
@@ -53,11 +53,11 @@ You should include a full description of your Starter Pack that appears when som
 ##README.md file
 You should create a `README.md` file in the root of your project that displays helpful information the user can see when they open the project.
 
-Below is a template you could use. 
+Below is a template you could use.
 
 ```markdown
 # Title
-Put the name of your Pack here containing the primary technology or technologies with a version number, along with a short description. 
+Put the name of your Pack here containing the primary technology or technologies with a version number, along with a short description.
 
 ## Using the Pack
 Describe how the user should get started. Point to your `.codio` menu options if you have created any.
@@ -81,5 +81,3 @@ npm install
 - [MongoDB](https://www.mongodb.org)
 
 ```
-
-

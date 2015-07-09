@@ -7,7 +7,7 @@ full_width: true
 GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and [preview](/docs/ide/features/inline-preview) within Codio.
 
 ##Simple Approach
-The first approach is great for anyone wanting to put a simple button into a GitHub README page and then, when clicked, it creates a Codio fork in an anonymous account. 
+The first approach is great for anyone wanting to put a simple button into a GitHub README page and then, when clicked, it creates a Codio fork in an anonymous account.
 
 The advantage of this approach is that changes you make to your repo will be automatically shown in Codio as it creates a brand new Codio project whenever clicked on.
 
@@ -15,20 +15,23 @@ The advantage of this approach is that changes you make to your repo will be aut
 
 You just use the following link in your GitHub README file (or anywhere else for that matter).
 
-`https://codio.com/p/create/?from_github=your_github_name/your_repo_name`
+```
+https://codio.com/p/create/?from_github=your_github_name/your_repo_name
+```
 
-In some cases, you may want to specify a specific branch. The common usage for this is if you have a demo or GitHub Pages site that you want to load into Codio. In this case you do the following 
+In some cases, you may want to specify a specific branch. The common usage for this is if you have a demo or GitHub Pages site that you want to load into Codio. In this case you do the following
 
-`https://codio.com/p/create/?from_github=your_github_name/your_repo_name&branch=other_branch`
+```
+https://codio.com/p/create/?from_github=your_github_name/your_repo_name&branch=other_branch
+```
 
 You are free to use any way of linking to Codio but we would recommend using the following images
 
-![show](https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png)
-![demo](https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png)
-
+<img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png" class="simple"/>
+<img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png" class="simple"/>
 
 ##Advanced Approach
-This method uses the Project->Share menu option to allow people to link to a Codio project that you created. The advantages over the simple approach are speed and layout. 
+This method uses the Project->Share menu option to allow people to link to a Codio project that you created. The advantages over the simple approach are speed and layout.
 
 As you are creating the project and may want to retain the Panel and Tab layout, you can use this option to provide a link that loads quickly and with the desired layout.
 
@@ -59,7 +62,7 @@ If you are a repo maintainer and you want to offer a super fast way for people t
 - Now select the Markdown option
 - Copy and paste one of the button options into your README.md file and you'll get a nice button your users can click
 
-![create from GitHub](/img/docs/sharing.png)
+<img alt="sharing" src="/img/docs/sharing.png" class="simple"/>
 
 Now, anyone viewing the README.md can click on the button and they'll be instantly taken to the project.
 

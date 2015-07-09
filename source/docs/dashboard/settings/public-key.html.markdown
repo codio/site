@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-If you are looking to find out how to SSH into your Codio Box, [look here](/docs/boxes/access/ssh-access/).
+If you are looking to find out how to SSH into your Codio Box, [look here](/docs/ide/boxes/access/ssh-access/).
 
 Codio automatically generates a public key for your account. This key can then be used whenever Codio attempts communication with an external server that requires public/private key based authentication such as SSH or SFTP access.
 
@@ -33,4 +33,3 @@ If you are working with GitHub or BitBucket, then you need to install the public
 You will be redirected to your GitHub/BitBucket account and asked to authorise the application
 
 On accepting this you will then be redirected back to your Codio account.
-

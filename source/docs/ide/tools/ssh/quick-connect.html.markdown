@@ -8,7 +8,7 @@ The Quick Connect Option (`Tools > SSH > Quick Connect`) lets you access remote 
 
 Specify a friendly name if you want to save the connection details.
 
-![ssh parameters](/img/docs/ssh-parms.png)
+<img alt="ssh paramaters" src="/img/docs/ssh-parms.png" class="simple"/>
 
 If you do not want to install a public key remotely, then Codio will connect to the remote server, which will prompt you for a password.
 

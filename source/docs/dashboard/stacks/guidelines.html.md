@@ -7,7 +7,7 @@ full_width: true
 When creating a Stack, here are some ideas on strategy and how to make them as useful as possible.
 
 ## Starting Stack
-When you create a Stack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/docs/boxes/installsw/box-parts/).
+When you create a Stack, you should first create a new Project from the closest Stack that meets your requirements. You can also use the Base Stack and then [install your own components](/docs/ide/boxes/installsw/box-parts/).
 
 
 ## Long Description
@@ -86,7 +86,7 @@ There are many other useful PHP related components you can install including
 
 The easiest way to install additional components is to select the `Tools->Install Software` option and then search for 'PHP'. You will see a full list of installable modules.
 
-For more information on installing software, please refer to the [documentation](/docs/boxes/installsw/box-parts/).
+For more information on installing software, please refer to the [documentation](/docs/ide/boxes/installsw/box-parts/).
 
 ### Apache Server
 The Apache server should already be started. You can restart it at any time in the following ways
@@ -117,14 +117,14 @@ If you want to set the root password, use the following command from the termina
 ## Codio Documentation
 Please be aware of the following useful links
 
-- [How to Access your Box](/docs/boxes/)
-- [If your firewall only allows access to port 80](/docs/boxes/access/ext-access/)
-- [Installing additional software components onto your Codio Box](/docs/boxes/installsw/box-parts/)
-- [Creating Codio menu items to avoid repetitive terminal commands](/docs/boxes/runmenu/)
+- [How to Access your Box](/docs/ide/boxes/)
+- [If your firewall only allows access to port 80](/docs/ide/boxes/access/ext-access/)
+- [Installing additional software components onto your Codio Box](/docs/ide/boxes/installsw/box-parts/)
+- [Creating Codio menu items to avoid repetitive terminal commands](/docs/ide/boxes/runmenu/)
 - [Using Git in Codio](/docs/ide/editing/git/)
 - [Customizing the IDE settings](/docs/ide/customization/)
-- [Restarting your Box](/docs/boxes/restart-reset/)
-- [SSH into your Box](/docs/boxes/access/ssh-access/)
+- [Restarting your Box](/docs/ide/boxes/restart-reset/)
+- [SSH into your Box](/docs/ide/boxes/access/ssh-access/)
 - [Creating multiple code editing panels in the IDE](/docs/ide/panels/)
 
 ## Stack Specific Links

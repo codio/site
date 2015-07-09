@@ -1,0 +1,99 @@
+.docs-side-navigation {
+  display: none;
+  position: absolute;
+  font-family: $heading-font-family;
+
+  &.affix-top {
+    margin-top: 0;
+    position: absolute;
+  }
+
+  &.affix {
+    top: 3 * $base-line-height;
+    position: fixed;
+  }
+
+  @include breakpoint($break-tablet) {
+    display: block;
+    @include span(3 of 16);
+  }
+
+  .item {
+    margin-left: - $base-line-height / 2;
+    padding: .2rem $base-line-height / 2;
+    margin-top: $base-line-height / 2;
+  }
+
+  .item.active {
+    background: $light-blue;
+    border-radius: 2px;
+
+    .item-header,
+    .item-header a,
+    .item-description {
+      color: white;
+    }
+
+    .item-description {
+      font-weight: 400;
+    }
+  }
+
+  .item-header,
+  .item-header a {
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $base-font-color;
+  }
+
+  .item-description {
+    color: $base-font-color;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: none;
+    margin-bottom: 0;
+  }
+
+  a {
+    font-family: $heading-font-family;
+    transition: all .2s ease-in-out;
+    color: $base-font-color;
+
+    &:hover {
+      font-weight: 400;
+    }
+  }
+
+  .level-1-list {
+
+  }
+
+  .level-1-item {
+    font-size: .75rem;
+
+    a {
+      display: inline-block;
+      line-height: .75rem;
+      padding-left: 10px;
+    }
+
+    &.active > a {
+      border-left: 2px solid $dark-gray;
+      font-weight: 400;
+    }
+  }
+
+  .level-2-item {
+    line-height: 1.333rem;
+
+    a {
+      padding-left: 20px;
+    }
+
+    &.active > a {
+      font-weight: 400;
+    }
+  }
+}

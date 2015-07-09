@@ -13,6 +13,6 @@ You invoke the Command Bar with
 
 You will then see the following popup dialog.
 
-![command bar](/img/docs/command-bar.png)
+<img alt="Command Bar" src="/img/docs/command-bar.png" class="simple"/>
 
 Now just start typing and the list will refine as you type.

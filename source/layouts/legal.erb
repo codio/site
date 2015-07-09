@@ -1,24 +1,21 @@
 <% wrap_layout :'layout' do %>
-<aside class="sidebar">
-  <nav>
-    <ul id="legal-menu">
-
-      <% ordered_simple(sub_pages("legal"), "/legal").each do |resource| %>
-        <% if current_resource.data.title == resource.data.title %>
-          <li class="active">
-            <a href="#"><span><%= resource.data.title %></span></a>
-          </li>
-        <% else %>
-          <li>
-            <%= link_to resource.data.title, resource.url %>
-          </li>
-        <% end %>
+<aside class="legal-side-navigation">
+  <ul>
+    <% ordered_simple(sub_pages("legal"), "/legal").each do |resource| %>
+      <% if current_resource.data.title == resource.data.title %>
+        <li class="active list-item">
+          <a href="#"><span><%= resource.data.title %></span></a>
+        </li>
+      <% else %>
+        <li class="list-item">
+          <%= link_to resource.data.title, resource.url %>
+        </li>
       <% end %>
-    </ul>
-  </nav>
+    <% end %>
+  </ul>
 </aside>
 
-<article>
+<article class="legal-body">
   <h2 class="title"><%= current_page.data.title %></h2>
   <%= yield %>
 </article>

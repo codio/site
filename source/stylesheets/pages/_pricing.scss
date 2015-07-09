@@ -106,4 +106,8 @@ body.pricing .content {
   @include breakpoint($break-tablet) {
 
   }
+
+  a {
+    @include linkUnderlines(white, $base-font-color);
+  }
 }

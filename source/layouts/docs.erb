@@ -61,13 +61,11 @@
         </ul>
       </aside>
 
-      <article>
-        <h1>
+      <article data-swiftype-name="body" data-swiftype-type="text">
+        <h1 data-swiftype-name="title" data-swiftype-type="string">
           <%= current_resource.data.title %>
         </h1>
         <%= yield %>
       </article>
 
 <% end %>
-
-<%= partial "vendors/swiftype" %>

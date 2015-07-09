@@ -67,7 +67,7 @@ body.docs .overview-section {
 
   padding: 3rem 0;
 
-  & > h2 {
+  .docs-header-navigation-container h2 {
     text-align: center;
   }
 
@@ -204,5 +204,31 @@ body.docs .overview-section {
   @include breakpoint($break-tablet) {
     @include container(12 of 16);
     margin: 0 span(2 of 16);
+  }
+
+  h4 a {
+    color: $dark-gray;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  em {
+    border: 1px solid $lighter-gray;
+    border-radius: 2px;
+    padding: 0 .3em;
+    background: $very-light-blue;
+    font-weight: 400
+  }
+
+  .st-page {
+    .st-prev {
+
+    }
+    .st-next {
+      float: right;
+    }
   }
 }

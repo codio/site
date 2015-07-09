@@ -13,8 +13,10 @@ layout: layout
 </div>
 
 <div class="overview-section">
-  <h2>Or choose a topic</h2>
-  <%= partial "docs-header-navigation" %>
+  <div class="docs-header-navigation-container">
+    <h2>Or choose a topic</h2>
+    <%= partial "docs-header-navigation" %>
+  </div>
+  <div class="search-results" id="st-results-container">
+  </div>
 </div>
-
-<%= partial "vendors/swiftype" %>

@@ -31,7 +31,12 @@ module MyHelpers
     current_path = current_page.url
     current_path.slice! -1 if current_page.url.end_with?('/')
     path.slice! -1 if path.end_with?('/')
-    current_path.start_with? path
+    pathArray = path.split '/'
+    currentArray = current_path.split '/'
+
+    (0..pathArray.length - 1).reduce(true) do |acc, i|
+      acc and pathArray[i] == currentArray[i]
+    end
   end
 
   # Add active class if needed

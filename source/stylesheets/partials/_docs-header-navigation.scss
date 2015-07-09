@@ -1,0 +1,87 @@
+.docs-header-navigation {
+  @include container;
+  @include break;
+  padding-top: 3 * $base-line-height;
+  margin-bottom: 3 * $base-line-height;
+
+  @include breakpoint($break-tablet) {
+    border-bottom: 1px solid $lighter-gray;
+    float: inherit;
+    max-width: $max-width;
+  }
+}
+
+.docs-header-navigation-item {
+  @include span(2 of 4);
+  height: 5 * $base-line-height;
+  padding-top: $base-line-height;
+
+  &:nth-child(3) {
+    @include break;
+  }
+
+  @include breakpoint($break-tablet) {
+    @include span(4 of 16);
+    padding-top: 0;
+
+    &:nth-child(3) {
+      @include nobreak;
+    }
+  }
+
+  &.active {
+    @include breakpoint($break-tablet) {
+      border-bottom: 1px solid $light-blue;
+    }
+
+    h2 {
+      color: $light-blue;
+    }
+
+    &:hover h2 {
+      color: $base-font-color;
+    }
+  }
+
+  &:hover h2 {
+    color: $light-blue;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: .2em;
+    color: $base-font-color;
+    transition: color .2s ease-in-out;
+
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: 0;
+      margin-top: -50px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .navigation-header-student:before {
+    background: url('/img/assets/docs-navigation/student.png') no-repeat left center;
+  }
+
+  .navigation-header-teacher:before {
+    background: url('/img/assets/docs-navigation/teacher.png') no-repeat left center;
+  }
+
+  .navigation-header-dashboard:before {
+    background: url('/img/assets/docs-navigation/dashboard.png') no-repeat left center;
+  }
+
+  .navigation-header-ide:before {
+    background: url('/img/assets/docs-navigation/ide.png') no-repeat left center;
+  }
+
+  p {
+    font-size: 16px;
+    color: $base-font-color;
+  }
+}

@@ -1,0 +1,20 @@
+body.legal {
+
+  article {
+    @include span(4);
+    @include breakpoint($break-tablet) {
+      @include span(8 of 16);
+      margin-left: span(2 of 16);
+    }
+  }
+
+  aside {
+    @include span(4);
+
+    @include breakpoint($break-tablet) {
+      margin-top: 4 * $base-line-height;
+      @include span(3 of 16);
+      margin-left: span(1 of 16);
+    }
+  }
+}

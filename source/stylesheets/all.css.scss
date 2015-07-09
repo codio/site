@@ -1,28 +1,46 @@
-@charset "utf-8";
+//= require 'animate.css/animate.css'
 
-@import "bourbon";
-@import "base/base";   /* Bitters needs to be imported before Neat */
-@import "neat";
-@import "Paraxify.js/paraxify";
+@charset 'utf-8';
 
-@import "includes/responsive";
-@import "includes/font-awesome/font-awesome";
-@import "includes/syntax";
-@import "includes/buttons";
-@import "includes/menu";
-@import "includes/tabs";
-@import "includes/video";
-@import "includes/share-links";
+@import 'compass';
+@import 'compass/reset';
+@import 'compass/typography';
+@import 'susy';
+@import 'breakpoint';
 
-@import "partials/layout";
-@import "partials/header";
-@import "partials/footer";
-@import "partials/animations";
+@import 'variables';
+@import 'typography';
 
-@import "partials/index";
-@import "partials/pricing";
-@import "partials/docs";
-@import "partials/blog";
-@import "partials/about";
-@import "partials/legal";
-@import "partials/errors";
+@include establish-baseline;
+
+
+$susy: (
+  columns: 4,
+  gutters: 1/3,
+  math: fluid,
+  output: isolate,
+  gutter-position: inside,
+  global-box-sizing: border-box-sizing,
+  debug: (
+    //image: show,
+    color: rgba(red, .09)
+  )
+);
+
+
+@import 'layout';
+@import 'code';
+
+@import 'elements/buttons';
+
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/slider';
+@import 'partials/docs-header-navigation';
+
+@import 'pages/index';
+@import 'pages/pricing';
+@import 'pages/docs';
+@import 'pages/legal';
+@import 'pages/team';
+@import 'pages/mission';

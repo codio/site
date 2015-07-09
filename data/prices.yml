@@ -1,0 +1,35 @@
+developer:
+  - count: 1
+    price:
+      month:
+        dollar: 15
+        pound: 8
+  - count: 5
+    price:
+      month:
+        dollar: 75
+        pound: 40
+
+school:
+  - count: 1
+    price:
+      year:
+        dollar: 19.2
+        pound: 12
+  - count: 5
+    price:
+      year:
+        dollar: 75
+        pound: 40
+
+university:
+  - count: 1
+    price:
+      year:
+        dollar: 96
+        pound: 60
+  - count: 5
+    price:
+      year:
+        dollar: 75
+        pound: 40

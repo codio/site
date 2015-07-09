@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "devDependencies": {
     "cookie-monster": "~0.3.0",
-    "zepto": "~1.1.4",
     "html5shiv": "~3.7.2",
     "blueimp-md5": "~1.1.0",
-    "zeptotouch": "~1.1.4",
-    "jqTabs": "git@github.com:archaeron/jqTabs.git#~1.1.0",
-    "Paraxify.js": "git@github.com:jaicab/Paraxify.js.git"
-  },
-  "dependencies": {
-    "pgwmodal": "~2.0.0"
+    "animate.css": "~3.3.0",
+    "jquery": "~2.1.4",
+    "dragdealer": "~0.9.8",
+    "wow.js": "~1.1.2",
+    "swiftype-jquery": "*"
   }
 }

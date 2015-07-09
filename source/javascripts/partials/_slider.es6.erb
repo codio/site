@@ -1,0 +1,93 @@
+/* globals $, Dragdealer */
+
+const PRICES = <%= data.prices.to_json %>
+
+const SYMBOLS = {
+  dollar: '$',
+  pound: '$pound;'
+}
+
+const DEFAULT_RANGE = {
+  developer: 'month',
+  school: 'year',
+  university: 'year'
+}
+
+const state = {
+  type: 'developer',
+  step: 0,
+  range: 'month',
+  currency: 'pound'
+}
+
+const $slider = $('.slider')
+const $dragWrapper = $('.slider .drag-wrapper')
+const $fill = $('.slider .fill')
+const $handle = $('.slider .handle')
+const $countNumber = $('.slider .count .number')
+const $currency = $('.slider .currency')
+const $amount = $('.slider .amount')
+const $range = $('.slider .range')
+const $typeList = $('.slider .type-list')
+const $types = $typeList.find('li.item')
+
+const setup = steps => {
+  return new Dragdealer($dragWrapper.get(0), {
+    horizontal: true,
+    snap: true,
+    steps: steps,
+    animationCallback(x, y) {
+      $fill.css({
+        width: $handle.position().left - $dragWrapper.offset().left
+      })
+
+      state.step = x
+      updateDisplay()
+    }
+  })
+}
+
+const currentSelection = () => PRICES[state.type][state.step]
+
+const updateDisplay = () => {
+  const current = currentSelection()
+  const price = current.price[state.range][state.currency]
+
+  $countNumber.text(current.count)
+
+  $currency.innerHTML = SYMBOLS[state.currency]
+  $amount.text(price)
+  $range.text(state.range)
+}
+
+const stepCount = type => PRICES[type].length
+
+const findItem = type => $typeList.find('li[data-type="' + type+ '"]')
+
+const setType = type => {
+  state.type = type
+  state.range = DEFAULT_RANGE[type]
+}
+
+const setupSelector = () => {
+  const $active = findItem(state.type)
+
+  $active.addClass('active')
+
+  $types.click(function (event) {
+    $types.removeClass('active')
+    $this = $(this)
+    $this.addClass('active')
+
+    setType($this.data('type'))
+
+    updateDisplay()
+  })
+}
+
+$(() => {
+
+  setupSelector()
+
+  const dealer = setup(stepCount(state.type))
+})

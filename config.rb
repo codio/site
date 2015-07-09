@@ -3,6 +3,8 @@
 require "lib/helpers"
 helpers MyHelpers
 
+require "susy"
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -50,7 +52,7 @@ activate :sitemap,
          :gzip => false,
          :hostname =>  "https://codio.com"
 
-activate :syntax
+activate :syntax, line_numbers: true
 
 activate :automatic_clowncar,
          :sizes => {
@@ -65,18 +67,6 @@ activate :automatic_clowncar,
 activate :asset_host
 set :asset_host, ENV["M_ASSET_HOST"] || "http://localhost:4567"
 
-
-activate :blog do |blog|
-  blog.layout            = "blog"
-  blog.prefix            = "blog"
-  blog.permalink         = ":year/:month/:title.html"
-  blog.sources           = "articles/:year/:month/:title.html"
-  blog.paginate          = true
-  blog.tag_template      = "blog/tag.html"
-  blog.calendar_template = "blog/calendar.html"
-  blog.taglink           = "{tag}.html"
-end
-
 activate :directory_indexes
 
 ignore '*.ordered'
@@ -89,10 +79,23 @@ page "50x.html", :directory_index => false
 # activate :automatic_image_sizes
 
 activate :bower
+activate :es6
+
+activate :autoprefixer do |config|
+  config.browsers = ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1']
+end
+
 
 # Reload the browser automatically whenever files change
 configure :development do
-  activate :livereload
+  activate :livereload, no_swf: true
+  set :file_watcher_ignore, [
+      %r{\.tern-port},
+      %r{flycheck_},
+      %r{node_modules/},
+      %r{vendor/},
+      %r{\.#}
+    ]
 end
 
 
@@ -114,9 +117,6 @@ configure :build do
     html.remove_http_protocol = false
     html.remove_https_protocol = true
   end
-
-  # Disable in development
-  #activate :imageoptim
 
   activate :gzip
   activate :cache_buster

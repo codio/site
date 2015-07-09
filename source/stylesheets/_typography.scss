@@ -1,0 +1,89 @@
+body {
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: $base-font-weight;
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-weight: 500;
+}
+
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken($action-color, 15%);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid $lighter-gray;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  right: 0;
+}
+
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414rem 0 0.5rem;
+  line-height: $header-line-height;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.157rem;
+}
+
+h2 {
+  font-size: 2.369rem;
+}
+
+h3 {
+  font-size: 1.777rem;
+}
+
+h4 {
+  font-size: 1.333rem;
+}
+
+small,
+.font_small {
+  font-size: 0.75rem;
+}

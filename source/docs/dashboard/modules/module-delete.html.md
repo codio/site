@@ -4,12 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-#Delete a Unit
+##Delete a Unit
 You can delete a unit by enabling the 'Edit Units' toggle button and then pressing the `Delete` button.
 
 ![Units Delete](/img/docs/unit_delete.png)
 
-#Delete a Module
+##Delete a Module
 You can delete a Module by selecting the Module from the listing, then press the `Delete` button.
 
 

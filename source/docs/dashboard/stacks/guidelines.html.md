@@ -112,7 +112,7 @@ Assuming the MySQL server is started, you can connect to it using `mysql` from t
 #### Root Password
 If you want to set the root password, use the following command from the terminal
 `mysqladmin -u root password NEWPASSWORD`
-```
+
 
 ## Codio Documentation
 Please be aware of the following useful links
@@ -135,3 +135,4 @@ Please be aware of the following useful links
 
 ## Updating Components
 If this Stack is not using any of the latest components, please email support@codio.com and we will update it.
+```

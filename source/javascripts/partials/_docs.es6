@@ -28,7 +28,7 @@ $(() => {
     const $footer = $('footer')
     const $docsBody = $('.docs-body')
 
-    if (!$menu) return
+    if ($menu.length === 0) return
     // Set a min-height so the full menu is visible
     $docsBody.css({
       'min-height': $menu.outerHeight(true) + $menu.offset().top

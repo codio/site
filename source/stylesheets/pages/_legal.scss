@@ -1,20 +1,62 @@
-body.legal {
 
-  article {
-    @include span(4);
-    @include breakpoint($break-tablet) {
-      @include span(8 of 16);
-      margin-left: span(2 of 16);
+.legal-body {
+  @include span(4);
+  @include break;
+
+  @include breakpoint($break-tablet) {
+    @include nobreak;
+    @include span(8 of 16);
+    margin-left: span(5 of 16);
+  }
+
+  h3 a {
+    color: $base-font-color;
+  }
+
+  ul, ol {
+    list-style: initial;
+    padding-left: 20px;
+    margin-bottom: $base-line-height;
+  }
+
+  a {
+    @include linkUnderlines(white, $base-font-color);
+  }
+}
+
+.legal-side-navigation {
+  @include span(4);
+
+  @include breakpoint($break-tablet) {
+    @include span(3 of 16);
+    margin-left: span(1 of 16);
+
+    &.affix-top {
+      margin-top: 6 * $base-line-height;
+      position: absolute;
+    }
+
+    &.affix {
+      top: 4 * $base-line-height;
+      position: fixed;
     }
   }
 
-  aside {
-    @include span(4);
+  .list-item a {
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $base-font-color;
+    font-family: $heading-font-family;
+    transition: all .2s ease-in-out;
 
-    @include breakpoint($break-tablet) {
-      margin-top: 4 * $base-line-height;
-      @include span(3 of 16);
-      margin-left: span(1 of 16);
+    &:hover {
+      color: $light-blue;
     }
+  }
+
+  .list-item.active a {
+    color: $light-blue;
   }
 }

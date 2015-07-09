@@ -87,6 +87,8 @@ body.docs .overview-section {
 
 
   @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
     max-width: $max-width;
   }
 
@@ -99,6 +101,7 @@ body.docs .overview-section {
 .search-results {
   @include container;
   @include break;
+  margin: gutter();
 
   @include breakpoint($break-tablet) {
     @include container(12 of 16);

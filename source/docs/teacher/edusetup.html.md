@@ -25,7 +25,8 @@ When students leave the Guide and return to the main Codio dashboard, they will 
 ## Additional Teacher Setup
 Normally, the first teacher to sign up to Codio should have created an Organization when they signed up. If you're not sure about this please do the following.
 
-1. In the very bottom left of the Codio Dashboard, you will find the Organizations icon ![](/img/docs/education/org-button.png). Click it.
+1. In the very bottom left of the Codio Dashboard, you will find and click the Organizations icon.
+<img alt="authtoken" src="/img/docs/org-button.png" class="simple"/>
 1. If there is no Organization created for your school, you should create one now by pressing the Education button. If there is an organization in the list with the name of your organization there, then you can stop here.
 1. Press the 'Create  Organization' button and complete the fields.
 

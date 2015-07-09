@@ -18,6 +18,7 @@
                   </p>
                 <% end %>
               </div>
+              <% if current_section? child.url %>
               <ul class="<%= active %> level-1-list">
                 <% ordered(child).each do |p| %>
                   <% if current_section? p.url %>
@@ -42,6 +43,7 @@
                       </li>
                 <% end %>
               </ul>
+              <% end %>
            </li>
          <% end %>
         </ul>

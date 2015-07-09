@@ -56,6 +56,8 @@ You are free to customize the menu in either of the following ways
 For details about the various tokens that can be inserted, please refer to ['Customizing the Run menu'](/docs/ide/boxes/runmenu/).
 
 `{{domain}}` is the most important token for the Preview menu. It is replaced by the public url of your project. In most cases you will want to add the Port number (default 3000) to your service, as shown in the example below.
+`{{domain3000}}` can also be used in the Preview menu. It is replaced by the public url required to access your project over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
+
 
 ```json
 {

@@ -14,7 +14,7 @@ Wordpress is quickly installed with Codio. Just follows these steps and you shou
 
 ##Download from the Wordpress site
 
-1. From the terminal, `wget http://wordpress.org/latest.tar.gz` 
+1. From the terminal, `wget http://wordpress.org/latest.tar.gz`
 1. Unzip the download file using `tar -xzvf latest.tar.gz`
 
 
@@ -29,7 +29,7 @@ We now need to get all these components installed so that Wordpress will run. Th
         parts start apache2 mysql
 
 ##Installing other PHP Modules
-Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
+Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/ide/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
 
 ##Setting up a MySQL Database
 We now need to get a MySQL database setup and usable by Wordpress.
@@ -45,7 +45,7 @@ We now need to get a MySQL database setup and usable by Wordpress.
 
 ##Modify a couple of small things for Codio
 
-We now need to make a small modification to get things to run smoothly on your Codio Box. 
+We now need to make a small modification to get things to run smoothly on your Codio Box.
 
 1. Open the \wordpress folder, right click on `wp-config-sample.php` and rename to `wp-config.php`
 
@@ -62,7 +62,7 @@ Open the file to edit the contents
 
 We now need to add in couple of lines to tell WordPress the site's urls
 
-1. Above line 17, enter 
+1. Above line 17, enter
     `define('WP_HOME','http://word1-word2.codio.io:3000/wordpress');`
     `define('WP_SITEURL','http://word1-word2.codio.io:3000/wordpress');`
 
@@ -70,7 +70,7 @@ We now need to add in couple of lines to tell WordPress the site's urls
 
 
 ##Run the Wordpress Installer for real
-Now we can let the Wordpress Installer do the rest. 
+Now we can let the Wordpress Installer do the rest.
 
 1. From the Preview menu (right most Codio menu) select 'Box URL' again.
 1. Append `/wordpress/wp-login.php` to the URL and continue through the installer's steps.
@@ -85,4 +85,3 @@ To work happily on port 3000, we need to install a Wordpress Plugin
 
 ##All done!
 From the menu bar select 'Codio Site' (unless you used a different Site Title in the WordPress installer) and you now have Wordpress fully up and running.
-

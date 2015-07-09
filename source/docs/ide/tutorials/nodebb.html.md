@@ -25,7 +25,7 @@ When you exit your project, Codio will shut down your Box. To get Redis to start
     parts start redis
 
 ##Confgure Redis for Codio
-We now need to make a modification to get things to run smoothly on your Codio Box. 
+We now need to make a modification to get things to run smoothly on your Codio Box.
 
 1. In the Terminal, enter `redis-server --port 16379 &` to run your redis server on port 16379. The `&` makes the command run in the background.
 
@@ -35,7 +35,7 @@ We now need to make a modification to get things to run smoothly on your Codio B
 1. When completed run `node app`.
 
 ##Preview Setup
-You can now run NodeBB. From the Preview menu (the rightmost Codio menu, which initially says 'Project index (static)') select the dropdown list and click on 'Configure'. Then paste the following code into the file, replacing the existing contents. 
+You can now run NodeBB. From the Preview menu (the rightmost Codio menu, which initially says 'Project index (static)') select the dropdown list and click on 'Configure'. Then paste the following code into the file, replacing the existing contents.
 
     {
 			// Configure your Run and Preview buttons here.
@@ -54,12 +54,10 @@ You can now run NodeBB. From the Preview menu (the rightmost Codio menu, which i
   	}
 	}
 
-The `commands` entries are shortcuts to Terminal commands and the `preview` entries are shortcuts to browser previews. You can [read more about this](/docs/boxes/run/) in our docs.
+The `commands` entries are shortcuts to Terminal commands and the `preview` entries are shortcuts to browser previews. You can [read more about this](/docs/ide/boxes/run/) in our docs.
 
 ##Try it out
 We're now ready to preview the application.
 
 1. From the Preview menu (the right most Codio menu, which initially shows 'Project Index (static)') select 'Box URL' which will access your application over Port 4567.
 1. You should now see the basic NodeBB application running and you can login (with the admin credentials you entered above) and and you now have NodeBB fully up and running.
-
-

@@ -6,7 +6,7 @@ full_width: true
 
 To share a project or link to a project from a web page, go to the `Project > Share` menu item.
 
-![Sharing](/img/docs/sharing.png)
+<img alt="Sharing" src="/img/docs/sharing.png" class="simple"/>
 
 ##Retaining Layout Status & Automatically starting Guides
 You'll notice the three options at the top of the dialog. When you embed or link to a Codio project you have three ways of the IDE rendering it
@@ -29,4 +29,3 @@ You will notice that there are two suggested buttons available for Project URL a
 
 - **Demo** : the suggested button for any situation where you want to link to a demo project. A great example would be on your GitHub page, where you want to be able to show a demo of your code as well as allowing the user to browse around the code itself.
 - **Show me the code** : the suggested button for any situation where you want to link a blog, tutorial or some documentation to a real code sample.
-

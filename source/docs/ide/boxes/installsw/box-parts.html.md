@@ -8,11 +8,11 @@ Codio provides a rich set of so-called Box Parts that are very rapidly installab
 
 See also [Stacks](/docs/dashboard/stacks/listing/) where you can create new Projects and Boxes from pre existing Stack libraries.
 
-As of June 2015 a subscription is required to install software packages. Existing users are not affected. 
+As of June 2015 a subscription is required to install software packages. Existing users are not affected.
 
 You can also install software by downloading and compiling from source code.
 
-As covered in the next section, [Coding your own Packages](/docs/boxes/installsw/parts-coding) you can also create your own Box Parts packages.
+As covered in the next section, [Coding your own Packages](/docs/ide/boxes/installsw/parts-coding) you can also create your own Box Parts packages.
 
 ##Install Software tab
 The easiest way to install software packages onto a Codio Box is from the `Tools->Install software` menu item. This allows you to perform the following actions
@@ -27,10 +27,10 @@ The easiest way to install software packages onto a Codio Box is from the `Tools
 ![Install Software](/img/docs/install-software.png)
 
 ##Autostarting
-Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box. Please refer to the [Autostarting services](/docs/boxes/startup/) section for more details.
+Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box. Please refer to the [Autostarting services](/docs/ide/boxes/startup/) section for more details.
 
 ##Command Line
-You can also install Box Parts packages from the [command line](/docs/boxes/terminal/).
+You can also install Box Parts packages from the [command line](/docs/ide/boxes/terminal/).
 
 Open up a Terminal window from the `Tools->Terminal` menu item.
 
@@ -120,7 +120,7 @@ parts status <package-name>
 parts status (lists the status of services provided by all installed packages)
 ```
 
-When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as [described here](/docs/boxes/startup/).
+When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as [described here](/docs/ide/boxes/startup/).
 
 ##Parts folder and config files
 Box Parts installs things in a special location where you have full access and control

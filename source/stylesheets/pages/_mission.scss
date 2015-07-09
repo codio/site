@@ -1,9 +1,9 @@
-body.mission .content {
+body.about_mission .content {
   margin: -65px auto 0 auto;
   max-width: 100%;
 }
 
-body.mission .header-block {
+body.about_mission .header-block {
   @include span(4);
   background-size: cover;
   position: relative;

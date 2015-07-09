@@ -11,16 +11,16 @@ You should also read the [PHP Introduction](/specifics/php).
 ##Create a Project
 If you are already in a project, then you can ignore these steps.
 
-1. From the Codio Dashboard, create a new Empty template project. 
+1. From the Codio Dashboard, create a new Empty template project.
 1. Open a Terminal window from the Tools->Terminal window
 
 
 ##Installing Composer
-We use [Box Parts](/docs/boxes/box-parts) to install Composer. The basic installation of Composer is done from the Terminal with 
+We use [Box Parts](/docs/ide/boxes/box-parts) to install Composer. The basic installation of Composer is done from the Terminal with
 
     parts install composer
-    
-However, if you are starting from scratch, you may want to install several typical components like this 
+
+However, if you are starting from scratch, you may want to install several typical components like this
 
     parts install php5 php5-apache2 composer mysql
 
@@ -42,8 +42,3 @@ This example shows how to use Composer to install the Laravel framework. You can
 1. `composer create-project laravel/laravel --prefer-dist` to install Laravel
 1. `mv laravel/{*,.*} ~/workspace` to move the installed contents down to the workspace folder
 1. `rm laravel -r` to remove the now empty `laravel` folder.
-
-
-
-
-

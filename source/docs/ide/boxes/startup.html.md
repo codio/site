@@ -4,12 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-Your Box will be put to sleep under the conditions [explained here](/docs/boxes/overview/).
+Your Box will be put to sleep under the conditions [explained here](/docs/ide/boxes/overview/).
 
 When you open your project, the Box will start instantly but, by default, any services will not start automatically.
 
 ##Autostarting using the Install Software tab
-You can access the Installed software tab as [described here](/docs/boxes/installsw/). Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box.
+You can access the Installed software tab as [described here](/docs/ide/boxes/installsw/). Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box.
 
 ##Autostarting using startup.sh
 You can also create and configure the `startup.sh` file in the root of your project. This file will typically contain something like this
@@ -18,7 +18,7 @@ You can also create and configure the `startup.sh` file in the root of your proj
 parts start apache2 myotherservice
 ```
 
-The Box Parts command line utility is explained in [this section](/docs/boxes/installsw/box-parts/).
+The Box Parts command line utility is explained in [this section](/docs/ide/boxes/installsw/box-parts/).
 
 If you experience problems with auto starting (which should rarely happen) then you can add a parts stop line beforehand
 

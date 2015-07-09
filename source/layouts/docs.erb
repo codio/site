@@ -1,71 +1,19 @@
 <% wrap_layout :'layout' do %>
 
-  <%- pages = nav_pages(current_resource.url) -%>
-    <div class="header-block">
-      <h2>How can we help you?</h2>
-    </div>
+  <div class="header-block">
+    <h2>How can we help you?</h2>
+  </div>
 
-    <div class="docs-content">
-      <%= partial 'docs-header-navigation' %>
+  <div class="docs-content">
+    <%= partial 'docs-header-navigation' %>
 
-      <aside class="docs-menu">
-        <ul>
-          <% pages.each do |resource| %>
-            <li>
-              <ul>
-                <% ordered(resource).each do |child| %>
-                  <li>
-                    <% active = current_section?(child.url) ? "active" : "" %>
-                    <div class="<%= active %> item">
-                      <div class="item-header">
-                      <% if ordered(child).length > 0 %>
-                        <%= child.data.title %>
-                        </div>
-                      <% else %>
-                        <%=  link_to child.data.title, child.url %>
-                        </div>
-                        <p class="item-description">
-                          <%= child.data.description %>
-                        </p>
-                      <% end %>
-                    </div>
-                    <ul class="<%= active %>">
-                      <% ordered(child).each do |p| %>
-                        <% if current_section? p.url %>
-                          <li class="active">
-                            <%=  link_to p.data.title, p.url %>
-                            <% if p.children.length > 0 %>
-                              <ul>
-                                <% ordered(p).each do |inner| %>
-                                  <% if current_page? inner.url %>
-                                    <li class="active">
-                                  <% else %>
-                                      <li>
-                                  <% end %>
-                                  <%= link_to inner.data.title, inner.url %></li>
-                                <% end %>
-                              </ul>
-                            <% end %>
-                        <% else %>
-                            <li>
-                              <%=  link_to p.data.title, p.url %>
-                        <% end %>
-                            </li>
-                      <% end %>
-                    </ul>
-                </li>
-                <% end %>
-              </ul>
-          </li>
-          <% end %>
-        </ul>
-      </aside>
+    <%= partial 'docs-side-navigation' %>
 
-      <article data-swiftype-name="body" data-swiftype-type="text">
-        <h1 data-swiftype-name="title" data-swiftype-type="string">
-          <%= current_resource.data.title %>
-        </h1>
-        <%= yield %>
-      </article>
+    <article data-swiftype-name="body" data-swiftype-type="text" class="docs-body">
+      <h1 data-swiftype-name="title" data-swiftype-type="string">
+        <%= current_resource.data.title %>
+      </h1>
+      <%= yield %>
+    </article>
 
 <% end %>

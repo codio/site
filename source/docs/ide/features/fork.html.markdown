@@ -12,4 +12,4 @@ If you are signed into Codio, forking a project will create the fork in your acc
 
 If the project owner has allowed box cloning you will also be able to clone the box as well as the project.
 
-![Clone box](/img/docs/fork-clone.png)
+<img alt="Clone box" src="/img/docs/fork-clone.png" class="simple"/>

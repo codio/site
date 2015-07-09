@@ -31,7 +31,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (June 23rd) add ability to filter modules listing for recommended Courses
 - **Fixed**: (June 11th) fix Organisation [Invitation Token](/docs/dashboard/organizations/adding-members/) to Read Only
 - **Update**: (June 8th) updated Dashboard to improve performance and support future Education Improvements
-- **Feature**: (June 8th) added [Crunch](/docs/quickstart/crunch) (a modern, full-featured alternative to Little Man Computer) 
+- **Feature**: (June 8th) added [Crunch](/docs/quickstart/crunch) (a modern, full-featured alternative to Little Man Computer)
 - **Feature**: (June 8th) added [Flow Charting](/docs/quickstart/flow) tool.
 - **Update**: (June 2nd) update Box Parts (googleappengine, googleappenginego, googleappenginejava)
 
@@ -39,7 +39,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update** (May 25th) update Box Parts (rethinkdb, rust)
 - **Update** (May 11th) updated to CodeMirror (5.2)
 - **Improvement**: (May 7th) Guides improvements for Dyslexic theme/usage
-- **Improvement**: (May 5th) add new .codio token. See [IDE Shortcuts](https://codio.com/docs/boxes/runmenu/) for more information
+- **Improvement**: (May 5th) add new .codio token. See [IDE Shortcuts](https://codio.com/docs/ide/boxes/runmenu/) for more information
 - **Fixed**: (May 4th) empty pane text to remove scroll bar
 
 ### April 2015
@@ -93,7 +93,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: (January 22nd) Guides updated including improve styling & iframe support. See [Guides](/docs/ide/tools/guides/) for more on this.
 - **Feature**: (January 22nd) Add ability to copy/paste files/folders in file tree
 - **Update**: (January 22nd) Codio Certified Starter Pack (Meteor)
-- **Update**: (January 20th) update Organisation plans to allow number of [Always on Boxes](https://codio.com/docs/boxes/always-on/) for number of users in Organisation
+- **Update**: (January 20th) update Organisation plans to allow number of [Always on Boxes](https://codio.com/docs/ide/boxes/always-on/) for number of users in Organisation
 - **Improvement**: (January 20th) add welcome info for empty panel
 - **Update**: (January 20th) update approved tags for Stacks & Packs
 - **Improvement**: (January 16th) updates to handling of modules in Classrooms
@@ -152,7 +152,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Update**: (October 19th) Update Box Part (adminer, rethinksv)
 - **Feature**: (October 15th) New Box Part added (valgrind)
 - **Update**: (October 10th) Update Box Part (cargo-nightly,rust rust-nightly)
-- **Feature**: (October 9th) [Always on Boxes](/docs/boxes/always-on/) released in Beta
+- **Feature**: (October 9th) [Always on Boxes](/docs/ide/boxes/always-on/) released in Beta
 - **Feature**: (October 7th) New Box Parts UI, [More information...](/blog/2014/10/installsoftware/)
 - **Update**: (October 7th) Phonegap features out of Beta, [More information...](/blog/2014/10/phonegap/)
 - **Fixed**: (October 2nd) reports of deployment history showing before completion of deployment.
@@ -289,4 +289,3 @@ We do not report small bug fixes or issues that affect individual users, who we 
 ---
 
 We only implemented the changelog page on April 7th, 2014 so this is as far back as we go.
-

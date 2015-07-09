@@ -13,4 +13,4 @@ Go to your Phonegap [account details](https://build.phonegap.com/people/edit) an
 
 In Codio, select the `Change Token` button and paste in your key.
 
-![auth](/img/docs/authtoken.png)
+<img alt="authtoken" src="/img/docs/authtoken.png" class="simple"/>

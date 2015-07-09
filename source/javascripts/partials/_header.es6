@@ -8,8 +8,8 @@ $(() => {
 
   const fixedLocations = [
     '/',
-    '/team',
-    '/mission'
+    '/about',
+    '/about/mission'
   ]
 
   if (fixedLocations.indexOf(location.pathname) > -1) {

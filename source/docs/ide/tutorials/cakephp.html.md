@@ -7,7 +7,7 @@ full_width: true
 
 This tutorial shows you how to create a CakePHP 3 project and work with it in Codio. Thanks to [Ceeram](http://ceeram.github.io/) for this tutorial.
 
-[CakePHP](http://cakephp.org) is a rapid development framework for PHP which uses commonly known design patterns like Association Data Mapping, Front Controller and MVC. Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility. 
+[CakePHP](http://cakephp.org) is a rapid development framework for PHP which uses commonly known design patterns like Association Data Mapping, Front Controller and MVC. Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
 
 ##Create a Project
 
@@ -23,7 +23,7 @@ We now need to install a few components
 1. Let's start up our services with `parts start apache2 mysql`
 
 ##Installing other PHP Modules
-Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
+Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/ide/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
 
 ##Bake the Cake
 We already installed Composer above, so let's now install CakePHP itself using Composer.

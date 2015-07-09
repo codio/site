@@ -4,11 +4,11 @@ class_name: docs
 full_width: true
 ---
 
-[Symfony](http://symfony.com/) is an open source PHP web development framework - a set of tools and methodology to help you build great applications. Some of the traits of this framework are its speed, flexibility, scalability, and stability. You can use it for a full blown web application but also for smaller functionalities needed for your project. 
+[Symfony](http://symfony.com/) is an open source PHP web development framework - a set of tools and methodology to help you build great applications. Some of the traits of this framework are its speed, flexibility, scalability, and stability. You can use it for a full blown web application but also for smaller functionalities needed for your project.
 
 ##Create a Project
 
-1. From the Codio Dashboard, create a new Empty template project. 
+1. From the Codio Dashboard, create a new Empty template project.
 1. Open a Terminal window from the Tools->Terminal window
 
 
@@ -28,7 +28,7 @@ full_width: true
 
 We now need to get all these components installed so that Symfony will run. This is very easy with Codio luckily.
 
-1. Enter `parts install php5 php5-apache2 mysql composer` to install PHP5, Apache and MySQL. 
+1. Enter `parts install php5 php5-apache2 mysql composer` to install PHP5, Apache and MySQL.
 1. Let's start up our services with `parts start apache2 mysql`
 1. Why not configure an autostart so you don't have to manually start each time you restart your project. Create a new file called `startup.sh` in the root of your project and copy and paste the following lines into it
 
@@ -36,14 +36,14 @@ We now need to get all these components installed so that Symfony will run. This
         parts start apache2 mysql
 
 ##Installing other PHP Modules
-Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
+Codio installs standard modules (Sqlite, MySQL, Multibyte, OpenSSL) by default with the PHP5 installation. You can add many more PHP modules using [Box Parts](/docs/ide/boxes/box-parts). From the Terminal, just enter `parts search php` to see a list of all PHP related Box Parts.
 
 ##Settings and Tweaks
 We need to make a few tweaks to the system for Symfony. Firstly, we need to modify the `php.ini` file to specify the time zone. You can edit the php.ini file using nano but we'll do the quick and dirty way and just append it to the end of the file. You'll then need to restart Apache as well:
 
     echo date.timezone = UTC >> ~/.parts/etc/php5/php.ini
     parts restart apache2
-    
+
 Now we need to remove the IP address checking in the `web/config.php` file. Just delete the following code block from the top of the file
 
     if (!in_array(@$_SERVER['REMOTE_ADDR'], array(
@@ -67,7 +67,7 @@ and remove this code in `web/app_dev.php`
     }
 
 ##Preview Setup
-You can now run the Symfony config application. From the Preview menu (the rightmost Codio menu, which initially says 'Project index (static)') select the dropdown list and click on 'Configure'. Then paste the following code into the file, replacing the existing contents. 
+You can now run the Symfony config application. From the Preview menu (the rightmost Codio menu, which initially says 'Project index (static)') select the dropdown list and click on 'Configure'. Then paste the following code into the file, replacing the existing contents.
 
     {
     // Configure your Run and Preview buttons here.
@@ -84,7 +84,7 @@ You can now run the Symfony config application. From the Preview menu (the right
       }
     }
 
-The `commands` entries are shortcuts to Terminal commands and the `preview` entries are shortcuts to browser previews. You can [read more about this](/docs/boxes/run/) in our docs.
+The `commands` entries are shortcuts to Terminal commands and the `preview` entries are shortcuts to browser previews. You can [read more about this](/docs/ide/boxes/run/) in our docs.
 
 ##Preview
 Now you can preview the Symfony setup by going to the Preview menu and selecting 'Symfony Config' from the drop down menu.
@@ -93,12 +93,9 @@ If you get a 503 error then you probably have not started Apache, so enter the f
 
     parts start apache2 mysql
 
-If you see a Major Warning (which won't let you proceed) then you have probably not 
+If you see a Major Warning (which won't let you proceed) then you have probably not
 
 ##Configuring Symfony
 Assuming you can now see the Symfony configuration screen, click on the link near the bottom 'Configure Symfony online'.
 
 You'll get to the page where you configure MySQL. We already installed MySQL earlier, so all we need to do is leave all the default exactly as they are and press 'next' twice and you'll see that your Symfony application is fully configured.
-
-
-

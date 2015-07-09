@@ -62,7 +62,7 @@
       }
     }
 
-    @include breakpoint(1280px) {
+    @include breakpoint(1400px) {
       @include span(3.5 of 16);
       margin-left: span(1 of 16);
 

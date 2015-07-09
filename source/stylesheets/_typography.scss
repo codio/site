@@ -20,18 +20,19 @@ h5,
 h6 {
   font-family: $heading-font-family;
   font-weight: 500;
+  margin: 1.414rem 0 0.5rem;
+  line-height: $header-line-height;
 }
 
-
 a {
-  color: $action-color;
+  color: $blue;
   text-decoration: none;
   transition: color 0.1s linear;
 
   &:active,
   &:focus,
   &:hover {
-    color: darken($action-color, 15%);
+    color: $light-blue;
   }
 
   &:active,
@@ -59,11 +60,6 @@ picture {
 
 p {
   margin-bottom: 1.3em;
-}
-
-h1, h2, h3, h4 {
-  margin: 1.414rem 0 0.5rem;
-  line-height: $header-line-height;
 }
 
 h1 {

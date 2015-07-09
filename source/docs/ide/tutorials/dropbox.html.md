@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Syncronizing with Dropbox is done using a [Box Part](/docs/boxes/box-parts). This tutorial explains the steps and the caveats.
+Syncronizing with Dropbox is done using a [Box Part](/docs/ide/boxes/box-parts). This tutorial explains the steps and the caveats.
 
 **Note:** Dropbox support has just been added. We are seeing some situations where your Dropbox connection details are being lost when your Box restarts (when you restart from Project->Restart Box or when you exit you project for longer than 2 minutes). We are looking into this and we will remove this message as soon as we have identified the issue.
 

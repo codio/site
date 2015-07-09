@@ -37,7 +37,7 @@ You can update your ruby list to see the all the current versions. In your termi
 cd ~/.rbenv/plugins/ruby-build
 ```
 
-and then: 
+and then:
 
 ```bash
 git pull
@@ -66,7 +66,7 @@ rbenv rehash
 ```
 
 ##Accessing your application
-Once your Ruby app is up and running, you can access your project from a browser or API call etc. This is easily using done using [Preview button](/docs/ide/inline-preview). When you click it, you will see the URL to your Box, which will look something like this 
+Once your Ruby app is up and running, you can access your project from a browser or API call etc. This is easily using done using [Preview button](/docs/ide/inline-preview). When you click it, you will see the URL to your Box, which will look something like this
 
 `word1-word2.codio.io:port`
 
@@ -74,8 +74,7 @@ Once your Ruby app is up and running, you can access your project from a browser
 ##Important Reading Material
 We strongly recommend you read up on the following before going too much further
 
-- [Configuring single terminal/console commands from the 'Run' menu](/docs/boxes/run)
-- [Restarting and resetting Boxes](/docs/boxes/restart-reset)
-- [How to install Box Parts (everything from languages to middleware to databases)](/docs/boxes/box-parts)
-- [Auto starting Box Parts services](/docs/boxes/startup)
-
+- [Configuring single terminal/console commands from the 'Run' menu](/docs/ide/boxes/run)
+- [Restarting and resetting Boxes](/docs/ide/boxes/restart-reset)
+- [How to install Box Parts (everything from languages to middleware to databases)](/docs/ide/boxes/box-parts)
+- [Auto starting Box Parts services](/docs/ide/boxes/startup)

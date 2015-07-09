@@ -12,5 +12,4 @@ Everything below this level can be accessed and is effectively read-only. You sh
 The code workspace you see in the project file tree is located at `/home/codio/workspace` or `~/workspace`.
 
 ##Software dependencies
-All languages, databases, web servers and other [installable software components](/docs/boxes/installsw/) are located in the `/home/codio/.parts ` folder.
-
+All languages, databases, web servers and other [installable software components](/docs/ide/boxes/installsw/) are located in the `/home/codio/.parts ` folder.

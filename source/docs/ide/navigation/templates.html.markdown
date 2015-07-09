@@ -10,7 +10,7 @@ A template can be used to create standard stub code when a new file is added to 
 
 When you then create a new file, Codio will automatically detect the extension you supply for the filename and then populate the `Use template` dropdown with matching templates.
 
-![new file](/img/docs/templates-newfile.png)
+<img alt="show" src="/img/docs/templates-newfile.png" class="simple"/>
 
 The default CSS template looks like this
 

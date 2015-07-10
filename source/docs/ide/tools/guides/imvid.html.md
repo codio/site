@@ -27,7 +27,7 @@ Including embedded videos are also possible using the standard `<iframe>` html t
   
 If you wish to embed a YouTube video, go to the Share option and select 'Embed' to obtain the code snippet
 
-![](/img/docs/guides/guides_youtube.png)
+<img alt="authtoken" src="/img/docs/guides/guides_youtube.png" class="simple"/>
 
   
 ```
@@ -38,7 +38,7 @@ If you wish to embed a YouTube video, go to the Share option and select 'Embed' 
   
   If you wish to embed a Vimeo video, go to the Share option and select 'Embed' to obtain the code snippet
 
-![](/img/docs/guides/guides_vimeo.png)
+<img alt="authtoken" src="/img/docs/guides/guides_vimeo.png" class="simple"/>
 
 ```
 <iframe src="//player.vimeo.com/video/110479088" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/110479088">Codio - Innovation in Computer Programming Education</a> from <a href="http://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>

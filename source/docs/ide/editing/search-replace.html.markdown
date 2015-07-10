@@ -40,7 +40,7 @@ Global search and replace are available within the Find menu under Find in proje
 
 You can search using regular expressions, ignore case and whole word settings. The buttons on the left of the input fields control these settings.
 
-![global search](/img/docs/global-search.png)
+<img alt="authtoken" src="/img/docs/global-search.png" class="simple"/>
 
 Once the search operation has completed you will see matches listed in a Codio tab. Double click on the highlighted match to open up that file in a new tab.
 

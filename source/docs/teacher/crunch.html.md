@@ -20,7 +20,7 @@ If you want to create your own Crunch files in a Codio project, create a new fil
 
 A new file is created from either the File menu or by right-clicking on the project name line in the file tree.
 
-![](/img/docs/new-file.png)
+<img alt="authtoken" src="/img/docs/new-file.png" class="simple"/>
 
 
 ## Saving changes
@@ -29,7 +29,7 @@ All changes are changed automatically, so you don't have to explicitly save.
 ## Source Code Editing
 Editing source code is done by hovering over a line until the popup button bar appears.
 
-![Courses List](/img/docs/crunch-insert.png)
+<img alt="authtoken" src="/img/docs/crunch-insert.png" class="simple"/>
 
 If you have not yet added any code, then you should see the button bar already there in the top of the code area.
 

@@ -11,7 +11,7 @@ You can format your code by pressing the keyboard shortcut as defined in the [Us
 
 It will indent your code correctly and manage spaces and other cool things.
 
-For example, if you start our with this
+For example, if you start out with this
 
 ```js
 if ('this_is'==/an_example/){of_beautifer();}else{var a=b?(c%d):e[f];}

@@ -20,7 +20,7 @@ To create a new flow chart, simply create a new file with the extension `.flow`.
 
 A new file is created from either the File menu or by right-clicking on the project name line in the file tree.
 
-![](/img/docs/new-file.png)
+<img alt="authtoken" src="/img/docs/new-file.png" class="simple"/>
 
 To edit an existing `.flow` file, simply click on the file name to open the Flow editor.
 

@@ -23,7 +23,7 @@ Generally speaking, you should put your images in the `.guides/img` folder in or
 Including embedded videos are also possible using the standard `<iframe>` html tag.
 
 
-  - YouTube
+###YouTube
   
 If you wish to embed a YouTube video, go to the Share option and select 'Embed' to obtain the code snippet
 
@@ -34,7 +34,7 @@ If you wish to embed a YouTube video, go to the Share option and select 'Embed' 
 <iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo" frameborder="0" allowfullscreen></iframe>
 ```
 
-  - Vimeo
+###Vimeo
   
   If you wish to embed a Vimeo video, go to the Share option and select 'Embed' to obtain the code snippet
 

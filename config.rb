@@ -109,16 +109,20 @@ set :partials_dir, 'partials'
 
 # Build-specific configuration
 configure :build do
-
   # Minification and Compression
   activate :minify_css
-  activate :minify_javascript
+  activate :minify_javascript do |js|
+    require 'uglifier'
+    js.compressor = Uglifier.new(:output => {:comments => :none}, :screw_ie8 => true)
+  end
   activate :minify_html do |html|
     html.remove_http_protocol = false
     html.remove_https_protocol = true
   end
 
-  activate :gzip
+  activate :gzip do |gzip|
+    gzip.exts = %w(.js .css .html .htm .svg)
+  end
   activate :cache_buster
 
   # Enable cache buster

@@ -1,6 +1,6 @@
 ---
 title: "IDE"
-description: "Get to know the editor"
+description: "The Codio code editor"
 class_name: docs
 full_width: true
 ---

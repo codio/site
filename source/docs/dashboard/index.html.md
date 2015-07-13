@@ -1,6 +1,6 @@
 ---
 title: "Dashboard"
-description: "Where is what in your home"
+description: "The main Codio dashboard"
 class_name: docs
 full_width: true
 ---

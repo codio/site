@@ -9,17 +9,15 @@ Codio lets you create your own coding projects independent of formal Coursework.
 
 A Box is a virtual computer in the Cloud. You can do whatever you like with this box. Here are a few links to things you can do. Don't feel you have to master all of these things, but it is useful to know what Codio offers.
 
-[ IAN - ADD LINKS PLEASE]
-
 - Comprehensive [code editing](/docs/ide/editing/)
-- [Installing software](/docs/boxes/installsw/), such as programming languages, databases, tools and libraries.
-- Access the Box's [terminal](/docs/boxes/terminal/).
-- [Run](/docs/boxes/runmenu/) your code.
+- [Installing software](/docs/ide/boxes/installsw/), such as programming languages, databases, tools and libraries.
+- Access the Box's [terminal](/docs/ide/boxes/terminal/).
+- [Run](/docs/ide/boxes/runmenu/) your code.
 - Use a preconfigured software [stack](/docs/dashboard/stacks/) to avoid lengthy configuration of the Box.
 - Use a preconfigured [Starter Pack](/docs/dashboard/packs/). This is a Box fully configured with both pre-installed software as well as starting point code.
 - [Deploy](/docs/ide/tools/deployment/) code to external sites and servers.
 - Each Box comes with the following software installed automatically : [git](/docs/ide/editing/git/), c, java, NodeJS, Ruby and many other useful tools. You don't need to know about any of this but it is good to know for more advanced students.
-- There are many very powerful features in Codio, so feel free to browse the [Boxes](/docs/boxes/) and [IDE](/docs/ide/) documentation.
+- There are many very powerful features in Codio, so feel free to browse the [Boxes](/docs/ide/boxes/) and [IDE](/docs/ide/) documentation.
 
 ## Creating a new Project
 The first thing you will want to do is to create a new Project and try some coding. Check out the options below and why not start off by using a Starter Pack (see below)?

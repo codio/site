@@ -9,6 +9,7 @@
     "jquery": "~2.1.4",
     "dragdealer": "~0.9.8",
     "wow.js": "~1.1.2",
-    "swiftype-jquery": "*"
+    "swiftype-jquery": "*",
+    "numeral": "~1.5.3"
   }
 }

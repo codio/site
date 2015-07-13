@@ -17,7 +17,7 @@ Select the Class and you will be shown a list of Modules your teacher has assign
 ## Units
 Select a Module and you will see a list of all Units for the selected Module. You will normally progress through each of these in sequence.
 
-[IMAGE WITH UNITS AND START UNIT CIRCLED]
+![Class Start](/img/docs/class_start.png)
 
 When you click on the Start Unit icon (circled) the Unit will be started. This may take a few seconds. 
 

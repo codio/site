@@ -1,6 +1,6 @@
 ---
 title: "Starter Packs"
-description: "Getting started"
+description: "Templated starting point for projects"
 class_name: docs
 full_width: true
 ---
@@ -17,3 +17,7 @@ To create a Project from your Starter Packs listing, simply select it and you'll
 ![Pack Info](/img/docs/packs_info.png)
 
 From here, you can click the 'Use Starter Pack' button and you'll be taken to the Create Project screen.
+
+## Free Codio Training Webinars
+Please refer to the [Webinar](/docs/teacher/webinars) section for information on how to sign up for free, web-based training.
+

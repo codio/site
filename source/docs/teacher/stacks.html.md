@@ -1,6 +1,6 @@
 ---
 title: "Stacks"
-description: "Getting started"
+description: "Preconfigured software stacks"
 class_name: docs
 full_width: true
 ---
@@ -17,3 +17,6 @@ To create a Project from your Stacks listing, simply select it and you'll be sho
 ![Stack Info](/img/docs/stacks_info.png)
 
 From here, you can click the 'Use Stack' button and you'll be taken to the Create Project screen.
+
+## Free Codio Training Webinars
+Please refer to the [Webinar](/docs/teacher/webinars) section for information on how to sign up for free, web-based training.

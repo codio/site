@@ -1,11 +1,19 @@
 ---
 title: Crunch
-description: "Getting started"
+description: "A Little Man Computer alternative"
 class_name: docs
 full_width: true
 ---
 
 Crunch is a modern, full-featured alternative to Little Man Computer. It is testament to Little Man Computer that it is still being used many years later. We have taken inspiration from it and given it a modern feel and a more complete instruction set that allows you to focus on thinking about your algorithm rather than having to learn the syntax.
+
+## Lexikon
+We recommend you use Codio's Lexikon feature to get inline help on Crunch usage and commands. You can find the Lexikon in the Tools menu. Once it appears, select the dropdown list on the right side and select Crunch. You can then search for commands. Try entering 'Overview' in the search box for an overview of all the Crunch commands.
+
+## Crunch Module
+We strongly recommend you use the Crunch module to teach Crunch. Modules can be found in the main Codio Dashboard. Seect the 'Modules' link on the left hand side and then locate the Crunch module in the list. 
+
+If you are teaching a Class, then we suggest you assign the Crunch module to the class. [Click here](/docs/dashboard/classes/class-module-add/) for details.
 
 ## Video Overview
 

@@ -1,6 +1,6 @@
 ---
 title: Flow
-description: "Getting started"
+description: "Integrated Flowcharting"
 class_name: docs
 full_width: true
 ---
@@ -27,6 +27,9 @@ To edit an existing `.flow` file, simply click on the file name to open the Flow
 
 ## Adding an element
 To add a new Flow element, simply click on one the the 3 element buttons at the top of the page and drag it into the chart area.
+
+## Adding text
+You can add text anywhere in your flowchart by double-clicking on the background and then entering text. This text can be dragged around the canvas.
 
 ## Resizing
 You can resize any element by first clicking on it and then dragging the handles.

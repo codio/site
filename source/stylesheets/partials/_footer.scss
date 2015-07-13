@@ -33,6 +33,7 @@ footer {
     @include breakpoint($break-tablet) {
       @include span(1 of 5);
       text-align: left;
+      padding-left: 6%;
       margin-bottom: 0;
     }
   }
@@ -48,6 +49,7 @@ footer {
 
     @include breakpoint($break-tablet) {
       @include span(1 of 5);
+      padding: 0 gutter() 0 9%;
       margin-bottom: 0;
     }
   }

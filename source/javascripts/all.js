@@ -5,6 +5,7 @@
 //= require wow.js/dist/wow.js
 //= require swiftype-jquery/jquery.ba-hashchange.min.js
 //= require swiftype-jquery
+//= require numeral
 //
 //= require_tree ./vendors
 //

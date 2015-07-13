@@ -1,10 +1,16 @@
-/* globals $, Dragdealer */
+/* globals $, Dragdealer, numeral */
 
 const PRICES = <%= data.prices.to_json %>
 
 const SYMBOLS = {
   dollar: '$',
   pound: '$pound;'
+}
+
+const DEFAULT_START = {
+  developer: 0,
+  school: 3,
+  university: 3
 }
 
 const DEFAULT_RANGE = {
@@ -14,10 +20,11 @@ const DEFAULT_RANGE = {
 }
 
 const state = {
-  type: 'developer',
-  step: 0,
-  range: 'month',
-  currency: 'pound'
+  type: 'school',
+  step: DEFAULT_START['school'],
+  range: DEFAULT_RANGE['school'],
+  currency: 'pound',
+  dealer: null
 }
 
 const $slider = $('.slider')
@@ -31,32 +38,49 @@ const $range = $('.slider .range')
 const $typeList = $('.slider .type-list')
 const $types = $typeList.find('li.item')
 
-const setup = steps => {
+
+const setHandleWidth = () => {
+  $fill.css({
+    width: $handle.position().left - $dragWrapper.offset().left
+  })
+}
+
+const setup = (steps, initialStep) => {
   return new Dragdealer($dragWrapper.get(0), {
     horizontal: true,
     snap: true,
     steps: steps,
+    x: (1 / steps) * initialStep,
     animationCallback(x, y) {
-      $fill.css({
-        width: $handle.position().left - $dragWrapper.offset().left
-      })
+      setHandleWidth()
 
-      state.step = x
+      state.step = Math.round(x * 10)
       updateDisplay()
     }
   })
 }
 
-const currentSelection = () => PRICES[state.type][state.step]
+const isSafeStep = () => {
+  return state.step < PRICES[state.type].length
+}
+
+const currentSelection = () => {
+  if (!isSafeStep()) {
+    state.step = DEFAULT_START[state.type]
+  }
+
+  return PRICES[state.type][state.step]
+}
+
 
 const updateDisplay = () => {
   const current = currentSelection()
   const price = current.price[state.range][state.currency]
 
-  $countNumber.text(current.count)
+  $countNumber.text(numeral(current.count).format('0,0'))
 
   $currency.innerHTML = SYMBOLS[state.currency]
-  $amount.text(price)
+  $amount.text(numeral(price).format('0,0'))
   $range.text(state.range)
 }
 
@@ -81,6 +105,18 @@ const setupSelector = () => {
 
     setType($this.data('type'))
 
+    // update the dealer
+    state.dealer.options.steps = stepCount(state.type)
+    if (!isSafeStep()) {
+      state.dealer.options.x = 0
+      state.dealer.options.y = 0
+      state.step = DEFAULT_START[state.type]
+    }
+
+    state.dealer.init()
+    state.dealer.setStep(state.step + 1)
+    setHandleWidth()
+
     updateDisplay()
   })
 }
@@ -89,5 +125,6 @@ $(() => {
 
   setupSelector()
 
-  const dealer = setup(stepCount(state.type))
+  state.dealer = setup(stepCount(state.type), state.step)
+  updateDisplay()
 })

@@ -26,9 +26,13 @@ header {
     padding: 0 gutter();
 
     @include breakpoint($break-tablet) {
-      @include container(13 of 15);
-      //margin: 0 span(1 of 15);
+      @include container(14 of 16);
       padding: 0;
+      margin: 0 span(1 of 16);
+    }
+
+    @include breakpoint($max-width) {
+      @include container(16 of 16);
       max-width: $max-width;
     }
   }

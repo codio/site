@@ -18,13 +18,12 @@ body.pricing .content {
   @include container(4 of 4);
 
   margin: gutter();
+  text-align: center;
 
   @include breakpoint($break-tablet) {
     @include container(10 of 16);
     margin: 0 span(3 of 16);
   }
-
-  text-align: center;
 
   h1 {
     color: white;
@@ -50,6 +49,11 @@ body.pricing .content {
     margin: 0 span(1 of 16);
   }
 
+  @include breakpoint($max-width) {
+    margin: 0 auto;
+    max-width: $max-width;
+  }
+
   .action-buttons {
     @include container;
     @include break;
@@ -63,8 +67,8 @@ body.pricing .content {
   padding-top: 5rem;
   padding-bottom: 5rem;
 
-  @include breakpoint($break-tablet) {
-    @include container(16 of 16);
+  @include breakpoint($max-width) {
+    max-width: $max-width;
   }
 }
 
@@ -81,20 +85,20 @@ body.pricing .content {
   margin-top: 5rem;
 
   @include breakpoint($break-tablet) {
-    @include span(5 of 16);
+    @include span(6 of 16);
   }
 }
 .pricing-faq-col-left {
   @include breakpoint($break-tablet) {
-    margin-left: span(2 of 16);
-    margin-right: span(1 of 16);
+    margin-left: span(1.5 of 16);
+    margin-right: span(.5 of 16);
   }
 }
 
 .pricing-faq-col-right {
   @include breakpoint($break-tablet) {
-    margin-left: span(1 of 16);
-    margin-right: span(2 of 16);
+    margin-left: span(.5 of 16);
+    margin-right: span(1.5 of 16);
   }
 }
 

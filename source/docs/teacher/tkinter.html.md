@@ -64,7 +64,7 @@ Once your project opens, you can quickly play with this in one of 2 ways using t
 
 
 ## Stack
-If you want to create a completely empty Codio project that is Tkinter ready, then go to the Stacks menu item in the main dashboard. Click on the Certified tab at the top (2.) then search for 'tkinter' (3.). Finally, select the stack (4.) after which you will be taken to the new project scree. Enter a project name then press the Create button at the bottom of the page and a new project will be created.
+If you want to create a completely empty Codio project that is Tkinter ready, then go to the Stacks menu item in the main dashboard. Click on the Certified tab at the top (2.) then search for 'tkinter' (3.). Finally, select the stack (4.) after which you will be taken to the new project screen. Enter a project name then press the Create button at the bottom of the page and a new project will be created.
 
 ![](/img/docs/tkinter-stack.png)
 

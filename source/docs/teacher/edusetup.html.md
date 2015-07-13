@@ -73,7 +73,7 @@ We are releasing new functionality at the end of July that will handle the follo
 - automatically mark student code tests and display the results in the teacher dashboard
 - monitor student progress and time spent on each Unit
 - before the end of August we will also be releasing the following automarked assessments : multiple choice questions, fill in the blank questions, ability to insert Articulate tests
-- before the end of August we will also be introducing the ability to for manual teacher marking of student code projects
+- before the end of August we will also be introducing the ability for manual teacher marking of student code projects
 
 Below are a couple of screenshots to give you a taste of what is around the corner.
 

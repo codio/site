@@ -11,15 +11,15 @@ A Box is a virtual computer in the Cloud. You can do whatever you like with this
 
 [ IAN - ADD LINKS PLEASE]
 
-- Comprehensive code editing
-- Installing software, such as programming languages, databases, tools and libraries.
-- Access the Box's terminal.
-- Run your code.
-- Use a preconfigured software stack to avoid lengthy configuration of the Box.
-- Use a preconfigured Starter Pack. This is a Box fully configured with both pre-installed software as well as starting point code.
-- Deploy code to external sites and servers.
-- Each Box comes with the following software installed automatically : git, c, java, NodeJS, Ruby, Ubuntu and many other useful tools. You don't need to know about any of this but it is good to know for more advanced students.
-- There are many very powerful features in Codio, so feel free to browse the [Boxes] and [IDE] documentation.
+- Comprehensive [code editing](/docs/ide/editing/)
+- [Installing software](/docs/boxes/installsw/), such as programming languages, databases, tools and libraries.
+- Access the Box's [terminal](/docs/boxes/terminal/).
+- [Run](/docs/boxes/runmenu/) your code.
+- Use a preconfigured software [stack](/docs/dashboard/stacks/) to avoid lengthy configuration of the Box.
+- Use a preconfigured [Starter Pack](/docs/dashboard/packs/). This is a Box fully configured with both pre-installed software as well as starting point code.
+- [Deploy](/docs/ide/tools/deployment/) code to external sites and servers.
+- Each Box comes with the following software installed automatically : [git](/docs/ide/editing/git/), c, java, NodeJS, Ruby and many other useful tools. You don't need to know about any of this but it is good to know for more advanced students.
+- There are many very powerful features in Codio, so feel free to browse the [Boxes](/docs/boxes/) and [IDE](/docs/ide/) documentation.
 
 ## Creating a new Project
 The first thing you will want to do is to create a new Project and try some coding. Check out the options below and why not start off by using a Starter Pack (see below)?

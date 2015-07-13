@@ -16,11 +16,57 @@ school:
       year:
         dollar: 19.2
         pound: 12
-  - count: 5
+  - count: 25
     price:
       year:
-        dollar: 75
-        pound: 40
+        dollar: 480
+        pound: 300
+  - count: 50
+    price:
+      year:
+        dollar: 960
+        pound: 600
+  - count: 100
+    price:
+      year:
+        dollar: 1200
+        pound: 800
+  - count: 150
+    price:
+      year:
+        dollar: 1800
+        pound: 1200
+  - count: 200
+    price:
+      year:
+        dollar: 2200
+        pound: 1400
+  - count: 250
+    price:
+      year:
+        dollar: 2500
+        pound: 1650
+  - count: 300
+    price:
+      year:
+        dollar: 2700
+        pound: 1800
+  - count: 400
+    price:
+      year:
+        dollar: 3200
+        pound: 2200
+  - count: 500
+    price:
+      year:
+        dollar: 4000
+        pound: 2550
+  - count: 1000
+    price:
+      year:
+        dollar: 6000
+        pound: 3750
+
 
 university:
   - count: 1
@@ -28,8 +74,53 @@ university:
       year:
         dollar: 96
         pound: 60
-  - count: 5
+  - count: 25
     price:
       year:
-        dollar: 75
-        pound: 40
+        dollar: 2400
+        pound: 1500
+  - count: 50
+    price:
+      year:
+        dollar: 3000
+        pound: 4800
+  - count: 100
+    price:
+      year:
+        dollar: 7680
+        pound: 4800
+  - count: 150
+    price:
+      year:
+        dollar: 10800
+        pound: 6750
+  - count: 200
+    price:
+      year:
+        dollar: 12864
+        pound: 8040
+  - count: 250
+    price:
+      year:
+        dollar: 16080
+        pound: 10050
+  - count: 300
+    price:
+      year:
+        dollar: 17280
+        pound: 10800
+  - count: 400
+    price:
+      year:
+        dollar: 21120
+        pound: 13200
+  - count: 500
+    price:
+      year:
+        dollar: 24000
+        pound: 15000
+  - count: 1000
+    price:
+      year:
+        dollar: 38400
+        pound: 24000

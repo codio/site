@@ -140,7 +140,7 @@ When $$a \ne 0$$ there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 ```
 
-![](/img/docs/guides/mathjax.png)
+<img alt="authtoken" src="/img/docs/mathjax.png" class="simple"/>
 
 
 ##Guides Cheat Sheet

@@ -31,7 +31,7 @@ The Preview button lets you preview one or more web pages with a simple button p
 - **Box URL SSL** - use this option for previewing PHP, Ruby or other server side languages over SSL. [Click here](/docs/ide/boxes/access/ext-access) for more information on configuring port access for https.
 
 
-If you right-click a file in the file tree or the Tab, you can also select 'Preview current file'.
+If you right-click a file in the file tree or the Tab, you can also select 'Preview Static'.
 
 ![preview](/img/docs/preview-deploy-right-click.png)
 

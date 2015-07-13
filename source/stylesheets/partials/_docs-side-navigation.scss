@@ -40,12 +40,17 @@
   }
 
   .item-header,
-  .item-header a {
+  .item-header > a {
     line-height: 19px;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     color: $base-font-color;
+
+    &:hover {
+      font-weight: 700;
+      color: $light-blue;
+    }
   }
 
   .item-description {

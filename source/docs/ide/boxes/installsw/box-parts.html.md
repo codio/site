@@ -66,8 +66,7 @@ Additionally, most common Ubuntu utilities are preinstalled.
 
 ##The Box Parts Repository
 We are continuously updating Box Parts centrally and these are pulled down automatically. If you see a Box Part in the central [Box Parts Repository](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages), but don't see it when you type `parts search` then run the following to download the repo on to your Box.
-
-```bash
+```
 parts update
 ```
 
@@ -75,14 +74,12 @@ Regardless of whether we have added a brand new Box Part or have modified an exi
 
 ##Finding Box Parts
 You can get a complete list of available Box Parts with the following command in the Terminal
-
-```bash
+```
 parts search
 ```
 
 If you want to use a few characters to narrow the list down, just enter
-
-```bash
+```
 parts search php
 ```
 
@@ -97,8 +94,7 @@ To request a new Box Part, [create a new issue here](https://github.com/codio/bo
 
 ##Installing Box Parts
 You can install one or more Box Parts as follows
-
-```bash
+```
 parts install <partname-1> <partname-2> ... <part-name-n>
 ```
 
@@ -106,16 +102,14 @@ You will then see the installation taking place in the Console.
 
 ##Starting, Stopping and Restarting Services
 Once you have installed a component, you may need to start it as a service.
-
-```bash
+```
 parts start <package-name>
 parts restart <package-name>
 parts stop <package-name>
 ```
 
 and to request the service status, use
-
-```bash
+```
 parts status <package-name>
 parts status (lists the status of services provided by all installed packages)
 ```
@@ -124,14 +118,12 @@ When you close and restart your project (and therefore the Box), you will need t
 
 ##Parts folder and config files
 Box Parts installs things in a special location where you have full access and control
-
-```bash
+```
 ~/.parts
 ```
 
 If you take a look inside that folder, you will find everything you are likely to need. Configuration files, for example, live in
-
-```bash
+```
 ~/.parts/etc
 ```
 

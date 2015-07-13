@@ -8,8 +8,10 @@
 @import 'susy';
 @import 'breakpoint';
 
+@import 'mixins';
 @import 'variables';
 @import 'typography';
+
 
 @include establish-baseline;
 

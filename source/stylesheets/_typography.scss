@@ -25,14 +25,13 @@ h6 {
 }
 
 a {
-  color: $blue;
+  color: $base-font-color;
   text-decoration: none;
-  transition: color 0.1s linear;
 
-  &:active,
+  &:hover,
   &:focus,
-  &:hover {
-    color: $light-blue;
+  &:active {
+    text-decoration: none;
   }
 
   &:active,
@@ -82,4 +81,26 @@ h4 {
 small,
 .font_small {
   font-size: 0.75rem;
+}
+
+blockquote {
+  padding-left: 20px;
+  border-left: 2px solid $dark-gray;
+  font-style: italic;
+}
+
+strong {
+  font-weight: 500;
+}
+
+em {
+  font-style: italic;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 500;
 }

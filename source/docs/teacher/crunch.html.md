@@ -20,7 +20,7 @@ If you want to create your own Crunch files in a Codio project, create a new fil
 
 A new file is created from either the File menu or by right-clicking on the project name line in the file tree.
 
-![](/img/docs/new-file.png)
+<img alt="authtoken" src="/img/docs/new-file.png" class="simple"/>
 
 
 ## Saving changes
@@ -29,14 +29,14 @@ All changes are changed automatically, so you don't have to explicitly save.
 ## Source Code Editing
 Editing source code is done by hovering over a line until the popup button bar appears.
 
-![Courses List](/img/docs/crunch-insert.png)
+<img alt="authtoken" src="/img/docs/crunch-insert.png" class="simple"/>
 
 If you have not yet added any code, then you should see the button bar already there in the top of the code area.
 
 Click on the '+' to add a new instruction.
 
 ## Instructions
-Codio comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions.
+Codio comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions. There is also a complete Lexicon available. Go to `Tools>Lexicon` and select the 'Crunch' option to search.
 
 The following instructions are not available in Little Man Computer and provide a more complete experience.
 
@@ -58,14 +58,15 @@ You can access the full instruction list from the dropdown when you add a new in
 ## Adding labels
 Instructions such as `BEQ`, `BNE`, `BLT`, `BLE`, `BGT`, `BGE`, `JMP` require that you jump to a specific label if the condition is met. You can add such a label by pressing the add label button from the floating toolbar.
 
-![](/img/docs/crunch-label.png)
+<img alt="authtoken" src="/img/docs/crunch-label.png" class="simple"/>
 
 Enter a label name that can be used as a target for the above listed instructions.
 
 ## Comments
 If you want to add comments to your code, click the comment button, circled below, and you can add a comment description into the code.
 
-![](/img/docs/crunch-comment.png)
+<img alt="authtoken" src="/img/docs/crunch-comment.png" class="simple"/>
+
 
 ## Selecting lines of code - deleting or moving
 If you want to select one or more lines of code (to delete or move to another location) then you should do the following

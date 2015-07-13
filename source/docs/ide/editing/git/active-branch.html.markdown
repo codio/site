@@ -8,4 +8,4 @@ You can see which branch you are on by looking in the file tree. The top level i
 
 You may switch branches using the command line interface or the `Tools > Git > Switch Branch` menu item.
 
-![git active branch](/img/docs/git-active-branch.png)
+<img alt="authtoken" src="/img/docs/git-active-branch.png" class="simple"/>

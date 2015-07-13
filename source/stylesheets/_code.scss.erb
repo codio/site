@@ -1,7 +1,7 @@
 .highlight {
   .hll { background-color: #ffffcc }
   .c { color: #0099FF; font-style: italic } /* Comment */
-  .err { color: #AA0000; background-color: #FFAAAA } /* Error */
+  .err { color: #AA0000; } /* Error */
   .k { color: #006699; font-weight: 700 } /* Keyword */
   .o { color: #555555; padding: 0 .3em; } /* Operator */
   .cm { color: #0099FF; font-style: italic } /* Comment.Multiline */
@@ -83,10 +83,11 @@
 
     td {
       border: none;
+      vertical-align: top;
 
       &.gutter {
         width: 40px;
-        padding: 0 10px;
+        padding: 20px 10px;
         border-right: 1px solid $lighter-gray;
         font-size: 13px;
         line-height: 20px;
@@ -99,7 +100,8 @@
         line-height: 20px;
         padding: 20px;
         overflow-x: auto;
-        max-width: 800px;
+        overflow-wrap: initial;
+        max-width: 100px;
 
         pre {
           margin: 0;

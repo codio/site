@@ -87,6 +87,8 @@ body.docs .overview-section {
 
 
   @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
     max-width: $max-width;
   }
 
@@ -99,6 +101,7 @@ body.docs .overview-section {
 .search-results {
   @include container;
   @include break;
+  margin: gutter();
 
   @include breakpoint($break-tablet) {
     @include container(12 of 16);
@@ -179,32 +182,10 @@ body.docs .overview-section {
     margin-bottom: $base-line-height;
   }
 
-  blockquote {
-    padding-left: 20px;
-    border-left: 2px solid $dark-gray;
-    font-style: italic;
-  }
-
   hr {
     position: relative;
     margin: 1rem 0;
     border-color: $medium-gray;
-  }
-
-  strong {
-    font-weight: 500;
-  }
-
-  em {
-    font-style: italic;
-  }
-
-  i {
-    font-style: italic;
-  }
-
-  b {
-    font-weight: 500;
   }
 
   h2 {
@@ -217,5 +198,9 @@ body.docs .overview-section {
 
   h4 {
     font-size: 1rem;
+  }
+
+  a {
+    @include linkUnderlines(white, $base-font-color);
   }
 }

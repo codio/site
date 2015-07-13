@@ -15,18 +15,20 @@ The following code below shows the `.codio` file configured to give this Run men
 
 which is driven by the following `.codio` file
 
-        {
-    // Configure your Run and Preview buttons here.
+```json
+{
+  // Configure your Run and Preview buttons here.
 
-      // Run button configuration
-      "commands": {
-        "Install Learnyounode" : "npm install -g learnyounode",
-        "Run Lesson" : "./ns-executes.sh run {{filename_no_ext}} {{path}}",
-        "Verify Lesson" : "./ns-executes.sh verify {{filename_no_ext}} {{path}}",
-        "Completed Lessons" : "learnyounode",
-        "Run with Node" : "node {{filepath}} 3 4 5"
-      }
-    }
+  // Run button configuration
+  "commands": {
+    "Install Learnyounode" : "npm install -g learnyounode",
+    "Run Lesson" : "./ns-executes.sh run {{filename_no_ext}} {{path}}",
+    "Verify Lesson" : "./ns-executes.sh verify {{filename_no_ext}} {{path}}",
+    "Completed Lessons" : "learnyounode",
+    "Run with Node" : "node {{filepath}} 3 4 5"
+  }
+}
+```
 
 When you select a Run command, it will open a new console window where you will see the output. Pressing the Run button will execute the last selected command.
 

@@ -18,7 +18,6 @@ When you press Connect, a tab will open up in the current panel and off you go. 
 ##Connect & Save
 This connects but also saves the connection details to the [SSH Connection Manager](/docs/ide/tools/ssh/ssh-manager/).
 
-![ssh parameters](/img/docs/ssh-tab.png)
 
 ##Public Keys
 If you want to add your Codio public key to the remote server, then you should Connect & Save. Then go to the SSH Connection Manager and press the public key button as [described here](/docs/ide/tools/ssh/ssh-manager).

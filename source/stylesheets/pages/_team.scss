@@ -4,41 +4,49 @@ body.about_index .content {
 }
 
 body.about_index .header-block {
-  @include span(4);
+    @include span(4);
   background-size: cover;
   position: relative;
   background-color: $dark-gray;
-  height: 300px;
+  height: 500px;
 
   @include breakpoint($break-tablet) {
     background: url('/img/assets/team/atf.png') no-repeat top center fixed;
-    height: 500px;
+    height: 485px;
   }
 
   @include breakpoint($max-width) {
     background: url('/img/assets/team/atf-large.png') no-repeat top center fixed;
-    height: 778px;
+    height: 600px;
+  }
+
+  .header-container {
+    @include container;
+
+    margin-top: 9rem;
+
+    @include breakpoint($break-tablet) {
+      @include container(14 of 16);
+      margin-left: span(1 of 16);
+      margin-right: span(1 of 16);
+    }
+
+    @include breakpoint($max-width) {
+      margin-top: 14rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: span(1 of 16);
+      max-width: $max-width;
+    }
   }
 
   h2 {
     font-weight: 300;
     font-size: 2.369rem;
     color: white;
-    position: absolute;
-    top: 50%;
-    margin-top: -$header-line-height;
-    height: 2 * $header-line-height;
-    margin-left: gutter();
-    margin-right: gutter();
-
-    @include breakpoint($break-tablet) {
-      margin-left: span(2 of 16);
-      margin-right: span(2 of 16);
-    }
 
     em {
       font-weight: 400;
-      font-style: normal;
     }
   }
 }

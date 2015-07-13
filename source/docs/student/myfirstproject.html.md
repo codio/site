@@ -1,13 +1,30 @@
 ---
 title: "My First Project"
-description: "Getting started"
+description: "Creating your first coding project"
 class_name: docs
 full_width: true
 ---
 
+Codio lets you create your own coding projects independent of formal Coursework. When you create a project, a Codio 'Box' is created.
+
+A Box is a virtual computer in the Cloud. You can do whatever you like with this box. Here are a few links to things you can do. Don't feel you have to master all of these things, but it is useful to know what Codio offers.
+
+[ IAN - ADD LINKS PLEASE]
+
+- Comprehensive code editing
+- Installing software, such as programming languages, databases, tools and libraries.
+- Access the Box's terminal.
+- Run your code.
+- Use a preconfigured software stack to avoid lengthy configuration of the Box.
+- Use a preconfigured Starter Pack. This is a Box fully configured with both pre-installed software as well as starting point code.
+- Deploy code to external sites and servers.
+- Each Box comes with the following software installed automatically : git, c, java, NodeJS, Ruby, Ubuntu and many other useful tools. You don't need to know about any of this but it is good to know for more advanced students.
+- There are many very powerful features in Codio, so feel free to browse the [Boxes] and [IDE] documentation.
+
+## Creating a new Project
 The first thing you will want to do is to create a new Project and try some coding. Check out the options below and why not start off by using a Starter Pack (see below)?
 
-A project is a combination of a Box and your code workspace. When you open up your projects, the IDE file tree will be pointed to the code workspace automatically and can be found at `~/workspace`.
+A project is a combination of a Box and your code workspace. When you open up your projects, the IDE file tree will be pointed to the code workspace automatically (for those who like detail, this is located at `~/workspace`).
 
 Start off by ...
 

@@ -66,12 +66,14 @@ As the students/teachers complete the process, they will then be added to your g
 
 
 ## Teacher Support Functionality
-In July 2015, we will be releasing a comprehensive set of features that allow teachers to fully manage their student classes and
+We have now released a comprehensive set of features that allow teachers to fully manage their student classes and access student code.
 
-- access student code
-- mark assessment questions within the Modules
-- monitor student progress and time spent on modules
-- and much more
+We are releasing new functionality at the end of July that will handle the following
+
+- automatically mark student code tests and display the results in the teacher dashboard
+- monitor student progress and time spent on each Unit
+- before the end of August we will also be releasing the following automarked assessments : multiple choice questions, fill in the blank questions, ability to insert Articulate tests
+- before the end of August we will also be introducing the ability to for manual teacher marking of student code projects
 
 Below are a couple of screenshots to give you a taste of what is around the corner.
 

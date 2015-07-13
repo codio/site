@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: "Getting started"
+description: "About Codio in Education"
 class_name: docs
 full_width: trues
 ---

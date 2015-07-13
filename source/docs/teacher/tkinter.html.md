@@ -1,6 +1,6 @@
 ---
 title: Tkinter
-description: "Getting started"
+description: "Tkinter setup & usage"
 class_name: docs
 full_width: true
 ---

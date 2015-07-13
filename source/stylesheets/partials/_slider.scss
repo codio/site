@@ -62,15 +62,15 @@
       }
     }
 
-    @include breakpoint(1400px) {
-      @include span(3.5 of 16);
+    @include breakpoint($max-width) {
+      @include span(3.666 of 16);
       margin-left: span(1 of 16);
 
       &:first-child {
-        margin-left: span(1.5 of 16);
+        margin-left: span(1 of 16);
       }
       &:last-child {
-        margin-right: span(1.5 of 16);
+        margin-right: span(1 of 16);
       }
     }
   }
@@ -125,8 +125,8 @@
   padding-top: 1rem;
 
   @include breakpoint($break-tablet) {
-    @include span(2 of 16);
-    margin-right: span(3 of 16);
+    @include span(3 of 16);
+    margin-right: span(2 of 16);
     text-align: right;
     padding-top: 0;
     margin-top: -.5rem;

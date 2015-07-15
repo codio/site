@@ -1,21 +1,23 @@
 .docs-side-navigation {
-  display: none;
-  position: absolute;
+  @include container;
+  margin: 0 gutter() 2rem gutter();
+
   font-family: $heading-font-family;
-
-  &.affix-top {
-    margin-top: 0;
-    position: absolute;
-  }
-
-  &.affix {
-    top: 3 * $base-line-height;
-    position: fixed;
-  }
 
   @include breakpoint($break-tablet) {
     display: block;
+    position: absolute;
     @include span(3 of 16);
+
+    &.affix-top {
+      margin-top: 0;
+      position: absolute;
+    }
+
+    &.affix {
+      top: 3 * $base-line-height;
+      position: fixed;
+    }
   }
 
   .item {

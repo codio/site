@@ -5,7 +5,7 @@
 
   @include breakpoint($break-tablet) {
     @include nobreak;
-    @include span(8 of 16);
+    @include span(10 of 16);
     margin-left: span(5 of 16);
   }
 
@@ -19,7 +19,12 @@
     margin-bottom: $base-line-height;
   }
 
-  a {
+  .legal-toc {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  a:not(.legal-toc-head) {
     @include linkUnderlines(white, $base-font-color);
   }
 }
@@ -32,7 +37,7 @@
     margin-left: span(1 of 16);
 
     &.affix-top {
-      margin-top: 6 * $base-line-height;
+      margin-top: 8rem;
       position: absolute;
     }
 

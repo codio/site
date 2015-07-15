@@ -59,6 +59,14 @@ body.pricing .content {
     @include break;
 
     padding-top: 3rem;
+
+    .button:first-child {
+        margin-right: .5rem;
+    }
+
+    .button:last-child {
+        margin-left: .5rem;
+    }
   }
 }
 

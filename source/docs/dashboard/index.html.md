@@ -12,9 +12,10 @@ The Dashboard is the first screen you see when you sign in. You will see all you
 This also contains the main navigation options for the main Codio listings
 
 - [Projects](/docs/dashboard/projects/)
-- [Stacks](/docs/quickstart/stacks/)
-- [Starter Packs](/docs/quickstart/packs/)
-- [Courses](/docs/quickstart/courses/)
+- [Stacks](/docs/dashboard/stacks/)
+- [Starter Packs](/docs/dashboard/packs/)
+- [Modules](/docs/dashboard/modules/)
+- [Courses](/docs/dashboard/courses/)
 - [Classes](/docs/dashboard/classes/)
 
 ... as well as additional administrative screens

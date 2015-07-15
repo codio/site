@@ -25,14 +25,14 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: (June 30th) changing class owner caused classes to be inaccessible
 - **Improvement**: (June 30th) always autostart Guides when running from a Course or Module unit
 - **Fixed**: (June 24th) delete project dialogs
-- **Feature**: (June 24th) added support for [Tkinter](/docs/quickstart/tkinter)
+- **Feature**: (June 24th) added support for [Tkinter](/docs/teacher/tkinter)
 - **Improvement**: (June 24th) add `Need Help? Contact Us` link to Dashboard
 - **Improvement**: (June 23rd) include course name in modules listings
 - **Improvement**: (June 23rd) add ability to filter modules listing for recommended Courses
 - **Fixed**: (June 11th) fix Organisation [Invitation Token](/docs/dashboard/organizations/adding-members/) to Read Only
 - **Update**: (June 8th) updated Dashboard to improve performance and support future Education Improvements
-- **Feature**: (June 8th) added [Crunch](/docs/quickstart/crunch) (a modern, full-featured alternative to Little Man Computer)
-- **Feature**: (June 8th) added [Flow Charting](/docs/quickstart/flow) tool.
+- **Feature**: (June 8th) added [Crunch](/docs/teacher/crunch) (a modern, full-featured alternative to Little Man Computer)
+- **Feature**: (June 8th) added [Flow Charting](/docs/teacher/flow) tool.
 - **Update**: (June 2nd) update Box Parts (googleappengine, googleappenginego, googleappenginejava)
 
 ### May 2015

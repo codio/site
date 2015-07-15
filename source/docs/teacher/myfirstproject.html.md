@@ -43,7 +43,7 @@ or
 
 Select an alternative software configuration where you can:
 
-- Select a [Stack](/docs/quickstart/stacks/) which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
-- Or a [Starter Pack](/docs/quickstart/packs/) which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
+- Select a [Stack](/docs/teacher/stacks/) which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
+- Or a [Starter Pack](/docs/teacher/packs/) which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
 - Or import code in from Git, Mercurial, FTP, SFTP or a Zip file.
-- If you are a student, you can also check out [Modules](/docs/quickstart/modules/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/ide/tools/guides/), giving you on-screen instructions while you code.
+- If you are a student, you can also check out [Modules](/docs/teacher/modules/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/ide/tools/guides/), giving you on-screen instructions while you code.

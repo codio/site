@@ -4,7 +4,7 @@ body.about_index .content {
 }
 
 body.about_index .header-block {
-    @include span(4);
+  @include span(4);
   background-size: cover;
   position: relative;
   background-color: $dark-gray;

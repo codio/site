@@ -12,7 +12,7 @@ body.docs .header-block {
 
   h2 {
     font-weight: 300;
-    font-size: 2.369rem;
+    font-size: 2rem;
     color: white;
     text-align: center;
     margin-left: gutter();
@@ -21,6 +21,7 @@ body.docs .header-block {
     padding-bottom: 3rem;
 
     @include breakpoint($break-tablet) {
+      font-size: 2.369rem;
     }
 
     em {
@@ -36,8 +37,9 @@ body.docs .header-block {
   padding: 0 0 5rem 0;
 
   .st-search-input {
-    width: span(8 of 16);
-    margin: 0 span(4 of 16);
+    width: span(14 of 16);
+    margin: 0 span(1 of 16);
+
     height: 3rem;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -52,6 +54,11 @@ body.docs .header-block {
     background-size: 24px;
     background-position: 25px;
     font-weight: 400;
+
+    @include breakpoint($break-tablet) {
+        width: span(8 of 16);
+        margin: 0 span(4 of 16);
+    }
 
     &::placeholder {
       font-family: $base-font-family;

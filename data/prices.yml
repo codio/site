@@ -82,8 +82,8 @@ university:
   - count: 50
     price:
       year:
-        dollar: 3000
-        pound: 4800
+        dollar: 4800
+        pound: 3000
   - count: 100
     price:
       year:

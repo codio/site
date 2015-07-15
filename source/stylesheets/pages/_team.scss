@@ -88,8 +88,12 @@ body.about_index .header-block {
     }
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: 400;
+
+      @include breakpoint($max-width) {
+        font-size: 2rem;
+      }
     }
 
     h4 {

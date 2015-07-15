@@ -6,13 +6,7 @@ $(() => {
   const $toggle = $('.menu-toggle')
   const $nav = $('.mobile-nav')
 
-  const fixedLocations = [
-    '/',
-    '/about',
-    '/about/mission'
-  ]
-
-  if (fixedLocations.indexOf(location.pathname) > -1) {
+  if ($header.hasClass('should-be-fixed')) {
     $header.removeClass('fixed')
 
     const headerHeight = $('header').height()

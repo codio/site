@@ -19,7 +19,7 @@ Select a Module and you will see a list of all Units for the selected Module. Yo
 
 ![Class Start](/img/docs/class_start.png)
 
-When you click on the Start Unit icon (circled) the Unit will be started. This may take a few seconds. 
+When you click on the Start Unit icon (circled) the Unit will be forked into your account and started. This may take a few seconds. Any projects you have already started can be opened from the Units list as well
 
 ## Projects Listing
 If you click on the Projects link, you will see that your Unit can also be accessed from the Projects listing. Projects are listed in most recently used order, so you should see your recent work appear automatically at the top of the listing. Just click on the Project to start it up and carry on where you left off.

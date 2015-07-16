@@ -115,10 +115,10 @@ configure :build do
     require 'uglifier'
     js.compressor = Uglifier.new(:output => {:comments => :none}, :screw_ie8 => true)
   end
-  activate :minify_html do |html|
-    html.remove_http_protocol = false
-    html.remove_https_protocol = true
-  end
+  #activate :minify_html do |html|
+  #  html.remove_http_protocol = false
+  #  html.remove_https_protocol = true
+  #end
 
   activate :gzip do |gzip|
     gzip.exts = %w(.js .css .html .htm .svg)

@@ -12,4 +12,4 @@ When combined with [Classes](/docs/dashboard/classes/), you get a powerful way o
 
 Anyone creating a Module should utilise [Codio Guides](/docs/ide/tools/guides/), a rich content authoring tool for publishing content that allows students to view instructions while they edit their code.
 
-A [Course](/docs/dashboard/courses/) allows you to group any modules you wish together into a course, and in the near future. you will be able to access your courses in the creation of your [Classes](/docs/dashboard/classes)
+A [Course](/docs/dashboard/courses/) allows you to group any modules you wish together into a course, and you can also access courses in the creation of your [Classes](/docs/dashboard/classes) using the 'Filter by Courses' drop down option

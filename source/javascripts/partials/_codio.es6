@@ -1,4 +1,4 @@
-/* global md5, $, monster, ga */
+/* global md5, $, monster, ga, Intercom */
 
 function showUser (user) {
   const hash = md5(user.details.email.toLowerCase())
@@ -7,6 +7,38 @@ function showUser (user) {
   $('.userlink span').text(user.details.name)
   $('.signed-out').hide()
   $('.signed-in').show()
+}
+
+function bootIntercom (user) {
+  let createdAt
+  let email
+  let account
+
+  if (user && user.details) {
+    createdAt = user.details.created_at
+    createdAt = (createdAt) ? Math.round(createdAt / 1000) : undefined
+    createdAt = (isNaN(createdAt)) ? undefined : createdAt
+
+    email = user.details.email
+    account = user.account
+  }
+
+  Intercom('boot', {
+    app_id: 'hzz6oifn',
+    email: email,
+    user_id: account,
+    created_at: createdAt
+  })
+}
+
+function anon () {
+  anonGa()
+  bootIntercom()
+}
+
+function signedIn (user) {
+  signedInGa(user.details.name)
+  bootIntercom(user)
 }
 
 function anonGa () {
@@ -50,12 +82,12 @@ function fetchUser (session, done) {
 
 $(() => {
   const session = monster.get('crafted_session')
-  if (session == null) return anonGa()
+  if (session == null) return anon()
 
   fetchUser(session, (error, user) => {
-    if (error) return anonGa()
+    if (error) return anon()
 
-    showUser(user)
-    signedInGa(user.details.name)
+    // showUser(user)
+    signedIn(user)
   })
 })

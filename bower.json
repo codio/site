@@ -7,9 +7,9 @@
     "blueimp-md5": "~1.1.0",
     "animate.css": "~3.3.0",
     "jquery": "~2.1.4",
-    "dragdealer": "~0.9.8",
     "wow.js": "~1.1.2",
     "swiftype-jquery": "*",
-    "numeral": "~1.5.3"
+    "numeral": "~1.5.3",
+    "jquery-ui-slider-pips": "~1.10.5"
   }
 }

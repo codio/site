@@ -1,3 +1,10 @@
+//= require 'jquery-ui/themes/base/core.css'
+//= require 'jquery-ui/themes/base/draggable.css'
+//= require 'jquery-ui/themes/base/slider.css'
+//= require 'jquery-ui-slider-pips/dist/jquery-ui-slider-pips.css'
+
+@import 'flat-slider';
+
 .slider {
   @include container;
 }
@@ -91,33 +98,8 @@
 
     height: 8px;
   }
-
-  .handle {
-    cursor: move;
-    border-radius: 50%;
-    height: 26px;
-    width: 26px;
-    border: 3px solid $dark-gray;
-    background-color: white;
-
-    @include breakpoint($break-tablet) {
-      height: 13px;
-      width: 13px;
-    }
-  }
-
-  .fill {
-    background-color: $blue;
-    height: 1px;
-    width: 0px;
-    position: relative;
-    top: 16px;
-
-    @include breakpoint($break-tablet) {
-      top: 7px;
-    }
-  }
 }
+
 
 
 .count {

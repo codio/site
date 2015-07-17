@@ -60,7 +60,7 @@ function signedInGa (name) {
 function fetchUser (session, done) {
   return $.ajax({
     type: 'POST',
-    url: '/service/',
+    url: '//codio.dev/service/',
     data: {
       acrequest: JSON.stringify({
         object: 'AccountManager',

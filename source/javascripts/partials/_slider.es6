@@ -2,15 +2,16 @@
 
 const PRICES = window.PRICES
 
-const SYMBOLS = {
-  dollar: '$',
-  pound: '$pound;'
-}
-
 const DEFAULT_START = {
   developer: 0,
   school: 3,
   university: 3
+}
+
+const DEFAULT_CURRENCY = {
+  developer: 'dollar',
+  school: 'pound',
+  university: 'pound'
 }
 
 const DEFAULT_RANGE = {
@@ -23,7 +24,7 @@ const state = {
   oldType: 'school',
   type: 'school',
   range: DEFAULT_RANGE['school'],
-  currency: 'pound',
+  currency: DEFAULT_CURRENCY['school'],
   slider: null
 }
 
@@ -38,7 +39,7 @@ Object.defineProperty(state, 'step', {
 
 const $dragWrapper = $('.slider .drag-wrapper')
 const $countNumber = $('.slider .count .number')
-const $currency = $('.slider .currency')
+const $currency = $('.slider .currency > select')
 const $amount = $('.slider .amount')
 const $range = $('.slider .range')
 const $typeList = $('.slider .type-list')
@@ -83,7 +84,7 @@ const updateDisplay = step => {
 
   $countNumber.text(numeral(current.count).format('0,0'))
 
-  $currency.innerHTML = SYMBOLS[state.currency]
+  $currency.val(state.currency)
   $amount.text(numeral(price).format('0,0'))
   $range.text(state.range)
 }
@@ -98,6 +99,18 @@ const setType = type => {
   state.range = DEFAULT_RANGE[type]
 }
 
+const setupCurrencySelector = () => {
+  $currency.on('change', () => {
+    state.currency = $currency.val()
+    updateDisplay()
+  })
+}
+
+const setCurrency = currency => {
+  state.currency = currency
+  $currency.val(currency)
+}
+
 const setupSelector = () => {
   const $active = findItem(state.type)
 
@@ -109,6 +122,8 @@ const setupSelector = () => {
     $this.addClass('active')
 
     setType($this.data('type'))
+
+    setCurrency(DEFAULT_CURRENCY[state.type])
 
     // update the slider
     state.slider.slider('option', 'max', PRICES[state.type].length - 1)
@@ -124,6 +139,7 @@ const setupSelector = () => {
 $(() => {
 
   setupSelector()
+  setupCurrencySelector()
 
   state.slider = setup(stepCount(state.type), DEFAULT_START[state.type])
   updateDisplay()

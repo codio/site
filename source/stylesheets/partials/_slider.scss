@@ -127,7 +127,30 @@
 
 
   .currency {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 40px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: transparent;
+    margin-top: -5px;
+  }
 
+  .currency select {
+    padding: 10px 5px 10px 10px;
+    width: 40px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+    font-size: 1rem;
+  }
+
+  .currency select:focus {
+    outline: none;
   }
 
   .amount {

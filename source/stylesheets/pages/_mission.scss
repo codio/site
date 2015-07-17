@@ -58,18 +58,21 @@ body.about_mission .header-block {
   margin: gutter();
   padding: 5rem 0;
 
-  h2 {
+  .mission-header {
     text-align: center;
-    margin-bottom: 4rem;
+
+    h2 {
+      margin-bottom: 4rem;
+    }
   }
 
   @include breakpoint($break-tablet) {
-    @include container(12 of 16);
-    margin: 0 span(2 of 16);
+    @include container(10 of 16);
+    margin: 0 span(3 of 16);
   }
 
   @include breakpoint($max-width) {
-    @include container(12 of 16);
+    @include container(10 of 16);
     max-width: 50rem;
   }
 }

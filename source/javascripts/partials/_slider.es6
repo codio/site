@@ -136,10 +136,11 @@ const setupSelector = () => {
 }
 
 $(() => {
+  if ($dragWrapper.length > 0) {
+    setupSelector()
+    setupCurrencySelector()
 
-  setupSelector()
-  setupCurrencySelector()
-
-  state.slider = setup(stepCount(state.type), DEFAULT_START[state.type])
-  updateDisplay()
+    state.slider = setup(stepCount(state.type), DEFAULT_START[state.type])
+    updateDisplay()
+  }
 })

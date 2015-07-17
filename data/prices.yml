@@ -7,9 +7,28 @@ developer:
   - count: 5
     price:
       month:
-        dollar: 75
+        dollar: 60
         pound: 40
-
+  - count: 10
+    price:
+      month:
+        dollar: 120
+        pound: 40
+  - count: 20
+    price:
+      month:
+        dollar: 225
+        pound: 40
+  - count: 50
+    price:
+      month:
+        dollar: 525
+        pound: 40
+  - count: 100
+    price:
+      month:
+        dollar: 900
+        pound: 40
 school:
   - count: 1
     price:

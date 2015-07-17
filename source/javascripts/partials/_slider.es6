@@ -48,7 +48,7 @@ const $types = $typeList.find('li.item')
 const setup = (steps, initialStep) => {
   return $dragWrapper.slider({
     min: 0,
-    max: PRICES[state.type].length - 1,
+    max: steps - 1,
     value: initialStep,
     range: 'min'
   })
@@ -71,10 +71,6 @@ const isSafeStep = (step = state.step) => {
 }
 
 const currentSelection = (step = state.step) => {
-  if (!isSafeStep(step)) {
-    state.step = DEFAULT_START[state.type]
-  }
-
   return PRICES[state.type][step]
 }
 
@@ -94,7 +90,7 @@ const stepCount = type => PRICES[type].length
 const findItem = type => $typeList.find('li[data-type="' + type + '"]')
 
 const setType = type => {
-  state.typeOld = state.type
+  state.oldType = state.type
   state.type = type
   state.range = DEFAULT_RANGE[type]
 }
@@ -126,11 +122,14 @@ const setupSelector = () => {
     setCurrency(DEFAULT_CURRENCY[state.type])
 
     // update the slider
-    state.slider.slider('option', 'max', PRICES[state.type].length - 1)
-
     if (!isSafeStep()) {
       state.step = DEFAULT_START[state.type]
     }
+
+    const step = state.step
+    state.slider.off()
+    state.slider.slider('destroy')
+    state.slider = setup(stepCount(state.type), step)
 
     updateDisplay()
   })

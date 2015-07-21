@@ -2,6 +2,21 @@
 
 const PRICES = window.PRICES
 
+const DEFAULT_LINK = {
+  developer: {
+    url: '/p/signup',
+    text: 'Sign Up'
+  },
+  school: {
+    url: '/p/free-education-trial',
+    text: 'Start Trial'
+  },
+  university: {
+    url: '/p/free-education-trial',
+    text: 'Start Trial'
+  }
+}
+
 const DEFAULT_START = {
   developer: 0,
   school: 3,
@@ -44,6 +59,7 @@ const $amount = $('.slider .amount')
 const $range = $('.slider .range')
 const $typeList = $('.slider .type-list')
 const $types = $typeList.find('li.item')
+const $link = $('.pricing-slider .signup-link')
 
 const setup = (steps, initialStep) => {
   return $dragWrapper.slider({
@@ -107,6 +123,11 @@ const setCurrency = currency => {
   $currency.val(currency)
 }
 
+const setLink = link => {
+  $link.attr('href', link.url)
+  $link.text(link.text)
+}
+
 const setupSelector = () => {
   const $active = findItem(state.type)
 
@@ -120,6 +141,8 @@ const setupSelector = () => {
     setType($this.data('type'))
 
     setCurrency(DEFAULT_CURRENCY[state.type])
+
+    setLink(DEFAULT_LINK[state.type])
 
     // update the slider
     if (!isSafeStep()) {

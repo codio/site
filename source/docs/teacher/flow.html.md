@@ -7,6 +7,8 @@ full_width: true
 
 Flow is a simple flowcharting tool designed to help you create flowcharts for your algorithm and computational thinking courses.
 
+Many thanks to the folks at [JGraph](http://www.jgraph.com/) for their excellent flowcharting and diagramming tools. 
+
 ## Video overview
 
 <div class="video">

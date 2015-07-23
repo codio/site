@@ -53,12 +53,16 @@
   </div>
 
   <div class="display-price">
-    <span class="currency">
-      <select name="currency">
-        <option value="pound" selected>&pound;</option>
-        <option value="dollar">$</option>
-      </select>
-    </span>
+    <ul class="currency">
+      <li class="currency-option">
+        <input class="currency-input" type="radio" value="pound" name="currency" checked/>
+        <span class="currency-label">&pound;</span>
+      </li>
+      <li class="currency-option">
+        <input class="currency-input" type="radio" value="dollar" name="currency"/>
+        <span class="currency-label">$</span>
+      </li>
+    </ul>
     <span class="amount">0</span>
     <span class="divider">/</span>
     <span class="range">month</span>

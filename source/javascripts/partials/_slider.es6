@@ -54,7 +54,7 @@ Object.defineProperty(state, 'step', {
 
 const $dragWrapper = $('.slider .drag-wrapper')
 const $countNumber = $('.slider .count .number')
-const $currency = $('.slider .currency > select')
+const $currency = $('.slider .currency')
 const $amount = $('.slider .amount')
 const $range = $('.slider .range')
 const $typeList = $('.slider .type-list')
@@ -90,13 +90,18 @@ const currentSelection = (step = state.step) => {
   return PRICES[state.type][step]
 }
 
+const setCurrency = currency => {
+  state.currency = currency
+  $currency.find(`input[name=currency][value=${currency}]`).prop('checked', true)
+}
+
 const updateDisplay = step => {
   const current = currentSelection(step)
   const price = current.price[state.range][state.currency]
 
   $countNumber.text(numeral(current.count).format('0,0'))
 
-  $currency.val(state.currency)
+  setCurrency(state.currency)
   $amount.text(numeral(price).format('0,0'))
   $range.text(state.range)
 }
@@ -112,15 +117,10 @@ const setType = type => {
 }
 
 const setupCurrencySelector = () => {
-  $currency.on('change', () => {
-    state.currency = $currency.val()
+  $currency.find('input[name=currency]').on('change', function () {
+    state.currency = this.value
     updateDisplay()
   })
-}
-
-const setCurrency = currency => {
-  state.currency = currency
-  $currency.val(currency)
 }
 
 const setLink = link => {

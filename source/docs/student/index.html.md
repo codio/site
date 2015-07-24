@@ -1,6 +1,6 @@
 ---
 title: "Student"
-description: "Student Quick Start"
+description: "A quick start guide for student users"
 ---
 
 We hope you will love learning to code using Codio. This guide will get your started on using the Codio platform.

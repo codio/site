@@ -1,6 +1,6 @@
 ---
 title: "Teacher"
-description: "Teacher Quick Start"
+description: "A quick start guide for teachers"
 class_name: docs
 full_width: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Dashboard"
-description: "The main Codio dashboard"
+description: "Administering Projects, Courses & the system"
 class_name: docs
 full_width: true
 ---

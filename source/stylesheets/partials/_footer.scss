@@ -1,6 +1,7 @@
 footer {
   padding: 3 * $base-line-height 0 0 0;
   border-top: 1px solid $lighter-gray;
+  background: $lightest-gray;
 
   .container {
     @include container;

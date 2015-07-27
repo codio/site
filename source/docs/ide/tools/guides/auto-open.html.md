@@ -14,12 +14,15 @@ You can automatically perform any of the following actions when a section is sho
 - Close all open tabs from the previous section
 
 
-##Step Path
+##Page - Step Path
 If your tutorial has multiple folders, you may wish to show certain folders in your section(s) to avoid confusion.
 
 To show specific folder(s), enter the folder name(s) into the step path field to show that folder and any content (Multiple folders can be shown separated by `;` ie `folder1;folder2`).
 
 All folders will be hidden other than those entered in the step path field.  If not used in a section, the same folder(s) as specified in the previous section will be shown to save you having to manually set it each time.
+
+##Page - Close Tabs
+Enable this to close all tabs open from the previous section
 
 ##Open Tabs
 Windows can be opened automatically to present the tab configuration you feel is most appropriate for the reader.
@@ -74,10 +77,6 @@ Using reference text rather than a line number means that if you insert anything
 If there is any potential ambiguity with this approach, simply insert a comment which is guaranteed unique and reference that.
 
 Any combinations are acceptable and they will be opened in the order specified.
-
-
-##Close Tabs
-Enable this to close all tabs open from the previous section
 
 
 ##Specifying a panel

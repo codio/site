@@ -25,14 +25,12 @@ To do this, you should use the following format for your custom button.
 ```
 
 ## Loading Scripts
-You should point your Guide page to a script file to load. Although you will see this field for all pages, you would usually just reference any scripts that need loading just once, best on the first page. You can reference more than one script over several lines. Any script files that are referenced anywhere within the Guide will always be loaded when the Guide plays.
+You should point your Guide page to a script file to load (Settings>Global>Scripts). Although you will see this field for all pages, you would usually just reference any scripts that need loading just once, best on the first page. You can reference more than one script over several lines. Any script files that are referenced anywhere within the Guide will always be loaded when the Guide plays.
 
-![](/img/docs/guides/scripts.png)
+<img alt="authtoken" src="/img/docs/guides/scripts.png" class="simple"/>
 
 ## Event Listener
 The event listener is able to perform your custom task. It will display a custom message area beneath it into which you can write your own results data. The message data can be a custom message that a test might return and can be plain text or HTML. 
-
-<img alt="authtoken" src="/img/docs/guides/scripts.png" class="simple"/>
 
 The icon that appears in the top left of the message area can be controlled from your event listener, as shown below.
 

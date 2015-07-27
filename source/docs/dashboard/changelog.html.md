@@ -8,6 +8,10 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### July 27th, 2015
+- **Update**: Update Guides style 
+- **Feature**: First phase release of Assessments
+
 ### July 16th, 2015
 - **Improvement**: Improve filter by courses used in setting up Classes.
 

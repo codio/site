@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
   <head>
     <%= partial "head" %>
   </head>
@@ -15,14 +15,14 @@
 
     <%= partial "header" %>
 
-    <section id="content">
-      <div class="wrapper"><%= yield %></div>
-    </section>
+    <div class="content">
+      <%= yield %>
+    </div>
 
     <%= partial "footer" %>
 
     <!-- Include Scripts -->
+    <%= partial "vendors/intercom" %>
     <%= javascript_include_tag  "all" %>
-
   </body>
 </html>

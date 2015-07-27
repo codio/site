@@ -1,98 +1,156 @@
 ---
-title: Codio - The cloud coding & content platform
-layout: layout-new
+title: Teach computing. With confidence.
+layout: layout
+fixed: true
 ---
-<main>
-  <section id="welcome">
-    <div class="container">
-      <h1>The cloud coding & content platform for teaching computer science</h1>
+
+<section class='header-block'>
+  <h1 class="animated fadeIn">
+    Teach computing. With confidence.
+  </h1>
+  <h2 class="animated fadeIn">
+    The cloud coding & content platform for teaching computer science
+  </h2>
+  <div class="action-buttons animated fadeInUp">
+    <%= link_to 'Get Started', '/p/signup', class: 'button button-large button-action' %>
+  </div>
+  <a href="#index-content-start" class="scrollto">
+    <svg class="arrows">
+      <path class="a3" d="M0 40 L30 72 L60 40"></path>
+    </svg>
+  </a>
+</section>
+
+<section class="index-content">
+  <div id="index-content-start"></div>
+
+
+  <div
+    class="index-section index-section-content wow fadeIn"
+    data-wow-duration="2s"
+    data-wow-delay=".5s"
+    >
+    <h2>Unique learning experience</h2>
+
+    <%= image_tag 'assets/index/laptop-ide.png', class: "index-section-content-img" %>
+    <div class="index-section-content-copy">
+      <p>
+        Codio course content is made interactive with live code and preview windows
+        &mdash; allowing students to test and trial what they're learning; built in
+        challenges also stimulate engagement and create opportunities for "learning by doing".
+      </p>
     </div>
-  </section>
-  <section id="platform">
-    <div class="container">
-      <div class="section-image">
-        <div class="image"></div>
+  </div>
+
+  <hr/>
+
+  <div class="index-section index-section-curriculum">
+    <div
+      class="index-section-left wow fadeIn"
+      data-wow-duration="1s"
+      data-wow-delay="0s"
+      >
+      <h2>Full curriculum coverage</h2>
+      <p>
+        From Computer systems, computational and algorithmic thinking challenges,
+courses on Python and Javascript, as well as all the project workspace you
+        need &mdash; Codio empowers you to teach the full Computing curriculum with
+        confidence.
+      </p>
+    </div>
+    <div
+      class="index-section-right index-section-curriculum-img wow fadeInRight"
+      data-wow-duration="1s"
+      data-wow-delay=".8s"
+      ></div>
+  </div>
+
+  <hr/>
+
+  <div
+    class="index-section index-section-assessments wow fadeIn"
+    data-wow-duration="2s"
+    data-wow-delay=".5s"
+    >
+    <div class="index-section-left">
+      <h2>Integrated assessments</h2>
+      <p>
+        Teacher dashboards display clear and simple information about Class and
+        Student progress &mdash; presenting scores for built-in auto-marked
+        assessments that enable you to focus more time on teaching and supporting
+        and less on administration.
+      </p>
+    </div>
+    <div class="index-section-right index-section-assessments-img"></div>
+  </div>
+
+  <hr/>
+
+  <div class="index-section index-section-projects">
+    <div
+      class="index-section-projects-top wow fadeIn"
+      data-wow-duration="2s"
+      data-wow-delay=".5s"
+      >
+      <h2>Perfect for projects</h2>
+      <p>
+        Accessible anywhere, with pre-configured environments containing all
+        the software and other components a student will need, each user enjoys
+        a dedicated virtual server for their project work &mdash; ideal in the
+        classroom or at home.
+      </p>
+    </div>
+    <div class="index-section-projects-bottom">
+      <div
+        class="index-section-projects-img wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay=".5s"
+        >
+        <%= image_tag 'assets/index/live-code.png' %>
+        <figcaption>Live code</figcaption>
       </div>
-      <div class="section-content">
-        <h1>Powerful IDE & Coding Platform</h1>
-        <p>Setting up and configuring the right environment to support the learning experience is complex and time consuming.</p>
-        <p>Codio is accessible anywhere and comes with all the software, storage, and editing workspace you and your students need.</p><a href="/platform" class="button">More info</a>
+      <div
+        class="index-section-projects-img wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="1s"
+        >
+        <%= image_tag 'assets/index/preview-windows.png' %>
+        <figcaption>Preview windows</figcaption>
+      </div>
+      <div
+        class="index-section-projects-img wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="1.5s"
+        >
+        <%= image_tag 'assets/index/challenges.png' %>
+        <figcaption>Challenges</figcaption>
       </div>
     </div>
-  </section>
-  <section id="content">
-    <div class="container">
-      <div class="section-image">
-        <div class="image"></div>
-      </div>
-      <div class="section-content">
-        <h1>Curriculum-based Teaching Content</h1>
-        <p>It’s hard to find a comprehensive range of course content aligned to key stages, and mapped to the curriculum.</p>
-        <p>We’ve created teaching resources mapped to the computing curriculum; you can also create and share your own
-          courses.</p><a href="/teaching-content" class="button">More info</a>
-      </div>
+  </div>
+
+  <hr/>
+
+  <div class="index-section index-section-partners">
+    <h2>
+      We are proud members and partners of
+    </h2>
+    <div class="index-section-partners-img">
+      <%= image_tag 'assets/index/partners-ocr.png' %>
+      <%= image_tag 'assets/index/partners-cas.png' %>
+      <%= image_tag 'assets/index/partners-naace.png' %>
     </div>
-  </section>
-  <section id="support">
-    <div class="container">
-      <div class="section-image">
-        <div class="image"></div>
-      </div>
-      <div class="section-content">
-        <h1>Comprehensive Teacher Support</h1>
-        <p>Setting up and organising student groups can be complex, time consuming and often detracts from the focus on teaching.</p>
-        <p>Codio organises your students with bulk account creation, course content admin, progress tracking and feedback loops.</p><a href="/teacher-support" class="button">More info</a>
-      </div>
+  </div>
+  <hr/>
+  <div class="index-section index-section-get-started">
+    <h2>
+      Ready to get started?
+    </h2>
+    <h3>
+      The world of Codio is waiting for you
+    </h3>
+    <div class="action-buttons">
+      <%= link_to 'Get Started', '/p/signup', class: 'button button-large button-action' %>
+      <%= link_to 'View pricing', '/pricing', class: 'button button-large button-dark' %>
     </div>
-  </section>
-  <section id="our-partners">
-    <div class="container">
-      <h1>Our Memberships & Partners</h1>
-      <a href="http://www.ocr.org.uk/">
-        <div id="ocr"></div>
-      </a>
-      <a href="http://www.computingatschool.org.uk/">
-        <div id="focas"></div>
-      </a>
-      <a href="http://www.naace.co.uk/">
-        <div id="naace"></div>
-      </a>
-    </div>
-  </section>
-  <section class="big-button"><a href="https://codio.com/p/signup" class="button">Get started with Codio</a></section>
-  <section id="featured">
-    <div class="container">
-      <h1>Featured</h1>
-      <div id="featured-section-1"><a href="https://youtu.be/V7XMcD-TJaQ">
-        <div class="image"></div></a>
-        <p>Codio-the cloud platform for teaching computer programming.</p>
-        <a href="https://youtu.be/V7XMcD-TJaQ"><div class="icon"></div></a>
-      </div>
-      <div id="featured-section-2"><a href="/blog/2015/01/ocr-collaboration/">
-        <div class="image"></div></a>
-        <p>Codio & OCR Collaborate on resources to support Computing teachers.</p>
-        <a href="/blog/2015/01/ocr-collaboration/"><div class="icon"></div></a>
-      </div>
-      <div id="featured-section-3"><a href="https://youtu.be/Is8YAFQfRGI">
-        <div class="image"></div></a>
-        <p>Computer science & programming with Shahneila Saeed.</p>
-        <a href="https://youtu.be/Is8YAFQfRGI"><div class="icon"></div></a>
-      </div>
-    </div>
-  </section>
-  <section id="schools">
-    <div class="container">
-      <h1>Schools and Universities using Codio</h1>
-      <div class="schools">
-        <div class="coventry"></div>
-        <div class="ucode"></div>
-        <div class="cgs"></div>
-        <div class="walter"></div>
-        <div class="cbk"></div>
-      </div>
-    </div>
-  </section>
-  <section class="big-button">
-    <a href="https://codio.com/p/signup" class="button">Get started with Codio</a>
-  </section>
-</main>
+  </div>
+</section>

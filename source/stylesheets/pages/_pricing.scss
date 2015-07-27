@@ -1,0 +1,125 @@
+body.pricing .content {
+  margin: 65px auto 0 auto;
+  max-width: 100%;
+
+  @include breakpoint($max-width) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.pricing-header {
+  background: $dark-gray;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.pricing-header-container {
+  @include container(4 of 4);
+
+  margin: gutter();
+  text-align: center;
+
+  @include breakpoint($break-tablet) {
+    @include container(10 of 16);
+    margin: 0 span(3 of 16);
+  }
+
+  h1 {
+    color: white;
+    font-weight: 300;
+  }
+
+  h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+  }
+}
+
+.pricing-slider {
+  @include container(4 of 4);
+  text-align: center;
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+  }
+
+  @include breakpoint($max-width) {
+    margin: 0 auto;
+    max-width: $max-width;
+  }
+
+  .action-buttons {
+    @include container;
+    @include break;
+
+    padding-top: 3rem;
+
+    .button:first-child {
+        margin-right: .5rem;
+    }
+
+    .button:last-child {
+        margin-left: .5rem;
+    }
+  }
+}
+
+.pricing-faq {
+  @include container(4 of 4);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  @include breakpoint($max-width) {
+    max-width: $max-width;
+  }
+}
+
+.pricing-faq-header {
+  text-align: center;
+
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.pricing-faq-col {
+  @include span(4 of 4);
+  margin-top: 5rem;
+
+  @include breakpoint($break-tablet) {
+    @include span(6 of 16);
+  }
+}
+.pricing-faq-col-left {
+  @include breakpoint($break-tablet) {
+    margin-left: span(1.5 of 16);
+    margin-right: span(.5 of 16);
+  }
+}
+
+.pricing-faq-col-right {
+  @include breakpoint($break-tablet) {
+    margin-left: span(.5 of 16);
+    margin-right: span(1.5 of 16);
+  }
+}
+
+
+
+.pricing-faq-entry {
+  @include container;
+
+  @include breakpoint($break-tablet) {
+
+  }
+
+  a {
+    @include linkUnderlines(white, $base-font-color);
+  }
+}

@@ -1,0 +1,78 @@
+body.about_mission .content {
+  margin: -65px auto 0 auto;
+  max-width: 100%;
+}
+
+body.about_mission .header-block {
+  @include span(4);
+  background-size: cover;
+  position: relative;
+  background-color: $dark-gray;
+  height: 500px;
+
+  @include breakpoint($break-tablet) {
+    background: url('/img/assets/mission/atf.png') no-repeat top center fixed;
+    height: 485px;
+  }
+
+  @include breakpoint($max-width) {
+    background: url('/img/assets/mission/atf-large.png') no-repeat top center fixed;
+    height: 600px;
+  }
+
+  .header-container {
+    @include container;
+
+    margin-top: 9rem;
+
+    @include breakpoint($break-tablet) {
+      @include container(14 of 16);
+      margin-left: span(1 of 16);
+      margin-right: span(1 of 16);
+    }
+
+    @include breakpoint($max-width) {
+      margin-top: 14rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: span(1 of 16);
+      max-width: $max-width;
+    }
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 2.369rem;
+    color: white;
+
+    em {
+      font-weight: 400;
+    }
+  }
+}
+
+.mission-section {
+  @include container;
+  @include break;
+
+  margin: gutter();
+  padding: 5rem 0;
+
+  .mission-header {
+    text-align: center;
+
+    h2 {
+      margin-bottom: 4rem;
+    }
+  }
+
+  @include breakpoint($break-tablet) {
+    @include container(10 of 16);
+    margin: 0 span(3 of 16);
+  }
+
+  @include breakpoint($max-width) {
+    @include container(10 of 16);
+    max-width: 50rem;
+  }
+}

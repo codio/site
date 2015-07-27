@@ -32,7 +32,7 @@ You should point your Guide page to a script file to load. Although you will see
 ## Event Listener
 The event listener is able to perform your custom task. It will display a custom message area beneath it into which you can write your own results data. The message data can be a custom message that a test might return and can be plain text or HTML. 
 
-![](/img/docs/guides/custom-button.png)
+<img alt="authtoken" src="/img/docs/guides/scripts.png" class="simple"/>
 
 The icon that appears in the top left of the message area can be controlled from your event listener, as shown below.
 

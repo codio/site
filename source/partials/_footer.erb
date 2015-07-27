@@ -1,48 +1,72 @@
-<footer class="footer">
-  <div class="wrapper">
-
-    <div class="footer-links">
-      <ul>
-        <li><h4>Codio</h4></li>
-        <li><%= link_to "Pricing", "/pricing/edu" %></li>
-        <li><%= link_to "Blog", "/blog" %></li>
-      </ul>
-
-      <ul>
-        <li><h4>About</h4></li>
-        <li><%= link_to "Our Company", "/about" %></li>
-        <li><%= link_to "Our Team", "/about#team" %></li>
-        <li><%= link_to "Legal", "/legal" %></li>
-      </ul>
-      <ul>
-        <li><h4>Help</h4></li>
-        <li><%= link_to "Docs", "/docs" %></li>
-        <li><a href="http://forum.codio.com">Community</a></li>
-        <li><a href="http://status.codio.com">Status</a></li>
-      </ul>
-      <ul>
-        <li><h4>Connect</h4></li>
-        <li>
-          <a href="https://www.facebook.com/CodioHQ" class="facebook-share">
-            <i class="fa fa-facebook"></i> Facebook
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/codiohq" class="twitter-share">
-            <i class="fa fa-twitter"></i> Twitter
-          </a>
-        </li>
-        <li>
-          <a href="https://plus.google.com/+Codio" class="plus-share">
-            <i class="fa fa-google-plus"></i> Google Plus
-          </a>
-        </li>
-      </ul>
+<footer>
+  <div class="container">
+    <div class="footer-copyright">
+      <%= image_tag 'logo-dark.svg', class: 'footer-logo' %>
+      <p>Copyright © 2015 Codio</p>
+      <p>All rights reserved</p>
     </div>
-    <div class="copy">
-      <span>Made with <3</span>
-      <span>&copy; Codio 2015</span>
-    </div>
+
+    <ul class="footer-list">
+      <li>
+        <h4>Product</h4>
+      </li>
+      <li>
+        <%= link_to 'Login', '/p/login' %>
+      </li>
+      <li>
+        <%= link_to 'Pricing', '/pricing' %>
+      </li>
+      <li>
+        <%= link_to 'Features', '/' %>
+      </li>
+    </ul>
+    <ul class="footer-list">
+      <li>
+        <h4>Company</h4>
+      </li>
+      <li>
+        <%= link_to 'Our Mission', '/about/mission' %>
+      </li>
+      <li>
+        <%= link_to 'Our Team', '/about' %>
+      </li>
+      <li>
+        <%= link_to 'Blog', 'http://blog.codio.com' %>
+      </li>
+      <li>
+        <%= link_to 'Legal Details', '/legal' %>
+      </li>
+    </ul>
+    <ul class="footer-list">
+      <li>
+        <h4>Support</h4>
+      </li>
+      <li>
+        <%= link_to 'Documentation', '/docs' %>
+      </li>
+      <li>
+        <%= link_to 'Community', 'http://forum.codio.com', target: '_blank' %>
+      </li>
+      <li>
+        <%= link_to 'System Status', 'https://status.codio.com', target: '_blank' %>
+      </li>
+    </ul>
+    <ul class="footer-list">
+      <li>
+        <h4>Connect</h4>
+      </li>
+      <li>
+        <%= link_to 'Twitter', 'https://twitter.com/codiohq', target: '_blank' %>
+      </li>
+      <li>
+        <%= link_to 'Youtube', 'https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw', target: '_blank' %>
+      </li>
+      <li>
+        <%= link_to 'Facebook', 'https://www.facebook.com/CodioHQ', target: '_blank' %>
+      </li>
+      <li>
+        <%= link_to 'Google+', 'https://plus.google.com/+Codio/', target: '_blank' %>
+      </li>
+    </ul>
   </div>
-  <div class="artwork"></div>
 </footer>

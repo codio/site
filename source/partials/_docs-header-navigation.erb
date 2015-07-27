@@ -1,0 +1,13 @@
+<div class="docs-header-navigation">
+  <% ordered_simple(top_pages('docs'), '/docs').each do |resource| %>
+    <% active = current_section?(resource.url) ? "active" : "" %>
+    <% title = resource.data.title %>
+
+    <a href="<%= resource.url %>" class="<%= active %> docs-header-navigation-item">
+      <h2 class="navigation-header-<%= title.downcase %>"><%= title %></h2>
+      <p>
+        <%= resource.data.description %>
+      </p>
+    </a>
+  <% end %>
+</div>

@@ -1,0 +1,213 @@
+body.docs .content {
+  margin: -65px auto 0 auto;
+  max-width: 100%;
+}
+
+body.docs .header-block {
+  @include span(4);
+  background-size: cover;
+  position: relative;
+  background-color: $dark-gray;
+
+
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-left: gutter();
+    margin-right: gutter();
+    padding-top: 150px;
+    padding-bottom: 3rem;
+
+    @include breakpoint($break-tablet) {
+      font-size: 2.369rem;
+    }
+
+    em {
+      font-weight: 400;
+    }
+  }
+}
+
+.search-container {
+  @include container;
+  @include break;
+
+  padding: 0 0 5rem 0;
+
+  .st-search-input {
+    width: span(14 of 16);
+    margin: 0 span(1 of 16);
+
+    height: 3rem;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    border-radius: 25px;
+    border: 1px solid $light-gray;
+    padding-left: 70px;
+    box-shadow: none;
+    color: $dark-gray;
+    font-family: $base-font-family;
+    background: url('/img/assets/docs-navigation/search.svg') no-repeat left center;
+    background-color: white;
+    background-size: 24px;
+    background-position: 25px;
+    font-weight: 400;
+
+    @include breakpoint($break-tablet) {
+        width: span(8 of 16);
+        margin: 0 span(4 of 16);
+    }
+
+    &::placeholder {
+      font-family: $base-font-family;
+      color: $light-gray;
+      font-weight: 300;
+    }
+  }
+}
+
+body.docs .overview-section {
+  @include container;
+  @include break;
+
+  padding: 3rem 0;
+
+  .docs-header-navigation-container > h2 {
+    text-align: center;
+  }
+
+  @include breakpoint($break-tablet) {
+    @include container(10 of 16);
+    margin: 0 span(3 of 16);
+  }
+
+  .docs-header-navigation {
+    border-bottom: none;
+  }
+}
+
+.docs-content {
+  @include container;
+  padding-top: 2 * $base-line-height;
+
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+    max-width: $max-width;
+  }
+
+  @include breakpoint($max-width) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.search-results {
+  @include container;
+  @include break;
+  margin: gutter();
+
+  @include breakpoint($break-tablet) {
+    @include container(12 of 16);
+    margin: 0 span(2 of 16);
+  }
+
+  h4 a {
+    color: $dark-gray;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  em {
+    border: 1px solid $lighter-gray;
+    border-radius: 2px;
+    padding: 0 .3em;
+    background: $very-light-blue;
+    font-weight: 400
+  }
+
+  .st-page {
+    .st-prev {
+
+    }
+    .st-next {
+      float: right;
+    }
+  }
+}
+
+.docs-body {
+  @include span(4);
+  overflow-wrap: break-word;
+
+  @include breakpoint($break-tablet) {
+    @include span(8 of 16);
+    margin-left: span(5 of 16);
+  }
+
+  img {
+    float: right;
+    margin: $base-line-height 0;
+
+    background-image: url('/img/assets/docs-image-frame.png');
+    padding: 96px 0 0 76px;
+    border-radius: 2px;
+    max-height: 700px;
+    width: span(8 of 8);
+    object-fit: cover;
+    object-position: top;
+
+    @include breakpoint($break-tablet) {
+      margin-top: 2 * $base-line-height;
+      margin-bottom: 2 * $base-line-height;
+      margin-right: - span(3 of 8);
+      width: span(11 of 8);
+      max-width: none;
+    }
+
+    &.simple {
+      background: none;
+      padding: 0;
+      width: auto;
+      margin: 1.5rem auto;
+      float: initial;
+      text-align: center;
+      display: inherit;
+      border: 1px solid $light-gray;
+    }
+  }
+
+  ul, ol {
+    list-style: initial;
+    padding-left: 20px;
+    margin-bottom: $base-line-height;
+  }
+
+  hr {
+    position: relative;
+    margin: 1rem 0;
+    border-color: $medium-gray;
+  }
+
+  h2 {
+    font-size: 1.777rem;
+  }
+
+  h3 {
+    font-size: 1.333rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  a {
+    @include linkUnderlines(white, $base-font-color);
+  }
+}

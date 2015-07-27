@@ -1,40 +1,15 @@
-<header>
-
-  <nav class="top">
-    <a href="" id="menu-toggle">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a class="logo" href="/"></a>
-    <a href="" class="actions signed-out outline-button">Sign Up</a>
-    <a href="/home" class="userlink actions signed-in">
-      <img class="gravatar" alt="Gravatar"></img>
-    </a>
-  </nav>
-  <nav class="left slide-menu">
-    <div class="wrapper">
-      <a class="logo" href="/"></a>
-      <div class="links">
-        <a href="https://www.youtube.com/watch?v=1JNhoVbmNAo&feature=youtu.be" class="badge" target="_blank">
-          <%= image_tag "bett-badge.jpg" %>
-          <span>Watch our Story</span>
-        </a>
-        <%= link_to_nav "Docs", "/docs" %>
-        <%= link_to_nav "Pricing", "/pricing/edu" %>
-        <a href="http://forum.codio.com">Community</a>
-
-        <a href="/p/login" class="actions signed-out">
-          Sign In
-        </a>
-        <a href="/p/signup" class="actions signed-out outline-button">
-          Sign Up
-        </a>
-        <a href="/home" class="userlink actions signed-in">
-          <img class="gravatar" alt="Gravatar"></img>
-          <span></span>
-        </a>
-      </div>
-    </div>
-  </nav>
+<a class="menu-toggle fixed open">
+  <div class="menubars"></div>
+</a>
+<div class="mobile-nav">
+  <%= partial "nav" %>
+</div>
+<header
+  class="fixed <% if current_resource.data.fixed %> should-be-fixed<% end %>">
+  <div class="container animated fadeInDown">
+    <a href="/" class="logo-link"><%= image_tag 'logo-light.svg', class: 'logo' %></a>
+    <nav>
+      <%= partial "nav" %>
+    </nav>
+  </div>
 </header>
-
-<header class="artwork"></header>

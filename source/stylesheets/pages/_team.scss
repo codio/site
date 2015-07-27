@@ -1,0 +1,120 @@
+body.about_index .content {
+  margin: -65px auto 0 auto;
+  max-width: 100%;
+}
+
+body.about_index .header-block {
+  @include span(4);
+  background-size: cover;
+  position: relative;
+  background-color: $dark-gray;
+  height: 500px;
+
+  @include breakpoint($break-tablet) {
+    background: url('/img/assets/team/atf.png') no-repeat top center fixed;
+    height: 485px;
+  }
+
+  @include breakpoint($max-width) {
+    background: url('/img/assets/team/atf-large.png') no-repeat top center fixed;
+    height: 600px;
+  }
+
+  .header-container {
+    @include container;
+
+    margin-top: 9rem;
+
+    @include breakpoint($break-tablet) {
+      @include container(14 of 16);
+      margin-left: span(1 of 16);
+      margin-right: span(1 of 16);
+    }
+
+    @include breakpoint($max-width) {
+      margin-top: 14rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: span(1 of 16);
+      max-width: $max-width;
+    }
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 2.369rem;
+    color: white;
+
+    em {
+      font-weight: 400;
+    }
+  }
+}
+
+.team-section {
+  @include container;
+  @include break;
+
+  padding: 5rem 0;
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+  }
+
+  @include breakpoint($max-width) {
+    @include container(16 of 16);
+    max-width: $max-width;
+  }
+
+  .member {
+    @include container;
+    margin: gutter();
+    padding-bottom: 7rem;
+
+    @include breakpoint($break-tablet) {
+      margin: 0;
+      @include span(4 of 14);
+      margin-left: span(1 of 14);
+
+      &:nth-child(3n + 1) {
+        @include break;
+        margin-left: 0;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 400;
+
+      @include breakpoint($max-width) {
+        font-size: 2rem;
+      }
+    }
+
+    h4 {
+      font-weight: 300;
+      font-style: italic;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    hr {
+      position: relative;
+      width: 100px;
+      border-bottom: 1px solid $dark-gray;
+    }
+
+    .description {
+      padding-top: 1.5rem;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

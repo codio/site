@@ -16,8 +16,7 @@ Codio auto-generates a public key that is uniquely associated with your user acc
 
 ##Specifying a Port
 If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below
-
-```bash
+```
 mydomain.com:1234
 ```
 

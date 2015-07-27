@@ -1,0 +1,192 @@
+//= require 'jquery-ui/themes/base/core.css'
+//= require 'jquery-ui/themes/base/draggable.css'
+//= require 'jquery-ui/themes/base/slider.css'
+//= require 'jquery-ui-slider-pips/dist/jquery-ui-slider-pips.css'
+
+@import 'flat-slider';
+
+.slider {
+  @include container;
+}
+
+.type-selector {
+  @include container;
+
+  padding-bottom: 5rem;
+
+  @include breakpoint($break-tablet) {
+    padding-bottom: 7rem;
+  }
+
+  .type-list {
+    @include container;
+  }
+
+  .item {
+    @include container(4 of 4);
+    @include break;
+    border: 1px solid $dark-gray;
+    padding: 2*18px+2px 2px;
+    margin: gutter();
+    cursor: pointer;
+
+    &.active,
+    &:hover {
+      border: 3px solid $blue;
+      padding: 2*18px 0;
+    }
+
+    &.active h2 {
+      font-weight: 400;
+    }
+
+
+    img {
+      height: 32px;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 300;
+    }
+
+    li {
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    @include breakpoint(min-width $break-tablet) {
+      @include nobreak;
+      @include span(5 of 16);
+      margin: 0;
+      margin-left: span(.5 of 16);
+
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    @include breakpoint($max-width) {
+      @include span(3.666 of 16);
+      margin-left: span(1 of 16);
+
+      &:first-child {
+        margin-left: span(1 of 16);
+      }
+      &:last-child {
+        margin-right: span(1 of 16);
+      }
+    }
+  }
+}
+
+.drag-wrapper {
+  @include container;
+  @include break;
+  height: 16px;
+  border-bottom: 1px solid $lighter-gray;
+  margin: gutter();
+
+  @include breakpoint($break-tablet) {
+    @include span(8 of 16);
+    margin: 0;
+    margin-left: span(3 of 16);
+    padding: 0;
+
+    height: 8px;
+  }
+}
+
+
+
+.count {
+  @include container;
+  padding-top: 1rem;
+
+  @include breakpoint($break-tablet) {
+    @include span(3 of 16);
+    margin-right: span(2 of 16);
+    text-align: right;
+    padding-top: 0;
+    margin-top: -.5rem;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+}
+
+.display-price {
+  @include container;
+  @include break;
+
+  padding-top: 3rem;
+
+
+  .currency {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background-color: transparent;
+    list-style: none;
+  }
+
+  .currency-option {
+    position: relative;
+    float: left;
+    min-height: 25px;
+  }
+
+  .currency-input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+  }
+
+  .currency-option:last-of-type::before {
+    content: 'or';
+  }
+
+  .currency-label {
+    background: white;
+    cursor: pointer;
+    color: $light-gray;
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    display: inline-block
+  }
+
+  .currency-input:checked + .currency-label {
+    color: $base-font-color;
+    font-weight: 500;
+  }
+
+
+  .amount {
+    font-size: 2.369rem;
+    min-width: 6rem;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .divider {
+    font-size: 1.33rem;
+  }
+
+  .range {
+    font-size: 1.33rem;
+  }
+}
+
+.instruction {
+  font-size: 0.75rem;
+}

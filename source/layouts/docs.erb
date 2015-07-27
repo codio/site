@@ -1,81 +1,19 @@
-<% wrap_layout :'layout-new' do %>
+<% wrap_layout :'layout' do %>
 
-  <%- pages = nav_pages(current_resource.url) -%>
+  <div class="header-block">
+    <h2>How can we help you?</h2>
+  </div>
 
-  <main class="docs-page">
+  <div class="docs-content">
+    <%= partial 'docs-header-navigation' %>
 
-    <section class="header">
-      <div class="container">
-        <div>
-          <div id="docs-menu-toggle"></div>
-          <%= link_to pages.first.data.title, pages.first.url %>
-        </div>
-        <div>
-          <h1><%= current_page.data.title %></h1>
-        </div>
-        <div>
-          <form id="search-input">
-            <%= image_tag "icons/search_icon.png" %>
-            <input type="text" placeholder="Search" id="st-search-input" class="st-search-input" />
-          </form>
-        </div>
-      </div>
-    </section>
+    <%= partial 'docs-side-navigation' %>
 
-    <section class="content">
-      <div class="container">
-        <aside id="docs-menu">
-          <ul>
-            <% pages.each do |resource| %>
-              <li>
-                <h2>
-                  <%= image_tag "new/lg/docs_#{resource.data.title.gsub(' ', '-').downcase}_lg.png" %>
-                </h2>
-                <ul>
-                  <% ordered(resource).each do |child| %>
-                    <li>
-                      <% active = current_section?(child.url) ? "active" : "" %>
-                      <h5 class="<%= active %>"><%=  link_to child.data.title, child.url %></h5>
-                        <ul class="<%= active %>">
-                        <% ordered(child).each do |p| %>
-                          <% if current_section? p.url %>
-                            <li class="active">
-                              <%=  link_to p.data.title, p.url %>
-                              <% if p.children.length > 0 %>
-                              <ul>
-                                <% ordered(p).each do |inner| %>
-                                  <% if current_page? inner.url %>
-                                    <li class="active">
-                                  <% else %>
-                                      <li>
-                                  <% end %>
-                                  <%= link_to inner.data.title, inner.url %></li>
-                                <% end %>
-                              </ul>
-                              <% end %>
-                          <% else %>
-                              <li>
-                                <%=  link_to p.data.title, p.url %>
-                          <% end %>
-                          </li>
-                        <% end %>
-                      </ul>
-                    </li>
-                  <% end %>
-                </ul>
-              </li>
-            <% end %>
-          </ul>
-        </aside>
+    <article data-swiftype-name="body" data-swiftype-type="text" class="docs-body">
+      <h1 data-swiftype-name="title" data-swiftype-type="string">
+        <%= current_resource.data.title %>
+      </h1>
+      <%= yield %>
+    </article>
 
-        <article>
-          <%= yield %>
-          <%= partial "vendors/disqus" %>
-        </article>
-      </div>
-    </section>
-
-  </main>
 <% end %>
-
-<%= partial "vendors/swiftype" %>

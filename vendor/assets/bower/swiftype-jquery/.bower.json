@@ -1,0 +1,36 @@
+{
+  "name": "swiftype-search-jquery",
+  "homepage": "https://github.com/swiftype/swiftype-search-jquery",
+  "authors": [
+    "Swiftype <support@swiftype.com>"
+  ],
+  "description": "Swiftype jQuery search plugin",
+  "main": "jquery.swiftype.search.js",
+  "keywords": [
+    "search",
+    "swiftype",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.11.1",
+    "jquery-hashchange": "latest"
+  },
+  "_release": "89ef3bf717",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "89ef3bf717256d780f4b0b39e95980ba35fcbcb6"
+  },
+  "_source": "git://github.com/swiftype/swiftype-search-jquery.git",
+  "_target": "*",
+  "_originalSource": "swiftype-jquery",
+  "_direct": true
+}

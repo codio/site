@@ -1,0 +1,59 @@
+
+.button {
+  font-family: $heading-font-family;
+  height: 25px;
+  background-color: none;
+  border-radius: 2px;
+  padding: 2px 15px;
+  border: 2px solid white;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 1;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, border 0.4s ease-in-out;
+}
+
+.button:hover {
+  color: $dark-gray;
+  background-color: white;
+}
+
+.button.button-dark {
+  color: $dark-gray;
+  background-color: white;
+  border-color: $dark-gray;
+}
+
+.button.button-dark:hover {
+  color: white;
+  background-color: $dark-gray;
+}
+
+.button.button-large {
+  padding: 5px 25px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button.button-action {
+  color: white;
+  background-color: $light-blue;
+  border-color: $light-blue;
+}
+
+.button.button-action:hover {
+  background-color: lighten($light-blue, 10%);
+  border-color: lighten($light-blue, 10%);
+}
+
+.button.button-info {
+  color: white;
+  background-color: none;
+  border: 2px solid white;
+}
+
+.button.button-info:hover {
+  color: $lighter-blue;
+  border-color: $lighter-blue;
+}

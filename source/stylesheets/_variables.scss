@@ -1,0 +1,49 @@
+// Fonts
+$brandon: 'Brandon Grotesque W01', sans-serif;
+$brandon-text: 'Brandon Text W01', sans-serif;
+$eco-coding: 'Eco Coding W01', 'Menlo', 'Courier', monospace;
+
+// Typography
+$base-font-family: $brandon-text;
+$heading-font-family: $brandon;
+$mono-font-family: $eco-coding;
+
+
+$base-font-size: 18px;
+
+// Font Weights
+$base-font-weight: 300;
+
+// Line height
+$base-line-height: 1.5rem;
+$header-line-height: 1.2em;
+
+$rhythm-unit: 'rem';
+$rem-with-px-fallback: true;
+
+
+// Colors
+$very-light-blue: #f7f9fc;
+$lighter-blue: #c7d5f6;
+$light-blue: #15a4fa;
+$blue: #5988e1;
+$dark-gray: #212c3f;
+$medium-gray: #29374e;
+$light-gray: #a8b2c4;
+$lighter-gray: #ecf1f5;
+
+// Font Colors
+$base-background-color: #fff;
+$base-font-color: $dark-gray;
+$action-color: $blue;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+
+// Break points
+$break-tablet: 50rem;
+
+
+$max-width: 1200px;

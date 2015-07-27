@@ -24,23 +24,21 @@ All folders will be hidden other than those entered in the step path field.  If 
 ##Open Tabs
 Windows can be opened automatically to present the tab configuration you feel is most appropriate for the reader.
 
-![](/img/docs/guides/guide_files.png)
+<img alt="authtoken" src="/img/docs/guides/guide_files.png" class="simple"/>
 
 The Add button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
 
 ##Opening Files
 To open files select the 'File' type and enter the file name(s)
 
-![](/img/docs/guides/type_file.png)
-
-```bash
+<img alt="authtoken" src="/img/docs/guides/type_file.png" class="simple"/>
+```
 index.html, main.css
 ```
 ##Previewing
 To preview your project select the 'Preview' Type. If you wish to show an external website page, the preview type supports this.
 
-![](/img/docs/guides/type_preview.png)
-
+<img alt="authtoken" src="/img/docs/guides/type_preview.png" class="simple"/>
 ```
  https://codio.com
 ```
@@ -52,15 +50,14 @@ To open a Terminal window select 'Terminal' Type.
 
 You can also specify a terminal command to run when a section is displayed. For example, your Guide may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a Guide is running) at a certain point in your Guide.
 
-![](/img/docs/guides/type_terminal.png)
-
-```bash
+<img alt="authtoken" src="/img/docs/guides/type_terminal.png" class="simple"/>
+```
 bash .guides/restore-sh prettier
 ```
 
 You can also specify system commands in a new Terminal window like this
 
-![](/img/docs/guides/terminal_command.png)
+<img alt="authtoken" src="/img/docs/guides/terminal_command.png" class="simple"/>
 
 
 ##Highlighting Lines in your code
@@ -69,7 +66,7 @@ To highlight one or more lines within an auto-opened file, select 'Highlight' ty
 1. enter a piece of reference text, contained within your target file, into the 'Reference ...' field
 2. specify the number of lines, from that reference point, you want to highlight
 
-![](/img/docs/guides/type_highlight.png)
+<img alt="authtoken" src="/img/docs/guides/type_highlight.png" class="simple"/>
 
 
 Using reference text rather than a line number means that if you insert anything into your file in the future, the line number would be invalidated, whereas the reference is much less likely to be.
@@ -86,7 +83,7 @@ Enable this to close all tabs open from the previous section
 ##Specifying a panel
 If your [layout](/docs/ide/tools/guides/layouts) for this page involves multiple panels, then you can also specify the panel number to display the file in.
 
-![](/img/docs/guides/panel.png)
+<img alt="authtoken" src="/img/docs/guides/panel.png" class="simple"/>
 
 If you leave the panel field empty, then the default panel will be chosen, which is the same as 0.
 

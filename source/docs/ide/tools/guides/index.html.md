@@ -9,7 +9,7 @@ Codio Guides is a fully integrated content authoring tool that allows you to wri
 We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more infomation on importing.
 
 ##Why should I use it?
-If you are creating any type of coding tutorial or you are creating educational content using [Codio's Education features](/docs/quickstart/education), then you will find this enormously helpful.
+If you are creating any type of coding tutorial or you are creating educational content using [Codio's Education features](/docs/teacher/education), then you will find this enormously helpful.
 
 ##Key Features
 

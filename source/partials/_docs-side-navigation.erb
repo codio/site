@@ -1,0 +1,53 @@
+<%- pages = nav_pages(current_resource.url) -%>
+
+<aside class="docs-side-navigation">
+  <ul>
+    <% pages.each do |resource| %>
+      <li>
+        <ul>
+          <% ordered(resource).each do |child| %>
+            <li>
+              <% active = current_section?(child.url) ? "active" : "" %>
+              <div class="<%= active %> item">
+                <div class="item-header">
+                  <%=  link_to child.data.title, child.url %>
+                </div>
+                <% if child.data.description %>
+                  <p class="item-description">
+                    <%= child.data.description %>
+                  </p>
+                <% end %>
+              </div>
+              <% if current_section? child.url %>
+              <ul class="<%= active %> level-1-list">
+                <% ordered(child).each do |p| %>
+                  <% if current_section? p.url %>
+                    <li class="active level-1-item">
+                      <%=  link_to p.data.title, p.url %>
+                      <% if p.children.length > 0 %>
+                        <ul class="level-2-list">
+                          <% ordered(p).each do |inner| %>
+                            <% if current_page? inner.url %>
+                              <li class="active level-2-item">
+                            <% else %>
+                                <li class="level-2-item">
+                            <% end %>
+                            <%= link_to inner.data.title, inner.url %></li>
+                          <% end %>
+                        </ul>
+                      <% end %>
+                  <% else %>
+                      <li class="level-1-item">
+                        <%=  link_to p.data.title, p.url %>
+                  <% end %>
+                      </li>
+                <% end %>
+              </ul>
+              <% end %>
+           </li>
+         <% end %>
+        </ul>
+      </li>
+    <% end %>
+  </ul>
+</aside>

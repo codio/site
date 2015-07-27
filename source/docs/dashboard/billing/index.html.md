@@ -14,7 +14,7 @@ We offer the following options for students, schools, colleges and universities
 - Very substantial discounts for student users
 - Even more substantial discounts for schools, colleges and universities as well as a full trial. 
 
-For full details, [click here](/docs/quickstart/education).
+For full details, [click here](/docs/teacher/education).
 
 ##Organizational Billing
 If you have an Organization account, we offer a [special billing screen here](/docs/dashboard/organizations/billing/).

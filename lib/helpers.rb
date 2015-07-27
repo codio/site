@@ -7,6 +7,12 @@ module MyHelpers
     end
   end
 
+  def top_pages(dir)
+    sitemap.resources.select do |r|
+      r.url.match /^\/#{dir}\/[^\/]+(\/)?$/
+    end
+  end
+
   # Returns all pages under a certain directory.
   def sub_pages(dir)
     sitemap.resources.select do |r|
@@ -25,7 +31,12 @@ module MyHelpers
     current_path = current_page.url
     current_path.slice! -1 if current_page.url.end_with?('/')
     path.slice! -1 if path.end_with?('/')
-    current_path.start_with? path
+    pathArray = path.split '/'
+    currentArray = current_path.split '/'
+
+    (0..pathArray.length - 1).reduce(true) do |acc, i|
+      acc and pathArray[i] == currentArray[i]
+    end
   end
 
   # Add active class if needed
@@ -57,6 +68,7 @@ module MyHelpers
     end
   end
 
+
   # Order the children of a given resource according
   # to dir.ordered and if not alphabetically
   def ordered(resource)
@@ -64,6 +76,10 @@ module MyHelpers
     children = resource.children
     dir = resource.url
 
+    ordered_simple(children, dir)
+  end
+
+  def ordered_simple(children, dir)
     # Strip / from dir
     dir = dir[1..-1] if dir[0] == "/"
     dir = dir[0..-2] if dir[-1] == "/"
@@ -81,6 +97,5 @@ module MyHelpers
       # If it doesn't exists sort by the title
       children.sort_by { |c| c.data.title.downcase }
     end
-
   end
 end

@@ -1,46 +1,22 @@
 ---
-title: Documentation - Codio
-layout: layout-new
+title: Documentation
+layout: layout
 ---
 
-<main>
-  <section class="header">
-    <div class="container">
-      <h1>Documentation</h1>
-      <form id="search-input">
-        <%= image_tag "icons/search_icon.png" %>
-        <input type="text" placeholder="Search" id="st-search-input" class="st-search-input" />
-      </form>
-    </div>
-  </section>
+<div class="header-block">
+  <h2>How can we help you?</h2>
+  <div class="search-container">
+    <form id="search-input">
+      <input type="text" placeholder="Search for a specific question or topic ..." id="st-search-input" class="st-search-input" />
+    </form>
+  </div>
+</div>
 
-  <section class="container">
-    <% ordered(current_resource).each do |resource| %>
-      <div class="docs-section">
-        <div>
-          <div class="icon">
-            <span></span>
-            <%= image_tag "new/lg/docs_#{resource.data.title.gsub(' ', '-').downcase}_lg.png" %>
-          </div>
-          <h2><%= link_to resource.data.title, resource.url %></h2>
-        </div>
-
-        <div class="links">
-          <% mid = (resource.children.length / 2.to_f).ceil %>
-          <div class="first">
-            <% ordered(resource)[0..mid-1].each do |child| %>
-              <%= link_to child.data.title, child.url %>
-            <% end %>
-          </div>
-          <div class="second">
-            <% ordered(resource)[mid..-1].each do |child| %>
-              <%= link_to child.data.title, child.url %>
-            <% end %>
-          </div>
-        </div>
-      </div>
-    <% end %>
-  </section>
-</main>
-
-<%= partial "vendors/swiftype" %>
+<div class="overview-section">
+  <div class="docs-header-navigation-container">
+    <h2>Or choose a topic</h2>
+    <%= partial "docs-header-navigation" %>
+  </div>
+  <div class="search-results" id="st-results-container">
+  </div>
+</div>

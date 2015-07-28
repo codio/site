@@ -105,6 +105,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'img'
 set :partials_dir, 'partials'
 
+set :intercom_id, ENV["M_INTERCOM_ID"] || "hzz6oifn"
 
 
 # Build-specific configuration

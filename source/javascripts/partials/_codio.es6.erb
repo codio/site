@@ -16,8 +16,8 @@ function bootIntercom (user) {
 
   if (user && user.details) {
     createdAt = user.details.created_at
-    createdAt = (createdAt) ? Math.round(createdAt / 1000) : undefined
-    createdAt = (isNaN(createdAt)) ? undefined : createdAt
+    createdAt = createdAt ? Math.round(createdAt / 1000) : undefined
+    createdAt = isNaN(createdAt) ? undefined : createdAt
 
     email = user.details.email
     account = user.account
@@ -27,7 +27,10 @@ function bootIntercom (user) {
     app_id: '<%= intercom_id %>',
     email: email,
     user_id: account,
-    created_at: createdAt
+    created_at: createdAt,
+    widget: {
+      activator: '#IntercomDefaultWidget'
+    }
   })
 }
 

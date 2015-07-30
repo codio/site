@@ -22,12 +22,12 @@ body.index .header-block {
   position: relative;
 
   @include breakpoint($break-tablet) {
-    background: url('/img/assets/index/atf.png') no-repeat top center fixed;
+    background: url('/img/assets/index/atf.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
   }
 
   @include breakpoint($max-width) {
-    background: url('/img/assets/index/atf-large.png') no-repeat top center fixed;
+    background: url('/img/assets/index/atf-large.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
   }
 

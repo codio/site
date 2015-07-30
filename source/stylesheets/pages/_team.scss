@@ -11,12 +11,12 @@ body.about_index .header-block {
   height: 500px;
 
   @include breakpoint($break-tablet) {
-    background: url('/img/assets/team/atf.png') no-repeat top center fixed;
+    background: url('/img/assets/team/atf.jpg') no-repeat top center fixed;
     height: 485px;
   }
 
   @include breakpoint($max-width) {
-    background: url('/img/assets/team/atf-large.png') no-repeat top center fixed;
+    background: url('/img/assets/team/atf-large.jpg') no-repeat top center fixed;
     height: 600px;
   }
 

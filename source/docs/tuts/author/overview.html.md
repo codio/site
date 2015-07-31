@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "Editor overview"
 class_name: docs
 full_width: true
 ---

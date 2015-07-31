@@ -108,6 +108,8 @@ set :partials_dir, 'partials'
 set :intercom_id, ENV["M_INTERCOM_ID"] || "hzz6oifn"
 
 
+set :asset_host, ENV["M_ASSET_HOST"] || "http://localhost:4567"
+
 # Build-specific configuration
 configure :build do
   # Minification and Compression

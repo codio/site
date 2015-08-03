@@ -17,6 +17,9 @@ You can rename your section by clicking on the section title in the header area.
 ##Writing Guide content
 You can then start writing your content in the main content area.
 
+## Cheat Sheet
+We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more information on importing.
+
 ##Markdown
 For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 

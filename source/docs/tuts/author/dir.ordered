@@ -10,6 +10,9 @@ delete-section
 layouts
 auto-open
 inline
+hide-folder
+chapter
+lexikon
 button
 technical
 play

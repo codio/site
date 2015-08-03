@@ -20,7 +20,7 @@ Having selected the Course, you will be shown a list of Modules. Enable the 'Edi
 ![Units Add](/img/docs/module_add.png)
 
 ## Adding a Unit
-Please read the next section [Adding a Unit]() for details.
+Please read the next section [Adding a Unit](/docs/tuts/publish/unit-add) for details.
 
 ## Searching for Modules
 The Module browser will open for you to search for the module(s) you wish to add. 

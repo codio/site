@@ -1,5 +1,5 @@
 ---
-title: "Author"
+title: "Authoring"
 description: "Learn how to author & publish your own content"
 class_name: docs
 full_width: true

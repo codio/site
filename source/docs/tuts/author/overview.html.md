@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+[IAN - in the bullet links below, please make apprporiate links to detail pages]
+
 A Codio project can have a single Guide. Within that Guide you can have as many sections as you like.
 
 To create a new Guide, or to edit an existing one, go to the 'Tools->Edit Guide' menu option.

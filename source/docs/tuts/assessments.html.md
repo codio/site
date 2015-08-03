@@ -5,7 +5,7 @@ class_name: docs
 full_width: true
 ---
 
-[IMAGE SHOWING LIST OF ASSESSMENT TYPES]
+[IMAGE SHOWING LIST OF ASSESSMENT TYPES ONCE ALL 3 ARE PRESENT]
 
 Assessments are an extremely helpful accompaniment to tutorial content.
 
@@ -18,5 +18,5 @@ Assessments are an extremely helpful accompaniment to tutorial content.
 
 Each content author can choose to weave assessments into the tutorial materials or to create Units that are dedicated to assessments.
 
-Authoring assessments is easily done using the Guides editor. [Click here]() for details in the Authoring section on how to create assessments.
+Authoring assessments is easily done using the Guides editor. [Click here](/docs/tuts/author/assessments-overview) for details in the Authoring section on how to create assessments.
 

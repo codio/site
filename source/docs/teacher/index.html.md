@@ -1,6 +1,6 @@
 ---
 title: "Teacher"
-description: "A quick start guide for teachers"
+description: "Essentials on getting up and running in the classroom"
 class_name: docs
 full_width: true
 ---
@@ -12,4 +12,3 @@ The Dashboard is the first screen you see when you sign in. You will see all you
 ![Projects List](/img/docs/projects_list.png)
 
 This also contains the main navigation options.
-

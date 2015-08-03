@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Codio Guides has support for Dyslexic users where they can change the [Play Mode](/docs/ide/tools/guides/play/) theme to use a special Dyslexic font. Thanks to [http://opendyslexic.org/](http://opendyslexic.org/)
+Codio Guides has support for Dyslexic users where they can change the [Play Mode](/docs/tuts/author/play/) theme to use a special Dyslexic font. Thanks to [http://opendyslexic.org/](http://opendyslexic.org/)
 
 ![](/img/docs/guides/dyslexia.png)
 

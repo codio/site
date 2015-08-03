@@ -1,8 +1,10 @@
 ---
-title: "Overview"
+title: "Editor overview"
 class_name: docs
 full_width: true
 ---
+
+[IAN - in the bullet links below, please make apprporiate links to detail pages]
 
 A Codio project can have a single Guide. Within that Guide you can have as many sections as you like.
 

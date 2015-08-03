@@ -1,6 +1,6 @@
 ---
-title: "Tutorial Content"
-description: "Authoring & publishing tutorials"
+title: "Author"
+description: "Learn how to author & publish your own content"
 class_name: docs
 full_width: true
 ---
@@ -18,4 +18,3 @@ Creating tutorials in Codio offers a completely different experience to regular 
 The main aim of a Codio tutorial is to provide a totally new type of teaching and learning experience and one that elegantly combines theory and practice.
 
 Read on to find out how to author your own teaching content and how to make best use of the Codio Guides authoring tools.
-

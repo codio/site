@@ -5,6 +5,5 @@ class_name: docs
 full_width: true
 ---
 
-The `Courses` menu item can be found in the left menu area of the Codio dashboard beneath the 'Classes' menu item.
+Once you have created a Guides based Codio project and are ready to publish it, you should read this section.
 
-Courses are a way to group and order [Modules](/docs/dashboard/modules/) into a coherent course and you can also access courses when creating [Classes](/docs/dashboard/classes/).

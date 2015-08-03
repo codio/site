@@ -1,20 +1,26 @@
 ---
-title: Adding a Module
+title: Adding a Course/Module
 class_name: docs
 full_width: true
 ---
 
+## Adding a Course
+You can add a Course from the main Course listing screen by pressing the New Course button at the top right of the screen.
 
-Only Course owners or those with administration permissions for the course can add modules. Please refer to the [Create a new Course](/docs/dashboard/courses/course-create/) section for information on permissions and collaborators.
+## Adding a Module
+Any user can create their own Modules by pressing the New Module button in the top right of the Modules screen. 
 
-A Module is a group of Codio projects, each of which contains
+However, if you want to add a Module to a Course owned by someone else then
 
-- a code workspace and files
-- a [Codio Guide](/docs/dashboard/modules/guides)
+1. The Course/Module needs to have the Owner set to be an Organization that you are a member of.
+1. At the Organization level, you need to be an Owner within that Organization.
 
-Having created the course, select it and then the 'Modules' tab. Enable the 'Edit Modules' toggle button and then press the `Add Module` button to add a new module.
+Having selected the Course, you will be shown a list of Modules. Enable the 'Edit Modules' toggle button and then press the `Add Module` button to add a new module.
 
 ![Units Add](/img/docs/module_add.png)
+
+## Adding a Unit
+Please read the next section [Adding a Unit]() for details.
 
 ## Searching for Modules
 The Module browser will open for you to search for the module(s) you wish to add. 

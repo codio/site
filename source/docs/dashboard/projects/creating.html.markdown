@@ -17,9 +17,11 @@ Select a commonly used Stack:
 - **Python3:** Python3 Stack with no code workspace
 - **Codio Base Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
 
-or 
+or click on the **'Click here....'** to import or select an alternative software configuration:
 
-To select an alternative software configuration where you can select from other [Stacks](/docs/dashboard/stacks/), [Starter Packs](/docs/dashboard/stacks/)  or import code in from Git, Mercurial, FTP, SFTP or from a Zip file, click on the 'Click here....' to then see: 
+- **[Empty with Stack](/docs/dashboard/stacks/)**
+- **[Starter Pack](/docs/dashboard/stacks/)**
+- **Import** where you can import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file
 
 ![Import Project](/img/docs/project_create_other.png)
 

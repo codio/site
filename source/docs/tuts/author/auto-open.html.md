@@ -6,47 +6,40 @@ full_width: true
 
 You can automatically perform any of the following actions when a section is shown
 
-- Control the visibily of folders in the tutorial
-- Open files
-- Open a Preview (including external websites)
-- Open a Terminal window (including running terminal command in the background)
-- Highlight lines you wish to highlight within each file
-- Close all open tabs from the previous section
+- Close all open tabs from the previous section.
+- Open files.
+- Open a Preview (including external websites).
+- Open a Terminal window (including running terminal command in the background).
+- Highlight lines you wish to highlight within each file.
 
-
-##Page - Step Path
-If your tutorial has multiple folders, you may wish to show certain folders in your section(s) to avoid confusion.
-
-To show specific folder(s), enter the folder name(s) into the step path field to show that folder and any content (Multiple folders can be shown separated by `;` ie `folder1;folder2`).
-
-All folders will be hidden other than those entered in the step path field.  If not used in a section, the same folder(s) as specified in the previous section will be shown to save you having to manually set it each time.
 
 ##Page - Close Tabs
 Enable this to close all tabs open from the previous section
 
+<img alt="authtoken" src="/img/docs/guides/page.png" class="simple"/>
+
 ##Open Tabs
-Windows can be opened automatically to present the tab configuration you feel is most appropriate for the reader.
 
 <img alt="authtoken" src="/img/docs/guides/guide_files.png" class="simple"/>
 
-The Add button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
+Windows can be opened automatically to present the tab configuration you feel is most appropriate for the reader.
+
+The 'Add Tab' button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
 
 ##Opening Files
-To open files select the 'File' type and enter the file name(s)
+To open files select the 'File' type and enter the file name(s), including the path to the file if not in the root of the project.
 
 <img alt="authtoken" src="/img/docs/guides/type_file.png" class="simple"/>
-```
-index.html, main.css
-```
+
+To open multiple files in the same pane enter as
+`index.html, main.css`
 ##Previewing
 To preview your project select the 'Preview' Type. If you wish to show an external website page, the preview type supports this.
 
 <img alt="authtoken" src="/img/docs/guides/type_preview.png" class="simple"/>
-```
- https://codio.com
-```
+`https://codio.com`
 
-Please note, if the site you want to preview prevents embedding in an iframe then you won't be able to use `https` addresses, you would have to use `http` addresses instead although this can only open up in an external browser tab
+Please note, if the site you want to preview prevents embedding in an iframe then you won't be able to use `https` addresses, you would have to use an `http` address instead although this can only open up in an external browser tab.
 
 ##Opening Terminal and running system commands
 To open a Terminal window select 'Terminal' Type.  
@@ -54,9 +47,7 @@ To open a Terminal window select 'Terminal' Type.
 You can also specify a terminal command to run when a section is displayed. For example, your Guide may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a Guide is running) at a certain point in your Guide.
 
 <img alt="authtoken" src="/img/docs/guides/type_terminal.png" class="simple"/>
-```
-bash .guides/restore-sh prettier
-```
+`bash .guides/restore-sh prettier`
 
 You can also specify system commands in a new Terminal window like this
 
@@ -80,7 +71,7 @@ Any combinations are acceptable and they will be opened in the order specified.
 
 
 ##Specifying a panel
-If your [layout](/docs/ide/tools/guides/layouts) for this page involves multiple panels, then you can also specify the panel number to display the file in.
+If your [layout](/docs/tuts/author/layouts) for this page involves multiple panels, then you can also specify the panel number to display the file in.
 
 <img alt="authtoken" src="/img/docs/guides/panel.png" class="simple"/>
 

@@ -21,6 +21,6 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
 ## Once chance only!!
 Codio allows users to make their selections and move on to other content pages or assessments without actually submitting their answer. However, once the amswer has been submitted, it cannot be resubmitted. We believe that this gives teachers a far clearer understanding of which students are understanding the materials properly. There is little point to tests if the student simple changes the answers until the correct one appears.
 
-However, once the answer has been submitted, the student is told whether they have the right answer or not. If not, then they are shown the correct answer. We will soon introduce an additional feature that allows the author to not show answers at all, which makes it more suitable for more formal tests where students don't know until later how they did and which are the correct answers.
+However, once the answer has been submitted, the student is told whether they have the right answer or not. If not, then they are shown the correct answer. We will soon introduce an additional feature that allows the author to not show answers at all, which makes it more suitable for more formal tests where students don't know until later how they did and which were the correct answers.
 
 

@@ -6,7 +6,7 @@ full_width: true
 
 All your guides content is stored in the `content` folder in the `.guides` folder.
 
-**Important :** do not edit your files form this folder. Always use the Guide editor. If you mess things up by editing files directly, then you may have a tough job getting it back on its feet again.
+> **Important :** do not edit your files from this folder. Always use the Guide editor. If you mess things up by editing files directly, then you may have a tough job getting it back on its feet again.
 
 ##Images
 It is recommended that you place your images in the `.guides/img` folder, although you don't have to.

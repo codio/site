@@ -32,7 +32,7 @@ We strongly recommend you take advantage of this feature. Chapters serve two pur
 ## Use the Hidden Folder feature
 Your content will often want to show code samples. Codio's recommended approach is to put each set of code samples into a dedicated folder. Then, using the page settings, you can specify this folder with the consequence that all non-specified folders are hidden from view in the file tree (if you choose to show it).
 
-The benefit of hiding folders is that the student is not distracted by folders and files that are not relevant to the topic your are explaining.
+The benefit of hiding folders is that the student is not distracted by folders and files that are not relevant to the topic you are explaining.
 
 [Click here](/docs/tuts/author/hide-folder) for more details on folder hiding.
 
@@ -42,11 +42,11 @@ Codio offers a range of assessment types that let you create tests in one of two
 1. Woven into your tutorial content at strategic points.
 1. Create a Unit with a lot of assessments that can be used as end of topic or term/semester exams, especially useful in class scnearios.
 
-When used as a part of tuturial content, assessments are a very important way of giving students challenges and excercises that help internalize what they have been learning. We recommend that you make heavy use of assessments.
+When used as a part of tutorial content, assessments are a very important way of giving students challenges and excercises that help internalize what they have been learning. We recommend that you make heavy use of assessments.
 
 When used in a class situation, assessments are extremely helpful to the teacher as all assessment results are fed automatically through to the teacher class dashboard, allowing them to monitor students' progress across a Course.
 
-Many of Codio's assessment types (code tests, multiple choice questions, text fill in the blank and list-based fill in the blank) are auto marked, saving teachers considerable amounts of time and also giving students instant feedback on the correct answers.
+Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto marked, saving teachers considerable amounts of time and also giving students instant feedback on the correct answers.
 
 [Click here](/docs/tuts/author/assessments-overview) for more on creating assessments.
 
@@ -59,10 +59,10 @@ The Guide editor lets you create different panel layouts for your tutorial conte
 There are some things that are a bit tricky when writing your content. Being aware of these will help avoid frustration and speed up productivity.
 
 ### Authoring with the filetreee
-In the early stages of development, show the filetree in your layout settings even if you don't want to have it in your final version. If you don't you will that the switching between edit and play mode causes the panels to shift and you will need to reset manually when resuming editing, which can be frustrating. The best thing is to use the filetree until you are close to publishing your content, then remove the filetree.
+In the early stages of development, show the filetree in your layout settings even if you don't want to have it in your final version. If you don't you will find that the switching between edit and play mode causes the panels to shift and you will need to reset manually when resuming editing, which can be frustrating. The best thing is to use the filetree until you are close to publishing your content, then remove the filetree.
 
 ### Use the Previous panel layout setting
-As mentioned above, when authoring content it makes sense to always leave the file tree visible until you are ready to test the final layout. The easiest approach is to only set the panel layout setting on hte ifrst page (or as few pages as strictly needed). The 'Previous' layout setting simple uses the layout setting that was used on the previous page, so you only need to make this change once rather than on all pages.
+As mentioned above, when authoring content it makes sense to always leave the file tree visible until you are ready to test the final layout. The easiest approach is to only set the panel layout setting on the first page (or as few pages as strictly needed). The 'Previous' layout setting simple uses the layout setting that was used on the previous page, so you only need to make this change once rather than on all pages.
 
 ### Testing Reset Chapter
 The [Reset Chapter](/docs/tuts/author/chapter) feature is a great way for students to reset any chapter to its initial state after hacking sample code around. Currently, it is not possible for the author to use this feature as it only works when it is used by a Student within a Class.

@@ -13,15 +13,16 @@ You can then choose which of the following Project creation methods you want to 
 Select a commonly used Stack:
 
 
-- **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace
-- **Python3:** Python3 Stack with no code workspace
-- **Codio Base Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
+- **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace.
+- **Python3:** Python3 Stack with no code workspace.
+- **Codio Base Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects).
 
 or click on the **'Click here....'** to import or select an alternative software configuration:
 
-- **[Empty with Stack](/docs/dashboard/stacks/)**
-- **[Starter Pack](/docs/dashboard/stacks/)**
-- **Import** where you can import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file
+- **[Empty with Stack](/docs/dashboard/stacks/)** which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
+- **[Starter Pack](/docs/dashboard/packs/)** which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
+- **Import** where you can import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.
+- If you are a student, you can also check out [Modules](/docs/dashboard/modules/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/tuts/), giving you on-screen instructions while you code.
 
 ![Import Project](/img/docs/project_create_other.png)
 

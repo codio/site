@@ -19,6 +19,10 @@ Flow is a simple but powerful flowcharting tool integrated right into Codio.
 The Codio Lexikon is an integrated help system that lets users lookup information quickly and easily as new topics are learned without having to trawl the web.
 [Click here for details](/docs/tuts/lexikon)
 
+## Tkinter
+For teachers wanting to teach UI building with Python (please note that OCR GCSE does not require this) this gives you the tools to build and run Tkinter UIs in the Cloud.
+[Click here for details](/docs/teacher/special/tkinter)
+
 ## Boxes
 Each Codio project gets its own 'Box', which is a dedicated server that runs in the Cloud. There are no security issues for you or your Network Administrator to worry about and it gives students incredible freedom to build whatever coding projects they like.
 [Click here for details](/docs/teacher/special/boxes)
@@ -30,7 +34,5 @@ Each Codio project gets its own 'Box', which is a dedicated server that runs in 
 **Starter Packs** allow you to preconfigure not just the Stack but also any 'starting point code' so your students can start off at whatever point you want them to.
 [Click here for details](/docs/teacher/special/packs)
 
-## Tkinter
-For teachers wanting to teach UI building with Python (please note that OCR GCSE does not require this) this gives you the tools to build and run Tkinter UIs in the Cloud.
-[Click here for details](/docs/teacher/special/tkinter)
+
 

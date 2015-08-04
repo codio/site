@@ -25,15 +25,15 @@ For those of you not familiar with Markdown, it is an extremely easy way of writ
 
 When in Play Mode, your content is rendered beautifully and you can even override the default CSS styling.
 
-You can also insert [images, videos and hyperlinks](/docs/ide/tools/guides/imvid).
+You can also insert [images, videos and hyperlinks](/docs/tuts/author/imvid).
 
 
-We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more infomation on importing.
+We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more information on importing.
 
 Here is a summary of the Markdown formatting codes
 
 ##Headers/Titles
-To display a header or title, you can use the `#` character at the start of the line. The more `#` characters you add, the bigger the font.
+To display a header or title, you can use the `#` character at the start of the line. The more `#` characters you add, the smaller the font.
 
 ```markdown
 # Big title
@@ -73,13 +73,13 @@ To create a numbered list, you start the line with a `1.`. The numbers are autom
 ##Code Blocks
 If you want to show some code, styled with the Courier Font, in a box and with syntax rules applied
 
+
 ```js
 var i;
 for(i = 0; i < 10; i++) {
    document.write(i);
 }
 ```
-
 
 Note that you can specify a language type after the top 3 backticks. There are a lot of different languages supported. These are pretty intuitive for most languages but you can [see a full list of supported languages here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml). You should search for your language and then use the `alias` shown.
 
@@ -92,7 +92,7 @@ We can define a variable `var x;` as shown
 
 
 ##Indented Lists
-If I want to indent a list, then indent just 2 spaces and it will indent.
+If you want to indent a list, then indent just 2 spaces and it will indent.
 
 ```markdown
   - Bullet 1
@@ -127,7 +127,7 @@ The `Guidance` callout block is only visible in Play mode to members of the Teac
 Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to see all the options.
 
 ##Hyperlinks, Images, Videos & iframes
-We describe this in [this section](/docs/ide/tools/guides/imvid).
+We describe this in [this section](/docs/tuts/author/imvid).
 
 ##HTML
 You can include HTML tags
@@ -148,4 +148,4 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ##Guides Cheat Sheet
 
-Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more infomation on importing.
+Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more information on importing.

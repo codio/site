@@ -9,7 +9,7 @@ Codio lets you create your own coding projects independent of formal Coursework.
 
 A Box is a virtual computer in the Cloud. You can do whatever you like with this box. Here are a few links to things you can do. Don't feel you have to master all of these things, but it is useful to know what Codio offers.
 
-- Comprehensive [code editing](/docs/ide/editing/)
+- Comprehensive [code editing](/docs/ide/editing/).
 - [Installing software](/docs/ide/boxes/installsw/), such as programming languages, databases, tools and libraries.
 - Access the Box's [terminal](/docs/ide/boxes/terminal/).
 - [Run](/docs/ide/boxes/runmenu/) your code.
@@ -35,15 +35,12 @@ You can then choose which of the following Project creation methods you want to 
 
 Select a commonly used Stack:
 
-- **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace
-- **Python3:** Python3 Stack with no code workspace
-- **Codio Base Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects)
+- **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace.
+- **Python3:** Python3 Stack with no code workspace.
+- **Codio Base Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects).
 
-or
+or click on the **'Click here....'** to import or select an alternative software configuration:
 
-Select an alternative software configuration where you can:
-
-- Select a [Stack](/docs/teacher/stacks/) which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
-- Or a [Starter Pack](/docs/teacher/packs/) which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
-- Or import code in from Git, Mercurial, FTP, SFTP or a Zip file.
-- If you are a student, you can also check out [Courses](/docs/teacher/modules/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/tuts/), giving you on-screen instructions while you code.
+- **[Empty with Stack](/docs/dashboard/stacks/)** which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
+- **[Starter Pack](/docs/dashboard/packs/)** which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
+- **Import** where you can import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.

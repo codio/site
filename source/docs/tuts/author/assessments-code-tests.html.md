@@ -48,7 +48,7 @@ You can return plain text but if you want to format your response text, you can 
 If your test return 0, then Codio will give a dashboard score specified in the Points field. If it return a non-zero value, then a score of 0 is assumed.
 
 ## Inputs and Outputs to student code
-If your assessment requires that inputs and passed into the student code or data should be returned from the student code, then it is entirely up to you how to implement this. You should make it clear how the student should process your test's inputs and how to return data back to your test.
+If your assessment requires that inputs are passed into the student code or data should be returned from the student code, then it is entirely up to you how to implement this. You should make it clear how the student should process your test's inputs and how to return data back to your test.
 
 
 

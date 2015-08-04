@@ -12,7 +12,7 @@ We strongly recommend you take advantage of this feature. Chapters serve two pur
 ## Seeing Chapters
 You can see which Chapters are defined by opening up the table of contents. You can see that each Chapter is bold and sections within each Chapter are numbered accordingly.
 
-[IMAGE]
+<img alt="authtoken" src="/img/docs/guides/chapter.png" class="simple"/>
 
 ## Defining Chapters
 To define a chapter, you should first select a page in the editor. Next, press the Settings buttons. The Page tab should already be selected.
@@ -22,7 +22,7 @@ To set this page as the start of a new chapter, enable the 'Set section as chapt
 ## Reset Chapter
 The Reset Chapter feature is a great way for students to reset any chapter to its initial state after hacking sample code around. Students can reset the chapter from the menu as shown below.
 
-[IMAGE]
+<img alt="authtoken" src="/img/docs/guides/reset.png" class="simple"/>
 
 You can specify which folder or folders should be restored when the student selects this option. All folders specified within the Reset List field are then restored from the master copy of the Unit.
 

@@ -11,7 +11,7 @@ You can access the Lexikon at any time from within a coding project or tutorial 
 
 The Lexikon is organized into Topics. We currently have added Javascript, HTML, CSS, Python, Linux and Crunch. However, we can easily add coverage for any other Topic. If you are interested in additional topics, please email support@codio.com.
 
-[IMAGE]
+![Lexicon](/img/docs/lexicon.png)
 
 ## Content Authors : using the Lexikon with Guides
 Tutorial authors, who wish to make accessing the Lexikon content even easier, we have a [Global Option in the Guides settings](/docs/tuts/author/lexikon) that lets you specify the default topic to select. 

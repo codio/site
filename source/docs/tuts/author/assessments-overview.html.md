@@ -8,19 +8,19 @@ Assessments are an extremely helpful accompaniment to tutorial content.
 
 - They allow a student or a teacher to assess how well they are grasping the subject matter
 - Many assessment types are automatically graded, saving precious time for teachers and giving students instant feedback
-- A wide range of assessment types (automatic code tests, multiple choice tests, fill in the blanks, drop-down selection fill in the blanks, free text responses and prohect grading) allow the broadest possible measurement of a student's progress
+- A wide range of assessment types (automatic code tests, multiple choice tests, fill in the blanks, drop-down selection, free text responses and project grading) allow the broadest possible measurement of a student's progress
 - In classroom scenarios, all assessment responses feed through to a teacher dashboard
-- Each individual assessment can only be answered once, given a true reflection of understanding rather than being able to carry on answering until the correct answer is achieved
+- Each individual assessment can only be answered once, giving a true reflection of understanding rather than being able to carry on answering until the correct answer is achieved
 - When an answer is submitted, the correct answer is shown to the student
 
 Each content author can choose to weave assessments into the tutorial materials or to create Units that are dedicated to assessments.
 
-Authoring assessments is easily done using the Guides editor. [Click here]() for details in the Authoring section on how to create assessments.
+Authoring assessments is easily done using the Guides editor.
 
 ## Adding a new assessment
 To add a new assessment, you should first position the cursor in your content where you want it to appear. Then, from the assessments drop-down, select the type of assessment you wish to insert.
 
-[IMAGE]
+![](/img/docs/guides/add_assessment.png)
 
 ## Editing an existing assessment
 If you want to edit an existing assessment, you can choose either of the following options

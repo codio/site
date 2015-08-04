@@ -7,6 +7,11 @@ full_width: true
 
 Crunch is a modern, full-featured alternative to Little Man Computer. It is testament to Little Man Computer that it is still being used many years later. We have taken inspiration from it and given it a modern feel and a more complete instruction set that allows you to focus on thinking about your algorithm rather than having to learn the syntax.
 
+## Crunch Course
+We have built a 3 Unit Course that combines teaching materials with over 20 challenges of gradually increasing complexity. This is a great resource for teachers wanting to teach the basics of Assembly Language programming as well as computational thinking. 
+
+From the Dashboard, go to Courses and then look for either Crunch or Schools Computing Curriculum (Crunch is a module within this course).
+
 ## Lexikon
 We recommend you use Codio's Lexikon feature to get inline help on Crunch usage and commands. You can find the Lexikon in the Tools menu. Once it appears, select the dropdown list on the right side and select Crunch. You can then search for commands. Try entering 'Overview' in the search box for an overview of all the Crunch commands.
 

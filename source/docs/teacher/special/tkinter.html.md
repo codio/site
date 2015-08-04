@@ -5,7 +5,9 @@ class_name: docs
 full_width: true
 ---
 
-There are a number of teachers who use the tkinter UI library for Python. Tkinter normally relies on a local PC with a graphics card. Codio, being Cloud based, does not not have graphics cards. Nevertheless, we have found a way to make it work.
+> **Important:** Tkinter is used to build User Interfaces for Python development. For those following the OCR GCSE, this is not a requirement. For more advanced students, OCR and Codio recommend that you use HTML, CSS and Javascript for building modern front-end UIs that have far superior workplace relevance than Python+Tkinter.
+
+There are a number of teachers who use the Tkinter UI library for Python. Tkinter normally relies on a local PC with a graphics card. Codio, being Cloud based, does not not have graphics cards. Nevertheless, we have implemented a fully functional solution that works within a browser and in the Cloud.
 
 This page describes the various ways you can get Tkinter up and running.
 

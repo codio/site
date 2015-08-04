@@ -15,6 +15,10 @@ Crunch is a modern replacement for Little Man Computer. Fully integrated into Co
 Flow is a simple but powerful flowcharting tool integrated right into Codio.
 [Click here for details](/docs/teacher/special/flow)
 
+## Lexikon
+The Codio Lexikon is an integrated help system that lets users lookup information quickly and easily as new topics are learned without having to trawl the web.
+[Click here for details](/docs/tuts/lexikon)
+
 ## Boxes
 Each Codio project gets its own 'Box', which is a dedicated server that runs in the Cloud. There are no security issues for you or your Network Administrator to worry about and it gives students incredible freedom to build whatever coding projects they like.
 [Click here for details](/docs/teacher/special/boxes)

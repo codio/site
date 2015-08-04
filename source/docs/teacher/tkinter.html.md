@@ -9,8 +9,8 @@ There are a number of teachers who use the tkinter UI library for Python. Tkinte
 
 This page describes the various ways you can get Tkinter up and running.
 
-- **Starter Pack : Widgets** - gives you a set of demo widgets you can play with.
 - **Starter Pack : Clean** - gives you a clean Tkinter project with preconfigured menu buttons for running your Python file and the viewer.
+- **Starter Pack : Widgets** - gives you a set of demo widgets you can play with.
 - **Stack** - gives you an empty project with tkinter ready to run.
 - **From scratch** - describes how to make any existing Codio project ready to run Tkinter that was not initially set up to run Tkinter.
 

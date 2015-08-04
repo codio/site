@@ -17,7 +17,7 @@ A Box is a virtual computer in the Cloud. You can do whatever you like with this
 - Use a preconfigured [Starter Pack](/docs/dashboard/packs/). This is a Box fully configured with both pre-installed software as well as starting point code.
 - [Deploy](/docs/ide/tools/deployment/) code to external sites and servers.
 - Each Box comes with the following software installed automatically : [git](/docs/ide/editing/git/), c, java, NodeJS, Ruby and many other useful tools. You don't need to know about any of this but it is good to know for more advanced students.
-- There are many very powerful features in Codio, so feel free to browse the [Boxes](/docs/ide/boxes/) and [IDE](/docs/ide/) documentation.
+- There are many very powerful features in Codio, so feel free to browse the [IDE](/docs/ide/) documentation.
 
 ## Creating a new Project
 The first thing you will want to do is to create a new Project and try some coding. Check out the options below and why not start off by using a Starter Pack (see below)?
@@ -46,4 +46,4 @@ Select an alternative software configuration where you can:
 - Select a [Stack](/docs/teacher/stacks/) which allows you to select your software dependencies from a list of Codio Certified Stacks or from Stacks that you have created earlier yourself.
 - Or a [Starter Pack](/docs/teacher/packs/) which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
 - Or import code in from Git, Mercurial, FTP, SFTP or a Zip file.
-- If you are a student, you can also check out [Modules](/docs/teacher/modules/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/ide/tools/guides/), giving you on-screen instructions while you code.
+- If you are a student, you can also check out [Courses](/docs/teacher/modules/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/tuts/), giving you on-screen instructions while you code.

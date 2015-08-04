@@ -12,8 +12,8 @@ As Computing and Computer Science take an increasingly prominent role in educati
 Codio solves these problems and delivers breakthrough benefits for schools in the following ways:
 
 -	As a cloud platform, students can access their code from anywhere using just a browser.  Use school machines in the classroom, bring your own device, and continue on your personal machine for homework and modulework assignments.
--	We’ve collaborated with leading UK exam board – OCR (Oxford, Cambridge & RSA) to bring you curriculum-based teaching content integrated within the Codio platform using Codio’s [Guides](/docs/ide/tools/guides/) authoring and publishing tools.
--	Codio’s school licences are inclusive of teaching content found in the [Modules](/docs/dashboard/modules/) menu under “Recommended”.  Teachers can also create their own Module content, again using Codio’s [Guides](/docs/ide/tools/guides/) authoring and publishing tool.
+-	We’ve collaborated with leading UK exam board – OCR (Oxford, Cambridge & RSA) to bring you curriculum-based teaching content integrated within the Codio platform using Codio’s [Guides](/docs/tuts/) authoring and publishing tools.
+-	Codio’s school licences are inclusive of teaching content found in the [Modules](/docs/dashboard/modules/) menu under “Recommended”.  Teachers can also create their own Module content, again using Codio’s [Guides](/docs/tuts/) authoring and publishing tool.
 -	The teaching content sits alongside the student workspace and the preview window creating a step change in student engagement and allowing the teacher to play a far more facilitative, coaching and supporting role.
 -	There is no software to install on classroom machines, nor on student machines, Codio comes pre-configured with all the software languages, frameworks and databases you’ll need.
 -	You can also use Codio [Stacks](/docs/teacher/stacks/) and [Starter Packs](/docs/teacher/packs/) to pre-configure entire environments for learning, including languages, databases, web servers, components and even entire code workspaces.
@@ -39,4 +39,4 @@ You may be required to verify your student status to receive the student pricing
 
 ## Codio Guides
 
-If you are teaching computer science or coding and want to author your own teaching content that runs within the IDE, please take a look at Codio [Guides](/docs/dashboard/courses/). They are easy to create and make for a powerful teaching and learning experience.
+If you are teaching computer science or coding and want to author your own teaching content that runs within the IDE, please take a look at Codio [Guides](/docs/tuts/). They are easy to create and make for a powerful teaching and learning experience.

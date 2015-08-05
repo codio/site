@@ -40,50 +40,64 @@ If you use `cmd` and the command has a `;` character in it, then you should also
 #Examples
 
 Open a file `file.txt`
+
 ```
 [Click here](open_file file.txt)
 ```
 
 Open a file `file.txt` in panel 1
+
 ```
 [Click here](open_file file.txt panel=1)
 ```
 
 Open a file `file.txt` in panel 1, with a code reference and highlight 3 lines
+
 ```
 [Click here](open_file file.txt panel=1 ref="some text in your code" count=3)
 ```
 
 Open files `file.txt` and `file2.txt`
+
 ```
 [Click here](open_files file.txt file2.txt)
 ```
 Open a file `file.txt` and preview of `file.txt` in panel 2
+
 ```
 [Click here](open_file file.txt; open_preview file.txt panel=2)
 ```
 Run a command then open a preview of `file.txt` in panel 2
+
 ```
 [Click here](cmd cp source.txt target.txt; open_preview file.txt panel=2)
 ```
 
 Open a Terminal window in Panel 1
+
 ```
 [Click here](open_terminal panel=2)
 ```
 Close `file.txt` and open a preview `file.txt`
+
 ```
 [Click here](close_file file.txt; open_preview file.txt)
 ```
+
 Close all open files, previews and terminals in all panels, then open a file `file.txt`
+
 ```
 [Click here](close_all; open_file file.txt)
 ```
+
 Close all open files, previews and terminals, then open a file `file.txt`
+
 ```
 [Click here](close_all; open_file file.txt)
 ```
+
 Close all open files, previews and terminals that are in panel 2, then open a file `file.txt`
+
 ```
 [Click here](close_all panel=2; open_file file.txt)
 ```

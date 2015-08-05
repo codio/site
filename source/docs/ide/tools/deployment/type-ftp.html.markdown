@@ -13,6 +13,7 @@ We recommend you set the base path field for remote servers as [described here](
 
 ##Specifying a Port
 If you want to override the default FTP port (21) then you can add the port number to the domain name as shown below
+
 ```
 mydomain.com:1234
 ```

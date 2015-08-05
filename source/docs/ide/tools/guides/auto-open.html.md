@@ -35,13 +35,16 @@ The Add button allows you to create multiple lines into your configuration to ad
 To open files select the 'File' type and enter the file name(s)
 
 <img alt="authtoken" src="/img/docs/guides/type_file.png" class="simple"/>
+
 ```
 index.html, main.css
 ```
+
 ##Previewing
 To preview your project select the 'Preview' Type. If you wish to show an external website page, the preview type supports this.
 
 <img alt="authtoken" src="/img/docs/guides/type_preview.png" class="simple"/>
+
 ```
  https://codio.com
 ```
@@ -49,11 +52,12 @@ To preview your project select the 'Preview' Type. If you wish to show an extern
 Please note, if the site you want to preview prevents embedding in an iframe then you won't be able to use `https` addresses, you would have to use `http` addresses instead although this can only open up in an external browser tab
 
 ##Opening Terminal and running system commands
-To open a Terminal window select 'Terminal' Type.  
+To open a Terminal window select 'Terminal' Type.
 
 You can also specify a terminal command to run when a section is displayed. For example, your Guide may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a Guide is running) at a certain point in your Guide.
 
 <img alt="authtoken" src="/img/docs/guides/type_terminal.png" class="simple"/>
+
 ```
 bash .guides/restore-sh prettier
 ```
@@ -64,7 +68,7 @@ You can also specify system commands in a new Terminal window like this
 
 
 ##Highlighting Lines in your code
-To highlight one or more lines within an auto-opened file, select 'Highlight' type and then  
+To highlight one or more lines within an auto-opened file, select 'Highlight' type and then
 
 1. enter a piece of reference text, contained within your target file, into the 'Reference ...' field
 2. specify the number of lines, from that reference point, you want to highlight

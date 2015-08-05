@@ -6,7 +6,7 @@ full_width: true
 
 You modify permissions by selecting **Permissions** from the **Project** dropdown menu.
 
-![Permissions Dialog](/img/docs/permissions-dlg.png)
+<img alt="authtoken" src="/img/docs/permissions-dlg.png" class="simple"/>
 
 By default:
 

@@ -6,7 +6,7 @@ full_width: true
 
 The SFTP target type allows you to deploy to any SFTP server. You can use a password and/or a public key for authentication.
 
-![sftp dialog](/img/docs/deploy-sftp.png)
+<img alt="authtoken" src="/img/docs/deploy-sftp.png" class="simple"/>
 
 ##Base Path
 We recommend you set the base path field for remote servers as [described here](/docs/ide/tools/deployment/basepath). This will be useful when using the [Preview](/docs/ide/features/inline-preview) feature.

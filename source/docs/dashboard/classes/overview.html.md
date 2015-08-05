@@ -13,7 +13,7 @@ Classes can only be created by members of the Owners group. Groups are managed i
 - A class is a collection of students (Codio users).
 - A class is associated with [Modules](/docs/dashboard/modules/). 
 - A class can contain as many modules as required.
-- Coming Soon: You can assign modules to classes from [Courses](/docs/dashboard/courses/)
+- You can assign modules to classes from [Courses](/docs/tuts/publish/overview/)
 
 ##Classes Listings
 The main Classes screen shows a complete listing of all Classes belonging to any organizations you are a member of.

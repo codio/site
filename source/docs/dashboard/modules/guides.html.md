@@ -12,4 +12,4 @@ Not only can you structure your content into sections, but the Guide can automat
 
 All Module Units require some basic Guide content.
 
-Please refer to the [Guides documentation](/docs/ide/tools/guides/) for full details.
+Please refer to the [Guides documentation](/docs/tuts/author/) for full details.

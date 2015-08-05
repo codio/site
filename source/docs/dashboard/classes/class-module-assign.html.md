@@ -8,11 +8,11 @@ Once your class is set up, your students can start working.
 
 The student can access the modules by going to the the Classes menu item in the dashboard. They can select the appropriate class and then they will see all the modules for that class. 
 
-They can then open up the module to see the untits and from there can then open project in the IDE by pressing the right most icon.
+They can then open up the module to see the units and from there can then open project in the IDE by pressing the 'Start Unit' button.
 
 ![Student Assign](/img/docs/student_assign.png)
 
-This will fork the project into the students Codio account and will also be accessible to them from their Projects list in future.
+This will fork the project into the students Codio account and will also be accessible to them from their Projects list in future. The students will then see 'Open Unit' in the above image.
 
 Teachers are able to see the students who have assigned themselves units in the modules by selecting the Module.
 

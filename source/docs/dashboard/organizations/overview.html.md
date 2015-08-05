@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-If you are working in grouls or are a school, college or university, we recommend you create an Organization. You can request a trial from the [Organisations](/docs/dashboard/organizations/create/) page. 
+If you are working in groups or are a school, college or university, we recommend you create an Organization. Schools/Colleges or Universities can request a trial from the [Organisations](/docs/dashboard/organizations/create/) page. 
 
 Currently, the main advantage of an Organization account is 
 

@@ -17,11 +17,16 @@ Assuming you have a Codio project ready to publish, you should first understand 
 Please read the [Authoring Strategies](/docs/tuts/author/strategies) section first. Ideally, you should also have read the full [Authoring](/docs/tuts/author) section and created your first project with Codio Guides, ready to be turned into a Unit.
 
 ## Course & Module Visibility
-When you create Courses and Modules, they are private by default, which means that only you can see them. In order for others to view them, you will need to grant permissions to others to access them. The following permissions can be granted.
+When you create Courses and Modules, they are private by default and you are the owner, which means that only you can see them. In order for others to view them, you will need to grant permissions to others to access them. The following permissions can be granted.
 
 1. **Private** - only you can see your Course/Modules.
-1. **Private to Organization** - only members of your Organization can see your Course/Modules.
 1. **Public** - all Codio users can see your Course/Modules.
+
+In addition to this, by changing the owner of the Course/Module to your Organisation:
+
+1. A **Private** Course/Module will be visible to, and usable only by members of that Organisation. Additionally, owners of the Organization will be able to edit and administer the course/module.
+1. A **Public** Course/Module will be visible to and usable by all, both inside and outside of your Organization, and it will be shown as belonging to the Organization. Additionally, owners of the Organization will be able to edit and administer the course/module.
+
 
 ## Direct Access vs. Classes
 Having set your permissions, you should be aware of the two main ways others can then access the content.

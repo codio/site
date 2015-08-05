@@ -42,7 +42,7 @@ You can return text to the user that is shown once the test has concluded. Your 
 For success, you might simply return 'Well done!'. For failure, the more information you provide the better so the student ideally has some clear indication why they got it wrong.
 
 You can return plain text but if you want to format your response text, you can return html. To do so, make sure you enclose your html within `<html> </html>` tags.
-</html>
+
 
 ## Dashboard score
 If your test return 0, then Codio will give a dashboard score specified in the Points field. If it return a non-zero value, then a score of 0 is assumed.

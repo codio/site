@@ -7,7 +7,7 @@ full_width: true
 Codio support both single and multiple response versions of MCQs.
 
 ## Assessment definition
-Setting up a Code Test within the Guide editor is very simple. As you can see from the screenshot below, you should specify the following details
+Setting up a Multiple Choice assessment within the Guide editor is very simple. As you can see from the screenshot below, you should specify the following details
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To supress this text, flip the switch next to the name field.
 - The **Multiple Response** slider indicates whether the user can select more than one answer, in which case check boxes are used instead of radio buttons.

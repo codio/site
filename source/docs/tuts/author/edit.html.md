@@ -120,6 +120,7 @@ e.g.
 Some text
 |||
 ```
+
 ![](/img/docs/guides/callout_info.png)
 
 The `Guidance` callout block is only visible in Play mode to members of the Teacher group. It is not visible for members of the Student Group 

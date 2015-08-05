@@ -14,11 +14,13 @@ The advantage of this approach is that changes you make to your repo will be aut
 ![create from GitHub](/img/docs/github-readme.png)
 
 You just use the following link in your GitHub README file (or anywhere else for that matter).
+
 ```
 https://codio.com/p/create/?from_github=your_github_name/your_repo_name
 ```
 
 In some cases, you may want to specify a specific branch. The common usage for this is if you have a demo or GitHub Pages site that you want to load into Codio. In this case you do the following
+
 ```
 https://codio.com/p/create/?from_github=your_github_name/your_repo_name&branch=other_branch
 ```

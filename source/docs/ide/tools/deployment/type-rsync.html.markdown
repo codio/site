@@ -25,6 +25,7 @@ There are two options available
 
 ##Specifying a Port
 If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below
+
 ```
 mydomain.com:1234
 ```

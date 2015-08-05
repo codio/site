@@ -185,6 +185,9 @@ body.docs .overview-section {
       text-align: center;
       display: inherit;
       border: 1px solid $light-gray;
+      @include breakpoint($break-tablet) {
+        max-width: 137.5%;
+      }
     }
   }
 

@@ -50,6 +50,7 @@ You should now see a chunk of text starting with
     echo 'source /home/codio/.phpbrew/bashrc' >> ~/.bash_profile
 
 ##Reload shell data
+
 ```bash
 . ~/.bash_profile
 ```

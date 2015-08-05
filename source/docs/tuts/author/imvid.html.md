@@ -18,6 +18,7 @@ Generally speaking, you should put your images in the `.guides/img` folder in or
 ![](image-in-project-root.jpg)
 ![](.guides/img/best-place-for-images.png)
 ```
+
 ##Videos
 
 Including embedded videos are also possible using the standard `<iframe>` html tag.
@@ -29,7 +30,6 @@ If you wish to embed a YouTube video, go to the Share option and select 'Embed' 
 
 <img alt="authtoken" src="/img/docs/guides/guides_youtube.png" class="simple"/>
 
-  
 ```
 <iframe width="560" height="315" src="//www.youtube.com/embed/1JNhoVbmNAo" frameborder="0" allowfullscreen></iframe>
 ```
@@ -43,6 +43,7 @@ If you wish to embed a YouTube video, go to the Share option and select 'Embed' 
 ```
 <iframe src="//player.vimeo.com/video/110479088" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/110479088">Codio - Innovation in Computer Programming Education</a> from <a href="http://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 ```
+
 ##Hyperlinks
 Creating a hyperlink on a piece of text is easy.
 

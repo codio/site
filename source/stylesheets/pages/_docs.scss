@@ -168,7 +168,7 @@ body.docs .overview-section {
       margin-bottom: 2 * $base-line-height;
       margin-right: - span(3 of 8);
       width: span(11 of 8);
-      max-width: 120%;
+      max-width: none;
     }
 
     &.simple {
@@ -180,6 +180,9 @@ body.docs .overview-section {
       text-align: center;
       display: inherit;
       border: 1px solid $light-gray;
+      @include breakpoint($break-tablet) {
+        max-width: 137.5%;
+      }
     }
   }
 

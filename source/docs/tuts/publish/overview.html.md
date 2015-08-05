@@ -7,11 +7,11 @@ full_width: true
 Assuming you have a Codio project ready to publish, you should first understand Codio's 3 level publishing framework.
 
 - A **Course** is the top level and consists of a collection of Modules.
-<img alt="authtoken" src="/img/docs/courses.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/courses_small.png" class="simple"/>
 - A **Module** will typically incorporate all the course materials to cover a logical area of a curriculum or coursework. It in turn consists of a collection of Units.
-<img alt="authtoken" src="/img/docs/module_browser.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/module_browser_small.png" class="simple"/>
 - A **Unit** is the lowest level item of coursework. It will typically contain enough material to cover a particular topic or area of a curriculum or coursework. A Unit is taken directly from a Codio project.
-<img alt="authtoken" src="/img/docs/units.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/units_small.png" class="simple"/>
 
 
 Please read the [Authoring Strategies](/docs/tuts/author/strategies) section first. Ideally, you should also have read the full [Authoring](/docs/tuts/author) section and created your first project with Codio Guides, ready to be turned into a Unit.

@@ -26,7 +26,7 @@ Windows can be opened automatically to present the tab configuration you feel is
 
 The 'Add Tab' button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
 
-##Opening Files
+###Opening Files
 To open files select the 'File' type and enter the file name(s), including the path to the file if not in the root of the project.
 
 <img alt="authtoken" src="/img/docs/guides/type_file.png" class="simple"/>
@@ -37,7 +37,7 @@ To open multiple files in the same pane enter as
 index.html, main.css
 ```
 
-##Previewing
+###Previewing
 To preview your project select the 'Preview' Type. If you wish to show an external website page, the preview type supports this.
 
 <img alt="authtoken" src="/img/docs/guides/type_preview.png" class="simple"/>
@@ -48,7 +48,7 @@ https://codio.com
 
 Please note, if the site you want to preview prevents embedding in an iframe then you won't be able to use `https` addresses, you would have to use an `http` address instead although this can only open up in an external browser tab.
 
-##Opening Terminal and running system commands
+###Opening Terminal and running system commands
 To open a Terminal window select 'Terminal' Type.
 
 You can also specify a terminal command to run when a section is displayed. For example, your Guide may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a Guide is running) at a certain point in your Guide.
@@ -64,7 +64,7 @@ You can also specify system commands in a new Terminal window like this
 <img alt="authtoken" src="/img/docs/guides/terminal_command.png" class="simple"/>
 
 
-##Highlighting Lines in your code
+###Highlighting Lines in your code
 To highlight one or more lines within an auto-opened file, select 'Highlight' type and then
 
 1. enter a piece of reference text, contained within your target file, into the 'Reference ...' field

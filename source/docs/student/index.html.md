@@ -14,3 +14,9 @@ Please refer to the other pages in this section of the documentation for useful 
 If you are using Codio as an individual, hungry to learn how to code, then you should first sign up.
 
 Please refer to the other pages in this section of the documentation for useful information on accessing Course materials and using Codio and its web based IDE to code 100% in the Cloud.
+
+## Student Discounts
+
+If you are a student in a School/College or University using Codio on your own, then you can request student single user pricing from the Billing screen.
+You can find the Account Settings icon at the bottom left of your Dashboard. When you click on the Billing section, follow the instructions to request your student single user licence.
+You may be required to verify your student status to receive the student pricing, so please ensure you have an educational email address or provide other proof.

@@ -121,7 +121,7 @@ Some text
 |||
 ```
 
-![](/img/docs/guides/callout_info.png)
+<img alt="authtoken" src="/img/docs/guides/callout_info.png" class="simple"/>
 
 The `Guidance` callout block is only visible in Play mode to members of the Teacher group. It is not visible for members of the Student Group 
 

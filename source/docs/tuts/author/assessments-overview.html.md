@@ -20,7 +20,7 @@ Authoring assessments is easily done using the Guides editor.
 ## Adding a new assessment
 To add a new assessment, you should first position the cursor in your content where you want it to appear. Then, from the assessments drop-down, select the type of assessment you wish to insert.
 
-![](/img/docs/guides/add_assessment.png)
+<img alt="authtoken" src="/img/docs/guides/add_assessment.png" class="simple"/>
 
 ## Editing an existing assessment
 If you want to edit an existing assessment, you can choose either of the following options

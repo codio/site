@@ -83,7 +83,30 @@ function fetchUser (session, done) {
   })
 }
 
+function getQueryParameter(key) {
+  const items = location.search.substr(1).split('&')
+  if (items === '') {
+    return null
+  }
+
+  for (let i = 0, l = items.length; i < l; ++i) {
+    const paramPair = items[i].split('=')
+    if (paramPair[0] === key) {
+      return decodeURIComponent(paramPair[1])
+    }
+  }
+  return null
+}
+
 $(() => {
+  const referrer = getQueryParameter('referrer')
+  if (referrer && !monster.get('referrer')) {
+    const expDate = new Date()
+    expDate.setTime(expDate.getTime() + 30 * 86400000)
+
+    monster.set('referrer', referrer, {expires: expDate})
+  }  
+
   const session = monster.get('crafted_session')
   if (session == null) return anon()
 

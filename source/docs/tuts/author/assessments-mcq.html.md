@@ -16,7 +16,7 @@ Setting up a Multiple Choice assessment within the Guide editor is very simple. 
 - **Incorrect Points** is the score given to the student if the student makes an incorrect selection. Typically, this value will be 0 but you can assign negative scores if you wish to penalize guessing.
 - **Answers** is where you add as many individual answers as you require. To indicate the correct answer(s), adjust the sliders for multiple response or the radio button for single response.
 
-[IMAGE]
+<img alt="authtoken" src="/img/docs/guides/assessment_mcq.png" class="simple"/>
 
 ## Once chance only!!
 Codio allows users to make their selections and move on to other content pages or assessments without actually submitting their answer. However, once the amswer has been submitted, it cannot be resubmitted. We believe that this gives teachers a far clearer understanding of which students are understanding the materials properly. There is little point to tests if the student simple changes the answers until the correct one appears.

@@ -25,7 +25,7 @@ Setting up a Fill in the Blank assessment within the Guide editor is very simple
 - **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. A 0 score is given if any of the responses is incorrect.
 - **Text** is the markdown that you write including the correct answer specification. This is explained below.
 
-[IMAGE]
+<img alt="authtoken" src="/img/docs/guides/assessment_fitb.png" class="simple"/>
 
 ## Question Setup
 To set up your question, you write your content exactly as it should appear to the user. Take a look at the following example.

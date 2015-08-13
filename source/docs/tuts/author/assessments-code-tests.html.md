@@ -14,7 +14,7 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
 - **Command** is the command to run to invoke your test. See the section 'Test code' for more details.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 
-[IMAGE]
+<img alt="authtoken" src="/img/docs/guides/assessment_codetest.png" class="simple"/>
 
 ## Test Code
 You can place your test code anywhere you like. One suitable location is to create a `.guides/tests` folder. 

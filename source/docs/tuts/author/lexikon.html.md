@@ -12,4 +12,4 @@ To see what topics are available, bring up the Lexikon from the Tools menu. The 
 
 Once you have specified a Lexikon topic, the student will see an icon in the Guides toolbar. When they press this, the Lexikon will appear in the same panel as the Guide with the correct topic automatically selected.
 
-[IMAGE ONCE AVAILABLE]
+<img alt="authtoken" src="/img/docs/guides/lexicon.png" class="simple"/>

@@ -5,7 +5,7 @@ class_name: docs
 full_width: true
 ---
 
-[IMAGE SHOWING LIST OF ASSESSMENT TYPES ONCE ALL 3 ARE PRESENT]
+<img alt="authtoken" src="/img/docs/guides/add_assessment.png" class="simple"/>
 
 Assessments are an extremely helpful accompaniment to tutorial content.
 

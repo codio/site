@@ -8,7 +8,7 @@ full_width: true
 
 You will need to sign up for a Nodejitsu account before you use it.
 
-![targets history](/img/docs/deploy-nj.png)
+<img alt="authtoken" src="/img/docs/deploy-nj.png" class="simple"/>
 
 Select Nodejitsu from the Destination drop down and then make sure you either provide an API Token in the highlighted field or just press the Generate button and we'll create one for you.
 

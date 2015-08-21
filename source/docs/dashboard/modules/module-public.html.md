@@ -16,7 +16,7 @@ You can make a Module public at Module creation or by pressing the `Edit` button
 
 - Locate and select the Module you are interested in
 - From the Modules Unit list click on the 'Start Unit' icon for the unit you want to modify
-- This will now fork that unit into a new Project in your Codio account. From this point, you are free to make whatever changes you require to the code or to the [Codio Guide](/docs/ide/tools/guides/).
+- This will now fork that unit into a new Project in your Codio account. From this point, you are free to make whatever changes you require to the code or to the [Codio Guide](/docs/tuts/author).
 
 If there is an author attribution in the Guide or the readme.md file, please be respectful and leave the attribution in place.
 

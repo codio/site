@@ -8,6 +8,6 @@ If you are using a 3rd party hosting provider that does not support RSYNC (the r
 
 Select any files and folders from the file tree and then use the right-click menu to deploy them.
 
-![deploy specific](/img/docs/deploy-specific.png)
+<img alt="authtoken" src="/img/docs/deploy-specific.png" class="simple"/>
 
 All defined deployment targets will be listed in the submenu. Click the target you want to deploy to.

@@ -6,7 +6,7 @@ full_width: true
 
 The FTP target type allows you to deploy to any FTP server. You supply the usual FTP access details.
 
-![targets history](/img/docs/deploy-ftp.png)
+<img alt="authtoken" src="/img/docs/deploy-ftp.png" class="simple"/>
 
 ##Base Path
 We recommend you set the base path field for remote servers as [described here](/docs/ide/tools/deployment/basepath). This will be useful when using the [Preview](/docs/ide/features/inline-preview) feature.

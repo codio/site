@@ -14,7 +14,7 @@ There are various ways to get quickly to the component you need.
 ##You already know the component name
 If you are already familiar with Bower and you know the Bower command you would execute from the command line, so something like
 
-  bower install handlebars
+  `bower install handlebars`
 
 Then you can enter that name directly in the field at the top of the Codio screen. This will perform the exact same operation in the background.
 

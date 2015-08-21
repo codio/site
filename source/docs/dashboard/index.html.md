@@ -15,7 +15,7 @@ This also contains the main navigation options for the main Codio listings
 - [Stacks](/docs/dashboard/stacks/)
 - [Starter Packs](/docs/dashboard/packs/)
 - [Modules](/docs/dashboard/modules/)
-- [Courses](/docs/dashboard/courses/)
+- [Courses](/docs/tuts/publish/overview)
 - [Classes](/docs/dashboard/classes/)
 
 ... as well as additional administrative screens

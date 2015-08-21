@@ -11,8 +11,8 @@ The normal user billing screen can be found on the Billing tab of [Account Setti
 ##Educational Discounts
 We offer the following options for students, schools, colleges and universities 
 
-- Very substantial discounts for student users
-- Even more substantial discounts for schools, colleges and universities as well as a full trial. 
+- Very substantial discounts for students of Schools, Colleges and Universities.
+- Even more substantial 'Whole School' license discounts for Schools, Colleges and Universities as well as a full 60 day trial.
 
 For full details, [click here](/docs/teacher/education).
 

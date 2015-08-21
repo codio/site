@@ -13,7 +13,7 @@
 
 .docs-header-navigation-item {
   @include span(2 of 4);
-  height: 5 * $base-line-height;
+  height: 7 * $base-line-height;
   padding-top: $base-line-height;
 
   &:nth-child(3) {
@@ -21,12 +21,16 @@
   }
 
   @include breakpoint($break-tablet) {
-    @include span(4 of 16);
+    @include span(3 of 15);
     padding-top: 0;
 
     &:nth-child(3) {
       @include nobreak;
     }
+  }
+
+  @include breakpoint($max-width) {
+    height: 6 * $base-line-height;
   }
 
   &.active {
@@ -65,19 +69,23 @@
   }
 
   .navigation-header-student:before {
-    background: url('/img/assets/docs-navigation/student.png') no-repeat left center;
+    background: url('/img/assets/docs-navigation/student.svg') no-repeat left center;
   }
 
   .navigation-header-teacher:before {
-    background: url('/img/assets/docs-navigation/teacher.png') no-repeat left center;
+    background: url('/img/assets/docs-navigation/teacher.svg') no-repeat left center;
+  }
+
+  .navigation-header-authoring:before {
+    background: url('/img/assets/docs-navigation/author.svg') no-repeat left center;
   }
 
   .navigation-header-dashboard:before {
-    background: url('/img/assets/docs-navigation/dashboard.png') no-repeat left center;
+    background: url('/img/assets/docs-navigation/dashboard.svg') no-repeat left center;
   }
 
   .navigation-header-ide:before {
-    background: url('/img/assets/docs-navigation/ide.png') no-repeat left center;
+    background: url('/img/assets/docs-navigation/ide.svg') no-repeat left center;
   }
 
   p {

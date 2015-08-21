@@ -71,8 +71,3 @@ Now, anyone viewing the README.md can click on the button and they'll be instant
 
 And don't forget that Codio is [Git integrated](/docs/ide/editing/git), so you can update your project at any time simply by pulling from GitHub.
 
-###Planned for later
-To make all this easier, we plan to add the following pretty soon
-
-- A Chrome App that let's you simply press a button to view a repo in Codio based on the current GitHub page you're looking at
-- A trigger so that whenever you update your GitHub repo, Codio will automatically perform a pull so the Codio version stays nicely in sync.

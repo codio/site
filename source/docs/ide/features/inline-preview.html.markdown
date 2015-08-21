@@ -23,7 +23,8 @@ Read on for information on how to configure your Static and Dynamic preview menu
 ##Instructions
 The Preview button lets you preview one or more web pages with a simple button press. Codio creates four default entries in the Preview menu automatically.
 
-![preview](/img/docs/preview-deploy.png)
+<img alt="authtoken" src="/img/docs/preview-deploy.png" class="simple"/>
+
 
 - **Project Index** - this is the default file to run for your project. It can be set by right-clicking a file in the file tree. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the 'Box URL' option.
 - **Current File** - whichever code file currently has focus. This option should only be used to preview static content (typically `.html` files). For PHP, Ruby etc. you should use the 'Box URL' option.
@@ -33,7 +34,8 @@ The Preview button lets you preview one or more web pages with a simple button p
 
 If you right-click a file in the file tree or the Tab, you can also select 'Preview Static'.
 
-![preview](/img/docs/preview-deploy-right-click.png)
+<img alt="authtoken" src="/img/docs/preview-deploy-right-click.png" class="simple"/>
+
 
 ##Preview in a Codio tab or new browser tab
 In the Preview dropdown menu, you can select one of the following ways to preview
@@ -86,7 +88,7 @@ If you cannot access your project over SSL then this could be the way your appli
 
 The full range of Codio `{{tokens}}` is explained in [this section](/docs/ide/boxes/runmenu).
 
-## [Insecure Content with In-Tab preview and front-end code](#mixed-content)
+## Insecure Content with In-Tab preview and front-end code (#mixed-content)
 Codio runs over a secure connection using HTTPS, and therefore so does the inline preview. If your code references an external resource (script, font, image, etc.). For example:
 
 ```html

@@ -5,7 +5,7 @@ full_width: true
 ---
 
 ##Delete a Unit
-You can delete a unit by enabling the 'Edit Units' toggle button and then pressing the `Delete` button.
+You can delete a unit by enabling the 'Edit Units' toggle button and then pressing the `Delete` button, or access the Unit and delete there. See:
 
 ![Units Delete](/img/docs/unit_delete.png)
 

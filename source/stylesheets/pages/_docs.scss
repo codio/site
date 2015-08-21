@@ -79,8 +79,13 @@ body.docs .overview-section {
   }
 
   @include breakpoint($break-tablet) {
-    @include container(10 of 16);
-    margin: 0 span(3 of 16);
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+    max-width: $max-width;
+  }
+
+  @include breakpoint($max-width) {
+    margin: 0 auto;
   }
 
   .docs-header-navigation {

@@ -6,7 +6,7 @@ full_width: true
 
 You can access the User Preferences using the menu item `Codio > Preferences > User` when you are in a project.
 
-![Codio Annotations](/img/docs/prefs-menu.png)
+<img alt="authtoken" src="/img/docs/prefs-menu.png" class="simple"/>
 
 User Preferences are the full collection of settings that apply to you, the logged in user. They cover all aspects of Codio usage from code editor settings (tab stops, indentation, colors, fonts etc.) through to hotkey keyboard shortcut mappings.
 

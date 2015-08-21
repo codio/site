@@ -6,7 +6,7 @@ full_width: true
 
 A handy feature is the ability to add commonly used commands to the Codio IDE, akin to using the `alias` command from the command line.
 
-## `.codio` file
+## .codio file
 The configuration for the Run (and Preview) button can be set by editing the `.codio` file in the root of your project.
 
 The following code below shows the `.codio` file configured to give this Run menu
@@ -32,7 +32,7 @@ which is driven by the following `.codio` file
 
 When you select a Run command, it will open a new console window where you will see the output. Pressing the Run button will execute the last selected command.
 
-## `.codio` Tokens
+## .codio Tokens
 You can see from the above `.codio` sample that it is possible to insert tokens into the shell commands. The following tokens are currently available and operate in the main on the currently selected file tab in the IDE
 
 - `{{filepath}}` inserts the path and full file name `/path/to/file.ext`

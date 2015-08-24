@@ -8,24 +8,23 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
-### July 27th, 2015
-- **Update**: Update Guides style 
-- **Feature**: First phase release of Assessments
+### August 2015
+- **Improvement**: (August 22nd) various [Guides](/docs/tuts/author/) updates and improvements
+- **Feature**: (August 22nd) direct [Lexikon](/docs/tuts/author/lexikon/) support in Guides authoring
+- **Feature**: (August 22nd) complete release of [Assessments](/docs/tuts/assessments/)
+- **Update**: (August 22nd) documentation reorganisation 
+- **Update**: update Nodejitsu
 
-### July 16th, 2015
-- **Improvement**: Improve filter by courses used in setting up Classes.
-
-### July 9th, 2015
-- **Update**: update Parse CLI
-
-### July 7th, 2015
-- **Fixed**: update handling of Stack Settings
-- **Fixed**: Create button disabled on project creation form in IE browser.
-
-### July 1st, 2015
-- **Fixed**: wrong stack shown when editing a Modules unit
-- **Improvement**: allow Teachers to opens Students units from dashboard
-- **Feature**: add support for bulk upload of users into Organisations
+### July 2015
+- **Update**: (July 27th) update Guides style 
+- **Feature**: (July 27th) uirst phase release of Assessments
+- **Improvement**: (July 16th) Improve filter by courses used in setting up Classes.
+- **Update**: (July 9th) update Parse CLI
+- **Fixed**: (July 7th) update handling of Stack Settings
+- **Fixed**: (July 7th) Create button disabled on project creation form in IE browser.
+- **Fixed**: (July 1st) wrong stack shown when editing a Modules unit
+- **Improvement**: (July 1st) allow Teachers to opens Students units from dashboard
+- **Feature**: (July 1st)add support for bulk upload of users into Organisations
 
 ### June 2015
 - **Improvement**: (June 30th) hide Guidance callout block in [Guides](/docs/ide/tools/guides/) to students

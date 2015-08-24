@@ -13,18 +13,18 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Feature**: (August 22nd) direct [Lexikon](/docs/tuts/author/lexikon/) support in Guides authoring
 - **Feature**: (August 22nd) complete release of [Assessments](/docs/tuts/assessments/)
 - **Update**: (August 22nd) documentation reorganisation 
-- **Update**: update Nodejitsu
+- **Update**: (August 21sr) update Nodejitsu
 
 ### July 2015
 - **Update**: (July 27th) update Guides style 
-- **Feature**: (July 27th) uirst phase release of Assessments
-- **Improvement**: (July 16th) Improve filter by courses used in setting up Classes.
+- **Feature**: (July 27th) first phase release of Assessments
+- **Improvement**: (July 16th) improve filter by courses used in setting up Classes.
 - **Update**: (July 9th) update Parse CLI
 - **Fixed**: (July 7th) update handling of Stack Settings
-- **Fixed**: (July 7th) Create button disabled on project creation form in IE browser.
+- **Fixed**: (July 7th) create button disabled on project creation form in IE browser.
 - **Fixed**: (July 1st) wrong stack shown when editing a Modules unit
 - **Improvement**: (July 1st) allow Teachers to opens Students units from dashboard
-- **Feature**: (July 1st)add support for bulk upload of users into Organisations
+- **Feature**: (July 1st) add support for bulk upload of users into Organisations
 
 ### June 2015
 - **Improvement**: (June 30th) hide Guidance callout block in [Guides](/docs/ide/tools/guides/) to students

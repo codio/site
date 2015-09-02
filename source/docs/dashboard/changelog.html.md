@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### September 1st, 2015
+- **Improvement**: Enable Units to be moved/re-oredered in Modules & Courses
+
 ### August 2015
 - **Improvement**: (August 22nd) various [Guides](/docs/tuts/author/) updates and improvements
 - **Feature**: (August 22nd) direct [Lexikon](/docs/tuts/author/lexikon/) support in Guides authoring

@@ -7,7 +7,7 @@ full_width: trues
 
 Codio content has a special feature that allows the content author to write solutions or any other types of content that should be seen by the teacher only. Students will not see this content.
 
-<img alt="authtoken" src="/img/docs/codeesolution.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/codesolution.png" class="simple"/>
 
 <img alt="authtoken" src="/img/docs/flodesolution.png" class="simple"/>
 

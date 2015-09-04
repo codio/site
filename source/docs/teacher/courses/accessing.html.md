@@ -17,7 +17,7 @@ Finding Codio' teaching content is easy.
 ### Courses list
 This shows the list of Courses.
 
-![Recommended Courses](/img/docs/courses_recomend.png)
+![Recommended Courses](/img/docs/courses_recommend.png)
 
 ### Modules
 Each Course has one or more Modules.

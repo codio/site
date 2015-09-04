@@ -30,7 +30,7 @@ Codio offers some excellent teaching content using Flode. The content also conta
 1. Select Courses from the items on the left of the Dashboard
 1. Look for 'An Introduction to Programming'
 
-'An Introduction to Prgramming' uses Flode extensively and provide an excellent way of introducing students to programming, computational thinking and Algorithms.
+'An Introduction to Prgramming' uses Flode extensively and provides an excellent way of introducing students to programming, computational thinking and Algorithms.
 
 ## Creating and editing a new Flode file
 If you want to create Flode charts independently of any Codio Course content, create a new project from the Dashboard. 

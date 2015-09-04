@@ -5,4 +5,8 @@ class_name: docs
 full_width: true
 ---
 
-Adding student to a class
+![Invitation Token](/img/docs/organisations_token.png)
+
+![Bulk Upload](/img/docs/organisation_upload.png)
+
+![Add Users](/img/docs/organisation_addmanually.png)

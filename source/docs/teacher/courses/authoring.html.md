@@ -13,4 +13,4 @@ All of your content will work automatically with the [teacher dashboard](/docs/t
 
 <img alt="authtoken" src="/img/docs/guideseditor.png" class="simple"/>
 
-<img alt="authtoken" src="/img/docs/guideassessment.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/guides/assessment_codetest.png" class="simple"/>

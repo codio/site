@@ -96,7 +96,7 @@ One very nice way of running your code is to step through it line by line so you
 
 At any time, you can press the Run button to run to completion at full speed.
 
-![](/img/docs/crunch-step.png)
+<img alt="authtoken" src="/img/docs/crunch-step.png" class="simple"/>
 
 ### Run mode
 This runs your program at full speed.

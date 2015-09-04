@@ -17,19 +17,19 @@ Finding Codio' teaching content is easy.
 ### Courses list
 This shows the list of Courses.
 
-[IMAGE - SHOW RECOMMENDED COURSES]
+![Recommended Courses](/img/docs/courses_recomend.png)
 
 ### Modules
 Each Course has one or more Modules.
 
-[IMAGE - SELECT INTRDUCTION TO PROGRAMMING]
+![ModuleIntro](/img/docs/introprogramming.png)
 
 ### Units
 And each Module contains Units, which contain the actual teaching content and assessments.
 
-[IMAGE - SHOW FLODE ]
+![ModuleFlode](/img/docs/moduleflode.png)
 
 ### Unit content
 Here is as example of content from a Unit.
 
-[IMAGE - SHOW FLODE LOOPS WITH A FLODE CHART IN DEBUG MODE WITH A CHALLENGE QUESTION]
+![Flode](/img/docs/flodeunit.png)

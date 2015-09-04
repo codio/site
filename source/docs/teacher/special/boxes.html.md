@@ -1,24 +1,22 @@
 ---
-title: Boxes
+title: Computing Projects
 description: "Computers in the cloud"
 class_name: docs
 full_width: true
 ---
 
-Each Codio Project comes with its own Ubuntu server (Box). You can think of this as a computer in the Cloud. There are a number of features you should be aware of that will really help teachers and students ...
+Students are able to create their own coding projects with just 2 clicks. Here are the highlights ...
 
-- There is nothing for your network administrator to worry about from a security perspective as each Box runs on the Codio servers, not your school's.
-- There is nothing to configure for you or your network administer. 
-- You can use or configure a [Starter Pack](/docs/teacher/packs/) to give your students a Box preconfigured in any way you like. This means there is no setup required and students can immediately start working on any project along with the entire 'Stack' needed for coding projects, databases, tools etc.
-- Being browser based, teachers and students can access their projects from the classroom and from home.
- 
-Once you are in the IDE, you can open up a terminal window and access your Box from the command line.
+1. Create any number of projects
+1. Each projects gets its own, dedicated cloud server, a 'Computer in the Cloud'
+1. Install any software you like on it (programming languages, databasesm tools etc.)
+1. Absolutely nothing for your school Systems Adminisrator to set up or condigure
+1. No security worries at all as everything runs on the Codio platform
+1. You get a full blown code editor and IDE
+1. You can download all the code you write
+1. You can use or configure a [Starter Pack](/docs/teacher/special/packs/) to give your students a Box preconfigured in any way you like (programming languages, databases, starter code, tools etc.). This means there is no setup required and students can immediately start working on any project along with the entire 'Stack' needed for coding projects, databases, tools etc.
+1. Being browser based, teachers and students can access their projects from the classroom and from home.
 
-You do not have, and do not need, sudo access. Almost all common commands are available without needing the sudo prefix. Furthermore, you can rapidly install your own languages, components, databases etc. from the [Install software](/docs/ide/boxes/installsw/) menu.
+[IMAGE PROJECTS LIST SHOWING SUITABLY NAMED PROJECTS IDEALLY]
 
-As you will see in the next sections, you can configure and even pre-configure your Boxes with everything from [Stacks](/docs/teacher/stacks/) and [Starter Packs](/docs/teacher/packs/) to [Modules](/docs/teacher/modules/).
-
-If you create your own Course Units, you can automate things still further by setting your templated Box up and then assigning it to a Unit within a Module. You can then assign your Module to your class so when they start a Unit they have are automatically presented with the correct starting point.
-
-## Free Codio Training Webinars
-Please refer to the [Webinar](/docs/teacher/webinars) section for information on how to sign up for free, web-based training.
+[IMAGE SHOWING CODIO IDE WITH A COUPLE OF PANES, TERMINAL WINDOW]

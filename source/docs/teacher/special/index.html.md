@@ -7,6 +7,15 @@ full_width: true
 
 We strongly recommend that teachers are aware of the following special teaching tools and resources that are aimed to promote computational thinking and provide assistance when learning to code.
 
+## Video Overview
+This video summarises many of Codio's unique teaching features.
+
+<div class="video">
+<div class="video-wrapper">
+<iframe src="//player.vimeo.com/video/138398235" width="600" height="370" frameborder="0" webkitallowfullscreen mozallowflscreen allowfullscreen></iframe>
+</div>
+</div>
+
 ## Auto-marked assessments
 Codio contains 3 different types of assessments (Automated Code Tests, Multiple Choice and Fill in The Blanks) that can be automatically graded without teacher intervention. The results of these tests appear in the teacher dashboard.
 [Click here for details](/docs/teacher/special/automarked)
@@ -39,7 +48,6 @@ The Codio Lexikon is an integrated help system that lets users lookup informatio
 For teachers wanting to teach UI building with Python (please note that OCR GCSE does not require this) this gives you the tools to build and run Tkinter UIs in the Cloud.
 [Click here for details](/docs/teacher/special/tkinter)
 
-
 ## Stacks & Starter Packs
 **Stacks** give you the ability to preconfigure any Box configuration you like so students do not have to worry about installing and configuring software, languages, tools etc. before they start coding.
 [Click here for details](/docs/teacher/special/stacks)
@@ -47,4 +55,6 @@ For teachers wanting to teach UI building with Python (please note that OCR GCSE
 **Starter Packs** allow you to preconfigure not just the Stack but also any 'starting point code' so your students can start off at whatever point you want them to.
 [Click here for details](/docs/teacher/special/packs)
 
-
+## Dyslexia support
+The Codio teaching content and the code editor both come with special fonts and reading bars which make it easier for dyslexic students to follow content and write code.
+[Click here for details](/docs/teacher/special/dyslexic)

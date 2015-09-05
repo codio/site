@@ -1,5 +1,5 @@
 ---
-title: "Runmenu"
+title: "Run menu"
 class_name: docs
 full_width: true
 ---

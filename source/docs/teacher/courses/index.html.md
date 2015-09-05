@@ -7,6 +7,7 @@ full_width: trues
 
 This section 
 
+- Curriculum coverage for the UK GCSE Curriculum [more ...](/docs/teacher/courses/ocr)
 - Finding Codio's teaching and learning content [more ...](/docs/teacher/courses/accessing)
 - How Codio gives teachers, and only teachers, solutions right next to the challenges [more ...](/docs/teacher/courses/solutions)
 - How to create your own teaching content [more ...](/docs/teacher/courses/authoring)
@@ -20,10 +21,3 @@ This video shows you around Codio's teaching content.
 </div>
 </div>
 
-... and this one explains how Codio's teaching content can help with the course curriculum.
-
-<div class="video">
-<div class="video-wrapper">
-<iframe src="//player.vimeo.com/video/138398237" width="600" height="370" frameborder="0" webkitallowfullscreen mozallowflscreen allowfullscreen></iframe>
-</div>
-</div>

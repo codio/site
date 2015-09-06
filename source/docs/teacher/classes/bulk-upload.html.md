@@ -5,7 +5,7 @@ class_name: docs
 full_width: true
 ---
 
-Codio has a bulk upload feature that lets you export a CSV file from your school MIS systems and then import this into Codio.
+Codio has a bulk upload feature that lets you take an export of a CSV file from your school MIS systems and then import this into Codio.
 
 This import automates the creation of
 

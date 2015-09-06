@@ -10,13 +10,13 @@ Crunch is a modern, full-featured alternative to Little Man Computer. It is test
 ## Crunch Course
 We have built a 3 Unit Course that combines teaching materials with over 20 challenges of gradually increasing complexity. This is a great resource for teachers wanting to teach the basics of Assembly Language programming as well as computational thinking. 
 
-From the Dashboard, go to Courses and then look for either Crunch or Schools Computing Curriculum (Crunch is a module within this course).
+From the Dashboard, go to Courses and then look for Crunch - Little Man Computer on Steroids.
 
 ## Lexikon
 We recommend you use Codio's Lexikon feature to get inline help on Crunch usage and commands. You can find the Lexikon in the Tools menu. Once it appears, select the dropdown list on the right side and select Crunch. You can then search for commands. Try entering 'Overview' in the search box for an overview of all the Crunch commands.
 
 ## Crunch Module
-We strongly recommend you use the Crunch module to teach Crunch. Modules can be found in the main Codio Dashboard. Seect the 'Modules' link on the left hand side and then locate the Crunch module in the list. 
+We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the Crunch - Little Man Computer on Steroids Course. From the Dashboard, go to Courses and then look for Crunch - Little Man Computer on Steroids, within that course you will find the Crunch module.
 
 If you are teaching a Class, then we suggest you assign the Crunch module to the class. [Click here](/docs/dashboard/classes/class-module-add/) for details.
 
@@ -49,7 +49,7 @@ If you have not yet added any code, then you should see the button bar already t
 Click on the '+' to add a new instruction.
 
 ## Instructions
-Codio comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions. There is also a complete Lexicon available. Go to `Tools>Lexicon` and select the 'Crunch' option to search.
+Crunch comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions. There is also a complete Lexicon available. Go to `Tools>Lexicon` and select the 'Crunch' option to search.
 
 The following instructions are not available in Little Man Computer and provide a more complete experience.
 

@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-All Codio projects come with their own dedicated servers. You can control this form the Linux command line as with any developer environment.
+All Codio projects come with their own dedicated servers. You can control this from the Linux command line as with any developer environment.
 
 ## The Terminal
 You manage your server by opening a Terminal window from the Terminal option in the Tools menu. 

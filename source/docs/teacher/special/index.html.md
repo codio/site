@@ -42,7 +42,7 @@ Crunch is a modern replacement for Little Man Computer. Fully integrated into Co
 
 ## Lexikon
 The Codio Lexikon is an integrated help system that lets users lookup information quickly and easily as new topics are learned without having to trawl the web.
-[Click here for details](/docs/tuts/lexikon)
+[Click here for details](/docs/teacher/special/lexikon/)
 
 ## Tkinter
 For teachers wanting to teach UI building with Python (please note that OCR GCSE does not require this) this gives you the tools to build and run Tkinter UIs in the Cloud.

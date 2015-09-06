@@ -10,6 +10,11 @@ The only users who can create classes are organization owners. Being an owner do
 
 Owners are the only users who are able to delete classes.
 
+## Adding users to your Organisation
+
+Codio provides a number of ways to add users into your organisation.
+See [Adding users to your Organisation](/docs/dashboard/organizations/adding-members/) for more information on this.
+
 ## Adding teachers
 If you are the teacher of the class, you should always add yourself as a teacher, even if you are the organization owner. You can also add others as teachers to the class. 
 
@@ -19,6 +24,7 @@ Teachers are able to view student projects from the student listing within the c
 1. Click on the **Teachers** tab at the top of the listing.
 1. Click the **Edit Teachers** slider so the search field appear to its left.
 1. This list will show all Codio users within your organization so be sure to select the right person. You can type in the field to search or you can scroll through the list. Once you have found the right person, click on that person or press enter with the correct name highlighted.
+
 
 The teacher is now added to the list of teachers.
 

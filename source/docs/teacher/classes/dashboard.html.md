@@ -13,7 +13,7 @@ The dashboards show the following information.
 1. The assessment score achieved within a unit and/or module.
 
 ## Class view
-If the teacher has selected a class and then clicks the **Students** tab at the top, then this dashbaord shows a summary for the class across all modules and units. It shows
+If the teacher has selected a class and then clicks the **Students** tab at the top, then this dashboard shows a summary for the class across all modules and units. It shows
 
 ![Class Dashboard](/img/docs/class_dashboard.png)
 

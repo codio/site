@@ -14,6 +14,9 @@ One of the most powerful features of Codio is the ability to create coding proje
 
 [Click here](/docs/teacher/special/boxes) for more details.
 
-[IMAGE : SAME 2 as special] -- not exactly sure which ones you mean here - plesae clarify if you cant see them already added?
+![Project List](/img/docs/projects_list.png)
+
+![Panes](/img/docs/panel-overview.png)
+
 
 

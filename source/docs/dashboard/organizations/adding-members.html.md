@@ -35,4 +35,4 @@ The file should be a CSV file that can contain the following details: email (req
 
 When you then `Upload & Preview` you will be shown a preview of the details to be uploaded where you can then edit/remove or even add new users to the list prior to completing the upload and they will receive an email with instructions on how to proceed. If there are any problems identified these will be shown to you.
 
-As the users complete the process, they will then be added to your Member (and class if included in the csv file).
+As the users complete the process, they will then be added to your Member group (and class if this is included in the csv file).

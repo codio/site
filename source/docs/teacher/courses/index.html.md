@@ -5,7 +5,7 @@ class_name: docs
 full_width: trues
 ---
 
-This section 
+This section covers:
 
 - Curriculum coverage for the UK GCSE Curriculum [more ...](/docs/teacher/courses/ocr)
 - Finding Codio's teaching and learning content [more ...](/docs/teacher/courses/accessing)

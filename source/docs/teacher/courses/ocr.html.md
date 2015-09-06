@@ -19,7 +19,7 @@ Both content and assessments have been carefully built to gradually increase the
 You will find the following courses
 
 ### An Introduction to Programming
-This introduces students to the basic concepts of programming, first using [Flode](/docs/teacher/sepcial/flode) before moving on to coding with Javascript and/or Python. You will find many auto-graded coding assessments within each unit as well as a module dedicated to challenges. We also have a module introducing more advanced searching and sorting algorithms.
+This introduces students to the basic concepts of programming, first using [Flode](/docs/teacher/special/flode) before moving on to coding with Javascript and/or Python. You will find many auto-graded coding assessments within each unit as well as a module dedicated to challenges. We also have a module introducing more advanced searching and sorting algorithms.
 
 ### MySQL
 The first module covers the requirements of the GCSE curriculum. However, we also are offering more advanced materials covering accessing of databases through code as well as database design. These latter units are well suited as stretch materials or those wanting to build web applications or pursue coding at a higher level.
@@ -28,7 +28,7 @@ The first module covers the requirements of the GCSE curriculum. However, we als
 Crunch is a modern and very easy to use equivalent of Little Man Computer. It comes with both a proper debugger and a visualisation feature that teaches the fetch/execute cycle and shows how CPUs work when executing a program. As with all our units, this content comes with a large number of automated assessments.
 
 ### An Introduction to Web Development
-Although HTML and CSS are not mandated in the GCSE curriculum, OCR and Codio consider it a very valuable skillset and something that should be taught to students who are starting Computing early enough. We are seeing many teachers in the UK teaching this and this course aims to support teachers who are new to this material as well as those with some experience. 
+Although HTML and CSS are not mandated in the GCSE curriculum, OCR and Codio consider it a very valuable skillset and something that should be taught to students who are starting computing early enough. We are seeing many teachers in the UK teaching this and this course aims to support teachers who are new to this material as well as those with some experience. 
 
 As well as teaching the mechanics of building web pages, it also takes the Javasript knowledge acquired through the Introduction to Programming course and applies it to web pages to teach the basics of dynamic web sites and web applications.
 

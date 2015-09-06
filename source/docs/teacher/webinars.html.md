@@ -5,8 +5,10 @@ class_name: docs
 full_width: true
 ---
 
-When you start using Codio, you will want to get off to a fast start. To help you achieve this, Codio runs free web based training Webinars several times a week. 
+When you start using Codio, you will want to get off to a fast start. To help you achieve this, Codio runs free webinars for teachers trialling the platform.
 
-As well as covering general configuration topics we also are more than happy to take special requests.
+Webinars run on Mondays and Wednesdays from 4pm to 4.45pm - and it's easy to [register](http://bit.ly/CodioIntroWebinar).
 
-If you want to attend a Codio Webinar, please email support@codio.com and we will advise you of upcoming webinars. You can also specify any topics you wish to have covered.
+As well as providing an overview of the platform, teaching resources and support features, there's always ample time to handle any questions you may wish to raise.
+
+If you would prefer a separate consultation, please email support@codio.com and we will be happy to help you.

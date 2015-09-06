@@ -25,7 +25,7 @@ Editor settings gives you access to the key functions:
   - **[Close Tabs](/docs/tuts/author/inline/)** allows you to close all tabs open from previous section,
   - **[Set Section as Chapter](/docs/tuts/author/chapter/)** allows you to set the section as a chapter in your guides,
   - **[Reset List](/docs/tuts/author/chapter/)** allows you to reset files/folders used in this section.
-
+  - **[Teacher Only](/docs/tuts/author/solutions/)** allows you to show content that only teachers are able to see.
 
 ### [Open Tabs](/docs/tuts/author/auto-open/)
 allows you to specify:

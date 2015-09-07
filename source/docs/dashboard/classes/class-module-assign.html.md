@@ -10,7 +10,7 @@ The student can access the modules by going to the the Classes menu item in the 
 
 They can then open up the module to see the units and from there can then open project in the IDE by pressing the 'Start Unit' button.
 
-![Student Assign](/img/docs/student_assign.png)
+![Student Assign](/img/docs/class_start.png)
 
 This will fork the project into the students Codio account and will also be accessible to them from their Projects list in future. The students will then see 'Open Unit' in the above image.
 

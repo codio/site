@@ -1,5 +1,5 @@
 ---
-title: Adding Modules to a class
+title: Adding modules to a class
 class_name: docs
 full_width: true
 ---

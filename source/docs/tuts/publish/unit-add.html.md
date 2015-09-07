@@ -1,12 +1,10 @@
 ---
-title: Adding a Unit
+title: Adding a unit
 class_name: docs
 full_width: true
 ---
 
-The process for adding a Unit to a Module is similar. Select a Module and then enable the 'Edit Units' slider. You can then add a new Unit by pressing the Add Unit button.
-
-You do not need to assign access permissions here as all Units are published within a Module. 
+Select a module and then enable the **Edit Units** slider. You can then add a new unit by pressing the **Add Unit** button.
 
 ## Specifying the Stack
 The only thing that is not self-explanatory when adding a Unit is the Stack information. When you publish a Unit, Codio needs to know 

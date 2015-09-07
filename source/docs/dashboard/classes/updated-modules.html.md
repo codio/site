@@ -1,5 +1,5 @@
 ---
-title: Updating Modules and units
+title: Updating modules and units
 class_name: docs
 full_width: true
 ---

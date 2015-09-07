@@ -1,13 +1,13 @@
 ---
-title: Deleting a Course/Module
+title: Deleting courses and modules
 class_name: docs
 full_width: true
 ---
 
 
-You can delete a Course/Module by selecting the item from the listing, then pressing the `Delete` button. 
+You can delete a course or a module by selecting the item from the listing, then pressing the `Delete` button. 
 
-Deleting a Course does not delete its Modules. Similarly, deleting a Module does not delete the Projects that its Modules contained. However, all Unit definitions will be deleted and would need to be recreated.
+Deleting a course does not delete its modules. Similarly, deleting a module does not delete its units.
 
-If you delete a Course/Module, any Course, Modules and Units that have already been assigned to a Class will remain intact for the lifetime of that class.
+If you delete a course or module any modules and units that have already been assigned to a alass will remain intact for the lifetime of that class.
 

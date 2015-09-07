@@ -4,6 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-Once you have set up your Courses and Modules, they are accessible via the Courses and Modules links in the main dashbaord. However, you may want to assign Modules to classes for easier access by your students.
+If you are using Codio's classes then you will want to assign a course module to a class.
 
-Please refer to [Adding Module to a class](/docs/dashboard/classes/class-module-add/) for details.
+Please refer to [Adding a module to a class](/docs/dashboard/classes/class-module-add/) for details.

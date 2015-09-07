@@ -1,5 +1,5 @@
 ---
-title: Managing Classes
+title: Managing classes
 class_name: docs
 full_width: true
 ---

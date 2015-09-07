@@ -5,7 +5,7 @@ class_name: docs
 full_width: true
 ---
 
-During your trial period, there are several things we recommend evaluating. If at any time you feel you would benefit from a personal explanation of the platform, we storngly recommend attending a live webinar. Information on our webinars can be found [here](/docs/teacher/webinars/).
+During your trial period, there are several things we recommend evaluating. If at any time you feel you would benefit from a personal explanation of the platform, we strongly recommend attending a live webinar. Information on our webinars can be found [here](/docs/teacher/webinars/).
 
 The documentation in this section contains many videos. We recommend you watch these to get a first impression and high level overview of the features and content available.
 

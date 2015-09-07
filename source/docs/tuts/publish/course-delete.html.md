@@ -9,5 +9,5 @@ You can delete a course or a module by selecting the item from the listing, then
 
 Deleting a course does not delete its modules. Similarly, deleting a module does not delete its units.
 
-If you delete a course or module any modules and units that have already been assigned to a alass will remain intact for the lifetime of that class.
+If you delete a course or module any modules and units that have already been assigned to a class will remain intact for the lifetime of that class.
 

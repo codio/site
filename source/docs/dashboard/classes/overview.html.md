@@ -11,7 +11,7 @@ To access Classes, you will need to have an [Organization](/docs/dashboard/organ
 Classes can only be created by members of the Owners group. Groups are managed in the [Organization](/docs/dashboard/organizations/) section.
 
 - A class is a collection of students (Codio users).
-- A class is associated with [Modules](/docs/dashboard/modules/). 
+- A class is associated with Modules. 
 - A class can contain as many modules as required.
 - You can assign modules to classes from [Courses](/docs/tuts/publish/overview/)
 

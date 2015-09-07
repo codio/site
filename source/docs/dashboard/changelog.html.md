@@ -8,6 +8,12 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### September 7th, 2015
+- **Feature**: added [Flode](/docs/teacher/special/flode/) (an integrated flowcharting tool where your Flode charts can run like real programs)
+
+### September 4th, 2015
+- **Improvement**: add edit/preview toggle button in Guides
+
 ### September 3rd, 2015
 - **Feature**: add edit/preview toggle button to Guidles
 
@@ -43,8 +49,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Improvement**: (June 23rd) add ability to filter modules listing for recommended Courses
 - **Fixed**: (June 11th) fix Organisation [Invitation Token](/docs/dashboard/organizations/adding-members/) to Read Only
 - **Update**: (June 8th) updated Dashboard to improve performance and support future Education Improvements
-- **Feature**: (June 8th) added [Crunch](/docs/teacher/crunch) (a modern, full-featured alternative to Little Man Computer)
-- **Feature**: (June 8th) added [Flow Charting](/docs/teacher/flow) tool.
+- **Feature**: (June 8th) added [Crunch](/docs/teacher/special/crunch) (a modern, full-featured alternative to Little Man Computer)
 - **Update**: (June 2nd) update Box Parts (googleappengine, googleappenginego, googleappenginejava)
 
 ### May 2015

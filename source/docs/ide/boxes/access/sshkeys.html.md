@@ -10,5 +10,3 @@ You can find your Codio public key as [described here](/docs/dashboard/settings/
 
 When you create a new Codio project, your user keys are automatically copied into your project and can be found in the `~/.ssh` folder. You will need to open up a Terminal window to access this folder and the keys stored in the `id_rsa` file.
 
-##SSHing into your Box
-For information on how to SSH into your Codio Box, [please read this section](/docs/ide/boxes/access/ssh-access/).

@@ -14,7 +14,7 @@ Your server is put to sleep within a few minutes of you exiting your Project.
 Paid subscribers can use the [Always On Boxes](/docs/ide/boxes/always-on/) feature. This allows you to mark Projects that you don't want to be put to sleep when you exit your Project.
 
 ###Can I SSH into my Box?
-We support the ability to SSH into you Box as [described here](/docs/ide/boxes/access/ssh-access/).
+We do not support this.
 
 ###Can I reboot my Box?
 Yes. Please refer to the [Restart and Reset](/docs/ide/boxes/restart-reset/) documentation.

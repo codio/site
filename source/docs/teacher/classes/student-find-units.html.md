@@ -19,6 +19,9 @@ Students should
 
 At this point the unit will open up and they can start working.
 
+**Important**: If your students are not seeing the courses/modules you have added to your class, check that you have set your Organisation as the owner of the course/module when you published the course. See the section on Visibilty [here](/docs/tuts/publish/course-create/)
+
+
 ## Courses
 Students can also browse the **Courses** from the main Codio dashboard. They can browse modules and units and start a unit from there also even if they have not been added to a class or assigned a module from a class by a teacher.
 

@@ -19,7 +19,7 @@ Students should
 
 At this point the unit will open up and they can start working.
 
-**Important**: If your students are not seeing the courses/modules you have added to your class, check that you have set your Organisation as the owner of the course/module when you published the course. See the section on Visibilty [here](/docs/tuts/publish/course-create/)
+**Important**: If your students are not seeing the courses/modules you have added to your class and these are Private courses/modues, check that you have set your Organisation as the owner of the course/module when you published the course. See the section on Visibilty [here](/docs/tuts/publish/course-create/) for more on this.
 
 
 ## Courses

@@ -6,17 +6,19 @@ description: "Get familiar with every aspect of the Codio experience"
 We hope you will love learning to code using Codio. This guide will get your started on using the Codio platform.
 
 ## Schools, Universities, Colleges or Private Tuition
-If you are using Codio from one of these scenarios, then your teacher will have already informed you about the signup process. In some cases, your teacher may have already created your account automatically.
+If you are using Codio at an education institution, then your teacher will have already informed you about the signup process. In some cases, your teacher may have already created your account automatically.
 
 Please refer to the other pages in this section of the documentation for useful information on your classes or running your own projects.
 
-## Individual Users
-If you are using Codio as an individual, hungry to learn how to code, then you should first sign up.
-
-Please refer to the other pages in this section of the documentation for useful information on accessing Course materials and using Codio and its web based IDE to code 100% in the Cloud.
-
 ## Student Discounts
 
-If you are a student in a School/College or University using Codio on your own, then you can request student single user pricing from the Billing screen.
-You can find the Account Settings icon at the bottom left of your Dashboard. When you click on the Billing section, follow the instructions to request your student single user licence.
-You may be required to verify your student status to receive the student pricing, so please ensure you have an educational email address or provide other proof.
+If you are a student in a School, College or University using Codio on your own, you can benefit from Codio education pricing when your licence is purchased through a member of your teaching staff.
+
+Your teaching staff can create a Codio "organisation" for any number of users with the condition that at least one member of your teaching staff subscribes and manages your Codio organisation.
+
+## Individual Users
+If you are using Codio as an individual, and not through an education institution, we offer an individual developer subscription, for access to Codio for projects and use of Codio stacks and starter packs.
+
+If you are interested in using Codio to learn to code as an individual, not part of an education institution, stay tuned, we will soon be introducing a self-learner subscription option wtih access to Codio courses.
+
+

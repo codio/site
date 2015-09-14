@@ -7,11 +7,15 @@ full_width: true
 We offer the following special arrangements for schools, universities, colleges and other teaching organizations.
 
 ##Educational Organization Trial
-We offer a full featured trial for your school and up to 250 students. Please go to the [Teacher Education](/docs/teacher/education/) section for instructions.
+Schools, universities and colleges can trial the full Codio experience free for 30 days with up to 250 students. Please go to the [Trialing Codio](/docs/teacher/trial/) section for instructions.
 
-##Student Discounts
-If you are a student using Codio on your own, then you can request special discount from the [Billing](/docs/dashboard/billing/) screen in your [Account Settings](/docs/dashboard/settings/) area
+##Education Discounts
+Education institutions benefit from a discount structure designed to make a Codio "whole school" licence affordable for large user groups.
 
-You can find the Account Settings icon at the bottom left of your Dashboard. When you click on this, goto the Billing tab and follow the instructions to request your student discount.
+For example, an annual school licence attracts a starting discount of almost 90% versus the annualised cost of a professional developer subscription, with further discounts available dependent on the size of your school group.
 
-You may be required to verify your student status to receive the discount, so please ensure you have an educational email address or provide other proof.
+Universities and other higher education institutions achieve discounts of approximately 50% or greater.
+
+You can explore Codio school and university prices and start an education trial by visiting our [pricing](/pricing) page.
+
+

@@ -8,6 +8,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+### September 14th, 2015
+- **Fixed**: next page buttons shown on last page of guides for authors.
+
 ### September 7th, 2015
 - **Feature**: added [Flode](/docs/teacher/special/flode/) (an integrated flowcharting tool where your Flode charts can run like real programs)
 

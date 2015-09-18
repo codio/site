@@ -9,8 +9,11 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 
-#### September 17th, 2015
+#### September 18th, 2015
 - **Fixed**: Resolved a couple of IE related errors, and improved performance a little.
+- **Fixed**: Resolved issue with starting units after deleting old one.
+
+#### September 17th, 2015
 - **Fixed**: Problem with creating/forking projects identified and fixed quickly.
 - **Fixed**: Can now navigate back after clicking a tag.
 - **Improvement**: Adding Modules to a Class now begins by selecting a Course, which then lets you find Modules much easier now that Modules must belong to Courses.

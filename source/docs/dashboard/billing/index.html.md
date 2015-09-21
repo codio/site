@@ -9,12 +9,9 @@ The normal user billing screen can be found on the Billing tab of [Account Setti
 ![Account Billing](/img/docs/account_billing.png)
 
 ##Educational Discounts
-We offer the following options for students, schools, colleges and universities 
+We offer substantial 'Whole School' license discounts for Schools, Colleges and Universities as well as a full 30 day trial of all the Education Features
 
-- Very substantial discounts for students of Schools, Colleges and Universities.
-- Even more substantial 'Whole School' license discounts for Schools, Colleges and Universities as well as a full 60 day trial.
-
-For full details, [click here](/docs/teacher/education).
+For full details of the Education Trial, [click here](/docs/teacher/trial/).
 
 ##Organizational Billing
 If you have an Organization account, we offer a [special billing screen here](/docs/dashboard/organizations/billing/).

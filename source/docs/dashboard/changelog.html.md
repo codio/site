@@ -9,6 +9,9 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 
+#### September 21st, 2015
+- **Fixed**: Resolved an issue where switching from one Unit to another would not complete.
+
 #### September 18th, 2015
 - **Fixed**: Resolved a couple of IE related errors, and improved performance a little.
 - **Fixed**: Resolved issue with starting units after deleting old one.

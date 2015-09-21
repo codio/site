@@ -9,6 +9,10 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 
+#### September 21st, 2015
+- **Fixed**: Corrected permission checking when using Classes, Courses, Modules and Units. Some of you were being asked for a subscription when you should not have been. This was a big one that had to be very carefully done, but be sure to [let us know](mailto:help@codio.com) if you experience any further issues.
+- **Fixed**: Resolved an issue where switching from one Unit to another would not complete.
+
 #### September 18th, 2015
 - **Fixed**: Resolved a couple of IE related errors, and improved performance a little.
 - **Fixed**: Resolved issue with starting units after deleting old one.

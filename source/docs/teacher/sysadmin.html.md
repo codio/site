@@ -15,17 +15,17 @@ This page contains information for
 ## Firewall settings
 The following is a list of ports and URLs that Codio access from time to time. We have put these in priority order.
 
-- ***.codio.com** the main Codio site and application
-- ***.codio.io** domains that are auto-generated for each user project
-- **api.keen.io** statistics gathering to measure student time spent in units   (stats)
-- ***.typekit.net** web fonts
-- **fonts.gstatic.com** web fonts
-- **fast.fonts.net** web fonts
-- ***.cloudfront.net** our CDN for speeding up static content
-- **cdn.mathjax.org** CDN for mathematical formulae engine
-- **gravatar.com** used for user gravatars (pictures)
+- __*.codio.com__ the main Codio site and application
+- __*.codio.io__ domains that are auto-generated for each user project
+- __api.keen.io__ statistics gathering to measure student time spent in units   (stats)
+- __*.typekit.net__ web fonts
+- __fonts.gstatic.com__ web fonts
+- __fast.fonts.net__ web fonts
+- __*.cloudfront.net__ our CDN for speeding up static content
+- __cdn.mathjax.org__ CDN for mathematical formulae engine
+- __gravatar.com__ used for user gravatars (pictures)
 
-- ***.intercom.io**, **cdnjs.cloudflare.com** and ***.pubnub.com** are highly recommended as they relate to  the help and support application (Intercom) built into Codio.
+- __*.intercom.io__, __cdnjs.cloudflare.com__ and __*.pubnub.com__ are highly recommended as they relate to  the help and support application (Intercom) built into Codio.
 
 
 ## Ports

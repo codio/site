@@ -38,7 +38,7 @@ We recommend opening the following ports
 ## Working from home
 Sometimes the anti-virus/firewall settings on your personal devices may interfere with home usage and make the experience slow.
 
-You should check your settings and ensure that items in the above "Firewall settings" list are not added to your exclusion list.
+You should check your settings and ensure that items in the above "Firewall settings" list are added to your exclusion list.
 
 
 

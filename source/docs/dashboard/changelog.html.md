@@ -9,6 +9,21 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 
+#### September 29th, 2015
+- **Fixed**: Stack browser now renders correctly within stack settings.
+
+#### September 28th, 2015
+- **Fixed**: Corrected height of, and placement of buttons in Course/Module browser.
+- **Fixed**: Resolved issue that produced an error when changing the Stack of a Unit.
+- **Fixed**: Resolved issue where points were not calculated correctly for multiple choice assessment questions, when a single response was used.
+
+#### September 25th, 2015
+- **Fixed**: Starting a Unit should no longer result in any 503 errors.
+- **Improvement**: Browser window title now changes when the page changes.
+
+#### September 24th, 2015
+- **Improvement**: When creating a Unit, the Stack version is now the most recent by default.
+
 #### September 23rd, 2015
 - **Improvement**: Creating/editing units now shows and selects the most recent version of the selected Stack, instead of the oldest.
 - **Fixed**: Resolved an issue in Guides, where switching pages sometimes did not update the Guide Content.

@@ -17,7 +17,7 @@ If you believe that your copyrighted work has been copied in a way that constitu
 The above information must be submitted to Codio at the following address, marked "Copyright Notice":
 
 > Codio
-> c/o Application Craft UK Ltd.
+> c/o Codio Ltd.
 > Address: 29 Wood St, Stratford-Upon-Avon CV37 6JG, United Kingdom
 > Email: support@codio.com
 > Subject: DMCA Notice

@@ -25,7 +25,7 @@ If you wish to assess the suitability of Codio for your needs, then you are able
 Questions regarding this Refund Policy should be directed to support@codio.com or by mailing
 
 > Codio
-> c/o Application Craft UK Ltd.
+> c/o Codio Ltd.
 > 29 Wood Street
 > Stratford Upon Avon
 > CV37 6JG

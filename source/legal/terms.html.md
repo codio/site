@@ -7,7 +7,7 @@ title: Terms and Conditions
 
 ###1. Your Agreement with the Company
 
-**1.1** Codio is a trading name and is fully owned by Application Craft UK Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
+**1.1** Codio is a trading name and is fully owned by Codio Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
 
 **1.2** Your use of the Codio service is governed by this agreement (the "Terms"). The Company is located at 29 Wood Street, Stratford Upon Avon CV37 6JG, United Kingdom and its subsidiaries or affiliates involved in providing the Codio Service. The “Codio Services” means the services Codio makes available through this website, including this website, the Codio cloud computing platform, the Codio APIs, any Codio Add-ons, and any other software or services offered by Codio in connection to any of those.
 

@@ -11,8 +11,8 @@ Your credit card will be billed once a month. You should see a clear reference t
 ##Centralized Billing for Multiple Accounts
 We will shortly be offering Organization accounts that allow one person to take over the billing of other users. This is not currently available but should be before October 2013.
 
-##Cancelations
-You may cancel your subscription at any time but your subscrition will remain active until the end of the subscription period. We do not offer refunds for subscriptions canceled partway through a month.
+##Cancellations
+You may cancel your subscription at any time but your subscription will remain active until the end of the subscription period. We do not offer refunds for subscriptions canceled partway through a month.
 
 ##General Refund Policy
 Codio does not offer refunds other than at its own, exclusive discretion. If you wish to cancel your subscription then your subscription will continue running until the end of the subscription period (one month). No partial refunds will be given.

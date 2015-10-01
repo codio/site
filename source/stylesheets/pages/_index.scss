@@ -316,7 +316,7 @@ body.index .header-block {
       @include breakpoint($break-tablet) {
         margin: 0;
         margin-left: 10%;
-        display: initial;
+        display: inline;
 
         &:first-child {
           margin-left: 0;

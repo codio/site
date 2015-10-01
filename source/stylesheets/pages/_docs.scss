@@ -181,7 +181,7 @@ body.docs .overview-section {
       padding: 0;
       width: auto;
       margin: 1.5rem auto;
-      float: initial;
+      float: none;
       text-align: center;
       display: inherit;
       border: 1px solid $light-gray;
@@ -192,7 +192,7 @@ body.docs .overview-section {
   }
 
   ul, ol {
-    list-style: initial;
+    list-style: disc outside none;
     padding-left: 20px;
     margin-bottom: $base-line-height;
   }

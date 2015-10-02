@@ -12,7 +12,7 @@ fixed: true
   </h2>
 
   <div class="action-buttons animated fadeInUp">
-    <%= link_to 'Get Started', '/p/signup', class: 'button button-large' %>
+    <%= link_to 'Get Started', '/p/free-education-trial', class: 'button button-large' %>
   </div>
 </section>
 
@@ -179,5 +179,5 @@ fixed: true
     </div>
   </div>
 
-  <%= partial "call-to-action" %>
+  <%= partial "call-to-action", locals: { url: "/p/free-education-trial" } %>
 </section>

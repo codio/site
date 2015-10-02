@@ -1,0 +1,32 @@
+.call-to-action {
+  text-align: center;
+  padding: 8rem 0;
+
+  h2 {
+    font-weight: 300;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 1rem 0;
+  }
+
+  .action-buttons {
+    margin: 4rem 0;
+
+    .button:first-child {
+      margin-right: 2rem;
+      padding: 5px 33px;
+    }
+
+    .button {
+      width: 125px;
+      padding: 5px 10px;
+    }
+  }
+
+  @include breakpoint($break-tablet) {
+    width: span(16 of 16);
+  }
+}

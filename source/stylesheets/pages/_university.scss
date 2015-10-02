@@ -69,14 +69,12 @@ body.university .header-block {
 
   margin: 0;
   padding: 0;
-  padding-top: 3 * $base-line-height;
 
   .section {
     @include container;
     @include break;
 
-    padding-top: 3 * $base-line-height;
-    padding-bottom: 3 * $base-line-height;
+    padding: 4rem 1rem;
     vertical-align: middle;
 
     @include breakpoint($break-tablet) {
@@ -85,6 +83,7 @@ body.university .header-block {
       margin: 0 span(2 of 16);
       float: inherit;
       max-width: $max-width;
+      padding: 8rem 1rem;
     }
 
     @include breakpoint($max-width) {
@@ -96,6 +95,7 @@ body.university .header-block {
   .blue {
     background: $gradient;
     color: white;
+    overflow: hidden;
 
     @include breakpoint($break-tablet) {
       margin: 0;
@@ -124,13 +124,31 @@ body.university .header-block {
   .section-block-row {
     @include container;
     @include break;
+
+    .section-block {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+
+      @include breakpoint($break-tablet) {
+        width: span(7 of 16);
+      }
+    }
   }
 
   .section-block-column {
+    @include container;
+
+    @include breakpoint($break-tablet) {
+      width: span(7 of 16);
+      margin-left: 0;
+      float: left;
+    }
+
     .section-block {
+      margin-bottom: 3rem;
+
       @include breakpoint($break-tablet) {
         @include break;
-        margin-bottom: 2rem;
       }
 
       &:first-of-type {
@@ -142,6 +160,8 @@ body.university .header-block {
         @include breakpoint($break-tablet) {
           margin-left: 0;
         }
+
+        margin-bottom: 0;
       }
 
     }
@@ -150,7 +170,6 @@ body.university .header-block {
   .section-block {
     @include container;
     @include breakpoint($break-tablet) {
-      width: span(7 of 16);
       float: left;
     }
 
@@ -192,5 +211,42 @@ body.university .header-block {
     height: 54px;
     margin-left: -81px;
     margin-bottom: -81px;
+  }
+
+  .border-wrapper.headline {
+    margin: 0 auto;
+    border-color: $university-blue;
+    width: 64px;
+    height: 64px;
+
+    svg.icon {
+      width: 64px;
+      height: 64px;
+      padding: 15px;
+    }
+  }
+
+  .center-image {
+    margin: 3rem auto;
+    display: block;
+  }
+
+  .right-image {
+    display: block;
+    margin: 3rem auto 0;
+
+    @include breakpoint($break-tablet) {
+      float: right;
+      margin-right: -60%;
+      margin-top: 0;
+    }
+
+    @include breakpoint(1100px) {
+      margin-right: -30%;
+    }
+
+    @include breakpoint(1550px) {
+      margin-right: -10%;
+    }
   }
 }

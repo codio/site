@@ -186,7 +186,6 @@ body.index .header-block {
     margin-top: 3rem;
 
     @include breakpoint($break-tablet) {
-
       @include container(12 of 16);
       margin-left: span(2 of 16);
       margin-right: span(2 of 16);
@@ -322,38 +321,6 @@ body.index .header-block {
           margin-left: 0;
         }
       }
-    }
-  }
-
-  .index-section-get-started {
-    text-align: center;
-
-    h2 {
-      font-weight: 300;
-    }
-
-    h3 {
-      font-size: 22px;
-      font-weight: 300;
-      margin: 1rem 0;
-    }
-
-    .action-buttons {
-      margin: 4rem 0;
-
-      .button:first-child {
-        margin-right: 2rem;
-        padding: 5px 33px;
-      }
-
-      .button {
-        width: 125px;
-        padding: 5px 10px;
-      }
-    }
-
-    @include breakpoint($break-tablet) {
-      width: span(16 of 16);
     }
   }
 }

@@ -27,6 +27,8 @@ fixed: true
         many features such as syntax highlighting, multiple code panes, auto-complete, integrated terminal and much more.
       </div>
 
+      <%= image_tag 'assets/university/ide.png', class: "center-image" %>
+
       <div class="section-block-row">
         <div class="section-block">
           <%= inline_svg "assets/university/cloud.svg", class: "icon" %>
@@ -85,10 +87,17 @@ fixed: true
           </div>
         </div>
       </div>
+      <div class="wow fadeIn" data-wow-duration=".8s" data-wow-delay="1s">
+        <%= image_tag 'assets/university/console.png', class: "right-image" %>
+        </div>
     </div>
   </div>
 
   <div class="section third">
+    <div class="border-wrapper headline">
+      <%= inline_svg "assets/university/ekg.svg", class: "icon" %>
+    </div>
+
     <h3 class="section-header">
       Student management tools
     </h3>
@@ -164,7 +173,11 @@ fixed: true
           </div>
         </div>
       </div>
+      <div class="wow fadeIn" data-wow-duration=".8s" data-wow-delay="1s">
+        <%= image_tag 'assets/university/guide.png', class: "right-image" %>
+        </div>
     </div>
   </div>
 
+  <%= partial "call-to-action" %>
 </section>

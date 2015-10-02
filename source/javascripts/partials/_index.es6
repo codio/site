@@ -5,6 +5,8 @@ $(() => {
   const eventType = ((document.ontouchstart !== null) ? 'click' : 'touchstart')
 
   $('.scrollto').on(eventType, function (event) {
+    event.preventDefault()
+
     const id = $(this).attr('href')
     const offset = 2 * headerHeight
     const target = $(id).offset().top - offset

@@ -1,7 +1,9 @@
 # coding: utf-8
 
 require "lib/helpers"
+require "lib/image_helpers"
 helpers MyHelpers
+helpers ImageHelpers
 
 require "susy"
 

@@ -14,70 +14,40 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: Resolved a regression in the main Dashboard navigation layout.
 - **Fixed**: IE11 UI bugs squashed.
 
-#### September 30th, 2015
-- **Improvement**: Improved upgrade experience.
-- **Fixed**: Adding users to an Organization via the invite token no longer alerts the user that they are in a trial.
-- **Fixed**: Resolved errors when accessing project settings from the the IDE.
-
-#### September 29th, 2015
-- **Fixed**: Stack browser now renders correctly within stack settings.
-
-#### September 28th, 2015
-- **Fixed**: Corrected height of, and placement of buttons in Course/Module browser.
-- **Fixed**: Resolved issue that produced an error when changing the Stack of a Unit.
-- **Fixed**: Resolved issue where points were not calculated correctly for multiple choice assessment questions, when a single response was used.
-
-#### September 25th, 2015
-- **Fixed**: Starting a Unit should no longer result in any 503 errors.
-- **Improvement**: Browser window title now changes when the page changes.
-
-#### September 24th, 2015
-- **Improvement**: When creating a Unit, the Stack version is now the most recent by default.
-
-#### September 23rd, 2015
-- **Improvement**: Creating/editing units now shows and selects the most recent version of the selected Stack, instead of the oldest.
-- **Fixed**: Resolved an issue in Guides, where switching pages sometimes did not update the Guide Content.
-- **Fixed**: Making sure that when creating a project, a correct notice is shown if no valid subscription is found.
-
-#### September 22nd, 2015
-- **Fixed**: More IE bugs squashed!
-- **Fixed**: Resolved an issue that prevented changing ownership of a Stack.
-- **Fixed**: deleting project from within the IDE now redirects back to the Dashboard - as it should!
-- **Improvement**: Filter input now shows a reset `X` button which can be used to instantly clear the filter.
-
-#### September 21st, 2015
-- **Fixed**: Corrected permission checking when using Classes, Courses, Modules and Units. Some of you were being asked for a subscription when you should not have been. This was a big one that had to be very carefully done, but be sure to [let us know](mailto:help@codio.com) if you experience any further issues.
-- **Fixed**: Resolved an issue where switching from one Unit to another would not complete.
-
-#### September 18th, 2015
-- **Fixed**: Resolved a couple of IE related errors, and improved performance a little.
-- **Fixed**: Resolved issue with starting units after deleting old one.
-
-#### September 17th, 2015
-- **Fixed**: Problem with creating/forking projects identified and fixed quickly.
-- **Fixed**: Can now navigate back after clicking a tag.
-- **Improvement**: Adding Modules to a Class now begins by selecting a Course, which then lets you find Modules much easier now that Modules must belong to Courses.
-- **Improvement**: Updated dashboard view in IE11 browsers.
-- **Improvement**: Added "Next Unit" button to the bottom of the last section in a Unit Guide, which will make it easier to progress through a Module.
-
-#### September 16th, 2015
-- **Fixed**: Renamed directories kept reappearing in the file tree. This has now been fixed.
-- **Improvements**: We no longer offer a totally free service. All new accounts now have a 14 day trial.
-
-#### September 14th, 2015
-- **Fixed**: next page buttons shown on last page of guides for authors.
-
-#### September 7th, 2015
-- **Feature**: added [Flode](/docs/teacher/special/flode/) (an integrated flowcharting tool where your Flode charts can run like real programs).
-
-#### September 4th, 2015
-- **Improvement**: add edit/preview toggle button in Guides.
-
-#### September 3rd, 2015
-- **Feature**: add edit/preview toggle button to Guides.
-
-#### September 1st, 2015
-- **Improvement**: enable Units to be moved/re-ordered in Modules & Courses.
+#### September 2015
+- **Improvement**: (September 30th) Improved upgrade experience.
+- **Fixed**: (September 30th) Adding users to an Organization via the invite token no longer alerts the user that they are in a trial.
+- **Fixed**: (September 30th) Resolved errors when accessing project settings from the the IDE.
+- **Fixed**: (September 29th) Stack browser now renders correctly within stack settings.
+- **Fixed**: (September 28th) Corrected height of, and placement of buttons in Course/Module browser.
+- **Fixed**: (September 28th) Resolved issue that produced an error when changing the Stack of a Unit.
+- **Fixed**: (September 28th) Resolved issue where points were not calculated correctly for multiple choice assessment questions, when a single response was used.
+- **Fixed**: (September 25th) Starting a Unit should no longer result in any 503 errors.
+- **Improvement**: (September 25th) Browser window title now changes when the page changes.
+- **Improvement**: (September 24th) When creating a Unit, the Stack version is now the most recent by default.
+- **Improvement**: (September 23rd) Creating/editing units now shows and selects the most recent version of the selected Stack, instead of the oldest.
+- **Fixed**: (September 23rd) Resolved an issue in Guides, where switching pages sometimes did not update the Guide Content.
+- **Fixed**: (September 23rd) Making sure that when creating a project, a correct notice is shown if no valid subscription is found.
+- **Fixed**: (September 22nd) More IE bugs squashed!
+- **Fixed**: (September 22nd) Resolved an issue that prevented changing ownership of a Stack.
+- **Fixed**: (September 22nd) deleting project from within the IDE now redirects back to the Dashboard - as it should!
+- **Improvement**: (September 22nd) Filter input now shows a reset `X` button which can be used to instantly clear the filter.
+- **Fixed**: (September 21st) Corrected permission checking when using Classes, Courses, Modules and Units. Some of you were being asked for a subscription when you should not have been. This was a big one that had to be very carefully done, but be sure to [let us know](mailto:help@codio.com) if you experience any further issues.
+- **Fixed**: (September 21st) Resolved an issue where switching from one Unit to another would not complete.
+- **Fixed**: (September 18th) Resolved a couple of IE related errors, and improved performance a little.
+- **Fixed**: (September 18th) Resolved issue with starting units after deleting old one.
+- **Fixed**: (September 17th) Problem with creating/forking projects identified and fixed quickly.
+- **Fixed**: (September 17th) Can now navigate back after clicking a tag.
+- **Improvement**: (September 17th) Adding Modules to a Class now begins by selecting a Course, which then lets you find Modules much easier now that Modules must belong to Courses.
+- **Improvement**: (September 17th) Updated dashboard view in IE11 browsers.
+- **Improvement**: (September 17th) Added "Next Unit" button to the bottom of the last section in a Unit Guide, which will make it easier to progress through a Module.
+- **Fixed**: (September 16th) Renamed directories kept reappearing in the file tree. This has now been fixed.
+- **Improvements**: (September 16th) We no longer offer a totally free service. All new accounts now have a 14 day trial.
+- **Fixed**: (September 14th) next page buttons shown on last page of guides for authors.
+- **Feature**: (September 7th) added [Flode](/docs/teacher/special/flode/) (an integrated flowcharting tool where your Flode charts can run like real programs).
+- **Improvement**: (September 4th) add edit/preview toggle button in Guides.
+- **Feature**: (September 3rd) add edit/preview toggle button to Guides.
+- **Improvement**: (September 1st) enable Units to be moved/re-ordered in Modules & Courses.
 
 #### August 2015
 - **Improvement**: (August 22nd) various [Guides](/docs/tuts/author/) updates and improvements.

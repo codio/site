@@ -9,6 +9,16 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 
+#### October 2nd, 2015
+- **Improvement**: New releases of the Dashboard no longer require a reload. Instead, we auto-detect and reload automatically when you switch pages.
+- **Fixed**: Resolved a regression in the main Dashboard navigation layout.
+- **Fixed**: IE11 UI bugs squashed.
+
+#### September 30th, 2015
+- **Improvement**: Improved upgrade experience.
+- **Fixed**: Adding users to an Organization via the invite token no longer alerts the user that they are in a trial.
+- **Fixed**: Resolved errors when accessing project settings from the the IDE.
+
 #### September 29th, 2015
 - **Fixed**: Stack browser now renders correctly within stack settings.
 

@@ -3,7 +3,10 @@
     <%= link_to 'Docs', '/docs' %>
   </li>
   <li <% if current_page.path.start_with?("pricing") then concat 'class="active"' end %>>
-    <%= link_to 'Pricing', '/pricing' %>
+    <%= link_to(
+      'Pricing',
+      (defined?(pricing) and !pricing.nil? ? "/pricing?type=#{pricing}" : '/pricing')
+    ) %>
   </li>
   <li>
     <%= link_to 'Community', 'http://forum.codio.com', target: '_blank' %>
@@ -12,6 +15,6 @@
     <%= link_to 'Log in', '/p/login' %>
   </li>
   <li>
-    <%= link_to 'Sign up', '/p/signup', class: 'button' %>
+    <%= link_to 'Sign up', (defined?(surl) and !surl.nil? ? surl : '/p/signup'), class: 'button' %>
   </li>
 </ul>

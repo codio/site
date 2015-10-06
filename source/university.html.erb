@@ -2,6 +2,8 @@
 title: "Codio for Universities"
 fixed: true
 ---
+<% @pricingType = "university" %>
+<% @signupUrl = "/p/free-education-trial" %>
 
 <section class='header-block'>
   <h1 class="animated fadeIn">
@@ -180,5 +182,5 @@ fixed: true
     </div>
   </div>
 
-  <%= partial "call-to-action", locals: { url: "/p/free-education-trial" } %>
+  <%= partial "call-to-action", locals: { url: "/p/free-education-trial", pricing: "university" } %>
 </section>

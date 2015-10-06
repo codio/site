@@ -7,6 +7,10 @@
   </h3>
   <div class="action-buttons">
     <%= link_to 'Get Started', (defined?(url) ? url : '/p/signup'), class: 'button button-large button-action' %>
-    <%= link_to 'View pricing', '/pricing', class: 'button button-large button-dark' %>
+    <%= link_to(
+      'View pricing',
+      (defined?(pricing) ? "/pricing?type=#{pricing}" : '/pricing'),
+      class: 'button button-large button-dark'
+    ) %>
   </div>
 </div>

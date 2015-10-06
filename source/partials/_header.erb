@@ -9,7 +9,7 @@
   <div class="container animated fadeInDown">
     <a href="/" class="logo-link"><%= image_tag 'logo-light.svg', class: 'logo' %></a>
     <nav>
-      <%= partial "nav" %>
+    <%= partial "nav", locals: {pricing: pricingType, surl: signupUrl} %>
     </nav>
   </div>
 </header>

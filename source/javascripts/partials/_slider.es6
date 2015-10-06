@@ -35,9 +35,17 @@ const DEFAULT_RANGE = {
   university: 'year'
 }
 
+const params = name => {
+  const results = new RegExp(`[\?&]${name}=([^&#]*)`).exec(window.location.href)
+  if (results == null) return null
+  return results[1] || 0
+}
+
+const defaultType = params('type') ? 'university' : 'school'
+
 const state = {
-  oldType: 'school',
-  type: 'school',
+  oldType: defaultType,
+  type: defaultType,
   range: DEFAULT_RANGE['school'],
   currency: DEFAULT_CURRENCY['school'],
   slider: null

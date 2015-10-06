@@ -5,7 +5,7 @@
   <li <% if current_page.path.start_with?("pricing") then concat 'class="active"' end %>>
     <%= link_to(
       'Pricing',
-      (defined?(pricing) and !pricing.nil? ? "/pricing?type=#{pricing}" : '/pricing')
+      (defined?(pricing) && !pricing.nil? ? "/pricing?type=#{pricing}" : '/pricing')
     ) %>
   </li>
   <li>
@@ -15,6 +15,6 @@
     <%= link_to 'Log in', '/p/login' %>
   </li>
   <li>
-    <%= link_to 'Sign up', (defined?(surl) and !surl.nil? ? surl : '/p/signup'), class: 'button' %>
+    <%= link_to 'Sign up', (defined?(surl) && !surl.nil? ? surl : '/p/signup'), class: 'button' %>
   </li>
 </ul>

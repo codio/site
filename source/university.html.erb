@@ -1,0 +1,184 @@
+---
+title: "Codio for Universities"
+fixed: true
+---
+
+<section class='header-block'>
+  <h1 class="animated fadeIn">
+    Codio for Universities
+  </h1>
+  <h2 class="animated fadeIn">
+    The cloud coding platform purpose-built for Computer Science education
+  </h2>
+
+  <div class="action-buttons animated fadeInUp">
+    <%= link_to 'Get Started', '/p/free-education-trial', class: 'button button-large' %>
+  </div>
+</section>
+
+<section class="university-body">
+  <div class="section first">
+    <h3 class="section-header">
+      Professional grade IDE
+    </h3>
+    <div class="section-body">
+      <div class="section-copy">
+        Codio is a web-based, professional grade code editor with many
+        features such as syntax highlighting, multiple code panes, auto-complete,
+        and an integrated terminal to a dedicated box in the cloud.
+      </div>
+
+      <%= image_tag 'assets/university/ide.png', class: "center-image" %>
+
+      <div class="section-block-row">
+        <div class="section-block">
+          <%= inline_svg "assets/university/cloud.svg", class: "icon" %>
+          <h4 class="section-block-header">
+            Your computers in the cloud
+          </h4>
+          <div class="section-block-copy">
+            You can create as many projects as you need. Each
+            one gets an Ubuntu server with sudo level access and
+            its own web-accessible domain name.
+          </div>
+        </div>
+        <div class="section-block">
+          <%= inline_svg "assets/university/monitor-phone-vertical.svg", class: "icon" %>
+          <h4 class="section-block-header">
+            Consistency across the board
+          </h4>
+          <div class="section-block-copy">
+            Being web-based, there's no software to install. You
+            can use it in the classroom or at home without having to
+            worry about everyone having different machines and setups.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blue">
+    <div class="section second">
+      <div class="section-block-column">
+        <div class="section-block">
+          <div class="border-wrapper">
+            <%= inline_svg "assets/university/layers.svg", class: "icon white" %>
+          </div>
+          <h4 class="section-block-header">
+            Templates for your students
+          </h4>
+          <div class="section-block-copy">
+            Project setup can be a serious pain. Codio lets you
+            configure a template machine with all the software
+            configuration and code you need, then publish it for students to
+            use instantly.
+          </div>
+        </div>
+        <div class="section-block">
+          <div class="border-wrapper">
+            <%= inline_svg "assets/university/atom.svg", class: "icon white" %>
+          </div>
+          <h4 class="section-block-header">
+            Conflict free
+          </h4>
+          <div class="section-block-copy">
+            Working with multiple projects and software environments often creates version
+            control and software configuration issues. Because all Codio projects
+            have their own dedicated server, there is no risk of conflicting components.
+          </div>
+        </div>
+      </div>
+      <div class="wow fadeIn" data-wow-duration=".8s" data-wow-delay="1s">
+        <%= image_tag 'assets/university/console.png', class: "right-image" %>
+        </div>
+    </div>
+  </div>
+
+  <div class="section third">
+    <div class="border-wrapper headline">
+      <%= inline_svg "assets/university/ekg.svg", class: "icon" %>
+    </div>
+
+    <h3 class="section-header">
+      Student management tools
+    </h3>
+    <div class="section-body">
+
+      <div class="section-block-row">
+        <div class="section-block">
+          <%= inline_svg "assets/university/tools.svg", class: "icon" %>
+          <h4 class="section-block-header">
+            Class management
+          </h4>
+          <div class="section-block-copy">
+            Codio offers full support for managing classes and assigning projects or
+            course content. Creating class groups and sharing course resources is easy -
+            and our dashboard allows you to track student engagement.
+          </div>
+        </div>
+        <div class="section-block">
+          <%= inline_svg "assets/university/code.svg", class: "icon" %>
+          <h4 class="section-block-header">
+            Immediate access to students' code
+          </h4>
+          <div class="section-block-copy">
+            You can instantly access and execute students' code.
+            You'll have the matching stack as you're accessing the student's server
+            and configuration directly. As a result, there's no code sharing by email or USB drive.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blue">
+    <div class="section fourth">
+      <div class="section-block-column">
+        <div class="section-block">
+          <div class="border-wrapper">
+            <%= inline_svg "assets/university/pencil.svg", class: "icon white" %>
+          </div>
+          <h4 class="section-block-header">
+            Content authoring
+          </h4>
+          <div class="section-block-copy">
+            Codio's editor lets you create your own course content that is tightly bound to the IDE.
+            Tutorial pages can control the IDE, open files, command lines or previews.
+            Students can interact with and modify live code, creating a uniquely different learning experience.
+          </div>
+        </div>
+        <div class="section-block">
+          <div class="border-wrapper">
+            <%= inline_svg "assets/university/math.svg", class: "icon white" %>
+          </div>
+          <h4 class="section-block-header">
+            Integrated assessments
+          </h4>
+          <div class="section-block-copy">
+            Teachers can embed several different assessment types in their tutorials,
+            including automated code tests, MCQs, the ability to grade code and more.
+          </div>
+        </div>
+        <div class="section-block">
+          <div class="border-wrapper">
+            <%= inline_svg "assets/university/folders.svg", class: "icon white" %>
+          </div>
+          <h4 class="section-block-header">
+            Codio courses
+          </h4>
+          <div class="section-block-copy">
+            Codio courses are an ideal foundation in the areas of general programming,
+            Web Development, MySQL, Linux and standard search and sort algorithms.
+            Courses contain auto-graded assessments that provide
+            instant teacher feedback via the class dashboards.
+          </div>
+        </div>
+      </div>
+      <div class="wow fadeIn" data-wow-duration=".8s" data-wow-delay="1s">
+        <%= image_tag 'assets/university/guide.png', class: "right-image" %>
+        </div>
+    </div>
+  </div>
+
+  <%= partial "call-to-action", locals: { url: "/p/free-education-trial" } %>
+</section>

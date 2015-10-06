@@ -19,7 +19,7 @@ body.university .header-block {
   background-size: cover;
   background-image: $gradient;
   height: 100vh;
-  max-height: 750px;
+  max-height: 738px;
   color: white;
   position: relative;
 
@@ -42,14 +42,19 @@ body.university .header-block {
 
     @include breakpoint($break-tablet) {
       margin-top: 8 * $base-line-height;
+      line-height: 83px;
     }
   }
 
   h2 {
     text-align: center;
     font-weight: 200;
-    font-size: 36px;
+    font-size: 27px;
     animation-delay: .8s;
+
+    @include breakpoint($break-tablet) {
+      line-height: 25px;
+    }
   }
 
   .action-buttons {

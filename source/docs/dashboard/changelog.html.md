@@ -9,6 +9,35 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 
+#### October 15th, 2015
+- **Improvement**: Organization token is now easier to select and copy to your clipboard.
+- **Improvement**: Added a "Reset" button in Guides to allow students to reset the state of the current section.
+- **Fixed**: Miscellaneous IE bugs squashed.
+
+#### October 13th, 2015
+- **Improvement**: Miscellaneous improvements to the Class/Course/Module/Unit pages, which are intended to make it easier to know where you are at any given time.
+- **Improvement**: When assigning a Unit to a Module, we now automatically use the stack used by the source.
+- **Improvement**: Improved stack building notification.
+
+#### October 12th, 2015
+- **Improvement**: Modules are now grouped by Course when inside a Class.
+
+#### October 9th, 2015
+- **Fixed**: Organization invite token is now correctly generated - always!
+
+#### October 7th, 2015
+- **Fixed**: Fixed the Colour picker to make sure it is positioned correctly.
+
+#### October 6th, 2015
+- **Improvement**: The "Close all tabs" option in Guides editor now supports the Terminal.
+- **Improvement**: A warning is now shown when you attempt to start a Unit that is part of a class that you are a student in. For the sake of your teacher's sanity, please start your Unit's via your class.
+
+#### October 5th, 2015
+- **Fixed**: Some projects with Guides could not be opened.
+
+#### October 3rd, 2015
+- **Improvement**: The Dashboard is now powered by a lightning fast CDN!
+
 #### October 2nd, 2015
 - **Improvement**: New releases of the Dashboard no longer require a reload. Instead, we auto-detect and reload automatically when you switch pages.
 - **Fixed**: Resolved a regression in the main Dashboard navigation layout.

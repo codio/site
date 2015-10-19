@@ -14,3 +14,11 @@ Codio is best experienced on the very latest browsers, in particular Chrome, but
 
 
 If you are experiencing any issue where Codio will not run and the above list says it should, then either Tweet [@CodioHQ](https://twitter.com/codiohq) or send an email to support@codio.com.
+
+<a name="ie-compatibility"></a>
+## Disable IE Compatibility View
+
+It could happen that even if you have Internet Explorer 10 or Later, we detect a older version of the browser.
+This is due to the *Compatibility Mode* of the Browser which enables old features we no longer support.
+
+To disable this option, please go to ***Tools → F12 developer tools → Browser Mode*** and select **Internet Explorer 10**.

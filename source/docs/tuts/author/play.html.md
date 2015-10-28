@@ -23,7 +23,7 @@ Within the player various options can be controlled by the user
 - **[Show/Hide Section List Hamburger Icon](/docs/tuts/author/collapse/)** allows the user to show/hide the section list.
 
 ## Restore Current Files
-The Restore Current Files feature is a great way for students to reset/restore any files on that page to its initial state after hacking sample code around. Students can restore their flies from the menu as shown below.
+The Restore Current Files feature is a great way for students to reset/restore any files on that page to its initial state after hacking sample code around. Students can restore their files from the menu as shown below.
 
 <img alt="authtoken" src="/img/docs/guides/reset.png" class="simple"/>
 

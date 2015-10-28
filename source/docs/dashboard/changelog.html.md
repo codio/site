@@ -8,6 +8,16 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+#### October 22nd, 2015
+- **Improvement**: Greatly improved the spacing of list items to make better use of space, and providing greater visibility with less scrolling.
+
+#### October 20th, 2015
+- **Fixed**: Units were showing a wrong count of assessments.
+- **Fixed**: More IE bugs squashed!
+
+#### October 19th, 2015
+- **Improvement**: Teachers are now automatically given required admin permissions when opening a Students existing Unit. This will allow the teacher to provide full assistance to the Student.
+- **Improvement**: Course and Module lists now have a new "Organizations" tab, that filters Courses and Modules by the Organization that they are owned by, this making it easier to find what you want.
 
 #### October 15th, 2015
 - **Improvement**: Organization token is now easier to select and copy to your clipboard.

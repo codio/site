@@ -8,6 +8,26 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+#### November 5th, 2015
+- **Improvement**: The Organization invite token has been changed to use a two word phrase, making it easier to remember and verbally pass around.
+
+#### October 30th, 2015
+- **Improvement**: The Projects list has been split into two main lists: "My Projects" and "My Units", in an attempt to make it easier to find what you want.
+- **Improvement**: Added a switch to Guides player to allow the content to be viewed as a Teacher or Student.
+
+#### October 28th, 2015
+- **Fixed**: Parse deployment now works correctly.
+- **Fixed**: Resetting a Guide chapter now reloads opened files as they should do.
+
+#### October 27th, 2015
+- **Improvement**: Added spell checking for Guides authoring.
+- **Improvement**: Upgraded CodeMirror to the latest and greatest, which includes a few new themes and modes.
+
+#### October 26th, 2015
+- **Improvement**: Prefixed shared projects with the username of the user who has shared it with you.
+- **Fixed**: Resolved issue when browser could freeze while searching in project.
+- **Fixed**: Resolved a few IE user interface issues.
+
 #### October 22nd, 2015
 - **Improvement**: Greatly improved the spacing of list items to make better use of space, and providing greater visibility with less scrolling.
 

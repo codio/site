@@ -131,7 +131,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - **Fixed**: (June 30th) changing class owner caused classes to be inaccessible.
 - **Improvement**: (June 30th) always autostart Guides when running from a Course or Module unit.
 - **Fixed**: (June 24th) delete project dialogs.
-- **Feature**: (June 24th) added support for [Tkinter](/docs/teacher/tkinter).
+- **Feature**: (June 24th) added support for [Tkinter](/docs/teacher/special/tkinter).
 - **Improvement**: (June 24th) add `Need Help? Contact Us` link to Dashboard.
 - **Improvement**: (June 23rd) include course name in modules listings.
 - **Improvement**: (June 23rd) add ability to filter modules listing for recommended Courses.

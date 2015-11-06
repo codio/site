@@ -21,6 +21,8 @@
 <meta name="application-name" content="Codio">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+<%= partial "structured-markup" %>
+
 <!-- Youtube verification -->
 <meta name="google-site-verification" content="ZJIthBODpvDLm7Elp9WM89B2jsUxEpMTVZQRChHgzr4" />
 
@@ -40,5 +42,5 @@
 <%= stylesheet_link_tag "all" %>
 
 <% unless current_page.app.development? %>
-  <%= partial  "vendors/google-analytics" %>
+  <%= partial "vendors/google-analytics" %>
 <% end %>

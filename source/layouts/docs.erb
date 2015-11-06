@@ -16,4 +16,12 @@
       <%= yield %>
     </article>
 
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "<%= current_resource.data.title %>",
+        "datePublished": "<%= File.ctime(Dir.glob("source/#{request.path}*")[0]).iso8601 %>"
+      }
+    </script>
 <% end %>

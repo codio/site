@@ -11,67 +11,37 @@ We do not report small bug fixes or issues that affect individual users, who we 
 #### November 5th, 2015
 - **Improvement**: The Organization invite token has been changed to use a two word phrase, making it easier to remember and verbally pass around.
 
-#### October 30th, 2015
-- **Improvement**: The Projects list has been split into two main lists: "My Projects" and "My Units", in an attempt to make it easier to find what you want.
-- **Improvement**: Added a switch to Guides player to allow the content to be viewed as a Teacher or Student.
-
-#### October 28th, 2015
-- **Fixed**: Parse deployment now works correctly.
-- **Fixed**: Resetting a Guide chapter now reloads opened files as they should do.
-
-#### October 27th, 2015
-- **Improvement**: Added spell checking for Guides authoring.
-- **Improvement**: Upgraded CodeMirror to the latest and greatest, which includes a few new themes and modes.
-
-#### October 26th, 2015
-- **Improvement**: Prefixed shared projects with the username of the user who has shared it with you.
-- **Fixed**: Resolved issue when browser could freeze while searching in project.
-- **Fixed**: Resolved a few IE user interface issues.
-
-#### October 22nd, 2015
-- **Improvement**: Greatly improved the spacing of list items to make better use of space, and providing greater visibility with less scrolling.
-
-#### October 20th, 2015
-- **Fixed**: Units were showing a wrong count of assessments.
-- **Fixed**: More IE bugs squashed!
-
-#### October 19th, 2015
-- **Improvement**: Teachers are now automatically given required admin permissions when opening a Students existing Unit. This will allow the teacher to provide full assistance to the Student.
-- **Improvement**: Course and Module lists now have a new "Organizations" tab, that filters Courses and Modules by the Organization that they are owned by, this making it easier to find what you want.
-
-#### October 15th, 2015
-- **Improvement**: Organization token is now easier to select and copy to your clipboard.
-- **Improvement**: Added a "Reset" button in Guides to allow students to reset the state of the current section.
-- **Fixed**: Miscellaneous IE bugs squashed.
-
-#### October 13th, 2015
-- **Improvement**: Miscellaneous improvements to the Class/Course/Module/Unit pages, which are intended to make it easier to know where you are at any given time.
-- **Improvement**: When assigning a Unit to a Module, we now automatically use the stack used by the source.
-- **Improvement**: Improved stack building notification.
-
-#### October 12th, 2015
-- **Improvement**: Modules are now grouped by Course when inside a Class.
-
-#### October 9th, 2015
-- **Fixed**: Organization invite token is now correctly generated - always!
-
-#### October 7th, 2015
-- **Fixed**: Fixed the Colour picker to make sure it is positioned correctly.
-
-#### October 6th, 2015
-- **Improvement**: The "Close all tabs" option in Guides editor now supports the Terminal.
-- **Improvement**: A warning is now shown when you attempt to start a Unit that is part of a class that you are a student in. For the sake of your teacher's sanity, please start your Unit's via your class.
-
-#### October 5th, 2015
-- **Fixed**: Some projects with Guides could not be opened.
-
-#### October 3rd, 2015
-- **Improvement**: The Dashboard is now powered by a lightning fast CDN!
-
-#### October 2nd, 2015
-- **Improvement**: New releases of the Dashboard no longer require a reload. Instead, we auto-detect and reload automatically when you switch pages.
-- **Fixed**: Resolved a regression in the main Dashboard navigation layout.
-- **Fixed**: IE11 UI bugs squashed.
+#### October 2015
+- **Improvement**: (October 30th) The Projects list has been split into two main lists: "My Projects" and "My Units", in an attempt to make it easier to find what you want.
+- **Improvement**: (October 30th) Added a switch to Guides player to allow the content to be viewed as a Teacher or Student.
+- **Fixed**: (October 28th) Parse deployment now works correctly.
+- **Fixed**: (October 28th) Resetting a Guide chapter now reloads opened files as they should do.
+- **Improvement**: (October 27th) Added spell checking for Guides authoring.
+- **Improvement**: (October 27th) Upgraded CodeMirror to the latest and greatest, which includes a few new themes and modes.
+- **Improvement**: (October 26th) Prefixed shared projects with the username of the user who has shared it with you.
+- **Fixed**: (October 26th) Resolved issue when browser could freeze while searching in project.
+- **Fixed**: (October 26th) Resolved a few IE user interface issues.
+- **Improvement**: (October 22nd) Greatly improved the spacing of list items to make better use of space, and providing greater visibility with less scrolling.
+- **Fixed**: (October 20th) Units were showing a wrong count of assessments.
+- **Fixed**: (October 20th) More IE bugs squashed!
+- **Improvement**: (October 19th) Teachers are now automatically given required admin permissions when opening a Students existing Unit. This will allow the teacher to provide full assistance to the Student.
+- **Improvement**: (October 19th) Course and Module lists now have a new "Organizations" tab, that filters Courses and Modules by the Organization that they are owned by, this making it easier to find what you want.
+- **Improvement**: (October 15th) Organization token is now easier to select and copy to your clipboard.
+- **Improvement**: (October 15th) Added a "Reset" button in Guides to allow students to reset the state of the current section.
+- **Fixed**: (October 15th) Miscellaneous IE bugs squashed.
+- **Improvement**: (October 13th) Miscellaneous improvements to the Class/Course/Module/Unit pages, which are intended to make it easier to know where you are at any given time.
+- **Improvement**: (October 13th) When assigning a Unit to a Module, we now automatically use the stack used by the source.
+- **Improvement**: (October 13th) Improved stack building notification.
+- **Improvement**: (October 12th) Modules are now grouped by Course when inside a Class.
+- **Fixed**: (October 9th) Organization invite token is now correctly generated - always!
+- **Fixed**: (October 7th) Fixed the Colour picker to make sure it is positioned correctly.
+- **Improvement**: (October 6th) The "Close all tabs" option in Guides editor now supports the Terminal.
+- **Improvement**: (October 6th) A warning is now shown when you attempt to start a Unit that is part of a class that you are a student in. For the sake of your teacher's sanity, please start your Unit's via your class.
+- **Fixed**: (October 5th) Some projects with Guides could not be opened.
+- **Improvement**: (October 3rd) The Dashboard is now powered by a lightning fast CDN!
+- **Improvement**: (October 2nd) New releases of the Dashboard no longer require a reload. Instead, we auto-detect and reload automatically when you switch pages.
+- **Fixed**: (October 2nd) Resolved a regression in the main Dashboard navigation layout.
+- **Fixed**: (October 2nd) IE11 UI bugs squashed.
 
 #### September 2015
 - **Improvement**: (September 30th) Improved upgrade experience.

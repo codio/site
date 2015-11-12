@@ -28,7 +28,7 @@ Go to the `Upload Users` tab and select the `Begin New Upload` button
 
 The file should be a CSV file that can contain the following details: email (required), name, username, class.
 
-- If your CSV file includes Column names in the first row (as defined above), the order is not important but if your file does not contain the Column names in the first row the order of the content is important. The column name are case sensitive so `email` is OK but `Email` will fail.
+- If your CSV file includes Column names in the first row (as defined above), the order is not important but if your file does not contain the Column names in the first row the order of the content is important.
 - If you specify usernames in the upload file for your users and wish to minimize the chances of conflicts with existing user accounts, enable the `Prefix Usernames` option and you can then enter a short value. The username will be prefixed with this value.
 - If your CSV file includes a `class`, this will be created for you if it does not already exist. If the class already exists (please note case is important), the users will be added to that class for you.
 - Select the group you wish to add these users to.

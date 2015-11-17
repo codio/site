@@ -321,4 +321,45 @@ body.school .header-block {
       }
     }
   }
+
+  .blue {
+    fill: $light-blue;
+  }
+
+  .school-section-block-row {
+    @include container;
+    @include break;
+
+    .section-block {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      overflow: hidden;
+      text-overflow: clip;
+      margin-right: span(3 of 50);
+
+      @include breakpoint($break-tablet) {
+        width: span(10 of 50);
+      }
+    }
+  }
+
+  .section-block {
+    @include container;
+    @include breakpoint($break-tablet) {
+      float: left;
+    }
+
+    &:first-of-type {
+      @include breakpoint($break-tablet) {
+        margin-left: span(10 of 50);
+        width: span(9 of 50);
+      }
+    }
+
+    &:last-of-type {
+      @include breakpoint($break-tablet) {
+        width: span(12 of 50);
+      }
+    }
+  }
 }

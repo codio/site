@@ -16,7 +16,7 @@ body.school .header-block {
   @include span(4);
   background-size: cover;
   background-color: $dark-gray;
-  height: 100vh;
+  height: 50vh;
   max-height: 800px;
   color: white;
   position: relative;
@@ -39,7 +39,7 @@ body.school .header-block {
     animation-delay: .4s;
 
     @include breakpoint($break-tablet) {
-      margin-top: 4 * $base-line-height;
+      margin-top: 2 * $base-line-height;
     }
   }
 
@@ -66,7 +66,7 @@ body.school .header-block {
 
   .video-link {
     display: block;
-    margin: 14rem auto 0;
+    margin: 4rem auto 0;
     text-align: center;
     color: #FFFFFF;
   }
@@ -117,6 +117,10 @@ body.school .header-block {
     h2 {
       font-size: 39px;
     }
+  }
+
+  .school-section.confidence {
+    padding: 0;
   }
 
   .school-section-left {

@@ -1,0 +1,366 @@
+body.school {
+  header .container,
+  footer .container {
+    @include breakpoint($school-max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: -65px auto 0 auto;
+    max-width: 100%;
+  }
+}
+
+body.school .header-block {
+  @include span(4);
+  background-size: cover;
+  background-color: $dark-gray;
+  max-height: 800px;
+  color: white;
+  position: relative;
+
+  @include breakpoint(max-width $break-tablet) {
+    height: 615px;
+  }
+
+  @include breakpoint($break-tablet) {
+    background: url('/img/assets/school/atf.jpg') no-repeat top center fixed;
+    background-color: $dark-gray;
+    height: 500px;
+  }
+
+  @include breakpoint($school-max-width) {
+    background: url('/img/assets/school/atf-large.jpg') no-repeat top center fixed;
+    background-color: $dark-gray;
+    height: 500px;
+  }
+
+  h1 {
+    margin-top: 4 * $base-line-height;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    animation-delay: .4s;
+
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: $base-line-height;
+    }
+
+    @include breakpoint($break-tablet) {
+      margin-top: 2 * $base-line-height;
+    }
+
+    @include breakpoint($school-max-width) {
+      margin-top: 4 * $base-line-height;
+     }
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    animation-delay: .8s;
+
+    @include breakpoint($break-tablet) {
+      line-height: 25px;
+    }
+  }
+
+  .action-buttons {
+    animation-delay: 1.2s;
+    margin: 90px auto 0 auto;
+    text-align: center;
+
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 30px;
+    }
+
+    .button:first-child {
+      @include breakpoint($break-tablet) {
+        margin-right: 15px;
+      }
+      @include breakpoint(max-width $break-tablet) {
+        margin-bottom: 10px;
+      }
+    }
+
+    @include breakpoint(max-width $break-tablet) {
+      .button {
+        white-space: nowrap;
+        display: inline-block;
+        min-width: 200px;
+        height: auto;
+      }
+    }
+  }
+
+  .video-link {
+    display: block;
+    margin: 4rem auto 0;
+    text-align: center;
+    color: #FFFFFF;
+
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 6rem;
+    }
+  }
+
+  .border-wrapper {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    width: 54px;
+    height: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-left: 3px;
+  }
+
+  .icon {
+    fill: white;
+  }
+
+}
+
+.school-content {
+  @include container;
+  @include break;
+  @include span(4);
+  padding-top: 3 * $base-line-height;
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    width: span(14 of 16);
+    margin: 0 span(1 of 16);
+    float: inherit;
+    max-width: $school-max-width;
+  }
+
+  @include breakpoint($school-max-width) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .school-section {
+    @include container;
+    @include break;
+
+    padding: 3 * $base-line-height 0;
+    vertical-align: middle;
+
+    h2 {
+      font-size: 39px;
+    }
+  }
+
+  .school-section.confidence {
+    padding: 0;
+  }
+
+  .school-section-left {
+    @include container;
+
+    @include breakpoint($break-tablet) {
+      @include span(8 of 16);
+    }
+  }
+  .school-section-right {
+    @include container;
+
+    @include breakpoint($break-tablet) {
+      @include span(6 of 16);
+      margin: 0 span(2 of 16);
+    }
+  }
+
+  .school-section-curriculum {
+    @include breakpoint($break-tablet) {
+      height: 45rem;
+
+      .school-section-left {
+        padding-top: 9rem;
+      }
+    }
+  }
+
+  .school-section-curriculum-img {
+    @include container;
+    height: 400px;
+    background: url('/img/assets/school/placeholder.png') no-repeat top left;
+    background-size: contain;
+
+    @include breakpoint($break-tablet) {
+      background-size: inherit;
+      width: span(6 of 16);
+      height: 600px;
+      position: absolute;
+      right: 0;
+      margin: 0;
+    }
+  }
+
+
+  .school-section-projects-top {
+    @include container(4 of 4);
+
+    @include breakpoint($break-tablet) {
+      width: span(10 of 16);
+      margin: 0 span(3 of 16);
+    }
+
+    h2 {
+      margin-bottom: 2rem;
+
+      @include breakpoint($break-tablet) {
+        text-align: center;
+      }
+    }
+  }
+
+  .school-section-projects-bottom {
+    @include container;
+    margin-top: 3rem;
+
+    @include breakpoint($break-tablet) {
+      @include container(12 of 16);
+      margin-left: span(2 of 16);
+      margin-right: span(2 of 16);
+    }
+  }
+
+  .school-section-projects-img {
+
+    @include container;
+    display: none;
+    text-align: center;
+
+    figcaption {
+      display: none;
+      font-size: $base-font-size;
+      font-weight: 500;
+      margin-top: 2rem;
+    }
+
+    &:first-child {
+      display: inline-block;
+      width: span(4 of 4);
+    }
+
+    @include breakpoint($break-tablet) {
+      display: inline-block;
+      width: span(3 of 12);
+      margin: 0 span(.667 of 12);
+
+      img {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      figcaption {
+        display: block;
+      }
+
+      &:first-child {
+        margin-left: 0;
+        width: span(3 of 12);
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .school-section-assessments {
+    @include container;
+
+    @include breakpoint($break-tablet) {
+      height: 25rem;
+    }
+  }
+
+  .school-section-assessments-img {
+    @include breakpoint($break-tablet) {
+      width: span(6 of 16);
+      height: 276px;
+      background: url('/img/assets/school/assessments.png') no-repeat top left;
+      position: absolute;
+      right: 0;
+      margin: 0;
+    }
+  }
+
+  .school-section-content {
+    h2 {
+      text-align: center;
+    }
+  }
+  .school-section-content-copy {
+    @include container(4 of 4);
+
+    @include breakpoint($break-tablet) {
+      width: span(12 of 16);
+      margin: 0 span(2 of 16);
+    }
+  }
+
+  .school-section-content-img {
+    @include container(4 of 4);
+
+    margin: 2rem 0;
+
+    @include breakpoint($break-tablet) {
+      display: block;
+      width: span(14 of 16);
+      max-width: 855px;
+      margin: 2rem span(1 of 16);
+    }
+
+    @include breakpoint($school-max-width) {
+      margin: 2rem auto;
+    }
+  }
+
+  .blue {
+    fill: $light-blue;
+  }
+
+  .school-section-block-row {
+    @include container;
+    @include break;
+
+    .section-block {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      overflow: hidden;
+      text-overflow: clip;
+      margin-right: span(3 of 50);
+
+      @include breakpoint($break-tablet) {
+        width: span(10 of 50);
+      }
+    }
+  }
+
+  .section-block {
+    @include container;
+    @include breakpoint($break-tablet) {
+      float: left;
+    }
+
+    &:first-of-type {
+      @include breakpoint($break-tablet) {
+        margin-left: span(10 of 50);
+        width: span(9 of 50);
+      }
+    }
+
+    &:last-of-type {
+      @include breakpoint($break-tablet) {
+        width: span(12 of 50);
+      }
+    }
+  }
+}

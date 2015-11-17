@@ -18,11 +18,18 @@
     .button:first-child {
       margin-right: 2rem;
       padding: 5px 33px;
+      @include breakpoint(max-width $break-tablet) {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
     }
 
     .button {
-      width: 125px;
       padding: 5px 10px;
+      display: inline-block;
+      white-space: nowrap;
+      min-width: 200px;
+      height: auto;
     }
   }
 

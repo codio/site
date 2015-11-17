@@ -1,4 +1,5 @@
 //= require 'animate.css/animate.css'
+//= require 'magnific-popup'
 
 @charset 'utf-8';
 
@@ -44,6 +45,7 @@ $susy: (
 
 @import 'pages/index';
 @import 'pages/university';
+@import 'pages/school';
 @import 'pages/pricing';
 @import 'pages/docs';
 @import 'pages/legal';

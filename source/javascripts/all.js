@@ -10,6 +10,7 @@
 //= require swiftype-jquery/jquery.ba-hashchange.min.js
 //= require swiftype-jquery
 //= require numeral
+//= require magnific-popup
 //
 //= require_tree ./vendors
 //

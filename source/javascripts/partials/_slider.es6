@@ -19,7 +19,7 @@ const DEFAULT_LINK = {
 
 const DEFAULT_START = {
   developer: 0,
-  school: 3,
+  school: 0,
   university: 3
 }
 

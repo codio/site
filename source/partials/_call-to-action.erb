@@ -6,7 +6,7 @@
     The world of Codio is waiting for you
   </h3>
   <div class="action-buttons">
-    <%= link_to 'Get Started', (defined?(url) ? url : '/p/signup'), class: 'button button-large button-action' %>
+    <%= link_to (defined?(text) ? text : 'Get Started'), (defined?(url) ? url : '/p/signup'), class: (defined?(main) ? 'button button-large button-action button-main' : 'button button-large button-action') %>
     <%= link_to(
       'View pricing',
       (defined?(pricing) ? "/pricing?type=#{pricing}" : '/pricing'),

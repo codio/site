@@ -57,3 +57,14 @@
   color: $lighter-blue;
   border-color: $lighter-blue;
 }
+
+.button.button-main {
+  color: white;
+  background-color: $orange;
+  border-color: $orange;
+}
+
+.button.button-main:hover {
+  background-color: $lighter-orange;
+  border-color: $lighter-orange;
+}

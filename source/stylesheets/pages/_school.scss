@@ -53,7 +53,7 @@ body.school .header-block {
 
     @include breakpoint($max-width) {
       margin-top: 4 * $base-line-height;
-    }
+     }
   }
 
   h2 {
@@ -320,44 +320,6 @@ body.school .header-block {
 
     @include breakpoint($max-width) {
       margin: 2rem auto;
-    }
-  }
-
-  .school-section-partners {
-    text-align: center;
-    padding: 4 * $base-line-height 0;
-
-    h2 {
-      font-size: 22px;
-      font-weight: 300;
-      text-transform: uppercase;
-      color: $light-gray;
-    }
-
-    @include breakpoint($break-tablet) {
-      width: span(16 of 16);
-    }
-  }
-
-  .school-section-partners-img {
-    @include container;
-    margin-top: 2 * $base-line-height;
-
-    img {
-      display: block;
-      width: auto;
-      margin: 4rem auto;
-
-
-      @include breakpoint($break-tablet) {
-        margin: 0;
-        margin-left: 10%;
-        display: inline;
-
-        &:first-child {
-          margin-left: 0;
-        }
-      }
     }
   }
 

@@ -53,7 +53,7 @@ body.school .header-block {
 
     @include breakpoint($max-width) {
       margin-top: 4 * $base-line-height;
-    }
+     }
   }
 
   h2 {

@@ -16,19 +16,24 @@ body.school .header-block {
   @include span(4);
   background-size: cover;
   background-color: $dark-gray;
-  height: 50vh;
   max-height: 800px;
   color: white;
   position: relative;
 
+  @include breakpoint(max-width $break-tablet) {
+    height: 615px;
+  }
+
   @include breakpoint($break-tablet) {
     background: url('/img/assets/school/atf.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
+    height: 500px;
   }
 
   @include breakpoint($max-width) {
     background: url('/img/assets/school/atf-large.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
+    height: 60vh;
   }
 
   h1 {
@@ -38,8 +43,16 @@ body.school .header-block {
     text-align: center;
     animation-delay: .4s;
 
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: $base-line-height;
+    }
+
     @include breakpoint($break-tablet) {
       margin-top: 2 * $base-line-height;
+    }
+
+    @include breakpoint($max-width) {
+      margin-top: 4 * $base-line-height;
     }
   }
 
@@ -59,8 +72,26 @@ body.school .header-block {
     margin: 90px auto 0 auto;
     text-align: center;
 
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 30px;
+    }
+
     .button:first-child {
-      margin-right: 15px;
+      @include breakpoint($break-tablet) {
+        margin-right: 15px;
+      }
+      @include breakpoint(max-width $break-tablet) {
+        margin-bottom: 10px;
+      }
+    }
+
+    @include breakpoint(max-width $break-tablet) {
+      .button {
+        white-space: nowrap;
+        display: inline-block;
+        min-width: 200px;
+        height: auto;
+      }
     }
   }
 
@@ -69,6 +100,10 @@ body.school .header-block {
     margin: 4rem auto 0;
     text-align: center;
     color: #FFFFFF;
+
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 6rem;
+    }
   }
 
   .border-wrapper {

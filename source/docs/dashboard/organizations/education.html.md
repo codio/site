@@ -7,7 +7,7 @@ full_width: true
 We offer the following special arrangements for schools, universities, colleges and other teaching organizations.
 
 ##Educational Organization Trial
-Schools, universities and colleges can trial the full Codio experience free for 30 days with up to 250 students. Please go to the [Trialing Codio](/docs/teacher/trial/) section for instructions.
+Schools, universities and colleges can trial the full Codio experience free for 30 days with up to 100 students. Please go to the [Trialing Codio](/docs/teacher/trial/) section for instructions.
 
 ##Education Discounts
 Education institutions benefit from a discount structure designed to make a Codio "whole school" licence affordable for large user groups.

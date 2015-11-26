@@ -7,18 +7,50 @@ fixed: true
 
 <section class='header-block'>
   <h1 class="animated fadeIn">
-    Codio for Universities
+    Last month, our members spent 24,700 hours using Codio.
   </h1>
-  <h2 class="animated fadeIn">
-    The cloud coding platform purpose-built for Computer Science education
-  </h2>
 
   <div class="action-buttons animated fadeInUp">
-    <%= link_to 'Get Started', '/p/free-education-trial', class: 'button button-large' %>
+    <%= link_to 'Start FREE Trial', '/p/free-education-trial', class: 'button button-large button-main' %>
+    <%= link_to 'Book a Demo', 'https://attendee.gotowebinar.com/rt/2969360162613017601', class: 'button button-large' %>
   </div>
 </section>
 
 <section class="university-body">
+  <div class="section top">
+    <h4 class="section-header">Teach code. With confidence.</h4>
+
+    <div class="section-block-row-three">
+      <div class="section-block">
+        <%= inline_svg "assets/university/cloud.svg", class: "icon" %>
+        <h4 class="section-block-header">
+          Instant Access
+        </h4>
+        <div class="section-block-copy">
+          to students' code assignments created in our IDE
+        </div>
+      </div>
+      <div class="section-block">
+        <%= inline_svg "assets/university/monitor-phone-vertical.svg", class: "icon" %>
+        <h4 class="section-block-header">
+          Sandboxed Environment
+        </h4>
+        <div class="section-block-copy">
+          with version controlled software configuration
+        </div>
+      </div>
+      <div class="section-block">
+        <%= inline_svg "assets/university/layers.svg", class: "icon" %>
+        <h4 class="section-block-header">
+          Ubuntu Server
+        </h4>
+        <div class="section-block-copy">
+          with terminal access and domain name for each assignment
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="section first">
     <h3 class="section-header">
       Professional grade IDE

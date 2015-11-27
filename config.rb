@@ -96,6 +96,7 @@ configure :development do
       %r{flycheck_},
       %r{node_modules/},
       %r{vendor/},
+      %r{\.idea/},
       %r{\.#}
     ]
 end

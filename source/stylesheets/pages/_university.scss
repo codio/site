@@ -18,19 +18,25 @@ body.university .header-block {
   @include span(4);
   background-size: cover;
   background-image: $gradient;
-  height: 100vh;
-  max-height: 738px;
+  max-height: 800px;
   color: white;
   position: relative;
+
+  @include breakpoint(max-width $break-tablet) {
+    background: url('/img/assets/university/atf.jpg') no-repeat top center fixed;
+    height: 615px;
+  }
 
   @include breakpoint($break-tablet) {
     background-image: $gradient;
     background: url('/img/assets/university/atf.jpg') no-repeat top center fixed;
+    height: 500px;
   }
 
   @include breakpoint($max-width) {
     background-image: $gradient;
     background: url('/img/assets/university/atf-large.jpg') no-repeat top center fixed;
+    height: 500px;
   }
 
   h1 {
@@ -41,7 +47,7 @@ body.university .header-block {
     animation-delay: .4s;
 
     @include breakpoint($break-tablet) {
-      margin-top: 8 * $base-line-height;
+      margin-top: 4 * $base-line-height;
       line-height: 83px;
     }
   }
@@ -62,8 +68,26 @@ body.university .header-block {
     margin: 90px auto 0 auto;
     text-align: center;
 
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 30px;
+    }
+
     .button:first-child {
-      margin-right: 15px;
+      @include breakpoint($break-tablet) {
+        margin-right: 15px;
+      }
+      @include breakpoint(max-width $break-tablet) {
+        margin-bottom: 10px;
+      }
+    }
+
+    @include breakpoint(max-width $break-tablet) {
+      .button {
+        white-space: nowrap;
+        display: inline-block;
+        min-width: 200px;
+        height: auto;
+      }
     }
   }
 }
@@ -95,6 +119,11 @@ body.university .header-block {
       margin-left: auto;
       margin-right: auto;
     }
+
+    &.top {
+      padding-top: 3rem;
+      padding-bottom: 0;
+    }
   }
 
   .blue {
@@ -124,6 +153,45 @@ body.university .header-block {
   }
 
   .section-copy {
+  }
+
+  .section-block-row-three {
+    @include container;
+    @include break;
+
+    .section-block {
+      @include container;
+      margin-top: 0;
+      margin-bottom: 3rem;
+      overflow: hidden;
+      text-overflow: clip;
+      margin-right: span(1 of 50);
+
+      @include breakpoint($break-tablet) {
+        width: span(12 of 50);
+        float: left;
+      }
+
+      &:first-of-type {
+        @include breakpoint($break-tablet) {
+          margin-left: span(8 of 50);
+          margin-right: span(1 of 50);
+          width: span(11 of 50);
+        }
+      }
+
+      &:last-of-type {
+        margin-left: 0;
+        @include breakpoint($break-tablet) {
+          width: span(12 of 50);
+        }
+      }
+
+      .section-block-header {
+        margin: 0;
+      }
+
+    }
   }
 
   .section-block-row {

@@ -1,7 +1,7 @@
 body.school {
   header .container,
   footer .container {
-    @include breakpoint($school-max-width) {
+    @include breakpoint($max-width) {
       margin-left: auto;
       margin-right: auto;
     }
@@ -21,6 +21,7 @@ body.school .header-block {
   position: relative;
 
   @include breakpoint(max-width $break-tablet) {
+    background: url('/img/assets/school/atf.jpg') no-repeat top center fixed;
     height: 615px;
   }
 
@@ -30,7 +31,7 @@ body.school .header-block {
     height: 500px;
   }
 
-  @include breakpoint($school-max-width) {
+  @include breakpoint($max-width) {
     background: url('/img/assets/school/atf-large.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
     height: 500px;
@@ -51,7 +52,7 @@ body.school .header-block {
       margin-top: 2 * $base-line-height;
     }
 
-    @include breakpoint($school-max-width) {
+    @include breakpoint($max-width) {
       margin-top: 4 * $base-line-height;
      }
   }
@@ -134,10 +135,10 @@ body.school .header-block {
     width: span(14 of 16);
     margin: 0 span(1 of 16);
     float: inherit;
-    max-width: $school-max-width;
+    max-width: $max-width;
   }
 
-  @include breakpoint($school-max-width) {
+  @include breakpoint($max-width) {
     margin-left: auto;
     margin-right: auto;
   }
@@ -318,7 +319,7 @@ body.school .header-block {
       margin: 2rem span(1 of 16);
     }
 
-    @include breakpoint($school-max-width) {
+    @include breakpoint($max-width) {
       margin: 2rem auto;
     }
   }

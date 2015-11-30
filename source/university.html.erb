@@ -12,7 +12,7 @@ fixed: true
 
   <div class="action-buttons animated fadeInUp">
     <%= link_to 'Start FREE Trial', '/p/free-education-trial', class: 'button button-large button-main' %>
-    <%= link_to 'Book a Demo', 'https://attendee.gotowebinar.com/rt/2969360162613017601', class: 'button button-large' %>
+    <%= mail_to 'help@codio.com?subject=I\'d like to book a demo', 'Book a Demo', class: 'button button-large' %>
   </div>
 </section>
 

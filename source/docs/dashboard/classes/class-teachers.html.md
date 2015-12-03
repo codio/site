@@ -12,6 +12,7 @@ Teachers can
 - delete the class
 - access student code from the class listing
 - assign grades and comments to each student module assignment (coming soon)
+- enable/disable units within courses
 
 ![Classes Add Teachers](/img/docs/class_addteachers.png)
 

@@ -64,8 +64,8 @@ In the early stages of development, show the filetree in your layout settings ev
 ### Use the Previous panel layout setting
 As mentioned above, when authoring content it makes sense to always leave the file tree visible until you are ready to test the final layout. The easiest approach is to only set the panel layout setting on the first page (or as few pages as strictly needed). The 'Previous' layout setting simple uses the layout setting that was used on the previous page, so you only need to make this change once rather than on all pages.
 
-### Testing Reset Chapter
-The [Reset Chapter](/docs/tuts/author/chapter) feature is a great way for students to reset any chapter to its initial state after hacking sample code around. Currently, it is not possible for the author to use this feature as it only works when it is used by a Student within a Class.
+### Testing Restore current files
+The [Restore current files](/docs/tuts/author/play/) feature is a great way for students to reset any section to its initial state after hacking sample code around. Currently, it is not possible for the author to use this feature as it only works when it is used by a Student within a Class.
 
 
 

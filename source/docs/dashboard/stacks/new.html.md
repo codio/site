@@ -25,7 +25,7 @@ Next, add a short name for your Stack and a longer description. You can also add
 
 You can also add an image to make your Stacks listing more instantly recognizable. This should be a square image, which will be reduced in size and will appear in a circle as shown below.
 
-![Stacks Image](/img/docs/stacks_image.png)
+<img alt="authtoken" src="/img/docs/stacks_image.png" class="simple"/>
 
 You can also add tags to your Stack. The tags should be component names ideally. There is an autocomplete function that will help you to use already defined tags to avoid tag duplication and ensure maximum efficiency when searching.
 

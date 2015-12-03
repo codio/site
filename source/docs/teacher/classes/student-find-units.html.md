@@ -19,7 +19,10 @@ Students should
 
 At this point the unit will open up and they can start working.
 
-**Important**: If your students are not seeing the courses/modules you have added to your class and these are Private courses/modules, check that you have set your Organisation as the owner of the course/module when you published the course. See the section on Visibilty [here](/docs/tuts/publish/course-create/) for more on this.
+**Important**: 
+
+1. If your students are not seeing the courses/modules you have added to your class and these are Private courses/modules, check that you have set your Organisation as the owner of the course/module when you published the course. See the section on Visibilty [here](/docs/tuts/publish/course-create/) for more on this.
+1. Any units you may have disabled will not be accessible by your students, even if they have already started them in the past. This can be useful if you are running a Controlled Assessment in your classes or if you are authoring your own content and wish to check it out within the class yourself first. 
 
 
 ## Courses

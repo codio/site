@@ -19,7 +19,7 @@ Both content and assessments have been carefully built to gradually increase the
 You will find the following courses
 
 ### An Introduction to Programming
-This introduces students to the basic concepts of programming, first using [Flode](/docs/teacher/special/flode) before moving on to coding with Javascript and/or Python. You will find many auto-graded coding assessments within each unit as well as a module dedicated to challenges. We also have a module introducing more advanced searching and sorting algorithms.
+This introduces students to the basic concepts of programming, first using [Flode](/docs/teacher/special/flode) before moving on to coding with Javascript, Python and/or Java. You will find many auto-graded coding assessments within each unit as well as a module dedicated to challenges. We also have a module introducing more advanced searching and sorting algorithms.
 
 ### MySQL
 The first module covers the requirements of the GCSE curriculum. However, we also are offering more advanced materials covering accessing of databases through code as well as database design. These latter units are well suited as stretch materials or those wanting to build web applications or pursue coding at a higher level.

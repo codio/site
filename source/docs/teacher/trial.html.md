@@ -21,6 +21,7 @@ Codio offers important class administration support for teachers. Here are a few
 - [Teacher dashboards](/docs/teacher/classes/dashboard/) for monitoring student time spent and assessment progress.
 - [Bulk uploading](/docs/teacher/classes/bulk-upload/) of class/student data from your school MIS systems.
 - See how [solutions that only teachers are able to see](/docs/teacher/special/tsolutions/) is embedded in course content.
+- Allows Teachers to disable individual units in Modules. This can be useful if you are running Controlled Assessments. See [here](/docs/dashboard/classes/class-module-assign/) for more.
 
 ## Project Work
 Aside from the courses, Codio also offers an amazing coding platform that lets students code 100% in the Cloud. They have access to dedicated *Computers in the Cloud* that let them create projects and applications in any programming language using databases, the Linux command line and much more.

@@ -6,8 +6,8 @@ full_width: true
 
 To create a new coding project, follow these steps.
 
-1. From your Codio dashboard, select **Projects** from the left menu.
-1. Click the **New Project** button in the top left.
+1. From your Codio dashboard, select **My Projects** from the left menu.
+1. Click the **New Project** button in the top right.
 1. Select a stack (more on Stacks [here](/docs/dashboard/stacks/))
 1. Enter a project name. The short description is optional.
 1. You can make the project private if you wish.

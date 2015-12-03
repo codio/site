@@ -8,7 +8,7 @@ full_width: true
 Codio offers a 3 level hierarchy for organising and publishing course materials. 
 
 - A [Course](/docs/tuts/publish/overview) is the top level and consists of a collection of Modules.
-- A [Module](/docs/dashboard/modules/) will typically incorporate all the course materials to cover a logical area of a curriculum or coursework. It in turn consists of a collection of Units.
+- A Module will typically incorporate all the course materials to cover a logical area of a curriculum or coursework. It in turn consists of a collection of Units.
 - A [Unit](/docs/dashboard/modules/module-add) is the lowest level item of coursework. It will typically contain enough material to cover a particular topic or area of a curriculum or coursework.
 
 Take a look at the '[Schools Computing Curriculum](https://codio.com/home/courses/557540466201adf25c93ccec/?tab=modules)' Course and you can see its associated Modules and, within each Module, the Units.

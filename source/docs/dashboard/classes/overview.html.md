@@ -14,6 +14,7 @@ Classes can only be created by members of the Owners group. Groups are managed i
 - A class is associated with Modules. 
 - A class can contain as many modules as required.
 - You can assign modules to classes from [Courses](/docs/tuts/publish/overview/)
+- You can enable/disable individual units in the modules.
 
 ##Classes Listings
 The main Classes screen shows a complete listing of all Classes belonging to any organizations you are a member of.
@@ -21,7 +22,7 @@ The main Classes screen shows a complete listing of all Classes belonging to any
 
 ![Classes List](/img/docs/class_list.png)
 
-When you select a Class, you shown the Module(s) that has been assigned to that Class and by clicking on the Module are then taken to the Module view where you can then also see the complete list of units that make up that module.
+When you select a Class, you shown the Module(s) that has been assigned to that Class and by clicking on the Module are then taken to the Module view where you can then also see the complete list of units that make up that module. Her you can then enable/disable individual units within the Module if required. This can be useful if you are running a Controlled Assessment in your classes or if you are authoring your own content and wish to check it out within the class yourself first.
 
 ![Class Courses](/img/docs/class_courses.png)
 

@@ -24,7 +24,6 @@ Editor settings gives you access to the key functions:
   - **[Step Path](/docs/tuts/author/hide-folder/)** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
   - **[Close Tabs](/docs/tuts/author/inline/)** allows you to close all tabs open from previous section,
   - **[Set Section as Chapter](/docs/tuts/author/chapter/)** allows you to set the section as a chapter in your guides,
-  - **[Reset List](/docs/tuts/author/chapter/)** allows you to reset files/folders used in this section.
   - **[Teacher Only](/docs/tuts/author/solutions/)** allows you to show content that only teachers are able to see.
 
 ### [Open Tabs](/docs/tuts/author/auto-open/)
@@ -42,6 +41,8 @@ allows you to set up assessments
 ### Global
   - **[Theme](/docs/tuts/author/dyslexia/)** allows you to select the default theme for people viewing the Guide. We current have a light theme and will be adding a dark theme shortly. (Dyslexic users can also choose a special theme from the Settings drop down in the Guide player.
   - **[Scripts](/docs/tuts/author/button/)** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a Guide button.
+  - **[Lexicon Topic](/docs/tuts/author/lexikon/)**  if you use this option, an icon will appear in the Guide toolbar that will load the Lexikon window with the selected topic automatically selected.
+
 
 - **[Hamburger Icon](/docs/tuts/author/collapse/)** can be pressed to show or hide the Section List.
 - **[Section List](/docs/tuts/author/add-section/)** lists the sections in your Guide. You can add new ones and re-order the list by dragging

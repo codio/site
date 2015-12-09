@@ -109,7 +109,7 @@ set :images_dir, 'img'
 set :partials_dir, 'partials'
 
 set :intercom_id, ENV["M_INTERCOM_ID"] || "hzz6oifn"
-
+set :codio_environment, ENV["M_CODIO_ENVIRONMENT"] || "development"
 
 set :asset_host, ENV["M_ASSET_HOST"] || "http://localhost:4567"
 

@@ -41,6 +41,4 @@
 <%= partial "vendors/fonts" %>
 <%= stylesheet_link_tag "all" %>
 
-<% unless current_page.app.development? %>
-  <%= partial "vendors/google-analytics" %>
-<% end %>
+<%= partial "vendors/google-analytics" %>

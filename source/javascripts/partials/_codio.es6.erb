@@ -99,13 +99,21 @@ function getQueryParameter(key) {
 }
 
 $(() => {
+  $('.open-intercom').on('click', function(e){
+    if (window.Intercom) {
+      e.preventDefault()
+      window.Intercom('showNewMessage')
+    }
+  })
+
+
   const referrer = getQueryParameter('referrer')
   if (referrer && !monster.get('referrer')) {
     const expDate = new Date()
     expDate.setTime(expDate.getTime() + 30 * 86400000)
 
     monster.set('referrer', referrer, {expires: expDate})
-  }  
+  }
 
   const session = monster.get('crafted_session')
   if (session == null) return anon()

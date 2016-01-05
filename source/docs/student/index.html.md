@@ -19,6 +19,6 @@ Your teaching staff can create a Codio "organisation" for any number of users wi
 ## Individual Users
 If you are using Codio as an individual, and not through an education institution, we offer an individual developer subscription, for access to Codio for projects and use of Codio stacks and starter packs.
 
-If you are interested in using Codio to learn to code as an individual, not part of an education institution, stay tuned, we will soon be introducing a self-learner subscription option wtih access to Codio courses.
+If you are interested in using Codio to learn to code as an individual, not part of an education institution, stay tuned, we will soon be introducing a self-learner subscription option with access to Codio courses.
 
 

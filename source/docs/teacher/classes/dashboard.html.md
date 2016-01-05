@@ -18,7 +18,7 @@ If the teacher has selected a class and then clicks the **Students** tab at the 
 ![Class Dashboard](/img/docs/class_dashboard.png)
 
 ## Student view
-If the teacher select an individual student, then the teacher can see a detailed breakdown of that student's progress. It is summarized by module and then by unit.
+If the teacher selects an individual student, then the teacher can see a detailed breakdown of that student's progress. It is summarized by module and then by unit.
 
 ![Student View](/img/docs/studentview_dashboard.png)
 

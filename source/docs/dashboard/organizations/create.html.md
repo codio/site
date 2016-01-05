@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-To access Organizations, click on the Organizations icon at the bottom left of your Dashboard.
+To access Organizations, click on your username at the bottom left of your Dashboard and go to the Overview tab. Select the 'Create Organisation' 
 
 ![Organisations Create](/img/docs/organisations_create.png)
 

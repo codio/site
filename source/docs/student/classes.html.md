@@ -5,28 +5,31 @@ description: "Accessing Class Coursework"
 
 If you are not part of a schools, university, colleges or other such organisation then you do not need to read this section.
 
-In most cases, your teacher will have added you to a Codio Class. You can find a list of all Classes you are assigned to in the Codio Dashboard. 
+In most cases, your teacher will have added you to a Codio Class or has sent you a unique two word password to join a class. Go to 'Join a Class' in the left hand menu to enter this password and join the class. You can be a member of multiple classes.
 
-![Class List](/img/docs/class_list.png)
+![Class List](/img/docs/class_join.png)
 
-## Modules
-Select the Class and you will be shown a list of Modules your teacher has assigned to the Class. If you don't see any Modules, then your teacher has not yet assigned any Modules.
+## My Classroom
+
+The most recently accessed units will be shown to you at the top of the screen and you can simply click to open them and carry on where you left off.
+
+![Class List](/img/docs/class_recent.png)
+
+
+The My Classroom dashboard is also where you can access and select any other class(es), course(s) and module(s) you wish to work with from the available drop downs. 
 
 ![Class Courses](/img/docs/class_courses.png)
 
-## Units
-Select a Module and you will see a list of all Units for the selected Module. You will normally progress through each of these in sequence.
+## Unit Listing
+When you have selected your Module, then all the Units in that module will be displayed along with your progress that includes the number of Assessments in the Unit, the number you have answered, the number you have got correct and the Points (%). In most cases each Assessment is assigned 1 point but this may not always be the case.
 
 ![Class Start](/img/docs/class_start.png)
 
-When you click on the Start Unit button (circled) the Unit will be forked into your account and started. This may take a few seconds. Any projects you have already started can be opened from the My Units list as well
-
-## My Units Listing
-If you click on the My Units link, you will see that your Unit can also be accessed from the My Units listing. Projects are listed in most recently used order, so you should see your recent work appear automatically at the top of the listing. Just click on the Project to start it up and carry on where you left off.
+When you click on the Ready to Go button (circled) the Unit will be forked into your account and started. This may take a few seconds. 
 
 ## My Projects Listing
 Any projects you have created yourself will appear in this listing.
 
-![Projects List](/img/docs/projects_list.png)
+![Projects List](/img/docs/class_projects.png)
 
 

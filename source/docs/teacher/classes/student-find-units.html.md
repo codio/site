@@ -9,13 +9,14 @@ full_width: true
 Students can find modules and units in one of two ways.
 
 ## Classes
-The best and easiest way for students to access their unit content is via the **Classes** option in the main Codio dashboard. 
+The best and easiest way for students to access their unit content is via the **My Classroom** option in the main Codio dashboard. 
 
 Students should
 
-1. Click on the class.
-1. Select a module. 
-1. Press the **Start Unit** button for the Unit they want to take.
+1. Click on the dropdowns to select the class/course and module.
+1. Press the **Ready to Go** button for the Unit they want to take.
+
+![Class Start](/img/docs/class_start.png)
 
 At this point the unit will open up and they can start working.
 

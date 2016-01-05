@@ -26,7 +26,7 @@ A project is a combination of a Box and your code workspace. When you open up yo
 
 Start off by ...
 
-- clicking on the `Projects` option on the left of your Dashoard.
+- clicking on the `My Projects` option on the left of your Dashoard.
 - click the `New Project` button in the top right of the screen
 
 ![Create Project](/img/docs/project_create.png)

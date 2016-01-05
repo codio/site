@@ -6,18 +6,20 @@ full_width: true
 
 To manually add Codio users to your organization
 
-1. Open the Organizations up (click on the icon bottom left).
+1. Open the Organizations up (click on your username and go to the Overview tab).
 1. Select your Organization from the list (there is probably only one there).
 1. `Members` should already be selected above the list.
 1. Click on the appropriate Permanent Member Group available for the user you are adding.
 1. Add the Codio user (you can search by Codio user name or full name, if they entered one).
 
 
-Alternatively, go to `Organisation Settings` area and create an invitation token. 
+Alternatively, go to `Organisation Settings` area and create an invitation token
 
 ![Organisations Token](/img/docs/organisations_token.png)
 
-Send the generated link out to all users who you wish to include in your organisation and they will be automatically added. If they do not already have a Codio account, they will be taken through the sign up process and then added to your organisation.
+If using the **Invite URL** option, send the generated link out to all users who you wish to include in your organisation and they will be automatically added. If they do not already have a Codio account, they will be taken through the sign up process and then added to your organisation.
+
+If using the **Invite Token** option, send that out to your Students who are already Codio members and they go to the 'Join a Class' menu area and enter in this 2 work password to automatically join your organisation
 
 ### Upload Users
 You can also upload your own CSV files to create user accounts and add users to your custom Members as well as to create classes. 

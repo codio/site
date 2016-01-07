@@ -28,6 +28,8 @@ The following is a list of ports and URLs that Codio access from time to time. W
 
 - __*.intercom.io__, __cdnjs.cloudflare.com__ and __*.pubnub.com__ are highly recommended as they relate to  the help and support application (Intercom) built into Codio.
 
+If your institution blocks access to YouTube as a general rule, your IT department can whitelist YouTube access that only allows access to content from registered and accredited educational content repositories. See [here](https://support.google.com/youtube/answer/2695317?hl=en-GB) for more information on this.
+
 
 ## Ports
 We recommend opening the following ports

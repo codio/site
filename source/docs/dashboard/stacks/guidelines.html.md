@@ -4,6 +4,10 @@ class_name: docs
 full_width: true
 ---
 
+> **IMPORTANT NOTICE**
+>
+> We are currently rolling out a new generation of Codio Boxes that will provide far greater power and control for you, as well as improved stability. These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
+
 When creating a Stack, here are some ideas on strategy and how to make them as useful as possible.
 
 ## Starting Stack
@@ -41,15 +45,13 @@ We recommend you include useful links to the Codio Documentation.
 Provide useful links on the Stack components.
 ```
 
-## Example (from the Codio Certified LAMP Stack)
+## Example (from the 2nd Generation Codio Certified LAMP Stack)
 
 ```markdown
 # LAMP
 
 ## Using this Stack
-This Codio Stack gives you a complete **LAMP** stack ready to use and with all services up and running. To use this Stack, press the `USE STACK` button at the top right of the page.
-
-Once you have created a Project based on the Stack and you are in the IDE, you can find the information contained in this file by going to `Project>Stack Info` in your Project.
+This Codio Stack gives you a complete **LAMP** stack ready to use and with all services up and running.
 
 ## Related Stacks & Starter Packs
 There are various other Stacks and Starter Packs that may be of interest. Please search the listing for
@@ -62,69 +64,55 @@ There are various other Stacks and Starter Packs that may be of interest. Please
 ## Components Installed
 This Stack contains the following major component versions
 
-- **PHP** 5.5.15
-- **Apache** 2.4.9
-- **MySQL** 5.6.15
-- **Git**
+- **PHP** 5.5.9
+- **Apache** 2.4.7
+- **MySQL** 14.14 Distrib 5.5.46
 
 ## Configuration Files
 You can find configuration files in the following locations
 
-- **PHP config file** : `/home/codio/.parts/etc/php5/php.ini`
-- **Apache config** : `/home/codio/.parts/etc/apache2/httpd.conf`
-- **MySQL default config file** :  `/home/codio/.parts/packages/mysql/5.6.15/my-new.cnf`
-- **Default document root** : `/home/codio/workspace`
+- **PHP config file** : `/etc/php5/apache2/php.ini`
+- **Apache config** : `/etc/apache2/apache2.conf`
+- **MySQL default config file** :  `/etc/mysql/my.cnf`
 
 ## General Information
-### PHP
-PHP is fully installed along with Pear, php5-pdo-mysql, php5-zlib and php5-gd.
-
-There are many other useful PHP related components you can install including
-
-- PHP modules (curl, Image Magick, oAuth, zip and many more)
-- Composer
-
-The easiest way to install additional components is to select the `Tools->Install Software` option and then search for 'PHP'. You will see a full list of installable modules.
-
-For more information on installing software, please refer to the [documentation](/docs/ide/boxes/installsw/box-parts/).
 
 ### Apache Server
-The Apache server should already be started. You can restart it at any time in the following ways
-
-- from a terminal window enter
-$ parts restart apache2
-$ parts stop apache2
-$ parts start apache2
-- Go to `Tools>Install Software>Installed Software` and locate Apache2, from where you can stop, start or restart the service.
+Apache should be started by default. You can manually start, stop and restart it using the following terminal commands:
+```
+$ sudo service apache2 start
+$ sudo service  apache2 stop
+$ sudo service  apache2 restart
+```
 
 ### MySQL
 
 #### Start, Stop, Restart the MySQL server
-MySQL should be started by default. You can manually start, stop and restart the MySQL server with the from the `Tools->Install Software` menu or using the following terminal commands
-$ parts start mysql
-$ parts stop mysql
-$ parts restart mysql
-
+MySQL should be started by default. You can manually start, stop and restart the MySQL server using the following terminal commands:
+```
+$ sudo service mysql start
+$ sudo service mysql stop
+$ sudo service mysql restart
+```
 
 #### Connecting to the MySQL monitor
 Assuming the MySQL server is started, you can connect to it using `mysql` from the terminal. Exit using `ctrl+c`.
 
 #### Root Password
 If you want to set the root password, use the following command from the terminal
-`mysqladmin -u root password NEWPASSWORD`
-
+```
+mysqladmin -u root password NEWPASSWORD`
+```
 
 ## Codio Documentation
-Please be aware of the following useful links
+Please be aware of the following useful links 
 
-- [How to Access your Box](/docs/ide/boxes/)
-- [If your firewall only allows access to port 80](/docs/ide/boxes/access/ext-access/)
-- [Installing additional software components onto your Codio Box](/docs/ide/boxes/installsw/box-parts/)
-- [Creating Codio menu items to avoid repetitive terminal commands](/docs/ide/boxes/runmenu/)
+- [How to Access your Box](/docs/boxes/)
+- [If your firewall only allows access to port 80](/docs/boxes/access/ext-access/)
+- [Creating Codio menu items to avoid repetitive terminal commands](/docs/boxes/runmenu/)
 - [Using Git in Codio](/docs/ide/editing/git/)
 - [Customizing the IDE settings](/docs/ide/customization/)
-- [Restarting your Box](/docs/ide/boxes/restart-reset/)
-- [SSH into your Box](/docs/ide/boxes/access/ssh-access/)
+- [Restarting your Box](/docs/boxes/restart-reset/)
 - [Creating multiple code editing panels in the IDE](/docs/ide/panels/)
 
 ## Stack Specific Links

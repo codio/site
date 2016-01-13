@@ -4,6 +4,10 @@ class_name: docs
 full_width: true
 ---
 
+> **IMPORTANT NOTICE**
+>
+> We are currently rolling out a new generation of Codio Boxes that will provide far greater power and control for you, as well as improved stability. These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
+
 If you can't find an existing Stack that is ready to use, then you can configure Stack components within a Codio project and then add it to your Stack library.
 
 To do this you will first need to

@@ -1,0 +1,232 @@
+
+body.demo .header-block {
+
+  position: relative;
+  float: inherit;
+  width: span(12 of 16);
+  max-width: $max-width;
+  max-height: 200px;
+  margin: 0 span(2 of 16);
+  padding: 1rem 0 0;
+  background: none;
+
+  @include breakpoint($max-width) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    margin-top: 4 * $base-line-height;
+    font-size: 52px;
+    font-weight: 400;
+    // text-align: center;
+
+    @include breakpoint($break-tablet) {
+      margin-top: 4 * $base-line-height;
+      line-height: 52px;
+    }
+  }
+
+}
+
+body.demo {
+
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: -65px auto 0 auto;
+    max-width: 100%;
+  }
+
+  header.should-be-fixed {
+    background: $dark-gray;
+  }
+}
+
+.demo-body {
+  @include container;
+  @include break;
+
+  margin: 0;
+  padding: 0;
+
+  .section {
+    @include container;
+    @include break;
+
+    width: span(12 of 16);
+    margin: 0 span(2 of 16);
+    float: inherit;
+    max-width: $max-width;
+
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &.first {
+      padding: 1rem 0 2rem;
+    }
+
+    &.second {
+      padding: 2rem 0 1rem;
+    }
+
+  }
+
+  .blue {
+    background-color: #4574e0;
+    color: white;
+    overflow: hidden;
+
+    @include breakpoint($break-tablet) {
+      margin: 0;
+      width: 100%;
+      max-width: 100%
+    }
+  }
+
+  .section-block-row-three {
+    @include container;
+    @include break;
+
+    .section-block {
+      @include container;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      text-overflow: clip;
+      margin-right: span(2 of 50);
+
+      @include breakpoint($break-tablet) {
+        width: span(15 of 50);
+        float: left;
+      }
+
+      &:first-of-type {
+        @include breakpoint($break-tablet) {
+          // margin-right: span(2 of 50);
+          width: span(15 of 50);
+        }
+      }
+
+      &:last-of-type {
+        display: none;
+
+        @include breakpoint($break-tablet) {
+          margin-right: 0;
+          width: span(15 of 50);
+          display: inherit;
+        }
+      }
+
+      .date-time {
+        display: none;
+        background-color: #3968d4;
+      }
+    }
+
+    form input[type="text"] {
+      color: #d9dade;
+      font-size: 1rem;
+      vertical-align: middle;
+      border: none;
+      padding: 6px 8px;
+      color: #8c97b2;
+      line-height: 1rem;
+      height: 40px;
+      width: 100%;
+    }
+
+
+    input[type=checkbox] {
+    	display: none;
+    }
+
+    .checkbox-custom {
+      opacity: 0;
+      position: absolute;
+    }
+
+    .checkbox-custom, .checkbox-custom-label {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 5px 5px 5px 0;
+      cursor: pointer;
+    }
+
+    .checkbox-custom-label{
+        position: relative;
+    }
+
+    .checkbox-custom + .checkbox-custom-label:before {
+      color: #111111;
+      content: '';
+      background: #5988e0;
+      display: inline-block;
+      vertical-align: middle;
+      width: 25px;
+      height: 25px;
+      padding: 0 2px;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+    .checkbox-custom:checked + .checkbox-custom-label:before {
+      color: #FFFFFF;
+      content:'\2713';
+      // background: rebeccapurple;
+      // box-shadow: inset 0px 0px 0px 4px #fff;
+    }
+
+    .checkbox-custom:focus + .checkbox-custom-label {
+      // outline: 1px solid #ddd; /* focus style */
+    }
+
+    input[type=submit] {
+    	float: right;
+      color: #FFF;
+      font-size: 1rem;
+      vertical-align: middle;
+      border: none;
+      padding: 6px 8px;
+      background-color: #f29313;
+      line-height: 1rem;
+      height: 40px;
+      width: 50%;
+      text-transform: uppercase;
+    }
+
+    input[type=submit]:hover {
+      background-color: $lighter-orange;
+    }
+
+  }
+
+  .section-block-copy {
+  }
+
+  .right-image {
+    display: block;
+    margin: 3rem auto 0;
+
+    @include breakpoint($break-tablet) {
+      float: right;
+      margin-right: -60%;
+      margin-top: 0;
+    }
+
+    @include breakpoint(1100px) {
+      margin-right: -30%;
+    }
+
+    @include breakpoint(1550px) {
+      margin-right: -10%;
+    }
+  }
+}

@@ -18,7 +18,3 @@ Students are able to create their own coding projects with just 2 clicks. Here a
 1. Download any code you write
 1. You can use or configure a [Starter Pack](/docs/teacher/special/packs/) to give your students a Box preconfigured in any way you like (programming languages, databases, starter code, tools etc.). This means there is no setup required and students can immediately start working on any project along with the entire 'Stack' needed for coding projects, databases, tools etc.
 
-
-![Project List](/img/docs/projects_list.png)
-
-![Panes](/img/docs/panel-overview.png)

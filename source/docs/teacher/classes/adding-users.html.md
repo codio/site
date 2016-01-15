@@ -21,16 +21,17 @@ If you are the teacher of the class, you should always add yourself as a teacher
 Teachers are able to view student projects from the student listing within the class. They can also assign modules.
 
 1. Go to your class.
-1. Click on the **Teachers** tab at the top of the listing.
-1. Click the **Edit Teachers** slider so the search field appear to its left.
-1. This list will show all Codio users within your organization so be sure to select the right person. You can type in the field to search or you can scroll through the list. Once you have found the right person, click on that person or press enter with the correct name highlighted.
-
+1. Click on the **Admin** tab at the top of the listing.
+1. Click the **Edit** button to enable the **Add Teacher** dialog, click this and the 'Add a Teacher' dialog will pop up.
+1. This list will show all Codio users within your organization if you enable the 'Filter by organisation' option, but if that person is not already a member of your organisation but is a Codio user, deselect this option to search for their Codio username. Do though be sure to select the right person. You can type in the field to search or you can scroll through the list. Once you have found the right person, click on that person or press enter with the correct name highlighted.
 
 The teacher is now added to the list of teachers.
 
 ![Add Teacher](/img/docs/organisation_addteacher.png)
 
 ## Adding Students
-Adding a student is the same process as for teachers, except you press the **Students** tab at the top of the listing.
+To add students, who are Codio users already, you can send them the 'Class Token' that they can then enter in the 'Join a Class' area in their dashboard and they will then be added automatically into this class.
+
+**Please Note**: You can regenerate the class token at any time but any users who were previously sent the original token will not be able to use that old token
 
 ![Add Owner](/img/docs/organisation_addmanually.png)

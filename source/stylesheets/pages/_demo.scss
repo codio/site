@@ -125,15 +125,23 @@ body.demo {
         }
       }
 
-      .date-time {
-        display: none;
+      .form-inset {
+        padding: 0.5rem 0;
+
+        p:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+
+      .form-inset.date-time {
         background-color: #3968d4;
+        padding: 0.5rem;
       }
     }
 
     form input[type="text"] {
       color: #d9dade;
-      font-size: 1rem;
+      font-size: 0.9rem;
       vertical-align: middle;
       border: none;
       padding: 6px 8px;
@@ -189,6 +197,7 @@ body.demo {
     }
 
     input[type=submit] {
+      margin-top: 1rem;
     	float: right;
       color: #FFF;
       font-size: 1rem;
@@ -198,7 +207,7 @@ body.demo {
       background-color: #f29313;
       line-height: 1rem;
       height: 40px;
-      width: 50%;
+      width: 60%;
       text-transform: uppercase;
     }
 

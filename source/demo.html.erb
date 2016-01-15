@@ -34,13 +34,120 @@ fixed: true
             <p>
               <input type="text" id="company" name="company" placeholder="University or college name" value="">
             </p>
-            <div class="date-time">
-              <p>
-                Choose Date and Time
-              </p>
-              <p>
-                data and time picker
-              </p>
+            <div class="form-inset date-time">
+              <small>
+                Choose date
+              </small>
+              <div class="date">
+                <span>
+                  <label for="day"></label>
+                  <select name="day">
+                    <option value="NA">-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                  </select>
+                </span>
+                <span>
+                  <label for="month"></label>
+                  <select name="month">
+                    <option value="NA">-</option>
+                    <option value="Jan">January</option>
+                    <option value="Feb">February</option>
+                    <option value="Mar">March</option>
+                    <option value="Apr">April</option>
+                    <option value="May">May</option>
+                    <option value="Jun">June</option>
+                    <option value="Jul">July</option>
+                    <option value="Aug">August</option>
+                    <option value="Sep">September</option>
+                    <option value="Oct">October</option>
+                    <option value="Nov">November</option>
+                    <option value="Dec">December</option>
+                  </select>
+                </span>
+              </div>
+              <small>
+                and time
+              </small>
+              <div class="time">
+                <span>
+                  <label for="hour"></label>
+                  <select name="hour">
+                    <option value="NA">-</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                  </select>
+                </span>
+                <span>
+                  <label for="minute"></label>
+                  <select name="minute">
+                    <option value="NA">-</option>
+                    <option value="0">0</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                    <option value="40">40</option>
+                    <option value="45">45</option>
+                    <option value="50">50</option>
+                    <option value="55">55</option>
+                  </select>
+                </span>
+              </div>
             </div>
           </div>
           <div class="section-block">
@@ -50,17 +157,19 @@ fixed: true
             <p>
               <input type="text" id="phone" name="phone" placeholder="Telephone" value="">
             </p>
-            <small>Please contact me</small>
-            <p>
-              <span>
-                <input class="checkbox-custom" type="checkbox" id="byPhone" name="byPhone" value="yes" >
-                <label class="checkbox-custom-label" for="byPhone">by phone</label>
-              </span>
-              <span>
-                <input class="checkbox-custom" type="checkbox" id="byEmail" name="byEmail" value="yes">
-                <label class="checkbox-custom-label" class="checkbox-custom-label" for="byEmail">by email</label
-              </span>
-            </p>
+            <div class="form-inset">
+              <small>Please contact me</small>
+              <p>
+                <span>
+                  <input class="checkbox-custom" type="checkbox" id="byPhone" name="byPhone" value="yes" >
+                  <label class="checkbox-custom-label" for="byPhone">by phone</label>
+                </span>
+                <span>
+                  <input class="checkbox-custom" type="checkbox" id="byEmail" name="byEmail" value="yes">
+                  <label class="checkbox-custom-label" class="checkbox-custom-label" for="byEmail">by email</label
+                </span>
+              </p>
+            </div>
             <p>
               <input class="button" type="submit" value="Send">
             </p>

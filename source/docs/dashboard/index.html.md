@@ -13,14 +13,9 @@ This also contains the main navigation options for the main Codio listings.
 
 In the **Learn** area: 
 
-- My Units - where any units previously started can be accessed.
-- [Classes](/docs/dashboard/classes/) - where new classes can be created and also access the teacher dashboard to work with all the classes currently a member of
+- [My Classroom](/docs/dashboard/classes/) - where new classes can be created and also access the teacher dashboard to work with all the classes currently a member of
 - [Courses](/docs/tuts/publish/overview) - where other courses can be browsed
 
-A Student will though see see instead: 
-
-- [My Classroom](/docs/student/classes/) - where students can access any classes/courses/modules and units that they have been assigned to
-- [Courses](/docs/tuts/publish/overview) - where students can browser other courses that they may not have been assigned to by their teacher
 
 In the **Build** area
 

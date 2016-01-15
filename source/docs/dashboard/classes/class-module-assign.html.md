@@ -14,9 +14,11 @@ They can then open up the module to see the units and from there can then open p
 
 This will fork the project into the students Codio account and will also be accessible to them from their My Units list in future. The students will then see 'Open Unit' in the above image.
 
-Teachers are able to see the students who have assigned themselves units in the modules by selecting the Module.
+Teachers are able to see the students who have started units on the `Units` tab.
 
-If the counter is zero, none of the students have yet assigned themselves the units, but otherwise, select the Unit and a list of all the students who have assigned themselves that unit will be shown.
+If the counter in the `Students Started` column is blank, none of the students have yet assigned themselves the units, but otherwise the teacher can see how many students have started the unit, and clicking on that column will show more details.
+
+![Student Progress](/img/docs/trial_try_unit.png)
 
 Teachers can enable/disable units here:
 
@@ -25,6 +27,3 @@ Teachers can enable/disable units here:
 
 Teachers can also open the unit as a 'Teacher' to access the [Teacher Solutions](/docs/teacher/special/tsolutions/).
 
-![Student Progress](/img/docs/student_progress.png)
-
-The Students tab will show all the students that have assigned themselves units in the modules.

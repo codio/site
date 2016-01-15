@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-To create a new Class, press the 'New Class' button from the main classes screen. You will then be asked to provide further details. 
+To create a new Class, press the **+** button from the main classes screen. You will then be asked to provide further details. 
 
 
 ![Class Create](/img/docs/class_create.png)

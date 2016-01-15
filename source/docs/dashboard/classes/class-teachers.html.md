@@ -14,14 +14,16 @@ Teachers can
 - assign grades and comments to each student module assignment (coming soon)
 - enable/disable units within courses
 
-![Classes Add Teachers](/img/docs/class_addteachers.png)
+If you are the teacher of the class, you should always add yourself as a teacher, even if you are the organization owner. You can also add others as teachers to the class. 
 
-To add teachers to the class, enable the 'Edit Teachers' toggle button and then add in new teachers.
+Teachers are able to view student projects from the student listing within the class. They can also assign modules.
 
-Use the drop down to show you the list of all Teachers currently available in your Organisation and select them.
+1. Go to your class.
+1. Click on the **Admin** tab at the top of the listing.
+1. Click the **Edit** button to enable the **Add Teacher** dialog, click this and the 'Add a Teacher' dialog will pop up.
+1. This list will show all Codio users within your organization if you enable the 'Filter by organisation' option, but if that person is not already a member of your organisation but is a Codio user, deselect this option to search for their Codio username. Do though be sure to select the right person. You can type in the field to search or you can scroll through the list. Once you have found the right person, click on that person or press enter with the correct name highlighted.
 
-You can also start typing in the field to enter the Codio user name or a part of their full name and as you type the list will automatically filter for you.
+The teacher is now added to the list of teachers.
 
-You can remove teachers by pressing the `Delete` button next to a teacher name.
-
+You can remove teachers by clicking `Edit` and then the **X** button next to their name.
 

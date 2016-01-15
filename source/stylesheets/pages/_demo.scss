@@ -1,4 +1,8 @@
 
+.clear {
+  clear: both;
+}
+
 body.demo .header-block {
 
   position: relative;
@@ -91,6 +95,14 @@ body.demo {
     }
   }
 
+  .blue .arrow {
+    background: none;
+
+    @include breakpoint($break-tablet) {
+      background: url('/img/assets/demo/arrow.svg') no-repeat right center;
+    }
+  }
+
   .section-block-row-three {
     @include container;
     @include break;
@@ -99,19 +111,17 @@ body.demo {
       @include container;
       margin-top: 0;
       margin-bottom: 1rem;
-      overflow: hidden;
       text-overflow: clip;
       margin-right: span(2 of 50);
 
       @include breakpoint($break-tablet) {
-        width: span(15 of 50);
+        width: span(16 of 50);
         float: left;
       }
 
       &:first-of-type {
         @include breakpoint($break-tablet) {
-          // margin-right: span(2 of 50);
-          width: span(15 of 50);
+          width: span(16 of 50);
         }
       }
 
@@ -119,31 +129,31 @@ body.demo {
         display: none;
 
         @include breakpoint($break-tablet) {
+          height: 14rem;
+          vertical-align: middle;
           margin-right: 0;
-          width: span(15 of 50);
+          width: span(13 of 50);
           display: inherit;
         }
-      }
 
-      .form-inset {
-        padding: 0.5rem 0;
-
-        p:last-of-type {
-          margin-bottom: 0;
+        .robot {
+          margin-top: 3rem;
+          float: right;
+          width: 8rem;
+          height: 8rem;
+          // position: relative;
+          // right: -6rem;
+          margin-right: -8rem;
         }
-      }
-
-      .form-inset.date-time {
-        background-color: #3968d4;
-        padding: 0.5rem;
       }
     }
 
-    form input[type="text"] {
+    form input[type="text"], form input[type="email"] {
+
       color: #d9dade;
       font-size: 0.9rem;
       vertical-align: middle;
-      border: none;
+      border: 1px solid #4574e0;
       padding: 6px 8px;
       color: #8c97b2;
       line-height: 1rem;
@@ -151,6 +161,14 @@ body.demo {
       width: 100%;
     }
 
+    span.required {
+      content:" *";
+      width: 1em;
+      height: 40px;
+      position: relative;
+      left: -1rem;
+      // border-color: red !important;
+    }
 
     input[type=checkbox] {
     	display: none;
@@ -197,7 +215,6 @@ body.demo {
     }
 
     input[type=submit] {
-      margin-top: 1rem;
     	float: right;
       color: #FFF;
       font-size: 1rem;
@@ -207,7 +224,7 @@ body.demo {
       background-color: #f29313;
       line-height: 1rem;
       height: 40px;
-      width: 60%;
+      width: 45%;
       text-transform: uppercase;
     }
 
@@ -220,22 +237,68 @@ body.demo {
   .section-block-copy {
   }
 
-  .right-image {
-    display: block;
-    margin: 3rem auto 0;
+  .section.third {
+    @include container;
+    @include break;
 
-    @include breakpoint($break-tablet) {
-      float: right;
-      margin-right: -60%;
-      margin-top: 0;
-    }
+    .section-block {
+      @include container;
+      width: 100%;
+      max-width: 400px;
+      padding: 2em;
+      margin: 1.5rem auto;
+      background-color: #5988e0;
+      color: white;
+      text-align: center;
 
-    @include breakpoint(1100px) {
-      margin-right: -30%;
-    }
+      @include breakpoint($break-tablet) {
+        width: span(30 of 50);
+        max-width: 400px;
+        margin: 1.5rem auto;
+      }
 
-    @include breakpoint(1550px) {
-      margin-right: -10%;
+      h2 {
+        margin-top: 0;
+      }
+
+      .smiley {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.5rem;
+      }
+
+      .top {
+        font-size: 1.5em;
+      }
+
+      .top small {
+        font-size: 1rem;
+      }
+
+      .social {
+        border-top: 1px solid #7a9fe5;
+
+        a, svg {
+          display: inline-block;
+        }
+
+        a {
+          // position: relative; // IE8
+          height: 48px; // IE8
+          height: 2.2rem;
+          width: 48px; // IE8
+          width: 2.2rem;
+        }
+
+        svg {
+          height: 100%;
+          width: 100%;
+          color: #fff;
+          fill: #fff;
+        }
+      }
     }
   }
+
+
 }

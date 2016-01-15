@@ -22,7 +22,11 @@ The main Classes screen shows a complete listing of all Classes belonging to any
 
 ![Classes List](/img/docs/class_list.png)
 
-When you select a Class, you shown the Module(s) that has been assigned to that Class and by clicking on the Module are then taken to the Module view where you can then also see the complete list of units that make up that module. Here you can then enable/disable individual units within the Module if required. This can be useful if you are running a Controlled Assessment in your classes or if you are authoring your own content and wish to check it out within the class yourself first.
+When you select a Class, you shown the Course(s) and Module(s) that has been assigned to that Class and all the units within each Module. Clicking on the  Unit will take you to the Student view filtered to show you the students who have started the Unit.
+
+Clicking on the 3 vertical dots will allow a teacher to
+1. Enable/disable individual units within the Module. This can be useful if you are running a Controlled Assessment in your classes or if you are authoring your own content and wish to check it out within the class yourself first.
+1. Allow you to open the unit as a teacher where you will be able to run through the unit seeing the Teacher Solutions
 
 ![Class Courses](/img/docs/trial_try_unit.png)
 

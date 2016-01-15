@@ -13,7 +13,7 @@ This also contains the main navigation options for the main Codio listings.
 
 In the **Learn** area: 
 
-- [My Classroom](/docs/dashboard/classes/) - where new classes can be created and also access the teacher dashboard to work with all the classes currently a member of
+- [My Classroom](/docs/dashboard/classes/) - where teachers can create new classes and access their teacher dashboard to work with all the classes currently a member of and where students can access the content in the classes they are members of.
 - [Courses](/docs/tuts/publish/overview) - where other courses can be browsed
 
 

@@ -95,18 +95,15 @@ fixed: true
         </div>
         <div class="social">
           <h3>Follow us</h3>
-          <a target="_blank" href="https://www.facebook.com/CodioHQ" class="icon-10 facebook" title="Facebook">
-            <%= inline_svg "assets/demo/facebook.svg", class: "" %>
-            <!--[if lt IE 9]><em>Facebook</em><![endif]-->
-          </a>
-          <a target="_blank" href="https://twitter.com/CodioHQ" class="icon-26 twitter" title="Twitter">
-            <%= inline_svg "assets/demo/twitter.svg", class: "" %>
-            <!--[if lt IE 9]><em>Twitter</em><![endif]-->
-          </a>
-          <a target="_blank" href="https://www.linkedin.com/company/codio" class="icon-17 linkedin" title="LinkedIn">
-            <%= inline_svg "assets/demo/linkedin.svg", class: "" %>
-            <!--[if lt IE 9]><em>LinkedIn</em><![endif]-->
-          </a>
+          <% link_to 'https://www.facebook.com/CodioHQ', target: '_blank' do %>
+            <%= inline_svg 'assets/demo/facebook.svg' %>
+          <% end %>
+          <% link_to 'https://twitter.com/codiohq', target: '_blank' do %>
+            <%= inline_svg 'assets/demo/twitter.svg' %>
+          <% end %>
+          <% link_to 'https://www.linkedin.com/company/codio', target: '_blank' do %>
+            <%= inline_svg 'assets/demo/linkedin.svg' %>
+          <% end %>
         </div>
       </div>
     </div>

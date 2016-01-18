@@ -4,7 +4,6 @@
 }
 
 body.demo .header-block {
-
   position: relative;
   float: inherit;
   width: span(12 of 16);
@@ -23,14 +22,12 @@ body.demo .header-block {
     margin-top: 4 * $base-line-height;
     font-size: 52px;
     font-weight: 400;
-    // text-align: center;
 
     @include breakpoint($break-tablet) {
       margin-top: 4 * $base-line-height;
       line-height: 52px;
     }
   }
-
 }
 
 body.demo {
@@ -80,7 +77,6 @@ body.demo {
     &.second {
       padding: 2rem 0 1rem;
     }
-
   }
 
   .blue {
@@ -141,15 +137,12 @@ body.demo {
           float: right;
           width: 8rem;
           height: 8rem;
-          // position: relative;
-          // right: -6rem;
           margin-right: -8rem;
         }
       }
     }
 
     form input[type="text"], form input[type="email"] {
-
       color: #d9dade;
       font-size: 0.9rem;
       vertical-align: middle;
@@ -167,7 +160,6 @@ body.demo {
       height: 40px;
       position: relative;
       left: -1rem;
-      // border-color: red !important;
     }
 
     input[type=checkbox] {
@@ -187,7 +179,7 @@ body.demo {
     }
 
     .checkbox-custom-label{
-        position: relative;
+      position: relative;
     }
 
     .checkbox-custom + .checkbox-custom-label:before {
@@ -206,13 +198,9 @@ body.demo {
     .checkbox-custom:checked + .checkbox-custom-label:before {
       color: #FFFFFF;
       content:'\2713';
-      // background: rebeccapurple;
-      // box-shadow: inset 0px 0px 0px 4px #fff;
     }
 
-    .checkbox-custom:focus + .checkbox-custom-label {
-      // outline: 1px solid #ddd; /* focus style */
-    }
+    .checkbox-custom:focus + .checkbox-custom-label {}
 
     input[type=submit] {
     	float: right;
@@ -231,10 +219,6 @@ body.demo {
     input[type=submit]:hover {
       background-color: $lighter-orange;
     }
-
-  }
-
-  .section-block-copy {
   }
 
   .section.third {
@@ -283,10 +267,9 @@ body.demo {
         }
 
         a {
-          // position: relative; // IE8
-          height: 48px; // IE8
+          height: 48px;
           height: 2.2rem;
-          width: 48px; // IE8
+          width: 48px;
           width: 2.2rem;
         }
 
@@ -299,6 +282,4 @@ body.demo {
       }
     }
   }
-
-
 }

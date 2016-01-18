@@ -12,18 +12,22 @@ The dashboards show the following information.
 1. The total time spent within a unit and/or module.
 1. The assessment score achieved within a unit and/or module.
 
-## Class view
-If the teacher has selected a class and then clicks the **Students** tab at the top, then this dashboard shows a summary for the class across all modules and units. It shows
+## Class View
+
+The default view in the **Units** tab allows the teacher to see how many students have started each of the units
+
+![Class Dashboard](/img/docs/class_view.png)
+
+## Unit view
+If the teacher then clicks the **Students Started** area, then this will show shows a summary for the class across that unit. It shows
 
 ![Class Dashboard](/img/docs/class_dashboard.png)
 
 ## Student view
-If the teacher selects an individual student, then the teacher can see a detailed breakdown of that student's progress. It is summarized by module and then by unit.
+If the teacher selects the **Students** tab, he can then select individual student and see a detailed breakdown of that student's progress. It is summarized by module and then by unit.
 
 ![Student View](/img/docs/studentview_dashboard.png)
 
-## Unit view
-If the teacher selects **Modules** from the main class listing and then a unit from the following unit listing, then the teacher sees a unit specific dashboard.
 
-![Module View](/img/docs/moduleview_dashboard.png)
+
 

@@ -14,7 +14,7 @@ They solve the dual problem of
 
 ![Assessment](/img/docs/assessment.png)
 
-The results of these assessments are then automatically shown in the teacher's class dashboard along with the total time spent by the student in each Unit of content.
+The results of these assessments are then automatically shown in the teacher's class dashboard along with the number of students that have started each Unit of content.
 
 <img alt="authtoken" src="/img/docs/teacher_dashboard_students.png" class="simple"/>
 

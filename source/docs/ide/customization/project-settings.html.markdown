@@ -16,5 +16,7 @@ Project settings, as distinct from Project preferences, are used to store the fo
 - Enable your Box as [Always-On](/docs/ide/boxes/always-on/)
 - Delete your Project
 - Export the project as a Zip file.
+- Stack Settings - details of the stack used in your project.
+- Forwarding Settings - details of how to SSH into your box. See [here](/docs/ide/boxes/access/ssh-access/) for more.
 
 ![Project Setting](/img/docs/project-settings.png)

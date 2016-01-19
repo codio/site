@@ -147,18 +147,6 @@ body.university .header-block {
     }
   }
 
-  .blue {
-    background: $gradient;
-    color: white;
-    overflow: hidden;
-
-    @include breakpoint($break-tablet) {
-      margin: 0;
-      width: 100%;
-      max-width: 100%
-    }
-  }
-
   .section-header {
     font-size: 48px;
     font-weight: 400;

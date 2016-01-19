@@ -113,6 +113,8 @@ set :codio_environment, ENV["M_CODIO_ENVIRONMENT"] || "development"
 
 set :asset_host, ENV["M_ASSET_HOST"] || "http://localhost:4567"
 
+set :tiny_host, ENV["M_TINY_HOST"] || "http://localhost:6789"
+
 # Build-specific configuration
 configure :build do
   # Minification and Compression
@@ -124,6 +126,7 @@ configure :build do
   activate :minify_html do |html|
     html.remove_http_protocol = false
     html.remove_https_protocol = true
+    html.remove_input_attributes = false  
   end
 
   activate :gzip do |gzip|

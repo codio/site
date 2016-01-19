@@ -166,45 +166,6 @@ body.university .header-block {
   .section-copy {
   }
 
-  .section-block-row-three {
-    @include container;
-    @include break;
-
-    .section-block {
-      @include container;
-      margin-top: 0;
-      margin-bottom: 3rem;
-      overflow: hidden;
-      text-overflow: clip;
-      margin-right: span(1 of 50);
-
-      @include breakpoint($break-tablet) {
-        width: span(12 of 50);
-        float: left;
-      }
-
-      &:first-of-type {
-        @include breakpoint($break-tablet) {
-          margin-left: span(8 of 50);
-          margin-right: span(1 of 50);
-          width: span(11 of 50);
-        }
-      }
-
-      &:last-of-type {
-        margin-left: 0;
-        @include breakpoint($break-tablet) {
-          width: span(12 of 50);
-        }
-      }
-
-      .section-block-header {
-        margin: 0;
-      }
-
-    }
-  }
-
   .section-block-row {
     @include container;
     @include break;

@@ -92,54 +92,5 @@ fixed: true
     </div>
   </div>
 
-  <div class="blue">
-    <div class="section fourth">
-      <div class="section-block-column">
-        <div class="section-block">
-          <div class="border-wrapper">
-            <%= inline_svg "assets/university/pencil.svg", class: "icon white" %>
-          </div>
-          <h4 class="section-block-header">
-            Content authoring
-          </h4>
-          <div class="section-block-copy">
-            Codio's editor lets you create your own course content that is tightly bound to the IDE.
-            Tutorial pages can control the IDE, open files, command lines or previews.
-            Students can interact with and modify live code, creating a uniquely different learning experience.
-          </div>
-        </div>
-        <div class="section-block">
-          <div class="border-wrapper">
-            <%= inline_svg "assets/university/math.svg", class: "icon white" %>
-          </div>
-          <h4 class="section-block-header">
-            Integrated assessments
-          </h4>
-          <div class="section-block-copy">
-            Teachers can embed several different assessment types in their tutorials,
-            including automated code tests, MCQs, the ability to grade code and more.
-          </div>
-        </div>
-        <div class="section-block">
-          <div class="border-wrapper">
-            <%= inline_svg "assets/university/folders.svg", class: "icon white" %>
-          </div>
-          <h4 class="section-block-header">
-            Codio courses
-          </h4>
-          <div class="section-block-copy">
-            Codio courses are an ideal foundation in the areas of general programming,
-            Web Development, MySQL, Linux and standard search and sort algorithms.
-            Courses contain auto-graded assessments that provide
-            instant teacher feedback via the class dashboards.
-          </div>
-        </div>
-      </div>
-      <div class="wow fadeIn" data-wow-duration=".8s" data-wow-delay="1s">
-        <%= image_tag 'assets/university/guide.png', class: "right-image" %>
-        </div>
-    </div>
-  </div>
-
   <%= partial "call-to-action", locals: { url: "/p/free-education-trial", pricing: "university" } %>
 </section>

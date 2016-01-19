@@ -135,6 +135,16 @@ body.university .header-block {
       padding-top: 3rem;
       padding-bottom: 0;
     }
+
+    &.first {
+      background-color: #e1e6f2;
+      width: 100%;
+      margin: 0;
+
+      .section-header {
+        text-align: center;
+      }
+    }
   }
 
   .blue {

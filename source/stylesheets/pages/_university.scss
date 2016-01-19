@@ -1,5 +1,9 @@
 $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 
+.clear {
+  clear: both;
+}
+
 body.university {
   header .container,
   footer .container {
@@ -18,14 +22,9 @@ body.university .header-block {
   @include span(4);
   background-size: cover;
   background-image: $gradient;
-  max-height: 800px;
   color: white;
   position: relative;
-
-  @include breakpoint(max-width $break-tablet) {
-    background: url('/img/assets/university/atf.jpg') no-repeat top center fixed;
-    height: 615px;
-  }
+  height: 465px;
 
   @include breakpoint($break-tablet) {
     background-image: $gradient;
@@ -36,19 +35,21 @@ body.university .header-block {
   @include breakpoint($max-width) {
     background-image: $gradient;
     background: url('/img/assets/university/atf-large.jpg') no-repeat top center fixed;
-    height: 500px;
   }
 
   h1 {
-    margin-top: 4 * $base-line-height;
+    margin-top: 2.25 * $base-line-height;
     font-size: 48px;
     font-weight: 300;
     text-align: center;
     animation-delay: .4s;
 
     @include breakpoint($break-tablet) {
-      margin-top: 4 * $base-line-height;
-      line-height: 83px;
+      margin-top: 2.5 * $base-line-height;
+      font-size: 56px;
+      line-height: 64px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -57,16 +58,26 @@ body.university .header-block {
     font-weight: 200;
     font-size: 27px;
     animation-delay: .8s;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
     @include breakpoint($break-tablet) {
       line-height: 25px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
   .action-buttons {
     animation-delay: 1.2s;
-    margin: 90px auto 0 auto;
+    margin: 50px auto 0 auto;
     text-align: center;
+
+    .button-demo {
+      background: none;
+      border: 2px solid #FFFFFF;
+    }
 
     @include breakpoint(max-width $break-tablet) {
       margin-top: 30px;
@@ -74,18 +85,18 @@ body.university .header-block {
 
     .button:first-child {
       @include breakpoint($break-tablet) {
-        margin-right: 15px;
+        margin-right: 25px;
       }
       @include breakpoint(max-width $break-tablet) {
         margin-bottom: 10px;
       }
     }
 
-    @include breakpoint(max-width $break-tablet) {
+    @include breakpoint($break-tablet) {
       .button {
         white-space: nowrap;
         display: inline-block;
-        min-width: 200px;
+        min-width: 230px;
         height: auto;
       }
     }

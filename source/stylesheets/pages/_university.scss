@@ -150,12 +150,14 @@ body.university .header-block {
   }
 
   .section-header {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 400;
     margin-bottom: 2rem;
+    text-align: center;
 
     @include breakpoint($break-tablet) {
-      text-align: center;
+      margin-left: span(2 of 32);
+      text-align: left;
     }
   }
 
@@ -210,11 +212,11 @@ body.university .header-block {
     @include break;
 
     .section-block {
-      margin-top: 3rem;
+      // margin-top: 1rem;
       margin-bottom: 3rem;
 
       @include breakpoint($break-tablet) {
-        width: span(7 of 16);
+        width: span(14 of 32);
       }
     }
   }
@@ -259,12 +261,13 @@ body.university .header-block {
 
     &:first-of-type {
       @include breakpoint($break-tablet) {
-        margin-right: span(1 of 16);
+        margin-left: span(2 of 32);
+        margin-right: span(1 of 32);
       }
     }
     &:last-of-type {
       @include breakpoint($break-tablet) {
-        margin-left: span(1 of 16);
+        margin-right: span(1 of 32);
       }
     }
   }

@@ -126,6 +126,7 @@ configure :build do
   activate :minify_html do |html|
     html.remove_http_protocol = false
     html.remove_https_protocol = true
+    html.remove_input_attributes = false  
   end
 
   activate :gzip do |gzip|

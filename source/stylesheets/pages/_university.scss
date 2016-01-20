@@ -5,6 +5,8 @@ $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 }
 
 body.university {
+  background-color: #f5f5f5;
+
   header .container,
   footer .container {
     @include breakpoint($max-width) {
@@ -16,6 +18,63 @@ body.university {
     margin: -65px auto 0 auto;
     max-width: 100%;
   }
+
+  .action-buttons {
+    animation-delay: 1.2s;
+    margin: 50px 0;
+    text-align: center;
+
+    .button.button-main {
+      background-color: #f29312;
+      border: 2px solid #f29312;
+    }
+
+    .button:hover {
+      background-color: $lighter-orange;
+      border-color: $lighter-orange;
+    }
+
+    .button.button-demo {
+      background: none;
+      border: 2px solid #FFFFFF;
+    }
+
+    .button.button-demo:hover {
+      color: $dark-gray;
+      border-color: $dark-gray;
+    }
+
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 30px;
+    }
+
+    .button {
+      display: block;
+      padding: 0;
+      width: 100%;
+      line-height: 58px;
+      height: 60px;
+
+      @include breakpoint($break-tablet) {
+        white-space: nowrap;
+        display: inline-block;
+        min-width: 230px;
+        max-width: 250px;
+        display: inline-block;
+        height: auto;
+      }
+
+      &:first-child {
+        margin-bottom: 15px;
+
+        @include breakpoint($break-tablet) {
+          margin-right: 30px;
+          margin-bottom: 0;
+        }
+      }
+
+    }
+  }
 }
 
 body.university .header-block {
@@ -24,12 +83,10 @@ body.university .header-block {
   background-image: $gradient;
   color: white;
   position: relative;
-  height: 465px;
 
   @include breakpoint($break-tablet) {
     background-image: $gradient;
     background: url('/img/assets/university/atf.jpg') no-repeat top center fixed;
-    height: 500px;
   }
 
   @include breakpoint($max-width) {
@@ -68,39 +125,6 @@ body.university .header-block {
       margin-right: auto;
     }
   }
-
-  .action-buttons {
-    animation-delay: 1.2s;
-    margin: 50px auto 0 auto;
-    text-align: center;
-
-    .button-demo {
-      background: none;
-      border: 2px solid #FFFFFF;
-    }
-
-    @include breakpoint(max-width $break-tablet) {
-      margin-top: 30px;
-    }
-
-    .button:first-child {
-      @include breakpoint($break-tablet) {
-        margin-right: 25px;
-      }
-      @include breakpoint(max-width $break-tablet) {
-        margin-bottom: 10px;
-      }
-    }
-
-    @include breakpoint($break-tablet) {
-      .button {
-        white-space: nowrap;
-        display: inline-block;
-        min-width: 230px;
-        height: auto;
-      }
-    }
-  }
 }
 
 .university-body {
@@ -114,7 +138,7 @@ body.university .header-block {
     @include container;
     @include break;
 
-    padding: 4rem 1rem;
+    padding: 3rem 1rem 2rem 1rem;
     vertical-align: middle;
 
     @include breakpoint($break-tablet) {
@@ -123,7 +147,7 @@ body.university .header-block {
       margin: 0 span(2 of 16);
       float: inherit;
       max-width: $max-width;
-      padding: 4rem 1rem;
+      padding: 3rem 1rem;
     }
 
     @include breakpoint($max-width) {
@@ -137,18 +161,20 @@ body.university .header-block {
     }
 
     &.first {
-      background-color: #e1e6f2;
-      width: 100%;
-      margin: 0;
       max-width: none;
       text-align: center;
 
       svg {
         margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        max-height: 416px;
+        max-width: 800px;
       }
     }
 
     &.second {
+
       .section-header {
         text-align: center;
       }
@@ -201,6 +227,103 @@ body.university .header-block {
         }
       }
     }
+
+    &.third {
+      padding-top: 0;
+      padding-bottom: 1rem;
+
+      svg {
+        float: left;
+      }
+
+      h3 {
+        display: inline-block;
+        float: left;
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        padding-left: 100px;
+        min-height: 75px;
+      }
+
+      h3.savings {
+        background: url('/img/assets/university/savings.svg') no-repeat 10px top;
+      }
+
+      h3.savings span {
+        @include breakpoint($break-tablet) {
+          display: block;
+        }
+      }
+
+      h3.productivity {
+        background: url('/img/assets/university/productivity.svg') no-repeat 10px top;
+      }
+
+      h3.lms {
+        background: url('/img/assets/university/lms.svg') no-repeat left top;
+      }
+
+      h3.creation {
+        background: url('/img/assets/university/creation.svg') no-repeat 20px 5px;
+      }
+
+      .section-block-copy {
+        clear: both;
+      }
+
+      .section-block-row {
+        @include container;
+        @include break;
+
+        .section-block {
+          // margin-top: 1rem;
+          margin-bottom: 3rem;
+
+          @include breakpoint($break-tablet) {
+            width: span(13 of 32);
+          }
+        }
+      }
+
+      .section-block {
+        @include container;
+        @include breakpoint($break-tablet) {
+          float: left;
+        }
+
+        &:first-of-type {
+          @include breakpoint($break-tablet) {
+            margin-left: span(2 of 32);
+          }
+        }
+        &:last-of-type {
+          @include breakpoint($break-tablet) {
+            margin-left: span(3 of 32);
+            // margin-right: span(1 of 32);
+          }
+        }
+      }
+    }
+
+    &.fourth {
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .grey {
+    background-color: #e1e6f2;
+  }
+
+  .blue {
+    background-color: #4574e0;
+    background-image: url('/img/assets/university/bg_action.svg');
   }
 
   .section-header {
@@ -236,38 +359,6 @@ body.university .header-block {
     }
   }
 
-  .section-block-column {
-    @include container;
-
-    @include breakpoint($break-tablet) {
-      width: span(7 of 16);
-      margin-left: 0;
-      float: left;
-    }
-
-    .section-block {
-      margin-bottom: 3rem;
-
-      @include breakpoint($break-tablet) {
-        @include break;
-      }
-
-      &:first-of-type {
-        @include breakpoint($break-tablet) {
-          margin-right: 0;
-        }
-      }
-      &:last-of-type {
-        @include breakpoint($break-tablet) {
-          margin-left: 0;
-        }
-
-        margin-bottom: 0;
-      }
-
-    }
-  }
-
   .section-block {
     @include container;
     @include breakpoint($break-tablet) {
@@ -290,65 +381,12 @@ body.university .header-block {
   .section-block-header {
     font-size: 21px;
     font-weight: 400;
+    margin-top: 0;
+
   }
 
   .section-block-copy {
   }
 
-  svg.icon {
-    fill: $university-blue;
-    padding: 13px;
-    width: 54px;
-    height: 54px;
-  }
 
-  svg.icon.white {
-    fill: white;
-  }
-
-  .border-wrapper {
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    width: 54px;
-    height: 54px;
-    margin-left: -81px;
-    margin-bottom: -81px;
-  }
-
-  .border-wrapper.headline {
-    margin: 0 auto;
-    border-color: $university-blue;
-    width: 64px;
-    height: 64px;
-
-    svg.icon {
-      width: 64px;
-      height: 64px;
-      padding: 15px;
-    }
-  }
-
-  .center-image {
-    margin: 3rem auto;
-    display: block;
-  }
-
-  .right-image {
-    display: block;
-    margin: 3rem auto 0;
-
-    @include breakpoint($break-tablet) {
-      float: right;
-      margin-right: -60%;
-      margin-top: 0;
-    }
-
-    @include breakpoint(1100px) {
-      margin-right: -30%;
-    }
-
-    @include breakpoint(1550px) {
-      margin-right: -10%;
-    }
-  }
 }

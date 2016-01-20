@@ -72,7 +72,6 @@ body.university {
           margin-bottom: 0;
         }
       }
-
     }
   }
 }
@@ -87,11 +86,13 @@ body.university .header-block {
   @include breakpoint($break-tablet) {
     background-image: $gradient;
     background: url('/img/assets/university/atf.jpg') no-repeat top center fixed;
+    background-color: #4574e0;
   }
 
   @include breakpoint($max-width) {
     background-image: $gradient;
     background: url('/img/assets/university/atf-large.jpg') no-repeat top center fixed;
+    background-color: #4574e0;
   }
 
   h1 {
@@ -276,7 +277,6 @@ body.university .header-block {
         @include break;
 
         .section-block {
-          // margin-top: 1rem;
           margin-bottom: 3rem;
 
           @include breakpoint($break-tablet) {
@@ -299,7 +299,6 @@ body.university .header-block {
         &:last-of-type {
           @include breakpoint($break-tablet) {
             margin-left: span(3 of 32);
-            // margin-right: span(1 of 32);
           }
         }
       }
@@ -350,7 +349,6 @@ body.university .header-block {
     @include break;
 
     .section-block {
-      // margin-top: 1rem;
       margin-bottom: 3rem;
 
       @include breakpoint($break-tablet) {
@@ -382,11 +380,8 @@ body.university .header-block {
     font-size: 21px;
     font-weight: 400;
     margin-top: 0;
-
   }
 
   .section-block-copy {
   }
-
-
 }

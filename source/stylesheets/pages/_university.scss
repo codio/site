@@ -123,7 +123,7 @@ body.university .header-block {
       margin: 0 span(2 of 16);
       float: inherit;
       max-width: $max-width;
-      padding: 8rem 1rem;
+      padding: 4rem 1rem;
     }
 
     @include breakpoint($max-width) {
@@ -140,9 +140,65 @@ body.university .header-block {
       background-color: #e1e6f2;
       width: 100%;
       margin: 0;
+      max-width: none;
+      text-align: center;
 
+      svg {
+        margin: 0 auto;
+      }
+    }
+
+    &.second {
       .section-header {
         text-align: center;
+      }
+
+      .section-block {
+        width:100%;
+        margin: 0;
+        color: #999ca2;
+        text-align: center;
+
+        .left-quote, .right-quote {
+          display: none;
+
+          @include breakpoint($break-tablet) {
+            display: block;
+          }
+        }
+
+        @include breakpoint($break-tablet) {
+          font-size: 2rem;
+          line-height: 2.25rem;
+
+          .left-quote, .right-quote {
+            height: 230px;
+            width: span(2 of 32);
+          }
+
+          .left-quote, .right-quote {
+            line-height: 180px;
+            font-size: 4rem;
+            font-weight: 400;
+            color: #000;
+            text-align: center;
+          }
+
+          .left-quote {
+            float: left;
+          }
+
+          .right-quote {
+            float: right;
+          }
+
+          .section-block-copy {
+            float: left;
+            width: span(28 of 32);
+            height: 230px;
+            vertical-align: middle;
+          }
+        }
       }
     }
   }

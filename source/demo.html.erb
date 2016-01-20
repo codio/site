@@ -1,0 +1,112 @@
+---
+title: "Book a Demo"
+fixed: true
+---
+<% @pricingType = "university" %>
+<% @signupUrl = "/p/free-education-trial" %>
+
+<section class='header-block'>
+  <h1>Book a demo</h1>
+</section>
+
+<section class="demo-body">
+
+  <div class="section first">
+    <div class="section-block">
+      <div class="section-block-copy">
+        Find out how Codio can help you revolutionise the way you teach coding,
+        and the way you manage the teaching process. A Codio expert will take
+        you through Codio's key benefits and pricing structure - online or in
+        person.
+      </div>
+    </div>
+  </div>
+
+  <div class="blue">
+    <div class="arrow">
+      <div class="section second">
+        <div class="section-block-row-three">
+          <form id="demo-form" class="" action="<%= tiny_host %>/demo" method="post">
+
+            <div class="section-block">
+              <p>
+                <input type="text" id="name" name="name" placeholder="Your name *" value="" required>
+              </p>
+              <p>
+                <input type="text" id="company" name="company" placeholder="University or college name *" value="" required>
+              </p>
+              <p>
+                <input type="text" id="datetime" name="datetime" placeholder="Suggest a contact date and time" value="">
+              </p>
+            </div>
+            <div class="section-block">
+              <p>
+                <input type="email" id="email" name="email" placeholder="Email *" value="" required>
+              </p>
+              <p>
+                <input type="text" id="phone" name="phone" placeholder="Telephone (Optional)" value="">
+              </p>
+              <div class="form-inset">
+                <small>Please contact me</small>
+                <p>
+                  <span>
+                    <input class="checkbox-custom" type="checkbox" id="byEmail" name="byEmail" value="yes" checked>
+                    <label class="checkbox-custom-label" class="checkbox-custom-label" for="byEmail">by email</label
+                  </span>
+                  <span>
+                    <input class="checkbox-custom" type="checkbox" id="byPhone" name="byPhone" value="yes" >
+                    <label class="checkbox-custom-label" for="byPhone">by phone</label>
+                  </span>
+                </p>
+              </div>
+              <p>
+                <input class="button" type="submit" value="Send">
+              </p>
+            </div>
+
+            <div class="section-block">
+              <%= inline_svg "assets/demo/robot.svg", class: "robot" %>
+            </div>
+          </form>
+
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section third" style="display:none">
+    <div class="section-block">
+      <h2>
+        <%= inline_svg "assets/demo/smiley.svg", class: "smiley" %>
+        Thanks
+      </h2>
+      <div class="">
+        <div class="top">
+          <p>
+            We'll be in touch soon to arrange your demo.
+          </p>
+          <p>
+            <small>
+              In the meantime, why not sign up for a free 30 day trial or learn
+              more about our Technology?
+            </small>
+          </p>
+        </div>
+        <div class="social">
+          <h3>Follow us</h3>
+          <% link_to 'https://www.facebook.com/CodioHQ', target: '_blank' do %>
+            <%= inline_svg 'assets/demo/facebook.svg' %>
+          <% end %>
+          <% link_to 'https://twitter.com/codiohq', target: '_blank' do %>
+            <%= inline_svg 'assets/demo/twitter.svg' %>
+          <% end %>
+          <% link_to 'https://www.linkedin.com/company/codio', target: '_blank' do %>
+            <%= inline_svg 'assets/demo/linkedin.svg' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

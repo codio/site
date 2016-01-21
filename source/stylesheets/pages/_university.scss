@@ -5,8 +5,6 @@ $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 }
 
 body.university {
-  background-color: #f5f5f5;
-
   header .container,
   footer .container {
     @include breakpoint($max-width) {
@@ -333,7 +331,6 @@ body.university .header-block {
 
     @include breakpoint($break-tablet) {
       margin-left: span(2 of 32);
-      text-align: left;
     }
   }
 

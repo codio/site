@@ -96,7 +96,7 @@ body.university .header-block {
   }
 
   h1 {
-    margin-top: 2.25 * $base-line-height;
+    margin-top: 2 * $base-line-height;
     font-size: 48px;
     font-weight: 300;
     text-align: center;
@@ -196,15 +196,15 @@ body.university .header-block {
 
         @include breakpoint($break-tablet) {
           font-size: 2rem;
-          line-height: 2.25rem;
+          line-height: 2rem;
 
           .left-quote, .right-quote {
-            height: 230px;
+            height: 10rem;
             width: span(2 of 32);
           }
 
           .left-quote, .right-quote {
-            line-height: 180px;
+            line-height: 10rem;
             font-size: 4rem;
             font-weight: 400;
             color: #000;
@@ -222,7 +222,7 @@ body.university .header-block {
           .section-block-copy {
             float: left;
             width: span(28 of 32);
-            height: 230px;
+            height: 4rem;
             vertical-align: middle;
           }
         }
@@ -240,10 +240,10 @@ body.university .header-block {
       h3 {
         display: inline-block;
         float: left;
-        font-size: 1.75rem;
-        line-height: 1.75rem;
+        font-size: 2rem;
+        line-height: 2rem;
         padding-left: 100px;
-        min-height: 75px;
+        min-height: 3rem;
       }
 
       h3.savings {

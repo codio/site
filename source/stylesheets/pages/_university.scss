@@ -17,7 +17,7 @@ body.university {
     max-width: 100%;
   }
 
-  a {
+  a.link {
     @include linkUnderlines(white, $base-font-color);
   }
 

@@ -17,9 +17,8 @@ body.university {
     max-width: 100%;
   }
 
-  .link {
-    text-decoration: underline;
-    color: #4574e0;
+  a {
+    @include linkUnderlines(white, $base-font-color);
   }
 
   .action-buttons {

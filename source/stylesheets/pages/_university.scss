@@ -17,6 +17,10 @@ body.university {
     max-width: 100%;
   }
 
+  a.link {
+    @include linkUnderlines(white, $base-font-color);
+  }
+
   .action-buttons {
     animation-delay: 1.2s;
     margin: 50px 0;

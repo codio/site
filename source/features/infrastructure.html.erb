@@ -1,1 +1,115 @@
-<h2>Infrastructure</h2>
+---
+title: "Infrastructure as a service"
+fixed: true
+---
+<% @pricingType = "university" %>
+<% @signupUrl = "/p/free-education-trial" %>
+
+<section class="infrastructure-body">
+
+  <section class='section top'>
+    <h1 class="">
+      Infrastructure as a service
+    </h1>
+    <h2>
+      Works on every device, powerful yet easy to use, puts you in charge of
+      course content, and provides significant savings too.
+    </h2>
+    <div class="action-buttons animated fadeInUp">
+      <%= link_to 'Free 30 day trial', '/p/free-education-trial', class: 'button button-xlarge button-main' %>
+    </div>
+    <div class="clear">
+    </div>
+  </section>
+
+  <div class="grey">
+    <div class="section first">
+      <div class="section-body">
+        <%= inline_svg "assets/university/infographic.svg", class: "" %>
+      </div>
+    </div>
+  </div>
+
+  <div class="section second">
+    <div class="section-body">
+      <div class="section-block-row">
+        <div class="section-block">
+          <h3 class="section-block-header savings">
+            Cost <span>savings</span>
+          </h3>
+          <div class="section-block-copy">
+            For 500 users, the annual cost per student is just $48. You could
+            save up to 85% in costs compared to managing your own
+            infrastructure.
+            <%= link_to 'See our pricing structure', '/pricing', class: 'link' %>.
+          </div>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-header productivity">
+            Efficiency and productivity
+          </h3>
+          <div class="section-block-copy">
+            Codio's Stacks and Starter packs save time setting up new users.
+            Efficient workflows make communicating with students easier, and
+            lets them start coding instantly.
+          </div>
+        </div>
+      </div>
+      <div class="section-block-row">
+        <div class="section-block">
+          <h3 class="section-block-header lms">
+            Learning management
+          </h3>
+          <div class="section-block-copy">
+            We've made class management simple. Your faculty staff can easily
+            create and manage classes, monitor assignments, and access student
+            code. Uploading and downloading student work is simple too - just
+            drag and drop.
+          </div>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-header creation">
+            Simple course creation
+          </h3>
+          <div class="section-block-copy">
+            Simple and powerful, Codio's content authoring tools will help you
+            create a great learning experience. You can easily upload your own
+            course materials or create new courses with pre-configured template
+            projects.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section third">
+    <h4 class="section-header">Codio benefits</h4>
+    <div class="section-block-row">
+      <div class="section-block">
+        <div class="left-quote">
+          &ldquo;
+        </div>
+        <div class="section-block-copy">
+          Web-based IDE, online code editor, project templates, powerful class
+          management features and a flexible content authoring system all come
+          as standard.
+        </div>
+        <div class="right-quote">
+          &rdquo;
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blue">
+    <div class="section fourth">
+      <h2>
+        Learn more about the advantages of codio
+      </h2>
+      <div class="action-buttons animated">
+        <%= link_to 'Start FREE Trial', '/p/free-education-trial', class: 'button button-xlarge button-main' %>
+        <%= link_to 'Book a Demo', '/demo', class: 'button button-xlarge button-main button-demo' %>
+      </div>
+    </div>
+  </div>
+</section>

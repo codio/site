@@ -4,7 +4,7 @@ $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
   clear: both;
 }
 
-body.features_infrastructure {
+body.features_ide {
   header .container,
   footer .container {
     @include breakpoint($max-width) {
@@ -64,7 +64,7 @@ body.features_infrastructure {
   }
 }
 
-.infrastructure-body {
+.ide-body {
   @include container;
   @include break;
 
@@ -75,7 +75,6 @@ body.features_infrastructure {
     @include container;
     @include break;
 
-    padding: 3rem 1rem 2rem 1rem;
     vertical-align: middle;
 
     @include breakpoint($break-tablet) {
@@ -84,7 +83,7 @@ body.features_infrastructure {
       margin: 0 span(2 of 16);
       float: inherit;
       max-width: $max-width;
-      padding: 3rem 1rem;
+      padding: 1rem;
     }
 
     @include breakpoint($max-width) {
@@ -94,7 +93,6 @@ body.features_infrastructure {
 
     &.top {
       padding-top: 3rem;
-      padding-bottom: 3rem;
       text-align: center;
 
       h1 {
@@ -118,6 +116,10 @@ body.features_infrastructure {
       max-width: none;
       text-align: center;
 
+      @include breakpoint($break-tablet) {
+        padding-bottom: 2rem;
+      }
+
       svg {
         margin: 0 auto;
         width: 100%;
@@ -131,11 +133,12 @@ body.features_infrastructure {
       }
     }
 
-    &.third {
+    &.fourth {
 
       @include breakpoint($break-tablet) {
-        padding-top: 2rem;
+        padding-bottom: 3rem;
       }
+
 
       .section-header {
         text-align: center;
@@ -167,7 +170,7 @@ body.features_infrastructure {
           }
 
           .left-quote, .right-quote {
-            line-height: 7rem;
+            line-height: 14rem;
             font-size: 4rem;
             font-weight: 400;
             color: #000;
@@ -185,7 +188,7 @@ body.features_infrastructure {
           .section-block-copy {
             float: left;
             width: span(28 of 32);
-            height: 4rem;
+            height: 14rem;
             vertical-align: middle;
           }
 
@@ -244,7 +247,20 @@ body.features_infrastructure {
       }
     }
 
-    &.fourth {
+
+    &.third {
+
+      h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+
+      .section-block-copy {
+        clear: both;
+      }
+    }
+
+    &.fifth {
       color: #fff;
       padding: 2rem 1rem;
       text-align: center;

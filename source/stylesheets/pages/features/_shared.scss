@@ -156,6 +156,7 @@ body.features {
         color: #999ca2;
         font-size: 1.5rem;
         line-height: 2rem;
+        display: flex;
 
         .left-quote, .right-quote {
           display: none;
@@ -171,16 +172,17 @@ body.features {
           line-height: 2rem;
 
           .left-quote, .right-quote {
-            height: 10rem;
             width: span(2 of 32);
           }
 
           .left-quote, .right-quote {
-            line-height: 7rem;
+            line-height: 100%;
             font-size: 4rem;
             font-weight: 400;
             color: #000;
             text-align: center;
+            display: flex;
+            align-items: center;
           }
 
           .left-quote {
@@ -194,8 +196,8 @@ body.features {
           .section-block-copy {
             float: left;
             width: span(28 of 32);
-            height: 4rem;
             vertical-align: middle;
+            padding-bottom: 2rem;
           }
 
         }

@@ -255,6 +255,18 @@ body.university .header-block {
       h3.savings {
         background: url('/img/assets/university/savings.svg') no-repeat 10px top;
       }
+      h3 {
+        display: inline-block;
+        float: left;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-left: 100px;
+        min-height: 3rem;
+      }
+
+      h3.savings {
+        background: url('/img/assets/university/savings.svg') no-repeat 10px top;
+      }
 
       h3.savings span {
         @include breakpoint($break-tablet) {

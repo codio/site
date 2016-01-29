@@ -1,1 +1,77 @@
-<h2>Content authoring</h2>
+---
+title: "Content authoring tools"
+---
+<% @pricingType = "university" %>
+<% @signupUrl = "/p/free-education-trial" %>
+
+<section class="features-body">
+
+  <section class='section top'>
+    <h1>
+      Content authoring tools
+    </h1>
+    <p>
+      Codio's powerful content authoring tool lets you create rich tutorials
+      and lesson content directly within the IDE. Content is written using
+      simple Markdown, and HTML if required. You can include videos,
+      slideshows, sound and other rich media.
+    </p>
+    <div class="action-buttons animated fadeInUp">
+      <%= link_to 'Free 30 day trial', '/p/free-education-trial', class: 'button button-xlarge button-main' %>
+    </div>
+  </section>
+
+  <div class="grey">
+    <div class="section first">
+      <div class="section-body">
+        <%= inline_svg "assets/features/content-authoring.svg" %>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-center">
+    <div class="section-body">
+      <div class="section-block-row">
+        <h3 class="section-block-header">
+          Control the IDE
+        </h3>
+        <div class="section-block-copy">
+          Each page of your tutorial can control all important aspects of the
+          IDE. You can open source code files, terminal windows and HTML
+          preview windows. You can also execute commands on the Box. Each
+          page is able to select a multi-panel configuration including whether
+          the Box’s file tree is shown. Codio provides a great learning
+          experience due to its tight integration between content and the IDE.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grey-top">
+    <div class="section section-center">
+      <div class="section-block-row">
+        <h3 class="section-block-header">
+          Assessments made simple
+        </h3>
+        <div class="section-block-copy">
+          Choose what type of assessments you want to include -
+          auto-tested code, multiple choice, or fill in the blank. Assessments
+          can be auto-graded, for instant feedback, or you can mark them
+          individually. Results appear in the teacher dashboard.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blue">
+    <div class="section fourth">
+      <h3>
+        Learn more about the advantages of codio
+      </h3>
+      <div class="learn-buttons">
+        <%= link_to 'Schools', '/school', class: 'button button-large' %>
+        <%= link_to 'Universties', '/university', class: 'button button-large' %>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,19 +1,104 @@
-<h2>Features</h2>
+---
+title: "Codio Features and Technology"
+fixed: true
+---
+<% @pricingType = "university" %>
+<% @signupUrl = "/p/free-education-trial" %>
 
-<ul>
-  <li>
-    <%= link_to 'Infrastructure as a service', '/features/infrastructure' %>
-  </li>
-  <li>
-    <%= link_to 'Web-based IDE', '/features/ide' %>
-  </li>
-  <li>
-    <%= link_to 'Project templates', '/features/templates' %>
-  </li>
-  <li>
-    <%= link_to 'Learning management', '/features/management' %>
-  </li>
-  <li>
-    <%= link_to 'Content authoring', '/features/content-authoring' %>
-  </li>
-</ul>
+<section class='header-block'>
+  <h1 class="animated fadeIn">
+    Helping you to teach <span>computer science</span>
+  </h1>
+  <h2>
+    In addition to the significant cost savings, Codio has a range of other
+    advantages that make it the ideal platform to teach computer science to
+    your students.
+  </h2>
+</section>
+
+<section class="features-body">
+
+  <div class="section first">
+    <div class="section-body">
+      <div class="section-block-row">
+        <div class="section-block">
+          <h3 class="section-block-header infrastructure">
+            Infrastructure <span>as a service</span>
+          </h3>
+          <div class="section-block-copy">
+            Cloud based, Codio is low on hardware requirements and big on
+            savings, reliability and flexibility.
+            <%= link_to 'Learn more', '/features/infrastructure', class: 'learn-more' %>
+          </div>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-header ide">
+            Web-based <span>IDE</span>
+          </h3>
+          <div class="section-block-copy">
+            Less hassle than installing an IDE on your network or desktop, with
+            no compromises on functionality.
+            <%= link_to 'Learn more', '/features/ide' %>
+          </div>
+        </div>
+      </div>
+      <div class="section-block-row">
+        <div class="section-block">
+          <h3 class="section-block-header templates">
+            Project <span>templates</span>
+          </h3>
+          <div class="section-block-copy">
+            The fast and simple way to create new computer science teaching
+            projects, and adapt existing ones.
+            <%= link_to 'Learn more', '/features/templates' %>
+          </div>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-header creation">
+            Learning <span>management</span>
+          </h3>
+          <div class="section-block-copy">
+            Manage your computer science classes from the Codio dashboard.
+            Watch your students progress through a course.  Assessments are
+            auto-marked, so you save time.
+            <%= link_to 'Learn more', '/features/management' %>
+          </div>
+        </div>
+      </div>
+      <div class="section-block-row">
+        <div class="section-block">
+          <h3 class="section-block-header authoring">
+            Content <span>authoring</span>
+          </h3>
+          <div class="section-block-copy">
+            Create your own course content either by uploading your class
+            notes or creating interactive content directly within the IDE.
+            <%= link_to 'Learn more', '/features/content-authoring' %>
+          </div>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-header curriculum">
+            Curriculum <span>Content</span>
+          </h3>
+          <div class="section-block-copy">
+            We’ve co-developed over 50 courses with Oxford, Cambridge and RSA
+            (OCR) — all mapped to the UK Computer Science national curriculum.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blue">
+    <div class="section fourth">
+      <h3>
+        Learn more about the advantages of codio
+      </h3>
+      <div class="learn-buttons">
+        <%= link_to 'Schools', '/school', class: 'button button-large' %>
+        <%= link_to 'Universties', '/university', class: 'button button-large' %>
+      </div>
+    </div>
+  </div>
+
+</section>

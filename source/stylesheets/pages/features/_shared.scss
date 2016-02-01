@@ -41,14 +41,14 @@ body.features {
     text-align: center;
 
     .button.button-main {
-      background: none;
+      background: $blue;
+      color: #fff;
       border: 2px solid $blue;
-      color: $blue;
     }
 
     .button:hover {
-      color: $dark-gray;
-      border-color: $dark-gray;
+      background-color: #fff;
+      color: $blue;
     }
 
     @include breakpoint(max-width $break-tablet) {

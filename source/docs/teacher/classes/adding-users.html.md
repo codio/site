@@ -6,7 +6,7 @@ full_width: true
 ---
 
 ## Owners
-The only users who can create classes are organization owners. Being an owner does not make you a teacher of the class and you should add yourself as a teacher as described below.
+The only users who can create classes are organization owners. 
 
 Owners are the only users who are able to delete classes.
 
@@ -16,7 +16,7 @@ Codio provides a number of ways to add users into your organisation.
 See [Adding users to your Organisation](/docs/dashboard/organizations/adding-members/) for more information on this.
 
 ## Adding teachers
-If you are the teacher of the class, you should always add yourself as a teacher, even if you are the organization owner. You can also add others as teachers to the class. 
+If you are the creator of the class, you are automatically added as a teacher to that class. You can also add others as teachers to the class. 
 
 Teachers are able to view student projects from the student listing within the class. They can also assign modules.
 
@@ -30,8 +30,10 @@ The teacher is now added to the list of teachers.
 ![Add Teacher](/img/docs/organisation_addteacher.png)
 
 ## Adding Students
-To add students, who are Codio users already, you can send them the 'Class Token' that they can then enter in the 'Join a Class' area in their dashboard and they will then be added automatically into this class.
+To add students, who are Codio users already, you can send them the 'Class Token' that they can then enter in the 'Join a Class' area in their dashboard and they will then be added automatically into this class.  You can also add them by going to the **Student** tab to add existing users in the same way as adding Teachers above.
 
 **Please Note**: You can regenerate the class token at any time but any users who were previously sent the original token will not be able to use that old token
 
-![Add Owner](/img/docs/organisation_addmanually.png)
+![Add Owner](/img/docs/organisation_addmanually.png).
+
+Also see [Bulk Student Upload](/docs/teacher/classes/bulk-upload/) where you can send new users an email that will take them through the sign up process to become Codio members but also automatically add them into your Organisation and the Class.

@@ -275,7 +275,34 @@ body.features {
     .teacher {
       @include breakpoint($break-tablet) {
         margin: 0 auto;
-        width: 200px;
+        width: 320px;
+        height: 150px;
+
+        .profile {
+          border-radius:50%;
+          border: 2px solid;
+          width: 100px;
+          height: 100px;
+          float: left;
+        }
+
+        svg {
+          display: inline-block;
+          width: 70px;
+          padding-top: 8px;
+          text-align: center;
+          align-items: center;
+          margin-left: 10px;
+        }
+
+        h4 {
+          margin-top: 0;
+        }
+
+        .copy {
+          width: 190px;
+          float: right;
+        }
       }
     }
   }

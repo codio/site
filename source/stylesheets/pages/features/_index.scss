@@ -40,3 +40,20 @@ body.features_index .header-block {
     }
   }
 }
+
+
+body.features_index {
+  .learn-more {
+    background-color: $blue;
+    display: block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+
+    @include breakpoint($break-tablet) {
+      white-space: nowrap;
+      min-width: 175px;
+      max-width: 225px;
+    }
+  }
+}

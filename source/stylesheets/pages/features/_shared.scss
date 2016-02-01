@@ -1,17 +1,14 @@
 $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 
-.clear {
-  clear: both;
-}
-
 body.features {
-  header .container,
-  footer .container {
+
+  header .container, footer .container {
     @include breakpoint($max-width) {
       margin-left: auto;
       margin-right: auto;
     }
   }
+
   .content {
     margin: -65px auto 0 auto;
     max-width: 100%;
@@ -19,6 +16,18 @@ body.features {
 
   a.link {
     @include linkUnderlines(white, $base-font-color);
+  }
+
+  .grey-top {
+    border-top: 1px solid #cfd2d7;
+  }
+
+  .grey {
+    background-color: #e1e6f2;
+  }
+
+  .blue {
+    background-color: #4574e0;
   }
 
   .action-buttons {
@@ -54,14 +63,102 @@ body.features {
         min-width: 230px;
         max-width: 250px;
         display: inline-block;
-          height: auto;
+        height: auto;
       }
     }
   }
 
-  .grey-top {
-    border-top: 1px solid #cfd2d7;
+  .section-block-row {
+    @include container;
+    @include break;
+
+    .section-block {
+      margin-bottom: 3rem;
+
+      @include breakpoint($break-tablet) {
+        width: span(13 of 32);
+      }
+    }
+
+    .section-block {
+      @include container;
+      @include breakpoint($break-tablet) {
+        float: left;
+      }
+
+      &:first-of-type {
+        @include breakpoint($break-tablet) {
+          margin-left: span(2 of 32);
+        }
+      }
+      &:last-of-type {
+        @include breakpoint($break-tablet) {
+          margin-left: span(3 of 32);
+        }
+      }
+
+      h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+
+      .section-block-copy {
+        clear: both;
+      }
+    }
   }
+
+  .section.footer {
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+
+    h3 {
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    .learn-buttons {
+      animation-delay: 1.2s;
+      margin: 30px 0;
+      text-align: center;
+
+      .button:hover {
+        color: $dark-gray;
+      }
+
+      @include breakpoint(max-width $break-tablet) {
+        margin-top: 30px;
+      }
+
+      .button {
+        display: block;
+        padding: 0;
+        width: 100%;
+        line-height: 40px;
+        height: 40px;
+
+        @include breakpoint($break-tablet) {
+          white-space: nowrap;
+          display: inline-block;
+          min-width: 150px;
+          max-width: 200px;
+          display: inline-block;
+          height: auto;
+        }
+
+        &:first-child {
+          margin-bottom: 15px;
+
+          @include breakpoint($break-tablet) {
+            margin-right: 30px;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 .features-body {
@@ -75,7 +172,7 @@ body.features {
     @include container;
     @include break;
 
-    padding: 3rem 1rem 2rem 1rem;
+    padding: 1rem;
     vertical-align: middle;
 
     @include breakpoint($break-tablet) {
@@ -123,24 +220,8 @@ body.features {
         font-size: 22px;
       }
     }
-    &.first {
-      max-width: none;
-      text-align: center;
 
-      svg {
-        margin: 0 auto;
-        width: 100%;
-        height: 100%;
-        max-height: 416px;
-        max-width: 800px;
-
-        @include breakpoint($break-tablet) {
-          min-height: 400px;
-        }
-      }
-    }
-
-    &.third {
+    &.quote {
 
       @include breakpoint($break-tablet) {
         padding-top: 2rem;
@@ -211,167 +292,7 @@ body.features {
       }
     }
 
-    &.second {
-      padding-bottom: 0;
 
-      h3 {
-        font-size: 2rem;
-        line-height: 2rem;
-      }
-
-      .section-block-copy {
-        clear: both;
-      }
-
-      .section-block-row {
-        @include container;
-        @include break;
-
-        .section-block {
-          margin-bottom: 3rem;
-
-          @include breakpoint($break-tablet) {
-            width: span(13 of 32);
-          }
-        }
-      }
-
-      .section-block {
-        @include container;
-        @include breakpoint($break-tablet) {
-          float: left;
-        }
-
-        &:first-of-type {
-          @include breakpoint($break-tablet) {
-            margin-left: span(2 of 32);
-          }
-        }
-        &:last-of-type {
-          @include breakpoint($break-tablet) {
-            margin-left: span(3 of 32);
-          }
-        }
-      }
-    }
-
-    &.fourth {
-      color: #fff;
-      padding: 2rem 1rem;
-      text-align: center;
-
-      h3 {
-        font-weight: 300;
-        text-transform: uppercase;
-      }
-
-      .learn-buttons {
-        animation-delay: 1.2s;
-        margin: 30px 0;
-        text-align: center;
-
-        .button:hover {
-          color: $dark-gray;
-        }
-
-        @include breakpoint(max-width $break-tablet) {
-          margin-top: 30px;
-        }
-
-        .button {
-          display: block;
-          padding: 0;
-          width: 100%;
-          line-height: 40px;
-          height: 40px;
-
-          @include breakpoint($break-tablet) {
-            white-space: nowrap;
-            display: inline-block;
-            min-width: 150px;
-            max-width: 200px;
-            display: inline-block;
-            height: auto;
-          }
-
-          &:first-child {
-            margin-bottom: 15px;
-
-            @include breakpoint($break-tablet) {
-              margin-right: 30px;
-              margin-bottom: 0;
-            }
-          }
-        }
-      }
-
-    }
   }
 
-  .grey {
-    background-color: #e1e6f2;
-  }
-
-  .blue {
-    background-color: #4574e0;
-  }
-
-  .section-header {
-    font-size: 48px;
-    font-weight: 400;
-    margin-bottom: 2rem;
-    text-align: center;
-
-    @include breakpoint($break-tablet) {
-      margin-left: span(2 of 32);
-    }
-  }
-
-  .section-body {
-    @include container;
-  }
-
-  .section-copy {
-  }
-
-  .section-block-row {
-    @include container;
-    @include break;
-
-    .section-block {
-      margin-bottom: 3rem;
-
-      @include breakpoint($break-tablet) {
-        width: span(14 of 32);
-      }
-    }
-  }
-
-  .section-block {
-    @include container;
-    @include breakpoint($break-tablet) {
-      float: left;
-    }
-
-    &:first-of-type {
-      @include breakpoint($break-tablet) {
-        margin-left: span(2 of 32);
-        margin-right: span(1 of 32);
-      }
-    }
-    &:last-of-type {
-      @include breakpoint($break-tablet) {
-        margin-right: span(1 of 32);
-      }
-    }
-  }
-
-  .section-block-header {
-    font-size: 21px;
-    font-weight: 400;
-    margin-top: 0;
-  }
-
-  .section-block-copy {
-  }
 }

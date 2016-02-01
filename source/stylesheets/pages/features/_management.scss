@@ -1,5 +1,5 @@
 body.features_management {
-  .section.second {
+  .section.images {
     h3 {
       display: inline-block;
       float: left;
@@ -11,22 +11,36 @@ body.features_management {
 
     h3.access {
       background: url('/img/assets/features/management/access.svg') no-repeat;
-      background-position: 0 5px;
     }
 
     h3.assessments {
       background: url('/img/assets/features/management/assessments.svg') no-repeat;
-      background-position: 5px 0;
     }
 
     h3.assign-projects {
       background: url('/img/assets/features/management/assign-projects.svg') no-repeat;
-      background-position: 5px 0;
     }
 
     h3.dashboard {
       background: url('/img/assets/features/management/dashboard.svg') no-repeat;
-      background-position: 0 15px;
+    }
+
+    @include breakpoint($break-tablet) {
+      h3.access {
+        background-position: 0 5px;
+      }
+
+      h3.assessments {
+        background-position: 5px 0;
+      }
+
+      h3.assign-projects {
+        background-position: 5px 0;
+      }
+
+      h3.dashboard {
+        background-position: 0 15px;
+      }
     }
   }
 }

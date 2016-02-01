@@ -36,4 +36,4 @@ To add students, who are Codio users already, you can send them the 'Class Token
 
 ![Add Owner](/img/docs/organisation_addmanually.png).
 
-Also see [Bulk Student Upload](/docs/teacher/classes/bulk-upload/) where you can send new users an email that will take them through the sign up process to become Codio members but also automatically add them into your Organisation and the Class.
+Also see [Bulk Student Upload](/docs/teacher/classes/bulk-upload/) where you can send new users an email that will take them through the sign up process to become Codio members and also automatically add them into your Organisation and the Class.

@@ -1,3 +1,4 @@
+
 body.features_index .header-block {
   @include span(4);
   background-color: #2a3547;
@@ -41,7 +42,6 @@ body.features_index .header-block {
   }
 }
 
-
 body.features_index {
   .learn-more {
     background-color: $blue;
@@ -56,4 +56,63 @@ body.features_index {
       max-width: 225px;
     }
   }
+
+  .section-block-row {
+    h3 {
+      background: none;
+
+      @include breakpoint($break-tablet) {
+        display: inline-block;
+        float: left;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-left: 110px;
+        min-height: 5rem;
+      }
+    }
+
+    h3.savings span {
+      @include breakpoint($break-tablet) {
+        display: block;
+      }
+    }
+
+    h3.infrastructure {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/infrastructure.svg') no-repeat left top;
+      }
+    }
+
+    h3.ide {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/ide.svg') no-repeat left top;
+      }
+    }
+
+    h3.templates {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/templates.svg') no-repeat left top;
+      }
+    }
+
+    h3.management {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/management.svg') no-repeat left top;
+      }
+    }
+
+    h3.authoring {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/authoring.svg') no-repeat left top;
+      }
+    }
+
+    h3.curriculum {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/curriculum.svg') no-repeat left top;
+      }
+    }
+
+  }
+
 }

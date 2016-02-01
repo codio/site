@@ -1,6 +1,11 @@
 $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 
 body.features {
+  @include container;
+  @include break;
+
+  margin: 0;
+  padding: 0;
 
   header .container, footer .container {
     @include breakpoint($max-width) {
@@ -108,6 +113,173 @@ body.features {
     }
   }
 
+  .section {
+    @include container;
+    @include break;
+
+    padding: 1rem;
+    vertical-align: middle;
+
+    @include breakpoint($break-tablet) {
+      @include container(12 of 16);
+      width: span(12 of 16);
+      margin: 0 span(2 of 16);
+      float: inherit;
+      max-width: $max-width;
+      padding: 3rem 1rem;
+    }
+
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .section.top {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+
+    h1 {
+      margin: 4rem 0 2rem;
+
+      @include breakpoint($break-tablet) {
+        margin: 7rem 0 2rem;
+      }
+    }
+
+    p {
+      @include breakpoint($break-tablet) {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .section.full-width {
+    .section-header {
+      width: 100%;
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+
+    .section-block {
+      @include breakpoint($break-tablet) {
+        width: span(30 of 32);
+        padding-left: span(2 of 32);
+        margin: 0;
+      }
+    }
+
+    .section-block-copy {
+      width: 100%;
+      clear: both;
+    }
+  }
+
+  .section.section-center {
+    text-align: center;
+
+    h3 {
+      font-size: 32px;
+    }
+
+    @include breakpoint($break-tablet) {
+      font-size: 22px;
+    }
+  }
+
+  .section.showcase {
+    text-align: center;
+
+    svg {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      max-height: 416px;
+      max-width: 800px;
+
+      @include breakpoint($break-tablet) {
+        min-height: 400px;
+      }
+    }
+
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  .section.quote {
+
+    @include breakpoint($break-tablet) {
+      padding-top: 2rem;
+    }
+
+    .section-header {
+      text-align: center;
+    }
+
+    .section-block {
+      width:100%;
+      margin: 0;
+      color: #999ca2;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      display: flex;
+
+      @include breakpoint($break-tablet) {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+
+      .section-block-copy {
+        @include breakpoint($break-tablet) {
+          float: left;
+          padding: 0 span(1 of 32);
+          width: span(28 of 32);
+          vertical-align: middle;
+          padding-bottom: 2rem;
+        }
+      }
+
+      .left-quote, .right-quote {
+        display: none;
+
+        @include breakpoint($break-tablet) {
+          width: span(1 of 32);
+          display: block;
+          line-height: 100%;
+          font-size: 4rem;
+          font-weight: 400;
+          color: #000;
+          text-align: center;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .left-quote {
+        @include breakpoint($break-tablet) {
+          float: left;
+        }
+      }
+
+      .right-quote {
+        @include breakpoint($break-tablet) {
+          float: right;
+          text-align: right;
+        }
+      }
+    }
+
+    .teacher {
+      @include breakpoint($break-tablet) {
+        margin: 0 auto;
+        width: 200px;
+      }
+    }
+  }
+
   .section.footer {
     color: #fff;
     padding: 2rem 1rem;
@@ -157,142 +329,6 @@ body.features {
         }
       }
     }
-  }
-
-}
-
-.features-body {
-  @include container;
-  @include break;
-
-  margin: 0;
-  padding: 0;
-
-  .section {
-    @include container;
-    @include break;
-
-    padding: 1rem;
-    vertical-align: middle;
-
-    @include breakpoint($break-tablet) {
-      @include container(12 of 16);
-      width: span(12 of 16);
-      margin: 0 span(2 of 16);
-      float: inherit;
-      max-width: $max-width;
-      padding: 3rem 1rem;
-    }
-
-    @include breakpoint($max-width) {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    &.top {
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      text-align: center;
-
-      h1 {
-        margin: 4rem 0 2rem;
-
-        @include breakpoint($break-tablet) {
-          margin: 7rem 0 2rem;
-        }
-      }
-
-      p {
-        @include breakpoint($break-tablet) {
-          font-size: 22px;
-        }
-      }
-    }
-
-    &.section-center {
-      text-align: center;
-
-      h3 {
-        font-size: 32px;
-      }
-
-      @include breakpoint($break-tablet) {
-        font-size: 22px;
-      }
-    }
-
-    &.quote {
-
-      @include breakpoint($break-tablet) {
-        padding-top: 2rem;
-      }
-
-      .section-header {
-        text-align: center;
-      }
-
-      .section-block {
-        width:100%;
-        margin: 0;
-        color: #999ca2;
-        font-size: 1.5rem;
-        line-height: 2rem;
-        display: flex;
-
-        .left-quote, .right-quote {
-          display: none;
-
-          @include breakpoint($break-tablet) {
-            display: block;
-          }
-        }
-
-        @include breakpoint($break-tablet) {
-          text-align: center;
-          font-size: 2rem;
-          line-height: 2rem;
-
-          .left-quote, .right-quote {
-            width: span(2 of 32);
-          }
-
-          .left-quote, .right-quote {
-            line-height: 100%;
-            font-size: 4rem;
-            font-weight: 400;
-            color: #000;
-            text-align: center;
-            display: flex;
-            align-items: center;
-          }
-
-          .left-quote {
-            float: left;
-          }
-
-          .right-quote {
-            float: right;
-          }
-
-          .section-block-copy {
-            float: left;
-            width: span(28 of 32);
-            vertical-align: middle;
-            padding-bottom: 2rem;
-          }
-
-        }
-      }
-
-      .teacher {
-        @include breakpoint($break-tablet) {
-          margin: 0 auto;
-          width: 200px;
-        }
-      }
-    }
-
-
   }
 
 }

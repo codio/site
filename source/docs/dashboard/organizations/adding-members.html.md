@@ -19,7 +19,7 @@ Alternatively, go to `Organisation Settings` area and create an invitation token
 
 If using the **Invite URL** option, send the generated link out to all users who you wish to include in your organisation and they will be automatically added. If they do not already have a Codio account, they will be taken through the sign up process and then added to your organisation.
 
-If using the **Invite Token** option, send that out to your Students who are already Codio members and they go to the 'Join a Class' menu area and enter in this 2 work password to automatically join your organisation
+If using the **Invite Token** option, send that out to users you wish to add as a Teacher or Owner to your Organisation. As they sign up to Codio, registering as a 'Teacher' they will then be shown the option to either Create an Organisation or Join an existing Organisation. Advise them to use the Join Organisation option where they can then enter in this 2 work password to be added in automatically.  Once they have done this, you can then add them as a Teacher to your classes (see [Adding Teachers](/docs/dashboard/classes/class-teachers/)) or as an Owner to your Organisation where they then have the rights to also create and manage classes as well. See [here](/docs/dashboard/organizations/adding-members/) for how to access the Members area and the select the Owners group to add them.
 
 ### Upload Users
 You can also upload your own CSV files to create user accounts and add users to your custom Members as well as to create classes. 

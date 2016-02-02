@@ -107,12 +107,12 @@ mysqladmin -u root password NEWPASSWORD`
 ## Codio Documentation
 Please be aware of the following useful links 
 
-- [How to Access your Box](/docs/boxes/)
-- [If your firewall only allows access to port 80](/docs/boxes/access/ext-access/)
-- [Creating Codio menu items to avoid repetitive terminal commands](/docs/boxes/runmenu/)
+- [How to Access your Box](/docs/ide/boxes/)
+- [If your firewall only allows access to port 80](/docs/ide/boxes/access/ext-access/)
+- [Creating Codio menu items to avoid repetitive terminal commands](/docs/ide/boxes/runmenu/)
 - [Using Git in Codio](/docs/ide/editing/git/)
 - [Customizing the IDE settings](/docs/ide/customization/)
-- [Restarting your Box](/docs/boxes/restart-reset/)
+- [Restarting your Box](/docs/ide/boxes/restart-reset/)
 - [Creating multiple code editing panels in the IDE](/docs/ide/panels/)
 
 ## Stack Specific Links

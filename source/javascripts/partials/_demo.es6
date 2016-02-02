@@ -15,11 +15,11 @@ $(() => {
       byPhone: $('#byPhone').prop('checked') ? 'yes' : 'no'
     }
 
-    $.post($("#demo-form").attr('action'), data, function(data, status) {
+    $.post($("#demo-form").attr('action'), data, (data, status) => {
       if(status == 'success') {
-        $('.section.second').fadeOut(1000, function() {
-          $('.section.third').fadeIn(1000, function() {
-          })
+        ga('send', 'event', 'Site', 'Book a demo', 'University')
+        $('.section.second').fadeOut(1000, () => {
+          $('.section.third').fadeIn(1000)
         })
       }
     })

@@ -1,5 +1,15 @@
 $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 
+nav ul li:last-child a {
+  color: white;
+  background-color: #fa9915;
+  border-color: #fa9915;
+}
+
+nav ul li:last-child a:hover {
+  border-color: #fff;
+}
+
 body.features {
   @include container;
   @include break;
@@ -273,18 +283,24 @@ body.features {
     }
 
     .teacher {
-      @include breakpoint($break-tablet) {
-        margin: 0 auto;
-        width: 320px;
-        height: 150px;
 
-        .profile {
+      .profile {
+        display: none;
+
+        @include breakpoint($break-tablet) {
+          display: block;
           border-radius:50%;
           border: 2px solid;
           width: 100px;
           height: 100px;
           float: left;
         }
+      }
+
+      @include breakpoint($break-tablet) {
+        margin: 0 auto;
+        width: 320px;
+        height: 150px;
 
         svg {
           display: inline-block;
@@ -354,6 +370,11 @@ body.features {
             margin-bottom: 0;
           }
         }
+      }
+
+      .button:hover {
+        background-color: #fff;
+        border-color: #fff;
       }
     }
   }

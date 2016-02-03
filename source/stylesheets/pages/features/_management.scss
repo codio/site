@@ -1,0 +1,46 @@
+body.features_management {
+  .section.images {
+    h3 {
+      display: inline-block;
+      float: left;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-left: 100px;
+      min-height: 3rem;
+    }
+
+    h3.access {
+      background: url('/img/assets/features/management/access.svg') no-repeat;
+    }
+
+    h3.assessments {
+      background: url('/img/assets/features/management/assessments.svg') no-repeat;
+    }
+
+    h3.assign-projects {
+      background: url('/img/assets/features/management/assign-projects.svg') no-repeat;
+    }
+
+    h3.dashboard {
+      background: url('/img/assets/features/management/dashboard.svg') no-repeat;
+    }
+
+    @include breakpoint($break-tablet) {
+      h3.access {
+        background-position: 0 5px;
+      }
+
+      h3.assessments {
+        background-position: 5px 0;
+      }
+
+      h3.assign-projects {
+        background-position: 5px 0;
+      }
+
+      h3.dashboard {
+        background-position: 0 15px;
+      }
+    }
+  }
+}

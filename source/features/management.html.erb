@@ -1,0 +1,127 @@
+---
+title: "Learning management tools"
+---
+<% @pricingType = "university" %>
+<% @signupUrl = "/p/free-education-trial" %>
+
+<section class="features-body">
+
+  <section class='section top'>
+    <h1 class="">
+      Learning management tools
+    </h1>
+    <p>
+      Managing computer software classes, courses and student activity
+      couldn't be easier. With Codio you can easily assign teaching
+      content and assessments to any of your classes. You can also
+      monitor how your students are performing, with access to data on
+      time spent and assessment scores.
+    </p>
+    <div class="action-buttons animated fadeInUp">
+      <%= link_to 'Free 30 day trial', '/p/free-education-trial', class: 'button button-xlarge button-main' %>
+    </div>
+  </section>
+
+  <div class="grey">
+    <div class="section showcase">
+      <div class="section-body">
+        <%= inline_svg "assets/university/infographic.svg", class: "" %>
+      </div>
+    </div>
+  </div>
+
+  <div class="section images">
+    <div class="section-body">
+      <div class="section-block-row">
+        <div class="section-block">
+          <h3 class="section-block-header access">
+            Instant access to student code
+          </h3>
+          <div class="section-block-copy">
+            You don't need to wait on students submitting work before you can see how they are progressing. Codio lets you instantly view, compile and execute student code at any
+            time. You can even leave feedback and
+            allocate grades.
+          </div>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-header assessments">
+            Auto-marked Assessments
+          </h3>
+          <div class="section-block-copy">
+            Save time because you don’t need
+            to mark assessments. Codio’s tools lets
+            you set assessments to be auto-graded.
+            Results appear in the teacher dashboard
+            and the student gets instant feedback.
+          </div>
+        </div>
+      </div>
+      <div class="section-block-row">
+        <div class="section-block">
+          <h3 class="section-block-header dashboard">
+            Dashboards to monitor student progress
+          </h3>
+          <div class="section-block-copy">
+            Gives you the big picture. Our teacher dashboard lets you see when students have accessed or completed assignments, and
+            how they've performed. The student dashboard lets your students see what they have to
+            do next, and what grades they’ve achieved.
+          </div>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-header assign-projects">
+            Assign projectes and materials
+          </h3>
+          <div class="section-block-copy">
+            Codio's stacks mean you can allocate course units to individuals, groups or your
+            whole class with just one click. You can also upload your existing lecture notes, reference documents or other code
+            teaching materials.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grey-top">
+    <div class="section full-width">
+      <div class="section-block">
+        <h3 class="section-block-header">
+          Easy set up
+        </h3>
+        <div class="section-block-copy">
+          You can easily invite students to join your class, or set up classes using imported CSV files.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section quote">
+    <div class="section-block-row">
+      <div class="section-block">
+        <div class="left-quote">
+          &ldquo;
+        </div>
+        <div class="section-block-copy">
+          I particularly like the fact that it's a complete package. There's no software to install on the school's computers, students can freely access work at home and can 'hack-around' their code without posing a risk to the school's system. Overall I would thoroughly recommend Codio.
+        </div>
+        <div class="right-quote">
+          &rdquo;
+        </div>
+      </div>
+      <div class="teacher">
+        <div class="profile">
+          <%= inline_svg "assets/features/quotes/man-young-white.svg", class: "" %>
+        </div>
+        <div class="copy">
+          <h4>Alex Briggs-Davies</h4>
+          <p>
+            Head of Computing<br/>
+            Alcester Grammar School<br/>
+            Warwickshire, UK
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%= partial "features-call-to-action" %>
+</section>

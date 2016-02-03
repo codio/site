@@ -1,0 +1,368 @@
+$gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
+
+nav ul li:last-child a {
+  color: white;
+  background-color: #fa9915;
+  border-color: #fa9915;
+}
+
+nav ul li:last-child a:hover {
+  border-color: #fff;
+}
+
+body.features {
+  @include container;
+  @include break;
+
+  margin: 0;
+  padding: 0;
+
+  header .container, footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .content {
+    margin: -65px auto 0 auto;
+    max-width: 100%;
+  }
+
+  a.link {
+    @include linkUnderlines(white, $base-font-color);
+  }
+
+  .grey-top {
+    border-top: 1px solid #cfd2d7;
+  }
+
+  .grey {
+    background-color: #e1e6f2;
+  }
+
+  .blue {
+    background-color: #4574e0;
+  }
+
+  .action-buttons {
+    animation-delay: 1.2s;
+    margin: 50px 0;
+    text-align: center;
+
+    .button.button-main {
+      background: $blue;
+      color: #fff;
+      border: 2px solid $blue;
+    }
+
+    .button:hover {
+      background-color: #fff;
+      color: $blue;
+    }
+
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      height: auto;
+      white-space: nowrap;
+
+      @include breakpoint($break-tablet) {
+        min-width: 230px;
+        max-width: 250px;
+      }
+    }
+  }
+
+  .section-block-row {
+    @include container;
+    @include break;
+
+    .section-block {
+      margin-bottom: 3rem;
+
+      @include breakpoint($break-tablet) {
+        width: span(13 of 32);
+      }
+    }
+
+    .section-block {
+      @include container;
+      @include breakpoint($break-tablet) {
+        float: left;
+      }
+
+      &:first-of-type {
+        @include breakpoint($break-tablet) {
+          margin-left: span(2 of 32);
+        }
+      }
+      &:last-of-type {
+        @include breakpoint($break-tablet) {
+          margin-left: span(3 of 32);
+        }
+      }
+
+      h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+
+      .section-block-copy {
+        clear: both;
+      }
+    }
+  }
+
+  .section {
+    @include container;
+    @include break;
+
+    padding: 1rem;
+    vertical-align: middle;
+
+    @include breakpoint($break-tablet) {
+      @include container(12 of 16);
+      width: span(12 of 16);
+      margin: 0 span(2 of 16);
+      float: inherit;
+      max-width: $max-width;
+      padding: 3rem 1rem;
+    }
+
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .section.top {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+
+    h1 {
+      margin: 4rem 0 2rem;
+
+      @include breakpoint($break-tablet) {
+        margin: 7rem 0 2rem;
+      }
+    }
+
+    p {
+      @include breakpoint($break-tablet) {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .section.full-width {
+    .section-header {
+      width: 100%;
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+
+    .section-block {
+      @include breakpoint($break-tablet) {
+        width: span(30 of 32);
+        padding-left: span(2 of 32);
+        margin: 0;
+      }
+    }
+
+    .section-block-copy {
+      width: 100%;
+      clear: both;
+    }
+  }
+
+  .section.section-center {
+    text-align: center;
+
+    h3 {
+      font-size: 32px;
+    }
+
+    @include breakpoint($break-tablet) {
+      font-size: 22px;
+    }
+  }
+
+  .section.showcase {
+    text-align: center;
+
+    svg {
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      max-height: 416px;
+      max-width: 800px;
+
+      @include breakpoint($break-tablet) {
+        min-height: 400px;
+      }
+    }
+
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  .section.quote {
+
+    @include breakpoint($break-tablet) {
+      padding-top: 2rem;
+    }
+
+    .section-header {
+      text-align: center;
+    }
+
+    .section-block {
+      width:100%;
+      margin: 0;
+      color: #999ca2;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      display: flex;
+
+      @include breakpoint($break-tablet) {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+
+      .section-block-copy {
+        padding-bottom: 2rem;
+
+        @include breakpoint($break-tablet) {
+          float: left;
+          padding: 0 span(1 of 32);
+          padding-bottom: 2rem;
+          width: span(28 of 32);
+          vertical-align: middle;
+        }
+      }
+
+      .left-quote, .right-quote {
+        display: none;
+
+        @include breakpoint($break-tablet) {
+          width: span(1 of 32);
+          display: block;
+          line-height: 100%;
+          font-size: 4rem;
+          font-weight: 400;
+          color: #000;
+          text-align: center;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .left-quote {
+        @include breakpoint($break-tablet) {
+          float: left;
+        }
+      }
+
+      .right-quote {
+        @include breakpoint($break-tablet) {
+          float: right;
+          text-align: right;
+        }
+      }
+    }
+
+    .teacher {
+
+      @include breakpoint($break-tablet) {
+        margin: 0 auto;
+        width: 320px;
+        min-height: 150px;
+      }
+
+      .profile {
+        display: block;
+        border-radius:50%;
+        border: 2px solid;
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-right: 25px;
+      }
+
+      .copy {
+        width: 190px;
+        float: left;
+      }
+
+      h4 {
+        margin-top: 0;
+      }
+
+
+      svg {
+        display: inline-block;
+        width: 70px;
+        padding-top: 8px;
+        text-align: center;
+        align-items: center;
+        margin-left: 10px;
+      }
+
+    }
+  }
+
+  .section.footer {
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+
+    h3 {
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    .learn-buttons {
+      animation-delay: 1.2s;
+      margin: 30px 0;
+      text-align: center;
+
+      .button:hover {
+        color: $dark-gray;
+      }
+
+      @include breakpoint(max-width $break-tablet) {
+        margin-top: 30px;
+      }
+
+      .button {
+        display: inline-block;
+        height: auto;
+        min-width: 150px;
+        max-width: 200px;
+        white-space: nowrap;
+
+        &:first-child {
+          margin-bottom: 15px;
+
+          @include breakpoint($break-tablet) {
+            margin-right: 30px;
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .button:hover {
+        background-color: #fff;
+        border-color: #fff;
+      }
+    }
+  }
+
+}

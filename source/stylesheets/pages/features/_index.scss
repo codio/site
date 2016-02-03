@@ -1,0 +1,117 @@
+
+body.features_index .header-block {
+  @include span(4);
+  background-color: #2a3547;
+  color: white;
+  position: relative;
+  padding: 5rem 1rem 2rem 1rem;
+
+  @include breakpoint($break-tablet) {
+    background-color: #2a3547;
+    padding: 8rem 4rem;
+  }
+
+  h1 {
+    margin-top: 2 * $base-line-height;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    animation-delay: .4s;
+
+    @include breakpoint($break-tablet) {
+      margin-top: 2rem;
+      font-size: 56px;
+      line-height: 4rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 27px;
+    animation-delay: .8s;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    @include breakpoint($break-tablet) {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+body.features_index {
+  .learn-more {
+    background-color: $blue;
+    height: auto;
+    text-align: center;
+
+    @include breakpoint($break-tablet) {
+      white-space: nowrap;
+      min-width: 175px;
+      max-width: 225px;
+    }
+  }
+
+  .section-block-row {
+    h3 {
+      background: none;
+
+      @include breakpoint($break-tablet) {
+        display: inline-block;
+        float: left;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-left: 110px;
+        min-height: 5rem;
+      }
+    }
+
+    h3.savings span {
+      @include breakpoint($break-tablet) {
+        display: block;
+      }
+    }
+
+    h3.infrastructure {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/infrastructure.svg') no-repeat left top;
+      }
+    }
+
+    h3.ide {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/ide.svg') no-repeat left top;
+      }
+    }
+
+    h3.templates {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/templates.svg') no-repeat left top;
+      }
+    }
+
+    h3.management {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/management.svg') no-repeat left top;
+      }
+    }
+
+    h3.authoring {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/authoring.svg') no-repeat left top;
+      }
+    }
+
+    h3.curriculum {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/curriculum.png') no-repeat left top;
+      }
+    }
+
+  }
+
+}

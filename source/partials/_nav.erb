@@ -1,4 +1,7 @@
 <ul>
+  <li <% if current_page.path.start_with?("features") then concat 'class="active"' end %>>
+    <%= link_to 'Features', '/features' %>
+  </li>
   <li <% if current_page.path.start_with?("docs") then concat 'class="active"' end %>>
     <%= link_to 'Docs', '/docs' %>
   </li>
@@ -9,12 +12,9 @@
     ) %>
   </li>
   <li>
-    <%= link_to 'Community', 'http://forum.codio.com', target: '_blank' %>
-  </li>
-  <li>
     <%= link_to 'Log in', '/p/login' %>
   </li>
   <li>
-    <%= link_to 'Sign up', (defined?(surl) && !surl.nil? ? surl : '/p/signup'), class: 'button' %>
+    <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/p/signup'), class: 'button' %>
   </li>
 </ul>

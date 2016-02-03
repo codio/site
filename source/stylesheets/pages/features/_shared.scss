@@ -66,19 +66,13 @@ body.features {
     }
 
     .button {
-      display: block;
-      padding: 0;
-      width: 100%;
-      line-height: 58px;
-      height: 60px;
+      display: inline-block;
+      height: auto;
+      white-space: nowrap;
 
       @include breakpoint($break-tablet) {
-        white-space: nowrap;
-        display: inline-block;
         min-width: 230px;
         max-width: 250px;
-        display: inline-block;
-        height: auto;
       }
     }
   }
@@ -146,7 +140,7 @@ body.features {
   }
 
   .section.top {
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
     text-align: center;
 
@@ -243,12 +237,14 @@ body.features {
       }
 
       .section-block-copy {
+        padding-bottom: 2rem;
+
         @include breakpoint($break-tablet) {
           float: left;
           padding: 0 span(1 of 32);
+          padding-bottom: 2rem;
           width: span(28 of 32);
           vertical-align: middle;
-          padding-bottom: 2rem;
         }
       }
 
@@ -284,42 +280,41 @@ body.features {
 
     .teacher {
 
-      .profile {
-        display: none;
-
-        @include breakpoint($break-tablet) {
-          display: block;
-          border-radius:50%;
-          border: 2px solid;
-          width: 100px;
-          height: 100px;
-          float: left;
-        }
-      }
-
       @include breakpoint($break-tablet) {
         margin: 0 auto;
         width: 320px;
-        height: 150px;
-
-        svg {
-          display: inline-block;
-          width: 70px;
-          padding-top: 8px;
-          text-align: center;
-          align-items: center;
-          margin-left: 10px;
-        }
-
-        h4 {
-          margin-top: 0;
-        }
-
-        .copy {
-          width: 190px;
-          float: right;
-        }
+        min-height: 150px;
       }
+
+      .profile {
+        display: block;
+        border-radius:50%;
+        border: 2px solid;
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-right: 25px;
+      }
+
+      .copy {
+        width: 190px;
+        float: left;
+      }
+
+      h4 {
+        margin-top: 0;
+      }
+
+
+      svg {
+        display: inline-block;
+        width: 70px;
+        padding-top: 8px;
+        text-align: center;
+        align-items: center;
+        margin-left: 10px;
+      }
+
     }
   }
 
@@ -347,20 +342,11 @@ body.features {
       }
 
       .button {
-        display: block;
-        padding: 0;
-        width: 100%;
-        line-height: 40px;
-        height: 40px;
-
-        @include breakpoint($break-tablet) {
-          white-space: nowrap;
-          display: inline-block;
-          min-width: 150px;
-          max-width: 200px;
-          display: inline-block;
-          height: auto;
-        }
+        display: inline-block;
+        height: auto;
+        min-width: 150px;
+        max-width: 200px;
+        white-space: nowrap;
 
         &:first-child {
           margin-bottom: 15px;

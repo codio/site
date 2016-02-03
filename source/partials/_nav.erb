@@ -1,5 +1,5 @@
 <ul>
-  <li>
+  <li <% if current_page.path.start_with?("features") then concat 'class="active"' end %>>
     <%= link_to 'Features', '/features' %>
   </li>
   <li <% if current_page.path.start_with?("docs") then concat 'class="active"' end %>>

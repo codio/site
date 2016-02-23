@@ -13,8 +13,8 @@ You can also preview static content on your mobile device easily using 'Project>
 ###Dynamic content
 To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the right-most menu option. You can access your server side application in one of two ways:
 
-- `word1-word2.codio.io:port` specify the port in the normal way
-- `word1-word2-port.codio.io` to access over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
+- `word1-word2-port.codio.io` which will access your box over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
+- `word1-word2.codio.io:port` where you can specify the port.
 
 `word1-word2` is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports in the normal way, but please be aware than Codio supported a restricted range of ports. Please refer to [this section](/docs/ide/boxes/access/ext-access) for more details.
 
@@ -57,32 +57,30 @@ You are free to customize the menu in either of the following ways
 
 For details about the various tokens that can be inserted, please refer to ['Customizing the Run menu'](/docs/ide/boxes/runmenu/).
 
-`{{domain}}` is the most important token for the Preview menu. It is replaced by the public url of your project. In most cases you will want to add the Port number (default 3000) to your service, as shown in the example below.
-`{{domain3000}}` can also be used in the Preview menu. It is replaced by the public url required to access your project over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
+`{{domain3000}}` is the most important token for the Preview menu. It is replaced by the public url required to access your project over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
+`{{domain}}` can also be used in the Preview menu. In most cases you will want to add the Port number (default 3000) to your service. e.g ` "Box URL": "http://{{domain}}:3000/",`
 
 
 ```json
 {
-  // Configure your Run and Preview buttons here.
+// Configure your Run and Preview buttons here.
 
-  // Run button configuration
+// Run button configuration
   "commands": {
         "Node version": "node --version"
   },
 
-  // Preview button configuration
+// Preview button configuration
   "preview": {
         "Project Index (static)": "https://{{domain}}/{{index}}",
         "Current File (static)": "https://{{domain}}/{{filepath}}",
-        "Box URL": "http://{{domain}}:3000/",
-        "Box URL SSL": "https://{{domain}}:9500/"
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
   }
 }
 ```
 
-Note that static content is served over Port 80. To access dynamic content you will need to specify the appropriate Port (as shown in the 'Box URL' default shown above).
-
-By default, our Apache and Nginx Box Parts are configured to listen to HTTPS on Port 9500, which is why you see we create `"Box URL SSL": "https://{{domain}}:9500/"`. If you want to modify this port then make sure you modify the HTTPS Port in your web server's config file.
+Note that static content is served over Port 80. To access dynamic content you may need to specify the appropriate Port.
 
 If you cannot access your project over SSL then this could be the way your application is configured.
 

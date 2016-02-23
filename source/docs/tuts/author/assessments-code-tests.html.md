@@ -50,6 +50,9 @@ If your test return 0, then Codio will give a dashboard score specified in the P
 ## Inputs and Outputs to student code
 If your assessment requires that inputs are passed into the student code or data should be returned from the student code, then it is entirely up to you how to implement this. You should make it clear how the student should process your test's inputs and how to return data back to your test.
 
+## Example Project
+https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking.
+
 
 
 

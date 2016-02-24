@@ -14,6 +14,7 @@
 //
 //= require_tree ./vendors
 //
+//= require_tree ./tools
 //= require_tree ./partials
 
 new WOW().init()

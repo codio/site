@@ -2,7 +2,6 @@
 
 $(() => {
   $('#school-book-a-demo').on('click', function() {
-    ga('send', 'event', 'Site', 'Book a demo', 'School')
+    f_ga('send', 'event', 'Site', 'Book a demo', 'School')
   })
-
 })

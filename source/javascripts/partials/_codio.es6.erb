@@ -48,16 +48,16 @@ function anonGa () {
   if (typeof ga === 'undefined' || ga === null) {
     return
   }
-  ga('set', 'dimension1', 'no')
-  ga('set', 'dimension3', 'anonymous')
+  f_ga('set', 'dimension1', 'no')
+  f_ga('set', 'dimension3', 'anonymous')
 }
 
 function signedInGa (name) {
   if (typeof ga === 'undefined' || ga === null) {
     return
   }
-  ga('set', 'dimension1', 'yes')
-  ga('set', 'dimension3', name)
+  f_ga('set', 'dimension1', 'yes')
+  f_ga('set', 'dimension3', name)
 }
 
 function fetchUser (session, done) {

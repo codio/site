@@ -1,5 +1,6 @@
 /* global ga */
 
+<%
 def f_ga(action, *arguments)
   environments = ['everything']
   ga(action, *arguments)
@@ -7,3 +8,4 @@ def f_ga(action, *arguments)
     ga("#{env}.#{action}", *arguments)
   end
 end
+%>

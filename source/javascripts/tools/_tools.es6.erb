@@ -1,9 +1,9 @@
 /* global ga */
 
-function f_ga(action, *arguments) {
+def f_ga(action, *arguments)
   environments = ['everything']
   ga(action, *arguments)
   environments.each do |env|
     ga("#{env}.#{action}", *arguments)
   end
-}
+end

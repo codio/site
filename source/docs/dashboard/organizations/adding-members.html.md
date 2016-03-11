@@ -28,10 +28,10 @@ Go to the `Upload Users` tab and select the `Begin New Upload` button
 
 ![Upload Users](/img/docs/organisation_upload.png)
 
-The file should be a CSV file that can contain the following details: Email (required), First Name, Last Name, Class.
+The file should be a CSV file that can contain the following details: Email (required), FirstName, LastName, Class.
 
 - If your CSV file includes Column names in the first row (as defined above), the order is not important but if your file does not contain the Column names in the first row the order of the content is important.
-- If you wish to minimize the chances of conflicts with existing usernames from other users accounts, enable the `Prefix Usernames` option and you can then enter a short value. The username (which will be formed from the first character of the firstName and the complete lastName) will be prefixed with this value.
+- If you wish to minimize the chances of conflicts with existing usernames from other users accounts, enable the `Prefix Usernames` option and you can then enter a short value. The username (which will be formed from the first character of the FirstName and the complete LastName) will be prefixed with this value.
 - If your CSV file includes a `Class`, this will be created for you if it does not already exist. If the class already exists (please note case is important), the users will be added to that class for you.
 - Select the group you wish to add these users to.
 

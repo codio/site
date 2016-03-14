@@ -16,7 +16,7 @@ body.school .header-block {
   @include span(4);
   background-size: cover;
   background-color: $dark-gray;
-  max-height: 800px;
+  max-height: 900px;
   color: white;
   position: relative;
 
@@ -38,23 +38,23 @@ body.school .header-block {
   }
 
   h1 {
-    margin-top: 4 * $base-line-height;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 300;
     text-align: center;
     animation-delay: .4s;
-
-    @include breakpoint(max-width $break-tablet) {
-      margin-top: $base-line-height;
-    }
+    margin-top: $base-line-height;
 
     @include breakpoint($break-tablet) {
-      margin-top: 2 * $base-line-height;
+      font-size: 32px;
     }
 
-    @include breakpoint($max-width) {
-      margin-top: 4 * $base-line-height;
-     }
+    span {
+      display: none;
+
+      @include breakpoint($break-tablet) {
+        display: inline;
+      }
+    }
   }
 
   h2 {
@@ -70,7 +70,7 @@ body.school .header-block {
 
   .action-buttons {
     animation-delay: 1.2s;
-    margin: 90px auto 0 auto;
+    margin: 45px auto 0 auto;
     text-align: center;
 
     @include breakpoint(max-width $break-tablet) {

@@ -5,7 +5,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', '<%= codio_environment != 'production' ? 'UA-39233819-2' : 'UA-39233819-4' %>', 'auto', 'everything');
 ga('everything.send', 'pageview');
-<% if codio_environment != 'production' %>
+<% if codio_environment == 'production' %>
 ga('create', 'UA-39233819-1', 'auto');
 ga('send', 'pageview');
 <% end %>

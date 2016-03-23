@@ -13,7 +13,7 @@ Additionally, you can find content covering the non-coding aspects of the pre 20
 
 ## Curriculum Map for the OCR GCSE 2012 Computing Specification (J275 Version 1 April 2012)
 
-Please view our [Curriculum Map (https://docs.google.com/a/codio.com/spreadsheets/d/1fGg1ouSMPuYuZwckQVlGGvMkz2d8K-N1EmJotMx-GJ8/edit?usp=sharing) for the OCR GCSE 2012 Computing Specification (J275 Version 1 April 2012). This powerful spreadsheet showcases our excellent curriculum coverage and commitment to teaching Computing.
+Please view our [Curriculum Map](https://docs.google.com/a/codio.com/spreadsheets/d/1fGg1ouSMPuYuZwckQVlGGvMkz2d8K-N1EmJotMx-GJ8/edit?usp=sharing) for the OCR GCSE 2012 Computing Specification (J275 Version 1 April 2012). This powerful spreadsheet showcases our excellent curriculum coverage and commitment to teaching Computing.
 
 ### Creating Lesson Plans: How to use the Curriculum Map
 

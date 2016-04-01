@@ -79,30 +79,30 @@ You can find configuration files in the following locations
 
 ### Apache Server
 Apache should be started by default. You can manually start, stop and restart it using the following terminal commands:
-```
+
 $ sudo service apache2 start
 $ sudo service  apache2 stop
 $ sudo service  apache2 restart
-```
+
 
 ### MySQL
 
 #### Start, Stop, Restart the MySQL server
 MySQL should be started by default. You can manually start, stop and restart the MySQL server using the following terminal commands:
-```
+
 $ sudo service mysql start
 $ sudo service mysql stop
 $ sudo service mysql restart
-```
+
 
 #### Connecting to the MySQL monitor
 Assuming the MySQL server is started, you can connect to it using `mysql` from the terminal. Exit using `ctrl+c`.
 
 #### Root Password
 If you want to set the root password, use the following command from the terminal
-```
+
 mysqladmin -u root password NEWPASSWORD`
-```
+
 
 ## Codio Documentation
 Please be aware of the following useful links 

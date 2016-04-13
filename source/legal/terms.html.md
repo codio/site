@@ -1,157 +1,166 @@
 ---
-title: Terms and Conditions
+title: Codio Terms of Use
 ---
 
-**Effective August 7th, 2013.**
-
-
-###1. Your Agreement with the Company
-
-**1.1** Codio is a trading name and is fully owned by Codio Ltd. (the "Company"). Application Craft UK Ltd. is legally responsible for all representations made under the Codio name with respect to users of Codio products and services.
-
-**1.2** Your use of the Codio service is governed by this agreement (the "Terms"). The Company is located at 29 Wood Street, Stratford Upon Avon CV37 6JG, United Kingdom and its subsidiaries or affiliates involved in providing the Codio Service. The “Codio Services” means the services Codio makes available through this website, including this website, the Codio cloud computing platform, the Codio APIs, any Codio Add-ons, and any other software or services offered by Codio in connection to any of those.
-
-**1.3** In order to use the Codio Services, you must first agree to the Terms. You can agree to the Terms by actually using the Codio Services. You understand and agree that Codio will treat your use of the Codio Services as acceptance of the Terms from that point onwards.
-
-**1.4** You may not use the Codio Services if you are a person barred from receiving the Codio Services under the laws of the United Kingdom or other countries, including the country in which you are resident or from which you use the Codio Services.
-
-**1.5** You agree your purchases of Codio Services are not contingent on the delivery of any future functionality or features or dependent on any oral or written public comments made by Codio or any of its affiliates regarding future functionality or features.
-
-###2. Your Account and Use of the Codio Services
-
-**2.1** You must provide accurate and complete registration information any time you register to use the Codio Services. You are responsible for the security of your passwords and for any use of your account. If you become aware of any unauthorized use of your password or of your account, you agree to notify Codio immediately.
-
-**2.2** Your use of the Codio Services must comply with all applicable laws, regulations and ordinances, including any laws regarding the export of data or software.
-
-**2.3** You agree not to (a) access (or attempt to access) the administrative interface of the Codio Services by any means other than through the interface that is provided by Codio in connection with the Codio Services, unless you have been specifically allowed to do so in a separate agreement with Codio, or (b) engage in any activity that interferes with or disrupts the Codio Services (or the servers and networks which are connected to the Service).
-
-**2.4** Your account has “hard” and “soft” usage limits, as further explained [here](/legal/usage) (or such URL as Codio may provide). The Codio Services do not permit you to exceed the hard usage limits. Codio reserves the right to enforce soft usage limits in its sole discretion, which may result in Codio serving a “quota exceeded” page to you or users to whom you serve web pages via the Codio Services (“End Users”). Repeated exceeding of the hard or soft usage limits may lead to termination of your account.
-
-**2.5** You may use the Codio Services only to develop and run applications on the Codio infrastructure. You may not access the Codio Services for the purpose of bringing an intellectual property infringement claim against Codio or for the purpose of creating a product or service competitive with the Codio Services.
-
-###3. Service Policies and Privacy
-
-**3.1** You agree to comply with the Codio Acceptable Use Policy available at acceptable use policy (the "Acceptable Use Policy") which is incorporated herein by this reference and which may be updated from time to time.
-
-**3.2** The Codio Services shall be subject to the privacy policy for the Codio Services available at privacy policy. You agree to the use of your data in accordance with Codio's privacy policies.
-
-
-###4. Trial use of Codio & Fees for Use of the Codio Services
-
-**4.1** Subject to the Terms, individuals (one individual user account) can use Codio free of charge during a trial period of 14 days after which an individual (single user) subscription is required to be able to continue using Codio and the Codio services. Schools, universities and colleges (verified education institutions) can trial Codio free for 30 days with up to 100 users.  After the trial period, education institutions are required to have a Codio annual academic year education licence to continue using Codio and the Codio services.  Academic year licences are typically a 12 month period e.g. September 1st to 31st August, or part year thereof depending on the time of purchase.  Codio does not offer pro-rata or part year academic licences.  Commercial organisations wishing to use Codio as a group (with Codio accounts linked by creation of a Codio professional “organisation” account) are required to purchase a Codio professional licence for a defined number of users to be able to use Codio and the Codio services.  The pricing for use of Codio and the Codio services can be found on the Codio.com pricing page (codio.com/pricing).
-
-**4.2** For all individual subscriber and professional organisation licence purchased services, we will charge your credit card on a monthly or annual basis or at the interval indicated in Codio fees and payment policies, if different. Late payments may bear interest at the rate of 1.5% per month (or the highest rate permitted by law, if less). Charges are exclusive of taxes. You are responsible for paying all taxes and government charges, and all reasonable expenses and professional fees Codio incurs collecting late amounts. To the fullest extent permitted by law, you waive all claims relating to charges unless claimed within 60 days after the charge (this does not affect your credit card issuer rights). Charges are solely based on Codio measurements of your use of the Codio Services, unless otherwise agreed to in writing. To the fullest extent permitted by law, refunds (if any) are at the discretion of Codio and only in the form of credit for the Codio Services. Nothing in these Terms obligates Codio to extend credit to any party. You acknowledge and agree that any credit card and related billing and payment information that you provide to Codio may be shared by Codio with companies who work on Codio behalf, such as payment processors and/or credit agencies, solely for the purposes of checking credit, effecting payment to Codio and servicing your account. Codio may also provide information in response to valid legal process, such as court summonses, search warrants and court orders, or to establish or exercise its legal rights or defend against legal claims. Codio shall not be liable for any use or disclosure of such information by such third parties. Codio reserves the right to discontinue the provision of the Codio Services to you for any late payments.
-
-**4.3** Codio may change its fees and payment policies for the Codio Services by notifying you at least fifteen (15) days before the beginning of the billing cycle in which such change will take effect. Changes to the fees or payment policies will be posted on the website (or such other URL Codio may provide from time to time). Any outstanding balance becomes immediately due and payable upon termination of the Terms for any reason.
-
-**4.4** You may not develop multiple Applications to simulate or act as a single Application or otherwise access the Codio Services in a manner intended to avoid incurring fees.
-
-###5. Content on the Codio Services and Take Down Obligations
-
-**5.1** You understand that all information (such as data files, written text, computer software, music, audio files or other sounds, photographs, videos or other images) to which you may have access as part of, or through your use of, the Codio Services are the sole responsibility of the person from which such content originated. All such information is referred to below as the "Content." The term Content shall specifically exclude any applications or content that you create using the Codio Services and any source code written by you to be used with the Codio Services (collectively, "Applications").
-
-**5.2** Codio reserves the right (but shall have no obligation) to remove any or all Content from the Codio Services. You agree to immediately take down any Content that violates the Acceptable Use Policy, including pursuant to a take down request from Codio. In the event that you elect not to comply with a request from Codio to take down certain Content, Codio reserves the right to directly take down such Content or to disable Applications.
-
-**5.3** In the event that you become aware of any violation of the Acceptable Use Policy by an End User of Applications, you shall immediately terminate such end user's account on your Application. Codio reserves the right to disable Applications in response to a violation or suspected violation of the Acceptable Use Policy.
-
-**5.4** You agree that you are solely responsible for (and that Codio has no responsibility to you or to any third party for) the Application or any Content that you create, transmit or display while using the Codio Services and for the consequences of your actions (including any loss or damage which Codio may suffer) by doing so.
-
-**5.5** You agree that Codio has no responsibility or liability for the deletion or failure to store any Content and other communications maintained or transmitted through use of the Service. You further acknowledge that you are solely responsible for securing and backing up your Applications and any Content.
-
-###6. Proprietary Rights
-
-**6.1** You acknowledge and agree that Codio (or Codio licensors) own all legal right, title and interest in and to the Codio Services, including any intellectual property rights which subsist in the Codio Services (whether those rights happen to be registered or not, and wherever in the world those rights may exist).
-
-**6.2** Except as provided in Section 8, Codio acknowledges and agrees that it obtains no right, title or interest from you (or your licensors) under these Terms in or to any Content or Applications that you create, submit, post, transmit or display on, or through, the Codio Services, including any intellectual property rights which subsist the Applications (whether those rights happen to be registered or not, and wherever in the world those rights may exist). Unless you have agreed otherwise in writing with Codio, you agree that you are responsible for protecting and enforcing those rights and that Codio has no obligation to do so on your behalf.
-
-###7. License from Codio and Restrictions
-
-**7.1** Codio gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software provided to you by Codio as part of the Codio Services as provided to you by Codio. This license is for the sole purpose of enabling you to use and enjoy the benefit of the Codio Services as provided by Codio, in the manner permitted by the Terms.
-
-**7.2** You may not (and you may not permit anyone else to): (a) copy, modify, create a derivative work of, reverse engineer, decompile or otherwise attempt to extract the source code of the Codio Services or any part thereof, unless this is expressly permitted or required by law, or unless you have been specifically told that you may do so by Codio, in writing (e.g., through an open source software license); or (b) attempt to disable or circumvent any security mechanisms used by the Codio Services or any applications running on the Codio Services.
-
-**7.3** Open source software licenses for components of the Codio Services released under an open source license constitute separate written agreements. To the limited extent that the open source software licenses expressly supersede these Terms, the open source licenses govern your agreement with Codio for the use of the components of the Codio Services released under an open source license.
-
-**7.4** Codio hereby grants you a limited, non-exclusive, royalty-free, non-transferable license, with no right to sub-license, to display the Codio trademarks and/or logos (“Marks”) for the sole purpose of promoting or advertising that you use the Codio Services and solely in accordance with Codio's then current Trademark Usage Guidelines, which may be found here (or such other URL Codio may provide from time to time). You agree that all goodwill generated through your use of the Codio Marks shall inure to the benefit of Codio.
-
-###8. License from You
-
-**8.1** Codio claims no ownership or control over any Content or Application. You retain copyright and any other rights you already hold in the Content and/or Application, and you are responsible for protecting those rights, as appropriate. By submitting, posting or displaying the Content on or through the Codio Services you give Codio a worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publish, publicly perform, publicly display and distribute such Content for the sole purpose of enabling Codio to provide you with the Codio Services. Furthermore, by creating an Application through use of the Codio Services, you give Codio a worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publish, publicly perform, publicly display and distribute such Application for the sole purpose of enabling Codio to provide you with the Codio Services.
-
-**8.2** By adding a collaborator to your Application, you hereby grant to that user a non-exclusive, royalty-free, non-transferable license, with no right to sub-license, to use, display, perform, reproduce, modify, publish, distribute, list information regarding, edit, translate and analyze such Application(s) and Content as permitted by the relevant Codio Services functionality or features for the sole purpose of collaborating on development of the Application(s).
-
-**8.3** You may choose to or we may invite you to submit comments or ideas about the Codio Services, including without limitation about how to improve the Codio Services or our products (“Ideas”). By submitting any Idea, you agree that your disclosure is gratuitous, unsolicited and without restriction and will not place Codio under any fiduciary or other obligation, and that we are free to use the Idea without any additional compensation to you, and/or to disclose the Idea on a non-confidential basis or otherwise to anyone.
-
-**8.4** You agree that Codio, in its sole discretion, may use your trade names, trademarks, service marks, logos, domain names and other distinctive brand features in presentations, marketing materials, customer lists, financial reports and Web site listings (including links to your website) for the purpose of advertising or publicizing your use of the Codio Services.
-
-###9. Recommendations
-
-**9.1** Codio may, and you grant us permission to, make recommendations via the Codio Services for products or services we think may be of interest to you based on your Application(s), Content, and/or use of the Codio Services.
-
-###10. Modification and Termination of the Codio Services
-
-**10.1** Codio is constantly innovating in order to provide the best possible experience for its users. You acknowledge and agree that the form and nature of the Codio Services which Codio provides may change from time to time without prior notice to you, subject to the terms in Section 4.3. Changes to the form and nature of the Codio Services will be effective with respect to all versions of the Codio Services; examples of changes to the form and nature of the Codio Services include without limitation changes to fee and payment policies, security patches, added functionality, and other enhancements.
-
-**10.2** You may terminate these Terms at any time by canceling your account. You will not receive any refunds if you cancel your account.
-
-**10.3** You agree that Codio, in its sole discretion and for any or no reason, may terminate your account or any part thereof. You agree that any termination of your access to the Codio Services, including the licenses granted to you in clause 7 above, may be made without prior notice, and you agree that Codio will not be liable to you or any third party for such termination.
-
-**10.4** You are solely responsible for exporting your Content and Application(s) from the Codio Services prior to termination of your account for any reason, provided that if we terminate your account, we will provide you a reasonable opportunity to retrieve your Content and Application(s).
-
-**10.5** Upon any termination of the Codio Services or your account these Terms will also terminate, but Sections 6.1, 11, 12, 13, 14, and 18 shall continue to be effective after these Terms are terminated.
-
-###11. EXCLUSION OF WARRANTIES
-
-**11.1** NOTHING IN THESE TERMS, INCLUDING SECTIONS 12 AND 13, SHALL EXCLUDE OR LIMIT Codio'S WARRANTY OR LIABILITY FOR LOSSES WHICH MAY NOT BE LAWFULLY EXCLUDED OR LIMITED BY APPLICABLE LAW.
-
-**11.2** YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE CODIO SERVICE IS AT YOUR SOLE RISK AND THAT THE CODIO SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE."
-
-**11.3** THE COMPANY, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS MAKE NO EXPRESS WARRANTIES AND DISCLAIM ALL IMPLIED WARRANTIES REGARDING THE Codio SERVICES, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, CODIO, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS DO NOT REPRESENT OR WARRANT TO YOU THAT: (A) YOUR USE OF THE CODIO SERVICES WILL MEET YOUR REQUIREMENTS, (B) YOUR USE OF THE CODIO SERVICES WILL BE UNINTERRUPTED, TIMELY, SECURE OR FREE FROM ERROR, AND (C) USAGE DATA PROVIDED THROUGH THE CODIO SERVICES WILL BE ACCURATE.
-
-###13. LIMITATION OF LIABILITY
-
-**13.1** SUBJECT TO SECTION 12.1 ABOVE, YOU EXPRESSLY UNDERSTAND AND AGREE THAT THE COMPANY, ITS SUBSIDIARIES AND AFFILIATES, AND ITS LICENSORS SHALL NOT BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL OR EXEMPLARY DAMAGES WHICH MAY BE INCURRED BY YOU, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY. THIS SHALL INCLUDE, BUT NOT BE LIMITED TO, ANY LOSS OF PROFIT (WHETHER INCURRED DIRECTLY OR INDIRECTLY), ANY LOSS OF GOODWILL OR BUSINESS REPUTATION, ANY LOSS OF DATA SUFFERED, COST OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR OTHER INTANGIBLE LOSS.
-
-**13.2** THE LIMITATIONS ON Codio'S LIABILITY TO YOU IN PARAGRAPH 13.1 ABOVE SHALL APPLY WHETHER OR NOT THE COMPANY HAS BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
-
-###14. Indemnification
-
-**14.1** You agree to hold harmless and indemnify the Company and its subsidiaries, affiliates, officers, agents, employees, advertisers, licensors, suppliers or partners (collectively "Application Craft UK Ltd. and Partners") from and against any third party claim arising from or in any way related to (a) your breach of the Terms, (b) your use of the Codio Services, (c) your violation of applicable laws, rules or regulations in connection with the Codio Services, or (d) your Content or your Application, including any liability or expense arising from all claims, losses, damages (actual and consequential), legal processing, judgments, litigation costs and professional fees, of every kind and nature. In such a case, the Company will provide you with written notice of such claim, suit or action.
-
-###15. Copyright Policy
-
-**15.1** You agree to set up a process to respond to notices of alleged copyright infringement. It is Codio policy to respond to copyright infringement notices, to adhere to applicable copyright laws and to terminate the accounts of repeat infringers. We reserve the right to take down content in your Application or, if necessary, the Application itself upon receipt of a valid copyright infringement notice. For more information, please go [here](/legal/copyright).
-
-###16. Other Content
-
-**16.1** The Codio Services may include hyperlinks to other web sites or content or resources or email content.  The Company may have no control over any web sites or resources which are provided by companies or persons other than the Company.
-
-**16.2** You acknowledge and agree that the Company is not responsible for the availability of any such external sites or resources, and does not endorse any advertising, products or other materials on or available from such web sites or resources.
-
-**16.3** You acknowledge and agree that the Company is not liable for any loss or damage which may be incurred by you or your End Users as a result of the availability of those external sites or resources, or as a result of any reliance placed by you on the completeness, accuracy or existence of any advertising, products or other materials on, or available from, such web sites or resources.
-
-###17. Changes to the Terms
-
-**17.1** the Company may make changes to the Terms from time to time. If we change the Terms in any substantive way, we will give you at least seven (7) days notice before the changes take effect, during which period of time you may reject the changes by terminating your account.
-
-**17.2** You understand and agree that if you use the Codio Services after the date on which the Terms have changed,  the Company will treat your use as acceptance of the updated Terms.
-
-###18. General Legal Terms
-
-**18.1** The Terms constitute the whole legal agreement between you and the Company and govern your use of the Codio Services (but excluding any services which Codio may provide to you under a separate written agreement), and completely replace any prior agreements between you and the Company in relation to the Codio Services.
-
-**18.2** There are no third party beneficiaries to these Terms. The parties are independent contractors, and nothing in these Terms creates an agency, partnership or joint venture.
-
-**18.3** If the Company provides you with a translation of the English language version of these Terms, the English language version of these Terms will control if there is any conflict.
-
-**18.4** You agree that the Company may provide you with notices, including those regarding changes to the Terms, by email, regular mail, or postings on the Codio web site. By providing the Company your email address, you consent to our using the email address to send you any notices required by law in lieu of communication by postal mail.
-
-**18.5** You agree that if the Company does not exercise or enforce any legal right or remedy which is contained in the Terms (or which the Company has the benefit of under any applicable law), this will not be taken to be a formal waiver of the Company rights and that those rights or remedies will still be available to the Company.
-
-**18.6** The Company shall not be liable for failing or delaying performance of its obligations resulting from any condition beyond its reasonable control, including but not limited to, governmental action, acts of terrorism, earthquake, fire, flood or other acts of God, labor conditions, power failures, and Internet disturbances.
-
-**18.7** The Terms, and your relationship with the Company under the Terms, shall be governed by the laws of England without regard to its conflict of laws provisions. You and the Company agree to submit to the exclusive jurisdiction of the courts located within England (United Kingdom) to resolve any legal matter arising from the Terms.
-
-**18.8** Neither party may assign any of its rights or obligations under these Terms, whether by operation of law or otherwise, without the prior written consent of the other party (not to be unreasonably withheld). Notwithstanding the foregoing, either party may assign the entirety of its rights and obligations under these Terms, without consent of the other party, to its affiliate or in connection with a merger, acquisition, corporate reorganization, or sale of all or substantially all of its assets not involving a direct competitor of the other party. A party’s sole remedy for any purported assignment by the other party in breach of this paragraph shall be, at the non-assigning party’s election, termination of your use of the Codio Services upon written notice to the assigning party.
-
-This document is an adaptation of the Google App Engine Terms of Service. The original work has been modified. Google, Inc. is not connected with and does not sponsor or endorse Codio or its use of the work.
+Welcome to Codio.
+
+IMPORTANT--PLEASE READ CAREFULLY. These Terms of Use ("Terms") are an agreement between you and Codio Ltd., a private company incorporated and existing under the laws of England & Wales. References to "us", "we,", "our" and "Codio" shall mean Codio Ltd. 
+These Terms govern your access to and use of Codio software, products, and/or services (individually or collectively, the “Products”) and any information, content, text, graphics, photos or other materials uploaded, downloaded, purchased, licenced or appearing on or through the Products (collectively referred to as “Content”). These Terms apply to all visitors, users, and others who access and use the Products and/or Content (“Users”). References to “ you “ and “your” shall mean any User, including an individual, company, university, school, institution or legal entity which has an account with Codio and any individual who has been authorised by their company, university, school, institution or legal entity under the terms of that company, university, school, institution or legal entity’’s agreement with Codio to access and use the applicable Products and/or Content.
+By accessing or using any of the Products and/or the Content, you agree that you are bound by these Terms.
+In the event of any conflict between these Terms and the terms and conditions of any applicable written agreement you have entered into with Codio, the terms and conditions of the written agreement shall prevail.
+
+---
+###1. Basic terms and accounts
+
+Your access to and/or use of the Products and/or the Content constitutes your acceptance of these Terms. You are responsible for your use of the Products and/or the Content in accordance with these Terms and with any applicable laws, rules and regulations to which you are subject.
+Your account with Codio or your company, university, school, institution or legal entity’s  account with Codio gives you access to the relevant Product and/or Content with such services and functionality that we may establish and maintain from time to time and in our sole discretion.
+We may maintain different types of accounts for different types of Users including the following. If you are accepting these Terms and using the Products and/or Content on behalf of a company, university, school, institution or legal entity  then (a) “you” includes you and that entity, and (b) you represent and warrant that you are an authorized representative of the entity with the authority to bind the entity to these Terms, and that you agree to these Terms on the entity’s behalf. You may use the Products and/or Content only in compliance with these Terms, any applicable agreement entered into by your institution with Codio relating to the Products  and/or Content, and all applicable local, state, national, and international laws, rules and regulations.
+In cases where you have authorized or registered another individual, including a minor, to use your account(s), you are fully responsible for (i) the online conduct of such User; (ii) controlling the User’s access to and use of the Products  and/or Content;  (iii) the consequences of any misuse by such User and (iv) ensuring that such User abides by all the Terms as regards that User’s use of the Product  and/or the Content as if that User’s access and use of the Product and/or Content is you. Codio requires that the parents, guardian, or other authorized adult of a minor as defined under United States statute affirmatively consent to the use of a Codio Product/Content by such minor. Codio reserves the right to provide access to the minor’s account to the minor’s parents, guardian or other authorized adult, upon such adult’s request. Please see our Section 2 of these Terms.
+
+---
+###2. Privacy and use of personal information
+
+Any information that you provide, have provided or may provide to Codio and any information which may be collected by us in connection with your use of the Products and/or the Content, including first name, last name, email address, and any other information including personal information (“Your Information”), will be collected, maintained and used by us in order to provide the Products and/or Content to you or your institution, or in accordance with these Terms, our privacy policy located at ["Privacy Policy"](/legal/privacy), any additional terms applicable to an individual Product and/or Content, and any agreement entered into by your institution relating to the Product and/or Content. You understand that, through your use of the Products and/or Content, you consent to the collection and use (as set forth in these Terms, the Privacy Policy and any agreement entered into by your institution relating to the Product and/or Content) of Your Information, including the transfer of Your Information to the United States and/or other countries for storage, hosting, processing, and use by Codio.
+By accessing or using the Products and/or the Content, you hereby consent that Codio may (i) use any or all of Your Information in connection or combination with other Codio Products and/or Content and for any reason, including to provide, maintain, protect and improve Products and/or Content and to develop new Products and/or Content and (ii) provide any or all of Your Information to third parties that provide certain functions and other services for Codio or marketing in connection with the Products and/or Content, including without limitation the university, school, or other institution hosting or licensing the Products. We will never share your information with third parties for any purpose other than the marketing of Codio Products and/or Content.
+For the avoidance of doubt, personal information that includes Student Data (defined below) provided to Codio through the use of these Products and/or Content is governed by the terms of the agreement between Codio and the educational institution relevant to your use of the Products and/or Content. As between Codio and you, you own all right, title and interest to all Student Data you provide or otherwise make available to us, and we do not own, control, or licence such Student Data, except so as to provide the Products and/or Content as described herein. “Student Data” is any information (in any format) that is directly related to an identifiable current or former student that is maintained by a school, school district, university, college  or other education institution, or by us, as part of the provision of the Products and/or Content. Student Data may include “educational records” as defined by the Family Educational Rights and Privacy Act (“FERPA”), 20 U.S.C. § 1232(g).
+If you have any questions regarding the privacy and use of Your Information, please contact us at support@codio.com, or your educational institution.
+
+---
+###3. Content and your rights
+
+You are responsible for Content that you post to the Products, and any consequences thereof. All Content must comply with these Terms and with the laws and regulations of any country and/or state in which such Content is accessible or used. You agree that you will indemnify Codio and its directors, officers and employees for any losses, liabilities or damages that it or they may suffer or incur arising from any Content which you submit, post or display. The Content you submit, post, or display may be viewed by other Users of the Products. You may be able to control the Content that other Users may access through privacy options.
+You retain your rights to any Content you submit, post, or display on or through the Products. By submitting, posting or displaying Content on or through the Products, you grant us a worldwide, perpetual, irrevocable, non-exclusive, royalty-free licence (with the right to sublicence) to use, host, store, copy, reproduce, process, adapt, modify, publish, transmit, create derivative works, communicate, display, and/or distribute such Content in any and all media or distribution methods (now known or later developed) as part of providing any of the Products. You agree that this licence includes the right for Codio to provide, promote, and improve the Products and to make Content (typically public Content) submitted to or through the Products available to other institutions or individuals as part of providing the Products (including after termination of your use of the Products) and in accordance with your privacy settings. You represent and warrant that you have all the rights, power and authority necessary to grant the rights granted herein to any Content that you submit.
+The Codio Product provides the ability to create projects, courses, stacks, starter packs, classes and other data added by you to the Product. Through default settings, such data is publicly available to any User of the Codio Product irrespective of which organization those Users belong to and including individual Users who do not belong to any organization. However, if you do not wish to make this data publicly available you can use any privacy options, where they are available, e.g. using project settings to make a project private, such that your data is either not visible by other Users or is only visible by other Users within one or more organisations of which you are a member. 
+If you choose to leave your data public, you acknowledge this public availability and consent to other Users being able to access for read-only purposes as well as being able to duplicate or ‘fork’ such data into their own User account. All Content, whether publicly posted or privately transmitted, is the sole responsibility of the person who originated such Content. We may not monitor or control the Content posted via the Products, and we cannot and will not accept any responsibility for any such Content. Any use or reliance on any Content posted via the Products or obtained by you through the Products is at your own risk.
+Codio respects the intellectual property rights of others and expects Users of the Products to do the same. We will respond to notices of alleged copyright infringement that comply with applicable law and are properly provided to us. If you believe that your Content has been copied in a way that constitutes copyright infringement, please provide us with the following information: (i) a physical or electronic signature of the copyright owner or a person authorized to act on their behalf; (ii) identification of the copyrighted work claimed to have been infringed; (iii) identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material; (iv) your contact information, including your address, telephone number, and an email address; (v) a statement by you that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and (vi) a statement that the information in the notification is accurate, and, under penalty of perjury, that you are authorized to act on behalf of the copyright owner. Any such Content will be deleted.
+You agree that Codio, in its sole discretion, may use your trade names, trademarks, service marks, logos, domain names and other distinctive brand features in presentations, marketing materials, customer lists, financial reports and Web site listings (including links to your website) for the purpose of advertising or publicizing your use of the Codio Product and/or Content..
+Content submitted, posted or displayed via the Products is subject to Codio’s Acceptable Use Policy (Section 5). We reserve the right to remove Content alleged to be infringing without prior notice, at our sole discretion, and without liability to you. Our designated copyright agent for notice of alleged copyright infringement appearing on the Products is: 
+
+Codio Ltd Attn: General Counsel 
+29 Wood St
+Stratford-Upon-Avon
+CV37 6JG
+Email: support@codio.com
+
+---
+###4. Your licence to use the Products and/or Content
+
+Codio gives you a personal, worldwide, non-assignable, non-sublicensable, non-transferable and non-exclusive licence to use the Products and/or the Content, subject to these Terms and any agreement entered into by you or your company, university, school, institution or other legal entity with Codio relating to the Product and/or the Content. The consideration and payment terms, the duration of the licence and the number of permitted Users of such licence will be set out, amongst other things, in the agreement entered into by you or your company, university, school, institution or other legal entity with Codio relating to the Product and/or the Content. You may not copy, modify, distribute, sell, licence or sub- licence or lease all or any part of our Products and/or Content, nor may you reverse engineer or attempt to extract the source code of any Product and/or Content unless you have our written permission.
+
+---
+###5. Acceptable Usage Policy
+
+Your use of the Products and/or Content is subject to this Acceptable Use Policy. If you are found to be in violation of our policies at any time, as determined by Codio in its sole discretion, we may warn you or suspend or terminate your account. Please note that we may change our Acceptable Use Policy at any time, and pursuant to these Terms, it is your responsibility to keep up-to-date with and adhere to the policies posted here.
+We may suspend accounts or require a paid subscription or additional payment, at our discretion, if Users exceed the following soft usage limits.
+
+* Codio is intended for development purposes and may not be used for production purposes 
+* Any User project that generates sustained, high levels of load will be suspended. Repeated infringement by an individual User will result in that User’s account being suspended
+* Excessive bandwidth usage by a User will result in that User’s account being suspended
+* Data storage is subject to a soft limit of 5GB across all projects for each individual User. The maximum permitted storage for any individual project is 5GB. Existing Subscribers Generation 2 Boxes are not effected. Generation 1 Box size will be reduced. Codio reserves the right to change these limits at its discretion.
+* The maximum amount of RAM memory is restricted to 512MB per project. . Projects that require more RAM may be purchased at an additional cost.
+* An individual User may not have multiple projects open simultaneously.
+* Codio projects run on shared servers. Project CPU usage is distributed across shared servers in the Codio CPU cluster. Codio makes no assurances as to the absolute level of CPU performance for an individual project. Additional and assured CPU capacity may be purchased separately.
+* Each individual User is responsible for writing code that does generate not cause high CPU load levels on Codio’s servers. We will suspend individual User accounts that generate excessive, sustained CPU or bandwidth load. Codio reserves the unilateral right to determine acceptable CPU and bandwidth thresholds.
+
+**Prohibited Content**
+
+* The Content displayed and/or processed through your application or other web site utilizing the Products shall not contain any of the following types of content:
+* Content that infringes a third party’s rights (e.g., copyright) according to applicable law;
+* Excessively profane content;
+* Hate-related or violent content;
+* Content advocating racial or ethnic intolerance;
+* Content intended to advocate or advance computer hacking or cracking;
+* Gambling;
+* Other illegal activity, including without limitation illegal export of controlled substances or illegal software;
+* Drug paraphernalia;
+* Phishing;
+* Torrents;
+* Mining;
+* Denial of Service attacks;
+* Fork bombing;
+* Malicious content;
+* Other material, products or services that violate or encourage conduct that would violate any criminal laws, any other applicable laws, or any third-party rights.
+
+**Prohibited Actions**
+
+* In addition to (and/or as some examples of) the violations described in the Terms, you may not and may not allow any third party, including your end Users, to:
+* Generate or facilitate unsolicited commercial email (“spam”). Such activity includes, but is not limited to:
+* sending email in violation of the CAN-SPAM Act or any other applicable anti-spam law;
+* imitating or impersonating another person or his, her or its email address, or creating false accounts for the purpose of sending spam;
+* data mining any web property (including Codio’s) to find email addresses or other User account information;
+* sending unauthorized mail via open, third-party servers;
+* sending emails to Users who have requested to be removed from a mailing list;
+* selling, exchanging or distributing to a third party the email addresses of any person without such person’s knowing and continued consent to such disclosure; and
+* sending unsolicited emails to significant numbers of email addresses belonging to individuals and/or entities with whom you have no preexisting relationship.
+* Send, upload, distribute or disseminate or offer to do the same with respect to any unlawful, defamatory, harassing, abusive, fraudulent, infringing, obscene, or otherwise objectionable content
+* Intentionally distribute viruses, worms, defects, Trojan horses, corrupted files, hoaxes, or any other items of a destructive or deceptive nature;
+* Conduct or forward pyramid schemes and the like;
+* Transmit content that may be harmful to minors;
+* Impersonate another person (via the use of an email address or otherwise) or otherwise misrepresent yourself or the source of any email;
+* Illegally transmit another’s intellectual property or other proprietary information without such owner’s or licensor’s permission;
+* Use the Products to violate the legal rights (such as rights of privacy and publicity) of others;
+* Promote or encourage illegal activity;
+* Interfere with other users’ enjoyment of the Products;
+* Sell, trade, resell or otherwise exploit the Products for any unauthorized commercial purpose;
+* Modify, adapt, translate, or reverse engineer any portion of the Products;
+* Remove any copyright, trademark or other proprietary rights notices contained in or on the Products;
+* Reformat or frame any portion of the web pages that are part of the Products’s administration display;
+* Use the Products in connection with illegal peer-to-peer file sharing;
+* Display any Content on the Products that contains any hate-related or violent content or contains any other material, products or services that violate or encourage conduct that would violate any criminal laws, any other applicable laws, or any third party rights;
+* Modify the Codio logo or any other company marks; or
+* Use the Products, or any interfaces provided with the Products, to access any Codio Product or service in a manner that violates the Terms or other terms and conditions for use of such Codio Product or service.
+
+---
+###6. Support & Maintenance
+
+Codio support is offered to all Users of the Codio Products and relates to system or application malfunctions. Codio may choose, but is not obliged, to respond to support requests that ask how to use the software where such information is available in the online documentation. Should support requests be received that relate to Product usage where the appropriate documentation is missing then Codio will undertake to rectify the documentation with 5 working days of notification and provide a suitable response within the support response period.
+Codio is not obliged to rectify issues that result from User error or action such as data deletion or modification.
+Codio offers support at no cost for all requests received that relate to the fundamental operational availability of the Products. Our response time for such incidents (excluding UK Public Holidays) is 1 hour between the times of 07:00 and 19:00 GMT (Mon-Fri). Codio maintains automated systems that monitor availability and automatically relay any issues directly to Codio system administrators. Such issues are attended to by Codio staff 365 days a year, 7 days a week and 24 hours a day. This level of support does not apply to any system availability that affects individual users.
+Codio offers standard end User support at no charge using either email or our integrated chat based help system. Our response times are typically (excluding UK Public Holidays) within 1-2 hours between 8:00 and 17:00 GMT, but no more than 8 business hours provided that the support request is received between 09:00 and 17:30 GMT (Mon-Fri) in the USA, Canada or Europe.
+
+Maintenance & Updates
+Codio provides all system maintenance free of charge. Feature and maintenance updates are delivered to the User automatically and may occur at any time. The User may need to reload the Codio application by pressing the refresh button in the browser.
+
+---
+###7. Codio rights
+
+The Products are always evolving and the form, nature, and/or functionality of the Products may change from time to time without prior notice to you. In addition, we may stop (permanently or temporarily) providing individual features within the Products to you or to Users generally and may not be able to provide you with prior notice. We also retain the right to create limits on use and storage at our sole discretion at any time without prior notice to you.
+All right, title, and interest in and to the Products and Content (excluding Content provided by Users or other third parties) are and will remain the exclusive property of Codio and its licensors. The Products are protected by copyright, trademark, and other laws of both the United Kingdom and foreign countries. Nothing in the Terms gives you a right to use the Codio name or any of the Codio trademarks, logos, domain names, and other distinctive brand features. Any feedback, comments, or suggestions you may provide regarding Codio, or the Products is entirely voluntary and we will be free to use such feedback, comments or suggestions as we see fit and without any obligation to you.
+
+---
+###8. Registration obligations and passwords
+
+You may never use another individual User’s account without permission. In consideration of your use of the Products, you agree (a) that Your Information will be true, accurate, current and complete, and (b) to maintain and promptly update Your Information to keep it true, accurate, current and complete. You are responsible for safeguarding any password that you use to access the Products (including passwords used on other Codio products that permit single sign-on to the Products) and for any activities or actions under your password. We encourage you to use “strong” passwords (passwords that use a combination of upper and lower case letters, numbers and symbols) with your account. You agree to (a) notify Codio of any unauthorized use of your password or user identification and any other breach of security, and (b) ensure that you exit from your account at the end of each session.
+
+---
+###9. Termination
+
+We may suspend or terminate your accounts or cease providing you with all or part of the Products at any time for any reason, including, but not limited to, if we reasonably believe: (i) you have violated these Terms, (ii) you create risk or possible legal exposure for us, (iii) our provision of the Products is no longer commercially viable, (iv) you are in breach of payment terms in relation to your licence fee, (v) the term of your licence has expired, or (vi) you are in breach of any of the applicable policies. In such a termination event, the licence granted hereunder shall automatically terminate. In all such cases, the Terms shall terminate, including, without limitation, your licence to use the Products, except that the following Sections shall continue to apply: 2, 3, 5, 6, 9, 10, and 11.
+Further, if you stop using the Products for more than 12 months, your accounts may be deleted. If you wish to delete your Codio Product account(s) in their entirety(ies), you may contact us via support@codio.com and specify which Codio account(s) you wish to delete. We will delete your specified accounts within a reasonable time, unless prohibited by law.
+
+---
+###10. Disclaimers and limitations of liability
+
+Please read this Section carefully since it limits the liability of Codio and its parents, subsidiaries, affiliates, related companies, and each of their respective officers, directors, employees, agents, representatives, partners, shareholders and/or licensors (collectively, the “Codio Entities”). Each of the Subsections below only applies up to the maximum extent permitted under applicable law. Nothing in this Section is intended to limit any rights you may have which may not be lawfully limited.
+A. The Products are Available “AS-IS”
+Your access to and use of the Products and/or any Content is at your own risk. You understand and agree that the Products and/or Content are provided to you on an “AS IS” and “AS AVAILABLE” basis. Without limiting the foregoing, to the maximum extent permitted under applicable law, THE CODIO ENTITIES DISCLAIM ALL WARRANTIES AND CONDITIONS, WHETHER EXPRESS OR IMPLIED, OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. No advice or information, whether oral or written, obtained from any of the Codio Entities or through the Products, will create any warranty not expressly made herein.
+B. Links
+The Products may contain links to third-party websites or resources. You acknowledge and agree that the Codio Entities are not responsible or liable for: (i) the availability or accuracy of such websites or resources; or (ii) the content, products, or services on or available from such websites or resources. Links to such websites or resources do not imply any endorsement by the Codio Entities of such websites or resources or the content, products, or services available from such websites or resources. You acknowledge sole responsibility for and assume all risk arising from your use of any such websites or resources.
+C. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE CODIO ENTITIES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOOD-WILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM (i) YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE PRODUCTS AND/OR CONTENT; (ii) ANY CONDUCT OR CONTENT OF ANY THIRD PARTY ON,THROUGH, OR ASSOCIATED WITH THE PRODUCTS, INCLUDING WITHOUT LIMITATION, ANY DEFAMATORY, OFFENSIVE OR ILLEGAL CONDUCT OF OTHER USERS OR THIRD PARTIES; (iii) ANY CONTENT OBTAINED FROM THE PRODUCTS; OR (iv) UNAUTHORIZED ACCESS, USE OR ALTERATION OF YOUR TRANSMISSIONS OR CONTENT.
+IN NO EVENT SHALL THE AGGREGATE LIABILITY OF THE CODIO  ENTITIES EXCEED THE AMOUNT YOU PAID CODIO, IF ANY, IN THE PAST SIX MONTHS FOR THE PRODUCTS AND/OR CONTENT GIVING RISE TO THE CLAIM.
+THE LIMITATIONS OF THIS SUBSECTION SHALL APPLY TO ANY THEORY OF LIABILITY, WHETHER BASED ON WARRANTY, CONTRACT, STATUTE, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, AND WHETHER OR NOT THE CODIO ENTITIES HAVE BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH DAMAGE, AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.
+
+---
+###11. General terms
+
+A. Waiver and Severability
+The failure of Codio to enforce any right or provision of these Terms will not be deemed a waiver of them.
+These Terms, our [Privacy Policy](/legal/privacy) and the [Service Level Agreement](/legal/agreement) and the terms of any written agreement you or your institution have entered into with Codio are the entire and exclusive agreement between Codio and you regarding the Products and/or the Content, and such policies and agreements supersede and replace any prior policies and agreements between Codio and you regarding the Products and/or the Content. Other than members of the group of companies of which Codio. is the parent, no other person or company will be third party beneficiaries to the Terms.
+Notwithstanding the foregoing, nothing in these Terms, our Privacy Policy or the Service Level Agreement supersedes or limits your rights under (1) the terms and conditions of any written agreement you or your institution has entered into with Codio regarding the use of the Products and/or the Content, or (2) applicable laws or regulations to the extent these Terms are prohibited by such laws or regulations.  In the event of any conflict between these Terms, our Privacy Policy or the Service Level Agreement and the terms and conditions of an applicable written agreement you your institution has entered into with Codio, the terms and conditions of the written agreement shall prevail.
+We may revise these Terms from time-to-time, the most current version will always be at the referenced link. If the revision, in our sole discretion, is material we will notify you through the Products or through the email associated with your profile. By continuing to access or use the Products after those revisions become effective, you agree to be bound by the revised Terms.
+These Products are operated and provided by Codio, whose registered office address is:: 
+29 Wood St, Stratford-Upon-Avon, United Kingdom, CV37 6JG, UNITED KINGDOM
+If you have any questions about these Terms, please email: support@codio.com.
+
+Effective: April 12th, 2016

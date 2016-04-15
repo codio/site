@@ -1,9 +1,8 @@
-create-org
 create-class
-adding-users
-bulk-upload
 assign-module
-locate-unit
-student-find-units
-dashboard
-projects
+assign-project
+disable
+solutions
+pin
+addteachers
+delete

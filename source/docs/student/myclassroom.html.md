@@ -1,6 +1,6 @@
 ---
-title: "Classes"
-description: "Joining a class as a student"
+title: "My Classroom"
+description: "My Classroom"
 ---
 
 If you are not part of a schools, university, colleges or other such organisation then you do not need to read this section.

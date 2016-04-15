@@ -1,5 +1,5 @@
 ---
-title: Assigning curriculum-mapped content to the class
+title: Assigning content to a class
 description: ""
 class_name: docs
 full_width: true

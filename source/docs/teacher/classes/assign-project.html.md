@@ -1,5 +1,5 @@
 ---
-title: Assigning curriculum-mapped content to the class
+title: Assign a project to the class
 description: ""
 class_name: docs
 full_width: true

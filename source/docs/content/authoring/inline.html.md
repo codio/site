@@ -6,20 +6,20 @@ full_width: true
 
 You can include links in your content to perform the same open and close actions as you do from the Files dialog.
 
-##Syntax Summary
+### Syntax Summary
 The syntax is as follows and actions can be chained together using, separated by a `;`.
 
 ```
 [Hyperlink text](open_file file1, file2; cmd ls -al)
 ```
 
-###Opening directives
+### Opening directives
 - `open_file file1 file2 fileN panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
 - `open_preview file panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
 - `open_terminal command panel=0` where command (a system command) is optional and where panel is optional, in which case the default panel (0) will be used if not specified.
 - `cmd systemcommand argument1 argument2 argumentN` 
 
-###Closing directives
+### Closing directives
 - `close_all` closes all tabs in all panels, except the Guide itself.
 - `close_all panel=0` closes all tabs in panel 0.
 - `close_file file1` closes `file1` in all panels
@@ -27,7 +27,7 @@ The syntax is as follows and actions can be chained together using, separated by
 - `close_preview` behaves like `close_file` for preview tabs.
 - `close_terminal` behaves like `close_file` for terminal tabs.
 
-###Important - spaces and ; in file names and commands
+### Important - spaces and ; in file names and commands
 If any of your files contain spaces in the names, then you should enclose the file name in double quotes
 
 - `open_file "file name.txt"`
@@ -37,7 +37,7 @@ If you use `cmd` and the command has a `;` character in it, then you should also
 - `cmd "cp file1 file2; cp file3 file4"`
 
 
-##Examples
+### Examples
 
 Open a file `file.txt`
 

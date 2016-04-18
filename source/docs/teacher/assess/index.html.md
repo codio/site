@@ -9,4 +9,4 @@ Codio allows you to monitor students progress and view the time they have spent 
 
 - [View student progress/time spent](docs/teacher/assess/progress)
 - [View/access students’ work](/docs/teacher/assess/studentcode)
--[Auto-graded assessments](/docs/teacher/assess/assessments)
+- [Auto-graded assessments](/docs/teacher/assess/assessments)

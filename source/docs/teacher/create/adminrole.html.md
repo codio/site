@@ -10,10 +10,10 @@ As the creator of your educational ‘organization’ in Codio, you have adminis
 To access the administration tools:
 
 1. Click on your profile picture (bottom left of  'My Classroom') 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 1. Click the name of your school (under ‘My Organizations’)
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 1. You will see admin options listed across the top of the page. 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 

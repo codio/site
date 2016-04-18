@@ -12,11 +12,11 @@ You can pin a unit for your class. This unit will appear ‘pinned’ to the top
 
 To pin a unit:
 1. From the 'My Classroom'home screen, click on your class to open it. 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 1. Click on the ‘Units’ tab, centre left of your screen.
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 1. You will see the units you have assigned to your class. To pin a unit, click the blue triple dot icon to the right of the unit name, and choose ‘Pin Unit’ 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 1. The unit will highlight in pink to show it has been pinned. 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 

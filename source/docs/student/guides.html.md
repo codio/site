@@ -12,7 +12,7 @@ The easiest way to get rid of these is to restore the original files in a unit.
 To do this:
 
 1. Open the unit you are working on. In the top right, choose ‘Settings’, and then ‘Restore current files’
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 #### Lexikon
 

@@ -5,7 +5,7 @@ title: "Navigating Codio"
 
 The 'My Classroom' area provides a menu to access all Codio’s classroom features and curriculum content.
 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 From the 'My Classroom' you can view your classes, courses, projects and help by using the links on the left hand panel.
 

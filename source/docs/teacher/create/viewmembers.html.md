@@ -8,11 +8,11 @@ full_width: true
 Sometimes you might need to check who is registered as a member of your educational organization. To view all members of your school ‘organization’:
 
 1. Click your name/gravatar, bottom of the left hand pane
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 1. Click on the name of your  educational organization - under ‘My Organizations’, which is about halfway down the screen. 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 1. Click the ‘Members’ tab 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 1. Click ‘All Members’
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 You will be able to see all the members of your school ‘organization’.

@@ -9,16 +9,16 @@ full_width: true
 Once you have set up your organization, the next step is to invite teachers to use Codio too. This is a very easy process, follow the steps below:
 
 1. Click your name/gravatar, bottom of the left hand pane
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>
 
 1. Click the name of your organization (under ‘My Organizations’)
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>
 
 1. Click the ‘Organization Settings’ tab
 <img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 1. About half way down you will see an ‘invitation’ area, displaying an ‘invite URL’ and an ‘invite token’. 
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/class_administration/addteachers/invitation.png" class="simple"/>
 
 1. Give any teachers you want to join your organisation the invite URL.
 

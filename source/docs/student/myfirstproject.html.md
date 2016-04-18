@@ -13,8 +13,8 @@ A Box is a virtual computer in the Cloud. You can do whatever you like with this
 - [Installing software](/docs/ide/boxes/installsw/), such as programming languages, databases, tools and libraries.
 - Access the Box's [terminal](/docs/ide/boxes/terminal/).
 - [Run](/docs/ide/boxes/runmenu/) your code.
-- Use a preconfigured software [stack](/docs/dashboard/stacks/) to avoid lengthy configuration of the Box.
-- Use a preconfigured [Starter Pack](/docs/dashboard/packs/). This is a Box fully configured with both pre-installed software as well as starting point code.
+- Use a preconfigured software [stack](/docs/project/stacks/) to avoid lengthy configuration of the Box.
+- Use a preconfigured [Starter Pack](/docs/project/packs/). This is a Box fully configured with both pre-installed software as well as starting point code.
 - [Deploy](/docs/ide/tools/deployment/) code to external sites and servers.
 - Each Box comes with  [git](/docs/ide/editing/git/) installed automatically/ You don't need to know about any of this but it is good to know for more advanced students.
 - There are many very powerful features in Codio, so feel free to browse the [IDE](/docs/ide/) documentation.
@@ -42,6 +42,6 @@ Select a commonly used Stack, for example
 
 or click on the **'Click here....'** to import or select an alternative software configuration:
 
-- **[Starter Pack](/docs/dashboard/packs/)** which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
+- **[Starter Pack](/docs/project/packs/)** which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
 - **Import** where you can import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.
-- If you are a student, you can also check out [Modules](/docs/dashboard/modules/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/tuts/), giving you on-screen instructions while you code.
+- If you are a student, you can also check out [Courses](/docs/account/content/courses/), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/account/content/authoring/), giving you on-screen instructions while you code.

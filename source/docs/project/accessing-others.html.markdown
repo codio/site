@@ -12,7 +12,7 @@ You will then see that user's Dashboard and all public projects will be displaye
 
 You will not be able to edit the project but you can [fork](/docs/ide/features/fork) it into your own account.
 
-If a project has been [shared](/docs/ide/customization/permissions) to you, you will be able to view this from your [dashboard](/docs/dashboard/).
+If a project has been [shared](/docs/ide/customization/permissions) to you, you will be able to view this from your [dashboard](/docs/account/).
 
 ![Shared Project](/img/docs/console-shared.png)
 

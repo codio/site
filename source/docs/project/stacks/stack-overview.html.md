@@ -22,4 +22,4 @@ So, in summary, a Stack is everything that is installed into the `/home/codio` f
 If you were to install a Node Package globally or a Ruby Gem, then these will get installed into the `/home/codio` folder and will form a part of your Stack.
 
 ##Starter Packs
-As explained above, a Stack does not include the `~/workspace` folder where your code lives. [Starter Packs](/docs/dashboard/packs/) go one step beyond Stacks and allows you to combine both the Stack and a code workspace. This gives you the ability to define any number of Stack + Code templates.
+As explained above, a Stack does not include the `~/workspace` folder where your code lives. [Starter Packs](/docs/project/packs/) go one step beyond Stacks and allows you to combine both the Stack and a code workspace. This gives you the ability to define any number of Stack + Code templates.

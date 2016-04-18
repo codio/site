@@ -14,9 +14,9 @@ The only thing that is not self-explanatory when adding a Unit is the Stack info
 
 ![](/img/docs/stacks_list.png)
 
-It is important that you understand the concept of [Stacks](/docs/dashboard/stacks/). In some cases, your project can use the default Codio Stack. However, if you have installed any software or components on your Box or have modified any files on the project's Box outside the `~/workspace` folder, you will need to create a Stack.
+It is important that you understand the concept of [Stacks](/docs/project/stacks/). In some cases, your project can use the default Codio Stack. However, if you have installed any software or components on your Box or have modified any files on the project's Box outside the `~/workspace` folder, you will need to create a Stack.
 
-In most cases, you will use the same Stack for all projects in a Module or even a Course and so you only need set up a single Stack. 
+In most cases, you will use the same Stack for all projects in a Course and so you only need set up a single Stack. 
 
 When you specify the Stack when adding a Unit, you simply locate this Stack by clicking on the Browse button and then selecting a Stack version.
 

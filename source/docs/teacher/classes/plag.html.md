@@ -41,7 +41,7 @@ You can drill down in various ways. The two most common and useful ways are
 ### Edits
 Shows the differences between the two or more students with similarities. Things that have been added by one student are shown in green, things removed in red and those that are identical are not shaded at all.
 
-![](/img/docs/guides/plag-edits.png)
+<img alt="authtoken" src="/img/docs/guides/plag-edits.png" class="simple"/>
 
 ### Side-by-side
 This shows the code of those students with similarities in their code in a side-by-side viewer.

@@ -7,6 +7,7 @@ full_width: true
 ### Manage your organization
 As the owner of your educational organization, you have ‘administration rights’ - you can add new organization owners, view members, remove owners, remove members, upload large numbers of students, and delete your organization. Use the links below to navigate this section
 
+[Create an Organisation](/docs/teacher/create/createorg)
 [Administrator role](/docs/teacher/create/adminrole)
 [Add teachers ](/docs/teacher/create/addteachers)
 [Add organization owners](/docs/teacher/create/addowners)

@@ -1,7 +1,12 @@
 ---
 title: Deleting a class
-description: ""
 class_name: docs
 full_width: true
 ---
+
+A class can be deleted by the class owner and those with administration permissions granted by the owner.
+
+- Select the class, go to the `Admin` area and then press the 'Delete Class' button.
+
+![Class Delete](/img/docs/class_delete.png)
 

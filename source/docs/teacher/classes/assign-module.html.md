@@ -5,16 +5,27 @@ class_name: docs
 full_width: true
 ---
 
-Once you have created a class, you should assign some content to the class.
+### Assigning curriculum-mapped content to the class
+You can assign curriculum-mapped content to your classes. (To learn more about curriculum-mapped content, jump to [curriculum-mapped content](/docs/content/courses/recommended))
 
-## Steps
-1. Locate and select a class.
-1. Click the **+** button to open the 'Select a Course' dialog.
-1. A popup Course browser will appear. The **Recommended** tab should automatically be selected. If it is not, then select it now.
-1. Search for and select a Course. Try entering 'Flode' in the search box.
-1. This will then show you a list of any course that contain modules for Flode. You will see 'An Introduction to Programming'
-1. Select this and a popup Module browser will appear. Check the box for 'Flode' and press the **Select** button at the bottom and it will be added to your class.
-1. Having added a Module, you can disable any units you do not wish your students to use if you require.
+To assign content, follow the steps below:
 
-![Assign Module](/img/docs/assign-module.png)
+1. From the 'My Classroom'home screen, click on your class to open it. 
+![xxx](/img/docs/xxxx.png)
+
+1.  Click on the ‘Units’ tab, centre left of your screen.
+![xxx](/img/docs/xxxx.png)
+
+1. Click on the blue ‘plus’ sign, top left of the page, and choose ‘Add Module’.
+![xxx](/img/docs/xxxx.png)
+
+1. To see curriculum-mapped content, click ‘Recommended’ 
+![xxx](/img/docs/xxxx.png)
+
+1. Choose the module you want to assign and click ‘Select’ 
+![xxx](/img/docs/xxxx.png)
+
+1. The module will appear in your class. 
+![xxx](/img/docs/xxxx.png)
+ 
 

@@ -1,5 +1,23 @@
 ---
-title: Administrator Role
+title: Adding Students
 class_name: docs
 full_width: true
 ---
+
+### Adding students : invite
+You can add students to your classes.  To do this follow the steps below: 
+
+1. From the 'My Classroom' area, click on your class to open it. 
+![xxx](/img/docs/xxxx.png)
+
+1. Click on the ‘Students’ tab, top centre of your screen.
+![xxx](/img/docs/xxxx.png)
+
+1. Click on the blue ‘plus’ sign, top left of the page.
+![xxx](/img/docs/xxxx.png)
+
+1. Codio will generate a token for you to give to any students you want to join the class.
+
+1. Give your students the token and then ask them to log in to Codio. They should enter the token when requested.
+1. To view the students in your class, select the class and the ‘Students’ tab once again. You will see a list of students’ names who have successfully completed the sign-up process. 
+![xxx](/img/docs/xxxx.png)

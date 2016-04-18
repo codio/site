@@ -2,7 +2,7 @@
 title: Finding Codio content
 description: "Finding Codio's teaching content"
 class_name: docs
-full_width: trues
+full_width: true
 ---
 
 Finding Codio' teaching content is easy. 

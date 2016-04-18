@@ -2,7 +2,7 @@
 title: Introduction
 description: "About Codio in Education"
 class_name: docs
-full_width: trues
+full_width: true
 ---
 
 Codio is the cloud coding and course content platform for teaching computer science in schools, universities and the self-learner / vocational sector.  Educators worldwide are using Codio – from primary years (KS2 years 5 and 6 in the UK, grades 3-12 in the US system), through to colleges and universities in higher education.

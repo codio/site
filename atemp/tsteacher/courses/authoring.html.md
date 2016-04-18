@@ -2,7 +2,7 @@
 title: Authoring
 description: "Creating your own courses"
 class_name: docs
-full_width: trues
+full_width: true
 ---
 
 If you want to write your own teaching content, Codio contains a very powerful authoring tools called 'Codio Guides'.

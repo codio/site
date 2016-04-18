@@ -2,7 +2,7 @@
 title: Teacher only solutions
 description: "Solutions only teachers can see"
 class_name: docs
-full_width: trues
+full_width: true
 ---
 
 Codio content has a special feature that allows the content author to write solutions or any other types of content that should be seen by the teacher only. Students will not see this content.

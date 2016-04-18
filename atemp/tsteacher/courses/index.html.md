@@ -2,7 +2,7 @@
 title: Codio Courses
 description: "Codio course content"
 class_name: docs
-full_width: trues
+full_width: true
 ---
 
 This section covers:

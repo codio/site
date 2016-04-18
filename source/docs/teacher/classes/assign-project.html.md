@@ -11,11 +11,11 @@ You can assign a project to your class. To do so, follow the steps below. (Note:
 1. From the 'My Classroom' area screen, click on your class to open it. 
 ![Class](/img/docs/ManageClasses/Year10Class.png)
 
-2. Click on the ‘Units’ tab, centre left of your screen.
+1. Click on the ‘Units’ tab, centre left of your screen.
 ![Units](/img/docs/ManageClasses/UnitsTab.png)
 
-3. Click on the blue ‘plus’ sign, top left of the page, and choose ‘Add Project As Unit’.
+1. Click on the blue ‘plus’ sign, top left of the page, and choose ‘Add Project As Unit’.
 ![Plus](/img/docs/ManageClasses/BluePlus.png)
 
-4. Select the project you are assigning and select a stack (for more information on stacks, jump to [Stacks](/docs/project/stacks))
+1. Select the project you are assigning and select a stack (for more information on stacks, jump to [Stacks](/docs/project/stacks))
 ![Project](/img/docs/ManageClasses/AssignProjectToClass/SelectProject.png)

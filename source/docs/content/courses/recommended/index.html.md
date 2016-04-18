@@ -9,3 +9,5 @@ Codio’s extensive curriculum content has been designed with students and teach
 It is up to individual teachers how they feel the content is best used, be it to deliver the curriculum, support the teaching of new concepts, for exam revision purposes, or as a home study tool. Below is quick run-down of our content broadly categorised into appropriate age ranges. You will notice there is some overlap - depending on individual situations and previous experience much of our content can be widely used.
 
 To view all Codio’s curriculum content - click ‘Courses’ (left-hand navigation panel), and then ‘Recommended’ (top)
+
+<img alt="authtoken" src="/img/docs/curriculum_mapped_content/courses.png" class="simple"/>

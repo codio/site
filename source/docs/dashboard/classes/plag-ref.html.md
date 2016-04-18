@@ -20,7 +20,7 @@ The metrics are
 
 The other items for each entry are:
 
-- **File names** - links are provided to the individual files in a match. Next to each file is shown its individual coverage and the number of suspicions tokens out of its total token count.
+- **File names** - links are provided to the individual files in a match. Next to each file is shown its individual coverage and the number of suspicious tokens out of its total token count.
 - **Edits** - highlights the changes between the two files. This is mostly useful when large portions of the files are similar.
 - **Side-by-side** - the matching files (limit 3) are shown side by side, to make comparison easier
 
@@ -54,7 +54,7 @@ Codio also highlights trailing whitespace at the ends of lines. When two files m
 
 Not all rare matches indicate plagiarism, and it is important to use good judgment to determine whether a result identified by Codio is actually suspicious. In general, it is a good idea to use the side-by-side examination and start at the top-ranked files, working downward until you encounter a series of files that you determine are not actually suspicious.
 
-When examining files, it is often good to find the corresponding places in two files and see if the differences appear to be coincidental or if it looks like the differences are more than chance. For example, sometimes, two students may have a large block of text get highlighted, and this may stem from copying a project description from a course page but making similar grammatical changes. In other cases, students may have very few rare matches scattered in their code, but the matches may come from things like similar words in comments, which are much less constrained than code. In all cases, it is imperative that human judgment is used to determine whether a match from Codio represents plagiarism or not.
+When examining files, it is often good to find the corresponding places in two files and see if the differences appear to be coincidental or if it looks like the differences are more than chance. For example, sometimes, two students may have a large block of text highlighted, and this may stem from copying a project description from a course page but making similar grammatical changes. In other cases, students may have very few rare matches scattered in their code, but the matches may come from things like similar words in comments, which are much less constrained than code. In all cases, it is imperative that human judgment is used to determine whether a match from Codio represents plagiarism or not.
 
 Note that Codio will not necessarily find all plagiarized text. In particular, it focuses on only rare matches, so if two students have copied code that is very constrained and very similar to other solutions, it will not be detected. However, if there are very few ways to write a solution to the problem, any plagiarism detection will be difficult. In such cases, plagiarized code may show only a few rare matches, which is why human judgment is so important in interpreting the results.
 

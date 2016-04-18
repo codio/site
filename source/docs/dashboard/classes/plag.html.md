@@ -13,7 +13,7 @@ Plagiarism detection is best used with programming project units rather than Gui
 Codio does not determine whether cheating has or has not taken place and leaves the decision making up to you.
 
 ## Classes
-In order to use this feature you need to set up a class. If you are not using Codio as your main IDE and want to use only the plagiarism detection feature then you should still follow these instructions and ask you students to upload their code into the project using Git or by uploading files manually.
+In order to use this feature you need to set up a class. If you are not using Codio as your main IDE and want to use only the plagiarism detection feature then you should still follow these instructions and ask your students to upload their code into the project using Git or by uploading files manually.
 
 ![](/img/docs/guides/plag-button.png)
 

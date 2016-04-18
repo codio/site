@@ -11,21 +11,21 @@ You can assign curriculum-mapped content to your classes. (To learn more about c
 To assign content, follow the steps below:
 
 1. From the 'My Classroom'home screen, click on your class to open it. 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 1.  Click on the ‘Units’ tab, centre left of your screen.
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 1. Click on the blue ‘plus’ sign, top left of the page, and choose ‘Add Module’.
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 1. To see curriculum-mapped content, click ‘Recommended’ 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 1. Choose the module you want to assign and click ‘Select’ 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
 
 1. The module will appear in your class. 
-![xxx](/img/docs/xxxx.png)
+<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
  
 

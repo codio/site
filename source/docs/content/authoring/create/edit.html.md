@@ -18,17 +18,17 @@ You can rename your section by clicking on the section title in the header area.
 You can then start writing your content in the main content area.
 
 ## Cheat Sheet
-We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more information on importing.
+We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/project/creating/) for more information on importing.
 
 ##Markdown
 For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 
 When in Play Mode, your content is rendered beautifully and you can even override the default CSS styling.
 
-You can also insert [images, videos and hyperlinks](/docs/tuts/author/imvid).
+You can also insert [images, videos and hyperlinks](/docs/account/content/authoring/create/imvid).
 
 
-We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more information on importing.
+We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs//project/creating/) for more information on importing.
 
 Here is a summary of the Markdown formatting codes
 
@@ -149,4 +149,4 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ##Guides Cheat Sheet
 
-Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/dashboard/projects/creating/) for more information on importing.
+Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs//project/creating/) for more information on importing.

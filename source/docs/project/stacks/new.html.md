@@ -42,6 +42,6 @@ If you want to keep your Stack private to your Organization, you can select the 
 
 
 ##Owner
-By default, you will be the owner of this Stack and only you can edit it and [create new versions](/docs/dashboard/stacks/update) of the Stack.
+By default, you will be the owner of this Stack and only you can edit it and [create new versions](/docs/project/stacks/update) of the Stack.
 
 If you want to allow others to see and administer your Stack, you can assign it to another user or to an Organization.

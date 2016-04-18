@@ -19,6 +19,6 @@ Stacks are divided up into the following searchable areas within the Stacks list
 - **Popular Stacks** are the most commonly downloaded, publicly available stacks created by other Codio users; you should note that Codio does not warrant that these Stacks are tested or safe.
 - **All Stacks** gives you a searchable repository of all Stacks, whether created by you, others as well as Codio Certified Stacks.
 
-If you cannot find a Stack that meets your needs, then you can configure your own Stack and add it to your Stack library [as described here](/docs/dashboard/stacks/new).
+If you cannot find a Stack that meets your needs, then you can configure your own Stack and add it to your Stack library [as described here](/docs/project/stacks/new).
 
 

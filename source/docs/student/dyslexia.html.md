@@ -11,9 +11,9 @@ Codio has a built in dyslexia support feature. If you have students who would pr
 1. Open the unit they are working on.
 
 1. From the menu at the top right of the screen, choose ‘Settings’, then ‘Theme’, then ‘Dyslexic’
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/what_students_do/settings.png" class="simple"/>
 
 1. The screen should now display like this:
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/what_students_do/dyslexiasupport/dyslexicview.png" class="simple"/>
 
 

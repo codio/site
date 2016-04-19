@@ -10,12 +10,12 @@ To work with the classroom features in Codio you will first need to set up a cla
 1. Sign in to Codio at www.codio.com 
 
 1. You will automatically arrive at the 'My Classroom'screen. If you are not at the 'My Classroom' screen, click the Codio icon in the top left of the screen you are on to take you back to the 'My Classroom' screen.
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_classes/create_class/codio_icon.png" class="simple"/>
 
 1. Click the blue ‘plus’ sign at the top left of the page.
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
 
 1. Complete the details requested, then click ‘Create Class’.
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_classes/create_class/create_new_class.png" class="simple"/>
 
 1. Your new class will appear ion your 'My Classroom' area.

@@ -16,9 +16,9 @@ To remove admin owners:
 <img alt="authtoken" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>
 
 1. If you want to remove the admin rights of anyone in your organisation, Click the ‘Members’ tab
-<img alt="authtoken" src="/img/docs/manage_organizations/memberstab.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_organization/memberstab.png" class="simple"/>
 
 1. Under ‘Permanent Teams’, Click ‘Owners’
-<img alt="authtoken" src="/img/docs/manage_organizations/owners.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_organization/owners.png" class="simple"/>
 
 1. Choose ‘Remove’ on the right hand side of the name of the person whose admin rights you want to remove. (note: you must always have at least one person in this group to act as the administrator) 

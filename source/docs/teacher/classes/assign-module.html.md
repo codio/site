@@ -20,12 +20,12 @@ To assign content, follow the steps below:
 <img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
 
 1. To see curriculum-mapped content, click ‘Recommended’ 
-<img alt="authtoken" src="/img/docs/manage_class/assigning_cm_content/recommended_tab.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_classes/assigning_cm_content/recommended_tab.png" class="simple"/>
 
 1. Choose the module you want to assign and click ‘Select’ 
-<img alt="authtoken" src="/img/docs/manage_class/assigning_cm_content/select_module.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_classes/assigning_cm_content/select_module.png" class="simple"/>
 
 1. The module will appear in your class. 
-<img alt="authtoken" src="/img/docs/manage_class/assigning_cm_content/module_in_class.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_classes/assigning_cm_content/module_in_class.png" class="simple"/>
  
 

@@ -7,10 +7,10 @@ full_width: true
 
 Codio Guides is a fully integrated content authoring tool that allows you to write rich teaching content using markdown (and html where needed).
 
-##Why should I use it?
-If you are creating any type of coding tutorial or you are creating educational content using [Codio's Education features](/docs/teacher/education), then you will find this enormously helpful.
+## Why should I use it?
+If you are creating any type of coding tutorial or you are creating educational content, then you will find this enormously helpful.
 
-##Key Features
+## Key Features
 
 - all content written using simple markdown
 - create a wide range of assessment questions.
@@ -24,4 +24,4 @@ If you are creating any type of coding tutorial or you are creating educational 
 - hide and show table of contents while in both edit and play modes.
 - include guidance material for teachers that is not visible to students.
 
-[Click here](/docs/tuts/author/strategies) to start reading.
+[Click here](/docs/content/authoring/strategies) to start reading.

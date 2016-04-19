@@ -18,7 +18,7 @@ We recommend you use Codio's Lexikon feature to get inline help on Crunch usage 
 ## Crunch Module
 We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the Crunch - Little Man Computer on Steroids Course. From the Dashboard, go to Courses and then look for Crunch - Little Man Computer on Steroids, within that course you will find the Crunch module.
 
-If you are teaching a Class, then we suggest you assign the Crunch module to the class. [Click here](/docs/dashboard/classes/class-module-add/) for details.
+If you are teaching a Class, then we suggest you assign the Crunch module to the class. [Click here](/docs/dashboard/classes/assign-module/) for details.
 
 ## Video Overview
 

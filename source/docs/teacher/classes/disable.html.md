@@ -1,5 +1,8 @@
-https://codio.com/docs/dashboard/classes/plag-ref/
-
+---
+title: Disable/Enable units
+class_name: docs
+full_width: true
+---
 ### Disable/enable a unit
 
 You can enable or disable units that have been assigned to classes. This is useful when your students are working in controlled examination conditions and you do not want them to have access to their work outside of lesson time.

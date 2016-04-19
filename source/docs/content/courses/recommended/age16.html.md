@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-### Curriculum content for students aged 16-18
+
 
 - An introduction to programming -  ‘Flode’, an interactive flowcharting tool
 - An introduction to programming -  learn to code with Python, JavaScript or Java

@@ -15,7 +15,7 @@ Once you have set up your organization, the next step is to invite teachers to u
 <img alt="authtoken" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>
 
 1. Click the ‘Organization Settings’ tab
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_organization/deleteorg/orgsettingstab.png" class="simple"/>
 
 1. About half way down you will see an ‘invitation’ area, displaying an ‘invite URL’ and an ‘invite token’. 
 <img alt="authtoken" src="/img/docs/class_administration/addteachers/invitation.png" class="simple"/>

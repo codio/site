@@ -6,13 +6,13 @@ title: "Guides"
 ### Guides 
 
 #### Restore Current Files
-Sometimes you may wish to make changes to your work that they you don’t like or that you don’t want to keep. 
+Sometimes you might make changes to your work that you don’t like or that you don’t want to keep. 
 
 The easiest way to get rid of these is to restore the original files in a unit. 
 To do this:
 
 1. Open the unit you are working on. In the top right, choose ‘Settings’, and then ‘Restore current files’
-<img alt="authtoken" src="/img/docs/xxxxxx.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/what_students_do/settings.png" class="simple"/>
 
 #### Lexikon
 

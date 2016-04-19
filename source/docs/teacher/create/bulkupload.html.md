@@ -1,10 +1,9 @@
 ---
-title: Bulk student upload
+title: Adding Students: Bulk upload
 class_name: docs
 full_width: true
 ---
 
-### Adding students: bulk upload 
 
 If you have a large number of students to add to your educational organization, you can carry out a bulk upload using a CSV file.
 
@@ -13,14 +12,19 @@ To do this follow these steps:
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>
 
-1. Click on the name of your  educational organization - under ‘My Organizations’, which is about halfway down the screen. 
+1. Click on the name of your  educational organization - under **My Organizations**, which is about halfway down the screen. 
 <img alt="authtoken" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>
-1. Click the ‘Upload Users’ tab 
+
+1. Click the **Upload Users** tab 
 <img alt="authtoken" src="/img/docs/manage_organization/bulkupload/uploaduserstab.png" class="simple"/>
-1. Click ‘Begin a new upload’
+
+1. Click **Begin a new upload**
 <img alt="authtoken" src="/img/docs/manage_organization/bulkupload/beginupload.png" class="simple"/>
+
 1. Browse for a file and follow the instructions on the screen.
-The file you upload should be a CSV file. It  can contain the following details: 
+
+
+The file you upload should be a CSV file. It can contain the following details: 
 
   - Email (required) 
   - FirstName 

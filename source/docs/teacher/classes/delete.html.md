@@ -8,5 +8,4 @@ A class can be deleted by the class owner and those with administration permissi
 
 - Select the class, go to the `Admin` area and then press the 'Delete Class' button.
 
-![Class Delete](/img/docs/class_delete.png)
-
+<img alt="authtoken" src="/img/docs/class_delete.png" class="simple"/>

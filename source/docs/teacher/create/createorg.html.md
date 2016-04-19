@@ -14,11 +14,11 @@ To create an organization follow these steps:
 <img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>
 
 1. Halfway down the screen, you will see ‘My organizations’, underneath that, you will see ‘+ Create Organization’ - click that.
-<img alt="authtoken" src="/img/docs/class_administration/createanorganisation/createorg.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/class_administration/createanorganization/createorg.png" class="simple"/>
 
 
 1. Complete the form with your details, then click ‘Create’
-<img alt="authtoken" src="/img/docs/class_administration/createanorganisation/completeform.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/class_administration/createanorganization/completeform.png" class="simple"/>
 
 
 1. Your organization (school, university or other educational organization) has now been set up.

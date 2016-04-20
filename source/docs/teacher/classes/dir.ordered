@@ -1,10 +1,10 @@
 create-class
+addteachers
 assign-module
 assign-project
 disable
-solutions
 pin
-addteachers
+solutions
 changepassword
 removestudent
 delete

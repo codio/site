@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "What is a Starter Pack?"
 class_name: docs
 full_width: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: Adding Students: Invite
+title: Adding Students - Invite
 class_name: docs
 full_width: true
 ---

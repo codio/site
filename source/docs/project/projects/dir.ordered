@@ -1,7 +1,6 @@
 addfile
-terminal
+commandline
 install
 exiting
 listings
-commandline
-softwareinstall
+

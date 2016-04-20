@@ -1,5 +1,5 @@
 ---
-title: "Assessments : Fill in the blanks"
+title: "Fill in the blanks"
 class_name: docs
 full_width: true
 ---

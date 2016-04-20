@@ -1,9 +1,7 @@
 ---
-title: "Classes"
-description: "Joining a class as a student"
----
+title: "Joining a class as a student"
 
-### Join a class
+---
 
 Your teacher can invite you to join classes that have been set up. This allows you to access the specific curriculum-mapped content and projects that have been assigned to you.
 

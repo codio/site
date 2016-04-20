@@ -1,8 +1,7 @@
 ---
 title: "My Classroom"
-description: "My Classroom"
+description: ""
 ---
-### My Classroom
 
 The **My Classroom** area is where you can see the modules and units that have been assigned to you. Pinned units will be displayed more prominently at the top of the page.
 

@@ -1,5 +1,5 @@
 ---
-title: "Images, Videos, Hyperlinks & iframes"
+title: "How to add media to your online course"
 class_name: docs
 full_width: true
 ---

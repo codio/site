@@ -1,6 +1,6 @@
 ---
-title: "Firewall, network & home configurations"
-description: "School and home settings"
+title: "Firewall & network settings"
+description: ""
 class_name: docs
 full_width: true
 ---

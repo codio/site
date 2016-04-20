@@ -1,6 +1,6 @@
 ---
 title: "Creating projects"
-description: "Creating your first coding project"
+description: ""
 class_name: docs
 full_width: true
 ---

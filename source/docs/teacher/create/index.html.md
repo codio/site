@@ -1,5 +1,5 @@
 ---
-title: "Manage your organization"
+title: "How to create an organization"
 class_name: docs
 full_width: true
 ---

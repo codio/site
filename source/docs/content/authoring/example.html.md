@@ -1,5 +1,5 @@
 ---
-title: "Example"
+title: "Example Java Unit"
 class_name: docs
 full_width: true
 ---

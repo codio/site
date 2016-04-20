@@ -1,5 +1,5 @@
 ---
-title: "Teacher only content"
+title: "Creating teacher only content for teacher solutions"
 class_name: docs
 full_width: true
 ---

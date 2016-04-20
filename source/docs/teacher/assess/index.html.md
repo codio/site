@@ -1,5 +1,5 @@
 ---
-title: Monitor Students
+title: "Assessing student progress"
 class_name: docs
 full_width: true
 ---

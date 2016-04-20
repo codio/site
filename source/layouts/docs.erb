@@ -1,12 +1,16 @@
 <% wrap_layout :'layout' do %>
 
-  <div class="header-block">
-    <h2>How can we help you?</h2>
+  <div class="page-header-block">
+    <div class="search-container">
+      <form id="search-input">
+        <input type="text" placeholder="Search for a specific question or topic ..." id="st-search-input" class="st-search-input" />
+      </form>
+    </div>
+  </div>
+  <div style="clear: both;">
   </div>
 
   <div class="docs-content">
-    <%= partial 'docs-header-navigation' %>
-
     <%= partial 'docs-side-navigation' %>
 
     <article data-swiftype-name="body" data-swiftype-type="text" class="docs-body">
@@ -24,4 +28,5 @@
         "datePublished": "<%= File.ctime(Dir.glob("source/#{current_resource.path}*")[0]).iso8601 %>"
       }
     </script>
+  </div>
 <% end %>

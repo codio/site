@@ -243,6 +243,14 @@ body.docs .index-header-block {
   }
 }
 
+body.docs .page-header-block {
+  @include span(4);
+  position: relative;
+  .search-container {
+    padding: 9rem 0 0 0;;
+  }
+}
+
 .search-container {
   @include container;
   @include break;

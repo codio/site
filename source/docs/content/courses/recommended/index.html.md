@@ -1,5 +1,5 @@
 ---
-title: Curriculum-mapped content
+title: What content do you recommend?
 class_name: docs
 full_width: true
 ---

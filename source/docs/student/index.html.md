@@ -1,5 +1,5 @@
 ---
-title: "Student"
+title: "Student Support"
 description: "Get familiar with every aspect of the Codio experience"
 ---
 

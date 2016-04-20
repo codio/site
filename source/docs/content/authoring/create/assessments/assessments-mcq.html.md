@@ -1,5 +1,5 @@
 ---
-title: "Assessments : Multiple Choice"
+title: "Multiple Choice"
 class_name: docs
 full_width: true
 ---

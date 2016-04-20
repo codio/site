@@ -1,5 +1,5 @@
 ---
-title: "Editor overview"
+title: "What is the Codio Guides authoring tool?"
 class_name: docs
 full_width: true
 ---

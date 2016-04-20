@@ -1,5 +1,5 @@
 ---
-title: "Features"
+title: "Advanced IDE Features"
 class_name: docs
 full_width: true
 ---

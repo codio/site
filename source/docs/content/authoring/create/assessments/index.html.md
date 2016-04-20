@@ -1,5 +1,5 @@
 ---
-title: "Assessments : Overview"
+title: "How to create auto-graded assessments"
 class_name: docs
 full_width: true
 ---

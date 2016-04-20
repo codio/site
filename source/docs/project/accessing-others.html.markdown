@@ -1,5 +1,5 @@
 ---
-title: "Accessing other people's projects"
+title: "Accessing another user project"
 class_name: docs
 full_width: true
 ---

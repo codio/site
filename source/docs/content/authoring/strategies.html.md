@@ -1,5 +1,5 @@
 ---
-title: "Authoring Strategies"
+title: "Tips for planning your course"
 class_name: docs
 full_width: true
 ---

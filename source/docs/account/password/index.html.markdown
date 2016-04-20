@@ -1,5 +1,5 @@
 ---
-title: "Account"
+title: "Password"
 class_name: docs
 full_width: true
 ---

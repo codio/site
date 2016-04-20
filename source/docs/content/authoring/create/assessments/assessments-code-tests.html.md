@@ -1,5 +1,5 @@
 ---
-title: "Assessments : Code Tests"
+title: "Code Tests"
 class_name: docs
 full_width: true
 ---

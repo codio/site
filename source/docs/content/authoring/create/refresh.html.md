@@ -1,5 +1,5 @@
 ---
-title: Refreshing a unit
+title: Editing a unit
 class_name: docs
 full_width: true
 ---

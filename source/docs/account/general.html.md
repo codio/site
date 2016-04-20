@@ -1,5 +1,5 @@
 ---
-title: "General Settings"
+title: General Settings
 ---
 
 You can change the following settings

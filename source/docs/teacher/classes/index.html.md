@@ -1,5 +1,5 @@
 ---
-title: Classes
+title: "How to manage your class "
 class_name: docs
 full_width: true
 ---

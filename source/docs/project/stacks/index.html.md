@@ -1,5 +1,5 @@
 ---
-title: "Stacks"
+title: "How to use stacks"
 class_name: docs
 full_width: true
 ---

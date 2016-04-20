@@ -15,27 +15,27 @@ Select a commonly used Stack from the available list:
 For example:
 
 - **LAMP:** LAMP Stack containing PHP, Apache and MySql with no code workspace.
-- **Python3:** Python3 Stack with no code workspace.
+- **Python:** Python Stack with no code workspace.
 - **Empty Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects).
 
 or click on the **'Click here....'** to import or select an alternative software configuration:
 
 - **[Starter Pack](/docs/project/packs/)** which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
 - **Import** where you can import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.
-- If you are a student, you can also check out [Courses](/docs/account/content/courses), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/account/content/), giving you on-screen instructions while you code.
+- If you are a student, you can also check out [Courses](/docs/content/courses), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/content/authoring), giving you on-screen instructions while you code.
 
 ![Import Project](/img/docs/project_create_other.png)
 
 
 **Note: Git is preinstalled in all projects**
 
-##Selecting a Stack
+## Selecting a Stack
 If you are selecting the alternative option, you can then specify a default Stack for your new Project. If you don't select one, you'll get an empty Ubuntu Box using the Empty Stack.
 
-##Details
+## Details
 You need to give your project a name and a description.
 
 
-##Visibility
+## Visibility
 By default, your Project will be public, meaning it is findable by any Codio user. If you have a subscription, you can mark the Project as private. You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for the Project from within the IDE from the `Project->Permissions` menu.
 

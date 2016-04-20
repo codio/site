@@ -7,7 +7,9 @@ full_width: true
 All Codio projects come with their own dedicated servers. You can control this from the Linux command line as with any developer environment.
 
 ## The Terminal
-You manage your server by opening a Terminal window from the Terminal option in the Tools menu. 
+You manage your server by opening a Terminal window from the Terminal option in the Tools menu.
+
+For more information see [Terminal Window](/docs/ide/boxes/terminal)
 
 ## Learning about the Linux command line
 Codio has a course explaining how to use the Linux command line.

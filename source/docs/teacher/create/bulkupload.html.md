@@ -1,5 +1,5 @@
 ---
-title: Adding Students: Bulk upload
+title: Adding Students - Bulk upload
 class_name: docs
 full_width: true
 ---

@@ -10,7 +10,7 @@ If you want to exclude other files or folders then you should follow these steps
 
 - Create a file `~/.codio/stack_exclusions` in the Project you will be basing the Stack on.
 - add the paths to any file or folder you wish to be excluded from the Stack
-- add paths are relative to `~/`
+- add paths that are relative to `~/`
 - currently, globbing and wildcards are not supported
 - one path per line
 - do not start the line with a `/`

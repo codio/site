@@ -388,3 +388,11 @@ body.docs .section.buttons .section-block-row-three {
 body.docs .review {
   background-color: red;
 }
+
+body.docs .crumbs {
+  margin: 0 gutter();
+
+  @include breakpoint($max-width) {
+    margin: 0 0 2rem 0;
+  }
+}

@@ -13,5 +13,5 @@ If you want to exclude other files or folders then you should follow these steps
 - add the full path to the file (when in the folder, run `readlink -f <filename>` to get the full path)
 - currently, globbing and wildcards are not supported
 - one path per line
-- do not start the line with a `/`
+
 

@@ -6,14 +6,16 @@ $(() => {
 
   if ($menu.length === 0) return
 
+  $menu.css({
+    'min-height': $menu.outerHeight(true)
+  })
+
   // Set a min-height so the full menu is visible
   $docsBody.css({
     'min-height': $menu.outerHeight(true)
   })
 
-  $menu.css({
-    'min-height': $docsBody.outerHeight(true)
-  })
+
 
   // Setup search
   $('#st-search-input').swiftypeSearch({

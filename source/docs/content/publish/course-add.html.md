@@ -24,6 +24,6 @@ You can also order the list of modules by name or owner and use the 'Filter by C
 ![Module Browser](/img/docs/module_browser.png)
 
 ## Adding a unit to a module
-Please read the next section [Adding a Unit](/docs/tuts/publish/unit-add) for details.
+Please read the next section [Adding a Unit](/docs/content/publish/unit-add) for details.
 
 

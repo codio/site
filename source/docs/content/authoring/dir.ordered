@@ -4,9 +4,6 @@ strategies
 imvid
 assessments
 edit
-unit-add
-refresh
-delete
 solutions
 collapse
 real-time
@@ -20,4 +17,4 @@ hide-folder
 buttons
 techdetails
 playmode
-course-public
+

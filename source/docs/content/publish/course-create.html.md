@@ -16,14 +16,14 @@ A Long Description is usually a good idea and helps other users understand the s
 You should also add tags that identify the technologies used. An image is also suggested.
 
 ## Visibility
-This determines whether your course is publicly available to all Codio users or should remain private to you and/or your [Organization](/docs/dashboard/organizations/) (if you are a member of an Organization). Private courses require a paid subscription.
+This determines whether your course is publicly available to all Codio users or should remain private to you and/or your [Organization](/docs/teacher/create/adminrole/) (if you are a member of an Organization). Private courses require a paid subscription.
 
 To publish your course to an Organization, please read on.
 
 ## Owner
 By default, you are the owner of the course you create. If you select an Organization from the 'Who should own this course' dropdown, then 
 
-1. Any Owner group members of that Organization are able to adminster the course.
+1. Any Owner group members of that Organization are able to administer the course.
 2. All Organization members will be able to see it in the listing, even if the course is marked as private. Students can find these courses in the 'Shared' tab within the main listing.
 
 To create a course that is private to your Organization, select the Private option and select the Organization as the owner.

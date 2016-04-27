@@ -6,7 +6,7 @@ full_width: true
 
 ### For G2 (second generation) Boxes
 
-These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
+These new Boxes provide full `sudo` (root) access, so you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
 
 See also [Stacks](/docs/dashboard/stacks/listing/) where you can create new Projects and Boxes from pre existing Stack libraries.
 
@@ -19,24 +19,21 @@ We are currently rolling out packages for G2 Boxes to install software packages 
 - install packages onto your Box
 
 #### Autostarting
-Services that require to be stared will auto start on installation.
+Services that require to be started will auto start on installation.
 
 You can manually start, stop and restart services using the following terminal commands:
 
+```
 $ sudo service <package-name> start
 $ sudo service <package-name> stop
 $ sudo service <package-name> restart
-
+```
 
 ### For G1 (first generation) Boxes
 
 > **DEPRECATION NOTICE**
 >
-> This section only concerns G1 (first generation) Boxes. For G2 Boxes, Box Parts is not available, and you should use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager.
->
-> We are currently rolling out a new generation of Codio Boxes that will provide far greater power and control for you, as well as improved stability. These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
->
-> Second generation projects and stacks are identified with a `G2` label, and we will be gradually updating all our Certified Stacks, Packs and Units to use the G2 platform.
+> This section only concerns G1 (first generation) Boxes.
 
 Codio provides a rich set of so-called Box Parts that are very rapidly installable packages that can be installed either using our Install Software screen (`Tools->Install software` menu item) or via the command line.
 
@@ -119,13 +116,6 @@ parts search php
 ```
 
 and all parts whose name or description contains 'php' will be listed.
-
-#### Requesting Additional Box Parts
-Any Codio users can request that the Codio team add additional Box Parts to the standard repository. Once added, it will become a standard item and available to all users.
-
-Codio subscribers will be given preference.
-
-To request a new Box Part, [create a new issue here](https://github.com/codio/boxparts/issues?page=1&state=open) and we'll get it dealt with as soon as we can.
 
 ##Installing Box Parts
 You can install one or more Box Parts as follows

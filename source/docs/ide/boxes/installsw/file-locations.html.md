@@ -8,8 +8,10 @@ All Codio code workspace and software dependency files are located in the `/home
 
 Everything below this level can be accessed and is effectively read-only. You should not change anything here as it will not persist.
 
-##Code workspace files
+## Code workspace files
 The code workspace you see in the project file tree is located at `/home/codio/workspace` or `~/workspace`.
 
-##Software dependencies
-All languages, databases, web servers and other [installable software components](/docs/ide/boxes/installsw/) are located in the `/home/codio/.parts ` folder.
+## Software dependencies
+For G1 (first generation) Boxes, all languages, databases, web servers and other [installable software components](/docs/ide/boxes/installsw/) are located in the `/home/codio/.parts ` folder.
+
+For G2 (second generation) Boxes, all languages, databases, web servers and other [installable software components](/docs/ide/boxes/installsw/) are located in the `/home/codio/etc ` folder.

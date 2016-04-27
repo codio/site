@@ -4,6 +4,40 @@ class_name: docs
 full_width: true
 ---
 
+### For G2 (second generation) Boxes
+
+These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
+
+See also [Stacks](/docs/dashboard/stacks/listing/) where you can create new Projects and Boxes from pre existing Stack libraries.
+
+As of June 2015 a subscription is required to install software packages. Existing users are not affected.
+
+#### Install Software tab
+We are currently rolling out packages for G2 Boxes to install software packages onto a Codio Box. You can access these from the `Tools->Install software` menu item. This allows you to perform the following actions
+
+- search for packages
+- install packages onto your Box
+
+#### Autostarting
+Services that require to be stared will auto start on installation.
+
+You can manually start, stop and restart services using the following terminal commands:
+
+$ sudo service <package-name> start
+$ sudo service <package-name> stop
+$ sudo service <package-name> restart
+
+
+### For G1 (first generation) Boxes
+
+> **DEPRECATION NOTICE**
+>
+> This section only concerns G1 (first generation) Boxes. For G2 Boxes, Box Parts is not available, and you should use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager.
+>
+> We are currently rolling out a new generation of Codio Boxes that will provide far greater power and control for you, as well as improved stability. These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
+>
+> Second generation projects and stacks are identified with a `G2` label, and we will be gradually updating all our Certified Stacks, Packs and Units to use the G2 platform.
+
 Codio provides a rich set of so-called Box Parts that are very rapidly installable packages that can be installed either using our Install Software screen (`Tools->Install software` menu item) or via the command line.
 
 See also [Stacks](/docs/dashboard/stacks/listing/) where you can create new Projects and Boxes from pre existing Stack libraries.
@@ -12,12 +46,10 @@ As of June 2015 a subscription is required to install software packages. Existin
 
 You can also install software by downloading and compiling from source code.
 
-As covered in the next section, [Coding your own Packages](/docs/ide/boxes/installsw/parts-coding) you can also create your own Box Parts packages.
-
-##Install Software tab
+#### Install Software tab
 The easiest way to install software packages onto a Codio Box is from the `Tools->Install software` menu item. This allows you to perform the following actions
 
-- search for Packages
+- search for packages
 - install packages onto your Box
 - manually start and stop services
 - see which services are running
@@ -26,10 +58,10 @@ The easiest way to install software packages onto a Codio Box is from the `Tools
 
 ![Install Software](/img/docs/install-software.png)
 
-##Autostarting
+#### Autostarting
 Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box. Please refer to the [Autostarting services](/docs/ide/boxes/startup/) section for more details.
 
-##Command Line
+#### Command Line
 You can also install Box Parts packages from the [command line](/docs/ide/boxes/terminal/).
 
 Open up a Terminal window from the `Tools->Terminal` menu item.
@@ -52,8 +84,8 @@ Some useful commands are:
   parts update               # Update Box Parts
 ```
 
-##Preinstalled packages
-The are a several packages preinstalled on all Codio Boxes.
+#### Preinstalled packages
+The are a several packages preinstalled on all G1  Codio Boxes.
 
 - NodeJS (uses nvm)
 - Ruby (uses rbenv)
@@ -64,7 +96,7 @@ The are a several packages preinstalled on all Codio Boxes.
 
 Additionally, most common Ubuntu utilities are preinstalled.
 
-##The Box Parts Repository
+#### The Box Parts Repository
 We are continuously updating Box Parts centrally and these are pulled down automatically. If you see a Box Part in the central [Box Parts Repository](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages), but don't see it when you type `parts search` then run the following to download the repo on to your Box.
 
 ```
@@ -88,7 +120,7 @@ parts search php
 
 and all parts whose name or description contains 'php' will be listed.
 
-##Requesting Additional Box Parts
+#### Requesting Additional Box Parts
 Any Codio users can request that the Codio team add additional Box Parts to the standard repository. Once added, it will become a standard item and available to all users.
 
 Codio subscribers will be given preference.

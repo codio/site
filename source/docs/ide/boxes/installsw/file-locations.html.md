@@ -12,6 +12,7 @@ Everything below this level can be accessed and is effectively read-only. You sh
 The code workspace you see in the project file tree is located at `/home/codio/workspace` or `~/workspace`.
 
 ## Software dependencies
-For G1 (first generation) Boxes, all languages, databases, web servers and other [installable software components](/docs/ide/boxes/installsw/) are located in the `/home/codio/.parts ` folder.
+All new projects that you create will be G2 boxes. All languages, databases, web servers and other installable software components are typically located in the `/home/codio/etc ` folder.
 
-For G2 (second generation) Boxes, all languages, databases, web servers and other [installable software components](/docs/ide/boxes/installsw/) are located in the `/home/codio/etc ` folder.
+For first generation projects, you can still use Box Parts and the installed software is located in the `/home/codio/.parts ` folder.
+

@@ -4,135 +4,41 @@ class_name: docs
 full_width: true
 ---
 
-Codio provides a rich set of so-called Box Parts that are very rapidly installable packages that can be installed either using our Install Software screen (`Tools->Install software` menu item) or via the command line.
+The Tools->Install Software menu option gives you access to a dialog driven means of running scripts that can install, configure or reconfigure software components. This saves you the trouble of doing this manually from the command line. 
 
-See also [Stacks](/docs/project/stacks/listing/) where you can create new Projects and Boxes from pre existing Stack libraries.
+![Install Software](/img/docs/install-sw-g2.png)
 
-As of June 2015 a subscription is required to install software packages. Existing users are not affected.
+On this page, you can locate the software you want to install and then click the install icon to start the installation.
 
-You can also install software by downloading and compiling from source code.
+#### Installing from the command line
+Our latest boxes provide full `sudo` (root) access, so you can also use the Ubuntu [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
 
-As covered in the next section, [Coding your own Packages](/docs/ide/boxes/installsw/parts-coding) you can also create your own Box Parts packages.
+If you want to provide fully pre-configured boxes then you should use [Stacks](/docs/dashboard/stacks/listing/) rather than the Install Software feature described on this page. 
 
-##Install Software tab
-The easiest way to install software packages onto a Codio Box is from the `Tools->Install software` menu item. This allows you to perform the following actions
 
-- search for Packages
-- install packages onto your Box
-- manually start and stop services
-- see which services are running
-- specify which services should auto start when your Box starts up
-- uninstall packages
+#### Adding or requesting new packages
+As of May 2016 the list of available packages is somewhat limited. However, we will be adding to these continuously and we also encourage you to request new ones. 
 
-![Install Software](/img/docs/install-software.png)
+If you require a new script to be added to the Install Software list then you have two options.
 
-##Autostarting
-Services that support auto starting will have a checkbox in the Autostart column. Once you have installed a service, you can check the box. Please refer to the [Autostarting services](/docs/ide/boxes/startup/) section for more details.
+1. Visit the [Issues](https://github.com/codio/install_software/issues) page on our GitHub repository and create a new issue detailing your requirements.
+1. You can fork our [GitHub repository](https://github.com/codio/install_software), add the script yourself and then submit a pull request.
 
-##Command Line
-You can also install Box Parts packages from the [command line](/docs/ide/boxes/terminal/).
+Instructions on how to add your own package scripts can be found [here](/docs/ide/boxes/installsw/parts-coding/).
 
-Open up a Terminal window from the `Tools->Terminal` menu item.
 
-Then, enter `parts` on the command line, you will see something like this
+#### Autostarting
+Services that require to be started will auto start on installation.
 
-```bash
-usage: parts COMMAND [ARGS...]
-
-Some useful commands are:
-  parts install PACKAGE...   # Install one or many packages
-  parts uninstall PACKAGE... # Uninstall one or many packages
-  parts purge PACKAGE...     # Uninstall and remove leftover data
-  parts list                 # List all installed packages
-  parts search [SEARCH_TERM] # Search for a package or list all
-  parts start PACKAGE...     # Start one or many services
-  parts stop PACKAGE...      # Stop one or many services
-  parts restart PACKAGE...   # Restart one or many services
-  parts status [PACKAGE...]  # Show status of one or many services
-  parts update               # Update Box Parts
-```
-
-##Preinstalled packages
-The are a several packages preinstalled on all Codio Boxes.
-
-- NodeJS (uses nvm)
-- Ruby (uses rbenv)
-- Python 2.7.3 (Python 2.7.8 and 3.4 available as additional Box Parts)
-- Git, Mercurial and SVN
-- C/C++ Compilers
-- Java
-
-Additionally, most common Ubuntu utilities are preinstalled.
-
-##The Box Parts Repository
-We are continuously updating Box Parts centrally and these are pulled down automatically. If you see a Box Part in the central [Box Parts Repository](https://github.com/codio/boxparts/tree/master/lib/autoparts/packages), but don't see it when you type `parts search` then run the following to download the repo on to your Box.
+You can manually start, stop and restart services using the following terminal commands:
 
 ```
-parts update
+$ sudo service <package-name> start
+$ sudo service <package-name> stop
+$ sudo service <package-name> restart
 ```
 
-Regardless of whether we have added a brand new Box Part or have modified an existing one, you should run `parts update` and then `parts install <partname>` to update your Box Part properly.
+### G1 (first generation) Boxes
+If you are running an old first generation box, then please [click here](/docs/ide/boxes/installsw/g1/) for details.
 
-##Finding Box Parts
-You can get a complete list of available Box Parts with the following command in the Terminal
-
-```
-parts search
-```
-
-If you want to use a few characters to narrow the list down, just enter
-
-```
-parts search php
-```
-
-and all parts whose name or description contains 'php' will be listed.
-
-##Requesting Additional Box Parts
-Any Codio users can request that the Codio team add additional Box Parts to the standard repository. Once added, it will become a standard item and available to all users.
-
-Codio subscribers will be given preference.
-
-To request a new Box Part, [create a new issue here](https://github.com/codio/boxparts/issues?page=1&state=open) and we'll get it dealt with as soon as we can.
-
-##Installing Box Parts
-You can install one or more Box Parts as follows
-
-```
-parts install <partname-1> <partname-2> ... <part-name-n>
-```
-
-You will then see the installation taking place in the Console.
-
-##Starting, Stopping and Restarting Services
-Once you have installed a component, you may need to start it as a service.
-
-```
-parts start <package-name>
-parts restart <package-name>
-parts stop <package-name>
-```
-
-and to request the service status, use
-
-```
-parts status <package-name>
-parts status (lists the status of services provided by all installed packages)
-```
-
-When you close and restart your project (and therefore the Box), you will need to restart your services on restart. This can be done automatically or manually as [described here](/docs/ide/boxes/startup/).
-
-##Parts folder and config files
-Box Parts installs things in a special location where you have full access and control
-
-```
-~/.parts
-```
-
-If you take a look inside that folder, you will find everything you are likely to need. Configuration files, for example, live in
-
-```
-~/.parts/etc
-```
-
-So to configure Apache, you would edit the `~/.parts/etc/apache2/httpd.conf` file (using Nano/Vim).
+If you are not sure which box generation you are running, select the Project->Box Info menu item. The ensuing dialog displays near the top.

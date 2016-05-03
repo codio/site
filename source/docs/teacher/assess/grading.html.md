@@ -18,6 +18,6 @@ To assign comments or a grade, you click on the Grade icon. You can then modify 
 
 When ready the teacher can 'Release grades' so that the students will be able to see their grades from either their My Classroom view or by opening the unit and going to 'Education->See Grades.
 
-Grades can be released by the teacher either from the Unit detailed view (see image above) or from the main Unit view right clicking on the 3 vertical dots and selecting 'Release grades'.
+Grades can be released by the teacher either from the Unit detailed view (see top image above) or from the main Unit view right clicking on the 3 vertical dots and selecting 'Release grades'.
 
 <img alt="authtoken" src="/img/docs/class_releasegrades.png" class="simple"/>

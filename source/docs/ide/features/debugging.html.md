@@ -48,6 +48,22 @@ To create a new target, press the Create button. You can then configure your tar
 
 When creating a new target, you are also shown the debugger port and instruction but these can typically be ignored.
 
+#### Language specific compilation commands
+The information in this section refers to what should be used in the Command Arguments field.
+
+**Python**
+You do not have to use this field as Python is an interpreted language.
+
+**Java**
+This requires you to compile using special compiler directives that enable remote debugging. The following command is recommended
+
+```bash
+javac -g BubbleSort.java && java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105 BubbleSort
+```
+
+The example above is a simple case, but whichever way you build your application, it is important that the following information is included. The `address` field contains the port number and it must be `5105`.
+
+
 ### Starting to debug
 There are two ways you can launch an application in debug mode.
 

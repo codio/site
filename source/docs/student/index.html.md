@@ -1,24 +1,17 @@
 ---
-title: "Student Support"
-description: "Get familiar with every aspect of the Codio experience"
+title: "A student view of Codio"
+description: ""
 ---
 
-We hope you will love learning to code using Codio. This guide will get your started on using the Codio platform.
+The student dashboard is the main ‘home’ area that you use to navigate Codio. This is what it looks like:
 
-## Schools, Universities, Colleges or Private Tuition
-If you are using Codio at an education institution, then your teacher will have already informed you about the signup process. In some cases, your teacher may have already created your account automatically.
+<img alt="authtoken" src="/img/docs/what_students_do/studentdashboard.png" class="simple"/>
 
-Please refer to the other pages in this section of the documentation for useful information on your classes or running your own projects.
+From the **My Classroom** screen you can view your classes, courses, projects and help by using the links on the left hand panel.
 
-## Student Discounts
+- **LEARN** links give your students access to classroom features and courses
+- **BUILD** links give your students access to project tools and our professional IDE
+- **HOW TO** links give your students access to our customer service team and our help documentation. 
 
-If you are a student in a School, College or University using Codio on your own, you can benefit from Codio education pricing when your licence is purchased through a member of your teaching staff.
-
-Your teaching staff can create a Codio "organisation" for any number of users with the condition that at least one member of your teaching staff subscribes and manages your Codio organisation.
-
-## Individual Users
-If you are using Codio as an individual, and not through an education institution, we offer an individual developer subscription, for access to Codio for projects and use of Codio stacks and starter packs.
-
-If you are interested in using Codio to learn to code as an individual, not part of an education institution, stay tuned, we will soon be introducing a self-learner subscription option with access to Codio courses.
 
 

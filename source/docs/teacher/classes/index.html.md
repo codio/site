@@ -1,19 +1,21 @@
 ---
-title: "How to manage your class "
+title: Creating a class
+description: ""
 class_name: docs
 full_width: true
 ---
 
-### Manage Classes
-Codio gives you the ability to set up classes so that you can manage your students and curriculum-mapped content in an organised way. You also have the ability to track students’ progress. Click the links below to find out more:
+To work with the classroom features in Codio you will first need to set up a class for your students, here is how to do that:
 
-[Creating a class](/docs/teacher/classes/create-class)
-[Assigning curriculum-mapped content to the class](/docs/teacher/classes/assign-module)
-[Assign a project to the class](/docs/teacher/classes/assign-project)
-[Disable/Enable units](/docs/teacher/classes/disable)
-[View teacher solutions](/docs/teacher/classes/solutions)
-[Pinning a unit](/docs/teacher/classes/pin)
-[Adding teachers to a class](/docs/teacher/classes/addteachers)
-[Change student passwords](/docs/teacher/classes/changepassword)
-[Remove a student from a class](/docs/teacher/classes/removestudent)
-[Deleting a class](/docs/teacher/classes/delete)
+1. Sign in to Codio at www.codio.com 
+
+1. You will automatically arrive at the **My Classroom** screen. If you are not at the **My Classroom** screen, click the Codio icon in the top left of the screen you are on to take you back to the **My Classroom** screen.
+<img alt="authtoken" src="/img/docs/manage_classes/create_class/codio_icon.png" class="simple"/>
+
+1. Click the **blue plus** sign at the top left of the page.
+<img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
+
+1. Complete the details requested, then click **Create Class**.
+<img alt="authtoken" src="/img/docs/manage_classes/create_class/create_new_class.png" class="simple"/>
+
+1. Your new class will appear in your **My Classroom** area.

@@ -139,3 +139,5 @@ configure :build do
 
   set :asset_host, ENV["M_ASSET_HOST"] || "https://codio.com"
 end
+
+activate :sprockets

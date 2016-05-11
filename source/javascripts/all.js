@@ -1,4 +1,5 @@
 //= require jquery
+//= require bootstrap-sprockets
 //= require cookie-monster
 //= require blueimp-md5
 //= require jquery-ui/ui/core.js

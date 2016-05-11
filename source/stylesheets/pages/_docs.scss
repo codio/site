@@ -400,52 +400,36 @@ body.docs .crumbs {
   }
 }
 
-/* Icon when the collapsible content is shown */
-/*body.docs .btn:after {
-  font-family: "Glyphicons Halflings";
-  content: "\e114";
-  //float: right;
-  margin-left: -6px;
-}
-
-/* Icon when the collapsible content is hidden */
-/*.btn.collapsed:after {
-  content: "\e080";
-}*/
-
-body.docs .btn {
-  background: #FFF;
-  //font-size: 1rem;
-}
-
-body.docs .btn:focus, .btn:active:focus, .btn.active:focus, .btn.active {
-  outline: 0 none;
-  background: #FFF;
-  border-color: #FFF;
-  box-shadow: none;
-}
-
-body.docs .btn.collapsed:before {
-  content: '+';
-  display: block;
-}
-
-body.docs .btn:before {
-  content: '-';
-  display: block;
-}
-
 body.docs .link-collapse {
   margin-left: 10px;
   vertical-align: middle;
-  font-size: 1.1rem;
-  font-weight: 300;
+  font-family: "Glyphicons Halflings";
+  font-size: 0.9rem;
+  font-weight: 100;
 }
 
 body.docs .link-collapse.collapsed:before {
-  content: '+';
+  content: "\e080";
 }
 
 body.docs .link-collapse:before {
-  content: '-';
+  content: "\e114";
+}
+
+body.docs .bullet-collapse {
+  li.item-collapse {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 1.75rem;
+  }
+}
+
+body.docs ul.items-list {
+  padding-left: 20px;
+  margin-bottom: $base-line-height;
+
+  li {
+    margin-left: 1.75rem;
+    list-style: disc outside none;
+  }
 }

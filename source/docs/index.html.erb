@@ -71,25 +71,27 @@ layout: layout
             <ul id="boxes" class="collapse items-list">
               <li><a href="/docs/ide/boxes/overview">Overview</a></li>
               <li><a href="/docs/ide/boxes/terminal">Terminal Window</a></li>
-              <li><a href="/docs/ide/boxes/installsw">Software Packages</a>
-<!--            <ul class='review'>
+          <li class="item-collapse">
+            <a class="link-collapse collapsed" data-toggle="collapse" href="#installsw"></a>    
+            <a href="/docs/ide/boxes/installsw">Software Packages</a>
+            <ul id="installsw" class="collapse items-list">    
               <li><a href="/docs/ide/boxes/installsw/default-installed">Preinstalled software packages</a></li>
               <li><a href="/docs/ide/boxes/installsw/file-locations">File &amp; software Locations</a></li>
               <li><a href="/docs/ide/boxes/installsw/box-parts">Installing software packages</a></li>
               <li><a href="/docs/ide/boxes/installsw/parts-coding">Coding installable packages</a></li>
               <li><a href="/docs/ide/boxes/installsw/request-language">Requesting New Packages</li>
             </ul>
--->
-              </li>
+            </li>
               <li><a href="/docs/ide/boxes/always-on">Always-On Boxes</a></li>
-              <li><a href="/docs/ide/boxes/access">SSH &amp; Code Access</a>
-<!--            <ul class='review'>
+            <li class="item-collapse">
+            <a class="link-collapse collapsed" data-toggle="collapse" href="#access"></a> 
+            <a href="/docs/ide/boxes/access">SSH &amp; Code Access</a>
+            <ul id="access" class="collapse items-list"> 
               <li><a href="/docs/ide/boxes/access/sshkeys">Codio Box SSH Keys</a></li>
               <li><a href="/docs/ide/boxes/access/ext-access">Accessing Boxes &amp; Ports</a></li>
               <li><a href="/docs/ide/boxes/access/ssh-access">SSH into your Box</a></li>
             </ul>
--->
-              </li>
+           </li>
               <li><a href="/docs/ide/boxes/granting-access">IDE Access Permissions</a></li>
               <li><a href="/docs/ide/boxes/startup">Auto Starting Services</a></li>
               <li><a href="/docs/ide/boxes/restart-reset">Restart &amp; Reset</a></li>
@@ -108,25 +110,29 @@ layout: layout
             <a class="link-collapse collapsed" data-toggle="collapse" href="#code_edit"></a>
             <a href="/docs/ide/editing">Code Editing</a>
             <ul id="code_edit" class="collapse items-list">
-              <li><a href="/docs/ide/editing/emmet">Productivity, Emmet, Zen Coding</a>
-<!--            <ul class="review">
+            <li class="item-collapse">
+            <a class="link-collapse collapsed" data-toggle="collapse" href="#emmet"></a>   
+            <a href="/docs/ide/editing/emmet">Productivity, Emmet, Zen Coding</a>
+            <ul id="emmet" class="collapse items-list"> 
               <li><a href="/docs/ide/editing/emmet/emmet-docs">Emmet Docs</a></li>
               <li><a href="/docs/ide/editing/emmet/emmet-abbreviations">Abbreviations</a></li>
               <li><a href="/docs/ide/editing/emmet/emmet-actions">Special Keyboard Actions</a></li>
               <li><a href="/docs/ide/editing/emmet/emmet-ref">Complete Reference</a></li>
             </ul>
--->              </li>
-              <li><a href="/docs/ide/editing/git">Git, Mercurial &amp; SVN</a>
-<!--            <ul class="review">
-              <li><a href="/docs/ide/editing/git/no-remote">Using Git without remote repos</a></li>
-              <li><a href="/docs/ide/editing/git/git-viewing">Viewing GitHub Repos</a></li>
-              <li><a href="/docs/ide/editing/git/resources">Resources</a></li>
-              <li><a href="/docs/ide/editing/git/github-keys">SSH keys</a></li>
-              <li><a href="/docs/ide/editing/git/git-primer">Very basic Git tutorial</a></li>
-              <li><a href="/docs/ide/editing/git/remotes">GitHub &amp; other remotes</a></li>
-              <li><a href="/docs/ide/editing/git/active-branch">Active branch</a></li>
-            </ul>
--->              </li>
+             </li>
+              <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#git"></a> 
+              <a href="/docs/ide/editing/git">Git, Mercurial &amp; SVN</a>
+              <ul id="git" class="collapse items-list">   
+                <li><a href="/docs/ide/editing/git/no-remote">Using Git without remote repos</a></li>
+                <li><a href="/docs/ide/editing/git/git-viewing">Viewing GitHub Repos</a></li>
+                <li><a href="/docs/ide/editing/git/resources">Resources</a></li>
+                <li><a href="/docs/ide/editing/git/github-keys">SSH keys</a></li>
+                <li><a href="/docs/ide/editing/git/git-primer">Very basic Git tutorial</a></li>
+                <li><a href="/docs/ide/editing/git/remotes">GitHub &amp; other remotes</a></li>
+                <li><a href="/docs/ide/editing/git/active-branch">Active branch</a></li>
+              </ul>
+             </li>
               <li><a href="/docs/ide/editing/kb-shortcuts">Keyboard Shortcuts</a></li>
               <li><a href="/docs/ide/editing/multicursor">Multiple cursors</a></li>
               <li><a href="/docs/ide/editing/search-replace">Search and replace</a></li>
@@ -139,37 +145,43 @@ layout: layout
             <a class="link-collapse collapsed" data-toggle="collapse" href="#ide_tools"></a>
             <a href="/docs/ide/tools">IDE Tools</a>
             <ul id="ide_tools" class="collapse items-list">
-              <li><a href="/docs/ide/tools/deployment">Deployment</a>
-<!--            <ul class='review'>
-              <li><a href="/docs/ide/tools/deployment/create">Create/manage a target</a></li>
-              <li><a href="/docs/ide/tools/deployment/basepath">Base path field</a></li>
-              <li><a href="/docs/ide/tools/deployment/deployment-keys">Public keys for remote servers</a></li>
-              <li><a href="/docs/ide/tools/deployment/deployment-ssh-keys">Terminal access to remotes</a></li>
-              <li><a href="/docs/ide/tools/deployment/deploy">Deploying to a Target</a></li>
-              <li><a href="/docs/ide/tools/deployment/type-rsync">Rsync target type</a></li>
-              <li><a href="/docs/ide/tools/deployment/type-ftp">FTP target type</a></li>
-              <li><a href="/docs/ide/tools/deployment/type-sftp">SFTP target type</a></li>
-              <li><a href="/docs/ide/tools/deployment/type-nj">Nodejitsu target type</a></li>
-              <li><a href="/docs/ide/tools/deployment/type-parse">Parse target type)remove)</a></li>
-              <li><a href="/docs/ide/tools/deployment/type-git">Git target type</a></li>
-              <li><a href="/docs/ide/tools/deployment/history">Deployment History</a></li>
-              <li><a href="/docs/ide/tools/deployment/specific-files">Deploying specific files &amp; folders</a></li>
-            </ul>
--->              </li>
+              <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#deployment"></a> 
+              <a href="/docs/ide/tools/deployment">Deployment</a>
+              <ul id="deployment" class="collapse items-list">    
+                <li><a href="/docs/ide/tools/deployment/create">Create/manage a target</a></li>
+                <li><a href="/docs/ide/tools/deployment/basepath">Base path field</a></li>
+                <li><a href="/docs/ide/tools/deployment/deployment-keys">Public keys for remote servers</a></li>
+                <li><a href="/docs/ide/tools/deployment/deployment-ssh-keys">Terminal access to remotes</a></li>
+                <li><a href="/docs/ide/tools/deployment/deploy">Deploying to a Target</a></li>
+                <li><a href="/docs/ide/tools/deployment/type-rsync">Rsync target type</a></li>
+                <li><a href="/docs/ide/tools/deployment/type-ftp">FTP target type</a></li>
+                <li><a href="/docs/ide/tools/deployment/type-sftp">SFTP target type</a></li>
+                <li><a href="/docs/ide/tools/deployment/type-nj">Nodejitsu target type</a></li>
+                <li><a href="/docs/ide/tools/deployment/type-parse">Parse target type)remove)</a></li>
+                <li><a href="/docs/ide/tools/deployment/type-git">Git target type</a></li>
+                <li><a href="/docs/ide/tools/deployment/history">Deployment History</a></li>
+                <li><a href="/docs/ide/tools/deployment/specific-files">Deploying specific files &amp; folders</a>              </li>
+              </ul>
+             </li>
               <li><a href="/docs/ide/tools/deployment">Guides</a></li>
-              <li><a href="/docs/ide/tools/phonegap">Phonegap</a>
-<!--            <ul class='review'>
-              <li><a href="/docs/ide/tools/phonegap/authtoken">Authentication</a></li>
-              <li><a href="/docs/ide/tools/phonegap/config">The config.xml file</a></li>
-              <li><a href="/docs/ide/tools/phonegap/build">Build</a></li>
-            </ul>
--->              </li>
-              <li><a href="/docs/ide/tools/ssh">Remote SSH Terminal Access</a>
-<!--            <ul class='review'>
-              <li><a href="/docs/ide/tools/ssh/ssh-manager">SSH Connection Manager</a></li>
-              <li><a href="/docs/ide/tools/ssh/quick-connect">Quick Connect</a></li>
-            </ul>
--->              </li>
+              <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#phonegap"></a> 
+              <a href="/docs/ide/tools/phonegap">Phonegap</a>
+              <ul id="phonegap" class="collapse items-list">  
+                <li><a href="/docs/ide/tools/phonegap/authtoken">Authentication</a></li>
+                <li><a href="/docs/ide/tools/phonegap/config">The config.xml file</a></li>
+                <li><a href="/docs/ide/tools/phonegap/build">Build</a></li>
+              </ul>
+              </li>
+              <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#ssh"></a> 
+              <a href="/docs/ide/tools/ssh">Remote SSH Terminal Access</a>
+              <ul id="ssh" class="collapse items-list">  
+                <li><a href="/docs/ide/tools/ssh/ssh-manager">SSH Connection Manager</a></li>
+                <li><a href="/docs/ide/tools/ssh/quick-connect">Quick Connect</a></li>
+              </ul>
+             </li>
           </li>
         </ul>
       </ul>
@@ -209,19 +221,21 @@ layout: layout
             </li>
         </ul>
         <h3><a href="/docs/content/authoring">Course Authoring</a></h2>
-        <ul>
+        <ul class="bullet-collapse">
           <li><a href="/docs/content/authoring/overview">What is the Codio Guides authoring tool?</a></li>
           <li><a href="/docs/content/authoring/example">Example Java Unit</a></li>
           <li><a href="/docs/content/authoring/strategies">Tips for planning your course</a></li>
           <li><a href="/docs/content/authoring/imvid">How to add media to your online couse</a></li>
-          <li><a href="/docs/content/authoring/assessments">How to create autograded assessments</a>
-<!--         <ul class='review'>
-            <li><a href="/docs/content/authoring/assessments/assessments-code-tests">Code Tests</a></li>
-            <li><a href="/docs/content/authoring/assessments/assessments-mcq">Multiple Choice</a></li>
-            <li><a href="/docs/content/authoring/assessments/assessments-fitb">Fill in the blanks</a></li>
-            <li><a href="/docs/content/authoring/assessments/assessments-manual">Manual Grading</a></li>
-          </ul>
--->            </li>
+          <li class="item-collapse">
+          <a class="link-collapse collapsed" data-toggle="collapse" href="#autoassessments"></a> 
+          <a href="/docs/content/authoring/assessments">How to create autograded assessments</a>
+          <ul id="autoassessments" class="collapse items-list">
+              <li><a href="/docs/content/authoring/assessments/assessments-code-tests">Code Tests</a></li>
+              <li><a href="/docs/content/authoring/assessments/assessments-mcq">Multiple Choice</a></li>
+              <li><a href="/docs/content/authoring/assessments/assessments-fitb">Fill in the blanks</a></li>
+              <li><a href="/docs/content/authoring/assessments/assessments-manual">Manual Grading</a></li>
+         </ul>
+         </li>
           <li><a href="/docs/content/authoring/edit">Edit and markdown</a></li>
           <li><a href="/docs/content/authoring/unit-add">Adding a unit</a></li>
           <li><a href="/docs/content/authoring/refresh">Editing a unit</a></li>
@@ -237,7 +251,6 @@ layout: layout
           <li><a href="/docs/content/authoring/chapter">Chapters</a></li>
           <li><a href="/docs/content/authoring/hide-folder">Hiding folders</a></li>
           <li><a href="/docs/content/authoring/techdetails">Technical details</a></li>
-<!--          <li class="review"><a href="/docs/content/authoring/playmode">Play mode</a></li> -->
          </ul>
          <h3><a href="/docs/content/publish">Course Publishing</a></h2>
         <ul>
@@ -260,11 +273,14 @@ layout: layout
             <li><a href="/docs/teacher/assess/grading">Grading Students work</a></li>
           </ul>
             </li>
-          <li><a href="/docs/teacher/plag">Plagiarism Checker</a>
+          <li class="item-collapse">
+          <a class="link-collapse collapsed" data-toggle="collapse" href="#plag"></a> 
+          <a href="/docs/teacher/plag">Plagiarism Checker</a>
+           <ul id="plag" class="collapse items-list"> 
           <ul>
-<!--            <li class='review'><a href="/docs/teacher/plag/plag-ref">Plagiarism reference</a></li> -->
+           <li><a href="/docs/teacher/plag/plag-ref">Plagiarism reference</a></li>
           </ul>
-            </li>
+             </li>
          </ul>
       </div>
       <div class="section-block">
@@ -331,7 +347,6 @@ layout: layout
           <li><a href="/docs/student/dyslexia">Dyslexia support</a></li>
           <li><a href="/docs/student/password">Forgotten passwords</a></li>
           <li><a href="/docs/content/authoring/playmode">Play mode</a></li>
-<!--          <li class='review'><a href="/docs/student/guides">Restore current files</a></li> -->
          </ul>
         </div>
     </div>

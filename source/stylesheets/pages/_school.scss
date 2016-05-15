@@ -42,7 +42,7 @@ body.school .grey {
 
     @include breakpoint($break-tablet) {
       display: block;
-      width: span(14 of 16);
+      width: span(10 of 16);
       max-width: 855px;
       margin: -1.2rem span(1 of 16);
     }
@@ -321,18 +321,85 @@ body.school .header-block {
 
   .carousel-control.left {
     background-image: none;
+    width: 5%;
   }
 
   .carousel-control.right {
     left: auto;
     right: 0;
     background-image: none;
+    width: 5%;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: 1px solid #00f;
+    border-radius: 50%;
+    background-color: #fff;
+    //box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+  }
+  
+  .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    border: none;
+    background-color: #fa9915;
+  }
+
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    //width: 25px;
+    //height: 35px;
+    font-size: 25px;
+    color: #000;
+  }
+
+  .logos-container {
+    @include container;
+    width: span(8 of 10);
+
+    margin-top: 2 * $base-line-height;
+    margin-bottom: 2 * $base-line-height;
+    vertical-align: middle;
+
+    .logo-img {
+      display: inline-block;
+      position: relative;
+
+      width: 18%;
+      height: 100px;
+      margin-left: 7%;
+
+      padding: 1px;
+      //margin-bottom: 2rem;
+      //border: 2px solid #021a40;
+      
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+    }
   }
 
   .bubble-container {
     @include container;
     @include break;
-    width: 100%;
+    width: 90%;
     text-align: center;
     vertical-align: middle;
   }

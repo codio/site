@@ -343,186 +343,70 @@ fixed: true
        data-wow-delay=".5s">
     <h2>Proudly supporting schools and non-profits</h2>
 
-
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="logosCarousel" class="carousel slide logos-carousel" data-ride="carousel">
         <!-- Indicators -->      
-        <!--<ol class="carousel-indicators"> data-ride="carousel"
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>-->
+        <ol class="carousel-indicators">
+          <li data-target="#logosCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#logosCarousel" data-slide-to="1"></li>
+          <li data-target="#logosCarousel" data-slide-to="2"></li>
+        </ol>
 
-        <!-- Wrapper for slides
+        <!-- Wrapper for slides-->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <div class="bubble-container">
-              <div class="section quote">
-                <div class="section-block bubble">
-                  <div class="left-quote">
-                    &ldquo;
-                  </div>
-                  <div class="section-block-copy vertical">
-                    I would definitely recommend Codio for teachers. A lot of work has gone into making it easy to use.
-                  </div>
-                  <div class="right-quote">
-                    &rdquo;
-                  </div>
-                </div>
-                <div class="teacher">
-                  <div class="profile">
-                    <%= inline_svg "assets/features/quotes/man-young-white.svg", class: "" %>
-                  </div>
-                  <div class="copy">
-                    <h4>Ben Garside</h4>
-                    <p>
-                      Teacher of Computing, Durham<br />
-                      Johnston School<br />
-                      .
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="logos-container">
+              <div class="logo-img"><%= image_tag 'assets/school/logos/AcademyOfHolyAngels.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/agslogo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/aka_hyderabad_logo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/Ashdonlogo.png', class: "img-responsive" %></div>
+            </div>
+            <div class="logos-container">
+              <div class="logo-img"><%= image_tag 'assets/school/logos/bishopjustuslogo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/CaistorGrammarSchool.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/ChellastonLogo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/CodedbyKidslogo-v4.png', class: "img-responsive" %></div>
             </div>
           </div>
-
           <div class="item">
-            <div class="bubble-container">
-              <div class="section quote">
-                <div class="section-block bubble">
-                  <div class="left-quote">
-                    &ldquo;
-                  </div>
-                  <div class="section-block-copy vertical">
-                    A fantastic resource which removes all barriers to coding within a Classroom environment.
-                  </div>
-                  <div class="right-quote">
-                    &rdquo;
-                  </div>
-                </div>
-                <div class="teacher">
-                  <div class="profile">
-                    <%= inline_svg "assets/features/quotes/man-young-white.svg", class: "" %>
-                  </div>
-                  <div class="copy">
-                    <h4>Karl Douglass</h4>
-                    <p>
-                      Subject Leader ICT and <br />
-                      Computing Teacher <br />
-                      of Computing, Durham
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="logos-container">
+              <div class="logo-img"><%= image_tag 'assets/school/logos/EWLogo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/GlynnSchoollogo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/ISSNorway.jpg', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/KingEcgbertSchool.png', class: "img-responsive" %></div>
+            </div>
+            <div class="logos-container">
+              <div class="logo-img"><%= image_tag 'assets/school/logos/Kingwoodschoollogo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/LondonOratory_logo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/NortonCollege.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/NYCacademylogo.png', class: "img-responsive" %></div>
             </div>
           </div>
-
           <div class="item">
-            <div class="bubble-container">
-              <div class="section quote">
-                <div class="section-block bubble">
-                  <div class="left-quote">
-                    &ldquo;
-                  </div>
-                  <div class="section-block-copy vertical">
-                    I’m really very excited by what Codio has developed. Teaching computing and
-                    ICT has been looking for something like this for a while!
-                  </div>
-                  <div class="right-quote">
-                    &rdquo;
-                  </div>
-                </div>
-                <div class="teacher">
-                  <div class="profile">
-                    <%= inline_svg "assets/features/quotes/man-young-white.svg", class: "" %>
-                  </div>
-                  <div class="copy">
-                    <h4>Vaughan Connolly</h4>
-                    <p>
-                      Head of Computing <br />
-                      Haberdashers’ Aske’s Boys’ <br />
-                      School, Elstree, UK
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="logos-container">
+              <div class="logo-img"><%= image_tag 'assets/school/logos/PudseyGrangefieldSchool.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/SeafordCollege.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/StHelenaSchool.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/TheUrbanAssembly.png', class: "img-responsive" %></div>
             </div>
-          </div>
-
-          <div class="item">
-            <div class="bubble-container">
-              <div class="section quote">
-                <div class="section-block bubble">
-                  <div class="left-quote">
-                    &ldquo;
-                  </div>
-                  <div class="section-block-copy vertical">
-                    Loving Linux at last! “Eureka! I think I have finally found a way to teach
-                    [this/<insert coursework task reference>] coursework task
-                  </div>
-                  <div class="right-quote">
-                    &rdquo;
-                  </div>
-                </div>
-                <div class="teacher">
-                  <div class="profile">
-                    <%= inline_svg "assets/features/quotes/man-young-white.svg", class: "" %>
-                  </div>
-                  <div class="copy">
-                    <h4>John Richards</h4>
-                    <p>
-                      Head of Computing and IT <br />
-                      Holsworthy Community College, <br />
-                      Devon, UK
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="bubble-container">
-              <div class="section quote">
-                <div class="section-block bubble">
-                  <div class="left-quote">
-                    &ldquo;
-                  </div>
-                  <div class="section-block-copy vertical">
-                    Coding in the cloud is great because it enables young people to take
-                    the work they learn in school and continue it at home or anywhere around the world
-                  </div>
-                  <div class="right-quote">
-                    &rdquo;
-                  </div>
-                </div>
-                <div class="teacher">
-                  <div class="profile">
-                    <%= inline_svg "assets/features/quotes/man-young-white.svg", class: "" %>
-                  </div>
-                  <div class="copy">
-                    <h4>Mark Martin</h4>
-                    <p>
-                      aka Urban Teacher, <br />
-                      Blogger and Computing Teacher <br />
-                      London, UK
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="logos-container">
+              <div class="logo-img"><%= image_tag 'assets/school/logos/westholme-schoollogo.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/WymondhamCollege.png', class: "img-responsive" %></div><!--
+              --><div class="logo-img"><%= image_tag 'assets/school/logos/YoungWomenAstorialogo.png', class: "img-responsive" %></div>
             </div>
           </div>
         </div>
 
-        Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <!--Left and right controls -->
+        <a class="left carousel-control" href="#logosCarouser" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
 
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <a class="right carousel-control" href="#logosCarouser" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
+
   </div>
+</section>

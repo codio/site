@@ -6,33 +6,13 @@ fixed: true
 ---
 
 <section class='header-block'>
-  <a href="http://vimeo.com/141552266" class="video-link">
-    <div class="border-wrapper" title="Play Video">
-      <%= inline_svg "assets/school/triangle.svg", class: "icon white" %>
-    </div>
-  </a>
-
-  <h1 class="animated fadeIn">
-    "I would definitely recommend Codio for teachers. <span><br>A lot of work has gone into making it easy to use.</span>"
-  </h1>
-  <h2>
-    Ben Garside, Teacher of Computing, Durham Johnston School
-  </h2>
-
-  <div class="action-buttons animated fadeInUp">
-    <%= link_to 'Start FREE Trial', '/p/free-education-trial', class: 'button button-large button-main' %>
-    <%= link_to 'Book a Demo', 'https://attendee.gotowebinar.com/rt/4895238343736954625', class: 'button button-large', id: 'school-book-a-demo' %>
-  </div>
-</section>
-<!--
-<section class='header-block'>
   <h1 class="animated fadeIn">Teach Code with Confidence</h1>
   <div class="school-section school-section-content">
     <div class="school-section-block-row">
-      <div class="section-block">
+      <div class="section-block h_iframe">
+        <img class="ratio" src="http://placehold.it/16x9"/>
         <iframe src="https://player.vimeo.com/video/141552266?portrait=0"
-          width="480" height="270" frameborder="0"
-          webkitallowfullscreen mozallowfullscreen allowfullscreen>
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
         </iframe>
       </div>
       <div class="section-block">
@@ -44,7 +24,6 @@ fixed: true
     </div>
   </div>
 </section>
--->
 
 <section class="school-content">
   
@@ -52,7 +31,6 @@ fixed: true
     data-wow-duration="2s"
     data-wow-delay=".5s">
     <h2>Testimonials</h2>
-
     
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -81,7 +59,7 @@ fixed: true
                   <p>
                     Teacher of Computing, Durham<br />
                     Johnston School<br />
-                    .
+                    <%= link_to 'Lean more', 'https://codio.com/blog/durham-johnston-school-codio-at-the-chalkface/', class: 'link' %>
                   </p>
                 </div>
               </div>

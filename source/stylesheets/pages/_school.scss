@@ -151,18 +151,18 @@ body.school .header-block {
   padding: 5rem 1rem 2rem 1rem;
 
   @include breakpoint(max-width $break-tablet) {
-    background: url('/img/assets/school/atf.jpg') no-repeat top center fixed;
+    background: url('/img/assets/school/Schools_page_background_image.png') no-repeat top center fixed;
     //height: 615px;
   }
 
   @include breakpoint($break-tablet) {
-    background: url('/img/assets/school/atf.jpg') no-repeat top center fixed;
+    background: url('/img/assets/school/Schools_page_background_image.png') no-repeat top center fixed;
     background-color: $dark-gray;
     //height: 500px;
   }
 
   @include breakpoint($max-width) {
-    background: url('/img/assets/school/atf-large.jpg') no-repeat top center fixed;
+    background: url('/img/assets/school/Schools_page_background_image.png') no-repeat top center fixed;
     background-color: $dark-gray;
     //height: 500px;
   }

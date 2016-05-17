@@ -32,13 +32,15 @@ layout: layout
     <div class="section-block-row-three">
        <div class="section-block">
           <h3>Account Settings</h2>
-        <ul>
+        <ul class="bullet-collapse">
           <li><a href="/docs/account/cussupport">Customer Support Office Hours</a></li>
           <li><a href="/docs/account/firewall">Firewall and network settings</a></li>
           <li><a href="/docs/account/navigation">Navigating Codio</a></li>
           <li><a href="/docs/account/browser">Browser Support</a></li>
-          <li><a href="/docs/account/password">Password</a>
-          <ul>
+          <li class="item-collapse">
+          <a class="link-collapse collapsed" data-toggle="collapse" href="#passwords"></a> 
+          <a href="/docs/account/password">Password</a>
+          <ul id="passwords" class="collapse items-list">
             <li><a href="/docs/teacher/classes/changepassword">Resetting student passwords</a></li>
           <li><a href="/docs/account/password/forgotpassword">Forgot your password?</a></li>
           </ul>
@@ -47,10 +49,13 @@ layout: layout
           <li><a href="/docs/account/github">GitHub</a></li>
           <li><a href="/docs/account/bitbucket">BitBucket</a></li>
           <li><a href="/docs/account/delete">Delete your account</a></li>
-          <li><a href="/docs/account/billing">Billing</a>
-          <ul>
+          <li class="item-collapse">
+          <a class="link-collapse collapsed" data-toggle="collapse" href="#billing"></a> 
+          <a href="/docs/account/billing">Billing</a>
+          <ul id="billing" class="collapse items-list">
             <li><a href="/docs/account/billing">Organisations Billing</a></li>
             <li><a href="/docs/account/billing">Individual Billing</a></li>
+            </ul>
           </li>
           
         </ul>

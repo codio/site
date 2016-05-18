@@ -12,7 +12,7 @@ Codio is best experienced on the very latest browsers, in particular Chrome, but
 - **Opera** - 15 or later
 
 
-If you are experiencing any issue where Codio will not run and the above list says it should, then either Tweet [@CodioHQ](https://twitter.com/codiohq) or send an email to help@codio.com.
+If you are experiencing any issue where Codio will not run and the above list says it should, please send an email to help@codio.com.
 
 <a name="ie-compatibility"></a>
 ## Disable IE Compatibility View

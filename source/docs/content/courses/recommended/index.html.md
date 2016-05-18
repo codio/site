@@ -4,10 +4,26 @@ class_name: docs
 full_width: true
 ---
 
-Codio’s extensive curriculum content has been designed with students and teachers in mind. Our courses are suitable for all age ranges, and will allow your learners to progress at a pace appropriate to their individual needs. As a school user of Codio, you and your students get access to all of our curriculum content for as long as your subscription lasts.
+### For students ages 11-14
+- Computational Thinking - create a maze game
+- An introduction to programming -  ‘Flode’, an interactive flowcharting tool
+- An introduction to programming -  learn to code with Python, JavaScript or Java
+- Crunch - a modern alternative to Little Man Computer
 
-It is up to individual teachers how they feel the content is best used, be it to deliver the curriculum, support the teaching of new concepts, for exam revision purposes, or as a home study tool. Below is quick run-down of our content broadly categorised into appropriate age ranges. You will notice there is some overlap - depending on individual situations and previous experience much of our content can be widely used.
+### For students ages 14-16
+- An introduction to programming -  ‘Flode’, an interactive flowcharting tool
+- An introduction to programming -  learn to code with Python, JavaScript or Java
+- An introduction to web development -  HTML, CSS and JavaScript
+- Crunch - a modern alternative to Little Man Computer
+- MySQL - learn to store and access persistent data
+- Linux command line interface - the command line using Linux
+- OCR GCSE Computing Theory -  computer science theory for 14 to 16 year olds
 
-To view all Codio’s curriculum content - click **Courses** (left-hand navigation panel), and then **Recommended** (top)
 
-<img alt="authtoken" src="/img/docs/curriculum_mapped_content/courses.png" class="simple"/>
+### For students ages 16-18
+- An introduction to programming -  ‘Flode’, an interactive flowcharting tool
+- An introduction to programming -  learn to code with Python, JavaScript or Java
+- An introduction to web development -  HTML, CSS and JavaScript
+- Crunch - a modern alternative to Little Man Computer
+- MySQL - learn to store and access persistent data
+- Linux command line interface - the command line using Linux

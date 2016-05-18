@@ -1,5 +1,5 @@
 ---
-title: "Sharing & Embedding"
+title: "Sharing and Embedding"
 class_name: docs
 full_width: true
 ---

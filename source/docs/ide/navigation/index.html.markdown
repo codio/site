@@ -4,7 +4,10 @@ class_name: docs
 full_width: true
 ---
 
-This chapter explains the basic IDE features. Be sure to read other chapters for more advanced features. [Click here](/docs/ide/navigation/exiting/) to start reading.
-
-![IDE](/img/docs/panel-overview.png)
-
+ 
+ 
+ No special knowledge is needed to use Codio’s IDE. 
+ 
+ It's powerful and used by advanced developers and easy enough for those who are learning to code, and starts as soon as you open a project.
+ 
+ Because it’s web-based, there’s nothing to download, install or update.

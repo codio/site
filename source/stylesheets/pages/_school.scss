@@ -19,36 +19,20 @@ body.school .grey {
   .school-img {
     @include container;
     @include break;
-    //@include span(4);
-    //padding-top: 1 * $base-line-height;
-
-    @include breakpoint($break-tablet) {
-      @include container(14 of 16);
-      width: span(14 of 16);
-      margin: 0 span(1 of 16);
-      max-width: $max-width;
-    }
-
-    @include breakpoint($max-width) {
-      margin-left: auto;
-      margin-right: auto;
-    }
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .school-section-content-img {
     @include container(4 of 4);
+    text-align: center;
 
-    margin: -1.2rem 0;
+    margin: -1.2rem auto;
 
     @include breakpoint($break-tablet) {
       display: block;
       width: span(10 of 16);
       max-width: 855px;
-      margin: -1.2rem span(1 of 16);
-    }
-
-    @include breakpoint($max-width) {
-      margin: -1.2rem auto;
     }
   }
 }
@@ -148,7 +132,7 @@ body.school .header-block {
   //max-height: 1000px;
   color: white;
   position: relative;
-  padding: 5rem 1rem 2rem 1rem;
+  padding: 5rem 1rem 0 1rem;
 
   @include breakpoint(max-width $break-tablet) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
@@ -169,14 +153,14 @@ body.school .header-block {
 
   h1 {
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     animation-delay: .4s;
     margin-top: $base-line-height;
     margin-bottom: 2 * $base-line-height;
 
     @include breakpoint($break-tablet) {
-      font-size: 32px;
+      font-size: 42px;
     }
 
     span {
@@ -257,14 +241,18 @@ body.school .header-block {
     @include container;
     @include break;
 
-    width: span(11 of 16);
+    width: span(14 of 16);
+
+    @include breakpoint($break-tablet) {
+      width: span(13 of 16);
+    }
+
+    @include breakpoint($max-width) {
+      width: span(11 of 16);
+    }
     
     .section-block {
-      margin-bottom: 3rem;
-
-      @include breakpoint($break-tablet) {
-        width: span(13 of 32);
-      }
+      margin-bottom: 1.5rem;
     }
   }
 
@@ -272,20 +260,25 @@ body.school .header-block {
     @include container;
     @include breakpoint($break-tablet) {
       float: left;
+      width: span(12 of 32);
     }
 
+    width: span(14 of 16);
+
     &:first-of-type {
-      width: 55%;
+      width: 100%;
       @include breakpoint($break-tablet) {
         margin-left: span(1 of 32);
         margin-right: span(2 of 32);
+        width: 55%;
       }
     }
 
     &:last-of-type {
-      width: 32%;
+      width: 100%;
       @include breakpoint($break-tablet) {
         margin-right: span(1 of 32);
+        width: 32%;
       }
     }
   }
@@ -296,7 +289,8 @@ body.school .header-block {
     .ratio {
       display: block;
       width: 100%;
-      //max-width: 630px;
+      background: $dark-gray;
+      opacity: 0;
       height: auto;
     }
     iframe {
@@ -315,7 +309,7 @@ body.school .header-block {
   @include container;
   @include break;
   @include span(4);
-  padding-top: 1 * $base-line-height;
+  padding-top: 1rem;
 
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
@@ -594,6 +588,12 @@ body.school .header-block {
         padding-top: 8px;
         text-align: center;
         align-items: center;
+        margin-left: 10px;
+      }
+
+      .profile-img {
+        padding-top: 8px;
+        text-align: center;
         margin-left: 10px;
       }
 

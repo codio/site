@@ -1,10 +1,10 @@
 ---
-title: Course Summary
+title: Course summary
 class_name: docs
 full_width: true
 ---
 
-## Course summary
+
 Codio's teaching materials take a rigorous approach to teaching coding. As well as extensive tutorial content, you will also find a large number of challenge assessments.
 
 Both content and assessments have been carefully built to gradually increase the difficulty level, ensuring that knowledge and confidence are built up one step at a time. This approach is important to avoid demotivating students.

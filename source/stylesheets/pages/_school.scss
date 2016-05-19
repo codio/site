@@ -132,7 +132,7 @@ body.school .header-block {
   //max-height: 1000px;
   color: white;
   position: relative;
-  padding: 5rem 1rem 0 1rem;
+  padding: 8rem 1rem 0 1rem;
 
   @include breakpoint(max-width $break-tablet) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
@@ -374,10 +374,22 @@ body.school .header-block {
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
-    //width: 25px;
-    //height: 35px;
     font-size: 25px;
     color: #00f;
+  }
+
+  .carousel-control .glyphicon-chevron-left:before {
+    content: "\276E";
+    display:block;
+    width:30px;
+    height:30px;
+  }
+
+  .carousel-control .glyphicon-chevron-right:before {
+    content: "\276F";
+    display:block;
+    width:30px;
+    height:30px;
   }
 
   .logos-container {
@@ -602,6 +614,10 @@ body.school .header-block {
 
   .school-section.confidence {
     padding: 0;
+
+    h2 {
+      padding-bottom: 0;  
+    }
   }
 
   .school-section-left {

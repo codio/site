@@ -1,11 +1,11 @@
 ---
-title: Adding Students - Invite
+title: Adding Students - Invite by Token
 class_name: docs
 full_width: true
 ---
 
 
-You can add students to your classes.  To do this follow the steps below: 
+You can add students to your organisation and your class in one easy step by giving each student a unique two-word phrase called a token.  A student will create a Codio account, enter the token and will automatically be added to the your organisation and the correct class.  To do this follow the steps below: 
 
 1. From the **My Classroom** area, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>

@@ -1,16 +1,8 @@
 <% wrap_layout :'layout' do %>
 
-  <div class="page-header-block">
-    <div class="search-container">
-      <form id="search-input">
-        <input type="text" placeholder="Search for a specific question or topic ..." id="st-search-input" class="st-search-input" />
-      </form>
-    </div>
-  </div>
-  <div style="clear: both;">
-  </div>
-
   <div class="docs-content">
+
+    <%= partial "docs/actions" %>
 
     <div class="crumbs">
       <%- crumbs = nav_pages(current_resource.url) -%>
@@ -42,9 +34,9 @@
     <%= partial 'docs-side-navigation' %>
 
     <article data-swiftype-name="body" data-swiftype-type="text" class="docs-body">
-      <h1 data-swiftype-name="title" data-swiftype-type="string">
+      <h2 data-swiftype-name="title" data-swiftype-type="string">
         <%= current_resource.data.title %>
-      </h1>
+      </h2>
       <%= yield %>
     </article>
 

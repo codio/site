@@ -8,6 +8,6 @@ full_width: true
  
  No special knowledge is needed to use Codio’s IDE. 
  
- It's powerful and used by advanced developers and easy enough for those who are learning to code, and starts as soon as you open a project.
+ It's powerful and used by advanced developers.  But, it's easy enough for beginners who are learning to code. 
  
  Because it’s web-based, there’s nothing to download, install or update.

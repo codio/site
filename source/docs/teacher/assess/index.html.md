@@ -1,5 +1,5 @@
 ---
-title: View student progress & time spent
+title: View student progress
 class_name: docs
 full_width: true
 ---

@@ -367,7 +367,6 @@ body.docs .section.buttons .section-block-row-three {
       border-top: 1px solid #a8b2c4;
       border-right: 1px solid #a8b2c4;
       border-bottom: 1px solid black;
-      padding: 0.5rem 0;
 
       &:first-of-type {
         margin-left: span(6 of 50);
@@ -377,6 +376,11 @@ body.docs .section.buttons .section-block-row-three {
       &:last-of-type {
         margin-left: span(1 of 50);
       }
+    }
+
+    a {
+      display: block;
+      padding: 0.5rem 0;
     }
   }
 

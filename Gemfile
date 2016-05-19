@@ -46,3 +46,6 @@ gem "middleman-bower", "~> 1.0.2"
 gem "compass"
 gem "susy"
 gem "breakpoint"
+
+gem "bootstrap-sass", "~> 3.3.5", :require => false
+gem "jquery-middleman"

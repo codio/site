@@ -17,6 +17,10 @@ Each content author can choose to weave assessments into the tutorial materials 
 
 Authoring assessments is easily done using the Guides editor.
 
+## Example Project
+https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs//project/creating/) for more information on importing.
+
+
 ## Adding a new assessment
 To add a new assessment, you should first position the cursor in your content where you want it to appear. Then, from the assessments drop-down, select the type of assessment you wish to insert.
 

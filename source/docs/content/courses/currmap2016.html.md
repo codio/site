@@ -3,7 +3,6 @@ title: Curriculum Map for the OCR GSCE (J276)
 class_name: docs
 full_width: true
 ---
-## Curriculum Map for the OCR GCSE (9-1) Computer Science Draft Specification (J276 Version 1)
 
 Please view our [Curriculum Map](https://docs.google.com/a/codio.com/spreadsheets/d/12yqcyCNh4Tt2gtXt8RR0Qt1viWytIcjdAgWUZnGEEUs/edit?usp=sharing) for the OCR GCSE (9-1) Computer Science Draft Specification (J276 Version 1).
 

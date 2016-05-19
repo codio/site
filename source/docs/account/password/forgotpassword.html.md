@@ -4,7 +4,9 @@ title: "Forgot your password"
 ---
 
 
-If you have forgotten your password, you should use the **lost password** link on the log-in page to reset their password automatically via email. If you do not have access to the email address you used in creating your Codio account and are a member of a School Organisation contact your teachers who can reset the password for you. See [Change Students Passwords](/docs/teacher/classes/changepassword)
+If you have forgotten your password, you should use the **lost password** link on the log-in page to reset your password automatically via email. 
+
+**For School and University students only: If you do not have access to the email address you used in creating your Codio account and you are a student, please contact your teacher. He or she will be able to reset your password for you.
 
 If you wish to change your password (you should also do this if you forgot your password and it was reset) follow these steps:
 

@@ -1,5 +1,5 @@
 ---
-title: Plagiarism reference
+title: Interpreting results
 class_name: docs
 full_width: true
 ---

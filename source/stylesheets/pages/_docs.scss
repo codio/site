@@ -398,6 +398,7 @@ body.docs .review {
 
 body.docs .crumbs {
   margin: 0 gutter();
+  font-size: 90%;
 
   @include breakpoint($max-width) {
     margin: 0 0 2rem 0;

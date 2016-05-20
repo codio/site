@@ -10,6 +10,30 @@ $(() => {
     'min-height': $menu.outerHeight(true)
   })
 
+  setTimeout(() => {
+    const $menu = $('.docs-side-navigation')
+    const $footer = $('footer')
+    const $header = $('header.fixed')
+
+    if ($menu.length === 0) return
+
+    $menu.affix({
+      offset: {
+        top: function () {
+          const c = $menu.offset().top
+          const h = $header.height()
+          this.top = c - h
+
+          return this.top
+        },
+        bottom: function () {
+          this.bottom = $footer.outerHeight(true) + 100
+          return this.bottom
+        }
+      }
+    })
+  }, 100)
+
   // Set a min-height so the full menu is visible
   $docsBody.css({
     'min-height': $menu.outerHeight(true)

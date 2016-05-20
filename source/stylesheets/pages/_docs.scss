@@ -324,7 +324,7 @@ body.docs .section-block-row-three {
     ul {
       list-style: inherit;
       a:hover {
-        color: #00F;
+        color: $light-blue;
       }
     }
 
@@ -408,7 +408,8 @@ body.docs .link-collapse {
   margin-left: 12px;
   margin-right: 6px;
   //font-family: "Glyphicons Halflings";
-  font-size: 1rem;
+  font-size: 1.25rem;
+  color: $light-blue;
 }
 
 body.docs .link-collapse.collapsed:before {

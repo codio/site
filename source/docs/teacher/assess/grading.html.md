@@ -8,8 +8,8 @@ Codio's grading features address four important aspects of student grading.
 
 - **Assign grade** - manually reviewing student code projects and then assigning a grade.
 - **Grading moderation** - having other lecturers review grades already assigned in order to monitor consistency of grading.
-- **Grading rubric** - coming in early June 2016, this provides a grading guideline framework for teachers. Anyone assigning a grade will be shown the grading rubric, a two dimensional matrix with integrated grade calculation. For novice teachers this is a helpful way of ensuring accurate grading. This also helps ensure a consistency of grading in larger departments several different people are assessing coding assignment within a class of students.
-- **LMS gradebook sycnhronization** - coming in late May 2016, this feature ensures that when teachers release grades, the data is passed automatically to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
+- **Grading rubric** - Coming Soon. This provides a grading guideline framework for teachers. Anyone assigning a grade will be shown the grading rubric, a two dimensional matrix with integrated grade calculation. For novice teachers this is a helpful way of ensuring accurate grading. This also helps ensure a consistency of grading in larger departments several different people are assessing coding assignment within a class of students.
+- **LMS gradebook sycnhronization** - This feature ensures that when teachers release grades, the data is passed automatically to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
 
 ### Video overview
 [Click here](https://vimeo.com/165275339) if you'd like to watch a quick video overview.

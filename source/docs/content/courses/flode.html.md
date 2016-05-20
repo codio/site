@@ -5,7 +5,7 @@ class_name: docs
 full_width: true
 ---
 
-Flode is a flowcharting tool with a major difference. Here are the headline features
+Flode is a course that create executable flow charts. Flode is a great way to teach computational thinking and introduce students to programming. It can: 
 
 - create beautiful, annotated flow charts
 - write proper code expressions, including decisions, in chart elements
@@ -13,7 +13,7 @@ Flode is a flowcharting tool with a major difference. Here are the headline feat
 - export your charts as images for project write-ups
 - input and output elements so automated tests can auto-grade charts.
 
-Flode is a great way if teaching kids computational thinking and introducing them to programming. Please see the sections below for details on how to access ready made course or how to create your own projects where students can create Flode charts within their own projects.
+Please see the sections below for details on how to access ready made course or how to create your own projects where students can create Flode charts within their own projects.
 
 ## Cheat Sheet
 Here is a quick reference for commonly used actions.
@@ -57,7 +57,7 @@ Zoom controls are in the toolbar or using the mouse wheel if you have one
 </div>
 
 ## Flode teaching content
-Codio offers some excellent teaching content using Flode. The content also contains many auto-marked challenge assessments, the results of which feed straight through to the teacher dashboard. To access this content ...
+The content also contains many auto-graded assessments. Results can be seen instantly on the teacher 'My Classroom' feature.
 
 1. Log into Codio
 1. Select Courses from the items on the left of the Dashboard

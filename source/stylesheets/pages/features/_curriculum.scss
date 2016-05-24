@@ -248,4 +248,192 @@ body.features_curriculum .curriculum-body {
     }
   }
 
+
+
+  .bubble-container {
+    @include container;
+    @include break;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .bubble {
+    @include container;
+    margin-top: span(1 of 12);
+    position: relative;
+    width: span(12 of 12);
+    min-height: 180px;
+    vertical-align: middle;
+    padding: 0px;
+    background: #e1e6f2;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  .bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #e1e6f2 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-left: -15px;
+    bottom: -15px;
+    left: 50%;
+  }
+
+  .vertical {
+    /* Internet Explorer 10 */
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    /* Safari, Opera, and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    /* W3C */
+    display: box;
+    box-pack: center;
+    box-align: center;
+  }
+
+  .bubble-section.quote {
+
+    @include breakpoint($break-tablet) {
+      padding-top: 2rem;
+    }
+
+    .section-header {
+      text-align: center;
+    }
+
+    .section-block {
+      width:100%;
+      margin: 0;
+      color: #999ca2;
+      font-size: 1.3rem;
+      line-height: 2rem;
+      display: flex;
+      padding-left: 1rem;
+      padding-top: 1rem;
+
+      @include breakpoint($break-tablet) {
+        text-align: center;
+        font-size: 1.3rem;
+        line-height: 2rem;
+      }
+
+      .section-block-copy {
+        padding-bottom: 1rem;
+
+        @include breakpoint($break-tablet) {
+          float: left;
+          padding: 0 span(1 of 32);
+          padding-bottom: 1rem;
+          width: span(28 of 32);
+          vertical-align: middle;
+        }
+      }
+
+      .left-quote, .right-quote {
+        display: none;
+
+        @include breakpoint($break-tablet) {
+          width: span(1 of 32);
+          display: block;
+          line-height: 100%;
+          font-size: 4rem;
+          font-weight: 400;
+          color: #000;
+          text-align: center;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .left-quote {
+        @include breakpoint($break-tablet) {
+          float: left;
+        }
+      }
+
+      .right-quote {
+        @include breakpoint($break-tablet) {
+          float: right;
+          text-align: right;
+        }
+      }
+    }
+
+    .teacher {
+
+      .link {
+        text-align: left;
+        font-weight: 400;
+      }
+
+      margin-top: 20px;
+
+      @include breakpoint($break-tablet) {
+        margin: 30px auto;
+        width: 440px;
+        min-height: 150px;
+      }
+
+      .profile {
+        display: block;
+        border-radius:50%;
+        border: 2px solid;
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-right: 25px;
+        margin-top: 10px;
+        padding-right: 10px;
+      }
+
+      .copy {
+        width: 300px;
+        float: left;
+        margin-top: 10px;
+      }
+
+      h4 {
+        text-align: left;
+        margin-top: 0;
+      }
+
+      p {
+        text-align: left;
+      }
+
+      svg {
+        display: inline-block;
+        width: 70px;
+        padding-top: 8px;
+        text-align: center;
+        align-items: center;
+        margin-left: 10px;
+      }
+
+      .profile-img {
+        padding-top: 8px;
+        text-align: center;
+        margin-left: 10px;
+      }
+
+    }
+  }
+
 }

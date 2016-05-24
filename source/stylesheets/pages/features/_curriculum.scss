@@ -121,7 +121,6 @@ body.features_curriculum .curriculum-body {
   }
   .section.showcase {
     padding: 0;
-    //margin: -1.2rem auto;
   }
 
   .grey {
@@ -188,7 +187,6 @@ body.features_curriculum .curriculum-body {
         margin-bottom: 15px;
 
         @include breakpoint($break-tablet) {
-          //margin-right: 30px;
           margin-bottom: 0;
         }
       }
@@ -435,5 +433,4 @@ body.features_curriculum .curriculum-body {
 
     }
   }
-
 }

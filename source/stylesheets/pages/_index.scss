@@ -249,7 +249,7 @@ body.index .header-block {
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
     width: span(14 of 16);
-    margin: 0 auto;//span(1 of 16);
+    margin: 0 auto;
     float: inherit;
     max-width: $max-width;
   }
@@ -354,8 +354,6 @@ body.index .header-block {
     h2 {
       font-size: 24px;
       font-weight: 400;
-      //text-transform: uppercase;
-      //color: $light-gray;
     }
 
     @include breakpoint($break-tablet) {
@@ -460,6 +458,4 @@ body.index .header-block {
     background-color: $dark-gray;
     color: #fff;
   }
-
-
 }

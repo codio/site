@@ -1,3 +1,251 @@
-body.features-curiculum {
-	
+$gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
+
+.clear {
+	clear: both;
+}
+
+body.features_curriculum .header-block {
+  @include span(4);
+  background-size: cover;
+  background-image: $gradient;
+  color: white;
+  position: relative;
+
+  @include breakpoint($break-tablet) {
+    background-image: $gradient;
+    background: url('/img/assets/features/curriculum/curriculum_bg_image.png') no-repeat top center fixed;
+    background-color: #4574e0;
+    background-size: contain;
+  }
+
+  h1 {
+    margin-top: 2.5 * $base-line-height;
+    font-size: 8px;
+    font-weight: 300;
+    text-align: center;
+    animation-delay: .4s;
+
+    @include breakpoint($break-tablet) {
+      margin-top: 3.5 * $base-line-height;
+      font-size: 56px;
+      line-height: 64px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 27px;
+    animation-delay: .8s;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    @include breakpoint($break-tablet) {
+      line-height: 25px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .action-buttons {
+    animation-delay: 1.2s;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    text-align: center;
+
+    .button.button-main {
+      background-color: #f29312;
+      border: 2px solid #f29312;
+    }
+
+    .button:hover {
+      background-color: $lighter-orange;
+      border-color: $lighter-orange;
+    }
+
+    .button.button-demo {
+      background: none;
+      border: 2px solid #FFFFFF;
+    }
+
+    .button.button-demo:hover {
+      color: $dark-gray;
+      border-color: $dark-gray;
+    }
+
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 30px;
+    }
+
+    .button {
+      display: block;
+      padding: 0;
+      width: 100%;
+      line-height: 58px;
+      height: 60px;
+
+      @include breakpoint($break-tablet) {
+        white-space: nowrap;
+        display: inline-block;
+        min-width: 230px;
+        max-width: 250px;
+        display: inline-block;
+        height: auto;
+      }
+
+      &:first-child {
+        margin-bottom: 15px;
+
+        @include breakpoint($break-tablet) {
+          margin-right: 30px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+body.features_curriculum .curriculum-body {
+  .section.top {
+    h1 {
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 26px;
+      line-height: 1.5 * $base-line-height;
+    }
+  }
+  .section.showcase {
+    padding: 0;
+    //margin: -1.2rem auto;
+  }
+
+  .grey {
+    @include span(4);
+
+    .curriculum-img {
+      @include container;
+      @include break;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .curriculum-content-img {
+      @include container(4 of 4);
+      text-align: center;
+
+      margin: -2rem auto;
+
+      @include breakpoint($break-tablet) {
+        display: block;
+        width: span(10 of 16);
+        max-width: 650px;
+      }
+    }
+  }
+
+  .action-buttons {
+    animation-delay: 1.2s;
+    margin: 0px 0;
+    margin-bottom: 40px;
+    text-align: center;
+
+    .button.button-main {
+      background-color: #f29312;
+      border: 2px solid #f29312;
+    }
+
+    .button:hover {
+      background-color: $lighter-orange;
+      border-color: $lighter-orange;
+    }
+
+    @include breakpoint(max-width $break-tablet) {
+      margin-top: 30px;
+    }
+
+    .button {
+      display: block;
+      padding: 0;
+      width: 100%;
+      line-height: 58px;
+      height: 60px;
+
+      @include breakpoint($break-tablet) {
+        white-space: nowrap;
+        display: inline-block;
+        min-width: 230px;
+        max-width: 250px;
+        display: inline-block;
+        height: auto;
+      }
+
+      &:first-child {
+        margin-bottom: 15px;
+
+        @include breakpoint($break-tablet) {
+          //margin-right: 30px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .curriculum-faq {
+    @include container(4 of 4);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+    @include breakpoint($max-width) {
+      max-width: $max-width;
+    }
+  }
+
+  .curriculum-faq-header {
+    text-align: center;
+
+    h2 {
+      font-weight: 300;
+    }
+  }
+
+  .curriculum-faq-col {
+    @include span(4 of 4);
+    margin-top: 3rem;
+
+    @include breakpoint($break-tablet) {
+      @include span(6 of 16);
+    }
+  }
+
+  .curriculum-faq-col-left {
+    @include breakpoint($break-tablet) {
+      margin-left: span(1.5 of 16);
+      margin-right: span(.5 of 16);
+    }
+  }
+
+  .curriculum-faq-col-right {
+    @include breakpoint($break-tablet) {
+      margin-left: span(.5 of 16);
+      margin-right: span(1.5 of 16);
+    }
+  }
+
+  .curriculum-faq-entry {
+    @include container;
+
+    @include breakpoint($break-tablet) {
+
+    }
+
+    a {
+      @include linkUnderlines(white, $base-font-color);
+    }
+  }
+
 }

@@ -95,8 +95,7 @@ body.docs .overview-section {
 
 .docs-content {
   @include container;
-  padding-top: 2 * $base-line-height;
-
+  padding-top: 6 * $base-line-height;
 
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
@@ -324,7 +323,7 @@ body.docs .section-block-row-three {
     ul {
       list-style: inherit;
       a:hover {
-        color: #00F;
+        color: $light-blue;
       }
     }
 
@@ -367,7 +366,6 @@ body.docs .section.buttons .section-block-row-three {
       border-top: 1px solid #a8b2c4;
       border-right: 1px solid #a8b2c4;
       border-bottom: 1px solid black;
-      padding: 0.5rem 0;
 
       &:first-of-type {
         margin-left: span(6 of 50);
@@ -377,6 +375,11 @@ body.docs .section.buttons .section-block-row-three {
       &:last-of-type {
         margin-left: span(1 of 50);
       }
+    }
+
+    a {
+      display: block;
+      padding: 0.5rem 0;
     }
   }
 
@@ -388,12 +391,17 @@ body.docs .section.buttons .section-block-row-three {
   }
 }
 
+body.docs .docs-content .section.buttons .section-block-row-three {
+  margin-bottom: 1rem;
+}
+
 body.docs .review {
   background-color: red;
 }
 
 body.docs .crumbs {
   margin: 0 gutter();
+  font-size: 90%;
 
   @include breakpoint($max-width) {
     margin: 0 0 2rem 0;
@@ -404,7 +412,8 @@ body.docs .link-collapse {
   margin-left: 12px;
   margin-right: 6px;
   //font-family: "Glyphicons Halflings";
-  font-size: 1rem;
+  font-size: 1.25rem;
+  color: $light-blue;
 }
 
 body.docs .link-collapse.collapsed:before {

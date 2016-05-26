@@ -9,8 +9,6 @@ Codio's teaching content has been created in partnership with the UK's leading e
 
 It has been designed specifically to cover the coding aspects of the current GCSE curriculum as well as the new (2016) curriculum.
 
-## Curriculum Map for the OCR GCSE 2012 Computing Specification (J275 Version 1 April 2012)
-
 Please view our [Curriculum Map](https://docs.google.com/a/codio.com/spreadsheets/d/1fGg1ouSMPuYuZwckQVlGGvMkz2d8K-N1EmJotMx-GJ8/edit?usp=sharing) for the OCR GCSE 2012 Computing Specification (J275 Version 1 April 2012).
 ### Creating Lesson Plans: How to use the Curriculum Map
 

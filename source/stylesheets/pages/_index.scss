@@ -369,8 +369,8 @@ body.index .header-block {
       display: block;
       width: auto;
       margin: 4rem auto;
-
-
+      vertical-align: middle;
+      
       @include breakpoint($break-tablet) {
         margin: 0;
         margin-left: 10%;

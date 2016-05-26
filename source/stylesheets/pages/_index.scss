@@ -244,6 +244,9 @@ body.index .header-block {
   .description-block {
     padding-top: 0;
 
+    h4 {
+      margin-bottom: 1.5rem;
+    }
   }
 
   @include breakpoint($break-tablet) {
@@ -370,7 +373,7 @@ body.index .header-block {
       width: auto;
       margin: 4rem auto;
       vertical-align: middle;
-      
+
       @include breakpoint($break-tablet) {
         margin: 0;
         margin-left: 10%;
@@ -446,6 +449,7 @@ body.index .header-block {
     .txt-left {
       padding-left: 20%;
       padding-right: 5%;
+      color: #fff;
     }
 
   }

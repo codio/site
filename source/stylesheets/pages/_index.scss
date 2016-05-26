@@ -298,6 +298,7 @@ body.index .header-block {
     .scope-item {
       display: inline-block;
       vertical-align: top;
+      min-height: 305px;
       width: 100%;
       margin-top: $base-line-height;
 
@@ -313,7 +314,11 @@ body.index .header-block {
           width: auto;
         }
       }
-      
+
+      .scope-txt {
+        min-height: 133px;
+      }      
+
       .scope-button {
         vertical-align: bottom;
       }

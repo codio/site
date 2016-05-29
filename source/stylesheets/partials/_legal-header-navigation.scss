@@ -1,7 +1,7 @@
 .legal-header-navigation {
   @include container;
   @include break;
-  padding-top: 3 * $base-line-height;
+  padding-top: 1 * $base-line-height;
   margin-bottom: 3 * $base-line-height;
 
   @include breakpoint($break-tablet) {
@@ -100,63 +100,52 @@
   }
 }
 
-.legal-item {
+.legal-navigation-content {
   @include container;
+  @include break;
 
-  text-align: center;
-  background-color: $lighter-gray;
-  margin-bottom: 3rem;
-  min-width: 250px;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-
-  @include breakpoint($break-tablet) {
+  .legal-block {
+    text-align: center;
+    display: block;
+    background-color: $lighter-gray;
+    margin-bottom: 3rem;
     margin-left: 5%;
-    display: inline-block;
-    width: 30%;
-  }
+    margin-right: 5%;
+    width: 90%;
+    min-width: 250px;
 
-  &:first-of-type {
+    @include container;
     @include breakpoint($break-tablet) {
-      margin-left: 0;
+      margin-right: 5%;
+      display: inline-block;
+      width: 30%;
+    }
+
+    &:first-of-type {
+      @include breakpoint($break-tablet) {
+        margin-left: 0;
+      }
+    }
+
+    &:last-of-type {
+      @include breakpoint($break-tablet) {
+        margin-right: 0;
+      }
+    }
+
+    &:hover {
+      background-color: $light-gray;
+    }
+
+    svg {
+      width: 100px;
+      height: 100px;
+      padding-top: 2rem;
+    }
+
+    h4 {
+      margin-top: 0.5rem;
+      padding-bottom: 2rem;
     }
   }
-
-  &:hover {
-    background-color: $lighter-gray;
-  }
-
-  h4 {
-    margin-top: 0.5rem;
-    padding-bottom: 2rem;
-  }
-
-  .legal-item-terms {
-    padding-top: 2rem;
-    background: url('/img/assets/legal/terms.svg') no-repeat left center;
-    background-size: 50px 50px;
-  }
-
-  .legal-item-privacy {
-    background: url('/img/assets/legal/privacy.svg') no-repeat left center;
-    background-size: 50px 50px;
-  }
-
-  .legal-item-billing:before {
-    background: url('/img/assets/legal/billing.svg') no-repeat left center;
-  }
-
-  .legal-item-copyright:before {
-    background: url('/img/assets/legal/copyright.svg') no-repeat left center;
-  }
-
-  .legal-item-policy:before {
-    background: url('/img/assets/legal/policy.svg') no-repeat left center;
-  }
-
-  .legal-item-trademarks:before {
-    background: url('/img/assets/legal/trademarks.svg') no-repeat left center;
-  }
-
 }

@@ -1,23 +1,66 @@
 <div class="legal-header-navigation">
-  <% ordered_simple(top_pages('legal'), '/legal').each do |resource| %>
+<!--  <% ordered_simple(top_pages('legal'), '/legal').each do |resource| %>
     <% active = current_section?(resource.url) ? "active" : "" %>
     <% title = resource.data.title %>
 
-<!--    <a href="<%= resource.url %>" class="<%= active %> legal-header-navigation-item">
-      <h2 class="navigation-header-<%= resource.data.sname %>"><%= title %></h2>
-      <p>
-        <%= title %>
-      </p>
-    </a>-->
-
     <div class="legal-item">
       <a href="<%= resource.url %>" class="<%= active %>">
-        <div>
-          <%= inline_svg "assets/legal/<%= resource.data.sname %>.svg", class: "" %>
+        <div class="legal-item-<%= resource.data.sname %>">
         </div>
         <h4><%= title %></h4>
       </a>
     </div>
 
-  <% end %>
+  <% end %>-->
+
+  <div class="legal-navigation-content">
+    <div class="legal-block">
+      <a href="/legal/terms">
+        <div>
+          <%= inline_svg "assets/legal/terms.svg", class: "" %>
+        </div>
+        <h4>Terms and Conditions</h4>
+      </a>
+    </div><div class="legal-block">
+      <a href="/legal/privacy">
+        <div>
+          <%= inline_svg "assets/legal/privacy.svg", class: "" %>
+        </div>
+        <h4>Privacy Policy</h4>
+      </a>
+    </div><div class="legal-block">
+      <a href="">
+        <div>
+          <%= inline_svg "assets/legal/policy.svg", class: "" %>
+        </div>
+        <h4>Acceptable Usage Policy</h4>
+      </a>
+    </div>
+  </div>
+
+  <div class="legal-navigation-content">
+    <div class="legal-block">
+      <a href="">
+        <div>
+          <%= inline_svg "assets/legal/copyright.svg", class: "" %>
+        </div>
+        <h4>Copyright Notices</h4>
+      </a>
+    </div><div class="legal-block">
+      <a href="">
+        <div>
+          <%= inline_svg "assets/legal/trademarks.svg", class: "" %>
+        </div>
+        <h4>Trademarks</h4>
+      </a>
+    </div><div class="legal-block">
+      <a href="">
+        <div>
+          <%= inline_svg "assets/legal/billing.svg", class: "" %>
+        </div>
+        <h4>Billing &amp; Refunds</h4>
+      </a>
+    </div>
+  </div>
+
 </div>

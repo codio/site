@@ -1,5 +1,5 @@
 ---
-title: Codio Terms of Use
+title: Terms and Conditions
 class_name: legal
 sname: terms
 ---

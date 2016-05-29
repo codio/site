@@ -1,0 +1,162 @@
+.legal-header-navigation {
+  @include container;
+  @include break;
+  padding-top: 3 * $base-line-height;
+  margin-bottom: 3 * $base-line-height;
+
+  @include breakpoint($break-tablet) {
+    border-bottom: 1px solid $lighter-gray;
+    float: inherit;
+    max-width: $max-width;
+  }
+}
+
+.legal-header-navigation-item {
+  @include span(2 of 4);
+  height: 7 * $base-line-height;
+  padding-top: $base-line-height;
+
+  &:nth-child(3) {
+    @include break;
+  }
+
+  @include breakpoint($break-tablet) {
+    @include span(3 of 15);
+    padding-top: 0;
+
+    &:nth-child(3) {
+      @include nobreak;
+    }
+  }
+
+  @include breakpoint($max-width) {
+    height: 6 * $base-line-height;
+  }
+
+  &.active {
+    @include breakpoint($break-tablet) {
+      border-bottom: 1px solid $light-blue;
+    }
+
+    h2 {
+      color: $light-blue;
+    }
+
+    &:hover h2 {
+      color: $base-font-color;
+    }
+  }
+
+  &:hover h2 {
+    color: $light-blue;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: .2em;
+    color: $base-font-color;
+    transition: color .2s ease-in-out;
+
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: 0;
+      margin-top: -50px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .navigation-header-terms:before {
+    background: url('/img/assets/legal/terms.svg') no-repeat left center;
+    background-size: 50px 50px;
+  }
+
+  .navigation-header-privacy:before {
+    background: url('/img/assets/legal/privacy.svg') no-repeat left center;
+    background-size: 50px 50px;
+  }
+
+  .navigation-header-billing:before {
+    background: url('/img/assets/legal/billing.svg') no-repeat left center;
+  }
+
+  .navigation-header-copyright:before {
+    background: url('/img/assets/legal/copyright.svg') no-repeat left center;
+  }
+
+  .navigation-header-policy:before {
+    background: url('/img/assets/legal/policy.svg') no-repeat left center;
+  }
+
+  .navigation-header-trademarks:before {
+    background: url('/img/assets/legal/trademarks.svg') no-repeat left center;
+  }
+
+  p {
+    font-size: 16px;
+    color: $base-font-color;
+  }
+}
+
+.legal-item {
+  @include container;
+
+  text-align: center;
+  background-color: $lighter-gray;
+  margin-bottom: 3rem;
+  min-width: 250px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  @include breakpoint($break-tablet) {
+    margin-left: 5%;
+    display: inline-block;
+    width: 30%;
+  }
+
+  &:first-of-type {
+    @include breakpoint($break-tablet) {
+      margin-left: 0;
+    }
+  }
+
+  &:hover {
+    background-color: $lighter-gray;
+  }
+
+  h4 {
+    margin-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .legal-item-terms {
+    padding-top: 2rem;
+    background: url('/img/assets/legal/terms.svg') no-repeat left center;
+    background-size: 50px 50px;
+  }
+
+  .legal-item-privacy {
+    background: url('/img/assets/legal/privacy.svg') no-repeat left center;
+    background-size: 50px 50px;
+  }
+
+  .legal-item-billing:before {
+    background: url('/img/assets/legal/billing.svg') no-repeat left center;
+  }
+
+  .legal-item-copyright:before {
+    background: url('/img/assets/legal/copyright.svg') no-repeat left center;
+  }
+
+  .legal-item-policy:before {
+    background: url('/img/assets/legal/policy.svg') no-repeat left center;
+  }
+
+  .legal-item-trademarks:before {
+    background: url('/img/assets/legal/trademarks.svg') no-repeat left center;
+  }
+
+}

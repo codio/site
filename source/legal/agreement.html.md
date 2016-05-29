@@ -1,5 +1,6 @@
 ---
 title: Codio Service Level Agreement
+sname: agreement
 ---
 
 **Last Updated 12th April 2016**

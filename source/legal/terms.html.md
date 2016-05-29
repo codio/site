@@ -1,5 +1,7 @@
 ---
 title: Codio Terms of Use
+class_name: legal
+sname: terms
 ---
 
 Welcome to Codio.

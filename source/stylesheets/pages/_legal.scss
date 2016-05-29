@@ -97,3 +97,70 @@ body.legal .content {
     color: $light-blue;
   }
 }
+
+
+body.legal .header-block {
+  @include span(4);
+  position: relative;
+
+
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: gutter();
+    margin-right: gutter();
+    padding-top: 50px;
+    padding-bottom: 3rem;
+
+    @include breakpoint($break-tablet) {
+      font-size: 3rem;
+    }
+
+    em {
+      font-weight: 400;
+    }
+  }
+}
+
+body.legal .overview-section {
+  @include container;
+  @include break;
+
+  padding: 3rem 0;
+
+  .legal-header-navigation-container > h2 {
+    text-align: center;
+  }
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+    max-width: $max-width;
+  }
+
+  @include breakpoint($max-width) {
+    margin: 0 auto;
+  }
+
+  .legal-header-navigation {
+    border-bottom: none;
+  }
+}
+
+.legal-content {
+  @include container;
+  padding-top: 2 * $base-line-height;
+
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+    max-width: $max-width;
+  }
+
+  @include breakpoint($max-width) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

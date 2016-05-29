@@ -1,0 +1,23 @@
+<div class="legal-header-navigation">
+  <% ordered_simple(top_pages('legal'), '/legal').each do |resource| %>
+    <% active = current_section?(resource.url) ? "active" : "" %>
+    <% title = resource.data.title %>
+
+<!--    <a href="<%= resource.url %>" class="<%= active %> legal-header-navigation-item">
+      <h2 class="navigation-header-<%= resource.data.sname %>"><%= title %></h2>
+      <p>
+        <%= title %>
+      </p>
+    </a>-->
+
+    <div class="legal-item">
+      <a href="<%= resource.url %>" class="<%= active %>">
+        <div>
+          <%= inline_svg "assets/legal/<%= resource.data.sname %>.svg", class: "" %>
+        </div>
+        <h4><%= title %></h4>
+      </a>
+    </div>
+
+  <% end %>
+</div>

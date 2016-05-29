@@ -1,26 +1,4 @@
 <% wrap_layout :'layout' do %>
-<!--
-<aside class="legal-side-navigation">
-  <ul>
-    <% ordered_simple(sub_pages("legal"), "/legal").each do |resource| %>
-      <% if current_resource.data.title == resource.data.title %>
-        <li class="active list-item">
-          <a href="#"><span><%= resource.data.title %></span></a>
-        </li>
-      <% else %>
-        <li class="list-item">
-          <%= link_to resource.data.title, resource.url %>
-        </li>
-      <% end %>
-    <% end %>
-  </ul>
-</aside>
-
-<article class="legal-body">
-  <h2 class="title"><%= current_page.data.title %></h2>
-  <%= yield %>
-</article>
--->
   <div class="header-block">
     <h2>Legal Information</h2>
   </div>

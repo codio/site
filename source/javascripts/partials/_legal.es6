@@ -1,5 +1,5 @@
 /* globals $ */
-/*
+
 $(() => {
   // Setup side menu
   setTimeout(() => {
@@ -22,9 +22,9 @@ $(() => {
     })
   }, 100)
 })
-*/
 
 
+/*
 function scrollDown () {
   // When clicking a navigation item in the sidebar
   // we want to scroll down immediately
@@ -78,3 +78,4 @@ $(() => {
   }, 100)
 
 })
+*/

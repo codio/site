@@ -62,43 +62,6 @@ body.legal .content {
   }
 }
 
-.legal-side-navigation {
-  @include span(4);
-
-  @include breakpoint($break-tablet) {
-    @include span(3 of 16);
-
-    &.affix-top {
-      margin-top: 8 * $base-font-size;
-      position: absolute;
-    }
-
-    &.affix {
-      top: 4 * $base-line-height;
-      position: fixed;
-    }
-  }
-
-  .list-item a {
-    line-height: 19px;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $base-font-color;
-    font-family: $heading-font-family;
-    transition: all .2s ease-in-out;
-
-    &:hover {
-      color: $light-blue;
-    }
-  }
-
-  .list-item.active a {
-    color: $light-blue;
-  }
-}
-
-
 body.legal .header-block {
   @include span(4);
   position: relative;

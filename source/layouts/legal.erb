@@ -1,10 +1,9 @@
 <% wrap_layout :'layout' do %>
-  <div class="header-block">
-    <h2>Legal Information</h2>
-  </div>
 
   <div class="legal-content">
-    <%= partial 'legal-header-navigation' %>
+    <% if current_resource.url == "legal" %>
+      <%= partial 'legal-header-navigation' %>
+    <% end %>  
 
     <%= partial 'legal-side-navigation' %>
 
@@ -14,15 +13,5 @@
       </h1>
       <%= yield %>
     </article>
-
-<!--    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Article",
-        "headline": "<%= current_resource.data.title %>",
-        "datePublished": "<%= File.ctime(Dir.glob("source/#{current_resource.path}*")[0]).iso8601 %>"
-      }
-    </script>
--->
 
 <% end %>

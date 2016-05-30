@@ -17,7 +17,7 @@
     }
 
     &.affix {
-      top: 1 * $base-line-height;
+      top: 2 * $base-line-height;
       position: fixed;
     }
   }
@@ -31,42 +31,46 @@
     margin-left: - $base-line-height / 2;
     padding: .2rem $base-line-height / 2;
     margin-top: $base-line-height / 2;
+
+    &:hover {
+      font-weight: 700;
+      //background-color: $light-blue;
+    }
   }
 
   .item.active {
     background: $light-blue;
-    border-radius: 2px;
-
-    &:after {
-      width: 0;
-      height: 0;
-      border-top: 50px solid transparent;
-      border-left: 100px solid red;
-      border-bottom: 50px solid transparent;
-    }
-
-    .item-header,
-    .item-header a,
-    .item-description {
-      color: white;
-    }
-
-    .item-description {
-      font-weight: 400;
-    }
+    border-radius: 4px 0 0 4px;
   }
 
-  .item-header,
-  .item-header > a {
-    line-height: 19px;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $base-font-color;
-
-    &:hover {
-      font-weight: 700;
-      color: $light-blue;
-    }
+  .arrow-box {
+    position: relative;
+    background: $light-blue;
   }
+
+  .arrow-box:after, .arrow-box:before {
+    left: 100%;
+    top: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .arrow-box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: $light-blue;
+    border-width: 17px;
+    margin-top: -7px;
+  }
+  
+  .arrow-box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: transparent;
+    border-width: 20px;
+    margin-top: -30px;
+  }
+
 }

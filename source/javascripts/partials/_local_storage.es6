@@ -112,3 +112,4 @@ class Store {
 }
 
 const localStorageStore = new Store('local');
+const sessionStorageStore = new Store('session');

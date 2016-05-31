@@ -362,13 +362,54 @@ const settings = [
   '/docs/account/cussupport'
 ]
 
+const STORED_TAB = 'STORED_TAB'
+const DOCUMENT_REFERRER = 'DOCUMENT_REFERRER'
+
+const DOCUMENTATION_TAB = 'documentation'
+const GETSTARTED_TAB = 'get-started'
+const SETTINGS_TAB = 'settings'
+
+const types = {}
+types[DOCUMENTATION_TAB] = documentation
+types[SETTINGS_TAB] = settings
+types[GETSTARTED_TAB] = getStarted
+
 $(document).ready(function() {
+
+  let storedTab = localStorageStore.get(STORED_TAB)
+
+  let tab = DOCUMENTATION_TAB
+  const referrer = sessionStorageStore.get(DOCUMENT_REFERRER) || ''
+  const refPath = referrer
+      .replace(document.origin, '')
+      .replace(/\/$/, '')
   const path = location.pathname.replace(/\/$/, '')
-  if (getStarted.indexOf(path) !== -1) {
-    $('.section-block-row-three .get-started').addClass('selected')
-  } else if (settings.indexOf(path) !== -1) {
-    $('.section-block-row-three .settings').addClass('selected')
-  } else if (documentation.indexOf(path) !== -1) {
-    $('.section-block-row-three .documentation').addClass('selected')
+
+  if (refPath !== '' && referrer.indexOf(document.origin + '/docs') === 0) {
+    tab = storedTab
+
+    if (documentation[0] === path) {
+      tab = DOCUMENTATION_TAB
+    } else if (getStarted[0] === path) {
+      tab = GETSTARTED_TAB
+    } else if (settings[0] === path) {
+      tab = SETTINGS_TAB
+    }
+
+    if (documentation[0] === path || getStarted[0] === path || settings[0] === path) {
+      localStorageStore.set(STORED_TAB, tab);
+    }
+  } else {
+    if (documentation.indexOf(path) !== -1) {
+      tab = DOCUMENTATION_TAB
+    } else if (settings.indexOf(path) !== -1) {
+      tab = SETTINGS_TAB
+    } else if (getStarted.indexOf(path) !== -1) {
+      tab = GETSTARTED_TAB
+    }
+    localStorageStore.set(STORED_TAB, tab);
   }
+
+  $('.section-block-row-three .' + tab).addClass('selected')
+  sessionStorageStore.set(DOCUMENT_REFERRER, location.href)
 })

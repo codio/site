@@ -1,6 +1,6 @@
 ---
-title: Codio Service Level Agreement
-sname: agreement
+title: Billings & Refunds
+sname: billing
 ---
 
 **Last Updated 12th April 2016**

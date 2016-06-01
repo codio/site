@@ -56,24 +56,18 @@ Maintenance & Updates
 Codio provides all system maintenance free of charge. Feature and maintenance updates are delivered to the User automatically and may occur at any time. The User may need to reload the Codio application by pressing the refresh button in the browser.
 
 ---
-###5. Codio rights
-
-The Products are always evolving and the form, nature, and/or functionality of the Products may change from time to time without prior notice to you. In addition, we may stop (permanently or temporarily) providing individual features within the Products to you or to Users generally and may not be able to provide you with prior notice. We also retain the right to create limits on use and storage at our sole discretion at any time without prior notice to you.
-All right, title, and interest in and to the Products and Content (excluding Content provided by Users or other third parties) are and will remain the exclusive property of Codio and its licensors. The Products are protected by copyright, trademark, and other laws of both the United Kingdom and foreign countries. Nothing in the Terms gives you a right to use the Codio name or any of the Codio trademarks, logos, domain names, and other distinctive brand features. Any feedback, comments, or suggestions you may provide regarding Codio, or the Products is entirely voluntary and we will be free to use such feedback, comments or suggestions as we see fit and without any obligation to you.
-
----
-###6. Registration obligations and passwords
+###5. Registration obligations and passwords
 
 You may never use another individual User’s account without permission. In consideration of your use of the Products, you agree (a) that Your Information will be true, accurate, current and complete, and (b) to maintain and promptly update Your Information to keep it true, accurate, current and complete. You are responsible for safeguarding any password that you use to access the Products (including passwords used on other Codio products that permit single sign-on to the Products) and for any activities or actions under your password. We encourage you to use “strong” passwords (passwords that use a combination of upper and lower case letters, numbers and symbols) with your account. You agree to (a) notify Codio of any unauthorized use of your password or user identification and any other breach of security, and (b) ensure that you exit from your account at the end of each session.
 
 ---
-###7. Termination
+###6. Termination
 
 We may suspend or terminate your accounts or cease providing you with all or part of the Products at any time for any reason, including, but not limited to, if we reasonably believe: (i) you have violated these Terms, (ii) you create risk or possible legal exposure for us, (iii) our provision of the Products is no longer commercially viable, (iv) you are in breach of payment terms in relation to your licence fee, (v) the term of your licence has expired, or (vi) you are in breach of any of the applicable policies. In such a termination event, the licence granted hereunder shall automatically terminate. In all such cases, the Terms shall terminate, including, without limitation, your licence to use the Products, except that the following Sections shall continue to apply: 2, 3, 5, 6, 9, 10, and 11.
 Further, if you stop using the Products for more than 12 months, your accounts may be deleted. If you wish to delete your Codio Product account(s) in their entirety(ies), you may contact us via support@codio.com and specify which Codio account(s) you wish to delete. We will delete your specified accounts within a reasonable time, unless prohibited by law.
 
 ---
-###8. Disclaimers and limitations of liability
+###7. Disclaimers and limitations of liability
 
 Please read this Section carefully since it limits the liability of Codio and its parents, subsidiaries, affiliates, related companies, and each of their respective officers, directors, employees, agents, representatives, partners, shareholders and/or licensors (collectively, the “Codio Entities”). Each of the Subsections below only applies up to the maximum extent permitted under applicable law. Nothing in this Section is intended to limit any rights you may have which may not be lawfully limited.
 A. The Products are Available “AS-IS”
@@ -86,7 +80,7 @@ IN NO EVENT SHALL THE AGGREGATE LIABILITY OF THE CODIO  ENTITIES EXCEED THE AMOU
 THE LIMITATIONS OF THIS SUBSECTION SHALL APPLY TO ANY THEORY OF LIABILITY, WHETHER BASED ON WARRANTY, CONTRACT, STATUTE, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, AND WHETHER OR NOT THE CODIO ENTITIES HAVE BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH DAMAGE, AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.
 
 ---
-###9. General terms
+###8. General terms
 
 A. Waiver and Severability
 The failure of Codio to enforce any right or provision of these Terms will not be deemed a waiver of them.

@@ -27,14 +27,14 @@ Again, this depends on your intended audience but try to keep each section reaso
 We strongly recommend you take advantage of this feature. Chapters serve two purposes ...
 
 1. They break the content down visually in the section list (table of contents)
-1. They allow to students to reset their content to its original state if they have mangled the code through experimentation and want to restore it. [Click here for details](/docs/account/content/authoring/chapter).
+1. They allow to students to reset their content to its original state if they have mangled the code through experimentation and want to restore it. [Click here for details](/docs/content/authoring/chapter).
 
 ### Use the Hidden Folder feature
 Your content will often want to show code samples. Codio's recommended approach is to put each set of code samples into a dedicated folder. Then, using the page settings, you can specify this folder with the consequence that all non-specified folders are hidden from view in the file tree (if you choose to show it).
 
 The benefit of hiding folders is that the student is not distracted by folders and files that are not relevant to the topic you are explaining.
 
-[Click here](/docs/account/content/authoring/hide-folder) for more details on folder hiding.
+[Click here](/docs/content/authoring/hide-folder) for more details on folder hiding.
 
 ### Assessments
 Codio offers a range of assessment types that let you create tests in one of two ways
@@ -48,12 +48,12 @@ When used in a class situation, assessments are extremely helpful to the teacher
 
 Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto marked, saving teachers considerable amounts of time and also giving students instant feedback on the correct answers.
 
-[Click here](/docs/account/content/authoring/create/assessments) for more on creating assessments.
+[Click here](/docs/content/authoring/create/assessments) for more on creating assessments.
 
 ### Layouts
 The Guide editor lets you create different panel layouts for your tutorial content and the layout can change from section to section. 
 
-[Click here](/docs/account/content/authoring/layouts) for more information on panel layouts.
+[Click here](/docs/content/authoring/layouts) for more information on panel layouts.
 
 ### Caveats
 There are some things that are a bit tricky when writing your content. Being aware of these will help avoid frustration and speed up productivity.
@@ -65,7 +65,7 @@ In the early stages of development, show the filetree in your layout settings ev
 As mentioned above, when authoring content it makes sense to always leave the file tree visible until you are ready to test the final layout. The easiest approach is to only set the panel layout setting on the first page (or as few pages as strictly needed). The 'Previous' layout setting simple uses the layout setting that was used on the previous page, so you only need to make this change once rather than on all pages.
 
 ### Testing Restore current files
-The [Restore current files](/docs/account/content/authoring/playmode/) feature is a great way for students to reset any section to its initial state after hacking sample code around. Currently, it is not possible for the author to use this feature as it only works when it is used by a Student within a Class.
+The [Restore current files](/docs/content/authoring/playmode/) feature is a great way for students to reset any section to its initial state after hacking sample code around. Currently, it is not possible for the author to use this feature as it only works when it is used by a Student within a Class.
 
 
 

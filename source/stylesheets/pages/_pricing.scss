@@ -9,33 +9,131 @@ body.pricing .content {
 }
 
 .pricing-header {
-  background: $dark-gray;
-  padding-top: 5rem;
   padding-bottom: 5rem;
+  border-bottom: 1px solid black;
+
+  .subheader-block {
+    @include span(4);
+
+    background: $lighter-gray;
+    background-size: cover;
+    margin: 0 auto 5rem auto;
+    text-align: center;
+
+    @include breakpoint($break-tablet) {
+      height: auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    span {
+      display: none;
+
+      @include breakpoint($break-tablet)
+      {
+        display: block;
+      }
+    }
+
+    .link-button-bar {
+      background: $lighter-gray;
+      margin: 0 auto 0px auto;
+      text-align: center;
+
+      .button-container {
+        @include container;
+        @include break;
+
+        float: none;
+        margin: 0 auto;
+      }
+
+      .button {
+        display: inline-block;
+        color: $dark-gray;
+        border: none;
+        width: 20%;
+        max-width: 150px;
+        height: auto;
+        padding: 0;
+      }
+
+      .button-large {
+        padding: 0 auto;
+      }
+
+      .button:hover {
+        color: white;
+        background-color: $light-gray;
+      }
+    }
+  }
 }
 
 .pricing-header-container {
   @include container(4 of 4);
 
-  margin: gutter();
   text-align: center;
 
   @include breakpoint($break-tablet) {
     @include container(10 of 16);
-    margin: 0 span(3 of 16);
   }
 
   h1 {
-    color: white;
-    font-weight: 300;
+    color: black;
+    font-size: 46px;
+    font-weight: 500;
+    margin: 2rem 0;
   }
 
   h2 {
-    color: white;
-    font-size: 22px;
-    font-weight: 300;
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
   }
 }
+
+
+.pricing-tabs {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav-tabs {
+  border-color: $light-gray;
+  color: #eee;
+}
+
+.nav-tabs > li a {
+  border: 1px solid $light-gray;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-right: 10px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #000;
+  font-weight: 400;
+  border: 1px solid $dark-gray;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs > li > a:hover{
+  background: none;
+  border: 1px solid $light-gray;
+  font-weight: 400;
+  color: #000;
+} 
+
+.pricing-tab-content {
+  .tab-pane {
+    border-top-color: transparent;
+  }
+}
+
+
 
 .pricing-slider {
   @include container(4 of 4);
@@ -61,11 +159,11 @@ body.pricing .content {
     padding-top: 3rem;
 
     .button:first-child {
-        margin-right: .5rem;
+      margin-right: .5rem;
     }
 
     .button:last-child {
-        margin-left: .5rem;
+      margin-left: .5rem;
     }
   }
 }

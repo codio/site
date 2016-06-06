@@ -1,5 +1,5 @@
 ---
-title: "Accessing Boxes & Ports"
+title: "Accessing Boxes and Ports"
 class_name: docs
 full_width: true
 ---

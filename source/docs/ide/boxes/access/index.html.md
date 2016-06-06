@@ -1,5 +1,5 @@
 ---
-title: "SSH & Code Access"
+title: "SSH and Code Access"
 class_name: docs
 full_width: true
 ---

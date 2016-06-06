@@ -1,20 +1,31 @@
 ---
-title: Assigning content to a class
+title: Assigning curriculum-mapped content to the class
 description: ""
 class_name: docs
 full_width: true
 ---
 
-Once you have created a class, you should assign some content to the class.
 
-## Steps
-1. Locate and select a class.
-1. Click the **+** button to open the 'Select a Course' dialog.
-1. A popup Course browser will appear. The **Recommended** tab should automatically be selected. If it is not, then select it now.
-1. Search for and select a Course. Try entering 'Flode' in the search box.
-1. This will then show you a list of any course that contain modules for Flode. You will see 'An Introduction to Programming'
-1. Select this and a popup Module browser will appear. Check the box for 'Flode' and press the **Select** button at the bottom and it will be added to your class.
-1. Having added a Module, you can disable any units you do not wish your students to use if you require.
+You can assign curriculum-mapped content to your classes. (To learn more about curriculum-mapped content, jump to [curriculum-mapped content](/docs/content/courses/recommended))
 
-![Assign Module](/img/docs/assign-module.png)
+To assign content, follow the steps below:
+
+1. From the **My Classroom** screen, click on your class to open it. 
+<img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>
+
+1.  Click on the **Units** tab, centre left of your screen.
+<img alt="authtoken" src="/img/docs/manage_classes/units_tab.png" class="simple"/>
+
+1. Click on the **blue plus** sign, top left of the page, and choose **Add Module**.
+<img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
+
+1. To see curriculum-mapped content, click **Recommended** 
+<img alt="authtoken" src="/img/docs/manage_classes/assigning_cm_content/recommended_tab.png" class="simple"/>
+
+1. Choose the module you want to assign and click **Select** 
+<img alt="authtoken" src="/img/docs/manage_classes/assigning_cm_content/select_module.png" class="simple"/>
+
+1. The module will appear in your class. 
+<img alt="authtoken" src="/img/docs/manage_classes/assigning_cm_content/module_in_class.png" class="simple"/>
+ 
 

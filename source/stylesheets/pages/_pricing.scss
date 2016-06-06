@@ -118,15 +118,18 @@ body.pricing .content {
   //*display: inline;
   //zoom: 1;
 
+  font-size: 20px;
+
   margin-bottom: -8px;
-  height: 75px;
+  height: 78px;
 
   @include breakpoint($break-tablet) {
-    width: 23%;
+    width: 24%;
+    font-size: 19px;
   }
 
   @include breakpoint($max-width) {
-    width: 16%;
+    width: 17%;
   }
 }
 
@@ -172,6 +175,44 @@ body.pricing .content {
   }
 }
 
+.pricing-tab-content {
+  @include container(4 of 4);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  @include breakpoint($max-width) {
+    max-width: $max-width;
+  }
+
+  .currency-block {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .pricing-content-col {
+    @include span(4 of 4);
+    margin-top: 1rem;
+
+    @include breakpoint($break-tablet) {
+      @include span(6 of 16);
+    }
+  }
+  .pricing-content-col-left {
+    @include breakpoint($break-tablet) {
+      margin-left: span(1.5 of 16);
+      margin-right: span(.5 of 16);
+    }
+  }
+
+  .pricing-content-col-right {
+    background-color: $lighter-gray;
+    
+    @include breakpoint($break-tablet) {
+      margin-left: span(.5 of 16);
+      margin-right: span(1.5 of 16);
+    }
+  }
+}
 
 
 
@@ -223,28 +264,6 @@ body.pricing .content {
 
   h2 {
     font-weight: 300;
-  }
-}
-
-.pricing-faq-col {
-  @include span(4 of 4);
-  margin-top: 5rem;
-
-  @include breakpoint($break-tablet) {
-    @include span(6 of 16);
-  }
-}
-.pricing-faq-col-left {
-  @include breakpoint($break-tablet) {
-    margin-left: span(1.5 of 16);
-    margin-right: span(.5 of 16);
-  }
-}
-
-.pricing-faq-col-right {
-  @include breakpoint($break-tablet) {
-    margin-left: span(.5 of 16);
-    margin-right: span(1.5 of 16);
   }
 }
 

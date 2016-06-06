@@ -25,22 +25,22 @@ description: Codio licences are for individuals, developers, schools, colleges u
 
 <div class="pricing-tabs">
   <ul class="nav nav-tabs" id="pricingTab">
-    <li class="active"><a href="#home" data-toggle="tab"><span>Individual</span></a></li>
-    <li><a href="#profile" data-toggle="tab"><span>Business</span></a></li>
-    <li><a href="#messages" data-toggle="tab"><div class="text-center"><span>School or Non-profit</span></div></a></li>
-    <li><a href="#settings" data-toggle="tab"><div class="text-center"><span>University, College or Vocational</span></div></a></li>
+    <li class="active"><a href="#individual" data-toggle="tab"><span>Individual</span></a></li>
+    <li><a href="#business" data-toggle="tab"><span>Business</span></a></li>
+    <li><a href="#school" data-toggle="tab"><div class="text-center"><span>Schools from K1-12</span></div></a></li>
+    <li><a href="#university" data-toggle="tab"><span>University</span></a></li>
   </ul>
   <div class="tab-content pricing-tab">
-    <div class="tab-pane fade in active" id="home">
-      Home
+    <div class="tab-pane fade in active" id="individual">
+      <%= partial 'pricing_individual' %>
     </div>
-    <div class="tab-pane fade" id="profile">
+    <div class="tab-pane fade" id="business">
       Profile
     </div>
-    <div class="tab-pane fade" id="messages">
+    <div class="tab-pane fade" id="school">
       Messages
     </div>
-    <div class="tab-pane fade" id="settings">
+    <div class="tab-pane fade" id="university">
       Settings
     </div>
   </div>

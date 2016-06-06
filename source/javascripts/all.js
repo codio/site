@@ -12,6 +12,7 @@
 //= require swiftype-jquery
 //= require numeral
 //= require magnific-popup
+//= require lodash/dist/lodash.min.js
 //
 //= require_tree ./vendors
 //

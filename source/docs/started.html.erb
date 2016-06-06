@@ -1,0 +1,188 @@
+---
+title: Getting Started
+layout: layout
+---
+<div class="index-header-block">
+  <h2>How can we help you?</h2>
+  <div class="search-container">
+    <form id="search-input">
+      <input type="text" placeholder="Search for a specific question or topic ..." id="st-search-input" class="st-search-input" />
+    </form>
+    <div class="overview-section">
+      <div class="search-results" id="st-results-container">
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="docs-index">
+
+  <%= partial "docs/actions" %>
+
+  <div class="section">
+    <div class="section-block-row-three">
+      <div class="section-block">
+        <h3>School Teachers</h3>
+          <ul class="bullet-collapse">
+            <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#createorg"></a>
+              <a href="/docs/teacher/create/createorg">Create your organization</a>
+              <ul id="createorg" class="collapse items-list">
+                <li><a href="/docs/teacher/create/addteachers">Invite teachers</a></li>
+                <li><a href="/docs/teacher/create/adminrole">Administrator role</a></li>
+                <li><a href="/docs/account/firewall">Firewall and network settings</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="bullet-collapse">
+            <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#classes"></a>
+              <a href="/docs/teacher/classes/create-class">Create your class</a>
+              <ul id="classes" class="collapse items-list">
+                <li><a href="/docs/teacher/create/addstudents">Add students by token</a></li>
+                <li><a href="/docs/teacher/create/bulkupload">Add students by bulk upload</a></li>
+                <li><a href="/docs/teacher/classes/changepassword">Change a student's password</a></li>
+                <li><a href="/docs/teacher/classes/removestudent">Remove a student from a class</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="bullet-collapse">
+            <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#assign-module"></a>
+              <a href="/docs/teacher/classes/assign-module/">Assign and manage coursework</a>
+              <ul id="assign-module" class="collapse items-list">
+                <li><a href="/docs/content/courses/recommended">What content do you recommend?</a></li>
+                <li><a href="/docs/teacher/classes/assign-project">Assign a project to your class</a></li>
+                <li><a href="/docs/teacher/classes/disable">Disable/Enable units</a></li>
+                <li><a href="/docs/teacher/classes/pin">Pinning a unit</a></li>
+                <li><a href="/docs/teacher/classes/solutions">View teacher solutions to assessments</a></li>
+                <li><a href="/docs/teacher/classes/assign-project">GCSE J276 Curriculum Map</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="bullet-collapse">
+            <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#assess"></a>
+              <a href="/docs/teacher/assess">Track student progress</a>
+              <ul id="assess" class="collapse items-list">
+                <li><a href="/docs/teacher/assess/progress">View student progress</a></li>
+                <li><a href="/docs/teacher/assess/studentcode">Access students' work</a></li>
+                <li><a href="/docs/teacher/assess/assessments">Auto-graded assessments</a></li>
+                <li><a href="/docs/teacher/assess/grading">Grading students work</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="bullet-collapse">
+            <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#create"></a>
+              <a href="/docs/teacher/create">Manage your organization</a>
+              <ul id="create" class="collapse items-list">
+                 <li><a href="/docs/teacher/create/addowners">Add owners</a></li>
+                 <li><a href="/docs/teacher/create/viewmembers">View members</a></li>
+                 <li><a href="/docs/teacher/create/removeowners">Remove owners</a></li>
+                 <li><a href="/docs/teacher/create/removemembers">Remove members</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="bullet-collapse">
+            <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#project"></a>
+              <a href="/docs/project">Create a project for your class</a>
+              <ul id="project" class="collapse items-list">
+                <li><a href="/docs/project/stacks/default">Default Stacks</a></li>
+                <li><a href="/docs/project/stacks">Stacks</a></li>
+                <li><a href="/docs/project/packs">Starter Packs</a></li>
+                <li><a href="/docs/project/creating">Create a project</a></li>
+                <li><a href="/docs/ide/navigation/add-file">Adding and editing a code file</a></li>
+                <li><a href="/docs/ide/boxes/terminal/">Using the terminal</a></li>
+                <li><a href="/docs/ide/boxes/installsw/">Sudo and installing software onto your box</a></li>
+                <li><a href="/docs/ide/navigation/exiting/">Exiting the IDE</a></li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+      <div class="section-block">
+        <h3>University Professors</h3>
+        <ul class="bullet-collapse">
+          <li class="item-collapse">
+            <a class="link-collapse collapsed" data-toggle="collapse" href="#createorga"></a>
+              <a href="/docs/teacher/create/createorg">Create your organisation</a>
+          <ul id="createorga" class="collapse items-list">
+              <li><a href="/docs/teacher/create/addteachers">Invite teachers</a></li>
+              <li><a href="/docs/teacher/create/adminrole">Administrator role</a></li>
+              <li><a href="/docs/account/firewall">Firewall and network settings</a></li>
+            </ul>
+             </li>
+            </ul>
+            <ul class="bullet-collapse">
+           <li class="item-collapse">
+           <a class="link-collapse collapsed" data-toggle="collapse" href="#projecta"></a>
+          <a href="/docs/project">Create a project for your class</a>
+          <ul id="projecta" class="collapse items-list">
+            <li><a href="/docs/project/stacks/default">Default Stacks</a></li>
+            <li><a href="/docs/project/stacks">Stacks</a>
+            <li><a href="/docs/project/packs">Starter Packs</a>
+            <li><a href="/docs/project/creating">Create a project</a></li>
+            <li><a href="/docs/ide/navigation/add-file">Adding and editing a code file</a></li>
+            <li><a href="/docs/ide/boxes/terminal/">Using the terminal</a></li>
+            <li><a href="/docs/ide/boxes/installsw/">Sudo and installing software onto your box</a></li>
+            <li><a href="/docs/ide/navigation/exiting/">Exiting the IDE</a></li>
+          </ul>
+              </li>
+            </ul>
+            <ul class="bullet-collapse">
+            <li class="item-collapse">
+            <a class="link-collapse collapsed" data-toggle="collapse" href="#classesa"></a>
+          <a href="/docs/teacher/classes">Manage your class</a>
+             <ul id="classesa" class="collapse items-list">
+             <li><a href="/docs/teacher/classes/create-class">Create a class</a></li>
+             <li><a href="/docs/teacher/create/addstudents">Add students by token</a></li>
+             <li><a href="/docs/teacher/create/bulkupload">Add students by bulk upload</a></li>
+             <li><a href="/docs/teacher/classes/changepassword">Change a student's password</a></li>
+             <li><a href="/docs/teacher/classes/removestudent">Remove a student from a class</a></li>
+            </ul>
+               </li>
+            </ul>
+           <ul class="bullet-collapse">
+           <li class="item-collapse">
+           <a class="link-collapse collapsed" data-toggle="collapse" href="#assessa"></a>
+            <a href="/docs/teacher/assess">Track student progress</a>
+            <ul id="assessa" class="collapse items-list">
+            <li><a href="/docs/teacher/assess/progress">View student progress</a></li>
+            <li><a href="/docs/teacher/assess/studentcode">Access students' work</a></li>
+            <li><a href="/docs/teacher/assess/assessments">Auto-graded assessments</a></li>
+           </ul>
+              </li>
+            </ul>
+           <ul class="bullet-collapse">
+            <li class="item-collapse">
+            <a class="link-collapse collapsed" data-toggle="collapse" href="#authoringa"></a>
+            <a href="/docs/content/authoring">Course Authoring</a>
+            <ul id="authoringa" class="collapse items-list">
+             <li><a href="/docs/content/authoring/imvid">Adding media</a></li>
+             <li><a href="/docs/content/authoring/assessments">Creating auto-graded assessments</a></li>
+          </ul>
+          </li>
+      </ul>
+         </div>
+      <div class="section-block">
+        <h3>For Students</h3>
+        <ul>
+          <li><a href="/docs/student/studentview">The student dashboard</a></li>
+          <li><a href="/docs/student/classes">How to join a class</a></li>
+          <li><a href="/docs/student/myclassroom">My Classroom</a></li>
+          <li><a href="/docs/student/myfirstproject">How to create your first project</a></li>
+          <li><a href="/docs/student/dyslexia">Dyslexia support</a></li>
+          <li><a href="/docs/student/password">How to reset your password</a></li>
+          <li><a href="/docs/student/guides">Restore current files</a></li>
+        </ul>
+          
+        <h3>'How To' Blog Posts</h3>
+        <ul>
+          <li><a href="https://codio.com/blog/how-to-host-a-hackathon-with-codio/"target="_blank">How to host a hackathon using Codio</a></li>
+          <li><a href="https://codio.com/blog/creating-auto-marking-code-tests/"target="_blank">How to create auto-graded assessments</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

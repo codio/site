@@ -14,7 +14,7 @@ Your server is put to sleep within a few minutes of you exiting your Project.
 Paid subscribers can use the [Always On Boxes](/docs/ide/boxes/always-on/) feature. This allows you to mark Projects that you don't want to be put to sleep when you exit your Project.
 
 ###Can I SSH into my Box?
-We do not support this.
+Yes, see [SSH into your box](/docs/ide/boxes/access/ssh-access/) documentation.
 
 ###Can I reboot my Box?
 Yes. Please refer to the [Restart and Reset](/docs/ide/boxes/restart-reset/) documentation.
@@ -23,10 +23,10 @@ Yes. Please refer to the [Restart and Reset](/docs/ide/boxes/restart-reset/) doc
 Paid subscribers can use the Admin property of the [Permissions](/docs/ide/customization/permissions) feature to allow other Codio users to access their Project and have full access to your Codio Box as well as the code.
 
 ###Do I have sudo access?
-Only our Second Generation (G2) Boxes provide sudo access.
+Yes, our Second Generation (G2) Boxes provide sudo access.
 
 ###How do I install software dependencies?
-For G1 (first generation) Boxes, we have a really simple way of installing languages, databases, web servers and many other components. Please refer to the [Install software](/docs/ide/boxes/installsw/) documentation. Got G2 (second generation) Boxes, you have sudo access, so should use the full power of the [apt](https://help.ubuntu.com/community/AptGet/Howto) package management system, and the packages it provides via the Ubuntu community.
+For G2 (second generation) Boxes, you have sudo access, so should use the full power of the [apt](https://help.ubuntu.com/community/AptGet/Howto) package management system, and the packages it provides via the Ubuntu community.
 
 ###How do I access my Box from code?
 We have [full documentation](/docs/ide/boxes/access/ext-access/) on how to access your Box from code.

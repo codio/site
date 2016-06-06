@@ -92,7 +92,6 @@ module MyHelpers
           child.url == "/#{dir}/#{item}/"
         end
       end
-
     else
       # If it doesn't exists sort by the title
       children.sort_by { |c| c.data.title.downcase }

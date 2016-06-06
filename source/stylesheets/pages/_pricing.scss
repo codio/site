@@ -100,8 +100,34 @@ body.pricing .content {
 }
 
 .nav-tabs {
+  @include container;
+  @include break;
+
   border-color: $light-gray;
   color: #eee;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.nav-tabs > li {
+  @include container;
+  @include break;
+
+  float: none;
+  display: inline-block;
+  //*display: inline;
+  //zoom: 1;
+
+  margin-bottom: -8px;
+  height: 75px;
+
+  @include breakpoint($break-tablet) {
+    width: 23%;
+  }
+
+  @include breakpoint($max-width) {
+    width: 16%;
+  }
 }
 
 .nav-tabs > li a {
@@ -109,6 +135,19 @@ body.pricing .content {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   margin-right: 10px;
+  width: 100%;
+}
+
+.nav-tabs>li>a, .nav-tabs>li>a>div {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.nav-tabs>li>a span {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .nav-tabs > li.active > a,
@@ -132,6 +171,7 @@ body.pricing .content {
     border-top-color: transparent;
   }
 }
+
 
 
 

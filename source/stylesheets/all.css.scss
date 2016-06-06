@@ -3,13 +3,15 @@
 
 @charset 'utf-8';
 
-@import 'bootstrap_codio';
-
 @import 'compass';
 @import 'compass/reset';
 @import 'compass/typography';
 @import 'susy';
 @import 'breakpoint';
+
+@import 'bootstrap_codio';
+//@import "bootstrap-sprockets";
+//@import "bootstrap";
 
 @import 'mixins';
 @import 'variables';

@@ -12,7 +12,7 @@ The SFTP target type allows you to deploy to any SFTP server. You can use a pass
 We recommend you set the base path field for remote servers as [described here](/docs/ide/tools/deployment/basepath). This will be useful when using the [Preview](/docs/ide/features/inline-preview) feature.
 
 ##Public Key Authentication
-Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/docs/dashboard/settings/public-key). You should make sure that this public key is added to your remote server.
+Codio auto-generates a public key that is uniquely associated with your user account. You can find this public key in the [User Settings dialog](/docs/account/publickey). You should make sure that this public key is added to your remote server.
 
 ##Specifying a Port
 If you want to override the default SFTP port (22) then you can add the port number to the domain name as shown below

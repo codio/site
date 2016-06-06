@@ -1,25 +1,21 @@
 ---
-title: Classes
-description: "Working with classes in Codio"
+title: Creating a class
+description: ""
 class_name: docs
 full_width: true
 ---
 
-For schools and universities, working with classes opens up a lot of possibilities.
+To work with the classroom features in Codio you will first need to set up a class for your students, here is how to do that:
 
-1. You can easily manage students belonging to that class.
-1. Assign teaching content and assessments to the class.
-1. See how much time each student spends in the modules and units.
-1. See what assessment scores they are achieving in modules and units.
-1. Access student projects directly to see their assessment work and code projects.
+1. Sign in to Codio at www.codio.com 
 
-Please refer to the pages within this section for details.
+1. You will automatically arrive at the **My Classroom** screen. If you are not at the **My Classroom** screen, click the Codio icon in the top left of the screen you are on to take you back to the **My Classroom** screen.
+<img alt="authtoken" src="/img/docs/manage_classes/create_class/codio_icon.png" class="simple"/>
 
-## Video Overview
-This video gives you a brief overview of Codio's classes capabilities.
+1. Click the **blue plus** sign at the top left of the page.
+<img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
 
-<div class="video">
-<div class="video-wrapper">
-<iframe src="//player.vimeo.com/video/138398236" width="600" height="370" frameborder="0" webkitallowfullscreen mozallowflscreen allowfullscreen></iframe>
-</div>
-</div>
+1. Complete the details requested, then click **Create Class**.
+<img alt="authtoken" src="/img/docs/manage_classes/create_class/create_new_class.png" class="simple"/>
+
+1. Your new class will appear in your **My Classroom** area.

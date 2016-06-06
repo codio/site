@@ -206,10 +206,31 @@ body.pricing .content {
 
   .pricing-content-col-right {
     background-color: $lighter-gray;
-    
+
     @include breakpoint($break-tablet) {
       margin-left: span(.5 of 16);
       margin-right: span(1.5 of 16);
+    }
+
+    .panel-heading {
+      h4 {
+        font-size: 20px;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    .panel-heading a:after {
+      font-size: 30px;
+      content:"-";
+      float: right;
+      color: grey;
+    }
+
+    .panel-heading a.collapsed:after {
+      content:"+";
     }
   }
 }

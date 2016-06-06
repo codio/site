@@ -1,6 +1,4 @@
-
-$(() => {
-
+$(document).ready(function() {
   const $menu = $('.docs-side-navigation')
   const $docsBody = $('.docs-body')
 
@@ -38,9 +36,9 @@ $(() => {
   $docsBody.css({
     'min-height': $menu.outerHeight(true)
   })
+})
 
-
-
+$(document).ready(function () {
   // Setup search
   $('#st-search-input').swiftypeSearch({
     resultContainingElement: '#st-results-container',

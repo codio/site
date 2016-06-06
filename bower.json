@@ -11,6 +11,7 @@
     "swiftype-jquery": "*",
     "numeral": "~1.5.3",
     "jquery-ui-slider-pips": "~1.10.5",
-    "magnific-popup": "~1.0.0"
+    "magnific-popup": "~1.0.0",
+    "lodash": "~4.2.0"
   }
 }

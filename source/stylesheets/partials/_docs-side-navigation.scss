@@ -1,6 +1,8 @@
 .docs-side-navigation {
   @include container;
+  background-color: $side-background-gray;
   margin: 0 gutter() 2rem gutter();
+  min-height: 100%;
 
   font-family: $heading-font-family;
 
@@ -22,12 +24,11 @@
   }
 
   @include breakpoint($max-width) {
-    padding-left: 0;
     margin-left: 0;
   }
 
   .item {
-    margin-left: - $base-line-height / 2;
+    margin-left: - $base-line-height / 3;
     padding: .2rem $base-line-height / 2;
     margin-top: $base-line-height / 2;
   }
@@ -52,7 +53,6 @@
     line-height: 19px;
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
     color: $base-font-color;
 
     &:hover {

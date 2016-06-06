@@ -1,0 +1,69 @@
+---
+title: Account Settings
+layout: layout
+---
+
+<div class="index-header-block">
+  <h2>How can we help you?</h2>
+  <div class="search-container">
+    <form id="search-input">
+      <input type="text" placeholder="Search for a specific question or topic ..." id="st-search-input" class="st-search-input" />
+    </form>
+  </div>
+</div>
+
+<section class="docs-index">
+
+  <%= partial "docs/actions" %>
+
+  <div class="section">
+    <div class="section-block-row-three">
+       <div class="section-block">
+          <h3>Contact us</h2>
+        <ul class="bullet-collapse">
+          <li><a href="/docs/account/cussupport">Customer Support Office Hours</a></li>
+          <li><a href="mailto:help@codio.com">Email us</a></li>
+          
+          <h3><a href="/docs/student">Invoices</a></h2>
+            <li><a href="/docs/account/billing">Organisations Billing</a></li>
+            <li><a href="/docs/account/billing">Individual Billing</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+      </div>
+       <div class="section-block">
+          <h3>Account Settings</h2>
+        <ul class="bullet-collapse">
+          <li><a href="/docs/account/firewall">Firewall and network settings</a></li>
+          <li><a href="/docs/account/navigation">Navigating Codio</a></li>
+          <li><a href="/docs/account/browser">Browser Support</a></li>
+          <li class="item-collapse">
+          <a class="link-collapse collapsed" data-toggle="collapse" href="#passwords"></a> 
+          <a href="/docs/account/password">Password</a>
+          <ul id="passwords" class="collapse items-list">
+            <li><a href="/docs/teacher/classes/changepassword">Resetting student passwords</a></li>
+          <li><a href="/docs/account/password/forgotpassword">Forgot your password?</a></li>
+          </ul>
+          </li>
+          <li><a href="/docs/account/publickey">Public Key</a></li>
+          <li><a href="/docs/account/github">GitHub</a></li>
+          <li><a href="/docs/account/bitbucket">BitBucket</a></li>
+          <li><a href="/docs/account/delete">Delete your account</a></li>
+         
+          
+        </ul>
+      </div>
+      <div class="section-block">
+        <h3>Other Settings and Customisable Preferences</h2>
+        <ul>
+          <li><a href="/docs/ide/customization/codio-prefs">User Preferences</a></li>
+          <li><a href="/docs/ide/customization/project-prefs">Project Preferences</a>
+          <li><a href="/docs/ide/customization/prefs-list">Preferences List</a></li>
+          <li><a href="/docs/ide/customization/project-settings">Project Settings</a></li>
+          <li><a href="/docs/ide/customization/permissions">Project Permissions</a></li>
+        </ul>     
+      </div>
+    </div>
+  </div>
+</div>

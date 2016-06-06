@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-These settings are found within the IDE (a loaded project) from the `Project > Settings` menu item and also accessible from the [Dashboard](/docs/dashboard/projects)
+These settings are found within the IDE (a loaded project) from the `Project > Settings` menu item and also accessible from the [Dashboard](/docs/account)
 
 Project settings, as distinct from Project preferences, are used to store the following details about the project
 

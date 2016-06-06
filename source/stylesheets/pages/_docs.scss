@@ -72,7 +72,7 @@ body.docs .overview-section {
   @include container;
   @include break;
 
-  padding: 3rem 0;
+  padding-top: 1em;
 
   .docs-header-navigation-container > h2 {
     text-align: center;

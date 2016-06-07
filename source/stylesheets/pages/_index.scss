@@ -42,11 +42,7 @@ body.index .header-block {
   position: relative;
   padding-left: 0;
   padding-right: 0;
-  height: 430px;
-
-  @include breakpoint($break-tablet) {
-    height: auto;
-  }
+  height: auto;
 
   .subheader-block {
     @include span(4);
@@ -110,36 +106,86 @@ body.index .header-block {
     display: block;
     margin-top: 65px;
     padding: 0;
+    line-height: 0;
 
     @include breakpoint($break-tablet) {
       margin-top: 0;
     }
 
     .carousel-inner {
-      @include breakpoint($break-tablet) {
-        height: 400px;
-      }
+      line-height: $base-line-height;
 
-      @include breakpoint($max-width) {
-        height: 500px;
-      }
-
-      height: 300px;
-      vertical-align: middle;
+      height: auto;
       
       img {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        vertical-align: middle;
+      }
+
+      .banner1-text {
+        position: absolute;
+        text-align: left;
+        color: white;
+        top: 20%;
+        left: 10%;
+
+        h2 {
+          font-size: 1.8rem;
+        }
+
+        h3 {
+          font-size: 1rem;
+          margin: 0.6rem 0;
+        }
+
+        span {
+          display: none;
+        }
+
+        .button.button-large {
+          padding: 2px 15px;
+          font-size: 12px;
+        }
+
         @include breakpoint($break-tablet) {
-          height: 400px;
+          top: 23%;
+          left: 10%;
+
+          h2 {
+            font-size: 2.2rem;
+          }
+
+          h3 {
+            font-size: 1.2rem;
+            margin-top: 1.2rem;
+            margin-bottom: 1.8rem;
+          }
+
+          span {
+            display: inline-block;
+          }
         }
 
         @include breakpoint($max-width) {
-          height: 500px;
-        }
+          top: 28%;
+          left: 10%;
 
-        height: 285px;
-        width: auto;
-        margin: 0 auto;
-        vertical-align: middle;
+          h2 {
+            font-size: 2.5rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+          }
+
+          span {
+            display: inline-block;
+          }
+        }
       }
 
       .title-text {
@@ -267,7 +313,7 @@ body.index .header-block {
 
     .h_iframe {
       position: relative;
-    
+
       .ratio {
         display: block;
         width: 100%;

@@ -25,14 +25,13 @@ description: Codio is the platform used by educators to teach computer science. 
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <a href="https://codio.com/blog/codio-launches-plagiarism-feature-to-detect-cheating-in-programming-classes/">
-            <%= image_tag 'assets/index/carousel/c11.jpg', class: '' %>
+            <%= image_tag 'assets/index/carousel/banner1_500x1200.jpg', class: '' %>
           </a>
-          <div class="title-text">
-            <h2>New Plagiarism Checker</h2>
-            <div class="subtitle">
-              <h3>Is it collaboration or cheating?</h3>
-              <%= link_to 'Lean More', 'https://codio.com/blog/codio-launches-plagiarism-feature-to-detect-cheating-in-programming-classes/', class: 'button button-large button-main' %>
-            </div>
+          <div class="banner1-text">
+            <h2>Integrated debugger</h2>
+            <h3>Supports Java and Python.<span> NodeJS, C, C++ and PHP coming soon.</span></h3>
+            <%= link_to 'Lean More', 'https://codio.com/blog/integrated-debugger-launched-for-multiple-programming-languages/',
+              class: 'button button-large button-main' %>
           </div>
         </div>
         <div class="item">
@@ -56,7 +55,8 @@ description: Codio is the platform used by educators to teach computer science. 
             <h2>Integrated debugger</h2>
             <div class="subtitle">
               <h3>Supports Java and Python. NodeJS, C, C++ and PHP coming soon.</h3>
-              <%= link_to 'Lean More', 'https://codio.com/blog/integrated-debugger-launched-for-multiple-programming-languages/', class: 'button button-large button-main' %>
+              <%= link_to 'Lean More', 'https://codio.com/blog/codio-launches-plagiarism-feature-to-detect-cheating-in-programming-classes/',
+              class: 'button button-large button-main' %>
             </div>
           </div>
         </div>
@@ -79,37 +79,37 @@ description: Codio is the platform used by educators to teach computer science. 
     <div class="h_iframe">
       <%= image_tag 'assets/placeholdit.png', class: "ratio" %>
       <iframe src="https://player.vimeo.com/video/141552266?portrait=0"
-        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-      </iframe>
-    </div>
+      frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+    </iframe>
   </div>
+</div>
 
-  <hr/>
+<hr/>
 
-  <div class="index-section-scope">
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
-      </div>
-      <h3>Infrastucture as a service</h3>
-      <div class="scope-txt">Cloud based, Codio is low on hardware requirements and big on savings, realibility and flexibility.</div>
-      <%= link_to 'Learn more', '/features/infrastructure', class: 'button button-large scope-button' %>
+<div class="index-section-scope">
+  <div class="scope-item">
+    <div class="scope-img">
+      <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
     </div>
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/webbased.svg', class: '' %>
-      </div>
-      <h3>Web-based IDE</h3>
-      <div class="scope-txt">Less hassle than installing an IDE on your network or desktop, with no compromises on functionality.</div>
-      <%= link_to 'Learn more', '/features/ide', class: 'button button-large scope-button' %>
+    <h3>Infrastucture as a service</h3>
+    <div class="scope-txt">Cloud based, Codio is low on hardware requirements and big on savings, realibility and flexibility.</div>
+    <%= link_to 'Learn more', '/features/infrastructure', class: 'button button-large scope-button' %>
+  </div>
+  <div class="scope-item">
+    <div class="scope-img">
+      <%= inline_svg 'assets/index/webbased.svg', class: '' %>
     </div>
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
-      </div>
-      <h3>Project templates</h3>
-      <div class="scope-txt">The fast and simple way to create new computer science teaching projects, and adapt existing ones. 
-        You can use our pre-configured stacks or create you one.</div>
+    <h3>Web-based IDE</h3>
+    <div class="scope-txt">Less hassle than installing an IDE on your network or desktop, with no compromises on functionality.</div>
+    <%= link_to 'Learn more', '/features/ide', class: 'button button-large scope-button' %>
+  </div>
+  <div class="scope-item">
+    <div class="scope-img">
+      <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
+    </div>
+    <h3>Project templates</h3>
+    <div class="scope-txt">The fast and simple way to create new computer science teaching projects, and adapt existing ones. 
+      You can use our pre-configured stacks or create you one.</div>
       <%= link_to 'Learn more', '/features/templates', class: 'button button-large scope-button' %>
     </div>
   </div>
@@ -121,67 +121,67 @@ description: Codio is the platform used by educators to teach computer science. 
       <h3>Learning management</h3>
       <div class="scope-txt">Manage your computer science classes from the Codio dashboard. Watch your students progress through a course. 
         Assessments are auto-marked, so you save time.</div>
-      <%= link_to 'Learn more', '/features/management', class: 'button button-large scope-button' %>
-    </div>
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
+        <%= link_to 'Learn more', '/features/management', class: 'button button-large scope-button' %>
       </div>
-      <h3>Content authoring</h3>
-      <div class="scope-txt">Create your own course content either by uploading your class notes or
-        creating interactive content directly within the IDE.</div>
-      <%= link_to 'Learn more', '/features/content-authoring', class: 'button button-large scope-button' %>
-    </div>
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
-      </div>
-      <h3>Curriculum content</h3>
-      <div class="scope-txt">We've co-developed over 50 courses with Oxford, Cambridge and RSA (OCR) &mdash; all
-        mapped to the UK Computer Science national curriculum.</div>
-      <%= link_to 'Learn more', '/docs/teacher/courses/ocr/', class: 'button button-large scope-button' %>
-    </div>
-  </div>
-
-</section>
-
-<div class="index-section-testimonials">
-  <div class="testimonial-block-img">
-    <a href="https://codio.com/blog/kent-state-university-teaches-big-data-using-the-codio-platform/">
-      <%= image_tag 'assets/index/t1.jpg', class: '' %>
-    </a>
-  </div><!--
-
-  --><div class="testimonial-block-text light-theme">
-    <a href="https://codio.com/blog/kent-state-university-teaches-big-data-using-the-codio-platform/">
-      <div style="width: 100%; height: 100%">
-        <div class="txt-right">
-          <p>"I'm impressed with Codio’s Box technology and how it allows students to quickly spin up
-            a distributed system or even variations without having to purchase dedicated cloud servers
-            or administer systems in-house."</p>
-          <p class="txt-quotes">&mdash; Dr. DeLozier,<br/>Kent State University</p>
+      <div class="scope-item">
+        <div class="scope-img">
+          <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
         </div>
-      </div>
-    </a>
-  </div><!--
-
-  --><div class="testimonial-block-text dark-theme">
-    <a href="https://codio.com/blog/durham-johnston-school-codio-at-the-chalkface">
-      <div style="width: 100%; height: 100%">
-        <div class="txt-left">
-          <p> "Our A-Level students are completing a unit on HTML, CSS and Javascript. They really
-            like that Codio creates a URL that is viewable live on any machine."</p>
-          <p class="txt-quotes">&mdash; Ben Garside,<br/>Durham Johnston School</p>
+        <h3>Content authoring</h3>
+        <div class="scope-txt">Create your own course content either by uploading your class notes or
+          creating interactive content directly within the IDE.</div>
+          <%= link_to 'Learn more', '/features/content-authoring', class: 'button button-large scope-button' %>
         </div>
-      </div>
-    </a>
+        <div class="scope-item">
+          <div class="scope-img">
+            <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
+          </div>
+          <h3>Curriculum content</h3>
+          <div class="scope-txt">We've co-developed over 50 courses with Oxford, Cambridge and RSA (OCR) &mdash; all
+            mapped to the UK Computer Science national curriculum.</div>
+            <%= link_to 'Learn more', '/docs/teacher/courses/ocr/', class: 'button button-large scope-button' %>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="index-section-testimonials">
+        <div class="testimonial-block-img">
+          <a href="https://codio.com/blog/kent-state-university-teaches-big-data-using-the-codio-platform/">
+            <%= image_tag 'assets/index/t1.jpg', class: '' %>
+          </a>
   </div><!--
 
-  --><div class="testimonial-block-img">
-    <a href="https://codio.com/blog/durham-johnston-school-codio-at-the-chalkface">
-      <%= image_tag 'assets/index/t2.jpg', class: '' %>
-    </a>
-  </div>
+--><div class="testimonial-block-text light-theme">
+<a href="https://codio.com/blog/kent-state-university-teaches-big-data-using-the-codio-platform/">
+  <div style="width: 100%; height: 100%">
+    <div class="txt-right">
+      <p>"I'm impressed with Codio’s Box technology and how it allows students to quickly spin up
+        a distributed system or even variations without having to purchase dedicated cloud servers
+        or administer systems in-house."</p>
+        <p class="txt-quotes">&mdash; Dr. DeLozier,<br/>Kent State University</p>
+      </div>
+    </div>
+  </a>
+  </div><!--
+
+--><div class="testimonial-block-text dark-theme">
+<a href="https://codio.com/blog/durham-johnston-school-codio-at-the-chalkface">
+  <div style="width: 100%; height: 100%">
+    <div class="txt-left">
+      <p> "Our A-Level students are completing a unit on HTML, CSS and Javascript. They really
+        like that Codio creates a URL that is viewable live on any machine."</p>
+        <p class="txt-quotes">&mdash; Ben Garside,<br/>Durham Johnston School</p>
+      </div>
+    </div>
+  </a>
+  </div><!--
+
+--><div class="testimonial-block-img">
+<a href="https://codio.com/blog/durham-johnston-school-codio-at-the-chalkface">
+  <%= image_tag 'assets/index/t2.jpg', class: '' %>
+</a>
+</div>
 </div>
 
 <section class="index-content">
@@ -191,24 +191,24 @@ description: Codio is the platform used by educators to teach computer science. 
     <p>Codio contains a unique combination of technologies that you'll find hard to match.
       It provides a professional grade IDE, learning management tools, project templates,
       course authoring and curriculum all in one.</p>
-    <p></p>
-  </div>
-
-  <hr/>
-
-  <div class="index-section index-section-partners">
-    <h2>
-      Our Customers and Partners
-    </h2>
-    <div class="index-section-partners-img">
-      <%= image_tag 'assets/index/logos/aga_khan.png' %>
-      <%= image_tag 'assets/index/logos/duck_duck.png' %>
-      <%= image_tag 'assets/index/logos/durham.png' %>
-      <%= image_tag 'assets/index/logos/kent_state.png' %>
-      <%= image_tag 'assets/index/logos/ocr.png' %>
-      <%= image_tag 'assets/index/logos/partners-cas.png' %>
-      <%= image_tag 'assets/index/logos/partners-naace.png' %>
+      <p></p>
     </div>
-  </div>
-  <hr/>
-</section>
+
+    <hr/>
+
+    <div class="index-section index-section-partners">
+      <h2>
+        Our Customers and Partners
+      </h2>
+      <div class="index-section-partners-img">
+        <%= image_tag 'assets/index/logos/aga_khan.png' %>
+        <%= image_tag 'assets/index/logos/duck_duck.png' %>
+        <%= image_tag 'assets/index/logos/durham.png' %>
+        <%= image_tag 'assets/index/logos/kent_state.png' %>
+        <%= image_tag 'assets/index/logos/ocr.png' %>
+        <%= image_tag 'assets/index/logos/partners-cas.png' %>
+        <%= image_tag 'assets/index/logos/partners-naace.png' %>
+      </div>
+    </div>
+    <hr/>
+  </section>

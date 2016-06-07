@@ -7,12 +7,12 @@ full_width: true
 ## Classes
 In order to use this feature you need to set up a class. If you are not using Codio as your main IDE and want to use only the plagiarism detection feature then you should still follow these instructions and ask your students to upload their code into the project using Git or by uploading files manually.
 
-![](/img/docs/guides/plag-button.png)
+<img alt="authtoken" src="/img/docs/guides/plag-button.png" class="simple"/>
 
 ## Run
 You can see the 'Plagiarism' button near in the upper part of the screen. When you press this you are taken to the following screen.
 
-![](/img/docs/guides/plag-summary.png)
+<img alt="authtoken" src="/img/docs/guides/plag-summary.png" class="simple"/>
 
 This screen will show you any plagiarism reports that were run in the past. You can open these if you wish.
 

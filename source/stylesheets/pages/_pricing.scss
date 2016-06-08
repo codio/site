@@ -222,15 +222,15 @@ body.pricing .content {
       }
     }
 
+    .panel-heading a.collapsed:after {
+      content:"+";
+    }
+
     .panel-heading a:after {
       font-size: 30px;
       content:"-";
       float: right;
       color: grey;
-    }
-
-    .panel-heading a.collapsed:after {
-      content:"+";
     }
   }
 }

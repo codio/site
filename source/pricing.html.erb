@@ -30,27 +30,27 @@ description: Codio licences are for individuals, developers, schools, colleges u
     <li><a href="#school" data-toggle="tab"><div class="text-center"><span>Schools from K1-12</span></div></a></li>
     <li><a href="#university" data-toggle="tab"><span>University</span></a></li>
   </ul>
-  <div class="tab-content pricing-tab">
+  
+  <div class="tab-content pricing-tab pricing-tab-content">
+    <div class="currency-block">
+      <h4>Choose currency</h4>
+      United Kingdom - United States
+    </div>
+
+    <div class="pricing-content-col pricing-content-col-left">
+      <h3>Individual Licence</h3>
+    </div>
+    
     <div class="tab-pane fade in active" id="individual">
-      <div class="pricing-tab-content">
-        <div class="currency-block">
-          <h4>Choose currency</h4>
-          United Kingdom - United States
-        </div>
-
-        <%= partial 'pricing-tab-content' %>
-
-        <%= partial 'pricing-faq-individual' %>
-      </div>
+      <%= partial 'pricing-faq-individual' %>
     </div>
     <div class="tab-pane fade" id="business">
-      Profile
-    </div>
+      <%= partial 'pricing-faq-business' %>    </div>
     <div class="tab-pane fade" id="school">
-      Messages
+      <%= partial 'pricing-faq-school' %>
     </div>
     <div class="tab-pane fade" id="university">
-      Settings
+      <%= partial 'pricing-faq-university' %>
     </div>
   </div>
 </div>

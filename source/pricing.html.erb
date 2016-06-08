@@ -3,7 +3,7 @@ title: Pricing | Teaching code | Codio
 description: Codio licences are for individuals, developers, schools, colleges universities and other learning organisations — with a free 30 day trial.
 ---
 <div class="pricing-header">
-<div class="subheader-block">
+  <div class="subheader-block">
     <span>
       <div class="link-button-bar">
         <div class="button-container">
@@ -32,7 +32,16 @@ description: Codio licences are for individuals, developers, schools, colleges u
   </ul>
   <div class="tab-content pricing-tab">
     <div class="tab-pane fade in active" id="individual">
-      <%= partial 'pricing-individual' %>
+      <div class="pricing-tab-content">
+        <div class="currency-block">
+          <h4>Choose currency</h4>
+          United Kingdom - United States
+        </div>
+
+        <%= partial 'pricing-tab-content' %>
+
+        <%= partial 'pricing-faq-individual' %>
+      </div>
     </div>
     <div class="tab-pane fade" id="business">
       Profile

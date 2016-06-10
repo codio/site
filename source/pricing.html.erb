@@ -34,7 +34,18 @@ description: Codio licences are for individuals, developers, schools, colleges u
   <div class="tab-content pricing-tab pricing-tab-content">
     <div class="currency-block">
       <h4>Choose currency</h4>
-      United Kingdom - United States
+      <div class="display-price">
+        <ul class="currency">
+          <li class="currency-option">
+            <input class="currency-input" type="radio" value="pound" name="currency" checked/>
+            <span class="currency-label">&pound; (GBR)</span>
+          </li>
+          <li class="currency-option">
+            <input class="currency-input" type="radio" value="dollar" name="currency"/>
+            <span class="currency-label">$ (USD)</span>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="pricing-content-col pricing-content-col-left">
@@ -45,23 +56,14 @@ description: Codio licences are for individuals, developers, schools, colleges u
       <%= partial 'pricing-faq-individual' %>
     </div>
     <div class="tab-pane fade" id="business">
-      <%= partial 'pricing-faq-business' %>    </div>
+      <%= partial 'pricing-faq-business' %>
+    </div>
     <div class="tab-pane fade" id="school">
       <%= partial 'pricing-faq-school' %>
     </div>
     <div class="tab-pane fade" id="university">
       <%= partial 'pricing-faq-university' %>
     </div>
-  </div>
-</div>
-
-<hr/>
-
-<div class="pricing-slider">
-  <%= partial 'slider' %>
-  <div class="action-buttons">
-    <%= link_to 'Start trial', '/p/free-education-trial', class: 'button button-large button-action signup-link' %>
-    <%= mail_to 'help@codio.com', 'Contact us', class: 'button button-large button-dark open-intercom' %>
   </div>
 </div>
 

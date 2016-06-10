@@ -87,9 +87,7 @@ body.features {
       @include breakpoint($break-tablet) {
         width: span(13 of 32);
       }
-    }
 
-    .section-block {
       @include container;
       @include breakpoint($break-tablet) {
         float: left;

@@ -6,4 +6,4 @@ full_width: true
 
 This section contains key tools available in the Codio IDE.
 
-[Click here](/docs/ide/tools/bower) to start reading.
+[Click here](/docs/ide/tools/deployment) to start reading.

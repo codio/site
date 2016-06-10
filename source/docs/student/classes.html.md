@@ -1,35 +1,18 @@
 ---
-title: "Classes"
-description: "Accessing Class Coursework"
+title: "Joining a class as a student"
+
 ---
 
-If you are not part of a schools, university, colleges or other such organisation then you do not need to read this section.
-
-In most cases, your teacher will have added you to a Codio Class or has sent you a unique two word password to join a class. Go to 'Join a Class' in the left hand menu to enter this password and join the class. You can be a member of multiple classes.
-
-![Class List](/img/docs/class_join.png)
-
-## My Classroom
-
-The most recently accessed units will be shown to you at the top of the screen and you can simply click to open them and carry on where you left off.
-
-![Class List](/img/docs/class_recent.png)
+Your teacher can invite you to join classes that have been set up. This allows you to access the specific curriculum-mapped content and projects that have been assigned to you.
 
 
-The My Classroom dashboard is also where you can access and select any other class(es), course(s) and module(s) you wish to work with from the available drop downs. 
+Here is how you would join a class:
 
-![Class Courses](/img/docs/class_courses.png)
+1. Log in to your Codio account.
 
-## Unit Listing
-When you have selected your Module, then all the Units in that module will be displayed along with your progress that includes the number of Assessments in the Unit, the number you have answered, the number you have got correct and the Points (%). In most cases each Assessment is assigned 1 point but this may not always be the case.
+1. Go to **Join a Class** and enter the class token that your teacher has given you
+<img alt="authtoken" src="/img/docs/what_students_do/joinaclass/joinclass.png" class="simple"/>
 
-![Class Start](/img/docs/class_start.png)
-
-When you click on the Ready to Go button (circled) the Unit will be forked into your account and started. This may take a few seconds. 
-
-## My Projects Listing
-Any projects you have created yourself will appear in this listing.
-
-![Projects List](/img/docs/class_projects.png)
+1. To access your class in future, go to the [My Classroom](/docs/student/myclassroom) area
 
 

@@ -1,18 +1,42 @@
 <% wrap_layout :'layout' do %>
 
-  <div class="header-block">
-    <h2>How can we help you?</h2>
-  </div>
-
   <div class="docs-content">
-    <%= partial 'docs-header-navigation' %>
+
+    <%= partial "docs/actions" %>
+
+    <div class="crumbs">
+      <%- crumbs = nav_pages(current_resource.url) -%>
+
+      <% crumbs.each do |resource| %>
+        <% ordered(resource).each do |child| %>
+
+          <% if current_section? child.url %>
+            <a href="/docs">Documentation</a> &gt;
+            <%=  link_to child.data.title, child.url %>
+
+            <% ordered(child).each do |p| %>
+              <% if current_section? p.url %>
+                &gt; <%=  link_to p.data.title, p.url %>
+                  <% if p.children.length > 0 %>
+                    <% ordered(p).each do |inner| %>
+                      <% if current_page? inner.url %>
+                        &gt; <%= link_to inner.data.title, inner.url %>
+                      <% end %>
+                  <% end %>
+                <% end %>
+              <% end %>
+            <% end %>
+          <% end %>
+        <% end %>
+      <% end %>
+    </div>
 
     <%= partial 'docs-side-navigation' %>
 
     <article data-swiftype-name="body" data-swiftype-type="text" class="docs-body">
-      <h1 data-swiftype-name="title" data-swiftype-type="string">
+      <h2 data-swiftype-name="title" data-swiftype-type="string">
         <%= current_resource.data.title %>
-      </h1>
+      </h2>
       <%= yield %>
     </article>
 
@@ -24,4 +48,5 @@
         "datePublished": "<%= File.ctime(Dir.glob("source/#{current_resource.path}*")[0]).iso8601 %>"
       }
     </script>
+  </div>
 <% end %>

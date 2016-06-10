@@ -8,7 +8,7 @@ full_width: true
 
 The main report output is a ranking of the submissions. Several metrics are used, and then an overall rank is produced for each entry. The top line for each entry shows its overall rank as well as the score on each metric. Next to the score is the ranking within that metric. 
 
-![](/img/docs/guides/plag-main-report.png)
+<img alt="authtoken" src="/img/docs/guides/plag-main-report.png" class="simple"/>
 
 The metrics are
 

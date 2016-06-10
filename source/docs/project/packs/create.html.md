@@ -32,4 +32,4 @@ If you want to keep your Starter Pack private to your Organization, you can sele
 You can specify whether other Codio Users within your Organization are able to access and Administer your Packs. If you are not a member of an Organization, this cannot be used.
 
 ##Write a Guide
-[Codio Guides](/docs/account/content/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a Starter Pack for tuition purposes, a Guide is extremely useful and easy to use.
+[Codio Guides](/docs/content/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a Starter Pack for tuition purposes, a Guide is extremely useful and easy to use.

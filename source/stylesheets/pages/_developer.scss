@@ -141,7 +141,7 @@ body.developer .header-block {
       margin: 0 span(2 of 16);
       float: inherit;
       max-width: $max-width;
-      padding: 3rem 1rem;
+      padding: 3rem 0;
     }
 
     @include breakpoint($max-width) {
@@ -171,6 +171,51 @@ body.developer .header-block {
           &:hover {
             color: #aaf;
           }
+        }
+      }
+
+      @include breakpoint($break-tablet) {
+        h4 {
+          font-size: 28px;
+          font-weight: 400;
+        }
+
+        p {
+          font-size: 20px;
+        }
+
+        .section-block-copy {
+          //min-height: 324px;
+        }
+      }
+
+      @include breakpoint($max-width) {
+        h4 {
+          font-size: 32px;
+          font-weight: 400;
+        }
+
+        p {
+          font-size: 22px;
+        }
+
+        .section-block-copy {
+          //min-height: 252px;
+        }
+      }
+
+      @include breakpoint(1300px) {
+        h4 {
+          font-size: 32px;
+          font-weight: 400;
+        }
+
+        p {
+          font-size: 22px;
+        }
+
+        .section-block-copy {
+          //min-height: 216px;
         }
       }
 
@@ -204,7 +249,7 @@ body.developer .header-block {
     }
 
     &.testimonial {
-      
+
       .bubble-container {
         @include container;
         @include break;
@@ -264,7 +309,7 @@ body.developer .header-block {
       }
 
       .bubble-section.quote {
-        
+
         @include breakpoint($break-tablet) {
           padding-top: 2rem;
         }
@@ -389,7 +434,7 @@ body.developer .header-block {
         }
       }
     }
-  
+
     &.ide, &.features {
       padding-top: 0;
       padding-bottom: 1rem;
@@ -449,7 +494,7 @@ body.developer .header-block {
     }
 
     &.features {
-      
+
       h3 {
         min-height: 5rem;
         vertical-align: middle;
@@ -477,7 +522,7 @@ body.developer .header-block {
 
       .section-block-copy {
         clear: both;
-                a {
+        a {
           color: #55f;
           text-decoration: underline;
 
@@ -591,6 +636,15 @@ body.developer .header-block {
 
     .section-block {
       margin-bottom: 3rem;
+
+      //h2 {
+      //  font-size: 32px;
+      //  font-weight: 400;
+      //}
+
+      //p {
+      //  font-weight: 22px;
+      //}
 
       @include breakpoint($break-tablet) {
         width: span(14 of 32);

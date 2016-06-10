@@ -20,17 +20,34 @@ fixed: true
 <section class="developer-body">
   <div class="section top">
     <h2 class="section-header">Codio for students and professionals</h2>
-    <h4>Student?</h4>
-    <p>Codio is designed for anyone interested in learning to code. If you are a complete begginer,
-      don't worry! Codio is used by computer science teachers for students of all levels. You can purchase
-      an individual licence and pay on a mounthly basis.</p>
-    <%= link_to 'Features', '/features', class: 'button button-large button-top' %>
 
-    <h4>Professional Developer?</h4>
-    <p>No problem. Codio is a web-based front-end IDE that addresses all aspects of the development
-      lifecycle &mdash; from prototype to deployment. It has features of a desktop IDE but the
-      usability that developers expect in modern browser-based applications.</p>
-    <%= link_to 'See our pricing', '/pricing', class: 'button button-large button-top' %>
+    <div class="section-block-row">
+      <div class="section-block">
+        <h4>
+          Student?
+        </h4>
+        <div class="section-block-copy">
+          <p>Codio is designed for anyone interested in learning to code. If you are a complete begginer,
+            don't worry! Codio is used by computer science teachers for students of all levels. You can purchase
+            an individual licence and pay on a mounthly basis.
+          </p>
+        </div>
+        <%= link_to 'Features', '/features', class: 'button button-large button-top' %>
+      </div>
+      <div class="section-block">
+        <h4>
+          Professional Developer?
+        </h4>
+        <div class="section-block-copy">
+          <p>No problem. Codio is a web-based front-end IDE that addresses all aspects of the development
+            lifecycle &mdash; from prototype to deployment. It has features of a desktop IDE but the
+            usability that developers expect in modern browser-based applications.
+          </p>
+        </div>
+        <%= link_to 'See our pricing', '/pricing', class: 'button button-large button-top' %>
+      </div>
+    </div>
+
   </div>
 
   <hr/>
@@ -64,7 +81,7 @@ fixed: true
   </div>
 
   <hr/>
-  
+
   <div class="section ide">
     <h3 class="chrome-store">5 stars on the chrome web store</h3>
     <span></span>

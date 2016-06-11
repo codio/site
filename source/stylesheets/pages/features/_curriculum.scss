@@ -43,7 +43,7 @@ body.features_curriculum .header-block {
     margin-right: 1rem;
 
     @include breakpoint($break-tablet) {
-      line-height: 25px;
+      line-height: 35px;
       max-width: 800px;
       margin-left: auto;
       margin-right: auto;
@@ -117,6 +117,15 @@ body.features_curriculum .curriculum-body {
     p {
       font-size: 26px;
       line-height: 1.5 * $base-line-height;
+    }
+
+    a {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #00c;
     }
   }
   .section.showcase {

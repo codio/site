@@ -10,8 +10,6 @@
 @import 'breakpoint';
 
 @import 'bootstrap_codio';
-//@import "bootstrap-sprockets";
-//@import "bootstrap";
 
 @import 'mixins';
 @import 'variables';
@@ -42,7 +40,7 @@ $susy: (
 
 @import 'partials/header';
 @import 'partials/footer';
-@import 'partials/slider';
+//@import 'partials/slider';
 @import 'partials/docs-header-navigation';
 @import 'partials/docs-side-navigation';
 @import 'partials/call-to-action';

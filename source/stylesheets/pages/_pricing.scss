@@ -195,7 +195,10 @@ body.pricing .content {
       @include span(6 of 16);
     }
   }
+
   .pricing-content-col-left {
+    text-align: left;
+
     @include breakpoint($break-tablet) {
       margin-left: span(1.5 of 16);
       margin-right: span(.5 of 16);
@@ -248,7 +251,7 @@ body.pricing .content {
   .currency-option {
     position: relative;
     float: left;
-    min-height: 25px;
+    min-height: 30px;
   }
 
   .currency-input {
@@ -258,7 +261,7 @@ body.pricing .content {
     margin: 0;
     padding: 0;
     width: 80px;
-    height: 25px;
+    height: 30px;
   }
 
   .currency-label {
@@ -268,8 +271,23 @@ body.pricing .content {
     margin: 0;
     padding: 0;
     width: 80px;
-    height: 25px;
+    height: 30px;
     display: inline-block
+  }
+
+  .currency-label-uk, .currency-label-us {
+    line-height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    //cursor: pointer;
+    color: $light-gray;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .currency-label-uk {
+    color: $dark-gray;
   }
 
   .currency-input:checked + .currency-label {
@@ -277,20 +295,125 @@ body.pricing .content {
     background-color: $dark-gray;
     font-weight: 500;
   }
+}
 
+.price-count-block {
+  color: $orange;
+  margin-top: 25px;
+
+  .currency-type {
+    font-size: 1.8rem;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+  }
 
   .amount {
-    font-size: 2.369rem;
+    font-size: 3.2rem;
     min-width: 6rem;
     text-align: right;
     display: inline-block;
   }
 
   .divider {
-    font-size: 1.33rem;
+    font-size: 1.6rem;
+    position: relative;
+    top: 15px;
   }
 
   .range {
-    font-size: 1.33rem;
+    font-size: 1.6rem;
+    position: relative;
+    top: 15px;
+  }
+
+  .zero {
+    font-size: 1.6rem;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: -102px;
+  }
+}
+
+.count {
+  @include container;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+
+  @include breakpoint($break-tablet) {
+    //@include span(3 of 16);
+    //margin-right: span(2 of 16);
+    text-align: left;
+    padding-top: 2rem;
+    margin-top: -.5rem;
+  }
+
+  .count-block {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+  }
+
+  .number {
+    font-size: 3rem;
+  }
+
+  .currency {
+    width: 50%;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background-color: transparent;
+    list-style: none;
+  }
+
+  .currency-option {
+    position: relative;
+    float: left;
+    min-height: 30px;
+  }
+
+  .currency-input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 30px;
+  }
+
+  .currency-label {
+    background: $light-gray;
+    cursor: pointer;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 30px;
+    display: inline-block
+  }
+
+  .currency-label-uk, .currency-label-us {
+    line-height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
+    //cursor: pointer;
+    color: $light-gray;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .currency-label-uk {
+    color: $dark-gray;
+  }
+
+  .currency-input:checked + .currency-label {
+    color: white;
+    background-color: $dark-gray;
+    font-weight: 500;
   }
 }

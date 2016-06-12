@@ -464,3 +464,25 @@ body.pricing .content {
     list-style-type: disc;
   }
 }
+
+.action-buttons {
+  margin-top: 2rem;
+  width: 100%;
+
+  .learn-more-link {
+    float: right;
+    width: 50%;
+    text-align: right;
+    text-decoration: underline;
+  }
+}
+
+.information-block {
+  margin-top: 3rem;
+  font-size: 1rem;
+  font-weight: 300;
+
+  a {
+    text-decoration: underline;
+  }
+}

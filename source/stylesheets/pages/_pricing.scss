@@ -447,3 +447,20 @@ body.pricing .content {
     }
   }
 }
+
+.dropdown-hint-text {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.features-list {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+
+  .list {
+    padding-left: 1rem;
+    list-style-type: disc;
+  }
+}

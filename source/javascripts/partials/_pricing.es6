@@ -29,9 +29,14 @@ const $types = $typeList.find('li.item')
 const $currencyOption = $('.currency-block .currency-option')
 const $tabs = $('.nav-tabs li')
 const $countNumber = $('.pricing-content-col .count .number')
-//const $currency = $('.pricing-content-col .currency')
 const $amount = $('.pricing-content-col .amount')
 const $range = $('.pricing-content-col .range')
+
+const params = name => {
+  const results = new RegExp(`[\?&]${name}=([^&#]*)`).exec(window.location.href)
+  if (results == null) return null
+    return results[1] || 0
+}
 
 const defaultType = params('type') ? 'university' : 'school'
 
@@ -46,6 +51,7 @@ const state = {
 const setCurrency = currency => {
   state.currency = currency
   $currency.find(`input[name=currency][value=${currency}]`).prop('checked', true)
+  $currency.find(`input[name=currency][value=${currency}]`).trigger('change')
 }
 
 const findItem = type => $typeList.find('li[data-type="' + type + '"]')
@@ -85,10 +91,22 @@ const setupCurrencySelector = () => {
   })
 }
 
+const fillUserLicences = () => {
+
+}
+
 const setupSelector = () => {
+  const $active = findItem(state.type)
+  $active.addClass('active')
+
   $tabs.on('shown.bs.tab', function(e) {
     const $type = $(this).data('type')
+
     setType($type.toLowerCase())
+    setCurrency(DEFAULT_CURRENCY[state.type])
+
+    fillUserLicences()
+
     $('.pricing-content-col h3').text($type + " Licence")
   })
 }

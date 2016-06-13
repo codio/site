@@ -23,114 +23,157 @@ const DEFAULT_RANGE = {
   university: 'year'
 }
 
-const $currency = $('.currency-block .currency')
-const $typeList = $('.nav .nav-tabs')
-const $types = $typeList.find('li.item')
-const $currencyOption = $('.currency-block .currency-option')
-const $tabs = $('.nav-tabs li')
-const $countNumber = $('.pricing-content-col .count .number')
-const $amount = $('.pricing-content-col .amount')
-const $range = $('.pricing-content-col .range')
+const $currency = $('.currency-block .currency');
+const $typeList = $('.nav .nav-tabs');
+const $types = $typeList.find('li.item');
+const $currencyOption = $('.currency-block .currency-option');
+const $tabs = $('.nav-tabs li');
+const $countNumber = $('.pricing-content-col .count .number');
+const $amount = $('.pricing-content-col .amount');
+const $range = $('.pricing-content-col .range');
 
 const params = name => {
-  const results = new RegExp(`[\?&]${name}=([^&#]*)`).exec(window.location.href)
+  const results = new RegExp(`[\?&]${name}=([^&#]*)`).exec(window.location.href);
   if (results == null) return null
-    return results[1] || 0
+    return results[1] || 0;
 }
 
-const defaultType = params('type') ? params('type') : 'school'
+const defaultType = params('type') ? params('type') : 'school';
 
 const state = {
   symbol: '$', 
   oldType: defaultType,
   type: defaultType,
+  step: 0,
   range: DEFAULT_RANGE['school'],
   currency: DEFAULT_CURRENCY['school'],
 }
 
-const setCurrency = currency => {
-  state.currency = currency
-  $currency.find(`input[name=currency][value=${currency}]`).prop('checked', true)
-  $currency.find(`input[name=currency][value=${currency}]`).trigger('change')
+const isSafeStep = (step = state.step) => {
+  const pricesOld = PRICES[state.oldType];
+  const pricesNew = PRICES[state.type];
+
+  if (pricesNew[step] === undefined) return false;
+
+  return pricesOld[step].count === pricesNew[step].count;
 }
 
-const findItem = type => $typeList.find('li[data-type="' + type + '"]')
+const findItem = type => $typeList.find('li[data-type="' + type + '"]');
 
 const currentSelection = (step = state.step) => {
-  return PRICES[state.type][step]
+  return PRICES[state.type][step];
 }
 
 const updateDisplay = step => {
   $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
   
-  const $current = currentSelection(step)
-  const $price = $current.price[state.range][state.currency]
+  const $current = currentSelection(step);
+  const $price = $current.price[state.range][state.currency];
 
-  $countNumber.text(numeral($current.count).format('0,0'))
+  $countNumber.text(numeral($current.count).format('0,0'));
 
-  setCurrency(state.currency)
-  $amount.text(numeral($price).format('0,0'))
-  $range.text(state.range)
+  setCurrency(state.currency);
+  $amount.text(numeral($price).format('0,0'));
+  $range.text(state.range);
 }
 
 const setType = type => {
-  state.oldType = state.type
-  state.type = type
-  state.range = DEFAULT_RANGE[type]
+  state.oldType = state.type;
+  state.type = type;
+  state.range = DEFAULT_RANGE[type];
 }
 
-const setupCurrencySelector = () => {
-  $currency.find('input[name=currency]').on('change', function () {
-    state.currency = this.value
-    if (this.value == "dollar") {
-    	$('.display-price .currency-label-uk').css({"color" : "#a8b2c4"})
-      $('.display-price .currency-label-us').css({"color" : "#212c3f"})
-      state.symbol = "$"
-    } else {
-      $('.display-price .currency-label-uk').css({"color" : "#212c3f"})
-      $('.display-price .currency-label-us').css({"color" : "#a8b2c4"})
-      state.symbol = "£"
-    }
-    updateDisplay()
-  })
+const setCurrencySign = () => {
+  if (state.currency == "dollar") {
+    $('.display-price .currency-label-uk').css({"color" : "#a8b2c4"});
+    $('.display-price .currency-label-us').css({"color" : "#212c3f"});
+    state.symbol = "$";
+  } else {
+    $('.display-price .currency-label-uk').css({"color" : "#212c3f"});
+    $('.display-price .currency-label-us').css({"color" : "#a8b2c4"});
+    state.symbol = "£";
+  }
+}
+
+const setCurrency = currency => {
+  state.currency = currency;
+  $currency.find(`input[name=currency][value=${currency}]`).prop('checked', true);
+  setCurrencySign();
 }
 
 const fillUserLicences = () => {
-  const $list = $('.dropdown ul')
-  $list.find('li').remove()
+  const $list = $('.dropdown ul');
+  $list.find('li').remove();
 
-  let $index = 0
+  let $index = 0;
   for (let current of PRICES[state.type]) {
-    const $price = current.price[state.range][state.currency]
-    $list.append('<li><a data-index="' + $index + '">' + numeral(current.count).format('0,0') + '</a></li>')
-    $index++
+    const $price = current.price[state.range][state.currency];
+    $list.append('<li><a class="menu-item" data-index="' + $index + '">' + numeral(current.count).format('0,0') + '</a></li>');
+    $index++;
   }
 
   $(".dropdown .dropdown-menu li a").click(function(){
-    const $index = $(this).data('index')
-    updateDisplay($index)
+    const $index = $(this).data('index');
+    state.step = $index;
+    updateDisplay($index);
   });
+}
 
+const updateFeatures = () => {
+  const $featuresList = $('.features-list ul');
+  $featuresList.find('li').remove();
+
+  switch (state.type) {
+    case "individual":
+      $featuresList.append('<li>Full IDE & terminal access</li>');
+      $featuresList.append('<li>Unlimited private projects</li>');
+      $featuresList.append('<li>Extensive support</li>');
+      break;
+    case "business":
+      break;
+    case "school":
+      break;
+    case "university":
+      $featuresList.append('<li>Auto-Graded Assessments</li>');
+      $featuresList.append('<li>Full IDE & terminal access</li>');
+      $featuresList.append('<li>LMS Integration</li>');
+      $featuresList.append('<li>Create project templates for your class</li>');
+      $featuresList.append('<li>Unlimited Servers and private projects</li>');
+      $featuresList.append('<li>Extensive university support</li>');
+      break;
+    default:
+      break;
+  }
 }
 
 const setupSelector = () => {
+  $currency.find('input[name=currency]').on('change', function () {
+    state.currency = this.value;
+    setCurrencySign();
+    updateDisplay();
+  });
+
   $tabs.on('shown.bs.tab', function(e) {
-    const $type = $(this).data('type')
+    const $type = $(this).data('type');
 
-    setType($type)
-    setCurrency(DEFAULT_CURRENCY[state.type])
+    setType($type);
+    setCurrency(DEFAULT_CURRENCY[state.type]);
 
-    fillUserLicences()
+    if (!isSafeStep()) {
+      state.step = DEFAULT_START[state.type];
+    }
 
-    $('.pricing-content-col h3').text($type + " Licence")
+    fillUserLicences();
+    updateFeatures();
 
-    $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click()
-  })
+    $('.pricing-content-col h3').text($type + " Licence");
+
+    $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
+  });
 }
 
 $(() => {
-  setupCurrencySelector()
-  setupSelector()
+  setupSelector();
 
-  $('#pricingTab a[href="#' + state.type + '"]').tab('show')
+  $('#pricingTab a[href="#' + state.type + '"]').tab('show');
 })

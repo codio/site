@@ -203,6 +203,14 @@ body.pricing .content {
       margin-left: span(1.5 of 16);
       margin-right: span(.5 of 16);
     }
+
+    .first-letter-uppercase {
+      text-transform: lowercase;
+
+      &:first-letter {
+        text-transform: uppercase;
+      }
+    }
   }
 
   .pricing-content-col-right {
@@ -420,6 +428,38 @@ body.pricing .content {
 .dropdown {
   margin-top: 1rem;
   box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.4);
+
+  .dropdown-menu {
+    width: 100%;
+    list-style: none;
+
+    .menu-option {
+      //position: relative;
+      //float: left;
+      //min-height: 30px;
+    }
+
+    .menu-input {
+      opacity: 0;
+      position: absolute;
+      cursor: pointer;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      //height: 30px;
+    }
+
+    .menu-label {
+      cursor: pointer;
+      color: $dark-gray;
+      margin: 0;
+      padding: 0;
+      //width: 80px;
+      //height: 30px;
+      //display: inline-block
+    }
+
+  }
 
   .btn-default {
     background-color: white;

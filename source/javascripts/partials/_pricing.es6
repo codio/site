@@ -38,7 +38,7 @@ const params = name => {
     return results[1] || 0
 }
 
-const defaultType = params('type') ? 'university' : 'school'
+const defaultType = params('type') ? params('type') : 'school'
 
 const state = {
   symbol: '$', 
@@ -56,17 +56,21 @@ const setCurrency = currency => {
 
 const findItem = type => $typeList.find('li[data-type="' + type + '"]')
 
+const currentSelection = (step = state.step) => {
+  return PRICES[state.type][step]
+}
+
 const updateDisplay = step => {
   $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
   
-  //const current = currentSelection(step)
-  //const price = current.price[state.range][state.currency]
+  const $current = currentSelection(step)
+  const $price = $current.price[state.range][state.currency]
 
-  //$countNumber.text(numeral(current.count).format('0,0'))
+  $countNumber.text(numeral($current.count).format('0,0'))
 
-  //setCurrency(state.currency)
-  //$amount.text(numeral(price).format('0,0'))
-  //$range.text(state.range)
+  setCurrency(state.currency)
+  $amount.text(numeral($price).format('0,0'))
+  $range.text(state.range)
 }
 
 const setType = type => {
@@ -92,26 +96,41 @@ const setupCurrencySelector = () => {
 }
 
 const fillUserLicences = () => {
+  const $list = $('.dropdown ul')
+  $list.find('li').remove()
+
+  let $index = 0
+  for (let current of PRICES[state.type]) {
+    const $price = current.price[state.range][state.currency]
+    $list.append('<li><a data-index="' + $index + '">' + numeral(current.count).format('0,0') + '</a></li>')
+    $index++
+  }
+
+  $(".dropdown .dropdown-menu li a").click(function(){
+    const $index = $(this).data('index')
+    updateDisplay($index)
+  });
 
 }
 
 const setupSelector = () => {
-  const $active = findItem(state.type)
-  $active.addClass('active')
-
   $tabs.on('shown.bs.tab', function(e) {
     const $type = $(this).data('type')
 
-    setType($type.toLowerCase())
+    setType($type)
     setCurrency(DEFAULT_CURRENCY[state.type])
 
     fillUserLicences()
 
     $('.pricing-content-col h3').text($type + " Licence")
+
+    $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click()
   })
 }
 
 $(() => {
   setupCurrencySelector()
   setupSelector()
+
+  $('#pricingTab a[href="#' + state.type + '"]').tab('show')
 })

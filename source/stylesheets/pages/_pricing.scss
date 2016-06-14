@@ -498,6 +498,16 @@ body.pricing .content {
   margin-top: 2rem;
   width: 100%;
 
+  .button-dark {
+    background-color: $dark-gray;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: $dark-gray;
+    }
+  }
+
   .learn-more-link {
     float: right;
     width: 50%;

@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+sname: privacy
 ---
 
 **Last Updated 12th April 2016**

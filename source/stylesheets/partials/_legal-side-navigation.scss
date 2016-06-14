@@ -1,0 +1,76 @@
+.legal-side-navigation {
+  @include container;
+
+  margin: 0 gutter() 2rem gutter();
+
+  font-family: $heading-font-family;
+
+  @include breakpoint($break-tablet) {
+    display: block;
+    position: absolute;
+    @include span(8 of 32);
+    max-width: 320px;
+
+    &.affix-top {
+      margin-top: 0;
+      position: absolute;
+    }
+
+    &.affix {
+      top: 2 * $base-line-height;
+      position: fixed;
+    }
+  }
+
+  @include breakpoint($max-width) {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .item {
+    margin-left: - $base-line-height / 2;
+    padding: .2rem $base-line-height / 2;
+    margin-top: $base-line-height / 2;
+
+    &:hover {
+      font-weight: 700;
+      //background-color: $light-blue;
+    }
+  }
+
+  .item.active {
+    background: $light-blue;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .arrow-box {
+    position: relative;
+    background: $light-blue;
+  }
+
+  .arrow-box:after, .arrow-box:before {
+    left: 100%;
+    top: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .arrow-box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: $light-blue;
+    border-width: 17px;
+    margin-top: -7px;
+  }
+  
+  .arrow-box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: transparent;
+    border-width: 20px;
+    margin-top: -30px;
+  }
+
+}

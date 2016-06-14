@@ -338,7 +338,7 @@ const documentation = [
 ]
 
 const settings = [
-  '/docs/acount',
+  '/docs/settings',
   '/docs/ide/customization/codio-prefs',
   '/docs/ide/customization/project-prefs',
   '/docs/ide/customization/prefs-list',

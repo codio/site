@@ -17,5 +17,5 @@ Account Settings lets you manage the following
 
 
 
-Please refer to the [Account](/docs/account) section.
+
 

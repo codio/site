@@ -257,31 +257,6 @@ body.pricing .content {
         content: "-";
       }
     }
-
-    /*
-    .panel-heading a.collapsed:after {
-      content:"+";
-    }
-
-    .panel-heading a:after {
-      font-size: 30px;
-      content:"-";
-      float: right;
-      color: grey;
-    }
-    
-    .panel-heading.collapsed a:after {
-      content:"+";
-    }
-
-    .panel-heading {
-      a:after {
-        font-size: 30px;
-        content:"-";
-        float: right;
-        color: grey;
-      }
-    }*/
   }
 }
 
@@ -328,7 +303,6 @@ body.pricing .content {
     line-height: 0.7rem;
     vertical-align: middle;
     display: inline-block;
-    //cursor: pointer;
     color: $light-gray;
     height: 30px;
     font-size: 20px;
@@ -564,5 +538,13 @@ body.pricing .content {
 
   a {
     text-decoration: underline;
+  }
+}
+
+.payment_cards {
+  margin-top: 2rem;
+
+  img {
+    width: 64px;
   }
 }

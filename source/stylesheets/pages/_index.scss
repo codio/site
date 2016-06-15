@@ -12,82 +12,354 @@ body.index {
   }
 }
 
+.vertical {
+  /* Internet Explorer 10 */
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  /* Safari, Opera, and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
+
 body.index .header-block {
   @include span(4);
-  background: url('/img/assets/index/atf.jpg') no-repeat top center fixed;
+  
   background-size: cover;
-  background-color: $dark-gray;
-  height: 100vh;
-  max-height: 800px;
-  color: white;
+  background: $dark-gray;
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  height: auto;
 
-  @include breakpoint($break-tablet) {
-    background: url('/img/assets/index/atf.jpg') no-repeat top center fixed;
-    background-color: $dark-gray;
-  }
+  .subheader-block {
+    @include span(4);
 
-  @include breakpoint($max-width) {
-    background: url('/img/assets/index/atf-large.jpg') no-repeat top center fixed;
-    background-color: $dark-gray;
-  }
-
-  h1 {
-    margin-top: 4 * $base-line-height;
-    font-size: 40px;
-    font-weight: 300;
+    background: $lighter-gray;
+    background-size: cover;
+    margin: 10px auto 0 auto;
     text-align: center;
-    animation-delay: .4s;
 
     @include breakpoint($break-tablet) {
-      margin-top: 8 * $base-line-height;
+      height: auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    span {
+      display: none;
+
+      @include breakpoint($break-tablet)
+      {
+        display: block;
+      }
+    }
+
+    .link-button-bar {
+      background: $lighter-gray;
+      margin: 0 auto 0px auto;
+      text-align: center;
+
+      .button-container {
+        @include container;
+        @include break;
+
+        float: none;
+        margin: 0 auto;
+      }
+
+      .button {
+        display: inline-block;
+        color: $dark-gray;
+        border: none;
+        width: 20%;
+        max-width: 150px;
+        height: auto;
+        padding: 0;
+      }
+
+      .button-large {
+        padding: 0 auto;
+      }
+
+      .button:hover {
+        color: white;
+        background-color: $light-gray;
+      }
     }
   }
 
-  h2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 20px;
-    animation-delay: .8s;
-  }
+  .carousel-block {
+    @include span(4);
+    display: block;
+    margin-top: 65px;
+    padding: 0;
+    line-height: 0;
 
-  .action-buttons {
-    animation-delay: 1.2s;
-    margin: 90px auto 0 auto;
-    text-align: center;
-
-    .button:first-child {
-      margin-right: 15px;
-      padding: 5px 40px;
+    @include breakpoint($break-tablet) {
+      margin-top: 0;
     }
-  }
 
-  .scrollto {
-    .arrows {
-      width: 60px;
-      height: 72px;
+    .carousel-inner {
+      line-height: $base-line-height;
+
+      height: auto;
+      
+      img {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        vertical-align: middle;
+      }
+
+      .banner1-text {
+        position: absolute;
+        text-align: left;
+        color: white;
+        top: 20%;
+        left: 10%;
+
+        h2 {
+          font-size: 1.8rem;
+        }
+
+        h3 {
+          font-size: 1rem;
+          margin: 0.6rem 0;
+        }
+
+        span {
+          display: none;
+        }
+
+        .button.button-large {
+          padding: 2px 15px;
+          font-size: 12px;
+        }
+
+        @include breakpoint($break-tablet) {
+          top: 23%;
+          left: 10%;
+
+          h2 {
+            font-size: 2.2rem;
+          }
+
+          h3 {
+            font-size: 1.2rem;
+            margin-top: 1.2rem;
+            margin-bottom: 1.8rem;
+          }
+
+          span {
+            display: inline-block;
+          }
+
+          .button.button-large {
+            padding: 4px 20px;
+            font-size: 14px;
+          }
+        }
+
+        @include breakpoint($max-width) {
+          top: 28%;
+          left: 10%;
+
+          h2 {
+            font-size: 2.5rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+          }
+
+          span {
+            display: inline-block;
+          }
+
+          .button.button-large {
+            padding: 5px 25px;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .banner3-text {
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 20%;
+        left: 25%;
+
+        h2 {
+          font-size: 1.8rem;
+        }
+
+        h3 {
+          font-size: 1rem;
+          margin: 0.6rem 0;
+        }
+
+        span {
+          display: none;
+        }
+
+        .button.button-large {
+          padding: 2px 15px;
+          font-size: 12px;
+        }
+
+        @include breakpoint($break-tablet) {
+          top: 23%;
+          left: 30%;
+
+          h2 {
+            font-size: 2.2rem;
+          }
+
+          h3 {
+            font-size: 1.2rem;
+            margin-top: 1.2rem;
+            margin-bottom: 1.8rem;
+          }
+
+          span {
+            display: inline-block;
+          }
+
+          .button.button-large {
+            padding: 4px 20px;
+            font-size: 14px;
+          }
+        }
+
+        @include breakpoint($max-width) {
+          top: 28%;
+          left: 35%;
+
+          h2 {
+            font-size: 2.5rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+          }
+
+          span {
+            display: inline-block;
+          }
+
+          .button.button-large {
+            padding: 5px 25px;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .title-text {
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        left: 15%;
+        width: 70%;
+        color: #000;
+        background: $lighter-gray;
+        opacity: 0.8;
+        
+        @include breakpoint($break-tablet) {
+          top: 30%
+        }
+
+        @include breakpoint($max-width) {
+          top: 35%;
+        }
+
+        .subtitle {
+          margin-bottom: 1rem;
+
+          .button {
+            display: inline-block;
+            padding: 0;
+            height: auto;
+          }
+          .button-large {
+            padding: 5px 15px;
+          }
+        }
+
+        h2 {
+          font-size: 32px;
+        }
+
+        h3 {
+          font-size: 26px;
+          display: inline-block;
+          padding-right: 1rem;
+        }
+      }
+    }
+
+    .carousel-control.left, .carousel-control.right {
+      background-image: none;
+      background-repeat: no-repeat;
+      text-shadow: none;
+    }
+
+    .carousel-indicators .active {
+      background-color: #2980b9;
+    }
+
+    .carousel-control {
+      width: 0;
+    }
+
+
+    .carousel-control.left span {
+      margin: 0;
+    }
+
+    .carousel-control.right span {
+      margin: 0;
+    }
+
+    .carousel-control .glyphicon-chevron-left, 
+    .carousel-control .glyphicon-chevron-right, 
+    .carousel-control .icon-prev, 
+    .carousel-control .icon-next {
       position: absolute;
-      bottom: 10%;
-      left: 50%;
-      margin-left: -30px;
+      top: 45%;
+      z-index: 5;
+      display: inline-block;
     }
 
-    .arrows path {
-      stroke: white;
-      fill: transparent;
-      stroke-width: 1px;
-      animation: arrow 3s infinite;
+    .carousel-control .glyphicon-chevron-left:before {
+      content: "\276E";
+      display:block;
+      width:30px;
+      height:30px;
     }
 
-    @keyframes arrow {
-      0% {opacity: .4}
-      40% {opacity: 1}
-      80% {opacity: .4}
-      100% {opacity: .4}
-    }
-
-    .arrows path.a3 {
-      animation-delay:0s;
+    .carousel-control .glyphicon-chevron-right:before {
+      content: "\276F";
+      display:block;
+      width:30px;
+      height:30px;
     }
   }
 }
@@ -96,12 +368,21 @@ body.index .header-block {
   @include container;
   @include break;
   @include span(4);
-  padding-top: 3 * $base-line-height;
+  padding-top: 1 * $base-line-height;
+  height: 100%;
+
+  .description-block {
+    padding-top: 0;
+
+    h4 {
+      margin-bottom: 1.5rem;
+    }
+  }
 
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
     width: span(14 of 16);
-    margin: 0 span(1 of 16);
+    margin: 0 auto;
     float: inherit;
     max-width: $max-width;
   }
@@ -111,15 +392,106 @@ body.index .header-block {
     margin-right: auto;
   }
 
+  .index-section-video {
+    padding-bottom: 1 * $base-line-height;
+
+    .h_iframe {
+      position: relative;
+
+      .ratio {
+        display: block;
+        width: 100%;
+        background: $dark-gray;
+        opacity: 0;
+        height: auto;
+      }
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .index-section-scope {
+    padding: $base-line-height 0;
+    text-align: center;
+
+    h3 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .scope-item {
+      display: inline-block;
+      vertical-align: top;
+      min-height: 305px;
+      width: 100%;
+      margin-top: $base-line-height;
+
+      .scope-img {
+        width: 100%;
+        height: 60px;
+        margin-top: auto;
+        vertical-align: bottom;
+
+        svg {
+          vertical-align: bottom;
+          height: 100%;
+          width: auto;
+        }
+      }
+
+      .scope-txt {
+        min-height: 133px;
+      }      
+
+      .scope-button {
+        vertical-align: bottom;
+      }
+
+      .button {
+        display: inline-block;
+        color: $dark-gray;
+        border: none;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        background-color: $light-gray;
+      }
+
+      .button-large {
+        padding: 0 auto;
+      }
+
+      .button:hover {
+        color: white;
+        background-color: $light-gray;
+      }
+
+      @include breakpoint($break-tablet) {
+        width: 33%;
+        min-width: 310px;
+        margin-left: auto;
+        height: 100%;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
   .index-section-partners {
     text-align: center;
-    padding: 4 * $base-line-height 0;
+    padding: 1 * $base-line-height 0;
 
     h2 {
-      font-size: 22px;
-      font-weight: 300;
-      text-transform: uppercase;
-      color: $light-gray;
+      font-size: 24px;
+      font-weight: 400;
     }
 
     @include breakpoint($break-tablet) {
@@ -135,7 +507,7 @@ body.index .header-block {
       display: block;
       width: auto;
       margin: 4rem auto;
-
+      vertical-align: middle;
 
       @include breakpoint($break-tablet) {
         margin: 0;
@@ -147,5 +519,82 @@ body.index .header-block {
         }
       }
     }
+  }
+}
+
+.index-section-testimonials {
+  @include container;
+  @include break;
+  @include span(4);
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  padding: $base-line-height 0;
+  padding-bottom: 0;
+
+  .testimonial-block-img {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 30vw;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .testimonial-block-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 30vw;
+    text-align: center;
+    font-size: 24px;
+    
+    p {
+      line-height: 1.5 * $base-line-height;
+    }
+
+    .button {
+      border: none;
+      background: none;
+      color: #666;
+
+      &:hover {
+        color: #000;
+      }
+    }
+
+    .txt-quotes {
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .txt-right, .txt-left {
+      padding-top: 5%;
+
+    }
+
+    .txt-right {
+      padding-right: 20%;
+      padding-left: 5%;
+    }
+
+    .txt-left {
+      padding-left: 20%;
+      padding-right: 5%;
+      color: #fff;
+    }
+
+  }
+
+  .light-theme {
+    background-color: $lighter-gray;
+  }
+
+  .dark-theme {
+    background-color: $dark-gray;
+    color: #fff;
   }
 }

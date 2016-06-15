@@ -18,7 +18,7 @@ const DEFAULT_CURRENCY = {
 
 const DEFAULT_RANGE = {
   individual: 'month',
-  business: 'year',
+  business: 'month',
   school: 'year',
   university: 'year'
 }
@@ -129,9 +129,16 @@ const updateFeatures = () => {
       $featuresList.append('<li>Unlimited private projects</li>');
       $featuresList.append('<li>Extensive support</li>');
       break;
-    case "business":
+     case "business":
+      $featuresList.append('<li>Full IDE & terminal access</li>');
+      $featuresList.append('<li>Unlimited private projects</li>');
+      $featuresList.append('<li>Extensive support</li>');
       break;
     case "school":
+      $featuresList.append('<li>80+ course units mapped to national curricula</li>');
+      $featuresList.append('<li>Online code editor so students code instantly</li>');
+      $featuresList.append('<li>Auto-marked assessments</li>');
+      $featuresList.append('<li>Teacher dashboard to monitor progress</li>');
       break;
     case "university":
       $featuresList.append('<li>Auto-Graded Assessments</li>');
@@ -172,7 +179,23 @@ const setupSelector = () => {
   });
 }
 
+const toggleChevron = e => {
+  $(e.target).prev('.panel-heading').find("i.indicator").toggleClass('glyphicon-toggle-minus glyphicon-toggle-plus');
+}
+
+const setupFaqBlock = () => {
+  $('#accordion-individual').on('hidden.bs.collapse', toggleChevron);
+  $('#accordion-individual').on('shown.bs.collapse', toggleChevron);
+  $('#accordion-business').on('hidden.bs.collapse', toggleChevron);
+  $('#accordion-business').on('shown.bs.collapse', toggleChevron);
+  $('#accordion-school').on('hidden.bs.collapse', toggleChevron);
+  $('#accordion-school').on('shown.bs.collapse', toggleChevron);
+  $('#accordion-university').on('hidden.bs.collapse', toggleChevron);
+  $('#accordion-university').on('shown.bs.collapse', toggleChevron);
+}
+
 $(() => {
+  setupFaqBlock();
   setupSelector();
 
   $('#pricingTab a[href="#' + state.type + '"]').tab('show');

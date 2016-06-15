@@ -222,6 +222,9 @@ body.pricing .content {
     }
 
     .panel-heading {
+      cursor: pointer;
+      background-color: white;
+
       h4 {
         font-size: 20px;
       }
@@ -231,6 +234,31 @@ body.pricing .content {
       }
     }
 
+    .glyphicon-toggle {
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      font-size: 30px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .glyphicon-toggle-plus {
+      &:before {
+        content: "+";
+      }
+    }
+
+    .glyphicon-toggle-minus {
+      &:before {
+        content: "-";
+      }
+    }
+
+    /*
     .panel-heading a.collapsed:after {
       content:"+";
     }
@@ -241,6 +269,19 @@ body.pricing .content {
       float: right;
       color: grey;
     }
+    
+    .panel-heading.collapsed a:after {
+      content:"+";
+    }
+
+    .panel-heading {
+      a:after {
+        font-size: 30px;
+        content:"-";
+        float: right;
+        color: grey;
+      }
+    }*/
   }
 }
 

@@ -23,6 +23,20 @@ const DEFAULT_RANGE = {
   university: 'year'
 }
 
+const ACTION_BTN_TEXT = {
+  individual: 'Free Trial',
+  business: 'Buy now',
+  school: 'Buy now',
+  university: 'Buy now'
+}
+
+const ACTION_BTN_LINK = {
+  individual: 'codio.com/signup',
+  business: 'mailto:help@codio.com',
+  school: 'http://codio-2227229.hs-sites.com/buy-school',
+  university: 'http://codio-2227229.hs-sites.com/buy-university'
+}
+
 const $currency = $('.currency-block .currency');
 const $typeList = $('.nav .nav-tabs');
 const $types = $typeList.find('li.item');
@@ -125,32 +139,37 @@ const updateFeatures = () => {
 
   switch (state.type) {
     case "individual":
-      $featuresList.append('<li>Full IDE & terminal access</li>');
-      $featuresList.append('<li>Unlimited private projects</li>');
-      $featuresList.append('<li>Extensive support</li>');
-      break;
-     case "business":
-      $featuresList.append('<li>Full IDE & terminal access</li>');
-      $featuresList.append('<li>Unlimited private projects</li>');
-      $featuresList.append('<li>Extensive support</li>');
-      break;
+    $featuresList.append('<li>Full IDE & terminal access</li>');
+    $featuresList.append('<li>Unlimited private projects</li>');
+    $featuresList.append('<li>Extensive support</li>');
+    break;
+    case "business":
+    $featuresList.append('<li>Full IDE & terminal access</li>');
+    $featuresList.append('<li>Unlimited private projects</li>');
+    $featuresList.append('<li>Extensive support</li>');
+    break;
     case "school":
-      $featuresList.append('<li>80+ course units mapped to national curricula</li>');
-      $featuresList.append('<li>Online code editor so students code instantly</li>');
-      $featuresList.append('<li>Auto-marked assessments</li>');
-      $featuresList.append('<li>Teacher dashboard to monitor progress</li>');
-      break;
+    $featuresList.append('<li>80+ course units mapped to national curricula</li>');
+    $featuresList.append('<li>Online code editor so students code instantly</li>');
+    $featuresList.append('<li>Auto-marked assessments</li>');
+    $featuresList.append('<li>Teacher dashboard to monitor progress</li>');
+    break;
     case "university":
-      $featuresList.append('<li>Auto-Graded Assessments</li>');
-      $featuresList.append('<li>Full IDE & terminal access</li>');
-      $featuresList.append('<li>LMS Integration</li>');
-      $featuresList.append('<li>Create project templates for your class</li>');
-      $featuresList.append('<li>Unlimited Servers and private projects</li>');
-      $featuresList.append('<li>Extensive university support</li>');
-      break;
+    $featuresList.append('<li>Auto-Graded Assessments</li>');
+    $featuresList.append('<li>Full IDE & terminal access</li>');
+    $featuresList.append('<li>LMS Integration</li>');
+    $featuresList.append('<li>Create project templates for your class</li>');
+    $featuresList.append('<li>Unlimited Servers and private projects</li>');
+    $featuresList.append('<li>Extensive university support</li>');
+    break;
     default:
-      break;
+    break;
   }
+}
+
+const updateActionBtn = type => {
+  document.getElementById("actionBtn").href = ACTION_BTN_LINK[type];
+  document.getElementById("actionBtn").text = ACTION_BTN_TEXT[type];
 }
 
 const setupSelector = () => {
@@ -172,6 +191,7 @@ const setupSelector = () => {
 
     fillUserLicences();
     updateFeatures();
+    updateActionBtn(state.type);
 
     $('.pricing-content-col h3').text($type + " Licence");
 

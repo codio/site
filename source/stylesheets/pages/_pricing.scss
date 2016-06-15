@@ -541,10 +541,95 @@ body.pricing .content {
   }
 }
 
-.payment_cards {
+.payment-cards {
   margin-top: 2rem;
 
   img {
     width: 64px;
   }
+}
+
+.chat-block {
+  margin-top: 2rem;
+  width: 100%;
+
+  .chat-img {
+    width: 50px;
+    height: 50px;
+    background-color: $orange;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+    img {
+      width: 25px;
+      height: 25px;
+      margin-top: 12px;
+    }
+  }
+
+  .chat-text {
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    display: inline-block;
+  }
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 5px 15px 0 15px;
+
+  button.close {
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    text-shadow: none;
+    opacity: 1;
+  }
+}
+
+.table {
+  .title {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  td {
+    font-size: 22px;
+    font-weight: 200;
+  }
+
+  .light-gray-bg {
+    background-color: $lighter-gray;
+  }
+
+  .gray-bg {
+    background-color: $light-gray;
+    text-align: left;
+  }
+}
+
+.table > thead > tr > th {
+  vertical-align: middle;
 }

@@ -114,56 +114,31 @@ university:
 business:
   - count: 1
     price:
-      year:
-        dollar: 96
-        pound: 60
-  - count: 25
+      month:
+        dollar: 15
+        pound: 8
+  - count: 5
     price:
-      year:
-        dollar: 2400
-        pound: 1500
+      month:
+        dollar: 60
+        pound: 39
+  - count: 10
+    price:
+      month:
+        dollar: 120
+        pound: 78
+  - count: 20
+    price:
+      month:
+        dollar: 225
+        pound: 145
   - count: 50
     price:
-      year:
-        dollar: 4800
-        pound: 3000
+      month:
+        dollar: 525
+        pound: 339
   - count: 100
     price:
-      year:
-        dollar: 7680
-        pound: 4800
-  - count: 150
-    price:
-      year:
-        dollar: 10800
-        pound: 6750
-  - count: 200
-    price:
-      year:
-        dollar: 12864
-        pound: 8040
-  - count: 250
-    price:
-      year:
-        dollar: 16080
-        pound: 10050
-  - count: 300
-    price:
-      year:
-        dollar: 17280
-        pound: 10800
-  - count: 400
-    price:
-      year:
-        dollar: 21120
-        pound: 13200
-  - count: 500
-    price:
-      year:
-        dollar: 24000
-        pound: 15000
-  - count: 1000
-    price:
-      year:
-        dollar: 38400
-        pound: 24000
+      month:
+        dollar: 900
+        pound: 580

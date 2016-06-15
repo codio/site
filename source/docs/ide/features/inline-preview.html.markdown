@@ -6,11 +6,11 @@ full_width: true
 
 It is important to understand the difference between Static and Dynamic content when using the Preview menu options. Codio provides a configurable menu item for Dynamic/Server Side content (rightmost Codio menu) as well as Static content.
 
-###Static content
+### Static content
 You can use 'Preview static' options on Static content only (HTML, CSS, JS and text).
 You can also preview static content on your mobile device easily using 'Project>QR Code for Preview URL' to generate a QR code you can scan with a QR Reader on your device.
 
-###Dynamic content
+### Dynamic content
 To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the right-most menu option. You can access your server side application in one of two ways:
 
 - `word1-word2-port.codio.io` which will access your box over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
@@ -20,7 +20,7 @@ To access files or services that are executed on the server (PHP, Ruby, Node etc
 
 Read on for information on how to configure your Static and Dynamic preview menus.
 
-##Instructions
+## Instructions
 The Preview button lets you preview one or more web pages with a simple button press. Codio creates four default entries in the Preview menu automatically.
 
 <img alt="authtoken" src="/img/docs/preview-deploy.png" class="simple"/>
@@ -37,19 +37,21 @@ If you right-click a file in the file tree or the Tab, you can also select 'Prev
 <img alt="authtoken" src="/img/docs/preview-deploy-right-click.png" class="simple"/>
 
 
-##Preview in a Codio tab or new browser tab
+## Preview in a Codio tab or new browser tab
 In the Preview dropdown menu, you can select one of the following ways to preview
 
 - **Inside Codio** : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL and Box URL SSL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. [See here](/docs/ide/boxes/access/ext-access) for more details on using HTTPS.
 - **New browser tab** : it will open up a new browser tab or window.
 
-If you are previewing a private project you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket method, a random password is created for your account. Go to Codio>Account where you can see your username on the Profile tab and where on the Password tab you can set up a password of your own choosing.
+If you are previewing a private project containing Static content and you have not enabled 'Allow Private Static Preview' option you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket method, a random password is created for your account. Go to Codio>Account where you can see your username on the Profile tab and where on the Password tab you can set up a password of your own choosing.
+
+If though you have enabled this option, then you (and other Codio users) can preview static content without authentication. Other users will need to know the URL of the file (e.g https://word1-word2.codio.io/filename.html). You can easily find this by right clicking on the file in the file tree and select 'Preview Static'.
 
 This only applies to code being previewed over the standard ports 80 and 443. Previewing via any other port will have no authentication, because the code is being served from your application server, which we have no control over but you can add your own authentication.
 
 See [Apache Password Basic Authentication](https://wiki.apache.org/httpd/PasswordBasicAuth) and [HTTP Authentication with PHP](http://php.net/manual/en/features.http-auth.php) for some examples.
 
-##Modifying the Preview menu
+## Modifying the Preview menu
 You are free to customize the menu in either of the following ways
 
 - From the Preview or Run drop down menus (the two right most Codio menu items), select 'Configure...'

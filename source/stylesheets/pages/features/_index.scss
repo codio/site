@@ -41,6 +41,17 @@ body.features_index .header-block {
       margin-right: auto;
     }
   }
+
+  .action-button {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .button:hover {
+    border-color: white;
+    background-color: white;
+    color: black;
+  }
 }
 
 body.features_index {

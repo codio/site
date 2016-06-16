@@ -532,61 +532,63 @@ body.index .header-block {
   padding: $base-line-height 0;
   padding-bottom: 0;
 
-  .testimonial-block-img {
+  .testimonial-block {
     display: inline-block;
     vertical-align: top;
-    width: 50%;
-    height: 30vw;
+    width: 100%;
+    height: auto;
+    float: none;
 
-    img {
+    @include breakpoint($max-width) {
+      width: 50%;
+      height: 30vw;
+      float: left;
+    }
+
+    &.img img {
       width: 100%;
       height: 100%;
     }
-  }
 
-  .testimonial-block-text {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    height: 30vw;
-    text-align: center;
-    font-size: 24px;
-    
-    p {
-      line-height: 1.5 * $base-line-height;
-    }
+    &.text {
+      text-align: center;
+      font-size: 24px;
 
-    .button {
-      border: none;
-      background: none;
-      color: #666;
+      p {
+        line-height: 1.5 * $base-line-height;
+      }
 
-      &:hover {
-        color: #000;
+      .button {
+        border: none;
+        background: none;
+        color: #666;
+
+        &:hover {
+          color: #000;
+        }
+      }
+
+      .txt-quotes {
+        font-size: 20px;
+        font-style: italic;
+      }
+
+      .txt-right, .txt-left {
+        padding-top: 5%;
+
+      }
+
+      .txt-right {
+        padding-right: 16%;
+        padding-left: 5%;
+      }
+
+      .txt-left {
+        padding-left: 16%;
+        padding-right: 5%;
+        color: #fff;
       }
     }
-
-    .txt-quotes {
-      font-size: 20px;
-      font-style: italic;
-    }
-
-    .txt-right, .txt-left {
-      padding-top: 5%;
-
-    }
-
-    .txt-right {
-      padding-right: 20%;
-      padding-left: 5%;
-    }
-
-    .txt-left {
-      padding-left: 20%;
-      padding-right: 5%;
-      color: #fff;
-    }
-
   }
 
   .light-theme {

@@ -42,9 +42,10 @@ const $typeList = $('.nav .nav-tabs');
 const $types = $typeList.find('li.item');
 const $currencyOption = $('.currency-block .currency-option');
 const $tabs = $('.nav-tabs li');
-const $countNumber = $('.pricing-content-col .count .number');
-const $amount = $('.pricing-content-col .amount');
-const $range = $('.pricing-content-col .range');
+const $pricingContentCol = $('.pricing-content-col');
+const $countNumber = $pricingContentCol.find('.count .number')
+const $amount = $pricingContentCol.find('.amount');
+const $range = $pricingContentCol.find('.range');
 
 const params = name => {
   const results = new RegExp(`[\?&]${name}=([^&#]*)`).exec(window.location.href);
@@ -204,14 +205,10 @@ const toggleChevron = e => {
 }
 
 const setupFaqBlock = () => {
-  $('#accordion-individual').on('hidden.bs.collapse', toggleChevron);
-  $('#accordion-individual').on('shown.bs.collapse', toggleChevron);
-  $('#accordion-business').on('hidden.bs.collapse', toggleChevron);
-  $('#accordion-business').on('shown.bs.collapse', toggleChevron);
-  $('#accordion-school').on('hidden.bs.collapse', toggleChevron);
-  $('#accordion-school').on('shown.bs.collapse', toggleChevron);
-  $('#accordion-university').on('hidden.bs.collapse', toggleChevron);
-  $('#accordion-university').on('shown.bs.collapse', toggleChevron);
+  $('#accordion-individual').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
+  $('#accordion-business').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
+  $('#accordion-school').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
+  $('#accordion-university').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
 }
 
 $(() => {

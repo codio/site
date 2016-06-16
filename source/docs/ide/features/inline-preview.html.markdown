@@ -45,7 +45,7 @@ In the Preview dropdown menu, you can select one of the following ways to previe
 
 If you are previewing a private project containing Static content and you have not enabled 'Allow Private Static Preview' option you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket method, a random password is created for your account. Go to Codio>Account where you can see your username on the Profile tab and where on the Password tab you can set up a password of your own choosing.
 
-If though you have enabled this option, then you (and other Codio users) can preview static content without authentication. Other users will need to know the URL of the file (e.g https://word1-word2.codio.io/filename.html). You can easily find this by right clicking on the file in the file tree and select 'Preview Static'.
+If though you have enabled this option, then you (and any other users that know the link to your project) can preview static content without authentication. Other users will need to know the URL of the file (e.g https://word1-word2.codio.io/filename.html). You can easily find this by right clicking on the file in the file tree and select 'Preview Static'.
 
 This only applies to code being previewed over the standard ports 80 and 443. Previewing via any other port will have no authentication, because the code is being served from your application server, which we have no control over but you can add your own authentication.
 

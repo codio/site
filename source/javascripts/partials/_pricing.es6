@@ -31,7 +31,7 @@ const ACTION_BTN_TEXT = {
 }
 
 const ACTION_BTN_LINK = {
-  individual: 'codio.com/signup',
+  individual: 'p/signup',
   business: 'mailto:help@codio.com',
   school: 'http://codio-2227229.hs-sites.com/buy-school',
   university: 'http://codio-2227229.hs-sites.com/buy-university'

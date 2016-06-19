@@ -187,10 +187,9 @@ const setPaymentsIcons = type => {
     $('.payment-card-2').attr('src', 'img/assets/pricing/mastercard.png');
     $('.payment-card-3').css({"display" : "none"});
   } else {
-    $('.payment-card-1').attr('src', 'img/assets/pricing/visa.png');
-    $('.payment-card-2').attr('src', 'img/assets/pricing/mastercard.png');
+    $('.payment-card-1').attr('src', 'img/assets/pricing/bacs.png');
+    $('.payment-card-2').attr('src', 'img/assets/pricing/chaps.png');
     $('.payment-card-3').css({"display" : "inline-block"});
-    //$('.payment-card-3').attr('src', 'img/assets/pricing/mastercard.png');
   }
 }
 

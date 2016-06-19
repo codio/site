@@ -1,0 +1,19 @@
+<%- pages = nav_pages(current_resource.url) -%>
+
+<aside class="legal-side-navigation">
+  <ul>
+    <% ordered_simple(sub_pages("legal"), "/legal").each do |resource| %>
+      <% if current_resource.data.title == resource.data.title %>
+        <li>
+          <div class="active item arrow-box">
+            <a href="#"><span><%= resource.data.title %></span></a>
+          </div>
+        </li>
+      <% else %>
+        <li class="item">
+          <%= link_to resource.data.title, resource.url %>
+        </li>
+      <% end %>
+    <% end %>
+  </ul>
+</aside>

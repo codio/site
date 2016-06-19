@@ -9,6 +9,5 @@ Git, Mercurial and SVN are all preinstalled, so you can [open up a Terminal wind
 You can also configure your `.codio` file so common commands are accessible from the 'Run' menu in the Codio IDE. [Refer to the Boxes documentation](/docs/ide/boxes/runmenu/) on how to do this.
 
 ##A few Git helpers
-We have added a few Git helpers to the 'Tools->Git' menu. These are fairly limited at the moment but we plan to extend this menu to make life a little easier. Feel free to email support@codio.com or go to the [Codio Forum](http://forum.codio.com) to add requests for more Git sugar.
-
+We have added a few Git helpers to the 'Tools->Git' menu. 
 ![git overview](/img/docs/git-overview.png)

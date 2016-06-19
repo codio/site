@@ -62,38 +62,68 @@ body.legal .content {
   }
 }
 
-.legal-side-navigation {
+body.legal .header-block {
   @include span(4);
+  position: relative;
+
+
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: gutter();
+    margin-right: gutter();
+    padding-top: 50px;
+    padding-bottom: 3rem;
+
+    @include breakpoint($break-tablet) {
+      font-size: 3rem;
+    }
+
+    em {
+      font-weight: 400;
+    }
+  }
+}
+
+body.legal .overview-section {
+  @include container;
+  @include break;
+
+  //padding: 3rem 0;
+
+  .legal-header-navigation-container > h2 {
+    text-align: center;
+  }
 
   @include breakpoint($break-tablet) {
-    @include span(3 of 16);
-
-    &.affix-top {
-      margin-top: 8 * $base-font-size;
-      position: absolute;
-    }
-
-    &.affix {
-      top: 4 * $base-line-height;
-      position: fixed;
-    }
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+    max-width: $max-width;
   }
 
-  .list-item a {
-    line-height: 19px;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: $base-font-color;
-    font-family: $heading-font-family;
-    transition: all .2s ease-in-out;
-
-    &:hover {
-      color: $light-blue;
-    }
+  @include breakpoint($max-width) {
+    margin: 0 auto;
   }
 
-  .list-item.active a {
-    color: $light-blue;
+  .legal-header-navigation {
+    border-bottom: none;
+  }
+}
+
+.legal-content {
+  @include container;
+  padding-top: 2 * $base-line-height;
+
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+    max-width: $max-width;
+  }
+
+  @include breakpoint($max-width) {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

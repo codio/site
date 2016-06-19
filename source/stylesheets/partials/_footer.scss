@@ -49,12 +49,12 @@ footer {
 
     @include breakpoint($break-tablet) {
       @include span(1 of 5);
-      padding: 0 gutter() 0 6%;
+      padding: 0 gutter() 0 4%;
       margin-bottom: 0;
     }
 
     @include breakpoint($max-width) {
-      padding: 0 gutter() 0 9%;
+      padding: 0 gutter() 0 7%;
     }
   }
 

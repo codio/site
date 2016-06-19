@@ -193,6 +193,30 @@ const setPaymentsIcons = type => {
   }
 }
 
+const onTabShow = type => {
+  setType(type);
+  setCurrency(DEFAULT_CURRENCY[state.type]);
+
+  if (!isSafeStep()) {
+    state.step = DEFAULT_START[state.type];
+  }
+
+  fillUserLicences();
+  updateFeatures();
+  updateActionBtn(state.type);
+  setPaymentsIcons(state.type);
+
+  $pricingContentCol.find('h3').text(type + " Licence");
+  $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
+  if (state.type == "individual"){
+    $('.dropdown').css({"display" : "none"});
+    $('.information-block span').css({"display" : "none"});
+  } else {
+    $('.dropdown').css({"display" : "block"})
+    $('.information-block span').css({"display" : "inherit"});
+  }
+}
+
 const setupSelector = () => {
   $currency.find('input[name=currency]').on('change', function () {
     state.currency = this.value;
@@ -200,30 +224,9 @@ const setupSelector = () => {
     updateDisplay();
   });
 
-  $tabs.on('shown.bs.tab', function(e) {
+  $tabs.on('show.bs.tab', function(e) {
     const $type = $(this).data('type');
-
-    setType($type);
-    setCurrency(DEFAULT_CURRENCY[state.type]);
-
-    if (!isSafeStep()) {
-      state.step = DEFAULT_START[state.type];
-    }
-
-    fillUserLicences();
-    updateFeatures();
-    updateActionBtn(state.type);
-    setPaymentsIcons(state.type);
-
-    $('.pricing-content-col h3').text($type + " Licence");
-    $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
-    if (state.type == "individual"){
-      $('.dropdown').css({"display" : "none"});
-      $('.information-block span').css({"display" : "none"});
-    } else {
-      $('.dropdown').css({"display" : "block"})
-      $('.information-block span').css({"display" : "inherit"});
-    }
+    onTabShow($type);
   });
 }
 
@@ -238,9 +241,12 @@ const setupFaqBlock = () => {
   $('#accordion-university').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
 }
 
+$(document).ready(function () {
+  $('#pricingTab a[href="#' + state.type + '"]').tab('show');
+  onTabShow(state.type);
+});
+
 $(() => {
   setupFaqBlock();
   setupSelector();
-
-  $('#pricingTab a[href="#' + state.type + '"]').tab('show');
-})
+});

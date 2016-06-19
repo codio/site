@@ -31,7 +31,7 @@ const ACTION_BTN_TEXT = {
 }
 
 const ACTION_BTN_LINK = {
-  individual: 'p/signup',
+  individual: 'https://codio.com/p/signup',
   business: 'mailto:help@codio.com',
   school: 'http://codio-2227229.hs-sites.com/buy-school',
   university: 'http://codio-2227229.hs-sites.com/buy-university'
@@ -183,12 +183,12 @@ const updateActionBtn = type => {
 
 const setPaymentsIcons = type => {
   if (type == "individual") {
-    $('.payment-card-1').attr('src', 'img/assets/pricing/visa.png');
-    $('.payment-card-2').attr('src', 'img/assets/pricing/mastercard.png');
+    $('.payment-card-1').attr('src', '/img/assets/pricing/visa.png');
+    $('.payment-card-2').attr('src', '/img/assets/pricing/mastercard.png');
     $('.payment-card-3').css({"display" : "none"});
   } else {
-    $('.payment-card-1').attr('src', 'img/assets/pricing/bacs.png');
-    $('.payment-card-2').attr('src', 'img/assets/pricing/chaps.png');
+    $('.payment-card-1').attr('src', '/img/assets/pricing/bacs.png');
+    $('.payment-card-2').attr('src', '/img/assets/pricing/chaps.png');
     $('.payment-card-3').css({"display" : "inline-block"});
   }
 }

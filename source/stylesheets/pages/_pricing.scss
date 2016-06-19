@@ -499,12 +499,6 @@ body.pricing .content {
   }
 }
 
-.dropdown-hint-text {
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: 300;
-}
-
 .features-list {
   margin-top: 1rem;
   font-size: 1rem;
@@ -553,6 +547,17 @@ body.pricing .content {
 
   img {
     width: 64px;
+    border: none;
+    border-color: white;
+  }
+
+  .payment-card-1 {
+  }
+
+  .payment-card-2 {
+  }
+
+  .payment-card-3 {
   }
 }
 

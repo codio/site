@@ -37,6 +37,13 @@ const ACTION_BTN_LINK = {
   university: 'http://codio-2227229.hs-sites.com/buy-university'
 }
 
+const LEARN_MORE_LINK = {
+  individual: '/developer',
+  business: '/developer',
+  school: '/school',
+  university: '/university'
+}
+
 const $currency = $('.currency-block .currency');
 const $typeList = $('.nav .nav-tabs');
 const $types = $typeList.find('li.item');
@@ -171,6 +178,20 @@ const updateFeatures = () => {
 const updateActionBtn = type => {
   document.getElementById("actionBtn").href = ACTION_BTN_LINK[type];
   document.getElementById("actionBtn").text = ACTION_BTN_TEXT[type];
+  document.getElementById("learnMore").href = LEARN_MORE_LINK[type];
+}
+
+const setPaymentsIcons = type => {
+  if (type == "individual") {
+    $('.payment-card-1').attr('src', 'img/assets/pricing/visa.png');
+    $('.payment-card-2').attr('src', 'img/assets/pricing/mastercard.png');
+    $('.payment-card-3').css({"display" : "none"});
+  } else {
+    $('.payment-card-1').attr('src', 'img/assets/pricing/visa.png');
+    $('.payment-card-2').attr('src', 'img/assets/pricing/mastercard.png');
+    $('.payment-card-3').css({"display" : "inline-block"});
+    //$('.payment-card-3').attr('src', 'img/assets/pricing/mastercard.png');
+  }
 }
 
 const setupSelector = () => {
@@ -193,10 +214,17 @@ const setupSelector = () => {
     fillUserLicences();
     updateFeatures();
     updateActionBtn(state.type);
+    setPaymentsIcons(state.type);
 
     $('.pricing-content-col h3').text($type + " Licence");
-
     $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
+    if (state.type == "individual"){
+      $('.dropdown').css({"display" : "none"});
+      $('.information-block span').css({"display" : "none"});
+    } else {
+      $('.dropdown').css({"display" : "block"})
+      $('.information-block span').css({"display" : "inherit"});
+    }
   });
 }
 

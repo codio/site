@@ -87,10 +87,6 @@ description: Codio licences are for individuals, developers, schools, colleges u
         </ul>
       </div>
 
-      <div class="dropdown-hint-text">
-        <p>Select from above to explore group licence prices</p>
-      </div>
-
       <div class="features-list">
         <ul class="list">
           <li>Full IDE & terminal access</li>
@@ -101,18 +97,18 @@ description: Codio licences are for individuals, developers, schools, colleges u
 
       <div class="action-buttons">
         <a id="actionBtn" href="#" class="button button-large button-dark signup-link">Buy now</a>
-        <a href="http://codio-2227229.hs-sites.com/request-a-quote" class="learn-more-link">Learn More</a>
+        <a id="learnMore" href="http://codio-2227229.hs-sites.com/request-a-quote" class="learn-more-link">Learn More</a>
       </div>
 
       <div class="information-block">
         <div>Not ready yet? Need more information?</div>
-        <b>No problem, <%= mail_to 'help@codio.com', 'contact us', class: '' %> for a personal demo</b>
+        <b>No problem, <%= mail_to 'help@codio.com', 'contact us', class: '' %><span> for a personal demo<span></b>
       </div>
 
       <div class="payment-cards">
-        <%= image_tag 'assets/pricing/visa.png', class: '' %>
-        <%= image_tag 'assets/pricing/mastercard.png', class: '' %>
-        <%= image_tag 'assets/pricing/paypal.png', class: '' %>
+        <%= image_tag 'assets/pricing/visa.png', class: 'payment-card-1' %>
+        <%= image_tag 'assets/pricing/mastercard.png', class: 'payment-card-2' %>
+        <%= image_tag 'assets/pricing/paypal.png', class: 'payment-card-3' %>
       </div>
 
       <!--

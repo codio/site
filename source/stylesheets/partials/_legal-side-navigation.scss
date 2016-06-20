@@ -28,13 +28,12 @@
   }
 
   .item {
-    margin-left: - $base-line-height / 2;
-    padding: .2rem $base-line-height / 2;
+    //margin-left: - .6rem;
+    padding: .2rem .6rem;
     margin-top: $base-line-height / 2;
 
     &:hover {
       font-weight: 700;
-      //background-color: $light-blue;
     }
   }
 

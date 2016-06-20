@@ -90,8 +90,6 @@ body.legal .overview-section {
   @include container;
   @include break;
 
-  //padding: 3rem 0;
-
   .legal-header-navigation-container > h2 {
     text-align: center;
   }
@@ -114,13 +112,6 @@ body.legal .overview-section {
 .legal-content {
   @include container;
   padding-top: 2 * $base-line-height;
-
-
-  @include breakpoint($break-tablet) {
-    @include container(14 of 16);
-    margin: 0 span(1 of 16);
-    max-width: $max-width;
-  }
 
   @include breakpoint($max-width) {
     margin-left: auto;

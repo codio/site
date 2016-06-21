@@ -47,8 +47,6 @@ body.school .blue {
   .school-img {
     @include container;
     @include break;
-    //@include span(4);
-    //padding-top: 1 * $base-line-height;
 
     @include breakpoint($break-tablet) {
       @include container(14 of 16);
@@ -129,26 +127,22 @@ body.school .header-block {
   @include span(4);
   background-size: cover;
   background-color: $dark_gray;
-  //max-height: 1000px;
   color: white;
   position: relative;
   padding: 8rem 1rem 0 1rem;
 
   @include breakpoint(max-width $break-tablet) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
-    //height: 615px;
   }
 
   @include breakpoint($break-tablet) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
-    //height: 500px;
   }
 
   @include breakpoint($max-width) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
-    //height: 500px;
   }
 
   h1 {
@@ -301,8 +295,6 @@ body.school .header-block {
       height: 100%;
     }
   }
-  //.h_iframe .ratio {display:block;width:100%;height:auto;}
-  //.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
 }
 
 .school-content {
@@ -359,7 +351,6 @@ body.school .header-block {
     border: 1px solid #00f;
     border-radius: 50%;
     background-color: #fff;
-    //box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
   }
   
   .carousel-indicators .active {
@@ -409,8 +400,6 @@ body.school .header-block {
       margin-left: 7%;
 
       padding: 1px;
-      //margin-bottom: 2rem;
-      //border: 2px solid #021a40;
       
       img {
         max-width: 100%;
@@ -678,14 +667,9 @@ body.school .header-block {
     @include break;
 
     .section-block {
-      //margin-top: 3rem;
       margin-bottom: 3rem;
-      //overflow: hidden;
-      //text-overflow: clip;
-      //margin-right: span(3 of 50);
 
       @include breakpoint($break-tablet) {
-        //width: span(10 of 50);
         width: span(13 of 32);
       }
     }
@@ -699,8 +683,6 @@ body.school .header-block {
 
     &:first-of-type {
       @include breakpoint($break-tablet) {
-        //margin-left: span(10 of 50);
-        //width: span(9 of 50);
         margin-left: span(1 of 32);
         margin-right: span(3 of 32);
       }
@@ -708,7 +690,6 @@ body.school .header-block {
 
     &:last-of-type {
       @include breakpoint($break-tablet) {
-        //width: span(12 of 50);
         margin-right: span(1 of 32);
       }
     }
@@ -741,8 +722,7 @@ body.school .header-block {
       &:focus {
         outline: none;
       }
-}
-
+    }
   }
 
   .blue {

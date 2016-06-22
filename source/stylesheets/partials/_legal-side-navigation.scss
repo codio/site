@@ -28,10 +28,9 @@
   }
 
   .item {
-    //margin-left: - .6rem;
     padding: .2rem .6rem;
     margin-top: $base-line-height / 2;
-
+ 
     &:hover {
       font-weight: 700;
     }
@@ -71,5 +70,4 @@
     border-width: 20px;
     margin-top: -30px;
   }
-
 }

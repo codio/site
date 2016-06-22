@@ -3,6 +3,10 @@
 $(() => {
   // Setup side menu
   setTimeout(() => {
+    if (document.documentElement.clientWidth <= 800) {
+      return;
+    }
+
     const $menu = $('.legal-side-navigation')
     const $footer = $('footer')
 

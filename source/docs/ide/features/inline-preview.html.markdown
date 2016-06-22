@@ -43,9 +43,9 @@ In the Preview dropdown menu, you can select one of the following ways to previe
 - **Inside Codio** : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL and Box URL SSL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. [See here](/docs/ide/boxes/access/ext-access) for more details on using HTTPS.
 - **New browser tab** : it will open up a new browser tab or window.
 
-If you are previewing a private project containing Static content and you have not enabled 'Allow Private Static Preview' option you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket method, a random password is created for your account. Go to Codio>Account where you can see your username on the Profile tab and where on the Password tab you can set up a password of your own choosing.
+If you are previewing a private project containing Static content and you have not enabled **Allow Private Static Preview** option you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket/G+ method, a random password is created for your account. Go to Codio>Account and on the Account tab you can set up a password of your own choosing.
 
-If though you have enabled this option, then you (and any other users that know the link to your project) can preview static content without authentication. Other users will need to know the URL of the file (e.g https://word1-word2.codio.io/filename.html). You can easily find this by right clicking on the file in the file tree and select 'Preview Static'.
+If though you have enabled this option, then you can preview static content without authentication. A new backend URL will be generated for this purpose that you can then share with anyone else you wish to be able to preview your project. You are also able to regenerate this URL at any time and access using the old URL will no longer function.
 
 This only applies to code being previewed over the standard ports 80 and 443. Previewing via any other port will have no authentication, because the code is being served from your application server, which we have no control over but you can add your own authentication.
 

@@ -1,6 +1,6 @@
 ---
-title: Billings & Refunds
-sname: billing
+title: Service Level Agreement
+sname: servicelevel
 ---
 
 **Last Updated 12th April 2016**

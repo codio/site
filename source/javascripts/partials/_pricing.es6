@@ -60,15 +60,17 @@ const params = name => {
     return results[1] || 0;
 }
 
-const defaultType = params('type') ? params('type') : 'school';
+const lastOpenedTabType = sessionStorageStore.get('codio_site_pricing_tab') 
+                          ? sessionStorageStore.get('codio_site_pricing_tab') : 'school';
+const defaultType = params('type') ? params('type') : lastOpenedTabType;
 
 const state = {
   symbol: '$', 
   oldType: defaultType,
   type: defaultType,
   step: 0,
-  range: DEFAULT_RANGE['school'],
-  currency: DEFAULT_CURRENCY['school'],
+  range: DEFAULT_RANGE[defaultType],
+  currency: DEFAULT_CURRENCY[defaultType],
 }
 
 const isSafeStep = (step = state.step) => {
@@ -227,6 +229,7 @@ const setupSelector = () => {
   $tabs.on('show.bs.tab', function(e) {
     const $type = $(this).data('type');
     onTabShow($type);
+    sessionStorageStore.set('codio_site_pricing_tab', $type);
   });
 }
 

@@ -1,4 +1,4 @@
-developer:
+individual:
   - count: 1
     price:
       month:
@@ -111,3 +111,34 @@ university:
       year:
         dollar: 38400
         pound: 24000
+business:
+  - count: 1
+    price:
+      month:
+        dollar: 15
+        pound: 8
+  - count: 5
+    price:
+      month:
+        dollar: 60
+        pound: 39
+  - count: 10
+    price:
+      month:
+        dollar: 120
+        pound: 78
+  - count: 20
+    price:
+      month:
+        dollar: 225
+        pound: 145
+  - count: 50
+    price:
+      month:
+        dollar: 525
+        pound: 339
+  - count: 100
+    price:
+      month:
+        dollar: 900
+        pound: 580

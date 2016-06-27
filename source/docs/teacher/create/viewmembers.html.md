@@ -19,3 +19,5 @@ Sometimes you might need to check who is registered as a member of your educatio
 <img alt="authtoken" src="/img/docs/manage_organization/members.png" class="simple"/>
 
 You will be able to see all the members of your school ‘organization’.
+
+Please note that you will only see your users in the Teachers group when they are added to Class(es) as a teacher, and in the Students group when they are added to Class(es) as a Student.

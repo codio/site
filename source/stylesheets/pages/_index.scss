@@ -530,7 +530,6 @@ body.index .header-block {
   margin: 0;
   line-height: 0;
   padding: $base-line-height 0;
-  padding-bottom: 0;
 
   .testimonial-block {
     display: inline-block;
@@ -541,7 +540,7 @@ body.index .header-block {
 
     @include breakpoint($max-width) {
       width: 50%;
-      height: 30vw;
+      height: 24.1vw;
       float: left;
     }
 
@@ -552,7 +551,7 @@ body.index .header-block {
 
     &.text {
       text-align: center;
-      font-size: 24px;
+      font-size: 18px;
 
       p {
         line-height: 1.5 * $base-line-height;
@@ -569,7 +568,7 @@ body.index .header-block {
       }
 
       .txt-quotes {
-        font-size: 20px;
+        font-size: 16px;
         font-style: italic;
       }
 
@@ -579,12 +578,12 @@ body.index .header-block {
       }
 
       .txt-right {
-        padding-right: 16%;
+        padding-right: 5%;
         padding-left: 5%;
       }
 
       .txt-left {
-        padding-left: 16%;
+        padding-left: 5%;
         padding-right: 5%;
         color: #fff;
       }

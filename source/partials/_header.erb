@@ -4,12 +4,12 @@
 <div class="mobile-nav">
   <%= partial "nav" %>
 </div>
-<header
-  class="fixed <% if current_resource.data.fixed %> should-be-fixed<% end %>">
+<header class="fixed <% if current_resource.data.fixed %> should-be-fixed<% end %>">
   <div class="container animated fadeInDown">
     <a href="/" class="logo-link"><%= image_tag 'logo-light.svg', class: 'logo' %></a>
     <nav>
     <%= partial "nav", locals: {pricing: pricingType, surl: signupUrl} %>
     </nav>
   </div>
+  <%= partial "sub-header" %>
 </header>

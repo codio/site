@@ -1,147 +1,127 @@
 ---
-title: "Pricing | Teaching code | Codio"
-description: "Codio licences are for individuals, developers, schools, colleges universities and other learning organisations — with a free 30 day trial."
+title: Pricing | Teaching code | Codio
+description: Codio licences are for individuals, developers, schools, colleges universities and other learning organisations — with a free 30 day trial.
 ---
 <div class="pricing-header">
+  <div class="subheader-block">
+    <span>
+      <div class="link-button-bar">
+        <div class="button-container">
+          <%= link_to 'Schools', '/school', class: 'button button-large' %>
+          <%= link_to 'Universities', '/university', class: 'button button-large' %>
+          <%= link_to 'Developer', '/developer', class: 'button button-large' %>
+          <%= link_to 'Students', '/developer', class: 'button button-large' %>
+        </div>
+      </div>
+    </span>
+  </div>
   <div class="pricing-header-container">
     <h1>
-      Affordable for everyone
+      Your first 30 days are free with Codio
     </h1>
-    <h2>
-      We support you with the technology, learning resources and
-      management tools you need to succeed.
-    </h2>
+    <%= link_to '30 day free trial', '/p/free-education-trial', class: 'button button-large button-action signup-link button-main' %>
   </div>
 </div>
 
-<div class="pricing-slider">
-  <%= partial 'slider' %>
-  <div class="action-buttons">
-    <%= link_to 'Start trial', '/p/free-education-trial', class: 'button button-large button-action signup-link' %>
-    <%= mail_to 'help@codio.com', 'Contact us', class: 'button button-large button-dark open-intercom' %>
+<div class="pricing-tabs">
+  <ul class="nav nav-tabs" id="pricingTab">
+    <li data-type="school">
+      <a href="#school" data-toggle="tab"><div class="text-center"><span>K12 Schools</span></div></a>
+    </li>
+    <li data-type="university">
+      <a href="#university" data-toggle="tab"><span>University</span></a>
+    </li>
+    <li data-type="business">
+      <a href="#business" data-toggle="tab"><span>Enterprise</span></a>
+    </li>
+    <li data-type="individual">
+      <a href="#individual" data-toggle="tab"><div class="text-center"><span>Learner or Developer</span></div></a>
+    </li>
+  </ul>
+  
+  <div class="tab-content pricing-tab pricing-tab-content">
+    <div class="currency-block">
+      <h4>Choose currency</h4>
+      <div class="display-price">
+        <div class="currency-label-uk">United Kingdom</div>
+        <ul class="currency">
+          <li class="currency-option">
+            <input class="currency-input" type="radio" value="pound" name="currency" checked/>
+            <span class="currency-label">&pound; (GBP)</span>
+          </li>
+          <li class="currency-option">
+            <input class="currency-input" type="radio" value="dollar" name="currency"/>
+            <span class="currency-label">$ (USD)</span>
+          </li>
+        </ul>
+        <div class="currency-label-us">United States</div>
+      </div>
+    </div>
+
+    <div class="pricing-content-col pricing-content-col-left">
+      <h3 class="first-letter-uppercase">Individual Licence</h3>
+      <div class="price-count-block">
+        <span class="currency-type">&pound;</span>
+        <span class="amount">0</span>
+        <div class="currency-after">
+          <div class="range-block">
+            <span class="divider">/</span>
+            <span class="range">month</span>
+          </div>
+          <span class="zero">.00</span>
+        </div>
+      </div>
+      <div class="count">
+        <div class="count-block">
+          for
+          <span class="number">0</span>
+          user(s)
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+          <div class="dropdown-header">Select plan...</div><span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+        </ul>
+      </div>
+
+      <div class="features-list">
+        <ul class="list">
+        </ul>
+      </div>
+
+      <div class="action-buttons">
+        <a id="actionBtn" href="#" class="button button-large button-dark signup-link">Buy now</a>
+        <a id="learnMore" href="http://codio-2227229.hs-sites.com/request-a-quote" class="learn-more-link">Learn More</a>
+      </div>
+
+      <div class="information-block">
+        <div>Not ready yet? Need more information?</div>
+        <b>No problem, <%= mail_to 'help@codio.com', 'contact us', class: '' %><span> for a personal demo<span></b>
+      </div>
+
+      <div class="payment-cards">
+        <%= image_tag 'assets/pricing/visa.png', class: 'payment-card-1' %>
+        <%= image_tag 'assets/pricing/mastercard.png', class: 'payment-card-2' %>
+        <%= image_tag 'assets/pricing/paypal.png', class: 'payment-card-3' %>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="school">
+      <%= partial 'pricing-faq-school' %>
+    </div>
+    <div class="tab-pane fade" id="university">
+      <%= partial 'pricing-faq-university' %>
+    </div>
+    <div class="tab-pane fade" id="business">
+      <%= partial 'pricing-faq-business' %>
+    </div>
+    <div class="tab-pane fade in active" id="individual">
+      <%= partial 'pricing-faq-individual' %>
+    </div>
   </div>
 </div>
 
 <hr/>
-
-<div class="pricing-faq">
-  <div class="pricing-faq-header">
-    <%= image_tag 'assets/pricing/faq.svg' %>
-    <h2>See how you benefit</h2>
-  </div>
-
-  <div class="pricing-faq-col pricing-faq-col-left">
-    <div class="pricing-faq-entry">
-      <h3>Licences explained</h3>
-      <h4>Individuals</h4>
-      <p>
-        Our individuals Developer licences are offered on a monthly
-        subscription basis and priced in either US dollars or UK
-        pounds. You can set up a recurring monthly payment and manage your
-        account and billing details inside Codio.
-      </p>
-      <p>
-        If you cancel at any time, your account runs to the end of the
-        last paid licence period at which point your account and projects
-        will be de-activated but not deleted. You can export or save
-        your projects to a repository &mdash; and you can re-activate your
-        account at any time.
-      </p>
-      <h4>Schools and universities</h4>
-      <p>
-        Schools and university licences are offered as academic year
-        licences for a defined user group &mdash; teachers, lecturers, students
-        and technicians &mdash; for each education institution. Licences are
-        invoiced annually and paid for in advance of a licence period.
-      </p>
-    </div>
-    <div class="pricing-faq-entry">
-      <h3>School and university organisations</h3>
-      <p>
-        School and university user groups benefit from Codio's
-        organization management tools.
-      </p>
-      <p>
-        You can create you school or university organization with all your
-        teaching staff, faculty members and students assigned to your organization.
-      </p>
-      <p>
-        Codio offers powerful Class management functionality &mdash; allowing you
-        to create Class groups comprising teachers, students and any course modules
-        or units you wish to assign to a Class &mdash; whether these are Codio
-        learning resources or resources or projects you create.
-      </p>
-      <p>
-        We offer easy on-boarding features for education organization user
-        groups, and on licence renewal, we'll work with you to manage on-boarding
-        or roll-off of existing students to ensure a smooth transition for
-        students starting or ending courses.
-      </p>
-      <p>
-        See our Docs for more information about <%= link_to 'school set up', '/docs/started' %>.
-      </p>
-    </div>
-    <div class="pricing-faq-entry">
-      <h3>Account owners</h3>
-      <p>
-        Typically the account holder is the teacher or lecturer, or other
-        department member who creates your institutions organization in Codio.
-      </p>
-      <p>
-        Multiple owners can be assigned to any organization &mdash; e.g. multiple
-        teaching faculty &mdash; each with the ability to add users, create Classes
-        and assign resources.
-      </p>
-    </div>
-  </div>
-  <div class="pricing-faq-col pricing-faq-col-right">
-    <div class="pricing-faq-entry">
-      <h3>Teacher accounts vs student accounts</h3>
-      <p>
-        Teachers and faculty members have access to a teacher-view dashboard
-        which presents information different from the information presented to
-        any student user in your group.
-      </p>
-      <p>
-        The teacher view shows you organization members, Class groups, teachers,
-        students and any course resources assigned to a Class.
-      </p>
-      <p>
-        Once auto-marked assessments are live, you'll also see a rich dashboard of
-        information about student engagement and progress &mdash; viewable in whole
-        class, individual student or individual question topic formats.
-      </p>
-      <p>
-        You can read more in our documentation about school set up, organizations
-        and class features.
-      </p>
-    </div>
-    <div class="pricing-faq-entry">
-      <h3>Codio Course Content</h3>
-      <p>
-        School and university licence holders have access to all Codio certified teaching and learning resources during the licence period, including all new resources or resource enhancement released during another licence period.
-      </p>
-      <p>
-        Using Codio's Guides features, you can also author and publish your own resources in Codio, and even assign these as courses or projects to your student group.
-      </p>
-    </div>
-    <div class="pricing-faq-entry">
-      <h3>Project workspace</h3>
-      <p>
-        Codio provides each account &mdash; individuals, teachers, students &mdash; with all the project workspace needed to develop programming projects or create projects that can be assigned to student groups.
-      </p>
-      <p>
-        You'll have access to Codio's library of Stacks and Starter packs providing you with all the software, languages, databases, and other components needed to develop in just about any programing language.
-      </p>
-      <p>
-        In Docs, you can read more about Stacks and Starter Packs
-      </p>
-    </div>
-    <div class="pricing-faq-entry">
-      <h3>Project ownership</h3>
-      <p>
-        You own all your own projects and code &mdash; you can save and export your code, or save it to a repository.
-      </p>
-    </div>
-  </div>
-</div>

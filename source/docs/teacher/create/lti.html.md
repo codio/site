@@ -3,10 +3,10 @@ title: "LMS Integration"
 ---
 
 
-Codio supports full integration with any Learning Management System that support the LTI interface such as Moodle, Blackboard, Canvas and many others.
+Codio supports full integration with any Learning Management System that supports the LTI interface such as Moodle, Blackboard, Canvas and many others.
 
 ### Authentication and account creation
-Once you have configured the LTI/LMS settings, your LMS manages all aspects of signing in to Codio as well as account creation. All your teachers and students need is LMS account.
+Once you have configured the LTI/LMS settings, your LMS manages all aspects of signing in to Codio as well as account creation. All your teachers and students need is an LMS account.
 
 If an LMS user has never used Codio before then an account will automatically be created when they access their first Codio course materials.
 

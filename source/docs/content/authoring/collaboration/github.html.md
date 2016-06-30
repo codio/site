@@ -10,9 +10,9 @@ GitHub is a free resource that is used by many millions of developers to remotel
 You should create an account now so you can work with it from your Codio account.
 
 ### Linking Codio to GitHub
-Although it is not necessary, we strongly recommend you link you Codio account to GitHub. Doing so will automatically copy the necessary public keys from Codio ro GitHub. This means you will never have to enter a password when running certain Git commands.
+Although it is not necessary, we strongly recommend you link your Codio account to GitHub. Doing so will automatically copy the necessary public keys from Codio to GitHub. This means you will never have to enter a password when running certain Git commands.
 
-1. Go to you account settings (click on your user name if in the dash board, or Codio->Account if you are in the IDE). 
+1. Go to your account settings (click on your user name if in the dash board, or Codio->Account if you are in the IDE). 
 1. Click on the Applications tab.
 1. Locate the GitHub section and press the connect button. You need to have created a GitHub account before doing this.
 

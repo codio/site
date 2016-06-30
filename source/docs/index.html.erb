@@ -322,8 +322,15 @@ layout: layout
           <li><a href="/docs/content/authoring/chapter">Chapters</a></li>
           <li><a href="/docs/content/authoring/hide-folder">Hiding folders</a></li>
           <li><a href="/docs/content/authoring/techdetails">Technical details</a></li>
-          <li><a href="/docs/content/authoring/collaboration">Content collaboration</a></li>
-        </ul>
+          <li class="item-collapse">
+            <a class="link-collapse collapsed" data-toggle="collapse" href="#collaborate"></a>
+            <a href="/docs/content/authoring/collaboration">Content collaboration</a>
+            <ul id="collaborate" class="collapse items-list">
+                <li><a href="/docs/content/authoring/collaboration/github">Git and GitHub</a></li>
+                <li><a href="/docs/content/authoring/collaboration/workflow">The full workflow</a></li>
+                <li><a href="/docs/content/authoring/collaboration/create-repo">Creating a repo from Codio</a></li>
+                <li><a href="/docs/content/authoring/collaboration/pulling">Your own authoritative repos</a></li>
+            </ul>
         <h3><a href="/docs/content/publish">Course Publishing</a></h3>
         <ul>
           <li><a href="/docs/content/publish/course-create">Create Courses</a></li>

@@ -28,6 +28,6 @@ Regardless of whether you are the owner or any other collaborator. You should re
 ### Branches
 It is very much recommended practice to use branches when collaborating. Branches are very powerful and allow you to develop anything you want in a safe way. 
 
-It is beyond the scope of this documentation to cover branches. However, once you are comfortable with the basics of Git, it is strongly recommended that you use and are comfortable with branches. You will really enjoy using them and they allow you to perform and even push any form of experiment without a) running the risk of messing up the maaster branch or b) creating another repo to experiment in.
+It is beyond the scope of this documentation to cover branches. However, once you are comfortable with the basics of Git, it is strongly recommended that you use and are comfortable with branches. You will really enjoy using them and they allow you to perform and even push any form of experiment without a) running the risk of messing up the master branch or b) creating another repo to experiment in.
 
 [Git branches](https://www.atlassian.com/git/tutorials/using-branches/) is a detailed tutorial but you will find lots of others if you [Google it](https://www.google.co.uk/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=git%20tutorial%20branches).

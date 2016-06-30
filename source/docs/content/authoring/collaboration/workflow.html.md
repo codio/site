@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-The steps below may seem a little mystifying at first. However, these steps will become second nature after a while and equip you with valuable skills that yo ucan use in any collaborative coding project.
+The steps below may seem a little mystifying at first. However, these steps will become second nature after a while and equip you with valuable skills that you can use in any collaborative coding project.
 
 ### Forking
 Forking is the process of cloning a repo into your own GitHub account.
@@ -20,7 +20,7 @@ In the open source world, unless you are its owner, you never work directly on t
 ### Creating a Codio project from the forked project
 Next, you start editing your code and content. As you will likely use Codio for this, you will have created a Codio project directly from your own forked repo.
 
-**Important**: you should note the correct stack to use. For Codio content, our Wiki contains information about the stack to use for each course. Please see the video for details.
+**Important**: you should note the correct stack to use. For Codio content, our [Wiki](https://github.com/codio-content/Information/wiki) contains information about the stack to use for each course. Please see the video for details.
 
 Go to the Codio projects page and press the New Project button. You then select the import button and enter the url of the GitHub repo. 
 

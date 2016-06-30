@@ -18,7 +18,7 @@ You should create repos for each Codio project (Unit) you want to collaborate on
 
 1. Make sure your code is committed to your local repo.
 1. Go to your GitHub account and create a new repo. 
-1. In Codio, set up Git to point to this *remote* using `git remote add origin git@github.com:fmay/test.git`
+1. In Codio, set up Git to point to this *remote* using `git remote add origin git@github.com:yourgitusername/test.git`
 1. Push your changes to the remote using `git push -u origin master`
 
 That's all. Now you can check your GitHub repo and you will find your code there. 

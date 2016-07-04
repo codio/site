@@ -25,7 +25,7 @@ Hello world from remote
 </html>
 ```
 
-You should remove the markers so that only the correct content remains. It is up to you to decide whether you want to remote or local content to prevail.
+You should remove the markers so that only the correct content remains. It is up to you to decide whether you want the remote or local content to prevail.
 
 ``` html
 <html>

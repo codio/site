@@ -47,6 +47,7 @@ Once all your work is committed to your local repo on the Codio box, you need to
 </div>
 </div>
 
+If you have some Git experience then we request that you make your modifications in a different branch to the master branch. If you are brand new to Git then learning about branches is worthwhile. It is not essential to use branches but it is good practice and appreciated by repo owners.
 
 ### Pull request
 Now your code is back on GitHub, you want to merge your changes back into the owner's project. To do this you send the owner a pull request. This is saying "I have made changes and would like you to pull these changes into your project".

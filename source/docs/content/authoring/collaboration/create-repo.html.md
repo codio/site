@@ -1,5 +1,5 @@
 ---
-title: "Creating a repo from Codio"
+title: "Creating a GitHub repo from a Codio project"
 class_name: docs
 full_width: true
 ---

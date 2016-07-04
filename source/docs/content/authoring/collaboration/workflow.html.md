@@ -1,10 +1,12 @@
 ---
-title: "The full workflow"
+title: "Typical workflow"
 class_name: docs
 full_width: true
 ---
 
-The steps below may seem a little mystifying at first. However, these steps will become second nature after a while and equip you with valuable skills that you can use in any collaborative coding project.
+If you are new to using Git, the steps below may seem a little mystifying at first. However, they will become second nature after a while and equip you with valuable skills that you can use in any collaborative coding project.
+
+Even if you are not actively collaborating, as a source control management system for snapshotting and remotely backing up your code, it is second to none.
 
 ### Forking
 Forking is the process of cloning a repo into your own GitHub account.
@@ -65,21 +67,26 @@ After you have made and submitted your changes, weeks can elapse before you find
 
 It is important that you pull in all changes from the owner's repo before carrying on work yourself. 
 
-Firstly, you need to create a *remote* that tells your Codio repo the name of the authoritative repository from which your working copy was forked. The video explains how to retrieve the `<special url>`.
+Firstly, you need to create a *remote* that tells your Codio repo the name of the authoritative repository from which your working copy was forked. The video explains how to retrieve the `<special url>`. Please make sure that you use the *https* link and not the GitHub link. The video explains this i more depth.
 
 - `git remote add upstream <special url>`
-
 
 Next, you need to *pull* any changes from that repo and merge them into your project. 
 
 - `git pull upstream master`
 
-If you have made changes and left it a while without synchronizing, you run the risk of conflicts. As a result, it is important that you regularly perform the last command so you are not left with a deluge of conflicts to sort out.
+Once you have done this it is a good idea to push your changes to your personal GitHub repo with 
 
-Conflicts and their resolution are explained on the next page.
+- `git push`
 
 <div class="video">
 <div class="video-wrapper">
-<iframe src="https://player.vimeo.com/video/172915922" width="640" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/173328971" width="640" height="435" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 </div>
+
+### Conflicts
+If you have made changes and left it a while without synchronizing, you run the risk of conflicts. As a result, it is important that you regularly pull from the authoritative remote so you are not left with a deluge of conflicts to sort out.
+
+Conflicts and their resolution are explained on the next page.
+

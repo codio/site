@@ -43,7 +43,7 @@ In the Preview dropdown menu, you can select one of the following ways to previe
 - **Inside Codio** : displays the preview in a Codio tab; note that if you are accessing via any port other than Port 80 (the Box URL and Box URL SSL defaults in the screenshot at the top) then this option will only work if you are using HTTPS as Codio itself runs over HTTPS and the browser will not allow mixed HTTP/HTTPS. [See here](/docs/ide/boxes/access/ext-access) for more details on using HTTPS.
 - **New browser tab** : it will open up a new browser tab or window.
 
-If you are previewing a private project containing Static content and you have not enabled **Allow Private Static Preview** option you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket/G+ method, a random password is created for your account. Go to Codio>Account and on the Account tab you can set up a password of your own choosing.
+If you are previewing a private project containing Static content and you have not enabled **Allow Private Static Preview** option (available only via 'Project>Settings') you will be asked to authenticate with your username and password. If you signed up using GitHub/BitBucket/G+ method, a random password is created for your account. Go to Codio>Account and on the Account tab you can set up a password of your own choosing.
 
 If though you have enabled this option, then you can preview static content without authentication. A new backend URL will be generated for this purpose that you can then share with anyone else you wish to be able to preview your project. You are also able to regenerate this URL at any time and access using the old URL will no longer function.
 

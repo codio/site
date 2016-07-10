@@ -329,10 +329,10 @@ body.index .header-block {
     max-width: $max-width;
   }
 
-  @include breakpoint($max-width) {
-    margin-left: auto;
-    margin-right: auto;
-  }
+  //@include breakpoint($max-width) {
+  //  margin-left: auto;
+  //  margin-right: auto;
+  //}
 
   .index-section-video {
     padding-bottom: 1 * $base-line-height;
@@ -484,6 +484,10 @@ body.index .header-block {
       width: 50%;
       height: 24.1vw;
       float: left;
+    }
+
+    @include breakpoint(1388px) {
+      height: 335px;
     }
 
     &.img img {

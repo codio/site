@@ -9,6 +9,7 @@ body.features_index .header-block {
   @include breakpoint($break-tablet) {
     background-color: #2a3547;
     padding: 8rem 4rem;
+    padding-bottom: 3rem;
   }
 
   h1 {
@@ -44,7 +45,7 @@ body.features_index .header-block {
 
   .action-button {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     .button:hover {
       color: $dark-gray;

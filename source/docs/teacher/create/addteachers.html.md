@@ -18,9 +18,11 @@ Once you have set up your organization, the next step is to invite teachers to u
 1. About half way down you will see an **Invitation** area, displaying an **Invite URL** and an **Invite token**. 
 <img alt="authtoken" src="/img/docs/class_administration/addteachers/invitation.png" class="simple"/>
 
-1. Give any teachers you want to join your organisation the invite URL.
+1. Give any teachers you want to join your organisation as an Owner the invite URL.
 
-1. When they enter the URL in their browser, they will automatically be taken through the sign-up process and added to your Organization.
+1. When they enter the URL in their browser, they will automatically be taken through the sign-up process and as they select that they are a Teacher, will then be added to your Organization as an Owner so they will be able to create and manage classes themselves.
 
 1. Alternatively, teachers can register themselves for a Codio account by following the sign-up process at www.codio.com. Once they have done this (selecting that they are a **Teacher**, they will be asked for an **Invite token** to join your educational organization. This is provided in step 4 above - give them the token (not the URL) and they will automatically become owners of your organization.
+
+1. If you do not require the teacher to be able to create their own classes, you can just add them as a **Teacher** to specific classes. See [Adding Teaechers to a class](/docs/teacher/classes/addteachers/)
 

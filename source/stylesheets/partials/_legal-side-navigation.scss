@@ -1,23 +1,26 @@
 .legal-side-navigation {
   @include container;
-
+  display: block;
   margin: 0 gutter() 2rem gutter();
 
   font-family: $heading-font-family;
 
+  &.affix {
+    position: inherit;
+  }
+
   @include breakpoint($break-tablet) {
-    display: block;
     position: absolute;
     @include span(8 of 32);
     max-width: 320px;
 
     &.affix-top {
-      margin-top: 0;
+      padding-top: 0;
       position: absolute;
     }
 
     &.affix {
-      top: 2 * $base-line-height;
+      top: 3 * $base-line-height;
       position: fixed;
     }
   }
@@ -28,18 +31,17 @@
   }
 
   .item {
-    margin-left: - $base-line-height / 2;
-    padding: .2rem $base-line-height / 2;
+    padding: .2rem .6rem;
     margin-top: $base-line-height / 2;
 
     &:hover {
       font-weight: 700;
-      //background-color: $light-blue;
     }
   }
 
   .item.active {
     background: $light-blue;
+    font-weight: 700;
     border-radius: 4px 0 0 4px;
   }
 
@@ -72,5 +74,4 @@
     border-width: 20px;
     margin-top: -30px;
   }
-
 }

@@ -39,9 +39,9 @@ You agree that Codio, in its sole discretion, may use your trade names, trademar
 Content submitted, posted or displayed via the Products is subject to Codio’s Acceptable Use Policy (Section 5). We reserve the right to remove Content alleged to be infringing without prior notice, at our sole discretion, and without liability to you. Our designated copyright agent for notice of alleged copyright infringement appearing on the Products is: 
 
 Codio Ltd Attn: General Counsel 
-29 Wood St
-Stratford-Upon-Avon
-CV37 6JG
+51 Queens Road
+London
+SW19 8NP
 Email: support@codio.com
 
 ---
@@ -88,7 +88,7 @@ These Terms, our [Privacy Policy](/legal/privacy) and the [Service Level Agreeme
 Notwithstanding the foregoing, nothing in these Terms, our Privacy Policy or the Service Level Agreement supersedes or limits your rights under (1) the terms and conditions of any written agreement you or your institution has entered into with Codio regarding the use of the Products and/or the Content, or (2) applicable laws or regulations to the extent these Terms are prohibited by such laws or regulations.  In the event of any conflict between these Terms, our Privacy Policy or the Service Level Agreement and the terms and conditions of an applicable written agreement you your institution has entered into with Codio, the terms and conditions of the written agreement shall prevail.
 We may revise these Terms from time-to-time, the most current version will always be at the referenced link. If the revision, in our sole discretion, is material we will notify you through the Products or through the email associated with your profile. By continuing to access or use the Products after those revisions become effective, you agree to be bound by the revised Terms.
 These Products are operated and provided by Codio, whose registered office address is:: 
-29 Wood St, Stratford-Upon-Avon, United Kingdom, CV37 6JG, UNITED KINGDOM
+51 Queens Road, London, United Kingdom, SW19 8NP, UNITED KINGDOM
 If you have any questions about these Terms, please email: support@codio.com.
 
 Effective: April 12th, 2016

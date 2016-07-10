@@ -80,7 +80,7 @@ Codio reserves the right to change this Privacy Statement. Codio will provide no
 Questions regarding this Privacy Statement or the information practices of the Company’s Web site should be directed to support@codio.com or by mailing:
 
 Codio c/o Codio Ltd.
-29 Wood Street
-Stratford Upon Avon
-CV37 6JG
+51 Queens Road
+London
+SW19 8NP
 UNITED KINGDOM

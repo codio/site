@@ -19,4 +19,4 @@ To add other ‘owners’ and give them admin rights:
 1. Click **Owners**
 <img alt="authtoken" src="/img/docs/manage_organization/owners.png" class="simple"/>
 
-You should see yourself listed as an owner. To add another teacher, choose the **Add User** drop down and select them from the list (note - the teacher must already have been added to your organization to appear in this list - see [Add Teachers](/docs/teacher/create/addteachers) for help.
+You should see yourself listed as an owner. To add another teacher, choose the **Add User** drop down and as you type their Codio Username, the listing will filter down so you can then select them. 

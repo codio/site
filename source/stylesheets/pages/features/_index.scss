@@ -43,6 +43,17 @@ body.features_index .header-block {
     }
   }
 
+  .light-background {
+    padding: 5px 0;
+    margin: 0 1rem;
+    background-color: $light-gray;
+    @include breakpoint($break-tablet) {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   .action-button {
     text-align: center;
     margin-top: 2rem;

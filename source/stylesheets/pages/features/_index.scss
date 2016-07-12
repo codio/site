@@ -5,6 +5,7 @@ body.features_index .header-block {
   color: white;
   position: relative;
   padding: 5rem 1rem 2rem 1rem;
+  text-align: center;
 
   @include breakpoint($break-tablet) {
     background-color: #2a3547;
@@ -46,11 +47,14 @@ body.features_index .header-block {
   .light-background {
     padding: 5px 0;
     margin: 0 1rem;
-    background-color: $light-gray;
-    @include breakpoint($break-tablet) {
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
+    h2 {
+      background-color: $light-gray;
+      text-align: center;
+      font-weight: 500;
+      font-size: 27px;
+      animation-delay: .8s;
+      padding: 0.5rem 1rem;
+      max-width: 550px;
     }
   }
 

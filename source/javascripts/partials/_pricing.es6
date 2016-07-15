@@ -188,14 +188,18 @@ const setPaymentsIcons = type => {
     $('.payment-card-1').attr('src', '/img/assets/pricing/visa.png');
     $('.payment-card-2').attr('src', '/img/assets/pricing/mastercard.png');
     $('.payment-card-3').css({"display" : "none"});
+    $('.payment-card-4').css({"display" : "none"});
   } else {
     $('.payment-card-1').attr('src', '/img/assets/pricing/bacs.png');
     $('.payment-card-2').attr('src', '/img/assets/pricing/chaps.png');
-    $('.payment-card-3').css({"display" : "inline-block"});
+    $('.payment-card-3').attr('src', '/img/assets/pricing/visa.png');
+    $('.payment-card-4').attr('src', '/img/assets/pricing/mastercard.png');
   }
 }
 
 const onTabShow = type => {
+  if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
+
   setType(type);
   setCurrency(DEFAULT_CURRENCY[state.type]);
 

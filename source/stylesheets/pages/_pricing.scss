@@ -115,8 +115,6 @@ body.pricing .content {
 
   float: none;
   display: inline-block;
-  //*display: inline;
-  //zoom: 1;
 
   font-size: 20px;
 
@@ -237,6 +235,27 @@ body.pricing .content {
         i {
           width: 5%;
           position: inherit;
+        }
+      }
+    }
+
+    .panel-collapse {
+      .panel-body {
+        a {
+          color: #00f;
+          text-decoration: underline;
+
+          &:hover,
+          &:focus,
+          &:active {
+            text-decoration: underline;
+            color: #00b;
+          }
+
+          &:active,
+          &:focus {
+            outline: none;
+          }
         }
       }
     }
@@ -559,6 +578,9 @@ body.pricing .content {
   }
 
   .payment-card-3 {
+  }
+
+  .payment-card-4 {    
   }
 }
 

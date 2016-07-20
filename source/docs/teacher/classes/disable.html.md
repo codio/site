@@ -23,3 +23,6 @@ To disable and then enable a unit:
 1. To enable the unit again, click the blue triple dot icon and choose, **Enable Unit** 
 <img alt="authtoken" src="/img/docs/manage_classes/disable_enable_unit/enable_unit.png" class="simple"/>
 
+1. You can also disable/enable all units in a Module if required. Hover over the Module name and select the relevant option
+<img alt="authtoken" src="/img/docs/disable_enable_module.png" class="simple"/>
+

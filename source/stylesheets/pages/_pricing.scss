@@ -192,6 +192,27 @@ body.pricing .pricing-tabs {
       }
     }
 
+    .panel-collapse {
+      .panel-body {
+        a {
+          color: #00f;
+          text-decoration: underline;
+
+          &:hover,
+          &:focus,
+          &:active {
+            text-decoration: underline;
+            color: #00b;
+          }
+
+          &:active,
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+
     .glyphicon-toggle {
       position: relative;
       top: 1px;
@@ -509,6 +530,9 @@ body.pricing .pricing-tabs {
   }
 
   .payment-card-3 {
+  }
+
+  .payment-card-4 {    
   }
 }
 

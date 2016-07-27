@@ -7,7 +7,7 @@ body.school {
     }
   }
   .content {
-    margin: -65px auto 0 auto;
+    margin: 0 auto 0 auto;
     max-width: 100%;
   }
 }
@@ -129,26 +129,22 @@ body.school .header-block {
   @include span(4);
   background-size: cover;
   background-color: $dark_gray;
-  //max-height: 1000px;
   color: white;
   position: relative;
-  padding: 8rem 1rem 0 1rem;
+  padding: 2rem 1rem 0 1rem;
 
   @include breakpoint(max-width $break-tablet) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
-    //height: 615px;
   }
 
   @include breakpoint($break-tablet) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
-    //height: 500px;
   }
 
   @include breakpoint($max-width) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
-    //height: 500px;
   }
 
   h1 {

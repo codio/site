@@ -4,6 +4,7 @@ header {
   margin: 0;
   position: relative;
   z-index: 1;
+  background: $dark-gray;
 
   &.fixed {
     position: fixed;
@@ -257,6 +258,6 @@ header {
 }
 
 .header-block {
-  margin-top: -50px;
-  padding-top: 105px;
+  margin-top: 0;//-65px;
+  padding-top: 0;//105px;
 }

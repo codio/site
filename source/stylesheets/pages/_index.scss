@@ -7,7 +7,7 @@ body.index {
     }
   }
   .content {
-    margin: -65px auto 0 auto;
+    margin: 0 auto;
     max-width: 100%;
   }
 }
@@ -51,7 +51,7 @@ body.index .header-block {
     line-height: 0;
 
     @include breakpoint($break-tablet) {
-      margin-top: 0;
+      //margin-top: 0;
     }
 
     .carousel-inner {

@@ -1,7 +1,5 @@
 /* globals $, numeral */
 
-const PRICES = window.PRICES
-
 const DEFAULT_START = {
   individual: 0,
   business: 0,
@@ -129,12 +127,10 @@ const fillUserLicences = () => {
   const $list = $('.dropdown ul');
   $list.find('li').remove();
 
-  let $index = 0;
-  for (let current of PRICES[state.type]) {
+  PRICES[state.type].forEach(function(current, $index) {
     const $price = current.price[state.range][state.currency];
     $list.append('<li><a class="menu-item" data-index="' + $index + '">' + numeral(current.count).format('0,0') + '</a></li>');
-    $index++;
-  }
+  })
 
   $(".dropdown .dropdown-menu li a").click(function(){
     const $index = $(this).data('index');
@@ -254,6 +250,7 @@ $(document).ready(function () {
 });
 
 $(() => {
+  const PRICES = window.PRICES
   setupFaqBlock();
   setupSelector();
 });

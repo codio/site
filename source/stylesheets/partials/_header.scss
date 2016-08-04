@@ -1,8 +1,10 @@
 header {
+  @include container;
   height: 65px;
   margin: 0;
   position: relative;
   z-index: 1;
+  background: $dark-gray;
 
   &.fixed {
     position: fixed;
@@ -16,6 +18,10 @@ header {
       animation-delay: 0s;
       animation-duration: 0s;
     }
+  }
+
+  @include breakpoint($break-tablet) {
+    height: 105px;
   }
 
   .container {
@@ -86,6 +92,63 @@ header {
 
   nav li.active a {
     opacity: 1;
+  }
+
+  .subheader-block {
+    @include span(4);
+
+    background: $lighter-gray;
+    background-size: cover;
+    margin: 0 auto 0 auto;
+    text-align: center;
+
+    @include breakpoint($break-tablet) {
+      height: 40px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+
+    span {
+      display: none;
+
+      @include breakpoint($break-tablet)
+      {
+        display: block;
+      }
+    }
+
+    .link-button-bar {
+      background: $lighter-gray;
+      margin: 0 auto 0px auto;
+      text-align: center;
+
+      .button-container {
+        @include container;
+        @include break;
+
+        float: none;
+        margin: 0 auto;
+      }
+
+      .button {
+        display: inline-block;
+        color: $dark-gray;
+        border: none;
+        width: 20%;
+        max-width: 150px;
+        height: auto;
+        padding: 0;
+      }
+
+      .button-large {
+        padding: 0 auto;
+      }
+
+      .button:hover {
+        color: white;
+        background-color: $light-gray;
+      }
+    }
   }
 }
 
@@ -195,6 +258,6 @@ header {
 }
 
 .header-block {
-  margin-top: -65px;
-  padding-top: 65px;
+  margin-top: 0;//-65px;
+  padding-top: 0;//105px;
 }

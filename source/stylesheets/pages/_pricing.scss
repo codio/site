@@ -1,100 +1,53 @@
-body.pricing .content {
-  margin: 65px auto 0 auto;
-  max-width: 100%;
-
-  @include breakpoint($max-width) {
-    margin-left: auto;
-    margin-right: auto;
+body.pricing {
+  header .container, footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: 0 auto 0 auto;
+    max-width: 100%;
   }
 }
 
-.pricing-header {
+body.pricing .header-block {
+  @include span(4);
+  padding-top: 8rem;
   padding-bottom: 5rem;
   border-bottom: 1px solid black;
+  background-size: cover;
+  position: relative;
 
-  .subheader-block {
-    @include span(4);
+  .pricing-header-container {
+    @include container(4 of 4);
 
-    background: $lighter-gray;
-    background-size: cover;
-    margin: 0 auto 5rem auto;
     text-align: center;
 
     @include breakpoint($break-tablet) {
-      height: auto;
-      padding-top: 5px;
-      padding-bottom: 5px;
+      @include container(10 of 16);
     }
 
-    span {
-      display: none;
-
-      @include breakpoint($break-tablet)
-      {
-        display: block;
-      }
+    h1 {
+      color: black;
+      font-size: 46px;
+      font-weight: 500;
+      margin: 2rem 0;
     }
 
-    .link-button-bar {
-      background: $lighter-gray;
-      margin: 0 auto 0px auto;
-      text-align: center;
-
-      .button-container {
-        @include container;
-        @include break;
-
-        float: none;
-        margin: 0 auto;
-      }
-
-      .button {
-        display: inline-block;
-        color: $dark-gray;
-        border: none;
-        width: 20%;
-        max-width: 150px;
-        height: auto;
-        padding: 0;
-      }
-
-      .button-large {
-        padding: 0 auto;
-      }
-
-      .button:hover {
-        color: white;
-        background-color: $light-gray;
-      }
+    h2 {
+      color: black;
+      font-size: 28px;
+      font-weight: 400;
     }
   }
 }
 
-.pricing-header-container {
-  @include container(4 of 4);
+body.pricing .pricing-tabs {
+  @include container;
+  @include break;
+  @include span(4);
 
-  text-align: center;
-
-  @include breakpoint($break-tablet) {
-    @include container(10 of 16);
-  }
-
-  h1 {
-    color: black;
-    font-size: 46px;
-    font-weight: 500;
-    margin: 2rem 0;
-  }
-
-  h2 {
-    color: black;
-    font-size: 28px;
-    font-weight: 400;
-  }
-}
-
-
-.pricing-tabs {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -160,7 +113,7 @@ body.pricing .content {
   border-bottom-color: transparent;
 }
 
-.nav-tabs > li > a:hover{
+.nav-tabs > li > a:hover {
   background: none;
   border: 1px solid $light-gray;
   font-weight: 400;
@@ -401,64 +354,63 @@ body.pricing .content {
   font-size: 1.2rem;
 
   @include breakpoint($break-tablet) {
-   text-align: left;
-   padding-top: 2rem;
-   margin-top: -.5rem;
- }
+    text-align: left;
+    padding-top: 2rem;
+    margin-top: -.5rem;
+  }
 
- .count-block {
-  display: inline-block;
-  width: 50%;
-  text-align: left;
-}
+  .count-block {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+  }
 
-.number {
-  font-size: 1.8rem;
-  font-weight: 400;
-}
+  .number {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
 
-.currency {
-  width: 50%;
-  text-align: right;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-  background-color: transparent;
-  list-style: none;
-}
+  .currency {
+    width: 50%;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background-color: transparent;
+    list-style: none;
+  }
 
-.currency-option {
-  position: relative;
-  float: left;
-  min-height: 30px;
-}
+  .currency-option {
+    position: relative;
+    float: left;
+    min-height: 30px;
+  }
 
-.currency-input {
-  opacity: 0;
-  position: absolute;
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  width: 80px;
-  height: 30px;
-}
+  .currency-input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 30px;
+  }
 
-.currency-label {
-  background: $light-gray;
-  cursor: pointer;
-  color: white;
-  margin: 0;
-  padding: 0;
-  width: 80px;
-  height: 30px;
-  display: inline-block
-}
+  .currency-label {
+    background: $light-gray;
+    cursor: pointer;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 30px;
+    display: inline-block
+  }
 
-.currency-label-uk, .currency-label-us {
-  line-height: 0.7rem;
-  vertical-align: middle;
-  display: inline-block;
-    //cursor: pointer;
+  .currency-label-uk, .currency-label-us {
+    line-height: 0.7rem;
+    vertical-align: middle;
+    display: inline-block;
     color: $light-gray;
     height: 30px;
     font-size: 20px;

@@ -212,10 +212,8 @@ const onTabShow = type => {
   $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
   if (state.type == "individual"){
     $('.dropdown').css({"display" : "none"});
-    $('.information-block span').css({"display" : "none"});
   } else {
     $('.dropdown').css({"display" : "block"})
-    $('.information-block span').css({"display" : "inherit"});
   }
 }
 

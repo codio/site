@@ -1,11 +1,9 @@
 .error {
   @include container;
-  margin: 5rem gutter();
+  width: 100%;
 	background: #8283ed;
 
   @include breakpoint($break-tablet) {
-    @include container(10 of 16);
-    margin: 10rem span(3 of 16);
     min-height: 40vh;
   }
 }

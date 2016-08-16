@@ -69,6 +69,8 @@ activate :automatic_clowncar,
 activate :asset_host
 set :asset_host, ENV["M_ASSET_HOST"] || "http://localhost:4567"
 
+set :cookie_consent, ENV["M_COOKIE_CONSENT"] || 'https://d32pm7l1p0vsmf.cloudfront.net/cookieconsent2.4aadfbb2.js'
+
 activate :directory_indexes
 
 ignore '*.ordered'

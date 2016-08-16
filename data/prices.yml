@@ -43,18 +43,18 @@ school:
   - count: 200
     price:
       year:
-        dollar: 2200
+        dollar: 1870
         pound: 1200
   - count: 500
     price:
       year:
-        dollar: 2480
-        pound: 1600
+        dollar: 3510
+        pound: 2250
   - count: 1000
     price:
       year:
-        dollar: 3100
-        pound: 2000
+        dollar: 4680
+        pound: 3000
 university:
   - count: 1
     price:

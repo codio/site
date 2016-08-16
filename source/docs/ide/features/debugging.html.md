@@ -8,13 +8,10 @@ Codio offers an integrated, language specific debugger. Codio currently supports
 
 - Java
 - Python
-
-We will be adding support for the following language between May 2016 and September 2016. If you would like support for any languages that do not appear in the list, please contact us and we can add it.
-
 - NodeJS
 - C and C++
-- PHP
 
+If you would like support for any languages that do not appear in the list, please contact us and we can look into adding it.
 
 ### Video overview
 For anyone who has not used a debugger before, here is a useful video tutorial.
@@ -51,11 +48,11 @@ When creating a new target, you are also shown the debugger port and instruction
 #### Language specific compilation commands
 The information in this section refers to what should be used in the Command Arguments field.
 
-**Python**
-You do not have to use this field as Python is an interpreted language.
+**Python & NodeJS**
+You do not have to use this field as Python and NodeJS are interpreted languages.
 
-**Java**
-This requires you to compile using special compiler directives that enable remote debugging. The following command is recommended
+**Java, C and C++**
+These requires you to compile using special compiler directives that enable remote debugging. The following example command for Java is recommended
 
 ```bash
 javac -g BubbleSort.java && java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105 BubbleSort

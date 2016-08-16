@@ -7,7 +7,7 @@ body.index {
     }
   }
   .content {
-    margin: -65px auto 0 auto;
+    margin: 0 auto;
     max-width: 100%;
   }
 }
@@ -44,72 +44,14 @@ body.index .header-block {
   padding-right: 0;
   height: auto;
 
-  .subheader-block {
-    @include span(4);
-
-    background: $lighter-gray;
-    background-size: cover;
-    margin: 10px auto 0 auto;
-    text-align: center;
-
-    @include breakpoint($break-tablet) {
-      height: auto;
-      padding-top: 5px;
-      padding-bottom: 5px;
-    }
-
-    span {
-      display: none;
-
-      @include breakpoint($break-tablet)
-      {
-        display: block;
-      }
-    }
-
-    .link-button-bar {
-      background: $lighter-gray;
-      margin: 0 auto 0px auto;
-      text-align: center;
-
-      .button-container {
-        @include container;
-        @include break;
-
-        float: none;
-        margin: 0 auto;
-      }
-
-      .button {
-        display: inline-block;
-        color: $dark-gray;
-        border: none;
-        width: 20%;
-        max-width: 150px;
-        height: auto;
-        padding: 0;
-      }
-
-      .button-large {
-        padding: 0 auto;
-      }
-
-      .button:hover {
-        color: white;
-        background-color: $light-gray;
-      }
-    }
-  }
-
   .carousel-block {
     @include span(4);
     display: block;
-    margin-top: 65px;
     padding: 0;
     line-height: 0;
 
     @include breakpoint($break-tablet) {
-      margin-top: 0;
+      //margin-top: 0;
     }
 
     .carousel-inner {
@@ -387,10 +329,10 @@ body.index .header-block {
     max-width: $max-width;
   }
 
-  @include breakpoint($max-width) {
-    margin-left: auto;
-    margin-right: auto;
-  }
+  //@include breakpoint($max-width) {
+  //  margin-left: auto;
+  //  margin-right: auto;
+  //}
 
   .index-section-video {
     padding-bottom: 1 * $base-line-height;
@@ -446,7 +388,7 @@ body.index .header-block {
       }
 
       .scope-txt {
-        min-height: 133px;
+        min-height: 135px;
       }      
 
       .scope-button {
@@ -530,7 +472,6 @@ body.index .header-block {
   margin: 0;
   line-height: 0;
   padding: $base-line-height 0;
-  padding-bottom: 0;
 
   .testimonial-block {
     display: inline-block;
@@ -541,8 +482,12 @@ body.index .header-block {
 
     @include breakpoint($max-width) {
       width: 50%;
-      height: 30vw;
+      height: 24.1vw;
       float: left;
+    }
+
+    @include breakpoint(1388px) {
+      height: 335px;
     }
 
     &.img img {
@@ -552,7 +497,7 @@ body.index .header-block {
 
     &.text {
       text-align: center;
-      font-size: 24px;
+      font-size: 18px;
 
       p {
         line-height: 1.5 * $base-line-height;
@@ -569,7 +514,7 @@ body.index .header-block {
       }
 
       .txt-quotes {
-        font-size: 20px;
+        font-size: 16px;
         font-style: italic;
       }
 
@@ -579,12 +524,12 @@ body.index .header-block {
       }
 
       .txt-right {
-        padding-right: 16%;
+        padding-right: 5%;
         padding-left: 5%;
       }
 
       .txt-left {
-        padding-left: 16%;
+        padding-left: 5%;
         padding-right: 5%;
         color: #fff;
       }

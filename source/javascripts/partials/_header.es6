@@ -5,6 +5,7 @@ $(() => {
   const $header = $('header')
   const $toggle = $('.menu-toggle')
   const $nav = $('.mobile-nav')
+  const $subHeader = $('.subheader-block')
 
   if ($header.hasClass('should-be-fixed')) {
     $header.removeClass('fixed')
@@ -24,6 +25,26 @@ $(() => {
       } else if (scrollTop < offsetVal) {
         $header.removeClass('fixed')
         $toggle.removeClass('fixed')
+      }
+
+      if (scrollTop > 65) {
+        $subHeader.hide();
+        $header.height(65);
+      } else {
+        $subHeader.show();
+        $header.height(105);
+      }
+    })
+  } else {
+    $(window).scroll(() => {
+      const scrollTop = $(window).scrollTop()
+
+      if (scrollTop > 65) {
+        $subHeader.hide();
+        $header.height(65);
+      } else {
+        $subHeader.show();
+        $header.height(105);
       }
     })
   }

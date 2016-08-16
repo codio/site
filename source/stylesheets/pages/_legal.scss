@@ -1,6 +1,6 @@
 
 body.legal .content {
-  margin: 65px auto 0 auto;
+  margin: 0 auto 0 auto;
   max-width: 100%;
 
   @include breakpoint($break-tablet) {
@@ -19,6 +19,7 @@ body.legal .content {
     @include nobreak;
     @include span(10 of 16);
     margin-left: span(5 of 16);
+    padding-top: 3rem;
   }
 
   h3 a {
@@ -73,7 +74,7 @@ body.legal .header-block {
     text-align: center;
     margin-left: gutter();
     margin-right: gutter();
-    padding-top: 50px;
+    padding-top: 105px;
     padding-bottom: 3rem;
 
     @include breakpoint($break-tablet) {

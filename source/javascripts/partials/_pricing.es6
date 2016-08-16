@@ -1,7 +1,5 @@
 /* globals $, numeral */
 
-const PRICES = window.PRICES
-
 const DEFAULT_START = {
   individual: 0,
   business: 0,
@@ -129,12 +127,10 @@ const fillUserLicences = () => {
   const $list = $('.dropdown ul');
   $list.find('li').remove();
 
-  let $index = 0;
-  for (let current of PRICES[state.type]) {
+  PRICES[state.type].forEach(function(current, $index) {
     const $price = current.price[state.range][state.currency];
     $list.append('<li><a class="menu-item" data-index="' + $index + '">' + numeral(current.count).format('0,0') + '</a></li>');
-    $index++;
-  }
+  })
 
   $(".dropdown .dropdown-menu li a").click(function(){
     const $index = $(this).data('index');
@@ -194,6 +190,8 @@ const setPaymentsIcons = type => {
     $('.payment-card-2').attr('src', '/img/assets/pricing/chaps.png');
     $('.payment-card-3').attr('src', '/img/assets/pricing/visa.png');
     $('.payment-card-4').attr('src', '/img/assets/pricing/mastercard.png');
+    $('.payment-card-3').css({"display" : "inline-block"});
+    $('.payment-card-4').css({"display" : "inline-block"});
   }
 }
 
@@ -216,10 +214,8 @@ const onTabShow = type => {
   $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
   if (state.type == "individual"){
     $('.dropdown').css({"display" : "none"});
-    $('.information-block span').css({"display" : "none"});
   } else {
     $('.dropdown').css({"display" : "block"})
-    $('.information-block span').css({"display" : "inherit"});
   }
 }
 
@@ -254,6 +250,7 @@ $(document).ready(function () {
 });
 
 $(() => {
+  const PRICES = window.PRICES
   setupFaqBlock();
   setupSelector();
 });

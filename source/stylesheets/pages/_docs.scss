@@ -1,5 +1,5 @@
 body.docs .content {
-  margin: -65px auto 0 auto;
+  margin: 0 auto 0 auto;
   max-width: 100%;
 }
 
@@ -309,7 +309,6 @@ body.docs .section-block-row-three {
 
   .section-block {
     @include container;
-    // border: 1px solid red;
     margin-top: 0;
     margin-bottom: 1rem;
     text-overflow: clip;
@@ -411,18 +410,15 @@ body.docs .crumbs {
 body.docs .link-collapse {
   margin-left: 12px;
   margin-right: 6px;
-  //font-family: "Glyphicons Halflings";
   font-size: 1.25rem;
   color: $light-blue;
 }
 
 body.docs .link-collapse.collapsed:before {
-  //content: "\e080";
   content: "\25B8";
 }
 
 body.docs .link-collapse:before {
-  //content: "\e114";
   content: "\25BE";
 }
 

@@ -15,7 +15,6 @@ body.features_curriculum .header-block {
     background-image: $gradient;
     background: url('/img/assets/features/curriculum/curriculum_bg_image.png') no-repeat top center fixed;
     background-color: #4574e0;
-    //background-size: contain;
   }
 
   h1 {
@@ -247,7 +246,6 @@ body.features_curriculum .curriculum-body {
     @include container;
 
     @include breakpoint($break-tablet) {
-
     }
 
     a {

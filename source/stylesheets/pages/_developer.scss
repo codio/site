@@ -11,7 +11,7 @@ body.developer {
   }
 
   .content {
-    margin: -65px auto 0 auto;
+    margin: 0 auto 0 auto;
     max-width: 100%;
   }
 
@@ -185,7 +185,6 @@ body.developer .header-block {
         }
 
         .section-block-copy {
-          //min-height: 324px;
         }
       }
 
@@ -200,7 +199,6 @@ body.developer .header-block {
         }
 
         .section-block-copy {
-          //min-height: 252px;
         }
       }
 
@@ -215,7 +213,6 @@ body.developer .header-block {
         }
 
         .section-block-copy {
-          //min-height: 216px;
         }
       }
 
@@ -636,15 +633,6 @@ body.developer .header-block {
 
     .section-block {
       margin-bottom: 3rem;
-
-      //h2 {
-      //  font-size: 32px;
-      //  font-weight: 400;
-      //}
-
-      //p {
-      //  font-weight: 22px;
-      //}
 
       @include breakpoint($break-tablet) {
         width: span(14 of 32);

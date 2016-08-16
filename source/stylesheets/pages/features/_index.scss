@@ -4,13 +4,12 @@ body.features_index .header-block {
   background-color: #2a3547;
   color: white;
   position: relative;
-  padding: 5rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   text-align: center;
 
   @include breakpoint($break-tablet) {
     background-color: #2a3547;
-    padding: 8rem 4rem;
-    padding-bottom: 3rem;
+    padding: 3rem 4rem;
   }
 
   h1 {
@@ -55,6 +54,19 @@ body.features_index .header-block {
       animation-delay: .8s;
       padding: 0.5rem 1rem;
       max-width: 550px;
+    }
+  }
+
+  .highlighted {
+    padding: 5px 0;
+    margin: 0 1rem;
+    h2 {
+      color: #fa8072;
+      text-align: center;
+      font-weight: 500;
+      font-size: 2rem;
+      animation-delay: .8s;
+      padding: 0.5rem 1rem;
     }
   }
 

@@ -1,9 +1,37 @@
+body.x404 {
+  .content {
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+  }
+}
+
 .error {
-  @include container;
+  @include break;
   width: 100%;
 	background: #8283ed;
+  text-align: center;
 
   @include breakpoint($break-tablet) {
-    min-height: 40vh;
+    min-height: 60vh;
+  }
+
+  .error-container {
+    text-align: center;
+  }
+
+  .buuble {
+    text-align: center;
+  }
+
+  .text-block {
+    font-size: 2rem;
+  }
+
+  .image-block {
+    text-align: center;
+    position: relative;
+    svg {
+      max-width: 400px;
+    }
   }
 }

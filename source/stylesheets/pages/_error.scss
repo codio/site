@@ -8,30 +8,148 @@ body.x404 {
 .error {
   @include break;
   width: 100%;
-	background: #8283ed;
+  background: #8283ed;
   text-align: center;
+  padding-top: 105px;
 
   @include breakpoint($break-tablet) {
     min-height: 60vh;
   }
 
   .error-container {
+    @include container;
+    @include break;
+    width: 700px;
+    padding-top: 40px;
     text-align: center;
   }
 
-  .buuble {
+  .bubble {
+    @include break;
+    position: relative;
     text-align: center;
+    width: 700px;
+    height: 300px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: #9b9bf0 solid 5px;
   }
+
+  .bubble:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -60px;
+    right: 40%;
+    height: 60px;
+    border-right: 80px solid #9b9bf0;
+    background: #8283ed; /* need this for webkit - bug in handling of border-radius */
+    /* css3 */
+    -webkit-border-bottom-right-radius: 100px 100px;
+    -moz-border-radius-bottomright: 100px 100px;
+    border-bottom-right-radius: 100px 100px;
+    /* using translate to avoid undesired appearance in CSS2.1-capabable but CSS3-incapable browsers */
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    -ms-transform: translate(0, 5px);
+    -o-transform: translate(0, 5px);
+    transform: translate(0, 5px);
+  }
+  .bubble:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -60px;
+    right: 40%;
+    width: 80px;
+    height: 60px;
+    background: #8283ed;
+    /* css3 */
+    -webkit-border-bottom-right-radius: 40px 50px;
+    -moz-border-radius-bottomright: 40px 50px;
+    border-bottom-right-radius: 40px 50px;
+    -webkit-border-top-right-radius: 40px 50px;
+    -moz-border-radius-topright: 40px 50px;
+    border-top-right-radius: 40px 50px;
+    /* using translate to avoid undesired appearance in CSS2.1-capabable but CSS3-incapable browsers */
+    -webkit-transform: translate(-50px, 5px);
+    -moz-transform: translate(-50px, 5px);
+    -ms-transform: translate(-50px, 5px);
+    -o-transform: translate(-50px, 5px);
+    transform: translate(-50px, 5px);
+  }
+
+
+  .bubble-2 {
+    @include break;
+    position: relative;
+    text-align: center;
+    width: 690px;
+    height: 290px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: #8283ed solid 5px;
+  }
+
+  .bubble-2:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -60px;
+    right: 41%;
+    height: 63px;
+    border-right: 60px solid #8283ed;
+    background: #8283ed; /* need this for webkit - bug in handling of border-radius */
+    /* css3 */
+    -webkit-border-bottom-right-radius: 100px 100px;
+    -moz-border-radius-bottomright: 100px 100px;
+    border-bottom-right-radius: 100px 95px;
+    /* using translate to avoid undesired appearance in CSS2.1-capabable but CSS3-incapable browsers */
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    -ms-transform: translate(0, 5px);
+    -o-transform: translate(0, 5px);
+    transform: translate(2px, 7px);
+  }
+  .bubble-2:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -60px;
+    right: 41%;
+    width: 50px;
+    height: 65px;
+    background: #9b9bf0;
+    /* css3 */
+    -webkit-border-bottom-right-radius: 40px 50px;
+    -moz-border-radius-bottomright: 40px 50px;
+    border-bottom-right-radius: 40px 60px;
+    -webkit-border-top-right-radius: 40px 50px;
+    -moz-border-radius-topright: 40px 50px;
+    border-top-right-radius: 50px 65px;
+    /* using translate to avoid undesired appearance in CSS2.1-capabable but CSS3-incapable browsers */
+    -webkit-transform: translate(-30px, 5px);
+    -moz-transform: translate(-30px, 5px);
+    -ms-transform: translate(-30px, 5px);
+    -o-transform: translate(-30px, 5px);
+    transform: translate(-37px, 10px);
+  }
+
+
 
   .text-block {
     font-size: 2rem;
   }
 
   .image-block {
+    margin-top: -20px;
     text-align: center;
     position: relative;
     svg {
-      max-width: 400px;
+      width: 100%;
+      height: auto;
     }
   }
 }

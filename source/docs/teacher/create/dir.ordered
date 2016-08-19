@@ -4,6 +4,7 @@ addowners
 addstudents
 bulkupload
 viewmembers
+dash
 removeowners
 removemembers
 deleteorg

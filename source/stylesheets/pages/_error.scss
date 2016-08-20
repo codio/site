@@ -13,15 +13,25 @@ body.x404 {
   padding-top: 105px;
 
   @include breakpoint($break-tablet) {
-    min-height: 60vh;
+    height: 840px;
   }
 
   .error-container {
     @include container;
     @include break;
-    width: 700px;
+    width: 600px;
+    height: 699px;
     padding-top: 40px;
     text-align: center;
+  }
+
+  .illustration {
+    @include break;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('/img/assets/404_illustration.svg');
+    background-size: cover;
   }
 
   .bubble {

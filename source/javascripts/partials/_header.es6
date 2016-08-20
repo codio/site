@@ -31,8 +31,13 @@ $(() => {
         $subHeader.hide();
         $header.height(65);
       } else {
-        $subHeader.show();
-        $header.height(105);
+        if ($(window).width() > 800) {
+          $subHeader.show();
+          $header.height(105);
+        } else {
+          $subHeader.hide();
+          $header.height(65);
+        }
       }
     })
   } else {
@@ -43,8 +48,13 @@ $(() => {
         $subHeader.hide();
         $header.height(65);
       } else {
-        $subHeader.show();
-        $header.height(105);
+        if ($(window).width() > 800) {
+          $subHeader.show();
+          $header.height(105);
+        } else {
+          $subHeader.hide();
+          $header.height(65);
+        }
       }
     })
   }

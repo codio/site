@@ -8,7 +8,7 @@ body.x404 {
 .error {
   @include break;
   width: 100%;
-  height: 645px;
+  height: 685px;
   background: #8283ed;
   text-align: center;
   padding-top: 65px;
@@ -22,32 +22,15 @@ body.x404 {
     @include container;
     @include break;
     text-align: center;
-    width: 500px;
-    height: 549px;
-
-    @include breakpoint($break-tablet) {
-      width: 500px;
-      height: 569px;
-      padding-top: 20px;
-    }
-  }
-
-  .illustration {
-    @include break;
-    width: 100%;
-    height: 100%;
-    text-align: center;
+    width: 520px;
+    height: 569px;
     background-image: url('/img/assets/404_illustration.svg');
     background-size: cover;
-  }
-
-  .text-block {
-    @include break;
-    padding: 0 10px;
 
     h2 {
       color: #ff857c;
       font-size: 70px;
+      padding: 0 10px;
     }
 
     p {
@@ -55,16 +38,7 @@ body.x404 {
       font-weight: 400;
       line-height: 23px;
       font-size: 16px;
-    }
-
-    @include breakpoint($break-tablet) {
-      h2 {
-        font-size: 70px;
-      }
-
-      p {
-        font-size: 16px;
-      }
+      padding: 0 10px;
     }
 
     a {

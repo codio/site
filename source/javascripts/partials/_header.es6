@@ -26,38 +26,20 @@ $(() => {
         $header.removeClass('fixed')
         $toggle.removeClass('fixed')
       }
-
-      if (scrollTop > 65) {
-        $subHeader.hide();
-        $header.height(65);
-      } else {
-        if ($(window).width() > 800) {
-          $subHeader.show();
-          $header.height(105);
-        } else {
-          $subHeader.hide();
-          $header.height(65);
-        }
-      }
-    })
-  } else {
-    $(window).scroll(() => {
-      const scrollTop = $(window).scrollTop()
-
-      if (scrollTop > 65) {
-        $subHeader.hide();
-        $header.height(65);
-      } else {
-        if ($(window).width() > 800) {
-          $subHeader.show();
-          $header.height(105);
-        } else {
-          $subHeader.hide();
-          $header.height(65);
-        }
-      }
     })
   }
+
+  $(window).scroll(() => {
+    const scrollTop = $(window).scrollTop()
+
+    if (scrollTop > 65 || $(window).width() < 800) {
+      $subHeader.hide();
+      $header.height(65);
+    } else {
+      $subHeader.show();
+      $header.height(105);
+    }
+  })
 
   // Responsive Menu
 

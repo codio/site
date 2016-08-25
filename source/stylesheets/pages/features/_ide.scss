@@ -59,13 +59,30 @@ $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 			margin-top: 0;
 		}
 
-		p {
+		.section-block-text {
 			text-align: center;
 			font-weight: 300;
 			@include breakpoint($break-tablet) {
 				line-height: 25px;
+				font-size: 18px;
+			}
+		}
+
+		.section-block-text a, .section-block-copy a {
+			color: #00f;
+			text-decoration: underline;
+
+			&:hover,
+			&:focus,
+			&:active {
+				text-decoration: underline;
+				color: #00b;
 			}
 
+			&:active,
+			&:focus {
+				outline: none;
+			}
 		}
 	}
 
@@ -85,23 +102,6 @@ $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 			left: 0;
 			width: 100%;
 			height: 100%;
-		}
-	}
-	
-	a {
-		color: #00f;
-		text-decoration: underline;
-
-		&:hover,
-		&:focus,
-		&:active {
-			text-decoration: underline;
-			color: #00b;
-		}
-
-		&:active,
-		&:focus {
-			outline: none;
 		}
 	}
 }

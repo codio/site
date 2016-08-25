@@ -7,7 +7,7 @@ full_width: true
 
 There are several actions that can be made for an individual unit. 
 
-- Open a unit as a teacher, which allows you to see Guides pages that are only visible to teachers.
+- Open a unit as a teacher, which allows you to see Guides pages and solutions that are only visible to teachers.
 - Hide grades from students for the selected unit
 - Run the plagiarism checker
 - Pin or Unpin a unit from the student dashboards

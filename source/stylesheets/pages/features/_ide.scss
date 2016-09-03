@@ -52,6 +52,11 @@ $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 			@include breakpoint($max-width) {
 				margin-right: span(0 of 32);
 				width: 40%;
+				padding-top: 4%;
+			}
+
+			@include breakpoint(1400px) {
+				padding-top: 6%;
 			}
 		}
 

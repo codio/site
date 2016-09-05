@@ -24,7 +24,9 @@ You can access the student's code from the same screen by clicking on the arrow 
 There are two ways to assign the grade.
 
 - Either you can grade from within the IDE itself from the Education menu item. You need to have a student project open in the IDE.
-- Or you can grade from the class dashboard. You must first have selected the unit associated with the project and then press the grading icon.
+- Or you can grade from the class dashboard. You must first have selected the unit associated with the project and then press the grading icon. 
+
+Also see [Autograding](/docs/teacher/classes/autograde/)
 
 To grade from the class dashboard, you should first select the assignment unit. You can see the check mark next to those students who have completed the assignment.
 

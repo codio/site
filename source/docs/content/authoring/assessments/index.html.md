@@ -10,7 +10,7 @@ Assessments are an extremely helpful accompaniment to tutorial content.
 - Many assessment types are automatically graded, saving precious time for teachers and giving students instant feedback
 - A wide range of assessment types (automatic code tests, multiple choice tests, fill in the blanks, drop-down selection, free text responses and project grading) allow the broadest possible measurement of a student's progress
 - In classroom scenarios, all assessment responses feed through to a teacher dashboard
-- Each individual assessment can only be answered once, giving a true reflection of understanding rather than being able to carry on answering until the correct answer is achieved
+- For multiple choice tests, fill in the blanks and drop-down selection assessement types, each individual assessment can only be answered once, giving a true reflection of understanding rather than being able to carry on answering until the correct answer is achieved
 - When an answer is submitted, the correct answer is shown to the student
 
 Each content author can choose to weave assessments into the tutorial materials or to create Units that are dedicated to assessments.

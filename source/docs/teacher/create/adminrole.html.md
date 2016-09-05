@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-As the creator of your educational ‘organization’ in Codio, you have administrator rights. This means that you can add and remove teachers and students from your organization, edit your organization information, and delete your organization.
+As the creator of your educational ‘organization’ in Codio, you have administrator rights. This means that you can add and remove [teachers](/docs/teacher/create/addteachers/) and [students](/docs/teacher/create/bulkupload/) from your organization, edit your organization information, manage your students [dashboard settings](/docs/teacher/create/dash/), create [grading templates](/docs/teacher/assess/rubric/) and [delete](/docs/teacher/create/deleteorg/) your organization.
 
 To access the administration tools:
 

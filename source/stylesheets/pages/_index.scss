@@ -50,10 +50,6 @@ body.index .header-block {
     padding: 0;
     line-height: 0;
 
-    @include breakpoint($break-tablet) {
-      //margin-top: 0;
-    }
-
     .carousel-inner {
       line-height: $base-line-height;
 
@@ -66,193 +62,60 @@ body.index .header-block {
         vertical-align: middle;
       }
 
-      .banner1-text {
-        position: absolute;
-        text-align: left;
-        color: white;
-        top: 20%;
-        left: 10%;
-
-        h2 {
-          font-size: 1.8rem;
-        }
-
-        h3 {
-          font-size: 1rem;
-          margin: 0.6rem 0;
-        }
-
-        span {
-          display: none;
-        }
-
-        .button.button-large {
-          padding: 2px 15px;
-          font-size: 12px;
-        }
-
-        @include breakpoint($break-tablet) {
-          top: 23%;
-          left: 10%;
-
-          h2 {
-            font-size: 2.2rem;
-          }
-
-          h3 {
-            font-size: 1.2rem;
-            margin-top: 1.2rem;
-            margin-bottom: 1.8rem;
-          }
-
-          span {
-            display: inline-block;
-          }
-
-          .button.button-large {
-            padding: 4px 20px;
-            font-size: 14px;
-          }
-        }
-
-        @include breakpoint($max-width) {
-          top: 28%;
-          left: 10%;
-
-          h2 {
-            font-size: 2.5rem;
-          }
-
-          h3 {
-            font-size: 1.5rem;
-            margin-top: 1.5rem;
-            margin-bottom: 2rem;
-          }
-
-          span {
-            display: inline-block;
-          }
-
-          .button.button-large {
-            padding: 5px 25px;
-            font-size: 16px;
-          }
-        }
+      .slot-1, .slot-2, .slot-3, .slot-4 {
+        width: 100%;
+        height: 41.1vw;
+        text-align: center;
+        background-size: cover;
       }
 
-      .banner3-text {
-        position: absolute;
-        text-align: center;
-        color: white;
-        top: 20%;
-        left: 25%;
+      .slot-1 {
+        background-image: url('/img/assets/index/carousel/slot1-buy-codio.svg');
+      }
 
-        h2 {
-          font-size: 1.8rem;
-        }
+      .slot-2 {
+        background-image: url('/img/assets/index/carousel/slot2-codio-at-coventry-university.jpg');
+      }
 
-        h3 {
-          font-size: 1rem;
-          margin: 0.6rem 0;
-        }
+      .slot-3 {
+        background-image: url('/img/assets/index/carousel/slot3-lms-integration.svg');
+      }
 
-        span {
-          display: none;
-        }
-
-        .button.button-large {
-          padding: 2px 15px;
-          font-size: 12px;
-        }
-
-        @include breakpoint($break-tablet) {
-          top: 23%;
-          left: 30%;
-
-          h2 {
-            font-size: 2.2rem;
-          }
-
-          h3 {
-            font-size: 1.2rem;
-            margin-top: 1.2rem;
-            margin-bottom: 1.8rem;
-          }
-
-          span {
-            display: inline-block;
-          }
-
-          .button.button-large {
-            padding: 4px 20px;
-            font-size: 14px;
-          }
-        }
-
-        @include breakpoint($max-width) {
-          top: 28%;
-          left: 35%;
-
-          h2 {
-            font-size: 2.5rem;
-          }
-
-          h3 {
-            font-size: 1.5rem;
-            margin-top: 1.5rem;
-            margin-bottom: 2rem;
-          }
-
-          span {
-            display: inline-block;
-          }
-
-          .button.button-large {
-            padding: 5px 25px;
-            font-size: 16px;
-          }
-        }
+      .slot-4 {
+        background-image: url('/img/assets/index/carousel/slot4-teach-data-science.svg');
       }
 
       .title-text {
-        position: absolute;
         text-align: center;
-        top: 15%;
-        left: 15%;
+        margin: 0 auto;
+        padding-top: 6%;
         width: 70%;
-        color: #000;
-        background: $lighter-gray;
-        opacity: 0.8;
-        
-        @include breakpoint($break-tablet) {
-          top: 30%
-        }
+        color: #fff;
 
-        @include breakpoint($max-width) {
-          top: 35%;
-        }
-
-        .subtitle {
-          margin-bottom: 1rem;
-
-          .button {
-            display: inline-block;
-            padding: 0;
-            height: auto;
-          }
-          .button-large {
-            padding: 5px 15px;
-          }
+        .button-large {
+          padding: 15px 35px;
+          font-size: 1.8vw;
         }
 
         h2 {
-          font-size: 32px;
+          font-size: 5vw;
+          font-weight: 400;
         }
 
         h3 {
-          font-size: 26px;
-          display: inline-block;
-          padding-right: 1rem;
+          margin-top: 1rem;
+          padding-top: 0;
+          padding-bottom: 2.5%;
+          font-size: 2.5vw;
+          font-weight: 400;
+        }
+
+        @include breakpoint($break-tablet) {
+          padding-top: 9%;
+          h3 {
+            padding-top: 1%;
+            padding-bottom: 5%;
+          }
         }
       }
     }
@@ -328,11 +191,6 @@ body.index .header-block {
     float: inherit;
     max-width: $max-width;
   }
-
-  //@include breakpoint($max-width) {
-  //  margin-left: auto;
-  //  margin-right: auto;
-  //}
 
   .index-section-video {
     padding-bottom: 1 * $base-line-height;

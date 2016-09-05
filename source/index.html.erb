@@ -7,29 +7,36 @@ description: Codio is the platform used by educators to teach computer science. 
 
 <section class="header-block">
   <div class="carousel-block">
-    <div id="headerCarousel" class="carousel slide" data-ride="carousel">
+    <div id="headerCarousel" class="carousel slide" data-ride="">
 
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <a href="http://email.codio.com/plagiarism-detection-for-source-code/">
-            <%= image_tag 'assets/index/carousel/cb1.jpg', class: 'img-responsive center-block' %>
-          </a>
+        <div class="item active slot-1">
+          <div class="title-text">
+            <h2>Buy Codio</h2>
+            <h3>Some text...?</h3>
+            <%= link_to 'Buy Codio', '/pricing', class: 'button button-large button-main' %>
+          </div>
         </div>
-        <div class="item">
-          <a href="https://codio.com/blog/codio-at-coventry-university/">
-            <%= image_tag 'assets/index/carousel/cb2.jpg', class: 'img-responsive center-block' %>
-          </a>
-          <div class="img-container"></div>
+        <div class="item slot-2">
+          <div class="title-text">
+            <h2>Codio at Coventry University</h2>
+            <h3>Supporting activity-based learning</h3>
+            <%= link_to 'Watch Video', 'https://codio.com/blog/codio-at-coventry-university/', class: 'button button-large button-main' %>
+          </div>
         </div>
-        <div class="item">
-          <a href="https://codio.com/blog/codio-releases-integration-with-lms-platforms/">
-            <%= image_tag 'assets/index/carousel/cb3.jpg', class: 'img-responsive center-block' %>
-          </a>
+        <div class="item slot-3">
+          <div class="title-text">
+            <h2>New! Product Upgrade</h2>
+            <h3>Codio integrates with you LMS</h3>
+            <%= link_to 'Learn More', 'https://codio.com/blog/codio-releases-integration-with-lms-platforms/', class: 'button button-large button-main' %>
+          </div>
         </div>
-        <div class="item">
-          <a href="https://codio.com/blog/using-codio-to-teach-data-science/">
-            <%= image_tag 'assets/index/carousel/cb4.jpg', class: 'img-responsive center-block' %>
-          </a>
+        <div class="item slot-4">
+          <div class="title-text">
+            <h2>Teaching Data Science?</h2>
+            <h3>How to use Codio</h3>
+            <%= link_to 'Learn More', 'https://codio.com/blog/using-codio-to-teach-data-science/', class: 'button button-large button-main' %>
+          </div>
         </div>
       </div>
 

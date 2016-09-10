@@ -9,19 +9,29 @@ description: "Codio’s web-based IDE has the power of a desktop version, with m
 
   <section class='section top'>
     <h1 class="">
-      Web-based IDE
+      Online IDE
     </h1>
     <h2>
-      With the power of a desktop equivalent
+      Teach Java, Python, C++ and more
     </h2>
-    <h3>
-      Hassle-free and simple to use
-    </h3>
-    <p>
-      Because it’s web-based, there’s nothing to download, install or update.
-      But that doesn’t mean Codio’s IDE is less powerful. In fact it has the
-      same functionality you would expect to find in a desktop IDE.
-    </p>
+    <div class="webide-section-block-row">
+      <div class="section-block h_iframe">
+        <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
+        <iframe src="https://player.vimeo.com/video/177558343?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+      </div>
+      <div class="section-block">
+        <h4>
+          Hassle-free and simple to use
+        </h4>
+        <div class="section-block-text">Because it’s web-based, there’s nothing to download, install or update. You can teach any programming
+          language such as Python, Java, C++, HTML, PHP, Javascript and more. It comes with an
+          <a href="/blog/integrated-debugger-launched-for-multiple-programming-languages/">integrated debugger</a>
+          that supports Python, Java, C, C++ and NodeJS.
+        </div>
+      </div>
+    </div>
+
     <div class="action-buttons animated fadeInUp">
       <%= link_to 'Free 30 day trial', '/p/free-education-trial', class: 'button button-xlarge button-main' %>
     </div>
@@ -51,8 +61,8 @@ description: "Codio’s web-based IDE has the power of a desktop version, with m
             Advanced features
           </h3>
           <div class="section-block-copy">
-            Multiple code panels. Syntax highlighting support for all
-            programming languages. Codio's advanced features are easy to use
+            Multiple code panels. <a href="/docs/ide/navigation/editing/">Syntax highlighting support</a> for all
+            programming languages. <a href="/docs/ide/features/">Codio's advanced features</a> are easy to use
             by beginners and help experienced users be more productive.
           </div>
         </div>
@@ -76,34 +86,34 @@ description: "Codio’s web-based IDE has the power of a desktop version, with m
   </div>
 
   <div class="section quote grey-top">
-      <div class="section-block">
-        <div class="left-quote">
-          &ldquo;
-        </div>
-        <div class="section-block-copy">
-          Codio’s education tools made it attractive. Not just to put everyone
-          on the same platform, but also as a tool for managing classes. It’s
-          given us a way to organise a lot of the technical things we’re doing
-          with the kids, and is part of the strategic plan that’s helping us to
-          scale.
-        </div>
-        <div class="right-quote">
-          &rdquo;
-        </div>
+    <div class="section-block">
+      <div class="left-quote">
+        &ldquo;
       </div>
-      <div class="teacher">
-        <div class="profile">
-          <%= inline_svg "assets/features/quotes/man-young-black.svg", class: "" %>
-        </div>
-        <div class="copy">
-          <h4>Sylvester Mobley</h4>
-            <p>
-            Founder, CodedbyKids <br>
-            Philadelphia, USA <br>
-            <%= link_to 'Learn more', 'http://blog.codio.com/coded-by-kids-and-codio/', class: 'link' %>
-          </p>
-        </div>
+      <div class="section-block-copy">
+        Codio’s education tools made it attractive. Not just to put everyone
+        on the same platform, but also as a tool for managing classes. It’s
+        given us a way to organise a lot of the technical things we’re doing
+        with the kids, and is part of the strategic plan that’s helping us to
+        scale.
       </div>
+      <div class="right-quote">
+        &rdquo;
+      </div>
+    </div>
+    <div class="teacher">
+      <div class="profile">
+        <%= inline_svg "assets/features/quotes/man-young-black.svg", class: "" %>
+      </div>
+      <div class="copy">
+        <h4>Sylvester Mobley</h4>
+        <p>
+          Founder, CodedbyKids <br>
+          Philadelphia, USA <br>
+          <%= link_to 'Learn more', 'http://blog.codio.com/coded-by-kids-and-codio/', class: 'link' %>
+        </p>
+      </div>
+    </div>
   </div>
 
   <%= partial "features-call-to-action" %>

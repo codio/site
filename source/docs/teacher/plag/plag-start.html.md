@@ -7,6 +7,10 @@ full_width: true
 ## Classes
 In order to use this feature you need to set up a class. If you are not using Codio as your main IDE and want to use only the plagiarism detection feature then you should still follow these instructions and ask your students to upload their code into the project using Git or by uploading files manually.
 
+## Access Plagiarism features
+
+When in your class, select your unit and then click the Actions button (button to the top right of the screen) to show the available actions that includes Plagiarism 
+
 <img alt="authtoken" src="/img/docs/guides/plag-button.png" class="simple"/>
 
 ## Run

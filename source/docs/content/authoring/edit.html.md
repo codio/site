@@ -25,7 +25,7 @@ For those of you not familiar with Markdown, it is an extremely easy way of writ
 
 When in Play Mode, your content is rendered beautifully and you can even override the default CSS styling.
 
-You can also insert [images, videos and hyperlinks](/docs/content/authoring/create/imvid).
+You can also insert [images, videos and hyperlinks](/docs/content/authoring/imvid).
 
 
 We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs//project/creating/) for more information on importing.

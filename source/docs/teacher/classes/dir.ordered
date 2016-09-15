@@ -10,8 +10,9 @@ removestudent
 delete
 plag
 edit-unit
+unit-duration
 complete-unit
+autograde
 lti
 giga
-autograde
 template

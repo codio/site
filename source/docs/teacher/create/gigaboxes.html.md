@@ -1,7 +1,5 @@
 ---
-title: Gigaboxes
-class_name: docs
-full_width: true
+title: "Gigaboxes"
 ---
 
 Codio's default boxes are allocated 512MB of memory. If you need larger boxes then you can upgrade your subscription to give access to 1GB and 2GB boxes.

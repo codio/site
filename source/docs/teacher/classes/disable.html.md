@@ -6,6 +6,8 @@ full_width: true
 
 You can enable or disable units that have been assigned to classes. This is useful when your students are working in controlled examination conditions and you do not want them to have access to their work outside of lesson time.
 
+Via the main settings tab (or option from the dropdown 3 dot menu) you can also specify whether the student has no access or read-only access to the project when the Unit is disabled. You can find this setting in the topmost group "Unit" on the settings screen.
+
 To disable and then enable a unit:
 
 1. From the **My Classroom** area, click on your class to open it. 

@@ -39,6 +39,21 @@ $ sudo service <package-name> restart
 ```
 
 ### G1 (first generation) Boxes
+
+> **DEPRECATION NOTICE**
+>
+> G1 (first generation) Boxes will be disabled on 1st January 2017. 
+
 If you are running an old first generation box, then please [click here](/docs/ide/boxes/installsw/g1/) for details.
 
 If you are not sure which box generation you are running, select the Project->Box Info menu item. The ensuing dialog displays near the top.
+
+#### Migrating G1 Boxes to G2
+
+- Go to ‘Project>Settings’ and to the 'Generation 1 to Generation 2 migration' tab
+- Select the Stack you wish to use in your project using the 'browse' button. If there is not a suitable stack available, you can create your own and return to this tab when completed. See [Creating a Stack](/docs/project/stacks/new/) for more information.
+- Define the name of the new G2 project
+- Press the 'Migrate' button when ready to proceed
+
+**Note:** Only your project data is migrated, any project level configuration of installed packages from your Generation 1 Box will not be migrated
+

@@ -8,6 +8,10 @@ This powerful feature allows a teacher to specify a start and a stop date and ti
 
 Once the stop date and time is reached then the unit will be disabled and, depending on your [disabled Unit settings](/docs/teacher/classes/disable) students will either be refused all access or can have read-only access to the Unit.
 
+This feature is accessible via the main settings tab.
+
+<img alt="authtoken" src="/img/docs/manage_classes/unitduration.png" class="simple"/>
+
 ### Time Zones
 Currently, the time zone is taken automatically from your browser, so please check your time settings are correct.
 

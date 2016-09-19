@@ -261,7 +261,7 @@ const documentation = [
   '/docs/ide/tools/deployment/create',
   '/docs/ide/tools/deployment/deploy',
   '/docs/ide/tools/deployment/deployment-keys',
-  '/docs/ide/tools/deployment/deployment-ssh-keys',
+  '/docs/ide/tools/deployment/deployment-ssh',
   '/docs/ide/tools/deployment/history',
   '/docs/ide/tools/deployment/specific-files',
   '/docs/ide/tools/deployment/type-ftp',

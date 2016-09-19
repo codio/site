@@ -7,7 +7,6 @@ type-rsync
 type-ftp
 type-sftp
 type-nj
-type-parse
 type-git
 history
 specific-files

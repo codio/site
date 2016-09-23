@@ -10,21 +10,33 @@ description: Codio is the platform used by educators to teach computer science. 
     <div id="headerCarousel" class="carousel slide" data-ride="carousel">
 
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <a href="http://email.codio.com/plagiarism-detection-for-source-code/">
-            <%= image_tag 'assets/index/carousel/new_plagiarism_checker.jpg', class: 'img-responsive center-block' %>
-          </a>
+        <div class="item active slot-1">
+          <div class="title-text">
+            <h2>Interested in Codio?</h2>
+            <h3>View our pricing or ask for a demo</h3>
+            <%= link_to 'Buy Now', '/pricing', class: 'button button-large button-main' %>
+          </div>
         </div>
-        <div class="item">
-          <a href="https://codio.com/blog/product-announcement-learn-to-think-computationally-by-making-your-very-own-maze-game/">
-            <%= image_tag 'assets/index/carousel/maze_game.jpg', class: 'img-responsive center-block' %>
-          </a>
-          <div class="img-container"></div>
+        <div class="item slot-2">
+          <div class="title-text">
+            <h2>Codio at Coventry University</h2>
+            <h3>Supporting activity-based learning</h3>
+            <%= link_to 'Watch Video', 'https://codio.com/blog/codio-at-coventry-university/', class: 'button button-large button-main' %>
+          </div>
         </div>
-        <div class="item">
-          <a href="https://codio.com/blog/integrated-debugger-launched-for-multiple-programming-languages/">
-            <%= image_tag 'assets/index/carousel/integrated_debugger.jpg', class: '' %>
-          </a>
+        <div class="item slot-3">
+          <div class="title-text">
+            <h2>New! Product Upgrade</h2>
+            <h3>Codio integrates with your LMS</h3>
+            <%= link_to 'Learn More', 'https://codio.com/blog/codio-releases-integration-with-lms-platforms/', class: 'button button-large button-main' %>
+          </div>
+        </div>
+        <div class="item slot-4">
+          <div class="title-text">
+            <h2>Teaching Data Science?</h2>
+            <h3>How to use Codio</h3>
+            <%= link_to 'Learn More', 'https://codio.com/blog/using-codio-to-teach-data-science/', class: 'button button-large button-main' %>
+          </div>
         </div>
       </div>
 

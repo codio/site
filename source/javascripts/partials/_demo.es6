@@ -2,6 +2,8 @@
 
 $(() => {
 
+  $('#book-now-id').collapse('hide');
+
   $('#demo-form').submit(function (event) {
     event.preventDefault()
 

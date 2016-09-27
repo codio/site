@@ -1,114 +1,100 @@
 ---
 title: "Book a demo | Teaching code | Codio"
 description: "Book a Codio demo. Find out how it can revolutionise the way you tech code."
-fixed: true
+fixed: false
 is_demo_page: true
 ---
 <% @pricingType = "university" %>
 <% @signupUrl = "/p/free-education-trial" %>
 
 <section class='header-block'>
-  <h1>Book a demo</h1>
+  <h1>Request a demo</h1>
+  A Codio expert will take you through the key benefits, how to use Codio in your school and pricing options for your institution.
 </section>
 
-<section class="demo-body">
+<section class="demo-content">
+  <div class="collapse-region">
+    <a href="#book-now-id" data-toggle="collapse" class="button button-large button-collapse">Book Now</a>
 
-  <div class="section first">
-    <div class="section-block">
-      <div class="section-block-copy">
-        Find out how Codio can help you revolutionise the way you teach coding,
-        and the way you manage the teaching process. A Codio expert will take
-        you through Codio's key benefits and pricing structure - online or in
-        person.
+    <div id="book-now-id" class="book-panel collapse">
+      <h4>Are you a...</h4>
+      <div class="action-buttons">
+        <a href="#school-teacher-collapse" data-toggle="collapse" class="button button-large button-dark button-collapse">School Teacher</a>
+        <div id="school-teacher-collapse"></div>
+        <p>or</p>
+        <%= link_to 'University Lecturer', 'https://attendee.gotowebinar.com/rt/3941926581006800900?splash=false', class: 'button button-large button-dark' %>
       </div>
     </div>
   </div>
+</section>
 
-  <div class="blue">
-    <div class="arrow">
-      <div class="section second">
-        <div class="section-block-row-three">
-          <form id="demo-form" class="" action="<%= tiny_host %>/demo" method="post">
-
-            <div class="section-block">
-              <p>
-                <input type="text" id="name" name="name" placeholder="Your name *" value="" required>
-              </p>
-              <p>
-                <input type="text" id="company" name="company" placeholder="University or college name *" value="" required>
-              </p>
-              <p>
-                <input type="text" id="datetime" name="datetime" placeholder="Suggest a contact date and time" value="">
-              </p>
+<section class="video-content">
+  <h2>Latest videos</h2>
+  <div>
+    <div class="section-block h_iframe">
+      <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
+      <iframe src="https://player.vimeo.com/video/177558343?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+      </iframe>
+      <h4 style="display:block">Video title</h4>
+    </div>
+    <div class="section-block video-list">
+      <ul>
+        <li>
+          <div class="video-list-item">
+            <a href="#" class="thumb">
+              <img src="https://i.vimeocdn.com/video/575112684.webp?mw=150&mh=80">
+            </a>
+            <div class="video-list-item-desc">
+              <div class="title">Title</div>
+              <div class="subtitle">Subtitle</div>
             </div>
-            <div class="section-block">
-              <p>
-                <input type="email" id="email" name="email" placeholder="Email *" value="" required>
-              </p>
-              <p>
-                <input type="text" id="phone" name="phone" placeholder="Telephone (Optional)" value="">
-              </p>
-              <div class="form-inset">
-                <small>Please contact me</small>
-                <p>
-                  <span>
-                    <input class="checkbox-custom" type="checkbox" id="byEmail" name="byEmail" value="yes" checked>
-                    <label class="checkbox-custom-label" class="checkbox-custom-label" for="byEmail">by email</label
-                  </span>
-                  <span>
-                    <input class="checkbox-custom" type="checkbox" id="byPhone" name="byPhone" value="yes" >
-                    <label class="checkbox-custom-label" for="byPhone">by phone</label>
-                  </span>
-                </p>
-              </div>
-              <p>
-                <input class="button" type="submit" value="Send">
-              </p>
+          </div>
+        </li>
+        <li>
+          <div class="video-list-item">
+            <a href="#" class="thumb">
+              <img src="https://i.vimeocdn.com/video/575112684.webp?mw=150&mh=80">
+            </a>
+            <div class="video-list-item-desc">
+              <div class="title">Title</div>
+              <div class="subtitle">Subtitle</div>
             </div>
-
-            <div class="section-block">
-              <%= inline_svg "assets/demo/robot.svg", class: "robot" %>
+          </div>
+        </li>
+        <li>
+          <div class="video-list-item">
+            <a href="#" class="thumb">
+              <img src="https://i.vimeocdn.com/video/575112684.webp?mw=150&mh=80">
+            </a>
+            <div class="video-list-item-desc">
+              <div class="title">Title</div>
+              <div class="subtitle">Subtitle</div>
             </div>
-          </form>
-
-        </div>
-        <div class="clear"></div>
-      </div>
+          </div>
+        </li>
+        <li>
+          <div class="video-list-item">
+            <a href="#" class="thumb">
+              <img src="https://i.vimeocdn.com/video/575112684.webp?mw=150&mh=80">
+            </a>
+            <div class="video-list-item-desc">
+              <div class="title">Title</div>
+              <div class="subtitle">Subtitle</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="video-list-item">
+            <a href="#" class="thumb">
+              <img src="https://i.vimeocdn.com/video/575112684.webp?mw=150&mh=80">
+            </a>
+            <div class="video-list-item-desc">
+              <div class="title">Title</div>
+              <div class="subtitle">Subtitle</div>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
-
-  <div class="section third" style="display:none">
-    <div class="section-block">
-      <h2>
-        <%= inline_svg "assets/demo/smiley.svg", class: "smiley" %>
-        Thanks
-      </h2>
-      <div class="">
-        <div class="top">
-          <p>
-            We'll be in touch soon to arrange your demo.
-          </p>
-          <p>
-            <small>
-              In the meantime, why not sign up for a free 30 day trial or learn
-              more about our Technology?
-            </small>
-          </p>
-        </div>
-        <div class="social">
-          <h3>Follow us</h3>
-          <% link_to 'https://www.facebook.com/CodioHQ', target: '_blank' do %>
-            <%= inline_svg 'assets/demo/facebook.svg' %>
-          <% end %>
-          <% link_to 'https://twitter.com/codiohq', target: '_blank' do %>
-            <%= inline_svg 'assets/demo/twitter.svg' %>
-          <% end %>
-          <% link_to 'https://www.linkedin.com/company/codio', target: '_blank' do %>
-            <%= inline_svg 'assets/demo/linkedin.svg' %>
-          <% end %>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </section>

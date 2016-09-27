@@ -19,8 +19,17 @@ is_demo_page: true
     <div id="book-now-id" class="book-panel collapse">
       <h4>Are you a...</h4>
       <div class="action-buttons">
-        <a href="#school-teacher-collapse" data-toggle="collapse" class="button button-large button-dark button-collapse">School Teacher</a>
-        <div id="school-teacher-collapse"></div>
+        <div class="dropdown">
+          <a href="" class="dropdown-toggle button button-large button-dark" data-toggle="dropdown">
+            School Teacher
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="button button-large button-dark">North America</a></li>
+            <li><a href="#" class="button button-large button-dark">Europe and Asia</a></li>
+            <li><a href="#" class="button button-large button-dark">CSTA and CAS</a></li>
+          </ul>
+        </div>
         <p>or</p>
         <%= link_to 'University Lecturer', 'https://attendee.gotowebinar.com/rt/3941926581006800900?splash=false', class: 'button button-large button-dark' %>
       </div>

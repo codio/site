@@ -20,18 +20,20 @@ is_demo_page: true
       <h4>Are you a...</h4>
       <div class="action-buttons">
         <div class="dropdown">
-          <a href="" class="dropdown-toggle button button-large button-dark" data-toggle="dropdown">
+          <a href="" class="button button-large button-dark" data-toggle="dropdown">
             School Teacher
-            <span class="caret"></span>
+            <span class="carret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#" class="button button-large button-dark">North America</a></li>
-            <li><a href="#" class="button button-large button-dark">Europe and Asia</a></li>
-            <li><a href="#" class="button button-large button-dark">CSTA and CAS</a></li>
+            <li><a href="#" class="">North America</a></li>
+            <li class="divider"></li>
+            <li><a href="https://attendee.gotowebinar.com/rt/3941926581006800900?splash=false" class="">Europe and Asia</a></li>
+            <li class="divider"></li>
+            <li><a href="#" class="">CSTA and CAS</a></li>
           </ul>
         </div>
         <p>or</p>
-        <%= link_to 'University Lecturer', 'https://attendee.gotowebinar.com/rt/3941926581006800900?splash=false', class: 'button button-large button-dark' %>
+        <%= link_to 'University Lecturer', 'https://app.hubspot.com/meetings/jbilec-sullivan/university-demo', class: 'button button-large button-dark' %>
       </div>
     </div>
   </div>
@@ -39,7 +41,7 @@ is_demo_page: true
 
 <section class="video-content">
   <h2>Latest videos</h2>
-  <div>
+  <div class="video-player">
     <div class="section-block h_iframe">
       <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
       <iframe src="https://player.vimeo.com/video/177558343?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>

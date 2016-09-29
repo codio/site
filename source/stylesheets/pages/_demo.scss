@@ -164,7 +164,7 @@ body.demo .header-block {
 
 .video-content {
   @include container;
-  margin-top: 2rem;
+  margin: 2rem 0;
 
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
@@ -175,7 +175,15 @@ body.demo .header-block {
   .video-player {
     @include container;
     width: 100%;
-    height: 50;
+    height: 33vw;
+
+    h4 {
+      margin-top: 1.2rem;
+    }
+
+    @include breakpoint($max-width) {
+      max-height: 435px;
+    }
   }
 
   .section-block {
@@ -199,6 +207,7 @@ body.demo .header-block {
 
     &:last-of-type {
       width: 100%;
+      height: 100%;
       @include breakpoint($max-width) {
         margin-right: span(0 of 32);
         width: 35%;
@@ -214,8 +223,9 @@ body.demo .header-block {
       width: 100%;
       background: $dark-gray;
       opacity: 0;
-      height: auto;
+      height: 100%;
     }
+
     iframe {
       position: absolute;
       top: 0;
@@ -223,313 +233,54 @@ body.demo .header-block {
       width: 100%;
       height: 90%;
     }
+
+    .title {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .description {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
   }
 
   .video-list {
-    overflow: scroll;
+    overflow: auto;
 
     .video-list-item {
       display: inline-block;
+      width: 100%;
+      min-height: 115px;
+    }
+
+    .active-item, .video-list-item:hover {
+      background-color: $lighter-blue;
+      cursor: pointer;
     }
 
     .thumb {
-      //display: inline;
+      min-width: 100px;
+      height: 75px;
+      max-width: 30%;
       float: left;
     }
 
     .video-list-item-desc {
-      padding: 0 0 20px 1rem;
+      padding: 0 0 5px 1rem;
+      width: 65%;
       float: left;
 
       .title {
-        //display: inline-block;
-      }
-      .subtitle {
-        //display: inline-block;
-      }
-    }
-  }
-}
-
-/*
-body.demo .header-block {
-  position: relative;
-  float: inherit;
-  width: span(12 of 16);
-  max-width: $max-width;
-  max-height: 200px;
-  margin: 0 span(2 of 16);
-  padding: 1rem 0 0;
-  background: none;
-
-  @include breakpoint($max-width) {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  h1 {
-    margin-top: 4 * $base-line-height;
-    font-size: 52px;
-    font-weight: 400;
-
-    @include breakpoint($break-tablet) {
-      margin-top: 4 * $base-line-height;
-      line-height: 52px;
-    }
-  }
-}
-
-body.demo {
-
-  header .container,
-  footer .container {
-    @include breakpoint($max-width) {
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-  .content {
-    margin: 0 auto 0 auto;
-    max-width: 100%;
-  }
-
-  header.should-be-fixed {
-    background: $dark-gray;
-  }
-}
-
-.demo-body {
-  @include container;
-  @include break;
-
-  margin: 0;
-  padding: 0;
-
-  .section {
-    @include container;
-    @include break;
-
-    width: span(12 of 16);
-    margin: 0 span(2 of 16);
-    float: inherit;
-    max-width: $max-width;
-
-    @include breakpoint($max-width) {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    &.first {
-      padding: 1rem 0 2rem;
-    }
-
-    &.second {
-      padding: 2rem 0 1rem;
-    }
-  }
-
-  .blue {
-    background-color: #4574e0;
-    color: white;
-    overflow: hidden;
-
-    @include breakpoint($break-tablet) {
-      margin: 0;
-      width: 100%;
-      max-width: 100%
-    }
-  }
-
-  .blue .arrow {
-    background: none;
-
-    @include breakpoint($break-tablet) {
-      background: url('/img/assets/demo/arrow.svg') no-repeat right center;
-    }
-  }
-
-  .section-block-row-three {
-    @include container;
-    @include break;
-
-    .section-block {
-      @include container;
-      margin-top: 0;
-      margin-bottom: 1rem;
-      text-overflow: clip;
-      margin-right: span(2 of 50);
-
-      @include breakpoint($break-tablet) {
-        width: span(16 of 50);
-        float: left;
-      }
-
-      &:first-of-type {
-        @include breakpoint($break-tablet) {
-          width: span(16 of 50);
-        }
-      }
-
-      &:last-of-type {
-        display: none;
-
-        @include breakpoint($break-tablet) {
-          height: 14rem;
-          vertical-align: middle;
-          margin-right: 0;
-          width: span(13 of 50);
-          display: inherit;
-        }
-
-        .robot {
-          margin-top: 3rem;
-          float: right;
-          width: 8rem;
-          height: 8rem;
-          margin-right: -8rem;
-        }
-      }
-    }
-
-    form input[type="text"], form input[type="email"] {
-      color: #d9dade;
-      font-size: 0.9rem;
-      vertical-align: middle;
-      border: 1px solid #4574e0;
-      padding: 6px 8px;
-      color: #8c97b2;
-      line-height: 1rem;
-      height: 40px;
-      width: 100%;
-    }
-
-    span.required {
-      content:" *";
-      width: 1em;
-      height: 40px;
-      position: relative;
-      left: -1rem;
-    }
-
-    input[type=checkbox] {
-    	display: none;
-    }
-
-    .checkbox-custom {
-      opacity: 0;
-      position: absolute;
-    }
-
-    .checkbox-custom, .checkbox-custom-label {
-      display: inline-block;
-      vertical-align: middle;
-      margin: 5px 5px 5px 0;
-      cursor: pointer;
-    }
-
-    .checkbox-custom-label{
-      position: relative;
-    }
-
-    .checkbox-custom + .checkbox-custom-label:before {
-      color: #111111;
-      content: '';
-      background: #5988e0;
-      display: inline-block;
-      vertical-align: middle;
-      width: 25px;
-      height: 25px;
-      padding: 0 2px;
-      margin-right: 10px;
-      text-align: center;
-    }
-
-    .checkbox-custom:checked + .checkbox-custom-label:before {
-      color: #FFFFFF;
-      content:'\2713';
-    }
-
-    .checkbox-custom:focus + .checkbox-custom-label {}
-
-    input[type=submit] {
-    	float: right;
-      color: #FFF;
-      font-size: 1rem;
-      vertical-align: middle;
-      border: none;
-      padding: 6px 8px;
-      background-color: #f29313;
-      line-height: 1rem;
-      height: 40px;
-      width: 45%;
-      text-transform: uppercase;
-    }
-
-    input[type=submit]:hover {
-      background-color: $lighter-orange;
-    }
-  }
-
-  .section.third {
-    @include container;
-    @include break;
-
-    .section-block {
-      @include container;
-      width: 100%;
-      max-width: 400px;
-      padding: 2em;
-      margin: 1.5rem auto;
-      background-color: #5988e0;
-      color: white;
-      text-align: center;
-
-      @include breakpoint($break-tablet) {
-        width: span(30 of 50);
-        max-width: 400px;
-        margin: 1.5rem auto;
-      }
-
-      h2 {
-        margin-top: 0;
-      }
-
-      .smiley {
-        width: 1.5rem;
-        height: 1.5rem;
-        margin-right: 0.5rem;
-      }
-
-      .top {
-        font-size: 1.5em;
-      }
-
-      .top small {
         font-size: 1rem;
+        font-weight: 500;
+        word-wrap: break-word;
       }
 
-      .social {
-        border-top: 1px solid #7a9fe5;
-
-        a, svg {
-          display: inline-block;
-        }
-
-        a {
-          height: 48px;
-          height: 2.2rem;
-          width: 48px;
-          width: 2.2rem;
-        }
-
-        svg {
-          height: 100%;
-          width: 100%;
-          color: #fff;
-          fill: #fff;
-        }
+      .user-name {
+        font-size: 0.9rem;
+        word-wrap: break-word;
       }
     }
   }
 }
-*/

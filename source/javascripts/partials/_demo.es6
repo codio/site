@@ -13,12 +13,16 @@ const videoIdlist = [
   '177714682'
 ]
 
-var videoDescription = [];
+var $videoDescriptions = new Array(videoIdlist.length);
+var $videoTitles = new Array(videoIdlist.length);
 
 const $videoList = $('.video-list ul');
+const $title = $('.video-content .title');
+const $description = $('.video-content .description');
+const $videoFrame = $('.video-player .h_iframe');
 
 const fillVideoList = () => {
-  $.each(videoIdlist, (index, id) =>{
+  $.each(videoIdlist, (index, id) => {
     $.getJSON("http://vimeo.com/api/v2/video/" + id + ".json",
       (videoData) => {
         $videoList.append('<li data-index="' + index + '"><div class="video-list-item">'
@@ -27,15 +31,23 @@ const fillVideoList = () => {
           + '<div class="title">' + videoData[0].title + '</div>'
           + '<div class="user-name">' + videoData[0].user_name + '</div>'
           + '</div></div></li>');
-        videoDescription.push(videoData[0].description);
+        $videoDescriptions[index] = (videoData[0].description);
+        $videoTitles[index] = (videoData[0].title);
       });
   });
-}
+};
 
 $(document).ready(() => {
-  videoList.click((e) => {
-
-  })
+  $($videoList).on("click", "li", (e) => {
+    $('.active-item').removeClass('active-item');
+    $(e.currentTarget).find("div").addClass("active-item");
+    var index = $(e.currentTarget).data('index');
+    $('#vm-player').attr('src', 'https://player.vimeo.com/video/' + videoIdlist[index] + '?byline=0&portrait=0');
+    var iframe = $('#vm-player')[0];
+    $('#vm-player').load(function(e) { iframe.api('play'); });
+    $title.text($videoTitles[index]);
+    $description.text($videoDescriptions[index]);
+  });
 });
 
 $(() => {

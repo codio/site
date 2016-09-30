@@ -19,7 +19,7 @@ var $videoTitles = new Array(videoIdlist.length);
 const $videoList = $('.video-list ul');
 const $title = $('.video-content .title');
 const $description = $('.video-content .description');
-const $videoFrame = $('.video-player .h_iframe');
+const $player = $('#vm-player');
 
 const fillVideoList = () => {
   $.each(videoIdlist, (index, id) => {
@@ -38,16 +38,22 @@ const fillVideoList = () => {
 };
 
 $(document).ready(() => {
-  $($videoList).on("click", "li", (e) => {
-    $('.active-item').removeClass('active-item');
-    $(e.currentTarget).find("div").addClass("active-item");
-    var index = $(e.currentTarget).data('index');
-    $('#vm-player').attr('src', 'https://player.vimeo.com/video/' + videoIdlist[index] + '?byline=0&portrait=0');
-    var iframe = $('#vm-player')[0];
-    $('#vm-player').load(function(e) { iframe.api('play'); });
+  $videoList.on("click", "li", (e) => {
+    var $activeItem = $('.active-item');
+    var target = $(e.currentTarget);
+    $activeItem.removeClass('active-item');
+    target.find("div").addClass("active-item");
+    var index = target.data('index');
+    $player.attr('src', 'https://player.vimeo.com/video/' + videoIdlist[index] + '?byline=0&portrait=0');
+    var iframe = $player[0];
+    $player.load(function(e) { iframe.api('play'); });
     $title.text($videoTitles[index]);
     $description.text($videoDescriptions[index]);
   });
+
+  setTimeout(function() {
+    $('.video-list ul li').first().trigger('click');
+  }, 300);
 });
 
 $(() => {
@@ -55,31 +61,4 @@ $(() => {
   $('#book-now-id').collapse('hide');
 
   fillVideoList();
-
-  $('#demo-form').submit(function (event) {
-    event.preventDefault()
-
-    var data = {
-      name: $('#name').val(),
-      company: $('#company').val(),
-      email: $('#email').val(),
-      phone: $('#phone').val(),
-      datetime: $('#datetime').val(),
-      byEmail: $('#byEmail').prop('checked') ? 'yes' : 'no',
-      byPhone: $('#byPhone').prop('checked') ? 'yes' : 'no'
-    }
-
-    $.post($("#demo-form").attr('action'), data, (data, status) => {
-      if(status == 'success') {
-        ga('send', 'event', 'Site', 'Book a demo', 'University')
-        $('.section.second').fadeOut(1000, () => {
-          $('.section.third').fadeIn(1000)
-        })
-      }
-    })
-    .fail(function() {
-      alert('There was an error procesing your request please try again.')
-    })
-  })
-
 })

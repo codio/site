@@ -16,7 +16,7 @@ const videoIdlist = [
 var videoDescriptions = new Array(videoIdlist.length);
 var videoTitles = new Array(videoIdlist.length);
 
-const fillVideoList = () => {
+const fillVideoList = (videoList) => {
   $.each(videoIdlist, (index, id) => {
     $.getJSON("http://vimeo.com/api/v2/video/" + id + ".json",
       (videoData) => {
@@ -33,14 +33,14 @@ const fillVideoList = () => {
 };
 
 $(document).ready(() => {
-  videoList = $('.video-list ul');
-  title = $('.video-content .title');
-  description = $('.video-content .description');
-  player = $('#vm-player');
+  var videoList = $('.video-list ul');
+  var title = $('.video-content .title');
+  var description = $('.video-content .description');
+  var player = $('#vm-player');
 
   $('#book-now-id').collapse('hide');
 
-  fillVideoList();
+  fillVideoList(videoList);
 
   videoList.on("click", "li", (e) => {
     var activeItem = $('.active-item');

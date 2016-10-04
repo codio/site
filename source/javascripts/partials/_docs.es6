@@ -229,7 +229,7 @@ const documentation = [
   '/docs/ide/editing/multicursor',
   '/docs/ide/editing/search-replace',
   '/docs/ide/features',
-  '/docs/ide/features.ide-beautify',
+  '/docs/ide/features/ide-beautify',
   '/docs/ide/features/autocomplete',
   '/docs/ide/features/command-bar',
   '/docs/ide/features/debugging',

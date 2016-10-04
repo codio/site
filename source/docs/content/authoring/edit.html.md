@@ -28,7 +28,7 @@ When in Play Mode, your content is rendered beautifully and you can even overrid
 You can also insert [images, videos and hyperlinks](/docs/content/authoring/imvid).
 
 
-We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs//project/creating/) for more information on importing.
+We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/project/creating/) for more information on importing.
 
 Here is a summary of the Markdown formatting codes
 
@@ -149,4 +149,4 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ##Guides Cheat Sheet
 
-Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs//project/creating/) for more information on importing.
+Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/project/creating/) for more information on importing.

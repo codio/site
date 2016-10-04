@@ -214,8 +214,10 @@ const onTabShow = type => {
   $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
   if (state.type == "individual"){
     $('.dropdown').css({"display" : "none"});
+    $('input[value="pound"]').attr('disabled', true);
   } else {
     $('.dropdown').css({"display" : "block"})
+    $('input[value="pound"]').attr('disabled', false);
   }
 }
 

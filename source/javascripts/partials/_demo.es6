@@ -18,7 +18,7 @@ var videoTitles = new Array(videoIdlist.length);
 
 const fillVideoList = (videoList) => {
   $.each(videoIdlist, (index, id) => {
-    $.getJSON("http://vimeo.com/api/v2/video/" + id + ".json",
+    $.getJSON("http://vimeo.com/api/v2/video/" + id + ".json?callback=?",
       (videoData) => {
         videoList.append('<li data-index="' + index + '"><div class="video-list-item">'
           + '<div class="thumb"><img class="" src="' + videoData[0].thumbnail_small + '" alt="videoData.title"/></div>'

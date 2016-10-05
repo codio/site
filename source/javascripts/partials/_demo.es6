@@ -57,5 +57,5 @@ $(document).ready(() => {
 
   setTimeout(() => {
     $('.video-list ul li').first().trigger('click');
-  }, 300);
+  }, 500);
 });

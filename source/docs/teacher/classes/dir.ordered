@@ -11,6 +11,7 @@ delete
 plag
 edit-unit
 unit-duration
+reset-unit
 complete-unit
 autograde
 lti

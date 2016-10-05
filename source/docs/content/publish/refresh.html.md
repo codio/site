@@ -11,5 +11,12 @@ When you are ready to publish any edits, you will need to refresh the unit. You 
 - Select the unit from the listing and then press the **Refresh Source** button.
 - Toggle the **Edit Units** slider, and press the **Refresh Source** button that appears next to the unit.
 
-Any students who have already started the unit will need to delete their project and start again to get the updated content.
+Any students who have already started the unit will need to start again to get the updated content.
+They can do this either by 
+
+- opening the unit as before and deleting it (Project>Delete) and then start again from the class 
+
+or 
+
+- you can reset the unit in the class, either for the whole class or for individual students. See [Reset Unit](/docs/teacher/classes/reset-unit) for more information
 

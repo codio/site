@@ -18,7 +18,7 @@ You can add students to your organisation and your class in one easy step by giv
 
 1. Codio will generate a token for you to give to any students you want to join the class.
 
-1. Give your students the token and then ask them to log in to Codio. They should enter the token when requested.
+1. Give your students the token and then ask them to log in to Codio. They should enter the token when requested, or go to the 'Join a Class' area where they can enter the token. 
 1. To view the students in your class, select the class and the **Students** tab once again. You will see a list of students’ names who have successfully completed the sign-up process. 
 <img alt="authtoken" src="/img/docs/manage_classes/adding_students_invite/student_list.png" class="simple"/>
 

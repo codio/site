@@ -34,7 +34,7 @@ const fillVideoList = (videoList) => {
     $.ajax({
       type: "GET",
       dataType: "jsonp",
-      url: "http://vimeo.com/api/v2/video/" + id + ".json?callback=?",
+      url: "https://vimeo.com/api/v2/video/" + id + ".json?callback=?",
       //data: data,
       success: (videoData) => {
         videoList.append('<li data-index="' + index + '"><div class="video-list-item">'

@@ -1,16 +1,16 @@
 /* globals $ */
 
 const videoIdlist = [
-  '170160323',
-  '177558343',
-  '178919137',
-  '177721667',
-  '163315948',
-  '177721668',
-  '165269077',
-  '160137702',
-  '177715465',
-  '177714682'
+'170160323',
+'177558343',
+'178919137',
+'177721667',
+'163315948',
+'177721668',
+'165269077',
+'160137702',
+'177715465',
+'177714682'
 ]
 
 var videoDescriptions = new Array(videoIdlist.length);
@@ -18,6 +18,7 @@ var videoTitles = new Array(videoIdlist.length);
 
 const fillVideoList = (videoList) => {
   $.each(videoIdlist, (index, id) => {
+    /*
     $.getJSON("http://vimeo.com/api/v2/video/" + id + ".json?callback=?", {format: "json"},
       (videoData) => {
         videoList.append('<li data-index="' + index + '"><div class="video-list-item">'
@@ -28,7 +29,27 @@ const fillVideoList = (videoList) => {
           + '</div></div></li>');
         videoDescriptions[index] = (videoData[0].description);
         videoTitles[index] = (videoData[0].title);
-      });
+    });
+    */
+    $.ajax({
+      type: "GET",
+      dataType: "jsonp",
+      url: "http://vimeo.com/api/v2/video/" + id + ".json?callback=?",
+      //data: data,
+      success: (videoData) => {
+        videoList.append('<li data-index="' + index + '"><div class="video-list-item">'
+          + '<div class="thumb"><img class="" src="' + videoData[0].thumbnail_small + '" alt="videoData.title"/></div>'
+          + '<div class="video-list-item-desc">'
+          + '<div class="title">' + videoData[0].title + '</div>'
+          + '<div class="user-name">' + videoData[0].user_name + '</div>'
+          + '</div></div></li>');
+        videoDescriptions[index] = (videoData[0].description);
+        videoTitles[index] = (videoData[0].title);
+      },
+      error: () => {
+        alert("Unable reading video info with id=" + id);
+      } 
+    });
   });
 };
 

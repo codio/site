@@ -18,24 +18,10 @@ var videoTitles = new Array(videoIdlist.length);
 
 const fillVideoList = (videoList) => {
   $.each(videoIdlist, (index, id) => {
-    /*
-    $.getJSON("http://vimeo.com/api/v2/video/" + id + ".json?callback=?", {format: "json"},
-      (videoData) => {
-        videoList.append('<li data-index="' + index + '"><div class="video-list-item">'
-          + '<div class="thumb"><img class="" src="' + videoData[0].thumbnail_small + '" alt="videoData.title"/></div>'
-          + '<div class="video-list-item-desc">'
-          + '<div class="title">' + videoData[0].title + '</div>'
-          + '<div class="user-name">' + videoData[0].user_name + '</div>'
-          + '</div></div></li>');
-        videoDescriptions[index] = (videoData[0].description);
-        videoTitles[index] = (videoData[0].title);
-    });
-    */
     $.ajax({
       type: "GET",
       dataType: "jsonp",
       url: "https://vimeo.com/api/v2/video/" + id + ".json?callback=?",
-      //data: data,
       success: (videoData) => {
         videoList.append('<li data-index="' + index + '"><div class="video-list-item">'
           + '<div class="thumb"><img class="" src="' + videoData[0].thumbnail_small + '" alt="videoData.title"/></div>'

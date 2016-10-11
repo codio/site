@@ -248,7 +248,6 @@ body.demo .header-block {
     
     &::-webkit-scrollbar {
       width: 16px;
-      background-color: $light-gray;
     }
     &::-webkit-scrollbar-thumb {
       background: $medium-gray;
@@ -263,6 +262,11 @@ body.demo .header-block {
       background: $dark-gray;
       border: 1px solid $light-gray;
     }
+    &::-webkit-scrollbar-track {
+      border: 1px $medium-gray solid;
+      border-radius: 10px;
+      -webkit-box-shadow:0 0 10px $medium-gray inset;
+    } 
 
     li {
       margin-right: 0.5rem;

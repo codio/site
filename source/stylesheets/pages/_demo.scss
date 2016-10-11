@@ -243,8 +243,30 @@ body.demo .header-block {
   }
 
   .video-list {
-    overflow: auto;
     height: 88%;
+    overflow-y: scroll;
+    
+    &::-webkit-scrollbar {
+      width: 16px;
+      background-color: $light-gray;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: $medium-gray;
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background: $dark-gray;
+      border: 1px solid $light-gray;
+    }
+    &::-webkit-scrollbar-thumb:active {
+      background: $dark-gray;
+      border: 1px solid $light-gray;
+    }
+
+    li {
+      margin-right: 0.5rem;
+    }
 
     .video-list-item {
       padding: 5px;

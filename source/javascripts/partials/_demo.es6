@@ -26,7 +26,7 @@ const fillVideoList = (videoList) => {
         videoList.append('<li data-index="' + index + '"><div class="video-list-item">'
           + '<div class="thumb"><img class="" src="' + videoData[0].thumbnail_small + '" alt="videoData.title"/></div>'
           + '<div class="video-list-item-desc">'
-          + '<div class="title">' + videoData[0].title + '</div>'
+          + '<div class="video-title">' + videoData[0].title + '</div>'
           + '<div class="user-name">' + videoData[0].user_name + '</div>'
           + '</div></div></li>');
         videoDescriptions[index] = (videoData[0].description);

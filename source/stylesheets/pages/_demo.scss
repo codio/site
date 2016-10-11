@@ -236,13 +236,22 @@ body.demo .header-block {
     }
   }
 
+  .info-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+  }
+
   .video-list {
     overflow: auto;
+    height: 88%;
 
     .video-list-item {
+      padding: 5px;
       display: inline-block;
       width: 100%;
-      min-height: 115px;
+      min-height: 100px;
+      border: 1px solid $dark-gray;
     }
 
     .active-item, .video-list-item:hover {
@@ -261,15 +270,16 @@ body.demo .header-block {
       padding: 0 0 5px 1rem;
       width: 65%;
       float: left;
+      line-height: 0.8 * $base-line-height;
 
-      .title {
-        font-size: 1rem;
+      .video-title {
+        font-size: 0.9rem;
         font-weight: 500;
         word-wrap: break-word;
       }
 
       .user-name {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         word-wrap: break-word;
       }
     }

@@ -28,8 +28,6 @@ For the avoidance of doubt, personal information that includes Student Data (def
 
 Codio adheres to the practices and provisions of the current EU Data protection directive 95/46/EC   
 
-(see the Context section of https://en.wikipedia.org/wiki/Data_Protection_Directive  to judge this; N.B. this current directive is changing to a new version but that will not be applicable until 2018).
-
 If you have any questions regarding the privacy and use of Your Information, please contact us at support@codio.com, or your educational institution.
 
 ---

@@ -21,6 +21,7 @@ body.demo .header-block {
   @include container;
   padding-top: 6rem;
   padding-bottom: 2rem;
+  margin: 0 1rem;
   position: relative;
 
   @include breakpoint($break-tablet) {
@@ -45,6 +46,7 @@ body.demo .header-block {
 
 .demo-content {
   @include container;
+  margin: 0 1rem;
 
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
@@ -163,7 +165,7 @@ body.demo .header-block {
 
 .video-content {
   @include container;
-  margin: 2rem 0;
+  margin: 2rem 1rem;
 
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
@@ -174,13 +176,13 @@ body.demo .header-block {
   .video-player {
     @include container;
     width: 100%;
-    height: 30vw;
 
     h4 {
       margin-top: 1.2rem;
     }
 
     @include breakpoint($max-width) {
+      height: 30vw;
       max-height: 415px;
     }
   }
@@ -207,11 +209,12 @@ body.demo .header-block {
 
     &:last-of-type {
       width: 100%;
-      height: 100%;
+      height: 35vw;
       margin-bottom: 1rem;
       @include breakpoint($max-width) {
         margin-right: span(0 of 32);
         width: 35%;
+        height: 100%;
       }
     }
   }
@@ -243,9 +246,13 @@ body.demo .header-block {
   }
 
   .video-list {
-    height: 88%;
+    height: 100%;
     overflow-y: scroll;
     
+    @include breakpoint($break-tablet) {
+      height: 88%;
+    }
+
     &::-webkit-scrollbar {
       width: 16px;
     }
@@ -314,6 +321,10 @@ body.demo .header-block {
   .title {
     font-size: 1.2rem;
     font-weight: 500;
+    margin-top: 2.8rem;
+    @include breakpoint($break-tablet) {
+      margin-top: 0;
+    }
   }
 
   .description {

@@ -60,7 +60,14 @@ body.features_index .header-block {
     .button:hover {
       color: $dark-gray;
       background-color: $active-background-color;
-      border-color: $active-background-color;
+      border-color: #000;
+    }
+
+    .pricing-button {
+      background-color: $light-blue;
+      border-color: $light-blue;
+      padding: 5px 42px;
+      margin-right: 1rem;
     }
   }
 
@@ -74,6 +81,17 @@ body.features_index .header-block {
     width: 100%;
     margin-top: 0.5rem;
     padding: 5px;
+
+    @include breakpoint($break-tablet) {
+      text-align: center;
+      width: 50%;
+      min-height: 291px;
+    }
+
+    @include breakpoint($max-width) {
+      width: 25%;
+      min-height: 312px;
+    }
 
     a {
       color: #00f;
@@ -133,17 +151,6 @@ body.features_index .header-block {
     .text {
       line-height: 0.8*$base-line-height;
       font-size: 1rem;
-    }
-
-    @include breakpoint($break-tablet) {
-      text-align: center;
-      width: 50%;
-      min-height: 291px;
-    }
-
-    @include breakpoint($max-width) {
-      width: 25%;
-      min-height: 312px;
     }
   }
 

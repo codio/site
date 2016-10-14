@@ -5,7 +5,7 @@ fixed: true
 ---
 <% @signupUrl = "/p/free-education-trial" %>
 
-<section class='header-block'>
+<section class="header-block">
   <h1 class="animated fadeIn">
     Helping you to teach <span>computer science</span>
   </h1>
@@ -49,13 +49,37 @@ fixed: true
     </div>
   </div>
   <div class="clear"></div>
-  <div class="action-button">
-    <%= link_to 'Pricing', '/pricing', class: 'button button-large pricing-button' %>
+  <div class="action-button animated">
+    <%= link_to 'Pricing', '/pricing', class: 'button button-large blue-button' %>
     <%= link_to 'Get started', '', class: 'button button-large button-main' %>
   </div>
+  <div class="clear"></div>
 </section>
 
+<div class="clear"></div>
+<hr/>
+
 <section class="features-body">
+  <div class="block">
+    <div class="text-part">
+      <h3 class="title">Code Plagiarism Detection Checker</h3>
+      <p class="info">Twice as effective over standard tools such as Moss or JPlag. The checker is integrated into Codio and
+        compares all projects in your class with a click of a button. Created by a former Computer Science professor
+        at Princeton University who was unhappy with the results of existing systems.
+      </p>
+      <div class="action-button animated">
+        <%= link_to 'Learn More', '/blog/codio-launches-plagiarism-feature-to-detect-cheating-in-programming-classes/', class: 'button button-large blue-button' %>
+      </div>
+      <h4 class="quote-title">Vivek Pai, creator of the plagiarism detection technology says:</h4>
+      <div class="speech-green"></div><!--
+      --><div class="quote-text">"I found myself trying to spend a lot of time trying to interpret the statistical
+        output of existing systems. Doing this for hundreds of submissions was a real burden. Both Princeton
+        and other institutions have been delighted at the improvements delivered."
+      </div>
+    </div><!--
+    --><div class="image-part">
+    </div>
+  </div>
 
   <div class="section first">
     <div class="section-body">

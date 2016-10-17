@@ -191,6 +191,10 @@ body.features_index .features-body {
         width: 45%;
       }
 
+      .action-button {
+        text-align: left;
+      }
+
       .title {
         font-size: 1.2rem;
       }
@@ -256,6 +260,12 @@ body.features_index .features-body {
     .image-part {
       display: inline-block;
       vertical-align: top;
+      
+      svg {
+        margin-top: 1.414rem;
+        width: 100%;
+        height: auto;
+      }
 
       @include breakpoint($break-tablet) {  
         width: 55%;

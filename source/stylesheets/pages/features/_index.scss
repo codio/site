@@ -281,7 +281,7 @@ body.features_index .features-body {
     background-color: $lighter-gray;
 
     .title {
-      padding-top: 1rem;
+      padding: 1rem 0;
       font-size: 2rem;
       font-weight: 500;
     }
@@ -289,6 +289,7 @@ body.features_index .features-body {
     .description {
       font-size: 1rem;
       font-weight: 300;
+      padding-bottom: 1rem;
     }
 
     .image-center {
@@ -297,7 +298,7 @@ body.features_index .features-body {
     }
 
     .action-button {
-      padding-bottom: 1rem;
+      padding-bottom: 2rem;
     }
   }
 }

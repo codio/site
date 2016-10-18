@@ -178,7 +178,9 @@ body.features_index .header-block {
 body.features_index .features-body {
   @include span(4);
 
-  .block {
+  .block-quote {
+    margin: 2rem 0;
+
     .action-button {
       margin-top: 1rem;
     }
@@ -196,7 +198,7 @@ body.features_index .features-body {
       }
 
       .title {
-        font-size: 1.2rem;
+        font-size: 2rem;
       }
 
       .info {
@@ -270,6 +272,32 @@ body.features_index .features-body {
       @include breakpoint($break-tablet) {  
         width: 55%;
       }
+    }
+  }
+
+  .block-center {
+    margin: 2rem 0;
+    text-align: center;
+    background-color: $lighter-gray;
+
+    .title {
+      padding-top: 1rem;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    .description {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+
+    .image-center {
+      width: 80%;
+      height: auto;
+    }
+
+    .action-button {
+      padding-bottom: 1rem;
     }
   }
 }

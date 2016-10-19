@@ -51,6 +51,7 @@ fixed: true
   <div class="clear"></div>
   <div class="action-button animated">
     <%= link_to 'Pricing', '/pricing', class: 'button button-large blue-button' %>
+    <span><div class="separator"></div></span>
     <a href="#modalDialog" data-toggle="modal" class="button button-large button-main">Get Started</a>
   </div>
   <div class="clear"></div>
@@ -165,10 +166,31 @@ fixed: true
         <h2 class="header">Get Started</h2>
       </div>
       <div class="modal-body">
-        <div class="action-button animated">
-          <%= link_to 'Schools', '/pricing', class: 'button button-large blue-button' %>
+        <div class="action-button animated step-1">
+          <a id="schoolsBtn" class="button button-large blue-button">Schools</a>
           <div class="separator">or</div>
-          <a href="#modalDialog" data-toggle="modal" class="button button-large button-main">Universities</a>
+          <a href="/university" data-toggle="modal" class="button button-large button-main">Universities</a>
+        </div>
+
+        <div class="action-button step-2">
+          <a id="backBtn" class="back">&lt; Back</a>
+          <%= link_to 'Start Free Trial', '/p/signup', class: 'button button-large blue-button' %>
+          <div class="separator">or</div>
+          <div class="dropdown">
+            <a href="" class="button button-large button-main" data-toggle="dropdown">
+              Attend a Webinar
+              <span class="carret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="https://attendee.gotowebinar.com/rt/3410715133750913794" class="">North America</a></li>
+              <li class="divider"></li>
+              <li><a href="https://attendee.gotowebinar.com/rt/3941926581006800900?splash=false" class="">Europe and Asia</a></li>
+              <li class="divider"></li>
+              <li><a href="https://attendee.gotowebinar.com/rt/3410715133750913794" class="">CSTA</a></li>
+              <li class="divider"></li>
+              <li><a href="https://attendee.gotowebinar.com/rt/1909014245387843332" class="">CAS</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -23,17 +23,26 @@ body.features_index .content {
 }
 
 body.features_index {
-  .action-button {
-    text-align: center !important;
-    margin-top: 2rem;
+  .separator {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+ .action-button {
+    margin: 2rem auto;
 
     .button {
+      text-align: center;
       display: block;
+      min-width: 160px;
+      min-height: 38px;
+      max-width: 90%;
+      margin: 1rem auto;
 
       @include breakpoint($break-tablet) {
         display: inline-block;
-        min-width: 160px;
-        min-height: 38px;
       }
     }
 
@@ -169,8 +178,14 @@ body.features_index .header-block {
   }
 
   .action-button {
-    .blue-button {
-      margin-right: 1rem;
+    span {
+      display: none;
+    }
+
+    @include breakpoint($break-tablet) {
+      span {
+        display: inline-block;
+      }
     }
   }
 }
@@ -333,37 +348,12 @@ body.features_index .features-body {
 }
 
 body.features_index {
-  #backgroundPopup{
-    display: none;
-    position: fixed;
-    _position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #000000;
-    border: 1px solid #cecece;
-    z-index: 1;
-  }
-
-  #popup{
-    display: none;
-    position: fixed;
-    _position: absolute;
-    height: 384px;
-    width: 408px;
-    background: #FFFFFF;
-    border: 2px solid #cecece;
-    z-index: 2;
-    padding: 12px;
-    font-size: 13px;
-  }
-
   .modal:before {
     height: auto;
   }
 
   .modal-dialog {
+    text-align: center;
     width: 100%;
     vertical-align: top;
 
@@ -373,13 +363,22 @@ body.features_index {
   }
 
   .modal-header {
-    button.close {
+    .close {
       font-size: 42px;
-      //border: 1px #000 solid;
-      //border-radius: 3px;
-      //width: 45px;
-      //height: 45px;
+      font-weight: 400;
+      border: 1px #000 solid;
+      border-radius: 3px;
+      width: 45px;
+      height: 45px;
       margin-top: 20px;
+    }
+
+    .close:hover {
+      font-weight: 600;
+    }
+
+    .close:focus, .close:active {
+      outline: none !important;
     }
 
     .header {
@@ -391,14 +390,97 @@ body.features_index {
 
   .modal-body {
     .action-button {
+      padding-bottom: 2rem;
       margin-left: -30px;
     }
 
-    .separator {
-      display: inline-block;
-      padding: 1rem;
-      font-size: 32px;
-      font-weight: 400;
+    a:hover {
+      cursor: pointer;
+    }
+
+    .step-1 {
+      display: block;
+    }
+
+    .step-2 {
+      display: block;
+
+      .action-button {
+        margin-left: 0;
+      }
+
+      .back {
+        width: 60%;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .dropdown {
+        display: inline;
+        box-shadow: none;
+      }
+
+      .dropdown>a:after {
+        content: "\00a0\00a0\3009";
+      }
+
+      .dropdown.open>a:after {
+        content: "\00a0\00a0\FE40";
+        position: relative;
+        top: 5px;
+      }
+
+      .dropdown-menu {
+        text-align: center;
+      }
+
+      ul.dropdown-menu:before {
+        content: "";
+        border-bottom: 10px solid #fff;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        position: absolute;
+        top: -10px;
+        right: 28px;
+        z-index: 10;
+      }
+
+      ul.dropdown-menu:after {
+        content: "";
+        border-bottom: 12px solid #ccc;
+        border-right: 12px solid transparent;
+        border-left: 12px solid transparent;
+        position: absolute;
+        top: -12px;
+        right: 26px;
+        z-index: 9;
+      }
+
+      .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu .open>a,
+      .dropdown-menu .open>a:hover, .dropdown-menu .open>a:focus {
+        background:#fff;
+      }
+
+      .dropdown-menu>li>a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #fff;
+        text-transform: uppercase;
+
+        &:hover {
+          color: #fff;
+          background-color: $dark-gray;
+        }
+      }
+
+      ul {
+        margin-top: 17px;
+        padding: 0;
+      }
     }
   }
 }

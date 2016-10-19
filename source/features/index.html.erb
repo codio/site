@@ -51,7 +51,7 @@ fixed: true
   <div class="clear"></div>
   <div class="action-button animated">
     <%= link_to 'Pricing', '/pricing', class: 'button button-large blue-button' %>
-    <%= link_to 'Get started', '', class: 'button button-large button-main' %>
+    <a href="#modalDialog" data-toggle="modal" class="button button-large button-main">Get Started</a>
   </div>
   <div class="clear"></div>
 </section>
@@ -138,17 +138,45 @@ fixed: true
     </div>
   </div>
 
+  <hr/>
 
-  <div class="blue">
-    <div class="section footer">
-      <h3>
-        Learn more about the advantages of codio
-      </h3>
-      <div class="learn-buttons">
-        <%= link_to 'Schools', '/school', class: 'button button-main button-large' %>
-        <%= link_to 'Universties', '/university', class: 'button button-main button-large' %>
+  <div class="block-news">
+    <h3 class="title">Latest news from Codio</h3>
+    <a class="column" href="/blog/new-grading-rubric-speeds-up-grading-times-and-ensures-consistency/">
+      <div class="column-title">New Grading Rubric</div> 
+      Along with our many other teacher support features, grading rubrics are aimed at streamlining teacher and lecturer workflows.
+    </a><!--
+    --><a class="column" href="/blog/top-tips-for-coding-in-schools/">
+      <div class="column-title">Top Tips for Coding in Schools</div> 
+      “First solve the problem. Then, write the code.” Is there a magic formula for teaching your students to code?
+    </a><!--
+    --><a class="column" href="/blog/code-plagiarism-or-code-collaboration/">
+      <div class="column-title">Code Plagiarism or Code Collaboration?</div> 
+      It seems like a simple concept – collaboration is good; plagiarism is bad. But in the world of computer science, it isn’t that simple.
+    </a>
+  </div>
+</section>
+
+<div class="modal fade" id="modalDialog" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="header">Get Started</h2>
+      </div>
+      <div class="modal-body">
+        <div class="action-button animated">
+          <%= link_to 'Schools', '/pricing', class: 'button button-large blue-button' %>
+          <div class="separator">or</div>
+          <a href="#modalDialog" data-toggle="modal" class="button button-large button-main">Universities</a>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
-</section>
+<div id="popup">
+</div>
+
+<div id="backgroundPopup">
+</div>

@@ -24,7 +24,7 @@ body.features_index .content {
 
 body.features_index {
   .action-button {
-    text-align: center;
+    text-align: center !important;
     margin-top: 2rem;
 
     .button {
@@ -301,77 +301,104 @@ body.features_index .features-body {
       padding-bottom: 2rem;
     }
   }
+
+  .block-news {
+    padding: 1rem 0;
+    text-align: left;
+
+    .title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    .column {
+      vertical-align: top;
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+
+      @include breakpoint($break-tablet) {
+        width: 33.33%;
+        display: inline-block;
+      }
+
+      .column-title {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
 }
 
 body.features_index {
-  .learn-more {
-    background-color: $blue;
+  #backgroundPopup{
+    display: none;
+    position: fixed;
+    _position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000000;
+    border: 1px solid #cecece;
+    z-index: 1;
+  }
+
+  #popup{
+    display: none;
+    position: fixed;
+    _position: absolute;
+    height: 384px;
+    width: 408px;
+    background: #FFFFFF;
+    border: 2px solid #cecece;
+    z-index: 2;
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .modal:before {
     height: auto;
-    text-align: center;
+  }
+
+  .modal-dialog {
+    width: 100%;
+    vertical-align: top;
 
     @include breakpoint($break-tablet) {
-      white-space: nowrap;
-      min-width: 175px;
-      max-width: 225px;
+      margin-top: 0;
     }
   }
 
-  .section-block-row {
-    h3 {
-      background: none;
-
-      @include breakpoint($break-tablet) {
-        display: inline-block;
-        float: left;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding-left: 110px;
-        min-height: 90px;
-      }
+  .modal-header {
+    button.close {
+      font-size: 42px;
+      //border: 1px #000 solid;
+      //border-radius: 3px;
+      //width: 45px;
+      //height: 45px;
+      margin-top: 20px;
     }
 
-    h3.savings span {
-      @include breakpoint($break-tablet) {
-        display: block;
-      }
+    .header {
+      text-align: center;
+      font-size: 42px;
+      font-weight: 600;
     }
-
-    h3.infrastructure {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/infrastructure.svg') no-repeat left top;
-      }
-    }
-
-    h3.ide {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/ide.svg') no-repeat left top;
-      }
-    }
-
-    h3.templates {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/templates.svg') no-repeat left top;
-      }
-    }
-
-    h3.management {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/management.svg') no-repeat left top;
-      }
-    }
-
-    h3.authoring {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/authoring.svg') no-repeat left top;
-      }
-    }
-
-    h3.curriculum {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/curriculum.png') no-repeat left top;
-      }
-    }
-
   }
 
+  .modal-body {
+    .action-button {
+      margin-left: -30px;
+    }
+
+    .separator {
+      display: inline-block;
+      padding: 1rem;
+      font-size: 32px;
+      font-weight: 400;
+    }
+  }
 }

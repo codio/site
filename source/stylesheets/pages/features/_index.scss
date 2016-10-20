@@ -201,7 +201,7 @@ body.features_index .features-body {
     }
 
     .text-part {
-      display: inline-block;
+      float: left;
       vertical-align: top;
 
       @include breakpoint($break-tablet) {
@@ -275,7 +275,7 @@ body.features_index .features-body {
     }
 
     .image-part {
-      display: inline-block;
+      float: left;
       vertical-align: top;
       
       svg {

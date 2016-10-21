@@ -131,16 +131,7 @@ body.school .header-block {
   position: relative;
   padding: 2rem 1rem 0 1rem;
 
-  @include breakpoint(max-width $break-tablet) {
-    background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
-  }
-
   @include breakpoint($break-tablet) {
-    background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
-    background-color: $dark-gray;
-  }
-
-  @include breakpoint($max-width) {
     background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
     background-color: $dark-gray;
   }
@@ -186,17 +177,10 @@ body.school .header-block {
       margin-top: 30px;
     }
 
-    .button:first-child {
+    .button {
       @include breakpoint($break-tablet) {
         margin-right: 15px;
-      }
-      @include breakpoint(max-width $break-tablet) {
         margin-bottom: 10px;
-      }
-    }
-
-    @include breakpoint(max-width $break-tablet) {
-      .button {
         white-space: nowrap;
         display: inline-block;
         min-width: 200px;
@@ -233,18 +217,15 @@ body.school .header-block {
 
   .school-section-block-row {
     @include container;
-    @include break;
-
-    width: span(14 of 16);
+    text-align: center;
+    width: 100%;
 
     @include breakpoint($break-tablet) {
-      width: span(13 of 16);
+      width: span(14 of 16);
+      margin: 0 auto;
+      max-width: $max-width;
     }
 
-    @include breakpoint($max-width) {
-      width: span(11 of 16);
-    }
-    
     .section-block {
       margin-bottom: 1.5rem;
     }
@@ -252,27 +233,22 @@ body.school .header-block {
 
   .section-block {
     @include container;
+    width: 100%;
+    padding: 1rem;
+    
     @include breakpoint($break-tablet) {
       float: left;
-      width: span(12 of 32);
     }
 
-    width: span(14 of 16);
-
     &:first-of-type {
-      width: 100%;
       @include breakpoint($break-tablet) {
-        margin-left: span(1 of 32);
-        margin-right: span(2 of 32);
         width: 55%;
       }
     }
 
     &:last-of-type {
-      width: 100%;
       @include breakpoint($break-tablet) {
-        margin-right: span(1 of 32);
-        width: 32%;
+        width: 45%;
       }
     }
   }

@@ -17,6 +17,9 @@
   <li>
     <%= link_to 'Log in', '/p/login' %>
   </li>
+  <li <% if current_page.path.start_with?("demo") then concat 'class="active"' end %>>
+    <%= link_to 'Demo', '/demo' %>
+  </li>
   <li>
     <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/p/signup'), class: 'button' %>
   </li>

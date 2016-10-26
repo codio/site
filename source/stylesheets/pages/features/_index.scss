@@ -281,7 +281,7 @@ body.features_index .features-body {
       svg {
         margin-top: 1.414rem;
         width: 100%;
-        height: auto;
+        height: 100%;
       }
 
       @include breakpoint($break-tablet) {  
@@ -309,7 +309,7 @@ body.features_index .features-body {
 
     .image-center {
       width: 80%;
-      height: auto;
+      height: 100%;
     }
 
     .action-button {

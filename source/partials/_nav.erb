@@ -17,7 +17,10 @@
   <li>
     <%= link_to 'Log in', '/p/login' %>
   </li>
-  <li>
+  <li class='highspot'>
+    <%= link_to 'Join Class', (defined?(surl) && !surl.nil? ? surl : '/p/join-to-class'), class: 'button' %>
+  </li>
+  <li class='highspot'>
     <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/p/signup'), class: 'button' %>
   </li>
 </ul>

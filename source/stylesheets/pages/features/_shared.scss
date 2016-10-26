@@ -1,12 +1,14 @@
 $gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
 
-nav ul li:last-child a {
+nav ul li:last-child a,
+nav ul li.highspot a {
   color: white;
   background-color: #fa9915;
   border-color: #fa9915;
 }
 
-nav ul li:last-child a:hover {
+nav ul li:last-child a:hover,
+nav ul li.highspot a:hover {
   border-color: #fff;
 }
 

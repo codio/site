@@ -339,6 +339,23 @@ body.features_index .features-body {
         display: inline-block;
       }
 
+      a {
+        color: #00f;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus,
+        &:active {
+          text-decoration: underline;
+          color: #00b;
+        }
+
+        &:active,
+        &:focus {
+          outline: none;
+        }
+      }
+
       .column-title {
         font-size: 1rem;
         font-weight: 400;

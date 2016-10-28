@@ -48,7 +48,7 @@ When used in a class situation, assessments are extremely helpful to the teacher
 
 Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto marked, saving teachers considerable amounts of time and also giving students instant feedback on the correct answers.
 
-[Click here](/docs/content/authoring/create/assessments) for more on creating assessments.
+[Click here](/docs/content/authoring/assessments) for more on creating assessments.
 
 ### Layouts
 The Guide editor lets you create different panel layouts for your tutorial content and the layout can change from section to section. 

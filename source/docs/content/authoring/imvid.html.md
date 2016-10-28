@@ -6,7 +6,7 @@ full_width: true
 
 You can insert these in your section editor using Markdown.
 
-https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs//project/creating/) for more information on importing.
+https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/project/creating/) for more information on importing.
 
 ##Images
 Inserting an image is similar. Here are some examples. PNG and JPG image types are supported. Note that the 2nd and 3rd examples point to images within your project.

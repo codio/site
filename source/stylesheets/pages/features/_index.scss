@@ -236,7 +236,7 @@ body.features_index .features-body {
 
       .speech-green, .speech-purple {
         margin-right: 1rem;
-        display: inline-block;
+        display: none;
         position: relative;
         width: 50px;
         height: 50px;
@@ -256,6 +256,10 @@ body.features_index .features-body {
           left: 0px;
           top: 45px;
           border: 7px solid;
+        }
+
+        @include breakpoint($break-tablet) {
+          display: inline-block;
         }
       }
 

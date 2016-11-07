@@ -12,13 +12,13 @@ body.features {
     }
   }
   .content {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     max-width: $max-width;
   }
 }
 
 body.features_index .content {
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: $max-width;
 }
 
@@ -75,7 +75,7 @@ body.features_index .header-block {
     text-align: center;
     animation-delay: .4s;
     @include breakpoint($break-tablet) {
-      margin: 2rem auto 2rem auto;
+      margin: 2rem auto;
       font-size: 56px;
       line-height: 4rem;
     }
@@ -287,8 +287,6 @@ body.features_index .features-body {
         margin-top: 1.414rem;
         width: 100%;
         height: 100%;
-        //max-height: 348px;
-        //min-height: 228px;
       }
 
       @include breakpoint($break-tablet) {  

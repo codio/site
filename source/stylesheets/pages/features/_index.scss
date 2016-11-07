@@ -333,7 +333,7 @@ body.features_index .features-body {
     }
   }
 
-  .block-news {
+  .block-rss {
     padding: 1rem 0;
     text-align: left;
 
@@ -343,7 +343,7 @@ body.features_index .features-body {
       font-weight: 500;
     }
 
-    .column {
+    .rss {
       vertical-align: top;
       display: block;
       width: 100%;
@@ -372,9 +372,14 @@ body.features_index .features-body {
         }
       }
 
-      .column-title {
+      .rss-title {
         font-size: 1rem;
         font-weight: 400;
+      }
+
+      .rss-description {
+        font-size: 0.8rem;
+        font-weight: 300;
       }
     }
   }

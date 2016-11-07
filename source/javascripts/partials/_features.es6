@@ -1,6 +1,8 @@
 /* globals $ */
 
 const parseRSS = () => {
+  var rssBlock = $('.block-rss');
+
   $.get('http://news.codio.com/blog/rss.xml', function(data) {
     $(data).find("item").each((index, element) => {
       var item = {
@@ -10,12 +12,9 @@ const parseRSS = () => {
         pubDate: $(element).find("pubDate").text(),
         author: $(element).find("author").text()
       }
-      console.log('======================================')
-      console.log('title = ' + item.title);
-      console.log('link = ' + item.link);
-      console.log('description = ' + item.description);
-      console.log('pubDate = ' + item.pubDate);
-      console.log('author = ' + item.author);
+      rssBlock.append("<div class='rss'><div class='rss-title'><a href='" + item.link + "'>" + item.title
+        + "</a></div><div class='rss-description'>" + item.description + "</div></div>");
+      if (index == 2) return false;
     });
   });
 }

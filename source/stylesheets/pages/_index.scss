@@ -305,16 +305,16 @@ body.index .header-block {
     img {
       display: block;
       width: auto;
-      margin: 4rem auto;
+      margin: 2rem auto;
       vertical-align: middle;
 
       @include breakpoint($break-tablet) {
-        margin: 0;
-        margin-left: 10%;
+        margin: 1rem;
+        //margin-left: 10%;
         display: inline;
 
         &:first-child {
-          margin-left: 0;
+          //margin-left: 0;
         }
       }
     }

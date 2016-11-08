@@ -210,12 +210,16 @@ const onTabShow = type => {
   updateActionBtn(state.type);
   setPaymentsIcons(state.type);
 
-  $pricingContentCol.find('h3').text(type + " Licence");
+  $pricingContentCol.find('h3').text(type + ' Licence');
   $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
-  if (state.type == "individual"){
-    $('.dropdown').css({"display" : "none"});
+  if (state.type == 'individual') {
+    $('.currency-label-uk').css({'display' : 'none'});
+    $('#gbpCurrency').css({'display' : 'none'});
+    $('.dropdown').css({'display' : 'none'});
   } else {
-    $('.dropdown').css({"display" : "block"})
+    $('.currency-label-uk').css({'display' : 'inline-block'});
+    $('#gbpCurrency').css({'display' : 'inline-block'});
+    $('.dropdown').css({'display' : 'block'})
   }
 }
 

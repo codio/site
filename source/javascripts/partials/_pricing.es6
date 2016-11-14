@@ -7,13 +7,6 @@ const DEFAULT_START = {
   university: 3
 }
 
-const DEFAULT_CURRENCY = {
-  individual: 'dollar',
-  business: 'dollar',
-  school: 'pound',
-  university: 'pound'
-}
-
 const DEFAULT_RANGE = {
   individual: 'month',
   business: 'month',
@@ -42,6 +35,37 @@ const LEARN_MORE_LINK = {
   university: '/university'
 }
 
+const eumembers = {
+  "BE": 1,
+  "BG": 1,
+  "CZ": 1,
+  "DK": 1,
+  "DE": 1,
+  "EE": 1,
+  "IE": 1,
+  "EL": 1,
+  "ES": 1,
+  "FR": 1,
+  "HR": 1,
+  "IT": 1,
+  "CY": 1,
+  "LV": 1,
+  "LT": 1,
+  "LU": 1,
+  "HU": 1,
+  "MT": 1,
+  "NL": 1,
+  "AT": 1,
+  "PL": 1,
+  "PT": 1,
+  "RO": 1,
+  "SI": 1,
+  "SK": 1,
+  "FI": 1,
+  "SE": 1,
+  "GB": 1
+};
+
 const $currency = $('.currency-block .currency');
 const $typeList = $('.nav .nav-tabs');
 const $types = $typeList.find('li.item');
@@ -68,7 +92,7 @@ const state = {
   type: defaultType,
   step: 0,
   range: DEFAULT_RANGE[defaultType],
-  currency: DEFAULT_CURRENCY[defaultType],
+  currency: 'pound'
 }
 
 const isSafeStep = (step = state.step) => {
@@ -105,22 +129,8 @@ const setType = type => {
   state.range = DEFAULT_RANGE[type];
 }
 
-const setCurrencySign = () => {
-  if (state.currency == "dollar") {
-    $('.display-price .currency-label-uk').css({"color" : "#a8b2c4"});
-    $('.display-price .currency-label-us').css({"color" : "#212c3f"});
-    state.symbol = "$";
-  } else {
-    $('.display-price .currency-label-uk').css({"color" : "#212c3f"});
-    $('.display-price .currency-label-us').css({"color" : "#a8b2c4"});
-    state.symbol = "£";
-  }
-}
-
 const setCurrency = currency => {
   state.currency = currency;
-  $currency.find(`input[name=currency][value=${currency}]`).prop('checked', true);
-  setCurrencySign();
 }
 
 const fillUserLicences = () => {
@@ -199,7 +209,6 @@ const onTabShow = type => {
   if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
 
   setType(type);
-  setCurrency(DEFAULT_CURRENCY[state.type]);
 
   if (!isSafeStep()) {
     state.step = DEFAULT_START[state.type];
@@ -212,24 +221,18 @@ const onTabShow = type => {
 
   $pricingContentCol.find('h3').text(type + ' Licence');
   $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
-  if (state.type == 'individual') {
-    $('.currency-label-uk').css({'display' : 'none'});
-    $('#gbpCurrency').css({'display' : 'none'});
-    $('.dropdown').css({'display' : 'none'});
-  } else {
-    $('.currency-label-uk').css({'display' : 'inline-block'});
-    $('#gbpCurrency').css({'display' : 'inline-block'});
-    $('.dropdown').css({'display' : 'block'})
-  }
+  //if (state.type == 'individual') {
+  //  $('.currency-label-uk').css({'display' : 'none'});
+  //  $('#gbpCurrency').css({'display' : 'none'});
+  //  $('.dropdown').css({'display' : 'none'});
+  //} else {
+  //  $('.currency-label-uk').css({'display' : 'inline-block'});
+  //  $('#gbpCurrency').css({'display' : 'inline-block'});
+  //  $('.dropdown').css({'display' : 'block'})
+  //}
 }
 
 const setupSelector = () => {
-  $currency.find('input[name=currency]').on('change', function () {
-    state.currency = this.value;
-    setCurrencySign();
-    updateDisplay();
-  });
-
   $tabs.on('show.bs.tab', function(e) {
     const $type = $(this).data('type');
     onTabShow($type);
@@ -248,7 +251,54 @@ const setupFaqBlock = () => {
   $('#accordion-university').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
 }
 
+const loadXMLDoc = (src, callback) => {
+  var xmlhttp = new XMLHttpRequest();
+
+  xmlhttp.onreadystatechange = () => {
+    if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
+      if (xmlhttp.status == 200) {
+        callback(xmlhttp.responseText);
+      } else {
+        console.log('Error loading xml doc', src);
+      }
+    }
+  };
+
+  xmlhttp.open('GET', src, true);
+  xmlhttp.send();
+}
+
+const updatePageForGBR = () => {
+  console.log('Updating for euro');
+  state.currency = 'pound';
+}
+
+const updatePageForUSD = () => {
+  console.log('Updating for usd');
+  state.currency = 'dollar';
+}
+
+const handleGeolocation = (text) => {
+  var data = {};
+  try {
+    data = JSON.parse(text);
+    if (data.country_code && eumembers[data.country_code]) {
+      updatePageForGBR;
+    }
+    else {
+      updatePageForUSD();
+    }
+    updateDisplay();
+  } catch (e) {
+    console.log('Error on parsing geolocation data');
+    data = {};
+  }
+}
+
 $(document).ready(function () {
+  var geoplugin = '//freegeoip.net/json/';
+  loadXMLDoc(geoplugin, handleGeolocation);
+
   $('#pricingTab a[href="#' + state.type + '"]').tab('show');
   onTabShow(state.type);
 });

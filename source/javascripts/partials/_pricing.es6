@@ -283,7 +283,7 @@ const handleGeolocation = (text) => {
   try {
     data = JSON.parse(text);
     if (data.country_code && eumembers[data.country_code]) {
-      updatePageForGBR;
+      updatePageForGBR();
     }
     else {
       updatePageForUSD();

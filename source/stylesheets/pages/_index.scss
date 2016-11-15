@@ -34,7 +34,7 @@ body.index {
   box-align: center;
 }
 
-body.index .header-block {
+body.index .header-block, .index-content {
   @include span(4);
   
   background-size: cover;
@@ -126,7 +126,7 @@ body.index .header-block {
     }
 
     .carousel-indicators .active {
-      background-color: #2980b9;
+      //background-color: #2980b9;
     }
 
     .carousel-control {
@@ -316,6 +316,92 @@ body.index .header-block {
         &:first-child {
           //margin-left: 0;
         }
+      }
+    }
+  }
+
+  .carousel-control.left {
+    background-image: none;
+    width: 5%;
+  }
+
+  .carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image: none;
+    width: 5%;
+  }
+
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    font-size: 25px;
+    color: #00f;
+  }
+
+  .carousel-control .glyphicon-chevron-left:before {
+    content: "\276E";
+    display:block;
+    width:30px;
+    height:30px;
+  }
+
+  .carousel-control .glyphicon-chevron-right:before {
+    content: "\276F";
+    display:block;
+    width:30px;
+    height:30px;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: 1px solid #00f;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    border: none;
+    background-color: #fa9915;
+  }
+
+  .logos-container {
+    @include container;
+    width: span(8 of 10);
+
+    margin-top: 2 * $base-line-height;
+    margin-bottom: 2 * $base-line-height;
+    vertical-align: middle;
+
+    .logo-img {
+      display: inline-block;
+      position: relative;
+  
+      width: 18%;
+      height: 100px;
+      margin-left: 7%;
+
+      padding: 1px;
+      
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
       }
     }
   }

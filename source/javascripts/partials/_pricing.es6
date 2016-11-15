@@ -14,6 +14,13 @@ const DEFAULT_RANGE = {
   university: 'year'
 }
 
+const DEFAULT_CURRENCY = {
+  individual: 'dollar',
+  business: 'dollar',
+  school: 'pound',
+  university: 'pound'
+}
+
 const ACTION_BTN_TEXT = {
   individual: 'Free Trial',
   business: 'Buy now',
@@ -260,6 +267,7 @@ const loadXMLDoc = (src, callback) => {
         callback(xmlhttp.responseText);
       } else {
         console.log('Error loading xml doc', src);
+        state.currency = DEFAULT_CURRENCY[defaultType];
       }
     }
   };

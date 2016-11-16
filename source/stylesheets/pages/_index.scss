@@ -125,10 +125,6 @@ body.index .header-block, .index-content {
       text-shadow: none;
     }
 
-    .carousel-indicators .active {
-      //background-color: #2980b9;
-    }
-
     .carousel-control {
       width: 0;
     }
@@ -310,12 +306,7 @@ body.index .header-block, .index-content {
 
       @include breakpoint($break-tablet) {
         margin: 1rem;
-        //margin-left: 10%;
         display: inline;
-
-        &:first-child {
-          //margin-left: 0;
-        }
       }
     }
   }

@@ -138,6 +138,7 @@ const setType = type => {
 
 const setCurrency = currency => {
   state.currency = currency;
+  state.symbol = (state.currency == "dollar") ? "$" : "£";
 }
 
 const fillUserLicences = () => {
@@ -217,26 +218,29 @@ const onTabShow = type => {
 
   setType(type);
 
-  if (!isSafeStep()) {
-    state.step = DEFAULT_START[state.type];
-  }
-
   fillUserLicences();
   updateFeatures();
   updateActionBtn(state.type);
   setPaymentsIcons(state.type);
 
+  if (!isSafeStep()) {
+    state.step = DEFAULT_START[state.type];
+  }
+
   $pricingContentCol.find('h3').text(type + ' Licence');
-  $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
-  //if (state.type == 'individual') {
-  //  $('.currency-label-uk').css({'display' : 'none'});
-  //  $('#gbpCurrency').css({'display' : 'none'});
-  //  $('.dropdown').css({'display' : 'none'});
-  //} else {
-  //  $('.currency-label-uk').css({'display' : 'inline-block'});
-  //  $('#gbpCurrency').css({'display' : 'inline-block'});
-  //  $('.dropdown').css({'display' : 'block'})
-  //}
+
+  if (type == 'individual') {
+    $('.dropdown').css({'display' : 'none'});
+    $('.pricing-content-col .price-count-block .currency-type').text("$");
+    const $current = currentSelection(0);
+    const $price = $current.price[state.range]['dollar'];
+    $countNumber.text(numeral($current.count).format('0,0'));
+    $amount.text(numeral($price).format('0,0'));
+    $range.text(state.range);
+  } else {
+    $('.dropdown').css({'display' : 'block'});
+    $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
+  }
 }
 
 const setupSelector = () => {
@@ -277,13 +281,13 @@ const loadXMLDoc = (src, callback) => {
 }
 
 const updatePageForGBR = () => {
-  console.log('Updating for euro');
-  state.currency = 'pound';
+  console.log('Updating for gbr');
+  setCurrency('pound');
 }
 
 const updatePageForUSD = () => {
   console.log('Updating for usd');
-  state.currency = 'dollar';
+  setCurrency('dollar');
 }
 
 const handleGeolocation = (text) => {

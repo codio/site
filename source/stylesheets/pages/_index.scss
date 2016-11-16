@@ -381,6 +381,10 @@ body.index .header-block, .index-content {
       height: 100px;
       margin-left: 7%;
 
+      &:first-child {
+        margin-left: 0;
+      }
+
       padding: 1px;
       
       img {

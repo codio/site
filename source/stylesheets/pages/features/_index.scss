@@ -202,6 +202,7 @@ body.features_index .features-body {
     .text-part {
       float: left;
       vertical-align: top;
+      padding-right: 0.5rem;
 
       @include breakpoint($break-tablet) {
         width: 45%;

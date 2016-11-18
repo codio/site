@@ -34,16 +34,10 @@
   }
 
   .item.active {
-    background: $light-blue;
     border-radius: 2px;
 
-    .item-header,
-    .item-header a,
     .item-description {
-      color: white;
-    }
-
-    .item-description {
+      font-size: 18px;
       font-weight: 400;
     }
   }
@@ -51,7 +45,7 @@
   .item-header,
   .item-header > a {
     line-height: 19px;
-    font-size: 14px;
+    font-size: 1.2rem;
     font-weight: 700;
     color: $base-font-color;
 
@@ -63,10 +57,14 @@
 
   .item-description {
     color: $base-font-color;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 300;
+    line-height: 1.1rem;
     text-transform: none;
     margin-bottom: 0;
+    padding: .3rem 0;
+
+    border-bottom: 1px solid $dark-gray;
   }
 
   a {
@@ -84,11 +82,12 @@
   }
 
   .level-1-item {
-    font-size: .75rem;
+    font-size: .95rem;
+    padding-top: .1rem;
 
     a {
       display: inline-block;
-      line-height: .75rem;
+      line-height: 1rem;
       padding-left: 10px;
     }
 

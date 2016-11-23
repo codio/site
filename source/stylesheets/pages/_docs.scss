@@ -340,6 +340,38 @@ body.docs .section-block-row-three {
         margin-right: 0;
       }
     }
+
+    .link-collapse {
+      margin-left: 12px;
+      margin-right: 6px;
+      font-size: 1.25rem;
+      color: $light-blue;
+    }
+
+    .link-collapse.collapsed:before {
+      content: "\25B8";
+    }
+
+    .link-collapse:before {
+      content: "\25BE";
+    }
+
+    .bullet-collapse {
+      li.item-collapse {
+        list-style: none;
+        margin-left: 0;
+        margin-right: 1.75rem;
+      }
+    }
+
+    ul.items-list {
+      padding-left: 20px;
+
+      li {
+        margin-left: 1.75rem;
+        list-style: disc outside none;
+      }
+    }
   }
 }
 
@@ -407,34 +439,3 @@ body.docs .crumbs {
   }
 }
 
-body.docs .link-collapse {
-  margin-left: 12px;
-  margin-right: 6px;
-  font-size: 1.25rem;
-  color: $light-blue;
-}
-
-body.docs .link-collapse.collapsed:before {
-  content: "\25B8";
-}
-
-body.docs .link-collapse:before {
-  content: "\25BE";
-}
-
-body.docs .bullet-collapse {
-  li.item-collapse {
-    list-style: none;
-    margin-left: 0;
-    margin-right: 1.75rem;
-  }
-}
-
-body.docs ul.items-list {
-  padding-left: 20px;
-
-  li {
-    margin-left: 1.75rem;
-    list-style: disc outside none;
-  }
-}

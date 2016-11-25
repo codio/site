@@ -4,6 +4,17 @@ class_name: docs
 full_width: true
 ---
 
+You can add students to your organization in two ways
+
+1. Add them to the Organization only.
+1. Add them to a Class, which will also add them to the Organization.
+
+### Adding a student to the organization only
+An administrator user should click on their user name from the dashboard and then select the Organization shown towards the bottom of the page. Next, select Organization Settings and scroll down until you find the "Invitation Token" section. 
+
+Copy the Invite URL field and send this to the student via email or place the token in a web page. When accessed, the student will be taken through a signup process and added to the organization automatically. If the student already has a Codio account then organization assignment will be made.
+
+### Adding a student to a class
 
 You can add students to your organisation and your class in one easy step by giving each student a unique two-word phrase called a token.  A student will create a Codio account, enter the token and will automatically be added to the your organisation and the correct class.  To do this follow the steps below: 
 

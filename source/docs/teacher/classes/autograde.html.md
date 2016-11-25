@@ -33,9 +33,9 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 <img alt="authtoken" src="/img/docs/grading-secure.png" class="simple"/>
 
 ### Secure scripts
-If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain seure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
+If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
 
-Important : you should only place scripts in the ```.guides/secure``` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio Guides there as this folder will not accessible at that point.
+**Important** : you should only place scripts in the ```.guides/secure``` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio Guides there as this folder will not accessible at that point.
 
 ### Buggy grading script strategy
 Once the Unit has been published to the class, the project author will no longer be able to modify any autograding scripts that may have been written. However, teacher written scripts are subject to bugs like any other piece of code and you may want to be able to modify your test script after the Unit is published.
@@ -73,7 +73,7 @@ curl -fsSL $URL | python - $@
 ```
 
 #### Example Python grading script
-Below is an example Python file that might be loaded by the bootstrap script above. You are free to use any language but if you are using a compiled language then your boostrap command will need to handle the compilation. For this reason, an interpreted language such as Bash, Python, NodeJS etc will execute a little faster.
+Below is an example Python file that might be loaded by the bootstrap script above. You are free to use any language but if you are using a compiled language then your bootstrap command will need to handle the compilation. For this reason, an interpreted language such as Bash, Python, NodeJS etc will execute a little faster.
 
 Notice that the only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any Unit.
 

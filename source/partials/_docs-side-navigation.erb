@@ -7,7 +7,7 @@
         <ul>
           <% ordered(resource).each_with_index do |child, index| %>
             <li>
-              <% active = current_section?(child.url) ? "active" : "" %>
+              <% active = current_section?(child.url) ? "active selected" : "" %>
               <div class="<%= active %> item">
                 <div class="item-header">
                   <% if current_section? child.url %>
@@ -22,33 +22,32 @@
                 <% end %>
               </div>
               <% if current_section? child.url %>
-              <ul class="<%= active %> level-1-list collapse items-list" id="<%= index %>">
-                <% ordered(child).each_with_index do |p, pindex| %>
-                  <% if current_section? p.url %>
-                    <li class="active level-1-item">
-                      <% if p.children.length > 0 %>
-                        <a class="link-collapse collapsed" data-toggle="collapse" href="#<%= pindex %>"></a>
-                      <% end %>
-                      <%=  link_to p.data.title, p.url %>
-                      <% if p.children.length > 0 %>
-                        <ul class="level-2-list collapse items-list" id="<%= pindex %>">
-                          <% ordered(p).each do |inner| %>
-                            <% if current_page? inner.url %>
-                              <li class="active level-2-item">
-                            <% else %>
-                                <li class="level-2-item">
-                            <% end %>
-                            <%= link_to inner.data.title, inner.url %></li>
-                          <% end %>
-                        </ul>
-                      <% end %>
-                  <% else %>
+                <ul class="<%= active %> level-1-list collapse items-list" id="<%= index %>">
+                  <% ordered(child).each_with_index do |p, pindex| %>
+                    <% if current_section? p.url %>
+                      <li class="active selected level-1-item">
+                    <% else %>
                       <li class="level-1-item">
-                        <%=  link_to p.data.title, p.url %>
+                    <% end %>
+                    <% if p.children.length > 0 %>
+                      <a class="link-collapse collapsed" data-toggle="collapse" href="#<%= pindex %>"></a>
+                    <% end %>
+                    <%=  link_to p.data.title, p.url %>
+                    <% if p.children.length > 0 %>
+                      <ul class="level-2-list collapse items-list" id="<%= pindex %>">
+                        <% ordered(p).each do |inner| %>
+                          <% if current_page? inner.url %>
+                            <li class="active selected level-2-item">
+                          <% else %>
+                            <li class="level-2-item">
+                          <% end %>
+                          <%= link_to inner.data.title, inner.url %></li>
+                        <% end %>
+                      </ul>
+                    <% end %>
+                    </li>
                   <% end %>
-                      </li>
-                <% end %>
-              </ul>
+                </ul>
               <% end %>
            </li>
          <% end %>

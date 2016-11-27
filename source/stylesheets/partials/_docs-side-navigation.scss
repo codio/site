@@ -31,6 +31,7 @@
     margin-left: - $base-line-height / 3;
     padding: .2rem $base-line-height / 2;
     margin-top: $base-line-height / 2;
+    background-color: $side-background-gray;
   }
 
   .item.active {
@@ -43,13 +44,16 @@
     }
   }
 
+  .selected {
+    background-color: $light-blue;
+  }
+
   .item-header,
   .item-header > a {
     line-height: 19px;
     font-size: 1.2rem;
     font-weight: 700;
     color: $base-font-color;
-
     &:hover {
       font-weight: 700;
       color: $light-blue;
@@ -78,6 +82,7 @@
   }
 
   .level-1-list, .level-2-list {
+    background-color: $side-background-gray;
     padding-left: 1.5rem;
   }
 

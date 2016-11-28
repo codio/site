@@ -300,7 +300,6 @@ const handleGeolocation = (text) => {
     else {
       updatePageForUSD();
     }
-    updateDisplay();
   } catch (e) {
     console.log('Error on parsing geolocation data');
     data = {};

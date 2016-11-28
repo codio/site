@@ -5,7 +5,7 @@ fixed: true
 ---
 <% @signupUrl = "/p/free-education-trial" %>
 
-<section class='header-block'>
+<section class="header-block">
   <h1 class="animated fadeIn">
     Helping you to teach <span>computer science</span>
   </h1>
@@ -14,114 +14,185 @@ fixed: true
     advantages that make it the ideal platform to teach computer science to
     your students.
   </h2>
-  <div class="highlighted">
-    <h2>
-      New! Plagiarism Checker for Students' Code
-    </h2>
+  <div class="benefits">
+    <div class="column-benefit">
+      <div class="ide"></div>
+      <div class="title">Online IDE</div>
+      <div class="text">Save time with an <a href="/features/ide">online IDE</a> to teach Java, Python, C++, C and more.
+        No hassle and no compromises on functionality. For beginners to experts.
+      </div>
+    </div>
+    <div class="column-benefit">
+      <div class="templates"></div>
+      <div class="title">Project Templates</div>
+      <div class="text">The fast and simple way to create new computer science teaching projects, and adapt
+        existing ones. Use our pre-configured stacks or <a href="features/templates">create your own</a>.
+      </div>
+    </div>
+    <div class="column-benefit">
+      <div class="management"></div>
+      <div class="title">Integrated Education Features</div>
+      <div class="text">Track student progress,
+        <a href="/docs/content/authoring/assessments/">auto-graded assessments</a>,
+        <a href="/blog/codio-launches-plagiarism-feature-to-detect-cheating-in-programming-classes/">plagiarism checker</a>
+        and connect Codio to your institution’s <a href="/blog/codio-releases-integration-with-lms-platforms/">Moodle, Blackboard or Canvas</a>
+        to save you time!.
+      </div>
+    </div>
+    <div class="column-benefit">
+      <div class="curriculum"></div>
+      <div class="title">Your Curriculum or Ours?</div>
+      <div class="text">Enhanced learning experience with instructional content that controls the IDE.
+        Use one of our 120+ units to teach <a href="/docs/content/courses/">Python or Java</a>.
+        Or <a href="/docs/content/authoring/">author your own content</a> to teach advanced subjects like
+        <a href="http://news.codio.com/blog/kent-state-university-uses-codio/">Data Science</a>.
+      </div>
+    </div>
   </div>
-  <div class="action-button">
-    <%= link_to 'Learn more',
-    'http://email.codio.com/plagiarism-detection-for-source-code/',
-    class: 'button button-large button-main' %>
+  <div class="clear"></div>
+  <div class="action-button animated">
+    <%= link_to 'Pricing', '/pricing', class: 'button button-large blue-button' %>
+    <span><div class="separator"></div></span>
+    <a href="#modalDialog" data-toggle="modal" class="button button-large button-main">Get Started</a>
   </div>
+  <div class="clear"></div>
 </section>
+
+<div class="clear"></div>
+<hr/>
 
 <section class="features-body">
-
-  <div class="section first">
-    <div class="section-body">
-      <div class="section-block-row">
-        <div class="section-block">
-          <h3 class="section-block-header infrastructure">
-            Infrastructure <span>as a service</span>
-          </h3>
-          <div class="section-block-copy">
-            <p>
-              Cloud based, Codio is low on hardware requirements and big on
-              savings, reliability and flexibility.
-            </p>
-            <%= link_to 'Learn more', '/features/infrastructure', class: 'button button-large learn-more' %>
-          </div>
-        </div>
-        <div class="section-block">
-          <h3 class="section-block-header ide">
-            Web-based <span>IDE</span>
-          </h3>
-          <div class="section-block-copy">
-            <p>
-              Less hassle than installing an IDE on your network or desktop, with
-              no compromises on functionality.
-            </p>
-            <%= link_to 'Learn more', '/features/ide', class: 'button button-large learn-more' %>
-          </div>
-        </div>
+  <div class="block-quote">
+    <div class="text-part">
+      <h3 class="title">Code Plagiarism Detection Checker</h3>
+      <p class="info">Twice as effective over standard tools such as Moss or JPlag. The checker is integrated into Codio and
+        compares all projects in your class with a click of a button. Created by a former Computer Science professor
+        at Princeton University who was unhappy with the results of existing systems.
+      </p>
+      <div class="action-button animated">
+        <%= link_to 'Learn More', '/blog/codio-launches-plagiarism-feature-to-detect-cheating-in-programming-classes/', class: 'button button-large blue-button' %>
       </div>
-      <div class="section-block-row">
-        <div class="section-block">
-          <h3 class="section-block-header templates">
-            Project <span>templates</span>
-          </h3>
-          <div class="section-block-copy">
-            <p>
-              The fast and simple way to create new computer science teaching
-              projects, and adapt existing ones. You can use our pre-configured stacks or create your own.
-            </p>
-            <%= link_to 'Learn more', '/features/templates', class: 'button button-large learn-more' %>
-          </div>
-        </div>
-        <div class="section-block">
-          <h3 class="section-block-header management">
-            Learning <span>management</span>
-          </h3>
-          <div class="section-block-copy">
-            <p>
-              Manage your computer science classes from the Codio dashboard.
-              Watch your students progress through a course.  Assessments are
-              auto-marked, so you save time.
-            </p>
-            <%= link_to 'Learn more', '/features/management', class: 'button button-large learn-more' %>
-          </div>
-        </div>
+      <h4 class="quote-title">Vivek Pai, creator of the plagiarism detection technology says:</h4>
+      <div class="speech-green"></div>
+      <div class="quote-text">"I found myself trying to spend a lot of time trying to interpret the statistical
+        output of existing systems. Doing this for hundreds of submissions was a real burden. Both Princeton
+        and other institutions have been delighted at the improvements delivered."
       </div>
-      <div class="section-block-row">
-        <div class="section-block">
-          <h3 class="section-block-header authoring">
-            Content <span>authoring</span>
-          </h3>
-          <div class="section-block-copy">
-            <p>
-              Create your own course content either by uploading your class
-              notes or creating interactive content directly within the IDE.
-            </p>
-            <%= link_to 'Learn more', '/features/content-authoring', class: 'button button-large learn-more' %>
-          </div>
-        </div>
-        <div class="section-block">
-          <h3 class="section-block-header curriculum">
-            Curriculum <span>content</span>
-          </h3>
-          <div class="section-block-copy">
-            <p>
-              We’ve co-developed over 50 courses with Oxford, Cambridge and RSA
-              (OCR) — all mapped to the UK Computer Science national curriculum.
-            </p>
-            <%= link_to 'Learn more', '/features/curriculum', class: 'button button-large learn-more' %>
-          </div>
-        </div>
-      </div>
+    </div>
+    <div class="image-part">
+      <img src="/img/assets/features/index/students_code.svg" alt="Code Plagiarism Detection Checker" />
     </div>
   </div>
 
-  <div class="blue">
-    <div class="section footer">
-      <h3>
-        Learn more about the advantages of codio
-      </h3>
-      <div class="learn-buttons">
-        <%= link_to 'Schools', '/school', class: 'button button-main button-large' %>
-        <%= link_to 'Universties', '/university', class: 'button button-main button-large' %>
-      </div>
+  <div class="clear"></div>
+
+  <div class="block-center">
+    <h3 class="title">Integration with your LMS</h3>
+    <p class="description">We save you time by integrating with your institution’s LMS system. Moodle, Blackboard, Canvas or any LTI compliant
+      system will work with Codio. We have a seamless system for you and your students.</p>
+    <div class="image-center">
+      <img src="/img/assets/features/index/logos.svg" alt="Integration with your LMS" />
+    </div>
+    <div class="action-button animated">
+      <%= link_to 'Learn More', 'blog/codio-releases-integration-with-lms-platforms/', class: 'button button-large blue-button' %>
     </div>
   </div>
 
+  <div class="block-quote">
+    <div class="text-part">
+      <h3 class="title">Auto-graded Assessments</h3>
+      <p class="info">Less hassle for you. Students get instant feedback. Perfect for flipped-learning.
+      </p>
+      <div class="action-button animated">
+        <%= link_to 'Learn More', '/docs/content/authoring/assessments/', class: 'button button-large blue-button' %>
+      </div>
+      <h4 class="quote-title">David Croft, Lecturer, Coventry University says:</h4>
+      <div class="speech-purple"></div>
+      <div class="quote-text">"Having the instant formative feedback is really useful. And that’s where Codio comes in handy.
+        They click check it in Codio and it goes and tests that their code meets the specifications. It sorts correctly, it
+        searches correctly. It has the error handling and features that we are expecting. It doesn’t have memory leaks."
+      </div>
+    </div>
+    <div class="image-part">
+      <img src="/img/assets/features/index/assessments_system.svg" alt="Auto-graded Assessments" />
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div class="block-center">
+    <h3 class="title">Content Authoring</h3>
+    <p class="description">Create your own course content either by uploading your class notes
+      or creating interactive content directly within the IDE.</p>
+    <div class="image-center">
+      <img src="/img/assets/features/index/content_authoring_tools.svg" alt="Content Authoring" />
+    </div>
+    <div class="action-button animated">
+      <%= link_to 'Learn More', '/features/content-authoring/', class: 'button button-large blue-button' %>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div class="block-quote">
+    <div class="text-part">
+      <h3 class="title">Curriculum content</h3>
+      <p class="info">We’ve co-developed over 80+ courses with Oxford, Cambridge and RSA (OCR) - all mapped
+        to UK national standards. We are also writing more curriculum to be in line with emerging Computer Science
+        Teachers Association K-12 framework.
+      </p>
+      <div class="action-button animated">
+        <%= link_to 'Learn More', '/features/curriculum/', class: 'button button-large blue-button' %>
+      </div>
+    </div>
+    <div class="image-part">
+      <img src="/img/assets/features/index/curriculum_mapped.png" alt="Curriculum content" />
+    </div>
+  </div>
+
+  <div class="clear"></div>
+  <hr/>
+
+  <div class="block-rss">
+    <h3 class="title">Latest news from Codio</h3>
+  </div>
 </section>
+
+<div class="modal fade" id="modalDialog" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="header">Get Started</h2>
+      </div>
+      <div class="modal-body">
+        <div class="action-button animated step-1">
+          <a id="schoolsBtn" class="button button-large blue-button">Schools</a>
+          <div class="separator">or</div>
+          <a href="/university" data-toggle="modal" class="button button-large button-main">Universities</a>
+        </div>
+
+        <div class="action-button step-2">
+          <a id="backBtn" class="back">&lt; Back</a>
+          <%= link_to 'Start Free Trial', '/p/signup', class: 'button button-large blue-button' %>
+          <div class="separator">or</div>
+          <div class="dropdown">
+            <a href="" class="button button-large button-main" data-toggle="dropdown">
+              Attend a Webinar
+              <span class="carret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="https://attendee.gotowebinar.com/rt/3410715133750913794" class="">North America</a></li>
+              <li class="divider"></li>
+              <li><a href="https://attendee.gotowebinar.com/rt/3941926581006800900?splash=false" class="">Europe and Asia</a></li>
+              <li class="divider"></li>
+              <li><a href="https://attendee.gotowebinar.com/rt/3410715133750913794" class="">CSTA</a></li>
+              <li class="divider"></li>
+              <li><a href="https://attendee.gotowebinar.com/rt/1909014245387843332" class="">CAS</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

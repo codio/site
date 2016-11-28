@@ -1,30 +1,83 @@
 
+.clear {
+  clear: both;
+}
+
+body.features {
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: 0 auto;
+    max-width: $max-width;
+  }
+}
+
+body.features_index .content {
+  margin: 0 auto;
+  max-width: $max-width;
+}
+
+body.features_index {
+  .separator {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+ .action-button {
+    margin: 2rem auto;
+
+    .button {
+      text-align: center;
+      display: block;
+      min-width: 160px;
+      min-height: 38px;
+      max-width: 90%;
+
+      @include breakpoint($break-tablet) {
+        display: inline-block;
+      }
+    }
+
+    .button:hover {
+      color: $dark-gray;
+      background-color: $active-background-color;
+      border-color: #000;
+    }
+
+    .blue-button {
+      background-color: $light-blue;
+      border-color: $light-blue;
+    }
+  }
+}
+
 body.features_index .header-block {
   @include span(4);
-  background-color: #2a3547;
-  color: white;
   position: relative;
-  padding: 2rem 1rem;
+  padding: 1rem;
   text-align: center;
 
   @include breakpoint($break-tablet) {
-    background-color: #2a3547;
-    padding: 3rem 4rem;
+    padding: 0 1rem 2rem 0;
   }
 
   h1 {
     margin-top: 2 * $base-line-height;
-    font-size: 48px;
-    font-weight: 300;
+    font-size: 42px;
+    font-weight: 500;
     text-align: center;
     animation-delay: .4s;
-
     @include breakpoint($break-tablet) {
-      margin-top: 2rem;
+      margin: 2rem auto;
       font-size: 56px;
       line-height: 4rem;
-      margin-left: auto;
-      margin-right: auto;
     }
   }
 
@@ -35,122 +88,435 @@ body.features_index .header-block {
     animation-delay: .8s;
     margin-left: 1rem;
     margin-right: 1rem;
+    @include breakpoint($break-tablet) {
+      margin: 0 2rem 2rem 2rem; 
+    }
+  }
+
+  .benefits {
+    width: 100%;
+  }
+
+  .column-benefit {
+    text-align: left;
+    float: left;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 5px;
 
     @include breakpoint($break-tablet) {
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  .light-background {
-    padding: 5px 0;
-    margin: 0 1rem;
-    h2 {
-      background-color: $light-gray;
       text-align: center;
-      font-weight: 500;
-      font-size: 27px;
-      animation-delay: .8s;
-      padding: 0.5rem 1rem;
-      max-width: 550px;
+      width: 50%;
+      min-height: 291px;
     }
-  }
 
-  .highlighted {
-    padding: 5px 0;
-    margin: 0 1rem;
-    h2 {
-      color: #fa8072;
-      text-align: center;
-      font-weight: 500;
-      font-size: 2rem;
-      animation-delay: .8s;
-      padding: 0.5rem 1rem;
+    @include breakpoint($max-width) {
+      width: 25%;
+      min-height: 312px;
+    }
+
+    a {
+      color: #00f;
+      text-decoration: underline;
+
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: underline;
+        color: #00b;
+      }
+
+      &:active,
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .ide, .templates, .management, .curriculum {
+      @include breakpoint($break-tablet) {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+      }
+    }
+
+    .ide {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/ide.svg') no-repeat center center;
+      }
+    }
+
+    .templates {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/templates.svg') no-repeat center center;
+      }
+    }
+
+    .management {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/management.svg') no-repeat center center;
+      }
+    }
+
+    .curriculum {
+      @include breakpoint($break-tablet) {
+        background: url('/img/assets/features/index/curriculum.png') no-repeat center center;
+      }
+    }
+
+    .title {
+      font-size: 1rem;
+      font-weight: 400;
+      margin: 1rem 0;
+    }
+
+    .text {
+      line-height: 0.9*$base-line-height;
+      font-size: 1rem;
     }
   }
 
   .action-button {
-    text-align: center;
-    margin-top: 2rem;
+    span {
+      display: none;
+    }
 
-    .button:hover {
-      color: $dark-gray;
-      background-color: $active-background-color;
-      border-color: $active-background-color;
+    @include breakpoint($break-tablet) {
+      span {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+body.features_index .features-body {
+  @include span(4);
+
+  .block-quote {
+    margin: 2rem 0;
+
+    .action-button {
+      margin-top: 1rem;
+    }
+
+    .text-part {
+      float: left;
+      vertical-align: top;
+
+      @include breakpoint($break-tablet) {
+        width: 45%;
+      }
+
+      .action-button {
+        text-align: left;
+      }
+
+      .title {
+        font-size: 1.8rem;
+      }
+
+      .info {
+        font-size: 0.8rem;
+        line-height: 0.9*$base-line-height;
+        margin-bottom: 0;
+      }
+
+      .quote-title {
+        font-size: 1rem;
+        vertical-align: bottom;
+      }
+
+      .quote-text {
+        display: inline-block;
+        max-width: 80%;
+        font-size: 0.8rem;
+        line-height: 0.9*$base-line-height;
+        vertical-align: bottom;
+      }
+
+      .speech-green, .speech-purple {
+        margin-right: 1rem;
+        display: none;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 2px 2px 4px #888;
+        -moz-box-shadow: 2px 2px 4px #888;
+        box-shadow: 2px 2px 4px #888;
+        vertical-align: top;
+
+        &:before {
+          content: ' ';
+          position: absolute;
+          width: 1;
+          height: 1;
+          left: 0px;
+          top: 45px;
+          border: 7px solid;
+        }
+
+        @include breakpoint($break-tablet) {
+          display: inline-block;
+        }
+      }
+
+      .speech-green{
+        background-color: #508b1a;
+        &:before {
+          border-color: #508b1a transparent transparent #508b1a;
+        }
+      }
+
+      .speech-purple{
+        background-color: #551a8b;
+        &:before {
+          border-color: #551a8b transparent transparent #551a8b;
+        }
+      }
+    }
+
+    .image-part {
+      float: left;
+      vertical-align: top;
+      width: 100%;
+      
+      img {
+        margin-top: 1.414rem;
+        width: 100%;
+        height: 100%;
+      }
+
+      @include breakpoint($break-tablet) {  
+        width: 55%;
+      }
+    }
+  }
+
+  .block-center {
+    margin: 2rem 0;
+    text-align: center;
+    background-color: $lighter-gray;
+
+    .title {
+      padding: 1rem 0;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    .description {
+      font-size: 1rem;
+      font-weight: 300;
+      padding: 0 1rem 1rem 1rem;
+    }
+
+    .image-center {
+      text-align: center;
+      margin: 0 auto;
+      width: 80%;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        max-height: 506px;
+        min-height: 205px;
+      }
+    }
+
+    .action-button {
+      padding-bottom: 2rem;
+    }
+  }
+
+  .block-rss {
+    padding: 1rem 0;
+    text-align: left;
+
+    .title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    .rss {
+      vertical-align: top;
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+
+      @include breakpoint($break-tablet) {
+        width: 33.33%;
+        display: inline-block;
+      }
+
+      a {
+        color: #00f;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus,
+        &:active {
+          text-decoration: underline;
+          color: #00b;
+        }
+
+        &:active,
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .rss-title {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      .rss-description {
+        font-size: 0.8rem;
+        font-weight: 300;
+      }
     }
   }
 }
 
 body.features_index {
-  .learn-more {
-    background-color: $blue;
+  .modal:before {
     height: auto;
+  }
+
+  .modal-dialog {
     text-align: center;
+    width: 100%;
+    vertical-align: top;
 
     @include breakpoint($break-tablet) {
-      white-space: nowrap;
-      min-width: 175px;
-      max-width: 225px;
+      margin-top: 0;
     }
   }
 
-  .section-block-row {
-    h3 {
-      background: none;
-
-      @include breakpoint($break-tablet) {
-        display: inline-block;
-        float: left;
-        font-size: 2rem;
-        line-height: 2rem;
-        padding-left: 110px;
-        min-height: 90px;
-      }
+  .modal-header {
+    .close {
+      font-size: 42px;
+      font-weight: 400;
+      border: 1px #000 solid;
+      border-radius: 3px;
+      width: 45px;
+      height: 45px;
+      margin-top: 20px;
     }
 
-    h3.savings span {
-      @include breakpoint($break-tablet) {
+    .close:hover {
+      font-weight: 600;
+    }
+
+    .close:focus, .close:active {
+      outline: none !important;
+    }
+
+    .header {
+      text-align: center;
+      font-size: 42px;
+      font-weight: 600;
+    }
+  }
+
+  .modal-body {
+    .action-button {
+      padding-bottom: 2rem;
+      margin-left: -30px;
+    }
+
+    a:hover {
+      cursor: pointer;
+    }
+
+    .step-1 {
+      display: block;
+    }
+
+    .step-2 {
+      display: block;
+
+      .action-button {
+        margin-left: 0;
+      }
+
+      .back {
+        width: 60%;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: left;
         display: block;
+        margin: 0 auto;
+      }
+
+      .dropdown {
+        display: inline;
+        box-shadow: none;
+      }
+
+      .dropdown>a:after {
+        content: "\00a0\00a0\3009";
+      }
+
+      .dropdown.open>a:after {
+        content: "\00a0\00a0\FE40";
+        position: relative;
+        top: 5px;
+      }
+
+      .dropdown-menu {
+        text-align: center;
+      }
+
+      ul.dropdown-menu:before {
+        content: "";
+        border-bottom: 10px solid #fff;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        position: absolute;
+        top: -10px;
+        right: 28px;
+        z-index: 10;
+      }
+
+      ul.dropdown-menu:after {
+        content: "";
+        border-bottom: 12px solid #ccc;
+        border-right: 12px solid transparent;
+        border-left: 12px solid transparent;
+        position: absolute;
+        top: -12px;
+        right: 26px;
+        z-index: 9;
+      }
+
+      .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu .open>a,
+      .dropdown-menu .open>a:hover, .dropdown-menu .open>a:focus {
+        background:#fff;
+      }
+
+      .dropdown-menu>li>a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #fff;
+        text-transform: uppercase;
+
+        &:hover {
+          color: #fff;
+          background-color: $dark-gray;
+        }
+      }
+
+      ul {
+        margin-top: 17px;
+        padding: 0;
       }
     }
-
-    h3.infrastructure {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/infrastructure.svg') no-repeat left top;
-      }
-    }
-
-    h3.ide {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/ide.svg') no-repeat left top;
-      }
-    }
-
-    h3.templates {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/templates.svg') no-repeat left top;
-      }
-    }
-
-    h3.management {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/management.svg') no-repeat left top;
-      }
-    }
-
-    h3.authoring {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/authoring.svg') no-repeat left top;
-      }
-    }
-
-    h3.curriculum {
-      @include breakpoint($break-tablet) {
-        background: url('/img/assets/features/index/curriculum.png') no-repeat left top;
-      }
-    }
-
   }
-
 }

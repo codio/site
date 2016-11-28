@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You should create repos for each Codio project (Unit) you want to collaborate on. There is no single button presson way of creating a GitHub repo from a Codio project. The steps are explained below and you can also watch the video.
+You should create repos for each Codio project (Unit) you want to collaborate on. There is no single button press way of creating a GitHub repo from a Codio project. The steps are explained below and you can also watch the video.
 
 
 ### Create a new GitHub repo

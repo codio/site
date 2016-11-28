@@ -88,5 +88,5 @@ Once you have done this it is a good idea to push your changes to your personal 
 ### Conflicts
 If you have made changes and left it a while without synchronizing, you run the risk of conflicts. As a result, it is important that you regularly pull from the authoritative remote so you are not left with a deluge of conflicts to sort out.
 
-Conflicts and their resolution are explained [here](/docs/content/authoring/collaboration/conflicts/).
+Conflicts and their resolution are explained [here](/docs/content/collaboration/conflicts/).
 

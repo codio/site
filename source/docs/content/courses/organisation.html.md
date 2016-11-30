@@ -17,9 +17,9 @@ Codio offers a 3 level hierarchy for organising and publishing course materials.
 Take a look at the '[Schools Computing Curriculum](https://codio.com/home/courses/557540466201adf25c93ccec/?tab=modules)' Course and you can see its associated Modules and, within each Module, the Units.
 
 
-![Courses](/img/docs/courses.png)
+<img alt="authtoken" src="/img/docs/courses.png" class="simple"/>
 
-![Units](/img/docs/units.png)
+<img alt="authtoken" src="/img/docs/units.png" class="simple"/>
 
 ## Authoring your own content
 

@@ -10,7 +10,7 @@ At this point the panel layout is set up automatically according to the layout s
 
 
 ## Player Options
-![](/img/docs/guides/playmode.png)
+<img alt="authtoken" src="/img/docs/guides/playmode.png" class="simple"/>
 
 Within the player various options can be controlled by the user
 
@@ -41,6 +41,6 @@ The Lexikon is organized into Topics. We currently have added
 - Javascript
 - Linux
 
-![Lexicon](/img/docs/lexicon.png)
+<img alt="authtoken" src="/img/docs/lexicon.png" class="simple"/>
 
 

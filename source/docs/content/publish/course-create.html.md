@@ -6,7 +6,7 @@ full_width: true
 
 To create a new course, press the **New Course** button in the top right of the screen. You should then complete the fields that appear on the next screen.
 
-![Modules Create](/img/docs/course_create.png)
+<img alt="authtoken" src="/img/docs/course_create.png" class="simple"/>
 
 ## Name, Descriptions, Image & Tags
 You are required to enter a name for your course. The Short Description is optional but please add something so others can easily identify it.

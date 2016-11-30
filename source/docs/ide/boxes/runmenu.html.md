@@ -6,6 +6,8 @@ full_width: true
 
 A handy feature is the ability to add commonly used commands to the Codio IDE, akin to using the `alias` command from the command line.
 
+When the menu item is selected, a new terminal window will open to run the command in. You can also force the command to run in an existing terminal window as we illustrate below.
+
 ## .codio file
 The configuration for the Run (and Preview) button can be set by editing the `.codio` file in the root of your project.
 
@@ -26,11 +28,33 @@ which is driven by the following `.codio` file
     "Verify Lesson" : "./ns-executes.sh verify {{filename_no_ext}} {{path}}",
     "Completed Lessons" : "learnyounode",
     "Run with Node" : "node {{filepath}} 3 4 5"
-  }
+  } 
 }
 ```
 
 When you select a Run command, it will open a new console window where you will see the output. Pressing the Run button will execute the last selected command.
+
+## Using the same terminal window
+If you want to avoid new terminal windows appearing when you run the command, you can use an id field.
+
+```json
+// Run button configuration
+  "commands": {
+        "Node version": {
+            "id": "t1",
+            "cmd": "node --version"
+        },
+        "files": {
+            "id": "t1",
+            "cmd": "ls"
+        },
+        "files list": {
+            "id": "t2",
+            "cmd": "ls -al"
+        } 
+  }
+```
+
 
 ## .codio Tokens
 You can see from the above `.codio` sample that it is possible to insert tokens into the shell commands. The following tokens are currently available and operate in the main on the currently selected file tab in the IDE

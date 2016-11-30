@@ -5,7 +5,7 @@ Organisation owners can manage students view by setting their default page to 'M
 
 To do this, access the administration tools:
 
-1. Click on your profile picture (bottom left of  **My Classroom**) 
+1. Click on your profile picture (bottom left of  **Classes**) 
 <img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>
 1. Click the name of your school (under **My Organizations**)
 <img alt="authtoken" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>

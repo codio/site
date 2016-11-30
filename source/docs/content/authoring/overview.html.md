@@ -14,7 +14,7 @@ Use the Layout modes to switch between editor, preview,code and split view modes
 
 ## Anatomy of the Guides Editor
 Below is a screenshot of the editor with the main components highlighted. 
-![](/img/docs/guides/overview.png)
+<img alt="authtoken" src="/img/docs/guides/overview.png" class="simple"/>
 
 ## Editor Settings
 Editor settings gives you access to the key functions:

@@ -18,4 +18,4 @@ You can assign a project to your class. To do so, follow the steps below. (Note:
 <img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
 
 1. Select the project you are assigning and select a stack (for more information on stacks, jump to [Stacks](/docs/project/stacks))
-<img alt="authtoken" src="/img/docs/manage_classes/assign_project_to_class/select_project.png"/>
+<img alt="authtoken" src="/img/docs/manage_classes/assign_project_to_class/select_project.png" class="simple"/>

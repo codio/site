@@ -118,8 +118,6 @@ const currentSelection = (step = state.step) => {
 }
 
 const updateDisplay = step => {
-  $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
-  
   const $current = currentSelection(step);
   const $price = $current.price[state.range][state.currency];
 
@@ -139,6 +137,7 @@ const setType = type => {
 const setCurrency = currency => {
   state.currency = currency;
   state.symbol = (state.currency == "dollar") ? "$" : "£";
+  $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
 }
 
 const fillUserLicences = () => {
@@ -300,6 +299,7 @@ const handleGeolocation = (text) => {
     else {
       updatePageForUSD();
     }
+    updateDisplay();
   } catch (e) {
     console.log('Error on parsing geolocation data');
     data = {};

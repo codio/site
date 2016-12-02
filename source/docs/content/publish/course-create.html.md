@@ -21,7 +21,11 @@ This determines whether your course is publicly available to all Codio users or 
 To publish your course to an Organization, please read on.
 
 ## Owner
-By default, you are the owner of the course you create. If you select an Organization from the 'Who should own this course' dropdown, then 
+By default, you are the owner of the course you create.
+
+If you are a member of an Organisation, the Organisation owner can disable the ability for you to create public courses. See [Public/Private Settings](/docs/teacher/create/public_private).
+
+If you select an Organization from the 'Who should own this course' dropdown, then 
 
 1. Any Owner group members of that Organization are able to administer the course.
 2. All Organization members will be able to see it in the listing, even if the course is marked as private. Students can find these courses in the 'Shared' tab within the main listing.

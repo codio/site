@@ -12,7 +12,7 @@ The only thing that is not self-explanatory when adding a Unit is the Stack info
 - which project is the source for the Unit
 - and what Stack it uses.
 
-![](/img/docs/stacks_list.png)
+<img alt="authtoken" src="/img/docs/stacks_list.png" class="simple"/>
 
 It is important that you understand the concept of [Stacks](/docs/project/stacks/). In some cases, your project can use the default Codio Stack. However, if you have installed any software or components on your Box or have modified any files on the project's Box outside the `~/workspace` folder, you will need to create a Stack.
 

@@ -13,6 +13,6 @@ If, for any reason you want to completely delete your organization, you can do s
 <img alt="authtoken" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>
 
 1. Click the **Organization settings** tab 
-<img alt="authtoken" src="/img/docs/manage_organization/deleteorg/orgsettingstab.png" class="simple"/>
+<img alt="authtoken" src="/img/docs/manage_organization/orgsettingstab.png" class="simple"/>
 
 1. Go to the **Delete** section at the bottom of the page, and type the confirmation code. Note that once your school action has been deleted, the action cannot be reverted.

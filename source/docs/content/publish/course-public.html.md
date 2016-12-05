@@ -12,6 +12,6 @@ You can make a course public at course creation or by pressing the `Edit` button
 
 To publish a course only to your organization, please refer to [Creating a Course](/docs/content/publish/course-create)
 
-![Modules Edit](/img/docs/course_edit.png)
+<img alt="authtoken" src="/img/docs/course_edit.png" class="simple"/>
 
 

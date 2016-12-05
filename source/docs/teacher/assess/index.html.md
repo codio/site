@@ -6,7 +6,7 @@ full_width: true
 You can view your students progress and time spent on individual units.  
 To do so follow these steps:
 
-1. From the **My Classroom** screen, click on your class to open it. 
+1. From the **Classes* screen, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/monitor_students/year10class.png" class="simple"/>
 
 1. Click on the **Students** tab, top centre of your screen.

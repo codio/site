@@ -9,10 +9,10 @@ Your content will often want to show code samples. Codio's recommended approach 
 The benefit of hiding folders is that the student is not distracted by folders and files that are not relevant to the topic your are explaining.
 
 ### Full File Tree:
-![](/img/docs/guides/project_1.png)
+<img alt="authtoken" src="/img/docs/guides/project_1.png" class="simple"/>
 
 ### Hiding of Folders:
-![](/img/docs/guides/project_2.png)
+<img alt="authtoken" src="/img/docs/guides/project_2.png" class="simple"/>
 
 ###  Defining folders
 To define which folder(s) to show - any other folders are automatically hidden - first select a page. Next, in the Step Path field you specify the folder or folders which should be shown in the file tree. Use the `;` character to separate multiple folders.

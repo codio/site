@@ -10,7 +10,7 @@ In real life, your class may be taught by more than one teacher. If this is the 
 
 1. First, make sure the teacher you want to add to your class is a member of your organization. Jump to [Add Teachers](/docs/teacher/create/addteachers), and look at step 7  to learn how to do this.
 
-1. From the **My Classroom** area, click on your class to open it. 
+1. From the **Classes** area, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>
 
 1. Click on the **Admin** tab, centre right of your screen.

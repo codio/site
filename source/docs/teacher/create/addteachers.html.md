@@ -4,7 +4,29 @@ class_name: docs
 full_width: true
 ---
 
-Once you have set up your organization, the next step is to invite teachers to use Codio too. This is a very easy process, follow the steps below:
+Once you have set up your organization, the next step is to invite teachers to use Codio too. There are 2 ways you can do this:
+
+### Invite Teacher to the Organization
+
+1. Click your name/gravatar, bottom of the left hand pane
+<img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>
+
+1. Click the name of your organization (under **My Organizations**)
+<img alt="authtoken" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>
+
+1. Click the **Members** tab 
+<img alt="authtoken" src="/img/docs/manage_organization/memberstab.png" class="simple"/>
+
+1. In the  **Invite Teacher to the Organization** area, enter in their Email address. If you also wish them to have full [administrator](/docs/teacher/create/adminrole/) rights to the Organisation, check the 'Add this teacher to owners group'.
+<img alt="authtoken" src="/img/docs/manage_organization/inviteteacher.png" class="simple"/>
+
+1. An email will be sent to your colleague containing a link to sign up and on completion they will be added into your Organisation automatically.
+**N.B.** They must use the email address the invitation was sent to or they will not be added to the Organisation.
+
+1. Any invitations not completed will show in the area below and where you can also 'Resend' or 'Revoke' if you require. Once the invitee has joined the organisation they will no longer show in this area but show in the **All Members** list below (and also **Owners** list if 'Add this teacher to owners group' was checked)
+<img alt="authtoken" src="/img/docs/manage_organization/pendinginvite.png" class="simple"/>
+
+### Invitation Token 
 
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>

@@ -20,7 +20,10 @@
   <li <% if current_page.path.start_with?("demo") then concat 'class="active"' end %>>
     <%= link_to 'Demo', '/demo', class: 'button' %>
   </li>
-  <li>
-    <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/p/signup'), class: 'button' %>
+  <li class='highspot'>
+    <%= link_to 'Join Class', '/p/join-class', class: 'button' %>
+  </li>
+  <li class='highspot'>
+    <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/start-edu-trial'), class: 'button' %>
   </li>
 </ul>

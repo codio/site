@@ -8,16 +8,9 @@ You need to create an ‘organization’ to use Codio as an educational organiza
 
 To create an organization follow these steps:
 
-1. Sign in to Codio at www.codio.com
-1. Click on your profile picture  (bottom left of  **My Classroom**)
-<img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>
+1. Go to www.codio.com and select the **[Free Trial](https://codio.com/start-edu-trial)** button
 
-1. Halfway down the screen, you will see **My Organizations**, underneath that, you will see **+ Create Organization** - click that.
-<img alt="authtoken" src="/img/docs/class_administration/createanorganization/createorg.png" class="simple"/>
-
-
-1. Complete the form with your details, then click **Create**
-<img alt="authtoken" src="/img/docs/class_administration/createanorganization/completeform.png" class="simple"/>
-
+1. Complete the form with your details, then click **Sign Up**
+  To speed up the verification process and allow you to start the trial we would recommend that you use your institution email address and a name of the organisation reflective of your institution
 
 1. Your organization (school, university or other educational organization) has now been set up.

@@ -3,7 +3,7 @@
 const parseRSS = () => {
   var rssBlock = $('.block-rss');
 
-  $.get('http://news.codio.com/blog/rss.xml', function(data) {
+  $.get('https://codio.com/rss.xml', function(data) {
     $(data).find("item").each((index, element) => {
       var item = {
         title: $(element).find("title").text(),

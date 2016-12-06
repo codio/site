@@ -37,5 +37,5 @@ You need to give your project a name and a description.
 
 
 ## Visibility
-By default, your Project will be public, meaning it is findable by any Codio user. If you have a subscription, you can mark the Project as private. You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for the Project from within the IDE from the `Project->Permissions` menu.
+By default, your Project will be public, meaning it is findable by any Codio user. If you have a subscription, you can mark the Project as private. If you are a member of an Organisation, the Organisation owner can disable the ability for you to create public projects. See [Public/Private Settings](/docs/teacher/create/public_private). You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for the Private Project from within the IDE from the `Project->Permissions` menu.
 

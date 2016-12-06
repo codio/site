@@ -21,7 +21,7 @@ You can filter from the available options in the tabs, or search by simply typin
 
 You can also order the list of modules by name or owner and use the 'Filter by Course' drop down to view modules in other courses.
 
-![Module Browser](/img/docs/module_browser.png)
+<img alt="authtoken" src="/img/docs/module_browser.png" class="simple"/>
 
 ## Adding a unit to a module
 Please read the next section [Adding a Unit](/docs/content/publish/unit-add) for details.

@@ -9,7 +9,7 @@ You need to create an ‘organization’ to use Codio as an educational organiza
 To create an organization follow these steps:
 
 1. Sign in to Codio at www.codio.com
-1. Click on your profile picture  (bottom left of  **My Classroom**)
+1. Click on your profile picture  (bottom left of  **Classes**)
 <img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>
 
 1. Halfway down the screen, you will see **My Organizations**, underneath that, you will see **+ Create Organization** - click that.

@@ -73,10 +73,8 @@ const eumembers = {
   "GB": 1
 };
 
-const $currency = $('.currency-block .currency');
 const $typeList = $('.nav .nav-tabs');
 const $types = $typeList.find('li.item');
-const $currencyOption = $('.currency-block .currency-option');
 const $tabs = $('.nav-tabs li');
 const $pricingContentCol = $('.pricing-content-col');
 const $countNumber = $pricingContentCol.find('.count .number')
@@ -94,10 +92,10 @@ const lastOpenedTabType = sessionStorageStore.get('codio_site_pricing_tab')
 const defaultType = params('type') ? params('type') : lastOpenedTabType;
 
 const state = {
-  symbol: '$', 
+  symbol: '', 
   oldType: defaultType,
   type: defaultType,
-  step: 0,
+  step: DEFAULT_START[defaultType],
   range: DEFAULT_RANGE[defaultType],
   currency: 'pound'
 }
@@ -122,8 +120,7 @@ const updateDisplay = step => {
   const $price = $current.price[state.range][state.currency];
 
   $countNumber.text(numeral($current.count).format('0,0'));
-
-  setCurrency(state.currency);
+  
   $amount.text(numeral($price).format('0,0'));
   $range.text(state.range);
 }
@@ -137,7 +134,6 @@ const setType = type => {
 const setCurrency = currency => {
   state.currency = currency;
   state.symbol = (state.currency == "dollar") ? "$" : "£";
-  $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
 }
 
 const fillUserLicences = () => {
@@ -218,13 +214,12 @@ const onTabShow = type => {
   setType(type);
 
   fillUserLicences();
-  updateFeatures();
-  updateActionBtn(state.type);
-  setPaymentsIcons(state.type);
-
   if (!isSafeStep()) {
     state.step = DEFAULT_START[state.type];
   }
+  updateFeatures();
+  updateActionBtn(state.type);
+  setPaymentsIcons(state.type);
 
   $pricingContentCol.find('h3').text(type + ' Licence');
 
@@ -239,6 +234,7 @@ const onTabShow = type => {
   } else {
     $('.dropdown').css({'display' : 'block'});
     $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
+    $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
   }
 }
 
@@ -299,7 +295,7 @@ const handleGeolocation = (text) => {
     else {
       updatePageForUSD();
     }
-    updateDisplay();
+    $('#pricingTab a[href="#' + state.type + '"]').tab('show');
   } catch (e) {
     console.log('Error on parsing geolocation data');
     data = {};
@@ -307,15 +303,10 @@ const handleGeolocation = (text) => {
 }
 
 $(document).ready(function () {
-  var geoplugin = '//freegeoip.net/json/';
-  loadXMLDoc(geoplugin, handleGeolocation);
-
-  $('#pricingTab a[href="#' + state.type + '"]').tab('show');
-  onTabShow(state.type);
-});
-
-$(() => {
   const PRICES = window.PRICES
   setupFaqBlock();
   setupSelector();
+
+  var geoplugin = '//freegeoip.net/json/';
+  loadXMLDoc(geoplugin, handleGeolocation);
 });

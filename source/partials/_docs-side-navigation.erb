@@ -11,7 +11,7 @@
               <div class="<%= active %> item">
                 <div class="item-header">
                   <% if current_section? child.url %>
-                    <a class="link-collapse collapsed" data-toggle="collapse" href="#<%= index %>"></a>
+                    <a class="link-collapse" data-toggle="collapse" href="#<%= index %>"></a>
                   <% end %>
                   <%=  link_to child.data.title, child.url %>
                 </div>
@@ -22,7 +22,7 @@
                 <% end %>
               </div>
               <% if current_section? child.url %>
-                <ul class="<%= active %> level-1-list collapse items-list" id="<%= index %>">
+                <ul class="<%= active %> level-1-list collapsed items-list" id="<%= index %>">
                   <% ordered(child).each_with_index do |p, pindex| %>
                     <% if current_section? p.url %>
                       <li class="active level-1-item">

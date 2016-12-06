@@ -120,6 +120,11 @@
     content: "\25BE";
   }
 
+  .collapsing {
+    -webkit-transition: none;
+    transition: none;
+  }
+
   .bullet-collapse {
     li.item-collapse {
       list-style: none;

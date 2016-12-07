@@ -7,7 +7,8 @@ full_width: true
 Codio offers an integrated, language specific debugger. Codio currently supports the following languages.
 
 - Java
-- Python
+- Python 2
+- Python 3
 - NodeJS
 - C and C++
 

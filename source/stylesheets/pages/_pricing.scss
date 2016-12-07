@@ -470,6 +470,10 @@ body.pricing .pricing-tabs {
   }
 }
 
+.subtext {
+  font-size: 1.2rem;
+}
+
 .features-list {
   margin-top: 1rem;
   font-size: 1rem;
@@ -482,12 +486,14 @@ body.pricing .pricing-tabs {
 }
 
 .action-buttons {
+  animation-delay: 1.2s;
   margin-top: 2rem;
   width: 100%;
+  white-space: nowrap;
 
   .button-dark {
     background-color: $dark-gray;
-    color: white;
+    color: #fff;
 
     &:hover {
       background-color: white;
@@ -495,9 +501,20 @@ body.pricing .pricing-tabs {
     }
   }
 
+  .button-white {
+    background-color: #fff;
+    color: $dark-gray;
+    border-color: $dark-gray;
+
+    &:hover {
+      background-color: $dark-gray;
+      color: #fff;
+    }
+  }
+
   .learn-more-link {
+    display: inline-block;
     float: right;
-    width: 50%;
     text-align: right;
     text-decoration: underline;
   }

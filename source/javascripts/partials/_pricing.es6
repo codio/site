@@ -42,6 +42,7 @@ const LEARN_MORE_LINK = {
   university: '/university'
 }
 
+const $currencyBlock = $('.currency-block');
 const $currency = $('.currency-block .currency');
 const $typeList = $('.nav .nav-tabs');
 const $types = $typeList.find('li.item');
@@ -220,6 +221,22 @@ const onTabShow = type => {
     $('.currency-label-uk').css({'display' : 'inline-block'});
     $('#gbpCurrency').css({'display' : 'inline-block'});
     $('.dropdown').css({'display' : 'block'})
+  }
+  if (state.type == 'university') {
+    $currencyBlock.css({'display' : 'none'});
+    $('.first-letter-uppercase').text('Contact Us for Pricing Options');
+    $('#requestQuoteBtn').css({'display' : 'inline'});
+    $('.price-count-block').css({'display' : 'none'});
+    $('.count').css({'display' : 'none'});
+    $('.dropdown').css({'display' : 'none'});
+    $('.subtext').css({'display' : 'block'});
+  } else {
+    $currencyBlock.css({'display' : 'block'});
+    $('#requestQuoteBtn').css({'display' : 'none'});
+    $('.price-count-block').css({'display' : 'block'});
+    $('.count').css({'display' : 'block'});
+    $('.dropdown').css({'display' : 'block'});
+    $('.subtext').css({'display' : 'none'});
   }
 }
 

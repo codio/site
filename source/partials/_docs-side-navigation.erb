@@ -10,7 +10,7 @@
               <% active = current_section?(child.url) ? "active" : "" %>
               <div class="<%= active %> item">
                 <div class="item-header">
-                  <% if current_section? child.url %>
+                  <% if current_section?(child.url) && child.children.length > 0 %>
                     <a class="link-collapse" data-toggle="collapse" href="#<%= index %>"></a>
                   <% end %>
                   <%=  link_to child.data.title, child.url %>

@@ -21,7 +21,7 @@ To create your new Stack, click the `New Stack` button at the top right of the S
 
 When you have completed the required fields and pressed the `Create` button, we will generate a Stack image for you. This can take a minute or longer, depending on the size of the Stack image. You  do not need to wait on this screen while the Stack is created, so feel free to continue to other parts of Codio. The source project will not be fully usuable until the stack has been created
 
-You can also create a stack by using `Codio>Create Stack`
+You can also create a private stack,owned by you by using `Codio>Create Stack`
 
 ## Stack Blueprint
 The first thing you will need to specify is the Codio project that you want to use for your Stack blueprint. Enter any part of your Project name and you will see them listed in a dropdown.

@@ -321,11 +321,28 @@ const handleGeolocation = (text) => {
   }
 }
 
+const defineLocation = (src) => {
+  try {
+    $.getJSON(src + "?noCache=" + (new Date().getTime()) + Math.random(), (location) => {
+      if (location.country_code && eumembers[location.country_code]) {
+        updatePageForGBR();
+      }
+      else {
+        updatePageForUSD();
+      }
+      $('#pricingTab a[href="#' + state.type + '"]').tab('show');
+    });
+  } catch (e) {
+    console.log('Error on parsing geolocation data');
+  }
+}
+
 $(document).ready(function () {
   const PRICES = window.PRICES
   setupFaqBlock();
   setupSelector();
 
   var geoplugin = '//freegeoip.net/json/';
-  loadXMLDoc(geoplugin, handleGeolocation);
+  //loadXMLDoc(geoplugin, handleGeolocation);
+  defineLocation(geoplugin);
 });

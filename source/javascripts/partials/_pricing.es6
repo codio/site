@@ -210,7 +210,7 @@ const setPaymentsIcons = type => {
 }
 
 const onTabShow = type => {
-  if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
+  //if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
 
   setType(type);
 
@@ -276,24 +276,6 @@ const setupFaqBlock = () => {
   $('#accordion-university').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
 }
 
-const loadXMLDoc = (src, callback) => {
-  var xmlhttp = new XMLHttpRequest();
-
-  xmlhttp.onreadystatechange = () => {
-    if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
-      if (xmlhttp.status == 200) {
-        callback(xmlhttp.responseText);
-      } else {
-        console.log('Error loading xml doc', src);
-        state.currency = DEFAULT_CURRENCY[defaultType];
-      }
-    }
-  };
-
-  xmlhttp.open('GET', src, true);
-  xmlhttp.send();
-}
-
 const updatePageForGBR = () => {
   console.log('Updating for gbr');
   setCurrency('pound');
@@ -338,11 +320,11 @@ const defineLocation = (src) => {
 }
 
 $(document).ready(function () {
+  if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
   const PRICES = window.PRICES
   setupFaqBlock();
   setupSelector();
 
   var geoplugin = '//freegeoip.net/json/';
-  //loadXMLDoc(geoplugin, handleGeolocation);
   defineLocation(geoplugin);
 });

@@ -239,7 +239,7 @@ const onTabShow = type => {
     $range.text(state.range);
   } else if (type == 'university') {
     $currencyBlock.css({'display' : 'none'});
-    $('.first-letter-uppercase').text('Contact Us for Pricing Options');
+    $('.first-letter-uppercase').text('Request a Quote');
     $('#requestQuoteBtn').css({'display' : 'inline'});
     $('.price-count-block').css({'display' : 'none'});
     $('.count').css({'display' : 'none'});
@@ -305,7 +305,7 @@ const handleGeolocation = (text) => {
 
 const defineLocation = (src) => {
   try {
-    $.getJSON(src + "?noCache=" + (new Date().getTime()) + Math.random(), (location) => {
+    $.getJSON(src + "?callback=?", (location) => {
       if (location.country_code && eumembers[location.country_code]) {
         updatePageForGBR();
       }
@@ -325,6 +325,6 @@ $(document).ready(function () {
   setupFaqBlock();
   setupSelector();
 
-  var geoplugin = '//freegeoip.net/json/';
+  var geoplugin = '//freegeoip.net/json/codio.com';
   defineLocation(geoplugin);
 });

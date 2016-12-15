@@ -33,9 +33,9 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 <img alt="authtoken" src="/img/docs/grading-secure.png" class="simple"/>
 
 ### Secure scripts
-If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain seure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
+If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
 
-Important : you should only place scripts in the ```.guides/secure``` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio Guides there as this folder will not accessible at that point.
+**Important** : you should only place scripts in the ```.guides/secure``` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio Guides there as this folder will not accessible at that point.
 
 ### Buggy grading script strategy
 Once the Unit has been published to the class, the project author will no longer be able to modify any autograding scripts that may have been written. However, teacher written scripts are subject to bugs like any other piece of code and you may want to be able to modify your test script after the Unit is published.
@@ -73,7 +73,7 @@ curl -fsSL $URL | python - $@
 ```
 
 #### Example Python grading script
-Below is an example Python file that might be loaded by the bootstrap script above. You are free to use any language but if you are using a compiled language then your boostrap command will need to handle the compilation. For this reason, an interpreted language such as Bash, Python, NodeJS etc will execute a little faster.
+Below is an example Python file that might be loaded by the bootstrap script above. You are free to use any language but if you are using a compiled language then your bootstrap command will need to handle the compilation. For this reason, an interpreted language such as Bash, Python, NodeJS etc will execute a little faster.
 
 Notice that the only code you need to modify is near the bottom. The other functions are helpers and can be used for any test in any Unit.
 
@@ -82,7 +82,6 @@ import os
 import random
 import requests
 import json
-import os.path
 import datetime
 import sys
 
@@ -93,10 +92,10 @@ import sys
 
 # Get the url to send the results to
 CODIO_AUTOGRADE_URL = os.environ["CODIO_AUTOGRADE_URL"]
-# Set some file location to store the date and time that the unit was marked as complete
-COMPLETE_DATE_PATH = '/home/codio/workspace/.guides/secure/completed_date'
+CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
 # The date and time format to use. The deadline date should conform
 DATE_FORMAT = "%Y-%m-%dT%H:%M:%S"
+DATE_FORMAT_CODIO = "%Y-%m-%dT%H:%M:%S.%fZ"
 
 # Send the grade back to Codio
 def send_grade( grade ):
@@ -106,20 +105,11 @@ def send_grade( grade ):
   parsed = json.loads(r.content)
   return parsed['code'] == 1
 
-# If the script has not run before, then it writes the current date and time
-# to a file. If it has been run before, then it retrieves the original submission
-# date and time from file
+# gets complete date from codio unit data
 def get_completed_date():
-  date = datetime.datetime.now()
-  if os.path.isfile(COMPLETE_DATE_PATH):
-    f = open(COMPLETE_DATE_PATH, 'r');
-    date = datetime.datetime.strptime(f.read(), DATE_FORMAT)
-    f.close();
-  else:
-    f = open(COMPLETE_DATE_PATH, 'w');
-    f.write(date.strftime(DATE_FORMAT))
-    f.close()
-  return date
+  unit_info = json.loads(CODIO_UNIT_DATA)
+  date = unit_info["completedDate"]
+  return datetime.datetime.strptime(date, DATE_FORMAT_CODIO)
 
 def main():
   # Execute the test on the student's code

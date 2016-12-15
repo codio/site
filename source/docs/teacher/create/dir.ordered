@@ -2,11 +2,11 @@ adminrole
 addteachers
 addowners
 addstudents
-bulkupload
 viewmembers
 dash
 removeowners
 removemembers
-deleteorg
+public_private
 lti
 gigaboxes
+deleteorg

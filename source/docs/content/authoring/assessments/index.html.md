@@ -34,3 +34,6 @@ If you want to edit an existing assessment, you can choose either of the followi
 
 ## Deleting an assessment
 To delete an assessment, press the Settings button in the Guides toolbar then select the Assessments tab. All assessments present in the current project are listed. You should press the red 'x' button to delete it.
+
+## Autograding when a student completes a unit
+Codio allows you to run a special auto-grading script as soon as a unit is completed by the student. [Click here](/docs/teacher/classes/autograde/) for details.

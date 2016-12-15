@@ -88,6 +88,9 @@ const params = name => {
     return results[1] || 0;
 }
 
+const lastCurrencyType = sessionStorageStore.get('codio_site_pricing_currency')
+                        ? sessionStorageStore.get('codio_site_pricing_currency') : 'none';
+
 const lastOpenedTabType = sessionStorageStore.get('codio_site_pricing_tab') 
                           ? sessionStorageStore.get('codio_site_pricing_tab') : 'school';
 const defaultType = params('type') ? params('type') : lastOpenedTabType;
@@ -210,8 +213,6 @@ const setPaymentsIcons = type => {
 }
 
 const onTabShow = type => {
-  //if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
-
   setType(type);
 
   fillUserLicences();
@@ -239,7 +240,7 @@ const onTabShow = type => {
     $range.text(state.range);
   } else if (type == 'university') {
     $currencyBlock.css({'display' : 'none'});
-    $('.first-letter-uppercase').text('Request a Quote');
+    $('.first-letter-uppercase').text('Explore licensing options');
     $('#requestQuoteBtn').css({'display' : 'inline'});
     $('.price-count-block').css({'display' : 'none'});
     $('.count').css({'display' : 'none'});
@@ -286,33 +287,15 @@ const updatePageForUSD = () => {
   setCurrency('dollar');
 }
 
-const handleGeolocation = (text) => {
-  var data = {};
-  try {
-    data = JSON.parse(text);
-    if (data.country_code && eumembers[data.country_code]) {
-      updatePageForGBR();
-    }
-    else {
-      updatePageForUSD();
-    }
-    $('#pricingTab a[href="#' + state.type + '"]').tab('show');
-  } catch (e) {
-    console.log('Error on parsing geolocation data');
-    data = {};
-  }
-}
-
 const defineLocation = (src) => {
   try {
     $.getJSON(src + "?callback=?", (location) => {
-      if (location.country_code && eumembers[location.country_code]) {
-        updatePageForGBR();
-      }
-      else {
+      console.log(location.country_code);
+      if (!(location.country_code && eumembers[location.country_code])) {
         updatePageForUSD();
       }
-      $('#pricingTab a[href="#' + state.type + '"]').tab('show');
+      sessionStorageStore.set('codio_site_pricing_currency', state.currency);
+      onTabShow(state.type);
     });
   } catch (e) {
     console.log('Error on parsing geolocation data');
@@ -325,6 +308,19 @@ $(document).ready(function () {
   setupFaqBlock();
   setupSelector();
 
-  var geoplugin = '//freegeoip.net/json/codio.com';
-  defineLocation(geoplugin);
+  if (lastCurrencyType == 'none') {
+    console.log('Currency is not defined');
+    updatePageForGBR();
+    $('#pricingTab a[href="#' + state.type + '"]').tab('show');
+    var geoplugin = '//freegeoip.net/json';
+    defineLocation(geoplugin);
+  }
+  else {
+    if (lastCurrencyType == 'dollar') {
+      updatePageForUSD();
+    } else {
+      updatePageForGBR();
+    }
+    $('#pricingTab a[href="#' + state.type + '"]').tab('show');
+  }
 });

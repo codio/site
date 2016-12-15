@@ -20,6 +20,7 @@ const parseRSS = () => {
 }
 
 $(document).ready(() => {
+  if (document.location.pathname.lastIndexOf("/features", 0) !== 0) return;
   var subheader = $(".subheader-block");
   var modalDialog = $(".modal-dialog");
   var header = $("header");

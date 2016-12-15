@@ -6,13 +6,13 @@ full_width: true
 
 
 ### Adding a student to the organization only
-<<<<<<< HEAD
-If you want to add students to the organization just to allow them to create coding projects then you should create a dummy class and follow the steps described below. 
-=======
+
+If you want to add students to the organization to just to allow them to create coding projects then you should create a dummy class and follow the steps described below. 
+
 An administrator user should click on their user name from the dashboard and then select the Organization shown towards the bottom of the page. Next, select Organization Settings and scroll down until you find the "Invitation Token" section. 
 
-Copy the Invite URL field and send this to the student via email or place the token in a web page. When accessed, the student will be taken through a signup process and and as they select that they are a Student will be added to the organization automatically. If the student already has a Codio account then organisation assignment will be made.
->>>>>>> 5c0c368673df89ee1ff9d91c79bbb9653c789d52
+Copy the Invite URL field and send this to the student via email or place the token in a web page. When accessed, the student will be taken through a signup process and and as they select that they are a Student will be added to the organization automatically. If the student already has a Codio account then the organisation assignment will be made.
+
 
 ### Adding a student to a class
 

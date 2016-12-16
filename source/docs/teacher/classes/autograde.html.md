@@ -82,7 +82,6 @@ import os
 import random
 import requests
 import json
-import os.path
 import datetime
 import sys
 
@@ -93,10 +92,10 @@ import sys
 
 # Get the url to send the results to
 CODIO_AUTOGRADE_URL = os.environ["CODIO_AUTOGRADE_URL"]
-# Set some file location to store the date and time that the unit was marked as complete
-COMPLETE_DATE_PATH = '/home/codio/workspace/.guides/secure/completed_date'
+CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
 # The date and time format to use. The deadline date should conform
 DATE_FORMAT = "%Y-%m-%dT%H:%M:%S"
+DATE_FORMAT_CODIO = "%Y-%m-%dT%H:%M:%S.%fZ"
 
 # Send the grade back to Codio
 def send_grade( grade ):
@@ -106,20 +105,11 @@ def send_grade( grade ):
   parsed = json.loads(r.content)
   return parsed['code'] == 1
 
-# If the script has not run before, then it writes the current date and time
-# to a file. If it has been run before, then it retrieves the original submission
-# date and time from file
+# gets complete date from codio unit data
 def get_completed_date():
-  date = datetime.datetime.now()
-  if os.path.isfile(COMPLETE_DATE_PATH):
-    f = open(COMPLETE_DATE_PATH, 'r');
-    date = datetime.datetime.strptime(f.read(), DATE_FORMAT)
-    f.close();
-  else:
-    f = open(COMPLETE_DATE_PATH, 'w');
-    f.write(date.strftime(DATE_FORMAT))
-    f.close()
-  return date
+  unit_info = json.loads(CODIO_UNIT_DATA)
+  date = unit_info["completedDate"]
+  return datetime.datetime.strptime(date, DATE_FORMAT_CODIO)
 
 def main():
   # Execute the test on the student's code

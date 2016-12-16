@@ -40,6 +40,7 @@ const fillVideoList = (videoList) => {
 };
 
 $(document).ready(() => {
+  if (document.location.pathname.lastIndexOf("/demo", 0) !== 0) return;
   var videoList = $('.video-list ul');
   var title = $('.video-content .title');
   var description = $('.video-content .description');

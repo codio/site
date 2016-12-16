@@ -7,18 +7,18 @@ const DEFAULT_START = {
   university: 3
 }
 
-const DEFAULT_CURRENCY = {
-  individual: 'dollar',
-  business: 'dollar',
-  school: 'pound',
-  university: 'pound'
-}
-
 const DEFAULT_RANGE = {
   individual: 'month',
   business: 'month',
   school: 'year',
   university: 'year'
+}
+
+const DEFAULT_CURRENCY = {
+  individual: 'dollar',
+  business: 'dollar',
+  school: 'pound',
+  university: 'pound'
 }
 
 const ACTION_BTN_TEXT = {
@@ -42,10 +42,40 @@ const LEARN_MORE_LINK = {
   university: '/university'
 }
 
-const $currency = $('.currency-block .currency');
+const eumembers = {
+  "BE": 1,
+  "BG": 1,
+  "CZ": 1,
+  "DK": 1,
+  "DE": 1,
+  "EE": 1,
+  "IE": 1,
+  "EL": 1,
+  "ES": 1,
+  "FR": 1,
+  "HR": 1,
+  "IT": 1,
+  "CY": 1,
+  "LV": 1,
+  "LT": 1,
+  "LU": 1,
+  "HU": 1,
+  "MT": 1,
+  "NL": 1,
+  "AT": 1,
+  "PL": 1,
+  "PT": 1,
+  "RO": 1,
+  "SI": 1,
+  "SK": 1,
+  "FI": 1,
+  "SE": 1,
+  "GB": 1
+};
+
+const $currencyBlock = $('.currency-block');
 const $typeList = $('.nav .nav-tabs');
 const $types = $typeList.find('li.item');
-const $currencyOption = $('.currency-block .currency-option');
 const $tabs = $('.nav-tabs li');
 const $pricingContentCol = $('.pricing-content-col');
 const $countNumber = $pricingContentCol.find('.count .number')
@@ -58,17 +88,20 @@ const params = name => {
     return results[1] || 0;
 }
 
+const lastCurrencyType = sessionStorageStore.get('codio_site_pricing_currency')
+                        ? sessionStorageStore.get('codio_site_pricing_currency') : 'none';
+
 const lastOpenedTabType = sessionStorageStore.get('codio_site_pricing_tab') 
                           ? sessionStorageStore.get('codio_site_pricing_tab') : 'school';
 const defaultType = params('type') ? params('type') : lastOpenedTabType;
 
 const state = {
-  symbol: '$', 
+  symbol: '', 
   oldType: defaultType,
   type: defaultType,
-  step: 0,
+  step: DEFAULT_START[defaultType],
   range: DEFAULT_RANGE[defaultType],
-  currency: DEFAULT_CURRENCY[defaultType],
+  currency: 'pound'
 }
 
 const isSafeStep = (step = state.step) => {
@@ -87,14 +120,11 @@ const currentSelection = (step = state.step) => {
 }
 
 const updateDisplay = step => {
-  $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
-  
   const $current = currentSelection(step);
   const $price = $current.price[state.range][state.currency];
 
   $countNumber.text(numeral($current.count).format('0,0'));
-
-  setCurrency(state.currency);
+  
   $amount.text(numeral($price).format('0,0'));
   $range.text(state.range);
 }
@@ -105,22 +135,9 @@ const setType = type => {
   state.range = DEFAULT_RANGE[type];
 }
 
-const setCurrencySign = () => {
-  if (state.currency == "dollar") {
-    $('.display-price .currency-label-uk').css({"color" : "#a8b2c4"});
-    $('.display-price .currency-label-us').css({"color" : "#212c3f"});
-    state.symbol = "$";
-  } else {
-    $('.display-price .currency-label-uk').css({"color" : "#212c3f"});
-    $('.display-price .currency-label-us').css({"color" : "#a8b2c4"});
-    state.symbol = "£";
-  }
-}
-
 const setCurrency = currency => {
   state.currency = currency;
-  $currency.find(`input[name=currency][value=${currency}]`).prop('checked', true);
-  setCurrencySign();
+  state.symbol = (state.currency == "dollar") ? "$" : "£";
 }
 
 const fillUserLicences = () => {
@@ -196,40 +213,52 @@ const setPaymentsIcons = type => {
 }
 
 const onTabShow = type => {
-  if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
-
   setType(type);
-  setCurrency(DEFAULT_CURRENCY[state.type]);
 
+  fillUserLicences();
   if (!isSafeStep()) {
     state.step = DEFAULT_START[state.type];
   }
-
-  fillUserLicences();
   updateFeatures();
   updateActionBtn(state.type);
   setPaymentsIcons(state.type);
 
   $pricingContentCol.find('h3').text(type + ' Licence');
-  $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
-  if (state.type == 'individual') {
-    $('.currency-label-uk').css({'display' : 'none'});
-    $('#gbpCurrency').css({'display' : 'none'});
+
+  if (type == 'individual') {
+    $currencyBlock.css({'display' : 'block'});
+    $('#requestQuoteBtn').css({'display' : 'none'});
+    $('.price-count-block').css({'display' : 'block'});
+    $('.count').css({'display' : 'block'});
+    $('.subtext').css({'display' : 'none'});
     $('.dropdown').css({'display' : 'none'});
+    $('.pricing-content-col .price-count-block .currency-type').text("$");
+    const $current = currentSelection(0);
+    const $price = $current.price[state.range]['dollar'];
+    $countNumber.text(numeral($current.count).format('0,0'));
+    $amount.text(numeral($price).format('0,0'));
+    $range.text(state.range);
+  } else if (type == 'university') {
+    $currencyBlock.css({'display' : 'none'});
+    $('.first-letter-uppercase').text('Explore licensing options');
+    $('#requestQuoteBtn').css({'display' : 'inline'});
+    $('.price-count-block').css({'display' : 'none'});
+    $('.count').css({'display' : 'none'});
+    $('.dropdown').css({'display' : 'none'});
+    $('.subtext').css({'display' : 'block'});
   } else {
-    $('.currency-label-uk').css({'display' : 'inline-block'});
-    $('#gbpCurrency').css({'display' : 'inline-block'});
-    $('.dropdown').css({'display' : 'block'})
+    $('.dropdown').css({'display' : 'block'});
+    $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
+    $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
+    $currencyBlock.css({'display' : 'block'});
+    $('#requestQuoteBtn').css({'display' : 'none'});
+    $('.price-count-block').css({'display' : 'block'});
+    $('.count').css({'display' : 'block'});
+    $('.subtext').css({'display' : 'none'});
   }
 }
 
 const setupSelector = () => {
-  $currency.find('input[name=currency]').on('change', function () {
-    state.currency = this.value;
-    setCurrencySign();
-    updateDisplay();
-  });
-
   $tabs.on('show.bs.tab', function(e) {
     const $type = $(this).data('type');
     onTabShow($type);
@@ -248,13 +277,50 @@ const setupFaqBlock = () => {
   $('#accordion-university').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
 }
 
-$(document).ready(function () {
-  $('#pricingTab a[href="#' + state.type + '"]').tab('show');
-  onTabShow(state.type);
-});
+const updatePageForGBR = () => {
+  console.log('Updating for gbr');
+  setCurrency('pound');
+}
 
-$(() => {
+const updatePageForUSD = () => {
+  console.log('Updating for usd');
+  setCurrency('dollar');
+}
+
+const defineLocation = (src) => {
+  try {
+    $.getJSON(src + "?callback=?", (location) => {
+      console.log(location.country_code);
+      if (!(location.country_code && eumembers[location.country_code])) {
+        updatePageForUSD();
+      }
+      sessionStorageStore.set('codio_site_pricing_currency', state.currency);
+      onTabShow(state.type);
+    });
+  } catch (e) {
+    console.log('Error on parsing geolocation data');
+  }
+}
+
+$(document).ready(function () {
+  if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
   const PRICES = window.PRICES
   setupFaqBlock();
   setupSelector();
+
+  if (lastCurrencyType == 'none') {
+    console.log('Currency is not defined');
+    updatePageForGBR();
+    $('#pricingTab a[href="#' + state.type + '"]').tab('show');
+    var geoplugin = '//freegeoip.net/json';
+    defineLocation(geoplugin);
+  }
+  else {
+    if (lastCurrencyType == 'dollar') {
+      updatePageForUSD();
+    } else {
+      updatePageForGBR();
+    }
+    $('#pricingTab a[href="#' + state.type + '"]').tab('show');
+  }
 });

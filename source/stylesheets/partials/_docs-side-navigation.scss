@@ -31,7 +31,6 @@
     margin-left: - $base-line-height / 3;
     padding: .2rem $base-line-height / 2;
     margin-top: $base-line-height / 2;
-    background-color: $side-background-gray;
   }
 
   .item.active {
@@ -44,12 +43,8 @@
     }
   }
 
-  .item-selected {
-    background-color: $light-blue;
-  }
-
   .item-header,
-  .item-header > a {
+  .item-header {
     line-height: 19px;
     font-size: 1.1rem;
     font-weight: 600;
@@ -58,6 +53,15 @@
       font-weight: 700;
       color: $light-blue;
     }
+  }
+
+  .item-selected {
+    background-color: $light-blue;
+  }
+
+  .item-selected.item-header:hover {
+    color: $base-font-color;
+    font-weight: 700;
   }
 
   .item-description {
@@ -77,7 +81,7 @@
     color: $base-font-color;
 
     &:hover {
-      font-weight: 500;
+      font-weight: 700;
     }
   }
 

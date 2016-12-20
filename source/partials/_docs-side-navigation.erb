@@ -11,7 +11,7 @@
               <div class="<%= active %> item">
                 <div class="item-header">
                   <% if current_section?(child.url) && child.children.length > 0 %>
-                    <a class="link-collapse" data-toggle="collapse" href="#<%= index %>"></a>
+                    <a class="link-collapse" data-toggle="collapse" href="#f<%= index %>"></a>
                   <% end %>
                   <%=  link_to child.data.title, child.url %>
                 </div>
@@ -22,7 +22,7 @@
                 <% end %>
               </div>
               <% if current_section? child.url %>
-                <ul class="<%= active %> level-1-list collapsed items-list" id="<%= index %>">
+                <ul class="<%= active %> level-1-list collapsed items-list" id="f<%= index %>">
                   <% ordered(child).each_with_index do |p, pindex| %>
                     <% if current_section? p.url %>
                       <li class="active level-1-item">
@@ -30,11 +30,11 @@
                       <li class="level-1-item">
                     <% end %>
                     <% if p.children.length > 0 %>
-                      <a class="link-collapse collapsed" data-toggle="collapse" href="#<%= pindex %>"></a>
+                      <a class="link-collapse collapsed" data-toggle="collapse" href="#s<%= pindex %>"></a>
                     <% end %>
                     <%=  link_to p.data.title, p.url %>
                     <% if p.children.length > 0 %>
-                      <ul class="level-2-list collapse items-list" id="<%= pindex %>">
+                      <ul class="level-2-list collapse items-list" id="s<%= pindex %>">
                         <% ordered(p).each do |inner| %>
                           <% if current_page? inner.url %>
                             <li class="active level-2-item">

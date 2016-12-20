@@ -64,6 +64,15 @@ $(document).ready(function () {
   })
 })
 
+$(document).ready(function() {
+  var elements = $('aside .active');
+  if (elements.length > 2) {
+    elements.last().addClass('item-selected');
+  } else {
+    elements.first().addClass('item-selected');
+  }
+})
+
 const COLLAPSES_LIST = 'COLLAPSES_LIST'
 
 $(document).ready(function() {

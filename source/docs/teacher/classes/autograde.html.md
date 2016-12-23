@@ -57,6 +57,9 @@ If students set their work to 'complete' such that an autograde step is triggere
 ### Regrading all students
 From the Actions area of the Unit, you can regrade all students that have already been auto-graded by pressing the Regrade All button. This is useful if you have found a bug in your grading script. If you follow (or use) the code sample shown at the bottom of this page you can see how the original student submission date is handled.
 
+### Testing your script
+We provide the ability to test the script in the Education menu. Select the 'Test Autograde Script' menu option and you can then specify the command to run your script and view the results of the script execution. 
+
 ### Sample code
 
 #### Example bash loader script

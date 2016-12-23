@@ -1,8 +1,10 @@
 ---
-title: "Code Tests"
+title: "Advanced Code Tests"
 class_name: docs
 full_width: true
 ---
+
+Before you read about the Advanced Code Test, please be sure to check the [Standard Code Tests](/docs/content/authoring/assessments/assessments-standard-code-tests/) as these require no coding at all, are very quick to set up and cover the majority of test cases you are likely to want to create.
 
 The Code Test assessment type allows you to write code that checks code a student has written. You can write the code in any language you like provided it can be run from the command line, which covers almost all likely scenarios.
 

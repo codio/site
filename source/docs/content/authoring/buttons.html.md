@@ -14,6 +14,13 @@ This will launch a process and execute a terminal command.
 {Button Text}(command paramater1 parameter2 parameterN)
 ```
 
+## Launching a process in a terminal window
+There are cases where you will want to launch a command in a dedicated terminal window. A typical example is when student code requires input from the user. Codio cannot handle standard inputs through the Guides window, so use the following button command.
+
+```javascript
+{Button Text | terminal}(command)
+```
+
 ## Writng a custom event handler
 This offers you the most flexibility and allows you to write your own custom button press handler. A common use case is executing tests on user code.
 

@@ -21,7 +21,7 @@ There are cases where you will want to launch a command in a dedicated terminal 
 {Button Text | terminal}(command)
 ```
 
-## Writng a custom event handler
+## Writing a custom event handler
 This offers you the most flexibility and allows you to write your own custom button press handler. A common use case is executing tests on user code.
 
 To do this, you should use the following format for your custom button.

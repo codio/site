@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-If you are writing or using programs that have a GUI based output then please read this section.
+If you are writing or using programs that have a GUI based output then please read this section. Whether you are using UI libraries like tkinter, qt or simply ubuntu applications that have a non web based UI, this section explains how to setup a virtual desktop.
 
 ## Sample Project
 There is a Starter Pack project that demonstrates these features. [Click here to install it in your projects list](https://codio.com/home/starter-packs/d9c00215-ec2a-46e7-b64e-85fab45b0872/). You will find instructions in the README.md file.

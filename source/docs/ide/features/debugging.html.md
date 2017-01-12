@@ -104,7 +104,7 @@ The debug panel also contains other useful features.
 
 
 ### Launching the debugger from Codio Guides
-It is also possible to launch any debugger configuration from a Guides page. Please [click here](https://codio.com/docs/content/authoring/buttons/) for details.
+It is also possible to launch any debugger configuration from a Guides page. Please [click here](/docs/content/authoring/buttons/) for details.
 
 
 

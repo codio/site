@@ -8,6 +8,9 @@ Before you read about the Advanced Code Test, please be sure to check the [Stand
 
 The Code Test assessment type allows you to write code that checks code a student has written. You can write the code in any language you like provided it can be run from the command line, which covers almost all likely scenarios.
 
+### Sample Starter Pack
+There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/). This project contains examples for all types of auto-graded assessments as well as a Codio Guides cheat sheet.
+
 ## Test definition
 Setting up a Code Test within the Guide editor is very simple. As you can see from the screenshot below, you should specify the following details
 
@@ -75,9 +78,4 @@ If your test returns 0, then Codio will give a dashboard score specified in the 
 
 ## Inputs and Outputs to student code
 If your assessment requires that inputs are passed into the student code or data should be returned from the student code, then it is entirely up to you how to implement this. You should make it clear how the student should process your test's inputs and how to return data back to your test.
-
-## Example Project
-https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/project/creating/) for more information on importing.
-
-
 

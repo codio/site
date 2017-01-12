@@ -1,0 +1,51 @@
+---
+title: "GUI based output "
+class_name: docs
+full_width: true
+---
+
+If you are writing or using programs that have a GUI based output then please read this section.
+
+## Sample Project
+There is a Starter Pack project that demonstrates these features. [Click here to install it in your projects list](https://codio.com/home/starter-packs/d9c00215-ec2a-46e7-b64e-85fab45b0872/). You will find instructions in the README.md file.
+
+### Uses and Limitations
+X Server is a virtual desktop that is very effective for Codio's cloud based infrastructure. Any application that relies on a graphical user interface has its graphical output redirected to it and Codio's viewer is then able to display the virtual desktop in a browser. 
+
+As you will see when trying out the sample applications in the demo project above, some of which have very complex UIs (notably SQLite and StartUML), you can get a very good experience indeed. The limitations start to be felt when using fast motion graphics where the virtual screen content is changing so fast that it cannot be rendered in real time over the internet. If you have better bandwidth you will experience better performance and vice-versa.
+
+
+## Installing your own projects
+
+### Installing X Server
+To install X Server, go to the menu 'Tools->Install Software' and locate X Server. Press the install button in the X Server row. The installation may take a few minutes.
+
+### Running your code
+Before you can view any output, your program needs to run, so you should first start your code. When you start the viewer (see below), the UI output will be shown automatically.
+
+You also can start the viewer first but it will be empty until a program runs, whereupon it will refresh.
+
+### The viewer
+The viewer is a special window that appears either inside Codio or in a separate browser tab. To open it, you should add `"Viewer": "https://{{domain3000}}/"` to the .codio file. 
+
+```
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Run Python (tkinter)": "python3 tkinterpy/demo.py",
+        "Run Java (Lunar Phases)": "cd swing && java LunarPhases",
+        "SQLite Browser App": "sqlitebrowser",
+        "StarUML": "staruml"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Virtual Desktop": "https://{{domain3000}}/"
+  }
+}
+```
+
+You can also access the from any browser using `https://pagoda-cigar-3000.codio.io/` where you replace `pagoda-cigar` with your boxes domain name, which you can find in the menu at 'Project->Box Info' (scroll to the section 'Web: Static content').
+

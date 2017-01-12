@@ -20,6 +20,12 @@ There are cases where you will want to launch a command in a dedicated terminal 
 ```javascript
 {Button Text | terminal}(command)
 ```
+## Launching a debugger configuration
+You can launch a debugger configuration as shown below. It is important to specify the configuration name exactly.
+
+```javascript
+{Button text | debugger}(debugger configuration name)
+```
 
 ## Writing a custom event handler
 This offers you the most flexibility and allows you to write your own custom button press handler. A common use case is executing tests on user code.

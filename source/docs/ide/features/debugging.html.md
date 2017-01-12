@@ -19,6 +19,12 @@ For anyone who has not used a debugger before, here is a useful video tutorial.
 
 <iframe src="https://player.vimeo.com/video/165269077" width="640" height="408" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+### Prerequisites
+If you install Java, C or NodeJS from a stack, then the GBD/JDB components that support debugging will be automatically installed. However, if you have installed these languages manually then you will also need to ensure that these components are manually added. You can do this as follows
+
+- For C, C++, NodeJS and Python `sudo apt install gdb`
+- For Java **MAX HELP PLEASE AND CHECK PREVIOUS IS ACCURATE**
+
 
 ### Creating and managing debug targets
 You should first configure a debug target. Having multiple debug targets is useful for the following reasons.
@@ -46,6 +52,12 @@ To create a new target, press the Create button. You can then configure your tar
 
 When creating a new target, you are also shown the debugger port and instruction but these can typically be ignored.
 
+### Single file confgurations
+If you are using C, C++ or Java and debugging a simple single code file project (common in early programmng courses) then you should choose Single C File, Single C++ file or Single Java file Debugger Type. This frees you from having to worry about the detailed compile and run configuration.
+
+### Multi file configuration
+If you are working on more complex projects then you will need to provide the correct MAX INFO HERE PLEASE
+
 #### Language specific compilation commands
 The information in this section refers to what should be used in the Command Arguments field.
 
@@ -61,6 +73,8 @@ javac -g BubbleSort.java && java -agentlib:jdwp=transport=dt_socket,server=y,sus
 
 The example above is a simple case, but whichever way you build your application, it is important that the following information is included. The `address` field contains the port number and it must be `5105`.
 
+### Multiple configurations
+It is also possible to add multiple debugger configurations for the same code. If, for example, you wanted to test different argument values then you can create one confguration for each set of values, changing the Arguments field as required.
 
 ### Starting to debug
 There are two ways you can launch an application in debug mode.
@@ -103,7 +117,8 @@ The debug panel also contains other useful features.
 - **Console** - the console has two main functions; it displays status messages from the system in bold and your code can output data there by writing output to the console  (for example a `print('message')` statement in Python).
 
 
-
+### Launching the debugger from Codio Guides
+It is also possible to launch any debugger configuration from a Guides page. Please [click here](https://codio.com/docs/content/authoring/buttons/) for details.
 
 
 

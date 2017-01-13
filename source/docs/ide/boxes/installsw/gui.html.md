@@ -42,7 +42,7 @@ The viewer is a special window that appears either inside Codio or in a separate
 
 // Preview button configuration
   "preview": {
-        "Virtual Desktop": "https://{{domain3000}}/"
+        "Viewer": "https://{{domain3000}}/"
   }
 }
 ```
@@ -52,6 +52,6 @@ You can also access the from any browser using `https://pagoda-cigar-3000.codio.
 ### Customization
 You can customise the X Server installation by modifying the config files in the normal way using vim or nano. For example you can
 
-- `sudo vim /etc/init/openbox.conf` opens the open box desktop config so you could change the default virtual desktop size
+- `sudo vim /etc/init/openbox.conf` opens the openbox desktop config so you could change the default virtual desktop size
 - `sudo vim /etc/init/novnc-3000.conf` would enable you to modify the port that the viewer runs on in case it conflicts with other services you may have configured on the default port 3000
 

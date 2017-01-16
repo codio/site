@@ -17,8 +17,14 @@ This will launch a process and execute a terminal command.
 ## Launching a process in a terminal window
 There are cases where you will want to launch a command in a dedicated terminal window. A typical example is when student code requires input from the user. Codio cannot handle standard inputs through the Guides window, so use the following button command.
 
-```javascript
+```bash
 {Button Text | terminal}(command)
+```
+## Launching a debugger configuration
+You can launch a debugger configuration as shown below. It is important to specify the configuration name exactly.
+
+```bash
+{Button text | debugger}(debugger configuration name)
 ```
 
 ## Writing a custom event handler
@@ -26,7 +32,7 @@ This offers you the most flexibility and allows you to write your own custom but
 
 To do this, you should use the following format for your custom button.
 
-```javascript
+```bash
 {Button Text|custom}(myId)
 ```
 

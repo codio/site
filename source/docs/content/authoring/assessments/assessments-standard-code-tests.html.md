@@ -8,12 +8,15 @@ If you want to write code tests that give you in depth control by allowing you t
 
 The approach taken by the Standard Code Tests is to specify input data using a dialog and then specify the expected output for that input data. Codio will then execute the student code, supplying the specified input data, and compare the expected output data to the data actually output by the student code.
 
+### Sample Starter Pack
+There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/). This project contains examples for all types of auto-graded assessments as well as a Codio Guides cheat sheet.
+
 ### Basic setup
 The screenshot below shows the basic configuration fields
 
 <img alt="" src="/img/docs/guides/std-assessment-1.png" class="simple"/>
 
-- **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To supress this text, flip the switch next to the name field.
+- **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the switch next to the name field.
 - **Pre-exec command** is the command to execute before you run the test. This will normally be a compilation command.
 - **Command** is the command that executes the student code itself.
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.

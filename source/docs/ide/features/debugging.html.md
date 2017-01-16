@@ -14,11 +14,16 @@ Codio offers an integrated, language specific debugger. Codio currently supports
 
 If you would like support for any languages that do not appear in the list, please contact us and we can look into adding it.
 
+### Sample project
+There is a Starter Pack that you can use to create a project in your own account. Please [click here](https://codio.com/home/starter-packs/b83690d5-6ff5-4f86-970a-768292c70aec/) to access and create your own project. Select the 'Use Pack' option.
+
 ### Video overview
 For anyone who has not used a debugger before, here is a useful video tutorial.
 
 <iframe src="https://player.vimeo.com/video/165269077" width="640" height="408" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+### Prerequisites
+If you install Java, C or NodeJS from a stack, then the GBD components that support debugging will be automatically installed. However, if you have installed these languages manually then when you run the debugger, you will get a warning telling you to install the GDB component. A link will be provided to the Install Software feature that allows you to install it with a single click.
 
 ### Creating and managing debug targets
 You should first configure a debug target. Having multiple debug targets is useful for the following reasons.
@@ -46,30 +51,25 @@ To create a new target, press the Create button. You can then configure your tar
 
 When creating a new target, you are also shown the debugger port and instruction but these can typically be ignored.
 
+### Single file confgurations
+If you are using C, C++ or Java and debugging a simple single code file project (common in early programmng courses) then you should choose Single C File, Single C++ file or Single Java file Debugger Type. This frees you from having to worry about the detailed compile and run configuration.
+
+
 #### Language specific compilation commands
-The information in this section refers to what should be used in the Command Arguments field.
+If you are not using a single file configuration then you will need to provide the following information
 
-**Python & NodeJS**
-You do not have to use this field as Python and NodeJS are interpreted languages.
+- **Before Launch** will typically be a compilation or build command
+- **Launch** will be the command to launch the program
 
-**Java, C and C++**
-These requires you to compile using special compiler directives that enable remote debugging. The following example command for Java is recommended
+In java you are asked for a port number, which should always be set to `5105`.
 
-```bash
-javac -g BubbleSort.java && java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105 BubbleSort
-```
-
-The example above is a simple case, but whichever way you build your application, it is important that the following information is included. The `address` field contains the port number and it must be `5105`.
-
-
-### Starting to debug
+### Starting a debugging session
 There are two ways you can launch an application in debug mode.
 
 - from the rightmost toolbar menu you can select the debug target from the dropdown menu or just press the button to re-run the last executed debug target.
 - from the debug targets list you can press the Debug button.
 
 <img alt="authtoken" src="/img/docs/debug-launch.png" class="simple"/>
-
 
 At this point, the debugger will fire up and you will see a screen similar to the one show below.
 
@@ -103,7 +103,8 @@ The debug panel also contains other useful features.
 - **Console** - the console has two main functions; it displays status messages from the system in bold and your code can output data there by writing output to the console  (for example a `print('message')` statement in Python).
 
 
-
+### Launching the debugger from Codio Guides
+It is also possible to launch any debugger configuration from a Guides page. Please [click here](/docs/content/authoring/buttons/) for details.
 
 
 

@@ -23,4 +23,3 @@ You can add students to your organisation and your class in one easy step by giv
 1. To view the students in your class, select the class and the **Students** tab once again. You will see a list of students who have successfully completed the sign-up process. 
 <img alt="authtoken" src="/img/docs/manage_classes/adding_students_invite/student_list.png" class="simple"/>
 
-You can also add students just to your organisation. see [Adding Students](/docs/teacher/create/addstudents/)

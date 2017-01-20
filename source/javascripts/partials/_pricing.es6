@@ -278,12 +278,10 @@ const setupFaqBlock = () => {
 }
 
 const updatePageForGBR = () => {
-  console.log('Updating for gbr');
   setCurrency('pound');
 }
 
 const updatePageForUSD = () => {
-  console.log('Updating for usd');
   setCurrency('dollar');
 }
 

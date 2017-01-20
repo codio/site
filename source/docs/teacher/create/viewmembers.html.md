@@ -1,5 +1,5 @@
 ---
-title: View organization members
+title: View Organization members
 class_name: docs
 full_width: true
 ---

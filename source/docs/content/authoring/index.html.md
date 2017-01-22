@@ -7,6 +7,11 @@ full_width: true
 
 Codio Guides is a fully integrated content authoring tool that allows you to write rich teaching content using markdown (and html where needed).
 
+## Sample Project
+If you created the account for your Codio Trial account then you will find 'Demo Guides Assessments' in your My Projects list. You will find instructions in the README.md file when you open the project.
+
+If it is not there then [click here to install it in your projects list](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/).  Press the 'Use Pack' button to install.
+
 ## Why should I use it?
 If you are creating any type of coding tutorial or you are creating educational content, then you will find this enormously helpful.
 

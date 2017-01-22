@@ -7,7 +7,9 @@ full_width: true
 If you are writing or using programs that have a GUI based output then please read this section. Whether you are using UI libraries like tkinter, qt or simply ubuntu applications that have a non web based UI, this section explains how to setup a virtual desktop.
 
 ## Sample Project
-There is a Starter Pack project that demonstrates these features. [Click here to install it in your projects list](https://codio.com/home/starter-packs/d9c00215-ec2a-46e7-b64e-85fab45b0872/). You will find instructions in the README.md file.
+If you created the account for your Codio Trial account then you will find 'Demo GUI Output' in your My Projects list. You will find instructions in the README.md file when you open the project.
+
+If it is not there then [click here to install it in your projects list](https://codio.com/home/starter-packs/d9c00215-ec2a-46e7-b64e-85fab45b0872/). Press the 'Use Pack' button to install.
 
 ### Uses and Limitations
 X Server is a virtual desktop that is very effective for Codio's cloud based infrastructure. Any application that relies on a graphical user interface has its graphical output redirected to it and Codio's viewer is then able to display the virtual desktop in a browser. 

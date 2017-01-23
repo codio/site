@@ -15,7 +15,9 @@ Codio offers an integrated, language specific debugger. Codio currently supports
 If you would like support for any languages that do not appear in the list, please contact us and we can look into adding it.
 
 ### Sample project
-There is a Starter Pack that you can use to create a project in your own account. Please [click here](https://codio.com/home/starter-packs/b83690d5-6ff5-4f86-970a-768292c70aec/) to access and create your own project. Select the 'Use Pack' option.
+If you created the account for your Codio Trial account then you will find 'Demo Codio Debugger' in your My Projects list. You will find instructions in the README.md file when you open the project.
+
+If you cannot see it then [click here](https://codio.com/home/starter-packs/b83690d5-6ff5-4f86-970a-768292c70aec/) to create it now. Press the 'Use Pack' button to install.
 
 ### Video overview
 For anyone who has not used a debugger before, here is a useful video tutorial.

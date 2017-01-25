@@ -12,15 +12,17 @@ $(document).ready(function() {
     const $menu = $('.docs-side-navigation')
     const $footer = $('footer')
     const $header = $('header.fixed')
+    const $searchResults = $('.overview-section')
+    const $window = $(window)
 
     if ($menu.length === 0) return
-
+    
     $menu.affix({
       offset: {
         top: function () {
           const c = $menu.offset().top
           const h = $header.height()
-          this.top = c - h
+          if ($window.scrollTop() < $searchResults.height()) this.top = c - h
 
           return this.top
         },
@@ -30,7 +32,7 @@ $(document).ready(function() {
         }
       }
     })
-  }, 100)
+  }, 500)
 
   // Set a min-height so the full menu is visible
   $docsBody.css({

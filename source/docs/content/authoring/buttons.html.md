@@ -5,7 +5,19 @@ full_width: true
 ---
 Custom buttons are a powerful feature that let you insert a button into your Guide content that when pressed can carry out any custom action.
 
-There are 2 ways to use a custom button
+There are a number of ways to use a custom button
+
+## To jump to a page in the Guides
+This will jump to a specific page in the guide
+
+```javascript
+{Button Text | go-to-section-titled}(section title)
+```
+
+e.g.
+```javascript
+{Go to Section: LTI | go-to-section-titled}(LTI)
+```
 
 ## To launch a process
 This will launch a process and execute a terminal command. 

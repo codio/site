@@ -22,6 +22,8 @@ To do this, access the administration tools:
 1. Go to the Private/Public Settings area and click the slider and 'Update' to save the changes
 <img alt="authtoken" src="/img/docs/manage_organization/public_private.png" class="simple"/>
 
+Organisation owners can also block Codio support team from being able to access members accounts to provide platform support.
+
 See also: 
 
 - [Creating and importing a project](/docs/project/creating/)

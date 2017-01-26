@@ -10,7 +10,7 @@ If a Moodle user has never used Codio before then an account will automatically 
 If a Moodle user already has a Codio account then **provided the email address of their Codio account matches the email address of their LMS account** the same Codio account will be used. If, however, the user has used a different email address within Codio, then a new Codio account will be created that matches that of the Moodle account.
 
 ## Setup, configuration and usage
-The following instructions on are provided as short videos.
+The following instructions are provided as short videos.
 
 ### One time setup
 You will not have access to the Moodle/LMS features unless you have an educational organization setup as explained in the video. Individual user accounts cannot explore these features.

@@ -1,9 +1,13 @@
+function getMinSearchHeight(searchHeight) {
+  return ($('.overview-section').height() < 300) ? 300 : $('.overview-section').height() + 300;
+}
+
 $(document).ready(function() {
   const $menu = $('.docs-side-navigation')
   const $docsBody = $('.docs-body')
 
   if ($menu.length === 0) return
-
+  
   $menu.css({
     'min-height': $menu.outerHeight(true)
   })
@@ -17,22 +21,29 @@ $(document).ready(function() {
 
     if ($menu.length === 0) return
     
-    $menu.affix({
-      offset: {
-        top: function () {
-          const c = $menu.offset().top
-          const h = $header.height()
-          if ($window.scrollTop() < $searchResults.height()) this.top = c - h
-
-          return this.top
-        },
-        bottom: function () {
-          this.bottom = $footer.outerHeight(true) + 100
-          return this.bottom
-        }
+    $menu.each(function () {
+      var $self = $(this);
+      var offsetFn = function () {
+        var $p = $self.closest('.sec');
+        var $$ = $p.prevAll('.sec');
+        const c = $menu.offset().top;
+        const h = $header.height();
+        var top = 0;
+        if ($window.scrollTop() < getMinSearchHeight($searchResults.height())) top = c - h;
+        $$.each(function () { top += $(this).outerHeight(); });
+        return top;
       }
-    })
-  }, 500)
+      $self.affix({
+        offset: {
+          top: offsetFn,
+          bottom : function () {
+            this.bottom = $footer.outerHeight(true) + 100
+            return this.bottom
+          }
+        }
+      });
+    });
+  }, 100)
 
   // Set a min-height so the full menu is visible
   $docsBody.css({

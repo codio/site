@@ -2,19 +2,20 @@
 
 const videoIdlist = [
 '170160323',
-'177558343',
 '178919137',
+'177715465',
+'177558343',
+'160137702',
+'177714682',
 '177721667',
 '163315948',
-'177721668',
 '165269077',
-'160137702',
-'177715465',
-'177714682'
+'177721668'
 ]
 
 var videoDescriptions = new Array(videoIdlist.length);
 var videoTitles = new Array(videoIdlist.length);
+var videoListCode = new Array(videoIdlist.length);
 
 const fillVideoList = (videoList) => {
   $.each(videoIdlist, (index, id) => {
@@ -23,12 +24,12 @@ const fillVideoList = (videoList) => {
       dataType: "jsonp",
       url: "https://vimeo.com/api/v2/video/" + id + ".json?callback=?",
       success: (videoData) => {
-        videoList.append('<li data-index="' + index + '"><div class="video-list-item">'
+        videoListCode[index] = '<li data-index="' + index + '"><div class="video-list-item">'
           + '<div class="thumb"><img class="" src="' + videoData[0].thumbnail_small + '" alt="videoData.title"/></div>'
           + '<div class="video-list-item-desc">'
           + '<div class="video-title">' + videoData[0].title + '</div>'
           + '<div class="user-name">' + videoData[0].user_name + '</div>'
-          + '</div></div></li>');
+          + '</div></div></li>';
         videoDescriptions[index] = (videoData[0].description);
         videoTitles[index] = (videoData[0].title);
       },
@@ -64,6 +65,10 @@ $(document).ready(() => {
   });
 
   setTimeout(() => {
+    for(var i = 0; i < videoIdlist.length; i++) {
+      if (videoListCode[i] != null)
+        $('.video-list ul').append(videoListCode[i]);
+    }
     $('.video-list ul li').first().trigger('click');
-  }, 500);
+  }, 600);
 });

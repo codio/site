@@ -54,111 +54,18 @@ body.demo .header-block {
     max-width: $max-width;
   }
 
-  .collapse-region {
-    .button-collapse {
-      background-color: $light-blue
+  .action-buttons {
+    animation-delay: 1.2s;
+    margin: 0;
+
+    .button-main {
+      margin-left: .5rem;
     }
 
-    .book-panel {
-      background-color: $lighter-gray;
-      text-align: center;
-      margin-top: 5px;
-
-      h4 {
-        font-weight: 400;
-        margin-top: 0;
-      }
-
-      p {
-        margin: 0 10px;
-        display: inline;
-      }
-    }
-
-    .button-collapse:after {
-      content: "\00a0\00a0\3009";
-    }
-
-    .button-collapse.collapsed:after {
-      content: "\00a0\00a0\FE40";
-      position: relative;
-      top: 5px;
-    }
-
-    .action-buttons {
-      .button-dark {
-        background-color: $dark-gray;
-        color: white;
-
-        &:hover {
-          background-color: white;
-          color: $dark-gray;
-        }
-      }
-    }
-
-    .dropdown {
-      display: inline;
-      box-shadow: none;
-    }
-
-    .dropdown>a:after {
-      content: "\00a0\00a0\3009";
-    }
-
-    .dropdown.open>a:after {
-      content: "\00a0\00a0\FE40";
-      position: relative;
-      top: 5px;
-    }
-
-    .dropdown-menu {
-      text-align: center;
-    }
-
-    ul.dropdown-menu:before {
-      content: "";
-      border-bottom: 10px solid #fff;
-      border-right: 10px solid transparent;
-      border-left: 10px solid transparent;
-      position: absolute;
-      top: -10px;
-      right: 28px;
-      z-index: 10;
-    }
-
-    ul.dropdown-menu:after {
-      content: "";
-      border-bottom: 12px solid #ccc;
-      border-right: 12px solid transparent;
-      border-left: 12px solid transparent;
-      position: absolute;
-      top: -12px;
-      right: 26px;
-      z-index: 9;
-    }
-
-    .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu .open>a,
-    .dropdown-menu .open>a:hover, .dropdown-menu .open>a:focus {
-      background:#fff;
-    }
-
-    .dropdown-menu>li>a {
-      color: #000;
-      font-size: 16px;
-      font-weight: 500;
+    .button-action:hover, .button-main:hover {
       background-color: #fff;
-      text-transform: uppercase;
-
-      &:hover {
-        color: #fff;
-        background-color: $dark-gray;
-      }
-    }
-
-    ul {
-      margin-top: 17px;
-      padding: 0;
+      border-color: $dark-gray;
+      color: $dark-gray;
     }
   }
 }

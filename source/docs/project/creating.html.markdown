@@ -20,7 +20,7 @@ For example:
 
 or click on the **'Click here....'** to import or select an alternative software configuration:
 
-- **[Starter Pack](/docs/project/packs/)** which is the combination of a Stack and a pre-configured code workspace. This option means you can create complete Stack + Code templates that get you off to a flying start.
+- **[Starter Pack](/docs/project/packs/)** which is the combination of a Stack and a pre-configured code workspace. This option means you can create a complete Stack + Code templates that get you off to a flying start.
 - **Import** where you can import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.
 - If you are a student, you can also check out [Courses](/docs/content/courses), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/content/authoring), giving you on-screen instructions while you code.
 

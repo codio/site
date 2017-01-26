@@ -22,6 +22,7 @@ The screenshot below shows the basic configuration fields
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.
 - **Case insensitive** tells Codio to make a case insensitive output comparison. By default, the comparison will be case sensitive.
 - **Ignore white space** tells Codio to strip out any white space characters (carriage return, line feed, tab etc.) from both the expected output and the student output. It can be very helpful to enable this as it means you do not have to be over precise when specifying the fields or instructions. More information is provided below.
+- **Substring match** tells Codio to perform a substring match when comparing the expected output to the student output.
 - **One-time assessments** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 

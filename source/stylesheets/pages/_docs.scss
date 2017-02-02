@@ -30,6 +30,7 @@ body.docs .header-block {
   }
 }
 
+/*
 .search-container {
   @include container;
   @include break;
@@ -37,13 +38,13 @@ body.docs .header-block {
   padding: 0 0 5rem 0;
 
   .st-search-input {
-    width: span(14 of 16);
+    width: span(12 of 16);
     margin: 0 span(1 of 16);
 
-    height: 3rem;
+    height: 1rem;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 1px solid $light-gray;
     padding-left: 70px;
     box-shadow: none;
@@ -56,7 +57,7 @@ body.docs .header-block {
     font-weight: 400;
 
     @include breakpoint($break-tablet) {
-        width: span(8 of 16);
+        width: span(6 of 16);
         margin: 0 span(4 of 16);
     }
 
@@ -67,6 +68,7 @@ body.docs .header-block {
     }
   }
 }
+*/
 
 body.docs .overview-section {
   @include container;
@@ -260,7 +262,7 @@ body.docs .page-header-block {
     width: span(14 of 16);
     margin: 0 span(1 of 16);
 
-    height: 3rem;
+    height: 2rem;
     font-size: $base-font-size;
     line-height: $base-line-height;
     border-radius: 25px;

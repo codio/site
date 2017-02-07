@@ -61,29 +61,6 @@ body.index .header-block, .index-content {
         vertical-align: middle;
       }
 
-      .slot-1, .slot-2, .slot-3, .slot-4 {
-        width: 100%;
-        height: 41.1vw;
-        text-align: center;
-        background-size: cover;
-      }
-
-      .slot-1 {
-        background-image: url('/img/assets/index/carousel/slot1-insanely-convenient.jpg');
-      }
-
-      .slot-2 {
-        background-image: url('/img/assets/index/carousel/slot2-codio-at-coventry-university.jpg');
-      }
-
-      .slot-3 {
-        background-image: url('/img/assets/index/carousel/slot3-lms-integration.svg');
-      }
-
-      .slot-4 {
-        background-image: url('/img/assets/index/carousel/slot4-teach-data-science.svg');
-      }
-
       .title-text {
         text-align: center;
         margin: 0 auto;
@@ -116,6 +93,38 @@ body.index .header-block, .index-content {
             padding-bottom: 5%;
           }
         }
+      }
+
+      .slot-1, .slot-2, .slot-3, .slot-4 {
+        width: 100%;
+        height: 41.1vw;
+        text-align: center;
+        background-size: cover;
+      }
+
+      .slot-1 {
+        background-image: url('/img/assets/index/carousel/slot1-new-york-city.jpg');
+      }
+
+      .slot-2 {
+        background-image: url('/img/assets/index/carousel/slot2-web-development.svg');
+        text-align: left;
+
+        .title-text {
+          text-align: left;
+          margin: 0 3rem;
+          padding-top: 6%;
+          width: 70%;
+          color: #fff;
+        }
+      }
+
+      .slot-3 {
+        background-image: url('/img/assets/index/carousel/slot3-unlock-the-code.jpg');
+      }
+
+      .slot-4 {
+        background-image: url('/img/assets/index/carousel/slot4-teach-data-science.svg');
       }
     }
 

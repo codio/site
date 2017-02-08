@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Please view our [Curriculum Map](https://docs.google.com/spreadsheets/d/15bwz3vG1zFbf_yM7gVzX2nEEx85toqQKMOoc-vquuHQ/edit?ts=5899f6c9#gid=1114414869) for the CSTA High School A.
+Please view our [Curriculum Map](https://docs.google.com/spreadsheets/d/1h7ZP3guJySx08yG_Z5JesOFVUwFtlRfEkl3ZIoTm7pk/edit?usp=sharing) for the CSTA High School A.
 
 This is a course designed to expose all students to the interdisciplinary nature of computer science in today’s dynamic and globally connected society. 
 

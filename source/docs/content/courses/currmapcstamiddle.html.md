@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Please view our [Curriculum Map](https://docs.google.com/spreadsheets/d/15bwz3vG1zFbf_yM7gVzX2nEEx85toqQKMOoc-vquuHQ/edit?ts=5899f6c9#gid=1114414869) for the CSTA High School A.
+Please view our [Curriculum Map](https://docs.google.com/spreadsheets/d/1of2dwHnwWigE9-SWtD7c40vBD0KmrVXiKWn-gZOnR2Q/edit?usp=sharing) for the CSTA Middle School.
 
 The goals of this course are to engage students in using computational thinking as a problem solving tool, teach them to use programming concepts and methods while creating digital artifacts, and retain their interest in computing as a relevant and exciting field. 
 

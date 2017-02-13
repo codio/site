@@ -225,12 +225,17 @@ const onTabShow = type => {
 
   $pricingContentCol.find('h3').text(type + ' Licence');
 
+  $currencyBlock.css({'display' : 'block'});
+  $('#contactUsBtn').css({'display' : 'none'});
+  $('#requestQuoteBtn').css({'display' : 'none'});
+  $('.price-count-block').css({'display' : 'block'});
+  $('.count').css({'display' : 'block'});
+  $('.subtext').css({'display' : 'none'});
+  $('.dropdown').css({'display' : 'block'});
+  $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
+  $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
+
   if (type == 'individual') {
-    $currencyBlock.css({'display' : 'block'});
-    $('#requestQuoteBtn').css({'display' : 'none'});
-    $('.price-count-block').css({'display' : 'block'});
-    $('.count').css({'display' : 'block'});
-    $('.subtext').css({'display' : 'none'});
     $('.dropdown').css({'display' : 'none'});
     $('.pricing-content-col .price-count-block .currency-type').text("$");
     const $current = currentSelection(0);
@@ -240,21 +245,14 @@ const onTabShow = type => {
     $range.text(state.range);
   } else if (type == 'university') {
     $currencyBlock.css({'display' : 'none'});
-    $('.first-letter-uppercase').text('Explore licensing options');
-    $('#requestQuoteBtn').css({'display' : 'inline'});
+    $('#contactUsBtn').css({'display' : 'inline'});
     $('.price-count-block').css({'display' : 'none'});
     $('.count').css({'display' : 'none'});
     $('.dropdown').css({'display' : 'none'});
     $('.subtext').css({'display' : 'block'});
-  } else {
-    $('.dropdown').css({'display' : 'block'});
-    $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
-    $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
-    $currencyBlock.css({'display' : 'block'});
-    $('#requestQuoteBtn').css({'display' : 'none'});
-    $('.price-count-block').css({'display' : 'block'});
-    $('.count').css({'display' : 'block'});
-    $('.subtext').css({'display' : 'none'});
+    $('.first-letter-uppercase').text('Explore licensing options');
+  } else if (type == 'school') {
+     $('#requestQuoteBtn').css({'display' : 'inline'});
   }
 }
 

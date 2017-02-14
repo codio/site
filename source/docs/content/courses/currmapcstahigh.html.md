@@ -1,10 +1,10 @@
 ---
-title: Curriculum Map for CSTA High School A
+title: Curriculum Map for High School Computer Science Course Grades 9-10
 class_name: docs
 full_width: true
 ---
 
-Please view our [Curriculum Map](https://docs.google.com/spreadsheets/d/1h7ZP3guJySx08yG_Z5JesOFVUwFtlRfEkl3ZIoTm7pk/edit?usp=sharing) for the CSTA High School A.
+Please view our [Curriculum Map](https://docs.google.com/spreadsheets/d/1h7ZP3guJySx08yG_Z5JesOFVUwFtlRfEkl3ZIoTm7pk/edit?usp=sharing) for the High School Computer Science Course Grades 9-10.
 
 This is a course designed to expose all students to the interdisciplinary nature of computer science in today’s dynamic and globally connected society. 
 

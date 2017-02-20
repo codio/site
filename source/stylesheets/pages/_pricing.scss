@@ -472,6 +472,11 @@ body.pricing .pricing-tabs {
 
 .subtext-university, .subtext-school {
   font-size: 1.2rem;
+
+  ul {
+    padding-left: 1.2rem;
+    list-style-type: disc;
+  }
 }
 
 .features-list {

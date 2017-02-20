@@ -230,7 +230,8 @@ const onTabShow = type => {
   $('#requestQuoteBtn').css({'display' : 'none'});
   $('.price-count-block').css({'display' : 'block'});
   $('.count').css({'display' : 'block'});
-  $('.subtext').css({'display' : 'none'});
+  $('.subtext-university').css({'display' : 'none'});
+  $('.subtext-school').css({'display' : 'none'});
   $('.dropdown').css({'display' : 'block'});
   $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
   $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
@@ -249,10 +250,14 @@ const onTabShow = type => {
     $('.price-count-block').css({'display' : 'none'});
     $('.count').css({'display' : 'none'});
     $('.dropdown').css({'display' : 'none'});
-    $('.subtext').css({'display' : 'block'});
+    $('.subtext-university').css({'display' : 'block'});
     $('.first-letter-uppercase').text('Explore licensing options');
   } else if (type == 'school') {
-     $('#requestQuoteBtn').css({'display' : 'inline'});
+    $('#requestQuoteBtn').css({'display' : 'inline'});
+    $('.subtext-school').css({'display' : 'block'});
+    $('.price-count-block').css({'display' : 'none'});
+    $('.count').css({'display' : 'none'});
+    $('.dropdown').css({'display' : 'none'});
   }
 }
 

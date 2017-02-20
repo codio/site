@@ -102,28 +102,15 @@ body.index .header-block, .index-content {
         background-size: cover;
       }
 
-      .slot-1 {
+      .slot-2 {
         background-image: url('/img/assets/index/carousel/slot1-new-york-city.jpg');
       }
 
-      .slot-2 {
-        background-image: url('/img/assets/index/carousel/slot2-web-development.svg');
-        text-align: left;
-
-        .title-text {
-          text-align: left;
-          margin: 0 3rem;
-          padding-top: 6%;
-          width: 70%;
-          color: #fff;
-        }
-      }
-
-      .slot-3 {
+      .slot-1 {
         background-image: url('/img/assets/index/carousel/slot3-unlock-the-code.jpg');
       }
 
-      .slot-4 {
+      .slot-3 {
         background-image: url('/img/assets/index/carousel/slot4-teach-data-science.svg');
       }
     }

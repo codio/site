@@ -138,7 +138,11 @@ import random
 import requests
 import json
 import datetime
+
+# import grade submition
 import sys
+sys.path.append('/usr/share/codio/assessments')
+from lib.grade import send_grade
 
 ####################
 # Helper functions #
@@ -151,14 +155,6 @@ CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
 # The date and time format to use. The deadline date should conform
 DATE_FORMAT = "%Y-%m-%dT%H:%M:%S"
 DATE_FORMAT_CODIO = "%Y-%m-%dT%H:%M:%S.%fZ"
-
-# Send the grade back to Codio
-def send_grade( grade ):
-  s = requests.Session()
-  s.mount('https://', requests.adapters.HTTPAdapter(max_retries=3))
-  r = s.get("{0}&grade={1}".format(CODIO_AUTOGRADE_URL, grade))
-  parsed = json.loads(r.content)
-  return parsed['code'] == 1
 
 # gets complete date from codio unit data
 def get_completed_date():

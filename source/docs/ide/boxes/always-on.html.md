@@ -24,4 +24,4 @@ disown -a
 ```
 
 #### tmux
-As an alternative, you can install tmux (available as a Box Part, `parts install tmux`).
+As an alternative, you can install tmux.

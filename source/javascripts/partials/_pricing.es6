@@ -78,9 +78,12 @@ const $typeList = $('.nav .nav-tabs');
 const $types = $typeList.find('li.item');
 const $tabs = $('.nav-tabs li');
 const $pricingContentCol = $('.pricing-content-col');
-const $countNumber = $pricingContentCol.find('.count .number')
+const $priceCount = $pricingContentCol.find('.count');
+const $countNumber = $priceCount.find('.number')
 const $amount = $pricingContentCol.find('.amount');
 const $range = $pricingContentCol.find('.range');
+const $currencyType = $pricingContentCol.find('.price-count-block .currency-type');
+const $dropdown = $('.dropdown');
 
 const params = name => {
   const results = new RegExp(`[\?&]${name}=([^&#]*)`).exec(window.location.href);
@@ -141,7 +144,7 @@ const setCurrency = currency => {
 }
 
 const fillUserLicences = () => {
-  const $list = $('.dropdown ul');
+  const $list = $dropdown.find('ul');
   $list.find('li').remove();
 
   PRICES[state.type].forEach(function(current, $index) {
@@ -149,7 +152,7 @@ const fillUserLicences = () => {
     $list.append('<li><a class="menu-item" data-index="' + $index + '">' + numeral(current.count).format('0,0') + '</a></li>');
   })
 
-  $(".dropdown .dropdown-menu li a").click(function(){
+  $dropdown.find('.dropdown-menu li a').click(function(){
     const $index = $(this).data('index');
     state.step = $index;
     updateDisplay($index);
@@ -223,22 +226,25 @@ const onTabShow = type => {
   updateActionBtn(state.type);
   setPaymentsIcons(state.type);
 
+  const $subtextUniversity = $('.subtext-university');
+  const $subtextSchool = $('.subtext-school');
+
   $pricingContentCol.find('h3').text(type + ' Licence');
 
   $currencyBlock.css({'display' : 'block'});
   $('#contactUsBtn').css({'display' : 'none'});
   $('#requestQuoteBtn').css({'display' : 'none'});
-  $('.price-count-block').css({'display' : 'block'});
-  $('.count').css({'display' : 'block'});
-  $('.subtext-university').css({'display' : 'none'});
-  $('.subtext-school').css({'display' : 'none'});
-  $('.dropdown').css({'display' : 'block'});
-  $('.dropdown .dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
-  $('.pricing-content-col .price-count-block .currency-type').text(state.symbol);
+  $pricingContentCol.find('.price-count-block').css({'display' : 'block'});
+  $priceCount.css({'display' : 'block'});
+  $subtextUniversity.css({'display' : 'none'});
+  $subtextSchool.css({'display' : 'none'});
+  $dropdown.css({'display' : 'block'});
+  $dropdown.find('.dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
+  $currencyType.text(state.symbol);
 
   if (type == 'individual') {
-    $('.dropdown').css({'display' : 'none'});
-    $('.pricing-content-col .price-count-block .currency-type').text("$");
+    $dropdown.css({'display' : 'none'});
+    $currencyType.text("$");
     const $current = currentSelection(0);
     const $price = $current.price[state.range]['dollar'];
     $countNumber.text(numeral($current.count).format('0,0'));
@@ -247,17 +253,17 @@ const onTabShow = type => {
   } else if (type == 'university') {
     $currencyBlock.css({'display' : 'none'});
     $('#contactUsBtn').css({'display' : 'inline'});
-    $('.price-count-block').css({'display' : 'none'});
-    $('.count').css({'display' : 'none'});
-    $('.dropdown').css({'display' : 'none'});
-    $('.subtext-university').css({'display' : 'block'});
-    $('.first-letter-uppercase').text('Explore licensing options');
+    $pricingContentCol.find('.price-count-block').css({'display' : 'none'});
+    $priceCount.css({'display' : 'none'});
+    $dropdown.css({'display' : 'none'});
+    $subtextUniversity.css({'display' : 'block'});
+    $pricingContentCol.find('.first-letter-uppercase').text('Explore licensing options');
   } else if (type == 'school') {
     $('#requestQuoteBtn').css({'display' : 'inline'});
-    $('.subtext-school').css({'display' : 'block'});
-    $('.price-count-block').css({'display' : 'none'});
-    $('.count').css({'display' : 'none'});
-    $('.dropdown').css({'display' : 'none'});
+    $subtextSchool.css({'display' : 'block'});
+    $pricingContentCol.find('.price-count-block').css({'display' : 'none'});
+    $priceCount.css({'display' : 'none'});
+    $dropdown.css({'display' : 'none'});
   }
 }
 

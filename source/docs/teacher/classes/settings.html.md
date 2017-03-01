@@ -34,7 +34,18 @@ If you click on the button, the commonly required settings and actions are shown
 
 <img alt="unit dropdown" src="/img/docs/class_administration/unit-settings-dd.png" class="simple"/>
 
+### Edit Unit
+You may need to make changes to a project previously added as a unit to the class. Select Edit Unit to do this where you can 
 
+- change the source location of the unit (if you have created a new project), 
+- update the Stack used in the project, 
+- change the name of the unit,
+- change/update the description
+- change the image attached to the unit
+- the 'Refresh Source' button (if you have updated the original source of the unit),
+- you can also delete the unit from the class here as well.
+
+<img alt="edit unit" src="/img/docs/class_administration/editunit.png" class="simple"/>
 
 ### Settings
 To access the actions and settings, you can use the Settings option from the blue dot button menu. Alternatively,  you can click on the unit itself and then select the Settings tab beneath the Unit name as shown below.

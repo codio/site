@@ -21,3 +21,7 @@ To create an organization follow these steps:
 
 
 1. Your organization (school, university or other educational organization) has now been set up.
+
+1.  3 Demo students will be created for you.  You can see these in your organization
+
+<img alt="authtoken" src="/img/docs/class_administration/createanorganization/org_teams.png" class="simple"/>

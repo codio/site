@@ -12,6 +12,7 @@ There are several actions that can be made for an individual unit.
 - Run the plagiarism checker
 - Pin or Unpin a unit from the student dashboards
 - Download grade information to a CSV file
+- Update a unit
 - Access the LTI integration url
 - Disable a unit, hiding it from student dashboards
 - Edit a unit
@@ -34,6 +35,7 @@ If you click on the button, the commonly required settings and actions are shown
 
 <img alt="unit dropdown" src="/img/docs/class_administration/unit-settings-dd.png" class="simple"/>
 
+
 ### Edit Unit
 You may need to make changes to a project previously added as a unit to the class. Select Edit Unit to do this where you can 
 
@@ -46,6 +48,10 @@ You may need to make changes to a project previously added as a unit to the clas
 - you can also delete the unit from the class here as well.
 
 <img alt="edit unit" src="/img/docs/class_administration/editunit.png" class="simple"/>
+
+### Update Unit
+If you have edited the unit you can push these changes to all students (including those who may have already started the unit) by using this option.  The students will see the changes when they next access the unit.  
+
 
 ### Settings
 To access the actions and settings, you can use the Settings option from the blue dot button menu. Alternatively,  you can click on the unit itself and then select the Settings tab beneath the Unit name as shown below.

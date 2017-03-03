@@ -20,4 +20,6 @@ Sometimes you might need to check who is registered as a member of your educatio
 
 You will be able to see all the members of your school ‘organization’.
 
+The 'Test Students' group contains the demo student accounts created for you when the Organisation was created. See [Create Organisation](/docs/teacher/create/) for more information.
+
 Please note that you will only see your users in the Teachers group when they are added to Class(es) as a Teacher, and in the Students group when they are added to Class(es) as a Student.

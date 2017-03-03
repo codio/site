@@ -38,10 +38,29 @@ allows you to specify:
 ### [Assessments](/docs/content/authoring/assessments/) 
 allows you to set up assessments
 
+### Media
+<img alt="authtoken" src="/img/docs/guides/media.png" class="simple"/>
+allows you to play audio files within your project.
+	- **Source Name** select the source file either from .guides/media folder if already uploaded to the project or upload from your PC where it will then be stored in the .guides/media folder
+	- **Add Action** where you can add actions to occur as the media plays:
+	
+		Open file
+		Close file
+		Open Terminal
+		Close Terminal
+		Run command
+		Highlight
+		Close all tabs
+		Pause
+
+
 ### Global
-  - **[Theme](/docs/student/dyslexia/)** allows you to select the default theme for people viewing the Guide. We currently have a light theme and will be adding a dark theme shortly. (Dyslexic users can also choose a special theme from the Settings drop down in the Guide player.
-  - **[Scripts](/docs/content/authoring/buttons/)** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a Guide button.
-  - **[Lexicon Topic](/docs/content/courses/lexikon/)**  if you use this option, an icon will appear in the Guide toolbar that will load the Lexikon window with the selected topic automatically selected.
+<img alt="authtoken" src="/img/docs/guides/globalsettings.png" class="simple"/>
+- **[Theme](/docs/student/dyslexia/)** allows you to select the default theme for people viewing the Guide. We currently have a light theme and will be adding a dark theme shortly. (Dyslexic users can also choose a special theme from the Settings drop down in the Guide player.
+- **[Scripts](/docs/content/authoring/buttons/)** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a Guide button.
+- **[Lexicon Topic](/docs/content/courses/lexikon/)**  if you use this option, an icon will appear in the Guide toolbar that will load the Lexikon window with the selected topic automatically selected.
+- **Suppress Page Numbering** allows you to suppress the section page numbers when in Play Mode.
+- **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the unit is run in a [Class](/docs/teacher/classes/assign-project/).
 
 
 - **[Hamburger Icon](/docs/content/authoring/collapse/)** can be pressed to show or hide the Section List.

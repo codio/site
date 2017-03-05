@@ -198,6 +198,22 @@ body.university .header-block {
         text-align: center;
       }
 
+      .form-section {
+
+        .hbspt-form {
+          margin-left: auto;
+          margin-right: auto;
+
+          @include breakpoint($break-tablet) {
+            width: 450px;
+          }
+
+          @include breakpoint($max-width) {
+            width: 550px;
+          }
+        }
+      }
+
       .section-block {
         width:100%;
         margin: 0;

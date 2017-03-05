@@ -374,13 +374,13 @@ body.university .header-block {
   }
 
   .section-header {
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 2rem;
     text-align: center;
 
     @include breakpoint($break-tablet) {
-      margin-left: span(2 of 32);
+      font-size: 3rem;
     }
   }
 
@@ -394,6 +394,17 @@ body.university .header-block {
   .section-block-row {
     @include container;
     @include break;
+    margin-bottom: 4rem;
+
+    .text {
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 2rem;
+      @include breakpoint($break-tablet) {
+        font-size: 1.7rem;
+        line-height: 2rem;
+      }
+    }
 
     .section-block {
       margin-bottom: 3rem;

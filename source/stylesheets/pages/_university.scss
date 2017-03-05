@@ -87,29 +87,38 @@ body.university .header-block {
 
   @include breakpoint($break-tablet) {
     background-image: $gradient;
-    background: url('/img/assets/university/atf.jpg') no-repeat top center fixed;
+    background: url('/img/assets/university/atf.jpg') center;
     background-color: #4574e0;
+    height: 32rem;
   }
 
   @include breakpoint($max-width) {
     background-image: $gradient;
-    background: url('/img/assets/university/atf-large.jpg') no-repeat top center fixed;
+    background: url('/img/assets/university/atf-large.jpg') center;
     background-color: #4574e0;
+    height: 40rem;
+  }
+
+  .vertical {
+    height: 100%;
   }
 
   h1 {
-    margin-top: 2 * $base-line-height;
     font-size: 48px;
     font-weight: 300;
     text-align: center;
     animation-delay: .4s;
+    margin-left: auto;
+    margin-right: auto;
 
     @include breakpoint($break-tablet) {
-      margin-top: 2.5 * $base-line-height;
-      font-size: 56px;
-      line-height: 64px;
-      margin-left: auto;
-      margin-right: auto;
+      font-size: 3rem;
+      font-weight: 500;
+    }
+
+    @include breakpoint($max-width) {
+      font-size: 4rem;
+      font-weight: 600;
     }
   }
 
@@ -122,10 +131,14 @@ body.university .header-block {
     margin-right: 1rem;
 
     @include breakpoint($break-tablet) {
-      line-height: 25px;
-      max-width: 800px;
+      font-size: 1.7rem;
+      font-weight: 300;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    @include breakpoint($max-width) {
+      font-size: 2.5rem;
     }
   }
 }

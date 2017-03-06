@@ -6,7 +6,9 @@ full_width: true
 ---
 
 
-You can assign a project to your class. To do so, follow the steps below. (Note: to learn how to create projects, jump to [Creating Projects](/docs/project/creating))
+You can assign individual projects as well as adding Courses to your class(es). 
+
+To add an individual project, follow the steps below. (Note: to learn how to create projects, jump to [Creating Projects](/docs/project/creating))
 
 1. From the **Classes** area, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>

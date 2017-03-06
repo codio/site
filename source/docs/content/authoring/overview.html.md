@@ -38,20 +38,8 @@ allows you to specify:
 ### [Assessments](/docs/content/authoring/assessments/) 
 allows you to set up assessments
 
-### Media
-<img alt="authtoken" src="/img/docs/guides/media.png" class="simple"/>
+### [Media](/docs/content/authoring/imvid)
 allows you to play audio files within your project.
-	- **Source Name** select the source file either from .guides/media folder if already uploaded to the project or upload from your PC where it will then be stored in the .guides/media folder
-	- **Add Action** where you can add actions to occur as the media plays:
-	
-		Open file
-		Close file
-		Open Terminal
-		Close Terminal
-		Run command
-		Highlight
-		Close all tabs
-		Pause
 
 
 ### Global

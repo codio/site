@@ -271,17 +271,21 @@ body.university .header-block {
           }
         }
 
+        .section-block-copy {
+          font-size: 1.4rem;
+        }
+
         @include breakpoint($break-tablet) {
           font-size: 2rem;
           line-height: 2rem;
 
           .left-quote, .right-quote {
-            height: 10rem;
+            height: 6rem;
             width: span(2 of 32);
           }
 
           .left-quote, .right-quote {
-            line-height: 10rem;
+            line-height: 6rem;
             font-size: 4rem;
             font-weight: 400;
             color: #000;
@@ -302,6 +306,28 @@ body.university .header-block {
             height: 4rem;
             vertical-align: middle;
           }
+        }
+      }
+
+      .section-block-row {
+        margin-bottom: 0;
+      }
+
+      .statement {
+        text-align: center;
+        font-size: 1.2rem;
+        padding-top: 2rem;
+
+        @include breakpoint($break-tablet) {
+          font-size: 1.7rem;
+        }
+
+        @include breakpoint(866px) {
+          padding-top: 1rem;
+        }
+
+        @include breakpoint(1223px) {
+          padding-top: 0;
         }
       }
     }

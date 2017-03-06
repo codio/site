@@ -84,6 +84,7 @@ const $amount = $pricingContentCol.find('.amount');
 const $range = $pricingContentCol.find('.range');
 const $currencyType = $pricingContentCol.find('.price-count-block .currency-type');
 const $dropdown = $('.dropdown');
+const $learnMoreLink = $('#learnMore');
 
 const params = name => {
   const results = new RegExp(`[\?&]${name}=([^&#]*)`).exec(window.location.href);
@@ -241,6 +242,7 @@ const onTabShow = type => {
   $dropdown.css({'display' : 'block'});
   $dropdown.find('.dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
   $currencyType.text(state.symbol);
+  $learnMoreLink.css({'float' : 'right'});
 
   if (type == 'individual') {
     $dropdown.css({'display' : 'none'});
@@ -258,12 +260,14 @@ const onTabShow = type => {
     $dropdown.css({'display' : 'none'});
     $subtextUniversity.css({'display' : 'block'});
     $pricingContentCol.find('.first-letter-uppercase').text('Explore licensing options');
+    $learnMoreLink.css({'float' : 'none'});
   } else if (type == 'school') {
     $('#requestQuoteBtn').css({'display' : 'inline'});
     $subtextSchool.css({'display' : 'block'});
     $pricingContentCol.find('.price-count-block').css({'display' : 'none'});
     $priceCount.css({'display' : 'none'});
     $dropdown.css({'display' : 'none'});
+    $learnMoreLink.css({'float' : 'none'});
   }
 }
 

@@ -60,9 +60,14 @@ body.university {
       @include breakpoint($break-tablet) {
         white-space: nowrap;
         display: inline-block;
+        min-width: 180px;
+        max-width: 200px;
+        font-size: 16px;
+      }
+
+      @include breakpoint($max-width) {
         min-width: 230px;
         max-width: 250px;
-        display: inline-block;
         height: auto;
       }
 
@@ -87,29 +92,51 @@ body.university .header-block {
 
   @include breakpoint($break-tablet) {
     background-image: $gradient;
-    background: url('/img/assets/university/atf.jpg') no-repeat top center fixed;
+    background: url('/img/assets/university/atf.jpg') center;
     background-color: #4574e0;
+    height: 37rem;
   }
 
   @include breakpoint($max-width) {
     background-image: $gradient;
-    background: url('/img/assets/university/atf-large.jpg') no-repeat top center fixed;
+    background: url('/img/assets/university/atf-large.jpg') center;
     background-color: #4574e0;
+    height: 40rem;
+  }
+
+  .header-content {
+    margin-top: 2rem;
+  }
+
+  .left-text {
+    vertical-align: top;
+    display: block;
+    width: 100%;
+    margin-right: 1rem;
+    
+    @include breakpoint($break-tablet) {
+      display: inline-block;
+      width: 55%;
+    }
   }
 
   h1 {
-    margin-top: 2 * $base-line-height;
+    margin-top: 2rem;
     font-size: 48px;
     font-weight: 300;
     text-align: center;
     animation-delay: .4s;
+    margin-left: auto;
+    margin-right: auto;
 
     @include breakpoint($break-tablet) {
-      margin-top: 2.5 * $base-line-height;
-      font-size: 56px;
-      line-height: 64px;
-      margin-left: auto;
-      margin-right: auto;
+      font-size: 3rem;
+      font-weight: 500;
+    }
+
+    @include breakpoint($max-width) {
+      font-size: 4rem;
+      font-weight: 600;
     }
   }
 
@@ -122,10 +149,55 @@ body.university .header-block {
     margin-right: 1rem;
 
     @include breakpoint($break-tablet) {
-      line-height: 25px;
-      max-width: 800px;
+      font-size: 1.7rem;
+      font-weight: 300;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    @include breakpoint($max-width) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .form-section {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    @include breakpoint($break-tablet) {
+      margin-bottom: 0;
+      margin-left: 1rem;
+      display: inline-block;
+      width: 37%;
+    }
+
+    .hbspt-form {
+      border: 1px solid white;
+      padding: 1rem;
+      padding-bottom: 0;
+
+      .hs-form, .actions {
+        margin-bottom: 0;
+      }
+    }
+
+    .header-text {
+      text-align: left;
+      font-weight: 400;
+      font-size: 1.5rem;
+      animation-delay: .8s;
+      color: #414141;
+      margin-left: 0;
+
+      @include breakpoint($break-tablet) {
+        font-size: 1.2rem;
+      }
+
+      @include breakpoint($max-width) {
+        font-size: 1.7rem;
+      }
     }
   }
 }
@@ -145,7 +217,6 @@ body.university .header-block {
     vertical-align: middle;
 
     @include breakpoint($break-tablet) {
-      @include container(12 of 16);
       width: span(12 of 16);
       margin: 0 span(2 of 16);
       float: inherit;
@@ -182,6 +253,25 @@ body.university .header-block {
 
     &.second {
 
+      .form-section {
+
+        .hbspt-form {
+          border: 1px solid #000;
+          padding: 1rem;
+          padding-bottom: 0;
+          margin-left: auto;
+          margin-right: auto;
+
+          @include breakpoint($break-tablet) {
+            width: 450px;
+          }
+
+          @include breakpoint($max-width) {
+            width: 550px;
+          }
+        }
+      }
+
       .section-header {
         text-align: center;
       }
@@ -200,17 +290,21 @@ body.university .header-block {
           }
         }
 
+        .section-block-copy {
+          font-size: 1.4rem;
+        }
+
         @include breakpoint($break-tablet) {
           font-size: 2rem;
           line-height: 2rem;
 
           .left-quote, .right-quote {
-            height: 10rem;
+            height: 6rem;
             width: span(2 of 32);
           }
 
           .left-quote, .right-quote {
-            line-height: 10rem;
+            line-height: 6rem;
             font-size: 4rem;
             font-weight: 400;
             color: #000;
@@ -233,6 +327,28 @@ body.university .header-block {
           }
         }
       }
+
+      .section-block-row {
+        margin-bottom: 0;
+      }
+
+      .statement {
+        text-align: center;
+        font-size: 1.2rem;
+        padding-top: 2rem;
+
+        @include breakpoint($break-tablet) {
+          font-size: 1.7rem;
+        }
+
+        @include breakpoint(866px) {
+          padding-top: 1rem;
+        }
+
+        @include breakpoint(1223px) {
+          padding-top: 0;
+        }
+      }
     }
 
     &.third {
@@ -244,38 +360,21 @@ body.university .header-block {
       }
 
       h3 {
-        display: inline-block;
-        float: left;
-        font-size: 2rem;
+        font-size: 1.3rem;
         line-height: 2rem;
-        padding-left: 100px;
-        min-height: 72px;
-      }
 
-      h3.savings {
-        background: url('/img/assets/university/savings.svg') no-repeat 10px top;
-      }
-
-      h3.savings span {
         @include breakpoint($break-tablet) {
-          display: block;
+          font-size: 1.7rem;
         }
-      }
-
-      h3.productivity {
-        background: url('/img/assets/university/productivity.svg') no-repeat 10px top;
-      }
-
-      h3.lms {
-        background: url('/img/assets/university/lms.svg') no-repeat left top;
-      }
-
-      h3.creation {
-        background: url('/img/assets/university/creation.svg') no-repeat 20px 5px;
       }
 
       .section-block-copy {
         clear: both;
+        font-size: 1rem;
+
+        @include breakpoint($break-tablet) {
+          font-size: 1.3rem;
+        }
       }
 
       .section-block-row {
@@ -285,26 +384,15 @@ body.university .header-block {
         .section-block {
           margin-bottom: 3rem;
 
-          @include breakpoint($break-tablet) {
-            width: span(13 of 32);
+          @include breakpoint($max-width) {
+            float: left;
+            width: 46%;
           }
-        }
-      }
-
-      .section-block {
-        @include container;
-        @include breakpoint($break-tablet) {
-          float: left;
-        }
-
-        &:first-of-type {
-          @include breakpoint($break-tablet) {
-            margin-left: span(2 of 32);
-          }
-        }
-        &:last-of-type {
-          @include breakpoint($break-tablet) {
-            margin-left: span(3 of 32);
+          
+          &:first-of-type, &:last-of-type {
+            @include breakpoint($max-width) {
+              margin-left: span(1 of 32);
+            }
           }
         }
       }
@@ -361,13 +449,13 @@ body.university .header-block {
   }
 
   .section-header {
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 2rem;
     text-align: center;
 
     @include breakpoint($break-tablet) {
-      margin-left: span(2 of 32);
+      font-size: 3rem;
     }
   }
 
@@ -381,41 +469,16 @@ body.university .header-block {
   .section-block-row {
     @include container;
     @include break;
+    margin-bottom: 4rem;
 
-    .section-block {
-      margin-bottom: 3rem;
-
+    .text {
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 2rem;
       @include breakpoint($break-tablet) {
-        width: span(14 of 32);
+        font-size: 1.7rem;
+        line-height: 2rem;
       }
     }
-  }
-
-  .section-block {
-    @include container;
-    @include breakpoint($break-tablet) {
-      float: left;
-    }
-
-    &:first-of-type {
-      @include breakpoint($break-tablet) {
-        margin-left: span(2 of 32);
-        margin-right: span(1 of 32);
-      }
-    }
-    &:last-of-type {
-      @include breakpoint($break-tablet) {
-        margin-right: span(1 of 32);
-      }
-    }
-  }
-
-  .section-block-header {
-    font-size: 21px;
-    font-weight: 400;
-    margin-top: 0;
-  }
-
-  .section-block-copy {
   }
 }

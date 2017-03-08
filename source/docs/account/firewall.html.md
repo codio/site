@@ -43,5 +43,7 @@ Sometimes the anti-virus/firewall settings on your personal devices may interfer
 
 You should check your settings and ensure that items in the above "Firewall settings" list are added to your exclusion list.
 
-
+## Connectivity Test
+If you continue to experience difficulties, visit the [Connection Diagnostics](https://codio.com/connectivity/index.html) page and send us back the generated output going to Help > Support/Contact Us and attach the output file using the paperclip icon)
+<img alt="authtoken" src="/img/docs/contactus.png" class="simple"/>
 

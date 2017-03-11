@@ -107,29 +107,18 @@ fixed: true
 
   <div class="clear"></div>
 
-  <div class="block-center">
-    <h3 class="title">Content Authoring</h3>
-    <p class="description">Create your own course content either by uploading your class notes
-      or creating interactive content directly within the IDE.</p>
-    <div class="image-center">
+  <div class="block-quote">
+    <div class="text-part">
+      <h3 class="title">Content Authoring</h3>
+      <p class="info">Create your own course content either by uploading your class
+        notes or creating interactive content directly within the IDE.
+      </p>
+      <div class="action-button animated">
+        <%= link_to 'Learn More', '/features/content-authoring/', class: 'button button-large blue-button' %>
+      </div>
+    </div>
+    <div class="image-part">
       <img src="/img/assets/features/index/content_authoring_tools.svg" alt="Content Authoring" />
-    </div>
-    <div class="action-button animated">
-      <%= link_to 'Learn More', '/features/content-authoring/', class: 'button button-large blue-button' %>
-    </div>
-  </div>
-
-  <div class="clear"></div>
-
-  <div class="block-center">
-    <h3 class="title">Integration with your LMS</h3>
-    <p class="description">We save you time by integrating with your institution’s LMS system. Moodle, Blackboard, Canvas or any LTI compliant
-      system will work with Codio. We have a seamless system for you and your students.</p>
-    <div class="image-center">
-      <img src="/img/assets/features/index/logos.svg" alt="Integration with your LMS" />
-    </div>
-    <div class="action-button animated">
-      <%= link_to 'Learn More', 'blog/codio-releases-integration-with-lms-platforms/', class: 'button button-large blue-button' %>
     </div>
   </div>
 
@@ -137,17 +126,35 @@ fixed: true
 
   <div class="block-quote">
     <div class="text-part">
-      <h3 class="title">Curriculum content</h3>
-      <p class="info">We’ve co-developed over 80+ courses with Oxford, Cambridge and RSA (OCR) - all mapped
-        to UK national standards. We are also writing more curriculum to be in line with emerging Computer Science
-        Teachers Association K-12 framework.
+      <h3 class="title">Integration with your LMS</h3>
+      <p class="info">We save you time by integrating with your institution’s LMS system.
+        Moodle, Blackboard, Canvas or any LTI compliant system will work with Codio.
+        We have a seamless system for you and your students.
+      </p>
+      <div class="action-button animated">
+        <%= link_to 'Learn More', 'blog/codio-releases-integration-with-lms-platforms/', class: 'button button-large blue-button' %>
+      </div>
+    </div>
+    <div class="image-part">
+      <img src="/img/assets/features/index/logos.svg" alt="Integration with your LMS" />
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <div class="block-quote">
+    <div class="text-part">
+      <h3 class="title">Curriculum</h3>
+      <p class="info">We’ve co-developed over 120+ courses. We collaborate with Oxford,
+        Cambridge and RSA (OCR) and the Computer Science Teachers Association (CSTA)
+        to ensure we provide curriculum mapped to both UK and USA national standards.
       </p>
       <div class="action-button animated">
         <%= link_to 'Learn More', '/features/curriculum/', class: 'button button-large blue-button' %>
       </div>
     </div>
     <div class="image-part">
-      <img src="/img/assets/features/index/curriculum_mapped.png" alt="Curriculum content" />
+      <img src="/img/assets/features/index/curriculum_mapped.png" alt="Curriculum" />
     </div>
   </div>
 

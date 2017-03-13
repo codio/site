@@ -10,7 +10,7 @@ A class can be deleted by the class owner and those with administration permissi
 
 <img alt="authtoken" src="/img/docs/class_delete.png" class="simple"/>
 
-- You can delete just the class or you can also delete the class AND remove the students from your organisation as well. Be aware that if you select the option to **Delete the Class and Students** and any of the students in this class are also members in other classes, they will also be removed from those classes as well. If you are unsure if any students are members in other classes, we would recommend you select the option to **Delete Class Only**. 
+- You can delete just the class or you can also delete the class AND remove the students from your organisation as well. Be aware that if you select the option to **Delete the Class and Students** and any of the students in this class are also members in other classes, they will not show in the list of students and will not be removed from the organisation or other classes they are also members of. The option **Delete Class Only** will just delete the class but not remove any students.
 
 <img alt="authtoken" src="/img/docs/deleteclass.png" class="simple"/>
 

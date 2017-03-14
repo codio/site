@@ -1,8 +1,13 @@
 ---
-title: "Editing & Markdown"
+title: "Markdown content editing "
 class_name: docs
 full_width: true
 ---
+
+Guides content can be written in 
+
+- **Markdown** - the recommended option and described on this page
+- **HTML** allowing more detailed control but requiring more time; described on the next page.
 
 When you are in Edit mode, you can select a section by
 

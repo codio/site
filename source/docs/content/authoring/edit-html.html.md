@@ -37,19 +37,17 @@ In a Guides page authored using Markdown, you are able to create buttons and oth
 
 **Important** : if you use any of the functions listed below then you must load `https://codio.com/codio-client.js`in the HTML Header as shown in the example above.
 
-| Function | Description |
-|-|-|
-| `codio.run(command, callback)` | Run a command on the box. `callback` will fire once executed and should be used to communicate back to the user. |
-| `codio.runAndShow(command, outputElementId)` | Run a command on the box. All `stdout` will be displayed in `outputElementId`.  |
-| `codio.open('file', path, panel_num)` | Opens a file located in `path` in the `panel_num` panel, where `0` is the first panel from top left |
-| `codio.open('terminal', command, panel_num)` | Opens a terminal window and executes `command`. `panel_num` specifies the location of thepanel, where `0` is the first panel from top left. |
-| `codio.open('preview', url, panel_num)` | Opens a preview window at `url`. `panel_num` specifies the location of thepanel, where `0` is the first panel from top left. |
-| `codio.goToNextSection()` | Moves to the next page in the Guide. |
-| `codio.goToPreviousSection()` | Moves to the previous page in the Guide. |
-| `codio.switchUnit(unitId)` | Changes to a different Unit. The Unit ID is found by opening the Unit and getting the ID from the URL. |
-| `codio.goToSectionTitled('Section Title')` | Switches to the page whose title is "Section Title'. |
-| `codio.assessments.check(assessmentId)` |e Executes the assessment |
-| `codio.assessments.reset(assessmentId)` | Resets any response and score that the user may have already provided for `assessmentId`. |
-| `codio.assessments.get(assessmentId, callback)` | Gets the result data for a completed assessment |
-| `codio.assessments.send(assessmentId, answer, points, callback)` | Sends result data for a custom assessment. `answer` contains the custom result data for `assessment` and will be stored in Codio. You can use `codio.assessments.get()` to reconstruct the output for an already answered question. |
 
+- `codio.run(command, callback)` - Run a command on the box. `callback` will fire once executed and should be used to communicate back to the user. 
+- `codio.runAndShow(command, outputElementId)` - Run a command on the box. All `stdout` will be displayed in `outputElementId`.  
+- `codio.open('file', path, panel_num)` - Opens a file located in `path` in the `panel_num` panel, where `0` is the first panel from top left 
+- `codio.open('terminal', command, panel_num)`-  Opens a terminal window and executes `command`. `panel_num` specifies the location of the panel, where `0` is the first panel from top left. 
+- `codio.open('preview', url, panel_num)` - Opens a preview window at `url`. `panel_num` specifies the location of the panel, where `0` is the first panel from top left. 
+- `codio.goToNextSection()` - Moves to the next page in the Guide. 
+- `codio.goToPreviousSection()` - Moves to the previous page in the Guide. 
+- `codio.switchUnit(unitId)` - Changes to a different Unit. The Unit ID is found by opening the Unit and getting the ID from the URL. 
+- `codio.goToSectionTitled('Section Title')` - Switches to the page whose title is "Section Title'. 
+- `codio.assessments.check(assessmentId)` - Executes the assessment 
+- `codio.assessments.reset(assessmentId)` - Resets any response and score that the user may have already provided for `assessmentId`. 
+- `codio.assessments.get(assessmentId, callback)` - Gets the result data for a completed assessment 
+- `codio.assessments.send(assessmentId, answer, points, callback)` - Sends result data for a custom assessment. `answer` contains the custom result data for `assessment` and will be stored in Codio. You can use `codio.assessments.get()` to reconstruct the output for an already answered question. 

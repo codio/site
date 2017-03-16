@@ -31,11 +31,7 @@ Setting up a Fill in the Blank assessment within the Guide editor is very simple
 To set up your question, you write your content exactly as it should appear to the user. Take a look at the following example.
 
 ```
-The correct acronym for the main processor chip in a computer is <<<CPU>>>.
-
-It is connected to the system memory by a <<<bus>>>.
-
-And memory is usually known as <<<RAM>>>.
+A prime number (or a prime) is a <<<natural>>> number greater than <<<1>>> that has no positive divisors other than <<<1>>> and <<<itself>>>.
 ```
 
 For a free text question (Show Possible Values slider to the left), Codio shows blank text fields. The student should then enter the correct text. Codio ensures that the response is case insensitive. For obvious reasons, the longer and more complex the correct answer, the easier it is for the student to make minor spelling errors that will then be scored as an incorrect answer.

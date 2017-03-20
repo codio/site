@@ -21,10 +21,11 @@ Editor settings gives you access to the key functions:
 
 ### Page
   - **[Layout](/docs/content/authoring/layouts/)** allows you to specify the panel layout you want to choose for this section,
-  - **[Step Path](/docs/content/authoring/hide-folder/)** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
+  - **[Show Folders](/docs/content/authoring/hide-folder/)** allows you to define specific folders in your project that you wish to be visible when the current section is displayed,
   - **[Close Tabs](/docs/content/authoring/inline/)** allows you to close all tabs open from previous section,
   - **[Set Section as Chapter](/docs/content/authoring/chapter/)** allows you to set the section as a chapter in your guides,
   - **[Teacher Only](/docs/content/authoring/solutions/)** allows you to show content that only teachers are able to see.
+  - **Content Type** allows you to write your content in either [Markdown](/docs/content/authoring/edit/) or [HTML](/docs/content/authoring/edit-html/) 
 
 ### [Open Tabs](/docs/content/authoring/auto-open/)
 allows you to specify:

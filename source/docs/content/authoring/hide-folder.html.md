@@ -15,8 +15,8 @@ The benefit of hiding folders is that the student is not distracted by folders a
 <img alt="authtoken" src="/img/docs/guides/project_2.png" class="simple"/>
 
 ###  Defining folders
-To define which folder(s) to show - any other folders are automatically hidden - first select a page. Next, in the Step Path field you specify the folder or folders which should be shown in the file tree. Use the `;` character to separate multiple folders.
+To define which folder(s) to show - any other folders are automatically hidden - first select a page. Next, in the Show Folders field you specify the folder or folders which should be shown in the file tree. Use the `;` character to separate multiple folders.
 
 <img alt="authtoken" src="/img/docs/guides/project_3.png" class="simple"/>
 
-If you have several Guides sections that have the same folders shown, then you only need define the folders on the first section. All subsequent sections will use the same Step Path setting until a new one is encountered.
+If you have several Guides sections that have the same folders shown, then you only need define the folders on the first section. All subsequent sections will use the same Show Folders setting until a new one is encountered.

@@ -12,5 +12,4 @@ You can deploy from the command line (Tools->Terminal menu), but Codio has a gre
 - [SFTP](/docs/ide/tools/deployment/type-sftp/)
 - [RSYNC](/docs/ide/tools/deployment/type-rsync/)
 - [Nodejitsu](/docs/ide/tools/deployment/type-nj/)
-- [Parse.com](/docs/ide/tools/deployment/type-parse/)
 - [Generic Git deployment](/docs/ide/tools/deployment/type-git/)

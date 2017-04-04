@@ -1,8 +1,6 @@
 /* globals $ */
 
 $(() => {
-
-  const $header = $('header')
   const $toggle = $('.menu-toggle')
   const $nav = $('.mobile-nav')
 

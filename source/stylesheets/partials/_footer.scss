@@ -117,11 +117,10 @@ footer {
   }
 
   a {
-    color: $light-gray;
+    color: #fff;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-    transition: color 0.3s ease-in-out;
 
     @include breakpoint($break-tablet) {
       font-size: 14px;
@@ -129,6 +128,6 @@ footer {
   }
 
   a:hover {
-    color: $dark-gray;
+    color: $light-gray;
   }
 }

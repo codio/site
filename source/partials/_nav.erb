@@ -1,29 +1,11 @@
 <ul>
-  <li <% if current_page.path.start_with?("features") then concat 'class="active"' end %>>
-    <%= link_to 'Features', '/features' %>
-  </li>
-  <li>
-    <%= link_to 'Blog', 'http://blog.codio.com' %>
-  </li>
-  <li <% if current_page.path.start_with?("docs") then concat 'class="active"' end %>>
-    <%= link_to 'Help', '/docs' %>
-  </li>
-  <li <% if current_page.path.start_with?("pricing") then concat 'class="active"' end %>>
-    <%= link_to(
-      'Pricing',
-      (defined?(pricing) && !pricing.nil? ? "/pricing?type=#{pricing}" : '/pricing')
-    ) %>
+  <li class='highspot'>
+    <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/start-edu-trial'), class: 'button' %>
   </li>
   <li>
     <%= link_to 'Log in', '/p/login' %>
   </li>
-  <li <% if current_page.path.start_with?("demo") then concat 'class="active"' end %>>
-    <%= link_to 'Demo', '/demo', class: 'button' %>
-  </li>
   <li class='highspot'>
     <%= link_to 'Join Class', '/p/join-class', class: 'button' %>
-  </li>
-  <li class='highspot'>
-    <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/start-edu-trial'), class: 'button' %>
   </li>
 </ul>

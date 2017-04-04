@@ -5,41 +5,6 @@ $(() => {
   const $header = $('header')
   const $toggle = $('.menu-toggle')
   const $nav = $('.mobile-nav')
-  const $subHeader = $('.subheader-block')
-
-  if ($header.hasClass('should-be-fixed')) {
-    $header.removeClass('fixed')
-
-    const headerHeight = $('header').height()
-    const heroHeight = $('.header-block').height()
-    const offsetVal = heroHeight - headerHeight
-
-    $(window).scroll(() => {
-      const scrollTop = $(window).scrollTop()
-
-      if (scrollTop >= offsetVal && !$header.hasClass('fixed')) {
-        $header.hide()
-        $header.addClass('fixed')
-        $toggle.addClass('fixed')
-        $header.fadeIn()
-      } else if (scrollTop < offsetVal) {
-        $header.removeClass('fixed')
-        $toggle.removeClass('fixed')
-      }
-    })
-  }
-
-  $(window).scroll(() => {
-    const scrollTop = $(window).scrollTop()
-
-    if (scrollTop > 65 || $(window).width() < 800) {
-      $subHeader.hide();
-      $header.height(65);
-    } else {
-      $subHeader.show();
-      $header.height(105);
-    }
-  })
 
   // Responsive Menu
 

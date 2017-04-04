@@ -4,7 +4,7 @@ header {
   margin: 0;
   position: relative;
   z-index: 1;
-  background: $dark-gray;
+  background: rgba(33, 44, 63, 0.7);
 
   &.fixed {
     position: fixed;
@@ -12,16 +12,12 @@ header {
     left: 0;
     right: 0;
     z-index: 990;
-    background: $dark-gray;
+    background: rgba(33, 44, 63, 0.7);
 
     .container {
       animation-delay: 0s;
       animation-duration: 0s;
     }
-  }
-
-  @include breakpoint($break-tablet) {
-    height: 105px;
   }
 
   .container {
@@ -44,14 +40,18 @@ header {
   }
 
   .logo-link {
+  }
+
+  .img-logo {
+    width: 100px;
+    margin-left: 40px;
+  }
+
+  .logo {
     margin-top: 14px;
     float: left;
     z-index: 997;
     position: absolute;
-  }
-
-  .logo {
-    width: 100px;
   }
 
   nav {
@@ -93,63 +93,6 @@ header {
   nav li.active a {
     opacity: 1;
   }
-
-  .subheader-block {
-    @include span(4);
-
-    background: $lighter-gray;
-    background-size: cover;
-    margin: 0 auto 0 auto;
-    text-align: center;
-
-    @include breakpoint($break-tablet) {
-      height: 40px;
-      padding-top: 6px;
-      padding-bottom: 6px;
-    }
-
-    span {
-      display: none;
-
-      @include breakpoint($break-tablet)
-      {
-        display: block;
-      }
-    }
-
-    .link-button-bar {
-      background: $lighter-gray;
-      margin: 0 auto 0px auto;
-      text-align: center;
-
-      .button-container {
-        @include container;
-        @include break;
-
-        float: none;
-        margin: 0 auto;
-      }
-
-      .button {
-        display: inline-block;
-        color: $dark-gray;
-        border: none;
-        width: 20%;
-        max-width: 150px;
-        height: auto;
-        padding: 0;
-      }
-
-      .button-large {
-        padding: 0 auto;
-      }
-
-      .button:hover {
-        color: white;
-        background-color: $light-gray;
-      }
-    }
-  }
 }
 
 .mobile-nav {
@@ -187,7 +130,7 @@ header {
   }
 }
 
-.menu-toggle {
+.menu-toggle, .menu-right-toggle {
   position: absolute;
   top: 30px;
   right: 20px;
@@ -256,6 +199,19 @@ header {
     }
   }
 }
+
+.menu-right-toggle {
+  right: auto;
+
+  &.open {
+    float: left;
+
+    @include breakpoint($break-tablet) {
+      display: inline-block;
+    }
+  }
+}
+
 
 .header-block {
   margin-top: 0;//-65px;

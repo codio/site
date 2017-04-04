@@ -4,7 +4,7 @@ header {
   margin: 0;
   position: relative;
   z-index: 1;
-  background: rgba(33, 44, 63, 0.7);
+  background: rgba(33, 44, 63, 0.4);
 
   &.fixed {
     position: fixed;
@@ -12,7 +12,7 @@ header {
     left: 0;
     right: 0;
     z-index: 990;
-    background: rgba(33, 44, 63, 0.7);
+    background: rgba(33, 44, 63, 0.4);
 
     .container {
       animation-delay: 0s;
@@ -92,6 +92,31 @@ header {
 
   nav li.active a {
     opacity: 1;
+  }
+
+  .header-dropdown-menu {
+    background: rgba(33, 44, 63, 0.4);
+    border: none;
+    border-radius: 0;
+    min-width: 380px;
+    left: -65px;
+    padding-left: 65px;
+    margin-top: 12px;
+
+    .dropdown-item {
+      display: block;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 48px;
+      transition: opacity .2s ease-in-out;
+      opacity: .7;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
 }
 

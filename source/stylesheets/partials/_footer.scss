@@ -49,7 +49,7 @@ footer {
       border-top: 1px solid $lighter-gray;
 
       @include breakpoint($break-tablet) {
-        @include span(12 of 16);
+        @include span(11 of 16);
         margin-top: 16px;
         display: inline-block;
       }
@@ -64,7 +64,35 @@ footer {
       float: right;
 
       @include breakpoint($break-tablet) {
-        @include span(2 of 16);
+        @include span(3 of 16);
+      }
+
+      .icon, .facebook {
+        margin-left: 10px;
+        width: auto;
+        height: auto;
+        opacity: 1;
+        cursor: pointer;
+
+        &:hover {
+          opacity: .6;
+        }
+
+        @include breakpoint($break-tablet) {
+          margin-left: 12px;
+        }
+
+        @include breakpoint($max-width) {
+          margin-left: 25px;
+        }
+      }
+
+      .icon {
+        width: 20px;
+      }
+
+      .facebook {
+        height: 25px;
       }
     }
   }

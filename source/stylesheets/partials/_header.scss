@@ -3,7 +3,7 @@ header {
   margin: 0;
   position: relative;
   z-index: 1;
-  background: rgba(33, 44, 63, 0.4);
+  background: rgba(33, 44, 63, 0);
 
   &.fixed {
     position: fixed;
@@ -11,7 +11,7 @@ header {
     left: 0;
     right: 0;
     z-index: 990;
-    background: rgba(33, 44, 63, 0.4);
+    background: rgba(33, 44, 63, 0);
 
     .container {
       animation-delay: 0s;
@@ -25,6 +25,7 @@ header {
     animation-delay: .8s;
     animation-duration: .5s;
     padding: 0 gutter();
+    text-shadow: rgba(0,0,0,1) 0 0 4px;
 
     @include breakpoint($break-tablet) {
       padding: 0;
@@ -47,6 +48,10 @@ header {
     float: left;
     z-index: 997;
     position: absolute;
+  }
+
+  .button {
+    text-shadow: none;
   }
 
   nav {
@@ -88,14 +93,21 @@ header {
     opacity: .6;
   }
 
+  .dropdown-menu {
+    z-index: 0;
+  }
+
   .header-dropdown-menu {
-    background: rgba(33, 44, 63, 0.4);
+    text-shadow: none;
+    background: rgba(10, 106, 225, 0.8);
     border: none;
     border-radius: 0;
     min-width: 380px;
     left: -65px;
-    padding-left: 65px;
-    margin-top: 51px;
+    top: -65px;
+    padding-left: 105px;
+    padding-top: 120px;
+    height: 110vh;
 
     .dropdown-item {
       display: block;

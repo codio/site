@@ -82,6 +82,7 @@ body.index .section-scroll {
   .block {
     width: 100%;
     height: 46vw;
+    position: relative;
     text-align: center;
     background-size: cover;
 
@@ -111,7 +112,7 @@ body.index .section-scroll {
       }
 
       @include breakpoint($break-tablet) {
-        padding-top: 13%;
+        padding-top: 15%;
         h3 {
           padding-top: 1%;
           padding-bottom: 5%;
@@ -143,5 +144,9 @@ body.index .section-scroll {
 
   #block3 {
     background-image: url('/img/assets/index/blocks/insanely-convenient.jpg');
+  }
+
+  #block4 {
+    background-image: url('/img/assets/index/blocks/new-concept-with-codio.jpg');
   }
 }

@@ -88,14 +88,10 @@ body.index .section-scroll {
     .title-text {
       text-align: center;
       margin: 0 auto;
-      padding-top: 6%;
+      padding-top: 8%;
       width: 70%;
       color: #fff;
-
-      .button-large {
-        padding: 15px 35px;
-        font-size: 1.8vw;
-      }
+      text-shadow: rgba(0,0,0,.7) 0 0 5px;
 
       h2 {
         font-size: 4vw;
@@ -110,12 +106,29 @@ body.index .section-scroll {
         font-weight: 400;
       }
 
+      .button {
+        text-shadow: none;
+      }
+
       @include breakpoint($break-tablet) {
-        padding-top: 9%;
+        padding-top: 13%;
         h3 {
           padding-top: 1%;
           padding-bottom: 5%;
         }
+      }
+    }
+
+    .logo-img {
+      display: block;
+      position: absolute;
+      bottom: 30px;
+      margin: auto;
+      width: 100%;
+
+      img {
+        width: auto;
+        height: 4vw;
       }
     }
   }
@@ -129,7 +142,7 @@ body.index .section-scroll {
   }
 
   #block3 {
-    background-color: #ff9800;
+    background-image: url('/img/assets/index/blocks/insanely-convenient.jpg');
   }
 }
 

@@ -3,17 +3,14 @@
   display: -ms-flexbox;
   -ms-flex-pack: center;
   -ms-flex-align: center;
-
   /* Firefox */
   display: -moz-box;
   -moz-box-pack: center;
   -moz-box-align: center;
-
   /* Safari, Opera, and Chrome */
   display: -webkit-box;
   -webkit-box-pack: center;
   -webkit-box-align: center;
-
   /* W3C */
   display: box;
   box-pack: center;
@@ -32,7 +29,6 @@ body.index {
       margin-right: auto;
     }
   }
-
   .content {
     margin: 0 auto;
     max-width: 100%;
@@ -43,11 +39,11 @@ body.index .section-scroll {
   padding: 0;
   position: relative;
   height: 100%;
-
+  
   .navbar {
     z-index: 10;
   }
-
+  
   .scrollspy-dotted {
     display: block;
     position: fixed;
@@ -63,46 +59,47 @@ body.index .section-scroll {
       margin: 0 10px;
       margin-top: 10px;
     }
-
+    
     li a span {
       display: block;
-      background-color: rgba(255,255,255,1);
+      background-color: rgba(255, 255, 255, 1);
       width: 10px;
       height: 10px;
       border-radius: 50%;
       border: 1px solid #000;
     }
-
+    
     li.active span {
-      background-color: rgba(255,255,255,0);
+      background-color: rgba(255, 255, 255, 0);
       border: 1px solid $orange;
     }
-
+    
     li a:hover {
-      background-color: rgba(0,0,0,0);;
+      background-color: rgba(0, 0, 0, 0);
     }
   }
-
+  
   .block {
     width: 100%;
     height: 46vw;
     position: relative;
     text-align: center;
     background-size: cover;
-
-    .title-text {
+    
+    .title-text,
+    .toolbox {
       text-align: center;
       margin: 0 auto;
       padding-top: 8%;
       width: 95%;
       color: #fff;
-      text-shadow: rgba(0,0,0,.7) 0 0 5px;
-
+      text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
+      
       h2 {
         font-size: 4vw;
         font-weight: 600;
       }
-
+      
       h4 {
         margin-top: 1rem;
         padding-top: 0;
@@ -110,11 +107,11 @@ body.index .section-scroll {
         font-size: 2vw;
         font-weight: 400;
       }
-
+      
       .button {
         text-shadow: none;
       }
-
+     
       @include breakpoint($break-tablet) {
         padding-top: 15%;
         h3 {
@@ -123,45 +120,146 @@ body.index .section-scroll {
         }
       }
     }
-
+    
     .logo-img {
       display: block;
       position: absolute;
       bottom: 30px;
       margin: auto;
       width: 100%;
-
+      
       img {
         width: auto;
         height: 4vw;
       }
     }
-  }
+    
+    .toolbox {
+      padding-top: 5%;
+      
+      .box {
+        @include gallery(2 of 12);
+        text-align: center;
+        padding: 0;
+        
+        .header {
+          font-size: 20px;
+          font-weight: 500;
+        }
+        
+        .dot-line {
+          overflow: hidden;
+          text-align: center;
+          margin-bottom: .6rem;
 
+          &:before, &:after {
+            content: " ";
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            height: 3px;
+            background-color: $orange;
+            position: relative;
+          }
+
+          &:before {
+            margin-left: -100%;
+          }
+
+          &:after {
+            margin-right: -100%;
+          }
+
+          .dot {
+            display: inline-block;
+            border: 5px solid $orange;
+            border-radius: 50%;
+          }
+        }
+        
+        &:first-child {
+          .dot-line:before {
+            display: none;
+          }
+        }
+
+        &:last-child {
+          .dot-line:after {
+            display: none;
+          }
+        }
+
+        .body {
+          text-shadow: none;
+          font-size: 14px;
+          color: #000;
+          background-color: #fff;
+          border: 1px solid #fff;
+          border-radius: 5px;
+          margin: 0 .5rem;
+          
+          .scope-item {
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
+            margin: .5rem auto;
+            
+            .scope-img {
+              width: 100%;
+              height: 45px;
+              margin-bottom: 1rem;
+              vertical-align: bottom;
+              
+              svg {
+                vertical-align: bottom;
+                height: 100%;
+                width: auto;
+              }
+            }
+            
+            .scope-txt {
+              font-size: 16px;
+              min-height: 200px;
+              padding: 0 .5rem;
+              line-height: 1.2rem;
+              border-bottom: 1px solid $lighter-gray;
+            }
+            
+            .scope-button {
+              vertical-align: bottom;
+              margin-top: .5rem;
+              
+              a {
+                color: $blue;
+                
+                &:hover {
+                  color: $light-blue;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   #block1 {
     background-image: url('/img/assets/index/blocks/future-proof-your-students.jpg');
   }
-
   #block2 {
     background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
   }
-
   #block3 {
     background-image: url('/img/assets/index/blocks/insanely-convenient.jpg');
   }
-
   #block4 {
     background-image: url('/img/assets/index/blocks/new-concept-with-codio.jpg');
   }
-
   #block5 {
     background-image: url('/img/assets/index/blocks/engage-your-community.jpg');
   }
-
   #block6 {
     background-image: url('/img/assets/index/blocks/transform-course-delivery.jpg');
   }
-
   #block7 {
     background-image: url('/img/assets/index/blocks/grab-their-imagination.jpg');
   }

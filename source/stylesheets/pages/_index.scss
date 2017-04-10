@@ -286,27 +286,22 @@ body.index .section-scroll {
       }
 
       @include breakpoint($max-width) {
-        padding-top: 40px;
+        padding-top: 20px;
       }
     }
-  }
 
-  #block2 {
-    h2 {
+    .toolbox-header {
       margin-top: 0;
       color: #fff;
       text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
       padding-top: 10px;
-      font-size: 4vw;
+      font-size: 3.3vw;
       font-weight: 600;
-    }
+      line-height: 1.2em;
 
-    @include breakpoint($break-tablet) {
-      padding-top: 40px;
-    }
-
-    @include breakpoint($max-width) {
-      padding-top: 0;
+      @include breakpoint($max-width) {
+        padding-top: 60px;
+      }
     }
   }
 

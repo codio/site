@@ -3,7 +3,7 @@ header {
   margin: 0;
   position: relative;
   z-index: 1;
-  background: rgba(33, 44, 63, 0.7);
+  background: rgba(10, 106, 225, 0.7);
 
   &.fixed {
     position: fixed;
@@ -11,7 +11,7 @@ header {
     left: 0;
     right: 0;
     z-index: 990;
-    background: rgba(33, 44, 63, 0.7);
+    background: rgba(10, 106, 225, 0.7);
 
     .container {
       animation-delay: 0s;
@@ -99,14 +99,13 @@ header {
 
   .header-dropdown-menu {
     text-shadow: none;
-    background: rgba(10, 106, 225, 0.8);
+    background: rgba(10, 106, 225, 0.7);
     border: none;
     border-radius: 0;
     min-width: 380px;
     left: -65px;
-    top: -65px;
+    top: 49px;
     padding-left: 105px;
-    padding-top: 120px;
     height: 110vh;
 
     .dropdown-item {

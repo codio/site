@@ -135,7 +135,7 @@ body.index .section-scroll {
     }
     
     .toolbox {
-      padding-top: 5%;
+      padding-top: 5px;
       
       .box {
         @include gallery(2 of 12);
@@ -143,8 +143,8 @@ body.index .section-scroll {
         padding: 0;
         
         .header {
-          font-size: 20px;
-          font-weight: 500;
+          font-size: 16px;
+          font-weight: 600;
         }
         
         .dot-line {
@@ -242,6 +242,18 @@ body.index .section-scroll {
       }
     }
   }
+
+  #block2 {
+    h2 {
+      margin-top: 0;
+      color: #fff;
+      text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
+      padding-top: 50px;
+      font-size: 4vw;
+      font-weight: 600;
+    }
+  }
+
   #block1 {
     background-image: url('/img/assets/index/blocks/future-proof-your-students.jpg');
   }
@@ -262,5 +274,16 @@ body.index .section-scroll {
   }
   #block7 {
     background-image: url('/img/assets/index/blocks/grab-their-imagination.jpg');
+  }
+
+  .block-ready-started {
+    height: 180px;
+    background-color: $blue;
+
+    h2 {
+      margin-top: 0;
+      color: #fff;
+      padding: 20px 0;
+    }
   }
 }

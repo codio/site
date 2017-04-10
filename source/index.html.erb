@@ -30,9 +30,8 @@ description: Codio is the platform used by educators to teach computer science. 
   </div>
   
   <div id="block2" class="block">
+    <h2>Sharper your tool box</h2>
     <div class="toolbox">
-      <h2>Sharper your tool box</h2>
-      
       <div class="box">
         <div class="header">Infrastructure</div>
         <div class="dot-line"><div class="dot"></div></div>
@@ -84,7 +83,64 @@ description: Codio is the platform used by educators to teach computer science. 
               platform (designed for computer science education).
             </div>
             <div class="scope-button">
-              <%= link_to 'Learn More', '/features/ide', class: '' %>
+              <%= link_to 'Learn More', '/docs/content/authoring/assessments/', class: '' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="header">LMS Integration</div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/learning.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              Choose between Codio's own extensive LMS features or an external LMS such as Canvas,
+              Blackboard, Moodle and more.
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/blog/codio-releases-integration-with-lms-platforms/', class: '' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="header">Curriculum Authoring</div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              Codio is the only platform to offer top quality curriculum authoring tools that control
+              the IDE. Create simple assignments all the way through to an entire book.
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/features/curriculum', class: '' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="header">Templating</div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              Take any custom software configuration (language, database or components) you have
+              created and add them to your template library for use by anyone.
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/features/templates', class: '' %>
             </div>
           </div>
         </div>
@@ -142,5 +198,11 @@ description: Codio is the platform used by educators to teach computer science. 
       <%= link_to 'PILOT CODIO IN YOUR SCHOOL', '',
         class: 'button button-rounded button-main' %>
     </div>
+  </div>
+
+  <div class="block block-ready-started">
+    <h2>Ready to get started?</h2>
+    <%= link_to 'Start Free Trial', '/start-edu-trial',
+        class: 'button button-rounded button-main' %>
   </div>
 </section>

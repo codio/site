@@ -284,6 +284,10 @@ body.index .section-scroll {
         width: 94%;
         padding-top: 5px;
       }
+
+      @include breakpoint($max-width) {
+        padding-top: 40px;
+      }
     }
   }
 
@@ -292,13 +296,17 @@ body.index .section-scroll {
       margin-top: 0;
       color: #fff;
       text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
-      padding-top: 30px;
+      padding-top: 10px;
       font-size: 4vw;
       font-weight: 600;
     }
 
     @include breakpoint($break-tablet) {
-      padding-top: 50px;
+      padding-top: 40px;
+    }
+
+    @include breakpoint($max-width) {
+      padding-top: 0;
     }
   }
 

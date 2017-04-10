@@ -24,11 +24,10 @@ header {
     width: 100%;
     animation-delay: .8s;
     animation-duration: .5s;
-    padding: 0 gutter();
+    padding: 0;
     text-shadow: rgba(0,0,0,1) 0 0 4px;
 
     @include breakpoint($break-tablet) {
-      padding: 0;
       margin: 0;
     }
   }
@@ -234,6 +233,7 @@ header {
 
   &.open {
     float: left;
+    display: inline-block;
 
     @include breakpoint($break-tablet) {
       display: inline-block;

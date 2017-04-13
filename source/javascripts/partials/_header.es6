@@ -8,7 +8,7 @@ $(() => {
   const $dropdownMenu = $('.header-dropdown-menu');
 
   if (!$header.hasClass('should-be-transparent')) {
-    const offsetVal = $('.header-block').height();
+    const offsetVal = $('.header-block').height() - 65;
 
     $(window).scroll(() => {
       const scrollTop = $(window).scrollTop();

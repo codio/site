@@ -1,4 +1,33 @@
-$gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
+//$gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
+
+body.features_ide {
+  
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+	.header-block {
+		width: 100%;
+  	height: 36vw;
+  	position: relative;
+  	text-align: center;
+  	background-size: cover;
+  	background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
+
+  	.title {
+  		height: 100%;
+  		font-size: 4vw;
+      font-weight: 600;
+      color: #fff;
+      line-height: 2rem;
+
+      @include breakpoint($break-tablet) {
+      	line-height: 3rem;
+      }
+  	}
+	}
+}
 
 .ide-body {
 	.video-link {

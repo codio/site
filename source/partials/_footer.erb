@@ -1,11 +1,5 @@
 <footer>
   <div class="container">
-    <div class="footer-copyright">
-      <%= image_tag 'logo-dark.svg', alt: 'Codio', class: 'footer-logo' %>
-      <p>Copyright © 2016 Codio</p>
-      <p>All rights reserved</p>
-    </div>
-
     <ul class="footer-list">
       <li>
         <h4>About</h4>
@@ -14,10 +8,16 @@
         <%= link_to 'Why Codio?', '/about/mission' %>
       </li>
       <li>
-        <%= link_to 'Our Team', '/about' %>
+        <%= link_to 'Customers', 'http://news.codio.com' %>
       </li>
       <li>
-        <%= link_to 'Blog', '/blog' %>
+        <%= link_to 'Contact Us', 'http://news.codio.com/contact-us' %>
+      </li>
+      <li>
+        <%= link_to 'News Blog', 'http://news.codio.com/blog/' %>
+      </li>
+      <li>
+        <%= link_to 'Product Blog', 'http://news.codio.com/blog/topic/product-news' %>
       </li>
       <li>
         <%= link_to 'Legal Stuff', '/legal' %>
@@ -28,79 +28,91 @@
         <h4>Product</h4>
       </li>
       <li>
-        <%= link_to 'Login', '/p/login' %>
+        <%= link_to 'School Leadership', '' %>
       </li>
       <li>
-        <%= link_to 'Price', '/pricing' %>
+        <%= link_to 'School Teacher', '/school' %>
       </li>
       <li>
-        <%= link_to 'Features', '/features' %>
+        <%= link_to 'University Leadership', '' %>
       </li>
       <li>
-        <%= link_to 'School', '/school' %>
+        <%= link_to 'University Faculty', '/university' %>
       </li>
       <li>
-        <%= link_to 'University', '/university' %>
+        <%= link_to 'Available Courses', '' %>
       </li>
       <li>
-        <%= link_to 'Trial', '/start-edu-trial' %>
+        <%= link_to 'Technical Specification', '' %>
       </li>
       <li>
-        <%= link_to 'Demo', '/demo' %>
+        <%= link_to 'Pricing', '/pricing' %>
+      </li>
+      <li></li>
+    </ul>
+    <ul class="footer-list">
+      <li>
+        <h4>Features</h4>
+      </li>
+      <li>
+        <%= link_to 'Infrastructure', '/features/infrastructure' %>
+      </li>
+      <li>
+        <%= link_to 'Online IDE', '/features/ide' %>
+      </li>
+      <li>
+        <%= link_to 'Grading & Auto-grading', '/docs/content/authoring/assessments/' %>
+      </li>
+      <li>
+        <%= link_to 'LMS Integration', '/blog/codio-releases-integration-with-lms-platforms/' %>
+      </li>
+      <li>
+        <%= link_to 'Curriculum Authoring', '/features/content-authoring/' %>
+      </li>
+      <li>
+        <%= link_to 'Templating', '/features/templates' %>
       </li>
     </ul>
     <ul class="footer-list">
       <li>
-        <h4>Help</h4>
+        <h4>Gain Access</h4>
+      </li>
+      <li>
+        <%= link_to 'Free Trial', '/start-edu-trial' %>
+      </li>
+      <li>
+        <%= link_to 'Demo', '/demo' %>
+      </li>
+      <li>
+        <%= link_to 'Login', '/p/login' %>
+      </li>
+      <li>
+        <%= link_to 'Join Class', 'https://staging.codiodev.com/p/join-class' %>
       </li>
       <li>
         <%= link_to 'Get Started', '/docs/started' %>
       </li>
       <li>
-        <%= link_to 'IDE', '/docs/ide/navigation' %>
-      </li>
-      <li>
-        <%= link_to 'Authoring', '/docs/content/authoring' %>
-      </li>
-      <li>
-        <%= link_to 'Publishing', '/docs/content/publish' %>
-      </li>
-      <li>
-        <%= link_to 'Tools', '/docs/teacher/assess' %>
-      </li>
-      <li>
-        <%= link_to 'Templates', '/docs/project' %>
-      </li>
-      <li>
-        <%= link_to 'Courses', '/docs/content/courses' %>
-      </li>
-      <li>
-        <%= link_to 'Students', '/docs/student/classes' %>
-      </li>
-      <li>
-        <%= link_to 'Settings', '/docs/acount' %>
+        <%= link_to 'Documentation', '/docs' %>
       </li>
     </ul>
-    <ul class="footer-list">
-      <li>
-        <h4>Contact Us</h4>
-      </li>
-      <li>
-        <%= link_to 'Forum', 'http://forum.codio.com', target: '_blank' %>
-      </li>
-      <li>
-        <%= link_to 'Status', 'https://status.codio.com', target: '_blank' %>
-      </li>
-      <li>
-        <%= link_to 'Twitter', 'https://twitter.com/CODIOHQ', target: '_blank' %>
-      </li>
-      <li>
-        <%= link_to 'Facebook', 'https://www.facebook.com/CodioHQ/', target: '_blank' %>
-      </li>
-      <li>
-        <%= link_to 'YouTube', 'https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw' %>
-      </li>
-    </ul>
+  </div>
+  <div class="container-logo">
+    <div class="footer-logo">
+      <%= image_tag 'logo-light.svg', alt: 'Codio', class: 'footer-logo' %>
+    </div>
+    <div class="line"></div>
+    <div class="social">
+      <a href="https://www.facebook.com/CodioHQ/" target="_blank">
+        <%= image_tag '/img/assets/facebook_icon_white.png', alt: 'Codio', class: 'facebook' %>
+      </a>
+      <a href="https://www.youtube.com/channel/UCe_pvWqpowhOlwOwO3nVsaw" target="_blank">
+        <%= image_tag '/img/assets/youtube_icon_white.png', alt: 'Codio', class: 'icon' %>
+      </a>
+      <a href="https://twitter.com/CODIOHQ" target="_blank">
+        <%= image_tag '/img/assets/twitter_icon_white.png', alt: 'Codio', class: 'icon' %>
+      </a>
+    </div>
   </div>
 </footer>
 <!-- Start of Async HubSpot Analytics Code -->

@@ -1,10 +1,9 @@
 header {
-  @include container;
   height: 65px;
   margin: 0;
   position: relative;
   z-index: 1;
-  background: $dark-gray;
+  //background: rgba(10, 106, 225, 0.7);
 
   &.fixed {
     position: fixed;
@@ -12,7 +11,7 @@ header {
     left: 0;
     right: 0;
     z-index: 990;
-    background: $dark-gray;
+    //background: rgba(10, 106, 225, 0.7);
 
     .container {
       animation-delay: 0s;
@@ -20,38 +19,38 @@ header {
     }
   }
 
-  @include breakpoint($break-tablet) {
-    height: 105px;
-  }
-
   .container {
-    @include container;
     height: 65px;
+    width: 100%;
     animation-delay: .8s;
     animation-duration: .5s;
-    padding: 0 gutter();
+    padding: 0;
+    text-shadow: rgba(0,0,0,1) 0 0 4px;
 
     @include breakpoint($break-tablet) {
-      @include container(14 of 16);
-      padding: 0;
-      margin: 0 span(1 of 16);
-    }
-
-    @include breakpoint($max-width) {
-      @include container(16 of 16);
-      max-width: $max-width;
+      margin: 0;
     }
   }
 
   .logo-link {
+    position: fixed;
+    left: 4rem;
+  }
+
+  .img-logo {
+    width: 100px;
+  }
+
+  .logo {
     margin-top: 14px;
+    margin-left: 2rem;
     float: left;
     z-index: 997;
     position: absolute;
   }
 
-  .logo {
-    width: 100px;
+  .button {
+    text-shadow: none;
   }
 
   nav {
@@ -67,7 +66,7 @@ header {
   nav a {
     color: #FFFFFF;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
   }
 
@@ -81,75 +80,55 @@ header {
   }
 
   nav li a {
-    opacity: .7;
-    transition: opacity .2s ease-in-out;
+    opacity: 1;
   }
 
   nav li a:hover {
     color: white;
-    opacity: 1;
+    opacity: .6;
   }
 
   nav li.active a {
-    opacity: 1;
+    opacity: .6;
   }
 
-  .subheader-block {
-    @include span(4);
+  .dropdown-menu {
+    z-index: 0;
+  }
 
-    background: $lighter-gray;
-    background-size: cover;
-    margin: 0 auto 0 auto;
-    text-align: center;
+  .header-dropdown-menu {
+    text-shadow: none;
+    //background: rgba(10, 106, 225, 0.7);
+    border: none;
+    border-radius: 0;
+    min-width: 380px;
+    left: -65px;
+    top: 49px;
+    padding-left: 105px;
+    height: 110vh;
 
-    @include breakpoint($break-tablet) {
-      height: 40px;
-      padding-top: 6px;
-      padding-bottom: 6px;
-    }
+    .dropdown-item {
+      display: block;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 48px;
+      opacity: 1;
 
-    span {
-      display: none;
-
-      @include breakpoint($break-tablet)
-      {
-        display: block;
-      }
-    }
-
-    .link-button-bar {
-      background: $lighter-gray;
-      margin: 0 auto 0px auto;
-      text-align: center;
-
-      .button-container {
-        @include container;
-        @include break;
-
-        float: none;
-        margin: 0 auto;
-      }
-
-      .button {
-        display: inline-block;
-        color: $dark-gray;
-        border: none;
-        width: 20%;
-        max-width: 150px;
-        height: auto;
-        padding: 0;
-      }
-
-      .button-large {
-        padding: 0 auto;
-      }
-
-      .button:hover {
-        color: white;
-        background-color: $light-gray;
+      &:hover {
+        opacity: .6;
       }
     }
   }
+}
+
+.opaque-background {
+  background: rgba(10, 106, 225, 1);
+}
+
+.transparent-background {
+  background: rgba(10, 106, 225, 0.7);
 }
 
 .mobile-nav {
@@ -187,7 +166,7 @@ header {
   }
 }
 
-.menu-toggle {
+.menu-toggle, .menu-right-toggle {
   position: absolute;
   top: 30px;
   right: 20px;
@@ -257,7 +236,20 @@ header {
   }
 }
 
+.menu-right-toggle {
+  right: auto;
+
+  &.open {
+    float: left;
+    display: inline-block;
+
+    @include breakpoint($break-tablet) {
+      display: inline-block;
+    }
+  }
+}
+
 .header-block {
-  margin-top: 0;//-65px;
-  padding-top: 0;//105px;
+  margin-top: 0;
+  padding-top: 0;
 }

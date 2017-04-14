@@ -1,10 +1,57 @@
 <div id="features-subheader" class="subheader-block">
-  <span>
-    <div class="link-button-bar">
-      <div class="button-container">
-        <%= link_to 'Schools', '/school', class: 'button button-large' %>
-        <%= link_to 'Universities', '/university', class: 'button button-large' %>
-      </div>
-    </div>
-  </span>
+	<div class="menu">
+		<div class="header-item <% if current_resource.data.features_page == 'infrastructure' %> selected<% end %>">
+    	<div class="header-img">
+      	<%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
+    	</div>
+    	<div class="header-button">
+      	<%= link_to 'Infrastructure', '/features/infrastructure', class: '' %>
+    	</div>
+  	</div>
+
+		<div class="header-item <% if current_resource.data.features_page == 'ide' %> selected<% end %>">
+    	<div class="header-img">
+      	<%= inline_svg 'assets/index/webbased.svg', class: '' %>
+    	</div>
+    	<div class="header-button">
+      	<%= link_to 'Online IDE', '/features/ide', class: '' %>
+    	</div>
+  	</div>
+
+		<div class="header-item">
+    	<div class="header-img">
+      	<%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
+    	</div>
+    	<div class="header-button">
+      	<%= link_to 'Grading & Auto-Grading', '', class: '' %>
+    	</div>
+  	</div>
+
+		<div class="header-item">
+    	<div class="header-img">
+      	<%= inline_svg 'assets/index/learning.svg', class: '' %>
+    	</div>
+    	<div class="header-button">
+	      <%= link_to 'LMS Integration', '', class: '' %>
+  	  </div>
+  	</div>
+
+		<div class="header-item">
+    	<div class="header-img">
+	      <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
+  	  </div>
+    	<div class="header-button">
+      	<%= link_to 'Curriculum Authoring', '/features/curriculum', class: '' %>
+    	</div>
+  	</div>
+
+		<div class="header-item">
+    	<div class="header-img">
+      	<%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
+    	</div>
+    	<div class="header-button">
+      	<%= link_to 'Templating', '/features/templates', class: '' %>
+    	</div>
+  	</div>
+  </div>
 </div>

@@ -23,8 +23,10 @@ $().ready(() => {
   if (document.location.pathname.lastIndexOf("/features", 0) !== 0) return;
   var header = $('header');
   var footer = $('footer');
+  var win = $(window);
   var subheader = $('#features-subheader');
   var headerBlock = $('.header-block');
+  var scrollPos = 0;
 
   subheader.affix({
     offset: {
@@ -42,6 +44,16 @@ $().ready(() => {
   });
 
   subheader.on('affixed.bs.affix', function(){
+    scrollPos = win.scrollTop();
+    
+    win.scroll(() => {
+      var currentScroll = win.scrollTop();
+      if (scrollPos < (currentScroll - 45)) {
+        subheader.css('top', '25px');
+      } else {
+        subheader.css('top', '65px');
+      }
+    });
   });
 
   parseRSS();

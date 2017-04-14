@@ -1,6 +1,7 @@
 ---
 title: "Online IDE for Education | Teaching code | Codio"
 description: "Codio’s Online IDE for Education has the power of a desktop version, with many advanced features."
+features_page: ide
 ---
 <% @pricingType = "university" %>
 <% @signupUrl = "/start-edu-trial" %>
@@ -12,6 +13,29 @@ description: "Codio’s Online IDE for Education has the power of a desktop vers
 </section>
 
 <%= partial "features-subheader" %>
+
+<section class="ide-content">
+  <div class="video-block">
+    <div class="header">
+      An Online IDE to teach Python, Java or any language
+    </div>
+    <div class="text">
+      Trusted by 2000 organizations, our online IDE is perfect for beginners to write
+      their first lines of code. It is also powerful enough to allow advanced students
+      create professional projects. Codio is the perfect environment from middle school
+      to higher education.
+    </div>
+    <div class="video">
+      <div class="h_iframe">
+        <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
+        <iframe src="https://www.youtube.com/embed/tLM0l6mneQE"
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
+  </div>
+</section>
 
 <section class="ide-body">
 

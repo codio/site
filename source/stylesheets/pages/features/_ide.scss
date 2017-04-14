@@ -29,6 +29,65 @@ body.features_ide {
 	}
 }
 
+.ide-content {
+	@include container;
+	text-align: center;
+	max-width: $max-width;
+	margin: 1rem auto;
+	padding: 2rem 0;
+
+	.video-block {
+		margin: 1rem auto;
+
+		.header {
+			padding: 2rem 0;
+			color: $light-blue;
+			font-size: 22px;
+			font-weight: 500;
+
+			@include breakpoint($max-width) {
+				font-size: 30px;
+			}
+		}
+
+		.text {
+			padding-bottom: 2rem;
+			font-size: 14px;
+
+			@include breakpoint($max-width) {
+				font-size: 18px;
+			}
+		}
+		
+		.video {
+			width: span(1 of 2);
+			text-align: center;
+			margin: 0 auto;
+			padding: 1rem 0 4rem 0;
+
+			.h_iframe {
+				position: relative;
+
+				.ratio {
+					display: block;
+					width: 100%;
+					background: $dark-gray;
+					opacity: 0;
+					height: auto;
+				}
+		
+				iframe {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}		
+}
+
 .ide-body {
 	.video-link {
 		display: block;

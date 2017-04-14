@@ -19,36 +19,29 @@ const parseRSS = () => {
   });
 }
 
-$(document).ready(() => {
+$().ready(() => {
   if (document.location.pathname.lastIndexOf("/features", 0) !== 0) return;
-  var subheader = $(".subheader-block");
-  var modalDialog = $(".modal-dialog");
-  var header = $("header");
-  var modal1 = $(".modal-body .step-1");
-  var modal2 = $(".modal-body .step-2");
+  var header = $('header');
+  var footer = $('footer');
+  var subheader = $('#features-subheader');
+  var headerBlock = $('.header-block');
 
-  $("#schoolsBtn").on("click", () => {
-    modal1.css("display", "none");
-    modal2.css("display", "block");
-  })
+  subheader.affix({
+    offset: {
+      top: function() {
+        const c = headerBlock.height() - 65;
+        this.top = c;
 
-  $("#backBtn").on("click", () => {
-    modal1.css("display", "block");
-	  modal2.css("display", "none");
+        return this.top;
+      },
+      bottom: function () {
+        this.bottom = footer.outerHeight(true) + 100;
+        return this.bottom;
+      }
+    }
   });
 
-  $("#modalDialog").on("show.bs.modal", () => {
-    var headerHeight = header.height();
-    var scrollTop = $(window).scrollTop();
-    var margin = -25;
-
-    modal1.css("display", "block");
-    modal2.css("display", "none");
-
-    if (scrollTop < headerHeight) {
-      margin += headerHeight - scrollTop;
-    }
-    modalDialog.css("margin-top", margin + "px");
+  subheader.on('affixed.bs.affix', function(){
   });
 
   parseRSS();

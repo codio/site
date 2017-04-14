@@ -1,0 +1,62 @@
+body.features {
+  .subheader-block.affix {
+    top: 65px;
+  }
+
+  .subheader-block {
+    @include span(4);
+
+    background: $lighter-gray;
+    background-size: cover;
+    margin: 0 auto 0 auto;
+    text-align: center;
+
+    @include breakpoint($break-tablet) {
+      height: 40px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+
+    span {
+      display: none;
+
+      @include breakpoint($break-tablet)
+      {
+        display: block;
+      }
+    }
+
+    .link-button-bar {
+      background: $lighter-gray;
+      margin: 0 auto 0px auto;
+      text-align: center;
+
+      .button-container {
+        @include container;
+        @include break;
+
+        float: none;
+        margin: 0 auto;
+      }
+
+      .button {
+        display: inline-block;
+        color: $dark-gray;
+        border: none;
+        width: 20%;
+        max-width: 150px;
+        height: auto;
+        padding: 0;
+      }
+
+      .button-large {
+        padding: 0 auto;
+      }
+
+      .button:hover {
+        color: white;
+        background-color: $light-gray;
+      }
+    }
+  }
+}

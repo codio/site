@@ -155,8 +155,20 @@ body.features_ide .content-body {
     .features-row {
       @include span(13 of 13);
       padding: 0;
-      padding-bottom: 2rem;
       min-height: 500px;
+      height: 100%;
+
+      &:first-child {
+        .top {
+          opacity: 0;
+        }
+      }
+
+      &:last-child {
+        .bottom {
+          opacity: 0;
+        }
+      }
     }
 
     .left-part {
@@ -213,6 +225,36 @@ body.features_ide .content-body {
         position: relative;
         display: inline-block;
 			}
+    }
+
+    .vertical-dot-line {
+      overflow: hidden;
+      text-align: center;
+      margin: 0 auto;
+      width: 12px;
+
+      .top, .bottom, .first, .last {
+        content: " ";
+        display: block;
+        width: 2px;
+        background-color: $orange;
+        position: relative;
+        margin: 0 auto;
+      }
+
+      .top, .first {
+        height: 50px;
+      }
+
+      .bottom, .last {
+        height: 440px;
+      }
+
+      .dot {
+        display: block;
+        border: 6px solid $orange;
+        border-radius: 50%;
+      }
     }
   }
 }

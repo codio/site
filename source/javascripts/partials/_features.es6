@@ -26,6 +26,7 @@ $().ready(() => {
   var win = $(window);
   var subheader = $('#features-subheader');
   var headerBlock = $('.header-block');
+  var content = $('.content-body');
   var scrollPos = 0;
 
   subheader.affix({
@@ -45,6 +46,7 @@ $().ready(() => {
 
   subheader.on('affixed.bs.affix', function(){
     scrollPos = win.scrollTop();
+    content.css('padding-top', '140px');
     
     win.scroll(() => {
       var currentScroll = win.scrollTop();
@@ -54,6 +56,10 @@ $().ready(() => {
         subheader.css('top', '65px');
       }
     });
+  });
+
+  subheader.on('affixed-top.bs.affix', function(){
+    content.css('padding-top', '50px');
   });
 
   parseRSS();

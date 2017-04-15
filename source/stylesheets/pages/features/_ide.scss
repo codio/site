@@ -34,7 +34,7 @@ body.features_ide .content-body {
 	text-align: center;
 	max-width: $max-width;
 	margin: 1rem auto;
-	padding: 2rem 0;
+	padding: 50px 0;
 
 	.video-block {
 		margin: 1rem auto;
@@ -162,6 +162,8 @@ body.features_ide .content-body {
     .left-part {
       @include span(6 of 13);
       padding-left: 2rem;
+      animation-duration: 1.5s;
+      animation-delay: 0.1s;
     }
 
     .middle-part {
@@ -171,6 +173,8 @@ body.features_ide .content-body {
     .right-part {
       @include span(6 of 13);
       padding-right: 2rem;
+      animation-duration: 1.5s;
+      animation-delay: 0.1s;
     }
 
     .description {
@@ -210,5 +214,20 @@ body.features_ide .content-body {
         display: inline-block;
 			}
     }
+  }
+}
+
+body.features_ide .ready-started-block {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  height: 220px;
+  background-color: $blue;
+
+  h2 {
+    margin-top: 0;
+    color: #fff;
+    padding: 40px 0 20px 0;
   }
 }

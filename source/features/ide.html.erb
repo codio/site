@@ -67,7 +67,7 @@ features_page: ide
 
   <div class="features-block">
     <div class="features-row">
-      <div class="left-part description">
+      <div class="left-part description wow slideInLeft">
         <div class="header">
           Install and teach anything
         </div>
@@ -81,19 +81,19 @@ features_page: ide
       <div class="middle-part">
         |
       </div>
-      <div class="right-part screen">
+      <div class="right-part screen wow slideInRight">
         <%= image_tag 'assets/features/ide/install-and-teach-anything.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
       </div>
     </div>
     
     <div class="features-row">
-      <div class="left-part screen">
+      <div class="left-part screen wow slideInLeft">
         <%= image_tag 'assets/features/ide/teach-anywhere.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
       </div>
       <div class="middle-part">
         |
       </div>
-      <div class="right-part description">
+      <div class="right-part description wow slideInRight">
         <div class="header">
           Teach anywhere
         </div>
@@ -106,7 +106,7 @@ features_page: ide
     </div>
 
     <div class="features-row">
-      <div class="left-part description">
+      <div class="left-part description wow slideInLeft">
         <div class="header">
           Virtual Desktop
         </div>
@@ -119,19 +119,19 @@ features_page: ide
       <div class="middle-part">
         |
       </div>
-      <div class="right-part screen">
+      <div class="right-part screen wow slideInRight">
         <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
       </div>
     </div>
 
     <div class="features-row">
-      <div class="left-part screen">
+      <div class="left-part screen wow slideInLeft">
         <%= image_tag 'assets/features/ide/integrated-debugger.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
       </div>
       <div class="middle-part">
         |
       </div>
-      <div class="right-part description">
+      <div class="right-part description wow slideInRight">
         <div class="header">
           Integrated Debugger
         </div>
@@ -145,7 +145,7 @@ features_page: ide
     </div>
 
     <div class="features-row">
-      <div class="left-part description">
+      <div class="left-part description wow slideInLeft">
         <div class="header">
           Advanced Features
         </div>
@@ -168,9 +168,15 @@ features_page: ide
       <div class="middle-part">
         |
       </div>
-      <div class="right-part screen">
+      <div class="right-part screen wow slideInRight">
         <%= image_tag 'assets/features/ide/advanced-features.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
       </div>
     </div>
   </div>
+</section>
+
+<section class="ready-started-block">
+  <h2>Ready to get started?</h2>
+  <%= link_to 'Start Free Trial', '/start-edu-trial',
+    class: 'button button-rounded button-main' %>
 </section>

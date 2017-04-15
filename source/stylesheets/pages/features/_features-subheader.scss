@@ -66,6 +66,16 @@ body.features {
             font-size: 16px;
           }
         }
+
+        span {
+          display: none;
+        }
+
+        @include breakpoint(970px) {
+          span {
+            display: inline;
+          }
+        }
       }
     }
 

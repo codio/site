@@ -1,7 +1,4 @@
-//$gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
-
 body.features_ide {
-  
   .content {
     margin: 0 auto;
     max-width: 100%;
@@ -18,7 +15,7 @@ body.features_ide {
   	.title {
   		height: 100%;
   		font-size: 4vw;
-      font-weight: 600;
+      font-weight: 500;
       color: #fff;
       line-height: 2rem;
 
@@ -51,7 +48,7 @@ body.features_ide .content-body {
 		}
 
 		.text {
-			padding-bottom: 2rem;
+			padding-bottom: 2rem 1rem;
 			font-size: 14px;
 
 			@include breakpoint($max-width) {
@@ -60,7 +57,7 @@ body.features_ide .content-body {
 		}
 		
 		.video {
-			width: span(1 of 2);
+			width: span(2 of 3);
 			text-align: center;
 			margin: 0 auto;
 			padding: 1rem 0 4rem 0;
@@ -84,12 +81,16 @@ body.features_ide .content-body {
 					height: 100%;
 				}
 			}
+
+      @include breakpoint($break-tablet) {
+        width: span(1 of 2);
+      }
 		}
 	}
 
 	.logos-block {
 		margin: 4rem auto;
-		padding: 2rem 4rem;
+		padding: 2rem 1rem;
 		background-color: $lighter-gray;
 
 		.logos {
@@ -98,8 +99,9 @@ body.features_ide .content-body {
       vertical-align: middle;
 
 			.logo {
+        position: relative;
 				width: 100%;
-				height: 50px;
+				height: 70px;
 				display: block;
 
 				img {
@@ -115,7 +117,6 @@ body.features_ide .content-body {
 				}
 
 				@include breakpoint($break-tablet) {
-          position: relative;
 					height: 100px;
 					width: 18%;
           display: inline-block;
@@ -124,7 +125,7 @@ body.features_ide .content-body {
 		}
 
 		.testimonial {
-      padding: 2rem 4rem;
+      padding: 2rem;
       text-align: center;
       font-weight: 400;
 
@@ -144,7 +145,15 @@ body.features_ide .content-body {
           font-size: 20px;
         }
       }
+
+      @include breakpoint($break-tablet) {
+        padding: 2rem 4rem;
+      }
 		}
+
+    @include breakpoint($break-tablet) {
+		  padding: 2rem 4rem;
+    }
 	}
 
   .features-block {

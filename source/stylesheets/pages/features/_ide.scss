@@ -146,118 +146,69 @@ body.features_ide .content-body {
       }
 		}
 	}
-}
 
-.ide-body {
-	.video-link {
-		display: block;
-		margin: 4rem auto 0;
-		text-align: center;
-		color: #FFFFFF;
+  .features-block {
+    @include container;
+ 		margin: 4rem auto;
+		padding: 2rem;
 
-		@include breakpoint(max-width $break-tablet) {
-			margin-top: 6rem;
-		}
-	}
+    .features-row {
+      @include span(13 of 13);
+      padding: 0;
+      padding-bottom: 2rem;
+      min-height: 500px;
+    }
 
-	.webide-section-block-row {
-		@include container;
-		@include break;
-		margin-top: 2rem;
-		width: span(16 of 16);
+    .left-part {
+      @include span(6 of 13);
+      padding-left: 2rem;
+    }
 
-		@include breakpoint($break-tablet) {
-		}
+    .middle-part {
+      @include span(1 of 13);
+    }
 
-		@include breakpoint($max-width) {
-		}
+    .right-part {
+      @include span(6 of 13);
+      padding-right: 2rem;
+    }
 
-		.section-block {
-			margin-bottom: 1.5rem;
-		}
-	}
+    .description {
+      text-align: left;
+      padding-top: 2rem;
 
-	.section-block {
-		@include container;
-		@include breakpoint($break-tablet) {
-			float: left;
-			width: span(12 of 32);
-		}
+      .header {
+        padding-bottom: 1rem;
+        color: $light-blue;
+        font-size: 30px;
+        font-weight: 500;
+      }
 
-		width: span(14 of 16);
+      .text {
+        font-size: 16px;
 
-		&:first-of-type {
-			width: 100%;
-			@include breakpoint($max-width) {
-				margin-left: span(0 of 32);
-				margin-right: span(1 of 32);
-				width: 55%;
-			}
-		}
+        ul {
+          list-style: disc;
+          padding: 2rem 0 0 1rem;
+        }
+      }
+    }
 
-		&:last-of-type {
-			width: 100%;
-			@include breakpoint($max-width) {
-				margin-right: span(0 of 32);
-				width: 40%;
-			}
-		}
-
-		h4 {
-			margin-top: 0;
-
-			@include breakpoint($max-width) {
-				padding-top: 9%;
-			}
-
-			@include breakpoint(1400px) {
-				padding-top: 14%;
-			}
-		}
-
-		.section-block-text {
-			text-align: center;
-			font-weight: 300;
-			@include breakpoint($break-tablet) {
-				line-height: 25px;
-				font-size: 18px;
-			}
-		}
-
-		.section-block-text a, .section-block-copy a {
-			color: #00f;
-			text-decoration: underline;
-
-			&:hover,
-			&:focus,
-			&:active {
-				text-decoration: underline;
-				color: #00b;
-			}
-
-			&:active,
-			&:focus {
-				outline: none;
-			}
-		}
-	}
-
-	.h_iframe {
-		position: relative;
-
-		.ratio {
-			display: block;
-			width: 100%;
-			background: $dark-gray;
-			opacity: 0;
+    .screen {
 			height: auto;
-		}
-		iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-	}
+			display: block;
+
+			img {
+				max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+        margin: auto;
+			}
+
+			@include breakpoint($break-tablet) {
+        position: relative;
+        display: inline-block;
+			}
+    }
+  }
 }

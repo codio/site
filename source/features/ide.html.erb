@@ -45,6 +45,7 @@ features_page: ide
         <%= image_tag 'assets/index/logos/coded-by-kids-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
       </div>
       <div class="logo">
+        <%= image_tag 'assets/index/logos/durham-school-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
       </div>
       <div class="logo">
         <%= image_tag 'assets/index/logos/john-carroll-university-logo.png', alt: 'John Carroll University', class: 'img-responsive' %>
@@ -63,118 +64,113 @@ features_page: ide
       </div>
     </div>
   </div>
-</section>
 
-<section class="ide-body">
-
-  <section class='section top'>
-    <h1 class="">
-      Online IDE for Education
-    </h1>
-    <h2>
-      Teach Java, Python, C++ and more
-    </h2>
-    <div class="webide-section-block-row">
-      <div class="section-block h_iframe">
-        <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
-        <iframe src="https://player.vimeo.com/video/177558343?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
+  <div class="features-block">
+    <div class="features-row">
+      <div class="left-part description">
+        <div class="header">
+          Install and teach anything
+        </div>
+        <div class="text">
+          Our IDE gives you command line access to the Ubuntu box. Codio's infrastructure
+          supports anything that you choose to install and configure from the command line.
+          Codio boxes have sudo level privileges so you and your students can custom configure
+          your environment.
+        </div>
       </div>
-      <div class="section-block">
-        <h4>
-          Hassle-free and simple to use
-        </h4>
-        <div class="section-block-text">Because it’s web-based, there’s nothing to download, install or update. You can teach any programming
-          language such as Python, Java, C++, HTML, PHP, Javascript and more. It comes with an
-          <a href="/blog/integrated-debugger-launched-for-multiple-programming-languages/">integrated debugger</a>
-          that supports Python, Java, C, C++ and NodeJS.
+      <div class="middle-part">
+        |
+      </div>
+      <div class="right-part screen">
+        <%= image_tag 'assets/features/ide/install-and-teach-anything.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+      </div>
+    </div>
+    
+    <div class="features-row">
+      <div class="left-part screen">
+        <%= image_tag 'assets/features/ide/teach-anywhere.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        |
+      </div>
+      <div class="right-part description">
+        <div class="header">
+          Teach anywhere
+        </div>
+        <div class="text">
+          The student policy of 'Bring Your Own Device' (BYOD) is today's reality. Therefore, Codio
+          allows you to reduce your computer lab costs by providing a cloud-based IDE accessible
+          from the classroom or from home. Students just need a web browser to use the Codio IDE.
         </div>
       </div>
     </div>
 
-    <div class="action-buttons animated fadeInUp">
-      <%= link_to 'Free 30 day trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
-    </div>
-  </section>
-
-  <div class="section showcase">
-    <div class="section-body">
-      <img src="/img/assets/features/ide/ide.png" alt="Ide" />
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-body">
-      <div class="section-block-row">
-        <div class="section-block">
-          <h3 class="section-block-header savings">
-            Rich online code editor
-          </h3>
-          <div class="section-block-copy">
-            No special knowledge is needed to use Codio’s IDE. It's powerful
-            and used by advanced developers and easy enough for those who are
-            learning to code, and starts as soon as you open a project.
-          </div>
+    <div class="features-row">
+      <div class="left-part description">
+        <div class="header">
+          Virtual Desktop
         </div>
-        <div class="section-block">
-          <h3 class="section-block-header productivity">
-            Advanced features
-          </h3>
-          <div class="section-block-copy">
-            Multiple code panels. <a href="/docs/ide/navigation/editing/">Syntax highlighting support</a> for all
-            programming languages. <a href="/docs/ide/features/">Codio's advanced features</a> are easy to use
-            by beginners and help experienced users be more productive.
-          </div>
+        <div class="text">
+          Even though all Codio boxes are running in the Cloud, the Codio virtual desktop lets
+          anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything
+          else, they all run beautifully within your browser.
         </div>
       </div>
+      <div class="middle-part">
+        |
+      </div>
+      <div class="right-part screen">
+        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part screen">
+        <%= image_tag 'assets/features/ide/integrated-debugger.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        |
+      </div>
+      <div class="right-part description">
+        <div class="header">
+          Integrated Debugger
+        </div>
+        <div class="text">
+          The Codio IDE has a superb debugger that runs in the browser. It supports Java, Python,
+          C, C++, NodeJS. You will find all the features you would expect including gutter based
+          breakpoint, automatic watching of local variables, manual variable watches, call stack,
+          step over, step out and more.
+        </div>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part description">
+        <div class="header">
+          Advanced Features
+        </div>
+        <div class="text">
+          Codio is designed for experts and enables teaching complex topics such us Data Science
+          or Graphics. For full details, review our <a href="#">technical specifications</a>.
+          <ul>
+            <li>Syntax highlighting for all languages</li>
+            <li>Extensive keyboard shortcuts</li>
+            <li>Code complete</li>
+            <li>Multiple code panels</li>
+            <li>Display themes</li>
+            <li>Code beautification</li>
+            <li>Emmet support</li>
+            <li>One click software installation</li>
+            <li>Custom configurable menus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="middle-part">
+        |
+      </div>
+      <div class="right-part screen">
+        <%= image_tag 'assets/features/ide/advanced-features.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+      </div>
     </div>
   </div>
-
-  <div class="section full-width grey-top">
-    <div class="section-block">
-      <h2 class="section-header">
-        Additional features for Coders
-      </h2>
-      <p class="section-copy">
-        Codio is used by professionals, advanced students and developer
-        teams. Our IDE features also include autocomplete, code-folding,
-        key-bindings, line-numbering, multiple cursors, detailed control
-        over visual themes and preferences, key bindings, standard and regex
-        search and replace.
-      </p>
-    </div>
-  </div>
-
-  <div class="section quote grey-top">
-    <div class="section-block">
-      <div class="left-quote">
-        &ldquo;
-      </div>
-      <div class="section-block-copy">
-        Codio’s education tools made it attractive. Not just to put everyone
-        on the same platform, but also as a tool for managing classes. It’s
-        given us a way to organise a lot of the technical things we’re doing
-        with the kids, and is part of the strategic plan that’s helping us to
-        scale.
-      </div>
-      <div class="right-quote">
-        &rdquo;
-      </div>
-    </div>
-    <div class="teacher">
-      <div class="profile">
-        <%= inline_svg "assets/features/quotes/man-young-black.svg", class: "" %>
-      </div>
-      <div class="copy">
-        <h4>Sylvester Mobley</h4>
-        <p>
-          Founder, CodedbyKids <br>
-          Philadelphia, USA <br>
-          <%= link_to 'Learn more', 'http://blog.codio.com/coded-by-kids-and-codio/', class: 'link' %>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <%= partial "features-call-to-action" %>
 </section>

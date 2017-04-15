@@ -20,7 +20,7 @@ body.features_ide {
       line-height: 2rem;
 
       @include breakpoint($break-tablet) {
-      	line-height: 3rem;
+      	line-height: 4rem;
       }
   	}
 	}
@@ -164,16 +164,77 @@ body.features_ide .content-body {
     .features-row {
       @include span(13 of 13);
       padding: 0;
-      min-height: 500px;
+      min-height: 420px;
       height: 100%;
 
-      &:first-child {
+      &:nth-child(1) {
         .top {
           opacity: 0;
         }
+        .dot {
+          animation-delay: 0.15s;
+          animation-duration: 0.05s;
+        }
+        .bottom {
+          animation-delay: 0.2s;
+          animation-duration: 1.3s;
+        }
       }
 
-      &:last-child {
+      &:nth-child(2) {
+        .top {
+          animation-delay: 1.5s;
+          animation-duration: 0.15s;
+        }
+        .dot {
+          animation-delay: 1.65s;
+          animation-duration: 0.05s;
+        }
+        .bottom {
+          animation-delay: 1.7s;
+          animation-duration: 1.3s;
+        }
+      }
+
+      &:nth-child(3) {
+        .top {
+          animation-delay: 3s;
+          animation-duration: 0.15s;
+        }
+        .dot {
+          animation-delay: 3.15s;
+          animation-duration: 0.05s;
+        }
+        .bottom {
+          animation-delay: 3.2s;
+          animation-duration: 1.3s;
+        }
+      }
+
+      &:nth-child(4) {
+        .top {
+          animation-delay: 4.5s;
+          animation-duration: 0.15s;
+        }
+        .dot {
+          animation-delay: 4.65s;
+          animation-duration: 0.05s;
+        }
+        .bottom {
+          animation-delay: 4.7s;
+          animation-duration: 1.3s;
+        }
+      }
+
+      &:nth-child(5) {
+        .top {
+          animation-delay: 6s;
+          animation-duration: 0.15s;
+        }
+        .dot {
+          animation-delay: 6.15s;
+          animation-duration: 0.05s;
+        }
         .bottom {
           opacity: 0;
         }
@@ -242,7 +303,8 @@ body.features_ide .content-body {
       margin: 0 auto;
       width: 12px;
 
-      .top, .bottom, .first, .last {
+      .top, .bottom {
+        overflow: hidden;
         content: " ";
         display: block;
         width: 2px;
@@ -251,12 +313,12 @@ body.features_ide .content-body {
         margin: 0 auto;
       }
 
-      .top, .first {
+      .top {
         height: 50px;
       }
 
-      .bottom, .last {
-        height: 440px;
+      .bottom {
+        height: 360px;
       }
 
       .dot {

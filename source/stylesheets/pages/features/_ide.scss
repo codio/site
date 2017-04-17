@@ -172,68 +172,94 @@ body.features_ide .content-body {
           opacity: 0;
         }
         .dot {
-          animation-delay: 0.15s;
-          animation-duration: 0.05s;
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 0.15s;
         }
         .bottom {
-          animation-delay: 0.2s;
-          animation-duration: 1.3s;
+          -webkit-transition: height 1.3s;
+    	    -moz-transition: height 1.3s;
+  	  		transition: height 1.3s;
+	    		transition-delay: 0.2s;
         }
       }
 
       &:nth-child(2) {
         .top {
-          animation-delay: 1.5s;
-          animation-duration: 0.15s;
+          -webkit-transition: height 0.15s;
+    	    -moz-transition: height 0.15s;
+  	  		transition: height 0.15s;
+	    		transition-delay: 1.5s;
         }
         .dot {
-          animation-delay: 1.65s;
-          animation-duration: 0.05s;
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 1.65s;
         }
         .bottom {
-          animation-delay: 1.7s;
-          animation-duration: 1.3s;
+          -webkit-transition: height 1.3s;
+    	    -moz-transition: height 1.3s;
+  	  		transition: height 1.3s;
+	    		transition-delay: 1.7s;
         }
       }
 
       &:nth-child(3) {
         .top {
-          animation-delay: 3s;
-          animation-duration: 0.15s;
+          -webkit-transition: height 0.15s;
+    	    -moz-transition: height 0.15s;
+  	  		transition: height 0.15s;
+	    		transition-delay: 3s;
         }
         .dot {
-          animation-delay: 3.15s;
-          animation-duration: 0.05s;
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 3.15s;
         }
         .bottom {
-          animation-delay: 3.2s;
-          animation-duration: 1.3s;
+          -webkit-transition: height 1.3s;
+    	    -moz-transition: height 1.3s;
+  	  		transition: height 1.3s;
+	    		transition-delay: 3.2s;
         }
       }
 
       &:nth-child(4) {
         .top {
-          animation-delay: 4.5s;
-          animation-duration: 0.15s;
+          -webkit-transition: height 0.15s;
+    	    -moz-transition: height 0.15s;
+  	  		transition: height 0.15s;
+	    		transition-delay: 4.5s;
         }
         .dot {
-          animation-delay: 4.65s;
-          animation-duration: 0.05s;
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 4.65s;
         }
         .bottom {
-          animation-delay: 4.7s;
-          animation-duration: 1.3s;
+          -webkit-transition: height 1.3s;
+    	    -moz-transition: height 1.3s;
+  	  		transition: height 1.3s;
+	    		transition-delay: 4.7s;
         }
       }
 
       &:nth-child(5) {
         .top {
-          animation-delay: 6s;
-          animation-duration: 0.15s;
+          -webkit-transition: height 0.15s;
+    	    -moz-transition: height 0.15s;
+  	  		transition: height 0.15s;
+	    		transition-delay: 6s;
         }
         .dot {
-          animation-delay: 6.15s;
-          animation-duration: 0.05s;
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 6.15s;
         }
         .bottom {
           opacity: 0;
@@ -311,20 +337,22 @@ body.features_ide .content-body {
         background-color: $orange;
         position: relative;
         margin: 0 auto;
+        transition-timing-function: linear;
       }
 
       .top {
-        height: 50px;
-      }
-
-      .bottom {
-        height: 360px;
+        height: 0px;
       }
 
       .dot {
         display: block;
-        border: 6px solid $orange;
+        border: 0px solid $orange;
         border-radius: 50%;
+        transition-timing-function: linear;
+      }
+
+      .bottom {
+        height: 0px;
       }
     }
   }

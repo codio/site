@@ -19,6 +19,14 @@ const parseRSS = () => {
   });
 }
 
+function isElementInWindow(el) {
+  if ($(document).scrollTop() + $(window).height() > el.offset().top &&
+    $(document).scrollTop() - el.offset().top < el.height())
+    return true;
+  else
+    return false;
+}
+
 $().ready(() => {
   if (document.location.pathname.lastIndexOf("/features", 0) !== 0) return;
   var header = $('header');
@@ -60,6 +68,19 @@ $().ready(() => {
 
   subheader.on('affixed-top.bs.affix', function(){
     content.css('padding-top', '50px');
+  });
+
+  $(window).scroll(function() {
+    const el = $('#featuresRow');
+    var top = $('.top');
+    var dot = $('.dot');
+    var bottom = $('.bottom');
+
+    if (isElementInWindow(el)) {
+      top.css('height', '50px');
+      dot.css('border-width', '6px');
+      bottom.css('height', '360px');
+    }
   });
 
   parseRSS();

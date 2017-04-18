@@ -93,7 +93,6 @@ header {
   .dropdown-menu {
     z-index: 0;
   }
-
   .header-dropdown-menu {
     text-shadow: none;
     //background: rgba(10, 106, 225, 0.7);
@@ -104,7 +103,6 @@ header {
     top: 49px;
     padding-left: 105px;
     height: 110vh;
-
     .dropdown-item {
       display: block;
       text-transform: uppercase;
@@ -120,6 +118,7 @@ header {
     }
   }
 }
+    height: 110vh;
 
 .opaque-background {
   background: rgba(10, 106, 225, 1);

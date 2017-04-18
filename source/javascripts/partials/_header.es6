@@ -1,18 +1,15 @@
 /* globals $ */
 
 $(() => {
-
   const $header = $('header');
   const $toggle = $('.menu-toggle');
   const $nav = $('.mobile-nav');
   const $dropdownMenu = $('.header-dropdown-menu');
-
   if (!$header.hasClass('should-be-transparent')) {
     const offsetVal = $('.header-block').height() - 65;
 
     $(window).scroll(() => {
       const scrollTop = $(window).scrollTop();
-
       if (scrollTop >= offsetVal) {
         $header.removeClass('transparent-background');
         $header.addClass('opaque-background');

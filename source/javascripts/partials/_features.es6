@@ -19,36 +19,68 @@ const parseRSS = () => {
   });
 }
 
-$(document).ready(() => {
+function isElementInWindow(el) {
+  if ($(document).scrollTop() + $(window).height() > el.offset().top &&
+    $(document).scrollTop() - el.offset().top < el.height())
+    return true;
+  else
+    return false;
+}
+
+$().ready(() => {
   if (document.location.pathname.lastIndexOf("/features", 0) !== 0) return;
-  var subheader = $(".subheader-block");
-  var modalDialog = $(".modal-dialog");
-  var header = $("header");
-  var modal1 = $(".modal-body .step-1");
-  var modal2 = $(".modal-body .step-2");
+  var header = $('header');
+  var footer = $('footer');
+  var win = $(window);
+  var subheader = $('#features-subheader');
+  var headerBlock = $('.header-block');
+  var content = $('.content-body');
+  var scrollPos = 0;
 
-  $("#schoolsBtn").on("click", () => {
-    modal1.css("display", "none");
-    modal2.css("display", "block");
-  })
+  subheader.affix({
+    offset: {
+      top: function() {
+        const c = headerBlock.height() - 65;
+        this.top = c;
 
-  $("#backBtn").on("click", () => {
-    modal1.css("display", "block");
-	  modal2.css("display", "none");
+        return this.top;
+      },
+      bottom: function () {
+        this.bottom = footer.outerHeight(true) + 100;
+        return this.bottom;
+      }
+    }
   });
 
-  $("#modalDialog").on("show.bs.modal", () => {
-    var headerHeight = header.height();
-    var scrollTop = $(window).scrollTop();
-    var margin = -25;
+  subheader.on('affixed.bs.affix', function(){
+    scrollPos = win.scrollTop();
+    content.css('padding-top', '140px');
+    
+    win.scroll(() => {
+      var currentScroll = win.scrollTop();
+      if (scrollPos < (currentScroll - 45)) {
+        subheader.css('top', '25px');
+      } else {
+        subheader.css('top', '65px');
+      }
+    });
+  });
 
-    modal1.css("display", "block");
-    modal2.css("display", "none");
+  subheader.on('affixed-top.bs.affix', function(){
+    content.css('padding-top', '50px');
+  });
 
-    if (scrollTop < headerHeight) {
-      margin += headerHeight - scrollTop;
+  $(window).scroll(function() {
+    const el = $('#featuresRow');
+    var top = $('.top');
+    var dot = $('.dot');
+    var bottom = $('.bottom');
+
+    if (isElementInWindow(el)) {
+      top.css('height', '50px');
+      dot.css('border-width', '6px');
+      bottom.css('height', '360px');
     }
-    modalDialog.css("margin-top", margin + "px");
   });
 
   parseRSS();

@@ -1,115 +1,374 @@
-$gradient: linear-gradient(to right bottom, #1570bf 50%, #59c0fe 100%);
+body.features_ide {
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+  }
 
-.ide-body {
-	.video-link {
-		display: block;
-		margin: 4rem auto 0;
-		text-align: center;
-		color: #FFFFFF;
+	.header-block {
+		width: 100%;
+  	height: 36vw;
+  	position: relative;
+  	text-align: center;
+  	background-size: cover;
+  	background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
 
-		@include breakpoint(max-width $break-tablet) {
-			margin-top: 6rem;
-		}
+  	.title {
+  		height: 100%;
+  		font-size: 4vw;
+      font-weight: 500;
+      color: #fff;
+      line-height: 2rem;
+
+      @include breakpoint($break-tablet) {
+      	line-height: 4rem;
+      }
+  	}
 	}
+}
 
-	.webide-section-block-row {
-		@include container;
-		@include break;
-		margin-top: 2rem;
-		width: span(16 of 16);
+body.features_ide .content-body {
+	@include container;
+	text-align: center;
+	max-width: $max-width;
+	margin: 1rem auto;
+	padding: 50px 0;
 
-		@include breakpoint($break-tablet) {
-		}
+	.video-block {
+		margin: 1rem auto;
 
-		@include breakpoint($max-width) {
-		}
-
-		.section-block {
-			margin-bottom: 1.5rem;
-		}
-	}
-
-	.section-block {
-		@include container;
-		@include breakpoint($break-tablet) {
-			float: left;
-			width: span(12 of 32);
-		}
-
-		width: span(14 of 16);
-
-		&:first-of-type {
-			width: 100%;
-			@include breakpoint($max-width) {
-				margin-left: span(0 of 32);
-				margin-right: span(1 of 32);
-				width: 55%;
-			}
-		}
-
-		&:last-of-type {
-			width: 100%;
-			@include breakpoint($max-width) {
-				margin-right: span(0 of 32);
-				width: 40%;
-			}
-		}
-
-		h4 {
-			margin-top: 0;
+		.header {
+			padding: 2rem 0;
+			color: $light-blue;
+			font-size: 22px;
+			font-weight: 500;
 
 			@include breakpoint($max-width) {
-				padding-top: 9%;
-			}
-
-			@include breakpoint(1400px) {
-				padding-top: 14%;
+				font-size: 30px;
 			}
 		}
 
-		.section-block-text {
-			text-align: center;
-			font-weight: 300;
-			@include breakpoint($break-tablet) {
-				line-height: 25px;
+		.text {
+			padding-bottom: 2rem 1rem;
+			font-size: 14px;
+
+			@include breakpoint($max-width) {
 				font-size: 18px;
 			}
 		}
+		
+		.video {
+			width: span(2 of 3);
+			text-align: center;
+			margin: 0 auto;
+			padding: 1rem 0 4rem 0;
 
-		.section-block-text a, .section-block-copy a {
-			color: #00f;
-			text-decoration: underline;
+			.h_iframe {
+				position: relative;
 
-			&:hover,
-			&:focus,
-			&:active {
-				text-decoration: underline;
-				color: #00b;
+				.ratio {
+					display: block;
+					width: 100%;
+					background: $dark-gray;
+					opacity: 0;
+					height: auto;
+				}
+		
+				iframe {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+				}
 			}
 
-			&:active,
-			&:focus {
-				outline: none;
-			}
+      @include breakpoint($break-tablet) {
+        width: span(1 of 2);
+      }
 		}
 	}
 
-	.h_iframe {
-		position: relative;
+	.logos-block {
+		margin: 4rem auto;
+		padding: 2rem 1rem;
+		background-color: $lighter-gray;
 
-		.ratio {
-			display: block;
-			width: 100%;
-			background: $dark-gray;
-			opacity: 0;
+		.logos {
+			padding: 2rem 0;
+			text-align: center;
+      vertical-align: middle;
+
+			.logo {
+        position: relative;
+				width: 100%;
+				height: 70px;
+				display: block;
+
+				img {
+					max-width: 100%;
+          max-height: 100%;
+          vertical-align: middle;
+          position: absolute;
+          margin: auto;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+				}
+
+				@include breakpoint($break-tablet) {
+					height: 100px;
+					width: 18%;
+          display: inline-block;
+				}
+			}
+		}
+
+		.testimonial {
+      padding: 2rem;
+      text-align: center;
+      font-weight: 400;
+
+      .text {
+        font-size: 18px;
+
+        @include breakpoint($break-tablet) {
+          font-size: 24px;
+        }
+      }
+      
+      .author {
+        font-size: 16px;
+        padding-top: 1rem;
+
+        @include breakpoint($break-tablet) {
+          font-size: 20px;
+        }
+      }
+
+      @include breakpoint($break-tablet) {
+        padding: 2rem 4rem;
+      }
+		}
+
+    @include breakpoint($break-tablet) {
+		  padding: 2rem 4rem;
+    }
+	}
+
+  .features-block {
+    @include container;
+ 		margin: 4rem auto;
+		padding: 2rem;
+
+    .features-row {
+      @include span(13 of 13);
+      padding: 0;
+      min-height: 420px;
+      height: 100%;
+
+      &:nth-child(1) {
+        .top {
+          opacity: 0;
+        }
+        .dot {
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 0.15s;
+        }
+        .bottom {
+          -webkit-transition: height 1.3s;
+    	    -moz-transition: height 1.3s;
+  	  		transition: height 1.3s;
+	    		transition-delay: 0.2s;
+        }
+      }
+
+      &:nth-child(2) {
+        .top {
+          -webkit-transition: height 0.15s;
+    	    -moz-transition: height 0.15s;
+  	  		transition: height 0.15s;
+	    		transition-delay: 1.5s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 1.65s;
+        }
+        .bottom {
+          -webkit-transition: height 1.3s;
+    	    -moz-transition: height 1.3s;
+  	  		transition: height 1.3s;
+	    		transition-delay: 1.7s;
+        }
+      }
+
+      &:nth-child(3) {
+        .top {
+          -webkit-transition: height 0.15s;
+    	    -moz-transition: height 0.15s;
+  	  		transition: height 0.15s;
+	    		transition-delay: 3s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 3.15s;
+        }
+        .bottom {
+          -webkit-transition: height 1.3s;
+    	    -moz-transition: height 1.3s;
+  	  		transition: height 1.3s;
+	    		transition-delay: 3.2s;
+        }
+      }
+
+      &:nth-child(4) {
+        .top {
+          -webkit-transition: height 0.15s;
+    	    -moz-transition: height 0.15s;
+  	  		transition: height 0.15s;
+	    		transition-delay: 4.5s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 4.65s;
+        }
+        .bottom {
+          -webkit-transition: height 1.3s;
+    	    -moz-transition: height 1.3s;
+  	  		transition: height 1.3s;
+	    		transition-delay: 4.7s;
+        }
+      }
+
+      &:nth-child(5) {
+        .top {
+          -webkit-transition: height 0.15s;
+    	    -moz-transition: height 0.15s;
+  	  		transition: height 0.15s;
+	    		transition-delay: 6s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.05s;
+    	    -moz-transition: border-width 0.05s;
+  	  		transition: border-width 0.05s;
+	    		transition-delay: 6.15s;
+        }
+        .bottom {
+          opacity: 0;
+        }
+      }
+    }
+
+    .left-part {
+      @include span(6 of 13);
+      padding-left: 2rem;
+      animation-duration: 1.5s;
+      animation-delay: 0.1s;
+    }
+
+    .middle-part {
+      @include span(1 of 13);
+    }
+
+    .right-part {
+      @include span(6 of 13);
+      padding-right: 2rem;
+      animation-duration: 1.5s;
+      animation-delay: 0.1s;
+    }
+
+    .description {
+      text-align: left;
+      padding-top: 2rem;
+
+      .header {
+        padding-bottom: 1rem;
+        color: $light-blue;
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .text {
+        font-size: 16px;
+
+        ul {
+          list-style: disc;
+          padding: 2rem 0 0 1rem;
+        }
+      }
+    }
+
+    .screen {
 			height: auto;
-		}
-		iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-	}
+			display: block;
+
+			img {
+				max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+        margin: auto;
+			}
+
+			@include breakpoint($break-tablet) {
+        position: relative;
+        display: inline-block;
+			}
+    }
+
+    .vertical-dot-line {
+      overflow: hidden;
+      text-align: center;
+      margin: 0 auto;
+      width: 12px;
+
+      .top, .bottom {
+        overflow: hidden;
+        content: " ";
+        display: block;
+        width: 2px;
+        background-color: $orange;
+        position: relative;
+        margin: 0 auto;
+        transition-timing-function: linear;
+      }
+
+      .top {
+        height: 0px;
+      }
+
+      .dot {
+        display: block;
+        border: 0px solid $orange;
+        border-radius: 50%;
+        transition-timing-function: linear;
+      }
+
+      .bottom {
+        height: 0px;
+      }
+    }
+  }
+}
+
+body.features_ide .ready-started-block {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  height: 220px;
+  background-color: $blue;
+
+  h2 {
+    margin-top: 0;
+    color: #fff;
+    padding: 40px 0 20px 0;
+  }
 }

@@ -37,22 +37,36 @@ body.features_ide .content-body {
 		margin: 1rem auto;
 
 		.header {
-			padding: 2rem 0;
+			padding: 1rem 2rem;
 			color: $light-blue;
 			font-size: 22px;
 			font-weight: 500;
 
+			@include breakpoint($break-tablet) {
+				font-size: 26px;
+				padding: 2rem 4rem;
+			}
+
 			@include breakpoint($max-width) {
 				font-size: 30px;
+				padding: 2rem 6rem;
 			}
 		}
 
 		.text {
-			padding-bottom: 2rem 1rem;
+			padding: 1rem 1rem 2rem 1rem;
 			font-size: 14px;
+			max-width: 700px;
+			margin: 0 auto;
+
+			@include breakpoint($break-tablet) {
+				font-size: 16px;
+				max-width: 800px;
+			}
 
 			@include breakpoint($max-width) {
 				font-size: 18px;
+				max-width: 900px;
 			}
 		}
 		

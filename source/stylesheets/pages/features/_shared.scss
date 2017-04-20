@@ -363,7 +363,6 @@ body.features {
       }
     }
   }
-
 }
 
 body.features {
@@ -392,8 +391,8 @@ body.features .content-body {
   @include container;
   text-align: center;
   max-width: $max-width;
-  margin: 1rem auto;
-  padding: 50px 0;
+  margin: 0 auto;
+  padding: 140px 0 40px 0;
 
   .video-block {
     margin: 1rem auto;
@@ -407,6 +406,7 @@ body.features .content-body {
       @include breakpoint($break-tablet) {
         font-size: 26px;
         padding: 2rem 4rem;
+        line-height: 2rem;
       }
 
       @include breakpoint($max-width) {
@@ -534,8 +534,8 @@ body.features .content-body {
 
   .features-block {
     @include container;
-    margin: 4rem auto;
-    padding: 2rem;
+    margin: 4rem auto 0 auto;
+    padding: 2rem 2rem 0 2rem;
 
     .features-row {
       @include span(13 of 13);
@@ -637,6 +637,57 @@ body.features .content-body {
           transition: border-width 0.01s;
           transition-delay: 2.14s;
         }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 2.15s;
+        }
+      }
+
+      &:nth-child(6) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 2.65s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 2.67s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 2.68s;
+        }
+      }
+
+      &:nth-child(7) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 3.18s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 3.2s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 3.21s;
+        }
+      }
+
+      &:last-child {
         .bottom {
           opacity: 0;
         }

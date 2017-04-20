@@ -24,7 +24,6 @@ body.features {
     .header-item {
       @include gallery(2 of 12);
       padding: 0 5px;
-      margin-bottom: 10px;
 
       .header-img {
         width: 100%;
@@ -45,26 +44,20 @@ body.features {
         }
       }
             
-      .header-button {
+      .header-label {
         vertical-align: bottom;
+        display: inline-block;
               
-        a {
-          padding-bottom: 10px;
-          color: $medium-gray;
-          font-size: 12px;
-          font-weight: 500;
+        color: $medium-gray;
+        font-size: 12px;
+        font-weight: 500;
                 
-          &:hover {
-            color: $blue;
-          }
+        @include breakpoint($break-tablet) {
+          font-size: 14px;
+        }
 
-          @include breakpoint($break-tablet) {
-            font-size: 14px;
-          }
-
-          @include breakpoint(1180px) {
-            font-size: 16px;
-          }
+        @include breakpoint(1180px) {
+          font-size: 16px;
         }
 
         span {
@@ -77,11 +70,17 @@ body.features {
           }
         }
       }
+
+      &:hover {
+        .header-label {
+          color: $blue;
+        }
+      }
     }
 
     .selected {
-      a {
-        color: $blue !important;
+      .header-label {
+        color: $blue;
         border-bottom: 4px solid $blue;
       }
     }

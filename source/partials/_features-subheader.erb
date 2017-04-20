@@ -1,57 +1,57 @@
 <div id="features-subheader" class="subheader-block">
 	<div class="menu">
 		<div class="header-item <% if current_resource.data.features_page == 'infrastructure' %> selected<% end %>">
-    	<div class="header-img">
-      	<%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
-    	</div>
-    	<div class="header-button">
-      	<%= link_to 'Infrastructure', '/features/infrastructure', class: '' %>
-    	</div>
+      <a href="/features/infrastructure">
+        <div class="header-img">
+        	<%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
+    	  </div>
+    	  <div class="header-label">Infrastructure</div>
+      </a>
   	</div>
 
 		<div class="header-item <% if current_resource.data.features_page == 'ide' %> selected<% end %>">
-    	<div class="header-img">
-      	<%= inline_svg 'assets/index/webbased.svg', class: '' %>
-    	</div>
-    	<div class="header-button">
-      	<%= link_to 'Online IDE', '/features/ide', class: '' %>
-    	</div>
+      <a href="/features/ide">
+    	  <div class="header-img">
+      	  <%= inline_svg 'assets/index/webbased.svg', class: '' %>
+    	  </div>
+    	  <div class="header-label">Online IDE</div>
+      </a>
   	</div>
 
 		<div class="header-item">
-    	<div class="header-img">
-      	<%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
-    	</div>
-    	<div class="header-button">
-      	<%= link_to 'Grading<span> & Auto-Grading</span>', '', class: '' %>
-    	</div>
+      <a href="">
+    	  <div class="header-img">
+      	  <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
+    	  </div>
+    	  <div class="header-label">Grading<span> & Auto-Grading</span></div>
+      </a>
   	</div>
 
 		<div class="header-item">
-    	<div class="header-img">
-      	<%= inline_svg 'assets/index/learning.svg', class: '' %>
-    	</div>
-    	<div class="header-button">
-	      <%= link_to 'LMS', '', class: '' %>
-  	  </div>
+      <a href="">
+    	  <div class="header-img">
+      	  <%= inline_svg 'assets/index/learning.svg', class: '' %>
+    	  </div>
+    	  <div class="header-label">LMS</div>
+      </a>
   	</div>
 
 		<div class="header-item">
-    	<div class="header-img">
-	      <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
-  	  </div>
-    	<div class="header-button">
-      	<%= link_to 'Curriculum<span> Authoring</span>', '/features/curriculum', class: '' %>
-    	</div>
+      <a href="/features/curriculum">
+    	  <div class="header-img">
+	        <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
+  	    </div>
+    	  <div class="header-label">Curriculum<span> Authoring</span></div>
+      </a>
   	</div>
 
 		<div class="header-item">
-    	<div class="header-img">
-      	<%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
-    	</div>
-    	<div class="header-button">
-      	<%= link_to 'Templating', '/features/templates', class: '' %>
-    	</div>
+      <a href="/features/templates">
+    	  <div class="header-img">
+      	  <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
+    	  </div>
+    	  <div class="header-label">Templating</div>
+      </a>
   	</div>
   </div>
 </div>

@@ -1,5 +1,5 @@
 
-body.features .features_specs .content {
+body.specs .content {
   margin: 0 auto 0 auto;
   max-width: 100%;
 
@@ -84,21 +84,6 @@ body.specs .header-block {
     em {
       font-weight: 400;
     }
-  }
-}
-
-body.features .features_specs .overview-section {
-  @include container;
-  @include break;
-
-  @include breakpoint($break-tablet) {
-    @include container(14 of 16);
-    margin: 0 span(1 of 16);
-    max-width: $max-width;
-  }
-
-  @include breakpoint($max-width) {
-    margin: 0 auto;
   }
 }
 

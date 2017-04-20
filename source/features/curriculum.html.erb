@@ -1,154 +1,201 @@
 ---
 title: Learn to Code | Code Curriculum  | Codio
 description: Codio provides course content that is mapped to national curriculum standards. Courses teach how to code in Java, Python, Javascript and the concept of computational thinking.
-fixed: true
+features_page: curriculum
 ---
 
 <section class="header-block">
-  <h1>Curriculum-Mapped Courses</h1>
-  <h2>Codio is built for students. Learning to code is an essential skill.</h2>
-  <div class="action-buttons animated fadeInUp">
-    <%= link_to 'Start FREE Trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
-    <%= link_to 'Book a Demo', '/demo', class: 'button button-xlarge button-main button-demo' %>
-  </div>
-  <div class="clear">
+  <div class="title vertical">
+    Easy to onboard and use with<br/>minimal disruption
   </div>
 </section>
 
-<section class="curriculum-body">
-  <div class="section top">
-    <h1>
-      Courses mapped to leading National Curricula
-    </h1>
-    <p>
-      Access to our 80+ course units comes as a standard with any Codio licence. We are constantly
-      working with the UK's national exam board, <a href="/docs/teacher/courses/ocr/">Oxford, Cambridge and RSA</a> (OCR)
-      to ensure our content is mapped to national curriculum standards. For further details, please
-      see our curriculum map for the <a href="https://codio.com/docs/content/courses/currmap2016/">GSCE
-      J276 specification</a>. We are now in the process of mapping
-      our curriculum to the  K12cs.org framework for USA K-12 schools.
-    </p>
-  </div>
+<%= partial "features-subheader" %>
 
-  <div class="grey">
-    <div class="curriculum-img">
-      <%= image_tag "assets/features/curriculum/courses_mapped.png", alt: "Mapped courses", class: "curriculum-content-img" %>
+<section class="content-body">
+  <div class="video-block">
+    <div class="header">
+      A fully featured professional grade IDE connected to every cloud server
     </div>
-  </div>
-
-  <div class="section top">
-    <h1>
-      Auto-marked assessments with all Courses
-    </h1>
-    <p>
-      All Codio courses come with tests integrated into the content so students have an interactive
-      and engaging learning experience. All our tests are graded automatically so students get
-      instant feedback.
-    </p>
-  </div>
-
-  <div class="action-buttons animated fadeInUp">
-    <%= link_to 'Start free trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
-  </div>
-
-  <hr/>
-
-  <div class="curriculum-faq">
-
-    <div class="curriculum-faq-col curriculum-faq-col-left">
-      <div class="curriculum-faq-entry">
-        <h3>Computational Thinking - Create a maze game</h3>
-        <p>
-          The cource teaches the fundamental concepts of computational thinking.
-        </p>
-      </div>
-      <div class="curriculum-faq-entry">
-        <h3>Flode - Flowcharting</h3>
-        <p>
-          A unit under Introduction to Programming, Flode teaches foundation programming concepts
-          using executable and debuggable flow charts.
-        </p>
-      </div>
-      <div class="pricing-faq-entry">
-        <h3>Introduction to Web Development</h3>
-        <p>
-          The course teaches the critical skills of HTML and CSS. It also uses Javascript
-          to teach the basic of web sites and web applications.
-        </p>
-      </div>
-      <div class="curriculum-faq-entry">
-        <h3>OCR's Cambridge MOOC</h3>
-        <p>
-          Created by OCR, the course covers all the basic topics students need to know
-          to get started. The tutorial contains content, videos and auto-marked tests.
-        </p>
+    <div class="text">
+      Connected to every cloud VM, Codio's online IDE offers all the tools and features
+      you would expect from leading desktop IDEs, including the ability to run GUI
+      applications. Hide or reveal complexity depending on your students' learning stage.
+    </div>
+    <div class="video">
+      <div class="h_iframe">
+        <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
+        <iframe src="https://www.youtube.com/embed/tLM0l6mneQE"
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
       </div>
     </div>
-    <div class="curriculum-faq-col curriculum-faq-col-right">
-      <div class="curriculum-faq-entry">
-        <h3>An Introduction<br />to Programming</h3>
-        <p>
-          Introduces the basic concepts of programming as well as Javascript, Python and Java.
-        </p>
+    <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
+  </div>
+
+  <div class="logos-block">
+    <div class="logos">
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/kent-state-university-logo.png', alt: 'Kent State University', class: 'img-responsive' %>
       </div>
-      <div class="curriculum-faq-entry">
-        <h3>Crunch</h3>
-        <p>
-          Crunch is a modern and very easy to use alternative to Little Man Computer.
-          It comes with a debugger and visualization feature that teaches the fetch/execute
-          cycle and shows how CPUs work.
-        </p>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coded-by-kids-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
       </div>
-      <div class="curriculum-faq-entry">
-        <h3>Linux Command Line Interface</h3>
-        <p>
-          This course teaches students how to access the terminal and access the Linux command line interface.
-        </p>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/wright-state-university-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
       </div>
-      <div class="curriculum-faq-entry">
-        <h3>MySQL</h3>
-        <p>
-          The course introduces basic and advance topics relating to accessing of databaes through code.
-          It is a good course to challenge for students interested in web applications.
-        </p>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/john-carroll-university-logo.png', alt: 'John Carroll University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coventry-university-logo.png', alt: 'Coventry University', class: 'img-responsive' %>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="text">
+        <a href="news.codio.com/codio-used-to-teach-cs-and-non-cs-majors-at-wright-state-university">
+          "The VM technology, integrated IDE and class monitoring tools are a killer combination.
+          The time savings for students and faculty are huge."
+        </a>
+      </div>
+      <div class="author">
+        - Mateen Rizki, Chair of the Department of Computer Science and Engineering,<br/> Wright State University
       </div>
     </div>
   </div>
 
-  <hr/>
-
-  <div class="section">
-    <div class="bubble-container">
-      <div class="bubble-section quote">
-        <div class="section-block bubble">
-          <div class="left-quote">
-            &ldquo;
-          </div>
-          <div class="section-block-copy vertical">
-            Students who had lost confidence and had been "pulling their hair out" because they "could not get"
-            Little Man Computer, loved CRUNCH from Codio. They got the concepts, so thank you.
-          </div>
-          <div class="right-quote">
-            &rdquo;
-          </div>
+  <div class="features-block">
+    <div id="featuresRow" class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Install and teach anything
         </div>
-        <div class="teacher">
-          <div class="profile">
-            <%= image_tag 'assets/features/curriculum/white-beard-man.png', alt: 'Peter Kelly, Norton College, UK', class: 'profile-img' %>
-          </div>
-          <div class="copy">
-            <h4>Peter Kelly</h4>
-            <p>
-              Head of Computing and Business,<br/>
-              Norton College<br/>
-              UK
-            </p>
-          </div>
+        <div class="text">
+          Our IDE gives you command line access to the Ubuntu box. Codio's infrastructure
+          supports anything that you choose to install and configure from the command line.
+          Codio boxes have sudo level privileges so you and your students can custom configure
+          your environment.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row1" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/install-and-teach-anything.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+      </div>
+    </div>
+    
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/ide/teach-anywhere.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row2" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Teach anywhere
+        </div>
+        <div class="text">
+          The student policy of 'Bring Your Own Device' (BYOD) is today's reality. Therefore, Codio
+          allows you to reduce your computer lab costs by providing a cloud-based IDE accessible
+          from the classroom or from home. Students just need a web browser to use the Codio IDE.
         </div>
       </div>
     </div>
+
+    <div class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Virtual Desktop
+        </div>
+        <div class="text">
+          Even though all Codio boxes are running in the Cloud, the Codio virtual desktop lets
+          anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything
+          else, they all run beautifully within your browser.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row3" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/ide/integrated-debugger.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row4" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Integrated Debugger
+        </div>
+        <div class="text">
+          The Codio IDE has a superb debugger that runs in the browser. It supports Java, Python,
+          C, C++, NodeJS. You will find all the features you would expect including gutter based
+          breakpoint, automatic watching of local variables, manual variable watches, call stack,
+          step over, step out and more.
+        </div>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Advanced Features
+        </div>
+        <div class="text">
+          Codio is designed for experts and enables teaching complex topics such us Data Science
+          or Graphics. For full details, review our <a href="#">technical specifications</a>.
+          <ul>
+            <li>Syntax highlighting for all languages</li>
+            <li>Extensive keyboard shortcuts</li>
+            <li>Code complete</li>
+            <li>Multiple code panels</li>
+            <li>Display themes</li>
+            <li>Code beautification</li>
+            <li>Emmet support</li>
+            <li>One click software installation</li>
+            <li>Custom configurable menus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row5" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/advanced-features.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+      </div>
+    </div>
   </div>
+</section>
 
-  <%= partial "features-call-to-action" %>
-
+<section class="ready-started-block">
+  <h2>Ready to get started?</h2>
+  <%= link_to 'Start Free Trial', '/start-edu-trial',
+    class: 'button button-rounded button-main' %>
 </section>

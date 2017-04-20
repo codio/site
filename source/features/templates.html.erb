@@ -1,104 +1,203 @@
 ---
 title: "Templates | Teaching code | Codio"
 description: "Codio’s templates make it easy to create your own projects, or use our pre-configured courses."
+features_page: templates
 ---
 <% @pricingType = "university" %>
 <% @signupUrl = "/start-edu-trial" %>
 
-<section class="features-body">
+<section class="header-block">
+  <div class="title vertical">
+    Easy to onboard and use with<br/>minimal disruption
+  </div>
+</section>
 
-  <section class='section top'>
-    <h1>
-      Project templates
-    </h1>
-    <p>
-      Codio works with a series of templates, or Codio
-      stacks. You can use our pre-configured stacks or
-      create your own. This template approach makes
-      Codio easy to use, configure and adapt.
-    </p>
-    <p>
-      Codio's templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration.
-    </p>
-    <div class="action-buttons animated fadeInUp">
-      <%= link_to 'Free 30 day trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
+<%= partial "features-subheader" %>
+
+<section class="content-body">
+  <div class="video-block">
+    <div class="header">
+      A fully featured professional grade IDE connected to every cloud server
     </div>
-  </section>
+    <div class="text">
+      Connected to every cloud VM, Codio's online IDE offers all the tools and features
+      you would expect from leading desktop IDEs, including the ability to run GUI
+      applications. Hide or reveal complexity depending on your students' learning stage.
+    </div>
+    <div class="video">
+      <div class="h_iframe">
+        <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
+        <iframe src="https://www.youtube.com/embed/tLM0l6mneQE"
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
+  </div>
 
-  <div class="grey">
-    <div class="section showcase">
-      <div class="section-body">
-        <%= inline_svg "assets/features/templates.svg", class: "" %>
+  <div class="logos-block">
+    <div class="logos">
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/kent-state-university-logo.png', alt: 'Kent State University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coded-by-kids-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/wright-state-university-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/john-carroll-university-logo.png', alt: 'John Carroll University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coventry-university-logo.png', alt: 'Coventry University', class: 'img-responsive' %>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="text">
+        <a href="news.codio.com/codio-used-to-teach-cs-and-non-cs-majors-at-wright-state-university">
+          "The VM technology, integrated IDE and class monitoring tools are a killer combination.
+          The time savings for students and faculty are huge."
+        </a>
+      </div>
+      <div class="author">
+        - Mateen Rizki, Chair of the Department of Computer Science and Engineering,<br/> Wright State University
       </div>
     </div>
   </div>
 
-  <div class="section full-width section-center">
-    <div class="section-block">
-      <h3 class="section-block-header">
-        Understanding stacks
-      </h3>
-      <div class="section-block-copy">
-        <p>
-          Stacks are simply Codio boxes that have the base software
-          components installed and are fully configured. You simply take a
-          snapshot of the box contents to save it as a stack. With one click,
-          it's ready for your students to use.
-        </p>
-        <p>
-          Codio comes with a number of stacks pre-loaded. You can create
-          your own stacks, from scratch or by adapting an existing stack, to
-          suit the specific needs of your courses.
-        </p>
+  <div class="features-block">
+    <div id="featuresRow" class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Install and teach anything
+        </div>
+        <div class="text">
+          Our IDE gives you command line access to the Ubuntu box. Codio's infrastructure
+          supports anything that you choose to install and configure from the command line.
+          Codio boxes have sudo level privileges so you and your students can custom configure
+          your environment.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row1" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/install-and-teach-anything.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
       </div>
     </div>
-  </div>
+    
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/ide/teach-anywhere.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row2" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Teach anywhere
+        </div>
+        <div class="text">
+          The student policy of 'Bring Your Own Device' (BYOD) is today's reality. Therefore, Codio
+          allows you to reduce your computer lab costs by providing a cloud-based IDE accessible
+          from the classroom or from home. Students just need a web browser to use the Codio IDE.
+        </div>
+      </div>
+    </div>
 
-  <div class="grey-top">
-    <div class="section full-width section-center">
-      <div class="section-block">
-        <h3 class="section-block-header">
-          Starter packs
-        </h3>
-        <div class="section-block-copy">
-          Starter packs help your students get started in seconds. They are
-          fully templated projects with source code, pre-installed languages,
-          databases and any other components. So you can instantly create
-          projects which are ready to edit, compile and run.
+    <div class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Virtual Desktop
         </div>
+        <div class="text">
+          Even though all Codio boxes are running in the Cloud, the Codio virtual desktop lets
+          anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything
+          else, they all run beautifully within your browser.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row3" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
       </div>
     </div>
-  </div>
-  <div class="grey-top">
-    <div class="section quote">
-      <div class="section-block">
-        <div class="left-quote">
-          &ldquo;
-        </div>
-        <div class="section-block-copy">
-          Coding in the cloud is great because it enables young people
-          to take the work they learn in school and continue it at home
-          or anywhere around the world.
-        </div>
-        <div class="right-quote">
-          &rdquo;
-        </div>
-      </div>
-      <div class="teacher">
-        <div class="profile man-young-white">
-          <%= inline_svg "assets/features/quotes/man-young-black.svg", class: "" %>
-        </div>
-        <div class="copy">
-          <h4>Mark Martin</h4>
-          <p>
-            Urban Teacher TV<br />
-            Blogger and Computing Teacher<br />
-            London, UK
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <%= partial "features-call-to-action" %>
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/ide/integrated-debugger.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row4" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Integrated Debugger
+        </div>
+        <div class="text">
+          The Codio IDE has a superb debugger that runs in the browser. It supports Java, Python,
+          C, C++, NodeJS. You will find all the features you would expect including gutter based
+          breakpoint, automatic watching of local variables, manual variable watches, call stack,
+          step over, step out and more.
+        </div>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Advanced Features
+        </div>
+        <div class="text">
+          Codio is designed for experts and enables teaching complex topics such us Data Science
+          or Graphics. For full details, review our <a href="#">technical specifications</a>.
+          <ul>
+            <li>Syntax highlighting for all languages</li>
+            <li>Extensive keyboard shortcuts</li>
+            <li>Code complete</li>
+            <li>Multiple code panels</li>
+            <li>Display themes</li>
+            <li>Code beautification</li>
+            <li>Emmet support</li>
+            <li>One click software installation</li>
+            <li>Custom configurable menus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row5" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/advanced-features.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ready-started-block">
+  <h2>Ready to get started?</h2>
+  <%= link_to 'Start Free Trial', '/start-edu-trial',
+    class: 'button button-rounded button-main' %>
 </section>

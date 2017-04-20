@@ -1,0 +1,113 @@
+
+body.features .features_specs .content {
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+
+  @include breakpoint($break-tablet) {
+    @include container(13 of 15);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $max-width;
+  }
+}
+
+.specs-body {
+  @include span(4);
+  @include break;
+
+  @include breakpoint($break-tablet) {
+    @include nobreak;
+    @include span(10 of 16);
+    margin-left: span(5 of 16);
+    padding-top: 3rem;
+  }
+
+  h3 a {
+    color: $base-font-color;
+  }
+
+  ul {
+    list-style: disc outside none;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  ul, ol {
+    padding-left: 20px;
+    margin-bottom: $base-line-height;
+  }
+
+  .specs-toc {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  a:not(.specs-toc-head) {
+    @include linkUnderlines(white, $base-font-color);
+  }
+
+  hr {
+    position: relative;
+    border-color: $base-font-color;
+  }
+
+  caption, th, td {
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .leftPad {
+    margin-left: 40px;
+  }
+}
+
+body.specs .header-block {
+  @include span(4);
+  position: relative;
+
+
+  h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: gutter();
+    margin-right: gutter();
+    padding-top: 105px;
+    padding-bottom: 3rem;
+
+    @include breakpoint($break-tablet) {
+      font-size: 3rem;
+    }
+
+    em {
+      font-weight: 400;
+    }
+  }
+}
+
+body.features .features_specs .overview-section {
+  @include container;
+  @include break;
+
+  @include breakpoint($break-tablet) {
+    @include container(14 of 16);
+    margin: 0 span(1 of 16);
+    max-width: $max-width;
+  }
+
+  @include breakpoint($max-width) {
+    margin: 0 auto;
+  }
+}
+
+.specs-content {
+  @include container;
+  padding-top: 2 * $base-line-height;
+
+  @include breakpoint($max-width) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

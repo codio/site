@@ -2,28 +2,40 @@
 body.specs .content {
   margin: 0 auto 0 auto;
   max-width: 100%;
-
-  @include breakpoint($break-tablet) {
-    @include container(13 of 15);
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $max-width;
-  }
 }
 
 .specs-body {
   @include span(4);
   @include break;
+  position: relative;
 
   @include breakpoint($break-tablet) {
     @include nobreak;
     @include span(10 of 16);
     margin-left: span(5 of 16);
-    padding-top: 3rem;
+    padding-top: 1rem;
   }
 
-  h3 a {
-    color: $base-font-color;
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $light-blue;
+
+    @include breakpoint($break-tablet) {
+      font-size: 2rem;
+    }
+  }
+
+  h3 {
+    font-size: 1rem;
+
+    @include breakpoint($break-tablet) {
+      font-size: 1.5rem;
+    }
+
+    a {
+      color: $base-font-color;
+    }
   }
 
   ul {
@@ -64,35 +76,33 @@ body.specs .content {
 }
 
 body.specs .header-block {
-  @include span(4);
+  width: 100%;
+  height: 25vw;
   position: relative;
+  text-align: center;
+  background-size: cover;
+  background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
 
-
-  h2 {
-    font-weight: 300;
-    font-size: 2rem;
-    text-align: center;
-    margin-left: gutter();
-    margin-right: gutter();
-    padding-top: 105px;
-    padding-bottom: 3rem;
+  .title {
+    height: 100%;
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    line-height: 2rem;
 
     @include breakpoint($break-tablet) {
-      font-size: 3rem;
-    }
-
-    em {
-      font-weight: 400;
+      line-height: 4rem;
     }
   }
 }
 
 .specs-content {
   @include container;
-  padding-top: 2 * $base-line-height;
+  padding: 0 2rem;
 
   @include breakpoint($max-width) {
     margin-left: auto;
     margin-right: auto;
+    max-width: $max-width;
   }
 }

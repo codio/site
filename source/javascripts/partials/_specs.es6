@@ -9,7 +9,7 @@ $(() => {
     $menu.affix({
       offset: {
         top: function () {
-          const c = $menu.offset().top
+          const c = $menu.offset().top - 50
           this.top = c
 
           return this.top

@@ -5,13 +5,13 @@
     <% ordered_simple(sub_pages("specs"), "/").each do |resource| %>
       <% if current_resource.data.title == resource.data.title %>
         <li>
-          <div class="active item arrow-box">
-            <a href="#"><span><%= resource.data.title %></span></a>
+          <div class="active item">
+            <a href="#"><span><%= resource.data.sname %></span></a>
           </div>
         </li>
       <% else %>
         <li class="item">
-          <%= link_to resource.data.title, resource.url %>
+          <%= link_to resource.data.sname, resource.url %>
         </li>
       <% end %>
     <% end %>

@@ -1,0 +1,14 @@
+<% wrap_layout :'layout' do %>
+
+  <div class="specs-content">
+    <%= partial 'specs-side-navigation' %>
+
+    <article data-swiftype-name="body" data-swiftype-type="text" class="specs-body">
+      <h2 data-swiftype-name="title" data-swiftype-type="string">
+        <%= current_resource.data.title %>
+      </h2>
+      <hr/>
+      <%= yield %>
+    </article>
+
+<% end %>

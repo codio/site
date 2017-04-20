@@ -14,7 +14,7 @@ At this point the panel layout is set up automatically according to the layout s
 
 Within the player various options can be controlled by the user
 
-
+- **Collapse Guides** allows the user to collapse the Guides pane to provide larger working area if required.
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
 - **Settings** allows the user to change the Theme (light/dyslexic), set the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/docs/student/dyslexia/) section
 - **Units** allows the users to navigate easily to other units in the course.

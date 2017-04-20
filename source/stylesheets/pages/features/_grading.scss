@@ -1,5 +1,9 @@
 body.features_grading {
-	.header-block {
-  	background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
+	.content-body {
+		.features-block {
+			.features-row {
+				min-height: 448px;
+			}
+		}
 	}
 }

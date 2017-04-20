@@ -14,12 +14,10 @@ features_page: grading
 <section class="content-body">
   <div class="video-block">
     <div class="header">
-      A fully featured professional grade IDE connected to every cloud server
+      Manual and automatic grading will spare you large amounts of admin time that you can then spend teaching
     </div>
     <div class="text">
-      Connected to every cloud VM, Codio's online IDE offers all the tools and features
-      you would expect from leading desktop IDEs, including the ability to run GUI
-      applications. Hide or reveal complexity depending on your students' learning stage.
+Codio offers an extremely rich variety of manual and auto grading support. All grading methods are fed back to the teacher dashboards. We also support gradebook passback to LMS platforms such as Canvas, Blackboard or Moodle.
     </div>
     <div class="video">
       <div class="h_iframe">
@@ -67,13 +65,10 @@ features_page: grading
     <div id="featuresRow" class="features-row">
       <div class="left-part description wow slideInLeft">
         <div class="header">
-          Install and teach anything
+          Auto-grading code
         </div>
         <div class="text">
-          Our IDE gives you command line access to the Ubuntu box. Codio's infrastructure
-          supports anything that you choose to install and configure from the command line.
-          Codio boxes have sudo level privileges so you and your students can custom configure
-          your environment.
+          We offer two forms of automated code grading.  Our standard grading is dialog driven and usually covers at least 80% of use cases. It covers argument and stdin inputs and handles multiple test cases for full code coverage. Advanced grading lets you write your own grading scripts in any language you choose. This allows you to use any 3rd party testing or support libraries and analyze any aspects of student code.
         </div>
       </div>
       <div class="middle-part">
@@ -84,13 +79,13 @@ features_page: grading
         </div>
       </div>
       <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/install-and-teach-anything.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/grading/std-autograde.jpg', alt: 'Standard autograding', class: 'img-responsive' %>
       </div>
     </div>
     
     <div class="features-row">
       <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/ide/teach-anywhere.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/grading/mcq.jpg', alt: 'Other autograding', class: 'img-responsive' %>
       </div>
       <div class="middle-part">
         <div id="row2" class="vertical-dot-line">
@@ -101,12 +96,10 @@ features_page: grading
       </div>
       <div class="right-part description wow slideInRight">
         <div class="header">
-          Teach anywhere
+          Other auto-graded assessments
         </div>
         <div class="text">
-          The student policy of 'Bring Your Own Device' (BYOD) is today's reality. Therefore, Codio
-          allows you to reduce your computer lab costs by providing a cloud-based IDE accessible
-          from the classroom or from home. Students just need a web browser to use the Codio IDE.
+          You can create a variety of single and multiple response MCQ (multiple response questions) asssments. We also offer fill-in-the-blank questions.
         </div>
       </div>
     </div>
@@ -114,12 +107,10 @@ features_page: grading
     <div class="features-row">
       <div class="left-part description wow slideInLeft">
         <div class="header">
-          Virtual Desktop
+          Manual grading
         </div>
         <div class="text">
-          Even though all Codio boxes are running in the Cloud, the Codio virtual desktop lets
-          anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything
-          else, they all run beautifully within your browser.
+          Codio packs a lot of features that let you manually grade student assignments with great efficiency. You can instantly access any student's code and review, compile and execute it. Grading rubrics can be centrally defined and applied to any project. Grading moderation allows already graded assignments to be reviewed by additional faculty and these secondary grades to be used for grading quality monitoring.
         </div>
       </div>
       <div class="middle-part">
@@ -130,7 +121,7 @@ features_page: grading
         </div>
       </div>
       <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/grading/rubric.jpg', alt: 'Grading rubric', class: 'img-responsive' %>
       </div>
     </div>
 
@@ -147,49 +138,15 @@ features_page: grading
       </div>
       <div class="right-part description wow slideInRight">
         <div class="header">
-          Integrated Debugger
+          Open ended questions
         </div>
         <div class="text">
-          The Codio IDE has a superb debugger that runs in the browser. It supports Java, Python,
-          C, C++, NodeJS. You will find all the features you would expect including gutter based
-          breakpoint, automatic watching of local variables, manual variable watches, call stack,
-          step over, step out and more.
+          If you want to create questions that require a text or essay type answer, free text questions can be created. You can then manually grade these directly from the teacher dashboard.
         </div>
       </div>
     </div>
 
-    <div class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Advanced Features
-        </div>
-        <div class="text">
-          Codio is designed for experts and enables teaching complex topics such us Data Science
-          or Graphics. For full details, review our <a href="#">technical specifications</a>.
-          <ul>
-            <li>Syntax highlighting for all languages</li>
-            <li>Extensive keyboard shortcuts</li>
-            <li>Code complete</li>
-            <li>Multiple code panels</li>
-            <li>Display themes</li>
-            <li>Code beautification</li>
-            <li>Emmet support</li>
-            <li>One click software installation</li>
-            <li>Custom configurable menus</li>
-          </ul>
-        </div>
-      </div>
-      <div class="middle-part">
-        <div id="row5" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
-        </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/advanced-features.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
-      </div>
-    </div>
+    
   </div>
 </section>
 

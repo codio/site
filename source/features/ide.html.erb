@@ -6,12 +6,6 @@ features_page: ide
 <% @pricingType = "university" %>
 <% @signupUrl = "/start-edu-trial" %>
 
-<section class="header-block">
-  <div class="title vertical">
-    Easy to onboard and use with<br/>minimal disruption
-  </div>
-</section>
-
 <%= partial "features-subheader" %>
 
 <section class="content-body">
@@ -27,9 +21,8 @@ features_page: ide
     <div class="video">
       <div class="h_iframe">
         <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
-        <iframe src="https://www.youtube.com/embed/tLM0l6mneQE"
-          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
+<iframe src="https://player.vimeo.com/video/214159517" width="640" height="395" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214159517">IDE Features</a> from <a href="https://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
       </div>
     </div>
     <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>

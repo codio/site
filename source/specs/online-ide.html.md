@@ -62,4 +62,31 @@ Files can be uploaded from your desktop directly into the file tree.
 For web applications, generate a QR code so students can try their project out on a smartphone without typing in long URLs.
 
 ###Git
+Git is preinstalled on every Codio server. We also offer some menu shortcuts for simple operations as well as displaying the current branch name in the file tree. Your user SSH public key can also be uploaded to you Git remote using a menu.
 
+###Syntax highlighting
+Supported for almost every language. Additional languages easily added.
+
+###Code complete
+Language dependent
+
+###Intellisense
+Javascript has full intellisense but limited support currently for other languages.
+
+###Emmet
+Powerful support for HTML, CSS and Javascript keyboard shortcuts.
+
+###Themes
+We offer a number of light and dark themes to suit you preferences.
+
+###Install software shortcuts
+A dialog driven approach to installing commonly used components with a single click without having to install yourself from the command line. We take requests for additional items.
+
+###Custom menus
+To prevent students from having to use the command line, add commands to a dropdown menu.
+
+###Custom settings
+A list of over 70 settings that customize the code editing experience.
+
+###Codio support
+Contact Codio support directly from within the IDE. You can also track all support conversations, current and past.

@@ -12,6 +12,9 @@ Having selected 'Edit Guides' you will see your Guides window appear.
 
 Use the Layout modes to switch between editor, preview,code and split view modes.
 
+When in Preview mode, you can quickly switch back to Editor mode by selecting the Editor button:
+<img alt="authtoken" src="/img/docs/guides/editor.png" class="simple"/>
+
 ## Anatomy of the Guides Editor
 Below is a screenshot of the editor with the main components highlighted. 
 <img alt="authtoken" src="/img/docs/guides/overview.png" class="simple"/>

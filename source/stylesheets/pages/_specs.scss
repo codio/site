@@ -114,6 +114,7 @@ body.specs .ready-started-block {
 .specs-content {
   @include container;
   padding: 0 2rem;
+  min-height: 600px;
 
   @include breakpoint($max-width) {
     margin-left: auto;

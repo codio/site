@@ -15,7 +15,7 @@ $(() => {
           return this.top
         },
         bottom: function () {
-          this.bottom = $footer.outerHeight(true) + 100
+          this.bottom = $footer.outerHeight(true) + 300
           return this.bottom
         }
       }

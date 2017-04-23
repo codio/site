@@ -1,9 +1,4 @@
 body.features {
-  .subheader-block.affix {
-    top: 65px;
-    margin: 0 auto;
-  }
-
   .subheader-block {
     @include container;
     width: 100%;
@@ -12,8 +7,10 @@ body.features {
     color: #000;
     background-color: #fff;
     z-index: 100;
-    padding-top: 15px;
     border-bottom: 1px solid $light-gray;
+    position: fixed;
+    padding-top: 15px;
+    margin-top: 60px;
 
     .menu {
       @include container;

@@ -6,12 +6,6 @@ features_page: ide
 <% @pricingType = "university" %>
 <% @signupUrl = "/start-edu-trial" %>
 
-<section class="header-block">
-  <div class="title vertical">
-    Easy to onboard and use with<br/>minimal disruption
-  </div>
-</section>
-
 <%= partial "features-subheader" %>
 
 <section class="content-body">
@@ -27,9 +21,8 @@ features_page: ide
     <div class="video">
       <div class="h_iframe">
         <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
-        <iframe src="https://www.youtube.com/embed/tLM0l6mneQE"
-          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
+<iframe src="https://player.vimeo.com/video/214159517" width="640" height="395" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214159517">IDE Features</a> from <a href="https://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
       </div>
     </div>
     <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
@@ -87,13 +80,13 @@ features_page: ide
         </div>
       </div>
       <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/install-and-teach-anything.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/ide/terminal.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
       </div>
     </div>
     
     <div class="features-row">
       <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/ide/teach-anywhere.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/ide/ide-layout.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
       </div>
       <div class="middle-part">
         <div id="row2" class="vertical-dot-line">
@@ -121,8 +114,7 @@ features_page: ide
         </div>
         <div class="text">
           Even though all Codio boxes are running in the Cloud, the Codio virtual desktop lets
-          anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything
-          else, they all run beautifully within your browser.
+          anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything else, they all run beautifully within your browser.
         </div>
       </div>
       <div class="middle-part">
@@ -133,13 +125,13 @@ features_page: ide
         </div>
       </div>
       <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Virtual desktop', class: 'img-responsive' %>
       </div>
     </div>
 
     <div class="features-row">
       <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/ide/integrated-debugger.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/ide/debugger.jpg', alt: 'Debugger', class: 'img-responsive' %>
       </div>
       <div class="middle-part">
         <div id="row4" class="vertical-dot-line">
@@ -168,18 +160,7 @@ features_page: ide
         </div>
         <div class="text">
           Codio is designed for experts and enables teaching complex topics such us Data Science
-          or Graphics. For full details, review our <a href="/specs/online-ide">technical specifications</a>.
-          <ul>
-            <li>Syntax highlighting for all languages</li>
-            <li>Extensive keyboard shortcuts</li>
-            <li>Code complete</li>
-            <li>Multiple code panels</li>
-            <li>Display themes</li>
-            <li>Code beautification</li>
-            <li>Emmet support</li>
-            <li>One click software installation</li>
-            <li>Custom configurable menus</li>
-          </ul>
+          or Graphics. For full details, review our <a href="#">technical specifications</a>.   Some of the things you will find are syntax highlighting, extensive keyboard shortcuts, code complete, multiple code panels, themes, code beautification, emmet support, one click software installation and custom configurable menus.
         </div>
       </div>
       <div class="middle-part">
@@ -190,7 +171,7 @@ features_page: ide
         </div>
       </div>
       <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/advanced-features.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/ide/settings.jpg', alt: 'Advanced settings', class: 'img-responsive' %>
       </div>
     </div>
   </div>

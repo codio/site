@@ -18,8 +18,8 @@
       </a>
   	</div>
 
-		<div class="header-item">
-      <a href="">
+		<div class="header-item <% if current_resource.data.features_page == 'grading' %> selected<% end %>">
+      <a href="/features/grading">
     	  <div class="header-img">
       	  <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
     	  </div>
@@ -27,8 +27,8 @@
       </a>
   	</div>
 
-		<div class="header-item">
-      <a href="">
+		<div class="header-item <% if current_resource.data.features_page == 'lms' %> selected<% end %>">
+      <a href="/features/lms">
     	  <div class="header-img">
       	  <%= inline_svg 'assets/index/learning.svg', class: '' %>
     	  </div>
@@ -36,7 +36,7 @@
       </a>
   	</div>
 
-		<div class="header-item">
+		<div class="header-item <% if current_resource.data.features_page == 'curriculum' %> selected<% end %>">
       <a href="/features/curriculum">
     	  <div class="header-img">
 	        <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
@@ -45,7 +45,7 @@
       </a>
   	</div>
 
-		<div class="header-item">
+		<div class="header-item <% if current_resource.data.features_page == 'templates' %> selected<% end %>">
       <a href="/features/templates">
     	  <div class="header-img">
       	  <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>

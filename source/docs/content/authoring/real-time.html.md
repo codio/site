@@ -12,7 +12,7 @@ You should now have something like the screenshot below. As you enter your Markd
 
 <img alt="authtoken" src="/img/docs/guides/simultaneous.png" class="simple"/>
 
-Another option you can use is to switch the Layout mode to Preview mode rather than Split View where you can preview the content as the student will see it with your [Panel layout](/docs/content/authoring/layouts/)configurations as well and then easily switch back to Editor mode from the Editor button.
+Another option you can use is to switch the Layout mode to Preview mode rather than Split View where you can preview the content as the student will see it with your [Panel layout](/docs/content/authoring/layouts/) configurations as well and then easily switch back to Editor mode from the Editor button.
 <img alt="authtoken" src="/img/docs/guides/editor.png" class="simple"/>
 
 

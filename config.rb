@@ -29,7 +29,7 @@ with_layout :legal do
 end
 
 with_layout :specs do
-  page "/specs/*"
+  page "/features/technicalspecifications/*"
 end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)

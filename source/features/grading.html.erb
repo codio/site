@@ -1,7 +1,7 @@
 ---
-title: Learn to Code | Code Curriculum  | Codio
-description: Codio provides course content that is mapped to national curriculum standards. Courses teach how to code in Java, Python, Javascript and the concept of computational thinking.
-features_page: curriculum
+title: "Grading & Auto-Grading"
+description:
+features_page: grading
 ---
 
 <%= partial "features-subheader" %>
@@ -9,17 +9,18 @@ features_page: curriculum
 <section class="content-body">
   <div class="video-block">
     <div class="header">
-      Author exceptional computer science content and curricula with Codio Guides
+      Spend 20% more time teaching and 20% less time administering using our full set of grading tools
     </div>
     <div class="text">
-      Codio Guides lets you create anything from simple assignments and assessments to fully
-      fledged books with built-in assessment libraries. Allied to our course publishing features
-      it lets you teach Computer Science in a way that is not possible by any other means.
+      Codio offers an extremely rich variety of manual and auto grading support. All grading
+      methods are fed back to the teacher dashboards. We also support gradebook passback to LMS
+      platforms such as Canvas, Blackboard or Moodle.
     </div>
     <div class="video">
       <div class="h_iframe">
         <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
-<iframe src="https://player.vimeo.com/video/214190836" width="640" height="417" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/214190836">Curriculum Authoring</a> from <a href="https://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+          <iframe src="https://player.vimeo.com/video/214168086" width="640" height="414" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214168086">Grading</a> from <a href="https://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
       </div>
     </div>
     <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
@@ -60,12 +61,14 @@ features_page: curriculum
     <div id="featuresRow" class="features-row">
       <div class="left-part description wow slideInLeft">
         <div class="header">
-          Contents controls the IDE
+          Auto-grading code
         </div>
         <div class="text">
-          The Guides editor fully controls the IDE. Each page is able to open and close the files
-          you need to see for any individual page of content. You can also execute commands, open
-          up browser pages and even highlight portions of code.
+          We offer two forms of automated code grading.  Our standard grading is dialog driven and
+          usually covers at least 80% of use cases. It covers argument and stdin inputs and handles
+          multiple test cases for full code coverage. Advanced grading lets you write your own grading
+          scripts in any language you choose. This allows you to use any 3rd party testing or support
+          libraries and analyze any aspects of student code.
         </div>
       </div>
       <div class="middle-part">
@@ -76,13 +79,13 @@ features_page: curriculum
         </div>
       </div>
       <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/curriculum/content-1.png', alt: 'Guides controls IDE', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/grading/std-autograde.jpg', alt: 'Standard autograding', class: 'img-responsive' %>
       </div>
     </div>
     
     <div class="features-row">
       <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/curriculum/std-autograde.jpg', alt: 'Assessment setup', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/grading/mcq.jpg', alt: 'Other autograding', class: 'img-responsive' %>
       </div>
       <div class="middle-part">
         <div id="row2" class="vertical-dot-line">
@@ -93,12 +96,11 @@ features_page: curriculum
       </div>
       <div class="right-part description wow slideInRight">
         <div class="header">
-          Assessments
+          Other auto-graded assessments
         </div>
         <div class="text">
-          The Guides editor is also where you author the many different types of assessments
-          offered by Codio. We support auto-graded coding, multiple choice questions, fill in
-          the blank and open ended free text assessment types.
+          You can create a variety of single and multiple response MCQ (multiple response questions)
+          asssments. We also offer fill-in-the-blank questions.
         </div>
       </div>
     </div>
@@ -106,13 +108,14 @@ features_page: curriculum
     <div class="features-row">
       <div class="left-part description wow slideInLeft">
         <div class="header">
-          Markdown or HTML
+          Manual grading
         </div>
         <div class="text">
-          You can choose between markdown and HTML authoring for each individual page. Markdown
-          is a very fast and easy way to produce beautiful content without the need for any HTML
-          unless you require it. HTML pages allow you to control all aspects of styling and embed
-          javascript widgets to meet specific requirements.
+          Codio packs a lot of features that let you manually grade student assignments with great
+          efficiency. You can instantly access any student's code and review, compile and execute it.
+          Grading rubrics can be centrally defined and applied to any project. Grading moderation
+          allows already graded assignments to be reviewed by additional faculty and these secondary
+          grades to be used for grading quality monitoring.
         </div>
       </div>
       <div class="middle-part">
@@ -123,13 +126,13 @@ features_page: curriculum
         </div>
       </div>
       <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/curriculum/assessments.jpg', alt: 'Assessment setup', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/grading/rubric.jpg', alt: 'Grading rubric', class: 'img-responsive' %>
       </div>
     </div>
 
     <div class="features-row">
       <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/curriculum/courses.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+        <%= image_tag 'assets/features/grading/text-assessment.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
       </div>
       <div class="middle-part">
         <div id="row4" class="vertical-dot-line">
@@ -140,15 +143,16 @@ features_page: curriculum
       </div>
       <div class="right-part description wow slideInRight">
         <div class="header">
-          Courses
+          Open ended questions
         </div>
         <div class="text">
-          Codio allows you to publish your curriculum content to courses, which can be browsed
-          and pulled off the shelf. You can also assign parts of a course to your class as you teach.
-          Courses are structured into a hierarchy of modules and units that map to lessons and lectures.
+          If you want to create questions that require a text or essay type answer, free text
+          questions can be created. You can then manually grade these directly from the teacher dashboard.
         </div>
       </div>
     </div>
+
+    
   </div>
 </section>
 

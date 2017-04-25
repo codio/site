@@ -3,7 +3,6 @@ header {
   margin: 0;
   position: relative;
   z-index: 1;
-  background: rgba(10, 106, 225, 0.7);
 
   &.fixed {
     position: fixed;
@@ -11,7 +10,6 @@ header {
     left: 0;
     right: 0;
     z-index: 990;
-    background: rgba(10, 106, 225, 0.7);
 
     .container {
       animation-delay: 0s;
@@ -98,7 +96,7 @@ header {
 
   .header-dropdown-menu {
     text-shadow: none;
-    background: rgba(10, 106, 225, 0.7);
+    //background: rgba(10, 106, 225, 0.7);
     border: none;
     border-radius: 0;
     min-width: 380px;
@@ -121,6 +119,14 @@ header {
       }
     }
   }
+}
+
+.opaque-background {
+  background: rgba(10, 106, 225, 1);
+}
+
+.transparent-background {
+  background: rgba(10, 106, 225, 0.7);
 }
 
 .mobile-nav {

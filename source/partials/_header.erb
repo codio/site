@@ -4,14 +4,14 @@
 <div class="mobile-nav">
   <%= partial "nav" %>
 </div>
-<header class="fixed">
+<header class="fixed opaque-background <% if current_resource.data.transparent %> should-be-transparent<% end %>">
   <div class="container animated fadeInDown">
   	<div class="logo">
 			<a class="menu-right-toggle fixed open dropdown-toggle" id="header-menu-dropdown"
 				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   			<div class="menubars"></div>
 			</a>
-			<div class="dropdown-menu header-dropdown-menu" aria-labelledby="header-menu-dropdown">
+			<div class="dropdown-menu header-dropdown-menu transparent-background" aria-labelledby="header-menu-dropdown">
     		<a class="dropdown-item" href="#">School Leadership</a>
     		<a class="dropdown-item" href="/school">School Teacher</a>
     		<a class="dropdown-item" href="#">University Leadership</a>

@@ -62,438 +62,76 @@ body.school {
       }
     }
   }
-}
 
-.school-content {
-  @include container;
-  @include break;
-  @include span(4);
-  padding-top: 1rem;
-
-  @include breakpoint($break-tablet) {
-    @include container(14 of 16);
-    width: span(14 of 16);
-    margin: 0 span(1 of 16);
-    float: inherit;
-    max-width: $max-width;
-  }
-
-  @include breakpoint($max-width) {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .school-section {
+  .content-body {
     @include container;
-    @include break;
-
-    padding: 1 * $base-line-height 0;
-    vertical-align: middle;
-
-    h2 {
-      font-size: 39px;
-      padding-bottom: 1.2rem;
-    }
-  }
-
-  .carousel-control.left {
-    background-image: none;
-    width: 5%;
-  }
-
-  .carousel-control.right {
-    left: auto;
-    right: 0;
-    background-image: none;
-    width: 5%;
-  }
-
-  .carousel-indicators li {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    border: 1px solid #00f;
-    border-radius: 50%;
-    background-color: #fff;
-  }
-  
-  .carousel-indicators .active {
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    border: none;
-    background-color: #fa9915;
-  }
-
-  .carousel-control .glyphicon-chevron-left,
-  .carousel-control .glyphicon-chevron-right,
-  .carousel-control .icon-prev,
-  .carousel-control .icon-next {
-    font-size: 25px;
-    color: #00f;
-  }
-
-  .carousel-control .glyphicon-chevron-left:before {
-    content: "\276E";
-    display:block;
-    width:30px;
-    height:30px;
-  }
-
-  .carousel-control .glyphicon-chevron-right:before {
-    content: "\276F";
-    display:block;
-    width:30px;
-    height:30px;
-  }
-
-  .logos-container {
-    @include container;
-    width: span(8 of 10);
-
-    margin-top: 2 * $base-line-height;
-    margin-bottom: 2 * $base-line-height;
-    vertical-align: middle;
-
-    .logo-img {
-      display: inline-block;
-      position: relative;
-
-      width: 18%;
-      height: 100px;
-      margin-left: 7%;
-
-      padding: 1px;
-      
-      img {
-        max-width: 100%;
-        max-height: 100%;
-        vertical-align: middle;
-        position: absolute;
-        margin: auto;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
-    }
-  }
-
-  .bubble-container {
-    @include container;
-    @include break;
-    width: 90%;
     text-align: center;
-    vertical-align: middle;
-  }
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 80px 0 40px 0;
 
-  .bubble {
-    @include container;
-    margin-top: span(1 of 12);
-    position: relative;
-    width: span(12 of 12);
-    min-height: 180px;
-    vertical-align: middle;
-    padding: 0px;
-    background: #e1e6f2;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-  }
+    .advantage-block {
+      @include container;
+      max-width: $max-width;
+      margin: 0 auto;
 
-  .bubble:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 15px 15px 0;
-    border-color: #e1e6f2 transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    bottom: -15px;
-    left: 50%;
-  }
-
-  .vertical {
-    /* Internet Explorer 10 */
-    display: -ms-flexbox;
-    -ms-flex-pack: center;
-    -ms-flex-align: center;
-
-    /* Firefox */
-    display: -moz-box;
-    -moz-box-pack: center;
-    -moz-box-align: center;
-
-    /* Safari, Opera, and Chrome */
-    display: -webkit-box;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-
-    /* W3C */
-    display: box;
-    box-pack: center;
-    box-align: center;
-  }
-
-  .section.quote {
-
-    @include breakpoint($break-tablet) {
-      padding-top: 2rem;
-    }
-
-    .section-header {
-      text-align: center;
-    }
-
-    .section-block {
-      width:100%;
-      margin: 0;
-      color: #999ca2;
-      font-size: 1.3rem;
-      line-height: 2rem;
-      display: flex;
-      padding-left: 1rem;
-      padding-top: 1rem;
-
-      @include breakpoint($break-tablet) {
-        text-align: center;
-        font-size: 1.3rem;
-        line-height: 2rem;
-      }
-
-      .section-block-copy {
-        padding-bottom: 1rem;
-
-        @include breakpoint($break-tablet) {
-          float: left;
-          padding: 0 span(1 of 32);
-          padding-bottom: 1rem;
-          width: span(28 of 32);
-          vertical-align: middle;
-        }
-      }
-
-      .left-quote, .right-quote {
-        display: none;
-
-        @include breakpoint($break-tablet) {
-          width: span(1 of 32);
-          display: block;
-          line-height: 100%;
-          font-size: 4rem;
-          font-weight: 400;
-          color: #000;
-          text-align: center;
-          display: flex;
-          align-items: center;
-        }
-      }
-
-      .left-quote {
-        @include breakpoint($break-tablet) {
-          float: left;
-        }
-      }
-
-      .right-quote {
-        @include breakpoint($break-tablet) {
-          float: right;
-          text-align: right;
-        }
-      }
-    }
-
-    .teacher {
-
-      .link {
-        text-align: left;
-        font-weight: 400;
-      }
-
-      margin-top: 50px;
-
-      @include breakpoint($break-tablet) {
-        margin: 50px auto;
-        width: 400px;
-        min-height: 150px;
-      }
-
-      .profile {
+      .item {
         display: block;
-        border-radius:50%;
-        border: 2px solid;
-        width: 100px;
-        height: 100px;
-        float: left;
-        margin-right: 25px;
-        margin-top: 10px;
-        padding-right: 10px;
-      }
-
-      .copy {
-        width: 260px;
-        float: left;
-        margin-top: 10px;
-      }
-
-      h4 {
+        padding: 0 5px;
         text-align: left;
-        margin-top: 0;
-      }
+        padding: 0 30px 50px 30px;
 
-      p {
-        text-align: left;
-      }
+        @include breakpoint($break-tablet) {
+          @include gallery(1 of 2);
+          padding: 0 30px 80px 30px;
+        }
 
-      svg {
-        display: inline-block;
-        width: 70px;
-        padding-top: 8px;
-        text-align: center;
-        align-items: center;
-        margin-left: 10px;
-      }
+        .title {
+          font-size: 20px;
+          font-weight: 500;
+          color: $light-blue;
+          padding-bottom: 1rem;
 
-      .profile-img {
-        padding-top: 8px;
-        text-align: center;
-        margin-left: 10px;
-      }
+          @include breakpoint($break-tablet) {
+            font-size: 24px;
+            line-height: 35px;
+            min-height: 88px;
+          }
 
+          @include breakpoint($max-width) {
+            font-size: 28px;
+            line-height: 35px;
+            min-height: 88px;
+          }
+        }
+
+        .text {
+          font-weight: 500;
+
+          @include breakpoint($break-tablet) {
+            font-size: 18px;
+          }
+
+          @include breakpoint($max-width) {
+            font-size: 20px;
+          }
+        }
+      }
     }
   }
 
-  .school-section.confidence {
-    padding: 0;
+  .ready-started-block {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 220px;
+    background-color: $blue;
 
     h2 {
-      padding-bottom: 0;  
+      margin-top: 0;
+      color: #fff;
+      padding: 40px 0 20px 0;
     }
-  }
-
-  .school-section-left {
-    @include container;
-
-    @include breakpoint($break-tablet) {
-      @include span(8 of 16);
-    }
-  }
-
-  .school-section-right {
-    @include container;
-
-    @include breakpoint($break-tablet) {
-      @include span(6 of 16);
-      margin: 0 span(2 of 16);
-    }
-  }
-
-  .school-section-content {
-    h2, p {
-      text-align: center;
-    }
-  }
-  
-  .school-section-content-copy {
-    @include container(4 of 4);
-
-    @include breakpoint($break-tablet) {
-      width: span(12 of 16);
-      margin: 0 span(2 of 16);
-    }
-    
-    p {
-      text-align: center;
-    }
-  }
-
-  .school-section-content-img {
-    @include container(4 of 4);
-
-    margin: 2rem 0;
-
-    @include breakpoint($break-tablet) {
-      display: block;
-      width: span(14 of 16);
-      max-width: 855px;
-      margin: 2rem span(1 of 16);
-    }
-
-    @include breakpoint($max-width) {
-      margin: 2rem auto;
-    }
-  }
-
-  .school-section-block-row {
-    @include container;
-    @include break;
-
-    .section-block {
-      margin-bottom: 3rem;
-
-      @include breakpoint($break-tablet) {
-        width: span(13 of 32);
-      }
-    }
-  }
-
-  .section-block {
-    @include container;
-    @include breakpoint($break-tablet) {
-      float: left;
-    }
-
-    &:first-of-type {
-      @include breakpoint($break-tablet) {
-        margin-left: span(1 of 32);
-        margin-right: span(3 of 32);
-      }
-    }
-
-    &:last-of-type {
-      @include breakpoint($break-tablet) {
-        margin-right: span(1 of 32);
-      }
-    }
-  }
-  
-  .section-block-header {
-    font-size: 29px;
-    font-weight: 400;
-    margin-top: 0;
-  }
-
-  .section-block-copy {
-    p {
-      font-size: 16px;
-      text-align: left;
-    }
-
-    a {
-      color: #00f;
-      text-decoration: underline;
-
-      &:hover,
-      &:focus,
-      &:active {
-        text-decoration: underline;
-        color: #00b;
-      }
-
-      &:active,
-      &:focus {
-        outline: none;
-      }
-    }
-  }
-
-  .blue {
-    background-color: #4574e0;
-    background-image: url('/img/assets/university/bg_action.svg');
   }
 }

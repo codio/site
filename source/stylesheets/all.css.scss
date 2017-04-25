@@ -45,6 +45,7 @@ $susy: (
 @import 'partials/legal-header-navigation';
 @import 'partials/legal-side-navigation';
 @import 'partials/call-to-action';
+@import 'partials/specs-side-navigation';
 
 @import 'pages/index';
 @import 'pages/university';
@@ -53,16 +54,19 @@ $susy: (
 @import 'pages/pricing';
 @import 'pages/docs';
 @import 'pages/legal';
+@import 'pages/specs';
 @import 'pages/team';
 @import 'pages/mission';
 @import 'pages/error';
 @import 'pages/developer';
-@import 'pages/features/index';
-@import 'pages/features/features-subheader';
 @import 'pages/features/shared';
+@import 'pages/features/features-subheader';
+@import 'pages/features/index';
 @import 'pages/features/ide';
 @import 'pages/features/infrastructure';
 @import 'pages/features/templates';
 @import 'pages/features/content-authoring';
 @import 'pages/features/management';
 @import 'pages/features/curriculum';
+@import 'pages/features/grading';
+@import 'pages/features/lms';

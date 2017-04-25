@@ -5,24 +5,16 @@ layout: layout
 fixed: true
 ---
 
-<section class='header-block'>
-  <h1 class="animated fadeIn">Teach Code with Confidence</h1>
-  <div class="school-section school-section-content">
-    <div class="school-section-block-row">
-      <div class="section-block h_iframe">
-        <%= image_tag 'assets/school/placeholdit.png', alt: 'An Online IDE for Computer Science Education', class: 'ratio' %>
-        <iframe src="https://player.vimeo.com/video/141552266?portrait=0"
-          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
-      </div>
-      <div class="section-block">
-        <h2>A complete solution to support computer science teachers and their students</h2>
-        <div class="action-buttons animated fadeInUp">
-          <%= link_to '30 DAY FREE TRIAL', '/start-edu-trial?orgType=SCHOOL', class: 'button button-large button-main' %>
-          <%= link_to 'Watch Demo', '/demo', class: 'button button-large button-main' %>
-        </div>
-      </div>
+<section class="header-block vertical">
+  <div class="header-content">
+    <div class="title">Go beyond the hour of code</div>
+    <div class="text">
+      We are the platform partner for your CS program. A complete solution custom-built that
+      is affordable, easy to adopt, free for PD and provides all the curriculum and teaching
+      resources you need.
     </div>
+    <%= link_to 'Free Trial', '/start-edu-trial',
+      class: 'button button-rounded button-main' %>
   </div>
 </section>
 

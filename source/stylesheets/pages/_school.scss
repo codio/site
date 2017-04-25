@@ -7,268 +7,59 @@ body.school {
     }
   }
   .content {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     max-width: 100%;
   }
 }
 
-body.school .grey {
-  @include span(4);
-  background-color: #e1e6f2;
-
-  .school-img {
-    @include container;
-    @include break;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .school-section-content-img {
-    @include container(4 of 4);
-    text-align: center;
-
-    margin: -1.2rem auto;
-
-    @include breakpoint($break-tablet) {
-      display: block;
-      width: span(10 of 16);
-      max-width: 855px;
-    }
-  }
-}
-
-body.school .blue {
-  @include span(4);
-  background-color: #4574e0;
-  background-image: url('/img/assets/university/bg_action.svg');
-
-  padding: span(1 of 12);
-
-  .school-img {
-    @include container;
-    @include break;
-
-    @include breakpoint($break-tablet) {
-      @include container(14 of 16);
-      width: span(14 of 16);
-      margin: 0 span(1 of 16);
-      max-width: $max-width;
-    }
-
-    @include breakpoint($max-width) {
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  h1 {
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-    animation-delay: .4s;
-    margin-top: $base-line-height;
-
-    @include breakpoint($break-tablet) {
-      font-size: 32px;
-    }
-
-    span {
-      display: none;
-
-      @include breakpoint($break-tablet) {
-        display: inline;
-      }
-    }
-  }
-
-  h2 {
-    text-align: center;
-    font-weight: 400;
-    font-size: 39px;
-    color: white;
-    animation-delay: .8s;
-
-    @include breakpoint($break-tablet) {
-      line-height: 25px;
-    }
-  }
-
-  .action-buttons {
-    animation-delay: 1.2s;
-    margin: 45px auto 0 auto;
-    text-align: center;
-
-    @include breakpoint(max-width $break-tablet) {
-      margin-top: 30px;
-    }
-
-    .button:first-child {
-      @include breakpoint($break-tablet) {
-        margin-right: 15px;
-      }
-      @include breakpoint(max-width $break-tablet) {
-        margin-bottom: 10px;
-      }
-    }
-
-    @include breakpoint(max-width $break-tablet) {
-      .button {
-        white-space: nowrap;
-        display: inline-block;
-        min-width: 200px;
-        height: auto;
-      }
-    }
-  }
-}
-
-
-body.school .header-block {
-  @include span(4);
-  background-size: cover;
-  background-color: $dark_gray;
-  color: white;
-  position: relative;
-  padding: 2rem 1rem 0 1rem;
-
-  @include breakpoint($break-tablet) {
-    background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
-    background-color: $dark-gray;
-  }
-
-  h1 {
-    font-size: 32px;
-    font-weight: 500;
-    text-align: center;
-    animation-delay: .4s;
-    margin-top: $base-line-height;
-    margin-bottom: 2 * $base-line-height;
-
-    @include breakpoint($break-tablet) {
-      font-size: 42px;
-    }
-
-    span {
-      display: none;
-
-      @include breakpoint($break-tablet) {
-        display: inline;
-      }
-    }
-  }
-
-  h2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 26px;
-    animation-delay: .8s;
-
-    @include breakpoint($break-tablet) {
-      line-height: 25px;
-    }
-  }
-
-  .action-buttons {
-    animation-delay: 1.2s;
-    margin: 45px auto 0 auto;
-    text-align: center;
-
-    @include breakpoint(max-width $break-tablet) {
-      margin-top: 30px;
-    }
-
-    .button {
-      @include breakpoint($break-tablet) {
-        margin-right: 15px;
-        margin-bottom: 10px;
-        white-space: nowrap;
-        display: inline-block;
-        min-width: 200px;
-        height: auto;
-      }
-    }
-  }
-
-  .video-link {
-    display: block;
-    margin: 4rem auto 0;
-    text-align: center;
-    color: #FFFFFF;
-
-    @include breakpoint(max-width $break-tablet) {
-      margin-top: 6rem;
-    }
-  }
-
-  .border-wrapper {
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    width: 54px;
-    height: 54px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 8px;
-    padding-left: 3px;
-  }
-
-  .icon {
-    fill: white;
-  }
-
-  .school-section-block-row {
-    @include container;
-    text-align: center;
+body.school {
+  .header-block {
     width: 100%;
-
-    @include breakpoint($break-tablet) {
-      width: span(14 of 16);
-      margin: 0 auto;
-      max-width: $max-width;
-    }
-
-    .section-block {
-      margin-bottom: 1.5rem;
-    }
-  }
-
-  .section-block {
-    @include container;
-    width: 100%;
-    padding: 1rem;
-    
-    @include breakpoint($break-tablet) {
-      float: left;
-    }
-
-    &:first-of-type {
-      @include breakpoint($break-tablet) {
-        width: 55%;
-      }
-    }
-
-    &:last-of-type {
-      @include breakpoint($break-tablet) {
-        width: 45%;
-      }
-    }
-  }
-
-  .h_iframe {
+    height: 38vw;
     position: relative;
-    
-    .ratio {
+    text-align: center;
+    background-size: cover;
+    background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
+
+    .header-content {
       display: block;
-      width: 100%;
-      background: $dark-gray;
-      opacity: 0;
-      height: auto;
     }
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+
+    .title {
+      font-size: 4vw;
+      font-weight: 500;
+      color: #fff;
+      line-height: 2rem;
+      padding-bottom: 0.7rem;
+
+      @include breakpoint($break-tablet) {
+        padding-bottom: 1rem;
+      }
+
+      @include breakpoint($max-width) {
+        padding-bottom: 2rem;
+      }
+    }
+
+    .text {
+      font-size: 1.6vw;
+      font-weight: 400;
+      color: #fff;
+      line-height: 1rem;
+      margin: 0 1rem;
+      padding-bottom: 0.7rem;
+
+      @include breakpoint($break-tablet) {
+        line-height: 1.6rem;
+        padding-bottom: 1rem;
+      }
+
+      @include breakpoint($max-width) {
+        line-height: 1.8rem;
+        max-width: $max-width;
+        margin: 0 2rem;
+        padding-bottom: 2rem;
+      }
     }
   }
 }

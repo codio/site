@@ -66,7 +66,7 @@ body.features_index .header-block {
   height: auto;
 
   @include breakpoint($break-tablet) {
-    padding: 0 1rem 2rem 0;
+    padding: 2rem 1rem 2rem 0;
   }
 
   h1 {

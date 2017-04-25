@@ -1,0 +1,50 @@
+.specs-side-navigation {
+  @include container;
+  display: block;
+  margin: 0 gutter() 2rem gutter();
+
+  font-family: $heading-font-family;
+
+  &.affix {
+    position: inherit;
+  }
+
+  @include breakpoint($break-tablet) {
+    position: absolute;
+    @include span(8 of 32);
+    max-width: 320px;
+
+    &.affix-top {
+      padding-top: 1rem;
+      position: absolute;
+    }
+
+    &.affix {
+      top: 3rem;
+      position: fixed;
+    }
+  }
+
+  @include breakpoint($max-width) {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .item {
+    font-size: 1.2rem;
+    padding: .2rem .6rem;
+    margin-top: $base-line-height / 2;
+
+    &:hover {
+      font-weight: 700;
+    }
+  }
+
+  .item.active {
+    a {
+      color: $light-blue;
+    }
+    font-weight: 700;
+    border-radius: 4px 0 0 4px;
+  }
+}

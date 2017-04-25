@@ -45,6 +45,7 @@ $susy: (
 @import 'partials/legal-header-navigation';
 @import 'partials/legal-side-navigation';
 @import 'partials/call-to-action';
+@import 'partials/specs-side-navigation';
 
 @import 'pages/index';
 @import 'pages/university';
@@ -53,6 +54,7 @@ $susy: (
 @import 'pages/pricing';
 @import 'pages/docs';
 @import 'pages/legal';
+@import 'pages/specs';
 @import 'pages/team';
 @import 'pages/mission';
 @import 'pages/error';

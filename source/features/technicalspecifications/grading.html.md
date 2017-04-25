@@ -1,6 +1,6 @@
 ---
 title: Grading & Auto-Grading
-class_name: specs
+rang: 3
 layout: specs
 sname: Grading & Auto-Grading
 ---

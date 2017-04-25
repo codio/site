@@ -1,6 +1,6 @@
 ---
 title: Templating
-class_name: specs
+rang: 6
 layout: specs
 sname: Templating
 ---

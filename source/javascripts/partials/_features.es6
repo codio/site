@@ -20,6 +20,7 @@ const parseRSS = () => {
 }
 
 function isElementInWindow(el) {
+  if (!el.length) return false;
   if ($(document).scrollTop() + $(window).height() > el.offset().top &&
     $(document).scrollTop() - el.offset().top < el.height())
     return true;
@@ -42,6 +43,27 @@ $().ready(() => {
       bottom.css('height', String(bottomHeight) + 'px');
     }
   });
+
+  // Setup side menu
+  setTimeout(() => {
+    const $menu = $('.specs-side-navigation');
+    const $footer = $('footer');
+
+    $menu.affix({
+      offset: {
+        top: function () {
+          const c = $menu.offset().top - 50;
+          this.top = c;
+
+          return this.top;
+        },
+        bottom: function () {
+          this.bottom = $footer.outerHeight(true) + 300;
+          return this.bottom;
+        }
+      }
+    })
+  }, 100);
 
   parseRSS();
 });

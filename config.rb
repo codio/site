@@ -28,10 +28,6 @@ with_layout :legal do
   page "/legal/*"
 end
 
-with_layout :specs do
-  page "/features/technicalspecifications/*"
-end
-
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }

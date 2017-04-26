@@ -1,6 +1,6 @@
 ---
 title: LMS Integration
-class_name: specs
+rang: 4
 layout: specs
 sname: LMS Integration
 ---

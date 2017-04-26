@@ -1,6 +1,6 @@
 ---
 title: "Technical Specifications: Online IDE"
-class_name: specs
+rang: 2
 layout: specs
 sname: Online IDE
 ---

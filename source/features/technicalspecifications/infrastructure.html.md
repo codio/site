@@ -1,6 +1,6 @@
 ---
 title: Infrastructure
-class_name: specs
+rang: 1
 layout: specs
 sname: Infrastructure
 ---

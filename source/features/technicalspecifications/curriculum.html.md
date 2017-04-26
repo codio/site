@@ -1,6 +1,6 @@
 ---
 title: Curriculum Authoring
-class_name: specs
+rang: 5
 layout: specs
 sname: Curriculum Authoring
 ---

@@ -5,400 +5,110 @@ layout: layout
 fixed: true
 ---
 
-<section class='header-block'>
-  <h1 class="animated fadeIn">Teach Code with Confidence</h1>
-  <div class="school-section school-section-content">
-    <div class="school-section-block-row">
-      <div class="section-block h_iframe">
-        <%= image_tag 'assets/school/placeholdit.png', alt: 'An Online IDE for Computer Science Education', class: 'ratio' %>
-        <iframe src="https://player.vimeo.com/video/141552266?portrait=0"
-          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
+<section class="header-block vertical">
+  <div class="header-content">
+    <div class="title">Go beyond the hour of code</div>
+    <div class="text">
+      We are the platform partner for your CS program. A complete solution custom-built that
+      is affordable, easy to adopt, free for PD and provides all the curriculum and teaching
+      resources you need.
+    </div>
+    <%= link_to 'Free Trial', '/start-edu-trial',
+      class: 'button button-rounded button-main' %>
+  </div>
+</section>
+
+<section class="content-body">
+  <div class="advantage-block">
+
+    <div class="item">
+      <div class="title">
+        All you need is a web browser
       </div>
-      <div class="section-block">
-        <h2>A complete solution to support computer science teachers and their students</h2>
-        <div class="action-buttons animated fadeInUp">
-          <%= link_to '30 DAY FREE TRIAL', '/start-edu-trial?orgType=SCHOOL', class: 'button button-large button-main' %>
-          <%= link_to 'Watch Demo', '/demo', class: 'button button-large button-main' %>
-        </div>
+      <div class="text">
+        Getting started is simple. Codio is easy to adopt by both teachers and students. All you
+        need is a web browser, internet connection and a computer.  Students can access learning
+        resources and work on projects from anywhere - at home or in the classroom.
+      </div>
+    </div>
+    
+    <div class="item">
+      <div class="title">
+        Curriculum mapped to National Standards
+      </div>
+      <div class="text">
+        Over 120 course modules covering topics such as programming fundamentals, data
+        & abstraction, networking as well as practical capstone projects. Courses are designed for
+        middle school through to senior year of high school and mapped to either CSTA Standards or
+        the UK OCR GCSE Standards. There’s even teacher solution notes and curriculum maps for
+        lesson planning.
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="title">
+        A complete solution for your CS program
+      </div>
+      <div class="text">
+        Codio combines cloud server infrastructure, an IDE and code editor for any language, with
+        powerful learning tools including auto-graded assessments, instant access to student
+        projects and dashboards to track student progress.
+      </div>
+    </div>
+    
+    <div class="item">
+      <div class="title">
+        Teach any language - Python, Java, C++ and more
+      </div>
+      <div class="text">
+        You can teach any language you want and any version that you need. Codio contains a library
+        of languages pre-installed and configured. You can use any version of any language that you
+        need.
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="title">
+        Save up to 20% admin time per month
+      </div>
+      <div class="text">
+        Codio combines a unique combination of technologies in the cloud which means you and your
+        students will save time. Our teachers report saving up to 20% admin time per month. No more
+        hassle for IT admin support or late nights configuring the right environment.
+      </div>
+    </div>
+    
+    <div class="item">
+      <div class="title">
+        Free for Professional Development
+      </div>
+      <div class="text">
+        Codio partners with teaching organizations to provide Codio free for professional
+        development. Thanks to partnerships with the Computer Science Teachers Association (CSTA)
+        and Computing at School (CAS), you can join our growing community of teachers.
       </div>
     </div>
   </div>
 </section>
 
-<section class="school-content">
-  
-  <div class="school-section confidence school-section-content wow fadeIn"
-    data-wow-duration="2s"
-    data-wow-delay=".5s">
-    <h2>Testimonials</h2>
-    
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-      <!-- Wrapper for slides -->      
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <div class="bubble-container">
-            <div class="section quote">
-              <div class="section-block bubble">
-                <div class="left-quote">
-                  &ldquo;
-                </div>
-                <div class="section-block-copy vertical">
-                  I would definitely recommend Codio for teachers. A lot of work has gone into making it easy to use.
-                </div>
-                <div class="right-quote">
-                  &rdquo;
-                </div>
-              </div>
-              <div class="teacher">
-                <div class="profile">
-                  <%= image_tag 'assets/school/white-young-man.png', alt: 'Ben Garside, Teacher of Computing, Durham', class: 'profile-img' %>
-                </div>
-                <div class="copy">
-                  <h4>Ben Garside</h4>
-                  <p>
-                    Teacher of Computing, Durham<br />
-                    Johnston School<br />
-                    <%= link_to 'Lean more', 'https://codio.com/blog/durham-johnston-school-codio-at-the-chalkface/', class: 'link' %>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="bubble-container">
-            <div class="section quote">
-              <div class="section-block bubble">
-                <div class="left-quote">
-                  &ldquo;
-                </div>
-                <div class="section-block-copy vertical">
-                  A fantastic resource which removes all barriers to coding within a Classroom environment.
-                </div>
-                <div class="right-quote">
-                  &rdquo;
-                </div>
-              </div>
-              <div class="teacher">
-                <div class="profile">
-                  <%= image_tag 'assets/school/white-young-man-black-hair.png',
-                    alt: 'Karl Douglass, Subject Leader ICT and Computing', class: 'profile-img' %>
-                </div>
-                <div class="copy">
-                  <h4>Karl Douglass</h4>
-                  <p>
-                    Subject Leader ICT and <br />
-                    Computing,<br />
-                    Pudsey Grangefield School
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="bubble-container">
-            <div class="section quote">
-              <div class="section-block bubble">
-                <div class="left-quote">
-                  &ldquo;
-                </div>
-                <div class="section-block-copy vertical">
-                  I’m really very excited by what Codio has developed. Teaching computing and
-                  ICT has been looking for something like this for a while!
-                </div>
-                <div class="right-quote">
-                  &rdquo;
-                </div>
-              </div>
-              <div class="teacher">
-                <div class="profile">
-                  <%= inline_svg "assets/school/older_man_with_glasses.svg", class: "" %>
-                </div>
-                <div class="copy">
-                  <h4>Vaughan Connolly</h4>
-                  <p>
-                    Head of Computing <br />
-                    Haberdashers’ Aske’s Boys’ <br />
-                    School, Elstree, UK
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="bubble-container">
-            <div class="section quote">
-              <div class="section-block bubble">
-                <div class="left-quote">
-                  &ldquo;
-                </div>
-                <div class="section-block-copy vertical">
-                  Loving Linux at last! “Eureka! I think I have finally found a way to teach
-                  coursework task"
-                </div>
-                <div class="right-quote">
-                  &rdquo;
-                </div>
-              </div>
-              <div class="teacher">
-                <div class="profile">
-                  <%= image_tag 'assets/school/white-beard-man.png', alt: 'John Richards, Head of Computing and IT', class: 'profile-img' %>
-                </div>
-                <div class="copy">
-                  <h4>John Richards</h4>
-                  <p>
-                    Head of Computing and IT <br />
-                    Holsworthy Community College, <br />
-                    Devon, UK
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="bubble-container">
-            <div class="section quote">
-              <div class="section-block bubble">
-                <div class="left-quote">
-                  &ldquo;
-                </div>
-                <div class="section-block-copy vertical">
-                  Coding in the cloud is great because it enables young people to take
-                  the work they learn in school and continue it at home or anywhere around the world
-                </div>
-                <div class="right-quote">
-                  &rdquo;
-                </div>
-              </div>
-              <div class="teacher">
-                <div class="profile">
-                  <%= inline_svg "assets/school/man-young-black.svg", class: "" %>
-                </div>
-                <div class="copy">
-                  <h4>Mark Martin</h4>
-                  <p>
-                    aka Urban Teacher, <br />
-                    Blogger and Computing Teacher <br />
-                    London, UK
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+<section class="bottom-block">
+  <div class="left-part">
+  </div><!--
+  --><div class="right-part">
+    <div class="title">The best part? Students love it</div>
+    <%= image_tag 'assets/index/logos/coded-by-kids-logo.png', alt: 'Coded by Kids', class: '' %>
+    <div class="quote">
+      “My kid coder just told me that Codio, Waffleio and Github were the three gears that make the
+      internet machine work.”
     </div>
-    
-  </div>
-
-  <hr/>
-
-  <div
-    class="school-section school-section-content wow fadeIn"
-    data-wow-duration="2s"
-    data-wow-delay=".5s"
-    >
-    <h2>Codio for schools</h2>
-
-    <div class="school-section-content">
-      <p>
-        Codio is designed for computer science teachers to use in the classroom. It
-        combines an online code editor, curriculum-mapped courses, course publishing
-        tools and the ability to monitor student progress. And because it's cloud-based,
-        you don't worry about the administrative hassle of setting up a code environment.
-      </p>
+    <div class="author">
+      - Brendon Shank, Coded By Kids Teacher
     </div>
   </div>
 </section>
-
-<div class="grey">
-  <div class="school-img">
-    <%= image_tag 'assets/school/codio_for_schools.png', alt: 'Codio for schools', class: 'school-section-content-img' %>
-  </div>
-</div>
-
-<section class="school-content">
-  <div class="school-section school-section-content wow fadeIn">
-    <h2>Codio benefits</h2>
-    
-    <div class="school-section-block-row">
-        
-      <div class="section-block">
-        <h4 class="section-block-header">
-          Auto-marked Assessments
-        </h4>
-        <div class="section-block-copy">
-          <p>
-            Save time by <a href="/features/management/">creating code</a> assessments that are marked automatically.
-            It provides instant feedback for your students. You have a selection
-            of assessments types such as multiple choice or fill in the blank.
-          </p>
-        </div>
-      </div>
-        
-      <div class="section-block">
-        <h4 class="section-block-header">
-          Curriculum-mapped Courses
-        </h4>
-        <div class="section-block-copy">
-          <p>
-            Over 80+ course units are available to use including computational
-            thinking, Python, Java and Javascript. <a href="/docs/content/courses/currmap2012/">Courses are co-developed with
-            Oxford, Cambridge and RSA (OCR)</a>, UK's leading exam board.
-          </p>
-        </div>
-      </div>
-        
-    </div>
-      
-    <div class="school-section-block-row">
-      
-      <div class="section-block">
-        <h4 class="section-block-header">
-          Monitor Student Progress
-        </h4>
-        <div class="section-block-copy">
-          <p>
-            We've made <a href="/features/management/">class management</a> simple. You can easily create and manage
-            classes, monitor assignments, and access student code. You can also
-            track student progress and demonstrate impact.
-          </p>
-        </div>
-      </div>
-      
-      <div class="section-block">
-        <h4 class="section-block-header">
-          Code from Anywhere
-        </h4>
-        <div class="section-block-copy">
-          <p>
-            Accessible anywhere, students use an <a href="/features/">online code editor</a> that contains
-            all the software a student needs. Each student enjoys a dedicated virtual
-            server for their project work - ideal in the classroom or at home.
-          </p>
-        </div>
-      </div>
-    </div>    
-  </div>
-</section>
-
-<div class="blue">
-  <div class="school-img">
-    <h2>
-      Ready to get started?
-    </h2>
-    <div class="action-buttons">
-      <%= link_to 'Start Free Trial', '/start-edu-trial?orgType=SCHOOL', class: 'button button-large button-main' %>
-      <%= link_to 'Attend a webinar', 'https://attendee.gotowebinar.com/rt/3941926581006800900?splash=false', class: 'button button-main button-large' %>
-    </div>
-  </div>
-</div>
-
-<section class="school-content"> 
-  <div class="school-section confidence school-section-content wow fadeIn"
-       data-wow-duration="2s"
-       data-wow-delay=".5s">
-    <h2>Proudly supporting schools and non-profits</h2>
-
-      <div id="logosCarousel" class="carousel slide logos-carousel" data-ride="carousel">
-        <!-- Indicators -->      
-        <ol class="carousel-indicators">
-          <li data-target="#logosCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#logosCarousel" data-slide-to="1"></li>
-          <li data-target="#logosCarousel" data-slide-to="2"></li>
-          <li data-target="#logosCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides-->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/holy-angels-academy-logo.png', alt: 'Holy Angels Academy', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/agslogo.png', alt: 'AGS', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/agakhan-academy-logo.png', alt: 'Agakhan Academy', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/Ashdonlogo.png', alt: 'Friend\'s School Saffron Walden', class: "img-responsive" %></div>
-            </div>
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/school/logos/bishopjustuslogo.png', alt: 'Bishop Justus', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/CaistorGrammarSchool.png', alt: 'Caistor Grammar School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/ChellastonLogo.png', alt: 'Chellaston School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/CodedbyKidslogo-v4.png', alt: 'Coded by Kids', class: "img-responsive" %></div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/school/logos/EllenWilkinsonSchool.jpg', alt: 'The Ellen Wilkenson School For Girls', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/glyn-school-logo.png', alt: 'Glyn School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/ISSNorway.jpg', alt: 'International School Of Stavanger', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/KingEcgbertSchool.png', alt: 'King Ecgbert School', class: "img-responsive" %></div>
-            </div>
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/school/logos/Kingwoodschoollogo.png', alt: 'Kingwood Township School District', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/LondonOratory_logo.png', alt: 'The London Oratory School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/ocr-logo.png', alt: 'Oxford Cambridge and RSA', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/NYCacademylogo.jpg', alt: 'Cambria Heigths Academy for New Literacies', class: "img-responsive" %></div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/school/logos/PudseyGrangefieldSchool.png', alt: 'Pudsey Grangefield School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/SeafordCollege.png', alt: 'Seaford College', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/StHelenaSchool.png', alt: 'St. Helena School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/TheUrbanAssembly.png', alt: 'The Urban Assembly Gateway School For Technology', class: "img-responsive" %></div>
-            </div>
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/westholme-school-logo.png', alt: 'Westholme School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/WymondhamCollege.png', alt: 'Wymondham College', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/school/logos/YoungWomenAstorialogo.png', alt: 'The Young Women\' Leadership School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/perse-school-logo.png', alt: 'The Perse School Cambridge', class: "img-responsive" %></div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/aspire-blackpool-academy(alt)-logo.png', alt: 'Aspire Blackpool Academy', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/st-lawrence-college-logo.png', alt: 'St. Lawrence College', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/pool-academy-logo.png', alt: 'Pool Academy', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/burgesshill-girls-logo.png', alt: 'Burgesshill Girls', class: "img-responsive" %></div>
-            </div>
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/csforall-member-badge-logo.png', alt: 'CS For All Member Consortium', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/bristol-grammar-school-logo.png', alt: 'Bristol Grammar School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/csta-logo.png',  alt: 'Computer Science Teachers Associations', class: "img-responsive" %></div>
-            </div>
-          </div>
-        </div>
-
-        <!--Left and right controls -->
-        <a class="left carousel-control" href="#logosCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="right carousel-control" href="#logosCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-  </div>
+<div class="clear"></div>
+<section class="ready-started-block">
+  <h2>Ready to get started?</h2>
+  <%= link_to 'Start Free Trial', '/start-edu-trial',
+    class: 'button button-rounded button-main' %>
 </section>

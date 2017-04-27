@@ -1,0 +1,332 @@
+body.universityleadership {
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+body.universityleadership {
+  .header-block {
+    width: 100%;
+    height: 45vw;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-image: url('/img/assets/school/header.jpg');
+
+    .header-content {
+      display: block;
+      padding: 0 4rem;
+    }
+
+    .title {
+      font-size: 4vw;
+      font-weight: 500;
+      color: #fff;
+      line-height: 2rem;
+      padding-bottom: 0.7rem;
+
+      @include breakpoint($break-tablet) {
+        padding-bottom: 1rem;
+        line-height: 4rem;
+      }
+
+      @include breakpoint($max-width) {
+        padding: 0 3rem 2rem 3rem;
+      }
+    }
+
+    .text {
+      font-size: 1.6vw;
+      font-weight: 400;
+      color: #fff;
+      line-height: 1.4rem;
+      margin: 0 1rem;
+      padding-bottom: 1rem;
+      margin: 0 auto;
+
+      @include breakpoint($break-tablet) {
+        line-height: 1.8rem;
+        padding-bottom: 2rem;
+      }
+
+      @include breakpoint($max-width) {
+        line-height: 2rem;
+        max-width: $max-width;
+        padding-bottom: 3rem;
+      }
+    }
+  }
+}
+
+body.universityleadership .content-block {
+  padding: 0;
+  position: relative;
+  height: 100%;
+  
+  .block {
+    width: 100%;
+    height: 46vw;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    
+    .title-text,
+    .toolbox {
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 8%;
+      width: 95%;
+      color: #fff;
+      text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
+      
+      h2 {
+        font-size: 4vw;
+        font-weight: 600;
+      }
+      
+      h4 {
+        margin-top: 1rem;
+        padding-top: 0;
+        padding-bottom: 2.5%;
+        font-size: 2vw;
+        font-weight: 400;
+      }
+      
+      .button {
+        text-shadow: none;
+      }
+     
+      @include breakpoint($break-tablet) {
+        padding-top: 15%;
+        h3 {
+          padding-top: 1%;
+          padding-bottom: 5%;
+        }
+      }
+    }
+    
+    .logo-img {
+      display: block;
+      position: absolute;
+      bottom: 30px;
+      margin: auto;
+      width: 100%;
+      
+      img {
+        width: auto;
+        height: 4vw;
+      }
+    }
+    
+    .toolbox {
+      padding-top: 40px;
+      width: 91%;
+      
+      .box {
+        @include gallery(2 of 12);
+        text-align: center;
+        padding: 0;
+
+        span {
+          display: none;
+        }
+        
+        .header {
+          font-size: 14px;
+          font-weight: 600;
+
+          @include breakpoint(1100px) {
+            font-size: 15px;
+          }
+        }
+        
+        .dot-line {
+          overflow: hidden;
+          text-align: center;
+          margin-bottom: .6rem;
+
+          &:before, &:after {
+            content: " ";
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            height: 3px;
+            background-color: $orange;
+            position: relative;
+          }
+
+          &:before {
+            margin-left: -100%;
+          }
+
+          &:after {
+            margin-right: -100%;
+          }
+
+          .dot {
+            display: inline-block;
+            border: 5px solid $orange;
+            border-radius: 50%;
+          }
+        }
+        
+        &:first-child {
+          .dot-line:before {
+            display: none;
+          }
+        }
+
+        &:last-child {
+          .dot-line:after {
+            display: none;
+          }
+        }
+
+        .body {
+          text-shadow: none;
+          font-size: 14px;
+          color: #000;
+          background-color: #fff;
+          border: 1px solid #fff;
+          border-radius: 5px;
+          margin: 0 .5rem;
+          
+          .scope-item {
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
+            margin: .5rem auto;
+            
+            .scope-img {
+              width: 100%;
+              height: 25px;
+              margin-bottom: 1rem;
+              vertical-align: bottom;
+              
+              svg {
+                vertical-align: bottom;
+                height: 100%;
+                width: auto;
+              }
+
+              @include breakpoint($break-tablet) {
+                height: 30px;
+              }
+
+              @include breakpoint($max-width) {
+                height: 45px;
+              }
+            }
+            
+            .scope-txt {
+              font-size: 14px;
+              padding: 0 .5rem;
+              line-height: 1rem;
+              border-bottom: 1px solid $lighter-gray;
+
+              @include breakpoint(1025px) {
+                min-height: 182px;
+              }
+
+              @include breakpoint($max-width) {
+                font-size: 16px;
+                line-height: 1.2rem;
+                min-height: 211px
+              }
+            }
+            
+            .scope-button {
+              vertical-align: bottom;
+              margin-top: .5rem;
+              
+              a {
+                color: $blue;
+                font-size: 12px;
+                
+                &:hover {
+                  color: $light-blue;
+                }
+
+                @include breakpoint($break-tablet) {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+
+        @include breakpoint(1025px) {
+          @include gallery(2 of 12);
+          span {
+            display: inline-block;
+          }
+          padding: 0;
+        }
+      }
+
+      @include breakpoint(1025px) {
+        width: 94%;
+        padding-top: 5px;
+      }
+
+      @include breakpoint($max-width) {
+        padding-top: 20px;
+      }
+    }
+
+    .toolbox-header {
+      margin-top: 0;
+      color: #fff;
+      text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
+      padding-top: 10px;
+      font-size: 3.3vw;
+      font-weight: 600;
+      line-height: 1.2em;
+
+      @include breakpoint($max-width) {
+        padding-top: 60px;
+      }
+    }
+  }
+
+  #block1 {
+    background-image: url('/img/assets/index/blocks/future-proof-your-students.jpg');
+  }
+  #block2 {
+    background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
+  }
+  #block3 {
+    background-image: url('/img/assets/index/blocks/insanely-convenient.jpg');
+  }
+  #block4 {
+    background-image: url('/img/assets/index/blocks/new-concept-with-codio.jpg');
+  }
+  #block5 {
+    background-image: url('/img/assets/index/blocks/engage-your-community.jpg');
+  }
+  #block6 {
+    background-image: url('/img/assets/index/blocks/transform-course-delivery.jpg');
+  }
+  #block7 {
+    background-image: url('/img/assets/index/blocks/grab-their-imagination.jpg');
+  }
+
+  .block-ready-started {
+    height: 180px;
+    background-color: $blue;
+
+    h2 {
+      margin-top: 0;
+      color: #fff;
+      padding: 20px 0;
+    }
+  }
+}

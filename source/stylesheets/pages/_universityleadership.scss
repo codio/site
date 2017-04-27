@@ -173,15 +173,34 @@ body.universityleadership .content-block {
   #funding-magnet {
     background-image: url('/img/assets/university/leadership/funding-magnet.jpg');
   }
+}
 
-  .block-ready-started {
-    height: 180px;
+body.universityleadership {
+  .ready-started-block {
+    width: 100%;
+    position: relative;
     background-color: $blue;
+    height: 280px;
+    text-align: center;
 
     h2 {
       margin-top: 0;
       color: #fff;
-      padding: 20px 0;
+      padding: 40px 0 20px 0;
+    }
+
+    .button-rounded {
+      display: block;
+      min-width: 182px;
+      min-height: 41px;
+      margin: 1rem;
+  
+      @include breakpoint($break-tablet) {
+        display: inline-block;
+        min-width: 256px;
+        min-height: 48px;
+        margin: 0 1rem;
+      }
     }
   }
 }

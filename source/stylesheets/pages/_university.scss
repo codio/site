@@ -270,11 +270,14 @@ body.university {
 
         .text {
           font-size: 18px;
-          font-weight: 400;
+          font-weight: 300;
 
-          ul {
-            list-style: disc;
-            padding: 2rem 0 0 1rem;
+          a {
+            color: #1188ef;
+          }
+ 
+          a:hover {
+            color: $blue;
           }
         }
 
@@ -417,7 +420,6 @@ body.university {
       }
     }
   }
-
   .carousel-block {
     @include container;
     text-align: center;

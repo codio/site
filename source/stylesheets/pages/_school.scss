@@ -145,8 +145,12 @@ body.school {
     }
 
     .left-part {
-      background-size: cover;
-      background-image: url('/img/assets/school/brendon-shank.jpg');
+      .brendon-shank-img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url('/img/assets/school/brendon-shank.jpg');
+      }
     }
 
     .right-part {

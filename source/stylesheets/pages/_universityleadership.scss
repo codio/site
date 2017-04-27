@@ -78,6 +78,19 @@ body.universityleadership .content-block {
     text-align: center;
     background-size: cover;
     
+    .left-part, .right-part {
+      float: left;
+      vertical-align: top;
+    }
+
+    .left-part {
+      width: 55%;
+    }
+
+    .right-part {
+      width: 45%;
+    }
+
     .title-text,
     .toolbox {
       text-align: center;
@@ -303,7 +316,7 @@ body.universityleadership .content-block {
   #block2 {
     background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
   }
-  #block3 {
+  #curriculum {
     background-image: url('/img/assets/index/blocks/insanely-convenient.jpg');
   }
   #block4 {

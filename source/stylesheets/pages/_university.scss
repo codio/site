@@ -79,6 +79,260 @@ body.university {
   }
 
   .content-body {
+    @include container;
+    text-align: center;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0;
+
+    .features-block {
+      @include container;
+      margin: 0 auto;
+      padding: 2rem 2rem 0 2rem;
+
+      .features-row {
+        @include span(13 of 13);
+        padding: 0;
+        min-height: 378px;
+        height: 100%;
+
+        &:nth-child(1) {
+          .top {
+            opacity: 0;
+          }
+          .dot {
+            -webkit-transition: border-width 0.01s;
+            -moz-transition: border-width 0.01s;
+            transition: border-width 0.01s;
+            transition-delay: 0.02s;
+          }
+          .bottom {
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            transition: height 0.5s;
+            transition-delay: 0.03s;
+          }
+        }
+
+        &:nth-child(2) {
+          .top {
+            -webkit-transition: height 0.02s;
+            -moz-transition: height 0.02s;
+            transition: height 0.02s;
+            transition-delay: 0.53s;
+          }
+          .dot {
+            -webkit-transition: border-width 0.01s;
+            -moz-transition: border-width 0.01s;
+            transition: border-width 0.01s;
+            transition-delay: 0.55s;
+          }
+          .bottom {
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            transition: height 0.5s;
+            transition-delay: 0.56s;
+          }
+        }
+
+        &:nth-child(3) {
+          .top {
+            -webkit-transition: height 0.02s;
+            -moz-transition: height 0.02s;
+            transition: height 0.02s;
+            transition-delay: 1.06s;
+          }
+          .dot {
+            -webkit-transition: border-width 0.01s;
+            -moz-transition: border-width 0.01s;
+            transition: border-width 0.01s;
+            transition-delay: 1.08s;
+          }
+          .bottom {
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            transition: height 0.5s;
+            transition-delay: 1.09s;
+          }
+        }
+
+        &:nth-child(4) {
+          .top {
+            -webkit-transition: height 0.02s;
+            -moz-transition: height 0.02s;
+            transition: height 0.02s;
+            transition-delay: 1.59s;
+          }
+          .dot {
+            -webkit-transition: border-width 0.01s;
+            -moz-transition: border-width 0.01s;
+            transition: border-width 0.01s;
+            transition-delay: 1.61s;
+          }
+          .bottom {
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            transition: height 0.5s;
+            transition-delay: 1.62s;
+          }
+        }
+
+        &:nth-child(5) {
+          .top {
+            -webkit-transition: height 0.02s;
+            -moz-transition: height 0.02s;
+            transition: height 0.02s;
+            transition-delay: 2.12s;
+          }
+          .dot {
+            -webkit-transition: border-width 0.01s;
+            -moz-transition: border-width 0.01s;
+            transition: border-width 0.01s;
+            transition-delay: 2.14s;
+          }
+          .bottom {
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            transition: height 0.5s;
+            transition-delay: 2.15s;
+          }
+        }
+
+        &:nth-child(6) {
+          .top {
+            -webkit-transition: height 0.02s;
+            -moz-transition: height 0.02s;
+            transition: height 0.02s;
+            transition-delay: 2.65s;
+          }
+          .dot {
+            -webkit-transition: border-width 0.01s;
+            -moz-transition: border-width 0.01s;
+            transition: border-width 0.01s;
+            transition-delay: 2.67s;
+          }
+          .bottom {
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            transition: height 0.5s;
+            transition-delay: 2.68s;
+          }
+        }
+
+        &:last-child {
+          .bottom {
+            opacity: 0;
+          }
+        }
+      }
+
+      .left-part {
+        padding-left: 2rem;
+        animation-duration: 1.5s;
+        animation-delay: 0.1s;
+        display: block;
+
+        @include breakpoint($break-tablet) {
+          @include span(6 of 13);
+        }
+      }
+
+      .middle-part {
+        display: none;
+        @include breakpoint($break-tablet) {
+          @include span(1 of 13);
+          display: inline-block; 
+        }
+      }
+
+      .right-part {
+        display: block;
+
+        @include breakpoint($break-tablet) {
+          @include span(6 of 13);
+          padding-right: 2rem;
+          animation-duration: 1.5s;
+          animation-delay: 0.1s;
+        }
+      }
+
+      .description {
+        text-align: left;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        .header {
+          padding-bottom: 1rem;
+          color: $light-blue;
+          font-size: 30px;
+          font-weight: 500;
+        }
+
+        .text {
+          font-size: 18px;
+          font-weight: 400;
+
+          ul {
+            list-style: disc;
+            padding: 2rem 0 0 1rem;
+          }
+        }
+
+        @include breakpoint($break-tablet) {
+          padding-bottom: 0;
+        }
+      }
+
+      .screen {
+        height: auto;
+        display: block;
+
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          vertical-align: middle;
+          margin: auto;
+        }
+
+        @include breakpoint($break-tablet) {
+          position: relative;
+          display: inline-block;
+        }
+      }
+
+      .vertical-dot-line {
+        overflow: hidden;
+        text-align: center;
+        margin: 0 auto;
+        width: 12px;
+
+        .top, .bottom {
+          overflow: hidden;
+          content: " ";
+          display: block;
+          width: 2px;
+          background-color: $orange;
+          position: relative;
+          margin: 0 auto;
+          transition-timing-function: linear;
+        }
+
+        .top {
+          height: 50px;
+        }
+
+        .dot {
+          display: block;
+          border: 6px solid $orange;
+          border-radius: 50%;
+          transition-timing-function: linear;
+        }
+
+        .bottom {
+          height: 318px;
+        }
+      }
+    }
 
   }
 
@@ -94,6 +348,64 @@ body.university {
       margin-top: 0;
       color: #fff;
       padding: 40px 0 20px 0;
+    }
+
+    .button-rounded {
+      min-width: 182px;
+
+      @include breakpoint($break-tablet) {
+        min-width: 256px;
+      }
+    }
+  }
+
+  .support-block {
+    width: 100%;
+    height: 32vw;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-image: url('/img/assets/school/header.jpg');
+
+    .support-content {
+      display: block;
+    }
+
+    .title {
+      font-size: 2.4vw;
+      font-weight: 600;
+      color: #fff;
+      line-height: 2rem;
+      padding-bottom: 0.7rem;
+
+      @include breakpoint($break-tablet) {
+        padding-bottom: 1rem;
+      }
+
+      @include breakpoint($max-width) {
+        padding-bottom: 2rem;
+      }
+    }
+
+    .text {
+      font-size: 1.6vw;
+      font-weight: 400;
+      color: #fff;
+      line-height: 1rem;
+      margin: 0 1rem;
+      padding-bottom: 0.7rem;
+
+      @include breakpoint($break-tablet) {
+        line-height: 1.6rem;
+        padding-bottom: 1rem;
+      }
+
+      @include breakpoint($max-width) {
+        line-height: 1.8rem;
+        max-width: $max-width;
+        margin: 0 2rem;
+        padding-bottom: 2rem;
+      }
     }
   }
 }

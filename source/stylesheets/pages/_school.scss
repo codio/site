@@ -105,7 +105,7 @@ body.school {
         }
 
         .text {
-          font-weight: 400;
+          font-weight: 300;
 
           @include breakpoint($break-tablet) {
             font-size: .9rem;
@@ -114,6 +114,14 @@ body.school {
           @include breakpoint($max-width) {
             font-size: 1rem;
           }
+        }
+
+        a {
+          color: #1188ef;
+        }
+
+        a:hover {
+          color: $blue;
         }
       }
     }

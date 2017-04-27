@@ -341,8 +341,12 @@ body.university {
     width: 100%;
     position: relative;
     text-align: center;
-    height: 220px;
+    height: 280px;
     background-color: $blue;
+
+    @include breakpoint($break-tablet) {
+      height: 220px;
+    }
 
     h2 {
       margin-top: 0;
@@ -351,10 +355,16 @@ body.university {
     }
 
     .button-rounded {
+      display: block;
       min-width: 182px;
+      min-height: 41px;
+      margin: 1rem;
 
       @include breakpoint($break-tablet) {
+        display: inline-block;
         min-width: 256px;
+        min-height: 48px;
+        margin: 0 1rem;
       }
     }
   }
@@ -397,7 +407,7 @@ body.university {
 
       @include breakpoint($break-tablet) {
         line-height: 1.6rem;
-        padding-bottom: 1rem;
+        padding: 0 2rem 1rem 2rem;
       }
 
       @include breakpoint($max-width) {

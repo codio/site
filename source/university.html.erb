@@ -173,6 +173,34 @@ fixed: true
   </div>
 </section>
 
+<section class="carousel-block">
+  <div id="quotesCarousel" class="carousel" data-ride="">
+    <ol class="carousel-indicators">
+      <li data-target="#quotesCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#quotesCarousel" data-slide-to="1"></li>
+      <li data-target="#quotesCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <%= image_tag 'assets/index/logos/wright-state-university-logo.png',
+          alt: 'Wright State University', class: 'logo' %>
+        <div class="quote">
+          "What sets Codio apart is its focus on CS. The student management and coding specific
+          features give a unique experience when compared with anything else."
+        </div>
+        <div class="author">
+          - Mateen Rizki, Chair of Engineering and Computer Science Department, Wright State University
+        </div>
+      </div>
+      <div class="item">
+      </div>
+      <div class="item">
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="ready-started-block">
   <h2>Ready to get started?</h2>
   <%= link_to 'Free Trial', '/start-edu-trial',

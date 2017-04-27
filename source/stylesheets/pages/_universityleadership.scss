@@ -207,9 +207,9 @@ body.universityleadership {
   .carousel-block {
     @include container;
     text-align: center;
-    max-width: $max-width;
-    margin: 0 auto;
-    padding: 0;
+    //max-width: $max-width;
+    //margin: 0 auto;
+    //padding: 0;
     display: block;
     line-height: 0;
 
@@ -332,8 +332,8 @@ body.universityleadership {
 
     .item {
       text-align: center;
-      padding: 2rem;
-      min-height: 490px;
+      //padding: 2rem;
+      //min-height: 490px;
 
       .logo {
         height: 100px;
@@ -350,6 +350,86 @@ body.universityleadership {
       .author {
         font-size: 1.2rem;
         padding: 1rem 0 6rem 0;
+      }
+    }
+
+    .bottom-block {
+      max-width: 100%;
+      height: 32vw;
+
+      .left-part, .right-part {
+        width: 100%;
+        float: left;
+        height: 52vw;
+        vertical-align: top;
+
+        @include breakpoint($break-tablet) {
+          height: 34vw;
+          width: 50%;
+          display: inline-block;
+        }
+      }
+
+      .left-part {
+        .clement-allet-img {
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-image: url('/img/assets/university/leadership/clement-allen.jpg');
+        }
+      }
+
+      .right-part {
+        text-align: left;
+        background-color: $lighter-gray;
+
+        .title {
+          font-size: 1rem;
+          font-weight: 500;
+          color: $light-blue;
+          text-transform: uppercase;
+          padding: 1rem 1rem 0 2rem;
+
+          @include breakpoint($break-tablet) {
+            padding-top: 3vw;
+            font-size: 1.2vw;
+          }
+        }
+
+        img {
+          height: 6rem;
+          padding-left: 1rem;
+          width: auto;
+
+          @include breakpoint($break-tablet) {
+            height: 8vw;
+          }
+        }
+
+        .quote {
+          font-size: 1.5rem;
+          font-weight: 300;
+          color: #000;
+          line-height: 1.5rem;
+          padding: 0 6rem 0 2rem;
+        
+          @include breakpoint($break-tablet) {
+            font-size: 1.6vw;
+            padding: 2vw 6rem 1vw 2rem;
+          }
+        }
+
+        .author {
+          font-size: 1rem;
+          font-weight: 400;
+          color: #000;
+          line-height: 1rem;
+          padding: 1rem 0 0 2rem;
+
+          @include breakpoint($break-tablet) {
+            font-size: 1.2vw;
+          }
+        }
       }
     }
   }

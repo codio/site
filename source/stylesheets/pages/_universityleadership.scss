@@ -1,0 +1,436 @@
+body.universityleadership {
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+body.universityleadership {
+  .header-block {
+    width: 100%;
+    height: 45vw;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-image: url('/img/assets/university/leadership/university-leadership-top.jpg');
+
+    .header-content {
+      display: block;
+      padding: 0 4rem;
+    }
+
+    .title {
+      font-size: 4vw;
+      font-weight: 500;
+      color: #fff;
+      line-height: 2rem;
+      padding-bottom: 0.7rem;
+
+      @include breakpoint($break-tablet) {
+        padding-bottom: 1rem;
+        line-height: 4rem;
+      }
+
+      @include breakpoint($max-width) {
+        padding: 0 3rem 2rem 3rem;
+      }
+    }
+
+    .text {
+      font-size: 1.6vw;
+      font-weight: 400;
+      color: #fff;
+      line-height: 1.4rem;
+      margin: 0 1rem;
+      padding-bottom: 1rem;
+      margin: 0 auto;
+
+      @include breakpoint($break-tablet) {
+        line-height: 1.8rem;
+        padding-bottom: 2rem;
+      }
+
+      @include breakpoint($max-width) {
+        line-height: 2rem;
+        max-width: $max-width;
+        padding-bottom: 3rem;
+      }
+    }
+  }
+}
+
+body.universityleadership .content-block {
+  padding: 0;
+  position: relative;
+  height: 100%;
+  
+  .block {
+    width: 100%;
+    height: 46vw;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    
+    .left-part, .right-part {
+      float: left;
+      vertical-align: middle;
+      height: 100%;
+    }
+
+    .left-part {
+      width: 55%;
+    }
+
+    .right-part {
+      width: 45%;
+    }
+
+    .title-text-right {
+      text-align: left;
+      margin: 0 auto;
+      width: 95%;
+      color: #000;
+      
+      h2 {
+        font-size: 3.5vw;
+        font-weight: 600;
+      }
+      
+      p {
+        margin-top: 1rem;
+        padding: 0 6rem 0 0;
+        font-size: 1.5vw;
+        font-weight: 300;
+      }
+    }
+
+    .content {
+      height: 100%;
+    }
+
+    .image {
+      text-align: right;
+      padding-top: 11vw;
+
+      img {
+        height: 25vw;
+        width: auto;
+      }
+    }
+
+    .title-text-left {
+      text-align: left;
+      width: 100%;
+      color: #fff;
+      padding-left: 20%;
+      
+      h2 {
+        font-size: 3.5vw;
+        font-weight: 600;
+      }
+      
+      p {
+        margin-top: 1rem;
+        padding: 0 3rem 0 0;
+        font-size: 1.5vw;
+        font-weight: 400;
+      }
+    }
+
+    .title-text-center {
+      text-align: center;
+      width: 70%;
+      color: #fff;
+      
+      h2 {
+        font-size: 3.5vw;
+        font-weight: 600;
+      }
+      
+      p {
+        margin-top: 1rem;
+        font-size: 1.5vw;
+        font-weight: 400;
+      }
+    }
+  }
+
+  #curriculum {
+    background-image: url('/img/assets/university/leadership/curriculum-agnostic.jpg');
+  }
+
+  #platform-students {
+    background-image: url('/img/assets/university/leadership/platform-students.jpg');
+  }
+
+  #funding-magnet {
+    background-image: url('/img/assets/university/leadership/funding-magnet.jpg');
+  }
+}
+
+body.universityleadership {
+  .ready-started-block {
+    width: 100%;
+    position: relative;
+    background-color: $blue;
+    height: 280px;
+    text-align: center;
+
+    h2 {
+      margin-top: 0;
+      color: #fff;
+      padding: 40px 0 20px 0;
+    }
+
+    .button-rounded {
+      display: block;
+      min-width: 182px;
+      min-height: 41px;
+      margin: 1rem;
+  
+      @include breakpoint($break-tablet) {
+        display: inline-block;
+        min-width: 256px;
+        min-height: 48px;
+        margin: 0 1rem;
+      }
+    }
+  }
+
+  .carousel-block {
+    @include container;
+    text-align: center;
+    //max-width: $max-width;
+    //margin: 0 auto;
+    //padding: 0;
+    display: block;
+    line-height: 0;
+
+    .carousel-inner {
+      line-height: $base-line-height;
+
+      height: auto;
+
+      img {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        vertical-align: middle;
+      }
+
+      .title-text {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 6%;
+        width: 70%;
+        color: #fff;
+
+        .button-large {
+          padding: 15px 35px;
+          font-size: 1.8vw;
+        }
+
+        h2 {
+          font-size: 5vw;
+          font-weight: 400;
+        }
+
+        h3 {
+          margin-top: 1rem;
+          padding-top: 0;
+          padding-bottom: 2.5%;
+          font-size: 2.5vw;
+          font-weight: 400;
+        }
+
+        @include breakpoint($break-tablet) {
+          padding-top: 9%;
+          h3 {
+            padding-top: 1%;
+            padding-bottom: 5%;
+          }
+        }
+      }
+
+      .slot-1, .slot-2, .slot-3 {
+        width: 100%;
+        height: 41.1vw;
+        text-align: center;
+        background-size: cover;
+      }
+    }
+
+    .carousel-control.left, .carousel-control.right {
+      background-image: none;
+      background-repeat: no-repeat;
+      text-shadow: none;
+      display: none;
+    }
+
+    .carousel-control {
+      width: 0;
+    }
+
+    .carousel-control.left span {
+      margin: 0;
+    }
+
+    .carousel-control.right span {
+      margin: 0;
+    }
+
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right,
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+      position: absolute;
+      top: 45%;
+      z-index: 5;
+      display: inline-block;
+    }
+
+    .carousel-control .glyphicon-chevron-left:before {
+      content: "\276E";
+      display:block;
+      width:30px;
+      height:30px;
+    }
+
+    .carousel-control .glyphicon-chevron-right:before {
+      content: "\276F";
+      display:block;
+      width:30px;
+      height:30px;
+    }
+
+    .carousel-indicators li {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin: 10px;
+      text-indent: 0;
+      cursor: pointer;
+      border: 1px solid #00f;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+
+    .carousel-indicators .active {
+      width: 15px;
+      height: 15px;
+      margin: 10px;
+      border: none;
+      background-color: #00f;
+    }
+
+    .item {
+      text-align: center;
+      //padding: 2rem;
+      //min-height: 490px;
+
+      .logo {
+        height: 100px;
+        width: auto;
+        margin: 2rem auto;
+      }
+
+      .quote {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1rem 0;
+      }
+
+      .author {
+        font-size: 1.2rem;
+        padding: 1rem 0 6rem 0;
+      }
+    }
+
+    .bottom-block {
+      max-width: 100%;
+      height: 32vw;
+
+      .left-part, .right-part {
+        width: 100%;
+        float: left;
+        height: 52vw;
+        vertical-align: top;
+
+        @include breakpoint($break-tablet) {
+          height: 34vw;
+          width: 50%;
+          display: inline-block;
+        }
+      }
+
+      .left-part {
+        .clement-allet-img {
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-image: url('/img/assets/university/leadership/clement-allen.jpg');
+        }
+      }
+
+      .right-part {
+        text-align: left;
+        background-color: $lighter-gray;
+
+        .title {
+          font-size: 1rem;
+          font-weight: 500;
+          color: $light-blue;
+          text-transform: uppercase;
+          padding: 1rem 1rem 0 2rem;
+
+          @include breakpoint($break-tablet) {
+            padding-top: 3vw;
+            font-size: 1.2vw;
+          }
+        }
+
+        img {
+          height: 6rem;
+          padding-left: 1rem;
+          width: auto;
+
+          @include breakpoint($break-tablet) {
+            height: 8vw;
+          }
+        }
+
+        .quote {
+          font-size: 1.5rem;
+          font-weight: 300;
+          color: #000;
+          line-height: 1.5rem;
+          padding: 0 6rem 0 2rem;
+        
+          @include breakpoint($break-tablet) {
+            font-size: 1.6vw;
+            padding: 2vw 6rem 1vw 2rem;
+          }
+        }
+
+        .author {
+          font-size: 1rem;
+          font-weight: 400;
+          color: #000;
+          line-height: 1rem;
+          padding: 1rem 0 0 2rem;
+
+          @include breakpoint($break-tablet) {
+            font-size: 1.2vw;
+          }
+        }
+      }
+    }
+  }
+}

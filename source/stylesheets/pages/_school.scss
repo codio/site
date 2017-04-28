@@ -7,702 +7,217 @@ body.school {
     }
   }
   .content {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     max-width: 100%;
   }
 }
 
-body.school .grey {
-  @include span(4);
-  background-color: #e1e6f2;
-
-  .school-img {
-    @include container;
-    @include break;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .school-section-content-img {
-    @include container(4 of 4);
-    text-align: center;
-
-    margin: -1.2rem auto;
-
-    @include breakpoint($break-tablet) {
-      display: block;
-      width: span(10 of 16);
-      max-width: 855px;
-    }
-  }
-}
-
-body.school .blue {
-  @include span(4);
-  background-color: #4574e0;
-  background-image: url('/img/assets/university/bg_action.svg');
-
-  padding: span(1 of 12);
-
-  .school-img {
-    @include container;
-    @include break;
-
-    @include breakpoint($break-tablet) {
-      @include container(14 of 16);
-      width: span(14 of 16);
-      margin: 0 span(1 of 16);
-      max-width: $max-width;
-    }
-
-    @include breakpoint($max-width) {
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  h1 {
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-    animation-delay: .4s;
-    margin-top: $base-line-height;
-
-    @include breakpoint($break-tablet) {
-      font-size: 32px;
-    }
-
-    span {
-      display: none;
-
-      @include breakpoint($break-tablet) {
-        display: inline;
-      }
-    }
-  }
-
-  h2 {
-    text-align: center;
-    font-weight: 400;
-    font-size: 39px;
-    color: white;
-    animation-delay: .8s;
-
-    @include breakpoint($break-tablet) {
-      line-height: 25px;
-    }
-  }
-
-  .action-buttons {
-    animation-delay: 1.2s;
-    margin: 45px auto 0 auto;
-    text-align: center;
-
-    @include breakpoint(max-width $break-tablet) {
-      margin-top: 30px;
-    }
-
-    .button:first-child {
-      @include breakpoint($break-tablet) {
-        margin-right: 15px;
-      }
-      @include breakpoint(max-width $break-tablet) {
-        margin-bottom: 10px;
-      }
-    }
-
-    @include breakpoint(max-width $break-tablet) {
-      .button {
-        white-space: nowrap;
-        display: inline-block;
-        min-width: 200px;
-        height: auto;
-      }
-    }
-  }
-}
-
-
-body.school .header-block {
-  @include span(4);
-  background-size: cover;
-  background-color: $dark_gray;
-  color: white;
-  position: relative;
-  padding: 2rem 1rem 0 1rem;
-
-  @include breakpoint($break-tablet) {
-    background: url('/img/assets/school/Schools_page_background_image.jpg') no-repeat top center fixed;
-    background-color: $dark-gray;
-  }
-
-  h1 {
-    font-size: 32px;
-    font-weight: 500;
-    text-align: center;
-    animation-delay: .4s;
-    margin-top: $base-line-height;
-    margin-bottom: 2 * $base-line-height;
-
-    @include breakpoint($break-tablet) {
-      font-size: 42px;
-    }
-
-    span {
-      display: none;
-
-      @include breakpoint($break-tablet) {
-        display: inline;
-      }
-    }
-  }
-
-  h2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 26px;
-    animation-delay: .8s;
-
-    @include breakpoint($break-tablet) {
-      line-height: 25px;
-    }
-  }
-
-  .action-buttons {
-    animation-delay: 1.2s;
-    margin: 45px auto 0 auto;
-    text-align: center;
-
-    @include breakpoint(max-width $break-tablet) {
-      margin-top: 30px;
-    }
-
-    .button {
-      @include breakpoint($break-tablet) {
-        margin-right: 15px;
-        margin-bottom: 10px;
-        white-space: nowrap;
-        display: inline-block;
-        min-width: 200px;
-        height: auto;
-      }
-    }
-  }
-
-  .video-link {
-    display: block;
-    margin: 4rem auto 0;
-    text-align: center;
-    color: #FFFFFF;
-
-    @include breakpoint(max-width $break-tablet) {
-      margin-top: 6rem;
-    }
-  }
-
-  .border-wrapper {
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    width: 54px;
-    height: 54px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 8px;
-    padding-left: 3px;
-  }
-
-  .icon {
-    fill: white;
-  }
-
-  .school-section-block-row {
-    @include container;
-    text-align: center;
+body.school {
+  .header-block {
     width: 100%;
-
-    @include breakpoint($break-tablet) {
-      width: span(14 of 16);
-      margin: 0 auto;
-      max-width: $max-width;
-    }
-
-    .section-block {
-      margin-bottom: 1.5rem;
-    }
-  }
-
-  .section-block {
-    @include container;
-    width: 100%;
-    padding: 1rem;
-    
-    @include breakpoint($break-tablet) {
-      float: left;
-    }
-
-    &:first-of-type {
-      @include breakpoint($break-tablet) {
-        width: 55%;
-      }
-    }
-
-    &:last-of-type {
-      @include breakpoint($break-tablet) {
-        width: 45%;
-      }
-    }
-  }
-
-  .h_iframe {
+    height: 38vw;
     position: relative;
-    
-    .ratio {
-      display: block;
-      width: 100%;
-      background: $dark-gray;
-      opacity: 0;
-      height: auto;
-    }
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
-}
-
-.school-content {
-  @include container;
-  @include break;
-  @include span(4);
-  padding-top: 1rem;
-
-  @include breakpoint($break-tablet) {
-    @include container(14 of 16);
-    width: span(14 of 16);
-    margin: 0 span(1 of 16);
-    float: inherit;
-    max-width: $max-width;
-  }
-
-  @include breakpoint($max-width) {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .school-section {
-    @include container;
-    @include break;
-
-    padding: 1 * $base-line-height 0;
-    vertical-align: middle;
-
-    h2 {
-      font-size: 39px;
-      padding-bottom: 1.2rem;
-    }
-  }
-
-  .carousel-control.left {
-    background-image: none;
-    width: 5%;
-  }
-
-  .carousel-control.right {
-    left: auto;
-    right: 0;
-    background-image: none;
-    width: 5%;
-  }
-
-  .carousel-indicators li {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    border: 1px solid #00f;
-    border-radius: 50%;
-    background-color: #fff;
-  }
-  
-  .carousel-indicators .active {
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    border: none;
-    background-color: #fa9915;
-  }
-
-  .carousel-control .glyphicon-chevron-left,
-  .carousel-control .glyphicon-chevron-right,
-  .carousel-control .icon-prev,
-  .carousel-control .icon-next {
-    font-size: 25px;
-    color: #00f;
-  }
-
-  .carousel-control .glyphicon-chevron-left:before {
-    content: "\276E";
-    display:block;
-    width:30px;
-    height:30px;
-  }
-
-  .carousel-control .glyphicon-chevron-right:before {
-    content: "\276F";
-    display:block;
-    width:30px;
-    height:30px;
-  }
-
-  .logos-container {
-    @include container;
-    width: span(8 of 10);
-
-    margin-top: 2 * $base-line-height;
-    margin-bottom: 2 * $base-line-height;
-    vertical-align: middle;
-
-    .logo-img {
-      display: inline-block;
-      position: relative;
-
-      width: 18%;
-      height: 100px;
-      margin-left: 7%;
-
-      padding: 1px;
-      
-      img {
-        max-width: 100%;
-        max-height: 100%;
-        vertical-align: middle;
-        position: absolute;
-        margin: auto;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-      }
-    }
-  }
-
-  .bubble-container {
-    @include container;
-    @include break;
-    width: 90%;
     text-align: center;
-    vertical-align: middle;
-  }
+    background-size: cover;
+    background-image: url('/img/assets/school/header.jpg');
 
-  .bubble {
-    @include container;
-    margin-top: span(1 of 12);
-    position: relative;
-    width: span(12 of 12);
-    min-height: 180px;
-    vertical-align: middle;
-    padding: 0px;
-    background: #e1e6f2;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-  }
-
-  .bubble:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 15px 15px 0;
-    border-color: #e1e6f2 transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    bottom: -15px;
-    left: 50%;
-  }
-
-  .vertical {
-    /* Internet Explorer 10 */
-    display: -ms-flexbox;
-    -ms-flex-pack: center;
-    -ms-flex-align: center;
-
-    /* Firefox */
-    display: -moz-box;
-    -moz-box-pack: center;
-    -moz-box-align: center;
-
-    /* Safari, Opera, and Chrome */
-    display: -webkit-box;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-
-    /* W3C */
-    display: box;
-    box-pack: center;
-    box-align: center;
-  }
-
-  .section.quote {
-
-    @include breakpoint($break-tablet) {
-      padding-top: 2rem;
+    .header-content {
+      display: block;
     }
 
-    .section-header {
-      text-align: center;
-    }
-
-    .section-block {
-      width:100%;
-      margin: 0;
-      color: #999ca2;
-      font-size: 1.3rem;
+    .title {
+      font-size: 4vw;
+      font-weight: 500;
+      color: #fff;
       line-height: 2rem;
-      display: flex;
-      padding-left: 1rem;
-      padding-top: 1rem;
+      padding-bottom: 0.7rem;
 
       @include breakpoint($break-tablet) {
-        text-align: center;
-        font-size: 1.3rem;
-        line-height: 2rem;
-      }
-
-      .section-block-copy {
         padding-bottom: 1rem;
-
-        @include breakpoint($break-tablet) {
-          float: left;
-          padding: 0 span(1 of 32);
-          padding-bottom: 1rem;
-          width: span(28 of 32);
-          vertical-align: middle;
-        }
       }
 
-      .left-quote, .right-quote {
-        display: none;
-
-        @include breakpoint($break-tablet) {
-          width: span(1 of 32);
-          display: block;
-          line-height: 100%;
-          font-size: 4rem;
-          font-weight: 400;
-          color: #000;
-          text-align: center;
-          display: flex;
-          align-items: center;
-        }
-      }
-
-      .left-quote {
-        @include breakpoint($break-tablet) {
-          float: left;
-        }
-      }
-
-      .right-quote {
-        @include breakpoint($break-tablet) {
-          float: right;
-          text-align: right;
-        }
+      @include breakpoint($max-width) {
+        padding-bottom: 2rem;
       }
     }
 
-    .teacher {
-
-      .link {
-        text-align: left;
-        font-weight: 400;
-      }
-
-      margin-top: 50px;
+    .text {
+      font-size: 1.6vw;
+      font-weight: 400;
+      color: #fff;
+      line-height: 1rem;
+      margin: 0 1rem;
+      padding-bottom: 0.7rem;
 
       @include breakpoint($break-tablet) {
-        margin: 50px auto;
-        width: 400px;
-        min-height: 150px;
+        line-height: 1.6rem;
+        padding-bottom: 1rem;
       }
 
-      .profile {
-        display: block;
-        border-radius:50%;
-        border: 2px solid;
-        width: 100px;
-        height: 100px;
-        float: left;
-        margin-right: 25px;
-        margin-top: 10px;
-        padding-right: 10px;
+      @include breakpoint($max-width) {
+        line-height: 1.8rem;
+        max-width: $max-width;
+        margin: 0 2rem;
+        padding-bottom: 2rem;
       }
-
-      .copy {
-        width: 260px;
-        float: left;
-        margin-top: 10px;
-      }
-
-      h4 {
-        text-align: left;
-        margin-top: 0;
-      }
-
-      p {
-        text-align: left;
-      }
-
-      svg {
-        display: inline-block;
-        width: 70px;
-        padding-top: 8px;
-        text-align: center;
-        align-items: center;
-        margin-left: 10px;
-      }
-
-      .profile-img {
-        padding-top: 8px;
-        text-align: center;
-        margin-left: 10px;
-      }
-
     }
   }
 
-  .school-section.confidence {
-    padding: 0;
+  .content-body {
+    @include container;
+    text-align: center;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+
+    .advantage-block {
+      @include container;
+      max-width: $max-width;
+      margin: 0 auto;
+      padding: 0 2rem;
+
+      .item {
+        display: block;
+        padding: 0 5px;
+        text-align: left;
+        padding: 0 30px 50px 30px;
+
+        @include breakpoint($break-tablet) {
+          @include gallery(1 of 2);
+          padding: 0 50px 50px 50px;
+        }
+
+        .title {
+          font-size: 20px;
+          font-weight: 500;
+          color: $light-blue;
+          padding-bottom: 1rem;
+
+          @include breakpoint($break-tablet) {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            min-height: 75px;
+          }
+
+          @include breakpoint($max-width) {
+            font-size: 1.4rem;
+          }
+        }
+
+        .text {
+          font-weight: 300;
+
+          @include breakpoint($break-tablet) {
+            font-size: .9rem;
+          }
+
+          @include breakpoint($max-width) {
+            font-size: 1rem;
+          }
+        }
+
+        a {
+          color: #1188ef;
+        }
+
+        a:hover {
+          color: $blue;
+        }
+      }
+    }
+  }
+
+  .bottom-block {
+    max-width: 100%;
+    height: 32vw;
+
+    .left-part, .right-part {
+      width: 100%;
+      float: left;
+      height: 52vw;
+      vertical-align: top;
+
+      @include breakpoint($break-tablet) {
+        height: 32vw;
+        width: 50%;
+        display: inline-block;
+      }
+    }
+
+    .left-part {
+      .brendon-shank-img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url('/img/assets/school/brendon-shank.jpg');
+      }
+    }
+
+    .right-part {
+      text-align: left;
+      background-color: $lighter-gray;
+
+      .title {
+        font-size: 1rem;
+        font-weight: 500;
+        color: $light-blue;
+        text-transform: uppercase;
+        padding: 1rem 1rem 0 2rem;
+
+        @include breakpoint($break-tablet) {
+          padding-top: 3vw;
+          font-size: 1.2vw;
+        }
+      }
+
+      img {
+        height: 6rem;
+        padding-left: 1rem;
+
+        @include breakpoint($break-tablet) {
+          height: 8vw;
+        }
+      }
+
+      .quote {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #000;
+        line-height: 1.5rem;
+        padding: 0 6rem 0 2rem;
+        
+        @include breakpoint($break-tablet) {
+          font-size: 1.6vw;
+          padding: 2vw 6rem 1vw 2rem;
+        }
+      }
+
+      .author {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #000;
+        line-height: 1rem;
+        padding: 1rem 0 0 2rem;
+
+        @include breakpoint($break-tablet) {
+          font-size: 1.1vw;
+        }
+      }
+    }
+  }
+
+  .ready-started-block {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 220px;
+    background-color: $blue;
 
     h2 {
-      padding-bottom: 0;  
+      margin-top: 0;
+      color: #fff;
+      padding: 40px 0 20px 0;
     }
-  }
-
-  .school-section-left {
-    @include container;
-
-    @include breakpoint($break-tablet) {
-      @include span(8 of 16);
-    }
-  }
-
-  .school-section-right {
-    @include container;
-
-    @include breakpoint($break-tablet) {
-      @include span(6 of 16);
-      margin: 0 span(2 of 16);
-    }
-  }
-
-  .school-section-content {
-    h2, p {
-      text-align: center;
-    }
-  }
-  
-  .school-section-content-copy {
-    @include container(4 of 4);
-
-    @include breakpoint($break-tablet) {
-      width: span(12 of 16);
-      margin: 0 span(2 of 16);
-    }
-    
-    p {
-      text-align: center;
-    }
-  }
-
-  .school-section-content-img {
-    @include container(4 of 4);
-
-    margin: 2rem 0;
-
-    @include breakpoint($break-tablet) {
-      display: block;
-      width: span(14 of 16);
-      max-width: 855px;
-      margin: 2rem span(1 of 16);
-    }
-
-    @include breakpoint($max-width) {
-      margin: 2rem auto;
-    }
-  }
-
-  .school-section-block-row {
-    @include container;
-    @include break;
-
-    .section-block {
-      margin-bottom: 3rem;
-
-      @include breakpoint($break-tablet) {
-        width: span(13 of 32);
-      }
-    }
-  }
-
-  .section-block {
-    @include container;
-    @include breakpoint($break-tablet) {
-      float: left;
-    }
-
-    &:first-of-type {
-      @include breakpoint($break-tablet) {
-        margin-left: span(1 of 32);
-        margin-right: span(3 of 32);
-      }
-    }
-
-    &:last-of-type {
-      @include breakpoint($break-tablet) {
-        margin-right: span(1 of 32);
-      }
-    }
-  }
-  
-  .section-block-header {
-    font-size: 29px;
-    font-weight: 400;
-    margin-top: 0;
-  }
-
-  .section-block-copy {
-    p {
-      font-size: 16px;
-      text-align: left;
-    }
-
-    a {
-      color: #00f;
-      text-decoration: underline;
-
-      &:hover,
-      &:focus,
-      &:active {
-        text-decoration: underline;
-        color: #00b;
-      }
-
-      &:active,
-      &:focus {
-        outline: none;
-      }
-    }
-  }
-
-  .blue {
-    background-color: #4574e0;
-    background-image: url('/img/assets/university/bg_action.svg');
   }
 }

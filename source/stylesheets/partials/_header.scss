@@ -169,7 +169,8 @@ header {
 
 .menu-toggle, .menu-right-toggle {
   position: absolute;
-  top: 30px;
+  padding: 10px 2px 4px 2px;
+  top: 22px;
   right: 20px;
   cursor: pointer;
   z-index: 999;

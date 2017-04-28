@@ -1,6 +1,6 @@
 <div id="features-subheader" class="subheader-block">
   <div class="menu">
-	  <div class="header-item <% if current_resource.data.features_page == 'infrastructure' %> selected<% end %>">
+	<div class="header-item <% if current_resource.data.features_page == 'infrastructure' %> selected<% end %>">
       <a href="/features/infrastructure">
         <div class="header-img">
           <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
@@ -36,9 +36,9 @@
       </a>
   	</div>
 
-	  <div class="header-item <% if current_resource.data.features_page == 'curriculum' %> selected<% end %>">
-      <a href="/features/curriculum">
-    	  <div class="header-img">
+	<div class="header-item <% if current_resource.data.features_page == 'curriculum' %> selected<% end %>">
+      <a href="/features/content-authoring">
+    	<div class="header-img">
 	        <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
   	    </div>
     	  <div class="header-label">Curriculum<span> Authoring</span></div>

@@ -32,7 +32,11 @@ header {
 
   .logo-link {
     position: fixed;
-    left: 4rem;
+    left: 1rem;
+
+    @include breakpoint($break-tablet) {
+      left: 4rem;
+    }
   }
 
   .img-logo {
@@ -96,7 +100,6 @@ header {
 
   .header-dropdown-menu {
     text-shadow: none;
-    //background: rgba(10, 106, 225, 0.7);
     border: none;
     border-radius: 0;
     min-width: 380px;
@@ -236,10 +239,14 @@ header {
 
 .menu-right-toggle {
   right: auto;
+  display: none;
+
+  @include breakpoint($break-tablet) {
+    display: inline-block;
+  }
 
   &.open {
-    float: left;
-    display: inline-block;
+    display: none;
 
     @include breakpoint($break-tablet) {
       display: inline-block;

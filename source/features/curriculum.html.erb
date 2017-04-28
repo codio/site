@@ -1,154 +1,159 @@
 ---
 title: Learn to Code | Code Curriculum  | Codio
 description: Codio provides course content that is mapped to national curriculum standards. Courses teach how to code in Java, Python, Javascript and the concept of computational thinking.
-fixed: true
+features_page: curriculum
 ---
 
-<section class="header-block">
-  <h1>Curriculum-Mapped Courses</h1>
-  <h2>Codio is built for students. Learning to code is an essential skill.</h2>
-  <div class="action-buttons animated fadeInUp">
-    <%= link_to 'Start FREE Trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
-    <%= link_to 'Book a Demo', '/demo', class: 'button button-xlarge button-main button-demo' %>
+<%= partial "features-subheader" %>
+
+<section class="content-body">
+  <div class="video-block">
+    <div class="header">
+      Author exceptional computer science content and curricula with Codio Guides
+    </div>
+    <div class="text">
+      Codio Guides lets you create anything from simple assignments and assessments to fully
+      fledged books with built-in assessment libraries. Allied to our course publishing features
+      it lets you teach Computer Science in a way that is not possible by any other means.
+    </div>
+    <div class="video">
+      <div class="h_iframe">
+        <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
+<iframe src="https://player.vimeo.com/video/214190836" width="640" height="417" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/214190836">Curriculum Authoring</a> from <a href="https://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+      </div>
+    </div>
+    <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
   </div>
-  <div class="clear">
+
+  <div class="logos-block">
+    <div class="logos">
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/kent-state-university-logo.png', alt: 'Kent State University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coded-by-kids-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/wright-state-university-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/john-carroll-university-logo.png', alt: 'John Carroll University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coventry-university-logo.png', alt: 'Coventry University', class: 'img-responsive' %>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="text">
+        <a href="news.codio.com/codio-used-to-teach-cs-and-non-cs-majors-at-wright-state-university">
+          "The VM technology, integrated IDE and class monitoring tools are a killer combination.
+          The time savings for students and faculty are huge."
+        </a>
+      </div>
+      <div class="author">
+        - Mateen Rizki, Chair of the Department of Computer Science and Engineering,<br/> Wright State University
+      </div>
+    </div>
+  </div>
+
+  <div class="features-block">
+    <div id="featuresRow" class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Contents controls the IDE
+        </div>
+        <div class="text">
+          The Guides editor fully controls the IDE. Each page is able to open and close the files
+          you need to see for any individual page of content. You can also execute commands, open
+          up browser pages and even highlight portions of code.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row1" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/curriculum/content-1.png', alt: 'Guides controls IDE', class: 'img-responsive' %>
+      </div>
+    </div>
+    
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/curriculum/std-autograde.jpg', alt: 'Assessment setup', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row2" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Assessments
+        </div>
+        <div class="text">
+          The Guides editor is also where you author the many different types of assessments
+          offered by Codio. We support auto-graded coding, multiple choice questions, fill in
+          the blank and open ended free text assessment types.
+        </div>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Markdown or HTML
+        </div>
+        <div class="text">
+          You can choose between markdown and HTML authoring for each individual page. Markdown
+          is a very fast and easy way to produce beautiful content without the need for any HTML
+          unless you require it. HTML pages allow you to control all aspects of styling and embed
+          javascript widgets to meet specific requirements.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row3" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/curriculum/assessments.jpg', alt: 'Assessment setup', class: 'img-responsive' %>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/curriculum/courses.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row4" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Courses
+        </div>
+        <div class="text">
+          Codio allows you to publish your curriculum content to courses, which can be browsed
+          and pulled off the shelf. You can also assign parts of a course to your class as you teach.
+          Courses are structured into a hierarchy of modules and units that map to lessons and lectures.
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="curriculum-body">
-  <div class="section top">
-    <h1>
-      Courses mapped to leading National Curricula
-    </h1>
-    <p>
-      Access to our 80+ course units comes as a standard with any Codio licence. We are constantly
-      working with the UK's national exam board, <a href="/docs/teacher/courses/ocr/">Oxford, Cambridge and RSA</a> (OCR)
-      to ensure our content is mapped to national curriculum standards. For further details, please
-      see our curriculum map for the <a href="https://codio.com/docs/content/courses/currmap2016/">GSCE
-      J276 specification</a>. We are now in the process of mapping
-      our curriculum to the  K12cs.org framework for USA K-12 schools.
-    </p>
-  </div>
-
-  <div class="grey">
-    <div class="curriculum-img">
-      <%= image_tag "assets/features/curriculum/courses_mapped.png", alt: "Mapped courses", class: "curriculum-content-img" %>
-    </div>
-  </div>
-
-  <div class="section top">
-    <h1>
-      Auto-marked assessments with all Courses
-    </h1>
-    <p>
-      All Codio courses come with tests integrated into the content so students have an interactive
-      and engaging learning experience. All our tests are graded automatically so students get
-      instant feedback.
-    </p>
-  </div>
-
-  <div class="action-buttons animated fadeInUp">
-    <%= link_to 'Start free trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
-  </div>
-
-  <hr/>
-
-  <div class="curriculum-faq">
-
-    <div class="curriculum-faq-col curriculum-faq-col-left">
-      <div class="curriculum-faq-entry">
-        <h3>Computational Thinking - Create a maze game</h3>
-        <p>
-          The cource teaches the fundamental concepts of computational thinking.
-        </p>
-      </div>
-      <div class="curriculum-faq-entry">
-        <h3>Flode - Flowcharting</h3>
-        <p>
-          A unit under Introduction to Programming, Flode teaches foundation programming concepts
-          using executable and debuggable flow charts.
-        </p>
-      </div>
-      <div class="pricing-faq-entry">
-        <h3>Introduction to Web Development</h3>
-        <p>
-          The course teaches the critical skills of HTML and CSS. It also uses Javascript
-          to teach the basic of web sites and web applications.
-        </p>
-      </div>
-      <div class="curriculum-faq-entry">
-        <h3>OCR's Cambridge MOOC</h3>
-        <p>
-          Created by OCR, the course covers all the basic topics students need to know
-          to get started. The tutorial contains content, videos and auto-marked tests.
-        </p>
-      </div>
-    </div>
-    <div class="curriculum-faq-col curriculum-faq-col-right">
-      <div class="curriculum-faq-entry">
-        <h3>An Introduction<br />to Programming</h3>
-        <p>
-          Introduces the basic concepts of programming as well as Javascript, Python and Java.
-        </p>
-      </div>
-      <div class="curriculum-faq-entry">
-        <h3>Crunch</h3>
-        <p>
-          Crunch is a modern and very easy to use alternative to Little Man Computer.
-          It comes with a debugger and visualization feature that teaches the fetch/execute
-          cycle and shows how CPUs work.
-        </p>
-      </div>
-      <div class="curriculum-faq-entry">
-        <h3>Linux Command Line Interface</h3>
-        <p>
-          This course teaches students how to access the terminal and access the Linux command line interface.
-        </p>
-      </div>
-      <div class="curriculum-faq-entry">
-        <h3>MySQL</h3>
-        <p>
-          The course introduces basic and advance topics relating to accessing of databaes through code.
-          It is a good course to challenge for students interested in web applications.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <hr/>
-
-  <div class="section">
-    <div class="bubble-container">
-      <div class="bubble-section quote">
-        <div class="section-block bubble">
-          <div class="left-quote">
-            &ldquo;
-          </div>
-          <div class="section-block-copy vertical">
-            Students who had lost confidence and had been "pulling their hair out" because they "could not get"
-            Little Man Computer, loved CRUNCH from Codio. They got the concepts, so thank you.
-          </div>
-          <div class="right-quote">
-            &rdquo;
-          </div>
-        </div>
-        <div class="teacher">
-          <div class="profile">
-            <%= image_tag 'assets/features/curriculum/white-beard-man.png', alt: 'Peter Kelly, Norton College, UK', class: 'profile-img' %>
-          </div>
-          <div class="copy">
-            <h4>Peter Kelly</h4>
-            <p>
-              Head of Computing and Business,<br/>
-              Norton College<br/>
-              UK
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <%= partial "features-call-to-action" %>
-
+<section class="ready-started-block">
+  <h2>Ready to get started?</h2>
+  <%= link_to 'Start Free Trial', '/start-edu-trial',
+    class: 'button button-rounded button-main' %>
 </section>

@@ -2,234 +2,219 @@
 title: Home | Teaching code | Codio
 layout: layout
 fixed: true
-description: Codio is the platform used by educators to teach computer science. It is for Universities, Schools, Vocational, Hackathons and Developers. Hassle-free for teachers and easy for students to use.
+transparent: true
+description: Used by 93,000 users and 2,000 institutions. Codio is the "most complete platform" for computer science education that includes an online ide for education, curriculum authoring tools and more.
 ---
 
-<section class="header-block">
-  <div class="carousel-block">
-    <div id="headerCarousel" class="carousel">
-
-      <div class="carousel-inner" role="listbox">
-        <div class="item slot-4">
+<section class="section-scroll">
+  <nav id="scrollSpy" class="navbar scrollspy-dotted">
+    <ul class="nav" >
+      <li class="nav-item"><a class="nav-link" href="#block1"><span></span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#block2"><span></span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#block3"><span></span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#block4"><span></span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#block5"><span></span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#block6"><span></span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#block7"><span></span></a></li>
+      <li></li>
+    </ul>
+  </nav>
+  
+  <div id="block1" class="block">
+    <div class="title-text">
+      <h2>Future proof your students’ role in the 21st Century</h2>
+      <h4>Join educators in over 2,000 leading institutions on "the most thorough
+        platform for computer science education". Equipping students with the skills needed to thrive.</h4>
+      <%= link_to 'Free Trial', '/start-edu-trial',
+        class: 'button button-rounded button-main' %>
+    </div>
+  </div>
+  
+  <div id="block2" class="block">
+    <div class="toolbox-header">The sharpest tools in the shed</div>
+    <div class="toolbox">
+      <div class="box">
+        <div class="header"><span>Infrastructure</span></div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              <span>
+                Teachers and students have access to unlimited cloud based servers, each one starting instantly and with full sudo privileges so you can install, configure and run anything.
+              </span>
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/features/infrastructure', class: '' %>
+            </div>
+          </div>
         </div>
-        <div class="item active slot-3">
-          <div class="title-text">
-            <h2>Teaching Data Science?</h2>
-            <h3>How to use Codio</h3>
-            <%= link_to 'Learn More', 'https://codio.com/blog/using-codio-to-teach-data-science/',
-              class: 'button button-large button-main' %>
+      </div>
+      
+      <div class="box">
+        <div class="header"><span>Online IDE</span></div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/webbased.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              <span>
+                The IDE supports any programming language, database or software component. It's also ideal for both novice students and postgrads.
+              </span>
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/features/ide', class: '' %>
+            </div>
           </div>
         </div>
       </div>
 
-      <a class="left carousel-control" href="#headerCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
+      <div class="box">
+        <div class="header"><span>Grading</span></div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              <span>
+                The most extensive support for automatically and manually graded assessments of any Computer Science
+                platform.
+              </span>
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/features/grading', class: '' %>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <a class="right carousel-control" href="#headerCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+      <div class="box">
+        <div class="header"><span>LMS</span></div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/learning.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              <span>
+                Codio's own extensive LMS features co-exist peacefully with all major LMS platforms such as Canvas,
+                Blackboard and Moodle.
+              </span>
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/features/lms', class: '' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="header"><span>Curriculum Authoring</span></div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              <span>
+                The only platform to offer top quality curriculum authoring tools that control
+                the IDE. Create simple assignments or an entire book.
+              </span>
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/features/curriculum/', class: '' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="header"><span>Templating<span></div>
+        <div class="dot-line"><div class="dot"></div></div>
+        <div class="body">
+          <div class="scope-item">
+            <div class="scope-img">
+              <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
+            </div>
+            <div class="scope-txt">
+              <span>
+                Take any custom software configuration of languages, databases or software components and add them to your template library for shared re-use.
+              </span>
+            </div>
+            <div class="scope-button">
+              <%= link_to 'Learn More', '/features/templates', class: '' %>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
+  
+  <div id="block3" class="block">
+    <div class="title-text">
+      <h2>"Insanely Convenient"</h2>
+      <h4>Faculty find Codio an "insanely convenient" way to power their Computer Science courses</h4>
+      <%= link_to 'COVENTRY UNIVERSITY AND CODIO', 'http://news.codio.com/codio-at-coventry-university/',
+        class: 'button button-rounded button-main' %>
+    </div>
+    <div class='logo-img'><%= image_tag 'assets/index/logos/coventry-university-logo-2.png',
+      alt: 'Coventry University', class: '' %></div>
+  </div>
+  
+  <div id="block4" class="block">
+    <div class="title-text">
+      <h2>"I grasped new concepts quickly with Codio"</h2>
+      <h4>Bring CS knowledge and digital skills to non-CS majors</h4>
+      <%= link_to 'SEE HOW EASY IT IS TO PILOT CODIO', 'http://news.codio.com/codio-at-famu',
+        class: 'button button-rounded button-main' %>
+    </div>
+    <div class='logo-img'><%= image_tag 'assets/index/logos/florida-am-university-logo-2.png',
+      alt: 'Florida A&M University', class: '' %></div>
+  </div>
+  
+  <div id="block5" class="block">
+    <div class="title-text">
+      <h2>Engage your community</h2>
+      <h4>Conquering student intimidation opens up a new world. Help take them there</h4>
+      <%= link_to 'YOUR CURRICULUM. POWERED BY US', 'http://news.codio.com/coded-by-kids-and-codio/',
+        class: 'button button-rounded button-main' %>
+    </div>
+    <div class='logo-img'><%= image_tag 'assets/index/logos/coded-by-kids-logo.png',
+      alt: 'Coded By Kids', class: '' %></div>
+  </div>
+  
+  <div id="block6" class="block">
+    <div class="title-text">
+      <h2>Transform your CS course delivery</h2>
+      <h4>Empower students when you spend 20% less time on admin and grading</h4>
+      <%= link_to 'SHEFFIELD UNIVERSITY AND CODIO', 'http://news.codio.com/sheffield-university-uses-codio',
+        class: 'button button-rounded button-main' %>
+    </div>
+    <div class='logo-img'><%= image_tag 'assets/index/logos/sheffield-university-logo.png',
+      alt: 'The University Of Sheffield', class: '' %></div>
+  </div>
+  
+  <div id="block7" class="block">
+    <div class="title-text">
+      <h2>Grab their imagination</h2>
+      <h4>Students realize their vision from the first day of class</h4>
+      <%= link_to 'PILOT CODIO IN YOUR SCHOOL', '/school',
+        class: 'button button-rounded button-main' %>
+    </div>
+  </div>
+
+  <div class="block block-ready-started">
+    <h2>Ready to get started?</h2>
+    <%= link_to 'Start Free Trial', '/start-edu-trial',
+        class: 'button button-rounded button-main' %>
   </div>
 </section>
-
-<section class="index-content">
-  <div class="index-section-video">
-    <h2>What is Codio?</h2>
-    <div class="h_iframe">
-      <%= image_tag 'assets/placeholdit.png', alt: 'What is Codio?', class: 'ratio' %>
-      <iframe src="https://player.vimeo.com/video/170160323?portrait=0"
-        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-      </iframe>
-    </div>
-  </div>
-
-  <hr/>
-
-  <div class="index-section-scope">
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
-      </div>
-      <h3>Infrastructure as a service</h3>
-      <div class="scope-txt">Cloud based, Codio is low on hardware requirements and big on savings, realibility and flexibility.</div>
-      <%= link_to 'Learn more', '/features/infrastructure', class: 'button button-large scope-button' %>
-    </div>
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/webbased.svg', class: '' %>
-      </div>
-      <h3>Web-based IDE</h3>
-      <div class="scope-txt">Less hassle than installing an IDE on your network or desktop, with no compromises on functionality.</div>
-      <%= link_to 'Learn more', '/features/ide', class: 'button button-large scope-button' %>
-    </div>
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
-      </div>
-      <h3>Project templates</h3>
-      <div class="scope-txt">The fast and simple way to create new computer science teaching projects, and adapt existing ones.
-        You can use our pre-configured stacks or create you one.</div>
-      <%= link_to 'Learn more', '/features/templates', class: 'button button-large scope-button' %>
-    </div>
-  </div>
-  <div class="index-section-scope">
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/learning.svg', class: '' %>
-      </div>
-      <h3>Learning management</h3>
-      <div class="scope-txt">Manage your computer science classes from the Codio dashboard. Watch your students progress through a course.
-        Assessments are auto-marked, so you save time.</div>
-        <%= link_to 'Learn more', '/features/management', class: 'button button-large scope-button' %>
-    </div>
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
-      </div>
-      <h3>Content authoring</h3>
-      <div class="scope-txt">Create your own course content either by uploading your class notes or
-        creating interactive content directly within the IDE.</div>
-        <%= link_to 'Learn more', '/features/content-authoring', class: 'button button-large scope-button' %>
-    </div>
-    <div class="scope-item">
-      <div class="scope-img">
-        <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
-      </div>
-      <h3>Curriculum content</h3>
-      <div class="scope-txt">We've co-developed over 80 courses with Oxford, Cambridge and RSA (OCR) &mdash; all
-        mapped to the UK Computer Science national curriculum.</div>
-        <%= link_to 'Learn more', '/features/curriculum', class: 'button button-large scope-button' %>
-    </div>
-  </div>
-
-  <div class="index-section-testimonials">
-    <div class="testimonial-block img">
-      <a href="https://codio.com/blog/using-codio-to-teach-data-science/">
-        <%= image_tag 'assets/index/t1.jpg', alt: 'Kent State University', class: '' %>
-      </a>
-    </div>
-
-    <div class="testimonial-block text light-theme">
-      <a href="https://codio.com/blog/using-codio-to-teach-data-science/">
-        <div style="width: 100%; height: 100%">
-          <div class="txt-right">
-            <p>"I'm impressed with Codio’s Box technology and how it allows students to quickly spin up
-            a distributed system or even variations without having to purchase dedicated cloud servers
-            or administer systems in-house."</p>
-            <p class="txt-quotes">&mdash; Dr. DeLozier,<br/>Kent State University</p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div class="testimonial-block text dark-theme">
-      <div style="width: 100%; height: 100%">
-        <div class="txt-left">
-          <p>"Our A-Level students are completing a unit on HTML, CSS and Javascript. They really
-            like that Codio creates a URL that is viewable live on any machine."</p>
-          <p class="txt-quotes">&mdash; Ben Garside,<br/>Durham Johnston School</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="testimonial-block img">
-      <%= image_tag 'assets/index/t2.jpg', alt: 'Durham Johnston School', class: '' %>
-    </div>
-  </div>
-
-  <div class="description-block">
-    <h4>What is Codio?</h4>
-    <p>Codio is a web-based platform used to teach computer science.</p>
-    <p>Codio contains a unique combination of technologies that you'll find hard to match.
-      It provides a professional grade IDE, learning management tools, project templates,
-      course authoring and curriculum all in one.</p>
-      <p></p>
-    </div>
-
-    <hr/>
-
-    <div class="index-section index-section-partners">
-      <h2>
-        Our Customers and Partners
-      </h2>
-
-      <div id="logosCarousel" class="carousel slide carousel-block logos-carousel" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#logosCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#logosCarousel" data-slide-to="1"></li>
-          <li data-target="#logosCarousel" data-slide-to="2"></li>
-          <li data-target="#logosCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides-->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/agakhan-academy-logo.png', alt: 'Agakhan Academy', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/aspire-blackpool-academy(alt)-logo.png', alt: 'Aspire Blackpool Academy', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/bathspa-university-logo.png', alt: 'Bathspa University', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/burgesshill-girls-logo.png', alt: 'Burgesshill Girls', class: "img-responsive" %></div>
-            </div>
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/computing-at-school-logo.png', alt: 'Computing At School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/coventry-university-logo.png', alt: 'Coventry University', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/csta-logo.png',  alt: 'Computer Science Teachers Associations', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/drchalloners-school-logo.png',  alt: 'Dr. Challoners School', class: "img-responsive" %></div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/duck-duck-go-logo.png', alt: 'Duck Duck Go', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/durham-school-logo.png', alt: 'Durham School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/florida-am-university-logo.png', alt: 'Florida A&M University', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/glyn-school-logo.png', alt: 'Glyn School', class: "img-responsive" %></div>
-            </div>
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/higlander-logo.png', alt: 'Higlander', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/holcombe-grammar-school-logo.png', alt: 'Holcombe Grammar School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/holy-angels-academy-logo.png', alt: 'Holy Angels Academy', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/john-carroll-university-logo.png', alt: 'John Carroll University', class: "img-responsive" %></div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/kent-state-university-logo.png', alt: 'Kent State University', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/lincoln-public-school-logo.png', alt: 'Lincoln Public School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/manhattan-indians-logo.png', alt: 'Manhattan Indians', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/naace-logo.png', alt: 'Naace', class: "img-responsive" %></div>
-            </div>
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/ocr-logo.png', alt: 'Oxford Cambridge and RSA', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/perse-school-logo.png', alt: 'The Perse School Cambridge', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/pool-academy-logo.png', alt: 'Pool Academy', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/sheffield-university-logo.png', alt: 'The University of Sheffield', class: "img-responsive" %></div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/st-lawrence-college-logo.png', alt: 'St. Lawrence College', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/westholme-school-logo.png', alt: 'Westholme School', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/bristol-grammar-school-logo.png', alt: 'Bristol Grammar School', class: "img-responsive" %></div>
-            </div>
-            <div class="logos-container">
-              <div class="logo-img"><%= image_tag 'assets/index/logos/wright-state-university-logo.png', alt: 'St. Lawrence College', class: "img-responsive" %></div><!--
-              --><div class="logo-img"><%= image_tag 'assets/index/logos/csforall-member-badge-logo.png', alt: 'CS For All Member Consortium', class: "img-responsive" %></div>
-            </div>
-          </div>
-        </div>
-
-        <!--Left and right controls -->
-        <a class="left carousel-control" href="#logosCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="right carousel-control" href="#logosCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-  </section>

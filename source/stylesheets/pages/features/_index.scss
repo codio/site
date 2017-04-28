@@ -13,7 +13,7 @@ body.features {
   }
   .content {
     margin: 0 auto;
-    max-width: $max-width;
+    max-width: 100%;
   }
 }
 
@@ -63,9 +63,10 @@ body.features_index .header-block {
   position: relative;
   padding: 1rem;
   text-align: center;
+  height: auto;
 
   @include breakpoint($break-tablet) {
-    padding: 0 1rem 2rem 0;
+    padding: 2rem 1rem 2rem 0;
   }
 
   h1 {

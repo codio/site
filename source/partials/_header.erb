@@ -4,12 +4,27 @@
 <div class="mobile-nav">
   <%= partial "nav" %>
 </div>
-<header class="fixed <% if current_resource.data.fixed %> should-be-fixed<% end %>">
+<header class="fixed opaque-background <% if current_resource.data.transparent %> should-be-transparent<% end %>">
   <div class="container animated fadeInDown">
-    <a href="/" class="logo-link"><%= image_tag 'logo-light.svg', alt: 'Codio', class: 'logo' %></a>
+  	<div class="logo">
+			<a class="menu-right-toggle fixed open dropdown-toggle" id="header-menu-dropdown"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  			<div class="menubars"></div>
+			</a>
+			<div class="dropdown-menu header-dropdown-menu transparent-background" aria-labelledby="header-menu-dropdown">
+    		<a class="dropdown-item" href="#">School Leadership</a>
+    		<a class="dropdown-item" href="/school">School Teacher</a>
+    		<a class="dropdown-item" href="#">University Leadership</a>
+    		<a class="dropdown-item" href="/university">University Faculty</a>
+    		<a class="dropdown-item" href="news.codio.com">Case Studies</a>
+    		<a class="dropdown-item" href="/features">Features</a>
+    		<a class="dropdown-item" href="/demo">Demo</a>
+    		<a class="dropdown-item" href="/p/login">Login</a>
+  		</div>
+	    <a href="/" class="logo-link"><%= image_tag 'logo-light.svg', alt: 'Codio', class: 'img-logo' %></a>
+  	</div>
     <nav>
-    <%= partial "nav", locals: {pricing: pricingType, surl: signupUrl} %>
+    	<%= partial "nav", locals: {pricing: pricingType, surl: signupUrl} %>
     </nav>
   </div>
-  <%= partial "sub-header" %>
 </header>

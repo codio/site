@@ -1,0 +1,67 @@
+<div id="features-subheader" class="subheader-block">
+  <div class="menu">
+	<div class="header-item <% if current_resource.data.features_page == 'infrastructure' %> selected<% end %>">
+      <a href="/features/infrastructure">
+        <div class="header-img">
+          <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
+    	</div>
+    	<div class="header-label">Infrastructure</div>
+      </a>
+  	</div>
+
+	<div class="header-item <% if current_resource.data.features_page == 'ide' %> selected<% end %>">
+      <a href="/features/ide">
+    	<div class="header-img">
+      	  <%= inline_svg 'assets/index/webbased.svg', class: '' %>
+    	</div>
+    	<div class="header-label">Online IDE</div>
+      </a>
+  	</div>
+
+	<div class="header-item <% if current_resource.data.features_page == 'grading' %> selected<% end %>">
+      <a href="/features/grading">
+    	<div class="header-img">
+      	  <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
+    	</div>
+    	<div class="header-label">Grading<span> & Auto-Grading</span></div>
+      </a>
+  	</div>
+
+	<div class="header-item <% if current_resource.data.features_page == 'lms' %> selected<% end %>">
+      <a href="/features/lms">
+    	<div class="header-img">
+      	  <%= inline_svg 'assets/index/learning.svg', class: '' %>
+    	</div>
+    	<div class="header-label">LMS</div>
+      </a>
+  	</div>
+
+	<div class="header-item <% if current_resource.data.features_page == 'curriculum' %> selected<% end %>">
+      <a href="/features/content-authoring">
+    	<div class="header-img">
+	        <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
+  	    </div>
+    	<div class="header-label">Curriculum<span> Authoring</span></div>
+      </a>
+  	</div>
+
+	<div class="header-item <% if current_resource.data.features_page == 'templates' %> selected<% end %>">
+      <a href="/features/templates">
+    	  <div class="header-img">
+      	  <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
+    	  </div>
+    	  <div class="header-label">Templating</div>
+      </a>
+  	</div>
+
+	<div class="header-item">
+      <a href="/features/technicalspecifications/infrastructure">
+    	<div class="header-img">
+      	  <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
+    	</div>
+    	<div class="header-label">Specifications</div>
+      </a>
+  	</div>
+
+  </div>
+</div>

@@ -19,7 +19,7 @@ body.features {
     }
        
     .header-item {
-      @include gallery(2 of 12);
+      @include gallery(2 of 14);
       padding: 0 5px;
 
       .header-img {
@@ -50,18 +50,18 @@ body.features {
         font-weight: 500;
                 
         @include breakpoint($break-tablet) {
-          font-size: 14px;
+          font-size: 13px;
         }
 
-        @include breakpoint(1180px) {
-          font-size: 16px;
+        @include breakpoint(1210px) {
+          font-size: 15px;
         }
 
         span {
           display: none;
         }
 
-        @include breakpoint(970px) {
+        @include breakpoint(1055px) {
           span {
             display: inline;
           }

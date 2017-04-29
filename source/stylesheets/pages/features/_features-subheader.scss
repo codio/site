@@ -1,0 +1,85 @@
+body.features {
+  .subheader-block {
+    @include container;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    z-index: 100;
+    border-bottom: 1px solid $light-gray;
+    position: fixed;
+    padding-top: 15px;
+    margin-top: 60px;
+
+    .menu {
+      @include container;
+      max-width: $max-width;
+      margin: 0 auto;
+    }
+       
+    .header-item {
+      @include gallery(2 of 14);
+      padding: 0 5px;
+
+      .header-img {
+        width: 100%;
+        height: 15px;
+        margin-bottom: 10px;
+              
+        svg {
+          height: 100%;
+          width: auto;
+        }
+
+        @include breakpoint($break-tablet) {
+          height: 20px;
+        }
+
+        @include breakpoint($max-width) {
+          height: 25px;
+        }
+      }
+            
+      .header-label {
+        vertical-align: bottom;
+        display: inline-block;
+              
+        color: $medium-gray;
+        font-size: 12px;
+        font-weight: 500;
+                
+        @include breakpoint($break-tablet) {
+          font-size: 13px;
+        }
+
+        @include breakpoint(1210px) {
+          font-size: 15px;
+        }
+
+        span {
+          display: none;
+        }
+
+        @include breakpoint(1055px) {
+          span {
+            display: inline;
+          }
+        }
+      }
+
+      &:hover {
+        .header-label {
+          color: $blue;
+        }
+      }
+    }
+
+    .selected {
+      .header-label {
+        color: $blue;
+        border-bottom: 4px solid $blue;
+      }
+    }
+  }
+}

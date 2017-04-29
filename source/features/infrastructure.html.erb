@@ -1,150 +1,170 @@
 ---
-title: "Infrastructure as a service | Teaching code | Codio"
+title: "Infrastructure | Teaching code | Codio"
 description: "With Codio there’s no software to install and no hardware investment needed."
+features_page: infrastructure
 ---
+
 <% @pricingType = "university" %>
 <% @signupUrl = "/start-edu-trial" %>
 
-<section class="infrastructure-body">
+<%= partial "features-subheader" %>
 
-  <section class='section top'>
-    <h1 class="">
-      Infrastructure as a service
-    </h1>
-    <p>
-      Cloud computing isn’t just a passing trend. It’s the approach many
-      forward thinking organisations now take with their technology. Why?
-      Because Codio helps manage issues like access, availability, scalability
-      and disaster recovery.
-    </p>
-    <div class="action-buttons animated fadeInUp">
-      <%= link_to 'Free 30 day trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
+<section class="content-body">
+  <div class="video-block">
+    <div class="header">
+      Unlimited cloud based computers <br>for faculty, teaching assistants and students
     </div>
-    <p>
-      With Codio there’s no new infrastructure needed or software to install.
-      It’s easy to use, scalable and designed for teaching code.
-    </p>
-  </section>
+    <div class="text">
+      Built for professional developers, the Codio infrastructure is like no other.<br>
+      Install, configure and teach <strong>any</strong> language, any version, any database,
+      any software component.
+    </div>
+    <div class="video">
+      <div class="h_iframe">
+        <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
+        <iframe src="https://player.vimeo.com/video/214017880" width="640" height="415"
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+        <p>
+          <a href="https://vimeo.com/214017880">fv-infrastucture</a>
+          from
+          <a href="https://vimeo.com/user20752628">Codio</a>
+          on <a href="https://vimeo.com">Vimeo</a>.
+        </p>
+      </div>
+    </div>
+    <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
+  </div>
 
-  <div class="grey">
-    <div class="section showcase">
-      <div class="section-body">
-        <%= inline_svg "assets/features/infrastructure/infrastructure.svg", class: "" %>
+  <div class="logos-block">
+    <div class="logos">
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/kent-state-university-logo.png', alt: 'Kent State University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coded-by-kids-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/wright-state-university-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/john-carroll-university-logo.png', alt: 'John Carroll University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coventry-university-logo.png', alt: 'Coventry University', class: 'img-responsive' %>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="text">
+        <a href="news.codio.com/codio-used-to-teach-cs-and-non-cs-majors-at-wright-state-university">
+          "The VM technology, integrated IDE and class monitoring tools are a killer combination.
+          The time savings for students and faculty are huge."
+        </a>
+      </div>
+      <div class="author">
+        - Mateen Rizki, Chair of the Department of Computer Science and Engineering,<br/> Wright State University
       </div>
     </div>
   </div>
 
-  <div class="section">
-    <div class="section-body">
-      <div class="section-block-row">
-        <div class="section-block">
-          <h3 class="section-block-header software">
-            No software to install
-          </h3>
-          <div class="section-block-copy">
-            No complicated setup or configuration, and no time-consuming
-            software updates. You simply log in and get started.
-          </div>
+  <div class="features-block">
+    <div id="featuresRow" class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Containerization
         </div>
-        <div class="section-block">
-          <h3 class="section-block-header code">
-            Code Anywhere
-          </h3>
-          <div class="section-block-copy">
-            You don’t need to be in a classroom or at a specific location to
-            use Codio. Get access anywhere — in the lab, at work, on the move,
-            at school or at home.
-          </div>
+        <div class="text">
+          The Codio infrastructure delivers far more than a regular Virtual Machine infrastructure.
+          Our intelligently managed containerization technology allows unlimited, fully fledged
+          Ubuntu servers to be spun up in a couple of seconds. We charge the same if a student has
+          one project or one hundred.
         </div>
       </div>
-      <div class="section-block-row">
-        <div class="section-block">
-          <h3 class="section-block-header resource">
-            Dynamic resource allocation
-          </h3>
-          <div class="section-block-copy">
-            A high volume of users isn’t a problem with Codio. Containerisation
-            technology smooths CPU and RAM usage across all users, optimising
-            performance for boxes that are in use.
-          </div>
-        </div>
-        <div class="section-block">
-          <h3 class="section-block-header servers">
-            Unlimited servers
-          </h3>
-          <div class="section-block-copy">
-            Need to scale up, or down? Easy. Codio containerisation technology
-            packs hundreds of user servers onto a single physical server.
-          </div>
+      <div class="middle-part">
+        <div id="row1" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
         </div>
       </div>
-      <div class="section-block-row">
-        <div class="section-block">
-          <h3 class="section-block-header sudo">
-            Sudo access
-          </h3>
-          <div class="section-block-copy">
-            There are no barriers for your students or team members with Codio.
-            They can install and configure any programming language, database
-            or software component.
-          </div>
-        </div>
-        <div class="section-block">
-          <h3 class="section-block-header conflicts">
-            No user conflicts
-          </h3>
-          <div class="section-block-copy">
-            Each student project gets its own fully isolated server, so there
-            is no risk of stack or version conflicts.
-          </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/infrastructure/containerization.jpg', alt: 'Containerization', class: 'img-responsive' %>
+      </div>
+    </div>
+    
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/ide/teach-anywhere.jpg', alt: 'Scalability', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row2" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
         </div>
       </div>
-      <div class="section-block-row">
-        <div class="section-block">
-
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Scalability
         </div>
-        <div class="section-block">
-          <h3 class="section-block-header always">
-            'Always-on' boxes
-          </h3>
-          <div class="section-block-copy">
-            You can select to leave your box on. This feature enables you to
-            build and test cloud based services.
-          </div>
+        <div class="text">
+          Codio is massively scalable. You can run Codio in a class, a school, a university,
+          a huge MOOC, a district or state. No matter your size or requirements, the Codio
+          infrastructure scales to support your needs.
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="grey-top">
-    <div class="section quote">
-      <div class="section-block">
-        <div class="left-quote">
-          &ldquo;
+    <div class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Sys Admin Free
         </div>
-        <div class="section-block-copy">
-          Codio just makes the whole process simple. And that’s something all
-          teachers are looking for.
-        </div>
-        <div class="right-quote">
-          &rdquo;
+        <div class="text">
+          How often do you have to wait days or weeks for a sys admin to prepare a coding environment to match your needs? With Codio, <strong>you</strong> configure the environment you need and can then distribute it instantly to students. You can even template your standard environments and pull them off the shelf when you need them.
+
+And because everything is running on our servers, you don’t need to worry about security. 
         </div>
       </div>
-      <div class="teacher">
-        <div class="profile">
-          <%= inline_svg "assets/features/quotes/man-young-white.svg", class: "" %>
+      <div class="middle-part">
+        <div id="row3" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
         </div>
-        <div class="copy">
-          <h4>Thomas Smith</h4>
-          <p>
-            Head of Computing <br />
-            Caistor Grammar School <br />
-            Lincolnshire, UK
-          </p>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Sys admin free', class: 'img-responsive' %>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/infrastructure/terminal.jpg', alt: 'sudo privileges', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row4" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Sudo Privileges
+        </div>
+        <div class="text">
+          Users have full sudo level privileges to their servers. This means they can install anything they like and configure it exactly the way they want.
         </div>
       </div>
     </div>
-  </div>
 
-  <%= partial "features-call-to-action" %>
+
+  </div>
+</section>
+
+<section class="ready-started-block">
+  <h2>Ready to get started?</h2>
+  <%= link_to 'Start Free Trial', '/start-edu-trial',
+    class: 'button button-rounded button-main' %>
 </section>

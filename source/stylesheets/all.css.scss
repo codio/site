@@ -57,11 +57,15 @@ $susy: (
 @import 'pages/mission';
 @import 'pages/error';
 @import 'pages/developer';
-@import 'pages/features/index';
 @import 'pages/features/shared';
+@import 'pages/features/features-subheader';
+@import 'pages/features/index';
 @import 'pages/features/ide';
 @import 'pages/features/infrastructure';
 @import 'pages/features/templates';
 @import 'pages/features/content-authoring';
 @import 'pages/features/management';
 @import 'pages/features/curriculum';
+@import 'pages/features/grading';
+@import 'pages/features/lms';
+@import 'pages/features/technicalspecifications';

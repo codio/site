@@ -17,4 +17,6 @@ $(() => {
   })
 
   $('.video-link').magnificPopup({type:'iframe'});
+
+  $('body').scrollspy({ target: '#scrollSpy' });
 })

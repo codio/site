@@ -1,8 +1,12 @@
 footer {
-  padding: 3 * $base-line-height 0 0 0;
-  border-top: 1px solid $lighter-gray;
+  padding: 1rem 0 0 0;
+  background-color: #3F484D;
 
-  .container {
+  @include breakpoint($break-tablet) {
+    padding: 2rem 0;
+  }
+
+  .container, .container-logo {
     @include container;
 
     @include breakpoint($break-tablet) {
@@ -16,8 +20,81 @@ footer {
     }
   }
 
-  @include breakpoint($break-tablet) {
-    padding: 3 * $base-line-height 0;
+  .container-logo {
+    padding: 1rem;
+    
+    @include breakpoint($break-tablet) {
+      padding: 1rem 2rem;
+    }
+
+    @include breakpoint($max-width) {
+      padding: 1rem 4rem;
+    }
+
+    .footer-logo {
+      width: 100px;
+      float: left;
+
+      @include breakpoint($break-tablet) {
+        @include span(2 of 16);
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .line {
+      display: none;
+      border-top: 1px solid $lighter-gray;
+
+      @include breakpoint($break-tablet) {
+        @include span(11 of 16);
+        margin-top: 16px;
+        display: inline-block;
+      }
+
+      @include breakpoint($max-width) {
+        margin-top: 20px;
+      }
+    }
+
+    .social {
+      @include span(5 of 16);
+      float: right;
+
+      @include breakpoint($break-tablet) {
+        @include span(3 of 16);
+      }
+
+      .icon, .facebook {
+        margin-left: 10px;
+        width: auto;
+        height: auto;
+        opacity: 1;
+        cursor: pointer;
+
+        &:hover {
+          opacity: .6;
+        }
+
+        @include breakpoint($break-tablet) {
+          margin-left: 12px;
+        }
+
+        @include breakpoint($max-width) {
+          margin-left: 25px;
+        }
+      }
+
+      .icon {
+        width: 20px;
+      }
+
+      .facebook {
+        height: 25px;
+      }
+    }
   }
 
   .footer-copyright {
@@ -38,17 +115,14 @@ footer {
     }
   }
 
-  .footer-logo {
-    width: 120px;
-  }
-
   .footer-list {
     @include span(2);
     padding: 0 4*gutter();
     margin-bottom: 2 * $base-line-height;
+    min-height: 195px;
 
     @include breakpoint($break-tablet) {
-      @include span(1 of 5);
+      @include span(1 of 4);
       padding: 0 gutter() 0 3%;
       margin-bottom: 0;
     }
@@ -59,22 +133,22 @@ footer {
   }
 
   .footer-list h4 {
-    font-size: 18px;
+    color: #fff;
+    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 0;
 
     @include breakpoint($break-tablet) {
-      font-size: 12px;
+      font-size: 16px;
     }
   }
 
   a {
-    color: $light-gray;
-    font-size: 18px;
+    color: #fff;
+    font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-    transition: color 0.3s ease-in-out;
 
     @include breakpoint($break-tablet) {
       font-size: 14px;
@@ -82,6 +156,6 @@ footer {
   }
 
   a:hover {
-    color: $dark-gray;
+    color: $light-gray;
   }
 }

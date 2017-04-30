@@ -1,120 +1,190 @@
 ---
 title: "Online IDE for Education | Teaching code | Codio"
 description: "Codio’s Online IDE for Education has the power of a desktop version, with many advanced features."
+features_page: ide
 ---
 <% @pricingType = "university" %>
 <% @signupUrl = "/start-edu-trial" %>
 
-<section class="ide-body">
+<%= partial "features-subheader" %>
 
-  <section class='section top'>
-    <h1 class="">
-      Online IDE for Education
-    </h1>
-    <h2>
-      Teach Java, Python, C++ and more
-    </h2>
-    <div class="webide-section-block-row">
-      <div class="section-block h_iframe">
+<section class="content-body">
+  <div class="video-block">
+    <div class="header">
+      A fully featured professional grade IDE connected to every cloud server
+    </div>
+    <div class="text">
+      Connected to every cloud VM, Codio's online IDE offers all the tools and features
+      you would expect from leading desktop IDEs, including the ability to run GUI
+      applications. Hide or reveal complexity depending on your students' learning stage.
+    </div>
+    <div class="video">
+      <div class="h_iframe">
         <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
-        <iframe src="https://player.vimeo.com/video/177558343?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        <iframe src="https://player.vimeo.com/video/214159517" width="640" height="395"
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
         </iframe>
-      </div>
-      <div class="section-block">
-        <h4>
-          Hassle-free and simple to use
-        </h4>
-        <div class="section-block-text">Because it’s web-based, there’s nothing to download, install or update. You can teach any programming
-          language such as Python, Java, C++, HTML, PHP, Javascript and more. It comes with an
-          <a href="/blog/integrated-debugger-launched-for-multiple-programming-languages/">integrated debugger</a>
-          that supports Python, Java, C, C++ and NodeJS.
-        </div>
-      </div>
-    </div>
-
-    <div class="action-buttons animated fadeInUp">
-      <%= link_to 'Free 30 day trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
-    </div>
-  </section>
-
-  <div class="section showcase">
-    <div class="section-body">
-      <img src="/img/assets/features/ide/ide.png" alt="Ide" />
-    </div>
-  </div>
-
-  <div class="section">
-    <div class="section-body">
-      <div class="section-block-row">
-        <div class="section-block">
-          <h3 class="section-block-header savings">
-            Rich online code editor
-          </h3>
-          <div class="section-block-copy">
-            No special knowledge is needed to use Codio’s IDE. It's powerful
-            and used by advanced developers and easy enough for those who are
-            learning to code, and starts as soon as you open a project.
-          </div>
-        </div>
-        <div class="section-block">
-          <h3 class="section-block-header productivity">
-            Advanced features
-          </h3>
-          <div class="section-block-copy">
-            Multiple code panels. <a href="/docs/ide/navigation/editing/">Syntax highlighting support</a> for all
-            programming languages. <a href="/docs/ide/features/">Codio's advanced features</a> are easy to use
-            by beginners and help experienced users be more productive.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section full-width grey-top">
-    <div class="section-block">
-      <h2 class="section-header">
-        Additional features for Coders
-      </h2>
-      <p class="section-copy">
-        Codio is used by professionals, advanced students and developer
-        teams. Our IDE features also include autocomplete, code-folding,
-        key-bindings, line-numbering, multiple cursors, detailed control
-        over visual themes and preferences, key bindings, standard and regex
-        search and replace.
-      </p>
-    </div>
-  </div>
-
-  <div class="section quote grey-top">
-    <div class="section-block">
-      <div class="left-quote">
-        &ldquo;
-      </div>
-      <div class="section-block-copy">
-        Codio’s education tools made it attractive. Not just to put everyone
-        on the same platform, but also as a tool for managing classes. It’s
-        given us a way to organise a lot of the technical things we’re doing
-        with the kids, and is part of the strategic plan that’s helping us to
-        scale.
-      </div>
-      <div class="right-quote">
-        &rdquo;
-      </div>
-    </div>
-    <div class="teacher">
-      <div class="profile">
-        <%= inline_svg "assets/features/quotes/man-young-black.svg", class: "" %>
-      </div>
-      <div class="copy">
-        <h4>Sylvester Mobley</h4>
         <p>
-          Founder, CodedbyKids <br>
-          Philadelphia, USA <br>
-          <%= link_to 'Learn more', 'http://blog.codio.com/coded-by-kids-and-codio/', class: 'link' %>
+          <a href="https://vimeo.com/214159517">IDE Features</a> from 
+          <a href="https://vimeo.com/user20752628">Codio</a> on 
+          <a href="https://vimeo.com">Vimeo</a>.
         </p>
       </div>
     </div>
+    <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
   </div>
 
-  <%= partial "features-call-to-action" %>
+  <div class="logos-block">
+    <div class="logos">
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/kent-state-university-logo.png', alt: 'Kent State University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coded-by-kids-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/wright-state-university-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/john-carroll-university-logo.png', alt: 'John Carroll University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coventry-university-logo.png', alt: 'Coventry University', class: 'img-responsive' %>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="text">
+        <a href="http://news.codio.com/codio-used-to-teach-cs-and-non-cs-majors-at-wright-state-university">
+          "The VM technology, integrated IDE and class monitoring tools are a killer combination.
+          The time savings for students and faculty are huge."
+        </a>
+      </div>
+      <div class="author">
+        - Mateen Rizki, Chair of the Department of Computer Science and Engineering,<br/> Wright State University
+      </div>
+    </div>
+  </div>
+
+  <div class="features-block">
+    <div id="featuresRow" class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Install and teach anything
+        </div>
+        <div class="text">
+          Our IDE gives you command line access to the Ubuntu box. Codio's infrastructure
+          supports anything that you choose to install and configure from the command line.
+          Codio boxes have sudo level privileges so you and your students can custom configure
+          your environment.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row1" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/terminal.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+      </div>
+    </div>
+    
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/ide/ide-layout.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row2" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Teach anywhere
+        </div>
+        <div class="text">
+          The student policy of 'Bring Your Own Device' (BYOD) is today's reality. Therefore, Codio
+          allows you to reduce your computer lab costs by providing a cloud-based IDE accessible
+          from the classroom or from home. Students just need a web browser to use the Codio IDE.
+        </div>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Virtual Desktop
+        </div>
+        <div class="text">
+          Even though all Codio boxes are running in the Cloud, the Codio virtual desktop lets
+          anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything else, they all run beautifully within your browser.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row3" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Virtual desktop', class: 'img-responsive' %>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/ide/debugger.jpg', alt: 'Debugger', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row4" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Integrated Debugger
+        </div>
+        <div class="text">
+          The Codio IDE has a superb debugger that runs in the browser. It supports Java, Python,
+          C, C++, NodeJS. You will find all the features you would expect including gutter based
+          breakpoint, automatic watching of local variables, manual variable watches, call stack,
+          step over, step out and more.
+        </div>
+      </div>
+    </div>
+
+    <div class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Advanced Features
+        </div>
+        <div class="text">
+          Codio is designed for experts and enables teaching complex topics such us Data Science
+          or Graphics. For full details, review our <a href="#">technical specifications</a>.   Some of the things you will find are syntax highlighting, extensive keyboard shortcuts, code complete, multiple code panels, themes, code beautification, emmet support, one click software installation and custom configurable menus.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row5" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/ide/settings.jpg', alt: 'Advanced settings', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ready-started-block">
+  <h2>Ready to get started?</h2>
+  <%= link_to 'Start Free Trial', '/start-edu-trial',
+    class: 'button button-rounded button-main' %>
 </section>

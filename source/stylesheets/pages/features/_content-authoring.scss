@@ -1,7 +1,9 @@
 body.features_content-authoring {
-  .features-body {
-    .section.first {
-      padding-bottom: 0;
-    }
-  }
+	.content-body {
+		.features-block {
+			.features-row {
+				min-height: 448px;
+			}
+		}
+	}
 }

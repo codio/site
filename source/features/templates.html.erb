@@ -1,104 +1,119 @@
 ---
 title: "Templates | Teaching code | Codio"
 description: "Codio’s templates make it easy to create your own projects, or use our pre-configured courses."
+features_page: templates
 ---
 <% @pricingType = "university" %>
 <% @signupUrl = "/start-edu-trial" %>
 
-<section class="features-body">
+<%= partial "features-subheader" %>
 
-  <section class='section top'>
-    <h1>
-      Project templates
-    </h1>
-    <p>
-      Codio works with a series of templates, or Codio
-      stacks. You can use our pre-configured stacks or
-      create your own. This template approach makes
-      Codio easy to use, configure and adapt.
-    </p>
-    <p>
-      Codio's templates deliver fully preconfigured servers in less than 5 seconds, no matter how complex the configuration.
-    </p>
-    <div class="action-buttons animated fadeInUp">
-      <%= link_to 'Free 30 day trial', '/start-edu-trial', class: 'button button-xlarge button-main' %>
+<section class="content-body">
+  <div class="video-block">
+    <div class="header">
+      Launch a fully preconfigured coding environment in seconds.
     </div>
-  </section>
+    <div class="text">
+      Imagine being able to quickly create all the software configurations you need and
+      then create a templated snapshot. And then simply pull them off the shelf for you or
+      your students when you need them. Codio’s Stacks and Starter Packs let you do just this. 
+    </div>
+    <div class="video">
+      <div class="h_iframe">
+        <%= image_tag 'assets/school/placeholdit.png', class: "ratio" %>
+<iframe src="https://player.vimeo.com/video/214202695" width="640" height="417" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214202695">Templating</a> from <a href="https://vimeo.com/user20752628">Codio</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+      </div>
+    </div>
+    <%= link_to 'Free 30 Day Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
+  </div>
 
-  <div class="grey">
-    <div class="section showcase">
-      <div class="section-body">
-        <%= inline_svg "assets/features/templates.svg", class: "" %>
+  <div class="logos-block">
+    <div class="logos">
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/kent-state-university-logo.png', alt: 'Kent State University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coded-by-kids-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/wright-state-university-logo.png', alt: 'Coded by Kids', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/john-carroll-university-logo.png', alt: 'John Carroll University', class: 'img-responsive' %>
+      </div>
+      <div class="logo">
+        <%= image_tag 'assets/index/logos/coventry-university-logo.png', alt: 'Coventry University', class: 'img-responsive' %>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="text">
+        <a href="http://news.codio.com/codio-used-to-teach-cs-and-non-cs-majors-at-wright-state-university">
+          "The VM technology, integrated IDE and class monitoring tools are a killer combination.
+          The time savings for students and faculty are huge."
+        </a>
+      </div>
+      <div class="author">
+        - Mateen Rizki, Chair of the Department of Computer Science and Engineering,<br/> Wright State University
       </div>
     </div>
   </div>
 
-  <div class="section full-width section-center">
-    <div class="section-block">
-      <h3 class="section-block-header">
-        Understanding stacks
-      </h3>
-      <div class="section-block-copy">
-        <p>
-          Stacks are simply Codio boxes that have the base software
-          components installed and are fully configured. You simply take a
-          snapshot of the box contents to save it as a stack. With one click,
-          it's ready for your students to use.
-        </p>
-        <p>
-          Codio comes with a number of stacks pre-loaded. You can create
-          your own stacks, from scratch or by adapting an existing stack, to
-          suit the specific needs of your courses.
-        </p>
+  <div class="features-block">
+    <div id="featuresRow" class="features-row">
+      <div class="left-part description wow slideInLeft">
+        <div class="header">
+          Stacks
+        </div>
+        <div class="text">
+          Stack templates are server snapshots of the underlying software configuration.
+          You might have Python with the modules you require along with a SQL or Mongo database.
+          Or perhaps you regularly teach Java 8 with Junit and JavaFX. Or if you’re teaching a full
+          stack web development course you might want a the Mean or LAMP/LEMP stack.
+          No matter what underlying stack you’ve configured, once it’s added to your template library,
+          you will will be able to go from nowhere to an up-and-running project in seconds.
+        </div>
+      </div>
+      <div class="middle-part">
+        <div id="row1" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part screen wow slideInRight">
+        <%= image_tag 'assets/features/templates/stacks.jpg', alt: 'Stacks', class: 'img-responsive' %>
+      </div>
+    </div>
+    
+    <div class="features-row">
+      <div class="left-part screen wow slideInLeft">
+        <%= image_tag 'assets/features/templates/packs.jpg', alt: 'Starter packs', class: 'img-responsive' %>
+      </div>
+      <div class="middle-part">
+        <div id="row2" class="vertical-dot-line">
+          <div class="top"></div>
+          <div class="dot"></div>
+          <div class="bottom"></div>
+        </div>
+      </div>
+      <div class="right-part description wow slideInRight">
+        <div class="header">
+          Starter Packs
+        </div>
+        <div class="text">
+          A starter pack allows you to combine a Stack template with some workspace code
+          that delivers a ready-to-go starting point for you and your students. This will
+          save you huge amounts of time getting large classes of students set up so you can
+          start teaching them rather than acting as support staff and wasting precious teaching time.
+        </div>
       </div>
     </div>
   </div>
+</section>
 
-  <div class="grey-top">
-    <div class="section full-width section-center">
-      <div class="section-block">
-        <h3 class="section-block-header">
-          Starter packs
-        </h3>
-        <div class="section-block-copy">
-          Starter packs help your students get started in seconds. They are
-          fully templated projects with source code, pre-installed languages,
-          databases and any other components. So you can instantly create
-          projects which are ready to edit, compile and run.
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="grey-top">
-    <div class="section quote">
-      <div class="section-block">
-        <div class="left-quote">
-          &ldquo;
-        </div>
-        <div class="section-block-copy">
-          Coding in the cloud is great because it enables young people
-          to take the work they learn in school and continue it at home
-          or anywhere around the world.
-        </div>
-        <div class="right-quote">
-          &rdquo;
-        </div>
-      </div>
-      <div class="teacher">
-        <div class="profile man-young-white">
-          <%= inline_svg "assets/features/quotes/man-young-black.svg", class: "" %>
-        </div>
-        <div class="copy">
-          <h4>Mark Martin</h4>
-          <p>
-            Urban Teacher TV<br />
-            Blogger and Computing Teacher<br />
-            London, UK
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <%= partial "features-call-to-action" %>
+<section class="ready-started-block">
+  <h2>Ready to get started?</h2>
+  <%= link_to 'Start Free Trial', '/start-edu-trial',
+    class: 'button button-rounded button-main' %>
 </section>

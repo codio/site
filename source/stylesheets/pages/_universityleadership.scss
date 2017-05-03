@@ -15,25 +15,43 @@ body.universityleadership {
 body.universityleadership {
   .header-block {
     width: 100%;
-    height: 45vw;
+    height: 600px;
     position: relative;
     text-align: center;
     background-size: cover;
-    background-image: url('/img/assets/university/leadership/university-leadership-top.jpg');
+    background-image: url('/img/assets/university/leadership/university-leadership-top-mob.jpg');
+
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/university/leadership/university-leadership-top.jpg');
+      height: 45vw;
+    }
 
     .header-content {
       display: block;
-      padding: 0 4rem;
+      padding: 0 1rem;
+
+      @include breakpoint(525px) {
+        padding: 0 2rem;
+      }
+
+      @include breakpoint($break-tablet) {
+        padding: 0 4rem;
+      }
     }
 
     .title {
-      font-size: 4vw;
+      font-size: 1.8rem;
       font-weight: 500;
       color: #fff;
-      line-height: 2rem;
-      padding-bottom: 0.7rem;
+      line-height: 2.5rem;
+      padding-bottom: 2rem;
+
+      @include breakpoint(525px) {
+        font-size: 2.58rem;
+      }
 
       @include breakpoint($break-tablet) {
+        font-size: 4vw;
         padding-bottom: 1rem;
         line-height: 4rem;
       }
@@ -44,15 +62,20 @@ body.universityleadership {
     }
 
     .text {
-      font-size: 1.6vw;
+      font-size: 1.3rem;
       font-weight: 400;
       color: #fff;
-      line-height: 1.4rem;
+      line-height: 2rem;
       margin: 0 1rem;
-      padding-bottom: 1rem;
+      padding-bottom: 2rem;
       margin: 0 auto;
 
+      @include breakpoint(525px) {
+        font-size: 1.8rem;
+      }
+
       @include breakpoint($break-tablet) {
+        font-size: 1.6vw;
         line-height: 1.8rem;
         padding-bottom: 2rem;
       }
@@ -73,23 +96,39 @@ body.universityleadership .content-block {
   
   .block {
     width: 100%;
-    height: 46vw;
+    height: auto;
     position: relative;
     text-align: center;
     background-size: cover;
+
+    @include breakpoint($break-tablet) {
+      height: 46vw;
+    }
     
     .left-part, .right-part {
-      float: left;
-      vertical-align: middle;
+      display: block;
       height: 100%;
+      text-align: center;
+
+      @include breakpoint($break-tablet) {
+        float: left;
+      }
     }
 
     .left-part {
-      width: 55%;
+      width: 100%;
+
+      @include breakpoint($break-tablet) {
+        width: 55%;
+      }
     }
 
     .right-part {
-      width: 45%;
+      width: 100%;
+
+      @include breakpoint($break-tablet) {
+        width: 45%;
+      }
     }
 
     .title-text-right {
@@ -116,8 +155,12 @@ body.universityleadership .content-block {
     }
 
     .image {
-      text-align: right;
+      text-align: center;
       padding-top: 11vw;
+
+      @include breakpoint($break-tablet) {
+        text-align: right;
+      }
 
       img {
         height: 25vw;

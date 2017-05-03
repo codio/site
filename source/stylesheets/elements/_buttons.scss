@@ -82,14 +82,14 @@
 }
 
 .button.button-rounded {
-  padding: 5px 25px;
-  font-size: 14px;
+  padding: 7px 28px;
+  font-size: 1rem;
   font-weight: 500;
-  border-radius: 16px;
+  border-radius: 19px;
 
   @include breakpoint($break-tablet) {
-    padding: 10px 35px;
-    font-size: 16px;
+    padding: 12px 38px;
+    font-size: 1.1rem;
     font-weight: 600;
     border-radius: 23px;
   }

@@ -26,6 +26,8 @@ Windows can be opened automatically to present the tab configuration you feel is
 
 The 'Add Tab' button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
 
+
+
 ### Opening Files
 To open files select the 'File' type and enter the file name(s), including the path to the file if not in the root of the project.
 

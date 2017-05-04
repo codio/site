@@ -18,6 +18,8 @@ For example:
 - **Python:** Python Stack with no code workspace.
 - **Empty Stack:** an empty Ubuntu Box with no code workspace (suitable for HTML/CSS/JS projects).
 
+Projects created from a Stack will include an explanatory README.md file providing useful information to help you get started and will open automatically for newly created projects.
+
 or click on the **'Click here....'** to import or select an alternative software configuration:
 
 - **[Starter Pack](/docs/project/packs/)** which is the combination of a Stack and a pre-configured code workspace. This option means you can create a complete Stack + Code templates that get you off to a flying start.
@@ -37,5 +39,9 @@ You need to give your project a name and a description.
 
 
 ## Visibility
-By default, your Project will be public, meaning it is findable by any Codio user. If you have a subscription, you can mark the Project as private. If you are a member of an Organisation, the Organisation owner can disable the ability for you to create public projects. See [Public/Private Settings](/docs/teacher/create/public_private). You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for the Private Project from within the IDE from the `Project->Permissions` menu.
+Projects that are public can be found by any Codio user. If you have a personal subscription or you are a member of an Organisation, you can mark the Project as private. In 'My Projects' you will see a padlock icon for any Projects that are private.
+
+Organisation owners can disable the ability for you to create public projects. See [Public/Private Settings](/docs/teacher/create/public_private). 
+
+You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for private projects from within the IDE from the `Project->Permissions` menu.
 

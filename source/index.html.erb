@@ -21,194 +21,209 @@ description: Used by 93,000 users and 2,000 institutions. Codio is the "most com
   </nav>
   
   <div id="block1" class="block">
-    <div class="title-text">
-      <h2>Future proof your students’ role in the 21st Century</h2>
-      <h4>Join educators in over 2,000 leading institutions on "the most thorough
-        platform for computer science education". Equipping students with the skills needed to thrive.</h4>
-      <%= link_to 'Free Trial', '/start-edu-trial',
-        class: 'button button-rounded button-main' %>
+    <div class="content vertical">
+      <div class="title-text">
+        <h2>Future proof your students’ role in the 21st Century</h2>
+        <h4>Join educators in over 2,000 leading institutions on "the most thorough
+          platform for computer science education". Equipping students with the skills needed to thrive.</h4>
+        <%= link_to 'Free Trial', '/start-edu-trial',
+          class: 'button button-rounded button-main' %>
+      </div>
     </div>
   </div>
   
   <div id="block2" class="block">
-    <div class="toolbox-header">The sharpest tools in the box</div>
-    <div class="toolbox">
-      <div class="box">
-        <div class="header"><span>Infrastructure</span></div>
-        <div class="dot-line"><div class="dot"></div></div>
-        <div class="body">
-          <div class="scope-item">
-            <div class="scope-img">
-              <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
-            </div>
-            <div class="scope-txt">
-              <span>
-                Teachers and students have access to unlimited cloud based servers, each one starting instantly and with full sudo privileges so you can install, configure and run anything.
-              </span>
-            </div>
-            <div class="scope-button">
-              <%= link_to 'Learn More', '/features/infrastructure', class: '' %>
+    <div class="content vertical">
+    <div class="toolbox-content">
+      <div class="toolbox-header">The sharpest tools in the box</div>
+      <div class="toolbox">
+        <div class="box">
+          <div class="header"><span>Infrastructure</span></div>
+          <div class="dot-line"><div class="dot"></div></div>
+          <div class="body">
+            <div class="scope-item">
+              <div class="scope-img">
+                <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
+              </div>
+              <div class="scope-txt">
+                <span>
+                  Teachers and students have access to unlimited cloud based servers, each one starting instantly and with full sudo privileges so you can install, configure and run anything.
+                </span>
+              </div>
+              <div class="scope-button">
+                <%= link_to 'Learn More', '/features/infrastructure', class: '' %>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       
-      <div class="box">
-        <div class="header"><span>Online IDE</span></div>
-        <div class="dot-line"><div class="dot"></div></div>
-        <div class="body">
-          <div class="scope-item">
-            <div class="scope-img">
-              <%= inline_svg 'assets/index/webbased.svg', class: '' %>
+        <div class="box">
+          <div class="header"><span>Online IDE</span></div>
+          <div class="dot-line"><div class="dot"></div></div>
+          <div class="body">
+            <div class="scope-item">
+              <div class="scope-img">
+                <%= inline_svg 'assets/index/webbased.svg', class: '' %>
+              </div>
+              <div class="scope-txt">
+                <span>
+                  The IDE supports any programming language, database or software component. It's also ideal for both novice students and postgrads.
+                </span>
+              </div>
+              <div class="scope-button">
+                <%= link_to 'Learn More', '/features/ide', class: '' %>
+              </div>
             </div>
-            <div class="scope-txt">
-              <span>
-                The IDE supports any programming language, database or software component. It's also ideal for both novice students and postgrads.
-              </span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="header"><span>Grading</span></div>
+          <div class="dot-line"><div class="dot"></div></div>
+          <div class="body">
+            <div class="scope-item">
+              <div class="scope-img">
+                <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
+              </div>
+              <div class="scope-txt">
+                <span>
+                  The most extensive support for automatically and manually graded assessments of any Computer Science
+                  platform.
+                </span>
+              </div>
+              <div class="scope-button">
+                <%= link_to 'Learn More', '/features/grading', class: '' %>
+              </div>
             </div>
-            <div class="scope-button">
-              <%= link_to 'Learn More', '/features/ide', class: '' %>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="header"><span>LMS</span></div>
+          <div class="dot-line"><div class="dot"></div></div>
+          <div class="body">
+            <div class="scope-item">
+              <div class="scope-img">
+                <%= inline_svg 'assets/index/learning.svg', class: '' %>
+              </div>
+              <div class="scope-txt">
+                <span>
+                  Codio's own extensive LMS features co-exist peacefully with all major LMS platforms such as Canvas,
+                  Blackboard and Moodle.
+                </span>
+              </div>
+              <div class="scope-button">
+                <%= link_to 'Learn More', '/features/lms', class: '' %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="header"><span>Curriculum Authoring</span></div>
+          <div class="dot-line"><div class="dot"></div></div>
+          <div class="body">
+            <div class="scope-item">
+              <div class="scope-img">
+                <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
+              </div>
+              <div class="scope-txt">
+                <span>
+                  The only platform to offer top quality curriculum authoring tools that control
+                  the IDE. Create simple assignments or an entire book.
+                </span>
+              </div>
+              <div class="scope-button">
+                <%= link_to 'Learn More', '/features/curriculum/', class: '' %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="header"><span>Templating<span></div>
+          <div class="dot-line"><div class="dot"></div></div>
+          <div class="body">
+            <div class="scope-item">
+              <div class="scope-img">
+                <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
+              </div>
+              <div class="scope-txt">
+                <span>
+                  Take any custom software configuration of languages, databases or software components and add them to your template library for shared re-use.
+                </span>
+              </div>
+              <div class="scope-button">
+                <%= link_to 'Learn More', '/features/templates', class: '' %>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="box">
-        <div class="header"><span>Grading</span></div>
-        <div class="dot-line"><div class="dot"></div></div>
-        <div class="body">
-          <div class="scope-item">
-            <div class="scope-img">
-              <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
-            </div>
-            <div class="scope-txt">
-              <span>
-                The most extensive support for automatically and manually graded assessments of any Computer Science
-                platform.
-              </span>
-            </div>
-            <div class="scope-button">
-              <%= link_to 'Learn More', '/features/grading', class: '' %>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="header"><span>LMS</span></div>
-        <div class="dot-line"><div class="dot"></div></div>
-        <div class="body">
-          <div class="scope-item">
-            <div class="scope-img">
-              <%= inline_svg 'assets/index/learning.svg', class: '' %>
-            </div>
-            <div class="scope-txt">
-              <span>
-                Codio's own extensive LMS features co-exist peacefully with all major LMS platforms such as Canvas,
-                Blackboard and Moodle.
-              </span>
-            </div>
-            <div class="scope-button">
-              <%= link_to 'Learn More', '/features/lms', class: '' %>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="header"><span>Curriculum Authoring</span></div>
-        <div class="dot-line"><div class="dot"></div></div>
-        <div class="body">
-          <div class="scope-item">
-            <div class="scope-img">
-              <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
-            </div>
-            <div class="scope-txt">
-              <span>
-                The only platform to offer top quality curriculum authoring tools that control
-                the IDE. Create simple assignments or an entire book.
-              </span>
-            </div>
-            <div class="scope-button">
-              <%= link_to 'Learn More', '/features/curriculum/', class: '' %>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="header"><span>Templating<span></div>
-        <div class="dot-line"><div class="dot"></div></div>
-        <div class="body">
-          <div class="scope-item">
-            <div class="scope-img">
-              <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
-            </div>
-            <div class="scope-txt">
-              <span>
-                Take any custom software configuration of languages, databases or software components and add them to your template library for shared re-use.
-              </span>
-            </div>
-            <div class="scope-button">
-              <%= link_to 'Learn More', '/features/templates', class: '' %>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    </div>
     </div>
   </div>
   
   <div id="block3" class="block">
-    <div class="title-text">
-      <h2>"Insanely Convenient"</h2>
-      <h4>Faculty find Codio an "insanely convenient" way to power their Computer Science courses</h4>
-      <%= link_to 'COVENTRY UNIVERSITY AND CODIO', 'http://news.codio.com/codio-at-coventry-university/',
-        class: 'button button-rounded button-main' %>
+    <div class="content vertical">
+      <div class="title-text">
+        <h2>"Insanely Convenient"</h2>
+        <h4>Faculty find Codio an "insanely convenient" way to power their Computer Science courses</h4>
+        <%= link_to 'COVENTRY UNIVERSITY AND CODIO', 'http://news.codio.com/codio-at-coventry-university/',
+          class: 'button button-rounded button-main' %>
+        <div class='logo-img'><%= image_tag 'assets/index/logos/coventry-university-logo-2.png',
+          alt: 'Coventry University', class: '' %></div>
+      </div>
     </div>
-    <div class='logo-img'><%= image_tag 'assets/index/logos/coventry-university-logo-2.png',
-      alt: 'Coventry University', class: '' %></div>
   </div>
   
   <div id="block4" class="block">
-    <div class="title-text">
-      <h2>"I grasped new concepts quickly with Codio"</h2>
-      <h4>Bring CS knowledge and digital skills to non-CS majors</h4>
-      <%= link_to 'SEE HOW EASY IT IS TO PILOT CODIO', '/universityleadership',
-        class: 'button button-rounded button-main' %>
+    <div class="content vertical">
+      <div class="title-text">
+        <h2>"I grasped new concepts quickly with Codio"</h2>
+        <h4>Bring CS knowledge and digital skills to non-CS majors</h4>
+        <%= link_to 'SEE HOW EASY IT IS TO PILOT CODIO', '/universityleadership',
+          class: 'button button-rounded button-main' %>
+        <div class='logo-img'><%= image_tag 'assets/index/logos/florida-am-university-logo-2.png',
+          alt: 'Florida A&M University', class: '' %></div>
+      </div>
     </div>
-    <div class='logo-img'><%= image_tag 'assets/index/logos/florida-am-university-logo-2.png',
-      alt: 'Florida A&M University', class: '' %></div>
   </div>
   
   <div id="block5" class="block">
-    <div class="title-text">
-      <h2>Engage your community</h2>
-      <h4>Conquering student intimidation opens up a new world. Help take them there</h4>
-      <%= link_to 'YOUR CURRICULUM. POWERED BY US', 'http://news.codio.com/coded-by-kids-and-codio/',
-        class: 'button button-rounded button-main' %>
+    <div class="content vertical">
+      <div class="title-text">
+        <h2>Engage your community</h2>
+        <h4>Conquering student intimidation opens up a new world. Help take them there</h4>
+        <%= link_to 'YOUR CURRICULUM. POWERED BY US', 'http://news.codio.com/coded-by-kids-and-codio/',
+          class: 'button button-rounded button-main' %>
+        <div class='logo-img'><%= image_tag 'assets/index/logos/coded-by-kids-logo.png',
+          alt: 'Coded By Kids', class: '' %></div>
+      </div>
     </div>
-    <div class='logo-img'><%= image_tag 'assets/index/logos/coded-by-kids-logo.png',
-      alt: 'Coded By Kids', class: '' %></div>
   </div>
   
   <div id="block6" class="block">
-    <div class="title-text">
-      <h2>Transform your CS course delivery</h2>
-      <h4>Empower students when you spend 20% less time on admin and grading</h4>
-      <%= link_to 'SHEFFIELD UNIVERSITY AND CODIO', 'http://news.codio.com/sheffield-university-uses-codio',
-        class: 'button button-rounded button-main' %>
+    <div class="content vertical">
+      <div class="title-text">
+        <h2>Transform your CS course delivery</h2>
+        <h4>Empower students when you spend 20% less time on admin and grading</h4>
+        <%= link_to 'SHEFFIELD UNIVERSITY AND CODIO', 'http://news.codio.com/sheffield-university-uses-codio',
+          class: 'button button-rounded button-main' %>
+        <div class='logo-img'><%= image_tag 'assets/index/logos/sheffield-university-logo.png',
+          alt: 'The University Of Sheffield', class: '' %></div>
+      </div>
     </div>
-    <div class='logo-img'><%= image_tag 'assets/index/logos/sheffield-university-logo.png',
-      alt: 'The University Of Sheffield', class: '' %></div>
   </div>
   
   <div id="block7" class="block">
-    <div class="title-text">
-      <h2>Grab their imagination</h2>
-      <h4>Students realize their vision from the first day of class</h4>
-      <%= link_to 'PILOT CODIO IN YOUR SCHOOL', '/school',
-        class: 'button button-rounded button-main' %>
+    <div class="content vertical">
+      <div class="title-text">
+        <h2>Grab their imagination</h2>
+        <h4>Students realize their vision from the first day of class</h4>
+        <%= link_to 'PILOT CODIO IN YOUR SCHOOL', '/school',
+          class: 'button button-rounded button-main' %>
+      </div>
     </div>
   </div>
 

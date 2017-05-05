@@ -38,11 +38,7 @@ To open multiple files in the same pane enter as
 ```
 index.html, main.css
 ```
-#### Drag & Drop Support
-You can also drag and drop files in from your project file tree to the page to add them to the Open Tabs section so that file will be opened in a tab for the reader as well as Drag and Drop on the Open Tabs area in Guides.
 
-
-**Please note:** Image files dragged in to a page will be automatically tagged to display in Play Mode (see [How to add media](/docs/content/authoring/imvid/)). If you wish to have an image file open in a tab, then you would need to add it directly in the Open Tabs area, where you can also drag/drop from the file tree and the correct path to the file will be included.
 
 ### Previewing
 To preview your project select the 'Preview' Type. If you wish to show an external website page, the preview type supports this.

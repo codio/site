@@ -8,6 +8,10 @@ features_page: ide
 
 <%= partial "features-subheader" %>
 
+<section class="header-block vertical">
+  <div class="title">Easy to onboard<br/>and use with<br/>minimal disruption</div>
+</section>
+
 <section class="content-body">
   <div class="video-block">
     <div class="header">
@@ -66,118 +70,148 @@ features_page: ide
   </div>
 
   <div class="features-block">
-    <div id="featuresRow" class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Install and teach anything
-        </div>
-        <div class="text">
-          Our IDE gives you command line access to the Ubuntu box. Codio's infrastructure
-          supports anything that you choose to install and configure from the command line.
-          Codio boxes have sudo level privileges so you and your students can custom configure
-          your environment.
-        </div>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row1" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div id="featuresRow" class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Install and teach anything
+          </div>
+          <div class="text">
+            Our IDE gives you command line access to the Ubuntu box. Codio's infrastructure
+            supports anything that you choose to install and configure from the command line.
+            Codio boxes have sudo level privileges so you and your students can custom configure
+            your environment.
+          </div>
         </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/terminal.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+        <div class="middle-part">
+          <div id="row1" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/ide/terminal.jpg', alt: 'Install and Teach Anything', class: 'img-responsive' %>
+        </div>
       </div>
     </div>
     
-    <div class="features-row">
-      <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/ide/ide-layout.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row2" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div class="features-row">
+        <div class="left-part screen wow slideInLeft">
+          <%= image_tag 'assets/features/ide/ide-layout.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
         </div>
-      </div>
-      <div class="right-part description wow slideInRight">
-        <div class="header">
-          Teach anywhere
+        <div class="middle-part">
+          <div id="row2" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
         </div>
-        <div class="text">
-          The student policy of 'Bring Your Own Device' (BYOD) is today's reality. Therefore, Codio
-          allows you to reduce your computer lab costs by providing a cloud-based IDE accessible
-          from the classroom or from home. Students just need a web browser to use the Codio IDE.
-        </div>
-      </div>
-    </div>
-
-    <div class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Virtual Desktop
-        </div>
-        <div class="text">
-          Even though all Codio boxes are running in the Cloud, the Codio virtual desktop lets
-          anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything else, they all run beautifully within your browser.
-        </div>
-      </div>
-      <div class="middle-part">
-        <div id="row3" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
-        </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Virtual desktop', class: 'img-responsive' %>
-      </div>
-    </div>
-
-    <div class="features-row">
-      <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/ide/debugger.jpg', alt: 'Debugger', class: 'img-responsive' %>
-      </div>
-      <div class="middle-part">
-        <div id="row4" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
-        </div>
-      </div>
-      <div class="right-part description wow slideInRight">
-        <div class="header">
-          Integrated Debugger
-        </div>
-        <div class="text">
-          The Codio IDE has a superb debugger that runs in the browser. It supports Java, Python,
-          C, C++, NodeJS. You will find all the features you would expect including gutter based
-          breakpoint, automatic watching of local variables, manual variable watches, call stack,
-          step over, step out and more.
+        <div class="right-part description wow slideInRight">
+          <div class="header">
+            Teach anywhere
+          </div>
+          <div class="text">
+            The student policy of 'Bring Your Own Device' (BYOD) is today's reality. Therefore, Codio
+            allows you to reduce your computer lab costs by providing a cloud-based IDE accessible
+            from the classroom or from home. Students just need a web browser to use the Codio IDE.
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Advanced Features
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Virtual Desktop
+          </div>
+          <div class="text">
+            Even though all Codio boxes are running in the Cloud, the Codio virtual desktop lets
+            anyone develop GUI based applications. Whether Swing, JavaFX, tkinter, OpenGL or anything else, they all run beautifully within your browser.
+          </div>
         </div>
-        <div class="text">
-          Codio is designed for experts and enables teaching complex topics such us Data Science
-          or Graphics. For full details, review our <a href="#">technical specifications</a>.   Some of the things you will find are syntax highlighting, extensive keyboard shortcuts, code complete, multiple code panels, themes, code beautification, emmet support, one click software installation and custom configurable menus.
+        <div class="middle-part">
+          <div id="row3" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Virtual desktop', class: 'img-responsive' %>
         </div>
       </div>
-      <div class="middle-part">
-        <div id="row5" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+    </div>
+
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="features-row">
+        <div class="left-part screen wow slideInLeft">
+          <%= image_tag 'assets/features/ide/debugger.jpg', alt: 'Debugger', class: 'img-responsive' %>
+        </div>
+        <div class="middle-part">
+          <div id="row4" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="right-part description wow slideInRight">
+          <div class="header">
+            Integrated Debugger
+          </div>
+          <div class="text">
+            The Codio IDE has a superb debugger that runs in the browser. It supports Java, Python,
+            C, C++, NodeJS. You will find all the features you would expect including gutter based
+            breakpoint, automatic watching of local variables, manual variable watches, call stack,
+            step over, step out and more.
+          </div>
         </div>
       </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/settings.jpg', alt: 'Advanced settings', class: 'img-responsive' %>
+    </div>
+
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Advanced Features
+          </div>
+          <div class="text">
+            Codio is designed for experts and enables teaching complex topics such us Data Science
+            or Graphics. For full details, review our <a href="#">technical specifications</a>.   Some of the things you will find are syntax highlighting, extensive keyboard shortcuts, code complete, multiple code panels, themes, code beautification, emmet support, one click software installation and custom configurable menus.
+          </div>
+        </div>
+        <div class="middle-part">
+          <div id="row5" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/ide/settings.jpg', alt: 'Advanced settings', class: 'img-responsive' %>
+        </div>
       </div>
     </div>
   </div>

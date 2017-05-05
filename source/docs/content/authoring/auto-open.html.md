@@ -16,11 +16,11 @@ You can automatically perform any of the following actions when a section is sho
 ### Page - Close Tabs
 Enable this to close all tabs open from the previous section
 
-<img alt="authtoken" src="/img/docs/guides/page.png" class="simple"/>
+<img alt="closetab" src="/img/docs/guides/page.png" class="simple"/>
 
 ### Open Tabs
 
-<img alt="authtoken" src="/img/docs/guides/guide_files.png" class="simple"/>
+<img alt="opentab" src="/img/docs/guides/guide_files.png" class="simple"/>
 
 Windows can be opened automatically to present the tab configuration you feel is most appropriate for the reader.
 
@@ -31,18 +31,23 @@ The 'Add Tab' button allows you to create multiple lines into your configuration
 ### Opening Files
 To open files select the 'File' type and enter the file name(s), including the path to the file if not in the root of the project.
 
-<img alt="authtoken" src="/img/docs/guides/type_file.png" class="simple"/>
+<img alt="openfile" src="/img/docs/guides/type_file.png" class="simple"/>
 
 To open multiple files in the same pane enter as
 
 ```
 index.html, main.css
 ```
+#### Drag & Drop Support
+You can also drag/drop files in from your project file tree to the page to add them to the Open Tabs section so that file will be opened in a tab for the reader.
+
+
+**Please note:** Image files dragged in will be automatically tagged to display in Play Mode (see [How to add media](/docs/content/authoring/imvid/)). If you wish to have an image file open in a tab, then you would need to add it directly in the Open Tabs area, where you can also drag/drop from the file tree and the correct path to the file will be included.
 
 ### Previewing
 To preview your project select the 'Preview' Type. If you wish to show an external website page, the preview type supports this.
 
-<img alt="authtoken" src="/img/docs/guides/type_preview.png" class="simple"/>
+<img alt="preview" src="/img/docs/guides/type_preview.png" class="simple"/>
 
 ```
 https://codio.com

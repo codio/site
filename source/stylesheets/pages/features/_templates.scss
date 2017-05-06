@@ -1,2 +1,18 @@
 body.features_templates {
+	.content-body {
+		.features-block {
+			.features-row {
+        height: 700px;
+        @include breakpoint($break-tablet) {
+				  height: 440px;
+        }
+			}
+
+      .line-mobile {
+        .bottom {
+          height: 695px !important;
+        }
+      }
+		}
+	}
 }

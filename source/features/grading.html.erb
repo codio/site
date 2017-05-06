@@ -6,6 +6,10 @@ features_page: grading
 
 <%= partial "features-subheader" %>
 
+<section class="header-block vertical">
+  <div class="title">Easy to onboard<br/>and use with<br/>minimal disruption</div>
+</section>
+
 <section class="content-body">
   <div class="video-block">
     <div class="header">
@@ -58,101 +62,123 @@ features_page: grading
   </div>
 
   <div class="features-block">
-    <div id="featuresRow" class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Auto-grading code
-        </div>
-        <div class="text">
-          We offer two forms of automated code grading.  Our standard grading is dialog driven and
-          usually covers at least 80% of use cases. It covers argument and stdin inputs and handles
-          multiple test cases for full code coverage. Advanced grading lets you write your own grading
-          scripts in any language you choose. This allows you to use any 3rd party testing or support
-          libraries and analyze any aspects of student code.
-        </div>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row1" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div id="featuresRow" class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Auto-grading code
+          </div>
+          <div class="text">
+            We offer two forms of automated code grading.  Our standard grading is dialog driven and
+            usually covers at least 80% of use cases. It covers argument and stdin inputs and handles
+            multiple test cases for full code coverage. Advanced grading lets you write your own grading
+            scripts in any language you choose. This allows you to use any 3rd party testing or support
+            libraries and analyze any aspects of student code.
+          </div>
         </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/grading/std-autograde.jpg', alt: 'Standard autograding', class: 'img-responsive' %>
+        <div class="middle-part">
+          <div id="row1" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/grading/std-autograde.jpg', alt: 'Standard autograding', class: 'img-responsive' %>
+        </div>
       </div>
     </div>
     
-    <div class="features-row">
-      <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/grading/mcq.jpg', alt: 'Other autograding', class: 'img-responsive' %>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row2" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div class="features-row">
+        <div id="img" class="left-part screen wow slideInLeft">
+          <%= image_tag 'assets/features/grading/mcq.jpg', alt: 'Other autograding', class: 'img-responsive' %>
         </div>
-      </div>
-      <div class="right-part description wow slideInRight">
-        <div class="header">
-          Other auto-graded assessments
+        <div class="middle-part">
+          <div id="row2" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
         </div>
-        <div class="text">
-          You can create a variety of single and multiple response MCQ (multiple response questions)
-          asssments. We also offer fill-in-the-blank questions.
-        </div>
-      </div>
-    </div>
-
-    <div class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Manual grading
-        </div>
-        <div class="text">
-          Codio packs a lot of features that let you manually grade student assignments with great
-          efficiency. You can instantly access any student's code and review, compile and execute it.
-          Grading rubrics can be centrally defined and applied to any project. Grading moderation
-          allows already graded assignments to be reviewed by additional faculty and these secondary
-          grades to be used for grading quality monitoring.
-        </div>
-      </div>
-      <div class="middle-part">
-        <div id="row3" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
-        </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/grading/rubric.jpg', alt: 'Grading rubric', class: 'img-responsive' %>
-      </div>
-    </div>
-
-    <div class="features-row">
-      <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/grading/text-assessment.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
-      </div>
-      <div class="middle-part">
-        <div id="row4" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
-        </div>
-      </div>
-      <div class="right-part description wow slideInRight">
-        <div class="header">
-          Open ended questions
-        </div>
-        <div class="text">
-          If you want to create questions that require a text or essay type answer, free text
-          questions can be created. You can then manually grade these directly from the teacher dashboard.
+        <div id="text" class="right-part description wow slideInRight">
+          <div class="header">
+            Other auto-graded assessments
+          </div>
+          <div class="text">
+            You can create a variety of single and multiple response MCQ (multiple response questions)
+            asssments. We also offer fill-in-the-blank questions.
+          </div>
         </div>
       </div>
     </div>
 
-    
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Manual grading
+          </div>
+          <div class="text">
+            Codio packs a lot of features that let you manually grade student assignments with great
+            efficiency. You can instantly access any student's code and review, compile and execute it.
+            Grading rubrics can be centrally defined and applied to any project. Grading moderation
+            allows already graded assignments to be reviewed by additional faculty and these secondary
+            grades to be used for grading quality monitoring.
+          </div>
+        </div>
+        <div class="middle-part">
+          <div id="row3" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/grading/rubric.jpg', alt: 'Grading rubric', class: 'img-responsive' %>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="features-row">
+        <div id="img" class="left-part screen wow slideInLeft">
+          <%= image_tag 'assets/features/grading/text-assessment.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+        </div>
+        <div class="middle-part">
+          <div id="row4" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="text" class="right-part description wow slideInRight">
+          <div class="header">
+            Open ended questions
+          </div>
+          <div class="text">
+            If you want to create questions that require a text or essay type answer, free text
+            questions can be created. You can then manually grade these directly from the teacher dashboard.
+          </div>
+        </div>
+      </div>
+    </div>    
   </div>
 </section>
 

@@ -2,8 +2,17 @@ body.features_grading {
 	.content-body {
 		.features-block {
 			.features-row {
-				min-height: 448px;
+        height: 700px;
+        @include breakpoint($break-tablet) {
+				  min-height: 448px;
+        }
 			}
+
+      .line-mobile {
+        .bottom {
+          height: 695px !important;
+        }
+      }
 		}
 	}
 }

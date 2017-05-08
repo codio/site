@@ -91,7 +91,7 @@ header {
   }
 
   .dropdown-menu {
-    z-index: 0;
+    z-index: 1000;
   }
 
   .header-dropdown-menu {
@@ -99,14 +99,14 @@ header {
     border: none;
     border-radius: 0;
     min-width: 380px;
-    width: 105vw;
+    width: 110vw;
     left: -65px;
     top: 49px;
     padding-left: 105px;
     height: 110vh;
 
     span {
-      display: inline-block
+      display: block
     }
     
     @include breakpoint($break-tablet) {

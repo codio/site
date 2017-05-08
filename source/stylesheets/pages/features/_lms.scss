@@ -1,2 +1,18 @@
 body.features_lms {
+	.content-body {
+		.features-block {
+			.features-row {
+        height: 680px;
+        @include breakpoint($break-tablet) {
+				  height: 440px;
+        }
+			}
+
+      .line-mobile {
+        .bottom {
+          height: 675px !important;
+        }
+      }
+		}
+	}
 }

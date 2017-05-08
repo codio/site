@@ -43,11 +43,12 @@ body.universityleadership {
       font-size: 1.8rem;
       font-weight: 500;
       color: #fff;
-      line-height: 2.5rem;
-      padding-bottom: 2rem;
+      line-height: 2rem;
+      padding-bottom: 1rem;
 
       @include breakpoint(525px) {
-        font-size: 2.58rem;
+        font-size: 1.9rem;
+        padding-bottom: 2rem;
       }
 
       @include breakpoint($break-tablet) {
@@ -62,22 +63,22 @@ body.universityleadership {
     }
 
     .text {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 400;
       color: #fff;
       line-height: 2rem;
       margin: 0 1rem;
-      padding-bottom: 2rem;
+      padding-bottom: 1rem;
       margin: 0 auto;
 
       @include breakpoint(525px) {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+        padding-bottom: 2rem;
       }
 
       @include breakpoint($break-tablet) {
         font-size: 1.6vw;
         line-height: 1.8rem;
-        padding-bottom: 2rem;
       }
 
       @include breakpoint($max-width) {

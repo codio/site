@@ -31,16 +31,20 @@ body.school {
     }
 
     .title {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
       font-weight: 600;
       color: #fff;
       line-height: 2rem;
-      padding-bottom: 2rem;
+      padding-bottom: 1rem;
+
+      @include breakpoint(450px) {
+        font-weight: 600;
+        font-size: 2rem;
+      }
 
       @include breakpoint($break-tablet) {
         font-weight: 600;
         font-size: 4vw;
-        padding-bottom: 1rem;
       }
 
       @include breakpoint($max-width) {
@@ -49,18 +53,17 @@ body.school {
     }
 
     .text {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       font-weight: 400;
       color: #fff;
       line-height: 1.9rem;
-      margin: 0 2rem;
-      padding-bottom: 2rem;
+      margin: 0 1rem;
+      padding-bottom: 1rem;
+
 
       @include breakpoint($break-tablet) {
         font-size: 1.6vw;
-        margin: 0 1rem;
         line-height: 1.6rem;
-        padding-bottom: 1rem;
       }
 
       @include breakpoint($max-width) {

@@ -105,8 +105,16 @@ header {
     padding-left: 105px;
     height: 110vh;
 
+    span {
+      display: inline-block
+    }
+    
     @include breakpoint($break-tablet) {
       width: auto;
+
+      span {
+        display: none;
+      }
     }
 
     .dropdown-item {

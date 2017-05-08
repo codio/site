@@ -457,9 +457,16 @@ body.index .section-scroll {
     background-color: $blue;
 
     h2 {
+      font-size: 1.8rem;
       margin-top: 0;
       color: #fff;
       padding: 20px 0;
+    }
+
+    @include breakpoint($break-tablet) {
+      h2 {
+        font-size: 2.2rem;
+      }
     }
   }
 }

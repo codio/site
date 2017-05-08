@@ -160,15 +160,26 @@ body.school_leadership .content-block {
       margin: 0 auto;
 
       h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 600;
       }
       
       p {
-        padding: 0 3rem;
-        font-size: 1.6rem;
+        padding: 0 1.5rem;
+        font-size: 1.5rem;
         font-weight: 300;
-        line-height: 1.9rem;
+        line-height: 1.5rem;
+      }
+
+      @include breakpoint(450px) {
+        h2 {
+          font-size: 2.5rem;
+        }
+
+        p {
+          padding: 0 3rem;
+          font-size: 1.6rem;
+        }
       }
 
       @include breakpoint($break-tablet) {
@@ -176,7 +187,6 @@ body.school_leadership .content-block {
 
         h2 {
           font-size: 3.5vw;
-          font-weight: 600;
         }
 
         p {
@@ -499,11 +509,17 @@ body.school_leadership {
 
         .quote {
           color: #000;
-          line-height: 1.9rem;
-          font-size: 1.7rem;
+          line-height: 1.8rem;
+          font-size: 1.2rem;
           font-weight: 300;
           padding: 1rem 0;
-          padding: 0 3rem;
+          padding: 0 1rem;
+
+          @include breakpoint(450px) {
+            line-height: 1.9rem;
+            font-size: 1.7rem;
+            padding: 0 3rem;
+          }
 
           @include breakpoint($break-tablet) {
             font-size: 1.6vw;

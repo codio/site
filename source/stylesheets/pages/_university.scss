@@ -31,11 +31,16 @@ body.university {
     }
 
     .quote {
-      font-size: 2.5rem;
+      font-size: 1.9rem;
       font-weight: 600;
       color: #fff;
-      line-height: 2.5rem;
-      padding: 1rem 4rem;
+      line-height: 2rem;
+      padding: 1rem;
+
+      @include breakpoint(450px) {
+        font-size: 2rem;
+        padding-bottom: 0.7rem;
+      }
 
       @include breakpoint($break-tablet) {
         font-size: 3.2vw;
@@ -67,12 +72,11 @@ body.university {
     }
 
     .text {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       font-weight: 400;
       color: #fff;
       line-height: 1.9rem;
-      margin: 0 1rem;
-      padding: 1rem 3rem 2rem 3rem;
+      padding: 1rem 1rem 2rem 1rem;
 
       br {
         display: none;
@@ -82,7 +86,12 @@ body.university {
         }
       }
 
+      @include breakpoint(450px) {
+        font-size: 1.4rem;
+      }
+
       @include breakpoint($break-tablet) {
+        margin: 0 1rem;
         line-height: 1.6rem;
         padding-bottom: 1rem;
       }
@@ -273,7 +282,11 @@ body.university {
           border: 6px solid $orange;
           border-radius: 50%;
           margin: 0 auto;
-          margin-left: -5px;
+          margin-left: -3px;
+
+          @include breakpoint(450px) {
+            margin-left: -5px;
+          }
         }
 
         .bottom {
@@ -322,8 +335,12 @@ body.university {
         .header {
           padding-bottom: 1rem;
           color: $light-blue;
-          font-size: 2rem;
+          font-size: 1.8rem;
           font-weight: 500;
+
+          @include breakpoint(450px) {
+            font-size: 2rem;
+          }
 
           @include breakpoint($break-tablet) {
             font-size: 30px;
@@ -331,8 +348,12 @@ body.university {
         }
 
         .text {
-          font-size: 1.4rem;
+          font-size: 1.2rem;
           font-weight: 300;
+
+          @include breakpoint(450px) {
+            font-size: 1.4rem;
+          }
 
           @include breakpoint($break-tablet) {
             font-size: 18px;

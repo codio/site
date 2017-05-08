@@ -87,9 +87,9 @@ body.school {
 
       .item {
         display: block;
-        padding: 0 5px;
+        padding: 0;
+        padding-bottom: 50px;
         text-align: center;
-        padding: 0 30px 50px 30px;
 
         @include breakpoint($break-tablet) {
           @include gallery(1 of 2);
@@ -201,7 +201,7 @@ body.school {
         font-weight: 300;
         color: #000;
         line-height: 1.5rem;
-        padding: 1rem 5rem;
+        padding: 1rem 2rem;
         
         @include breakpoint($break-tablet) {
           font-size: 1.6vw;

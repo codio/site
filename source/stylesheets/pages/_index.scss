@@ -93,14 +93,14 @@ body.index .section-scroll {
     .title-text,
     .toolbox {
       text-align: center;
-      padding-top: 6rem;
+      padding-top: 0;
       margin: 0 auto;
       width: 95%;
       color: #fff;
       text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
       
       h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 600;
         line-height: 2.5rem;
         padding: 0 2rem 2rem 2rem;
@@ -116,12 +116,16 @@ body.index .section-scroll {
       }
       
       h4 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         font-weight: 400;
         line-height: 2rem;
         margin: 0 1rem;
         padding: 0 2rem 2rem 2rem;
         margin: 0 auto;
+
+        @include breakpoint(450px) {
+          font-size: 1.7rem;
+        }
 
         @include breakpoint($break-tablet) {
           margin-top: 1rem;
@@ -160,7 +164,13 @@ body.index .section-scroll {
       
       img {
         width: auto;
-        height: 70px;
+        height: 50px;
+      }
+
+      @include breakpoint(450px) {
+        img {
+          height: 70px;
+        }
       }
 
       @include breakpoint($break-tablet) {
@@ -184,9 +194,14 @@ body.index .section-scroll {
         }
         
         .header {
-          font-size: 1.5rem;
+          font-size: 1.4rem;
           font-weight: 600;
           padding-bottom: 1rem;
+
+        @include breakpoint(450px) {
+          font-size: 1.5rem;
+          padding: 0;
+        }
 
           @include breakpoint($break-tablet) {
             font-size: 14px;
@@ -282,10 +297,15 @@ body.index .section-scroll {
             }
             
             .scope-txt {
-              font-size: 1.4rem;
-              padding: 1.5rem;
+              font-size: 1.2rem;
+              padding: 0.5rem;
               line-height: 2rem;
               border-bottom: 1px solid $lighter-gray;
+
+              @include breakpoint(450px) {
+                font-size: 1.4rem;
+                padding: 1rem;
+              }
 
               @include breakpoint($break-tablet) {
                 font-size: 14px;
@@ -369,14 +389,18 @@ body.index .section-scroll {
       margin: 0 auto;
       color: #fff;
       text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
-      font-size: 2.5rem;
+      font-size: 1.6rem;
       font-weight: 600;
       line-height: 1.2em;
       padding: 0 2rem;
 
+      @include breakpoint(450px) {
+        font-size: 2.2rem;
+        padding: 0;
+      }
+
       @include breakpoint($break-tablet) {
         font-size: 3.3vw;
-        padding: 0;
       }
     }
 

@@ -36,6 +36,21 @@ Generally speaking, you should put your images in the `.guides/img` folder in or
 ```
 
 
+You can also drag/drop images from your project file tree into your content. They will be automatically tagged with the correct path.
+
+For Markdown pages:
+
+```markdown
+![.guides/img/displayimage](.guides/img/displayimage.png)
+```
+
+For HTML pages:
+
+```html
+<img alt=".guides/img/displayimage" src=".guides/img/displayimage.png"/>
+```
+
+
 ## Videos
 
 Including embedded videos are also possible using the standard `<iframe>` html tag.

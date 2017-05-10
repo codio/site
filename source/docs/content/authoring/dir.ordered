@@ -1,7 +1,6 @@
 strategies
 overview
 example
-imvid
 assessments
 edit
 edit-html
@@ -11,6 +10,7 @@ real-time
 add-section
 delete-section
 layouts
+imvid
 auto-open
 inline
 chapter

@@ -6,7 +6,7 @@ full_width: true
 
 You can automatically perform any of the following actions when a section is shown
 
-- Close all open tabs from the previous section.
+- Close all open panels from the previous section.
 - Open files.
 - Open a Preview (including external websites).
 - Open a Terminal window (including running terminal command in the background).
@@ -14,7 +14,7 @@ You can automatically perform any of the following actions when a section is sho
 
 
 ### Page - Close Tabs
-Enable this to close all tabs open from the previous section
+Enable this to close all panels open from the previous section
 
 <img alt="closetab" src="/img/docs/guides/page.png" class="simple"/>
 
@@ -22,18 +22,20 @@ Enable this to close all tabs open from the previous section
 
 <img alt="opentab" src="/img/docs/guides/guide_files.png" class="simple"/>
 
-Windows can be opened automatically to present the tab configuration you feel is most appropriate for the reader.
+Files can be opened automatically to present the panel configuration you feel is most appropriate for the reader.
 
 The 'Add Tab' button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
 
+You can also drag and drop files in from your project file tree to the page to add them to the Open Tabs section so that file will be opened in a tab for the reader as well as Drag and Drop on the Open Tabs area in Guides.
 
+**Please note:** Image files dragged in to a page will be automatically tagged to display within the content rather than in a new panel. If you wish to have an image file open in a panel, then you would need to add it directly in the Open Tabs area. You can also drag/drop from the file tree. The correct path to the file will be included.
 
 ### Opening Files
-To open files select the 'File' type and enter the file name(s), including the path to the file if not in the root of the project.
+To open files select the file type and enter the file name(s), including the path to the file if not in the root of the project workspace.
 
 <img alt="openfile" src="/img/docs/guides/type_file.png" class="simple"/>
 
-To open multiple files in the same pane enter as
+To open multiple files in the same panel enter in the following format.
 
 ```
 index.html, main.css
@@ -41,7 +43,7 @@ index.html, main.css
 
 
 ### Previewing
-To preview your project select the 'Preview' Type. If you wish to show an external website page, the preview type supports this.
+To preview your project select the 'Preview' Type. If you wish to show an external website page, use the **Preview** option.
 
 <img alt="preview" src="/img/docs/guides/type_preview.png" class="simple"/>
 
@@ -49,10 +51,10 @@ To preview your project select the 'Preview' Type. If you wish to show an extern
 https://codio.com
 ```
 
-Please note, if the site you want to preview prevents embedding in an iframe then you won't be able to use `https` addresses, you would have to use an `http` address instead although this can only open up in an external browser tab.
+Please note, if the site you want to preview prevents embedding in an iframe then you won't be able to use `https` addresses, you would have to use an `http` address instead, in which case it will open in an new browser tab.
 
 ### Opening Terminal and running system commands
-To open a Terminal window select 'Terminal' Type.
+To open a Terminal window select the 'Terminal' option.
 
 You can also specify a terminal command to run when a section is displayed. For example, your Guide may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a Guide is running) at a certain point in your Guide.
 
@@ -68,10 +70,10 @@ You can also specify system commands in a new Terminal window like this
 
 
 ### Highlighting Lines in your code
-To highlight one or more lines within an auto-opened file, select 'Highlight' type and then
+To highlight one or more lines within an auto-opened file, select the **Highlight** option and then
 
-1. enter a piece of reference text, contained within your target file, into the 'Reference ...' field
-2. specify the number of lines, from that reference point, you want to highlight
+1. Enter a piece of reference text, contained within your target file, into the **Reference ...** field
+2. Specify the number of lines, from that reference point, you want to highlight
 
 <img alt="authtoken" src="/img/docs/guides/type_highlight.png" class="simple"/>
 
@@ -83,7 +85,7 @@ If there is any potential ambiguity with this approach, simply insert a comment 
 Any combinations are acceptable and they will be opened in the order specified.
 
 
-### Specifying a panel
+### Specifying the panel number
 If your [layout](/docs/content/authoring/layouts) for this page involves multiple panels, then you can also specify the panel number to display the file in.
 
 <img alt="authtoken" src="/img/docs/guides/panel.png" class="simple"/>

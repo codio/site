@@ -28,7 +28,7 @@ The 'Add Tab' button allows you to create multiple lines into your configuration
 
 You can also drag and drop files in from your project file tree to the page to add them to the Open Tabs section so that file will be opened in a tab for the reader as well as Drag and Drop on the Open Tabs area in Guides.
 
-**Please note:** Image files dragged in to a page will be automatically tagged to display within the content rather than in a new panel. If you wish to have an image file open in a panel, then you would need to add it directly in the Open Tabs area. You can also drag/drop from the file. The correct path to the file will be included.
+**Please note:** Image files dragged in to a page will be automatically tagged to display within the content rather than in a new panel. If you wish to have an image file open in a panel, then you would need to add it directly in the Open Tabs area. You can also drag/drop from the file tree. The correct path to the file will be included.
 
 ### Opening Files
 To open files select the file type and enter the file name(s), including the path to the file if not in the root of the project workspace.

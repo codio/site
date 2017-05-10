@@ -22,7 +22,6 @@ The following is a list of ports and URLs that Codio access from time to time. W
 - __fonts.gstatic.com__ web fonts
 - __fast.fonts.net__ web fonts
 - __*.cloudfront.net__ our CDN for speeding up static content
-- __cdn.mathjax.org__ CDN for mathematical formulae engine
 - __*.youtube.com & *.vimeo.com__ for video's included in Course content
 - __gravatar.com__ used for user gravatars (pictures)
 

@@ -41,6 +41,7 @@ To open multiple files in the same panel enter in the following format.
 index.html, main.css
 ```
 
+
 ### Previewing
 To preview your project select the 'Preview' Type. If you wish to show an external website page, use the **Preview** option.
 

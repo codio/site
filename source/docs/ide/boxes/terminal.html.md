@@ -4,9 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-You can access the Terminal window from the 'Tools->Terminal' menu item. This will open up a terminal window in a new IDE tab. You can also have multiple terminals open simultaneously.
+You can access the Terminal window 
 
-As of June 2015 a subscription is now required to access the terminal. Existing users are not affected.
+- from the 'Tools->Terminal' menu item
+- or by pressing the terminal icon in the bar at the top of the file tree. 
+
+This will open up a terminal window in a new IDE panel. You can have multiple terminals open simultaneously.
 
 Note that you can create tabs and panels anywhere you like using Codio's [Panels and Tabs](/docs/ide/panels/) features.
 

@@ -105,18 +105,6 @@ header {
     padding-left: 105px;
     height: 110vh;
 
-    span {
-      display: block
-    }
-    
-    @include breakpoint($break-tablet) {
-      width: auto;
-
-      span {
-        display: none;
-      }
-    }
-
     .dropdown-item {
       display: block;
       text-transform: uppercase;
@@ -128,6 +116,24 @@ header {
 
       &:hover {
         opacity: .6;
+      }
+    }
+
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+    
+    @include breakpoint($break-tablet) {
+      width: auto;
+
+      .desktop {
+        display: block;
+      }
+      .mobile {
+        display: none;
       }
     }
   }

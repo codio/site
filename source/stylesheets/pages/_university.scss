@@ -19,6 +19,7 @@ body.university {
     position: relative;
     text-align: center;
     background-size: cover;
+    background-position-x: center;
     background-image: url('/img/assets/university/university-lectures-top-mob.jpg');
 
     @include breakpoint($break-tablet) {
@@ -472,6 +473,7 @@ body.university {
     position: relative;
     text-align: left;
     background-size: cover;
+    background-position-x: center;
     background-image: url('/img/assets/university/exemplary-support-mob.jpg');
 
     @include breakpoint($break-tablet) {

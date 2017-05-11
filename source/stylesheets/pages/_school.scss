@@ -19,6 +19,7 @@ body.school {
     position: relative;
     text-align: center;
     background-size: cover;
+    background-position-x: center;
     background-image: url('/img/assets/school/header_mod.jpg');
 
     @include breakpoint($break-tablet) {

@@ -19,6 +19,7 @@ body.universityleadership {
     position: relative;
     text-align: center;
     background-size: cover;
+    background-position-x: center;
     background-image: url('/img/assets/university/leadership/university-leadership-top-mob.jpg');
 
     @include breakpoint($break-tablet) {
@@ -101,6 +102,7 @@ body.universityleadership .content-block {
     position: relative;
     text-align: center;
     background-size: cover;
+    background-position-x: center;
 
     @include breakpoint($break-tablet) {
       height: 46vw;

@@ -19,6 +19,7 @@ body.school_leadership {
     position: relative;
     text-align: center;
     background-size: cover;
+    background-position-x: center;
     background-image: url('/img/assets/school/leadership/school-leadership-header-mob.jpg');
 
     @include breakpoint($break-tablet) {
@@ -100,6 +101,7 @@ body.school_leadership .content-block {
     position: relative;
     text-align: center;
     background-size: cover;
+    background-position-x: center;
     
     @include breakpoint($break-tablet) {
       height: 46vw;
@@ -467,6 +469,7 @@ body.school_leadership {
           width: 100%;
           height: 400px;
           background-size: cover;
+          background-position-x: center;
           background-image: url('/img/assets/school/leadership/coded-by-kids.jpg');
 
           @include breakpoint($break-tablet) {

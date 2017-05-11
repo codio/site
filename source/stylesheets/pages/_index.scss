@@ -139,13 +139,22 @@ body.index .section-scroll {
       .button {
         text-shadow: none;
       }
+
+      .desktop {
+        display: none;
+      }
+      .mobile {
+        display: inline;
+      }
      
       @include breakpoint($break-tablet) {
         padding-top: 0;
 
-        h3 {
-          padding-top: 1%;
-          padding-bottom: 5%;
+        .desktop {
+          display: inline;
+        }
+        .mobile {
+          display: none;
         }
       }
     }

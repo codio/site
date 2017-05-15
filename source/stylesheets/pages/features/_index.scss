@@ -32,13 +32,13 @@ body.features_index {
 
  .action-button {
     margin: 2rem auto;
+    text-align: center;
 
     .button {
       text-align: center;
       display: block;
       min-width: 160px;
       min-height: 38px;
-      max-width: 90%;
 
       @include breakpoint($break-tablet) {
         display: inline-block;
@@ -64,6 +64,8 @@ body.features_index .header-block {
   padding: 1rem;
   text-align: center;
   height: auto;
+  display: block;
+  background-image: none;
 
   @include breakpoint($break-tablet) {
     padding: 2rem 1rem 2rem 0;

@@ -15,23 +15,36 @@ body.university {
 body.university {
   .header-block {
     width: 100%;
-    height: 38vw;
+    height: 500px;
     position: relative;
     text-align: center;
     background-size: cover;
-    background-image: url('/img/assets/university/university-lectures-top.jpg');
+    background-position-x: center;
+    background-image: url('/img/assets/university/university-lectures-top-mob.jpg');
+
+    @include breakpoint($break-tablet) {
+      height: 42vw;
+      background-image: url('/img/assets/university/university-lectures-top.jpg');
+    }
 
     .header-content {
       display: block;
     }
 
     .quote {
-      font-size: 3.2vw;
+      font-size: 1.8rem;
       font-weight: 600;
       color: #fff;
       line-height: 2rem;
+      padding: 1rem;
+
+      @include breakpoint(450px) {
+        font-size: 2rem;
+        padding-bottom: 0.7rem;
+      }
 
       @include breakpoint($break-tablet) {
+        font-size: 3.2vw;
         padding-bottom: 0.7rem;
       }
 
@@ -41,13 +54,16 @@ body.university {
     }
 
     .author {
-      font-size: 2.4vw;
+      font-size: 2rem;
       font-weight: 600;
       color: #fff;
       line-height: 2rem;
       padding-bottom: 0.7rem;
+      display: none;
 
       @include breakpoint($break-tablet) {
+        display: block;
+        font-size: 2.4vw;
         padding-bottom: 1rem;
       }
 
@@ -57,14 +73,26 @@ body.university {
     }
 
     .text {
-      font-size: 1.6vw;
+      font-size: 1.2rem;
       font-weight: 400;
       color: #fff;
-      line-height: 1rem;
-      margin: 0 1rem;
-      padding-bottom: 0.7rem;
+      line-height: 1.9rem;
+      padding: 1rem 1rem 2rem 1rem;
+
+      br {
+        display: none;
+
+        @include breakpoint($break-tablet) {
+          display: inline;
+        }
+      }
+
+      @include breakpoint(450px) {
+        font-size: 1.4rem;
+      }
 
       @include breakpoint($break-tablet) {
+        margin: 0 1rem;
         line-height: 1.6rem;
         padding-bottom: 1rem;
       }
@@ -94,10 +122,14 @@ body.university {
         @include span(13 of 13);
         padding: 0;
         min-height: 378px;
-        height: 100%;
+        height: 700px;
+
+        @include breakpoint($break-tablet) {
+          height: 100%;
+        }
 
         &:nth-child(1) {
-          .top {
+          .top, .line-mobile.top {
             opacity: 0;
           }
           .dot {
@@ -220,17 +252,59 @@ body.university {
         }
 
         &:last-child {
-          .bottom {
+          .bottom, .line-mobile.bottom {
             opacity: 0;
           }
         }
       }
 
+      .line-mobile {
+        @include span(1 of 13);
+        display: inline-block;
+        height: 640px;
+        width: 12px;
+        
+        @include breakpoint($break-tablet) {
+          display: none; 
+        }
+
+        .top, .bottom {
+          overflow: hidden;
+          content: " ";
+          display: block;
+          width: 2px;
+          background-color: $orange;
+          position: relative;
+          margin: 0 auto;
+        }
+
+        .top {
+          height: 50px;
+        }
+
+        .dot {
+          display: block;
+          border: 6px solid $orange;
+          border-radius: 50%;
+          margin: 0 auto;
+          margin-left: -3px;
+
+          @include breakpoint(450px) {
+            margin-left: -5px;
+          }
+        }
+
+        .bottom {
+          height: 694px;
+        }
+      }
+
       .left-part {
+        @include span(12 of 13);
         padding-left: 2rem;
         animation-duration: 1.5s;
         animation-delay: 0.1s;
-        display: block;
+        display: inline-block;
 
         @include breakpoint($break-tablet) {
           @include span(6 of 13);
@@ -246,11 +320,13 @@ body.university {
       }
 
       .right-part {
-        display: block;
+        @include span(12 of 13);
+        display: inline-block;
+        padding: 0 0 0 2rem;
 
         @include breakpoint($break-tablet) {
           @include span(6 of 13);
-          padding-right: 2rem;
+          padding: 0 2rem 0 0;
           animation-duration: 1.5s;
           animation-delay: 0.1s;
         }
@@ -264,13 +340,29 @@ body.university {
         .header {
           padding-bottom: 1rem;
           color: $light-blue;
-          font-size: 30px;
+          font-size: 1.8rem;
           font-weight: 500;
+
+          @include breakpoint(450px) {
+            font-size: 2rem;
+          }
+
+          @include breakpoint($break-tablet) {
+            font-size: 30px;
+          }
         }
 
         .text {
-          font-size: 18px;
+          font-size: 1.2rem;
           font-weight: 300;
+
+          @include breakpoint(450px) {
+            font-size: 1.4rem;
+          }
+
+          @include breakpoint($break-tablet) {
+            font-size: 18px;
+          }
 
           a {
             color: #1188ef;
@@ -346,21 +438,25 @@ body.university {
     height: 280px;
     background-color: $blue;
 
-    @include breakpoint($break-tablet) {
-      height: 220px;
-    }
-
     h2 {
       margin-top: 0;
       color: #fff;
       padding: 40px 0 20px 0;
+      font-size: 1.8rem;
+    }
+
+    @include breakpoint($break-tablet) {
+      height: 220px;
+      h2 {
+        font-size: 2rem;
+      }
     }
 
     .button-rounded {
       display: block;
       min-width: 182px;
       min-height: 41px;
-      margin: 1rem;
+      margin: 0.5rem;
 
       @include breakpoint($break-tablet) {
         display: inline-block;
@@ -373,24 +469,37 @@ body.university {
 
   .support-block {
     width: 100%;
-    height: 32vw;
+    height: 480px;
     position: relative;
-    text-align: center;
+    text-align: left;
     background-size: cover;
-    background-image: url('/img/assets/university/exemplary-support.jpg');
+    background-position-x: center;
+    background-image: url('/img/assets/university/exemplary-support-mob.jpg');
+
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/university/exemplary-support.jpg');
+      height: 34vw;
+      text-align: center;
+    }
 
     .support-content {
       display: block;
+      padding: 0 1rem;
+
+      @include breakpoint($break-tablet) {
+        padding: 0;
+      }
     }
 
     .title {
-      font-size: 2.4vw;
+      font-size: 1.8rem;
       font-weight: 600;
       color: #fff;
       line-height: 2rem;
       padding-bottom: 0.7rem;
 
       @include breakpoint($break-tablet) {
+        font-size: 2.4vw;
         padding-bottom: 1rem;
       }
 
@@ -400,15 +509,17 @@ body.university {
     }
 
     .text {
-      font-size: 1.6vw;
+      font-size: 1.4rem;
       font-weight: 400;
       color: #fff;
-      line-height: 1rem;
-      margin: 0 1rem;
+      line-height: 1.8rem;
+      margin: 0;
       padding-bottom: 0.7rem;
 
       @include breakpoint($break-tablet) {
+        font-size: 1.6vw;
         line-height: 1.6rem;
+        margin: 0 1rem;
         padding: 0 2rem 1rem 2rem;
       }
 
@@ -420,6 +531,7 @@ body.university {
       }
     }
   }
+
   .carousel-block {
     @include container;
     text-align: center;
@@ -548,24 +660,38 @@ body.university {
 
     .item {
       text-align: center;
-      padding: 2rem;
+      padding: 1.5rem;
       min-height: 490px;
 
       .logo {
-        height: 100px;
+        height: 120px;
         width: auto;
-        margin: 2rem auto;
+        margin: 0 auto;
+
+        @include breakpoint($break-tablet) {
+          height: 100px;
+          margin: 2rem auto;
+        }
       }
 
       .quote {
         font-size: 1.5rem;
         font-weight: 500;
         padding: 1rem 0;
+
+        @include breakpoint($break-tablet) {
+          font-size: 1.5rem;
+        }
       }
 
       .author {
-        font-size: 1.2rem;
-        padding: 1rem 0 6rem 0;
+        font-size: 1.3rem;
+        padding: 1rem 0 2rem 0;
+
+        @include breakpoint($break-tablet) {
+          font-size: 1.2rem;
+          padding: 1rem 0 6rem 0;
+        }
       }
     }
   }

@@ -81,75 +81,142 @@ body.index .section-scroll {
   
   .block {
     width: 100%;
-    height: 46vw;
+    height: 700px;
     position: relative;
     text-align: center;
     background-size: cover;
+    background-position-x: center;
+    
+    @include breakpoint($break-tablet) {
+      height: 46vw;
+    }
     
     .title-text,
     .toolbox {
       text-align: center;
+      padding-top: 0;
       margin: 0 auto;
-      padding-top: 8%;
       width: 95%;
       color: #fff;
       text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
       
       h2 {
-        font-size: 4vw;
+        font-size: 1.6rem;
         font-weight: 600;
+        line-height: 2.5rem;
+        padding: 0 2rem 2rem 2rem;
+
+        @include breakpoint(525px) {
+          font-size: 2.5rem;
+        }
+
+        @include breakpoint($break-tablet) {
+          font-size: 4vw;
+          padding-bottom: 1rem;
+        }
       }
       
       h4 {
-        margin-top: 1rem;
-        padding-top: 0;
-        padding-bottom: 2.5%;
-        font-size: 2vw;
+        font-size: 1.5rem;
         font-weight: 400;
+        line-height: 2rem;
+        margin: 0 1rem;
+        padding: 0 2rem 2rem 2rem;
+        margin: 0 auto;
+
+        @include breakpoint(450px) {
+          font-size: 1.7rem;
+        }
+
+        @include breakpoint($break-tablet) {
+          margin-top: 1rem;
+          padding-top: 0;
+          padding-bottom: 2.5%;
+          font-size: 2vw;
+          font-weight: 400;
+        }
       }
       
       .button {
         text-shadow: none;
       }
+
+      .desktop {
+        display: none;
+      }
+      .mobile {
+        display: inline;
+      }
      
       @include breakpoint($break-tablet) {
-        padding-top: 15%;
-        h3 {
-          padding-top: 1%;
-          padding-bottom: 5%;
+        padding-top: 0;
+
+        .desktop {
+          display: inline;
+        }
+        .mobile {
+          display: none;
         }
       }
     }
     
+    .content {
+      height: 100%;
+    }
+
     .logo-img {
       display: block;
       position: absolute;
       bottom: 30px;
+      left: 0;
       margin: auto;
       width: 100%;
       
       img {
         width: auto;
-        height: 4vw;
+        height: 50px;
+      }
+
+      @include breakpoint(450px) {
+        img {
+          height: 70px;
+        }
+      }
+
+      @include breakpoint($break-tablet) {
+        img {
+          height: 4vw;
+        }
       }
     }
     
     .toolbox {
-      padding-top: 40px;
+      padding-top: 20px;
       width: 91%;
       
-      .box {
-        @include gallery(2 of 12);
+      .box, .box-mobile {
+        @include span(4 of 5);
         text-align: center;
         padding: 0;
 
         span {
-          display: none;
+          display: inline-block;
         }
         
         .header {
-          font-size: 14px;
+          font-size: 1.4rem;
           font-weight: 600;
+          padding-bottom: 1rem;
+
+        @include breakpoint(450px) {
+          font-size: 1.5rem;
+          padding: 0;
+        }
+
+          @include breakpoint($break-tablet) {
+            font-size: 14px;
+            padding-bottom: 0;
+          }
 
           @include breakpoint(1100px) {
             font-size: 15px;
@@ -160,6 +227,7 @@ body.index .section-scroll {
           overflow: hidden;
           text-align: center;
           margin-bottom: .6rem;
+          display: none;
 
           &:before, &:after {
             content: " ";
@@ -183,6 +251,10 @@ body.index .section-scroll {
             display: inline-block;
             border: 5px solid $orange;
             border-radius: 50%;
+          }
+
+          @include breakpoint($break-tablet) {
+            display: block;
           }
         }
         
@@ -215,7 +287,7 @@ body.index .section-scroll {
             
             .scope-img {
               width: 100%;
-              height: 25px;
+              height: 50px;
               margin-bottom: 1rem;
               vertical-align: bottom;
               
@@ -235,13 +307,24 @@ body.index .section-scroll {
             }
             
             .scope-txt {
-              font-size: 14px;
-              padding: 0 .5rem;
-              line-height: 1rem;
+              font-size: 1.2rem;
+              padding: 0.5rem;
+              line-height: 2rem;
               border-bottom: 1px solid $lighter-gray;
 
+              @include breakpoint(450px) {
+                font-size: 1.4rem;
+                padding: 1rem;
+              }
+
+              @include breakpoint($break-tablet) {
+                font-size: 14px;
+                line-height: 1rem;
+                padding: 0 .5rem;
+              }
+
               @include breakpoint(1025px) {
-                min-height: 182px;
+                min-height: 199px;
               }
 
               @include breakpoint($max-width) {
@@ -257,7 +340,8 @@ body.index .section-scroll {
               
               a {
                 color: $blue;
-                font-size: 12px;
+                font-size: 1.6rem;
+                font-weight: 500;
                 
                 &:hover {
                   color: $light-blue;
@@ -265,9 +349,19 @@ body.index .section-scroll {
 
                 @include breakpoint($break-tablet) {
                   font-size: 14px;
+                  font-weight: 400;
                 }
               }
             }
+          }
+        }
+
+        @include breakpoint($break-tablet) {
+          @include gallery(2 of 12);
+          padding: 0;
+    
+          span {
+            display: none;
           }
         }
 
@@ -280,51 +374,92 @@ body.index .section-scroll {
         }
       }
 
-      @include breakpoint(1025px) {
-        width: 94%;
-        padding-top: 5px;
+      .box {
+        display: none;
+        @include breakpoint($break-tablet) {
+          display: inline;
+        }
       }
 
-      @include breakpoint($max-width) {
-        padding-top: 20px;
+      .box-mobile {
+        margin: 0 auto;
+        float: none;
+        @include breakpoint($break-tablet) {
+          margin: 0;
+          float: left;
+        }
+      }
+
+      @include breakpoint(1025px) {
+        width: 94%;
       }
     }
 
     .toolbox-header {
-      margin-top: 0;
+      margin: 0 auto;
       color: #fff;
       text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
-      padding-top: 10px;
-      font-size: 3.3vw;
+      font-size: 1.6rem;
       font-weight: 600;
       line-height: 1.2em;
+      padding: 0 2rem;
 
-      @include breakpoint($max-width) {
-        padding-top: 60px;
+      @include breakpoint(450px) {
+        font-size: 2.2rem;
+        padding: 0;
       }
+
+      @include breakpoint($break-tablet) {
+        font-size: 3.3vw;
+      }
+    }
+
+    .toolbox-content {
+      width: 100%;
     }
   }
 
   #block1 {
-    background-image: url('/img/assets/index/blocks/future-proof-your-students.jpg');
+    background-image: url('/img/assets/index/blocks/future-proof-your-students-mob.jpg');
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/index/blocks/future-proof-your-students.jpg');
+    }
   }
   #block2 {
-    background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
+    background-image: url('/img/assets/index/blocks/sharpen-your-tool-box-mob.jpg');
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/index/blocks/sharpen-your-tool-box.jpg');
+    }
   }
   #block3 {
-    background-image: url('/img/assets/index/blocks/insanely-convenient.jpg');
+    background-image: url('/img/assets/index/blocks/insanely-convenient-mob.jpg');
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/index/blocks/insanely-convenient.jpg');
+    }
   }
   #block4 {
-    background-image: url('/img/assets/index/blocks/new-concept-with-codio.jpg');
+    background-image: url('/img/assets/index/blocks/new-concept-with-codio-mob.jpg');
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/index/blocks/new-concept-with-codio-mob.jpg');
+    }
   }
   #block5 {
-    background-image: url('/img/assets/index/blocks/engage-your-community.jpg');
+    background-image: url('/img/assets/index/blocks/engage-your-community-mob.jpg');
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/index/blocks/engage-your-community.jpg');
+    }
   }
   #block6 {
-    background-image: url('/img/assets/index/blocks/transform-course-delivery.jpg');
+    background-image: url('/img/assets/index/blocks/transform-course-delivery-mob.jpg');
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/index/blocks/transform-course-delivery.jpg');
+    }
   }
   #block7 {
-    background-image: url('/img/assets/index/blocks/grab-their-imagination.jpg');
+    background-image: url('/img/assets/index/blocks/grab-their-imagination-mob.jpg');
+    @include breakpoint($break-tablet) {
+      background-image: url('/img/assets/index/blocks/grab-their-imagination.jpg');
+    }
   }
 
   .block-ready-started {
@@ -332,9 +467,16 @@ body.index .section-scroll {
     background-color: $blue;
 
     h2 {
+      font-size: 1.8rem;
       margin-top: 0;
       color: #fff;
       padding: 20px 0;
+    }
+
+    @include breakpoint($break-tablet) {
+      h2 {
+        font-size: 2.2rem;
+      }
     }
   }
 }

@@ -31,9 +31,9 @@ function isElementInWindow(el) {
 $().ready(() => {
   if (document.location.pathname.lastIndexOf("/features", 0) !== 0) return;
     const el = $('#featuresRow');
-    var top = $('.top');
-    var dot = $('.dot');
-    var bottom = $('.bottom');
+    var top = $('.vertical-dot-line .top');
+    var dot = $('.vertical-dot-line .dot');
+    var bottom = $('.vertical-dot-line .bottom');
     const bottomHeight = el.outerHeight() - 56;
 
   $(window).scroll(function() {

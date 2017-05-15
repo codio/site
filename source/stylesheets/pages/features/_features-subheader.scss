@@ -1,6 +1,7 @@
 body.features {
   .subheader-block {
     @include container;
+    display: none;
     width: 100%;
     text-align: center;
     font-size: 14px;
@@ -11,6 +12,10 @@ body.features {
     position: fixed;
     padding-top: 15px;
     margin-top: 60px;
+
+    @include breakpoint($break-tablet) {
+      display: block;
+    }
 
     .menu {
       @include container;

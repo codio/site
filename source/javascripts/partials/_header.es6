@@ -1,5 +1,6 @@
 /* globals $ */
 
+
 $(() => {
 
   const $header = $('header');
@@ -7,55 +8,53 @@ $(() => {
   const $nav = $('.mobile-nav');
   const $dropdownMenu = $('.header-dropdown-menu');
 
-  if (!$header.hasClass('should-be-transparent')) {
-    const offsetVal = $('.header-block').height() - 65;
-    if (offsetVal > 65) {
-      $(window).scroll(() => {
-        const scrollTop = $(window).scrollTop();
-
-        if (scrollTop >= offsetVal) {
-          $header.removeClass('transparent-background');
-          $header.addClass('opaque-background');
-          $dropdownMenu.removeClass('transparent-background');
-          $dropdownMenu.addClass('opaque-background');
-          $header.fadeIn();
-        } else if (scrollTop < offsetVal) {
-          $header.removeClass('opaque-background');
-          $header.addClass('transparent-background');
-          $dropdownMenu.removeClass('opaque-background');
-          $dropdownMenu.addClass('transparent-background');
-        }
-      })
-    }
-    else {
-      $header.removeClass('transparent-background');
-      $header.addClass('opaque-background');
-      $dropdownMenu.removeClass('transparent-background');
-      $dropdownMenu.addClass('opaque-background');
-    }
-  }
-  else {
+  var setTransparent = () => {
     $header.removeClass('opaque-background');
     $header.addClass('transparent-background');
     $dropdownMenu.removeClass('opaque-background');
     $dropdownMenu.addClass('transparent-background');
   }
 
-  // Responsive Menu
+  var setOpaque = () => {
+    $header.removeClass('transparent-background');
+    $header.addClass('opaque-background');
+    $dropdownMenu.removeClass('transparent-background');
+    $dropdownMenu.addClass('opaque-background');
+  }
 
-  $toggle.click(function (event) {
-    event.preventDefault();
-
-    if ($nav.hasClass('visible')) {
-      $nav.fadeOut(() => {
-        $nav.removeClass('visible');
-      })
-      $toggle.removeClass('close').addClass('open');
+  var setHeaderStyle = () => {
+    if ($header.hasClass('should-be-transparent')) {
+      setTransparent();
     } else {
-      $nav.fadeIn(() => {
-        $nav.addClass('visible');
-      })
-      $toggle.removeClass('open').addClass('close');
+      const offsetVal = $('.header-block').height() - 65;
+      if (offsetVal > 65) {
+        $(window).scroll(() => {
+          const scrollTop = $(window).scrollTop();
+
+          if (scrollTop >= offsetVal) {
+            setOpaque();
+          } else if (scrollTop < offsetVal) {
+            setTransparent();
+          }
+        })
+      }
+      else {
+        setOpaque();
+      }
     }
-  })
+  }
+
+  if ($('body').innerWidth() <= 783) {
+    setOpaque();
+  } else {
+    setHeaderStyle();
+  }
+
+  $(window).resize(() => {
+    if ($('body').innerWidth() > 783) {
+      setHeaderStyle();
+    } else {
+      setOpaque();
+    }
+  });
 })

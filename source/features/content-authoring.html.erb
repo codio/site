@@ -6,6 +6,10 @@ features_page: curriculum
 
 <%= partial "features-subheader" %>
 
+<section class="header-block vertical">
+  <div class="title">Easy to onboard<br/>and use with<br/>minimal disruption</div>
+</section>
+
 <section class="content-body">
   <div class="video-block">
     <div class="header">
@@ -57,95 +61,119 @@ features_page: curriculum
   </div>
 
   <div class="features-block">
-    <div id="featuresRow" class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Contents controls the IDE
-        </div>
-        <div class="text">
-          The Guides editor fully controls the IDE. Each page is able to open and close the files
-          you need to see for any individual page of content. You can also execute commands, open
-          up browser pages and even highlight portions of code.
-        </div>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row1" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div id="featuresRow" class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Contents controls the IDE
+          </div>
+          <div class="text">
+            The Guides editor fully controls the IDE. Each page is able to open and close the files
+            you need to see for any individual page of content. You can also execute commands, open
+            up browser pages and even highlight portions of code.
+          </div>
         </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/curriculum/content-1.png', alt: 'Guides controls IDE', class: 'img-responsive' %>
+        <div class="middle-part">
+          <div id="row1" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/curriculum/content-1.png', alt: 'Guides controls IDE', class: 'img-responsive' %>
+        </div>
       </div>
     </div>
     
-    <div class="features-row">
-      <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/curriculum/std-autograde.jpg', alt: 'Assessment setup', class: 'img-responsive' %>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row2" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div class="features-row">
+        <div id="img" class="left-part screen wow slideInLeft">
+          <%= image_tag 'assets/features/curriculum/std-autograde.jpg', alt: 'Assessment setup', class: 'img-responsive' %>
         </div>
-      </div>
-      <div class="right-part description wow slideInRight">
-        <div class="header">
-          Assessments
+        <div class="middle-part">
+          <div id="row2" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
         </div>
-        <div class="text">
-          The Guides editor is also where you author the many different types of assessments
-          offered by Codio. We support auto-graded coding, multiple choice questions, fill in
-          the blank and open ended free text assessment types.
+        <div id="text" class="right-part description wow slideInRight">
+          <div class="header">
+            Assessments
+          </div>
+          <div class="text">
+            The Guides editor is also where you author the many different types of assessments
+            offered by Codio. We support auto-graded coding, multiple choice questions, fill in
+            the blank and open ended free text assessment types.
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Markdown or HTML
-        </div>
-        <div class="text">
-          You can choose between markdown and HTML authoring for each individual page. Markdown
-          is a very fast and easy way to produce beautiful content without the need for any HTML
-          unless you require it. HTML pages allow you to control all aspects of styling and embed
-          javascript widgets to meet specific requirements.
-        </div>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row3" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Markdown or HTML
+          </div>
+          <div class="text">
+            You can choose between markdown and HTML authoring for each individual page. Markdown
+            is a very fast and easy way to produce beautiful content without the need for any HTML
+            unless you require it. HTML pages allow you to control all aspects of styling and embed
+            javascript widgets to meet specific requirements.
+          </div>
         </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/curriculum/assessments.jpg', alt: 'Assessment setup', class: 'img-responsive' %>
+        <div class="middle-part">
+          <div id="row3" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/curriculum/assessments.jpg', alt: 'Assessment setup', class: 'img-responsive' %>
+        </div>
       </div>
     </div>
 
-    <div class="features-row">
-      <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/curriculum/courses.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row4" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div class="features-row">
+        <div id="img" class="left-part screen wow slideInLeft">
+          <%= image_tag 'assets/features/curriculum/courses.jpg', alt: 'Teach Anywhere', class: 'img-responsive' %>
         </div>
-      </div>
-      <div class="right-part description wow slideInRight">
-        <div class="header">
-          Courses
+        <div class="middle-part">
+          <div id="row4" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
         </div>
-        <div class="text">
-          Codio allows you to publish your curriculum content to courses, which can be browsed
-          and pulled off the shelf. You can also assign parts of a course to your class as you teach.
-          Courses are structured into a hierarchy of modules and units that map to lessons and lectures.
+        <div id="text" class="right-part description wow slideInRight">
+          <div class="header">
+            Courses
+          </div>
+          <div class="text">
+            Codio allows you to publish your curriculum content to courses, which can be browsed
+            and pulled off the shelf. You can also assign parts of a course to your class as you teach.
+            Courses are structured into a hierarchy of modules and units that map to lessons and lectures.
+          </div>
         </div>
       </div>
     </div>

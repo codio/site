@@ -9,6 +9,10 @@ features_page: infrastructure
 
 <%= partial "features-subheader" %>
 
+<section class="header-block vertical">
+  <div class="title">Easy to onboard<br/>and use with<br/>minimal disruption</div>
+</section>
+
 <section class="content-body">
   <div class="video-block">
     <div class="header">
@@ -68,98 +72,122 @@ features_page: infrastructure
   </div>
 
   <div class="features-block">
-    <div id="featuresRow" class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Containerization
-        </div>
-        <div class="text">
-          The Codio infrastructure delivers far more than a regular Virtual Machine infrastructure.
-          Our intelligently managed containerization technology allows unlimited, fully fledged
-          Ubuntu servers to be spun up in a couple of seconds. We charge the same if a student has
-          one project or one hundred.
-        </div>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row1" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div id="featuresRow" class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Containerization
+          </div>
+          <div class="text">
+            The Codio infrastructure delivers far more than a regular Virtual Machine infrastructure.
+            Our intelligently managed containerization technology allows unlimited, fully fledged
+            Ubuntu servers to be spun up in a couple of seconds. We charge the same if a student has
+            one project or one hundred.
+          </div>
         </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/infrastructure/containerization.jpg', alt: 'Containerization', class: 'img-responsive' %>
+        <div class="middle-part">
+          <div id="row1" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/infrastructure/containerization.jpg', alt: 'Containerization', class: 'img-responsive' %>
+        </div>
       </div>
     </div>
     
-    <div class="features-row">
-      <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/infrastructure/scalability.jpg', alt: 'Scalability', class: 'img-responsive' %>
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
       </div>
-      <div class="middle-part">
-        <div id="row2" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
+      <div class="features-row">
+        <div class="left-part screen wow slideInLeft">
+          <%= image_tag 'assets/features/infrastructure/scalability.jpg', alt: 'Scalability', class: 'img-responsive' %>
         </div>
-      </div>
-      <div class="right-part description wow slideInRight">
-        <div class="header">
-          Scalability
+        <div class="middle-part">
+          <div id="row2" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
         </div>
-        <div class="text">
-          Codio is massively scalable. You can run Codio in a class, a school, a university,
-          a huge MOOC, a district or state. No matter your size or requirements, the Codio
-          infrastructure scales to support your needs.
-        </div>
-      </div>
-    </div>
-
-    <div class="features-row">
-      <div class="left-part description wow slideInLeft">
-        <div class="header">
-          Sys Admin Free
-        </div>
-        <div class="text">
-          How often do you have to wait days or weeks for a sys admin to prepare a coding environment to match your needs? With Codio, <strong>you</strong> configure the environment you need and can then distribute it instantly to students. You can even template your standard environments and pull them off the shelf when you need them.
-
-And because everything is running on our servers, you don’t need to worry about security. 
-        </div>
-      </div>
-      <div class="middle-part">
-        <div id="row3" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
-        </div>
-      </div>
-      <div class="right-part screen wow slideInRight">
-        <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Sys admin free', class: 'img-responsive' %>
-      </div>
-    </div>
-
-    <div class="features-row">
-      <div class="left-part screen wow slideInLeft">
-        <%= image_tag 'assets/features/infrastructure/terminal.jpg', alt: 'sudo privileges', class: 'img-responsive' %>
-      </div>
-      <div class="middle-part">
-        <div id="row4" class="vertical-dot-line">
-          <div class="top"></div>
-          <div class="dot"></div>
-          <div class="bottom"></div>
-        </div>
-      </div>
-      <div class="right-part description wow slideInRight">
-        <div class="header">
-          Sudo Privileges
-        </div>
-        <div class="text">
-          Users have full sudo level privileges to their servers. This means they can install anything they like and configure it exactly the way they want.
+        <div class="right-part description wow slideInRight">
+          <div class="header">
+            Scalability
+          </div>
+          <div class="text">
+            Codio is massively scalable. You can run Codio in a class, a school, a university,
+            a huge MOOC, a district or state. No matter your size or requirements, the Codio
+            infrastructure scales to support your needs.
+          </div>
         </div>
       </div>
     </div>
 
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="features-row">
+        <div id="text" class="left-part description wow slideInLeft">
+          <div class="header">
+            Sys Admin Free
+          </div>
+          <div class="text">
+            How often do you have to wait days or weeks for a sys admin to prepare a coding environment
+            to match your needs? With Codio, <strong>you</strong> configure the environment you need and
+            can then distribute it instantly to students. You can even template your standard environments
+            and pull them off the shelf when you need them. And because everything is running on our
+            servers, you don’t need to worry about security. 
+          </div>
+        </div>
+        <div class="middle-part">
+          <div id="row3" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div id="img" class="right-part screen wow slideInRight">
+          <%= image_tag 'assets/features/ide/virtual-desktop.jpg', alt: 'Sys admin free', class: 'img-responsive' %>
+        </div>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="line-mobile">
+        <div class="dot"></div>
+        <div class="bottom"></div>
+      </div>
+      <div class="features-row">
+        <div class="left-part screen wow slideInLeft">
+          <%= image_tag 'assets/features/infrastructure/terminal.jpg', alt: 'sudo privileges', class: 'img-responsive' %>
+        </div>
+        <div class="middle-part">
+          <div id="row4" class="vertical-dot-line">
+            <div class="top"></div>
+            <div class="dot"></div>
+            <div class="bottom"></div>
+          </div>
+        </div>
+        <div class="right-part description wow slideInRight">
+          <div class="header">
+            Sudo Privileges
+          </div>
+          <div class="text">
+            Users have full sudo level privileges to their servers. This means they can install anything they like and configure it exactly the way they want.
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 

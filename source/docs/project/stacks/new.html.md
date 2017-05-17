@@ -4,9 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-> **IMPORTANT NOTICE**
->
-> We are currently rolling out a new generation of Codio Boxes that will provide far greater power and control for you, as well as improved stability. These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
 
 If you can't find an existing Stack that is ready to use, then you can configure Stack components within a Codio project and then add it to your Stack library.
 
@@ -17,7 +14,7 @@ To do this you will first need to
 
 To create your new Stack, click the `New Stack` button at the top right of the Stack listing screen.
 
-![Stacks Create](/img/docs/stacks_create.png)
+<img alt="Stacks Create" src="/img/docs/stacks_create.png" class="simple"/>
 
 When you have completed the required fields and pressed the `Create` button, we will generate a Stack image for you. This can take a minute or longer, depending on the size of the Stack image. You  do not need to wait on this screen while the Stack is created, so feel free to continue to other parts of Codio. The source project will not be fully usuable until the stack has been created
 
@@ -31,7 +28,7 @@ Next, add a short name for your Stack and a longer description. You can also add
 
 You can also add an image to make your Stacks listing more instantly recognizable. This should be a square image, which will be reduced in size and will appear in a circle as shown below.
 
-<img alt="authtoken" src="/img/docs/stacks_image.png" class="simple"/>
+<img alt="Stacks Image" src="/img/docs/stacks_image.png" class="simple"/>
 
 You can also add tags to your Stack. The tags should be component names ideally. There is an autocomplete function that will help you to use already defined tags to avoid tag duplication and ensure maximum efficiency when searching.
 

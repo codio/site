@@ -4,13 +4,10 @@ class_name: docs
 full_width: true
 ---
 
-> **IMPORTANT NOTICE**
->
-> We are currently rolling out a new generation of Codio Boxes that will provide far greater power and control for you, as well as improved stability. These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community. Identify them from the `G2` tag.
 
 Codio Stacks lets you create and manage the combination of a Codio Box and installed system level components (languages, databases, web servers etc.) so that you can instantly create new Projects and Boxes from Stack libraries.
 
-![Stacks List](/img/docs/stacks_list.png)
+<img alt="Stacks List" src="/img/docs/stacks_list.png" class="simple"/>
 
 Stacks are divided up into the following searchable areas within the Stacks listing
 

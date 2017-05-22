@@ -13,6 +13,3 @@ Software that you install from the command line or using Install Software will b
 ## Code workspace files
 The code workspace you see in the project file tree is located at `/home/codio/workspace` or `~/workspace`.
 
-## G1 Software dependencies
-For first generation projects, you can still use Box Parts and the installed software is located in the `/home/codio/.parts ` folder.
-

@@ -6,7 +6,7 @@ full_width: true
 
 Having created a new Stack, you may later want to update the Stack properties or take another Stack snapshot from a Codio project.
 
-![Stacks Edit](/img/docs/stacks_edit.png)
+<img alt="Stacks Edit" src="/img/docs/stacks_edit.png" class="simple"/>
 
 To update the Stack, first select it from the Stack list and then press the edit icon, as shown in the image above.
 
@@ -14,5 +14,5 @@ You can update your Stack from any Codio project. In the **Source** field you ca
 
 You can also assign it a version number along with some comments describing the changes you have made. The new Stack details along with the date and time of your Stack update will be added to the Versions screen.
 
-![Stacks Update](/img/docs/stacks_update.png)
+<img alt="Stacks Update" src="/img/docs/stacks_update.png" class="simple"/>
 

@@ -6,7 +6,7 @@ full_width: true
 
 Create a new project, or import one by, clicking on the New Project button on the Dashboard.
 
-![Create Project](/img/docs/project_create.png)
+<img alt="Create Project" src="/img/docs/project_create.png" class="simple"/>
 
 You can then choose which of the following Project creation methods you want to use
 
@@ -26,7 +26,7 @@ or click on the **'Click here....'** to import or select an alternative software
 - **Import** where you can import from Git, BitBucket, Mercurial, FTP, SFTP or from a Zip file.
 - If you are a student, you can also check out [Courses](/docs/content/courses), which are collections of several projects grouped and ordered into a coherent set of Projects and incorporate [Codio Guides](/docs/content/authoring), giving you on-screen instructions while you code.
 
-![Import Project](/img/docs/project_create_other.png)
+<img alt="Import Project" src="/img/docs/project_create_other.png" class="simple"/>
 
 
 **Note: Git is preinstalled in all projects**

@@ -4,9 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-> **IMPORTANT NOTICE**
->
-> We are currently rolling out a new generation of Codio Boxes that will provide far greater power and control for you, as well as improved stability. These new Boxes provide full `sudo` (root) access, which means you no longer need to use the Box Parts package management system to install software. Instead, you can use the [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
 
 Every Codio box comes with a clean Ubuntu server. However, Codio lets you configure your box by adding Stack components. A Stack component is software that can be installed using the 'Install Software' option and typically covers languages, databases, web servers and many other components as [described here](/docs/ide/boxes/installsw).
 

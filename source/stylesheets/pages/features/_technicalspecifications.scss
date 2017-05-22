@@ -74,8 +74,14 @@ body.features_technicalspecifications {
         }
       }
 
+      hr {
+        margin-bottom: 1rem;
+        position: inherit;
+      }
+
       h3 {
         font-size: 1.2rem;
+        margin-top: 0;
 
         @include breakpoint($break-tablet) {
           font-size: 1.3rem;
@@ -91,7 +97,31 @@ body.features_technicalspecifications {
           font-size: 1rem;
         }
       }
-    }
 
+      .row {
+        display: table;
+        margin: 0;
+      }
+
+      .line {
+        overflow: visible;
+        width: 5px;
+        border-right: 2px solid $orange;
+        height: 100%;
+        display: table-cell;
+
+        .dot {
+          border: 6px solid $orange;
+          border-radius: 50%;
+          position: absolute;
+          margin-left: -2px;
+        }
+      }
+
+      .text {
+        display: table-cell;
+        padding-left: 20px;
+      }
+    }
   }
 }

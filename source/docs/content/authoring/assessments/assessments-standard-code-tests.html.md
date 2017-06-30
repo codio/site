@@ -16,14 +16,16 @@ The screenshot below shows the basic configuration fields
 
 <img alt="" src="/img/docs/guides/std-assessment-1.png" class="simple"/>
 
-- **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the switch next to the name field.
+- **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
+- **Guidance** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/teacher/classes/solutions/) method. This guidance information can also be shown to students if they reload the unit after marking it as completed. To enable this, flip the **Show Guidance to Student** switch below the guidance field
+- **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
 - **Pre-exec command** is the command to execute before you run the test. This will normally be a compilation command.
 - **Command** is the command that executes the student code itself.
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.
 - **Case insensitive** tells Codio to make a case insensitive output comparison. By default, the comparison will be case sensitive.
 - **Ignore white space** tells Codio to strip out any white space characters (carriage return, line feed, tab etc.) from both the expected output and the student output. It can be very helpful to enable this as it means you do not have to be over precise when specifying the fields or instructions. More information is provided below.
 - **Substring match** tells Codio to perform a substring match when comparing the expected output to the student output.
-- **One-time assessments** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
+- **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 
 ### Specifying inputs and outputs

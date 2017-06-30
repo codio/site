@@ -19,10 +19,12 @@ The example below shows a variation, where the student is given a list of possib
 ## Assessment definition
 Setting up a Fill in the Blank assessment within the Guide editor is very simple. As you can see from the screenshot below, you should specify the following details
 
-- **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To supress this text, flip the switch next to the name field.
+- **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To supress this text, flip the **Show Name** switch next to the name field.
+- **Guidance** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/teacher/classes/solutions/) method. This guidance information can also be shown to students if they reload the unit after marking it as completed. To enable this, flip the **Show Guidance to Student** switch below the guidance field
+- **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
+- **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. A 0 score is given if any of the responses is incorrect.
 - The **Show Possible Values** switch determines whether the question is text based (the slider is gray and in the left position) or drop-down based (the slider is blue and in the right position). The setup is explained below under the 'Question Setup' header.
 - **Instruction** contains any general instructions you want to provide to the student.
-- **Points** is the score given to the student if the student answers all parts of the assessment correctly. You can choose any positive numeric value. A 0 score is given if any of the responses is incorrect.
 - **Text** is the markdown that you write including the correct answer specification. This is explained below.
 
 <img alt="authtoken" src="/img/docs/guides/assessment_fitb.png" class="simple"/>

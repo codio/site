@@ -14,9 +14,12 @@ There is a Starter Pack project that you can add to your account. [Click here to
 ## Test definition
 Setting up a Code Test within the Guide editor is very simple. As you can see from the screenshot below, you should specify the following details
 
-- **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the switch next to the name field.
-- **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.
+- **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
+- **Guidance** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/teacher/classes/solutions/) method. This guidance information can also be shown to students if they reload the unit after marking it as completed. To enable this, flip the **Show Guidance to Student** switch below the guidance field
 - **Command** is the command to run to invoke your test. See the section 'Test code' for more details.
+- **Points** is the score given to the student if the code test passes. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer
+- **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
+
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 
 <img alt="authtoken" src="/img/docs/guides/assessment_codetest.png" class="simple"/>

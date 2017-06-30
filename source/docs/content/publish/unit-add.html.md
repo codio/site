@@ -4,24 +4,27 @@ class_name: docs
 full_width: true
 ---
 
-Select a module and then enable the **Edit Units** slider. You can then add a new unit by pressing the **Add Unit** button.
+You can add a new unit by pressing the **Add Unit** button where you can start a new project either Creating a new project or Importing into your account. See [Creating and Importing](/docs/project/creating/) for more information.
 
-## Specifying the Stack
-The only thing that is not self-explanatory when adding a Unit is the Stack information. When you publish a Unit, Codio needs to know 
+<img alt="UnitStart" src="/img/docs/unitstart.png" class="simple"/>
 
-- which project is the source for the Unit
-- and what Stack it uses.
+If you have already created a project in your account, click in the **Click Here**, select the **Fork Project** option and select the Project. The Stack used in your project will be used in the Unit including any additional software or components you may have added to the project
 
-<img alt="authtoken" src="/img/docs/stacks_list.png" class="simple"/>
+<img alt="UnitFork" src="/img/docs/unitfork.png" class="simple"/>
 
-It is important that you understand the concept of [Stacks](/docs/project/stacks/). In some cases, your project can use the default Codio Stack. However, if you have installed any software or components on your Box or have modified any files on the project's Box outside the `~/workspace` folder, you will need to create a Stack.
+You can also import in from other sources if required selecting the **Import** option.
 
-In most cases, you will use the same Stack for all projects in a Course and so you only need set up a single Stack. 
+### Publishing the Unit
 
-When you specify the Stack when adding a Unit, you simply locate this Stack by clicking on the Browse button and then selecting a Stack version.
+By default the unit is only visible to you and is not visible to any other users.
 
-## Stack Versions
-You may have published Units that use a Stack configuration at some point in time. Later, you may decide you want to update the Box in a way that is not configurable with those earlier Units. 
+When you are ready to publish your unit for it to be accessible to others, you will need to publish it. You can do this in either of the following ways.
 
-In this case, you can create a new version of the Stack from your source Project without invalidating those earlier Units. You can then point the new Units to the newer version of the Stack.
+- Within the unit, go to **Education>Publish Unit** menu item
+
+- Select the unit from the listing and then press **Publish**.
+
+<img alt="publishnew" src="/img/docs/publishnew.png" class="simple"/>
+
+
 

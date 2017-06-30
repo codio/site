@@ -7,6 +7,9 @@ full_width: true
 
 In the event that the unit(s) in your course/classes are updated, you can reset them so any students who have already started the unit can start again with the updated content.
 
+You can also reset the unit(s) even if there have been no updates to the content so the student(s) can start the unit(s) again.
+
+
 You can reset the unit for all your students by selecting either:
 
 - the 'Actions' button and then the Reset' button

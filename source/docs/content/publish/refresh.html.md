@@ -33,7 +33,7 @@ When you are ready to publish any edits, you will need to publish a new version 
 
 <img alt="publishversion" src="/img/docs/publishversionnew.png" class="simple"/>
 
-- If on the Edit unit screen, press the **Publish new version** button.
+- If you are on the Edit unit screen, press the **Publish new version** button.
 
 <img alt="versions" src="/img/docs/versions.png" class="simple"/>
 

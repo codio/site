@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You can add a new unit by pressing the **Add Unit** button where you can start a new project either Creating a new project or Importing into your account. See [Creating and Importing](/docs/project/creating/) for more information.
+You can add a new unit by pressing the **Add Unit** button where you can start a new project either creating a new project or importing an existing project as the unit. See [Creating and Importing](/docs/project/creating/) for more information.
 
 <img alt="UnitStart" src="/img/docs/unitstart.png" class="simple"/>
 
@@ -12,7 +12,7 @@ If you have already created a project in your account, click in the **Click Here
 
 <img alt="UnitFork" src="/img/docs/unitfork.png" class="simple"/>
 
-You can also import in from other sources if required selecting the **Import** option.
+You can also import in from other sources if for example you have work stored at GitHub/BitBucket/Mecurial etc by selecting the **Import** option.
 
 ### Publishing the Unit
 
@@ -26,5 +26,7 @@ When you are ready to publish your unit for it to be accessible to others, you w
 
 <img alt="publishnew" src="/img/docs/publishnew.png" class="simple"/>
 
+- If you are on the Edit unit screen, press the **Publish new version** button.
 
+<img alt="versions" src="/img/docs/versions.png" class="simple"/>
 

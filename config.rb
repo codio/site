@@ -143,3 +143,35 @@ configure :build do
 end
 
 activate :sprockets
+
+def createUrlNode(loc, priority, doc)
+  url = Nokogiri::XML::Node.new("url", doc)
+
+  urlpriority = Nokogiri::XML::Node.new("priority", doc)
+  urlpriority.content = priority
+  url << urlpriority
+
+  urlloc = Nokogiri::XML::Node.new("loc", doc)
+  urlloc.content = loc
+  url << urlloc
+
+  url
+end
+
+after_build do
+  sitemapfile = File.join(build_dir, "sitemap.xml")
+
+  # Read or initialize the data
+  if File.exist?(sitemapfile)
+    data = File.read(sitemapfile)
+  end
+
+  doc = Nokogiri::XML.parse data
+
+  urlset = doc.at_css('urlset')
+  urlset << createUrlNode("https://news.codio.com/", 0.3, doc)
+  urlset << createUrlNode("https://codio.com/start-edu-trial", 0.1, doc)
+
+  outfile = File.join(build_dir, "sitemap.xml")
+  File.open(outfile, 'w') {|f| f.write(doc) }
+end

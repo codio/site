@@ -7,7 +7,7 @@ sname: privacy
 
 ###1. Web Site Covered.
 
-This Privacy Statement covers the information practices of https://codio.com (the “Web site”).  For privacy relating to use of the Codio products, see our Terms
+This Privacy Statement covers the information practices of https://codio.com (the “Web site”).  For privacy relating to use of the Codio products, see our [Terms](/legal/terms)
 
 ###2. Information Collected 
 

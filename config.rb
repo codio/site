@@ -169,8 +169,8 @@ after_build do
   doc = Nokogiri::XML.parse data
 
   urlset = doc.at_css('urlset')
-  urlset << createUrlNode("https://news.codio.com/", 0.3, doc)
-  urlset << createUrlNode("https://codio.com/start-edu-trial", 0.1, doc)
+  urlset << createUrlNode("https://news.codio.com/", 0.9, doc)
+  urlset << createUrlNode("https://codio.com/start-edu-trial", 0.9, doc)
 
   outfile = File.join(build_dir, "sitemap.xml")
   File.open(outfile, 'w') {|f| f.write(doc) }

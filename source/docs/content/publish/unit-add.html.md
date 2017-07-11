@@ -70,13 +70,11 @@ You are required to enter a confirmation code to proceed and you can then do one
 - Select **Delete content** to delete the unit and save the unit contents to your projects list. 
 
 ### Updating units assigned to a class
-You may need to make changes to a unit that has already been assigned to a class. If this is the case then you should first publish a new version. This will in itself not change content that has already been started by students. To do this, you should select **Update unit** from the class itself. 
+You may need to make changes to a unit that has already been assigned to a class. If this is the case then you should first publish a new version. This will in itself not change content that has already been started by students. To update the unit in the Class select **Update Unit** from the 3 blue vertical dots to the right of the unit listed in the class. See [Unit settings and actions](/docs/teacher/classes/settings/) for more on this.
 
 You should be aware that only the contents of the `.guides` folder will be updated in order to retain any student work that may have already started.
 
-**IAN - WHERE IS THE UPDATE UNIT DOCS PAGE FOR A CLASS. WE NEED TO LINK TO IT**
-
-If you have made more substantial changes to the main code workspace and require that the students have their unit reset then, after publishing,  select the [Reset unit]((/docs/teacher/classes/reset-unit)) option from the class. You should be aware that any student work already started will be lost. 
+If you have made more substantial changes to the main code workspace and require that the students have their unit reset then, after publishing,  select the [Reset unit](/docs/teacher/classes/reset-unit) option from the class. You should be aware that any student work already started will be lost. 
 
 
 

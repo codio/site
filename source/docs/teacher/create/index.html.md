@@ -15,13 +15,13 @@ To create an organization follow these steps:
 
 1. Your application will be reviewed and you will receive confirmation of the trial start or a request for more information on your institution.  
 
-When your application is approved, your organization will automatically be created with a demo class, 3 demo students, and several useful projects, (including the Codio Onboarding Guide).
+When your application is approved, your organization will automatically be created with a demo class, 3 test students, and several useful projects, (including the Codio Onboarding Guide).
 
 If you have been added to an existing organization and you do not have the Codio Onboarding Guide,  <b><a href="https://codio.com/home/starter-packs/486ffcd2-c573-4fee-bfaf-dae54db9e4fb/" target="_blank">click here</a></b> to create it.
 
-### Working with Demo Students
+### Working with Test Students
 
-1.  3 Demo students will be created for you.  You can see these in your organization
+1.  3 Test students will be created for you.  You can see these in your organization
 
 <img alt="authtoken" src="/img/docs/class_administration/createanorganization/org_teams.png" class="simple"/>
 

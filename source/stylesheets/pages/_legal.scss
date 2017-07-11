@@ -30,6 +30,12 @@ body.legal .content {
     list-style: disc outside none;
   }
 
+  ol.roman {
+    list-style: lower-roman;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
   ol {
     list-style: decimal;
   }

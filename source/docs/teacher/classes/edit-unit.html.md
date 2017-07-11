@@ -5,15 +5,14 @@ class_name: docs
 full_width: true
 ---
 
-<img alt="authtoken" src="/img/docs/python.png" class="simple"/> 
+You may need to make changes to a project previously added as a unit to the class. Select Edit Unit to do this where you can 
 
-The Edit Unit action from the blue dot menu allows you to change the settings of the Unit
+- update the Stack used in the project, 
+- change the name of the unit displayed in the class,
+- change/update the description
+- change the image attached to the unit
+- you can also delete the unit from the class here as well.
 
-- Unit name
-- Description
-- Image assigned to the Unit
-- Stack (and Stack Version)
-- Source project from which the unit is taken
+<img alt="edit unit" src="/img/docs/class_administration/editunit.png" class="simple"/>
 
-From this screen you can also 'Refresh Source' to update the saved snapshot. You can also elect to then push the update out to any students that may have already started the unit so they do not need to start it again from the beginning.
-
+If you wish to change/update the source project used in this Unit or to overwrite the Guides (.guides) folder for all students who have already started this Unit, go to [Update Unit](/docs/teachers/classes/updateunit)

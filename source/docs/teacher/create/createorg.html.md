@@ -20,8 +20,8 @@ To create an organization follow these steps:
 <img alt="authtoken" src="/img/docs/class_administration/createanorganization/completeform.png" class="simple"/>
 
 
-1. Your organization (school, university or other educational organization) has now been set up.
+1. Your request will be reviewed and when approved the organization (school, university or other educational organization) will be set up and you will receive an email with the details required to get started
 
-1.  3 Demo students will be created for you.  You can see these in your organization
+1.  3 Test students will be created for you.  You will see these in your organization
 
 <img alt="authtoken" src="/img/docs/class_administration/createanorganization/org_teams.png" class="simple"/>

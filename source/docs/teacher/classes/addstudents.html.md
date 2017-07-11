@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-**IMPORTANT:** if you are in the on-boarding phase or want to test out the student experience at any point then please read the section on Working with Demo Students [here](/docs/teacher/create/) on how you can work with Demo student accounts. 
+**IMPORTANT:** if you are in the on-boarding phase or want to test out the student experience at any point then please read the section on Working with Test Students [here](/docs/teacher/create/) on how you can work with Test student accounts. 
 
 You can add students to your organisation and your class easily by giving each student a unique two-word phrase called a token or by giving them in Class Invitation URL.  A student will enter the token and will automatically be added to the your organisation and the correct class as they complete the process to create a Codio account.  To do this follow the steps below: 
 
@@ -17,7 +17,7 @@ You can add students to your organisation and your class easily by giving each s
 1. Click on the **blue plus** sign, top left of the page.
 <img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
 
-1. You can then send the 2 word token to your students, send them the Invite URL to join the class or you can add the Demo students to your class.
+1. You can then send the 2 word token to your students, send them the Invite URL to join the class or you can add the Test students to your class.
 <img alt="authtoken" src="/img/docs/manage_classes/addstudents.png" class="simple"/>
 
 1. If using the token then ask them to go to [https://codio.com/p/join-class](https://codio.com/p/join-class) or select the 'Join Class' button on our main website. They should enter the token when requested and proceed to register for a Codio account. 

@@ -21,13 +21,10 @@ If you have a project that you want to convert into a unit, then the process is 
 ### Adding a new unit
 You add a new unit by pressing the **Add Unit** button. You can either create a brand new unit or import an existing project into the unit. If you choose to import a project then a snapshot of that project is taken and you then work on the unit exclusively from the unit itself and not the project from which it was created.
 
-** IAN - UPDATE AFTER NEW SCREENS FINALISED **
 
 <img alt="UnitStart" src="/img/docs/unitstart.png" class="simple"/>
 
 <img alt="UnitFork" src="/img/docs/unitfork.png" class="simple"/>
-
-** IAN - ENDS **
 
 You can also import in from other sources if for example you have work stored at GitHub/BitBucket/Mecurial etc by selecting the **Import** option.
 

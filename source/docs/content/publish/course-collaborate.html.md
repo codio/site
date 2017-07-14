@@ -38,7 +38,7 @@ A typical approach to setting up a brand new unit is as follows.
 When others want to collaborate on the same unit, they will edit the unit. As we said above, if the unit has not been published, it will create an empty project. At this point, you would do the following.
 
 - Use `git clone` to clone the remote repository into your unit project.
-- This will pull in the content also configure the remote.
+- This will pull in the content and also configure the remote.
 - Carry on working and push the changes.
 
 If the unit has already been published when someone else starts to work on a unit then the process is nearly the same. Rather than being empty, the project will be populated from the last published version of the unit.

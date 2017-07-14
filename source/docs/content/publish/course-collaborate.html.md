@@ -37,7 +37,7 @@ A typical approach to setting up a brand new unit is as follows.
 
 When others want to collaborate on the same unit, they will edit the unit. As we said above, if the unit has not been published, it will create an empty project. At this point, you would do the following.
 
-- Use `git clone` to clone the remote repository into your unit project.
+- Use `git clone` (`git clone <repoURL > ./`) to clone the remote repository into your unit project. You will need to delete the README.md file created in the empty project before cloning the remote repository.
 - This will pull in the content and also configure the remote.
 - Carry on working and push the changes.
 

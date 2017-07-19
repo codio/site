@@ -45,6 +45,16 @@ You can publish in the following ways
 
 <img alt="versions" src="/img/docs/versions.png" class="simple"/>
 
+### Versions
+
+The versions tab will show details of:
+
+- date/time when the unit was published,
+- name of the person who published the unit,
+- the name and version of the stack assigned to the unit.
+
+<img alt="versions" src="/img/docs/versiondetails.png" class="simple"/>
+
 ### Editing units
 
 Editing unit content is always done from the unit itself. This applies to the unit content, done in the IDE, and the unit properties.

@@ -17,7 +17,7 @@ To access your individual billing area, follow these steps:
 
 
 ##Educational Discounts
-We offer substantial 'Whole School' license discounts for Schools, Colleges and Universities as well as a full 30 day trial of all the Education Features
+We offer substantial 'Whole School' license discounts for Schools, Colleges and Universities as well as a full 90 day trial of all the Education Features
 
 ##Organizational Billing
 If you have an Organization account, see the [special billing screen here](/docs/account/billing/).

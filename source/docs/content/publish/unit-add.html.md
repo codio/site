@@ -41,12 +41,37 @@ You can publish in the following ways
 
 <img alt="publishnew" src="/img/docs/publishnew.png" class="simple"/>
 
-- If you are on the Edit unit screen, press the **Publish new version** button.
+- If you are on the unit listings screen, press **Publish new version**  to publish a new version of the unit.
 
 <img alt="versions" src="/img/docs/versions.png" class="simple"/>
 
+
+### Editing units
+
+Editing unit content is always done from the unit itself. This applies to the unit content, done in the IDE, and the unit properties.
+
+Select the unit to open the unit.
+
+If there is a later version of the unit that has been published, you can elect to open the latest published version or the last version you edited
+
+
+<img alt="publishedversion" src="/img/docs/publishedversion.png" class="simple"/>
+
+
+
+### Unit Settings
+
+Additional actions for the unit are available by clicking on the 3 vertical blue dots 
+
+### Edit settings
+
+<img alt="editsettings" src="/img/docs/editsettings.png" class="simple"/>
+
+Select **Edit settings** to change the unit properties - title, description and icon.
+
 ### Versions
 
+<img alt="versionstab" src="/img/docs/versionstab.png" class="simple"/>
 The versions tab will show details of:
 
 - date/time when the unit was published,
@@ -55,19 +80,10 @@ The versions tab will show details of:
 
 <img alt="versions" src="/img/docs/versiondetails.png" class="simple"/>
 
-### Editing units
-
-Editing unit content is always done from the unit itself. This applies to the unit content, done in the IDE, and the unit properties.
-
-<img alt="editunit" src="/img/docs/editunit.png" class="simple"/>
-
-- Select **Edit** to change the unit properties - title, description and icon.
-- Select **Edit in IDE** to open the unit in the IDE. 
-
-### Ordering units
-You can change the order of the units within a module by dragging a unit into its desired position.
 
 ### Deleting units
+
+<img alt="deletetab" src="/img/docs/deletetab.png" class="simple"/>
 Select **Delete** from the above screen to delete the unit. 
 
 <img alt="deleteunit" src="/img/docs/deleteunit.png" class="simple"/>
@@ -76,6 +92,9 @@ You are required to enter a confirmation code to proceed and you can then do one
 
 - Select **Convert content to a project** to delete the unit and its content entirely. 
 - Select **Delete content** to delete the unit and save the unit contents to your projects list. 
+
+### Ordering units
+You can change the order of the units within a module by dragging a unit into its desired position.
 
 ### Updating units assigned to a class
 You may need to make changes to a unit that has already been assigned to a class. If this is the case then you should first publish a new version. This will in itself not change content that has already been started by students. To update the unit in the Class select **Update Unit** from the 3 blue vertical dots to the right of the unit listed in the class. See [Update Unit](/docs/teacher/classes/updateunit/) for more on this.

@@ -17,7 +17,7 @@ When in Preview mode, you can quickly switch back to Editor mode by selecting th
 
 ## Anatomy of the Guides Editor
 Below is a screenshot of the editor with the main components highlighted. 
-<img alt="authtoken" src="/img/docs/guides/overview.png" class="simple"/>
+<img alt="overview" src="/img/docs/guides/overview.png" class="simple"/>
 
 ## Editor Settings
 Editor settings gives you access to the key functions:
@@ -53,6 +53,8 @@ allows you to play audio files within your project.
 - **[Lexicon Topic](/docs/content/courses/lexikon/)**  if you use this option, an icon will appear in the Guide toolbar that will load the Lexikon window with the selected topic automatically selected.
 - **Suppress Page Numbering** allows you to suppress the section page numbers when in Play Mode.
 - **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the unit is run in a [Class](/docs/teacher/classes/assign-project/).
+- **Allow Guide to be closed** allows students to be able to close Guides. Guides can be restarted by selecting the Start Guides icon in the file tree:
+<img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 
 
 - **[Hamburger Icon](/docs/content/authoring/collapse/)** can be pressed to show or hide the Section List.

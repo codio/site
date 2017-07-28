@@ -4,9 +4,13 @@ class_name: docs
 full_width: true
 ---
 
-To see your Guide running, you need to *Play* it. A prompt will be given as you open the project for the Guide to automatically start but you can alsl do this from the 'Tools->Guides Play' menu option.
+To see your Guide running, you need to *Play* it. A prompt will be given as you open the project for the Guide to automatically start but you can also do this from the 'Tools->Guides Play' menu option.
 
 At this point the panel layout is set up automatically according to the layout specified in the first Guide section and the first section will be displayed.
+
+By default, you are not able to close the Guide but if the Guides author has enabled this option you will be able to if using the **Collapse Guides** option isn't suitable for your requirements (see below). If you do close the Guide, you can restart it by clicking the **Start Guide** icon in the file tree:
+
+<img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 
 
 ## Player Options

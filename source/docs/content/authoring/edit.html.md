@@ -153,7 +153,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 <img alt="MathJax" src="/img/docs/guides/mathjax.png" class="simple"/>
 
-To present formula 'inline', enclose within a single `$` 
+Inline math equations are encapsulated in a single `$` like this: $\omega = d\phi / dt$. 
 
 
 ## Guides Cheat Sheet

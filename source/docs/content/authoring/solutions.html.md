@@ -25,5 +25,6 @@ This solution will only be shown
 - to teachers
 - provided the content is published within a unit
 - if you share a project normally or it is public and a student loads it, they have access to this content.
+
 |||
 ```

@@ -52,7 +52,7 @@ The final mapping step needs to be taken for each individual Unit within Codio. 
 ### In Codio
 
 - On the main class screen, make sure the **Units** tab is selected.
-- Click the **+** button and select **Add project as Unit**. 
+- Click the **+** button and select **Add Project**. 
 - Select a project that has some autograded assessments. The **My First Project** that you created earlier in the Onboarding Guide has some auto-graded assessments. You can also assign another project but you will need to manually grade the Unit so there are some scores to pass back to the Blackboard gradebook.
 - Once the Unit has been added to the class, you should click the icon with 3 blue dots and select **LTI Integration URL**.
 - You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).

@@ -16,7 +16,7 @@ To add an individual project, follow the steps below. (Note: to learn how to cre
 1. Click on the **Units** tab, centre left of your screen.
 <img alt="authtoken" src="/img/docs/manage_classes/units_tab.png" class="simple"/>
 
-1. Click on the **blue plus** sign, top left of the page, and choose **Add Project As Unit**.
+1. Click on the **blue plus** sign, top left of the page, and choose **Add Project**.
 <img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
 
 1. Select the project you are assigning and select a stack (for more information on stacks, jump to [Stacks](/docs/project/stacks))

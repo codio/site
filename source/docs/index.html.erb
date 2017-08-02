@@ -4,361 +4,721 @@ description: Need help using Codio? We have extensive documentation to help you 
 layout: layout
 ---
 
-<div class="index-header-block">
-  <h2>How can we help you?</h2>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="index-header-block">
+		<h2>How can we help you?</h2>
+	</div>
+	<section class="docs-index">
+		<%= partial "docs/actions" %>
+		<div class="section">
+			<div class="section-block-row-three">
+				<div class="section-block">
+					<h3>Integrated Development Environment</h3>
+					<ul class="bullet-collapse">
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#int_dev_env"></a> <a href="/docs/ide/navigation/">Basic IDE Features</a>
+							<ul class="collapse items-list" id="int_dev_env">
+								<li>
+									<a href="/docs/ide/navigation/exiting">Exiting the IDE</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/editing">Editing a file</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/upload">Uploading Files</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/download">Downloading Files</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/add-file">Adding Files</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/add-folder">Creating a folder</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/delete-folder">Deleting a folder</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/dragging">Dragging files &amp; folders</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/readme-md">Readme info pages</a>
+								</li>
+								<li>
+									<a href="/docs/ide/navigation/export">Exporting an app</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#adv_ide_feat"></a> <a href="/docs/ide/features/">Advanced IDE Features</a>
+							<ul class="collapse items-list" id="adv_ide_feat">
+								<li>
+									<a href="/docs/ide/features/debugging">Debugging</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/junit">JUnit Testing Framework</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/autocomplete">Autocomplete</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/command-bar">Command Bar</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/fork">Forking a Project</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/ide-beautify">Code Beautification</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/inline-preview">Preview</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/quick-open">Quick Open</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/real-time">Real time code collaboration</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/saving">Saving files</a>
+								</li>
+								<li>
+									<a href="/docs/ide/features/sharing">Sharing &amp; Embedding</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#boxes"></a> <a href="/docs/ide/boxes">Boxes</a>
+							<ul class="collapse items-list" id="boxes">
+								<li>
+									<a href="/docs/ide/boxes/overview">Overview</a>
+								</li>
+								<li>
+									<a href="/docs/ide/boxes/terminal">Terminal Window</a>
+								</li>
+								<li class="item-collapse">
+									<a class="link-collapse collapsed" data-toggle="collapse" href="#installsw"></a> <a href="/docs/ide/boxes/installsw">Software Packages</a>
+									<ul class="collapse items-list" id="installsw">
+										<li>
+											<a href="/docs/ide/boxes/installsw/default-installed">Preinstalled software packages</a>
+										</li>
+										<li>
+											<a href="/docs/ide/boxes/installsw/file-locations">File &amp; software Locations</a>
+										</li>
+										<li>
+											<a href="/docs/ide/boxes/installsw/box-parts">Installing software packages</a>
+										</li>
+										<li>
+											<a href="/docs/ide/boxes/installsw/parts-coding">Coding installable packages</a>
+										</li>
+										<li>
+											<a href="/docs/ide/boxes/installsw/gui/">GUI based output</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="/docs/ide/boxes/always-on">Always-On Boxes</a>
+								</li>
+								<li class="item-collapse">
+									<a class="link-collapse collapsed" data-toggle="collapse" href="#access"></a> <a href="/docs/ide/boxes/access">SSH &amp; Code Access</a>
+									<ul class="collapse items-list" id="access">
+										<li>
+											<a href="/docs/ide/boxes/access/sshkeys">Codio Box SSH Keys</a>
+										</li>
+										<li>
+											<a href="/docs/ide/boxes/access/ext-access">Accessing Boxes &amp; Ports</a>
+										</li>
+										<li>
+											<a href="/docs/ide/boxes/access/ssh-access">SSH into your Box</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="/docs/ide/boxes/granting-access">IDE Access Permissions</a>
+								</li>
+								<li>
+									<a href="/docs/ide/boxes/startup">Auto Starting Services</a>
+								</li>
+								<li>
+									<a href="/docs/ide/boxes/restart-reset">Restart &amp; Reset</a>
+								</li>
+								<li>
+									<a href="/docs/ide/boxes/runmenu">Run Menu</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#panels_tabs"></a> <a href="/docs/ide/panels">Panels &amp; Tabs</a>
+							<ul class="collapse items-list" id="panels_tabs">
+								<li>
+									<a href="/docs/ide/panels/panel-actions">Panel actions</a>
+								</li>
+								<li>
+									<a href="/docs/ide/panels/full-screen">Expand Tabs full screen</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#code_edit"></a> <a href="/docs/ide/editing">Code Editing</a>
+							<ul class="collapse items-list" id="code_edit">
+								<li class="item-collapse">
+									<a class="link-collapse collapsed" data-toggle="collapse" href="#emmet"></a> <a href="/docs/ide/editing/emmet">Productivity, Emmet, Zen Coding</a>
+									<ul class="collapse items-list" id="emmet">
+										<li>
+											<a href="/docs/ide/editing/emmet/emmet-docs">Emmet Docs</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/emmet/emmet-abbreviations">Abbreviations</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/emmet/emmet-actions">Special Keyboard Actions</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/emmet/emmet-ref">Complete Reference</a>
+										</li>
+									</ul>
+								</li>
+								<li class="item-collapse">
+									<a class="link-collapse collapsed" data-toggle="collapse" href="#git"></a> <a href="/docs/ide/editing/git">Git, Mercurial &amp; SVN</a>
+									<ul class="collapse items-list" id="git">
+										<li>
+											<a href="/docs/ide/editing/git/no-remote">Using Git without remote repos</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/git/git-viewing">Viewing GitHub Repos</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/git/resources">Resources</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/git/github-keys">SSH keys</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/git/git-primer">Very basic Git tutorial</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/git/remotes">GitHub &amp; other remotes</a>
+										</li>
+										<li>
+											<a href="/docs/ide/editing/git/active-branch">Active branch</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="/docs/ide/editing/kb-shortcuts">Keyboard Shortcuts</a>
+								</li>
+								<li>
+									<a href="/docs/ide/editing/multicursor">Multiple cursors</a>
+								</li>
+								<li>
+									<a href="/docs/ide/editing/search-replace">Search and replace</a>
+								</li>
+								<li>
+									<a href="/docs/ide/editing/color-preview">Color Preview &amp; Picker</a>
+								</li>
+								<li>
+									<a href="/docs/ide/editing/ide-beautify">Beautify Javascript</a>
+								</li>
+								<li>
+									<a href="/docs/ide/editing/ide-force-lang">Force language highlighting</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#ide_tools"></a> <a href="/docs/ide/tools">IDE Tools</a>
+							<ul class="collapse items-list" id="ide_tools">
+								<li class="item-collapse">
+									<a class="link-collapse collapsed" data-toggle="collapse" href="#deployment"></a> <a href="/docs/ide/tools/deployment">Deployment</a>
+									<ul class="collapse items-list" id="deployment">
+										<li>
+											<a href="/docs/ide/tools/deployment/create">Create/manage a target</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/basepath">Base path field</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/deployment-keys">Public keys for remote servers</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/deployment-ssh">Terminal access to remotes</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/deploy">Deploying to a Target</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/type-rsync">Rsync target type</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/type-ftp">FTP target type</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/type-sftp">SFTP target type</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/type-nj">Nodejitsu target type</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/type-git">Git target type</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/history">Deployment History</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/deployment/specific-files">Deploying specific files &amp; folders</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="/docs/ide/tools/guides/">Guides</a>
+								</li>
+								<li class="item-collapse">
+									<a class="link-collapse collapsed" data-toggle="collapse" href="#phonegap"></a> <a href="/docs/ide/tools/phonegap">Phonegap</a>
+									<ul class="collapse items-list" id="phonegap">
+										<li>
+											<a href="/docs/ide/tools/phonegap/authtoken">Authentication</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/phonegap/config">The config.xml file</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/phonegap/build">Build</a>
+										</li>
+									</ul>
+								</li>
+								<li class="item-collapse">
+									<a class="link-collapse collapsed" data-toggle="collapse" href="#ssh"></a> <a href="/docs/ide/tools/ssh">Remote SSH Terminal Access</a>
+									<ul class="collapse items-list" id="ssh">
+										<li>
+											<a href="/docs/ide/tools/ssh/ssh-manager">SSH Connection Manager</a>
+										</li>
+										<li>
+											<a href="/docs/ide/tools/ssh/quick-connect">Quick Connect</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<h3><a href="/docs/project">Project Templates</a></h3>
+					<ul class="bullet-collapse">
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#how_use_stacks"></a> <a href="/docs/project/stacks">How to use stacks</a>
+							<ul class="collapse items-list" id="how_use_stacks">
+								<li>
+									<a href="/docs/project/stacks/stack-overview">What is a Stack?</a>
+								</li>
+								<li>
+									<a href="/docs/project/stacks/listing">Stack Listings</a>
+								</li>
+								<li>
+									<a href="/docs/project/stacks/using">Using a Stack</a>
+								</li>
+								<li>
+									<a href="/docs/project/stacks/new">Creating a Stack</a>
+								</li>
+								<li>
+									<a href="/docs/project/stacks/guidelines">Stack Guidelines</a>
+								</li>
+								<li>
+									<a href="/docs/project/stacks/exclusions">Excluding files &amp; folders</a>
+								</li>
+								<li>
+									<a href="/docs/project/stacks/update">Updating a Stack</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#how_use_packs"></a> <a href="/docs/project/packs">How to use Starter Packs</a>
+							<ul class="collapse items-list" id="how_use_packs">
+								<li>
+									<a href="/docs/project/packs/overview">What is a Starter Pack?</a>
+								</li>
+								<li>
+									<a href="/docs/project/packs/certified">Certified Packs</a>
+								</li>
+								<li>
+									<a href="/docs/project/packs/requests">Requesting additional Packs</a>
+								</li>
+								<li>
+									<a href="/docs/project/packs/selecting">Selecting a Pack</a>
+								</li>
+								<li>
+									<a href="/docs/project/packs/create">Creating a Pack</a>
+								</li>
+								<li>
+									<a href="/docs/project/packs/guidelines">Pack Guidelines</a>
+								</li>
+								<li>
+									<a href="/docs/project/packs/update">Updating a Pack</a>
+								</li>
+								<li>
+									<a href="/docs/project/packs/delete">Deleting a Pack</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="/docs/project/creating">Creating and importing a project</a>
+						</li>
+						<li>
+							<a href="/docs/project/accessing">Accessing your projects</a>
+						</li>
+						<li>
+							<a href="/docs/project/searchprojects">Searching projects</a>
+						</li>
+						<li>
+							<a href="/docs/project/accessing-others">Accessing another users project</a>
+						</li>
+					</ul>
+					<h3><a href="/docs/student/">Support for Students</a></h3>
+					<ul>
+						<li>
+							<a href="/docs/student/classes">Joining a class as a student</a>
+						</li>
+						<li>
+							<a href="/docs/student/myclassroom">My Classroom</a>
+						</li>
+						<li>
+							<a href="/docs/student/myfirstproject">Creating projects</a>
+						</li>
+						<li>
+							<a href="/docs/student/dyslexia">Dyslexia support</a>
+						</li>
+						<li>
+							<a href="/docs/student/password">Forgotten passwords</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/playmode">Play mode</a>
+						</li>
+					</ul>          
+				</div>
+				<div class="section-block">
+					<h3>Class Administration</h3>
+					<ul class="bullet-collapse">
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#how_create_org"></a> <a href="/docs/teacher/create/">Organization Management</a>
+							<ul class="collapse items-list" id="how_create_org">
+								<li>
+									<a href="/docs/teacher/create/adminrole">Administrator Role</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/addteachers">Add Teachers</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/addowners">Add Organisation owners</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/addstudents">Add Students</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/viewmembers">View organization members</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/dash">Manage Student View</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/removeowners">Remove owners</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/removemembers">Remove members</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/public_private">Public/Private settings</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/gigaboxes">Gigaboxes</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/create/deleteorg">Delete organisation</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#how_manage_class"></a> <a href="/docs/teacher/classes/">Class management</a>
+							<ul class="collapse items-list" id="how_manage_class">
+								<li>
+									<a href="/docs/teacher/classes/addteachers">Adding teachers to a class</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/addstudents">Add Students to a class</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/assign-module">Assign curriculum to the class</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/assign-project">Assign a project to the class</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/settings">Unit settings and actions</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/updateunit">Update Unit</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/disable">Disable/Enable units</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/pin">Pinning a unit</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/solutions">View teacher solutions</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/changepassword">Change student passwords</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/removestudent">Remove a student from a class</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/delete">Deleting a class</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/plag/">Plagiarism checker</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/edit-unit/">Edit Unit details</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/unit-duration/">Set Unit duration</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/reset-unit/">Reset Unit</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/complete-unit/">Force unit completion</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/autograde/">Autograde on Unit complete</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/assess/grading">Manual grading</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/assess/rubric">Grading rubric templates</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/lti/">LMS/LTI URL</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/classes/giga/">Gigaboxes</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#stud_progress"></a> <a href="/docs/teacher/assess">Assessing student progress</a>
+							<ul class="collapse items-list" id="stud_progress">
+								<li>
+									<a href="/docs/teacher/assess/studentcode">Accessing student code</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/assess/assessments">Auto-graded assessments</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/assess/grading">Grading Students work</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#plag"></a> <a href="/docs/teacher/plag">Plagiarism Checker</a>
+							<ul class="collapse items-list" id="plag">
+								<li>
+									<a href="/docs/teacher/plag/plag-start">How to start the tool</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/plag/plag-report">Plagiarism Report</a>
+								</li>
+								<li>
+									<a href="/docs/teacher/plag/plag-ref">Interpreting results</a>
+								</li>
+							</ul>
+						</li>
+            <li class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#lmsintegration"></a> <a href="/docs/teacher/create/lti">LMS integration</a>
+              <ul class="collapse items-list" id="lmsintegration">
+                <li>
+                  <a href="docs/teacher/create/lti/canvas">Canvas</a>
+                </li>
+                <li>
+                  <a href="docs/teacher/create/lti/blackboard">Blackboard</a>
+                </li>
+                <li>
+                  <a href="docs/teacher/create/lti/moodle">Moodle</a>
+                </li>
+              </ul>
+            </li>            
+					</ul>
+					<h3><a href="/docs/content/publish">Course Administration</a></h3>
+					<ul>
+						<li>
+							<a href="/docs/content/publish/course-create">Create Courses</a>
+						</li>
+						<li>
+							<a href="/docs/content/publish/course-public">Public Courses</a>
+						</li>
+						<li>
+							<a href="/docs/content/publish/course-add">Modules</a>
+						</li>
+						<li>
+							<a href="/docs/content/publish/unit-add">Units</a>
+						</li>
+						<li>
+							<a href="/docs/content/publish/course-collaborate">Collaborating on courses</a>
+						</li>
+						<li>
+							<a href="/docs/content/publish/delete">Deleting courses and modules</a>
+						</li>
+					</ul>
+          
+					<h3><a href="/docs/content/courses/">Schools Courses</a></h3>
+          <ul class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#school-course-list"></a> <a href="/docs/content/courses">Course list</a>
+              <ul class="collapse items-list" id="school-course-list">
+                <li>
+                  <a href="/docs/content/courses/organisation">How are courses organised</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/coursefind">Finding Courses</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/courseview">Course Visibilty</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/recommended">What content do you recommend?</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/currmap2012">Curriculum Map for the OCR GCSE (J275)</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/currmap2016">Curriculum Map for the OCR GSCE (J276)</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/currmapcstahigh/">Curriculum Map for High School Computer Science Course</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/currmapcstamiddle/">Curriculum Map for Middle School Computer Science Course Grades 6-8</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/flode">Flode</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/crunch">Crunch, an alternative to Little Man Computer</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/lexikon">Lexikon</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/tkinter">Tkinter</a>
+                </li>
 
-<section class="docs-index">
-
-  <%= partial "docs/actions" %>
-
-  <div class="section">
-    <div class="section-block-row-three">
-      <div class="section-block">
-        <h3>Integrated Development Environment</h3>
-        <ul class="bullet-collapse">
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#int_dev_env"></a>
-            <a href="/docs/ide/navigation/">Basic IDE Features</a>
-            <ul id="int_dev_env" class="collapse items-list">
-              <li><a href="/docs/ide/navigation/exiting">Exiting the IDE</a></li>
-              <li><a href="/docs/ide/navigation/editing">Editing a file</a></li>
-              <li><a href="/docs/ide/navigation/upload">Uploading Files</a></li>
-							<li><a href="/docs/ide/navigation/download">Downloading Files</a></li>
-              <li><a href="/docs/ide/navigation/add-file">Adding Files</a></li>
-              <li><a href="/docs/ide/navigation/add-folder">Creating a folder</a></li>
-              <li><a href="/docs/ide/navigation/delete-folder">Deleting a folder</a></li>
-              <li><a href="/docs/ide/navigation/dragging">Dragging files &amp; folders</a></li>
-              <li><a href="/docs/ide/navigation/readme-md">Readme info pages</a></li>
-              <li><a href="/docs/ide/navigation/export">Exporting an app</a></li>
-            </ul>
-          </li>
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#adv_ide_feat"></a>
-            <a href="/docs/ide/features/">Advanced IDE Features</a>
-            <ul id="adv_ide_feat" class="collapse items-list">
-              <li><a href="/docs/ide/features/debugging">Debugging</a></li>
-							<li><a href="/docs/ide/features/junit">JUnit Testing Framework</a></li>
-              <li><a href="/docs/ide/features/autocomplete">Autocomplete</a></li>
-              <li><a href="/docs/ide/features/command-bar">Command Bar</a></li>
-              <li><a href="/docs/ide/features/fork">Forking a Project</a></li>
-              <li><a href="/docs/ide/features/ide-beautify">Code Beautification</a></li>
-              <li><a href="/docs/ide/features/inline-preview">Preview</a></li>
-              <li><a href="/docs/ide/features/quick-open">Quick Open</a></li>
-              <li><a href="/docs/ide/features/real-time">Real time code collaboration</a></li>
-              <li><a href="/docs/ide/features/saving">Saving files</a></li>
-              <li><a href="/docs/ide/features/sharing">Sharing &amp; Embedding</a></li>
-            </ul>
-          </li>
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#boxes"></a>
-            <a href="/docs/ide/boxes">Boxes</a>
-            <ul id="boxes" class="collapse items-list">
-              <li><a href="/docs/ide/boxes/overview">Overview</a></li>
-              <li><a href="/docs/ide/boxes/terminal">Terminal Window</a></li>
-              <li class="item-collapse">
-                <a class="link-collapse collapsed" data-toggle="collapse" href="#installsw"></a>
-                <a href="/docs/ide/boxes/installsw">Software Packages</a>
-                <ul id="installsw" class="collapse items-list">
-                  <li><a href="/docs/ide/boxes/installsw/default-installed">Preinstalled software packages</a></li>
-                  <li><a href="/docs/ide/boxes/installsw/file-locations">File &amp; software Locations</a></li>
-                  <li><a href="/docs/ide/boxes/installsw/box-parts">Installing software packages</a></li>
-                  <li><a href="/docs/ide/boxes/installsw/parts-coding">Coding installable packages</a></li>
-									<li><a href="/docs/ide/boxes/installsw/gui/">GUI based output</a></li>
-                </ul>
-              </li>
-              <li><a href="/docs/ide/boxes/always-on">Always-On Boxes</a></li>
-              <li class="item-collapse">
-                <a class="link-collapse collapsed" data-toggle="collapse" href="#access"></a>
-                <a href="/docs/ide/boxes/access">SSH &amp; Code Access</a>
-                <ul id="access" class="collapse items-list">
-                  <li><a href="/docs/ide/boxes/access/sshkeys">Codio Box SSH Keys</a></li>
-                  <li><a href="/docs/ide/boxes/access/ext-access">Accessing Boxes &amp; Ports</a></li>
-                  <li><a href="/docs/ide/boxes/access/ssh-access">SSH into your Box</a></li>
-                </ul>
-              </li>
-              <li><a href="/docs/ide/boxes/granting-access">IDE Access Permissions</a></li>
-              <li><a href="/docs/ide/boxes/startup">Auto Starting Services</a></li>
-              <li><a href="/docs/ide/boxes/restart-reset">Restart &amp; Reset</a></li>
-              <li><a href="/docs/ide/boxes/runmenu">Run Menu</a></li>
-            </ul>
-          </li>
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#panels_tabs"></a>
-            <a href="/docs/ide/panels">Panels &amp; Tabs</a>
-            <ul id="panels_tabs" class="collapse items-list">
-              <li><a href="/docs/ide/panels/panel-actions">Panel actions</a></li>
-              <li><a href="/docs/ide/panels/full-screen">Expand Tabs full screen</a></li>
-            </ul>
-          </li>
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#code_edit"></a>
-            <a href="/docs/ide/editing">Code Editing</a>
-            <ul id="code_edit" class="collapse items-list">
-              <li class="item-collapse">
-                <a class="link-collapse collapsed" data-toggle="collapse" href="#emmet"></a>
-                <a href="/docs/ide/editing/emmet">Productivity, Emmet, Zen Coding</a>
-                <ul id="emmet" class="collapse items-list">
-                  <li><a href="/docs/ide/editing/emmet/emmet-docs">Emmet Docs</a></li>
-                  <li><a href="/docs/ide/editing/emmet/emmet-abbreviations">Abbreviations</a></li>
-                  <li><a href="/docs/ide/editing/emmet/emmet-actions">Special Keyboard Actions</a></li>
-                  <li><a href="/docs/ide/editing/emmet/emmet-ref">Complete Reference</a></li>
-                </ul>
-              </li>
-              <li class="item-collapse">
-                <a class="link-collapse collapsed" data-toggle="collapse" href="#git"></a>
-                <a href="/docs/ide/editing/git">Git, Mercurial &amp; SVN</a>
-                <ul id="git" class="collapse items-list">
-                  <li><a href="/docs/ide/editing/git/no-remote">Using Git without remote repos</a></li>
-                  <li><a href="/docs/ide/editing/git/git-viewing">Viewing GitHub Repos</a></li>
-                  <li><a href="/docs/ide/editing/git/resources">Resources</a></li>
-                  <li><a href="/docs/ide/editing/git/github-keys">SSH keys</a></li>
-                  <li><a href="/docs/ide/editing/git/git-primer">Very basic Git tutorial</a></li>
-                  <li><a href="/docs/ide/editing/git/remotes">GitHub &amp; other remotes</a></li>
-                  <li><a href="/docs/ide/editing/git/active-branch">Active branch</a></li>
-                </ul>
-              </li>
-              <li><a href="/docs/ide/editing/kb-shortcuts">Keyboard Shortcuts</a></li>
-              <li><a href="/docs/ide/editing/multicursor">Multiple cursors</a></li>
-              <li><a href="/docs/ide/editing/search-replace">Search and replace</a></li>
-              <li><a href="/docs/ide/editing/color-preview">Color Preview &amp; Picker</a></li>
-              <li><a href="/docs/ide/editing/ide-beautify">Beautify Javascript</a></li>
-              <li><a href="/docs/ide/editing/ide-force-lang">Force language highlighting</a></li>
-            </ul>
-          </li>
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#ide_tools"></a>
-            <a href="/docs/ide/tools">IDE Tools</a>
-            <ul id="ide_tools" class="collapse items-list">
-              <li class="item-collapse">
-                <a class="link-collapse collapsed" data-toggle="collapse" href="#deployment"></a>
-                <a href="/docs/ide/tools/deployment">Deployment</a>
-                <ul id="deployment" class="collapse items-list">
-                  <li><a href="/docs/ide/tools/deployment/create">Create/manage a target</a></li>
-                  <li><a href="/docs/ide/tools/deployment/basepath">Base path field</a></li>
-                  <li><a href="/docs/ide/tools/deployment/deployment-keys">Public keys for remote servers</a></li>
-                  <li><a href="/docs/ide/tools/deployment/deployment-ssh">Terminal access to remotes</a></li>
-                  <li><a href="/docs/ide/tools/deployment/deploy">Deploying to a Target</a></li>
-                  <li><a href="/docs/ide/tools/deployment/type-rsync">Rsync target type</a></li>
-                  <li><a href="/docs/ide/tools/deployment/type-ftp">FTP target type</a></li>
-                  <li><a href="/docs/ide/tools/deployment/type-sftp">SFTP target type</a></li>
-                  <li><a href="/docs/ide/tools/deployment/type-nj">Nodejitsu target type</a></li>
-                  <li><a href="/docs/ide/tools/deployment/type-git">Git target type</a></li>
-                  <li><a href="/docs/ide/tools/deployment/history">Deployment History</a></li>
-                  <li><a href="/docs/ide/tools/deployment/specific-files">Deploying specific files &amp; folders</a></li>
-                </ul>
-              </li>
-              <li><a href="/docs/ide/tools/guides/">Guides</a></li>
-              <li class="item-collapse">
-                <a class="link-collapse collapsed" data-toggle="collapse" href="#phonegap"></a>
-                <a href="/docs/ide/tools/phonegap">Phonegap</a>
-                <ul id="phonegap" class="collapse items-list">
-                  <li><a href="/docs/ide/tools/phonegap/authtoken">Authentication</a></li>
-                  <li><a href="/docs/ide/tools/phonegap/config">The config.xml file</a></li>
-                  <li><a href="/docs/ide/tools/phonegap/build">Build</a></li>
-                </ul>
-              </li>
-              <li class="item-collapse">
-                <a class="link-collapse collapsed" data-toggle="collapse" href="#ssh"></a>
-                <a href="/docs/ide/tools/ssh">Remote SSH Terminal Access</a>
-                <ul id="ssh" class="collapse items-list">
-                  <li><a href="/docs/ide/tools/ssh/ssh-manager">SSH Connection Manager</a></li>
-                  <li><a href="/docs/ide/tools/ssh/quick-connect">Quick Connect</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <h3><a href="/docs/project">Project Templates</a></h3>
-        <ul class="bullet-collapse">
-          <li class="item-collapse">
-          <a class="link-collapse collapsed" data-toggle="collapse" href="#how_use_stacks"></a>
-          <a href="/docs/project/stacks">How to use stacks</a>
-          <ul id="how_use_stacks" class="collapse items-list">
-            <li><a href="/docs/project/stacks/stack-overview">What is a Stack?</a></li>
-            <li><a href="/docs/project/stacks/listing">Stack Listings</a></li>
-            <li><a href="/docs/project/stacks/using">Using a Stack</a></li>
-            <li><a href="/docs/project/stacks/new">Creating a Stack</a></li>
-            <li><a href="/docs/project/stacks/guidelines">Stack Guidelines</a></li>
-            <li><a href="/docs/project/stacks/exclusions">Excluding files &amp; folders</a></li>
-            <li><a href="/docs/project/stacks/update">Updating a Stack</a></li>
-          </ul>
-            </li>
-          <li class="item-collapse">
-          <a class="link-collapse collapsed" data-toggle="collapse" href="#how_use_packs"></a>
-          <a href="/docs/project/packs">How to use Starter Packs</a>
-          <ul id="how_use_packs" class="collapse items-list">
-            <li><a href="/docs/project/packs/overview">What is a Starter Pack?</a></li>
-            <li><a href="/docs/project/packs/certified">Certified Packs</a></li>
-            <li><a href="/docs/project/packs/requests">Requesting additional Packs</a></li>
-            <li><a href="/docs/project/packs/selecting">Selecting a Pack</a></li>
-            <li><a href="/docs/project/packs/create">Creating a Pack</a></li>
-            <li><a href="/docs/project/packs/guidelines">Pack Guidelines</a></li>
-            <li><a href="/docs/project/packs/update">Updating a Pack</a></li>
-            <li><a href="/docs/project/packs/delete">Deleting a Pack</a></li>
-          </ul>
-            </li>
-          <li><a href="/docs/project/creating">Creating and importing a project</a></li>
-          <li><a href="/docs/project/accessing">Accessing your projects</a></li>
-          <li><a href="/docs/project/searchprojects">Searching projects</a></li>
-          <li><a href="/docs/project/accessing-others">Accessing another users project</a></li>
-        </ul>
-        <h3>Learning Management Tools</h3>
-        <ul class="bullet-collapse">
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#stud_progress"></a>
-            <a href="/docs/teacher/assess">Assessing student progress</a>
-            <ul id="stud_progress" class="collapse items-list">
-              <li><a href="/docs/teacher/assess/studentcode">Accessing student code</a></li>
-              <li><a href="/docs/teacher/assess/assessments">Auto-graded assessments</a></li>
-              <li><a href="/docs/teacher/assess/grading">Grading Students work</a></li>
-            </ul>
-          </li>
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#plag"></a>
-            <a href="/docs/teacher/plag">Plagiarism Checker</a>
-            <ul id="plag" class="collapse items-list">
-             <li><a href="/docs/teacher/plag/plag-start">How to start the tool</a></li>
-             <li><a href="/docs/teacher/plag/plag-report">Plagiarism Report</a></li>
-             <li><a href="/docs/teacher/plag/plag-ref">Interpreting results</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="section-block">
-        <h3>Class Administration</h3>
-        <ul class="bullet-collapse">
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#how_create_org"></a>
-            <a href="/docs/teacher/create/">How to create an organisation</a>
-            <ul id="how_create_org" class="collapse items-list">
-              <li><a href="/docs/teacher/create/adminrole">Administrator Role</a></li>
-              <li><a href="/docs/teacher/create/addteachers">Add Teachers</a></li>
-              <li><a href="/docs/teacher/create/addowners">Add Organisation owners</a></li>
-              <li><a href="/docs/teacher/create/addstudents">Add Students</a></li>
-              <li><a href="/docs/teacher/create/viewmembers">View organization members</a></li>
-              <li><a href="/docs/teacher/create/dash">Manage Student View</a></li>
-              <li><a href="/docs/teacher/create/removeowners">Remove owners</a></li>
-              <li><a href="/docs/teacher/create/removemembers">Remove members</a></li>
-              <li><a href="/docs/teacher/create/public_private">Public/Private settings</a></li>
-					<li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#lmsintegration"></a>
-            <a href="/docs/teacher/create/lti">LMS integration</a>
-						<ul id="lmsintegration" class="collapse items-list">
-							<li><a href="docs/teacher/create/lti/canvas">Canvas</a></li>
-							<li><a href="docs/teacher/create/lti/blackboard">Blackboard</a></li>
-							<li><a href="docs/teacher/create/lti/moodle">Moodle</a></li>
-					 </ul>
-          </li>
-              <li><a href="/docs/teacher/create/gigaboxes">Gigaboxes</a></li>
-              <li><a href="/docs/teacher/create/deleteorg">Delete organisation</a></li>
-            </ul>
-          </li>
-          <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#how_manage_class"></a>
-            <a href="/docs/teacher/classes/">How to manage your class</a>
-            <ul id="how_manage_class" class="collapse items-list">
-              <li><a href="/docs/teacher/classes/addteachers">Adding teachers to a class</a></li>
-              <li><a href="/docs/teacher/classes/addstudents">Add Students to a class</a></li>
-              <li><a href="/docs/teacher/classes/assign-module">Assign curriculum to the class</a></li>
-              <li><a href="/docs/teacher/classes/assign-project">Assign a project to the class</a></li>
-              <li><a href="/docs/teacher/classes/settings">Unit settings and actions</a></li>
-							<li><a href="/docs/teacher/classes/updateunit">Update Unit</a></li>
-              <li><a href="/docs/teacher/classes/disable">Disable/Enable units</a></li>
-              <li><a href="/docs/teacher/classes/pin">Pinning a unit</a></li>
-              <li><a href="/docs/teacher/classes/solutions">View teacher solutions</a></li>
-              <li><a href="/docs/teacher/classes/changepassword">Change student passwords</a></li>
-              <li><a href="/docs/teacher/classes/removestudent">Remove a student from a class</a></li>
-              <li><a href="/docs/teacher/classes/delete">Deleting a class</a></li>
-              <li><a href="/docs/teacher/classes/plag/">Plagiarism checker</a></li>
-              <li><a href="/docs/teacher/classes/edit-unit/">Edit Unit details</a></li>
-              <li><a href="/docs/teacher/classes/unit-duration/">Set Unit duration</a></li>
-              <li><a href="/docs/teacher/classes/reset-unit/">Reset Unit</a></li>
-              <li><a href="/docs/teacher/classes/complete-unit/">Force unit completion</a></li>
-              <li><a href="/docs/teacher/classes/autograde/">Autograde on Unit complete</a></li>
-              <li><a href="/docs/teacher/assess/grading">Manual grading</a></li>
-              <li><a href="/docs/teacher/assess/rubric">Grading rubric templates</a></li>
-              <li><a href="/docs/teacher/classes/lti/">LMS/LTI URL</a></li>
-              <li><a href="/docs/teacher/classes/giga/">Gigaboxes</a></li>
-            </ul>
-          </li>
-        </ul>
-        <h3><a href="/docs/content/courses/">Courses</a></h3>
-        <ul class="bullet-collapse">
-          <li><a href="/docs/content/courses/organisation">How are courses organised</a></li>
-          <li><a href="/docs/content/courses/coursefind">Finding Courses</a></li>
-          <li><a href="/docs/content/courses/courseview">Course Visibilty</a></li>
-          <li><a href="/docs/content/courses/recommended">What content do you recommend?</a></li>
-          <li><a href="/docs/content/courses/currmap2012">Curriculum Map for the OCR GCSE (J275)</a></li>
-          <li><a href="/docs/content/courses/currmap2016">Curriculum Map for the OCR GSCE (J276)</a></li>
-					<li><a href="/docs/content/courses/currmapcstahigh/">Curriculum Map for High School Computer Science Course</a></li>
-					<li><a href="/docs/content/courses/currmapcstamiddle/">Curriculum Map for Middle School Computer Science Course Grades 6-8</a></li>
-          <li><a href="/docs/content/courses/flode">Flode</a></li>
-          <li><a href="/docs/content/courses/crunch">Crunch, an alternative to Little Man Computer</a></li>
-          <li><a href="/docs/content/courses/lexikon">Lexikon</a></li>
-          <li><a href="/docs/content/courses/tkinter">Tkinter</a></li>
-        </ul>
-        <h3><a href="/docs/student/">Support for Students</a></h3>
-        <ul>
-          <li><a href="/docs/student/classes">Joining a class as a student</a></li>
-          <li><a href="/docs/student/myclassroom">My Classroom</a></li>
-          <li><a href="/docs/student/myfirstproject">Creating projects</a></li>
-          <li><a href="/docs/student/dyslexia">Dyslexia support</a></li>
-          <li><a href="/docs/student/password">Forgotten passwords</a></li>
-          <li><a href="/docs/content/authoring/playmode">Play mode</a></li>
-        </ul>
-      </div>
-      <div class="section-block">
-        <h3><a href="/docs/content/authoring">Course Authoring</a></h3>
-        <ul class="bullet-collapse">
-					<li><a href="/docs/content/authoring/strategies">Tips for planning your course</a></li>
-          <li><a href="/docs/content/authoring/overview">What is the Codio Guides authoring tool?</a></li>
-          <li><a href="/docs/content/authoring/example">Example Java Unit</a></li>
-             <li class="item-collapse">
-            <a class="link-collapse collapsed" data-toggle="collapse" href="#autoassessments"></a>
-            <a href="/docs/content/authoring/assessments">How to create autograded assessments</a>
-            <ul id="autoassessments" class="collapse items-list">
-                <li><a href="/docs/content/authoring/assessments/assessments-standard-code-tests">Standard Code Tests</a></li>
-							 <li><a href="/docs/content/authoring/assessments/assessments-code-tests">Advanced Code Tests</a></li>
-                <li><a href="/docs/content/authoring/assessments/assessments-mcq">Multiple Choice</a></li>
-                <li><a href="/docs/content/authoring/assessments/assessments-fitb">Fill in the blanks</a></li>
-							  <li><a href="/docs/content/authoring/assessments/assessments-free">Free Text</a></li>
-            </ul>
-          </li>
-          <li><a href="/docs/content/authoring/edit">Markdown Content Editing</a></li>
-					<li><a href="/docs/content/authoring/edit-html">HTML Content Editing</a></li>
-          <li><a href="/docs/content/authoring/solutions">Creating teacher only content for teacher solutions</a></li>
-          <li><a href="/docs/content/authoring/collapse">Collapse and expand section lists</a></li>
-          <li><a href="/docs/content/authoring/real-time">Simultaneous edit and play</a></li>
-          <li><a href="/docs/content/authoring/add-section">Adding and ordering sections</a></li>
-          <li><a href="/docs/content/authoring/delete-section">Deleting sections</a></li>
-          <li><a href="/docs/content/authoring/layouts">Panel layouts</a></li>
-          <li><a href="/docs/content/authoring/imvid">How to add media to your online couse</a></li>
-          <li><a href="/docs/content/authoring/auto-open">Auto open/close files/preview/terminal</a></li>
-          <li><a href="/docs/content/authoring/inline">Open/close tabs from content</a></li>
-          <li><a href="/docs/content/authoring/chapter">Chapters</a></li>
-          <li><a href="/docs/content/authoring/hide-folder">Hiding folders</a></li>
-          <li><a href="/docs/content/authoring/techdetails">Technical details</a></li>
-          </ul>
-        <h3><a href="/docs/content/collaboration">Content collaboration</a></h3>
-        <ul>
-          <li><a href="/docs/content/collaboration/authoritative/">Codio content and own content</a></li>
-          <li><a href="/docs/content/collaboration/github">Git and GitHub</a></li>
-          <li><a href="/docs/content/collaboration/workflow">The full workflow</a></li>
-          <li><a href="/docs/content/collaboration/create-repo">Creating a repo from Codio</a></li>
-          <li><a href="/docs/content/collaboration/pulling">Your own authoritative repos</a></li>
-          <li><a href="/docs/content/collaboration/conflicts/">Conflicts</a></li>
-        </ul>
-        <h3><a href="/docs/content/publish">Course Publishing</a></h3>
-        <ul>
-          <li><a href="/docs/content/publish/course-create">Create Courses</a></li>
-          <li><a href="/docs/content/publish/course-public">Public Courses</a></li>
-          <li><a href="/docs/content/publish/course-add">Modules</a></li>
-          <li><a href="/docs/content/publish/unit-add">Units</a></li>
-					<li><a href="/docs/content/publish/course-collaborate">Collaborating on courses</a></li>
-          <li><a href="/docs/content/publish/delete">Deleting courses and modules</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+              </ul>
+            </ul>       
+					<ul class="bullet-collapse">
+					</ul>
+				</div>
+				<div class="section-block">
+					<h3><a href="/docs/content/authoring">Authoring with Guides &amp; Books</a></h3>
+					<ul class="bullet-collapse">
+						<li>
+							<a href="/docs/content/authoring/strategies">Tips for planning your course</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/overview">What is the Codio Guides authoring tool?</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/example">Example Java Unit</a>
+						</li>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#autoassessments"></a> <a href="/docs/content/authoring/assessments">How to create autograded assessments</a>
+							<ul class="collapse items-list" id="autoassessments">
+								<li>
+									<a href="/docs/content/authoring/assessments/assessments-standard-code-tests">Standard Code Tests</a>
+								</li>
+								<li>
+									<a href="/docs/content/authoring/assessments/assessments-code-tests">Advanced Code Tests</a>
+								</li>
+								<li>
+									<a href="/docs/content/authoring/assessments/assessments-mcq">Multiple Choice</a>
+								</li>
+								<li>
+									<a href="/docs/content/authoring/assessments/assessments-fitb">Fill in the blanks</a>
+								</li>
+								<li>
+									<a href="/docs/content/authoring/assessments/assessments-free">Free Text</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/edit">Markdown Content Editing</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/edit-html">HTML Content Editing</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/solutions">Creating teacher only content for teacher solutions</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/collapse">Collapse and expand section lists</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/real-time">Simultaneous edit and play</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/add-section">Adding and ordering sections</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/delete-section">Deleting sections</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/layouts">Panel layouts</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/imvid">How to add media to your online couse</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/auto-open">Auto open/close files/preview/terminal</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/inline">Open/close tabs from content</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/chapter">Chapters</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/hide-folder">Hiding folders</a>
+						</li>
+						<li>
+							<a href="/docs/content/authoring/techdetails">Technical details</a>
+						</li>
+					</ul>
+					<h3><a href="/docs/content/collaboration">Content collaboration</a></h3>
+					<ul>
+						<li>
+							<a href="/docs/content/collaboration/authoritative/">Codio content and own content</a>
+						</li>
+						<li>
+							<a href="/docs/content/collaboration/github">Git and GitHub</a>
+						</li>
+						<li>
+							<a href="/docs/content/collaboration/workflow">The full workflow</a>
+						</li>
+						<li>
+							<a href="/docs/content/collaboration/create-repo">Creating a repo from Codio</a>
+						</li>
+						<li>
+							<a href="/docs/content/collaboration/pulling">Your own authoritative repos</a>
+						</li>
+						<li>
+							<a href="/docs/content/collaboration/conflicts/">Conflicts</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

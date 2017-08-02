@@ -34,10 +34,31 @@ layout: layout
             </li>
             <li>
               <a href="/docs/project/accessing-others">Accessing another user's project</a>
-            </li>          
+            </li>  
+            <li><a href="/docs/account/navigation">Navigating Codio</a></li>            
           </ul>            
 					<ul class="bullet-collapse">
 						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#account-settings"></a> <a>Account settings</a>
+							<ul class="collapse items-list" id="account-settings">
+                <li><a href="/docs/account/firewall">Firewall and network settings</a></li>
+                <li><a href="/docs/account/browser">Browser Support</a></li>
+                <li class="item-collapse">
+                <a class="link-collapse collapsed" data-toggle="collapse" href="#passwords"></a> 
+                <a href="/docs/account/password">Password</a>
+                <ul id="passwords" class="collapse items-list">
+                  <li><a href="/docs/teacher/classes/changepassword">Resetting student passwords</a></li>
+                <li><a href="/docs/account/password/forgotpassword">Forgot your password?</a></li>
+                </ul>
+                </li>
+                <li><a href="/docs/account/publickey">Public Key</a></li>
+                <li><a href="/docs/account/github">GitHub</a></li>
+                <li><a href="/docs/account/bitbucket">BitBucket</a></li>
+                <li><a href="/docs/account/delete">Delete your account</a></li>
+
+              </ul>
+						</li>
+            <li class="item-collapse">
 							<a class="link-collapse collapsed" data-toggle="collapse" href="#how_use_stacks"></a> <a href="/docs/project/stacks">Stack templates</a>
 							<ul class="collapse items-list" id="how_use_stacks">
 								<li>
@@ -379,11 +400,28 @@ layout: layout
 								</li>
 							</ul>
 						</li>
-					</ul>         
-					<h3><a href="/docs/student/">Students</a></h3>
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#ide-settings"></a> <a>Settings</a>
+							<ul class="collapse items-list" id="ide-settings">
+								<li class="item-collapse">
+                  <ul>
+                    <li><a href="/docs/ide/customization/codio-prefs">User Preferences</a></li>
+                    <li><a href="/docs/ide/customization/project-prefs">Project Preferences</a>
+                    <li><a href="/docs/ide/customization/prefs-list">Preferences List</a></li>
+                    <li><a href="/docs/ide/customization/project-settings">Project Settings</a></li>
+                    <li><a href="/docs/ide/customization/permissions">Project Permissions</a></li>
+                  </ul>                                   
+                </li>
+							</ul>
+						</li>
+
+          </ul>
+                  
+          
+					<h3><a href="/docs/student/">Miscellaneous</a></h3>
 					<ul class="bullet-collapse">
             <li class="item-collapse">
-						  <a class="link-collapse collapsed" data-toggle="collapse" href="#student-info"></a> <a href="/docs/teacher/create/">Student Access</a>            
+						  <a class="link-collapse collapsed" data-toggle="collapse" href="#student-info"></a> <a href="/docs/student">Student Access</a>            
 						  <ul class="collapse items-list" id="student-info">
                 <li>
                   <a href="/docs/student/classes">Joining a class as a student</a>
@@ -405,7 +443,50 @@ layout: layout
                 </li>
               </ul>
             </li>
-					</ul>          
+            <li  class="item-collapse">
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#school-course-list"></a> <a href="/docs/content/courses">Course list</a>
+              <ul class="collapse items-list" id="school-course-list">
+                <li>
+                  <a href="/docs/content/courses/organisation">How are courses organised</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/coursefind">Finding Courses</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/courseview">Course Visibilty</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/recommended">What content do you recommend?</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/currmap2012">Curriculum Map for the OCR GCSE (J275)</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/currmap2016">Curriculum Map for the OCR GSCE (J276)</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/currmapcstahigh/">Curriculum Map for High School Computer Science Course</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/currmapcstamiddle/">Curriculum Map for Middle School Computer Science Course Grades 6-8</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/flode">Flode</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/crunch">Crunch, an alternative to Little Man Computer</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/lexikon">Lexikon</a>
+                </li>
+                <li>
+                  <a href="/docs/content/courses/tkinter">Tkinter</a>
+                </li>
+
+              </ul>
+            
+            </li>
+					</ul>             
 				</div>
 				<div class="section-block">
 					<h3>Class Administration</h3>
@@ -585,53 +666,7 @@ layout: layout
 						<li>
 							<a href="/docs/content/publish/delete">Deleting courses and modules</a>
 						</li>
-					</ul>
-          
-					<h3><a href="/docs/content/courses/">Schools Courses</a></h3>
-          <ul class="item-collapse">
-              <a class="link-collapse collapsed" data-toggle="collapse" href="#school-course-list"></a> <a href="/docs/content/courses">Course list</a>
-              <ul class="collapse items-list" id="school-course-list">
-                <li>
-                  <a href="/docs/content/courses/organisation">How are courses organised</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/coursefind">Finding Courses</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/courseview">Course Visibilty</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/recommended">What content do you recommend?</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/currmap2012">Curriculum Map for the OCR GCSE (J275)</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/currmap2016">Curriculum Map for the OCR GSCE (J276)</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/currmapcstahigh/">Curriculum Map for High School Computer Science Course</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/currmapcstamiddle/">Curriculum Map for Middle School Computer Science Course Grades 6-8</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/flode">Flode</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/crunch">Crunch, an alternative to Little Man Computer</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/lexikon">Lexikon</a>
-                </li>
-                <li>
-                  <a href="/docs/content/courses/tkinter">Tkinter</a>
-                </li>
-
-              </ul>
-            </ul>       
-					<ul class="bullet-collapse">
-					</ul>
+					</ul>        
 				</div>
 				<div class="section-block">
 					<h3><a href="/docs/content/authoring">Authoring with Guides &amp; Books</a></h3>

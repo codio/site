@@ -1,5 +1,5 @@
 ---
-title: Assign a project to the class
+title: Assign a project to a class
 description: ""
 class_name: docs
 full_width: true

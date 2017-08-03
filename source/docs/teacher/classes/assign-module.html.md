@@ -1,14 +1,14 @@
 ---
-title: Assigning curriculum-mapped content to the class
+title: Assign a course module to a class
 description: ""
 class_name: docs
 full_width: true
 ---
 
 
-You can assign curriculum-mapped content to your classes. (To learn more about curriculum-mapped content, jump to [curriculum-mapped content](/docs/content/courses/recommended))
+You can assign a course module and all of its units to your class with a single action. (To learn more about curriculum-mapped content, jump to [curriculum-mapped content](/docs/content/courses/recommended))
 
-To assign content, follow the steps below:
+To assign a course module, follow the steps below:
 
 1. From the **Classes** screen, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>

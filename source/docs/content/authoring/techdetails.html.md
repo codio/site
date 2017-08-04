@@ -1,11 +1,11 @@
 ---
-title: "Technical details"
+title: "Best Practice"
 class_name: docs
 full_width: true
 ---
 All your guides content is stored in the `content` folder in the `.guides` folder.
 
-> **Important :** do not edit your files from this folder. Always use the Guide editor. If you mess things up by editing files directly, then you may have a tough job getting it back on its feet again.
+> **Important :** do not open guides source files from this folder. Always use the Guide editor. If you break guides integrity by editing files directly, then you may have a tough job restoring it.
 
 ## Images
 It is recommended that you place your images in the `.guides/img` folder, although you don't have to.

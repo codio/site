@@ -1,5 +1,5 @@
 ---
-title: "How to add media to your online course"
+title: "Adding Media"
 class_name: docs
 full_width: true
 ---

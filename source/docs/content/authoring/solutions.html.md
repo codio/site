@@ -1,5 +1,5 @@
 ---
-title: "Creating teacher only content for teacher solutions"
+title: "Content visible to teachers only"
 class_name: docs
 full_width: true
 ---
@@ -28,3 +28,5 @@ This solution will only be shown
 
 |||
 ```
+
+Teacher only content can also be shown to teachers within an assessment question. This allows an question's answer rationale to be shown. Please refer to the [assessments section](/docs/content/authoring/assessments) for more details.

@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+If you have already signed up for a Codio Trial, then the organization will already have been created. 
+
 You need to create an ‘organization’ to use Codio as an educational organization. This allows you to access Codio’s curriculum content and classroom features.
 
 To create an organization follow these steps:

@@ -4,8 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-**IMPORTANT:** if you are in the on-boarding phase or want to test out the student experience at any point then please read the section on Working with Test Students [here](/docs/teacher/create/) on how you can work with Test student accounts. 
-
 You can add students to your organisation and your class easily by giving each student a unique two-word phrase called a token or by giving them in Class Invitation URL.  A student will enter the token and will automatically be added to the your organisation and the correct class as they complete the process to create a Codio account.  To do this follow the steps below: 
 
 1. From the **Classes** area, click on your class to open it. 

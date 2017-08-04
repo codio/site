@@ -1,35 +1,46 @@
 ---
-title: "Tips for planning your course"
+title: "Best Practice"
 class_name: docs
 full_width: true
 ---
 
 Before you start creating your Course content, you should have a solid grasp of the following concepts so you are able to build up courses in a reliable fashion.
 
-### Plan your Course
-Before you start writing actual content it is well worth planning the scope of your Course. 
+### Books, guides or both
+A course is usually made up of 
 
-- A Course is a collection of Modules
-- A Module is a collection of Units
-- A Unit is a Codio project
+- teaching content 
+- coding assignments
 
-The first thing to think about is the size of your Unit. It does not make too much sense to make a Unit too small with just 1 or 2 sections. On the other hand, having a Unit with 40 or 50 sections could be large and unwieldy. Think about your audience when determining this. If it is aimed at beginners or kids, then you should think of a Unit as something that can be completed in a single lesson or two, or maybe an hour or two. For more advanced students a Unit can happily cover a complete logical topic.
+Generally speaking, you should consider 
 
-### Course & Module Planning
-We recommend creating a document that clearly breaks down the Modules and each Module's Units. This gives you a nice framework to begin with. Once you start, you may well find you want to change your mind, but having a framework as a reference really helps. 
+- using a book for teaching content
+- standard projects or standard course units for coding assignments and projects. If you are building robust courses that can be assigned repeatedly to a class, then using standard course units is the way to go rather than projects for organizational reasons.
 
-As you progress with your Units, keep the document up to date as you make changes. If you are collaborating with others on the content creation process you will find this document is a useful focal point for the team.
+### Markdown
+The best way to author content is using markdown. It is extremely easy to write content that renders very nicely and without having to fiddle with HTML. You can embed HTML snippets into a markdown as well where you need full control. 
 
-### Don't make sections too long
-Again, this depends on your intended audience but try to keep each section reasonably brief. If the topic is a long one, you may want to break it up into several sections. This prevents lots of scrolling and allows students to digest information in manageable chunks. 
+We have a Cheat Sheet project that you can use to see the full capabilities. To fork this starter pack into your won account, please [click here](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/). You should select the **Use Pack** option to create the project. 
 
-### Think about Chapters
-We strongly recommend you take advantage of this feature. Chapters serve two purposes ...
+### Courses
+We recommend you have a solid understanding of Codio courses before you invest a lot of time in content creation. The best approach is to experiment with a very basic course with maybe 2 modules and 2 units in each module. Make sure you understand the difference between a book based unit (typically used for teaching materials and simple assessments) and a project based unit (typically used for coding assignments).
 
-1. They break the content down visually in the section list (table of contents)
-1. They allow to students to reset their content to its original state if they have mangled the code through experimentation and want to restore it. [Click here for details](/docs/content/authoring/chapter).
+### Media assets
+When creating a book or a guide, you will often be working with images, video and other media. We recommend the following.
 
-### Use the Hidden Folder feature
+- Images should be placed in the `.guides/img` folder. You can create sub-folders for organizational purposes.
+- Videos should be hosted on a 3rd party platform such as YouTube or Vimeo. You can embed these using regular HTML embed tags as available from those platforms.
+- Web based media such as Google Doc documents can be embedded using regular HTML embed tags as available from those platforms.
+
+### Callout blocks
+Our markdown support the use of special callout blocks. These provide icons and highlighted backgrounds for various concepts such as : Important, Info, Challenge, Topic, Definition, Meetups, Headline, Hackathon, Create, Calendar, Growth Hack, Debugging, Cross Discipline and more.
+
+Please refer to the **Callout** section of the Guides Books Cheat Sheet. If you have not done so already, fork [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project. 
+
+### Don't make pages too long
+Again, this depends on your intended audience but try to keep each page reasonably brief. If the topic is a long one, you may want to break it up into several pages. This prevents lots of scrolling and allows students to digest information in manageable chunks. 
+
+### Hidden folders
 Your content will often want to show code samples. Codio's recommended approach is to put each set of code samples into a dedicated folder. Then, using the page settings, you can specify this folder with the consequence that all non-specified folders are hidden from view in the file tree (if you choose to show it).
 
 The benefit of hiding folders is that the student is not distracted by folders and files that are not relevant to the topic you are explaining.
@@ -55,17 +66,6 @@ The Guide editor lets you create different panel layouts for your tutorial conte
 
 [Click here](/docs/content/authoring/layouts) for more information on panel layouts.
 
-### Caveats
-There are some things that are a bit tricky when writing your content. Being aware of these will help avoid frustration and speed up productivity.
-
-### Authoring with the filetreee
-In the early stages of development, show the filetree in your layout settings even if you don't want to have it in your final version. If you don't you will find that the switching between edit and play mode causes the panels to shift and you will need to reset manually when resuming editing, which can be frustrating. The best thing is to use the filetree until you are close to publishing your content, then remove the filetree.
-
-### Use the Previous panel layout setting
-As mentioned above, when authoring content it makes sense to always leave the file tree visible until you are ready to test the final layout. The easiest approach is to only set the panel layout setting on the first page (or as few pages as strictly needed). The 'Previous' layout setting simple uses the layout setting that was used on the previous page, so you only need to make this change once rather than on all pages.
-
-### Testing Restore current files
-The [Restore current files](/docs/content/authoring/playmode/) feature is a great way for students to reset any section to its initial state after hacking sample code around. Currently, it is not possible for the author to use this feature as it only works when it is used by a Student within a Class.
 
 
 

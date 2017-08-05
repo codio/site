@@ -97,7 +97,7 @@ body.docs .overview-section {
 
 .docs-content {
   @include container;
-  padding-top: 6 * $base-line-height;
+  padding-top: 4 * $base-line-height;
 
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
@@ -231,8 +231,8 @@ body.docs .index-header-block {
     text-align: center;
     margin-left: gutter();
     margin-right: gutter();
-    padding-top: 150px;
-    padding-bottom: 2rem;
+    padding-top: 58px;
+    padding-bottom: 1rem;
 
     @include breakpoint($break-tablet) {
       font-size: 2.369rem;
@@ -248,7 +248,7 @@ body.docs .page-header-block {
   @include span(4);
   position: relative;
   .search-container {
-    padding: 9rem 0 0 0;;
+    padding: 6rem 0 0 0;;
   }
 }
 
@@ -256,7 +256,7 @@ body.docs .page-header-block {
   @include container;
   @include break;
 
-  padding: 0 0 3rem 0;
+  padding: 0 0 1rem 0;
 
   .st-search-input {
     width: span(14 of 16);

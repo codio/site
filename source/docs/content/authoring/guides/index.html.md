@@ -1,5 +1,5 @@
 ---
-title: "About Guides"
+title: "Guides"
 class_name: docs
 full_width: true
 ---

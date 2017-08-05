@@ -1,5 +1,5 @@
 ---
-title: "Auto open/close files, preview, terminal"
+title: "Open tabs"
 class_name: docs
 full_width: true
 ---
@@ -12,6 +12,7 @@ You can automatically perform any of the following actions when a section is sho
 - Open a Terminal window (including running terminal command in the background).
 - Highlight lines you wish to highlight within each file.
 
+You should also be aware that you can achieve the same actions from hyperlinks on a page. [Click here](/docs/content/authoring/page-edit/inline) for details.
 
 ### Page - Close Tabs
 Enable this to close all panels open from the previous section
@@ -40,7 +41,6 @@ To open multiple files in the same panel enter in the following format.
 ```
 index.html, main.css
 ```
-
 
 ### Previewing
 To preview your project select the 'Preview' Type. If you wish to show an external website page, use the **Preview** option.

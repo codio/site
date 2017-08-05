@@ -1,5 +1,5 @@
 ---
-title: "Content visible to teachers only"
+title: "Teacher only content"
 class_name: docs
 full_width: true
 ---

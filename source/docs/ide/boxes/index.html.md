@@ -1,5 +1,5 @@
 ---
-title: "Boxes"
+title: "Accessing a box"
 class_name: docs
 full_width: true
 ---

@@ -1,13 +1,15 @@
 ---
-title: "Books vs. Guides"
+title: "What is a book and a guide?"
 class_name: docs
 full_width: true
 ---
 
+A Codio Guide has been available for a long time. It allows you to create tutorial contents for that project and currently only allows one level of table of contents nesting. Later in 2017 we will upgrade the guides editor to have the same table of contents capabilities as a book.
+
+A book is very similar to a project with a Codio guide. The main differences are is that portions of a book's contents can be mapped to a course unit. A standard course unit maps to an entire project.
 
 ### Complex table of contents
 Books was introduced in August 2017. The idea behind a book is that it allows an author to create teaching material of any length. A much improved table of contents supports chapters and sections. Sections can be nested within chapters to any depth unlike guides, which have only one level of nesting.
-
 
 ### Speed
 With a standard project based course unit, when students want to switch from one unit to another, there is a delay while the new unit is loaded. If a student wants to refer to different parts of the course then the repeated delays can become frustrating.

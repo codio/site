@@ -6,7 +6,7 @@ full_width: true
 
 The Codio dashboard is the main screen you arrive at after logging into Codio. From here you access all the main components of Codio.
 
-The appearance of the dashboard depends on whether you are a teacher/instructor or a student. The information below relates to teacher/instructors. [Click here](/docs/student) for information on the student dashboard.
+The appearance of the dashboard depends on whether you are a teacher/instructor or a student. The information below relates to teacher/instructors. [Click here](/docs/dashboard/student) for information on the student dashboard.
 
 
 ## Dashboard options

@@ -1,5 +1,5 @@
 ---
-title: Student monitoring/access
+title: View student progress
 class_name: docs
 full_width: true
 ---
@@ -23,7 +23,6 @@ To do so follow these steps:
 You can also download a CSV file of your students progress. You can do this for individual units to see all your students by clicking on the blue triple dot icon to the right of the unit name:
 <img alt="authtoken" src="/img/docs/downloadcsv_unit.png" class="simple"/>
 
-or you can download a CSV file for the Course to see all your students progress in all the units by hovering over the Course name to select Download CSV there: 
+or you can download a CSV file for the Course to see all your students progress in all the units in each Module by hovering over the Module name to select Download CSV there: 
 <img alt="authtoken" src="/img/docs/downloadcsv_module.png" class="simple"/>
-
 

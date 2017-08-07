@@ -9,11 +9,11 @@ Codio automatically creates 3 test students for you. This allows instructors to 
 
 1.  They can be seen in the members section.
 
-<img alt="authtoken" src="/img/docs/class_administration/createanorganization/org_teams.png" class="simple"/>
+<img alt="Create Organisation" src="/img/docs/class_administration/createanorganization/org_teams.png" class="simple"/>
 
 1.  You can log in as the student dashboard by clicking the **Login as** button here:
 
-<img alt="authtoken" src="/img/docs/class_administration/createanorganization/studentlogin.png" class="simple"/>
+<img alt="Student login" src="/img/docs/class_administration/createanorganization/studentlogin.png" class="simple"/>
 
 1. Or you can also log in as the student within a class as well:
 

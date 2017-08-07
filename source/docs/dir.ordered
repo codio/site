@@ -1,6 +1,7 @@
-account
-content
-ide
+dashboard
 project
-student
-teacher
+ide
+content
+courses
+classes
+misc

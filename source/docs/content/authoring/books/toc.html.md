@@ -6,7 +6,8 @@ full_width: true
 
 Once you are in the Codio IDE, you are able to edit the book contents. There are two ways to start editing a Book.
 
-- Press then right arrow at the top of the file tree. **** IAN : Screen shot please showing the start guides icon, small and inline if possible ****
+- Press then right arrow at the top of the file tree. 
+<img alt="startguides" src="/img/docs/guides/startguides.png" class="simple"/>
 - From the menu, select **Tools->Book->Edit**.
 
 ### Editing page content and actions

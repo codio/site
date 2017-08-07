@@ -135,7 +135,6 @@ Some text
 
 |||
 ```
-**** IAN - new image please, note My Title ****
 
 <img alt="calloutinfo" src="/img/docs/guides/callout_info.png" class="simple"/>
 

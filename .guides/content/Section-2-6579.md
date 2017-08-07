@@ -1,1 +1,0 @@
-# Sample content Section 2

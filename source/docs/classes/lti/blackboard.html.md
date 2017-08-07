@@ -1,5 +1,7 @@
 ---
 title: "Blackboard"
+class_name: docs
+full_width: true
 ---
 
 ## Preparation
@@ -11,7 +13,7 @@ The following steps need to be taken only one time per class.
 - Select the **Organization Settings** near the top of the page.
 - Scroll down to the **LTI Integration** section. You should see the following fields. Remain on this screen for the time being.
 
-<img alt="authtoken" src="/img/docs/lti/lti-org-fields.png" class="simple"/>
+<img alt="LTI Fields" src="/img/docs/lti/lti-org-fields.png" class="simple"/>
 
 
 ### In Blackboard
@@ -57,7 +59,7 @@ The final mapping step needs to be taken for each individual Unit within Codio. 
 - Once the Unit has been added to the class, you should click the icon with 3 blue dots and select **LTI Integration URL**.
 - You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
 
-<img alt="authtoken" src="/img/docs/lti/LMS-Unit-URL.png" class="simple"/>
+<img alt="Unit URL" src="/img/docs/lti/LMS-Unit-URL.png" class="simple"/>
 
 
 ### In Blackboard
@@ -103,7 +105,7 @@ By default, grades in Codio are neither passed back to the student nor to Blackb
 
 Once **Release Grades** is enabled, all completed student assignments are automatically sent through. 
 
-<img alt="authtoken" src="/img/docs/lti/release-complete.png" class="simple"/>
+<img alt="Release Grades" src="/img/docs/lti/release-complete.png" class="simple"/>
 
 There are various ways to mark a student's work as complete
 

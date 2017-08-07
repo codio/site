@@ -1,5 +1,7 @@
 ---
 title: "Canvas"
+class_name: docs
+full_width: true
 ---
 
 ## Preparation
@@ -11,7 +13,7 @@ The following steps need to be taken only one time per class.
 - Select the **Organization Settings** near the top of the page.
 - Scroll down to the **LTI Integration** section. You should see the following fields. Remain on this screen for the time being.
 
-<img alt="authtoken" src="/img/docs/lti/lti-org-fields.png" class="simple"/>
+<img alt="LTI Fields" src="/img/docs/lti/lti-org-fields.png" class="simple"/>
 
 
 ### In Canvas
@@ -39,7 +41,7 @@ In Canvas you should then
 
 You should end up with something like this.
 
-<img alt="authtoken" src="/img/docs/lti/canvas-global.png" class="simple"/>
+<img alt="Canvas Global" src="/img/docs/lti/canvas-global.png" class="simple"/>
 
 ## Codio Class setup
 You need to perform the following actions one time only for a class. The Canvas user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
@@ -63,7 +65,7 @@ The final mapping step needs to be taken for each individual Unit within Codio. 
 - Once the Unit has been added to the class, you should click the icon with 3 blue dots and select **LTI Integration URL**.
 - You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
 
-<img alt="authtoken" src="/img/docs/lti/LMS-Unit-URL.png" class="simple"/>
+<img alt="Unit URL" src="/img/docs/lti/LMS-Unit-URL.png" class="simple"/>
 
 ### In Canvas
 We now return to Canvas complete the mapping.
@@ -74,7 +76,7 @@ We now return to Canvas complete the mapping.
 - Set the points for the Assignment. When the grades get passed back later, the Codio percentage score will be scaled to the points value you specify here.
 - Scroll down and look for the **Submission Type** field.
 
-<img alt="authtoken" src="/img/docs/lti/canvas-submission-type.png" class="simple"/>
+<img alt="Canvas Submission" src="/img/docs/lti/canvas-submission-type.png" class="simple"/>
 
 
 - You should now click on the dropdown list and select "External Tool".
@@ -112,7 +114,7 @@ By default, grades in Codio are neither passed back to the student nor to Canvas
 
 Once **Release Grades** is enabled, all completed student assignments are automatically sent through. 
 
-<img alt="authtoken" src="/img/docs/lti/release-complete.png" class="simple"/>
+<img alt="Release Grades" src="/img/docs/lti/release-complete.png" class="simple"/>
 
 There are various ways to mark a student's work as complete
 

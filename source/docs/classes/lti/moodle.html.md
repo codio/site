@@ -1,5 +1,7 @@
 ---
 title: "Moodle"
+class_name: docs
+full_width: true
 ---
 
 ### Authentication and account creation

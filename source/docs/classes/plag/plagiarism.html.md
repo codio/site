@@ -1,5 +1,6 @@
 ---
-title: Plagiarism detection
+title: Plagiarism checker
+description: ""
 class_name: docs
 full_width: true
 ---
@@ -13,5 +14,6 @@ Plagiarism detection is best used with programming project units rather than Gui
 Codio does not determine whether cheating has or has not taken place and leaves the decision making up to you.
 
 
+To run the [plagiarism checker](/docs/teacher/plag/) you need to first select the Unit within the class and then press press the Actions button next to the unit name.
 
-
+<img alt="authtoken" src="/img/docs/guides/plag-button.png" class="simple"/>

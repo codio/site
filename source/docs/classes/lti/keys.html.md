@@ -4,11 +4,18 @@ class_name: docs
 full_width: true
 ---
 
+Codio supports full integration with any Learning Management System that supports the LTI interface. We have detailed documentation on how to integrate with the platforms below but many others are also supported.
+
+- [Canvas](/docs/classes/lti/canvas)
+- [Blackboard](/docs/classes/lti/blackboard)
+- [Moodle](/docs/classes/lti/moodle)
+
+
 ### LTI Keys
 
 **LTI Keys** are used to integrate your **LMS** to **Codio**.
 
-These keys are accessible to [Organisation Owners](/docs/teacher/create/addowners/). If you do not see them, discuss with your Organisation Owner to be added to the Owners group.
+These keys are accessible to [Organisation Owners](/docs/dashboard/create/addowners/). If you do not see them, discuss with your Organisation Owner to be added to the Owners group.
 
 To find these keys:
 
@@ -46,6 +53,6 @@ The **Unit URL** is where you map each individual Unit within your Codio Class t
 
 For more information on specific **LMS** systems, see 
 
-- [Canvas](/docs/teacher/create/lti/canvas)
-- [Blackboard](/docs/teacher/create/lti/blackboard)
-- [Moodle](/docs/teacher/create/lti/moodle)
+- [Canvas](/docs/classes/lti/canvas)
+- [Blackboard](/docs/classes/lti/blackboard)
+- [Moodle](/docs/classes/lti/moodle)

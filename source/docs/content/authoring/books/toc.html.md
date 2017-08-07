@@ -8,7 +8,7 @@ Once you are in the Codio IDE, you are able to edit the book contents. There are
 
 - Press then right arrow at the top of the file tree. 
 <img alt="startguides" src="/img/docs/guides/startguides.png" class="simple"/>
-- From the menu, select **Tools->Book->Edit**.
+- From the menu, select **Tools->Guides->Edit**.
 
 ### Editing page content and actions
 Please refer to the following pages for details in how to edit page content and control page actions.
@@ -19,7 +19,7 @@ Please refer to the following pages for details in how to edit page content and 
 ### Editing a book
 The image below highlights the main components of the book editing page. 
 
-**** IAN : annotated image please (light lines, not as thick as usual) : 
+<img alt="Edit Book" src="/img/docs/guides/editbook.png" class="simple"/>
 
 ### Accessing the table of contents
 To open and close the table of contents, press the **Hamburger Icon** at the top right. From here you can add and organize content.

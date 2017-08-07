@@ -12,17 +12,21 @@ If you are not familiar with courses and modules, please [refer to the documenta
 ### Creating a new book based unit
 Below is a screen shot of a course module, ready to have a new unit added.
 
-**** IAN : Screenshot please with a couple of units already there. ****
+<img alt="Module" src="/img/docs/guides/coursemodule.png" class="simple"/>
 
 Press the large blue **+** button to add a new unit. When you press it, you should specify **Book based unit**.
 
-**** IAN : Screen shot with new book unit ****
+<img alt="Book Based Unit" src="/img/docs/guides/addbookbasedunit.png" class="simple"/>
 
 You should first select a book that you want to publish from the drop-down list. If you don't see your book here then check that you have published it. If the book is owned by someone else, then check that you have necessary permissions to access the book.
 
 Next, you will need to select the book content that is mapped to this unit by pressing the **Change Content** button.
 
-**** IAN : screen shot showing mapping. Please use something with a nice structure and adequate content ****
+<img alt="Select Content" src="/img/docs/guides/selectcontent.png" class="simple"/>
+
+and then select the content from the book that you wish to be assigned to the unit
+
+<img alt="Content Mapping" src="/img/docs/guides/contentmapping.png" class="simple"/>
 
 Finally, you should give your unit a name and optional description.
 

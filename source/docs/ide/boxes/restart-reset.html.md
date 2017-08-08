@@ -6,10 +6,10 @@ full_width: true
 
 Codio offers the ability to restart and to reset your project's Box. You can find both options in the 'Project' menu.
 
-##Restart
+## Restart
 This operation reboots the Box, which usually takes a few seconds.
 
-##Reset 
+## Reset 
 This operation is fairly destructive and should be used with caution. It resets the Box to its fresh state but leaves your code files untouched.
 
 - any new folders or files that have been created will be deleted

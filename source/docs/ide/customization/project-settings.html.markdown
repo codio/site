@@ -14,10 +14,11 @@ Project settings, as distinct from Project preferences, are used to store the fo
 - Public/Private
 - Allow Box Cloning (subscription required)
 - Enable your Box as [Always-On](/docs/ide/boxes/always-on/)
-- Allow Private Static Preview. See [Preview](/docs/ide/features/inline-preview/) for more information. **NB Only available from `Project>Settings'**
+- Allow Private Static Preview. See [Preview](/docs/ide/features/inline-preview/) for more information. **NB Only available from `Project>Settings`**
 - Delete your Project
 - Export the project as a Zip file.
 - Stack Settings - details of the stack used in your project.
 - Forwarding Settings - details of how to SSH into your box. See [here](/docs/ide/boxes/access/ssh-access/) for more.
 
-![Project Setting](/img/docs/project-settings.png)
+<img alt="Project Setting" src="/img/docs/project-settings.png" class="simple"/>
+

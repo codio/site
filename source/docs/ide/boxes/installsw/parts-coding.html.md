@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-##Overview
+## Overview
 If you cannot find the software you want to install in the list then you can add your own package to the Install Software list by forking our GitHub repository, making the necessary modifications and finally submitting a pull request.
 
 The repository can be found at [https://github.com/codio/install_software](https://github.com/codio/install_software)

@@ -8,7 +8,7 @@ Codio supports local and global search and replace. You can access these feature
 
 Hotkey shortcuts can be seen in the Find menu. You can override these from [Preferences](/docs/ide/customization/codio-prefs).
 
-##Local
+## Local
 Search and replace is supported on the currently selected file.
 
 The hotkeys are defined in Preferences and the defaults are
@@ -35,7 +35,7 @@ key_replace = Cmd+Alt+F
 key_replace_all = Shift+Cmd+Alt+F
 ```
 
-##Global
+## Global
 Global search and replace are available within the Find menu under Find in project and Replace in project.
 
 You can search using regular expressions, ignore case and whole word settings. The buttons on the left of the input fields control these settings.
@@ -44,9 +44,10 @@ You can search using regular expressions, ignore case and whole word settings. T
 
 Once the search operation has completed you will see matches listed in a Codio tab. Double click on the highlighted match to open up that file in a new tab.
 
-![global search dialog](/img/docs/search-matches.png)
+<img alt="global search dialog" src="/img/docs/search-matches.png" class="simple"/>
 
-##Pattern & Wildcard Matching (Globs)
+
+## Pattern & Wildcard Matching (Globs)
 When you are searching, you can specify a search pattern in the 'Where' field.
 
 Lets say you have the following project

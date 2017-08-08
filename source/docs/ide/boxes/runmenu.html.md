@@ -13,7 +13,8 @@ The configuration for the Run (and Preview) button can be set by editing the `.c
 
 The following code below shows the `.codio` file configured to give this Run menu
 
-![run menu](/img/docs/run-menu.png)
+<img alt="Run Menu" src="/img/docs/run-menu.png" class="simple"/>
+
 
 which is driven by the following `.codio` file
 

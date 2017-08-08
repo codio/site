@@ -27,7 +27,7 @@ if ('this_is' == /an_example/) {
 }
 ```
 
-##Settings
+## Settings
 If you look within the [code-beautifier] section of the Codio Preferences, you will see the various beautification settings available.
 
 Don't forget, you can force these in [Project preferences](/docs/ide/customization/project-prefs) if you want to have consistently beautified code regardless of who edits your code.

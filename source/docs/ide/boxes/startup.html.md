@@ -9,7 +9,7 @@ Your Box will be put to sleep under the conditions [explained here](/docs/ide/bo
 
 When you open your project, the Box will start instantly, by default, any services will start automatically.
 
-##Autostarting using startup.sh
+## Autostarting using startup.sh
 You can also create and configure the `startup.sh` file in the root of your project. This file will typically contain something like this
 
 ```bash
@@ -25,10 +25,10 @@ sudo service apache2 start
 
 This makes sure that all flags are cleared out beforehand.
 
-##Testing your startup.sh file
+## Testing your startup.sh file
 The best way to test your `startup.sh` file is to select the 'Project->Restart Box' menu item.
 
-##Checking which services are running
+## Checking which services are running
 To check your services status type the following
 
 ```bash

@@ -13,11 +13,11 @@ A [Quick Connect](/docs/ide/tools/ssh/quick-connect) option lets you access remo
 
 You can do the same things you can do in a regular terminal window, including running text editors like Nano etc.
 
-##Copy & Paste operations
+## Copy & Paste operations
 Behavior varies between Macs and other operating systems. Using the right-click menu should work on all systems.
 
-###Mac
+### Mac
 Copy and paste both works as expected with cmd+c and cmd+v.
 
-###Windows, Linux
-Pasting is done as expected with ctrl+v but copying (ctrl+c) cannot be done as it conflicts with the 'kill process' comman, so you should use the right-click menu.
+### Windows, Linux
+Pasting is done as expected with ctrl+v but copying (ctrl+c) cannot be done as it conflicts with the 'kill process' command, so you should use the right-click menu.

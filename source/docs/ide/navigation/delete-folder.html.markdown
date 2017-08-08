@@ -10,6 +10,6 @@ You can delete an entire folder and its content in two ways
 - On Macs, press `fn+backspace`
 - On anything else, press `shift+del`
 
-##Warning
+## Warning
 Deleting a folder cannot be undone.
 

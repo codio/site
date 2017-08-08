@@ -8,12 +8,12 @@ You can find your account settings in the `Codio > Account` dropdown menu and fr
 
 Account Settings lets you manage the following
 
-- [User profile](/docs/account/general)
-- [Password](/docs/account/password)
-- [SSH key](/docs/account/publickey)
-- [Github single signon and Codio public key upload](/docs/account/github)
-- [BitBucket single signon and Codio public key upload](/docs/account/bitbucket)
-- [Account deletion](/docs/account/delete)
+- [User profile](/docs/dashboard/account/general/)
+- [Password](/docs/dashboard/account/password)
+- [SSH key](/docs/dashboard/account/publickey)
+- [Github single signon and Codio public key upload](/docs/dashboard/account/github)
+- [BitBucket single signon and Codio public key upload](/docs/dashboard/account/bitbucket)
+- [Account deletion](/docs/dashboard/account/delete)
 
 
 

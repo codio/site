@@ -24,12 +24,12 @@ If you point to a portion of a book, you can map a chapter, section or pages in 
 The student can still (unless explicitly disabled by the teacher/instructor) access other parts of the book for revision purposes.
 
 ### Limitations
-There are certain things you can't do with a book that you might want to in a class context. For example, you might want to assign a coding project to a class that you can explicitly disable or that is only [enabled within a certain time-frame](/docs/teacher/classes/unit-duration/). Because a book has a single Codio box behind it, it is not possible to provide the isolation required to support this type of disabling. As a result, you should use standard project based units for such assignments.
+There are certain things you can't do with a book that you might want to in a class context. For example, you might want to assign a coding project to a class that you can explicitly disable or that is only [enabled within a certain time-frame](/docs/classes/unitmanagement/unit-duration/). Because a book has a single Codio box behind it, it is not possible to provide the isolation required to support this type of disabling. As a result, you should use standard project based units for such assignments.
 
 Codio also offers the ability to run instructor authored scripts when a unit is completed. This also needs to be handled by a standard project based unit.
 
 ### Conclusion
-In general, it is a good idea to put standard teaching materials and assessments into a Book and map corrsponding course units to the book and put lengthier coding assignments into a project based unit.
+In general, it is a good idea to put standard teaching materials and assessments into a Book and map corresponding course units to the book and put lengthier coding assignments into a project based unit.
 
 You may also want to use a book for storing a bank of assessments questions. You can nicely categorize your questions using the table of contents management. You can then create special assessment units that point to individual assessments that you choose using the unit-> book mapping ability.
 

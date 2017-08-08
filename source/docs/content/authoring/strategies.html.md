@@ -45,15 +45,15 @@ Your content will often want to show code samples. Codio's recommended approach 
 
 The benefit of hiding folders is that the student is not distracted by folders and files that are not relevant to the topic you are explaining.
 
-[Click here](/docs/content/authoring/hide-folder) for more details on folder hiding.
+[Click here](/docs/content/authoring/page-edit/hide-folder) for more details on folder hiding.
 
 ### Assessments
 Codio offers a range of assessment types that let you create tests in one of two ways
 
 1. Woven into your tutorial content at strategic points.
-1. Create a Unit with a lot of assessments that can be used as end of topic or term/semester exams, especially useful in class scnearios.
+1. Create a Unit with a lot of assessments that can be used as end of topic or term/semester exams, especially useful in class scenarios.
 
-When used as a part of tutorial content, assessments are a very important way of giving students challenges and excercises that help internalize what they have been learning. We recommend that you make heavy use of assessments.
+When used as a part of tutorial content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning. We recommend that you make heavy use of assessments.
 
 When used in a class situation, assessments are extremely helpful to the teacher as all assessment results are fed automatically through to the teacher class dashboard, allowing them to monitor students' progress across a Course.
 
@@ -64,7 +64,7 @@ Many of Codio's assessment types (code tests, multiple choice questions, text, f
 ### Layouts
 The Guide editor lets you create different panel layouts for your tutorial content and the layout can change from section to section. 
 
-[Click here](/docs/content/authoring/layouts) for more information on panel layouts.
+[Click here](/docs/content/authoring/settings-actions/page) for more information on panel layouts.
 
 
 

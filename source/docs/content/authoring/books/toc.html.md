@@ -41,7 +41,7 @@ If you want to reverse the procedure, you right click and select **Remove conten
 You can multi select multiple pages as follows
 
 - Select an item then shift+click on a latter item to select all pages between the two items. This only works for items at the same level.
-- Use ctrl+click (PC/Linux) or  cmd+click (Mac) to multi select individual pages.
+- Use `ctrl+click` (PC/Linux) or  `cmd+click` (Mac) to multi select individual pages.
 
 ## Drag and Drop
 It is very important to understand how drag and drop works within a table of contents as it is very powerful but can be confusing if you don’t understand how it works. Drag and drop works with individual or multiple selected pages.

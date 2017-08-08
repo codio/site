@@ -84,9 +84,9 @@ If there is any potential ambiguity with this approach, simply insert a comment 
 
 Any combinations are acceptable and they will be opened in the order specified.
 
-
+<a name="specifypanel"></a>
 ### Specifying the panel number
-If your [layout](/docs/content/authoring/layouts) for this page involves multiple panels, then you can also specify the panel number to display the file in.
+If your [layout](/docs/content/authoring/settings-actions/page/) for this page involves multiple panels, then you can also specify the panel number to display the file in.
 
 <img alt="authtoken" src="/img/docs/guides/panel.png" class="simple"/>
 

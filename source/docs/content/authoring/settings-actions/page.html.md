@@ -11,7 +11,7 @@ You can choose from a variety of panel layouts for each section. This gives you 
 
 The layouts we currently offer can be found in the dropdown list.
 
-Read the 'Specifying a panel' section here: [Auto opening files](/docs/content/settings-actions/auto-open) for information on how to reference these panels when auto opening code files, a preview window or a terminal window.
+Read the 'Specifying the panel number' section here: [Auto opening files](/docs/content/authoring/settings-actions/open-tabs#specifypanel) for information on how to reference these panels when auto opening code files, a preview window or a terminal window.
 
 The top-most and default entry in the Layout dropdown is 'Previous'. This means it will use the same panel layout as specified in the previous section to save having to manually set it each time.
 
@@ -36,7 +36,7 @@ To define which folder(s) to show - any other folders are automatically hidden -
 If you have several Guides sections that have the same folders shown, then you only need define the folders on the first section. All subsequent sections will use the same Show Folders setting until a new one is encountered.
 
 ## Content Type
-You can specify whether the page content type is Markdown (strongly recommended) or HTML. If you choose HTML, then you will need to set the page HTML header and footer in [Global Settings](/docs/content/authoring/global).
+You can specify whether the page content type is Markdown (strongly recommended) or HTML. If you choose HTML, then you will need to set the page HTML header and footer in [Global Settings](/docs/content/authoring/settings-actions/global/).
 
 ## Teacher only content
 If this switch is enabled then the page contents will not be show to students. Teachers will be able to see it when they select **Open as teacher** from a unit in a class.

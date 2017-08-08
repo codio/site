@@ -7,7 +7,7 @@ full_width: true
 In order to assign book content to a class, you first need to create a book unit. The advantage of this approach is that you can break your book into smaller chunks that map to lessons or lectures. Each of these chunks is a book based course unit. You can also map the entire book through a single course unit if you are not concerned about detailed unit mappings.
 
 ### Course setup
-If you are not familiar with courses and modules, please [refer to the documentation](/docs/content/publish/course-overview). We will assume that you have created a course and a module within which you will create a new unit to map to a part of the book.
+If you are not familiar with courses and modules, please [refer to the documentation](/docs/courses/course-overview). We will assume that you have created a course and a module within which you will create a new unit to map to a part of the book.
 
 ### Creating a new book based unit
 Below is a screen shot of a course module, ready to have a new unit added.

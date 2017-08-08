@@ -20,7 +20,7 @@ Within the player various options can be controlled by the user
 
 - **Collapse Guides** allows the user to collapse the Guides pane to provide larger working area if required.
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
-- **Settings** allows the user to change the Theme (light/dyslexic), set the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/docs/student/dyslexia/) section
+- **Settings** allows the user to change the Theme (light/dyslexic), set the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/docs/dashboard/student/dyslexia/) section
 - **Increase/Decrease Font** allows the user to incrementally increase/decrease the player font size.
 - **[Show/Hide Section List Hamburger Icon](/docs/content/authoring/collapse/)** allows the user to show/hide the section list.
 

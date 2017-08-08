@@ -91,9 +91,8 @@ You can also embed an iframe using the standard `<iframe>` html tag.
 
 If you wish to embed from Google Docs, go to File>Publish to Web and select 'Embed' to obtain the code snippet
 
+<img alt="authtoken" src="/img/docs/guides/guides_publish.png" class="simple"/>
 
-![](/img/docs/guides/guides_publish.png)
 
 ## Example Project
-
-https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/project/creating/) for more information on importing.
+https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review. 

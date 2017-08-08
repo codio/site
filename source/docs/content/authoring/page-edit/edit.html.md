@@ -20,21 +20,18 @@ When you are in Edit mode, you can select a section by
 <img alt="editnav" src="/img/docs/guides/editnav.png" class="simple"/>
 
 
-##Renaming the Section
+## Renaming the Section
 You can rename your section by clicking on the section title in the header area.
 
 ##Writing Guide content
 You can then start writing your content in the main content area.
 
-##Markdown
+## Markdown
 For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 
 When in Play Mode, your content is rendered beautifully and you can even override the default CSS styling.
 
-You can also insert [images, videos and hyperlinks](/docs/content/authoring/imvid).
-
-
-We would recommend that you check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/project/creating/) for more information on importing.
+You can also insert [images, videos and hyperlinks](/docs/content/authoring/page-edit/imvid).
 
 Here is a summary of the Markdown formatting codes
 
@@ -140,7 +137,6 @@ Some text
 
 The `Guidance` callout block is only visible in Play mode to members of the Teacher group. It is not visible for members of the Student Group 
 
-Check out our  [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to see all the options.
 
 ## Hyperlinks, Images, Videos & iframes
 We describe this in [this section](/docs/tuts/author/imvid).
@@ -166,4 +162,4 @@ To present formula 'inline', enclose within a single `$`
 
 ## Guides Cheat Sheet
 
-Check out our [Guides Cheat Sheet](https://bitbucket.org/codiocontent/guides-cheat-sheet) and import into your Codio account to review. See [here](/docs/project/creating/) for more information on importing.
+Check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.

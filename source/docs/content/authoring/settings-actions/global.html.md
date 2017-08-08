@@ -10,7 +10,7 @@ The settings on this page apply to the entire guide or book.
 This allows you to reference a script from a page using an HTML `<src>` tag. If you want any scripts to be included in the content then you should provide a path and file name. You provide one script reference per line.
 
 ### HTML header and footer
-This is used for any pages which are designated in the [page settings]() as an HTML page. The header/footer will be placed before/after the HTML page content.
+This is used for any pages which are designated in the [page settings](/docs/content/authoring/page-edit/edit-html) as an HTML page. The header/footer will be placed before/after the HTML page content.
 
 ### Theme
 There is currently only a single theme.

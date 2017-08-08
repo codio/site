@@ -1,5 +1,5 @@
 ---
-title: "A student view of Codio"
+title: "The Student View"
 description: ""
 ---
 

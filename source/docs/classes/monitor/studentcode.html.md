@@ -1,5 +1,5 @@
 ---
-title: Accessing student code
+title: Accessing student work
 class_name: docs
 full_width: true
 ---

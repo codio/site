@@ -1,5 +1,5 @@
 ---
-title: Unit duration
+title: Set unit duration
 class_name: docs
 full_width: true
 ---

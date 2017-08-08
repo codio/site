@@ -1,5 +1,5 @@
 ---
-title: View student progress
+title: Student assessment results
 class_name: docs
 full_width: true
 ---

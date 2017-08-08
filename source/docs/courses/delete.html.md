@@ -1,5 +1,5 @@
 ---
-title: Deleting courses
+title: Deleting courses and modules
 class_name: docs
 full_width: true
 ---

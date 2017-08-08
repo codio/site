@@ -1,5 +1,5 @@
 ---
-title: Make your course public
+title: Public courses
 class_name: docs
 full_width: true
 ---

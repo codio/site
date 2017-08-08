@@ -1,5 +1,5 @@
 ---
-title: Reset a Unit 
+title: Reset Unit 
 description: ""
 class_name: docs
 full_width: true

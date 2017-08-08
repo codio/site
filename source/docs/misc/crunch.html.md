@@ -1,6 +1,6 @@
 ---
-title: Crunch, an alternative to Little Man Computer 
-description: ""
+title: Crunch  
+description: "An alternative to Little Man Computer"
 class_name: docs
 full_width: true
 ---

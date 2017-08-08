@@ -1,5 +1,5 @@
 ---
-title: Who can see my course content?
+title: Course Visibility
 class_name: docs
 full_width: true
 ---

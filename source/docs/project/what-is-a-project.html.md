@@ -19,11 +19,11 @@ Here are the key things you need to know about projects.
 ### Strong recommendations
 We strongly recommend that you are familiar with the following concepts if you plan to assign projects to classes of students. Even if you don't knowledge of the following project related features will stand you in good stead.
 
-- [The Codio IDE]()
-- [Stacks]()
-- [Starter Packs]()
-- [Authoring tutorial content with Codio Guides and Books]()
-- [Courses]()
-- [Class management]()
+- [The Codio IDE](/docs/ide)
+- [Stacks](/docs/project/stacks)
+- [Starter Packs](/docs/project/packs)
+- [Authoring tutorial content with Codio Guides and Books](/docs/content/authoring)
+- [Courses](/docs/courses)
+- [Class management](/docs/classes/classmanagement)
 
 

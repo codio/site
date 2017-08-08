@@ -50,7 +50,7 @@ You should include a full description of your Starter Pack that appears when som
 ## Write a Codio Guide
 [Codio Guides](/docs/content/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a Starter Pack for tuition purposes, a Guide is extremely useful and easy to use.
 
-##README.md file
+## README.md file
 You should create a `README.md` file in the root of your project that displays helpful information the user can see when they open the project.
 
 Below is a template you could use.

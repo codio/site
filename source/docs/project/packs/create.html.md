@@ -23,7 +23,7 @@ You can add short and long descriptions as well as an image and tags. Tags are i
 ## Visibilty
 By default, Starter Packs are kept private to your account until you make them public, at which point they will appear in the **Popular** and **All** Packs listings for all Codio Users.
 
-If you are a member of an Organisation, the Organisation owner can disable the ability for you to create public starter packs. See [Public/Private Settings](/docs/teacher/create/public_private).
+If you are a member of an Organisation, the Organisation owner can disable the ability for you to create public starter packs. See [Public/Private Settings](/docs/dashboard/create/public_private).
 
 If you want to keep your Starter Pack private to your Organization, you can select the Private option and set the Owner option to your Organization.
 

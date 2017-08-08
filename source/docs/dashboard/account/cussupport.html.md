@@ -5,7 +5,7 @@ title: "Customer Support Office Hours"
 
 ### Customer Technical Support 
 
-We have an [extensive documentation section](/docs) where you can find out how to [add students](/docs/teacher/create/addstudents/), [add teachers](/docs/teacher/create/addteachers/) and much more. 
+We have an [extensive documentation section](/docs) where you can find out how to [add students](/docs/classes/classmanagement/addstudents), [add teachers](/docs/dashboard/create/addteachers) and much more. 
 
 To access the documentation
 

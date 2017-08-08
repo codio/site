@@ -26,4 +26,4 @@ The Lexikon is organized into Topics. We currently have added
 - Javascript
 - Linux
 
-![Lexicon](/img/docs/lexicon.png)
+<img alt="Lexicon" src="/img/docs/lexicon.png" class="simple"/>

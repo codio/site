@@ -1,9 +1,9 @@
 createorg
 adminrole
 addteachers
+addowners
 addstudents
 test-students
-addowners
 viewmembers
 dash
 removeowners

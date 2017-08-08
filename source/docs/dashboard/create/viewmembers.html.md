@@ -20,10 +20,10 @@ Sometimes you might need to check who is registered as a member of your educatio
 
 You will be able to see all the members of your school ‘organisation’.
 
-The **Test Students** group contains the demo student accounts created for you when the Organisation was created. See [Create Organisation](/docs/teacher/create/) for more information.
+The **Test Students** group contains the demo student accounts created for you when the Organisation was created. See [Create Organisation](/docs/dashboard/create/createorg/) for more information.
 
-The **Users without class** group contains all users that are not members of a class. See [Delete Class](/docs/teacher/classes/delete/) for more information.  This may be as a result of a class being deleted or it may be that a new user has joined your organisation but is not yet either a Teacher or a Student in a class.
+The **Users without class** group contains all users that are not members of a class. See [Delete Class](/docs/classes/classmanagement/delete) for more information.  This may be as a result of a class being deleted or it may be that a new user has joined your organisation but is not yet either a Teacher or a Student in a class.
 Select this group and you can then remove these users from your organisation if required. 
 <img alt="authtoken" src="/img/docs/manage_organization/orphanedusers.png" class="simple"/>
 
-Please note that removing users from your Organisation does not delete their Codio account. Only the account owner can [delete their account](/docs/account/delete/).
+Please note that removing users from your Organisation does not delete their Codio account. Only the account owner can [delete their account](/docs/dashboard/account/delete).

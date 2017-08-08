@@ -24,5 +24,5 @@ To remove members:
 1. Choose **Remove** on the right hand side of the name of the person who you want to remove from your organization.
 
 
-1. If you want to use the freed-up accounts with new students, follow the steps listed in [Add Users](/docs/teacher/create/addstudents)
+1. If you want to use the freed-up accounts with new students, follow the steps listed in [Add Users](/docs/classes/classmanagement/addstudents)
 

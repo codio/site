@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You may want to remove one or more of the Admin owners you have set for your organization. It is worth noting that you always need at least one admin owner. (If you want to know how to add admin owners, jump to [Add organization owners](/docs/teacher/create/addteachers)).
+You may want to remove one or more of the Admin owners you have set for your organization. It is worth noting that you always need at least one admin owner. (If you want to know how to add admin owners, jump to [Add organization owners](/docs/dashboard/create/addowners/)).
 
 To remove admin owners:
 

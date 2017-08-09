@@ -21,7 +21,7 @@ Setting up a Multiple Choice assessment within the Guide editor is very simple. 
 <img alt="authtoken" src="/img/docs/guides/assessment_mcq.png" class="simple"/>
 
 ## Once chance only!!
-Codio allows users to make their selections and move on to other content pages or assessments without actually submitting their answer. However, once the answer has been submitted, it cannot be resubmitted. We believe that this gives teachers a far clearer understanding of which students are understanding the materials properly. There is little point to tests if the student simple changes the answers until the correct one appears.
+Codio allows users to make their selections and move on to other content pages or assessments without actually submitting their answer. However, once the answer has been submitted, it cannot be resubmitted. We believe that this gives teachers a far clearer understanding of which students are understanding the materials properly. There is little point to tests if the student simply changes the answers until the correct one appears.
 
 
 

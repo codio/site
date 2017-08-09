@@ -24,7 +24,7 @@ Next, you start editing your code and content. As you will likely use Codio for 
 
 **Important**: you should note the correct stack to use. For Codio content, our [Wiki](https://github.com/codio-content/Information/wiki) contains information about the stack to use for each course. Please see the video for details.
 
-Go to the Codio projects page and press the New Project button. You then select the import button and enter the url of the GitHub repo. 
+Go to the Codio projects page and press the **New Project** button. You then select the import button and enter the url of the GitHub repo. 
 
 <div class="video">
 <div class="video-wrapper">
@@ -67,7 +67,7 @@ After you have made and submitted your changes, weeks can elapse before you find
 
 It is important that you pull in all changes from the owner's repo before carrying on work yourself. 
 
-Firstly, you need to create a *remote* that tells your Codio repo the name of the authoritative repository from which your working copy was forked. The video explains how to retrieve the `<special url>`. Please make sure that you use the *https* link and not the GitHub link. The video explains this i more depth.
+Firstly, you need to create a *remote* that tells your Codio repo the name of the authoritative repository from which your working copy was forked. The video explains how to retrieve the `<special url>`. Please make sure that you use the *https* link and not the GitHub link. The video explains this in more depth.
 
 - `git remote add upstream <special url>`
 

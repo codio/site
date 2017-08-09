@@ -17,7 +17,7 @@ The good news is that you can allow this by applying the necessary permissions i
 
 1. Go to the repo in your GitHub account.
 1. Click the settings button near the top of the page.
-1. Press the Collaborators link on th left side.
+1. Press the Collaborators link on the left side.
 1. Add collaborators. You will need to know their GitHub name but can also search.
 
 ### Pulling changes
@@ -26,7 +26,7 @@ Regardless of whether you are the owner or any other collaborator. You should re
 - `git pull origin master` is the usual command but can vary if you are using branches.
 
 ### Branches
-It is very much recommended practice to use branches when collaborating. Branches are very powerful and allow you to develop anything you want in a safe way. 
+It is very much the recommended practice to use branches when collaborating. Branches are very powerful and allow you to develop anything you want in a safe way. 
 
 It is beyond the scope of this documentation to cover branches. However, once you are comfortable with the basics of Git, it is strongly recommended that you use and are comfortable with branches. You will really enjoy using them and they allow you to perform and even push any form of experiment without a) running the risk of messing up the master branch or b) creating another repo to experiment in.
 

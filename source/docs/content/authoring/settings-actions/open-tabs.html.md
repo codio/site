@@ -25,7 +25,7 @@ Enable this to close all panels open from the previous section
 
 Files can be opened automatically to present the panel configuration you feel is most appropriate for the reader.
 
-The 'Add Tab' button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
+The **Add Tab** button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
 
 You can also drag and drop files in from your project file tree to the page to add them to the Open Tabs section so that file will be opened in a tab for the reader as well as Drag and Drop on the Open Tabs area in Guides.
 
@@ -43,7 +43,7 @@ index.html, main.css
 ```
 
 ### Previewing
-To preview your project select the 'Preview' Type. If you wish to show an external website page, use the **Preview** option.
+To preview your project select the **Preview** Type. If you wish to show an external website page, use the **Preview** option, entering the appropriate URL.
 
 <img alt="preview" src="/img/docs/guides/type_preview.png" class="simple"/>
 
@@ -54,7 +54,7 @@ https://codio.com
 Please note, if the site you want to preview prevents embedding in an iframe then you won't be able to use `https` addresses, you would have to use an `http` address instead, in which case it will open in an new browser tab.
 
 ### Opening Terminal and running system commands
-To open a Terminal window select the 'Terminal' option.
+To open a Terminal window select the **Terminal** option.
 
 You can also specify a terminal command to run when a section is displayed. For example, your Guide may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a Guide is running) at a certain point in your Guide.
 

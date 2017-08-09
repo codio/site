@@ -6,9 +6,9 @@ full_width: true
 
 A Codio project can have a single Guide. Within that Guide you can have as many sections as you like.
 
-To create a new Guide, or to edit an existing one, go to the 'Tools->Edit Guide' menu option.
+To create a new Guide, or to edit an existing one, go to the **Tools->Edit Guide** menu option.
 
-Having selected 'Edit Guides' you will see your Guides window appear.
+Having selected **Edit Guides** you will see your Guides window appear.
 
 Use the Layout modes to switch between editor, preview,code and split view modes.
 
@@ -46,7 +46,7 @@ allows you to set up assessments
 allows you to play audio files within your project.
 
 
-### Global
+### [Global](/docs/content/authoring/settings-actions/global/)
 <img alt="authtoken" src="/img/docs/guides/globalsettings.png" class="simple"/>
 - **[Theme](/docs/dashboard/student/dyslexia/)** allows you to select the default theme for people viewing the Guide. We currently have a light theme and will be adding a dark theme shortly. (Dyslexic users can also choose a special theme from the Settings drop down in the Guide player.
 - **[Scripts](/docs/content/authoring/buttons/)** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a Guide button.

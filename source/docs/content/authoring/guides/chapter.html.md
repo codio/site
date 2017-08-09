@@ -13,7 +13,7 @@ You can see which Chapters are defined by opening up the table of contents. You 
 <img alt="authtoken" src="/img/docs/guides/chapter.png" class="simple"/>
 
 ### Defining Chapters
-To define a chapter, you should first select a page in the editor. Next, press the Settings buttons. The Page tab should already be selected.
+To define a chapter, you should first select a page in the editor. Next, press the **Settings** buttons. The Page tab should already be selected.
 
-To set this page as the start of a new chapter, enable the 'Set section as chapter' slider.
+To set this page as the start of a new chapter, enable the **Set section as chapter** slider.
 

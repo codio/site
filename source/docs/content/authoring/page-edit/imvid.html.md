@@ -7,12 +7,12 @@ You can insert Audio, Images and Videos.
 ## Audio
 You can insert and play audio files within your project.
 
-On the page(s) you wish to play Audio, go to the 'Settings' area where you can define the Source audio file along with any actions you may wish to occur at specific stages during the duration of the audio file playing.
+On the page(s) you wish to play Audio, go to the **Settings** area where you can define the Source audio file along with any actions you may wish to occur at specific stages during the duration of the audio file playing.
 
 <img alt="authtoken" src="/img/docs/guides/media.png" class="simple"/>
 
-- Source Name - select the source file either from .guides/media folder if already uploaded to the project or upload directly from your PC where it will then be stored in the .guides/media folder
-- Add Action where you can add actions to occur as the media plays:
+- **Source Name** - select the source file either from .guides/media folder if already uploaded to the project or upload directly from your PC where it will then be stored in the .guides/media folder
+- **Add Action** - where you can add actions to occur as the media plays:
 	
 		Open file
 		Close file
@@ -58,7 +58,7 @@ Including embedded videos are also possible using the standard `<iframe>` html t
 
 ### YouTube
   
-If you wish to embed a YouTube video, go to the Share option and select 'Embed' to obtain the code snippet
+If you wish to embed a YouTube video, go to the Share option and select **Embed** to obtain the code snippet
 
 <img alt="authtoken" src="/img/docs/guides/guides_youtube.png" class="simple"/>
 
@@ -68,7 +68,7 @@ If you wish to embed a YouTube video, go to the Share option and select 'Embed' 
 
 ### Vimeo
   
-  If you wish to embed a Vimeo video, go to the Share option and select 'Embed' to obtain the code snippet
+  If you wish to embed a Vimeo video, go to the Share option and select **Embed** to obtain the code snippet
 
 <img alt="authtoken" src="/img/docs/guides/guides_vimeo.png" class="simple"/>
 
@@ -89,10 +89,10 @@ Go to [Google](google.com) to look stuff up.
 
 You can also embed an iframe using the standard `<iframe>` html tag.
 
-If you wish to embed from Google Docs, go to File>Publish to Web and select 'Embed' to obtain the code snippet
+If you wish to embed from Google Docs, go to **File>Publish** to Web and select **Embed** to obtain the code snippet
 
 <img alt="authtoken" src="/img/docs/guides/guides_publish.png" class="simple"/>
 
 
-## Example Project
+## Example Projects
 https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review. 

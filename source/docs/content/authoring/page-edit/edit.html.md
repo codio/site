@@ -135,7 +135,7 @@ Some text
 
 <img alt="calloutinfo" src="/img/docs/guides/callout_info.png" class="simple"/>
 
-The `Guidance` callout block is only visible in Play mode to members of the Teacher group. It is not visible for members of the Student Group 
+The **Guidance** callout block is only visible in Play mode to members of the Teacher group. It is not visible for members of the Student Group 
 
 
 ## Hyperlinks, Images, Videos & iframes

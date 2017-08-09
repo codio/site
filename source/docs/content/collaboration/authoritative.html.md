@@ -7,7 +7,7 @@ full_width: true
 Although Codio has open sourced its own content, we also strongly support the creation of your own content which you then publish for others to collaborate on.
 
 ### Codio Content
-Codio's content can be found on GitHub. The best place to start is 
+Codio content can be found on GitHub. The best place to start is 
 
 - [https://github.com/codio-content/Information/wiki](https://github.com/codio-content/Information/wiki)
 

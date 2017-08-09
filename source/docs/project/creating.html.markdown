@@ -22,7 +22,7 @@ For example:
 
 Projects created from a Stack will include an explanatory README.md file providing useful information to help you get started and will open automatically for newly created projects.
 
-The list of stacks is only starting point. You can take any stack and then customize it from the command line. Users have sudo level privileges and so can install and configure exactly as they please.
+The list of stacks is only a starting point. You can take any stack and then customize it from the command line. Users have **sudo** level privileges and so can install and configure exactly as they please.
 
 Refer to the [section on Stacks](/docs/project/stacks) to learn how to create and manage your own software configuration templates.
 
@@ -47,9 +47,9 @@ You should give your project a name and a description, which will appear in the 
 
 
 ### Visibility
-Projects that are public can be found by any Codio user. If you have a personal subscription or you are a member of an Organisation, you can mark the Project as private. In 'My Projects' you will see a padlock icon for any Projects that are private.
+Projects that are public can be found by any Codio user. If you have a personal subscription or you are a member of an Organisation, you can mark the Project as private. In **My Projects** you will see a padlock icon for any Projects that are private.
 
 Organisation owners can disable the ability for you to create public projects. See [Public/Private Settings](/docs/dashboard/create/public_private). 
 
-You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for private projects from within the IDE from the `Project->Permissions` menu.
+You can assign access read, write and full admin rights (ability for others to access the Box from the terminal) to other users for private projects from within the IDE from the **Project->Permissions** menu.
 

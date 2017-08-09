@@ -9,7 +9,7 @@ The Grading Rubric feature provides a two dimensional grid that provides grading
 <img alt="rubric example" src="/img/docs/class_administration/grading/template-example.png" class="simple"/>
 
 ### Grading Rubric templates
-You will only have access to this feature if you are a Codio [administrator](/docs/teacher/create/adminrole) or a teacher. To find the grading templates screen, click on your user name from the Codio dashboard and then select your organization name. 
+You will only have access to this feature if you are a Codio [administrator](/docs/dashboard/create/adminrole) or a teacher. To find the grading templates screen, click on your user name from the Codio dashboard and then select your organization name. 
 
 You should see a "Grading Templates" tab item. There will be fewer tabs visible if you are not an administrator of the organization.
 

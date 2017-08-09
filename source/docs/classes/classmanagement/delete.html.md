@@ -14,5 +14,5 @@ A class can be deleted by the class owner and those with administration permissi
 
 <img alt="authtoken" src="/img/docs/deleteclass.png" class="simple"/>
 
-- Teachers with the [Administrator Role](/docs/teacher/create/adminrole/) are able to view a list of any members that are no longer members of any classes and remove any users from the organisation accordingly. See [View Organisation Members](/docs/teacher/create/viewmembers/) for more information
+- Teachers with the [Administrator Role](/docs/dashboard/create/adminrole) are able to view a list of any members that are no longer members of any classes and remove any users from the organisation accordingly. See [View Organisation Members](/docs/dashboard/create/viewmembers) for more information
 

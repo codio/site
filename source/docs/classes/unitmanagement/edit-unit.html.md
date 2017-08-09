@@ -15,4 +15,4 @@ You may need to make changes to a project previously added as a unit to the clas
 
 <img alt="edit unit" src="/img/docs/class_administration/editunit.png" class="simple"/>
 
-If you wish to change/update the source project used in this Unit or to overwrite the Guides (.guides) folder for all students who have already started this Unit, go to [Update Unit](/docs/teachers/classes/updateunit)
+If you wish to change/update the source project used in this Unit or to overwrite the Guides (.guides) folder for all students who have already started this Unit, go to [Update Unit](/docs/classes/unitmanagement/updateunit)

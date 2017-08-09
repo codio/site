@@ -6,7 +6,7 @@ class_name: docs
 full_width: true
 ---
 
-You can pin a unit for your class. This unit will appear **pinned** to the top of the student dashboard when students log-in in order to draw their attention to it. (Jump to [student dashboard](/docs/student/myclassroom) to find out more about what students see)
+You can pin a unit for your class. This unit will appear **pinned** to the top of the student dashboard when students log-in in order to draw their attention to it. (Jump to [student dashboard](/docs/dashboard/student/myclassroom) to find out more about what students see)
 
 To pin a unit:
 

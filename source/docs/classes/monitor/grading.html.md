@@ -8,7 +8,7 @@ Codio's grading features address four important aspects of student grading.
 
 - **Assign grade** - manually reviewing student code projects and then assigning a grade.
 - **Grading moderation** - having other lecturers review grades already assigned in order to monitor consistency of grading.
-- **Grading rubric** - This provides a grading guideline framework for teachers. Please [click here](/docs/teacher/assess/rubric) for details.
+- **Grading rubric** - This provides a grading guideline framework for teachers. Please [click here](/docs/classes/classmanagement/rubric) for details.
 - **LMS gradebook sycnhronization** - This feature ensures that when teachers release grades, the data is passed automatically to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
 
 ### Video overview
@@ -26,7 +26,7 @@ There are two ways to assign the grade.
 - Either you can grade from within the IDE itself from the Education menu item. You need to have a student project open in the IDE.
 - Or you can grade from the class dashboard. You must first have selected the unit associated with the project and then press the grading icon. 
 
-Also see [Autograding](/docs/teacher/classes/autograde/)
+Also see [Autograding](/docs/classes/unitmanagement/autograde/)
 
 To grade from the class dashboard, you should first select the assignment unit. You can see the check mark next to those students who have completed the assignment.
 

@@ -17,12 +17,12 @@ A Unit is marked as complete in any of the following ways
 The two autograding options can be found in the Unit settings.
 
 1. Use the auto-graded assessments within the Unit to auto-populate the grading field with the aggregate % score from all assessments.
-1. Run a script to generate the grading either as soon as the student (or teacher) marks the Unit as complete in their dashboard or when a [Unit duration](/docs/teacher/classes/unit-duration) expires.
+1. Run a script to generate the grading either as soon as the student (or teacher) marks the Unit as complete in their dashboard or when a [Unit duration](/docs/classes/unitmanagement/unit-duration/) expires.
 
 The two options can be found in the AUTOGRADE METHOD drop-down list.
 
 ### Transferring Guide assessment total
-If you have created auto-graded assessments within your Guide, Codio aggregates all scores so you can see these within the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/docs/teacher/create/lti/) then this grading field is then transferred into your LMS gradebook once you [release the grades](/docs/teacher/assess/grading/).
+If you have created auto-graded assessments within your Guide, Codio aggregates all scores so you can see these within the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/docs/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/docs/classes/monitor/grading).
 
 
 ### Running a custom script

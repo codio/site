@@ -36,7 +36,7 @@ If you click on the button, the commonly required settings and actions are shown
 <img alt="unit dropdown" src="/img/docs/class_administration/unit-settings-dd.png" class="simple"/>
 
 
-### [Edit Unit](/docs/teacher/classes/edit-unit)
+### [Edit Unit](/docs/classes/unitmanagement/edit-unit/)
 You may need to make changes to a project previously added as a unit to the class. Select Edit Unit to do this where you can 
 
 - update the Stack used in the project, 
@@ -48,7 +48,7 @@ You may need to make changes to a project previously added as a unit to the clas
 <img alt="edit unit" src="/img/docs/class_administration/editunit.png" class="simple"/>
 
 
-### [Update Unit](/docs/teacher/classes/updateunit)
+### [Update Unit](/docs/classes/unitmanagement/updateunit)
 This option will allow you to push updates to students who have already started the unit where you are not the author/owner of the unit (e.g. Any updates made to the Codio Recommended Content). You do not need to run this if you are the author/owner of the unit and selected the option to push the changes when the source was refreshed.
 
 ### Settings

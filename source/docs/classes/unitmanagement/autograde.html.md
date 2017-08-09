@@ -35,7 +35,7 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 ### Secure scripts
 If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
 
-**Important** : you should only place scripts in the ```.guides/secure``` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio Guides there as this folder will not accessible at that point.
+**Important** : you should only place scripts in the `.guides/secure` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio Guides there as this folder will not accessible at that point.
 
 ### Timeout
 Your script must execute within 3 minutes or a timeout error will occur.
@@ -94,9 +94,9 @@ From the **Actions** area of the Unit, you can regrade all students that have al
 
 We provide a way of testing autograding scripts when authoring your project. This is described below. You should make use of this before publishing your project to a class. 
 
-You should be aware that once the Unit has been published to the class, any changes made to the Unit's source project are not reflected in the published Unit. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the Unit, fixing the bug and finally republishing the Unit. All student data will be lost as a result. This shortcoming will be fixed before end of February 2017.
+You should be aware that once the Unit has been published to the class, any changes made to the Unit's source project are not automatically reflected in the published Unit. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the Unit, fixing the bug and finally republishing the Unit. All student data will be lost as a result. However, if all your scripts are stored in `.guides/secure` folder, you can update and test them and you can then [Update Unit](/docs/classes/unitmanagement/updateunit/)
 
-The best interim strategy is to use a simple bootstrap launcher that loads and executes the script from a remote location that you can edit and debug independently of the Codio box.
+Another strategy is to use a simple bootstrap launcher that loads and executes the script from a remote location that you can edit and debug independently of the Codio box.
 
 The following example bash script shows a Python script that is located as a Gist on GitHub. This script might be called `.guides/secure/launcher.sh`. 
 

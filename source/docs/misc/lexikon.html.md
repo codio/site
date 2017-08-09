@@ -22,7 +22,7 @@ However, we can easily add coverage for any other Topic. If you are interested i
 ## Using the Lexikon with Guides
 To make accessing the Lexikon from your Guides content even easier, we have a Global Option in the Guides settings that lets you specify the default topic to select. If you use this option, an icon will appear in the Guide toolbar that will load the Lexikon window with the selected topic automatically selected.
 
-Click the Settings button, then select the Global tab. You can then specify the Topic name in the available field. 
+Click the **Settings** button, then select the **Global** tab. You can then specify the Topic name in the available field. 
 
 To see what topics are available, bring up the Lexikon from the Tools menu. The available topics are available in the dropdown list.
 

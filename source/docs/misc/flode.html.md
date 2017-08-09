@@ -42,8 +42,8 @@ Zoom controls are in the toolbar or using the mouse wheel if you have one
 - Right click and select one of the alignment options
 
 ## Undo & Redo
-- Undo Ctrl+Z (PC) Cmd+Z (Mac)
-- Redo Shift+Ctrl+Z (PC) Shift+Cmd+Z (Mac)
+- Undo `Ctrl+Z` (PC) `Cmd+Z` (Mac)
+- Redo `Shift+Ctrl+Z` (PC) `Shift+Cmd+Z` (Mac)
 
 ## Adding comments
 - Click on a block then press the speech bubble icon to add a comment.
@@ -57,16 +57,17 @@ Zoom controls are in the toolbar or using the mouse wheel if you have one
 </div>
 
 ## Flode teaching content
-The content also contains many auto-graded assessments. Results can be seen instantly on the teacher 'My Classroom' feature.
+The content also contains many auto-graded assessments. Results can be seen instantly on the teacher **My Classroom** feature.
 
 1. Log into Codio
-1. Select Courses from the items on the left of the Dashboard
-1. Look for 'An Introduction to Programming'
+1. Select **Courses** from the items on the left of the Dashboard
+1. Look for **An Introduction to Programming**
 
-'An Introduction to Prgramming' uses Flode extensively and provides an excellent way of introducing students to programming, computational thinking and Algorithms.
+**An Introduction to Programming** uses Flode extensively and provides an excellent way of introducing students to programming, computational thinking and Algorithms.
+
 
 ## Creating and editing a new Flode file
-If you want to create Flode charts independently of any Codio Course content, create a new project from the Dashboard > My Projects area. 
+If you want to create Flode charts independently of any Codio Course content, create a new project from the **Dashboard > My Projects** area. 
 
 Once inside a project, to create a new flow chart, simply create a new file with the extension `.flode`. A new Flode window will appear and you can start creating and editing your chart.
 
@@ -80,10 +81,10 @@ To edit an existing `.flode` file, simply click on the file name to open the Flo
 To get detailed instructions on how to use Flode,
 
 1. Log into Codio
-1. Select Courses from the items on the left of the Dashboard
-1. Look for 'An Introduction to Programming'
-1. Select the first Module, 'Flode'
-1. Press 'Start Unit' from the first Unit in the list 'Introduction to Flode'
+1. Select **Courses** from the items on the left of the Dashboard
+1. Look for **An Introduction to Programming**
+1. Select the first Module, **Flode**
+1. Press **Start Unit** from the first Unit in the list **Introduction to Flode**
 
 ## Credits
 Many thanks to the folks at [JGraph](http://www.jgraph.com/) for their excellent flowcharting and diagramming tools. 

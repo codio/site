@@ -10,13 +10,13 @@ Crunch is a modern, full-featured alternative to Little Man Computer. It is test
 ## Crunch Course
 We have built a 3 Unit Course that combines teaching materials with over 20 challenges of gradually increasing complexity. This is a great resource for teachers wanting to teach the basics of Assembly Language programming as well as computational thinking. 
 
-From the Dashboard, go to Courses and then look for Crunch - Little Man Computer on Steroids.
+From the Dashboard, go to **Courses** and then look for **Crunch - Little Man Computer on Steroids**.
 
 ## Lexikon
-We recommend you use Codio's Lexikon feature to get inline help on Crunch usage and commands. You can find the Lexikon in the Tools menu. Once it appears, select the dropdown list on the right side and select Crunch. You can then search for commands. Try entering 'Overview' in the search box for an overview of all the Crunch commands.
+We recommend you use Codio's Lexikon feature to get inline help on Crunch usage and commands. You can find the Lexikon in the **Tools** menu. Once it appears, select the dropdown list on the right side and select Crunch. You can then search for commands. Try entering **Overview** in the search box for an overview of all the Crunch commands.
 
 ## Crunch Module
-We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the Crunch - Little Man Computer on Steroids Course. From the Dashboard, go to Courses and then look for Crunch - Little Man Computer on Steroids, within that course you will find the Crunch module.
+We strongly recommend you use the Crunch module to teach Crunch. The Module can be found in the **Crunch - Little Man Computer on Steroids** Course. From the Dashboard, go to **Courses** and then look for **Crunch - Little Man Computer on Steroids**, within that course you will find the Crunch module.
 
 If you are teaching a Class, then we suggest you assign the Crunch module to the class. [Click here](/docs/classes/unitmanagement/assign-module) for details.
 
@@ -46,10 +46,10 @@ Editing source code is done by hovering over a line until the popup button bar a
 
 If you have not yet added any code, then you should see the button bar already there in the top of the code area.
 
-Click on the '+' to add a new instruction.
+Click on the **+** to add a new instruction.
 
 ## Instructions
-Crunch comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions. There is also a complete Lexicon available. Go to `Tools>Lexicon` and select the 'Crunch' option to search.
+Crunch comes with a good base set of instructions. To see the full set of instructions, along with explanations for each one, add a new line as explained above. You can then scroll through the list of available instructions. There is also a complete Lexicon available. Go to **Tools>Lexicon** and select the **Crunch** option to search.
 
 The following instructions are not available in Little Man Computer and provide a more complete experience.
 
@@ -92,9 +92,9 @@ Once you have the one or more lines selected, you can either delete all lines (b
 ## Running your code
 
 ### Step / debug mode
-One very nice way of running your code is to step through it line by line so you can see how it executes at your own pace. To do this, press the Step button on the right hand side. It will immediately start executing.
+One very nice way of running your code is to step through it line by line so you can see how it executes at your own pace. To do this, press the **Step** button on the right hand side. It will immediately start executing.
 
-At any time, you can press the Run button to run to completion at full speed.
+At any time, you can press the **Run** button to run to completion at full speed.
 
 <img alt="authtoken" src="/img/docs/crunch-step.png" class="simple"/>
 

@@ -5,7 +5,7 @@ full_width: true
 ---
 
 
-You can delete a course or a module by selecting the item from the listing, then pressing the `Delete` button. 
+You can delete a course or a module by selecting the item from the listing, then pressing the **Delete** button. 
 
 Deleting a course does not delete its modules. Similarly, deleting a module does not delete its units.
 

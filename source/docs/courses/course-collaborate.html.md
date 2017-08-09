@@ -53,6 +53,6 @@ You and others can now use git to collaborate without the need to publish at all
 - Pull in any changes from the git repo to make sure your project it fully up to date.
 - Go back to the unit in the Codio dashboard and publish.
 
-
+See [Content Collaboration](/docs/content/collaboration) for more information.
 
 

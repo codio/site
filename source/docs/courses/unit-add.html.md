@@ -10,7 +10,7 @@ If you have worked with Courses before July 2017 then you should read this secti
 
 If you previously created a unit from a project then you now edit this from the unit within the unit listing by selecting the unit and then pressing **Edit in IDE**. You will now be editing a clone of the last published version of the unit. The original project can now be ignored or even deleted.
 
-From this point on, you will always use the Edit in IDE option from within the unit to edit the project. As you will see below, changes are not finalized until you explicitly publish the unit.
+From this point on, you will always use the **Edit in IDE** option from within the unit to edit the project. As you will see below, changes are not finalized until you explicitly publish the unit.
 
 You should also note that changes to a unit are not available to others until you explicitly publish them as described below.
 

@@ -19,7 +19,7 @@ If you have code within Codio and you want to configure it to synchronize with a
 
 1. Create a new, empty repo on Github or other provider. 
 2. Copy the repo url to the clipboard. If you're using Github, then use the SSH url rather than https.
-2. Within the IDE, go to Tools->Git->Remotes
+2. Within the IDE, go to **Tools->Git->Remotes**
 3. Complete the dialog as shown below. It is recommended you use `origin` as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH. 
 
 <img alt="git overview" src="/img/docs/git-remotes.png" class="simple"/>

@@ -26,14 +26,12 @@ sudo service apache2 start
 This makes sure that all flags are cleared out beforehand.
 
 ## Testing your startup.sh file
-The best way to test your `startup.sh` file is to select the 'Project->Restart Box' menu item.
+The best way to test your `startup.sh` file is to select the **Project->Restart Box** menu item.
 
 ## Checking which services are running
-To check your services status type the following
+To check your services status type `ps ax` in the terminal
 
 ```bash
-$ ps ax
-
  PID TTY      STAT   TIME COMMAND
     1 ?        SNs    0:00 /sbin/init
   508 ?        SN     0:00 upstart-udev-bridge --daemon

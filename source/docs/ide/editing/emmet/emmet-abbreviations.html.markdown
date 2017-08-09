@@ -62,7 +62,7 @@ will insert
 <a href="http://|"></a>
 ```
 
-Where the '|' character represents the cursor after insertion. After you have entered the `href` url you should press `ctrl+alt+right arrow` (not the Tab key) to jump to the next edit point.
+Where the `|` character represents the cursor after insertion. After you have entered the `href` url you should press `ctrl+alt+right arrow` (not the Tab key) to jump to the next edit point.
 
 ## More HTML Examples
 Be sure to check out [HTML Abbreviations](http://docs.emmet.io/abbreviations/).
@@ -109,7 +109,7 @@ If you take a look at [cheat sheet](/docs/ide/editing/emmet/emmet-ref/), you’l
 
 To make CSS writing a bit easier, Emmet implements fuzzy search logic for CSS snippets: every time you enter an unknown abbreviation, Emmet will try to find the closest snippet definition.
 
-For example, instead of writing ov:h (overflow: hidden;) abbreviation, you can write ov-h, ovh or even oh. You can play around with the fuzzy search in text editor below. Try to find as many variations as possible (use Tab key to expand abbreviations) for bxz:cb, ovx:h and pos:a snippets.
+For example, instead of writing `ov:h` (overflow: hidden;) abbreviation, you can write `ov-h`, `ovh` or even `oh`. You can play around with the fuzzy search in text editor below. Try to find as many variations as possible (use Tab key to expand abbreviations) for `bxz:cb`, `ovx:h` and `pos:a` snippets.
 
 ## More CSS Examples
 For more details on CSS abbreviations, please go to the [Emmet documentation](http://docs.emmet.io/css-abbreviations/) and be sure to look at the sub-chapters.

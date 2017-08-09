@@ -28,7 +28,7 @@ You can view/check to see all/any Public key(s) you have uploaded into your proj
 
 ### Enabling and Connecting to your Box from your local machine's Terminal
 
-1. Go to 'Project>Settings' and to the [Forwarding Settings](/docs/ide/customization/project-settings/) tab and click the 'Enable SSH Forwarding' button
+1. Go to **Project>Settings** and to the [Forwarding Settings](/docs/ide/customization/project-settings/) tab and click the 'Enable SSH Forwarding' button
 1. The connection string you need to use is shown there
 
 You will see connection details like this

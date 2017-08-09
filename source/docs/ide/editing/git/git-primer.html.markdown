@@ -34,10 +34,10 @@ If you have code within Codio and you want to create a brand new GitHub (or othe
 
 <img alt="github repo" src="/img/docs/github-new-repo.png" class="simple"/>
 
-1. Within the IDE, go to `Tools > Git > Remotes`
+1. Within the IDE, go to **Tools > Git > Remotes**
 1. It is recommended you use `origin` as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH.
 1. Paste the remote url into the URL field.
-<img alt="git overview" src="/img/docs/gith-remotes.png" class="simple"/>
+<img alt="git overview" src="/img/docs/git-remotes.png" class="simple"/>
 
 
 ## Check the status with 'git status'

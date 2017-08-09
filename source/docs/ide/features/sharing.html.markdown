@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-To share a project or link to a project from a web page, go to the `Project > Share` menu item.
+To share a project or link to a project from a web page, go to the **Project > Share** menu item.
 
 <img alt="Sharing" src="/img/docs/sharing.png" class="simple"/>
 

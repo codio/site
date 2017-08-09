@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You will notice that all deployment targets, except Codio, have a 'Preview Base Path' field. 
+You will notice that all deployment targets, except Codio, have a **Preview Base Path** field. 
 
 <img alt="base path" src="/img/docs/deploy-basepath.png" class="simple"/>
 

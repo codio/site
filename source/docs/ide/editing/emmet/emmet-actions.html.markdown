@@ -92,7 +92,7 @@ Merges selected lines into a single line. But when there’s no selection, will 
 `Win: Shift+Ctrl+Y`
 
 
-Evaluates simple math expressions like 2*4 or 10/2 and outputs its result. You can use \ operator which is equivalent to round(a/b).
+Evaluates simple math expressions like 2*4 or 10/2 and outputs its result. You can use `\` operator which is equivalent to round(a/b).
 
 Very useful in CSS where numeric values should be modified frequently.
 

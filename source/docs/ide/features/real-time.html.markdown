@@ -10,3 +10,5 @@ Rather like Google Docs, you will be able to see other people editing the file i
 
 Because of this collaboration feature, your files are saved in real time and there is no need to press the save button. It just happens automatically.
 
+See also [Content collaboration](docs/content/collaboration) for more information on using Git to effectively collaborate with others.
+

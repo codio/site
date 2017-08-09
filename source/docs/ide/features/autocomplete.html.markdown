@@ -45,4 +45,4 @@ Please refer to the [Tern documentation](http://ternjs.net/doc/manual.html#confi
 
 
 ## CSS
-Use ctrl+space within your CSS to invoke auto complete.
+Use `ctrl+space` within your CSS to invoke auto complete.

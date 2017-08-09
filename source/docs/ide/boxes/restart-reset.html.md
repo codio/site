@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Codio offers the ability to restart and to reset your project's Box. You can find both options in the 'Project' menu.
+Codio offers the ability to restart and to reset your project's Box. You can find both options in the **Project** menu.
 
 ## Restart
 This operation reboots the Box, which usually takes a few seconds.

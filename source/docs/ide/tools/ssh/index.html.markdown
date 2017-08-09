@@ -17,7 +17,7 @@ You can do the same things you can do in a regular terminal window, including ru
 Behavior varies between Macs and other operating systems. Using the right-click menu should work on all systems.
 
 ### Mac
-Copy and paste both works as expected with cmd+c and cmd+v.
+Copy and paste both works as expected with `cmd+c` and `cmd+v`.
 
 ### Windows, Linux
-Pasting is done as expected with ctrl+v but copying (ctrl+c) cannot be done as it conflicts with the 'kill process' command, so you should use the right-click menu.
+Pasting is done as expected with `ctrl+v` but copying (`ctrl+c`) cannot be done as it conflicts with the `kill process` command, so you should use the right-click menu.

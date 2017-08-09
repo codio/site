@@ -32,9 +32,9 @@ You are free to use any way of linking to Codio but we would recommend using the
 <img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png" class="simple"/>
 
 ## Advanced Approach
-This method uses the Project->Share menu option to allow people to link to a Codio project that you created. The advantages over the simple approach are speed and layout.
+This method uses the **Project->Share** menu option to allow people to link to a Codio project that you created. The advantages over the simple approach are speed and layout.
 
-As you are creating the project and may want to retain the Panel and Tab layout, you can use this option to provide a link that loads quickly and with the desired layout.
+As you are creating the project and may want to retain the **Panel** and **Tab** layout, you can use this option to provide a link that loads quickly and with the desired layout.
 
 The drawback with this approach is that any changes you make to the GitHub repo outside of Codio will need to be pulled into Codio to ensure it is up to date.
 
@@ -47,13 +47,13 @@ The drawback with this approach is that any changes you make to the GitHub repo 
 <img alt="create from GitHub" src="/img/docs/github-clone-url.png" class="simple"/>
 
 
-- If you are on the GitHub site and looking at a repo, you will see the 'Clone URL' link (circled above).
-- Click to copy the link to the clipboard; if you clone using SSH, you must have added the Codio SSH public key first as [described here](/docs/account/)
+- If you are on the GitHub site and looking at a repo, you will see the **Clone URL** link (circled above).
+- Click to copy the link to the clipboard; if you clone using SSH, you must have added the Codio SSH public key first as [described here](/docs/dashboard/account/publickey)
 - Login to Codio
-- Click on 'New Project' and then the 'Click here' for more options
-- Select 'Import' and then from the 'Source' drop-down, select 'Git'
+- Click on **New Project** and then the **Click here** for more options
+- Select **Import** and then from the **Source** drop-down, select **Git**
 - Paste in the Git URL (see below) and add any additional details you require
-- Press 'Create' and Codio will load the repo and then display it
+- Press **Create** and Codio will load the repo and then display it
 
 <img alt="create from GitHub" src="/img/docs/github-create.png" class="simple"/>
 
@@ -62,13 +62,13 @@ The drawback with this approach is that any changes you make to the GitHub repo 
 If you are a repo maintainer and you want to offer a super fast way for people to see, in an IDE, your repo code or maybe a demo then...
 
 - follow the steps, described in the above section, to create a Codio project in your own account
-- now select the Project->Share menu item ([explained in detail here](/docs/ide/features/sharing/))
+- now select the **Project->Share** menu item ([explained in detail here](/docs/ide/features/sharing/))
 - Now select the Markdown option
-- Copy and paste one of the button options into your README.md file and you'll get a nice button your users can click
+- Copy and paste one of the button options into your `README.md` file and you'll get a nice button your users can click
 
 <img alt="sharing" src="/img/docs/sharing.png" class="simple"/>
 
-Now, anyone viewing the README.md can click on the button and they'll be instantly taken to the project.
+Now, anyone viewing the `README.md` can click on the button and they'll be instantly taken to the project.
 
 <img alt="create from GitHub" src="/img/docs/github-readme.png" class="simple"/>
 

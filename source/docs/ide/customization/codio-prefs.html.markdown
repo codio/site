@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You can access the User Preferences using the menu item `Codio > Preferences > User` when you are in a project.
+You can access the User Preferences using the menu item **Codio > Preferences > User** when you are in a project.
 
 <img alt="authtoken" src="/img/docs/prefs-menu.png" class="simple"/>
 
@@ -36,10 +36,10 @@ Default settings look something like this
 brace_style = collapse
 ```
 
-You can see the setting name ('brace_style' with a default value of 'collapse') as well as the data type (list) and the available values (in the case of a list).
+You can see the setting name (`brace_style` with a default value of `collapse`) as well as the data type (list) and the available values (in the case of a list).
 
 ## User Preferences
-User preferences can be made from the main menu `Codio > Preferences > User`.
+User preferences can be made from the main menu **Codio > Preferences > User**.
 
 User preference overrides are made in left hand pane. When your account is created, this will be empty. Here is an example of user settings that override the Codio defaults ...
 
@@ -56,16 +56,16 @@ indent_with_tabs=true
 ## Keyboard shortcuts & Hotkeys
 Within the default settings (right hand pane) you can see how you can map your own keyboard shortcuts.
 
-The defaults will display appropriately for Mac or Linux/PC users. If you override these shortcuts in the left hand pane, then these not Mac/PC/Linux aware. If you are a Mac user and you specify Cmd keys, then you should be aware that these will not be accessible from PC/Linux machines. If you need to have your custom shortcuts working on all machines then avoid using Cmd.
+The defaults will display appropriately for Mac or Linux/PC users. If you override these shortcuts in the left hand pane, then these not Mac/PC/Linux aware. If you are a Mac user and you specify `Cmd` keys, then you should be aware that these will not be accessible from PC/Linux machines. If you need to have your custom shortcuts working on all machines then avoid using `Cmd`.
 
 ## Using Autocomplete
 Be sure to use the Codio autocomplete feature for both the setting name and possible values.
 
-Position the cursor within the left pane and press ctrl+space.
+Position the cursor within the left pane and press `ctrl+space`.
 
 If you are on the first line of the file, you will see that you only have Sections available. If you are within a Section, you will see all available settings for that section.
 
-Having selected a preference, press '=' and then ctrl+space to bring up the autocomplete window again. Depending on the preference type (list or boolean), you will see the available options for that preference.
+Having selected a preference, press `=` and then `ctrl+space` to bring up the autocomplete window again. Depending on the preference type (list or boolean), you will see the available options for that preference.
 
 
 ## Searching for preference settings

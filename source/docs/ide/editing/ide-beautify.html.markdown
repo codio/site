@@ -6,8 +6,8 @@ full_width: true
 
 You can format your Javascript code by pressing the keyboard shortcut as defined in the [User Settings](/docs/ide/customization/codio-prefs). By default, it is
 
-- key_format_code = Cmd+Alt+F (for a Mac)
-- key_format_code = Ctrl+Alt+F (for anything else)
+- `key_format_code` = `Cmd+Alt+F` (for a Mac)
+- `key_format_code` = `Ctrl+Alt+F` (for anything else)
 
 It will indent your code correctly and manage spaces and other cool things.
 

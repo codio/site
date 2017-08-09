@@ -27,4 +27,4 @@ You can add any number of tabs into a single panel. You are also free to drag ta
 Tabs can also be dragged from one panel to another.
 
 ## Panel Management
-Tabs can be created from the `View > Panels` menu or by using hotkeys. The next section explain the panel actions available.
+Tabs can be created from the **View > Panels** menu or by using hotkeys. The next section explain the panel actions available.

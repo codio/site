@@ -11,7 +11,7 @@ Hotkey shortcuts can be seen in the Find menu. You can override these from [Pref
 ## Local
 Search and replace is supported on the currently selected file.
 
-The hotkeys are defined in Preferences and the defaults are
+The hotkeys are defined in [Preferences](/docs/ide/customization/codio-prefs) and the defaults are
 
 ```ini
 ;Find.
@@ -36,7 +36,7 @@ key_replace_all = Shift+Cmd+Alt+F
 ```
 
 ## Global
-Global search and replace are available within the Find menu under Find in project and Replace in project.
+Global search and replace are available within the **Find** menu under **Find in project** and **Replace in project**.
 
 You can search using regular expressions, ignore case and whole word settings. The buttons on the left of the input fields control these settings.
 
@@ -48,7 +48,7 @@ Once the search operation has completed you will see matches listed in a Codio t
 
 
 ## Pattern & Wildcard Matching (Globs)
-When you are searching, you can specify a search pattern in the 'Where' field.
+When you are searching, you can specify a search pattern in the **Where** field.
 
 Lets say you have the following project
 

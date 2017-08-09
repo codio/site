@@ -9,7 +9,7 @@ In order to use this feature you need to set up a class. If you are not using Co
 
 ## Access Plagiarism features
 
-When in your class, select your unit and then click the Actions button (button to the top right of the screen) to show the available actions that includes Plagiarism 
+When in your class, select your unit and then click the **Actions** button (button to the top right of the screen) to show the available actions that includes Plagiarism 
 
 <img alt="authtoken" src="/img/docs/guides/plag-button.png" class="simple"/>
 

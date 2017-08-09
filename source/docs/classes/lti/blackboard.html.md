@@ -109,12 +109,12 @@ Once **Release Grades** is enabled, all completed student assignments are automa
 
 There are various ways to mark a student's work as complete
 
-- The student can do this from either the classroom dashboard or from the **Education->Mark as complete** menu in the assignment itself.
+- The student can do this from either the classroom dashboard or from the **Education->Mark as Complete** menu in the assignment itself.
 - The teacher can do the same from the Unit in the classroom dashboard by hovering in the left side of a student entry and then setting the completed switch.
 - The teacher can mark all student assignments as completed in one action. This is done by 
   - selecting the Unit in the classroom
   - pressing the **Action** button 
-  - pressing the **Mark all as completed** button
+  - pressing the **Mark all as Completed** button
 
 **Important** : If you are running a staging or test Blackboard environment then you must have a valid SSL certificate on your Blackboard server otherwise grades will not be pass back to Blackboard successfully.
 

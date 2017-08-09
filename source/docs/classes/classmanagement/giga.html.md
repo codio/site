@@ -12,5 +12,3 @@ If you need your students to have more memory then we offer 1GB and 2GB boxes. T
 You should be aware that if you do not have enough Gigaboxes in your organization then they will be allocated on a first come, first served basis. Students who access the unit after your Gigabox limit has been reached will see a warning.
 
 An administrator can see the status of the Gigabox count in the organization settings screen.
-
-**Important:** You must use 2nd generation boxes if you are using Gigaboxes. All new projects will be 2nd generation. Some older projects or projects that use older stacks should be checked.

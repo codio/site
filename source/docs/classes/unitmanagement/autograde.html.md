@@ -11,8 +11,8 @@ A Unit is marked as complete in any of the following ways
 
 1. Students mark the unit as complete from their dashboard.
 1. The teacher can also mark the Unit as complete for a student from the Classroom dashboard with the Unit selected.
-1. The teacher can mark all units as complete for all students by pressing the Actions button. This button appears on the main Unit screen.
-1. If you are using the Unit Duration feature, all student Units are marked as complete as soon as the Unit duration expiry date and time is reached.
+1. The teacher can mark all units as complete for all students by pressing the **Actions** button. This button appears on the main Unit screen.
+1. If you are using the **Unit Duration** feature, all student Units are marked as complete as soon as the Unit duration expiry date and time is reached.
 
 The two autograding options can be found in the Unit settings.
 
@@ -77,7 +77,7 @@ You can get both summary data and data for each assessment individually.
 
 
 ### Deducting for late submission
-You may want to be able to deduct a number of points if the student submits (marks the Unit as complete) post a nominal deadline. In this case, we recommend that you pass the date and time of the deadline as a parameter to the grading script. If you are using our sample bootstrap and Python code (see below) then you should be careful to pass in the date in the format `2016-11-24T14:30`.
+You may want to be able to deduct a number of points if the student submits (marks the Unit as complete) past a nominal deadline. In this case, we recommend that you pass the date and time of the deadline as a parameter to the grading script. If you are using our sample bootstrap and Python code (see below) then you should be careful to pass in the date in the format `2016-11-24T14:30`.
 
 <img alt="authtoken" src="/img/docs/grading-deadline.png" class="simple"/>
 
@@ -87,7 +87,7 @@ See the script example at the bottom of the page for a full working example.
 If students set their work to 'complete' such that an autograde step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the autograding.
 
 ### Regrading all students
-From the Actions area of the Unit, you can regrade all students that have already been auto-graded by pressing the Regrade All button. This is useful if you have found a bug in your grading script. If you follow (or use) the code sample shown at the bottom of this page you can see how the original student submission date is handled.
+From the **Actions** area of the Unit, you can regrade all students that have already been auto-graded by pressing the **Regrade All** button. This is useful if you have found a bug in your grading script. If you follow (or use) the code sample shown at the bottom of this page you can see how the original student submission date is handled.
 
 ### Testing and debugging your grading scripts
 **IMPORTANT**: please read this section carefully.
@@ -110,7 +110,7 @@ It is important that it is located in the `.guides/secure` folder. You then spec
 You are now free to debug the Python script and fix any bugs that you may have noticed once students have started work on the Unit.
 
 #### Testing your script in the IDE
-We provide the ability to test your autograding script from the 'Education -> Test Autograde Script' menu. 
+We provide the ability to test your autograding script from the **Education -> Test Autograde Script** menu. 
 
 This option lets you specify the location to your autograding script and run it against the current project contents. It also lets you simulate scores attained by any autograded assessments located within the Codio Guide.
 

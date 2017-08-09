@@ -79,7 +79,7 @@ We now return to Canvas complete the mapping.
 <img alt="Canvas Submission" src="/img/docs/lti/canvas-submission-type.png" class="simple"/>
 
 
-- You should now click on the dropdown list and select "External Tool".
+- You should now click on the dropdown list and select **External Tool**.
 - In the new set of fields that appear, paste the Codio **LTI Integration URL** field into the url field in Canvas.
 - Select **Load This Tool In a New Tab**.
 - Click the **Save and Publish** button.
@@ -88,7 +88,9 @@ We now return to Canvas complete the mapping.
 ## Adding faculty and students
 The final step is to add students to your course. This is done from the People tab. We recommend that you add the same test students to Canvas that you have in Codio. The only field of data that needs to match is the email address. So, look up the Codio test student email addresses and add them to Canvas in the student role.
 
-When you add a student in Canvas you will need to confirm from the email you are sent. **Important** : make sure you log out of your teacher based Canvas session before doing this.
+When you add a student in Canvas you will need to confirm from the email you are sent. 
+
+**Important** : make sure you log out of your teacher based Canvas session before doing this.
 
 Next, you should login to Canvas as a test student and start the assignment. Please read on to see what happens next, which is dependent.
 
@@ -118,9 +120,9 @@ Once **Release Grades** is enabled, all completed student assignments are automa
 
 There are various ways to mark a student's work as complete
 
-- The student can do this from either the classroom dashboard or from the **Education->Mark as complete** menu in the assignment itself.
+- The student can do this from either the classroom dashboard or from the **Education->Mark as Complete** menu in the assignment itself.
 - The teacher can do the same from the Unit in the classroom dashboard by hovering in the left side of a student entry and then setting the completed switch.
 - The teacher can mark all student assignments as completed in one action. This is done by 
   - selecting the Unit in the classroom
   - pressing the **Action** button 
-  - pressing the **Mark all as completed** button
+  - pressing the **Mark all as Completed** button

@@ -5,7 +5,7 @@ class_name: docs
 full_width: true
 ---
 
-You may need to make changes to a project previously added as a unit to the class. Select Edit Unit to do this where you can 
+You may need to make changes to a project previously added as a unit to the class. Select **Edit Unit** to do this where you can 
 
 - update the Stack used in the project, 
 - change the name of the unit displayed in the class,

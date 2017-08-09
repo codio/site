@@ -12,7 +12,7 @@ You can also reset the unit(s) even if there have been no updates to the content
 
 You can reset the unit for all your students by selecting either:
 
-- the 'Actions' button and then the Reset' button
+- the **Actions** button and then the **Reset** button
 
 <img alt="resetunit" src="/img/docs/resetunitall.png" class="simple"/>
 

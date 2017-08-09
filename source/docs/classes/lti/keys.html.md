@@ -9,7 +9,7 @@ full_width: true
 
 ### LTI Keys
 
-**LTI Keys** are used to integrate your **LMS** to **Codio**.
+**LTI Keys** are used to integrate your LMS to Codio.
 
 These keys are accessible to [Organisation Owners](/docs/dashboard/create/addowners/). If you do not see them, discuss with your Organisation Owner to be added to the Owners group.
 
@@ -24,14 +24,14 @@ To find these keys:
 
 ### Class URL
 
-The **Class URL** is where you map the **LMS** course you set up to the **Codio** class and ensures that Codio knows how to redirect students back to the correct course should they attempt to access the class through their dashboard.
+The **Class URL** is where you map the LMS course you set up to the Codio class and ensures that Codio knows how to redirect students back to the correct course should they attempt to access the class through their dashboard.
 
 The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
 - In Codio, go to the **Admin** tab near the top.
 - Select **Edit Details** in the bottom of the page.
 - Near the bottom is a switch **Enable LTI** which you should enable.
-- Below this is an empty field **Class LMS URL**. Switch back to your **LMS** and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.
+- Below this is an empty field **Class LMS URL**. Switch back to your LMS and make sure you are on the Home page of the course. Copy the url in the address bar of your browser to the clipboard and paste it into the above mentioned field in Codio.
 
 <img alt="lti-class-url" src="/img/docs/lti/lti-class-url.png" class="simple"/>
 
@@ -44,10 +44,10 @@ The **Unit URL** is where you map each individual Unit within your Codio Class t
 
 <img alt="authtoken" src="/img/docs/lti/LMS-Unit-URL.png" class="simple"/>
 
-- Complete the mapping in your **LMS**.
+- Complete the mapping in your LMS.
 
 
-For more information on specific **LMS** systems, see 
+For more information on specific LMS systems, see 
 
 - [Canvas](/docs/classes/lti/canvas)
 - [Blackboard](/docs/classes/lti/blackboard)

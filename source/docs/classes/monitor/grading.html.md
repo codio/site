@@ -15,7 +15,7 @@ Codio's grading features address four important aspects of student grading.
 [Click here](https://vimeo.com/165275339) if you'd like to watch a quick video overview.
 
 ### The grading process
-Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
+Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as Completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
 
 You can access the student's code from the same screen by clicking on the arrow on the extreme right (see below image with arrows circled right). You can then review the code. 
 
@@ -40,7 +40,7 @@ Students are not shown the grades until you decide to release them to the class.
 
 <img alt="authtoken" src="/img/docs/grading-release.png" class="simple"/>
 
-Students are able to see their grades either from their My Classroom view or by opening the unit and going to **Education->See Grades**
+Students are able to see their grades either from their My Classroom view or by opening the unit and going to **Education->Grades**
 
 You can also release grades from the main Unit view right clicking on the 3 vertical dots and selecting **Release grades**.
 

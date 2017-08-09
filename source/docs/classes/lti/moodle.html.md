@@ -45,6 +45,6 @@ This video shows
 
 - how teachers grade student work in Codio
 - how grades are not released to students either in Codio or the LMS until the teacher says so
-- how grades are transferred to the Moodle gradebook once the teacher selects the "Release Grades" option
+- how grades are transferred to the Moodle gradebook once the teacher selects the **Release Grades** option
 
 <iframe src="https://player.vimeo.com/video/170354128" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

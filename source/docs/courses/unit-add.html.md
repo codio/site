@@ -97,8 +97,8 @@ You are required to enter a confirmation code to proceed and you can then do one
 You can change the order of the units within a module by dragging a unit into its desired position.
 
 ### Updating units assigned to a class
-You may need to make changes to a unit that has already been assigned to a class. If this is the case then you should first publish a new version. This will in itself not change content that has already been started by students. To update the unit in the Class select **Update Unit** from the 3 blue vertical dots to the right of the unit listed in the class. See [Update Unit](/docs/teacher/classes/updateunit/) for more on this.
+You may need to make changes to a unit that has already been assigned to a class. If this is the case then you should first publish a new version. This will in itself not change content that has already been started by students. To update the unit in the Class select **Update Unit** from the 3 blue vertical dots to the right of the unit listed in the class. See [Update Unit](/docs/classes/unitmanagement/updateunit) for more on this.
 
 You should be aware that only the contents of the `.guides` folder will be updated in order to retain any student work that may have already started.
 
-If you have made more substantial changes to the main code workspace and require that the students have their unit reset then, after publishing,  select the [Reset unit](/docs/teacher/classes/reset-unit) option from the class. You should be aware that any student work already started will be lost. 
+If you have made more substantial changes to the main code workspace and require that the students have their unit reset then, after publishing,  select the [Reset unit](/docs/classes/unitmanagement/reset-unit/) option from the class. You should be aware that any student work already started will be lost. 

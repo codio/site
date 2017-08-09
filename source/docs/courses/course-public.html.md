@@ -10,7 +10,7 @@ However, if you set your course to be public, it becomes available for any other
 
 You can make a course public at course creation or by pressing the `Edit` button having selected the course from the listing.
 
-To publish a course only to your organization, please refer to [Creating a Course](/docs/content/publish/course-create)
+To publish a course only to your organization, please refer to [Creating a Course](/docs/courses/course-create)
 
 <img alt="authtoken" src="/img/docs/course_edit.png" class="simple"/>
 

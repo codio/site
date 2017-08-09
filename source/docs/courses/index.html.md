@@ -7,4 +7,4 @@ full_width: true
 
 This section contains information on how to publish your own tutorial content from the courses area.
 
-[Click here](/docs/content/publish/course-create/) to start reading.
+[Click here](/docs/courses/course-create) to start reading.

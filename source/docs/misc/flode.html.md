@@ -5,7 +5,7 @@ class_name: docs
 full_width: true
 ---
 
-Flode is a course that create executable flow charts. Flode is a great way to teach computational thinking and introduce students to programming. It can: 
+Flode is a course that creates executable flow charts. Flode is a great way to teach computational thinking and introduce students to programming. It can: 
 
 - create beautiful, annotated flow charts
 - write proper code expressions, including decisions, in chart elements

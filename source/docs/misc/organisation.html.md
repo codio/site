@@ -30,7 +30,7 @@ Please read the [Authoring Strategies](/docs/content/authoring/strategies) secti
 Having set your permissions, you should be aware of the two main ways others can then access the content.
 
 1. A student can access the Courses/Modules from the dashboard and press the 'Start Unit' button having selected a Module.
-1. A teacher can create a [Class](/docs/teacher/classes/create-class) and then assign a Module to that Class. Students can then access the Class from the Dashboard and access assigned Modules and their Units from there.
+1. A teacher can create a [Class](/docs/classes/classmanagement/create-class) and then assign a Module to that Class. Students can then access the Class from the Dashboard and access assigned Modules and their Units from there.
 
 Generally speaking, class based scenarios should use the Class feature to save the student from having to search for the Course/Module. 
 

@@ -11,7 +11,7 @@ Both content and assessments have been carefully built to gradually increase the
 
 
 ### An Introduction to Programming
-This introduces students to the basic concepts of programming, first using [Flode](/docs/content/courses/flode) before moving on to coding with Javascript, Python and/or Java. You will find many auto-graded coding assessments within each unit as well as a module dedicated to challenges. We also have a module introducing more advanced searching and sorting algorithms.
+This introduces students to the basic concepts of programming, first using [Flode](/docs/misc/flode) before moving on to coding with Javascript, Python and/or Java. You will find many auto-graded coding assessments within each unit as well as a module dedicated to challenges. We also have a module introducing more advanced searching and sorting algorithms.
 
 ### MySQL
 The first module covers the requirements of the GCSE curriculum. However, we also are offering more advanced materials covering accessing of databases through code as well as database design. These latter units are well suited as stretch materials or those wanting to build web applications or pursue coding at a higher level.
@@ -28,7 +28,7 @@ As well as teaching the mechanics of building web pages, it also takes the Javas
 This course teaches students how to access the terminal and access the Linux command line interface. 
 
 ### Cambridge MOOC - Non-Coding
-This course is a port of OCR's Cambridge MOOC and covers the non-coding aspects of the pre 2016 GCSE curriculum. It contains the tutorial content, videos as well as auto-marked assessment questions.
+This course is a port of OCR's Cambridge MOOC and covers the non-coding aspects of the GCSE curriculum. It contains the tutorial content, videos as well as auto-marked assessment questions.
 
 ## Video overview
 

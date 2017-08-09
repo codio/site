@@ -29,7 +29,8 @@ Here is a video that runs you through the entire process.
 
 From the main dashboard, select 'Starter Packs' on the left, then the Certified tab at the top of the main page.
 
-![](/img/docs/tkinter-pack.png)
+<img alt="Tkinter Pack" src="/img/docs/tkinter-pack.png" class="simple"/>
+
 
 Search for 'tkinter' in the search field then select the 'TKinter Clean' pack as shown in step 4. above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the Create button at the bottom of the page and a new project will be created.
 
@@ -45,7 +46,8 @@ If you change your Python code, you will need to close the terminal window and t
 ## Starter Pack - Widgets
 This gives you a complete set of demo widgets. From the main dashboard, select 'Starter Packs' on the left, then the Certified tab at the top of the main page.
 
-![](/img/docs/tkinter-pack.png)
+<img alt="Tkinter Widgets" src="/img/docs/tkinter-pack.png" class="simple"/>
+
 
 Search for 'tkinter' in the search field then select the 'TKinter Widgets' pack as shown in step 4. above. You will be taken to the new project screen where you can enter a name for your project. Finally, press the Create button at the bottom of the page and a new project will be created.
 
@@ -54,12 +56,12 @@ This Pack contains a set of widget demo files that you can play with.
 
 Once your project opens, you can quickly play with this in one of 2 ways using the ‘Rocket’ menu item. This is the Codio menu item with a rocket next to it.
 
-####Full Widget Demo
+#### Full Widget Demo
 
 - In the Codio menu, select 'Start widget.py’.
 - From the neighbouring menu item, press 'View widget demo’.
 
-#### Inidividual python file
+#### Individual python file
 
 - Open a python file in the file tree.
 - From the neighbouring menu item, press 'View widget demo’.
@@ -68,7 +70,8 @@ Once your project opens, you can quickly play with this in one of 2 ways using t
 ## Stack
 If you want to create a completely empty Codio project that is Tkinter ready, then go to the Stacks menu item in the main dashboard. Click on the Certified tab at the top (2.) then search for 'tkinter' (3.). Finally, select the stack (4.) after which you will be taken to the new project screen. Enter a project name then press the Create button at the bottom of the page and a new project will be created.
 
-![](/img/docs/tkinter-stack.png)
+<img alt="Tkinter Stack" src="/img/docs/tkinter-stack.png" class="simple"/>
+
 
 This Stack will not give you any preconfigured buttons (see the above 'Starter Pack: Clean' for this).
 You can now create your Python files and run Tkinter. Here are some tips on how to do this.
@@ -84,14 +87,13 @@ For information on how to set up your own Codio menu buttons, [click here](/docs
 ## From scratch
 For those of you who want to add Tkinter support to an existing Codio project, you should follow the steps below. Adding the XServer component will add support for any application that writes to the screen.
 
+<img alt="Xserver" src="/img/docs/xserver-install.png" class="simple"/>
 
-![](/img/docs/xserver-install.png)
 
-- Open the Install Software screen from the Tools->Install Software menu. This can take some time to load everything, so be patient.
-- Type `xserver` into the search box.
-- Press the 'Install' button to install the XServer component. When the log window appears, you can close it down.
-- Press the 'Start' button to start the service. If you get an error saying it is already running, you can ignore it.
-- Press the Autostart button to ensure that this is automatically started whenever your Box starts up. If it does not complete, which can sometimes happen, then just shut down the Install Software window. It will have worked.
+- Open the Install Software screen from the Tools->Install Software menu. 
+- Type `x server` into the search box.
+- Press the 'Install' button to install the XServer component. 
+- When the installation has completed (This can take some time, so be patient), [Restart](/docs/ide/boxes/restart-reset) the box
 
 
 We would recommend that you configure your `.codio` file to have an option to start the viewer. This is [described here](/docs/ide/boxes/runmenu/). You should either overwrite the entire contents of this file with the content shown below, or if you already have a `.codio` file with contents you want to keep, just add the line with the 'Viewer' entry you can see below into the `preview` section.

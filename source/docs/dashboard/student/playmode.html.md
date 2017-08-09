@@ -4,7 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-To see your Guide running, you need to *Play* it. This is done from the 'Tools->Guides Play' menu option.
+To see your Guide running, you need to *Play* it. If the Guide does not automatically start or of you have closed the Guide, go to **Tools->Guides Play** menu option or click the **Start Guide** icon in the file tree:
+
+<img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 
 At this point the panel layout is set up automatically according to the layout specified in the first Guide section and the first section will be displayed.
 

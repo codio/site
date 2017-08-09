@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Sometimes you might need to check who is registered as a member of your educational organization. To view all members of your school ‘organization’ follow these steps:
+Sometimes you might need to check who is registered as a member of your educational organization. To view all members of your school organization follow these steps:
 
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="authtoken" src="/img/docs/class_administration/profilepic.png" class="simple"/>
@@ -18,7 +18,7 @@ Sometimes you might need to check who is registered as a member of your educatio
 1. Click **All Members**
 <img alt="authtoken" src="/img/docs/manage_organization/members.png" class="simple"/>
 
-You will be able to see all the members of your school ‘organisation’.
+You will be able to see all the members of your school organisation.
 
 The **Test Students** group contains the demo student accounts created for you when the Organisation was created. See [Create Organisation](/docs/dashboard/create/createorg/) for more information.
 

@@ -2,7 +2,7 @@
 title: "Delete your Account"
 ---
 
-You can delete your account at any time from the `Codio > Account` menu item and going to the 'Account' tab
+You can delete your account at any time from the **Codio > Account** menu item and going to the **Account** tab
 
 <img alt="authtoken" src="/img/docs/delete.png" class="simple"/>
 

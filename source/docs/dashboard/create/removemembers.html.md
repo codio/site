@@ -20,7 +20,7 @@ To remove members:
 1. Under **Permanent Teams**, Click **All Members**
 <img alt="authtoken" src="/img/docs/manage_organization/members.png" class="simple"/>
 
-1. You will be able to see all the members of your school ‘organization’.
+1. You will be able to see all the members of your school organization.
 1. Choose **Remove** on the right hand side of the name of the person who you want to remove from your organization.
 
 

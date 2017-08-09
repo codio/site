@@ -16,3 +16,4 @@ If you wish to change your password (you should also do this if you forgot your 
 1. About halfway down the **Account** page is the **Change Password** area. The student should enter their new password, and then click **Update password**.
 <img alt="authtoken" src="/img/docs/what_students_do/forgotpassword/change.png" class="simple"/>
 
+1. This will then send an email to your registered email addresss containing a link for you to click. Clicking on this link will then send you another email containing the new password you can then use to login. 

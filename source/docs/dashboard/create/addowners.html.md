@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You are the ‘owner of your organization if you created it. You can add other owners (these will usually be other teachers who you wish to give admin rights to).
+You are the **Owner** of your organization if you created it. You can add other owners (these will usually be other teachers who you wish to give admin rights to).
 There are 2 ways you can do this:
 
 ### Add a new user to your Organisation Owners group

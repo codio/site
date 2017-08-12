@@ -4,14 +4,19 @@ class_name: docs
 full_width: true
 ---
 
+**LTI Keys** are used to integrate your LMS to Codio. These keys are required by your LMS administrator one time only so that Codio can be added as an LTI provider. Once Codio has been added as an LTI provider, you will not need them again and the remaining actions can be completed by LMS users who have Teacher/Instructor permissions.
 
+**Class and Unit URLs** will be copied and pasted into your LMS system, once for the LMS class/course and once for each LMS unit/assignment.
 
+We have platform specific integration documentation for the following LMS platforms. 
+
+- [Canvas](/docs/classes/lti/canvas)
+- [Blackboard](/docs/classes/lti/blackboard)
+- [Moodle](/docs/classes/lti/moodle)
 
 ### LTI Keys
 
-**LTI Keys** are used to integrate your LMS to Codio.
-
-These keys are accessible to [Organisation Owners](/docs/dashboard/create/addowners/). If you do not see them, discuss with your Organisation Owner to be added to the Owners group.
+LTI keys are accessible to [Codio Organisation Owners](/docs/dashboard/create/addowners/) only. 
 
 To find these keys:
 
@@ -24,7 +29,7 @@ To find these keys:
 
 ### Class URL
 
-The **Class URL** is where you map the LMS course you set up to the Codio class and ensures that Codio knows how to redirect students back to the correct course should they attempt to access the class through their dashboard.
+The **Class URL** is used to map an LMS course to a Codio class. It ensures that Codio knows how to redirect students back to the correct course should they attempt to access the class through the Codio dashboard.
 
 The LMS user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.
 
@@ -36,7 +41,7 @@ The LMS user who carries out these steps does not need to be a system administra
 <img alt="lti-class-url" src="/img/docs/lti/lti-class-url.png" class="simple"/>
 
 ### Unit URL
-The **Unit URL** is where you map each individual Unit within your Codio Class to your LMS.
+The **Unit URL** is where you map each individual Unit within your Codio Class to the corresponding unit/assignment in your LMS. It directs a student to the correct Codio unit and will automatically open the Codio unit.
 
 - On the main class screen, click the icon with 3 blue dots and select **LTI Integration URL**.
 - You should copy the LTI integration url to the clipboard by clicking on the field (it will auto copy).
@@ -45,10 +50,3 @@ The **Unit URL** is where you map each individual Unit within your Codio Class t
 <img alt="authtoken" src="/img/docs/lti/LMS-Unit-URL.png" class="simple"/>
 
 - Complete the mapping in your LMS.
-
-
-For more information on specific LMS systems, see 
-
-- [Canvas](/docs/classes/lti/canvas)
-- [Blackboard](/docs/classes/lti/blackboard)
-- [Moodle](/docs/classes/lti/moodle)

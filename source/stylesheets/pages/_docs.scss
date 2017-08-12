@@ -74,7 +74,7 @@ body.docs .overview-section {
   @include container;
   @include break;
 
-  padding-top: 1em;
+  padding-top: 0.5em;
 
   .docs-header-navigation-container > h2 {
     text-align: center;
@@ -256,7 +256,7 @@ body.docs .page-header-block {
   @include container;
   @include break;
 
-  padding: 0 0 1rem 0;
+  padding: 0 0 0rem 0;
 
   .st-search-input {
     width: span(14 of 16);

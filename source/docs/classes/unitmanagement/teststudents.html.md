@@ -6,7 +6,6 @@ full_width: true
 
 Codio automatically creates 3 test students for you. This allows instructors to view the student experience when units are assigned to classes.
 
-
 1.  They can be seen in the members section.
 
 <img alt="Create Organisation" src="/img/docs/class_administration/createanorganization/org_teams.png" class="simple"/>
@@ -22,3 +21,5 @@ Codio automatically creates 3 test students for you. This allows instructors to 
 1.  You can switch back to teacher mode by clicking **Switch back to teacher account**.
 
 <img alt="authtoken" src="/img/docs/class_administration/createanorganization/test-student-view.png" class="simple"/>
+
+However, if your Codio class is LMS integrated then you will need to perform your testing from the LMS and not use the Codio test students.

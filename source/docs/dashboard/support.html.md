@@ -13,12 +13,13 @@ Support is available in the dashboard from the **Contact Us** link on the left.
 Support is available within the IDE from the **Help** menu item, then **Support/Contact Us**.
 
 ### Support Dialog
-There is a support dialog that appears when you invoke the support option. This tracks all conversations and threads you have had with Codio.
+There is a support dialog that appears when you invoke the support option. This tracks all conversations and threads you have had with Codio and where you can also start a new conversation.
 
-**** IAN : show a suitable dialog pls, IDE view I think ****
+<img alt="Intercom Start" src="/img/docs/intercomstart.png" class="simple"/>
 
-If you are in Codio, you can see if a reply to your query arrives **** IAN : how? Please show image. ****
+If you are in Codio, you can see when a reply to your query arrives even if you have closed the support dialog box 
+<img alt="Intercom Notification" src="/img/docs/intercomnotification.png" class="simple"/>
 
-You will also receive email notifications when a reply is made from a Codio staff member.
+
 
 

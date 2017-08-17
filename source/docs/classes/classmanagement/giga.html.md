@@ -5,7 +5,7 @@ class_name: docs
 full_width: true
 ---
 
-A Gigabox is a box that has a higher memory allocation than the standard Codio boxes. The default memory allocation is 512MB, which is fine for most applications. 
+A Gigabox is a box that has a higher memory allocation than the standard Codio boxes. The default memory allocation is 400MB, which is fine for most applications. 
 
 If you need your students to have more memory then we offer 1GB and 2GB boxes. These need to be purchased separately and you can add any number of either box size to your organization. You will need to specify the Gigabox size and then each student accessing the unit will have a Gigabox for that unit.
 

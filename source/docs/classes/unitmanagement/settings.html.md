@@ -48,8 +48,16 @@ You may need to make changes to a project previously added as a unit to the clas
 <img alt="edit unit" src="/img/docs/class_administration/editunit.png" class="simple"/>
 
 
-### [Update Unit](/docs/classes/unitmanagement/updateunit)
-This option will allow you to push updates to students who have already started the unit where you are not the author/owner of the unit (e.g. Any updates made to the Codio Recommended Content). You do not need to run this if you are the author/owner of the unit and selected the option to push the changes when the source was refreshed.
+### Update Unit
+This option will allow you to update the unit in the class. 
+
+<img alt="update unit" src="/img/docs/class_administration/projectupdateunit.png" class="simple"/>
+
+In the event that the unit(s) in your class are updated, you can reset them so any students who have already started the unit can start again with the updated content.
+
+You can also reset the unit(s) even if there have been no updates to the content so the student(s) can start the unit(s) again.
+
+See [Reset Unit](/docs/classes/unitmanagement/reset-unit/) for more information.
 
 ### Settings
 To access the actions and settings, you can use the Settings option from the blue dot button menu. Alternatively,  you can click on the unit itself and then select the Settings tab beneath the Unit name as shown below.

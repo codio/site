@@ -1,26 +1,16 @@
 ---
-title: Upgrade Course
+title: Update Unit
 description: ""
 class_name: docs
 full_width: true
 ---
 
-If any updates to the course(s) used in your class are detected, you can upgrade the content to the latest version selecting the **Upgrade Course** button
+Individual units can also be updated if required although in most cases where you have added a Course into a class, the **[Upgrade Course](/docs/classes/unitmanagement/upgradecourse/)** feature is recommended. 
 
-<img alt="Upgrade Course" src="/img/docs/class_administration/upgradecourse.png" class="simple"/>
+Click on the 3 blue vertical dots and select **Update Unit**
 
-These updates may be new Unit(s) added to the Course, a new version of the Stack, updates for assessments in the Guides and/or changes to the content shown to the Students.
-
-A list of all updated units will be shown and you can select the unit(s) you wish to update. 
-The **Upgrade Course** button will no longer be shown when all updates have been applied.
-
-If updates to the stack are detected, you can elect to update just the content of the unit if you wish:
-<img alt="Upgrade Stack" src="/img/docs/class_administration/stackupdated.png" class="simple"/>
-
-If there are no detected updates to the stack, this option will not be shown
-<img alt="Upgrade Content" src="/img/docs/class_administration/updatedunits.png" class="simple"/>
-
-Updating the Unit Content allows you to overwrite the Guides (.guides) folder for all students who have already started this Unit. All other student data will not be affected. Any material changes to assessments configuration may result in lost data for deleted or modified assessment questions for those students who have already responded.
+<img alt="Update Individual unit" src="/img/docs/class_administration/indunitupdate.png" class="simple"/>
+Updating a Unit allows you to overwrite the Guides (.guides) folder for all students who have already started this Unit. All other student data will not be affected. Any material changes to assessments configuration may result in lost data for deleted or modified assessment questions for those students who have already responded.
 
 <img alt="Update unit" src="/img/docs/class_administration/updateunit.png" class="simple"/>
 

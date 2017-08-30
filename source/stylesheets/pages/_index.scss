@@ -39,7 +39,108 @@ body.index .section-scroll {
   padding: 0;
   position: relative;
   height: 100%;
-  
+
+  .block-rectangle {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(100%/2);
+    display: block;
+    margin-top: 65px;
+    margin-bottom: 1rem;
+    background-color: #1c94c4;
+
+    .box {
+
+    }
+  }
+
+  .square-block {
+    width: 100%;
+    height: auto;
+
+    .square {
+      position: relative;
+      width: calc(100% / 2 - 0.5rem);
+      height: 0;
+      padding-bottom: calc(100% / 2);
+      display: inline-block;
+      background-color: #3D942F;
+      margin-right: 1rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .square-item {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .content-wrapper {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 5rem;
+
+    .content-item {
+      position: relative;
+      height: 100%;
+
+      .caption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: auto;
+        display: inline-block;
+        text-align: left;
+
+        h2 {
+          font-size: 1.4rem;
+        }
+
+        .author {
+          text-transform: uppercase;
+          font-size: 1rem;
+        }
+      }
+
+      .post-date {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+
+      .title-wrap {
+        position: absolute;
+        display: block;
+        bottom: 0;
+
+        .post-title {
+          font-size: 1.4rem;
+          font-weight: 300;
+          padding-bottom: 15px;
+        }
+
+        .post-recents-topic {
+          display: block;
+
+          .topic-link {
+            display: inline-block;
+            font-size: 1rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+
   .navbar {
     z-index: 10;
   }

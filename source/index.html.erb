@@ -2,7 +2,7 @@
 title: Home | Teaching code | Codio
 layout: layout
 fixed: true
-transparent: true
+transparent: false
 description: Join over 2,000 leading institutions on the most thorough platform for computer science education. Equipping students with the skills needed to thrive.
 priority: 1.0
 ---
@@ -10,13 +10,62 @@ priority: 1.0
 <section class="section-scroll">
   <div class="block-rectangle">
     <div class="content-wrapper">
-      <div class="content-item">
-        <div class="caption">
-          <h2>The Cloud Infrastructure and LMS for Computer Science<br/>
-            and STEAM education
-          </h2>
-        </div>
-      </div>
+      <table>
+        <tr>
+          <td>1</td>
+          <td>&lt;head&gt;</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>The Cloud Infrastructure and LMS for Computer Science</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>and STEM education</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>&lt;/head&gt;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <div class="boxes">
+              <div class="box">
+                <div class="box-content">
+                  <div class="box-image">
+                    <img src="/img/assets/index/cloud-cs.png">
+                  </div>
+                  <div class="box-header">Cloud CS</div>
+                  <div class="box-text">
+                    Codio Cloud CS is the LMS for Computer science and STEAM education designed to minimise faculty
+                    admin time, lower IT expense and maximise student engagement, meaning better outcomes for everyone.
+                  </div>
+                  <div class="box-button">
+                    <%= link_to "Explore CS", "/cloudcs", class: "button button-main button-rounded" %>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="box-content">
+                  <div class="box-image">
+                    <img src="/img/assets/index/cloud-labs.png">
+                  </div>
+                  <div class="box-header">Cloud Labs</div>
+                  <div class="box-text">
+                    Codio CloudLabs is an infinitely scalable Computer Science lab in the Cloud. You might think it's
+                    just virtualization but it's not. In fact, it goes so far beyond virtual machines that you'll be
+                    totally amazed.
+                  </div>
+                  <div class="box-button">
+                    <%= link_to "Learn More", "/cloudcs", class: "button button-main button-rounded" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
   <div class="row">

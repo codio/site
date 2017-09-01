@@ -6,12 +6,19 @@ The student consent form is a feature for Codio organizations. It allows you to 
 
 To configure the consent form information, click on your user name from the dashboard. Next, select your organization. You will then see the **IP Consent** tab at the top of the screen.
 
-If you enable this feature, all students will be shown the form when they first create an account. If a student has already created an account then the next time they sign in, they will shown the form. They will not be able to access Codio until they do consent.
+If you enable this feature, all students will be shown the form when they first create an account. If a student has already created an account then the next time they sign in, they will be shown the form. They will not be able to access Codio until they do consent.
 
-[IAN : ss please]
+<img alt="authtoken" src="/img/docs/studentconsent.png" class="simple"/>
 
 ### Creating content
-You should first create the content that you wish to display to the student. You enter your text in the lower portion of the screen. You can use markdown to format your text. If you are not familiar with markdown, please [click here]() [ IAN - where should we send them?].
+
+<img alt="authtoken" src="/img/docs/consent.png" class="simple"/>
+
+You should first create the content that you wish to display to the student. You enter your text in the lower portion of the screen. You can use markdown to format your text. If you are not familiar with markdown, here are a couple of references for markdown
+
+- [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of markdown
+- [Bill Powell Is Alive](http://billpowellisalive.com/blog/markdown-syntax) - for those with less sharp eyesight
+
 
 You can press the **Save Draft** button to save your changes and continue editing later.
 

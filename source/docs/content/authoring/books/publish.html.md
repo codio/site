@@ -16,11 +16,11 @@ Please note the following about Publishing.
 
 When you press the **Publish** button, the following screen will appear. 
 
-[IAN : screenshot from the course unit until released on Monday. Not sure if it will need updating or not]
+<img alt="versions" src="/img/docs/book_publish.png" class="simple"/>
 
 
 #### Only workspace changes made
-If, in your book, you have only made changes to the workspace (the workspace is the contents of the file tree in the IDE or /home/codio/workspace) then you only need to enter the changelog text, which is a description of the changes made since the last publish.
+If, in your book, you have only made changes to the workspace (the workspace is the contents of the file tree in the IDE or `/home/codio/workspace`) then you only need to enter the changelog text, which is a description of the changes made since the last publish.
 
 If you have switched the book's stack then you should select the **Stack not modified** option described below.
 

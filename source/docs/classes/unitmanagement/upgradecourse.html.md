@@ -9,20 +9,21 @@ If any updates to the course(s) used in your class are detected, you can upgrade
 
 <img alt="Upgrade Course" src="/img/docs/class_administration/upgradecourse.png" class="simple"/>
 
-These updates may be new Unit(s) added to the Course, a new version of the Stack, updates for assessments in the Guides and/or changes to the content shown to the Students.
+Such updates may be new units added to the course, a new version of the stack, updates for assessments in a guide or book and/or changes to the content shown to the Students.
 
-A list of all updated units will be shown and you can select the unit(s) you wish to update. 
-The **Upgrade Course** button will no longer be shown when all updates have been applied.
+A list of all updated units will be shown and you can select the unit(s) you wish to update. The **Upgrade Course** button will no longer be shown when all updates have been applied.
 
 If updates to the stack are detected, you can elect to update just the content of the unit if you wish:
+
 <img alt="Upgrade Stack" src="/img/docs/class_administration/stackupdated.png" class="simple"/>
 
-If there are no detected updates to the stack, this option will not be shown
-<img alt="Upgrade Content" src="/img/docs/class_administration/updatedunits.png" class="simple"/>
+If there are no detected updates to the stack, this option will not be shown.
 
-Updating the Unit Content allows you to overwrite the Guides (.guides) folder for all students who have already started this Unit. All other student data will not be affected. Any material changes to assessments configuration may result in lost data for deleted or modified assessment questions for those students who have already responded.
+Updating the unit content allows you to overwrite the guides (.guides) folder for all students who have already started this Unit. All other student data will not be affected. Any material changes to assessments configuration may result in lost data for deleted or modified assessment questions for those students who have already responded.
 
 <img alt="Update unit" src="/img/docs/class_administration/updateunit.png" class="simple"/>
+
+If students have already started work on a unit that has been upgraded by this procedure and the unit contains changes to the workspace folder outside the `/.guides` folder then these will not be applied for those students. The only way to remedy this is to reset the unit, as described below.
 
 
 ### Projects assigned to the Class

@@ -13,11 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 **Feature**: Release of [Books](/docs/content/authoring/books/)
 **Feature**: Add Student [IP Consent](/docs/dashboard/account/consent)
 **Improvement**: Improvement to publishing Units allowing for simpler handling of [Stack](/docs/project/stacks/stack-overview) changes
-**Improvement**: [Upgrade Course](/docs/classes/unitmanagement/upgradecourse). If any updates to the course(s) used in your class are detected, you can upgrade the content to the latest version within the class
+**Feature**: [Upgrade Course](/docs/classes/unitmanagement/upgradecourse). If any updates to the course(s) used in your class are detected, you can upgrade the content to the latest version within the class
 
 #### August 2017
 **Feature**: Support Pug for syntax highlighting (mapping to Jade)
-**Feature**: If any updates to the course(s) used in your class are detected, you can upgrade the content to the latest version within the class with the [Upgrade Course](/docs/classes/unitmanagement/upgradecourse) button.
 **Improvement**: Review field ordering for [Assessments](/docs/content/authoring/assessments)
 **Update**: Change [Public/Private](/docs/dashboard/create/public_private) settings to Private by default
 **Feature**: Add **Go to Line** hotkey (default **Alt+G**)

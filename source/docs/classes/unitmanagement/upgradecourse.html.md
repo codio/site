@@ -28,9 +28,8 @@ If students have already started work on a unit that has been upgraded by this p
 
 ### Projects assigned to the Class
 
-If your Unit was added using [Add Project](/docs/classes/unitmanagement/assign-project), the Update Unit option also allows you to also update the Source project and Stack as well as overwriting the Guides (.guides) folder for students who have already started the Unit.
+If your Unit was added using [Add Project](/docs/classes/unitmanagement/assign-project), see  [Update Unit](/docs/classes/unitmanagement/updateunit/) option where you can also update the Source project and Stack as well as overwriting the Guides (.guides) folder for students who have already started the Unit.
 
-<img alt="Update Ad-Hoc Unit" src="/img/docs/class_administration/updateunitadhoc.png" class="simple"/>
 
 ### [Reset Unit](/docs/classes/unitmanagement/reset-unit/)
 

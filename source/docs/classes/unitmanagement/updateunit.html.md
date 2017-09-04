@@ -5,7 +5,9 @@ class_name: docs
 full_width: true
 ---
 
-Individual units can also be updated if required although in most cases where you have added a Course into a class, the **[Upgrade Course](/docs/classes/unitmanagement/upgradecourse/)** feature is recommended. 
+### Projects assigned to the Class
+
+Individual units can be updated ,although in most cases where you have added a Course into a class, the **[Upgrade Course](/docs/classes/unitmanagement/upgradecourse/)** should be used.
 
 Click on the 3 blue vertical dots and select **Update Unit**
 
@@ -15,11 +17,6 @@ Updating a Unit allows you to overwrite the Guides (.guides) folder for all stud
 <img alt="Update unit" src="/img/docs/class_administration/updateunit.png" class="simple"/>
 
 
-### Projects assigned to the Class
-
-If your Unit was added using [Add Project](/docs/classes/unitmanagement/assign-project), the Update Unit option also allows you to also update the Source project and Stack as well as overwriting the Guides (.guides) folder for students who have already started the Unit.
-
-<img alt="Update Ad-Hoc Unit" src="/img/docs/class_administration/updateunitadhoc.png" class="simple"/>
 
 ### [Reset Unit](/docs/classes/unitmanagement/reset-unit/)
 

@@ -1,4 +1,4 @@
-body.university {
+body.cloudcs {
   header .container,
   footer .container {
     @include breakpoint($max-width) {
@@ -12,7 +12,7 @@ body.university {
   }
 }
 
-body.university {
+body.cloudcs {
   .header-block {
     width: 100%;
     height: 500px;

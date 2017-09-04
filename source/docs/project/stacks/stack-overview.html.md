@@ -14,13 +14,10 @@ You can [snapshot a box's stack](/docs/project/stacks/new) at any point and add 
 ### How a Codio project works.
 When you create a new Codio project, course unit or book, you always specify a stack. The specified stack will contain the operating system (always) and other components such as languages, databases and tools.
 
-[DIAGRAM WORKSPACE + STACK]
-
 
 ### Stack modifications
 You will often want to make changes to the software on your server. Any such changes you, or an application, makes outside the workspace folder represents a stack change. Whether such changes are made using `sudo apt-get install`, manually editing a config file, changes to a database due to application usage etc., these changes all represent stack modifications.
 
-[DIAGRAM ]
 
 Any modifications you make will work fine on the project you are working on as the owner, but as soon as you assign that project or unit to a class of students, the modifications will not be transferred.
 

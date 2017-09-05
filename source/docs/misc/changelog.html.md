@@ -9,6 +9,7 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 #### September 2017
+**Improvement**: Add confirmation step when Unit is marked as complete by students
 **Update**: Reorganisation of Documentation structure
 **Feature**: Release of [Books](/docs/content/authoring/books/)
 **Feature**: Add Student [IP Consent](/docs/dashboard/account/consent)

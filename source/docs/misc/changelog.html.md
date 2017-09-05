@@ -9,7 +9,7 @@ This page contains a list of recent updates made to the Codio platform. We updat
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
 #### September 2017
-**Improvement**: Update Teacher Dashboard for Free Text Assessment grading.
+**Improvement**: Update Teacher Dashboard for [Free Text Assessment grading](/docs/content/authoring/assessments/assessments-free#grading-free).
 **Improvement**: Add confirmation step when Unit is marked as complete by students.
 **Update**: Reorganisation of Documentation structure.
 **Feature**: Release of [Books](/docs/content/authoring/books/)
@@ -25,4 +25,4 @@ We do not report small bug fixes or issues that affect individual users, who we 
 **Improvement**: [Invite teachers](/docs/classes/classmanagement/addteachers) into a class with email invitation.
 **Update**: Update Guide Icons and add new [Callout Blocks](/docs/content/authoring/page-edit/edit).
  
-We only implemented the changelog page in August, 2017 so this is as far back as we go.
+We implemented the changelog page in August, 2017 so this is as far back as we go.

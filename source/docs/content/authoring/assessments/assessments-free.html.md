@@ -27,6 +27,7 @@ Setting up a Free assessment within the Guide editor is very simple. As you can 
 ## Completing a free text assessment
 If **One Attempt Only** is enabled, students will only be able to submit their answer once. If this is not enabled them students will be able to revisit the question and edit their answer until they mark the unit as Completed
 
+<a name="grading-free"></a>
 ## Grading Free Text Assessments
 
 To review and grade answers given by student, select the student and a list of all the assessments in the unit are shown.

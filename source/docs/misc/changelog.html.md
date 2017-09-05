@@ -8,6 +8,21 @@ This page contains a list of recent updates made to the Codio platform. We updat
 
 We do not report small bug fixes or issues that affect individual users, who we will notify directly.
 
+
+**September 2017**
+- `[I] [08th]`: Update Teacher Dashboard for Free Text Assessment grading with a lot of text on the end of see what a new line looks like
+- `[F] [06th]`: Release of [Books](/docs/content/authoring/books/)
+- `[F] [06th]`: Release of [Books](/docs/content/authoring/books/)
+
+**August 2017**
+
+- `[I] [08th]` : Update Teacher Dashboard for [Free Text Assessment grading](/docs/content/authoring/assessments/assessments-free#grading-free).
+- `[F] [06th]`: Release of [Books](/docs/content/authoring/books/)
+- `[F] [06th]`: Release of [Books](/docs/content/authoring/books/)
+
+
+---
+
 #### September 8th 2017
 - **Improvement**: Update Teacher Dashboard for [Free Text Assessment grading](/docs/content/authoring/assessments/assessments-free#grading-free).
 - **Improvement**: Add confirmation step when Unit is marked as complete by students.
@@ -33,6 +48,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
  
 We implemented the changelog page in August, 2017 so this is as far back as we go.
 
+
+
+
 >>> Using Markdown
 
 **Markdown Table**
@@ -52,3 +70,4 @@ We implemented the changelog page in August, 2017 so this is as far back as we g
 |22nd Aug|Feature: |Add Go to Line hotkey (default Alt+G).|
 |21st Aug|Improvement: |[Invite teachers](/docs/classes/classmanagement/addteachers) into a class with email invitation.|
 |21st Aug|Update: |Update Guide Icons and add new [Callout Blocks](/docs/content/authoring/page-edit/edit).|
+

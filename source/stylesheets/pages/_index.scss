@@ -173,10 +173,14 @@ body.index .section-scroll {
 
         .post-image {
           height: 300px;
-          background: url('/img/assets/index/sheffield-university.jpg') no-repeat;
+          background: url('/img/assets/index/coventry-university-w.jpg') no-repeat;
 
           @include breakpoint($break-tablet) {
             height: 25vw;
+          }
+
+          @include breakpoint(1024px) {
+            background: url('/img/assets/index/coventry-university.jpg') no-repeat;
           }
         }
       }

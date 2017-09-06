@@ -23,7 +23,6 @@ header {
     animation-delay: .8s;
     animation-duration: .5s;
     padding: 0;
-    text-shadow: rgba(0,0,0,1) 0 0 4px;
 
     @include breakpoint($break-tablet) {
       margin: 0;
@@ -32,7 +31,7 @@ header {
 
   .logo-link {
     position: fixed;
-    left: 4rem;
+    left: 3rem;
   }
 
   .img-logo {
@@ -62,7 +61,7 @@ header {
   }
 
   nav a {
-    color: #FFFFFF;
+    color: #6c778c;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -86,7 +85,7 @@ header {
   }
 
   nav li a:hover {
-    color: white;
+    color: $light-gray;
     opacity: .6;
   }
 
@@ -144,7 +143,7 @@ header {
 }
 
 .opaque-background {
-  background: rgba(10, 106, 225, 1);
+  background: #ffffff;
 }
 
 .transparent-background {
@@ -156,7 +155,7 @@ header {
   font-size: 24px;
   line-height: 60px;
   z-index: 998;
-  background: rgba(0, 0, 0, .9);
+  background: #ffffff;
   text-align: center;
   position: fixed;
   top: 0;
@@ -170,10 +169,10 @@ header {
   }
 
   a {
-    color: white;
+    color: #6c778c;
 
     &:hover {
-      color: $light-blue;
+      color: $light-gray;
     }
 
     &.button {
@@ -204,11 +203,11 @@ header {
     height: 30px;
     position: relative;
     transition: top 0.3s ease-in-out;
-    background: white;
+    background: #6c778c;
 
     &:before,
     &:after {
-      background: white;
+      background: #6c778c;
       content: '';
       display: block;
       width: 25px;
@@ -222,7 +221,7 @@ header {
 
   &.open {
     float: right;
-    color: white;
+    color: #6c778c;
 
     .menubars {
       height: 1px;

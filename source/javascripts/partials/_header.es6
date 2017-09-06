@@ -23,25 +23,7 @@ $(() => {
   }
 
   var setHeaderStyle = () => {
-    if ($header.hasClass('should-be-transparent')) {
-      setTransparent();
-    } else {
-      const offsetVal = $('.header-block').height() - 65;
-      if (offsetVal > 65) {
-        $(window).scroll(() => {
-          const scrollTop = $(window).scrollTop();
-
-          if (scrollTop >= offsetVal) {
-            setOpaque();
-          } else if (scrollTop < offsetVal) {
-            setTransparent();
-          }
-        })
-      }
-      else {
-        setOpaque();
-      }
-    }
+    setOpaque();
   }
 
   if ($('body').innerWidth() <= 783) {

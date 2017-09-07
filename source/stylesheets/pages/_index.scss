@@ -294,8 +294,8 @@ body.index .section-scroll {
     height: 100%;
     padding: 2rem 0;
 
-    @include breakpoint(1024px) {
-      padding: 2rem 5rem;
+    @include breakpoint(1050px) {
+      padding: 2rem 3rem;
     }
 
     .top-block {
@@ -323,7 +323,7 @@ body.index .section-scroll {
             display: inline-block;
             margin-left: 1rem;
           }
-          @include breakpoint(1024px) {
+          @include breakpoint(1050px) {
             margin-left: 0;
           }
         }
@@ -356,8 +356,12 @@ body.index .section-scroll {
 
         &:nth-child(2), &:nth-child(3), &:nth-child(5) {
           .text {
-             color: #ffffff;
-             font-size: 35px;
+            color: #ffffff;
+            font-size: 23px;
+
+            @include breakpoint(1024px) {
+              font-size: 28px;
+            }
           }
 
           padding: 1rem;
@@ -382,7 +386,6 @@ body.index .section-scroll {
         }
 
         &:nth-child(5) {
-          //display: block;
           .text {
             font-size: 26px;
             line-height: 28px;
@@ -426,7 +429,7 @@ body.index .section-scroll {
       margin: 0;
       padding: 0;
 
-      @include breakpoint(1024px) {
+      @include breakpoint(1050px) {
         height: 400px;
         margin-left: 24px;
         padding-left: 20px;
@@ -467,7 +470,7 @@ body.index .section-scroll {
           height: 430px;
         }
 
-        @include breakpoint(1024px) {
+        @include breakpoint(1050px) {
           width: 370px;
           height: 400px;
 

@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2017**
 
+- `[I] [08th]`: Remove version entry field from stack version and just auto-increment
 - `[F] [08th]`: Added preview type for [free text assessment](/docs/content/authoring/assessments/assessments-free)
 - `[I] [08th]`: Update teacher dashboard for [free text assessment grading](/docs/content/authoring/assessments/assessments-free#grading-free).
 - `[I] [08th]`: Add confirmation step when unit is marked as complete by students.

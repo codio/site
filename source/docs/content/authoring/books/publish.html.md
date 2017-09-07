@@ -24,14 +24,14 @@ If, in your book, you have only made changes to the workspace (the workspace is 
 
 If you have switched the book's stack then you should select the **Stack not modified** option described below.
 
-[IAN : SS of screen with Stack not modified pressed]
+<img alt="versions" src="/img/docs/book_stack_notmodified.png" class="simple"/>
 
 Press the **Publish Book** button when ready.
 
 #### Stack modified
 If you have made any changes to the stack then you should press the **Stack modified** button. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.
 
-[IAN : SS of sreen with Stack was modified pressed]
+<img alt="versions" src="/img/docs/book_stack_modified.png" class="simple"/>
 
 You should now decide whether you want to 
 
@@ -43,7 +43,7 @@ Note that if the stack you are using is not owned by you or you don't have permi
 
 You should enter a description of the stack changes made and then press **Publish Book**. The new stack version will appear in your stacks listing in the normal way.
 
-[IAN : SS of screen where the user is able to create a new stack version]
+<img alt="versions" src="/img/docs/book_stack_newversion.png" class="simple"/>
 
 #### Stack modified: New Stack
 If you do not have permissions to create a new stack version or you want to create a new stack that this and potentially other books, projects or units should use, then select this option.
@@ -52,7 +52,7 @@ This will create a new stack with the permissions you specify. To give access on
 
 It will take a few minutes to prepare the stack, so please be patient. Once it is created, it will be visible your stacks listing. 
 
-[IAN : SS of screen with new stack.]
+<img alt="versions" src="/img/docs/book_stack_newstack.png" class="simple"/>
 
 
 ### Later book modifications

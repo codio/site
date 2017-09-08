@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2017**
 
+- `[F] [11th]`: Update documentation to advise on [cookie requirements](/docs/dashboard/account/cookies)
 - `[F] [11th]`: Release of [books](/docs/content/authoring/books/)
 - `[I] [08th]`: Remove version entry field from stack version and just auto-increment
 - `[F] [08th]`: Added preview type for [free text assessment](/docs/content/authoring/assessments/assessments-free)

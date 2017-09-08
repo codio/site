@@ -13,11 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2017**
 
+- `[F] [11th]`: Release of [books](/docs/content/authoring/books/)
 - `[I] [08th]`: Remove version entry field from stack version and just auto-increment
 - `[F] [08th]`: Added preview type for [free text assessment](/docs/content/authoring/assessments/assessments-free)
-- `[I] [08th]`: Update teacher dashboard for [free text assessment grading](/docs/content/authoring/assessments/assessments-free#grading-free).
-- `[I] [08th]`: Add confirmation step when unit is marked as complete by students.
-- `[F] [06th]`: Release of [books](/docs/content/authoring/books/)
+- `[I] [07th]`: Update teacher dashboard for [free text assessment grading](/docs/content/authoring/assessments/assessments-free#grading-free).
+- `[I] [07th]`: Add confirmation step when unit is marked as complete by students.
 - `[I] [06th]`: Reorganisation of documentation structure.
 - `[F] [02nd]`: Add student [IP consent](/docs/dashboard/account/consent).
 - `[I] [01st]`: Improvement to publishing units allowing for simpler handling of [stack](/docs/project/stacks/stack-overview) changes.

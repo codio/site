@@ -99,6 +99,23 @@
   }
 }
 
+.button.button-rounded-small {
+  padding: 2px 14px;
+  font-weight: 400;
+  border-radius: 9px;
+
+  @include breakpoint(450px) {
+    //font-size: 1rem;
+  }
+
+  @include breakpoint($break-tablet) {
+    padding: 3px 19px;
+    //font-size: 1.1rem;
+    //font-weight: 600;
+    border-radius: 10px;
+  }
+}
+
 .button.button-rounded-border {
   background-color: transparent;
   border-color: $lighter-orange;

@@ -17,7 +17,7 @@ priority: 0.9
       to student code, powerful auto-graded assessments and more.
     </div>
     <%= link_to 'Let&prime;s talk', 'http://news.codio.com/contact-us',
-      class: 'button button-rounded button-main' %>
+      class: 'button button-rounded button-rounded-border' %>
   </div>
 </section>
 
@@ -192,6 +192,9 @@ priority: 0.9
 
 <section class="ready-started-block">
   <h2>Ready to get started?</h2>
-  <%= link_to 'Free Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
-  <%= link_to 'Schedule A Call', 'http://news.codio.com/contact-us', class: 'button button-rounded button-main' %>
+  <div class="button-block">
+    <%= link_to 'Free 90 Days Trial', '/start-edu-trial', class: 'button button-rounded button-main' %>
+    <div class="divider"></div>
+    <%= link_to 'Schedule A Call', 'http://news.codio.com/contact-us', class: 'button button-rounded button-main' %>
+  </div>
 </section>

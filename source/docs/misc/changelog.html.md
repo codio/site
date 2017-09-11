@@ -15,6 +15,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 - `[F] [11th]`: Update documentation to advise on [cookie requirements](/docs/dashboard/account/cookies)
 - `[F] [11th]`: Release of [books](/docs/content/authoring/books/)
+- `[I] [11th]`: Improve message handling if student working with stack unit they do not have access to.
+- `[I] [11th]`: Refactor Guides buttons changing Settings to smaller gear icon
 - `[I] [08th]`: Remove version entry field from stack version and just auto-increment
 - `[F] [08th]`: Added preview type for [free text assessment](/docs/content/authoring/assessments/assessments-free)
 - `[I] [07th]`: Update teacher dashboard for [free text assessment grading](/docs/content/authoring/assessments/assessments-free#grading-free).

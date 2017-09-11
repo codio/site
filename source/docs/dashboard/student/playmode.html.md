@@ -19,9 +19,7 @@ Within the player various options can be controlled by the user
 
 
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
-- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, set the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/docs/dashboard/student/dyslexia/) section
-- **Units** allows the users to navigate easily to other units in the course.
-- **Increase/Decrease Font** allows the user to incrementally increase/decrease the player font size.
+- **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/docs/dashboard/student/dyslexia/) section
 - **[Show/Hide Section List Hamburger Icon](/docs/content/authoring/collapse/)** allows the user to show/hide the section list.
 
 <a name="restore"></a>

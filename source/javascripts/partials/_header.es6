@@ -23,25 +23,7 @@ $(() => {
   }
 
   var setHeaderStyle = () => {
-    if ($header.hasClass('should-be-transparent')) {
-      setTransparent();
-    } else {
-      const offsetVal = $('.header-block').height() - 65;
-      if (offsetVal > 65) {
-        $(window).scroll(() => {
-          const scrollTop = $(window).scrollTop();
-
-          if (scrollTop >= offsetVal) {
-            setOpaque();
-          } else if (scrollTop < offsetVal) {
-            setTransparent();
-          }
-        })
-      }
-      else {
-        setOpaque();
-      }
-    }
+    setOpaque();
   }
 
   if ($('body').innerWidth() <= 783) {
@@ -57,4 +39,22 @@ $(() => {
       setOpaque();
     }
   });
+
+  // Responsive Menu
+
+  $toggle.click(function (event) {
+    event.preventDefault();
+
+    if ($nav.hasClass('visible')) {
+      $nav.fadeOut(() => {
+        $nav.removeClass('visible');
+      })
+      $toggle.removeClass('close').addClass('open');
+    } else {
+      $nav.fadeIn(() => {
+        $nav.addClass('visible');
+      })
+      $toggle.removeClass('open').addClass('close');
+    }
+  })
 })

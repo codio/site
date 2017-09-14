@@ -2,245 +2,157 @@
 title: Home | Teaching code | Codio
 layout: layout
 fixed: true
-transparent: true
-description: Join over 2,000 leading institutions on the most thorough platform for computer science education. Equipping students with the skills needed to thrive.
+transparent: false
+description: The cloud infrastructure and learning management platform for computer science and stem education.
 priority: 1.0
 ---
 
 <section class="section-scroll">
-  <nav id="scrollSpy" class="navbar scrollspy-dotted">
-    <ul class="nav" >
-      <li class="nav-item"><a class="nav-link" href="#block1"><span></span></a></li>
-      <li class="nav-item"><a class="nav-link" href="#block2"><span></span></a></li>
-      <li class="nav-item"><a class="nav-link" href="#block3"><span></span></a></li>
-      <li class="nav-item"><a class="nav-link" href="#block4"><span></span></a></li>
-      <li class="nav-item"><a class="nav-link" href="#block5"><span></span></a></li>
-      <li class="nav-item"><a class="nav-link" href="#block6"><span></span></a></li>
-      <li class="nav-item"><a class="nav-link" href="#block7"><span></span></a></li>
-      <li></li>
-    </ul>
-  </nav>
-  
-  <div id="block1" class="block">
-    <div class="content vertical">
-      <div class="title-text">
-        <h2>Future proof your students’ role in the 21st Century</h2>
-        <h4>Join educators in over 2,000 leading institutions on "the most thorough
-          platform for computer science education". Equipping students with the skills needed to thrive.</h4>
-        <%= link_to 'Free Trial', '/start-edu-trial',
-          class: 'button button-rounded button-main' %>
-      </div>
-    </div>
-  </div>
-  
-  <div id="block2" class="block">
-    <div class="content vertical">
-    <div class="toolbox-content">
-      <div class="toolbox-header">The sharpest tools in the box</div>
-      <div class="toolbox">
-        <div class="box-mobile">
-          <div class="header"><span>Infrastructure</span></div>
-          <div class="dot-line"><div class="dot"></div></div>
-          <div class="body">
-            <div class="scope-item">
-              <div class="scope-img">
-                <%= inline_svg 'assets/index/infrastructure.svg', class: '' %>
-              </div>
-              <div class="scope-txt">
-                <span>
-                  Teachers and students have access to unlimited cloud based servers, each one starting instantly and with full sudo privileges so you can install, configure and run anything.
-                </span>
-              </div>
-              <div class="scope-button">
-                <%= link_to 'Learn More', '/features/infrastructure', class: '' %>
-              </div>
-            </div>
+  <div class="block-rectangle">
+    <div class="content-wrapper">
+      <div class="top-block">
+        <div class="top-row">
+          <div class="number">1</div>
+          <div class="text">&lt;head&gt;</div>
+        </div>
+        <div class="top-row">
+          <div class="number">2</div>
+          <div class="text">Codio is the cloud infrastructure & LMS for CS and STEM education that makes</div>
+        </div>
+        <div class="top-row">
+          <div class="number">3</div>
+          <div class="text">teaching easier and creates a better learning experience for students.</div>
+        </div>
+        <div class="top-row">
+          <div class="number">4</div>
+          <div class="text">&lt;/head&gt;</div>
+        </div>
+        <div class="top-row">
+          <div class="text">
+            The cloud infrastructure & LMS for CS and STEM education making
+            faculty life easier and creating a better learning experience for students.
           </div>
         </div>
-      
-        <div class="box">
-          <div class="header"><span>Online IDE</span></div>
-          <div class="dot-line"><div class="dot"></div></div>
-          <div class="body">
-            <div class="scope-item">
-              <div class="scope-img">
-                <%= inline_svg 'assets/index/webbased.svg', class: '' %>
-              </div>
-              <div class="scope-txt">
-                <span>
-                  The IDE supports any programming language, database or software component. It's also ideal for both novice students and postgrads.
-                </span>
-              </div>
-              <div class="scope-button">
-                <%= link_to 'Learn More', '/features/ide', class: '' %>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="header"><span>Grading</span></div>
-          <div class="dot-line"><div class="dot"></div></div>
-          <div class="body">
-            <div class="scope-item">
-              <div class="scope-img">
-                <%= inline_svg 'assets/index/projecttemplates.svg', class: '' %>
-              </div>
-              <div class="scope-txt">
-                <span>
-                  The most extensive support for automatically and manually graded assessments of any Computer Science
-                  platform.
-                </span>
-              </div>
-              <div class="scope-button">
-                <%= link_to 'Learn More', '/features/grading', class: '' %>
+        <div class="top-row">
+          <div class="boxes">
+            <div class="box">
+              <div class="box-content">
+                <div class="box-image">
+                  <img src="/img/assets/index/cloud-cs.png">
+                </div>
+                <div class="box-header">Cloud CS</div>
+                <div class="box-text">
+                  Codio Cloud CS is the LMS for Computer science and STEM education designed to minimise faculty
+                  admin time, lower IT expense and maximise student engagement, meaning better outcomes for everyone.
+                </div>
+                <div class="box-button">
+                  <%= link_to "Explore CS", "/cloudcs", class: "button button-main button-rounded" %>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="header"><span>LMS</span></div>
-          <div class="dot-line"><div class="dot"></div></div>
-          <div class="body">
-            <div class="scope-item">
-              <div class="scope-img">
-                <%= inline_svg 'assets/index/learning.svg', class: '' %>
-              </div>
-              <div class="scope-txt">
-                <span>
-                  Codio's own extensive LMS features co-exist peacefully with all major LMS platforms such as Canvas,
-                  Blackboard and Moodle.
-                </span>
-              </div>
-              <div class="scope-button">
-                <%= link_to 'Learn More', '/features/lms', class: '' %>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="header"><span>Curriculum Authoring</span></div>
-          <div class="dot-line"><div class="dot"></div></div>
-          <div class="body">
-            <div class="scope-item">
-              <div class="scope-img">
-                <%= inline_svg 'assets/index/contentauthoring.svg', class: '' %>
-              </div>
-              <div class="scope-txt">
-                <span>
-                  The only platform to offer top quality curriculum authoring tools that control
-                  the IDE. Create simple assignments or an entire book.
-                </span>
-              </div>
-              <div class="scope-button">
-                <%= link_to 'Learn More', '/features/curriculum/', class: '' %>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="header"><span>Templating<span></div>
-          <div class="dot-line"><div class="dot"></div></div>
-          <div class="body">
-            <div class="scope-item">
-              <div class="scope-img">
-                <%= inline_svg 'assets/index/curriculumcontent.svg', class: '' %>
-              </div>
-              <div class="scope-txt">
-                <span>
-                  Take any custom software configuration of languages, databases or software components and add them to your template library for shared re-use.
-                </span>
-              </div>
-              <div class="scope-button">
-                <%= link_to 'Learn More', '/features/templates', class: '' %>
+            <div class="box">
+              <div class="box-content">
+                <div class="box-image">
+                  <img src="/img/assets/index/cloud-labs.png">
+                </div>
+                <div class="box-header">Cloud Labs</div>
+                <div class="box-text">
+                  Codio CloudLabs is an infinitely scalable Computer Science lab in the Cloud. You might think it's
+                  just virtualization but it's not. In fact, it goes so far beyond virtual machines that you'll be
+                  totally amazed.
+                </div>
+                <div class="box-button">
+                  <%= link_to "Learn More", "/cloudlabs", class: "button button-main button-rounded" %>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
   </div>
-  
-  <div id="block3" class="block">
-    <div class="content vertical">
-      <div class="title-text">
-        <h2>"Insanely Convenient"</h2>
-        <h4>Faculty find Codio an "insanely convenient" way to power their Computer Science courses</h4>
-        <%= link_to 'COVENTRY UNIVERSITY AND CODIO', 'http://news.codio.com/codio-at-coventry-university/',
-          class: 'button button-rounded button-main desktop' %>
-        <%= link_to 'CASE STUDY', 'http://news.codio.com/codio-at-coventry-university/',
-          class: 'button button-rounded button-main mobile' %>
-        <div class='logo-img'><%= image_tag 'assets/index/logos/coventry-university-logo-2.png',
-          alt: 'Coventry University', class: '' %></div>
+  <div class="row">
+    <div class="span12">
+      <div class="cell-wrapper">
+        <div class="featured-posts">
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Freddy May", "http://news.codio.com/author/freddy-may", class: "author-link" %>
+                </div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case study with Sheffield University",
+                                  "http://news.codio.com/sheffield-university-uses-codio" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Mateen Rizki", "http://news.codio.com/author/mateen-rizki", class: "author-link" %>
+                </div>
+                <div class="post-date">Apr 20, 2017</div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case study: Wright State University", "http://news.codio.com/wsu-uses-codio" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Phillip Snalune", "http://news.codio.com/author/phillip-snalune", class: "author-link" %>
+                </div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case Study: Florida A&M University", "http://news.codio.com/codio-at-famu" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="post-date">July 25, 2016</div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "", "http://news.codio.com/codio-at-coventry-university/" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  
-  <div id="block4" class="block">
-    <div class="content vertical">
-      <div class="title-text">
-        <h2>"I grasped new concepts quickly with Codio"</h2>
-        <h4>Bring CS knowledge and digital skills to non-CS majors</h4>
-        <%= link_to 'SEE HOW EASY IT IS TO PILOT CODIO', '/universityleadership',
-          class: 'button button-rounded button-main desktop' %>
-        <%= link_to 'CASE STUDY', '/universityleadership',
-          class: 'button button-rounded button-main mobile' %>
-        <div class='logo-img'><%= image_tag 'assets/index/logos/florida-am-university-logo-2.png',
-          alt: 'Florida A&M University', class: '' %></div>
-      </div>
-    </div>
-  </div>
-  
-  <div id="block5" class="block">
-    <div class="content vertical">
-      <div class="title-text">
-        <h2>Engage your community</h2>
-        <h4>Conquering student intimidation opens up a new world. Help take them there</h4>
-        <%= link_to 'YOUR CURRICULUM. POWERED BY US', 'http://news.codio.com/coded-by-kids-and-codio/',
-          class: 'button button-rounded button-main desktop' %>
-        <%= link_to 'CASE STUDY', 'http://news.codio.com/coded-by-kids-and-codio/',
-          class: 'button button-rounded button-main mobile' %>
-        <div class='logo-img'><%= image_tag 'assets/index/logos/coded-by-kids-logo.png',
-          alt: 'Coded By Kids', class: '' %></div>
-      </div>
-    </div>
-  </div>
-  
-  <div id="block6" class="block">
-    <div class="content vertical">
-      <div class="title-text">
-        <h2>Transform your CS course delivery</h2>
-        <h4>Empower students when you spend 20% less time on admin and grading</h4>
-        <%= link_to 'SHEFFIELD UNIVERSITY AND CODIO', '/university',
-          class: 'button button-rounded button-main desktop' %>
-        <%= link_to 'CASE STUDY', '/university',
-          class: 'button button-rounded button-main mobile' %>
-        <div class='logo-img'><%= image_tag 'assets/index/logos/sheffield-university-logo.png',
-          alt: 'The University Of Sheffield', class: '' %></div>
-      </div>
-    </div>
-  </div>
-  
-  <div id="block7" class="block">
-    <div class="content vertical">
-      <div class="title-text">
-        <h2>Grab their imagination</h2>
-        <h4>Students realize their vision from the first day of class</h4>
-        <%= link_to 'PILOT CODIO IN YOUR SCHOOL', '/school',
-          class: 'button button-rounded button-main desktop' %>
-        <%= link_to 'PILOT CODIO', '/school',
-          class: 'button button-rounded button-main mobile' %>
-      </div>
-    </div>
-  </div>
-
-  <div class="block block-ready-started">
-    <h2>Ready to get started?</h2>
-    <%= link_to 'Start Free Trial', '/start-edu-trial',
-        class: 'button button-rounded button-main' %>
   </div>
 </section>

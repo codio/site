@@ -4,49 +4,42 @@ body.about_mission .content {
 }
 
 body.about_mission .header-block {
-  @include span(4);
-  background-size: cover;
   position: relative;
-  background-color: $dark-gray;
-  height: 500px;
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+  background-position-x: center;
+  background-image: url('/img/assets/university/exemplary-support-mob.jpg');
 
   @include breakpoint($break-tablet) {
-    background: url('/img/assets/mission/atf.jpg') no-repeat top center fixed;
-    height: 485px;
-  }
-
-  @include breakpoint($max-width) {
-    background: url('/img/assets/mission/atf-large.jpg') no-repeat top center fixed;
-    height: 600px;
+    background-image: url('/img/assets/university/exemplary-support.jpg');
+    height: 34vw;
   }
 
   .header-container {
-    @include container;
-
-    margin-top: 9rem;
+    display: block;
+    padding: 0 1rem;
 
     @include breakpoint($break-tablet) {
-      @include container(14 of 16);
-      margin-left: span(1 of 16);
-      margin-right: span(1 of 16);
-    }
-
-    @include breakpoint($max-width) {
-      margin-top: 14rem;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: span(1 of 16);
-      max-width: $max-width;
+      padding: 0;
     }
   }
 
   h2 {
     font-weight: 300;
-    font-size: 2.369rem;
+    font-size: 1.4rem;
     color: white;
 
     em {
       font-weight: 400;
+    }
+
+    @include breakpoint(960px) {
+      font-size: 1.7rem;
+    }
+
+    @include breakpoint(1125px) {
+      font-size: 2rem;
     }
   }
 }

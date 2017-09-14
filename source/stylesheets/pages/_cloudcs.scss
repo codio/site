@@ -1,4 +1,4 @@
-body.university {
+body.cloudcs {
   header .container,
   footer .container {
     @include breakpoint($max-width) {
@@ -12,7 +12,7 @@ body.university {
   }
 }
 
-body.university {
+body.cloudcs {
   .header-block {
     width: 100%;
     height: 500px;
@@ -20,11 +20,11 @@ body.university {
     text-align: center;
     background-size: cover;
     background-position-x: center;
-    background-image: url('/img/assets/university/university-lectures-top-mob.jpg');
+    background-image: url('/img/assets/university/cloudcs-top-mob.jpg');
 
     @include breakpoint($break-tablet) {
       height: 42vw;
-      background-image: url('/img/assets/university/university-lectures-top.jpg');
+      background-image: url('/img/assets/university/cloudcs-top.jpg');
     }
 
     .header-content {
@@ -33,7 +33,7 @@ body.university {
 
     .quote {
       font-size: 1.8rem;
-      font-weight: 600;
+      font-weight: 400;
       color: #fff;
       line-height: 2rem;
       padding: 1rem;
@@ -55,7 +55,7 @@ body.university {
 
     .author {
       font-size: 2rem;
-      font-weight: 600;
+      font-weight: 400;
       color: #fff;
       line-height: 2rem;
       padding-bottom: 0.7rem;
@@ -74,7 +74,7 @@ body.university {
 
     .text {
       font-size: 1.2rem;
-      font-weight: 400;
+      font-weight: 300;
       color: #fff;
       line-height: 1.9rem;
       padding: 1rem 1rem 2rem 1rem;
@@ -436,7 +436,7 @@ body.university {
     position: relative;
     text-align: center;
     height: 280px;
-    background-color: $blue;
+    background-color: $orange;
 
     h2 {
       margin-top: 0;
@@ -452,17 +452,50 @@ body.university {
       }
     }
 
-    .button-rounded {
-      display: block;
-      min-width: 182px;
-      min-height: 41px;
-      margin: 0.5rem;
+    .button-block {
+      .button-rounded {
+        display: block;
+        min-width: 182px;
+        min-height: 41px;
+        margin: 0.5rem;
+        border-color: #ffffff;
+        text-transform: none;
 
-      @include breakpoint($break-tablet) {
-        display: inline-block;
-        min-width: 256px;
-        min-height: 48px;
-        margin: 0 1rem;
+        &:first-child {
+          background-color: #ffffff;
+          color: $orange;
+
+          &:hover {
+            background-color: transparent;
+            color: #ffffff;
+          }
+        }
+
+        &:last-child {
+          &:hover {
+            background-color: #ffffff;
+            color: $orange;
+          }
+        }
+
+        @include breakpoint($break-tablet) {
+          display: inline-block;
+          min-width: 256px;
+          min-height: 48px;
+          margin: 0 1rem;
+        }
+      }
+
+      .divider {
+        margin: 0 10px;
+        width: 1px;
+        height: 100%;
+        border-left: solid 1px #ffffff;
+        display: none;
+
+        @include breakpoint($break-tablet) {
+          display: inline;
+        }
       }
     }
   }

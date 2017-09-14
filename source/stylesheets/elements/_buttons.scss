@@ -82,7 +82,7 @@
 }
 
 .button.button-rounded {
-  padding: 7px 28px;
+  padding: 5px 28px;
   font-size: 0.8rem;
   font-weight: 500;
   border-radius: 19px;
@@ -92,9 +92,31 @@
   }
 
   @include breakpoint($break-tablet) {
-    padding: 12px 38px;
+    padding: 6px 38px;
     font-size: 1.1rem;
     font-weight: 600;
-    border-radius: 23px;
+    border-radius: 21px;
   }
+}
+
+.button.button-rounded-small {
+  padding: 2px 14px;
+  font-weight: 400;
+  border-radius: 9px;
+
+  @include breakpoint(450px) {
+    //font-size: 1rem;
+  }
+
+  @include breakpoint($break-tablet) {
+    padding: 3px 19px;
+    //font-size: 1.1rem;
+    //font-weight: 600;
+    border-radius: 10px;
+  }
+}
+
+.button.button-rounded-border {
+  background-color: transparent;
+  border-color: $lighter-orange;
 }

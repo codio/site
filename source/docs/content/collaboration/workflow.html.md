@@ -9,9 +9,9 @@ If you are new to using Git, the steps below may seem a little mystifying at fir
 Even if you are not actively collaborating, as a source control management system for snapshotting and remotely backing up your code, it is second to none.
 
 ### Forking
-Forking is the process of cloning a repo into your own GitHub account.
+This assumes that someone else has created a repo on a platform such as GitHub and you want to collaborate on it. If you have a project that you want others to collaborate on then [click here for details](IAN). 
 
-In the open source world, unless you are its owner, you never work directly on the main repository. You fork the repo into your own account and then work on that.
+Forking is the process of cloning a repo into your own GitHub account. You don't work directly with the main remote repository unless you are its owner. You fork the repo into your own account and then work on that.
 
 <div class="video">
 <div class="video-wrapper">

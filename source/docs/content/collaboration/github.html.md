@@ -4,7 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-GitHub is a free resource that is used by many millions of developers to remotely store their collaborative code. 
+GitHub is a free resource that is used by many millions of developers to remotely store and collaborate on code. Codio's authored content works very nicely with Git as all content information is stored as text files.
+
+Git is not entirely trivial and so it will require some effort on your part to learn if have never used it before. However, it is well worth the effort as it gives you such a lot of control.
 
 ### Create a GitHub account
 You should create an account now so you can work with it from your Codio account.
@@ -22,16 +24,16 @@ Although it is not necessary, we strongly recommend you link your Codio account 
 </div>
 </div>
 
-### GitHub Repositories
-A repository, usually referred to as a 'repo', is a GitHub project that stores your code project. When thinking about Codio, you should have a repo for each Codio unit that you are collaborating on.
+### Git Repositories
+A repository, usually referred to as a 'repo', is a database that stores the contents of your workspace. When thinking about Codio, you should have a repo for each Codio unit or book that you are collaborating on.
 
 ### Git
 Git is the tool you will use to manage your code. Git is installed on every Codio box and can be accessed from the terminal. 
 
-Each Codio project has its workspace already initialized as a local Git repository. Open up the terminal in a Codio project and type `git status` to see it is up and running.
+Each Codio project has its workspace already initialized as a local Git repository. Open up the terminal in a Codio project and type `git status` to see it is up and running. If you get a message starting with `fatal: Not a git repository` then you need to initialize your repo with `git init` and then try `git status` again.
 
 ### Git tutorials
-It is beyond the scope of this documentation to provide a Git tutorial. However, below are some links to get you going. If you have never used Git before, there is undoubtedly a learning curve, but you should bear in mind that what you will be learning is not just good for Codio content but will also stand you in very good stead for any coding you are doing.
+It is beyond the scope of this documentation to provide a comprehensive Git tutorial. However, below are some links to get you going. If you have never used Git before, there is undoubtedly a learning curve, but you should bear in mind that what you will be learning is not just good for Codio content but will also stand you in very good stead for any coding you are doing.
 
 - [GitHub Tutorials](https://guides.github.com/)
 
@@ -47,6 +49,7 @@ If you want to check whether another user has pushed their changes to the main r
 ### Using Git with Codio content
 When working with Codio content, you will find that you (usually) only need to use the following commands ...
 
+1. `git init` you use only once, to initialize your repository on your Codio box and prepare it for git usage. 
 1. `git status` is a very useful helper command. Git will tell you about new files that it is not tracking as well as any changes to files it is tracking. If you are in doubt about the status, just run it.
 1. `git add -A` tells Git to track all new files. By default, Git will not track files until you run this command. If you create new files afterwards, you will need to run the same command again to ensure they are also tracked.
 1. `git commit -am 'a message explaining what you have changed since your last commit'`. A commit adds any changes to tracked files into the local repository (the one on your Codio box).

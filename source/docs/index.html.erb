@@ -17,6 +17,9 @@ layout: layout
 		<%= partial "docs/actions" %>
 		<div class="section">
 			<div class="section-block-row-three">
+        
+        <!-- FIRST COLUMN -->
+               
 				<div class="section-block">
 					<h3><a>The Codio Dashboard</a></h3>
           <ul class="bullet-collapse">
@@ -499,49 +502,31 @@ layout: layout
 						</li>
 
           </ul>
-                  
-          
+                           
 				</div>
+        
+        <!-- SECOND COLUMN -->
+        
 				<div class="section-block">          
-					<h3><a href="/docs/content/authoring">Content Authoring with Books &amp; Guides</a></h3>
-					<ul class="bullet-collapse">
+					<h3><a href="/docs/content/authoring">Authoring Tutorial Content</a></h3>
+					<ul class="bullet-collapse">            
 						<li>
-							<a href="/docs/content/authoring/books-v-guides">Books and guides overview</a>
+							<a href="/docs/content/authoring/introduction">Introduction</a>
+						</li>                     
+						<li>
+							<a href="/docs/content/authoring/3ways">Project, course unit or book?</a>
+						</li>                                              
+            <li>
+							<a href="/docs/content/authoring/strategies">Authoring guidelines</a>
 						</li>            
             <li>
-              <a href="/docs/content/authoring/relationships">Books, courses, classes relationships</a>
-            </li>                        
-            <li>
-							<a href="/docs/content/authoring/strategies">Best practice</a>
-						</li>            
+              <a href="/docs/content/authoring/playmode/">Author and student views</a>
+            </li>  
 						<li class="item-collapse">
-							<a class="link-collapse collapsed" data-toggle="collapse" href="#books-section"></a> <a href="/docs/content/authoring/books">Books</a>
-							<ul class="collapse items-list" id="books-section">
-								<li>
-									<a href="/docs/content/authoring/books">Books overview</a>
-                </li>
-                <li>
-									<a href="/docs/content/authoring/books/manage">Creating and managing</a>
-                </li>
-								<li>
-									<a href="/docs/content/authoring/books/toc">Table of contents</a>
-                </li>
-								<li>
-									<a href="/docs/content/authoring/books/publish">Publishing</a>
-                </li>
-								<li>
-									<a href="/docs/content/authoring/books/unit-book">Creating course units</a>
-                </li>
-								<li>
-									<a href="/docs/content/authoring/books/permissions">Permissions</a>
-                </li>
-							</ul>
-						</li>
-						<li class="item-collapse">
-							<a class="link-collapse collapsed" data-toggle="collapse" href="#guides-section"></a> <a href="/docs/content/authoring/guides">Guides</a>
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#guides-section"></a> <a href="/docs/content/authoring/guides">Table of contents management</a>
 							<ul class="collapse items-list" id="guides-section">
                 <li>
-                  <a href="/docs/content/authoring/guides">About guides</a>
+                  <a href="/docs/content/authoring/guides">Introduction</a>
                 </li>                
                 <li>
                   <a href="/docs/content/authoring/collapse">Collapse and expand table of contents</a>
@@ -565,13 +550,16 @@ layout: layout
                 </li>
                 <li>
                   <a href="/docs/content/authoring/page-edit/real-time">Previewing content</a>
-                </li>                
+                </li>                        
                 <li>
                   <a href="/docs/content/authoring/page-edit/edit-html">HTML content editing</a>
                 </li>
                 <li>
                   <a href="/docs/content/authoring/page-edit/solutions">Teacher only content</a>
                 </li>  
+                <li>
+                  <a href="/docs/content/authoring/page-edit/buttons/">Custom Buttons</a>
+                </li>                  
                 <li>
                   <a href="/docs/content/authoring/page-edit/imvid">Adding media</a>
                 </li>    
@@ -626,12 +614,6 @@ layout: layout
 								</li>                
 							</ul>
 						</li>
-						<li>
-							<a href="/docs/content/authoring/buttons/">Custom Buttons</a>
-						</li> 
-						<li>
-							<a href="/docs/content/authoring/playmode/">Play Mode</a>
-						</li> 
 						<li class="item-collapse">
 							<a class="link-collapse collapsed" data-toggle="collapse" href="#collab-section"></a> <a href="/docs/content/collaboration">Collaboration</a>
 							<ul class="collapse items-list" id="collab-section">
@@ -654,40 +636,104 @@ layout: layout
                   <a href="/docs/content/collaboration/conflicts/">Conflicts</a>
                 </li>
 							</ul>
-						</li> 
-						
+						</li> 						
 					</ul>          
 
+                
+ 					<h3><a href="/docs/books/">Books</a></h3>
+          <ul class="bullet-collapse">      
+            <li>
+              <a href="/docs/books">Introduction</a>
+            </li>
+            <li>
+              <a href="/docs/books/limitations">Limitations and restrictions</a>
+            </li>            
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#books-working"></a> <a>Working with books</a>
+							<ul class="collapse items-list" id="books-working">
+                <li>
+                  <a href="/docs/books/manage">Creating and managing</a>
+                </li>
+                <li>
+                  <a href="/docs/books/toc">Table of contents</a>
+                </li>
+                <li>
+                  <a href="/docs/books/publish">Publishing</a>
+                </li>
+                <li>
+                  <a href="/docs/books/permissions">Permissions</a>
+                </li>                
+                <li>
+                  <a href="/docs/books/unit-book">Creating course units</a>
+                </li>                
+							</ul>
+						</li> 	                                  
+          </ul>
+          
+          
 					<h3><a href="/docs/courses">Courses</a></h3>
-					<ul>
+					<ul class="bullet-collapse" >
 						<li>
-							<a href="/docs/courses/course-overview">What is a course?</a>
-						</li>            
+							<a href="/docs/courses/introduction">Introduction</a>
+						</li>   
 						<li>
-							<a href="/docs/courses/course-create">Create a course</a>
-						</li>
-						<li>
-							<a href="/docs/courses/course-public">Public courses</a>
-						</li>
-						<li>
-							<a href="/docs/courses/course-add">Modules</a>
-						</li>
-						<li>
-							<a href="/docs/courses/unit-add">Units</a>
-						</li>
-						<li>
-							<a href="/docs/courses/course-collaborate">Collaborating on courses</a>
-						</li>
-						<li>
-							<a href="/docs/courses/delete">Deleting courses and modules</a>
-						</li>
-					</ul>        
+							<a href="/docs/courses/working-with">Working with courses</a>
+						</li>   
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#courses-manage"></a> <a>Managing courses</a>
+							<ul class="collapse items-list" id="courses-manage">
+                <li>
+                  <a href="/docs/courses/manage/course-create">Create a course</a>
+                </li>
+                <li>
+                  <a href="/docs/courses/manage/course-public">Public courses</a>
+                </li>
+                <li>
+                  <a href="/docs/courses/manage/course-add">Modules</a>
+                </li>
+                <li>
+                  <a href="/docs/courses/manage/delete">Deleting courses and modules</a>
+                </li>            
+							</ul>
+						</li> 	            
+						<li class="item-collapse">
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#courses-units"></a> <a>Managing units</a>
+							<ul class="collapse items-list" id="courses-units">
+                <li>
+                  <a href="/docs/courses/units/unit-add">Adding units</a>
+                </li>
+                <li>
+                  <a href="/docs/courses/units/publish">Publishing</a>
+                </li>
+                <li>
+                  <a href="/docs/courses/units/edit">Editing an existing unit</a>
+                </li>
+                <li>
+                  <a href="/docs/courses/units/order">Ordering units</a>
+                </li>
+                <li>
+                  <a href="/docs/courses/units/settings">Settings menu</a>
+                </li>
+                <li>
+                  <a href="/docs/courses/units/update-class">Upgrade course in class</a>
+                </li>                
+                <li>
+                  <a href="/docs/courses/manage/course-collaborate">Collaborating on content</a>
+                </li>                    
+							</ul>
+						</li> 	            
+
+          </ul>        
 				</div>
+        
+        
+        <!-- THIRD COLUMN -->
+        
 				<div class="section-block">
 					<h3>Classes</h3>			
           <ul class="bullet-collapse">             
             <li>
-              <a href="/docs/classes/">What is a class?</a>
+              <a href="/docs/classes/">Introduction</a>
             </li>		            
 						<li class="item-collapse">
 							<a class="link-collapse collapsed" data-toggle="collapse" href="#how_manage_class"></a> <a href="/docs/classes/classmanagement">Class management</a>

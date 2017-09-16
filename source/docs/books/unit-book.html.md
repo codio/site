@@ -4,6 +4,12 @@ class_name: docs
 full_width: true
 ---
 
+Books cannot be accessed directly by students. Once your book is [published](IAN), you need to map parts of it to one or more course units, which can then be [assigned to a class](IAN).
+
+Please [click here](IAN) for a detailed explanation on mapping book content to course units.
+
+TODO : Move following content into courses section
+
 In order to assign book content to a class, you first need to create a book unit. The advantage of this approach is that you can break your book into smaller chunks that map to lessons or lectures. Each of these chunks is a book based course unit. You can also map the entire book through a single course unit if you are not concerned about detailed unit mappings.
 
 ### Course setup

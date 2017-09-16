@@ -1,5 +1,5 @@
 ---
-title: Creating a class
+title: Introduction
 description: ""
 class_name: docs
 full_width: true

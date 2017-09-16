@@ -1,5 +1,5 @@
 ---
-title: What is a course?
+title: Introduction
 class_name: docs
 full_width: true
 ---
@@ -18,10 +18,3 @@ A course unit typically takes one of two forms.
 - **Assignment**: in this case you create a project unit where everything is set up for the student to tackle a coding assignment or challenge. You can still use Guides or Books to give instructions, but the general idea is to code rather than learn.
 
 The above two cases are not fixed concepts in Codio but are typical use cases. You can do whatever you like with a project unit.
-
-### Working with LMS platforms
-You may be working with an LMS such as Canvas, Moodle or Blackboard. LMS users are used to creating tutorial content in their LMS. 
-
-You can still carry on with this approach, although students will not get the same quality of experience. If you do this, then you can simply create units along the lines the the assignment described above. The instructional material remains in your LMS and whenever they have an assignment, it launches the Codio unit automatically.
-
-You can [read more about LMS integration here](/docs/classes/lti).

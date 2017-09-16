@@ -1,5 +1,5 @@
 ---
-title: Collaborating on courses
+title: Collaborating on content
 class_name: docs
 full_width: true
 ---

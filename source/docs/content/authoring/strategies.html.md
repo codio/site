@@ -1,29 +1,19 @@
 ---
-title: "Best Practice"
+title: "Authoring guidelines"
 class_name: docs
 full_width: true
 ---
 
-Before you start creating your Course content, you should have a solid grasp of the following concepts so you are able to build up courses in a reliable fashion.
+Here are some guidelines for creating good quality content.
 
-### Books, guides or both
-A course is usually made up of 
-
-- teaching content 
-- coding assignments
-
-Generally speaking, you should consider 
-
-- using a book for teaching content
-- standard projects or standard course units for coding assignments and projects. If you are building robust courses that can be assigned repeatedly to a class, then using standard course units is the way to go rather than projects for organizational reasons.
 
 ### Markdown
 The best way to author content is using markdown. It is extremely easy to write content that renders very nicely and without having to fiddle with HTML. You can embed HTML snippets into a markdown as well where you need full control. 
 
 We have a Cheat Sheet project that you can use to see the full capabilities. To fork this starter pack into your won account, please [click here](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/). You should select the **Use Pack** option to create the project. 
 
-### Courses
-We recommend you have a solid understanding of Codio courses before you invest a lot of time in content creation. The best approach is to experiment with a very basic course with maybe 2 modules and 2 units in each module. Make sure you understand the difference between a book based unit (typically used for teaching materials and simple assessments) and a project based unit (typically used for coding assignments).
+### Courses and Books
+We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course units and books](IAN).
 
 ### Media assets
 When creating a book or a guide, you will often be working with images, video and other media. We recommend the following.
@@ -48,16 +38,11 @@ The benefit of hiding folders is that the student is not distracted by folders a
 [Click here](/docs/content/authoring/page-edit/hide-folder) for more details on folder hiding.
 
 ### Assessments
-Codio offers a range of assessment types that let you create tests in one of two ways
-
-1. Woven into your tutorial content at strategic points.
-1. Create a Unit with a lot of assessments that can be used as end of topic or term/semester exams, especially useful in class scenarios.
-
-When used as a part of tutorial content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning. We recommend that you make heavy use of assessments.
+Codio offers a range of manually and auto-graded assessment types. When used as a part of tutorial content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning. 
 
 When used in a class situation, assessments are extremely helpful to the teacher as all assessment results are fed automatically through to the teacher class dashboard, allowing them to monitor students' progress across a Course.
 
-Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto marked, saving teachers considerable amounts of time and also giving students instant feedback on the correct answers.
+Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto-graded, saving teachers considerable amounts of time and can also offer students instant feedback on the correct answers.
 
 [Click here](/docs/content/authoring/assessments) for more on creating assessments.
 

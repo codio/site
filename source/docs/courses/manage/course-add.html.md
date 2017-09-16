@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-A course is always made up on at least one module. A module contains the individual units that students interact with. Modules help you organize your units into logical groupings. If your course only contains a few units then you may want only a single module. If, on the other hand, your course has a large number of units, then dividing them up may make more organizational sense.
+A course has to have at least one one module. A module contains the individual units that students interact with. Modules help you organize your units into logical groupings. If your course only contains a few units then you may want only a single module. If, on the other hand, your course has a large number of units, then dividing them between several modules may make more organizational sense.
 
 ## Creating a module
 To create a new, empty module, press the **Create Module** button. You can also re-use a module that is located in another course as explained below.

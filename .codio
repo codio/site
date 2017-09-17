@@ -15,7 +15,7 @@
          "Docs": "http://{{domain}}:3000/docs",
          "Home Page": "http://{{domain}}:3000/",
          "Blog": "http://{{domain}}:3000/blog",
-         "Visit Ungit": "https://{{domain}}:9501/#/repository?path=/home/codio/workspace"
+         "Visit Ungit": "https://{{domain}}:9500/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
   }
 
 }

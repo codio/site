@@ -10,4 +10,4 @@ The best way to manage this and to incorporate source control management at the 
 
 There can occasionally be issues arising from conflicts within the `books.json` file and these will need to be resolved by hand.
 
-[Click here](IAN) for a full discussion on collaboration using Git.
+[Click here](IAN - the one in the authoring section) for a full discussion on collaboration using Git.

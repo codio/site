@@ -64,6 +64,6 @@ A book cannot be assigned to a class without mapping it through a course. The ad
 
 You can map the entire book through a single course unit if you are not concerned about detailed unit mappings.
 
-Please refer to [Creating book based course units](/docs/content/authoring/book/unit-book) page for details on how to do this. 
+Please refer to [Creating book based course units](IAN) page for details on how to do this. 
 
 

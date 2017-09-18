@@ -73,6 +73,7 @@ You can specify whether a unit is accessible or not when disabled.
 ### Grading template
 You can sepcify a [grading template](IAN) (rubric) that this unit should reference. 
 
+<a name="autograde"></a>
 ### Auto-grade method
 [The auto-grade method](IAN) allows you to specify an auto-grade script that should run when the unit is marked as complete. The default setting ensures that any grades generated from auto-graded assessments and grades from free text assessments are automatically transferred into the grading field.
 

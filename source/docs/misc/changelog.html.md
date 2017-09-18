@@ -13,8 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2017**
 
-- `[F] [11th]`: Update documentation to advise on [cookie requirements](/docs/dashboard/account/cookies)
-- `[F] [11th]`: Release of [books](/docs/content/authoring/books/)
+- `[F] [14th]`: Update documentation to advise on [cookie requirements](/docs/dashboard/account/cookies)
+- `[F] [14th]`: Release of [books](/docs/content/authoring/books/)
+- `[I] [12th]`: Allow teachers to grade draft answers
+- `[I] [12th]`: Improve create stack from current project process
+- `[I] [12th]`: Improve the updating of manual grading actions for teachers
 - `[I] [11th]`: Improve message handling if student working with stack unit they do not have access to.
 - `[I] [11th]`: Refactor Guides buttons changing Settings to smaller gear icon
 - `[I] [08th]`: Remove version entry field from stack version and just auto-increment

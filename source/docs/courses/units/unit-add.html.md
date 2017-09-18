@@ -26,6 +26,7 @@ You can create a new unit in the following ways.
 
 <img alt="UnitStart" src="/img/docs/unitstart.png" class="simple"/>
 
+<a name="createbook"></a>
 ### New book unit
 Creating a new book unit involves pointing to the parts of a book that you want to map to your unit. You will seen the following screen.
 

@@ -1,12 +1,12 @@
 ---
-title: Grading student code
+title: Grading project work
 class_name: docs
 full_width: true
 ---
 
-Codio's grading features address four important aspects of student grading.
+Codio's grading features address four important aspects when grading student projects.
 
-- **Assign grade** - manually reviewing student code projects and then assigning a grade.
+- **Assign grade** - manually reviewing student projects and then assigning a grade.
 - **Grading moderation** - having other lecturers review grades already assigned in order to monitor consistency of grading.
 - **Grading rubric** - This provides a grading guideline framework for teachers. Please [click here](/docs/classes/classmanagement/rubric) for details.
 - **LMS gradebook sycnhronization** - This feature ensures that when teachers release grades, the data is passed automatically to any LTI enabled LMS platform such as Moodle, Blackboard and Canvas.
@@ -17,7 +17,7 @@ Codio's grading features address four important aspects of student grading.
 ### The grading process
 Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as Completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
 
-You can access the student's code from the same screen by clicking on the arrow on the extreme right (see below image with arrows circled right). You can then review the code. 
+You can access the student's project from the same screen by clicking on the arrow on the extreme right (see below image with arrows circled right). You can then review the project. 
 
 <img alt="authtoken" src="/img/docs/grading-unit.png" class="simple"/>
 

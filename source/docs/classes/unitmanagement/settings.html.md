@@ -5,13 +5,13 @@ class_name: docs
 full_width: true
 ---
 
-You can control unit settings by pressing the button with 2 blue dots from the main units listing screen. You will get different options depending on whether it is a unit assigned from a project or from a course.
+You can control unit settings by pressing the button with 3 blue dots from the main units listing screen. You will get different options depending on whether it is a unit assigned from a project or from a course.
 
-[IAN - image with button pressed]
+<img alt="UnitSettings" src="/img/docs/classunitsettings.png" class="simple"/>
 
 Options are also available if you select a unit. You will then see the **Settings** tab and **Actions** button.
 
-[IAN - image please with actions open]
+<img alt="Unit actions" src="/img/docs/unitactions.png" class="simple"/>
 
 ## Settings available in blue dots menu and Actions area
 
@@ -52,8 +52,8 @@ Individual units that were assigned from a normal (not course) project can be [u
 The following options are available from the **Actions** area only.
 
 ### Mark all as completed
-Students are supposed to [mark a unit as completed](/docs/classes/unitmanagement/settings-info/complete-unit)
-IAN - please ensure we explain that this is doable for the student from the dashboard AND the unit settings AND the last page). However, when it comes to grading time, faculty may want to force this status for all students in the class.
+Students are supposed to [mark a unit as completed](/docs/dashboard/student/guides#completed)
+However, when it comes to grading time, faculty may want to force this status for all students in the class.
 
 ### Reset unit
 This [resets the unit for all students in the class](/docs/classes/unitmanagement/settings-info/reset-unit). Please be aware that this action results in student work being lost as the unit is fully reset to its starting state.

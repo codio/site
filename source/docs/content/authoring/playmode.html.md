@@ -18,13 +18,12 @@ You can also start the preview mode from the **Tools->Author Content->Play**.
 
 Finally, there is also a button at the top of the file tree that launches the content.
 
-[IAN _ CHECK IMAGE PLS]
+
 <img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 
 
 ### Player Options
 <img alt="authtoken" src="/img/docs/guides/playmode.png" class="simple"/>
-[IAN - redo this please]
 
 When the content is rendered to a student, various options can be controlled
 

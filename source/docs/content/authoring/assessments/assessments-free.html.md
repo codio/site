@@ -43,7 +43,7 @@ If **One Attempt Only** is enabled, students will only be able to submit their a
 
 To review and grade answers given by student, select the student and a list of all the assessments in the unit are shown.
 
-<img alt="authtoken" src="/img/docs/guides/freetext-grading.png" class="simple"/>
+<img alt="Free Text Grading" src="/img/docs/guides/freetext-grading.png" class="simple"/>
 
 Free Text Assessments are identifiable from the icon
 

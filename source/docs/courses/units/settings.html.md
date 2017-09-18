@@ -6,7 +6,7 @@ full_width: true
 
 Additional actions for the unit are available by clicking on the 3 vertical blue dots. You will get a different menu depending on whether you have a book unit or a project unit.
 
-[IAN - project settings]
+<img alt="Unit settings" src="/img/docs/unitsettings.png" class="simple"/>
 
 For book units, you will not see **Change stack** or **Versions**.
 

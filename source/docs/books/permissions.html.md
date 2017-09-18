@@ -13,10 +13,14 @@ You can change permissions to allow others
 
 To modify the permissions, goto **Books** from the dashboard. Then select the settings icon. 
 
+[IAN - image of books and the settings icon circled]
+
 ### Private / Public visibility
 If the book is set to **Private**, unless you override the permissions, only you can modify a book contents and create course units from it. Private books cannot be assigned to public courses.
 
 If the book is set to **Public**, then any Codio user inside or outside your organization can create courses from your book but they will not be able to edit it.  The default Organisation setting restricts the ability to create Public books. To allow this, see [Public/Private Settings](/docs/dashboard/create/public_private).
+
+[IAN - screenshot of settings page]
 
 ### Permissions and collaboration
 If you want 2 or more people to collaborate on a book, you need to understand how Codio manages this process.

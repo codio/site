@@ -4,9 +4,18 @@ class_name: docs
 full_width: true
 ---
 
-By default, a project unit is available for editing to any user with a teacher role in your organization. 
+Controlling access to the editing of project units in a course is controlled from the course or module settings.
 
-MAX - what about teachers outside the org who can access the course?
+[IAN - screenshot.]
+[IAN / MAX - what is the inheritance rules if a course is owned by org but module not?]
+
+The rules for other users to edit a project unit in a course are as follows. 
+
+- **Private** - only you can edit the project unit.
+- **Private but organization is the owner** - any teacher in your organization can edit.
+- **Public** - only you can edit.
+- **Public but organization is the owner** - any teacher in your organization can edit. 
+
 
 If you want 2 or more people to collaborate on a project unit, you need to understand how Codio manages this process.
 

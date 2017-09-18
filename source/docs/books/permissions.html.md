@@ -34,7 +34,9 @@ You can grant the following permissions.
 
 The key thing you need to realize is that unless you are familiar with Git, **only one user should make changes at a time**. If User A and User B want to collaborate, then they need to inform the other that they are working on the content. If they fail to do so, then one person will have to surrender their changes.
 
-Let's say User A has created a book and authored some content. User A now wants User B to be able to collaborate. User A should first [publish](IAN) the book. When User B accesses the book (from the **Shared with me** tab), Codio will take a snapshot of the published book and User B can start work on it. In other words, User B is **not** editing User A's book, User B has a clone.
+Let's say User A has created a book and authored some content. User A now wants User B to be able to collaborate. User A should first [publish](IAN) the book. Be aware that if User A does not publish the book, then User B will start with an empty book. 
+
+When User B accesses the book (from the **Shared with me** tab), Codio will take a snapshot of the published book and User B can start work on it. In other words, User B is **not** editing User A's book, User B has a clone.
 
 User B now makes changes to the book. When done, User B should publish the book and inform User A that the changes are complete and published. At this point, when User A opens the project, a dialog will appear showing that User B has published new changes. User A can now update her own version of the book from this published version. And so the cycle continues. 
 

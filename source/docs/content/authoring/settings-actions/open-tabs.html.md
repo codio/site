@@ -27,7 +27,7 @@ Files can be opened automatically to present the panel configuration you feel is
 
 The **Add Tab** button allows you to create multiple lines into your configuration to address most scenarios you are likely to encounter.
 
-You can also drag and drop files in from your project file tree to the page to add them to the Open Tabs section so that file will be opened in a tab for the reader as well as Drag and Drop on the Open Tabs area in Guides.
+You can also drag and drop files in from your project file tree to the page to add them to the Open Tabs section so that file will be opened in a tab for the reader as well as Drag and Drop on the Open Tabs area in the content.
 
 **Please note:** Image files dragged in to a page will be automatically tagged to display within the content rather than in a new panel. If you wish to have an image file open in a panel, then you would need to add it directly in the Open Tabs area. You can also drag/drop from the file tree. The correct path to the file will be included.
 
@@ -56,7 +56,7 @@ Please note, if the site you want to preview prevents embedding in an iframe the
 ### Opening Terminal and running system commands
 To open a Terminal window select the **Terminal** option.
 
-You can also specify a terminal command to run when a section is displayed. For example, your Guide may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a Guide is running) at a certain point in your Guide.
+You can also specify a terminal command to run when a section is displayed. For example, your tutorial may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a tutorial is running) at a certain point in your tutorials.
 
 <img alt="authtoken" src="/img/docs/guides/type_terminal.png" class="simple"/>
 

@@ -5,7 +5,7 @@ full_width: true
 ---
 
 ### Add new section
-To add a section to your Guides, you open up the Sections List by pressing the **Hamburger** icon. 
+To add a section to your content, you open up the Sections List by pressing the **Hamburger** icon. 
 
 <img alt="authtoken" src="/img/docs/guides/add-section.png" class="simple"/>
 

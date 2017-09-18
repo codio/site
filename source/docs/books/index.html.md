@@ -14,7 +14,7 @@ A Codio book still sits on top of a Codio box so you have the same capabilities 
 We strongly recommend you have a thorough understanding of the following before embarking on large scale books.
 
 - [Content authoring](/docs/content/authoring)
-- [Courses](/docs/courses), especially how [courses map to books](IAN)
+- [Courses](/docs/courses), especially how [courses map to books](/docs/courses/units/unit-add)
 - [Assigning content to classes](/docs/classes/unitmanagement/assign-module)
 - Limitations (see below)
 

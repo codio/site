@@ -9,7 +9,7 @@ The experience when authoring differs from that of a student. Students are not a
 If you are an author, you will often want to view the content as a student will see it. 
 
 ### Editing
-Only an author is able to edit the content. Students and users with read-only rights will not be able to. [Click here](IAN) for details on page editing.
+Only an author is able to edit the content. Students and users with read-only rights will not be able to. [Click here](/docs/content/authoring/page-edit) for details on page editing.
 
 ### Preview
 You can press the preview button in the top right area of the edit pane. This will switch to preview mode. You can then switch back to editor mode by pressing the **Editor** button.
@@ -28,7 +28,7 @@ Finally, there is also a button at the top of the file tree that launches the co
 
 When the content is rendered to a student, various options can be controlled
 
-- The **Collapse table of contents**  button allows the user to collapse the Guides pane to provide larger working area if required.
+- The **Collapse table of contents**  button allows the user to collapse the content pane to provide larger working area if required.
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
 - **Settings** allows the user to view the unit as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/docs/dashboard/student/dyslexia/) section
 - **[Show/Hide Section List Hamburger Icon](/docs/content/authoring/collapse/)** allows the user to show/hide the section list.

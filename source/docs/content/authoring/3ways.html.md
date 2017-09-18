@@ -9,7 +9,7 @@ When you think about authoring content you should be aware of the three differen
 ### Projects
 A project is simply a Codio box with or without tutorial content. You would want to choose a project as the place to create your content if you have individual, standalone type assignments or examples that do not constitute coursework or are not part of a larger series of associated projects.
 
-A project can be [assigned to a class]() at any time. All the students in that class will then be able to access that project and its content. 
+A project can be [assigned to a class](/docs/classes/unitmanagement/assign-project) at any time. All the students in that class will then be able to access that project and its content. 
 
 There are drawbacks to using projects to assign to students. As your list or projects grows Books it can be hard to quickly find a project you want to assign to a class. There is also no way to arrange your projects into chronological order. Courses and books offer solutions.
 

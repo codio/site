@@ -20,4 +20,4 @@ Another approach that works for the current page is to switch Layout mode to Spl
 <img alt="authtoken" src="/img/docs/guides/split-button.png" class="simple"/>
 
 ### Play 
-You can also start the Guide player from the **Tools->Guides->Play** menu. This is not as flexible as using preview mode but it will start the Guide in play mode from the first page.
+You can also start the Guide player from the **Tools->Author Content->Play** menu. This is not as flexible as using preview mode but it will start the Guide in play mode from the first page.

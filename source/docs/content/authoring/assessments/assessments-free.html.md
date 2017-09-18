@@ -20,12 +20,16 @@ Setting up a Free assessment within the Guide editor is very simple. As you can 
 - **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/classes/unitmanagement/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 
-<img alt="authtoken" src="/img/docs/guides/assessment_free.png" class="simple"/>
+<img alt="Free text assessment" src="/img/docs/guides/assessment_free.png" class="simple"/>
 
 ## Preview type
-The following preview options are available. They dictate the expected input format and whether a fully rendered preview pane appears below the student input. Markdown is useful if the student wants to enter text formatting commands. Please [click here]( IAN ) for information on markdown. 
+The following preview options are available. They dictate the expected input format and whether a fully rendered preview pane appears below the student input. Markdown is useful if the student wants to enter text formatting commands. 
+Here are a couple of references for markdown:
 
-Latex is useful where you want students to enter mathematical formulae in their answers. [Click here]( IAN ) for information on Latex.
+- [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of markdown
+- [Bill Powell Is Alive](http://billpowellisalive.com/blog/markdown-syntax) - for those with less sharp eyesight
+
+Latex is useful where you want students to enter mathematical formulae in their answers. [Click here](/docs/content/authoring/page-edit/latex/) for information on Latex.
 
 - **Plaintext** - the student is expected to enter ordinary text, without support for markdown formatting. There is no preview window.
 - **Plaintext + Latex** - this expects plaintext to be entered, therefore no support for markdown with additional support for Latex commands. A preview pane is shown beneath so the student is able to see the rendered Latex output. 

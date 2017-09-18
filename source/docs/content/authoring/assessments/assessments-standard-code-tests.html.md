@@ -9,7 +9,7 @@ If you want to write code tests that give you in depth control by allowing you t
 The approach taken by the Standard Code Tests is to specify input data using a dialog and then specify the expected output for that input data. Codio will then execute the student code, supplying the specified input data, and compare the expected output data to the data actually output by the student code.
 
 ### Sample Starter Pack
-There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all types of auto-graded assessments as well as a Codio Guides cheat sheet.
+There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all types of auto-graded assessments as well as a Codio authoring cheat sheet.
 
 ### Basic setup
 The screenshot below shows the basic configuration fields

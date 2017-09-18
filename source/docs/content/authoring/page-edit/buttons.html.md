@@ -7,7 +7,7 @@ Custom buttons are a powerful feature that let you insert a button into your Gui
 
 There are a number of ways to use a custom button
 
-## To jump to a page in the Guides
+## To jump to a page in the content
 This will jump to a specific page in the guide
 
 ```javascript
@@ -49,7 +49,7 @@ To do this, you should use the following format for your custom button.
 ```
 
 ## Loading Scripts
-You should point your Guide page to a script file to load (**Settings>Global>Scripts**). Although you will see this field for all pages, you would usually just reference any scripts that need loading just once, best on the first page. You can reference more than one script over several lines. Any script files that are referenced anywhere within the Guide will always be loaded when the Guide plays.
+You should point your content page to a script file to load (**Settings>Global>Scripts**). Although you will see this field for all pages, you would usually just reference any scripts that need loading just once, best on the first page. You can reference more than one script over several lines. Any script files that are referenced anywhere within the content will always be loaded when the Guide plays.
 
 <img alt="authtoken" src="/img/docs/guides/scripts.png" class="simple"/>
 
@@ -80,7 +80,7 @@ window.addEventListener('codio-button-custom', function (ev) {
 });
 ```
 
-- `ev.id` is the Guides internal id for the button.
+- `ev.id` is the contents internal id for the button.
 - `ev.cmd` is the `myId` text you specified in the button with `{Button Text|custom}(myId)`. This is typically used to indicate the id of the test you wish to run or just the specific button that is being pressed.
 
 The available button commands are 

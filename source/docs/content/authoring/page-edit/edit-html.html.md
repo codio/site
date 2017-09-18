@@ -5,7 +5,7 @@ full_width: true
 ---
 
 ## Setting HTML
-You can specify that an individual page be authored using HTML from the Guides **Settings**. You will find the **Content type** dropdown where you can switch between HTML and Markdown.
+You can specify that an individual page be authored using HTML from the content **Settings**. You will find the **Content type** dropdown where you can switch between HTML and Markdown.
 
 ## CSS header and footer
 In order to style your content properly, you should use the **Edit HTML header** and **Edit HTML footer** settings. These can be found in the main **Settings** area on the **Global** tab.
@@ -33,7 +33,7 @@ And here is the footer.
 ```
 
 ## Support functions
-In a Guides page authored using Markdown, you are able to create buttons and other actions. We provide some javascript functions that support the same functionality.
+In a page authored using Markdown, you are able to create buttons and other actions. We provide some javascript functions that support the same functionality.
 
 **Important** : if you use any of the functions listed below then you must load `https://codio.com/codio-client.js`in the HTML Header as shown in the example above.
 

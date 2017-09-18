@@ -5,9 +5,9 @@ full_width: true
 ---
 
 ## Cheat Sheet
-Please refer to the **Callout** section of the Guides Books Cheat Sheet. If you have not done so already, fork [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project. 
+Please refer to the **Callout** section of the Books Cheat Sheet. If you have not done so already, fork [this starter pack](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) into your own account. You should select the **Use Pack** option to create the project. 
 
-Guides content can be written in 
+Content can be written in 
 
 - **Markdown** - the recommended option and described on this page
 - **HTML** allowing more detailed control but requiring more time; described on the next page.
@@ -23,7 +23,7 @@ When you are in Edit mode, you can select a section by
 ## Renaming the Section
 You can rename your section by clicking on the section title in the header area.
 
-##Writing Guide content
+## Writing content
 You can then start writing your content in the main content area.
 
 ## Markdown
@@ -160,6 +160,6 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 To present formula 'inline', enclose within a single `$` 
 
 
-## Guides Cheat Sheet
+## Cheat Sheet
 
-Check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.
+Check out our [Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review.

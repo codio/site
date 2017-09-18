@@ -1,5 +1,5 @@
 ---
-title: Test Students
+title: Test students
 class_name: docs
 full_width: true
 ---

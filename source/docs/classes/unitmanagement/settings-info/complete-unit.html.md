@@ -1,9 +1,11 @@
 ---
-title : Force unit completion
+title : Force marked as completed
 description: ""
 class_name: docs
 full_width: true
 ---
+
+[IAN - no links to autograde scripts]
 
 Certain actions can be triggered when a student marks a unit as complete
 

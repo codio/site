@@ -1,14 +1,6 @@
-assign-module
 assign-project
+assign-module
+upgradecourse
 teststudents
 settings
-upgradecourse
-updateunit
-disable
-pin
-edit-unit
-teachersolutions
-unit-duration
-reset-unit
-complete-unit
-autograde
+settings-info

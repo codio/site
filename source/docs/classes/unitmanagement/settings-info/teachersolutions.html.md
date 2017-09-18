@@ -1,13 +1,11 @@
 ---
-title: View teacher solutions
+title: Open as teacher
 description: ""
 class_name: docs
 full_width: true
 ---
 
-You can view the teacher solution notes for all auto-graded assessments.
-
-To view the notes:
+You can open the unit in teacher mode. This allows you to see any content that is for teachers' eyes only. This includes hidden content and teacher solutions auto-graded assessments.
 
 1. From the **Classes** area, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>

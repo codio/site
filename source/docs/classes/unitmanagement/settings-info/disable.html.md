@@ -1,5 +1,5 @@
 ---
-title: Disable/Enable units
+title: Disable/enable units
 class_name: docs
 full_width: true
 ---

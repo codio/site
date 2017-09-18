@@ -21,8 +21,8 @@ The two autograding options can be found in the Unit settings.
 
 The two options can be found in the AUTOGRADE METHOD drop-down list.
 
-### Transferring Guide assessment total
-If you have created auto-graded assessments within your Guide, Codio aggregates all scores so you can see these within the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/docs/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/docs/classes/monitor/grading).
+### Transferring authored content assessment total
+If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see these within the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/docs/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/docs/classes/monitor/grading).
 
 
 ### Running a custom script
@@ -35,13 +35,13 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 ### Secure scripts
 If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
 
-**Important** : you should only place scripts in the `.guides/secure` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio Guides there as this folder will not accessible at that point.
+**Important** : you should only place scripts in the `.guides/secure` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio authored content there as this folder will not accessible at that point.
 
 ### Timeout
 Your script must execute within 3 minutes or a timeout error will occur.
 
-### Accessing Guide assessment results
-You are able to get scores attained by students in Guides based autograded assessments. This data is in JSON format and can be accessed from the `CODIO_AUTOGRADE_ENV` environment variable. Below is an example.
+### Accessing authoed content assessment results
+You are able to get scores attained by students in authored content based autograded assessments. This data is in JSON format and can be accessed from the `CODIO_AUTOGRADE_ENV` environment variable. Below is an example.
 
 ```
 {

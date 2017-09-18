@@ -23,7 +23,7 @@ Take a look at the '[Schools Computing Curriculum](https://codio.com/home/course
 
 ## Authoring your own content
 
-Please read the [Authoring Strategies](/docs/content/authoring/strategies) section first. Ideally, you should also have read the full [Authoring](/docs/content/authoring) section and created your first project with Codio Guides, ready to be turned into a Unit.
+Please read the [Authoring Strategies](/docs/content/authoring/strategies) section first. Ideally, you should also have read the full [Authoring](/docs/content/authoring) section and created your first project with Codio content, ready to be turned into a Unit.
 
 
 ## Direct Access vs. Classes
@@ -46,12 +46,12 @@ A unit is the actual teaching content. You can edit the descriptions as well as 
 ## How Units are published and updated
 When an author publishes a Unit, a copy of the source project is made and stored separately in the Codio platform. Any subsequent changes to the source project will not be seen, so it is safe to make changes without concern for how these changes will affect students who are already working on a Unit.
 
-When you have finished updating the source project and are ready to update the Unit, you should find your Unit in its parent Module, press the Edit Units slider and then press Refresh Source. 
+When you have finished updating the source project and are ready to update the unit, you should find your unit in its parent module, press the edit units slider and then press refresh Source. 
 
 It could happen that a student starts on a Unit and afterwards the Unit's author updates the content. You should be aware that the student will not see any changes 
 
 - while the author is updating the source project from which the Unit was taken
-- if the Unit is subsequently updated from its source project. In order for the student to see the modified unit, the student's Unit project should first be deleted and then the Unit restarted. The drawback to this is that any assessments taken and the associated data is lost.
+- if the Unit is subsequently updated from its source project. In order for the student to see the modified unit, the student's unit project should first be deleted and then the Unit restarted. The drawback to this is that any assessments taken and the associated data is lost.
 
 
 

@@ -19,8 +19,8 @@ However, we can easily add coverage for any other Topic. If you are interested i
 
 <img alt="authtoken" src="/img/docs/lexicon.png" class="simple"/>
 
-## Using the Lexikon with Guides
-To make accessing the Lexikon from your Guides content even easier, we have a Global Option in the Guides settings that lets you specify the default topic to select. If you use this option, an icon will appear in the Guide toolbar that will load the Lexikon window with the selected topic automatically selected.
+## Using the Lexikon with tutorial content
+To make accessing the Lexikon from your content even easier, we have a Global Option in the Guides settings that lets you specify the default topic to select. If you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected.
 
 Click the **Settings** button, then select the **Global** tab. You can then specify the Topic name in the available field. 
 

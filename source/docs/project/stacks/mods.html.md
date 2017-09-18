@@ -6,7 +6,7 @@ full_width: true
 
 A Codio project, course unit or book always has a stack associated with it. When you create a new project you specify the stack. You can also [switch a project's stack](/docs/project/stacks/switch) at any time.
 
-You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course unit or book and make the stack changes from the [command line](/docs/ide/boxes/terminal). The concepts behind this are explained in detail on the [What is a stack?]() page.
+You can modify the stack at any time. You do not do this directly. Instead, you open up a project, course unit or book and make the stack changes from the [command line](/docs/ide/boxes/terminal). The concepts behind this are explained in detail on the [What is a stack?](/docs/project/stacks/stack-overview/) page.
 
 To modify a stack you should be aware of the following rules.
 

@@ -7,14 +7,14 @@ full_width: true
 Once you are in the Codio IDE, you are able to edit the book contents. There are two ways to start editing a Book.
 
 - Press then right arrow at the top of the file tree. 
-<img alt="startguides" src="/img/docs/guides/startguides.png" class="simple"/>
-- From the menu, select **Tools->Guides->Edit**.
+<img alt="startauthouring" src="/img/docs/guides/startguides.png" class="simple"/>
+- From the menu, select **Tools->Author Content->Edit**.
 
 ### Editing page content and actions
 Please refer to the following pages for details in how to edit page content and control page actions.
 
-- [Page content](/docs/content/authoring/page-edit): Please [click here](/docs/content/authoring/page-edit) for details on how to edit a pages content using markdown or HTML.
-- [Page actions](/docs/content/authoring/page-edit) : Opening and closing files, panel configuration, hiding folders and other settings.
+- [Page Editing](/docs/content/authoring/page-edit/) for details on how to edit a pages content using markdown or HTML, hiding folders and other actions.
+- [Settings and page actions](/docs/content/authoring/settings-actions) : Opening and closing files, panel configuration and other settings
 
 ### Editing a book
 The image below highlights the main components of the book editing page. 

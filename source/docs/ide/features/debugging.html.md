@@ -105,8 +105,8 @@ The debug panel also contains other useful features.
 - **Console** - the console has two main functions; it displays status messages from the system in bold and your code can output data there by writing output to the console  (for example a `print('message')` statement in Python).
 
 
-### Launching the debugger from Codio Guides
-It is also possible to launch any debugger configuration from a Guides page. Please [click here](/docs/content/authoring/buttons/) for details.
+### Launching the debugger from Codio tutorial content
+It is also possible to launch any debugger configuration from a page. Please [click here](/docs/content/authoring/buttons/) for details.
 
 
 

@@ -39,6 +39,6 @@ Editing a unit does not affect published course content or content assigned to c
 
 1. **More edits to a unit**. After publishing, you may decide to make further changes. These changes do not form a part of the published course unit until you republish, so you can edit without concern for altering published content. 
 1. **Republish**. Having made more changes, you can publish the unit again in order to make those changes available to the course. However, publishing does not affect units already assigned to a class.
-1. **Update class**. If you had assigned a course module to a class and subsequently updated and published a unit within that module, then units within that module are not automatically updated in the class. You need to explicitly do this by going to the class. You should see [a red **Upgrade Course** button](/docs/classes/unitmanagement/upgradecourse). This allows you to selectively update units.
+1. **Update class**. If you had assigned a course module to a class and subsequently updated and published a unit within that module, then units within that module are not automatically updated in the class. You need to explicitly do this by going to the class. You should see a red [**Upgrade Course** button](/docs/classes/unitmanagement/upgradecourse). This allows you to selectively update units.
 
 

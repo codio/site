@@ -29,7 +29,7 @@ Editor settings gives you access to the key functions:
   - **[Teacher Only](/docs/content/authoring/page-edit/solutions/)** allows you to show content that only teachers are able to see.
   - **Content Type** allows you to write your content in either [Markdown](/docs/content/authoring/page-edit/edit/) or [HTML](/docs/content/authoring/page-edit/edit-html/) 
 
-### [Open Tabs](/docs/content/authoring/settings-actions/auto-open/)
+### [Open Tabs](/docs/content/authoring/settings-actions/open-tabs/)
 allows you to specify:
 
   - which files you want to automatically open when the current section is displayed,

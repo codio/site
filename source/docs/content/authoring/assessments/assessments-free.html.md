@@ -29,7 +29,7 @@ Here are a couple of references for markdown:
 - [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of markdown
 - [Bill Powell Is Alive](http://billpowellisalive.com/blog/markdown-syntax) - for those with less sharp eyesight
 
-Latex is useful where you want students to enter mathematical formulae in their answers. [Click here]( IAN ) for information on Latex.
+Latex is useful where you want students to enter mathematical formulae in their answers. [Click here](/docs/content/authoring/page-edit/latex/) for information on Latex.
 
 - **Plaintext** - the student is expected to enter ordinary text, without support for markdown formatting. There is no preview window.
 - **Plaintext + Latex** - this expects plaintext to be entered, therefore no support for markdown with additional support for Latex commands. A preview pane is shown beneath so the student is able to see the rendered Latex output. 

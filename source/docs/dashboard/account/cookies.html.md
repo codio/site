@@ -2,11 +2,9 @@
 title: "Cookie Requirements"
 ---
 
-In order for Codio to work correctly you need to allow cookies.
+In order for Codio to work correctly you need to allow cookies. Check our [Privacy Policy](/legal/privacy/) for more information about cookies.
 
-Check our [Privacy Policy](/legal/privacy/) for more information about cookies.
-
-In order for Codio to work correctly you need to allow cookies.
+In order for Codio to work correctly you need to allow cookies. The following information explains how to enable cookies for all sites. You can also enable them only for certain sites, which is not explained below.
 
 #### To enable cookies in Chrome:
 

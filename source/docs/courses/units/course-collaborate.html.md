@@ -1,13 +1,22 @@
 ---
-title: Collaborating on content
+title: Collaborating on project units
 class_name: docs
 full_width: true
 ---
 
-If you want to collaborate on project units or books, then you should use Git. Two users should not simultaneously edit the same authored content due to possible corruption issues. 
+By default, a project unit is available for editing to any user with a teacher role in your organization. 
 
-The best way to manage this and to incorporate source control management at the same time is to use Git. Authored content works very nicely with Git on a page by page basis.
+MAX - what about teachers outside the org who can access the course?
 
-There can occasionally be issues arising from conflicts within the `books.json` file and these will need to be resolved by hand.
+If you want 2 or more people to collaborate on a project unit, you need to understand how Codio manages this process.
 
-[Click here](IAN - the one in the authoring section) for a full discussion on collaboration using Git.
+The key thing you need to realize is that unless you are familiar with Git, **only one user should make changes at a time**. If User A and User B want to collaborate, then they need to inform the other that they are working on the content. If they fail to do so, then one person will have to surrender their changes later on.
+
+Let's say User A has authored a unit. User A now wants User B to be able to collaborate. User A should first inform User B that the unit is ready to edit. When User B accesses the unit, Codio will take a snapshot of the published unit and User B can start work on it. In other words, User B is **not** editing User A's unit, User B has a clone.
+
+User B now makes changes to the unit. When done, User B should inform User A that the changes are complete and published. At this point, when User A opens the unit for editing, a dialog will appear showing that User B has published new changes. 
+COMPLETE
+
+You can do this with as many users as you like, provided that only one user is making changes at a time.
+
+Git offers a more comprehensive solution but it requires familiarity with Git.

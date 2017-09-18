@@ -9,7 +9,7 @@ The experience when authoring differs from that of a student. Students are not a
 If you are an author, you will often want to view the content as a student will see it. 
 
 ### Editing
-Only an author is able to edit the content. Students and users with read-only rights will not be able to. [Click here](IAN) for details on page editing.
+Only an author is able to edit the content. Students and users with read-only rights will not be able to. [Click here](/docs/content/authoring/page-edit) for details on page editing.
 
 ### Preview
 You can press the preview button in the top right area of the edit pane. This will switch to preview mode. You can then switch back to editor mode by pressing the **Editor** button.

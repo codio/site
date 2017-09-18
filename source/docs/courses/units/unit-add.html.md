@@ -14,7 +14,7 @@ You add a new unit by pressing the large blue **+** button. You now need to choo
 - a project unit
 - a book unit
 
-[Click here](IAN) if you are not sure about the difference between project units and book units.
+[Click here](/docs/content/authoring/3ways) if you are not sure about the difference between project units and book units.
 
 
 ### New project unit

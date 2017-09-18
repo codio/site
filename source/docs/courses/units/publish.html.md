@@ -11,7 +11,7 @@ Book units are published from the books area. Let's say you have already publish
 
 [IAN - image pls]
 
-After pressing this, the books changes will be reflected in the unit. If you want these changes to be passed through to a class where the unit was previously added, then please [click here](IAN) for details.
+After pressing this, the books changes will be reflected in the unit. If you want these changes to be passed through to a class where the unit was previously added, then please [click here](/docs/classes/unitmanagement/upgradecourse) for details.
 
 ## Publishing project units
 
@@ -28,7 +28,7 @@ Publishing the unit takes a snapshot of the underlying project unit and assigns 
 <img alt="versions" src="/img/docs/versions.png" class="simple"/>
 
 ### Describe changes
-You should enter a brief description of the changes you made since the last publish of the unit. You can see the version history on the  [versions screen](IAN).
+You should enter a brief description of the changes you made since the last publish of the unit. You can see the version history on the  [versions screen](/docs/courses/units/settings/).
 
 ### Only workspace changes made
 If, in your unit project, you have only made changes to the workspace (the workspace is the contents of the file tree in the IDE or `/home/codio/workspace`) then you only need to enter the changelog text, which is a description of the changes made since the last publish.

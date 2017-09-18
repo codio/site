@@ -25,7 +25,7 @@ For editing, you need to give permission to a user or an organization with write
 
 The permissions can be changed by selecting the **Permissions** tab on the book settings screen. You should first specify which user or organization you want to grant permissions to. You need to know the precise organization or user name and this is case sensitive. We do not support lookups as the potential for incorrect assignment is too great.
 
-[IAN - image please]
+<img alt="Book permissions" src="/img/docs/book-permissions.png" class="simple"/>
 
 You can grant the following permissions.
 
@@ -34,7 +34,7 @@ You can grant the following permissions.
 
 The key thing you need to realize is that unless you are familiar with Git, **only one user should make changes at a time**. If User A and User B want to collaborate, then they need to inform the other that they are working on the content. If they fail to do so, then one person will have to surrender their changes.
 
-Let's say User A has created a book and authored some content. User A now wants User B to be able to collaborate. User A should first [publish](IAN) the book. Be aware that if User A does not publish the book, then User B will start with an empty book. 
+Let's say User A has created a book and authored some content. User A now wants User B to be able to collaborate. User A should first [publish](/docs/books/publish) the book. Be aware that if User A does not publish the book, then User B will start with an empty book. 
 
 When User B accesses the book (from the **Shared with me** tab), Codio will take a snapshot of the published book and User B can start work on it. In other words, User B is **not** editing User A's book, User B has a clone.
 

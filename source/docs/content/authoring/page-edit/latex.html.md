@@ -33,6 +33,6 @@ Click here :[Stack Exchange](https://math.meta.stackexchange.com/questions/5020/
 ### Detextify
 [Detextify](http://detexify.kirelabs.org/classify.html) is an excellent way of finding a Latex symbol by free hand drawing it on the screen using your mouse or touchpad. 
 
-![](.guides/img/detextify.png) IAN - I put this image in the docs folder. Please fix up.
+<img alt="Detextify" src="/img/docs/detextify.png" class="simple"/>
 
 **Important:** you should not use commands that are not in the standard package. In the image above, you can see the last one has a \usepackage command. Symbols in a special package may not work.

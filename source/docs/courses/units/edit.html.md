@@ -9,7 +9,7 @@ If you want to edit book unit content, then you need to edit the book itself. Yo
 
 [IAN - image pls]
 
-If you have added new content then you can also remap the unit to the book as described on the [adding a unit](IAN) page.
+If you have added new content then you can also remap the unit to the book as described on the [adding a unit](/docs/books/unit-book) page.
 
 
 ### Editing a project unit

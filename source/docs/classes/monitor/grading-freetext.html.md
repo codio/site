@@ -16,5 +16,5 @@ Note that if a student has started to answer a question but not submitted the an
 
 If a class deadline is reached, then you can grade questions that are  set to **DRAFT** and where the student may have forgotten to submit the answer fully.
 
-You can also see the date and time for each submitted answer as well as the date that the unit was [marked as complete](IAN) by the student.
+You can also see the date and time for each submitted answer as well as the date that the unit was [marked as complete](/docs/classes/unitmanagement/settings-info/complete-unit) by the student.
 

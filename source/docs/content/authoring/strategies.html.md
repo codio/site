@@ -13,7 +13,7 @@ The best way to author content is using markdown. It is extremely easy to write 
 We have a Cheat Sheet project that you can use to see the full capabilities. To fork this starter pack into your won account, please [click here](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/). You should select the **Use Pack** option to create the project. 
 
 ### Courses and Books
-We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course units and books](IAN).
+We strongly recommend that when you are creating content at scale then you have a thorough understanding of [the differences between projects, course units and books](/docs/content/authoring/3ways).
 
 ### Media assets
 When creating a book or a guide, you will often be working with images, video and other media. We recommend the following.

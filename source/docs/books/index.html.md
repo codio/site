@@ -13,13 +13,13 @@ A Codio book still sits on top of a Codio box so you have the same capabilities 
 ### Recommendations
 We strongly recommend you have a thorough understanding of the following before embarking on large scale books.
 
-- [Content authoring](IAN)
-- [Courses](IAN), especially how [courses map to books](IAN)
-- [Assigning content to classes](IAN)
+- [Content authoring](/docs/content/authoring)
+- [Courses](/docs/courses), especially how [courses map to books](IAN)
+- [Assigning content to classes](/docs/classes/unitmanagement/assign-module)
 - Limitations (see below)
 
 ### Limitations, restrictions and when not to use a book
-There are cases where authoring your content in a book is not appropriate. For more information on this, please refer to [limitations and restrictions](IAN).
+There are cases where authoring your content in a book is not appropriate. For more information on this, please refer to [limitations and restrictions](/docs/books/limitations).
 
 
 ### Courses
@@ -30,5 +30,5 @@ Although it is entirely up to the book author, a book will usually contains a nu
 
 You should make a decision as to when assessments should be in the book and when they are better suited to a project unit. Generally speaking, standard assessments that are used to monitor student engagement with content belong in the book.
 
-Questions that are assigned to a class for homework or lab assessments could also go in a book but are usually better in a course project unit. Please refer to [limitations and restrictions]() for a discussion on cheating related risks to putting assessments in a book.
+Questions that are assigned to a class for homework or lab assessments could also go in a book but are usually better in a course project unit. Please refer to [limitations and restrictions](/docs/books/limitations) for a discussion on cheating related risks to putting assessments in a book.
 

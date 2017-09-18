@@ -9,7 +9,7 @@ Because a book sits on a single Codio box, if the student is able to access the 
 
 Here are some specific things to be aware of.
 
-- **Auto grade script**: in [unit settings](IAN - link to script in settings), you can specify an auto grade script to execute when the student makes the unit as complete. You can still use this but if the script you are executing needs to be unit specific, then you should include an argument that is passed to your script so it knows the unit context.
+- **Auto grade script**: in [unit settings](/docs/classes/unitmanagement/settings#autograde), you can specify an auto grade script to execute when the student makes the unit as complete. You can still use this but if the script you are executing needs to be unit specific, then you should include an argument that is passed to your script so it knows the unit context.
 - **Plagiarism** - plagiarism detection will work but does not make sense for courses where you would have multiple code assignments
 - **Mark as complete**: this works as expected but it cannot set the project to be read-only as the book project can be mapped to other units which will require access.
 - **Secure assessments** - if it is important that you minimize the risk of student cheating, then you should be aware of the fact that students may be able to access the terminal window and access all parts of the underlying box. As a result, we would that more secure assessments are placed in project units rather than book based units. This also allows full disabling and setting a project to read-only after being marked as complete.

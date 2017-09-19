@@ -23,7 +23,7 @@ We strongly recommend that you are familiar with the following concepts if you p
 - [Stacks](/docs/project/stacks)
 - [Starter Packs](/docs/project/packs)
 - [Authoring tutorial content with Codio Guides and Books](/docs/content/authoring)
-- [Courses](/docs/courses)
+- [Courses](/docs/courses/introduction/)
 - [Class management](/docs/classes/classmanagement)
 
 

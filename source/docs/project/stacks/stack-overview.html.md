@@ -56,6 +56,6 @@ If you have modified the stack in any way, then there are a few use-cases that c
 Remember, when you [switch a project’s stack](/docs/project/stacks/switch) from **Project->Settings->Stack settings**, all stack modifications that you may have made relative to the original stack will be replaced by the new stack. Usually this is fine as you would have first created the new stack from the project before switching. 
 
 ### Books
-Codio Books are somewhat different. There is an explanation above on handling stack modifications for Books. You can [refer to the main Books section](/docs/content/authoring/books).
+Codio Books are somewhat different. There is an explanation above on handling stack modifications for Books. You can [refer to the main Books section](/docs/books).
 
 

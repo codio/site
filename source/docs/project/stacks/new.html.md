@@ -6,7 +6,7 @@ full_width: true
 
 Please make sure you have read [What is a stack?](/docs/project/stacks/stack-overview) as this contains important concepts and information.
 
-This page explains how to create a new stack or a new stack version from a project. Stack management for [course units](/docs/project/stacks/stack-overview) and [books](/docs/content/authoring/books/publish) is handled by the publish action and is explained in their respective sections.
+This page explains how to create a new stack or a new stack version from a project. Stack management for [course units](/docs/courses/units/publish) and [books](/docs/books/publish) is handled by the publish action and is explained in their respective sections.
 
 ## Create new stack from the IDE
 With the project open in the IDE, select the menu option **Project->Stack->Create New**. This will allow you to create a new stack or a new version of an existing stack you have the rights to update. By default it will be private to you. If you wish to make it available to others, please refer to the **Visibility** information below.

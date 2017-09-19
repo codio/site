@@ -29,4 +29,4 @@ See also:
 - [Creating and importing a project](/docs/project/creating/)
 - [Creating a Stack](/docs/project/stacks/new/)
 - [Creating a Pack](/docs/project/packs/create/)
-- [Creating a course](/docs/courses/course-create)
+- [Creating a course](/docs/courses/manage/course-create)

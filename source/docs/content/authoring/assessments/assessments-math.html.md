@@ -15,10 +15,8 @@ You can enter Latex in the **Question** and **Answer rationale** fields.
 
 You should also set the **Preview type** drop down to either **Plaintext + Latex** or **Markdown + Latex**. Both of these ensure that the student sees a preview pane beneath their answer entry fully rendered in markdown and/or Latex. Please [click here](/docs/content/authoring/assessments/assessments-free/) to review the free text assessment.
 
-IAN - Image of a math type free text assesment previewed : call to discuss
 
 ## Multiple choice
 You can use the multiple choice assessment type to create answers containing properly rendered Latex expressions. 
 
-IAN - Image of a  math type MCQ previewed : call to discuss
 

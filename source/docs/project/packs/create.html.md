@@ -15,7 +15,7 @@ You need to tell Codio where to get its source code from. There are two options
 ## Selecting a Stack
 Each Starter Pack requires a [Stack](/docs/project/stacks/). If you only need a base Ubuntu Box, then you do not need to specify a Stack.
 
-Please be aware that a Starter Pack is simply a Codio Stack plus a code workspace. If you based your Starter Pack on a Project that has had the Box modified (aditional Box components installed, npm global install etc.), then these will not be present in a Project created from the Starter Pack.
+Please be aware that a Starter Pack is simply a Codio Stack plus a code workspace. If you based your Starter Pack on a Project that has had the Box modified (additional Box components installed, npm global install etc.), then these will not be present in a Project created from the Starter Pack.
 
 ## Description Details
 You can add short and long descriptions as well as an image and tags. Tags are important and will allow you and others to find Packs in a more targeted fashion.
@@ -33,4 +33,4 @@ If you want to keep your Starter Pack private to your Organization, you can sele
 You can specify whether other Codio Users within your Organization are able to access and Administer your Packs. If you are not a member of an Organization, this cannot be used.
 
 ##Write a tutorial
-[Codio tutorials](/docs/content/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a Starter Pack for tuition purposes, this is extremely useful and easy to use.
+[Codio guide](/docs/content/authoring/) is a very powerful content authoring feature that lets you write course content that is fully integrated into the IDE. So if you are creating a starter pack for tuition purposes, this is extremely useful and easy to use.

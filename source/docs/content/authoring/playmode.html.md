@@ -14,7 +14,7 @@ Only an author is able to edit the content. Students and users with read-only ri
 ### Preview
 You can press the preview button in the top right area of the edit pane. This will switch to preview mode. You can then switch back to editor mode by pressing the **Editor** button.
 
-You can also start the preview mode from the **Tools->Author Content->Play**.
+You can also start the preview mode from the **Tools->Guide->Play**.
 
 Finally, there is also a button at the top of the file tree that launches the content.
 

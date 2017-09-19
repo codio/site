@@ -15,7 +15,7 @@ Codio has powerful authoring capabilities that let you create rich tutorial cont
 ## Where is it?
 You can launch the content authoring from 
 
-- The menu, **Tools->Author content->Edit**
+- The menu, **Tools->Guide->Edit**
 - The button at the top of the file tree as shown below
 
 <img alt="Start Authoring" src="/img/docs/startguides.png" class="simple"/>

@@ -47,7 +47,7 @@ Many of Codio's assessment types (code tests, multiple choice questions, text, f
 [Click here](/docs/content/authoring/assessments) for more on creating assessments.
 
 ### Layouts
-The editor lets you create different panel layouts for your tutorial content and the layout can change from section to section. 
+The editor lets you create different panel layouts for your guide content and the layout can change from section to section. 
 
 [Click here](/docs/content/authoring/settings-actions/page) for more information on panel layouts.
 

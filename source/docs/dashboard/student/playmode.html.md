@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-To see your content running, you need to *Play* it. If the content does not automatically start or of you have closed it, go to **Tools->Author Content->Play** menu option or click the **Start** icon in the file tree:
+To see your content running, you need to *Play* it. If the content does not automatically start or of you have closed it, go to **Tools->Guide->Play** menu option or click the **Start Guide** icon in the file tree:
 
 <img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 

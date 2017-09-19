@@ -1,5 +1,5 @@
 ---
-title: "Tutorial Tools"
+title: "Guides"
 
 ---
 
@@ -21,7 +21,7 @@ When you have completed a unit you can mark it as completed. This can be done fr
 - Your [My Classroom](/docs/dashboard/student/myclassroom/) area
 - In the settings (click the gear icon)
 	<img alt="Complete" src="/img/docs/guides/complete.png" class="simple"/>
-- From the last page in the tutorial.
+- From the last page in the guide.
 
 If you mark a unit as complete in error, discuss with your class instructor/teacher who can reset the unit so you can access it again
 
@@ -29,7 +29,7 @@ If you mark a unit as complete in error, discuss with your class instructor/teac
 
 The Codio Lexikon is an integrated help system that lets you lookup information on a variety of languages and topics quickly and easily. Having access to concise reference information as new topics are learned is extremely useful and saves having to search the web and separate the wheat from the chaff!
 
-You can access the Lexikon at any time from within a coding project or tutorial Unit from the Tools menu.
+You can access the Lexikon at any time from within a coding project or unit from the tools menu.
 
 The Lexikon is organized into Topics. We currently have added 
 

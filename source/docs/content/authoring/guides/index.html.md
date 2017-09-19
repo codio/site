@@ -6,7 +6,7 @@ full_width: true
 
 **IMPORTANT**: this section relate to the editing of the table of contents for a project or a project unit within a course, but not a book. Books have a more sophisticated table of content, so please [click here](/docs/books/toc) for information when editing the books table of content.
 
-To create new content or to edit existing content, go to the **Tools->Author content** menu option.
+To create new content or to edit existing content, go to the **Tools->Guide** menu option.
 
 Use the Layout modes to switch between editor, preview, code and split view modes.
 

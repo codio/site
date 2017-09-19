@@ -1,10 +1,10 @@
 ---
-title: "Content Authoring"
+title: "Content Authoring with Guides"
 class_name: docs
 full_width: true
 ---
 
-Codio Books and Codio Authoring are powerful content authoring tools. Here are some key features.
+Codio Guides is a powerful content authoring tool. Here are some key features.
 
 - All content is written using simple markdown or HTML.
 - HTML snippets can be embedded into any markdown page.
@@ -17,5 +17,5 @@ Codio Books and Codio Authoring are powerful content authoring tools. Here are s
 - Choose from a selection of panel layouts for each page.
 - Include guidance material for teachers that is not visible to students.
 
-At the time of writing, the authoring table of contents management is different to books. However, we will unify this shortly.
+
 

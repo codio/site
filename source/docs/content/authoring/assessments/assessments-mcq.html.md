@@ -16,7 +16,7 @@ Setting up a Multiple Choice assessment within the Guide editor is very simple. 
 - The **Multiple Response** slider indicates whether the user can select more than one answer, in which case check boxes are used instead of radio buttons.
 - **Answers** is where you add as many individual answers as you require. To indicate the correct answer(s), adjust the sliders for multiple response or the radio button for single response.
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.
-- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/classes/unitmanagement/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 
 

@@ -139,7 +139,7 @@ The **Guidance** callout block is only visible in Play mode to members of the Te
 
 
 ## Hyperlinks, Images, Videos & iframes
-We describe this in [this section](/docs/tuts/author/imvid).
+We describe this in [this section](/docs/content/authoring/page-edit/imvid).
 
 ## HTML
 You can include HTML tags

@@ -18,7 +18,7 @@ Each content author can choose to weave assessments into the tutorial materials 
 Authoring assessments is easily done using the authoring editor.
 
 ## Example Project
-https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Authoring Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review. 
+https://codio.com/codio-units/java-example is a project that you can [fork](/docs/ide/features/fork/) into your own Codio account and shows you how to create code tests and setup automatic marking. We would also recommend that you check out our [Guides Cheat Sheet](https://codio.com/home/starter-packs/cb114a27-d88e-4b74-a2a0-518ccb30dc44/) and **Use Pack** to create into your Codio account to review. 
 
 
 ## Adding a new assessment
@@ -36,4 +36,4 @@ If you want to edit an existing assessment, you can choose either of the followi
 To delete an assessment, press the Settings button in the authoring toolbar then select the Assessments tab. All assessments present in the current project are listed. You should press the red **x** button to delete it.
 
 ## Autograding when a student completes a unit
-Codio allows you to run a special auto-grading script as soon as a unit is completed by the student. [Click here](/docs/classes/unitmanagement/autograde/) for details.
+Codio allows you to run a special auto-grading script as soon as a unit is completed by the student. [Click here](/docs/classes/unitmanagement/settings-info/autograde/) for details.

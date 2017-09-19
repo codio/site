@@ -42,7 +42,7 @@ A book addresses this issue by offering sophisticated table to contents manageme
 
 However, faculty will still want to teach a course based on a book. To do this, you use a course but rather than creating a project unit, you create a book based unit. This allows you to point to any parts of a book for that unit. Students can see the parts of the book that the unit related to in the table of contents. The course and class manager is also able to specify that parts of the book not mapped to by the unit either a) can be seen or b) cannot be seen.
 
-<img alt="Books" src="/img/docs/booklist.png" class="simple"/>
+<img alt="Books" src="/img/docs/bookslist.png" class="simple"/>
 
 ### Book or project unit?
 It can still be a little confusing whether you should use a book based unit or a project unit, so here are some typical use cases.

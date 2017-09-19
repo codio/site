@@ -30,7 +30,7 @@ When the content is rendered to a student, various options can be controlled
 - The **Collapse table of contents**  button allows the user to collapse the content pane to provide larger working area if required.
 - **Navigation Buttons** allows the user to navigate forward/backward in the guide.
 - **Settings** allows the user to view the unit as a teacher (e.g. show solution information hidden to students) change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/docs/dashboard/student/dyslexia/) section
-- **[Show/Hide Section List Hamburger Icon](/docs/content/authoring/collapse/)** allows the user to show/hide the section list.
+- **[Show/Hide Section List Hamburger Icon](/docs/content/authoring/guides/collapse/)** allows the user to show/hide the section list.
 
 ## Restore current files
 The Restore Current Files feature is a great way to reset/restore any files on that page to its initial state after hacking sample code around. Files can be restored from the menu as shown below.

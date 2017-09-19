@@ -24,7 +24,7 @@ Removes any page numbers from the table of contents when the content if properly
 ### Hide Menu
 Hides the Codio menu. You should be aware that this will prohibit access to functions that are accessible via the menu.
 
-### Allow tutorial to be closed
-Allows students to be able to close the tutorial content. The tutorial content can be restarted by selecting the Start Guides icon in the file tree:
+### Allow Guide to be closed
+Allows students to be able to close the guide content. The content can be restarted by selecting the Start Guide icon in the file tree:
 <img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 

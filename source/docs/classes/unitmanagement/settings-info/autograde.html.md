@@ -42,7 +42,7 @@ If you want your scripts to run securely such that the student has no way of eit
 ### Timeout
 Your script must execute within 3 minutes or a timeout error will occur.
 
-### Accessing authoed content assessment results
+### Accessing authored content assessment results
 You are able to get scores attained by students in authored content based autograded assessments. This data is in JSON format and can be accessed from the `CODIO_AUTOGRADE_ENV` environment variable. Below is an example.
 
 ```

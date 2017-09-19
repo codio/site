@@ -8,7 +8,7 @@ Once you are in the Codio IDE, you are able to edit the book contents. There are
 
 - Press then right arrow at the top of the file tree. 
 <img alt="startauthouring" src="/img/docs/guides/startguides.png" class="simple"/>
-- From the menu, select **Tools->Author Content->Edit**.
+- From the menu, select **Tools->Guide->Edit**.
 
 ### Editing page content and actions
 Please refer to the following pages for details in how to edit page content and control page actions.

@@ -9,7 +9,7 @@ Plagiarism detection allows you to check for code copying and potential cases of
 
 If you want to include other reference code to include in the cross comparison, then you will need to create a dummy student account, add that dummy student to the class and upload the reference code as that student for that unit.
 
-Plagiarism detection is best used with programming project units rather than Codio authored tutorial projects. It will work in both cases but it is really designed to test general coding projects rather than lots of auto-graded assessments within a tutorial. 
+Plagiarism detection is best used with programming project units rather than Codio authored projects. It will work in both cases but it is really designed to test general coding projects rather than lots of auto-graded assessments within a unit. 
 
 Codio does not determine whether cheating has or has not taken place and leaves the decision making up to you.
 

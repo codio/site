@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-The experience when authoring differs from that of a student. Students are not able to view the authoring tools. When they start a unit or project, if there is tutorial content present, it will automatically be shown. The author can also specify whether the student is able to close the content or not.
+The experience when authoring differs from that of a student. Students are not able to view the authoring tools. When they start a unit or project, if there is content present, it will automatically be shown. The author can also specify whether the student is able to close the content or not.
 
 If you are an author, you will often want to view the content as a student will see it. 
 

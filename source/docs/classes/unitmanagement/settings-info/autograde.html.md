@@ -21,9 +21,11 @@ The two autograding options can be found in the Unit settings.
 
 The two options can be found in the AUTOGRADE METHOD drop-down list.
 
+<a name="transfer"></a>
 ### Transferring authored content assessment total
 If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see these within the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/docs/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/docs/classes/monitor/grading).
 
+<a name="script"></a>
 
 ### Running a custom script
 A more advanced way of populating the grading field is to write your own custom script that evaluates the student code. This script can then transfer the grading value into the grading field. 

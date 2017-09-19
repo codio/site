@@ -5,12 +5,10 @@ class_name: docs
 full_width: true
 ---
 
-[IAN - no links to autograde scripts]
-
 Certain actions can be triggered when a student marks a unit as complete
 
-- Auto-graded assessment scores can be passed directly to the grade field
-- Scripts can be executed for assessing the student code and assigning the grade
+- [Auto-graded assessment scores can be passed directly to the grade field](/docs/classes/unitmanagement/settings-info/autograde#transfer)
+- [Scripts can be executed for assessing the student code and assigning the grade](/docs/classes/unitmanagement/settings-info/autograde#script)
 
 Students can mark the unit as complete from their own dashboards but a teacher is also able to do this on their behalf either individually or for all students. 
 

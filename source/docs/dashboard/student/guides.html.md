@@ -9,18 +9,18 @@ Sometimes you might make changes to your work that you don’t like or that you 
 The easiest way to get rid of these is to restore the original files in a unit. 
 To do this:
 
-1. Open the unit you are working on. In the top right, choose **Settings**, and then **Restore current files**
-<img alt="authtoken" src="/img/docs/what_students_do/settings.png" class="simple"/>
+1. Open the unit you are working on. In the top right, choose the settings icon, and then **Restore current files**
+<img alt="authtoken" src="/img/docs/guides/reset.png" class="simple"/>
 
 <a name="completed"></a>
 
 ### Completing Units
 
-When you have completed a tutorial you can mark it as completed. This can be done from either:
+When you have completed a unit you can mark it as completed. This can be done from either:
 
 - Your [My Classroom](/docs/dashboard/student/myclassroom/) area
-- In the tutorial settings
-	<img alt="Complete" src="/img/docs/complete.png" class="simple"/>
+- In the settings (click the gear icon)
+	<img alt="Complete" src="/img/docs/guides/complete.png" class="simple"/>
 - From the last page in the tutorial.
 
 If you mark a unit as complete in error, discuss with your class instructor/teacher who can reset the unit so you can access it again

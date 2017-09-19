@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-To see your tutorial running, you need to *Play* it. If the tutorial does not automatically start or of you have closed it, go to **Tools->Author Content->Play** menu option or click the **Start Tutorial** icon in the file tree:
+To see your content running, you need to *Play* it. If the content does not automatically start or of you have closed it, go to **Tools->Author Content->Play** menu option or click the **Start** icon in the file tree:
 
 <img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 
@@ -18,7 +18,7 @@ At this point the panel layout is set up automatically according to the layout s
 Within the player various options can be controlled by the user
 
 
-- **Navigation Buttons** allows the user to navigate forward/backward in the guide.
+- **Navigation Buttons** allows the user to navigate forward/backward in the content.
 - **Settings** allows the user to change the Theme (light/dyslexic), Mark as Complete, change the font size, reset both the theme and fonts and to restore the current files (see below). See [Dyslexia Support](/docs/dashboard/student/dyslexia/) section
 - **[Show/Hide Section List Hamburger Icon](/docs/content/authoring/collapse/)** allows the user to show/hide the section list.
 

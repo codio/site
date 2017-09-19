@@ -7,10 +7,9 @@ full_width: true
 Controlling access to the editing of project units in a course is controlled from the module settings. Please note that the module permissions override the module permissions, so if a course is public and a module is private, then the units will be private.
 
 
-<img alt="Course Edit" src="/img/docs/courseedit.png" class="simple"/>
 [IAN / MAX - what is the inheritance rules if a course is owned by org but module not?]
 
-[IAN - screenshot with the module screen selected with its units and the Edit button circled.]
+<img alt="Module Edit" src="/img/docs/moduleedit.png" class="simple"/>
 
 
 The rules for other users to edit a project unit in a course are as follows. 
@@ -23,7 +22,7 @@ The rules for other users to edit a project unit in a course are as follows.
 
 The ability to create public courses/modules can be enabled for the organisation. See [Public/Private setttings](/docs/dashboard/create/public_private) for more information.
 
-[IAN - screenshot with the settings screen open]
+<img alt="authtoken" src="/img/docs/manage_organization/public_private.png" class="simple"/>
 
 
 If you want 2 or more people to collaborate on a project unit, you need to understand how Codio manages this process.

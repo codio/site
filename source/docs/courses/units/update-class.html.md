@@ -5,12 +5,12 @@ full_width: true
 ---
 
 ### Important
-The upgrading process described on this page will only effect content contained within the `/.guides` folder, which is where your authored tutorial content is located. Changes in all other locations will not be passed on to classes. 
+The upgrading process described on this page will only effect content contained within the `/.guides` folder, which is where your authored content is located. Changes in all other locations will not be passed on to classes. 
 
 If you need to make a complete update, then you have to [reset the unit](/docs/classes/unitmanagement/reset-unit/) in the class. This will retrieve the full unit, not just the `/.guides` folder. However any work done by students on that unit will be lost and will need to be restarted.
 
 ### Upgrade procedure
-If you make changes to your authored tutorial content and assessments and require that these be passed through, then you should
+If you make changes to your authored content and assessments and require that these be passed through, then you should
 
 - publish a new version of the unit if it is a project unit, or
 - update to the latest version of the book for a book unit.

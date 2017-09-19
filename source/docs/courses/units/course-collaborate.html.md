@@ -4,10 +4,8 @@ class_name: docs
 full_width: true
 ---
 
-Controlling access to the editing of project units in a course is controlled from the module settings. Please note that the module permissions override the module permissions, so if a course is public and a module is private, then the units will be private.
+Controlling access to the editing of project units in a course is controlled from the module settings. Please note that the module permissions override the course permissions, so if a course is public and a module is private, then the units will be private.
 
-
-[IAN / MAX - what is the inheritance rules if a course is owned by org but module not?]
 
 <img alt="Module Edit" src="/img/docs/moduleedit.png" class="simple"/>
 

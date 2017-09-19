@@ -6,8 +6,6 @@ full_width: true
 
 The Codio IDE sits on top of a Codio Box. A box is a full Ubuntu server. There are a lot of features in both the boxes and the IDE. The documentation contains a reference for all features. Below is a list of commonly used features with links to the documentation pages.
 
-IAN - add links below pls
-
 ### Boxes
 
 - [Accessing the command line and root privileges](/docs/ide/boxes/terminal)

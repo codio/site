@@ -5,7 +5,7 @@ full_width: true
 ---
 
 ### Layout
-You can choose from a variety of panel layouts for each section. This gives you great flexibility in the way you present tutorial content and files to the student.
+You can choose from a variety of panel layouts for each section. This gives you great flexibility in the way you present content and files to the student.
 
 <img alt="authtoken" src="/img/docs/guides/layouts.png" class="simple"/>
 
@@ -33,7 +33,7 @@ To define which folder(s) to show - any other folders are automatically hidden -
 
 <img alt="authtoken" src="/img/docs/guides/project_3.png" class="simple"/>
 
-If you have several tutorial sections that have the same folders shown, then you only need define the folders on the first section. All subsequent sections will use the same Show Folders setting until a new one is encountered.
+If you have several sections that have the same folders shown, then you only need define the folders on the first section. All subsequent sections will use the same Show Folders setting until a new one is encountered.
 
 ### Content Type
 You can specify whether the page content type is Markdown (strongly recommended) or HTML. If you choose HTML, then you will need to set the page HTML header and footer in [Global Settings](/docs/content/authoring/settings-actions/global/).

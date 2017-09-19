@@ -38,7 +38,7 @@ The benefit of hiding folders is that the student is not distracted by folders a
 [Click here](/docs/content/authoring/page-edit/hide-folder) for more details on folder hiding.
 
 ### Assessments
-Codio offers a range of manually and auto-graded assessment types. When used as a part of tutorial content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning. 
+Codio offers a range of manually and auto-graded assessment types. When used as a part of content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning. 
 
 When used in a class situation, assessments are extremely helpful to the teacher as all assessment results are fed automatically through to the teacher class dashboard, allowing them to monitor students' progress across a Course.
 

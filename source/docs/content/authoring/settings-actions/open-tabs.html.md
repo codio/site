@@ -56,7 +56,7 @@ Please note, if the site you want to preview prevents embedding in an iframe the
 ### Opening Terminal and running system commands
 To open a Terminal window select the **Terminal** option.
 
-You can also specify a terminal command to run when a section is displayed. For example, your tutorial may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when a tutorial is running) at a certain point in your tutorials.
+You can also specify a terminal command to run when a section is displayed. For example, your content may run bash scripts to copy files into the root of your project from the .guides folder (which is hidden when content is running) at a certain point in your content.
 
 <img alt="authtoken" src="/img/docs/guides/type_terminal.png" class="simple"/>
 

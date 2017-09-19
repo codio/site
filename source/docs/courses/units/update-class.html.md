@@ -17,9 +17,8 @@ If you make changes to your authored tutorial content and assessments and requir
 
 This will not change units that have already been assigned to a class. To do so, you should go to the class and upgrade the course from the class. If you have updated the course, then you will see the following screen in your class.
 
-[IAN - image pls]
+<img alt="Upgrade course" src="/img/docs/class_administration/upgradecourse.png" class="simple"/>
 
 When you press the button, you will see the following screen, which shows you which units have been modified. You can then select the units that you want to update. 
 
-[IAN - image pls]
-
+<img alt="Upgrade course list" src="/img/docs/class_administration/stackupdated.png" class="simple"/>

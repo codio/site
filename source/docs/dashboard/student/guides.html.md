@@ -1,5 +1,5 @@
 ---
-title: "Guides"
+title: "Tutorial Tools"
 
 ---
 
@@ -11,6 +11,19 @@ To do this:
 
 1. Open the unit you are working on. In the top right, choose **Settings**, and then **Restore current files**
 <img alt="authtoken" src="/img/docs/what_students_do/settings.png" class="simple"/>
+
+<a name="completed"></a>
+
+### Completing Units
+
+When you have completed a tutorial you can mark it as completed. This can be done from either:
+
+- Your [My Classroom](/docs/dashboard/student/myclassroom/) area
+- In the tutorial settings
+	<img alt="Complete" src="/img/docs/complete.png" class="simple"/>
+- From the last page in the tutorial.
+
+If you mark a unit as complete in error, discuss with your class instructor/teacher who can reset the unit so you can access it again
 
 ### Lexikon
 

@@ -7,7 +7,7 @@ full_width: true
 ### Editing a book unit
 If you want to edit book unit content, then you need to edit the book itself. You would then republish the book after which you will see **Update to latest version** in the unit listing. 
 
-[IAN - image pls]
+<img alt="Book update" src="/img/docs/bookupdate.png" class="simple"/>
 
 If you have added new content then you can also remap the unit to the book as described on the [adding a unit](/docs/books/unit-book) page.
 

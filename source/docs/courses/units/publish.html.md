@@ -9,7 +9,7 @@ You need to explicitly publish a unit only for project units, not book units.
 ## Updating book units
 Book units are published from the books area. Let's say you have already published a book and created a unit from a part of that book. If you then make changes to the book and republish the book, those published changes are not automatically reflected in the course. If you want to update the unit, then need to press the **Update to latest version** button that appears on the right side of the unit.
 
-[IAN - image pls]
+<img alt="Book update" src="/img/docs/bookupdate.png" class="simple"/>
 
 After pressing this, the books changes will be reflected in the unit. If you want these changes to be passed through to a class where the unit was previously added, then please [click here](/docs/classes/unitmanagement/upgradecourse) for details.
 

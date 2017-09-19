@@ -13,7 +13,7 @@ A project can be [assigned to a class](/docs/classes/unitmanagement/assign-proje
 
 There are drawbacks to using projects to assign to students. As your list or projects grows Books it can be hard to quickly find a project you want to assign to a class. There is also no way to arrange your projects into chronological order. Courses and books offer solutions.
 
-[IAN - image of projects list]
+<img alt="My Projects" src="/img/docs/projectslist.png" class="simple"/>
 
 ### Project units
 A project unit is essentially the same as a project. The only difference is that you create and edit your project from with a course (and module). This makes it very easy to locate your project unit and to assign them to a class. You can also arrange your units chronologically.
@@ -27,7 +27,7 @@ To solve this problem, a course allows you to group and sequence everything. Whe
 
 There is one minor drawback to project units that you should be aware of. If students are working with a project unit and wants to look at tutorial content that is contained in another unit, they have to switch units. This can take several seconds and can be irritating during a revision phase when they want to frequently switch units. For this reason, we created the book, which we will look at next.
 
-[IAN - image of course+module+units]
+<img alt="Courses" src="/img/docs/courseslist.png" class="simple"/>
 
 ### Book units
 A book is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project units to create this content, you might end up with a very large number of units, say 50.  As we mentioned above, when students are revising and want to randomly move between different units to review content, the can get frustrated by the time it takes to switch units.

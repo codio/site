@@ -30,13 +30,14 @@ You can create a new unit in the following ways.
 ### New book unit
 Creating a new book unit involves pointing to the parts of a book that you want to map to your unit. You will seen the following screen.
 
-[IAN]
+<img alt="Book Unit" src="/img/docs/newbook.png" class="simple"/>
 
 You can now 
 
 - specify the book you want to reference
 - select the parts of the book you want to include in this unit
 - give the unit a name.
+
 
 
 

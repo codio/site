@@ -9,6 +9,6 @@ You can change the order of the units within a module by dragging a unit into it
 
 <img alt="Unit order before" src="/img/docs/unitorder1.png" class="simple"/>
 
-Unit order after changing oroder
+Unit order after changing order
 
 <img alt="Unit order after" src="/img/docs/unitorder2.png" class="simple"/>

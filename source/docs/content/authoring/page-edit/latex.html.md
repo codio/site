@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Latex is ideal for entering mathematical expressions into your pages. You can also insert Latex expressions into many assessment fields. Codio uses Mathjax for the rendering of all Latex expressions, so certain macros are not supported. 
+Latex is ideal for entering mathematical expressions into your pages. You can also insert Latex expressions into many assessment fields. Codio uses [Mathjax](http://www.mathjax.org/) for the rendering of all Latex expressions, so certain macros are not supported. 
 
 ## Inline Latex expressions
 An example of an inline expression is `$\frac{x^3+1}{x^2-1}$`. When your page is shown, the Latex expression will render appropriately.

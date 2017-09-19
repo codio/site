@@ -22,7 +22,7 @@ You can create a new unit in the following ways.
 
 - Create a brand new unit as you would with a normal Codio project.
 - Import an existing project into the unit. See the image below and read the contents of the **Important** box. A snapshot of the selected project is taken. From that point on you will edit from the unit, not the project.
-- Import from other sources such as GitHub/BitBucket/Mecurial etc. by selecting the **Import** option.
+- Import from other sources such as GitHub/BitBucket/Mercurial etc. by selecting the **Import** option.
 
 <img alt="UnitStart" src="/img/docs/unitstart.png" class="simple"/>
 

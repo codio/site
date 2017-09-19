@@ -12,7 +12,7 @@ There are 2 ways you can do this:
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="Profile" src="/img/docs/class_administration/profilepic.png" class="simple"/>
 
-1. Click the name of your organization (under **My Organizations**)
+1. Click the name of your organization (under **My Organisations**)
 <img alt="Org Name" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>
 
 1. Click the **Members** tab 

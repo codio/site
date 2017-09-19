@@ -4,69 +4,36 @@ class_name: docs
 full_width: true
 ---
 
+Your Box will be put to sleep under the conditions [explained here](/docs/ide/boxes/overview/). When you open your project, the Box will start and services will start automatically.
 
-Your Box will be put to sleep under the conditions [explained here](/docs/ide/boxes/overview/).
+### Upstart
+Codio current uses upstart. If you want to configure services to start when your box starts up, you should configure a `.conf` file. If you are not familiar with upstart, please Google it for configuration details.
 
-When you open your project, the Box will start instantly, by default, any services will start automatically.
+**Important** - you need to specify the user account under which the service is run using `setuid codio`.
 
-## Autostarting using startup.sh
-You can also create and configure the `startup.sh` file in the root of your project. This file will typically contain something like this
+Below is an example `.conf` file that should be located in the `/etc/init` folder. 
 
-```bash
-sudo service apache2 start
 ```
+# testservice - test service job file
+description "Some description"
+author "freddy <you@yours.com>"
 
-If you experience problems with auto starting (which should rarely happen) then you can add a stop line beforehand
+# Stanzas
+#
+# Stanzas control when and how a process is started and stopped See a list of stanzas here:
+# http://upstart.ubuntu.com/wiki/Stanzas When to start the service
+start on runlevel [2345]
+stop on runlevel [016]
 
-```bash
-sudo service apache2 stop
-sudo service apache2 start
+# Automatically restart process if crashed
+respawn
+
+# Specify the user account which the service should run under testservice - test service job file
+setuid codio
+
+# Specify working directory if needed
+chdir /home/codio/workspace
+
+# Specify the process/command to start, e.g.
+exec your-service-name
 ```
-
-This makes sure that all flags are cleared out beforehand.
-
-## Testing your startup.sh file
-The best way to test your `startup.sh` file is to select the **Project->Restart Box** menu item.
-
-## Checking which services are running
-To check your services status type `ps ax` in the terminal
-
-```bash
- PID TTY      STAT   TIME COMMAND
-    1 ?        SNs    0:00 /sbin/init
-  508 ?        SN     0:00 upstart-udev-bridge --daemon
-  588 ?        SNs    0:00 /lib/systemd/systemd-udevd --daemon
-  756 ?        SN     0:00 upstart-socket-bridge --daemon
-  757 ?        SNsl   0:00 rsyslogd
-  758 ?        SN     0:00 upstart-file-bridge --daemon
-  935 ?        SNs    0:00 dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
- 1253 ?        SNs    0:00 cron
- 1257 ?        SNs    0:00 /usr/sbin/sshd -D
- 1640 ?        SNsl   0:00 /usr/sbin/mysqld
- 1667 ?        SNs    0:00 /usr/sbin/apache2 -k start
- 1676 ?        SN     0:00 /usr/sbin/apache2 -k start
- 1677 ?        SN     0:00 /usr/sbin/apache2 -k start
- 1678 ?        SN     0:00 /usr/sbin/apache2 -k start
- 1679 ?        SN     0:00 /usr/sbin/apache2 -k start
- 1680 ?        SN     0:00 /usr/sbin/apache2 -k start
- 1706 ?        SNs+   0:00 /sbin/getty -8 38400 console
- 1708 pts/0    SNs+   0:00 /sbin/getty -8 38400 tty1
- 1864 ?        SNs    0:00 /sbin/getty -8 38400 tty4
- 1866 ?        SNs    0:00 /sbin/getty -8 38400 tty2
- 1868 ?        SNs    0:00 /sbin/getty -8 38400 tty3
- 1870 ?        SNs    0:00 sshd: codio [priv]
- 1872 ?        SNs    0:00 sshd: codio [priv]
- 1883 ?        RN     0:00 sshd: codio@pts/4
- 1884 pts/4    SNs    0:00 -bash
- 1899 ?        SN     0:00 sshd: codio@pts/5
- 1900 pts/5    SNs+   0:00 -bash
- 1927 pts/4    RN+    0:00 ps ax
-```
-
-You can also check specific services by typing
-
-```bash
-sudo service servicename status
-```
-
-You can use `kill <PID>` to stop a process from the command line.

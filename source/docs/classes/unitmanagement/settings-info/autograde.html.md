@@ -1,5 +1,5 @@
 ---
-title : Autograde on unit complete
+title : Autograde
 description: ""
 class_name: docs
 full_width: true

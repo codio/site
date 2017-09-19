@@ -56,6 +56,7 @@ If you want to avoid new terminal windows appearing when you run the command, yo
   }
 ```
 
+<a name="tokens"></a>
 
 ## .codio Tokens
 You can see from the above `.codio` sample that it is possible to insert tokens into the shell commands. The following tokens are currently available and operate in the main on the currently selected file tab in the IDE

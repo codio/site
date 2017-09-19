@@ -7,7 +7,7 @@ full_width: true
 Your Box will be put to sleep under the conditions [explained here](/docs/ide/boxes/overview/). When you open your project, the Box will start and services will start automatically.
 
 ### Upstart
-Codio current uses upstart. If you want to configure services to start when your box starts up, you should configure a `.conf` file. If you are not familiar with upstart, please Google it for configuration details.
+Codio currently uses upstart. If you want to configure services to start when your box starts up, you should configure a `.conf` file. If you are not familiar with upstart, please Google it for configuration details.
 
 **Important** - you need to specify the user account under which the service is run using `setuid codio`.
 

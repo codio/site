@@ -77,7 +77,7 @@ echo "Mysql password root user password is 'codio'"
 ##### Ansible playbook script
 As Ansible makes installations and configurations so easy, we use this to make our lives easier. We could have accomplished the same thing within the main bash script using standard Ubuntu commands but it would be less readable and harder to maintain than using Ansible.
 
-If you are interested in finding out more about Ansible playbooks, [click here](docs.ansible.com).
+If you are interested in finding out more about Ansible playbooks, [click here](http://docs.ansible.com/).
 
 ```
 ---

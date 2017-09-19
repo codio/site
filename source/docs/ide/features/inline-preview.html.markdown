@@ -86,7 +86,7 @@ Note that static content is served over Port 80. To access dynamic content you m
 
 If you cannot access your project over SSL then this could be the way your application is configured.
 
-The full range of Codio `{{tokens}}` is explained in [this section](/docs/ide/boxes/runmenu).
+The full range of Codio `{{tokens}}` is explained in [this section](/docs/ide/boxes/runmenu#tokens).
 
 ## Insecure Content with In-Tab preview and front-end code (#mixed-content)
 Codio runs over a secure connection using HTTPS, and therefore so does the inline preview. If your code references an external resource (script, font, image, etc.). For example:

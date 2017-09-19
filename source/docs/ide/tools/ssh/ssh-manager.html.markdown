@@ -18,7 +18,7 @@ You enter the remote server credentials : user name, hostname and optionally por
 ## Public Keys
 If you want to add your Codio public key to the remote server, press the key icon in the main Connection Manager listing. This saves you from having to upload a public key manually and means you won't need to enter a password to authenticate.
 
-If you do want to add your public key manually, please refer to the [Codio public key](/docs/account/publickey) documentation.
+If you do want to add your public key manually, please refer to the [Codio public key](/docs/dashboard/account/publickey) documentation.
 
 ## Making a connection
 To make a connection, you click on the leftmost icon, which opens the connection in a new tab.

@@ -14,12 +14,8 @@ Codio offers a 3 level hierarchy for organising and publishing course materials.
 - A **Unit** is the lowest level item of coursework. It will typically contain enough material to cover a particular topic or area of a curriculum or coursework. A Unit is taken directly from a Codio project.
 <img alt="authtoken" src="/img/docs/units_small.png" class="simple"/>
 
-Take a look at the '[Schools Computing Curriculum](https://codio.com/home/courses/557540466201adf25c93ccec/?tab=modules)' Course and you can see its associated Modules and, within each Module, the Units.
+Take a look at the [Recommended Content](https://codio.com/home/courses/?tab=3&sDirection=asc&sProp=name&filter=) and open a Course to see its associated Modules and, within each Module, the Units.
 
-
-<img alt="authtoken" src="/img/docs/courses.png" class="simple"/>
-
-<img alt="authtoken" src="/img/docs/units.png" class="simple"/>
 
 ## Authoring your own content
 

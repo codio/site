@@ -6,7 +6,7 @@ full_width: true
 ---
 
 
-You can assign a course module and all of its units to your class with a single action. (To learn more about curriculum-mapped content, jump to [curriculum-mapped content](/docs/misc/recommended))
+You can assign a course module and all of its units to your class with a single action. (To learn more about curriculum-mapped content, jump to [curriculum-mapped content](/docs/misc/schoolscontent))
 
 To assign a course module, follow the steps below:
 

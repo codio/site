@@ -17,4 +17,4 @@ Click on the 3 blue vertical dots and select **Update Unit**
 Updating a unit does the following.
 
 - Update the authored content in the `\.guides` folder for all students, even if they have started the unit. Be aware that any material changes to individual assessments may result in data for those assessments being lost.
-- Pointing the unit to a new stack will only be applied to students who have not yet started the unit. If you need it to apply to all students, including those who have started, then you will need to [reset the unit](/docs/classes/unitmanagement/reset-unit/)), which will result in lost data.
+- Pointing the unit to a new stack will only be applied to students who have not yet started the unit. If you need it to apply to all students, including those who have started, then you will need to [reset the unit](/docs/classes/unitmanagement/settings-info/reset-unit/), which will result in lost data.

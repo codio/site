@@ -23,10 +23,10 @@ Updating the unit content allows you to overwrite the content (`/.guides`) folde
 
 <img alt="Update unit" src="/img/docs/class_administration/updateunit.png" class="simple"/>
 
-If students have already started work on a unit that has been upgraded by this procedure and the unit contains changes to the workspace folder outside the `/.guides` folder then these will not be applied for those students. The only way to remedy this is to [reset the unit](/docs/classes/unitmanagement/reset-unit/).
+If students have already started work on a unit that has been upgraded by this procedure and the unit contains changes to the workspace folder outside the `/.guides` folder then these will not be applied for those students. The only way to remedy this is to [reset the unit](/docs/classes/unitmanagement/settings-info/reset-unit/).
 
 
 ### Projects assigned to the class
-If your unit was added using [Add Project](/docs/classes/unitmanagement/assign-project) (not a course unit) then see [Update Unit](/docs/classes/unitmanagement/updateunit/).
+If your unit was added using [Add Project](/docs/classes/unitmanagement/assign-project) (not a course unit) then see [Update Unit](/docs/classes/unitmanagement/settings-info/updateunit/).
 
 

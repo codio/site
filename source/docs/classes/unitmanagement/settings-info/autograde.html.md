@@ -17,7 +17,7 @@ A Unit is marked as complete in any of the following ways
 The two autograding options can be found in the Unit settings.
 
 1. Use the auto-graded assessments within the Unit to auto-populate the grading field with the aggregate % score from all assessments.
-1. Run a script to generate the grading either as soon as the student (or teacher) marks the Unit as complete in their dashboard or when a [Unit duration](/docs/classes/unitmanagement/unit-duration/) expires.
+1. Run a script to generate the grading either as soon as the student (or teacher) marks the Unit as complete in their dashboard or when a [Unit duration](/docs/classes/unitmanagement/settings-info/unit-duration/) expires.
 
 The two options can be found in the AUTOGRADE METHOD drop-down list.
 
@@ -96,7 +96,7 @@ From the **Actions** area of the Unit, you can regrade all students that have al
 
 We provide a way of testing autograding scripts when authoring your project. This is described below. You should make use of this before publishing your project to a class. 
 
-You should be aware that once the Unit has been published to the class, any changes made to the Unit's source project are not automatically reflected in the published Unit. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the Unit, fixing the bug and finally republishing the Unit. All student data will be lost as a result. However, if all your scripts are stored in `.guides/secure` folder, you can update and test them and you can then [Update Unit](/docs/classes/unitmanagement/updateunit/)
+You should be aware that once the Unit has been published to the class, any changes made to the Unit's source project are not automatically reflected in the published Unit. As a result, if you include your main grading logic within the project itself and if that script has bugs, you will not be able to fix the bugs without deleting the Unit, fixing the bug and finally republishing the Unit. All student data will be lost as a result. However, if all your scripts are stored in `.guides/secure` folder, you can update and test them and you can then [Update Unit](/docs/classes/unitmanagement/settings-info/updateunit/)
 
 Another strategy is to use a simple bootstrap launcher that loads and executes the script from a remote location that you can edit and debug independently of the Codio box.
 

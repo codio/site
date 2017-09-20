@@ -9,10 +9,10 @@ We have implemented lots of productivity features into the Codio IDE thanks to [
 ##Standard Code Editor Keyboard Shortcuts
 General keyboard shortcuts can be found [in this section](/docs/ide/editing/kb-shortcuts). All other productivity shortcuts are found here in this chapter.
 
-##Emmet Keyboard Shortcuts
+## Emmet Keyboard Shortcuts
 A set of powerful [productivity shortcuts](/docs/ide/editing/emmet/emmet-actions) for HTML5, CSS and Javascript.
 
-##Abbreviations
+## Abbreviations
 Thanks to our Emmet support, you get a large number of [HTML and CSS abbreviations](/docs/ide/editing/emmet/emmet-abbreviations/) that expand to code, a bit like this
 
 ```css

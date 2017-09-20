@@ -1,5 +1,5 @@
 ---
-title: "Tools"
+title: "IDE Tools"
 class_name: docs
 full_width: true
 ---

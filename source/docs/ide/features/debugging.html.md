@@ -15,9 +15,9 @@ Codio offers an integrated, language specific debugger. Codio currently supports
 If you would like support for any languages that do not appear in the list, please contact us and we can look into adding it.
 
 ### Sample project
-If you created the account for your Codio Trial account then you will find 'Demo Codio Debugger' in your My Projects list. You will find instructions in the README.md file when you open the project.
+If you created the account for your Codio Trial account then you will find **Demo Codio Debugger** in your My Projects list. You will find instructions in the README.md file when you open the project.
 
-If you cannot see it then [click here](https://codio.com/home/starter-packs/b83690d5-6ff5-4f86-970a-768292c70aec/) to create it now. Press the 'Use Pack' button to install.
+If you cannot see it then [click here](https://codio.com/home/starter-packs/b83690d5-6ff5-4f86-970a-768292c70aec/) to create it now. Press the **Use Pack** button to install.
 
 ### Video overview
 For anyone who has not used a debugger before, here is a useful video tutorial.
@@ -35,8 +35,8 @@ You should first configure a debug target. Having multiple debug targets is usef
 
 You manage debug targets from the following locations
 
-- the rightmost toolbar menu item, select the 'configure...' option
-- Tools->Debugger Settings
+- the rightmost toolbar menu item, select the **Configure...** option
+- **Tools->Debugger Settings**
 
 This will bring up the list of any debug targets you may have previously configured.
 
@@ -69,7 +69,7 @@ In java you are asked for a port number, which should always be set to `5105`.
 There are two ways you can launch an application in debug mode.
 
 - from the rightmost toolbar menu you can select the debug target from the dropdown menu or just press the button to re-run the last executed debug target.
-- from the debug targets list you can press the Debug button.
+- from the debug targets list you can press the **Debug** button.
 
 <img alt="authtoken" src="/img/docs/debug-launch.png" class="simple"/>
 
@@ -105,8 +105,8 @@ The debug panel also contains other useful features.
 - **Console** - the console has two main functions; it displays status messages from the system in bold and your code can output data there by writing output to the console  (for example a `print('message')` statement in Python).
 
 
-### Launching the debugger from Codio Guides
-It is also possible to launch any debugger configuration from a Guides page. Please [click here](/docs/content/authoring/buttons/) for details.
+### Launching the debugger from Codio content
+It is also possible to launch any debugger configuration from a page. Please [click here](/docs/content/authoring/page-edit/buttons/) for details.
 
 
 

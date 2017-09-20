@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-##Overview
+## Overview
 If you cannot find the software you want to install in the list then you can add your own package to the Install Software list by forking our GitHub repository, making the necessary modifications and finally submitting a pull request.
 
 The repository can be found at [https://github.com/codio/install_software](https://github.com/codio/install_software)
@@ -63,7 +63,7 @@ The following example shows how to install MySQL from the Install Software menu 
 
 You can see the reference to the `mysql/install.sh` script.
 
-###### Bash script
+##### Bash script
 This script calls our standard Ansible loader script, which in turn loads the relevant playbook.
 
 ```
@@ -74,10 +74,10 @@ bash -c "$(curl -fsSL https://raw.github.com/codio/install_software/master/tools
 echo "Mysql password root user password is 'codio'"
 ```
 
-###### Ansible playbook script
+##### Ansible playbook script
 As Ansible makes installations and configurations so easy, we use this to make our lives easier. We could have accomplished the same thing within the main bash script using standard Ubuntu commands but it would be less readable and harder to maintain than using Ansible.
 
-If you are interested in finding out more about Ansible playbooks, [click here](docs.ansible.com).
+If you are interested in finding out more about Ansible playbooks, [click here](http://docs.ansible.com/).
 
 ```
 ---

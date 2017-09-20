@@ -1,9 +1,21 @@
 <ul>
-  <li class='highspot'>
-    <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/start-edu-trial'), class: 'button' %>
+  <li>
+    <%= link_to 'Cloud CS', '/cloudcs' %>
+  </li>
+  <li>
+    <%= link_to 'Cloud Labs', '/cloudlabs' %>
+  </li>
+  <li>
+    <%= link_to 'Features', '/features' %>
+  </li>
+  <li>
+    <%= link_to 'Case studies', 'http://news.codio.com' %>
   </li>
   <li>
     <%= link_to 'Log in', '/p/login' %>
+  </li>
+  <li class='highspot'>
+    <%= link_to 'Free trial', (defined?(surl) && !surl.nil? ? surl : '/start-edu-trial'), class: 'button button-rounded-small' %>
   </li>
   <li>
     <%= link_to 'Join Class', '/p/join-class' %>

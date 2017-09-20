@@ -10,34 +10,37 @@ For a proper, in-depth overview of Git, refer to the [resources](/docs/ide/editi
 
 Please make sure you read this excellent overview if you are new to Git : [http://git-scm.com/book/en/Getting-Started-Git-Basics](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
-##GitHub Keys
-If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/docs/account/publickey).
+## GitHub Keys
+If you're using GitHub, it is recommended that you use the SSH remote url rather than HTTPS. In order to do this, however, you should first make sure that your Codio public key is loaded into your GitHub account or repo settings. This whole process is [described here](/docs/dashboard/account/publickey).
 
-##Experimentation
+## Experimentation
 The best way to learn Git is to create a really simple project with a few text files in it and then experiment like crazy. You can play around with all the Git commands and sync with GitHub repos to your heart's content without worrying about doing any coding.
 
 Once you have done this for a while, you will feel a lot more comfortable about using Git for your precious code.
 
-##Your project's starting point
+## Your project's starting point
 
 ###You created a project by importing from a Git repo
 If you have code that already exists in a remote repo, say GitHub, then you should create a new project by importing from that repo. That will automatically load the project and set up the correct association with the remote Git repo.
 
 Creating a project is [fully described here](/docs/project/creating).
 
-###I do not yet have a remote repo
+### I do not yet have a remote repo
 If you have code within Codio and you want to create a brand new GitHub (or other remote) repo, then follow these steps.
 
 1. Create a new project in Codio or open up an existing one.
 1. Create a new, empty repo on GitHub or other provider.
-1. Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/docs/account/publickey)
-![github repo](/img/docs/github-new-repo.png)
-1. Within the IDE, go to `Tools > Git > Remotes`
+1. Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/docs/dashboard/account/publickey)
+
+<img alt="github repo" src="/img/docs/github-new-repo.png" class="simple"/>
+
+1. Within the IDE, go to **Tools > Git > Remotes**
 1. It is recommended you use `origin` as the name to confirm the normal standards. You do not need to specify a username or password if you are using SSH.
 1. Paste the remote url into the URL field.
-![git overview](/img/docs/git-remotes.png)
+<img alt="git overview" src="/img/docs/git-remotes.png" class="simple"/>
 
-##Check the status with 'git status'
+
+## Check the status with 'git status'
 Whenever you want to see what the Git status of your project is enter `git status`. Initially, you will see that there is nothing to report
 
 ```bash
@@ -45,7 +48,7 @@ $ git status
 # On branch master nothing to commit, working directory clean
 ```
 
-##Tracking files
+## Tracking files
 Codio uses Git by default and if you import a project from a Git repo, all the existing files will already be 'tracked' (explained in the next section). Any new files you add will need to be tracked using a Git command.
 
 Tracking means that Git knows about them. If you add a new file, Git will not know about it and needs to be explicitly told.
@@ -75,10 +78,10 @@ To tell GitHub to track the file, you can do one of the following
 - `git add .` which tells Git to track all files in the project that are not yet tracked. This is the quickest and simplest way to track any new files.
 - `git add FILENAME` explicitly tracks a single file
 
-##Staged Files
+## Staged Files
 A staged file is one that is tracked and is ready to commit into the repository. Once you run `git add` you are tracking and staging that file. But if you modify a tracked file, the modifications are not staged. To correctly stage them, you need to rerun `git add`.
 
-##Committing your changes
+## Committing your changes
 Committing means that you want to add your staged, files into the repository. There are two ways to do this...
 
 - `git commit -m 'commit message'` will take all staged files and commit them to the repo.
@@ -101,7 +104,7 @@ and if I run a `git status` afterwards, I will see that everything is clean and 
 ```
 
 
-##Reverting
+## Reverting
 One of the nice things you can do is to revert your code back to an earlier commit. `git revert` is the command for rolling back like this. There are a number of ways to use this, simple uses are
 
 - `git revert 'commit id'` reverts back to the SHA (uid) you can see when you type `git log`
@@ -112,7 +115,7 @@ One of the nice things you can do is to revert your code back to an earlier comm
 There are more advanced usages which you should read up on such as the `-n`. Try [looking here](http://git-scm.com/docs/git-revert.html).
 
 
-##Pushing to a remote repository
+## Pushing to a remote repository
 If you want to send your committed changes to a remote repository, you will use the `git push` command. First, however, you need to make sure that you have a `remote` set up.
 
 If you created your repository by importing from a Git repo, then the remote will have automatically been created.
@@ -127,12 +130,12 @@ So all you need to do is enter `git push origin master` . Let's dissect this com
 
 If you now go to GitHub and look at the repository, you will see that your changes are pushed. You can also see the commits you made.
 
-##Pulling from a remote repository
+## Pulling from a remote repository
 Now let's say that someone else is working remotely on the same code (let's assume they are not using Codio). They will push their code to the GitHub repo, too.
 
 By running `git pull origin master`, we pull in changes from the remote repo and Git will automatically merge them.
 
-##Resolving Conflicts
+## Resolving Conflicts
 When you pull in from the remote, you may get a conflict warning. This will happen if someone else has modified code in a way that Git cannot automatically resolve, usually because you have been editing the same bit of code.
 
 When this happens, you will need to resolve the conflict. If you open up the file, you will see something like this
@@ -162,7 +165,7 @@ if you want the merged code to remain, it will be
 
 To minimize conflicts, you should 1. Commit little and often and 2. Pull from the remote master often.
 
-##Branches
+## Branches
 Branches are important and worth mastering at an early stage. When you create a branch, you are creating a new area to code within. You then `merge` another branch, usually the `master` branch, into your new branch. From this point on, you can do whatever you want (add, commit, push etc) without impacting on the `master` branch on any other branch for that matter.
 
 For a full overview on branching, please [read this](http://git-scm.com/book/en/Git-Branching-What-a-Branch-Is)

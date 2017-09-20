@@ -1,5 +1,5 @@
 ---
-title: "Accessing another user project"
+title: "Accessing another user's project"
 class_name: docs
 full_width: true
 ---
@@ -14,5 +14,5 @@ You will not be able to edit the project but you can [fork](/docs/ide/features/f
 
 If a project has been [shared](/docs/ide/customization/permissions) to you, you will be able to view this from your **My Projects > Shared with me** area.
 
-<img alt="Shared Project" src="/img/docs/console_shared.png" class="simple"/>
+<img alt="Shared Project" src="/img/docs/console-shared.png" class="simple"/>
 

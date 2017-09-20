@@ -12,7 +12,7 @@ You will need to sign up for a Nodejitsu account before you use it.
 
 Select Nodejitsu from the Destination drop down and then make sure you either provide an API Token in the highlighted field or just press the Generate button and we'll create one for you.
 
-##Base Path
+## Base Path
 We recommend you set the base path field for remote servers as [described here](/docs/ide/tools/deployment/basepath). This will be useful when using the [Preview](/docs/ide/features/inline-preview) feature.
 
 That's all you will need to do. You're now ready to deploy.

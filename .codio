@@ -6,7 +6,8 @@
         "Middleman": "M_ASSET_HOST=http://{{domain}}:3000 bundle exec middleman -p 3000",
         "Kill Middleman": "pkill -9 ruby",
         "Build": "bundle exec middleman build",
-        "Deploy to Production": "cap production deploy"
+        "Deploy to Production": "cap production deploy",
+        "Start Ungit":"ungit"
 
   },
 
@@ -15,7 +16,7 @@
          "Docs": "http://{{domain}}:3000/docs",
          "Home Page": "http://{{domain}}:3000/",
          "Blog": "http://{{domain}}:3000/blog",
-         "Visit Ungit": "https://{{domain}}:9501/#/repository?path=/home/codio/workspace"
+         "Visit Ungit": "https://{{domain}}:9500/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
   }
 
 }

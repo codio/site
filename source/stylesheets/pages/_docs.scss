@@ -30,51 +30,11 @@ body.docs .header-block {
   }
 }
 
-/*
-.search-container {
-  @include container;
-  @include break;
-
-  padding: 0 0 5rem 0;
-
-  .st-search-input {
-    width: span(12 of 16);
-    margin: 0 span(1 of 16);
-
-    height: 1rem;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    border-radius: 15px;
-    border: 1px solid $light-gray;
-    padding-left: 70px;
-    box-shadow: none;
-    color: $dark-gray;
-    font-family: $base-font-family;
-    background: url('/img/assets/docs-navigation/search.svg') no-repeat left center;
-    background-color: white;
-    background-size: 24px;
-    background-position: 25px;
-    font-weight: 400;
-
-    @include breakpoint($break-tablet) {
-        width: span(6 of 16);
-        margin: 0 span(4 of 16);
-    }
-
-    &::placeholder {
-      font-family: $base-font-family;
-      color: $light-gray;
-      font-weight: 300;
-    }
-  }
-}
-*/
-
 body.docs .overview-section {
   @include container;
   @include break;
 
-  padding-top: 1em;
+  padding-top: 0.5em;
 
   .docs-header-navigation-container > h2 {
     text-align: center;
@@ -97,7 +57,7 @@ body.docs .overview-section {
 
 .docs-content {
   @include container;
-  padding-top: 6 * $base-line-height;
+  padding-top: 4 * $base-line-height;
 
   @include breakpoint($break-tablet) {
     @include container(14 of 16);
@@ -231,8 +191,8 @@ body.docs .index-header-block {
     text-align: center;
     margin-left: gutter();
     margin-right: gutter();
-    padding-top: 150px;
-    padding-bottom: 2rem;
+    padding-top: 58px;
+    padding-bottom: 1rem;
 
     @include breakpoint($break-tablet) {
       font-size: 2.369rem;
@@ -248,7 +208,7 @@ body.docs .page-header-block {
   @include span(4);
   position: relative;
   .search-container {
-    padding: 9rem 0 0 0;;
+    padding: 6rem 0 0 0;;
   }
 }
 
@@ -256,7 +216,7 @@ body.docs .page-header-block {
   @include container;
   @include break;
 
-  padding: 0 0 3rem 0;
+  padding: 0 0 0rem 0;
 
   .st-search-input {
     width: span(14 of 16);
@@ -330,6 +290,7 @@ body.docs .section-block-row-three {
 
     li {
       margin-left: 1.75rem;
+      min-height: 32px;
     }
 
     @include breakpoint($break-tablet) {
@@ -374,6 +335,21 @@ body.docs .section-block-row-three {
         list-style: disc outside none;
       }
     }
+
+    li.ob {
+      list-style: none;
+      margin-left: 10px;
+      margin-right: 1.75rem;
+
+      .video-icon {
+        display: inline-block;
+        width: 22px;
+        height: 32px;
+        background: url('/img/docs/video-icon-16x16.png') no-repeat left center;
+        vertical-align: middle;
+      }
+    }
+
   }
 }
 

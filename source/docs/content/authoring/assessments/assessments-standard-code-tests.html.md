@@ -9,7 +9,7 @@ If you want to write code tests that give you in depth control by allowing you t
 The approach taken by the Standard Code Tests is to specify input data using a dialog and then specify the expected output for that input data. Codio will then execute the student code, supplying the specified input data, and compare the expected output data to the data actually output by the student code.
 
 ### Sample Starter Pack
-There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/). This project contains examples for all types of auto-graded assessments as well as a Codio Guides cheat sheet.
+There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all types of auto-graded assessments as well as a Codio authoring cheat sheet.
 
 ### Basic setup
 The screenshot below shows the basic configuration fields
@@ -17,16 +17,20 @@ The screenshot below shows the basic configuration fields
 <img alt="" src="/img/docs/guides/std-assessment-1.png" class="simple"/>
 
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
-- **Guidance** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/teacher/classes/solutions/) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Guidance to Student** switch below the guidance field.
-- **Show Expected Answer** will show the students the expected output when they have submitted an answer for the question. To suppress this, flip the switch.
-- **Pre-exec command** is the command to execute before you run the test. This will normally be a compilation command.
+- **Instructions** is the actual text that should be shown to the user, written in Markdown.
 - **Command** is the command that executes the student code itself.
+- **Pre-exec command** is the command to execute before you run the test. This will normally be a compilation command.
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value.
 - **Case insensitive** tells Codio to make a case insensitive output comparison. By default, the comparison will be case sensitive.
 - **Ignore white space** tells Codio to strip out any white space characters (carriage return, line feed, tab etc.) from both the expected output and the student output. It can be very helpful to enable this as it means you do not have to be over precise when specifying the fields or instructions. More information is provided below.
 - **Substring match** tells Codio to perform a substring match when comparing the expected output to the student output.
 - **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
-- **Instructions** is the actual text that should be shown to the user, written in Markdown.
+- **Show Expected Answer** will show the students the expected output when they have submitted an answer for the question. To suppress this, flip the switch.
+- **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
+
+
+
+
 
 ### Specifying inputs and outputs
 The final step in configuring an assessment is to set up the inputs and outputs. There are some important details to understand.
@@ -39,7 +43,7 @@ You should be aware of case sensitivity and whitespace characters as explained a
 
 If you only have one input/output pair then the student could write code that simply outputs the expected output without writing any real logic. To protect against this you can create multiple input/output test cases that are run through sequentially. 
 
-To add a new test case, press the "Add item to check" button which generates a new pair.
+To add a new test case, press the **Add item to check** button which generates a new pair.
 
 
 ### Inputs using arguments
@@ -50,12 +54,12 @@ If you want to handle manual data input cases such as "Enter your Name: " then y
 
 - The input data should have a new line if this would be expected in the actual program execution.
 - In the output field, you need to be aware that the prompt text that is displayed to the user appears in `stdout` and so it should be reflected in your output field but without the data entered by the user. Normally, you would **not** put a new line in the output field between each input prompt as the new line character is generated by the user when pressing the enter key is not a part of the output.
-- We recommend that you enable the "Ignore white space" option and format your output with new lines to make it easier to read and be more tolerant to inadvertant spaces etc.
+- We recommend that you enable the **Ignore white space** option and format your output with new lines to make it easier to read and be more tolerant to inadvertent spaces etc.
 
 The following image shows how to format input and output fields if you are **not** ignoring white space. Note how the input field only supplied the values to be input, not the prompt itself (which is actually a part of stdout). It is important to accurately account for all spaces and carriage returns.
 
 <img alt="" src="/img/docs/guides/std-assessment-stdin.png" class="simple"/>
 
-The following image shows the more tolerant approach that has the 'Ignore whitespace" option set. In this case, we have put everything on its own line for readability. The whitespace characters will be stripped out of both the expected output and the student output at runtime.
+The following image shows the more tolerant approach that has the **Ignore whitespace** option set. In this case, we have put everything on its own line for readability. The whitespace characters will be stripped out of both the expected output and the student output at runtime.
 
 <img alt="" src="/img/docs/guides/std-assessment-stdin-ignore.png" class="simple"/>

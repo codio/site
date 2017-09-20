@@ -13,7 +13,7 @@ We may suspend accounts or require a paid subscription or additional payment, at
 * Any User project that generates sustained, high levels of load will be suspended. Repeated infringement by an individual User will result in that User’s account being suspended
 * Excessive bandwidth usage by a User will result in that User’s account being suspended
 * Data storage is subject to a soft limit of 5GB across all projects for each individual User. The maximum permitted storage for any individual project is 5GB. Existing Subscribers Generation 2 Boxes are not effected. Generation 1 Box size will be reduced. Codio reserves the right to change these limits at its discretion.
-* The maximum amount of RAM memory is restricted to 512MB per project. . Projects that require more RAM may be purchased at an additional cost.
+* The maximum amount of RAM memory is restricted to 400MB per project. . Projects that require more RAM may be purchased at an additional cost.
 * An individual User may not have multiple projects open simultaneously.
 * Codio projects run on shared servers. Project CPU usage is distributed across shared servers in the Codio CPU cluster. Codio makes no assurances as to the absolute level of CPU performance for an individual project. Additional and assured CPU capacity may be purchased separately.
 * Each individual User is responsible for writing code that does generate not cause high CPU load levels on Codio’s servers. We will suspend individual User accounts that generate excessive, sustained CPU or bandwidth load. Codio reserves the unilateral right to determine acceptable CPU and bandwidth thresholds.

@@ -8,7 +8,7 @@ The Command Bar allows you to access almost all of the Codio actions from a sear
 
 You invoke the Command Bar with
 
-- `Tools > Command Bar`
+- **Tools > Command Bar**
 - `Cmd+Shift+P` (Mac) / `Ctrl+Shift+P` (PC/Linux)
 
 You will then see the following popup dialog.

@@ -34,7 +34,7 @@ The permissions can be changed by selecting the **Permissions** tab on the book 
 You can grant the following permissions.
 
 - **Read** : this allows the user or organization specified to create course units from your book.
-- **Write** : this allows the user or organization to both create course units and edit your book. If you want to co-author/collaborate with another user on a book, then we very strongly recommend that you use git and a remote git repo to manage changes and not author simultaneously work on a book. See [Content Collaboration](/docs/courses/course-collaborate) for more information.
+- **Write** : this allows the user or organization to both create course units and edit your book. If you want to co-author/collaborate with another user on a book, then we very strongly recommend that you use git and a remote git repo to manage changes and not author simultaneously work on a book. 
 
 The key thing you need to realize is that unless you are familiar with Git, **only one user should make changes at a time**. If User A and User B want to collaborate, then they need to inform the other that they are working on the content. If they fail to do so, then one person will have to surrender their changes.
 

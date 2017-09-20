@@ -14,5 +14,3 @@ You can change full access to your project from the **Project->Permissions** men
 
 The better approach is to use Git. If you are familiar with Git then each person has their own project but they all use Git to synchronize the content with a remote repository hosted on a platform like GitHub or BitBucket.
 
-See [Content collaboration](/docs/content/authoring/collaboration) for more information on using Git to effectively collaborate with others.
-

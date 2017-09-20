@@ -44,6 +44,6 @@ You can also order the list of modules by name or owner and use the **Filter by 
 <img alt="authtoken" src="/img/docs/module_browser.png" class="simple"/>
 
 ## Adding a unit to a module
-Please read the next section [Units](/docs/content/publish/unit-add) for details.
+Please read the section [Adding units](/docs/courses/units/unit-add) for details.
 
 

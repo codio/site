@@ -9,7 +9,7 @@ If you want to edit book unit content, then you need to edit the book itself. Yo
 
 <img alt="Book update" src="/img/docs/bookupdate.png" class="simple"/>
 
-If you have added new content then you can also remap the unit to the book as described on the [adding a unit](/docs/books/unit-book) page.
+If you have added new content then you can also remap the unit to the book as described on the [adding a unit](/docs/courses/units/unit-add#createbook) page.
 
 
 ### Editing a project unit

@@ -14,7 +14,7 @@ Courses is a very elegant way of managing your projects. A course has a very sim
 
 A course unit typically takes one of two forms.
 
-- **Tutorial**: in this case you would use the [Codio Guides](/docs/content/authoring/guides) or [Codio Books](/docs/content/authoring/books) tutorial authoring tools to create your tutorial content. [Click here](/docs/content/authoring/books-v-guides) for an overview of the difference.
+- **Tutorial**: in this case you would use the [Codio Guides](/docs/content/authoring/guides) or [Codio Books](/docs/books/) tutorial authoring tools to create your tutorial content. [Click here](/docs/content/authoring/3ways) for an overview of the difference.
 - **Assignment**: in this case you create a project unit where everything is set up for the student to tackle a coding assignment or challenge. You can still use Guides or Books to give instructions, but the general idea is to code rather than learn.
 
 The above two cases are not fixed concepts in Codio but are typical use cases. You can do whatever you like with a project unit.

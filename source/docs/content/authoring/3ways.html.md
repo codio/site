@@ -40,7 +40,7 @@ A book is intended to replicate a hard-copy book. It contains a lot of content, 
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background. This means that when students want to revise, they are able to move to any location in the book without any delays. 
 
-However, faculty will still want to teach a course based on a book. To do this, you use a course but rather than creating a project unit, you create a book based unit. This allows you to point to any parts of a book for that unit. Students can see the parts of the book that the unit related to in the table of contents. The course and class manager is also able to specify that parts of the book not mapped to by the unit either a) can be seen or b) cannot be seen.
+However, faculty will still want to teach a course based on a book. To do this, you use a course but rather than creating a project unit, you create a book based unit. This allows you to point to any parts of a book for that unit. Students can see the parts of the book that the unit related to in the table of contents. The course and class manager is also able to specify that parts of the book not mapped to by the unit either a) can be seen or b) cannot be seen in the class. See [Book Visibility](/docs/classes/classmanagement/bookvisibility)] for more information
 
 <img alt="Books" src="/img/docs/bookslist.png" class="simple"/>
 
@@ -49,6 +49,7 @@ It can still be a little confusing whether you should use a book based unit or a
 
 - **Project units** - use when you have a collection of assessments with no or minimal tutorial content. Best used for homework or lab type assessments. If a student is not going to regularly switch units in a single session.
 
-- **Book units** - use for tutorial content, examples and non-critical assessments. If students, when looking at one unit, need to review content in another unit, then a book is preferable as they can access all parts of the book if they need to.
+- **Book units** - use for tutorial content, examples and non-critical assessments. If students, when looking at one unit, need to review content in another unit, then a book is preferable as they can access all parts of the book if they need to. 
+
 
 Note that you can mix both book and project units in a course.

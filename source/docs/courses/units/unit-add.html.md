@@ -38,6 +38,8 @@ You can now
 - select the parts of the book you want to include in this unit
 - give the unit a name.
 
+With book units, students can look at any part of the book even when assigned a single unit. This is ideal for referring back to material covered previously and for general revision and can be set in the class. See [Book Visibility](/docs/classes/classmanagement/bookvisibility)] for more information.
+
 
 
 

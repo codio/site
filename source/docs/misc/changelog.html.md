@@ -13,8 +13,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2017**
 
-- `[F] [20th]`: Update documentation to advise on [cookie requirements](/docs/dashboard/account/cookies)
-- `[F] [20th]`: Release of [books](/docs/content/authoring/books/)
+- `[F] [21st]`: Update documentation to advise on [cookie requirements](/docs/dashboard/account/cookies)
+- `[F] [21st]`: Release of [books](/docs/content/authoring/books/)
+- `[I] [18th]`: Fix students seeing grading stats before grades are released
+- `[I] [18th]`: Fix Teacher Invitation list in classes showing test students
+- `[I] [15th]`: Update handling of Upgrade course for IE11 browser
+- `[I] [14th]`: Improve teacher dashboard view to show date students completed units and answers submitted
+- `[I] [14th]`: Improve handling for accessing binary files
 - `[I] [12th]`: Allow teachers to grade draft answers
 - `[I] [12th]`: Improve create stack from current project process
 - `[I] [12th]`: Improve the updating of manual grading actions for teachers

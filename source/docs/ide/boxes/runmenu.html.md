@@ -9,11 +9,12 @@ A handy feature is the ability to add commonly used commands to the Codio IDE, a
 When the menu item is selected, a new terminal window will open to run the command in. You can also force the command to run in an existing terminal window as we illustrate below.
 
 ## .codio file
-The configuration for the Run (and Preview) button can be set by editing the `.codio` file in the root of your project.
+The configuration for the **Run** (and **Preview**) button can be set by editing the `.codio` file in the root of your project.
 
 The following code below shows the `.codio` file configured to give this Run menu
 
-![run menu](/img/docs/run-menu.png)
+<img alt="Run Menu" src="/img/docs/run-menu.png" class="simple"/>
+
 
 which is driven by the following `.codio` file
 
@@ -32,7 +33,7 @@ which is driven by the following `.codio` file
 }
 ```
 
-When you select a Run command, it will open a new console window where you will see the output. Pressing the Run button will execute the last selected command.
+When you select a **Run** command, it will open a new console window where you will see the output. Pressing the **Run** button will execute the last selected command.
 
 ## Using the same terminal window
 If you want to avoid new terminal windows appearing when you run the command, you can use an id field.
@@ -55,6 +56,7 @@ If you want to avoid new terminal windows appearing when you run the command, yo
   }
 ```
 
+<a name="tokens"></a>
 
 ## .codio Tokens
 You can see from the above `.codio` sample that it is possible to insert tokens into the shell commands. The following tokens are currently available and operate in the main on the currently selected file tab in the IDE

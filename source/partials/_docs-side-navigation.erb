@@ -13,6 +13,9 @@
                   <% if current_section?(child.url) && child.children.length > 0 %>
                     <a class="link-collapse" data-toggle="collapse" href="#f<%= index %>"></a>
                   <% end %>
+                  <% if child.data.class_name == "obg" %>
+                    <div class="video-item"></div>
+                  <% end %>
                   <%=  link_to child.data.title, child.url %>
                 </div>
                 <% if child.data.description %>
@@ -32,6 +35,9 @@
                     <% if p.children.length > 0 %>
                       <a class="link-collapse collapsed" data-toggle="collapse" href="#s<%= pindex %>"></a>
                     <% end %>
+                    <% if p.data.class_name == "obg" %>
+                      <div class="video-item"></div>
+                    <% end %>
                     <%=  link_to p.data.title, p.url %>
                     <% if p.children.length > 0 %>
                       <ul class="level-2-list collapse items-list" id="s<%= pindex %>">
@@ -40,6 +46,9 @@
                             <li class="active level-2-item">
                           <% else %>
                             <li class="level-2-item">
+                          <% end %>
+                          <% if inner.data.class_name == "obg" %>
+                            <div class="video-item"></div>
                           <% end %>
                           <%= link_to inner.data.title, inner.url %></li>
                         <% end %>

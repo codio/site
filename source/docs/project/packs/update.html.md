@@ -14,7 +14,7 @@ The best way to update an existing Starter Pack is to follow these steps
 
 Codio does not support versioning for Starter Packs.
 
-##Changing the source in the Starter Pack Edit screen
+## Changing the source in the Starter Pack Edit screen
 When you edit your Starter Pack, the Source field is enabled if 
 
 1. You are the owner of the source Project

@@ -1,5 +1,5 @@
 ---
-title: "Excluding files and folders"
+title: "Excluding Files and Folders"
 class_name: docs
 full_width: true
 ---

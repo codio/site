@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You can open an existing file from the tree or create a new one from either the `File > New File` menu or by right-clicking in the file tree.
+You can open an existing file from the tree or create a new one from either the **File > New File** menu or by right-clicking in the file tree.
 
 When you open a file, it will appear in a tab in the currently active [Panel](/docs/ide/panels).
 

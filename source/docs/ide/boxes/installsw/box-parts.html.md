@@ -4,16 +4,17 @@ class_name: docs
 full_width: true
 ---
 
-The Tools->Install Software menu option gives you access to a dialog driven means of running scripts that can install, configure or reconfigure software components. This saves you the trouble of doing this manually from the command line. 
+The **Tools->Install Software** menu option gives you access to a dialog driven means of running scripts that can install, configure or reconfigure software components. This saves you the trouble of doing this manually from the command line. 
 
-![Install Software](/img/docs/install-sw-g2.png)
+<img alt="Install Software" src="/img/docs/install-sw-g2.png" class="simple"/>
+
 
 On this page, you can locate the software you want to install and then click the install icon to start the installation.
 
 #### Installing from the command line
 Our boxes provide full `sudo` (root) access, so you can also use the Ubuntu [apt](https://help.ubuntu.com/community/AptGet/Howto) package manager, which provides thousands of software packages that are maintained by the Ubuntu community.
 
-If you want to provide fully pre-configured boxes then you should use [Stacks](/docs/dashboard/stacks/listing/) rather than the Install Software feature described on this page. 
+If you want to provide fully pre-configured boxes then you should use [Stacks](/docs/project/stacks/listing/) rather than the Install Software feature described on this page. 
 
 
 #### Adding or requesting new packages

@@ -10,7 +10,7 @@ To build apps at Phonegap:Build, a `config.xml` file is required in the root of 
 
 This will create a default file for you and associated image resources for Splash Screen and Icon images in `pg-images` folder.
 
-Your config.xml needs to contain specific lines for each platform you want to target. For example, to build for iOS, Android and Windows Phone you need to include
+Your `config.xml` needs to contain specific lines for each platform you want to target. For example, to build for iOS, Android and Windows Phone you need to include
 
 ```xml
 <gap:platforms>

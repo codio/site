@@ -1,5 +1,5 @@
 ---
-title: "Updating a Stack"
+title: "Updating a Stack / Versions"
 class_name: docs
 full_width: true
 ---
@@ -16,3 +16,7 @@ You can also assign it a version number along with some comments describing the 
 
 <img alt="Stacks Update" src="/img/docs/stacks_update.png" class="simple"/>
 
+## Viewing version history
+You can view the version history of a stack by selecting the stack from the listing and then clicking on the **Versions** link at the top of the page.
+
+<img alt="Stacks Versions" src="/img/docs/stacks_versions.png" class="simple"/>

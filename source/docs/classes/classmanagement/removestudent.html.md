@@ -6,8 +6,6 @@ class_name: docs
 full_width: true
 ---
 
-If a student leaves or move classes in real life you may want to remove them from your Codio class. To do this follow the steps below:
-
 1. From the **Classes** area, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>
 

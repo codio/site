@@ -6,9 +6,9 @@ full_width: true
 
 Codio automatically creates 3 test students for you. This allows instructors to view the student experience when units are assigned to classes.
 
-1.  They can be seen in the members section.
+1.  They can be seen in the members section. If there are not 3 student listed then you can regenerate them from this screen.
 
-<img alt="Create Organisation" src="/img/docs/class_administration/createanorganization/org_teams.png" class="simple"/>
+<img alt="Create Organization" src="/img/docs/class_administration/createanorganization/org_teams.png" class="simple"/>
 
 1.  You can log in as the student dashboard by clicking the **Login as** button here:
 
@@ -22,4 +22,4 @@ Codio automatically creates 3 test students for you. This allows instructors to 
 
 <img alt="authtoken" src="/img/docs/class_administration/createanorganization/test-student-view.png" class="simple"/>
 
-However, if your Codio class is LMS integrated then you will need to perform your testing from the LMS and not use the Codio test students.
+If your class is LMS integrated then you will need to perform your testing from the LMS and not use the Codio test students.

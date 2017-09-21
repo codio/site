@@ -1,5 +1,5 @@
 ---
-title: Delete Organisation
+title: Delete Organization
 class_name: docs
 full_width: true
 ---

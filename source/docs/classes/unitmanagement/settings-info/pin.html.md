@@ -6,9 +6,11 @@ class_name: docs
 full_width: true
 ---
 
-You can pin a unit for your class. This unit will appear **pinned** to the top of the student dashboard when students log-in in order to draw their attention to it. (Jump to [student dashboard](/docs/dashboard/student/myclassroom) to find out more about what students see)
+You can *pin* a unit for your class. The unit will appear **pinned** to the top of the student dashboard when students log-in in order make it easy to find. Jump to the [student dashboard](/docs/dashboard/student/myclassroom) to find out more about what students see.
 
-To pin a unit:
+[IAN - image showing pinned unit in student dashboard]
+
+To pin a unit.
 
 1. From the **Classes** area, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>

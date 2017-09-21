@@ -17,13 +17,13 @@ Once you have set up your organization, the next step is to invite teachers to u
 1. Click the **Members** tab 
 <img alt="Members" src="/img/docs/manage_organization/memberstab.png" class="simple"/>
 
-1. In the  **Invite Teacher to the Organization** area, enter in their Email address. If you also wish them to have full [administrator](/docs/dashboard/create/adminrole/) rights to the Organisation, check the **Add this teacher to owners group**.
+1. In the  **Invite Teacher to the Organization** area, enter in their Email address. If you also wish them to have full [administrator](/docs/dashboard/create/adminrole/) rights to the Organization, check the **Add this teacher to owners group**.
 <img alt="Invite Teacher" src="/img/docs/manage_organization/inviteteacher.png" class="simple"/>
 
-1. An email will be sent to your colleague containing a link to sign up and on completion they will be added into your Organisation automatically.
-**N.B.** They must use the email address the invitation was sent to or they will not be added to the Organisation.
+1. An email will be sent to your colleague containing a link to sign up and on completion they will be added into your Organization automatically.
+**N.B.** They must use the email address the invitation was sent to or they will not be added to the Organization.
 
-1. Any invitations not completed will show in the area below and where you can also **Resend** or **Revoke** if you require. Once the invitee has joined the organisation they will no longer show in this area but show in the **All Members** list below (and also **Owners** list if 'Add this teacher to owners group' was checked)
+1. Any invitations not completed will show in the area below and where you can also **Resend** or **Revoke** if you require. Once the invitee has joined the organization they will no longer show in this area but show in the **All Members** list below (and also **Owners** list if 'Add this teacher to owners group' was checked)
 <img alt="Pending" src="/img/docs/manage_organization/pendinginvite.png" class="simple"/>
 
 ### Invitation Token 
@@ -48,5 +48,5 @@ Once you have set up your organization, the next step is to invite teachers to u
 
 1. If you already have Classes set up you can add and invite Teachers directly into your class(es). See [Adding Teachers to a class](/docs/classes/classmanagement/addteachers)
 
-You can then if you wish add them as an [Organisation Owner](/docs/dashboard/create/addowners) so they can then manage and create Classes themselves and have full admin access to the Organisation
+You can then if you wish add them as an [Organization Owner](/docs/dashboard/create/addowners) so they can then manage and create Classes themselves and have full admin access to the Organization
 

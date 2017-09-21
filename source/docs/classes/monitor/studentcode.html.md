@@ -15,4 +15,4 @@ As a teacher you have access to your students cloud area within Codio. This allo
 1. You will see all students in your class displayed on this screen.
 
 1. To view/access an individual students work click on their name. On the far right of the screen, under the heading **Open**, click the blue arrow to open the students work.
-
+[IAN - screenshot for this pls]

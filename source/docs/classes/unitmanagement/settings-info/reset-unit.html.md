@@ -5,11 +5,11 @@ class_name: docs
 full_width: true
 ---
 
-In the event that a unit in your course/classes is updated, you can reset it so **all** students who have already started the unit can start again with the updated content. You can also reset the unit even if there have been no updates to the content so students can start the unit again. 
+**This option is will destroy all student work.**
 
-You should be aware that when you reset a unit, all student work on that unit will be lost, so you may wish to advise them of your actions.
+In the event that a unit in your course/classes is updated and, for some reason, you cannot use the [Upgrade course](IAN) option, you can reset it so **all** students, including those who have already started the unit, are updated with the new unit.
 
-You can reset the unit for all your students by selecting either:
+You can reset the unit for all your students by selecting either
 
 - the **Actions** button and then the **Reset** button
 

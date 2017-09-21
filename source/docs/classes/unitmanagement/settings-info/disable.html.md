@@ -4,9 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-You can enable or disable units that have been assigned to classes. This is useful when your students are working in controlled examination conditions and you do not want them to have access to their work outside of lesson time.
+You can enable or disable units that have been assigned to a class. This is useful when your students are working in controlled assessment conditions and you only want them to have access to their work within a prescribed timeframe.
 
-Via the main settings tab you can also specify whether the student has no access or read-only access to the project when the Unit is disabled. You can find this setting in the topmost group **Unit** on the settings screen.
+You can also specify in the main settings tab whether the student has no access or read-only access to the project when the Unit is disabled. You can find this setting in the **Units** section on the settings screen.
 
 <img alt="authtoken" src="/img/docs/manage_classes/readonly.png" class="simple"/>
 

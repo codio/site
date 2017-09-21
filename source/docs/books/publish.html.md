@@ -19,14 +19,20 @@ When you press the **Publish** button, the following screen will appear.
 <img alt="versions" src="/img/docs/book_publish.png" class="simple"/>
 
 
-#### Only workspace changes made
-If, in your book, you have only made changes to the code workspace (the contents of the file tree in the IDE or `/home/codio/workspace`) then you only need to enter the changelog text, which is a description of the changes made since the last publish.
+#### New stack (no modifications) or only code workspace changes made
+If, in your book, you have 
 
-If you have switched the book's stack then you should select the **Stack modified** option described below. Otherwise, press the **Stack not modified** button.
+- only made changes to the code workspace (the contents of the file tree in the IDE or `/home/codio/workspace`) 
+- or you have switched the stack but not made any stack modifications or installed any software since
+
+then you should 
+
+1. Enter the changelog text, which is a description of the changes made since the last publish.
+1. Press the **Stack Unchanged** button.
+1. Press the **Publish Book** button.
 
 <img alt="versions" src="/img/docs/book_stack_notmodified.png" class="simple"/>
 
-Press the **Publish Book** button when ready.
 
 #### Stack modified
 If you have made any changes to the stack then you should press the **Stack modified** button. Please be aware that changes to the stack can be made indirectly by applications as well as manual file changes. For example, if you modified a database's contents that is not configured to live in the workspace area then these count as stack changes.

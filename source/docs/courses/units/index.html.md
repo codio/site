@@ -4,4 +4,4 @@ class_name: docs
 full_width: true
 ---
 
-Index page
+This section explains how to manage units in a course.

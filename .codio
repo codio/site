@@ -7,7 +7,7 @@
         "Kill Middleman": "pkill -9 ruby",
         "Build": "bundle exec middleman build",
         "Deploy to Production": "cap production deploy",
-        "Start Ungit":"ungit"
+        "Start Ungit":"ungit --port=9500."
 
   },
 
@@ -17,6 +17,7 @@
          "Home Page": "http://{{domain}}:3000/",
          "Blog": "http://{{domain}}:3000/blog",
          "Visit Ungit": "https://{{domain}}:9500/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
+			
   }
 
 }

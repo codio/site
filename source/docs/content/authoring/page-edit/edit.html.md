@@ -29,7 +29,10 @@ You can then start writing your content in the main content area.
 ## Markdown
 For those of you not familiar with Markdown, it is an extremely easy way of writing content without having to worry about HTML.
 
-When in play Mode, your content is rendered as students will see it. You can also [override the default CSS styling](IAN).
+When in play Mode, your content is rendered as students will see it. You can also override the default CSS styling. Go to Tools>Guide>Add Custom CSS
+<img alt="Guide CSS" src="/img/docs/guides/guidecss.png" class="simple"/>
+
+'Reset Custom CSS' will restore the default CSS styling
 
 Click here for details on how to insert [images, videos and hyperlinks](/docs/content/authoring/page-edit/imvid).
 
@@ -169,7 +172,7 @@ y=\frac{x^2}{x+1}
 $$
 ```
 
-[Click here](IAN - can't remember where but we have some docs with some references etc.) for more details on Latex and Mathjax.
+[Click here](/docs/content/authoring/page-edit/latex) for more details on Latex and Mathjax.
 
 <img alt="MathJax" src="/img/docs/guides/mathjax.png" class="simple"/>
 

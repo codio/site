@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Controlling access to the editing of project units in a course is controlled from the module settings. Please note that the module permissions override the course permissions, so if a course is public and a module is private, then the units will be private.
+The ability for other to collaborate on course units is controlled from the module settings. Please note that the module permissions override the course permissions, so if a course is public and a module is private, then the units will be private.
 
 
 <img alt="Module Edit" src="/img/docs/moduleedit.png" class="simple"/>
@@ -18,7 +18,7 @@ The rules for other users to edit a project unit in a course are as follows.
 - **Public but organization is the owner** - any teacher in your organization can edit. 
 
 
-The ability to create public courses/modules can be enabled for the organisation. See [Public/Private setttings](/docs/dashboard/create/public_private) for more information.
+The ability to create public courses/modules can be enabled for the organization. See [Public/Private setttings](/docs/dashboard/create/public_private) for more information.
 
 <img alt="authtoken" src="/img/docs/manage_organization/public_private.png" class="simple"/>
 
@@ -42,5 +42,3 @@ User A now wants User B to be able to collaborate. User A should inform User B t
 User B now makes changes to the unit. When done, User B should publish the changes in the same way that User A did. User B then informs User A that the changes are complete and published. At this point, when User A opens the unit for editing, a dialog will appear showing that User B has published new changes. A new snapshot is then taken and User A (or any other user for that matter) can editing.
 
 The important point in this process is that any user who has made changes and wants other to see those changes should publish first.
-
-Git offers a more flexible solution for collaboration but it requires familiarity with Git.

@@ -17,7 +17,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[F] [21st]`: Release of [books](/docs/content/authoring/books/)
 - `[I] [21st]`: Improve handling of student output in standard code assessment
 - `[I] [21st]`: Improve handling of students starting units while new stack version is being updated
-- `[I] [21st]`:
+- `[I] [21st]`: Update the handling of student data when removing modules from classes
 - `[F] [19th]`: Update documentation to advise on [cookie requirements](/docs/dashboard/account/cookies)
 - `[I] [18th]`: Fix students seeing grading stats before grades are released
 - `[I] [18th]`: Fix Teacher Invitation list in classes showing test students

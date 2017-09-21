@@ -1,5 +1,5 @@
 ---
-title: "Publishing"
+title: "Publishing and the stack"
 class_name: docs
 full_width: true
 ---
@@ -8,11 +8,11 @@ It is important to understand how and why a book is published.
 
 Until you publish a book, it behaves exactly as a project does. You can open it up and work with it but it cannot be accessed by anyone or mapped to a course until it has been published. After a book is published, you can continue to work on the book without the published version being affected.
 
-Please note the following about Publishing.
+Please note the following.
 
-1. It creates a snapshot of the book and creates a published version. 
+1. Publishing creates a snapshot of the book and creates a new version. 
 1. You can continue work on the book without affecting the published version.
-1. When you map a course unit to a book, it will only pull from a published version, never the original book project itself.
+1. When you map a course unit to a book, it will only pull from a published version.
 
 When you press the **Publish** button, the following screen will appear. 
 
@@ -20,9 +20,9 @@ When you press the **Publish** button, the following screen will appear.
 
 
 #### Only workspace changes made
-If, in your book, you have only made changes to the workspace (the workspace is the contents of the file tree in the IDE or `/home/codio/workspace`) then you only need to enter the changelog text, which is a description of the changes made since the last publish.
+If, in your book, you have only made changes to the code workspace (the contents of the file tree in the IDE or `/home/codio/workspace`) then you only need to enter the changelog text, which is a description of the changes made since the last publish.
 
-If you have switched the book's stack then you should select the **Stack not modified** option described below.
+If you have switched the book's stack then you should select the **Stack modified** option described below. Otherwise, press the **Stack not modified** button.
 
 <img alt="versions" src="/img/docs/book_stack_notmodified.png" class="simple"/>
 
@@ -39,7 +39,7 @@ You should now decide whether you want to
 - create a brand new stack for this book. 
 
 #### Stack modified : New Stack Version
-Note that if the stack you are using is not owned by you or you don't have permissions to modify the stack, then you will not be able to select this option.
+Note that if the stack you are using is not owned by you or you don't have permissions to modify the stack, then you will not be able to select this option. In this case you should create a new stack as explained below under **Stack modified: New Stack**.
 
 You should enter a description of the stack changes made and then press **Publish Book**. The new stack version will appear in your stacks listing in the normal way.
 
@@ -56,7 +56,7 @@ It will take a few minutes to prepare the stack, so please be patient. Once it i
 
 
 ### Later book modifications
-If, after publishing, you make further changes to our book then you will need to publish again to ensure those changes are available to courses.
+If, after publishing, you make further changes to our book then you will need to re-publish when you want those changes are available to courses. This will not happen automatically. You will need to update the project unit within your course to pull the published version by pressing **Update to latest version**.
 
 
 ### Course mapping

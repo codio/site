@@ -23,7 +23,7 @@ There are cases where authoring your content in a book is not appropriate. For m
 
 
 ### Courses
-Rather than assign a Book to a class, you can map any sections of the Book to the usual course and module structure. So you can still divide a course into modules and units and assign these to a class but, provided the course author allow it, students can look at any part of the book even when assigned a single unit. This is ideal for referring back to material covered previously and for general revision. See [Book Visibility](/docs/classes/classmanagement/bookvisibility)] for more information.
+Rather than assign a Book to a class, you can map any sections of the Book to the usual course and module structure. So you can still divide a course into modules and units and assign these to a class but, provided the course author allow it, students can look at any part of the book even when assigned a single unit. This is ideal for referring back to material covered previously and for general revision. See [Book Visibility](/docs/classes/classmanagement/bookvisibility) for more information.
 
 ### Assessments
 Although it is entirely up to the book author, a book will usually contains a number of assessments. When you map a course unit to a section of the book, any assessments that fall within that unit are shown in the class dashboard.

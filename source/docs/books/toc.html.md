@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Once you are in the Codio IDE, you are able to edit the book contents. There are two ways to start editing a Book.
+Once you are in the Codio IDE, you are able to edit the book contents. There are two ways to edit a Book.
 
 - Press then right arrow at the top of the file tree. 
 <img alt="startauthouring" src="/img/docs/guides/startguides.png" class="simple"/>
@@ -25,7 +25,7 @@ The image below highlights the main components of the book editing page.
 To open and close the table of contents, press the **Hamburger Icon** at the top right. From here you can add and organize content.
 
 ## Chapters, sections and pages
-A book is comprised of pages organized into chapters and sections. A chapter is a top level item only whereas sections can be placed at any location and nested to any depth.
+A book is comprised of pages organized into chapters and sections. A chapter is a top level item only. Sections can be placed at any location and nested to any depth.
 
 You can add a new chapter, section or page by
 
@@ -44,13 +44,13 @@ You can multi select multiple pages as follows
 - Use `ctrl+click` (PC/Linux) or  `cmd+click` (Mac) to multi select individual pages.
 
 ## Drag and Drop
-It is very important to understand how drag and drop works within a table of contents as it is very powerful but can be confusing if you don’t understand how it works. Drag and drop works with individual or multiple selected pages.
+It is very important to understand how drag and drop works within a table of contents as it is very powerful but can be confusing if you don’t understand that drop process. Drag and drop works with individual or multiple selected pages.
 
-What is unusual about our drag and drop support is that the behaviour is determined by the location where you drop.
+What is unusual about our drag and drop support is that the destination folder location is determined by where you drop.
 
-- If you drop in the top portion of the target item, the selection will be dropped above it.
-- If you drop in middle portion of the target item, the selection will be dropped within it if the target is a section otherwise above or below, depending on which half you drop it on.
-- If you drop in the lower portion of the target item, the selection will be dropped below the target
+- If you drop in the top portion of the target item, the selection will be dropped above it at the same level.
+- If you drop in middle portion of the target item, the selection will be dropped within it if the target is a section.
+- If you drop in the lower portion of the target item, the selection will be dropped below the target at the same level.
 
 
 

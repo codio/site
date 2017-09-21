@@ -4,18 +4,18 @@ class_name: docs
 full_width: true
 ---
 
-You can control information that appears in the content in the two following ways. 
+You can make content available on to class teachers in the following ways. 
 
-### Warning
-For the content to be properly hidden, the project must be opened as a unit within a course module. 
+Warnings
 
-If your project is public and a user accesses this project via the public listing of your account then they will have access to the solutions.
+- For the content to be properly hidden, the project must be opened as a unit within a course module using [open as teacher](IAN). [IAN -  what other ways? If a teacher access a student project?]
+- If your project is public and a user accesses this project via the public listing of your account then they will have access to the solutions.
 
 ### Entire page
-If you want a page and its appearance in the table of contents to be only visible to a teacher, then you should set the **Teacher Only** slider in the page settings to on.
+If you want a page and its appearance in the table of contents to be only visible to a teacher, then you should enable the **Teacher Only** slider in the [page settings](IAN).
 
 ### Selected content within page
-If you want to hide a certain piece of information from students then you should include all such content within a page within `|||guidance ..... |||`. An example is shown below.
+If you want to hide a certain piece of information *within a page* from students then you should include all such content within a page within `|||guidance ..... |||`. An example is shown below.
 
 ```
 |||guidance

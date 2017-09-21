@@ -3,25 +3,26 @@ title: "Adding Media"
 class_name: docs
 full_width: true
 ---
-You can insert Audio, Images and Videos.
+You can insert Audio, Images and Videos into a page.
+
 ## Audio
 You can insert and play audio files within your project.
 
-On the page(s) you wish to play Audio, go to the **Settings** area where you can define the Source audio file along with any actions you may wish to occur at specific stages during the duration of the audio file playing.
+On the page you wish to play Audio, go to the **Settings** area where you can define the source audio file along with any actions the should be triggered at specific times during playback.
 
 <img alt="authtoken" src="/img/docs/guides/media.png" class="simple"/>
 
-- **Source Name** - select the source file either from .guides/media folder if already uploaded to the project or upload directly from your PC where it will then be stored in the .guides/media folder
-- **Add Action** - where you can add actions to occur as the media plays:
+- **Source Name** - select the source file either from `.guides/media` folder if already uploaded to the project or upload directly from your PC where it will then be stored in the `.guides/media` folder.
+- **Add Action** - specifies actions that are triggeted at specific times during playback. The following options are available.
 	
-		Open file
-		Close file
-		Open Terminal
-		Close Terminal
-		Run command
-		Highlight
-		Close all tabs
-		Pause
+  Open file
+  Close file
+  Open Terminal
+  Close Terminal
+  Run command
+  Highlight
+  Close all tabs
+  Pause
 
 
 ## Images
@@ -58,7 +59,7 @@ Including embedded videos are also possible using the standard `<iframe>` html t
 
 ### YouTube
   
-If you wish to embed a YouTube video, go to the Share option and select **Embed** to obtain the code snippet
+If you wish to embed a YouTube video, go to the Share option and select **Embed** to obtain the code snippet.
 
 <img alt="authtoken" src="/img/docs/guides/guides_youtube.png" class="simple"/>
 
@@ -68,7 +69,7 @@ If you wish to embed a YouTube video, go to the Share option and select **Embed*
 
 ### Vimeo
   
-  If you wish to embed a Vimeo video, go to the Share option and select **Embed** to obtain the code snippet
+  If you wish to embed a Vimeo video, go to the Share option and select **Embed** to obtain the code snippet.
 
 <img alt="authtoken" src="/img/docs/guides/guides_vimeo.png" class="simple"/>
 
@@ -87,9 +88,9 @@ Go to [Google](google.com) to look stuff up.
 
 ## iframes
 
-You can also embed an iframe using the standard `<iframe>` html tag.
+You can embed content in an iframe using the `<iframe>` html tag.
 
-If you wish to embed from Google Docs, go to **File>Publish** to Web and select **Embed** to obtain the code snippet
+To embed from Google Docs, go to **File>Publish** to Web and select **Embed** to get the code snippet
 
 <img alt="authtoken" src="/img/docs/guides/guides_publish.png" class="simple"/>
 

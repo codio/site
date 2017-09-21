@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You can include links in your content to perform the same open and close actions as you do from the Files dialog.
+You can include links in your content to perform the same open and close actions as you do from the files dialog [IAN - which dialog?].
 
 ### Syntax Summary
 The syntax is as follows and actions can be chained together using, separated by a `;`.
@@ -75,7 +75,7 @@ Run a command then open a preview of `file.txt` in panel 2
 [Click here](cmd cp source.txt target.txt; open_preview file.txt panel=2)
 ```
 
-Open a Terminal window in Panel 1
+Open a Terminal window in panel 1
 
 ```
 [Click here](open_terminal panel=2)

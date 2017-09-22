@@ -17,7 +17,7 @@ Once you have set up your organization, the next step is to invite teachers to u
 1. Click the **Members** tab 
 <img alt="Members" src="/img/docs/manage_organization/memberstab.png" class="simple"/>
 
-1. In the  **Invite Teacher to the Organization** area, enter in their Email address. If you also wish them to have full [administrator](/docs/dashboard/create/adminrole/) rights to the Organization, check the **Add this teacher to owners group**.
+1. In the  **Invite Teacher to the Organization** area, enter in their email address. If you also wish them to have full [access](/docs/dashboard/create/adminrole/) rights to the organization, check the **Add this teacher to owners group**.
 <img alt="Invite Teacher" src="/img/docs/manage_organization/inviteteacher.png" class="simple"/>
 
 1. An email will be sent to your colleague containing a link to sign up and on completion they will be added into your Organization automatically.
@@ -46,7 +46,7 @@ Once you have set up your organization, the next step is to invite teachers to u
 
 1. Alternatively, teachers can register themselves for a Codio account by following the sign-up process at www.codio.com. Once they have done this (selecting that they are a **Teacher**, they will be asked for an **Invite token** to join your educational organization. This is provided in step 4 above - give them the token (not the URL).
 
-1. If you already have Classes set up you can add and invite Teachers directly into your class(es). See [Adding Teachers to a class](/docs/classes/classmanagement/addteachers)
+1. If you already have classes set up you can add and invite teachers directly into your class(es). See [Adding teachers to a class](/docs/classes/classmanagement/addteachers)
 
-You can then if you wish add them as an [Organization Owner](/docs/dashboard/create/addowners) so they can then manage and create Classes themselves and have full admin access to the Organization
+You can then if you wish add them as an [organization owner](/docs/dashboard/create/addowners) so they can then manage and create classes themselves and have full admin access to the organization
 

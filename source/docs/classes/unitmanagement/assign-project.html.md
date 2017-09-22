@@ -21,5 +21,4 @@ You can assign any individual [Codio project](/docs/project/creating) to a class
 <img alt="authtoken" src="/img/docs/manage_classes/assign_project_to_class/select_project.png" class="simple"/>
 
 1. You will show the following screen. In most cases, you would select **Use project's stack**. However, if you have installed any components other that those in the project's stack or made changes outside the code workspace then select the **Create new stack** option.
-
-[IAN - image please]
+<img alt="Select stack" src="/img/docs/manage_classes/assign_project_to_class/selectstack.png" class="simple"/>

@@ -44,7 +44,7 @@ When used in a class situation, assessments are extremely helpful to the teacher
 
 Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto-graded, saving teachers considerable amounts of time and can also offer students instant feedback on the correct answers.
 
-You can also use the [free-text](IAN) assessment type for answers that require a typed answer that can be manually graded by faculty. The free text type also support Latex, so math questions can be answered and graded.
+You can also use the [free-text](/docs/content/authoring/assessments/assessments-free) assessment type for answers that require a typed answer that can be manually graded by faculty. The free text type also support Latex, so math questions can be answered and graded.
 
 ### Layouts
 The editor lets you create different panel layouts for your guide content and the layout can change from section to section. 

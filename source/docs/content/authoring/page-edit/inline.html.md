@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You can include links in your content to perform the same open and close actions as you do from the files dialog [IAN - which dialog?].
+You can include links in your content to perform the same open and close actions as you do from the [open tabs](/docs/content/authoring/settings-actions/open-tabs#opentabs) dialog.
 
 ### Syntax Summary
 The syntax is as follows and actions can be chained together using, separated by a `;`.

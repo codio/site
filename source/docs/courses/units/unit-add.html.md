@@ -18,7 +18,7 @@ You add a new unit by pressing the large blue **+** button. You now need to choo
 
 [Click here](/docs/content/authoring/3ways) if you are not sure about the difference between project units and book units.
 
-
+<a name="projectunit"></a>
 ### New project unit
 You can create a new unit in the following ways.
 
@@ -41,7 +41,8 @@ You can now
 - select the parts of the book you want to include in this unit
 - give the unit a name.
 
-[IAN - screenshot of book mapping]
+<img alt="Book Mapping" src="/img/docs/bookmapping.png" class="simple"/>
+
 
 With book units, students can look at any part of the book even when assigned a single book unit. This is ideal for referring back to material covered previously and for general revision and can be set in the class. See [Book Visibility](/docs/classes/classmanagement/bookvisibility)] for more information.
 

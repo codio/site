@@ -38,6 +38,7 @@ If you have several pages that show the same folders, you only need define the f
 ### Content Type
 You can specify whether the page content type is markdown (strongly recommended) or HTML. If you choose HTML, then you will need to set the page HTML header and footer in [Global Settings](/docs/content/authoring/settings-actions/global/).
 
+<a name="teacheronly"></a>
 ### Teacher only content
 If this switch is enabled then the page contents will not be show to students. Teachers will be able to see it when they select **Open as teacher** from a unit in a class.
 

@@ -10,7 +10,7 @@ The advanced code test assessment type allows you to write code that checks code
 
 You should be aware that if students are able to access the command line, they are able to explore the box and find the folder where your test scripts are located. For scripting languages, this would allow them to modify the script. For compiled executables they could theoretically create their own executable and then replace yours with their own one. They would need to know how the callbacks work to succeed at this.
 
-If you want to make your scripts as secure as possible, please [click here](IAN) for information on secure scripts run when a unit is marked as complete. 
+If you want to make your scripts as secure as possible, please [click here](/docs/classes/unitmanagement/settings-info/autograde#securescripts) for information on secure scripts run when a unit is marked as complete. 
 
 ### Sample Starter Pack
 There is a Starter Pack project that you can add to your account. [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) and **Use Pack** to create into your Codio account to review. This project contains examples for all types of auto-graded assessments as well as a Codio authoring cheat sheet.

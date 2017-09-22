@@ -19,6 +19,7 @@ Enable this to close all panels open from the previous page.
 
 <img alt="closetab" src="/img/docs/guides/page.png" class="simple"/>
 
+<a name="opentabs"></a>
 ### Open Tabs
 
 <img alt="opentab" src="/img/docs/guides/guide_files.png" class="simple"/>

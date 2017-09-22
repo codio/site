@@ -34,6 +34,7 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 
 <img alt="authtoken" src="/img/docs/grading-secure.png" class="simple"/>
 
+<a name="securescripts"></a>
 ### Secure scripts
 If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
 

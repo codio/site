@@ -6,7 +6,11 @@ full_width: true
 
 The most basic way to assign content to students is to create a project and then [assign the project to the class](/docs/classes/unitmanagement/assign-project). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 
+<<<<<<< HEAD
 As a result, you should be familiar with the functionality offered by courses, described below, and [books](/docs/books).
+=======
+As a result, you should be familiar with the functionality offered by course, described below, and [books](IAN).
+>>>>>>> origin/main-page-reorg2
 
 A course is a very elegant way of managing and organizing your projects. A course has a very simple hierarchy.
 

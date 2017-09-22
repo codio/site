@@ -2,13 +2,13 @@
 title: "Public/Private Settings"
 ---
 
-Organisation owners can disable this feature to allow members of the Organisation to create Public Projects/Stacks/Starter Packs/Courses and Modules. By default, these will be created as Private.
+Organization owners can disable this feature to allow members of the Organization to create Public Projects/Stacks/Starter Packs/Courses and Modules. By default, these will be created as Private.
 
 
 Private projects can still be shared to other users in the normal manner. See [Permissions](/docs/ide/customization/permissions/)
 
 
-**N.B.** Any existing Projects/Stacks/Starter Packs/Courses and Modules created by members of the organisation prior to any changes being made will not be effected
+**N.B.** Any existing Projects/Stacks/Starter Packs/Courses and Modules created by members of the organization prior to any changes being made will not be effected
 
 To enable the creation of Public Projects/Stacks/Starter Packs/Courses and Modules, access the administration tools:
 
@@ -18,11 +18,11 @@ To enable the creation of Public Projects/Stacks/Starter Packs/Courses and Modul
 <img alt="authtoken" src="/img/docs/class_administration/addteachers/myschoolorg.png" class="simple"/>
 1. You will see admin options listed across the top of the page. 
 <img alt="authtoken" src="/img/docs/manage_organization/memberstab.png" class="simple"/>
-1. Select **Organisation Settings**
+1. Select **Organization Settings**
 1. Go to the Private/Public Settings area and click the slider to disable this, and **Update** to save the changes
 <img alt="authtoken" src="/img/docs/manage_organization/public_private.png" class="simple"/>
 
-Organisation owners can also block Codio support team from being able to access members accounts to provide platform support.
+Organization owners can also block Codio support team from being able to access members accounts to provide platform support.
 
 See also: 
 

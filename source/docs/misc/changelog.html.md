@@ -33,6 +33,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[F] [08th]`: Added preview type for [free text assessment](/docs/content/authoring/assessments/assessments-free)
 - `[I] [07th]`: Update teacher dashboard for [free text assessment grading](/docs/content/authoring/assessments/assessments-free#grading-free).
 - `[I] [07th]`: Add confirmation step when unit is marked as complete by students.
+<<<<<<< HEAD
+=======
+- `[I] [06th]`: Reorganization of documentation structure.
+>>>>>>> origin/main-page-reorg2
 - `[F] [02nd]`: Add student [IP consent](/docs/dashboard/account/consent).
 - `[I] [01st]`: Improvement to publishing units allowing for simpler handling of [stack](/docs/project/stacks/stack-overview) changes.
 - `[F] [01st]`: [Upgrade course](/docs/classes/unitmanagement/upgradecourse). If any updates to the course(s) used in your class are detected, you can upgrade the content to the latest version within the class. Update unit option removed from courses in a class.

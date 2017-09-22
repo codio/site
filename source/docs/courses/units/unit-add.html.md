@@ -41,12 +41,18 @@ You can now
 - select the parts of the book you want to include in this unit
 - give the unit a name.
 
+<<<<<<< HEAD
 
 <img alt="Book Mapping" src="/img/docs/bookmapping.png" class="simple"/>
 
 
 With book units, students can look at any part of the book even when assigned a single book unit. This is ideal for referring back to material covered previously and for general revision and can be set in the class. See [Book Visibility](/docs/classes/classmanagement/bookvisibility)] for more information.
 
+=======
+[IAN - screenshot of book mapping]
+
+With book units, students can look at any part of the book even when assigned a single book unit. This is ideal for referring back to material covered previously and for general revision and can be set in the class. See [Book Visibility](/docs/classes/classmanagement/bookvisibility)] for more information.
+>>>>>>> origin/main-page-reorg2
 
 
 

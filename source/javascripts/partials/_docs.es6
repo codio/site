@@ -201,7 +201,7 @@ const documentation = [
   '/docs/content/courses/currmap2016',
   '/docs/content/courses/flode',
   '/docs/content/courses/lexikon',
-  '/docs/content/courses/organisation',
+  '/docs/content/courses/organization',
   '/docs/content/courses/recommended',
   '/docs/content/courses/tkinter',
   '/docs/content/publish',

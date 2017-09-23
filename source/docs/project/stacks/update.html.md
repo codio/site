@@ -4,19 +4,31 @@ class_name: docs
 full_width: true
 ---
 
-Having created a new Stack, you may later want to update the Stack properties or take another Stack snapshot from a Codio project.
+Having created a new stack, you may later want to update the Stack properties or take another stack snapshot from a Codio project.
 
-<img alt="Stacks Edit" src="/img/docs/stacks_edit.png" class="simple"/>
+You can update your stack 
 
-To update the Stack, first select it from the Stack list and then press the edit icon, as shown in the image above.
+- from the **Stacks** area of the Codio dashboard
+- from the IDE
 
-You can update your Stack from any Codio project. In the **Source** field you can select the Codio project to update your Stack from. 
+### Updating from the dashboard
 
-You can also assign it a version number along with some comments describing the changes you have made. The new Stack details along with the date and time of your Stack update will be added to the Versions screen.
+[IAN - new image of a selected stack without anything circled]
 
-<img alt="Stacks Update" src="/img/docs/stacks_update.png" class="simple"/>
+To update the Stack, first select it from the stack list. You can then update the stack name or description fields by pressing the **Edit** button.
+
+To create a new version of a stack, press the **New Version** button. Then choose the project from which the stack should be generated from the **Source** field. Add a comment describing what has changed since the last version. At that point, a new version will be generated. This can take a few minutes.
+
+### Updating from the IDE
+It is often simpler to update a stack from within the IDE and the project that you are currently working on. After you have finished making changes to your box (installing new components etc.) you can create a new stack version from the **Projects->Stack->Create New** menu.
+
+[IAN - image pls as is appears but with the New Version button circled]
+
+You should now press the **New Version** button and enter some text to describe the stack changes since the last version.
+
+It will take a few minutes to build the new version. If your stack is pointing to the latest version then you need not do anything more. If it is pointing to a specific stack version, then you will need to change the stack to point to either the 'latest version' or to the version of the stack that was just built. You do this from the the **Project->Stack->Settings** menu item.
 
 ## Viewing version history
-You can view the version history of a stack by selecting the stack from the listing and then clicking on the **Versions** link at the top of the page.
+You can view the version history of a stack by from the **Stacks** area of the Codio dashbaord. Select the stack from the listing and then click on the **Versions** link at the top of the page.
 
 <img alt="Stacks Versions" src="/img/docs/stacks_versions.png" class="simple"/>

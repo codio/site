@@ -30,7 +30,8 @@
   .item {
     margin-left: - $base-line-height / 3;
     padding: .0rem $base-line-height / 2;
-    margin-top: $base-line-height / 2;
+    //margin-top: 10px;
+    min-height: 28px;
   }
 
   .item.active {
@@ -90,9 +91,22 @@
     padding-left: 1.5rem;
   }
 
+  .link-collapse {
+    font-size: 1.25rem;
+  }
+
+  .link-collapse.collapsed:before {
+    content: "\25B8";
+  }
+
+  .link-collapse:before {
+    content: "\25BE";
+  }
+
   .level-1-item {
     font-size: .95rem;
-    padding-top: .1rem;
+    //padding-top: .1rem;
+    min-height: 28px;
 
     a {
       display: inline;
@@ -101,6 +115,10 @@
 
     &.active > a {
       font-weight: 400;
+    }
+
+    .link-collapse {
+      margin-right: 4px;
     }
   }
 
@@ -114,23 +132,10 @@
   }
 
   .level-2-item {
-
+    min-height: 28px;
     &.active > a {
       font-weight: 300;
     }
-  }
-
-  .link-collapse {
-    margin-right: 6px;
-    font-size: 1.25rem;
-  }
-
-  .link-collapse.collapsed:before {
-    content: "\25B8";
-  }
-
-  .link-collapse:before {
-    content: "\25BE";
   }
 
   .collapsing {

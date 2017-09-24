@@ -30,7 +30,7 @@
   .item {
     margin-left: - $base-line-height / 3;
     padding: .0rem $base-line-height / 2;
-    //margin-top: 10px;
+    line-height: 25px;
     min-height: 28px;
   }
 
@@ -46,7 +46,6 @@
 
   .item-header,
   .item-header {
-    line-height: 19px;
     font-size: 1.0rem;
     font-weight: 300;
     color: $base-font-color;
@@ -69,7 +68,6 @@
     color: $base-font-color;
     font-size: 1rem;
     font-weight: 300;
-    line-height: 1.1rem;
     text-transform: none;
     margin-bottom: 0;
     padding-left: 23px;
@@ -105,13 +103,12 @@
 
   .level-1-item {
     font-size: .95rem;
-    //padding-top: .1rem;
+    line-height: 25px;
     min-height: 28px;
 
     a {
       display: inline;
-      line-height: 1rem;
-    }
+   }
 
     &.active > a {
       font-weight: 400;

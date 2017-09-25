@@ -1,6 +1,5 @@
 .docs-side-navigation {
   @include container;
-  background-color: $side-background-gray;
   margin: 0 gutter() 2rem gutter();
   min-height: 100%;
 
@@ -25,6 +24,29 @@
 
   @include breakpoint($max-width) {
     margin-left: 0;
+  }
+
+  .button-index-doc {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+
+    .button-rounded-border {
+      color: $orange;
+      font-size: 12px;
+
+      @include breakpoint($break-tablet) {
+        font-size: 11px;
+      }
+
+      @include breakpoint($max-width) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  ul {
+    background-color: $side-background-gray;
   }
 
   .item {

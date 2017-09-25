@@ -69,15 +69,6 @@ body.docs .overview-section {
     margin-left: auto;
     margin-right: auto;
   }
-
-  .button-rounded-border {
-    color: $orange;
-    font-size: 14px;
-
-    @include breakpoint($max-width) {
-      margin-left: 45px;
-    }
-  }
 }
 
 .search-results {

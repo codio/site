@@ -13,16 +13,17 @@ You can update your stack
 
 ### Updating from the dashboard
 
-[IAN - new image of a selected stack without anything circled]
+<img alt="Stacks Dashboard" src="/img/docs/stackdetails.png" class="simple"/>
 
 To update the Stack, first select it from the stack list. You can then update the stack name or description fields by pressing the **Edit** button.
 
 To create a new version of a stack, press the **New Version** button. Then choose the project from which the stack should be generated from the **Source** field. Add a comment describing what has changed since the last version. At that point, a new version will be generated. This can take a few minutes.
 
+<a name="stackide"></a>
 ### Updating from the IDE
 It is often simpler to update a stack from within the IDE and the project that you are currently working on. After you have finished making changes to your box (installing new components etc.) you can create a new stack version from the **Projects->Stack->Create New** menu.
 
-[IAN - image pls as is appears but with the New Version button circled]
+<img alt="Stacks New Version" src="/img/docs/stacknewversion.png" class="simple"/>
 
 You should now press the **New Version** button and enter some text to describe the stack changes since the last version.
 

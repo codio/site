@@ -3,51 +3,32 @@ function getMinSearchHeight(searchHeight) {
 }
 
 $(document).ready(function() {
-  const $menu = $('.docs-side-navigation')
+  const $menuHeight = $('.docs-side-navigation').outerHeight(true)
   const $docsBody = $('.docs-body')
-
-  if ($menu.length === 0) return
-  
-  $menu.css({
-    'min-height': $menu.outerHeight(true)
-  })
 
   setTimeout(() => {
     const $menu = $('.docs-side-navigation')
     const $footer = $('footer')
-    const $header = $('header.fixed')
-    const $searchResults = $('.overview-section')
-    const $window = $(window)
 
-    if ($menu.length === 0) return
-    
-    $menu.each(function () {
-      var $self = $(this);
-      var offsetFn = function () {
-        var $p = $self.closest('.sec');
-        var $$ = $p.prevAll('.sec');
-        const c = $menu.offset().top;
-        const h = $header.height();
-        var top = 0;
-        if ($window.scrollTop() < getMinSearchHeight($searchResults.height())) top = c - h;
-        $$.each(function () { top += $(this).outerHeight(); });
-        return top;
-      }
-      $self.affix({
-        offset: {
-          top: offsetFn,
-          bottom : function () {
-            this.bottom = $footer.outerHeight(true) + 100
-            return this.bottom
-          }
+    $menu.affix({
+      offset: {
+        top: function () {
+          const c = $menu.offset().top
+          this.top = c
+
+          return this.top
+        },
+        bottom: function () {
+          this.bottom = $footer.outerHeight(true)
+          return this.bottom
         }
-      });
-    });
+      }
+    })
   }, 100)
 
   // Set a min-height so the full menu is visible
   $docsBody.css({
-    'min-height': $menu.outerHeight(true)
+    'min-height': $menuHeight
   })
 })
 

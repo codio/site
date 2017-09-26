@@ -1,9 +1,11 @@
 .docs-side-navigation {
   @include container;
   margin: 0 gutter() 2rem gutter();
-  min-height: 100%;
-
   font-family: $heading-font-family;
+
+  &.affix {
+    position: inherit;
+  }
 
   @include breakpoint($break-tablet) {
     display: block;
@@ -12,12 +14,12 @@
     max-width: 300px;
 
     &.affix-top {
-      margin-top: 0;
+      padding-top: 1rem;
       position: absolute;
     }
 
     &.affix {
-      top: 3 * $base-line-height;
+      top: 65px;
       position: fixed;
     }
   }
@@ -47,6 +49,7 @@
 
   ul {
     background-color: $side-background-gray;
+    padding-left: 0.3rem;
   }
 
   .item {

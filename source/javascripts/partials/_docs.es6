@@ -2,9 +2,21 @@ function getMinSearchHeight(searchHeight) {
   return ($('.overview-section').height() < 300) ? 300 : $('.overview-section').height() + 300;
 }
 
-$(document).ready(function() {
+function updateDocsBodyHeight() {
   const $menuHeight = $('.docs-side-navigation').outerHeight(true)
   const $docsBody = $('.docs-body')
+
+  // Set a min-height so the full menu is visible
+  $docsBody.css({
+    'min-height': $menuHeight
+  })
+}
+
+$(document).ready(function() {
+  const linkItem = $('.active.level-1-item .link-collapse').first();
+  linkItem.click();
+
+  updateDocsBodyHeight();
 
   setTimeout(() => {
     const $menu = $('.docs-side-navigation')
@@ -25,11 +37,6 @@ $(document).ready(function() {
       }
     })
   }, 100)
-
-  // Set a min-height so the full menu is visible
-  $docsBody.css({
-    'min-height': $menuHeight
-  })
 })
 
 $(document).ready(function () {
@@ -88,6 +95,7 @@ $('.items-list').on('shown.bs.collapse', function() {
     panels.push(active);
   }
   localStorageStore.set(COLLAPSES_LIST, panels);
+  updateDocsBodyHeight();
 })
 
 $('.items-list').on('hidden.bs.collapse', function() {
@@ -99,6 +107,7 @@ $('.items-list').on('hidden.bs.collapse', function() {
     panels.splice(elementIndex, 1)
   }
   localStorageStore.set(COLLAPSES_LIST, panels);
+  updateDocsBodyHeight();
 })
 
 const getStarted = [

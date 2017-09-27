@@ -46,6 +46,6 @@ When User B accesses the book (from the **Shared with me** tab on the main books
 
 User B now makes changes to the book. When done, User B should publish the book and inform User A that the changes are complete and published. At this point, when User A opens the project, a dialog will appear showing that User B has published new changes. User A can now update her own version of the book from this published version. And so the cycle continues. 
 
-[IAN- image of book update required dialog]
+<img alt="Book New Version" src="/img/docs/bookversion.png" class="simple"/>
 
 You can do this with as many users as you like, provided that only one user is making changes at a time.

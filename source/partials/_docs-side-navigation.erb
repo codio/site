@@ -1,10 +1,6 @@
 <%- pages = nav_pages(current_resource.url) -%>
 
 <aside class="docs-side-navigation">
-  <div class="button-index-doc">
-    <%= link_to "Docs front page", "/docs", class: "button button-rounded button-rounded-border" %>
-  </div>
-
   <ul>
     <% pages.each do |resource| %>
       <li>
@@ -22,13 +18,13 @@
                   <% end %>
                   <%=  link_to child.data.title, child.url %>
                 </div>
-                <% if child.data.description && child.data.description != "" %>
+                <% if child.data.description %>
                   <p class="item-description">
                     <%= child.data.description %>
                   </p>
                 <% end %>
               </div>
-              <% if current_section?(child.url) %>
+              <% if current_section? child.url %>
                 <ul class="<%= active %> level-1-list collapsed items-list" id="f<%= index %>">
                   <% ordered(child).each_with_index do |p, pindex| %>
                     <% if current_section? p.url %>

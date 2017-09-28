@@ -2,41 +2,53 @@ function getMinSearchHeight(searchHeight) {
   return ($('.overview-section').height() < 300) ? 300 : $('.overview-section').height() + 300;
 }
 
-function updateDocsBodyHeight() {
-  const $menuHeight = $('.docs-side-navigation').outerHeight(true)
+$(document).ready(function() {
+  const $menu = $('.docs-side-navigation')
   const $docsBody = $('.docs-body')
 
-  // Set a min-height so the full menu is visible
-  $docsBody.css({
-    'min-height': $menuHeight
+  if ($menu.length === 0) return
+  
+  $menu.css({
+    'min-height': $menu.outerHeight(true)
   })
-}
-
-$(document).ready(function() {
-  const linkItem = $('.active.level-1-item .link-collapse').first();
-  linkItem.click();
-
-  updateDocsBodyHeight();
 
   setTimeout(() => {
     const $menu = $('.docs-side-navigation')
     const $footer = $('footer')
+    const $header = $('header.fixed')
+    const $searchResults = $('.overview-section')
+    const $window = $(window)
 
-    $menu.affix({
-      offset: {
-        top: function () {
-          const c = $menu.offset().top
-          this.top = c
-
-          return this.top
-        },
-        bottom: function () {
-          this.bottom = $footer.outerHeight(true)
-          return this.bottom
-        }
+    if ($menu.length === 0) return
+    
+    $menu.each(function () {
+      var $self = $(this);
+      var offsetFn = function () {
+        var $p = $self.closest('.sec');
+        var $$ = $p.prevAll('.sec');
+        const c = $menu.offset().top;
+        const h = $header.height();
+        var top = 0;
+        if ($window.scrollTop() < getMinSearchHeight($searchResults.height())) top = c - h;
+        $$.each(function () { top += $(this).outerHeight(); });
+        return top;
       }
-    })
+      $self.affix({
+        offset: {
+          top: offsetFn,
+          bottom : function () {
+            this.bottom = $footer.outerHeight(true) + 100
+            return this.bottom
+          }
+        }
+      });
+    });
   }, 100)
+
+  // Set a min-height so the full menu is visible
+  $docsBody.css({
+    'min-height': $menu.outerHeight(true)
+  })
 })
 
 $(document).ready(function () {
@@ -95,7 +107,6 @@ $('.items-list').on('shown.bs.collapse', function() {
     panels.push(active);
   }
   localStorageStore.set(COLLAPSES_LIST, panels);
-  updateDocsBodyHeight();
 })
 
 $('.items-list').on('hidden.bs.collapse', function() {
@@ -107,7 +118,6 @@ $('.items-list').on('hidden.bs.collapse', function() {
     panels.splice(elementIndex, 1)
   }
   localStorageStore.set(COLLAPSES_LIST, panels);
-  updateDocsBodyHeight();
 })
 
 const getStarted = [

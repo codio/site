@@ -19,8 +19,10 @@ and
 
 #### To enable cookies in Firefox:
 In your browser enter: `about:preferences#privacy`
-Select **User custom settings for history** from the drop down in the History section and check **Accept cookies from sites**
+Select **User custom settings for history** from the drop down in the History section and 
 
+- check **Accept cookies from sites**
+- select 'Always' in the drop down for **Accept third-party cookies**
 <img alt="Firefox Cookies" src="/img/docs/firefoxcookies.png" class="simple"/>
 
 *Image from Firefox 55.0.2 (64-bit)*

@@ -14,5 +14,8 @@ Students can mark the unit as complete from their own dashboards but a teacher i
 
 - Press the **Marking All As Completed** button to mark all student units as complete
 - Hover over a student to see the switch appear to the left of the students name, which you can then activate
+- [Accessing student work](/docs/classes/monitor/student) and going to the **Education->Mark as Completed** menu item within the IDE.
+
+Teachers can also mark complete units as incomplete for individual students selecting the switch or by accessing their unit.
 
 <img alt="unit actions" src="/img/docs/class_administration/mark-complete.png" class="simple"/>

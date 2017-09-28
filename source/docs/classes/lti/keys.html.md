@@ -16,7 +16,7 @@ We have platform specific integration documentation for the following LMS platfo
 
 ### LTI Keys
 
-LTI keys are accessible to [Codio Organisation Owners](/docs/dashboard/create/addowners/) only. 
+LTI keys are accessible to [Codio Organization Owners](/docs/dashboard/create/addowners/) only. 
 
 To find these keys:
 

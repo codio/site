@@ -5,12 +5,11 @@ class_name: docs
 full_width: true
 ---
 
-To work with the classroom features in Codio you will first need to set up a class for your students, here is how to do that:
+To work with the classroom features in Codio you will first need to set up a class for your students.
 
 1. Sign in to Codio at www.codio.com 
 
-1. You will automatically arrive at the **Classes** screen. If you are not at the **Classes** screen, click the Codio icon in the top left of the screen you are on to take you back to the **Classes** screen.
-<img alt="authtoken" src="/img/docs/manage_classes/create_class/codio_icon.png" class="simple"/>
+1. If you are in the IDE, click the Codio icon in the top left corner to take you back to the **Classes** screen. If you are in the dashboard, click on **Classes** in the left menu.
 
 1. Click the **blue plus** sign at the top left of the page.
 <img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>

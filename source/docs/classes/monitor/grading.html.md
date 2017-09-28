@@ -21,6 +21,8 @@ You can access the student's project from the same screen by clicking on the arr
 
 <img alt="authtoken" src="/img/docs/grading-unit.png" class="simple"/>
 
+The teacher can also mark the unit as complete going to the **Education->Mark as Completed** menu item within the IDE and if already marked as complete, can change the status to incomplete
+
 There are two ways to assign the grade.
 
 - Either you can grade from within the IDE itself from the Education menu item. You need to have a student project open in the IDE.

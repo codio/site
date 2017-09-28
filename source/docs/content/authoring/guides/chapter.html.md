@@ -8,7 +8,7 @@ We strongly recommend you take advantage of this feature. Chapters allow you to 
 
 
 ### Seeing Chapters
-You can see which Chapters are defined by opening up the table of contents. You can see that each Chapter is bold and sections within each Chapter are numbered accordingly.
+You can see which chapters are defined by opening up the table of contents. You can see that each chapter is bold and sections within each chapter are numbered accordingly.
 
 <img alt="authtoken" src="/img/docs/guides/chapter.png" class="simple"/>
 

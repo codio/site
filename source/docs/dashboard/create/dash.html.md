@@ -3,7 +3,7 @@ title: "Student Dashboard Settings"
 ---
 
 
-Organisation owners can manage the student dashboard view by setting their default page to 'My Projects' as an alternative to **My Classroom** as well as optionally hiding **My Classroom** and **Courses** menu items.
+Organization owners can manage the student dashboard view by setting their default page to 'My Projects' as an alternative to **My Classroom** as well as optionally hiding **My Classroom** and **Courses** menu items.
 
 To do this, access the administration tools:
 

@@ -6,9 +6,7 @@ full_width: true
 ---
 
 
-You can assign individual projects as well as adding Courses to your class(es). 
-
-To add an individual project, follow the steps below. (Note: to learn how to create projects, jump to [Creating Projects](/docs/project/creating))
+You can assign any individual [Codio project](/docs/project/creating) to a class. 
 
 1. From the **Classes** area, click on your class to open it. 
 <img alt="authtoken" src="/img/docs/manage_classes/year_10_class.png" class="simple"/>
@@ -19,5 +17,8 @@ To add an individual project, follow the steps below. (Note: to learn how to cre
 1. Click on the **blue plus** sign, top left of the page, and choose **Add Project**.
 <img alt="authtoken" src="/img/docs/manage_classes/blue_plus.png" class="simple"/>
 
-1. Select the project you are assigning and select a stack (for more information on stacks, jump to [Stacks](/docs/project/stacks))
+1. Select the project you want to assign.
 <img alt="authtoken" src="/img/docs/manage_classes/assign_project_to_class/select_project.png" class="simple"/>
+
+1. You will show the following screen. In most cases, you would select **Use project's stack**. However, if you have installed any components other that those in the project's stack or made changes outside the code workspace then select the **Create new stack** option.
+<img alt="Select stack" src="/img/docs/manage_classes/assign_project_to_class/selectstack.png" class="simple"/>

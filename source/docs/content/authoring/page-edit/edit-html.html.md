@@ -4,8 +4,10 @@ class_name: docs
 full_width: true
 ---
 
+We do not recommend this setting unless you have very specific reasons. It is much harder to use and maintain than markdown but for those who want ultimate control over appearance it is a good option.
+
 ## Setting HTML
-You can specify that an individual page be authored using HTML from the content **Settings**. You will find the **Content type** dropdown where you can switch between HTML and Markdown.
+You can specify that an individual page be authored using HTML from the content **Settings**. You will find the **Content type** dropdown where you can switch between HTML and markdown.
 
 ## CSS header and footer
 In order to style your content properly, you should use the **Edit HTML header** and **Edit HTML footer** settings. These can be found in the main **Settings** area on the **Global** tab.
@@ -43,9 +45,9 @@ In a page authored using Markdown, you are able to create buttons and other acti
 - `codio.open('file', path, panel_num)` - Opens a file located in `path` in the `panel_num` panel, where `0` is the first panel from top left 
 - `codio.open('terminal', command, panel_num)`-  Opens a terminal window and executes `command`. `panel_num` specifies the location of the panel, where `0` is the first panel from top left. 
 - `codio.open('preview', url, panel_num)` - Opens a preview window at `url`. `panel_num` specifies the location of the panel, where `0` is the first panel from top left. 
-- `codio.goToNextSection()` - Moves to the next page in the Guide. 
-- `codio.goToPreviousSection()` - Moves to the previous page in the Guide. 
-- `codio.switchUnit(unitId)` - Changes to a different Unit. The Unit ID is found by opening the Unit and getting the ID from the URL. 
+- `codio.goToNextSection()` - Moves to the next page in the guide. 
+- `codio.goToPreviousSection()` - Moves to the previous page in the guide. 
+- `codio.switchUnit(unitId)` - Changes to a different unit. The Unit ID is found by opening the unit and getting the ID from the URL. 
 - `codio.goToSectionTitled('Section Title')` - Switches to the page whose title is "Section Title'. 
 - `codio.assessments.check(assessmentId)` - Executes the assessment 
 - `codio.assessments.reset(assessmentId)` - Resets any response and score that the user may have already provided for `assessmentId`. 

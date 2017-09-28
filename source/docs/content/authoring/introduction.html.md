@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Codio Guides is our tutorial authoring tool and has powerful capabilities that let you create rich tutorial content. Here are a few of the key features.
+Codio Guides is a powerful authoring tool creating rich tutorial and instructional content as well as assessments. Here are a few of the key features.
 
 - Each page of content can [control the layout of the IDE](/docs/content/authoring/settings-actions/page/)
 - [Open and close files, terminal windows and html page previews](/docs/content/authoring/settings-actions/open-tabs/)

@@ -1,5 +1,5 @@
 ---
-title: "Math Assessments"
+title: "Math assessments"
 class_name: docs
 full_width: true
 ---

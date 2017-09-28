@@ -3,7 +3,7 @@ title: "Custom Buttons"
 class_name: docs
 full_width: true
 ---
-Custom buttons are a powerful feature that let you insert a button into your Guide content that when pressed can carry out any custom action.
+Custom buttons are a powerful feature that let you insert a button into your guide content that when pressed can carry out any custom action.
 
 There are a number of ways to use a custom button
 
@@ -27,7 +27,7 @@ This will launch a process and execute a terminal command.
 ```
 
 ## Launching a process in a terminal window
-There are cases where you will want to launch a command in a dedicated terminal window. A typical example is when student code requires input from the user. Codio cannot handle standard inputs through the Guides window, so use the following button command.
+There are cases where you will want to launch a command in a dedicated terminal window. A typical example is when student code requires input from the user. Codio cannot handle standard input through the guides window, so use the following button command.
 
 ```bash
 {Button Text | terminal}(command)
@@ -49,12 +49,13 @@ To do this, you should use the following format for your custom button.
 ```
 
 ## Loading Scripts
-You should point your content page to a script file to load (**Settings>Global>Scripts**). Although you will see this field for all pages, you would usually just reference any scripts that need loading just once, best on the first page. You can reference more than one script over several lines. Any script files that are referenced anywhere within the content will always be loaded when the Guide plays.
+You should point your content page to a script file to load javascript scripts. You can do this from **Settings>Global>Scripts**.
+
 
 <img alt="authtoken" src="/img/docs/guides/scripts.png" class="simple"/>
 
 ## Event Listener
-The event listener is able to perform your custom task. It will display a custom message area beneath it into which you can write your own results data. The message data can be a custom message that a test might return and can be plain text or HTML. 
+The event listener is able to execute your custom task. It will display a custom message area beneath it into which you can write your own results data. The message data can be a custom message that a test might return and can be plain text or HTML. 
 
 The icon that appears in the top left of the message area can be controlled from your event listener, as shown below.
 

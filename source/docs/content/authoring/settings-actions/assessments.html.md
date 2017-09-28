@@ -8,3 +8,4 @@ This settings item is rarely used. It shows a complete reference of all [assessm
 
 <img alt="assessments" src="/img/docs/guides/settings_assessments.png" class="simple"/>
 
+If there are any assessments that had been created but subsequently deleted, they will be highlighted in red. You can then delete them from the project.

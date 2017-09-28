@@ -5,25 +5,25 @@ class_name: docs
 full_width: true
 ---
 
-This option provides two ways of autograding Unit scores for each student. The grading field is populated by a script authored by the project author.  without the need to manually populate it. The autograding script is triggered once a Unit is marked as complete by the student or the teacher.
+This option provides two ways of autograding unit scores for each student. The grading field is populated by a script authored by the project author without the need to manually populate it. The autograding script is triggered once a unit is marked as complete.
 
 A Unit is marked as complete in any of the following ways
 
 1. Students mark the unit as complete from their dashboard.
-1. The teacher can also mark the Unit as complete for a student from the Classroom dashboard with the Unit selected.
-1. The teacher can mark all units as complete for all students by pressing the **Actions** button. This button appears on the main Unit screen.
-1. If you are using the **Unit Duration** feature, all student Units are marked as complete as soon as the Unit duration expiry date and time is reached.
+1. The teacher can also mark the unit as complete for a student from the Classroom dashboard with the unit selected.
+1. The teacher can mark all units as complete for all students by pressing the **Actions** button. This button appears on the unit screen.
+1. If you are using the **Unit Duration** feature, all student units are marked as complete as soon as the unit duration expiry date and time is reached.
 
-The two autograding options can be found in the Unit settings.
+The two autograding options can be found in the unit settings.
 
-1. Use the auto-graded assessments within the Unit to auto-populate the grading field with the aggregate % score from all assessments.
-1. Run a script to generate the grading either as soon as the student (or teacher) marks the Unit as complete in their dashboard or when a [Unit duration](/docs/classes/unitmanagement/settings-info/unit-duration/) expires.
+1. Use the auto-graded assessments within the unit to auto-populate the grading field with the aggregate % score from all assessments.
+1. Run a script to generate the grading either as soon as the student (or teacher) marks the unit as complete in their dashboard or when the [unit duration](/docs/classes/unitmanagement/settings-info/unit-duration/) expires.
 
-The two options can be found in the AUTOGRADE METHOD drop-down list.
+The two options can be found in the **AUTOGRADE METHOD** drop-down list.
 
 <a name="transfer"></a>
 ### Transferring authored content assessment total
-If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see these within the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/docs/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/docs/classes/monitor/grading).
+If you have created auto-graded assessments within your authored content, Codio aggregates all scores so you can see them in the Classroom dashboard. You will see that there is a total percentage calculated. This percentage value is transferred into the grading field. If you are using [LMS integration](/docs/classes/lti) then this grading field is then transferred into your LMS gradebook once you [release the grades](/docs/classes/monitor/grading).
 
 <a name="script"></a>
 
@@ -34,6 +34,7 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 
 <img alt="authtoken" src="/img/docs/grading-secure.png" class="simple"/>
 
+<a name="securescripts"></a>
 ### Secure scripts
 If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
 

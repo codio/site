@@ -38,13 +38,13 @@ The benefit of hiding folders is that the student is not distracted by folders a
 [Click here](/docs/content/authoring/page-edit/hide-folder) for more details on folder hiding.
 
 ### Assessments
-Codio offers a range of manually and auto-graded assessment types. When used as a part of content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning. 
+Codio offers a range of [manually and auto-graded assessments](/docs/content/authoring/assessments). When used as a part of content, assessments are a very important way of giving students challenges and exercises that help internalize what they have been learning. 
 
 When used in a class situation, assessments are extremely helpful to the teacher as all assessment results are fed automatically through to the teacher class dashboard, allowing them to monitor students' progress across a Course.
 
 Many of Codio's assessment types (code tests, multiple choice questions, text, fill in the blank and list-based) are auto-graded, saving teachers considerable amounts of time and can also offer students instant feedback on the correct answers.
 
-[Click here](/docs/content/authoring/assessments) for more on creating assessments.
+You can also use the [free-text](/docs/content/authoring/assessments/assessments-free) assessment type for answers that require a typed answer that can be manually graded by faculty. The free text type also support Latex, so math questions can be answered and graded.
 
 ### Layouts
 The editor lets you create different panel layouts for your guide content and the layout can change from section to section. 

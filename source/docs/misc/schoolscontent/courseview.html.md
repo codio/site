@@ -10,7 +10,7 @@ When you author course content, you are the owner and the content is set to priv
 1. **Private** - only you can see your Course/Modules.
 1. **Public** - all Codio users can see your Course/Modules.
 
-In addition to this, by changing the owner of the Course/Module to your Organisation:
+In addition to this, by changing the owner of the Course/Module to your Organization:
 
-1. A **Private** Course/Module will be visible to, and usable only by members of that Organisation. Additionally, owners of the Organisation will be able to edit and administer the course/module.
-1. A **Public** Course/Module will be visible to and usable by all, both inside and outside of your Organisation, and it will be shown as belonging to the Organisation. Additionally, owners of the Organisation will be able to edit and administer the course/module.
+1. A **Private** Course/Module will be visible to, and usable only by members of that Organization. Additionally, owners of the Organization will be able to edit and administer the course/module.
+1. A **Public** Course/Module will be visible to and usable by all, both inside and outside of your Organization, and it will be shown as belonging to the Organization. Additionally, owners of the Organization will be able to edit and administer the course/module.

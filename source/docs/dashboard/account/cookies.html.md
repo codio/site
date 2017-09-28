@@ -30,7 +30,7 @@ Select **User custom settings for history** from the drop down in the History se
 #### To enable cookies in Safari:
 In your browser go to `Safari> Preferences`
 <img alt="Safari" src="/img/docs/safari.png" class="simple"/>
-Select the **Privacy** tab and check **Allow from websites I visit**
+Select the **Privacy** tab and check **Always allow**
 <img alt="Safari Cookies" src="/img/docs/safaricookies.png" class="simple"/>
 
 *Image from Safari 10.1.2 (12603.3.8) on macOS Sierra 10.12.6*

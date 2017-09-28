@@ -9,7 +9,10 @@ In order for Codio to work correctly you need to allow cookies. The following in
 #### To enable cookies in Chrome:
 
 In your browser enter: `chrome:settings/content/cookies`
-and enable **Allow sites to save and read cookie data (recommended)**
+and
+
+- enable **Allow sites to save and read cookie data (recommended)**
+- disable **Block third party cookies**
 <img alt="Chrome Cookies" src="/img/docs/chromecookies.png" class="simple"/>
 
 *Image from Chrome Version 59.0.3071.86 (Official Build) (64-bit)*

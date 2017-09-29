@@ -4,7 +4,7 @@ title: "Cookie Requirements"
 
 In order for Codio to work correctly you need to allow cookies. Check our [Privacy Policy](/legal/privacy/) for more information about cookies.
 
-In order for Codio to work correctly you need to allow cookies. The following information explains how to enable cookies for all sites. You can also enable them only for certain sites, which is not explained below.
+The following information explains how to enable cookies for all sites. You can also enable them only for certain sites, which is not explained below.
 
 #### To enable cookies in Chrome:
 
@@ -33,4 +33,5 @@ In your browser go to `Safari> Preferences`
 Select the **Privacy** tab and check **Always allow**
 <img alt="Safari Cookies" src="/img/docs/safaricookies.png" class="simple"/>
 
-*Image from Safari 10.1.2 (12603.3.8) on macOS Sierra 10.12.6*
+*Image from Safari 11.0 (12604.1.38.1.7) on macOS Sierra 10.12.6*
+

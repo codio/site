@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2017**
 
+- `[I] [29th]`: Update messaging if cookies not allowed.
 - `[I] [28th]`: Reorganization of documentation structure.
 - `[F] [27th]`: Changes to [terms of use](/legal/terms)
 - `[I] [22nd]`: Improve handling for publishing new stack versions

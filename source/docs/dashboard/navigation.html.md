@@ -1,5 +1,5 @@
 ---
-title: "Dashboard"
+title: "Navigating Codio"
 class_name: docs
 full_width: true
 ---

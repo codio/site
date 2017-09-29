@@ -4,7 +4,8 @@ cookies
 firewall
 general
 browser
-password
+changepassword
+forgotpassword
 publickey
 github
 bitbucket

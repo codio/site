@@ -16,4 +16,4 @@ A **Long Description** is usually a good idea and helps other users understand t
 You can also add tags that identify the technologies used. An image icon is also suggested.
 
 ## Other settings
-Please refer to the [next page](IAN) for information on how to control access to courses and modules.
+Please refer to the [next page](/docs/courses/manage/course-add/) for information on how to control access to courses and modules.

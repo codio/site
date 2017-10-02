@@ -4,6 +4,16 @@ class_name: docs
 full_width: true
 ---
 
+### Video - overview
+
+The following video gives an overview on why you might want to use a course rather than projects. It also shows you how to create a course and assign it to a class.
+
+<iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+### Summary
+
 The most basic way to assign content to students is to create a project and then [assign the project to the class](/docs/classes/unitmanagement/assign-project). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 
 

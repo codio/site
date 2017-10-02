@@ -50,13 +50,17 @@
   ul {
     background-color: $side-background-gray;
     padding-left: 0.3rem;
+
+    li {
+      line-height: 25px;
+    }
   }
 
   .item {
     margin-left: - $base-line-height / 3;
     padding: .0rem $base-line-height / 2;
-    line-height: 25px;
-    min-height: 28px;
+    line-height: 18px;
+    margin-bottom: 10px;
   }
 
   .item.active {
@@ -128,8 +132,8 @@
 
   .level-1-item {
     font-size: .95rem;
-    line-height: 25px;
-    min-height: 28px;
+    line-height: 18px;
+    margin-bottom: 10px;
 
     a {
       display: inline;
@@ -154,7 +158,7 @@
   }
 
   .level-2-item {
-    min-height: 28px;
+    margin-bottom: 10px;
     &.active > a {
       font-weight: 300;
     }

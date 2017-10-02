@@ -290,7 +290,7 @@ body.docs .section-block-row-three {
 
     li {
       margin-left: 1.75rem;
-      min-height: 32px;
+      margin-bottom: 10px;
     }
 
     @include breakpoint($break-tablet) {
@@ -305,8 +305,8 @@ body.docs .section-block-row-three {
     }
 
     .link-collapse {
-      margin-left: 12px;
-      margin-right: 6px;
+      margin-left: -25px;
+      margin-right: 2px;
       font-size: 1.25rem;
       color: $light-blue;
     }
@@ -324,11 +324,13 @@ body.docs .section-block-row-three {
         list-style: none;
         margin-left: 0;
         margin-right: 1.75rem;
+        padding-left: 32px;
       }
     }
 
     ul.items-list {
-      padding-left: 20px;
+      margin-left: -12px;
+      margin-top: 10px;
 
       li {
         margin-left: 1.75rem;
@@ -349,7 +351,6 @@ body.docs .section-block-row-three {
         vertical-align: middle;
       }
     }
-
   }
 }
 

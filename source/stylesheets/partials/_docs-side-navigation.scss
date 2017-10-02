@@ -118,6 +118,10 @@
     padding-left: 1.5rem;
   }
 
+  .level-2-list {
+    margin-top: 10px;
+  }
+
   .link-collapse {
     font-size: 1.25rem;
   }
@@ -158,6 +162,7 @@
   }
 
   .level-2-item {
+    line-height: 18px;
     margin-bottom: 10px;
     &.active > a {
       font-weight: 300;

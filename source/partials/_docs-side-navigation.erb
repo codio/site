@@ -14,8 +14,9 @@
               <% active = current_section?(child.url) ? "active" : "" %>
               <div class="<%= active %> item">
                 <div class="item-header">
-                  <% if current_section?(child.url) && child.children.length > 0 %>
-                    <a class="link-collapse" data-toggle="collapse" href="#f<%= index %>"></a>
+                  <% collapsed = active == "" ? "collapsed" : "" %>
+                  <% if child.children.length > 0 %>
+                    <a class="link-collapse <%= collapsed %>" data-toggle="collapse" href="#f<%= index %>"></a>
                   <% end %>
                   <% if child.data.class_name == "obg" %>
                     <div class="video-item"></div>
@@ -28,7 +29,6 @@
                   </p>
                 <% end %>
               </div>
-              <% if current_section?(child.url) %>
                 <ul class="<%= active %> level-1-list collapsed items-list" id="f<%= index %>">
                   <% ordered(child).each_with_index do |p, pindex| %>
                     <% if current_section? p.url %>
@@ -61,7 +61,6 @@
                     </li>
                   <% end %>
                 </ul>
-              <% end %>
            </li>
          <% end %>
         </ul>

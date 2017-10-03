@@ -290,7 +290,8 @@ body.docs .section-block-row-three {
 
     li {
       margin-left: 1.75rem;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
+      line-height: 18px;
     }
 
     @include breakpoint($break-tablet) {

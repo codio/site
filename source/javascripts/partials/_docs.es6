@@ -81,8 +81,10 @@ $(document).ready(function() {
   panels = panels !== undefined ? panels : []
   _.each(panels, panel => {
     const item = $('#' + panel)
+    const link = $("a[href^='#"+ panel +"'")
     if (item.hasClass('items-list')) {
       item.collapse('show')
+      link.click()
     }
   })
 })

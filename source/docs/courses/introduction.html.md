@@ -4,9 +4,11 @@ class_name: docs
 full_width: true
 ---
 
+The following videos cover project units. [Click here](/docs/books) if you have authored a Codio book and want to publish a unit from a part it.
+
 ### Video - General overview
 
-The following video gives an overview on why you might want to use a course rather than projects. It also shows you how to create a course and assign it to a class.
+The following video gives an overview on why you might want to use a course rather than projects. It also explains how to create a course and assign it to a class.
 
 <iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -16,6 +18,8 @@ Please refer to [controlling access](/docs/courses/manage/course-public) for inf
 - how to restrict access to teachers and students within your organization
 - general access control.
 
+You might want other teachers to edit your content. It is important to understand how collaboration works, so please refer to [collaborating on project units](/docs/courses/units/course-collaborate) for more details.
+
 ### Video - Stack modifications
 The following video covers the important topic of stack management within a course. Here are some documentation links.
 
@@ -23,6 +27,7 @@ The following video covers the important topic of stack management within a cour
 - [Stack strategy in courses](/docs/courses/stack-planning)
 
 <iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 ### Overview
 

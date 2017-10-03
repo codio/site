@@ -4,15 +4,27 @@ class_name: docs
 full_width: true
 ---
 
-### Video - overview
+### Video - General overview
 
 The following video gives an overview on why you might want to use a course rather than projects. It also shows you how to create a course and assign it to a class.
 
 <iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+Please refer to [controlling access](/docs/courses/manage/course-public) for information on 
 
+- how to allow or prevent other teachers within your organization from editing and managing units
+- how to restrict access to teachers and students within your organization
+- general access control.
 
-### Summary
+### Video - Stack modifications
+The following video covers the important topic of stack management within a course. Here are some documentation links.
+
+- [About stacks in general](/docs/project/stacks/stack-overview)
+- [Stack strategy in courses](/docs/courses/stack-planning)
+
+<iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+### Overview
 
 The most basic way to assign content to students is to create a project and then [assign the project to the class](/docs/classes/unitmanagement/assign-project). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 

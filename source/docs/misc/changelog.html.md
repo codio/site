@@ -11,8 +11,16 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2017**
+
+- `[F] [02nd]`: Release of [books](/docs/content/authoring/books/)
+- `[I] [02nd]`: Allow LMS students to access already started units from Codio dashboard
+- `[I] [02nd]`: Redirect LMS users back to their LMS when marking unit as complete
+
+
 **September 2017**
 
+- `[I] [29th]`: Update Recommended Course content to resolve reported issues in assessments
 - `[I] [29th]`: Update messaging if cookies not allowed.
 - `[I] [28th]`: Reorganization of documentation structure.
 - `[F] [27th]`: Changes to [terms of use](/legal/terms)

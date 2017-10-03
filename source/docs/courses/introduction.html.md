@@ -18,7 +18,15 @@ Please refer to [controlling access](/docs/courses/manage/course-public) for inf
 - how to restrict access to teachers and students within your organization
 - general access control.
 
-You might want other teachers to edit your content. It is important to understand how collaboration works, so please refer to [collaborating on project units](/docs/courses/units/course-collaborate) for more details.
+### Video - Ownership and visibility
+Please watch the following video to understand how to allow people to find your course and modules and also to administer, edit and assign them to classes of student.
+
+<iframe src="https://player.vimeo.com/video/236618721" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+You can also read how to [control access](/docs/courses/manage/course-public) in the documentation.
+
+### Video - Updating course and collaboration
+
 
 ### Video - Stack modifications
 The following video covers the important topic of stack management within a course. Here are some documentation links.
@@ -26,7 +34,7 @@ The following video covers the important topic of stack management within a cour
 - [About stacks in general](/docs/project/stacks/stack-overview)
 - [Stack strategy in courses](/docs/courses/stack-planning)
 
-<iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/xxxxx" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 ### Overview

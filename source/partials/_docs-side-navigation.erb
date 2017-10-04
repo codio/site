@@ -29,7 +29,8 @@
                   </p>
                 <% end %>
               </div>
-                <ul class="<%= active %> level-1-list collapsed items-list" id="f<%= index %>">
+                <% collapsein = active == "" ? "collapse" : "collapse in" %>
+                <ul class="<%= active %> level-1-list collapsed items-list <%= collapsein %>" id="f<%= index %>">
                   <% ordered(child).each_with_index do |p, pindex| %>
                     <% if current_section? p.url %>
                       <li class="active level-1-item">
@@ -37,7 +38,7 @@
                       <li class="level-1-item">
                     <% end %>
                     <% if p.children.length > 0 %>
-                      <a class="link-collapse collapsed" data-toggle="collapse" href="#s<%= pindex %>"></a>
+                      <a class="link-collapse" data-toggle="collapse" href="#s<%= pindex %>"></a>
                     <% end %>
                     <% if p.data.class_name == "obg" %>
                       <div class="video-item"></div>

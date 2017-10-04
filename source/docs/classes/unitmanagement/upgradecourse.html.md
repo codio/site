@@ -20,6 +20,14 @@ Any changes to guides content can be applied. You should be careful about making
 ### Select units to upgrade
 A list of all modified units will be shown. You can select the units you wish to update. The **Upgrade Course** button will no longer be shown if updates have already been applied.
 
+### Stack updates
+If updates to the stack are detected and students have already started the unit(s) you can elect to update the stack as well as the guides content by pressing the **Upgrade Stack and Content** button.
+
+<img alt="Upgrade Stack" src="/img/docs/class_administration/stackupdate.png" class="simple"/>
+However, **any data outside the code workspace folder will be lost for all students who have already started the unit**. 
+
+If there are no detected updates to the stack or no students have started the unit(s), this option will not be shown.
+
 ### Projects assigned to the class
 If your unit was added using [Add Project](/docs/classes/unitmanagement/assign-project) (not a course unit) then see [Update Unit](/docs/classes/unitmanagement/settings-info/updateunit/).
 

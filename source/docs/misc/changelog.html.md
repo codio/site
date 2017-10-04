@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
+- `[I] [04th]`: Improve [upgrade course](/docs/classes/unitmanagement/upgradecourse/) process
 - `[F] [02nd]`: Release of [books](/docs/content/authoring/books/)
 - `[I] [02nd]`: Allow LMS students to access already started units from Codio dashboard
 - `[I] [02nd]`: Redirect LMS users back to their LMS when marking unit as complete

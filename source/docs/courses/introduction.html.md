@@ -12,12 +12,6 @@ The following video gives an overview on why you might want to use a course rath
 
 <iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-Please refer to [controlling access](/docs/courses/manage/course-public) for information on 
-
-- how to allow or prevent other teachers within your organization from editing and managing units
-- how to restrict access to teachers and students within your organization
-- general access control.
-
 ### Video - Ownership and visibility
 Please watch the following video to understand how to allow people to find your course and modules and also to administer, edit and assign them to classes of student.
 
@@ -25,16 +19,17 @@ Please watch the following video to understand how to allow people to find your 
 
 You can also read how to [control access](/docs/courses/manage/course-public) in the documentation.
 
-### Video - Updating course and collaboration
-
-
-### Video - Stack modifications
+### Video - Working with stacks in courses
 The following video covers the important topic of stack management within a course. Here are some documentation links.
 
 - [About stacks in general](/docs/project/stacks/stack-overview)
 - [Stack strategy in courses](/docs/courses/stack-planning)
 
-<iframe src="https://player.vimeo.com/video/xxxxx" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/236904941" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+### Updating courses and collaboration
+If you want to allow other teachers in your organization to modify your course structure and unit content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/docs/courses/units/course-collaborate/) for details.
 
 
 ### Overview

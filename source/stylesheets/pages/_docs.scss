@@ -290,8 +290,8 @@ body.docs .section-block-row-three {
 
     li {
       margin-left: 1.75rem;
-      margin-bottom: 5px;
-      line-height: 18px;
+      margin-bottom: 6px;
+      line-height: 19px;
     }
 
     @include breakpoint($break-tablet) {
@@ -346,8 +346,8 @@ body.docs .section-block-row-three {
 
       .video-icon {
         display: inline-block;
-        width: 22px;
-        height: 32px;
+        width: 21px;
+        height: 16px;
         background: url('/img/docs/video-icon-16x16.png') no-repeat left center;
         vertical-align: middle;
       }

@@ -54,6 +54,6 @@ When you assign a stack to a unit, it will be set by default to the **Use Latest
 
 <img alt="Unit stack settings" src="/img/docs/stacksettings.png" class="simple"/>
 
-Understanding what **Use Latest Version** means is important. When you work with a unit as a course author, that unit is actually using a fixed version. It does not automatically switch to the latest version each time anew version of a stack is created. This could be dangerous as switching a stack resets everything outside the workspace folder. If you want to update to the latest version then you need to go to the stack settings dialog and press the save button. 
+Understanding what **Use Latest Version** means is important. When you work with a unit as a course author, that unit is actually using a fixed version. It does not automatically switch to the latest version each time a new version of a stack is created. This could be dangerous as switching a stack resets everything outside the workspace folder. If you want to update to the latest version then you need to go to the stack settings dialog and press the save button. 
 
 Where **Use Latest Version** is useful is when you assign a course module and its units to a class. In this case, students who have not yet started a unit **will** get the latest version of the stack.

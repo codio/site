@@ -106,6 +106,12 @@ $('.items-list').on('hidden.bs.collapse', function() {
   if (elementIndex !== -1) {
     panels.splice(elementIndex, 1)
   }
+  $(this).find("*[id]").each(function () {
+    const index = panels.indexOf(this.id);
+    if (elementIndex !== -1) {
+      panels.splice(elementIndex, 1)
+    }
+  });
   localStorageStore.set(COLLAPSES_LIST, panels);
   updateDocsBodyHeight();
 })

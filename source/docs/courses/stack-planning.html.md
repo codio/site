@@ -35,7 +35,7 @@ Other than that, the principles described above still apply.
 ### Switching stacks
 It is possible to change the stack for a unit. This can be done from either the listing or from within the IDE. However, if this change were to be needed for all units then you would have to repeat this for each unit individually.
 
-It is therefore highly recommended that you start with a stack and stick with it wherever possible. Remember that you can always install new components and then update the stack to a new version with any other units using that stack automatically getting updated.
+It is therefore highly recommended that you start with a stack and stick with it wherever possible.
 
 ### Stacks not owned by you
 If you were to use one of Codio's default stacks then you are not able to update these yourself as you don't have permissions. However, you might want to start off with, say, the Java stack and then install new components.

@@ -9,7 +9,7 @@ If any updates to a course used in your class are detected, you can upgrade the 
 
 <img alt="Upgrade Course" src="/img/docs/class_administration/upgradecourse.png" class="simple"/>
 
-Updates may be new units added to the course, a new version of the stack, updates for assessments in a guide or book and/or changes to the general guide content. 
+Updates may be new units added to the course, a new version of the stack, updates for assessments in a guide or book, changes to the general guide content or a change in the order of units in the course. 
 
 Most assessment changes can be safely upgraded but if you have altered the structure of a question (for example multiple choice changed from single response to multiple response) then student response data can be invalidated.
 

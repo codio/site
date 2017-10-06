@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
+- `[I] [06th]`: Update [upgrade course](/docs/classes/unitmanagement/upgradecourse) to handle changes in the order of units in courses
 - `[I] [06th]`: Improve handling of unit ordering when adding or updating a course in a class to match the order set in the course
 - `[I] [06th]`: Add [courses overview](/docs/courses/introduction#courseoverview) video
 - `[I] [06th]`: Add [ownership and visibility of courses](/docs/courses/introduction#coursevisibility) video

@@ -1,8 +1,9 @@
 ---
-title: "Account settings overview"
+title: "Dashboard overview"
 class_name: obg
+full_width: true
 ---
 
-A brief overview of interesting account settings.
+An onboarding video for the Codio teacher/instructor and student dashboards.
 
-<iframe src="https://player.vimeo.com/video/236066104" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-
+<iframe src="https://player.vimeo.com/video/229771638" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

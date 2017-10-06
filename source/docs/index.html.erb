@@ -4,7 +4,13 @@ description: Need help using Codio? We have extensive documentation to help you 
 layout: layout
 ---
 
-<div class="index-header-block">
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="index-header-block">
 		<h2></h2>
 	</div>
 	<section class="docs-index">
@@ -18,14 +24,11 @@ layout: layout
 					<h3>The Codio Dashboard</h3>
           <ul class="bullet-collapse">
             <li><a href="/docs/dashboard/support">Support queries</a></li>  
-            <li><a href="/docs/dashboard/navigation">Navigating Codio</a></li>  
-            <li class="ob"><div class="video-icon"></div><a href="/docs/dashboard/obg-overview">Dashboard overview</a></li>
+            <li><a href="/docs/dashboard/account/navigation">Navigating Codio</a></li>  
+            <!-- <li class="ob"><div class="video-icon"></div><a href="/docs/dashboard/account/obg-overview">Dashboard overview</a></li>  -->
 						<li class="item-collapse">
 							<a class="link-collapse collapsed" data-toggle="collapse" href="#how_create_org"></a> <a href="/docs/dashboard/create/">Organization management</a>
 							<ul class="collapse items-list" id="how_create_org">
-                <li class="ob"><div class="video-icon"></div>
-                  <a href="/docs/dashboard/create/obg-overview">Organization overview</a>
-                </li>
 								<li>
 									<a href="/docs/dashboard/create/adminrole">Administrator role</a>
 								</li>
@@ -39,7 +42,7 @@ layout: layout
 									<a href="/docs/dashboard/create/addstudents">Add students</a>
 								</li>
 								<li>
-									<a href="/docs/dashboard/create/consent">Student consent form</a>
+									<a href="/docs/dashboard/account/consent">Student consent form</a>
 								</li>  
 								<li>
 									<a href="/docs/dashboard/create/viewmembers">View organization members</a>
@@ -68,15 +71,18 @@ layout: layout
 						<li class="item-collapse">
 							<a class="link-collapse collapsed" data-toggle="collapse" href="#account-settings"></a> <a href="/docs/dashboard/account">Account settings and info</a>
 							<ul class="collapse items-list" id="account-settings">
-                <li class="ob"><div class="video-icon"></div>
-                  <a href="/docs/dashboard/account/obg-overview">Account settings overview</a>
-                </li>                
-								<li><a href="/docs/dashboard/create/consent">Student Consent</a></li>
+								<li><a href="/docs/dashboard/account/consent">Student Consent</a></li>
 								<li><a href="/docs/dashboard/account/cookies">Cookie Requirements</a></li> 
                 <li><a href="/docs/dashboard/account/firewall">Firewall and network settings</a></li>
-                <li><a href="/docs/dashboard/account/browser">Browser support</a></li>
-                <li><a href="/docs/dashboard/account/changepassword">Resetting student passwords</a></li>
-                <li><a href="/docs/dashboard/account/forgotpassword">Forgot your password</a></li>
+								                <li><a href="/docs/dashboard/account/browser">Browser support</a></li>
+                <li class="item-collapse">
+                  <a class="link-collapse collapsed" data-toggle="collapse" href="#passwords"></a> 
+                  <a href="/docs/dashboard/account/password">Passwords</a>
+                  <ul id="passwords" class="collapse items-list">
+                    <li><a href="/docs/dashboard/account/password/changepassword">Resetting student passwords</a></li>
+                  <li><a href="/docs/dashboard/account/password/forgotpassword">Forgot your password?</a></li>
+                  </ul>
+                </li>
                 <li><a href="/docs/dashboard/account/publickey">Public key</a></li>
                 <li><a href="/docs/dashboard/account/github">GitHub</a></li>
                 <li><a href="/docs/dashboard/account/bitbucket">BitBucket</a></li>
@@ -656,7 +662,7 @@ layout: layout
 					
 					<h3>Courses</h3>
 					<ul class="bullet-collapse" >
-						<li class="ob"><div class="video-icon"></div>
+						<li>
 							<a href="/docs/courses/introduction">Introduction</a>
 						</li>   
 						<li>
@@ -672,10 +678,10 @@ layout: layout
                   <a href="/docs/courses/manage/course-create">Create a course</a>
                 </li>
                 <li>
-                  <a href="/docs/courses/manage/course-add">Modules</a>
+                  <a href="/docs/courses/manage/course-public">Public courses</a>
                 </li>
                 <li>
-                  <a href="/docs/courses/manage/course-public">Controlling access</a>
+                  <a href="/docs/courses/manage/course-add">Modules</a>
                 </li>
                 <li>
                   <a href="/docs/courses/manage/delete">Deleting courses and modules</a>
@@ -787,8 +793,7 @@ layout: layout
 							</ul>
 						</li>             
 						<li class="item-collapse">
-							<a class="link-collapse collapsed" data-toggle="collapse" href="#stud_progress"></a>
-              <a href="/docs/classes/monitor">Grading &amp; accessing student projects</a>
+							<a class="link-collapse collapsed" data-toggle="collapse" href="#stud_progress"></a><a href="/docs/classes/monitor">Grading &amp; accessing student projects</a>
 							<ul class="collapse items-list" id="stud_progress">
 								<li>
 									<a href="/docs/classes/monitor/progress">Student assessment results</a>
@@ -825,8 +830,7 @@ layout: layout
 							</ul>
 						</li>
             <li class="item-collapse">
-              <a class="link-collapse collapsed" data-toggle="collapse" href="#lmsintegration"></a>
-              <a href="/docs/classes/lti">LMS integration</a>
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#lmsintegration"></a> <a href="/docs/classes/lti">LMS integration</a>
               <ul class="collapse items-list" id="lmsintegration">
                 <li>
                   <a href="/docs/classes/lti/keys">LTI Keys and URLs</a>
@@ -896,7 +900,7 @@ layout: layout
             </li>               
 
             <li class="item-collapse">
-              <a class="link-collapse collapsed" data-toggle="collapse" href="#billing"></a> Billing
+              <a class="link-collapse collapsed" data-toggle="collapse" href="#billing"></a>Billing
               <ul class="collapse items-list" id="billing">
                 <li><a href="/docs/dashboard/account/billing">Organizations Billing</a></li>
                 <li><a href="docs/dashboard/account/billing-ind/">Individual Billing</a></li>
@@ -911,4 +915,6 @@ layout: layout
 				</div>
 			</div>
 		</div>
-  </section>
+	</section>
+</body>
+</html>

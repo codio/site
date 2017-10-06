@@ -37,6 +37,7 @@ If you want to allow other teachers in your organization to modify your course s
 
 ### Overview
 
+
 The most basic way to assign content to students is to create a project and then [assign the project to the class](/docs/classes/unitmanagement/assign-project). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 
 

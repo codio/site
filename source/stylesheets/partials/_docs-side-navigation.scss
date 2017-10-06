@@ -50,17 +50,13 @@
   ul {
     background-color: $side-background-gray;
     padding-left: 0.3rem;
-
-    li {
-      line-height: 25px;
-    }
   }
 
   .item {
     margin-left: - $base-line-height / 3;
     padding: .0rem $base-line-height / 2;
-    line-height: 18px;
-    margin-bottom: 10px;
+    line-height: 25px;
+    min-height: 28px;
   }
 
   .item.active {
@@ -118,10 +114,6 @@
     padding-left: 1.5rem;
   }
 
-  .level-2-list {
-    margin-top: 10px;
-  }
-
   .link-collapse {
     font-size: 1.25rem;
   }
@@ -136,8 +128,8 @@
 
   .level-1-item {
     font-size: .95rem;
-    line-height: 18px;
-    margin-bottom: 10px;
+    line-height: 25px;
+    min-height: 28px;
 
     a {
       display: inline;
@@ -154,16 +146,15 @@
 
   .video-item {
     display: inline-block;
-    width: 21px;
-    height: 16px;
+    width: 22px;
+    height: 32px;
     margin-top: -3px;
     background: url('/img/docs/video-icon-16x16.png') no-repeat left center;
     vertical-align: middle;
   }
 
   .level-2-item {
-    line-height: 18px;
-    margin-bottom: 10px;
+    min-height: 28px;
     &.active > a {
       font-weight: 300;
     }

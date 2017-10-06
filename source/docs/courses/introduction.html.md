@@ -4,6 +4,36 @@ class_name: docs
 full_width: true
 ---
 
+The following videos cover project units. [Click here](/docs/books) if you have authored a Codio book and want to publish a unit from a part it.
+
+### Video - General overview
+
+The following video gives an overview on why you might want to use a course rather than projects. It also explains how to create a course and assign it to a class.
+
+<iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+### Video - Ownership and visibility
+Please watch the following video to understand how to allow people to find your course and modules and also to administer, edit and assign them to classes of student.
+
+<iframe src="https://player.vimeo.com/video/236618721" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+You can also read how to [control access](/docs/courses/manage/course-public) in the documentation.
+
+### Video - Working with stacks in courses
+The following video covers the important topic of stack management within a course. Here are some documentation links.
+
+- [About stacks in general](/docs/project/stacks/stack-overview)
+- [Stack strategy in courses](/docs/courses/stack-planning)
+
+<iframe src="https://player.vimeo.com/video/236904941" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+### Updating courses and collaboration
+If you want to allow other teachers in your organization to modify your course structure and unit content then it is important to understand how Codio manages this. Please refer to [Collaborating on project units](/docs/courses/units/course-collaborate/) for details.
+
+
+### Overview
+
 The most basic way to assign content to students is to create a project and then [assign the project to the class](/docs/classes/unitmanagement/assign-project). Over time, you may end up with a lot of projects in your project list. Each time you come to teach your course, you will find it harder and harder to locate the right project when you need it.
 
 

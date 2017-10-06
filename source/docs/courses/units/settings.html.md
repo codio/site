@@ -31,6 +31,11 @@ This allows you to view the version history. You can see
 ### Change stack
 This option is only available for project units. It allows you to switch the stack used by a unit. 
 
+If a stack is set to **Use latest version** then
+
+- when a unit has been assigned to a class, any student who has not yet started the unit will use the latest version of the stack.
+- the unit itself will remain on whatever stack version was last assigned. If you want to change it to the latest created stack version then you should click the **Save Changes** button to update it.
+
 ## Delete unit
 <img alt="deletetab" src="/img/docs/deletetab.png" class="simple"/>
 Select **Delete** from the above screen to delete the unit. 

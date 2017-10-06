@@ -18,23 +18,6 @@ A Long Description is usually a good idea and helps other users understand the s
 
 You can also add tags that identify the technologies used. An image icon can also be set.
 
-## Visibility
-This determines whether your module is publicly available to all Codio users or should remain private to you and/or your [Organization](/docs/dashboard/create/adminrole) (if you are a member of an Organization). By default, Modules are set to be Private.
-
-To publish your module to an Organization, please read on.
-
-## Owner
-By default, you are the owner of the module you create.
-
-If you are a member of an Organization, the Organization owner can disable the ability for you to create only private modules. See [Public/Private Settings](/docs/dashboard/create/public_private).
-
-If you select an Organization from the 'Who should own this module' dropdown, then 
-
-1. Any Owner group members of that Organization are able to administer the module.
-2. All Organization members will be able to see it in the listing, even if the module is marked as private. 
-
-To create a module that is private to your Organization, select the Organization as the owner.
-
 ## Adding a Module
 It is possible to add a module to your course that already exists in another course. Press the **Add Module** button. 
 
@@ -44,7 +27,7 @@ You can filter from the available options in the tabs, or search by typing into 
 
 You can also order the list of modules by name or owner and use the **Filter by Course** drop down to view modules in other courses.
 
-<img alt="authtoken" src="/img/docs/module_browser.png" class="simple"/>
+<img alt="Module Browse" src="/img/docs/module_browser.png" class="simple"/>
 
 ## Adding a unit to a module
 Please read the section [Adding units](/docs/courses/units/unit-add) for details.

@@ -13,6 +13,19 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
+
+- `[I] [06th]`: Improve handling of unit ordering when adding or updating a course in a class to match the order set in the course
+- `[I] [06th]`: Add [courses overview](/docs/courses/introduction#courseoverview) video
+- `[I] [06th]`: Add [ownership and visibility of courses](/docs/courses/introduction#coursevisibility) video
+- `[I] [06th]`: Add [working with stacks in courses](/docs/courses/introduction#coursestacks) video
+- `[I] [06th]`: Add [account settings overview](/docs/dashboard/account/obg-overview) video
+- `[I] [06th]`: Add [dashboard overview](/docs/dashboard/obg-overview) video
+- `[I] [05th]`: Improve warnings for unsaved changes when authoring [guides](/docs/content/authoring/introduction)
+- `[I] [05th]`: Ignore .git and .hg files in [search and replace](/docs/ide/editing/search-replace/) actions
+- `[I] [04th]`: Improve handling of students ability to amend answer submissions during completion of a unit
+- `[I] [04th]`: Fix problem so students can not create courses,modules and units
+- `[I] [04th]`: Improve [grading free text](/docs/classes/monitor/grading-freetext/) to show confirmation message when applying
+- `[I] [04th]`: Improve stack handling when [publishing](/docs/courses/units/publish/) units
 - `[I] [04th]`: Improve [upgrade course](/docs/classes/unitmanagement/upgradecourse/) process
 - `[F] [02nd]`: Release of [books](/docs/content/authoring/books/)
 - `[I] [02nd]`: Allow LMS students to access already started units from Codio dashboard

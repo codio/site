@@ -6,12 +6,14 @@ full_width: true
 
 The following videos cover project units. [Click here](/docs/books) if you have authored a Codio book and want to publish a unit from a part it.
 
+<a name="courseoverview"></a>
 ### Video - General overview
 
 The following video gives an overview on why you might want to use a course rather than projects. It also explains how to create a course and assign it to a class.
 
 <iframe src="https://player.vimeo.com/video/236456705" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<a name="coursevisibility"></a>
 ### Video - Ownership and visibility
 Please watch the following video to understand how to allow people to find your course and modules and also to administer, edit and assign them to classes of student.
 
@@ -19,6 +21,7 @@ Please watch the following video to understand how to allow people to find your 
 
 You can also read how to [control access](/docs/courses/manage/course-public) in the documentation.
 
+<a name="coursestacks"></a>
 ### Video - Working with stacks in courses
 The following video covers the important topic of stack management within a course. Here are some documentation links.
 

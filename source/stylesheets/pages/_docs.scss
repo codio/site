@@ -290,8 +290,7 @@ body.docs .section-block-row-three {
 
     li {
       margin-left: 1.75rem;
-      margin-bottom: 6px;
-      line-height: 19px;
+      min-height: 32px;
     }
 
     @include breakpoint($break-tablet) {
@@ -306,8 +305,8 @@ body.docs .section-block-row-three {
     }
 
     .link-collapse {
-      margin-left: -25px;
-      margin-right: 2px;
+      margin-left: 12px;
+      margin-right: 6px;
       font-size: 1.25rem;
       color: $light-blue;
     }
@@ -325,13 +324,11 @@ body.docs .section-block-row-three {
         list-style: none;
         margin-left: 0;
         margin-right: 1.75rem;
-        padding-left: 32px;
       }
     }
 
     ul.items-list {
-      margin-left: -12px;
-      margin-top: 10px;
+      padding-left: 20px;
 
       li {
         margin-left: 1.75rem;
@@ -339,19 +336,20 @@ body.docs .section-block-row-three {
       }
     }
 
-    li.ob, ul.items-list li.ob {
+    li.ob {
       list-style: none;
       margin-left: 10px;
       margin-right: 1.75rem;
 
       .video-icon {
         display: inline-block;
-        width: 21px;
-        height: 16px;
+        width: 22px;
+        height: 32px;
         background: url('/img/docs/video-icon-16x16.png') no-repeat left center;
         vertical-align: middle;
       }
     }
+
   }
 }
 

@@ -106,6 +106,12 @@ $('.items-list').on('hidden.bs.collapse', function() {
   if (elementIndex !== -1) {
     panels.splice(elementIndex, 1)
   }
+  $(this).find("*[id]").each(function () {
+    const index = panels.indexOf(this.id);
+    if (elementIndex !== -1) {
+      panels.splice(elementIndex, 1)
+    }
+  });
   localStorageStore.set(COLLAPSES_LIST, panels);
   updateDocsBodyHeight();
 })
@@ -389,8 +395,8 @@ $(document).ready(function() {
   let tab = DOCUMENTATION_TAB
   const referrer = sessionStorageStore.get(DOCUMENT_REFERRER) || ''
   const refPath = referrer
-      .replace(document.origin, '')
-      .replace(/\/$/, '')
+    .replace(document.origin, '')
+    .replace(/\/$/, '')
   const path = location.pathname.replace(/\/$/, '')
 
   if (refPath !== '' && referrer.indexOf(document.origin + '/docs') === 0) {

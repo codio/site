@@ -5,7 +5,7 @@
     <%= link_to "Docs front page", "/docs", class: "button button-rounded button-rounded-border" %>
   </div>
 
-  <ul>
+  <ul class="menu">
     <% pages.each do |resource| %>
       <li>
         <ul>
@@ -14,8 +14,9 @@
               <% active = current_section?(child.url) ? "active" : "" %>
               <div class="<%= active %> item">
                 <div class="item-header">
-                  <% if current_section?(child.url) && child.children.length > 0 %>
-                    <a class="link-collapse" data-toggle="collapse" href="#f<%= index %>"></a>
+                  <% collapsed = active == "" ? "collapsed" : "" %>
+                  <% if child.children.length > 0 %>
+                    <a class="link-collapse <%= collapsed %>" data-toggle="collapse" href="#f<%= index %>"></a>
                   <% end %>
                   <% if child.data.class_name == "obg" %>
                     <div class="video-item"></div>
@@ -28,42 +29,41 @@
                   </p>
                 <% end %>
               </div>
-              <% if current_section?(child.url) %>
-                <ul class="<%= active %> level-1-list collapsed items-list" id="f<%= index %>">
-                  <% ordered(child).each_with_index do |p, pindex| %>
-                    <% if current_section? p.url %>
-                      <li class="active level-1-item">
-                    <% else %>
-                      <li class="level-1-item">
-                    <% end %>
-                    <% if p.children.length > 0 %>
-                      <a class="link-collapse collapsed" data-toggle="collapse" href="#s<%= pindex %>"></a>
-                    <% end %>
-                    <% if p.data.class_name == "obg" %>
-                      <div class="video-item"></div>
-                    <% end %>
-                    <%=  link_to p.data.title, p.url %>
-                    <% if p.children.length > 0 %>
-                      <ul class="level-2-list collapse items-list" id="s<%= pindex %>">
-                        <% ordered(p).each do |inner| %>
-                          <% if current_page? inner.url %>
-                            <li class="active level-2-item">
-                          <% else %>
-                            <li class="level-2-item">
-                          <% end %>
-                          <% if inner.data.class_name == "obg" %>
-                            <div class="video-item"></div>
-                          <% end %>
-                          <%= link_to inner.data.title, inner.url %></li>
-                        <% end %>
-                      </ul>
-                    <% end %>
-                    </li>
+              <% collapsein = active == "" ? "collapse" : "collapse in" %>
+              <ul class="<%= active %> level-1-list collapsed items-list <%= collapsein %>" id="f<%= index %>">
+                <% ordered(child).each_with_index do |p, pindex| %>
+                  <% if current_section? p.url %>
+                    <li class="active level-1-item">
+                  <% else %>
+                    <li class="level-1-item">
                   <% end %>
-                </ul>
-              <% end %>
-           </li>
-         <% end %>
+                  <% if p.children.length > 0 %>
+                    <a class="link-collapse" data-toggle="collapse" href="#s<%= pindex %>"></a>
+                  <% end %>
+                  <% if p.data.class_name == "obg" %>
+                    <div class="video-item"></div>
+                  <% end %>
+                  <%=  link_to p.data.title, p.url %>
+                  <% if p.children.length > 0 %>
+                    <ul class="level-2-list collapse items-list" id="s<%= pindex %>">
+                      <% ordered(p).each do |inner| %>
+                        <% if current_page? inner.url %>
+                          <li class="active level-2-item">
+                        <% else %>
+                          <li class="level-2-item">
+                        <% end %>
+                        <% if inner.data.class_name == "obg" %>
+                          <div class="video-item"></div>
+                        <% end %>
+                        <%= link_to inner.data.title, inner.url %></li>
+                      <% end %>
+                    </ul>
+                  <% end %>
+                  </li>
+                <% end %>
+              </ul>
+            </li>
+          <% end %>
         </ul>
       </li>
     <% end %>

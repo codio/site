@@ -238,8 +238,8 @@ body.docs .page-header-block {
     font-weight: 400;
 
     @include breakpoint($break-tablet) {
-        width: span(8 of 16);
-        margin: 0 span(4 of 16);
+      width: span(8 of 16);
+      margin: 0 span(4 of 16);
     }
 
     &::placeholder {
@@ -290,7 +290,8 @@ body.docs .section-block-row-three {
 
     li {
       margin-left: 1.75rem;
-      min-height: 32px;
+      margin-bottom: 6px;
+      line-height: 19px;
     }
 
     @include breakpoint($break-tablet) {
@@ -305,8 +306,8 @@ body.docs .section-block-row-three {
     }
 
     .link-collapse {
-      margin-left: 12px;
-      margin-right: 6px;
+      margin-left: -25px;
+      margin-right: 2px;
       font-size: 1.25rem;
       color: $light-blue;
     }
@@ -324,11 +325,13 @@ body.docs .section-block-row-three {
         list-style: none;
         margin-left: 0;
         margin-right: 1.75rem;
+        padding-left: 32px;
       }
     }
 
     ul.items-list {
-      padding-left: 20px;
+      margin-left: -12px;
+      margin-top: 10px;
 
       li {
         margin-left: 1.75rem;
@@ -336,20 +339,27 @@ body.docs .section-block-row-three {
       }
     }
 
-    li.ob {
+    li.ob, ul.items-list li.ob {
       list-style: none;
-      margin-left: 10px;
+      margin-left: 0;
       margin-right: 1.75rem;
 
       .video-icon {
         display: inline-block;
-        width: 22px;
-        height: 32px;
-        vertical-align: middle;
+        width: 19px;
+        height: 16px;
         background: url('/img/docs/video-icon-16x16.png') no-repeat left center;
+        vertical-align: middle;
+        margin-left: -25px;
+        margin-right: 2px;
       }
     }
 
+    .ob {
+      list-style: none;
+      margin-right: 1.75rem;
+      padding-left: 32px;
+    }
   }
 }
 
@@ -416,4 +426,3 @@ body.docs .crumbs {
     margin: 0 0 2rem 0;
   }
 }
-

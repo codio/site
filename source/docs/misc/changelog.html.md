@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
+- `[I] [10th]`: Fix problem with books upgrade to class
+- `[I] [10th]`: Improve handling of size of free text assessment field for student
 - `[I] [09th]`: Show points assigned for free text assessments to students within the unit when grades released
 - `[F] [06th]`: Add user preference editor setting to show a vertical ruler in files. `[ruler]=xx`
 - `[I] [06th]`: Improve handling of unit ordering when adding or updating a course in a class to match the order set in the course

@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
+- `[F] [10th]`: Unify guides/books [table of contents](/docs/content/authoring/toc/)
 - `[I] [10th]`: Fix problem with books upgrade to class
 - `[I] [10th]`: Improve handling of size of free text assessment field for student
 - `[I] [09th]`: Show points assigned for free text assessments to students within the unit when grades released

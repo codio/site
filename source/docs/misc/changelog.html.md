@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
+- `[I] [12th]`: Update handling of symbols in free text aassessment previewing
+- `[I] [12th]`: Improve class navigation for teachers, click units tab to return to main unit listing
 - `[F] [11th]`: Unify guides/books [table of contents](/docs/content/authoring/toc/)
 - `[I] [11th]`: Fix issue with creating projects importing from zip file
 - `[I] [10th]`: Fix problem with books upgrade to class

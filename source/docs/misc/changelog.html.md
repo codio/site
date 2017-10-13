@@ -13,7 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
-- `[I] [12th]`: Update handling of symbols in free text aassessment previewing
+- `[I] [13th]`: Improve grading for [Free text assessments](/docs/content/authoring/assessments/assessments-free#freetextassessments) supporting comment field and easy navigation to other students and other assesssments for the currently selected student
+- `[I] [12th]`: Update handling of symbols in free text assessment previewing
 - `[I] [12th]`: Improve class navigation for teachers, click units tab to return to main unit listing
 - `[F] [11th]`: Unify guides/books [table of contents](/docs/content/authoring/toc/)
 - `[I] [11th]`: Fix issue with creating projects importing from zip file

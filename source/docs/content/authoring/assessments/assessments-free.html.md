@@ -53,11 +53,20 @@ Click one line and you will then see the question asked of the student and the a
 
 If the question was not set to **Allow Partial Points**, the teacher can select **Correct** or **Incorrect**
 
-<img alt="authtoken" src="/img/docs/guides/notpartial.png" class="simple"/>
+<img alt="Partial points not allowed" src="/img/docs/guides/notpartial.png" class="simple"/>
 
 If the question was set to use **Allow Partial Points** the teacher can select the points to give to the answer up to the maximum **Points**.
 
-<img alt="authtoken" src="/img/docs/guides/partial.png" class="simple"/>
+<img alt="Partial points allowed" src="/img/docs/guides/partial.png" class="simple"/>
+
+Comments can also be added and will be shown to the student when grades are released. The comment field supports [LATex](/docs/content/authoring/page-edit/latex/) and [markdown](/docs/content/authoring/page-edit/edit/) with a preview area below the text area to allow the grader review the input. The comment field will autoexpand as required
+
+<a name="freetextassessments"></a>
+## Navigating students assessments
+
+Using the **<** and **>** buttons at the top of the assessments grading dialog you can quickly navigate either to the same assessment for other students or to other assessments for the select student
+
+<img alt="Navigate assessments" src="/img/docs/guides/freetext_navigate.png" class="simple"/>
 
 ## Viewing graded free text assessments
 

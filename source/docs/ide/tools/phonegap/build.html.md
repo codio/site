@@ -17,8 +17,8 @@ Keys are configured from the **Account > Edit Setting > Signing Keys** tab in yo
 
 Phonegap has very good documentation on how to generate your keys as well as how to configure your Phonegap:Build account.
 
-- [Android](http://docs.build.phonegap.com/en_US/signing_signing-android.md.html#Android%20Signing)
-- [iOS](http://docs.build.phonegap.com/en_US/signing_signing-ios.md.html#iOS%20Signing)
+- [Android](http://docs.phonegap.com/phonegap-build/signing/android/)
+- [iOS](http://docs.phonegap.com/phonegap-build/signing/ios/)
 
 *Note If you do not see anything in the `Keys` area, review your `<gap:platforms>` content in the config.xml file*
 

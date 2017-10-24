@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
+- `[I] [24th]`: Update unit action to also update codio files (e.g .codio, .settings)
 - `[I] [18th]`: Update saving of draft free text assessments
 - `[I] [16th]`: Fix problem for students answering assessments
 - `[I] [16th]`: Fix problem with custom assessment grades not being passed correctly

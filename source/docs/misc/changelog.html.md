@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2017**
 
+- `[I] [26th]`: Update message handling for change stack for units in a course
 - `[I] [25th]`: Improve stack creation from the IDE
 - `[I] [24th]`: Update unit action to also update codio files (e.g .codio, .settings)
 - `[I] [18th]`: Update saving of draft free text assessments

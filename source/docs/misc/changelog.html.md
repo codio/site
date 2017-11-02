@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**November 2017**
+
+- `[I] [02nd]`: Fix problem when Guides TOC opened and closed to cause terminal to resize incorrectly
+
 **October 2017**
 
 - `[I] [26th]`: Update message handling for change stack for units in a course

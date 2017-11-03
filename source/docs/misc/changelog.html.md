@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2017**
 
+- `[I] [03rd]`: Fix terminal light theme to show cursor
+- `[I] [03rd]`: Fix problem where teachers are not always able to view content of 3 blue dot menu in the students listing
+- `[I] [03rd]`: Update Codemirror components and fix soft tabs
 - `[I] [02nd]`: Fix problem when Guides TOC opened and closed to cause terminal to resize incorrectly
 
 **October 2017**

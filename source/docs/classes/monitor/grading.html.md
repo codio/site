@@ -17,7 +17,20 @@ Codio's grading features address four important aspects when grading student pro
 ### The grading process
 Once students have completed their assignments, they should notify the teacher of completion by going to the **Education->Mark as Completed** menu item within the IDE. The teacher is then able to see whose project is ready to be graded (see below image with completion status circled left).
 
-You can access the student's project from the same screen by clicking on the arrow on the extreme right (see below image with arrows circled right). You can then review the project. 
+The teacher is also able to filter either finding specific students or to view students based on the status of the unit.
+<img alt="Filtering" src="/img/docs/filter.png" class="simple"/>
+
+Students can be filtered by:
+
+- Any Status
+- Started
+- Not Started
+- Fully Graded
+- Not Graded
+- Completed
+- Uncompleted
+
+You can access the student's project from the same screen by clicking on the 3 blude dots on the extreme right (see below image with dots circled right). You can then review the project. 
 
 <img alt="authtoken" src="/img/docs/grading-unit.png" class="simple"/>
 
@@ -32,7 +45,7 @@ Also see [Autograding](/docs/classes/unitmanagement/settings-info/autograde/)
 
 To grade from the class dashboard, you should first select the assignment unit. You can see the check mark next to those students who have completed the assignment.
 
-To assign comments or a grade, you click on the Grade icon (see image with grading icons circled center). You can then modify the comments and grade fields for any individual student.
+To assign comments or a grade, you click on the Grade icon (see image above with grading icons circled center). You can then modify the comments and grade fields for any individual student.
 
 <img alt="authtoken" src="/img/docs/grading-assign.png" class="simple"/>
 
@@ -59,7 +72,7 @@ The below screenshot shows an example of where a student project has been graded
 
 <img alt="authtoken" src="/img/docs/grading-moderation.png" class="simple"/>
 
-The moderated grade will not be shown to the class and can only be see by teachers of that class.
+The moderated grade will not be shown to the class and can only be seen by teachers of that class.
 
 Teachers who you want to perform grading moderation will need to be added to the class from the **Admin** screen first.
 

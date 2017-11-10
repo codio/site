@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2017**
 
+- `[I] [09th]`: Fix TOC scrolling issue in guides for Firefox and IE browsers
 - `[I] [07th]`: Improve Mark as Completed process to provide warning of assessments in the unit not completed
 - `[I] [07th]`: Update teacher dashboard for grading, allowing teachers to filter to find students and by status of unit. See [Grading project work](/docs/classes/monitor/grading/) for more information
 - `[I] [03rd]`: Fix terminal light theme to show cursor

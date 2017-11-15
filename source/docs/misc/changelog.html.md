@@ -13,7 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2017**
 
-- `[I] [15th]`: Fix issue when changing stack for ad-hox projects in a class
+- `[I] [15th]`: Fix issue when changing stack for ad-hoc projects in a class
 - `[I] [15th]`: Update guides collapse button handling when layout set to 1 panel
 - `[I] [14th]`: Fix handling of book based units opening for students
 - `[I] [14th]`: Block deletion of a course that contains modules

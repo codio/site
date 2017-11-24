@@ -3,6 +3,7 @@ disable
 pin
 teachersolutions
 unit-duration
+penalties
 reset-unit
 complete-unit
 autograde

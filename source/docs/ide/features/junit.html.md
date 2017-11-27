@@ -29,6 +29,13 @@ Individual test cases can be added
 - by specifying the paths to a file with JUnit tests in the add test case fields 
 - or by dragging and dropping the file into the JUnit tab.
 
+#### Timeout settings
+
+The default timeout for JUnit execution is 30 seconds but you can change this as required in user or project preferences. You can also change the default hotkey to access JUnit if required as well
+
+<img alt="junitsettings" src="/img/docs/junitsettings.png" class="simple"/>
+To ensure that the same settings apply to students may use the project within a class, we would recommend you change this as a [project preference](/docs/ide/customization/project-prefs/)
+
 ### Execution
 You can Execute the tests from the **JUnits Execution** tab. Once completed, the results will be listed below.
 

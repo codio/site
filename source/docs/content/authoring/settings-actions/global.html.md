@@ -6,6 +6,8 @@ full_width: true
 
 The settings on this page apply to the entire guide or book.
 
+<img alt="Global settings" src="/img/docs/globalsettings.png" class="simple"/>
+
 ### Scripts
 This allows you to include the path and file name of a script file from a page using an HTML `<src>` tag. Provide one script path per line.
 
@@ -28,3 +30,11 @@ Hides the Codio menu. You should be aware that this will prohibit access to func
 Allows students to close the guide content. The content can be restarted by selecting the 'start guide' icon in the file tree:
 <img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 
+### Use Mark as Complete
+Enabled by default and will show students a button at the end of the unit, from their [dashboard](/docs/dashboard/student/myclassroom/) and from **Education** menu in the IDE they can select to mark as complete.
+If you have set the [Unit Duration](/docs/classes/unitmanagement/settings-info/unit-duration/) 'On Unit End' action to mark as complete or disable and mark as complete, the unit will automatically be marked as complete when the end date/time of the unit is reached and you can elect to suppress the ability for students to have to mark their units as complete by disabling this setting
+
+
+### Use Submit Buttons
+Enabled by default and shows students a button for [assessments](/docs/content/authoring/assessments/) for them to submit their answers.
+If you have set the [Unit Duration](/docs/classes/unitmanagement/settings-info/unit-duration/), when the end of unit duration date/time is reached, all answers to the assessments will be automatically submitted

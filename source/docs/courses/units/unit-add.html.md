@@ -37,7 +37,8 @@ Creating a new book unit involves pointing to the parts of a book that you want 
 
 You can now 
 
-- specify the book you want to reference
+- specify the book you want to reference. Browse to the books available to you
+<img alt="Book browse" src="/img/docs/selectbook.png" class="simple"/>
 - select the parts of the book you want to include in this unit
 - give the unit a name.
 

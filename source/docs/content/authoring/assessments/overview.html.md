@@ -33,6 +33,8 @@ If you want to edit an existing assessment on the page you are viewing, you shou
 ## Deleting an assessment
 Select the page where your assessment is located. Then remove the assessment token from the page. As assessment token looks like this.
 
+<img alt="Assessment token" src="/img/docs/assessmenttoken.png" class="simple"/>
+
 Once deleted, an assessment remains hidden. To fully remove it, press the **Settings** icon in the authoring toolbar then select the **Assessments** tab. All assessments present in the current project are listed. Deleted ones are highlighted in red. Press the red **x** button to delete it.
 
 ## Autograding when a student completes a unit

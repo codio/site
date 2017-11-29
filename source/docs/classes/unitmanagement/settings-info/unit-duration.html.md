@@ -12,6 +12,8 @@ This feature is accessible via the main settings tab.
 
 <img alt="authtoken" src="/img/docs/manage_classes/unitduration.png" class="simple"/>
 
+For more information on using **Mark as complete** please [click here](/docs/content/authoring/assessments/submitcomplete).
+
 ### Time Zones
 The time zone is taken automatically from your browser, so please check your time settings are correct.
 

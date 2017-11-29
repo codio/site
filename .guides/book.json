@@ -1,0 +1,17 @@
+{
+ "name": "Codiosite",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "b80eaae5-78d8-a670-e314-42567e17ac4e",
+   "pageId": "b80eaae5-78d8-a670-e314-42567e17ac4e",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "b5da7564-b290-deb3-6403-4c08cb134386",
+   "pageId": "b5da7564-b290-deb3-6403-4c08cb134386",
+   "type": "page"
+  }
+ ]
+}

@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2017**
 
+- `[I] [30th]`: Update definition of incorrect points for multiple choice assessments
 - `[I] [30th]`: Improve messaging highlighting [Public/Private Settings](/docs/dashboard/create/public_private/) when creating Courses/Modules/Books/Projects/Stacks/Starter Packs
 - `[I] [28th]`: Fix XSS image issue
 - `[I] [28th]`: Improve handling of teachers joining class as student through LTI

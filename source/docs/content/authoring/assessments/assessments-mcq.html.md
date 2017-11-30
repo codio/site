@@ -12,7 +12,7 @@ To configure an MCQ, specify the following.
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Question** is the question instruction that is shown to the student.
 - **Correct Points** is the score given to the student if the student makes the correct selection. You can choose any positive numeric value.
-- **Incorrect Points** is the score given to the student if the student makes an incorrect selection. Typically, this value will be 0 but you can assign negative scores if you wish to penalize guessing.
+- **Incorrect Points** is the score to be deducted if the student makes an incorrect selection. Typically, this value will be 0 but you can assign any positive numeric value if you wish to penalize guessing.
 - The **Multiple Response** slider indicates whether the user can select more than one answer, in which case check boxes are used instead of radio buttons to specify correct answers.
 - **Answers** is where you add as many individual answers as you require. To indicate the correct answer(s), adjust the sliders for multiple response or the radio button for single response.
 - **Show Expected Answer** will show the students the correct answer when they have submitted an answer for this question. To suppress this, flip the switch.

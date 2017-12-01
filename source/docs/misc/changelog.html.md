@@ -11,6 +11,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**December 2017**
+
+- `[I] [1st]`: Update helper text for stack version change in units
+- `[I] [1st]`: Update handling of layout change
+- `[I] [1st]`: Fix issue with changes to metadata.json files not saving correctly
+
 **November 2017**
 
 - `[I] [30th]`: Update definition of incorrect points for multiple choice assessments

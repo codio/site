@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2017**
 
+- `[I] [4th]`: Update messaging when removing modules from courses
 - `[I] [1st]`: Update helper text for stack version change in units
 - `[I] [1st]`: Update handling of layout change
 - `[I] [1st]`: Fix issue with changes to metadata.json files not saving correctly

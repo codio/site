@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2017**
 
+- `[I] [6th]`: Improve handling of [Unit Penalties](/docs/classes/unitmanagement/settings-info/penalties)
 - `[I] [4th]`: Update messaging when removing modules from courses
 - `[I] [1st]`: Update helper text for stack version change in units
 - `[I] [1st]`: Update handling of layout change

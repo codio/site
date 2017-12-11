@@ -13,12 +13,14 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2017**
 
-- `[I] [8th]`: Fix duplicate messaging issue when deleting units in course modules
-- `[I] [6th]`: Improve handling of [Unit Penalties](/docs/classes/unitmanagement/settings-info/penalties)
-- `[I] [4th]`: Update messaging when removing modules from courses
-- `[I] [1st]`: Update helper text for stack version change in units
-- `[I] [1st]`: Update handling of layout change
-- `[I] [1st]`: Fix issue with changes to metadata.json files not saving correctly
+- `[I] [11th]`: Update handling of [Free Text Assessment](/content/authoring/assessments/assessments-free)] submissions
+- `[I] [11th]`: Update handling of [Upgrade Course](/docs/courses/units/update-class) for Firefox browser
+- `[I] [ 8th]`: Fix duplicate messaging issue when deleting units in course modules
+- `[I] [ 6th]`: Improve handling of [Unit Penalties](/docs/classes/unitmanagement/settings-info/penalties)
+- `[I] [ 4th]`: Update messaging when removing modules from courses
+- `[I] [ 1st]`: Update helper text for stack version change in units
+- `[I] [ 1st]`: Update handling of layout change
+- `[I] [ 1st]`: Fix issue with changes to metadata.json files not saving correctly
 
 **November 2017**
 

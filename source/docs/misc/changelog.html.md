@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2017**
 
+- `[I] [18th]`: Executing `exit` command in terminal or guides content will automatically close the terminal tab
 - `[I] [14th]`: Improve handling of application of grades for large classes
 - `[I] [11th]`: Update handling of [Free Text Assessment](/content/authoring/assessments/assessments-free)] submissions
 - `[I] [11th]`: Update handling of [Upgrade Course](/docs/courses/units/update-class) for Firefox browser

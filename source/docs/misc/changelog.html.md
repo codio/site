@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2017**
 
+- `[I] [21st]`: Fix problem with advanced code test output 
 - `[I] [20th]`: Update guides table of contents so current selection is always visible in large tree
 - `[I] [18th]`: Executing `exit` command in terminal or guides content will automatically close the terminal tab
 - `[I] [14th]`: Improve handling of application of grades for large classes

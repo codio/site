@@ -1,46 +1,40 @@
 /* globals $, numeral */
 
 const DEFAULT_START = {
-  individual: 0,
   business: 0,
   school: 0,
   university: 3
-}
+};
 
 const DEFAULT_RANGE = {
-  individual: 'month',
   business: 'month',
   school: 'year',
   university: 'year'
-}
+};
 
 const DEFAULT_CURRENCY = {
-  individual: 'dollar',
   business: 'dollar',
   school: 'pound',
   university: 'pound'
-}
+};
 
 const ACTION_BTN_TEXT = {
-  individual: 'Free Trial',
   business: 'Buy now',
   school: 'Buy now',
   university: 'Buy now'
-}
+};
 
 const ACTION_BTN_LINK = {
-  individual: 'https://codio.com/p/signup',
   business: 'mailto:help@codio.com',
   school: 'http://codio-2227229.hs-sites.com/buy-school',
   university: 'http://codio-2227229.hs-sites.com/buy-university'
-}
+};
 
 const LEARN_MORE_LINK = {
-  individual: '/developer',
   business: '/developer',
   school: '/school',
   university: '/university'
-}
+};
 
 const eumembers = {
   "BE": 1,
@@ -75,11 +69,10 @@ const eumembers = {
 
 const $currencyBlock = $('.currency-block');
 const $typeList = $('.nav .nav-tabs');
-const $types = $typeList.find('li.item');
 const $tabs = $('.nav-tabs li');
 const $pricingContentCol = $('.pricing-content-col');
 const $priceCount = $pricingContentCol.find('.count');
-const $countNumber = $priceCount.find('.number')
+const $countNumber = $priceCount.find('.number');
 const $amount = $pricingContentCol.find('.amount');
 const $range = $pricingContentCol.find('.range');
 const $currencyType = $pricingContentCol.find('.price-count-block .currency-type');
@@ -88,15 +81,16 @@ const $learnMoreLink = $('#learnMore');
 
 const params = name => {
   const results = new RegExp(`[\?&]${name}=([^&#]*)`).exec(window.location.href);
-  if (results == null) return null
-    return results[1] || 0;
-}
+  if (results === null) return null;
+  return results[1] || 0;
+};
 
 const lastCurrencyType = sessionStorageStore.get('codio_site_pricing_currency')
                         ? sessionStorageStore.get('codio_site_pricing_currency') : 'none';
 
 const lastOpenedTabType = sessionStorageStore.get('codio_site_pricing_tab') 
                           ? sessionStorageStore.get('codio_site_pricing_tab') : 'school';
+
 const defaultType = params('type') ? params('type') : lastOpenedTabType;
 
 const state = {
@@ -106,7 +100,7 @@ const state = {
   step: DEFAULT_START[defaultType],
   range: DEFAULT_RANGE[defaultType],
   currency: 'pound'
-}
+};
 
 const isSafeStep = (step = state.step) => {
   const pricesOld = PRICES[state.oldType];
@@ -115,13 +109,13 @@ const isSafeStep = (step = state.step) => {
   if (pricesNew[step] === undefined) return false;
 
   return pricesOld[step].count === pricesNew[step].count;
-}
+};
 
 const findItem = type => $typeList.find('li[data-type="' + type + '"]');
 
 const currentSelection = (step = state.step) => {
   return PRICES[state.type][step];
-}
+};
 
 const updateDisplay = step => {
   const $current = currentSelection(step);
@@ -131,18 +125,18 @@ const updateDisplay = step => {
   
   $amount.text(numeral($price).format('0,0'));
   $range.text(state.range);
-}
+};
 
 const setType = type => {
   state.oldType = state.type;
   state.type = type;
   state.range = DEFAULT_RANGE[type];
-}
+};
 
 const setCurrency = currency => {
   state.currency = currency;
   state.symbol = (state.currency == "dollar") ? "$" : "£";
-}
+};
 
 const fillUserLicences = () => {
   const $list = $dropdown.find('ul');
@@ -151,25 +145,20 @@ const fillUserLicences = () => {
   PRICES[state.type].forEach(function(current, $index) {
     const $price = current.price[state.range][state.currency];
     $list.append('<li><a class="menu-item" data-index="' + $index + '">' + numeral(current.count).format('0,0') + '</a></li>');
-  })
+  });
 
   $dropdown.find('.dropdown-menu li a').click(function(){
     const $index = $(this).data('index');
     state.step = $index;
     updateDisplay($index);
   });
-}
+};
 
 const updateFeatures = () => {
   const $featuresList = $('.features-list ul');
   $featuresList.find('li').remove();
 
   switch (state.type) {
-    case "individual":
-    $featuresList.append('<li>Full IDE & terminal access</li>');
-    $featuresList.append('<li>Unlimited private projects</li>');
-    $featuresList.append('<li>Extensive support</li>');
-    break;
     case "business":
     $featuresList.append('<li>Full IDE & terminal access</li>');
     $featuresList.append('<li>Unlimited private projects</li>');
@@ -192,29 +181,22 @@ const updateFeatures = () => {
     default:
     break;
   }
-}
+};
 
 const updateActionBtn = type => {
   document.getElementById("actionBtn").href = ACTION_BTN_LINK[type];
   document.getElementById("actionBtn").text = ACTION_BTN_TEXT[type];
   document.getElementById("learnMore").href = LEARN_MORE_LINK[type];
-}
+};
 
 const setPaymentsIcons = type => {
-  if (type == "individual") {
-    $('.payment-card-1').attr({'src':'/img/assets/pricing/visa.png', 'alt':'Visa'});
-    $('.payment-card-2').attr({'src':'/img/assets/pricing/mastercard.png', 'alt':'mastercard'});
-    $('.payment-card-3').css({"display" : "none"});
-    $('.payment-card-4').css({"display" : "none"});
-  } else {
-    $('.payment-card-1').attr({'src':'/img/assets/pricing/bacs.png', 'alt':'Bacs'});
-    $('.payment-card-2').attr({'src':'/img/assets/pricing/chaps.png', 'alt':'Chaps'});
-    $('.payment-card-3').attr({'src':'/img/assets/pricing/visa.png', 'alt':'Visa'});
-    $('.payment-card-4').attr({'src':'/img/assets/pricing/mastercard.png', 'alt':'mastercard'});
-    $('.payment-card-3').css({"display" : "inline-block"});
-    $('.payment-card-4').css({"display" : "inline-block"});
-  }
-}
+  $('.payment-card-1').attr({'src':'/img/assets/pricing/bacs.png', 'alt':'Bacs'});
+  $('.payment-card-2').attr({'src':'/img/assets/pricing/chaps.png', 'alt':'Chaps'});
+  $('.payment-card-3').attr({'src':'/img/assets/pricing/visa.png', 'alt':'Visa'});
+  $('.payment-card-4').attr({'src':'/img/assets/pricing/mastercard.png', 'alt':'mastercard'});
+  $('.payment-card-3').css({"display" : "inline-block"});
+  $('.payment-card-4').css({"display" : "inline-block"});
+};
 
 const onTabShow = type => {
   setType(type);
@@ -244,15 +226,7 @@ const onTabShow = type => {
   $currencyType.text(state.symbol);
   $learnMoreLink.css({'float' : 'right'});
 
-  if (type == 'individual') {
-    $dropdown.css({'display' : 'none'});
-    $currencyType.text("$");
-    const $current = currentSelection(0);
-    const $price = $current.price[state.range]['dollar'];
-    $countNumber.text(numeral($current.count).format('0,0'));
-    $amount.text(numeral($price).format('0,0'));
-    $range.text(state.range);
-  } else if (type == 'university') {
+  if (type === 'university') {
     $currencyBlock.css({'display' : 'none'});
     $('#contactUsBtn').css({'display' : 'inline'});
     $pricingContentCol.find('.price-count-block').css({'display' : 'none'});
@@ -261,7 +235,7 @@ const onTabShow = type => {
     $subtextUniversity.css({'display' : 'block'});
     $pricingContentCol.find('.first-letter-uppercase').text('Explore licensing options');
     $learnMoreLink.css({'float' : 'none'});
-  } else if (type == 'school') {
+  } else if (type === 'school') {
     $('#requestQuoteBtn').css({'display' : 'inline'});
     $subtextSchool.css({'display' : 'block'});
     $pricingContentCol.find('.price-count-block').css({'display' : 'none'});
@@ -269,7 +243,7 @@ const onTabShow = type => {
     $dropdown.css({'display' : 'none'});
     $learnMoreLink.css({'float' : 'none'});
   }
-}
+};
 
 const setupSelector = () => {
   $tabs.on('show.bs.tab', function(e) {
@@ -277,26 +251,26 @@ const setupSelector = () => {
     onTabShow($type);
     sessionStorageStore.set('codio_site_pricing_tab', $type);
   });
-}
+};
 
 const toggleChevron = e => {
   $(e.target).prev('.panel-heading').find("i.indicator").toggleClass('glyphicon-toggle-minus glyphicon-toggle-plus');
-}
+};
 
 const setupFaqBlock = () => {
   $('#accordion-individual').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
   $('#accordion-business').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
   $('#accordion-school').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
   $('#accordion-university').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
-}
+};
 
 const updatePageForGBR = () => {
   setCurrency('pound');
-}
+};
 
 const updatePageForUSD = () => {
   setCurrency('dollar');
-}
+};
 
 const defineLocation = (src) => {
   try {
@@ -311,27 +285,27 @@ const defineLocation = (src) => {
   } catch (e) {
     console.log('Error on parsing geolocation data');
   }
-}
+};
 
 $(document).ready(function () {
   if (document.location.pathname.lastIndexOf("/pricing", 0) !== 0) return;
-  const PRICES = window.PRICES
+  const PRICES = window.PRICES;
   setupFaqBlock();
   setupSelector();
 
-  if (lastCurrencyType == 'none') {
+  if (lastCurrencyType === 'none') {
     console.log('Currency is not defined');
     updatePageForGBR();
-    $('#pricingTab a[href="#' + state.type + '"]').tab('show');
-    var geoplugin = '//freegeoip.net/json';
+    $('#pricingTab').find('a[href="#' + state.type + '"]').tab('show');
+    const geoplugin = '//freegeoip.net/json';
     defineLocation(geoplugin);
   }
   else {
-    if (lastCurrencyType == 'dollar') {
+    if (lastCurrencyType === 'dollar') {
       updatePageForUSD();
     } else {
       updatePageForGBR();
     }
-    $('#pricingTab a[href="#' + state.type + '"]').tab('show');
+    $('#pricingTab').find('a[href="#' + state.type + '"]').tab('show');
   }
 });

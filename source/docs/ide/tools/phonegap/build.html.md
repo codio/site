@@ -46,7 +46,7 @@ For more information on this see [Remote Debugging Tools](http://docs.build.phon
 
 ### Enable Hydrates
 
-Checking this box enables Phonegap:Build Hydration. Hydration is a tool that has two main benefits for developers and testers:
+Checking this box enables Phonegap:Build Hydration. Hydration is a tool that has two main benefits:
 
 - Compilation times are improved significantly.
 - Updates are pushed directly to the application installed on a device.

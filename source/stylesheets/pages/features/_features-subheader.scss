@@ -58,15 +58,15 @@ body.features {
           font-size: 13px;
         }
 
-        @include breakpoint(1210px) {
-          font-size: 15px;
+        @include breakpoint($max-width) {
+          font-size: 14px;
         }
 
         span {
           display: none;
         }
 
-        @include breakpoint(1055px) {
+        @include breakpoint(1110px) {
           span {
             display: inline;
           }

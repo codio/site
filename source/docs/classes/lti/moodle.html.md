@@ -15,7 +15,7 @@ If a Moodle user already has a Codio account then **provided the email address o
 The following instructions are provided as short videos.
 
 ### One time setup
-You will not have access to the Moodle/LMS features unless you have an educational organization setup as explained in the video. Individual user accounts cannot explore these features.
+You will not have access to the Moodle/LMS features unless you have an educational organization setup as explained in the video.
 
 **Important** : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled.
 

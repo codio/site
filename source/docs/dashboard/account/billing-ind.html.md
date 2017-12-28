@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-The normal user billing screen can be found on the Billing tab of your Account Settings. You can find both your subscription details and billing history here.
+The user billing screen can be found on the Billing tab of your Account Settings. You can find both your subscription details and billing history here.
 
 <img alt="Account Billing" src="/img/docs/account_billing.png" class="simple"/>
 

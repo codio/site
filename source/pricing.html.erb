@@ -26,9 +26,6 @@ priority: 0.9
     <li data-type="business">
       <a href="#business" data-toggle="tab"><span>Enterprise</span></a>
     </li>
-    <li data-type="individual">
-      <a href="#individual" data-toggle="tab"><div class="text-center"><span>Learner or Developer</span></div></a>
-    </li>
   </ul>
 
   <div class="tab-content pricing-tab pricing-tab-content">
@@ -92,7 +89,7 @@ priority: 0.9
 
       <div class="information-block">
         <div>Not ready yet? Need more information?</div>
-        <b>No problem, <%= mail_to 'help@codio.com', 'contact us', class: '' %><span> for a personal demo<span></b>
+        <b>No problem, <%= mail_to 'help@codio.com', 'contact us', class: '' %><span> for a personal demo</span></b>
       </div>
 
       <div class="payment-cards">
@@ -114,9 +111,6 @@ priority: 0.9
     </div>
     <div class="tab-pane fade" id="business">
       <%= partial 'pricing-faq-business' %>
-    </div>
-    <div class="tab-pane fade in active" id="individual">
-      <%= partial 'pricing-faq-individual' %>
     </div>
   </div>
 </div>

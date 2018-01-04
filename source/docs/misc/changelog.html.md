@@ -11,6 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**January 2018**
+
+- `[I] [ 4th]`: Fix issue with guides table of contents focus on open
+- `[I] [ 4th]`: Improve handling of books when switching between book units
+
 **December 2017**
 
 - `[I] [21st]`: Fix problem with advanced code test output 

@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2018**
 
+- `[I] [15th]`: Always use tabs regardless of user/project settings when using Makefile 
 - `[I] [ 4th]`: Fix issue with guides table of contents focus on open
 - `[I] [ 4th]`: Improve handling of books when switching between book units
 

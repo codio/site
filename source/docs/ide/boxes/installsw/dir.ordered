@@ -2,4 +2,5 @@ default-installed
 box-parts
 file-locations
 parts-coding
+langserver
 gui

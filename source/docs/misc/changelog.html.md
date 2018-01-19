@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2018**
 
+- `[I] [19th]`: Fix issue with assessments on [Reset Unit](/docs/classes/unitmanagement/settings-info/reset-unit/)
+- `[I] [19th]`: Implement completion and hover support for [Language Server Protocol](/docs/ide/boxes/installsw/langserver)
 - `[I] [16th]`: Fix problem for teachers not being able to edit course/module units
 - `[I] [15th]`: Always use tabs regardless of user/project settings when using Makefile 
 - `[I] [ 4th]`: Fix issue with guides table of contents focus on open

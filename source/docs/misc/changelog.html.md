@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2018**
 
+- `[I] [22nd]`: Improve Run Button so that the command name is used for run button command as terminal name
+- `[I] [22nd]`: Fix issue with [stack exclusions](/docs/project/stacks/exclusions/
+- `[I] [22nd]`: Fix issue when the wrong students answer is shown when switching between students projects
 - `[I] [19th]`: Fix issue with assessments on [Reset Unit](/docs/classes/unitmanagement/settings-info/reset-unit/)
 - `[I] [19th]`: Implement completion and hover support for [Language Server Protocol](/docs/ide/boxes/installsw/langserver)
 - `[I] [16th]`: Fix problem for teachers not being able to edit course/module units

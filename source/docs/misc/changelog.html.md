@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2018**
 
+- `[I] [24th]`: Fix problem with Test students in Self-Pay organisations
+- `[I] [24th]`: Update handling of Autocomplete in Language Server Protocol
 - `[I] [22nd]`: Improve Run Button so that the command name is used for run button command as terminal name
 - `[I] [22nd]`: Fix issue with [stack exclusions](/docs/project/stacks/exclusions/
 - `[I] [22nd]`: Fix issue when the wrong students answer is shown when switching between students projects

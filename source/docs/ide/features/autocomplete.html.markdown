@@ -8,6 +8,8 @@ Autocomplete is supported within HTML, CSS and Javascript files. Just type away 
 
 If you don't like your auto-complete auto-completing, just set the preference `automatic_completions = false`.
 
+Other languages are supported with [language server protocol](/docs/ide/boxes/installsw/langserver/) although in such files, autocomplete is not automatically involved. See [language server protocol](/docs/ide/boxes/installsw/langserver/) for more information.
+
 ## HTML Tags
 Auto complete is context sensitive, so you will only be shown Tags that are relevant to your location within the HTML file.
 

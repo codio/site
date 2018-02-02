@@ -25,10 +25,8 @@ Service Credits are calculated as a period of extension to a paid Licence period
 
 **Monthly Uptime Percentage**<br/><br/> | **Service Credit**<br/><br/>
 --- | ---
-Less than 99.95% but equal to or greater than 99.75%<br/><br/> | 1 month extension or 10% of your pro-rata monthly licence fee<br/><br/>
-Less than 99.75% but equal to or greater than 99.5%<br/><br/> | 2 month extension or 30% of your pro-rata monthly licence fee<br/><br/>
-Less than 99.5% but equal to or greater than 99.0%<br/><br/> | 3 month extension or 100% of your pro-rata monthly licence fee<br/><br/>
-Less than 99.0%<br/><br/> | 50% Or 12m free<br/><br/>
+Less than 99.9% but equal to or greater than 99.0%<br/><br/> | 1 month extension or 10% of your pro-rata monthly licence fee<br/><br/>
+Less than 99.0%<br/><br/> | 2 month extension or 30% of your pro-rata monthly licence fee<br/><br/>
 
 Service Credits may not be transferred or applied to any other account. Unless otherwise provided in the Terms, your sole and exclusive remedy for any Unavailability, non-performance, or other failure by us to provide Codio Products is the receipt of a Service Credit (if eligible) in accordance with the terms of this SLA.
 

@@ -11,6 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**Febuary 2018**
+
+- `[I] [ 5th]`: Fix issue publishing books after changing stack
+- `[I] [ 1st]`: Fix issue with content being lost when switching browsers
+
 **January 2018**
 
 - `[I] [24th]`: Fix problem with Test students in Self-Pay organisations

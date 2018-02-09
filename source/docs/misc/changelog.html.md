@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **Febuary 2018**
 
+- `[I] [ 9th]`: Fix problem with txt files not opening correctly
 - `[F] [ 8th]`: [Export class data]((docs/classes/classmanagement/export/) enabling all class data, including students workspaces to be exported.
 - `[I] [ 5th]`: Fix issue with book units
 - `[I] [ 5th]`: Fix issue publishing books after changing stack

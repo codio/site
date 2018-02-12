@@ -20,6 +20,8 @@ Class data (including students workspaces) can be exported. We would recommend t
 
 Individual units or course module data can also be downloaded separately if required. See [Download CSV](/docs/classes/monitor/progress#downloadcsv) for more details
 
+If your class is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/docs/classes/lti/keys#exportlti) for more information.
+
 ### Working with student workspaces
 
 If in the future you have need to review any students workspace, these can be imported back into your Codio account. 

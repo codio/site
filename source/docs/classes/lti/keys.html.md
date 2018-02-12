@@ -50,3 +50,14 @@ The **Unit URL** is where you map each individual Unit within your Codio Class t
 <img alt="authtoken" src="/img/docs/lti/LMS-Unit-URL.png" class="simple"/>
 
 - Complete the mapping in your LMS.
+
+<a name="exportlti"></a>
+
+### Exporting LTI settings
+
+The LTI integration URLs for the units in a class can be exported.
+
+- Select the class, go to the Admin area and then press the **Export LTI Settings** button.
+
+<img alt="Export LTI" src="/img/docs/class_lti_export.png" class="simple"/>
+

@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **Febuary 2018**
 
+- `[I] [12th]`: Fix issue with file tree not updating correctly when files created via terminal
+- `[I] [12th]`: Fix issue with unit settings changing when [Upgrade Course](/docs/classes/unitmanagement/upgradecourse/) is run
+- `[I] [12th]`: Fix issue with icon handling
+- `[F] [ 9th]`: [Exporting LTI settings](/docs/classes/lti/keys#exportlti)
 - `[I] [ 9th]`: Fix problem with txt files not opening correctly
 - `[F] [ 8th]`: [Export class data]((docs/classes/classmanagement/export/) enabling all class data, including students workspaces to be exported.
 - `[I] [ 5th]`: Fix issue with book units

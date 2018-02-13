@@ -12,8 +12,7 @@ When you open up a project in the IDE, Codio will try to locate a file called re
 
 If you select the README.md file from the file tree, it will be opened up for editing using markdown. You can switch between markdown,  'preview' and you can run in SplitView mode as highlighted in the above image.
 
-The readme.md file should be written in markdown format. Here are a couple of references for markdown
+The readme.md file should be written in markdown format. Here is a reference for markdown:
 
 - [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of markdown
-- [Bill Powell Is Alive](http://billpowellisalive.com/blog/markdown-syntax) - for those with less sharp eyesight
 

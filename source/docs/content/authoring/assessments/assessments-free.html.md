@@ -24,10 +24,10 @@ Setting up a free text assessment is very simple. As you can see from the screen
 
 ## Preview type
 The following preview options are available. They dictate the expected input format and whether a fully rendered preview pane appears below the student input. Markdown is useful if the student wants to enter text formatting commands. 
-Here are a couple of references for markdown:
+Here is a reference for markdown:
 
 - [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of markdown
-- [Bill Powell Is Alive](http://billpowellisalive.com/blog/markdown-syntax) - for those with less sharp eyesight
+
 
 Latex is useful where you want students to enter mathematical formulae in their answers. [Click here](/docs/content/authoring/page-edit/latex/) for information on Latex.
 

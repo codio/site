@@ -16,7 +16,7 @@ To access files or services that are executed on the server (PHP, Ruby, Node etc
 - `word1-word2-port.codio.io` which will access your box over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
 - `word1-word2.codio.io:port` where you can specify the port.
 
-`word1-word2` is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports in the normal way, but please be aware than Codio supported a restricted range of ports. Please refer to [this section](/docs/ide/boxes/access/ext-access) for more details.
+`word1-word2` is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports in the normal way, but please be aware than Codio supported a restricted range of ports. Please refer to [this section](/docs/ide/boxes/ext-access) for more details.
 
 Read on for information on how to configure your Static and Dynamic preview menus.
 

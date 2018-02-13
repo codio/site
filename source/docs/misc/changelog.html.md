@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **Febuary 2018**
 
+- `[I] [13th]`: Fix issue with [MCQ](/docs/content/authoring/assessments/assessments-mcq)/[FITB](/docs/content/authoring/assessments/assessments-fitb) assessments not showing correct answers 
+- `[I] [13th]`: Fix issue with undo/redo
 - `[I] [12th]`: Fix issue with file tree not updating correctly when files created via terminal
 - `[I] [12th]`: Fix issue with unit settings changing when [Upgrade Course](/docs/classes/unitmanagement/upgradecourse/) is run
 - `[I] [12th]`: Fix issue with icon handling

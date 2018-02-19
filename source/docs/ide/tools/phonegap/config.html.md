@@ -30,7 +30,7 @@ If you only want to build for one platform (for example Android) you would only 
 
 Useful resources and references for the config.xml file can be found on the Phonegap site:
 
-- [config.xml](http://docs.build.phonegap.com/en_US/configuring_basics.md.html#The%20Basics)
-- [Custom preferences](http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences)
-- [Icons and Splash Screens](http://docs.build.phonegap.com/en_US/configuring_icons_and_splash.md.html#Icons%20and%20Splash%20Screens)
-- [Phonegap:Build plugins](http://docs.build.phonegap.com/en_US/configuring_plugins.md.html#Plugins)
+- [config.xml](http://docs.phonegap.com/phonegap-build/configuring/)
+- [Custom preferences](http://docs.phonegap.com/phonegap-build/configuring/preferences/)
+- [Icons and Splash Screens](http://docs.phonegap.com/phonegap-build/configuring/icons-and-splash/)
+- [Phonegap:Build plugins](http://docs.phonegap.com/phonegap-build/configuring/plugins/)

@@ -36,7 +36,7 @@ There is one minor drawback to project units that you should be aware of. If stu
 
 
 ### Book units
-A [book](/docs/book) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project units to create this content, you might end up with a very large number of units, say 50.  As we mentioned above, when students are revising and want to randomly move between different units to review content, the can get frustrated by the time it takes to switch units.
+A [book](/docs/books/introduction) is intended to replicate a hard-copy book. It contains a lot of content, often an entire course of content. Let's look at the case of a course called **Introduction to Java**. If this was a regular book, it might contain 500 pages. If you used project units to create this content, you might end up with a very large number of units, say 50.  As we mentioned above, when students are revising and want to randomly move between different units to review content, the can get frustrated by the time it takes to switch units.
 
 A book addresses this issue by offering sophisticated table to contents management with nested chapters and sections. As a result, you can put all of your content into a single book, with a single box running in the background. This means that when students want to revise, they are able to move to any location in the book without any delays. 
 

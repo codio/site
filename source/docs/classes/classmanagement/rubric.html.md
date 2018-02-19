@@ -27,9 +27,10 @@ A final score is calculated based on your selections and is re-based to the maxi
 
 
 ### Applying a grading template to a unit
-To use a grading template you should select the classroom so you see the full unit listing. Press the button with the 3 dots to bring up the menu. Then select **Set grading template** from the list and choose the grading template from the list.
+To use a grading template you should select the classroom so you see the full unit listing. Press the button with the 3 dots to bring up the menu. Then select **Settings** and scroll down to the **Grading template** from the list and choose the grading template from the list. If there are not templates set up, follow the link to the organisation area to create a new template.
 
 <img alt="rubric template apply" src="/img/docs/class_administration/grading/set-template.png" class="simple"/>
+<img alt="rubric template set" src="/img/docs/class_administration/grading/grading-template.png" class="simple"/>
 
 ### Grading student work
 You perform the actual grading from the classroom. Select a unit to grade so you see the students listed.

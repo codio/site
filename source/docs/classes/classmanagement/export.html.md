@@ -18,7 +18,7 @@ Class data (including students workspaces) can be exported. We would recommend t
 
 <img alt="Class Export Links" src="/img/docs/class_exportlinks.png" class="simple"/>
 
-Individual units or course module data can also be downloaded separately if required. See [Download CSV](/docs/classes/monitor/progress#downloadcsv) for more details
+Individual units data can also be exported separately if required. See [export unit data](/docs/classes/unitmanagement/settings#exportunitdata) for more details
 
 If your class is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/docs/classes/lti/keys#exportlti) for more information.
 

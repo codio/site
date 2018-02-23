@@ -30,6 +30,10 @@ Available from the blue dots menu as well as the **Settings** tab, this allows y
 ### Download CSV
 This allows you to download a CSV file with student grade data for the unit.
 
+<a name="exportunitdata"></a>
+### Export unit data
+This allows you to export all the data for the unit, including the students workspaces. All the data from the class will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download. The link will be active for 7 days and after this time the zip file will be removed. All the data from all the courses/modules/units in the class can also be exported. See [exporting class data](/docs/classes/classmanagement/export/) for more information
+
 ### Disable/enable unit
 This can be found in the blue dots menu and the settings area with the **Settings** tab selected. You can prevent students from accessing a unit using this option. For book based units, you should be aware that if another unit gives access to the book then students can access the book. You have the ability to [disable access to content outside the current unit](/docs/classes/unitmanagement/settings-info/disable/) but if the student is able to access the terminal window or see the file tree then access to areas that you intend to be disabled cannot be guaranteed. For project units and normal projects, preventing access can be guaranteed.
 

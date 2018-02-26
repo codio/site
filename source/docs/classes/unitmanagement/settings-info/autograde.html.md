@@ -86,6 +86,7 @@ You may want to be able to deduct a number of points if the student submits (mar
 
 See the script example at the bottom of the page for a full working example. 
 
+<a name="regrading"></a>
 ### Regrading for an individual student
 If students set their work to 'complete' such that an autograde step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the autograding.
 

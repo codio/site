@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-A class can be deleted by class teachers and organization owners. All the class data can also be exported. See [Export class data](docs/classes/classmanagement/export/) for more information
+A class can be deleted by class teachers and organization owners. All the class data can also be exported. See [Export class data](/docs/classes/classmanagement/export/) for more information
 
 - Select the class, go to the **Admin** area and then press the **Delete Class** button.
 

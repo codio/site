@@ -9,7 +9,7 @@ You can find your account settings in the **Codio > Account** dropdown menu and 
 Account Settings lets you manage the following
 
 - [User profile](/docs/dashboard/account/general/)
-- [Password](/docs/dashboard/account/password)
+- [Password](/docs/dashboard/account/forgotpassword/)
 - [SSH key](/docs/dashboard/account/publickey)
 - [Github single signon and Codio public key upload](/docs/dashboard/account/github)
 - [BitBucket single signon and Codio public key upload](/docs/dashboard/account/bitbucket)

@@ -14,11 +14,9 @@ If you enable this feature, all students will be shown the form when they first 
 
 <img alt="authtoken" src="/img/docs/consent.png" class="simple"/>
 
-You should first create the content that you wish to display to the student. You enter your text in the lower portion of the screen. You can use markdown to format your text. If you are not familiar with markdown, here are a couple of references for markdown
+You should first create the content that you wish to display to the student. You enter your text in the lower portion of the screen. You can use markdown to format your text. If you are not familiar with markdown, here is a reference for markdown:
 
 - [Daring Fireball](http://daringfireball.net/projects/markdown/basics) - the author of markdown
-- [Bill Powell Is Alive](http://billpowellisalive.com/blog/markdown-syntax) - for those with less sharp eyesight
-
 
 You can press the **Save Draft** button to save your changes and continue editing later.
 

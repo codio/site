@@ -42,7 +42,7 @@ Depending on the Phonegap:Build account plan you have, you can build a number of
 
 Checking this box enables Phonegap Build debugging to allow you to use standard Web Inspector tools available from the PhoneGap Build site to debug PhoneGap apps while they are running on your device.
 
-For more information on this see [Remote Debugging Tools](http://docs.build.phonegap.com/en_US/debugging_remote_debugging_tools.md.html#Remote%20Debugging%20Tools)
+For more information on this see [Remote Debugging Tools](http://docs.phonegap.com/references/developer-app/debugging/)
 
 ### Enable Hydrates
 
@@ -51,7 +51,7 @@ Checking this box enables Phonegap:Build Hydration. Hydration is a tool that has
 - Compilation times are improved significantly.
 - Updates are pushed directly to the application installed on a device.
 
-For more information on this see [Hydration](http://docs.build.phonegap.com/en_US/tools_hydration.md.html#Hydration)
+For more information on this see [Hydration](http://docs.phonegap.com/phonegap-build/tools/hydration/)
 
 ## Initiate Build
 When you have selected keys and any settings, simply press the Build button. Codio now passes all information through to the Phonegap:Build platform, where the build is run in the background.

@@ -19,7 +19,7 @@ Take a look at the [Recommended Content](https://codio.com/home/courses/?tab=3&s
 
 ## Authoring your own content
 
-Please read the [Authoring Strategies](/docs/content/authoring/strategies) section first. Ideally, you should also have read the full [Authoring](/docs/content/authoring) section and created your first project with Codio content, ready to be turned into a Unit.
+Please read the [Authoring Strategies](/docs/content/authoring/3ways) section first. Ideally, you should also have read the full [Authoring](/docs/content/authoring) section and created your first project with Codio content, ready to be turned into a Unit.
 
 
 ## Direct Access vs. Classes

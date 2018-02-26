@@ -25,3 +25,5 @@ You can also download a CSV file of your students progress. You can do this for 
 or you can download a CSV file for the Course to see all your students progress in all the units in each Module by hovering over the Module name to select **Download CSV** there: 
 <img alt="authtoken" src="/img/docs/downloadcsv_module.png" class="simple"/>
 
+or you can export all the data from a class (including the students workspaces) by exporting class data. See [export class data]((docs/classes/classmanagement/export/) for more details
+

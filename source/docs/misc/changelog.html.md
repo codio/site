@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **Febuary 2018**
 
+- `[I] [28th]`: Update handling of book unit switching
+- `[I] [26th]`: Fix issue with unit reloading for students
 - `[F] [26th]`: Expand [Gigabox](/docs/dashboard/create/gigaboxes/) options to include 1GB, 2GB, 8GB,16GB and GPU (for GPU-accelerated instances) boxes.
 - `[I] [26th]`: Fix issue with [regrade complete](/docs/classes/unitmanagement/settings-info/autograde#regrading)
 - `[I] [13th]`: Fix issue with [MCQ](/docs/content/authoring/assessments/assessments-mcq)/[FITB](/docs/content/authoring/assessments/assessments-fitb) assessments not showing correct answers 

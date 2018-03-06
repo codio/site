@@ -24,3 +24,4 @@ Classes can be ordered by Name or Creation Date within the groups
 ### Searching
 
 If you have a large number of classes, you can also search by name. Select the **Name** option and simply start typing, whereupon Codio will search within all class names and filter your list accordingly.
+<img alt="Name" src="/img/docs/manage_classes/nameclass.png" class="simple"/>

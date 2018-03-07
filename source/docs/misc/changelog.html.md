@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2018**
 
+- `[I] [ 7th]`: Improve handling of course updates in classes
+- `[I] [ 7th]`: Fix issue with class dashboard in IE browser
 - `[F] [ 6th]`: Add support for [searching/filtering](/docs/classes/classmanagement/search-class) of classes
 - `[I] [ 6th]`: Fix problem for teachers opening latest version of books
 - `[I] [ 5th]`: Improve handling for opening of large project warning

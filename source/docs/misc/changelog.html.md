@@ -13,7 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2018**
 
-- `[I] [12th]`: Fix issue with image handling when editing/creating [starter packs]
+- `[I] [15th]`: Fix problem with [export class data](/docs/classes/classmanagement/export/) for old classes
+- `[I] [12th]`: Fix issue with image handling when editing/creating [starter packs](/docs/project/packs)
 - `[I] [ 7th]`: Improve handling of course updates in classes
 - `[I] [ 7th]`: Fix issue with class dashboard in IE browser
 - `[F] [ 6th]`: Add support for [searching/filtering](/docs/classes/classmanagement/search-class) of classes

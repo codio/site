@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2018**
 
+- `[I] [19th]`: Fix sorting of units in classes
 - `[I] [16th]`: Fix problem starting [Plagiarism tool](/docs/classes/plag/plag-start/)
 - `[I] [15th]`: Fix problem with [export class data](/docs/classes/classmanagement/export/) for old classes
 - `[I] [12th]`: Fix issue with image handling when editing/creating [starter packs](/docs/project/packs)

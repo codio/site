@@ -292,6 +292,7 @@ body.docs .section-block-row-three {
       margin-left: 30px;
       margin-bottom: 6px;
       line-height: 19px;
+      list-style-type: disc;
     }
 
     @include breakpoint($break-tablet) {

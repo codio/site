@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2018**
 
+- `[I] [20th]`: Improve messaging when stack/pack owner is changed
+- `[F] [20th]`: Allow adjustment of [unit penalties](/docs/classes/unitmanagement/settings-info/penalties#adjustdeadline) for individual students
 - `[I] [19th]`: Fix sorting of units in classes
 - `[I] [16th]`: Fix problem starting [Plagiarism tool](/docs/classes/plag/plag-start/)
 - `[I] [15th]`: Fix problem with [export class data](/docs/classes/classmanagement/export/) for old classes

@@ -40,3 +40,20 @@ Once the final deadline hits (if one is set), the unit will be forced to read-on
 <img alt="dashboard penalty" src="/img/docs/penaltydashboard.png" class="simple"/>
 **Final grade field:** this field will show the final graded score less any penalty deduction. If the field is overwritten by the teacher/instructor, then the penalty deduction will not be applied. 
 
+<a name="adjustdeadline"></a>
+
+### Adjusting deadline for individual students
+
+The set deadline(s) can be adjusted forward by a number of days if required for individual students.
+
+Select the unit from the class units list and click on the 3 blue vertical dots and select 'Adjust deadline'
+
+<img alt="penalties" src="/img/docs/penaltydeadline.png" class="simple"/>
+
+You can then adjust the deadline forward by as many days as you require
+
+<img alt="penalties" src="/img/docs/deadlineadjust.png" class="simple"/>
+
+When applied, the adjustment will then show next to the grade field in the teacher/instructors dashboard. The deadline in the image below was adjusted by 4 days
+
+<img alt="penalties" src="/img/docs/adjusted.png" class="simple"/>

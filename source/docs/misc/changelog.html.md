@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2018**
 
+- `[I] [23rd]`: Improve handling of focus when switching panels using [keyboard shortcuts](/docs/ide/customization/codio-prefs/)
 - `[I] [20th]`: Improve messaging when stack/pack owner is changed
 - `[F] [20th]`: Allow adjustment of [unit penalties](/docs/classes/unitmanagement/settings-info/penalties#adjustdeadline) for individual students
 - `[I] [19th]`: Fix sorting of units in classes

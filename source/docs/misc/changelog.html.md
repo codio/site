@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2018**
 
+- `[I] [27th]`: Improve IDE menu items for better keyboard accessibility
+- `[I] [27th]`: Update structure of [exporting class data](/docs/classes/classmanagement/export/)
+- `[I] [27th]`: Improve memory handling for [language server protocol](/docs/ide/boxes/installsw/langserver/)
 - `[I] [23rd]`: Improve handling of focus when switching panels using [keyboard shortcuts](/docs/ide/customization/codio-prefs/)
 - `[I] [20th]`: Improve messaging when stack/pack owner is changed
 - `[F] [20th]`: Allow adjustment of [unit penalties](/docs/classes/unitmanagement/settings-info/penalties#adjustdeadline) for individual students

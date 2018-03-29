@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2018**
 
+- `[I] [29th]`: Update handling of [books](/docs/books/introduction) requiring [guides](/docs/content/authoring) before [publishing](/docs/books/publish)
 - `[I] [27th]`: Improve IDE menu items for better keyboard accessibility
 - `[I] [27th]`: Update structure of [exporting class data](/docs/classes/classmanagement/export/)
 - `[I] [27th]`: Improve memory handling for [language server protocol](/docs/ide/boxes/installsw/langserver/)

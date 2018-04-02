@@ -21,11 +21,11 @@ When first starting the app you need to choose the server to connect to. In most
 
 <img alt="desktop server" src="/img/docs/desktop_server.png" class="simple"/>
 
-You can check by logging into your Codio account and you will see the server domain noted there
+You can check by logging into your Codio account in your browser and you will see the server domain noted there
 
 Having selected the server log in using your codio credentials.
 
-<i>**Note:** that if you usually access Codio through an [LMS](/docs/classes/lti/), you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the [lost password](/docs/dashboard/account/forgotpassword/) process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future.  Setting a Codio account password will not effect or change how you access Codio via your LMS</i>
+<i>**Note:** that if you usually access Codio through an [LMS](/docs/classes/lti/), you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the [lost password](/docs/dashboard/account/forgotpassword/) process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future.  Setting a Codio account password will not effect or change how you currently access Codio via your LMS</i>
 
 ### Accessing and connecting to your online content
 <img alt="desktop options" src="/img/docs/desktop_options.png" class="simple"/>

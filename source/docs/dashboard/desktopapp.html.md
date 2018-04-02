@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-The desktop app is to allow a local code workspace to synchronize with a Codio account. 
+The desktop app is to allow a local code workspace to synchronize with a Codio box. 
 
 Units/Projects from the [Classroom dashboard](/docs/dashboard/student/myclassroom/) and [My Projects](/docs/dashboard/student/myfirstproject/) area can be connected.
 

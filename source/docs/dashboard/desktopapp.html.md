@@ -10,13 +10,7 @@ Units/Projects from the [Classroom dashboard](/docs/dashboard/student/myclassroo
 
 A Codio account is required
 
-To download the desktop app to install to your local machine select the appropriate OS (Tablet/Mobile devices are not supported)
-
-|  | |  |
-| :------ |:----:| -----------: |
-| Windows    | -> | <a href="https://s3.amazonaws.com/codio-desktop-builds/Codio.exe" target="_blank"><img alt="Windows Desktop App" src="/img/docs/download.png" class="simple"/> |
-|MacOS |  ->| <a href="https://s3.amazonaws.com/codio-desktop-builds/Codio.dmg" target="_blank"><img alt="MacOS Desktop App" src="/img/docs/download.png" class="simple"/> |
-|Linux  |  ->| <a href="https://s3.amazonaws.com/codio-desktop-builds/Codio.AppImage" target="_blank"><img alt="Linux Desktop App" src="/img/docs/download.png" class="simple"/> |
+**[Click here](/download)** to go to the download page and install to your local machine
 
 ### Starting the app
 When first starting the app you need to choose the server to connect to. In most cases this will be **https://codio.com** but if you are in the United Kingdom/Europe, it maybe **https://codio.co.uk**.

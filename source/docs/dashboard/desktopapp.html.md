@@ -10,7 +10,7 @@ Units/Projects from the [Classroom dashboard](/docs/dashboard/student/myclassroo
 
 A Codio account is required
 
-To download the desktop app to install to your local machine select the appropriate OS
+To download the desktop app to install to your local machine select the appropriate OS (Tablet/Mobile devices are not supported)
 
 |  | |  |
 | :------ |:----:| -----------: |

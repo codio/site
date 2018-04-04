@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2018**
 
+- `[I] [ 4th]`: Improve visualisation of navigation options in teacher dashboard
 - `[I] [ 2nd]`: Update IDE shortcut key for accessing menu (to F10)
 - `[I] [ 2nd]`: Update handling of [download csv](/docs/classes/monitor/progress#downloadcsv) to better handle characters in grading comments
 

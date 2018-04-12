@@ -1,0 +1,106 @@
+body.download {
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+body.download {
+  .content-body {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background-color: $light-blue;
+    padding: 10rem 0;
+    position: relative;
+
+    .title {
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 2rem;
+      padding: 1rem;
+    }
+
+    .description {
+      text-align: left;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.6rem;
+      width: 90%;
+      margin: auto;
+
+      @include breakpoint($break-tablet) {
+        width: 80%;
+      }
+
+      a {
+        color: #FFFFFF;
+        text-decoration: underline;
+
+        &:hover {
+          color: $lighter-blue;
+        }
+      }
+    }
+
+    .download-block {
+      padding-top: 2rem;
+
+      .item {
+        display: block;
+        padding-bottom: 2rem;
+
+        @include breakpoint($break-tablet) {
+          display: inline-block;
+        }
+
+        .os {
+          font-size: 1.4rem;
+          font-weight: 400;
+          padding-bottom: 0.2rem;
+
+          @include breakpoint($break-tablet) {
+            padding-bottom: 2rem;
+          }
+        }
+
+        .button-rounded {
+          display: block;
+          min-width: 182px;
+          min-height: 40px;
+          margin: 1rem;
+          background-color: $light-blue;
+          border-color: #FFFFFF;
+          font-size: 0.9rem;
+
+          &:hover {
+            color: $light-blue;
+            background-color: #FFFFFF;
+          }
+
+          @include breakpoint(900px) {
+            display: inline-block;
+            min-width: 256px;
+            min-height: 40px;
+            margin: 0 1rem;
+          }
+
+          @include breakpoint($break-tablet) {
+            display: inline-block;
+            min-width: 220px;
+            min-height: 40px;
+            margin: 0 1rem;
+          }
+        }
+      }
+    }
+  }
+}

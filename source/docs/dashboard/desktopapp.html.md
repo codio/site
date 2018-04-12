@@ -23,6 +23,7 @@ Having selected the server log in using your codio credentials.
 
 <i>**Note:** that if you usually access Codio through an [LMS](/docs/classes/lti/), you may not have a Codio account password set. If that is the case, go to the online login screen where you can go through the [lost password](/docs/dashboard/account/forgotpassword/) process to define a codio account password. We would then recommend you log into your account online and change this password to one you will remember in the future.  Setting a Codio account password will not effect or change how you currently access Codio via your LMS</i>
 
+<a name="connect"></a>
 ### Accessing and connecting to your online content
 <img alt="desktop options" src="/img/docs/desktop_options.png" class="simple"/>
 
@@ -58,4 +59,4 @@ When you have connected you can then push/pull/open the unit in Codio and manage
 
 **2.** Click the **Change folder** button to change the folder storing your local files. **Note** the content of the previous folder will not be automatically copied or transferred to the newly selected folder. If you wish to do this, you should return to the previous screen and **pull** to that new folder
 
-**3.** Click the **Disconnect** button to disconnect the unit from your Codio account. You will be returned to the previous screen where you can then [connect](/docs/dashboard/desktopapp/connecting) the unit again if you wish
+**3.** Click the **Disconnect** button to disconnect the unit from your Codio account. You will be returned to the previous screen where you can then [connect](/docs/dashboard/desktopapp#connect) the unit again if you wish

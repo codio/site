@@ -279,7 +279,6 @@ body.index .section-scroll {
     background-size: cover !important;
     background-position: top center !important;
     background: url('/img/assets/index/cloud-infrastructure.jpg') no-repeat;
-    font-family: "Brandon Grotesque Regular";
 
     @include breakpoint($break-tablet) {
       height: 44vw;

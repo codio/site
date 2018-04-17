@@ -270,282 +270,83 @@ body.index .section-scroll {
     }
   }
 
-  .block-rectangle {
-    position: relative;
+  .header-block {
     width: 100%;
-    height: auto;
-    display: block;
-    margin-top: 65px;
+    height: 500px;
+    position: relative;
+    text-align: center;
     margin-bottom: 15px;
     background-size: cover !important;
     background-position: top center !important;
     background: url('/img/assets/index/cloud-infrastructure.jpg') no-repeat;
-    color: $light-gray;
-    font-size: 16px;
 
-    @include breakpoint (640px) {
-      height: 800px;
-    }
-  }
-
-  .content-wrapper {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 2rem 0;
-
-    @include breakpoint(1050px) {
-      padding: 2rem 3rem;
+    @include breakpoint($break-tablet) {
+      height: 44vw;
     }
 
-    .top-block {
-      width: 100%;
+    .vertical {
+      height: 85%;
+    }
 
-      .top-row {
-        display: block;
-        font-weight: 600;
-        text-align: center;
+    .quote {
+      font-size: 1.9rem;
+      font-weight: 400;
+      color: #fff;
+      line-height: 2rem;
+      padding: 1rem;
+      margin-top: 65px;
+
+      @include breakpoint(450px) {
+        font-size: 2.2rem;
+        padding-bottom: 0.7rem;
+      }
+
+      @include breakpoint($break-tablet) {
+        font-size: 3.8vw;
+        padding-bottom: 0.7rem;
+      }
+
+      @include breakpoint($max-width) {
+        padding-bottom: 1rem;
+      }
+    }
+
+    .text {
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: #fff;
+      line-height: 1.9rem;
+      padding: 1rem 1rem 2rem 1rem;
+
+      br {
+        display: none;
 
         @include breakpoint($break-tablet) {
-          text-align: left;
-          &:nth-child(5) {
-            display: none;
-          }
+          display: inline;
         }
+      }
 
-        .number {
-          display: none;
-          border-right: 1px solid $light-gray;
-          min-width: 25px;
-          text-align: left;
+      @include breakpoint(450px) {
+        font-size: 1.6rem;
+      }
 
-          @include breakpoint($break-tablet) {
-            display: inline-block;
-            margin-left: 1rem;
-          }
-          @include breakpoint(1050px) {
-            margin-left: 0;
-          }
-        }
+      @include breakpoint($break-tablet) {
+        margin: 0 1rem;
+        line-height: 1.6rem;
+        padding-bottom: 1rem;
+      }
 
-        .text {
-          font-weight: 400;
-          margin: auto;
-          text-align: center;
-          display: inline-block;
-
-          @include breakpoint ($break-tablet) {
-            padding-left: 15px;
-            text-align: left;
-          }
-
-          .desktop {
-            display: none;
-            @include breakpoint(1110px) {
-              display: inline-block;
-            }
-          }
-
-          .tablet {
-            display: inline-block;
-            @include breakpoint(1110px) {
-              display: none;
-            }
-          }
-        }
-
-        &:nth-child(2), &:nth-child(3), &:nth-child(5) {
-          .text {
-            color: #ffffff;
-            font-size: 21px;
-
-            @include breakpoint(880px) {
-              font-size: 23px;
-            }
-            @include breakpoint(1100px) {
-              font-size: 27px;
-            }
-          }
-
-          padding: 1rem;
-          &:nth-child(2) {
-            padding-bottom: 20px;
-          }
-
-          &:nth-child(3) {
-            padding-top: 0;
-          }
-
-          @include breakpoint(420px) {
-            padding: 2rem;
-          }
-
-          @include breakpoint($break-tablet) {
-            padding: 0;
-            &:nth-child(2) {
-              padding-bottom: 0;
-            }
-          }
-        }
-
-        &:nth-child(5) {
-          .text {
-            font-size: 26px;
-            line-height: 28px;
-            font-weight: 400;
-          }
-
-          @include breakpoint($break-tablet) {
-            .text {
-              font-size: 35px;
-              line-height: 36px;
-              font-weight: 600;
-            }
-          }
-        }
-
-        &:nth-child(2), &:nth-child(4) {
-          .number {
-            padding-top: 8px;
-            padding-bottom: 8px;
-          }
-        }
-
-        &:nth-child(1), &:nth-child(3) {
-          .number {
-            padding-top: 8px;
-            padding-bottom: 22px;
-          }
-        }
-
-        &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
-          display: none;
-
-          @include breakpoint($break-tablet) {
-              display: block;
-          }
-        }
+      @include breakpoint($max-width) {
+        line-height: 1.8rem;
+        max-width: $max-width;
+        margin: 0 2rem;
+        padding-bottom: 2rem;
       }
     }
 
-    .boxes {
-      margin: 0;
-      padding: 0;
-
-      @include breakpoint(1050px) {
-        height: 400px;
-        margin-left: 24px;
-        padding-left: 20px;
-        border-left: 1px solid $light-gray;
-      }
-
-      .box {
-        float: none;
-        display: block;
-        width: 85%;
-        height: auto;
-        background-color: #ffffff;
-        border-radius: 5px;
-        padding-bottom: 15px;
-
-        &:first-child {
-          margin: auto;
-          @include breakpoint(640px) {
-            margin-left: 15px;
-          }
-        }
-        &:last-child {
-          margin: auto;
-          @include breakpoint(640px) {
-            margin-left: 16px;
-            margin-right: 15px;
-          }
-        }
-
-        @include breakpoint(420px) {
-          padding-bottom: 0;
-          height: 410px;
-        }
-
-        @include breakpoint(640px) {
-          float: left;
-          width: calc(50vw - 32px);
-          height: 430px;
-        }
-
-        @include breakpoint(1050px) {
-          width: 370px;
-          height: 400px;
-
-          &:first-child {
-            margin-left: 0;
-          }
-          &:last-child {
-            margin-left: 25px;
-          }
-        }
-
-        .box-content {
-          text-align: center;
-
-          .box-image {
-            width: 100%;
-            height: 50px;
-            margin: 1rem 0;
-            padding-top: 15px;
-
-            @include breakpoint(420px) {
-              height: 70px;
-              padding: 0;
-            }
-
-            img {
-              height: 100%;
-              width: auto;
-            }
-          }
-
-          .box-header {
-            color: #0b97c4;
-            font-weight: 400;
-            font-size: 1.6rem;
-            line-height: 2rem;
-            padding: 0.5rem;
-
-            @include breakpoint(420px) {
-              font-size: 1.4rem;
-              line-height: 1.6rem;
-            }
-          }
-
-          .box-text {
-            color: #97a3aa;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.4rem;
-            padding: 0.5rem 1rem;
-            min-height: 0;
-
-            @include breakpoint(420px) {
-              font-size: 16px;
-              line-height: 1.6rem;
-              min-height: 215px;
-            }
-
-            @include breakpoint(750px) {
-              min-height: 180px;
-            }
-          }
-
-          .box-button {
-            vertical-align: bottom;
-
-            .button {
-              text-transform: none;
-            }
-          }
-        }
-      }
+    .button-block {
+      display: block;
+      height: 15%;
     }
   }
 }

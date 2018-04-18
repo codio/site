@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2018**
 
+- `[I] [16th]`: Improve handling of unit/project descriptions in [desktop application](/docs/dashboard/desktopapp)
 - `[I] [14th]`: New [desktop application](/docs/dashboard/desktopapp) allowing a local code workspace to synchronize with a Codio box.
 - `[I] [13th]`: Improve performance of X-server
 - `[I] [13th]`: Improve handling of double clicking on submission of assessments

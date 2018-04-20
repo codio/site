@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2018**
 
+- `[I] [20th]`: Fix grading issue with [rubric templates](/docs/classes/classmanagement/rubric/) 
+- `[I] [20th]`: Improve messaging for errors when synchronising units in [desktop application](/docs/dashboard/desktopapp)
+- `[I] [19th]`: Fix problem with invite teacher process
 - `[I] [16th]`: Improve handling of unit/project descriptions in [desktop application](/docs/dashboard/desktopapp)
 - `[I] [14th]`: New [desktop application](/docs/dashboard/desktopapp) allowing a local code workspace to synchronize with a Codio box.
 - `[I] [13th]`: Improve performance of X-server

@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2018**
 
+- `[I] [24th]`: Improve accessibility to support dialog actions accessible from keyboard
+- `[I] [24th]`: Fix issue with [replace](/docs/ide/editing/search-replace/) in projects
 - `[I] [20th]`: Fix grading issue with [rubric templates](/docs/classes/classmanagement/rubric/) 
 - `[I] [20th]`: Improve messaging for errors when synchronising units in [desktop application](/docs/dashboard/desktopapp)
 - `[I] [19th]`: Fix problem with invite teacher process

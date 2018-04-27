@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2018**
 
+- `[F] [27th]`: Add support for Java and Ruby in [advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/)
+- `[I] [27th]`: Improve handling of downloading files in private projects
+- `[I] [27th]`: Improve handling for [language server protocol](/docs/ide/boxes/installsw/langserver/)
 - `[I] [24th]`: Improve accessibility to support dialog actions accessible from keyboard
 - `[I] [24th]`: Fix issue with [replace](/docs/ide/editing/search-replace/) in projects
 - `[I] [20th]`: Fix grading issue with [rubric templates](/docs/classes/classmanagement/rubric/) 

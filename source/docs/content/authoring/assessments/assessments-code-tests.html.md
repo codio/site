@@ -20,6 +20,11 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
 
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user, written in markdown.
+- **Language Type** where you can select the language to use. 
+    - Ruby (>=2.0) requires `rubocop` and `rspec` gem
+    - Java (>=1.7) requires [Junit](/docs/ide/features/junit/) and `checkstyle`
+    
+            
 - **Command** is the command to run to invoke your test. See the section **Test code** below for more details.
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section **Partial Score** lower down on this page.
 - **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.

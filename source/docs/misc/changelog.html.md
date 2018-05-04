@@ -11,6 +11,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**May 2018**
+
+- `[F] [ 4th]`: Improve handling of tab focus when returning to a unit
+- `[I] [ 4th]`: Fix issue with project list last accessed sorting
+- `[F] [ 4th]`: Add [Grade Book](/docs/content/authoring/assessments/assessments-gradebook) assessment
+
+
 **April 2018**
 
 - `[F] [27th]`: Add support for Java and Ruby in [advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/)

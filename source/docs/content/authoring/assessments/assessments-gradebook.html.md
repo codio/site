@@ -13,7 +13,6 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
 
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely what the assessment is. In many cases, you do not want to see this text appear to the student. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Points** is the score given to the student. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow partial points to be given. 
-- **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
 - **Collapsed on start** allows the assessment field to be collapsed when the page opens
 
 

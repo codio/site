@@ -23,7 +23,8 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
 - **Language Type** where you can select the language to use. 
     - Ruby (>=2.0) requires `rubocop` and `rspec` gem
     - Java (>=1.7) requires [Junit](/docs/ide/features/junit/) and `checkstyle`
-    
+    - Python requires `pycodestyle`
+    - Javascript requires `jshint` (nodejs + jshint global package) and `jslint`(nodejs + jslint global package)
             
 - **Command** is the command to run to invoke your test. See the section **Test code** below for more details.
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section **Partial Score** lower down on this page.

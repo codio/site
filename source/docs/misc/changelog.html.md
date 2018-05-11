@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2018**
 
+- `[I] [16th]`: Improve handling of file and directory names in [desktop application](/docs/dashboard/desktopapp)
 - `[F] [ 8th]`: Add support for Python and Javascript in [advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/)
 - `[F] [ 4th]`: Improve handling of tab focus when returning to a unit
 - `[I] [ 4th]`: Fix issue with project list last accessed sorting

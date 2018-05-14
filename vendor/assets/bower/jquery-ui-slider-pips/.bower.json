@@ -1,6 +1,6 @@
 {
   "name": "jQuery-ui-Slider-Pips",
-  "version": "1.10.5",
+  "version": "1.10.8",
   "description": "A plugin to add little \"pips\" to the jQuery UI Slider widget",
   "main": [
     "dist/jquery-ui-slider-pips.css",
@@ -43,14 +43,13 @@
   },
   "devDependencies": {},
   "homepage": "https://github.com/simeydotme/jQuery-ui-Slider-Pips",
-  "_release": "1.10.5",
+  "_release": "1.10.8",
   "_resolution": {
     "type": "version",
-    "tag": "v1.10.5",
-    "commit": "6e2d164b5e48fb88510731194d0b79a6d12ef481"
+    "tag": "v1.10.8",
+    "commit": "84a21762f63c16686a2eec3532871e47a4fb35b5"
   },
-  "_source": "git://github.com/simeydotme/jQuery-ui-Slider-Pips.git",
+  "_source": "https://github.com/simeydotme/jQuery-ui-Slider-Pips.git",
   "_target": "~1.10.5",
-  "_originalSource": "jquery-ui-slider-pips",
-  "_direct": true
+  "_originalSource": "jquery-ui-slider-pips"
 }

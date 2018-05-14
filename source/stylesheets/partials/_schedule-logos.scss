@@ -1,0 +1,30 @@
+.schedule {
+  background-color: blue;
+  padding-top: 30px;
+  @extend %flexbox;
+  @include flex-direction(column);
+
+  .schedule-title {
+    @extend %flexbox;
+    @include align-self(center);
+    @include justify-content(center);
+
+    color: white;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 30px;
+    width: 80%;
+    text-align: center;
+    line-height: 100%;
+  }
+
+  .schedule-actions-row {
+    @extend %flexbox;
+    @include flex-direction(row);
+    @include flex(1 1 auto);
+    max-width: 100%;
+
+    margin-bottom: 30px;
+  }
+
+}

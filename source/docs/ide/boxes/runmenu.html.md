@@ -66,5 +66,5 @@ You can see from the above `.codio` sample that it is possible to insert tokens 
 - `{{filename}}` inserts the filename with its extension `file.ext`
 - `{{filename_no_ext}}` inserts the filename without the extension `file`
 - `{{domain3000}}` inserts the public url to your box; `word1-word2-3000.codio.io` to access over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443
-- `{{domain}}` inserts the alternate public url to your box; `word1-word2.codio.io`, be aware that you will usually need to specify a port to reach a service running on your Box. e.g. `word1-word2.codio.io:3000`
+- `{{domain}}` inserts the alternate public url to your box; `word1-word2.codio.io`, be aware that you will usually need to specify a port to reach a service running on your Box. e.g. `word1-word2-<port>.codio.io`
 

@@ -1,0 +1,38 @@
+.school-grid {
+  height: 500px;
+  border: 1px solid black;
+
+  @extend %flexbox;
+  @include flex-direction(row);
+
+  .school-grid-left {
+    flex: 1 1 auto;
+  }
+
+  .school-grid-right {
+    border-left: 1px solid black;
+    @extend %flexbox;
+    @include flex(1 1 auto);
+    @include flex-direction(column);
+
+    .school-grid-right-top {
+      border-bottom: 1px solid black;
+      @include flex(1 1 auto);
+    }
+
+    .school-grid-right-bottom {
+      @extend %flexbox;
+      @include flex(1 1 auto);
+      @include flex-direction(row);
+
+      .school-grid-right-bottom-left {
+        @include flex(1 1 auto);
+      }
+
+      .school-grid-right-bottom-right {
+        border-left: 1px solid black;
+        @include flex(1 1 auto);
+      }
+    }
+  }
+}

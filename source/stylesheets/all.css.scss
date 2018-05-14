@@ -3,6 +3,7 @@
 
 @charset 'utf-8';
 
+@import 'sass-flex-mixin/flex';
 @import 'compass';
 @import 'compass/reset';
 @import 'compass/typography';
@@ -46,6 +47,7 @@ $susy: (
 @import 'partials/call-to-action';
 
 @import 'pages/index';
+@import 'pages/new-home';
 @import 'pages/cloudcs';
 @import 'pages/cloudlabs';
 @import 'pages/universityleadership';

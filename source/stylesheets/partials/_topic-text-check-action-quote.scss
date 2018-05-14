@@ -1,0 +1,139 @@
+%common {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+  width: 36%;
+  min-width: 400px;
+}
+
+.save-topic {
+  @extend %common;
+
+  .save-topic-title {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .save-topic-text {
+    color: #666666;
+    text-align: center;
+  }
+}
+
+.two-text {
+  @extend %common;
+  width: 80%;
+  font-size: 16px;
+  font-weight: 800;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .two-text-left {
+    text-align: center;
+    flex: 1 1 auto;
+  }
+
+  .two-text-right {
+    text-align: center;
+    flex: 1 1 auto;
+  }
+
+  .two-text-line {
+    border-left: 1px solid black;
+  }
+}
+
+.check-list {
+  @extend %common;
+  
+  background-color: #eeeeee;
+  padding: 10px;
+  border: 1px solid black;
+
+  .check-list-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .check-list-list-item {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+
+  .check-list-list-item:before {
+    content: "+";
+    padding-right: 5px;
+  }
+}
+
+.schedule-demo {
+  @extend %common;
+  display: flex;
+  justify-content: center;
+
+  .schedule-demo-link {
+    color: white;
+    background-color: black;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+}
+
+.quote {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+
+  .quote-inner-quote-symbol {
+    width: 5%;
+    background-color: red;
+  }
+
+  .quote-inner-info {
+    width: 57%;
+    margin-left: 10px;
+
+    .quote-topic {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .quote-text {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .quote-author {
+      margin-top: 10px;
+      font-size: 14px;
+      display: flex;
+
+      .quote-author-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: red;
+        background-color: green;
+        border: 1px solid black;
+      }
+
+      .quote-author-info {
+        flex: 1 1 auto;
+        .quote-author-name {
+          font-weight: 800;
+        }
+
+        .quote-author-occupation {
+
+        }
+      }
+    }
+  }
+
+}

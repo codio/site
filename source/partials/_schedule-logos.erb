@@ -1,0 +1,20 @@
+<div class="schedule">
+  <div class="schedule-title">
+    <%= title %>
+  </div>
+  <div class="schedule-actions">
+    <% if defined?(actions) %>
+      <% actions.each do |action| %>
+        <div class="schedule-demo">
+          <a class="schedule-demo-link" href="<% action[:link] %>">
+            <%= action[:text] %>
+          </a>
+        </div>
+      <% end %>
+
+      <div class="schedule-actions-row">
+      </div>
+    <% end %>
+
+  </div>
+</div>

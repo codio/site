@@ -1,0 +1,210 @@
+---
+title: Home \| Teaching code \| Codio
+layout: layout
+fixed: true
+transparent: false
+description: The cloud infrastructure and learning management platform for computer science and stem education.
+priority: 1.0
+---
+
+<!-- another header -->
+<section class="section-scroll">
+  <!--  -->
+  <div class="">
+    <div class="higher-performance blue-one">
+      <button class="learn-more">
+
+      </button>
+    </div>
+    <div class="save instructor gray-one">
+
+    </div>
+  </div>
+  <%= partial "topic-text-check-action-quote",
+      locals: {
+          topic: {
+              title: "instructor",
+              text: "text"
+          },
+          text: [
+              "for each",
+              "cut the time"
+          ],
+          check: [
+              "configure",
+              "access",
+              "automatically"
+          ],
+          action: {
+              text: "schedule my demo",
+              link: "/somewhere"
+          },
+          quote: {
+              topic: "get your",
+              text: "click",
+              author: {
+                  name: "Dr. Gordon",
+                  occupation: "senior lecturer",
+                  avatar: "/some/image"
+              }
+          }
+      }
+  %>
+  <%= partial "schools-grid",
+      locals: {
+          schools: [
+              {
+                  title: "school name",
+                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
+              },
+              {
+                  title: "school name",
+                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
+              },
+              {
+                  title: "school name",
+                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
+              },
+              {
+                  title: "school name",
+                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
+              },
+          ]
+      }
+  %>
+  <%= partial "schedule-logos",
+      locals: {
+          title: "Schedule a demo today and get Codio for the Fall 2018 Semester — free",
+          actions: [
+              {
+                  title: "Schedule my demo",
+                  link: "about:blank"
+              },
+              {
+                  title: "See the codio platform",
+                  link: "about:blank"
+              },
+              {
+                  title: "",
+                  link: ""
+              },
+              {
+                  title: "",
+                  link: ""
+              },
+              {
+                  title: "",
+                  link: ""
+              },
+              {
+                  title: "",
+                  link: ""
+              },
+              {
+                  title: "",
+                  link: ""
+              }
+          ]
+      }
+  %>
+</section>
+
+<section class="section-scroll">
+  <div class="header-block">
+    <div class="vertical">
+      <div class="header-content">
+        <div class="quote">Higher performance Computer Science Programs</div>
+        <div class="text">
+          Save time. Reduce costs. Boost engagement. Gain better learning insights.
+        </div>
+      </div>
+    </div>
+    <div class="button-block">
+      <%= link_to 'Explore', '/cloudcs', class: 'button button-main button-rounded' %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <div class="cell-wrapper">
+        <div class="featured-posts">
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Freddy May", "http://news.codio.com/author/freddy-may", class: "author-link" %>
+                </div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case study with Sheffield University",
+                                  "http://news.codio.com/sheffield-university-uses-codio" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Mateen Rizki", "http://news.codio.com/author/mateen-rizki", class: "author-link" %>
+                </div>
+                <div class="post-date">Apr 20, 2017</div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case study: Wright State University", "http://news.codio.com/wsu-uses-codio" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Phillip Snalune", "http://news.codio.com/author/phillip-snalune", class: "author-link" %>
+                </div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case Study: Florida A&M University", "http://news.codio.com/codio-at-famu" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="post-date">July 25, 2016</div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "", "http://news.codio.com/codio-at-coventry-university/" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,4 +1,15 @@
 footer {
+  margin: 0 auto;
+  max-width: 100%;
+  border-right: 1px;
+  border-left: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+
+  @include breakpoint($header-min-width) {
+    max-width: $page-width;
+  }
+
   padding: 1rem 0 0 0;
   background-color: #3F484D;
 
@@ -8,12 +19,13 @@ footer {
 
   .container, .container-logo {
     @include container;
+    width: 100%;
 
-    @include breakpoint($break-tablet) {
-      @include container(12 of 16);
-      margin: 0 span(1.5 of 16);
-      max-width: $max-width;
-    }
+    //@include breakpoint($break-tablet) {
+    //  @include container(12 of 16);
+    //  margin: 0 span(1.5 of 16);
+    //  max-width: $max-width;
+    //}
 
     @include breakpoint($max-width) {
       margin: 0 auto;

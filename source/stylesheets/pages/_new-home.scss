@@ -16,19 +16,28 @@ body.new-home {
   }
   .content {
     margin: 0 auto;
-    max-width: 76%;
-    border: 1px solid #eeeeee;
+    max-width: 100%;
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #eeeeee;
+
+    @include breakpoint($header-min-width) {
+      max-width: $page-width;
+    }
   }
 }
 
 body.new-home .section-scroll {
-  @import "../partials/topic-text-check-action-quote";
-  @import "../partials/schools-grid";
-  @import "../partials/schedule-logos";
-
   padding: 0;
   position: relative;
   height: 100%;
+  margin-top: 65px;
+
+  @import "../partials/topic-text-check-action-quote";
+  @import "../partials/schools-grid";
+  @import "../partials/schedule-logos";
+  @import "../partials/higher-performance";
 
   .row {
     width: 100%;

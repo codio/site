@@ -9,15 +9,32 @@ priority: 1.0
 
 <!-- another header -->
 <section class="section-scroll">
-  <!--  -->
-  <div class="">
-    <div class="higher-performance blue-one">
-      <button class="learn-more">
-
+  <div class="higher-performance">
+    <div class="higher-performance-top">
+      <div class="higher-performance-top-title">
+        Higher Performance Computer Science Programming
+      </div>
+      <div class="higher-performance-top-sub-title">
+        Save instructor time. Cut program costs. Boost student engagement. Gain rich learning insights.
+      </div>
+      <button class="higher-performance-top-action">
+        <span>Learn more</span>
+        <span>icon</span>
       </button>
     </div>
-    <div class="save instructor gray-one">
-
+    <div class="higher-performance-bottom">
+      <div class="higher-performance-bottom-two-text two-text">
+        <div class="two-text-left">
+          CS departments save more than $50,000 per year
+        </div>
+        <div class="two-text-line"></div>
+        <div class="two-text-right">
+          Instructors recover more than 20% of their time
+        </div>
+      </div>
+      <div class="higher-performance-bottom-gray-text">
+        *Based on a single one-year CS course with 300 students.
+      </div>
     </div>
   </div>
   <%= partial "topic-text-check-action-quote",
@@ -49,6 +66,96 @@ priority: 1.0
               }
           }
       }
+  %>
+  <%= partial "topic-text-check-action-quote",
+              locals: {
+                  topic: {
+                      title: "instructor",
+                      text: "text"
+                  },
+                  text: [
+                      "for each",
+                      "cut the time"
+                  ],
+                  check: [
+                      "configure",
+                      "access",
+                      "automatically"
+                  ],
+                  action: {
+                      text: "schedule my demo",
+                      link: "/somewhere"
+                  },
+                  quote: {
+                      topic: "get your",
+                      text: "click",
+                      author: {
+                          name: "Dr. Gordon",
+                          occupation: "senior lecturer",
+                          avatar: "/some/image"
+                      }
+                  }
+              }
+  %>
+  <%= partial "topic-text-check-action-quote",
+              locals: {
+                  topic: {
+                      title: "instructor",
+                      text: "text"
+                  },
+                  text: [
+                      "for each",
+                      "cut the time"
+                  ],
+                  check: [
+                      "configure",
+                      "access",
+                      "automatically"
+                  ],
+                  action: {
+                      text: "schedule my demo",
+                      link: "/somewhere"
+                  },
+                  quote: {
+                      topic: "get your",
+                      text: "click",
+                      author: {
+                          name: "Dr. Gordon",
+                          occupation: "senior lecturer",
+                          avatar: "/some/image"
+                      }
+                  }
+              }
+  %>
+  <%= partial "topic-text-check-action-quote",
+              locals: {
+                  topic: {
+                      title: "instructor",
+                      text: "text"
+                  },
+                  text: [
+                      "for each",
+                      "cut the time"
+                  ],
+                  check: [
+                      "configure",
+                      "access",
+                      "automatically"
+                  ],
+                  action: {
+                      text: "schedule my demo",
+                      link: "/somewhere"
+                  },
+                  quote: {
+                      topic: "get your",
+                      text: "click",
+                      author: {
+                          name: "Dr. Gordon",
+                          occupation: "senior lecturer",
+                          avatar: "/some/image"
+                      }
+                  }
+              }
   %>
   <%= partial "schools-grid",
       locals: {

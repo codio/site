@@ -71,10 +71,27 @@
   }
 }
 
+.action-button {
+  @extend %flexbox;
+  @include flex(1);
+  @include justify-content(center);
+
+  .action-button-link {
+    color: white;
+    background-color: black;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    min-width: 258px;
+    min-height: 67px;
+  }
+}
+
 .schedule-demo {
   @extend %flexbox;
   @include flex(1 1 auto);
   @include justify-content(center);
+  margin-bottom: 25px;
 
   .schedule-demo-link {
     color: white;

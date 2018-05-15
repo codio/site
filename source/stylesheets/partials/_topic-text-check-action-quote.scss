@@ -1,8 +1,6 @@
 %common {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 25px;
-  width: 36%;
+  margin: 15px auto;
+  width: 50%;
   min-width: 400px;
 }
 
@@ -10,8 +8,8 @@
   @extend %common;
 
   .save-topic-title {
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: $bold-font-weight;
     text-transform: uppercase;
     text-align: center;
   }
@@ -19,27 +17,24 @@
   .save-topic-text {
     color: #666666;
     text-align: center;
+    font-weight: $middle-font-weight;
   }
 }
 
 .two-text {
   @extend %common;
   width: 80%;
-  font-size: 16px;
-  font-weight: 800;
+  font-size: 22px;
+  font-weight: $bold-font-weight;
+  line-height: 1em;
 
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  @extend %flexbox;
+  @include justify-content(center);
+  @include align-content(center);
 
-  .two-text-left {
+  .two-text-left, .two-text-right {
     text-align: center;
-    flex: 1 1 auto;
-  }
-
-  .two-text-right {
-    text-align: center;
-    flex: 1 1 auto;
+    @include flex(1 1 50%);
   }
 
   .two-text-line {
@@ -49,7 +44,10 @@
 
 .check-list {
   @extend %common;
-  
+
+  font-size: 16px;
+  font-weight: $middle-font-weight;
+  width: 48%;
   background-color: #eeeeee;
   padding: 10px;
   border: 1px solid black;
@@ -81,7 +79,7 @@
     background-color: black;
     padding: 20px 50px;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: $bold-font-weight;
     min-width: 258px;
     min-height: 67px;
   }
@@ -92,22 +90,24 @@
   @include flex(1 1 auto);
   @include justify-content(center);
   margin-bottom: 25px;
+  margin-top: 25px;
 
   .schedule-demo-link {
     color: white;
     background-color: black;
     padding: 20px 50px;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: $bold-font-weight;
     min-width: 258px;
     min-height: 67px;
   }
 }
 
 .quote {
+  @extend %flexbox;
+  @include justify-content(center);
   background-color: #eeeeee;
-  display: flex;
-  justify-content: center;
+  padding: 15px 0;
 
   .quote-inner-quote-symbol {
     width: 5%;
@@ -119,19 +119,20 @@
     margin-left: 10px;
 
     .quote-topic {
-      font-size: 18px;
-      font-weight: 800;
+      font-size: 20px;
+      font-weight: $bold-font-weight;
     }
 
     .quote-text {
       margin-top: 10px;
       font-size: 16px;
+      font-weight: $middle-font-weight;
     }
 
     .quote-author {
       margin-top: 10px;
       font-size: 14px;
-      display: flex;
+      @extend %flexbox;
 
       .quote-author-avatar {
         width: 50px;
@@ -143,13 +144,17 @@
       }
 
       .quote-author-info {
-        flex: 1 1 auto;
+        @include flex(1 1 auto);
+        margin-left: 5px;
+        line-height: 1.2em;
+        font-size: 16px;
+
         .quote-author-name {
-          font-weight: 800;
+          font-weight: $bold-font-weight;
         }
 
         .quote-author-occupation {
-
+          font-weight: $middle-font-weight;
         }
       }
     }

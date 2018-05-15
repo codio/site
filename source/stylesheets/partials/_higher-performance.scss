@@ -11,7 +11,7 @@
       @extend %flexbox;
       @include justify-content(center);
       line-height: 100%;
-      font-size: 32px;
+      font-size: 40px;
       font-weight: 800;
       margin-bottom: 30px;
     }
@@ -20,6 +20,8 @@
       @extend %flexbox;
       @include justify-content(center);
       margin-bottom: 50px;
+      font-weight: 500;
+      font-size: 20px;
     }
 
     .higher-performance-top-action {
@@ -37,8 +39,9 @@
     padding-bottom: 20px;
     background-color: #eeeeee;
 
-    .higher-performance-bottom-two-text {
+    .higher-performance-bottom-two-text.two-text {
       font-size: 32px;
+      font-weight: 400;
     }
 
     .higher-performance-bottom-gray-text {
@@ -46,6 +49,7 @@
       @include justify-content(center);
       color: #999999;
       font-size: 14px;
+      font-weight: 400;
     }
   }
 }

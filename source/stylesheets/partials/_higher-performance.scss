@@ -27,8 +27,16 @@
     .higher-performance-top-action {
       @extend %flexbox;
       @include justify-content(center);
+      @include flex-direction(column);
+      @include align-items(center);
       font-weight: 800;
       text-transform: uppercase;
+
+      .higher-performance-top-action-icon {
+        background: url(/img/assets/docs-navigation/teacher.svg) no-repeat center center;
+        height: 50px;
+        min-width: 50px;
+      }
     }
   }
 

@@ -60,13 +60,15 @@
   }
 
   .check-list-list-item {
-    padding-left: 1em;
-    text-indent: -1em;
+    padding-left: 2em;
+    text-indent: -2em;
   }
 
   .check-list-list-item:before {
-    content: "+";
-    padding-right: 5px;
+    content: " ";
+    padding-right: 1em;
+    margin-right: 1em;
+    background: url(/img/assets/docs-navigation/teacher.svg) no-repeat left top;
   }
 }
 
@@ -111,8 +113,8 @@
   padding: 15px 0;
 
   .quote-inner-quote-symbol {
+    background: url(/img/assets/docs-navigation/teacher.svg) no-repeat center top;
     width: 5%;
-    background-color: red;
   }
 
   .quote-inner-info {
@@ -136,12 +138,13 @@
       @extend %flexbox;
 
       .quote-author-avatar {
-        width: 50px;
+        min-width: 50px;
         height: 50px;
         border-radius: 50%;
         color: red;
         background-color: green;
         border: 1px solid black;
+        background: url(/img/assets/docs-navigation/teacher.svg) center center;
       }
 
       .quote-author-info {

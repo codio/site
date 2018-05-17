@@ -8,6 +8,8 @@ You can specify a start and a stop date and time for a unit. The unit will be di
 
 Once the stop date and time is reached you can set the unit to be marked as complete and/or disabled. If you elect to disable access, then depending on your [disabled Unit settings](/docs/classes/unitmanagement/settings-info/disable) students will either be refused all access or can have read-only access to the Unit.
 
+Please note, that selecting mark as complete will not stop students who have not started the unit from being able to access the unit after the stop date/time has been reached. If you wish to manage this, look at using the disable unit and mark as complete option. 
+
 This feature is accessible via the main settings tab.
 
 <img alt="authtoken" src="/img/docs/manage_classes/unitduration.png" class="simple"/>

@@ -1,5 +1,5 @@
 ---
-title: Home | Teaching code | Codio
+title: Home \| Teaching code \| Codio
 layout: layout
 fixed: true
 transparent: false
@@ -7,102 +7,227 @@ description: The cloud infrastructure and learning management platform for compu
 priority: 1.0
 ---
 
+<!-- another header -->
 <section class="section-scroll">
-  <div class="header-block">
-    <div class="vertical">
-      <div class="header-content">
-        <div class="quote">Higher performance Computer Science Programs</div>
-        <div class="text">
-          Save time. Reduce costs. Boost engagement. Gain better learning insights.
-        </div>
+  <div class="higher-performance">
+    <div class="higher-performance-top">
+      <div class="higher-performance-top-title">
+        Higher Performance Computer Science Programming
+      </div>
+      <div class="higher-performance-top-sub-title">
+        Save instructor time. Cut program costs. Boost student engagement. Gain rich learning insights.
+      </div>
+      <div class="higher-performance-top-action">
+        <div>Learn more</div>
+        <div class="higher-performance-top-action-icon"></div>
       </div>
     </div>
-    <div class="button-block">
-      <%= link_to 'Explore', '/cloudcs', class: 'button button-main button-rounded' %>
-    </div>
-  </div>
-  <div class="row">
-    <div class="span12">
-      <div class="cell-wrapper">
-        <div class="featured-posts">
-          <div class="item">
-            <div class="post-image">
-              <div class="item-wrapper">
-                <div class="author-data">
-                  <%= link_to "Freddy May", "http://news.codio.com/author/freddy-may", class: "author-link" %>
-                </div>
-                <div class="title-wrap">
-                  <div class="post-title">
-                    <h2>
-                      <%= link_to "Case study with Sheffield University",
-                                  "http://news.codio.com/sheffield-university-uses-codio" %>
-                    </h2>
-                  </div>
-                  <div class="post-recents-topic">
-                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="post-image">
-              <div class="item-wrapper">
-                <div class="author-data">
-                  <%= link_to "Mateen Rizki", "http://news.codio.com/author/mateen-rizki", class: "author-link" %>
-                </div>
-                <div class="post-date">Apr 20, 2017</div>
-                <div class="title-wrap">
-                  <div class="post-title">
-                    <h2>
-                      <%= link_to "Case study: Wright State University", "http://news.codio.com/wsu-uses-codio" %>
-                    </h2>
-                  </div>
-                  <div class="post-recents-topic">
-                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="post-image">
-              <div class="item-wrapper">
-                <div class="author-data">
-                  <%= link_to "Phillip Snalune", "http://news.codio.com/author/phillip-snalune", class: "author-link" %>
-                </div>
-                <div class="title-wrap">
-                  <div class="post-title">
-                    <h2>
-                      <%= link_to "Case Study: Florida A&M University", "http://news.codio.com/codio-at-famu" %>
-                    </h2>
-                  </div>
-                  <div class="post-recents-topic">
-                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="post-image">
-              <div class="item-wrapper">
-                <div class="post-date">July 25, 2016</div>
-                <div class="title-wrap">
-                  <div class="post-title">
-                    <h2>
-                      <%= link_to "", "http://news.codio.com/codio-at-coventry-university/" %>
-                    </h2>
-                  </div>
-                  <div class="post-recents-topic">
-                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="higher-performance-bottom">
+      <div class="higher-performance-bottom-two-text two-text">
+        <div class="two-text-left">
+          CS departments save more than $50,000 per year
         </div>
+        <div class="two-text-line"></div>
+        <div class="two-text-right">
+          Instructors recover more than 20% of their time
+        </div>
+      </div>
+      <div class="higher-performance-bottom-gray-text">
+        *Based on a single one-year CS course with 300 students.
       </div>
     </div>
   </div>
+  <%= partial "topic-text-check-action-quote",
+      locals: {
+          topic: {
+              title: "Instructor Time",
+              text: "Instructors waste gours setting up and sharing a programming environment,\
+                running studen code, and keeping theis course in sync with a general LMS."
+          },
+          text: [
+              "For each instructor, redirect $15,000+ worth of admin time to high-value tasks.",
+              "Cut time wasted on admin and IT tasks by an 20% or more."
+          ],
+          check: [
+              "Configure and template programming projects and share it with the class in seconds.",
+              "Access and run student code from any connected device in one click.",
+              "Automatically keep your course and grades in sync with Blackboard, Canvas, Moodle, and more."
+          ],
+          action: {
+              text: "schedule my demo",
+              link: "/somewhere"
+          },
+          quote: {
+              topic: "Get your Sundays back",
+              text: "Click on a student's project and five seconds later I can compile, run and \
+                debug without having to unzip or copy and paste it into my own environment. The time\
+                I save with this feature alone justifies the Codio platform and gives me back my Sundays.",
+              author: {
+                  name: "Dr. Gordon Fraser",
+                  occupation: "Senior Lecturer at Sheffield University",
+                  avatar: "/some/image"
+              }
+          }
+      }
+  %>
+  <%= partial "topic-text-check-action-quote",
+              locals: {
+                  topic: {
+                      title: "Grading Costs",
+                      text: "Grading is a tedious, low-value task, which costs most CS departments tens of \
+                        thousands of dollars in instructor time each year."
+                  },
+                  text: [
+                      "Save tens of thousands of dollars in grading costs each year.",
+                      "Grade 20-40% faster to automate up to 85% of your intro CS course grading."
+                  ],
+                  check: [
+                      "Auto-grade argument-based and stdin inputs without writing a single line of test code.",
+                      "Speed up manual grading by clicking your way through customizable rubrics.",
+                      "Write custom code in any language to instantly assess almost any testable case."
+                  ],
+                  action: {
+                      text: "schedule my demo",
+                      link: "/somewhere"
+                  },
+                  quote: {
+                      topic: "Convert manually graded assignments to auto-graded ones",
+                      text: "We spend a siz-figure sum each year in grading assignments. We will now convert many \
+                        of our manually graded assignments into auto-graded coding assessments. We fully expect to \
+                        be able to make cost savings in the tens of thousands of dollars by using Codio's \
+                        auto-grading functionality.",
+                      author: {
+                          name: "Mateen Rizki",
+                          occupation: "Chair of the Department of Computer Science & Engeneering at Wright State University",
+                          avatar: "/some/image"
+                      }
+                  }
+              }
+  %>
+  <%= partial "topic-text-check-action-quote",
+              locals: {
+                  topic: {
+                      title: "Student Satisfaction",
+                      text: "When instructors lack the time and tools needed to provide today's CS student with \
+                        the learning expirience they expect, student performance and satisfaction suffer."
+                  },
+                  text: [
+                      "Reduce student attrition and rescue $10,000+ in fees per semester.",
+                      "Boost student satisfaction with an engaging learning expirience and more 1-on-1 help."
+                  ],
+                  check: [
+                      "Instant access to student code makes easy to critique and compare solutions during labs.",
+                      "Time-based insight into each student's programming helps them to correct course before it's too late.",
+                      "Students can access their Codio IDE, GUI options, coursework, and assessments in one place — from any device."
+                  ],
+                  action: {
+                      text: "schedule my demo",
+                      link: "/somewhere"
+                  },
+                  quote: {
+                      topic: "Make labs collaborative with instant access to student code",
+                      text: "We show student assignments alongside the lecturer's own solution on the \
+                        classroom projector. This lets us demonstrate that there are many valid solutions \
+                        to the same problem, occasionally superior to the teacher's! We also discuss and \
+                        diagnose problems collaboratively during class and being able to boot up projects \
+                        in seconds means we can do it seamlessly.",
+                      author: {
+                          name: "Mateen Rizki",
+                          occupation: "Chair of the Department of Computer Science & Engeneering at Wright State University",
+                          avatar: "/some/image"
+                      }
+                  }
+              }
+  %>
+  <%= partial "topic-text-check-action-quote",
+              locals: {
+                  topic: {
+                      title: "Easy Setup",
+                      text: "Many colleges and universities want to upgrade to a cloud infrastructure \
+                        and LMS made for CS programs, but the cost, bth in time and money, prevents them."
+                  },
+                  text: [
+                      "Save thousands of dollars in trainig fees — we train facility for free.",
+                      "Start delivering courses in Codio within days of getting started."
+                  ],
+                  check: [
+                      "Facility, IT, and leadership receive free 1-on-1 an 1-to-many trainig.",
+                      "All licenses come with unlimited phone and email support.",
+                      "Large schools like Columbia are up and running in weeks, not months."
+                  ],
+                  action: {
+                      text: "schedule my demo",
+                      link: "/somewhere"
+                  },
+                  quote: {
+                      topic: "Columbia fully implemented Codio in only 2 weeks",
+                      text: "After 2-months of trying (and failing) to set up another platform, \
+                        we then discovered Codio, fully implemented our solution in 2 weeks with \
+                        no product customisations needed. We have since been running our edX \
+                        courses and internal courses very successfully.",
+                      author: {
+                          name: "Professor Eitan Grinspun",
+                          occupation: "Associate Professor of Computer Science at Columbia",
+                          avatar: "/some/image"
+                      }
+                  }
+              }
+  %>
+  <%= partial "schools-grid",
+      locals: {
+          schools: [
+              {
+                  title: "school name",
+                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
+              },
+              {
+                  title: "school name",
+                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
+              },
+              {
+                  title: "school name",
+                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
+              },
+              {
+                  title: "school name",
+                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
+              },
+          ]
+      }
+  %>
+  <%= partial "schedule-logos",
+      locals: {
+          title: "Schedule a demo today and get Codio for the Fall 2018 Semester — free",
+          actions: [
+              {
+                  title: "Schedule my demo",
+                  link: "about:blank"
+              },
+              {
+                  title: "See the codio platform",
+                  link: "about:blank"
+              },
+              {
+                  title: "",
+                  link: ""
+              },
+              {
+                  title: "",
+                  link: ""
+              },
+              {
+                  title: "",
+                  link: ""
+              },
+              {
+                  title: "",
+                  link: ""
+              },
+              {
+                  title: "",
+                  link: ""
+              }
+          ]
+      }
+  %>
 </section>

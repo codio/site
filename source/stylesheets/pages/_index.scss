@@ -1,20 +1,5 @@
 .vertical {
-  /* Internet Explorer 10 */
-  display: -ms-flexbox;
-  -ms-flex-pack: center;
-  -ms-flex-align: center;
-  /* Firefox */
-  display: -moz-box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  /* Safari, Opera, and Chrome */
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  /* W3C */
-  display: box;
-  box-pack: center;
-  box-align: center;
+  @extend %flexbox;
 }
 
 body {
@@ -32,6 +17,14 @@ body.index {
   .content {
     margin: 0 auto;
     max-width: 100%;
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #eeeeee;
+
+    @include breakpoint($header-min-width) {
+      max-width: $page-width;
+    }
   }
 }
 
@@ -39,6 +32,12 @@ body.index .section-scroll {
   padding: 0;
   position: relative;
   height: 100%;
+  margin-top: 65px;
+
+  @import "../partials/topic-text-check-action-quote";
+  @import "../partials/schools-grid";
+  @import "../partials/schedule-logos";
+  @import "../partials/higher-performance";
 
   .row {
     width: 100%;

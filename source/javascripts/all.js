@@ -2,7 +2,7 @@
 //= require bootstrap-sprockets
 //= require cookie-monster
 //= require blueimp-md5
-//= require jquery-ui/ui/core.js
+//= require jquery-ui/jquery-ui.js
 //= require jquery-ui/ui/widget.js
 //= require jquery-ui/ui/widgets/mouse.js
 //= require jquery-ui/ui/widgets/slider.js

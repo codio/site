@@ -23,7 +23,7 @@ $(() => {
   }
 
   var setHeaderStyle = () => {
-    setOpaque();
+    setTransparent();
   }
 
   if ($('body').innerWidth() <= 783) {

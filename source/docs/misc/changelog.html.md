@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2018**
 
+- `[I] [18th]`: Fix issue with updating stack causing issue publishing new version of course unit
 - `[F] [18th]`: Add support for timeout period in [advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/)
 - `[I] [18th]`: Improve layout for student grading screens
 - `[I] [18th]`: Update subscription information shown when plan expires

@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2018**
 
+- `[F] [18th]`: Add support for timeout period in [advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/)
+- `[I] [18th]`: Improve layout for student grading screens
+- `[I] [18th]`: Update subscription information shown when plan expires
 - `[I] [16th]`: Teachers in Self-Pay organisations no longer require subscription
 - `[F] [14th]`: Restrict preview of box url to owners of the box. See [Project Settings](/docs/ide/customization/project-settings/) for more information
 - `[I] [14th]`: Improve handling of file and directory names in [desktop application](/docs/dashboard/desktopapp)

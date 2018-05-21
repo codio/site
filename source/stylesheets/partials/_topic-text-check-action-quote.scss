@@ -97,12 +97,16 @@
 
   .schedule-demo-link {
     color: white;
-    background-color: black;
+    background-color: $orange;
     padding: 20px 50px;
     text-transform: uppercase;
     font-weight: $bold-font-weight;
     min-width: 258px;
     min-height: 67px;
+  }
+
+  .schedule-demo-link {
+    border-color: white;
   }
 }
 

@@ -21,15 +21,15 @@ word1-word2-3000.codio.io
 
 If your PC is behind a firewall, access to external ports are often restricted. Using the recommended approach, the request will be made over port 80 and so will not be blocked by the firewall. 
 
-This approach allows both HHTP and HTTPS access over the full range of ports, `1024` to `9999`.
+This approach allows both HTTP and HTTPS access over the full range of ports, `1024` to `9999`.
 
 
 ## Standard port addressing
-You can also reference a Codio box using `word1-word2.codio.io:3000`. This approach will work but has the following drawbacks.
+You can also reference a Codio box using `word1-word2-<port>.codio.io`. This approach will work but be aware:
 
 - Port ranges are restricted to `1024` to `9499` for HTTP access
 - Port ranges are restricted to `9500` to `9999` for HTTPS access
-- If the PC you are working on is behind a firewall and it blocks access over non-standard ports, it will fail if it references a box using `word1-word2.codio.io:3000`
+- If the PC you are working on is behind a firewall and it blocks access over non-standard ports, it will fail if it references a box using `word1-word2-3000.codio.io`
 - You may waste your time and potentially your sysadmin's time trying to diagnose why your browser will not talk to the Codio box.
 
 ## Original Request Header

@@ -167,7 +167,6 @@ body.index .section-scroll {
           padding: 0;
           padding-left: 15px;
           padding-top: 15px;
-          padding-bottom: 15px;
         }
 
         .post-image {
@@ -266,86 +265,6 @@ body.index .section-scroll {
           padding: 2px 12px;
         }
       }
-    }
-  }
-
-  .header-block {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    text-align: center;
-    margin-bottom: 15px;
-    background-size: cover !important;
-    background-position: top center !important;
-    background: url('/img/assets/index/cloud-infrastructure.jpg') no-repeat;
-
-    @include breakpoint($break-tablet) {
-      height: 44vw;
-    }
-
-    .vertical {
-      height: 85%;
-    }
-
-    .quote {
-      font-size: 1.9rem;
-      font-weight: 400;
-      color: #fff;
-      line-height: 2rem;
-      padding: 1rem;
-      margin-top: 65px;
-
-      @include breakpoint(450px) {
-        font-size: 2.2rem;
-        padding-bottom: 0.7rem;
-      }
-
-      @include breakpoint($break-tablet) {
-        font-size: 3.8vw;
-        padding-bottom: 0.7rem;
-      }
-
-      @include breakpoint($max-width) {
-        padding-bottom: 1rem;
-      }
-    }
-
-    .text {
-      font-size: 1.4rem;
-      font-weight: 300;
-      color: #fff;
-      line-height: 1.9rem;
-      padding: 1rem 1rem 2rem 1rem;
-
-      br {
-        display: none;
-
-        @include breakpoint($break-tablet) {
-          display: inline;
-        }
-      }
-
-      @include breakpoint(450px) {
-        font-size: 1.6rem;
-      }
-
-      @include breakpoint($break-tablet) {
-        margin: 0 1rem;
-        line-height: 1.6rem;
-        padding-bottom: 1rem;
-      }
-
-      @include breakpoint($max-width) {
-        line-height: 1.8rem;
-        max-width: $max-width;
-        margin: 0 2rem;
-        padding-bottom: 2rem;
-      }
-    }
-
-    .button-block {
-      display: block;
-      height: 15%;
     }
   }
 }

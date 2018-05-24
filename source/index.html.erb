@@ -54,7 +54,7 @@ priority: 1.0
               "Automatically keep your course and grades in sync with Blackboard, Canvas, Moodle, and more."
           ],
           action: {
-              text: "schedule my demo",
+              text: "schedule a call",
               link: "/somewhere"
           },
           quote: {
@@ -87,7 +87,7 @@ priority: 1.0
                       "Write custom code in any language to instantly assess almost any testable case."
                   ],
                   action: {
-                      text: "schedule my demo",
+                      text: "schedule a call",
                       link: "/somewhere"
                   },
                   quote: {
@@ -121,7 +121,7 @@ priority: 1.0
                       "Students can access their Codio IDE, GUI options, coursework, and assessments in one place — from any device."
                   ],
                   action: {
-                      text: "schedule my demo",
+                      text: "schedule a call",
                       link: "/somewhere"
                   },
                   quote: {
@@ -156,7 +156,7 @@ priority: 1.0
                       "Large schools like Columbia are up and running in weeks, not months."
                   ],
                   action: {
-                      text: "schedule my demo",
+                      text: "schedule a call",
                       link: "/somewhere"
                   },
                   quote: {
@@ -173,59 +173,101 @@ priority: 1.0
                   }
               }
   %>
-  <%= partial "schools-grid",
-      locals: {
-          schools: [
-              {
-                  title: "school name",
-                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
-              },
-              {
-                  title: "school name",
-                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
-              },
-              {
-                  title: "school name",
-                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
-              },
-              {
-                  title: "school name",
-                  description: "see how \|school name\| \|insert important metric or benefit where applicable\|."
-              },
-          ]
-      }
-  %>
+  <div class="row">
+    <div class="span12">
+      <div class="cell-wrapper">
+        <div class="featured-posts">
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Freddy May", "http://news.codio.com/author/freddy-may", class: "author-link" %>
+                </div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case study with Sheffield University",
+                                  "http://news.codio.com/sheffield-university-uses-codio" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Mateen Rizki", "http://news.codio.com/author/mateen-rizki", class: "author-link" %>
+                </div>
+                <div class="post-date">Apr 20, 2017</div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case study: Wright State University", "http://news.codio.com/wsu-uses-codio" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="author-data">
+                  <%= link_to "Phillip Snalune", "http://news.codio.com/author/phillip-snalune", class: "author-link" %>
+                </div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "Case Study: Florida A&M University", "http://news.codio.com/codio-at-famu" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="post-image">
+              <div class="item-wrapper">
+                <div class="post-date">July 25, 2016</div>
+                <div class="title-wrap">
+                  <div class="post-title">
+                    <h2>
+                      <%= link_to "", "http://news.codio.com/codio-at-coventry-university/" %>
+                    </h2>
+                  </div>
+                  <div class="post-recents-topic">
+                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <%= partial "schedule-logos",
       locals: {
           title: "Schedule a demo today and get Codio for the Fall 2018 Semester — free",
           actions: [
               {
-                  title: "Schedule my demo",
+                  title: "Schedule a call",
                   link: "about:blank"
               },
               {
                   title: "See the codio platform",
                   link: "about:blank"
-              },
-              {
-                  title: "",
-                  link: ""
-              },
-              {
-                  title: "",
-                  link: ""
-              },
-              {
-                  title: "",
-                  link: ""
-              },
-              {
-                  title: "",
-                  link: ""
-              },
-              {
-                  title: "",
-                  link: ""
               }
           ]
       }

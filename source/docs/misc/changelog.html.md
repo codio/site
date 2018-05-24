@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2018**
 
+- `[I] [24th]`: Improve handling of `exit` terminal commands
 - `[I] [21st]`: Fix problem with teachers opening own last version of unit in [courses](/docs/courses/units/edit/)
 - `[I] [21st]`: Fix issue with restarting [guides](/docs/ide/tools/guides/) after changing settings
 - `[I] [21st]`: Improve message handling of errors in [debugger](/docs/ide/features/debugging/)

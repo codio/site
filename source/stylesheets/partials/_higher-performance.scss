@@ -1,11 +1,24 @@
 .higher-performance {
+  background-size: cover !important;
+  background-position: top center !important;
+  background: url('/img/assets/index/cloud-infrastructure.jpg') no-repeat;
+
   .higher-performance-top {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #2b78e4;
     color: white;
     @extend %flexbox;
     @include flex-direction(column);
+
+    @include breakpoint($break-tablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @include breakpoint($max-width) {
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
 
     .higher-performance-top-title {
       @extend %flexbox;

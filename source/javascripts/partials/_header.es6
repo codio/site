@@ -22,22 +22,8 @@ $(() => {
     $dropdownMenu.addClass('opaque-background');
   }
 
-  var setHeaderStyle = () => {
-    setTransparent();
-  }
-
-  if ($('body').innerWidth() <= 783) {
+  $(() => {
     setOpaque();
-  } else {
-    setHeaderStyle();
-  }
-
-  $(window).resize(() => {
-    if ($('body').innerWidth() > 783) {
-      setHeaderStyle();
-    } else {
-      setOpaque();
-    }
   });
 
   // Responsive Menu

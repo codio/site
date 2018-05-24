@@ -3,17 +3,6 @@
   position: relative;
   z-index: 1;
 
-  max-width: 100%;
-  margin: 0 auto;
-  border-right: 1px;
-  border-left: 1px;
-  border-color: #eeeeee;
-  border-style: solid;
-
-  @include breakpoint($header-min-width) {
-    max-width: $page-width;
-  }
-
   &.fixed {
     position: fixed;
     top: 0;
@@ -40,7 +29,8 @@
   }
 
   .logo-link {
-    left: 10rem;
+    position: fixed;
+    left: 3rem;
   }
 
   .img-logo {

@@ -3,6 +3,13 @@
 $(() => {
   const headerHeight = $('header').height()
   const eventType = ((document.ontouchstart !== null) ? 'click' : 'touchstart')
+  const higherPerformanceHeight = $('.higher-performance').height()
+
+  $('.higher-performance-top-action-icon').click(function() {
+    $('html, body').animate({
+      scrollTop: higherPerformanceHeight
+    }, 500);
+  });
 
   $('.scrollto').on(eventType, function (event) {
     event.preventDefault()

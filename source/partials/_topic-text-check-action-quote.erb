@@ -35,7 +35,8 @@
         <div class="quote-topic"><%= quote[:topic] %></div>
         <div class="quote-text"><%= quote[:text] %></div>
         <div class="quote-author">
-          <div class="quote-author-avatar" style="background: url(<%= quote[:author][:avatar] %>) center center;"></div>
+          <div class="quote-author-avatar" style="background: url(<%= quote[:author][:avatar] %>) center center no-repeat;
+            background-size: 40px"></div>
           <div class="quote-author-info">
             <div class="quote-author-name"><%= quote[:author][:name] %></div>
             <div class="quote-author-occupation"><%= quote[:author][:occupation] %></div>

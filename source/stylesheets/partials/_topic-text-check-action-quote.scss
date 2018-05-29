@@ -48,7 +48,7 @@
 
   font-size: 16px;
   font-weight: $middle-font-weight;
-  width: 48%;
+  width: 44%;
   background-color: $light-blue;
   color: #FFFFFF;
   padding: 20px;
@@ -90,12 +90,12 @@
 
   &:nth-child(1) {
     .action-button-link:hover {
-      background-color: #2b78e4;
+      background-color: $light-blue;
     }
   }
   &:nth-child(2) {
     .action-button-link {
-      background-color: #2b78e4;
+      background-color: $light-blue;
       &:hover {
         background-color: $orange;
       }

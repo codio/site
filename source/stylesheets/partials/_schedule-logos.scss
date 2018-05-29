@@ -1,5 +1,5 @@
 .schedule {
-  background-color: #2b78e4;
+  background-color: $light-blue;
   padding-top: 30px;
   @extend %flexbox;
   @include flex-direction(column);

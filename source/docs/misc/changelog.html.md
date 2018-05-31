@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2018**
 
+- `[I] [31st]`: Improve handling of autocomplete when searching for users to share projects
 - `[I] [28th]`: Improve handling of local deleted files and folders in [desktop application](/docs/dashboard/desktopapp)
 - `[I] [28th]`: Improve handling of assessment points if changed when updating unit in class
 - `[I] [28th]`: Fix issue with [plagiarism](/docs/classes/plag/) in book based units

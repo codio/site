@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**June 2018**
+
+- `[I] [ 4th]`: Improve handling of mark as completed process for students
+
 **May 2018**
 
 - `[I] [31st]`: Improve handling of autocomplete when searching for users to share projects

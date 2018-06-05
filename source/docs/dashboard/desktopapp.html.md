@@ -3,6 +3,9 @@ title: "Desktop App"
 class_name: docs
 full_width: true
 ---
+A brief overview of the Codio desktop app.
+
+<iframe src="https://player.vimeo.com/video/273506364" width="640" height="436" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 The desktop app is to allow a local code workspace to synchronize with a Codio box. 
 

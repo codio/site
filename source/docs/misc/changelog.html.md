@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2018**
 
+- `[I] [ 5th]`: Add overview video for [desktop application](/docs/dashboard/desktopapp)
 - `[I] [ 4th]`: Improve handling of mark as completed process for students
 
 **May 2018**

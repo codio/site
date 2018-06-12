@@ -56,7 +56,7 @@
           var $el = $(this);
           e.preventDefault();
           Swiftype.pingSearchResultClick(config.engineKey, data['id'], function() {
-            window.location = $el.attr('href');
+            config.onComplete($el);
           });
         };
       };
@@ -117,8 +117,15 @@
           params['sort_field'] = handleFunctionParam(config.sortField);
           params['sort_direction'] = handleFunctionParam(config.sortDirection);
           params['spelling'] = handleFunctionParam(config.spelling);
+          params['highlight_fields'] = handleFunctionParam(config.highlightFields);
 
-          $.getJSON(Swiftype.root_url + "/api/v1/public/engines/search.json?callback=?", params).success(renderSearchResults);
+          $.ajax({
+            dataType: "json",
+            url: Swiftype.root_url + "/api/v1/public/engines/search.json?callback=?",
+            data: params,
+            xhrFields: { withCredentials: true },
+            success: renderSearchResults
+          });
         };
 
       $(window).hashchange(function () {
@@ -228,6 +235,10 @@
       $resultContainer.html('<p class="st-loading-message">loading...</p>');
     };
 
+  var defaultOnComplete = function(elem) {
+    window.location = elem.attr('href');
+  };
+
   var defaultPostRenderFunction = function(data) {
     var totalResultCount = 0;
     var $resultContainer = this.getContext().resultContainer;
@@ -280,12 +291,14 @@
     sortField: undefined,
     sortDirection: undefined,
     fetchFields: undefined,
+    highlightFields: undefined,
     preRenderFunction: undefined,
     postRenderFunction: defaultPostRenderFunction,
     loadingFunction: defaultLoadingFunction,
     renderResultsFunction: defaultRenderResultsFunction,
     renderFunction: defaultRenderFunction,
     renderPaginationForType: defaultRenderPaginationForType,
+    onComplete: defaultOnComplete,
     perPage: 10,
     spelling: 'strict'
   };

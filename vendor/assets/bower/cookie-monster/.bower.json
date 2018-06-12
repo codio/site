@@ -16,8 +16,7 @@
     "tag": "0.3.0",
     "commit": "02cc602f4a24e5d6ba17a3bc8d05c0d856ab2230"
   },
-  "_source": "git://github.com/jgallen23/cookie-monster.git",
+  "_source": "https://github.com/jgallen23/cookie-monster.git",
   "_target": "~0.3.0",
-  "_originalSource": "cookie-monster",
-  "_direct": true
+  "_originalSource": "cookie-monster"
 }

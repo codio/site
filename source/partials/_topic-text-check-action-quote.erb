@@ -1,0 +1,47 @@
+<div>
+  <% if defined?(topic) %>
+    <div class="save-topic">
+      <div class="save-topic-title"><%= topic[:title] %></div>
+      <div class="save-topic-text"><%= topic[:text] %></div>
+    </div>
+  <% end %>
+  <% if defined?(text) %>
+    <div class="two-text">
+      <div class="two-text-left"><%= text[0] %></div>
+      <div class="two-text-line"></div>
+      <div class="two-text-right"><%= text[1] %></div>
+    </div>
+  <% end %>
+  <% if defined?(check) %>
+    <div class="check-list">
+      <ul class="check-list-list">
+        <% check.each do |item| %>
+          <li class="check-list-list-item"><%= item %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <% if defined?(action) %>
+    <div class="schedule-demo">
+      <a class="button button-rounded schedule-demo-link" href="<% action[:link] %>">
+        <%= action[:text] %>
+      </a>
+    </div>
+  <% end %>
+  <% if defined? (quote) %>
+    <div class="quote">
+      <div class="quote-inner-quote-symbol"></div>
+      <div class="quote-inner-info">
+        <div class="quote-topic"><%= quote[:topic] %></div>
+        <div class="quote-text"><%= quote[:text] %></div>
+        <div class="quote-author">
+          <div class="quote-author-avatar" style="background: url(<%= quote[:author][:avatar] %>) center center;"></div>
+          <div class="quote-author-info">
+            <div class="quote-author-name"><%= quote[:author][:name] %></div>
+            <div class="quote-author-occupation"><%= quote[:author][:occupation] %></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

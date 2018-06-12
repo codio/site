@@ -2,10 +2,10 @@
 //= require bootstrap-sprockets
 //= require cookie-monster
 //= require blueimp-md5
-//= require jquery-ui/ui/core.js
+//= require jquery-ui/jquery-ui.js
 //= require jquery-ui/ui/widget.js
-//= require jquery-ui/ui/mouse.js
-//= require jquery-ui/ui/slider.js
+//= require jquery-ui/ui/widgets/mouse.js
+//= require jquery-ui/ui/widgets/slider.js
 //= require jquery-ui-slider-pips/dist/jquery-ui-slider-pips.js
 //= require wow.js/dist/wow.js
 //= require swiftype-jquery/jquery.ba-hashchange.min.js

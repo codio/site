@@ -1,0 +1,46 @@
+<div class="school-grid">
+  <div class="school-grid-left">
+    <% if defined? schools %>
+      <div class="school-title">
+        <%= schools[0][:title] %>
+      </div>
+      <div class="school-desription">
+        <%= schools[0][:description] %>
+      </div>
+    <% end %>
+  </div>
+  <div class="school-grid-right">
+    <div class="school-grid-right-top">
+      <% if defined? schools %>
+        <div class="school-title">
+          <%= schools[1][:title] %>
+        </div>
+        <div class="school-desription">
+          <%= schools[1][:description] %>
+        </div>
+      <% end %>
+    </div>
+    <div class="school-grid-right-bottom">
+      <div class="school-grid-right-bottom-left">
+        <% if defined? schools %>
+          <div class="school-title">
+            <%= schools[2][:title] %>
+          </div>
+          <div class="school-desription">
+            <%= schools[2][:description] %>
+          </div>
+        <% end %>
+      </div>
+      <div class="school-grid-right-bottom-right">
+        <% if defined? schools %>
+          <div class="school-title">
+            <%= schools[3][:title] %>
+          </div>
+          <div class="school-desription">
+            <%= schools[3][:description] %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

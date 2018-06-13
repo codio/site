@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2018**
 
+- `[I] [13th]`: Improve support for keyboard and screen readers
+- `[I] [13th]`: Update handling of dynamic port protection
 - `[I] [ 5th]`: Add overview video for [desktop application](/docs/dashboard/desktopapp)
 - `[I] [ 4th]`: Improve handling of mark as completed process for students
 

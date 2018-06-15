@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2018**
 
+- `[F] [15th]`: Add [collapse on start](/docs/content/authoring/settings-actions/global#guidescollapse) for guides
+- `[I] [15th]`: Improve handling of [exporting class data](/docs/classes/classmanagement/export/)
 - `[I] [13th]`: Improve support for keyboard and screen readers
 - `[I] [13th]`: Update handling of dynamic port protection
 - `[I] [ 5th]`: Add overview video for [desktop application](/docs/dashboard/desktopapp)

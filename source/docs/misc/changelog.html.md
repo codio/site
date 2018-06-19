@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2018**
 
+- `[I] [19th]`: Improve behaviour of free text assessment
+- `[I] [19th]`: Update unit publishing to ignore assessmentsAnswers.json file
+- `[I] [19th]`: Update handling of assessment submiit button
 - `[F] [15th]`: Add [collapse on start](/docs/content/authoring/settings-actions/global#guidescollapse) for guides
 - `[I] [15th]`: Improve handling of [exporting class data](/docs/classes/classmanagement/export/)
 - `[I] [13th]`: Improve support for keyboard and screen readers

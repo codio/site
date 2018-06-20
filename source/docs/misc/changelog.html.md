@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2018**
 
+- `[F] [20th]`: Add [Partial Point Rubric](/docs/classes/monitor/grading-freetext#partialpointrubric) for manual grading 
 - `[I] [19th]`: Improve behaviour of free text assessment
 - `[I] [19th]`: Update unit publishing to ignore assessmentsAnswers.json file
 - `[I] [19th]`: Update handling of assessment submiit button

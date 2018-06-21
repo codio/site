@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2018**
 
+- `[I] [21st]`: Improve error message handling of publishing of books with broken .json files
+- `[I] [21st]`: Improve teacher view of pinned units
 - `[F] [20th]`: Add [Partial Point Rubric](/docs/classes/monitor/grading-freetext#partialpointrubric) for manual grading 
 - `[I] [19th]`: Improve behaviour of free text assessment
 - `[I] [19th]`: Update unit publishing to ignore assessmentsAnswers.json file

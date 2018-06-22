@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2018**
 
+- `[F] [22nd]`: Add STACK file type in [Math assessment](/docs/content/authoring/assessments/assessments-math/) authoring and YAML validation.
 - `[I] [21st]`: Improve error message handling of publishing of books with broken .json files
 - `[I] [21st]`: Improve teacher view of pinned units
 - `[F] [20th]`: Add [Partial Point Rubric](/docs/classes/monitor/grading-freetext#partialpointrubric) for manual grading 

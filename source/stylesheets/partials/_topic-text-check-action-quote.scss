@@ -1,0 +1,186 @@
+%common {
+  margin: 15px auto;
+  width: 50%;
+  min-width: 400px;
+}
+
+.save-topic {
+  @extend %common;
+
+  .save-topic-title {
+    font-size: 24px;
+    font-weight: $bold-font-weight;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .save-topic-text {
+    color: #666666;
+    text-align: center;
+    font-weight: $middle-font-weight;
+  }
+}
+
+.two-text {
+  @extend %common;
+  width: 90%;
+  font-size: 22px;
+  font-weight: $bold-font-weight;
+  line-height: 1em;
+
+  @extend %flexbox;
+  @include justify-content(center);
+  @include align-content(center);
+
+  .two-text-left, .two-text-right {
+    @include flex(1 1 50%);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .two-text-line {
+    border-left: 1px solid black;
+  }
+}
+
+.check-list {
+  @extend %common;
+
+  font-size: 16px;
+  font-weight: $middle-font-weight;
+  width: 44%;
+  background-color: $light-blue;
+  color: #FFFFFF;
+  padding: 20px;
+  border: 1px solid black;
+
+  .check-list-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .check-list-list-item {
+    padding-left: 2em;
+    text-indent: -2em;
+  }
+
+  .check-list-list-item:before {
+    content: " ";
+    padding-right: 1em;
+    margin-right: 1em;
+    background: url(/img/assets/check_white.png) no-repeat left center;
+  }
+}
+
+.action-button {
+  @extend %flexbox;
+  @include flex(1);
+  @include justify-content(center);
+
+  .action-button-link {
+    color: white;
+    background-color: $orange;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    font-weight: $bold-font-weight;
+    min-width: 258px;
+    min-height: 67px;
+  }
+
+  &:nth-child(1) {
+    .action-button-link:hover {
+      background-color: $light-blue;
+    }
+  }
+  &:nth-child(2) {
+    .action-button-link {
+      background-color: $light-blue;
+      &:hover {
+        background-color: $orange;
+      }
+    }
+  }
+}
+
+.schedule-demo {
+  @extend %flexbox;
+  @include flex(1 1 auto);
+  @include justify-content(center);
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+  .schedule-demo-link {
+    color: white;
+    background-color: $orange;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    font-weight: $bold-font-weight;
+    min-width: 258px;
+    min-height: 67px;
+  }
+
+  .schedule-demo-link {
+    border-color: white;
+  }
+}
+
+.quote {
+  @extend %flexbox;
+  @include justify-content(center);
+  background-color: #eeeeee;
+  padding: 15px 0;
+
+  .quote-inner-quote-symbol {
+    background: url(/img/assets/quote-left.png) no-repeat right top;
+    width: 5%;
+  }
+
+  .quote-inner-info {
+    width: 57%;
+    margin-left: 10px;
+
+    .quote-topic {
+      font-size: 20px;
+      font-weight: $bold-font-weight;
+    }
+
+    .quote-text {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: $middle-font-weight;
+    }
+
+    .quote-author {
+      margin-top: 10px;
+      font-size: 14px;
+      @extend %flexbox;
+
+      .quote-author-avatar {
+        min-width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: red;
+        background-color: green;
+        border: 1px solid black;
+        background: url(/img/assets/docs-navigation/teacher.svg) center center;
+      }
+
+      .quote-author-info {
+        @include flex(1 1 auto);
+        margin-left: 5px;
+        line-height: 1.2em;
+        font-size: 16px;
+
+        .quote-author-name {
+          font-weight: $bold-font-weight;
+        }
+
+        .quote-author-occupation {
+          max-width: 65%;
+          font-weight: $middle-font-weight;
+        }
+      }
+    }
+  }
+}

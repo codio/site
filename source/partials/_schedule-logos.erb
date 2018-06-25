@@ -1,0 +1,27 @@
+<div class="schedule">
+  <div class="schedule-title">
+    <%= title %>
+  </div>
+  <div class="schedule-actions">
+    <% if defined?(actions) %>
+      <% actions.each_with_index do |action, index| %>
+        <%
+          startRow = ((index % 5) == 2 || (index % 5) == 0)
+          endRow = ((index % 5) == 4 || (index % 5) == 1)
+        %>
+        <% if startRow %>
+          <div class="schedule-actions-row <%= index %>">
+        <% end %>
+        <div class="action-button">
+          <a class="button action-button-link <%= index %> button-rounded button-main" href="<%= action[:link] %>">
+            <%= action[:title] %>
+          </a>
+        </div>
+        <% if endRow %>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+
+  </div>
+</div>

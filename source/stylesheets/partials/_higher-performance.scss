@@ -1,0 +1,78 @@
+.higher-performance {
+  background-size: cover !important;
+  background-position: top center !important;
+  background: url('/img/assets/index/cloud-infrastructure.jpg') no-repeat;
+
+  .higher-performance-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    @extend %flexbox;
+    @include flex-direction(column);
+
+    @include breakpoint($break-tablet) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @include breakpoint($max-width) {
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+
+    .higher-performance-top-title {
+      @extend %flexbox;
+      @include justify-content(center);
+      text-align: center;
+      line-height: 100%;
+      font-size: 40px;
+      font-weight: 800;
+      margin-bottom: 30px;
+    }
+
+    .higher-performance-top-sub-title {
+      @extend %flexbox;
+      @include justify-content(center);
+      text-align: center;
+      margin-bottom: 50px;
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    .higher-performance-top-action {
+      @extend %flexbox;
+      @include justify-content(center);
+      @include flex-direction(column);
+      @include align-items(center);
+      font-weight: 800;
+      text-transform: uppercase;
+
+      .higher-performance-top-action-icon {
+        background: url(/img/assets/bottom.png) no-repeat center center;
+        height: 50px;
+        min-width: 50px;
+      }
+    }
+  }
+
+  .higher-performance-bottom {
+    @extend %flexbox;
+    @include flex-direction(column);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eeeeee;
+
+    .higher-performance-bottom-two-text.two-text {
+      font-size: 32px;
+      font-weight: 400;
+    }
+
+    .higher-performance-bottom-gray-text {
+      @extend %flexbox;
+      @include justify-content(center);
+      color: #999999;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}

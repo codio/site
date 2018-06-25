@@ -1,6 +1,5 @@
-header {
+.navigation-header {
   height: 65px;
-  margin: 0;
   position: relative;
   z-index: 1;
 
@@ -55,7 +54,7 @@ header {
     float: right;
     display: none;
 
-    @include breakpoint(900px) {
+    @include breakpoint($header-min-width) {
       display: block;
     }
   }
@@ -235,7 +234,7 @@ header {
       }
     }
 
-    @include breakpoint(900px) {
+    @include breakpoint($header-min-width) {
       display: none;
     }
   }

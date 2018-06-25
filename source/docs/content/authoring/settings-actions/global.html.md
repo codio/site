@@ -43,3 +43,11 @@ For a discussion on the use of the this feature, please [click here](/docs/conte
 
 This is enabled by default and shows students a button for [assessments](/docs/content/authoring/assessments/) for them to submit their answers.
 If you have set the [Unit Duration](/docs/classes/unitmanagement/settings-info/unit-duration/), when the end of unit duration date/time is reached, all answers to the assessments will be automatically submitted
+
+<a name="guidescollapse"></a>
+
+### Collapsed on Start
+Enable this to collapse the guides pane in the unit/project when the [layout](/docs/content/authoring/settings-actions/page/) is not `1 Panel`. Performs similar task to the [collapse](/docs/content/authoring/playmode/) button in playmode. 
+
+The guides can be reopened by clicking the hamburger icon:
+<img alt="StartGuides" src="/img/docs/openguides.png" class="simple"/>

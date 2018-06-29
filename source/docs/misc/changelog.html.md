@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **June 2018**
 
+- `[I] [29th]`: Improve visibility of active buttons in tabs
+- `[I] [29th]`: Improve export class data to better handle any archived units
+- `[I] [29th]`: Fix problem with layout for manual grading in IE browser
 - `[I] [27th]`: Fix problem with adding user project permissions
 - `[F] [22nd]`: Add STACK file type in [Math assessment](/docs/content/authoring/assessments/assessments-math/) authoring and YAML validation.
 - `[I] [21st]`: Improve error message handling of publishing of books with broken .json files

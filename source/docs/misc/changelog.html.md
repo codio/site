@@ -11,6 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**July 2018**
+
+- `[I] [ 2nd]`: Fix problem with tab focus being lost in guides
+- `[I] [ 2nd]`: Fix problem when removing units from module/course in a class
+
 **June 2018**
 
 - `[I] [29th]`: Improve visibility of active buttons in tabs

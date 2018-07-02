@@ -79,13 +79,6 @@ You are able to get scores attained by students in authored content based autogr
 You can get both summary data and data for each assessment individually.
 
 
-### Deducting for late submission
-You may want to be able to deduct a number of points if the student submits (marks the Unit as complete) past a nominal deadline. In this case, we recommend that you pass the date and time of the deadline as a parameter to the grading script. If you are using our sample bootstrap and Python code (see below) then you should be careful to pass in the date in the format `2016-11-24T14:30`.
-
-<img alt="authtoken" src="/img/docs/grading-deadline.png" class="simple"/>
-
-See the script example at the bottom of the page for a full working example. 
-
 <a name="regrading"></a>
 ### Regrading for an individual student
 If students set their work to 'complete' such that an autograde step is triggered then you can regrade the work by resetting the complete switch and then setting it again, which re-triggers the autograding.
@@ -143,7 +136,7 @@ import requests
 import json
 import datetime
 
-# import grade submition
+# import grade submit function
 import sys
 sys.path.append('/usr/share/codio/assessments')
 from lib.grade import send_grade
@@ -156,45 +149,18 @@ from lib.grade import send_grade
 # Get the url to send the results to
 CODIO_AUTOGRADE_URL = os.environ["CODIO_AUTOGRADE_URL"]
 CODIO_UNIT_DATA = os.environ["CODIO_AUTOGRADE_ENV"]
-# The date and time format to use. The deadline date should conform
-DATE_FORMAT = "%Y-%m-%dT%H:%M:%S"
-DATE_FORMAT_CODIO = "%Y-%m-%dT%H:%M:%S.%fZ"
-
-# gets complete date from codio unit data
-def get_completed_date():
-  unit_info = json.loads(CODIO_UNIT_DATA)
-  date = unit_info["completedDate"]
-  return datetime.datetime.strptime(date, DATE_FORMAT_CODIO)
 
 def main():
   # Execute the test on the student's code
   grade = validate_code()
-  # Get the penalty factor
-  penalty = check_deadline(sys.argv[1])
   # Send the grade back to Codio with the penatly factor applied
-  res = send_grade(int(round(grade * penalty)))
+  res = send_grade(int(round(grade)))
   exit( 0 if res else 1)
 
 ##########################################
 # You only need to modify the code below #
 ##########################################
 
-
-# Calculates the difference between the deadline and the date the student submits
-# You should modify this to return the downgrading factor
-def check_deadline(date):
-  completed_date = get_completed_date()
-
-  deadline_date = datetime.datetime.strptime(date, DATE_FORMAT)
-  delta = completed_date - deadline_date
-  if delta > datetime.timedelta(days=3):
-    return 0.2
-  if delta > datetime.timedelta(days=2): # 2 days late
-    return 0.6
-  if delta > datetime.timedelta(minutes=10): # 10 min late
-    return 0.8
-  return 1  
-  
 # Your actual test logic 
 # Our demo function is just generating some random score
 def validate_code():

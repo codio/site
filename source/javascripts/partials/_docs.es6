@@ -56,7 +56,7 @@ $(document).ready(function () {
   // Setup search
   $('#st-search-input').swiftypeSearch({
     resultContainingElement: '#st-results-container',
-    engineKey: '9ss2uGXz9XP6kyd6y6CN',
+    engineKey: 'uoPq6kBn-ucy5sdVzBmZ',
     perPage: 10,
     fetchFields: {page: ['title', 'body', 'url']},
     searchFields: {page: ['title', 'body']},

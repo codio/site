@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2018**
 
+- `[I] [ 3rd]`: Improve [plagiarism checker](/docs/classes/plag/plag-start/) adding new filters that can be set
 - `[I] [ 2nd]`: Fix problem with tab focus being lost in guides
 - `[I] [ 2nd]`: Fix problem when removing units from module/course in a class
 

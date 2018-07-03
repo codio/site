@@ -20,7 +20,14 @@ You can see the **Plagiarism** button near in the upper part of the screen. When
 
 This screen will show you any plagiarism reports that were run in the past. You can open these if you wish.
 
-On the left you can restrict the file types that should be checked. This useful to avoid generating unnecessary noise in your report. It is possible to add multiple file types by pressing the **Add Extension** button.
+On the left you can:
+
+- enter a relative path in the workspace to check.
+- upload items to compare against (e.g. previous years information).
+- restrict the file types that should be checked. It is possible to add multiple file types by pressing the **Add Extension** button.
+
+
+These filters can be useful to avoid generating unnecessary noise in your report.
 
 Once you are ready to run a new report, press the **Start** button, which will package up all the files and pass them to the detection engine. You are free to leave the screen at this point and return to it later to see whether the report has been generated.
 

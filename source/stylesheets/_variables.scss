@@ -2,10 +2,13 @@
 $brandon: 'Brandon Grotesque W01', sans-serif;
 $brandon-text: 'Brandon Text W01', sans-serif;
 $eco-coding: 'Eco Coding W01', 'Menlo', 'Courier', monospace;
+$proxima: 'Proxima Nova';
+$proxima-bold: 'Proxima Nova Bold';
+$proxima-light: 'Proxima Nova Light';
 
 // Typography
-$base-font-family: $brandon-text;
-$heading-font-family: $brandon;
+$base-font-family: $proxima;
+$heading-font-family: $proxima-bold;
 $mono-font-family: $eco-coding;
 
 $base-font-size: 18px;

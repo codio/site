@@ -1,20 +1,5 @@
 .vertical {
-  /* Internet Explorer 10 */
-  display: -ms-flexbox;
-  -ms-flex-pack: center;
-  -ms-flex-align: center;
-  /* Firefox */
-  display: -moz-box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  /* Safari, Opera, and Chrome */
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  /* W3C */
-  display: box;
-  box-pack: center;
-  box-align: center;
+  display: flex;
 }
 
 body {
@@ -32,6 +17,165 @@ body.index {
   .content {
     margin: 0 auto;
     max-width: 100%;
+  }
+}
+
+body.index .carousel-block {
+  position: relative;
+  display: block;
+  padding: 0;
+  line-height: 0;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    margin-top: 65px;
+
+    .item1 {
+      display: flex;
+      padding: 20px;
+      margin: 5px;
+      font-size: 2rem;
+    }
+
+    .item2 {
+      display: flex;
+      padding: 20px;
+      margin: 5px;
+      font-size: 2rem;
+    }
+  }
+
+  .carousel-inner {
+    display: flex;
+    height: 100%;
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+      vertical-align: middle;
+    }
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 65px;
+      height: 60%;
+      color: #fff;
+
+      .heading {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 50%;
+        font-size: 4vw;
+        font-weight: 600;
+        padding-bottom: 2.5%;
+      }
+
+      .sub-heading {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 2.5%;
+        height: 50%;
+        font-family: $proxima-light;
+        font-size: 2vw;
+        //font-weight: 400;
+      }
+
+      @include breakpoint($break-tablet) {
+        sub-heading {
+          padding-top: 1%;
+          padding-bottom: 5%;
+        }
+      }
+    }
+
+    .header-button {
+      display: flex;
+      height: 40%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .button-large {
+      padding: 15px 35px;
+      font-size: 1.8vw;
+    }
+
+    .slot-1, .slot-2, .slot-3, .slot-4 {
+      width: 100%;
+      height: 52vw;
+      text-align: center;
+      background-size: cover;
+    }
+
+    .slot-1 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-dv-carousel1.jpg');
+    }
+
+    .slot-2 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-drone-carousel2.jpg');
+    }
+
+    .slot-3 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-robot-carousel3.jpg');
+    }
+  }
+
+  .carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-repeat: no-repeat;
+    text-shadow: none;
+  }
+
+  .carousel-control {
+    width: 0;
+  }
+
+
+  .carousel-control.left span {
+    margin: 0;
+  }
+
+  .carousel-control.right span {
+    margin: 0;
+  }
+
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    position: absolute;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+  }
+
+  .carousel-control .glyphicon-chevron-left:before {
+    content: "\276E";
+    display:block;
+    width:30px;
+    height:30px;
+  }
+
+  .carousel-control .glyphicon-chevron-right:before {
+    content: "\276F";
+    display:block;
+    width:30px;
+    height:30px;
   }
 }
 

@@ -4,10 +4,10 @@
 <div class="mobile-nav">
   <%= partial "nav" %>
 </div>
-<header class="fixed transparent-background <% if current_resource.data.transparent %>should-be-transparent<% end %>">
+<header class="fixed header-dark">
   <div class="container animated fadeInDown">
   	<div class="logo">
-	    <a href="/" class="logo-link"><%= image_tag 'logo-dark.svg', alt: 'Codio', class: 'img-logo' %></a>
+	    <a href="/" class="logo-link"><%= image_tag 'logo-light.svg', alt: 'Codio', class: 'img-logo' %></a>
   	</div>
     <nav>
     	<%= partial "nav", locals: {pricing: pricingType, surl: signupUrl} %>

@@ -1,5 +1,6 @@
 header {
   height: 65px;
+  font-family: $proxima-bold;
   margin: 0;
   position: relative;
   z-index: 1;
@@ -61,7 +62,7 @@ header {
   }
 
   nav a {
-    color: #6c778c;
+    color: #ffffff;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -142,12 +143,28 @@ header {
   }
 }
 
-.opaque-background {
-  background: #ffffff;
+.header-dark {
+  background: #4574e0;
+
+  nav a {
+    color: #f2f2f2;
+  }
 }
 
-.transparent-background {
-  background: rgba(10, 106, 225, 0.7);
+.header-light {
+  background: #f2f2f2;
+
+  nav a {
+    color: $dark-gray;
+  }
+}
+
+.dark-background {
+  background: #4574e0;
+}
+
+.light-background {
+  background: #f2f2f2;
 }
 
 .mobile-nav {

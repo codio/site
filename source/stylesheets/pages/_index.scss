@@ -26,28 +26,6 @@ body.index .carousel-block {
   padding: 0;
   line-height: 0;
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    width: 100%;
-    margin-top: 65px;
-
-    .item1 {
-      display: flex;
-      padding: 20px;
-      margin: 5px;
-      font-size: 2rem;
-    }
-
-    .item2 {
-      display: flex;
-      padding: 20px;
-      margin: 5px;
-      font-size: 2rem;
-    }
-  }
-
   .carousel-inner {
     display: flex;
     height: 100%;
@@ -92,7 +70,6 @@ body.index .carousel-block {
         height: 50%;
         font-family: $proxima-light;
         font-size: 2vw;
-        //font-weight: 400;
       }
 
       @include breakpoint($break-tablet) {
@@ -112,7 +89,60 @@ body.index .carousel-block {
 
     .button-large {
       padding: 15px 35px;
-      font-size: 1.8vw;
+      font-size: 1.2vw;
+    }
+
+    .information {
+      position: absolute;
+      font-size: 2vw;
+      color: #FFFFFF;
+      bottom: 4.5vw;
+      right: 8.2vw;
+    }
+
+    .information-border {
+      position: absolute;
+      width: 3vw;
+      height: 3vw;
+      border-radius: 50%;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #FFFFFF;
+      bottom: 3vw;
+      right: 7vw;
+    }
+
+    .tooltip-header {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 10px 10px 15px 10px;
+    }
+
+    .tooltip-text {
+      font-size: 15px;
+      font-weight: 100;
+      padding: 10px;
+      line-height: 1rem;
+      font-style: italic;
+    }
+
+    .information-border span {
+      background-color: #f2f2f2;
+      color: #4574e0;
+      opacity: 0;
+      padding: 10px;
+      position: absolute;
+      visibility: hidden;
+      width: 22vw;
+      right: 3vw;
+      bottom: 3vw;
+      z-index: 10;
+      text-align: left;
+    }
+
+    .information-border:hover span {
+      opacity: 1;
+      visibility: visible;
     }
 
     .slot-1, .slot-2, .slot-3, .slot-4 {
@@ -133,49 +163,6 @@ body.index .carousel-block {
     .slot-3 {
       background-image: url('/img/assets/index/carousel/codio-homepage-robot-carousel3.jpg');
     }
-  }
-
-  .carousel-control.left, .carousel-control.right {
-    background-image: none;
-    background-repeat: no-repeat;
-    text-shadow: none;
-  }
-
-  .carousel-control {
-    width: 0;
-  }
-
-
-  .carousel-control.left span {
-    margin: 0;
-  }
-
-  .carousel-control.right span {
-    margin: 0;
-  }
-
-  .carousel-control .glyphicon-chevron-left,
-  .carousel-control .glyphicon-chevron-right,
-  .carousel-control .icon-prev,
-  .carousel-control .icon-next {
-    position: absolute;
-    top: 45%;
-    z-index: 5;
-    display: inline-block;
-  }
-
-  .carousel-control .glyphicon-chevron-left:before {
-    content: "\276E";
-    display:block;
-    width:30px;
-    height:30px;
-  }
-
-  .carousel-control .glyphicon-chevron-right:before {
-    content: "\276F";
-    display:block;
-    width:30px;
-    height:30px;
   }
 }
 

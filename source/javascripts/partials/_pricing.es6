@@ -259,7 +259,7 @@ $(document).ready(function () {
     console.log('Currency is not defined');
     updatePageForGBR();
     $('#pricingTab').find('a[href="#' + state.type + '"]').tab('show');
-    const geoplugin = '//freegeoip.net/json';
+    const geoplugin = '//api.ipstack.com/check?access_key=bf62f0ba620e5578063c004b8a7185df&format=1&output=json&legacy=1';
     defineLocation(geoplugin);
   }
   else {

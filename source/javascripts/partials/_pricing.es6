@@ -259,7 +259,7 @@ $(document).ready(function () {
     console.log('Currency is not defined');
     updatePageForGBR();
     $('#pricingTab').find('a[href="#' + state.type + '"]').tab('show');
-    const geoplugin = '//freegeoip.net/json';
+    const geoplugin = 'https://geoip.codio.com/json/';
     defineLocation(geoplugin);
   }
   else {

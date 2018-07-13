@@ -36,6 +36,9 @@ Editing is allowed while grading so the teacher can:
 - remove an item. As this action will effect all students already graded and their total score updated, a warning is shown for confirmation
 - edit the weight or name.  If weight is changed a warning will be shown for confirmation
 
+#### Cloning
+A rubric can be cloned from another unit if required in preference to creating manually. Select the gear icon (circled in image above) to select the unit. 
+
 #### Points adjust
 The points adjust field allows the teacher/instructor to manually adjust (ie reduce) the students total score if required without having to edit/change the rubric
 

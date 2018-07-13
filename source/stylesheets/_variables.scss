@@ -4,6 +4,7 @@ $brandon-text: 'Brandon Text W01', sans-serif;
 $eco-coding: 'Eco Coding W01', 'Menlo', 'Courier', monospace;
 $proxima: 'Proxima Nova';
 $proxima-bold: 'Proxima Nova Bold';
+$proxima-extra-bold: 'Proxima Nova Extrabold';
 $proxima-light: 'Proxima Nova Light';
 
 // Typography
@@ -27,7 +28,7 @@ $rem-with-px-fallback: true;
 $very-light-blue: #f7f9fc;
 $lighter-blue: #c7d5f6;
 $light-blue: #15a4fa;
-$blue: #5988e1;
+$blue: #4574e0;
 $dark-gray: #212c3f;
 $medium-gray: #29374e;
 $light-gray: #a8b2c4;
@@ -39,7 +40,7 @@ $side-background-gray: #f2f2f2;
 $university-blue: #45abe7;
 
 // Font Colors
-$base-background-color: #fff;
+$base-background-color: #f2f2f2;
 $base-font-color: $dark-gray;
 $action-color: $blue;
 $active-background-color: white;

@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2018**
 
+- `[I] [12th]`: Improve handing of copy file actions
+- `[I] [11th]`: Improve handling of cookie consent
+- `[I] [11th]`: Fix issue in counter for grading of book based units
+- `[F] [10th]`: Allow [Partial Point Rubric](/docs/classes/monitor/grading-freetext#partialpointrubric) to be cloned from other units
+- `[I] [ 3rd]`: Update handling of Edge browser integration with LMS systems
 - `[I] [ 3rd]`: Improve [plagiarism checker](/docs/classes/plag/plag-start/) adding new filters that can be set
 - `[I] [ 2nd]`: Fix problem with tab focus being lost in guides
 - `[I] [ 2nd]`: Fix problem when removing units from module/course in a class

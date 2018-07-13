@@ -91,102 +91,239 @@ priority: 1.0
   </div>
 </section>
 
-<section class="section-scroll" id="instructorTime">
-  <div class="header-block">
-    <div class="vertical">
-      <div class="header-content">
-        <div class="quote">Higher performance Computer Science Programs</div>
-        <div class="text">
-          Save time. Reduce costs. Boost engagement. Gain better learning insights.
-        </div>
-      </div>
-    </div>
-    <div class="button-block">
-      <%= link_to 'Explore', '/cloudcs', class: 'button button-main button-rounded' %>
+<section class="features-block">
+  <div class="block">
+    <%= image_tag '/img/assets/index/icon1-piggybank.png', alt: 'Save money', class: 'icon' %>
+    <div class="text">CS Departments save <span>more than</span></div>
+    <div class="numbers">$50,000</div>
+    <div class="text">per year</div>
+  </div>
+  <div class="block">
+    <%= image_tag '/img/assets/index/icon2-hourglass.png', alt: 'Save money', class: 'icon' %>
+    <div class="text">Instructors recover <span>more than</span></div>
+    <div class="numbers">20%</div>
+    <div class="text">of their time</div>
+  </div>
+</section>
+
+<section class="info-block" id="instructorTime">
+  <div class="title">Instructor Time</div>
+  <div class="description">
+    Instructors can waste hours setting up and sharing programming environments, running student code,
+    grading and keeping their course in sync with general LMS.
+  </div>
+  <div class="two-text">
+    <div class="two-text-left">Cut time wasted on admin and IT tasks by <span>20% or more</span></div>
+    <div class="two-text-line"></div>
+    <div class="two-text-right">For each instructor, redirect <span>$15,000+</span> worth of admin time to hight-value tasks</div>
+  </div>
+  <div class="img-block">
+    <%= image_tag '/img/assets/index/instructor-time.png', alt: 'Instructor time', class: 'image' %>
+    <div class="check-list">
+      <ul class="check-list-list">
+        <li class="check-list-list-item">
+          Configure and template programming projects and share them with the class in seconds.
+        </li>
+        <li class="check-list-list-item">
+          Access and run student code from any connected device in one click.
+        </li>
+        <li class="check-list-list-item">
+          Automatically keep your course and grades in sync with Blackboard, Canvas, Moodle, and more.
+        </li>
+      </ul>
     </div>
   </div>
-  <div class="row">
-    <div class="span12">
-      <div class="cell-wrapper">
-        <div class="featured-posts">
-          <div class="item">
-            <div class="post-image">
-              <div class="item-wrapper">
-                <div class="author-data">
-                  <%= link_to "Freddy May", "http://news.codio.com/author/freddy-may", class: "author-link" %>
-                </div>
-                <div class="title-wrap">
-                  <div class="post-title">
-                    <h2>
-                      <%= link_to "Case study with Sheffield University",
-                                  "http://news.codio.com/sheffield-university-uses-codio" %>
-                    </h2>
-                  </div>
-                  <div class="post-recents-topic">
-                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="post-image">
-              <div class="item-wrapper">
-                <div class="author-data">
-                  <%= link_to "Mateen Rizki", "http://news.codio.com/author/mateen-rizki", class: "author-link" %>
-                </div>
-                <div class="post-date">Apr 20, 2017</div>
-                <div class="title-wrap">
-                  <div class="post-title">
-                    <h2>
-                      <%= link_to "Case study: Wright State University", "http://news.codio.com/wsu-uses-codio" %>
-                    </h2>
-                  </div>
-                  <div class="post-recents-topic">
-                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="post-image">
-              <div class="item-wrapper">
-                <div class="author-data">
-                  <%= link_to "Phillip Snalune", "http://news.codio.com/author/phillip-snalune", class: "author-link" %>
-                </div>
-                <div class="title-wrap">
-                  <div class="post-title">
-                    <h2>
-                      <%= link_to "Case Study: Florida A&M University", "http://news.codio.com/codio-at-famu" %>
-                    </h2>
-                  </div>
-                  <div class="post-recents-topic">
-                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="post-image">
-              <div class="item-wrapper">
-                <div class="post-date">July 25, 2016</div>
-                <div class="title-wrap">
-                  <div class="post-title">
-                    <h2>
-                      <%= link_to "", "http://news.codio.com/codio-at-coventry-university/" %>
-                    </h2>
-                  </div>
-                  <div class="post-recents-topic">
-                    <%= link_to "University", "http://news.codio.com/topic/university", class: "button button-main" %>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="schedule-demo">
+    <%= link_to 'Schedule My Demo', '', class: 'button button-large button-main' %>
+    <%= link_to 'Sheffield Case Study', '', class: 'button button-large button-main case-study-btn' %>
+  </div>
+</section>
+
+<section class="testimonial-gordon-fraser">
+  <%= image_tag '/img/assets/index/quote-left.png', alt: 'Quote Left', class: 'quote-left' %>
+  <div class="quote-author-avatar"></div>
+  <div class="quote-inner-info">
+    <div class="quote-topic">Get your Sundays back</div>
+    <div class="quote-text">
+      Click on a student's project and five seconds later I can compile, run and debug without having
+      to unzip or copy and paste it into my own environment. The time I save with this feature alone
+      justifies the Codio platform and gives me back my Sundays.
+    </div>
+    <div class="quote-author">
+      <div class="quote-author-info">
+        <div class="quote-author-name">Dr. Gordon Fraser</div>
+        <div class="quote-author-occupation">Senior Lecturer at Sheffield University</div>
       </div>
     </div>
   </div>
+  <%= image_tag '/img/assets/index/quote-right.png', alt: 'Quote Right', class: 'quote-right' %>
+</section>
+
+<section class="info-block" id="gradingCosts">
+  <div class="title">Grading Costs</div>
+  <div class="description">
+    Grading is often hugely labor intensive, and costs most CS departments tens of thousands of dollars
+    in instructor and GA time each year.
+  </div>
+  <div class="two-text">
+    <div class="two-text-left">Save tens of thousands of dollars in grading costs each year.</div>
+    <div class="two-text-line"></div>
+    <div class="two-text-right">Grade <span>50-70% faster</span> and automate up to 90%+ of your intro CS course grading.</div>
+  </div>
+  <div class="img-block">
+    <%= image_tag '/img/assets/index/grading-costs.png', alt: 'Grading Costs', class: 'image' %>
+    <div class="check-list">
+      <ul class="check-list-list">
+        <li class="check-list-list-item">
+          Auto-grade argument-based and stdin inputs without writing a single line of test code.
+        </li>
+        <li class="check-list-list-item">
+          Speed up manual grading by clicking your way through customizable rubrics.
+        </li>
+        <li class="check-list-list-item">
+          Write custom code in any language to instantly assess almost any testable case.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="schedule-demo">
+    <%= link_to 'Schedule My Demo', '', class: 'button button-large button-main' %>
+  </div>
+</section>
+
+<section class="testimonial-mateen-rizki-black">
+  <%= image_tag '/img/assets/index/quote-left.png', alt: 'Quote Left', class: 'quote-left' %>
+  <div class="quote-author-avatar"></div>
+  <div class="quote-inner-info">
+    <div class="quote-topic">Convert manually graded assignments to auto-graded ones</div>
+    <div class="quote-text">
+      We spend a six-figure sum each year on grading assignments. We will now convert many of our manually
+      graded assignments into auto-graded coding assessments. We fully expect to be able to make cost
+      saving in the tens of thousands of dollars by using Codio's auto-grading functionality.
+    </div>
+    <div class="quote-author">
+      <div class="quote-author-info">
+        <div class="quote-author-name">Mateen Rizki</div>
+        <div class="quote-author-occupation">
+          Chair of the Department of Computer Science & Engineering at Wright State University
+        </div>
+      </div>
+    </div>
+  </div>
+  <%= image_tag '/img/assets/index/quote-right.png', alt: 'Quote Right', class: 'quote-right' %>
+</section>
+
+<section class="info-block" id="studentEngagement">
+  <div class="title">Student Engagement</div>
+  <div class="image-text">
+    <div class="image-block">
+      <%= image_tag '/img/assets/index/student-engagement.jpg', alt: 'Student Engagement', class: '' %>
+    </div>
+    <div class="text-block">
+      <div class="info">
+        When instructors lack the time and tools needed to provide today's CS students with the learning
+        experience they expect, student engagement and perfomance suffers.
+      </div>
+      <p>
+        <span>Boost student satisfaction</span> with the engaging learning experience and more 1-on-1 help.<br/>
+      </p>
+      <p><span>Reduce student attrition</span> and rescue $10,000+ in fees per semster.</p>
+    </div>
+  </div>
+  <div class="img-block">
+    <%= image_tag '/img/assets/index/student-engagement.png', alt: 'Student Engagement', class: 'image' %>
+    <div class="check-list">
+      <ul class="check-list-list">
+        <li class="check-list-list-item">
+          Instant access to student code makes it easy to critique solutions during labs.
+        </li>
+        <li class="check-list-list-item">
+          Time-based insight into each student's programming helps them correct course before it's too late.
+        </li>
+        <li class="check-list-list-item">
+          Students can access their Codio IDE, GUI outputs, coursework, and assessments in one place - from any device.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="schedule-demo">
+    <%= link_to 'Schedule My Demo', '', class: 'button button-large button-main' %>
+  </div>
+</section>
+
+<section class="testimonial-mateen-rizki">
+  <%= image_tag '/img/assets/index/quote-left.png', alt: 'Quote Left', class: 'quote-left' %>
+  <div class="quote-author-avatar"></div>
+  <div class="quote-inner-info">
+    <div class="quote-topic">Make labs collaborative with instant access to student code</div>
+    <div class="quote-text">
+      We show student assignments alongside the lecturer's own solution on the classroom projector.
+      This lets us demonstrate that there are many valid solutions to the same problem, occasionally
+      superior to the teacher's! We also discuss and diagnose problems collaboratively during class
+      and being able to boot up projects in seconds means we can do it seamlessly.
+    </div>
+    <div class="quote-author">
+      <div class="quote-author-info">
+        <div class="quote-author-name">Mateen Rizki</div>
+        <div class="quote-author-occupation">
+          Chair of the Department of Computer Science & Engineering at Wright State University
+        </div>
+      </div>
+    </div>
+  </div>
+  <%= image_tag '/img/assets/index/quote-right.png', alt: 'Quote Right', class: 'quote-right' %>
+</section>
+
+<section class="info-block" id="easySetup">
+  <div class="title">Easy Setup</div>
+  <div class="description">
+    Many colleges and universities want to upgrade to a cloud infrastructure and LMS made for CS programs,
+    but the cost, both in time and money, prevents them.
+  </div>
+  <div class="two-text">
+    <div class="two-text-left">Save thousands of dollars in training fees - we train faculty for free.</div>
+    <div class="two-text-line"></div>
+    <div class="two-text-right">Start delivering courses in Codio within days of getting started.</div>
+  </div>
+  <div class="img-block">
+    <%= image_tag '/img/assets/index/grading-costs.png', alt: 'Easy Setup', class: 'image' %>
+    <div class="check-list">
+      <ul class="check-list-list">
+        <li class="check-list-list-item">
+          Faculty, IT, and leadership receive free 1-on-1 and 1-to-many training.
+        </li>
+        <li class="check-list-list-item">
+          All licenses come with unlimited phone and email support.
+        </li>
+        <li class="check-list-list-item">
+          Large schools like Columbia are up and running in weeks, not months.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="schedule-demo">
+    <%= link_to 'Schedule My Demo', '', class: 'button button-large button-main' %>
+  </div>
+</section>
+
+<section class="testimonial-eitan-grinspun">
+  <%= image_tag '/img/assets/index/quote-left.png', alt: 'Quote Left', class: 'quote-left' %>
+  <div class="quote-author-avatar"></div>
+  <div class="quote-inner-info">
+    <div class="quote-topic">Columbia fully implemented Codio in only 2 weeks</div>
+    <div class="quote-text">
+      After 3-months of trying (and failing) to set up another platform, we then discovered Codio, fully
+      implemented our solution in 2 weeks with no product customisations needed. We have since been
+      running our edX courses and internal courses very successfully.
+    </div>
+    <div class="quote-author">
+      <div class="quote-author-info">
+        <div class="quote-author-name">Professor Eitan Grinspun</div>
+        <div class="quote-author-occupation">
+          Associate Professor of Computer Science at Columbia
+        </div>
+      </div>
+    </div>
+  </div>
+  <%= image_tag '/img/assets/index/quote-right.png', alt: 'Quote Right', class: 'quote-right' %>
 </section>

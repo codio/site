@@ -113,17 +113,32 @@ body.index .carousel-block {
     }
 
     .tooltip-header {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 600;
       padding: 10px 10px 15px 10px;
     }
 
     .tooltip-text {
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 100;
       padding: 10px;
       line-height: 1rem;
       font-style: italic;
+
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-top-color: #f2f2f2;
+        border-bottom: 0;
+        border-right: 0;
+        margin-left: -20px;
+        margin-bottom: -15px;
+      }
     }
 
     .information-border span {

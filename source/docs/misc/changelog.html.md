@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2018**
 
+- `[F] [18th]`: Improve handling of enabling/disabling of class units
+- `[F] [17th]`: Fix issue with cloning [Partial Point Rubric](/docs/classes/monitor/grading-freetext#partialpointrubric) in IE browser
 - `[F] [13th]`: Add support for [nbgrader](/docs/classes/monitor/nbgrader)
 - `[I] [12th]`: Improve handing of copy file actions
 - `[I] [11th]`: Improve handling of cookie consent

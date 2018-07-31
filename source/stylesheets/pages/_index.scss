@@ -112,14 +112,8 @@ body.index .carousel-block {
       right: 7vw;
     }
 
-    .tooltip-header {
-      font-size: 20px;
-      font-weight: 600;
-      padding: 10px 10px 15px 10px;
-    }
-
     .tooltip-text {
-      font-size: 18px;
+      font-size: 1.1vw;
       font-weight: 100;
       padding: 10px;
       line-height: 1rem;
@@ -139,6 +133,10 @@ body.index .carousel-block {
         margin-left: -20px;
         margin-bottom: -15px;
       }
+
+      a {
+        text-decoration: underline;
+      }
     }
 
     .information-border span {
@@ -148,16 +146,18 @@ body.index .carousel-block {
       padding: 10px;
       position: absolute;
       visibility: hidden;
-      width: 22vw;
+      width: 16vw;
       right: 3vw;
       bottom: 3vw;
       z-index: 10;
       text-align: left;
+      transition: .5s linear 2s;
     }
 
     .information-border:hover span {
       opacity: 1;
       visibility: visible;
+      transition: .5s linear;
     }
 
     .slot-1, .slot-2, .slot-3, .slot-4 {

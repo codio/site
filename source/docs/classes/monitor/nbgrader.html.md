@@ -21,9 +21,11 @@ When the unit is published to a class, either as an [individual project](/docs/c
 
 When the student submits the assignment using education submit button, it will be autograded automatically.
 
-### Configuration
-At present we do not have any additional options, but have plans in the future to allow to specify port for `.jupyter` or access tokens and for [manual grading support](/docs/classes/monitor/grading/)
+[Manual grading](/docs/classes/monitor/grading/) is also available if required
 
+
+### Configuration
+At present we do not have any additional options, but have plans in the future to allow to specify port for `.jupyter` or access tokens.
 If you require any assistance at all, please don't hesitate to [contact us](/docs/dashboard/support/)
 
 

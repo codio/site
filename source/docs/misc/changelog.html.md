@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**August 2018**
+
+- `[I] [26th]`: Add support for manual grading for [nbgrader](/docs/classes/monitor/nbgrader)
+
 **July 2018**
 
 - `[I] [26th]`: Improve handling of [Book](/docs/books/introduction) deletion

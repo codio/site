@@ -28,7 +28,11 @@ body.universityleadership {
     }
 
     .header-content {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: $proxima-bold;
       padding: 0 1rem;
 
       @include breakpoint(525px) {
@@ -42,7 +46,6 @@ body.universityleadership {
 
     .title {
       font-size: 1.8rem;
-      font-weight: 500;
       color: #fff;
       line-height: 2rem;
       padding-bottom: 1rem;
@@ -87,6 +90,10 @@ body.universityleadership {
         max-width: $max-width;
         padding-bottom: 3rem;
       }
+    }
+
+    .button-main {
+      height: auto;
     }
   }
 }
@@ -136,6 +143,8 @@ body.universityleadership .content-block {
 
     .content {
       height: 100%;
+      display: flex;
+      align-items: center;
     }
 
     .image {
@@ -144,7 +153,6 @@ body.universityleadership .content-block {
 
       @include breakpoint($break-tablet) {
         text-align: right;
-        padding-top: 11vw;
       }
 
       img {
@@ -169,6 +177,7 @@ body.universityleadership .content-block {
       
       p {
         padding: 0 1.5rem;
+        font-family: $proxima-light;
         font-size: 1.5rem;
         font-weight: 300;
         line-height: 1.9rem;

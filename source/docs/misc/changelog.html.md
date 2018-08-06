@@ -13,7 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2018**
 
-- `[I] [26th]`: Add support for manual grading for [nbgrader](/docs/classes/monitor/nbgrader)
+
+- `[I] [ 4th]`: Fix problem with terminal opening in guides
+- `[I] [ 2nd]`: Add support for manual grading for [nbgrader](/docs/classes/monitor/nbgrader)
 
 **July 2018**
 

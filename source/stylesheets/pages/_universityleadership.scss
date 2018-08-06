@@ -71,7 +71,6 @@ body.universityleadership {
       font-weight: 400;
       color: #fff;
       line-height: 2rem;
-      margin: 0 1rem;
       padding-bottom: 1rem;
       margin: 0 auto;
 
@@ -215,12 +214,12 @@ body.universityleadership .content-block {
       color: #fff;
       text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
 
+      p {
+        font-family: $proxima-bold;
+      }
+
       @include breakpoint($break-tablet) {
         padding-left: 20%;
-
-        p {
-          font-weight: 400;
-        }
       }
     }
 

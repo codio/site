@@ -28,7 +28,11 @@ body.school_leadership {
     }
 
     .header-content {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: $proxima-bold;
       padding: 0 1rem;
 
       @include breakpoint(525px) {
@@ -67,7 +71,6 @@ body.school_leadership {
       font-weight: 400;
       color: #fff;
       line-height: 2rem;
-      margin: 0 1rem;
       padding-bottom: 2rem;
       margin: 0 auto;
 
@@ -86,6 +89,10 @@ body.school_leadership {
         max-width: $max-width;
         padding-bottom: 3rem;
       }
+    }
+
+    .button-main {
+      height: auto;
     }
   }
 }
@@ -135,6 +142,8 @@ body.school_leadership .content-block {
 
     .content {
       height: 100%;
+      display: flex;
+      align-items: center;
     }
 
     .image {
@@ -143,7 +152,6 @@ body.school_leadership .content-block {
 
       @include breakpoint($break-tablet) {
         text-align: right;
-        padding-top: 11vw;
       }
 
       img {
@@ -168,6 +176,7 @@ body.school_leadership .content-block {
       
       p {
         padding: 0 1.5rem;
+        font-family: $proxima-light;
         font-size: 1.5rem;
         font-weight: 300;
         line-height: 1.5rem;
@@ -204,12 +213,12 @@ body.school_leadership .content-block {
       color: #fff;
       text-shadow: rgba(0, 0, 0, .7) 0 0 5px;
 
+      p {
+        font-family: $proxima-bold;
+      }
+
       @include breakpoint($break-tablet) {
         padding-left: 20%;
-
-        p {
-          font-weight: 400;
-        }
       }
     }
 

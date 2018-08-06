@@ -28,7 +28,11 @@ body.school {
     }
 
     .header-content {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: $proxima-bold;
     }
 
     .title {
@@ -74,6 +78,10 @@ body.school {
         padding-bottom: 2rem;
       }
     }
+
+    .button-main {
+      height: auto;
+    }
   }
 
   .content-body {
@@ -102,23 +110,25 @@ body.school {
         }
 
         .title {
+          font-family: $proxima-bold;
           font-size: 28px;
           font-weight: 500;
           color: $light-blue;
           padding-bottom: 1rem;
 
           @include breakpoint($break-tablet) {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             line-height: 1.5rem;
             min-height: 75px;
           }
 
           @include breakpoint($max-width) {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
           }
         }
 
         .text {
+          font-family: $proxima-light;
           font-weight: 300;
           font-size: 22px;
 

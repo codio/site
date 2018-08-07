@@ -39,22 +39,30 @@ When you select a **Run** command, it will open a new console window where you w
 If you want to avoid new terminal windows appearing when you run the command, you can use an id field.
 
 ```json
-// Run button configuration
+{
   "commands": {
         "Node version": {
-            "id": "t1",
+            "id": "terminal_1",
             "cmd": "node --version"
         },
-        "files": {
-            "id": "t1",
+        "ls": {
+            "id": "terminal_1",
             "cmd": "ls"
-        },
-        "files list": {
-            "id": "t2",
-            "cmd": "ls -al"
-        } 
+        }
+  },
+
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "http://{{domain}}/{{index}}",
+        "Current File (static)": "http://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
   }
+}
 ```
+
+- Commands with the same "id" will share the same terminal window. 
+- The terminal id should be "backend-guide" to execute a command in the terminal window opened by guides.
 
 <a name="tokens"></a>
 

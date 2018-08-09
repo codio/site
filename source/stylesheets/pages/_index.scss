@@ -26,15 +26,18 @@ body.index .carousel-block {
   padding: 0;
   line-height: 0;
 
+  .carousel-indicators {
+    bottom: 10px;
+  }
+
   .carousel-inner {
     display: flex;
     height: 100%;
 
     .box {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
+      width: 95%;
       height: 100%;
+      margin: 0 auto;
     }
 
     img {
@@ -48,32 +51,30 @@ body.index .carousel-block {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-top: 65px;
-      height: 60%;
+      align-items: center;
+      height: 75%;
       color: #fff;
 
       .heading {
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        height: 50%;
         font-family: $proxima-extra-bold;
-        font-size: 4vw;
-        padding-bottom: 2.5%;
+        font-size: 36px;
+        line-height: 2rem;
       }
 
       .sub-heading {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        padding-top: 2.5%;
-        height: 50%;
         font-family: $proxima-light;
-        font-size: 2vw;
+        font-size: 22px;
+        line-height: 1.8rem;
       }
 
-      @include breakpoint($break-tablet) {
-        sub-heading {
+      @include breakpoint(800px) {
+        .heading {
+          font-size: 4vw;
+          padding-top: 65px;
+        }
+
+        .sub-heading {
+          font-size: 2vw;
           padding-top: 1%;
           padding-bottom: 5%;
         }
@@ -82,14 +83,18 @@ body.index .carousel-block {
 
     .header-button {
       display: flex;
-      height: 40%;
+      height: 25%;
       justify-content: center;
       align-items: center;
     }
 
     .button-large {
       padding: 15px 35px;
-      font-size: 1.2vw;
+      font-size: 16px;
+
+      @include breakpoint(800px) {
+        font-size: 1.2vw;
+      }
     }
 
     .information {
@@ -160,11 +165,16 @@ body.index .carousel-block {
       transition: .5s linear;
     }
 
-    .slot-1, .slot-2, .slot-3, .slot-4 {
+    .slot-1, .slot-2, .slot-3 {
       width: 100%;
-      height: 52vw;
+      height: 420px;
       text-align: center;
       background-size: cover;
+      background-position-x: center;
+
+      @include breakpoint(800px) {
+        height: 52vw;
+      }
     }
 
     .slot-1 {
@@ -183,41 +193,74 @@ body.index .carousel-block {
 
 body.index .features-block {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: $blue;
-  padding: 40px;
+  padding: 5px;
   color: #FFFFFF;
 
   .block {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 90%;
 
     .icon {
       padding: 10px;
-      width: 10vw;
+      width: 100px;
       height: auto;
       margin-left: auto;
       margin-right: auto;
+
+      @include breakpoint(800px) {
+        width: 10vw;
+      }
     }
 
     .text{
       font-family: $proxima-light;
-      font-size: 36px;
+      font-size: 26px;
       padding: 10px;
-      margin: 30px 0;
 
       span {
         font-family: $proxima-bold;
+      }
+
+      @include breakpoint(800px) {
+        font-size: 28px;
+        height: 74px;
+      }
+
+      @include breakpoint($max-width) {
+        font-size: 36px;
+        margin: 30px 0;
       }
     }
 
     .numbers {
       font-family: $proxima-bold;
-      font-size: 110px;
+      font-size: 50px;
       padding: 10px;
+
+      @include breakpoint(800px) {
+        font-size: 60px;
+      }
+
+      @include breakpoint($max-width) {
+        font-size: 110px;
+      }
     }
+
+    @include breakpoint(800px) {
+      width: 50%;
+    }
+  }
+
+  @include breakpoint(800px) {
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
 
@@ -225,20 +268,20 @@ body.index .info-block {
   background-color: $base-background-color;
   display: flex;
   flex-direction: column;
-  padding: 150px 60px;
+  padding: 60px 20px;
   color: #243249;
   text-align: center;
   line-height: 2rem;
 
   .title {
     font-family: $proxima-extra-bold;
-    font-size: 3rem;
-    padding-bottom: 40px;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
   }
 
   .description {
     font-family: $proxima-bold;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     padding: 10px 10px 20px 10px;
   }
 
@@ -254,7 +297,7 @@ body.index .info-block {
 
     .two-text-left, .two-text-right {
       flex: 1 1 50%;
-      padding: 10px 80px;
+      padding: 10px 20px;
       text-align: center;
     }
 
@@ -270,6 +313,7 @@ body.index .info-block {
   .image-text {
     padding: 10px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     font-family: $proxima-light;
@@ -288,8 +332,10 @@ body.index .info-block {
     }
 
     .text-block {
-      font-size: 28px;
-      text-align: left;
+      font-size: 22px;
+      line-height: 22px;
+      text-align: center;
+      padding-top: 20px;
 
       .info {
         font-family: $proxima-bold;
@@ -303,6 +349,25 @@ body.index .info-block {
 
       span {
         font-family: $proxima-extra-bold;
+      }
+
+      @include breakpoint(800px) {
+        font-size: 24px;
+        text-align: left;
+        line-height: 30px;
+      }
+
+      @include breakpoint(1200px) {
+        font-size: 28px;
+        line-height: 36px;
+      }
+    }
+
+    @include breakpoint(1024px) {
+      flex-direction: row;
+
+      .text-block {
+        padding-top: 0;
       }
     }
   }
@@ -321,10 +386,11 @@ body.index .info-block {
 
     .check-list {
       font-family: $proxima-light;
-      font-size: 26px;
+      font-size: 20px;
       padding: 20px;
-      margin-top: 40px;
+      margin-top: 10px;
       text-align: left;
+      line-height: 24px;
 
       .check-list-list {
         list-style: none;
@@ -349,7 +415,7 @@ body.index .info-block {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 60%;
+    width: 95%;
     margin-right: auto;
     margin-left: auto;
     padding: 30px;
@@ -358,7 +424,15 @@ body.index .info-block {
     .button-large {
       height: auto;
       padding: 10px 35px;
-      font-size: 18px;
+      font-size: 16px;
+
+      @include breakpoint(800px) {
+        font-size: 18px;
+      }
+    }
+
+    @include breakpoint(1100px) {
+      width: 65%;
     }
 
     .button-main:hover {
@@ -377,6 +451,29 @@ body.index .info-block {
       }
     }
   }
+
+  @include breakpoint(800px) {
+    padding: 150px 60px;
+
+    .title {
+      font-size: 3rem;
+      padding-bottom: 40px;
+    }
+
+    .description {
+      font-size: 1.4rem;
+    }
+
+    .two-text-left, .two-text-right {
+      padding: 10px 80px;
+    }
+
+    .img-block .check-list {
+      margin-top: 40px;
+      font-size: 26px;
+      line-height: 36px;
+    }
+  }
 }
 
 body.index #easySetup {
@@ -387,10 +484,10 @@ body.index {
   .testimonial-gordon-fraser, .testimonial-mateen-rizki,
   .testimonial-mateen-rizki-black, .testimonial-eitan-grinspun {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     background-color: $blue;
-    padding: 50px 0;
+    padding: 20px;
 
     .quote-left, .quote-right {
       width: 30px;
@@ -402,13 +499,14 @@ body.index {
     }
 
     .quote-author-avatar {
-      min-width: 200px;
+      width: 200px;
       height: 200px;
       color: red;
       background-color: green;
       background: url(/img/assets/index/gordon-fraser.png) center center no-repeat;
       background-size: cover;
       margin: 0 30px;
+      align-self: center;
     }
 
     .quote-right {
@@ -416,9 +514,10 @@ body.index {
     }
 
     .quote-inner-info {
-      width: 60%;
-      margin: 0 30px 0 0;
+      width: 100%;
+      margin: 30px 0 0 0;
       color: #FFFFFF;
+      text-align: center;
 
       .quote-topic {
         font-size: 30px;
@@ -449,6 +548,21 @@ body.index {
             font-family: $proxima-light;
           }
         }
+      }
+    }
+
+    @include breakpoint(800px) {
+      flex-direction: row;
+      padding: 50px 0;
+
+      .quote-author-avatar {
+        align-self: flex-start;
+      }
+
+      .quote-inner-info {
+        width: 60%;
+        margin: 0 30px 0 0;
+        text-align: left;
       }
     }
   }

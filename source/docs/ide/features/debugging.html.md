@@ -27,6 +27,9 @@ For anyone who has not used a debugger before, here is a useful video tutorial.
 ### Prerequisites
 If you install Java, C or NodeJS from a stack, then the GBD components that support debugging will be automatically installed. However, if you have installed these languages manually then when you run the debugger, you will get a warning telling you to install the GDB component. A link will be provided to the Install Software feature that allows you to install it with a single click.
 
+
+<a name="debugfilepath"></a>
+
 ### Creating and managing debug targets
 You should first configure a debug target. Having multiple debug targets is useful for the following reasons.
 
@@ -48,6 +51,7 @@ To create a new target, press the Create button. You can then configure your tar
 - A friendly name to give the configuration
 - The command to execute to your program along with any command line parameters you may wish to include
 - Any command to execute before debugging starts. This is usually a compile process.
+- You can also reference the active file in use using {{filepath}} token which inserts the path and full file name /path/to/file.ext
 
 <img alt="authtoken" src="/img/docs/debug-target.png" class="simple"/>
 

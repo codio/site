@@ -13,7 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2018**
 
-
+- `[F] [ 9th]`: Add ability to use current file in [debugger](/docs/ide/features/debugging#debugfilepath) targets
+- `[I] [ 7th]`: update handling of [Crunch](/docs/misc/schoolscontent/crunch/) projects
+- `[I] [ 7th]`: Improve visibility of form elements and handling of [Quick Open](/docs/ide/features/quick-open/) dialog
+- `[I] [ 7th]`: Update menu handling for screen readers
+- `[F] [ 7th]`: Add additional 3 column [layout](/docs/content/authoring/settings-actions/page/) options
 - `[I] [ 4th]`: Fix problem with terminal opening in guides
 - `[I] [ 2nd]`: Add support for manual grading for [nbgrader](/docs/classes/monitor/nbgrader)
 

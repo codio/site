@@ -120,8 +120,6 @@ footer {
     padding: 0 4*gutter();
     margin-bottom: 2 * $base-line-height;
     min-height: 195px;
-    font-family: $proxima-bold;
-    font-size: 20px;
 
     @include breakpoint($break-tablet) {
       @include span(1 of 4);

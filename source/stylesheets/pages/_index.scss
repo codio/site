@@ -1,20 +1,5 @@
 .vertical {
-  /* Internet Explorer 10 */
-  display: -ms-flexbox;
-  -ms-flex-pack: center;
-  -ms-flex-align: center;
-  /* Firefox */
-  display: -moz-box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  /* Safari, Opera, and Chrome */
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  /* W3C */
-  display: box;
-  box-pack: center;
-  box-align: center;
+  display: flex;
 }
 
 body {
@@ -35,318 +20,584 @@ body.index {
   }
 }
 
-body.index .section-scroll {
-  padding: 0;
+body.index .carousel-block {
   position: relative;
-  height: 100%;
+  display: block;
+  padding: 0;
+  line-height: 0;
 
-  .row {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-
-    &:before {
-      display: table;
-      content: "";
-    }
-    &:after {
-      clear: both;
-    }
+  .carousel-indicators {
+    bottom: 10px;
   }
 
-  .row [class*="span"] {
-    display: block;
-    float: left;
-    min-height: 28px;
+  .carousel-inner {
+    display: flex;
+    height: 100%;
 
-    &:first-child {
-      margin-left: 0;
-    }
-  }
-
-  .row .span12 {
-    width: 100%;
-  }
-
-  .cell-wrapper {
-    display: block;
-  }
-
-  .featured-posts {
-    .item {
-      overflow: hidden;
-
-      .post-image {
-        padding: 20px;
-        background-size: cover !important;
-        background-position: top center !important;
-        width: 100%;
-        position: relative;
-        background-color: #00aced;
-      }
-
-      &:first-child {
-        display: block;
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
-
-        @include breakpoint($break-tablet) {
-          width: 50%;
-          float: left;
-          padding: 0;
-        }
-
-        .post-image {
-          height: 300px;
-          background: url('/img/assets/index/sheffield-university.jpg') no-repeat;
-
-          @include breakpoint($break-tablet) {
-            height: 25vw;
-          }
-          @include breakpoint(1024px) {
-            height: 50vw;
-          }
-        }
-      }
-
-      &:first-child+.item {
-        display: block;
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
-
-        @include breakpoint($break-tablet) {
-          width: 50%;
-          float: left;
-          padding: 0;
-          padding-left: 15px;
-        }
-
-        .post-image {
-          height: 300px;
-          background: url('/img/assets/index/wright-state-university.jpg') no-repeat;
-
-          @include breakpoint($break-tablet) {
-            height: 25vw;
-          }
-        }
-      }
-
-      &:first-child+.item+.item {
-        display: block;
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
-
-        @include breakpoint($break-tablet) {
-          width: 50%;
-          float: left;
-          padding: 0;;
-          padding-top: 15px;
-        }
-
-        .post-image {
-          height: 300px;
-          background: url('/img/assets/index/codio-video-3.2.jpg') no-repeat;
-
-          @include breakpoint($break-tablet) {
-            height: 25vw;
-          }
-        }
-      }
-
-      &:first-child+.item+.item+.item {
-        display: block;
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
-
-        @include breakpoint($break-tablet) {
-          width: 50%;
-          float: left;
-          padding: 0;
-          padding-left: 15px;
-          padding-top: 15px;
-          padding-bottom: 15px;
-        }
-
-        .post-image {
-          height: 300px;
-          background: url('/img/assets/index/coventry-university-w.jpg') no-repeat;
-
-          @include breakpoint($break-tablet) {
-            height: 25vw;
-          }
-
-          @include breakpoint(1024px) {
-            background: url('/img/assets/index/coventry-university.jpg') no-repeat;
-          }
-        }
-      }
-
-      &:first-child+.item+.item, &:first-child+.item+.item+.item {
-        @include breakpoint (1024px) {
-          width: 25%;
-          padding-left: 15px;
-          padding-top: 15px;
-          float: left;
-
-          .post-image {
-            height: calc(25vw - 15px);
-            background-color: #ff2632;
-          }
-        }
-      }
-    }
-
-    .item-wrapper {
-      position: relative;
-      z-index: 2;
-      display: block;
+    .box {
+      width: 95%;
       height: 100%;
-      color: #ffffff;
+      margin: 0 auto;
     }
 
-    .author-data {
-      word-wrap: break-word;
+    img {
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+      vertical-align: middle;
+    }
 
-      a.author-link {
-        color: #ffffff;
-        font-size: 12px;
-        font-weight: 600;
-        position: absolute;
-        right: auto;
-        top: 5px;
-        left: 0;
-        text-transform: uppercase;
-        display: inline-block;
-        max-width: 70%;
-        text-align: left;
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 75%;
+      padding-top: 65px;
+      color: #fff;
+
+      .heading {
+        font-family: $proxima-extra-bold;
+        font-size: 32px;
+        line-height: 2rem;
+      }
+
+      .sub-heading {
+        font-family: $proxima-light;
+        font-size: 20px;
+        line-height: 1.8rem;
+      }
+
+      @include breakpoint(800px) {
+        padding-top: 0px;
+
+        .heading {
+          font-size: 4vw;
+          padding-top: 65px;
+        }
+
+        .sub-heading {
+          font-size: 2vw;
+          padding-top: 1%;
+          padding-bottom: 5%;
+        }
       }
     }
 
-    .post-date {
-      position: absolute;
-      right: 0;
-      top: 0;
-      font-size: 12px;
-      font-weight: 600;
-      text-transform: uppercase;
+    .header-button {
+      display: flex;
+      height: 25%;
+      justify-content: center;
+      align-items: center;
     }
 
-    .title-wrap {
+    .button-large {
+      padding: 15px 35px;
+      font-size: 16px;
+
+      @include breakpoint(800px) {
+        font-size: 1.2vw;
+      }
+    }
+
+    .information {
+      display: none;
       position: absolute;
-      bottom: 0;
-      display: block;
+      font-size: 2vw;
+      color: #FFFFFF;
+      bottom: 4.5vw;
+      right: 8.2vw;
+
+      @include breakpoint(800px) {
+        display: block;
+      }
+    }
+
+    .information-border {
+      display: none;
+      position: absolute;
+      width: 3vw;
+      height: 3vw;
+      border-radius: 50%;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #FFFFFF;
+      bottom: 3vw;
+      right: 7vw;
+
+      @include breakpoint(800px) {
+          display: block;
+      }
+    }
+
+    .tooltip-text {
+      font-size: 1.1vw;
+      font-weight: 100;
+      padding: 10px;
+      line-height: 1rem;
+      font-style: italic;
+
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-top-color: #f2f2f2;
+        border-bottom: 0;
+        border-right: 0;
+        margin-left: -20px;
+        margin-bottom: -15px;
+      }
 
       a {
-        color: #ffffff;
-      }
-
-      .post-title {
-        display: block;
-
-        h2 {
-          display: block;
-          font-size: 26px;
-          font-weight: 600;
-          padding-bottom: 10px;
-          margin-bottom: 0;
-        }
-      }
-
-      .post-recents-topic {
-        display: block;
-
-        .topic-link {
-          display: inline-block;
-          font-size: 12px;
-          font-weight: 600;
-          text-transform: capitalize;
-          padding: 2px 12px;
-        }
-      }
-    }
-  }
-
-  .header-block {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    text-align: center;
-    margin-bottom: 15px;
-    background-size: cover !important;
-    background-position: top center !important;
-    background: url('/img/assets/index/cloud-infrastructure.jpg') no-repeat;
-
-    @include breakpoint($break-tablet) {
-      height: 44vw;
-    }
-
-    .vertical {
-      height: 85%;
-    }
-
-    .quote {
-      font-size: 1.9rem;
-      font-weight: 400;
-      color: #fff;
-      line-height: 2rem;
-      padding: 1rem;
-      margin-top: 65px;
-
-      @include breakpoint(450px) {
-        font-size: 2.2rem;
-        padding-bottom: 0.7rem;
-      }
-
-      @include breakpoint($break-tablet) {
-        font-size: 3.8vw;
-        padding-bottom: 0.7rem;
-      }
-
-      @include breakpoint($max-width) {
-        padding-bottom: 1rem;
+        text-decoration: underline;
       }
     }
 
-    .text {
-      font-size: 1.4rem;
-      font-weight: 300;
-      color: #fff;
-      line-height: 1.9rem;
-      padding: 1rem 1rem 2rem 1rem;
+    .information-border span {
+      background-color: #f2f2f2;
+      color: $blue;
+      opacity: 0;
+      padding: 10px;
+      position: absolute;
+      visibility: hidden;
+      width: 16vw;
+      right: 3vw;
+      bottom: 3vw;
+      z-index: 10;
+      text-align: left;
+      transition: .5s linear 2s;
+    }
 
-      br {
-        display: none;
+    .information-border:hover span {
+      opacity: 1;
+      visibility: visible;
+      transition: .5s linear;
+    }
 
-        @include breakpoint($break-tablet) {
-          display: inline;
-        }
-      }
+    .slot-1, .slot-2, .slot-3 {
+      width: 100%;
+      height: 440px;
+      text-align: center;
+      background-size: cover;
+      background-position-x: center;
 
-      @include breakpoint(450px) {
-        font-size: 1.6rem;
-      }
-
-      @include breakpoint($break-tablet) {
-        margin: 0 1rem;
-        line-height: 1.6rem;
-        padding-bottom: 1rem;
-      }
-
-      @include breakpoint($max-width) {
-        line-height: 1.8rem;
-        max-width: $max-width;
-        margin: 0 2rem;
-        padding-bottom: 2rem;
+      @include breakpoint(800px) {
+        height: 52vw;
       }
     }
 
-    .button-block {
-      display: block;
-      height: 15%;
+    .slot-1 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-dv-carousel1.jpg');
+    }
+
+    .slot-2 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-drone-carousel2.jpg');
+    }
+
+    .slot-3 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-robot-carousel3.jpg');
     }
   }
 }
+
+body.index .features-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $blue;
+  padding: 5px;
+  color: #FFFFFF;
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+
+    .icon {
+      padding: 10px;
+      width: 100px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+
+      @include breakpoint(800px) {
+        width: 10vw;
+      }
+    }
+
+    .text{
+      font-family: $proxima-light;
+      font-size: 26px;
+      padding: 10px;
+
+      span {
+        font-family: $proxima-bold;
+      }
+
+      @include breakpoint(800px) {
+        font-size: 28px;
+        height: 74px;
+      }
+
+      @include breakpoint($max-width) {
+        font-size: 36px;
+        margin: 30px 0;
+      }
+    }
+
+    .numbers {
+      font-family: $proxima-bold;
+      font-size: 50px;
+      padding: 10px;
+
+      @include breakpoint(800px) {
+        font-size: 60px;
+      }
+
+      @include breakpoint($max-width) {
+        font-size: 110px;
+      }
+    }
+
+    @include breakpoint(800px) {
+      width: 50%;
+    }
+  }
+
+  @include breakpoint(800px) {
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+body.index .info-block {
+  background-color: $base-background-color;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px;
+  color: #243249;
+  text-align: center;
+  line-height: 2rem;
+
+  .title {
+    font-family: $proxima-extra-bold;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+  }
+
+  .description {
+    font-family: $proxima-bold;
+    font-size: 1.1rem;
+    padding: 10px 10px 20px 10px;
+  }
+
+  .two-text {
+    font-family: $proxima-light;
+    padding: 10px 0;
+    font-size: 22px;
+    line-height: 1.3rem;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .two-text-left, .two-text-right {
+      flex: 1 1 50%;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .two-text-line {
+      border-left: 1px solid black;
+    }
+
+    span {
+      font-family: $proxima-bold;
+    }
+  }
+
+  .image-text {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: $proxima-light;
+    line-height: 2em;
+
+    .image-block, .text-block {
+      flex: 1 1 50%;
+      padding: 0 20px;
+    }
+
+    .image-block {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .text-block {
+      font-size: 22px;
+      line-height: 22px;
+      text-align: center;
+      padding-top: 20px;
+
+      .info {
+        font-family: $proxima-bold;
+        padding-bottom: 15px;
+      }
+
+      p {
+        padding-bottom: 15px;
+        margin: 0;
+      }
+
+      span {
+        font-family: $proxima-extra-bold;
+      }
+
+      @include breakpoint(800px) {
+        font-size: 24px;
+        text-align: left;
+        line-height: 30px;
+      }
+
+      @include breakpoint(1200px) {
+        font-size: 28px;
+        line-height: 36px;
+      }
+    }
+
+    @include breakpoint(1024px) {
+      flex-direction: row;
+
+      .text-block {
+        padding-top: 0;
+      }
+    }
+  }
+
+  .img-block {
+    background-color: #e6e6e6;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .image {
+      width: 100%;
+      height: auto;
+    }
+
+    .check-list {
+      font-family: $proxima-light;
+      font-size: 20px;
+      padding: 20px;
+      margin-top: 10px;
+      text-align: left;
+      line-height: 24px;
+
+      .check-list-list {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      .check-list-list-item {
+        padding-left: 2em;
+        padding-bottom: 12px;
+        text-indent: -2em;
+      }
+
+      .check-list-list-item:before {
+        content: '\25B6';
+        padding-right: 1em;
+      }
+    }
+  }
+
+  .schedule-demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    padding-bottom: 0;
+
+    .button-large {
+      height: auto;
+      padding: 0px 10px;
+      font-size: 14px;
+
+      @include breakpoint(800px) {
+        padding: 10px 35px;
+        font-size: 18px;
+      }
+    }
+
+    @include breakpoint(1100px) {
+      width: 65%;
+    }
+
+    .button-main:hover {
+      background-color: $base-background-color;
+      color: $orange;
+    }
+
+    .case-study-btn {
+      background-color: $base-background-color;
+      border-color: $blue;
+      color: $blue;
+
+      &:hover {
+        background-color: $blue;
+        color: $base-background-color;
+      }
+    }
+  }
+
+  @include breakpoint(800px) {
+    padding: 150px 60px;
+
+    .title {
+      font-size: 3rem;
+      padding-bottom: 40px;
+    }
+
+    .description {
+      font-size: 1.4rem;
+    }
+
+    .two-text-left, .two-text-right {
+      padding: 10px 80px;
+    }
+
+    .img-block .check-list {
+      margin-top: 40px;
+      font-size: 26px;
+      line-height: 36px;
+    }
+  }
+}
+
+body.index #easySetup {
+  padding-top: 0;
+}
+
+body.index {
+  .testimonial-gordon-fraser, .testimonial-mateen-rizki,
+  .testimonial-mateen-rizki-black, .testimonial-eitan-grinspun {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $blue;
+    padding: 20px;
+
+    .quote-left, .quote-right {
+      width: 30px;
+      height: auto;
+    }
+
+    .quote-left {
+      align-self: flex-start;
+    }
+
+    .quote-author-avatar {
+      width: 200px;
+      height: 200px;
+      color: red;
+      background-color: green;
+      background: url(/img/assets/index/gordon-fraser.png) center center no-repeat;
+      background-size: cover;
+      margin: 0 30px;
+      align-self: center;
+    }
+
+    .quote-right {
+      align-self: flex-end;
+    }
+
+    .quote-inner-info {
+      width: 100%;
+      margin: 30px 0 0 0;
+      color: #FFFFFF;
+      text-align: center;
+
+      .quote-topic {
+        font-size: 30px;
+        font-family: $proxima-bold;
+      }
+
+      .quote-text {
+        margin-top: 30px;
+        font-size: 26px;
+        font-family: "Proxima Nova Light Italic";
+        line-height: 1.8rem;
+      }
+
+      .quote-author {
+        margin-top: 30px;
+        font-size: 30px;
+        display: flex;
+
+        .quote-author-info {
+          flex: 1 1 auto;
+          line-height: 1.2em;
+
+          .quote-author-name {
+            font-family: $proxima-bold;
+          }
+
+          .quote-author-occupation {
+            font-family: $proxima-light;
+          }
+        }
+      }
+    }
+
+    @include breakpoint(800px) {
+      flex-direction: row;
+      padding: 50px 0;
+
+      .quote-author-avatar {
+        align-self: flex-start;
+      }
+
+      .quote-inner-info {
+        width: 60%;
+        margin: 0 30px 0 0;
+        text-align: left;
+      }
+    }
+  }
+
+  .testimonial-mateen-rizki, .testimonial-mateen-rizki-black {
+    .quote-author-avatar {
+      background: url(/img/assets/index/mateen-rizki.png) center center no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .testimonial-mateen-rizki-black, .testimonial-eitan-grinspun {
+    background-color: #243249;
+  }
+
+  .testimonial-eitan-grinspun {
+    .quote-author-avatar {
+      background: url(/img/assets/index/eitan-grinspun.png) center center no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+

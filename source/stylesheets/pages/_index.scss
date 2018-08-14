@@ -222,12 +222,14 @@ body.index .features-block {
     .icon {
       padding: 10px;
       width: 100px;
+      height: 100px;
       height: auto;
       margin-left: auto;
       margin-right: auto;
 
       @include breakpoint(800px) {
         width: 10vw;
+        height: 10vw;
       }
     }
 

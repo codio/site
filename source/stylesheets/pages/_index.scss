@@ -414,12 +414,21 @@ body.index .info-block {
       .check-list-list-item {
         padding-left: 2em;
         padding-bottom: 12px;
-        text-indent: -2em;
+        text-indent: -1.5em;
+
+        @include breakpoint(800px) {
+          text-indent: -1.7em;
+        }
       }
 
       .check-list-list-item:before {
+        font-size: 14px;
         content: '\25B6';
         padding-right: 1em;
+
+        @include breakpoint(800px) {
+          font-size: 20px;
+        }
       }
     }
   }

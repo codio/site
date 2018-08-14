@@ -393,10 +393,12 @@ body.index .info-block {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    min-height: 1px;
 
     .image {
       width: 100%;
       height: auto;
+      min-height: 1px;
     }
 
     .check-list {

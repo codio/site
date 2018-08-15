@@ -57,13 +57,13 @@ body.index .carousel-block {
       color: #fff;
 
       .heading {
-        font-family: $proxima-extra-bold;
+        font-weight: 800;
         font-size: 32px;
         line-height: 2rem;
       }
 
       .sub-heading {
-        font-family: $proxima-light;
+        font-weight: 300;
         font-size: 20px;
         line-height: 1.8rem;
       }
@@ -119,9 +119,7 @@ body.index .carousel-block {
       width: 3vw;
       height: 3vw;
       border-radius: 50%;
-      border-style: solid;
-      border-width: 2px;
-      border-color: #FFFFFF;
+      border: 2px solid #FFFFFF;
       bottom: 3vw;
       right: 7vw;
 
@@ -222,22 +220,23 @@ body.index .features-block {
     .icon {
       padding: 10px;
       width: 100px;
-      height: auto;
+      height: 100px;
       margin-left: auto;
       margin-right: auto;
 
       @include breakpoint(800px) {
         width: 10vw;
+        height: 10vw;
       }
     }
 
     .text{
-      font-family: $proxima-light;
+      font-weight: 300;
       font-size: 26px;
       padding: 10px;
 
       span {
-        font-family: $proxima-bold;
+        font-weight: 600;
       }
 
       @include breakpoint(800px) {
@@ -252,7 +251,7 @@ body.index .features-block {
     }
 
     .numbers {
-      font-family: $proxima-bold;
+      font-weight: 600;
       font-size: 50px;
       padding: 10px;
 
@@ -287,19 +286,19 @@ body.index .info-block {
   line-height: 2rem;
 
   .title {
-    font-family: $proxima-extra-bold;
+    font-weight: 800;
     font-size: 2.2rem;
     padding-bottom: 20px;
   }
 
   .description {
-    font-family: $proxima-bold;
+    font-weight: 600;
     font-size: 1.1rem;
     padding: 10px 10px 20px 10px;
   }
 
   .two-text {
-    font-family: $proxima-light;
+    font-weight: 300;
     padding: 10px 0;
     font-size: 22px;
     line-height: 1.3rem;
@@ -319,7 +318,7 @@ body.index .info-block {
     }
 
     span {
-      font-family: $proxima-bold;
+      font-weight: 600;
     }
   }
 
@@ -329,7 +328,7 @@ body.index .info-block {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    font-family: $proxima-light;
+    font-weight: 300;
     line-height: 2em;
 
     .image-block, .text-block {
@@ -351,7 +350,7 @@ body.index .info-block {
       padding-top: 20px;
 
       .info {
-        font-family: $proxima-bold;
+        font-weight: 600;
         padding-bottom: 15px;
       }
 
@@ -361,7 +360,7 @@ body.index .info-block {
       }
 
       span {
-        font-family: $proxima-extra-bold;
+        font-weight: 800;
       }
 
       @include breakpoint(800px) {
@@ -391,14 +390,16 @@ body.index .info-block {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    min-height: 1px;
 
     .image {
       width: 100%;
       height: auto;
+      min-height: 1px;
     }
 
     .check-list {
-      font-family: $proxima-light;
+      font-weight: 300;
       font-size: 20px;
       padding: 20px;
       margin-top: 10px;
@@ -414,12 +415,21 @@ body.index .info-block {
       .check-list-list-item {
         padding-left: 2em;
         padding-bottom: 12px;
-        text-indent: -2em;
+        text-indent: -1.5em;
+
+        @include breakpoint(800px) {
+          text-indent: -1.7em;
+        }
       }
 
       .check-list-list-item:before {
+        font-size: 14px;
         content: '\25B6';
         padding-right: 1em;
+
+        @include breakpoint(800px) {
+          font-size: 20px;
+        }
       }
     }
   }
@@ -535,13 +545,14 @@ body.index {
 
       .quote-topic {
         font-size: 30px;
-        font-family: $proxima-bold;
+        font-weight: 600;
       }
 
       .quote-text {
         margin-top: 30px;
         font-size: 26px;
-        font-family: "Proxima Nova Light Italic";
+        font-weight: 300;
+        font-style: italic;
         line-height: 1.8rem;
       }
 
@@ -555,11 +566,11 @@ body.index {
           line-height: 1.2em;
 
           .quote-author-name {
-            font-family: $proxima-bold;
+            font-weight: 600;
           }
 
           .quote-author-occupation {
-            font-family: $proxima-light;
+            font-weight: 300;
           }
         }
       }

@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2018**
 
+- `[I] [16th]`: Fix issue with [Custom Buttons](/docs/content/authoring/page-edit/buttons/) incorrectly handling
 - `[F] [ 9th]`: Add ability to use current file in [debugger](/docs/ide/features/debugging#debugfilepath) targets
 - `[I] [ 7th]`: update handling of [Crunch](/docs/misc/schoolscontent/crunch/) projects
 - `[I] [ 7th]`: Improve visibility of form elements and handling of [Quick Open](/docs/ide/features/quick-open/) dialog

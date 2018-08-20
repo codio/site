@@ -21,6 +21,7 @@ body.index {
 }
 
 body.index .carousel-block {
+  font-family: proxima-nova;
   position: relative;
   display: block;
   padding: 0;
@@ -203,6 +204,7 @@ body.index .carousel-block {
 }
 
 body.index .features-block {
+  font-family: proxima-nova;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,6 +279,7 @@ body.index .features-block {
 }
 
 body.index .info-block {
+  font-family: proxima-nova;
   background-color: $base-background-color;
   display: flex;
   flex-direction: column;
@@ -507,6 +510,7 @@ body.index #easySetup {
 body.index {
   .testimonial-gordon-fraser, .testimonial-mateen-rizki,
   .testimonial-mateen-rizki-black, .testimonial-eitan-grinspun {
+    font-family: proxima-nova;
     display: flex;
     flex-direction: column;
     justify-content: center;

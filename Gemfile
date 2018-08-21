@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 gem "middleman", "~> 3.3.12"
 
 # Live-reloading plugin
-gem "middleman-livereload", :github => "middleman/middleman-livereload", :branch => "master"
+gem "middleman-livereload"
 
 gem "middleman-autoprefixer", "~> 2.5.0"
 
@@ -28,7 +28,7 @@ gem "middleman-sitemap", "~> 0.0.13"
 gem "middleman-automatic-clowncar", "~> 0.0.4"
 
 # Summaries
-gem "nokogiri", "~> 1.6.6.2"
+gem "nokogiri", "~> 1.8.2"
 
 # Faster JS compile
 gem 'therubyracer', "~> 0.12.2"

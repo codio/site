@@ -4,9 +4,12 @@ class_name: docs
 full_width: true
 ---
 
-The **Codio LTI app** allows an easy way to integrate Codio with supported LMS systems.
+The **Codio LTI App** allows an easy way to integrate Codio with supported LMS systems. 
 
-Please note these steps and images are based on Canvas but other LMS systems will be similar
+**Please note the steps below are for implementation in Canvas.**
+
+For details of other supported systems see [https://www.eduappcenter.com/tutorials](https://www.eduappcenter.com/tutorials).
+
 
 ## Preparation
 The following steps need to be taken only one time per class.

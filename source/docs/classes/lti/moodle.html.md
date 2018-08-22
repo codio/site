@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Please be sure to check out the [Codio LTI App](/docs/classes/lti/ltiapp) which allows for an easy way to integrate and to map Codio class units to your LMS system.
+Please be sure to check out the [Codio LTI App](/docs/classes/lti/ltiapp) which allows for an easy way to integrate and to map Codio class units to your LMS system. Moodle added support for LTI™ apps in version 2.2. The [following page](https://docs.moodle.org/32/en/External_tool_settings) explains how to set up external apps in Moodle.
 
 ### Authentication and account creation
 Once you have configured the LTI/LMS settings, Moodle manages all aspects of signing in to Codio as well as account creation. All your teachers and students need is a Moodle account.

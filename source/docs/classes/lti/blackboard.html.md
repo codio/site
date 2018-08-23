@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+Please be sure to check out the [Codio LTI App](/docs/classes/lti/ltiapp) which allows for an easy way to integrate and to map Codio class units to your LMS system. The [following page](http://library.blackboard.com/ref/df5b20ed-ce8d-4428-a595-a0091b23dda3/Content/_admin_app_system/admin_app_basic_lti_tool_providers.htm) explains how to set up external apps in Blackboard Learn.
+
 ## Preparation
 The following steps need to be taken only one time per class.
 
@@ -35,6 +37,7 @@ Now return to the **Default Configuration** section in Blackboard. We will now c
 
 - LTI Consumer -> Tool Provider Key
 - LTI Secret -> Tool Provider Secret
+
 
 
 ## Codio Class setup

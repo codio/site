@@ -10,7 +10,7 @@ Enter the number of student licenses required (minimum 25). The plans available 
 
 When you are ready, click the 'Generate Invoice' button and the invoice will be generated and sent to the email address.
 
-The option to switch to/from a Self Pay plan is also available but be aware if you have an active annual plan and have already paid this might lead to a conflict.
+The option to switch to/from a Self Pay plan is also available but be aware if you have an annual plan and have already paid this might lead to a conflict.
 
 
 <img alt="Organizations Billing" src="/img/docs/organisations_invoicing.png" class="simple"/>

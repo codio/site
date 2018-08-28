@@ -32,4 +32,22 @@ body.bootcamps {
       }
     }
   }
+
+  .info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $blue;
+    color: $base-background-color;
+    padding: 60px 0;
+
+    .text {
+      width: 85%;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      padding-bottom: 30px;
+    }
+  }
 }

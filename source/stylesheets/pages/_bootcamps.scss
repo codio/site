@@ -1,0 +1,35 @@
+body.bootcamps {
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+body.bootcamps {
+  @import "../partials/header-block";
+
+  .header-block {
+    background-image: url('/img/assets/bootcamps/header-top-mob.jpg');
+
+    @include breakpoint($break-tablet) {
+      height: 48vw;
+      background-image: url('/img/assets/bootcamps/header-top.jpg');
+    }
+
+    .header-text {
+      .heading {
+        @include breakpoint($break-tablet) {
+          font-size: 4.2vw;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

@@ -5,6 +5,7 @@ full_width: true
 ---
 
 Enabling this setting enables constant URL for class units, class detection will be done based on the custom parameter your LMS should pass.
+Constant URL's allows the transfer learning content without modifying LTI links.
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 

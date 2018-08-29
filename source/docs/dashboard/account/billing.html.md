@@ -6,7 +6,7 @@ title: "Billing - Organization"
 
 For Schools and University organisations, the billing screen allows you to generate invoices for your account (for new accounts and renewal of existing accounts), and for active subscriptions, view the details of the current plan as well as enter the email of the person who should receive billing notifications.
 
-Enter the number of student licenses required (minimum 25). The plans available will be shown , select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
+Enter the number of student licenses required (**minimum 25**). The plans available will be shown , select the plan you require and if you require the invoice to be sent to someone else, you can change the recipient.
 
 When you are ready, click the 'Generate Invoice' button and the invoice will be generated and sent to the email address.
 

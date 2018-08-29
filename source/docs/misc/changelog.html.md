@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2018**
 
+- `[I] [29th]`: Update handling of panel widths when guides is collapsed/reopened when in 3 column layout
+- `[I] [29th]`: Fix problem with [Quick Open](/docs/ide/features/quick-open/) handling in screen readers
+- `[F] [29th]`: Added [Self Invoicing](/docs/dashboard/account/billing/) for University and School organisations
 - `[F] [29th]`: Added support for [LTI Constant URLs](/docs/classes/lti/lticonstanturl) and [LTI Class fork](/docs/classes/lti/lticlassfork)
 - `[F] [22nd]`: Added [Codio LTI App](/docs/classes/lti/ltiapp) to improve ease of integrating Codio with LMS systems
 - `[I] [16th]`: Fix issue with [Custom Buttons](/docs/content/authoring/page-edit/buttons/) incorrectly handling

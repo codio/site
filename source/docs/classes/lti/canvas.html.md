@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+Please be sure to check out the [Codio LTI App](/docs/classes/lti/ltiapp) which allows for an easy way to integrate and to map Codio class units to your Canvas system.
+
 ## Preparation
 The following steps need to be taken only one time per class.
 
@@ -16,7 +18,7 @@ The following steps need to be taken only one time per class.
 <img alt="LTI Fields" src="/img/docs/lti/lti-org-fields.png" class="simple"/>
 
 
-### In Canvas
+### In Canvas, adding Codio as an App
 The Canvas user who carries out these steps must be a system administrator.
 
 - Create a new Course in Canvas. We suggest you create a test course called **Codio Canvas** before you do it with a production course.
@@ -33,15 +35,33 @@ We will now copy the following global integration fields from Codio to Canvas.
 - LTI Secret -> Shared Secret
 - LTI URL -> Launch URL
 
-In Canvas you should then 
+In Canvas you should then use one of the following steps 
 
+#### Manual Entry
 - Enter a suitable name (Codio Canvas LTI) in the **Name** field.
 - Enter **apollo.codio.com** into the **Domain** field.
 - In the **Privacy** field, select **Public**
+- Paste in the 3 Codio fields to the appropriate fields
 
 You should end up with something like this.
 
+
 <img alt="Canvas Global" src="/img/docs/lti/canvas-global.png" class="simple"/>
+
+#### By URL
+- Enter a suitable name (Codio Canvas LTI) in the **Name** field.
+- In Codio select the Copy Consumer button to copy in to the Consumer Key field.
+- select the Copy Secret Key to copy in to the Shared Secret field.
+- select the Copy XML URL to copy in the to the Config URL field.
+- and Submit
+
+#### Paste XML
+- Enter a suitable name (Codio Canvas LTI) in the **Name** field.
+- In Codio select the Copy Consumer button to copy in to the Consumer Key field.
+- select the Copy Secret Key to copy in to the Shared Secret field.
+- click on the `XML Configuration` link to open the XML and then copy in the to the XML Configuration field.
+- and Submit
+
 
 ## Codio Class setup
 You need to perform the following actions one time only for a class. The Canvas user who carries out these steps does not need to be a system administrator but must have suitable privileges to edit courses and assignments.

@@ -57,13 +57,15 @@ body.index .carousel-block {
       color: #fff;
 
       .heading {
-        font-weight: 800;
+        font-family: $proxima-extra-bold;
+        //font-weight: 800;
         font-size: 32px;
         line-height: 2rem;
       }
 
       .sub-heading {
-        font-weight: 300;
+        font-family: $proxima-light;
+        //font-weight: 300;
         font-size: 20px;
         line-height: 1.8rem;
       }
@@ -231,12 +233,14 @@ body.index .features-block {
     }
 
     .text{
-      font-weight: 300;
+      font-family: $proxima-light;
+      //font-weight: 300;
       font-size: 26px;
       padding: 10px;
 
       span {
-        font-weight: 600;
+        font-family: $proxima-bold;
+        //font-weight: 600;
       }
 
       @include breakpoint(800px) {
@@ -251,7 +255,8 @@ body.index .features-block {
     }
 
     .numbers {
-      font-weight: 600;
+      font-family: $proxima-bold;
+      //font-weight: 600;
       font-size: 50px;
       padding: 10px;
 
@@ -286,13 +291,15 @@ body.index .info-block {
   line-height: 2rem;
 
   .title {
-    font-weight: 800;
+    font-family: $proxima-extra-bold;
+    //font-weight: 800;
     font-size: 2.2rem;
     padding-bottom: 20px;
   }
 
   .description {
-    font-weight: 600;
+    font-family: $proxima-bold;
+    //font-weight: 600;
     font-size: 1.1rem;
     padding: 10px 10px 20px 10px;
   }
@@ -318,7 +325,8 @@ body.index .info-block {
     }
 
     span {
-      font-weight: 600;
+      font-family: $proxima-bold;
+      //font-weight: 600;
     }
   }
 
@@ -328,7 +336,8 @@ body.index .info-block {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    font-weight: 300;
+    font-family: $proxima-light;
+    //font-weight: 300;
     line-height: 2em;
 
     .image-block, .text-block {
@@ -350,7 +359,8 @@ body.index .info-block {
       padding-top: 20px;
 
       .info {
-        font-weight: 600;
+        font-family: $proxima-bold;
+        //font-weight: 600;
         padding-bottom: 15px;
       }
 
@@ -360,7 +370,8 @@ body.index .info-block {
       }
 
       span {
-        font-weight: 800;
+        font-family: $proxima-extra-bold;
+        //font-weight: 800;
       }
 
       @include breakpoint(800px) {
@@ -399,7 +410,8 @@ body.index .info-block {
     }
 
     .check-list {
-      font-weight: 300;
+      font-family: $proxima-light;
+      //font-weight: 300;
       font-size: 20px;
       padding: 20px;
       margin-top: 10px;
@@ -544,15 +556,17 @@ body.index {
       text-align: center;
 
       .quote-topic {
+        font-family: $proxima-bold;
         font-size: 30px;
-        font-weight: 600;
+        //font-weight: 600;
       }
 
       .quote-text {
+        font-family: $proxima-light;
+        font-style: italic;
         margin-top: 30px;
         font-size: 26px;
-        font-weight: 300;
-        font-style: italic;
+        //font-weight: 300;
         line-height: 1.8rem;
       }
 
@@ -566,11 +580,13 @@ body.index {
           line-height: 1.2em;
 
           .quote-author-name {
-            font-weight: 600;
+            font-family: $proxima-bold;
+            //font-weight: 600;
           }
 
           .quote-author-occupation {
-            font-weight: 300;
+            font-family: $proxima-light;
+            //font-weight: 300;
           }
         }
       }

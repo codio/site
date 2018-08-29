@@ -26,4 +26,6 @@ First enable [LTI Constant URLs](/docs/classes/lti/lticonstanturl) for your clas
 <img alt="Parent Class ID" src="/img/docs/lti/parent_class.png" class="simple"/>
 - Submit
 
-- A new class in Codio containing the content from your original Codio class will then be created.
+- In the new course created in your LMS, open one of the new assignments and this will then create the new class in Codio containing the content from your original Codio class.
+
+

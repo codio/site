@@ -5,7 +5,8 @@ full_width: true
 ---
 
 Enabling this setting enables constant URL for class units, class detection will be done based on the custom parameter your LMS should pass.
-Constant URL's allows the transfer learning content without modifying LTI links.
+
+Constant URL's allows the transfer of learning content without modifying LTI links and they are also required if you wish to fork Codio classes and LMS Courses. See [LTI Class fork](/docs/classes/lti/lticlassfork) for more on this.
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 
@@ -29,4 +30,3 @@ Constant URL's allows the transfer learning content without modifying LTI links.
 - Submit
 
 
-See also [LTI Class fork](/docs/classes/lti/lticlassfork) for how to enable forking of classes

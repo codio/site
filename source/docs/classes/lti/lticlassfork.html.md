@@ -20,6 +20,8 @@ First enable [LTI Constant URLs](/docs/classes/lti/lticonstanturl) for your clas
 - When completed go to **External Apps** and edit the existing app connecting Codio to your LMS
 - Replace the existing custom field that was set from your original Codio class with an id of your own (e.g something like codio_class_target_id=my_class_id_10)
 
+**N.B. If your LMS supports it, `lis_course_offering_sourcedid` is also supported as a unique course identifier so you can replace `codio_class_target_id` if required**
+
 <img alt="Class fork id" src="/img/docs/lti/fork_class_id.png" class="simple"/>
 
 - In your existing Codio class, copy the content of the LTI class fork enabled field into a new line in the 'Edit App' custom field 

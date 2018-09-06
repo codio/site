@@ -11,6 +11,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**September 2918**
+
+- `[I] [ 5th]`: Improve handling of duplicate file warning
+- `[I] [ 4th]`: Improve colour contrast on [Quick Open](/docs/ide/features/quick-open/) and [Command Bar](/docs/ide/features/command-bar/)
+- `[I] [ 4th]`: Fix problem with handling of cancel button actions in project settings area
+- `[I] [ 3rd]`: Add support for `lis_course_offering_sourcedid` as a unique course identifier in LMS systems
+
 **August 2018**
 
 - `[I] [29th]`: Update handling of panel widths when guides is collapsed/reopened when in 3 column layout

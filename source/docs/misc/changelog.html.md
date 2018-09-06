@@ -11,9 +11,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
-**September 2918**
+**September 2018**
 
-- `[I] [ 5th]`: Add exmaple bash script for [autograding on completion](/docs/classes/unitmanagement/settings-info/autograde/#examplebashscript)
+- `[I] [ 5th]`: Add example bash script for [autograding on completion](/docs/classes/unitmanagement/settings-info/autograde/#examplebashscript)
 - `[I] [ 5th]`: Improve handling of duplicate file warning
 - `[I] [ 4th]`: Improve colour contrast on [Quick Open](/docs/ide/features/quick-open/) and [Command Bar](/docs/ide/features/command-bar/)
 - `[I] [ 4th]`: Fix problem with handling of cancel button actions in project settings area

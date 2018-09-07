@@ -69,6 +69,10 @@ This option should be selected if you are running an auto-grade script when the 
 ## Settings tab
 The following options are available only in the **Settings** tab.
 
+<a name="disablecomplete"></a>
+### Disable Mark as Completed
+Disabling will not allow students to mark the unit as completed. If units in your class are of a 'playground' type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the unit in error and then having to ask the class teacher/instructor to change the status back so they can continue working. 
+
 ### Visibility on disabled
 You can specify whether a unit is accessible or not when disabled. 
 

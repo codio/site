@@ -6,7 +6,7 @@ full_width: true
 
 The settings on this page apply to the entire guide or book.
 
-<img alt="Global settings" src="/img/docs/globalsettings.png" class="simple"/>
+<img alt="Global settings" src="/img/docs/guides/globalsettings.png" class="simple"/>
 
 ### Scripts
 This allows you to include the path and file name of a script file from a page using an HTML `<src>` tag. Provide one script path per line.

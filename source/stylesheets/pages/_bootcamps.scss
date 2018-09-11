@@ -9,7 +9,7 @@ body.bootcamps {
   .content {
     margin: 0 auto;
     max-width: 100%;
-    //background-color: #f2f2f2;
+    background-color: #f2f2f2;
   }
 }
 
@@ -17,11 +17,11 @@ body.bootcamps {
   @import "../partials/header-block";
 
   .header-block {
-    background-image: url('/img/assets/bootcamps/header-top-mob.jpg');
+    background-image: url('/img/assets/bootcamps/bootcamp-hero-image-mob.jpg');
 
     @include breakpoint($break-tablet) {
       height: 48vw;
-      background-image: url('/img/assets/bootcamps/header-top.jpg');
+      background-image: url('/img/assets/bootcamps/bootcamp-hero-image.jpg');
     }
 
     .header-text {
@@ -255,6 +255,54 @@ body.bootcamps {
 
       @include breakpoint($break-tablet) {
         @include span(6 of 13);
+      }
+
+      .icon-1 {
+        background: url('/img/assets/bootcamps/icon-1-small.png') no-repeat center center;
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-1-medium.png');
+        }
+      }
+
+      .icon-2 {
+        background: url('/img/assets/bootcamps/icon-2-small.png') no-repeat center center;
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-2-medium.png');
+        }
+      }
+
+      .icon-3 {
+        background: url('/img/assets/bootcamps/icon-3-small.png') no-repeat center center;
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-3-medium.png');
+        }
+      }
+
+      .icon-4 {
+        background: url('/img/assets/bootcamps/icon-4-small.png') no-repeat center center;
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-4-medium.png');
+        }
+      }
+
+      .icon-5 {
+        background: url('/img/assets/bootcamps/icon-5-small.png') no-repeat center center;
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-5-medium.png');
+        }
+      }
+
+      .icon-6 {
+        background: url('/img/assets/bootcamps/icon-6-small.png') no-repeat center center;
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-6-medium.png');
+        }
+      }
+
+      .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6 {
+        background-size: contain;
+        margin: auto;
+        height: 235px;
       }
     }
 

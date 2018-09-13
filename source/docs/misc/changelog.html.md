@@ -13,6 +13,18 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2018**
 
+
+- `[I] [13th]`: Fix problem for book based units when disabling units in class module
+- `[F] [13th]`: Add ability for 'mark as completed' to be [disabled](/docs/classes/unitmanagement/settings#disablecomplete) for individual units in classes
+- `[I] [12th]`: Remove https preview warning to avoid confusion for students
+- `[I] [12th]`: Improve handling of fullscreen button in frames
+- `[I] [12th]`: Improve Usability handling in menus
+- `[I] [11th]`: Fix problem with changing state of 'use submit buttons' setting in guides
+- `[I] [11th]`: Fix problem when adding projects to module with reserved words
+- `[I] [10th]`: Update explanatory text for Visibility Summary for Course and Modules
+- `[I] [10th]`: Fix problem with Guides Table of Contents
+- `[I] [10th]`: Improve handling of LTI full screen support
+- `[I] [10th]`: Improve handling of empty points field in Grade book assessment
 - `[I] [ 5th]`: Add example bash script for [autograding on completion](/docs/classes/unitmanagement/settings-info/autograde/#examplebashscript)
 - `[I] [ 5th]`: Improve handling of duplicate file warning
 - `[I] [ 4th]`: Improve colour contrast on [Quick Open](/docs/ide/features/quick-open/) and [Command Bar](/docs/ide/features/command-bar/)

@@ -258,42 +258,42 @@ body.bootcamps {
       }
 
       .icon-1 {
-        background: url('/img/assets/bootcamps/icon-1-small.png') no-repeat center center;
+        background-image: url('/img/assets/bootcamps/icon-1-small.png');
         @include breakpoint($break-tablet) {
           background-image: url('/img/assets/bootcamps/icon-1-medium.png');
         }
       }
 
       .icon-2 {
-        background: url('/img/assets/bootcamps/icon-2-small.png') no-repeat center center;
+        background-image: url('/img/assets/bootcamps/icon-2-small.png');
         @include breakpoint($break-tablet) {
           background-image: url('/img/assets/bootcamps/icon-2-medium.png');
         }
       }
 
       .icon-3 {
-        background: url('/img/assets/bootcamps/icon-3-small.png') no-repeat center center;
+        background-image: url('/img/assets/bootcamps/icon-3-small.png');
         @include breakpoint($break-tablet) {
           background-image: url('/img/assets/bootcamps/icon-3-medium.png');
         }
       }
 
       .icon-4 {
-        background: url('/img/assets/bootcamps/icon-4-small.png') no-repeat center center;
+        background-image: url('/img/assets/bootcamps/icon-4-small.png');
         @include breakpoint($break-tablet) {
           background-image: url('/img/assets/bootcamps/icon-4-medium.png');
         }
       }
 
       .icon-5 {
-        background: url('/img/assets/bootcamps/icon-5-small.png') no-repeat center center;
+        background-image: url('/img/assets/bootcamps/icon-5-small.png');
         @include breakpoint($break-tablet) {
           background-image: url('/img/assets/bootcamps/icon-5-medium.png');
         }
       }
 
       .icon-6 {
-        background: url('/img/assets/bootcamps/icon-6-small.png') no-repeat center center;
+        background-image: url('/img/assets/bootcamps/icon-6-small.png');
         @include breakpoint($break-tablet) {
           background-image: url('/img/assets/bootcamps/icon-6-medium.png');
         }
@@ -301,8 +301,14 @@ body.bootcamps {
 
       .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6 {
         background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
         margin: auto;
         height: 235px;
+
+        @include breakpoint($break-tablet) {
+          background-position: right center;
+        }
       }
     }
 

@@ -44,15 +44,18 @@ This allows you to play audio files within your project.
 
 
 ### [Global](/docs/content/authoring/settings-actions/global/)
-<img alt="authtoken" src="/img/docs/guides/globalsettings.png" class="simple"/>
-- **Theme** allows you to select the default theme for people viewing the content. We currently have a light theme and will be adding a dark theme shortly. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
+<img alt="Global Settings" src="/img/docs/guides/globalsettings.png" class="simple"/>
 - **Scripts** allows you to point to one or more `.js` files in your project (usually you would have this somewhere within the `.guides` folder) that is run when the page is shown. This is especially useful when interacting with a button in a page of content.
+- **Theme** allows you to select the default theme for people viewing the content. We currently have a light theme and will be adding a dark theme shortly. Dyslexic users can also choose a special theme from the Settings drop down in the content player.
 - **[Lexicon Topic](/docs/misc/schoolscontent/lexikon)**  if you use this option, an icon will appear in the toolbar that will load the Lexikon window with the selected topic automatically selected.
-- **Suppress Page Numbering** allows you to suppress the section page numbers when in Play Mode.
+- **Suppress page numbering** allows you to suppress the section page numbers when in Play Mode.
 - **Hide Menu** allows you to hide the main Codio menu items in the IDE (Codio/Project/File/Edit etc) when the unit is run in a [Class](/docs/classes/unitmanagement/assign-project).
-- **Allow content to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:
+- **Allow guide to be closed** allows students to be able to close the content. It can be restarted by selecting the Start icon in the file tree:
 <img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
-
+- **Use submit buttons** see [Student submission options](/docs/content/authoring/assessments/submitcomplete/) for more information
+- **Use mark as completed** see [Student submission options](/docs/content/authoring/assessments/submitcomplete/) for more information
+- **Collapsed on start** starts the unit with the guides pane collapsed. Students can show the content clicking on the hamburger icon on the right
+<img alt="OpenGuides" src="/img/docs/guides/guidecollapse.png" class="simple"/>
 
 - **Hamburger Icon** can be pressed to show or hide the Section List.
 - **[Section List](/docs/content/authoring/guides/add-section/)** lists the sections in your content. You can add new ones and re-order the list by dragging a page.

@@ -1,0 +1,508 @@
+body.bootcamps {
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #f2f2f2;
+  }
+}
+
+body.bootcamps {
+  @import "../partials/header-block";
+
+  .header-block {
+    background-image: url('/img/assets/bootcamps/bootcamp-hero-image-mob.jpg');
+
+    @include breakpoint($break-tablet) {
+      height: 48vw;
+      background-image: url('/img/assets/bootcamps/bootcamp-hero-image.jpg');
+    }
+
+    .header-text {
+      .heading {
+        @include breakpoint($break-tablet) {
+          font-size: 4.2vw;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
+
+  .info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $blue;
+    color: $base-background-color;
+    padding: 60px 0;
+
+    .text {
+      width: 85%;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      padding-bottom: 30px;
+    }
+  }
+
+  .content-body {
+    @include container;
+    text-align: center;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+
+  .features-block {
+    @include container;
+    margin: 0 auto;
+    padding: 2rem 2rem 0 2rem;
+
+    .features-row {
+      @include span(13 of 13);
+      padding: 0;
+      min-height: 378px;
+      height: 700px;
+
+      @include breakpoint($break-tablet) {
+        height: 100%;
+      }
+
+      &:nth-child(1) {
+        .top, .line-mobile.top {
+          opacity: 0;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 0.02s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 0.03s;
+        }
+      }
+
+      &:nth-child(2) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 0.53s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 0.55s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 0.56s;
+        }
+      }
+
+      &:nth-child(3) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 1.06s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 1.08s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 1.09s;
+        }
+      }
+
+      &:nth-child(4) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 1.59s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 1.61s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 1.62s;
+        }
+      }
+
+      &:nth-child(5) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 2.12s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 2.14s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 2.15s;
+        }
+      }
+
+      &:nth-child(6) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 2.65s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 2.67s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 2.68s;
+        }
+      }
+
+      &:last-child {
+        .bottom, .line-mobile.bottom {
+          opacity: 0;
+        }
+      }
+    }
+
+    .line-mobile {
+      @include span(1 of 13);
+      display: inline-block;
+      height: 640px;
+      width: 12px;
+
+      @include breakpoint($break-tablet) {
+        display: none;
+      }
+
+      .top, .bottom {
+        overflow: hidden;
+        content: " ";
+        display: block;
+        width: 2px;
+        background-color: $orange;
+        position: relative;
+        margin: 0 auto;
+      }
+
+      .top {
+        height: 50px;
+      }
+
+      .dot {
+        display: block;
+        border: 6px solid $orange;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-left: -3px;
+
+        @include breakpoint(450px) {
+          margin-left: -5px;
+        }
+      }
+
+      .bottom {
+        height: 694px;
+      }
+    }
+
+    .left-part {
+      @include span(12 of 13);
+      padding-left: 2rem;
+      animation-duration: 1.5s;
+      animation-delay: 0.1s;
+      display: inline-block;
+
+      @include breakpoint($break-tablet) {
+        @include span(6 of 13);
+      }
+
+      .icon-1 {
+        background-image: url('/img/assets/bootcamps/icon-1-small.png');
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-1-medium.png');
+        }
+      }
+
+      .icon-2 {
+        background-image: url('/img/assets/bootcamps/icon-2-small.png');
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-2-medium.png');
+        }
+      }
+
+      .icon-3 {
+        background-image: url('/img/assets/bootcamps/icon-3-small.png');
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-3-medium.png');
+        }
+      }
+
+      .icon-4 {
+        background-image: url('/img/assets/bootcamps/icon-4-small.png');
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-4-medium.png');
+        }
+      }
+
+      .icon-5 {
+        background-image: url('/img/assets/bootcamps/icon-5-small.png');
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-5-medium.png');
+        }
+      }
+
+      .icon-6 {
+        background-image: url('/img/assets/bootcamps/icon-6-small.png');
+        @include breakpoint($break-tablet) {
+          background-image: url('/img/assets/bootcamps/icon-6-medium.png');
+        }
+      }
+
+      .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6 {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: auto;
+        height: 235px;
+
+        @include breakpoint($break-tablet) {
+          background-position: right center;
+        }
+      }
+    }
+
+    .middle-part {
+      display: none;
+      @include breakpoint($break-tablet) {
+        @include span(1 of 13);
+        display: inline-block;
+      }
+    }
+
+    .right-part {
+      @include span(12 of 13);
+      display: inline-block;
+      padding: 0 0 0 2rem;
+
+      @include breakpoint($break-tablet) {
+        @include span(6 of 13);
+        padding: 0 2rem 0 0;
+        animation-duration: 1.5s;
+        animation-delay: 0.1s;
+      }
+    }
+
+    .description {
+      text-align: left;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+      .header {
+        padding-bottom: 1rem;
+        color: $light-blue;
+        font-size: 1.8rem;
+        font-weight: 500;
+
+        @include breakpoint(450px) {
+          font-size: 2rem;
+        }
+
+        @include breakpoint($break-tablet) {
+          font-size: 30px;
+        }
+      }
+
+      .check-list {
+        padding: 0;
+        margin-top: 20px;
+        text-align: left;
+        line-height: 24px;
+
+        .check-list-list {
+          list-style: none;
+          margin-left: 0;
+          padding-left: 0;
+        }
+
+        .check-list-list-item {
+          padding-left: 32px;
+          padding-bottom: 12px;
+          text-indent: -1.5em;
+        }
+
+        .check-list-list-item:before {
+          font-size: 14px;
+          content: '\25B6';
+          padding-right: 12px;
+          color: $light-blue;
+        }
+      }
+
+
+      @include breakpoint($break-tablet) {
+        padding-bottom: 0;
+      }
+    }
+
+    .screen {
+      height: auto;
+      display: block;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+        margin: auto;
+      }
+
+      @include breakpoint($break-tablet) {
+        position: relative;
+        display: inline-block;
+      }
+    }
+
+    .vertical-dot-line {
+      overflow: hidden;
+      text-align: center;
+      margin: 0 auto;
+      width: 12px;
+
+      .top, .bottom {
+        overflow: hidden;
+        content: " ";
+        display: block;
+        width: 2px;
+        background-color: $orange;
+        position: relative;
+        margin: 0 auto;
+        transition-timing-function: linear;
+      }
+
+      .top {
+        height: 50px;
+      }
+
+      .dot {
+        display: block;
+        border: 6px solid $orange;
+        border-radius: 50%;
+        transition-timing-function: linear;
+      }
+
+      .bottom {
+        height: 318px;
+      }
+    }
+  }
+
+  .ready-started-block {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 280px;
+    background-color: $orange;
+
+    h2 {
+      margin-top: 0;
+      color: #fff;
+      padding: 40px 0 20px 0;
+      font-size: 1.8rem;
+    }
+
+    @include breakpoint($break-tablet) {
+      height: 220px;
+      h2 {
+        font-size: 2rem;
+      }
+    }
+
+    .button-block {
+      .button-rounded {
+        display: block;
+        min-width: 182px;
+        min-height: 41px;
+        margin: 0.5rem;
+        border-color: #ffffff;
+        text-transform: none;
+
+        &:first-child {
+          background-color: #ffffff;
+          color: $orange;
+
+          &:hover {
+            background-color: transparent;
+            color: #ffffff;
+          }
+        }
+
+        &:last-child {
+          &:hover {
+            background-color: #ffffff;
+            color: $orange;
+          }
+        }
+
+        @include breakpoint($break-tablet) {
+          display: inline-block;
+          min-width: 256px;
+          min-height: 48px;
+          margin: 0 1rem;
+        }
+      }
+
+      .divider {
+        margin: 0 10px;
+        width: 1px;
+        height: 100%;
+        border-left: solid 1px #ffffff;
+        display: none;
+
+        @include breakpoint($break-tablet) {
+          display: inline;
+        }
+      }
+    }
+  }
+}

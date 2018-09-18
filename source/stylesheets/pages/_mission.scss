@@ -4,6 +4,8 @@ body.about_mission .content {
 }
 
 body.about_mission .header-block {
+  display: flex;
+  justify-content: center;
   position: relative;
   width: 100%;
   height: 480px;
@@ -17,7 +19,9 @@ body.about_mission .header-block {
   }
 
   .header-container {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0 1rem;
 
     @include breakpoint($break-tablet) {

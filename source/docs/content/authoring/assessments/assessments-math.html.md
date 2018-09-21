@@ -6,7 +6,7 @@ full_width: true
 
 Codio allows you to set and grade math questions for any type and level of mathematics. As of September 2017, we only offer manual grading of mathematical expressions or proofs. 
 
-From November 2017, we will be adding support for sophisticated auto-grading of questions in the areas of algebra, trigonometry, matrices and calculus.
+If you require math assessments, please [contact us](mailto:help@codio.com) and we can arrange to enable this for your organisation
 
 ## Manually graded assessments using free text
 To create a manually graded math question, you can use the **Free text** assessment type. This allows the students to enter expressions or even full proofs and worked answers using Latex. For more information about Latex, please [click here](/docs/content/authoring/page-edit/latex/).

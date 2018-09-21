@@ -20,7 +20,14 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
 
 - **Name** is a short name that describes the test. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** is the actual text that should be shown to the user, written in markdown.
+- **Language Type** where you can select the language to use. 
+    - Ruby (>=2.0) requires `rubocop` and `rspec` gem
+    - Java (>=1.7) requires [Junit](/docs/ide/features/junit/) and `checkstyle`
+    - Python requires `pycodestyle`
+    - Javascript requires `jshint` (nodejs + jshint global package) and `jslint`(nodejs + jslint global package)
+            
 - **Command** is the command to run to invoke your test. See the section **Test code** below for more details.
+- **Timeout** is the period of time (seconds) the test will run before terminating.
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section **Partial Score** lower down on this page.
 - **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
 - **Answer and rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.

@@ -3,7 +3,7 @@
 
 // Run button configuration
   "commands": {
-        "Middleman": "M_ASSET_HOST=http://{{domain}}:3000 bundle exec middleman -p 3000",
+        "Middleman": "M_ASSET_HOST=http://{{domain3000}} bundle exec middleman -p 3000",
         "Kill Middleman": "pkill -9 ruby",
         "Build": "bundle exec middleman build",
         "Deploy to Production": "cap production deploy",
@@ -13,9 +13,9 @@
 
 // Preview button configuration
   "preview": {
-         "Docs": "http://{{domain}}:3000/docs",
-         "Home Page": "http://{{domain}}:3000/",
-         "Blog": "http://{{domain}}:3000/blog",
+         "Docs": "http://{{domain3000}}/docs",
+         "Home Page": "http://{{domain3000}}/",
+         "Blog": "http://{{domain3000}}/blog",
          "Visit Ungit": "https://{{domain}}:9500/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
 			
   }

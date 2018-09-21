@@ -3,6 +3,7 @@
 
 @charset 'utf-8';
 
+@import 'proxima-nova-font';
 @import 'compass';
 @import 'compass/reset';
 @import 'compass/typography';
@@ -48,6 +49,7 @@ $susy: (
 @import 'pages/index';
 @import 'pages/cloudcs';
 @import 'pages/cloudlabs';
+@import 'pages/bootcamps';
 @import 'pages/universityleadership';
 @import 'pages/demo';
 @import 'pages/school';
@@ -59,6 +61,7 @@ $susy: (
 @import 'pages/mission';
 @import 'pages/error';
 @import 'pages/developer';
+@import 'pages/download';
 @import 'pages/features/shared';
 @import 'pages/features/features-subheader';
 @import 'pages/features/index';

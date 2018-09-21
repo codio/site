@@ -1,37 +1,31 @@
 /* globals $, numeral */
 
 const DEFAULT_START = {
-  business: 0,
   school: 0,
   university: 3
 };
 
 const DEFAULT_RANGE = {
-  business: 'month',
   school: 'year',
   university: 'year'
 };
 
 const DEFAULT_CURRENCY = {
-  business: 'dollar',
   school: 'pound',
   university: 'pound'
 };
 
 const ACTION_BTN_TEXT = {
-  business: 'Buy now',
   school: 'Buy now',
   university: 'Buy now'
 };
 
 const ACTION_BTN_LINK = {
-  business: 'mailto:help@codio.com',
   school: 'http://codio-2227229.hs-sites.com/buy-school',
   university: 'http://codio-2227229.hs-sites.com/buy-university'
 };
 
 const LEARN_MORE_LINK = {
-  business: '/developer',
   school: '/school',
   university: '/university'
 };
@@ -138,32 +132,11 @@ const setCurrency = currency => {
   state.symbol = (state.currency == "dollar") ? "$" : "£";
 };
 
-const fillUserLicences = () => {
-  const $list = $dropdown.find('ul');
-  $list.find('li').remove();
-
-  PRICES[state.type].forEach(function(current, $index) {
-    const $price = current.price[state.range][state.currency];
-    $list.append('<li><a class="menu-item" data-index="' + $index + '">' + numeral(current.count).format('0,0') + '</a></li>');
-  });
-
-  $dropdown.find('.dropdown-menu li a').click(function(){
-    const $index = $(this).data('index');
-    state.step = $index;
-    updateDisplay($index);
-  });
-};
-
 const updateFeatures = () => {
   const $featuresList = $('.features-list ul');
   $featuresList.find('li').remove();
 
   switch (state.type) {
-    case "business":
-    $featuresList.append('<li>Full IDE & terminal access</li>');
-    $featuresList.append('<li>Unlimited private projects</li>');
-    $featuresList.append('<li>Extensive support</li>');
-    break;
     case "school":
     $featuresList.append('<li>80+ course units mapped to national curricula</li>');
     $featuresList.append('<li>Online code editor so students code instantly</li>');
@@ -201,7 +174,6 @@ const setPaymentsIcons = type => {
 const onTabShow = type => {
   setType(type);
 
-  fillUserLicences();
   if (!isSafeStep()) {
     state.step = DEFAULT_START[state.type];
   }
@@ -217,31 +189,23 @@ const onTabShow = type => {
   $currencyBlock.css({'display' : 'block'});
   $('#contactUsBtn').css({'display' : 'none'});
   $('#requestQuoteBtn').css({'display' : 'none'});
-  $pricingContentCol.find('.price-count-block').css({'display' : 'block'});
-  $priceCount.css({'display' : 'block'});
+  $pricingContentCol.find('.price-count-block').css({'display' : 'none'});
+  $priceCount.css({'display' : 'none'});
   $subtextUniversity.css({'display' : 'none'});
   $subtextSchool.css({'display' : 'none'});
-  $dropdown.css({'display' : 'block'});
+  $dropdown.css({'display' : 'none'});
   $dropdown.find('.dropdown-menu li').find('a[data-index=' + DEFAULT_START[state.type] + ']').click();
   $currencyType.text(state.symbol);
-  $learnMoreLink.css({'float' : 'right'});
+  $learnMoreLink.css({'float' : 'none'});
 
   if (type === 'university') {
     $currencyBlock.css({'display' : 'none'});
     $('#contactUsBtn').css({'display' : 'inline'});
-    $pricingContentCol.find('.price-count-block').css({'display' : 'none'});
-    $priceCount.css({'display' : 'none'});
-    $dropdown.css({'display' : 'none'});
     $subtextUniversity.css({'display' : 'block'});
     $pricingContentCol.find('.first-letter-uppercase').text('Explore licensing options');
-    $learnMoreLink.css({'float' : 'none'});
   } else if (type === 'school') {
     $('#requestQuoteBtn').css({'display' : 'inline'});
     $subtextSchool.css({'display' : 'block'});
-    $pricingContentCol.find('.price-count-block').css({'display' : 'none'});
-    $priceCount.css({'display' : 'none'});
-    $dropdown.css({'display' : 'none'});
-    $learnMoreLink.css({'float' : 'none'});
   }
 };
 
@@ -258,8 +222,6 @@ const toggleChevron = e => {
 };
 
 const setupFaqBlock = () => {
-  $('#accordion-individual').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
-  $('#accordion-business').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
   $('#accordion-school').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
   $('#accordion-university').on('hidden.bs.collapse shown.bs.collapse', toggleChevron);
 };
@@ -297,7 +259,7 @@ $(document).ready(function () {
     console.log('Currency is not defined');
     updatePageForGBR();
     $('#pricingTab').find('a[href="#' + state.type + '"]').tab('show');
-    const geoplugin = '//freegeoip.net/json';
+    const geoplugin = 'https://geoip.codio.com/json/';
     defineLocation(geoplugin);
   }
   else {

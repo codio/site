@@ -11,12 +11,8 @@ footer {
 
     @include breakpoint($break-tablet) {
       @include container(12 of 16);
-      margin: 0 span(1.5 of 16);
-      max-width: $max-width;
-    }
-
-    @include breakpoint($max-width) {
       margin: 0 auto;
+      max-width: $max-width;
     }
   }
 
@@ -117,7 +113,7 @@ footer {
 
   .footer-list {
     @include span(2);
-    padding: 0 4*gutter();
+    padding: 0 5%;
     margin-bottom: 2 * $base-line-height;
     min-height: 195px;
 

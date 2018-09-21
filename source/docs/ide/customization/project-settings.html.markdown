@@ -15,6 +15,7 @@ Project settings, as distinct from Project preferences, are used to store the fo
 - Allow Box Cloning (subscription required)
 - Enable your Box as [Always-On](/docs/ide/boxes/always-on/)
 - Allow Private Static Preview. See [Preview](/docs/ide/features/inline-preview/) for more information. **NB** Only available from **Project>Settings**
+- Protect Dynamic Ports. Disable to allow preview of the box to anyone who knows the box url. **NB** Only available from **Project>Settings**
 - Delete your Project
 - Export the project as a Zip file.
 - Stack Settings - details of the stack used in your project.

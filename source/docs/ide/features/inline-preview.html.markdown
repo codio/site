@@ -11,12 +11,13 @@ You can use **Preview static** options on Static content only (HTML, CSS, JS and
 You can also preview static content on your mobile device easily using **Project>QR Code for Preview URL** to generate a QR code you can scan with a QR Reader on your device.
 
 ### Dynamic content
-To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the right-most menu option. You can access your server side application in one of two ways:
+To access files or services that are executed on the server (PHP, Ruby, Node etc.), you need to use the right-most menu option. You can access your server side application by:
 
-- `word1-word2-port.codio.io` which will access your box over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
-- `word1-word2.codio.io:port` where you can specify the port.
+- word1-word2-port.codio.io which will access your box over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
 
-`word1-word2` is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports in the normal way, but please be aware than Codio supported a restricted range of ports. Please refer to [this section](/docs/ide/boxes/ext-access) for more details.
+
+
+`word1-word2` is an automatically generated subdomain name for your Codio Box. You can configure your application to listen on ports defining the port in the URL, but please be aware than Codio supported a restricted range of ports. Please refer to [this section](/docs/ide/boxes/ext-access) for more details.
 
 Read on for information on how to configure your Static and Dynamic preview menus.
 
@@ -60,7 +61,7 @@ You are free to customize the menu in either of the following ways
 For details about the various tokens that can be inserted, please refer to **[Customizing the Run menu](/docs/ide/boxes/runmenu/)**.
 
 `{{domain3000}}` is the most important token for the **Preview menu**. It is replaced by the public url required to access your project over port 80, which is useful if your corporate firewall blocks ports other than 80 and 443.
-`{{domain}}` can also be used in the **Preview** menu. In most cases you will want to add the Port number (default 3000) to your service. e.g ` "Box URL": "http://{{domain}}:3000/",`
+`{{domain}}` can also be used in the **Preview** menu. In most cases you will want to add the Port number (default 3000) to your service. e.g ` "Box URL": "http://{{domain3000}}/",`
 
 
 ```json

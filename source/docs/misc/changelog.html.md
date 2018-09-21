@@ -11,8 +11,127 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**September 2018**
+
+
+- `[I] [13th]`: Fix problem for book based units when disabling units in class module
+- `[F] [13th]`: Add ability for 'mark as completed' to be [disabled](/docs/classes/unitmanagement/settings#disablecomplete) for individual units in classes
+- `[I] [12th]`: Remove https preview warning to avoid confusion for students
+- `[I] [12th]`: Improve handling of fullscreen button in frames
+- `[I] [12th]`: Improve Usability handling in menus
+- `[I] [11th]`: Fix problem with changing state of 'use submit buttons' setting in guides
+- `[I] [11th]`: Fix problem when adding projects to module with reserved words
+- `[I] [10th]`: Update explanatory text for Visibility Summary for Course and Modules
+- `[I] [10th]`: Fix problem with Guides Table of Contents
+- `[I] [10th]`: Improve handling of LTI full screen support
+- `[I] [10th]`: Improve handling of empty points field in Grade book assessment
+- `[I] [ 5th]`: Add example bash script for [autograding on completion](/docs/classes/unitmanagement/settings-info/autograde/#examplebashscript)
+- `[I] [ 5th]`: Improve handling of duplicate file warning
+- `[I] [ 4th]`: Improve colour contrast on [Quick Open](/docs/ide/features/quick-open/) and [Command Bar](/docs/ide/features/command-bar/)
+- `[I] [ 4th]`: Fix problem with handling of cancel button actions in project settings area
+- `[I] [ 3rd]`: Add support for `lis_course_offering_sourcedid` as a unique course identifier in LMS systems
+
+**August 2018**
+
+- `[I] [29th]`: Update handling of panel widths when guides is collapsed/reopened when in 3 column layout
+- `[I] [29th]`: Fix problem with [Quick Open](/docs/ide/features/quick-open/) handling in screen readers
+- `[F] [29th]`: Added [Self Invoicing](/docs/dashboard/account/billing/) for University and School organisation
+- `[F] [29th]`: Added support for [LTI Constant URLs](/docs/classes/lti/lticonstanturl) and [LTI Class fork](/docs/classes/lti/lticlassfork)
+- `[F] [22nd]`: Added [Codio LTI App](/docs/classes/lti/ltiapp) to improve ease of integrating Codio with LMS systems
+- `[I] [16th]`: Fix issue with [Custom Buttons](/docs/content/authoring/page-edit/buttons/) incorrectly handling
+- `[F] [ 9th]`: Add ability to use current file in [debugger](/docs/ide/features/debugging#debugfilepath) targets
+- `[I] [ 7th]`: update handling of [Crunch](/docs/misc/schoolscontent/crunch/) projects
+- `[I] [ 7th]`: Improve visibility of form elements and handling of [Quick Open](/docs/ide/features/quick-open/) dialog
+- `[I] [ 7th]`: Update menu handling for screen readers
+- `[F] [ 7th]`: Add additional 3 column [layout](/docs/content/authoring/settings-actions/page/) options
+- `[I] [ 4th]`: Fix problem with terminal opening in guides
+- `[I] [ 2nd]`: Add support for manual grading for [nbgrader](/docs/classes/monitor/nbgrader)
+
+**July 2018**
+
+- `[I] [26th]`: Improve handling of [Book](/docs/books/introduction) deletion
+- `[F] [26th]`: Add typescript support for [desktop application](/docs/dashboard/desktopapp)
+- `[F] [18th]`: Improve handling of enabling/disabling of class units
+- `[F] [17th]`: Fix issue with cloning [Partial Point Rubric](/docs/classes/monitor/grading-freetext#partialpointrubric) in IE browser
+- `[F] [13th]`: Add support for [nbgrader](/docs/classes/monitor/nbgrader)
+- `[I] [12th]`: Improve handing of copy file actions
+- `[I] [11th]`: Improve handling of cookie consent
+- `[I] [11th]`: Fix issue in counter for grading of book based units
+- `[F] [10th]`: Allow [Partial Point Rubric](/docs/classes/monitor/grading-freetext#partialpointrubric) to be cloned from other units
+- `[I] [ 3rd]`: Update handling of Edge browser integration with LMS systems
+- `[I] [ 3rd]`: Improve [plagiarism checker](/docs/classes/plag/plag-start/) adding new filters that can be set
+- `[I] [ 2nd]`: Fix problem with tab focus being lost in guides
+- `[I] [ 2nd]`: Fix problem when removing units from module/course in a class
+
+**June 2018**
+
+- `[I] [29th]`: Improve visibility of active buttons in tabs
+- `[I] [29th]`: Improve export class data to better handle any archived units
+- `[I] [29th]`: Fix problem with layout for manual grading in IE browser
+- `[I] [27th]`: Fix problem with adding user project permissions
+- `[F] [22nd]`: Add STACK file type in [Math assessment](/docs/content/authoring/assessments/assessments-math/) authoring and YAML validation.
+- `[I] [21st]`: Improve error message handling of publishing of books with broken .json files
+- `[I] [21st]`: Improve teacher view of pinned units
+- `[F] [20th]`: Add [Partial Point Rubric](/docs/classes/monitor/grading-freetext#partialpointrubric) for manual grading 
+- `[I] [19th]`: Improve behaviour of free text assessment
+- `[I] [19th]`: Update unit publishing to ignore assessmentsAnswers.json file
+- `[I] [19th]`: Update handling of assessment submiit button
+- `[F] [15th]`: Add [collapse on start](/docs/content/authoring/settings-actions/global#guidescollapse) for guides
+- `[I] [15th]`: Improve handling of [exporting class data](/docs/classes/classmanagement/export/)
+- `[I] [13th]`: Improve support for keyboard and screen readers
+- `[I] [13th]`: Update handling of dynamic port protection
+- `[I] [ 5th]`: Add overview video for [desktop application](/docs/dashboard/desktopapp)
+- `[I] [ 4th]`: Improve handling of mark as completed process for students
+
+**May 2018**
+
+- `[I] [31st]`: Improve handling of autocomplete when searching for users to share projects
+- `[I] [28th]`: Improve handling of local deleted files and folders in [desktop application](/docs/dashboard/desktopapp)
+- `[I] [28th]`: Improve handling of assessment points if changed when updating unit in class
+- `[I] [28th]`: Fix issue with [plagiarism](/docs/classes/plag/) in book based units
+- `[I] [24th]`: Improve handling of `exit` terminal commands
+- `[I] [21st]`: Fix problem with teachers opening own last version of unit in [courses](/docs/courses/units/edit/)
+- `[I] [21st]`: Fix issue with restarting [guides](/docs/ide/tools/guides/) after changing settings
+- `[I] [21st]`: Improve message handling of errors in [debugger](/docs/ide/features/debugging/)
+- `[I] [21st]`: Fix issue for students opening list of units
+- `[I] [18th]`: Fix issue with updating stack causing issue publishing new version of course unit
+- `[F] [18th]`: Add support for timeout period in [advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/)
+- `[I] [18th]`: Improve layout for student grading screens
+- `[I] [18th]`: Update subscription information shown when plan expires
+- `[I] [16th]`: Teachers in Self-Pay organisations no longer require subscription
+- `[F] [14th]`: Restrict preview of box url to owners of the box. See [Project Settings](/docs/ide/customization/project-settings/) for more information
+- `[I] [14th]`: Improve handling of file and directory names in [desktop application](/docs/dashboard/desktopapp)
+- `[F] [ 8th]`: Add support for Python and Javascript in [advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/)
+- `[F] [ 4th]`: Improve handling of tab focus when returning to a unit
+- `[I] [ 4th]`: Fix issue with project list last accessed sorting
+- `[F] [ 4th]`: Add [Grade Book](/docs/content/authoring/assessments/assessments-gradebook) assessment
+
+
+**April 2018**
+
+- `[F] [27th]`: Add support for Java and Ruby in [advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/)
+- `[I] [27th]`: Improve handling of downloading files in private projects
+- `[I] [27th]`: Improve handling for [language server protocol](/docs/ide/boxes/installsw/langserver/)
+- `[I] [24th]`: Improve accessibility to support dialog actions accessible from keyboard
+- `[I] [24th]`: Fix issue with [replace](/docs/ide/editing/search-replace/) in projects
+- `[I] [20th]`: Fix grading issue with [rubric templates](/docs/classes/classmanagement/rubric/) 
+- `[I] [20th]`: Improve messaging for errors when synchronising units in [desktop application](/docs/dashboard/desktopapp)
+- `[I] [19th]`: Fix problem with invite teacher process
+- `[I] [16th]`: Improve handling of unit/project descriptions in [desktop application](/docs/dashboard/desktopapp)
+- `[I] [14th]`: New [desktop application](/docs/dashboard/desktopapp) allowing a local code workspace to synchronize with a Codio box.
+- `[I] [13th]`: Improve performance of X-server
+- `[I] [13th]`: Improve handling of double clicking on submission of assessments
+- `[I] [ 4th]`: Improve visualisation of navigation options in teacher dashboard
+- `[I] [ 2nd]`: Update IDE shortcut key for accessing menu (to F10)
+- `[I] [ 2nd]`: Update handling of [download csv](/docs/classes/monitor/progress#downloadcsv) to better handle characters in grading comments
+
 **March 2018**
 
+- `[I] [29th]`: Update handling of [books](/docs/books/introduction) requiring [guides](/docs/content/authoring) before [publishing](/docs/books/publish)
+- `[I] [27th]`: Improve IDE menu items for better keyboard accessibility
+- `[I] [27th]`: Update structure of [exporting class data](/docs/classes/classmanagement/export/)
+- `[I] [27th]`: Improve memory handling for [language server protocol](/docs/ide/boxes/installsw/langserver/)
+- `[I] [23rd]`: Improve handling of focus when switching panels using [keyboard shortcuts](/docs/ide/customization/codio-prefs/)
 - `[I] [20th]`: Improve messaging when stack/pack owner is changed
 - `[F] [20th]`: Allow adjustment of [unit penalties](/docs/classes/unitmanagement/settings-info/penalties#adjustdeadline) for individual students
 - `[I] [19th]`: Fix sorting of units in classes

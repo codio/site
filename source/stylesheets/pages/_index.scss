@@ -1,20 +1,5 @@
 .vertical {
-  /* Internet Explorer 10 */
-  display: -ms-flexbox;
-  -ms-flex-pack: center;
-  -ms-flex-align: center;
-  /* Firefox */
-  display: -moz-box;
-  -moz-box-pack: center;
-  -moz-box-align: center;
-  /* Safari, Opera, and Chrome */
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  /* W3C */
-  display: box;
-  box-pack: center;
-  box-align: center;
+  display: flex;
 }
 
 body {
@@ -35,517 +20,595 @@ body.index {
   }
 }
 
-body.index .section-scroll {
-  padding: 0;
+body.index .carousel-block {
   position: relative;
-  height: 100%;
+  display: block;
+  padding: 0;
+  line-height: 0;
 
-  .row {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-
-    &:before {
-      display: table;
-      content: "";
-    }
-    &:after {
-      clear: both;
-    }
+  .carousel-indicators {
+    bottom: 10px;
   }
 
-  .row [class*="span"] {
-    display: block;
-    float: left;
-    min-height: 28px;
+  .carousel-inner {
+    display: flex;
+    height: 100%;
 
-    &:first-child {
-      margin-left: 0;
-    }
-  }
-
-  .row .span12 {
-    width: 100%;
-  }
-
-  .cell-wrapper {
-    display: block;
-  }
-
-  .featured-posts {
-    .item {
-      overflow: hidden;
-
-      .post-image {
-        padding: 20px;
-        background-size: cover !important;
-        background-position: top center !important;
-        width: 100%;
-        position: relative;
-        background-color: #00aced;
-      }
-
-      &:first-child {
-        display: block;
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
-
-        @include breakpoint($break-tablet) {
-          width: 50%;
-          float: left;
-          padding: 0;
-        }
-
-        .post-image {
-          height: 300px;
-          background: url('/img/assets/index/sheffield-university.jpg') no-repeat;
-
-          @include breakpoint($break-tablet) {
-            height: 25vw;
-          }
-          @include breakpoint(1024px) {
-            height: 50vw;
-          }
-        }
-      }
-
-      &:first-child+.item {
-        display: block;
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
-
-        @include breakpoint($break-tablet) {
-          width: 50%;
-          float: left;
-          padding: 0;
-          padding-left: 15px;
-        }
-
-        .post-image {
-          height: 300px;
-          background: url('/img/assets/index/wright-state-university.jpg') no-repeat;
-
-          @include breakpoint($break-tablet) {
-            height: 25vw;
-          }
-        }
-      }
-
-      &:first-child+.item+.item {
-        display: block;
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
-
-        @include breakpoint($break-tablet) {
-          width: 50%;
-          float: left;
-          padding: 0;;
-          padding-top: 15px;
-        }
-
-        .post-image {
-          height: 300px;
-          background: url('/img/assets/index/codio-video-3.2.jpg') no-repeat;
-
-          @include breakpoint($break-tablet) {
-            height: 25vw;
-          }
-        }
-      }
-
-      &:first-child+.item+.item+.item {
-        display: block;
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
-
-        @include breakpoint($break-tablet) {
-          width: 50%;
-          float: left;
-          padding: 0;
-          padding-left: 15px;
-          padding-top: 15px;
-          padding-bottom: 15px;
-        }
-
-        .post-image {
-          height: 300px;
-          background: url('/img/assets/index/coventry-university-w.jpg') no-repeat;
-
-          @include breakpoint($break-tablet) {
-            height: 25vw;
-          }
-
-          @include breakpoint(1024px) {
-            background: url('/img/assets/index/coventry-university.jpg') no-repeat;
-          }
-        }
-      }
-
-      &:first-child+.item+.item, &:first-child+.item+.item+.item {
-        @include breakpoint (1024px) {
-          width: 25%;
-          padding-left: 15px;
-          padding-top: 15px;
-          float: left;
-
-          .post-image {
-            height: calc(25vw - 15px);
-            background-color: #ff2632;
-          }
-        }
-      }
-    }
-
-    .item-wrapper {
-      position: relative;
-      z-index: 2;
-      display: block;
+    .box {
+      width: 95%;
       height: 100%;
-      color: #ffffff;
+      margin: 0 auto;
     }
 
-    .author-data {
-      word-wrap: break-word;
+    img {
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+      vertical-align: middle;
+    }
 
-      a.author-link {
-        color: #ffffff;
-        font-size: 12px;
-        font-weight: 600;
-        position: absolute;
-        right: auto;
-        top: 5px;
-        left: 0;
-        text-transform: uppercase;
-        display: inline-block;
-        max-width: 70%;
-        text-align: left;
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 75%;
+      padding-top: 65px;
+      color: #fff;
+
+      .heading {
+        font-family: $proxima-extra-bold;
+        font-size: 32px;
+        line-height: 2rem;
+      }
+
+      .sub-heading {
+        font-family: $proxima-light;
+        font-size: 20px;
+        line-height: 1.8rem;
+      }
+
+      @include breakpoint(800px) {
+        padding-top: 0px;
+
+        .heading {
+          font-size: 4vw;
+          padding-top: 65px;
+        }
+
+        .sub-heading {
+          font-size: 2vw;
+          padding-top: 1%;
+          padding-bottom: 5%;
+        }
       }
     }
 
-    .post-date {
-      position: absolute;
-      right: 0;
-      top: 0;
-      font-size: 12px;
-      font-weight: 600;
-      text-transform: uppercase;
+    .header-button {
+      display: flex;
+      height: 25%;
+      justify-content: center;
+      align-items: center;
     }
 
-    .title-wrap {
+    .button-large {
+      padding: 15px 35px;
+      font-size: 16px;
+
+      @include breakpoint(800px) {
+        font-size: 1.2vw;
+      }
+    }
+
+    .information {
+      display: none;
       position: absolute;
-      bottom: 0;
-      display: block;
+      font-size: 2vw;
+      color: #FFFFFF;
+      bottom: 4.5vw;
+      right: 8.2vw;
+
+      @include breakpoint(800px) {
+        display: block;
+      }
+    }
+
+    .information-border {
+      display: none;
+      position: absolute;
+      width: 3vw;
+      height: 3vw;
+      border-radius: 50%;
+      border: 2px solid #FFFFFF;
+      bottom: 3vw;
+      right: 7vw;
+
+      @include breakpoint(800px) {
+          display: block;
+      }
+    }
+
+    .tooltip-text {
+      font-size: 1.1vw;
+      font-weight: 100;
+      padding: 10px;
+      line-height: 1rem;
+      font-style: italic;
+
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-top-color: #f2f2f2;
+        border-bottom: 0;
+        border-right: 0;
+        margin-left: -20px;
+        margin-bottom: -15px;
+      }
 
       a {
-        color: #ffffff;
-      }
-
-      .post-title {
-        display: block;
-
-        h2 {
-          display: block;
-          font-size: 26px;
-          font-weight: 600;
-          padding-bottom: 10px;
-          margin-bottom: 0;
-        }
-      }
-
-      .post-recents-topic {
-        display: block;
-
-        .topic-link {
-          display: inline-block;
-          font-size: 12px;
-          font-weight: 600;
-          text-transform: capitalize;
-          padding: 2px 12px;
-        }
+        text-decoration: underline;
       }
     }
-  }
 
-  .block-rectangle {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-top: 65px;
-    margin-bottom: 15px;
-    background-size: cover !important;
-    background-position: top center !important;
-    background: url('/img/assets/index/cloud-infrastructure.jpg') no-repeat;
-    color: $light-gray;
-    font-size: 16px;
-
-    @include breakpoint (640px) {
-      height: 800px;
-    }
-  }
-
-  .content-wrapper {
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 2rem 0;
-
-    @include breakpoint(1050px) {
-      padding: 2rem 3rem;
+    .information-border span {
+      background-color: #f2f2f2;
+      color: $blue;
+      opacity: 0;
+      padding: 10px;
+      position: absolute;
+      visibility: hidden;
+      width: 16vw;
+      right: 3vw;
+      bottom: 3vw;
+      z-index: 10;
+      text-align: left;
+      transition: .5s linear 2s;
     }
 
-    .top-block {
+    .information-border:hover span {
+      opacity: 1;
+      visibility: visible;
+      transition: .5s linear;
+    }
+
+    .slot-1, .slot-2, .slot-3 {
       width: 100%;
+      height: 440px;
+      text-align: center;
+      background-size: cover;
+      background-position-x: center;
 
-      .top-row {
-        display: block;
-        font-weight: 600;
-        text-align: center;
-
-        @include breakpoint($break-tablet) {
-          text-align: left;
-          &:nth-child(5) {
-            display: none;
-          }
-        }
-
-        .number {
-          display: none;
-          border-right: 1px solid $light-gray;
-          min-width: 25px;
-          text-align: left;
-
-          @include breakpoint($break-tablet) {
-            display: inline-block;
-            margin-left: 1rem;
-          }
-          @include breakpoint(1050px) {
-            margin-left: 0;
-          }
-        }
-
-        .text {
-          font-weight: 400;
-          margin: auto;
-          text-align: center;
-          display: inline-block;
-
-          @include breakpoint ($break-tablet) {
-            padding-left: 15px;
-            text-align: left;
-          }
-
-          .desktop {
-            display: none;
-            @include breakpoint(1110px) {
-              display: inline-block;
-            }
-          }
-
-          .tablet {
-            display: inline-block;
-            @include breakpoint(1110px) {
-              display: none;
-            }
-          }
-        }
-
-        &:nth-child(2), &:nth-child(3), &:nth-child(5) {
-          .text {
-            color: #ffffff;
-            font-size: 21px;
-
-            @include breakpoint(880px) {
-              font-size: 23px;
-            }
-            @include breakpoint(1100px) {
-              font-size: 27px;
-            }
-          }
-
-          padding: 1rem;
-          &:nth-child(2) {
-            padding-bottom: 20px;
-          }
-
-          &:nth-child(3) {
-            padding-top: 0;
-          }
-
-          @include breakpoint(420px) {
-            padding: 2rem;
-          }
-
-          @include breakpoint($break-tablet) {
-            padding: 0;
-            &:nth-child(2) {
-              padding-bottom: 0;
-            }
-          }
-        }
-
-        &:nth-child(5) {
-          .text {
-            font-size: 26px;
-            line-height: 28px;
-            font-weight: 400;
-          }
-
-          @include breakpoint($break-tablet) {
-            .text {
-              font-size: 35px;
-              line-height: 36px;
-              font-weight: 600;
-            }
-          }
-        }
-
-        &:nth-child(2), &:nth-child(4) {
-          .number {
-            padding-top: 8px;
-            padding-bottom: 8px;
-          }
-        }
-
-        &:nth-child(1), &:nth-child(3) {
-          .number {
-            padding-top: 8px;
-            padding-bottom: 22px;
-          }
-        }
-
-        &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
-          display: none;
-
-          @include breakpoint($break-tablet) {
-              display: block;
-          }
-        }
+      @include breakpoint(800px) {
+        height: 52vw;
       }
     }
 
-    .boxes {
-      margin: 0;
-      padding: 0;
+    .slot-1 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-dv-carousel1.jpg');
+    }
 
-      @include breakpoint(1050px) {
-        height: 400px;
-        margin-left: 24px;
-        padding-left: 20px;
-        border-left: 1px solid $light-gray;
-      }
+    .slot-2 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-drone-carousel2.jpg');
+    }
 
-      .box {
-        float: none;
-        display: block;
-        width: 85%;
-        height: auto;
-        background-color: #ffffff;
-        border-radius: 5px;
-        padding-bottom: 15px;
-
-        &:first-child {
-          margin: auto;
-          @include breakpoint(640px) {
-            margin-left: 15px;
-          }
-        }
-        &:last-child {
-          margin: auto;
-          @include breakpoint(640px) {
-            margin-left: 16px;
-            margin-right: 15px;
-          }
-        }
-
-        @include breakpoint(420px) {
-          padding-bottom: 0;
-          height: 410px;
-        }
-
-        @include breakpoint(640px) {
-          float: left;
-          width: calc(50vw - 32px);
-          height: 430px;
-        }
-
-        @include breakpoint(1050px) {
-          width: 370px;
-          height: 400px;
-
-          &:first-child {
-            margin-left: 0;
-          }
-          &:last-child {
-            margin-left: 25px;
-          }
-        }
-
-        .box-content {
-          text-align: center;
-
-          .box-image {
-            width: 100%;
-            height: 50px;
-            margin: 1rem 0;
-            padding-top: 15px;
-
-            @include breakpoint(420px) {
-              height: 70px;
-              padding: 0;
-            }
-
-            img {
-              height: 100%;
-              width: auto;
-            }
-          }
-
-          .box-header {
-            color: #0b97c4;
-            font-weight: 400;
-            font-size: 1.6rem;
-            line-height: 2rem;
-            padding: 0.5rem;
-
-            @include breakpoint(420px) {
-              font-size: 1.4rem;
-              line-height: 1.6rem;
-            }
-          }
-
-          .box-text {
-            color: #97a3aa;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.4rem;
-            padding: 0.5rem 1rem;
-            min-height: 0;
-
-            @include breakpoint(420px) {
-              font-size: 16px;
-              line-height: 1.6rem;
-              min-height: 215px;
-            }
-
-            @include breakpoint(750px) {
-              min-height: 180px;
-            }
-          }
-
-          .box-button {
-            vertical-align: bottom;
-
-            .button {
-              text-transform: none;
-            }
-          }
-        }
-      }
+    .slot-3 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-robot-carousel3.jpg');
     }
   }
 }
+
+body.index .features-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $blue;
+  padding: 5px;
+  color: #FFFFFF;
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+
+    .icon {
+      padding: 10px;
+      width: 100px;
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+
+      @include breakpoint(800px) {
+        width: 10vw;
+        height: 10vw;
+      }
+    }
+
+    .text{
+      font-family: $proxima-light;
+      font-size: 26px;
+      padding: 10px;
+
+      span {
+        font-family: $proxima-bold;
+      }
+
+      @include breakpoint(800px) {
+        font-size: 28px;
+        height: 74px;
+      }
+
+      @include breakpoint($max-width) {
+        font-size: 36px;
+        margin: 30px 0;
+      }
+    }
+
+    .numbers {
+      font-family: $proxima-bold;
+      font-size: 50px;
+      padding: 10px;
+
+      @include breakpoint(800px) {
+        font-size: 60px;
+      }
+
+      @include breakpoint($max-width) {
+        font-size: 110px;
+      }
+    }
+
+    @include breakpoint(800px) {
+      width: 50%;
+    }
+  }
+
+  @include breakpoint(800px) {
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+body.index .info-block {
+  background-color: $base-background-color;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px;
+  color: #243249;
+  text-align: center;
+  line-height: 2rem;
+
+  .title {
+    font-family: $proxima-extra-bold;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+  }
+
+  .description {
+    font-family: $proxima-bold;
+    font-size: 1.1rem;
+    padding: 10px 10px 20px 10px;
+  }
+
+  .two-text {
+    font-weight: 300;
+    padding: 10px 0;
+    font-size: 22px;
+    line-height: 1.3rem;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .two-text-left, .two-text-right {
+      flex: 1 1 50%;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .two-text-line {
+      border-left: 1px solid black;
+    }
+
+    span {
+      font-family: $proxima-bold;
+    }
+  }
+
+  .image-text {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: $proxima-light;
+    line-height: 2em;
+
+    .image-block, .text-block {
+      flex: 1 1 50%;
+      padding: 0 20px;
+    }
+
+    .image-block {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .text-block {
+      font-size: 22px;
+      line-height: 22px;
+      text-align: center;
+      padding-top: 20px;
+
+      .info {
+        font-family: $proxima-bold;
+        padding-bottom: 15px;
+      }
+
+      p {
+        padding-bottom: 15px;
+        margin: 0;
+      }
+
+      span {
+        font-family: $proxima-extra-bold;
+      }
+
+      @include breakpoint(800px) {
+        font-size: 24px;
+        text-align: left;
+        line-height: 30px;
+      }
+
+      @include breakpoint(1200px) {
+        font-size: 28px;
+        line-height: 36px;
+      }
+    }
+
+    @include breakpoint(1024px) {
+      flex-direction: row;
+
+      .text-block {
+        padding-top: 0;
+      }
+    }
+  }
+
+  .img-block {
+    background-color: #e6e6e6;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 1px;
+
+    .image {
+      width: 100%;
+      height: auto;
+      min-height: 1px;
+    }
+
+    .check-list {
+      font-family: $proxima-light;
+      font-size: 20px;
+      padding: 20px;
+      margin-top: 10px;
+      text-align: left;
+      line-height: 24px;
+
+      .check-list-list {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+      }
+
+      .check-list-list-item {
+        padding-left: 2em;
+        padding-bottom: 12px;
+        text-indent: -1.5em;
+
+        @include breakpoint(800px) {
+          text-indent: -1.7em;
+        }
+      }
+
+      .check-list-list-item:before {
+        font-size: 14px;
+        content: '\25B6';
+        padding-right: 1em;
+
+        @include breakpoint(800px) {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .schedule-demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    padding-bottom: 0;
+
+    .button-large {
+      height: auto;
+      padding: 0px 10px;
+      font-size: 14px;
+
+      @include breakpoint(800px) {
+        padding: 10px 35px;
+        font-size: 18px;
+      }
+    }
+
+    @include breakpoint(1100px) {
+      width: 65%;
+    }
+
+    .button-main:hover {
+      background-color: $base-background-color;
+      color: $orange;
+    }
+
+    .case-study-btn {
+      background-color: $base-background-color;
+      border-color: $blue;
+      color: $blue;
+
+      &:hover {
+        background-color: $blue;
+        color: $base-background-color;
+      }
+    }
+  }
+
+  @include breakpoint(800px) {
+    padding: 150px 60px;
+
+    .title {
+      font-size: 3rem;
+      padding-bottom: 40px;
+    }
+
+    .description {
+      font-size: 1.4rem;
+    }
+
+    .two-text-left, .two-text-right {
+      padding: 10px 80px;
+    }
+
+    .img-block .check-list {
+      margin-top: 40px;
+      font-size: 26px;
+      line-height: 36px;
+    }
+  }
+}
+
+body.index #easySetup {
+  padding-top: 0;
+}
+
+body.index {
+  .testimonial-gordon-fraser, .testimonial-mateen-rizki,
+  .testimonial-mateen-rizki-black, .testimonial-eitan-grinspun {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $blue;
+    padding: 20px;
+
+    .quote-left, .quote-right {
+      width: 30px;
+      height: auto;
+    }
+
+    .quote-left {
+      align-self: flex-start;
+    }
+
+    .quote-author-avatar {
+      width: 200px;
+      height: 200px;
+      color: red;
+      background-color: green;
+      background: url(/img/assets/index/gordon-fraser.png) center center no-repeat;
+      background-size: cover;
+      margin: 0 30px;
+      align-self: center;
+    }
+
+    .quote-right {
+      align-self: flex-end;
+    }
+
+    .quote-inner-info {
+      width: 100%;
+      margin: 30px 0 0 0;
+      color: #FFFFFF;
+      text-align: center;
+
+      .quote-topic {
+        font-family: $proxima-bold;
+        font-size: 30px;
+      }
+
+      .quote-text {
+        font-family: $proxima-light;
+        font-style: italic;
+        margin-top: 30px;
+        font-size: 26px;
+        line-height: 1.8rem;
+      }
+
+      .quote-author {
+        margin-top: 30px;
+        font-size: 30px;
+        display: flex;
+
+        .quote-author-info {
+          flex: 1 1 auto;
+          line-height: 1.2em;
+
+          .quote-author-name {
+            font-family: $proxima-bold;
+          }
+
+          .quote-author-occupation {
+            font-family: $proxima-light;
+          }
+        }
+      }
+    }
+
+    @include breakpoint(800px) {
+      flex-direction: row;
+      padding: 50px 0;
+
+      .quote-author-avatar {
+        align-self: flex-start;
+      }
+
+      .quote-inner-info {
+        width: 60%;
+        margin: 0 30px 0 0;
+        text-align: left;
+      }
+    }
+  }
+
+  .testimonial-mateen-rizki, .testimonial-mateen-rizki-black {
+    .quote-author-avatar {
+      background: url(/img/assets/index/mateen-rizki.png) center center no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .testimonial-mateen-rizki-black, .testimonial-eitan-grinspun {
+    background-color: #243249;
+  }
+
+  .testimonial-eitan-grinspun {
+    .quote-author-avatar {
+      background: url(/img/assets/index/eitan-grinspun.png) center center no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+

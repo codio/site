@@ -13,7 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2018**
 
-
+- `[I] [20th]`: Fix problem embedding content in [Canvas](/docs/classes/lti/canvas) 
+- `[I] [20th]`: Improve [download csv](/docs/classes/monitor/progress#downloadcsv) content adding students email address
+- `[I] [20th]`: Remove character limitation for [grading](/docs/classes/monitor/grading/) comments
+- `[I] [15th]`: Improve [download csv](/docs/classes/monitor/progress#downloadcsv) content, adding 2 new fields for Points and Max Points
 - `[I] [13th]`: Fix problem for book based units when disabling units in class module
 - `[F] [13th]`: Add ability for 'mark as completed' to be [disabled](/docs/classes/unitmanagement/settings#disablecomplete) for individual units in classes
 - `[I] [12th]`: Remove https preview warning to avoid confusion for students

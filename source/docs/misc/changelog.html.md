@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2018**
 
+- `[I] [26th]`: Fix layout of media page in guides settings
+- `[F] [26th]`: Add feature for IDE top menu to be [customised](/docs/content/authoring/playmode/#customisetopmenu) for student view when running guides
+- `[I] [24th]`: Fix problem with [Self Invoicing](/docs/dashboard/account/billing/) 
+- `[I] [24th]`: Improve messaging of local file changes when disconnecting project in [desktop application](/docs/dashboard/desktopapp)
 - `[I] [20th]`: Fix problem embedding content in [Canvas](/docs/classes/lti/canvas) 
 - `[I] [20th]`: Improve [download csv](/docs/classes/monitor/progress#downloadcsv) content adding students email address
 - `[I] [20th]`: Remove character limitation for [grading](/docs/classes/monitor/grading/) comments

@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2018**
 
+- `[F] [27th]`: Add [organisation]((/docs/dashboard/create/orgcontacturl) and [class](/docs/classes/classmanagement/classcontacturl) contact url for students to be able to raise questions,seek assistance from your preferred area (forums/LMS discussion areas etc)
 - `[I] [26th]`: Fix layout of media page in guides settings
 - `[F] [26th]`: Add feature for IDE top menu to be [customised](/docs/content/authoring/playmode/#customisetopmenu) for student view when running guides
 - `[I] [24th]`: Fix problem with [Self Invoicing](/docs/dashboard/account/billing/) 

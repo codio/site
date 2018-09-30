@@ -21,6 +21,39 @@ Finally, there is also a button at the top of the file tree that launches the co
 
 <img alt="StartGuides" src="/img/docs/guides/startguides.png" class="simple"/>
 
+<a name="customisetopmenu"></a>
+### Customising IDE menu
+To simplify the educational process for students, the top menu can be customised to remove options from students that they cannot override.
+
+
+Through a `.codio-menu` file, a teacher can specify what menu items should be hidden.
+Example:
+
+```json
+{
+    "Codio": false,
+    "Project": {
+         "Permissions": false
+    },
+    "Help": false,
+    "Run": false,
+    "Preview": false,
+    "Debugger": false,
+    "Status": false
+}
+```
+
+**Please note that if setting Status=false, students will need to use the 'Back to Dashboard' button shown on the last page of the guides to return to their dashboard area**
+
+Setting up .codio-menu file:
+
+<img alt="EditorMode" src="/img/docs/guides/codiomenu.png" class="simple"/>
+
+Menu items that the student will see:
+
+<img alt="PreviewMode" src="/img/docs/guides/codiomenupreview.png" class="simple"/>
+
+The student will not see the .codio-menu file to be able to edit/change it.
 
 ### Player Options
 <img alt="authtoken" src="/img/docs/guides/playmode.png" class="simple"/>

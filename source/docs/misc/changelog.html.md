@@ -14,7 +14,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 **October 2018**
 
 - `[I] [ 3rd]`: Fix problem when executing commands in [Guides](/docs/content/authoring/page-edit/buttons/) that contain brackets
-- `[F] [ 3rd]`: Add [organisation]((/docs/dashboard/create/orgcontacturl) and [class](/docs/classes/classmanagement/classcontacturl) contact url for students to be able to raise questions, seek assistance from your preferred area (forums/LMS discussion areas etc)
+- `[F] [ 3rd]`: Add [organisation](/docs/dashboard/create/orgcontacturl) and [class](/docs/classes/classmanagement/classcontacturl) contact url for students to be able to raise questions, seek assistance from your preferred area (forums/LMS discussion areas etc)
 - `[F] [ 3rd]`: Add ability to sort students in classes by first or last names
 
 **September 2018**

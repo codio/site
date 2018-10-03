@@ -289,10 +289,12 @@ body.docs .section-block-row-three {
     }
 
     li {
-      margin-left: 30px;
+      margin-left: 10px;
       margin-bottom: 6px;
+      padding-left: 20px;
       line-height: 19px;
-      list-style-type: disc;
+      list-style-type: none;
+      background: url('/img/docs/dot-icon-16x16.png') no-repeat left center;
     }
 
     @include breakpoint($break-tablet) {
@@ -311,6 +313,7 @@ body.docs .section-block-row-three {
       margin-right: 0px;
       font-size: 22px;
       color: $light-blue;
+      background: none;
     }
 
     .link-collapse.collapsed:before {
@@ -326,6 +329,7 @@ body.docs .section-block-row-three {
         list-style: none;
         margin-left: 0;
         padding-left: 32px;
+        background: none;
       }
     }
 
@@ -334,14 +338,14 @@ body.docs .section-block-row-three {
       margin-top: 10px;
 
       li {
-        margin-left: 32px;
-        list-style: disc outside none;
+        margin-left: 12px;
       }
     }
 
     li.ob, ul.items-list li.ob {
       list-style: none;
       margin-left: 0;
+      background: none;
 
       .video-icon {
         display: inline-block;

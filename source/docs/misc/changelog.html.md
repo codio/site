@@ -11,9 +11,23 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2018**
+
+- `[I] [ 3rd]`: Fix problem when executing commands in [Guides](/docs/content/authoring/page-edit/buttons/) that contain brackets
+- `[F] [ 3rd]`: Add [organisation](/docs/dashboard/create/orgcontacturl) and [class](/docs/classes/classmanagement/classcontacturl) contact url for students to be able to raise questions, seek assistance from your preferred area (forums/LMS discussion areas etc)
+- `[F] [ 3rd]`: Add ability to sort students in classes by first or last names
+
 **September 2018**
 
-
+- `[I] [30th]`: Fix problem with [Multiple Choice](/docs/content/authoring/assessments/assessments-mcq/) assessments not showing students correct answers on submission
+- `[I] [26th]`: Fix layout of media page in guides settings
+- `[F] [26th]`: Add feature for IDE top menu to be [customised](/docs/content/authoring/playmode/#customisetopmenu) for student view when running guides
+- `[I] [24th]`: Fix problem with [Self Invoicing](/docs/dashboard/account/billing/) 
+- `[I] [24th]`: Improve messaging of local file changes when disconnecting project in [desktop application](/docs/dashboard/desktopapp)
+- `[I] [20th]`: Fix problem embedding content in [Canvas](/docs/classes/lti/canvas) 
+- `[I] [20th]`: Improve [download csv](/docs/classes/monitor/progress#downloadcsv) content adding students email address
+- `[I] [20th]`: Remove character limitation for [grading](/docs/classes/monitor/grading/) comments
+- `[I] [15th]`: Improve [download csv](/docs/classes/monitor/progress#downloadcsv) content, adding 2 new fields for Points and Max Points
 - `[I] [13th]`: Fix problem for book based units when disabling units in class module
 - `[F] [13th]`: Add ability for 'mark as completed' to be [disabled](/docs/classes/unitmanagement/settings#disablecomplete) for individual units in classes
 - `[I] [12th]`: Remove https preview warning to avoid confusion for students

@@ -11,8 +11,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**October 2018**
+
+- `[I] [ 3rd]`: Fix problem when executing commands in [Guides](/docs/content/authoring/page-edit/buttons/) that contain brackets
+- `[F] [ 3rd]`: Add [organisation]((/docs/dashboard/create/orgcontacturl) and [class](/docs/classes/classmanagement/classcontacturl) contact url for students to be able to raise questions, seek assistance from your preferred area (forums/LMS discussion areas etc)
+- `[F] [ 3rd]`: Add ability to sort students in classes by first or last names
+
 **September 2018**
 
+- `[I] [30th]`: Fix problem with [Multiple Choice](/docs/content/authoring/assessments/assessments-mcq/) assessments not showing students correct answers on submission
 - `[I] [26th]`: Fix layout of media page in guides settings
 - `[F] [26th]`: Add feature for IDE top menu to be [customised](/docs/content/authoring/playmode/#customisetopmenu) for student view when running guides
 - `[I] [24th]`: Fix problem with [Self Invoicing](/docs/dashboard/account/billing/) 

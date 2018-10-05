@@ -49,9 +49,9 @@ To assign comments or a grade, you click on the Grade icon (see image above with
 
 <img alt="authtoken" src="/img/docs/grading-assign.png" class="simple"/>
 
-
+<a name="releasegrades"></a>
 ### Releasing Grades
-Students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go then simply flick the release grades switch before you start grading.
+By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go then simply flick the release grades switch before you start grading.
 
 <img alt="authtoken" src="/img/docs/grading-release.png" class="simple"/>
 
@@ -60,6 +60,12 @@ Students are able to see their grades either from their My Classroom view or by 
 You can also release grades from the main Unit view right clicking on the 3 vertical dots and selecting **Release grades**.
 
 <img alt="authtoken" src="/img/docs/grading-release2.png" class="simple"/>
+
+<a name="releasegradesstatus"></a>
+### Automatically releasing grades
+If you wish to automatically release grades when students complete a unit, you can enable this feature at the organisation level so when you create new [classes](/docs/classes/classmanagement/create-class/) this option is automatically enabled. See [organisation release grades](/docs/dashboard/create/orgreleasegrades) for more information.
+
+You can also change the status of this feature for individual classes if required on the admin tab of the class. 
 
 ### Grading moderation
 In some situations you may want to monitor the accuracy of grading. This can become especially important if you have more than one lecturer or teacher grading student work. It is important that students can rely on a consistency of grades no matter which person actually assigns the grade.

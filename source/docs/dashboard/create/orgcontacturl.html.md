@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-If, you wish to set a contact URL for your students (e.g. you have a forum or LMS discussion area for them to use), you can do so in the following way:
+If you wish to set a contact URL for your students (e.g. you have a forum or LMS discussion area for them to use), you can do so in the following way:
 
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="profile" src="/img/docs/class_administration/profilepic.png" class="simple"/>

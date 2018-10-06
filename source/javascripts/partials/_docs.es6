@@ -60,6 +60,7 @@ $(document).ready(function () {
     perPage: 10,
     fetchFields: {page: ['title', 'body', 'url']},
     searchFields: {page: ['title', 'body']},
+    filters: {'page':{'domain':location.host}},
     preRenderFunction () {
       $('.docs-header-navigation-container').hide()
     },

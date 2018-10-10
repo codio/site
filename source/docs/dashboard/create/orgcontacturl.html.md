@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-If, you wish to set a contact URL for your students (e.g. you have a forum or LMS discussion area for them to use), you can do so in the following way:
+If you wish to set a contact URL for your students (e.g. you have a forum or LMS discussion area for them to use), you can do so in the following way:
 
 1. Click your name/gravatar, bottom of the left hand pane
 <img alt="profile" src="/img/docs/class_administration/profilepic.png" class="simple"/>
@@ -15,8 +15,8 @@ If, you wish to set a contact URL for your students (e.g. you have a forum or LM
 1. Click the **Organization settings** tab 
 <img alt="organisation settings" src="/img/docs/manage_organization/orgsettingstab.png" class="simple"/>
 
-1. Go to the **Contact URL** section toward the  bottom of the page, and enter the URL you wish to use. 
-<img alt="organisation contact url" src="/img/docs/manage_organization/orgcontacturl.png" class="simple"/>
+1. Go to the **Education Settings** section toward the  bottom of the page, and enter the URL you wish to use. 
+<img alt="organisation contact url" src="/img/docs/manage_organization/org_releasegrades.png" class="simple"/>
 
 1. If this is set, when a student uses any of the ways to contact us, they will be given the option to report a problem, ask a question related to their course work or if they have a problem accessing the Codio platform, or loading a unit can contact us
 

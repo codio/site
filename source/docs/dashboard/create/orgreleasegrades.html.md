@@ -17,7 +17,7 @@ Enabling this feature will not effect existing classes
 1. Click the **Organization settings** tab 
 <img alt="organisation settings" src="/img/docs/manage_organization/orgsettingstab.png" class="simple"/>
 
-1. Go to the **Release Grades** section toward the  bottom of the page, and enable the feature
-<img alt="Enable Release Grades" src="/img/docs/manage_organization/xxxx.png" class="simple"/>
+1. Go to the **Education Settings** section toward the  bottom of the page, and enable the feature
+<img alt="Enable Release Grades" src="/img/docs/manage_organization/org_releasegrades.png" class="simple"/>
 
 1. The status of this feature can be changed in individual classes if required. See [here](/docs/classes/monitor/grading#releasegradesstatus) for more information

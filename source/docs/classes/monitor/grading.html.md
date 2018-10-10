@@ -32,7 +32,7 @@ Students can be filtered by:
 
 You can access the student's project from the same screen by clicking on the 3 blude dots on the extreme right (see below image with dots circled right). You can then review the project. 
 
-<img alt="authtoken" src="/img/docs/grading-unit.png" class="simple"/>
+<img alt="Grading access" src="/img/docs/grading-unit.png" class="simple"/>
 
 The teacher can also mark the unit as complete going to the **Education->Mark as Completed** menu item within the IDE and if already marked as complete, can change the status to incomplete
 
@@ -47,25 +47,26 @@ To grade from the class dashboard, you should first select the assignment unit. 
 
 To assign comments or a grade, you click on the Grade icon (see image above with grading icons circled center). You can then modify the comments and grade fields for any individual student.
 
-<img alt="authtoken" src="/img/docs/grading-assign.png" class="simple"/>
+<img alt="Assign Grades" src="/img/docs/grading-assign.png" class="simple"/>
 
 <a name="releasegrades"></a>
 ### Releasing Grades
 By default students are not shown the grades until you decide to release them to the class. This allows you to hold back until you have completed the entire grading process and then release them in one go. If you want the students to see the grades as you go then simply flick the release grades switch before you start grading.
 
-<img alt="authtoken" src="/img/docs/grading-release.png" class="simple"/>
+<img alt="Grading" src="/img/docs/grading-release.png" class="simple"/>
 
 Students are able to see their grades either from their My Classroom view or by opening the unit and going to **Education->Grades**
 
 You can also release grades from the main Unit view right clicking on the 3 vertical dots and selecting **Release grades**.
 
-<img alt="authtoken" src="/img/docs/grading-release2.png" class="simple"/>
+<img alt="Release Grades" src="/img/docs/grading-release2.png" class="simple"/>
 
 <a name="releasegradesstatus"></a>
 ### Automatically releasing grades
 If you wish to automatically release grades when students complete a unit, you can enable this feature at the organisation level so when you create new [classes](/docs/classes/classmanagement/create-class/) this option is automatically enabled. See [organisation release grades](/docs/dashboard/create/orgreleasegrades) for more information.
 
 You can also change the status of this feature for individual classes if required on the admin tab of the class. 
+<img alt="Class Release Grades" src="/img/docs/class_releasegrades.png" class="simple"/>
 
 ### Grading moderation
 In some situations you may want to monitor the accuracy of grading. This can become especially important if you have more than one lecturer or teacher grading student work. It is important that students can rely on a consistency of grades no matter which person actually assigns the grade.
@@ -76,7 +77,7 @@ A common approach is to take a few students who got top grades, a few with terri
 
 The below screenshot shows an example of where a student project has been graded by Professor Babbage, who awarded an A-. The grade was then reviewed by Freddy May, who assigned a slightly better grade.
 
-<img alt="authtoken" src="/img/docs/grading-moderation.png" class="simple"/>
+<img alt="Moderation" src="/img/docs/grading-moderation.png" class="simple"/>
 
 The moderated grade will not be shown to the class and can only be seen by teachers of that class.
 

@@ -13,7 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2018**
 
-- `[F] [ 9th]`: Add ability to change all students completed unit to incomplete
+- `[F] [10th]`: Add function to automatically release grades in new classes. See [organisation release grades](/docs/dashboard/create/orgreleasegrades) for more information
+- `[F] [ 9th]`: Add ability to change all students completed unit to incomplete. See [force marked as complete](/docs/classes/unitmanagement/settings-info/complete-unit/) for more information.
 - `[I] [ 3rd]`: Fix problem when executing commands in [Guides](/docs/content/authoring/page-edit/buttons/) that contain brackets
 - `[F] [ 3rd]`: Add [organisation](/docs/dashboard/create/orgcontacturl) and [class](/docs/classes/classmanagement/classcontacturl) contact url for students to be able to raise questions, seek assistance from your preferred area (forums/LMS discussion areas etc)
 - `[F] [ 3rd]`: Add ability to sort students in classes by first or last names

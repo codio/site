@@ -110,6 +110,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'img'
 set :partials_dir, 'partials'
 
+set :domain_tag, ENV["M_DOMAIN_TAG"] || 'https://codio.com'
 set :intercom_id, ENV["M_INTERCOM_ID"] || "hzz6oifn"
 set :codio_environment, ENV["M_CODIO_ENVIRONMENT"] || "development"
 

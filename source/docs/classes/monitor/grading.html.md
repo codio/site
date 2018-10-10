@@ -30,7 +30,7 @@ Students can be filtered by:
 - Completed
 - Uncompleted
 
-You can access the student's project from the same screen by clicking on the 3 blude dots on the extreme right (see below image with dots circled right). You can then review the project. 
+You can access the student's project from the same screen by clicking on the 3 blue dots on the extreme right (see below image with dots circled right). You can then review the project. 
 
 <img alt="Grading access" src="/img/docs/grading-unit.png" class="simple"/>
 
@@ -66,7 +66,7 @@ You can also release grades from the main Unit view right clicking on the 3 vert
 If you wish to automatically release grades when students complete a unit, you can enable this feature at the organisation level so when you create new [classes](/docs/classes/classmanagement/create-class/) this option is automatically enabled. See [organisation release grades](/docs/dashboard/create/orgreleasegrades) for more information.
 
 You can also change the status of this feature for individual classes if required on the admin tab of the class. 
-<img alt="Class Release Grades" src="/img/docs/class_releasegrades.png" class="simple"/>
+<img alt="Class Release Grades" src="/img/docs/changereleasegrades.png" class="simple"/>
 
 ### Grading moderation
 In some situations you may want to monitor the accuracy of grading. This can become especially important if you have more than one lecturer or teacher grading student work. It is important that students can rely on a consistency of grades no matter which person actually assigns the grade.

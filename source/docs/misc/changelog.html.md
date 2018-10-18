@@ -13,6 +13,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2018**
 
+- `[I] [18th]`: Fix problem with loss of focus when in split view mode editing guides
+- `[I] [18th]`: Fix problem in guides saving close tab state
+- `[I] [18th]`: Add text description that is visible on mouse over when the icon gets focus.
+- `[I] [18th]`: Fix problem rendering output of code tests on Mac OS
+- `[I] [15th]`: Fix problem unpacking projects
+- `[I] [15th]`: Fix problem with page focus in guides
+- `[I] [15th]`: Improve menu handling when [customising](/docs/content/authoring/playmode/#customisetopmenu) top menus for students
 - `[F] [10th]`: Add function to automatically release grades in new classes. See [organisation release grades](/docs/dashboard/create/orgreleasegrades) for more information
 - `[F] [ 9th]`: Add ability to change all students completed unit to incomplete. See [force marked as complete](/docs/classes/unitmanagement/settings-info/complete-unit/) for more information.
 - `[I] [ 3rd]`: Fix problem when executing commands in [Guides](/docs/content/authoring/page-edit/buttons/) that contain brackets

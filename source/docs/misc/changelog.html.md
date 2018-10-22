@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2018**
 
+- `[I] [19th]`: Fix rendering of bold text in guides for Firefox browser
+- `[I] [19th]`: Fix problem using tabs in Firefox
+- `[F] [18th]`: Add new user/project preference `navigateWithinSoftTabs` to simplify navigation when soft tabs are used
 - `[I] [18th]`: Fix problem with loss of focus when in split view mode editing guides
 - `[I] [18th]`: Fix problem in guides saving close tab state
 - `[I] [18th]`: Add text description that is visible on mouse over when the icon gets focus.

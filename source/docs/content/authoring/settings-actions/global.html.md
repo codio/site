@@ -51,3 +51,9 @@ Enable this to collapse the guides pane in the unit/project when the [layout](/d
 
 The guides can be reopened by clicking the hamburger icon:
 <img alt="StartGuides" src="/img/docs/openguides.png" class="simple"/>
+
+### Hide Sections Toggle
+Enable this to hide the option for students to switch sections using the Section list hamburger icon
+
+### Hide Back to Dashboard button
+Enable this to hide the 'Back to Dashboard' button that by default will show to the students at the end of the unit

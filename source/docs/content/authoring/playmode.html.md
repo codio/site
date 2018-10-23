@@ -31,15 +31,16 @@ Example:
 
 ```json
 {
-    "Codio": false,
+    "Logo": false, // hides the Codio logo
+	"Codio": false, // hides the Codio menu dropdown
     "Project": {
-         "Permissions": false
+         "Permissions": false // hides the Permissions option in the Project menu dropdown
     },
-    "Help": false,
-    "Run": false,
-    "Preview": false,
-    "Debugger": false,
-    "Status": false
+    "Help": false, // hides the Help menu dropdown
+    "Run": false, // hides the Run menu dropdown
+    "Preview": false, // hides the Preview menu dropdown
+    "Debugger": false, // hides the Debugger menu dropdown
+    "Status": false // hides the Status icon, user Avatar, user name and exit button
 }
 ```
 

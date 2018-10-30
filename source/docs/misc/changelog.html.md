@@ -13,6 +13,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **October 2018**
 
+- `[I] [29th]`: Fix problem accessing grading in students units
+- `[F] [29th]`: Allow use of accented characters
+- `[I] [26th]`: Fix issue with users able to update project settings when not having admin rights
+- `[I] [26th]`: Improve handling of guide editor
+- `[I] [24th]`: Fix focus problem when adding assessments to guides page
+- `[I] [24th]`: Improve tab handling in pop up dialogs 
 - `[I] [23rd]`: Add function to hide Codio logo icone when [customising](/docs/content/authoring/playmode/#customisetopmenu) top menus for students
 - `[I] [19th]`: Fix rendering of bold text in guides for Firefox browser
 - `[I] [19th]`: Fix problem using tabs in Firefox

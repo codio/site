@@ -8,7 +8,7 @@ The following information explains how to enable cookies for all sites. You can 
 
 #### To enable cookies in Chrome:
 
-In your browser enter: `chrome:settings/content/cookies`
+In your browser enter: `chrome://settings/content/cookies`
 and
 
 - enable **Allow sites to save and read cookie data (recommended)**
@@ -30,8 +30,11 @@ Select **User custom settings for history** from the drop down in the History se
 #### To enable cookies in Safari:
 In your browser go to `Safari> Preferences`
 <img alt="Safari" src="/img/docs/safari.png" class="simple"/>
-Select the **Privacy** tab and check **Always allow**
-<img alt="Safari Cookies" src="/img/docs/safaricookies.png" class="simple"/>
+Select the **Privacy** tab and ensure check **Block all cookies** and **Prevent cross-site tracking** are not checked.
 
-*Image from Safari 11.0 (12604.1.38.1.7) on macOS Sierra 10.12.6*
+<img alt="Safari Cookies" src="src="/img/docs/crosssitetracking.png" class="simple"/>
+
+If using an earlier version of Safari, check **Always Allow** in the Cookies and website data section
+
+*Image from Safari 12.0 on macOS Sierra 10.12.6*
 

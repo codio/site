@@ -11,13 +11,15 @@ The answer will be passed to the script as `stdin`.
 
 ## Assessment definition
 
->>IMAGE REQUIRED
 
-<img alt="autofree text fields" src="/img/docs/guides/assessment_autofree.png" class="simple"/>
+
+<img alt="autofree text fields" src="/img/docs/guides/assessment_autogradefree.png" class="simple"/>
 
 Setting up an assessment is very simple. As you can see from the screenshot above, you should specify the following details
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
+- **Command** is the command to execute a script to autograde.
+- **Timeout** is the time to abort the script from executing in the event of a problem.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. Latex is also supported. Please refer to the **Preview Type** section below for details.

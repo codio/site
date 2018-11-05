@@ -11,8 +11,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**November 2018**
+
+- `[F] [ 5th]`: Add [Autograde Free Text](/docs/content/authoring/assessments/assessments-autofree) assessment
+
 **October 2018**
 
+- `[I] [31st]`: Update guidelines for privacy settings for Safari 12.0 browser
 - `[I] [29th]`: Fix problem accessing grading in students units
 - `[F] [29th]`: Allow use of accented characters
 - `[I] [26th]`: Fix issue with users able to update project settings when not having admin rights

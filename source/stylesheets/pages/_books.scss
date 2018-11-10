@@ -12,4 +12,109 @@ body.books {
   }
 }
 
+body.books .carousel-block {
+  position: relative;
+  display: block;
+  padding: 0;
+  line-height: 0;
+
+  .carousel-indicators {
+    bottom: 10px;
+  }
+
+  .carousel-inner {
+    display: flex;
+    height: 100%;
+
+    .box {
+      width: 95%;
+      height: 100%;
+      margin: 0 auto;
+    }
+
+    img {
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+      vertical-align: middle;
+    }
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 75%;
+      padding-top: 65px;
+      color: #fff;
+
+      .heading {
+        font-family: $proxima-extra-bold;
+        font-size: 32px;
+        line-height: 2rem;
+      }
+
+      .sub-heading {
+        font-family: $proxima-light;
+        font-size: 20px;
+        line-height: 1.8rem;
+      }
+
+      @include breakpoint(800px) {
+        padding-top: 0px;
+
+        .heading {
+          font-size: 4vw;
+          padding-top: 65px;
+        }
+
+        .sub-heading {
+          font-size: 2vw;
+          padding-top: 1%;
+          padding-bottom: 5%;
+        }
+      }
+    }
+
+    .header-button {
+      display: flex;
+      height: 25%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .button-large {
+      padding: 15px 35px;
+      font-size: 16px;
+
+      @include breakpoint(800px) {
+        font-size: 1.2vw;
+      }
+    }
+
+    .slot-1, .slot-2, .slot-3 {
+      width: 100%;
+      height: 440px;
+      text-align: center;
+      background-size: cover;
+      background-position-x: center;
+
+      @include breakpoint(800px) {
+        height: 52vw;
+      }
+    }
+
+    .slot-1 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-dv-carousel1.jpg');
+    }
+
+    .slot-2 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-drone-carousel2.jpg');
+    }
+
+    .slot-3 {
+      background-image: url('/img/assets/index/carousel/codio-homepage-robot-carousel3.jpg');
+    }
+  }
+}
 

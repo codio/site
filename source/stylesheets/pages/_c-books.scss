@@ -1,4 +1,4 @@
-body.books {
+body.c-books {
   header .container,
   footer .container {
     @include breakpoint($max-width) {
@@ -12,7 +12,7 @@ body.books {
   }
 }
 
-body.books .carousel-block {
+body.c-books .carousel-block {
   position: relative;
   display: block;
   margin-top: 65px;
@@ -36,48 +36,45 @@ body.books .carousel-block {
       align-items: center;
       width: 90%;
       height: 100%;
-      padding: 5% 0;
+      padding-top: 2%;
+      padding-bottom: 4%;
       margin: 0 auto;
     }
 
     .header-text {
       display: flex;
-      align-items: flex-end;
+      align-items: center;
+      text-align: center;
       color: #fff;
       font-family: $proxima-extra-bold;
       font-size: 26px;
       line-height: 1.6rem;
-      height: 15%;
-      padding-bottom: 20px;
+      padding-bottom: 15px;
 
       @include breakpoint(800px) {
         font-size: 3.2vw;
+        line-height: 3vw;
+        padding-bottom: 25px;
       }
     }
 
     .image {
       display: flex;
+      justify-content: center;
       height: 85%;
       width: 100%;
       margin: 0 auto;
       vertical-align: middle;
-    }
 
-    .slot-1, .slot-2, .slot-3 {
-      width: 100%;
-      height: 440px;
-      text-align: center;
-      background-size: cover;
-      background-position-x: center;
-
-      @include breakpoint(800px) {
-        height: 52vw;
+      img {
+        height: 100%;
+        width: 80%;
       }
     }
   }
 }
 
-body.books .content-body {
+body.c-books .content-body {
   @include container;
   text-align: center;
   max-width: $max-width;

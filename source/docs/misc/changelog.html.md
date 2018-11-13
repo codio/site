@@ -13,6 +13,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2018**
 
+- `[I] [ 9th]`: Improve handling of [Public/Private Settings](/docs/dashboard/create/public_private/)
+- `[I] [ 9th]`: Improve messaging for Allow Box Cloning
+- `[I] [ 8th]`: Fix problem with scrolling in guides with assessments
+- `[I] [ 6th]`: Fix problem with handling of spaces in [Standard Code Test](/docs/content/authoring/assessments/assessments-standard-code-tests) output
+- `[I] [ 6th]`: Fix sorting of [modules](/docs/courses/manage/course-add/)
+- `[I] [ 6th]`: Update message shown when units already graded by another teacher
 - `[F] [ 5th]`: Add [Autograde Free Text](/docs/content/authoring/assessments/assessments-autofree) assessment
 
 **October 2018**

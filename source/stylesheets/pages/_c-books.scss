@@ -25,20 +25,26 @@ body.c-books .carousel-block {
 
   .carousel-inner {
     display: flex;
-    height: 100%;
     background-color: #1188ef;
     align-items: center;
+    justify-content: center;
+
+    .item {
+      width: 100%;
+    }
 
     .box {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 90%;
-      height: 100%;
-      padding-top: 2%;
-      padding-bottom: 4%;
-      margin: 0 auto;
+      width: 95%;
+      height: 330px;
+      margin: 2% auto 4% auto;
+
+      @include breakpoint(800px) {
+        height: 40vw;
+      }
     }
 
     .header-text {
@@ -47,12 +53,13 @@ body.c-books .carousel-block {
       text-align: center;
       color: #fff;
       font-family: $proxima-extra-bold;
-      font-size: 26px;
+      font-size: 22px;
       line-height: 1.6rem;
       padding-bottom: 15px;
+      height: 19%;
 
       @include breakpoint(800px) {
-        font-size: 3.2vw;
+        font-size: 2.2vw;
         line-height: 3vw;
         padding-bottom: 25px;
       }
@@ -61,14 +68,13 @@ body.c-books .carousel-block {
     .image {
       display: flex;
       justify-content: center;
-      height: 85%;
+      height: 82%;
       width: 100%;
-      margin: 0 auto;
-      vertical-align: middle;
 
       img {
         height: 100%;
-        width: 80%;
+        width: auto;
+        max-width: none;
       }
     }
   }
@@ -79,6 +85,7 @@ body.c-books .content-body {
   text-align: center;
   max-width: $max-width;
   margin: 0 auto;
+  margin-top: 3rem;
   padding: 0;
 
   .features-block {
@@ -393,6 +400,76 @@ body.c-books .content-body {
 
       .bottom {
         height: 318px;
+      }
+    }
+  }
+}
+
+body.c-books .ready-started-block {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  height: 280px;
+  background-color: $orange;
+
+  h2 {
+    margin-top: 0;
+    color: #fff;
+    padding: 40px 0 20px 0;
+    font-size: 1.8rem;
+  }
+
+  @include breakpoint($break-tablet) {
+    height: 220px;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .button-block {
+    .button-rounded {
+      display: block;
+      min-width: 182px;
+      min-height: 41px;
+      margin: 0.5rem;
+      border-color: #ffffff;
+      text-transform: none;
+
+      &:first-child {
+        background-color: #ffffff;
+        color: $orange;
+
+        &:hover {
+          background-color: transparent;
+          color: #ffffff;
+        }
+      }
+
+      &:last-child {
+        &:hover {
+          background-color: #ffffff;
+          color: $orange;
+        }
+      }
+
+      @include breakpoint($break-tablet) {
+        display: inline-block;
+        min-width: 256px;
+        min-height: 48px;
+        margin: 0 1rem;
+      }
+    }
+
+    .divider {
+      margin: 0 10px;
+      width: 1px;
+      height: 100%;
+      border-left: solid 1px #ffffff;
+      display: none;
+
+      @include breakpoint($break-tablet) {
+        display: inline;
       }
     }
   }

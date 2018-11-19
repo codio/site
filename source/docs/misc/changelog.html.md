@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2018**
 
+- `[I] [16th]`: Fix problem with delete confirmation dialog showing in error when deleting owned module
+- `[I] [15th]`: Improve highlighting of differences in standard code text
+- `[I] [14th]`: Improve sorting when accented characters used
+- `[I] [13th]`: Fix problem with project permissions not updating when project renamed
+- `[I] [12th]`: Update handling of autograde scripts in .guides/secure folder
 - `[I] [ 9th]`: Improve handling of [Public/Private Settings](/docs/dashboard/create/public_private/)
 - `[I] [ 9th]`: Improve messaging for Allow Box Cloning
 - `[I] [ 8th]`: Fix problem with scrolling in guides with assessments

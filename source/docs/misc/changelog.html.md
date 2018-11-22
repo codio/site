@@ -13,6 +13,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2018**
 
+- `[F] [22nd]`: Allow files/folders to be excluded from synchronisation with [desktop app](/docs/dashboard/desktopapp#codioignore)
+- `[I] [22nd]`: Fix problem with [customising](docs/content/authoring/playmode/#customisetopmenu) in [books](/docs/books/introduction)
+- `[F] [22nd]`: Add support for `python3` in unit tests
+- `[F] [21st]`: Add separate fields for first and last name to [download csv](/docs/classes/monitor/progress/)
+- `[I] [21st]`: Fix problem with first time execution of advanced code test assessments
+- `[I] [20th]`: Fix problem trying to start unit from a course
 - `[I] [16th]`: Fix problem with delete confirmation dialog showing in error when deleting owned module
 - `[I] [15th]`: Improve highlighting of differences in standard code text
 - `[I] [14th]`: Improve sorting when accented characters used

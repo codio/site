@@ -7,37 +7,72 @@ description: Codio Books
 ---
 
 <section class="carousel-block">
-  <div id="bookCarousel" class="carousel slide" data-ride="carousel" data-interval="70000">
+  <div id="bookCarousel" class="carousel slide" data-ride="" data-interval="70000">
     <ol class="carousel-indicators">
       <li data-target="#bookCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#bookCarousel" data-slide-to="1"></li>
       <li data-target="#bookCarousel" data-slide-to="2"></li>
+      <li data-target="#bookCarousel" data-slide-to="3"></li>
     </ol>
     <div class="scrollto carousel-inner" role="listbox">
-      <div class="item active">
+      <div class="item active slot-1">
         <div class="box">
           <div class="header-text">
-            The most engaging programming textbooks in the most interactive format
+            <div class="normal-text">
+              Forget Vitalsource,<br/> MyProgramming Lab, Mindtap and Zybooks and switch to
+            </div>
+            C-Books,
+            <div class="italic-text">
+              the most interactive textbook and web-based learning platform c for computer
+              science courses.
+            </div>
+            <br/>
+            <%= link_to 'Learn how', '', class: 'button button-large button-main' %>
           </div>
           <div class="image">
-            <%= image_tag '/img/assets/c-books/codio-carousel-books-thinkpython2.jpg', alt: 'Classes', class: '' %>
+            <%= image_tag '/img/assets/c-books/carousel/slider1-main-img.png', alt: 'Classes', class: '' %>
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item slot-2">
         <div class="box">
           <div class="header-text">
-            Higher Performance Computer Science Programs
+            <div class="normal-text">
+              CI-Books combines the best of interactive textbooks with the leading cloud platform
+              for computer science education - creating a better experience for educators and students
+            </div>
+            <br/>
+            <%= link_to 'Learn how', '', class: 'button button-large button-main' %>
           </div>
           <div class="image">
             <%= image_tag '/img/assets/c-books/codio-carousel-syllabus.jpg', alt: 'Classes', class: '' %>
           </div>
         </div>
       </div>
-      <div class="item">
+      <div class="item slot-3">
         <div class="box">
           <div class="header-text">
-            Higher Performance Computer Science Programs
+            <div class="normal-text">
+              CI-Books provide full semester-long syllabi of interactive teaching units mapped to
+              original textbooks, complete with assessments, practical labs and progress dashboards.
+            </div>
+            <br/>
+            <%= link_to 'Learn how', '', class: 'button button-large button-main' %>
+          </div>
+          <div class="image">
+            <%= image_tag '/img/assets/index/carousel/codio-homepage-robot-carousel3.jpg', alt: 'Classes', class: '' %>
+          </div>
+        </div>
+      </div>
+      <div class="item slot-4">
+        <div class="box">
+          <div class="header-text">
+            <div class="normal-text">
+              CI-Book licenses are free for instructors - and per student licenses are significantly
+              less expensive than the costs for traditional VM and printed book costs.
+            </div>
+            <br/>
+            <%= link_to 'Learn how', '', class: 'button button-large button-main' %>
           </div>
           <div class="image">
             <%= image_tag '/img/assets/index/carousel/codio-homepage-robot-carousel3.jpg', alt: 'Classes', class: '' %>

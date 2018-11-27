@@ -1,4 +1,4 @@
-body.c-books {
+body.ci-books {
   header .container,
   footer .container {
     @include breakpoint($max-width) {
@@ -12,7 +12,7 @@ body.c-books {
   }
 }
 
-body.c-books .carousel-block {
+body.ci-books .carousel-block {
   position: relative;
   display: block;
   margin-top: 65px;
@@ -106,7 +106,7 @@ body.c-books .carousel-block {
   }
 }
 
-body.c-books .content-body {
+body.ci-books .content-body {
   @include container;
   text-align: center;
   max-width: $max-width;
@@ -431,7 +431,7 @@ body.c-books .content-body {
   }
 }
 
-body.c-books .ready-started-block {
+body.ci-books .ready-started-block {
   max-width: 100%;
   width: 100%;
   position: relative;

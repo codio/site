@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2018**
 
+- `[F] [29th]`: Add [grading feedback](/docs/dashboard/student/gradefeeback) for student dashboard
+- `[F] [29th]`: Pass [grading feedback URL](/docs/classes/lti/gradeinfo) to LMS systems
+- `[I] [29th]`: Improve handling of line delimiters in .codio-menu file
+- `[I] [29th]`: Improve synchronisation of files pulled/pushed to [desktop app](/docs/dashboard/desktopapp)
 - `[F] [22nd]`: Allow files/folders to be excluded from synchronisation with [desktop app](/docs/dashboard/desktopapp#codioignore)
 - `[I] [22nd]`: Fix problem with [customising](docs/content/authoring/playmode/#customisetopmenu) in [books](/docs/books/introduction)
 - `[F] [22nd]`: Add support for `python3` in unit tests

@@ -55,7 +55,7 @@ By default students are not shown the grades until you decide to release them to
 
 <img alt="Grading" src="/img/docs/grading-release.png" class="simple"/>
 
-Students are able to see their grades either from their My Classroom view or by opening the unit and going to **Education->Grades**
+Students are able to see their grades either from their My Classroom view or by opening the unit and going to **Education->Feedback**
 
 You can also release grades from the main Unit view right clicking on the 3 vertical dots and selecting **Release grades**.
 

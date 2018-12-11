@@ -13,6 +13,34 @@ Units/Projects from the [Classroom dashboard](/docs/dashboard/student/myclassroo
 
 A Codio account is required
 
+<a name="codioignore"></a>
+
+### Excluding files
+Files/folders can be excluded from synchronisation by using `.codioignore` file in the source project. 
+Enter on a new line the file/folders to be excluded defining them relative to the location of the `.codioignore` file and defining folders with `/`
+
+For example if the `.codioignore` file is located in the project workspace and you wish to exclude
+
+- `bin` & `node_modules` folder
+- the file `error.jade` in the `views` folder
+- the files `app.js` and `README.md` 
+
+the `.codioignore` file will be
+
+```
+/bin
+/node_modules
+/views/error.jade
+app.js
+README.md
+```
+<img alt="codioignore" src="/img/docs/codioignore.png" class="simple"/>
+
+Please note that the `.codioignore` file is included in the desktop app files.
+
+If students wish to exclude files when pushing back to their Codio account they can do so, either by editing any existing `.codioignore` file or creating the file themselves. If the teacher creates the `.codioignore` file, adding a 'comment' line to the top of the file to make it clear to any students what they should not change could help avoid potential problems.
+A line starting with `#` serves as a comment
+
 **[Click here](/download)** to go to the download page and install to your local machine
 
 ### Starting the app

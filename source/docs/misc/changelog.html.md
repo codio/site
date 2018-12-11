@@ -13,6 +13,27 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2018**
 
+- `[F] [29th]`: Add [grading feedback](/docs/dashboard/student/gradefeeback) for student dashboard
+- `[F] [29th]`: Pass [grading feedback URL](/docs/classes/lti/gradeinfo) to LMS systems
+- `[I] [29th]`: Improve handling of line delimiters in .codio-menu file
+- `[I] [29th]`: Improve synchronisation of files pulled/pushed to [desktop app](/docs/dashboard/desktopapp)
+- `[F] [22nd]`: Allow files/folders to be excluded from synchronisation with [desktop app](/docs/dashboard/desktopapp#codioignore)
+- `[I] [22nd]`: Fix problem with [customising](docs/content/authoring/playmode/#customisetopmenu) in [books](/docs/books/introduction)
+- `[F] [22nd]`: Add support for `python3` in unit tests
+- `[F] [21st]`: Add separate fields for first and last name to [download csv](/docs/classes/monitor/progress/)
+- `[I] [21st]`: Fix problem with first time execution of advanced code test assessments
+- `[I] [20th]`: Fix problem trying to start unit from a course
+- `[I] [16th]`: Fix problem with delete confirmation dialog showing in error when deleting owned module
+- `[I] [15th]`: Improve highlighting of differences in standard code text
+- `[I] [14th]`: Improve sorting when accented characters used
+- `[I] [13th]`: Fix problem with project permissions not updating when project renamed
+- `[I] [12th]`: Update handling of autograde scripts in .guides/secure folder
+- `[I] [ 9th]`: Improve handling of [Public/Private Settings](/docs/dashboard/create/public_private/)
+- `[I] [ 9th]`: Improve messaging for Allow Box Cloning
+- `[I] [ 8th]`: Fix problem with scrolling in guides with assessments
+- `[I] [ 6th]`: Fix problem with handling of spaces in [Standard Code Test](/docs/content/authoring/assessments/assessments-standard-code-tests) output
+- `[I] [ 6th]`: Fix sorting of [modules](/docs/courses/manage/course-add/)
+- `[I] [ 6th]`: Update message shown when units already graded by another teacher
 - `[F] [ 5th]`: Add [Autograde Free Text](/docs/content/authoring/assessments/assessments-autofree) assessment
 
 **October 2018**

@@ -75,6 +75,7 @@ body.c-books .carousel-block {
         display: inline-block;
         font-weight: 600;
         margin-top: 40px;
+        padding: 2px 40px;
       }
     }
 
@@ -97,7 +98,7 @@ body.c-books .carousel-block {
       text-align: center;
       background-size: cover;
       background-position-x: center;
-      background-image: url('/img/assets/c-books/carousel/slider1-bg.jpg');
+      background-image: url('/img/assets/c-books/carousel/slider-bg.png');
 
       @include breakpoint(800px) {
         height: 40vw;
@@ -472,12 +473,12 @@ body.c-books .ready-started-block {
         }
       }
 
-      &:last-child {
-        &:hover {
-          background-color: #ffffff;
-          color: $orange;
-        }
-      }
+      //&:last-child {
+      //  &:hover {
+      //    background-color: #ffffff;
+      //    color: $orange;
+      //  }
+      //}
 
       @include breakpoint($break-tablet) {
         display: inline-block;

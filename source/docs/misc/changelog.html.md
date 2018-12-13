@@ -11,6 +11,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**December 2018**
+
+- `[I] [11th]`: Improve handling of [gigabox](/docs/classes/classmanagement/giga/) allocation when run from a course
+- `[I] [10th]`: Fix problem with Advanced Code Test with Custom language type and Allow Partial Points
+- `[I] [ 7th]`: Add answer and rationale fields to [grading feedback](/docs/dashboard/student/gradefeeback) for student dashboard
+- `[I] [ 6th]`: Fix problem with global scripts in guides
+- `[I] [ 5th]`: Improve [grading feedback](/docs/dashboard/student/gradefeeback) for student dashboard
+- `[I] [ 4th]`: Improve messaging when synchronising of files pulled/pushed to [desktop app](/docs/dashboard/desktopapp)
+
 **November 2018**
 
 - `[F] [29th]`: Add [grading feedback](/docs/dashboard/student/gradefeeback) for student dashboard

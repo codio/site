@@ -1,0 +1,503 @@
+body.c-books {
+  header .container,
+  footer .container {
+    @include breakpoint($max-width) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
+body.c-books .carousel-block {
+  position: relative;
+  display: block;
+  margin-top: 65px;
+  padding: 0;
+  line-height: 0;
+
+  .carousel-indicators {
+    bottom: 10px;
+  }
+
+  .carousel-inner {
+    display: flex;
+    background-color: #1188ef;
+    align-items: center;
+    justify-content: center;
+
+    .item {
+      width: 100%;
+    }
+
+    .box {
+      width: 95%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .header-text {
+      display: inline;
+      text-align: left;
+      color: #fff;
+      font-family: $proxima-bold;
+      font-size: 22px;
+      line-height: 1.6rem;
+      margin: auto 10px;
+      padding-bottom: 15px;
+      width: 40%;
+
+      @include breakpoint(800px) {
+        font-size: 2.2vw;
+        line-height: 3vw;
+        padding-bottom: 25px;
+      }
+
+      .normal-text, .italic-text {
+        display: inline;
+      }
+
+      .normal-text {
+        font-family: $proxima-light;
+      }
+
+      .italic-text {
+        font-family: $proxima-light;
+        font-style: italic;
+      }
+
+      .button-main {
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 40px;
+        padding: 2px 40px;
+      }
+    }
+
+    .image {
+      display: inline;
+      margin: auto;
+      justify-content: center;
+      width: 60%;
+
+      img {
+        height: auto;
+        width: 100%;
+        max-width: none;
+      }
+    }
+
+    .slot-1, .slot-2, .slot-3, .slot-4 {
+      width: 100%;
+      height: 330px;
+      text-align: center;
+      background-size: cover;
+      background-position-x: center;
+      background-image: url('/img/assets/c-books/carousel/slider-bg.png');
+
+      @include breakpoint(800px) {
+        height: 40vw;
+      }
+    }
+  }
+}
+
+body.c-books .content-body {
+  @include container;
+  text-align: center;
+  max-width: $max-width;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 0;
+
+  .features-block {
+    @include container;
+    margin: 0 auto;
+    padding: 2rem 2rem 0 2rem;
+
+    .features-row {
+      @include span(13 of 13);
+      padding: 0;
+      min-height: 378px;
+      height: 700px;
+
+      @include breakpoint($break-tablet) {
+        height: 100%;
+      }
+
+      &:nth-child(1) {
+        .top, .line-mobile.top {
+          opacity: 0;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 0.02s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 0.03s;
+        }
+      }
+
+      &:nth-child(2) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 0.53s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 0.55s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 0.56s;
+        }
+      }
+
+      &:nth-child(3) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 1.06s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 1.08s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 1.09s;
+        }
+      }
+
+      &:nth-child(4) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 1.59s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 1.61s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 1.62s;
+        }
+      }
+
+      &:nth-child(5) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 2.12s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 2.14s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 2.15s;
+        }
+      }
+
+      &:nth-child(6) {
+        .top {
+          -webkit-transition: height 0.02s;
+          -moz-transition: height 0.02s;
+          transition: height 0.02s;
+          transition-delay: 2.65s;
+        }
+        .dot {
+          -webkit-transition: border-width 0.01s;
+          -moz-transition: border-width 0.01s;
+          transition: border-width 0.01s;
+          transition-delay: 2.67s;
+        }
+        .bottom {
+          -webkit-transition: height 0.5s;
+          -moz-transition: height 0.5s;
+          transition: height 0.5s;
+          transition-delay: 2.68s;
+        }
+      }
+
+      &:last-child {
+        .bottom, .line-mobile.bottom {
+          opacity: 0;
+        }
+      }
+    }
+
+    .line-mobile {
+      @include span(1 of 13);
+      display: inline-block;
+      height: 640px;
+      width: 12px;
+
+      @include breakpoint($break-tablet) {
+        display: none;
+      }
+
+      .top, .bottom {
+        overflow: hidden;
+        content: " ";
+        display: block;
+        width: 2px;
+        background-color: $orange;
+        position: relative;
+        margin: 0 auto;
+      }
+
+      .top {
+        height: 50px;
+      }
+
+      .dot {
+        display: block;
+        border: 6px solid $orange;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-left: -3px;
+
+        @include breakpoint(450px) {
+          margin-left: -5px;
+        }
+      }
+
+      .bottom {
+        height: 694px;
+      }
+    }
+
+    .left-part {
+      @include span(12 of 13);
+      padding-left: 2rem;
+      animation-duration: 1.5s;
+      animation-delay: 0.1s;
+      display: inline-block;
+
+      @include breakpoint($break-tablet) {
+        @include span(6 of 13);
+      }
+    }
+
+    .middle-part {
+      display: none;
+      @include breakpoint($break-tablet) {
+        @include span(1 of 13);
+        display: inline-block;
+      }
+    }
+
+    .right-part {
+      @include span(12 of 13);
+      display: inline-block;
+      padding: 0 0 0 2rem;
+
+      @include breakpoint($break-tablet) {
+        @include span(6 of 13);
+        padding: 0 2rem 0 0;
+        animation-duration: 1.5s;
+        animation-delay: 0.1s;
+      }
+    }
+
+    .description {
+      text-align: left;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+      .header {
+        padding-bottom: 1rem;
+        color: $light-blue;
+        font-size: 1.8rem;
+        font-weight: 500;
+
+        @include breakpoint(450px) {
+          font-size: 2rem;
+        }
+
+        @include breakpoint($break-tablet) {
+          font-size: 30px;
+        }
+      }
+
+      .text {
+        font-size: 1.2rem;
+        font-weight: 300;
+
+        @include breakpoint(450px) {
+          font-size: 1.4rem;
+        }
+
+        @include breakpoint($break-tablet) {
+          font-size: 18px;
+        }
+
+        a {
+          color: #1188ef;
+        }
+
+        a:hover {
+          color: $blue;
+        }
+      }
+
+      @include breakpoint($break-tablet) {
+        padding-bottom: 0;
+      }
+    }
+
+    .screen {
+      height: auto;
+      display: block;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        vertical-align: middle;
+        margin: auto;
+      }
+
+      @include breakpoint($break-tablet) {
+        position: relative;
+        display: inline-block;
+      }
+    }
+
+    .vertical-dot-line {
+      overflow: hidden;
+      text-align: center;
+      margin: 0 auto;
+      width: 12px;
+
+      .top, .bottom {
+        overflow: hidden;
+        content: " ";
+        display: block;
+        width: 2px;
+        background-color: $orange;
+        position: relative;
+        margin: 0 auto;
+        transition-timing-function: linear;
+      }
+
+      .top {
+        height: 50px;
+      }
+
+      .dot {
+        display: block;
+        border: 6px solid $orange;
+        border-radius: 50%;
+        transition-timing-function: linear;
+      }
+
+      .bottom {
+        height: 452px;
+      }
+    }
+  }
+}
+
+body.c-books .ready-started-block {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  height: 280px;
+  background-color: $orange;
+
+  h2 {
+    margin-top: 0;
+    color: #fff;
+    padding: 40px 0 20px 0;
+    font-size: 1.8rem;
+  }
+
+  @include breakpoint($break-tablet) {
+    height: 220px;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+  .button-block {
+    .button-rounded {
+      display: block;
+      min-width: 182px;
+      min-height: 41px;
+      margin: 0.5rem;
+      border-color: #ffffff;
+      text-transform: none;
+
+      &:first-child {
+        background-color: #ffffff;
+        color: $orange;
+
+        &:hover {
+          background-color: transparent;
+          color: #ffffff;
+        }
+      }
+
+      //&:last-child {
+      //  &:hover {
+      //    background-color: #ffffff;
+      //    color: $orange;
+      //  }
+      //}
+
+      @include breakpoint($break-tablet) {
+        display: inline-block;
+        min-width: 256px;
+        min-height: 48px;
+        margin: 0 1rem;
+      }
+    }
+
+    .divider {
+      margin: 0 10px;
+      width: 1px;
+      height: 100%;
+      border-left: solid 1px #ffffff;
+      display: none;
+
+      @include breakpoint($break-tablet) {
+        display: inline;
+      }
+    }
+  }
+}

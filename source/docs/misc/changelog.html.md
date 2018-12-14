@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2018**
 
+- `[I] [14th]`: Fix problem with [event listener](/docs/content/authoring/page-edit/buttons#eventlistener)
+- `[I] [14th]`: Add jupyter preview to student's grade feedback preview
+- `[I] [14th]`: Improve guides for visually impaired users
+- `[I] [14th]`: Add additional fields for students answers into the [download csv](/docs/classes/monitor/progress#downloadcsv)
 - `[I] [11th]`: Improve handling of [gigabox](/docs/classes/classmanagement/giga/) allocation when run from a course
 - `[I] [10th]`: Fix problem with Advanced Code Test with Custom language type and Allow Partial Points
 - `[I] [ 7th]`: Add answer and rationale fields to [grading feedback](/docs/dashboard/student/gradefeeback) for student dashboard

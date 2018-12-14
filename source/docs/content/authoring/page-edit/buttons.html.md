@@ -54,31 +54,33 @@ You should point your content page to a script file to load javascript scripts. 
 
 <img alt="authtoken" src="/img/docs/guides/scripts.png" class="simple"/>
 
+<a name="eventlistener"></a>
+
 ## Event Listener
 The event listener is able to execute your custom task. It will display a custom message area beneath it into which you can write your own results data. The message data can be a custom message that a test might return and can be plain text or HTML. 
 
-The icon that appears in the top left of the message area can be controlled from your event listener, as shown below.
+For the event listener to run you should include in **Settings>Global>Scripts**:
+
+- https://codio.com/codio-client.js (where your account is running on codio.com)
+- https://codio.co.uk/codio-client.js (where your account is running on codio.co.uk)
+
+
+The icon that appears in the top left of the message area can be controlled from your event listener, as shown in the example below.
 
 ```javascript
 window.addEventListener('codio-button-custom', function (ev) {
+  console.log('id:', ev.id, 'cmd:', ev.cmd, ev);
   if (codio) {
-  
-    // Set the 'in progress' button icon
     codio.setButtonValue(ev.id, codio.BUTTON_STATE.PROGRESS, 'Checking');
-    if (ev.cmd == 'test1') {
-      ... do something
-    }
-    if (ev.cmd == 'test2') {
-      ... do something
-    }
-    
-    // When completed, set the 'success' icon 
-    // and pass back plain text or HTML to dispay 
-    // inside the message box.
-    codio.setButtonValue(ev.id, codio.BUTTON_STATE.SUCCESS, 'Extremely well done!');
-    
+	codio.setButtonValue(ev.id, codio.BUTTON_STATE.FAILURE, 'Bad Job :(');
+	codio.setButtonValue(ev.id, codio.BUTTON_STATE.INVALID, 'Internal error');
+    window.setTimeout(function () {
+      codio.setButtonValue(ev.id, codio.BUTTON_STATE.SUCCESS, 'Extremely well done!');
+    },1000);
+
   }
 });
+console.log('test.js script loaded');
 ```
 
 - `ev.id` is the contents internal id for the button.

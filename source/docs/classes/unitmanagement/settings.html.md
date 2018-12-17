@@ -74,8 +74,21 @@ The following options are available only in the **Settings** tab.
 Disabling will not allow students to mark the unit as completed. If units in your class are of a 'playground' type where you allow students to experiment with their code, this can be useful to disable to avoid them completing the unit in error and then having to ask the class teacher/instructor to change the status back so they can continue working.
 If your unit contains guides content, you should also disable the option to show Mark as Completed button in guides. See [Global settings](/docs/content/authoring/settings-actions/global/) for more on this.
 
+<a name="visibilitycomplete"></a>
+### Visibility on completed
+You can specify the students ability to access the unit when completed. **Not available for book based units**
+
+- 'None' will allow students to continue to access and work in code files, any assessments in the unit can be seen but not changed, 
+- 'Read-Only' will allow students to access their unit but not make any changes. 
+- 'No Access' will not allow the students to access their unit.
+
 ### Visibility on disabled
-You can specify whether a unit is accessible or not when disabled. 
+You can specify the students ability to access the unit when disabled.  **Not available for book based units**
+
+- 'Read-Only' will allow students to access their unit but not make any changes. 
+- 'No Access' will not allow the students to access their unit.
+
+
 
 ### Unit duration
 [Unit duration](/docs/classes/unitmanagement/settings-info/unit-duration) allows you to specify start and stop times for student access to a unit. For book units, you should read the caveats mentioned in the **Disable unit** setting above.

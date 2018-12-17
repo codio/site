@@ -95,7 +95,7 @@ for(i = 0; i < 10; i++) {
 }
 `` ``` ``
 
-Note that you can specify a language type after the top 3 back ticks. `` ```python `` would apply syntax highlighting for python. Many languages are supported. [See a full list of supported languages here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml). You should search for your language and then use the `alias` shown.
+Note that you can specify a language type after the top 3 back ticks. Entering `python ` after the backticks would apply syntax highlighting for python. Many languages are supported. [See a full list of supported languages here](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml). You should search for your language and then use the `alias` shown.
 
 ## Code Segments
 If you want to insert a piece of code inline with the rest of your text, then you use a single \` (backtick) character either side of the text. For example, 

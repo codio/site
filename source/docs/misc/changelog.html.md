@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **December 2018**
 
+- `[I] [17th]`: Add setting to manage students access to project based units when [completed](/docs/classes/unitmanagement/settings#visibilitycomplete)
 - `[I] [14th]`: Fix problem with [event listener](/docs/content/authoring/page-edit/buttons#eventlistener)
 - `[I] [14th]`: Add jupyter preview to student's grade feedback preview
 - `[I] [14th]`: Improve guides for visually impaired users

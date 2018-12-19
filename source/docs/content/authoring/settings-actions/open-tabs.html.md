@@ -9,7 +9,7 @@ You can automatically perform any of the following actions when a page is shown
 - Reconfigure the overall IDE panel layout.
 - Open files.
 - Open a url preview including external websites.
-- Open a terminal window and pptionally run a terminal command in the background.
+- Open a terminal window and optionally run a terminal command.
 - Select lines you wish to highlight within each file.
 
 You should also be aware that you can achieve the same actions from markdown directives on a page. [Click here](/docs/content/authoring/page-edit/inline) for details.

@@ -32,7 +32,7 @@ This allows you to specify:
 
   - which files you want to automatically open when the current section is displayed,
   - Preview (including external websites),
-  - Open a Terminal window (including running a terminal command in the background,
+  - Open a Terminal window (including running a terminal command),
   - which lines (if any) you wish to highlight within each file.
 
 

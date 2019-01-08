@@ -11,8 +11,16 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**January 2019**
+
+- `[I] [ 8th]`: Update [RStudio](https://codio.com/home/stacks/dd949669-ae2d-480b-b2b7-44f69476a07c?tab=details) stack to be loginless
+- `[I] [ 6th]`: Improve handling of syncronisation in  [desktop app](/docs/dashboard/desktopapp)
+
 **December 2018**
 
+- `[I] [28th]`: Improve accessibility handling of next/previous buttons in guides
+- `[I] [26th]`: Improve handling of user authentication when allow private static preview is enabled
+- `[I] [24th]`: Improve handling of .git folder if it is in .guides/secure folder
 - `[I] [17th]`: Add setting to manage students access to project based units when [completed](/docs/classes/unitmanagement/settings#visibilitycomplete)
 - `[I] [14th]`: Fix problem with [event listener](/docs/content/authoring/page-edit/buttons#eventlistener)
 - `[I] [14th]`: Add jupyter preview to student's grade feedback preview

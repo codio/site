@@ -57,3 +57,7 @@ Enable this to hide the option for students to switch sections using the Section
 
 ### Hide Back to Dashboard button
 Enable this to hide the 'Back to Dashboard' button that by default will show to the students at the end of the unit
+
+<a name="guidesprotect"></a>
+### Protect Layout
+Enable this to prevent tabs being opened or closed by students in the unit

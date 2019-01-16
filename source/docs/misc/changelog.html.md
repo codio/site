@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2019**
 
+- `[F] [16th]`: Add new [global](/docs/content/authoring/settings-actions/global#guidesprotect) setting in guides to restrict students from opening/closing tabs in unit
+- `[I] [16th]`: Fix problem with handling of .codiomenu on guides being closed
+- `[I] [16th]`: Fix problem for self-pay students agreeing to [Student Consent](/docs/dashboard/create/consent/)
+- `[I] [11th]`: Fix problem with grade feedback dialogs not opening for students
+- `[I] [ 8th]`: Improve contrast colour for confirmation code dialogs
 - `[I] [ 8th]`: Update [RStudio](https://codio.com/home/stacks/dd949669-ae2d-480b-b2b7-44f69476a07c?tab=details) stack to be loginless
 - `[I] [ 6th]`: Improve handling of syncronisation in  [desktop app](/docs/dashboard/desktopapp)
 

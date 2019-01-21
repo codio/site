@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2019**
 
+- `[I] [21st]`: Fix problem with book settings not applied to class units
+- `[F] [18th]`: Add ability to [clone](/docs/classes/classmanagement/clone-class) content of existing class into a new class
+- `[F] [18th]`: Add new [Custom Button](/docs/content/authoring/page-edit/buttons#restorebutton) function to all users to restore current files in guides
+- `[F] [17th]`: Add new guides [layout](/docs/content/authoring/settings-actions/page/) for '2 panels without tree' with guides presented on the left hand side
 - `[F] [16th]`: Add new [global](/docs/content/authoring/settings-actions/global#guidesprotect) setting in guides to restrict students from opening/closing tabs in unit
 - `[I] [16th]`: Fix problem with handling of .codiomenu on guides being closed
 - `[I] [16th]`: Fix problem for self-pay students agreeing to [Student Consent](/docs/dashboard/create/consent/)

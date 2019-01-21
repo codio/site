@@ -4,6 +4,7 @@ addteachers
 addstudents
 studentpasswords
 removestudent
+clone-class
 bookvisibility
 delete
 export

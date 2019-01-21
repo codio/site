@@ -53,3 +53,4 @@ In a page authored using Markdown, you are able to create buttons and other acti
 - `codio.assessments.reset(assessmentId)` - Resets any response and score that the user may have already provided for `assessmentId`. 
 - `codio.assessments.get(assessmentId, callback)` - Gets the result data for a completed assessment 
 - `codio.assessments.send(assessmentId, answer, points, callback)` - Sends result data for a custom assessment. `answer` contains the custom result data for `assessment` and will be stored in Codio. You can use `codio.assessments.get()` to reconstruct the output for an already answered question. 
+- `codio.resetCurrentFiles()` - Allows students to restore current files in guides within your content. 

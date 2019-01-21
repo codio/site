@@ -38,6 +38,13 @@ You can launch a debugger configuration as shown below. It is important to speci
 ```bash
 {Button text | debugger}(debugger configuration name)
 ```
+<a name="restorebutton"></a>
+## To restore current files in guides
+Students can restore current files to the default setting from the [setting](/docs/dashboard/student/guides/) menu but you can also offer them a button within your guides content as well.
+
+```bash
+{Button text | reset}(optional commands to run)
+```
 
 ## Writing a custom event handler
 This offers you the most flexibility and allows you to write your own custom button press handler. A common use case is executing tests on user code.
@@ -46,6 +53,15 @@ To do this, you should use the following format for your custom button.
 
 ```bash
 {Button Text|custom}(myId)
+```
+If you wish to use a custom event handler to allow students to restore current files and handle other functions, you can do so but you will need to include this code in your custom script
+
+```bash
+window.addEventListener('codio-button-custom', function (ev) {
+  if(codio) {    
+    codio.resetCurrentFiles()
+  }
+});
 ```
 
 ## Loading Scripts

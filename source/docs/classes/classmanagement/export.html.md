@@ -8,7 +8,7 @@ full_width: true
 Class data (including students workspaces) can be exported. We would recommend the data is exported before you [Delete a Class](/docs/classes/classmanagement/delete/)
 
 - Select the class, go to the **Admin** area and then press the **Class Data** button.
-**update image**
+
 <img alt="Class Export" src="/img/docs/class_export.png" class="simple"/>
 
 - All the data from the class will be compiled into a zip file in the background and when ready an email will be sent to you with a link for you to download. 
@@ -23,26 +23,6 @@ Individual units data can also be exported separately if required. See [export u
 
 If your class is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/docs/classes/lti/keys#exportlti) for more information.
 
-### Project Access Data
-Use this to download a CSV of project access data. Details include:
-
-- Username
-- Users registered email address
-- First name
-- Last name
-- Unit name
-- Project name
-- Project ID
-- Project created (Date/Time when the project was started)
-- Project completed (Date/Time when the project was completed)
-- IP addresses (List of IP addresses associated with the project)
-
-Note: where project completed is empty, the student has not marked the unit as complete
-
-- Select the class, go to the **Admin** area and then press the **Project Access Data** button.
-**update image**
-<img alt="Class Export" src="/img/docs/class_export.png" class="simple"/>
-
 
 ### User Access Data
 Use this to download a CSV of user access to units in the class. Details include
@@ -51,14 +31,18 @@ Use this to download a CSV of user access to units in the class. Details include
 - Users registered email address
 - First name
 - Last name
+- Date/time when user logged in
+- Access type (Log In, Log Out, Project Open, Project Close)
+- Unit name
 - Role in class (ie Teacher/Student)
-- Login (Date/time when user logged in)
+- Project path
 - IP address (IP address associated with login session)
  
-- Select the class, go to the **Admin** area and then press the **User Access Data** button.
-**update image**
-<img alt="Class Export" src="/img/docs/class_export.png" class="simple"/>
+- Select the class, go to the **Admin** area and then press the **Export User Access Data** button.
 
+<img alt="Class Export" src="/img/docs/user_access_export.png" class="simple"/>
+
+Collection and storage of this data started 29th Jan and will be retained for maximum of 6 months.
 
 ### LTI Settings
 For more information see [Exporting LTI settings](/docs/classes/lti/keys/)

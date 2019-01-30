@@ -13,6 +13,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **January 2019**
 
+- `[I] [30th]`: Improve handling of project preview when waiting for services to start
+- `[F] [29th]`: Add statistical collection for teachers/instructors to [export](/docs/classes/classmanagement/export/) class activity
+- `[I] [25th]`: Fix issue with changing stack in project
+- `[I] [25th]`: Improve handling for Brightspace D2L integration where by if you have 
+```resource_link_id```field an endping URL of ```https://apollo.codio.com/lti/link_endpoint``` can be used
+- `[I] [24th]`: Fix problem with unit ordering in course module when adding new units
+- `[I] [23rd]`: Fix problem updating students units in class when archived
+- `[I] [23rd]`: Fix problem with partial points implemented in [Advanced Code Test](/docs/content/authoring/assessments/assessments-code-tests) assessment
+- `[F] [21st]`: Add new guides [layout](/docs/content/authoring/settings-actions/page/) for '3 panels without tree' with guides presented on the left hand side
 - `[I] [21st]`: Fix problem with book settings not applied to class units
 - `[F] [18th]`: Add ability to [clone](/docs/classes/classmanagement/clone-class) content of existing class into a new class
 - `[F] [18th]`: Add new [Custom Button](/docs/content/authoring/page-edit/buttons#restorebutton) function to all users to restore current files in guides

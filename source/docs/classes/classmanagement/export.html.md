@@ -4,9 +4,10 @@ class_name: docs
 full_width: true
 ---
 
+### Class Data
 Class data (including students workspaces) can be exported. We would recommend the data is exported before you [Delete a Class](/docs/classes/classmanagement/delete/)
 
-- Select the class, go to the **Admin** area and then press the **Export Class Data** button.
+- Select the class, go to the **Admin** area and then press the **Class Data** button.
 
 <img alt="Class Export" src="/img/docs/class_export.png" class="simple"/>
 
@@ -14,13 +15,37 @@ Class data (including students workspaces) can be exported. We would recommend t
 
 - The link will be active for 7 days and after this time the zip file will be removed
 
-- You can also access any active files to download (and generate a new export if required) by clicking on the **Export Class Data** button
+- You can also access any active files to download (and generate a new export if required) by clicking on the **Class Data** button
 
 <img alt="Class Export Links" src="/img/docs/class_exportlinks.png" class="simple"/>
 
 Individual units data can also be exported separately if required. See [export unit data](/docs/classes/unitmanagement/settings#exportunitdata) for more details
 
 If your class is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/docs/classes/lti/keys#exportlti) for more information.
+
+
+### User Access Data
+Use this to download a CSV of user access to units in the class. Details include
+
+- Username
+- Users registered email address
+- First name
+- Last name
+- Date/time when user logged in
+- Access type (Log In, Log Out, Project Open, Project Close)
+- Unit name
+- Role in class (ie Teacher/Student)
+- Project path
+- IP address (IP address associated with login session)
+ 
+- Select the class, go to the **Admin** area and then press the **Export User Access Data** button.
+
+<img alt="Class Export" src="/img/docs/user_access_export.png" class="simple"/>
+
+Collection and storage of this data started 29th Jan and will be retained for maximum of 6 months.
+
+### LTI Settings
+For more information see [Exporting LTI settings](/docs/classes/lti/keys/)
 
 ### Working with student workspaces
 

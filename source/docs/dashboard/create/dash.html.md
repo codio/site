@@ -18,3 +18,5 @@ To do this, access the administration tools:
 <img alt="authtoken" src="/img/docs/manage_organization/dash.png" class="simple"/>
 
 **N.B.** Your students may need to reload Codio in their browser when they next log in for the changes to be visible to them
+
+Access for students to individual courses can also be managed in the course permissions. See [Restrict Course access](/docs/courses/manage/restrict-access) for more information.

@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**February 2019**
+
+- `[F] [ 4th]`: Add course permissions feature to [restrict access](/docs/courses/manage/restrict-access/) to courses for teachers/students
+
 **January 2019**
 
 - `[I] [30th]`: Improve handling of project preview when waiting for services to start

@@ -1,4 +1,5 @@
 course-create
 course-add
 course-public
+restrict-access
 delete

@@ -14,7 +14,7 @@ Both courses and modules need to have their access settings set.
 The ownership field indicates who is able to make administrative changes. In the case of a module, it also indicates who can add, edit and remove project units.
 
 - If you select **My account**, the default, then only you can make changes. 
-- If you select an organization, then any teacher within your organization will be able to make changes.
+- If you select an organization, by default any teacher within your organization will be able to make changes. If you wish to restrict access to specific teachers, see [restrict teacher access](/docs/courses/manage/restrict-access/)
 
 If you wish to prevent access to other teachers within your organization, then you would select **My account** and would also make it private. However, if you were to leave the organization, then no-one would be able to access and manage the course content. As a result, you would change the ownership to the organization in order to ensure that others are able to continue its management.
 

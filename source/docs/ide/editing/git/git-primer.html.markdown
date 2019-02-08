@@ -29,6 +29,7 @@ Creating a project is [fully described here](/docs/project/creating).
 If you have code within Codio and you want to create a brand new GitHub (or other remote) repo, then follow these steps.
 
 1. Create a new project in Codio or open up an existing one.
+1. Open the terminal (Tools > Terminal) and initialize git by typing "git init" and pressing enter
 1. Create a new, empty repo on GitHub or other provider.
 1. Copy the repo url to the clipboard. If you're using GitHub, use the SSH url rather than https and you should make sure that your Codio public key is loaded into your GitHub account or repo settings as [described here](/docs/dashboard/account/publickey)
 

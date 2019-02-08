@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2019**
 
+- `[F] [ 6th]`: Fix problem with exporting project as zip
+- `[I] [ 5th]`: Increase inactive timeout period to 60mins
 - `[F] [ 4th]`: Add course permissions feature to [restrict access](/docs/courses/manage/restrict-access/) to courses for teachers/students
 
 **January 2019**

@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2019**
 
+- `[I] [12th]`: Review button colours on Class Admin screen
+- `[I] [12th]`: Fix problem with returned grade score for book based units
+- `[I] [12th]`: Fix issue with one attempt only message for assessments showing incorrectly when not enabled
+- `[I] [12th]`: Fix problem with dark theme in FF65 on MacOS
+- `[I] [11th]`: Improve handling of invitation of teachers into classes
 - `[F] [ 6th]`: Fix problem with exporting project as zip
 - `[I] [ 5th]`: Increase inactive timeout period to 60mins
 - `[F] [ 4th]`: Add course permissions feature to [restrict access](/docs/courses/manage/restrict-access/) to courses for teachers/students

@@ -18,7 +18,7 @@ footer {
 
   .container-logo {
     padding: 1rem;
-    
+
     @include breakpoint($break-tablet) {
       padding: 1rem 2rem;
     }
@@ -115,7 +115,7 @@ footer {
     @include span(2);
     padding: 0 5%;
     margin-bottom: 2 * $base-line-height;
-    min-height: 195px;
+    min-height: 220px;
 
     @include breakpoint($break-tablet) {
       @include span(1 of 4);

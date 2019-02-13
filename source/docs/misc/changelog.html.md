@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2019**
 
+- `[F] [14th]`: Add new assessment type: [Parson's puzzle](/docs/content/authoring/assessments/assessments-parsons)
 - `[I] [12th]`: Review button colours on Class Admin screen
 - `[I] [12th]`: Fix problem with returned grade score for book based units
 - `[I] [12th]`: Fix issue with one attempt only message for assessments showing incorrectly when not enabled

@@ -68,3 +68,10 @@ Code "Translating" grader
 
 The "original" grader for giving line based feedback.
 
+### Sample Starter Pack
+There is a Starter Pack project that you can add to your account that includes examples of Parson's Puzzle assessments. 
+
+- For Codio.com users: [Click here to install](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11/) 
+- For Codio.co.uk users: [Click here to install](https://codio.co.uk/home/starter-packs/7c69bc1a-7f20-4cd1-a726-63a1c056790f) 
+
+and **Use Pack** to create into your Codio account to review.

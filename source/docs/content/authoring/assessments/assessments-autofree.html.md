@@ -26,6 +26,9 @@ Setting up an assessment is very simple. As you can see from the screenshot abov
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed.
 - **Answer and Rationale** is where guidance for the assessment can be entered. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
+## Student Feedback
+
+If your autograde script is to return feedback to your students as they submit the assessment, enable [Release Grades Automatically](/docs/classes/monitor/grading/#releasegradesstatus).  
 
 ## Preview type
 The following preview options are available. They dictate the expected input format and whether a fully rendered preview pane appears below the student input. Markdown is useful if the student wants to enter text formatting commands. 

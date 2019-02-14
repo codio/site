@@ -1,12 +1,12 @@
 ---
-title: "Parsons Problems"
+title: "Parsons Puzzle"
 class_name: docs
 full_width: true
 ---
 
-## What are Parson’s Problems?
+## What are Parson’s Puzzles?
 
-Parson’s Problems are great formative assessments that ask students to arrange blocks of scrambled code - allowing them to focus on the purpose and flow of the code (often including a new pattern or feature) while not worrying about syntax.
+Parson’s Problems are available on Codio as Parsons Puzzles. Parson’s Problems are great formative assessments that ask students to arrange blocks of scrambled code - allowing them to focus on the purpose and flow of the code (often including a new pattern or feature) while not worrying about syntax.
 
 Parson's Problems full documentation is available [here](http://js-parsons.github.io/documentation/)
 

@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2019**
 
+- `[I] [15th]`: Remove [project settings](/docs/ide/customization/project-settings/) from [desktop app](/docs/dashboard/desktopapp)
+- `[I] [15th]`: Improve messaging display when invalid dates entered for a class
+- `[I] [15th]`: Update [download csv](/docs/classes/monitor/progress#downloadcsv) to remove data of students removed from the class
+- `[I] [15th]`: Improve guides settings to save and close from one click
+- `[F] [15th]`: Add new guides [layout](/docs/content/authoring/settings-actions/page/) including file tree with guides presented on the left hand side
 - `[F] [14th]`: Add new assessment type: [Parson's puzzle](/docs/content/authoring/assessments/parsons-puzzle)
 - `[I] [12th]`: Review button colours on Class Admin screen
 - `[I] [12th]`: Fix problem with returned grade score for book based units

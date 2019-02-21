@@ -13,6 +13,17 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2019**
 
+- `[F] [21st]`: Add support for promotion codes in [Self Invoicing](/docs/dashboard/account/billing/)
+- `[I] [20th]`: Update handling of soft tabs for python that were not handling backspace and delete buttons actions correctly
+- `[I] [20th]`: Improve messaging on stack version creation if user has no access
+- `[I] [19th]`: Improve messaging when publishing unit in a module that the user hasn't previously opened
+- `[I] [18th]`: Improve handling of [course upgrade](/docs/classes/unitmanagement/upgradecourse/) in class where there is a mix of public and private modules
+- `[I] [15th]`: Enlarge size of confirmation dialogs text for better accessibility
+- `[I] [15th]`: Remove [project settings](/docs/ide/customization/project-settings/) from [desktop app](/docs/dashboard/desktopapp)
+- `[I] [15th]`: Improve messaging display when invalid dates entered for a class
+- `[I] [15th]`: Update [download csv](/docs/classes/monitor/progress#downloadcsv) to remove data of students removed from the class
+- `[I] [15th]`: Improve guides settings to save and close from one click
+- `[F] [15th]`: Add new guides [layout](/docs/content/authoring/settings-actions/page/) including file tree with guides presented on the left hand side
 - `[F] [14th]`: Add new assessment type: [Parson's puzzle](/docs/content/authoring/assessments/parsons-puzzle)
 - `[I] [12th]`: Review button colours on Class Admin screen
 - `[I] [12th]`: Fix problem with returned grade score for book based units

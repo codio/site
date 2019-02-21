@@ -8,7 +8,7 @@ full_width: true
 When you create a Codio Project, it is automatically assigned an Ubuntu server. You can think of this server as being asleep until you open up your Project in the IDE. As soon as the Project loads in the IDE, the Box is up and running.
 
 ### When is the Server put back to sleep?
-Your server is put to sleep within a few minutes of you exiting your Project or after 30mins of inactivity.
+Your server is put to sleep within a few minutes of you exiting your Project or after 60mins of inactivity.
 
 ### Can I have my Box 'Always on'?
 Paid subscribers can use the [Always On Boxes](/docs/ide/boxes/always-on/) feature. This allows you to mark Projects that you don't want to be put to sleep when you exit your Project.

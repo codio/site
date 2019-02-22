@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2019**
 
+
 - `[F] [21st]`: Add support for promotion codes in [Self Invoicing](/docs/dashboard/account/billing/)
 - `[I] [20th]`: Update handling of soft tabs for python that were not handling backspace and delete buttons actions correctly
 - `[I] [20th]`: Improve messaging on stack version creation if user has no access

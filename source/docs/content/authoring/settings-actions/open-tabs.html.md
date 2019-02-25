@@ -85,6 +85,48 @@ If there is any potential ambiguity with this approach, simply insert a comment 
 
 Any combinations are acceptable and they will be opened in the order specified.
 
+<a name="visualiser"></a>
+### Visualiser
+
+Codio supports [Python Tutor](http://pythontutor.com/) allowing students to overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code. 
+Select `Visualiser` and enter the path to your file. 
+
+Supported languages:
+- Python, 
+- Java, 
+- JavaScript, 
+- TypeScript, 
+- Ruby, 
+- C, 
+- C++.
+
+Students can visualize what the computer is doing step-by-step as it executes those programs.
+
+<img alt="authtoken" src="/img/docs/guides/pythontutor.png" class="simple"/>
+
+#### Examples
+
+Python:
+
+```python
+nested = ['spam', 1, ['Brie', 'Roquefort', 'Pol l Veq'],[1, 2, 3]]
+for temp in nested:
+  print(temp)
+  ```
+Java:
+
+```java
+public static void countdown(int n) {
+  if(n==0) {
+    System.out.println("Blastoff!"); 
+  }
+  else{
+    System.out.println(n);
+    countdown(n - 1);
+  }
+}
+```
+For more information and examples see [Python Tutor](http://pythontutor.com/)
 <a name="specifypanel"></a>
 ### Specifying the panel number
 If your [layout](/docs/content/authoring/settings-actions/page/) for this page involves multiple panels, then you can also specify the panel number to display the file in.

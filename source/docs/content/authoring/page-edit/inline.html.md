@@ -18,6 +18,7 @@ The syntax is as follows and actions can be chained together using, separated by
 - `open_preview file panel=0` where panel is optional, in which case the default panel (0) will be used if not specified.
 - `open_terminal command panel=0` where command (a system command) is optional and where panel is optional, in which case the default panel (0) will be used if not specified.
 - `cmd systemcommand argument1 argument2 argumentN` 
+- `open_tutor file panel-0` to open [visualiser](/docs/content/authoring/settings-actions/open-tabs/#visualiser) and where panel is optional, in which case the default panel (0) will be used if not specified.
 
 ### Closing directives
 - `close_all` closes all tabs in all panels, except the Guide itself.
@@ -26,6 +27,7 @@ The syntax is as follows and actions can be chained together using, separated by
 - `close_file file1 file2 fileN panel=0` where panel is optional, in which case the default panel (0) will be used.
 - `close_preview` behaves like `close_file` for preview tabs.
 - `close_terminal` behaves like `close_file` for terminal tabs.
+- `close_tutor file panel=0` where visualiser is closed for file open in panel 0
 
 ### Important - spaces and ; in file names and commands
 If any of your files contain spaces in the names, then you should enclose the file name in double quotes

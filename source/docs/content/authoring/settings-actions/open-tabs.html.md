@@ -85,7 +85,8 @@ If there is any potential ambiguity with this approach, simply insert a comment 
 
 Any combinations are acceptable and they will be opened in the order specified.
 
-<a name="visualiser"></a>
+<a name="tutor"></a>
+
 ### Visualiser
 
 Codio supports [Python Tutor](http://pythontutor.com/) allowing students to overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code. 

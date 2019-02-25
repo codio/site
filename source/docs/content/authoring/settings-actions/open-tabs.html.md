@@ -114,6 +114,8 @@ nested = ['spam', 1, ['Brie', 'Roquefort', 'Pol l Veq'],[1, 2, 3]]
 for temp in nested:
   print(temp)
   ```
+<img alt="authtoken" src="/img/docs/guides/PythonVisualizerExample.png" class="simple"/> 
+
 Java:
 
 ```java
@@ -127,6 +129,8 @@ public static void countdown(int n) {
   }
 }
 ```
+<img alt="authtoken" src="/img/docs/guides/JavaVisualizerExample.png" class="simple"/> 
+
 For more information and examples see [Python Tutor](http://pythontutor.com/)
 <a name="specifypanel"></a>
 ### Specifying the panel number

@@ -13,7 +13,14 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **February 2019**
 
-- `[F] [25th]`: Add [visualisation](/docs/content/authoring/settings-actions/open-tabs/#tutor) support in [guides](/docs/content/authoring/)
+- `[I] [26th]`: Improve messaging when connecting project in [desktop app](/docs/dashboard/desktopapp)
+- `[I] [26th]`: Fix issue with Book permissions if a user is deleted
+- `[I] [26th]`: Improve handling of redirection when unit run in LMS when students mark the unit as completed
+- `[I] [26th]`: Add refresh button to [visualisation](/docs/content/authoring/settings-actions/open-tabs/#tutor) assessment
+- `[I] [26th]`: Fix problem for students being unable to view the content of the unit when marked as complete and visibility set to read only
+- `[I] [26th]`: Update Light reading theme drop down in guides [global settings](/docs/content/authoring/settings-actions/global/) to read only
+- `[I] [26th]`: Make course/module owner brighter
+- `[F] [25th]`: Add [visualisation](/docs/content/authoring/settings-actions/open-tabs/#tutor) assessment support in [guides](/docs/content/authoring/)
 - `[F] [21st]`: Add support for promotion codes in [Self Invoicing](/docs/dashboard/account/billing/)
 - `[I] [20th]`: Update handling of soft tabs for python that were not handling backspace and delete buttons actions correctly
 - `[I] [20th]`: Improve messaging on stack version creation if user has no access

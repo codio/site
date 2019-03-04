@@ -64,3 +64,10 @@ The following image shows how to format input and output fields if you are **not
 The following image shows the more tolerant approach that has the **Ignore whitespace** option set. In this case, we have put everything on its own line for readability. The whitespace characters will be stripped out of both the expected output and the student output at runtime.
 
 <img alt="" src="/img/docs/guides/std-assessment-stdin-ignore.png" class="simple"/>
+
+<a name="errorfeedback"></a>
+### Error Feedback
+
+To provide extended feedback about issues in the student's code, you can enable this option if you wish to show feedback to the student in the event the test fails. 
+
+<img alt="" src="/img/docs/guides/std-assessment-error.png" class="simple"/>

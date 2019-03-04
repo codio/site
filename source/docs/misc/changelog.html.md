@@ -11,8 +11,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**March 2019**
+
+- `[F] [ 4th]`: Add support to provide additional feedback to students when test fails in [standard code test](/docs/content/authoring/assessments/assessments-standard-code-tests#errorfeedback)
+- `[I] [ 1st]`: Improve messaging when stack used in class unit is deleted where unit was not re published
+
 **February 2019**
 
+- `[I] [28th]`: Fix issue in [upgrade course](/docs/classes/unitmanagement/upgradecourse/) where long names used in module and/or units 
+- `[I] [28th]`: Fix layout issue in [standard code test](/docs/content/authoring/assessments/assessments-standard-code-tests) assessment in html type of page
 - `[I] [26th]`: Improve messaging when connecting project in [desktop app](/docs/dashboard/desktopapp)
 - `[I] [26th]`: Fix issue with Book permissions if a user is deleted
 - `[I] [26th]`: Improve handling of redirection when unit run in LMS when students mark the unit as completed

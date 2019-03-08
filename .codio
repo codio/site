@@ -7,17 +7,15 @@
         "Kill Middleman": "pkill -9 ruby",
         "Build": "bundle exec middleman build",
         "Deploy to Production": "cap production deploy",
-        "Start Ungit":"ungit --port=9500."
+        "Start Ungit":"ungit --port=4000 --ungitBindIp 0.0.0.0"
 
   },
 
 // Preview button configuration
   "preview": {
-         "Docs": "http://{{domain3000}}/docs",
-         "Home Page": "http://{{domain3000}}/",
-         "Blog": "http://{{domain3000}}/blog",
-         "Visit Ungit": "https://{{domain}}:9500/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
-			
+         "Docs": "https://{{domain3000}}/docs",
+         "Home Page": "https://{{domain3000}}/",
+         "Blog": "https://{{domain3000}}/blog",
+         "Visit Ungit": "https://{{domain4000}}/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
   }
-
 }

@@ -1,1 +1,1 @@
-ungit --port=9501
+ungit --ungitBindIp=0.0.0.0 --port=4000

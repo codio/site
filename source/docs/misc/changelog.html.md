@@ -13,6 +13,14 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2019**
 
+- `[I] [ 7th]`: Improve layout for unit penalty screen
+- `[F] [ 7th]`: Add Education>Validate Jupyter menu item to allow authors to validate and check Jupyter projects before publishing
+- `[I] [ 7th]`: Update guides page navigation handing to mitigate content synchronisation issues
+- `[I] [ 6th]`: Improve handling of submit jupyter assessments button
+- `[I] [ 6th]`: Fix issue with show expected answer in html pages
+- `[I] [ 5th]`: Improve validation to detect errors better in .codio-menu file
+- `[I] [ 4th]`: Fix issue with symbols used in guides TOC
+- `[I] [ 4th]`: Fix problem with Tools>Guides>Remotes menu item
 - `[F] [ 4th]`: Add support to provide additional feedback to students when test fails in [standard code test](/docs/content/authoring/assessments/assessments-standard-code-tests#errorfeedback)
 - `[I] [ 1st]`: Improve messaging when stack used in class unit is deleted where unit was not re published
 

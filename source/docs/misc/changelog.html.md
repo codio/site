@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2019**
 
+- `[F] [11th]`: Improve [organisation](/docs/dashboard/create/orgcontacturl) and [class](/docs/classes/classmanagement/classcontacturl) contact url for students, allowing multiple contact urls to be defined.
 - `[I] [ 7th]`: Improve layout for unit penalty screen
 - `[F] [ 7th]`: Add Education>Validate Jupyter menu item to allow authors to validate and check Jupyter projects before publishing
 - `[I] [ 7th]`: Update guides page navigation handing to mitigate content synchronisation issues

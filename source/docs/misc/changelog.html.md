@@ -13,9 +13,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2019**
 
+- `[I] [15th]`: Fix problem for student feedback when unit running in iFrame
+- `[I] [15th]`: Fix issue with students able to start units after deadline is past
+- `[I] [15th]`: Remove menu item "Submit Jupyter assessments" from jupyter units
+- `[I] [14th]`: Improve handling of test autograde script
 - `[F] [11th]`: Improve [organisation](/docs/dashboard/create/orgcontacturl) and [class](/docs/classes/classmanagement/classcontacturl) contact url for students, allowing multiple contact urls to be defined.
 - `[I] [ 7th]`: Improve layout for unit penalty screen
-- `[F] [ 7th]`: Add Education>Validate Jupyter menu item to allow authors to validate and check Jupyter projects before publishing
+- `[F] [ 7th]`: Add `Education>Validate Jupyter` menu item to allow authors to validate and check Jupyter projects before publishing
 - `[I] [ 7th]`: Update guides page navigation handing to mitigate content synchronisation issues
 - `[I] [ 6th]`: Improve handling of submit jupyter assessments button
 - `[I] [ 6th]`: Fix issue with show expected answer in html pages

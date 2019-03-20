@@ -16,7 +16,7 @@ or click on the 'Grade' field showing in the dashboard
 
 <img alt="access grades" src="/img/docs/accessgrades.png" class="simple"/>
 
-Click on entries and you can drill down to see more information where available
+Click on 'details' for the assessment and you can drill down to see more information on that assessment
 
 <img alt="grade detail" src="/img/docs/gradedetail.png" class="simple"/>
 

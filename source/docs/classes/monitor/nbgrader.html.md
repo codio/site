@@ -19,7 +19,7 @@ if a `.codio-jupyter` file exists in a project we assume it is **jupyter** based
 
 When the unit is published to a class, either as an [individual project](/docs/classes/unitmanagement/assign-project) or as part of a [course/module](/docs/classes/unitmanagement/assign-module), the release version is created for the student.
 
-When the student submits the assignment by marking the unit as complete, it will be autograded automatically.
+When the student submits the assignment by marking the unit as complete, it will be [autograded](/docs/classes/unitmanagement/settings-info/autograde) automatically.
 
 [Manual grading](/docs/classes/monitor/grading/) is also available if required
 

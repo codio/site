@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2019**
 
+- `[I] [20th]`: Improve handling of adding teachers to class
+- `[I] [19th]`: Fix problem with teachers not able to access students projects after deadline passed
 - `[I] [15th]`: Fix problem for student feedback when unit running in iFrame
 - `[I] [15th]`: Fix issue with students able to start units after deadline is past
 - `[I] [15th]`: Remove menu item "Submit Jupyter assessments" from jupyter units
@@ -97,10 +99,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 - `[I] [14th]`: Add additional fields for students answers into the [download csv](/docs/classes/monitor/progress#downloadcsv)
 - `[I] [11th]`: Improve handling of [gigabox](/docs/classes/classmanagement/giga/) allocation when run from a course
 - `[I] [10th]`: Fix problem with Advanced Code Test with Custom language type and Allow Partial Points
-- `[I] [ 7th]`: Add answer and rationale fields to [grading feedback](/docs/dashboard/student/gradefeeback) for student dashboard
+- `[I] [ 7th]`: Add answer and rationale fields to [grading feedback](/docs/dashboard/student/gradefeedback) for student dashboard
 - `[I] [ 6th]`: Fix problem with global scripts in guides
-- `[I] [ 5th]`: Improve [grading feedback](/docs/dashboard/student/gradefeeback) for student dashboard
+- `[I] [ 5th]`: Improve [grading feedback](/docs/dashboard/student/gradefeedback) for student dashboard
 - `[I] [ 4th]`: Improve messaging when synchronising of files pulled/pushed to [desktop app](/docs/dashboard/desktopapp)
+
+
 
 **November 2018**
 

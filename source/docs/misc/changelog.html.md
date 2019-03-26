@@ -13,6 +13,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2019**
 
+- `[I] [26th]`: Update messaging to students marking units as completed
+- `[I] [26th]`: Minor [dashboard](/docs/dashboard/navigation/) text changes
+- `[I] [22nd]`: Fix problem with handling of read only projects where external services are used (e.g. Jupyter/RStudio)
+- `[I] [21st]`: Fix problem with storage of guides layout settings in units
 - `[I] [20th]`: Improve handling of adding teachers to class
 - `[I] [19th]`: Fix problem with teachers not able to access students projects after deadline passed
 - `[I] [15th]`: Fix problem for student feedback when unit running in iFrame

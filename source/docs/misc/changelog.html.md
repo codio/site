@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **March 2019**
 
+- `[F] [31st]`: Empty Stack set to use Ubuntu 18.04. 
 - `[F] [29th]`: Add ability to [clone class](/docs/classes/classmanagement/clone-class/) from main class dashboard
 - `[I] [27th]`: Fix terminal scrolling problem when unit run in iframe
 - `[I] [26th]`: Update messaging to students marking units as completed

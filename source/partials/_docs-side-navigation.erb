@@ -32,20 +32,18 @@
               <% collapsein = active == "" ? "collapse" : "collapse in" %>
               <ul class="<%= active %> level-1-list collapsed items-list <%= collapsein %>" id="f<%= index %>">
                 <% ordered(child).each_with_index do |p, pindex| %>
-                  <% if current_section? p.url %>
-                    <li class="active level-1-item">
-                  <% else %>
-                    <li class="level-1-item">
-                  <% end %>
+                  <% active_level = current_section?(p.url) ? "active" : "" %>
+                  <li class="<%= active_level %> level-1-item">
+                  <% collapsed_level = active_level == "" ? "collapsed" : "" %>
                   <% if p.children.length > 0 %>
-                    <a class="link-collapse" data-toggle="collapse" href="#s<%= pindex %>"></a>
+                    <a class="link-collapse <%= collapsed_level %>" data-toggle="collapse" href="#s<%= index %>-<%= pindex %>"></a>
                   <% end %>
                   <% if p.data.class_name == "obg" %>
                     <div class="video-item"></div>
                   <% end %>
                   <%=  link_to p.data.title, p.url %>
                   <% if p.children.length > 0 %>
-                    <ul class="level-2-list collapse items-list" id="s<%= pindex %>">
+                    <ul class="level-2-list collapse items-list" id="s<%= index %>-<%= pindex %>">
                       <% ordered(p).each do |inner| %>
                         <% if current_page? inner.url %>
                           <li class="active level-2-item">

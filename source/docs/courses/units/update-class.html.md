@@ -1,5 +1,5 @@
 ---
-title: Upgrade course in class
+title: Update course in class
 class_name: docs
 full_width: true
 ---

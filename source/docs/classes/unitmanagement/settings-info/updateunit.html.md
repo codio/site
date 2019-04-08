@@ -7,7 +7,7 @@ full_width: true
 
 ### Projects assigned to the class
 
-Individual units that were assigned from a regular project can be updated using the **Update unit** option. If you have added a unit from a course then you should use the **[Upgrade Course](/docs/classes/unitmanagement/upgradecourse/)** instead.
+Individual units that were assigned from a regular project can be updated using the **Update unit** option. If you have added a unit from a course then you should use the **[Update Course](/docs/classes/unitmanagement/upgradecourse/)** instead.
 
 Click on the 3 blue vertical dots and select **Update Unit**
 

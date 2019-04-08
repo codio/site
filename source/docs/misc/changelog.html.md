@@ -11,6 +11,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**April 2019**
+
+- `[I] [ 7th]`: Improve visibility of keyboard focus
+- `[I] [ 7th]`: Change wording `Upgrade` to `Update` for consistency of language 
+- `[F] [ 6th]`: Add ability to [exclude files](/docs/classes/unitmanagement/excludefiles/) from students units in a class
+- `[I] [ 4th]`: Update handling of teacher only pages in books
+
 **March 2019**
 
 - `[F] [31st]`: Empty Stack set to use Ubuntu 18.04. 

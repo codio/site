@@ -7,7 +7,7 @@ full_width: true
 
 **This option will destroy all student work.**
 
-In the event that a unit in your course/classes is updated and, for some reason, you cannot use the [Upgrade course](/docs/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the unit, are updated with the new unit.
+In the event that a unit in your course/classes is updated and, for some reason, you cannot use the [Update course](/docs/classes/unitmanagement/upgradecourse) option, you can reset it so **all** students, including those who have already started the unit, are updated with the new unit.
 
 You can reset the unit for all your students by selecting either
 

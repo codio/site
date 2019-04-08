@@ -3,4 +3,5 @@ assign-module
 upgradecourse
 teststudents
 settings
+excludefiles
 settings-info

@@ -27,9 +27,10 @@ Setting up an assessment is very simple. As you can see from the screenshot abov
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. Latex is also supported. Please refer to the **Preview Type** section below for details.
 - **Sense feedback Url** (required) to extract assignment id 
 - **Filename** (optional) is the path to the file to pass. If empty, will send the currently opened file 
-- **Gradable** enable if the assignment is to be used within the grade total for the unit. If this is not enabled students can be given feedback on their submission for this assessment without it being graded. If enabled, each submission will override any previous submissions for grading purposes.
+- **Gradable** enable if the assignment is to be used within the grade total for the unit. If this is not enabled students can be given feedback on their submission for this assessment without it being graded. Please note **Answer and Rationale** will not return anything to the student if the assignment is not gradable. When enabled, each submission will override any previous submissions for grading purposes.
 - **One Attempt Only** can be used to restrict the student to answering the question once. If not enabled, students will be able to edit their answer until the Unit is marked as Completed. 
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value.
+- **Answer and Rationale** is where guidance for the assessment can be entered where the assessment is **Gradable**. This is not required if the assignment is not gradable. This will be visible to the teacher when the project is opened using the [Open as Teacher](/docs/classes/unitmanagement/settings-info/teachersolutions) method. This guidance information can also be shown to students after they have submitted their answer and also if they reload the unit after marking it as completed. To enable this, flip the **Show Answer and Rationale to Student** switch below the guidance field.
 
 
 

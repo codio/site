@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2019**
 
+- `[F] [ 9th]`: Add [sense.network](/docs/content/authoring/assessments/assessments-sense-network) assessment to offer feedbackdback to students on code submissions
 - `[I] [ 7th]`: Improve visibility of keyboard focus
 - `[I] [ 7th]`: Change wording `Upgrade` to `Update` for consistency of language 
 - `[F] [ 6th]`: Add ability to [exclude files](/docs/classes/unitmanagement/excludefiles/) from students units in a class

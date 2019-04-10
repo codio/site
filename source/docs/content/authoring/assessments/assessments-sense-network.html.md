@@ -24,7 +24,7 @@ Setting up an assessment is very simple. As you can see from the screenshot abov
 
 - **Name** (required) is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
 - **Instructions** (optional) is the text that should be shown to the user, written in Markdown.
-- **Pre-exec command** (optional) is where a check can be run to confirm any code is compiling as required
+- **Pre-exec command** (optional) is where a check can be run to confirm any code is compiling as required. If you store the scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - **Pre-exec feedback** (optional) field is used to show feedback if **Pre-exec command** fails,  otherwise will show pre-exec output.
 - **Preview Type** specified the expected input by the student. Codio offers plaintext and markdown options. Latex is also supported. Please refer to the **Preview Type** section below for details.
 - **Sense feedback Url** (required) to extract assignment id 

@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2019**
 
+- `[I] [10th]`: Remove grading button when unit is [opened as teacher](/docs/classes/unitmanagement/settings-info/teachersolutions)
+- `[I] [10th]`: Fix problem with saving panel layout on submission
+- `[F] [10th]`: Add support for [secure assessment script execution](/docs/content/authoring/assessments/overview#secure)
 - `[I] [10th]`: Improve handling of copying links/tokens to show confirmation
 - `[F] [10th]`: Add assessment attempts count into [download csv](/docs/classes/unitmanagement/settings#exportunitdata) files
 - `[I] [10th]`: Fix problem with partial points for advanced code test not showing correctly in dashboard

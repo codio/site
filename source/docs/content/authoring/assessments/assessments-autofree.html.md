@@ -18,7 +18,7 @@ The answer will be passed to the script as `stdin`.
 Setting up an assessment is very simple. As you can see from the screenshot above, you should specify the following details
 
 - **Name** is a short name that describes the assessment. This name will appear in teacher dashboards, so naming it clearly is important so teachers can see precisely which challenges are successfully met (or not) by students. In many cases, you do not want to see this text appear within the challenge text the student sees. To suppress this text, flip the **Show Name** switch next to the name field.
-- **Command** is the command to execute a script to autograde.
+- **Command** is the command to execute a script to autograde. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - **Timeout** is the time to abort the script from executing in the event of a problem.
 - **Instructions** is the actual text that should be shown to the user, written in Markdown.
 - The **Points** field is the number of points allocated for the question. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow the teacher when grading the answer to select the points to give for the students answer.

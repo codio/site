@@ -39,3 +39,8 @@ Once deleted, an assessment remains hidden. To fully remove it, press the **Sett
 
 ## Autograding when a student completes a unit
 Codio allows you to run a special auto-grading script as soon as a unit is completed by the student. This special type of assessment is managed from the unit settings page in a class. [Click here](/docs/classes/unitmanagement/settings-info/autograde/) for details.
+
+<a name="secure"></a>
+## Secure Script execution
+If you store assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way and the script runs in an ephemeral container isolated from the students unit.
+Any other scripts in the unit that are not in this folder can be accessible to the students

@@ -13,6 +13,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2019**
 
+- `[I] [10th]`: Improve handling of copying links/tokens to show confirmation
+- `[F] [10th]`: Add assessment attempts count into [download csv](/docs/classes/unitmanagement/settings#exportunitdata) files
+- `[I] [10th]`: Fix problem with partial points for advanced code test not showing correctly in dashboard
+- `[F] [10th]`: Add [custom script](/docs/dashboard/create/custom-script) to allow third-party systems to track/help students.
+- `[I] [ 9th]`: Improve standard code feedback field text handling
+- `[I] [ 9th]`: Fix problem with changing theme in guides
 - `[F] [ 9th]`: Add [sense.network](/docs/content/authoring/assessments/assessments-sense-network) assessment to offer feedbackdback to students on code submissions
 - `[I] [ 7th]`: Improve visibility of keyboard focus
 - `[I] [ 7th]`: Change wording `Upgrade` to `Update` for consistency of language 

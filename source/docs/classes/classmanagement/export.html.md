@@ -37,6 +37,7 @@ Use this to download a CSV of user access to units in the class. Details include
 - Role in class (ie Teacher/Student)
 - Project path
 - IP address (IP address associated with login session)
+
  
 - Select the class, go to the **Admin** area and then press the **Export User Access Data** button.
 

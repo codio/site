@@ -14,6 +14,29 @@ If required by the third-party system used, custom js code can be included in th
 
 Any such code should be entered without script tags.
 
+e.g.
+
+```javascript
+var http = new XMLHttpRequest();
+var url = 'https://userdomain/url'; //Change to valid URL for your third-party system
+var params = 'userId=' + codio.userId ;
+http.open('POST', url, true);
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() {//Call a function when the state changes.
+    if(http.readyState == 4 && http.status == 200) {
+        alert(http.responseText);
+    }
+}
+http.send(params);
+```
+You can also add `console.log` entries to be able to test/view output
+
+e.g.
+```javascript
+console.log('params', codio);
+console.log('params', window);
+console.log('params', document)
+```
 
 <img alt="Custom script" src="/img/docs/manage_organization/customscript.png" class="simple"/>
 

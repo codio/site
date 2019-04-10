@@ -6,7 +6,9 @@ full_width: true
 
 [Sense.Education](https://www.sense.education/) is an AI-Based code analysis package to give students feedback on their code submissions and is supported in Codio in the Sense.Network assessment type.
 
-Students can submit their work and will be able to view feedback from Sense and if - **One Attempt Only** is not enabled can review their code and submit again.
+Students can submit their work and will be able to view feedback from Sense and if **One Attempt Only** is not enabled can review their code and submit again.
+
+To help and track students activity through sense, [custom script](/docs/dashboard/create/custom-script) can be enabled.
 
 This assessment type is only visible when the sense.network api key is entered in the **Organisation>Integrations** area. See [organisation admin roles](/docs/dashboard/create/adminrole/) for more on this.
 

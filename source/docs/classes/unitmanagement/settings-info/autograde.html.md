@@ -36,9 +36,8 @@ If you are using an LMS platform with Codio then be sure to write a percentage v
 
 <a name="securescripts"></a>
 ### Secure scripts
-If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way.
+If you want your scripts to run securely such that the student has no way of either viewing the script or viewing other files that might contain secure data then you should place those scripts and files in the `.guides/secure` folder. Codio ensures that only the original project author is able to access this folder but when it is assigned to Students as a Unit, it is not accessible in any way and the script runs in an ephemeral container isolated from the students unit.
 
-**Important** : you should only place scripts in the `.guides/secure` folder that will be executed when the Unit if marked as complete. Do not put scripts accessed from Codio authored content there as this folder will not accessible at that point.
 
 ### Timeout
 Your script must execute within 3 minutes or a timeout error will occur.

@@ -27,7 +27,7 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
             - When `UnitTest` selected, a `python executable` input field is then available. `python` (default) or `python3` can be entered
     - Javascript requires `jshint` (nodejs + jshint global package) and `jslint`(nodejs + jslint global package)
             
-- **Command** is the command to run to invoke your test. See the section **Test code** below for more details.
+- **Command** is the command to run to invoke your test. See the section **Test code** below for more details. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.
 - **Timeout** is the period of time (seconds) the test will run before terminating.
 - **Points** is the score given to the student if the code test passes. You can choose any positive numeric value. Enabling the **Allow Partial Points** switch will allow partial points to be given. See the section **Partial Score** lower down on this page.
 - **One attempt only** allows the assessment to be run only once. This generally not advised unless you make it clear to the student that a failed test cannot be repeated. You should also provide a Run button in the Guide (or provide other instructions) so the user can test the code before running the actual assessment.
@@ -37,7 +37,7 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
 <img alt="authtoken" src="/img/docs/guides/assessment_codetest.png" class="simple"/>
 
 ## Test code location
-You can place your test code anywhere you like. One suitable location is to create a `.guides/tests` folder. 
+You can place your test code anywhere you like but if you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data. Another suitable location could be to to create a `.guides/tests` folder. 
 
 When specifying a command to run, you could specify it in either of these ways (the ~/workspace folder is assumed if you do not specify a full path).
 

@@ -25,6 +25,18 @@ When the student submits the assignment by marking the unit as complete, it will
 
 
 ### Configuration
+
+<a name="nbgradertimeout"></a>
+#### Extend Timeout period
+
+To extend the time required for completion (to 90 seconds in this example), you can add
+
+```yaml
+nbgrader:
+   ExecutePreprocessor.timeout: 90
+```
+to the `.codio-jupyter` file
+
 At present we do not have any additional options, but have plans in the future to allow to specify port for `.jupyter` or access tokens.
 If you require any assistance at all, please don't hesitate to [contact us](/docs/dashboard/support/)
 

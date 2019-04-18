@@ -13,6 +13,13 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2019**
 
+- `[I] [18th]`: Fix problem with autograde scripts where units are read only
+- `[F] [18th]`: Add support to extend timeout for [nbrader/jupyter](/docs/classes/monitor/nbgrader#nbgradertimeout) units
+- `[I] [17th]`: Improve messaging where assessment submissions unable to complete correctly
+- `[I] [17th]`: Improve handling of code assessment submissions(/docs/classes/unitmanagement/settings#exportunitdata) files
+- `[I] [16th]`: Update handling of test students to show correct class logged into
+- `[I] [15th]`: Fix problem with handling of grading templates for class units
+- `[I] [ 9th]`: Fix problem with changing theme in guides
 - `[I] [10th]`: Remove grading button when unit is [opened as teacher](/docs/classes/unitmanagement/settings-info/teachersolutions)
 - `[I] [10th]`: Fix problem with saving panel layout on submission
 - `[F] [10th]`: Add support for [secure assessment script execution](/docs/content/authoring/assessments/overview#secure)

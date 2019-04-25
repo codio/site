@@ -13,8 +13,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **April 2019**
 
+- `[I] [23rd]`: Update clike codemirror plugin for better handling of objective c files 
+- `[I] [23rd]`: Fix layout problem for pull/push buttons in desktop app
+- `[I] [23rd]`: Fix problem with updating Jupyter Notebook units to a class
+- `[I] [22nd]`: Improve layout of private/public icon in class
 - `[I] [18th]`: Fix problem with autograde scripts where units are read only
-- `[F] [18th]`: Add support to extend timeout for [nbrader/jupyter](/docs/classes/monitor/nbgrader#nbgradertimeout) units
+- `[F] [18th]`: Add support to extend timeout for [nbgrader/jupyter](/docs/classes/monitor/nbgrader#nbgradertimeout) units
 - `[I] [17th]`: Improve messaging where assessment submissions unable to complete correctly
 - `[I] [17th]`: Improve handling of code assessment submissions(/docs/classes/unitmanagement/settings#exportunitdata) files
 - `[I] [16th]`: Update handling of test students to show correct class logged into

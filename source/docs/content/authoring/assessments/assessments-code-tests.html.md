@@ -24,7 +24,7 @@ Setting up a Code Test within the Guide editor is very simple. As you can see fr
     - Ruby (>=2.0) requires `rubocop` and `rspec` gem
     - Java (>=1.7) requires [Junit](/docs/ide/features/junit/) and `checkstyle`
     - Python requires `pycodestyle` or `UnitTest`
-            - When `UnitTest` selected, a `python executable` input field is then available. `python` (default) or `python3` can be entered
+                - When `UnitTest` selected, a `python executable` input field (`python` (default) or `python3` can be entered) and `python working directory` fields are then available. As dot folders are reserved for import in python, this will switch the execution context and allow files to execute in dot folders (i.e. `.folder`)
     - Javascript requires `jshint` (nodejs + jshint global package) and `jslint`(nodejs + jslint global package)
             
 - **Command** is the command to run to invoke your test. See the section **Test code** below for more details. If you store the assessment scripts in the `.guides/secure` folder, they will run securely such that the student has no way of either viewing the script or viewing other files in that folder that might contain secure data.

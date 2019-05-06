@@ -37,7 +37,60 @@ nbgrader:
 ```
 to the `.codio-jupyter` file
 
+
+#### Lock all cells
+
+To lock all cells (Default: False)
+
+```yaml
+nbgrader:
+   LockCells.lock_all_cells: True
+```
+to the `.codio-jupyter` file
+
+#### Lock all grade cells
+
+To lock all grade cells (Default: True) where grade cells are locked (non-deletable)
+
+```yaml
+nbgrader:
+   LockCells.lock_grade_cells: True
+```
+to the `.codio-jupyter` file
+
+#### Lock all read-only cells
+
+To lock all grade cells (Default: True) where read only cells are locked (non-deletable and non-editable)
+
+```yaml
+nbgrader:
+   LockCells.lock_readonly_cells: True
+```
+to the `.codio-jupyter` file
+
+#### Lock all solution cells
+
+To lock all solution cells (Default: True) where read only cells are locked (non-deletable and non-editable)
+
+```yaml
+nbgrader:
+   LockCells.lock_readonly_cells: True
+```
+to the `.codio-jupyter` file
+
+LockCells.lock_solution_cells : Bool
+
+Default: True
+
+Whether solution cells are locked (non-deletable and non-editable)
+
+(Use Case for the above: To have more control over cells )
+
+ExecutePreprocessor.interrupt_on_timeout : Bool
+
+Default: False
+
+If execution of a cell times out, interrupt the kernel and continue executing other cells rather than throwing an error and stopping.
+
 At present we do not have any additional options, but have plans in the future to allow to specify port for `.jupyter` or access tokens.
 If you require any assistance at all, please don't hesitate to [contact us](/docs/dashboard/support/)
-
-

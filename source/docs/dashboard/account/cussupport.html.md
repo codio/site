@@ -16,8 +16,6 @@ If you are logged into Codio, you can access the documentation section in 2 ways
 - if on the Dashboard, by selecting the **Help** button from the left-hand menu.
 - or if you have a project/unit open, from the top menu bar using Help>Documentation
 
-Our customer team is available to help you with any questions from 9am - 5:30pm London GMT time, Monday through Friday. 
-
 To contact us:
 
 - There is a contact button on the bottom right hand corner of our website.
@@ -27,7 +25,7 @@ If you are logged into Codio:
 - if on the Dashboard, you can use the **Contact Us** button from the left-hand menu (just below the **Help** button) 
 - or if you have a project/unit open, from the top menu bar using **Help>Support/Contact Us**. 
 
-If it is out of our standard office hours, we will get back to you as soon as possible.
+If it is out of our office hours, we will get back to you as soon as possible.
 
 
 ### Sales Inquiries 

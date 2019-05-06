@@ -11,6 +11,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**May 2019**
+
+- `[F] [06th]`: Add additional configuration options for [nbgrader/jupyter](/docs/classes/monitor/nbgrader#nbgradertimeout) units
+- `[I] [03rd]`: Improve handling of autograder custom scripts
+
 **April 2019**
 
 - `[I] [30th]`: Add `python working directory` parameter for [Advanced Code Test](/docs/content/authoring/assessments/assessments-code-tests/) to support python unit tests running from dot folders

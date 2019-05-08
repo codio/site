@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **May 2019**
 
+- `[I] [07th]`: Fix issue with library path not saving correctly in JUnit settings
+- `[I] [07th]`: Fix issue with [debugger](/docs/ide/features/debugging/) with Node 11
 - `[F] [06th]`: Add additional configuration options for [nbgrader/jupyter](/docs/classes/monitor/nbgrader#nbgradertimeout) units
 - `[I] [03rd]`: Improve handling of autograder custom scripts
 

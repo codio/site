@@ -70,27 +70,23 @@ to the `.codio-jupyter` file
 
 #### Lock all solution cells
 
-To lock all solution cells (Default: True) where read only cells are locked (non-deletable and non-editable)
+To lock all solution cells (Default: True) where solution cells are locked (non-deletable and non-editable)
 
 ```yaml
 nbgrader:
-   LockCells.lock_readonly_cells: True
+   LockCells.lock_solution_cells: True
 ```
 to the `.codio-jupyter` file
 
-LockCells.lock_solution_cells : Bool
-
-Default: True
-
-Whether solution cells are locked (non-deletable and non-editable)
-
-(Use Case for the above: To have more control over cells )
-
-ExecutePreprocessor.interrupt_on_timeout : Bool
-
-Default: False
+#### Execute preprocessor on timeout
 
 If execution of a cell times out, interrupt the kernel and continue executing other cells rather than throwing an error and stopping.
 
-At present we do not have any additional options, but have plans in the future to allow to specify port for `.jupyter` or access tokens.
-If you require any assistance at all, please don't hesitate to [contact us](/docs/dashboard/support/)
+```yaml
+nbgrader:
+   ExecutePreprocessor.interrupt_on_timeout: True
+```
+to the `.codio-jupyter` file
+
+
+If you require any assistance at all, or would like us to consider adding additional functions, please don't hesitate to [contact us](/docs/dashboard/support/)

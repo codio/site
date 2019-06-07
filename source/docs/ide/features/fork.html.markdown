@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-You can fork any 3rd party public project into your account. If you are looking at a forked project, then it will look like this.
+You can fork any 3rd party public project into your account going to `Project>Fork`. If you are looking at a forked project, then it will look like this.
 
 <img alt="authtoken" src="/img/docs/fork-ide.png" class="simple"/>
 

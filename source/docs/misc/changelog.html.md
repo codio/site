@@ -11,6 +11,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**June 2019**
+
+- `[I] [19th]`: Update Dashboard pages for better accessibility
+- `[I] [17th]`: Improve handling of publication of large units
+- `[I] [11th]`: Fix issue with showing/hiding folders in guides
+
 **May 2019**
 
 - `[I] [17th]`: Fix guides navigation problem causing layout to be incorrect

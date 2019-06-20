@@ -33,7 +33,7 @@ Use this to download a CSV of user access to units in the class. Details include
 - Last name
 - Date/time when user logged in
 - Access type (Log In, Log Out, Project Open, Project Close)
-- Unit name
+- Unit name (n.b Book based units will report the name of the book)
 - Role in class (ie Teacher/Student)
 - Project path
 - IP address (IP address associated with login session)

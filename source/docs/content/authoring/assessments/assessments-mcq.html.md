@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+**Please note that we have recently re factored the assessment dialog screens. The documentation will be updated shortly to reflect the changes but if you have any questions please don't hesitate to [contact us](/docs/dashboard/support/)**
+
 Codio support both single and multiple response versions of MCQs.
 
 ## Assessment definition

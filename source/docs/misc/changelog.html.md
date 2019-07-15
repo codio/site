@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2019**
 
+- `[I] [11th]`: Improve handling of long class names
+- `[I] [11th]`: Fix problem with [color picker](/docs/ide/editing/color-preview)
 - `[I] [02nd]`: Update Class Dashboard pages and other menus for better accessibility
 
 **June 2019**

@@ -4,6 +4,8 @@ class_name: docs
 full_width: true
 ---
 
+**Please note that we have recently re factored the assessment dialog screens. The documentation will be updated shortly to reflect the changes but if you have any questions please don't hesitate to [contact us](/docs/dashboard/support/)**
+
 If you want to write code tests that give you in depth control by allowing you to write your own code to execute tests, then please [refer to the advanced code tests](/docs/content/authoring/assessments/assessments-code-tests/). The majority of code tests, however, can be produced without writing any code at all using standard code Tests.
 
 Standard code tests are dialog driven. You specify input data and the expected output for that input data. Codio will then execute the student code, supplying the specified input data, and compare the expected output data to the data actually output by the student code.

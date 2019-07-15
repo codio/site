@@ -8,7 +8,7 @@ The Global Assessments Library is an assessment library that all Codio users hav
 - JavaScript
 - Data Structures (in Java)
 
-Read more about assessment libraries [here](https://codio.com/docs/content/authoring/assessments/assessments-library)
+Read more about assessment libraries [here](https://codio.com/docs/content/authoring/assessments/assessments-library/overview/).
 
 ## Features of Global Library
 

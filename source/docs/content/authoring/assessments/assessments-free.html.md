@@ -4,6 +4,7 @@ class_name: docs
 full_width: true
 ---
 
+
 Free text assessments allow students to answer questions in their own words. Teachers are then able to review and manually grade their answers.
 
 ## Assessment definition

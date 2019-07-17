@@ -8,7 +8,6 @@ The Autograde Free text assessment is similar to the [free text](/docs/content/a
 
 The answer will be passed to the script as `stdin`. 
 
-
 ## Assessment definition
 
 

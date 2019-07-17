@@ -8,8 +8,6 @@ The Autograde Free text assessment is similar to the [free text](/docs/content/a
 
 The answer will be passed to the script as `stdin`. 
 
-**Please note that we have recently re factored the assessment dialog screens. The documentation will be updated shortly to reflect the changes but if you have any questions please don't hesitate to [contact us](/docs/dashboard/support/)**
-
 ## Assessment definition
 
 

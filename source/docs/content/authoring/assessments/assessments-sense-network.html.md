@@ -4,7 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-**Please note that we have recently re factored the assessment dialog screens. The documentation will be updated shortly to reflect the changes but if you have any questions please don't hesitate to [contact us](/docs/dashboard/support/)**
 
 [Sense.Education](https://www.sense.education/) is an AI-Based code analysis package to give students feedback on their code submissions and is supported in Codio in the Sense.Network assessment type.
 

@@ -4,8 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-**Please note that we have recently re factored the assessment dialog screens. The documentation will be updated shortly to reflect the changes but if you have any questions please don't hesitate to [contact us](/docs/dashboard/support/)**
-
 ## What are Parson’s Puzzles?
 
 Parson’s Problems are available on Codio as Parsons Puzzles. Parson’s Problems are great formative assessments that ask students to arrange blocks of scrambled code - allowing them to focus on the purpose and flow of the code (often including a new pattern or feature) while not worrying about syntax.

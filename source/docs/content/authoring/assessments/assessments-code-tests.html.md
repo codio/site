@@ -4,8 +4,6 @@ class_name: docs
 full_width: true
 ---
 
-**Please note that we have recently re factored the assessment dialog screens. The documentation will be updated shortly to reflect the changes but if you have any questions please don't hesitate to [contact us](/docs/dashboard/support/)**
-
 Before you read about the advanced code test, please be sure to check the [standard code tests](/docs/content/authoring/assessments/assessments-standard-code-tests/) as these require no coding at all, are very quick to set up and cover the majority of test cases you are likely to want to create.
 
 The advanced code test assessment type allows you to write code that checks code a student has written. You can write the code in any language you like provided it can be run from the command line.

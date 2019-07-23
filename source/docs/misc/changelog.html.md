@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2019**
 
+- `[I] [23rd]`: Redesign dialog pages for [assessments](/docs/content/authoring/assessments)
+- `[I] [19th]`: Add user cues when using [git remote](/docs/ide/editing/git/remotes/)
 - `[I] [11th]`: Improve handling of long class names
 - `[I] [11th]`: Fix problem with [color picker](/docs/ide/editing/color-preview)
 - `[I] [02nd]`: Update Class Dashboard pages and other menus for better accessibility

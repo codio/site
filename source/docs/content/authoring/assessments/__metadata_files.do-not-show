@@ -1,0 +1,25 @@
+### Metadata
+
+<img alt="" src="/img/docs/guides/assessment_metadata.png" class="simple"/>
+
+The Metadata section contains fields that further describe the current assessment using a variety of factors:
+
+- **Bloom's Level**: The options for this field correspond to the general levels of [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/), which is a comprehensive system of classification for educational content. If you add the current assessment to an assessment library, the value you select in this field will appear under the assessment's name and allow you to find this assessment by searching for its Bloom's level.
+- **Learning Objectives**:  What you enter in this field should reflect the specific educational goal of the current assessment. It is conventional that learning objective statements begin with "SWBAT" (Students Will Be Able To). For example, if an assessment asks the student to predict the output of a recursive code segment, then its Learning Objectives could be: _"SWBAT follow the flow of recursive execution"_. If you add the current assessment to an assessment library, the value you enter in this field will appear under the assessment's name and allow you to find this assessment by searching for its learning objectives.
+- **Tags**: In addition to Bloom's Level and Learning Objectives, you may add arbitrary tags to an assessment in order to facilitate its discovery in the assessment library catalog. By adding a tag, you allow the current assessment to be found using additional keywords in assessment library catalog queries. The existing tags, **Content** and **Programming Language**, are required. To add your own tags, click **Add Tag** and populate their names and values in the empty input boxes at the bottom.
+
+For example, if you populate the Metadata section of a Multiple Choice assessment as follows:
+
+<img alt="" src="/img/docs/guides/assessment_metadata_example.png" class="simple"/>
+
+Then the assessment would appear in the assessment library catalog as follows:
+
+<img alt="" src="/img/docs/guides/assessment_metadata_lib.png" class="simple"/>
+
+### Files
+
+Sometimes, an assessment requires external files to function correctly. For example, if you wish to include an image in an assessment's instructions, your assessment would require the image to be present; if you have a custom grading script for an [Advanced Code Test](/docs/content/authoring/assessments/assessments-code-tests/), your assessment would require the script to be present. The Files section allows you to specify the current assessment's file dependencies such that if the assessment is ever distributed to students or other instructors through an assessment library, its dependencies are also included.
+
+<img alt="" src="/img/docs/guides/assessment_files.png" class="simple"/>
+
+To mark a file to be included with the assessment, simply locate it in the file tree under **Project files** and tick the checkbox next to its name. Ticked files will appear under **Additional content**.

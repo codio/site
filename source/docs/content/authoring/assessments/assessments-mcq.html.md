@@ -4,7 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-Codio supports both single and multiple response versions of Multiple Choice Questions (MCQs).
+
+Codio support both single and multiple response versions of MCQs.
+
 
 ## Assessment definition
 The configuration fields for an assessment are split into five sections: General, Execution, Grading, Metadata, and Files.

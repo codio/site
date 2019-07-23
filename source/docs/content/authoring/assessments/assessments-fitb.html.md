@@ -4,7 +4,9 @@ class_name: docs
 full_width: true
 ---
 
-A "fill in the blank" question comes in two flavors.
+
+A 'fill in the blank' question comes in two flavours.
+
 
 ## Free Text
 The example below shows a typical question where the student has to complete the missing words. This is then auto-marked by the Guide as explained below.

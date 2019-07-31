@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2019**
 
+- `[I] [30th]`: Add `currentPage` and `totalNumberofPages` parameters for [custom scripts](/docs/dashboard/create/custom-script/)
+- `[I] [30th]`: Fix problem with contact URL settings in IDE chat area
+- `[I] [29th]`: Fix issue with sorting of new classes being added
+- `[I] [25th]`: Fix issue with guides section list not correctly showing for completed unit
+- `[I] [23rd]`: Fix problem with focus on guides pages
 - `[I] [23rd]`: Redesign dialog pages for [assessments](/docs/content/authoring/assessments)
 - `[I] [19th]`: Add user cues when using [git remote](/docs/ide/editing/git/remotes/)
 - `[I] [11th]`: Improve handling of long class names

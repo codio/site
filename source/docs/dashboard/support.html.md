@@ -7,10 +7,10 @@ full_width: true
 If you need support, then the most effective way is to use our integrated support system. You will find this in the dashboard and the IDE.
 
 ### Dashboard
-Support is available in the dashboard from the **Contact Us** link on the left.
+Support is available in the dashboard from the **Chat** link on the left.
 
 ### IDE
-Support is available within the IDE from the **Help** menu item, then **Support/Contact Us**.
+Support is available within the IDE from the **Help** menu item, then **Support**.
 
 ### Support Dialog
 There is a support dialog that appears when you invoke the support option. This tracks all conversations and threads you have had with Codio and where you can also start a new conversation.

@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **July 2019**
 
+- `[I] [31st]`: Update handling of [viewing Git repo's](/docs/ide/editing/git/git-viewing/) in Codio account
 - `[I] [30th]`: Add `currentPage` and `totalNumberofPages` parameters for [custom scripts](/docs/dashboard/create/custom-script/)
 - `[I] [30th]`: Fix problem with contact URL settings in IDE chat area
 - `[I] [29th]`: Fix issue with sorting of new classes being added

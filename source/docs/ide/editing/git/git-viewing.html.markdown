@@ -6,43 +6,48 @@ full_width: true
 
 GitHub let's you browse around a repo but it's not the same as using an IDE. Codio gives you a great way of viewing any GitHub (or Git) repo. For web apps, you can even run and [preview](/docs/ide/features/inline-preview) within Codio.
 
-## Simple Approach
-The first approach is great for anyone wanting to put a simple button into a GitHub README page and then, when clicked, it creates a Codio fork in an anonymous account.
+## Offering link/button in the repo readme.md file
 
-The advantage of this approach is that changes you make to your repo will be automatically shown in Codio as it creates a brand new Codio project whenever clicked on.
+This is great for anyone wanting to offer a link into a GitHub README page and then, when clicked, it initiates the creation of a project, importing in from the repo for the user in their Codio account.
+
+The advantage of this approach is that changes you make to your repo will be automatically shown in Codio as it creates a brand new Codio project whenever clicked on. If a project of that name already exists, users can change the name on the project creation page.
 
 <img alt="create from GitHub" src="/img/docs/github-readme.png" class="simple"/>
 
 
-You just use the following link in your GitHub README file (or anywhere else for that matter).
+You just use the following link format in your GitHub README file (or anywhere else for that matter).
 
 ```
-https://codio.com/p/create/?from_github=your_github_name/your_repo_name
+https://codio.com/home/projects/new?importType=git&activeTab=3&name=your_codio_project_name&importGitUrl=git@github.com:your_github_name/your_repo_name&stackVersion=stack_version_id
+
 ```
 
 In some cases, you may want to specify a specific branch. The common usage for this is if you have a demo or GitHub Pages site that you want to load into Codio. In this case you do the following
 
 ```
-https://codio.com/p/create/?from_github=your_github_name/your_repo_name&branch=other_branch
+https://codio.com/home/projects/new?importType=git&activeTab=3&name=your_codio_project_name&importGitUrl=git@github.com:your_github_name/your_repo_name&branch=other_branch&stackVersion=stack_version_id
+
 ```
+
+### Finding the stack version ID
+
+Go to the **Stacks** area and find the appropriate stack you wish to be used with your repo. Select **Use Stack** and from the address bar you will see the stack version ID to add to your link
+
+Example showing the **Empty Stack** stack version ID
+
+<img alt="Empty Stack Version ID" src="/img/docs/stackversionid.png" class="simple"/>
+
+
 
 You are free to use any way of linking to Codio but we would recommend using the following images
 
 <img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/open-in-ide.png" class="simple"/>
 <img alt="show" src="https://codio-public.s3.amazonaws.com/sharing/demo-in-ide.png" class="simple"/>
 
-## Advanced Approach
-This method uses the **Project->Share** menu option to allow people to link to a Codio project that you created. The advantages over the simple approach are speed and layout.
-
-As you are creating the project and may want to retain the **Panel** and **Tab** layout, you can use this option to provide a link that loads quickly and with the desired layout.
-
-The drawback with this approach is that any changes you make to the GitHub repo outside of Codio will need to be pulled into Codio to ensure it is up to date.
-
-<img alt="create from GitHub" src="/img/docs/panel-overview.png" class="simple"/>
 
 
 
-### How get a Git repo into Codio
+### How get manually import a Git repo into Codio
 
 <img alt="create from GitHub" src="/img/docs/github-clone-url.png" class="simple"/>
 
@@ -58,21 +63,5 @@ The drawback with this approach is that any changes you make to the GitHub repo 
 <img alt="create from GitHub" src="/img/docs/github-create.png" class="simple"/>
 
 
-### Repo owners - provide an even better experience
-If you are a repo maintainer and you want to offer a super fast way for people to see, in an IDE, your repo code or maybe a demo then...
 
-- follow the steps, described in the above section, to create a Codio project in your own account
-- now select the **Project->Share** menu item ([explained in detail here](/docs/ide/features/sharing/))
-- Now select the Markdown option
-- Copy and paste one of the button options into your `README.md` file and you'll get a nice button your users can click
-
-<img alt="sharing" src="/img/docs/sharing.png" class="simple"/>
-
-Now, anyone viewing the `README.md` can click on the button and they'll be instantly taken to the project.
-
-<img alt="create from GitHub" src="/img/docs/github-readme.png" class="simple"/>
-
-
-
-And don't forget that Codio is [Git integrated](/docs/ide/editing/git), so you can update your project at any time simply by pulling from GitHub.
 

@@ -11,6 +11,12 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**August 2019**
+
+- `[F] [14th]`: Add support for [bookstores](/docs/misc/bookstore- `[I] [02nd]`:)
+- `[I] [09th]`: Fix problem accessing projects in 'Shared with Me' area
+- `[I] [02nd]`: Fix problem deleting modules in course
+
 **July 2019**
 
 - `[I] [31st]`: Update handling of [viewing Git repo's](/docs/ide/editing/git/git-viewing/) in Codio account

@@ -10,6 +10,6 @@ full_width: true
 ### How to apply for Bookstore organisation
 
 
-### How students use bookstore code to use Codio
+### How students use bookstore access codes to sign up to use Codio
 
 See [Individual Billing](/docs/dashboard/account/billing-ind#bookstore) for more details

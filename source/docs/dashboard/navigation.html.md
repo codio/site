@@ -20,6 +20,6 @@ Here are the main options from the dashboard.
 - **My Books**: books lets you build a complete book, with chapters, sections and pages that can be nested to any depth to form a table of contents and associated content that mirrors a normal book structure. Parts of a book can then be mapped to course units for class assignments. [About books](/docs/books)
 - **Stacks**: Stacks are templated snapshots of a project's software configuration and are a very important and powerful feature of Codio. If you are assigning content to classes of students, it is very important you have a full understanding of stacks. [About stacks](/docs/project/stacks/stack-overview).
 - **Starter Packs**: a Starter Pack is a templated snapshot of a project's code workspace. Additionally a stack is specified. The result is an instantly startable snapshot of a fully configured environment. [About starter packs](/docs/project/packs/overview).
-- **Dcoumentation**: a link to the general document. [Documentation link](/docs).
+- **Documentation**: a link to the general document. [Documentation link](/docs).
 - **Chat**: this is our integrated support environment. If you need assistance from us, click here to leave us a detailed message and we will get back to you quickly.  
 

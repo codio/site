@@ -13,7 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2019**
 
-- `[F] [14th]`: Add support for [bookstores](/docs/misc/bookstore- `[I] [02nd]`:)
+- `[F] [14th]`: Add support for [bookstores](/docs/misc/bookstore)
 - `[I] [09th]`: Fix problem accessing projects in 'Shared with Me' area
 - `[I] [02nd]`: Fix problem deleting modules in course
 

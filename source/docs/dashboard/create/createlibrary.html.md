@@ -22,12 +22,15 @@ In addition to Codio's global assessments library, you can create Organization a
 1. Enter the name of the assessments library you want to create and press “Create”
 <img alt="Assessments Library" src="/img/docs/namelibrary.png" class="simple"/>
 
+Read more about assessment libraries [here](/docs/content/authoring/assessments-library/overview).
+
 ### Add Collaborators to an Assessments Library
 
-1. Under the Assessments Library tab, click on the library you want to add collaborators to
+* Under the Assessments Library tab, click on the library you want to add collaborators to
 <img alt="Assessments Library" src="/img/docs/librarysettings.png" class="simple"/>
 
-1. Click on the Permissions tab.
+<a name="orgLibPermissions"></a>
+* Click on the Permissions tab.
 	
 **Add Permission:** Either type the user name or use the drop down arrow to select an organization member to give permission to. By default, the collaborators are given “Read” permission, meaning they cannot add to or edit assessments in the library. To give a user “Write” permission, simply select the permission level next to their user name in the list.
 
@@ -36,4 +39,3 @@ In addition to Codio's global assessments library, you can create Organization a
 <img alt="Assessments Library" src="/img/docs/librarypermissions.png" class="simple"/>
 
 **Remove:** To remove a collaborator, simply press the “Remove” button next to their user name. Please note that is “Read permission for teachers” is turned on, that user may still have read permission if they are still a teacher account and a member of the organization.
-

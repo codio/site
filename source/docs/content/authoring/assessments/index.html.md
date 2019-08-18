@@ -6,5 +6,5 @@ full_width: true
 
 [Click here](/docs/content/authoring/assessments/overview) for an introduction to assessments.
 
-Please note that we have recently re factored the assessment dialog screens. The documentation will be updated shortly to reflect the changes but if you have any questions please don't hesitate to [contact us](/docs/dashboard/support/)
+Please note that we have recently re factored the assessment dialog screens. If you have any questions please don't hesitate to [contact us](/docs/dashboard/support/)
 

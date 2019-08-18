@@ -1,5 +1,8 @@
-## Global Assessments Library
-
+---
+title: "Codio's Global Assessments Library"
+class_name: docs
+full_width: true
+---
 The Global Assessments Library is an assessment library that all Codio users have read-only access to. The library contains auto-graded assessment questions covering a wide variety of topics, difficulties, and assessment types. We are currently populating it with assessments in:
 
 - Java
@@ -8,17 +11,24 @@ The Global Assessments Library is an assessment library that all Codio users hav
 - JavaScript
 - Data Structures (in Java)
 
-Read more about assessment libraries [here](https://codio.com/docs/content/authoring/assessments/assessments-library/overview/).
+Read more about assessment libraries [here](/docs/content/authoring/assessments-library/overview).
 
-## Features of Global Library
+## Features of Global Assessments Library
 
 All assessments in the global library are auto-graded, there is no manual grading necessary. All assessments also contain example solutions and answer explanations for the student. Some will also have teacher notes to help better convey the intended learning objective of the assessment.
 
-## Using the Global Library
+## Using the Global Assessments Library
 
-Using the library is similar to using any other assessment library in your organization. Simply go to the assessments drop-down in the guides editor, click on "Assessment Library", and choose the **Global Assessment Library** under "Library Name".
+Using the library is similar to using any other assessment library in your organization. Simply go to the assessments drop-down in the guides editor, click on "Assessment Library", and choose the **Codio Main** under "Library Name".
 
-You can filter through the different assessments by programming language, class, assessment type, Bloom's Taxonomy level, content, and more. Once you find a suitable assessment, simply click "Select" to add it to your project.
+[You can filter through the different assessments](/docs/content/authoring/assessments-library/filters-queries) by programming language, class, assessment type, Bloom's Taxonomy level, content, and more. Once you find a suitable assessment, simply click "Select" to add it to your project.
+
+## Remixing questions from the Global Assessments Library
+If you like an assessment in our assessments library but want to add your own twist to it, you can <a href="/docs/content/authoring/assessments-library/unlinking-updating#unlinkingAssessment">disconnnect the question from the library.
+
+Then, simply modify the assessment as you'd like! 
+
+Addtionally, you can then [add your version of the assessments to your organization's assessment library.](/docs/content/authoring/assessments-library/assessments-to-library)
 
 ## Bugs
 

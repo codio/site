@@ -38,10 +38,9 @@ NOTE: A single subscription can be used for multiple courses using Codio during 
 
 #### Activating a bookstore license
 
-To log in to Codio, please follow your instructor's directions—it may be through your local LMS (Canvas, Blackboard, Desire2Learn, Moodle, etc) or through Codio.com using a class token.
+To log in to Codio, please follow your instructor's directions. This may be through your local LMS (Canvas, Blackboard, Desire2Learn, Moodle, etc) or through Codio.com using a class token.
 
-The first time you log in, there will be a small banner at the top requesting you go to “Billing”. Please click on it or navigate to it by clicking on your username in the bottom left and selecting the “Billing” tab and after selecting the 
-"Plan" drop down field go to the **Redeem Code** option box where you can then enter the code provided to you. Please note the code is case sensitive so enter it exactly as given.
+The first time you log in, there will be a small banner at the top requesting you go to “Billing”. Please click on it or navigate to it by clicking on your username in the bottom left and selecting the “Billing” tab and after selecting the "Plan" drop down field go to the **Redeem Code** option and click the **Upgrade** button where you can then enter the code provided to you. Please note the code is case sensitive so enter it exactly as given.
 If you have any problems [contact us](/docs/dashboard/support/) through your Codio account or email us at [help@codio.com](mailto:help@codio.com)
 
 ## Educational Discounts

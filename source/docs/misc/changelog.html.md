@@ -13,6 +13,8 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2019**
 
+- `[F] [20th]`: Add [Assessments Library](/docs/content/authoring/assessments-library) to allow sharing of assessments
+- `[I] [15th]`: Fix issue with navigation after searching in guides
 - `[F] [15th]`: Add support for self pay students to purchase through institutions [bookstores](/docs/dashboard/account/billing-ind#bookstore)
 - `[I] [09th]`: Fix problem accessing projects in 'Shared with Me' area
 - `[I] [02nd]`: Fix problem deleting modules in course

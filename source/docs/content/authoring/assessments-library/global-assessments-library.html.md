@@ -38,11 +38,11 @@ Here is an example of the tags in a Codio library assessment:
 <a href="/docs/content/authoring/assessments-library/filters-queries#previewQuestion">(You can even get a small preview of the question text!)</a> Once you find a suitable assessment, <a href="/docs/content/authoring/assessments-library/filters-queries#addQuestion">add it to your project.</a>
 
 ## Remixing questions from the Global Assessments Library
-If you like an assessment in our assessments library but want to add your own twist to it, you can <a href="/docs/content/authoring/assessments-library/unlinking-updating#unlinkingAssessment">disconnnect the question from the library.
+If you like an assessment in our assessments library but want to add your own twist to it, you can <a href="/docs/content/authoring/assessments-library/unlinking-updating#unlinkingAssessment">disconnect the question from the library.
 
 Then, simply modify the assessment as you'd like! 
 
-Addtionally, you can then [add your version of the assessments to your organization's assessment library.](/docs/content/authoring/assessments-library/assessments-to-library)
+Additionally, you can then [add your version of the assessments to your organization's assessment library.](/docs/content/authoring/assessments-library/assessments-to-library)
 
 ## Bugs
 If you find a bug or error with an assessment, please email us at help@codio.com

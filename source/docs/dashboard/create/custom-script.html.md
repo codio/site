@@ -36,6 +36,8 @@ e.g.
 console.log('params', codio);
 console.log('params', window);
 console.log('params', document)
+console.log(window.codio.currentPage)
+console.log(window.codio.totalNumberOfPages)
 ```
 
 <img alt="Custom script" src="/img/docs/manage_organization/customscript.png" class="simple"/>

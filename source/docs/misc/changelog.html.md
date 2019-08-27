@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2019**
 
+- `[F] [28th]`: Add [Codio Global Assessment library](/docs/content/authoring/assessments-library/global-assessments-library)
+- `[I] [27th]`: Add hint to student tab in classes for number of students
+- `[I] [27th]`: Update handling of answer/rationale showing for students
 - `[F] [20th]`: Add [Assessments Library](/docs/content/authoring/assessments-library) to allow sharing of assessments
 - `[I] [15th]`: Fix issue with navigation after searching in guides
 - `[F] [15th]`: Add support for self pay students to purchase through institutions [bookstores](/docs/dashboard/account/billing-ind#bookstore)

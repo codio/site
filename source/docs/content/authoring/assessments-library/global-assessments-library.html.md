@@ -22,28 +22,28 @@ All assessments in the global library are auto-graded, there is no manual gradin
 
 Using the library is similar to using any other assessment library in your organization. Simply go to the assessments drop-down in the guides editor, click on "Assessment Library", and choose the **Codio Main** under "Library Name".
 
-[You can filter through and the different assessments](/docs/content/authoring/assessments-library/filters-queries) by:
+[You can filter through the different assessments](/docs/content/authoring/assessments-library/filters-queries) by:
 - Programming language
 - Assessment type
 - Category (topic-level)
 - Content (sub-topic level)
 - Learning Objective (in SWBAT form - "Students will be able to....")
 - Bloom's Taxonomy level
-   <img alt="authtoken" src="/img/docs/bloomsTax.png" class="simple"/>
+   <img alt="Blooms Taxonomy" src="/img/docs/bloomsTax.png" class="simple"/>
 
 Here is an example of the tags in a Codio library assessment:
-<img alt="authtoken" src="/img/docs/CodioLibTags.png" class="simple"/>
+<img alt="Codio library" src="/img/docs/CodioLibTags.png" class="simple"/>
 
 *Assessment type is auto-detected and not manually specified.*
 
-<a href="/docs/content/authoring/assessments-library/filters-queries#previewQuestion">(You can even get a small preview of the question text!)</a> Once you find a suitable assessment, <a href="/docs/content/authoring/assessments-library/filters-queries#addQuestion">add it to your project.</a>
+[You can even get a small preview of the question text!](/docs/content/authoring/assessments-library/filters-queries#previewQuestion) Once you find a suitable assessment, [add it to your project](/docs/content/authoring/assessments-library/filters-queries#addQuestion).
 
 ## Remixing questions from the Global Assessments Library
-If you like an assessment in our assessments library but want to add your own twist to it, you can <a href="/docs/content/authoring/assessments-library/unlinking-updating#unlinkingAssessment">disconnect the question from the library.
+If you like an assessment in our assessments library but want to add your own twist to it, you can [disconnect the question from the library](/docs/content/authoring/assessments-library/unlinking-updating#unlinkingAssessment).
 
 Then, simply modify the assessment as you'd like! 
 
-Additionally, you can then [add your version of the assessments to your organization's assessment library.](/docs/content/authoring/assessments-library/assessments-to-library)
+Additionally, you can then [add your version of the assessments to your organization's assessment library](/docs/content/authoring/assessments-library/assessments-to-library).
 
 ## Bugs
 If you find a bug or error with an assessment, please email us at help@codio.com

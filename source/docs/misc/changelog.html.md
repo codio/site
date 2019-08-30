@@ -13,6 +13,9 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **August 2019**
 
+- `[I] [29th]`: Fix problem with marking units as completed
+- `[I] [28th]`: Update handling of grade book comments
+- `[I] [28th]`: Improve stack creation when creating from an older stack
 - `[F] [28th]`: Add [Codio Global Assessment library](/docs/content/authoring/assessments-library/global-assessments-library)
 - `[I] [27th]`: Add hint to student tab in classes for number of students
 - `[I] [27th]`: Update handling of answer/rationale showing for students

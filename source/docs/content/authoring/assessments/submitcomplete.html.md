@@ -27,6 +27,8 @@ A student can proactively mark as unit as complete. This can trigger a [unit lev
 
 The drawback to using the student driven mark as complete option is that once students mark a unit as complete, they are no longer able to make changes to the unit, including answering assessments. The advantage is that instructors are able to grade those students' work ahead of a deadline.
 
+If the project has been marked as completed, students can click on the 'completed' button to access the grade feedback but if they wish to view the project, direct them to click on the name of the project on the left hand side. As the unit is completed they will not be able to edit anything but can view the content.
+
 It is possible to disable the student side mark as complete option entirely so students do not need to think about doing it. It also means that instructors don't get requests from students to re-enable the unit if they submitted by mistake or decided they want to change something.
 
 If you do not want students to mark as complete, then you will likely want to do one of the following

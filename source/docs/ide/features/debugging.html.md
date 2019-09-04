@@ -108,6 +108,27 @@ The debug panel also contains other useful features.
 - **Breakpoints** - this lists all the breakpoints currently set in any of your code files. You can disable them by unchecking the boxes.
 - **Console** - the console has two main functions; it displays status messages from the system in bold and your code can output data there by writing output to the console  (for example a `print('message')` statement in Python).
 
+### Support for the standard input when debugging
+
+Support for stdin is available for:
+
+- C/C++ 
+- Node.js 
+- GDB
+
+Node example:
+
+```javascript
+function testStdIn() {
+    console.log("What is your name?");
+    process.stdin.once('data', (chunk) => {
+        let name = chunk.toString();
+        console.log("Hello, " + name + "!");
+    });
+}
+
+testStdIn()
+```
 
 ### Launching the debugger from Codio content
 It is also possible to launch any debugger configuration from a page. Please [click here](/docs/content/authoring/page-edit/buttons/) for details.

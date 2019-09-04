@@ -11,6 +11,10 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**September 2019**
+
+- `[F] [04th]`: Add support for the standard input when [debugging](/docs/ide/features/debugging/) C/C++, node.js and GDB programs.
+
 **August 2019**
 
 - `[I] [29th]`: Fix problem with marking units as completed

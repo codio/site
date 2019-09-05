@@ -32,7 +32,7 @@ In your browser go to `Safari> Preferences`
 <img alt="Safari" src="/img/docs/safari.png" class="simple"/>
 Select the **Privacy** tab and ensure check **Block all cookies** and **Prevent cross-site tracking** are not checked.
 
-<img alt="Safari Cookies" src="src="/img/docs/crosssitetracking.png" class="simple"/>
+<img alt="Safari Cookies" src="/img/docs/crosssitetracking.png" class="simple"/>
 
 If using an earlier version of Safari, check **Always Allow** in the Cookies and website data section
 

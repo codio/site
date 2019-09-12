@@ -22,7 +22,7 @@ To contact us:
 
 If you are logged into Codio:
 
-- if on the Dashboard, you can use the **Contact Us** button from the left-hand menu (just below the **Help** button) 
+- if on the Dashboard, you can use the **Support** button from the left-hand menu (just below the **Help** button) 
 - or if you have a project/unit open, from the top menu bar using **Help>Support/Contact Us**. 
 
 If it is out of our office hours, we will get back to you as soon as possible.

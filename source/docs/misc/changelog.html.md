@@ -13,6 +13,7 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **September 2019**
 
+- `[I] [09th]`: Fix problem with handling of answer/rationale for free text assessment
 - `[F] [04th]`: Add support for the standard input when [debugging](/docs/ide/features/debugging/) C/C++, node.js and GDB programs.
 
 **August 2019**

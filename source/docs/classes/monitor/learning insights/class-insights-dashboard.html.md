@@ -6,7 +6,7 @@ full_width: true
 
 The Class Insights Dashboard gives a general overview about class logistics and performance.
 
-<img alt="ClassDashboard" src="/img/docs/insights/Class.jpg" class="simple"/>
+<img alt="ClassDashboard" src="/img/docs/insights/Class.png" class="simple"/>
 
 
 Key Features:

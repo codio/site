@@ -16,6 +16,11 @@ This feature is accessible via the main settings tab.
 
 For more information on using **Mark as complete** please [click here](/docs/content/authoring/assessments/submitcomplete).
 
+### Penalties
+
+If applying penalties for late submission it is recommended that you set the end date/time for the unit to the last date/time of your penalties. 
+You can set the penalty date/time after the unit end date/time but for students to then be able to work you will need to change the individual students unit status from [Completed](/docs/classes/unitmanagement/settings-info/complete-unit/) and also adjust the [deadline](/docs/classes/unitmanagement/settings-info/penalties/) for each of them. 
+
 ### Time Zones
 The time zone is taken automatically from your browser, so please check your time settings are correct.
 

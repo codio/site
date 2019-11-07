@@ -16,7 +16,7 @@ The grouping intervals are
 
 ### Ordering classes within their groups
 
-Classes can be ordered by Name or Creation Date within the groups
+Classes can be ordered by Name, Creation Date or Begin Date within the groups
 
 <img alt="CreateDate" src="/img/docs/manage_classes/orderclass.png" class="simple"/>
 

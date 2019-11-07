@@ -11,6 +11,16 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**November 2019**
+
+- `[I] [06th]`: Update messaging when unable to publish jupyter based units
+- `[I] [05th]`: Update handling of users signing up through LMS
+
+**October 2019**
+
+- `[F] [16th]`: Add function to allow [Classes](/docs/classes/classmanagement/searchclass/) to be sorted by begin date of class
+- `[I] [02nd]`: Fix problem with AOB allocation for self pay organisations
+
 **September 2019**
 
 - `[I] [27th]`: Improve handling of autograde scripts for large units

@@ -13,6 +13,11 @@ We do not report small bug fixes or issues that affect individual users, who we 
 
 **November 2019**
 
+- `[I] [22nd]`: Improve visibility of assessment id to list of assessments
+- `[I] [21st]`: Fix problem uploading images to stacks/packs/units/books/course/modules
+- `[I] [19th]`: Fix problem with assessment button not showing
+- `[F] [17th]`: Add support for [LTI 1.3](/docs/classes/lti/lti1_3) integration
+- `[I] [11th]`: Fix problem connecting to BitBucket repo's
 - `[I] [06th]`: Update messaging when unable to publish jupyter based units
 - `[I] [05th]`: Update handling of users signing up through LMS
 

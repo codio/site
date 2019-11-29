@@ -12,7 +12,7 @@ Codio offers an integrated, language specific debugger. Codio currently supports
 - NodeJS
 - C and C++
 
-If you would like support for any languages that do not appear in the list, please contact us and we can look into adding it.
+If you would like support for any languages that do not appear in the list, please [contact us](/docs/dashboard/support/) and we can look into adding it.
 
 ### Sample project
 If you created the account for your Codio Trial account then you will find **Demo Codio Debugger** in your My Projects list. You will find instructions in the README.md file when you open the project.

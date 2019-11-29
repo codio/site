@@ -12,8 +12,8 @@ The following steps need to be taken only one time per class.
 ### In Codio
 
 - Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **My Organizations**.
-- Select the **Organization Settings** near the top of the page.
-- Scroll down to the **LTI Integration** section. You should see the following fields. Remain on this screen for the time being.
+- Select the **LTI Integrations** tab.
+- Scroll down to the **LTI Integration 1.0** section. You should see the following fields. Remain on this screen for the time being.
 
 <img alt="LTI Fields" src="/img/docs/lti/lti-org-fields.png" class="simple"/>
 

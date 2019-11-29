@@ -21,6 +21,8 @@ You will not have access to the Moodle/LMS features unless you have an education
 
 **Important** : Codio needs the User Role, Email Address and Name of the Moodle user in order to work. It is important that you access the LTI security settings and ensure that these three fields are always enabled.
 
+**Please note** : Since these videos were created, the Codio keys are now found on the **LTI Integration** tab in your organisation **My Organistaions** area
+
 <iframe src="https://player.vimeo.com/video/170350745" width="640" height="442" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 

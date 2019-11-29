@@ -21,8 +21,8 @@ LTI keys are accessible to [Codio Organization Owners](/docs/dashboard/create/ad
 To find these keys:
 
 - Go to your organization account settings by clicking on your user name in the bottom left of your dashboard and then selecting your organization within **My Organizations**.
-- Select the **Organization Settings** near the top of the page.
-- Scroll down to the **LTI Integration** section. You should see the following fields.
+- Select the **LTI Integrations** tab.
+- Scroll down to the **LTI Integration 1.0** section. You should see the following fields.
 
 
 <img alt="lti-keys" src="/img/docs/lti/lti-org-fields.png" class="simple"/>

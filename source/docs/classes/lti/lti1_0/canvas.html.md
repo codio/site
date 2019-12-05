@@ -4,7 +4,7 @@ class_name: docs
 full_width: true
 ---
 
-Please be sure to check out the [Codio LTI App](/docs/classes/lti/ltiapp) which allows for an easy way to integrate and to map Codio class units to your Canvas system.
+Please be sure to check out the [Codio LTI App](/docs/classes/lti/lti1_0/ltiapp) which allows for an easy way to integrate and to map Codio class units to your Canvas system.
 
 ## Preparation
 The following steps need to be taken only one time per class.

@@ -7,7 +7,7 @@ Enabling this setting allows existing Codio class content used in your LMS to be
 
 **Please note the screenshots below are for implementation in Canvas but other LMS systems should be similar. Refer to their documentation for more assistance**
 
-First enable [LTI Constant URLs](/docs/classes/lti/lticonstanturl) for your class.
+First enable [LTI Constant URLs](/docs/classes/lti/lti1_0/lticonstanturl) for your class.
 
 - In your existing Codio class, enable the **Enable LTI class fork** button, and save your changes
 

@@ -21,7 +21,7 @@ Class data (including students workspaces) can be exported. We would recommend t
 
 Individual units data can also be exported separately if required. See [export unit data](/docs/classes/unitmanagement/settings#exportunitdata) for more details
 
-If your class is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/docs/classes/lti/keys#exportlti) for more information.
+If your class is LTI enabled you can also download all the unit LTI intergration URL's in a csv file. See [Exporting LTI settings](/docs/classes/lti/lti1_0/keys#exportlti) for more information.
 
 
 ### User Access Data
@@ -46,7 +46,7 @@ Use this to download a CSV of user access to units in the class. Details include
 Collection and storage of this data started 29th Jan and will be retained for maximum of 6 months.
 
 ### LTI Settings
-For more information see [Exporting LTI settings](/docs/classes/lti/keys/)
+For more information see [Exporting LTI settings](/docs/classes/lti/lti1_0/keys/)
 
 ### Working with student workspaces
 

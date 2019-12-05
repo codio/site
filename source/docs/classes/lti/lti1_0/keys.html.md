@@ -8,11 +8,11 @@ full_width: true
 
 **Class and Unit URLs** will be copied and pasted into your LMS system, once for the LMS class/course and once for each LMS unit/assignment.
 
-We have platform specific integration documentation for the following LMS platforms, although for most LMS systems you should be able to utilise the **[Codio LTI App](/docs/classes/lti/ltiapp)**
+We have platform specific integration documentation for the following LMS platforms, although for most LMS systems you should be able to utilise the **[Codio LTI App](/docs/classes/lti/lti1_0/ltiapp)**
 
-- [Canvas](/docs/classes/lti/canvas)
-- [Blackboard](/docs/classes/lti/blackboard)
-- [Moodle](/docs/classes/lti/moodle)
+- [Canvas](/docs/classes/lti/lti1_0/canvas)
+- [Blackboard](/docs/classes/lti/lti1_0/blackboard)
+- [Moodle](/docs/classes/lti/lti1_0/moodle)
 
 ### LTI Keys
 
@@ -42,7 +42,7 @@ The LMS user who carries out these steps does not need to be a system administra
 
 ### Unit URL
 
-Please be sure to check out the [Codio LTI App](/docs/classes/lti/ltiapp) which allows for an easy way to integrate and to map Codio class units to your LMS system.
+Please be sure to check out the [Codio LTI App](/docs/classes/lti/lti1_0/ltiapp) which allows for an easy way to integrate and to map Codio class units to your LMS system.
 
 If you are unable to utilise the Codio LTI App, the **Unit URL** is where you map each individual Unit within your Codio Class to the corresponding unit/assignment in your LMS. It directs a student to the correct Codio unit and will automatically open the Codio unit.
 

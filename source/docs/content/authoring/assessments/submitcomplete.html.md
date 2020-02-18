@@ -4,6 +4,7 @@ class_name: docs
 full_width: true
 ---
 
+## Student submission options
 There are two important settings that control 
 
 - the way that a student submits individual questions and

@@ -11,6 +11,15 @@ We do not report small bug fixes or issues that affect individual users, who we 
 `[I]` = Update or improvement
 `[F]` = New feature
 
+**January 2020**
+
+- `[I] [08th]`: Remove Firefox performance warning as earlier issues now addressed in latest FF versions
+
+**December 2019**
+
+- `[I] [17th]`: Update [Phonegap](/docs/ide/tools/phonegap) API
+- `[I] [12th]`: Review handling of .git in authors units to improve collaboration
+
 **November 2019**
 
 - `[I] [22nd]`: Improve visibility of assessment id to list of assessments

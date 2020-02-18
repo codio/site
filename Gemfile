@@ -47,5 +47,5 @@ gem "compass"
 gem "susy"
 gem "breakpoint"
 
-gem "bootstrap-sass", "~> 3.3.5", :require => false
+gem "bootstrap-sass", "~> 3.4.1", :require => false
 gem "jquery-middleman"

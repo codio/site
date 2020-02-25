@@ -28,7 +28,7 @@ gem "middleman-sitemap", "~> 0.0.13"
 gem "middleman-automatic-clowncar", "~> 0.0.4"
 
 # Summaries
-gem "nokogiri", "~> 1.8.2"
+gem "nokogiri", "~> 1.10.8"
 
 # Faster JS compile
 gem 'therubyracer', "~> 0.12.2"

@@ -1,4 +1,4 @@
-# Codio Website
+# Codio Website <img src="https://codio.com/img/logo-dark-ddc1f3fb.svg" width="10%">
 
 This is the repository for the Codio website. It is primarily a
 [Middleman](http://middlemanapp.com/) application, which is a static site generator.
